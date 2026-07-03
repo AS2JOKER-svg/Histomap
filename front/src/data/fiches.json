@@ -1,0 +1,257 @@
+{
+    "fiches": {
+      "homo-sapiens": {
+        "title": "Homo Sapiens",
+        "period": "-300 000 à -10 000 av. J.-C.",
+        "summary": "L'Homo sapiens est la seule espèce humaine vivante aujourd'hui, apparue en Afrique il y a environ 300 000 ans. Doté d'un cerveau volumineux et d'une capacité de langage complexe, il a progressivement colonisé tous les continents.",
+        "keyFacts": [
+          "Apparition en Afrique il y a environ 300 000 ans (fossiles de Djebel Irhoud, Maroc).",
+          "Fabrication d'outils complexes, d'armes, de vêtements et maîtrise du feu.",
+          "Premiers comportements symboliques : enterrements, parures, art gravé.",
+          "Expansion hors d'Afrique il y a environ 60 000 ans."
+        ],
+        "legacy": "Tous les humains actuels descendent de ces premiers Homo sapiens : langage, culture, sciences et arts en sont l'héritage direct."
+      },
+      "neandertal": {
+        "title": "Homme de Néandertal",
+        "period": "-400 000 à -40 000 av. J.-C.",
+        "summary": "L'Homme de Néandertal a colonisé l'Europe et l'Asie occidentale pendant plus de 350 000 ans, s'adaptant aux climats glaciaires. Plus robuste qu'Homo sapiens, il maîtrisait des techniques de taille de pierre sophistiquées et enterrait ses morts.",
+        "keyFacts": [
+          "Présent en Europe et Asie de -400 000 à -40 000 (dernier refuge : Gibraltar).",
+          "Physique adapté au froid : corpulence trapue, nez large.",
+          "Maîtrise de la taille de pierre (méthode Levallois) et d'outils spécialisés.",
+          "Enterrement de ses morts, suggérant des comportements symboliques."
+        ],
+        "legacy": "Il a légué 1 à 4 % de leur génome aux humains non-africains, influençant immunité et tolérance au froid."
+      },
+      "art-rupestre-afrique": {
+        "title": "Art rupestre africain",
+        "period": "-30 000 à -3 000 av. J.-C.",
+        "summary": "L'art rupestre africain est l'une des plus anciennes expressions artistiques de l'humanité, peinte ou gravée sur les parois du Sahara et de l'Afrique australe. Ces œuvres racontent la vie des chasseurs-cueilleurs et leur environnement.",
+        "keyFacts": [
+          "Sites d'Afrique du Sud (Blombos) et de Namibie parmi les plus anciens au monde.",
+          "Le Sahara, alors verdoyant, est couvert de fresques de chasse et d'animaux.",
+          "Techniques variées : ocre, gravures, empreintes de mains.",
+          "Outil précieux pour reconstituer les climats et cultures du passé."
+        ],
+        "legacy": "Un patrimoine universel, témoin direct des croyances des premières sociétés humaines."
+      },
+      "lascaux": {
+        "title": "Grotte de Lascaux",
+        "period": "-19 000 à -15 000 av. J.-C.",
+        "summary": "Découverte en 1940 en Dordogne, Lascaux est la « chapelle Sixtine de la préhistoire ». Ses fresques animalières grandioses comptent parmi les plus beaux témoignages de la créativité de nos ancêtres.",
+        "keyFacts": [
+          "Peintures magdaléniennes réalisées avec ocre, charbon et manganèse.",
+          "Plus de 600 peintures : chevaux, taureaux, cerfs, mammouths.",
+          "Maîtrise de la perspective et de la superposition de couches.",
+          "Fermée au public en 1963 ; copie « Lascaux IV » ouverte en 2016."
+        ],
+        "legacy": "Elle a prouvé que l'art figuratif et la pensée symbolique précèdent l'agriculture."
+      },
+      "sumer": {
+        "title": "Sumer",
+        "period": "-3300 à -2000 av. J.-C.",
+        "summary": "Née entre le Tigre et l'Euphrate (actuel Irak), la civilisation sumérienne est souvent vue comme le berceau de la civilisation : première écriture, premières villes, premières lois.",
+        "keyFacts": [
+          "Grandes cités-États (Uruk, Ur, Eridu) dès -3300, gouvernées par un roi-prêtre.",
+          "Invention de l'écriture cunéiforme vers -3300, d'abord pour la comptabilité.",
+          "Système en base 60 encore utilisé (60 secondes, 60 minutes, 360°).",
+          "L'Épopée de Gilgamesh est le plus ancien récit épique connu."
+        ],
+        "legacy": "L'écriture sumérienne pose les bases de l'histoire, du droit et de la science."
+      },
+      "babylone": {
+        "title": "Babylone",
+        "period": "-1894 à -539 av. J.-C.",
+        "summary": "Capitale fondée vers -1894 en Mésopotamie, Babylone devient sous Hammurabi l'une des grandes puissances du Proche-Orient. Ses jardins suspendus et sa tour comptent parmi les monuments les plus mythiques de l'Antiquité.",
+        "keyFacts": [
+          "Hammurabi (1792-1750 av. J.-C.) unifie la Mésopotamie.",
+          "Le Code de Hammurabi (282 articles) est l'un des premiers codes de lois connus.",
+          "Les Jardins suspendus figurent parmi les 7 merveilles du monde antique.",
+          "Chute en -539 face à Cyrus le Grand (Empire perse)."
+        ],
+        "legacy": "Babylone a légué le premier code de lois systématisé et de grandes avancées en astronomie et mathématiques."
+      },
+      "egypte-antique": {
+        "title": "Égypte antique",
+        "period": "-3150 à -30 av. J.-C.",
+        "summary": "Née dans la vallée du Nil, l'Égypte antique a brillé pendant plus de trois millénaires : pyramides, hiéroglyphes, religion de l'au-delà et administration remarquablement organisée.",
+        "keyFacts": [
+          "Narmer unifie la Haute et la Basse Égypte vers -3150.",
+          "Pyramides de Gizeh construites vers -2560 (Khéops, Khéphren, Mykérinos).",
+          "Hiéroglyphes déchiffrés par Champollion en 1822 (pierre de Rosette).",
+          "Momification et tombes royales liées à la survie de l'âme."
+        ],
+        "legacy": "Pyramides, calendrier solaire de 365 jours et médecine avancée inspirent encore le monde."
+      },
+      "grece-antique": {
+        "title": "Grèce antique",
+        "period": "-800 à -146 av. J.-C.",
+        "summary": "Berceau de la démocratie, de la philosophie et du théâtre, la Grèce antique s'organise autour de la cité-État (polis). Athènes et Sparte en sont les figures majeures.",
+        "keyFacts": [
+          "Premiers Jeux Olympiques en -776 ; alphabet adapté du phénicien.",
+          "Athènes invente la démocratie directe au Ve siècle av. J.-C.",
+          "Socrate, Platon et Aristote fondent la pensée rationnelle.",
+          "Alexandre le Grand diffuse la culture grecque jusqu'en Inde."
+        ],
+        "legacy": "Démocratie, philosophie et sciences grecques sont les fondements de la culture occidentale."
+      },
+      "rome-antique": {
+        "title": "Rome antique",
+        "period": "-753 av. J.-C. à 476 ap. J.-C.",
+        "summary": "De petite cité latine à maîtresse de la Méditerranée, Rome a légué un droit, une administration et des langues qui structurent encore le monde. République puis Empire ont duré plus de mille ans.",
+        "keyFacts": [
+          "République (509-27 av. J.-C.) dirigée par deux consuls et le Sénat.",
+          "Jules César conquiert la Gaule (58-50 av. J.-C.).",
+          "Apogée sous Trajan (98-117 ap. J.-C.) : 50 à 70 millions d'habitants.",
+          "Le latin a donné les langues romanes (français, espagnol, italien...)."
+        ],
+        "legacy": "Droit civil, architecture (arcs, dômes) et État de droit administratif sont son héritage."
+      },
+      "empire-byzantin": {
+        "title": "Empire byzantin",
+        "period": "330 à 1453",
+        "summary": "Héritier de Rome d'Orient, centré sur Constantinople, l'Empire byzantin a duré plus de mille ans. Gardien de la culture antique et du christianisme orthodoxe, il tombe en 1453.",
+        "keyFacts": [
+          "Constantin fonde Constantinople en 330.",
+          "Justinien (527-565) bâtit Sainte-Sophie et codifie le droit romain.",
+          "Manzikert (1071) ouvre l'Anatolie aux Turcs.",
+          "Prise de Constantinople par Mehmed II le 29 mai 1453."
+        ],
+        "legacy": "Il a transmis l'héritage gréco-romain au Moyen Âge et nourri la Renaissance."
+      },
+      "francs": {
+        "title": "Royaume des Francs",
+        "period": "481 à 987",
+        "summary": "Fondé par Clovis en 481, le Royaume franc est la première monarchie durable sur le sol de la future France. Charlemagne en fera un empire couvrant une grande partie de l'Europe.",
+        "keyFacts": [
+          "Clovis se fait baptiser catholique vers 496 et unifie la Gaule.",
+          "Victoire de Vouillé (507) sur les Wisigoths.",
+          "Charlemagne couronné empereur à Rome en 800.",
+          "Traité de Verdun (843) : naissance des futures France et Allemagne."
+        ],
+        "legacy": "À l'origine de la France, il lègue le catholicisme d'État et la royauté de droit divin."
+      },
+      "califat-abbasside": {
+        "title": "Califat abbasside",
+        "period": "750 à 1258",
+        "summary": "Avec Bagdad pour capitale, le Califat abbasside connaît un âge d'or scientifique et culturel. Il préserve et enrichit le savoir grec, perse et indien transmis ensuite à l'Europe.",
+        "keyFacts": [
+          "Fondé en 750 ; Bagdad devient capitale en 762.",
+          "Al-Khwarizmi invente l'algèbre et donne son nom à « algorithme ».",
+          "La Maison de la Sagesse, grand centre de traduction et de recherche.",
+          "Avicenne rédige le Canon de la médecine."
+        ],
+        "legacy": "Algèbre, algorithme, zéro et médecine systématique : un héritage clé pour la Renaissance européenne."
+      },
+      "mayas": {
+        "title": "Mayas",
+        "period": "250 à 900",
+        "summary": "Brillante civilisation d'Amérique centrale, les Mayas développent une écriture complète, des mathématiques avancées (le zéro) et de grandes cités pyramidales comme Tikal et Palenque.",
+        "keyFacts": [
+          "Écriture la plus élaborée des Amériques précolombiennes.",
+          "Deux calendriers : sacré (260 jours) et solaire (365 jours).",
+          "Cités de dizaines de milliers d'habitants à l'apogée (250-900).",
+          "Effondrement mystérieux des grandes cités au IXe siècle."
+        ],
+        "legacy": "Astronomie, zéro et patrimoine archéologique exceptionnel ; culture encore vivante aujourd'hui."
+      },
+      "azteques": {
+        "title": "Aztèques",
+        "period": "1345 à 1521",
+        "summary": "L'Empire aztèque domine le centre du Mexique au XVe siècle depuis Tenochtitlan, ville-lac de 200 000 habitants. Il est vaincu par les Espagnols de Cortés en 1521.",
+        "keyFacts": [
+          "Fondation de Tenochtitlan sur le lac Texcoco en 1325.",
+          "Empire fondé sur un système de tributs et d'alliances.",
+          "Sacrifices rituels liés au mythe du soleil.",
+          "Conquête par Cortés en 1521, aidé par la variole et des alliés indigènes."
+        ],
+        "legacy": "Chinampas, cacao (chocolat) et le nahuatl, encore parlé par plus d'un million de personnes."
+      },
+      "renaissance": {
+        "title": "Renaissance",
+        "period": "1492 à 1600",
+        "summary": "Renouveau culturel parti d'Italie, la Renaissance marque la transition du Moyen Âge à l'époque moderne. Imprimerie, humanisme et découverte des Amériques en sont les moteurs.",
+        "keyFacts": [
+          "Christophe Colomb atteint l'Amérique le 12 octobre 1492.",
+          "L'imprimerie de Gutenberg (v. 1450) diffuse massivement le savoir.",
+          "Léonard de Vinci, Michel-Ange et Raphaël incarnent l'art de l'époque.",
+          "L'humanisme replace l'homme et la raison au centre."
+        ],
+        "legacy": "Bases de la science moderne, art classique et diffusion du savoir par l'imprimé."
+      },
+      "lumieres": {
+        "title": "Siècle des Lumières",
+        "period": "1715 à 1789",
+        "summary": "De la mort de Louis XIV à la Révolution, les Lumières imposent la raison, la science et la liberté. Voltaire, Rousseau, Montesquieu et Diderot fondent la pensée démocratique moderne.",
+        "keyFacts": [
+          "L'Encyclopédie de Diderot et d'Alembert (1751-1772) diffuse les savoirs.",
+          "Montesquieu théorise la séparation des pouvoirs (1748).",
+          "Rousseau écrit Le Contrat social (1762).",
+          "Voltaire combat l'intolérance et l'arbitraire."
+        ],
+        "legacy": "Fondements de la démocratie, de la laïcité et des droits de l'homme."
+      },
+      "colonisation": {
+        "title": "Colonisation des Amériques",
+        "period": "1492 à 1763",
+        "summary": "Amorcée en 1492, la colonisation européenne transforme profondément le monde : effondrement des populations autochtones, traite esclavagiste et restructuration de l'économie mondiale.",
+        "keyFacts": [
+          "Les maladies européennes déciment 50 à 90 % des autochtones.",
+          "Environ 12,5 millions d'Africains déportés en esclavage (1500-1900).",
+          "L'Espagne extrait l'or et l'argent des Andes et du Mexique.",
+          "Indépendance des États-Unis proclamée en 1776."
+        ],
+        "legacy": "Nations multiculturelles, mais traumas durables du génocide autochtone et de l'esclavage."
+      },
+      "revolution-francaise": {
+        "title": "Révolution française",
+        "period": "1789 à 1799",
+        "summary": "La Révolution renverse la monarchie absolue, proclame les droits de l'homme et inspire le monde entier. En dix ans, la France passe de l'Ancien Régime à Napoléon.",
+        "keyFacts": [
+          "Réunion des États généraux le 5 mai 1789.",
+          "Déclaration des droits de l'homme et du citoyen le 26 août 1789.",
+          "Exécution de Louis XVI le 21 janvier 1793, puis la Terreur.",
+          "Coup d'État de Napoléon le 18 brumaire (9 novembre 1799)."
+        ],
+        "legacy": "Abolition des privilèges, égalité devant la loi et devise « Liberté, Égalité, Fraternité »."
+      },
+      "revolution-industrielle": {
+        "title": "Révolution industrielle",
+        "period": "1800 à 1914",
+        "summary": "Partie de Grande-Bretagne, la Révolution industrielle remplace le travail artisanal par la machine et fait basculer les sociétés agraires vers des sociétés urbaines et industrielles.",
+        "keyFacts": [
+          "Machine à vapeur améliorée par James Watt (brevet 1769).",
+          "Premiers chemins de fer (Stockton-Darlington, 1825).",
+          "Urbanisation massive : Londres passe de 1 à 6,5 millions d'habitants.",
+          "Cascade d'innovations : électricité, automobile, photographie."
+        ],
+        "legacy": "Industrialisation, capitalisme moderne, mais aussi premières grandes pollutions."
+      },
+      "guerres-mondiales": {
+        "title": "Guerres mondiales",
+        "period": "1914 à 1945",
+        "summary": "Les deux guerres mondiales font 70 à 85 millions de morts et redessinent la carte du monde. Elles mettent fin aux vieux empires et font émerger les États-Unis et l'URSS.",
+        "keyFacts": [
+          "Première Guerre (1914-1918) : armes chimiques, chars, aviation.",
+          "Traité de Versailles (1919) ; humiliation de l'Allemagne.",
+          "Seconde Guerre (1939-1945) : ~70 millions de morts, dont la Shoah.",
+          "Bombes atomiques sur Hiroshima et Nagasaki (août 1945)."
+        ],
+        "legacy": "Création de l'ONU, décolonisation et construction européenne pour la paix."
+      },
+      "ere-numerique": {
+        "title": "Ère numérique",
+        "period": "1990 à nos jours",
+        "summary": "Démarrée avec Internet grand public, l'ère numérique connecte des milliards de personnes et démocratise le savoir, tout en créant de nouveaux défis : désinformation, vie privée, IA.",
+        "keyFacts": [
+          "Tim Berners-Lee invente le World Wide Web (1989-1991).",
+          "Le smartphone (iPhone, 2007) met Internet dans toutes les poches.",
+          "Réseaux sociaux (Facebook 2004, TikTok 2016) reconfigurent la société.",
+          "L'IA générative (ChatGPT, 2022) bouscule le travail intellectuel."
+        ],
+        "legacy": "Connectivité mondiale, économie numérique et premiers systèmes d'IA conversationnelle."
+      }
+    }
+  }
+  

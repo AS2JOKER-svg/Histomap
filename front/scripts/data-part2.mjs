@@ -653,6 +653,326 @@ export default {
           ],
           relations: [],
           liens: [{ label: "Wikipédia — Empire Maurya", url: "https://fr.wikipedia.org/wiki/Empire_Maurya" }]
+        },
+        {
+          id: "pheniciens",
+          label: "Civilisation Phénicienne",
+          period: "-1200 à -64",
+          start: -1200,
+          end: -64,
+          color: "#6a1b29", // Pourpre de Tyr caractéristique de leur industrie de luxe
+          isRiver: false,
+          capitale: "Cités-États indépendantes (Tyr, Sidon, Byblos)",
+          description: "Peuple de marins et de marchands d'élite du Levant, inventeurs de l'alphabet phonétique moderne et fondateurs d'un immense réseau de comptoirs maritimes tout autour de la Méditerranée.",
+          regimes: [
+            { type: "Cités-États autonomes gouvernées par des rois et des conseils de marchands", start: -1200, end: -64, chef: "Roi Hiram Ier" }
+          ],
+          technologies: [
+            "Invention de l'alphabet phénicien consonantique (ancêtre de presque tous les alphabets modernes)",
+            "Navigation hauturière nocturne (utilisation de l'Étoile Polaire, dite 'Étoile phénicienne')",
+            "Artisanat de luxe mondialisé : teinture de la pourpre de Tyr et soufflage du verre transparent",
+            "Ingénierie navale de pointe (invention de la trirème à double rang de rameurs et navires ronds de charge Gaulos)"
+          ],
+          croyances: [
+            "Polythéisme sémitique (cultes de Baal, Melqart à Tyr, et de la déesse de la fertilité Astarté)",
+            "Rituels de sacrifices et dépôts votifs complexes dans les sanctuaires de hauteur"
+          ],
+          personnages: [
+            { nom: "Roi Hiram Ier", role: "Souverain de Tyr, célèbre pour ses alliances politiques, maritimes et commerciales de longue distance", dates: "Règne de -969 à -936" }
+          ],
+          guerres: [],
+          events: [
+            { year: -814, label: "Fondation de Carthage", importance: "haute", info: "Des colons tyriens menés par la princesse Émira/Didon fondent la colonie qui deviendra la superpuissance d'Afrique du Nord." },
+            { year: -64, label: "Annexion par Pompée", importance: "haute", info: "Le général romain Pompée le Grand intègre définitivement les dernières cités phéniciennes à la province romaine de Syrie." }
+          ],
+          relations: [
+            { type: "alliance", with: "carthage", label: "Fondation, liens religieux et protectorat culturel de la cité-mère", start: -814, end: -146 },
+            { type: "conflit", with: "mesopotamie", label: "Sièges successifs et destructions par les empires assyrien et néo-babylonien", start: -701, end: -573 }
+          ],
+          liens: [
+            { label: "Wikipédia — Phéniciens", url: "https://fr.wikipedia.org/wiki/Ph%C3%A9niciens" }
+          ]
+        },
+        {
+          id: "hebreux",
+          label: "Israël et Juda antiques (Hébreux)",
+          period: "-1200 à 70",
+          start: -1200,
+          end: 70,
+          color: "#af9b63", // Teinte pierre/sable du Proche-Orient pour cette lignée textuelle
+          isRiver: false,
+          capitale: "Jérusalem",
+          description: "Peuple sémitique du Levant dont l'unification politique et la formalisation textuelle du monothéisme éthique au sein de la Bible ont profondément façonné l'histoire religieuse et culturelle universelle.",
+          regimes: [
+            { type: "Période tribale (Époque des Juges)", start: -1200, end: -1020, chef: "Débora, Samuel" },
+            { type: "Monarchie unifiée puis Royaumes divisés (Israël et Juda)", start: -1020, end: -587, chef: "David, Salomon, Ézéchias" },
+            { type: "Province théocratique sous dominations successives (Perse, Grecque, Romaine)", start: -538, end: 70, chef: "Hérode le Grand" }
+          ],
+          technologies: [
+            "Codification textuelle et scripturale monumentale de la Torah en hébreu carré",
+            "Ingénierie hydraulique urbaine de défense (tunnel d'Ézéchias à Jérusalem)",
+            "Architecture monumentale de type temple à plan tripartite syro-phénicien (Temple de Salomon)"
+          ],
+          croyances: [
+            "Monothéisme exclusif (Yahwisme se structurant en Judaïsme rabbinique et textuel)",
+            "Centralisation absolue du culte autour du Temple unique de Jérusalem et refus strict de l'iconographie divine"
+          ],
+          personnages: [
+            { nom: "Roi David", role: "Souverain guerrier et poète, fondateur de la dynastie royale de Juda et conquérant de Jérusalem", dates: "Règne de -1010 à -970" },
+            { nom: "Roi Salomon", role: "Bâtisseur du Premier Temple, célèbre dans la littérature universelle pour sa sagesse et sa richesse", dates: "Règne de -970 à -931" }
+          ],
+          guerres: [
+            { nom: "Siège de Jérusalem (-587)", annee: -587, contre: "Empire babylonien (Mésopotamie)", issue: "Défaite hébraïque, destruction du Premier Temple et déportation de l'élite à Babylone" },
+            { nom: "Grande révolte juive contre Rome", annee: 66, contre: "Rome antique", issue: "Désastre total, destruction de Jérusalem et début de la Diaspora majeure" }
+          ],
+          events: [
+            { year: -587, label: "Exil à Babylone", importance: "haute", info: "La destruction du royaume de Juda pousse les élites à consigner par écrit les traditions textuelles sacrées." },
+            { year: -538, label: "Édit de Cyrus", importance: "haute", info: "L'empereur perse Cyrus le Grand autorise le retour des exilés et la reconstruction du Second Temple." },
+            { year: 70, label: "Destruction du Second Temple", importance: "haute", info: "Les légions de Titus incendient le sanctuaire central, mettant fin au judaïsme sacerdotal." }
+          ],
+          relations: [
+            { type: "conflit", with: "mesopotamie", label: "Guerres frontalières, invasions et déportation forcée à Babylone", start: -722, end: -539 },
+            { type: "alliance", with: "perse", label: "Restauration territoriale et autonomie religieuse accordée par les Achéménides", start: -539, end: -330 },
+            { type: "conflit", with: "rome", label: "Guerres judéo-romaines, résistance zélote et écrasement de la Judée", start: -63, end: 70 }
+          ],
+          liens: [
+            { label: "Wikipédia — Histoire du peuple hébreu", url: "https://fr.wikipedia.org/wiki/Histoire_du_peuple_h%C3%A9breu" }
+          ]
+        },
+        {
+          id: "xiongnu",
+          label: "Confédération des Xiongnu",
+          period: "-209 à 46",
+          start: -209,
+          end: 46,
+          color: "#795548", // Brun nomade / steppe pour cette lignée de cavaliers
+          isRiver: false,
+          capitale: "Ordo (Campement impérial mobile de Mongolie)",
+          description: "Immense et redoutable confédération de peuples nomades des steppes de Mongolie, dont la puissance cavalière et les raids destructeurs poussèrent la Chine impériale à s'unifier et à ériger la Grande Muraille.",
+          regimes: [
+            { type: "Confédération impériale nomade (Régime du Chanyu)", start: -209, end: 46, chef: "Modu Chanyu" }
+          ],
+          technologies: [
+            "Maîtrise absolue de la cavalerie légère et du tir à l'arc inversé en pleine course",
+            "Invention de la flèche sifflante tactique (utilisée pour diriger les tirs de masse)",
+            "Art animalier des steppes haut de gamme en bronze, or et métaux précieux",
+            "Logistique nomade d'armées mobiles sans lignes de ravitaillement fixes"
+          ],
+          croyances: [
+            "Tengrisme (culte du Ciel bleu éternel Tengri)",
+            "Chamanisme et cultes des montagnes sacrées",
+            "Rituels de sacrifices d'animaux sacrés (chevaux) lors des assemblées saisonnières"
+          ],
+          personnages: [
+            { nom: "Modu Chanyu", role: "Fondateur et grand unificateur de l'empire nomade xiongnu", dates: "Règne de -209 à -174" }
+          ],
+          guerres: [
+            { nom: "Guerre Han-Xiongnu", annee: -133, contre: "Chine (Qin & Han)", issue: "Guerre d'usure séculaire, repli progressif des nomades face à l'expansionnisme Han" }
+          ],
+          events: [
+            { year: -200, label: "Bataille de Baideng", importance: "haute", info: "Modu Chanyu encercle l'empereur Han Gaozu et force la Chine à lui verser un tribut annuel de soie et de grains." },
+            { year: -121, label: "Campagnes du corridor du Gansu", importance: "moyenne", info: "Les armées chinoises repoussent les Xiongnu, sécurisant les prémices de la Route de la Soie." }
+          ],
+          relations: [
+            { type: "conflit", with: "chine-imperiale", label: "Raids nomades incessants et conflits frontaliers majeurs", start: -209, end: 46 }
+          ],
+          liens: [
+            { label: "Wikipédia — Xiongnu", url: "https://fr.wikipedia.org/wiki/Xiongnu" }
+          ]
+        },
+        {
+          id: "gojoseon",
+          label: "Royaume de Gojoseon (Corée antique)",
+          period: "-1000 à -108",
+          start: -1000,
+          end: -108,
+          color: "#bf360c", // Rouge brique / rouille pour la lignée de la péninsule coréenne
+          isRiver: false,
+          capitale: "Asadal / Wanggeom-seong (Pyongyang)",
+          description: "Le premier royaume historique de la péninsule coréenne, développé à partir de l'âge du bronze, formant le socle de l'identité et de la culture coréenne avant d'être annexé par la dynastie Han.",
+          regimes: [
+            { type: "Royaume confédéré de Gojoseon", start: -1000, end: -194, chef: "Dangun (légendaire)" },
+            { type: "Royaume de Gojoseon (Période Wiman)", start: -194, end: -108, chef: "Roi Wiman, Roi Ugeo" }
+          ],
+          technologies: [
+            "Métallurgie du bronze distinctive (poignards de type mandoliniforme typiquement coréens)",
+            "Architecture mégalithique monumentale (la plus forte densité de dolmens funéraires au monde)",
+            "Poterie sans motif (culture Mumun) et outils en pierre polie",
+            "Agriculture sédentaire avancée du riz et du millet"
+          ],
+          croyances: [
+            "Chamanisme coréen primitif (importance des prêtresses de cour et de la divination)",
+            "Culte du Ciel et totémisme animalier (mythe fondateur liant le prince céleste Hwanung et l'ours)",
+            "Vénération des esprits des montagnes (Sanshin)"
+          ],
+          personnages: [
+            { nom: "Roi Wiman", role: "Général exilé de la région du Yan qui s'empare du trône et modernise militairement l'État", dates: "Règne de -194 à -160" }
+          ],
+          guerres: [
+            { nom: "Guerre Gojoseon-Han", annee: -109, contre: "Chine (Qin & Han)", issue: "Chute de la capitale, dissolution du royaume et création des Commanderies chinoises" }
+          ],
+          events: [
+            { year: -108, label: "Chute de Wanggeom-seong", importance: "haute", info: "La capitale capitule après un an de résistance acharnée face aux armées de l'empereur Han Wudi." }
+          ],
+          relations: [
+            { type: "conflit", with: "chine-imperiale", label: "Rivalités commerciales pour le contrôle du fer et invasions militaires des Han", start: -206, end: -108 }
+          ],
+          liens: [
+            { label: "Wikipédia — Gojoseon", url: "https://fr.wikipedia.org/wiki/Gojoseon" }
+          ]
+        }
+      ]
+    },
+    {
+      id: "amerique", label: "Amérique",
+      civilizations: [
+        {
+          id: "olmeques",
+          label: "Civilisation Olmèque",
+          period: "-1200 à -400",
+          start: -1200,
+          end: -400,
+          color: "#16a085", // Alignement sur la lignée émeraude/jade de la Mésoamérique
+          isRiver: true,
+          capitale: "San Lorenzo puis La Venta",
+          description: "La culture mère de la Mésoamérique, célèbre pour ses têtes colossales monolithiques en basalte, ses complexes cérémoniels précoces et l'invention des fondements du calendrier, de l'écriture et du jeu de balle rituel.",
+          regimes: [
+            { type: "Chefferies théocratiques centralisées", start: -1200, end: -400, chef: "—" }
+          ],
+          technologies: [
+            "Sculpture monumentale de très haute précision (têtes colossales pesant jusqu'à 25 tonnes)",
+            "Travail et polissage d'élite du jade, de la magnétite et de la serpentine",
+            "Ingénierie hydraulique de drainage urbain (premiers aqueducs en basalte assemblés)",
+            "Architecture monumentale de monticules pyramidaux en terre battue (Grande Pyramide de La Venta)",
+            "Éléments primitifs d'écriture glyphique mésoaméricaine (Stèle de Cascajal)"
+          ],
+          croyances: [
+            "Culte du Dieu-Jaguar (divinité centrale de la pluie, du sol et de la fertilité agricole)",
+            "Rituels de transformation chamanique et sacralité des grottes, des sources et des reliefs",
+            "Pratique rituelle et architecturale du jeu de balle mésoaméricain",
+            "Offrandes massives d'objets précieux enterrés lors de rites de désécration"
+          ],
+          personnages: [],
+          guerres: [],
+          events: [
+            { year: -1200, label: "Essor de San Lorenzo", importance: "haute", info: "Émergence du premier grand centre urbain et politique majeur de la côte du Golfe." },
+            { year: -900, label: "Destruction de San Lorenzo et essor de La Venta", importance: "haute", info: "Le centre de gravité olmèque se déplace suite à des destructions rituelles ou politiques des monuments." },
+            { year: -400, label: "Déclin de La Venta", importance: "haute", info: "Abandon définitif des grands sites cérémoniels olmèques, dispersant les populations et enseignant leurs structures aux cultures émergeantes (Mayas, Zapotèques)." }
+          ],
+          relations: [],
+          liens: [
+            { label: "Wikipédia — Olmèques", url: "https://fr.wikipedia.org/wiki/Olm%C3%A8ques" }
+          ]
+        },
+        {
+          id: "chavin",
+          label: "Civilisation de Chavín",
+          period: "-900 à -200",
+          start: -900,
+          end: -200,
+          color: "#d4ac0d", // Teinte or/ocre, en continuité visuelle avec la future lignée andine des Incas
+          isRiver: true,
+          capitale: "Chavín de Huántar",
+          description: "La culture mère des Andes péruviennes, structurée autour d'un immense sanctuaire de pèlerinage pan-andin caractérisé par une architecture de pierre complexe et une iconographie religieuse mystique fusionnant traits félins et rapaces.",
+          regimes: [
+            { type: "Théocracie cléricale et centre de pèlerinage", start: -900, end: -200, chef: "Élite sacerdotale (Prêtres-Devins)" }
+          ],
+          technologies: [
+            "Architecture monumentale de temples en terrasses avec galeries intérieures sombres et complexes",
+            "Ingénierie acoustique de conduits d'air et d'eau simulant des rugissements au cœur des temples",
+            "Orfèvrerie et métallurgie précoce de l'or et de l'argent (techniques de martelage et de soudure)",
+            "Sculpture sur pierre en bas-relief de monolithes sacrés (Lanzón, Stèle Raimondi, Obélisque Tello)",
+            "Tissage complexe de fibres de coton et d'élevage intensif de lamas pour le transport vertical"
+          ],
+          croyances: [
+            "Culte du Dieu aux Sceptres (divinité anthropomorphe majeure des sommets)",
+            "Rituels chamaniques d'ingestion de plantes psychotropes (cactus San Pedro) pour la transe divinatoire",
+            "Acoustique sacrée via des trompes de grands coquillages marins (Pututos)",
+            "Vénération d'animaux prédateurs sacrés (jaguar, caïman, harpie huppée)"
+          ],
+          personnages: [],
+          guerres: [],
+          events: [
+            { year: -900, label: "Construction du Vieux Temple", importance: "haute", info: "Édification de la structure cérémonielle en U abritant la statue cultuelle monolithique du Lanzón." },
+            { year: -500, label: "Extension du Nouveau Temple", importance: "moyenne", info: "Agrandissement architectural majeur (Le Château) pour accueillir des flux croissants de pèlerins andins." },
+            { year: -200, label: "Effondrement du centre religieux", importance: "haute", info: "Fragmentation de l'hégémonie spirituelle de Chavín au profit de cultures régionales militarisées (Paracas, Nazca, Moche)." }
+          ],
+          relations: [],
+          liens: [
+            { label: "Wikipédia — Civilisation de Chavín", url: "https://fr.wikipedia.org/wiki/Chav%C3%ADn_(culture)" }
+          ]
+        },
+        {
+          id: "teotihuacan",
+          label: "Civilisation de Teotihuacán",
+          period: "-100 à 476 (Antiquité)",
+          start: -100,
+          end: 476,
+          color: "#117a65", // Alignement sur la lignée émeraude/jade de la Mésoamérique
+          isRiver: false,
+          capitale: "Teotihuacán",
+          description: "L'une des plus grandes et influentes cités-États du monde antique, célèbre pour ses pyramides monumentales et son plan d'urbanisme géométrique en grille, exerçant une hégémonie commerciale absolue sur toute la Mésoamérique.",
+          regimes: [
+            { type: "Théocracie et gouvernement oligarchique corporatif", start: -100, end: 476, chef: "—" }
+          ],
+          technologies: [
+            "Urbanisme de masse planifié en grille orthogonale autour de l'Allée des Morts",
+            "Architecture monumentale talud-tablero (Pyramide du Soleil, Pyramide de la Lune)",
+            "Monopole d'extraction et de taille industrielle de l'obsidienne verte",
+            "Production massive de masques funéraires en pierre dure et fresques polychromes",
+            "Complexes d'habitation multifamiliaux standardisés avec cours intérieures"
+          ],
+          croyances: [
+            "Culte du Serpent à Plumes (Quetzalcoatl) et du Dieu de la Pluie (Tlaloc)",
+            "Sacralisation cosmologique de l'espace urbain aligné sur les mouvements stellaires",
+            "Pratique de sacrifices humains et animaliers d'envergure lors de la consécration des temples"
+          ],
+          personnages: [],
+          guerres: [
+            { nom: "Expansion et influence maya", annee: 378, contre: "Dynasties Mayas (Tikal)", issue: "Intervention politique de Teotihuacán, installation d'une dynastie alliée à Tikal" }
+          ],
+          events: [
+            { year: 150, label: "Construction de la Pyramide du Soleil", importance: "haute", info: "Édification du monument central de la cité, haut de 65 mètres." },
+            { year: 378, label: "L'événement Siyaj K'ak'", importance: "haute", info: "Le général de Teotihuacán arrive à Tikal, renverse le roi local et restructure la géopolitique maya." }
+          ],
+          relations: [],
+          liens: [
+            { label: "Wikipédia — Teotihuacán", url: "https://fr.wikipedia.org/wiki/Teotihuac%C3%A1n" }
+          ]
+        },
+        {
+          id: "nazca",
+          label: "Culture Nazca",
+          period: "-200 à 476 (Antiquité)",
+          start: -200,
+          end: 476,
+          color: "#ba9c07", // Teinte ocre/or pour la lignée andine
+          isRiver: true,
+          capitale: "Cahuachi (Centre cérémoniel)",
+          description: "Civilisation côtière ingénieuse du désert péruvien, célèbre mondialement pour ses géoglyphes géants tracés dans le sol et ses systèmes d'aqueducs souterrains révolutionnaires.",
+          regimes: [
+            { type: "Théocracie et confédération de chefferies d'oasis", start: -200, end: 476, chef: "—" }
+          ],
+          technologies: [
+            "Tracé de géoglyphes géants (Lignes de Nazca) par enlèvement de la couche superficielle d'oxydes de fer",
+            "Les Puquios : aqueducs souterrains en pierre avec cheminées d'accès en spirale pour capter les nappes phréatiques",
+            "Céramique polychrome d'élite avec application des couleurs avant cuisson (jusqu'à 15 pigments différents)",
+            "Techniques avancées de tissage de la laine de camélidés et déformation crânienne rituelle"
+          ],
+          croyances: [
+            "Culte des divinités de l'eau, de la fertilité agricole et des montagnes protectrices",
+            "Pratique intensive des têtes-trophées (momification et perforation de crânes d'ennemis pour capter leur force vital)",
+            "Pèlerinages de masse vers les pyramides en briques de terre crue (adobe) de Cahuachi"
+          ],
+          personnages: [],
+          guerres: [],
+          events: [
+            { year: 300, label: "Apogée de Cahuachi", importance: "haute", info: "Le site devient le pôle spirituel majeur des Andes côtières, servant de point de convergence pour les rituels de désert." }
+          ],
+          relations: [],
+          liens: [
+            { label: "Wikipédia — Civilisation Nazca", url: "https://fr.wikipedia.org/wiki/Nazca_(culture)" }
+          ]
         }
       ]
     }

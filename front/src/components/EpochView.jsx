@@ -150,13 +150,13 @@ export default function EpochView({ epochs }) {
 
             <div className="text-sm text-muted space-y-3 leading-relaxed">
               <p>
-                Salut ! Je t'envoie ce site parce que j'ai développé une <strong>frise chronologique interactive</strong> pour cartographier et comparer l'histoire des grandes civilisations mondiales à travers les âges.
+                Bonjour ma femme ! Je t'envoie ce site parce que tu me dis souvent que tu souhaiterais apprendre mais tu ne sais pas par où commencer. J'ai donc développé une <strong>frise chronologique interactive</strong> pour cartographier et comparer l'histoire des grandes civilisations mondiales à travers les âges.
               </p>
               <p>
                 Tu peux cliquer sur les différentes <strong>Époques</strong> pour zoomer, explorer les continents en parallèle, et cliquer sur les blocs pour ouvrir les fiches détaillées (Régimes politiques, innovations technologiques, guerres mythiques et grands personnages).
               </p>
               <p className="text-xs bg-slate-50 p-2.5 rounded-xl border border-line/40 text-center">
-                💡 Tu as manqué un détail ? Clique sur le bouton <strong>"!"</strong> en haut à droite de l'accueil pour réouvrir ce message à tout moment.
+                J'espere que ca va t'aider à te lancer dans l'apprentissage de l'histoire ! Hâte de pouvoir discuter de GenGiskane avec toi !
               </p>
             </div>
 

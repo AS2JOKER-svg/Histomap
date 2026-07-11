@@ -4,13 +4,14 @@ import { fileURLToPath } from "url";
 import { dirname, join } from "path";
 
 import part1 from "./data-part1.mjs"; // [Préhistoire]
-import part2 from "./data-part2.mjs"; // Antiquité (objet)
-import part3 from "./data-part3.mjs"; // Moyen Âge (objet)
+import part2 from "./data-part2.mjs"; // [Antiquité]
+import part3 from "./data-part3.mjs"; // [Moyen Âge]
 import part4 from "./data-part4.mjs"; // [Moderne, Contemporaine]
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
-const epochs = [...part1, part2, part3, ...part4];
+// CRUCIAL : On utilise ... pour TOUS les fichiers car ils exportent tous des tableaux désormais
+const epochs = [...part1, ...part2, ...part3, ...part4];
 
 const out = join(__dirname, "..", "src", "data", "epochs.json");
 writeFileSync(out, JSON.stringify(epochs, null, 2), "utf-8");

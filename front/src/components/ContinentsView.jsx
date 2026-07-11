@@ -97,30 +97,57 @@ export default function ContinentsView({ epoch }) {
 function ContinentTimeline({ continent, epoch, width, scale, ticks, onSelect }) {
   const civs = continent.civilizations
 
-  // Une ligne par civilisation, triée par date de début (puis fin).
-  // Garantit que la colonne de labels (à gauche) et les barres (à droite)
-  // restent toujours alignées, quel que soit le nombre de civilisations.
-  const orderedCivs = useMemo(
-    () =>
-      [...civs].sort((a, b) => {
-        const sa = a.start ?? epoch.start
-        const sb = b.start ?? epoch.start
-        if (sa !== sb) return sa - sb
-        return (a.end ?? epoch.end) - (b.end ?? epoch.end)
-      }),
-    [civs, epoch.start, epoch.end]
-  )
+  // SPRINT 2 : SYSTÈME DE COULOIRS (LANES)
+  // On regroupe les civilisations par 'trackId' pour les forcer sur la même ligne.
+  const lanes = useMemo(() => {
+    const groups = {}
+    
+    civs.forEach((civ) => {
+      // Si la civ n'a pas de trackId, elle a son propre couloir indépendant
+      const laneId = civ.trackId || civ.id
+      
+      if (!groups[laneId]) {
+        groups[laneId] = {
+          id: laneId,
+          civs: [],
+          label: civ.label, // Le nom affiché à gauche
+          color: civ.color,
+          start: civ.start ?? epoch.start,
+          rowPriorite: civ.row ?? 999 // Pour forcer l'ordre vertical
+        }
+      }
+      
+      groups[laneId].civs.push(civ)
+      
+      // Met à jour le point de départ du couloir avec la civ la plus ancienne
+      const start = civ.start ?? epoch.start
+      if (start < groups[laneId].start) {
+        groups[laneId].start = start
+        groups[laneId].label = civ.label // Le couloir prend le nom de la 1ère civ
+        groups[laneId].color = civ.color
+        groups[laneId].rowPriorite = civ.row ?? 999
+      }
+    })
 
-  // rowOf : id de civ -> index de ligne (0-based)
+    // Tri des couloirs : Ordre manuel en priorité, puis ordre chronologique
+    return Object.values(groups).sort((a, b) => {
+      if (a.rowPriorite !== b.rowPriorite) return a.rowPriorite - b.rowPriorite
+      return a.start - b.start
+    })
+  }, [civs, epoch.start])
+
+  // Map pour savoir sur quelle ligne (index) se trouve une civ (utile pour les flèches de conflit)
   const rowOf = useMemo(() => {
     const map = {}
-    orderedCivs.forEach((c, i) => {
-      map[c.id] = i
+    lanes.forEach((lane, index) => {
+      lane.civs.forEach(c => {
+        map[c.id] = index
+      })
     })
     return map
-  }, [orderedCivs])
+  }, [lanes])
 
-  const count = Math.max(orderedCivs.length, 1)
+  const count = Math.max(lanes.length, 1)
   const chartH = count * LANE_H + (count - 1) * LANE_GAP
   const totalH = chartH + AXIS_H
 
@@ -144,20 +171,20 @@ function ContinentTimeline({ continent, epoch, width, scale, ticks, onSelect }) 
       </h3>
 
       <div className="flex">
-        {/* Colonne labels (fixe) — même ordre que les lignes des barres */}
+        {/* Colonne labels (fixe) — un label par couloir (lane) */}
         <div className="shrink-0" style={{ width: LABEL_W }}>
-          {orderedCivs.map((civ) => (
+          {lanes.map((lane) => (
             <div
-              key={civ.id}
+              key={lane.id}
               className="text-xs text-ink font-medium truncate pr-3 flex items-center"
               style={{ height: LANE_H, marginBottom: LANE_GAP }}
-              title={civ.label}
+              title={lane.label}
             >
               <span
                 className="w-2 h-2 rounded-full mr-2 shrink-0"
-                style={{ background: civ.color }}
+                style={{ background: lane.color }}
               />
-              {civ.label}
+              {lane.label}
             </div>
           ))}
         </div>
@@ -218,48 +245,49 @@ function ContinentTimeline({ continent, epoch, width, scale, ticks, onSelect }) 
               )}
             </svg>
 
-            {/* Barres des civilisations — une par ligne */}
-            {orderedCivs.map((civ) => {
-              const p = clampPeriod(civ, epoch.start, epoch.end)
-              const row = rowOf[civ.id] ?? 0
-              const x = scale(p.start)
-              const w = Math.max(scale(p.end) - x, 8)
-              const y = row * (LANE_H + LANE_GAP)
-              return (
-                <motion.button
-                  key={civ.id}
-                  onClick={() => onSelect(civ)}
-                  initial={{ opacity: 0, scaleX: 0.9 }}
-                  animate={{ opacity: 1, scaleX: 1 }}
-                  whileHover={{ y: -2, scale: 1.01 }}
-                  className="absolute rounded-xl text-white text-left px-3 flex flex-col justify-center shadow-soft hoverable overflow-hidden"
-                  style={{
-                    left: x,
-                    top: y,
-                    width: w,
-                    height: LANE_H,
-                    background: `linear-gradient(135deg, ${civ.color}, ${civ.color}d0)`,
-                    border: civ.isRiver ? '2px solid rgba(255,255,255,.7)' : 'none',
-                  }}
-                  title={`${civ.label} — ${civ.period}`}
-                >
-                  <span className="text-[11px] font-semibold leading-tight truncate">
-                    {civ.label}
-                  </span>
-                  {w > 90 && (
-                    <span className="text-[9px] opacity-90 truncate">
-                      {civ.period}
+            {/* Barres des civilisations — itération sur les couloirs */}
+            {lanes.flatMap((lane, row) =>
+              lane.civs.map((civ) => {
+                const p = clampPeriod(civ, epoch.start, epoch.end)
+                const x = scale(p.start)
+                const w = Math.max(scale(p.end) - x, 8)
+                const y = row * (LANE_H + LANE_GAP)
+                return (
+                  <motion.button
+                    key={civ.id}
+                    onClick={() => onSelect(civ)}
+                    initial={{ opacity: 0, scaleX: 0.9 }}
+                    animate={{ opacity: 1, scaleX: 1 }}
+                    whileHover={{ y: -2, scale: 1.01 }}
+                    className="absolute rounded-xl text-white text-left px-3 flex flex-col justify-center shadow-soft hoverable overflow-hidden"
+                    style={{
+                      left: x,
+                      top: y,
+                      width: w,
+                      height: LANE_H,
+                      background: `linear-gradient(135deg, ${civ.color}, ${civ.color}d0)`,
+                      border: civ.isRiver ? '2px solid rgba(255,255,255,.7)' : 'none',
+                    }}
+                    title={`${civ.label} — ${civ.period}`}
+                  >
+                    <span className="text-[11px] font-semibold leading-tight truncate">
+                      {civ.label}
                     </span>
-                  )}
-                  {p.overflowBefore && (
-                    <span className="absolute left-0.5 top-1/2 -translate-y-1/2 text-[10px]">‹</span>
-                  )}
-                  {p.overflowAfter && (
-                    <span className="absolute right-0.5 top-1/2 -translate-y-1/2 text-[10px]">›</span>
-                  )}
-                </motion.button>
-              )
-            })}
+                    {w > 90 && (
+                      <span className="text-[9px] opacity-90 truncate">
+                        {civ.period}
+                      </span>
+                    )}
+                    {p.overflowBefore && (
+                      <span className="absolute left-0.5 top-1/2 -translate-y-1/2 text-[10px]">‹</span>
+                    )}
+                    {p.overflowAfter && (
+                      <span className="absolute right-0.5 top-1/2 -translate-y-1/2 text-[10px]">›</span>
+                    )}
+                  </motion.button>
+                )
+              })
+            )}
 
             {/* Axe des années */}
             <div className="absolute left-0 right-0" style={{ top: chartH, height: AXIS_H }}>
@@ -293,7 +321,6 @@ function ZoomBtn({ children, onClick }) {
   )
 }
 
-// Arrondit un pas à une valeur "propre" (1, 2, 5 × 10^n)
 function niceStep(raw) {
   const pow = Math.pow(10, Math.floor(Math.log10(Math.abs(raw) || 1)))
   const n = raw / pow

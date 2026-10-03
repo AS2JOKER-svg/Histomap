@@ -46,3 +46,13 @@ export function getStats() {
       }
   return { epochs: epochs.length, civs, events, people, wars }
 }
+
+/** Retrouve une civilisation par son id, quelle que soit son époque. */
+export function findCivilization(civId) {
+  for (const epoch of epochs)
+    for (const continent of epoch.continents) {
+      const civ = continent.civilizations.find((c) => c.id === civId)
+      if (civ) return { epoch, continent, civ }
+    }
+  return null
+}

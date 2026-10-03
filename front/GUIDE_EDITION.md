@@ -58,6 +58,12 @@ Il tourne avant **chaque build** (en local et sur GitHub Actions).
 - **Erreur** ❌ → le build s'arrête : id dupliqué, date non numérique, `start ≥ end`, couleur invalide, champ obligatoire manquant…
 - **Alerte** ⚠️ → le build continue, mais le contenu mérite un coup d'œil (date clé hors de la période de la civilisation, etc.).
 
+### Relier une civilisation à la carte
+Dans `src/data/map-links.js` :
+- `TERRITORIES['mon-id']` = noms **anglais** des territoires sur les cartes historiques (ex. `'Kingdom of France'`). La liste des noms disponibles par année est dans `public/map/index.json`.
+- `CONFLICTS['Nom exact de la guerre']` = `[longitude, latitude]` du lieu emblématique.
+- Le validateur signale un nom de territoire introuvable ou une guerre sans coordonnées.
+
 ---
 
 ## 2. Où se trouve quoi dans le code ?
@@ -73,7 +79,9 @@ Il tourne avant **chaque build** (en local et sur GitHub Actions).
 | L'aperçu d'une civilisation (tiroir) | `src/components/timeline/CivPreview.jsx` |
 | Les échelles de temps (linéaire / log) | `src/lib/time.js` (`createEpochScale`) |
 | La fiche d'une civilisation | `src/pages/CivilizationPage.jsx` |
-| Carte / On avance (aperçus) | `src/pages/MapPage.jsx`, `src/pages/RevisePage.jsx` |
+| La carte du monde | `src/pages/MapPage.jsx` + `src/components/map/` + `src/lib/map.js` |
+| Relier une civilisation à la carte, placer un conflit | `src/data/map-links.js` |
+| On avance (aperçu) | `src/pages/RevisePage.jsx` |
 | Le mot de bienvenue | `src/config/welcome.js` (`enabled: false` pour le couper) |
 | Les couleurs, le mode sombre | `src/index.css` (variables `--c-…`) |
 | Les icônes | `src/components/ui/Icon.jsx` |

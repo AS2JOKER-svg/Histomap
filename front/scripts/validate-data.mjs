@@ -92,6 +92,25 @@ epochs.forEach((ep, i) => {
   }
 });
 
+// ── Liens avec la carte (src/data/map-links.js + public/map/index.json) ──────
+const { TERRITORIES, CONFLICTS } = await import("../src/data/map-links.js");
+const mapIndexFile = join(__dirname, "..", "public", "map", "index.json");
+let mapNames = null;
+try {
+  mapNames = new Set(JSON.parse(readFileSync(mapIndexFile, "utf-8")).flatMap((m) => [...m.names, ...(m.powers ?? [])]));
+} catch {
+  warn("carte", "public/map/index.json introuvable (lancer `npm run map`)");
+}
+for (const [civId, names] of Object.entries(TERRITORIES)) {
+  if (!civIds.has(civId)) err("map-links", `civilisation inconnue : « ${civId} »`);
+  if (mapNames) for (const n of names) if (!mapNames.has(n)) warn("map-links", `${civId} : « ${n} » n'existe dans aucune carte`);
+}
+for (const ep of epochs)
+  for (const cont of ep.continents)
+    for (const civ of cont.civilizations)
+      for (const g of civ.guerres ?? [])
+        if (!CONFLICTS[g.nom]) warn("map-links", `guerre sans coordonnées : « ${g.nom} » (${civ.id})`);
+
 if (warnings.length) {
   console.warn(`\n⚠️  ${warnings.length} alerte(s) de contenu :`);
   for (const m of warnings) console.warn("   · " + m);

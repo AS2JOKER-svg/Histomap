@@ -26,6 +26,12 @@
     --glow-1: #e9eeff;
     --glow-2: #eefaff;
 
+    --map-sea:    #dfe9f3;
+    --map-land:   #f4f1ea;
+    --map-other:  #e6e0d4;
+    --map-border: #ffffff;
+    --map-grid:   rgba(60, 90, 130, .10);
+
     color-scheme: light;
   }
 
@@ -46,6 +52,12 @@
     --shadow-lift: 0 14px 40px rgba(0, 0, 0, .45);
     --glow-1: rgba(79, 124, 255, .14);
     --glow-2: rgba(124, 92, 255, .10);
+
+    --map-sea:    #0f1724;
+    --map-land:   #1f2633;
+    --map-other:  #2a3241;
+    --map-border: #121823;
+    --map-grid:   rgba(160, 190, 230, .07);
 
     color-scheme: dark;
   }
@@ -138,6 +150,32 @@
     clip-path: polygon(0 0, calc(100% - 30px) 0, 100% 50%, calc(100% - 30px) 100%, 0 100%);
   }
 }
+
+/* Carte : les traits gardent la même épaisseur quel que soit le zoom */
+.map-svg path { vector-effect: non-scaling-stroke; }
+.map-territory { transition: filter .15s ease, opacity .3s ease; cursor: pointer; }
+@media (hover: hover) {
+  .map-territory:hover { filter: brightness(1.12) saturate(1.1); stroke: rgb(var(--c-ink)); stroke-width: 1.2; }
+}
+/* Éléments qui gardent une taille fixe à l'écran malgré le zoom (--k = facteur de zoom) */
+.map-fixed { transform: scale(calc(1 / var(--k, 1))); transform-box: fill-box; transform-origin: center; }
+@keyframes map-pulse { 0% { transform: scale(1); opacity: .55 } 100% { transform: scale(2.6); opacity: 0 } }
+.map-pulse { animation: map-pulse 1.8s ease-out infinite; transform-box: fill-box; transform-origin: center; }
+
+/* Curseur de la carte : piste invisible (la piste colorée est dessous), pouce rond */
+.map-range::-webkit-slider-runnable-track { height: 32px; background: transparent; }
+.map-range::-moz-range-track { height: 32px; background: transparent; }
+.map-range::-webkit-slider-thumb {
+  -webkit-appearance: none; appearance: none;
+  width: 26px; height: 26px; margin-top: 3px; border-radius: 999px;
+  background: rgb(var(--c-surface)); border: 3px solid rgb(var(--c-ink));
+  box-shadow: var(--shadow-soft); transition: transform .15s ease;
+}
+.map-range::-moz-range-thumb {
+  width: 20px; height: 20px; border-radius: 999px;
+  background: rgb(var(--c-surface)); border: 3px solid rgb(var(--c-ink)); box-shadow: var(--shadow-soft);
+}
+.map-range:active::-webkit-slider-thumb { transform: scale(1.12); }
 
 @layer utilities {
   .font-display { font-family: 'Fraunces', Georgia, serif; }

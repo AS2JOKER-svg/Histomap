@@ -83,7 +83,7 @@ export default function HomePage() {
             delay={0.06}
             title="La carte du monde"
             text="Faites défiler les siècles et regardez les empires naître, s'étendre et disparaître. Cliquez sur un pays pour sa fiche."
-            status="soon"
+            status="ready"
             illustration={<MapIllustration />}
           />
           <EntryCard

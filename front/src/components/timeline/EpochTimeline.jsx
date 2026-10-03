@@ -1,5 +1,7 @@
 import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
+import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
+import { useProgress } from '../../store/progress'
 import { createEpochScale, formatTick, formatYear } from '../../lib/time'
 import { readableText, shade } from '../../lib/color'
 import { layoutContinent, textWidth } from './layout'
@@ -21,9 +23,11 @@ const TICK_FONT = '500 11px Inter, system-ui, sans-serif'
  *   - points = dates clés ; ligne verticale + année sous la souris ;
  *   - zoom : boutons, ou Ctrl/⌘ + molette (et pincement au pavé tactile),
  *     centré sur le curseur ;
- *   - filtre par continent.
+ *   - filtre par continent ;
+ *   - ✓ sur les fiches déjà lues, flèche « la suite » vers l'époque suivante ;
+ *   - `focusId` : barre mise en évidence à l'arrivée (centrée + pulsation).
  */
-export default function EpochTimeline({ epoch, selectedId, onSelect }) {
+export default function EpochTimeline({ epoch, selectedId, onSelect, focusId }) {
   const scrollRef = useRef(null)
   const contentRef = useRef(null)
   const crossRef = useRef(null)
@@ -32,6 +36,8 @@ export default function EpochTimeline({ epoch, selectedId, onSelect }) {
   const [containerW, setContainerW] = useState(0)
   const [zoom, setZoom] = useState(1)
   const [continentId, setContinentId] = useState(null)
+  const fiches = useProgress((st) => st.fiches)
+  const [pulseId, setPulseId] = useState(null)
 
   // Largeur disponible
   useLayoutEffect(() => {
@@ -98,6 +104,21 @@ export default function EpochTimeline({ epoch, selectedId, onSelect }) {
     el.addEventListener('wheel', onWheel, { passive: false })
     return () => el.removeEventListener('wheel', onWheel)
   }, [zoom, zoomTo])
+
+  // ── Arrivée depuis « la suite » : on centre la barre et on la fait pulser ──
+  useEffect(() => {
+    if (!focusId || !containerW) return
+    const t1 = setTimeout(() => {
+      const el = contentRef.current?.querySelector(`[data-civ="${CSS.escape(focusId)}"]`)
+      el?.scrollIntoView({ behavior: 'smooth', block: 'center', inline: 'center' })
+      setPulseId(focusId)
+    }, 350)
+    const t2 = setTimeout(() => setPulseId(null), 3200)
+    return () => {
+      clearTimeout(t1)
+      clearTimeout(t2)
+    }
+  }, [focusId, containerW > 0]) // eslint-disable-line react-hooks/exhaustive-deps
 
   // ── Ligne verticale sous la souris (mise à jour directe du DOM, sans re-rendu) ──
   const onPointerMove = (e) => {
@@ -177,6 +198,8 @@ export default function EpochTimeline({ epoch, selectedId, onSelect }) {
                     epoch={epoch}
                     selected={selectedId === item.civ.id}
                     dimmed={!!selectedId && selectedId !== item.civ.id}
+                    read={!!fiches[item.civ.id]}
+                    pulse={pulseId === item.civ.id}
                     onSelect={onSelect}
                   />
                 ))}
@@ -201,7 +224,9 @@ export default function EpochTimeline({ epoch, selectedId, onSelect }) {
         <span className="flex items-center gap-1.5">
           <span className="inline-block w-1.5 h-1.5 rounded-full bg-muted" /> date clé
         </span>
-        <span>‹ › la civilisation déborde de l'époque</span>
+        <span className="flex items-center gap-1"><Icon name="check" size={12} strokeWidth={2.6} /> fiche lue</span>
+        <span className="flex items-center gap-1"><Icon name="arrowRight" size={12} /> la civilisation continue à l'époque suivante</span>
+        <span>‹ › déborde de l'époque</span>
         {scale.isLog && <span>Échelle logarithmique : les périodes récentes sont agrandies.</span>}
         <span className="hidden md:inline">Ctrl / ⌘ + molette pour zoomer</span>
       </p>
@@ -211,39 +236,51 @@ export default function EpochTimeline({ epoch, selectedId, onSelect }) {
 
 /* ─────────────────────────────────────────────────────────────────────────── */
 
-function Bar({ item, index, scale, epoch, selected, dimmed, onSelect }) {
-  const { civ, x, w, labelSide, overflowBefore, overflowAfter } = item
+const NEXT_SIZE = 24 // bouton « la suite » en bout de barre
+
+function Bar({ item, index, scale, epoch, selected, dimmed, read, pulse, onSelect }) {
+  const { civ, x, w, labelSide, labelW, overflowBefore, overflowAfter } = item
   const labelInside = labelSide === 'inside'
+  const next = civ.lineage?.next
+  // Place pour le bouton « la suite » sans masquer le nom
+  const showNext = !!next && w >= NEXT_SIZE + 12 && (!labelInside || w >= labelW + 20 + NEXT_SIZE + 8)
+  const top = item.lane * (LANE_H + LANE_GAP)
   const fg = readableText(civ.color)
   const showPeriod = labelInside && textWidth(civ.period, '400 10.5px Inter, system-ui, sans-serif') + 20 <= w
   const events = w > 36 ? (civ.datesCles ?? []).filter((d) => d.annee >= epoch.start && d.annee <= epoch.end) : []
 
   return (
+    <>
     <motion.button
       type="button"
+      data-civ={civ.id}
       onClick={() => onSelect(civ)}
       initial={{ opacity: 0, x: -6 }}
       animate={{ opacity: dimmed ? 0.35 : 1, x: 0 }}
       transition={{ duration: 0.3, delay: Math.min(index * 0.02, 0.2) }}
       className="group absolute flex items-center text-left rounded-[10px] focus-visible:outline-offset-4"
-      style={{ left: PAD + item.from, top: item.lane * (LANE_H + LANE_GAP), height: LANE_H }}
-      aria-label={`${civ.label}, ${civ.period}`}
+      style={{ left: PAD + item.from, top, height: LANE_H }}
+      aria-label={`${civ.label}, ${civ.period}${read ? ', fiche lue' : ''}`}
       aria-pressed={selected}
     >
-      {labelSide === 'left' && <OutsideLabel>{civ.label}</OutsideLabel>}
+      {labelSide === 'left' && <OutsideLabel read={read}>{civ.label}</OutsideLabel>}
       <span
-        className="relative h-full rounded-[10px] flex flex-col justify-center transition-[transform,box-shadow] duration-200 group-hover:-translate-y-0.5 group-hover:shadow-lift shadow-sm"
+        className={`relative h-full rounded-[10px] flex flex-col justify-center transition-[transform,box-shadow] duration-200 group-hover:-translate-y-0.5 group-hover:shadow-lift shadow-sm ${pulse ? 'bar-pulse' : ''}`}
         style={{
           width: w,
           color: fg,
           overflow: 'clip',
           background: `linear-gradient(135deg, ${civ.color}, ${shade(civ.color, -10)})`,
           boxShadow: selected ? `0 0 0 2px rgb(var(--c-surface)), 0 0 0 4px ${civ.color}` : undefined,
+          '--pulse': civ.color,
         }}
       >
         {labelInside && (
           <span className="sticky left-2 px-2.5 max-w-full self-start">
-            <span className="block text-xs font-semibold leading-tight truncate">{civ.label}</span>
+            <span className="flex items-center gap-1 text-xs font-semibold leading-tight">
+              {read && <Icon name="check" size={12} strokeWidth={3} className="shrink-0" />}
+              <span className="truncate">{civ.label}</span>
+            </span>
             {showPeriod && <span className="block text-[10.5px] leading-tight opacity-80 truncate">{civ.period}</span>}
           </span>
         )}
@@ -255,16 +292,31 @@ function Bar({ item, index, scale, epoch, selected, dimmed, onSelect }) {
           />
         ))}
         {overflowBefore && <span className="absolute left-0.5 top-0.5 text-[10px] leading-none opacity-80">‹</span>}
-        {overflowAfter && <span className="absolute right-1 top-0.5 text-[10px] leading-none opacity-80">›</span>}
+        {overflowAfter && !showNext && <span className="absolute right-1 top-0.5 text-[10px] leading-none opacity-80">›</span>}
       </span>
-      {labelSide === 'right' && <OutsideLabel>{civ.label}</OutsideLabel>}
+      {labelSide === 'right' && <OutsideLabel read={read}>{civ.label}</OutsideLabel>}
     </motion.button>
+
+    {/* « La suite » : même civilisation à l'époque suivante (bouton distinct de la barre) */}
+    {showNext && (
+      <Link
+        to={`/frise/${next.epochId}?focus=${next.civId}&from=${civ.id}`}
+        className="absolute z-10 grid place-items-center rounded-full bg-white/90 text-ink shadow-sm hover:scale-110 hover:bg-white transition"
+        style={{ left: PAD + x + w - NEXT_SIZE - 6, top: top + (LANE_H - NEXT_SIZE) / 2, width: NEXT_SIZE, height: NEXT_SIZE, opacity: dimmed ? 0.35 : 1 }}
+        title={`La suite : ${next.label} (${next.epochLabel})`}
+        aria-label={`La suite : ${next.label}, ${next.epochLabel}`}
+      >
+        <Icon name="arrowRight" size={14} strokeWidth={2.4} />
+      </Link>
+    )}
+    </>
   )
 }
 
-function OutsideLabel({ children }) {
+function OutsideLabel({ children, read }) {
   return (
-    <span className="mx-2 first:ml-0 last:mr-0 whitespace-nowrap text-xs font-semibold text-ink group-hover:text-accent transition-colors">
+    <span className="mx-2 first:ml-0 last:mr-0 whitespace-nowrap text-xs font-semibold text-ink group-hover:text-accent transition-colors inline-flex items-center gap-1">
+      {read && <Icon name="check" size={12} strokeWidth={3} className="text-success" />}
       {children}
     </span>
   )

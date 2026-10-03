@@ -92,6 +92,25 @@ epochs.forEach((ep, i) => {
   }
 });
 
+// ── Lignées (scripts/lineages.mjs → champ `lineage` de epochs.json) ──────────
+{
+  const civById = new Map();
+  for (const ep of epochs) for (const c of ep.continents) for (const civ of c.civilizations) civById.set(civ.id, { ep, civ });
+  for (const { ep, civ } of civById.values()) {
+    const l = civ.lineage;
+    if (!l) continue;
+    for (const dir of ["prev", "next"]) {
+      const r = l[dir];
+      if (!r) continue;
+      const target = civById.get(r.civId);
+      if (!target) err(`lignée ${l.id}`, `${civ.id} → « ${r.civId} » introuvable`);
+      else if (target.ep.id !== r.epochId) err(`lignée ${l.id}`, `${r.civId} n'est pas dans l'époque ${r.epochId}`);
+      else if (dir === "next" && target.civ.start < civ.start)
+        err(`lignée ${l.id}`, `ordre chronologique : ${r.civId} commence avant ${civ.id}`);
+    }
+  }
+}
+
 // ── Liens avec la carte (src/data/map-links.js + public/map/index.json) ──────
 const { TERRITORIES, CONFLICTS } = await import("../src/data/map-links.js");
 const mapIndexFile = join(__dirname, "..", "public", "map", "index.json");

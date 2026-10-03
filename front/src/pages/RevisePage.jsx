@@ -4,6 +4,7 @@ import { formatYear } from '../lib/time'
 import useDocumentTitle from '../lib/useDocumentTitle'
 import PageHeader from '../components/ui/PageHeader'
 import Icon from '../components/ui/Icon'
+import { useProgress, readCount } from '../store/progress'
 
 const STEPS = [
   { icon: 'clock', title: 'Une période', text: 'Antiquité, Moyen Âge…' },
@@ -15,6 +16,7 @@ const STEPS = [
 export default function RevisePage() {
   useDocumentTitle('On avance')
   const epochs = getEpochs()
+  const fiches = useProgress((s) => s.fiches)
 
   return (
     <>
@@ -74,9 +76,15 @@ export default function RevisePage() {
               <span className="block text-xs text-muted mt-0.5">
                 {formatYear(epoch.start)} → {formatYear(epoch.end)} · {countCivilizations(epoch)} civilisations
               </span>
-              {/* Barre de progression (alimentée au sprint 5) */}
-              <span className="mt-2.5 block h-1.5 rounded-full bg-surface2 overflow-hidden">
-                <span className="block h-full w-0 rounded-full" style={{ background: epoch.color }} />
+              {/* Progression : fiches lues (les révisions s'y ajouteront au sprint 5) */}
+              <span className="mt-2.5 flex items-center gap-2">
+                <span className="flex-1 block h-1.5 rounded-full bg-surface2 overflow-hidden">
+                  <span
+                    className="block h-full rounded-full"
+                    style={{ background: epoch.color, width: `${(readCount(fiches, epoch) / countCivilizations(epoch)) * 100}%` }}
+                  />
+                </span>
+                <span className="text-[11px] text-muted tabular-nums">{readCount(fiches, epoch)}/{countCivilizations(epoch)}</span>
               </span>
             </span>
             <Icon name="chevronRight" className="text-muted group-hover:text-ink group-hover:translate-x-0.5 transition" />

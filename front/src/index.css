@@ -177,6 +177,14 @@
 }
 .map-range:active::-webkit-slider-thumb { transform: scale(1.12); }
 
+/* Frise : barre mise en évidence à l'arrivée depuis « la suite » */
+@keyframes bar-pulse {
+  0%   { box-shadow: 0 0 0 0 var(--pulse); transform: scale(1); }
+  40%  { transform: scale(1.03); }
+  100% { box-shadow: 0 0 0 14px transparent; transform: scale(1); }
+}
+.bar-pulse { animation: bar-pulse 0.95s ease-out 3; }
+
 @layer utilities {
   .font-display { font-family: 'Fraunces', Georgia, serif; }
   .pb-safe { padding-bottom: env(safe-area-inset-bottom); }

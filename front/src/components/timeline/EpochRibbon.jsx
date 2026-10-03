@@ -5,6 +5,7 @@ import { countCivilizations } from '../../lib/data'
 import { createEpochScale, formatDuration, formatTick, clampPeriod } from '../../lib/time'
 import { shade } from '../../lib/color'
 import Icon from '../ui/Icon'
+import { useProgress, readCount } from '../../store/progress'
 
 /**
  * La grande flèche des époques.
@@ -53,6 +54,7 @@ export default function EpochRibbon({ epochs }) {
 
 function Segment({ epoch, index, isLast, dimmed, onHover }) {
   const civCount = countCivilizations(epoch)
+  const read = useProgress((s) => readCount(s.fiches, epoch))
 
   return (
     <motion.li
@@ -82,7 +84,9 @@ function Segment({ epoch, index, isLast, dimmed, onHover }) {
 
         <span className="mt-3 flex items-end justify-between gap-2 text-xs">
           <span className="opacity-90">
-            <span className="block font-semibold">{civCount} civilisations</span>
+            <span className="block font-semibold">
+              {civCount} civilisations{read > 0 && <span className="font-normal opacity-90"> · {read} lue{read > 1 ? 's' : ''}</span>}
+            </span>
             <span className="block opacity-80">{formatDuration(epoch.start, epoch.end)}</span>
           </span>
           <span className="shrink-0 grid place-items-center w-8 h-8 rounded-full bg-white/20 group-hover:bg-white/35 transition">

@@ -4,6 +4,8 @@ import { getEpochs, getStats } from '../lib/data'
 import { formatYear } from '../lib/time'
 import useDocumentTitle from '../lib/useDocumentTitle'
 import Icon from '../components/ui/Icon'
+import ResumeCard from '../components/progress/ResumeCard'
+import ProgressPanel from '../components/progress/ProgressPanel'
 
 const fadeUp = (delay = 0) => ({
   initial: { opacity: 0, y: 16 },
@@ -18,6 +20,11 @@ export default function HomePage() {
 
   return (
     <div className="space-y-14 sm:space-y-20">
+      {/* ── Reprendre où j'en étais (si déjà venu) ───────────────────────── */}
+      <div className="empty:hidden -mb-6 sm:-mb-10">
+        <ResumeCard />
+      </div>
+
       {/* ── Hero ─────────────────────────────────────────────────────────── */}
       <section className="pt-2 sm:pt-8">
         <motion.p {...fadeUp(0)} className="eyebrow mb-4 flex items-center gap-2">
@@ -97,6 +104,9 @@ export default function HomePage() {
           />
         </div>
       </section>
+
+      {/* ── Progression (sauvegardée localement) ───────────────────────────── */}
+      <ProgressPanel />
 
       {/* ── Chiffres ─────────────────────────────────────────────────────── */}
       <section aria-label="Le contenu en chiffres" className="card p-6 sm:p-8">

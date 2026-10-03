@@ -1,7 +1,9 @@
-import { useCallback } from 'react'
+import { useCallback, useEffect } from 'react'
 import { Link, useLocation, useNavigate, useParams, useSearchParams } from 'react-router-dom'
 import { AnimatePresence } from 'framer-motion'
-import { getCivilization, getEpoch, getEpochs, countCivilizations } from '../lib/data'
+import { getCivilization, getEpoch, getEpochs, countCivilizations, findCivilization } from '../lib/data'
+import { useProgress, readCount } from '../store/progress'
+import { useUI } from '../store/ui'
 import { formatDuration, formatYear } from '../lib/time'
 import useDocumentTitle from '../lib/useDocumentTitle'
 import PageHeader from '../components/ui/PageHeader'
@@ -30,6 +32,31 @@ function EpochContent({ epoch }) {
 
   // L'aperçu ouvert est dans l'URL (?civ=…) : partageable, et « retour » le ferme.
   const selected = params.get('civ') ? getCivilization(epoch.id, params.get('civ')) : null
+  // Arrivée depuis « la suite » d'une autre époque : ?focus=<civ>&from=<civ précédente>
+  const focusId = params.get('focus')
+  const fromId = params.get('from')
+
+  const fiches = useProgress((s) => s.fiches)
+  const setLast = useProgress((s) => s.setLast)
+  const showToast = useUI((s) => s.showToast)
+  const read = readCount(fiches, epoch)
+  const total = countCivilizations(epoch)
+
+  useEffect(() => {
+    setLast({ path: `/frise/${epoch.id}`, kind: 'frise', title: epoch.label, subtitle: 'Frise', color: epoch.color })
+  }, [epoch, setLast])
+
+  useEffect(() => {
+    if (!focusId) return
+    const target = getCivilization(epoch.id, focusId)
+    const from = fromId ? findCivilization(fromId) : null
+    if (target && from) {
+      showToast({ text: `La suite de « ${from.civ.label} » : ${target.civ.label}`, icon: 'arrowRight' }, 4000)
+    }
+    // on nettoie l'URL une fois l'animation jouée (un rechargement ne la rejoue pas)
+    const t = setTimeout(() => setParams({}, { replace: true, preventScrollReset: true }), 3300)
+    return () => clearTimeout(t)
+  }, [focusId]) // eslint-disable-line react-hooks/exhaustive-deps
 
   const select = useCallback(
     (civ) => {
@@ -61,12 +88,17 @@ function EpochContent({ epoch }) {
         actions={
           <div className="flex gap-2 text-xs">
             <span className="chip"><span className="text-muted">Durée</span> <span className="font-medium">{formatDuration(epoch.start, epoch.end)}</span></span>
-            <span className="chip"><span className="font-medium">{countCivilizations(epoch)}</span> <span className="text-muted">civilisations</span></span>
+            <span className="chip" title="Fiches complètes ouvertes dans cette époque">
+              <span className="relative w-10 h-1.5 rounded-full bg-line overflow-hidden">
+                <span className="absolute inset-y-0 left-0 rounded-full" style={{ width: `${(read / total) * 100}%`, background: epoch.color }} />
+              </span>
+              <span className="font-medium tabular-nums">{read}/{total}</span> <span className="text-muted">fiches lues</span>
+            </span>
           </div>
         }
       />
 
-      <EpochTimeline epoch={epoch} selectedId={selected?.civ.id} onSelect={select} />
+      <EpochTimeline epoch={epoch} selectedId={selected?.civ.id} onSelect={select} focusId={focusId} />
 
       {/* Époque précédente / suivante */}
       <nav aria-label="Autres époques" className="mt-8 grid grid-cols-2 gap-3">

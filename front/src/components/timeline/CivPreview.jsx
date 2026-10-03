@@ -4,6 +4,8 @@ import { motion, useDragControls } from 'framer-motion'
 import { formatDuration, formatYear } from '../../lib/time'
 import { readableText, shade } from '../../lib/color'
 import Icon from '../ui/Icon'
+import LineageTrail from '../LineageTrail'
+import { useProgress } from '../../store/progress'
 
 /**
  * Aperçu d'une civilisation sans quitter la frise.
@@ -26,6 +28,7 @@ export default function CivPreview({ civ, epoch, continent, onClose }) {
     closeRef.current?.focus({ preventScroll: true })
   }, [civ.id])
 
+  const read = useProgress((st) => !!st.fiches[civ.id])
   const events = [...(civ.datesCles ?? [])].sort((a, b) => a.annee - b.annee)
   const fg = readableText(civ.color)
   const offscreen = desktop ? { x: 420, opacity: 0 } : { y: '100%' }
@@ -80,8 +83,13 @@ export default function CivPreview({ civ, epoch, continent, onClose }) {
             {epoch.label} · {continent.label}
           </p>
           <h2 className="font-display text-2xl font-semibold leading-tight mt-1 pr-10">{civ.label}</h2>
-          <p className="text-sm opacity-90 mt-1 tabular-nums">
+          <p className="text-sm opacity-90 mt-1 tabular-nums flex flex-wrap items-center gap-x-2">
             {civ.period} · {formatDuration(civ.start, civ.end)}
+            {read && (
+              <span className="inline-flex items-center gap-1 text-[11px] font-semibold px-1.5 py-0.5 rounded-md bg-black/15">
+                <Icon name="check" size={12} strokeWidth={2.6} /> Lue
+              </span>
+            )}
           </p>
         </header>
 
@@ -94,6 +102,13 @@ export default function CivPreview({ civ, epoch, continent, onClose }) {
           )}
 
           <p className="text-[15px] text-ink/85 leading-relaxed">{civ.description}</p>
+
+          {/* Même civilisation à l'époque précédente / suivante : on ouvre sa frise et on la met en évidence */}
+          <LineageTrail
+            civ={civ}
+            variant="compact"
+            linkTo={(m) => `/frise/${m.epochId}?focus=${m.civId}&from=${civ.id}`}
+          />
 
           {events.length > 0 && (
             <section>
@@ -139,7 +154,7 @@ export default function CivPreview({ civ, epoch, continent, onClose }) {
 
         <footer className="shrink-0 p-4 border-t border-line pb-[calc(1rem+env(safe-area-inset-bottom))]">
           <Link to={`/frise/${epoch.id}/${civ.id}`} className="btn-primary w-full h-12">
-            Ouvrir la fiche complète <Icon name="arrowRight" size={18} />
+            {read ? 'Relire la fiche complète' : 'Ouvrir la fiche complète'} <Icon name="arrowRight" size={18} />
           </Link>
         </footer>
       </motion.aside>

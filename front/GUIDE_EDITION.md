@@ -58,6 +58,14 @@ Il tourne avant **chaque build** (en local et sur GitHub Actions).
 - **Erreur** ❌ → le build s'arrête : id dupliqué, date non numérique, `start ≥ end`, couleur invalide, champ obligatoire manquant…
 - **Alerte** ⚠️ → le build continue, mais le contenu mérite un coup d'œil (date clé hors de la période de la civilisation, etc.).
 
+### Relier une civilisation d'une époque à l'autre (lignées)
+Dans `scripts/lineages.mjs` : une lignée = une couleur + la liste des ids dans l'ordre chronologique.
+```js
+{ id: 'france', label: 'France', color: '#3f6fd1', members: ['francs', 'france-capet', 'france-mod', 'france-contemp'] }
+```
+Après `npm run data`, tous les membres prennent la même couleur (frise, carte, fiches) et gagnent les liens
+« ← Avant / La suite → » (champ `lineage` généré dans `epochs.json`). Une civilisation n'appartient qu'à une lignée.
+
 ### Relier une civilisation à la carte
 Dans `src/data/map-links.js` :
 - `TERRITORIES['mon-id']` = noms **anglais** des territoires sur les cartes historiques (ex. `'Kingdom of France'`). La liste des noms disponibles par année est dans `public/map/index.json`.
@@ -81,6 +89,9 @@ Dans `src/data/map-links.js` :
 | La fiche d'une civilisation | `src/pages/CivilizationPage.jsx` |
 | La carte du monde | `src/pages/MapPage.jsx` + `src/components/map/` + `src/lib/map.js` |
 | Relier une civilisation à la carte, placer un conflit | `src/data/map-links.js` |
+| Lignées (même civilisation sur plusieurs époques) | `scripts/lineages.mjs` + `src/components/LineageTrail.jsx` |
+| Progression (fiches lues, reprendre, série) | `src/store/progress.js` + `src/components/progress/` |
+| Messages éphémères (toasts) | `useUI().showToast({ text, tone })` dans `src/store/ui.js` |
 | On avance (aperçu) | `src/pages/RevisePage.jsx` |
 | Le mot de bienvenue | `src/config/welcome.js` (`enabled: false` pour le couper) |
 | Les couleurs, le mode sombre | `src/index.css` (variables `--c-…`) |
@@ -91,6 +102,7 @@ Dans `src/data/map-links.js` :
 - **Couleurs** : utiliser les classes de thème (`text-ink`, `text-muted`, `bg-surface`, `bg-surface2`, `border-line`, `text-accent`…) plutôt que `bg-white` ou `text-gray-500`, sinon le mode sombre casse.
 - **Boutons** : classes prêtes à l'emploi `btn-primary`, `btn-secondary`, `btn-ghost`, `btn-icon` (zone tactile ≥ 44 px).
 - **`localStorage`** : toujours passer par `src/lib/storage.js` (protégé contre la navigation privée).
+- **Progression** : clé `histomap_progress` (version 1). Si vous changez sa forme, incrémentez `VERSION` et complétez `migrate()` dans `store/progress.js`, sinon les utilisateurs perdent leur avancement.
 - **Vibrations** : `haptic('success')` depuis `src/lib/haptics.js`. Android uniquement (Safari iOS ne le permet pas).
 - Frise d'une époque : `LANE_H`, `LANE_GAP`, `MIN_W`, `ZOOM_MAX` en tête de `EpochTimeline.jsx`. Les époques de plus de 20 000 ans passent automatiquement en échelle logarithmique (`LOG_THRESHOLD` dans `time.js`).
 - `trackId` : des civilisations successives d'une même piste (Ghana → Mali) restent sur la même ligne ; si elles se chevauchent nettement, elles sont séparées automatiquement.

@@ -22,6 +22,7 @@ histomap/
 ├── front/                       ← Le site (React 18 + Vite + Tailwind)
 │   ├── scripts/
 │   │   ├── data-part1..4.mjs    ← SOURCES des données (à éditer)
+│   │   ├── lineages.mjs         ← civilisations reliées d'une époque à l'autre
 │   │   ├── build-epochs.mjs     ← génère src/data/epochs.json
 │   │   ├── validate-data.mjs    ← vérifie les données avant chaque build
 │   │   └── build-map.mjs        ← génère les fonds de carte (public/map/)
@@ -31,7 +32,7 @@ histomap/
 │   │   ├── pages/               ← une page par écran
 │   │   ├── components/          ← composants partagés (ui/ = briques de base)
 │   │   ├── lib/                 ← accès aux données, temps, stockage, vibrations
-│   │   ├── store/               ← état global (thème, interface)
+│   │   ├── store/               ← état global (thème, interface, progression)
 │   │   ├── config/welcome.js    ← mot de bienvenue
 │   │   └── data/epochs.json     ← GÉNÉRÉ, ne pas éditer à la main
 │   └── GUIDE_EDITION.md         ← comment ajouter du contenu
@@ -62,6 +63,10 @@ npm run dev     # http://localhost:5173/Histomap/
 
 - **Frontières** : projet [historical-basemaps](https://github.com/aourednik/historical-basemaps) (André Ourednik, **licence GPL-3.0**), simplifiées et converties en TopoJSON dans `front/public/map/` (fichiers séparés du code, avec `LICENSE` et `NOTICE.md`).
 - **Lien carte ↔ fiches** : `front/src/data/map-links.js` (noms des territoires de chaque civilisation + coordonnées des conflits).
+
+## Progression
+
+Fiches lues, dernier endroit consulté (« Reprendre » sur l'accueil), série de jours : tout est enregistré **dans le navigateur** (`localStorage`, clé `histomap_progress`). Rien n'est envoyé sur un serveur ; en contrepartie, la progression ne se synchronise pas entre appareils.
 
 ## Déploiement
 

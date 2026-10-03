@@ -6,6 +6,7 @@ import { findCivilization } from '../lib/data'
 import { formatYear } from '../lib/time'
 import { haptic } from '../lib/haptics'
 import { load, save } from '../lib/storage'
+import { useProgress } from '../store/progress'
 import useDocumentTitle from '../lib/useDocumentTitle'
 import Icon from '../components/ui/Icon'
 import WorldMap from '../components/map/WorldMap'
@@ -31,6 +32,11 @@ export default function MapPage() {
   const selected = params.get('civ') ? findCivilization(params.get('civ')) : null
 
   useDocumentTitle(`Carte du monde · ${formatYear(year)}`)
+
+  const setLast = useProgress((s) => s.setLast)
+  useEffect(() => {
+    setLast({ path: `/carte?annee=${year}`, kind: 'carte', title: `Le monde en ${formatYear(year)}`, subtitle: 'Carte du monde', color: epoch.color })
+  }, [year, epoch.color, setLast])
 
   const update = useCallback(
     (patch) =>

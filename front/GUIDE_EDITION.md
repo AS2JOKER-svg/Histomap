@@ -1,112 +1,84 @@
-# Guide d'édition HISTOMAP
+# Guide d'édition HistoMap
 
-Petit mode d'emploi pour ajouter/modifier des civilisations, la première page, et éviter de tout casser.
+Petit mode d'emploi pour ajouter ou modifier du contenu et des pages sans rien casser.
 
 ---
 
-## 1. Ajouter / modifier / améliorer une civilisation
+## 1. Ajouter / modifier une civilisation
 
 ### Où ?
-Les données NE se modifient JAMAIS directement dans `src/data/epochs.json` (c'est un fichier **généré**, il sera écrasé).
+Les données ne se modifient **jamais** directement dans `src/data/epochs.json` : c'est un fichier **généré**, il est écrasé à chaque `npm run data`.
 On édite les **sources** dans `scripts/` :
 
 | Fichier | Époque |
 |---|---|
-| `scripts/data-part1.mjs` | Préhistoire / Antiquité (1re époque) |
-| `scripts/data-part2.mjs` | Antiquité (2e époque) |
+| `scripts/data-part1.mjs` | Préhistoire |
+| `scripts/data-part2.mjs` | Antiquité |
 | `scripts/data-part3.mjs` | Moyen Âge |
-| `scripts/data-part4.mjs` | Époque suivante |
-| `scripts/build-epochs.mjs` | Script qui assemble tout → `src/data/epochs.json` |
+| `scripts/data-part4.mjs` | Époque moderne, Époque contemporaine |
+| `scripts/build-epochs.mjs` | Assemble tout → `src/data/epochs.json` |
+| `scripts/validate-data.mjs` | Vérifie les données (lancé automatiquement) |
 
 ### Dans quel ordre ?
-1. Ouvrir le bon `data-partX.mjs`.
-2. Trouver le bon **continent** (`id: "europe"`, `"asie"`, `"afrique"`, `"amerique"`…).
-3. Ajouter/modifier un objet civilisation dans son tableau `civilizations`.
-4. **Régénérer** les données :
+1. Ouvrir le bon `data-partX.mjs`, trouver le bon continent (`europe`, `asie`, `afrique`, `amerique`).
+2. Ajouter/modifier un objet civilisation dans `civilizations`.
+3. Régénérer **et valider** :
    ```bash
-   cd front && node scripts/build-epochs.mjs
+   cd front && npm run data
    ```
-5. Vérifier dans le navigateur (`npm run dev`).
+4. Vérifier dans le navigateur (`npm run dev`).
 
-### Structure minimale d'une civilisation
+### Structure d'une civilisation
 ```js
 {
-  id: "identifiant-unique",      // OBLIGATOIRE et UNIQUE dans le continent
-  label: "Nom affiché",
-  period: "800 à 476",           // texte libre
-  start: -800,                   // NOMBRE (négatif = av. J.-C.)
-  end: 476,                      // NOMBRE, doit être >= start
-  color: "#c0392b",
-  isRiver: false,                // true = bordure blanche (civ. fluviale)
-  capitale: "…",
+  id: "france-capet",          // OBLIGATOIRE, UNIQUE dans tout le site (sert dans l'URL)
+  trackId: "france",           // optionnel : civs qui partagent une même ligne de frise
+  row: 1,                      // optionnel : ordre vertical dans le continent
+  label: "France (Capétiens)",
+  period: "987 à 1492",        // texte affiché
+  start: 987,                  // NOMBRE (négatif = av. J.-C.)
+  end: 1492,                   // NOMBRE, strictement > start
+  color: "#2c6fd1",            // couleur hexadécimale
+  isRiver: false,
+  capitale: "Paris",
   description: "…",
-  regimes: [{ type, start, end, chef }],
-  technologies: ["…"],
-  croyances: ["…"],
-  personnages: [{ nom, role, dates }],
-  guerres: [{ nom, annee, contre, issue }],
-  events: [{ year, label, importance: "haute"|"moyenne", info }],
-  relations: [{ type: "conflit"|"alliance", with: "id-autre-civ", label, start, end }],
-  liens: [{ label, url }]
+  datesCles:   [{ annee, evenement, info }],
+  dirigeants:  [{ titre, nom, surnom, debut, fin }],
+  personnages: [{ nom, role, description, dates, wikiUrl }],
+  guerres:     [{ nom, annee, adversaires: [], allies: [], morts, vainqueur, consequences, wikiUrl }],
+  sciences: "texte…",
+  croyancesText: "texte…",
+  diplomatie: "texte…",
+  documentaires: [{ titre, url }]
 }
 ```
 
-### ⚠️ À garder en tête (pièges qui « cassent tout »)
-- **`id` UNIQUE par continent.** Deux civs avec le même `id` → l'une **disparaît** (React `key` dupliquée). C'était le bug corrigé le 03/07.
-- **`start` et `end` sont des NOMBRES**, pas des chaînes. `end >= start`.
-- **`relations.with`** doit pointer vers un `id` **existant**. Une relation vers une civ d'un autre continent n'est simplement pas tracée (pas d'erreur).
-- Toujours **relancer `build-epochs.mjs`** après édition, sinon rien ne change à l'écran.
-- Vérifier les virgules JS entre objets (`},{`), une virgule manquante casse tout le fichier.
-
-### Vérifier l'absence de doublons/erreurs avant de committer
-```bash
-cd front && node -e '
-const eps = require("./src/data/epochs.json");
-let p=0;
-for (const ep of eps) for (const c of ep.continents) {
-  const seen=new Map();
-  for (const civ of c.civilizations){
-    seen.set(civ.id,(seen.get(civ.id)||0)+1);
-    if(typeof civ.start!=="number"||typeof civ.end!=="number") {console.log("DATE NON NUMERIQUE",ep.id,c.id,civ.id);p++;}
-    if(civ.start>civ.end){console.log("START>END",ep.id,c.id,civ.id);p++;}
-  }
-  for(const[id,n]of seen)if(n>1){console.log("DOUBLON",ep.id,c.id,id,"x"+n);p++;}
-}
-console.log(p?p+" probleme(s)":"OK aucun probleme");
-'
-```
+### Le validateur (`npm run validate`)
+Il tourne avant **chaque build** (en local et sur GitHub Actions).
+- **Erreur** ❌ → le build s'arrête : id dupliqué, date non numérique, `start ≥ end`, couleur invalide, champ obligatoire manquant…
+- **Alerte** ⚠️ → le build continue, mais le contenu mérite un coup d'œil (date clé hors de la période de la civilisation, etc.).
 
 ---
 
-## 2. Modifier la première page (dont la flèche)
+## 2. Où se trouve quoi dans le code ?
 
-### Où ?
-- **`src/components/EpochView.jsx`** : c'est la vue de la première page (frise des époques). La **flèche** de la timeline y est dessinée.
-- L'échelle temporelle globale (compression de la préhistoire) est dans **`src/store/timeScale.js`** (`createTimeScale`).
+| Je veux modifier… | Fichier |
+|---|---|
+| Le plan du site (URLs) | `src/App.jsx` |
+| L'en-tête, la barre d'onglets mobile | `src/layouts/AppShell.jsx` |
+| La page d'accueil (hub) | `src/pages/HomePage.jsx` |
+| La frise des époques (la flèche) | `src/pages/TimelinePage.jsx` + `src/lib/time.js` |
+| La vue d'une époque (continents) | `src/pages/EpochPage.jsx` |
+| La fiche d'une civilisation | `src/pages/CivilizationPage.jsx` |
+| Carte / On avance (aperçus) | `src/pages/MapPage.jsx`, `src/pages/RevisePage.jsx` |
+| Le mot de bienvenue | `src/config/welcome.js` (`enabled: false` pour le couper) |
+| Les couleurs, le mode sombre | `src/index.css` (variables `--c-…`) |
+| Les icônes | `src/components/ui/Icon.jsx` |
 
 ### À garder en tête
-- La flèche/timeline utilise les positions calculées par `createTimeScale` : si tu changes la flèche, vérifie que `PREHIST_RATIO` (32 %) et `HISTORY_START` (-800) dans `timeScale.js` restent cohérents.
-- Les positions `x` renvoyées sont **déjà** dans `[0, width]` — ne pas rajouter de padding.
-- La navigation entre pages passe par `src/store/navigation.js` (`goToCivilization`, etc.). Ne pas casser les noms de ces actions.
-
----
-
-## 3. Les fichiers d'une civilisation (fiche détaillée)
-
-### Où ?
-- **`src/components/CivilizationView.jsx`** : affichage de la fiche détaillée d'une civilisation (régimes, guerres, personnages, events, liens…).
-- **`src/components/ContinentsView.jsx`** : la timeline par continent (barres cliquables). Une **ligne par civilisation** (correctif du 03/07 : labels et barres toujours alignés).
-- **`src/data/fiches.json`** : contenu enrichi éventuel des fiches.
-
-### À garder en tête
-- `CivilizationView.jsx` lit les champs de l'objet civilisation (voir structure ci-dessus). Si tu ajoutes un champ dans les `data-partX.mjs`, il faut aussi l'afficher ici.
-- Dans `ContinentsView.jsx` : `key={civ.id}` → encore une fois, `id` unique obligatoire.
-- Les constantes de mise en page (`LANE_H`, `LANE_GAP`, `LABEL_W`) contrôlent la hauteur des lignes — les modifier avec précaution car labels (gauche) et barres (droite) doivent rester alignés.
-
----
-
-## Récapitulatif des ordres d'action
-
-**Ajouter une civ :** `data-partX.mjs` → `node scripts/build-epochs.mjs` → vérifier navigateur.
-**Changer la flèche/1re page :** `EpochView.jsx` (+ éventuellement `timeScale.js`).
-**Changer une fiche :** `CivilizationView.jsx` (+ `data-partX.mjs` si nouveau champ).
+- **Les pages ne lisent pas le JSON directement** : elles passent par `src/lib/data.js` (`getEpoch`, `getCivilization`…).
+- **Couleurs** : utiliser les classes de thème (`text-ink`, `text-muted`, `bg-surface`, `bg-surface2`, `border-line`, `text-accent`…) plutôt que `bg-white` ou `text-gray-500`, sinon le mode sombre casse.
+- **Boutons** : classes prêtes à l'emploi `btn-primary`, `btn-secondary`, `btn-ghost`, `btn-icon` (zone tactile ≥ 44 px).
+- **`localStorage`** : toujours passer par `src/lib/storage.js` (protégé contre la navigation privée).
+- **Vibrations** : `haptic('success')` depuis `src/lib/haptics.js`. Android uniquement (Safari iOS ne le permet pas).
+- Dans `EpochPage.jsx`, `LANE_H` / `LANE_GAP` contrôlent la hauteur des lignes : les noms (à gauche) et les barres (à droite) doivent rester alignés.

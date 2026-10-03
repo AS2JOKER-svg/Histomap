@@ -67,8 +67,11 @@ Il tourne avant **chaque build** (en local et sur GitHub Actions).
 | Le plan du site (URLs) | `src/App.jsx` |
 | L'en-tête, la barre d'onglets mobile | `src/layouts/AppShell.jsx` |
 | La page d'accueil (hub) | `src/pages/HomePage.jsx` |
-| La frise des époques (la flèche) | `src/pages/TimelinePage.jsx` + `src/lib/time.js` |
-| La vue d'une époque (continents) | `src/pages/EpochPage.jsx` |
+| La flèche des époques | `src/pages/TimelinePage.jsx` + `src/components/timeline/EpochRibbon.jsx` |
+| La frise d'une époque (toile, zoom, filtres) | `src/pages/EpochPage.jsx` + `src/components/timeline/EpochTimeline.jsx` |
+| Le rangement des barres en lignes | `src/components/timeline/layout.js` |
+| L'aperçu d'une civilisation (tiroir) | `src/components/timeline/CivPreview.jsx` |
+| Les échelles de temps (linéaire / log) | `src/lib/time.js` (`createEpochScale`) |
 | La fiche d'une civilisation | `src/pages/CivilizationPage.jsx` |
 | Carte / On avance (aperçus) | `src/pages/MapPage.jsx`, `src/pages/RevisePage.jsx` |
 | Le mot de bienvenue | `src/config/welcome.js` (`enabled: false` pour le couper) |
@@ -81,4 +84,5 @@ Il tourne avant **chaque build** (en local et sur GitHub Actions).
 - **Boutons** : classes prêtes à l'emploi `btn-primary`, `btn-secondary`, `btn-ghost`, `btn-icon` (zone tactile ≥ 44 px).
 - **`localStorage`** : toujours passer par `src/lib/storage.js` (protégé contre la navigation privée).
 - **Vibrations** : `haptic('success')` depuis `src/lib/haptics.js`. Android uniquement (Safari iOS ne le permet pas).
-- Dans `EpochPage.jsx`, `LANE_H` / `LANE_GAP` contrôlent la hauteur des lignes : les noms (à gauche) et les barres (à droite) doivent rester alignés.
+- Frise d'une époque : `LANE_H`, `LANE_GAP`, `MIN_W`, `ZOOM_MAX` en tête de `EpochTimeline.jsx`. Les époques de plus de 20 000 ans passent automatiquement en échelle logarithmique (`LOG_THRESHOLD` dans `time.js`).
+- `trackId` : des civilisations successives d'une même piste (Ghana → Mali) restent sur la même ligne ; si elles se chevauchent nettement, elles sont séparées automatiquement.

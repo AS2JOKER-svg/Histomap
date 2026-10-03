@@ -129,6 +129,16 @@
   }
 }
 
+/* Pointe de la flèche des époques : vers le bas sur mobile, vers la droite sur desktop */
+.epoch-ribbon-tip > a {
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 26px), 50% 100%, 0 calc(100% - 26px));
+}
+@media (min-width: 768px) {
+  .epoch-ribbon-tip > a {
+    clip-path: polygon(0 0, calc(100% - 30px) 0, 100% 50%, calc(100% - 30px) 100%, 0 100%);
+  }
+}
+
 @layer utilities {
   .font-display { font-family: 'Fraunces', Georgia, serif; }
   .pb-safe { padding-bottom: env(safe-area-inset-bottom); }

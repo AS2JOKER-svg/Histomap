@@ -11,6 +11,7 @@ import Icon from '../ui/Icon'
  */
 export default function ProgressPanel() {
   const fiches = useProgress((s) => s.fiches)
+  const chapters = useProgress((s) => s.chapters)
   const days = useProgress((s) => s.days)
   const last = useProgress((s) => s.last)
   const reset = useProgress((s) => s.reset)
@@ -18,6 +19,7 @@ export default function ProgressPanel() {
   const epochs = getEpochs()
   const total = epochs.reduce((n, e) => n + countCivilizations(e), 0)
   const read = Object.keys(fiches).length
+  const revised = Object.values(chapters).filter((c) => c.rounds > 0).length
   const streak = streakOf(days)
   const suggestion = suggestNext(epochs, fiches, last)
 
@@ -32,7 +34,7 @@ export default function ProgressPanel() {
           <p className="eyebrow mb-1">Sauvegardée sur cet appareil</p>
           <h2 id="progress-title" className="font-display text-2xl sm:text-3xl font-semibold text-ink">Votre progression</h2>
         </div>
-        {read > 0 && (
+        {(read > 0 || revised > 0) && (
           <button onClick={onReset} className="text-xs text-muted hover:text-danger underline-offset-2 hover:underline">
             Réinitialiser
           </button>
@@ -44,6 +46,9 @@ export default function ProgressPanel() {
         <div className="grid grid-cols-2 gap-3 content-start">
           <Tile icon="cards" value={`${read}`} unit={`/ ${total}`} label="fiches lues">
             <Bar pct={read / total} />
+            <Link to="/reviser" className="block text-[11px] text-muted hover:text-ink mt-2">
+              {revised ? `${revised} chapitre${revised > 1 ? 's' : ''} révisé${revised > 1 ? 's' : ''} →` : 'Aucun chapitre révisé →'}
+            </Link>
           </Tile>
           <Tile icon="sparkles" value={streak} unit={streak > 1 ? 'jours' : 'jour'} label="série en cours" highlight={streak >= 2}>
             <p className="text-[11px] text-muted mt-2">{streak ? 'Revenez demain pour la prolonger' : 'Lisez une fiche pour la lancer'}</p>

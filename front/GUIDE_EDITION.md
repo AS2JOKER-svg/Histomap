@@ -66,6 +66,15 @@ Dans `scripts/lineages.mjs` : une lignée = une couleur + la liste des ids dans 
 Après `npm run data`, tous les membres prennent la même couleur (frise, carte, fiches) et gagnent les liens
 « ← Avant / La suite → » (champ `lineage` généré dans `epochs.json`). Une civilisation n'appartient qu'à une lignée.
 
+### Écrire un chapitre de révision (« On avance »)
+Chaque civilisation a un chapitre **généré automatiquement** à partir de ses données. Pour un chapitre
+**rédigé à la main** (meilleure qualité) : copier `src/data/revision/france-capet.js`, l'adapter, puis
+l'enregistrer dans `src/data/revision/index.js`.
+- `tier: 1` = premier passage (l'essentiel) ; `tier: 2` = nouvelles cartes quand on reprend le chapitre.
+- Types de cartes : `text` (titre + texte + chiffre mis en avant), `keyfigure` (grand chiffre), `dates`,
+  `steps` (schéma en étapes), `map` (mini-carte, `years: [...]`), `war`, `person`, `leaders`.
+- La couverture, la carte « avant / après » (lignée) et le bilan (`recap`) sont ajoutés automatiquement.
+
 ### Relier une civilisation à la carte
 Dans `src/data/map-links.js` :
 - `TERRITORIES['mon-id']` = noms **anglais** des territoires sur les cartes historiques (ex. `'Kingdom of France'`). La liste des noms disponibles par année est dans `public/map/index.json`.
@@ -92,7 +101,9 @@ Dans `src/data/map-links.js` :
 | Lignées (même civilisation sur plusieurs époques) | `scripts/lineages.mjs` + `src/components/LineageTrail.jsx` |
 | Progression (fiches lues, reprendre, série) | `src/store/progress.js` + `src/components/progress/` |
 | Messages éphémères (toasts) | `useUI().showToast({ text, tone })` dans `src/store/ui.js` |
-| On avance (aperçu) | `src/pages/RevisePage.jsx` |
+| On avance : hub, choix du chapitre, chapitre | `src/pages/RevisePage.jsx`, `ReviseEpochPage.jsx`, `ChapterPage.jsx` |
+| Cartes de révision (paquet, types de cartes) | `src/components/revision/` + `src/lib/revision.js` |
+| Chapitres rédigés à la main | `src/data/revision/` |
 | Le mot de bienvenue | `src/config/welcome.js` (`enabled: false` pour le couper) |
 | Les couleurs, le mode sombre | `src/index.css` (variables `--c-…`) |
 | Les icônes | `src/components/ui/Icon.jsx` |

@@ -10,7 +10,7 @@
  *   last      { path, title, subtitle, kind, color, at }   dernier endroit « utile »
  *   lastFiche { path, title, subtitle, color, at }         dernière fiche lue
  *   days      ['2026-10-03', …]                            jours d'activité (60 max)
- *   chapters  { [civId]: { cardsSeen, finishedAt, … } }    révisions  (sprint 5)
+ *   chapters  { [civId]: Chapter }                        révisions (voir plus bas)
  *   quizzes   { [civId]: { attempts, best, failed: [] } }  quiz       (sprint 6)
  *   startedAt                                              première visite
  *
@@ -65,6 +65,71 @@ export const useProgress = create(
       setLast(entry) {
         const last = { ...entry, at: Date.now() }
         set(entry.kind === 'fiche' ? { last, lastFiche: last } : { last })
+      },
+
+      // ── Révisions ───────────────────────────────────────────────────────────
+      // Chapter = {
+      //   rounds,          passages terminés (0 = jamais terminé)
+      //   finishedAt,      date du dernier passage terminé
+      //   toReview: [],    cartes marquées « à revoir » au dernier passage
+      //   current: { round, queue: [cardId], pos, review: [cardId], requeued: [cardId] } | null
+      // }
+
+      /** Démarre (ou redémarre) une séance avec une liste de cartes. */
+      startChapter(civId, round, queue) {
+        set((s) => ({
+          chapters: {
+            ...s.chapters,
+            [civId]: { rounds: 0, toReview: [], ...s.chapters[civId], current: { round, queue, pos: 0, review: [], requeued: [] } },
+          },
+        }))
+        get().touchDay()
+      },
+
+      /** Réponse sur la carte courante : 'ok' (compris) ou 'review' (à revoir). */
+      answerCard(civId, verdict) {
+        set((s) => {
+          const ch = s.chapters[civId]
+          if (!ch?.current) return {}
+          const cur = ch.current
+          const cardId = cur.queue[cur.pos]
+          let queue = cur.queue
+          let review = cur.review
+          let requeued = cur.requeued
+          if (verdict === 'review') {
+            if (!review.includes(cardId)) review = [...review, cardId]
+            // la carte revient une fois avant le bilan (dernière carte)
+            if (!requeued.includes(cardId)) {
+              queue = [...queue.slice(0, -1), cardId, queue[queue.length - 1]]
+              requeued = [...requeued, cardId]
+            }
+          }
+          return { chapters: { ...s.chapters, [civId]: { ...ch, current: { ...cur, queue, review, requeued, pos: cur.pos + 1 } } } }
+        })
+      },
+
+      /** Revenir à la carte précédente. */
+      previousCard(civId) {
+        set((s) => {
+          const ch = s.chapters[civId]
+          if (!ch?.current || ch.current.pos === 0) return {}
+          return { chapters: { ...s.chapters, [civId]: { ...ch, current: { ...ch.current, pos: ch.current.pos - 1 } } } }
+        })
+      },
+
+      /** Fin de séance : passage comptabilisé, cartes « à revoir » mémorisées. */
+      finishChapter(civId) {
+        set((s) => {
+          const ch = s.chapters[civId]
+          if (!ch?.current) return {}
+          return {
+            chapters: {
+              ...s.chapters,
+              [civId]: { ...ch, rounds: ch.rounds + 1, finishedAt: Date.now(), toReview: ch.current.review, current: null },
+            },
+          }
+        })
+        get().touchDay()
       },
 
       touchDay() {

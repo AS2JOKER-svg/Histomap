@@ -98,7 +98,7 @@ export default function HomePage() {
             delay={0.12}
             title="On avance"
             text="Choisissez une période, une civilisation, révisez avec des fiches à faire glisser… puis testez-vous en 20 questions."
-            status="soon"
+            status="ready"
             highlight
             illustration={<ReviseIllustration />}
           />

@@ -1,69 +1,137 @@
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@300;400;500;600;700&display=swap');
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --bg:        #f7f8fb;
-  --surface:   #ffffff;
-  --ink:       #1f2733;
-  --muted:     #6b7688;
-  --line:      #e6e9f0;
-  --accent:    #4f7cff;
-  --accent-2:  #7c5cff;
+/* ─────────────────────────────────────────────────────────────────────────────
+   Design tokens
+   Les couleurs sont stockées en canaux RGB pour que Tailwind puisse appliquer
+   l'opacité (ex : bg-accent/10). Le thème est piloté par <html data-theme>.
+   ───────────────────────────────────────────────────────────────────────────── */
+@layer base {
+  :root {
+    --c-bg:        247 248 251;
+    --c-surface:   255 255 255;
+    --c-surface-2: 241 243 248;
+    --c-ink:       28 35 48;
+    --c-muted:     99 110 128;
+    --c-line:      228 231 239;
+    --c-accent:    79 124 255;
+    --c-accent-2:  124 92 255;
+    --c-success:   22 163 106;
+    --c-danger:    220 64 64;
+    --c-warning:   217 140 20;
+
+    --shadow-soft: 0 1px 2px rgba(16, 24, 40, .04), 0 8px 24px rgba(16, 24, 40, .06);
+    --shadow-lift: 0 14px 40px rgba(16, 24, 40, .12);
+    --glow-1: #e9eeff;
+    --glow-2: #eefaff;
+
+    color-scheme: light;
+  }
+
+  :root[data-theme='dark'] {
+    --c-bg:        12 15 22;
+    --c-surface:   21 26 36;
+    --c-surface-2: 29 35 48;
+    --c-ink:       232 236 244;
+    --c-muted:     148 158 178;
+    --c-line:      41 49 65;
+    --c-accent:    122 156 255;
+    --c-accent-2:  157 132 255;
+    --c-success:   52 199 132;
+    --c-danger:    244 98 98;
+    --c-warning:   240 172 60;
+
+    --shadow-soft: 0 1px 2px rgba(0, 0, 0, .3), 0 8px 24px rgba(0, 0, 0, .25);
+    --shadow-lift: 0 14px 40px rgba(0, 0, 0, .45);
+    --glow-1: rgba(79, 124, 255, .14);
+    --glow-2: rgba(124, 92, 255, .10);
+
+    color-scheme: dark;
+  }
+
+  html, body, #root { min-height: 100%; }
+
+  body {
+    @apply bg-bg text-ink font-body antialiased;
+    background-image:
+      radial-gradient(1200px 600px at 10% -10%, var(--glow-1) 0%, transparent 55%),
+      radial-gradient(1000px 500px at 100% 0%, var(--glow-2) 0%, transparent 50%);
+    background-attachment: fixed;
+    text-rendering: optimizeLegibility;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  :focus-visible {
+    outline: 2px solid rgb(var(--c-accent));
+    outline-offset: 2px;
+    border-radius: 6px;
+  }
+
+  ::selection { background: rgb(var(--c-accent) / .2); }
+
+  /* Scrollbar discrète */
+  ::-webkit-scrollbar { height: 10px; width: 10px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb {
+    background: rgb(var(--c-line));
+    border-radius: 99px;
+    border: 3px solid transparent;
+    background-clip: padding-box;
+  }
+  ::-webkit-scrollbar-thumb:hover { background: rgb(var(--c-muted) / .5); background-clip: padding-box; }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: .01ms !important;
+      transition-duration: .01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+/* ─────────────────────────────────────────────────────────────────────────────
+   Composants de base (utilisables directement en className)
+   ───────────────────────────────────────────────────────────────────────────── */
+@layer components {
+  .card {
+    @apply bg-surface border border-line rounded-xl2 shadow-soft;
+  }
+
+  .glass {
+    background: rgb(var(--c-surface) / .72);
+    backdrop-filter: saturate(1.4) blur(14px);
+    -webkit-backdrop-filter: saturate(1.4) blur(14px);
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 min-h-[44px] px-5 rounded-xl font-medium text-sm
+           transition duration-150 active:scale-[.97] disabled:opacity-50 disabled:pointer-events-none select-none;
+  }
+  .btn-primary   { @apply btn bg-ink text-bg hover:bg-ink/90 shadow-soft; }
+  .btn-accent    { @apply btn text-white shadow-soft hover:brightness-110;
+                   background-image: linear-gradient(135deg, rgb(var(--c-accent)), rgb(var(--c-accent-2))); }
+  .btn-secondary { @apply btn bg-surface text-ink border border-line hover:bg-surface2; }
+  .btn-ghost     { @apply btn text-muted hover:text-ink hover:bg-surface2; }
+  .btn-icon      { @apply inline-grid place-items-center w-11 h-11 rounded-xl text-muted hover:text-ink hover:bg-surface2 transition active:scale-95; }
+
+  .chip {
+    @apply inline-flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-lg bg-surface2 text-ink;
+  }
+
+  .eyebrow {
+    @apply text-[11px] font-semibold uppercase tracking-[.14em] text-muted;
+  }
+
+  .hoverable { @apply transition duration-200; }
+  @media (hover: hover) {
+    .hoverable:hover { transform: translateY(-2px); box-shadow: var(--shadow-lift); }
+  }
 }
 
-html, body, #root {
-  width: 100%;
-  min-height: 100%;
+@layer utilities {
+  .font-display { font-family: 'Fraunces', Georgia, serif; }
+  .pb-safe { padding-bottom: env(safe-area-inset-bottom); }
+  .no-scrollbar { scrollbar-width: none; }
+  .no-scrollbar::-webkit-scrollbar { display: none; }
 }
-
-body {
-  background:
-    radial-gradient(1200px 600px at 15% -10%, #eef2ff 0%, transparent 55%),
-    radial-gradient(1000px 500px at 100% 0%, #f0fbff 0%, transparent 50%),
-    var(--bg);
-  color: var(--ink);
-  font-family: 'Inter', system-ui, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
-}
-
-.font-display { font-family: 'Fraunces', Georgia, serif; }
-
-/* Scrollbar moderne et discrète */
-::-webkit-scrollbar { height: 10px; width: 10px; }
-::-webkit-scrollbar-track { background: transparent; }
-::-webkit-scrollbar-thumb {
-  background: #cbd3e1;
-  border-radius: 99px;
-  border: 3px solid transparent;
-  background-clip: padding-box;
-}
-::-webkit-scrollbar-thumb:hover { background: #aab6cc; background-clip: padding-box; }
-
-/* Carte en verre / surface douce */
-.card {
-  background: var(--surface);
-  border: 1px solid var(--line);
-  border-radius: 18px;
-  box-shadow: 0 1px 2px rgba(16, 24, 40, 0.04), 0 8px 24px rgba(16, 24, 40, 0.06);
-}
-
-.glass {
-  background: rgba(255, 255, 255, 0.7);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border: 1px solid rgba(255, 255, 255, 0.6);
-}
-
-/* Petites transitions génériques */
-.hoverable { transition: transform .18s ease, box-shadow .18s ease, background .18s ease; }
-.hoverable:hover { transform: translateY(-2px); }

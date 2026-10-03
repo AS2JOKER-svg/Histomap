@@ -3,16 +3,18 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "data": "node scripts/build-epochs.mjs",
+    "data": "node scripts/build-epochs.mjs && node scripts/validate-data.mjs",
+    "validate": "node scripts/validate-data.mjs",
     "dev": "vite",
+    "prebuild": "node scripts/validate-data.mjs",
     "build": "vite build",
     "preview": "vite preview"
   },
-
   "dependencies": {
     "framer-motion": "^11.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.30.6",
     "zustand": "^5.0.0"
   },
   "devDependencies": {

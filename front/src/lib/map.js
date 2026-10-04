@@ -91,6 +91,24 @@ export function linkTerritory(props, year) {
 }
 
 /**
+ * Comme linkTerritory, mais du point de vue d'une civilisation donnée (mini-cartes
+ * d'un chapitre) : si elle peut revendiquer ce territoire cette année-là, on la
+ * préfère à la plus récente (ex. Songhaï et Songhaï « apogée » en 1492).
+ */
+export function linkTerritoryFor(props, year, civId) {
+  // (pas de filtre de période : les années proposées viennent de map-presence.json,
+  // où le territoire existe ; ex. Ibères, visibles seulement sur la carte de -700)
+  const mine = (name) => (BY_NAME.get(name) ?? []).find((r) => r.civ.id === civId)
+  const direct = mine(props.NAME)
+  if (direct) return { ...direct, colony: false }
+  if (props.SUBJECTO && props.SUBJECTO !== props.NAME) {
+    const ruler = mine(props.SUBJECTO)
+    if (ruler) return { ...ruler, colony: true }
+  }
+  return linkTerritory(props, year)
+}
+
+/**
  * Guerres affichées sur la carte de `year` : chaque guerre apparaît sur la
  * carte la plus proche de sa date (entre les deux milieux d'intervalles).
  */

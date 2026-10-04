@@ -1,0 +1,172 @@
+/** Chapitre rédigé : Empire ottoman à l'époque moderne (1492 – 1789). */
+export default {
+  readingTime: 4,
+  cards: [
+    // ── Niveau 1 ──
+    {
+      id: 'origines',
+      tier: 1,
+      type: 'text',
+      kicker: 'Création',
+      title: "D'une principauté à un empire",
+      body:
+        "Vers 1299, Osman Ier fonde une petite principauté turque en Anatolie : ses descendants sont les « Ottomans ». En 1453, le sultan Mehmed II prend Constantinople, met fin à l'Empire byzantin et en fait sa capitale, Istanbul.",
+      highlight: { value: '1453', label: 'prise de Constantinople' },
+    },
+    {
+      id: 'carte',
+      tier: 1,
+      type: 'map',
+      kicker: 'Territoire',
+      title: 'Un empire sur trois continents',
+      years: [1500, 1600, 1783],
+      caption: "De l'Algérie à l'Irak et de la Hongrie à l'Arabie : comparez l'empire en 1500, à son apogée en 1600, puis en 1783.",
+    },
+    {
+      id: 'selim',
+      tier: 1,
+      type: 'text',
+      kicker: 'Expansion',
+      title: 'Selim Ier, calife',
+      body:
+        "En 1516-1517, Selim Ier bat les Mamelouks et conquiert la Syrie et l'Égypte. Il devient le protecteur des villes saintes de La Mecque et de Médine, et les sultans portent désormais le titre de calife, chef des musulmans sunnites.",
+    },
+    {
+      id: 'soliman',
+      tier: 1,
+      type: 'person',
+      nom: 'Soliman le Magnifique',
+      role: 'Sultan',
+      dates: 'règne 1520 – 1566',
+      description: "Sous son règne, l'empire atteint son apogée : conquête de Belgrade, de la Hongrie, de Bagdad. Les Turcs l'appellent « le Législateur » pour ses lois. Il s'allie au roi de France François Ier contre Charles Quint.",
+    },
+    {
+      id: 'mohacs',
+      tier: 1,
+      type: 'war',
+      nom: 'Bataille de Mohács',
+      annee: 1526,
+      adversaires: ['Royaume de Hongrie (Louis II)'],
+      allies: ['Armée de Soliman'],
+      vainqueur: 'Les Ottomans',
+      consequences: "Le roi Louis II meurt en fuyant. La Hongrie est en grande partie conquise, et les Ottomans assiègent Vienne dès 1529.",
+    },
+    {
+      id: 'janissaires',
+      tier: 1,
+      type: 'text',
+      kicker: 'Guerre',
+      title: 'Les janissaires',
+      body:
+        "L'infanterie d'élite du sultan est formée de garçons chrétiens des Balkans enlevés par le devchirmé, convertis à l'islam et entraînés dès l'enfance. Armés de mousquets, les janissaires forment l'une des premières armées permanentes d'Europe.",
+    },
+    {
+      id: 'sinan',
+      tier: 1,
+      type: 'person',
+      nom: 'Mimar Sinan',
+      role: 'Architecte',
+      dates: 'vers 1490 – 1588',
+      description: "Architecte en chef de Soliman, il construit des centaines d'édifices, dont la mosquée Süleymaniye à Istanbul et la mosquée Selimiye à Edirne, qu'il considérait comme son chef-d'œuvre.",
+    },
+    {
+      id: 'reculs',
+      tier: 1,
+      type: 'dates',
+      kicker: 'Fluctuations',
+      title: 'Les premiers coups d’arrêt',
+      items: [
+        { year: 1529, label: 'Premier siège de Vienne : échec' },
+        { year: 1571, label: 'Défaite navale de Lépante' },
+        { year: 1683, label: 'Second siège de Vienne : défaite' },
+        { year: 1699, label: 'Traité de Karlowitz : perte de la Hongrie' },
+      ],
+    },
+    {
+      id: 'tolerance',
+      tier: 1,
+      type: 'text',
+      kicker: 'Société',
+      title: 'Un empire de peuples et de religions',
+      body:
+        "Turcs, Arabes, Grecs, Arméniens, Juifs, Slaves… Les non-musulmans paient un impôt particulier mais peuvent pratiquer leur religion et gérer leurs affaires dans leur communauté. En 1492, l'empire accueille des Juifs chassés d'Espagne.",
+    },
+
+    // ── Niveau 2 ──
+    {
+      id: 'topkapi',
+      tier: 2,
+      type: 'text',
+      kicker: 'Pouvoir',
+      title: 'Le palais de Topkapı',
+      body:
+        "Le sultan gouverne depuis le palais de Topkapı, à Istanbul. Le grand vizir dirige l'administration et le divan, le conseil du gouvernement ; le harem abrite la famille du sultan.",
+    },
+    {
+      id: 'roxelane',
+      tier: 2,
+      type: 'person',
+      nom: 'Roxelane (Hürrem Sultan)',
+      role: 'Épouse de Soliman',
+      dates: 'vers 1502 – 1558',
+      description: "Ancienne esclave venue d'Ukraine, elle devient l'épouse officielle de Soliman, fait rare. Très influente, elle finance mosquées, écoles et hôpitaux.",
+    },
+    {
+      id: 'lepante',
+      tier: 2,
+      type: 'war',
+      nom: 'Bataille de Lépante',
+      annee: 1571,
+      adversaires: ['Sainte-Ligue (Espagne, Venise, papauté)'],
+      allies: ['Flotte ottomane'],
+      vainqueur: 'La Sainte-Ligue',
+      consequences: "La flotte ottomane est détruite près des côtes grecques, mais reconstruite dès l'année suivante. L'écrivain espagnol Cervantès y perd l'usage de la main gauche.",
+    },
+    {
+      id: 'vienne',
+      tier: 2,
+      type: 'text',
+      kicker: 'Guerre',
+      title: '1683 : Vienne',
+      body:
+        "Le grand vizir Kara Mustafa assiège Vienne avec une immense armée. Le roi de Pologne Jean III Sobieski arrive à la rescousse et charge avec ses cavaliers ailés : les Ottomans fuient. C'est le début de leur recul en Europe.",
+    },
+    {
+      id: 'tulipes',
+      tier: 2,
+      type: 'text',
+      kicker: 'Culture',
+      title: "Café, tulipes et imprimerie",
+      body:
+        "Istanbul popularise les cafés, lieux de discussion. Au début du XVIIIe siècle, l'« époque des Tulipes » est marquée par le goût des jardins et des fêtes ; la première imprimerie en caractères arabes ouvre à Istanbul en 1727.",
+    },
+  ],
+
+  quiz: [
+    { id: 'osman', type: 'mcq', prompt: 'Qui donne son nom aux Ottomans ?', options: ['Osman Ier', 'Mehmed II', 'Soliman', 'Selim Ier'], answer: 0 },
+    { id: 'constantinople', type: 'mcq', prompt: 'Quel sultan prend Constantinople en 1453 ?', options: ['Mehmed II', 'Soliman le Magnifique', 'Selim Ier', 'Osman Ier'], answer: 0 },
+    { id: 'capitale', type: 'mcq', prompt: "Quelle est la capitale de l'Empire ottoman ?", options: ['Istanbul', 'Ankara', 'Bagdad', 'Le Caire'], answer: 0 },
+    { id: 'byzance', type: 'tf', prompt: "La prise de Constantinople met fin à l'Empire byzantin.", answer: true },
+    { id: 'selim', type: 'mcq', prompt: 'Quelles régions Selim Ier conquiert-il en 1516-1517 ?', options: ["La Syrie et l'Égypte", 'La Hongrie et l’Autriche', 'La Perse et l’Inde', "L'Espagne et le Maroc"], answer: 0 },
+    { id: 'calife', type: 'mcq', prompt: 'Quel titre religieux portent les sultans après Selim Ier ?', options: ['Calife', 'Pape', 'Shah', 'Pharaon'], answer: 0 },
+    { id: 'legislateur', type: 'mcq', prompt: 'Quel surnom les Turcs donnent-ils à Soliman ?', options: ['Le Législateur', 'Le Conquérant', 'Le Terrible', 'Le Juste'], answer: 0 },
+    { id: 'allie', type: 'mcq', prompt: 'Avec quel roi de France Soliman s’allie-t-il ?', options: ['François Ier', 'Louis XIV', 'Henri IV', 'Charles VII'], answer: 0 },
+    { id: 'mohacs', type: 'mcq', prompt: 'Quel royaume est écrasé à Mohács en 1526 ?', options: ['La Hongrie', 'La Pologne', 'La Serbie', 'Venise'], answer: 0 },
+    { id: 'janissaires', type: 'mcq', prompt: 'Qui sont les janissaires ?', options: ["L'infanterie d'élite du sultan", 'Les conseillers religieux', 'Les marchands du bazar', 'Les gardiens du harem'], answer: 0 },
+    { id: 'devchirme', type: 'tf', prompt: 'Les janissaires sont recrutés parmi de jeunes garçons chrétiens des Balkans.', answer: true },
+    { id: 'sinan', type: 'mcq', prompt: 'Quel architecte construit la mosquée Süleymaniye ?', options: ['Sinan', 'Michel-Ange', 'Mehmed II', 'Ibn Battuta'], answer: 0 },
+    { id: 'lepante', type: 'mcq', prompt: 'Quelle bataille navale les Ottomans perdent-ils en 1571 ?', options: ['Lépante', 'Trafalgar', 'Salamine', 'Actium'], answer: 0 },
+    { id: 'vienne', type: 'mcq', prompt: 'Quel roi sauve Vienne assiégée en 1683 ?', options: ['Jean III Sobieski', 'Louis XIV', 'Charles Quint', 'Pierre le Grand'], answer: 0 },
+    { id: 'ordre', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Prise de Constantinople', 'Bataille de Mohács', 'Bataille de Lépante', 'Second siège de Vienne'] },
+    { id: 'tolerance', type: 'tf', prompt: "Dans l'Empire ottoman, les chrétiens et les juifs n'ont pas le droit de pratiquer leur religion.", answer: false, explanation: 'Ils la pratiquent, en payant un impôt particulier.' },
+    { id: 'palais', type: 'mcq', prompt: 'Depuis quel palais le sultan gouverne-t-il ?', options: ['Topkapı', "L'Alhambra", 'Versailles', 'Le Kremlin'], answer: 0 },
+    { id: 'roxelane', type: 'mcq', prompt: 'Qui est Roxelane ?', options: ['L’épouse de Soliman', 'Une reine de Hongrie', 'La mère de Mehmed II', 'Une sultane d’Égypte'], answer: 0 },
+  ],
+
+  recap: [
+    '1453 : Mehmed II prend Constantinople, qui devient Istanbul',
+    'Selim Ier conquiert l’Égypte (1517) ; Soliman le Magnifique porte l’empire à son apogée',
+    'Janissaires, Sinan, Topkapı : un empire puissant et multiconfessionnel',
+    'Lépante (1571) puis Vienne (1683) : le début du recul en Europe',
+  ],
+}

@@ -1,0 +1,171 @@
+/** Chapitre rédigé : Empire perse achéménide (≈ 550 – 330 av. J.-C.). */
+export default {
+  readingTime: 4,
+  cards: [
+    // ── Niveau 1 ──
+    {
+      id: 'cyrus',
+      tier: 1,
+      type: 'text',
+      kicker: 'Création',
+      title: 'Cyrus le Grand',
+      body:
+        "Vers 550 av. J.-C., Cyrus II, roi des Perses, renverse les Mèdes, puis conquiert la Lydie du richissime roi Crésus et Babylone (539 av. J.-C.). Il laisse les peuples vaincus garder leurs dieux et autorise les Juifs exilés à rentrer à Jérusalem.",
+      highlight: { value: '539 av. J.-C.', label: 'Cyrus prend Babylone' },
+    },
+    {
+      id: 'taille',
+      tier: 1,
+      type: 'keyfigure',
+      kicker: 'Apogée',
+      value: '≈ 5,5 M km²',
+      label: 'le plus grand empire du monde à son époque',
+      caption: "Sous Darius Ier, il s'étend de l'Égypte et des côtes grecques d'Asie jusqu'à l'Indus.",
+    },
+    {
+      id: 'carte',
+      tier: 1,
+      type: 'map',
+      kicker: 'Territoire',
+      title: "L'empire sur la carte",
+      years: [-500, -400],
+      caption: "Un immense empire à cheval sur trois continents : Asie, Afrique (Égypte) et Europe (Thrace).",
+    },
+    {
+      id: 'satrapies',
+      tier: 1,
+      type: 'text',
+      kicker: 'Pouvoir',
+      title: 'Darius organise l’empire',
+      body:
+        "Darius Ier (522 – 486 av. J.-C.) divise l'empire en provinces, les satrapies, dirigées par des satrapes et surveillées par des inspecteurs surnommés « les yeux et les oreilles du roi ». Il crée une monnaie d'or, la darique.",
+    },
+    {
+      id: 'route',
+      tier: 1,
+      type: 'keyfigure',
+      kicker: 'Découverte',
+      value: '≈ 2 700 km',
+      label: 'la route royale, de Sardes à Suse',
+      caption: "Grâce à des relais de chevaux, les messagers royaux la parcourent en une semaine environ, là où un voyageur à pied met trois mois.",
+    },
+    {
+      id: 'persepolis',
+      tier: 1,
+      type: 'text',
+      kicker: "Âge d'or",
+      title: 'Persépolis',
+      body:
+        "Fondée par Darius vers 518 av. J.-C., Persépolis est la capitale des cérémonies. Ses bas-reliefs montrent les délégations de tous les peuples de l'empire apportant leurs présents au roi des rois.",
+    },
+    {
+      id: 'mediques',
+      tier: 1,
+      type: 'dates',
+      kicker: 'Guerre',
+      title: 'Les guerres contre les Grecs',
+      items: [
+        { year: -490, label: 'Darius est battu à Marathon' },
+        { year: -480, label: 'Xerxès franchit les Thermopyles et brûle Athènes' },
+        { year: -480, label: 'Défaite navale à Salamine' },
+        { year: -479, label: "Défaite à Platées : l'armée perse quitte la Grèce" },
+      ],
+    },
+    {
+      id: 'religion',
+      tier: 1,
+      type: 'text',
+      kicker: 'Croyances',
+      title: 'Le zoroastrisme',
+      body:
+        "Les rois honorent Ahura Mazda, dieu de la lumière et de la vérité, en lutte contre le mal. Cette religion, fondée par le prophète Zarathoustra, influencera d'autres croyances. Les cultes locaux restent néanmoins tolérés.",
+    },
+    {
+      id: 'gaugameles',
+      tier: 1,
+      type: 'war',
+      nom: 'Bataille de Gaugamèles',
+      annee: -331,
+      adversaires: ['Alexandre le Grand et les Macédoniens'],
+      allies: ['Armée de Darius III'],
+      vainqueur: 'Alexandre le Grand',
+      consequences: "Darius III s'enfuit et est assassiné par ses propres satrapes (330 av. J.-C.). Persépolis est incendiée : c'est la fin de l'empire achéménide.",
+    },
+
+    // ── Niveau 2 ──
+    {
+      id: 'darius',
+      tier: 2,
+      type: 'person',
+      nom: 'Darius Ier',
+      role: 'Roi des rois',
+      dates: 'règne 522 – 486 av. J.-C.',
+      description: "Grand organisateur de l'empire, il fait graver son histoire sur la falaise de Behistun en trois langues : cette inscription a permis de déchiffrer le cunéiforme.",
+    },
+    {
+      id: 'xerxes',
+      tier: 2,
+      type: 'person',
+      nom: 'Xerxès Ier',
+      role: 'Roi des rois',
+      dates: 'règne 486 – 465 av. J.-C.',
+      description: "Fils de Darius, il envahit la Grèce en 480 av. J.-C. avec une armée énorme, qui traverse l'Hellespont sur des ponts de bateaux. Après Salamine, il renonce à conquérir la Grèce.",
+    },
+    {
+      id: 'immortels',
+      tier: 2,
+      type: 'text',
+      kicker: 'Guerre',
+      title: 'Les Immortels',
+      body:
+        "Selon l'historien grec Hérodote, la garde d'élite du roi compte toujours 10 000 hommes : chaque soldat tué ou malade est aussitôt remplacé, d'où leur surnom d'« Immortels ».",
+      highlight: { value: '10 000', label: 'soldats d’élite' },
+    },
+    {
+      id: 'canal',
+      tier: 2,
+      type: 'text',
+      kicker: 'Découvertes',
+      title: 'Canaux et qanats',
+      body:
+        "Darius fait achever un canal entre le Nil et la mer Rouge. Sur le plateau iranien, des galeries souterraines, les qanats, amènent l'eau des montagnes jusqu'aux villages sans qu'elle s'évapore.",
+    },
+    {
+      id: 'heritage',
+      tier: 2,
+      type: 'text',
+      kicker: 'Héritage',
+      title: 'Après les Achéménides',
+      body:
+        "Après Alexandre, d'autres empires perses renaissent : les Parthes, rivaux de Rome, puis les Sassanides, jusqu'à la conquête arabe au VIIe siècle. Leur héritier est l'Iran actuel.",
+    },
+  ],
+
+  quiz: [
+    { id: 'cyrus', type: 'mcq', prompt: "Qui fonde l'Empire perse achéménide vers 550 av. J.-C. ?", options: ['Cyrus II', 'Darius Ier', 'Xerxès', 'Crésus'], answer: 0 },
+    { id: 'cresus', type: 'mcq', prompt: 'Quel roi, célèbre pour sa richesse, est vaincu par Cyrus ?', options: ['Crésus, roi de Lydie', 'Nabuchodonosor', 'Ramsès II', 'Midas'], answer: 0 },
+    { id: 'juifs', type: 'tf', prompt: 'Cyrus autorise les Juifs exilés à Babylone à rentrer à Jérusalem.', answer: true },
+    { id: 'satrapie', type: 'mcq', prompt: "Comment s'appellent les provinces de l'Empire perse ?", options: ['Des satrapies', 'Des nomes', 'Des polis', 'Des khanats'], answer: 0 },
+    { id: 'yeux', type: 'mcq', prompt: 'Qui sont « les yeux et les oreilles du roi » ?', options: ['Des inspecteurs royaux', 'Des prêtres', 'Des soldats d’élite', 'Des marchands'], answer: 0 },
+    { id: 'darique', type: 'mcq', prompt: 'Comment s’appelle la monnaie d’or créée par Darius ?', options: ['La darique', 'Le dinar', 'La drachme', "L'as"], answer: 0 },
+    { id: 'route', type: 'mcq', prompt: 'Que relie la route royale ?', options: ['Sardes et Suse', 'Athènes et Sparte', 'Babylone et Memphis', 'Rome et Carthage'], answer: 0 },
+    { id: 'persepolis', type: 'mcq', prompt: 'Quel roi fonde Persépolis ?', options: ['Darius Ier', 'Cyrus II', 'Xerxès', 'Darius III'], answer: 0 },
+    { id: 'marathon', type: 'mcq', prompt: 'Quelle bataille Darius perd-il en 490 av. J.-C. ?', options: ['Marathon', 'Salamine', 'Gaugamèles', 'Issos'], answer: 0 },
+    { id: 'xerxes', type: 'mcq', prompt: 'Quel roi perse envahit la Grèce en 480 av. J.-C. ?', options: ['Xerxès', 'Cyrus', 'Darius III', 'Cambyse'], answer: 0 },
+    { id: 'salamine', type: 'tf', prompt: 'À Salamine, la flotte perse remporte une grande victoire.', answer: false, explanation: 'Elle y est battue par la flotte grecque menée par Athènes.' },
+    { id: 'ordre', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Prise de Babylone par Cyrus', 'Marathon', 'Salamine', 'Gaugamèles'] },
+    { id: 'dieu', type: 'mcq', prompt: 'Quel dieu honorent les rois achéménides ?', options: ['Ahura Mazda', 'Zeus', 'Amon', 'Baal'], answer: 0 },
+    { id: 'zarathoustra', type: 'mcq', prompt: 'Quel prophète est à l’origine du zoroastrisme ?', options: ['Zarathoustra', 'Bouddha', 'Moïse', 'Mani'], answer: 0 },
+    { id: 'gaugameles', type: 'mcq', prompt: 'Qui bat Darius III à Gaugamèles en 331 av. J.-C. ?', options: ['Alexandre le Grand', 'Jules César', 'Léonidas', 'Périclès'], answer: 0 },
+    { id: 'behistun', type: 'mcq', prompt: "Quelle inscription de Darius a permis de déchiffrer le cunéiforme ?", options: ['Behistun', 'Rosette', 'Persépolis', 'Ninive'], answer: 0 },
+    { id: 'immortels', type: 'mcq', prompt: 'Combien de soldats compte la garde des « Immortels » selon Hérodote ?', options: ['10 000', '300', '1 000', '100 000'], answer: 0 },
+    { id: 'heritier', type: 'mcq', prompt: "Quel pays actuel est l'héritier de la Perse ?", options: ["L'Iran", "L'Irak", 'La Turquie', "L'Égypte"], answer: 0 },
+  ],
+
+  recap: [
+    '≈ 550 av. J.-C. : Cyrus le Grand fonde l’empire ; il prend Babylone en 539',
+    'Darius Ier : satrapies, darique, route royale, Persépolis',
+    'Guerres médiques : échecs à Marathon et Salamine',
+    '331 av. J.-C. : Alexandre bat Darius III à Gaugamèles',
+  ],
+}

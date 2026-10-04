@@ -67,8 +67,12 @@ Après `npm run data`, tous les membres prennent la même couleur (frise, carte,
 « ← Avant / La suite → » (champ `lineage` généré dans `epochs.json`). Une civilisation n'appartient qu'à une lignée.
 
 ### Écrire un chapitre de révision (« On avance »)
-**Chapitres rédigés à ce jour (11)** : Europe paléolithique · Égypte · Grèce · Rome · Chine (Qin & Han) ·
-Empire byzantin · Califat islamique · Empire mongol · France capétienne · France d'Ancien Régime · France contemporaine.
+**Chapitres rédigés à ce jour (21)** :
+- Préhistoire : Europe paléolithique
+- Antiquité : Mésopotamie · Égypte · Perse achéménide · Grèce · Carthage · Rome · Chine (Qin & Han)
+- Moyen Âge : Empire byzantin · Califat islamique · Empire mongol · France capétienne · Japon féodal
+- Époque moderne : France d'Ancien Régime · Empire ottoman · Empire moghol · Aztèques · Incas
+- Époque contemporaine : France · Royaume-Uni · États-Unis
 
 Chaque civilisation a un chapitre **généré automatiquement** à partir de ses données. Pour un chapitre
 **rédigé à la main** (meilleure qualité) : copier `src/data/revision/france-capet.js`, l'adapter, puis

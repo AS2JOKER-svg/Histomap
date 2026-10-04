@@ -118,7 +118,7 @@ export default {
       kicker: 'Découvertes',
       title: 'Le berceau du blé ?',
       body:
-        "Des études génétiques suggèrent que l'engrain, l'une des premières espèces de blé cultivées, a été domestiqué dans les monts Karaca Dağ, à environ 60 km du site. Quelques siècles après les premières enceintes, les habitants de la région deviennent agriculteurs.",
+        "Des études génétiques suggèrent que l'engrain, l'une des premières espèces de blé cultivées, a été domestiqué non loin de là, dans la région des monts Karaca Dağ. Quelques siècles après les premières enceintes, les habitants de la région deviennent agriculteurs.",
     },
     {
       id: 'enfouissement',

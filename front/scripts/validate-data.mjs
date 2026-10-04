@@ -67,15 +67,19 @@ epochs.forEach((ep, i) => {
       if (!isHex(civ.color)) err(w, `couleur invalide : ${civ.color}`);
       if (!isNum(civ.start) || !isNum(civ.end)) err(w, "start/end doivent être des nombres");
       else if (civ.start >= civ.end) err(w, `start (${civ.start}) ≥ end (${civ.end})`);
-      else if (civ.start < ep.start || civ.end > ep.end) warn(w, `déborde de l'époque (${civ.start} → ${civ.end})`);
+      // (une civilisation peut déborder de son époque : la frise l'indique par ‹ ›)
 
       if (civIds.has(civ.id)) err(w, `id dupliqué (déjà dans ${civIds.get(civ.id)})`);
       civIds.set(civ.id, cWhere);
 
       for (const d of civ.datesCles ?? []) {
         if (!isNum(d.annee) || !isStr(d.evenement)) err(w, `date clé invalide : ${JSON.stringify(d)}`);
-        else if (isNum(civ.start) && (d.annee < civ.start || d.annee > civ.end))
-          warn(w, `date clé « ${d.evenement} » (${d.annee}) hors de ${civ.start} → ${civ.end}`);
+        else if (isNum(civ.start)) {
+          // tolérance pour une date « de contexte » (ex. Boston Tea Party, 3 ans avant 1776)
+          const margin = Math.max(30, (civ.end - civ.start) * 0.05);
+          if (d.annee < civ.start - margin || d.annee > civ.end + margin)
+            warn(w, `date clé « ${d.evenement} » (${d.annee}) hors de ${civ.start} → ${civ.end}`);
+        }
       }
       for (const g of civ.guerres ?? []) {
         if (!isStr(g.nom)) err(w, `guerre sans nom : ${JSON.stringify(g).slice(0, 80)}`);
@@ -91,6 +95,44 @@ epochs.forEach((ep, i) => {
     }
   }
 });
+
+// ── Lignées (scripts/lineages.mjs → champ `lineage` de epochs.json) ──────────
+{
+  const civById = new Map();
+  for (const ep of epochs) for (const c of ep.continents) for (const civ of c.civilizations) civById.set(civ.id, { ep, civ });
+  for (const { ep, civ } of civById.values()) {
+    const l = civ.lineage;
+    if (!l) continue;
+    for (const dir of ["prev", "next"]) {
+      const r = l[dir];
+      if (!r) continue;
+      const target = civById.get(r.civId);
+      if (!target) err(`lignée ${l.id}`, `${civ.id} → « ${r.civId} » introuvable`);
+      else if (target.ep.id !== r.epochId) err(`lignée ${l.id}`, `${r.civId} n'est pas dans l'époque ${r.epochId}`);
+      else if (dir === "next" && target.civ.start < civ.start)
+        err(`lignée ${l.id}`, `ordre chronologique : ${r.civId} commence avant ${civ.id}`);
+    }
+  }
+}
+
+// ── Liens avec la carte (src/data/map-links.js + public/map/index.json) ──────
+const { TERRITORIES, CONFLICTS } = await import("../src/data/map-links.js");
+const mapIndexFile = join(__dirname, "..", "public", "map", "index.json");
+let mapNames = null;
+try {
+  mapNames = new Set(JSON.parse(readFileSync(mapIndexFile, "utf-8")).flatMap((m) => [...m.names, ...(m.powers ?? [])]));
+} catch {
+  warn("carte", "public/map/index.json introuvable (lancer `npm run map`)");
+}
+for (const [civId, names] of Object.entries(TERRITORIES)) {
+  if (!civIds.has(civId)) err("map-links", `civilisation inconnue : « ${civId} »`);
+  if (mapNames) for (const n of names) if (!mapNames.has(n)) warn("map-links", `${civId} : « ${n} » n'existe dans aucune carte`);
+}
+for (const ep of epochs)
+  for (const cont of ep.continents)
+    for (const civ of cont.civilizations)
+      for (const g of civ.guerres ?? [])
+        if (!CONFLICTS[g.nom]) warn("map-links", `guerre sans coordonnées : « ${g.nom} » (${civ.id})`);
 
 if (warnings.length) {
   console.warn(`\n⚠️  ${warnings.length} alerte(s) de contenu :`);

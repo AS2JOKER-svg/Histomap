@@ -7,6 +7,7 @@ import { haptic } from '../lib/haptics'
 import Icon from '../components/ui/Icon'
 import ThemeToggle from '../components/ui/ThemeToggle'
 import WelcomeModal from '../components/WelcomeModal'
+import Toaster from '../components/Toaster'
 
 export const NAV = [
   { to: '/',        label: 'Accueil',   icon: 'home',     end: true },
@@ -105,6 +106,7 @@ export default function AppShell() {
 
       <MobileTabBar />
       <WelcomeModal open={welcomeOpen} onClose={closeWelcome} />
+      <Toaster />
     </div>
   )
 }

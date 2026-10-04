@@ -9,6 +9,9 @@ const EpochPage = lazy(() => import('./pages/EpochPage'))
 const CivilizationPage = lazy(() => import('./pages/CivilizationPage'))
 const MapPage = lazy(() => import('./pages/MapPage'))
 const RevisePage = lazy(() => import('./pages/RevisePage'))
+const ReviseEpochPage = lazy(() => import('./pages/ReviseEpochPage'))
+const ChapterPage = lazy(() => import('./pages/ChapterPage'))
+const QuizPage = lazy(() => import('./pages/QuizPage'))
 const NotFoundPage = lazy(() => import('./pages/NotFoundPage'))
 
 /**
@@ -18,7 +21,10 @@ const NotFoundPage = lazy(() => import('./pages/NotFoundPage'))
  *   /frise/:epochId           Une époque : continents et civilisations
  *   /frise/:epochId/:civId    Fiche d'une civilisation
  *   /carte                    Carte du monde (sprint 3)
- *   /reviser                  « On avance » — révisions et quiz (sprints 5-6)
+ *   /reviser                  « On avance » : hub temporel des révisions
+ *   /reviser/:epochId         Choix d'une civilisation (chapitre)
+ *   /reviser/:epochId/:civId  Chapitre : cartes à faire glisser (plein écran)
+ *   /reviser/:epochId/:civId/quiz  Quiz du chapitre : 20 questions, note sur 20
  */
 export default function App() {
   return (
@@ -30,6 +36,9 @@ export default function App() {
         <Route path="frise/:epochId/:civId" element={<Lazy><CivilizationPage /></Lazy>} />
         <Route path="carte" element={<Lazy><MapPage /></Lazy>} />
         <Route path="reviser" element={<Lazy><RevisePage /></Lazy>} />
+        <Route path="reviser/:epochId" element={<Lazy><ReviseEpochPage /></Lazy>} />
+        <Route path="reviser/:epochId/:civId" element={<Lazy><ChapterPage /></Lazy>} />
+        <Route path="reviser/:epochId/:civId/quiz" element={<Lazy><QuizPage /></Lazy>} />
         <Route path="*" element={<Lazy><NotFoundPage /></Lazy>} />
       </Route>
     </Routes>

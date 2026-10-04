@@ -49,7 +49,7 @@ export default [
             datesCles: [
               { annee: 1515, evenement: "Bataille de Marignan", info: "Victoire de François Ier en Italie, signature d'une paix perpétuelle avec les Suisses." },
               { annee: 1598, evenement: "L'Édit de Nantes", info: "Henri IV met fin à 30 ans de guerres de religion en accordant la tolérance aux Protestants." },
-              { annee: 1685, evenement: "Installation à Versailles", info: "Louis XIV enferme la noblesse dans une 'prison dorée', apogée de l'absolutisme." },
+              { annee: 1682, evenement: "Installation à Versailles", info: "Louis XIV enferme la noblesse dans une 'prison dorée', apogée de l'absolutisme." },
               { annee: 1751, evenement: "L'Encyclopédie", info: "Diderot et d'Alembert publient l'œuvre majeure des Lumières." }
             ],
             dirigeants: [
@@ -184,7 +184,7 @@ export default [
             id: "pologne-lituanie",
             trackId: "pologne", row: 7,
             label: "République des Deux Nations (Pologne)",
-            period: "1569 à 1789", start: 1569, end: 1789,
+            period: "1569 à 1795", start: 1569, end: 1795,
             color: "#880e4f", isRiver: false, capitale: "Cracovie puis Varsovie",
             description: "Le plus vaste État d'Europe au 17ème siècle, paradoxe démocratique et nobiliaire (la Liberté dorée), balayé de la carte par la rapacité de ses voisins.",
             datesCles: [
@@ -414,7 +414,7 @@ export default [
             id: "chine-mod",
             trackId: "chine", row: 4,
             label: "Chine (Ming & Qing)",
-            period: "1492 à 1789", start: 1492, end: 1789,
+            period: "1368 à 1789", start: 1368, end: 1789,
             color: "#e67e22", isRiver: true, capitale: "Pékin",
             description: "La reconstruction d'une muraille de pierre contre le monde extérieur sous les Ming, avant de devenir l'empire le plus vaste, riche et peuplé de la Terre sous les Qing.",
             datesCles: [
@@ -443,7 +443,7 @@ export default [
             id: "japon-mod",
             trackId: "japon", row: 5,
             label: "Japon (Époque d'Edo)",
-            period: "1603 à 1868", start: 1603, end: 1789,
+            period: "1603 à 1868", start: 1603, end: 1868,
             color: "#c0392b", isRiver: false, capitale: "Edo (Tokyo)",
             description: "Après un siècle de massacres, la dictature de Tokugawa verrouille l'archipel dans une paix de fer. Plus d'étrangers, plus d'armes à feu, place à l'art et au sabre.",
             datesCles: [
@@ -471,7 +471,7 @@ export default [
             id: "joseon",
             trackId: "coree", row: 6,
             label: "Dynastie Joseon (Corée)",
-            period: "1392 à 1897", start: 1492, end: 1789,
+            period: "1392 à 1897", start: 1392, end: 1897,
             color: "#bf360c", isRiver: false, capitale: "Hanseong (Séoul)",
             description: "Le 'Royaume Ermite' : 500 ans de paix confucéenne, d'inventions brillantes (le Hangeul) et de survie héroïque face aux invasions japonaises et mandchoues.",
             datesCles: [
@@ -503,7 +503,7 @@ export default [
             id: "azteque",
             trackId: "mesoamerique", row: 1,
             label: "Empire aztèque",
-            period: "1428 à 1521", start: 1492, end: 1521,
+            period: "1428 à 1521", start: 1428, end: 1521,
             color: "#e74c3c", isRiver: false, capitale: "Tenochtitlan (Mexico)",
             description: "Un peuple de mercenaires devenu la superpuissance mésoaméricaine d'une ville lacustre féérique, foudroyé à son apogée par le choc viral et militaire des conquistadors espagnols.",
             datesCles: [
@@ -533,7 +533,7 @@ export default [
             id: "inca",
             trackId: "andes", row: 2,
             label: "Empire inca",
-            period: "1438 à 1533", start: 1492, end: 1533,
+            period: "1438 à 1533", start: 1438, end: 1533,
             color: "#f39c12", isRiver: false, capitale: "Cuzco",
             description: "Le 'Tahuantinsuyu' (l'Empire des 4 quartiers). Un prodige administratif de 4000 kilomètres étiré sur la cordillère des Andes, administré sans aucune monnaie ni écriture.",
             datesCles: [

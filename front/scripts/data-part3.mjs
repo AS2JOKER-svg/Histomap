@@ -345,7 +345,7 @@ export default [
               { annee: 1258, evenement: "Sac de Bagdad", info: "Destruction du cœur de l'Empire arabo-musulman." }
             ],
             dirigeants: [
-              { titre: "Khagan (Grand Khan)", nom: "Gengis Khan", surnom: "Le Fléau de Dieu", debut: 1206, fin: 1227 },
+              { titre: "Khagan (Grand Khan)", nom: "Gengis Khan", surnom: "Le Souverain universel", debut: 1206, fin: 1227 },
               { titre: "Khagan / Empereur de Chine", nom: "Kubilai Khan", surnom: "", debut: 1260, fin: 1294 }
             ],
             personnages: [

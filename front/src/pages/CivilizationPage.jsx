@@ -1,6 +1,11 @@
+import { useEffect } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { getCivilization } from '../lib/data'
+import { haptic } from '../lib/haptics'
+import { useProgress } from '../store/progress'
+import { useUI } from '../store/ui'
+import LineageTrail from '../components/LineageTrail'
 import { formatYear, formatDuration } from '../lib/time'
 import useDocumentTitle from '../lib/useDocumentTitle'
 import Breadcrumbs from '../components/ui/Breadcrumbs'
@@ -11,6 +16,22 @@ export default function CivilizationPage() {
   const { epochId, civId } = useParams()
   const found = getCivilization(epochId, civId)
   useDocumentTitle(found?.civ.label ?? 'Fiche introuvable')
+  const readFiche = useProgress((s) => s.readFiche)
+  const setLast = useProgress((s) => s.setLast)
+  const views = useProgress((s) => s.fiches[civId]?.views ?? 0)
+  const showToast = useUI((s) => s.showToast)
+
+  // Progression : fiche lue + « dernier endroit » pour reprendre plus tard
+  useEffect(() => {
+    if (!found) return
+    const { epoch, civ } = found
+    setLast({ path: `/frise/${epoch.id}/${civ.id}`, kind: 'fiche', title: civ.label, subtitle: `Fiche · ${epoch.label}`, color: civ.color })
+    if (readFiche(civ.id)) {
+      haptic('success')
+      showToast({ text: 'Nouvelle fiche découverte : ajoutée à votre progression', tone: 'success' })
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [epochId, civId])
 
   if (!found) {
     return <NotFoundPage title="Fiche introuvable" text="Cette civilisation n'existe pas dans cette époque." />
@@ -57,9 +78,16 @@ export default function CivilizationPage() {
             <Chip label="Durée" value={formatDuration(civ.start, civ.end)} />
             {civ.capitale && <Chip label="Capitale" value={civ.capitale} />}
             {civ.isRiver && <Chip label="Type" value="Civilisation fluviale" />}
+            {views > 1 && (
+              <span className="chip text-success" style={{ background: 'rgb(var(--c-success) / .1)' }}>
+                <Icon name="check" size={14} strokeWidth={2.4} /> Déjà lue · {views}<sup className="-ml-1">e</sup> lecture
+              </span>
+            )}
           </div>
         </div>
       </header>
+
+      <LineageTrail civ={civ} linkTo={(m) => `/frise/${m.epochId}/${m.civId}`} />
 
       <div className="grid gap-6 md:grid-cols-2">
         {/* Dates clés */}

@@ -16,6 +16,8 @@ export default defineConfig({
         // le re-téléchargement des librairies (et inversement).
         manualChunks(id) {
           if (id.includes('src/data/')) return 'data'
+          // d3 + topojson : chargés uniquement avec la carte
+          if (/node_modules\/(d3-|topojson|delaunator|robust-predicates)/.test(id)) return 'map-vendor'
           if (id.includes('node_modules')) return 'vendor'
         },
       },

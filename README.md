@@ -12,8 +12,8 @@ Inspiré du célèbre *Histomap* de John B. Sparks (1931).
 | `#/frise` | Frise des 5 époques | ✅ |
 | `#/frise/:epoque` | Une époque : continents et civilisations | ✅ |
 | `#/frise/:epoque/:civilisation` | Fiche détaillée | ✅ |
-| `#/carte` | Carte du monde avec curseur temporel | 🚧 sprint 3 |
-| `#/reviser` | « On avance » : fiches de révision + quiz | 🚧 sprints 5-6 |
+| `#/carte` | Carte du monde : 54 cartes de -123 000 à 2010, conflits, fiches | ✅ |
+| `#/reviser` | « On avance » : hub temporel → civilisation → cartes de révision → quiz de 20 questions | ✅ |
 
 ## Structure
 
@@ -22,15 +22,18 @@ histomap/
 ├── front/                       ← Le site (React 18 + Vite + Tailwind)
 │   ├── scripts/
 │   │   ├── data-part1..4.mjs    ← SOURCES des données (à éditer)
+│   │   ├── lineages.mjs         ← civilisations reliées d'une époque à l'autre
 │   │   ├── build-epochs.mjs     ← génère src/data/epochs.json
-│   │   └── validate-data.mjs    ← vérifie les données avant chaque build
+│   │   ├── validate-data.mjs    ← vérifie les données avant chaque build
+│   │   ├── validate-revision.mjs← vérifie les chapitres et quiz rédigés
+│   │   └── build-map.mjs        ← génère les fonds de carte (public/map/)
 │   ├── src/
 │   │   ├── App.jsx              ← plan du site (routes)
 │   │   ├── layouts/AppShell.jsx ← en-tête, barre d'onglets mobile
 │   │   ├── pages/               ← une page par écran
 │   │   ├── components/          ← composants partagés (ui/ = briques de base)
 │   │   ├── lib/                 ← accès aux données, temps, stockage, vibrations
-│   │   ├── store/               ← état global (thème, interface)
+│   │   ├── store/               ← état global (thème, interface, progression)
 │   │   ├── config/welcome.js    ← mot de bienvenue
 │   │   └── data/epochs.json     ← GÉNÉRÉ, ne pas éditer à la main
 │   └── GUIDE_EDITION.md         ← comment ajouter du contenu
@@ -53,8 +56,18 @@ npm run dev     # http://localhost:5173/Histomap/
 | `npm run dev` | Serveur de développement |
 | `npm run data` | Régénère `epochs.json` depuis `scripts/` puis le valide |
 | `npm run validate` | Valide seulement les données |
+| `npm run map` | Régénère les fonds de carte depuis historical-basemaps (réseau requis, rarement utile) |
 | `npm run build` | Valide puis construit le site dans `dist/` |
 | `npm run preview` | Sert le build localement |
+
+## Carte du monde
+
+- **Frontières** : projet [historical-basemaps](https://github.com/aourednik/historical-basemaps) (André Ourednik, **licence GPL-3.0**), simplifiées et converties en TopoJSON dans `front/public/map/` (fichiers séparés du code, avec `LICENSE` et `NOTICE.md`).
+- **Lien carte ↔ fiches** : `front/src/data/map-links.js` (noms des territoires de chaque civilisation + coordonnées des conflits).
+
+## Progression
+
+Fiches lues, dernier endroit consulté (« Reprendre » sur l'accueil), série de jours : tout est enregistré **dans le navigateur** (`localStorage`, clé `histomap_progress`). Rien n'est envoyé sur un serveur ; en contrepartie, la progression ne se synchronise pas entre appareils.
 
 ## Déploiement
 

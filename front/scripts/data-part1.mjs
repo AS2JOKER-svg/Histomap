@@ -16,7 +16,7 @@ export default [
             trackId: "humanite_berceau",
             row: 1,
             label: "Hominidés d'Afrique de l'Est",
-            period: "-3 000 000 à -200 000", start: -3000000, end: -200000,
+            period: "-3 200 000 à -200 000", start: -3200000, end: -200000,
             color: "#a8b89a", isRiver: true, capitale: "Vallée du Grand Rift",
             description: "Le berceau de l'humanité, théâtre de l'évolution depuis les Australopithèques jusqu'à l'émergence d'Homo sapiens.",
             
@@ -110,7 +110,7 @@ export default [
             description: "La « révolution néolithique » : l'Europe adopte l'agriculture, se sédentarise, et voit l'émergence des premières sociétés inégalitaires.",
             
             datesCles: [
-              { annee: -6500, evenement: "Courant Danubien", info: "L'agriculture arrive du Proche-Orient via les Balkans et remonte le Danube." },
+              { annee: -5500, evenement: "Courant Danubien", info: "L'agriculture, arrivée du Proche-Orient par les Balkans, remonte la vallée du Danube (culture rubanée)." },
               { annee: -5500, evenement: "Courant Cardial", info: "Seconde voie de colonisation agricole, par la mer, le long des côtes méditerranéennes." },
               { annee: -4000, evenement: "Invention de la roue", info: "Apparition des premiers chariots en Europe de l'Est et en Mésopotamie." },
               { annee: -3300, evenement: "Mort d'Ötzi", info: "L'homme des glaces, retrouvé momifié dans les Alpes, témoigne des violences de l'époque." }
@@ -252,7 +252,7 @@ export default [
             label: "Civilisation de Caral-Supe",
             period: "-3500 à -1800",
             start: -3500,
-            end: -3000, 
+            end: -1800, 
             color: "#f4d03f", 
             isRiver: true,
             capitale: "Caral",

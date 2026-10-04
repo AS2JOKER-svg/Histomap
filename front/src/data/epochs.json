@@ -16,8 +16,8 @@
             "trackId": "humanite_berceau",
             "row": 1,
             "label": "Hominidés d'Afrique de l'Est",
-            "period": "-3 000 000 à -200 000",
-            "start": -3000000,
+            "period": "-3 200 000 à -200 000",
+            "start": -3200000,
             "end": -200000,
             "color": "#a8b89a",
             "isRiver": true,
@@ -217,9 +217,9 @@
             "description": "La « révolution néolithique » : l'Europe adopte l'agriculture, se sédentarise, et voit l'émergence des premières sociétés inégalitaires.",
             "datesCles": [
               {
-                "annee": -6500,
+                "annee": -5500,
                 "evenement": "Courant Danubien",
-                "info": "L'agriculture arrive du Proche-Orient via les Balkans et remonte le Danube."
+                "info": "L'agriculture, arrivée du Proche-Orient par les Balkans, remonte la vallée du Danube (culture rubanée)."
               },
               {
                 "annee": -5500,
@@ -314,7 +314,7 @@
             "period": "-1 700 000 à -2 000",
             "start": -1700000,
             "end": -2000,
-            "color": "#c2a09a",
+            "color": "#e67e22",
             "isRiver": true,
             "capitale": "Bassins du Fleuve Jaune et du Yangtsé",
             "description": "Des premiers foyers d'Homo erectus aux puissantes cultures agricoles de Yangshao et Longshan, jetant les bases de la civilisation chinoise.",
@@ -359,7 +359,50 @@
                 "titre": "Wikipédia : Néolithique chinois",
                 "url": "https://fr.wikipedia.org/wiki/N%C3%A9olithique_chinois"
               }
-            ]
+            ],
+            "lineage": {
+              "id": "chine",
+              "label": "Chine",
+              "prev": null,
+              "next": {
+                "epochId": "antiquite",
+                "epochLabel": "Antiquité",
+                "civId": "chine-imperiale",
+                "label": "Chine (Qin & Han)"
+              },
+              "members": [
+                {
+                  "epochId": "prehistoire",
+                  "epochLabel": "Préhistoire",
+                  "civId": "chine-neo",
+                  "label": "Chine néolithique"
+                },
+                {
+                  "epochId": "antiquite",
+                  "epochLabel": "Antiquité",
+                  "civId": "chine-imperiale",
+                  "label": "Chine (Qin & Han)"
+                },
+                {
+                  "epochId": "moyen-age",
+                  "epochLabel": "Moyen Âge",
+                  "civId": "chine-tang-song",
+                  "label": "Chine (Tang & Song)"
+                },
+                {
+                  "epochId": "moderne",
+                  "epochLabel": "Époque moderne",
+                  "civId": "chine-mod",
+                  "label": "Chine (Ming & Qing)"
+                },
+                {
+                  "epochId": "contemporaine",
+                  "epochLabel": "Époque contemporaine",
+                  "civId": "chine-contemp",
+                  "label": "Chine (République & Populaire)"
+                }
+              ]
+            }
           },
           {
             "id": "mesopotamie-prehist",
@@ -369,7 +412,7 @@
             "period": "-10 000 à -3 500",
             "start": -10000,
             "end": -3500,
-            "color": "#d9b38c",
+            "color": "#d9a066",
             "isRiver": true,
             "capitale": "Croissant fertile (Eridu, Uruk)",
             "description": "Le creuset de la civilisation urbaine : du premier village agricole à l'émergence des villes-États colossales de Sumer.",
@@ -406,7 +449,32 @@
                 "titre": "Wikipédia : Période d'Uruk",
                 "url": "https://fr.wikipedia.org/wiki/P%C3%A9riode_d%27Uruk"
               }
-            ]
+            ],
+            "lineage": {
+              "id": "mesopotamie",
+              "label": "Mésopotamie",
+              "prev": null,
+              "next": {
+                "epochId": "antiquite",
+                "epochLabel": "Antiquité",
+                "civId": "mesopotamie",
+                "label": "Mésopotamie"
+              },
+              "members": [
+                {
+                  "epochId": "prehistoire",
+                  "epochLabel": "Préhistoire",
+                  "civId": "mesopotamie-prehist",
+                  "label": "Mésopotamie pré-urbaine"
+                },
+                {
+                  "epochId": "antiquite",
+                  "epochLabel": "Antiquité",
+                  "civId": "mesopotamie",
+                  "label": "Mésopotamie"
+                }
+              ]
+            }
           },
           {
             "id": "gobekli-tepe",
@@ -463,7 +531,7 @@
             "label": "Civilisation de Caral-Supe",
             "period": "-3500 à -1800",
             "start": -3500,
-            "end": -3000,
+            "end": -1800,
             "color": "#f4d03f",
             "isRiver": true,
             "capitale": "Caral",
@@ -519,8 +587,8 @@
             "trackId": "egypte",
             "row": 1,
             "label": "Égypte antique",
-            "period": "-3 000 à -30",
-            "start": -3000,
+            "period": "-3 150 à -30",
+            "start": -3150,
             "end": -30,
             "color": "#e6c229",
             "isRiver": true,
@@ -833,7 +901,32 @@
                 "titre": "Aksoum, la Rome africaine",
                 "url": "https://fr.wikipedia.org/wiki/Royaume_d'Aksoum"
               }
-            ]
+            ],
+            "lineage": {
+              "id": "ethiopie",
+              "label": "Éthiopie",
+              "prev": null,
+              "next": {
+                "epochId": "contemporaine",
+                "epochLabel": "Époque contemporaine",
+                "civId": "ethiopie-contemp",
+                "label": "Empire d'Éthiopie (Abyssinie)"
+              },
+              "members": [
+                {
+                  "epochId": "antiquite",
+                  "epochLabel": "Antiquité",
+                  "civId": "aksoum",
+                  "label": "Royaume d'Aksoum"
+                },
+                {
+                  "epochId": "contemporaine",
+                  "epochLabel": "Époque contemporaine",
+                  "civId": "ethiopie-contemp",
+                  "label": "Empire d'Éthiopie (Abyssinie)"
+                }
+              ]
+            }
           },
           {
             "id": "nok",
@@ -944,7 +1037,7 @@
             "period": "-3000 à -1100",
             "start": -3000,
             "end": -1100,
-            "color": "#00bcd4",
+            "color": "#4a90d9",
             "isRiver": false,
             "capitale": "Knossos / Mycènes",
             "description": "Les premières civilisations urbaines et lettrées d'Europe : d'abord la thalassocratie pacifique minoenne en Crète, puis la culture guerrière des Mycéniens.",
@@ -1009,7 +1102,32 @@
                 "titre": "L'effondrement de l'âge du Bronze",
                 "url": "https://fr.wikipedia.org/wiki/Effondrement_de_l%27%C3%A2ge_du_bronze_r%C3%A9cent"
               }
-            ]
+            ],
+            "lineage": {
+              "id": "grece",
+              "label": "Monde grec",
+              "prev": null,
+              "next": {
+                "epochId": "antiquite",
+                "epochLabel": "Antiquité",
+                "civId": "grece",
+                "label": "Grèce antique"
+              },
+              "members": [
+                {
+                  "epochId": "antiquite",
+                  "epochLabel": "Antiquité",
+                  "civId": "minoen-mycenien",
+                  "label": "Minoens & Mycéniens"
+                },
+                {
+                  "epochId": "antiquite",
+                  "epochLabel": "Antiquité",
+                  "civId": "grece",
+                  "label": "Grèce antique"
+                }
+              ]
+            }
           },
           {
             "id": "grece",
@@ -1106,7 +1224,32 @@
                 "titre": "L'Antiquité : Au temps de la Grèce antique",
                 "url": "https://fr.wikipedia.org/wiki/Gr%C3%A8ce_antique"
               }
-            ]
+            ],
+            "lineage": {
+              "id": "grece",
+              "label": "Monde grec",
+              "prev": {
+                "epochId": "antiquite",
+                "epochLabel": "Antiquité",
+                "civId": "minoen-mycenien",
+                "label": "Minoens & Mycéniens"
+              },
+              "next": null,
+              "members": [
+                {
+                  "epochId": "antiquite",
+                  "epochLabel": "Antiquité",
+                  "civId": "minoen-mycenien",
+                  "label": "Minoens & Mycéniens"
+                },
+                {
+                  "epochId": "antiquite",
+                  "epochLabel": "Antiquité",
+                  "civId": "grece",
+                  "label": "Grèce antique"
+                }
+              ]
+            }
           },
           {
             "id": "etrusques",
@@ -1184,7 +1327,7 @@
             "period": "-753 à 476",
             "start": -753,
             "end": 476,
-            "color": "#c1272d",
+            "color": "#8e44ad",
             "isRiver": true,
             "capitale": "Rome",
             "description": "D'une petite bourgade pastorale au plus grand et au plus structuré des empires occidentaux, dictant la loi, l'architecture et la langue (le latin) à toute l'Europe.",
@@ -1292,7 +1435,32 @@
                 "titre": "Nota Bene : L'armée Romaine",
                 "url": "https://fr.wikipedia.org/wiki/Rome_antique"
               }
-            ]
+            ],
+            "lineage": {
+              "id": "rome",
+              "label": "Rome et Byzance",
+              "prev": null,
+              "next": {
+                "epochId": "moyen-age",
+                "epochLabel": "Moyen Âge",
+                "civId": "byzance",
+                "label": "Empire byzantin"
+              },
+              "members": [
+                {
+                  "epochId": "antiquite",
+                  "epochLabel": "Antiquité",
+                  "civId": "rome",
+                  "label": "Rome antique"
+                },
+                {
+                  "epochId": "moyen-age",
+                  "epochLabel": "Moyen Âge",
+                  "civId": "byzance",
+                  "label": "Empire byzantin"
+                }
+              ]
+            }
           },
           {
             "id": "celtes",
@@ -1710,7 +1878,32 @@
                 "titre": "L'épopée de la Mésopotamie",
                 "url": "https://fr.wikipedia.org/wiki/M%C3%A9sopotamie"
               }
-            ]
+            ],
+            "lineage": {
+              "id": "mesopotamie",
+              "label": "Mésopotamie",
+              "prev": {
+                "epochId": "prehistoire",
+                "epochLabel": "Préhistoire",
+                "civId": "mesopotamie-prehist",
+                "label": "Mésopotamie pré-urbaine"
+              },
+              "next": null,
+              "members": [
+                {
+                  "epochId": "prehistoire",
+                  "epochLabel": "Préhistoire",
+                  "civId": "mesopotamie-prehist",
+                  "label": "Mésopotamie pré-urbaine"
+                },
+                {
+                  "epochId": "antiquite",
+                  "epochLabel": "Antiquité",
+                  "civId": "mesopotamie",
+                  "label": "Mésopotamie"
+                }
+              ]
+            }
           },
           {
             "id": "perse",
@@ -1720,7 +1913,7 @@
             "period": "-550 à -330",
             "start": -550,
             "end": -330,
-            "color": "#9b59b6",
+            "color": "#9c27b0",
             "isRiver": false,
             "capitale": "Persépolis / Suse / Pasargades",
             "description": "Le premier empire global de l'histoire, tolérant et hyper-organisé, s'étendant de la mer Égée jusqu'au fleuve Indus.",
@@ -1782,7 +1975,38 @@
                 "titre": "Empire Achéménide : Les maîtres de l'Orient",
                 "url": "https://fr.wikipedia.org/wiki/Empire_ach%C3%A9m%C3%A9nide"
               }
-            ]
+            ],
+            "lineage": {
+              "id": "perse",
+              "label": "Perse et Iran",
+              "prev": null,
+              "next": {
+                "epochId": "moderne",
+                "epochLabel": "Époque moderne",
+                "civId": "safavides",
+                "label": "Empire Safavide"
+              },
+              "members": [
+                {
+                  "epochId": "antiquite",
+                  "epochLabel": "Antiquité",
+                  "civId": "perse",
+                  "label": "Empire perse achéménide"
+                },
+                {
+                  "epochId": "moderne",
+                  "epochLabel": "Époque moderne",
+                  "civId": "safavides",
+                  "label": "Empire Safavide"
+                },
+                {
+                  "epochId": "contemporaine",
+                  "epochLabel": "Époque contemporaine",
+                  "civId": "iran",
+                  "label": "Iran"
+                }
+              ]
+            }
           },
           {
             "id": "hittites",
@@ -2079,7 +2303,38 @@
                 "titre": "Ashoka, l'empereur bouddhiste de l'Inde",
                 "url": "https://fr.wikipedia.org/wiki/Empire_Maurya"
               }
-            ]
+            ],
+            "lineage": {
+              "id": "inde",
+              "label": "Inde",
+              "prev": null,
+              "next": {
+                "epochId": "moderne",
+                "epochLabel": "Époque moderne",
+                "civId": "moghols",
+                "label": "Empire moghol"
+              },
+              "members": [
+                {
+                  "epochId": "antiquite",
+                  "epochLabel": "Antiquité",
+                  "civId": "maurya",
+                  "label": "Empire Maurya (Inde)"
+                },
+                {
+                  "epochId": "moderne",
+                  "epochLabel": "Époque moderne",
+                  "civId": "moghols",
+                  "label": "Empire moghol"
+                },
+                {
+                  "epochId": "contemporaine",
+                  "epochLabel": "Époque contemporaine",
+                  "civId": "inde-contemp",
+                  "label": "Inde (Raj et Indépendance)"
+                }
+              ]
+            }
           },
           {
             "id": "chine-imperiale",
@@ -2164,7 +2419,55 @@
                 "titre": "L'empire des Han : L'Antiquité Chinoise",
                 "url": "https://fr.wikipedia.org/wiki/Dynastie_Han"
               }
-            ]
+            ],
+            "lineage": {
+              "id": "chine",
+              "label": "Chine",
+              "prev": {
+                "epochId": "prehistoire",
+                "epochLabel": "Préhistoire",
+                "civId": "chine-neo",
+                "label": "Chine néolithique"
+              },
+              "next": {
+                "epochId": "moyen-age",
+                "epochLabel": "Moyen Âge",
+                "civId": "chine-tang-song",
+                "label": "Chine (Tang & Song)"
+              },
+              "members": [
+                {
+                  "epochId": "prehistoire",
+                  "epochLabel": "Préhistoire",
+                  "civId": "chine-neo",
+                  "label": "Chine néolithique"
+                },
+                {
+                  "epochId": "antiquite",
+                  "epochLabel": "Antiquité",
+                  "civId": "chine-imperiale",
+                  "label": "Chine (Qin & Han)"
+                },
+                {
+                  "epochId": "moyen-age",
+                  "epochLabel": "Moyen Âge",
+                  "civId": "chine-tang-song",
+                  "label": "Chine (Tang & Song)"
+                },
+                {
+                  "epochId": "moderne",
+                  "epochLabel": "Époque moderne",
+                  "civId": "chine-mod",
+                  "label": "Chine (Ming & Qing)"
+                },
+                {
+                  "epochId": "contemporaine",
+                  "epochLabel": "Époque contemporaine",
+                  "civId": "chine-contemp",
+                  "label": "Chine (République & Populaire)"
+                }
+              ]
+            }
           },
           {
             "id": "xiongnu",
@@ -2237,7 +2540,7 @@
             "period": "-1000 à -108",
             "start": -1000,
             "end": -108,
-            "color": "#bf360c",
+            "color": "#2e6f95",
             "isRiver": false,
             "capitale": "Wanggeom-seong (Pyongyang)",
             "description": "Le creuset fondateur de l'identité coréenne (l'ère du bronze et du fer antique), dont l'annexion par les Han va provoquer la diaspora donnant naissance aux Trois Royaumes coréens.",
@@ -2297,7 +2600,44 @@
                 "titre": "L'origine de la Corée : Gojoseon",
                 "url": "https://fr.wikipedia.org/wiki/Gojoseon"
               }
-            ]
+            ],
+            "lineage": {
+              "id": "coree",
+              "label": "Corée",
+              "prev": null,
+              "next": {
+                "epochId": "moyen-age",
+                "epochLabel": "Moyen Âge",
+                "civId": "goryeo",
+                "label": "Corée (Dynastie Goryeo)"
+              },
+              "members": [
+                {
+                  "epochId": "antiquite",
+                  "epochLabel": "Antiquité",
+                  "civId": "gojoseon",
+                  "label": "Royaume de Gojoseon (Corée)"
+                },
+                {
+                  "epochId": "moyen-age",
+                  "epochLabel": "Moyen Âge",
+                  "civId": "goryeo",
+                  "label": "Corée (Dynastie Goryeo)"
+                },
+                {
+                  "epochId": "moderne",
+                  "epochLabel": "Époque moderne",
+                  "civId": "joseon",
+                  "label": "Dynastie Joseon (Corée)"
+                },
+                {
+                  "epochId": "contemporaine",
+                  "epochLabel": "Époque contemporaine",
+                  "civId": "coree-contemp",
+                  "label": "Les deux Corées"
+                }
+              ]
+            }
           }
         ]
       },
@@ -2600,7 +2940,32 @@
                 "titre": "Arte : Byzance, l'Empire romain d'Orient",
                 "url": "https://fr.wikipedia.org/wiki/Empire_byzantin"
               }
-            ]
+            ],
+            "lineage": {
+              "id": "rome",
+              "label": "Rome et Byzance",
+              "prev": {
+                "epochId": "antiquite",
+                "epochLabel": "Antiquité",
+                "civId": "rome",
+                "label": "Rome antique"
+              },
+              "next": null,
+              "members": [
+                {
+                  "epochId": "antiquite",
+                  "epochLabel": "Antiquité",
+                  "civId": "rome",
+                  "label": "Rome antique"
+                },
+                {
+                  "epochId": "moyen-age",
+                  "epochLabel": "Moyen Âge",
+                  "civId": "byzance",
+                  "label": "Empire byzantin"
+                }
+              ]
+            }
           },
           {
             "id": "francs",
@@ -2610,7 +2975,7 @@
             "period": "481 à 987",
             "start": 481,
             "end": 987,
-            "color": "#2980b9",
+            "color": "#3f6fd1",
             "isRiver": false,
             "capitale": "Aix-la-Chapelle",
             "description": "De la conversion de Clovis au sacre de Charlemagne, le royaume qui a forgé la matrice féodale et chrétienne de l'Europe occidentale.",
@@ -2683,7 +3048,44 @@
                 "titre": "Charlemagne, le prince à cheval",
                 "url": "https://fr.wikipedia.org/wiki/Empire_carolingien"
               }
-            ]
+            ],
+            "lineage": {
+              "id": "france",
+              "label": "France",
+              "prev": null,
+              "next": {
+                "epochId": "moyen-age",
+                "epochLabel": "Moyen Âge",
+                "civId": "france-capet",
+                "label": "France (Capétiens)"
+              },
+              "members": [
+                {
+                  "epochId": "moyen-age",
+                  "epochLabel": "Moyen Âge",
+                  "civId": "francs",
+                  "label": "Royaume franc"
+                },
+                {
+                  "epochId": "moyen-age",
+                  "epochLabel": "Moyen Âge",
+                  "civId": "france-capet",
+                  "label": "France (Capétiens)"
+                },
+                {
+                  "epochId": "moderne",
+                  "epochLabel": "Époque moderne",
+                  "civId": "france-mod",
+                  "label": "France (Ancien Régime)"
+                },
+                {
+                  "epochId": "contemporaine",
+                  "epochLabel": "Époque contemporaine",
+                  "civId": "france-contemp",
+                  "label": "France"
+                }
+              ]
+            }
           },
           {
             "id": "france-capet",
@@ -2776,7 +3178,49 @@
                 "titre": "La Guerre de Cent Ans (Série Documentaire)",
                 "url": "https://fr.wikipedia.org/wiki/Cap%C3%A9tiens"
               }
-            ]
+            ],
+            "lineage": {
+              "id": "france",
+              "label": "France",
+              "prev": {
+                "epochId": "moyen-age",
+                "epochLabel": "Moyen Âge",
+                "civId": "francs",
+                "label": "Royaume franc"
+              },
+              "next": {
+                "epochId": "moderne",
+                "epochLabel": "Époque moderne",
+                "civId": "france-mod",
+                "label": "France (Ancien Régime)"
+              },
+              "members": [
+                {
+                  "epochId": "moyen-age",
+                  "epochLabel": "Moyen Âge",
+                  "civId": "francs",
+                  "label": "Royaume franc"
+                },
+                {
+                  "epochId": "moyen-age",
+                  "epochLabel": "Moyen Âge",
+                  "civId": "france-capet",
+                  "label": "France (Capétiens)"
+                },
+                {
+                  "epochId": "moderne",
+                  "epochLabel": "Époque moderne",
+                  "civId": "france-mod",
+                  "label": "France (Ancien Régime)"
+                },
+                {
+                  "epochId": "contemporaine",
+                  "epochLabel": "Époque contemporaine",
+                  "civId": "france-contemp",
+                  "label": "France"
+                }
+              ]
+            }
           },
           {
             "id": "serg",
@@ -2786,7 +3230,7 @@
             "period": "962 à 1492",
             "start": 962,
             "end": 1492,
-            "color": "#f57f17",
+            "color": "#34495e",
             "isRiver": false,
             "capitale": "Diètes itinérantes",
             "description": "Un labyrinthe féodal d'Europe centrale, dirigé par un empereur élu, théâtre du grand choc de pouvoir entre le trône et la Papauté.",
@@ -2861,7 +3305,38 @@
                 "titre": "Le Saint-Empire, le cœur de l'Europe",
                 "url": "https://fr.wikipedia.org/wiki/Saint-Empire_romain_germanique"
               }
-            ]
+            ],
+            "lineage": {
+              "id": "allemagne",
+              "label": "Monde germanique",
+              "prev": null,
+              "next": {
+                "epochId": "moderne",
+                "epochLabel": "Époque moderne",
+                "civId": "prusse",
+                "label": "Royaume de Prusse"
+              },
+              "members": [
+                {
+                  "epochId": "moyen-age",
+                  "epochLabel": "Moyen Âge",
+                  "civId": "serg",
+                  "label": "Saint-Empire Romain Germanique"
+                },
+                {
+                  "epochId": "moderne",
+                  "epochLabel": "Époque moderne",
+                  "civId": "prusse",
+                  "label": "Royaume de Prusse"
+                },
+                {
+                  "epochId": "contemporaine",
+                  "epochLabel": "Époque contemporaine",
+                  "civId": "allemagne",
+                  "label": "Allemagne"
+                }
+              ]
+            }
           },
           {
             "id": "angleterre",
@@ -2953,7 +3428,38 @@
                 "titre": "L'Empire des Plantagenêts",
                 "url": "https://fr.wikipedia.org/wiki/Royaume_d%27Angleterre"
               }
-            ]
+            ],
+            "lineage": {
+              "id": "angleterre",
+              "label": "Angleterre et Royaume-Uni",
+              "prev": null,
+              "next": {
+                "epochId": "moderne",
+                "epochLabel": "Époque moderne",
+                "civId": "angleterre-mod",
+                "label": "Angleterre / Grande-Bretagne"
+              },
+              "members": [
+                {
+                  "epochId": "moyen-age",
+                  "epochLabel": "Moyen Âge",
+                  "civId": "angleterre",
+                  "label": "Angleterre"
+                },
+                {
+                  "epochId": "moderne",
+                  "epochLabel": "Époque moderne",
+                  "civId": "angleterre-mod",
+                  "label": "Angleterre / Grande-Bretagne"
+                },
+                {
+                  "epochId": "contemporaine",
+                  "epochLabel": "Époque contemporaine",
+                  "civId": "royaume-uni",
+                  "label": "Royaume-Uni"
+                }
+              ]
+            }
           },
           {
             "id": "vikings",
@@ -3046,7 +3552,7 @@
             "period": "862 à 1240",
             "start": 862,
             "end": 1240,
-            "color": "#1565c0",
+            "color": "#6d4c41",
             "isRiver": true,
             "capitale": "Kiev",
             "description": "Matrice de la Russie moderne, gigantesque fédération slave encadrée par des guerriers-marchands scandinaves et illuminée par l'influence byzantine.",
@@ -3119,7 +3625,32 @@
                 "titre": "Les origines de la Russie : La Rus' de Kiev",
                 "url": "https://fr.wikipedia.org/wiki/Rus%27_de_Kiev"
               }
-            ]
+            ],
+            "lineage": {
+              "id": "russie",
+              "label": "Russie",
+              "prev": null,
+              "next": {
+                "epochId": "contemporaine",
+                "epochLabel": "Époque contemporaine",
+                "civId": "russie",
+                "label": "Russie / URSS"
+              },
+              "members": [
+                {
+                  "epochId": "moyen-age",
+                  "epochLabel": "Moyen Âge",
+                  "civId": "rus-kiev",
+                  "label": "Rus' de Kiev"
+                },
+                {
+                  "epochId": "contemporaine",
+                  "epochLabel": "Époque contemporaine",
+                  "civId": "russie",
+                  "label": "Russie / URSS"
+                }
+              ]
+            }
           },
           {
             "id": "italie-maritime",
@@ -3129,7 +3660,7 @@
             "period": "697 à 1492",
             "start": 697,
             "end": 1492,
-            "color": "#d32f2f",
+            "color": "#4caf50",
             "isRiver": false,
             "capitale": "Venise, Gênes, Amalfi",
             "description": "Génies du capitalisme primitif et maîtres des mers, ces cités-États d'Italie ont financé les croisades et raflé le commerce des épices d'Orient.",
@@ -3197,7 +3728,32 @@
                 "titre": "Venise : La Cité des Doges",
                 "url": "https://fr.wikipedia.org/wiki/R%C3%A9publique_de_Venise"
               }
-            ]
+            ],
+            "lineage": {
+              "id": "italie",
+              "label": "Italie",
+              "prev": null,
+              "next": {
+                "epochId": "contemporaine",
+                "epochLabel": "Époque contemporaine",
+                "civId": "italie-contemp",
+                "label": "Italie (Unification à la République)"
+              },
+              "members": [
+                {
+                  "epochId": "moyen-age",
+                  "epochLabel": "Moyen Âge",
+                  "civId": "italie-maritime",
+                  "label": "Républiques Maritimes"
+                },
+                {
+                  "epochId": "contemporaine",
+                  "epochLabel": "Époque contemporaine",
+                  "civId": "italie-contemp",
+                  "label": "Italie (Unification à la République)"
+                }
+              ]
+            }
           },
           {
             "id": "al-andalus",
@@ -3305,7 +3861,7 @@
             "period": "718 à 1492",
             "start": 718,
             "end": 1492,
-            "color": "#b71c1c",
+            "color": "#d4ac0d",
             "isRiver": false,
             "capitale": "Léon / Tolède / Burgos",
             "description": "Les petits royaumes chrétiens réfugiés dans les montagnes du nord (Castille, Aragon) devenant peu à peu la féroce machine de guerre de l'Espagne moderne.",
@@ -3385,7 +3941,32 @@
                 "titre": "La Reconquista : La fabrique de l'Espagne",
                 "url": "https://fr.wikipedia.org/wiki/Reconquista"
               }
-            ]
+            ],
+            "lineage": {
+              "id": "espagne",
+              "label": "Espagne",
+              "prev": null,
+              "next": {
+                "epochId": "moderne",
+                "epochLabel": "Époque moderne",
+                "civId": "espagne",
+                "label": "Empire espagnol"
+              },
+              "members": [
+                {
+                  "epochId": "moyen-age",
+                  "epochLabel": "Moyen Âge",
+                  "civId": "reconquista-royaumes",
+                  "label": "Royaumes de la Reconquista"
+                },
+                {
+                  "epochId": "moderne",
+                  "epochLabel": "Époque moderne",
+                  "civId": "espagne",
+                  "label": "Empire espagnol"
+                }
+              ]
+            }
           }
         ]
       },
@@ -3523,7 +4104,7 @@
               {
                 "titre": "Khagan (Grand Khan)",
                 "nom": "Gengis Khan",
-                "surnom": "Le Fléau de Dieu",
+                "surnom": "Le Souverain universel",
                 "debut": 1206,
                 "fin": 1227
               },
@@ -3578,7 +4159,7 @@
             "period": "618 à 1279",
             "start": 618,
             "end": 1279,
-            "color": "#d35400",
+            "color": "#e67e22",
             "isRiver": true,
             "capitale": "Chang'an, Kaifeng, Hangzhou",
             "description": "Les ères dynastiques les plus brillantes de l'humanité médiévale, inventant les piliers de la modernité (imprimerie, boussole, monnaie papier, poudre à canon).",
@@ -3660,7 +4241,55 @@
                 "titre": "L'Âge d'or de la Chine (Série Arte)",
                 "url": "https://fr.wikipedia.org/wiki/Dynastie_Song"
               }
-            ]
+            ],
+            "lineage": {
+              "id": "chine",
+              "label": "Chine",
+              "prev": {
+                "epochId": "antiquite",
+                "epochLabel": "Antiquité",
+                "civId": "chine-imperiale",
+                "label": "Chine (Qin & Han)"
+              },
+              "next": {
+                "epochId": "moderne",
+                "epochLabel": "Époque moderne",
+                "civId": "chine-mod",
+                "label": "Chine (Ming & Qing)"
+              },
+              "members": [
+                {
+                  "epochId": "prehistoire",
+                  "epochLabel": "Préhistoire",
+                  "civId": "chine-neo",
+                  "label": "Chine néolithique"
+                },
+                {
+                  "epochId": "antiquite",
+                  "epochLabel": "Antiquité",
+                  "civId": "chine-imperiale",
+                  "label": "Chine (Qin & Han)"
+                },
+                {
+                  "epochId": "moyen-age",
+                  "epochLabel": "Moyen Âge",
+                  "civId": "chine-tang-song",
+                  "label": "Chine (Tang & Song)"
+                },
+                {
+                  "epochId": "moderne",
+                  "epochLabel": "Époque moderne",
+                  "civId": "chine-mod",
+                  "label": "Chine (Ming & Qing)"
+                },
+                {
+                  "epochId": "contemporaine",
+                  "epochLabel": "Époque contemporaine",
+                  "civId": "chine-contemp",
+                  "label": "Chine (République & Populaire)"
+                }
+              ]
+            }
           },
           {
             "id": "tibet-empire",
@@ -3824,7 +4453,38 @@
                 "titre": "Le Japon : Histoire des samouraïs",
                 "url": "https://fr.wikipedia.org/wiki/Samoura%C3%AF"
               }
-            ]
+            ],
+            "lineage": {
+              "id": "japon",
+              "label": "Japon",
+              "prev": null,
+              "next": {
+                "epochId": "moderne",
+                "epochLabel": "Époque moderne",
+                "civId": "japon-mod",
+                "label": "Japon (Époque d'Edo)"
+              },
+              "members": [
+                {
+                  "epochId": "moyen-age",
+                  "epochLabel": "Moyen Âge",
+                  "civId": "japon-feodal",
+                  "label": "Japon féodal (Samouraïs)"
+                },
+                {
+                  "epochId": "moderne",
+                  "epochLabel": "Époque moderne",
+                  "civId": "japon-mod",
+                  "label": "Japon (Époque d'Edo)"
+                },
+                {
+                  "epochId": "contemporaine",
+                  "epochLabel": "Époque contemporaine",
+                  "civId": "japon",
+                  "label": "Japon (Meiji à nos jours)"
+                }
+              ]
+            }
           },
           {
             "id": "goryeo",
@@ -3834,7 +4494,7 @@
             "period": "918 à 1392",
             "start": 918,
             "end": 1392,
-            "color": "#bf360c",
+            "color": "#2e6f95",
             "isRiver": false,
             "capitale": "Gaegyeong",
             "description": "Un riche empire bouddhiste de la péninsule asiatique, reconnu pour son céramisme d'art, qui dut survivre à un siècle d'occupation barbare.",
@@ -3907,7 +4567,49 @@
                 "titre": "La dynastie Goryeo et le Tripitaka Koreana",
                 "url": "https://fr.wikipedia.org/wiki/Goryeo"
               }
-            ]
+            ],
+            "lineage": {
+              "id": "coree",
+              "label": "Corée",
+              "prev": {
+                "epochId": "antiquite",
+                "epochLabel": "Antiquité",
+                "civId": "gojoseon",
+                "label": "Royaume de Gojoseon (Corée)"
+              },
+              "next": {
+                "epochId": "moderne",
+                "epochLabel": "Époque moderne",
+                "civId": "joseon",
+                "label": "Dynastie Joseon (Corée)"
+              },
+              "members": [
+                {
+                  "epochId": "antiquite",
+                  "epochLabel": "Antiquité",
+                  "civId": "gojoseon",
+                  "label": "Royaume de Gojoseon (Corée)"
+                },
+                {
+                  "epochId": "moyen-age",
+                  "epochLabel": "Moyen Âge",
+                  "civId": "goryeo",
+                  "label": "Corée (Dynastie Goryeo)"
+                },
+                {
+                  "epochId": "moderne",
+                  "epochLabel": "Époque moderne",
+                  "civId": "joseon",
+                  "label": "Dynastie Joseon (Corée)"
+                },
+                {
+                  "epochId": "contemporaine",
+                  "epochLabel": "Époque contemporaine",
+                  "civId": "coree-contemp",
+                  "label": "Les deux Corées"
+                }
+              ]
+            }
           },
           {
             "id": "khmer",
@@ -4320,7 +5022,32 @@
                 "titre": "La suprématie de l'Empire Songhaï",
                 "url": "https://fr.wikipedia.org/wiki/Empire_songha%C3%AF"
               }
-            ]
+            ],
+            "lineage": {
+              "id": "songhai",
+              "label": "Empire songhaï",
+              "prev": null,
+              "next": {
+                "epochId": "moderne",
+                "epochLabel": "Époque moderne",
+                "civId": "songhai-mod",
+                "label": "Empire Songhaï (Apogée)"
+              },
+              "members": [
+                {
+                  "epochId": "moyen-age",
+                  "epochLabel": "Moyen Âge",
+                  "civId": "songhai",
+                  "label": "Empire Songhaï"
+                },
+                {
+                  "epochId": "moderne",
+                  "epochLabel": "Époque moderne",
+                  "civId": "songhai-mod",
+                  "label": "Empire Songhaï (Apogée)"
+                }
+              ]
+            }
           },
           {
             "id": "kongo",
@@ -4390,7 +5117,32 @@
                 "titre": "Le Royaume du Kongo : la Croix et le Nzimbu",
                 "url": "https://fr.wikipedia.org/wiki/Royaume_du_Kongo"
               }
-            ]
+            ],
+            "lineage": {
+              "id": "kongo",
+              "label": "Royaume du Kongo",
+              "prev": null,
+              "next": {
+                "epochId": "moderne",
+                "epochLabel": "Époque moderne",
+                "civId": "kongo-mod",
+                "label": "Royaume du Kongo (Christianisé)"
+              },
+              "members": [
+                {
+                  "epochId": "moyen-age",
+                  "epochLabel": "Moyen Âge",
+                  "civId": "kongo",
+                  "label": "Royaume du Kongo"
+                },
+                {
+                  "epochId": "moderne",
+                  "epochLabel": "Époque moderne",
+                  "civId": "kongo-mod",
+                  "label": "Royaume du Kongo (Christianisé)"
+                }
+              ]
+            }
           },
           {
             "id": "zimbabwe-civilisation",
@@ -4714,7 +5466,32 @@
                 "titre": "Charles Quint, les rouages d'un empire",
                 "url": "https://fr.wikipedia.org/wiki/Empire_espagnol"
               }
-            ]
+            ],
+            "lineage": {
+              "id": "espagne",
+              "label": "Espagne",
+              "prev": {
+                "epochId": "moyen-age",
+                "epochLabel": "Moyen Âge",
+                "civId": "reconquista-royaumes",
+                "label": "Royaumes de la Reconquista"
+              },
+              "next": null,
+              "members": [
+                {
+                  "epochId": "moyen-age",
+                  "epochLabel": "Moyen Âge",
+                  "civId": "reconquista-royaumes",
+                  "label": "Royaumes de la Reconquista"
+                },
+                {
+                  "epochId": "moderne",
+                  "epochLabel": "Époque moderne",
+                  "civId": "espagne",
+                  "label": "Empire espagnol"
+                }
+              ]
+            }
           },
           {
             "id": "france-mod",
@@ -4740,7 +5517,7 @@
                 "info": "Henri IV met fin à 30 ans de guerres de religion en accordant la tolérance aux Protestants."
               },
               {
-                "annee": 1685,
+                "annee": 1682,
                 "evenement": "Installation à Versailles",
                 "info": "Louis XIV enferme la noblesse dans une 'prison dorée', apogée de l'absolutisme."
               },
@@ -4815,7 +5592,49 @@
                 "titre": "Louis XIV, le roi est mort, vive le roi",
                 "url": "https://fr.wikipedia.org/wiki/Ancien_R%C3%A9gime"
               }
-            ]
+            ],
+            "lineage": {
+              "id": "france",
+              "label": "France",
+              "prev": {
+                "epochId": "moyen-age",
+                "epochLabel": "Moyen Âge",
+                "civId": "france-capet",
+                "label": "France (Capétiens)"
+              },
+              "next": {
+                "epochId": "contemporaine",
+                "epochLabel": "Époque contemporaine",
+                "civId": "france-contemp",
+                "label": "France"
+              },
+              "members": [
+                {
+                  "epochId": "moyen-age",
+                  "epochLabel": "Moyen Âge",
+                  "civId": "francs",
+                  "label": "Royaume franc"
+                },
+                {
+                  "epochId": "moyen-age",
+                  "epochLabel": "Moyen Âge",
+                  "civId": "france-capet",
+                  "label": "France (Capétiens)"
+                },
+                {
+                  "epochId": "moderne",
+                  "epochLabel": "Époque moderne",
+                  "civId": "france-mod",
+                  "label": "France (Ancien Régime)"
+                },
+                {
+                  "epochId": "contemporaine",
+                  "epochLabel": "Époque contemporaine",
+                  "civId": "france-contemp",
+                  "label": "France"
+                }
+              ]
+            }
           },
           {
             "id": "angleterre-mod",
@@ -4915,7 +5734,43 @@
                 "titre": "Les Tudor : Une dynastie de sang et de passion",
                 "url": "https://fr.wikipedia.org/wiki/P%C3%A9riode_Tudor"
               }
-            ]
+            ],
+            "lineage": {
+              "id": "angleterre",
+              "label": "Angleterre et Royaume-Uni",
+              "prev": {
+                "epochId": "moyen-age",
+                "epochLabel": "Moyen Âge",
+                "civId": "angleterre",
+                "label": "Angleterre"
+              },
+              "next": {
+                "epochId": "contemporaine",
+                "epochLabel": "Époque contemporaine",
+                "civId": "royaume-uni",
+                "label": "Royaume-Uni"
+              },
+              "members": [
+                {
+                  "epochId": "moyen-age",
+                  "epochLabel": "Moyen Âge",
+                  "civId": "angleterre",
+                  "label": "Angleterre"
+                },
+                {
+                  "epochId": "moderne",
+                  "epochLabel": "Époque moderne",
+                  "civId": "angleterre-mod",
+                  "label": "Angleterre / Grande-Bretagne"
+                },
+                {
+                  "epochId": "contemporaine",
+                  "epochLabel": "Époque contemporaine",
+                  "civId": "royaume-uni",
+                  "label": "Royaume-Uni"
+                }
+              ]
+            }
           },
           {
             "id": "provinces-unies",
@@ -5103,7 +5958,7 @@
             "period": "1701 à 1789",
             "start": 1701,
             "end": 1789,
-            "color": "#263238",
+            "color": "#34495e",
             "isRiver": false,
             "capitale": "Berlin / Potsdam",
             "description": "D'un duché pauvre et sablonneux à l'armée la plus craintes d'Europe : 'La Prusse n'est pas un État avec une armée, mais une armée avec un État'.",
@@ -5168,16 +6023,52 @@
                 "titre": "Frédéric le Grand, l'énigme prussienne",
                 "url": "https://fr.wikipedia.org/wiki/Royaume_de_Prusse"
               }
-            ]
+            ],
+            "lineage": {
+              "id": "allemagne",
+              "label": "Monde germanique",
+              "prev": {
+                "epochId": "moyen-age",
+                "epochLabel": "Moyen Âge",
+                "civId": "serg",
+                "label": "Saint-Empire Romain Germanique"
+              },
+              "next": {
+                "epochId": "contemporaine",
+                "epochLabel": "Époque contemporaine",
+                "civId": "allemagne",
+                "label": "Allemagne"
+              },
+              "members": [
+                {
+                  "epochId": "moyen-age",
+                  "epochLabel": "Moyen Âge",
+                  "civId": "serg",
+                  "label": "Saint-Empire Romain Germanique"
+                },
+                {
+                  "epochId": "moderne",
+                  "epochLabel": "Époque moderne",
+                  "civId": "prusse",
+                  "label": "Royaume de Prusse"
+                },
+                {
+                  "epochId": "contemporaine",
+                  "epochLabel": "Époque contemporaine",
+                  "civId": "allemagne",
+                  "label": "Allemagne"
+                }
+              ]
+            }
           },
           {
             "id": "pologne-lituanie",
             "trackId": "pologne",
             "row": 7,
             "label": "République des Deux Nations (Pologne)",
-            "period": "1569 à 1789",
+            "period": "1569 à 1795",
             "start": 1569,
-            "end": 1789,
+            "end": 1795,
             "color": "#880e4f",
             "isRiver": false,
             "capitale": "Cracovie puis Varsovie",
@@ -5331,7 +6222,32 @@
                 "titre": "La chute de l'Empire Songhaï",
                 "url": "https://fr.wikipedia.org/wiki/Empire_songha%C3%AF"
               }
-            ]
+            ],
+            "lineage": {
+              "id": "songhai",
+              "label": "Empire songhaï",
+              "prev": {
+                "epochId": "moyen-age",
+                "epochLabel": "Moyen Âge",
+                "civId": "songhai",
+                "label": "Empire Songhaï"
+              },
+              "next": null,
+              "members": [
+                {
+                  "epochId": "moyen-age",
+                  "epochLabel": "Moyen Âge",
+                  "civId": "songhai",
+                  "label": "Empire Songhaï"
+                },
+                {
+                  "epochId": "moderne",
+                  "epochLabel": "Époque moderne",
+                  "civId": "songhai-mod",
+                  "label": "Empire Songhaï (Apogée)"
+                }
+              ]
+            }
           },
           {
             "id": "ashanti",
@@ -5487,7 +6403,32 @@
                 "titre": "L'Afrique des grands lacs : le Royaume de Kongo",
                 "url": "https://fr.wikipedia.org/wiki/Royaume_du_Kongo"
               }
-            ]
+            ],
+            "lineage": {
+              "id": "kongo",
+              "label": "Royaume du Kongo",
+              "prev": {
+                "epochId": "moyen-age",
+                "epochLabel": "Moyen Âge",
+                "civId": "kongo",
+                "label": "Royaume du Kongo"
+              },
+              "next": null,
+              "members": [
+                {
+                  "epochId": "moyen-age",
+                  "epochLabel": "Moyen Âge",
+                  "civId": "kongo",
+                  "label": "Royaume du Kongo"
+                },
+                {
+                  "epochId": "moderne",
+                  "epochLabel": "Époque moderne",
+                  "civId": "kongo-mod",
+                  "label": "Royaume du Kongo (Christianisé)"
+                }
+              ]
+            }
           },
           {
             "id": "oyo",
@@ -5656,7 +6597,32 @@
                 "titre": "Soliman le Magnifique, le sultan qui fit trembler l'Europe",
                 "url": "https://fr.wikipedia.org/wiki/Soliman_le_Magnifique"
               }
-            ]
+            ],
+            "lineage": {
+              "id": "turquie",
+              "label": "Ottomans et Turquie",
+              "prev": null,
+              "next": {
+                "epochId": "contemporaine",
+                "epochLabel": "Époque contemporaine",
+                "civId": "turquie",
+                "label": "Turquie"
+              },
+              "members": [
+                {
+                  "epochId": "moderne",
+                  "epochLabel": "Époque moderne",
+                  "civId": "ottomans",
+                  "label": "Empire ottoman"
+                },
+                {
+                  "epochId": "contemporaine",
+                  "epochLabel": "Époque contemporaine",
+                  "civId": "turquie",
+                  "label": "Turquie"
+                }
+              ]
+            }
           },
           {
             "id": "moghols",
@@ -5746,7 +6712,43 @@
                 "titre": "L'Empire moghol, les seigneurs de l'Inde",
                 "url": "https://fr.wikipedia.org/wiki/Empire_moghol"
               }
-            ]
+            ],
+            "lineage": {
+              "id": "inde",
+              "label": "Inde",
+              "prev": {
+                "epochId": "antiquite",
+                "epochLabel": "Antiquité",
+                "civId": "maurya",
+                "label": "Empire Maurya (Inde)"
+              },
+              "next": {
+                "epochId": "contemporaine",
+                "epochLabel": "Époque contemporaine",
+                "civId": "inde-contemp",
+                "label": "Inde (Raj et Indépendance)"
+              },
+              "members": [
+                {
+                  "epochId": "antiquite",
+                  "epochLabel": "Antiquité",
+                  "civId": "maurya",
+                  "label": "Empire Maurya (Inde)"
+                },
+                {
+                  "epochId": "moderne",
+                  "epochLabel": "Époque moderne",
+                  "civId": "moghols",
+                  "label": "Empire moghol"
+                },
+                {
+                  "epochId": "contemporaine",
+                  "epochLabel": "Époque contemporaine",
+                  "civId": "inde-contemp",
+                  "label": "Inde (Raj et Indépendance)"
+                }
+              ]
+            }
           },
           {
             "id": "safavides",
@@ -5829,15 +6831,51 @@
                 "titre": "L'art et la gloire de la Perse Safavide",
                 "url": "https://fr.wikipedia.org/wiki/Safavides"
               }
-            ]
+            ],
+            "lineage": {
+              "id": "perse",
+              "label": "Perse et Iran",
+              "prev": {
+                "epochId": "antiquite",
+                "epochLabel": "Antiquité",
+                "civId": "perse",
+                "label": "Empire perse achéménide"
+              },
+              "next": {
+                "epochId": "contemporaine",
+                "epochLabel": "Époque contemporaine",
+                "civId": "iran",
+                "label": "Iran"
+              },
+              "members": [
+                {
+                  "epochId": "antiquite",
+                  "epochLabel": "Antiquité",
+                  "civId": "perse",
+                  "label": "Empire perse achéménide"
+                },
+                {
+                  "epochId": "moderne",
+                  "epochLabel": "Époque moderne",
+                  "civId": "safavides",
+                  "label": "Empire Safavide"
+                },
+                {
+                  "epochId": "contemporaine",
+                  "epochLabel": "Époque contemporaine",
+                  "civId": "iran",
+                  "label": "Iran"
+                }
+              ]
+            }
           },
           {
             "id": "chine-mod",
             "trackId": "chine",
             "row": 4,
             "label": "Chine (Ming & Qing)",
-            "period": "1492 à 1789",
-            "start": 1492,
+            "period": "1368 à 1789",
+            "start": 1368,
             "end": 1789,
             "color": "#e67e22",
             "isRiver": true,
@@ -5919,7 +6957,55 @@
                 "titre": "L'apogée de l'Empire Qing",
                 "url": "https://fr.wikipedia.org/wiki/Dynastie_Qing"
               }
-            ]
+            ],
+            "lineage": {
+              "id": "chine",
+              "label": "Chine",
+              "prev": {
+                "epochId": "moyen-age",
+                "epochLabel": "Moyen Âge",
+                "civId": "chine-tang-song",
+                "label": "Chine (Tang & Song)"
+              },
+              "next": {
+                "epochId": "contemporaine",
+                "epochLabel": "Époque contemporaine",
+                "civId": "chine-contemp",
+                "label": "Chine (République & Populaire)"
+              },
+              "members": [
+                {
+                  "epochId": "prehistoire",
+                  "epochLabel": "Préhistoire",
+                  "civId": "chine-neo",
+                  "label": "Chine néolithique"
+                },
+                {
+                  "epochId": "antiquite",
+                  "epochLabel": "Antiquité",
+                  "civId": "chine-imperiale",
+                  "label": "Chine (Qin & Han)"
+                },
+                {
+                  "epochId": "moyen-age",
+                  "epochLabel": "Moyen Âge",
+                  "civId": "chine-tang-song",
+                  "label": "Chine (Tang & Song)"
+                },
+                {
+                  "epochId": "moderne",
+                  "epochLabel": "Époque moderne",
+                  "civId": "chine-mod",
+                  "label": "Chine (Ming & Qing)"
+                },
+                {
+                  "epochId": "contemporaine",
+                  "epochLabel": "Époque contemporaine",
+                  "civId": "chine-contemp",
+                  "label": "Chine (République & Populaire)"
+                }
+              ]
+            }
           },
           {
             "id": "japon-mod",
@@ -5928,7 +7014,7 @@
             "label": "Japon (Époque d'Edo)",
             "period": "1603 à 1868",
             "start": 1603,
-            "end": 1789,
+            "end": 1868,
             "color": "#c0392b",
             "isRiver": false,
             "capitale": "Edo (Tokyo)",
@@ -6006,7 +7092,43 @@
                 "titre": "Le Japon : Les heures de gloire d'Edo",
                 "url": "https://fr.wikipedia.org/wiki/%C3%89poque_d%27Edo"
               }
-            ]
+            ],
+            "lineage": {
+              "id": "japon",
+              "label": "Japon",
+              "prev": {
+                "epochId": "moyen-age",
+                "epochLabel": "Moyen Âge",
+                "civId": "japon-feodal",
+                "label": "Japon féodal (Samouraïs)"
+              },
+              "next": {
+                "epochId": "contemporaine",
+                "epochLabel": "Époque contemporaine",
+                "civId": "japon",
+                "label": "Japon (Meiji à nos jours)"
+              },
+              "members": [
+                {
+                  "epochId": "moyen-age",
+                  "epochLabel": "Moyen Âge",
+                  "civId": "japon-feodal",
+                  "label": "Japon féodal (Samouraïs)"
+                },
+                {
+                  "epochId": "moderne",
+                  "epochLabel": "Époque moderne",
+                  "civId": "japon-mod",
+                  "label": "Japon (Époque d'Edo)"
+                },
+                {
+                  "epochId": "contemporaine",
+                  "epochLabel": "Époque contemporaine",
+                  "civId": "japon",
+                  "label": "Japon (Meiji à nos jours)"
+                }
+              ]
+            }
           },
           {
             "id": "joseon",
@@ -6014,9 +7136,9 @@
             "row": 6,
             "label": "Dynastie Joseon (Corée)",
             "period": "1392 à 1897",
-            "start": 1492,
-            "end": 1789,
-            "color": "#bf360c",
+            "start": 1392,
+            "end": 1897,
+            "color": "#2e6f95",
             "isRiver": false,
             "capitale": "Hanseong (Séoul)",
             "description": "Le 'Royaume Ermite' : 500 ans de paix confucéenne, d'inventions brillantes (le Hangeul) et de survie héroïque face aux invasions japonaises et mandchoues.",
@@ -6086,7 +7208,49 @@
                 "titre": "Amiral Yi, le sauveur de la Corée",
                 "url": "https://fr.wikipedia.org/wiki/Yi_Sun-sin"
               }
-            ]
+            ],
+            "lineage": {
+              "id": "coree",
+              "label": "Corée",
+              "prev": {
+                "epochId": "moyen-age",
+                "epochLabel": "Moyen Âge",
+                "civId": "goryeo",
+                "label": "Corée (Dynastie Goryeo)"
+              },
+              "next": {
+                "epochId": "contemporaine",
+                "epochLabel": "Époque contemporaine",
+                "civId": "coree-contemp",
+                "label": "Les deux Corées"
+              },
+              "members": [
+                {
+                  "epochId": "antiquite",
+                  "epochLabel": "Antiquité",
+                  "civId": "gojoseon",
+                  "label": "Royaume de Gojoseon (Corée)"
+                },
+                {
+                  "epochId": "moyen-age",
+                  "epochLabel": "Moyen Âge",
+                  "civId": "goryeo",
+                  "label": "Corée (Dynastie Goryeo)"
+                },
+                {
+                  "epochId": "moderne",
+                  "epochLabel": "Époque moderne",
+                  "civId": "joseon",
+                  "label": "Dynastie Joseon (Corée)"
+                },
+                {
+                  "epochId": "contemporaine",
+                  "epochLabel": "Époque contemporaine",
+                  "civId": "coree-contemp",
+                  "label": "Les deux Corées"
+                }
+              ]
+            }
           }
         ]
       },
@@ -6100,7 +7264,7 @@
             "row": 1,
             "label": "Empire aztèque",
             "period": "1428 à 1521",
-            "start": 1492,
+            "start": 1428,
             "end": 1521,
             "color": "#e74c3c",
             "isRiver": false,
@@ -6191,7 +7355,32 @@
                 "titre": "Le dernier jour des Aztèques",
                 "url": "https://fr.wikipedia.org/wiki/Azt%C3%A8ques"
               }
-            ]
+            ],
+            "lineage": {
+              "id": "mexique",
+              "label": "Mexique",
+              "prev": null,
+              "next": {
+                "epochId": "contemporaine",
+                "epochLabel": "Époque contemporaine",
+                "civId": "mexique",
+                "label": "Mexique"
+              },
+              "members": [
+                {
+                  "epochId": "moderne",
+                  "epochLabel": "Époque moderne",
+                  "civId": "azteque",
+                  "label": "Empire aztèque"
+                },
+                {
+                  "epochId": "contemporaine",
+                  "epochLabel": "Époque contemporaine",
+                  "civId": "mexique",
+                  "label": "Mexique"
+                }
+              ]
+            }
           },
           {
             "id": "inca",
@@ -6199,7 +7388,7 @@
             "row": 2,
             "label": "Empire inca",
             "period": "1438 à 1533",
-            "start": 1492,
+            "start": 1438,
             "end": 1533,
             "color": "#f39c12",
             "isRiver": false,
@@ -6362,7 +7551,32 @@
                 "titre": "La Révolution américaine : Naissance d'une nation",
                 "url": "https://fr.wikipedia.org/wiki/R%C3%A9volution_am%C3%A9ricaine"
               }
-            ]
+            ],
+            "lineage": {
+              "id": "etats-unis",
+              "label": "États-Unis",
+              "prev": null,
+              "next": {
+                "epochId": "contemporaine",
+                "epochLabel": "Époque contemporaine",
+                "civId": "etats-unis",
+                "label": "États-Unis d'Amérique (Superpuissance)"
+              },
+              "members": [
+                {
+                  "epochId": "moderne",
+                  "epochLabel": "Époque moderne",
+                  "civId": "usa-moderne",
+                  "label": "États-Unis d'Amérique (Fondation)"
+                },
+                {
+                  "epochId": "contemporaine",
+                  "epochLabel": "Époque contemporaine",
+                  "civId": "etats-unis",
+                  "label": "États-Unis d'Amérique (Superpuissance)"
+                }
+              ]
+            }
           }
         ]
       }
@@ -6485,7 +7699,44 @@
                 "titre": "De Gaulle et l'histoire de la Ve République",
                 "url": "https://fr.wikipedia.org/wiki/Cinqui%C3%A8me_R%C3%A9publique_(France)"
               }
-            ]
+            ],
+            "lineage": {
+              "id": "france",
+              "label": "France",
+              "prev": {
+                "epochId": "moderne",
+                "epochLabel": "Époque moderne",
+                "civId": "france-mod",
+                "label": "France (Ancien Régime)"
+              },
+              "next": null,
+              "members": [
+                {
+                  "epochId": "moyen-age",
+                  "epochLabel": "Moyen Âge",
+                  "civId": "francs",
+                  "label": "Royaume franc"
+                },
+                {
+                  "epochId": "moyen-age",
+                  "epochLabel": "Moyen Âge",
+                  "civId": "france-capet",
+                  "label": "France (Capétiens)"
+                },
+                {
+                  "epochId": "moderne",
+                  "epochLabel": "Époque moderne",
+                  "civId": "france-mod",
+                  "label": "France (Ancien Régime)"
+                },
+                {
+                  "epochId": "contemporaine",
+                  "epochLabel": "Époque contemporaine",
+                  "civId": "france-contemp",
+                  "label": "France"
+                }
+              ]
+            }
           },
           {
             "id": "royaume-uni",
@@ -6584,7 +7835,38 @@
                 "titre": "L'Empire où le soleil ne se couche jamais",
                 "url": "https://fr.wikipedia.org/wiki/Empire_britannique"
               }
-            ]
+            ],
+            "lineage": {
+              "id": "angleterre",
+              "label": "Angleterre et Royaume-Uni",
+              "prev": {
+                "epochId": "moderne",
+                "epochLabel": "Époque moderne",
+                "civId": "angleterre-mod",
+                "label": "Angleterre / Grande-Bretagne"
+              },
+              "next": null,
+              "members": [
+                {
+                  "epochId": "moyen-age",
+                  "epochLabel": "Moyen Âge",
+                  "civId": "angleterre",
+                  "label": "Angleterre"
+                },
+                {
+                  "epochId": "moderne",
+                  "epochLabel": "Époque moderne",
+                  "civId": "angleterre-mod",
+                  "label": "Angleterre / Grande-Bretagne"
+                },
+                {
+                  "epochId": "contemporaine",
+                  "epochLabel": "Époque contemporaine",
+                  "civId": "royaume-uni",
+                  "label": "Royaume-Uni"
+                }
+              ]
+            }
           },
           {
             "id": "allemagne",
@@ -6687,7 +7969,38 @@
                 "titre": "Apocalypse : La Seconde Guerre mondiale",
                 "url": "https://fr.wikipedia.org/wiki/Seconde_Guerre_mondiale"
               }
-            ]
+            ],
+            "lineage": {
+              "id": "allemagne",
+              "label": "Monde germanique",
+              "prev": {
+                "epochId": "moderne",
+                "epochLabel": "Époque moderne",
+                "civId": "prusse",
+                "label": "Royaume de Prusse"
+              },
+              "next": null,
+              "members": [
+                {
+                  "epochId": "moyen-age",
+                  "epochLabel": "Moyen Âge",
+                  "civId": "serg",
+                  "label": "Saint-Empire Romain Germanique"
+                },
+                {
+                  "epochId": "moderne",
+                  "epochLabel": "Époque moderne",
+                  "civId": "prusse",
+                  "label": "Royaume de Prusse"
+                },
+                {
+                  "epochId": "contemporaine",
+                  "epochLabel": "Époque contemporaine",
+                  "civId": "allemagne",
+                  "label": "Allemagne"
+                }
+              ]
+            }
           },
           {
             "id": "russie",
@@ -6697,7 +8010,7 @@
             "period": "1789 à 2020",
             "start": 1789,
             "end": 2020,
-            "color": "#8e44ad",
+            "color": "#6d4c41",
             "isRiver": false,
             "capitale": "Saint-Pétersbourg / Moscou",
             "description": "Des fastes de l'autocratie tsariste à la création sanglante de la première puissance communiste mondiale, effondrée puis ressuscitée dans un nationalisme fort.",
@@ -6787,7 +8100,32 @@
                 "titre": "Staline, le Tyran rouge",
                 "url": "https://fr.wikipedia.org/wiki/Joseph_Staline"
               }
-            ]
+            ],
+            "lineage": {
+              "id": "russie",
+              "label": "Russie",
+              "prev": {
+                "epochId": "moyen-age",
+                "epochLabel": "Moyen Âge",
+                "civId": "rus-kiev",
+                "label": "Rus' de Kiev"
+              },
+              "next": null,
+              "members": [
+                {
+                  "epochId": "moyen-age",
+                  "epochLabel": "Moyen Âge",
+                  "civId": "rus-kiev",
+                  "label": "Rus' de Kiev"
+                },
+                {
+                  "epochId": "contemporaine",
+                  "epochLabel": "Époque contemporaine",
+                  "civId": "russie",
+                  "label": "Russie / URSS"
+                }
+              ]
+            }
           },
           {
             "id": "autriche-hongrie",
@@ -6971,7 +8309,32 @@
                 "titre": "Mussolini, l'ascension et la chute",
                 "url": "https://fr.wikipedia.org/wiki/Benito_Mussolini"
               }
-            ]
+            ],
+            "lineage": {
+              "id": "italie",
+              "label": "Italie",
+              "prev": {
+                "epochId": "moyen-age",
+                "epochLabel": "Moyen Âge",
+                "civId": "italie-maritime",
+                "label": "Républiques Maritimes"
+              },
+              "next": null,
+              "members": [
+                {
+                  "epochId": "moyen-age",
+                  "epochLabel": "Moyen Âge",
+                  "civId": "italie-maritime",
+                  "label": "Républiques Maritimes"
+                },
+                {
+                  "epochId": "contemporaine",
+                  "epochLabel": "Époque contemporaine",
+                  "civId": "italie-contemp",
+                  "label": "Italie (Unification à la République)"
+                }
+              ]
+            }
           },
           {
             "id": "union-europeenne",
@@ -7175,7 +8538,32 @@
                 "titre": "L'histoire des États-Unis : The Civil War (Ken Burns)",
                 "url": "https://fr.wikipedia.org/wiki/Histoire_des_%C3%89tats-Unis"
               }
-            ]
+            ],
+            "lineage": {
+              "id": "etats-unis",
+              "label": "États-Unis",
+              "prev": {
+                "epochId": "moderne",
+                "epochLabel": "Époque moderne",
+                "civId": "usa-moderne",
+                "label": "États-Unis d'Amérique (Fondation)"
+              },
+              "next": null,
+              "members": [
+                {
+                  "epochId": "moderne",
+                  "epochLabel": "Époque moderne",
+                  "civId": "usa-moderne",
+                  "label": "États-Unis d'Amérique (Fondation)"
+                },
+                {
+                  "epochId": "contemporaine",
+                  "epochLabel": "Époque contemporaine",
+                  "civId": "etats-unis",
+                  "label": "États-Unis d'Amérique (Superpuissance)"
+                }
+              ]
+            }
           },
           {
             "id": "mexique",
@@ -7267,7 +8655,32 @@
                 "titre": "Le Mexique : De l'indépendance à la Révolution",
                 "url": "https://fr.wikipedia.org/wiki/Histoire_du_Mexique"
               }
-            ]
+            ],
+            "lineage": {
+              "id": "mexique",
+              "label": "Mexique",
+              "prev": {
+                "epochId": "moderne",
+                "epochLabel": "Époque moderne",
+                "civId": "azteque",
+                "label": "Empire aztèque"
+              },
+              "next": null,
+              "members": [
+                {
+                  "epochId": "moderne",
+                  "epochLabel": "Époque moderne",
+                  "civId": "azteque",
+                  "label": "Empire aztèque"
+                },
+                {
+                  "epochId": "contemporaine",
+                  "epochLabel": "Époque contemporaine",
+                  "civId": "mexique",
+                  "label": "Mexique"
+                }
+              ]
+            }
           },
           {
             "id": "bresil",
@@ -7445,7 +8858,32 @@
                 "titre": "Atatürk, père de la Turquie moderne",
                 "url": "https://fr.wikipedia.org/wiki/Mustafa_Kemal_Atat%C3%BCrk"
               }
-            ]
+            ],
+            "lineage": {
+              "id": "turquie",
+              "label": "Ottomans et Turquie",
+              "prev": {
+                "epochId": "moderne",
+                "epochLabel": "Époque moderne",
+                "civId": "ottomans",
+                "label": "Empire ottoman"
+              },
+              "next": null,
+              "members": [
+                {
+                  "epochId": "moderne",
+                  "epochLabel": "Époque moderne",
+                  "civId": "ottomans",
+                  "label": "Empire ottoman"
+                },
+                {
+                  "epochId": "contemporaine",
+                  "epochLabel": "Époque contemporaine",
+                  "civId": "turquie",
+                  "label": "Turquie"
+                }
+              ]
+            }
           },
           {
             "id": "iran",
@@ -7530,7 +8968,38 @@
                 "titre": "Iran 1979 : Anatomie d'une révolution",
                 "url": "https://fr.wikipedia.org/wiki/R%C3%A9volution_iranienne"
               }
-            ]
+            ],
+            "lineage": {
+              "id": "perse",
+              "label": "Perse et Iran",
+              "prev": {
+                "epochId": "moderne",
+                "epochLabel": "Époque moderne",
+                "civId": "safavides",
+                "label": "Empire Safavide"
+              },
+              "next": null,
+              "members": [
+                {
+                  "epochId": "antiquite",
+                  "epochLabel": "Antiquité",
+                  "civId": "perse",
+                  "label": "Empire perse achéménide"
+                },
+                {
+                  "epochId": "moderne",
+                  "epochLabel": "Époque moderne",
+                  "civId": "safavides",
+                  "label": "Empire Safavide"
+                },
+                {
+                  "epochId": "contemporaine",
+                  "epochLabel": "Époque contemporaine",
+                  "civId": "iran",
+                  "label": "Iran"
+                }
+              ]
+            }
           },
           {
             "id": "chine-contemp",
@@ -7620,7 +9089,50 @@
                 "titre": "La Chine : Le Siècle de l'humiliation et la vengeance",
                 "url": "https://fr.wikipedia.org/wiki/Histoire_de_la_R%C3%A9publique_populaire_de_Chine"
               }
-            ]
+            ],
+            "lineage": {
+              "id": "chine",
+              "label": "Chine",
+              "prev": {
+                "epochId": "moderne",
+                "epochLabel": "Époque moderne",
+                "civId": "chine-mod",
+                "label": "Chine (Ming & Qing)"
+              },
+              "next": null,
+              "members": [
+                {
+                  "epochId": "prehistoire",
+                  "epochLabel": "Préhistoire",
+                  "civId": "chine-neo",
+                  "label": "Chine néolithique"
+                },
+                {
+                  "epochId": "antiquite",
+                  "epochLabel": "Antiquité",
+                  "civId": "chine-imperiale",
+                  "label": "Chine (Qin & Han)"
+                },
+                {
+                  "epochId": "moyen-age",
+                  "epochLabel": "Moyen Âge",
+                  "civId": "chine-tang-song",
+                  "label": "Chine (Tang & Song)"
+                },
+                {
+                  "epochId": "moderne",
+                  "epochLabel": "Époque moderne",
+                  "civId": "chine-mod",
+                  "label": "Chine (Ming & Qing)"
+                },
+                {
+                  "epochId": "contemporaine",
+                  "epochLabel": "Époque contemporaine",
+                  "civId": "chine-contemp",
+                  "label": "Chine (République & Populaire)"
+                }
+              ]
+            }
           },
           {
             "id": "japon",
@@ -7705,7 +9217,38 @@
                 "titre": "L'ère Meiji, l'entrée du Japon dans le monde moderne",
                 "url": "https://fr.wikipedia.org/wiki/%C3%88re_Meiji"
               }
-            ]
+            ],
+            "lineage": {
+              "id": "japon",
+              "label": "Japon",
+              "prev": {
+                "epochId": "moderne",
+                "epochLabel": "Époque moderne",
+                "civId": "japon-mod",
+                "label": "Japon (Époque d'Edo)"
+              },
+              "next": null,
+              "members": [
+                {
+                  "epochId": "moyen-age",
+                  "epochLabel": "Moyen Âge",
+                  "civId": "japon-feodal",
+                  "label": "Japon féodal (Samouraïs)"
+                },
+                {
+                  "epochId": "moderne",
+                  "epochLabel": "Époque moderne",
+                  "civId": "japon-mod",
+                  "label": "Japon (Époque d'Edo)"
+                },
+                {
+                  "epochId": "contemporaine",
+                  "epochLabel": "Époque contemporaine",
+                  "civId": "japon",
+                  "label": "Japon (Meiji à nos jours)"
+                }
+              ]
+            }
           },
           {
             "id": "coree-contemp",
@@ -7715,7 +9258,7 @@
             "period": "1789 à 2020",
             "start": 1789,
             "end": 2020,
-            "color": "#bf360c",
+            "color": "#2e6f95",
             "isRiver": false,
             "capitale": "Séoul (Sud) / Pyongyang (Nord)",
             "description": "Une tragédie nationale. Trente-cinq ans de brutale occupation japonaise, suivie d'une guerre civile destructrice figeant deux nations que tout sépare sur le 38ème parallèle.",
@@ -7784,7 +9327,44 @@
                 "titre": "Guerre de Corée : Le grand affrontement",
                 "url": "https://fr.wikipedia.org/wiki/Histoire_de_la_Cor%C3%A9e"
               }
-            ]
+            ],
+            "lineage": {
+              "id": "coree",
+              "label": "Corée",
+              "prev": {
+                "epochId": "moderne",
+                "epochLabel": "Époque moderne",
+                "civId": "joseon",
+                "label": "Dynastie Joseon (Corée)"
+              },
+              "next": null,
+              "members": [
+                {
+                  "epochId": "antiquite",
+                  "epochLabel": "Antiquité",
+                  "civId": "gojoseon",
+                  "label": "Royaume de Gojoseon (Corée)"
+                },
+                {
+                  "epochId": "moyen-age",
+                  "epochLabel": "Moyen Âge",
+                  "civId": "goryeo",
+                  "label": "Corée (Dynastie Goryeo)"
+                },
+                {
+                  "epochId": "moderne",
+                  "epochLabel": "Époque moderne",
+                  "civId": "joseon",
+                  "label": "Dynastie Joseon (Corée)"
+                },
+                {
+                  "epochId": "contemporaine",
+                  "epochLabel": "Époque contemporaine",
+                  "civId": "coree-contemp",
+                  "label": "Les deux Corées"
+                }
+              ]
+            }
           },
           {
             "id": "inde-contemp",
@@ -7869,7 +9449,38 @@
                 "titre": "Gandhi, la libération sans les armes",
                 "url": "https://fr.wikipedia.org/wiki/Mahatma_Gandhi"
               }
-            ]
+            ],
+            "lineage": {
+              "id": "inde",
+              "label": "Inde",
+              "prev": {
+                "epochId": "moderne",
+                "epochLabel": "Époque moderne",
+                "civId": "moghols",
+                "label": "Empire moghol"
+              },
+              "next": null,
+              "members": [
+                {
+                  "epochId": "antiquite",
+                  "epochLabel": "Antiquité",
+                  "civId": "maurya",
+                  "label": "Empire Maurya (Inde)"
+                },
+                {
+                  "epochId": "moderne",
+                  "epochLabel": "Époque moderne",
+                  "civId": "moghols",
+                  "label": "Empire moghol"
+                },
+                {
+                  "epochId": "contemporaine",
+                  "epochLabel": "Époque contemporaine",
+                  "civId": "inde-contemp",
+                  "label": "Inde (Raj et Indépendance)"
+                }
+              ]
+            }
           },
           {
             "id": "indonesie",
@@ -8103,7 +9714,32 @@
                 "titre": "Adoua 1896, l'indépendance de l'Éthiopie",
                 "url": "https://fr.wikipedia.org/wiki/Histoire_de_l%27%C3%89thiopie"
               }
-            ]
+            ],
+            "lineage": {
+              "id": "ethiopie",
+              "label": "Éthiopie",
+              "prev": {
+                "epochId": "antiquite",
+                "epochLabel": "Antiquité",
+                "civId": "aksoum",
+                "label": "Royaume d'Aksoum"
+              },
+              "next": null,
+              "members": [
+                {
+                  "epochId": "antiquite",
+                  "epochLabel": "Antiquité",
+                  "civId": "aksoum",
+                  "label": "Royaume d'Aksoum"
+                },
+                {
+                  "epochId": "contemporaine",
+                  "epochLabel": "Époque contemporaine",
+                  "civId": "ethiopie-contemp",
+                  "label": "Empire d'Éthiopie (Abyssinie)"
+                }
+              ]
+            }
           },
           {
             "id": "dahomey",

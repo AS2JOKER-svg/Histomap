@@ -1,0 +1,173 @@
+/** Chapitre rédigé : Empire tibétain (≈ 618 – 842). */
+export default {
+  readingTime: 4,
+  cards: [
+    // ── Niveau 1 ──
+    {
+      id: 'songtsen',
+      tier: 1,
+      type: 'text',
+      kicker: 'Création',
+      title: 'Songtsen Gampo unifie le plateau',
+      body:
+        "Au début du VIIe siècle, les rois de la vallée du Yarlung soumettent les clans du plateau tibétain. Vers 630, Songtsen Gampo prend la tête de ce royaume, qu'il transforme en empire. Il installe sa cour à Lhassa, qui devient le cœur du Tibet.",
+      highlight: { value: '≈ 630', label: 'règne de Songtsen Gampo' },
+    },
+    {
+      id: 'altitude',
+      tier: 1,
+      type: 'keyfigure',
+      kicker: 'Territoire',
+      value: '≈ 4 500 m',
+      label: "d'altitude moyenne sur le plateau tibétain",
+      caption: "Le « toit du monde » est froid et sec. On y élève des yaks, des moutons et des chevaux, et l'on cultive l'orge dans les vallées.",
+    },
+    {
+      id: 'carte',
+      tier: 1,
+      type: 'map',
+      kicker: 'Territoire',
+      title: "Un empire au cœur de l'Asie",
+      years: [700, 800],
+      caption: "Au VIIIe siècle, l'empire déborde du plateau : il contrôle des oasis des routes de la soie et menace la Chine des Tang.",
+    },
+    {
+      id: 'wencheng',
+      tier: 1,
+      type: 'text',
+      kicker: 'Croyances',
+      title: 'Des princesses et le Bouddha',
+      body:
+        "En 641, Songtsen Gampo épouse une princesse chinoise, Wencheng. Selon la tradition, il épouse aussi une princesse népalaise, Bhrikuti. Les deux reines auraient apporté au Tibet des statues du Bouddha, conservées dans les premiers temples de Lhassa, comme le Jokhang.",
+    },
+    {
+      id: 'ecriture',
+      tier: 1,
+      type: 'text',
+      kicker: 'Connaissance',
+      title: 'Une écriture venue de l’Inde',
+      body:
+        "Selon la tradition, un ministre, Thonmi Sambhota, est envoyé en Inde pour rapporter un alphabet. L'écriture tibétaine, dérivée d'écritures indiennes, permet de tenir des archives, de rédiger des lois et plus tard de traduire les textes bouddhiques du sanskrit.",
+    },
+    {
+      id: 'changan',
+      tier: 1,
+      type: 'war',
+      nom: "Prise de Chang'an",
+      annee: 763,
+      adversaires: ['Empire chinois des Tang'],
+      allies: ['Empire tibétain'],
+      vainqueur: 'Empire tibétain',
+      consequences: "Profitant de l'affaiblissement des Tang après la révolte d'An Lushan, les Tibétains occupent leur capitale pendant une quinzaine de jours et y proclament un empereur à leur service, avant de se retirer.",
+    },
+    {
+      id: 'trisong',
+      tier: 1,
+      type: 'person',
+      nom: 'Trisong Detsen',
+      role: 'Empereur (tsenpo) du Tibet',
+      dates: 'règne ≈ 755 – 797',
+      description: "Sous son règne, l'empire atteint son apogée militaire. Il fait du bouddhisme une religion protégée par l'État, invite des maîtres indiens et fonde vers 779 Samye, premier monastère du Tibet.",
+    },
+    {
+      id: 'chronologie',
+      tier: 1,
+      type: 'dates',
+      kicker: 'Durée',
+      title: "Deux siècles d'empire",
+      items: [
+        { year: 641, label: 'Mariage de Songtsen Gampo et de la princesse Wencheng' },
+        { year: 763, label: "Les Tibétains occupent Chang'an" },
+        { year: 779, label: 'Fondation du monastère de Samye (vers)' },
+        { year: 786, label: 'Prise de Dunhuang, oasis de la route de la soie' },
+        { year: 822, label: 'Traité de paix avec la Chine' },
+        { year: 842, label: 'Assassinat du roi Langdarma' },
+      ],
+    },
+    {
+      id: 'fin',
+      tier: 1,
+      type: 'text',
+      kicker: 'Fin',
+      title: "L'empire se disloque",
+      body:
+        "Le roi Langdarma, que la tradition présente comme un persécuteur du bouddhisme, est assassiné vers 842, selon la tradition par un moine. Une querelle de succession éclate, et l'empire se divise en principautés rivales. Le Tibet ne retrouvera pas d'unité politique comparable avant plusieurs siècles.",
+      highlight: { value: '842', label: 'fin de l’empire unifié' },
+    },
+
+    // ── Niveau 2 ──
+    {
+      id: 'armee',
+      tier: 2,
+      type: 'text',
+      kicker: 'Guerre',
+      title: 'Des cavaliers en cotte de mailles',
+      body:
+        "Les chroniques chinoises décrivent des cavaliers tibétains couverts, ainsi que leurs chevaux, d'armures de mailles qui ne laissent voir que les yeux. Ces guerriers combattent les Tang, mais aussi les Turcs et les Arabes en Asie centrale.",
+    },
+    {
+      id: 'samye',
+      tier: 2,
+      type: 'text',
+      kicker: 'Croyances',
+      title: 'Le débat de Samye',
+      body:
+        "À la fin du VIIIe siècle, selon les récits tibétains, un débat oppose à Samye un moine chinois du chan (zen) et le savant indien Kamalashila. Le roi aurait donné la victoire à l'enseignement indien, qui inspire depuis le bouddhisme tibétain. La religion ancienne des esprits et des montagnes sacrées continue d'influencer les croyances.",
+    },
+    {
+      id: 'padmasambhava',
+      tier: 2,
+      type: 'person',
+      nom: 'Padmasambhava',
+      role: 'Maître bouddhiste indien',
+      dates: 'VIIIe siècle',
+      description: "Invité par Trisong Detsen, il aurait, selon la légende, soumis les démons des montagnes qui empêchaient la construction de Samye. Les Tibétains le vénèrent sous le nom de Guru Rinpoché, le « précieux maître ».",
+    },
+    {
+      id: 'traite',
+      tier: 2,
+      type: 'keyfigure',
+      kicker: 'Monde',
+      value: '821-822',
+      label: 'traité de paix sino-tibétain',
+      caption: "Le texte, gravé en tibétain et en chinois sur un pilier dressé devant le Jokhang de Lhassa, fixe la frontière entre les deux empires. Ce pilier existe toujours.",
+    },
+    {
+      id: 'dunhuang',
+      tier: 2,
+      type: 'text',
+      kicker: 'Héritage',
+      title: 'Les manuscrits de Dunhuang',
+      body:
+        "Dans une grotte murée de Dunhuang, découverte en 1900, des milliers de manuscrits ont été retrouvés, dont de nombreux textes en tibétain ancien, comme des annales de l'empire. Ce sont les plus anciennes sources écrites de l'histoire tibétaine.",
+    },
+  ],
+
+  quiz: [
+    { id: 'fondateur', type: 'mcq', prompt: "Quel roi fait du Tibet un empire au VIIe siècle ?", options: ['Songtsen Gampo', 'Trisong Detsen', 'Langdarma', 'Kubilaï Khan'], answer: 0 },
+    { id: 'capitale', type: 'mcq', prompt: 'Quelle ville devient le cœur de l’Empire tibétain ?', options: ['Lhassa', "Chang'an", 'Katmandou', 'Samarcande'], answer: 0 },
+    { id: 'toit', type: 'mcq', prompt: 'Quel surnom donne-t-on au plateau tibétain ?', options: ['Le toit du monde', 'Le jardin du monde', 'Le grenier de l’Asie', 'La terre du milieu'], answer: 0 },
+    { id: 'wencheng', type: 'mcq', prompt: 'De quel pays vient la princesse Wencheng ?', options: ['De la Chine', 'Du Népal', 'De l’Inde', 'De la Perse'], answer: 0 },
+    { id: 'bhrikuti', type: 'tf', prompt: 'Selon la tradition, Songtsen Gampo épouse aussi une princesse népalaise.', answer: true },
+    { id: 'jokhang', type: 'mcq', prompt: 'Quel temple de Lhassa abrite, selon la tradition, une statue du Bouddha apportée par une princesse ?', options: ['Le Jokhang', 'Le Potala', 'Angkor Wat', 'Borobudur'], answer: 0 },
+    { id: 'ecriture', type: 'mcq', prompt: "De quelle région vient le modèle de l'écriture tibétaine ?", options: ["De l'Inde", 'De la Chine', 'De la Perse', 'De la Mongolie'], answer: 0 },
+    { id: 'changan', type: 'mcq', prompt: "Quelle capitale chinoise les Tibétains occupent-ils en 763 ?", options: ["Chang'an", 'Pékin', 'Nankin', 'Kaifeng'], answer: 0 },
+    { id: 'occupation', type: 'tf', prompt: "Les Tibétains occupent Chang'an pendant plusieurs décennies.", answer: false, explanation: 'Ils ne l’occupent qu’une quinzaine de jours avant de se retirer.' },
+    { id: 'samye', type: 'mcq', prompt: 'Quel est le premier monastère bouddhiste du Tibet ?', options: ['Samye', 'Jokhang', 'Nalanda', 'Shaolin'], answer: 0 },
+    { id: 'trisong', type: 'mcq', prompt: 'Sous quel roi le bouddhisme devient-il religion protégée par l’État ?', options: ['Trisong Detsen', 'Songtsen Gampo', 'Langdarma', 'Ashoka'], answer: 0 },
+    { id: 'guru', type: 'mcq', prompt: 'Sous quel nom les Tibétains vénèrent-ils Padmasambhava ?', options: ['Guru Rinpoché', 'Dalaï-lama', 'Bodhidharma', 'Panchen-lama'], answer: 0 },
+    { id: 'debat', type: 'mcq', prompt: 'Selon les récits tibétains, quel enseignement l’emporte lors du débat de Samye ?', options: ["Celui du maître indien", 'Celui du moine chinois', 'Celui des prêtres zoroastriens', 'Celui des moines chrétiens'], answer: 0 },
+    { id: 'armure', type: 'tf', prompt: 'Les cavaliers tibétains portent des armures de mailles.', answer: true },
+    { id: 'traite', type: 'mcq', prompt: 'Que reste-t-il du traité de paix de 821-822 avec la Chine ?', options: ['Un pilier gravé à Lhassa', 'Un rouleau de soie à Pékin', 'Une statue en or', 'Rien du tout'], answer: 0 },
+    { id: 'langdarma', type: 'mcq', prompt: "Quel roi est assassiné vers 842, entraînant l'éclatement de l'empire ?", options: ['Langdarma', 'Songtsen Gampo', 'Trisong Detsen', 'Ralpachen'], answer: 0 },
+    { id: 'dunhuang', type: 'mcq', prompt: 'Où ont été retrouvés les plus anciens manuscrits tibétains ?', options: ['Dans une grotte de Dunhuang', 'Dans le palais du Potala', 'Au fond d’un lac sacré', 'Dans une tombe égyptienne'], answer: 0 },
+    { id: 'ordre', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Mariage de Songtsen Gampo et de Wencheng', "Occupation de Chang'an", 'Traité de paix avec la Chine', 'Assassinat de Langdarma'] },
+  ],
+
+  recap: [
+    '≈ 630 : Songtsen Gampo unifie le plateau et règne à Lhassa',
+    "Une puissance militaire qui occupe Chang'an en 763",
+    'Le bouddhisme indien devient religion protégée (Samye)',
+    '842 : assassinat de Langdarma et éclatement de l’empire',
+  ],
+}

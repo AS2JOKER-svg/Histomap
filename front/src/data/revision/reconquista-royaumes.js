@@ -1,0 +1,173 @@
+/** Chapitre rédigé : Royaumes chrétiens de la Reconquista (718 – 1492). */
+export default {
+  readingTime: 4,
+  cards: [
+    // ── Niveau 1 ──
+    {
+      id: 'covadonga',
+      tier: 1,
+      type: 'text',
+      kicker: 'Création',
+      title: 'Pélage dans les Asturies',
+      body:
+        "Après la conquête musulmane de 711, quelques chefs chrétiens résistent dans les montagnes du nord. Vers 718-722 (la date est discutée), Pélage repousse une troupe musulmane à Covadonga. Cette petite victoire devient le mythe fondateur du royaume des Asturies.",
+      highlight: { value: '≈ 718-722', label: 'bataille de Covadonga' },
+    },
+    {
+      id: 'royaumes',
+      tier: 1,
+      type: 'text',
+      kicker: 'Pouvoir',
+      title: 'Plusieurs royaumes, pas un seul',
+      body:
+        "La « Reconquista » n'est pas menée par un seul État. Peu à peu naissent le royaume de León (héritier des Asturies), la Castille, la Navarre, l'Aragon, les comtés de Barcelone (Catalogne) et le Portugal. Ces royaumes se font souvent la guerre entre eux et passent parfois des alliances avec des princes musulmans.",
+    },
+    {
+      id: 'carte',
+      tier: 1,
+      type: 'map',
+      kicker: 'Territoire',
+      title: 'La frontière descend vers le sud',
+      years: [1000, 1200, 1400],
+      caption: "Comparez : les royaumes chrétiens, cantonnés au nord vers l'an 1000, occupent presque toute la péninsule en 1400. Seul reste le royaume de Grenade.",
+    },
+    {
+      id: 'etapes',
+      tier: 1,
+      type: 'dates',
+      kicker: 'Expansion',
+      title: 'Les grandes étapes',
+      items: [
+        { year: 1085, label: 'Alphonse VI de Castille prend Tolède' },
+        { year: 1118, label: "Alphonse Ier d'Aragon prend Saragosse" },
+        { year: 1147, label: 'Le Portugal prend Lisbonne' },
+        { year: 1212, label: 'Victoire chrétienne de Las Navas de Tolosa' },
+        { year: 1236, label: 'Ferdinand III de Castille prend Cordoue' },
+        { year: 1248, label: 'Ferdinand III prend Séville' },
+        { year: 1492, label: 'Les Rois Catholiques prennent Grenade' },
+      ],
+    },
+    {
+      id: 'cid',
+      tier: 1,
+      type: 'person',
+      nom: 'Le Cid (Rodrigo Díaz de Vivar)',
+      role: 'Chevalier castillan',
+      dates: 'vers 1043 – 1099',
+      description: "Banni par Alphonse VI, il sert un temps l'émir musulman de Saragosse, puis s'empare de Valence en 1094 et la gouverne jusqu'à sa mort. Le Cantar de mio Cid fait de lui un héros ; son surnom vient de l'arabe sayyid, « seigneur ».",
+    },
+    {
+      id: 'compostelle',
+      tier: 1,
+      type: 'text',
+      kicker: 'Croyances',
+      title: 'Saint-Jacques-de-Compostelle',
+      body:
+        "Au IXe siècle, un tombeau attribué à l'apôtre Jacques est « découvert » en Galice. Saint-Jacques-de-Compostelle devient l'un des plus grands pèlerinages de la chrétienté. Saint Jacques est aussi invoqué comme protecteur des combattants chrétiens.",
+    },
+    {
+      id: 'repoblacion',
+      tier: 1,
+      type: 'text',
+      kicker: 'Société',
+      title: 'Repeupler la frontière',
+      body:
+        "Pour garder les terres conquises, les rois y installent des paysans libres et des chevaliers, attirés par des chartes de privilèges appelées fueros. Dans les villes reprises vivent aussi des musulmans soumis (les mudéjars) et des communautés juives.",
+    },
+    {
+      id: 'isabelle',
+      tier: 1,
+      type: 'person',
+      nom: 'Isabelle Ire de Castille',
+      role: 'Reine de Castille',
+      dates: '1451 – 1504',
+      description: "En 1469, elle épouse Ferdinand, héritier d'Aragon. Les deux royaumes gardent leurs lois, mais le couple gouverne ensemble : ce sont les « Rois Catholiques ». Elle soutient le voyage de Christophe Colomb en 1492.",
+    },
+    {
+      id: 'grenade-guerre',
+      tier: 1,
+      type: 'war',
+      nom: 'Guerre de Grenade',
+      annee: 1482,
+      adversaires: ['Royaume nasride de Grenade (Boabdil)'],
+      allies: ['Couronne de Castille', "Couronne d'Aragon"],
+      vainqueur: 'Rois Catholiques',
+      consequences: "Après dix ans de sièges, Grenade capitule le 2 janvier 1492. Peu après, les Juifs sont expulsés (1492), puis les musulmans contraints de se convertir au début du XVIe siècle.",
+    },
+
+    // ── Niveau 2 ──
+    {
+      id: 'ordres',
+      tier: 2,
+      type: 'text',
+      kicker: 'Guerre',
+      title: 'Les ordres militaires',
+      body:
+        "Au XIIe siècle naissent des ordres de moines-soldats, comme Calatrava (1158) ou Santiago (vers 1170), sur le modèle des Templiers. Ils défendent la frontière et reçoivent d'immenses domaines dans les terres conquises.",
+    },
+    {
+      id: 'cortes',
+      tier: 2,
+      type: 'keyfigure',
+      kicker: 'Droits',
+      value: '1188',
+      label: 'Cortes de León',
+      caption: "Le roi Alphonse IX réunit nobles, clergé et représentants des villes. L'UNESCO considère ses décrets comme l'un des plus anciens témoignages d'un système parlementaire en Europe.",
+    },
+    {
+      id: 'alphonse-x',
+      tier: 2,
+      type: 'person',
+      nom: 'Alphonse X le Sage',
+      role: 'Roi de Castille et de León',
+      dates: '1221 – 1284',
+      description: "Roi savant, il fait traduire des ouvrages arabes, rédiger un grand code de lois (les Siete Partidas) et établir des tables astronomiques. Il favorise l'usage du castillan à la place du latin.",
+    },
+    {
+      id: 'aragon',
+      tier: 2,
+      type: 'text',
+      kicker: 'Monde',
+      title: "L'Aragon regarde la Méditerranée",
+      body:
+        "Uni à la Catalogne en 1137, l'Aragon se tourne vers la mer. Jacques Ier le Conquérant prend Majorque (1229) et Valence (1238). Ses successeurs acquièrent la Sicile, la Sardaigne et Naples. Les marins catalans dressent des cartes réputées.",
+    },
+    {
+      id: 'portugal',
+      tier: 2,
+      type: 'text',
+      kicker: 'Héritage',
+      title: 'Le Portugal prend son indépendance',
+      body:
+        "Comté du royaume de León, le Portugal devient un royaume avec Alphonse Ier Henriques, reconnu roi en 1143. Il achève sa reconquête dès 1249 avec l'Algarve, puis se lance au XVe siècle dans l'exploration des côtes africaines.",
+    },
+  ],
+
+  quiz: [
+    { id: 'covadonga', type: 'mcq', prompt: 'Quel chef chrétien remporte la bataille de Covadonga ?', options: ['Pélage', 'Le Cid', 'Charles Martel', 'Ferdinand III'], answer: 0 },
+    { id: 'asturies', type: 'mcq', prompt: 'Dans quelle région montagneuse naît le premier royaume chrétien de la Reconquista ?', options: ['Les Asturies', "L'Andalousie", 'La Catalogne', 'La Murcie'], answer: 0 },
+    { id: 'reconquista', type: 'mcq', prompt: 'Que désigne le mot « Reconquista » ?', options: ['La conquête par les royaumes chrétiens des terres musulmanes de la péninsule Ibérique', 'La conquête de l’Amérique', 'Une croisade vers Jérusalem', 'La conquête musulmane de 711'], answer: 0 },
+    { id: 'uni', type: 'tf', prompt: 'La Reconquista est menée par un seul royaume chrétien uni.', answer: false, explanation: 'León, Castille, Navarre, Aragon et Portugal agissent séparément et se combattent souvent.' },
+    { id: 'tolede', type: 'mcq', prompt: 'Quelle ville Alphonse VI prend-il en 1085 ?', options: ['Tolède', 'Grenade', 'Séville', 'Cordoue'], answer: 0 },
+    { id: 'cid-valence', type: 'mcq', prompt: 'Quelle ville le Cid conquiert-il en 1094 ?', options: ['Valence', 'Tolède', 'Saragosse', 'Lisbonne'], answer: 0 },
+    { id: 'cid-musulman', type: 'tf', prompt: 'Le Cid a aussi servi un prince musulman.', answer: true },
+    { id: 'compostelle', type: 'mcq', prompt: 'Quel apôtre est vénéré à Compostelle ?', options: ['Saint Jacques', 'Saint Pierre', 'Saint Paul', 'Saint Jean'], answer: 0 },
+    { id: 'fueros', type: 'mcq', prompt: 'Comment appelle-t-on les chartes de privilèges accordées aux colons de la frontière ?', options: ['Les fueros', 'Les taïfas', 'Les cortes', 'Les mudéjars'], answer: 0 },
+    { id: 'mudejars', type: 'mcq', prompt: 'Comment appelle-t-on les musulmans vivant sous domination chrétienne ?', options: ['Les mudéjars', 'Les mozarabes', 'Les Almohades', 'Les morisques'], answer: 0 },
+    { id: 'ordres', type: 'mcq', prompt: 'Lequel de ces ordres militaires est né dans la péninsule Ibérique ?', options: ['L’ordre de Calatrava', 'L’ordre teutonique', 'L’ordre de Malte', 'L’ordre de Cîteaux'], answer: 0 },
+    { id: 'seville', type: 'mcq', prompt: 'Quel roi de Castille prend Cordoue (1236) et Séville (1248) ?', options: ['Ferdinand III', 'Alphonse VI', 'Alphonse X', 'Pélage'], answer: 0 },
+    { id: 'majorque', type: 'mcq', prompt: 'Quel royaume conquiert Majorque et Valence au XIIIe siècle ?', options: ['L’Aragon', 'Le Portugal', 'La Navarre', 'Le León'], answer: 0 },
+    { id: 'alphonse-x', type: 'mcq', prompt: 'Quel roi castillan est surnommé « le Sage » ?', options: ['Alphonse X', 'Alphonse VI', 'Ferdinand III', 'Alphonse VIII'], answer: 0 },
+    { id: 'mariage', type: 'mcq', prompt: 'Qui Isabelle de Castille épouse-t-elle en 1469 ?', options: ['Ferdinand d’Aragon', 'Charles Quint', 'Alphonse V de Portugal', 'Boabdil'], answer: 0 },
+    { id: 'fusion', type: 'tf', prompt: 'Le mariage d’Isabelle et de Ferdinand fusionne immédiatement la Castille et l’Aragon en un seul royaume avec les mêmes lois.', answer: false, explanation: 'Les deux couronnes gardent leurs institutions et leurs lois : c’est une union personnelle.' },
+    { id: 'grenade', type: 'mcq', prompt: 'En quelle année Grenade capitule-t-elle ?', options: ['1492', '1212', '1469', '1085'], answer: 0 },
+    { id: 'ordre', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Bataille de Covadonga', 'Prise de Tolède', 'Bataille de Las Navas de Tolosa', 'Prise de Séville', 'Prise de Grenade'] },
+  ],
+
+  recap: [
+    '≈ 718-722 : Covadonga, mythe fondateur du royaume des Asturies',
+    'Plusieurs royaumes chrétiens (Castille, Aragon, Portugal…) avancent vers le sud',
+    'Tolède (1085), Las Navas (1212), Séville (1248) : grandes étapes',
+    '1492 : les Rois Catholiques prennent Grenade',
+  ],
+}

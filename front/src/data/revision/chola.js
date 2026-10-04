@@ -1,0 +1,171 @@
+/** Chapitre rédigé : Empire chola (≈ 848 – 1279). */
+export default {
+  readingTime: 4,
+  cards: [
+    // ── Niveau 1 ──
+    {
+      id: 'vijayalaya',
+      tier: 1,
+      type: 'text',
+      kicker: 'Création',
+      title: 'Vijayalaya prend Thanjavur',
+      body:
+        "Les Chola sont une très ancienne famille royale tamoule, déjà citée dans des textes de l'Antiquité. Vers 848-850, Vijayalaya s'empare de la ville de Thanjavur, dans la plaine du fleuve Kaveri, au sud-est de l'Inde. Ses descendants bâtissent un puissant empire.",
+      highlight: { value: '≈ 848', label: 'prise de Thanjavur par Vijayalaya' },
+    },
+    {
+      id: 'carte',
+      tier: 1,
+      type: 'map',
+      kicker: 'Territoire',
+      title: "Un empire de l'Inde du Sud",
+      years: [1000, 1200],
+      caption: "Depuis la plaine de la Kaveri, les Chola dominent l'Inde du Sud et, à leur apogée, le nord de Sri Lanka.",
+    },
+    {
+      id: 'rajaraja',
+      tier: 1,
+      type: 'person',
+      nom: 'Rajaraja Ier',
+      role: 'Roi chola',
+      dates: 'règne 985 – 1014',
+      description: "Grand conquérant, il soumet ses voisins du sud de l'Inde, conquiert le nord de Sri Lanka et les îles Maldives. Il fait recenser les terres pour mieux lever l'impôt et construit le grand temple de Thanjavur.",
+    },
+    {
+      id: 'temple',
+      tier: 1,
+      type: 'keyfigure',
+      kicker: "Âge d'or",
+      value: '≈ 66 m',
+      label: 'de hauteur pour la tour du temple de Brihadishvara',
+      caption: "Achevé vers 1010 et dédié au dieu Shiva, ce temple de granite est l'un des plus hauts de l'Inde de son temps. Il est inscrit au patrimoine mondial de l'UNESCO.",
+    },
+    {
+      id: 'rajendra',
+      tier: 1,
+      type: 'person',
+      nom: 'Rajendra Ier',
+      role: 'Roi chola, fils de Rajaraja',
+      dates: 'règne 1014 – 1044',
+      description: "Il conquiert tout Sri Lanka et mène une expédition jusqu'au Gange, au nord de l'Inde. Pour célébrer cette victoire, il fonde une nouvelle capitale : Gangaikonda Cholapuram, « la ville du Chola qui a pris le Gange ».",
+    },
+    {
+      id: 'srivijaya',
+      tier: 1,
+      type: 'war',
+      nom: 'Expédition navale contre Srivijaya',
+      annee: 1025,
+      adversaires: ['Royaume de Srivijaya (Sumatra et péninsule malaise)'],
+      allies: ['Flotte de Rajendra Ier'],
+      vainqueur: 'Empire chola',
+      consequences: "Selon les inscriptions chola, la flotte traverse le golfe du Bengale, pille de nombreux ports et capture le roi de Srivijaya. Les historiens pensent qu'elle cherchait à protéger le commerce des marchands tamouls.",
+    },
+    {
+      id: 'nataraja',
+      tier: 1,
+      type: 'text',
+      kicker: 'Culture',
+      title: 'Les bronzes chola',
+      body:
+        "Les artisans chola fondent des statues de bronze par la technique de la cire perdue. La plus célèbre représente Shiva Nataraja, « le roi de la danse », qui danse dans un cercle de flammes pour détruire et recréer l'univers. Ces statues étaient portées en procession lors des fêtes.",
+    },
+    {
+      id: 'chronologie',
+      tier: 1,
+      type: 'dates',
+      kicker: 'Durée',
+      title: 'Quatre siècles de puissance',
+      items: [
+        { year: 848, label: 'Vijayalaya prend Thanjavur (vers)' },
+        { year: 985, label: 'Début du règne de Rajaraja Ier' },
+        { year: 1010, label: 'Achèvement du temple de Thanjavur (vers)' },
+        { year: 1025, label: 'Expédition navale contre Srivijaya (vers)' },
+        { year: 1279, label: 'Fin de la dynastie, supplantée par les Pandya' },
+      ],
+    },
+    {
+      id: 'fin',
+      tier: 1,
+      type: 'text',
+      kicker: 'Fin',
+      title: 'Le déclin',
+      body:
+        "Au XIIIe siècle, l'empire est affaibli par les révoltes de vassaux et les attaques de ses voisins, les Hoysala et surtout les Pandya de Madurai. Le dernier roi chola connu, Rajendra III, disparaît vers 1279 et ses terres passent aux Pandya.",
+    },
+
+    // ── Niveau 2 ──
+    {
+      id: 'shivaisme',
+      tier: 2,
+      type: 'text',
+      kicker: 'Croyances',
+      title: 'Des rois dévots de Shiva',
+      body:
+        "Les rois chola sont surtout fidèles du dieu Shiva, mais ils protègent aussi les temples de Vishnou. Les grands temples possèdent des terres, emploient des centaines de personnes (prêtres, danseuses, musiciens) et prêtent même de l'argent aux villages.",
+    },
+    {
+      id: 'villages',
+      tier: 2,
+      type: 'text',
+      kicker: 'Société',
+      title: 'Des assemblées de village',
+      body:
+        "Des inscriptions du village d'Uttaramerur, gravées vers 920, décrivent comment l'assemblée locale choisit ses membres : les noms des candidats sont écrits sur des feuilles de palmier placées dans un pot, puis tirés au sort par un enfant. Ces assemblées gèrent les terres, l'irrigation et les réservoirs.",
+    },
+    {
+      id: 'marchands',
+      tier: 2,
+      type: 'text',
+      kicker: 'Monde',
+      title: 'Marchands et ambassades',
+      body:
+        "Des guildes de marchands tamouls commercent jusqu'en Asie du Sud-Est. Les Chola envoient plusieurs ambassades à la cour des Song, en Chine, au XIe siècle. Des inscriptions tamoules ont été retrouvées jusqu'en Thaïlande, à Sumatra et en Chine.",
+    },
+    {
+      id: 'litterature',
+      tier: 2,
+      type: 'text',
+      kicker: 'Culture',
+      title: 'Un âge classique de la langue tamoule',
+      body:
+        "Sous les Chola, les hymnes des saints shivaïtes sont rassemblés et le poète Kambar compose, probablement au XIIe siècle, une célèbre version tamoule du Ramayana. Le tamoul reste aujourd'hui parlé par plus de 70 millions de personnes.",
+    },
+    {
+      id: 'heritage',
+      tier: 2,
+      type: 'keyfigure',
+      kicker: 'Héritage',
+      value: '3',
+      label: 'grands temples chola inscrits au patrimoine mondial',
+      caption: "Thanjavur, Gangaikonda Cholapuram et Darasuram forment les « grands temples vivants chola » : on y célèbre toujours le culte.",
+    },
+  ],
+
+  quiz: [
+    { id: 'region', type: 'mcq', prompt: 'Dans quelle région de l’Inde se trouve l’Empire chola ?', options: ['Le sud-est (pays tamoul)', 'Le nord-ouest (Pendjab)', 'Le nord-est (Bengale)', 'Le Cachemire'], answer: 0 },
+    { id: 'langue', type: 'mcq', prompt: 'Quelle langue parlent les Chola ?', options: ['Le tamoul', 'Le persan', 'Le sanskrit uniquement', 'Le bengali'], answer: 0 },
+    { id: 'fleuve', type: 'mcq', prompt: 'Quel fleuve arrose le cœur de l’Empire chola ?', options: ['La Kaveri', 'Le Gange', "L'Indus", 'Le Mékong'], answer: 0 },
+    { id: 'capitale', type: 'mcq', prompt: 'Quelle ville Vijayalaya prend-il vers 848 ?', options: ['Thanjavur', 'Delhi', 'Madurai', 'Calcutta'], answer: 0 },
+    { id: 'rajaraja', type: 'mcq', prompt: 'Quel roi fait construire le grand temple de Thanjavur ?', options: ['Rajaraja Ier', 'Rajendra Ier', 'Vijayalaya', 'Ashoka'], answer: 0 },
+    { id: 'shiva', type: 'mcq', prompt: 'À quel dieu le temple de Brihadishvara est-il dédié ?', options: ['Shiva', 'Vishnou', 'Bouddha', 'Indra'], answer: 0 },
+    { id: 'lanka', type: 'mcq', prompt: 'Quelle île les Chola conquièrent-ils en partie puis en totalité ?', options: ['Sri Lanka', 'Madagascar', 'Java', 'Bornéo'], answer: 0 },
+    { id: 'gange', type: 'mcq', prompt: 'Que signifie le nom de la capitale fondée par Rajendra Ier, Gangaikonda Cholapuram ?', options: ['« La ville du Chola qui a pris le Gange »', '« La ville de Shiva »', '« La ville d’or »', '« Le port des épices »'], answer: 0 },
+    { id: 'srivijaya', type: 'mcq', prompt: 'Quel royaume la flotte chola attaque-t-elle vers 1025 ?', options: ['Srivijaya', 'Angkor', 'Le Japon', 'Byzance'], answer: 0 },
+    { id: 'marine', type: 'tf', prompt: 'Les Chola sont l’une des rares dynasties indiennes à mener des expéditions navales lointaines.', answer: true },
+    { id: 'nataraja', type: 'mcq', prompt: 'Que représente le célèbre bronze du Shiva Nataraja ?', options: ['Shiva dansant dans un cercle de flammes', 'Shiva méditant sur une montagne', 'Un roi chola à cheval', 'Bouddha couché'], answer: 0 },
+    { id: 'cire', type: 'mcq', prompt: 'Par quelle technique les bronzes chola sont-ils fabriqués ?', options: ['La cire perdue', 'Le martelage à froid', 'Le moulage en sable', 'La soudure'], answer: 0 },
+    { id: 'tirage', type: 'tf', prompt: 'À Uttaramerur, les membres de l’assemblée du village sont désignés par tirage au sort.', answer: true },
+    { id: 'chine', type: 'mcq', prompt: 'Avec quelle dynastie chinoise les Chola échangent-ils des ambassades ?', options: ['Les Song', 'Les Han', 'Les Ming', 'Les Qin'], answer: 0 },
+    { id: 'ramayana', type: 'mcq', prompt: 'Quel poète compose une célèbre version tamoule du Ramayana ?', options: ['Kambar', 'Kalidasa', 'Valmiki', 'Tagore'], answer: 0 },
+    { id: 'temples-vf', type: 'tf', prompt: 'Les temples chola sont aujourd’hui en ruines et abandonnés.', answer: false, explanation: 'Les « grands temples vivants chola » sont toujours des lieux de culte.' },
+    { id: 'pandya', type: 'mcq', prompt: 'Quelle dynastie supplante les Chola au XIIIe siècle ?', options: ['Les Pandya', 'Les Moghols', 'Les Maurya', 'Les Gupta'], answer: 0 },
+    { id: 'ordre', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Prise de Thanjavur par Vijayalaya', 'Début du règne de Rajaraja Ier', 'Expédition navale contre Srivijaya', 'Fin de la dynastie chola'] },
+  ],
+
+  recap: [
+    '≈ 848 : Vijayalaya prend Thanjavur et lance l’essor des Chola',
+    'Rajaraja Ier et Rajendra Ier : conquêtes en Inde du Sud et à Sri Lanka',
+    '≈ 1025 : une flotte chola frappe Srivijaya',
+    'Temples géants, bronzes de Shiva Nataraja et littérature tamoule',
+  ],
+}

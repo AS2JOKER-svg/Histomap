@@ -94,7 +94,7 @@ export default {
       kicker: 'Pouvoir',
       title: 'La Constitution de 1787',
       body:
-        "Les premiers textes laissent l'État central trop faible : il ne peut pas lever d'impôts. À l'été 1787, 55 délégués se réunissent à Philadelphie et écrivent une Constitution, signée le 17 septembre. Les États la ratifient en 1788. C'est la plus ancienne Constitution nationale écrite encore en vigueur.",
+        "Les premiers textes laissent l'État central trop faible : il ne peut pas lever d'impôts. À l'été 1787, 55 délégués se réunissent à Philadelphie et écrivent une Constitution, signée le 17 septembre. Elle est adoptée en 1788, une fois approuvée par neuf des treize États. C'est la plus ancienne Constitution nationale écrite encore en vigueur.",
       highlight: { value: '17 septembre 1787', label: 'signature de la Constitution' },
     },
     {
@@ -142,7 +142,7 @@ export default {
       kicker: 'Droits',
       title: 'Les oubliés de la liberté',
       body:
-        "La Constitution ne nomme pas l'esclavage, mais le protège : la traite ne peut pas être interdite avant 1808. Seuls des États du Nord commencent à l'abolir. Les femmes ne votent pas, les Amérindiens perdent leurs terres, et des dizaines de milliers de colons restés fidèles au roi, les loyalistes, s'exilent, surtout au Canada.",
+        "La Constitution ne nomme pas l'esclavage, mais le protège : la traite ne peut pas être interdite avant 1808. Seuls quelques États du Nord commencent à l'abolir. Les femmes ne votent pas, les Amérindiens perdent leurs terres, et des dizaines de milliers de colons restés fidèles au roi, les loyalistes, s'exilent, surtout au Canada.",
     },
     {
       id: 'bill-of-rights',

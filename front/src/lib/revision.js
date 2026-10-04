@@ -2,7 +2,8 @@
  * revision.js — Construction des paquets de cartes de révision
  * =============================================================
  * Chaque civilisation a un chapitre :
- *   - rédigé à la main s'il existe dans src/data/revision/ (ex. France capétienne) ;
+ *   - rédigé à la main s'il existe dans src/data/revision/ : il est chargé à la
+ *     demande (lib/chapters.js) puis passé dans ref.hand ;
  *   - sinon généré automatiquement à partir de ses données (dates, dirigeants…).
  *
  * Deux niveaux de cartes :
@@ -12,14 +13,13 @@
  * Types de cartes :
  *   cover · text · keyfigure · dates · steps · map · leaders · person · war · lineage · recap
  */
-import { HANDWRITTEN } from '../data/revision'
+import { chapterMeta } from './chapters'
 import PRESENCE from '../data/map-presence.json'
 import { formatDuration, formatYear } from './time'
 
 /** Toutes les cartes (niveaux 1 et 2) d'une civilisation, avec couverture et bilan. */
 export function chapterCards(ref) {
-  const { civ } = ref
-  const hand = HANDWRITTEN[civ.id]
+  const { civ, hand } = ref
   const body = hand ? hand.cards : autoCards(ref)
   const cover = { id: 'cover', tier: 0, type: 'cover', readingTime: hand?.readingTime ?? Math.max(2, Math.round(body.length / 3)) }
   const lineage = civ.lineage ? [{ id: 'lineage', tier: 1, type: 'lineage' }] : []
@@ -28,7 +28,7 @@ export function chapterCards(ref) {
 }
 
 export function isHandwritten(civId) {
-  return !!HANDWRITTEN[civId]
+  return !!chapterMeta(civId)
 }
 
 /**
@@ -55,6 +55,9 @@ export function buildDeck(ref, { round = 0, toReview = [] } = {}) {
 
 /** Nombre de cartes de chaque niveau (affiché dans le hub). */
 export function chapterSize(ref) {
+  // Chapitre rédigé pas encore chargé (listes) : tailles précalculées
+  const meta = !ref.hand && chapterMeta(ref.civ.id)
+  if (meta) return { tier1: meta.tier1 + (ref.civ.lineage ? 1 : 0), tier2: meta.tier2 }
   const all = chapterCards(ref)
   return { tier1: all.filter((c) => c.tier === 1).length, tier2: all.filter((c) => c.tier === 2).length }
 }

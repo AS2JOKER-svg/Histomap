@@ -45,8 +45,8 @@ export default defineConfig({
         // Fichiers séparés : une mise à jour du contenu ne force pas
         // le re-téléchargement des librairies (et inversement).
         manualChunks(id) {
-          // Chapitres rédigés : chargés seulement avec « On avance »
-          if (id.includes('src/data/revision/')) return 'chapters'
+          // Chapitres rédigés : un fichier par chapitre, chargé à la demande (lib/chapters.js)
+          if (id.includes('src/data/revision/')) return undefined
           if (id.includes('src/data/')) return 'data'
           // d3 + topojson : chargés uniquement avec la carte
           if (/node_modules\/(d3-|topojson|delaunator|robust-predicates)/.test(id)) return 'map-vendor'

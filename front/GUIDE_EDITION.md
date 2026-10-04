@@ -67,16 +67,14 @@ Après `npm run data`, tous les membres prennent la même couleur (frise, carte,
 « ← Avant / La suite → » (champ `lineage` généré dans `epochs.json`). Une civilisation n'appartient qu'à une lignée.
 
 ### Écrire un chapitre de révision (« On avance »)
-**Chapitres rédigés à ce jour (51)** :
-- Préhistoire (2) : Europe paléolithique · Europe néolithique
-- Antiquité (16) : Égypte antique · Carthage · Royaume de Koush (Nubie) · Minoens & Mycéniens · Grèce antique · Étrusques · Rome antique · Celtes / Gaulois · Mésopotamie · Empire perse achéménide · Empire hittite · Phéniciens · Israël et Juda (Hébreux) · Empire Maurya (Inde) · Chine (Qin & Han) · Olmèques
-- Moyen Âge (15) : Empire byzantin · Royaume franc · France (Capétiens) · Saint-Empire Romain Germanique · Angleterre · Scandinavie (Vikings) · Rus' de Kiev · Al-Andalus · Califat islamique · Empire mongol · Chine (Tang & Song) · Japon féodal (Samouraïs) · Empire Khmer · Empire du Mali · Civilisation maya (Époque classique)
-- Époque moderne (10) : Empire espagnol · France (Ancien Régime) · Provinces-Unies (Siècle d'Or) · Empire ottoman · Empire moghol · Empire Safavide · Chine (Ming & Qing) · Japon (Époque d'Edo) · Empire aztèque · Empire inca
-- Époque contemporaine (8) : France · Royaume-Uni · Allemagne · Russie / URSS · États-Unis d'Amérique (Superpuissance) · Chine (République & Populaire) · Japon (Meiji à nos jours) · Inde (Raj et Indépendance)
+**Les 105 civilisations ont un chapitre rédigé** (cartes + quiz + bilan) dans `src/data/revision/<id>.js`.
+Sans fichier, une civilisation aurait un chapitre **généré automatiquement** à partir de ses données
+(c'est le cas d'une nouvelle civilisation ajoutée aux données, tant qu'on n'a pas écrit son chapitre).
 
-Chaque civilisation a un chapitre **généré automatiquement** à partir de ses données. Pour un chapitre
-**rédigé à la main** (meilleure qualité) : copier `src/data/revision/france-capet.js`, l'adapter, puis
-l'enregistrer dans `src/data/revision/index.js`.
+Pour écrire ou réécrire un chapitre : copier `src/data/revision/carthage.js` sous le nom `<id de la civilisation>.js`
+et l'adapter. **Pas d'enregistrement à faire** : `scripts/build-revision-index.mjs` (lancé par `npm run data` et avant
+chaque build) régénère `src/data/revision/index.js` et `src/data/revision-meta.json`. Sur le site, chaque chapitre est
+un petit fichier chargé seulement quand on l'ouvre (`src/lib/chapters.js`).
 - `tier: 1` = premier passage (l'essentiel) ; `tier: 2` = nouvelles cartes quand on reprend le chapitre.
 - Types de cartes : `text` (titre + texte + chiffre mis en avant), `keyfigure` (grand chiffre), `dates`,
   `steps` (schéma en étapes), `map` (mini-carte, `years: [...]`), `war`, `person`, `leaders`.

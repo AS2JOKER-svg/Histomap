@@ -16,7 +16,6 @@
  *   order { prompt, items[] (dans le bon ordre), explanation? } (remettre dans l'ordre)
  *   map   { prompt, year, civId, options[], answer }          (carte + QCM)
  */
-import { HANDWRITTEN } from '../data/revision'
 import PRESENCE from '../data/map-presence.json'
 import { getEpochs } from './data'
 import { formatDuration, formatYear } from './time'
@@ -97,7 +96,7 @@ const ALL = getEpochs().flatMap((epoch) =>
 /** Réservoir complet de questions d'une civilisation. */
 export function questionPool(ref) {
   const { civ, epoch, continent } = ref
-  const hand = (HANDWRITTEN[civ.id]?.quiz ?? []).map((q) => ({ ...q, id: `hand-${q.id}` }))
+  const hand = (ref.hand?.quiz ?? []).map((q) => ({ ...q, id: `hand-${q.id}` }))
   return [...hand, ...autoQuestions(civ, epoch, continent)].filter(Boolean)
 }
 

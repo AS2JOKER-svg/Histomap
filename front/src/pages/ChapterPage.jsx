@@ -1,5 +1,4 @@
 import { useEffect, useMemo, useState } from 'react'
-import { createPortal } from 'react-dom'
 import { Link, useNavigate, useParams } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { getCivilization } from '../lib/data'
@@ -8,6 +7,7 @@ import { useProgress } from '../store/progress'
 import useDocumentTitle from '../lib/useDocumentTitle'
 import Icon from '../components/ui/Icon'
 import CardDeck from '../components/revision/CardDeck'
+import ChapterGate from '../components/revision/ChapterGate'
 import NotFoundPage from './NotFoundPage'
 
 /**
@@ -19,7 +19,11 @@ export default function ChapterPage() {
   const ref = getCivilization(epochId, civId)
   useDocumentTitle(ref ? `Réviser · ${ref.civ.label}` : 'Chapitre introuvable')
   if (!ref) return <NotFoundPage title="Chapitre introuvable" text="Cette civilisation n'existe pas dans cette époque." />
-  return createPortal(<Chapter key={civId} refCiv={ref} />, document.body)
+  return (
+    <ChapterGate key={civId} refCiv={ref}>
+      {(full) => <Chapter refCiv={full} />}
+    </ChapterGate>
+  )
 }
 
 function Chapter({ refCiv }) {

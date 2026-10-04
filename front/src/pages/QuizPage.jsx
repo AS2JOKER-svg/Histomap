@@ -1,5 +1,4 @@
 import { useEffect, useMemo, useState } from 'react'
-import { createPortal } from 'react-dom'
 import { Link, useNavigate, useParams } from 'react-router-dom'
 import { AnimatePresence, motion } from 'framer-motion'
 import { getCivilization } from '../lib/data'
@@ -10,6 +9,7 @@ import { useProgress } from '../store/progress'
 import useDocumentTitle from '../lib/useDocumentTitle'
 import Icon from '../components/ui/Icon'
 import QuestionView from '../components/quiz/QuestionView'
+import ChapterGate from '../components/revision/ChapterGate'
 import NotFoundPage from './NotFoundPage'
 
 /**
@@ -22,7 +22,11 @@ export default function QuizPage() {
   const ref = getCivilization(epochId, civId)
   useDocumentTitle(ref ? `Quiz · ${ref.civ.label}` : 'Quiz introuvable')
   if (!ref) return <NotFoundPage title="Quiz introuvable" />
-  return createPortal(<Quiz key={civId} refCiv={ref} />, document.body)
+  return (
+    <ChapterGate key={civId} refCiv={ref}>
+      {(full) => <Quiz refCiv={full} />}
+    </ChapterGate>
+  )
 }
 
 function Quiz({ refCiv }) {

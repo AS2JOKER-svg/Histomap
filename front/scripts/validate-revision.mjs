@@ -2,10 +2,18 @@
 // structure des cartes, questions de quiz (bonne réponse existante, options
 // uniques…), ids uniques, années de carte disponibles.
 // Usage : node scripts/validate-revision.mjs  (lancé par `npm run validate`)
+//         node scripts/validate-revision.mjs src/data/revision/x.js …  (fichiers précis,
+//         même s'ils ne sont pas encore enregistrés dans index.js)
 import { readFileSync } from 'fs'
 import { fileURLToPath } from 'url'
-import { dirname, join } from 'path'
-import { HANDWRITTEN } from '../src/data/revision/index.js'
+import { dirname, join, resolve, basename } from 'path'
+import { pathToFileURL } from 'url'
+import { HANDWRITTEN as REGISTERED } from '../src/data/revision/index.js'
+
+const files = process.argv.slice(2)
+const HANDWRITTEN = files.length
+  ? Object.fromEntries(await Promise.all(files.map(async (f) => [basename(f, '.js'), (await import(pathToFileURL(resolve(f)).href)).default])))
+  : REGISTERED
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const epochs = JSON.parse(readFileSync(join(__dirname, '..', 'src', 'data', 'epochs.json'), 'utf-8'))

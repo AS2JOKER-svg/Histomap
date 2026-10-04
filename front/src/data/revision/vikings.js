@@ -1,0 +1,173 @@
+/** Chapitre rédigé : Scandinavie à l'âge des Vikings (793 – 1066). */
+export default {
+  readingTime: 5,
+  cards: [
+    // ── Niveau 1 ──
+    {
+      id: 'lindisfarne',
+      tier: 1,
+      type: 'text',
+      kicker: 'Création',
+      title: '793 : la terreur venue de la mer',
+      body:
+        "En 793, des pillards venus de Scandinavie attaquent le monastère de Lindisfarne, sur une île du nord-est de l'Angleterre. Les moines sont tués ou emmenés comme esclaves. C'est le début de l'« âge des Vikings ». Ces hommes viennent des actuels Danemark, Norvège et Suède.",
+      highlight: { value: '793', label: 'pillage du monastère de Lindisfarne' },
+    },
+    {
+      id: 'navires',
+      tier: 1,
+      type: 'text',
+      kicker: 'Découvertes',
+      title: 'Des navires exceptionnels',
+      body:
+        "Les navires longs vikings (qu'on appelle aujourd'hui « drakkars ») avancent à la voile et à la rame. Légers et peu profonds, ils traversent la mer du Nord mais remontent aussi les fleuves, comme la Seine, jusqu'au cœur des royaumes. Pour le commerce, les Vikings utilisent des cargos plus larges, les knörrs.",
+    },
+    {
+      id: 'carte',
+      tier: 1,
+      type: 'map',
+      kicker: 'Territoire',
+      title: 'Les Vikings sur la carte',
+      years: [800, 900, 1000],
+      caption: "Comparez : partis de Scandinavie, les Vikings s'installent peu à peu en Angleterre, en Normandie, en Islande et jusqu'au Groenland.",
+    },
+    {
+      id: 'expeditions',
+      tier: 1,
+      type: 'dates',
+      kicker: 'Expansion',
+      title: 'Pillards, puis colons',
+      items: [
+        { year: 793, label: 'Pillage de Lindisfarne' },
+        { year: 845, label: 'Paris pillée ; le roi Charles le Chauve paie pour que les Vikings repartent' },
+        { year: 865, label: 'La « Grande Armée » débarque en Angleterre' },
+        { year: 911, label: 'Selon la tradition, le chef Rollon reçoit la future Normandie' },
+        { year: 1000, label: 'Vers l’an 1000 : Leif Erikson atteint l’Amérique du Nord' },
+      ],
+    },
+    {
+      id: 'dieux',
+      tier: 1,
+      type: 'text',
+      kicker: 'Croyances',
+      title: 'Odin, Thor et le Valhalla',
+      body:
+        "Les Vikings honorent de nombreux dieux : Odin, le dieu borgne de la sagesse et de la guerre, Thor et son marteau qui fait gronder le tonnerre, Freyja, déesse de l'amour et de la fécondité. Selon les mythes, des guerriers morts au combat rejoignent le Valhalla, le palais d'Odin.",
+    },
+    {
+      id: 'leif',
+      tier: 1,
+      type: 'person',
+      nom: 'Leif Erikson',
+      role: 'Explorateur viking, né en Islande',
+      dates: 'vers 970 – vers 1020',
+      description: "Fils d'Erik le Rouge, fondateur des colonies du Groenland, il atteint vers l'an 1000 une terre qu'il nomme Vinland, en Amérique du Nord. Un village viking a été retrouvé à L'Anse aux Meadows, à Terre-Neuve : la preuve que les Vikings ont devancé Colomb de près de cinq siècles.",
+    },
+    {
+      id: 'societe',
+      tier: 1,
+      type: 'text',
+      kicker: 'Société',
+      title: 'Jarls, hommes libres et esclaves',
+      body:
+        "La société viking compte des chefs riches (les jarls), des hommes libres paysans, artisans ou marchands, et des esclaves. Les hommes libres se réunissent dans une assemblée, le thing, pour juger et prendre des décisions. En Islande, l'Althing se réunit à partir de 930.",
+    },
+    {
+      id: 'runes',
+      tier: 1,
+      type: 'keyfigure',
+      kicker: 'Culture',
+      value: '16',
+      label: 'signes dans l’alphabet runique de l’époque viking',
+      caption: "Les runes sont gravées sur le bois, l'os ou la pierre. Vers 965, le roi danois Harald à la Dent bleue fait graver à Jelling une grande pierre qui célèbre la conversion du Danemark au christianisme.",
+    },
+    {
+      id: 'stamford',
+      tier: 1,
+      type: 'war',
+      nom: 'Bataille de Stamford Bridge',
+      annee: 1066,
+      adversaires: ['Royaume d’Angleterre (Harold Godwinson)'],
+      allies: ['Norvégiens de Harald Hardrada', 'Tostig, frère rebelle d’Harold'],
+      vainqueur: 'Les Anglais',
+      consequences: "Le roi de Norvège Harald Hardrada est tué. On date souvent de cette défaite la fin de l'âge des Vikings. Trois semaines plus tard, Harold est vaincu à Hastings par Guillaume de Normandie, lui-même descendant de Rollon.",
+    },
+
+    // ── Niveau 2 ──
+    {
+      id: 'danelaw',
+      tier: 2,
+      type: 'text',
+      kicker: 'Fluctuations',
+      title: 'Le Danelaw et le Danegeld',
+      body:
+        "À partir de 865, la Grande Armée viking conquiert une grande partie de l'Angleterre. Le roi Alfred le Grand du Wessex lui résiste et la bat en 878. Le nord-est de l'Angleterre devient le Danelaw, sous loi danoise. Pour éviter les raids, les rois paient souvent un lourd tribut en argent : le Danegeld.",
+    },
+    {
+      id: 'paris',
+      tier: 2,
+      type: 'war',
+      nom: 'Siège de Paris',
+      annee: 885,
+      adversaires: ['Vikings remontant la Seine'],
+      allies: ['Défenseurs de Paris (le comte Eudes et l’évêque Gozlin)'],
+      vainqueur: 'Paris résiste',
+      consequences: "Pendant près d'un an, la ville, alors sur l'île de la Cité, tient bon. L'empereur Charles le Gros préfère payer les Vikings et les laisser piller la Bourgogne. Le héros du siège, Eudes, est élu roi en 888.",
+    },
+    {
+      id: 'vareges',
+      tier: 2,
+      type: 'text',
+      kicker: 'Expansion',
+      title: 'Les Varègues, Vikings de l’Est',
+      body:
+        "Les Vikings de Suède, appelés Varègues, descendent les fleuves de l'actuelle Russie jusqu'à la mer Noire et la mer Caspienne. Ils commercent avec Byzance et le monde musulman : on a retrouvé en Scandinavie des milliers de pièces d'argent arabes. À Constantinople, l'empereur recrute une garde varangienne.",
+    },
+    {
+      id: 'knut',
+      tier: 2,
+      type: 'person',
+      nom: 'Knut le Grand',
+      role: 'Roi d’Angleterre, du Danemark et de Norvège',
+      dates: 'règne 1016 – 1035',
+      description: "Ce prince danois devient roi d'Angleterre en 1016, puis du Danemark et de Norvège. Il règne ainsi sur un empire autour de la mer du Nord. Chrétien, il gouverne l'Angleterre avec les grands du pays, mais son empire se disloque après sa mort.",
+    },
+    {
+      id: 'fin',
+      tier: 2,
+      type: 'text',
+      kicker: 'Fin',
+      title: 'Des pillards aux royaumes chrétiens',
+      body:
+        "Aux Xe et XIe siècles, les rois scandinaves se convertissent au christianisme ; en Islande, l'Althing l'adopte vers l'an 1000. Danemark, Norvège et Suède deviennent des royaumes chrétiens comme les autres. Les Vikings laissent des mots en anglais (sky, egg) et des noms de lieux en Normandie (Honfleur, Caudebec).",
+    },
+  ],
+
+  quiz: [
+    { id: 'lindisfarne', type: 'mcq', prompt: 'Que pillent les Vikings à Lindisfarne en 793 ?', options: ['Un monastère', 'Un château royal', 'Une capitale', 'Un port romain'], answer: 0 },
+    { id: 'origine', type: 'mcq', prompt: 'D’où viennent les Vikings ?', options: ['De Scandinavie', 'D’Allemagne', 'D’Écosse', 'Des steppes d’Asie'], answer: 0 },
+    { id: 'un-peuple', type: 'tf', prompt: 'Les Vikings forment un seul royaume dirigé par un seul roi.', answer: false, explanation: 'Ils viennent de plusieurs régions (Danemark, Norvège, Suède) et suivent de nombreux chefs différents.' },
+    { id: 'fleuves', type: 'tf', prompt: 'Les navires vikings sont assez légers pour remonter les fleuves.', answer: true },
+    { id: 'odin', type: 'mcq', prompt: 'Quel dieu borgne est le dieu de la sagesse et de la guerre ?', options: ['Odin', 'Thor', 'Loki', 'Freyja'], answer: 0 },
+    { id: 'thor', type: 'mcq', prompt: 'Quel dieu viking possède un marteau et fait gronder le tonnerre ?', options: ['Thor', 'Odin', 'Baldr', 'Zeus'], answer: 0 },
+    { id: 'valhalla', type: 'mcq', prompt: 'Comment s’appelle le palais d’Odin où vont, selon les mythes, des guerriers morts au combat ?', options: ['Le Valhalla', 'L’Olympe', 'Le Ragnarök', 'Le Styx'], answer: 0 },
+    { id: 'thing', type: 'mcq', prompt: 'Comment s’appelle l’assemblée des hommes libres chez les Vikings ?', options: ['Le thing', 'Le sénat', 'Le conclave', 'La curie'], answer: 0 },
+    { id: 'runes', type: 'mcq', prompt: 'Comment s’appellent les signes d’écriture des Vikings ?', options: ['Les runes', 'Les hiéroglyphes', 'Les idéogrammes', 'Les lettres cyrilliques'], answer: 0 },
+    { id: 'danegeld', type: 'mcq', prompt: 'Qu’est-ce que le Danegeld ?', options: ['Un tribut payé aux Vikings pour éviter leurs raids', 'Un navire de guerre', 'Une pierre runique', 'Un dieu danois'], answer: 0 },
+    { id: 'alfred', type: 'mcq', prompt: 'Quel roi anglo-saxon résiste à la Grande Armée viking ?', options: ['Alfred le Grand', 'Harold Godwinson', 'Guillaume le Conquérant', 'Richard Cœur de Lion'], answer: 0 },
+    { id: 'eudes', type: 'mcq', prompt: 'Qui défend Paris lors du siège viking de 885-886 ?', options: ['Le comte Eudes', 'Charlemagne', 'Clovis', 'Hugues Capet'], answer: 0 },
+    { id: 'rollon', type: 'mcq', prompt: 'Quel chef viking reçoit la future Normandie en 911 ?', options: ['Rollon', 'Ragnar', 'Knut', 'Leif Erikson'], answer: 0 },
+    { id: 'vinland', type: 'mcq', prompt: 'Quelle terre Leif Erikson atteint-il vers l’an 1000 ?', options: ['L’Amérique du Nord', 'L’Inde', 'L’Afrique du Sud', 'L’Australie'], answer: 0 },
+    { id: 'knut', type: 'mcq', prompt: 'Sur quels royaumes règne Knut le Grand ?', options: ['Angleterre, Danemark et Norvège', 'France et Germanie', 'Islande et Groenland', 'Byzance et Kiev'], answer: 0 },
+    { id: 'vareges', type: 'tf', prompt: 'Les Varègues, Vikings de l’Est, commercent jusqu’à Byzance.', answer: true },
+    { id: 'stamford', type: 'mcq', prompt: 'Quel roi de Norvège meurt à Stamford Bridge en 1066 ?', options: ['Harald Hardrada', 'Knut le Grand', 'Harald à la Dent bleue', 'Olaf Tryggvason'], answer: 0 },
+    { id: 'ordre', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Pillage de Lindisfarne', 'Siège de Paris', 'Fondation de la Normandie', 'Bataille de Stamford Bridge'] },
+  ],
+
+  recap: [
+    '793 : le pillage de Lindisfarne ouvre l’âge des Vikings',
+    'Des navires légers pour piller, commercer et explorer',
+    'Normandie, Danelaw, Islande, Vinland : des pillards devenus colons',
+    '1066 : défaite de Stamford Bridge, fin de l’âge viking',
+  ],
+}

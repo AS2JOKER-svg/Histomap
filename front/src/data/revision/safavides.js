@@ -1,0 +1,171 @@
+/** Chapitre rédigé : Empire safavide (1501 – 1736). */
+export default {
+  readingTime: 5,
+  cards: [
+    // ── Niveau 1 ──
+    {
+      id: 'ismail',
+      tier: 1,
+      type: 'text',
+      kicker: 'Création',
+      title: 'Un jeune chef devient chah',
+      body:
+        "Ismaïl est le chef d'un ordre religieux soufi né à Ardabil, au nord-ouest de l'Iran. Ses guerriers turkmènes, les Qizilbash (« têtes rouges », à cause de leur bonnet rouge), lui sont dévoués. En 1501, à environ 14 ans, il prend Tabriz et se proclame chah, c'est-à-dire roi.",
+      highlight: { value: '1501', label: 'Ismaïl Ier devient chah à Tabriz' },
+    },
+    {
+      id: 'chiisme',
+      tier: 1,
+      type: 'text',
+      kicker: 'Croyances',
+      title: "Le chiisme, religion d'État",
+      body:
+        "Ismaïl impose le chiisme duodécimain, qui vénère douze imams descendants d'Ali, gendre du prophète Mahomet. La population, majoritairement sunnite, est convertie, souvent par la contrainte, sur plusieurs générations. Aujourd'hui encore, l'Iran est le grand pays chiite du monde musulman.",
+    },
+    {
+      id: 'carte',
+      tier: 1,
+      type: 'map',
+      kicker: 'Territoire',
+      title: 'La Perse entre deux rivaux',
+      years: [1530, 1650],
+      caption: "Coincé entre les Ottomans sunnites à l'ouest et les Ouzbeks à l'est, l'empire s'étend du Caucase au golfe Persique.",
+    },
+    {
+      id: 'tchaldiran',
+      tier: 1,
+      type: 'war',
+      nom: 'Bataille de Tchaldiran',
+      annee: 1514,
+      adversaires: ['Empire ottoman de Sélim Ier'],
+      allies: ['Cavaliers qizilbash du chah Ismaïl'],
+      vainqueur: 'Empire ottoman',
+      consequences: "Les canons et les arquebuses des janissaires écrasent la cavalerie perse. Les Ottomans occupent un temps Tabriz. La frontière entre les deux empires reste disputée pendant plus d'un siècle.",
+    },
+    {
+      id: 'abbas',
+      tier: 1,
+      type: 'person',
+      nom: 'Abbas Ier le Grand',
+      role: 'Chah de Perse',
+      dates: 'règne 1588 – 1629',
+      description: "Il réduit le pouvoir des chefs qizilbash, crée une armée de soldats-esclaves (ghulams) et de mousquetaires, et reprend aux Ottomans les terres perdues, dont Bagdad (1623). Il fait d'Ispahan sa capitale en 1598.",
+    },
+    {
+      id: 'ispahan',
+      tier: 1,
+      type: 'text',
+      kicker: "Âge d'or",
+      title: '« Ispahan, la moitié du monde »',
+      body:
+        "Abbas Ier embellit Ispahan : une immense place, Naqsh-e Jahan, entourée de bazars, du palais d'Ali Qapu et de la mosquée du Chah aux coupoles couvertes de céramiques bleues. Un dicton persan affirme qu'Ispahan est « la moitié du monde ».",
+    },
+    {
+      id: 'place',
+      tier: 1,
+      type: 'keyfigure',
+      kicker: 'Merveille',
+      value: '> 500 m',
+      label: 'de long pour la place Naqsh-e Jahan',
+      caption: "L'une des plus grandes places du monde. On y jouait au polo devant le chah ; elle est aujourd'hui inscrite au patrimoine mondial de l'Unesco.",
+    },
+    {
+      id: 'tapis',
+      tier: 1,
+      type: 'text',
+      kicker: 'Culture',
+      title: 'Tapis, soie et miniatures',
+      body:
+        "Les ateliers royaux tissent de somptueux tapis de laine et de soie, exportés jusqu'en Europe. Les peintres illustrent des manuscrits de miniatures, comme le célèbre Livre des rois (Shahnameh) du chah Tahmasp. La soie brute est la grande richesse de l'empire.",
+    },
+    {
+      id: 'chute',
+      tier: 1,
+      type: 'dates',
+      kicker: 'Fin',
+      title: "La fin de l'empire",
+      items: [
+        { year: 1722, label: 'Des Afghans assiègent Ispahan, qui capitule après des mois de famine' },
+        { year: 1729, label: 'Le général Nader chasse les Afghans' },
+        { year: 1736, label: 'Nader se fait proclamer chah : fin des Safavides' },
+      ],
+    },
+
+    // ── Niveau 2 ──
+    {
+      id: 'armeniens',
+      tier: 2,
+      type: 'text',
+      kicker: 'Société',
+      title: 'Les marchands arméniens',
+      body:
+        "Vers 1604-1605, Abbas Ier déporte des milliers d'Arméniens de la ville de Djoulfa et les installe près d'Ispahan, dans un quartier nommé la Nouvelle-Djoulfa. Chrétiens, ils gardent leurs églises et deviennent les grands marchands de la soie persane, d'Amsterdam jusqu'à l'Inde.",
+    },
+    {
+      id: 'europe',
+      tier: 2,
+      type: 'text',
+      kicker: 'Monde',
+      title: "Des alliés contre l'ennemi ottoman",
+      body:
+        "Les chahs cherchent des alliés européens contre les Ottomans. Deux aventuriers anglais, les frères Shirley, conseillent Abbas Ier. En 1622, avec l'aide de navires anglais, les Perses chassent les Portugais d'Ormuz, port clé du golfe Persique.",
+    },
+    {
+      id: 'zuhab',
+      tier: 2,
+      type: 'war',
+      nom: 'Traité de Zuhab',
+      annee: 1639,
+      adversaires: ['Empire ottoman'],
+      allies: ['Empire safavide'],
+      vainqueur: 'Empire ottoman',
+      consequences: "Après la reprise de Bagdad par les Ottomans (1638), la paix fixe une frontière proche de la limite actuelle entre l'Iran et l'Irak. Elle ouvre une longue période de paix entre les deux empires.",
+    },
+    {
+      id: 'mulla-sadra',
+      tier: 2,
+      type: 'person',
+      nom: 'Mollâ Sadrâ',
+      role: 'Philosophe',
+      dates: 'vers 1571 – 1640',
+      description: "Né à Chiraz, il est considéré comme le plus grand philosophe iranien de l'époque moderne. Il cherche à réunir philosophie, mystique et religion. Il enseigne dans une école fondée par le gouverneur de Chiraz.",
+    },
+    {
+      id: 'heritage',
+      tier: 2,
+      type: 'text',
+      kicker: 'Héritage',
+      title: "La naissance de l'Iran moderne",
+      body:
+        "Les Safavides donnent à l'Iran des frontières proches des actuelles, une identité chiite et une langue de culture, le persan. Les voyageurs européens, comme le joaillier français Jean Chardin, décrivent la splendeur de la cour d'Ispahan.",
+    },
+  ],
+
+  quiz: [
+    { id: 'fondateur', type: 'mcq', prompt: 'Qui fonde la dynastie safavide ?', options: ['Ismaïl Ier', 'Abbas Ier', 'Nader Chah', 'Sélim Ier'], answer: 0 },
+    { id: 'tabriz', type: 'mcq', prompt: 'Quelle ville Ismaïl prend-il en 1501 pour se proclamer chah ?', options: ['Tabriz', 'Ispahan', 'Bagdad', 'Téhéran'], answer: 0 },
+    { id: 'chah', type: 'mcq', prompt: 'Que signifie le titre de « chah » ?', options: ['Roi', 'Prêtre', 'Général', 'Marchand'], answer: 0 },
+    { id: 'qizilbash', type: 'mcq', prompt: 'Pourquoi les guerriers d’Ismaïl sont-ils appelés « Qizilbash » ?', options: ['Ils portent un bonnet rouge', 'Ils combattent à dos de chameau', 'Ils viennent de Chine', 'Ils sont tous archers'], answer: 0 },
+    { id: 'religion', type: 'mcq', prompt: 'Quelle forme de l’islam les Safavides imposent-ils ?', options: ['Le chiisme duodécimain', 'Le sunnisme', "L'ibadisme", 'Le zoroastrisme'], answer: 0 },
+    { id: 'chiite', type: 'tf', prompt: 'Avant les Safavides, la majorité des habitants de l’Iran étaient sunnites.', answer: true },
+    { id: 'tchaldiran', type: 'mcq', prompt: 'Qui remporte la bataille de Tchaldiran en 1514 ?', options: ['Les Ottomans', 'Les Safavides', 'Les Ouzbeks', 'Les Moghols'], answer: 0 },
+    { id: 'tchaldiran-arme', type: 'mcq', prompt: 'Quelle arme donne l’avantage aux Ottomans à Tchaldiran ?', options: ['Les armes à feu', 'Les éléphants', 'Les catapultes', 'Les chars à faux'], answer: 0 },
+    { id: 'abbas', type: 'mcq', prompt: 'Quel chah est surnommé « le Grand » ?', options: ['Abbas Ier', 'Ismaïl Ier', 'Tahmasp Ier', 'Hussein'], answer: 0 },
+    { id: 'capitale', type: 'mcq', prompt: 'Quelle ville Abbas Ier choisit-il comme capitale en 1598 ?', options: ['Ispahan', 'Tabriz', 'Chiraz', 'Samarcande'], answer: 0 },
+    { id: 'moitie', type: 'mcq', prompt: 'Quelle ville est surnommée « la moitié du monde » ?', options: ['Ispahan', 'Istanbul', 'Bagdad', 'Delhi'], answer: 0 },
+    { id: 'armeniens', type: 'mcq', prompt: 'Quels marchands chrétiens Abbas Ier installe-t-il près d’Ispahan ?', options: ['Des Arméniens', 'Des Vénitiens', 'Des Grecs', 'Des Portugais'], answer: 0 },
+    { id: 'ormuz', type: 'mcq', prompt: 'À qui les Perses reprennent-ils Ormuz en 1622 ?', options: ['Aux Portugais', 'Aux Ottomans', 'Aux Anglais', 'Aux Hollandais'], answer: 0 },
+    { id: 'shirley', type: 'tf', prompt: 'Des aventuriers anglais, les frères Shirley, conseillent le chah Abbas Ier.', answer: true },
+    { id: 'bagdad', type: 'tf', prompt: 'Les Safavides conservent Bagdad jusqu’à la fin de leur empire.', answer: false, explanation: 'Les Ottomans reprennent Bagdad en 1638 ; le traité de Zuhab (1639) la leur laisse.' },
+    { id: 'afghans', type: 'mcq', prompt: 'Qui assiège et prend Ispahan en 1722 ?', options: ['Des Afghans', 'Des Russes', 'Des Moghols', 'Des Ottomans'], answer: 0 },
+    { id: 'nader', type: 'mcq', prompt: 'Quel général met fin à la dynastie safavide en 1736 ?', options: ['Nader', 'Tamerlan', 'Babur', 'Soliman'], answer: 0 },
+    { id: 'ordre', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Ismaïl Ier prend Tabriz', 'Bataille de Tchaldiran', 'Ispahan devient capitale', 'Siège d’Ispahan par les Afghans'] },
+  ],
+
+  recap: [
+    '1501 : Ismaïl Ier fonde la dynastie et impose le chiisme',
+    '1514 : défaite de Tchaldiran face aux Ottomans',
+    "Abbas Ier le Grand fait d'Ispahan « la moitié du monde »",
+    '1722-1736 : invasion afghane, puis Nader Chah prend le trône',
+  ],
+}

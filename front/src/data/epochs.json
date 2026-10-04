@@ -816,9 +816,7 @@
                 "adversaires": [
                   "Empire Romain (Préfecture d'Égypte)"
                 ],
-                "allies": [
-                  "Tribus Blemmyes"
-                ],
+                "allies": [],
                 "morts": "Milliers de légionnaires et nubiens",
                 "vainqueur": "Statu Quo (Traité de Samos)",
                 "consequences": "Rome abandonne son projet de conquête de la Nubie et annule les tributs imposés.",
@@ -1053,9 +1051,14 @@
                 "info": "Sur le continent, essor d'une élite guerrière indo-européenne bâtissant des citadelles cyclopéennes."
               },
               {
-                "annee": -1450,
+                "annee": -1600,
                 "evenement": "Éruption de Théra (Santorin)",
-                "info": "Cataclysme volcanique qui affaiblit les Minoens, menant à leur conquête par les Mycéniens."
+                "info": "Au XVIIe ou au XVIe siècle av. J.-C. (date discutée), le volcan ensevelit la ville d'Akrotiri. Son rôle dans le déclin minoen est discuté."
+              },
+              {
+                "annee": -1450,
+                "evenement": "Prise de Knossos",
+                "info": "Vers -1450, les Mycéniens s'installent en Crète et prennent le contrôle de Knossos."
               },
               {
                 "annee": -1200,
@@ -1297,7 +1300,7 @@
             "personnages": [],
             "sciences": "Grands ingénieurs hydrauliques, ils enseignent à Rome le drainage des marais (la Cloaca Maxima, l'égout géant de Rome, est une œuvre étrusque) et l'utilisation de l'arc de pierre en architecture (véritable fondement des futurs aqueducs romains). Excellents métallurgistes, ils exploitent le fer de l'île d'Elbe pour armer leurs redoutables flottes de pirates et commerçants.",
             "croyancesText": "C'est une religion de la divination obsessionnelle, l'Etrusca disciplina. Les haruspices lisent le destin de l'État dans les foies des animaux sacrifiés (hépatoscopie) ou dans la trajectoire des éclairs. Leur panthéon (Tinia, Uni, Menrva) sera intégralement 'copié-collé' par Rome (Jupiter, Junon, Minerve). Leurs vastes nécropoles monumentales, peintes de banquets joyeux, célèbrent le culte des ancêtres.",
-            "diplomatie": "L'Étrurie n'est pas un empire centralisé mais une Dodécapole, une ligue religieuse de douze puissantes cités-États (Tarquinia, Cerveteri...). Leur division politique causera leur perte militaire. Ils scellent le traité de l'Alalia (-540) avec Carthage pour interdire aux Grecs de commercer en Méditerranée occidentale.",
+            "diplomatie": "L'Étrurie n'est pas un empire centralisé mais une Dodécapole, une ligue religieuse de douze puissantes cités-États (Tarquinia, Cerveteri...). Leur division politique causera leur perte militaire. Alliés à Carthage, ils affrontent les Grecs phocéens lors de la bataille navale d'Alalia (vers -540), au large de la Corse : les Grecs l'emportent peut-être, mais au prix de telles pertes qu'ils abandonnent la Corse ; l'issue réelle reste incertaine.",
             "guerres": [
               {
                 "nom": "Guerres romano-étrusques",
@@ -1514,7 +1517,7 @@
                 "wikiUrl": "https://fr.wikipedia.org/wiki/Brennus_(IVe_si%C3%A8cle_av._J.-C.)"
               }
             ],
-            "sciences": "Les barbares gaulois de César sont une fiction politique. Les Celtes sont de brillants ingénieurs agricoles : ils inventent la moissonneuse gauloise (vallus), la cotte de mailles en fer, le fer à cheval, le savon et le tonneau en bois (cerclé de fer, remplaçant l'amphore argileuse). Leurs routes de commerce en charriot pavées de rondins parcourent toute l'Europe.",
+            "sciences": "Les barbares gaulois de César sont une fiction politique. Les Celtes sont de brillants ingénieurs agricoles : ils inventent la moissonneuse gauloise (vallus), la cotte de mailles en fer et le tonneau en bois (cerclé de fer, remplaçant l'amphore argileuse). Leurs routes de commerce en charriot pavées de rondins parcourent toute l'Europe.",
             "croyancesText": "L'autorité suprême appartient à la caste sacerdotale des Druides. Ils sont juges, médecins, gardiens de la mémoire (transmise uniquement à l'oral par interdiction religieuse d'écrire) et de la loi. Ils célèbrent la sacralité de la nature (forêts, sources), décapitent les vaincus pour en conserver la tête (siège de l'âme) et pratiquent des sacrifices (animaux et ponctuellement humains) au dieu Toutatis, Esus ou Taranis.",
             "diplomatie": "Il n'y a pas 'un' empire gaulois, mais des dizaines de nations puissantes (Éduens, Arvernes, Carnutes). Leur incapacité à forger une union diplomatique durable est leur talon d'Achille. Les Éduens, rivaux des Arvernes, vont jusqu'à s'allier à Rome et appeler Jules César à l'aide, ouvrant sciemment les portes de la Gaule à la conquête romaine.",
             "guerres": [
@@ -2054,7 +2057,7 @@
               }
             ],
             "personnages": [],
-            "sciences": "Leur puissance s'appuie sur le monopole initial (jalousement gardé) du travail et de la trempe du fer, produisant des armes plus solides et moins cassantes que le bronze égyptien. Ils révolutionnent la charrerie militaire en construisant des chars à trois places (un conducteur, un lancier, un porte-bouclier), offrant une force de frappe écrasante sur le champ de bataille.",
+            "sciences": "Les Hittites savent travailler le fer, mais ce métal reste rare et précieux (offert en cadeau diplomatique) : leur armée combat surtout avec des armes en bronze. Ils révolutionnent la charrerie militaire en construisant des chars à trois places (un conducteur, un lancier, un porte-bouclier), offrant une force de frappe écrasante sur le champ de bataille.",
             "croyancesText": "L'État hittite pratique un syncrétisme de 'Le panthéon des Mille Dieux'. Lorsqu'ils conquièrent un peuple, ils intègrent ses dieux aux leurs pour s'attirer leurs faveurs. Le dieu central est Tarhunna (le Dieu de l'Orage), vénéré dans le grand sanctuaire rupestre de Yazılıkaya, symbole de la puissance de la tempête sur les arides plateaux anatoliens.",
             "diplomatie": "Ce sont les inventeurs du Droit international antique. Contrairement à l'Assyrie qui rase ses ennemis, les Hittites créent des traités de vassalité extrêmement complexes (avec clauses d'extradition, mariage, et obligations d'assistance militaire) gravés sur l'argile et l'argent. Le Traité de Qadesh (-1259) avec Ramsès II est exposé au siège de l'ONU à New York comme le premier pacte de non-agression.",
             "guerres": [
@@ -2127,11 +2130,10 @@
                 "nom": "Siège de Tyr par Alexandre",
                 "annee": -332,
                 "adversaires": [
-                  "Macédoine (Alexandre)"
+                  "Macédoine (Alexandre)",
+                  "Flottes de Sidon, Byblos et Chypre (ralliées à Alexandre)"
                 ],
-                "allies": [
-                  "Flotte Perse"
-                ],
+                "allies": [],
                 "morts": "8000 citoyens tués, 30 000 esclaves",
                 "vainqueur": "Macédoine",
                 "consequences": "Destruction de la ville et massacre. Déclin définitif de la Phénicie au profit d'Alexandrie d'Égypte.",
@@ -2281,7 +2283,7 @@
                 "wikiUrl": "https://fr.wikipedia.org/wiki/Ch%C3%A2nakya"
               }
             ],
-            "sciences": "Sous l'impulsion de l'Arthashastra, l'État maurya est une immense machine bureaucratique. L'Inde standardise les poids, mesures et monnaies. La médecine ayurvédique et la chirurgie de guerre se perfectionnent, et Pataliputra devient l'une des villes les plus immenses et majestueuses du monde, entourée de murailles en bois renforcé (pour résister aux séismes) avec 64 portes.",
+            "sciences": "Sous l'impulsion de l'Arthashastra, l'État maurya est une immense machine bureaucratique. L'Inde standardise les poids, mesures et monnaies. La médecine ayurvédique et la chirurgie de guerre se perfectionnent, et Pataliputra devient l'une des villes les plus immenses et majestueuses du monde, entourée, selon l'ambassadeur grec Mégasthène, d'une palissade de bois percée de 64 portes.",
             "croyancesText": "Le règne d'Ashoka est la plateforme de lancement mondiale du bouddhisme. Choqué par les atrocités de la guerre, l'empereur se convertit et instaure l'Ahimsa (la non-violence absolue envers les humains et les animaux). Il ne persécute pas l'Hindouisme ou le Jaïnisme, imposant au contraire une tolérance religieuse d'État révolutionnaire financée par le trésor impérial.",
             "diplomatie": "Avant Ashoka, la diplomatie repose sur l'espionnage paranoïaque et les armées d'éléphants. Après sa conversion, l'expansion militaire s'arrête net. Ashoka envoie alors des missionnaires (ambassadeurs religieux) vers la Perse, la Syrie, l'Égypte gréco-macédonienne et au Sri Lanka pour prêcher le Dharma, substituant la conquête militaire par le soft-power culturel.",
             "guerres": [
@@ -2676,8 +2678,8 @@
             ],
             "dirigeants": [],
             "personnages": [],
-            "sciences": "Leur génie logistique frappe encore aujourd'hui : ils ont taillé des 'Têtes Colossales' dans des blocs de basalte de 20 tonnes, et les ont transportées sur des dizaines de kilomètres à travers des jungles marécageuses sans roue ni animaux de trait. Ils inventent les fondements du compte long (le calendrier mésoaméricain basé sur l'observation de Vénus) et vulcanisent de manière empirique la sève de l'hévéa pour fabriquer les premières balles rebondissantes en caoutchouc.",
-            "croyancesText": "L'art olmèque exprime une cosmologie complexe et chamanique. Le Jaguar y est l'animal suprême de la nuit et de la pluie, souvent représenté en fusion avec les traits d'un enfant humain pleurant (le 'Were-Jaguar'). Le souverain agirait comme un chamane capable de voyager dans le monde des esprits par des transes (trépanation, psychotropes) pour obtenir la clémence des dieux de la pluie.",
+            "sciences": "Leur génie logistique frappe encore aujourd'hui : ils ont taillé des 'Têtes Colossales' dans des blocs de basalte de 20 tonnes, et les ont transportées sur des dizaines de kilomètres à travers des jungles marécageuses sans roue ni animaux de trait. Ils vulcanisent de manière empirique la sève de l'hévéa pour fabriquer les premières balles rebondissantes en caoutchouc.",
+            "croyancesText": "L'art olmèque exprime une cosmologie complexe et chamanique. Le Jaguar y est l'animal suprême de la nuit et de la pluie, souvent représenté en fusion avec les traits d'un enfant humain pleurant (le 'Were-Jaguar'). Le souverain agirait comme un chamane capable de voyager dans le monde des esprits par des transes (peut-être à l'aide de substances psychotropes) pour obtenir la clémence des dieux de la pluie.",
             "diplomatie": "Il s'agit moins d'un empire militaire que d'un réseau de centres religieux (une hiérarchie de villes et de villages). Les Olmèques opèrent une domination culturelle et commerciale (pour l'importation de jade, d'obsidienne et de magnétite). Leur art devient le standard de prestige copié par toutes les autres tribus émergentes du continent (de la vallée du Mexique jusqu'au Honduras).",
             "guerres": [],
             "documentaires": [
@@ -3243,7 +3245,7 @@
               {
                 "annee": 1077,
                 "evenement": "Pénitence de Canossa",
-                "info": "L'Empereur, excommunié, supplie le Pape nu-pieds dans la neige."
+                "info": "Le roi Henri IV (couronné empereur seulement en 1084), excommunié, attend en habit de pénitent dans la neige, trois jours selon les chroniques, le pardon du pape Grégoire VII."
               },
               {
                 "annee": 1356,
@@ -3786,7 +3788,7 @@
               {
                 "annee": 1212,
                 "evenement": "Las Navas de Tolosa",
-                "info": "Défaite décisive contre les rois catholiques."
+                "info": "Défaite décisive des Almohades face à la coalition des royaumes chrétiens (Castille, Aragon, Navarre)."
               },
               {
                 "annee": 1492,
@@ -3834,15 +3836,15 @@
                 "nom": "Bataille de Las Navas de Tolosa",
                 "annee": 1212,
                 "adversaires": [
-                  "Coalition des rois d'Espagne",
+                  "Castille, Aragon et Navarre",
                   "Croisés européens"
                 ],
                 "allies": [
                   "Empire Almohade"
                 ],
-                "morts": "Boucherie dans les rangs almohades",
-                "vainqueur": "Chrétiens (Reconquista)",
-                "consequences": "La puissance militaire islamique est brisée définitivement. Le sud de l'Espagne s'ouvre à la reconquête chrétienne.",
+                "morts": "Très lourdes pertes dans les rangs almohades",
+                "vainqueur": "Royaumes chrétiens (Reconquista)",
+                "consequences": "La puissance militaire almohade en péninsule est brisée. Le sud de l'Espagne s'ouvre à la reconquête chrétienne.",
                 "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Las_Navas_de_Tolosa"
               }
             ],
@@ -4662,7 +4664,7 @@
               }
             ],
             "personnages": [],
-            "sciences": "Angkor n'est pas seulement un temple, c'est la plus grande mégalopole pré-industrielle du monde (environ un million d'habitants). Pour survivre à l'alternance mousson/sécheresse, ils créent une 'Cité Hydraulique' folle : des Barays. Des lacs artificiels de 8 km sur 2 km, construits non pas en creusant, mais en érigeant des digues titanesques, capables d'irriguer les rizières permettant 3 à 4 récoltes par an.",
+            "sciences": "Angkor n'est pas seulement un temple, c'est la plus grande mégalopole pré-industrielle du monde (plusieurs centaines de milliers d'habitants selon les estimations). Pour survivre à l'alternance mousson/sécheresse, ils créent une 'Cité Hydraulique' folle : des Barays. Des lacs artificiels de 8 km sur 2 km, construits non pas en creusant, mais en érigeant des digues titanesques, capables d'irriguer les rizières permettant 3 à 4 récoltes par an.",
             "croyancesText": "Initialement fondé sur le culte de Shiva et Vishnu, le roi n'est pas seulement représentant, il 'est' le dieu (Devaraja). L'architecture des temples, comme Angkor Wat entouré de douves, est une réplique terrestre parfaite de la cosmologie hindoue (le mythique mont Meru entouré de l'océan cosmique). Plus tard, le roi Jayavarman VII impose le Bouddhisme du Grand Véhicule (Mahayana) en faisant sculpter d'immenses visages sereins sur ses tours (Bayon).",
             "diplomatie": "L'Empire s'étend du Vietnam au Myanmar. Il relie ses provinces vassales par un réseau d'autoroutes de latérite surélevées pour échapper aux inondations, ponctuées de ponts à arches en encorbellement et d'hôpitaux royaux. La diplomatie extérieure est brutale, reposant sur l'utilisation d'infanterie légère naviguant sur le grand lac du Tonlé Sap, et de brigades massives d'éléphants de guerre.",
             "guerres": [
@@ -4900,7 +4902,7 @@
             "color": "#f39c12",
             "isRiver": true,
             "capitale": "Niani / Tombouctou",
-            "description": "Sur les cendres du Ghana, le conquérant épique Soundiata fonde un État immense, mondialement célèbre pour le pèlerinage fastueux de l'homme le plus riche de l'Histoire.",
+            "description": "Sur les cendres du Ghana, le conquérant épique Soundiata fonde un État immense, mondialement célèbre pour le pèlerinage fastueux de Mansa Moussa, souvent présenté comme l'homme le plus riche de l'Histoire.",
             "datesCles": [
               {
                 "annee": 1235,
@@ -4910,7 +4912,7 @@
               {
                 "annee": 1236,
                 "evenement": "Charte du Manden",
-                "info": "Proclamation de l'une des toutes premières déclarations des droits humains orales (abolition de l'esclavage interne)."
+                "info": "Selon la tradition orale, Soundiata proclame des règles de vie commune. Transmise par les griots et mise par écrit seulement au XXe siècle, son contenu exact est débattu par les historiens."
               },
               {
                 "annee": 1324,
@@ -4937,7 +4939,7 @@
             "personnages": [],
             "sciences": "Le Mali développe l'architecture en banco (mélange de terre argileuse, de paille et de beurre de karité) avec des armatures en bois palmier pointant hors des murs de mosquées spectaculaires (comme à Djenné) permettant aux maçons de crépir les murs chaque année après les pluies estivales. Tombouctou devient une véritable université (Sankoré) abritant des milliers de manuscrits (mathématiques, astronomie, droit islamique).",
             "croyancesText": "L'islam est la religion officielle de la cour et de l'administration des villes marchandes, permettant d'intégrer le Mali dans le système diplomatique et bancaire musulman nord-africain. Cependant, l'immense majorité des populations rurales de l'empire reste profondément attachée aux religions animistes traditionnelles et au culte des ancêtres fondateurs.",
-            "diplomatie": "La légende rapporte qu'avant Mansa Moussa, l'empereur Aboubakri II aurait abdiqué son trône en 1311 pour lancer une flotte de deux mille navires afin de traverser l'Océan Atlantique (qui ne sont jamais revenus). L'empereur Mansa Moussa a financé un afflux massif de savants andalous et égyptiens vers Tombouctou, y développant un puissant soft-power intellectuel.",
+            "diplomatie": "Une légende, rapportée par Mansa Moussa lui-même mais jamais prouvée, raconte que son prédécesseur Aboubakri II aurait abdiqué vers 1311 pour lancer une flotte de deux mille navires sur l'Océan Atlantique, qui ne serait jamais revenue. L'empereur Mansa Moussa a financé un afflux massif de savants andalous et égyptiens vers Tombouctou, y développant un puissant soft-power intellectuel.",
             "guerres": [
               {
                 "nom": "Bataille de Kirina",
@@ -5208,7 +5210,7 @@
               {
                 "annee": 562,
                 "evenement": "Défaite de Tikal",
-                "info": "La reine de la superpuissance rivale (Calakmul) écrase et sacrifie le roi de Tikal."
+                "info": "Tikal est vaincue par la cité de Caracol, alliée de la puissance rivale Calakmul."
               },
               {
                 "annee": 695,
@@ -5244,7 +5246,7 @@
                 "wikiUrl": "https://fr.wikipedia.org/wiki/Jasaw_Chan_K%27awiil_I"
               }
             ],
-            "sciences": "Leur système d'écriture (les glyphes mayas) est l'unique véritable alphabet complet des Amériques précolombiennes. Inventeurs du concept mathématique du Zéro (base 20), ils atteignent une précision astronomique terrifiante sans télescope : ils calculent l'année solaire à 365,242 jours (soit une erreur de 17 secondes par rapport au calcul satellitaire moderne) et prédisent avec exactitude les éclipses et les cycles de Vénus.",
+            "sciences": "Leur système d'écriture (les glyphes mayas) n'est pas un alphabet mais un système logo-syllabique, mêlant signes-mots et signes-syllabes : c'est le système d'écriture le plus complet des Amériques précolombiennes. Les Mayas utilisent le zéro dans leur numération en base 20 (l'un des plus anciens zéros connus) et atteignent une grande précision astronomique sans télescope : leurs tables permettent de prévoir les éclipses et les cycles de Vénus.",
             "croyancesText": "Le cosmos Maya nécessite un sang royal régulier pour ne pas s'arrêter. Les souverains ('K'uhul Ajaw') pratiquent l'autosacrifice rituel (saignée de la langue avec des cordes épineuses ou du sexe avec des épines de raie) pour ouvrir des portails de communication avec les divinités (le Serpent-Vision). Les prisonniers de guerre capturés sont torturés puis décapités ou précipités en bas des grands temples-pyramides à degrés.",
             "diplomatie": "Il n'y a jamais eu d'Empire Maya. La jungle abrite un écosystème géopolitique à la grecque, avec près de 60 royaumes et cités-États s'alliant ou se massacrant en une 'guerre des Étoiles' (guerres déclarées selon la position de Vénus). Tikal (soutenue par l'héritage de Teotihuacán) et Calakmul (l'Empire du Serpent) passent des siècles dans une guerre froide et chaude de procuration, épuisant finalement les ressources de la forêt.",
             "guerres": [
@@ -5798,7 +5800,7 @@
               {
                 "annee": 1637,
                 "evenement": "La crise de la Tulipe",
-                "info": "Premier krach boursier de l'histoire mondiale, basé sur la spéculation des bulbes de tulipes."
+                "info": "Souvent présentée comme le premier krach spéculatif de l'histoire, la « tulipomanie » voit s'effondrer le prix des bulbes ; les historiens jugent aujourd'hui ses dégâts économiques exagérés."
               }
             ],
             "dirigeants": [
@@ -6900,7 +6902,7 @@
               {
                 "annee": 1689,
                 "evenement": "Traité de Nertchinsk",
-                "info": "Premier traité officiel avec un pays européen (la Russie de Pierre le Grand)."
+                "info": "Premier traité officiel avec un pays européen (la Russie)."
               }
             ],
             "dirigeants": [
@@ -7031,9 +7033,9 @@
                 "info": "L'Empereur nomme Tokugawa shogun (dictateur militaire héréditaire) du Japon."
               },
               {
-                "annee": 1635,
+                "annee": 1639,
                 "evenement": "Fermeture du pays (Sakoku)",
-                "info": "Les navires espagnols et portugais sont expulsés, les Japonais ont interdiction de quitter l'île sous peine de mort."
+                "info": "Le pays se ferme progressivement dans les années 1630 : les Japonais ont interdiction de quitter l'archipel sous peine de mort, et les Portugais sont expulsés en 1639."
               }
             ],
             "dirigeants": [
@@ -7046,7 +7048,7 @@
               },
               {
                 "titre": "Shogun",
-                "nom": "Tokugawa Yoshimune",
+                "nom": "Tokugawa Tsunayoshi",
                 "surnom": "Le Shogun des Chiens",
                 "debut": 1680,
                 "fin": 1709
@@ -7889,7 +7891,7 @@
               {
                 "annee": 1933,
                 "evenement": "La Tragédie",
-                "info": "La crise de 1929 détruit la République de Weimar, Hitler est nommé démocratiquement Chancelier."
+                "info": "La crise de 1929 détruit la République de Weimar, Hitler est nommé chancelier légalement par le président Hindenburg (janvier 1933)."
               },
               {
                 "annee": 1945,
@@ -9194,7 +9196,7 @@
               }
             ],
             "sciences": "Le miracle économique japonais de l'après-guerre est vertigineux : ils passent des ruines calcinées à la deuxième économie mondiale en 20 ans. Inventeurs de la miniaturisation technologique (le Walkman Sony, le magnétoscope), du Toyotisme industriel, et du premier train à grande vitesse du monde fonctionnant au millimètre près (Le Shinkansen, en 1964).",
-            "croyancesText": "Durant l'ère Meiji, le Shintoïsme d'État devient une religion guerrière où l'Empereur est officiellement considéré comme un descendant sacré de la divinité solaire. Les soldats (kamikazes) fanatisés mouraient de gaieté de cœur pour lui. Fin 1945, les Américains forceront l'Empereur Hirohito à déclarer officiellement à la radio : 'Je ne suis qu'un être humain', détruisant le mythe religieux de l'État.",
+            "croyancesText": "À l'ère Meiji est instauré un shintō d'État organisé autour du culte de l'Empereur, présenté comme le descendant de la déesse du Soleil Amaterasu. Dans les années 1930-1945, la propagande militariste s'en sert pour exiger des soldats un sacrifice total (jusqu'aux pilotes kamikazes). Fin 1945, les Américains forceront l'Empereur Hirohito à déclarer officiellement à la radio : 'Je ne suis qu'un être humain', détruisant le mythe religieux de l'État.",
             "diplomatie": "Pour ne pas être colonisé comme la Chine, le Japon colonial de la fin du 19ème siècle conquiert Taiwan et annexe la Corée pour ses ressources en acier. Entré dans l'Axe fasciste pendant la guerre, leur expansionnisme brutal (La Sphère de coprospérité de la grande Asie orientale) s'effondre face au pacifique. En 1947, le général américain MacArthur rédige la nouvelle constitution nippone interdisant à jamais au pays d'avoir une armée offensive, transformant l'archipel en forteresse économique américaine.",
             "guerres": [
               {
@@ -9397,7 +9399,7 @@
               {
                 "annee": 1974,
                 "evenement": "L'arme nucléaire",
-                "info": "L'Inde (Opération Bouddha Souriant) fait exploser sa première bombe pour contrer la Chine."
+                "info": "L'Inde (Opération Bouddha Souriant) fait exploser sa première bombe atomique."
               }
             ],
             "dirigeants": [
@@ -9426,7 +9428,7 @@
               }
             ],
             "sciences": "Pour extraire les immenses ressources (coton, thé) vers Londres, les Anglais arment l'Inde du plus gigantesque réseau ferroviaire et télégraphique d'Asie. Au XXème siècle, libérée des horribles famines britanniques par la 'Révolution verte' agricole (nouveaux engrais et hybrides), l'Inde contemporaine devient une superpuissance de services informatiques mondialisés, avec son propre programme spatial abouti sur Mars.",
-            "croyancesText": "Ce sont les croyances qui ont dicté les frontières modernes. Les Anglais refusaient l'indépendance sans séparer les territoires : le nouvel État libre est dramatiquement fracturé en deux. L'Inde (majoritairement hindoue laïque) et le Pakistan Occidental et Oriental (États musulmans, et le futur Bangladesh). Cette ligne de séparation, l'une des pires tragédies de l'Histoire, engendra 15 millions de déplacés jetés sur les routes au milieu des massacres inter-religieux.",
+            "croyancesText": "Ce sont les croyances qui ont dicté les frontières modernes. À l'indépendance, issue des revendications de la Ligue musulmane et des négociations avec les Britanniques, le territoire est partagé : c'est la Partition. L'Inde (majoritairement hindoue laïque) et le Pakistan Occidental et Oriental (États musulmans, et le futur Bangladesh). Cette ligne de séparation, l'une des pires tragédies de l'Histoire, engendra 15 millions de déplacés jetés sur les routes au milieu des massacres inter-religieux.",
             "diplomatie": "Durant la Guerre Froide, refusant l'alignement sur les Américains ou les Soviétiques, l'Inde invente le 'Mouvement des non-alignés' pour donner une voix au Tiers-Monde en développement. Sa diplomatie du XXIe siècle est focalisée sur le duel territorial brûlant au nord sur les neiges du Cachemire, une poudrière face au Pakistan (soutenu par les Chinois).",
             "guerres": [
               {

@@ -109,7 +109,7 @@ export default [
             datesCles: [
               { annee: 1581, evenement: "Acte de La Haye", info: "Les provinces du Nord se déclarent indépendantes de l'Empire espagnol." },
               { annee: 1602, evenement: "Fondation de la VOC", info: "Création de la Compagnie Néerlandaise des Indes Orientales, première société par actions de l'histoire." },
-              { annee: 1637, evenement: "La crise de la Tulipe", info: "Premier krach boursier de l'histoire mondiale, basé sur la spéculation des bulbes de tulipes." }
+              { annee: 1637, evenement: "La crise de la Tulipe", info: "Souvent présentée comme le premier krach spéculatif de l'histoire, la « tulipomanie » voit s'effondrer le prix des bulbes ; les historiens jugent aujourd'hui ses dégâts économiques exagérés." }
             ],
             dirigeants: [
               { titre: "Stathouder", nom: "Guillaume Ier d'Orange", surnom: "Le Taciturne", debut: 1559, fin: 1584 },
@@ -421,7 +421,7 @@ export default [
               { annee: 1420, evenement: "La Cité Interdite", info: "L'empereur Yongle achève le palais et déplace la capitale définitivement à Pékin." },
               { annee: 1644, evenement: "La Chute des Ming", info: "Une révolte paysanne prend Pékin. Le dernier empereur Ming se pend à un arbre." },
               { annee: 1644, evenement: "L'Invasion Mandchoue", info: "Les guerriers des steppes franchissent la Grande Muraille et fondent la dynastie Qing." },
-              { annee: 1689, evenement: "Traité de Nertchinsk", info: "Premier traité officiel avec un pays européen (la Russie de Pierre le Grand)." }
+              { annee: 1689, evenement: "Traité de Nertchinsk", info: "Premier traité officiel avec un pays européen (la Russie)." }
             ],
             dirigeants: [
               { titre: "Empereur (Ming)", nom: "Wanli", surnom: "", debut: 1572, fin: 1620 },
@@ -449,11 +449,11 @@ export default [
             datesCles: [
               { annee: 1600, evenement: "Bataille de Sekigahara", info: "Ieyasu Tokugawa écrase la coalition de l'Ouest, marquant la fin des guerres civiles." },
               { annee: 1603, evenement: "Shogunat Tokugawa", info: "L'Empereur nomme Tokugawa shogun (dictateur militaire héréditaire) du Japon." },
-              { annee: 1635, evenement: "Fermeture du pays (Sakoku)", info: "Les navires espagnols et portugais sont expulsés, les Japonais ont interdiction de quitter l'île sous peine de mort." }
+              { annee: 1639, evenement: "Fermeture du pays (Sakoku)", info: "Le pays se ferme progressivement dans les années 1630 : les Japonais ont interdiction de quitter l'archipel sous peine de mort, et les Portugais sont expulsés en 1639." }
             ],
             dirigeants: [
               { titre: "Shogun", nom: "Tokugawa Ieyasu", surnom: "", debut: 1603, fin: 1605 },
-              { titre: "Shogun", nom: "Tokugawa Yoshimune", surnom: "Le Shogun des Chiens", debut: 1680, fin: 1709 }
+              { titre: "Shogun", nom: "Tokugawa Tsunayoshi", surnom: "Le Shogun des Chiens", debut: 1680, fin: 1709 }
             ],
             personnages: [
               { nom: "Miyamoto Musashi", role: "Le Saint au Sabre", description: "Samouraï errant (rōnin) invaincu en 60 duels mortels, fondateur d'une école d'escrime à deux sabres et auteur du célèbre 'Traité des cinq roues'.", dates: "1584 à 1645", wikiUrl: "https://fr.wikipedia.org/wiki/Miyamoto_Musashi" },
@@ -670,7 +670,7 @@ export default [
             description: "Unification fulgurante par le sang et le fer, effondrement dans l'abysse génocidaire nazi, puis renaissance en tant que moteur démocratique et économique de l'Europe.",
             datesCles: [
               { annee: 1871, evenement: "L'Unification", info: "Bismarck fonde l'Empire allemand (IIe Reich) dans la Galerie des Glaces à Versailles." },
-              { annee: 1933, evenement: "La Tragédie", info: "La crise de 1929 détruit la République de Weimar, Hitler est nommé démocratiquement Chancelier." },
+              { annee: 1933, evenement: "La Tragédie", info: "La crise de 1929 détruit la République de Weimar, Hitler est nommé chancelier légalement par le président Hindenburg (janvier 1933)." },
               { annee: 1945, evenement: "L'Année Zéro", info: "Le pays, en ruines totales, est vaincu, dénazifié et divisé en deux (RFA à l'ouest, RDA communiste à l'est)." },
               { annee: 1989, evenement: "Chute du Mur de Berlin", info: "Effondrement du bloc soviétique, réunification pacifique de l'Allemagne." }
             ],
@@ -1010,7 +1010,7 @@ export default [
               { nom: "Isoroku Yamamoto", role: "Amiral de la Flotte", description: "Architecte brillant de l'attaque surprise sur Pearl Harbor, bien qu'il ait prédit que le Japon ne pourrait tenir face à la puissance industrielle américaine à long terme.", dates: "1884 à 1943", wikiUrl: "https://fr.wikipedia.org/wiki/Isoroku_Yamamoto" }
             ],
             sciences: "Le miracle économique japonais de l'après-guerre est vertigineux : ils passent des ruines calcinées à la deuxième économie mondiale en 20 ans. Inventeurs de la miniaturisation technologique (le Walkman Sony, le magnétoscope), du Toyotisme industriel, et du premier train à grande vitesse du monde fonctionnant au millimètre près (Le Shinkansen, en 1964).",
-            croyancesText: "Durant l'ère Meiji, le Shintoïsme d'État devient une religion guerrière où l'Empereur est officiellement considéré comme un descendant sacré de la divinité solaire. Les soldats (kamikazes) fanatisés mouraient de gaieté de cœur pour lui. Fin 1945, les Américains forceront l'Empereur Hirohito à déclarer officiellement à la radio : 'Je ne suis qu'un être humain', détruisant le mythe religieux de l'État.",
+            croyancesText: "À l'ère Meiji est instauré un shintō d'État organisé autour du culte de l'Empereur, présenté comme le descendant de la déesse du Soleil Amaterasu. Dans les années 1930-1945, la propagande militariste s'en sert pour exiger des soldats un sacrifice total (jusqu'aux pilotes kamikazes). Fin 1945, les Américains forceront l'Empereur Hirohito à déclarer officiellement à la radio : 'Je ne suis qu'un être humain', détruisant le mythe religieux de l'État.",
             diplomatie: "Pour ne pas être colonisé comme la Chine, le Japon colonial de la fin du 19ème siècle conquiert Taiwan et annexe la Corée pour ses ressources en acier. Entré dans l'Axe fasciste pendant la guerre, leur expansionnisme brutal (La Sphère de coprospérité de la grande Asie orientale) s'effondre face au pacifique. En 1947, le général américain MacArthur rédige la nouvelle constitution nippone interdisant à jamais au pays d'avoir une armée offensive, transformant l'archipel en forteresse économique américaine.",
             guerres: [
               { nom: "La Guerre du Pacifique", annee: 1941, adversaires: ["États-Unis d'Amérique (Flotte du Pacifique)"], allies: ["Allemagne Nazie"], morts: "Environ 3 millions de Japonais, villes rasées au napalm", vainqueur: "États-Unis", consequences: "L'attaque de Pearl Harbor réveille le géant industriel américain. Le Japon perd son empire maritime bataille par bataille (Midway, Okinawa).", wikiUrl: "https://fr.wikipedia.org/wiki/Guerre_du_Pacifique" }
@@ -1054,7 +1054,7 @@ export default [
               { annee: 1857, evenement: "La Révolte des Cipayes", info: "L'armée indienne au service des Anglais se mutine. L'insurrection est noyée dans le sang." },
               { annee: 1930, evenement: "La Marche du Sel", info: "Le coup de maître de la désobéissance civile pacifique de Gandhi contre le monopole anglais." },
               { annee: 1947, evenement: "L'Indépendance et la Partition", info: "Les Britanniques s'en vont. Le pays est fracturé selon des lignes religieuses." },
-              { annee: 1974, evenement: "L'arme nucléaire", info: "L'Inde (Opération Bouddha Souriant) fait exploser sa première bombe pour contrer la Chine." }
+              { annee: 1974, evenement: "L'arme nucléaire", info: "L'Inde (Opération Bouddha Souriant) fait exploser sa première bombe atomique." }
             ],
             dirigeants: [
               { titre: "Impératrice des Indes", nom: "Reine Victoria", surnom: "", debut: 1876, fin: 1901 },
@@ -1064,7 +1064,7 @@ export default [
               { nom: "Mahatma Gandhi", role: "Guide Politique et Spirituel", description: "L'apôtre mondial de l'Ahimsa (la non-violence) dont le jeûne politique et le boycott des textiles anglais brisèrent la légitimité coloniale.", dates: "1869 à 1948", wikiUrl: "https://fr.wikipedia.org/wiki/Mahatma_Gandhi" }
             ],
             sciences: "Pour extraire les immenses ressources (coton, thé) vers Londres, les Anglais arment l'Inde du plus gigantesque réseau ferroviaire et télégraphique d'Asie. Au XXème siècle, libérée des horribles famines britanniques par la 'Révolution verte' agricole (nouveaux engrais et hybrides), l'Inde contemporaine devient une superpuissance de services informatiques mondialisés, avec son propre programme spatial abouti sur Mars.",
-            croyancesText: "Ce sont les croyances qui ont dicté les frontières modernes. Les Anglais refusaient l'indépendance sans séparer les territoires : le nouvel État libre est dramatiquement fracturé en deux. L'Inde (majoritairement hindoue laïque) et le Pakistan Occidental et Oriental (États musulmans, et le futur Bangladesh). Cette ligne de séparation, l'une des pires tragédies de l'Histoire, engendra 15 millions de déplacés jetés sur les routes au milieu des massacres inter-religieux.",
+            croyancesText: "Ce sont les croyances qui ont dicté les frontières modernes. À l'indépendance, issue des revendications de la Ligue musulmane et des négociations avec les Britanniques, le territoire est partagé : c'est la Partition. L'Inde (majoritairement hindoue laïque) et le Pakistan Occidental et Oriental (États musulmans, et le futur Bangladesh). Cette ligne de séparation, l'une des pires tragédies de l'Histoire, engendra 15 millions de déplacés jetés sur les routes au milieu des massacres inter-religieux.",
             diplomatie: "Durant la Guerre Froide, refusant l'alignement sur les Américains ou les Soviétiques, l'Inde invente le 'Mouvement des non-alignés' pour donner une voix au Tiers-Monde en développement. Sa diplomatie du XXIe siècle est focalisée sur le duel territorial brûlant au nord sur les neiges du Cachemire, une poudrière face au Pakistan (soutenu par les Chinois).",
             guerres: [
               { nom: "Guerres Indo-Pakistanaises", annee: 1947, adversaires: ["République Islamique du Pakistan"], allies: ["(L'Inde sera soutenue logistiquement par l'URSS)"], morts: "Pertes militaires lourdes", vainqueur: "Victoires indiennes", consequences: "En 1971, l'armée indienne écrase le Pakistan pour assurer la sécession d'un nouvel État musulman séparé : le Bangladesh.", wikiUrl: "https://fr.wikipedia.org/wiki/Guerres_indo-pakistanaises" }

@@ -107,7 +107,7 @@ export default [
             description: "Un labyrinthe féodal d'Europe centrale, dirigé par un empereur élu, théâtre du grand choc de pouvoir entre le trône et la Papauté.",
             datesCles: [
               { annee: 962, evenement: "Sacre d'Otton Ier", info: "Création officielle du Saint-Empire à Rome." },
-              { annee: 1077, evenement: "Pénitence de Canossa", info: "L'Empereur, excommunié, supplie le Pape nu-pieds dans la neige." },
+              { annee: 1077, evenement: "Pénitence de Canossa", info: "Le roi Henri IV (couronné empereur seulement en 1084), excommunié, attend en habit de pénitent dans la neige, trois jours selon les chroniques, le pardon du pape Grégoire VII." },
               { annee: 1356, evenement: "La Bulle d'Or", info: "Fixe l'élection impériale par sept princes-électeurs." },
               { annee: 1450, evenement: "Invention de l'imprimerie", info: "Gutenberg invente la typographie à Mayence." }
             ],
@@ -249,7 +249,7 @@ export default [
               { annee: 711, evenement: "Conquête musulmane", info: "Les troupes arabo-berbères de Tariq ibn Ziyad écrasent les Wisigoths." },
               { annee: 929, evenement: "Califat de Cordoue", info: "L'émir Abd al-Rahman III se proclame Calife, coupant les ponts avec Bagdad." },
               { annee: 1031, evenement: "Chute du Califat", info: "L'empire implose en dizaines de petits royaumes rivaux (les Taïfas)." },
-              { annee: 1212, evenement: "Las Navas de Tolosa", info: "Défaite décisive contre les rois catholiques." },
+              { annee: 1212, evenement: "Las Navas de Tolosa", info: "Défaite décisive des Almohades face à la coalition des royaumes chrétiens (Castille, Aragon, Navarre)." },
               { annee: 1492, evenement: "Chute de Grenade", info: "Fin de huit siècles de présence politique de l'Islam en péninsule Ibérique." }
             ],
             dirigeants: [
@@ -264,7 +264,7 @@ export default [
             croyancesText: "Terre de la 'Convivencia' (coexistence). Sous le droit islamique, les Chrétiens et les Juifs ont le statut de 'Dhimmis' : ils sont libres de pratiquer leur foi et de se gouverner, en échange d'un impôt spécifique de soumission (la Jizya). Bien que n'étant pas une société égalitaire au sens moderne, cette tolérance a permis une effervescence théologique, poétique et scientifique unique au monde.",
             diplomatie: "La politique andalouse est minée par les clivages ethniques internes (Arabes de souche, Berbères d'Afrique du Nord, Slaves mercenaires, Espagnols convertis). Après la dislocation du Califat puissant, les roitelets des Taïfas préfèrent souvent s'allier avec les rois chrétiens du Nord et payer des tributs (Parias) pour faire la guerre à leurs frères musulmans voisins.",
             guerres: [
-              { nom: "Bataille de Las Navas de Tolosa", annee: 1212, adversaires: ["Coalition des rois d'Espagne", "Croisés européens"], allies: ["Empire Almohade"], morts: "Boucherie dans les rangs almohades", vainqueur: "Chrétiens (Reconquista)", consequences: "La puissance militaire islamique est brisée définitivement. Le sud de l'Espagne s'ouvre à la reconquête chrétienne.", wikiUrl: "https://fr.wikipedia.org/wiki/Bataille_de_Las_Navas_de_Tolosa" }
+              { nom: "Bataille de Las Navas de Tolosa", annee: 1212, adversaires: ["Castille, Aragon et Navarre", "Croisés européens"], allies: ["Empire Almohade"], morts: "Très lourdes pertes dans les rangs almohades", vainqueur: "Royaumes chrétiens (Reconquista)", consequences: "La puissance militaire almohade en péninsule est brisée. Le sud de l'Espagne s'ouvre à la reconquête chrétienne.", wikiUrl: "https://fr.wikipedia.org/wiki/Bataille_de_Las_Navas_de_Tolosa" }
             ],
             documentaires: [{ titre: "Al-Andalus, l'Espagne et le temps des califes", url: "https://fr.wikipedia.org/wiki/Al-Andalus" }]
           },
@@ -489,7 +489,7 @@ export default [
               { titre: "Devaraja", nom: "Jayavarman VII", surnom: "Le Roi bâtisseur", debut: 1181, fin: 1218 }
             ],
             personnages: [],
-            sciences: "Angkor n'est pas seulement un temple, c'est la plus grande mégalopole pré-industrielle du monde (environ un million d'habitants). Pour survivre à l'alternance mousson/sécheresse, ils créent une 'Cité Hydraulique' folle : des Barays. Des lacs artificiels de 8 km sur 2 km, construits non pas en creusant, mais en érigeant des digues titanesques, capables d'irriguer les rizières permettant 3 à 4 récoltes par an.",
+            sciences: "Angkor n'est pas seulement un temple, c'est la plus grande mégalopole pré-industrielle du monde (plusieurs centaines de milliers d'habitants selon les estimations). Pour survivre à l'alternance mousson/sécheresse, ils créent une 'Cité Hydraulique' folle : des Barays. Des lacs artificiels de 8 km sur 2 km, construits non pas en creusant, mais en érigeant des digues titanesques, capables d'irriguer les rizières permettant 3 à 4 récoltes par an.",
             croyancesText: "Initialement fondé sur le culte de Shiva et Vishnu, le roi n'est pas seulement représentant, il 'est' le dieu (Devaraja). L'architecture des temples, comme Angkor Wat entouré de douves, est une réplique terrestre parfaite de la cosmologie hindoue (le mythique mont Meru entouré de l'océan cosmique). Plus tard, le roi Jayavarman VII impose le Bouddhisme du Grand Véhicule (Mahayana) en faisant sculpter d'immenses visages sereins sur ses tours (Bayon).",
             diplomatie: "L'Empire s'étend du Vietnam au Myanmar. Il relie ses provinces vassales par un réseau d'autoroutes de latérite surélevées pour échapper aux inondations, ponctuées de ponts à arches en encorbellement et d'hôpitaux royaux. La diplomatie extérieure est brutale, reposant sur l'utilisation d'infanterie légère naviguant sur le grand lac du Tonlé Sap, et de brigades massives d'éléphants de guerre.",
             guerres: [
@@ -581,10 +581,10 @@ export default [
             label: "Empire du Mali",
             period: "1235 à 1670", start: 1235, end: 1492,
             color: "#f39c12", isRiver: true, capitale: "Niani / Tombouctou",
-            description: "Sur les cendres du Ghana, le conquérant épique Soundiata fonde un État immense, mondialement célèbre pour le pèlerinage fastueux de l'homme le plus riche de l'Histoire.",
+            description: "Sur les cendres du Ghana, le conquérant épique Soundiata fonde un État immense, mondialement célèbre pour le pèlerinage fastueux de Mansa Moussa, souvent présenté comme l'homme le plus riche de l'Histoire.",
             datesCles: [
               { annee: 1235, evenement: "Bataille de Kirina", info: "Victoire fondatrice de Soundiata Keïta contre le roi forgeron Soumaoro Kanté." },
-              { annee: 1236, evenement: "Charte du Manden", info: "Proclamation de l'une des toutes premières déclarations des droits humains orales (abolition de l'esclavage interne)." },
+              { annee: 1236, evenement: "Charte du Manden", info: "Selon la tradition orale, Soundiata proclame des règles de vie commune. Transmise par les griots et mise par écrit seulement au XXe siècle, son contenu exact est débattu par les historiens." },
               { annee: 1324, evenement: "Pèlerinage à La Mecque", info: "L'empereur Mansa Moussa dépense tellement d'or en Égypte qu'il y provoque une hyper-inflation." }
             ],
             dirigeants: [
@@ -594,7 +594,7 @@ export default [
             personnages: [],
             sciences: "Le Mali développe l'architecture en banco (mélange de terre argileuse, de paille et de beurre de karité) avec des armatures en bois palmier pointant hors des murs de mosquées spectaculaires (comme à Djenné) permettant aux maçons de crépir les murs chaque année après les pluies estivales. Tombouctou devient une véritable université (Sankoré) abritant des milliers de manuscrits (mathématiques, astronomie, droit islamique).",
             croyancesText: "L'islam est la religion officielle de la cour et de l'administration des villes marchandes, permettant d'intégrer le Mali dans le système diplomatique et bancaire musulman nord-africain. Cependant, l'immense majorité des populations rurales de l'empire reste profondément attachée aux religions animistes traditionnelles et au culte des ancêtres fondateurs.",
-            diplomatie: "La légende rapporte qu'avant Mansa Moussa, l'empereur Aboubakri II aurait abdiqué son trône en 1311 pour lancer une flotte de deux mille navires afin de traverser l'Océan Atlantique (qui ne sont jamais revenus). L'empereur Mansa Moussa a financé un afflux massif de savants andalous et égyptiens vers Tombouctou, y développant un puissant soft-power intellectuel.",
+            diplomatie: "Une légende, rapportée par Mansa Moussa lui-même mais jamais prouvée, raconte que son prédécesseur Aboubakri II aurait abdiqué vers 1311 pour lancer une flotte de deux mille navires sur l'Océan Atlantique, qui ne serait jamais revenue. L'empereur Mansa Moussa a financé un afflux massif de savants andalous et égyptiens vers Tombouctou, y développant un puissant soft-power intellectuel.",
             guerres: [
               { nom: "Bataille de Kirina", annee: 1235, adversaires: ["Empire Sosso (Soumaoro Kanté)"], allies: ["Coalition des tribus mandingues"], morts: "Pertes militaires lourdes", vainqueur: "Mali", consequences: "Soundiata prend le pouvoir absolu, rédige la constitution de l'empire et fixe les droits de la confrérie des chasseurs.", wikiUrl: "https://fr.wikipedia.org/wiki/Bataille_de_Kirina" }
             ],
@@ -682,7 +682,7 @@ export default [
             color: "#16a085", isRiver: false, capitale: "Tikal, Calakmul, Copán",
             description: "Les 'Grecs de l'Amérique' : une constellation de cités-États en guerre perpétuelle dans la jungle, dotées des mathématiques et de l'astronomie les plus précises du monde.",
             datesCles: [
-              { annee: 562, evenement: "Défaite de Tikal", info: "La reine de la superpuissance rivale (Calakmul) écrase et sacrifie le roi de Tikal." },
+              { annee: 562, evenement: "Défaite de Tikal", info: "Tikal est vaincue par la cité de Caracol, alliée de la puissance rivale Calakmul." },
               { annee: 695, evenement: "Revanche de Tikal", info: "Tikal bat définitivement Calakmul, amorçant l'ultime essor architectural maya." },
               { annee: 830, evenement: "L'Effondrement", info: "Début d'une sécheresse systémique couplée à une surpopulation causant l'abandon des grandes capitales." },
               { annee: 1000, evenement: "Période postclassique", info: "Renaissance dans la péninsule aride du Yucatán autour de Chichén Itzá et Mayapán." }
@@ -693,7 +693,7 @@ export default [
             personnages: [
               { nom: "Jasaw Chan K'awiil Ier", role: "Roi de Tikal", description: "Le grand souverain qui releva Tikal de la ruine, écrasa ses ennemis et finança les immenses temples jumeaux de la cité.", dates: "Règne de 682 à 734", wikiUrl: "https://fr.wikipedia.org/wiki/Jasaw_Chan_K%27awiil_I" }
             ],
-            sciences: "Leur système d'écriture (les glyphes mayas) est l'unique véritable alphabet complet des Amériques précolombiennes. Inventeurs du concept mathématique du Zéro (base 20), ils atteignent une précision astronomique terrifiante sans télescope : ils calculent l'année solaire à 365,242 jours (soit une erreur de 17 secondes par rapport au calcul satellitaire moderne) et prédisent avec exactitude les éclipses et les cycles de Vénus.",
+            sciences: "Leur système d'écriture (les glyphes mayas) n'est pas un alphabet mais un système logo-syllabique, mêlant signes-mots et signes-syllabes : c'est le système d'écriture le plus complet des Amériques précolombiennes. Les Mayas utilisent le zéro dans leur numération en base 20 (l'un des plus anciens zéros connus) et atteignent une grande précision astronomique sans télescope : leurs tables permettent de prévoir les éclipses et les cycles de Vénus.",
             croyancesText: "Le cosmos Maya nécessite un sang royal régulier pour ne pas s'arrêter. Les souverains ('K'uhul Ajaw') pratiquent l'autosacrifice rituel (saignée de la langue avec des cordes épineuses ou du sexe avec des épines de raie) pour ouvrir des portails de communication avec les divinités (le Serpent-Vision). Les prisonniers de guerre capturés sont torturés puis décapités ou précipités en bas des grands temples-pyramides à degrés.",
             diplomatie: "Il n'y a jamais eu d'Empire Maya. La jungle abrite un écosystème géopolitique à la grecque, avec près de 60 royaumes et cités-États s'alliant ou se massacrant en une 'guerre des Étoiles' (guerres déclarées selon la position de Vénus). Tikal (soutenue par l'héritage de Teotihuacán) et Calakmul (l'Empire du Serpent) passent des siècles dans une guerre froide et chaude de procuration, épuisant finalement les ressources de la forêt.",
             guerres: [

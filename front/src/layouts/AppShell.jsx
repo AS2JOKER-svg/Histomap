@@ -8,6 +8,7 @@ import Icon from '../components/ui/Icon'
 import ThemeToggle from '../components/ui/ThemeToggle'
 import WelcomeModal from '../components/WelcomeModal'
 import Toaster from '../components/Toaster'
+import AppBanner from '../components/app/AppBanner'
 
 export const NAV = [
   { to: '/',        label: 'Accueil',   icon: 'home',     end: true },
@@ -88,6 +89,8 @@ export default function AppShell() {
           </div>
         </div>
       </header>
+
+      <AppBanner />
 
       <main id="contenu" className="flex-1 w-full max-w-6xl mx-auto px-4 sm:px-6 pt-6 pb-[calc(theme(spacing.tabbar)+1.5rem)] md:pb-10">
         <motion.div

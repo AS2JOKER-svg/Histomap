@@ -87,7 +87,7 @@ function Quiz({ refCiv }) {
     <div className="fixed inset-0 z-50 bg-bg flex flex-col" role="dialog" aria-label={`Quiz : ${civ.label}`}>
       <div aria-hidden="true" className="pointer-events-none absolute -top-40 left-1/2 -translate-x-1/2 w-[700px] h-[500px] rounded-full blur-3xl opacity-15" style={{ background: civ.color }} />
 
-      <header className="relative shrink-0 px-4 pt-[max(0.75rem,env(safe-area-inset-top))] pb-2 max-w-[600px] w-full mx-auto">
+      <div className="relative shrink-0 px-4 pt-[max(0.75rem,env(safe-area-inset-top))] pb-2 max-w-[600px] w-full mx-auto">
         <div className="flex items-center gap-3">
           <button onClick={() => navigate(`/reviser/${epoch.id}`)} className="btn-icon -ml-2" aria-label="Quitter le quiz (il est gardé)" title="Quitter (le quiz est gardé)">
             <Icon name="close" />
@@ -115,9 +115,9 @@ function Quiz({ refCiv }) {
             })}
           </div>
         )}
-      </header>
+      </div>
 
-      <main className="relative flex-1 min-h-0 flex flex-col px-4 pt-4 pb-[max(1rem,env(safe-area-inset-bottom))]">
+      <div className="relative flex-1 min-h-0 flex flex-col px-4 pt-4 pb-[max(1rem,env(safe-area-inset-bottom))]">
         {result ? (
           <QuizResult refCiv={refCiv} result={result} onRetry={() => setResult(null)} />
         ) : q ? (
@@ -135,7 +135,7 @@ function Quiz({ refCiv }) {
             />
           </AnimatePresence>
         ) : null}
-      </main>
+      </div>
     </div>
   )
 }

@@ -13,13 +13,13 @@
     --c-surface:   255 255 255;
     --c-surface-2: 241 243 248;
     --c-ink:       28 35 48;
-    --c-muted:     99 110 128;
+    --c-muted:     86 96 113;
     --c-line:      228 231 239;
-    --c-accent:    79 124 255;
+    --c-accent:    52 92 230;   /* ≥ 4,5:1 sur blanc (WCAG AA) */
     --c-accent-2:  124 92 255;
-    --c-success:   22 163 106;
-    --c-danger:    220 64 64;
-    --c-warning:   217 140 20;
+    --c-success:   16 122 78;
+    --c-danger:    200 45 45;
+    --c-warning:   170 100 0;
 
     --shadow-soft: 0 1px 2px rgba(16, 24, 40, .04), 0 8px 24px rgba(16, 24, 40, .06);
     --shadow-lift: 0 14px 40px rgba(16, 24, 40, .12);
@@ -201,3 +201,7 @@
   .no-scrollbar { scrollbar-width: none; }
   .no-scrollbar::-webkit-scrollbar { display: none; }
 }
+
+/* Couleur de civilisation utilisée comme texte : contraste AA garanti (lib/color.js → civTextStyle) */
+.civ-text { color: var(--civ-text-light); }
+:root[data-theme='dark'] .civ-text { color: var(--civ-text-dark); }

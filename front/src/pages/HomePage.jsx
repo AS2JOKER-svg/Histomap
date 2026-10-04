@@ -6,6 +6,7 @@ import useDocumentTitle from '../lib/useDocumentTitle'
 import Icon from '../components/ui/Icon'
 import ResumeCard from '../components/progress/ResumeCard'
 import ProgressPanel from '../components/progress/ProgressPanel'
+import AppCard from '../components/app/AppCard'
 
 const fadeUp = (delay = 0) => ({
   initial: { opacity: 0, y: 16 },
@@ -117,6 +118,9 @@ export default function HomePage() {
           <Stat value={stats.wars} label="guerres & batailles" icon="swords" />
         </dl>
       </section>
+
+      {/* ── Installer l'application, cartes hors ligne ───────────────────── */}
+      <AppCard />
     </div>
   )
 }

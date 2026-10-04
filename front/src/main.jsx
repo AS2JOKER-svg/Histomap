@@ -5,6 +5,9 @@ import { MotionConfig } from 'framer-motion'
 import App from './App'
 import './store/preferences' // applique le thème au démarrage
 import './index.css'
+import { initPWA } from './lib/pwa'
+
+initPWA() // application installable + hors ligne (en production)
 
 // HashRouter : les URLs (#/frise/antiquite/egypte) fonctionnent sur GitHub Pages
 // sans configuration serveur, et le bouton « retour » du téléphone marche.

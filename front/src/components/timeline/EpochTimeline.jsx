@@ -181,12 +181,12 @@ export default function EpochTimeline({ epoch, selectedId, onSelect, focusId }) 
           {sections.map(({ continent, items, laneCount }) => (
             <section key={continent.id} className="relative border-t border-line/70" aria-label={continent.label}>
               <div className="flex items-center" style={{ height: HEADER_H }}>
-                <h3 className="sticky left-0 pl-4 pr-3 flex items-center gap-2 text-sm font-semibold text-ink">
+                <h2 className="sticky left-0 pl-4 pr-3 flex items-center gap-2 text-sm font-semibold text-ink">
                   <span className="px-2.5 py-1 rounded-lg bg-surface/90 backdrop-blur-sm border border-line shadow-sm">
                     {continent.label}
                     <span className="ml-1.5 font-normal text-muted tabular-nums">{items.length}</span>
                   </span>
-                </h3>
+                </h2>
               </div>
               <div className="relative" style={{ height: laneCount * (LANE_H + LANE_GAP) + 4 }}>
                 {items.map((item, i) => (

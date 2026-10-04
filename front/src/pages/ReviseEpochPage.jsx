@@ -12,6 +12,7 @@ import Icon from '../components/ui/Icon'
 import { useProgress } from '../store/progress'
 import { ProgressRing } from './RevisePage'
 import NotFoundPage from './NotFoundPage'
+import { solidBg } from '../lib/color'
 
 /** Choisir une civilisation (chapitre) dans une époque, par continent. */
 export default function ReviseEpochPage() {
@@ -50,7 +51,7 @@ export default function ReviseEpochPage() {
             className={`shrink-0 h-9 px-3.5 rounded-xl text-sm font-medium border transition ${
               e.id === epoch.id ? 'text-white border-transparent' : 'bg-surface border-line text-muted hover:text-ink'
             }`}
-            style={e.id === epoch.id ? { background: e.color } : undefined}
+            style={e.id === epoch.id ? { background: solidBg(e.color) } : undefined}
           >
             {e.label}
           </Link>

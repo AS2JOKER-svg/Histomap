@@ -30,6 +30,10 @@ const PATHS = {
   sparkles: <><path d="M12 3v4M12 17v4M3 12h4M17 12h4" /><path d="m6.3 6.3 2.1 2.1M15.6 15.6l2.1 2.1M6.3 17.7l2.1-2.1M15.6 8.4l2.1-2.1" /></>,
   layers: <><path d="m12 3 9 5-9 5-9-5 9-5Z" /><path d="m3 13 9 5 9-5" /></>,
   check: <path d="m5 12.5 4.5 4.5L19 7.5" />,
+  download: <><path d="M12 4v11" /><path d="m7 10 5 5 5-5" /><path d="M5 20h14" /></>,
+  refresh: <><path d="M20 11a8 8 0 0 0-14.6-4.5L4 8" /><path d="M4 4v4h4" /><path d="M4 13a8 8 0 0 0 14.6 4.5L20 16" /><path d="M20 20v-4h-4" /></>,
+  wifiOff: <><path d="M3 3l18 18" /><path d="M8.5 16.5a5 5 0 0 1 7 0" /><path d="M5 12.6a10 10 0 0 1 5.2-2.7" /><path d="M19 12.6a10 10 0 0 0-2.4-1.8" /><path d="M2 8.8a15 15 0 0 1 4.2-2.6" /><path d="M22 8.8A15 15 0 0 0 11 5" /><path d="M12 20h.01" /></>,
+  share: <><path d="M12 3v12" /><path d="m8 7 4-4 4 4" /><path d="M6 11H5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-8a1 1 0 0 0-1-1h-1" /></>,
 }
 
 export default function Icon({ name, size = 20, className = '', strokeWidth = 1.75, ...rest }) {
@@ -43,7 +47,9 @@ export default function Icon({ name, size = 20, className = '', strokeWidth = 1.
       strokeWidth={strokeWidth}
       strokeLinecap="round"
       strokeLinejoin="round"
-      aria-hidden="true"
+      // Icône décorative par défaut ; avec aria-label, elle est annoncée comme une image.
+      aria-hidden={rest['aria-label'] ? undefined : 'true'}
+      role={rest['aria-label'] ? 'img' : undefined}
       focusable="false"
       className={className}
       {...rest}

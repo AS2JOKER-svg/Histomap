@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { useProgress } from '../store/progress'
 import Icon from './ui/Icon'
+import { solidBg } from '../lib/color'
 
 /**
  * « Fil de l'histoire » : les étapes d'une même civilisation d'une époque à
@@ -52,7 +53,7 @@ export default function LineageTrail({ civ, variant = 'full', linkTo }) {
               {current ? (
                 <span
                   className="flex flex-col px-3.5 py-2.5 rounded-xl text-white shadow-soft min-w-[9rem]"
-                  style={{ background: civ.color }}
+                  style={{ background: solidBg(civ.color) }}
                   aria-current="step"
                 >
                   <span className="text-[10.5px] font-semibold uppercase tracking-wider opacity-85">{m.epochLabel}</span>

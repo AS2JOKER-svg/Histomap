@@ -11,6 +11,7 @@ import useDocumentTitle from '../lib/useDocumentTitle'
 import Breadcrumbs from '../components/ui/Breadcrumbs'
 import Icon from '../components/ui/Icon'
 import NotFoundPage from './NotFoundPage'
+import { civTextStyle } from '../lib/color'
 
 export default function CivilizationPage() {
   const { epochId, civId } = useParams()
@@ -108,7 +109,7 @@ export default function CivilizationPage() {
                     className="absolute -left-[7px] mt-1 w-3 h-3 rounded-full border-2 border-surface"
                     style={{ background: civ.color }}
                   />
-                  <div className="text-xs font-semibold tabular-nums" style={{ color: civ.color }}>
+                  <div className="text-xs font-semibold tabular-nums civ-text" style={civTextStyle(civ.color)}>
                     {formatYear(ev.annee)}
                   </div>
                   <div className="text-sm font-medium text-ink">{ev.evenement}</div>

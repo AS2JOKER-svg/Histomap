@@ -1,5 +1,5 @@
 import { formatYear } from '../../lib/time'
-import { readableText, shade } from '../../lib/color'
+import { readableText, shade, civTextStyle, solidBg } from '../../lib/color'
 import Icon from '../ui/Icon'
 import MiniMap from './MiniMap'
 
@@ -34,7 +34,7 @@ function Frame({ civ, kicker, icon, children }) {
       <div className="h-1.5 shrink-0" style={{ background: civ.color }} />
       <div className="flex-1 overflow-y-auto overscroll-contain px-6 pt-5 pb-6 sm:px-7">
         {kicker && (
-          <p className="inline-flex items-center gap-1.5 text-[11px] font-semibold uppercase tracking-[.14em] mb-3" style={{ color: civ.color }}>
+          <p className="inline-flex items-center gap-1.5 text-[11px] font-semibold uppercase tracking-[.14em] mb-3 civ-text" style={civTextStyle(civ.color)}>
             {icon && <Icon name={icon} size={14} />}
             {kicker}
           </p>
@@ -105,7 +105,7 @@ function TextCard({ card, civ }) {
       <p className="mt-4 text-[16px] leading-relaxed text-ink/85">{card.body}</p>
       {card.highlight && (
         <div className="mt-6 p-4 rounded-2xl border border-line bg-surface2/60 flex items-baseline gap-3">
-          <span className="font-display text-3xl font-semibold tabular-nums shrink-0" style={{ color: civ.color }}>
+          <span className="font-display text-3xl font-semibold tabular-nums shrink-0 civ-text" style={civTextStyle(civ.color)}>
             {card.highlight.value}
           </span>
           <span className="text-sm text-muted">{card.highlight.label}</span>
@@ -119,7 +119,7 @@ function KeyFigureCard({ card, civ }) {
   return (
     <Frame civ={civ} kicker={card.kicker}>
       <div className="min-h-[60%] flex flex-col justify-center py-4">
-        <p className="font-display text-6xl sm:text-7xl font-bold leading-none tabular-nums" style={{ color: civ.color }}>
+        <p className="font-display text-6xl sm:text-7xl font-bold leading-none tabular-nums civ-text" style={civTextStyle(civ.color)}>
           {card.value}
         </p>
         <p className="mt-3 text-lg font-medium text-ink">{card.label}</p>
@@ -138,7 +138,7 @@ function DatesCard({ card, civ }) {
         {card.items.map((it, i) => (
           <li key={i} className="relative pl-7 pb-4 last:pb-0">
             <span className="absolute left-0 top-1.5 w-3 h-3 rounded-full ring-4 ring-surface" style={{ background: civ.color }} />
-            <span className="block text-sm font-bold tabular-nums" style={{ color: civ.color }}>{formatYear(it.year)}</span>
+            <span className="block text-sm font-bold tabular-nums civ-text" style={civTextStyle(civ.color)}>{formatYear(it.year)}</span>
             <span className="block text-[15px] text-ink leading-snug">{it.label}</span>
           </li>
         ))}
@@ -156,7 +156,7 @@ function StepsCard({ card, civ }) {
         {card.items.map((it, i) => (
           <li key={i} className="flex items-stretch gap-3">
             <span className="flex flex-col items-center shrink-0">
-              <span className="grid place-items-center w-7 h-7 rounded-full text-xs font-bold text-white" style={{ background: civ.color, opacity: 0.55 + (0.45 * (i + 1)) / card.items.length }}>
+              <span className="grid place-items-center w-7 h-7 rounded-full text-xs font-bold text-white" style={{ background: solidBg(civ.color), opacity: 0.8 + (0.2 * (i + 1)) / card.items.length }}>
                 {i + 1}
               </span>
               {i < card.items.length - 1 && <span className="flex-1 w-0.5 my-1 rounded-full bg-line" />}
@@ -281,7 +281,7 @@ function LineageCard({ civ }) {
             <li
               key={m.civId}
               className={`flex items-center gap-3 p-3 rounded-xl ${current ? 'text-white shadow-soft' : 'bg-surface2/70'}`}
-              style={current ? { background: civ.color } : undefined}
+              style={current ? { background: solidBg(civ.color) } : undefined}
             >
               <span className={`w-2 h-2 rounded-full shrink-0 ${current ? 'bg-white' : ''}`} style={current ? undefined : { background: civ.color }} />
               <span className="min-w-0">
@@ -303,7 +303,7 @@ function RecapCard({ card, civ }) {
       <ul className="mt-5 space-y-3">
         {card.points.map((p, i) => (
           <li key={i} className="flex gap-3 text-[15px] text-ink leading-snug">
-            <span className="grid place-items-center w-6 h-6 rounded-full shrink-0 text-white mt-px" style={{ background: civ.color }}>
+            <span className="grid place-items-center w-6 h-6 rounded-full shrink-0 text-white mt-px" style={{ background: solidBg(civ.color) }}>
               <Icon name="check" size={13} strokeWidth={2.6} />
             </span>
             {p}

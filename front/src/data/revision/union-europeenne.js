@@ -1,0 +1,176 @@
+/** Chapitre rédigé : la construction européenne (1951 – aujourd'hui). */
+export default {
+  readingTime: 5,
+  cards: [
+    // ── Niveau 1 ──
+    {
+      id: 'paix',
+      tier: 1,
+      type: 'text',
+      kicker: 'Création',
+      title: '« Plus jamais la guerre »',
+      body:
+        "Après deux guerres mondiales, des dirigeants veulent rendre une nouvelle guerre impossible entre la France et l'Allemagne. Le 9 mai 1950, le ministre français Robert Schuman propose, sur une idée de Jean Monnet, de mettre en commun le charbon et l'acier, indispensables pour fabriquer des armes. Le 9 mai est devenu la Journée de l'Europe.",
+      highlight: { value: '9 mai 1950', label: 'déclaration Schuman' },
+    },
+    {
+      id: 'fondateurs',
+      tier: 1,
+      type: 'keyfigure',
+      kicker: 'Création',
+      value: '6',
+      label: 'pays fondateurs en 1951',
+      caption: "France, Allemagne de l'Ouest (RFA), Italie, Belgique, Pays-Bas et Luxembourg signent le traité de Paris, qui crée la CECA (Communauté européenne du charbon et de l'acier).",
+    },
+    {
+      id: 'traites',
+      tier: 1,
+      type: 'dates',
+      kicker: 'Pouvoir',
+      title: 'Les grands traités',
+      items: [
+        { year: 1951, label: 'Traité de Paris : la CECA' },
+        { year: 1957, label: 'Traités de Rome : la Communauté économique européenne (CEE)' },
+        { year: 1992, label: "Traité de Maastricht : naissance de l'Union européenne" },
+        { year: 2007, label: 'Traité de Lisbonne : réforme des institutions' },
+      ],
+    },
+    {
+      id: 'elargissements',
+      tier: 1,
+      type: 'steps',
+      kicker: 'Expansion',
+      title: 'De 6 à 28 pays',
+      items: [
+        { year: 1973, label: 'Royaume-Uni, Irlande, Danemark' },
+        { year: 1981, label: 'Grèce' },
+        { year: 1986, label: 'Espagne, Portugal' },
+        { year: 1995, label: 'Autriche, Finlande, Suède' },
+        { year: 2004, label: "Dix pays, surtout d'Europe de l'Est (Pologne, pays baltes…)" },
+        { year: 2007, label: 'Roumanie, Bulgarie' },
+        { year: 2013, label: 'Croatie : 28 membres' },
+      ],
+    },
+    {
+      id: 'membres',
+      tier: 1,
+      type: 'keyfigure',
+      kicker: 'Territoire',
+      value: '27',
+      label: 'pays membres depuis 2020',
+      caption: "Après le départ du Royaume-Uni (le Brexit, en 2020), l'Union compte 27 États et environ 450 millions d'habitants. Plusieurs pays sont candidats pour y entrer.",
+    },
+    {
+      id: 'institutions',
+      tier: 1,
+      type: 'text',
+      kicker: 'Pouvoir',
+      title: "Qui décide dans l'Union ?",
+      body:
+        "La Commission européenne, à Bruxelles, propose les lois. Elles sont votées par le Parlement européen, élu par les citoyens depuis 1979, et par le Conseil de l'Union, où siègent les ministres des États. La Cour de justice, à Luxembourg, veille au respect des règles.",
+    },
+    {
+      id: 'marche',
+      tier: 1,
+      type: 'text',
+      kicker: 'Société',
+      title: 'Un espace sans frontières',
+      body:
+        "Depuis 1993, le marché unique permet la libre circulation des marchandises, des services, des capitaux et des personnes. Grâce à l'espace Schengen, on passe d'un pays à l'autre sans contrôle aux frontières. Le programme Erasmus, créé en 1987, permet à des millions d'étudiants d'étudier à l'étranger.",
+    },
+    {
+      id: 'euro',
+      tier: 1,
+      type: 'text',
+      kicker: 'Création',
+      title: "L'euro, une monnaie commune",
+      body:
+        "Prévu par le traité de Maastricht, l'euro naît en 1999 pour les banques. Le 1er janvier 2002, ses pièces et ses billets remplacent le franc, le mark ou la lire dans douze pays. Aujourd'hui, une vingtaine de pays l'utilisent ; il est géré par la Banque centrale européenne, à Francfort.",
+      highlight: { value: '2002', label: "pièces et billets en euros" },
+    },
+    {
+      id: 'schuman',
+      tier: 1,
+      type: 'person',
+      nom: 'Robert Schuman',
+      role: 'Ministre français, « père de l’Europe »',
+      dates: '1886 – 1963',
+      description: "Né au Luxembourg, il a connu une Lorraine tantôt allemande, tantôt française. Ministre des Affaires étrangères, il lance en 1950 l'idée d'une Europe construite pas à pas, par des « réalisations concrètes ». Il préside ensuite la première assemblée européenne.",
+    },
+
+    // ── Niveau 2 ──
+    {
+      id: 'veil',
+      tier: 2,
+      type: 'person',
+      nom: 'Simone Veil',
+      role: 'Présidente du Parlement européen',
+      dates: '1927 – 2017',
+      description: "Déportée à Auschwitz à 16 ans, elle survit à la Shoah. Devenue ministre en France, elle est élue en 1979 première présidente du Parlement européen élu au suffrage universel.",
+    },
+    {
+      id: 'delors',
+      tier: 2,
+      type: 'person',
+      nom: 'Jacques Delors',
+      role: 'Président de la Commission européenne',
+      dates: '1925 – 2023',
+      description: "De 1985 à 1995, il prépare le marché unique et la monnaie unique. Il est l'un des principaux artisans du traité de Maastricht.",
+    },
+    {
+      id: 'valeurs',
+      tier: 2,
+      type: 'text',
+      kicker: 'Droits',
+      title: 'Des conditions pour entrer',
+      body:
+        "Depuis 1993, un pays candidat doit respecter les « critères de Copenhague » : être une démocratie stable, respecter les droits humains et les minorités, avoir une économie de marché. Tous les membres ont aboli la peine de mort. La Charte des droits fondamentaux (2000) rassemble les droits des citoyens européens.",
+    },
+    {
+      id: 'crises',
+      tier: 2,
+      type: 'text',
+      kicker: 'Crise',
+      title: 'Des crises et des doutes',
+      body:
+        "En 2005, les Français et les Néerlandais rejettent par référendum un projet de Constitution européenne. À partir de 2010, la crise de la dette frappe la Grèce et d'autres pays de la zone euro. En 2016, les Britanniques votent pour quitter l'Union, ce qu'ils font en 2020.",
+    },
+    {
+      id: 'nobel',
+      tier: 2,
+      type: 'text',
+      kicker: 'Héritage',
+      title: 'Un prix Nobel de la paix',
+      body:
+        "En 2012, l'Union européenne reçoit le prix Nobel de la paix pour avoir contribué pendant plus de soixante ans à la paix, à la réconciliation et à la démocratie en Europe. Des pays autrefois ennemis, ou séparés par le rideau de fer, coopèrent désormais.",
+    },
+  ],
+
+  quiz: [
+    { id: 'but', type: 'mcq', prompt: 'Quel est le but premier de la construction européenne après 1945 ?', options: ['Rendre la guerre impossible entre Européens', 'Conquérir des colonies', 'Créer une armée contre les États-Unis', 'Rétablir les monarchies'], answer: 0 },
+    { id: 'schuman', type: 'mcq', prompt: 'Qui prononce la déclaration du 9 mai 1950 ?', options: ['Robert Schuman', 'Charles de Gaulle', 'Winston Churchill', 'Jacques Delors'], answer: 0 },
+    { id: 'ceca', type: 'mcq', prompt: 'Que met en commun la CECA en 1951 ?', options: ["Le charbon et l'acier", 'Le blé et le vin', "Le pétrole et l'électricité", 'Les armées'], answer: 0 },
+    { id: 'six', type: 'mcq', prompt: 'Combien de pays fondent la CECA ?', options: ['6', '12', '27', '4'], answer: 0 },
+    { id: 'fondateur', type: 'mcq', prompt: 'Lequel de ces pays fait partie des fondateurs ?', options: ['La Belgique', 'Le Royaume-Uni', "L'Espagne", 'La Suède'], answer: 0 },
+    { id: 'rome', type: 'mcq', prompt: 'Quel traité crée la CEE en 1957 ?', options: ['Le traité de Rome', 'Le traité de Maastricht', 'Le traité de Lisbonne', 'Le traité de Versailles'], answer: 0 },
+    { id: 'maastricht', type: 'mcq', prompt: "Quel traité donne naissance à l'Union européenne en 1992 ?", options: ['Le traité de Maastricht', 'Le traité de Rome', 'Le traité de Paris', 'Le traité de Lisbonne'], answer: 0 },
+    { id: 'ru', type: 'mcq', prompt: 'En quelle année le Royaume-Uni entre-t-il dans la Communauté européenne ?', options: ['1973', '1957', '1995', '2004'], answer: 0 },
+    { id: 'elargissement', type: 'tf', prompt: "En 2004, dix pays rejoignent l'Union européenne, surtout d'Europe de l'Est.", answer: true },
+    { id: 'membres', type: 'mcq', prompt: "Combien de pays compte l'Union européenne depuis le Brexit ?", options: ['27', '28', '25', '30'], answer: 0 },
+    { id: 'parlement', type: 'mcq', prompt: 'Depuis quelle année les citoyens élisent-ils le Parlement européen ?', options: ['1979', '1951', '1992', '2002'], answer: 0 },
+    { id: 'commission', type: 'mcq', prompt: 'Dans quelle ville siège la Commission européenne ?', options: ['Bruxelles', 'Paris', 'Berlin', 'Genève'], answer: 0 },
+    { id: 'euro', type: 'mcq', prompt: 'Quand les pièces et billets en euros entrent-ils dans les porte-monnaie ?', options: ['2002', '1992', '1999', '2010'], answer: 0 },
+    { id: 'euro-tous', type: 'tf', prompt: "Tous les pays de l'Union européenne utilisent l'euro.", answer: false, explanation: 'Une vingtaine de pays seulement l’utilisent ; d’autres, comme la Pologne ou la Suède, gardent leur monnaie.' },
+    { id: 'erasmus', type: 'mcq', prompt: "Quel programme permet aux étudiants d'étudier dans un autre pays européen ?", options: ['Erasmus', 'Schengen', 'Galileo', 'Copenhague'], answer: 0 },
+    { id: 'veil', type: 'mcq', prompt: 'Qui devient en 1979 la première présidente du Parlement européen élu ?', options: ['Simone Veil', 'Marie Curie', 'Angela Merkel', 'Christine Lagarde'], answer: 0 },
+    { id: 'nobel', type: 'tf', prompt: "L'Union européenne a reçu le prix Nobel de la paix en 2012.", answer: true },
+    { id: 'ordre', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Traité de Paris (CECA)', 'Traités de Rome (CEE)', 'Traité de Maastricht', "Mise en circulation de l'euro", 'Sortie du Royaume-Uni'] },
+  ],
+
+  recap: [
+    '1950-1951 : Schuman et Monnet lancent la CECA à 6 pour garantir la paix',
+    '1957 : traités de Rome (CEE) ; 1992 : Maastricht crée l’Union européenne',
+    'Élargissements de 6 à 28 pays, puis 27 après le Brexit (2020)',
+    'Marché unique, Schengen, Erasmus et l’euro (2002)',
+  ],
+}

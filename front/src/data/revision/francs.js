@@ -1,0 +1,173 @@
+/** Chapitre rédigé : Royaume franc (481 – 987). */
+export default {
+  readingTime: 5,
+  cards: [
+    // ── Niveau 1 ──
+    {
+      id: 'clovis',
+      tier: 1,
+      type: 'text',
+      kicker: 'Création',
+      title: 'Clovis, roi des Francs',
+      body:
+        "En 481, Clovis devient roi d'un petit peuple germanique installé autour de Tournai : les Francs saliens. En 486, il bat à Soissons le dernier chef romain de Gaule, Syagrius. Sa famille, les Mérovingiens, tire son nom d'un ancêtre légendaire, Mérovée.",
+      highlight: { value: '481', label: 'Clovis devient roi des Francs' },
+    },
+    {
+      id: 'bapteme',
+      tier: 1,
+      type: 'text',
+      kicker: 'Croyances',
+      title: 'Le baptême de Reims',
+      body:
+        "Clovis se fait baptiser à Reims par l'évêque Remi, selon la tradition vers 496 (la date exacte est discutée). Il choisit le christianisme catholique, celui des Gallo-Romains, alors que les autres rois germaniques sont ariens. L'Église devient son alliée.",
+      highlight: { value: '≈ 496', label: 'baptême de Clovis à Reims' },
+    },
+    {
+      id: 'vouille',
+      tier: 1,
+      type: 'war',
+      nom: 'Bataille de Vouillé',
+      annee: 507,
+      adversaires: ['Wisigoths (roi Alaric II)'],
+      allies: ['Francs de Clovis'],
+      vainqueur: 'Les Francs',
+      consequences: "Alaric II est tué. Les Francs prennent presque toute l'Aquitaine et les Wisigoths se replient en Espagne. Clovis fait ensuite de Paris sa résidence principale.",
+    },
+    {
+      id: 'carte',
+      tier: 1,
+      type: 'map',
+      kicker: 'Territoire',
+      title: 'Du royaume de Clovis à l’empire de Charlemagne',
+      years: [500, 800, 900],
+      caption: "Comparez : le royaume franc s'étend sur la Gaule vers 500, devient un immense empire vers 800, puis se divise après 843.",
+    },
+    {
+      id: 'pepin',
+      tier: 1,
+      type: 'text',
+      kicker: 'Pouvoir',
+      title: 'Des maires du palais aux Carolingiens',
+      body:
+        "Après Clovis, le royaume est souvent partagé entre ses héritiers. Les rois mérovingiens perdent leur pouvoir au profit des maires du palais, leurs premiers ministres. En 751, l'un d'eux, Pépin le Bref, écarte le dernier Mérovingien et se fait sacrer roi : c'est le début des Carolingiens.",
+      highlight: { value: '751', label: 'Pépin le Bref devient roi' },
+    },
+    {
+      id: 'poitiers',
+      tier: 1,
+      type: 'war',
+      nom: 'Bataille de Poitiers',
+      annee: 732,
+      adversaires: ['Armée omeyyade d’al-Andalus (Abd al-Rahman)'],
+      allies: ['Francs de Charles Martel'],
+      vainqueur: 'Les Francs',
+      consequences: "Abd al-Rahman est tué et son armée se retire. Cette victoire donne un immense prestige à Charles Martel, le père de Pépin le Bref et le grand-père de Charlemagne.",
+    },
+    {
+      id: 'charlemagne',
+      tier: 1,
+      type: 'person',
+      nom: 'Charlemagne',
+      role: 'Roi des Francs, puis empereur',
+      dates: 'règne 768 – 814',
+      description: "Fils de Pépin le Bref, il conquiert le royaume des Lombards en Italie (774) et mène plus de trente ans de guerres pour soumettre et convertir de force les Saxons. Il réside surtout à Aix-la-Chapelle, où il meurt en 814.",
+    },
+    {
+      id: 'sacre',
+      tier: 1,
+      type: 'text',
+      kicker: 'Apogée',
+      title: 'Noël 800 : un empereur en Occident',
+      body:
+        "Le 25 décembre 800, à Rome, le pape Léon III couronne Charlemagne empereur. Pour la première fois depuis la disparition de l'Empire romain d'Occident en 476, l'Occident a de nouveau un empereur. Son empire s'étend du nord de l'Espagne jusqu'à l'Elbe, en Germanie, et au centre de l'Italie.",
+      highlight: { value: '800', label: 'sacre impérial de Charlemagne' },
+    },
+    {
+      id: 'verdun',
+      tier: 1,
+      type: 'keyfigure',
+      kicker: 'Fin',
+      value: '3',
+      label: 'royaumes issus du traité de Verdun (843)',
+      caption: "Les trois petits-fils de Charlemagne se partagent l'empire : Charles le Chauve reçoit l'ouest (future France), Louis le Germanique l'est (future Allemagne) et Lothaire une bande au milieu, de la mer du Nord à l'Italie.",
+    },
+
+    // ── Niveau 2 ──
+    {
+      id: 'renaissance',
+      tier: 2,
+      type: 'text',
+      kicker: 'Culture',
+      title: 'La renaissance carolingienne',
+      body:
+        "Charlemagne fait venir des savants, comme le moine anglais Alcuin, et demande aux monastères d'ouvrir des écoles. Les copistes recopient les textes antiques dans une écriture claire, la minuscule caroline : nos lettres minuscules actuelles en descendent.",
+    },
+    {
+      id: 'missi',
+      tier: 2,
+      type: 'text',
+      kicker: 'Pouvoir',
+      title: 'Les missi dominici',
+      body:
+        "L'empire est divisé en comtés confiés à des comtes. Pour les surveiller, Charlemagne envoie des « missi dominici » (les envoyés du maître), en général deux : un laïc et un homme d'Église. Ils font appliquer les capitulaires, les ordres écrits de l'empereur.",
+    },
+    {
+      id: 'roncevaux',
+      tier: 2,
+      type: 'war',
+      nom: 'Embuscade de Roncevaux',
+      annee: 778,
+      adversaires: ['Montagnards basques'],
+      allies: ['Arrière-garde de l’armée de Charlemagne'],
+      vainqueur: 'Les Basques',
+      consequences: "Au retour d'une expédition en Espagne, l'arrière-garde franque est massacrée dans les Pyrénées. Trois siècles plus tard, la Chanson de Roland transforme ce revers en épopée héroïque contre les « Sarrasins ».",
+    },
+    {
+      id: 'strasbourg',
+      tier: 2,
+      type: 'text',
+      kicker: 'Héritage',
+      title: 'Les serments de Strasbourg',
+      body:
+        "En 842, Charles le Chauve et Louis le Germanique s'allient contre leur frère Lothaire. Chacun prête serment dans la langue de l'armée de l'autre : en langue romane et en langue germanique. Ce texte est le plus ancien connu dans une langue ancêtre du français.",
+    },
+    {
+      id: 'fin',
+      tier: 2,
+      type: 'text',
+      kicker: 'Fin',
+      title: 'Le déclin des Carolingiens',
+      body:
+        "Au IXe siècle, les raids vikings et la puissance croissante des comtes affaiblissent les rois. En 911, Charles le Simple cède aux Vikings de Rollon la future Normandie. En 987, à la mort de Louis V, les grands du royaume élisent Hugues Capet.",
+    },
+  ],
+
+  quiz: [
+    { id: 'clovis', type: 'mcq', prompt: 'Quel roi franc est baptisé à Reims ?', options: ['Clovis', 'Charlemagne', 'Pépin le Bref', 'Charles Martel'], answer: 0 },
+    { id: 'remi', type: 'mcq', prompt: 'Quel évêque baptise Clovis ?', options: ['Remi', 'Martin', 'Boniface', 'Grégoire de Tours'], answer: 0 },
+    { id: 'catholique', type: 'tf', prompt: 'Clovis choisit le christianisme catholique, comme les Gallo-Romains.', answer: true },
+    { id: 'vouille', type: 'mcq', prompt: 'Contre quel peuple Clovis gagne-t-il la bataille de Vouillé en 507 ?', options: ['Les Wisigoths', 'Les Saxons', 'Les Lombards', 'Les Vikings'], answer: 0 },
+    { id: 'merovingiens', type: 'mcq', prompt: 'Comment s’appelle la dynastie de Clovis ?', options: ['Les Mérovingiens', 'Les Carolingiens', 'Les Capétiens', 'Les Valois'], answer: 0 },
+    { id: 'poitiers', type: 'mcq', prompt: 'Qui commande les Francs à la bataille de Poitiers en 732 ?', options: ['Charles Martel', 'Charlemagne', 'Clovis', 'Pépin le Bref'], answer: 0 },
+    { id: 'pepin', type: 'mcq', prompt: 'Qui écarte le dernier roi mérovingien et devient roi en 751 ?', options: ['Pépin le Bref', 'Charles Martel', 'Louis le Pieux', 'Hugues Capet'], answer: 0 },
+    { id: 'maires', type: 'tf', prompt: 'Les maires du palais sont des chefs de ville élus par les habitants.', answer: false, explanation: 'Ce sont les premiers personnages du palais royal, qui finissent par gouverner à la place des rois mérovingiens.' },
+    { id: 'saxons', type: 'mcq', prompt: 'Quel peuple païen Charlemagne soumet-il et convertit-il de force ?', options: ['Les Saxons', 'Les Wisigoths', 'Les Huns', 'Les Bretons'], answer: 0 },
+    { id: 'sacre-pape', type: 'mcq', prompt: 'Qui couronne Charlemagne empereur à Rome ?', options: ['Le pape Léon III', 'L’évêque Remi', 'Le moine Alcuin', 'L’empereur de Byzance'], answer: 0 },
+    { id: 'sacre-date', type: 'mcq', prompt: 'En quelle année Charlemagne devient-il empereur ?', options: ['800', '732', '843', '987'], answer: 0 },
+    { id: 'aix', type: 'mcq', prompt: 'Dans quelle ville Charlemagne réside-t-il surtout ?', options: ['Aix-la-Chapelle', 'Paris', 'Rome', 'Reims'], answer: 0 },
+    { id: 'missi', type: 'tf', prompt: 'Les missi dominici sont envoyés par l’empereur pour contrôler les comtes.', answer: true },
+    { id: 'caroline', type: 'mcq', prompt: 'Quelle écriture, ancêtre de nos minuscules, se répand sous Charlemagne ?', options: ['La minuscule caroline', 'Les runes', 'L’écriture gothique', 'L’alphabet cyrillique'], answer: 0 },
+    { id: 'roncevaux', type: 'tf', prompt: 'À Roncevaux, en 778, l’arrière-garde de Charlemagne est massacrée par une armée musulmane.', answer: false, explanation: 'Les attaquants sont des Basques ; c’est la Chanson de Roland qui en fait des « Sarrasins ».' },
+    { id: 'verdun', type: 'mcq', prompt: 'Quel traité partage l’empire carolingien en trois royaumes en 843 ?', options: ['Le traité de Verdun', 'Le traité de Troyes', 'Le traité de Tordesillas', 'Le traité de Westphalie'], answer: 0 },
+    { id: 'strasbourg', type: 'mcq', prompt: 'Pourquoi les serments de Strasbourg (842) sont-ils célèbres ?', options: ['C’est le plus ancien texte connu dans une langue ancêtre du français', 'Ils créent le titre d’empereur', 'Ils partagent l’empire en trois', 'Ils fondent la Normandie'], answer: 0 },
+    { id: 'ordre', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Baptême de Clovis', 'Bataille de Poitiers', 'Sacre de Charlemagne', 'Traité de Verdun'] },
+  ],
+
+  recap: [
+    '481-511 : Clovis unifie la Gaule et se fait baptiser catholique',
+    '751 : les Carolingiens remplacent les Mérovingiens',
+    '800 : Charlemagne est couronné empereur à Rome',
+    '843 : le traité de Verdun partage l’empire en trois',
+  ],
+}

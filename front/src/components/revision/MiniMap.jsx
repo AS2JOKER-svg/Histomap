@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import { geoNaturalEarth1, geoPath } from 'd3-geo'
-import { linkTerritory, loadLand, loadSnapshot } from '../../lib/map'
+import { linkTerritoryFor, loadLand, loadSnapshot } from '../../lib/map'
 import { formatYear } from '../../lib/time'
 
 const W = 360
@@ -35,7 +35,7 @@ export default function MiniMap({ civ, years, quiz = false }) {
     const own = {}
     const all = []
     for (const y of years) {
-      own[y] = data.snapshots[y].features.map((f) => ({ f, link: linkTerritory(f.properties, y) }))
+      own[y] = data.snapshots[y].features.map((f) => ({ f, link: linkTerritoryFor(f.properties, y, civ.id) }))
       all.push(...own[y].filter((t) => t.link?.civ.id === civ.id && !t.link.colony).map((t) => t.f))
     }
     const projection = geoNaturalEarth1()

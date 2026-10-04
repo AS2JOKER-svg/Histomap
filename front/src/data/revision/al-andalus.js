@@ -1,0 +1,170 @@
+/** Chapitre rédigé : Al-Andalus (711 – 1492). */
+export default {
+  readingTime: 5,
+  cards: [
+    // ── Niveau 1 ──
+    {
+      id: 'conquete',
+      tier: 1,
+      type: 'text',
+      kicker: 'Création',
+      title: 'Tariq franchit le détroit',
+      body:
+        "En 711, le chef berbère Tariq ibn Ziyad traverse le détroit avec une armée venue d'Afrique du Nord. Il bat le roi wisigoth Rodrigue, et en quelques années presque toute la péninsule Ibérique passe sous domination musulmane. Le nom de Gibraltar vient de l'arabe Djebel Tariq, « la montagne de Tariq ».",
+      highlight: { value: '711', label: 'conquête musulmane de la péninsule Ibérique' },
+    },
+    {
+      id: 'duree',
+      tier: 1,
+      type: 'keyfigure',
+      kicker: 'Durée',
+      value: '≈ 780 ans',
+      label: "de présence politique musulmane en Espagne",
+      caption: "De 711 à 1492, le territoire d'al-Andalus ne cesse pourtant de changer : immense au début, il se réduit peu à peu au seul royaume de Grenade.",
+    },
+    {
+      id: 'carte',
+      tier: 1,
+      type: 'map',
+      kicker: 'Territoire',
+      title: 'Al-Andalus sur la carte',
+      years: [900, 1200, 1400],
+      caption: "Comparez : presque toute la péninsule vers 900, puis un territoire grignoté par les royaumes chrétiens du Nord, jusqu'au petit royaume de Grenade.",
+    },
+    {
+      id: 'omeyyades',
+      tier: 1,
+      type: 'steps',
+      kicker: 'Pouvoir',
+      title: 'De l’émirat au califat de Cordoue',
+      items: [
+        { year: 756, label: "Abd al-Rahman Ier, survivant des Omeyyades, fonde l'émirat de Cordoue" },
+        { year: 929, label: 'Abd al-Rahman III se proclame calife' },
+        { year: 1031, label: 'Fin du califat : éclatement en royaumes de taïfas' },
+      ],
+    },
+    {
+      id: 'abd-al-rahman-iii',
+      tier: 1,
+      type: 'person',
+      nom: 'Abd al-Rahman III',
+      role: 'Émir puis calife de Cordoue',
+      dates: 'règne 912 – 961',
+      description: "Il rétablit l'ordre dans al-Andalus et se proclame calife en 929, rival de ceux de Bagdad et du Caire. Il fait bâtir près de Cordoue la ville-palais de Madinat al-Zahra.",
+    },
+    {
+      id: 'mosquee',
+      tier: 1,
+      type: 'text',
+      kicker: "Âge d'or",
+      title: 'Cordoue, perle de l’Occident',
+      body:
+        "Au Xe siècle, Cordoue est l'une des plus grandes villes d'Europe. Sa Grande Mosquée, commencée en 785 et agrandie pendant deux siècles, est célèbre pour sa forêt de colonnes et ses arcs rayés de rouge et de blanc. Après la reconquête chrétienne, une cathédrale est construite en son centre.",
+    },
+    {
+      id: 'dhimmis',
+      tier: 1,
+      type: 'text',
+      kicker: 'Société',
+      title: 'Musulmans, juifs et chrétiens',
+      body:
+        "Chrétiens et juifs ont le statut de dhimmis, « protégés » : ils peuvent pratiquer leur religion à condition de payer un impôt spécial, la jizya. Ils ne sont pas les égaux des musulmans, mais cette coexistence permet des échanges culturels très riches. Les historiens discutent encore de son ampleur réelle.",
+    },
+    {
+      id: 'savoirs',
+      tier: 1,
+      type: 'text',
+      kicker: 'Connaissance',
+      title: 'Un pont entre les savoirs',
+      body:
+        "Médecins, astronomes et philosophes travaillent à partir des textes grecs traduits en arabe. Au XIIe siècle, à Tolède, devenue chrétienne, ces ouvrages sont traduits en latin : ils nourrissent ensuite les universités de l'Europe chrétienne.",
+    },
+    {
+      id: 'grenade',
+      tier: 1,
+      type: 'text',
+      kicker: 'Fin',
+      title: 'La chute de Grenade',
+      body:
+        "Le 2 janvier 1492, Boabdil, dernier émir de Grenade, remet sa ville aux Rois catholiques, Isabelle de Castille et Ferdinand d'Aragon. C'est la fin de la Reconquista. Les juifs sont expulsés la même année, puis les musulmans sont contraints à la conversion.",
+      highlight: { value: '1492', label: 'prise de Grenade par les Rois catholiques' },
+    },
+
+    // ── Niveau 2 ──
+    {
+      id: 'navas',
+      tier: 2,
+      type: 'war',
+      nom: 'Bataille de Las Navas de Tolosa',
+      annee: 1212,
+      adversaires: ['Castille', 'Aragon', 'Navarre', 'Croisés venus d’Europe'],
+      allies: ['Empire almohade'],
+      vainqueur: 'Les royaumes chrétiens',
+      consequences: "La défaite des Almohades ouvre le sud de l'Espagne aux chrétiens : Cordoue tombe en 1236, Séville en 1248. Seul le royaume de Grenade subsiste.",
+    },
+    {
+      id: 'averroes',
+      tier: 2,
+      type: 'person',
+      nom: 'Averroès (Ibn Rushd)',
+      role: 'Philosophe, juge et médecin',
+      dates: '1126 – 1198',
+      description: "Né à Cordoue, il commente les œuvres du philosophe grec Aristote et défend l'idée que la raison et la foi ne s'opposent pas. Ses commentaires, traduits en latin, sont étudiés dans toute l'Europe chrétienne.",
+    },
+    {
+      id: 'maimonide',
+      tier: 2,
+      type: 'person',
+      nom: 'Maïmonide',
+      role: 'Philosophe et médecin juif',
+      dates: '1138 – 1204',
+      description: "Né à Cordoue, il doit fuir l'intolérance des Almohades et s'installe au Caire, où il devient médecin à la cour. Son « Guide des égarés » cherche lui aussi à accorder foi et raison.",
+    },
+    {
+      id: 'agriculture',
+      tier: 2,
+      type: 'text',
+      kicker: 'Découvertes',
+      title: 'De nouvelles plantes',
+      body:
+        "Grâce à l'irrigation (canaux, norias), les paysans d'al-Andalus développent la culture des agrumes, du riz, de la canne à sucre ou du coton. Beaucoup de mots espagnols viennent de l'arabe, comme naranja (orange) ou azúcar (sucre).",
+    },
+    {
+      id: 'alhambra',
+      tier: 2,
+      type: 'text',
+      kicker: 'Héritage',
+      title: "L'Alhambra de Grenade",
+      body:
+        "Aux XIIIe et XIVe siècles, les émirs nasrides bâtissent l'Alhambra, palais aux murs couverts de stucs sculptés et d'inscriptions, autour de cours et de fontaines. C'est aujourd'hui l'un des monuments les plus visités d'Espagne.",
+    },
+  ],
+
+  quiz: [
+    { id: 'tariq', type: 'mcq', prompt: 'Quel chef mène la conquête musulmane de l’Espagne en 711 ?', options: ['Tariq ibn Ziyad', 'Abd al-Rahman III', 'Boabdil', 'Haroun al-Rachid'], answer: 0 },
+    { id: 'gibraltar', type: 'mcq', prompt: 'D’où vient le nom de Gibraltar ?', options: ['De Djebel Tariq, « la montagne de Tariq »', "D'un roi wisigoth", "D'un dieu romain", "D'un mot latin signifiant « port »"], answer: 0 },
+    { id: 'wisigoths', type: 'mcq', prompt: 'Quel royaume chrétien les musulmans renversent-ils en 711 ?', options: ['Le royaume wisigoth', 'Le royaume franc', 'Le royaume de Castille', "L'Empire byzantin"], answer: 0 },
+    { id: 'capitale', type: 'mcq', prompt: "Quelle ville est la capitale d'al-Andalus au temps des Omeyyades ?", options: ['Cordoue', 'Madrid', 'Barcelone', 'Lisbonne'], answer: 0 },
+    { id: 'calife', type: 'mcq', prompt: 'Qui se proclame calife à Cordoue en 929 ?', options: ['Abd al-Rahman III', 'Tariq ibn Ziyad', 'Averroès', 'Boabdil'], answer: 0 },
+    { id: 'taifas', type: 'mcq', prompt: 'Comment appelle-t-on les petits royaumes nés de la fin du califat en 1031 ?', options: ['Les taïfas', 'Les émirats', 'Les califats', 'Les sultanats'], answer: 0 },
+    { id: 'mosquee', type: 'tf', prompt: 'La Grande Mosquée de Cordoue est célèbre pour sa forêt de colonnes et ses arcs bicolores.', answer: true },
+    { id: 'dhimmis', type: 'mcq', prompt: 'Quel impôt spécial paient les chrétiens et les juifs d’al-Andalus ?', options: ['La jizya', 'La dîme', 'La taille', 'La gabelle'], answer: 0 },
+    { id: 'egalite', type: 'tf', prompt: 'En al-Andalus, juifs, chrétiens et musulmans ont exactement les mêmes droits.', answer: false, explanation: 'Les dhimmis sont protégés et libres de leur culte, mais ils paient un impôt spécial et ne sont pas les égaux des musulmans.' },
+    { id: 'averroes', type: 'mcq', prompt: 'Quel philosophe grec Averroès commente-t-il ?', options: ['Aristote', 'Homère', 'Pythagore', 'Hérodote'], answer: 0 },
+    { id: 'maimonide', type: 'mcq', prompt: 'Qui est Maïmonide ?', options: ['Un philosophe et médecin juif né à Cordoue', 'Un émir de Grenade', 'Un roi de Castille', 'Un général almohade'], answer: 0 },
+    { id: 'tolede', type: 'mcq', prompt: 'Dans quelle ville les savoirs arabes sont-ils traduits en latin au XIIe siècle ?', options: ['Tolède', 'Grenade', 'Séville', 'Bagdad'], answer: 0 },
+    { id: 'navas', type: 'mcq', prompt: 'Quelle bataille de 1212 brise la puissance almohade ?', options: ['Las Navas de Tolosa', 'Poitiers', 'Guadalete', 'Lépante'], answer: 0 },
+    { id: 'alhambra', type: 'mcq', prompt: 'Dans quelle ville se trouve le palais de l’Alhambra ?', options: ['Grenade', 'Cordoue', 'Tolède', 'Séville'], answer: 0 },
+    { id: 'boabdil', type: 'mcq', prompt: 'Qui est le dernier émir de Grenade ?', options: ['Boabdil', 'Abd al-Rahman Ier', 'Averroès', 'Tariq ibn Ziyad'], answer: 0 },
+    { id: 'rois-catholiques', type: 'mcq', prompt: 'À qui Grenade est-elle remise en 1492 ?', options: ['Isabelle de Castille et Ferdinand d’Aragon', 'Charlemagne', 'Charles Quint', 'Philippe II'], answer: 0 },
+    { id: 'naranja', type: 'tf', prompt: 'Le mot espagnol naranja (orange) vient de l’arabe.', answer: true },
+    { id: 'ordre', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Conquête de Tariq ibn Ziyad', 'Abd al-Rahman III se proclame calife', 'Bataille de Las Navas de Tolosa', 'Chute de Grenade'] },
+  ],
+
+  recap: [
+    '711 : Tariq ibn Ziyad conquiert la péninsule Ibérique',
+    '929 : Abd al-Rahman III fait de Cordoue la capitale d’un califat',
+    'Coexistence inégale et foyer de savoirs transmis à l’Europe',
+    '1492 : Boabdil remet Grenade aux Rois catholiques',
+  ],
+}

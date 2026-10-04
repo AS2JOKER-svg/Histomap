@@ -2,7 +2,6 @@ import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { getEpochs, countCivilizations, findCivilization } from '../lib/data'
 import { formatYear } from '../lib/time'
-import { isHandwritten } from '../lib/revision'
 import { PASS_MARK } from '../lib/quiz'
 import useDocumentTitle from '../lib/useDocumentTitle'
 import PageHeader from '../components/ui/PageHeader'
@@ -81,7 +80,6 @@ export default function RevisePage() {
           const civIds = epoch.continents.flatMap((c) => c.civilizations.map((v) => v.id))
           const finished = civIds.filter((id) => chapters[id]?.rounds > 0 || quizzes[id]?.best >= PASS_MARK).length
           const validated = civIds.filter((id) => quizzes[id]?.best >= PASS_MARK).length
-          const enriched = civIds.some(isHandwritten)
           return (
             <motion.div key={epoch.id} initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: i * 0.05 }}>
               <Link to={`/reviser/${epoch.id}`} className="group card hoverable p-5 flex items-center gap-4 h-full">
@@ -95,11 +93,6 @@ export default function RevisePage() {
                     {finished ? `${finished} chapitre${finished > 1 ? 's' : ''} fait${finished > 1 ? 's' : ''} sur ${total}` : `${total} chapitres à découvrir`}
                     {validated > 0 && <span className="text-success font-medium"> · {validated} validé{validated > 1 ? 's' : ''} ✓</span>}
                   </span>
-                  {enriched && (
-                    <span className="mt-2 inline-flex items-center gap-1 text-[11px] font-semibold text-accent">
-                      <Icon name="star" size={12} /> Chapitre enrichi disponible
-                    </span>
-                  )}
                 </span>
                 <Icon name="chevronRight" className="text-muted group-hover:text-ink group-hover:translate-x-0.5 transition" />
               </Link>

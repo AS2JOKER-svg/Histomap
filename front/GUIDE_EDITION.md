@@ -67,18 +67,22 @@ Après `npm run data`, tous les membres prennent la même couleur (frise, carte,
 « ← Avant / La suite → » (champ `lineage` généré dans `epochs.json`). Une civilisation n'appartient qu'à une lignée.
 
 ### Écrire un chapitre de révision (« On avance »)
-**Chapitres rédigés à ce jour (11)** : Europe paléolithique · Égypte · Grèce · Rome · Chine (Qin & Han) ·
-Empire byzantin · Califat islamique · Empire mongol · France capétienne · France d'Ancien Régime · France contemporaine.
+**Les 105 civilisations ont un chapitre rédigé** (cartes + quiz + bilan) dans `src/data/revision/<id>.js`.
+Sans fichier, une civilisation aurait un chapitre **généré automatiquement** à partir de ses données
+(c'est le cas d'une nouvelle civilisation ajoutée aux données, tant qu'on n'a pas écrit son chapitre).
 
-Chaque civilisation a un chapitre **généré automatiquement** à partir de ses données. Pour un chapitre
-**rédigé à la main** (meilleure qualité) : copier `src/data/revision/france-capet.js`, l'adapter, puis
-l'enregistrer dans `src/data/revision/index.js`.
+Pour écrire ou réécrire un chapitre : copier `src/data/revision/carthage.js` sous le nom `<id de la civilisation>.js`
+et l'adapter. **Pas d'enregistrement à faire** : `scripts/build-revision-index.mjs` (lancé par `npm run data` et avant
+chaque build) régénère `src/data/revision/index.js` et `src/data/revision-meta.json`. Sur le site, chaque chapitre est
+un petit fichier chargé seulement quand on l'ouvre (`src/lib/chapters.js`).
 - `tier: 1` = premier passage (l'essentiel) ; `tier: 2` = nouvelles cartes quand on reprend le chapitre.
 - Types de cartes : `text` (titre + texte + chiffre mis en avant), `keyfigure` (grand chiffre), `dates`,
   `steps` (schéma en étapes), `map` (mini-carte, `years: [...]`), `war`, `person`, `leaders`.
 - La couverture, la carte « avant / après » (lignée) et le bilan (`recap`) sont ajoutés automatiquement.
 - `npm run validate` vérifie les chapitres rédigés (`scripts/validate-revision.mjs`) : ids uniques, types de cartes,
   bonne réponse existante, années de carte disponibles. Une erreur bloque le build.
+- Pour vérifier un nouveau fichier avant de l'enregistrer : `node scripts/validate-revision.mjs src/data/revision/mon-chapitre.js`.
+- Carte `map` : prendre des années listées pour la civilisation dans `src/data/map-presence.json` (sinon la mini-carte n'a rien à colorer).
 
 ### Questions de quiz
 Chaque chapitre a un réservoir de questions **générées automatiquement** (≈ 38 en moyenne, de 20 à 67) :
@@ -135,6 +139,8 @@ Dans `src/data/map-links.js` :
 - **Boutons** : classes prêtes à l'emploi `btn-primary`, `btn-secondary`, `btn-ghost`, `btn-icon` (zone tactile ≥ 44 px).
 - **`localStorage`** : toujours passer par `src/lib/storage.js` (protégé contre la navigation privée).
 - **Progression** : clé `histomap_progress` (version 1). Si vous changez sa forme, incrémentez `VERSION` et complétez `migrate()` dans `store/progress.js`, sinon les utilisateurs perdent leur avancement.
+- **Couleur d'une civilisation en texte** : ne pas écrire `style={{ color: civ.color }}` (certaines couleurs, comme l'or de l'Égypte, sont illisibles sur fond blanc) mais `className="civ-text" style={civTextStyle(civ.color)}` ; pour un fond portant du texte blanc : `style={{ background: solidBg(civ.color) }}` (`src/lib/color.js`). Le contraste AA (4,5:1) est alors garanti dans les deux thèmes.
+- **Application installable / hors ligne** : `public/manifest.webmanifest` (nom, icônes, raccourcis), `sw/sw.js` (service worker, complété au build par le plugin de `vite.config.js`), `src/lib/pwa.js` + `src/store/app.js` (connexion, installation, mise à jour). Le service worker n'est actif qu'après `npm run build` (pas en `npm run dev`). Icônes : `public/icons/`.
 - **Vibrations** : `haptic('success')` depuis `src/lib/haptics.js`. Android uniquement (Safari iOS ne le permet pas).
 - Frise d'une époque : `LANE_H`, `LANE_GAP`, `MIN_W`, `ZOOM_MAX` en tête de `EpochTimeline.jsx`. Les époques de plus de 20 000 ans passent automatiquement en échelle logarithmique (`LOG_THRESHOLD` dans `time.js`).
 - `trackId` : des civilisations successives d'une même piste (Ghana → Mali) restent sur la même ligne ; si elles se chevauchent nettement, elles sont séparées automatiquement.

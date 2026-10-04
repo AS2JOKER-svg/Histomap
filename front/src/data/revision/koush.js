@@ -1,0 +1,172 @@
+/** Chapitre rédigé : Royaume de Koush (≈ 1070 av. J.-C. – 350 apr. J.-C.). */
+export default {
+  readingTime: 4,
+  cards: [
+    // ── Niveau 1 ──
+    {
+      id: 'nubie',
+      tier: 1,
+      type: 'text',
+      kicker: 'Création',
+      title: 'Un royaume sur le Nil, au sud de l’Égypte',
+      body:
+        "La Nubie s'étend le long du Nil, au sud de l'Égypte (l'actuel Soudan). Longtemps dominée par les pharaons, elle redevient indépendante après 1070 av. J.-C., quand l'Égypte s'affaiblit. Au VIIIe siècle av. J.-C., des rois installés à Napata, au pied de la montagne sacrée du Gebel Barkal, fondent le royaume de Koush.",
+      highlight: { value: 'Napata', label: 'première capitale, près du Gebel Barkal' },
+    },
+    {
+      id: 'carte',
+      tier: 1,
+      type: 'map',
+      kicker: 'Territoire',
+      title: 'Koush, de Napata à Méroé',
+      years: [-700, -300, 100],
+      caption: "Vers 700 av. J.-C., les rois de Koush règnent aussi sur l'Égypte. Ensuite, le royaume se recentre sur la vallée du Nil soudanais.",
+    },
+    {
+      id: 'arc',
+      tier: 1,
+      type: 'text',
+      kicker: 'Société',
+      title: 'Le pays de l’arc',
+      body:
+        "Les Égyptiens appelaient la Nubie Ta-Seti, « le pays de l'arc », car ses archers étaient réputés. La région est aussi riche en or, en ivoire et en bois précieux, qu'elle échange avec l'Égypte et la Méditerranée.",
+    },
+    {
+      id: 'pharaons-noirs',
+      tier: 1,
+      type: 'dates',
+      kicker: 'Expansion',
+      title: 'Les pharaons noirs',
+      items: [
+        { year: -728, label: 'Vers 728 av. J.-C., le roi Piânkhy conquiert l’Égypte' },
+        { year: -690, label: 'Taharqa devient pharaon de l’Égypte et de Koush' },
+        { year: -671, label: 'Les Assyriens envahissent l’Égypte et prennent Memphis' },
+        { year: -663, label: 'Les Assyriens pillent Thèbes ; les rois koushites se replient en Nubie' },
+      ],
+    },
+    {
+      id: 'taharqa',
+      tier: 1,
+      type: 'person',
+      nom: 'Taharqa',
+      role: 'Pharaon de la XXVe dynastie',
+      dates: 'règne 690 – 664 av. J.-C.',
+      description: "Roi de Koush et pharaon d'Égypte, il fait construire de nombreux monuments, de Napata jusqu'à Karnak. Il affronte les Assyriens, qui le chassent de Basse-Égypte. Il est enterré sous une pyramide à Nouri, en Nubie.",
+    },
+    {
+      id: 'pyramides',
+      tier: 1,
+      type: 'keyfigure',
+      kicker: 'Culture',
+      value: 'Plus de 200',
+      label: 'pyramides en Nubie : plus qu’en Égypte !',
+      caption: "Les rois et reines de Koush se font enterrer sous des pyramides plus petites et plus pointues que celles de Gizeh, à El-Kourrou, Nouri puis Méroé.",
+    },
+    {
+      id: 'meroe',
+      tier: 1,
+      type: 'text',
+      kicker: "Âge d'or",
+      title: 'Méroé, cité du fer',
+      body:
+        "Peu à peu, le centre du royaume se déplace vers le sud, à Méroé ; à partir du IIIe siècle av. J.-C., les rois s'y font enterrer. La ville produit beaucoup de fer : on y voit encore d'énormes tas de scories, les déchets de la fonte du métal.",
+      highlight: { value: 'Méroé', label: 'capitale à partir du IIIe s. av. J.-C. environ' },
+    },
+    {
+      id: 'croyances',
+      tier: 1,
+      type: 'text',
+      kicker: 'Croyances',
+      title: 'Amon et le dieu-lion',
+      body:
+        "Les Koushites vénèrent le dieu égyptien Amon, dont le grand temple se trouve au Gebel Barkal. Ils honorent aussi des dieux nubiens, comme Apédémak, un dieu guerrier à tête de lion.",
+    },
+    {
+      id: 'fin',
+      tier: 1,
+      type: 'text',
+      kicker: 'Fin',
+      title: 'Le déclin de Méroé',
+      body:
+        "Au IVe siècle apr. J.-C., le royaume, affaibli, perd le contrôle du commerce au profit d'Aksoum, en Éthiopie. Vers 350, le roi aksoumite Ezana mène une expédition dans la région : le royaume de Méroé disparaît.",
+      highlight: { value: '≈ 350 apr. J.-C.', label: 'fin du royaume de Méroé' },
+    },
+
+    // ── Niveau 2 ──
+    {
+      id: 'piankhy',
+      tier: 2,
+      type: 'person',
+      nom: 'Piânkhy (Piye)',
+      role: 'Roi de Koush, conquérant de l’Égypte',
+      dates: 'VIIIe siècle av. J.-C.',
+      description: "Il descend le Nil, prend Memphis et soumet les princes d'Égypte. Il raconte sa victoire sur une grande stèle de granit retrouvée au Gebel Barkal. Ses successeurs forment la XXVe dynastie.",
+    },
+    {
+      id: 'amanirenas',
+      tier: 2,
+      type: 'person',
+      nom: 'Amanirenas',
+      role: 'Candace (reine) de Méroé',
+      dates: 'Ier siècle av. J.-C.',
+      description: "Les reines de Méroé, appelées candaces, peuvent régner seules. Amanirenas tient tête à l'armée romaine d'Auguste ; l'auteur grec Strabon décrit une reine borgne, sans doute elle.",
+    },
+    {
+      id: 'rome',
+      tier: 2,
+      type: 'war',
+      nom: 'Guerre contre Rome',
+      annee: -24,
+      adversaires: ["Empire romain (préfet d'Égypte)"],
+      allies: ['Armée de Méroé (candace Amanirenas)'],
+      vainqueur: 'Aucun (paix négociée)',
+      consequences: "Les Koushites attaquent Assouan et emportent des statues d'Auguste ; les Romains ripostent jusqu'à Napata. Vers 21 av. J.-C., la paix de Samos supprime le tribut exigé par Rome.",
+    },
+    {
+      id: 'auguste',
+      tier: 2,
+      type: 'text',
+      kicker: 'Découverte',
+      title: 'La tête d’Auguste',
+      body:
+        "En 1910, des archéologues découvrent à Méroé une tête en bronze d'Auguste, enterrée sous les marches d'un temple. C'est sans doute un butin de la guerre contre Rome : la placer sous les pieds des fidèles humiliait l'empereur. Elle est aujourd'hui au British Museum.",
+    },
+    {
+      id: 'ecriture',
+      tier: 2,
+      type: 'text',
+      kicker: 'Connaissance',
+      title: 'Une écriture encore mystérieuse',
+      body:
+        "À partir du IIe siècle av. J.-C. environ, les Koushites écrivent leur propre langue avec l'écriture méroïtique. Depuis 1909, on sait lire ses signes, mais on ne comprend encore qu'une petite partie de la langue.",
+    },
+  ],
+
+  quiz: [
+    { id: 'pays', type: 'mcq', prompt: 'Dans quel pays actuel se trouvait le cœur du royaume de Koush ?', options: ['Le Soudan', 'Le Maroc', "L'Éthiopie", 'La Libye'], answer: 0 },
+    { id: 'fleuve', type: 'mcq', prompt: 'Le long de quel fleuve se développe le royaume de Koush ?', options: ['Le Nil', 'Le Niger', 'Le Congo', "L'Euphrate"], answer: 0 },
+    { id: 'napata', type: 'mcq', prompt: 'Quelle est la première capitale du royaume de Koush ?', options: ['Napata', 'Méroé', 'Thèbes', 'Aksoum'], answer: 0 },
+    { id: 'ta-seti', type: 'mcq', prompt: 'Que signifie Ta-Seti, nom égyptien de la Nubie ?', options: ["Le pays de l'arc", "Le pays de l'or", 'Le pays du lion', 'Le pays du fer'], answer: 0 },
+    { id: 'piankhy', type: 'mcq', prompt: "Quel roi de Koush conquiert l'Égypte vers 728 av. J.-C. ?", options: ['Piânkhy', 'Ramsès II', 'Ezana', 'Toutânkhamon'], answer: 0 },
+    { id: 'dynastie', type: 'tf', prompt: "Des rois de Koush ont été pharaons d'Égypte.", answer: true },
+    { id: 'taharqa', type: 'mcq', prompt: 'Quel pharaon koushite règne de 690 à 664 av. J.-C. ?', options: ['Taharqa', 'Piânkhy', 'Khéops', 'Psammétique'], answer: 0 },
+    { id: 'assyriens', type: 'mcq', prompt: "Quel peuple chasse les Koushites d'Égypte au VIIe siècle av. J.-C. ?", options: ['Les Assyriens', 'Les Romains', 'Les Perses', 'Les Grecs'], answer: 0 },
+    { id: 'pyramides', type: 'tf', prompt: "Il y a plus de pyramides en Nubie qu'en Égypte.", answer: true },
+    { id: 'forme', type: 'tf', prompt: 'Les pyramides de Méroé sont plus grandes que celles de Gizeh.', answer: false, explanation: 'Elles sont plus petites et plus pointues.' },
+    { id: 'meroe', type: 'mcq', prompt: 'Pour la production de quel métal Méroé est-elle célèbre ?', options: ['Le fer', "L'or", "L'étain", 'Le plomb'], answer: 0 },
+    { id: 'apedemak', type: 'mcq', prompt: 'Sous quelle forme est représenté le dieu nubien Apédémak ?', options: ['Avec une tête de lion', 'Avec une tête de faucon', 'Avec une tête de chacal', 'Avec une tête de serpent'], answer: 0 },
+    { id: 'candace', type: 'mcq', prompt: 'Comment appelle-t-on les reines de Méroé ?', options: ['Les candaces', 'Les pharaonnes', 'Les sultanes', 'Les impératrices'], answer: 0 },
+    { id: 'rome', type: 'mcq', prompt: 'Quel empereur romain affronte la candace Amanirenas ?', options: ['Auguste', 'Néron', 'Jules César', 'Trajan'], answer: 0 },
+    { id: 'tete', type: 'mcq', prompt: "Où a-t-on retrouvé une tête en bronze d'Auguste en 1910 ?", options: ['À Méroé', 'À Rome', 'À Alexandrie', 'À Carthage'], answer: 0 },
+    { id: 'ecriture', type: 'mcq', prompt: 'Comment s’appelle l’écriture propre au royaume de Koush ?', options: ['Le méroïtique', 'Le cunéiforme', 'Le démotique', 'Le guèze'], answer: 0 },
+    { id: 'ordre', type: 'order', prompt: "Remettez dans l'ordre.", items: ["Piânkhy conquiert l'Égypte", 'Règne de Taharqa', 'Guerre de la candace Amanirenas contre Rome', "Expédition d'Ezana d'Aksoum"] },
+    { id: 'aksoum', type: 'mcq', prompt: 'Quel royaume voisin profite du déclin de Méroé au IVe siècle ?', options: ['Aksoum', 'Carthage', 'Le Mali', 'Ghana'], answer: 0 },
+  ],
+
+  recap: [
+    'Un royaume nubien du Nil, d’abord centré sur Napata',
+    "VIIIe-VIIe s. av. J.-C. : les rois de Koush sont pharaons d'Égypte (XXVe dynastie)",
+    'Méroé : pyramides, fer, écriture méroïtique et reines candaces',
+    'Vers 350 apr. J.-C. : déclin face au royaume d’Aksoum',
+  ],
+}

@@ -16,7 +16,6 @@
  *   order { prompt, items[] (dans le bon ordre), explanation? } (remettre dans l'ordre)
  *   map   { prompt, year, civId, options[], answer }          (carte + QCM)
  */
-import { HANDWRITTEN } from '../data/revision'
 import PRESENCE from '../data/map-presence.json'
 import { getEpochs } from './data'
 import { formatDuration, formatYear } from './time'
@@ -97,7 +96,7 @@ const ALL = getEpochs().flatMap((epoch) =>
 /** Réservoir complet de questions d'une civilisation. */
 export function questionPool(ref) {
   const { civ, epoch, continent } = ref
-  const hand = (HANDWRITTEN[civ.id]?.quiz ?? []).map((q) => ({ ...q, id: `hand-${q.id}` }))
+  const hand = (ref.hand?.quiz ?? []).map((q) => ({ ...q, id: `hand-${q.id}` }))
   return [...hand, ...autoQuestions(civ, epoch, continent)].filter(Boolean)
 }
 
@@ -178,7 +177,7 @@ function autoQuestions(civ, epoch, continent) {
     if (l.titre) qs.push(mcq(`leader-titre-${i}`, `Quel titre porte ${l.nom} (${name}) ?`, l.titre, otherLeaders.map((x) => x.titre)))
     if (l.surnom) qs.push(mcq(`leader-surnom-${i}`, `Quel est le surnom de ${l.nom} (${name}) ?`, l.surnom, otherLeaders.map((x) => x.surnom)))
     qs.push(
-      mcq(`leader-reign-${i}`, `Qui gouverne ${name} de ${formatYear(l.debut)} à ${formatYear(l.fin)} ?`, l.nom, [...leaders.filter((x) => x !== l).map((x) => x.nom), ...otherLeaders.map((x) => x.nom)], {
+      mcq(`leader-reign-${i}`, `${name} : qui gouverne de ${formatYear(l.debut)} à ${formatYear(l.fin)} ?`, l.nom, [...leaders.filter((x) => x !== l).map((x) => x.nom), ...otherLeaders.map((x) => x.nom)], {
         explanation: `${l.titre}${l.surnom ? ` « ${l.surnom} »` : ''}.`,
       })
     )

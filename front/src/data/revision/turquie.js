@@ -1,0 +1,177 @@
+/** Chapitre rédigé : de la fin de l'Empire ottoman à la Turquie (1789 – aujourd'hui). */
+export default {
+  readingTime: 5,
+  cards: [
+    // ── Niveau 1 ──
+    {
+      id: 'homme-malade',
+      tier: 1,
+      type: 'text',
+      kicker: 'Fluctuations',
+      title: "« L'homme malade de l'Europe »",
+      body:
+        "Au XIXe siècle, l'Empire ottoman recule face aux puissances européennes et aux nationalismes. La Grèce devient indépendante (1830), l'Égypte se rend presque autonome, puis la Serbie, la Roumanie et le Monténégro deviennent indépendants en 1878. Les Européens surnomment l'empire « l'homme malade de l'Europe ».",
+    },
+    {
+      id: 'tanzimat',
+      tier: 1,
+      type: 'text',
+      kicker: 'Pouvoir',
+      title: 'Les Tanzimat, un empire qui se réforme',
+      body:
+        "De 1839 à 1876, les sultans lancent les Tanzimat (« réorganisations ») : armée moderne, nouvelles écoles, égalité promise entre sujets musulmans et non musulmans. En 1876, l'empire adopte une Constitution et un Parlement, mais le sultan Abdülhamid II les suspend dès 1878.",
+      highlight: { value: '1876', label: 'première Constitution ottomane' },
+    },
+    {
+      id: 'carte',
+      tier: 1,
+      type: 'map',
+      kicker: 'Territoire',
+      title: "De l'empire à la république",
+      years: [1815, 1914, 1930],
+      caption: "Comparez : l'empire perd presque toutes ses terres d'Europe et d'Afrique avant 1914 ; en 1930, la Turquie se limite à l'Anatolie et à la Thrace orientale.",
+    },
+    {
+      id: 'jeunes-turcs',
+      tier: 1,
+      type: 'text',
+      kicker: 'Crise',
+      title: 'Les Jeunes-Turcs et la Grande Guerre',
+      body:
+        "En 1908, des officiers et des intellectuels, les « Jeunes-Turcs », obligent le sultan à rétablir la Constitution. Après un coup d'État en 1913, leurs chefs gouvernent seuls. En 1914, ils engagent l'empire dans la Première Guerre mondiale aux côtés de l'Allemagne.",
+    },
+    {
+      id: 'armeniens',
+      tier: 1,
+      type: 'text',
+      kicker: 'Crise',
+      title: 'Le génocide des Arméniens',
+      body:
+        "À partir d'avril 1915, le gouvernement jeune-turc organise la déportation et le massacre des Arméniens de l'empire, accusés de soutenir la Russie. Entre 1,2 et 1,5 million de personnes meurent, selon les estimations. Les Assyriens et des Grecs sont aussi victimes de violences de masse. De nombreux historiens et États, dont la France (2001), reconnaissent un génocide ; l'État turc refuse ce terme.",
+      highlight: { value: '24 avril 1915', label: 'jour de commémoration du génocide' },
+    },
+    {
+      id: 'kemal',
+      tier: 1,
+      type: 'person',
+      nom: 'Mustafa Kemal Atatürk',
+      role: 'Fondateur et premier président de la République turque',
+      dates: '1881 – 1938',
+      description: "Officier remarqué à la bataille des Dardanelles, il refuse le partage de l'Anatolie en 1919 et mène la guerre d'indépendance. Président de 1923 à sa mort, il transforme le pays par des réformes rapides et autoritaires. En 1934, le Parlement lui donne le nom d'Atatürk, « père des Turcs ».",
+    },
+    {
+      id: 'independance',
+      tier: 1,
+      type: 'dates',
+      kicker: 'Création',
+      title: "De la défaite à l'indépendance",
+      items: [
+        { year: 1918, label: "Défaite de l'Empire ottoman ; Istanbul occupée par les Alliés" },
+        { year: 1920, label: "Traité de Sèvres : l'empire doit être partagé" },
+        { year: 1922, label: "Victoire de Kemal sur l'armée grecque ; fin du sultanat" },
+        { year: 1923, label: 'Traité de Lausanne ; proclamation de la République, capitale Ankara' },
+        { year: 1924, label: 'Abolition du califat' },
+      ],
+    },
+    {
+      id: 'republique',
+      tier: 1,
+      type: 'keyfigure',
+      kicker: 'Création',
+      value: '29 octobre 1923',
+      label: 'proclamation de la République de Turquie',
+      caption: "Après plus de six siècles, la dynastie ottomane disparaît. La capitale quitte Istanbul pour Ankara, au cœur de l'Anatolie.",
+    },
+    {
+      id: 'reformes',
+      tier: 1,
+      type: 'steps',
+      kicker: 'Droits',
+      title: 'Les réformes kémalistes',
+      items: [
+        { year: 1925, label: 'Le fez est interdit au profit du chapeau occidental' },
+        { year: 1926, label: 'Code civil inspiré de la Suisse : la polygamie est interdite' },
+        { year: 1928, label: "L'alphabet latin remplace l'alphabet arabe" },
+        { year: 1934, label: 'Droit de vote des femmes aux élections nationales' },
+        { year: 1937, label: 'La laïcité est inscrite dans la Constitution' },
+      ],
+    },
+
+    // ── Niveau 2 ──
+    {
+      id: 'dardanelles',
+      tier: 2,
+      type: 'war',
+      nom: 'Bataille des Dardanelles (Gallipoli)',
+      annee: 1915,
+      adversaires: ['Royaume-Uni', 'France', 'Australie et Nouvelle-Zélande (ANZAC)'],
+      allies: ['Empire ottoman', 'Conseillers allemands'],
+      vainqueur: "L'Empire ottoman",
+      consequences: "Les Alliés voulaient prendre Istanbul par la mer et les détroits. Après de lourdes pertes des deux côtés, ils se retirent au début de 1916. Mustafa Kemal y devient un héros.",
+    },
+    {
+      id: 'otan',
+      tier: 2,
+      type: 'text',
+      kicker: 'Monde',
+      title: "Entre l'OTAN et l'Europe",
+      body:
+        "Restée neutre presque toute la Seconde Guerre mondiale, la Turquie entre dans l'OTAN en 1952, face à l'URSS. Elle demande à rejoindre la Communauté européenne en 1987 ; les négociations avec l'Union européenne, ouvertes en 2005, sont aujourd'hui bloquées.",
+    },
+    {
+      id: 'democratie',
+      tier: 2,
+      type: 'text',
+      kicker: 'Fluctuations',
+      title: 'Une démocratie sous surveillance',
+      body:
+        "Le pluralisme politique s'installe après 1946 et l'opposition gagne les élections de 1950. Mais l'armée, qui se veut gardienne de l'héritage d'Atatürk, intervient en 1960, en 1971 et en 1980. En 2016, une tentative de coup d'État échoue.",
+    },
+    {
+      id: 'erdogan',
+      tier: 2,
+      type: 'person',
+      nom: 'Recep Tayyip Erdoğan',
+      role: 'Premier ministre puis président',
+      dates: 'né en 1954',
+      description: "Ancien maire d'Istanbul, chef du parti AKP, conservateur et religieux, il est Premier ministre de 2003 à 2014, puis président depuis 2014. Il renforce les pouvoirs du président ; ses opposants l'accusent d'autoritarisme.",
+    },
+    {
+      id: 'chypre-kurdes',
+      tier: 2,
+      type: 'text',
+      kicker: 'Crise',
+      title: 'Chypre et la question kurde',
+      body:
+        "En 1974, après un coup d'État visant à rattacher Chypre à la Grèce, l'armée turque intervient : l'île reste divisée. Les Kurdes, environ un Turc sur cinq selon les estimations, réclament des droits. Le conflit entre l'État et la guérilla du PKK, commencé en 1984, fait plus de 40 000 morts ; en 2025, le PKK annonce sa dissolution.",
+    },
+  ],
+
+  quiz: [
+    { id: 'surnom', type: 'mcq', prompt: "Comment les Européens surnomment-ils l'Empire ottoman au XIXe siècle ?", options: ["L'homme malade de l'Europe", "Le gendarme de l'Europe", "L'atelier du monde", 'La Sublime Porte'], answer: 0 },
+    { id: 'grece', type: 'mcq', prompt: "Quel pays devient indépendant de l'Empire ottoman en 1830 ?", options: ['La Grèce', "L'Égypte", 'La Bulgarie', "L'Albanie"], answer: 0 },
+    { id: 'tanzimat', type: 'mcq', prompt: 'Comment appelle-t-on les réformes ottomanes de 1839 à 1876 ?', options: ['Les Tanzimat', 'Le kémalisme', 'La Révolution blanche', 'Le Risorgimento'], answer: 0 },
+    { id: 'jeunes-turcs', type: 'mcq', prompt: 'Qui gouverne l’Empire ottoman pendant la Première Guerre mondiale ?', options: ['Les Jeunes-Turcs', 'Les janissaires', 'Atatürk', 'Les Britanniques'], answer: 0 },
+    { id: 'camp', type: 'mcq', prompt: "Aux côtés de quel pays l'Empire ottoman combat-il en 1914-1918 ?", options: ["L'Allemagne", 'La France', 'La Russie', 'Le Royaume-Uni'], answer: 0 },
+    { id: 'armeniens', type: 'mcq', prompt: 'Quel peuple est victime d’un génocide à partir de 1915 ?', options: ['Les Arméniens', 'Les Kurdes', 'Les Grecs de Crète', 'Les Bulgares'], answer: 0 },
+    { id: 'dardanelles', type: 'tf', prompt: 'En 1915, les Alliés échouent à prendre le détroit des Dardanelles.', answer: true },
+    { id: 'sevres', type: 'mcq', prompt: "Quel traité de 1920 prévoit le partage de l'Empire ottoman ?", options: ['Le traité de Sèvres', 'Le traité de Lausanne', 'Le traité de Versailles', 'Le traité de Berlin'], answer: 0 },
+    { id: 'lausanne', type: 'mcq', prompt: 'Quel traité reconnaît les frontières de la Turquie en 1923 ?', options: ['Le traité de Lausanne', 'Le traité de Sèvres', 'Le traité de Trianon', 'Le traité de Paris'], answer: 0 },
+    { id: 'capitale', type: 'mcq', prompt: 'Quelle est la capitale de la République de Turquie ?', options: ['Ankara', 'Istanbul', 'Izmir', 'Bursa'], answer: 0 },
+    { id: 'ataturk', type: 'mcq', prompt: 'Que signifie le nom « Atatürk » ?', options: ['Père des Turcs', 'Roi des Turcs', 'Lion des Turcs', 'Ami des Turcs'], answer: 0 },
+    { id: 'alphabet', type: 'mcq', prompt: "Quel alphabet la Turquie adopte-t-elle en 1928 ?", options: ["L'alphabet latin", "L'alphabet arabe", "L'alphabet cyrillique", "L'alphabet grec"], answer: 0 },
+    { id: 'femmes', type: 'tf', prompt: 'Les femmes turques obtiennent le droit de vote aux élections nationales en 1934, avant les Françaises.', answer: true },
+    { id: 'califat', type: 'tf', prompt: 'Atatürk renforce le califat pour gouverner la Turquie.', answer: false, explanation: 'Il abolit le califat en 1924 et fait de la Turquie une république laïque.' },
+    { id: 'otan', type: 'mcq', prompt: 'Quelle alliance militaire la Turquie rejoint-elle en 1952 ?', options: ["L'OTAN", 'Le pacte de Varsovie', "L'Union européenne", 'La Triple-Entente'], answer: 0 },
+    { id: 'erdogan', type: 'mcq', prompt: 'Qui est président de la Turquie depuis 2014 ?', options: ['Recep Tayyip Erdoğan', 'Mustafa Kemal', 'Abdülhamid II', 'İsmet İnönü'], answer: 0 },
+    { id: 'chypre', type: 'mcq', prompt: "Quelle île est divisée depuis l'intervention turque de 1974 ?", options: ['Chypre', 'La Crète', 'Malte', 'Rhodes'], answer: 0 },
+    { id: 'ordre', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Début des Tanzimat', 'Révolution des Jeunes-Turcs', 'Traité de Sèvres', 'Proclamation de la République', "Adoption de l'alphabet latin"] },
+  ],
+
+  recap: [
+    "Au XIXe siècle, l'Empire ottoman recule et tente de se réformer (Tanzimat)",
+    '1914-1918 : guerre aux côtés de l’Allemagne ; génocide des Arméniens (1915)',
+    '1923 : Mustafa Kemal fonde une république laïque, capitale Ankara',
+    'OTAN, coups d’État militaires, puis l’ère Erdoğan depuis 2003',
+  ],
+}

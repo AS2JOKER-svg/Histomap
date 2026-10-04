@@ -30,9 +30,9 @@
                 "info": "Découverte en Éthiopie, elle prouve l'acquisition précoce de la bipédie."
               },
               {
-                "annee": -2500000,
+                "annee": -2400000,
                 "evenement": "Homo Habilis",
-                "info": "L'« homme habile » crée les premiers outils en pierre taillée (culture oldowayenne)."
+                "info": "L'« homme habile » apparaît vers -2,4 millions d'années. Il n'est pas l'inventeur des premiers outils : des outils plus anciens sont connus à Lomekwi (Kenya, vers -3,3 millions d'années) et la culture oldowayenne débute vers -2,6 millions d'années."
               },
               {
                 "annee": -1800000,
@@ -55,7 +55,7 @@
               {
                 "nom": "Lucy (Australopithecus afarensis)",
                 "role": "Fossile emblématique",
-                "description": "Découverte en 1974 par Yves Coppens. Son squelette complet à 40% a révolutionné notre compréhension de la bipédie.",
+                "description": "Découverte en 1974 en Éthiopie par l'équipe de Donald Johanson, Yves Coppens et Maurice Taieb. Son squelette complet à 40% a révolutionné notre compréhension de la bipédie.",
                 "dates": "Vers -3,2 Millions d'années",
                 "wikiUrl": "https://fr.wikipedia.org/wiki/Lucy_(australopith%C3%A8que)"
               },
@@ -97,9 +97,9 @@
                 "info": "La fin de la période glaciaire transforme le Sahara en une savane riche en lacs et en faune."
               },
               {
-                "annee": -8000,
-                "evenement": "Invention de la céramique",
-                "info": "Les populations d'Afrique saharienne fabriquent des poteries pour cuire céréales et tubercules sauvages."
+                "annee": -9400,
+                "evenement": "Premières céramiques",
+                "info": "Vers -9400, des chasseurs-cueilleurs d'Afrique saharienne (site d'Ounjougou, au Mali) fabriquent parmi les plus anciennes poteries d'Afrique, pour cuire des graines et des plantes sauvages."
               },
               {
                 "annee": -5000,
@@ -115,7 +115,7 @@
             "dirigeants": [],
             "personnages": [],
             "sciences": "Ces populations ne pratiquent pas l'agriculture au sens strict, mais développent une maîtrise avancée de l'élevage bovin et de la céramique (souvent décorée au peigne). Ils exploitent intensivement les ressources lacustres (harpons en os) et savent stocker les graminées sauvages dans de grandes jarres en argile pour pallier les famines.",
-            "croyancesText": "Leurs croyances nous sont parvenues par le somptueux art rupestre du Tassili n'Ajjer (Algérie). Les parois rocheuses montrent un panthéon animiste complexe : figures de « Grands Dieux Marciens », têtes rondes, chamans masqués et femmes rituellement décorées. Le bétail, omniprésent, semble posséder un statut sacré, préfigurant les cultes bovins de l'Égypte antique (la déesse Hathor).",
+            "croyancesText": "Leurs croyances nous sont parvenues par le somptueux art rupestre du Tassili n'Ajjer (Algérie). Les parois rocheuses montrent un panthéon animiste complexe : figures surnommées « Grands Dieux martiens » par Henri Lhote (un surnom aujourd'hui abandonné), « têtes rondes », chamans masqués et femmes rituellement décorées. Le bétail, omniprésent, semble posséder un statut sacré, préfigurant les cultes bovins de l'Égypte antique (la déesse Hathor).",
             "diplomatie": "Ces sociétés tribales semi-nomades suivent les cycles saisonniers des pluies. L'abondance de ressources de la période dite du « Sahara vert » favorise les échanges pacifiques et les rassemblements rituels autour des grands points d'eau.",
             "guerres": [],
             "documentaires": [
@@ -289,7 +289,7 @@
             ],
             "dirigeants": [],
             "personnages": [],
-            "sciences": "Leur génie réside dans l'ingénierie mécanique et astronomique. Déplacer, lever et caler des monolithes pesant jusqu'à 300 tonnes (le Grand Menhir brisé d'Er Grah) implique des centaines d'hommes, des systèmes de rondins, de leviers et une organisation sociale mathématique. Leurs sites servent de calendriers géants pour prédire solstices et équinoxes.",
+            "sciences": "Leur génie réside dans l'ingénierie mécanique et astronomique. Déplacer, lever et caler des monolithes pesant jusqu'à près de 300 tonnes (environ 280 tonnes pour le Grand Menhir brisé d'Er Grah) implique des centaines d'hommes, des systèmes de rondins, de leviers et une organisation sociale mathématique. Leurs sites servent de calendriers géants pour prédire solstices et équinoxes.",
             "croyancesText": "Le mégalithe a une fonction funéraire et territoriale. Les dolmens sont des caveaux collectifs recouverts de terre (tumulus) où reposent les ancêtres. Dresser une pierre monumentale (un menhir), c'est ancrer physiquement et symboliquement un clan sur son territoire face au ciel.",
             "diplomatie": "L'uniformité du phénomène mégalithique de la Scandinavie au Portugal prouve l'existence de réseaux maritimes intenses le long des côtes atlantiques. Les élites s'échangent des objets de grand prestige, notamment des haches en jadéite polie extraite des Alpes et exportée jusqu'en Écosse.",
             "guerres": [],
@@ -322,7 +322,7 @@
               {
                 "annee": -750000,
                 "evenement": "L'Homme de Pékin",
-                "info": "Un Homo erectus maîtrisant le feu, découvert dans la grotte de Zhoukoudian."
+                "info": "Un Homo erectus découvert dans la grotte de Zhoukoudian, daté selon les études entre -780 000 et -400 000 ans environ. Son usage du feu est débattu."
               },
               {
                 "annee": -7000,
@@ -346,7 +346,7 @@
                 "nom": "Fuxi et Nuwa",
                 "role": "Héros mythologiques",
                 "description": "Souverains légendaires de la mythologie chinoise, crédités de l'invention de la chasse, de la pêche, du mariage et de la musique.",
-                "dates": "Mythologie (vers -2800)",
+                "dates": "Figures mythiques, sans date historique",
                 "wikiUrl": "https://fr.wikipedia.org/wiki/Nuwa"
               }
             ],
@@ -420,7 +420,7 @@
               {
                 "annee": -9000,
                 "evenement": "Révolution agricole",
-                "info": "Première domestication du blé et des moutons dans le Croissant fertile."
+                "info": "Première domestication du blé et des moutons sur les piémonts du Croissant fertile (Levant, Taurus, Zagros), en bordure de la plaine mésopotamienne."
               },
               {
                 "annee": -6000,
@@ -433,14 +433,14 @@
                 "info": "Premiers temples, apparition de l'irrigation complexe dans les marécages du Sud."
               },
               {
-                "annee": -4000,
-                "evenement": "Fondation d'Uruk",
-                "info": "La première véritable métropole du monde, concentrant des dizaines de milliers d'habitants."
+                "annee": -3500,
+                "evenement": "Essor d'Uruk",
+                "info": "Vers -3500, Uruk devient l'une des premières grandes villes du monde."
               }
             ],
             "dirigeants": [],
             "personnages": [],
-            "sciences": "Le Sud mésopotamien (le pays de Sumer) est un marécage infertile sans pluie. Le génie de la période d'Obeïd est d'avoir inventé l'irrigation artificielle à grande échelle en canalisant le Tigre et l'Euphrate. Pour gérer cette logistique colossale, ils inventent le sceau-cylindre (pour sceller les marchandises), la roue (pour les transports et la poterie), et le système comptable à jetons d'argile, l'ancêtre direct de l'écriture.",
+            "sciences": "Le Sud mésopotamien (le pays de Sumer) est un marécage infertile sans pluie. Le génie de la période d'Obeïd est d'avoir inventé l'irrigation artificielle à grande échelle en canalisant le Tigre et l'Euphrate. Pour gérer cette logistique, ils utilisent des jetons d'argile pour compter, ancêtres de l'écriture. Un peu plus tard, à la période d'Uruk (vers -3500), apparaissent le sceau-cylindre (pour sceller les marchandises) et la roue (pour la poterie puis les transports).",
             "croyancesText": "La religion mésopotamienne se structure autour du Temple (l'É). Chaque ville est la propriété d'un dieu tutélaire (Enki à Eridu, Inanna à Uruk). Le temple n'est pas qu'un lieu de culte, c'est le centre économique de la ville : il stocke les récoltes, gère les terres, emploie des artisans et redistribue la nourriture en période de crise.",
             "diplomatie": "Durant la fin de cette période (période d'Uruk), la Mésopotamie du Sud devient si puissante qu'elle déploie un vaste réseau de comptoirs coloniaux vers le Nord (Syrie, Anatolie) pour s'approvisionner en bois, pierre et métaux qui font défaut dans leurs plaines de boue. C'est la première mondialisation économique connue.",
             "guerres": [],
@@ -497,19 +497,19 @@
               {
                 "annee": -8500,
                 "evenement": "Domestication végétale précoce",
-                "info": "L'engrain (blé sauvage) est domestiqué à quelques kilomètres du site (Karaca Dağ)."
+                "info": "Selon des études génétiques, l'engrain (une céréale proche du blé) a été domestiqué dans la région (monts Karaca Dağ)."
               },
               {
                 "annee": -8000,
                 "evenement": "Enfouissement du site",
-                "info": "Pour des raisons inexpliquées, les sanctuaires sont volontairement recouverts de milliers de tonnes de gravats, les figeant pour l'éternité."
+                "info": "Les enceintes sont recouvertes de gravats, ce qui les a conservées. Cet enfouissement a peut-être été volontaire, mais la question est débattue."
               }
             ],
             "dirigeants": [],
             "personnages": [],
-            "sciences": "Le site de Göbekli Tepe détruit l'ancien paradigme archéologique. Il prouve que la capacité à tailler et transporter des piliers monolithes de 20 tonnes n'a pas nécessité une société sédentaire agricole préalable. L'organisation complexe d'un chantier d'une telle ampleur par des chasseurs nomades montre une maîtrise insoupçonnée de la taille de pierre (réalisée sans aucun outil en métal) et de l'ingénierie structurelle.",
-            "croyancesText": "Le site est exclusivement cultuel (aucune trace d'habitation). L'animisme qui s'y déploie est terrifiant et mystérieux : les bas-reliefs ne montrent aucun animal comestible (gazelles), mais uniquement des prédateurs mortels ou venimeux (scorpions, vautours, renards, lions, sangliers furieux). Les piliers en forme de T, parfois dotés de bras, pourraient représenter des ancêtres déifiés ou des dieux sans visage.",
-            "diplomatie": "La construction et l'entretien de ce sanctuaire ont nécessité la coopération de plusieurs tribus ou clans de la région d'Anatolie. Göbekli Tepe fonctionnait probablement comme un centre de pèlerinage où des groupes dispersés se réunissaient ponctuellement pour festoyer, échanger des partenaires (pour éviter la consanguinité) et partager des innovations, favorisant ainsi la découverte de l'agriculture.",
+            "sciences": "Le site de Göbekli Tepe détruit l'ancien paradigme archéologique. Il prouve que la capacité à tailler et transporter des piliers monolithes d'environ 10 tonnes (jusqu'à 5,5 m de haut) n'a pas nécessité une société sédentaire agricole préalable. L'organisation complexe d'un chantier d'une telle ampleur par des chasseurs nomades montre une maîtrise insoupçonnée de la taille de pierre (réalisée sans aucun outil en métal) et de l'ingénierie structurelle.",
+            "croyancesText": "Le site a longtemps été vu comme exclusivement cultuel, mais des fouilles récentes y ont trouvé des citernes, des meules et des bâtiments domestiques. L'animisme qui s'y déploie est terrifiant et mystérieux : les bas-reliefs ne montrent aucun animal comestible (gazelles), mais une majorité d'animaux dangereux (scorpions, serpents, vautours, renards, sangliers), à côté d'aurochs, de grues et d'ânes sauvages. Les piliers en forme de T, parfois dotés de bras, pourraient représenter des ancêtres déifiés ou des dieux sans visage.",
+            "diplomatie": "La construction et l'entretien de ce sanctuaire ont nécessité la coopération de plusieurs tribus ou clans de la région d'Anatolie. Göbekli Tepe fonctionnait probablement comme un centre de pèlerinage où des groupes dispersés se réunissaient ponctuellement pour festoyer, peut-être échanger des partenaires (hypothèse) et partager des innovations, favorisant ainsi la découverte de l'agriculture.",
             "guerres": [],
             "documentaires": [
               {
@@ -535,12 +535,12 @@
             "color": "#f4d03f",
             "isRiver": true,
             "capitale": "Caral",
-            "description": "La plus ancienne civilisation des Amériques, ayant érigé d'immenses pyramides dans les vallées péruviennes dans une paix absolue, sans hiéroglyphes ni poterie.",
+            "description": "La plus ancienne civilisation des Amériques, ayant érigé d'immenses pyramides dans les vallées péruviennes, avec peu ou pas de traces de guerre (un point débattu), sans écriture ni poterie.",
             "datesCles": [
               {
                 "annee": -3500,
                 "evenement": "Sédentarisation côtière",
-                "info": "Les populations s'installent dans la vallée de Supe pour exploiter les ressources marines et agricoles."
+                "info": "Les populations s'installent dans la vallée de Supe pour exploiter les ressources marines et agricoles. Les premiers centres monumentaux apparaissent vers -3000."
               },
               {
                 "annee": -2600,
@@ -550,14 +550,14 @@
               {
                 "annee": -1800,
                 "evenement": "Déclin et abandon",
-                "info": "Des changements climatiques (El Niño massif) détruisent l'écosystème, forçant l'exode vers le nord."
+                "info": "Les causes de l'abandon sont discutées : des changements climatiques (épisodes El Niño) sont une hypothèse parmi d'autres."
               }
             ],
             "dirigeants": [],
             "personnages": [],
-            "sciences": "Leur développement technologique est unique et atypique : ils ne fabriquent ni armes, ni poteries, mais sont d'exceptionnels architectes. Ils inventent les 'shicras', des sacs en fibre végétale remplis de pierres intégrés dans les fondations des pyramides, créant le premier système parasismique de l'histoire. C'est également à Caral qu'a été retrouvé le plus ancien 'quipu' (système comptable complexe basé sur des cordelettes à nœuds).",
+            "sciences": "Leur développement technologique est unique et atypique : ils ne fabriquent ni armes, ni poteries, mais sont d'exceptionnels architectes. Ils inventent les 'shicras', des sacs en fibre végétale remplis de pierres intégrés dans les fondations des pyramides, qui stabilisaient peut-être les édifices lors des séismes (une hypothèse). Un objet trouvé à Caral a été présenté comme un très ancien 'quipu' (système de cordelettes à nœuds), mais cette identification est débattue : les plus anciens quipus sûrement datés sont huaris.",
             "croyancesText": "La religion de Caral semble axée sur le culte du feu et la musique. Au centre des architectures monumentales se trouvent des amphithéâtres circulaires engloutis contenant des foyers sacrés où des offrandes (quartz, coquillages, cheveux) étaient brûlées. Des fouilles y ont mis au jour d'impressionnants ensembles d'instruments à vent : 32 flûtes taillées dans des os de condor et de pélican.",
-            "diplomatie": "C'est une anomalie dans l'histoire humaine : la civilisation de Caral est la seule civilisation primitive majeure dont l'archéologie n'a révélé absolument aucune trace de guerre. Pas de murailles, pas d'armes, pas de corps mutilés. Leur économie repose sur un puissant réseau commercial pacifique entre les pêcheurs de la côte (apportant anchois et sardines) et les agriculteurs des terres (cultivant le coton et les courges).",
+            "diplomatie": "Fait remarquable, l'archéologie n'a révélé à Caral que peu ou pas de traces de guerre (peu de murailles, d'armes ou de corps blessés), même si ce point reste débattu. Leur économie repose sur un puissant réseau commercial pacifique entre les pêcheurs de la côte (apportant anchois et sardines) et les agriculteurs des terres (cultivant le coton et les courges).",
             "guerres": [],
             "documentaires": [
               {
@@ -816,9 +816,7 @@
                 "adversaires": [
                   "Empire Romain (Préfecture d'Égypte)"
                 ],
-                "allies": [
-                  "Tribus Blemmyes"
-                ],
+                "allies": [],
                 "morts": "Milliers de légionnaires et nubiens",
                 "vainqueur": "Statu Quo (Traité de Samos)",
                 "consequences": "Rome abandonne son projet de conquête de la Nubie et annule les tributs imposés.",
@@ -848,17 +846,17 @@
               {
                 "annee": 270,
                 "evenement": "Frappe de monnaie",
-                "info": "Aksoum devient le premier État africain (hors Égypte) à émettre sa propre monnaie d'or."
+                "info": "Aksoum devient l'un des rares royaumes de l'époque à frapper sa propre monnaie d'or."
               },
               {
                 "annee": 330,
                 "evenement": "Conversion au Christianisme",
-                "info": "Le roi Ézana fait du christianisme la religion d'État, scellant une alliance avec Byzance."
+                "info": "Le roi Ézana fait du christianisme la religion d'État, ce qui le rapproche de l'Empire romain."
               },
               {
                 "annee": 350,
-                "evenement": "Destruction de Méroé",
-                "info": "Les armées d'Aksoum écrasent définitivement le royaume de Koush (Nubie)."
+                "evenement": "Expédition d'Ézana vers le Nil",
+                "info": "Le roi Ézana mène une expédition vers le Nil ; le royaume de Méroé (Koush), déjà affaibli, disparaît à cette époque."
               }
             ],
             "dirigeants": [
@@ -874,12 +872,12 @@
               {
                 "nom": "Frumence de Tyr",
                 "role": "Évêque d'Aksoum",
-                "description": "Philosophe syro-grec naufragé, devenu conseiller royal et initiateur de la christianisation du royaume.",
+                "description": "Philosophe syro-grec capturé lors d'une escale en mer Rouge, devenu conseiller royal et initiateur de la christianisation du royaume.",
                 "dates": "≈ 300 - 383",
                 "wikiUrl": "https://fr.wikipedia.org/wiki/Frumence_d'Aksoum"
               }
             ],
-            "sciences": "Les Aksoumites sont des maîtres de l'ingénierie navale, naviguant avec les moussons jusqu'en Inde et à Ceylan. Architectes exceptionnels, ils bâtissent des stèles géantes monolithes pesant jusqu'à 500 tonnes, censées représenter des palais à plusieurs étages. Ils créent et utilisent l'alphabet guèze, le seul alphabet indigène africain encore utilisé aujourd'hui de manière continue (en Éthiopie).",
+            "sciences": "Les Aksoumites sont des maîtres de l'ingénierie navale, naviguant avec les moussons jusqu'en Inde et à Ceylan. Architectes exceptionnels, ils bâtissent des stèles géantes monolithes pesant jusqu'à 500 tonnes, censées représenter des palais à plusieurs étages. Ils créent et utilisent l'écriture guèze, dérivée de l'écriture sud-arabique et toujours utilisée en Éthiopie et en Érythrée.",
             "croyancesText": "D'abord polythéistes (vénérant Astar et le dieu de la guerre Mahrem, assimilé au dieu grec Arès), ils opèrent un basculement géopolitique radical vers 330. Le roi Ézana remplace le croissant et le disque solaire par la Croix sur ses monnaies. L'Église orthodoxe tewahedo qui en naît possède une liturgie unique, fortement imprégnée de judaïsme (revendiquant la possession de l'Arche d'Alliance).",
             "diplomatie": "Considéré par le prophète persan Mani (au IIIe siècle) comme l'un des quatre plus grands empires du monde (avec Rome, la Perse et la Chine). Aksoum contrôle le détroit de Bab el-Mandeb, taxant tout le commerce d'ivoire, d'or, d'encens et d'esclaves entre l'Empire romain d'Orient, la Perse sassanide et l'Inde antique.",
             "guerres": [
@@ -892,7 +890,7 @@
                 "allies": [],
                 "morts": "Inconnu",
                 "vainqueur": "Royaume d'Aksoum",
-                "consequences": "Chute finale de la civilisation nubienne antique de Méroé, Aksoum absorbe son territoire.",
+                "consequences": "Le royaume de Méroé, déjà affaibli, disparaît à cette époque ; Aksoum affirme sa domination dans la région.",
                 "wikiUrl": "https://fr.wikipedia.org/wiki/Royaume_d'Aksoum"
               }
             ],
@@ -938,7 +936,7 @@
             "end": 200,
             "color": "#d35400",
             "isRiver": false,
-            "capitale": "Plateau de Jos",
+            "capitale": "Aucune connue (centre du Nigeria)",
             "description": "Société pionnière d'Afrique de l'Ouest, ayant maîtrisé la métallurgie du fer sans passer par l'âge du bronze, célèbre pour ses terres cuites saisissantes.",
             "datesCles": [
               {
@@ -947,9 +945,9 @@
                 "info": "Premières traces de sédentarisation agricole sur le plateau central du Nigeria."
               },
               {
-                "annee": -1000,
-                "evenement": "Révolution de la forge",
-                "info": "Invention de la fonte du fer via des hauts fourneaux en argile."
+                "annee": -500,
+                "evenement": "Travail du fer",
+                "info": "Vers le milieu du Ier millénaire av. J.-C., le travail du fer est attesté, dans des fourneaux en argile."
               },
               {
                 "annee": 200,
@@ -960,8 +958,8 @@
             "dirigeants": [],
             "personnages": [],
             "sciences": "Le mystère Nok réside dans sa métallurgie. Contrairement à l'Eurasie, l'Afrique subsaharienne n'a pas connu d'âge du cuivre et du bronze ; elle est passée directement de la pierre au fer. Les forgerons Nok ont inventé des fourneaux à tirage naturel capables d'atteindre 1200°C. Parallèlement, leur art de la céramique cuite est d'une sophistication anatomique troublante pour la période.",
-            "croyancesText": "Bien que leurs cités aient été emportées par le temps, il nous reste leur impressionnante statuaire en terre cuite. Ces têtes et corps (souvent à l'échelle humaine), caractérisés par de grands yeux triangulaires ou en amande et des coiffures élaborées, étaient probablement des effigies d'ancêtres, de divinités animistes ou des figures de prestige utilisées lors de rites agraires ou funéraires.",
-            "diplomatie": "Il semble s'agir d'une culture villageoise fortement décentralisée, fonctionnant par réseaux de chefferies, mais partageant un code esthétique et technologique unifié sur une zone vaste comme la France. Aucune structure défensive de guerre n'a été retrouvée.",
+            "croyancesText": "Bien que leurs cités aient été emportées par le temps, il nous reste leur impressionnante statuaire en terre cuite. Ces têtes et corps (certaines têtes presque grandeur nature), caractérisés par de grands yeux triangulaires ou en amande et des coiffures élaborées, étaient probablement des effigies d'ancêtres, de divinités animistes ou des figures de prestige utilisées lors de rites agraires ou funéraires.",
+            "diplomatie": "Il semble s'agir d'une culture villageoise fortement décentralisée, fonctionnant par réseaux de chefferies, mais partageant un code esthétique et technologique unifié sur une zone de plusieurs dizaines de milliers de km². Aucune structure défensive de guerre n'a été retrouvée.",
             "guerres": [],
             "documentaires": [
               {
@@ -981,7 +979,7 @@
             "color": "#dfb134",
             "isRiver": false,
             "capitale": "Inconnue",
-            "description": "L'Eldorado de l'Antiquité, royaume mystérieux de la Corne de l'Afrique fournisseur exclusif de myrrhe et d'encens pour les temples égyptiens.",
+            "description": "L'Eldorado de l'Antiquité, royaume mystérieux de la Corne de l'Afrique, grand fournisseur de myrrhe et d'encens pour les temples égyptiens.",
             "datesCles": [
               {
                 "annee": -2480,
@@ -1007,7 +1005,7 @@
               {
                 "nom": "Reine Ati",
                 "role": "Souveraine de Pount",
-                "description": "Représentée sur les bas-reliefs égyptiens avec une morphologie très particulière (possible stéatopygie), elle accueille l'expédition égyptienne.",
+                "description": "Représentée sur les bas-reliefs égyptiens avec une silhouette très particulière (certains y voient une possible stéatopygie, mais l'interprétation reste prudente), elle accueille l'expédition égyptienne.",
                 "dates": "≈ -1473",
                 "wikiUrl": "https://fr.wikipedia.org/wiki/Pays_de_Pount"
               }
@@ -1053,9 +1051,14 @@
                 "info": "Sur le continent, essor d'une élite guerrière indo-européenne bâtissant des citadelles cyclopéennes."
               },
               {
-                "annee": -1450,
+                "annee": -1600,
                 "evenement": "Éruption de Théra (Santorin)",
-                "info": "Cataclysme volcanique qui affaiblit les Minoens, menant à leur conquête par les Mycéniens."
+                "info": "Au XVIIe ou au XVIe siècle av. J.-C. (date discutée), le volcan ensevelit la ville d'Akrotiri. Son rôle dans le déclin minoen est discuté."
+              },
+              {
+                "annee": -1450,
+                "evenement": "Prise de Knossos",
+                "info": "Vers -1450, les Mycéniens s'installent en Crète et prennent le contrôle de Knossos."
               },
               {
                 "annee": -1200,
@@ -1297,7 +1300,7 @@
             "personnages": [],
             "sciences": "Grands ingénieurs hydrauliques, ils enseignent à Rome le drainage des marais (la Cloaca Maxima, l'égout géant de Rome, est une œuvre étrusque) et l'utilisation de l'arc de pierre en architecture (véritable fondement des futurs aqueducs romains). Excellents métallurgistes, ils exploitent le fer de l'île d'Elbe pour armer leurs redoutables flottes de pirates et commerçants.",
             "croyancesText": "C'est une religion de la divination obsessionnelle, l'Etrusca disciplina. Les haruspices lisent le destin de l'État dans les foies des animaux sacrifiés (hépatoscopie) ou dans la trajectoire des éclairs. Leur panthéon (Tinia, Uni, Menrva) sera intégralement 'copié-collé' par Rome (Jupiter, Junon, Minerve). Leurs vastes nécropoles monumentales, peintes de banquets joyeux, célèbrent le culte des ancêtres.",
-            "diplomatie": "L'Étrurie n'est pas un empire centralisé mais une Dodécapole, une ligue religieuse de douze puissantes cités-États (Tarquinia, Cerveteri...). Leur division politique causera leur perte militaire. Ils scellent le traité de l'Alalia (-540) avec Carthage pour interdire aux Grecs de commercer en Méditerranée occidentale.",
+            "diplomatie": "L'Étrurie n'est pas un empire centralisé mais une Dodécapole, une ligue religieuse de douze puissantes cités-États (Tarquinia, Cerveteri...). Leur division politique causera leur perte militaire. Alliés à Carthage, ils affrontent les Grecs phocéens lors de la bataille navale d'Alalia (vers -540), au large de la Corse : les Grecs l'emportent peut-être, mais au prix de telles pertes qu'ils abandonnent la Corse ; l'issue réelle reste incertaine.",
             "guerres": [
               {
                 "nom": "Guerres romano-étrusques",
@@ -1514,7 +1517,7 @@
                 "wikiUrl": "https://fr.wikipedia.org/wiki/Brennus_(IVe_si%C3%A8cle_av._J.-C.)"
               }
             ],
-            "sciences": "Les barbares gaulois de César sont une fiction politique. Les Celtes sont de brillants ingénieurs agricoles : ils inventent la moissonneuse gauloise (vallus), la cotte de mailles en fer, le fer à cheval, le savon et le tonneau en bois (cerclé de fer, remplaçant l'amphore argileuse). Leurs routes de commerce en charriot pavées de rondins parcourent toute l'Europe.",
+            "sciences": "Les barbares gaulois de César sont une fiction politique. Les Celtes sont de brillants ingénieurs agricoles : ils inventent la moissonneuse gauloise (vallus), la cotte de mailles en fer et le tonneau en bois (cerclé de fer, remplaçant l'amphore argileuse). Leurs routes de commerce en charriot pavées de rondins parcourent toute l'Europe.",
             "croyancesText": "L'autorité suprême appartient à la caste sacerdotale des Druides. Ils sont juges, médecins, gardiens de la mémoire (transmise uniquement à l'oral par interdiction religieuse d'écrire) et de la loi. Ils célèbrent la sacralité de la nature (forêts, sources), décapitent les vaincus pour en conserver la tête (siège de l'âme) et pratiquent des sacrifices (animaux et ponctuellement humains) au dieu Toutatis, Esus ou Taranis.",
             "diplomatie": "Il n'y a pas 'un' empire gaulois, mais des dizaines de nations puissantes (Éduens, Arvernes, Carnutes). Leur incapacité à forger une union diplomatique durable est leur talon d'Achille. Les Éduens, rivaux des Arvernes, vont jusqu'à s'allier à Rome et appeler Jules César à l'aide, ouvrant sciemment les portes de la Gaule à la conquête romaine.",
             "guerres": [
@@ -1556,7 +1559,7 @@
               {
                 "annee": -460,
                 "evenement": "Royaume des Odryses",
-                "info": "Térès Ier unifie brièvement les tribus pour faire face à la menace perse."
+                "info": "Après le retrait perse de Thrace (après -479), Térès Ier fonde vers -470/-460 le royaume des Odryses en unifiant plusieurs tribus."
               },
               {
                 "annee": 46,
@@ -1578,12 +1581,12 @@
                 "nom": "Spartacus",
                 "role": "Gladiateur (ancien soldat thrace)",
                 "description": "Mène la révolte de la troisième guerre servile, infligeant de lourdes défaites aux armées consulaires romaines avant d'être écrasé par Crassus.",
-                "dates": "-111 à -71",
+                "dates": "Naissance inconnue, mort en -71",
                 "wikiUrl": "https://fr.wikipedia.org/wiki/Spartacus"
               }
             ],
             "sciences": "Leur art militaire est renommé. Ils inventent les 'peltastes', des fantassins très mobiles équipés d'un bouclier léger (la pelta) en osier, brisant les lourdes et rigides phalanges grecques par un harcèlement constant au javelot. L'orfèvrerie thrace (trésor de Panagyurichté), mêlant influences perses et grecques, témoigne d'une extrême sophistication technique.",
-            "croyancesText": "Leur philosophie religieuse méprise la mort physique, perçue comme un simple passage vers une vie meilleure ou immortelle (le culte de Zalmoxis), ce qui explique leur redoutable témérité au combat. Ils sont les créateurs originels du culte de Dionysos et du mythe d'Orphée, qui furent ensuite adoptés et polis par la Grèce classique.",
+            "croyancesText": "Leur philosophie religieuse méprise la mort physique, perçue comme un simple passage vers une vie meilleure ou immortelle (le culte de Zalmoxis), ce qui explique leur redoutable témérité au combat. Les Grecs prêtaient une origine thrace au culte de Dionysos (pourtant déjà attesté en Grèce mycénienne, en linéaire B) et au mythe d'Orphée.",
             "diplomatie": "Peuples profondément divisés en tribus rivales, considérés par Hérodote comme 'le peuple le plus nombreux du monde après les Indiens, et invincible s'il s'unissait'. Ils se vendent massivement comme mercenaires de luxe aux Perses, aux cités grecques, puis aux rois hellénistiques (Macédoniens).",
             "guerres": [
               {
@@ -1595,7 +1598,7 @@
                 "allies": [
                   "Esclaves gladiateurs et ruraux"
                 ],
-                "morts": "120 000 rebelles massacrés et 6000 crucifiés",
+                "morts": "Plusieurs dizaines de milliers de rebelles tués (chiffres antiques incertains), 6000 crucifiés",
                 "vainqueur": "Rome",
                 "consequences": "L'armée de Spartacus (d'origine thrace) est détruite, Rome durcit la répression servile.",
                 "wikiUrl": "https://fr.wikipedia.org/wiki/Troisi%C3%A8me_Guerre_servile"
@@ -1642,9 +1645,9 @@
               }
             ],
             "personnages": [],
-            "sciences": "Leur apport technique majeur au monde antique est la sidérurgie de l'acier (les mines d'Hispanie). Ils inventent la redoutable 'Falcata', une épée courte courbée asymétriquement capable de trancher les casques et les boucliers. L'arme est si efficace que l'armée romaine l'adopte et la standardise sous le nom de Gladius Hispaniensis (le glaive romain).",
+            "sciences": "Leur apport technique majeur au monde antique est la sidérurgie de l'acier (les mines d'Hispanie). Ils inventent la redoutable 'Falcata', une épée courte courbée asymétriquement capable de trancher les casques et les boucliers. Le glaive romain (gladius hispaniensis) ne dérive pas de la falcata, mais d'épées droites celtibères adoptées par Rome.",
             "croyancesText": "Culture fortement influencée par les Phéniciens et les Grecs installés sur leurs côtes. Ils pratiquent un art sculptural distinctif de figures féminines divines aux parures somptueuses (la Dame d'Elche, la Dame de Baza), associées à des cultes de fécondité, et incinèrent leurs morts héroïques en pliant ou détruisant volontairement leurs armes dans les tombes.",
-            "diplomatie": "Les Ibères et les Celtibères ne se battent pas en rangs serrés, mais privilégient la guérilla (un terme né sur ces terres). Fortement tribaux, ils scellent des alliances (hospitium) par l'échange de tessères de bronze (jetons de pacte). Ils fournissent la majorité des troupes d'élite à l'armée carthaginoise d'Hannibal contre Rome.",
+            "diplomatie": "Les Ibères et les Celtibères ne se battent pas en rangs serrés, mais privilégient les embuscades et le harcèlement. Fortement tribaux, ils scellent des alliances (hospitium) ; les Celtibères, surtout, échangent des tessères de bronze (jetons de pacte). Ils fournissent la majorité des troupes d'élite à l'armée carthaginoise d'Hannibal contre Rome.",
             "guerres": [
               {
                 "nom": "Guerres celtibères & numantines",
@@ -1653,9 +1656,9 @@
                   "République Romaine"
                 ],
                 "allies": [],
-                "morts": "Destruction des élites ibères",
+                "morts": "Destruction des élites celtibères",
                 "vainqueur": "Rome (Scipion Émilien)",
-                "consequences": "Le siège de Numance et le suicide collectif de ses habitants marquent la fin de la résistance hispanique face à Rome.",
+                "consequences": "La chute de la cité celtibère de Numance (-133) brise la résistance celtibère, mais la conquête de toute l'Hispanie ne s'achève qu'avec les guerres cantabres (-19).",
                 "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_de_Numance"
               }
             ],
@@ -1677,7 +1680,7 @@
             "color": "#7d6608",
             "isRiver": false,
             "capitale": "Campements nomades",
-            "description": "Insaisissables seigneurs des steppes eurasiatiques, inventeurs de la cavalerie légère tirant à l'arc, qui mirent à genoux l'armée de l'Empire Perse.",
+            "description": "Insaisissables seigneurs des steppes eurasiatiques, parmi les premiers maîtres de la cavalerie légère tirant à l'arc, qui mirent à genoux l'armée de l'Empire Perse.",
             "datesCles": [
               {
                 "annee": -513,
@@ -1694,13 +1697,13 @@
               {
                 "titre": "Roi scythe",
                 "nom": "Ateas",
-                "surnom": "",
+                "surnom": "Dates de vie approximatives (vers -429 à -339), règne mal connu",
                 "debut": -429,
                 "fin": -339
               }
             ],
             "personnages": [],
-            "sciences": "Leur innovation technologique bouleverse l'histoire militaire : l'arc scythe (petit, asymétrique, composite de bois, corne et tendon) permet de tirer à très grande vitesse depuis le dos d'un cheval lancé au galop. Ils inventent également le pantalon, indispensable pour monter à cru, et les étriers primitifs.",
+            "sciences": "Leur innovation technologique bouleverse l'histoire militaire : l'arc scythe (petit, symétrique, composite de bois, corne et tendon) permet de tirer à très grande vitesse depuis le dos d'un cheval lancé au galop. Ils sont aussi parmi les premiers à porter le pantalon, indispensable pour monter à cheval.",
             "croyancesText": "Le chamanisme nomade règne. Ils scellent des serments de sang, consomment du cannabis sous des tentes pour entrer en transe purificatrice. La mort des élites (les Kourganes) est accompagnée de sacrifices colossaux d'hommes (serviteurs) et de centaines de chevaux, enterrés sous de gigantesques tumulus de terre avec des parures en or d'art animalier.",
             "diplomatie": "Ce peuple ne possède ni villes, ni temples de pierre, ni champs cultivés, ce qui les rend invincibles. Leur tactique stratégique est la 'terre brûlée' : face à une armée impériale lourde (comme les Perses), ils reculent à l'infini dans les steppes, empoisonnent les puits et harcèlent l'ennemi de nuit jusqu'à la mutinerie des troupes adverses.",
             "guerres": [
@@ -1758,7 +1761,7 @@
               }
             ],
             "personnages": [],
-            "sciences": "Excellents constructeurs navals, ils inventent la Lembos : une galère légère, asymétrique, sans pont, hyper-rapide et maniable. Les Romains l'étudieront et la copieront pour créer les navires légers de la flotte impériale (les liburnes). Ils exploitent massivement l'argent de Damastion pour frapper monnaie.",
+            "sciences": "Excellents constructeurs navals, ils conçoivent le lembos : une galère légère, rapide et maniable, adoptée ensuite par les Macédoniens. Les liburnes, navires légers de la flotte romaine, tiennent leur nom des Liburnes, un peuple illyrien de marins. Ils exploitent massivement l'argent de Damastion pour frapper monnaie.",
             "croyancesText": "Leur religion balkanique reste assez obscure faute d'écrits, mais est fortement marquée par le culte chtonien du serpent, protecteur du foyer domestique et symbole de la terre. Ils vénéraient Medaurus, un dieu monté à cheval armé d'une lance, divinité de la guerre protectrice des citadelles de montagne.",
             "diplomatie": "Leur économie politique est basée sur le mercenariat d'élite (gardiens des rois macédoniens) et une piraterie d'État institutionnalisée. L'assassinat d'un ambassadeur romain par la reine Teuta, venue se plaindre des attaques sur les marchands italiens, provoque la toute première traversée de la mer Adriatique par les légions romaines.",
             "guerres": [
@@ -2054,7 +2057,7 @@
               }
             ],
             "personnages": [],
-            "sciences": "Leur puissance s'appuie sur le monopole initial (jalousement gardé) du travail et de la trempe du fer, produisant des armes plus solides et moins cassantes que le bronze égyptien. Ils révolutionnent la charrerie militaire en construisant des chars à trois places (un conducteur, un lancier, un porte-bouclier), offrant une force de frappe écrasante sur le champ de bataille.",
+            "sciences": "Les Hittites savent travailler le fer, mais ce métal reste rare et précieux (offert en cadeau diplomatique) : leur armée combat surtout avec des armes en bronze. Ils révolutionnent la charrerie militaire en construisant des chars à trois places (un conducteur, un lancier, un porte-bouclier), offrant une force de frappe écrasante sur le champ de bataille.",
             "croyancesText": "L'État hittite pratique un syncrétisme de 'Le panthéon des Mille Dieux'. Lorsqu'ils conquièrent un peuple, ils intègrent ses dieux aux leurs pour s'attirer leurs faveurs. Le dieu central est Tarhunna (le Dieu de l'Orage), vénéré dans le grand sanctuaire rupestre de Yazılıkaya, symbole de la puissance de la tempête sur les arides plateaux anatoliens.",
             "diplomatie": "Ce sont les inventeurs du Droit international antique. Contrairement à l'Assyrie qui rase ses ennemis, les Hittites créent des traités de vassalité extrêmement complexes (avec clauses d'extradition, mariage, et obligations d'assistance militaire) gravés sur l'argile et l'argent. Le Traité de Qadesh (-1259) avec Ramsès II est exposé au siège de l'ONU à New York comme le premier pacte de non-agression.",
             "guerres": [
@@ -2127,11 +2130,10 @@
                 "nom": "Siège de Tyr par Alexandre",
                 "annee": -332,
                 "adversaires": [
-                  "Macédoine (Alexandre)"
+                  "Macédoine (Alexandre)",
+                  "Flottes de Sidon, Byblos et Chypre (ralliées à Alexandre)"
                 ],
-                "allies": [
-                  "Flotte Perse"
-                ],
+                "allies": [],
                 "morts": "8000 citoyens tués, 30 000 esclaves",
                 "vainqueur": "Macédoine",
                 "consequences": "Destruction de la ville et massacre. Déclin définitif de la Phénicie au profit d'Alexandrie d'Égypte.",
@@ -2281,7 +2283,7 @@
                 "wikiUrl": "https://fr.wikipedia.org/wiki/Ch%C3%A2nakya"
               }
             ],
-            "sciences": "Sous l'impulsion de l'Arthashastra, l'État maurya est une immense machine bureaucratique. L'Inde standardise les poids, mesures et monnaies. La médecine ayurvédique et la chirurgie de guerre se perfectionnent, et Pataliputra devient l'une des villes les plus immenses et majestueuses du monde, entourée de murailles en bois renforcé (pour résister aux séismes) avec 64 portes.",
+            "sciences": "Sous l'impulsion de l'Arthashastra, l'État maurya est une immense machine bureaucratique. L'Inde standardise les poids, mesures et monnaies. La médecine ayurvédique et la chirurgie de guerre se perfectionnent, et Pataliputra devient l'une des villes les plus immenses et majestueuses du monde, entourée, selon l'ambassadeur grec Mégasthène, d'une palissade de bois percée de 64 portes.",
             "croyancesText": "Le règne d'Ashoka est la plateforme de lancement mondiale du bouddhisme. Choqué par les atrocités de la guerre, l'empereur se convertit et instaure l'Ahimsa (la non-violence absolue envers les humains et les animaux). Il ne persécute pas l'Hindouisme ou le Jaïnisme, imposant au contraire une tolérance religieuse d'État révolutionnaire financée par le trésor impérial.",
             "diplomatie": "Avant Ashoka, la diplomatie repose sur l'espionnage paranoïaque et les armées d'éléphants. Après sa conversion, l'expansion militaire s'arrête net. Ashoka envoie alors des missionnaires (ambassadeurs religieux) vers la Perse, la Syrie, l'Égypte gréco-macédonienne et au Sri Lanka pour prêcher le Dharma, substituant la conquête militaire par le soft-power culturel.",
             "guerres": [
@@ -2490,12 +2492,12 @@
               {
                 "annee": -200,
                 "evenement": "Bataille de Baideng",
-                "info": "Les Xiongnu encerclent le 1er empereur Han et lui imposent de payer un tribut."
+                "info": "Les Xiongnu encerclent le premier empereur Han, Gaozu, qui s'échappe après sept jours puis négocie le traité de « paix et parenté » (heqin)."
               },
               {
                 "annee": 46,
-                "evenement": "Guerre civile nomade",
-                "info": "La confédération se fracture en deux (Xiongnu du Nord, farouches, et du Sud, soumis à la Chine)."
+                "evenement": "Crise et scission",
+                "info": "Une crise éclate en 46 apr. J.-C. ; en 48, la confédération se divise formellement en deux (Xiongnu du Nord, hostiles, et du Sud, alliés de la Chine)."
               }
             ],
             "dirigeants": [
@@ -2521,7 +2523,7 @@
                 "allies": [],
                 "morts": "Gelures et famine pour les Han",
                 "vainqueur": "Xiongnu",
-                "consequences": "L'empereur de Chine est encerclé par 300 000 cavaliers sur une montagne. Il capitule, instaurant une ère de tributs humiliants payés aux nomades.",
+                "consequences": "L'empereur de Chine est encerclé sur une montagne par 400 000 cavaliers selon l'historien Sima Qian. Il s'échappe au bout de sept jours puis négocie le heqin, un traité qui oblige la Chine à verser des présents aux nomades.",
                 "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Baideng"
               }
             ],
@@ -2542,13 +2544,13 @@
             "end": -108,
             "color": "#2e6f95",
             "isRiver": false,
-            "capitale": "Wanggeom-seong (Pyongyang)",
-            "description": "Le creuset fondateur de l'identité coréenne (l'ère du bronze et du fer antique), dont l'annexion par les Han va provoquer la diaspora donnant naissance aux Trois Royaumes coréens.",
+            "capitale": "Wanggeom-seong (emplacement débattu : Pyongyang ou Liaoning)",
+            "description": "Le creuset fondateur de l'identité coréenne (l'ère du bronze et du fer antique), dont la chute face aux Han pousse une partie des élites vers le sud, un des facteurs qui préparent l'époque des Trois Royaumes coréens.",
             "datesCles": [
               {
                 "annee": -1000,
                 "evenement": "Bronze Mumun",
-                "info": "Essor de la civilisation de la poterie sans décor, de la culture du riz et des mégalithes (dolmens)."
+                "info": "Essor de la période Mumun (commencée vers -1500) : poterie sans décor, culture du riz et mégalithes (dolmens)."
               },
               {
                 "annee": -194,
@@ -2572,13 +2574,13 @@
               {
                 "titre": "Roi",
                 "nom": "Wiman",
-                "surnom": "",
+                "surnom": "Fin de règne incertaine",
                 "debut": -194,
                 "fin": -160
               }
             ],
             "personnages": [],
-            "sciences": "Le paysage préhistorique coréen a laissé une empreinte unique : Gojoseon possède près de 40% de tous les dolmens (sépultures de pierres géantes) du monde. Technologiquement, leur armement se distingue par la maîtrise de la dague (ou poignard) en bronze de type mandoliniforme (en forme de luth), un symbole de statut exclusif aux élites de ce royaume.",
+            "sciences": "Le paysage préhistorique coréen a laissé une empreinte unique : environ 40 % des dolmens (sépultures de pierres géantes) du monde se trouvent en Corée, la plupart datant de l'âge du bronze de la péninsule. Technologiquement, leur armement se distingue par la maîtrise de la dague (ou poignard) en bronze de type mandoliniforme (en forme de luth), un symbole de statut exclusif aux élites de ce royaume.",
             "croyancesText": "Le fondement religieux est le mythe de Dangun. Hwanung (le fils du Ciel) descend sur terre, donne à une ourse désireuse de devenir humaine de l'armoise et de l'ail à manger dans une grotte pendant 100 jours. Transformée en femme, elle épouse le dieu et donne naissance à Dangun, fondant le concept d'un sang coréen béni du Ciel et directement connecté à l'esprit de la montagne sauvage.",
             "diplomatie": "Situé au nord de la péninsule et s'étendant en Mandchourie, Gojoseon jouait le rôle d'intermédiaire commercial indispensable et lucratif entre les tribus du sud de la Corée (les Jin) et l'Empire Chinois (les Han). Ce monopole sur le transit du fer fut la cause directe de l'invasion impériale visant à briser leur contrôle économique de la région.",
             "guerres": [
@@ -2591,7 +2593,7 @@
                 "allies": [],
                 "morts": "Effondrement du gouvernement central",
                 "vainqueur": "Dynastie Han",
-                "consequences": "Chute de la capitale. La Chine divise le nord de la Corée en 'Quatre Commanderies', forçant les élites coréennes à fuir au sud.",
+                "consequences": "Guerre de -109 à -108. Chute de la capitale en -108. La Chine divise le nord de la Corée en 'Quatre Commanderies' ; une partie des élites part vers le sud.",
                 "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_Han%E2%80%93Gojoseon"
               }
             ],
@@ -2676,8 +2678,8 @@
             ],
             "dirigeants": [],
             "personnages": [],
-            "sciences": "Leur génie logistique frappe encore aujourd'hui : ils ont taillé des 'Têtes Colossales' dans des blocs de basalte de 20 tonnes, et les ont transportées sur des dizaines de kilomètres à travers des jungles marécageuses sans roue ni animaux de trait. Ils inventent les fondements du compte long (le calendrier mésoaméricain basé sur l'observation de Vénus) et vulcanisent de manière empirique la sève de l'hévéa pour fabriquer les premières balles rebondissantes en caoutchouc.",
-            "croyancesText": "L'art olmèque exprime une cosmologie complexe et chamanique. Le Jaguar y est l'animal suprême de la nuit et de la pluie, souvent représenté en fusion avec les traits d'un enfant humain pleurant (le 'Were-Jaguar'). Le souverain agirait comme un chamane capable de voyager dans le monde des esprits par des transes (trépanation, psychotropes) pour obtenir la clémence des dieux de la pluie.",
+            "sciences": "Leur génie logistique frappe encore aujourd'hui : ils ont taillé des 'Têtes Colossales' dans des blocs de basalte de 20 tonnes, et les ont transportées sur des dizaines de kilomètres à travers des jungles marécageuses sans roue ni animaux de trait. Ils vulcanisent de manière empirique la sève de l'hévéa pour fabriquer les premières balles rebondissantes en caoutchouc.",
+            "croyancesText": "L'art olmèque exprime une cosmologie complexe et chamanique. Le Jaguar y est l'animal suprême de la nuit et de la pluie, souvent représenté en fusion avec les traits d'un enfant humain pleurant (le 'Were-Jaguar'). Le souverain agirait comme un chamane capable de voyager dans le monde des esprits par des transes (peut-être à l'aide de substances psychotropes) pour obtenir la clémence des dieux de la pluie.",
             "diplomatie": "Il s'agit moins d'un empire militaire que d'un réseau de centres religieux (une hiérarchie de villes et de villages). Les Olmèques opèrent une domination culturelle et commerciale (pour l'importation de jade, d'obsidienne et de magnétite). Leur art devient le standard de prestige copié par toutes les autres tribus émergentes du continent (de la vallée du Mexique jusqu'au Honduras).",
             "guerres": [],
             "documentaires": [
@@ -2692,7 +2694,7 @@
             "trackId": "mesoamerique",
             "row": 1,
             "label": "Teotihuacán",
-            "period": "-100 à 476",
+            "period": "-100 à vers 550-650",
             "start": -100,
             "end": 476,
             "color": "#117a65",
@@ -2703,7 +2705,7 @@
               {
                 "annee": 150,
                 "evenement": "Pyramide du Soleil",
-                "info": "Achevement du monument central de la cité, aligné sur la course astronomique."
+                "info": "Achèvement du monument central de la cité, aligné sur la course astronomique."
               },
               {
                 "annee": 250,
@@ -2713,33 +2715,33 @@
               {
                 "annee": 378,
                 "evenement": "Entrée maya (L'Entrada)",
-                "info": "Le général Teotihuacano Siyaj K'ak' décapite la royauté de la grande cité Maya Tikal pour y installer un roi fantoche."
+                "info": "Le chef de guerre Siyaj K'ak', lié à Teotihuacán, arrive à Tikal ; le roi Chak Tok Ich'aak meurt le jour même, et Yax Nuun Ayiin devient roi en 379."
               }
             ],
-            "dirigeants": [
+            "dirigeants": [],
+            "personnages": [
               {
-                "titre": "Seigneur (Général)",
-                "nom": "Siyaj K'ak'",
-                "surnom": "Le feu est né",
-                "debut": 378,
-                "fin": 400
+                "nom": "Siyaj K'ak' (« Le feu est né »)",
+                "role": "Chef de guerre",
+                "description": "Chef de guerre lié à Teotihuacán, arrivé à Tikal en 378. Ce n'est pas un souverain de Teotihuacán : aucun souverain de la cité n'est connu.",
+                "dates": "Arrivée à Tikal en 378",
+                "wikiUrl": "https://en.wikipedia.org/wiki/Siyaj_K%27ak%27"
               }
             ],
-            "personnages": [],
-            "sciences": "C'est l'un des premiers triomphes d'urbanisme géométrique de masse. La ville, traversée par 'l'Allée des Morts' longue de 4 km, est divisée en quartiers résidentiels pour étrangers (Zapotèques, Mayas), abritant des ateliers spécialisés. La richesse de la ville repose sur le contrôle absolu et industriel de l'extraction de l'obsidienne (verre volcanique) de Pachuca, utilisée comme l'arme la plus tranchante du monde précolombien.",
-            "croyancesText": "L'art de la ville est paradoxal : on n'y trouve aucune statue de roi glorieux. L'iconographie est entièrement dévolue à Tlaloc (Dieu à lunettes de la pluie) et au Serpent à Plumes (Quetzalcoatl). La fondation de leurs grands temples s'accompagne de sacrifices horrifiques : des centaines de guerriers étrangers les mains ligotées, ou des animaux prédateurs (pumas, aigles) ont été enterrés vivants au cœur des pyramides pour leur insuffler la vie.",
-            "diplomatie": "C'est le suzerain brutal et distant de la Mésoamérique. En l'an 378, bien avant les Aztèques, Teotihuacán envoie une expédition militaire à plus de 1000 km dans les jungles mayas. Ils renversent la dynastie de la plus grande cité maya (Tikal) et placent le fils de leur propre souverain (Chouette-Lançe-Dards) sur le trône, imposant leur style architectural et vestimentaire à la civilisation Maya (le style Talud-Tablero).",
+            "sciences": "C'est l'un des premiers triomphes d'urbanisme géométrique de masse. La ville, traversée par 'l'Allée des Morts' longue d'environ 2,5 km, est divisée en quartiers résidentiels pour étrangers (Zapotèques, Mayas), abritant des ateliers spécialisés. La richesse de la ville repose sur le contrôle absolu et industriel de l'extraction de l'obsidienne (verre volcanique) de Pachuca, utilisée comme l'arme la plus tranchante du monde précolombien.",
+            "croyancesText": "L'art de la ville est paradoxal : on n'y trouve aucune statue de roi glorieux. L'iconographie est surtout consacrée à un dieu de la pluie à lunettes et au Serpent à Plumes, que l'on désigne par les noms aztèques de divinités apparentées (Tlaloc et Quetzalcoatl). La fondation de leurs grands temples s'accompagne de sacrifices : des centaines de guerriers aux mains liées et des animaux prédateurs (pumas, aigles) ont été enterrés au cœur des pyramides.",
+            "diplomatie": "C'est le suzerain brutal et distant de la Mésoamérique. En l'an 378, bien avant les Aztèques, Teotihuacán envoie une expédition militaire à plus de 1000 km dans les jungles mayas. Le roi de Tikal, la plus grande cité maya, meurt le jour de leur arrivée, et Yax Nuun Ayiin, fils d'un personnage nommé « Chouette-Lance-Dards », devient roi en 379, imposant leur style architectural et vestimentaire à la civilisation Maya (le style Talud-Tablero).",
             "guerres": [
               {
                 "nom": "Guerre Civile Interne",
-                "annee": 650,
+                "annee": 550,
                 "adversaires": [
                   "Factions élitistes internes"
                 ],
                 "allies": [],
                 "morts": "Massacre des quartiers nobles",
                 "vainqueur": "Effondrement du système",
-                "consequences": "Les palais centraux sont incendiés par la population ou une faction rivale. La cité périclite, bien que son influence religieuse ne s'éteigne jamais.",
+                "consequences": "Vers 550 (entre 550 et 650 selon les sources), le centre de la cité est incendié, peut-être par la population ou une faction rivale. La cité périclite, bien que son influence religieuse ne s'éteigne jamais.",
                 "wikiUrl": "https://fr.wikipedia.org/wiki/Teotihuac%C3%A1n"
               }
             ],
@@ -2776,8 +2778,8 @@
             ],
             "dirigeants": [],
             "personnages": [],
-            "sciences": "Leur temple est une machine théâtrale à subjuguer les esprits. Les architectes Chavín ont créé un réseau de galeries souterraines complètement obscures, traversées par des canaux hydrauliques dissimulés. Lors de la saison des pluies, l'eau s'y engouffre, et la pression de l'air fait rugir l'édifice tout entier, donnant l'illusion parfaite que la montagne et le temple 'respirent' et grognent comme un immense félin.",
-            "croyancesText": "Le culte est chamanique et terrifiant. Le prêtre absorbe des extraits du cactus hallucinogène San Pedro et guide le pèlerin dans les ténèbres absolues du labyrinthe (le Lanzón). Là, face à une statue de granit féroce d'un monstre mi-humain mi-jaguar (le Dieu aux Sceptres), sous l'effet du bruit d'eau rugissante et des drogues, le croyant vit une expérience de mort et de résurrection mystique assurant sa conversion.",
+            "sciences": "Leur temple est une machine théâtrale à subjuguer les esprits. Les architectes Chavín ont créé un réseau de galeries souterraines complètement obscures, traversées par des canaux hydrauliques dissimulés. Lors de la saison des pluies, l'eau s'y engouffre, et la pression de l'air fait peut-être rugir l'édifice : selon une hypothèse, cela aurait donné l'illusion que la montagne et le temple « respirent » et grognent comme un immense félin.",
+            "croyancesText": "Le culte est chamanique et terrifiant. Le prêtre absorbe des extraits du cactus hallucinogène San Pedro et guide le pèlerin dans les galeries obscures du temple. Au centre se dresse le Lanzón, une stèle de granit de 4,5 m figurant une divinité féroce mi-humaine mi-félin. Le « dieu aux bâtons » (ou aux sceptres) est, lui, représenté sur la stèle Raimondi. Selon certaines hypothèses, le pèlerin aurait vécu une expérience de mort et de renaissance symboliques.",
             "diplomatie": "Chavín ne possède pas d'armée conquérante. Son autorité est un 'soft-power' de la peur et de la fascination religieuse. En échange d'oracles et de prophéties (cruciales pour anticiper les ravages climatiques d'El Niño sur les récoltes côtières), les populations de tout le Pérou offrent des lamas, du maïs, de l'or et des textiles brodés précieux aux prêtres du temple.",
             "guerres": [],
             "documentaires": [
@@ -2792,12 +2794,12 @@
             "trackId": "andes",
             "row": 2,
             "label": "Culture Nazca",
-            "period": "-200 à 476",
+            "period": "-200 à vers 600-650",
             "start": -200,
             "end": 476,
             "color": "#ba9c07",
             "isRiver": true,
-            "capitale": "Cahuachi",
+            "capitale": "Cahuachi (centre cérémoniel)",
             "description": "Société du désert aride péruvien, passée maître dans l'ingénierie hydraulique de survie et le tracé énigmatique de dessins géants.",
             "datesCles": [
               {
@@ -2813,14 +2815,14 @@
               {
                 "annee": 450,
                 "evenement": "Déclin climatique",
-                "info": "Une méga-sécheresse, aggravée par la déforestation locale (abattage du Huarango), condamne la culture."
+                "info": "Une sécheresse, peut-être aggravée par la déforestation locale (abattage du huarango), fragilise la culture, qui décline jusque vers 600-650."
               }
             ],
             "dirigeants": [],
             "personnages": [],
-            "sciences": "Survivre dans le désert le plus aride du monde implique des prouesses de terrassement. Ils inventent le système des 'Puquios' : de monumentaux aqueducs souterrains empierrés captant l'eau des nappes phréatiques, avec d'impressionnantes cheminées d'aération en spirale pour permettre l'entretien sans que l'eau ne s'évapore sous le soleil mortel. Leur céramique, cuite à ciel ouvert, utilise 15 couleurs minérales fixées chimiquement avant cuisson.",
-            "croyancesText": "Les fameuses Lignes de Nazca (géoglyphes) ne sont pas des pistes pour extraterrestres, mais des chemins processionnels religieux. Les prêtres marchaient en file indienne sur les tracés du colibri ou du condor pour prier les dieux de la montagne et supplier l'arrivée de la pluie divine. Leurs rites incluent la collection intensive de 'têtes-trophées' momifiées d'ennemis pour voler leur énergie rituelle.",
-            "diplomatie": "Nazca est une confédération de chefferies de vallées, liées par une religion commune centralisée à Cahuachi (leur capitale théocratique en adobe). La sécheresse permanente et le besoin de ressources rendent les conflits rituels très fréquents, où capturer vivant son adversaire pour l'offrir en sacrifice (ou le décapiter) garantit la gloire et l'approvisionnement mystique en eau.",
+            "sciences": "Survivre dans le désert le plus aride du monde implique des prouesses de terrassement. On leur attribue généralement les 'Puquios' : de monumentaux aqueducs souterrains empierrés captant l'eau des nappes phréatiques, avec d'impressionnantes cheminées d'aération en spirale pour permettre l'entretien sans que l'eau ne s'évapore sous le soleil mortel. Leur céramique polychrome utilise une grande variété de couleurs minérales (souvent plus d'une dizaine).",
+            "croyancesText": "Les fameuses Lignes de Nazca (géoglyphes) ne sont pas des pistes pour extraterrestres, mais des chemins processionnels religieux. Selon une hypothèse répandue, des processions parcouraient les tracés du colibri ou du condor pour prier les dieux de la montagne et appeler la pluie. Leurs rites incluent la collection intensive de 'têtes-trophées' momifiées d'ennemis pour voler leur énergie rituelle.",
+            "diplomatie": "Nazca est une confédération de chefferies de vallées, liées par une religion commune dont le grand centre est Cahuachi (centre cérémoniel et de pèlerinage en adobe, et non une capitale). La sécheresse permanente et le besoin de ressources rendent les conflits rituels très fréquents, où capturer vivant son adversaire pour l'offrir en sacrifice (ou le décapiter) garantit la gloire et l'approvisionnement mystique en eau.",
             "guerres": [],
             "documentaires": [
               {
@@ -3243,7 +3245,7 @@
               {
                 "annee": 1077,
                 "evenement": "Pénitence de Canossa",
-                "info": "L'Empereur, excommunié, supplie le Pape nu-pieds dans la neige."
+                "info": "Le roi Henri IV (couronné empereur seulement en 1084), excommunié, attend en habit de pénitent dans la neige, trois jours selon les chroniques, le pardon du pape Grégoire VII."
               },
               {
                 "annee": 1356,
@@ -3663,7 +3665,7 @@
             "color": "#4caf50",
             "isRiver": false,
             "capitale": "Venise, Gênes, Amalfi",
-            "description": "Génies du capitalisme primitif et maîtres des mers, ces cités-États d'Italie ont financé les croisades et raflé le commerce des épices d'Orient.",
+            "description": "Pionnières du capitalisme marchand et maîtresses des mers, ces cités-États d'Italie ont participé aux croisades et dominé une grande partie du commerce des épices d'Orient.",
             "datesCles": [
               {
                 "annee": 828,
@@ -3683,7 +3685,7 @@
               {
                 "annee": 1380,
                 "evenement": "Guerre de Chioggia",
-                "info": "Venise prend sa revanche sur Gênes et devient l'hégémonie absolue de Méditerranée."
+                "info": "Venise résiste à Gênes et à ses alliés puis l'emporte ; la paix de Turin (1381) confirme sa position de grande puissance commerciale, sans lui donner de monopole."
               }
             ],
             "dirigeants": [
@@ -3699,27 +3701,39 @@
               {
                 "nom": "Marco Polo",
                 "role": "Marchand explorateur",
-                "description": "Vénitien ayant traversé l'Asie, devenu ambassadeur du Khan mongol. Son 'Livre des Merveilles' a fasciné l'Europe.",
+                "description": "Vénitien ayant traversé l'Asie, resté de longues années au service de l'empereur mongol Kubilaï. Son 'Livre des Merveilles' a fasciné l'Europe.",
                 "dates": "1254 à 1324",
                 "wikiUrl": "https://fr.wikipedia.org/wiki/Marco_Polo"
               }
             ],
-            "sciences": "Elles ont inventé la banque moderne, la comptabilité en partie double, la lettre de change (chèque), l'assurance maritime et le premier système de brevet industriel. L'Arsenal de Venise est l'usine la plus sophistiquée du Moyen Âge : avec un travail à la chaîne de charpentiers, de voiliers et de forgerons, ils pouvaient assembler et armer une galère de guerre complète en une seule journée.",
-            "croyancesText": "Malgré un catholicisme affiché de façade, le véritable dieu des Républiques est le commerce. La Papauté menaçait souvent Venise d'excommunication pour son commerce impie (bois, fer, esclaves) avec le monde musulman, ce à quoi les sénateurs vénitiens répondaient : 'Nous sommes d'abord Vénitiens, ensuite Chrétiens'.",
+            "sciences": "Elles ont inventé la banque moderne, la comptabilité en partie double, la lettre de change (un ordre de paiement entre places marchandes, ancêtre lointain du chèque), l'assurance maritime et le premier système de brevet industriel. L'Arsenal de Venise est l'un des plus grands chantiers du Moyen Âge : charpentiers, voiliers et forgerons y travaillent par étapes, ce qui permet d'armer rapidement des flottes entières (selon une anecdote de 1574, une galère y aurait même été assemblée en une journée).",
+            "croyancesText": "Malgré un catholicisme affiché de façade, le véritable dieu des Républiques est le commerce. La Papauté menaçait souvent Venise d'excommunication pour son commerce impie (bois, fer, esclaves) avec le monde musulman, ce qui n'empêchait pas Venise de défendre farouchement ses intérêts commerciaux (la formule « Nous sommes d'abord Vénitiens, ensuite Chrétiens » qu'on lui prête est apocryphe).",
             "diplomatie": "Plutôt que de conquérir de lourds empires continentaux, Venise et Gênes créent des 'empires de comptoirs'. Ce sont des réseaux ininterrompus de ports fortifiés (Crète, Chypre, Crimée) sécurisant la route des épices et de la soie. Elles sont gouvernées par un patriciat oligarchique (le Grand Conseil), élisant un Doge surveillé par le terrible et redouté Conseil des Dix.",
             "guerres": [
               {
-                "nom": "Guerre de Saint-Sabas / Guerre de Chioggia",
+                "nom": "Guerre de Saint-Sabas",
                 "annee": 1256,
                 "adversaires": [
                   "République de Gênes"
                 ],
-                "allies": [
-                  "Empire Byzantin (pour Gênes)"
+                "allies": [],
+                "morts": "Inconnu",
+                "vainqueur": "Venise (sur mer)",
+                "consequences": "Guerre de 1256 à 1270, partie d'une querelle de quartiers à Acre. Venise l'emporte sur mer, mais par le traité de Nymphée (1261), l'Empire byzantin ouvre la mer Noire à Gênes.",
+                "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_de_Saint-Sabas"
+              },
+              {
+                "nom": "Guerre de Chioggia",
+                "annee": 1378,
+                "adversaires": [
+                  "République de Gênes",
+                  "Royaume de Hongrie",
+                  "Seigneurie de Padoue"
                 ],
-                "morts": "Destruction des flottes de combat",
+                "allies": [],
+                "morts": "Inconnu",
                 "vainqueur": "Venise",
-                "consequences": "Venise purge Gênes de la Méditerranée orientale et s'assure le monopole du commerce du poivre et de la soie.",
+                "consequences": "Guerre de 1378 à 1381. Venise, assiégée à Chioggia, finit par l'emporter. La paix de Turin (1381) rétablit un équilibre, sans donner de monopole à Venise.",
                 "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_de_Chioggia"
               }
             ],
@@ -3786,7 +3800,7 @@
               {
                 "annee": 1212,
                 "evenement": "Las Navas de Tolosa",
-                "info": "Défaite décisive contre les rois catholiques."
+                "info": "Défaite décisive des Almohades face à la coalition des royaumes chrétiens (Castille, Aragon, Navarre)."
               },
               {
                 "annee": 1492,
@@ -3834,15 +3848,15 @@
                 "nom": "Bataille de Las Navas de Tolosa",
                 "annee": 1212,
                 "adversaires": [
-                  "Coalition des rois d'Espagne",
+                  "Castille, Aragon et Navarre",
                   "Croisés européens"
                 ],
                 "allies": [
                   "Empire Almohade"
                 ],
-                "morts": "Boucherie dans les rangs almohades",
-                "vainqueur": "Chrétiens (Reconquista)",
-                "consequences": "La puissance militaire islamique est brisée définitivement. Le sud de l'Espagne s'ouvre à la reconquête chrétienne.",
+                "morts": "Très lourdes pertes dans les rangs almohades",
+                "vainqueur": "Royaumes chrétiens (Reconquista)",
+                "consequences": "La puissance militaire almohade en péninsule est brisée. Le sud de l'Espagne s'ouvre à la reconquête chrétienne.",
                 "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Las_Navas_de_Tolosa"
               }
             ],
@@ -3869,7 +3883,7 @@
               {
                 "annee": 718,
                 "evenement": "Bataille de Covadonga",
-                "info": "L'étincelle : Pélage repousse un raid musulman dans les montagnes des Asturies."
+                "info": "Vers 718-722 (date discutée), Pélage repousse un raid musulman dans les montagnes des Asturies."
               },
               {
                 "annee": 1085,
@@ -3884,7 +3898,7 @@
               {
                 "annee": 1469,
                 "evenement": "Le Mariage",
-                "info": "Isabelle de Castille épouse Ferdinand d'Aragon, unifiant géopolitiquement l'Espagne."
+                "info": "Isabelle de Castille épouse Ferdinand d'Aragon. C'est une union personnelle : les deux couronnes gardent leurs propres lois et institutions."
               },
               {
                 "annee": 1492,
@@ -3913,13 +3927,13 @@
                 "nom": "Le Cid (Rodrigo Díaz de Vivar)",
                 "role": "Chevalier / Mercenaire",
                 "description": "Héros de l'épopée espagnole, il servit autant les rois chrétiens que les émirs musulmans, se taillant une principauté à Valence.",
-                "dates": "1048 à 1099",
+                "dates": "Vers 1043 à 1099",
                 "wikiUrl": "https://fr.wikipedia.org/wiki/Rodrigo_D%C3%ADaz_de_Vivar"
               }
             ],
             "sciences": "Leur génie est poliorcétique (guerre de siège) et naval. Aragon et la Catalogne développent une flotte puissante (les galères catalanes) et l'une des cartographies les plus précises du monde. En reprenant les villes musulmanes (comme Tolède), ils mettent la main sur les immenses bibliothèques arabes et créent l'École de traduction de Tolède, transférant les mathématiques et la philosophie vers le latin.",
             "croyancesText": "C'est une société de frontière justifiant sa violence territoriale par la théologie de la Croisade perpétuelle. L'Église structure la société autour du culte de Santiago Matamoros (Saint Jacques le Tueur de Maures), patron protecteur, et de la création de violents ordres militaires nationaux de moines-soldats (Ordre de Calatrava et de Santiago) inspirés des Templiers.",
-            "diplomatie": "La Reconquista n'est pas un front uni continu. Les royaumes chrétiens (Léon, Castille, Navarre, Portugal, Aragon) se font la guerre entre eux autant qu'aux musulmans, via des successions dynastiques empoisonnées. Ce n'est qu'avec le mariage secret des 'Rois Catholiques' (Isabelle et Ferdinand) en 1469 que l'Espagne forge un État moderne, centralisé et diplomatiquement craint dans toute l'Europe.",
+            "diplomatie": "La Reconquista n'est pas un front uni continu. Les royaumes chrétiens (Léon, Castille, Navarre, Portugal, Aragon) se font la guerre entre eux autant qu'aux musulmans, via des successions dynastiques empoisonnées. Le mariage secret des 'Rois Catholiques' (Isabelle et Ferdinand) en 1469 rapproche la Castille et l'Aragon : c'est une union personnelle, chaque couronne gardant ses lois, mais leur politique commune fait de l'Espagne une puissance redoutée en Europe.",
             "guerres": [
               {
                 "nom": "Guerre de Grenade",
@@ -3928,7 +3942,8 @@
                   "Royaume nasride de Grenade (Boabdil)"
                 ],
                 "allies": [
-                  "Artillerie du Saint-Empire"
+                  "Couronne de Castille",
+                  "Couronne d'Aragon"
                 ],
                 "morts": "Fin de l'Al-Andalus",
                 "vainqueur": "Rois Catholiques",
@@ -4325,8 +4340,8 @@
                 "titre": "Tsenpo (Empereur)",
                 "nom": "Songtsen Gampo",
                 "surnom": "",
-                "debut": 604,
-                "fin": 650
+                "debut": 629,
+                "fin": 649
               },
               {
                 "titre": "Tsenpo",
@@ -4346,22 +4361,21 @@
               }
             ],
             "sciences": "Leur suprématie est militaire. Ils développent une cavalerie cataphractaire (lourde) terrifiante : le cavalier et sa monture sont entièrement recouverts d'armures de mailles métalliques. C'est sous cet empire que la langue tibétaine est dotée d'une écriture alphabetique et d'une grammaire complexe (adaptée du sanskrit indien) spécifiquement pour traduire massivement les textes sacrés bouddhistes d'Inde.",
-            "croyancesText": "À l'origine, le Tibet pratique le 'Bön', un animisme de haute montagne axé sur le culte des esprits protecteurs et de la royauté divine. Sous le patronage des rois (les Rois du Dharma), un débat épique (le Concile de Lhassa) est organisé entre des moines zen chinois et des moines mystiques indiens. Les rois choisissent l'école indienne (Vajrayana), qui va fusionner avec la magie locale pour créer le Bouddhisme tantrique tibétain.",
-            "diplomatie": "Situé stratégiquement sur le Toit du Monde, le Tibet verrouille les routes commerciales de la Soie sud. Pour sécuriser sa paix, le roi Songtsen Gampo force diplomatiquement la Chine (Princesse Wencheng) et le Népal (Princesse Bhrikuti) à lui donner des épouses royales, lesquelles auraient apporté avec elles les premières idoles bouddhistes au Tibet.",
+            "croyancesText": "À l'origine, le Tibet pratique le 'Bön', un animisme de haute montagne axé sur le culte des esprits protecteurs et de la royauté divine. Sous le patronage des rois (les Rois du Dharma), un grand débat (le débat de Samye, vers 792-794) oppose des moines chan (zen) chinois, partisans de l'éveil subit, et le moine indien Kamalashila, partisan d'une voie graduelle. Kamalashila est déclaré vainqueur et le Tibet suit les écoles indiennes, qui va fusionner avec la magie locale pour créer le Bouddhisme tantrique tibétain.",
+            "diplomatie": "Situé stratégiquement sur le Toit du Monde, le Tibet verrouille les routes commerciales de la Soie sud. Pour sécuriser sa paix, le roi Songtsen Gampo force diplomatiquement la Chine (Princesse Wencheng) et le Népal (Princesse Bhrikuti, selon la tradition) à lui donner des épouses royales, lesquelles auraient apporté avec elles les premières idoles bouddhistes au Tibet.",
             "guerres": [
               {
-                "nom": "Guerres arabo-tibétaines / sino-tibétaines",
-                "annee": 751,
+                "nom": "Guerres sino-tibétaines",
+                "annee": 763,
                 "adversaires": [
-                  "Empire Tang",
-                  "Califat Abbasside"
+                  "Empire Tang"
                 ],
                 "allies": [
-                  "Tribus Turques"
+                  "Royaume de Nanzhao"
                 ],
                 "morts": "Pertes militaires frontalières",
-                "vainqueur": "Empire Tibétain",
-                "consequences": "L'Empire s'étend jusqu'au Turkestan et au Bengale, contrôlant un espace géopolitique immense avant de s'effondrer de l'intérieur.",
+                "vainqueur": "Empire Tibétain (pour un temps)",
+                "consequences": "Profitant de la révolte d'An Lushan, le Tibet prend brièvement Chang'an, la capitale des Tang, en 763, et contrôle pour un temps le Gansu et une partie des oasis d'Asie centrale, avant de s'effondrer de l'intérieur au IXe siècle.",
                 "wikiUrl": "https://fr.wikipedia.org/wiki/Empire_du_Tibet"
               }
             ],
@@ -4497,12 +4511,12 @@
             "color": "#2e6f95",
             "isRiver": false,
             "capitale": "Gaegyeong",
-            "description": "Un riche empire bouddhiste de la péninsule asiatique, reconnu pour son céramisme d'art, qui dut survivre à un siècle d'occupation barbare.",
+            "description": "Un riche empire bouddhiste de la péninsule asiatique, reconnu pour son céramisme d'art, qui dut survivre à près d'un siècle de domination mongole.",
             "datesCles": [
               {
                 "annee": 918,
                 "evenement": "Fondation",
-                "info": "Wang Geon unifie la péninsule et lui donne le nom de 'Goryeo' (qui deviendra le mot 'Corée')."
+                "info": "Wang Geon fonde le royaume de 'Goryeo' (qui deviendra le mot 'Corée') ; il unifie la péninsule en 935-936."
               },
               {
                 "annee": 1170,
@@ -4517,7 +4531,7 @@
               {
                 "annee": 1377,
                 "evenement": "L'Imprimerie métallique",
-                "info": "Impression du Jikji avec des caractères mobiles en métal."
+                "info": "Impression du Jikji, le plus ancien livre conservé imprimé en caractères mobiles métalliques (leur usage est attesté dès vers 1234)."
               }
             ],
             "dirigeants": [
@@ -4545,8 +4559,8 @@
                 "wikiUrl": "https://fr.wikipedia.org/wiki/Gongmin_(roi_de_Goryeo)"
               }
             ],
-            "sciences": "Le génie technique coréen devance le monde sur deux points. D'abord, l'imprimerie : les Coréens inventent et utilisent des caractères mobiles fondus en métal (bronze) 78 ans avant le premier livre de l'allemand Gutenberg. Ensuite, le Céladon, une céramique d'un éclat vert émeraude incrustée d'argile blanche et noire si parfaite que même les empereurs de la Chine Song l'achetaient à prix d'or.",
-            "croyancesText": "L'état dépense une fortune dans le patronage du Bouddhisme, y voyant une armure mystique pour protéger la nation. Lors des invasions mongoles, l'État a financé la gravure du Tripitaka Koreana : 81 258 panneaux de bois massifs contenant l'intégralité du canon bouddhiste gravé à l'envers, sans la moindre erreur, pour invoquer l'aide divine (ils sont toujours intacts aujourd'hui).",
+            "sciences": "Le génie technique coréen devance le monde sur deux points. D'abord, l'imprimerie : les Coréens utilisent des caractères mobiles fondus en métal dès le XIIIe siècle ; le Jikji (1377), plus ancien livre conservé imprimé ainsi, précède d'environ 78 ans la Bible de Gutenberg. Ensuite, le Céladon, une céramique d'un éclat vert émeraude incrustée d'argile blanche et noire, dont l'envoyé chinois Xu Jing fait l'éloge en 1123.",
+            "croyancesText": "L'état dépense une fortune dans le patronage du Bouddhisme, y voyant une armure mystique pour protéger la nation. Lors des invasions mongoles, l'État a financé la gravure du Tripitaka Koreana : environ 81 258 planches de bois (selon les comptages) contenant le canon bouddhiste gravé à l'envers, pour invoquer l'aide divine (ils sont toujours intacts aujourd'hui).",
             "diplomatie": "Goryeo est un acteur pivot entre les puissantes dynasties nordiques mandchoues (Khitan, Jurchen) et la Chine. Son régime vacille lors des purges internes, passant d'un pouvoir civil à une junte militaire impitoyable (le clan Choe). Pour survivre à l'invasion mongole, la royauté coréenne devra se résoudre à marier ses princes aux princesses gengiskhanides pendant près d'un siècle.",
             "guerres": [
               {
@@ -4662,7 +4676,7 @@
               }
             ],
             "personnages": [],
-            "sciences": "Angkor n'est pas seulement un temple, c'est la plus grande mégalopole pré-industrielle du monde (environ un million d'habitants). Pour survivre à l'alternance mousson/sécheresse, ils créent une 'Cité Hydraulique' folle : des Barays. Des lacs artificiels de 8 km sur 2 km, construits non pas en creusant, mais en érigeant des digues titanesques, capables d'irriguer les rizières permettant 3 à 4 récoltes par an.",
+            "sciences": "Angkor n'est pas seulement un temple, c'est la plus grande mégalopole pré-industrielle du monde (plusieurs centaines de milliers d'habitants selon les estimations). Pour survivre à l'alternance mousson/sécheresse, ils créent une 'Cité Hydraulique' folle : des Barays. Des lacs artificiels de 8 km sur 2 km, construits non pas en creusant, mais en érigeant des digues titanesques, capables d'irriguer les rizières permettant 3 à 4 récoltes par an.",
             "croyancesText": "Initialement fondé sur le culte de Shiva et Vishnu, le roi n'est pas seulement représentant, il 'est' le dieu (Devaraja). L'architecture des temples, comme Angkor Wat entouré de douves, est une réplique terrestre parfaite de la cosmologie hindoue (le mythique mont Meru entouré de l'océan cosmique). Plus tard, le roi Jayavarman VII impose le Bouddhisme du Grand Véhicule (Mahayana) en faisant sculpter d'immenses visages sereins sur ses tours (Bayon).",
             "diplomatie": "L'Empire s'étend du Vietnam au Myanmar. Il relie ses provinces vassales par un réseau d'autoroutes de latérite surélevées pour échapper aux inondations, ponctuées de ponts à arches en encorbellement et d'hôpitaux royaux. La diplomatie extérieure est brutale, reposant sur l'utilisation d'infanterie légère naviguant sur le grand lac du Tonlé Sap, et de brigades massives d'éléphants de guerre.",
             "guerres": [
@@ -4700,14 +4714,14 @@
             "description": "Puissante confédération maritime (Indonésie/Malaisie) tenant en otage le détroit de Malacca et s'enrichissant du commerce mondial des épices fines.",
             "datesCles": [
               {
-                "annee": 683,
-                "evenement": "Serment de l'empereur",
-                "info": "L'inscription de Kedukan Bukit prouve l'organisation d'une marine de 20 000 hommes."
+                "annee": 682,
+                "evenement": "Inscription de Kedukan Bukit",
+                "info": "Elle relate une expédition de 20 000 soldats menée par le souverain. Les serments de fidélité sont connus par d'autres inscriptions (Telaga Batu, Kota Kapur en 686)."
               },
               {
-                "annee": 850,
+                "annee": 687,
                 "evenement": "Pôle d'éducation",
-                "info": "Le pèlerin chinois I-Tsing y décrit une université bouddhiste accueillant plus de 1000 moines."
+                "info": "Le pèlerin chinois Yijing (I-Tsing), qui y séjourne entre 671 et 695, décrit un centre bouddhiste accueillant plus de 1000 moines."
               },
               {
                 "annee": 1025,
@@ -4726,8 +4740,8 @@
             ],
             "personnages": [],
             "sciences": "Empire de navigateurs d'élite, ils utilisent des 'outriggers' (bateaux à balanciers) cousus avec de la fibre de palme (sans clous de métal, qui rouilleraient sous les tropiques). Ils maîtrisent parfaitement la complexe logistique des vents de mousson, stockant les marchandises chinoises et indiennes dans d'énormes entrepôts pendant les mois d'attente du changement de vent.",
-            "croyancesText": "L'État parraine lourdement le Bouddhisme Vajrayana. Palembang devient le centre international obligatoire où les moines de l'Inde orientale, du Tibet et de la Chine viennent séjourner des années pour y étudier la traduction des écritures sacrées sanskrites avant de continuer leur voyage mystique.",
-            "diplomatie": "C'est une hégémonie fondée sur la 'Thalassocratie d'extorsion'. Srivijaya ne possède pas de terres arables. Son pouvoir consiste à positionner des flottes armées dans le détroit de Malacca et de la Sonde, forçant physiquement tous les navires marchands naviguant entre la Perse, l'Inde et la Chine à s'arrêter dans ses ports pour payer des taxes portuaires exorbitantes en or.",
+            "croyancesText": "L'État parraine lourdement le bouddhisme, surtout mahayana (avec des éléments tantriques). Palembang devient le centre international obligatoire où les moines de l'Inde orientale, du Tibet et de la Chine viennent séjourner des années pour y étudier la traduction des écritures sacrées sanskrites avant de continuer leur voyage mystique.",
+            "diplomatie": "C'est une thalassocratie (puissance maritime). Srivijaya dispose de peu de terres agricoles et tire l'essentiel de sa richesse du commerce. Ses flottes contrôlent les détroits de Malacca et de la Sonde et incitent les navires marchands circulant entre la Perse, l'Inde et la Chine à faire escale dans ses ports, où ils paient des taxes.",
             "guerres": [
               {
                 "nom": "Invasion des Chola",
@@ -4770,7 +4784,7 @@
               {
                 "annee": 1010,
                 "evenement": "Le Brihadisvara",
-                "info": "Achèvement du monumental temple impérial taillé dans un seul bloc de granit géant."
+                "info": "Achèvement du monumental temple impérial, bâti en blocs de granit."
               },
               {
                 "annee": 1025,
@@ -4795,8 +4809,8 @@
               }
             ],
             "personnages": [],
-            "sciences": "Leur génie culmine avec la gestion hydraulique (réseau de canaux colossaux sur le fleuve Kaveri pour prévenir les inondations). Ils produisent la plus belle statuaire de bronze à cire perdue de l'humanité, particulièrement la figure du Shiva Nataraja (le danseur cosmique entouré de flammes), fondue d'une seule pièce et d'une fluidité de mouvement spectaculaire.",
-            "croyancesText": "Farouchement hindous de rite shivaïte, les souverains Chola construisent des temples-villes massifs (les Vimana), conçus pour fonctionner comme de véritables banques et centres de redistribution agricole. Ils réinvestissent l'immense butin de leurs guerres en Asie du Sud-Est pour recouvrir les toits de leurs temples d'or pur, transformant la caste des brahmanes (prêtres) en riche administrateurs d'État.",
+            "sciences": "Ils entretiennent et développent les aménagements hydrauliques du fleuve Kaveri, dont une grande partie est plus ancienne (barrage de Kallanai, attribué aux premiers Chola). Ils produisent la plus belle statuaire de bronze à cire perdue de l'humanité, particulièrement la figure du Shiva Nataraja (le danseur cosmique entouré de flammes), fondue d'une seule pièce et d'une fluidité de mouvement spectaculaire.",
+            "croyancesText": "Farouchement hindous de rite shivaïte, les souverains Chola construisent des temples massifs, dominés par leur vimana (la tour du sanctuaire), conçus pour fonctionner comme de véritables banques et centres de redistribution agricole. Ils réinvestissent l'immense butin de leurs guerres en Asie du Sud-Est pour recouvrir les toits de leurs temples d'or pur, transformant la caste des brahmanes (prêtres) en riche administrateurs d'État.",
             "diplomatie": "C'est l'un des très rares empires de l'histoire indienne à se tourner vers la conquête navale étrangère. Ils entretiennent de formelles ambassades diplomatiques et commerciales jusqu'à la cour de la dynastie Song en Chine. Quand le monopole malaisien de Srivijaya menace leurs marchands en bloquant le détroit, l'empereur indien lève une flotte armée pour aller les détruire.",
             "guerres": [
               {
@@ -4809,7 +4823,7 @@
                 "allies": [],
                 "morts": "Pillage systématique",
                 "vainqueur": "Empire Chola",
-                "consequences": "Le roi Rajendra Ier s'empare de dizaines de ports exotiques et ramène l'empereur malais enchaîné en Inde.",
+                "consequences": "Le roi Rajendra Ier s'empare de dizaines de ports exotiques et capture le roi de Srivijaya.",
                 "wikiUrl": "https://fr.wikipedia.org/wiki/Dynastie_Chola"
               }
             ],
@@ -4837,7 +4851,7 @@
             "color": "#c59b27",
             "isRiver": false,
             "capitale": "Koumbi Saleh",
-            "description": "Le 'Pays de l'Or'. Premier grand empire subsaharien s'enrichissant follement en taxant la plus grande route caravanière du monde (le commerce transsaharien).",
+            "description": "Le 'Pays de l'Or'. Premier grand empire subsaharien s'enrichissant en taxant le commerce caravanier transsaharien.",
             "datesCles": [
               {
                 "annee": 1068,
@@ -4846,8 +4860,8 @@
               },
               {
                 "annee": 1076,
-                "evenement": "Pillage Almoravide",
-                "info": "Des tribus nomades militarisées venues de Mauritanie détruisent la capitale."
+                "evenement": "Attaque almoravide",
+                "info": "Selon des auteurs arabes plus tardifs, les Almoravides, venus de l'actuelle Mauritanie, prennent la capitale (un épisode débattu par les historiens)."
               },
               {
                 "annee": 1240,
@@ -4859,14 +4873,14 @@
               {
                 "titre": "Kaya Magan (Roi de l'Or)",
                 "nom": "Tunka Manin",
-                "surnom": "",
-                "debut": 1062,
+                "surnom": "Début de règne en 1063, fin de règne inconnue",
+                "debut": 1063,
                 "fin": 1076
               }
             ],
             "personnages": [],
             "sciences": "Ils ne produisent pas d'or, ils le prélèvent en transit. L'ingénierie de l'État repose sur l'invention de la douane impériale. Ils s'installent à la lisière absolue du désert du Sahara, là où les caravaniers nord-africains (venant d'arriver avec du sel et du cuivre) sont obligés de s'arrêter. Les fonctionnaires du roi prélèvent un impôt lourd sur chaque charge de dromadaire entrant et sortant du royaume.",
-            "croyancesText": "L'État est divisé en deux villes parallèles séparées de dix kilomètres : la ville royale, pratiquant la religion animiste traditionnelle (culte du serpent mythique Bida, garant de la fertilité en or des mines du sud) et la ville marchande, intégralement peuplée de commerçants arabo-berbères de confession musulmane sunnite dotés de multiples mosquées.",
+            "croyancesText": "L'État est divisé en deux villes parallèles séparées de dix kilomètres : la ville royale, pratiquant la religion animiste traditionnelle (selon la légende soninké du Wagadou, le serpent Bida garantissait la prospérité et l'or du pays) et la ville marchande, habitée par des marchands musulmans, souvent arabo-berbères, dotée de nombreuses mosquées.",
             "diplomatie": "Le pouvoir royal réside dans le monopole : toute pépite d'or brute trouvée sur le territoire appartient au roi, les marchands ne pouvant faire commerce que de poudre d'or. L'armée impériale, très lourdement armée grâce à la maîtrise de la fonte du fer, comptait selon les chroniqueurs jusqu'à 200 000 fantassins pour maintenir la paix commerciale sur l'immense savane.",
             "guerres": [
               {
@@ -4878,13 +4892,13 @@
                 "allies": [],
                 "morts": "Inconnu",
                 "vainqueur": "Almoravides",
-                "consequences": "Chute de la capitale Koumbi Saleh. Le contrôle des routes de l'or est déstabilisé, fragmentant l'empire du Wagadou en petites principautés vassales.",
+                "consequences": "Selon des sources arabes plus tardives (épisode débattu), chute de la capitale Koumbi Saleh. Le contrôle des routes de l'or est déstabilisé, fragmentant l'empire du Wagadou en petites principautés vassales.",
                 "wikiUrl": "https://fr.wikipedia.org/wiki/Empire_du_Ghana"
               }
             ],
             "documentaires": [
               {
-                "titre": "Le Ghana, l'Empire de l'Or Noir",
+                "titre": "Le Ghana, pays de l'or",
                 "url": "https://fr.wikipedia.org/wiki/Empire_du_Ghana"
               }
             ]
@@ -4900,7 +4914,7 @@
             "color": "#f39c12",
             "isRiver": true,
             "capitale": "Niani / Tombouctou",
-            "description": "Sur les cendres du Ghana, le conquérant épique Soundiata fonde un État immense, mondialement célèbre pour le pèlerinage fastueux de l'homme le plus riche de l'Histoire.",
+            "description": "Sur les cendres du Ghana, le conquérant épique Soundiata fonde un État immense, mondialement célèbre pour le pèlerinage fastueux de Mansa Moussa, souvent présenté comme l'homme le plus riche de l'Histoire.",
             "datesCles": [
               {
                 "annee": 1235,
@@ -4910,7 +4924,7 @@
               {
                 "annee": 1236,
                 "evenement": "Charte du Manden",
-                "info": "Proclamation de l'une des toutes premières déclarations des droits humains orales (abolition de l'esclavage interne)."
+                "info": "Selon la tradition orale, Soundiata proclame des règles de vie commune. Transmise par les griots et mise par écrit seulement au XXe siècle, son contenu exact est débattu par les historiens."
               },
               {
                 "annee": 1324,
@@ -4937,7 +4951,7 @@
             "personnages": [],
             "sciences": "Le Mali développe l'architecture en banco (mélange de terre argileuse, de paille et de beurre de karité) avec des armatures en bois palmier pointant hors des murs de mosquées spectaculaires (comme à Djenné) permettant aux maçons de crépir les murs chaque année après les pluies estivales. Tombouctou devient une véritable université (Sankoré) abritant des milliers de manuscrits (mathématiques, astronomie, droit islamique).",
             "croyancesText": "L'islam est la religion officielle de la cour et de l'administration des villes marchandes, permettant d'intégrer le Mali dans le système diplomatique et bancaire musulman nord-africain. Cependant, l'immense majorité des populations rurales de l'empire reste profondément attachée aux religions animistes traditionnelles et au culte des ancêtres fondateurs.",
-            "diplomatie": "La légende rapporte qu'avant Mansa Moussa, l'empereur Aboubakri II aurait abdiqué son trône en 1311 pour lancer une flotte de deux mille navires afin de traverser l'Océan Atlantique (qui ne sont jamais revenus). L'empereur Mansa Moussa a financé un afflux massif de savants andalous et égyptiens vers Tombouctou, y développant un puissant soft-power intellectuel.",
+            "diplomatie": "Une légende, rapportée par Mansa Moussa lui-même mais jamais prouvée, raconte que son prédécesseur Aboubakri II aurait abdiqué vers 1311 pour lancer une flotte de deux mille navires sur l'Océan Atlantique, qui ne serait jamais revenue. L'empereur Mansa Moussa a financé un afflux massif de savants andalous et égyptiens vers Tombouctou, y développant un puissant soft-power intellectuel.",
             "guerres": [
               {
                 "nom": "Bataille de Kirina",
@@ -4966,13 +4980,13 @@
             "trackId": "afrique_ouest",
             "row": 1,
             "label": "Empire Songhaï",
-            "period": "1464 à 1591",
+            "period": "1464 à 1492",
             "start": 1464,
             "end": 1492,
             "color": "#b83b1d",
             "isRiver": true,
             "capitale": "Gao",
-            "description": "Anciens vassaux du Mali s'émancipant pour fonder le plus vaste et le plus militarisé des empires de l'histoire de l'Afrique subsaharienne occidentale.",
+            "description": "Anciens vassaux du Mali s'émancipant pour fonder un empire qui deviendra, sous les Askia, le plus vaste de l'histoire de l'Afrique de l'Ouest.",
             "datesCles": [
               {
                 "annee": 1464,
@@ -5000,9 +5014,9 @@
               }
             ],
             "personnages": [],
-            "sciences": "Leur suprématie est tactique. L'Empire possède la première véritable flotte de guerre d'Afrique de l'Ouest : des milliers de pirogues immenses patrouillant sur les 2000 kilomètres du fleuve Niger. L'armée de terre, ultra-organisée, est scindée entre une infanterie lourde, une cavalerie en armure matelassée et un service de renseignement et de logistique structuré comme un état-major moderne.",
-            "croyancesText": "Contrairement à l'empire du Mali, Sonni Ali Ber déteste le clergé musulman de Tombouctou qu'il accuse de trahison. Il règne comme un monarque animiste magicien traditionnel, sacrifiant ouvertement et ne gardant de l'Islam qu'un vernis utilitaire, ce qui lui valut d'être maudit et traité de 'sanguinaire païen' par tous les chroniques musulmans de l'époque (Tarikh al-Sudan).",
-            "diplomatie": "L'État est d'une efficacité fiscale redoutable. Le territoire est divisé en provinces dirigées par des 'Fari' (gouverneurs) amovibles nommés directement par l'empereur, détruisant l'ancien système de chefferies héréditaires du Mali. Un système de poids et mesures uniformisé garantit les rentrées d'impôts.",
+            "sciences": "Leur suprématie est tactique. Sonni Ali s'appuie sur une cavalerie mobile et sur une flotte de pirogues qui circule sur le fleuve Niger, permettant de transporter troupes et ravitaillement.",
+            "croyancesText": "Contrairement à l'empire du Mali, Sonni Ali Ber déteste le clergé musulman de Tombouctou qu'il accuse de trahison. Il règne en mêlant islam et pratiques religieuses traditionnelles songhaï, ce qui lui vaut d'être présenté comme un tyran impie par les chroniqueurs musulmans (comme l'auteur du Tarikh al-Sudan, rédigé au XVIIe siècle).",
+            "diplomatie": "Sonni Ali mène surtout une politique de conquête : il soumet les grandes villes marchandes du Niger (Tombouctou, Djenné) et repousse les Touaregs et les Mossis. L'organisation administrative de l'empire (provinces confiées à des gouverneurs, poids et mesures) sera surtout l'œuvre de son successeur Askia Mohammed.",
             "guerres": [
               {
                 "nom": "Expansion contre les royaumes Mossis",
@@ -5082,7 +5096,7 @@
               {
                 "titre": "Manikongo (Roi)",
                 "nom": "Nimi a Lukeni",
-                "surnom": "",
+                "surnom": "Ou Lukeni lua Nimi selon la tradition ; fin du XIVe siècle, dates inconnues",
                 "debut": 1390,
                 "fin": 1420
               },
@@ -5091,22 +5105,22 @@
                 "nom": "Nzinga a Nkuwu",
                 "surnom": "João Ier du Kongo",
                 "debut": 1470,
-                "fin": 1506
+                "fin": 1509
               }
             ],
             "personnages": [],
-            "sciences": "Le Kongo produit des œuvres d'artisanat si complexes qu'elles impressionneront les rois d'Europe : les velours du Kasaï, des étoffes royales tissées avec du raphia. L'économie est monétarisée avec une incroyable précision grâce au 'Nzimbu', des petits coquillages pêchés exclusivement sur l'île de Luanda (appartenant personnellement au roi), faisant office de monnaie divisionnaire contrôlée par l'État pour éviter l'inflation.",
-            "croyancesText": "Avant le baptême royal de 1491, le roi est le maître des esprits 'Nkisi' : des forces de la nature et de l'au-delà contenues dans des statues magiques (les fétiches à clous) capables de guérir ou de foudroyer les criminels. Le passage au christianisme par les souverains n'est pas vu comme une soumission, mais comme l'absorption d'une nouvelle 'magie blanche' très puissante venue de l'océan.",
-            "diplomatie": "À la fin de notre période médiévale, l'arrivée des Portugais déclenche une diplomatie d'égal à égal rarissime dans l'histoire coloniale. Le roi du Kongo et le roi du Portugal s'envoient des ambassades, s'appellent 'Frères' dans leurs correspondances royales. Le Kongo expédie de l'ivoire et des captifs de guerre (début de la traite), en échange de maîtres d'école, d'imprimeurs, de tailleurs de pierre et d'arquebuses.",
+            "sciences": "Le Kongo produit des œuvres d'artisanat si complexes qu'elles impressionneront les rois d'Europe : des étoffes de raphia du Kongo, si fines qu'on les compare au velours. L'économie est monétarisée avec une incroyable précision grâce au 'Nzimbu', des petits coquillages pêchés exclusivement sur l'île de Luanda (appartenant personnellement au roi), faisant office de monnaie divisionnaire contrôlée par l'État pour éviter l'inflation.",
+            "croyancesText": "Avant le baptême royal de 1491, le roi est le maître des esprits 'Nkisi' : des forces de la nature et de l'au-delà contenues dans des objets rituels (minkisi) capables de guérir ou de foudroyer les criminels. Le passage au christianisme par les souverains n'est pas vu comme une soumission, mais comme l'absorption d'une nouvelle 'magie blanche' très puissante venue de l'océan.",
+            "diplomatie": "À la fin de notre période médiévale, l'arrivée des Portugais déclenche une diplomatie d'égal à égal rarissime dans l'histoire coloniale. Le roi du Kongo et le roi du Portugal échangent des ambassades. Des prêtres, des artisans et des maçons portugais arrivent au Kongo, qui fournit de l'ivoire, du cuivre et bientôt des captifs (début de la traite).",
             "guerres": [
               {
-                "nom": "Unification du bassin",
+                "nom": "Expansion du Kongo (fin XIVe – XVe s.)",
                 "annee": 1400,
                 "adversaires": [
-                  "Chefferies Mbundu"
+                  "Chefferies voisines (Nsundi, Mbata…)"
                 ],
                 "allies": [],
-                "morts": "Faibles",
+                "morts": "Inconnu",
                 "vainqueur": "Royaume du Kongo",
                 "consequences": "L'intégration des petits États voisins fait du Kongo l'entité politique la plus étendue d'Afrique centrale précoloniale.",
                 "wikiUrl": "https://fr.wikipedia.org/wiki/Royaume_du_Kongo"
@@ -5159,13 +5173,13 @@
             "datesCles": [
               {
                 "annee": 1100,
-                "evenement": "Fondation du royaume",
-                "info": "L'ethnie Shona abandonne Mapungubwe pour s'installer plus au nord, au Zimbabwe."
+                "evenement": "Premiers villages",
+                "info": "Les premiers villages de populations shona apparaissent sur le site vers le XIe siècle."
               },
               {
-                "annee": 1250,
-                "evenement": "Apogée d'Or",
-                "info": "La ville compte jusqu'à 20 000 habitants (la plus grande d'Afrique australe précoloniale)."
+                "annee": 1350,
+                "evenement": "Apogée",
+                "info": "Au XIVe siècle, la ville compte environ 10 000 à 18 000 habitants selon les estimations (la plus grande d'Afrique australe précoloniale)."
               },
               {
                 "annee": 1450,
@@ -5175,9 +5189,9 @@
             ],
             "dirigeants": [],
             "personnages": [],
-            "sciences": "Le mot Zimbabwe signifie 'Les maisons de pierre' (Dzimba Dza Mabwe). Leurs architectes ont conçu la 'Grande Enceinte', un mur elliptique de 11 mètres de haut et 250 mètres de long, composé d'un million de blocs de granit retaillés et ajustés en chevron avec une telle perfection technique qu'ils n'ont besoin d'aucun mortier ou liant d'argile pour tenir debout. Ils maîtrisaient le coulage de l'or par gravitaire.",
+            "sciences": "Le mot Zimbabwe signifie 'Les maisons de pierre' (Dzimba Dza Mabwe). Leurs architectes ont conçu la 'Grande Enceinte', un mur elliptique de 11 mètres de haut et 250 mètres de long, composé d'un million de blocs de granit retaillés et ajustés en chevron avec une telle perfection technique qu'ils n'ont besoin d'aucun mortier ou liant d'argile pour tenir debout.",
             "croyancesText": "La religion Shona s'articule autour de Mwari, le dieu créateur universel, et d'un culte assidu des esprits (Mhondoro). À l'intérieur de l'Enceinte se trouve une mystérieuse tour conique massive de 9 mètres, symbole possible de la fécondité masculine ou du grenier à grain cosmique garantissant l'abondance de l'Empire.",
-            "diplomatie": "Ils pratiquent une politique d'exportation discrète mais massive. Isolés à l'intérieur des terres, les monarques expédient l'or fondu, l'ivoire et des peaux rares par caravanes de porteurs jusqu'aux cités commerciales arabo-swahilies de la côte de l'Océan Indien (comme Kilwa au Mozambique). En échange, l'archéologie a retrouvé dans les ruines du Zimbabwe des assiettes de porcelaine Ming chinoise, des perles indiennes en verre et du corail.",
+            "diplomatie": "Ils pratiquent une politique d'exportation discrète mais massive. Isolés à l'intérieur des terres, les monarques expédient l'or fondu, l'ivoire et des peaux rares par caravanes de porteurs jusqu'aux cités commerciales arabo-swahilies de la côte de l'Océan Indien (comme Sofala, au Mozambique, port relié à Kilwa, en Tanzanie). En échange, l'archéologie a retrouvé dans les ruines du Zimbabwe des céladons chinois, des céramiques persanes, des perles indiennes en verre et du corail.",
             "guerres": [],
             "documentaires": [
               {
@@ -5208,7 +5222,7 @@
               {
                 "annee": 562,
                 "evenement": "Défaite de Tikal",
-                "info": "La reine de la superpuissance rivale (Calakmul) écrase et sacrifie le roi de Tikal."
+                "info": "Tikal est vaincue par la cité de Caracol, alliée de la puissance rivale Calakmul."
               },
               {
                 "annee": 695,
@@ -5244,7 +5258,7 @@
                 "wikiUrl": "https://fr.wikipedia.org/wiki/Jasaw_Chan_K%27awiil_I"
               }
             ],
-            "sciences": "Leur système d'écriture (les glyphes mayas) est l'unique véritable alphabet complet des Amériques précolombiennes. Inventeurs du concept mathématique du Zéro (base 20), ils atteignent une précision astronomique terrifiante sans télescope : ils calculent l'année solaire à 365,242 jours (soit une erreur de 17 secondes par rapport au calcul satellitaire moderne) et prédisent avec exactitude les éclipses et les cycles de Vénus.",
+            "sciences": "Leur système d'écriture (les glyphes mayas) n'est pas un alphabet mais un système logo-syllabique, mêlant signes-mots et signes-syllabes : c'est le système d'écriture le plus complet des Amériques précolombiennes. Les Mayas utilisent le zéro dans leur numération en base 20 (l'un des plus anciens zéros connus) et atteignent une grande précision astronomique sans télescope : leurs tables permettent de prévoir les éclipses et les cycles de Vénus.",
             "croyancesText": "Le cosmos Maya nécessite un sang royal régulier pour ne pas s'arrêter. Les souverains ('K'uhul Ajaw') pratiquent l'autosacrifice rituel (saignée de la langue avec des cordes épineuses ou du sexe avec des épines de raie) pour ouvrir des portails de communication avec les divinités (le Serpent-Vision). Les prisonniers de guerre capturés sont torturés puis décapités ou précipités en bas des grands temples-pyramides à degrés.",
             "diplomatie": "Il n'y a jamais eu d'Empire Maya. La jungle abrite un écosystème géopolitique à la grecque, avec près de 60 royaumes et cités-États s'alliant ou se massacrant en une 'guerre des Étoiles' (guerres déclarées selon la position de Vénus). Tikal (soutenue par l'héritage de Teotihuacán) et Calakmul (l'Empire du Serpent) passent des siècles dans une guerre froide et chaude de procuration, épuisant finalement les ressources de la forêt.",
             "guerres": [
@@ -5275,13 +5289,13 @@
             "trackId": "andes",
             "row": 2,
             "label": "Empire de Tiwanaku",
-            "period": "500 à 1000",
+            "period": "500 à vers 1000-1150",
             "start": 500,
             "end": 1000,
             "color": "#d4ac0d",
             "isRiver": false,
             "capitale": "Tiwanaku (Bolivie)",
-            "description": "Sur les rives glaciales du lac sacré Titicaca, un empire monstrueux de pierre s'élève à près de 4000 mètres d'altitude, fondant la grande mythologie des montagnes andines.",
+            "description": "Sur les rives glaciales du lac sacré Titicaca, une grande cité de pierre s'élève à près de 4000 mètres d'altitude, fondant la grande mythologie des montagnes andines.",
             "datesCles": [
               {
                 "annee": 500,
@@ -5295,15 +5309,15 @@
               },
               {
                 "annee": 1000,
-                "evenement": "La Méga-Sécheresse",
-                "info": "L'effondrement hydrologique assèche l'agriculture et tue l'Empire."
+                "evenement": "Déclin",
+                "info": "Entre 1000 et 1150 environ, Tiwanaku décline. Une longue sécheresse est une hypothèse souvent avancée."
               }
             ],
             "dirigeants": [],
             "personnages": [],
             "sciences": "Survivre au gel et à l'aridité d'une telle altitude est un miracle agronomique : ils inventent les 'Sukakollos' (champs surélevés). Ces monticules de terre, cernés de canaux d'eau, absorbent la chaleur du soleil andin le jour et créent un brouillard chaud la nuit, empêchant les cultures de pomme de terre et de quinoa de geler. Leurs murs cyclopéens (Puma Punku) sont scellés par d'ingénieuses agrafes en cuivre fondu sur place.",
-            "croyancesText": "C'est la matrice du grand mythe créateur des Incas. Le Lac Titicaca est la source du monde. Leur divinité suprême est le Dieu aux Sceptres (figure fondatrice de Viracocha, créateur du soleil, de la lune et des hommes). L'architecture comprend des temples semi-souterrains tapissés de dizaines de têtes clouées en pierre, évoquant probablement des sacrifices ennemis ou des ancêtres mythiques.",
-            "diplomatie": "Tiwanaku est un prédateur commercial. Sans armée de conquête documentée à grande échelle, la cité envoie des centaines de caravanes de lamas descendre la Cordillère vers la côte (Pérou) ou les jungles de l'est (Amazonie) pour imposer son monopole sur les feuilles de coca, le sel, le piment et les plumes d'oiseaux exotiques, s'imposant comme la métropole suprême des Andes sud.",
+            "croyancesText": "C'est la matrice du grand mythe créateur des Incas. Le Lac Titicaca est la source du monde. Leur divinité principale est le Dieu aux Sceptres ; certains y voient un ancêtre de Viracocha, le dieu créateur des Incas, mais ce lien reste une hypothèse (le mythe inca est bien plus tardif). L'architecture comprend des temples semi-souterrains tapissés de dizaines de têtes clouées en pierre, évoquant probablement des sacrifices ennemis ou des ancêtres mythiques.",
+            "diplomatie": "L'influence de Tiwanaku est surtout commerciale et religieuse, et le fait de parler d'« empire » est débattu. Sans armée de conquête documentée à grande échelle, la cité envoie des caravanes de lamas vers la côte (Pérou, Chili) et les forêts de l'est pour échanger feuilles de coca, sel, piment et plumes d'oiseaux exotiques, s'imposant comme la grande métropole des Andes du Sud.",
             "guerres": [],
             "documentaires": [
               {
@@ -5333,33 +5347,20 @@
               {
                 "annee": 700,
                 "evenement": "Standardisation",
-                "info": "L'empire impose sa langue (probablement le proto-Aymara) et l'usage des terrasses agricoles."
+                "info": "L'empire diffuse sa culture (peut-être une langue ancêtre de l'aymara, selon une hypothèse) et développe les terrasses agricoles."
               },
               {
-                "annee": 1050,
+                "annee": 1000,
                 "evenement": "Fragmentation",
-                "info": "La capitale est incendiée et abandonnée suite aux famines climatiques et révoltes vassales."
+                "info": "La capitale est abandonnée vers l'an 1000 ; les causes (sécheresse, révoltes, crise politique) sont discutées."
               }
             ],
             "dirigeants": [],
             "personnages": [],
-            "sciences": "Excellents géomètres d'État, les Huari détruisent les habitats côtiers dispersés pour forcer les populations conquises à s'installer dans de nouveaux centres administratifs (Pikillaqta), conçus sur un plan quadrillé rigide, avec des murs s'élevant jusqu'à 12 mètres de haut. Ils imposent les terrasses agricoles (Andenes) à flanc de montagne et amorcent le réseau routier monumental ('Qhapaq Ñan') pour y faire circuler l'armée.",
+            "sciences": "Excellents géomètres d'État, les Huari construisent de nouveaux centres administratifs (comme Pikillaqta), conçus sur un plan quadrillé rigide, avec de hauts murs. Ils développent les terrasses agricoles (andenes) à flanc de montagne et construisent des routes, en partie reprises plus tard par les Incas.",
             "croyancesText": "La religion Huari s'inspire du Dieu aux Sceptres de Tiwanaku, mais dans un style militaire, strict et géométrique. Leurs tapisseries funéraires sont des chefs-d'œuvre mondiaux de complexité optique (abstraction pure avec un nombre ahurissant de fils au centimètre carré). Leurs rites incluent des tombes royales souterraines labyrinthiques pour protéger les momies sacrées des hauts dignitaires de l'État.",
-            "diplomatie": "C'est l'anti-thèse de l'empire culturel de Tiwanaku. Les Huari sont des conquérants purs et durs, imposant par la force militaire une centralisation absolue des excédents agricoles dans des greniers d'État. Pour éviter la confrontation avec le géant Tiwanaku au Sud, un accord implicite ou une guerre froide fige la frontière andine, permettant aux Huari de soumettre sans pitié tout le Nord et l'Ouest péruvien.",
-            "guerres": [
-              {
-                "nom": "Conquête de la culture Moche",
-                "annee": 650,
-                "adversaires": [
-                  "Culture Moche (Nord du Pérou)"
-                ],
-                "allies": [],
-                "morts": "Inconnu",
-                "vainqueur": "Empire Huari",
-                "consequences": "L'assimilation brutale des cultures régionales, centralisant pour la première fois les Andes côtières et montagneuses en un seul empire proto-Inca.",
-                "wikiUrl": "https://fr.wikipedia.org/wiki/Culture_Wari"
-              }
-            ],
+            "diplomatie": "C'est l'anti-thèse de l'empire culturel de Tiwanaku. Les Huari sont des conquérants purs et durs, imposant par la force militaire une centralisation absolue des excédents agricoles dans des greniers d'État. Pour éviter la confrontation avec le géant Tiwanaku au Sud, un accord implicite ou une guerre froide fige la frontière andine, permettant aux Huari d'étendre leur influence vers le nord et l'ouest du Pérou (y compris dans l'ancienne région moche, où cette influence est visible sans qu'une conquête soit attestée).",
+            "guerres": [],
             "documentaires": [
               {
                 "titre": "L'Empire Wari : les prédécesseurs des Incas",
@@ -5655,19 +5656,19 @@
                 "info": "Henri VIII rompt avec le Pape pour divorcer, fondant l'Église anglicane."
               },
               {
-                "annee": 1649,
+                "annee": 1642,
                 "evenement": "Guerre Civile",
-                "info": "Exécution du roi Charles Ier, Cromwell instaure une sanglante république puritaine."
+                "info": "La guerre civile éclate entre le roi et le Parlement. En 1649, le roi Charles Ier est exécuté et une république dominée par Cromwell et les puritains est instaurée."
               },
               {
                 "annee": 1688,
                 "evenement": "La Glorieuse Révolution",
-                "info": "Renversement pacifique du roi catholique, adoption du 'Bill of Rights' garantissant le pouvoir du Parlement."
+                "info": "Renversement presque sans combat, en Angleterre, du roi catholique Jacques II, et adoption du 'Bill of Rights' garantissant le pouvoir du Parlement. La guerre éclate en revanche en Irlande et en Écosse (bataille de la Boyne, 1690)."
               },
               {
                 "annee": 1707,
                 "evenement": "Acte d'Union",
-                "info": "L'Angleterre et l'Écosse fusionnent pour former le Royaume-Uni de Grande-Bretagne."
+                "info": "L'Angleterre et l'Écosse s'unissent pour former le royaume de Grande-Bretagne (le Royaume-Uni naîtra en 1801, avec l'Irlande)."
               }
             ],
             "dirigeants": [
@@ -5723,7 +5724,7 @@
                 "allies": [
                   "Prusse"
                 ],
-                "morts": "Guerre mondiale avant l'heure",
+                "morts": "Environ un million de morts (estimations) dans une guerre aux dimensions mondiales",
                 "vainqueur": "Grande-Bretagne",
                 "consequences": "Les Britanniques expulsent la France d'Amérique du Nord (chute du Québec) et des Indes, s'assurant le monopole colonial mondial.",
                 "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_de_Sept_Ans"
@@ -5798,7 +5799,7 @@
               {
                 "annee": 1637,
                 "evenement": "La crise de la Tulipe",
-                "info": "Premier krach boursier de l'histoire mondiale, basé sur la spéculation des bulbes de tulipes."
+                "info": "Souvent présentée comme le premier krach spéculatif de l'histoire, la « tulipomanie » voit s'effondrer le prix des bulbes ; les historiens jugent aujourd'hui ses dégâts économiques exagérés."
               }
             ],
             "dirigeants": [
@@ -5908,7 +5909,7 @@
               {
                 "titre": "Roi",
                 "nom": "Charles XII",
-                "surnom": "Le Météore",
+                "surnom": "",
                 "debut": 1697,
                 "fin": 1718
               }
@@ -5922,8 +5923,8 @@
                 "wikiUrl": "https://fr.wikipedia.org/wiki/Axel_Oxenstierna"
               }
             ],
-            "sciences": "Le 'miracle suédois' est purement logistique et militaire. Gustave II Adolphe invente la guerre moderne combinée : il allège les mousquets et l'artillerie de campagne (canons en cuir bouilli maniables par deux hommes), permettant aux fantassins de tirer en salves roulantes ultra-rapides, pulvérisant les massives et lentes formations (les Tercios) espagnoles ou impériales.",
-            "croyancesText": "Le luthéranisme n'est pas seulement une religion, c'est l'ossature de l'État. Les pasteurs font office de fonctionnaires civils, tenant un registre précis des naissances et de l'alphabétisation (la Suède est le premier pays à lier le droit au mariage à la capacité de lire la Bible). C'est ce clergé qui assure l'implacable recrutement local des soldats pour les guerres du roi.",
+            "sciences": "Le 'miracle suédois' est purement logistique et militaire. Gustave II Adolphe invente la guerre moderne combinée : il allège les mousquets et l'artillerie de campagne (les premiers « canons de cuir », peu efficaces, sont vite remplacés par de légères pièces régimentaires), permettant aux fantassins de tirer en salves rapides. À Breitenfeld (1631), cette armée bat les lourdes formations impériales et catholiques.",
+            "croyancesText": "Le luthéranisme n'est pas seulement une religion, c'est l'ossature de l'État. Les pasteurs font office de fonctionnaires civils, tenant un registre précis des naissances et de l'alphabétisation (la loi religieuse de 1686 impose l'apprentissage de la lecture, vérifié par les pasteurs lors d'examens réguliers). C'est ce clergé qui assure l'implacable recrutement local des soldats pour les guerres du roi.",
             "diplomatie": "Riche en bois, en cuivre et en fer de haute qualité, la Suède exporte massivement ses canons dans toute l'Europe. Pour briser la puissance des Habsbourg, le cardinal français de Richelieu finance secrètement avec de l'or français l'armée protestante suédoise. La Suède annexe la Poméranie et les pays baltes, transformant la mer Baltique en un 'lac suédois'.",
             "guerres": [
               {
@@ -5961,7 +5962,7 @@
             "color": "#34495e",
             "isRiver": false,
             "capitale": "Berlin / Potsdam",
-            "description": "D'un duché pauvre et sablonneux à l'armée la plus craintes d'Europe : 'La Prusse n'est pas un État avec une armée, mais une armée avec un État'.",
+            "description": "D'un duché pauvre et sablonneux à l'armée la plus crainte d'Europe : 'La Prusse n'est pas un État avec une armée, mais une armée avec un État'.",
             "datesCles": [
               {
                 "annee": 1701,
@@ -5996,8 +5997,8 @@
               }
             ],
             "personnages": [],
-            "sciences": "Invention du système des 'Cantons' (Kantonssystem), une proto-conscription obligatoire très en avance sur son temps. Les soldats prussiens s'entraînent avec une baguette de fer (invention de Dessauer) leur permettant de tirer 4 coups à la minute contre 2 pour les armées ennemies. La Prusse est également le premier pays d'Europe à rendre l'école primaire obligatoire (Generallandschulreglement de 1763) pour forger l'obéissance civique.",
-            "croyancesText": "L'État est officiellement calviniste gouvernant une population luthérienne, mais il applique la vision de l'Absolutisme éclairé : une tolérance religieuse utilitariste absolue. Frédéric II fait construire une cathédrale catholique en plein Berlin protestant et accueille plus de 20 000 protestants français (Huguenots) et les Jésuites bannis d'ailleurs, absorbant leur précieux savoir-faire artisanal et intellectuel.",
+            "sciences": "Invention du système des 'Cantons' (Kantonssystem), une proto-conscription obligatoire très en avance sur son temps. Les soldats prussiens s'entraînent avec une baguette de fer (invention de Dessauer) leur permettant de tirer 4 coups à la minute contre 2 pour les armées ennemies. La Prusse rend l'école primaire obligatoire dès 1717, obligation renforcée par le règlement scolaire de 1763 sous Frédéric II (d'autres États allemands, comme la Saxe-Gotha en 1642, l'avaient précédée).",
+            "croyancesText": "La dynastie est calviniste depuis 1613 et gouverne une population surtout luthérienne ; elle applique la vision de l'Absolutisme éclairé : une tolérance religieuse utilitariste absolue. Dès 1685, l'édit de Potsdam du Grand Électeur accueille environ 20 000 protestants français (huguenots). Plus tard, Frédéric II fait construire une cathédrale catholique en plein Berlin protestant et accueille les Jésuites bannis d'ailleurs, absorbant leur précieux savoir-faire artisanal et intellectuel.",
             "diplomatie": "Sa géographie éclatée l'oblige à l'agressivité militaire préventive. Pour relier la Prusse-Orientale au Brandebourg, Frédéric II n'hésitera pas à organiser avec la Russie et l'Autriche le dépeçage pur et simple du Royaume de Pologne (Partages de la Pologne). Il invite Voltaire à sa cour (Palais de Sanssouci) pour donner un vernis philosophique à sa politique machiavélique.",
             "guerres": [
               {
@@ -6115,14 +6116,14 @@
               {
                 "nom": "Nicolas Copernic",
                 "role": "Astronome (pré-union)",
-                "description": "Le moine polonais qui, en plaçant le Soleil au centre de l'univers, a déclenché la révolution scientifique moderne.",
+                "description": "Le chanoine et astronome polonais qui, en plaçant le Soleil au centre de l'univers, a déclenché la révolution scientifique moderne.",
                 "dates": "1473 à 1543",
                 "wikiUrl": "https://fr.wikipedia.org/wiki/Nicolas_Copernic"
               }
             ],
-            "sciences": "Leur génie est militaire et équestre : l'invention des Hussards Ailés (Husaria). C'est une cavalerie lourde de choc, dotée d'armures resplendissantes et d'immenses 'ailes' en plumes d'aigle fixées dans le dos (pour terrifier les chevaux ennemis par le bruit du vent et empêcher la capture au lasso). Ils constituent l'unité d'élite la plus redoutée et invaincue d'Europe pendant un siècle.",
-            "croyancesText": "En pleine époque des bûchers européens, la Pologne vote en 1573 la 'Confédération de Varsovie', la première loi constitutionnelle de tolérance religieuse de l'Histoire. Elle devient l'asile de l'Europe : Catholiques, Orthodoxes, Luthériens, et la plus grande communauté Juive du monde (Ashkénazes) y cohabitent en paix, protégés par des lois d'autonomie (le Conseil des Quatre Terres).",
-            "diplomatie": "Leur système politique inédit (le 'Sarmatisme') causera leur ruine. C'est une monarchie élective : le roi est élu par le parlement des nobles (la Diète, ou Sejm). Pire, ils inventent le 'Liber Veto' : un seul noble (souvent soudoyé par la Russie ou la France) peut crier son veto pour annuler n'importe quelle loi ou déclaration de guerre, paralysant totalement l'État face aux absolutismes voisins centralisés.",
+            "sciences": "Leur génie est militaire et équestre : l'invention des Hussards Ailés (Husaria). C'est une cavalerie lourde de choc, dotée d'armures resplendissantes et d'immenses 'ailes' en plumes d'aigle fixées dans le dos (dont le rôle exact est discuté : impressionner l'ennemi, peut-être gêner les lassos). Ils constituent l'une des unités d'élite les plus redoutées d'Europe et remportent de nombreuses victoires pendant plus d'un siècle.",
+            "croyancesText": "En pleine époque des bûchers européens, la Pologne vote en 1573 la 'Confédération de Varsovie', l'une des premières lois de tolérance religieuse de l'Histoire (après l'édit de Torda, en Transylvanie, en 1568). Elle devient l'asile de l'Europe : Catholiques, Orthodoxes, Luthériens, et la plus grande communauté Juive du monde (Ashkénazes) y cohabitent en paix, protégés par des lois d'autonomie (le Conseil des Quatre Terres).",
+            "diplomatie": "Leur système politique inédit (le 'Sarmatisme') causera leur ruine. C'est une monarchie élective : le roi est élu par l'assemblée de tous les nobles présents (élection « viritim »). Pire, ils pratiquent le 'liberum veto' : un seul noble (souvent soudoyé par la Russie ou la France) peut crier son veto pour annuler n'importe quelle loi ou déclaration de guerre, paralysant totalement l'État face aux absolutismes voisins centralisés.",
             "guerres": [
               {
                 "nom": "Le Déluge (Potop)",
@@ -6134,7 +6135,7 @@
                 "allies": [
                   "Saint-Empire (tardivement)"
                 ],
-                "morts": "Destruction d'un tiers de la population",
+                "morts": "Peut-être un quart à un tiers de la population (estimations)",
                 "vainqueur": "Statu Quo (Ruine totale)",
                 "consequences": "Invasion généralisée. Bien que la Pologne survive, ses villes et son économie sont rasées, amorçant son déclin fatal.",
                 "wikiUrl": "https://fr.wikipedia.org/wiki/D%C3%A9luge_(Pologne)"
@@ -6169,12 +6170,7 @@
               {
                 "annee": 1493,
                 "evenement": "Dynastie des Askia",
-                "info": "L'empereur Sonni Ali Ber meurt. Askia Mohammed s'empare du pouvoir et islamise l'État."
-              },
-              {
-                "annee": 1512,
-                "evenement": "Soutien universitaire",
-                "info": "Apogée des universités de Tombouctou et Djenné financées par la couronne."
+                "info": "Sonni Ali Ber est mort fin 1492. En 1493, Askia Mohammed bat son fils Sonni Baro à Anfao, prend le pouvoir et renforce la place de l'islam dans l'État."
               },
               {
                 "annee": 1591,
@@ -6195,20 +6191,20 @@
               {
                 "nom": "Ahmed Baba",
                 "role": "Savant et Grand Mufti",
-                "description": "Le plus grand intellectuel de Tombouctou, auteur de dizaines de traités de droit et d'astronomie, déporté lors de l'invasion marocaine.",
+                "description": "Le plus grand intellectuel de Tombouctou, auteur de dizaines d'ouvrages, surtout de droit islamique et de biographies de savants, déporté lors de l'invasion marocaine.",
                 "dates": "1556 à 1627",
                 "wikiUrl": "https://fr.wikipedia.org/wiki/Ahmed_Baba"
               }
             ],
-            "sciences": "Le règne d'Askia Mohammed voit une standardisation d'État exceptionnelle pour l'époque : introduction de poids et mesures officiels unifiés pour sécuriser le commerce de l'or et du sel, création d'un corps d'inspecteurs des marchés, et approfondissement d'un réseau complexe de canaux d'irrigation sur les rives du fleuve Niger.",
-            "croyancesText": "L'empire renoue pleinement avec l'Islam diplomatique et sunnite. Le pèlerinage de l'Askia Mohammed à La Mecque, accompagné d'une fortune de 300 000 pièces d'or distribuées en aumône, a pour but d'obtenir la validation du Calife du Caire pour être reconnu comme 'Lieutenant du Calife au Soudan', asseyant son autorité légale sur tous les musulmans de la région.",
-            "diplomatie": "Le pouvoir royal passe d'une tyrannie militaire (sous les Sonni) à une vaste bureaucratie avec des ministères spécialisés (Finances, Agriculture, Eaux et Forêts). Toutefois, la puissance du Songhaï attire la convoitise du redoutable Sultanat Saadien du Maroc, désireux de s'emparer des mines d'or et des mines de sel gemme de Teghazza pour renflouer ses caisses après la bataille des Trois Rois.",
+            "sciences": "Le règne d'Askia Mohammed voit une organisation de l'État remarquable pour l'époque : introduction de poids et mesures officiels unifiés pour sécuriser le commerce de l'or et du sel, création d'un corps d'inspecteurs des marchés, et approfondissement d'un réseau complexe de canaux d'irrigation sur les rives du fleuve Niger.",
+            "croyancesText": "L'empire renoue pleinement avec l'Islam diplomatique et sunnite. Le pèlerinage de l'Askia Mohammed à La Mecque, accompagné d'une fortune de 300 000 pièces d'or (dont une partie seulement est distribuée en aumônes), a pour but d'obtenir la validation du Calife du Caire pour être reconnu comme 'Lieutenant du Calife au Soudan', asseyant son autorité légale sur tous les musulmans de la région.",
+            "diplomatie": "Le pouvoir royal passe d'un règne de conquêtes (sous les Sonni) à une vaste administration avec des dignitaires spécialisés (finances, agriculture, flotte). Le territoire est divisé en provinces confiées à des gouverneurs (Fari) nommés par l'Askia. Toutefois, la puissance du Songhaï attire la convoitise du redoutable Sultanat Saadien du Maroc, désireux de s'emparer des mines d'or et des mines de sel gemme de Teghazza pour renflouer ses caisses après la bataille des Trois Rois.",
             "guerres": [
               {
                 "nom": "Bataille de Tondibi",
                 "annee": 1591,
                 "adversaires": [
-                  "Sultanat Saadien (Maroc, mené par le mercenaire ibérique Djouder Pacha)"
+                  "Sultanat Saadien (Maroc, mené par Djouder Pacha, eunuque d'origine espagnole au service du sultan)"
                 ],
                 "allies": [],
                 "morts": "La cavalerie d'élite Songhaï est fauchée",
@@ -6277,8 +6273,8 @@
               {
                 "titre": "Asantehene (Empereur)",
                 "nom": "Osei Tutu Ier",
-                "surnom": "",
-                "debut": 1675,
+                "surnom": "Règne de vers 1680/1695 à vers 1717 (dates incertaines)",
+                "debut": 1680,
                 "fin": 1717
               },
               {
@@ -6298,7 +6294,7 @@
                 "wikiUrl": "https://fr.wikipedia.org/wiki/Okomfo_Anokye"
               }
             ],
-            "sciences": "Leur métallurgie de la poudre et de l'or est d'une sophistication inouïe. Ils fabriquent les 'Poids Akans', de minuscules sculptures géométriques et figuratives en laiton d'une précision au milligramme près, servant d'étalon universel pour la pesée des pépites d'or dans toute l'Afrique de l'Ouest. Militairement, ils adoptent très tôt le mousquet européen, modifiant radicalement les tactiques de guerre en forêt dense.",
+            "sciences": "Leur métallurgie de la poudre et de l'or est d'une sophistication inouïe. Ils utilisent les 'poids akan', de petites sculptures géométriques et figuratives en laiton servant à peser la poudre d'or ; ces poids existaient déjà avant l'empire, chez les peuples akan. Militairement, ils adoptent très tôt le mousquet européen, modifiant radicalement les tactiques de guerre en forêt dense.",
             "croyancesText": "Toute la nation, pourtant composée de chefferies fières et indépendantes, est unifiée par l'âme religieuse de l'empire : le 'Sika Dwa Kofi' (Le Trône d'Or). Il ne représente pas le pouvoir d'un homme, mais contient l'esprit spirituel de la nation Ashanti toute entière. Même le roi n'a pas le droit de s'y asseoir, et sa simple profanation justifie une guerre totale.",
             "diplomatie": "C'est une confédération stricte : le roi de Kumasi (Asantehene) préside un parlement des rois provinciaux (Asantemanhyiamu). Leur économie diplomatique est impitoyable : ils lancent des razzias constantes contre les tribus intérieures pour faire des captifs qu'ils échangent aux forts côtiers des Européens (Britanniques, Hollandais) contre des fusils, alimentant un cycle infini d'expansion impérialiste.",
             "guerres": [
@@ -6336,9 +6332,9 @@
             "description": "Un royaume subsaharien choisissant librement de se christianiser, tentant de traiter d'égal à égal avec l'Europe avant d'être broyé par les trafiquants d'esclaves portugais.",
             "datesCles": [
               {
-                "annee": 1512,
-                "evenement": "Ambassade à Rome",
-                "info": "Le propre fils du roi du Kongo (Henrique) est sacré évêque par le Pape (le premier d'Afrique noire)."
+                "annee": 1518,
+                "evenement": "Un évêque kongo",
+                "info": "Le fils du roi du Kongo, Henrique, est nommé évêque (titulaire d'Utique) par le pape, l'un des tout premiers évêques d'Afrique subsaharienne."
               },
               {
                 "annee": 1526,
@@ -6353,7 +6349,7 @@
               {
                 "annee": 1704,
                 "evenement": "Révolution Antonianiste",
-                "info": "Kimpa Vita tente de refonder le royaume par une guerre sainte prophétique."
+                "info": "Kimpa Vita lance un mouvement religieux qui appelle à repeupler l'ancienne capitale et à réunifier le royaume."
               }
             ],
             "dirigeants": [
@@ -6381,9 +6377,9 @@
                 "wikiUrl": "https://fr.wikipedia.org/wiki/Kimpa_Vita"
               }
             ],
-            "sciences": "Le royaume crée un véritable syncrétisme intellectuel afro-européen. Une partie de la haute noblesse s'alphabétise en portugais et en latin. Ils réorganisent l'administration de l'État en copiant les titres de noblesse européens (Ducs, Comtes, Marquis) plaqués sur les structures de parenté matriarcales traditionnelles bantoues.",
-            "croyancesText": "Le christianisme du Kongo n'est pas imposé par la force, c'est une appropriation d'État. Les anciens esprits (Nkisi) sont assimilés aux saints catholiques, et la Croix devient le nouveau symbole suprême de la magie protectrice royale. Cependant, les missionnaires jésuites et capucins accompagnant les navires commerciaux servent très souvent d'agents de renseignement pour la couronne portugaise.",
-            "diplomatie": "Le drame du Kongo est la cupidité européenne. Initialement un partenariat, la relation dégénère car la monnaie d'échange exigée par les Portugais pour les armes à feu n'est plus l'ivoire ou le cuivre, mais les esclaves pour les plantations du Brésil. La couronne du Kongo s'épuise à lancer des guerres frontalières interminables pour fournir des captifs, finissant par détruire l'équilibre démographique et moral de son propre royaume.",
+            "sciences": "Le royaume crée un véritable syncrétisme intellectuel afro-européen. Une partie de la haute noblesse s'alphabétise en portugais et en latin. Ils réorganisent l'administration de l'État en copiant les titres de noblesse européens (Ducs, Comtes, Marquis) plaqués sur les structures de parenté matrilinéaires traditionnelles.",
+            "croyancesText": "Le christianisme du Kongo n'est pas imposé par la force, c'est une appropriation d'État. Les anciens esprits (Nkisi) sont assimilés aux saints catholiques, et la Croix devient le nouveau symbole suprême de la magie protectrice royale. Les missionnaires jésuites puis capucins (souvent italiens, envoyés par Rome) accompagnent cette christianisation.",
+            "diplomatie": "Sous Afonso Ier, le roi du Kongo et le roi du Portugal s'appellent 'Frères' dans leurs lettres ; le Kongo fait venir des maîtres d'école, des imprimeurs, des artisans et des arquebuses. Initialement un partenariat, la relation dégénère car la monnaie d'échange exigée par les Portugais pour les armes à feu n'est plus l'ivoire ou le cuivre, mais les esclaves pour les plantations du Brésil. La couronne du Kongo s'épuise à lancer des guerres frontalières interminables pour fournir des captifs, finissant par détruire l'équilibre démographique et moral de son propre royaume.",
             "guerres": [
               {
                 "nom": "Bataille d'Ambuila",
@@ -6400,7 +6396,7 @@
             ],
             "documentaires": [
               {
-                "titre": "L'Afrique des grands lacs : le Royaume de Kongo",
+                "titre": "Le Royaume du Kongo",
                 "url": "https://fr.wikipedia.org/wiki/Royaume_du_Kongo"
               }
             ],
@@ -6446,7 +6442,7 @@
               {
                 "annee": 1550,
                 "evenement": "Création de la Cavalerie",
-                "info": "Orompoto sécurise l'importation de chevaux du Nord, donnant la suprématie militaire à l'empire."
+                "info": "Vers 1550 (dates traditionnelles incertaines), Orompoto sécurise l'importation de chevaux du Nord, donnant la suprématie militaire à l'empire."
               },
               {
                 "annee": 1748,
@@ -6458,14 +6454,14 @@
               {
                 "titre": "Alaafin (Empereur)",
                 "nom": "Orompoto",
-                "surnom": "",
+                "surnom": "Vers 1550-1560, dates incertaines ; une femme selon certaines traditions",
                 "debut": 1550,
                 "fin": 1560
               },
               {
                 "titre": "Alaafin",
                 "nom": "Abiodun",
-                "surnom": "",
+                "surnom": "Ne gouverne vraiment qu'après avoir renversé Gaa en 1774",
                 "debut": 1770,
                 "fin": 1789
               }
@@ -6900,7 +6896,7 @@
               {
                 "annee": 1689,
                 "evenement": "Traité de Nertchinsk",
-                "info": "Premier traité officiel avec un pays européen (la Russie de Pierre le Grand)."
+                "info": "Premier traité officiel avec un pays européen (la Russie)."
               }
             ],
             "dirigeants": [
@@ -7031,9 +7027,9 @@
                 "info": "L'Empereur nomme Tokugawa shogun (dictateur militaire héréditaire) du Japon."
               },
               {
-                "annee": 1635,
+                "annee": 1639,
                 "evenement": "Fermeture du pays (Sakoku)",
-                "info": "Les navires espagnols et portugais sont expulsés, les Japonais ont interdiction de quitter l'île sous peine de mort."
+                "info": "Le pays se ferme progressivement dans les années 1630 : les Japonais ont interdiction de quitter l'archipel sous peine de mort, et les Portugais sont expulsés en 1639."
               }
             ],
             "dirigeants": [
@@ -7046,7 +7042,7 @@
               },
               {
                 "titre": "Shogun",
-                "nom": "Tokugawa Yoshimune",
+                "nom": "Tokugawa Tsunayoshi",
                 "surnom": "Le Shogun des Chiens",
                 "debut": 1680,
                 "fin": 1709
@@ -7146,7 +7142,7 @@
               {
                 "annee": 1443,
                 "evenement": "Invention du Hangeul",
-                "info": "L'Empereur Sejong le Grand promulgue l'alphabet coréen, le plus scientifique du monde."
+                "info": "Le roi Sejong le Grand fait créer l'alphabet coréen en 1443 ; il est promulgué en 1446."
               },
               {
                 "annee": 1592,
@@ -7179,12 +7175,12 @@
               {
                 "nom": "Amiral Yi Sun-sin",
                 "role": "Héros militaire",
-                "description": "Le 'Nelson asiatique'. Un génie naval invaincu qui a détruit la flotte japonaise à lui seul avec ses navires-tortues lors de la guerre d'Imjin.",
+                "description": "Le 'Nelson asiatique'. Un génie naval invaincu qui, à la tête de la flotte coréenne et avec ses navires-tortues, joua un rôle décisif contre la flotte japonaise lors de la guerre d'Imjin.",
                 "dates": "1545 à 1598",
                 "wikiUrl": "https://fr.wikipedia.org/wiki/Yi_Sun-sin"
               }
             ],
-            "sciences": "Le roi Sejong invente le 'Hangeul', un alphabet phonétique où la forme de la lettre montre littéralement la position de la langue dans la bouche, conçu pour que même le paysan le plus humble puisse apprendre à lire en quelques jours. Militairement, Yi Sun-sin crée le Geobukseon (Navire-tortue), le premier cuirassé à propulsion mixte de l'histoire, couvert de piques en fer pour empêcher l'abordage et doté de canons crachant feu et gaz toxiques (soufre) par une tête de dragon.",
+            "sciences": "Le roi Sejong invente le 'Hangeul', un alphabet phonétique où la forme de la lettre montre littéralement la position de la langue dans la bouche, conçu pour que même le paysan le plus humble puisse apprendre à lire en quelques jours. Militairement, Yi Sun-sin fait construire le Geobukseon (navire-tortue), parfois présenté comme le premier cuirassé de l'histoire (un point débattu), mû à la rame et à la voile, couvert de piques en fer pour empêcher l'abordage et doté de canons et d'une tête de dragon qui pouvait cracher de la fumée.",
             "croyancesText": "Le Bouddhisme est chassé du pouvoir. Joseon devient le pays le plus rigoriste du monde selon les préceptes du Néo-confucianisme de Zhu Xi. Le culte des ancêtres devient obligatoire, la société est cloisonnée et les moines bouddhistes sont bannis des villes et forcés de s'exiler dans les montagnes.",
             "diplomatie": "Prise en tenaille entre la Chine et le Japon, la politique étrangère coréenne s'appelle le 'Sadae' (servir le grand). Joseon se déclare volontairement et respectueusement l'État vassal et le 'petit frère' de l'Empire Chinois (Ming puis Qing), garantissant ainsi un parapluie militaire et l'accès exclusif aux marchés commerciaux de Pékin tout en verrouillant ses propres côtes aux barbares occidentaux.",
             "guerres": [
@@ -7194,12 +7190,10 @@
                 "adversaires": [
                   "Empire du Japon"
                 ],
-                "allies": [
-                  "Empire Ming (Chine)"
-                ],
-                "morts": "Destruction de l'armada nippone",
+                "allies": [],
+                "morts": "Une trentaine de navires japonais coulés ou endommagés",
                 "vainqueur": "Joseon (Amiral Yi)",
-                "consequences": "Avec seulement 13 navires rescapés des trahisons de cour, l'Amiral Yi Sun-sin attire 133 navires de guerre japonais dans un détroit à forts courants et les anéantit, sauvant la nation.",
+                "consequences": "Avec seulement 13 navires, l'amiral Yi Sun-sin attire plus de 130 navires de guerre japonais dans un détroit à forts courants. Il en coule ou endommage une trentaine et la flotte japonaise se replie, ce qui l'empêche de remonter vers la capitale.",
                 "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Myeongnyang"
               }
             ],
@@ -7477,7 +7471,7 @@
             "end": 1789,
             "color": "#1a237e",
             "isRiver": false,
-            "capitale": "Philadelphie",
+            "capitale": "Philadelphie puis New York (capitale en 1789)",
             "description": "La rébellion politique de treize colonies britanniques qui, aidées par la France, vont inventer la démocratie constitutionnelle moderne.",
             "datesCles": [
               {
@@ -7493,7 +7487,7 @@
               {
                 "annee": 1781,
                 "evenement": "Bataille de Yorktown",
-                "info": "Washington et l'armée française de Rochambeau/Lafayette obligent l'Angleterre à capituler."
+                "info": "L'armée française de Rochambeau, la flotte de l'amiral de Grasse et les Américains de Washington (dont La Fayette) obligent l'armée britannique à capituler."
               },
               {
                 "annee": 1787,
@@ -7527,7 +7521,7 @@
               }
             ],
             "sciences": "Outre les inventions pratiques de Franklin (paratonnerre, lunettes à double foyer), l'innovation majeure de la jeune nation est la 'Science politique'. La Constitution (1787) met en pratique stricte la théorie européenne de Montesquieu sur la séparation des pouvoirs : Législatif (Congrès), Exécutif (Président), Judiciaire (Cour Suprême), avec un système d'équilibre ('Checks and Balances').",
-            "croyancesText": "Profondément marqués par le puritanisme de la Nouvelle-Angleterre (le Mayflower, le mythe de la 'Cité sur la Colline'), les Pères fondateurs (majoritairement déistes ou protestants) accomplissent une révolution absolue : le Premier Amendement interdit formellement à l'État d'établir une religion officielle, instaurant une laïcité stricte de l'État mais une totale ferveur de la société (In God We Trust).",
+            "croyancesText": "Profondément marqués par le puritanisme de la Nouvelle-Angleterre (le Mayflower, le mythe de la 'Cité sur la Colline'), les Pères fondateurs (majoritairement déistes ou protestants) accomplissent une révolution : le Premier Amendement (1791) interdit au Congrès d'établir une religion officielle : il n'existe donc pas de religion officielle fédérale, tandis que la société reste très croyante.",
             "diplomatie": "La guerre d'indépendance était ingagnable militairement seule. Les miliciens et 'Minutemen' de Washington, mal équipés, survivaient dans les hivers de Valley Forge. Le salut vint du Traité d'alliance franco-américain de 1778. L'envoi par Louis XVI de millions de livres d'or, d'armes, de l'escadre de l'amiral de Grasse et de l'armée de Rochambeau a coulé la couronne française mais sauvé l'Amérique naissante.",
             "guerres": [
               {
@@ -7889,7 +7883,7 @@
               {
                 "annee": 1933,
                 "evenement": "La Tragédie",
-                "info": "La crise de 1929 détruit la République de Weimar, Hitler est nommé démocratiquement Chancelier."
+                "info": "La crise de 1929 détruit la République de Weimar, Hitler est nommé chancelier légalement par le président Hindenburg (janvier 1933)."
               },
               {
                 "annee": 1945,
@@ -8132,7 +8126,7 @@
             "trackId": "autriche",
             "row": 5,
             "label": "Autriche-Hongrie",
-            "period": "1804 à 1918",
+            "period": "1789 à 1918",
             "start": 1789,
             "end": 1918,
             "color": "#fbc02d",
@@ -8153,7 +8147,7 @@
               {
                 "annee": 1914,
                 "evenement": "Attentat de Sarajevo",
-                "info": "L'héritier de l'Empire est assassiné par un nationaliste serbe, déclenchant l'apocalypse mondiale."
+                "info": "L'héritier de l'Empire, François-Ferdinand, est assassiné par Gavrilo Princip, un Serbe de Bosnie lié à des réseaux nationalistes serbes. L'attentat déclenche la Première Guerre mondiale."
               },
               {
                 "annee": 1918,
@@ -8195,7 +8189,7 @@
             ],
             "sciences": "La 'Vienne fin de siècle' est la capitale mondiale de la modernité artistique et scientifique, un bouillon de culture (Klimt, Mahler, Freud, Zweig). Scientifiquement, Gregor Mendel (un moine morave de l'Empire) fonde la génétique moderne avec ses lois sur les petits pois, et Ignaz Semmelweis impose l'asepsie (lavage des mains) en médecine.",
             "croyancesText": "L'Empire est le bastion catholique conservateur. Mais sa fragilité et sa richesse viennent de ses formidables minorités. Vienne est l'une des grandes capitales du judaïsme européen, berceau intellectuel du Sionisme théorisé par Theodor Herzl (visant à créer un État juif face à la montée de l'antisémitisme en Europe).",
-            "diplomatie": "Diriger 50 millions d'habitants parlant 11 langues officielles différentes (Allemands, Magyars, Tchèques, Croates, Polonais) sous une monarchie germanophone est un numéro d'équilibriste mortel. L'éveil de l'idée de 'Nation' en Europe rend ce système caduc. En s'alliant militairement avec l'Allemagne (La Duplice), Vienne condamne son destin à celui de Berlin lors de la Première Guerre mondiale.",
+            "diplomatie": "Diriger 50 millions d'habitants parlant une dizaine de langues reconnues, au statut variable selon les régions (allemand, hongrois, tchèque, croate, polonais…) sous une monarchie germanophone est un numéro d'équilibriste mortel. L'éveil de l'idée de 'Nation' en Europe rend ce système caduc. En s'alliant militairement avec l'Allemagne (La Duplice), Vienne condamne son destin à celui de Berlin lors de la Première Guerre mondiale.",
             "guerres": [
               {
                 "nom": "Bataille de Sadowa",
@@ -8235,12 +8229,12 @@
               {
                 "annee": 1861,
                 "evenement": "Le Risorgimento",
-                "info": "Garibaldi et Cavour réussissent l'unification politique de l'Italie du Nord et du Sud."
+                "info": "Grâce à Cavour et Garibaldi, le royaume d'Italie est proclamé. L'unification reste incomplète : la Vénétie est rattachée en 1866 et Rome en 1870."
               },
               {
                 "annee": 1922,
                 "evenement": "Marche sur Rome",
-                "info": "Le Roi, effrayé, cède le pouvoir aux 'Chemises noires', fondation de la première dictature fasciste."
+                "info": "Le roi nomme Mussolini chef du gouvernement après la marche des 'Chemises noires'. La dictature fasciste ne s'installe vraiment qu'en 1925-1926."
               },
               {
                 "annee": 1943,
@@ -8262,7 +8256,7 @@
                 "fin": 1878
               },
               {
-                "titre": "Duce du Fascisme",
+                "titre": "Président du Conseil (Duce)",
                 "nom": "Benito Mussolini",
                 "surnom": "Le Duce",
                 "debut": 1922,
@@ -8273,13 +8267,13 @@
               {
                 "nom": "Giuseppe Garibaldi",
                 "role": "Général Républicain",
-                "description": "Le mercenaire au maillot rouge de la liberté. Héros charismatique de la guérilla ayant offert le sud (Les Deux-Siciles) au roi pour unifier le pays.",
+                "description": "Révolutionnaire, général des volontaires en chemise rouge. Héros charismatique ayant offert le sud (Les Deux-Siciles) au roi pour unifier le pays.",
                 "dates": "1807 à 1882",
                 "wikiUrl": "https://fr.wikipedia.org/wiki/Giuseppe_Garibaldi"
               },
               {
                 "nom": "Enrico Fermi",
-                "role": "Physicien théoricien",
+                "role": "Physicien",
                 "description": "L'un des pionniers de la physique nucléaire et créateur du premier réacteur nucléaire. Prix Nobel exilé aux États-Unis.",
                 "dates": "1901 à 1954",
                 "wikiUrl": "https://fr.wikipedia.org/wiki/Enrico_Fermi"
@@ -8293,14 +8287,14 @@
                 "nom": "Troisième guerre d'Indépendance italienne",
                 "annee": 1866,
                 "adversaires": [
-                  "Autriche-Hongrie"
+                  "Empire d'Autriche"
                 ],
                 "allies": [
                   "Royaume de Prusse"
                 ],
                 "morts": "Pertes modérées",
-                "vainqueur": "Italie et Prusse",
-                "consequences": "Grâce à l'aide tactique prussienne, le jeune royaume d'Italie arrache enfin la Vénétie et la ville de Venise à la tutelle autrichienne.",
+                "vainqueur": "Prusse",
+                "consequences": "Battue par l'Autriche à Custoza et à Lissa, l'Italie obtient pourtant la Vénétie grâce à la victoire prussienne : l'Autriche la cède à la France, qui la remet à l'Italie.",
                 "wikiUrl": "https://fr.wikipedia.org/wiki/Troisi%C3%A8me_guerre_d'Ind%C3%A9pendance_italienne"
               }
             ],
@@ -8383,7 +8377,7 @@
               {
                 "nom": "Jean Monnet & Robert Schuman",
                 "role": "Les Pères de l'Europe",
-                "description": "Des hauts fonctionnaires visionnaires pariant sur l'intégration économique progressive (méthode des petits pas) plutôt que la politique.",
+                "description": "Jean Monnet, haut fonctionnaire, et Robert Schuman, homme politique et ministre français des Affaires étrangères, parient sur l'intégration économique progressive (méthode des petits pas) plutôt que la politique.",
                 "dates": "XXe siècle",
                 "wikiUrl": "https://fr.wikipedia.org/wiki/P%C3%A8res_de_l%27Europe"
               },
@@ -8396,7 +8390,7 @@
               }
             ],
             "sciences": "Le bloc consolide les puissances par des collaborations industrielles massives de pointe que les États nations seuls ne pourraient plus financer : l'entreprise d'aéronautique Airbus (contre le monopole de l'américain Boeing), le programme spatial européen Arianespace et l'Agence Spatiale Européenne (ESA), ou l'accélérateur géant de particules du CERN.",
-            "croyancesText": "L'Union Européenne repose sur un dogme politique inviolable : les 'Critères de Copenhague'. Pour y adhérer, une nation doit obligatoirement prouver qu'elle possède des institutions démocratiques stables, qu'elle respecte les Droits de l'Homme, abolit la peine de mort, respecte les minorités de son pays, et adhère à l'économie de marché viable.",
+            "croyancesText": "L'Union Européenne repose sur un dogme politique inviolable : les 'Critères de Copenhague'. Pour y adhérer, une nation doit obligatoirement prouver qu'elle possède des institutions démocratiques stables, qu'elle respecte les Droits de l'Homme (ce qui implique en pratique l'abolition de la peine de mort, exigée par ailleurs par l'UE), respecte les minorités de son pays, et adhère à l'économie de marché viable.",
             "diplomatie": "C'est l'anti-Empire. L'UE n'est pas construite par la force militaire (elle n'a d'ailleurs aucune véritable armée commune), mais par l'adhésion volontaire au Droit par traités. Elle utilise son immense marché de 450 millions de consommateurs parmi les plus riches au monde (Le Marché Unique) comme 'Soft Power' pour imposer des normes économiques et écologiques mondiales (RGPD).",
             "guerres": [
               {
@@ -8586,7 +8580,7 @@
               {
                 "annee": 1848,
                 "evenement": "Guerre Américano-Mexicaine",
-                "info": "Catastrophe territoriale, le Mexique perd la moitié de son pays (Californie, Texas)."
+                "info": "Catastrophe territoriale : le Mexique cède la Californie et le Sud-Ouest aux États-Unis. Le Texas, indépendant depuis 1836, avait été annexé par les États-Unis en 1845."
               },
               {
                 "annee": 1862,
@@ -8608,7 +8602,7 @@
                 "fin": 1911
               },
               {
-                "titre": "Président (PRI)",
+                "titre": "Président (Parti national révolutionnaire, devenu PRM, ancêtre du PRI fondé en 1946)",
                 "nom": "Lázaro Cárdenas",
                 "surnom": "",
                 "debut": 1934,
@@ -8632,7 +8626,7 @@
               }
             ],
             "sciences": "Sous le 'Porfiriato' (la longue dictature de Díaz), le pays se modernise techniquement de force grâce aux capitaux étrangers (Royaume-Uni, USA) avec 19 000 km de chemins de fer et l'extraction massive d'argent et de pétrole, mais au prix de la misère paysanne. En 1938, le gouvernement nationalise le pétrole (PEMEX), affirmant sa souveraineté industrielle moderne face aux multinationales américaines.",
-            "croyancesText": "Le 'Mestizaje' (métissage) de la foi est la colonne vertébrale du pays, symbolisé par Notre-Dame de Guadalupe (la vierge catholique au teint brun, apparue sur la colline de l'ancien temple aztèque de Tonantzin). La Révolution de 1910 adopte une Constitution violemment laïque et anticommuniste, entraînant une sanglante guerre civile religieuse dans les années 20 ('La Guerre des Cristeros' où les paysans armés meurent pour le Christ-Roi).",
+            "croyancesText": "Le 'Mestizaje' (métissage) de la foi est la colonne vertébrale du pays, symbolisé par Notre-Dame de Guadalupe (la vierge catholique au teint brun, apparue sur la colline de l'ancien temple aztèque de Tonantzin). La Révolution de 1910 adopte une Constitution (1917) fortement anticléricale, entraînant une sanglante guerre civile religieuse dans les années 20 ('La Guerre des Cristeros' où les paysans armés meurent pour le Christ-Roi).",
             "diplomatie": "Le traumatisme fondamental de l'État mexicain est d'avoir été amputé de moitié par la force de son surpuissant voisin du nord, les États-Unis. Après la Révolution, le pays opte pour une politique étrangère pacifiste stricte (La Doctrine Estrada : non-intervention dans les affaires des autres États). Le pays devient gouverné par un 'parti unique' autoritaire mais stable, le PRI, pendant soixante-dix ans.",
             "guerres": [
               {
@@ -8727,14 +8721,14 @@
               {
                 "titre": "Président populiste dictateur",
                 "nom": "Getúlio Vargas",
-                "surnom": "",
+                "surnom": "Au pouvoir de 1930 à 1945, puis de 1951 à 1954",
                 "debut": 1930,
                 "fin": 1954
               },
               {
                 "titre": "Président",
                 "nom": "Lula da Silva",
-                "surnom": "",
+                "surnom": "Président de 2003 à 2010, puis de nouveau depuis 2023",
                 "debut": 2003,
                 "fin": 2010
               }
@@ -8748,7 +8742,7 @@
                 "wikiUrl": "https://fr.wikipedia.org/wiki/Oscar_Niemeyer"
               }
             ],
-            "sciences": "Puissance d'ingénierie d'altitude et hydroélectrique. Ils construisent le Barrage d'Itaipu (fournissant 20% de l'électricité de la nation). Le Brésil investit lourdement dans les biotechnologies : confronté aux chocs pétroliers, il devient le leader mondial de la production de biocarburant à l'éthanol (extrait de sa production géante de canne à sucre) pour faire fonctionner son parc automobile et développe la compagnie aéronautique Embraer.",
+            "sciences": "Puissance hydroélectrique, le Brésil construit avec le Paraguay le barrage d'Itaipu (qui fournit aujourd'hui environ 10 % de l'électricité du pays, davantage dans les années 1990). Le Brésil investit lourdement dans les biotechnologies : confronté aux chocs pétroliers, il devient le leader mondial de la production de biocarburant à l'éthanol (extrait de sa production géante de canne à sucre) pour faire fonctionner son parc automobile et développe la compagnie aéronautique Embraer.",
             "croyancesText": "La plus grande nation catholique du monde est le laboratoire des syncrétismes religieux liés à la cruelle importation de millions d'esclaves africains (Yoruba, Kongos). Les divinités africaines (Orixás) furent masquées derrière les noms des saints catholiques pour échapper aux colons, donnant naissance au puissant rite spirituel et musical du Candomblé (culte d'Iemanja la déesse des mers) très pratiqué à Bahia.",
             "diplomatie": "Son unité territoriale gigantesque a été maintenue sans éclatement (contrairement à l'Amérique espagnole) car la famille royale de Lisbonne s'y était installée pour fuir Napoléon. Politiquement, le pays oscille entre des dictatures militaires (les Juntes de 1964 à 1985 protégées par Washington) et des périodes de démocratie vibrante et exportatrice (Café, Soja, Fer), affirmant aujourd'hui son statut de pilier des BRICS (pays émergents).",
             "guerres": [
@@ -8762,7 +8756,7 @@
                   "Argentine",
                   "Uruguay"
                 ],
-                "morts": "Anéantissement du peuple paraguayen",
+                "morts": "Pertes énormes pour le Paraguay (estimations très variables)",
                 "vainqueur": "Brésil et ses alliés",
                 "consequences": "Le conflit le plus meurtrier de l'Amérique du Sud moderne. Le Brésil sécurise le contrôle stratégique des immenses fleuves d'Amérique du Sud mais l'endettement affaiblit la monarchie.",
                 "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_de_la_Triple-Alliance"
@@ -8786,7 +8780,7 @@
             "trackId": "ottomans",
             "row": 1,
             "label": "Turquie",
-            "period": "1923 à 2020",
+            "period": "1789 à 2020",
             "start": 1789,
             "end": 2020,
             "color": "#27ae60",
@@ -8802,7 +8796,7 @@
               {
                 "annee": 1920,
                 "evenement": "Traité de Sèvres",
-                "info": "Démantèlement de l'Empire Ottoman par la France et l'Angleterre."
+                "info": "Démantèlement de l'Empire ottoman imposé par les Alliés."
               },
               {
                 "annee": 1923,
@@ -8812,7 +8806,7 @@
               {
                 "annee": 1928,
                 "evenement": "L'Alphabet Latin",
-                "info": "L'État abandonne en une nuit l'alphabet arabe pour occidentaliser la société."
+                "info": "Une loi de novembre 1928 remplace l'alphabet arabe par l'alphabet latin ; la transition se fait sur plusieurs mois."
               }
             ],
             "dirigeants": [
@@ -8824,16 +8818,16 @@
                 "fin": 1938
               },
               {
-                "titre": "Président (AKP)",
+                "titre": "Premier ministre puis Président (AKP)",
                 "nom": "Recep Tayyip Erdoğan",
-                "surnom": "",
+                "surnom": "Premier ministre de 2003 à 2014, président depuis 2014",
                 "debut": 2003,
                 "fin": 2020
               }
             ],
             "personnages": [],
             "sciences": "Le rattrapage des années 20 est un modèle de dirigisme étatique et militaire : construction expresse de l'industrie textile, d'aciéries, laïcisation massive des universités, et l'un des premiers droits de vote accordé aux femmes au monde (1934).",
-            "croyancesText": "Le 'Kémalisme' impose une laïcité absolue et agressive en pays musulman : le vêtement religieux islamique (le fez, le voile) est interdit dans l'espace public de force, l'appel à la prière doit se faire en turc, l'alphabet arabe est proscrit. Plus tard (années 2000), le gouvernement d'Erdoğan remettra progressivement l'Islam sunnite politique au cœur du discours de l'État.",
+            "croyancesText": "Le 'Kémalisme' impose une laïcité absolue et agressive en pays musulman : le fez est interdit (loi sur le chapeau, 1925), le voile est découragé et interdit dans certains lieux publics (administrations, universités), l'appel à la prière doit se faire en turc, l'alphabet arabe est proscrit. Plus tard (années 2000), le gouvernement d'Erdoğan remettra progressivement l'Islam sunnite politique au cœur du discours de l'État.",
             "diplomatie": "Devenue le flanc Est stratégique de l'OTAN face à l'URSS pendant la guerre froide (abritant des missiles nucléaires américains), la diplomatie turque est pragmatique : candidat de longue date à l'entrée dans l'Union Européenne, c'est aussi un acteur militarisé incontournable au Moyen-Orient (conflits avec la Grèce pour Chypre, opposition armée au nationalisme kurde).",
             "guerres": [
               {
@@ -8896,7 +8890,7 @@
             "color": "#9c27b0",
             "isRiver": false,
             "capitale": "Téhéran",
-            "description": "Dernière puissance perse, passée de la dictature moderne pétrolière pro-américaine (les Chahs) à l'instauration de l'unique République Islamique chiite du monde.",
+            "description": "Dernière puissance perse, passée de la monarchie des Qadjars à la dictature pétrolière des Chahs Pahlavi (pro-américaine surtout après 1953), à l'instauration de l'unique République Islamique chiite du monde.",
             "datesCles": [
               {
                 "annee": 1908,
@@ -9194,7 +9188,7 @@
               }
             ],
             "sciences": "Le miracle économique japonais de l'après-guerre est vertigineux : ils passent des ruines calcinées à la deuxième économie mondiale en 20 ans. Inventeurs de la miniaturisation technologique (le Walkman Sony, le magnétoscope), du Toyotisme industriel, et du premier train à grande vitesse du monde fonctionnant au millimètre près (Le Shinkansen, en 1964).",
-            "croyancesText": "Durant l'ère Meiji, le Shintoïsme d'État devient une religion guerrière où l'Empereur est officiellement considéré comme un descendant sacré de la divinité solaire. Les soldats (kamikazes) fanatisés mouraient de gaieté de cœur pour lui. Fin 1945, les Américains forceront l'Empereur Hirohito à déclarer officiellement à la radio : 'Je ne suis qu'un être humain', détruisant le mythe religieux de l'État.",
+            "croyancesText": "À l'ère Meiji est instauré un shintō d'État organisé autour du culte de l'Empereur, présenté comme le descendant de la déesse du Soleil Amaterasu. Dans les années 1930-1945, la propagande militariste s'en sert pour exiger des soldats un sacrifice total (jusqu'aux pilotes kamikazes). Fin 1945, les Américains forceront l'Empereur Hirohito à déclarer officiellement à la radio : 'Je ne suis qu'un être humain', détruisant le mythe religieux de l'État.",
             "diplomatie": "Pour ne pas être colonisé comme la Chine, le Japon colonial de la fin du 19ème siècle conquiert Taiwan et annexe la Corée pour ses ressources en acier. Entré dans l'Axe fasciste pendant la guerre, leur expansionnisme brutal (La Sphère de coprospérité de la grande Asie orientale) s'effondre face au pacifique. En 1947, le général américain MacArthur rédige la nouvelle constitution nippone interdisant à jamais au pays d'avoir une armée offensive, transformant l'archipel en forteresse économique américaine.",
             "guerres": [
               {
@@ -9300,7 +9294,22 @@
                 "fin": 1979
               }
             ],
-            "personnages": [],
+            "personnages": [
+              {
+                "nom": "Syngman Rhee",
+                "role": "Premier président de la Corée du Sud",
+                "description": "Militant de l'indépendance coréenne, il dirige la Corée du Sud de 1948 à 1960 de façon de plus en plus autoritaire, avant d'être chassé par une révolte étudiante.",
+                "dates": "1875 à 1965",
+                "wikiUrl": "https://fr.wikipedia.org/wiki/Syngman_Rhee"
+              },
+              {
+                "nom": "Kim Dae-jung",
+                "role": "Opposant puis président de la Corée du Sud",
+                "description": "Opposant aux dictatures militaires, élu président en 1997, il mène une politique de rapprochement avec le Nord (« politique du rayon de soleil ») et reçoit le prix Nobel de la paix en 2000.",
+                "dates": "1924 à 2009",
+                "wikiUrl": "https://fr.wikipedia.org/wiki/Kim_Dae-jung"
+              }
+            ],
             "sciences": "Le contraste est vertigineux : Le Sud réalise 'Le Miracle sur le fleuve Han', des chaebols (immenses conglomérats nationaux comme Samsung, Hyundai) propulsant un pays ravagé dans la domination mondiale des écrans, bateaux et de la mémoire électronique, et sa K-Culture musicale. Le Nord se militarise à outrance au prix de grandes famines, sacrifiant tout à l'obtention de la dissuasion balistique et nucléaire autonome.",
             "croyancesText": "Le Nord vit sous l'idéologie politique quasi-religieuse absolue du 'Juche' (L'Autosuffisance totale militaire et économique). Des milliers de statues monumentales à la gloire de la dynastie totalitaire des Kim dominent chaque ville. Le Sud, profondément dynamique religieusement, abrite d'immenses mega-églises évangéliques (christianisme) et une grande part de laïcs pragmatiques et matérialistes.",
             "diplomatie": "Techniquement, la guerre de Corée n'est pas terminée (seul un Armistice de Cessez-le-feu fut signé à Panmunjom en 1953). Le Nord, soutenu par la Chine communiste, est le pays le plus isolé et sanctionné diplomatiquement du monde. Le Sud, bastion géopolitique armé indispensable des États-Unis en Asie de l'Est, déploie sa diplomatie économique libre-échangiste.",
@@ -9316,9 +9325,9 @@
                   "Corée du Sud",
                   "Force de Coalition de l'ONU (États-Unis)"
                 ],
-                "morts": "Plus de 2,5 millions de civils (Séoul rasée 4 fois)",
+                "morts": "Environ 2,5 à 3 millions de morts au total, en grande partie civils (Séoul change de mains 4 fois)",
                 "vainqueur": "Statu Quo (Match nul sanglant)",
-                "consequences": "La guerre la plus destructrice de l'ère de la Guerre Froide. Le Général américain MacArthur voulut y utiliser la bombe atomique contre la Chine mais fut limogé.",
+                "consequences": "La guerre la plus destructrice de l'ère de la Guerre Froide. Le général américain MacArthur, qui voulait étendre la guerre à la Chine (il envisagea même l'arme atomique), est limogé en 1951 par le président Truman, surtout pour insubordination.",
                 "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_de_Cor%C3%A9e"
               }
             ],
@@ -9397,7 +9406,7 @@
               {
                 "annee": 1974,
                 "evenement": "L'arme nucléaire",
-                "info": "L'Inde (Opération Bouddha Souriant) fait exploser sa première bombe pour contrer la Chine."
+                "info": "L'Inde (Opération Bouddha Souriant) fait exploser sa première bombe atomique."
               }
             ],
             "dirigeants": [
@@ -9426,7 +9435,7 @@
               }
             ],
             "sciences": "Pour extraire les immenses ressources (coton, thé) vers Londres, les Anglais arment l'Inde du plus gigantesque réseau ferroviaire et télégraphique d'Asie. Au XXème siècle, libérée des horribles famines britanniques par la 'Révolution verte' agricole (nouveaux engrais et hybrides), l'Inde contemporaine devient une superpuissance de services informatiques mondialisés, avec son propre programme spatial abouti sur Mars.",
-            "croyancesText": "Ce sont les croyances qui ont dicté les frontières modernes. Les Anglais refusaient l'indépendance sans séparer les territoires : le nouvel État libre est dramatiquement fracturé en deux. L'Inde (majoritairement hindoue laïque) et le Pakistan Occidental et Oriental (États musulmans, et le futur Bangladesh). Cette ligne de séparation, l'une des pires tragédies de l'Histoire, engendra 15 millions de déplacés jetés sur les routes au milieu des massacres inter-religieux.",
+            "croyancesText": "Ce sont les croyances qui ont dicté les frontières modernes. À l'indépendance, issue des revendications de la Ligue musulmane et des négociations avec les Britanniques, le territoire est partagé : c'est la Partition. L'Inde (majoritairement hindoue laïque) et le Pakistan Occidental et Oriental (États musulmans, et le futur Bangladesh). Cette ligne de séparation, l'une des pires tragédies de l'Histoire, engendra 15 millions de déplacés jetés sur les routes au milieu des massacres inter-religieux.",
             "diplomatie": "Durant la Guerre Froide, refusant l'alignement sur les Américains ou les Soviétiques, l'Inde invente le 'Mouvement des non-alignés' pour donner une voix au Tiers-Monde en développement. Sa diplomatie du XXIe siècle est focalisée sur le duel territorial brûlant au nord sur les neiges du Cachemire, une poudrière face au Pakistan (soutenu par les Chinois).",
             "guerres": [
               {
@@ -9513,7 +9522,7 @@
               {
                 "annee": 1965,
                 "evenement": "Purges anticommunistes",
-                "info": "La dictature du général Suharto (L'Ordre Nouveau) massacre au moins 500 000 communistes présumés."
+                "info": "L'armée, dirigée par le général Suharto (qui n'est pas encore président), et des milices massacrent entre 500 000 et 1 million de communistes présumés selon les estimations."
               }
             ],
             "dirigeants": [
@@ -9535,7 +9544,7 @@
             "personnages": [],
             "sciences": "Le colonialisme hollandais fut d'une terrible rentabilité avec le 'Cultuurstelsel' (Système de cultures forcées) obligeant les paysans indigènes à cultiver (tabac, café, canne à sucre, indigo) pour les marchands européens en les affamant de leur propre riz. Devenue indépendante, la géographie volcanique du pays la contraint à une ingénierie complexe pour extraire les minerais, et a géré d'immenses catastrophes sismiques (Tsunami géant de 2004 en Aceh).",
             "croyancesText": "C'est un État laïque abritant l'immense majorité musulmane sunnite de la planète (près de 230 millions d'habitants). Pour lier ses 17 000 îles ethniquement disparates, le pays est cimenté par le principe du 'Pancasila' : l'obligation philosophique d'État (la croyance en un seul Dieu, une humanité juste, une démocratie unifiée). L'hindouisme reste vivace et concentré (Bali).",
-            "diplomatie": "C'est le fer de lance de l'anticolonialisme du Tiers-Monde. Sukarno accueille la fameuse Conférence de Bandung (1955), réunissant pour la première fois les leaders africains et asiatiques non-alignés. Suharto plus tard alignera l'économie militarisée du pays sur les capitaux de la Guerre Froide américaine, en annexant violemment le Timor oriental et la Papouasie.",
+            "diplomatie": "C'est le fer de lance de l'anticolonialisme du Tiers-Monde. Sukarno accueille la fameuse Conférence de Bandung (1955), réunissant pour la première fois les leaders africains et asiatiques non-alignés. Suharto plus tard alignera l'économie militarisée du pays sur les capitaux de la Guerre Froide américaine, en annexant violemment le Timor oriental (1975-1976) ; la Papouasie occidentale est intégrée en 1969 après un « Acte de libre choix » très contesté.",
             "guerres": [
               {
                 "nom": "Guerre d'indépendance indonésienne",
@@ -9547,7 +9556,7 @@
                 "allies": [
                   "Soutien diplomatique États-Unis/ONU"
                 ],
-                "morts": "100 000 Indonésiens",
+                "morts": "Environ 100 000 Indonésiens selon les estimations",
                 "vainqueur": "Indonésie",
                 "consequences": "Les Hollandais tentèrent violemment de reconquérir leurs anciennes colonies pendant 4 ans après la WWII, mais cédèrent face au coût militaire et à l'embargo menacé par les Américains.",
                 "wikiUrl": "https://fr.wikipedia.org/wiki/R%C3%A9volution_nationale_indon%C3%A9sienne"
@@ -9586,7 +9595,7 @@
               {
                 "annee": 1965,
                 "evenement": "Indépendance Forcée",
-                "info": "Jetée hors de la Fédération de Malaisie pour des raisons ethniques, l'île de pêcheurs doit survivre seule."
+                "info": "Jetée hors de la Fédération de Malaisie pour des raisons ethniques, Singapour, déjà un grand port d'environ 1,9 million d'habitants, doit survivre seule."
               }
             ],
             "dirigeants": [
@@ -9599,9 +9608,9 @@
               }
             ],
             "personnages": [],
-            "sciences": "Le miracle de la survie logistique de la Tech et de la finance. Dénuée d'eau douce, Singapour met en œuvre une politique d'ingénierie stricte de recyclage hydrique ('NEWater') rendant les égouts potables. Son industrie a littéralement poldérisé l'île (sable gagné sur l'océan), érigeant un système d'algorithmes et de grues géantes pilotant le premier grand port logistique de fret conteneurisé mondial en temps réel (le Port de Singapour, PSA).",
-            "croyancesText": "Société multiconfessionnelle (Bouddhistes, Musulmans, Hindous et Chrétiens) dominée historiquement par l'ethnie migratoire chinoise Hakka et Hokkien. La doctrine fondatrice n'est pas religieuse mais autoritaire et morale : le confucianisme asiatique de la discipline, de l'harmonie raciale et du travail acharné. Les sanctions judiciaires et corporelles (coups de fouet en rotin) y sont rigoureusement appliquées (tolérance zéro de l'État).",
-            "diplomatie": "C'est la Suisse d'Asie. Pour assurer la survie de cette minuscule île très riche (1ère place de banques et de puces électroniques) coincée entre des géants malais et indonésiens plus pauvres, le pays base sa sécurité sur d'excellentes forces armées (Air Force), le libre-échange capitaliste global, et une coopération diplomatique fine sans aucun positionnement sur les droits de l'homme internes de ses partenaires.",
+            "sciences": "Le miracle de la survie logistique de la Tech et de la finance. Dénuée d'eau douce, Singapour met en œuvre une politique d'ingénierie stricte de recyclage hydrique ('NEWater') rendant les égouts potables. Son industrie a littéralement poldérisé l'île (sable gagné sur l'océan), érigeant un système d'algorithmes et de grues géantes pilotant l'un des plus grands ports à conteneurs du monde (le 2e, derrière Shanghai).",
+            "croyancesText": "Société multiconfessionnelle (Bouddhistes, Musulmans, Hindous et Chrétiens) où la population d'origine chinoise est majoritaire (surtout des Hokkien, avec des minorités comme les Hakka). La doctrine fondatrice n'est pas religieuse mais autoritaire et morale : le confucianisme asiatique de la discipline, de l'harmonie raciale et du travail acharné. Les sanctions judiciaires et corporelles (coups de fouet en rotin) y sont rigoureusement appliquées (tolérance zéro de l'État).",
+            "diplomatie": "C'est la Suisse d'Asie. Pour assurer la survie de cette minuscule île très riche, coincée entre des géants malais et indonésiens plus pauvres, le pays base sa sécurité sur d'excellentes forces armées (Air Force), le libre-échange capitaliste global, et une coopération diplomatique fine sans aucun positionnement sur les droits de l'homme internes de ses partenaires.",
             "guerres": [
               {
                 "nom": "L'Occupation Japonaise",
@@ -9613,7 +9622,7 @@
                   "Empire Britannique",
                   "Milices chinoises malaises"
                 ],
-                "morts": "Massacre (Sook Ching) de 50 000 civils chinois",
+                "morts": "Massacre (Sook Ching) de 25 000 à 50 000 civils chinois selon les estimations",
                 "vainqueur": "Japon (temporairement)",
                 "consequences": "Les troupes impériales de Yamashita soumettent les généraux britanniques stupéfaits. Le traumatisme des persécutions montre aux peuples de la région que les colons blancs ne sont pas invincibles.",
                 "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Singapour"
@@ -9643,7 +9652,7 @@
             "color": "#7b1fa2",
             "isRiver": false,
             "capitale": "Addis-Abeba",
-            "description": "La grande fierté noire. Seul grand royaume d'Afrique, encerclé par les colonies, ayant militairement défait une armée moderne européenne pour maintenir son indépendance trimillénaire.",
+            "description": "La grande fierté noire. Avec le Libéria, le seul État d'Afrique resté indépendant face à la colonisation, ayant militairement défait une armée européenne moderne pour maintenir une indépendance vieille de trois millénaires selon la tradition.",
             "datesCles": [
               {
                 "annee": 1896,
@@ -9658,24 +9667,24 @@
               {
                 "annee": 1974,
                 "evenement": "Fin de la dynastie de Salomon",
-                "info": "Une junte militaire communiste (le Derg) renverse le divin et dernier Empereur Haïlé Sélassié."
+                "info": "Une junte militaire (le Derg), qui se proclame ensuite marxiste-léniniste, renverse le dernier empereur, Haïlé Sélassié."
               },
               {
                 "annee": 1991,
-                "evenement": "République Fédérale",
-                "info": "Chute de la dictature du Derg."
+                "evenement": "Chute du Derg",
+                "info": "Chute de la dictature du Derg. La République fédérale est instaurée par la Constitution de 1995."
               }
             ],
             "dirigeants": [
               {
-                "titre": "Négus (Roi des rois)",
+                "titre": "Negusa Nagast (roi des rois)",
                 "nom": "Ménélik II",
                 "surnom": "",
                 "debut": 1889,
                 "fin": 1913
               },
               {
-                "titre": "Négus",
+                "titre": "Empereur",
                 "nom": "Haïlé Sélassié",
                 "surnom": "Le Lion conquérant",
                 "debut": 1930,
@@ -9701,11 +9710,11 @@
                   "Royaume d'Italie"
                 ],
                 "allies": [
-                  "Artillerie moderne (achats)"
+                  "Armées de Ménélik II, impératrice Taytu"
                 ],
-                "morts": "7000 soldats italiens massacrés",
+                "morts": "Plusieurs milliers de morts côté italien, dont des askaris érythréens",
                 "vainqueur": "Éthiopie",
-                "consequences": "Honte géopolitique pour l'Italie, forçant le pape et l'Europe à signer un traité de paix et à reconnaître le pays comme une véritable Nation.",
+                "consequences": "Défaite humiliante pour l'Italie, qui signe avec l'Éthiopie le traité d'Addis-Abeba (octobre 1896) reconnaissant son indépendance.",
                 "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_d'Adoua"
               }
             ],
@@ -9752,17 +9761,17 @@
             "color": "#b22222",
             "isRiver": false,
             "capitale": "Abomey",
-            "description": "Une redoutable puissance militaire d'Afrique de l'Ouest du golfe de Guinée, au Palais et rites fascinants, dirigée par la seule armée de femmes régulières recensée dans l'histoire mondiale.",
+            "description": "Une redoutable puissance militaire d'Afrique de l'Ouest du golfe de Guinée, au Palais et rites fascinants, célèbre pour son corps de guerrières, les « Amazones ».",
             "datesCles": [
               {
                 "annee": 1818,
-                "evenement": "Libération du joug d'Oyo",
-                "info": "L'État se renforce financièrement et refuse de payer le tribut de soumission (d'esclaves) aux Yorubas d'Oyo."
+                "evenement": "Avènement de Ghézo",
+                "info": "Ghézo devient roi. Vers 1823, le Dahomey cesse de payer le tribut dû à l'empire yoruba d'Oyo."
               },
               {
                 "annee": 1892,
                 "evenement": "Les guerres coloniales",
-                "info": "Refus du Roi de plier le genou : les troupes de marine françaises du Général Dodds marchent vers la capitale."
+                "info": "Refus du Roi de plier le genou : les troupes de marine françaises du colonel Dodds marchent vers la capitale."
               }
             ],
             "dirigeants": [
@@ -9790,7 +9799,7 @@
                 "wikiUrl": "https://fr.wikipedia.org/wiki/Amazones_du_Dahomey"
               }
             ],
-            "sciences": "Société agricole structurée pour la discipline et le prélèvement strict d'impôts par les hauts dignitaires pour l'effort de guerre. Quand l'Europe abolit la traite négrière, le roi Ghézo restructure magistralement l'économie du pays en forçant les prisonniers de guerre à planter massivement la palmeraie : le 'Commerce légitime' de l'huile de palme vendu à l'Europe industrielle pour lubrifier les usines et faire du savon remplacera la traite.",
+            "sciences": "Société agricole structurée pour la discipline et le prélèvement strict d'impôts par les hauts dignitaires pour l'effort de guerre. Quand l'Europe abolit la traite négrière, le roi Ghézo développe, en employant des captifs, les plantations de palmiers : le 'commerce légitime' de l'huile de palme, vendue à l'Europe industrielle pour lubrifier les machines et faire du savon, se développe à côté de la traite, qui continue jusqu'aux années 1860.",
             "croyancesText": "Religion panthéoniste polythéiste (Le culte Vaudou / Vodun) d'une extrême richesse où les rois morts veillent sur la terre. L'effroi européen provint des 'Coutumes annuelles', où le roi en grande cérémonie ordonnait l'immolation et la décapitation de dizaines (parfois centaines à la mort d'un monarque) de prisonniers de guerre et de criminels sur une plateforme devant les ambassadeurs de la côte pour les envoyer comme serviteurs royaux dans l'Au-delà.",
             "diplomatie": "C'est l'archétype cruel des états prédateurs militaires et de l'encerclement. Il est haï par les petits royaumes pacifiques voisins car les guerres 'annuelles' systématiques de Dahomey servent à capturer et revendre d'innombrables esclaves aux ports européens de Ouidah, pour acheter la poudre et l'artillerie anglaise et portugaise permettant leur souveraineté brutale de s'accroître.",
             "guerres": [
@@ -9798,14 +9807,14 @@
                 "nom": "Seconde Guerre du Dahomey",
                 "annee": 1892,
                 "adversaires": [
-                  "Troupes coloniales françaises (A. Dodds)"
+                  "Troupes coloniales françaises (colonel A. Dodds)"
                 ],
                 "allies": [
                   "Troupes et canonnières de marine"
                 ],
                 "morts": "Pertes totales de l'armée des Amazones au corps à corps",
                 "vainqueur": "France",
-                "consequences": "Les baïonnettes et obus français éventrent l'infanterie des Amazones armées de winchesters. Béhanzin incendie lui-même ses magnifiques palais d'Abomey et s'enfuit. Déporté à la Martinique, son pays est colonisé.",
+                "consequences": "Les baïonnettes et obus français éventrent l'infanterie des Amazones armées de winchesters. Béhanzin incendie lui-même ses palais d'Abomey et s'enfuit. Il se rend en 1894, est exilé en Martinique puis en Algérie, où il meurt en 1906 ; son pays est colonisé.",
                 "wikiUrl": "https://fr.wikipedia.org/wiki/Seconde_guerre_du_Dahomey"
               }
             ],
@@ -9821,13 +9830,13 @@
             "trackId": "afrique_australe",
             "row": 3,
             "label": "Afrique du Sud",
-            "period": "1806 à 2020",
+            "period": "1789 à 2020",
             "start": 1789,
             "end": 2020,
             "color": "#ffc107",
             "isRiver": false,
             "capitale": "Pretoria / Le Cap",
-            "description": "De la colonisation impitoyable de l'Empire britannique à l'instauration de l'Apartheid de la minorité blanche, transcendé par l'avènement pacificateur de la Nation Arc-en-ciel.",
+            "description": "De la colonisation, commencée par les Néerlandais (Compagnie des Indes orientales, 1652) puis poursuivie par l'Empire britannique, à l'instauration de l'Apartheid de la minorité blanche, transcendé par l'avènement pacificateur de la Nation Arc-en-ciel.",
             "datesCles": [
               {
                 "annee": 1886,
@@ -9837,7 +9846,7 @@
               {
                 "annee": 1899,
                 "evenement": "Guerre des Boers",
-                "info": "L'Empire britannique vainc les républiques Boers et y déploie les tout premiers camps de concentration pour civils."
+                "info": "L'Empire britannique vainc les républiques Boers et y déploie des camps de concentration pour civils, parmi les premiers de l'histoire (après ceux de Cuba en 1896)."
               },
               {
                 "annee": 1948,
@@ -9875,22 +9884,22 @@
                 "wikiUrl": "https://fr.wikipedia.org/wiki/Frederik_de_Klerk"
               }
             ],
-            "sciences": "Le territoire est une mine d'extraction titanesque mondiale des richesses minières lourdes (Or de Johannesburg et des diamants de Kimberley par la firme De Beers). Cette industrialisation extractive faramineuse s'est construite sur le sang de l'exploitation systématique des populations noires bantoues parquées et encartées ('les pass') dans des 'Bantoustans'. C'est en Afrique du Sud que le premier cœur humain fut chirurgicalement transplanté (Christian Barnard, 1967).",
-            "croyancesText": "L'Apartheid n'est pas qu'un système politique. Les dirigeants Boers (d'origine calviniste hollandaise très fondamentaliste de l'Église réformée hollandaise) s'identifiaient à un Peuple Élu de la Bible (le Grand Trek) justifiant religieusement et moralement la ségrégation des races comme ordre divin protecteur de la civilisation blanche face à l'Océan africain. En retour, les Églises noires et la philosophie ubuntu de la réconciliation (M. Tutu) briseront cette haine.",
+            "sciences": "Le territoire est une mine d'extraction titanesque mondiale des richesses minières lourdes (Or de Johannesburg et des diamants de Kimberley par la firme De Beers). Cette industrialisation extractive faramineuse s'est construite sur le sang de l'exploitation systématique des populations noires bantoues parquées et encartées ('les pass') dans des 'Bantoustans'. C'est en Afrique du Sud que le premier cœur humain fut chirurgicalement transplanté (Christiaan Barnard, 1967).",
+            "croyancesText": "L'Apartheid n'est pas qu'un système politique. Les dirigeants Boers (d'origine calviniste hollandaise très fondamentaliste de l'Église réformée hollandaise) s'identifiaient à un Peuple Élu de la Bible (le Grand Trek) justifiant religieusement et moralement la ségrégation des races comme ordre divin protecteur de la civilisation blanche face à l'Océan africain. En retour, les Églises noires et la philosophie ubuntu de la réconciliation (Desmond Tutu) briseront cette haine.",
             "diplomatie": "Sous l'apartheid et la Guerre Froide, Pretoria (farouchement anticommuniste) possédait son propre armement atomique (qu'elle démantela plus tard en 1989) pour intimider les insurrections d'Angola et les pays de la ligne de front (soutenus par Fidel Castro au nom de l'URSS). Isolé et boycotté sportivement et financièrement par le monde entier, le gouvernement finira par céder aux pressions économiques des banques étrangères et internes (ANC).",
             "guerres": [
               {
                 "nom": "Guerre Anglo-Zouloue",
                 "annee": 1879,
                 "adversaires": [
-                  "Empire Britannique"
+                  "Royaume zoulou"
                 ],
                 "allies": [
-                  "Contingents coloniaux"
+                  "Empire britannique et contingents coloniaux"
                 ],
-                "morts": "Victoire de choc initiale, puis l'Empire",
+                "morts": "Plus de 10 000 morts au total, en majorité zoulous (estimations)",
                 "vainqueur": "Empire Britannique",
-                "consequences": "Malgré l'humiliation sanglante initiale d'Isandhlwana par les formidables lances zouloues (sagaies Assegai), l'artillerie anglaise exécute méthodiquement les Zoulous et anéantit leur souveraineté.",
+                "consequences": "Malgré la victoire zouloue d'Isandhlwana au début de la guerre, l'armée britannique, mieux armée (fusils, artillerie), écrase les Zoulous à Ulundi et met fin à l'indépendance du royaume zoulou.",
                 "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_anglo-zouloue"
               }
             ],

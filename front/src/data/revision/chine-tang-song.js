@@ -1,0 +1,173 @@
+/** Chapitre rédigé : Chine des Tang et des Song (618 – 1279). */
+export default {
+  readingTime: 5,
+  cards: [
+    // ── Niveau 1 ──
+    {
+      id: 'tang',
+      tier: 1,
+      type: 'text',
+      kicker: 'Création',
+      title: 'Les Tang réunifient la Chine',
+      body:
+        "En 618, le général Li Yuan renverse la courte dynastie Sui et fonde la dynastie Tang. Son fils Taizong (626 – 649) en fait un empire puissant, qui contrôle une partie de l'Asie centrale et des routes de la soie.",
+      highlight: { value: '618', label: 'fondation de la dynastie Tang' },
+    },
+    {
+      id: 'changan',
+      tier: 1,
+      type: 'keyfigure',
+      kicker: 'Apogée',
+      value: '≈ 1 million',
+      label: "d'habitants à Chang'an, capitale des Tang",
+      caption: "Chang'an (l'actuelle Xi'an) est sans doute la plus grande ville du monde au VIIIe siècle. Marchands perses, sogdiens ou arabes s'y croisent avec des moines bouddhistes.",
+    },
+    {
+      id: 'carte',
+      tier: 1,
+      type: 'map',
+      kicker: 'Territoire',
+      title: 'Des Tang aux Song',
+      years: [700, 1000, 1200],
+      caption: "Comparez : un vaste empire tourné vers l'Asie centrale sous les Tang, puis une Chine des Song plus réduite, repoussée vers le sud après 1127.",
+    },
+    {
+      id: 'wu',
+      tier: 1,
+      type: 'person',
+      nom: 'Wu Zetian',
+      role: 'Impératrice',
+      dates: 'règne 690 – 705',
+      description: "Ancienne concubine devenue impératrice, elle gouverne d'abord à la place de son mari puis de ses fils. En 690, elle prend elle-même le titre d'empereur : c'est la seule femme de l'histoire chinoise à avoir régné en son propre nom.",
+    },
+    {
+      id: 'an-lushan',
+      tier: 1,
+      type: 'war',
+      nom: "Révolte d'An Lushan",
+      annee: 755,
+      adversaires: ["Le général rebelle An Lushan et ses successeurs"],
+      allies: ['Dynastie Tang', 'Cavaliers ouïghours'],
+      vainqueur: 'Les Tang, mais très affaiblis',
+      consequences: "Huit ans de guerre (755 – 763) ravagent le nord de la Chine et font des millions de victimes. Les Tang perdent l'Asie centrale et ne retrouvent jamais leur puissance ; la dynastie disparaît en 907.",
+    },
+    {
+      id: 'song',
+      tier: 1,
+      type: 'text',
+      kicker: 'Pouvoir',
+      title: 'Les Song, un empire de lettrés',
+      body:
+        "En 960, le général Zhao Kuangyin, devenu l'empereur Taizu, fonde la dynastie Song, avec pour capitale Kaifeng. Les Song confient l'administration à des fonctionnaires lettrés, recrutés par des examens très difficiles sur les textes de Confucius.",
+      highlight: { value: '960', label: 'fondation de la dynastie Song' },
+    },
+    {
+      id: 'inventions',
+      tier: 1,
+      type: 'text',
+      kicker: 'Découvertes',
+      title: 'Des inventions qui changent le monde',
+      body:
+        "Sous les Tang et les Song, les Chinois mettent au point l'imprimerie, la poudre à canon, la boussole utilisée pour naviguer et la monnaie de papier. Ces inventions n'arriveront en Europe que bien plus tard.",
+    },
+    {
+      id: 'chronologie',
+      tier: 1,
+      type: 'dates',
+      kicker: 'Durée',
+      title: 'Deux dynasties, six siècles',
+      items: [
+        { year: 618, label: 'Fondation des Tang' },
+        { year: 907, label: 'Fin des Tang, période de division' },
+        { year: 960, label: 'Fondation des Song' },
+        { year: 1127, label: 'Les Jurchen prennent Kaifeng : les Song se replient au sud' },
+        { year: 1279, label: 'Les Mongols de Kubilai Khan achèvent la conquête' },
+      ],
+    },
+    {
+      id: 'fin',
+      tier: 1,
+      type: 'text',
+      kicker: 'Fin',
+      title: 'La conquête mongole',
+      body:
+        "Les Song du Sud, installés à Hangzhou, résistent pendant des décennies aux Mongols. En 1279, leur dernière flotte est détruite à la bataille de Yamen. Kubilai Khan, petit-fils de Gengis Khan, règne sur toute la Chine sous le nom de dynastie Yuan.",
+      highlight: { value: '1279', label: 'bataille de Yamen, fin des Song' },
+    },
+
+    // ── Niveau 2 ──
+    {
+      id: 'li-bai',
+      tier: 2,
+      type: 'person',
+      nom: 'Li Bai',
+      role: 'Poète',
+      dates: '701 – 762',
+      description: "Le plus célèbre poète chinois chante la nature, la lune, l'amitié et le vin. Avec son ami Du Fu, il incarne l'âge d'or de la poésie Tang ; ses poèmes sont encore appris par cœur par les écoliers chinois.",
+    },
+    {
+      id: 'bouddhisme',
+      tier: 2,
+      type: 'text',
+      kicker: 'Croyances',
+      title: 'Le bouddhisme à son sommet',
+      body:
+        "Venu d'Inde, le bouddhisme s'épanouit sous les Tang. Le moine Xuanzang voyage en Inde de 629 à 645 et en rapporte des centaines de textes sacrés. En 845, l'empereur fait pourtant fermer des milliers de monastères. Sous les Song, le néo-confucianisme devient la pensée officielle.",
+    },
+    {
+      id: 'sutra',
+      tier: 2,
+      type: 'keyfigure',
+      kicker: 'Connaissance',
+      value: '868',
+      label: 'date du plus ancien livre imprimé daté connu',
+      caption: "Le Sutra du Diamant, retrouvé dans les grottes de Dunhuang, est imprimé avec des planches de bois gravées. Vers 1040, l'artisan Bi Sheng invente les caractères mobiles en terre cuite.",
+    },
+    {
+      id: 'economie',
+      tier: 2,
+      type: 'text',
+      kicker: 'Société',
+      title: 'Villes, marchands et papier-monnaie',
+      body:
+        "Sous les Song, la population dépasse 100 millions d'habitants. Les villes s'animent jour et nuit, le commerce maritime s'étend jusqu'à l'océan Indien. Au XIe siècle, l'État émet les premiers billets de banque officiels pour remplacer les lourdes pièces de cuivre.",
+    },
+    {
+      id: 'porcelaine',
+      tier: 2,
+      type: 'text',
+      kicker: 'Culture',
+      title: 'Porcelaine, thé et peinture',
+      body:
+        "Les artisans Song produisent des céramiques et des porcelaines très raffinées, exportées jusqu'en Afrique. Le thé devient la boisson de toute la société, et les peintres créent de grands paysages de montagnes et de brumes.",
+    },
+  ],
+
+  quiz: [
+    { id: 'fondation', type: 'mcq', prompt: 'En quelle année la dynastie Tang est-elle fondée ?', options: ['618', '960', '1279', '221 av. J.-C.'], answer: 0 },
+    { id: 'capitale-tang', type: 'mcq', prompt: 'Quelle est la capitale des Tang ?', options: ["Chang'an", 'Pékin', 'Nankin', 'Shanghai'], answer: 0 },
+    { id: 'changan', type: 'tf', prompt: "Chang'an compte environ un million d'habitants au VIIIe siècle.", answer: true },
+    { id: 'taizong', type: 'mcq', prompt: 'Quel empereur Tang règne de 626 à 649 ?', options: ['Taizong', 'Kubilai Khan', 'Qin Shi Huang', 'Taizu'], answer: 0 },
+    { id: 'wu', type: 'mcq', prompt: 'Qui est la seule femme à avoir régné sur la Chine en son propre nom ?', options: ['Wu Zetian', 'Cixi', 'Yang Guifei', 'Mulan'], answer: 0 },
+    { id: 'an-lushan', type: 'mcq', prompt: 'Quelle révolte affaiblit durablement les Tang à partir de 755 ?', options: ["La révolte d'An Lushan", 'La révolte des Boxers', 'La révolte des Taiping', 'La révolte des Turbans jaunes'], answer: 0 },
+    { id: 'li-bai', type: 'mcq', prompt: 'Qui est Li Bai ?', options: ['Un célèbre poète Tang', 'Un empereur Song', 'Un général rebelle', 'Un moine voyageur'], answer: 0 },
+    { id: 'xuanzang', type: 'mcq', prompt: "Dans quel pays le moine Xuanzang va-t-il chercher des textes bouddhiques ?", options: ["L'Inde", 'Le Japon', 'La Perse', 'La Corée'], answer: 0 },
+    { id: 'song', type: 'mcq', prompt: 'En quelle année la dynastie Song est-elle fondée ?', options: ['960', '618', '907', '1127'], answer: 0 },
+    { id: 'examens', type: 'mcq', prompt: 'Comment les Song recrutent-ils leurs fonctionnaires ?', options: ['Par des examens sur les textes confucéens', 'Par tirage au sort', 'Uniquement parmi les généraux', "Par l'achat des charges"], answer: 0 },
+    { id: 'sutra', type: 'mcq', prompt: 'Quel est le plus ancien livre imprimé daté connu (868) ?', options: ['Le Sutra du Diamant', 'La Bible de Gutenberg', 'Le Coran', 'Les Entretiens de Confucius'], answer: 0 },
+    { id: 'bi-sheng', type: 'mcq', prompt: 'Qu’invente Bi Sheng vers 1040 ?', options: ['Les caractères mobiles', 'La boussole', 'La poudre', 'Le papier'], answer: 0 },
+    { id: 'inventions', type: 'tf', prompt: 'La poudre à canon et la boussole sont connues en Chine avant l’Europe.', answer: true },
+    { id: 'monnaie', type: 'tf', prompt: 'Sous les Song, la monnaie est uniquement faite de pièces d’or.', answer: false, explanation: "On utilise des pièces de cuivre, et l'État émet aussi des billets de papier dès le XIe siècle." },
+    { id: 'jurchen', type: 'mcq', prompt: 'Quel peuple prend Kaifeng en 1127 ?', options: ['Les Jurchen', 'Les Japonais', 'Les Arabes', 'Les Tibétains'], answer: 0 },
+    { id: 'hangzhou', type: 'mcq', prompt: 'Quelle ville devient la capitale des Song du Sud ?', options: ['Hangzhou', "Chang'an", 'Kaifeng', 'Canton'], answer: 0 },
+    { id: 'kubilai', type: 'mcq', prompt: 'Quel souverain mongol achève la conquête de la Chine en 1279 ?', options: ['Kubilai Khan', 'Gengis Khan', 'Tamerlan', 'Attila'], answer: 0 },
+    { id: 'ordre', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Fondation des Tang', "Révolte d'An Lushan", 'Fondation des Song', 'Bataille de Yamen'] },
+  ],
+
+  recap: [
+    '618 : les Tang fondent un empire ouvert sur les routes de la soie',
+    "755 : la révolte d'An Lushan brise la puissance des Tang",
+    '960 : les Song, empire de lettrés, de marchands et d’inventeurs',
+    '1279 : Kubilai Khan achève la conquête mongole',
+  ],
+}

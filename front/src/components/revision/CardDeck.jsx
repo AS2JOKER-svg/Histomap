@@ -3,6 +3,7 @@ import { AnimatePresence, motion, useMotionValue, useTransform } from 'framer-mo
 import { haptic } from '../../lib/haptics'
 import Icon from '../ui/Icon'
 import RevisionCard from './RevisionCard'
+import { solidBg } from '../../lib/color'
 
 const SWIPE = 110 // px à parcourir pour valider un glissement
 
@@ -105,7 +106,7 @@ export default function CardDeck({ cards, pos, civ, epoch, round, onAnswer, onBa
             type="button"
             onClick={() => answer('ok')}
             className="flex items-center gap-2 h-14 px-7 rounded-full text-white font-semibold shadow-lift transition active:scale-95 hover:brightness-110"
-            style={{ background: civ.color }}
+            style={{ background: solidBg(civ.color) }}
           >
             {kind === 'cover' ? 'Commencer' : 'Terminer le chapitre'}
             <Icon name={kind === 'cover' ? 'arrowRight' : 'check'} size={20} strokeWidth={2.4} />

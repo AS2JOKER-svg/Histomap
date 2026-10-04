@@ -89,7 +89,7 @@ export default [
             croyancesText: "Le panthéon est un syncrétisme fascinant entre les divinités traditionnelles égyptiennes (Amon) et les dieux strictement nubiens, comme Apédémak (le dieu-lion guerrier) et Arensnuphis. Ils relancent la construction de pyramides (plus de 200 à Méroé), plus petites et plus pointues que celles d'Égypte, abritant les nécropoles royales.",
             diplomatie: "Leur force militaire repose sur l'archerie (l'Égypte appelait la Nubie 'Ta-Seti', le Pays de l'Arc). Après la domination assyrienne, ils entretiennent une relation commerciale prudente avec l'Égypte ptolémaïque puis romaine. La reine (Candace) Amanirenas a même mené une guerre féroce contre les légions romaines d'Auguste, forçant Rome à signer un traité de paix reconnaissant les frontières de Koush.",
             guerres: [
-              { nom: "Guerre Méroïtico-Romaine", annee: -24, adversaires: ["Empire Romain (Préfecture d'Égypte)"], allies: ["Tribus Blemmyes"], morts: "Milliers de légionnaires et nubiens", vainqueur: "Statu Quo (Traité de Samos)", consequences: "Rome abandonne son projet de conquête de la Nubie et annule les tributs imposés.", wikiUrl: "https://fr.wikipedia.org/wiki/Amanirenas" }
+              { nom: "Guerre Méroïtico-Romaine", annee: -24, adversaires: ["Empire Romain (Préfecture d'Égypte)"], allies: [], morts: "Milliers de légionnaires et nubiens", vainqueur: "Statu Quo (Traité de Samos)", consequences: "Rome abandonne son projet de conquête de la Nubie et annule les tributs imposés.", wikiUrl: "https://fr.wikipedia.org/wiki/Amanirenas" }
             ],
             documentaires: [{ titre: "L'histoire oubliée des Pharaons Noirs", url: "https://fr.wikipedia.org/wiki/Royaume_de_Koush" }]
           },
@@ -101,21 +101,21 @@ export default [
             color: "#7b1fa2", isRiver: false, capitale: "Aksoum",
             description: "Puissance commerciale majeure de la mer Rouge et l'un des premiers empires au monde à adopter officiellement le christianisme.",
             datesCles: [
-              { annee: 270, evenement: "Frappe de monnaie", info: "Aksoum devient le premier État africain (hors Égypte) à émettre sa propre monnaie d'or." },
-              { annee: 330, evenement: "Conversion au Christianisme", info: "Le roi Ézana fait du christianisme la religion d'État, scellant une alliance avec Byzance." },
-              { annee: 350, evenement: "Destruction de Méroé", info: "Les armées d'Aksoum écrasent définitivement le royaume de Koush (Nubie)." }
+              { annee: 270, evenement: "Frappe de monnaie", info: "Aksoum devient l'un des rares royaumes de l'époque à frapper sa propre monnaie d'or." },
+              { annee: 330, evenement: "Conversion au Christianisme", info: "Le roi Ézana fait du christianisme la religion d'État, ce qui le rapproche de l'Empire romain." },
+              { annee: 350, evenement: "Expédition d'Ézana vers le Nil", info: "Le roi Ézana mène une expédition vers le Nil ; le royaume de Méroé (Koush), déjà affaibli, disparaît à cette époque." }
             ],
             dirigeants: [
               { titre: "Négus (Roi des Rois)", nom: "Ézana", surnom: "Le Converti", debut: 320, fin: 360 }
             ],
             personnages: [
-              { nom: "Frumence de Tyr", role: "Évêque d'Aksoum", description: "Philosophe syro-grec naufragé, devenu conseiller royal et initiateur de la christianisation du royaume.", dates: "≈ 300 - 383", wikiUrl: "https://fr.wikipedia.org/wiki/Frumence_d'Aksoum" }
+              { nom: "Frumence de Tyr", role: "Évêque d'Aksoum", description: "Philosophe syro-grec capturé lors d'une escale en mer Rouge, devenu conseiller royal et initiateur de la christianisation du royaume.", dates: "≈ 300 - 383", wikiUrl: "https://fr.wikipedia.org/wiki/Frumence_d'Aksoum" }
             ],
-            sciences: "Les Aksoumites sont des maîtres de l'ingénierie navale, naviguant avec les moussons jusqu'en Inde et à Ceylan. Architectes exceptionnels, ils bâtissent des stèles géantes monolithes pesant jusqu'à 500 tonnes, censées représenter des palais à plusieurs étages. Ils créent et utilisent l'alphabet guèze, le seul alphabet indigène africain encore utilisé aujourd'hui de manière continue (en Éthiopie).",
+            sciences: "Les Aksoumites sont des maîtres de l'ingénierie navale, naviguant avec les moussons jusqu'en Inde et à Ceylan. Architectes exceptionnels, ils bâtissent des stèles géantes monolithes pesant jusqu'à 500 tonnes, censées représenter des palais à plusieurs étages. Ils créent et utilisent l'écriture guèze, dérivée de l'écriture sud-arabique et toujours utilisée en Éthiopie et en Érythrée.",
             croyancesText: "D'abord polythéistes (vénérant Astar et le dieu de la guerre Mahrem, assimilé au dieu grec Arès), ils opèrent un basculement géopolitique radical vers 330. Le roi Ézana remplace le croissant et le disque solaire par la Croix sur ses monnaies. L'Église orthodoxe tewahedo qui en naît possède une liturgie unique, fortement imprégnée de judaïsme (revendiquant la possession de l'Arche d'Alliance).",
             diplomatie: "Considéré par le prophète persan Mani (au IIIe siècle) comme l'un des quatre plus grands empires du monde (avec Rome, la Perse et la Chine). Aksoum contrôle le détroit de Bab el-Mandeb, taxant tout le commerce d'ivoire, d'or, d'encens et d'esclaves entre l'Empire romain d'Orient, la Perse sassanide et l'Inde antique.",
             guerres: [
-              { nom: "Campagne de Nubie", annee: 350, adversaires: ["Royaume de Koush (Méroé)"], allies: [], morts: "Inconnu", vainqueur: "Royaume d'Aksoum", consequences: "Chute finale de la civilisation nubienne antique de Méroé, Aksoum absorbe son territoire.", wikiUrl: "https://fr.wikipedia.org/wiki/Royaume_d'Aksoum" }
+              { nom: "Campagne de Nubie", annee: 350, adversaires: ["Royaume de Koush (Méroé)"], allies: [], morts: "Inconnu", vainqueur: "Royaume d'Aksoum", consequences: "Le royaume de Méroé, déjà affaibli, disparaît à cette époque ; Aksoum affirme sa domination dans la région.", wikiUrl: "https://fr.wikipedia.org/wiki/Royaume_d'Aksoum" }
             ],
             documentaires: [{ titre: "Aksoum, la Rome africaine", url: "https://fr.wikipedia.org/wiki/Royaume_d'Aksoum" }]
           },
@@ -124,18 +124,18 @@ export default [
             trackId: "afrique_ouest", row: 5,
             label: "Civilisation Nok",
             period: "-1500 à 200", start: -1500, end: 200,
-            color: "#d35400", isRiver: false, capitale: "Plateau de Jos",
+            color: "#d35400", isRiver: false, capitale: "Aucune connue (centre du Nigeria)",
             description: "Société pionnière d'Afrique de l'Ouest, ayant maîtrisé la métallurgie du fer sans passer par l'âge du bronze, célèbre pour ses terres cuites saisissantes.",
             datesCles: [
               { annee: -1500, evenement: "Apparition de la culture", info: "Premières traces de sédentarisation agricole sur le plateau central du Nigeria." },
-              { annee: -1000, evenement: "Révolution de la forge", info: "Invention de la fonte du fer via des hauts fourneaux en argile." },
+              { annee: -500, evenement: "Travail du fer", info: "Vers le milieu du Ier millénaire av. J.-C., le travail du fer est attesté, dans des fourneaux en argile." },
               { annee: 200, evenement: "Disparition", info: "Déclin inexpliqué de la production artistique et fragmentation culturelle." }
             ],
             dirigeants: [],
             personnages: [],
             sciences: "Le mystère Nok réside dans sa métallurgie. Contrairement à l'Eurasie, l'Afrique subsaharienne n'a pas connu d'âge du cuivre et du bronze ; elle est passée directement de la pierre au fer. Les forgerons Nok ont inventé des fourneaux à tirage naturel capables d'atteindre 1200°C. Parallèlement, leur art de la céramique cuite est d'une sophistication anatomique troublante pour la période.",
-            croyancesText: "Bien que leurs cités aient été emportées par le temps, il nous reste leur impressionnante statuaire en terre cuite. Ces têtes et corps (souvent à l'échelle humaine), caractérisés par de grands yeux triangulaires ou en amande et des coiffures élaborées, étaient probablement des effigies d'ancêtres, de divinités animistes ou des figures de prestige utilisées lors de rites agraires ou funéraires.",
-            diplomatie: "Il semble s'agir d'une culture villageoise fortement décentralisée, fonctionnant par réseaux de chefferies, mais partageant un code esthétique et technologique unifié sur une zone vaste comme la France. Aucune structure défensive de guerre n'a été retrouvée.",
+            croyancesText: "Bien que leurs cités aient été emportées par le temps, il nous reste leur impressionnante statuaire en terre cuite. Ces têtes et corps (certaines têtes presque grandeur nature), caractérisés par de grands yeux triangulaires ou en amande et des coiffures élaborées, étaient probablement des effigies d'ancêtres, de divinités animistes ou des figures de prestige utilisées lors de rites agraires ou funéraires.",
+            diplomatie: "Il semble s'agir d'une culture villageoise fortement décentralisée, fonctionnant par réseaux de chefferies, mais partageant un code esthétique et technologique unifié sur une zone de plusieurs dizaines de milliers de km². Aucune structure défensive de guerre n'a été retrouvée.",
             guerres: [],
             documentaires: [{ titre: "L'art et la culture Nok", url: "https://fr.wikipedia.org/wiki/Civilisation_Nok" }]
           },
@@ -145,7 +145,7 @@ export default [
             label: "Royaume de Pount",
             period: "-2500 à -1000", start: -2500, end: -1000,
             color: "#dfb134", isRiver: false, capitale: "Inconnue",
-            description: "L'Eldorado de l'Antiquité, royaume mystérieux de la Corne de l'Afrique fournisseur exclusif de myrrhe et d'encens pour les temples égyptiens.",
+            description: "L'Eldorado de l'Antiquité, royaume mystérieux de la Corne de l'Afrique, grand fournisseur de myrrhe et d'encens pour les temples égyptiens.",
             datesCles: [
               { annee: -2480, evenement: "Première expédition égyptienne", info: "Le pharaon Sahourê envoie la première flotte documentée vers Pount." },
               { annee: -1473, evenement: "L'expédition d'Hatchepsout", info: "Mission monumentale immortalisée sur les murs du temple de Deir el-Bahari." }
@@ -154,7 +154,7 @@ export default [
               { titre: "Roi", nom: "Parahou", surnom: "", debut: -1480, fin: -1470 }
             ],
             personnages: [
-              { nom: "Reine Ati", role: "Souveraine de Pount", description: "Représentée sur les bas-reliefs égyptiens avec une morphologie très particulière (possible stéatopygie), elle accueille l'expédition égyptienne.", dates: "≈ -1473", wikiUrl: "https://fr.wikipedia.org/wiki/Pays_de_Pount" }
+              { nom: "Reine Ati", role: "Souveraine de Pount", description: "Représentée sur les bas-reliefs égyptiens avec une silhouette très particulière (certains y voient une possible stéatopygie, mais l'interprétation reste prudente), elle accueille l'expédition égyptienne.", dates: "≈ -1473", wikiUrl: "https://fr.wikipedia.org/wiki/Pays_de_Pount" }
             ],
             sciences: "Leur maîtrise de l'extraction, du bouturage et du conditionnement des résines aromatiques d'arbres endémiques (Boswellia pour l'encens, Commiphora pour la myrrhe) en faisait les maîtres d'une proto-industrie du luxe, indispensable à l'embaumement et aux liturgies du monde antique nord-africain.",
             croyancesText: "Pour les Égyptiens, Pount était 'Ta Nétjer', le Pays des Dieux. C'était la terre mythique d'où provenaient les dieux Hathor et Bès, et la patrie de la myrrhe, considérée comme les 'larmes des dieux'. Les rituels de Pount incluaient vraisemblablement un culte animiste axé sur l'abondance des ressources de la savane.",
@@ -177,7 +177,8 @@ export default [
             datesCles: [
               { annee: -1900, evenement: "Période des Premiers Palais", info: "Édification de Knossos et Phaistos en Crète (Civilisation Minoenne)." },
               { annee: -1600, evenement: "Émergence de Mycènes", info: "Sur le continent, essor d'une élite guerrière indo-européenne bâtissant des citadelles cyclopéennes." },
-              { annee: -1450, evenement: "Éruption de Théra (Santorin)", info: "Cataclysme volcanique qui affaiblit les Minoens, menant à leur conquête par les Mycéniens." },
+              { annee: -1600, evenement: "Éruption de Théra (Santorin)", info: "Au XVIIe ou au XVIe siècle av. J.-C. (date discutée), le volcan ensevelit la ville d'Akrotiri. Son rôle dans le déclin minoen est discuté." },
+              { annee: -1450, evenement: "Prise de Knossos", info: "Vers -1450, les Mycéniens s'installent en Crète et prennent le contrôle de Knossos." },
               { annee: -1200, evenement: "Guerre de Troie", info: "Les coalitions mycéniennes (Achéens) attaquent la cité de Troie (Anatolie)." },
               { annee: -1100, evenement: "Effondrement de l'Âge du Bronze", info: "Destruction de tous les palais mycéniens, oubli de l'écriture (Linéaire B)." }
             ],
@@ -242,7 +243,7 @@ export default [
             personnages: [],
             sciences: "Grands ingénieurs hydrauliques, ils enseignent à Rome le drainage des marais (la Cloaca Maxima, l'égout géant de Rome, est une œuvre étrusque) et l'utilisation de l'arc de pierre en architecture (véritable fondement des futurs aqueducs romains). Excellents métallurgistes, ils exploitent le fer de l'île d'Elbe pour armer leurs redoutables flottes de pirates et commerçants.",
             croyancesText: "C'est une religion de la divination obsessionnelle, l'Etrusca disciplina. Les haruspices lisent le destin de l'État dans les foies des animaux sacrifiés (hépatoscopie) ou dans la trajectoire des éclairs. Leur panthéon (Tinia, Uni, Menrva) sera intégralement 'copié-collé' par Rome (Jupiter, Junon, Minerve). Leurs vastes nécropoles monumentales, peintes de banquets joyeux, célèbrent le culte des ancêtres.",
-            diplomatie: "L'Étrurie n'est pas un empire centralisé mais une Dodécapole, une ligue religieuse de douze puissantes cités-États (Tarquinia, Cerveteri...). Leur division politique causera leur perte militaire. Ils scellent le traité de l'Alalia (-540) avec Carthage pour interdire aux Grecs de commercer en Méditerranée occidentale.",
+            diplomatie: "L'Étrurie n'est pas un empire centralisé mais une Dodécapole, une ligue religieuse de douze puissantes cités-États (Tarquinia, Cerveteri...). Leur division politique causera leur perte militaire. Alliés à Carthage, ils affrontent les Grecs phocéens lors de la bataille navale d'Alalia (vers -540), au large de la Corse : les Grecs l'emportent peut-être, mais au prix de telles pertes qu'ils abandonnent la Corse ; l'issue réelle reste incertaine.",
             guerres: [
               { nom: "Guerres romano-étrusques", annee: -396, adversaires: ["République Romaine"], allies: [], morts: "Inconnu", vainqueur: "Rome", consequences: "Annexion cité par cité par Rome, pillage des trésors étrusques et assimilation culturelle totale.", wikiUrl: "https://fr.wikipedia.org/wiki/%C3%89trusques" }
             ],
@@ -299,7 +300,7 @@ export default [
             personnages: [
               { nom: "Brennus", role: "Chef guerrier", description: "Général celte ayant humilié la jeune République romaine en pillant la ville, un traumatisme fondateur pour l'armée romaine.", dates: "≈ -390", wikiUrl: "https://fr.wikipedia.org/wiki/Brennus_(IVe_si%C3%A8cle_av._J.-C.)" }
             ],
-            sciences: "Les barbares gaulois de César sont une fiction politique. Les Celtes sont de brillants ingénieurs agricoles : ils inventent la moissonneuse gauloise (vallus), la cotte de mailles en fer, le fer à cheval, le savon et le tonneau en bois (cerclé de fer, remplaçant l'amphore argileuse). Leurs routes de commerce en charriot pavées de rondins parcourent toute l'Europe.",
+            sciences: "Les barbares gaulois de César sont une fiction politique. Les Celtes sont de brillants ingénieurs agricoles : ils inventent la moissonneuse gauloise (vallus), la cotte de mailles en fer et le tonneau en bois (cerclé de fer, remplaçant l'amphore argileuse). Leurs routes de commerce en charriot pavées de rondins parcourent toute l'Europe.",
             croyancesText: "L'autorité suprême appartient à la caste sacerdotale des Druides. Ils sont juges, médecins, gardiens de la mémoire (transmise uniquement à l'oral par interdiction religieuse d'écrire) et de la loi. Ils célèbrent la sacralité de la nature (forêts, sources), décapitent les vaincus pour en conserver la tête (siège de l'âme) et pratiquent des sacrifices (animaux et ponctuellement humains) au dieu Toutatis, Esus ou Taranis.",
             diplomatie: "Il n'y a pas 'un' empire gaulois, mais des dizaines de nations puissantes (Éduens, Arvernes, Carnutes). Leur incapacité à forger une union diplomatique durable est leur talon d'Achille. Les Éduens, rivaux des Arvernes, vont jusqu'à s'allier à Rome et appeler Jules César à l'aide, ouvrant sciemment les portes de la Gaule à la conquête romaine.",
             guerres: [
@@ -315,20 +316,20 @@ export default [
             color: "#a1887f", isRiver: false, capitale: "Seuthopolis",
             description: "Redoutables guerriers d'infanterie légère et immenses orfèvres des Balkans, dont les cultes à mystère ont façonné la spiritualité antique de la région.",
             datesCles: [
-              { annee: -460, evenement: "Royaume des Odryses", info: "Térès Ier unifie brièvement les tribus pour faire face à la menace perse." },
+              { annee: -460, evenement: "Royaume des Odryses", info: "Après le retrait perse de Thrace (après -479), Térès Ier fonde vers -470/-460 le royaume des Odryses en unifiant plusieurs tribus." },
               { annee: 46, evenement: "Annexion par Rome", info: "L'empereur romain Claude annexe définitivement la région." }
             ],
             dirigeants: [
               { titre: "Roi des Odryses", nom: "Seuthès III", surnom: "", debut: -331, fin: -300 }
             ],
             personnages: [
-              { nom: "Spartacus", role: "Gladiateur (ancien soldat thrace)", description: "Mène la révolte de la troisième guerre servile, infligeant de lourdes défaites aux armées consulaires romaines avant d'être écrasé par Crassus.", dates: "-111 à -71", wikiUrl: "https://fr.wikipedia.org/wiki/Spartacus" }
+              { nom: "Spartacus", role: "Gladiateur (ancien soldat thrace)", description: "Mène la révolte de la troisième guerre servile, infligeant de lourdes défaites aux armées consulaires romaines avant d'être écrasé par Crassus.", dates: "Naissance inconnue, mort en -71", wikiUrl: "https://fr.wikipedia.org/wiki/Spartacus" }
             ],
             sciences: "Leur art militaire est renommé. Ils inventent les 'peltastes', des fantassins très mobiles équipés d'un bouclier léger (la pelta) en osier, brisant les lourdes et rigides phalanges grecques par un harcèlement constant au javelot. L'orfèvrerie thrace (trésor de Panagyurichté), mêlant influences perses et grecques, témoigne d'une extrême sophistication technique.",
-            croyancesText: "Leur philosophie religieuse méprise la mort physique, perçue comme un simple passage vers une vie meilleure ou immortelle (le culte de Zalmoxis), ce qui explique leur redoutable témérité au combat. Ils sont les créateurs originels du culte de Dionysos et du mythe d'Orphée, qui furent ensuite adoptés et polis par la Grèce classique.",
+            croyancesText: "Leur philosophie religieuse méprise la mort physique, perçue comme un simple passage vers une vie meilleure ou immortelle (le culte de Zalmoxis), ce qui explique leur redoutable témérité au combat. Les Grecs prêtaient une origine thrace au culte de Dionysos (pourtant déjà attesté en Grèce mycénienne, en linéaire B) et au mythe d'Orphée.",
             diplomatie: "Peuples profondément divisés en tribus rivales, considérés par Hérodote comme 'le peuple le plus nombreux du monde après les Indiens, et invincible s'il s'unissait'. Ils se vendent massivement comme mercenaires de luxe aux Perses, aux cités grecques, puis aux rois hellénistiques (Macédoniens).",
             guerres: [
-              { nom: "Troisième Guerre Servile", annee: -73, adversaires: ["République Romaine (Crassus)"], allies: ["Esclaves gladiateurs et ruraux"], morts: "120 000 rebelles massacrés et 6000 crucifiés", vainqueur: "Rome", consequences: "L'armée de Spartacus (d'origine thrace) est détruite, Rome durcit la répression servile.", wikiUrl: "https://fr.wikipedia.org/wiki/Troisi%C3%A8me_Guerre_servile" }
+              { nom: "Troisième Guerre Servile", annee: -73, adversaires: ["République Romaine (Crassus)"], allies: ["Esclaves gladiateurs et ruraux"], morts: "Plusieurs dizaines de milliers de rebelles tués (chiffres antiques incertains), 6000 crucifiés", vainqueur: "Rome", consequences: "L'armée de Spartacus (d'origine thrace) est détruite, Rome durcit la répression servile.", wikiUrl: "https://fr.wikipedia.org/wiki/Troisi%C3%A8me_Guerre_servile" }
             ],
             documentaires: [{ titre: "L'or des Thraces", url: "https://fr.wikipedia.org/wiki/Thraces" }]
           },
@@ -347,11 +348,11 @@ export default [
               { titre: "Chef des Ilergètes", nom: "Indíbil", surnom: "", debut: -220, fin: -205 }
             ],
             personnages: [],
-            sciences: "Leur apport technique majeur au monde antique est la sidérurgie de l'acier (les mines d'Hispanie). Ils inventent la redoutable 'Falcata', une épée courte courbée asymétriquement capable de trancher les casques et les boucliers. L'arme est si efficace que l'armée romaine l'adopte et la standardise sous le nom de Gladius Hispaniensis (le glaive romain).",
+            sciences: "Leur apport technique majeur au monde antique est la sidérurgie de l'acier (les mines d'Hispanie). Ils inventent la redoutable 'Falcata', une épée courte courbée asymétriquement capable de trancher les casques et les boucliers. Le glaive romain (gladius hispaniensis) ne dérive pas de la falcata, mais d'épées droites celtibères adoptées par Rome.",
             croyancesText: "Culture fortement influencée par les Phéniciens et les Grecs installés sur leurs côtes. Ils pratiquent un art sculptural distinctif de figures féminines divines aux parures somptueuses (la Dame d'Elche, la Dame de Baza), associées à des cultes de fécondité, et incinèrent leurs morts héroïques en pliant ou détruisant volontairement leurs armes dans les tombes.",
-            diplomatie: "Les Ibères et les Celtibères ne se battent pas en rangs serrés, mais privilégient la guérilla (un terme né sur ces terres). Fortement tribaux, ils scellent des alliances (hospitium) par l'échange de tessères de bronze (jetons de pacte). Ils fournissent la majorité des troupes d'élite à l'armée carthaginoise d'Hannibal contre Rome.",
+            diplomatie: "Les Ibères et les Celtibères ne se battent pas en rangs serrés, mais privilégient les embuscades et le harcèlement. Fortement tribaux, ils scellent des alliances (hospitium) ; les Celtibères, surtout, échangent des tessères de bronze (jetons de pacte). Ils fournissent la majorité des troupes d'élite à l'armée carthaginoise d'Hannibal contre Rome.",
             guerres: [
-              { nom: "Guerres celtibères & numantines", annee: -154, adversaires: ["République Romaine"], allies: [], morts: "Destruction des élites ibères", vainqueur: "Rome (Scipion Émilien)", consequences: "Le siège de Numance et le suicide collectif de ses habitants marquent la fin de la résistance hispanique face à Rome.", wikiUrl: "https://fr.wikipedia.org/wiki/Guerre_de_Numance" }
+              { nom: "Guerres celtibères & numantines", annee: -154, adversaires: ["République Romaine"], allies: [], morts: "Destruction des élites celtibères", vainqueur: "Rome (Scipion Émilien)", consequences: "La chute de la cité celtibère de Numance (-133) brise la résistance celtibère, mais la conquête de toute l'Hispanie ne s'achève qu'avec les guerres cantabres (-19).", wikiUrl: "https://fr.wikipedia.org/wiki/Guerre_de_Numance" }
             ],
             documentaires: [{ titre: "L'Hispanie avant Rome", url: "https://fr.wikipedia.org/wiki/Ib%C3%A8res" }]
           },
@@ -361,16 +362,16 @@ export default [
             label: "Cavaliers Scythes",
             period: "-800 à -300", start: -800, end: -300,
             color: "#7d6608", isRiver: false, capitale: "Campements nomades",
-            description: "Insaisissables seigneurs des steppes eurasiatiques, inventeurs de la cavalerie légère tirant à l'arc, qui mirent à genoux l'armée de l'Empire Perse.",
+            description: "Insaisissables seigneurs des steppes eurasiatiques, parmi les premiers maîtres de la cavalerie légère tirant à l'arc, qui mirent à genoux l'armée de l'Empire Perse.",
             datesCles: [
               { annee: -513, evenement: "L'invasion de Darius", info: "Darius Ier (Perse) tente de les soumettre mais s'épuise dans les steppes." },
               { annee: -339, evenement: "Défaite face à Philippe II", info: "L'armée macédonienne (père d'Alexandre) bat le roi Ateas, amorçant le déclin scythe." }
             ],
             dirigeants: [
-              { titre: "Roi scythe", nom: "Ateas", surnom: "", debut: -429, fin: -339 }
+              { titre: "Roi scythe", nom: "Ateas", surnom: "Dates de vie approximatives (vers -429 à -339), règne mal connu", debut: -429, fin: -339 }
             ],
             personnages: [],
-            sciences: "Leur innovation technologique bouleverse l'histoire militaire : l'arc scythe (petit, asymétrique, composite de bois, corne et tendon) permet de tirer à très grande vitesse depuis le dos d'un cheval lancé au galop. Ils inventent également le pantalon, indispensable pour monter à cru, et les étriers primitifs.",
+            sciences: "Leur innovation technologique bouleverse l'histoire militaire : l'arc scythe (petit, symétrique, composite de bois, corne et tendon) permet de tirer à très grande vitesse depuis le dos d'un cheval lancé au galop. Ils sont aussi parmi les premiers à porter le pantalon, indispensable pour monter à cheval.",
             croyancesText: "Le chamanisme nomade règne. Ils scellent des serments de sang, consomment du cannabis sous des tentes pour entrer en transe purificatrice. La mort des élites (les Kourganes) est accompagnée de sacrifices colossaux d'hommes (serviteurs) et de centaines de chevaux, enterrés sous de gigantesques tumulus de terre avec des parures en or d'art animalier.",
             diplomatie: "Ce peuple ne possède ni villes, ni temples de pierre, ni champs cultivés, ce qui les rend invincibles. Leur tactique stratégique est la 'terre brûlée' : face à une armée impériale lourde (comme les Perses), ils reculent à l'infini dans les steppes, empoisonnent les puits et harcèlent l'ennemi de nuit jusqu'à la mutinerie des troupes adverses.",
             guerres: [
@@ -393,7 +394,7 @@ export default [
               { titre: "Reine (Régente)", nom: "Teuta", surnom: "La Reine des pirates", debut: -231, fin: -227 }
             ],
             personnages: [],
-            sciences: "Excellents constructeurs navals, ils inventent la Lembos : une galère légère, asymétrique, sans pont, hyper-rapide et maniable. Les Romains l'étudieront et la copieront pour créer les navires légers de la flotte impériale (les liburnes). Ils exploitent massivement l'argent de Damastion pour frapper monnaie.",
+            sciences: "Excellents constructeurs navals, ils conçoivent le lembos : une galère légère, rapide et maniable, adoptée ensuite par les Macédoniens. Les liburnes, navires légers de la flotte romaine, tiennent leur nom des Liburnes, un peuple illyrien de marins. Ils exploitent massivement l'argent de Damastion pour frapper monnaie.",
             croyancesText: "Leur religion balkanique reste assez obscure faute d'écrits, mais est fortement marquée par le culte chtonien du serpent, protecteur du foyer domestique et symbole de la terre. Ils vénéraient Medaurus, un dieu monté à cheval armé d'une lance, divinité de la guerre protectrice des citadelles de montagne.",
             diplomatie: "Leur économie politique est basée sur le mercenariat d'élite (gardiens des rois macédoniens) et une piraterie d'État institutionnalisée. L'assassinat d'un ambassadeur romain par la reine Teuta, venue se plaindre des attaques sur les marchands italiens, provoque la toute première traversée de la mer Adriatique par les légions romaines.",
             guerres: [
@@ -477,7 +478,7 @@ export default [
               { titre: "Grand Roi", nom: "Muwatalli II", surnom: "", debut: -1295, fin: -1272 }
             ],
             personnages: [],
-            sciences: "Leur puissance s'appuie sur le monopole initial (jalousement gardé) du travail et de la trempe du fer, produisant des armes plus solides et moins cassantes que le bronze égyptien. Ils révolutionnent la charrerie militaire en construisant des chars à trois places (un conducteur, un lancier, un porte-bouclier), offrant une force de frappe écrasante sur le champ de bataille.",
+            sciences: "Les Hittites savent travailler le fer, mais ce métal reste rare et précieux (offert en cadeau diplomatique) : leur armée combat surtout avec des armes en bronze. Ils révolutionnent la charrerie militaire en construisant des chars à trois places (un conducteur, un lancier, un porte-bouclier), offrant une force de frappe écrasante sur le champ de bataille.",
             croyancesText: "L'État hittite pratique un syncrétisme de 'Le panthéon des Mille Dieux'. Lorsqu'ils conquièrent un peuple, ils intègrent ses dieux aux leurs pour s'attirer leurs faveurs. Le dieu central est Tarhunna (le Dieu de l'Orage), vénéré dans le grand sanctuaire rupestre de Yazılıkaya, symbole de la puissance de la tempête sur les arides plateaux anatoliens.",
             diplomatie: "Ce sont les inventeurs du Droit international antique. Contrairement à l'Assyrie qui rase ses ennemis, les Hittites créent des traités de vassalité extrêmement complexes (avec clauses d'extradition, mariage, et obligations d'assistance militaire) gravés sur l'argile et l'argent. Le Traité de Qadesh (-1259) avec Ramsès II est exposé au siège de l'ONU à New York comme le premier pacte de non-agression.",
             guerres: [
@@ -505,7 +506,7 @@ export default [
             croyancesText: "Culte polythéiste sémitique, vénérant de puissantes entités locales (Baal, Seigneur ; Melqart, dieu protecteur de Tyr ; Astarté, déesse de la fertilité et de la guerre). La pratique occasionnelle de sacrifices de substitution par le feu lors de crises majeures s'exportera et se systématisera dans leur colonie de Carthage.",
             diplomatie: "Peuple de cités-États rivales, ils préfèrent la diplomatie commerciale à la guerre territoriale (ils manquent de terres agricoles). Ils offrent le savoir-faire de leurs charpentiers marins et architectes à leurs puissants voisins (le roi Hiram aide le roi Salomon d'Israël à construire son Premier Temple) en échange d'alliances ou d'achats de matières premières (le cèdre du Liban).",
             guerres: [
-              { nom: "Siège de Tyr par Alexandre", annee: -332, adversaires: ["Macédoine (Alexandre)"], allies: ["Flotte Perse"], morts: "8000 citoyens tués, 30 000 esclaves", vainqueur: "Macédoine", consequences: "Destruction de la ville et massacre. Déclin définitif de la Phénicie au profit d'Alexandrie d'Égypte.", wikiUrl: "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Tyr_(332_av._J.-C.)" }
+              { nom: "Siège de Tyr par Alexandre", annee: -332, adversaires: ["Macédoine (Alexandre)", "Flottes de Sidon, Byblos et Chypre (ralliées à Alexandre)"], allies: [], morts: "8000 citoyens tués, 30 000 esclaves", vainqueur: "Macédoine", consequences: "Destruction de la ville et massacre. Déclin définitif de la Phénicie au profit d'Alexandrie d'Égypte.", wikiUrl: "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Tyr_(332_av._J.-C.)" }
             ],
             documentaires: [{ titre: "L'épopée des Phéniciens", url: "https://fr.wikipedia.org/wiki/Ph%C3%A9niciens" }]
           },
@@ -555,7 +556,7 @@ export default [
             personnages: [
               { nom: "Chanakya (Kautilya)", role: "Ministre et Stratège", description: "L'équivalent indien de Machiavel. Auteur de l'Arthashastra, un traité politique de cynisme et d'espionnage d'État redoutable.", dates: "≈ -350 à -283", wikiUrl: "https://fr.wikipedia.org/wiki/Ch%C3%A2nakya" }
             ],
-            sciences: "Sous l'impulsion de l'Arthashastra, l'État maurya est une immense machine bureaucratique. L'Inde standardise les poids, mesures et monnaies. La médecine ayurvédique et la chirurgie de guerre se perfectionnent, et Pataliputra devient l'une des villes les plus immenses et majestueuses du monde, entourée de murailles en bois renforcé (pour résister aux séismes) avec 64 portes.",
+            sciences: "Sous l'impulsion de l'Arthashastra, l'État maurya est une immense machine bureaucratique. L'Inde standardise les poids, mesures et monnaies. La médecine ayurvédique et la chirurgie de guerre se perfectionnent, et Pataliputra devient l'une des villes les plus immenses et majestueuses du monde, entourée, selon l'ambassadeur grec Mégasthène, d'une palissade de bois percée de 64 portes.",
             croyancesText: "Le règne d'Ashoka est la plateforme de lancement mondiale du bouddhisme. Choqué par les atrocités de la guerre, l'empereur se convertit et instaure l'Ahimsa (la non-violence absolue envers les humains et les animaux). Il ne persécute pas l'Hindouisme ou le Jaïnisme, imposant au contraire une tolérance religieuse d'État révolutionnaire financée par le trésor impérial.",
             diplomatie: "Avant Ashoka, la diplomatie repose sur l'espionnage paranoïaque et les armées d'éléphants. Après sa conversion, l'expansion militaire s'arrête net. Ashoka envoie alors des missionnaires (ambassadeurs religieux) vers la Perse, la Syrie, l'Égypte gréco-macédonienne et au Sri Lanka pour prêcher le Dharma, substituant la conquête militaire par le soft-power culturel.",
             guerres: [
@@ -600,8 +601,8 @@ export default [
             description: "Immense confédération nomade et militarisée, ancêtres putatifs des Huns, forçant les empereurs chinois à s'humilier ou à se ruiner pour protéger leurs frontières.",
             datesCles: [
               { annee: -209, evenement: "L'Unification des Steppes", info: "Modu Chanyu exécute son père et rassemble tous les clans nomades du nord de la Chine." },
-              { annee: -200, evenement: "Bataille de Baideng", info: "Les Xiongnu encerclent le 1er empereur Han et lui imposent de payer un tribut." },
-              { annee: 46, evenement: "Guerre civile nomade", info: "La confédération se fracture en deux (Xiongnu du Nord, farouches, et du Sud, soumis à la Chine)." }
+              { annee: -200, evenement: "Bataille de Baideng", info: "Les Xiongnu encerclent le premier empereur Han, Gaozu, qui s'échappe après sept jours puis négocie le traité de « paix et parenté » (heqin)." },
+              { annee: 46, evenement: "Crise et scission", info: "Une crise éclate en 46 apr. J.-C. ; en 48, la confédération se divise formellement en deux (Xiongnu du Nord, hostiles, et du Sud, alliés de la Chine)." }
             ],
             dirigeants: [
               { titre: "Chanyu (Empereur des Steppes)", nom: "Modu", surnom: "", debut: -209, fin: -174 }
@@ -611,7 +612,7 @@ export default [
             croyancesText: "Ils pratiquent le Tengrisme (vénération du 'Ciel Bleu Éternel' Tengri, de la Terre et du Soleil). Le Chanyu est considéré comme 'Né du Ciel et de la Terre'. Lors de grands rassemblements annuels d'automne dans les montagnes sacrées, ils organisent des sacrifices de chevaux blancs, des courses équestres et effectuent un recensement des populations (têtes de bétail et hommes en âge de combattre).",
             diplomatie: "Leur économie n'est pas agricole. Ils dépendent du pillage structurel (pour obtenir céréales, fer et soie de Chine) et d'un système mafieux d'extorsion d'État : le traité impérial de 'Paix et Parenté' (Heqin). La Chine leur donne annuellement des princesses en mariage, de l'or et des soieries massives à la seule condition que les Xiongnu s'abstiennent de raser les villes frontalières.",
             guerres: [
-              { nom: "Bataille de Baideng", annee: -200, adversaires: ["Dynastie Han (Gaozu)"], allies: [], morts: "Gelures et famine pour les Han", vainqueur: "Xiongnu", consequences: "L'empereur de Chine est encerclé par 300 000 cavaliers sur une montagne. Il capitule, instaurant une ère de tributs humiliants payés aux nomades.", wikiUrl: "https://fr.wikipedia.org/wiki/Bataille_de_Baideng" }
+              { nom: "Bataille de Baideng", annee: -200, adversaires: ["Dynastie Han (Gaozu)"], allies: [], morts: "Gelures et famine pour les Han", vainqueur: "Xiongnu", consequences: "L'empereur de Chine est encerclé sur une montagne par 400 000 cavaliers selon l'historien Sima Qian. Il s'échappe au bout de sept jours puis négocie le heqin, un traité qui oblige la Chine à verser des présents aux nomades.", wikiUrl: "https://fr.wikipedia.org/wiki/Bataille_de_Baideng" }
             ],
             documentaires: [{ titre: "L'empire des Steppes : Les Xiongnu", url: "https://fr.wikipedia.org/wiki/Xiongnu" }]
           },
@@ -620,23 +621,23 @@ export default [
             trackId: "coree", row: 9,
             label: "Royaume de Gojoseon (Corée)",
             period: "-1000 à -108", start: -1000, end: -108,
-            color: "#bf360c", isRiver: false, capitale: "Wanggeom-seong (Pyongyang)",
-            description: "Le creuset fondateur de l'identité coréenne (l'ère du bronze et du fer antique), dont l'annexion par les Han va provoquer la diaspora donnant naissance aux Trois Royaumes coréens.",
+            color: "#bf360c", isRiver: false, capitale: "Wanggeom-seong (emplacement débattu : Pyongyang ou Liaoning)",
+            description: "Le creuset fondateur de l'identité coréenne (l'ère du bronze et du fer antique), dont la chute face aux Han pousse une partie des élites vers le sud, un des facteurs qui préparent l'époque des Trois Royaumes coréens.",
             datesCles: [
-              { annee: -1000, evenement: "Bronze Mumun", info: "Essor de la civilisation de la poterie sans décor, de la culture du riz et des mégalithes (dolmens)." },
+              { annee: -1000, evenement: "Bronze Mumun", info: "Essor de la période Mumun (commencée vers -1500) : poterie sans décor, culture du riz et mégalithes (dolmens)." },
               { annee: -194, evenement: "Période Wiman", info: "Un général exilé s'empare du pouvoir, importe le fer et transforme l'État en puissance militaire." },
               { annee: -108, evenement: "L'invasion Han", info: "L'empereur chinois Han Wudi lance une invasion terrestre et navale massive pour annexer la péninsule." }
             ],
             dirigeants: [
               { titre: "Roi Fondateur", nom: "Dangun", surnom: "Le Roi Divin (Légendaire)", debut: -2333, fin: -1000 },
-              { titre: "Roi", nom: "Wiman", surnom: "", debut: -194, fin: -160 }
+              { titre: "Roi", nom: "Wiman", surnom: "Fin de règne incertaine", debut: -194, fin: -160 }
             ],
             personnages: [],
-            sciences: "Le paysage préhistorique coréen a laissé une empreinte unique : Gojoseon possède près de 40% de tous les dolmens (sépultures de pierres géantes) du monde. Technologiquement, leur armement se distingue par la maîtrise de la dague (ou poignard) en bronze de type mandoliniforme (en forme de luth), un symbole de statut exclusif aux élites de ce royaume.",
+            sciences: "Le paysage préhistorique coréen a laissé une empreinte unique : environ 40 % des dolmens (sépultures de pierres géantes) du monde se trouvent en Corée, la plupart datant de l'âge du bronze de la péninsule. Technologiquement, leur armement se distingue par la maîtrise de la dague (ou poignard) en bronze de type mandoliniforme (en forme de luth), un symbole de statut exclusif aux élites de ce royaume.",
             croyancesText: "Le fondement religieux est le mythe de Dangun. Hwanung (le fils du Ciel) descend sur terre, donne à une ourse désireuse de devenir humaine de l'armoise et de l'ail à manger dans une grotte pendant 100 jours. Transformée en femme, elle épouse le dieu et donne naissance à Dangun, fondant le concept d'un sang coréen béni du Ciel et directement connecté à l'esprit de la montagne sauvage.",
             diplomatie: "Situé au nord de la péninsule et s'étendant en Mandchourie, Gojoseon jouait le rôle d'intermédiaire commercial indispensable et lucratif entre les tribus du sud de la Corée (les Jin) et l'Empire Chinois (les Han). Ce monopole sur le transit du fer fut la cause directe de l'invasion impériale visant à briser leur contrôle économique de la région.",
             guerres: [
-              { nom: "Guerre Han-Gojoseon", annee: -109, adversaires: ["Dynastie Han (Wudi)"], allies: [], morts: "Effondrement du gouvernement central", vainqueur: "Dynastie Han", consequences: "Chute de la capitale. La Chine divise le nord de la Corée en 'Quatre Commanderies', forçant les élites coréennes à fuir au sud.", wikiUrl: "https://fr.wikipedia.org/wiki/Guerre_Han%E2%80%93Gojoseon" }
+              { nom: "Guerre Han-Gojoseon", annee: -109, adversaires: ["Dynastie Han (Wudi)"], allies: [], morts: "Effondrement du gouvernement central", vainqueur: "Dynastie Han", consequences: "Guerre de -109 à -108. Chute de la capitale en -108. La Chine divise le nord de la Corée en 'Quatre Commanderies' ; une partie des élites part vers le sud.", wikiUrl: "https://fr.wikipedia.org/wiki/Guerre_Han%E2%80%93Gojoseon" }
             ],
             documentaires: [{ titre: "L'origine de la Corée : Gojoseon", url: "https://fr.wikipedia.org/wiki/Gojoseon" }]
           }
@@ -659,8 +660,8 @@ export default [
             ],
             dirigeants: [],
             personnages: [],
-            sciences: "Leur génie logistique frappe encore aujourd'hui : ils ont taillé des 'Têtes Colossales' dans des blocs de basalte de 20 tonnes, et les ont transportées sur des dizaines de kilomètres à travers des jungles marécageuses sans roue ni animaux de trait. Ils inventent les fondements du compte long (le calendrier mésoaméricain basé sur l'observation de Vénus) et vulcanisent de manière empirique la sève de l'hévéa pour fabriquer les premières balles rebondissantes en caoutchouc.",
-            croyancesText: "L'art olmèque exprime une cosmologie complexe et chamanique. Le Jaguar y est l'animal suprême de la nuit et de la pluie, souvent représenté en fusion avec les traits d'un enfant humain pleurant (le 'Were-Jaguar'). Le souverain agirait comme un chamane capable de voyager dans le monde des esprits par des transes (trépanation, psychotropes) pour obtenir la clémence des dieux de la pluie.",
+            sciences: "Leur génie logistique frappe encore aujourd'hui : ils ont taillé des 'Têtes Colossales' dans des blocs de basalte de 20 tonnes, et les ont transportées sur des dizaines de kilomètres à travers des jungles marécageuses sans roue ni animaux de trait. Ils vulcanisent de manière empirique la sève de l'hévéa pour fabriquer les premières balles rebondissantes en caoutchouc.",
+            croyancesText: "L'art olmèque exprime une cosmologie complexe et chamanique. Le Jaguar y est l'animal suprême de la nuit et de la pluie, souvent représenté en fusion avec les traits d'un enfant humain pleurant (le 'Were-Jaguar'). Le souverain agirait comme un chamane capable de voyager dans le monde des esprits par des transes (peut-être à l'aide de substances psychotropes) pour obtenir la clémence des dieux de la pluie.",
             diplomatie: "Il s'agit moins d'un empire militaire que d'un réseau de centres religieux (une hiérarchie de villes et de villages). Les Olmèques opèrent une domination culturelle et commerciale (pour l'importation de jade, d'obsidienne et de magnétite). Leur art devient le standard de prestige copié par toutes les autres tribus émergentes du continent (de la vallée du Mexique jusqu'au Honduras).",
             guerres: [],
             documentaires: [{ titre: "Le mystère des Olmèques", url: "https://fr.wikipedia.org/wiki/Olm%C3%A8ques" }]
@@ -669,23 +670,23 @@ export default [
             id: "teotihuacan",
             trackId: "mesoamerique", row: 1,
             label: "Teotihuacán",
-            period: "-100 à 476", start: -100, end: 476,
+            period: "-100 à vers 550-650", start: -100, end: 476,
             color: "#117a65", isRiver: false, capitale: "Teotihuacán",
             description: "La métropole titanique du plateau mexicain. Cité cosmopolite sans rois identifiés, rayonnant comme le 'Lieu où les dieux sont nés'.",
             datesCles: [
-              { annee: 150, evenement: "Pyramide du Soleil", info: "Achevement du monument central de la cité, aligné sur la course astronomique." },
+              { annee: 150, evenement: "Pyramide du Soleil", info: "Achèvement du monument central de la cité, aligné sur la course astronomique." },
               { annee: 250, evenement: "La Cité État", info: "Teotihuacán compte déjà plus de 100 000 habitants (plus grande ville des Amériques)." },
-              { annee: 378, evenement: "Entrée maya (L'Entrada)", info: "Le général Teotihuacano Siyaj K'ak' décapite la royauté de la grande cité Maya Tikal pour y installer un roi fantoche." }
+              { annee: 378, evenement: "Entrée maya (L'Entrada)", info: "Le chef de guerre Siyaj K'ak', lié à Teotihuacán, arrive à Tikal ; le roi Chak Tok Ich'aak meurt le jour même, et Yax Nuun Ayiin devient roi en 379." }
             ],
-            dirigeants: [
-              { titre: "Seigneur (Général)", nom: "Siyaj K'ak'", surnom: "Le feu est né", debut: 378, fin: 400 }
+            dirigeants: [],
+            personnages: [
+              { nom: "Siyaj K'ak' (« Le feu est né »)", role: "Chef de guerre", description: "Chef de guerre lié à Teotihuacán, arrivé à Tikal en 378. Ce n'est pas un souverain de Teotihuacán : aucun souverain de la cité n'est connu.", dates: "Arrivée à Tikal en 378", wikiUrl: "https://en.wikipedia.org/wiki/Siyaj_K%27ak%27" }
             ],
-            personnages: [],
-            sciences: "C'est l'un des premiers triomphes d'urbanisme géométrique de masse. La ville, traversée par 'l'Allée des Morts' longue de 4 km, est divisée en quartiers résidentiels pour étrangers (Zapotèques, Mayas), abritant des ateliers spécialisés. La richesse de la ville repose sur le contrôle absolu et industriel de l'extraction de l'obsidienne (verre volcanique) de Pachuca, utilisée comme l'arme la plus tranchante du monde précolombien.",
-            croyancesText: "L'art de la ville est paradoxal : on n'y trouve aucune statue de roi glorieux. L'iconographie est entièrement dévolue à Tlaloc (Dieu à lunettes de la pluie) et au Serpent à Plumes (Quetzalcoatl). La fondation de leurs grands temples s'accompagne de sacrifices horrifiques : des centaines de guerriers étrangers les mains ligotées, ou des animaux prédateurs (pumas, aigles) ont été enterrés vivants au cœur des pyramides pour leur insuffler la vie.",
-            diplomatie: "C'est le suzerain brutal et distant de la Mésoamérique. En l'an 378, bien avant les Aztèques, Teotihuacán envoie une expédition militaire à plus de 1000 km dans les jungles mayas. Ils renversent la dynastie de la plus grande cité maya (Tikal) et placent le fils de leur propre souverain (Chouette-Lançe-Dards) sur le trône, imposant leur style architectural et vestimentaire à la civilisation Maya (le style Talud-Tablero).",
+            sciences: "C'est l'un des premiers triomphes d'urbanisme géométrique de masse. La ville, traversée par 'l'Allée des Morts' longue d'environ 2,5 km, est divisée en quartiers résidentiels pour étrangers (Zapotèques, Mayas), abritant des ateliers spécialisés. La richesse de la ville repose sur le contrôle absolu et industriel de l'extraction de l'obsidienne (verre volcanique) de Pachuca, utilisée comme l'arme la plus tranchante du monde précolombien.",
+            croyancesText: "L'art de la ville est paradoxal : on n'y trouve aucune statue de roi glorieux. L'iconographie est surtout consacrée à un dieu de la pluie à lunettes et au Serpent à Plumes, que l'on désigne par les noms aztèques de divinités apparentées (Tlaloc et Quetzalcoatl). La fondation de leurs grands temples s'accompagne de sacrifices : des centaines de guerriers aux mains liées et des animaux prédateurs (pumas, aigles) ont été enterrés au cœur des pyramides.",
+            diplomatie: "C'est le suzerain brutal et distant de la Mésoamérique. En l'an 378, bien avant les Aztèques, Teotihuacán envoie une expédition militaire à plus de 1000 km dans les jungles mayas. Le roi de Tikal, la plus grande cité maya, meurt le jour de leur arrivée, et Yax Nuun Ayiin, fils d'un personnage nommé « Chouette-Lance-Dards », devient roi en 379, imposant leur style architectural et vestimentaire à la civilisation Maya (le style Talud-Tablero).",
             guerres: [
-              { nom: "Guerre Civile Interne", annee: 650, adversaires: ["Factions élitistes internes"], allies: [], morts: "Massacre des quartiers nobles", vainqueur: "Effondrement du système", consequences: "Les palais centraux sont incendiés par la population ou une faction rivale. La cité périclite, bien que son influence religieuse ne s'éteigne jamais.", wikiUrl: "https://fr.wikipedia.org/wiki/Teotihuac%C3%A1n" }
+              { nom: "Guerre Civile Interne", annee: 550, adversaires: ["Factions élitistes internes"], allies: [], morts: "Massacre des quartiers nobles", vainqueur: "Effondrement du système", consequences: "Vers 550 (entre 550 et 650 selon les sources), le centre de la cité est incendié, peut-être par la population ou une faction rivale. La cité périclite, bien que son influence religieuse ne s'éteigne jamais.", wikiUrl: "https://fr.wikipedia.org/wiki/Teotihuac%C3%A1n" }
             ],
             documentaires: [{ titre: "Teotihuacan : Le mystère de la cité des dieux", url: "https://fr.wikipedia.org/wiki/Teotihuac%C3%A1n" }]
           },
@@ -702,8 +703,8 @@ export default [
             ],
             dirigeants: [],
             personnages: [],
-            sciences: "Leur temple est une machine théâtrale à subjuguer les esprits. Les architectes Chavín ont créé un réseau de galeries souterraines complètement obscures, traversées par des canaux hydrauliques dissimulés. Lors de la saison des pluies, l'eau s'y engouffre, et la pression de l'air fait rugir l'édifice tout entier, donnant l'illusion parfaite que la montagne et le temple 'respirent' et grognent comme un immense félin.",
-            croyancesText: "Le culte est chamanique et terrifiant. Le prêtre absorbe des extraits du cactus hallucinogène San Pedro et guide le pèlerin dans les ténèbres absolues du labyrinthe (le Lanzón). Là, face à une statue de granit féroce d'un monstre mi-humain mi-jaguar (le Dieu aux Sceptres), sous l'effet du bruit d'eau rugissante et des drogues, le croyant vit une expérience de mort et de résurrection mystique assurant sa conversion.",
+            sciences: "Leur temple est une machine théâtrale à subjuguer les esprits. Les architectes Chavín ont créé un réseau de galeries souterraines complètement obscures, traversées par des canaux hydrauliques dissimulés. Lors de la saison des pluies, l'eau s'y engouffre, et la pression de l'air fait peut-être rugir l'édifice : selon une hypothèse, cela aurait donné l'illusion que la montagne et le temple « respirent » et grognent comme un immense félin.",
+            croyancesText: "Le culte est chamanique et terrifiant. Le prêtre absorbe des extraits du cactus hallucinogène San Pedro et guide le pèlerin dans les galeries obscures du temple. Au centre se dresse le Lanzón, une stèle de granit de 4,5 m figurant une divinité féroce mi-humaine mi-félin. Le « dieu aux bâtons » (ou aux sceptres) est, lui, représenté sur la stèle Raimondi. Selon certaines hypothèses, le pèlerin aurait vécu une expérience de mort et de renaissance symboliques.",
             diplomatie: "Chavín ne possède pas d'armée conquérante. Son autorité est un 'soft-power' de la peur et de la fascination religieuse. En échange d'oracles et de prophéties (cruciales pour anticiper les ravages climatiques d'El Niño sur les récoltes côtières), les populations de tout le Pérou offrent des lamas, du maïs, de l'or et des textiles brodés précieux aux prêtres du temple.",
             guerres: [],
             documentaires: [{ titre: "Chavin, les maîtres des montagnes", url: "https://fr.wikipedia.org/wiki/Chav%C3%ADn_(culture)" }]
@@ -712,19 +713,19 @@ export default [
             id: "nazca",
             trackId: "andes", row: 2,
             label: "Culture Nazca",
-            period: "-200 à 476", start: -200, end: 476,
-            color: "#ba9c07", isRiver: true, capitale: "Cahuachi",
+            period: "-200 à vers 600-650", start: -200, end: 476,
+            color: "#ba9c07", isRiver: true, capitale: "Cahuachi (centre cérémoniel)",
             description: "Société du désert aride péruvien, passée maître dans l'ingénierie hydraulique de survie et le tracé énigmatique de dessins géants.",
             datesCles: [
               { annee: -100, evenement: "Tracé des lignes", info: "Début de la création des immenses géoglyphes (Araignée, Colibri, Singe) dans le désert." },
               { annee: 300, evenement: "Apogée de Cahuachi", info: "Le grand centre de pèlerinage pyramidal attire les offrandes des Andes." },
-              { annee: 450, evenement: "Déclin climatique", info: "Une méga-sécheresse, aggravée par la déforestation locale (abattage du Huarango), condamne la culture." }
+              { annee: 450, evenement: "Déclin climatique", info: "Une sécheresse, peut-être aggravée par la déforestation locale (abattage du huarango), fragilise la culture, qui décline jusque vers 600-650." }
             ],
             dirigeants: [],
             personnages: [],
-            sciences: "Survivre dans le désert le plus aride du monde implique des prouesses de terrassement. Ils inventent le système des 'Puquios' : de monumentaux aqueducs souterrains empierrés captant l'eau des nappes phréatiques, avec d'impressionnantes cheminées d'aération en spirale pour permettre l'entretien sans que l'eau ne s'évapore sous le soleil mortel. Leur céramique, cuite à ciel ouvert, utilise 15 couleurs minérales fixées chimiquement avant cuisson.",
-            croyancesText: "Les fameuses Lignes de Nazca (géoglyphes) ne sont pas des pistes pour extraterrestres, mais des chemins processionnels religieux. Les prêtres marchaient en file indienne sur les tracés du colibri ou du condor pour prier les dieux de la montagne et supplier l'arrivée de la pluie divine. Leurs rites incluent la collection intensive de 'têtes-trophées' momifiées d'ennemis pour voler leur énergie rituelle.",
-            diplomatie: "Nazca est une confédération de chefferies de vallées, liées par une religion commune centralisée à Cahuachi (leur capitale théocratique en adobe). La sécheresse permanente et le besoin de ressources rendent les conflits rituels très fréquents, où capturer vivant son adversaire pour l'offrir en sacrifice (ou le décapiter) garantit la gloire et l'approvisionnement mystique en eau.",
+            sciences: "Survivre dans le désert le plus aride du monde implique des prouesses de terrassement. On leur attribue généralement les 'Puquios' : de monumentaux aqueducs souterrains empierrés captant l'eau des nappes phréatiques, avec d'impressionnantes cheminées d'aération en spirale pour permettre l'entretien sans que l'eau ne s'évapore sous le soleil mortel. Leur céramique polychrome utilise une grande variété de couleurs minérales (souvent plus d'une dizaine).",
+            croyancesText: "Les fameuses Lignes de Nazca (géoglyphes) ne sont pas des pistes pour extraterrestres, mais des chemins processionnels religieux. Selon une hypothèse répandue, des processions parcouraient les tracés du colibri ou du condor pour prier les dieux de la montagne et appeler la pluie. Leurs rites incluent la collection intensive de 'têtes-trophées' momifiées d'ennemis pour voler leur énergie rituelle.",
+            diplomatie: "Nazca est une confédération de chefferies de vallées, liées par une religion commune dont le grand centre est Cahuachi (centre cérémoniel et de pèlerinage en adobe, et non une capitale). La sécheresse permanente et le besoin de ressources rendent les conflits rituels très fréquents, où capturer vivant son adversaire pour l'offrir en sacrifice (ou le décapiter) garantit la gloire et l'approvisionnement mystique en eau.",
             guerres: [],
             documentaires: [{ titre: "Nazca, les messages de la Terre", url: "https://fr.wikipedia.org/wiki/Nazca_(culture)" }]
           }

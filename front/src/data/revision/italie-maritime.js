@@ -1,0 +1,173 @@
+/** Chapitre rédigé : Républiques maritimes italiennes — Venise, Gênes, Pise, Amalfi (≈ 697 – 1492). */
+export default {
+  readingTime: 4,
+  cards: [
+    // ── Niveau 1 ──
+    {
+      id: 'lagune',
+      tier: 1,
+      type: 'text',
+      kicker: 'Création',
+      title: 'Des cités nées de la mer',
+      body:
+        "Après la chute de Rome, des habitants de la côte vénète se réfugient sur les îlots d'une lagune pour échapper aux invasions. Selon la tradition, ils élisent leur premier doge (« duc ») en 697. Ailleurs en Italie, des ports comme Amalfi, Pise et Gênes s'enrichissent eux aussi par le commerce maritime.",
+      highlight: { value: '697', label: 'premier doge de Venise, selon la tradition' },
+    },
+    {
+      id: 'quatre',
+      tier: 1,
+      type: 'keyfigure',
+      kicker: 'Territoire',
+      value: '4',
+      label: 'grandes républiques maritimes',
+      caption: "Amalfi et Pise brillent d'abord, puis Gênes et Venise dominent. Leurs drapeaux sont toujours réunis sur le pavillon de la marine italienne.",
+    },
+    {
+      id: 'carte',
+      tier: 1,
+      type: 'map',
+      kicker: 'Territoire',
+      title: 'Des empires de comptoirs',
+      years: [1200, 1400],
+      caption: "Peu de terres, mais une chaîne de ports et d'îles (Crète, Chypre, mer Noire) qui jalonnent les routes du commerce vers l'Orient.",
+    },
+    {
+      id: 'commerce',
+      tier: 1,
+      type: 'text',
+      kicker: "Âge d'or",
+      title: 'Épices, soie et galères',
+      body:
+        "Les marchands italiens achètent dans les ports d'Égypte, de Syrie, de Constantinople ou de mer Noire des épices (poivre, cannelle), de la soie et de l'alun. Ils les revendent en Europe avec d'énormes bénéfices. Des convois de galères partent chaque année à dates fixes.",
+    },
+    {
+      id: 'saint-marc',
+      tier: 1,
+      type: 'text',
+      kicker: 'Croyances',
+      title: 'Le lion de saint Marc',
+      body:
+        "En 828, deux marchands vénitiens rapportent d'Alexandrie, en Égypte, des reliques présentées comme celles de l'évangéliste saint Marc. Venise en fait son protecteur : la basilique Saint-Marc et le lion ailé deviennent les symboles de la ville.",
+      highlight: { value: '828', label: 'arrivée des reliques de saint Marc' },
+    },
+    {
+      id: 'chronologie',
+      tier: 1,
+      type: 'dates',
+      kicker: 'Durée',
+      title: 'Huit siècles sur les mers',
+      items: [
+        { year: 697, label: 'Premier doge de Venise, selon la tradition' },
+        { year: 828, label: 'Les reliques de saint Marc arrivent à Venise' },
+        { year: 1135, label: "Pise saccage Amalfi, déjà soumise aux Normands" },
+        { year: 1204, label: 'Les croisés, transportés par Venise, prennent Constantinople' },
+        { year: 1284, label: 'Gênes écrase Pise à la Meloria' },
+        { year: 1381, label: 'Paix de Turin : fin de la guerre de Chioggia' },
+      ],
+    },
+    {
+      id: 'dandolo',
+      tier: 1,
+      type: 'person',
+      nom: 'Enrico Dandolo',
+      role: 'Doge de Venise',
+      dates: 'vers 1107 – 1205',
+      description: "Âgé et presque aveugle, il négocie le transport de la quatrième croisade. Les croisés ne pouvant payer, il les entraîne à Zara puis à Constantinople, prise en 1204. Venise y gagne la Crète et de nombreux ports.",
+    },
+    {
+      id: 'chioggia',
+      tier: 1,
+      type: 'war',
+      nom: 'Guerre de Chioggia',
+      annee: 1378,
+      adversaires: ['République de Gênes', 'Royaume de Hongrie', 'Seigneurie de Padoue'],
+      allies: ['République de Venise'],
+      vainqueur: 'Venise',
+      consequences: "La flotte génoise s'empare de Chioggia, aux portes de Venise, mais se retrouve assiégée et doit capituler en 1380. Gênes, épuisée, ne menace plus Venise dans l'Adriatique.",
+    },
+    {
+      id: 'marco-polo',
+      tier: 1,
+      type: 'person',
+      nom: 'Marco Polo',
+      role: 'Marchand vénitien',
+      dates: '1254 – 1324',
+      description: "Parti en 1271 avec son père et son oncle, il vit environ 17 ans en Chine au service de Kubilaï Khan. Prisonnier à Gênes après 1298, il dicte ses souvenirs à Rustichello de Pise : c'est le Devisement du monde (ou Livre des merveilles).",
+    },
+
+    // ── Niveau 2 ──
+    {
+      id: 'gouvernement',
+      tier: 2,
+      type: 'text',
+      kicker: 'Pouvoir',
+      title: 'Un doge sous surveillance',
+      body:
+        "À Venise, le doge est élu à vie mais ses pouvoirs sont limités. En 1297, le Grand Conseil est réservé aux familles nobles inscrites : c'est la « Serrata » (fermeture). À partir de 1310, le Conseil des Dix veille à la sécurité de l'État. La république est une oligarchie de riches marchands.",
+    },
+    {
+      id: 'banque',
+      tier: 2,
+      type: 'text',
+      kicker: 'Découvertes',
+      title: 'Banquiers et assureurs',
+      body:
+        "Les marchands italiens perfectionnent la lettre de change, qui évite de transporter des pièces, l'assurance maritime et la comptabilité en partie double. En 1284, Venise frappe le ducat d'or, monnaie respectée dans toute la Méditerranée. En 1474, elle adopte l'une des premières lois sur les brevets.",
+    },
+    {
+      id: 'arsenal',
+      tier: 2,
+      type: 'keyfigure',
+      kicker: 'Connaissance',
+      value: '≈ 1104',
+      label: "fondation de l'Arsenal de Venise",
+      caption: "Ce chantier naval d'État emploie des milliers d'ouvriers spécialisés (charpentiers, cordiers, calfats). Les galères y sont construites à la chaîne avec des pièces standardisées.",
+    },
+    {
+      id: 'amalfi-pise',
+      tier: 2,
+      type: 'text',
+      kicker: 'Fluctuations',
+      title: 'Amalfi et Pise, les premières',
+      body:
+        "Amalfi, riche port en relation avec Byzance et le monde musulman, a laissé un code de droit maritime, les Tables amalfitaines. Pise, enrichie par les croisades, bâtit sa célèbre tour penchée à partir de 1173. Mais Amalfi est soumise par les Normands et Pise, vaincue par Gênes en 1284, passe sous la domination de Florence en 1406.",
+    },
+    {
+      id: 'heritage',
+      tier: 2,
+      type: 'text',
+      kicker: 'Fin',
+      title: "Le déclin face à l'Atlantique",
+      body:
+        "La progression des Ottomans, qui prennent Constantinople en 1453, menace les comptoirs d'Orient. Puis les grandes découvertes ouvrent les routes de l'Atlantique. Ironie de l'histoire : c'est un Génois, Christophe Colomb, qui traverse l'océan en 1492 pour le compte de l'Espagne.",
+    },
+  ],
+
+  quiz: [
+    { id: 'doge', type: 'mcq', prompt: 'Comment s’appelle le chef élu de la république de Venise ?', options: ['Le doge', 'Le podestat', 'Le consul', 'Le calife'], answer: 0 },
+    { id: 'quatre', type: 'mcq', prompt: 'Laquelle de ces villes n’est PAS une des quatre grandes républiques maritimes ?', options: ['Florence', 'Gênes', 'Pise', 'Amalfi'], answer: 0 },
+    { id: 'lagune', type: 'tf', prompt: 'Venise est bâtie sur les îlots d’une lagune.', answer: true },
+    { id: 'saint-marc', type: 'mcq', prompt: 'Quel saint est le protecteur de Venise ?', options: ['Saint Marc', 'Saint Pierre', 'Saint Jacques', 'Saint Georges'], answer: 0 },
+    { id: 'lion', type: 'mcq', prompt: 'Quel animal symbolise Venise ?', options: ['Un lion ailé', 'Un aigle à deux têtes', 'Un dauphin', 'Un griffon'], answer: 0 },
+    { id: 'produits', type: 'mcq', prompt: 'Quels produits les marchands italiens rapportent-ils surtout d’Orient ?', options: ['Les épices et la soie', 'Le maïs et le cacao', 'Le charbon et le fer', 'Le thé et le café'], answer: 0 },
+    { id: 'croisade', type: 'mcq', prompt: 'Quelle ville les croisés transportés par Venise prennent-ils en 1204 ?', options: ['Constantinople', 'Jérusalem', 'Le Caire', 'Alexandrie'], answer: 0 },
+    { id: 'dandolo', type: 'mcq', prompt: 'Quel doge âgé et presque aveugle dirige Venise lors de la quatrième croisade ?', options: ['Enrico Dandolo', 'Marco Polo', 'Francesco Foscari', 'Andrea Doria'], answer: 0 },
+    { id: 'meloria', type: 'mcq', prompt: 'Quelle ville Gênes écrase-t-elle à la bataille de la Meloria en 1284 ?', options: ['Pise', 'Venise', 'Amalfi', 'Naples'], answer: 0 },
+    { id: 'chioggia', type: 'mcq', prompt: 'Qui remporte la guerre de Chioggia (1378-1381) ?', options: ['Venise', 'Gênes', 'Pise', 'L’Empire ottoman'], answer: 0 },
+    { id: 'polo-prison', type: 'mcq', prompt: 'Où Marco Polo dicte-t-il le récit de ses voyages ?', options: ['Dans une prison de Gênes', 'À la cour de Kubilaï Khan', 'Au palais des doges', 'À Constantinople'], answer: 0 },
+    { id: 'polo-chine', type: 'tf', prompt: 'Marco Polo a séjourné en Chine au service de Kubilaï Khan.', answer: true },
+    { id: 'ducat', type: 'mcq', prompt: 'Quelle pièce d’or Venise frappe-t-elle à partir de 1284 ?', options: ['Le ducat', 'Le denier', 'Le dinar', 'Le sesterce'], answer: 0 },
+    { id: 'arsenal', type: 'mcq', prompt: 'Qu’est-ce que l’Arsenal de Venise ?', options: ['Un immense chantier naval', 'Une prison', 'Une cathédrale', 'Une banque'], answer: 0 },
+    { id: 'democratie', type: 'tf', prompt: 'À Venise, tous les habitants votent pour élire le doge.', answer: false, explanation: 'Le pouvoir appartient à une oligarchie de familles nobles réunies dans le Grand Conseil.' },
+    { id: 'tour', type: 'mcq', prompt: 'Dans quelle république maritime se trouve la célèbre tour penchée ?', options: ['Pise', 'Gênes', 'Amalfi', 'Venise'], answer: 0 },
+    { id: 'colomb', type: 'mcq', prompt: 'De quelle ville est originaire Christophe Colomb ?', options: ['Gênes', 'Venise', 'Lisbonne', 'Séville'], answer: 0 },
+    { id: 'ordre', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Arrivée des reliques de saint Marc à Venise', 'Prise de Constantinople par les croisés', 'Bataille de la Meloria', 'Guerre de Chioggia'] },
+  ],
+
+  recap: [
+    'Venise, Gênes, Pise et Amalfi : des cités enrichies par la mer',
+    'Des empires de comptoirs sur les routes des épices et de la soie',
+    'Banque, assurance, ducat : les marchands inventent de nouveaux outils',
+    'Rivalité Venise-Gênes, puis déclin face aux Ottomans et à l’Atlantique',
+  ],
+}

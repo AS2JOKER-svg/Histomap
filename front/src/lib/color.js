@@ -28,5 +28,37 @@ export function readableText(hex) {
   const L = luminance(hex)
   const contrastWhite = 1.05 / (L + 0.05)
   const contrastDark = (L + 0.05) / 0.06 // encre ≈ #1c2330
-  return contrastWhite >= contrastDark || contrastWhite >= 3 ? '#ffffff' : '#1c2330'
+  return contrastWhite >= 4.5 || contrastWhite >= contrastDark ? '#ffffff' : '#1c2330'
 }
+
+function contrast(a, b) {
+  const [hi, lo] = [luminance(a), luminance(b)].sort((x, y) => y - x)
+  return (hi + 0.05) / (lo + 0.05)
+}
+
+/**
+ * Variante d'une couleur de civilisation utilisable comme couleur de TEXTE :
+ * assombrie (thème clair) ou éclaircie (thème sombre) jusqu'à un contraste
+ * de 4,5:1 (WCAG AA) sur le fond des cartes.
+ */
+export function readableOn(hex, background, min = 4.5) {
+  const lighten = luminance(background) < 0.2
+  let c = hex
+  for (let i = 0; i < 40 && contrast(c, background) < min; i++) c = shade(c, lighten ? 3 : -3)
+  return c
+}
+
+const SURFACE_LIGHT = '#ffffff'
+const SURFACE_DARK = '#1d2330' // --c-surface-2 sombre (le plus clair des fonds sombres)
+
+/**
+ * Style à poser sur un élément avec la classe `civ-text` : la couleur de la
+ * civilisation, lisible dans les deux thèmes (voir index.css).
+ */
+export function civTextStyle(hex) {
+  if (!hex) return undefined
+  return { '--civ-text-light': readableOn(hex, SURFACE_LIGHT, 5) /* marge : fonds teintés */, '--civ-text-dark': readableOn(hex, SURFACE_DARK) }
+}
+
+/** Fond pour du texte blanc : la couleur, assombrie si besoin (contraste ≥ 4,5:1). */
+export const solidBg = (hex) => (hex ? readableOn(hex, '#ffffff') : hex)

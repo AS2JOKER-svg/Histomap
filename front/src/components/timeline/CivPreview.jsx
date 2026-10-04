@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { motion, useDragControls } from 'framer-motion'
 import { formatDuration, formatYear } from '../../lib/time'
-import { readableText, shade } from '../../lib/color'
+import { readableText, shade, civTextStyle } from '../../lib/color'
 import Icon from '../ui/Icon'
 import LineageTrail from '../LineageTrail'
 import { useProgress } from '../../store/progress'
@@ -116,7 +116,7 @@ export default function CivPreview({ civ, epoch, continent, onClose }) {
               <ol className="space-y-2.5">
                 {events.map((ev, i) => (
                   <li key={i} className="flex gap-3">
-                    <span className="shrink-0 w-[5.5rem] text-xs font-semibold tabular-nums pt-px" style={{ color: civ.color }}>
+                    <span className="shrink-0 w-[5.5rem] text-xs font-semibold tabular-nums pt-px civ-text" style={civTextStyle(civ.color)}>
                       {formatYear(ev.annee)}
                     </span>
                     <span className="text-sm text-ink leading-snug">{ev.evenement}</span>

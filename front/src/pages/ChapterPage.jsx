@@ -1,5 +1,4 @@
 import { useEffect, useMemo, useState } from 'react'
-import { createPortal } from 'react-dom'
 import { Link, useNavigate, useParams } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { getCivilization } from '../lib/data'
@@ -8,6 +7,7 @@ import { useProgress } from '../store/progress'
 import useDocumentTitle from '../lib/useDocumentTitle'
 import Icon from '../components/ui/Icon'
 import CardDeck from '../components/revision/CardDeck'
+import ChapterGate from '../components/revision/ChapterGate'
 import NotFoundPage from './NotFoundPage'
 
 /**
@@ -19,7 +19,11 @@ export default function ChapterPage() {
   const ref = getCivilization(epochId, civId)
   useDocumentTitle(ref ? `Réviser · ${ref.civ.label}` : 'Chapitre introuvable')
   if (!ref) return <NotFoundPage title="Chapitre introuvable" text="Cette civilisation n'existe pas dans cette époque." />
-  return createPortal(<Chapter key={civId} refCiv={ref} />, document.body)
+  return (
+    <ChapterGate key={civId} refCiv={ref}>
+      {(full) => <Chapter refCiv={full} />}
+    </ChapterGate>
+  )
 }
 
 function Chapter({ refCiv }) {
@@ -87,7 +91,7 @@ function Chapter({ refCiv }) {
       />
 
       {/* Barre du haut */}
-      <header className="relative shrink-0 px-4 pt-[max(0.75rem,env(safe-area-inset-top))] pb-2 max-w-[560px] w-full mx-auto">
+      <div className="relative shrink-0 px-4 pt-[max(0.75rem,env(safe-area-inset-top))] pb-2 max-w-[560px] w-full mx-auto">
         <div className="flex items-center gap-3">
           <button onClick={close} className="btn-icon -ml-2" aria-label="Quitter (la progression est gardée)" title="Quitter (la progression est gardée)">
             <Icon name="close" />
@@ -110,9 +114,9 @@ function Chapter({ refCiv }) {
             ))}
           </div>
         )}
-      </header>
+      </div>
 
-      <main className="relative flex-1 min-h-0 flex flex-col px-4 pt-3 pb-4 sm:pb-8">
+      <div className="relative flex-1 min-h-0 flex flex-col px-4 pt-3 pb-4 sm:pb-8">
         {done ? (
           <ChapterDone refCiv={refCiv} result={done} onRestart={() => setDone(null)} />
         ) : cards.length ? (
@@ -127,7 +131,7 @@ function Chapter({ refCiv }) {
             onFinish={finish}
           />
         ) : null}
-      </main>
+      </div>
     </div>
   )
 }

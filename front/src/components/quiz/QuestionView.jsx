@@ -4,6 +4,7 @@ import { isCorrect } from '../../lib/quiz'
 import { haptic } from '../../lib/haptics'
 import Icon from '../ui/Icon'
 import MiniMap from '../revision/MiniMap'
+import { civTextStyle } from '../../lib/color'
 
 const LETTERS = ['A', 'B', 'C', 'D']
 const TYPE_LABEL = { mcq: 'QCM', tf: 'Vrai ou faux', order: 'Remettre dans l’ordre', map: 'Carte' }
@@ -50,7 +51,7 @@ export default function QuestionView({ question: q, index, total, civ, answered,
       className="w-full max-w-[560px] mx-auto flex flex-col min-h-0 flex-1"
     >
       <div className="flex-1 min-h-0 overflow-y-auto overscroll-contain pb-4">
-        <p className="eyebrow mb-2" style={{ color: civ.color }}>
+        <p className="eyebrow mb-2 civ-text" style={civTextStyle(civ.color)}>
           Question {index + 1} / {total} · {TYPE_LABEL[q.type]}
         </p>
         <h2 className="font-display text-xl sm:text-2xl font-semibold text-ink leading-snug text-balance">{q.prompt}</h2>

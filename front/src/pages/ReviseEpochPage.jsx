@@ -3,7 +3,7 @@ import { Link, useParams } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { getEpoch, getEpochs } from '../lib/data'
 import { formatYear } from '../lib/time'
-import { chapterSize, isHandwritten } from '../lib/revision'
+import { chapterSize } from '../lib/revision'
 import { PASS_MARK } from '../lib/quiz'
 import useDocumentTitle from '../lib/useDocumentTitle'
 import Breadcrumbs from '../components/ui/Breadcrumbs'
@@ -12,6 +12,7 @@ import Icon from '../components/ui/Icon'
 import { useProgress } from '../store/progress'
 import { ProgressRing } from './RevisePage'
 import NotFoundPage from './NotFoundPage'
+import { solidBg } from '../lib/color'
 
 /** Choisir une civilisation (chapitre) dans une époque, par continent. */
 export default function ReviseEpochPage() {
@@ -50,7 +51,7 @@ export default function ReviseEpochPage() {
             className={`shrink-0 h-9 px-3.5 rounded-xl text-sm font-medium border transition ${
               e.id === epoch.id ? 'text-white border-transparent' : 'bg-surface border-line text-muted hover:text-ink'
             }`}
-            style={e.id === epoch.id ? { background: e.color } : undefined}
+            style={e.id === epoch.id ? { background: solidBg(e.color) } : undefined}
           >
             {e.label}
           </Link>
@@ -125,11 +126,6 @@ function ChapterCard({ epoch, continent, civ, chapter, quiz, index }) {
           <span className="text-xs text-muted mt-0.5">{civ.period}</span>
           <span className="mt-3 flex flex-wrap items-center gap-1.5">
             <span className={`text-[11px] font-semibold px-2 py-1 rounded-md ${toneStyle}`}>{status.label}</span>
-            {isHandwritten(civ.id) && (
-              <span className="text-[11px] font-semibold px-2 py-1 rounded-md bg-accent/10 text-accent inline-flex items-center gap-1">
-                <Icon name="star" size={11} /> Enrichi
-              </span>
-            )}
             {quiz?.best != null && (
               <span className={`text-[11px] font-semibold px-2 py-1 rounded-md tabular-nums ${validated ? 'bg-success/10 text-success' : 'bg-danger/10 text-danger'}`}>
                 Quiz {quiz.best}/20

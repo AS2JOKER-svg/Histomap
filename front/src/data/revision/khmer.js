@@ -1,0 +1,173 @@
+/** Chapitre rédigé : Empire khmer (802 – 1431). */
+export default {
+  readingTime: 4,
+  cards: [
+    // ── Niveau 1 ──
+    {
+      id: 'jayavarman-ii',
+      tier: 1,
+      type: 'text',
+      kicker: 'Création',
+      title: 'Un roi sacré sur le mont Kulen',
+      body:
+        "Selon une inscription plus tardive, en 802, le roi Jayavarman II se fait sacrer sur le mont Kulen, au nord du lac Tonlé Sap. Il proclame l'indépendance du pays khmer et le culte du « roi des dieux » (devaraja). C'est le point de départ traditionnel de l'Empire khmer.",
+      highlight: { value: '802', label: 'sacre de Jayavarman II' },
+    },
+    {
+      id: 'carte',
+      tier: 1,
+      type: 'map',
+      kicker: 'Territoire',
+      title: "L'empire d'Angkor",
+      years: [1000, 1200, 1400],
+      caption: "Comparez : centré sur l'actuel Cambodge, l'empire s'étend vers la Thaïlande, le Laos et le sud du Vietnam, avant de reculer face aux Thaïs.",
+    },
+    {
+      id: 'angkor',
+      tier: 1,
+      type: 'text',
+      kicker: 'Pouvoir',
+      title: 'Angkor, la capitale',
+      body:
+        "Vers 900, le roi Yasovarman Ier installe sa capitale à Angkor, près du Tonlé Sap. Pendant plus de cinq siècles, chaque grand roi y fait bâtir son propre temple-montagne. Ces temples représentent le mont Meru, demeure des dieux dans la religion hindoue.",
+    },
+    {
+      id: 'angkor-wat',
+      tier: 1,
+      type: 'text',
+      kicker: "Âge d'or",
+      title: 'Angkor Wat',
+      body:
+        "Le roi Suryavarman II (règne 1113 – vers 1150) fait construire Angkor Wat, dédié au dieu Vishnou. Entouré de larges douves, c'est le plus grand monument religieux du monde. Ses murs portent des centaines de mètres de bas-reliefs, avec des danseuses célestes, les apsaras.",
+      highlight: { value: '≈ 1150', label: "achèvement d'Angkor Wat" },
+    },
+    {
+      id: 'baray',
+      tier: 1,
+      type: 'keyfigure',
+      kicker: 'Découvertes',
+      value: '≈ 8 km × 2 km',
+      label: 'les dimensions du baray occidental, réservoir géant',
+      caption: "Les Khmers construisent d'immenses bassins entourés de digues, les barays, et des réseaux de canaux pour gérer l'eau de la mousson et la saison sèche.",
+    },
+    {
+      id: 'cham',
+      tier: 1,
+      type: 'war',
+      nom: 'Guerres contre le Champa',
+      annee: 1177,
+      adversaires: ['Royaume du Champa (centre et sud du Vietnam actuel)'],
+      allies: ['Khmers menés par Jayavarman VII'],
+      vainqueur: 'Les Khmers',
+      consequences: "En 1177, une flotte cham remonte le Mékong et le Tonlé Sap et pille Angkor. Jayavarman VII chasse les envahisseurs, devient roi en 1181, puis soumet le Champa pendant plusieurs années.",
+    },
+    {
+      id: 'jayavarman-vii',
+      tier: 1,
+      type: 'person',
+      nom: 'Jayavarman VII',
+      role: 'Roi bâtisseur',
+      dates: 'règne 1181 – vers 1218',
+      description: "Bouddhiste, il fait bâtir la ville fortifiée d'Angkor Thom et, en son centre, le Bayon, aux tours sculptées d'immenses visages souriants. Selon ses inscriptions, il fonde aussi plus d'une centaine d'hôpitaux et des gîtes d'étape le long des routes.",
+    },
+    {
+      id: 'religions',
+      tier: 1,
+      type: 'text',
+      kicker: 'Croyances',
+      title: 'De Shiva à Bouddha',
+      body:
+        "Les premiers rois khmers honorent surtout les dieux hindous Shiva et Vishnou. Jayavarman VII favorise le bouddhisme du Grand Véhicule. Ensuite, à partir du XIIIe siècle, le bouddhisme theravada se répand dans la population ; il reste aujourd'hui la religion majoritaire du Cambodge.",
+    },
+    {
+      id: 'fin',
+      tier: 1,
+      type: 'text',
+      kicker: 'Fin',
+      title: "L'abandon d'Angkor",
+      body:
+        "Au XIVe et au XVe siècle, le royaume thaï d'Ayutthaya attaque à plusieurs reprises. Selon la tradition, Angkor est prise vers 1431 et la cour s'installe plus au sud, vers Phnom Penh. Des sécheresses et des inondations, qui abîment le réseau hydraulique, ont sans doute aussi joué un rôle.",
+      highlight: { value: '≈ 1431', label: 'prise d’Angkor par Ayutthaya' },
+    },
+
+    // ── Niveau 2 ──
+    {
+      id: 'population',
+      tier: 2,
+      type: 'text',
+      kicker: 'Société',
+      title: 'Une ville géante dans la forêt',
+      body:
+        "Grâce au lidar, un laser envoyé depuis un avion, les archéologues ont découvert que la région d'Angkor était une immense ville étalée, faite de maisons en bois, de rizières et de canaux. Elle aurait compté plusieurs centaines de milliers d'habitants à son apogée.",
+    },
+    {
+      id: 'zhou-daguan',
+      tier: 2,
+      type: 'person',
+      nom: 'Zhou Daguan',
+      role: 'Diplomate chinois',
+      dates: 'séjour en 1296 – 1297',
+      description: "Envoyé par l'empereur mongol de Chine, il séjourne près d'un an à Angkor. Son récit décrit la vie quotidienne, le marché, les fêtes et le roi couvert de bijoux : c'est le seul témoignage direct qui nous soit parvenu sur la ville vivante.",
+    },
+    {
+      id: 'chronologie',
+      tier: 2,
+      type: 'dates',
+      kicker: 'Durée',
+      title: 'Six siècles de grandeur',
+      items: [
+        { year: 802, label: 'Sacre de Jayavarman II sur le mont Kulen' },
+        { year: 1113, label: 'Début du règne de Suryavarman II, bâtisseur d’Angkor Wat' },
+        { year: 1177, label: 'Les Chams pillent Angkor' },
+        { year: 1181, label: 'Jayavarman VII devient roi' },
+        { year: 1431, label: 'Prise d’Angkor par Ayutthaya (selon la tradition)' },
+      ],
+    },
+    {
+      id: 'mouhot',
+      tier: 2,
+      type: 'text',
+      kicker: 'Héritage',
+      title: 'Angkor révélée à l’Europe',
+      body:
+        "Angkor n'a jamais été totalement oubliée : des moines bouddhistes continuent de vivre à Angkor Wat. Mais c'est le récit illustré de l'explorateur français Henri Mouhot, publié après sa mort survenue en 1861, qui la rend célèbre en Europe.",
+    },
+    {
+      id: 'drapeau',
+      tier: 2,
+      type: 'keyfigure',
+      kicker: 'Monde',
+      value: '1992',
+      label: "Angkor est inscrite au patrimoine mondial de l'UNESCO",
+      caption: "Symbole national, la silhouette d'Angkor Wat figure aujourd'hui sur le drapeau du Cambodge.",
+    },
+  ],
+
+  quiz: [
+    { id: 'pays', type: 'mcq', prompt: "Dans quel pays actuel se trouve Angkor ?", options: ['Le Cambodge', 'La Thaïlande', 'Le Vietnam', 'Le Laos'], answer: 0 },
+    { id: 'fondateur', type: 'mcq', prompt: 'Quel roi se fait sacrer sur le mont Kulen en 802 ?', options: ['Jayavarman II', 'Jayavarman VII', 'Suryavarman II', 'Yasovarman Ier'], answer: 0 },
+    { id: 'devaraja', type: 'mcq', prompt: 'Que désigne le culte du devaraja ?', options: ['Le « roi des dieux », lié au roi', 'Le culte des ancêtres', 'Le dieu de la mer', 'Une fête des récoltes'], answer: 0 },
+    { id: 'lac', type: 'mcq', prompt: 'Près de quel grand lac se trouve Angkor ?', options: ['Le Tonlé Sap', 'Le lac Baïkal', 'Le lac Titicaca', 'Le lac Victoria'], answer: 0 },
+    { id: 'angkor-wat', type: 'mcq', prompt: 'Quel roi fait construire Angkor Wat ?', options: ['Suryavarman II', 'Jayavarman II', 'Jayavarman VII', 'Yasovarman Ier'], answer: 0 },
+    { id: 'vishnou', type: 'mcq', prompt: 'À quel dieu Angkor Wat est-il d’abord dédié ?', options: ['Vishnou', 'Bouddha', 'Allah', 'Zeus'], answer: 0 },
+    { id: 'meru', type: 'mcq', prompt: 'Que représentent les temples-montagnes khmers ?', options: ['Le mont Meru, demeure des dieux', "Les montagnes de l'Himalaya", 'Les tombeaux des paysans', 'Des forteresses militaires'], answer: 0 },
+    { id: 'plus-grand', type: 'tf', prompt: 'Angkor Wat est le plus grand monument religieux du monde.', answer: true },
+    { id: 'apsaras', type: 'mcq', prompt: 'Comment appelle-t-on les danseuses célestes sculptées sur les temples ?', options: ['Les apsaras', 'Les geishas', 'Les vestales', 'Les sibylles'], answer: 0 },
+    { id: 'baray', type: 'mcq', prompt: "Qu'est-ce qu'un baray ?", options: ['Un immense réservoir d’eau', 'Un temple bouddhiste', 'Un éléphant de guerre', 'Un roi-dieu'], answer: 0 },
+    { id: 'cham', type: 'mcq', prompt: 'Quel peuple pille Angkor en 1177 ?', options: ['Les Chams', 'Les Mongols', 'Les Portugais', 'Les Birmans'], answer: 0 },
+    { id: 'bayon', type: 'mcq', prompt: 'Quel temple de Jayavarman VII est célèbre pour ses tours à visages ?', options: ['Le Bayon', 'Angkor Wat', 'Borobudur', 'Le Taj Mahal'], answer: 0 },
+    { id: 'hopitaux', type: 'tf', prompt: 'Selon ses inscriptions, Jayavarman VII fonde plus d’une centaine d’hôpitaux.', answer: true },
+    { id: 'religion-auj', type: 'mcq', prompt: 'Quelle est aujourd’hui la religion majoritaire du Cambodge ?', options: ['Le bouddhisme theravada', "L'hindouisme", "L'islam", 'Le christianisme'], answer: 0 },
+    { id: 'zhou', type: 'mcq', prompt: 'Qui est Zhou Daguan ?', options: ['Un diplomate chinois qui décrit Angkor', 'Un roi khmer', 'Un explorateur français', 'Un général thaï'], answer: 0 },
+    { id: 'ayutthaya', type: 'mcq', prompt: 'Quel royaume prend Angkor vers 1431, selon la tradition ?', options: ['Ayutthaya', 'Le Champa', 'La Chine des Ming', 'Le Dai Viet'], answer: 0 },
+    { id: 'oubli', type: 'tf', prompt: 'Après 1431, Angkor Wat est totalement abandonnée et oubliée de tous.', answer: false, explanation: "Des moines bouddhistes continuent d'y vivre ; l'Europe la découvre par le récit d'Henri Mouhot." },
+    { id: 'ordre', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Sacre de Jayavarman II', 'Construction d’Angkor Wat', 'Pillage d’Angkor par les Chams', 'Prise d’Angkor par Ayutthaya'] },
+  ],
+
+  recap: [
+    '802 : Jayavarman II fonde l’Empire khmer',
+    'Angkor, capitale aux temples-montagnes et aux immenses réservoirs',
+    'Vers 1150, Angkor Wat ; vers 1200, Angkor Thom et le Bayon',
+    'Vers 1431 : Angkor est prise par Ayutthaya, la cour part vers le sud',
+  ],
+}

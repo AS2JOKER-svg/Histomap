@@ -22,14 +22,14 @@ export default [
             
             datesCles: [
               { annee: -3200000, evenement: "Lucy l'Australopithèque", info: "Découverte en Éthiopie, elle prouve l'acquisition précoce de la bipédie." },
-              { annee: -2500000, evenement: "Homo Habilis", info: "L'« homme habile » crée les premiers outils en pierre taillée (culture oldowayenne)." },
+              { annee: -2400000, evenement: "Homo Habilis", info: "L'« homme habile » apparaît vers -2,4 millions d'années. Il n'est pas l'inventeur des premiers outils : des outils plus anciens sont connus à Lomekwi (Kenya, vers -3,3 millions d'années) et la culture oldowayenne débute vers -2,6 millions d'années." },
               { annee: -1800000, evenement: "Homo Erectus", info: "Premier hominidé à quitter l'Afrique et à maîtriser la symétrie des outils (bifaces acheuléens)." },
               { annee: -400000, evenement: "Maîtrise du feu", info: "Domestication des foyers, permettant la cuisson de la viande et la protection nocturne." },
               { annee: -300000, evenement: "Apparition d'Homo Sapiens", info: "Les plus anciens fossiles de notre espèce découverts au Maroc (Djebel Irhoud) et en Éthiopie." }
             ],
             dirigeants: [],
             personnages: [
-              { nom: "Lucy (Australopithecus afarensis)", role: "Fossile emblématique", description: "Découverte en 1974 par Yves Coppens. Son squelette complet à 40% a révolutionné notre compréhension de la bipédie.", dates: "Vers -3,2 Millions d'années", wikiUrl: "https://fr.wikipedia.org/wiki/Lucy_(australopith%C3%A8que)" },
+              { nom: "Lucy (Australopithecus afarensis)", role: "Fossile emblématique", description: "Découverte en 1974 en Éthiopie par l'équipe de Donald Johanson, Yves Coppens et Maurice Taieb. Son squelette complet à 40% a révolutionné notre compréhension de la bipédie.", dates: "Vers -3,2 Millions d'années", wikiUrl: "https://fr.wikipedia.org/wiki/Lucy_(australopith%C3%A8que)" },
               { nom: "Toumaï (Sahelanthropus tchadensis)", role: "Plus ancien hominidé", description: "Découvert au Tchad, il est considéré comme l'une des premières espèces de la lignée humaine.", dates: "Vers -7 Millions d'années", wikiUrl: "https://fr.wikipedia.org/wiki/Touma%C3%AF" }
             ],
             sciences: "L'évolution technologique est extrêmement lente mais décisive. La transition de la culture Oldowayenne (galets simplement aménagés) à l'Acheuléen (bifaces symétriques taillés sur les deux faces) témoigne d'une évolution majeure du cortex cérébral : la capacité de conceptualiser la forme de l'outil avant de le fabriquer. La maîtrise du feu transforme ensuite la physiologie humaine, la digestion cuite demandant moins d'énergie, permettant au cerveau de se développer.",
@@ -51,14 +51,14 @@ export default [
             
             datesCles: [
               { annee: -10000, evenement: "Période humide africaine", info: "La fin de la période glaciaire transforme le Sahara en une savane riche en lacs et en faune." },
-              { annee: -8000, evenement: "Invention de la céramique", info: "Les populations d'Afrique saharienne fabriquent des poteries pour cuire céréales et tubercules sauvages." },
+              { annee: -9400, evenement: "Premières céramiques", info: "Vers -9400, des chasseurs-cueilleurs d'Afrique saharienne (site d'Ounjougou, au Mali) fabriquent parmi les plus anciennes poteries d'Afrique, pour cuire des graines et des plantes sauvages." },
               { annee: -5000, evenement: "Apogée de l'art rupestre", info: "Multiplication des fresques représentant des troupeaux de bovins dans le Tassili." },
               { annee: -3500, evenement: "Début de la désertification", info: "L'aridification repousse les pasteurs vers la vallée du Nil, contribuant à la naissance de l'Égypte." }
             ],
             dirigeants: [],
             personnages: [],
             sciences: "Ces populations ne pratiquent pas l'agriculture au sens strict, mais développent une maîtrise avancée de l'élevage bovin et de la céramique (souvent décorée au peigne). Ils exploitent intensivement les ressources lacustres (harpons en os) et savent stocker les graminées sauvages dans de grandes jarres en argile pour pallier les famines.",
-            croyancesText: "Leurs croyances nous sont parvenues par le somptueux art rupestre du Tassili n'Ajjer (Algérie). Les parois rocheuses montrent un panthéon animiste complexe : figures de « Grands Dieux Marciens », têtes rondes, chamans masqués et femmes rituellement décorées. Le bétail, omniprésent, semble posséder un statut sacré, préfigurant les cultes bovins de l'Égypte antique (la déesse Hathor).",
+            croyancesText: "Leurs croyances nous sont parvenues par le somptueux art rupestre du Tassili n'Ajjer (Algérie). Les parois rocheuses montrent un panthéon animiste complexe : figures surnommées « Grands Dieux martiens » par Henri Lhote (un surnom aujourd'hui abandonné), « têtes rondes », chamans masqués et femmes rituellement décorées. Le bétail, omniprésent, semble posséder un statut sacré, préfigurant les cultes bovins de l'Égypte antique (la déesse Hathor).",
             diplomatie: "Ces sociétés tribales semi-nomades suivent les cycles saisonniers des pluies. L'abondance de ressources de la période dite du « Sahara vert » favorise les échanges pacifiques et les rassemblements rituels autour des grands points d'eau.",
             guerres: [],
             documentaires: [
@@ -147,7 +147,7 @@ export default [
             ],
             dirigeants: [],
             personnages: [],
-            sciences: "Leur génie réside dans l'ingénierie mécanique et astronomique. Déplacer, lever et caler des monolithes pesant jusqu'à 300 tonnes (le Grand Menhir brisé d'Er Grah) implique des centaines d'hommes, des systèmes de rondins, de leviers et une organisation sociale mathématique. Leurs sites servent de calendriers géants pour prédire solstices et équinoxes.",
+            sciences: "Leur génie réside dans l'ingénierie mécanique et astronomique. Déplacer, lever et caler des monolithes pesant jusqu'à près de 300 tonnes (environ 280 tonnes pour le Grand Menhir brisé d'Er Grah) implique des centaines d'hommes, des systèmes de rondins, de leviers et une organisation sociale mathématique. Leurs sites servent de calendriers géants pour prédire solstices et équinoxes.",
             croyancesText: "Le mégalithe a une fonction funéraire et territoriale. Les dolmens sont des caveaux collectifs recouverts de terre (tumulus) où reposent les ancêtres. Dresser une pierre monumentale (un menhir), c'est ancrer physiquement et symboliquement un clan sur son territoire face au ciel.",
             diplomatie: "L'uniformité du phénomène mégalithique de la Scandinavie au Portugal prouve l'existence de réseaux maritimes intenses le long des côtes atlantiques. Les élites s'échangent des objets de grand prestige, notamment des haches en jadéite polie extraite des Alpes et exportée jusqu'en Écosse.",
             guerres: [],
@@ -170,14 +170,14 @@ export default [
             description: "Des premiers foyers d'Homo erectus aux puissantes cultures agricoles de Yangshao et Longshan, jetant les bases de la civilisation chinoise.",
             
             datesCles: [
-              { annee: -750000, evenement: "L'Homme de Pékin", info: "Un Homo erectus maîtrisant le feu, découvert dans la grotte de Zhoukoudian." },
+              { annee: -750000, evenement: "L'Homme de Pékin", info: "Un Homo erectus découvert dans la grotte de Zhoukoudian, daté selon les études entre -780 000 et -400 000 ans environ. Son usage du feu est débattu." },
               { annee: -7000, evenement: "Riziculture et Millet", info: "Apparition de la culture du millet au nord (Fleuve Jaune) et du riz au sud (Yangtsé)." },
               { annee: -5000, evenement: "Culture de Yangshao", info: "Sédentarisation massive avec la création de superbes céramiques peintes." },
               { annee: -3000, evenement: "Culture de Longshan", info: "Apparition des murs en pisé, de la poterie noire ultra-fine et des guerres tribales." }
             ],
             dirigeants: [],
             personnages: [
-              { nom: "Fuxi et Nuwa", role: "Héros mythologiques", description: "Souverains légendaires de la mythologie chinoise, crédités de l'invention de la chasse, de la pêche, du mariage et de la musique.", dates: "Mythologie (vers -2800)", wikiUrl: "https://fr.wikipedia.org/wiki/Nuwa" }
+              { nom: "Fuxi et Nuwa", role: "Héros mythologiques", description: "Souverains légendaires de la mythologie chinoise, crédités de l'invention de la chasse, de la pêche, du mariage et de la musique.", dates: "Figures mythiques, sans date historique", wikiUrl: "https://fr.wikipedia.org/wiki/Nuwa" }
             ],
             sciences: "Deux pôles d'innovation coexistent : le bassin du fleuve Jaune, aride, spécialisé dans le millet, et le bassin du Yangtsé, inondable, qui invente la riziculture. Dès cette époque, la Chine se distingue par des inventions précoces qui deviendront ses monopoles : l'élevage du ver à soie pour la création de tissus, et le travail rituel du jade, une pierre si dure qu'elle ne se taille pas mais s'use par abrasion.",
             croyancesText: "Le respect fondamental des ancêtres, pilier de la mentalité chinoise, naît ici. On ne vénère pas de dieux olympiens, mais les esprits de la nature et les fondateurs du clan. La culture de Longshan systématise la scapulomancie (divination) : on craquèle des omoplates d'animaux au feu pour y lire l'avenir, une pratique qui donnera directement naissance à l'écriture chinoise.",
@@ -197,14 +197,14 @@ export default [
             description: "Le creuset de la civilisation urbaine : du premier village agricole à l'émergence des villes-États colossales de Sumer.",
             
             datesCles: [
-              { annee: -9000, evenement: "Révolution agricole", info: "Première domestication du blé et des moutons dans le Croissant fertile." },
+              { annee: -9000, evenement: "Révolution agricole", info: "Première domestication du blé et des moutons sur les piémonts du Croissant fertile (Levant, Taurus, Zagros), en bordure de la plaine mésopotamienne." },
               { annee: -6000, evenement: "Culture de Halaf", info: "Villages circulaires et céramique peinte de haute qualité dans le nord de la Mésopotamie." },
               { annee: -5400, evenement: "Période d'Obeïd", info: "Premiers temples, apparition de l'irrigation complexe dans les marécages du Sud." },
-              { annee: -4000, evenement: "Fondation d'Uruk", info: "La première véritable métropole du monde, concentrant des dizaines de milliers d'habitants." }
+              { annee: -3500, evenement: "Essor d'Uruk", info: "Vers -3500, Uruk devient l'une des premières grandes villes du monde." }
             ],
             dirigeants: [],
             personnages: [],
-            sciences: "Le Sud mésopotamien (le pays de Sumer) est un marécage infertile sans pluie. Le génie de la période d'Obeïd est d'avoir inventé l'irrigation artificielle à grande échelle en canalisant le Tigre et l'Euphrate. Pour gérer cette logistique colossale, ils inventent le sceau-cylindre (pour sceller les marchandises), la roue (pour les transports et la poterie), et le système comptable à jetons d'argile, l'ancêtre direct de l'écriture.",
+            sciences: "Le Sud mésopotamien (le pays de Sumer) est un marécage infertile sans pluie. Le génie de la période d'Obeïd est d'avoir inventé l'irrigation artificielle à grande échelle en canalisant le Tigre et l'Euphrate. Pour gérer cette logistique, ils utilisent des jetons d'argile pour compter, ancêtres de l'écriture. Un peu plus tard, à la période d'Uruk (vers -3500), apparaissent le sceau-cylindre (pour sceller les marchandises) et la roue (pour la poterie puis les transports).",
             croyancesText: "La religion mésopotamienne se structure autour du Temple (l'É). Chaque ville est la propriété d'un dieu tutélaire (Enki à Eridu, Inanna à Uruk). Le temple n'est pas qu'un lieu de culte, c'est le centre économique de la ville : il stocke les récoltes, gère les terres, emploie des artisans et redistribue la nourriture en période de crise.",
             diplomatie: "Durant la fin de cette période (période d'Uruk), la Mésopotamie du Sud devient si puissante qu'elle déploie un vaste réseau de comptoirs coloniaux vers le Nord (Syrie, Anatolie) pour s'approvisionner en bois, pierre et métaux qui font défaut dans leurs plaines de boue. C'est la première mondialisation économique connue.",
             guerres: [],
@@ -227,14 +227,14 @@ export default [
             
             datesCles: [
               { annee: -9600, evenement: "Érection des mégalithes", info: "Taille et mise en place des immenses piliers en forme de T ornés de bas-reliefs animaliers." },
-              { annee: -8500, evenement: "Domestication végétale précoce", info: "L'engrain (blé sauvage) est domestiqué à quelques kilomètres du site (Karaca Dağ)." },
-              { annee: -8000, evenement: "Enfouissement du site", info: "Pour des raisons inexpliquées, les sanctuaires sont volontairement recouverts de milliers de tonnes de gravats, les figeant pour l'éternité." }
+              { annee: -8500, evenement: "Domestication végétale précoce", info: "Selon des études génétiques, l'engrain (une céréale proche du blé) a été domestiqué dans la région (monts Karaca Dağ)." },
+              { annee: -8000, evenement: "Enfouissement du site", info: "Les enceintes sont recouvertes de gravats, ce qui les a conservées. Cet enfouissement a peut-être été volontaire, mais la question est débattue." }
             ],
             dirigeants: [],
             personnages: [],
-            sciences: "Le site de Göbekli Tepe détruit l'ancien paradigme archéologique. Il prouve que la capacité à tailler et transporter des piliers monolithes de 20 tonnes n'a pas nécessité une société sédentaire agricole préalable. L'organisation complexe d'un chantier d'une telle ampleur par des chasseurs nomades montre une maîtrise insoupçonnée de la taille de pierre (réalisée sans aucun outil en métal) et de l'ingénierie structurelle.",
-            croyancesText: "Le site est exclusivement cultuel (aucune trace d'habitation). L'animisme qui s'y déploie est terrifiant et mystérieux : les bas-reliefs ne montrent aucun animal comestible (gazelles), mais uniquement des prédateurs mortels ou venimeux (scorpions, vautours, renards, lions, sangliers furieux). Les piliers en forme de T, parfois dotés de bras, pourraient représenter des ancêtres déifiés ou des dieux sans visage.",
-            diplomatie: "La construction et l'entretien de ce sanctuaire ont nécessité la coopération de plusieurs tribus ou clans de la région d'Anatolie. Göbekli Tepe fonctionnait probablement comme un centre de pèlerinage où des groupes dispersés se réunissaient ponctuellement pour festoyer, échanger des partenaires (pour éviter la consanguinité) et partager des innovations, favorisant ainsi la découverte de l'agriculture.",
+            sciences: "Le site de Göbekli Tepe détruit l'ancien paradigme archéologique. Il prouve que la capacité à tailler et transporter des piliers monolithes d'environ 10 tonnes (jusqu'à 5,5 m de haut) n'a pas nécessité une société sédentaire agricole préalable. L'organisation complexe d'un chantier d'une telle ampleur par des chasseurs nomades montre une maîtrise insoupçonnée de la taille de pierre (réalisée sans aucun outil en métal) et de l'ingénierie structurelle.",
+            croyancesText: "Le site a longtemps été vu comme exclusivement cultuel, mais des fouilles récentes y ont trouvé des citernes, des meules et des bâtiments domestiques. L'animisme qui s'y déploie est terrifiant et mystérieux : les bas-reliefs ne montrent aucun animal comestible (gazelles), mais une majorité d'animaux dangereux (scorpions, serpents, vautours, renards, sangliers), à côté d'aurochs, de grues et d'ânes sauvages. Les piliers en forme de T, parfois dotés de bras, pourraient représenter des ancêtres déifiés ou des dieux sans visage.",
+            diplomatie: "La construction et l'entretien de ce sanctuaire ont nécessité la coopération de plusieurs tribus ou clans de la région d'Anatolie. Göbekli Tepe fonctionnait probablement comme un centre de pèlerinage où des groupes dispersés se réunissaient ponctuellement pour festoyer, peut-être échanger des partenaires (hypothèse) et partager des innovations, favorisant ainsi la découverte de l'agriculture.",
             guerres: [],
             documentaires: [
               { titre: "Arte : Göbekli Tepe, le plus vieux temple du monde", url: "https://fr.wikipedia.org/wiki/G%C3%B6bekli_Tepe" }
@@ -256,18 +256,18 @@ export default [
             color: "#f4d03f", 
             isRiver: true,
             capitale: "Caral",
-            description: "La plus ancienne civilisation des Amériques, ayant érigé d'immenses pyramides dans les vallées péruviennes dans une paix absolue, sans hiéroglyphes ni poterie.",
+            description: "La plus ancienne civilisation des Amériques, ayant érigé d'immenses pyramides dans les vallées péruviennes, avec peu ou pas de traces de guerre (un point débattu), sans écriture ni poterie.",
             
             datesCles: [
-              { annee: -3500, evenement: "Sédentarisation côtière", info: "Les populations s'installent dans la vallée de Supe pour exploiter les ressources marines et agricoles." },
+              { annee: -3500, evenement: "Sédentarisation côtière", info: "Les populations s'installent dans la vallée de Supe pour exploiter les ressources marines et agricoles. Les premiers centres monumentaux apparaissent vers -3000." },
               { annee: -2600, evenement: "Âge d'or architectural", info: "Construction de la ville sacrée de Caral et de sa Grande Pyramide (Pirámide Mayor)." },
-              { annee: -1800, evenement: "Déclin et abandon", info: "Des changements climatiques (El Niño massif) détruisent l'écosystème, forçant l'exode vers le nord." }
+              { annee: -1800, evenement: "Déclin et abandon", info: "Les causes de l'abandon sont discutées : des changements climatiques (épisodes El Niño) sont une hypothèse parmi d'autres." }
             ],
             dirigeants: [],
             personnages: [],
-            sciences: "Leur développement technologique est unique et atypique : ils ne fabriquent ni armes, ni poteries, mais sont d'exceptionnels architectes. Ils inventent les 'shicras', des sacs en fibre végétale remplis de pierres intégrés dans les fondations des pyramides, créant le premier système parasismique de l'histoire. C'est également à Caral qu'a été retrouvé le plus ancien 'quipu' (système comptable complexe basé sur des cordelettes à nœuds).",
+            sciences: "Leur développement technologique est unique et atypique : ils ne fabriquent ni armes, ni poteries, mais sont d'exceptionnels architectes. Ils inventent les 'shicras', des sacs en fibre végétale remplis de pierres intégrés dans les fondations des pyramides, qui stabilisaient peut-être les édifices lors des séismes (une hypothèse). Un objet trouvé à Caral a été présenté comme un très ancien 'quipu' (système de cordelettes à nœuds), mais cette identification est débattue : les plus anciens quipus sûrement datés sont huaris.",
             croyancesText: "La religion de Caral semble axée sur le culte du feu et la musique. Au centre des architectures monumentales se trouvent des amphithéâtres circulaires engloutis contenant des foyers sacrés où des offrandes (quartz, coquillages, cheveux) étaient brûlées. Des fouilles y ont mis au jour d'impressionnants ensembles d'instruments à vent : 32 flûtes taillées dans des os de condor et de pélican.",
-            diplomatie: "C'est une anomalie dans l'histoire humaine : la civilisation de Caral est la seule civilisation primitive majeure dont l'archéologie n'a révélé absolument aucune trace de guerre. Pas de murailles, pas d'armes, pas de corps mutilés. Leur économie repose sur un puissant réseau commercial pacifique entre les pêcheurs de la côte (apportant anchois et sardines) et les agriculteurs des terres (cultivant le coton et les courges).",
+            diplomatie: "Fait remarquable, l'archéologie n'a révélé à Caral que peu ou pas de traces de guerre (peu de murailles, d'armes ou de corps blessés), même si ce point reste débattu. Leur économie repose sur un puissant réseau commercial pacifique entre les pêcheurs de la côte (apportant anchois et sardines) et les agriculteurs des terres (cultivant le coton et les courges).",
             guerres: [],
             documentaires: [
               { titre: "Wikipédia : Civilisation de Caral", url: "https://fr.wikipedia.org/wiki/Civilisation_de_Caral" }

@@ -217,24 +217,25 @@ export default [
             label: "Républiques Maritimes",
             period: "697 à 1492", start: 697, end: 1492,
             color: "#d32f2f", isRiver: false, capitale: "Venise, Gênes, Amalfi",
-            description: "Génies du capitalisme primitif et maîtres des mers, ces cités-États d'Italie ont financé les croisades et raflé le commerce des épices d'Orient.",
+            description: "Pionnières du capitalisme marchand et maîtresses des mers, ces cités-États d'Italie ont participé aux croisades et dominé une grande partie du commerce des épices d'Orient.",
             datesCles: [
               { annee: 828, evenement: "Reliques de Saint Marc", info: "Les Vénitiens volent le corps du saint à Alexandrie, justifiant leur suprématie spirituelle." },
               { annee: 1204, evenement: "4e Croisade", info: "Venise détourne la croisade pour saccager sa rivale commerciale, Constantinople." },
               { annee: 1298, evenement: "Bataille de Curzola", info: "Gênes écrase la flotte de Venise. Marco Polo y est fait prisonnier." },
-              { annee: 1380, evenement: "Guerre de Chioggia", info: "Venise prend sa revanche sur Gênes et devient l'hégémonie absolue de Méditerranée." }
+              { annee: 1380, evenement: "Guerre de Chioggia", info: "Venise résiste à Gênes et à ses alliés puis l'emporte ; la paix de Turin (1381) confirme sa position de grande puissance commerciale, sans lui donner de monopole." }
             ],
             dirigeants: [
               { titre: "Doge de Venise", nom: "Enrico Dandolo", surnom: "", debut: 1192, fin: 1205 }
             ],
             personnages: [
-              { nom: "Marco Polo", role: "Marchand explorateur", description: "Vénitien ayant traversé l'Asie, devenu ambassadeur du Khan mongol. Son 'Livre des Merveilles' a fasciné l'Europe.", dates: "1254 à 1324", wikiUrl: "https://fr.wikipedia.org/wiki/Marco_Polo" }
+              { nom: "Marco Polo", role: "Marchand explorateur", description: "Vénitien ayant traversé l'Asie, resté de longues années au service de l'empereur mongol Kubilaï. Son 'Livre des Merveilles' a fasciné l'Europe.", dates: "1254 à 1324", wikiUrl: "https://fr.wikipedia.org/wiki/Marco_Polo" }
             ],
-            sciences: "Elles ont inventé la banque moderne, la comptabilité en partie double, la lettre de change (chèque), l'assurance maritime et le premier système de brevet industriel. L'Arsenal de Venise est l'usine la plus sophistiquée du Moyen Âge : avec un travail à la chaîne de charpentiers, de voiliers et de forgerons, ils pouvaient assembler et armer une galère de guerre complète en une seule journée.",
-            croyancesText: "Malgré un catholicisme affiché de façade, le véritable dieu des Républiques est le commerce. La Papauté menaçait souvent Venise d'excommunication pour son commerce impie (bois, fer, esclaves) avec le monde musulman, ce à quoi les sénateurs vénitiens répondaient : 'Nous sommes d'abord Vénitiens, ensuite Chrétiens'.",
+            sciences: "Elles ont inventé la banque moderne, la comptabilité en partie double, la lettre de change (un ordre de paiement entre places marchandes, ancêtre lointain du chèque), l'assurance maritime et le premier système de brevet industriel. L'Arsenal de Venise est l'un des plus grands chantiers du Moyen Âge : charpentiers, voiliers et forgerons y travaillent par étapes, ce qui permet d'armer rapidement des flottes entières (selon une anecdote de 1574, une galère y aurait même été assemblée en une journée).",
+            croyancesText: "Malgré un catholicisme affiché de façade, le véritable dieu des Républiques est le commerce. La Papauté menaçait souvent Venise d'excommunication pour son commerce impie (bois, fer, esclaves) avec le monde musulman, ce qui n'empêchait pas Venise de défendre farouchement ses intérêts commerciaux (la formule « Nous sommes d'abord Vénitiens, ensuite Chrétiens » qu'on lui prête est apocryphe).",
             diplomatie: "Plutôt que de conquérir de lourds empires continentaux, Venise et Gênes créent des 'empires de comptoirs'. Ce sont des réseaux ininterrompus de ports fortifiés (Crète, Chypre, Crimée) sécurisant la route des épices et de la soie. Elles sont gouvernées par un patriciat oligarchique (le Grand Conseil), élisant un Doge surveillé par le terrible et redouté Conseil des Dix.",
             guerres: [
-              { nom: "Guerre de Saint-Sabas / Guerre de Chioggia", annee: 1256, adversaires: ["République de Gênes"], allies: ["Empire Byzantin (pour Gênes)"], morts: "Destruction des flottes de combat", vainqueur: "Venise", consequences: "Venise purge Gênes de la Méditerranée orientale et s'assure le monopole du commerce du poivre et de la soie.", wikiUrl: "https://fr.wikipedia.org/wiki/Guerre_de_Chioggia" }
+              { nom: "Guerre de Saint-Sabas", annee: 1256, adversaires: ["République de Gênes"], allies: [], morts: "Inconnu", vainqueur: "Venise (sur mer)", consequences: "Guerre de 1256 à 1270, partie d'une querelle de quartiers à Acre. Venise l'emporte sur mer, mais par le traité de Nymphée (1261), l'Empire byzantin ouvre la mer Noire à Gênes.", wikiUrl: "https://fr.wikipedia.org/wiki/Guerre_de_Saint-Sabas" },
+              { nom: "Guerre de Chioggia", annee: 1378, adversaires: ["République de Gênes", "Royaume de Hongrie", "Seigneurie de Padoue"], allies: [], morts: "Inconnu", vainqueur: "Venise", consequences: "Guerre de 1378 à 1381. Venise, assiégée à Chioggia, finit par l'emporter. La paix de Turin (1381) rétablit un équilibre, sans donner de monopole à Venise.", wikiUrl: "https://fr.wikipedia.org/wiki/Guerre_de_Chioggia" }
             ],
             documentaires: [{ titre: "Venise : La Cité des Doges", url: "https://fr.wikipedia.org/wiki/R%C3%A9publique_de_Venise" }]
           },
@@ -276,10 +277,10 @@ export default [
             color: "#b71c1c", isRiver: false, capitale: "Léon / Tolède / Burgos",
             description: "Les petits royaumes chrétiens réfugiés dans les montagnes du nord (Castille, Aragon) devenant peu à peu la féroce machine de guerre de l'Espagne moderne.",
             datesCles: [
-              { annee: 718, evenement: "Bataille de Covadonga", info: "L'étincelle : Pélage repousse un raid musulman dans les montagnes des Asturies." },
+              { annee: 718, evenement: "Bataille de Covadonga", info: "Vers 718-722 (date discutée), Pélage repousse un raid musulman dans les montagnes des Asturies." },
               { annee: 1085, evenement: "Prise de Tolède", info: "Alphonse VI reprend l'ancienne capitale wisigothe au centre de la péninsule." },
               { annee: 1212, evenement: "Las Navas de Tolosa", info: "La coalition chrétienne écrase les troupes almohades." },
-              { annee: 1469, evenement: "Le Mariage", info: "Isabelle de Castille épouse Ferdinand d'Aragon, unifiant géopolitiquement l'Espagne." },
+              { annee: 1469, evenement: "Le Mariage", info: "Isabelle de Castille épouse Ferdinand d'Aragon. C'est une union personnelle : les deux couronnes gardent leurs propres lois et institutions." },
               { annee: 1492, evenement: "La prise de Grenade", info: "Fin de la Reconquista chrétienne. (La même année, Colomb part pour les Amériques)." }
             ],
             dirigeants: [
@@ -287,13 +288,13 @@ export default [
               { titre: "Reine et Roi (Catholiques)", nom: "Isabelle & Ferdinand", surnom: "", debut: 1474, fin: 1504 }
             ],
             personnages: [
-              { nom: "Le Cid (Rodrigo Díaz de Vivar)", role: "Chevalier / Mercenaire", description: "Héros de l'épopée espagnole, il servit autant les rois chrétiens que les émirs musulmans, se taillant une principauté à Valence.", dates: "1048 à 1099", wikiUrl: "https://fr.wikipedia.org/wiki/Rodrigo_D%C3%ADaz_de_Vivar" }
+              { nom: "Le Cid (Rodrigo Díaz de Vivar)", role: "Chevalier / Mercenaire", description: "Héros de l'épopée espagnole, il servit autant les rois chrétiens que les émirs musulmans, se taillant une principauté à Valence.", dates: "Vers 1043 à 1099", wikiUrl: "https://fr.wikipedia.org/wiki/Rodrigo_D%C3%ADaz_de_Vivar" }
             ],
             sciences: "Leur génie est poliorcétique (guerre de siège) et naval. Aragon et la Catalogne développent une flotte puissante (les galères catalanes) et l'une des cartographies les plus précises du monde. En reprenant les villes musulmanes (comme Tolède), ils mettent la main sur les immenses bibliothèques arabes et créent l'École de traduction de Tolède, transférant les mathématiques et la philosophie vers le latin.",
             croyancesText: "C'est une société de frontière justifiant sa violence territoriale par la théologie de la Croisade perpétuelle. L'Église structure la société autour du culte de Santiago Matamoros (Saint Jacques le Tueur de Maures), patron protecteur, et de la création de violents ordres militaires nationaux de moines-soldats (Ordre de Calatrava et de Santiago) inspirés des Templiers.",
-            diplomatie: "La Reconquista n'est pas un front uni continu. Les royaumes chrétiens (Léon, Castille, Navarre, Portugal, Aragon) se font la guerre entre eux autant qu'aux musulmans, via des successions dynastiques empoisonnées. Ce n'est qu'avec le mariage secret des 'Rois Catholiques' (Isabelle et Ferdinand) en 1469 que l'Espagne forge un État moderne, centralisé et diplomatiquement craint dans toute l'Europe.",
+            diplomatie: "La Reconquista n'est pas un front uni continu. Les royaumes chrétiens (Léon, Castille, Navarre, Portugal, Aragon) se font la guerre entre eux autant qu'aux musulmans, via des successions dynastiques empoisonnées. Le mariage secret des 'Rois Catholiques' (Isabelle et Ferdinand) en 1469 rapproche la Castille et l'Aragon : c'est une union personnelle, chaque couronne gardant ses lois, mais leur politique commune fait de l'Espagne une puissance redoutée en Europe.",
             guerres: [
-              { nom: "Guerre de Grenade", annee: 1482, adversaires: ["Royaume nasride de Grenade (Boabdil)"], allies: ["Artillerie du Saint-Empire"], morts: "Fin de l'Al-Andalus", vainqueur: "Rois Catholiques", consequences: "Capitulation par traité. L'Espagne est réunifiée. Peu après, la monarchie expulsera les Juifs et forcera la conversion des musulmans (Morisques).", wikiUrl: "https://fr.wikipedia.org/wiki/Guerre_de_Grenade" }
+              { nom: "Guerre de Grenade", annee: 1482, adversaires: ["Royaume nasride de Grenade (Boabdil)"], allies: ["Couronne de Castille", "Couronne d'Aragon"], morts: "Fin de l'Al-Andalus", vainqueur: "Rois Catholiques", consequences: "Capitulation par traité. L'Espagne est réunifiée. Peu après, la monarchie expulsera les Juifs et forcera la conversion des musulmans (Morisques).", wikiUrl: "https://fr.wikipedia.org/wiki/Guerre_de_Grenade" }
             ],
             documentaires: [{ titre: "La Reconquista : La fabrique de l'Espagne", url: "https://fr.wikipedia.org/wiki/Reconquista" }]
           }
@@ -401,17 +402,17 @@ export default [
               { annee: 842, evenement: "Effondrement", info: "L'assassinat du dernier roi, Langdarma, précipite le pays dans la guerre civile féodale." }
             ],
             dirigeants: [
-              { titre: "Tsenpo (Empereur)", nom: "Songtsen Gampo", surnom: "", debut: 604, fin: 650 },
+              { titre: "Tsenpo (Empereur)", nom: "Songtsen Gampo", surnom: "", debut: 629, fin: 649 },
               { titre: "Tsenpo", nom: "Trisong Detsen", surnom: "", debut: 755, fin: 797 }
             ],
             personnages: [
               { nom: "Padmasambhava", role: "Maître tantrique", description: "Gourou indien invité au Tibet pour dompter par magie les démons locaux, fondateur spirituel du bouddhisme tibétain.", dates: "≈ VIIIe siècle", wikiUrl: "https://fr.wikipedia.org/wiki/Padmasambhava" }
             ],
             sciences: "Leur suprématie est militaire. Ils développent une cavalerie cataphractaire (lourde) terrifiante : le cavalier et sa monture sont entièrement recouverts d'armures de mailles métalliques. C'est sous cet empire que la langue tibétaine est dotée d'une écriture alphabetique et d'une grammaire complexe (adaptée du sanskrit indien) spécifiquement pour traduire massivement les textes sacrés bouddhistes d'Inde.",
-            croyancesText: "À l'origine, le Tibet pratique le 'Bön', un animisme de haute montagne axé sur le culte des esprits protecteurs et de la royauté divine. Sous le patronage des rois (les Rois du Dharma), un débat épique (le Concile de Lhassa) est organisé entre des moines zen chinois et des moines mystiques indiens. Les rois choisissent l'école indienne (Vajrayana), qui va fusionner avec la magie locale pour créer le Bouddhisme tantrique tibétain.",
-            diplomatie: "Situé stratégiquement sur le Toit du Monde, le Tibet verrouille les routes commerciales de la Soie sud. Pour sécuriser sa paix, le roi Songtsen Gampo force diplomatiquement la Chine (Princesse Wencheng) et le Népal (Princesse Bhrikuti) à lui donner des épouses royales, lesquelles auraient apporté avec elles les premières idoles bouddhistes au Tibet.",
+            croyancesText: "À l'origine, le Tibet pratique le 'Bön', un animisme de haute montagne axé sur le culte des esprits protecteurs et de la royauté divine. Sous le patronage des rois (les Rois du Dharma), un grand débat (le débat de Samye, vers 792-794) oppose des moines chan (zen) chinois, partisans de l'éveil subit, et le moine indien Kamalashila, partisan d'une voie graduelle. Kamalashila est déclaré vainqueur et le Tibet suit les écoles indiennes, qui va fusionner avec la magie locale pour créer le Bouddhisme tantrique tibétain.",
+            diplomatie: "Situé stratégiquement sur le Toit du Monde, le Tibet verrouille les routes commerciales de la Soie sud. Pour sécuriser sa paix, le roi Songtsen Gampo force diplomatiquement la Chine (Princesse Wencheng) et le Népal (Princesse Bhrikuti, selon la tradition) à lui donner des épouses royales, lesquelles auraient apporté avec elles les premières idoles bouddhistes au Tibet.",
             guerres: [
-              { nom: "Guerres arabo-tibétaines / sino-tibétaines", annee: 751, adversaires: ["Empire Tang", "Califat Abbasside"], allies: ["Tribus Turques"], morts: "Pertes militaires frontalières", vainqueur: "Empire Tibétain", consequences: "L'Empire s'étend jusqu'au Turkestan et au Bengale, contrôlant un espace géopolitique immense avant de s'effondrer de l'intérieur.", wikiUrl: "https://fr.wikipedia.org/wiki/Empire_du_Tibet" }
+              { nom: "Guerres sino-tibétaines", annee: 763, adversaires: ["Empire Tang"], allies: ["Royaume de Nanzhao"], morts: "Pertes militaires frontalières", vainqueur: "Empire Tibétain (pour un temps)", consequences: "Profitant de la révolte d'An Lushan, le Tibet prend brièvement Chang'an, la capitale des Tang, en 763, et contrôle pour un temps le Gansu et une partie des oasis d'Asie centrale, avant de s'effondrer de l'intérieur au IXe siècle.", wikiUrl: "https://fr.wikipedia.org/wiki/Empire_du_Tibet" }
             ],
             documentaires: [{ titre: "L'Histoire occulte du Tibet", url: "https://fr.wikipedia.org/wiki/Empire_du_Tibet" }]
           },
@@ -449,12 +450,12 @@ export default [
             label: "Corée (Dynastie Goryeo)",
             period: "918 à 1392", start: 918, end: 1392,
             color: "#bf360c", isRiver: false, capitale: "Gaegyeong",
-            description: "Un riche empire bouddhiste de la péninsule asiatique, reconnu pour son céramisme d'art, qui dut survivre à un siècle d'occupation barbare.",
+            description: "Un riche empire bouddhiste de la péninsule asiatique, reconnu pour son céramisme d'art, qui dut survivre à près d'un siècle de domination mongole.",
             datesCles: [
-              { annee: 918, evenement: "Fondation", info: "Wang Geon unifie la péninsule et lui donne le nom de 'Goryeo' (qui deviendra le mot 'Corée')." },
+              { annee: 918, evenement: "Fondation", info: "Wang Geon fonde le royaume de 'Goryeo' (qui deviendra le mot 'Corée') ; il unifie la péninsule en 935-936." },
               { annee: 1170, evenement: "Coup d'état militaire", info: "Les généraux massacrent les nobles civils et instaurent une dictature d'un siècle." },
               { annee: 1231, evenement: "Invasion Mongole", info: "Début d'une guerre de terre brûlée forçant le roi à se réfugier sur une île fortifiée." },
-              { annee: 1377, evenement: "L'Imprimerie métallique", info: "Impression du Jikji avec des caractères mobiles en métal." }
+              { annee: 1377, evenement: "L'Imprimerie métallique", info: "Impression du Jikji, le plus ancien livre conservé imprimé en caractères mobiles métalliques (leur usage est attesté dès vers 1234)." }
             ],
             dirigeants: [
               { titre: "Taejo (Fondateur)", nom: "Wang Geon", surnom: "", debut: 918, fin: 943 },
@@ -463,8 +464,8 @@ export default [
             personnages: [
               { nom: "Gongmin", role: "Roi réformateur", description: "Lutte héroïquement et victorieusement pour se débarrasser de la tutelle mongole déclinante.", dates: "1351 à 1374", wikiUrl: "https://fr.wikipedia.org/wiki/Gongmin_(roi_de_Goryeo)" }
             ],
-            sciences: "Le génie technique coréen devance le monde sur deux points. D'abord, l'imprimerie : les Coréens inventent et utilisent des caractères mobiles fondus en métal (bronze) 78 ans avant le premier livre de l'allemand Gutenberg. Ensuite, le Céladon, une céramique d'un éclat vert émeraude incrustée d'argile blanche et noire si parfaite que même les empereurs de la Chine Song l'achetaient à prix d'or.",
-            croyancesText: "L'état dépense une fortune dans le patronage du Bouddhisme, y voyant une armure mystique pour protéger la nation. Lors des invasions mongoles, l'État a financé la gravure du Tripitaka Koreana : 81 258 panneaux de bois massifs contenant l'intégralité du canon bouddhiste gravé à l'envers, sans la moindre erreur, pour invoquer l'aide divine (ils sont toujours intacts aujourd'hui).",
+            sciences: "Le génie technique coréen devance le monde sur deux points. D'abord, l'imprimerie : les Coréens utilisent des caractères mobiles fondus en métal dès le XIIIe siècle ; le Jikji (1377), plus ancien livre conservé imprimé ainsi, précède d'environ 78 ans la Bible de Gutenberg. Ensuite, le Céladon, une céramique d'un éclat vert émeraude incrustée d'argile blanche et noire, dont l'envoyé chinois Xu Jing fait l'éloge en 1123.",
+            croyancesText: "L'état dépense une fortune dans le patronage du Bouddhisme, y voyant une armure mystique pour protéger la nation. Lors des invasions mongoles, l'État a financé la gravure du Tripitaka Koreana : environ 81 258 planches de bois (selon les comptages) contenant le canon bouddhiste gravé à l'envers, pour invoquer l'aide divine (ils sont toujours intacts aujourd'hui).",
             diplomatie: "Goryeo est un acteur pivot entre les puissantes dynasties nordiques mandchoues (Khitan, Jurchen) et la Chine. Son régime vacille lors des purges internes, passant d'un pouvoir civil à une junte militaire impitoyable (le clan Choe). Pour survivre à l'invasion mongole, la royauté coréenne devra se résoudre à marier ses princes aux princesses gengiskhanides pendant près d'un siècle.",
             guerres: [
               { nom: "Guerre Mongol-Goryeo", annee: 1231, adversaires: ["Empire Mongol"], allies: [], morts: "Massacre civil par la cavalerie mongole", vainqueur: "Empire Mongol", consequences: "Le Goryeo devient un État vassal des Mongols, qui l'utiliseront comme base forcée de construction navale pour attaquer le Japon.", wikiUrl: "https://fr.wikipedia.org/wiki/Invasions_mongoles_de_la_Cor%C3%A9e" }
@@ -505,8 +506,8 @@ export default [
             color: "#009688", isRiver: false, capitale: "Palembang (Sumatra)",
             description: "Puissante confédération maritime (Indonésie/Malaisie) tenant en otage le détroit de Malacca et s'enrichissant du commerce mondial des épices fines.",
             datesCles: [
-              { annee: 683, evenement: "Serment de l'empereur", info: "L'inscription de Kedukan Bukit prouve l'organisation d'une marine de 20 000 hommes." },
-              { annee: 850, evenement: "Pôle d'éducation", info: "Le pèlerin chinois I-Tsing y décrit une université bouddhiste accueillant plus de 1000 moines." },
+              { annee: 682, evenement: "Inscription de Kedukan Bukit", info: "Elle relate une expédition de 20 000 soldats menée par le souverain. Les serments de fidélité sont connus par d'autres inscriptions (Telaga Batu, Kota Kapur en 686)." },
+              { annee: 687, evenement: "Pôle d'éducation", info: "Le pèlerin chinois Yijing (I-Tsing), qui y séjourne entre 671 et 695, décrit un centre bouddhiste accueillant plus de 1000 moines." },
               { annee: 1025, evenement: "Le raid indien", info: "L'empire Chola ravage 14 ports d'Indonésie, brisant le monopole naval de Srivijaya." }
             ],
             dirigeants: [
@@ -514,8 +515,8 @@ export default [
             ],
             personnages: [],
             sciences: "Empire de navigateurs d'élite, ils utilisent des 'outriggers' (bateaux à balanciers) cousus avec de la fibre de palme (sans clous de métal, qui rouilleraient sous les tropiques). Ils maîtrisent parfaitement la complexe logistique des vents de mousson, stockant les marchandises chinoises et indiennes dans d'énormes entrepôts pendant les mois d'attente du changement de vent.",
-            croyancesText: "L'État parraine lourdement le Bouddhisme Vajrayana. Palembang devient le centre international obligatoire où les moines de l'Inde orientale, du Tibet et de la Chine viennent séjourner des années pour y étudier la traduction des écritures sacrées sanskrites avant de continuer leur voyage mystique.",
-            diplomatie: "C'est une hégémonie fondée sur la 'Thalassocratie d'extorsion'. Srivijaya ne possède pas de terres arables. Son pouvoir consiste à positionner des flottes armées dans le détroit de Malacca et de la Sonde, forçant physiquement tous les navires marchands naviguant entre la Perse, l'Inde et la Chine à s'arrêter dans ses ports pour payer des taxes portuaires exorbitantes en or.",
+            croyancesText: "L'État parraine lourdement le bouddhisme, surtout mahayana (avec des éléments tantriques). Palembang devient le centre international obligatoire où les moines de l'Inde orientale, du Tibet et de la Chine viennent séjourner des années pour y étudier la traduction des écritures sacrées sanskrites avant de continuer leur voyage mystique.",
+            diplomatie: "C'est une thalassocratie (puissance maritime). Srivijaya dispose de peu de terres agricoles et tire l'essentiel de sa richesse du commerce. Ses flottes contrôlent les détroits de Malacca et de la Sonde et incitent les navires marchands circulant entre la Perse, l'Inde et la Chine à faire escale dans ses ports, où ils paient des taxes.",
             guerres: [
               { nom: "Invasion des Chola", annee: 1025, adversaires: ["Empire Chola (Inde du Sud)"], allies: [], morts: "Effondrement économique du réseau", vainqueur: "Empire Chola", consequences: "Exaspérés par les taxes de Srivijaya, les navires de guerre de l'Inde du sud attaquent par surprise et pillent la capitale, marquant le déclin de l'Indonésie médiévale.", wikiUrl: "https://fr.wikipedia.org/wiki/Srivijaya" }
             ],
@@ -530,7 +531,7 @@ export default [
             description: "La superpuissance tamoule de l'Inde du Sud, à la marine conquérante et à l'architecture monumentale inébranlable.",
             datesCles: [
               { annee: 848, evenement: "L'ascension", info: "Vijayalaya Chola s'empare de la ville de Thanjavur et fonde la dynastie impériale." },
-              { annee: 1010, evenement: "Le Brihadisvara", info: "Achèvement du monumental temple impérial taillé dans un seul bloc de granit géant." },
+              { annee: 1010, evenement: "Le Brihadisvara", info: "Achèvement du monumental temple impérial, bâti en blocs de granit." },
               { annee: 1025, evenement: "Hégémonie navale", info: "La flotte Chola traverse le golfe du Bengale pour écraser l'Empire de Srivijaya." }
             ],
             dirigeants: [
@@ -538,11 +539,11 @@ export default [
               { titre: "Raja", nom: "Rajendra Ier", surnom: "", debut: 1014, fin: 1044 }
             ],
             personnages: [],
-            sciences: "Leur génie culmine avec la gestion hydraulique (réseau de canaux colossaux sur le fleuve Kaveri pour prévenir les inondations). Ils produisent la plus belle statuaire de bronze à cire perdue de l'humanité, particulièrement la figure du Shiva Nataraja (le danseur cosmique entouré de flammes), fondue d'une seule pièce et d'une fluidité de mouvement spectaculaire.",
-            croyancesText: "Farouchement hindous de rite shivaïte, les souverains Chola construisent des temples-villes massifs (les Vimana), conçus pour fonctionner comme de véritables banques et centres de redistribution agricole. Ils réinvestissent l'immense butin de leurs guerres en Asie du Sud-Est pour recouvrir les toits de leurs temples d'or pur, transformant la caste des brahmanes (prêtres) en riche administrateurs d'État.",
+            sciences: "Ils entretiennent et développent les aménagements hydrauliques du fleuve Kaveri, dont une grande partie est plus ancienne (barrage de Kallanai, attribué aux premiers Chola). Ils produisent la plus belle statuaire de bronze à cire perdue de l'humanité, particulièrement la figure du Shiva Nataraja (le danseur cosmique entouré de flammes), fondue d'une seule pièce et d'une fluidité de mouvement spectaculaire.",
+            croyancesText: "Farouchement hindous de rite shivaïte, les souverains Chola construisent des temples massifs, dominés par leur vimana (la tour du sanctuaire), conçus pour fonctionner comme de véritables banques et centres de redistribution agricole. Ils réinvestissent l'immense butin de leurs guerres en Asie du Sud-Est pour recouvrir les toits de leurs temples d'or pur, transformant la caste des brahmanes (prêtres) en riche administrateurs d'État.",
             diplomatie: "C'est l'un des très rares empires de l'histoire indienne à se tourner vers la conquête navale étrangère. Ils entretiennent de formelles ambassades diplomatiques et commerciales jusqu'à la cour de la dynastie Song en Chine. Quand le monopole malaisien de Srivijaya menace leurs marchands en bloquant le détroit, l'empereur indien lève une flotte armée pour aller les détruire.",
             guerres: [
-              { nom: "Campagnes navales d'Asie du Sud-Est", annee: 1025, adversaires: ["Empire de Srivijaya", "Royaumes malais"], allies: [], morts: "Pillage systématique", vainqueur: "Empire Chola", consequences: "Le roi Rajendra Ier s'empare de dizaines de ports exotiques et ramène l'empereur malais enchaîné en Inde.", wikiUrl: "https://fr.wikipedia.org/wiki/Dynastie_Chola" }
+              { nom: "Campagnes navales d'Asie du Sud-Est", annee: 1025, adversaires: ["Empire de Srivijaya", "Royaumes malais"], allies: [], morts: "Pillage systématique", vainqueur: "Empire Chola", consequences: "Le roi Rajendra Ier s'empare de dizaines de ports exotiques et capture le roi de Srivijaya.", wikiUrl: "https://fr.wikipedia.org/wiki/Dynastie_Chola" }
             ],
             documentaires: [{ titre: "L'art du bronze et l'Empire Chola", url: "https://fr.wikipedia.org/wiki/Dynastie_Chola" }]
           }
@@ -557,23 +558,23 @@ export default [
             label: "Empire du Ghana",
             period: "500 à 1240", start: 500, end: 1240,
             color: "#c59b27", isRiver: false, capitale: "Koumbi Saleh",
-            description: "Le 'Pays de l'Or'. Premier grand empire subsaharien s'enrichissant follement en taxant la plus grande route caravanière du monde (le commerce transsaharien).",
+            description: "Le 'Pays de l'Or'. Premier grand empire subsaharien s'enrichissant en taxant le commerce caravanier transsaharien.",
             datesCles: [
               { annee: 1068, evenement: "Description d'al-Bakri", info: "Le géographe andalou décrit la cour royale : le roi siège couvert d'or massif." },
-              { annee: 1076, evenement: "Pillage Almoravide", info: "Des tribus nomades militarisées venues de Mauritanie détruisent la capitale." },
+              { annee: 1076, evenement: "Attaque almoravide", info: "Selon des auteurs arabes plus tardifs, les Almoravides, venus de l'actuelle Mauritanie, prennent la capitale (un épisode débattu par les historiens)." },
               { annee: 1240, evenement: "L'annexion", info: "Les ruines du royaume sont absorbées par un nouvel empire émergeant : le Mali." }
             ],
             dirigeants: [
-              { titre: "Kaya Magan (Roi de l'Or)", nom: "Tunka Manin", surnom: "", debut: 1062, fin: 1076 }
+              { titre: "Kaya Magan (Roi de l'Or)", nom: "Tunka Manin", surnom: "Début de règne en 1063, fin de règne inconnue", debut: 1063, fin: 1076 }
             ],
             personnages: [],
             sciences: "Ils ne produisent pas d'or, ils le prélèvent en transit. L'ingénierie de l'État repose sur l'invention de la douane impériale. Ils s'installent à la lisière absolue du désert du Sahara, là où les caravaniers nord-africains (venant d'arriver avec du sel et du cuivre) sont obligés de s'arrêter. Les fonctionnaires du roi prélèvent un impôt lourd sur chaque charge de dromadaire entrant et sortant du royaume.",
-            croyancesText: "L'État est divisé en deux villes parallèles séparées de dix kilomètres : la ville royale, pratiquant la religion animiste traditionnelle (culte du serpent mythique Bida, garant de la fertilité en or des mines du sud) et la ville marchande, intégralement peuplée de commerçants arabo-berbères de confession musulmane sunnite dotés de multiples mosquées.",
+            croyancesText: "L'État est divisé en deux villes parallèles séparées de dix kilomètres : la ville royale, pratiquant la religion animiste traditionnelle (selon la légende soninké du Wagadou, le serpent Bida garantissait la prospérité et l'or du pays) et la ville marchande, habitée par des marchands musulmans, souvent arabo-berbères, dotée de nombreuses mosquées.",
             diplomatie: "Le pouvoir royal réside dans le monopole : toute pépite d'or brute trouvée sur le territoire appartient au roi, les marchands ne pouvant faire commerce que de poudre d'or. L'armée impériale, très lourdement armée grâce à la maîtrise de la fonte du fer, comptait selon les chroniqueurs jusqu'à 200 000 fantassins pour maintenir la paix commerciale sur l'immense savane.",
             guerres: [
-              { nom: "Guerre Almoravide", annee: 1076, adversaires: ["Mouvement Almoravide"], allies: [], morts: "Inconnu", vainqueur: "Almoravides", consequences: "Chute de la capitale Koumbi Saleh. Le contrôle des routes de l'or est déstabilisé, fragmentant l'empire du Wagadou en petites principautés vassales.", wikiUrl: "https://fr.wikipedia.org/wiki/Empire_du_Ghana" }
+              { nom: "Guerre Almoravide", annee: 1076, adversaires: ["Mouvement Almoravide"], allies: [], morts: "Inconnu", vainqueur: "Almoravides", consequences: "Selon des sources arabes plus tardives (épisode débattu), chute de la capitale Koumbi Saleh. Le contrôle des routes de l'or est déstabilisé, fragmentant l'empire du Wagadou en petites principautés vassales.", wikiUrl: "https://fr.wikipedia.org/wiki/Empire_du_Ghana" }
             ],
-            documentaires: [{ titre: "Le Ghana, l'Empire de l'Or Noir", url: "https://fr.wikipedia.org/wiki/Empire_du_Ghana" }]
+            documentaires: [{ titre: "Le Ghana, pays de l'or", url: "https://fr.wikipedia.org/wiki/Empire_du_Ghana" }]
           },
           {
             id: "mali",
@@ -604,9 +605,9 @@ export default [
             id: "songhai",
             trackId: "afrique_ouest", row: 1,
             label: "Empire Songhaï",
-            period: "1464 à 1591", start: 1464, end: 1492,
+            period: "1464 à 1492", start: 1464, end: 1492,
             color: "#b83b1d", isRiver: true, capitale: "Gao",
-            description: "Anciens vassaux du Mali s'émancipant pour fonder le plus vaste et le plus militarisé des empires de l'histoire de l'Afrique subsaharienne occidentale.",
+            description: "Anciens vassaux du Mali s'émancipant pour fonder un empire qui deviendra, sous les Askia, le plus vaste de l'histoire de l'Afrique de l'Ouest.",
             datesCles: [
               { annee: 1464, evenement: "Prise de pouvoir", info: "Sonni Ali Ber s'empare du trône et entame des conquêtes fulgurantes et sans merci." },
               { annee: 1468, evenement: "Prise de Tombouctou", info: "L'armée Songhaï chasse les Touaregs et pille brutalement la ville des lettrés." },
@@ -616,9 +617,9 @@ export default [
               { titre: "Empereur (Sonni)", nom: "Ali Ber", surnom: "Ali le Grand / Le Tyran", debut: 1464, fin: 1492 }
             ],
             personnages: [],
-            sciences: "Leur suprématie est tactique. L'Empire possède la première véritable flotte de guerre d'Afrique de l'Ouest : des milliers de pirogues immenses patrouillant sur les 2000 kilomètres du fleuve Niger. L'armée de terre, ultra-organisée, est scindée entre une infanterie lourde, une cavalerie en armure matelassée et un service de renseignement et de logistique structuré comme un état-major moderne.",
-            croyancesText: "Contrairement à l'empire du Mali, Sonni Ali Ber déteste le clergé musulman de Tombouctou qu'il accuse de trahison. Il règne comme un monarque animiste magicien traditionnel, sacrifiant ouvertement et ne gardant de l'Islam qu'un vernis utilitaire, ce qui lui valut d'être maudit et traité de 'sanguinaire païen' par tous les chroniques musulmans de l'époque (Tarikh al-Sudan).",
-            diplomatie: "L'État est d'une efficacité fiscale redoutable. Le territoire est divisé en provinces dirigées par des 'Fari' (gouverneurs) amovibles nommés directement par l'empereur, détruisant l'ancien système de chefferies héréditaires du Mali. Un système de poids et mesures uniformisé garantit les rentrées d'impôts.",
+            sciences: "Leur suprématie est tactique. Sonni Ali s'appuie sur une cavalerie mobile et sur une flotte de pirogues qui circule sur le fleuve Niger, permettant de transporter troupes et ravitaillement.",
+            croyancesText: "Contrairement à l'empire du Mali, Sonni Ali Ber déteste le clergé musulman de Tombouctou qu'il accuse de trahison. Il règne en mêlant islam et pratiques religieuses traditionnelles songhaï, ce qui lui vaut d'être présenté comme un tyran impie par les chroniqueurs musulmans (comme l'auteur du Tarikh al-Sudan, rédigé au XVIIe siècle).",
+            diplomatie: "Sonni Ali mène surtout une politique de conquête : il soumet les grandes villes marchandes du Niger (Tombouctou, Djenné) et repousse les Touaregs et les Mossis. L'organisation administrative de l'empire (provinces confiées à des gouverneurs, poids et mesures) sera surtout l'œuvre de son successeur Askia Mohammed.",
             guerres: [
               { nom: "Expansion contre les royaumes Mossis", annee: 1483, adversaires: ["Cavaleries Mossis"], allies: [], morts: "Inconnu", vainqueur: "Songhaï", consequences: "Sécurisation totale du sud du fleuve Niger, repoussant les redoutables pillards Mossis hors des zones agricoles vitales.", wikiUrl: "https://fr.wikipedia.org/wiki/Empire_songha%C3%AF" }
             ],
@@ -637,15 +638,15 @@ export default [
               { annee: 1491, evenement: "Le grand baptême", info: "Le roi Nzinga a Nkuwu se convertit volontairement au catholicisme (prenant le nom de João Ier)." }
             ],
             dirigeants: [
-              { titre: "Manikongo (Roi)", nom: "Nimi a Lukeni", surnom: "", debut: 1390, fin: 1420 },
-              { titre: "Manikongo", nom: "Nzinga a Nkuwu", surnom: "João Ier du Kongo", debut: 1470, fin: 1506 }
+              { titre: "Manikongo (Roi)", nom: "Nimi a Lukeni", surnom: "Ou Lukeni lua Nimi selon la tradition ; fin du XIVe siècle, dates inconnues", debut: 1390, fin: 1420 },
+              { titre: "Manikongo", nom: "Nzinga a Nkuwu", surnom: "João Ier du Kongo", debut: 1470, fin: 1509 }
             ],
             personnages: [],
-            sciences: "Le Kongo produit des œuvres d'artisanat si complexes qu'elles impressionneront les rois d'Europe : les velours du Kasaï, des étoffes royales tissées avec du raphia. L'économie est monétarisée avec une incroyable précision grâce au 'Nzimbu', des petits coquillages pêchés exclusivement sur l'île de Luanda (appartenant personnellement au roi), faisant office de monnaie divisionnaire contrôlée par l'État pour éviter l'inflation.",
-            croyancesText: "Avant le baptême royal de 1491, le roi est le maître des esprits 'Nkisi' : des forces de la nature et de l'au-delà contenues dans des statues magiques (les fétiches à clous) capables de guérir ou de foudroyer les criminels. Le passage au christianisme par les souverains n'est pas vu comme une soumission, mais comme l'absorption d'une nouvelle 'magie blanche' très puissante venue de l'océan.",
-            diplomatie: "À la fin de notre période médiévale, l'arrivée des Portugais déclenche une diplomatie d'égal à égal rarissime dans l'histoire coloniale. Le roi du Kongo et le roi du Portugal s'envoient des ambassades, s'appellent 'Frères' dans leurs correspondances royales. Le Kongo expédie de l'ivoire et des captifs de guerre (début de la traite), en échange de maîtres d'école, d'imprimeurs, de tailleurs de pierre et d'arquebuses.",
+            sciences: "Le Kongo produit des œuvres d'artisanat si complexes qu'elles impressionneront les rois d'Europe : des étoffes de raphia du Kongo, si fines qu'on les compare au velours. L'économie est monétarisée avec une incroyable précision grâce au 'Nzimbu', des petits coquillages pêchés exclusivement sur l'île de Luanda (appartenant personnellement au roi), faisant office de monnaie divisionnaire contrôlée par l'État pour éviter l'inflation.",
+            croyancesText: "Avant le baptême royal de 1491, le roi est le maître des esprits 'Nkisi' : des forces de la nature et de l'au-delà contenues dans des objets rituels (minkisi) capables de guérir ou de foudroyer les criminels. Le passage au christianisme par les souverains n'est pas vu comme une soumission, mais comme l'absorption d'une nouvelle 'magie blanche' très puissante venue de l'océan.",
+            diplomatie: "À la fin de notre période médiévale, l'arrivée des Portugais déclenche une diplomatie d'égal à égal rarissime dans l'histoire coloniale. Le roi du Kongo et le roi du Portugal échangent des ambassades. Des prêtres, des artisans et des maçons portugais arrivent au Kongo, qui fournit de l'ivoire, du cuivre et bientôt des captifs (début de la traite).",
             guerres: [
-              { nom: "Unification du bassin", annee: 1400, adversaires: ["Chefferies Mbundu"], allies: [], morts: "Faibles", vainqueur: "Royaume du Kongo", consequences: "L'intégration des petits États voisins fait du Kongo l'entité politique la plus étendue d'Afrique centrale précoloniale.", wikiUrl: "https://fr.wikipedia.org/wiki/Royaume_du_Kongo" }
+              { nom: "Expansion du Kongo (fin XIVe – XVe s.)", annee: 1400, adversaires: ["Chefferies voisines (Nsundi, Mbata…)"], allies: [], morts: "Inconnu", vainqueur: "Royaume du Kongo", consequences: "L'intégration des petits États voisins fait du Kongo l'entité politique la plus étendue d'Afrique centrale précoloniale.", wikiUrl: "https://fr.wikipedia.org/wiki/Royaume_du_Kongo" }
             ],
             documentaires: [{ titre: "Le Royaume du Kongo : la Croix et le Nzimbu", url: "https://fr.wikipedia.org/wiki/Royaume_du_Kongo" }]
           },
@@ -657,15 +658,15 @@ export default [
             color: "#795548", isRiver: false, capitale: "Grand Zimbabwe",
             description: "Au milieu de la brousse, un royaume d'architectes mégalithiques bâtissant des murailles colossales de granit sans aucun ciment, enrichi par des mines d'or abondantes.",
             datesCles: [
-              { annee: 1100, evenement: "Fondation du royaume", info: "L'ethnie Shona abandonne Mapungubwe pour s'installer plus au nord, au Zimbabwe." },
-              { annee: 1250, evenement: "Apogée d'Or", info: "La ville compte jusqu'à 20 000 habitants (la plus grande d'Afrique australe précoloniale)." },
+              { annee: 1100, evenement: "Premiers villages", info: "Les premiers villages de populations shona apparaissent sur le site vers le XIe siècle." },
+              { annee: 1350, evenement: "Apogée", info: "Au XIVe siècle, la ville compte environ 10 000 à 18 000 habitants selon les estimations (la plus grande d'Afrique australe précoloniale)." },
               { annee: 1450, evenement: "Abandon mystérieux", info: "Épuisement écologique du sol et migration du pouvoir vers l'Empire du Monomotapa." }
             ],
             dirigeants: [],
             personnages: [],
-            sciences: "Le mot Zimbabwe signifie 'Les maisons de pierre' (Dzimba Dza Mabwe). Leurs architectes ont conçu la 'Grande Enceinte', un mur elliptique de 11 mètres de haut et 250 mètres de long, composé d'un million de blocs de granit retaillés et ajustés en chevron avec une telle perfection technique qu'ils n'ont besoin d'aucun mortier ou liant d'argile pour tenir debout. Ils maîtrisaient le coulage de l'or par gravitaire.",
+            sciences: "Le mot Zimbabwe signifie 'Les maisons de pierre' (Dzimba Dza Mabwe). Leurs architectes ont conçu la 'Grande Enceinte', un mur elliptique de 11 mètres de haut et 250 mètres de long, composé d'un million de blocs de granit retaillés et ajustés en chevron avec une telle perfection technique qu'ils n'ont besoin d'aucun mortier ou liant d'argile pour tenir debout.",
             croyancesText: "La religion Shona s'articule autour de Mwari, le dieu créateur universel, et d'un culte assidu des esprits (Mhondoro). À l'intérieur de l'Enceinte se trouve une mystérieuse tour conique massive de 9 mètres, symbole possible de la fécondité masculine ou du grenier à grain cosmique garantissant l'abondance de l'Empire.",
-            diplomatie: "Ils pratiquent une politique d'exportation discrète mais massive. Isolés à l'intérieur des terres, les monarques expédient l'or fondu, l'ivoire et des peaux rares par caravanes de porteurs jusqu'aux cités commerciales arabo-swahilies de la côte de l'Océan Indien (comme Kilwa au Mozambique). En échange, l'archéologie a retrouvé dans les ruines du Zimbabwe des assiettes de porcelaine Ming chinoise, des perles indiennes en verre et du corail.",
+            diplomatie: "Ils pratiquent une politique d'exportation discrète mais massive. Isolés à l'intérieur des terres, les monarques expédient l'or fondu, l'ivoire et des peaux rares par caravanes de porteurs jusqu'aux cités commerciales arabo-swahilies de la côte de l'Océan Indien (comme Sofala, au Mozambique, port relié à Kilwa, en Tanzanie). En échange, l'archéologie a retrouvé dans les ruines du Zimbabwe des céladons chinois, des céramiques persanes, des perles indiennes en verre et du corail.",
             guerres: [],
             documentaires: [{ titre: "Le mystère du Grand Zimbabwe", url: "https://fr.wikipedia.org/wiki/Grand_Zimbabwe" }]
           }
@@ -705,19 +706,19 @@ export default [
             id: "tiwanaku",
             trackId: "andes", row: 2,
             label: "Empire de Tiwanaku",
-            period: "500 à 1000", start: 500, end: 1000,
+            period: "500 à vers 1000-1150", start: 500, end: 1000,
             color: "#d4ac0d", isRiver: false, capitale: "Tiwanaku (Bolivie)",
-            description: "Sur les rives glaciales du lac sacré Titicaca, un empire monstrueux de pierre s'élève à près de 4000 mètres d'altitude, fondant la grande mythologie des montagnes andines.",
+            description: "Sur les rives glaciales du lac sacré Titicaca, une grande cité de pierre s'élève à près de 4000 mètres d'altitude, fondant la grande mythologie des montagnes andines.",
             datesCles: [
               { annee: 500, evenement: "Pôle régional", info: "L'agglomération devient un centre administratif et cultuel urbain dépassant les 30 000 habitants." },
               { annee: 600, evenement: "Monuments monolithes", info: "Érection de la mystérieuse Porte du Soleil et de l'Akapana." },
-              { annee: 1000, evenement: "La Méga-Sécheresse", info: "L'effondrement hydrologique assèche l'agriculture et tue l'Empire." }
+              { annee: 1000, evenement: "Déclin", info: "Entre 1000 et 1150 environ, Tiwanaku décline. Une longue sécheresse est une hypothèse souvent avancée." }
             ],
             dirigeants: [],
             personnages: [],
             sciences: "Survivre au gel et à l'aridité d'une telle altitude est un miracle agronomique : ils inventent les 'Sukakollos' (champs surélevés). Ces monticules de terre, cernés de canaux d'eau, absorbent la chaleur du soleil andin le jour et créent un brouillard chaud la nuit, empêchant les cultures de pomme de terre et de quinoa de geler. Leurs murs cyclopéens (Puma Punku) sont scellés par d'ingénieuses agrafes en cuivre fondu sur place.",
-            croyancesText: "C'est la matrice du grand mythe créateur des Incas. Le Lac Titicaca est la source du monde. Leur divinité suprême est le Dieu aux Sceptres (figure fondatrice de Viracocha, créateur du soleil, de la lune et des hommes). L'architecture comprend des temples semi-souterrains tapissés de dizaines de têtes clouées en pierre, évoquant probablement des sacrifices ennemis ou des ancêtres mythiques.",
-            diplomatie: "Tiwanaku est un prédateur commercial. Sans armée de conquête documentée à grande échelle, la cité envoie des centaines de caravanes de lamas descendre la Cordillère vers la côte (Pérou) ou les jungles de l'est (Amazonie) pour imposer son monopole sur les feuilles de coca, le sel, le piment et les plumes d'oiseaux exotiques, s'imposant comme la métropole suprême des Andes sud.",
+            croyancesText: "C'est la matrice du grand mythe créateur des Incas. Le Lac Titicaca est la source du monde. Leur divinité principale est le Dieu aux Sceptres ; certains y voient un ancêtre de Viracocha, le dieu créateur des Incas, mais ce lien reste une hypothèse (le mythe inca est bien plus tardif). L'architecture comprend des temples semi-souterrains tapissés de dizaines de têtes clouées en pierre, évoquant probablement des sacrifices ennemis ou des ancêtres mythiques.",
+            diplomatie: "L'influence de Tiwanaku est surtout commerciale et religieuse, et le fait de parler d'« empire » est débattu. Sans armée de conquête documentée à grande échelle, la cité envoie des caravanes de lamas vers la côte (Pérou, Chili) et les forêts de l'est pour échanger feuilles de coca, sel, piment et plumes d'oiseaux exotiques, s'imposant comme la grande métropole des Andes du Sud.",
             guerres: [],
             documentaires: [{ titre: "Tiwanaku, la cité des dieux des Andes", url: "https://fr.wikipedia.org/wiki/Tiwanaku" }]
           },
@@ -730,17 +731,15 @@ export default [
             description: "Les véritables 'Romains des Andes'. L'empire militaire et bureaucratique implacable qui a préparé les infrastructures routières des futurs Incas.",
             datesCles: [
               { annee: 600, evenement: "L'Expansion Militaire", info: "Huari lance une conquête fulgurante vers le Nord et la côte de Nazca." },
-              { annee: 700, evenement: "Standardisation", info: "L'empire impose sa langue (probablement le proto-Aymara) et l'usage des terrasses agricoles." },
-              { annee: 1050, evenement: "Fragmentation", info: "La capitale est incendiée et abandonnée suite aux famines climatiques et révoltes vassales." }
+              { annee: 700, evenement: "Standardisation", info: "L'empire diffuse sa culture (peut-être une langue ancêtre de l'aymara, selon une hypothèse) et développe les terrasses agricoles." },
+              { annee: 1000, evenement: "Fragmentation", info: "La capitale est abandonnée vers l'an 1000 ; les causes (sécheresse, révoltes, crise politique) sont discutées." }
             ],
             dirigeants: [],
             personnages: [],
-            sciences: "Excellents géomètres d'État, les Huari détruisent les habitats côtiers dispersés pour forcer les populations conquises à s'installer dans de nouveaux centres administratifs (Pikillaqta), conçus sur un plan quadrillé rigide, avec des murs s'élevant jusqu'à 12 mètres de haut. Ils imposent les terrasses agricoles (Andenes) à flanc de montagne et amorcent le réseau routier monumental ('Qhapaq Ñan') pour y faire circuler l'armée.",
+            sciences: "Excellents géomètres d'État, les Huari construisent de nouveaux centres administratifs (comme Pikillaqta), conçus sur un plan quadrillé rigide, avec de hauts murs. Ils développent les terrasses agricoles (andenes) à flanc de montagne et construisent des routes, en partie reprises plus tard par les Incas.",
             croyancesText: "La religion Huari s'inspire du Dieu aux Sceptres de Tiwanaku, mais dans un style militaire, strict et géométrique. Leurs tapisseries funéraires sont des chefs-d'œuvre mondiaux de complexité optique (abstraction pure avec un nombre ahurissant de fils au centimètre carré). Leurs rites incluent des tombes royales souterraines labyrinthiques pour protéger les momies sacrées des hauts dignitaires de l'État.",
-            diplomatie: "C'est l'anti-thèse de l'empire culturel de Tiwanaku. Les Huari sont des conquérants purs et durs, imposant par la force militaire une centralisation absolue des excédents agricoles dans des greniers d'État. Pour éviter la confrontation avec le géant Tiwanaku au Sud, un accord implicite ou une guerre froide fige la frontière andine, permettant aux Huari de soumettre sans pitié tout le Nord et l'Ouest péruvien.",
-            guerres: [
-              { nom: "Conquête de la culture Moche", annee: 650, adversaires: ["Culture Moche (Nord du Pérou)"], allies: [], morts: "Inconnu", vainqueur: "Empire Huari", consequences: "L'assimilation brutale des cultures régionales, centralisant pour la première fois les Andes côtières et montagneuses en un seul empire proto-Inca.", wikiUrl: "https://fr.wikipedia.org/wiki/Culture_Wari" }
-            ],
+            diplomatie: "C'est l'anti-thèse de l'empire culturel de Tiwanaku. Les Huari sont des conquérants purs et durs, imposant par la force militaire une centralisation absolue des excédents agricoles dans des greniers d'État. Pour éviter la confrontation avec le géant Tiwanaku au Sud, un accord implicite ou une guerre froide fige la frontière andine, permettant aux Huari d'étendre leur influence vers le nord et l'ouest du Pérou (y compris dans l'ancienne région moche, où cette influence est visible sans qu'une conquête soit attestée).",
+            guerres: [],
             documentaires: [{ titre: "L'Empire Wari : les prédécesseurs des Incas", url: "https://fr.wikipedia.org/wiki/Culture_Wari" }]
           }
         ]

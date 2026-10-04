@@ -162,13 +162,14 @@ export const CONFLICTS = {
   'Guerres d\'Italie / Ligue Lombarde': [8.9, 45.6], // Legnano
   'Invasion de la Grande Armée païenne': [-1.08, 53.96], // York
   'Guerre contre la Horde d\'Or (Mongols)': [40.4, 56.13], // Vladimir
-  'Guerre de Saint-Sabas / Guerre de Chioggia': [12.28, 45.22],
+  'Guerre de Saint-Sabas': [35.07, 32.93], // Acre
+  'Guerre de Chioggia': [12.28, 45.22],
   'Bataille de Las Navas de Tolosa': [-3.58, 38.28],
   'Guerre de Grenade': [-3.6, 37.18],
   'Invasion Mongole et Sac de Bagdad': [44.36, 33.31],
   "Campagne de la Rus' et de l'Europe": [16.5, 51.2], // Legnica
   "Révolte d'An Lushan": [108.94, 34.34], // Chang'an
-  'Guerres arabo-tibétaines / sino-tibétaines': [72.3, 42.5], // Talas
+  'Guerres sino-tibétaines': [108.9, 34.3], // Chang'an
   'Invasions mongoles': [130.4, 33.6], // Hakata
   'Guerre Mongol-Goryeo': [126.5, 37.75], // Ganghwa
   'Guerres Khméro-Chams': [103.87, 13.41], // Angkor
@@ -177,7 +178,7 @@ export const CONFLICTS = {
   'Guerre Almoravide': [-7.8, 15.4], // Koumbi Saleh
   'Bataille de Kirina': [-8.1, 12.5],
   'Expansion contre les royaumes Mossis': [-1.5, 13.5],
-  'Unification du bassin': [14.25, -6.27], // Mbanza Kongo
+  'Expansion du Kongo (fin XIVe – XVe s.)': [14.25, -6.27], // Mbanza Kongo
   'Première et Seconde Guerre Tikal-Calakmul': [-89.62, 17.22],
   'Conquête de la culture Moche': [-79.0, -8.1],
   'Guerre de Quatre-Vingts Ans': [4.4, 51.9],

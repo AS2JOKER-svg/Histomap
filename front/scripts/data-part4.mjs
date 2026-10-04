@@ -78,9 +78,9 @@ export default [
             description: "La nation qui, par la décapitation de son roi et son schisme religieux, a inventé la monarchie parlementaire moderne et dominé le commerce maritime mondial.",
             datesCles: [
               { annee: 1534, evenement: "L'Acte de Suprématie", info: "Henri VIII rompt avec le Pape pour divorcer, fondant l'Église anglicane." },
-              { annee: 1649, evenement: "Guerre Civile", info: "Exécution du roi Charles Ier, Cromwell instaure une sanglante république puritaine." },
-              { annee: 1688, evenement: "La Glorieuse Révolution", info: "Renversement pacifique du roi catholique, adoption du 'Bill of Rights' garantissant le pouvoir du Parlement." },
-              { annee: 1707, evenement: "Acte d'Union", info: "L'Angleterre et l'Écosse fusionnent pour former le Royaume-Uni de Grande-Bretagne." }
+              { annee: 1642, evenement: "Guerre Civile", info: "La guerre civile éclate entre le roi et le Parlement. En 1649, le roi Charles Ier est exécuté et une république dominée par Cromwell et les puritains est instaurée." },
+              { annee: 1688, evenement: "La Glorieuse Révolution", info: "Renversement presque sans combat, en Angleterre, du roi catholique Jacques II, et adoption du 'Bill of Rights' garantissant le pouvoir du Parlement. La guerre éclate en revanche en Irlande et en Écosse (bataille de la Boyne, 1690)." },
+              { annee: 1707, evenement: "Acte d'Union", info: "L'Angleterre et l'Écosse s'unissent pour former le royaume de Grande-Bretagne (le Royaume-Uni naîtra en 1801, avec l'Irlande)." }
             ],
             dirigeants: [
               { titre: "Roi d'Angleterre", nom: "Henri VIII", surnom: "", debut: 1509, fin: 1547 },
@@ -95,7 +95,7 @@ export default [
             croyancesText: "Le pays est traversé par une tension religieuse extrême entre Anglicans (religion d'État modérée), Catholiques (persécutés et exclus des fonctions publiques) et Puritains (calvinistes radicaux). Ces derniers, fuyant les persécutions, embarqueront sur le Mayflower pour coloniser l'Amérique du Nord, important leur éthique de travail et de prédestination divine.",
             diplomatie: "La politique étrangère britannique ('L'Équilibre des puissances') consiste à refuser qu'un seul État continental (France ou Espagne) ne domine l'Europe. Protégée par sa flotte royale (la Royal Navy), elle finance les ennemis de ses ennemis et s'assure le contrôle des détroits maritimes, fondant l'expansion colossale de l'East India Company en Asie.",
             guerres: [
-              { nom: "Guerre de Sept Ans (Guerre de la Conquête)", annee: 1756, adversaires: ["Royaume de France", "Autriche"], allies: ["Prusse"], morts: "Guerre mondiale avant l'heure", vainqueur: "Grande-Bretagne", consequences: "Les Britanniques expulsent la France d'Amérique du Nord (chute du Québec) et des Indes, s'assurant le monopole colonial mondial.", wikiUrl: "https://fr.wikipedia.org/wiki/Guerre_de_Sept_Ans" }
+              { nom: "Guerre de Sept Ans (Guerre de la Conquête)", annee: 1756, adversaires: ["Royaume de France", "Autriche"], allies: ["Prusse"], morts: "Environ un million de morts (estimations) dans une guerre aux dimensions mondiales", vainqueur: "Grande-Bretagne", consequences: "Les Britanniques expulsent la France d'Amérique du Nord (chute du Québec) et des Indes, s'assurant le monopole colonial mondial.", wikiUrl: "https://fr.wikipedia.org/wiki/Guerre_de_Sept_Ans" }
             ],
             documentaires: [{ titre: "Les Tudor : Une dynastie de sang et de passion", url: "https://fr.wikipedia.org/wiki/P%C3%A9riode_Tudor" }]
           },
@@ -142,13 +142,13 @@ export default [
             dirigeants: [
               { titre: "Roi de Suède", nom: "Gustave II Adolphe", surnom: "Le Lion du Nord", debut: 1611, fin: 1632 },
               { titre: "Reine", nom: "Christine", surnom: "La Minerve du Nord", debut: 1632, fin: 1654 },
-              { titre: "Roi", nom: "Charles XII", surnom: "Le Météore", debut: 1697, fin: 1718 }
+              { titre: "Roi", nom: "Charles XII", surnom: "", debut: 1697, fin: 1718 }
             ],
             personnages: [
               { nom: "Axel Oxenstierna", role: "Chancelier", description: "L'architecte administratif de la Suède moderne, gérant l'empire pendant les minorités et la guerre de Trente Ans.", dates: "1583 à 1654", wikiUrl: "https://fr.wikipedia.org/wiki/Axel_Oxenstierna" }
             ],
-            sciences: "Le 'miracle suédois' est purement logistique et militaire. Gustave II Adolphe invente la guerre moderne combinée : il allège les mousquets et l'artillerie de campagne (canons en cuir bouilli maniables par deux hommes), permettant aux fantassins de tirer en salves roulantes ultra-rapides, pulvérisant les massives et lentes formations (les Tercios) espagnoles ou impériales.",
-            croyancesText: "Le luthéranisme n'est pas seulement une religion, c'est l'ossature de l'État. Les pasteurs font office de fonctionnaires civils, tenant un registre précis des naissances et de l'alphabétisation (la Suède est le premier pays à lier le droit au mariage à la capacité de lire la Bible). C'est ce clergé qui assure l'implacable recrutement local des soldats pour les guerres du roi.",
+            sciences: "Le 'miracle suédois' est purement logistique et militaire. Gustave II Adolphe invente la guerre moderne combinée : il allège les mousquets et l'artillerie de campagne (les premiers « canons de cuir », peu efficaces, sont vite remplacés par de légères pièces régimentaires), permettant aux fantassins de tirer en salves rapides. À Breitenfeld (1631), cette armée bat les lourdes formations impériales et catholiques.",
+            croyancesText: "Le luthéranisme n'est pas seulement une religion, c'est l'ossature de l'État. Les pasteurs font office de fonctionnaires civils, tenant un registre précis des naissances et de l'alphabétisation (la loi religieuse de 1686 impose l'apprentissage de la lecture, vérifié par les pasteurs lors d'examens réguliers). C'est ce clergé qui assure l'implacable recrutement local des soldats pour les guerres du roi.",
             diplomatie: "Riche en bois, en cuivre et en fer de haute qualité, la Suède exporte massivement ses canons dans toute l'Europe. Pour briser la puissance des Habsbourg, le cardinal français de Richelieu finance secrètement avec de l'or français l'armée protestante suédoise. La Suède annexe la Poméranie et les pays baltes, transformant la mer Baltique en un 'lac suédois'.",
             guerres: [
               { nom: "Grande Guerre du Nord", annee: 1700, adversaires: ["Empire Russe", "Danemark", "Pologne-Lituanie"], allies: ["Empire Ottoman (temporairement)"], morts: "Effondrement démographique suédois", vainqueur: "Russie", consequences: "Le roi Charles XII mène une guerre brillante mais épuise son pays. La Suède perd son statut d'empire au profit de la nouvelle Russie de Pierre le Grand.", wikiUrl: "https://fr.wikipedia.org/wiki/Grande_guerre_du_Nord" }
@@ -161,7 +161,7 @@ export default [
             label: "Royaume de Prusse",
             period: "1701 à 1789", start: 1701, end: 1789,
             color: "#263238", isRiver: false, capitale: "Berlin / Potsdam",
-            description: "D'un duché pauvre et sablonneux à l'armée la plus craintes d'Europe : 'La Prusse n'est pas un État avec une armée, mais une armée avec un État'.",
+            description: "D'un duché pauvre et sablonneux à l'armée la plus crainte d'Europe : 'La Prusse n'est pas un État avec une armée, mais une armée avec un État'.",
             datesCles: [
               { annee: 1701, evenement: "Royaume de Prusse", info: "L'électeur de Brandebourg se couronne lui-même Roi avec l'accord de l'Empereur." },
               { annee: 1740, evenement: "Guerres de Silésie", info: "Frédéric II arrache cette riche province à l'Autriche de Marie-Thérèse." },
@@ -172,8 +172,8 @@ export default [
               { titre: "Roi de Prusse", nom: "Frédéric II", surnom: "Frédéric le Grand", debut: 1740, fin: 1786 }
             ],
             personnages: [],
-            sciences: "Invention du système des 'Cantons' (Kantonssystem), une proto-conscription obligatoire très en avance sur son temps. Les soldats prussiens s'entraînent avec une baguette de fer (invention de Dessauer) leur permettant de tirer 4 coups à la minute contre 2 pour les armées ennemies. La Prusse est également le premier pays d'Europe à rendre l'école primaire obligatoire (Generallandschulreglement de 1763) pour forger l'obéissance civique.",
-            croyancesText: "L'État est officiellement calviniste gouvernant une population luthérienne, mais il applique la vision de l'Absolutisme éclairé : une tolérance religieuse utilitariste absolue. Frédéric II fait construire une cathédrale catholique en plein Berlin protestant et accueille plus de 20 000 protestants français (Huguenots) et les Jésuites bannis d'ailleurs, absorbant leur précieux savoir-faire artisanal et intellectuel.",
+            sciences: "Invention du système des 'Cantons' (Kantonssystem), une proto-conscription obligatoire très en avance sur son temps. Les soldats prussiens s'entraînent avec une baguette de fer (invention de Dessauer) leur permettant de tirer 4 coups à la minute contre 2 pour les armées ennemies. La Prusse rend l'école primaire obligatoire dès 1717, obligation renforcée par le règlement scolaire de 1763 sous Frédéric II (d'autres États allemands, comme la Saxe-Gotha en 1642, l'avaient précédée).",
+            croyancesText: "La dynastie est calviniste depuis 1613 et gouverne une population surtout luthérienne ; elle applique la vision de l'Absolutisme éclairé : une tolérance religieuse utilitariste absolue. Dès 1685, l'édit de Potsdam du Grand Électeur accueille environ 20 000 protestants français (huguenots). Plus tard, Frédéric II fait construire une cathédrale catholique en plein Berlin protestant et accueille les Jésuites bannis d'ailleurs, absorbant leur précieux savoir-faire artisanal et intellectuel.",
             diplomatie: "Sa géographie éclatée l'oblige à l'agressivité militaire préventive. Pour relier la Prusse-Orientale au Brandebourg, Frédéric II n'hésitera pas à organiser avec la Russie et l'Autriche le dépeçage pur et simple du Royaume de Pologne (Partages de la Pologne). Il invite Voltaire à sa cour (Palais de Sanssouci) pour donner un vernis philosophique à sa politique machiavélique.",
             guerres: [
               { nom: "Guerre de Sept Ans (Front Européen)", annee: 1756, adversaires: ["France", "Autriche", "Russie", "Suède"], allies: ["Grande-Bretagne (soutien financier)"], morts: "Près d'un million en Europe centrale", vainqueur: "Prusse", consequences: "Sauvée in extremis par le retrait miracle de la Russie (Le 'Miracle de la maison de Brandebourg'), la Prusse conserve la Silésie et s'impose comme une puissance majeure.", wikiUrl: "https://fr.wikipedia.org/wiki/Guerre_de_Sept_Ans" }
@@ -198,13 +198,13 @@ export default [
               { titre: "Dernier Roi", nom: "Stanislas II", surnom: "Poniatowski", debut: 1764, fin: 1795 }
             ],
             personnages: [
-              { nom: "Nicolas Copernic", role: "Astronome (pré-union)", description: "Le moine polonais qui, en plaçant le Soleil au centre de l'univers, a déclenché la révolution scientifique moderne.", dates: "1473 à 1543", wikiUrl: "https://fr.wikipedia.org/wiki/Nicolas_Copernic" }
+              { nom: "Nicolas Copernic", role: "Astronome (pré-union)", description: "Le chanoine et astronome polonais qui, en plaçant le Soleil au centre de l'univers, a déclenché la révolution scientifique moderne.", dates: "1473 à 1543", wikiUrl: "https://fr.wikipedia.org/wiki/Nicolas_Copernic" }
             ],
-            sciences: "Leur génie est militaire et équestre : l'invention des Hussards Ailés (Husaria). C'est une cavalerie lourde de choc, dotée d'armures resplendissantes et d'immenses 'ailes' en plumes d'aigle fixées dans le dos (pour terrifier les chevaux ennemis par le bruit du vent et empêcher la capture au lasso). Ils constituent l'unité d'élite la plus redoutée et invaincue d'Europe pendant un siècle.",
-            croyancesText: "En pleine époque des bûchers européens, la Pologne vote en 1573 la 'Confédération de Varsovie', la première loi constitutionnelle de tolérance religieuse de l'Histoire. Elle devient l'asile de l'Europe : Catholiques, Orthodoxes, Luthériens, et la plus grande communauté Juive du monde (Ashkénazes) y cohabitent en paix, protégés par des lois d'autonomie (le Conseil des Quatre Terres).",
-            diplomatie: "Leur système politique inédit (le 'Sarmatisme') causera leur ruine. C'est une monarchie élective : le roi est élu par le parlement des nobles (la Diète, ou Sejm). Pire, ils inventent le 'Liber Veto' : un seul noble (souvent soudoyé par la Russie ou la France) peut crier son veto pour annuler n'importe quelle loi ou déclaration de guerre, paralysant totalement l'État face aux absolutismes voisins centralisés.",
+            sciences: "Leur génie est militaire et équestre : l'invention des Hussards Ailés (Husaria). C'est une cavalerie lourde de choc, dotée d'armures resplendissantes et d'immenses 'ailes' en plumes d'aigle fixées dans le dos (dont le rôle exact est discuté : impressionner l'ennemi, peut-être gêner les lassos). Ils constituent l'une des unités d'élite les plus redoutées d'Europe et remportent de nombreuses victoires pendant plus d'un siècle.",
+            croyancesText: "En pleine époque des bûchers européens, la Pologne vote en 1573 la 'Confédération de Varsovie', l'une des premières lois de tolérance religieuse de l'Histoire (après l'édit de Torda, en Transylvanie, en 1568). Elle devient l'asile de l'Europe : Catholiques, Orthodoxes, Luthériens, et la plus grande communauté Juive du monde (Ashkénazes) y cohabitent en paix, protégés par des lois d'autonomie (le Conseil des Quatre Terres).",
+            diplomatie: "Leur système politique inédit (le 'Sarmatisme') causera leur ruine. C'est une monarchie élective : le roi est élu par l'assemblée de tous les nobles présents (élection « viritim »). Pire, ils pratiquent le 'liberum veto' : un seul noble (souvent soudoyé par la Russie ou la France) peut crier son veto pour annuler n'importe quelle loi ou déclaration de guerre, paralysant totalement l'État face aux absolutismes voisins centralisés.",
             guerres: [
-              { nom: "Le Déluge (Potop)", annee: 1655, adversaires: ["Empire Suédois", "Tsarat de Russie"], allies: ["Saint-Empire (tardivement)"], morts: "Destruction d'un tiers de la population", vainqueur: "Statu Quo (Ruine totale)", consequences: "Invasion généralisée. Bien que la Pologne survive, ses villes et son économie sont rasées, amorçant son déclin fatal.", wikiUrl: "https://fr.wikipedia.org/wiki/D%C3%A9luge_(Pologne)" }
+              { nom: "Le Déluge (Potop)", annee: 1655, adversaires: ["Empire Suédois", "Tsarat de Russie"], allies: ["Saint-Empire (tardivement)"], morts: "Peut-être un quart à un tiers de la population (estimations)", vainqueur: "Statu Quo (Ruine totale)", consequences: "Invasion généralisée. Bien que la Pologne survive, ses villes et son économie sont rasées, amorçant son déclin fatal.", wikiUrl: "https://fr.wikipedia.org/wiki/D%C3%A9luge_(Pologne)" }
             ],
             documentaires: [{ titre: "L'âge d'or et la tragédie de la Pologne", url: "https://fr.wikipedia.org/wiki/R%C3%A9publique_des_Deux_Nations" }]
           }
@@ -221,21 +221,20 @@ export default [
             color: "#b83b1d", isRiver: true, capitale: "Gao",
             description: "L'âge d'or intellectuel et impérial de l'Afrique de l'Ouest, brisé par l'arrivée des armes à feu traversant le Sahara.",
             datesCles: [
-              { annee: 1493, evenement: "Dynastie des Askia", info: "L'empereur Sonni Ali Ber meurt. Askia Mohammed s'empare du pouvoir et islamise l'État." },
-              { annee: 1512, evenement: "Soutien universitaire", info: "Apogée des universités de Tombouctou et Djenné financées par la couronne." },
+              { annee: 1493, evenement: "Dynastie des Askia", info: "Sonni Ali Ber est mort fin 1492. En 1493, Askia Mohammed bat son fils Sonni Baro à Anfao, prend le pouvoir et renforce la place de l'islam dans l'État." },
               { annee: 1591, evenement: "L'Invasion marocaine", info: "Fin de l'Empire suite à la bataille de Tondibi." }
             ],
             dirigeants: [
               { titre: "Empereur (Askia)", nom: "Askia Mohammed Ier", surnom: "Le Grand", debut: 1493, fin: 1528 }
             ],
             personnages: [
-              { nom: "Ahmed Baba", role: "Savant et Grand Mufti", description: "Le plus grand intellectuel de Tombouctou, auteur de dizaines de traités de droit et d'astronomie, déporté lors de l'invasion marocaine.", dates: "1556 à 1627", wikiUrl: "https://fr.wikipedia.org/wiki/Ahmed_Baba" }
+              { nom: "Ahmed Baba", role: "Savant et Grand Mufti", description: "Le plus grand intellectuel de Tombouctou, auteur de dizaines d'ouvrages, surtout de droit islamique et de biographies de savants, déporté lors de l'invasion marocaine.", dates: "1556 à 1627", wikiUrl: "https://fr.wikipedia.org/wiki/Ahmed_Baba" }
             ],
-            sciences: "Le règne d'Askia Mohammed voit une standardisation d'État exceptionnelle pour l'époque : introduction de poids et mesures officiels unifiés pour sécuriser le commerce de l'or et du sel, création d'un corps d'inspecteurs des marchés, et approfondissement d'un réseau complexe de canaux d'irrigation sur les rives du fleuve Niger.",
-            croyancesText: "L'empire renoue pleinement avec l'Islam diplomatique et sunnite. Le pèlerinage de l'Askia Mohammed à La Mecque, accompagné d'une fortune de 300 000 pièces d'or distribuées en aumône, a pour but d'obtenir la validation du Calife du Caire pour être reconnu comme 'Lieutenant du Calife au Soudan', asseyant son autorité légale sur tous les musulmans de la région.",
-            diplomatie: "Le pouvoir royal passe d'une tyrannie militaire (sous les Sonni) à une vaste bureaucratie avec des ministères spécialisés (Finances, Agriculture, Eaux et Forêts). Toutefois, la puissance du Songhaï attire la convoitise du redoutable Sultanat Saadien du Maroc, désireux de s'emparer des mines d'or et des mines de sel gemme de Teghazza pour renflouer ses caisses après la bataille des Trois Rois.",
+            sciences: "Le règne d'Askia Mohammed voit une organisation de l'État remarquable pour l'époque : introduction de poids et mesures officiels unifiés pour sécuriser le commerce de l'or et du sel, création d'un corps d'inspecteurs des marchés, et approfondissement d'un réseau complexe de canaux d'irrigation sur les rives du fleuve Niger.",
+            croyancesText: "L'empire renoue pleinement avec l'Islam diplomatique et sunnite. Le pèlerinage de l'Askia Mohammed à La Mecque, accompagné d'une fortune de 300 000 pièces d'or (dont une partie seulement est distribuée en aumônes), a pour but d'obtenir la validation du Calife du Caire pour être reconnu comme 'Lieutenant du Calife au Soudan', asseyant son autorité légale sur tous les musulmans de la région.",
+            diplomatie: "Le pouvoir royal passe d'un règne de conquêtes (sous les Sonni) à une vaste administration avec des dignitaires spécialisés (finances, agriculture, flotte). Le territoire est divisé en provinces confiées à des gouverneurs (Fari) nommés par l'Askia. Toutefois, la puissance du Songhaï attire la convoitise du redoutable Sultanat Saadien du Maroc, désireux de s'emparer des mines d'or et des mines de sel gemme de Teghazza pour renflouer ses caisses après la bataille des Trois Rois.",
             guerres: [
-              { nom: "Bataille de Tondibi", annee: 1591, adversaires: ["Sultanat Saadien (Maroc, mené par le mercenaire ibérique Djouder Pacha)"], allies: [], morts: "La cavalerie d'élite Songhaï est fauchée", vainqueur: "Sultanat du Maroc", consequences: "Les arquebuses marocaines détruisent les lances et les épées de la cavalerie Songhaï. Tombouctou et Gao sont saccagées, l'Empire est démembré.", wikiUrl: "https://fr.wikipedia.org/wiki/Bataille_de_Tondibi" }
+              { nom: "Bataille de Tondibi", annee: 1591, adversaires: ["Sultanat Saadien (Maroc, mené par Djouder Pacha, eunuque d'origine espagnole au service du sultan)"], allies: [], morts: "La cavalerie d'élite Songhaï est fauchée", vainqueur: "Sultanat du Maroc", consequences: "Les arquebuses marocaines détruisent les lances et les épées de la cavalerie Songhaï. Tombouctou et Gao sont saccagées, l'Empire est démembré.", wikiUrl: "https://fr.wikipedia.org/wiki/Bataille_de_Tondibi" }
             ],
             documentaires: [{ titre: "La chute de l'Empire Songhaï", url: "https://fr.wikipedia.org/wiki/Empire_songha%C3%AF" }]
           },
@@ -251,13 +250,13 @@ export default [
               { annee: 1744, evenement: "Expansion du Nord", info: "L'armée soumet le puissant royaume de Dagbon." }
             ],
             dirigeants: [
-              { titre: "Asantehene (Empereur)", nom: "Osei Tutu Ier", surnom: "", debut: 1675, fin: 1717 },
+              { titre: "Asantehene (Empereur)", nom: "Osei Tutu Ier", surnom: "Règne de vers 1680/1695 à vers 1717 (dates incertaines)", debut: 1680, fin: 1717 },
               { titre: "Asantehene", nom: "Opoku Ware Ier", surnom: "", debut: 1720, fin: 1750 }
             ],
             personnages: [
               { nom: "Okomfo Anokye", role: "Grand prêtre et cofondateur", description: "Le magicien légendaire qui fit descendre le Trône d'Or du ciel et dicta les lois inviolables de la constitution Ashanti.", dates: "≈ 1655 à 1717", wikiUrl: "https://fr.wikipedia.org/wiki/Okomfo_Anokye" }
             ],
-            sciences: "Leur métallurgie de la poudre et de l'or est d'une sophistication inouïe. Ils fabriquent les 'Poids Akans', de minuscules sculptures géométriques et figuratives en laiton d'une précision au milligramme près, servant d'étalon universel pour la pesée des pépites d'or dans toute l'Afrique de l'Ouest. Militairement, ils adoptent très tôt le mousquet européen, modifiant radicalement les tactiques de guerre en forêt dense.",
+            sciences: "Leur métallurgie de la poudre et de l'or est d'une sophistication inouïe. Ils utilisent les 'poids akan', de petites sculptures géométriques et figuratives en laiton servant à peser la poudre d'or ; ces poids existaient déjà avant l'empire, chez les peuples akan. Militairement, ils adoptent très tôt le mousquet européen, modifiant radicalement les tactiques de guerre en forêt dense.",
             croyancesText: "Toute la nation, pourtant composée de chefferies fières et indépendantes, est unifiée par l'âme religieuse de l'empire : le 'Sika Dwa Kofi' (Le Trône d'Or). Il ne représente pas le pouvoir d'un homme, mais contient l'esprit spirituel de la nation Ashanti toute entière. Même le roi n'a pas le droit de s'y asseoir, et sa simple profanation justifie une guerre totale.",
             diplomatie: "C'est une confédération stricte : le roi de Kumasi (Asantehene) préside un parlement des rois provinciaux (Asantemanhyiamu). Leur économie diplomatique est impitoyable : ils lancent des razzias constantes contre les tribus intérieures pour faire des captifs qu'ils échangent aux forts côtiers des Européens (Britanniques, Hollandais) contre des fusils, alimentant un cycle infini d'expansion impérialiste.",
             guerres: [
@@ -273,10 +272,10 @@ export default [
             color: "#2e7d32", isRiver: true, capitale: "Mbanza Kongo (San Salvador)",
             description: "Un royaume subsaharien choisissant librement de se christianiser, tentant de traiter d'égal à égal avec l'Europe avant d'être broyé par les trafiquants d'esclaves portugais.",
             datesCles: [
-              { annee: 1512, evenement: "Ambassade à Rome", info: "Le propre fils du roi du Kongo (Henrique) est sacré évêque par le Pape (le premier d'Afrique noire)." },
+              { annee: 1518, evenement: "Un évêque kongo", info: "Le fils du roi du Kongo, Henrique, est nommé évêque (titulaire d'Utique) par le pape, l'un des tout premiers évêques d'Afrique subsaharienne." },
               { annee: 1526, evenement: "Les lettres d'Afonso", info: "L'empereur implore le roi du Portugal de stopper la capture illégale de ses nobles par les esclavagistes." },
               { annee: 1665, evenement: "Bataille d'Ambuila", info: "Le roi du Kongo est décapité par les colons portugais d'Angola." },
-              { annee: 1704, evenement: "Révolution Antonianiste", info: "Kimpa Vita tente de refonder le royaume par une guerre sainte prophétique." }
+              { annee: 1704, evenement: "Révolution Antonianiste", info: "Kimpa Vita lance un mouvement religieux qui appelle à repeupler l'ancienne capitale et à réunifier le royaume." }
             ],
             dirigeants: [
               { titre: "Manikongo (Roi)", nom: "Afonso Ier", surnom: "Nzinga Mvemba", debut: 1509, fin: 1542 },
@@ -285,13 +284,13 @@ export default [
             personnages: [
               { nom: "Kimpa Vita (Dona Beatriz)", role: "Prophétesse", description: "Sorte de Jeanne d'Arc congolaise. Se disant possédée par Saint Antoine, elle prêche un christianisme africain (où le Christ serait né au Kongo) pour réunifier l'État, avant d'être brûlée vive en 1706.", dates: "1684 à 1706", wikiUrl: "https://fr.wikipedia.org/wiki/Kimpa_Vita" }
             ],
-            sciences: "Le royaume crée un véritable syncrétisme intellectuel afro-européen. Une partie de la haute noblesse s'alphabétise en portugais et en latin. Ils réorganisent l'administration de l'État en copiant les titres de noblesse européens (Ducs, Comtes, Marquis) plaqués sur les structures de parenté matriarcales traditionnelles bantoues.",
-            croyancesText: "Le christianisme du Kongo n'est pas imposé par la force, c'est une appropriation d'État. Les anciens esprits (Nkisi) sont assimilés aux saints catholiques, et la Croix devient le nouveau symbole suprême de la magie protectrice royale. Cependant, les missionnaires jésuites et capucins accompagnant les navires commerciaux servent très souvent d'agents de renseignement pour la couronne portugaise.",
-            diplomatie: "Le drame du Kongo est la cupidité européenne. Initialement un partenariat, la relation dégénère car la monnaie d'échange exigée par les Portugais pour les armes à feu n'est plus l'ivoire ou le cuivre, mais les esclaves pour les plantations du Brésil. La couronne du Kongo s'épuise à lancer des guerres frontalières interminables pour fournir des captifs, finissant par détruire l'équilibre démographique et moral de son propre royaume.",
+            sciences: "Le royaume crée un véritable syncrétisme intellectuel afro-européen. Une partie de la haute noblesse s'alphabétise en portugais et en latin. Ils réorganisent l'administration de l'État en copiant les titres de noblesse européens (Ducs, Comtes, Marquis) plaqués sur les structures de parenté matrilinéaires traditionnelles.",
+            croyancesText: "Le christianisme du Kongo n'est pas imposé par la force, c'est une appropriation d'État. Les anciens esprits (Nkisi) sont assimilés aux saints catholiques, et la Croix devient le nouveau symbole suprême de la magie protectrice royale. Les missionnaires jésuites puis capucins (souvent italiens, envoyés par Rome) accompagnent cette christianisation.",
+            diplomatie: "Sous Afonso Ier, le roi du Kongo et le roi du Portugal s'appellent 'Frères' dans leurs lettres ; le Kongo fait venir des maîtres d'école, des imprimeurs, des artisans et des arquebuses. Initialement un partenariat, la relation dégénère car la monnaie d'échange exigée par les Portugais pour les armes à feu n'est plus l'ivoire ou le cuivre, mais les esclaves pour les plantations du Brésil. La couronne du Kongo s'épuise à lancer des guerres frontalières interminables pour fournir des captifs, finissant par détruire l'équilibre démographique et moral de son propre royaume.",
             guerres: [
               { nom: "Bataille d'Ambuila", annee: 1665, adversaires: ["Colonie portugaise d'Angola"], allies: [], morts: "Anéantissement de la noblesse", vainqueur: "Portugal", consequences: "Refusant de céder des mines d'or, le roi António est vaincu et décapité. Sa tête est ramenée en triomphe à Luanda. Le royaume sombre dans une anarchie féodale de 40 ans.", wikiUrl: "https://fr.wikipedia.org/wiki/Bataille_d'Ambuila" }
             ],
-            documentaires: [{ titre: "L'Afrique des grands lacs : le Royaume de Kongo", url: "https://fr.wikipedia.org/wiki/Royaume_du_Kongo" }]
+            documentaires: [{ titre: "Le Royaume du Kongo", url: "https://fr.wikipedia.org/wiki/Royaume_du_Kongo" }]
           },
           {
             id: "oyo",
@@ -301,12 +300,12 @@ export default [
             color: "#9e9d24", isRiver: false, capitale: "Oyo-Ile",
             description: "La puissance politique suprême du peuple Yoruba, structurée par une armée de cavaliers et une constitution complexe prévenant la tyrannie.",
             datesCles: [
-              { annee: 1550, evenement: "Création de la Cavalerie", info: "Orompoto sécurise l'importation de chevaux du Nord, donnant la suprématie militaire à l'empire." },
+              { annee: 1550, evenement: "Création de la Cavalerie", info: "Vers 1550 (dates traditionnelles incertaines), Orompoto sécurise l'importation de chevaux du Nord, donnant la suprématie militaire à l'empire." },
               { annee: 1748, evenement: "Soumission du Dahomey", info: "L'armée d'Oyo oblige le puissant royaume du Dahomey à lui verser un tribut annuel en or et en captifs." }
             ],
             dirigeants: [
-              { titre: "Alaafin (Empereur)", nom: "Orompoto", surnom: "", debut: 1550, fin: 1560 },
-              { titre: "Alaafin", nom: "Abiodun", surnom: "", debut: 1770, fin: 1789 }
+              { titre: "Alaafin (Empereur)", nom: "Orompoto", surnom: "Vers 1550-1560, dates incertaines ; une femme selon certaines traditions", debut: 1550, fin: 1560 },
+              { titre: "Alaafin", nom: "Abiodun", surnom: "Ne gouverne vraiment qu'après avoir renversé Gaa en 1774", debut: 1770, fin: 1789 }
             ],
             personnages: [
               { nom: "Bashorun Gaa", role: "Premier ministre (Chef des Oyo Mesi)", description: "Le faiseur de rois. Tyran politique qui organisa l'assassinat rituel de 4 empereurs successifs avant d'être exécuté.", dates: "Mort en 1774", wikiUrl: "https://fr.wikipedia.org/wiki/Gaa_(Oyo)" }
@@ -475,7 +474,7 @@ export default [
             color: "#bf360c", isRiver: false, capitale: "Hanseong (Séoul)",
             description: "Le 'Royaume Ermite' : 500 ans de paix confucéenne, d'inventions brillantes (le Hangeul) et de survie héroïque face aux invasions japonaises et mandchoues.",
             datesCles: [
-              { annee: 1443, evenement: "Invention du Hangeul", info: "L'Empereur Sejong le Grand promulgue l'alphabet coréen, le plus scientifique du monde." },
+              { annee: 1443, evenement: "Invention du Hangeul", info: "Le roi Sejong le Grand fait créer l'alphabet coréen en 1443 ; il est promulgué en 1446." },
               { annee: 1592, evenement: "Invasions japonaises (Guerre d'Imjin)", info: "160 000 soldats de Toyotomi Hideyoshi débarquent pour envahir la Chine via la Corée." },
               { annee: 1636, evenement: "Invasion Qing", info: "Les Mandchous écrasent le roi coréen et forcent le pays à se soumettre à la nouvelle dynastie chinoise." }
             ],
@@ -484,13 +483,13 @@ export default [
               { titre: "Roi", nom: "Seonjo", surnom: "", debut: 1567, fin: 1608 }
             ],
             personnages: [
-              { nom: "Amiral Yi Sun-sin", role: "Héros militaire", description: "Le 'Nelson asiatique'. Un génie naval invaincu qui a détruit la flotte japonaise à lui seul avec ses navires-tortues lors de la guerre d'Imjin.", dates: "1545 à 1598", wikiUrl: "https://fr.wikipedia.org/wiki/Yi_Sun-sin" }
+              { nom: "Amiral Yi Sun-sin", role: "Héros militaire", description: "Le 'Nelson asiatique'. Un génie naval invaincu qui, à la tête de la flotte coréenne et avec ses navires-tortues, joua un rôle décisif contre la flotte japonaise lors de la guerre d'Imjin.", dates: "1545 à 1598", wikiUrl: "https://fr.wikipedia.org/wiki/Yi_Sun-sin" }
             ],
-            sciences: "Le roi Sejong invente le 'Hangeul', un alphabet phonétique où la forme de la lettre montre littéralement la position de la langue dans la bouche, conçu pour que même le paysan le plus humble puisse apprendre à lire en quelques jours. Militairement, Yi Sun-sin crée le Geobukseon (Navire-tortue), le premier cuirassé à propulsion mixte de l'histoire, couvert de piques en fer pour empêcher l'abordage et doté de canons crachant feu et gaz toxiques (soufre) par une tête de dragon.",
+            sciences: "Le roi Sejong invente le 'Hangeul', un alphabet phonétique où la forme de la lettre montre littéralement la position de la langue dans la bouche, conçu pour que même le paysan le plus humble puisse apprendre à lire en quelques jours. Militairement, Yi Sun-sin fait construire le Geobukseon (navire-tortue), parfois présenté comme le premier cuirassé de l'histoire (un point débattu), mû à la rame et à la voile, couvert de piques en fer pour empêcher l'abordage et doté de canons et d'une tête de dragon qui pouvait cracher de la fumée.",
             croyancesText: "Le Bouddhisme est chassé du pouvoir. Joseon devient le pays le plus rigoriste du monde selon les préceptes du Néo-confucianisme de Zhu Xi. Le culte des ancêtres devient obligatoire, la société est cloisonnée et les moines bouddhistes sont bannis des villes et forcés de s'exiler dans les montagnes.",
             diplomatie: "Prise en tenaille entre la Chine et le Japon, la politique étrangère coréenne s'appelle le 'Sadae' (servir le grand). Joseon se déclare volontairement et respectueusement l'État vassal et le 'petit frère' de l'Empire Chinois (Ming puis Qing), garantissant ainsi un parapluie militaire et l'accès exclusif aux marchés commerciaux de Pékin tout en verrouillant ses propres côtes aux barbares occidentaux.",
             guerres: [
-              { nom: "Bataille de Myeongnyang (Guerre d'Imjin)", annee: 1597, adversaires: ["Empire du Japon"], allies: ["Empire Ming (Chine)"], morts: "Destruction de l'armada nippone", vainqueur: "Joseon (Amiral Yi)", consequences: "Avec seulement 13 navires rescapés des trahisons de cour, l'Amiral Yi Sun-sin attire 133 navires de guerre japonais dans un détroit à forts courants et les anéantit, sauvant la nation.", wikiUrl: "https://fr.wikipedia.org/wiki/Bataille_de_Myeongnyang" }
+              { nom: "Bataille de Myeongnyang (Guerre d'Imjin)", annee: 1597, adversaires: ["Empire du Japon"], allies: [], morts: "Une trentaine de navires japonais coulés ou endommagés", vainqueur: "Joseon (Amiral Yi)", consequences: "Avec seulement 13 navires, l'amiral Yi Sun-sin attire plus de 130 navires de guerre japonais dans un détroit à forts courants. Il en coule ou endommage une trentaine et la flotte japonaise se replie, ce qui l'empêche de remonter vers la capitale.", wikiUrl: "https://fr.wikipedia.org/wiki/Bataille_de_Myeongnyang" }
             ],
             documentaires: [{ titre: "Amiral Yi, le sauveur de la Corée", url: "https://fr.wikipedia.org/wiki/Yi_Sun-sin" }]
           }
@@ -562,12 +561,12 @@ export default [
             trackId: "usa", row: 3,
             label: "États-Unis d'Amérique (Fondation)",
             period: "1776 à 1789", start: 1776, end: 1789,
-            color: "#1a237e", isRiver: false, capitale: "Philadelphie",
+            color: "#1a237e", isRiver: false, capitale: "Philadelphie puis New York (capitale en 1789)",
             description: "La rébellion politique de treize colonies britanniques qui, aidées par la France, vont inventer la démocratie constitutionnelle moderne.",
             datesCles: [
               { annee: 1773, evenement: "Boston Tea Party", info: "Les colons jettent les cargaisons de thé à l'eau pour protester contre les impôts anglais ('No taxation without representation')." },
               { annee: 1776, evenement: "Déclaration d'Indépendance", info: "Le 4 juillet, rédigée par Thomas Jefferson, proclamant le droit au 'bonheur' et l'égalité des hommes (blancs)." },
-              { annee: 1781, evenement: "Bataille de Yorktown", info: "Washington et l'armée française de Rochambeau/Lafayette obligent l'Angleterre à capituler." },
+              { annee: 1781, evenement: "Bataille de Yorktown", info: "L'armée française de Rochambeau, la flotte de l'amiral de Grasse et les Américains de Washington (dont La Fayette) obligent l'armée britannique à capituler." },
               { annee: 1787, evenement: "La Constitution", info: "Les pères fondateurs instaurent la première république fédérale présidentielle moderne." }
             ],
             dirigeants: [
@@ -578,7 +577,7 @@ export default [
               { nom: "Marquis de La Fayette", role: "Général", description: "Le 'Héros des deux mondes'. Ce jeune noble français finança son propre navire pour venir libérer l'Amérique, forgeant l'alliance éternelle franco-américaine.", dates: "1757 à 1834", wikiUrl: "https://fr.wikipedia.org/wiki/Gilbert_du_Motier_de_La_Fayette" }
             ],
             sciences: "Outre les inventions pratiques de Franklin (paratonnerre, lunettes à double foyer), l'innovation majeure de la jeune nation est la 'Science politique'. La Constitution (1787) met en pratique stricte la théorie européenne de Montesquieu sur la séparation des pouvoirs : Législatif (Congrès), Exécutif (Président), Judiciaire (Cour Suprême), avec un système d'équilibre ('Checks and Balances').",
-            croyancesText: "Profondément marqués par le puritanisme de la Nouvelle-Angleterre (le Mayflower, le mythe de la 'Cité sur la Colline'), les Pères fondateurs (majoritairement déistes ou protestants) accomplissent une révolution absolue : le Premier Amendement interdit formellement à l'État d'établir une religion officielle, instaurant une laïcité stricte de l'État mais une totale ferveur de la société (In God We Trust).",
+            croyancesText: "Profondément marqués par le puritanisme de la Nouvelle-Angleterre (le Mayflower, le mythe de la 'Cité sur la Colline'), les Pères fondateurs (majoritairement déistes ou protestants) accomplissent une révolution : le Premier Amendement (1791) interdit au Congrès d'établir une religion officielle : il n'existe donc pas de religion officielle fédérale, tandis que la société reste très croyante.",
             diplomatie: "La guerre d'indépendance était ingagnable militairement seule. Les miliciens et 'Minutemen' de Washington, mal équipés, survivaient dans les hivers de Valley Forge. Le salut vint du Traité d'alliance franco-américain de 1778. L'envoi par Louis XVI de millions de livres d'or, d'armes, de l'escadre de l'amiral de Grasse et de l'armée de Rochambeau a coulé la couronne française mais sauvé l'Amérique naissante.",
             guerres: [
               { nom: "Guerre d'indépendance des États-Unis", annee: 1775, adversaires: ["Empire Britannique (George III)"], allies: ["Royaume de France", "Royaume d'Espagne"], morts: "Env. 25 000 patriotes américains", vainqueur: "États-Unis d'Amérique", consequences: "Traité de Paris (1783) reconnaissant l'indépendance. Le fardeau financier de cette guerre précipitera la France dans sa propre Révolution de 1789.", wikiUrl: "https://fr.wikipedia.org/wiki/Guerre_d'ind%C3%A9pendance_des_%C3%89tats-Unis" }
@@ -725,13 +724,13 @@ export default [
             id: "autriche-hongrie",
             trackId: "autriche", row: 5,
             label: "Autriche-Hongrie",
-            period: "1804 à 1918", start: 1789, end: 1918,
+            period: "1789 à 1918", start: 1789, end: 1918,
             color: "#fbc02d", isRiver: false, capitale: "Vienne",
             description: "La 'Mosaïque de peuples'. L'imposant empire conservateur des Habsbourg abritant la plus brillante ébullition intellectuelle d'Europe centrale, foudroyé par les nationalismes.",
             datesCles: [
               { annee: 1815, evenement: "Le Congrès de Vienne", info: "L'Autriche de Metternich redessine la carte de l'Europe après la chute de Napoléon." },
               { annee: 1867, evenement: "Le Compromis", info: "Pour éviter l'implosion, l'empire se divise en 'Double Monarchie' : l'Autriche et la Hongrie à parts égales." },
-              { annee: 1914, evenement: "Attentat de Sarajevo", info: "L'héritier de l'Empire est assassiné par un nationaliste serbe, déclenchant l'apocalypse mondiale." },
+              { annee: 1914, evenement: "Attentat de Sarajevo", info: "L'héritier de l'Empire, François-Ferdinand, est assassiné par Gavrilo Princip, un Serbe de Bosnie lié à des réseaux nationalistes serbes. L'attentat déclenche la Première Guerre mondiale." },
               { annee: 1918, evenement: "Démantèlement", info: "La défaite disloque l'Empire en plusieurs pays : Autriche, Hongrie, Tchécoslovaquie, Yougoslavie." }
             ],
             dirigeants: [
@@ -744,7 +743,7 @@ export default [
             ],
             sciences: "La 'Vienne fin de siècle' est la capitale mondiale de la modernité artistique et scientifique, un bouillon de culture (Klimt, Mahler, Freud, Zweig). Scientifiquement, Gregor Mendel (un moine morave de l'Empire) fonde la génétique moderne avec ses lois sur les petits pois, et Ignaz Semmelweis impose l'asepsie (lavage des mains) en médecine.",
             croyancesText: "L'Empire est le bastion catholique conservateur. Mais sa fragilité et sa richesse viennent de ses formidables minorités. Vienne est l'une des grandes capitales du judaïsme européen, berceau intellectuel du Sionisme théorisé par Theodor Herzl (visant à créer un État juif face à la montée de l'antisémitisme en Europe).",
-            diplomatie: "Diriger 50 millions d'habitants parlant 11 langues officielles différentes (Allemands, Magyars, Tchèques, Croates, Polonais) sous une monarchie germanophone est un numéro d'équilibriste mortel. L'éveil de l'idée de 'Nation' en Europe rend ce système caduc. En s'alliant militairement avec l'Allemagne (La Duplice), Vienne condamne son destin à celui de Berlin lors de la Première Guerre mondiale.",
+            diplomatie: "Diriger 50 millions d'habitants parlant une dizaine de langues reconnues, au statut variable selon les régions (allemand, hongrois, tchèque, croate, polonais…) sous une monarchie germanophone est un numéro d'équilibriste mortel. L'éveil de l'idée de 'Nation' en Europe rend ce système caduc. En s'alliant militairement avec l'Allemagne (La Duplice), Vienne condamne son destin à celui de Berlin lors de la Première Guerre mondiale.",
             guerres: [
               { nom: "Bataille de Sadowa", annee: 1866, adversaires: ["Royaume de Prusse (Bismarck)"], allies: ["Saxe, Bavière"], morts: "Pertes stratégiques catastrophiques", vainqueur: "Prusse", consequences: "Bismarck expulse définitivement l'Autriche des affaires allemandes, laissant le champ libre à la création de l'Empire Allemand quelques années plus tard.", wikiUrl: "https://fr.wikipedia.org/wiki/Guerre_austro-prussienne" }
             ],
@@ -758,24 +757,24 @@ export default [
             color: "#4caf50", isRiver: false, capitale: "Rome",
             description: "L'émergence difficile d'un seul pays sur un territoire fracturé (Le Risorgimento), l'invention du Fascisme, et la refondation d'une puissance économique pro-européenne.",
             datesCles: [
-              { annee: 1861, evenement: "Le Risorgimento", info: "Garibaldi et Cavour réussissent l'unification politique de l'Italie du Nord et du Sud." },
-              { annee: 1922, evenement: "Marche sur Rome", info: "Le Roi, effrayé, cède le pouvoir aux 'Chemises noires', fondation de la première dictature fasciste." },
+              { annee: 1861, evenement: "Le Risorgimento", info: "Grâce à Cavour et Garibaldi, le royaume d'Italie est proclamé. L'unification reste incomplète : la Vénétie est rattachée en 1866 et Rome en 1870." },
+              { annee: 1922, evenement: "Marche sur Rome", info: "Le roi nomme Mussolini chef du gouvernement après la marche des 'Chemises noires'. La dictature fasciste ne s'installe vraiment qu'en 1925-1926." },
               { annee: 1943, evenement: "La Chute du Duce", info: "Les Alliés débarquent au Sud. Le Roi fait arrêter Mussolini, l'Italie bascule dans la guerre civile." },
               { annee: 1946, evenement: "La République", info: "Par référendum, l'Italie abolit la royauté, responsable de l'alliance avec Hitler." }
             ],
             dirigeants: [
               { titre: "Roi d'Italie", nom: "Victor-Emmanuel II", surnom: "Le Père de la Patrie", debut: 1861, fin: 1878 },
-              { titre: "Duce du Fascisme", nom: "Benito Mussolini", surnom: "Le Duce", debut: 1922, fin: 1943 }
+              { titre: "Président du Conseil (Duce)", nom: "Benito Mussolini", surnom: "Le Duce", debut: 1922, fin: 1943 }
             ],
             personnages: [
-              { nom: "Giuseppe Garibaldi", role: "Général Républicain", description: "Le mercenaire au maillot rouge de la liberté. Héros charismatique de la guérilla ayant offert le sud (Les Deux-Siciles) au roi pour unifier le pays.", dates: "1807 à 1882", wikiUrl: "https://fr.wikipedia.org/wiki/Giuseppe_Garibaldi" },
-              { nom: "Enrico Fermi", role: "Physicien théoricien", description: "L'un des pionniers de la physique nucléaire et créateur du premier réacteur nucléaire. Prix Nobel exilé aux États-Unis.", dates: "1901 à 1954", wikiUrl: "https://fr.wikipedia.org/wiki/Enrico_Fermi" }
+              { nom: "Giuseppe Garibaldi", role: "Général Républicain", description: "Révolutionnaire, général des volontaires en chemise rouge. Héros charismatique ayant offert le sud (Les Deux-Siciles) au roi pour unifier le pays.", dates: "1807 à 1882", wikiUrl: "https://fr.wikipedia.org/wiki/Giuseppe_Garibaldi" },
+              { nom: "Enrico Fermi", role: "Physicien", description: "L'un des pionniers de la physique nucléaire et créateur du premier réacteur nucléaire. Prix Nobel exilé aux États-Unis.", dates: "1901 à 1954", wikiUrl: "https://fr.wikipedia.org/wiki/Enrico_Fermi" }
             ],
             sciences: "Le génie italien moderne s'illustre avec Guglielmo Marconi, co-inventeur de la radio (liaisons TSF), révolutionnant les communications mondiales. Après 1945, c'est le 'Miracle économique italien', soutenu par une industrie de design, de mécanique de précision et d'automobile (Fiat) dans le nord prospère (Triangle industriel de Milan-Turin-Gênes), contrastant avec le Mezzogiorno agraire au sud.",
             croyancesText: "L'unification italienne a un prix : annexer militairement les États du Pape. Pie IX s'enferme au Vatican et se déclare 'prisonnier politique', interdisant aux catholiques de voter. Le problème sera cyniquement réglé par le fasciste Mussolini lors des Accords du Latran (1929), qui font de la minuscule Cité du Vatican un État indépendant. Après la guerre, la démocratie chrétienne ('Democrazia Cristiana') gouvernera le pays pendant 50 ans.",
             diplomatie: "Hantée par le mythe de la grandeur de l'Empire Romain, l'Italie fasciste tente d'édifier un empire colonial en Libye et en Éthiopie (guerre au gaz moutarde en 1935). L'alliance désastreuse avec l'Allemagne nazie (Pacte d'Acier) mène le pays à la ruine en 1945. L'Italie d'après-guerre choisit la diplomatie pacifiste de coopération : elle est l'un des 6 grands membres fondateurs du Traité de Rome (1957) instaurant la CEE (future Europe).",
             guerres: [
-              { nom: "Troisième guerre d'Indépendance italienne", annee: 1866, adversaires: ["Autriche-Hongrie"], allies: ["Royaume de Prusse"], morts: "Pertes modérées", vainqueur: "Italie et Prusse", consequences: "Grâce à l'aide tactique prussienne, le jeune royaume d'Italie arrache enfin la Vénétie et la ville de Venise à la tutelle autrichienne.", wikiUrl: "https://fr.wikipedia.org/wiki/Troisi%C3%A8me_guerre_d'Ind%C3%A9pendance_italienne" }
+              { nom: "Troisième guerre d'Indépendance italienne", annee: 1866, adversaires: ["Empire d'Autriche"], allies: ["Royaume de Prusse"], morts: "Pertes modérées", vainqueur: "Prusse", consequences: "Battue par l'Autriche à Custoza et à Lissa, l'Italie obtient pourtant la Vénétie grâce à la victoire prussienne : l'Autriche la cède à la France, qui la remet à l'Italie.", wikiUrl: "https://fr.wikipedia.org/wiki/Troisi%C3%A8me_guerre_d'Ind%C3%A9pendance_italienne" }
             ],
             documentaires: [{ titre: "Mussolini, l'ascension et la chute", url: "https://fr.wikipedia.org/wiki/Benito_Mussolini" }]
           },
@@ -796,11 +795,11 @@ export default [
               { titre: "Président de la Commission", nom: "Jacques Delors", surnom: "", debut: 1985, fin: 1995 }
             ],
             personnages: [
-              { nom: "Jean Monnet & Robert Schuman", role: "Les Pères de l'Europe", description: "Des hauts fonctionnaires visionnaires pariant sur l'intégration économique progressive (méthode des petits pas) plutôt que la politique.", dates: "XXe siècle", wikiUrl: "https://fr.wikipedia.org/wiki/P%C3%A8res_de_l%27Europe" },
+              { nom: "Jean Monnet & Robert Schuman", role: "Les Pères de l'Europe", description: "Jean Monnet, haut fonctionnaire, et Robert Schuman, homme politique et ministre français des Affaires étrangères, parient sur l'intégration économique progressive (méthode des petits pas) plutôt que la politique.", dates: "XXe siècle", wikiUrl: "https://fr.wikipedia.org/wiki/P%C3%A8res_de_l%27Europe" },
               { nom: "Simone Veil", role: "Présidente du Parlement", description: "Survivante d'Auschwitz, elle devient la première présidente (élue au suffrage universel) du Parlement européen en 1979.", dates: "1927 à 2017", wikiUrl: "https://fr.wikipedia.org/wiki/Simone_Veil" }
             ],
             sciences: "Le bloc consolide les puissances par des collaborations industrielles massives de pointe que les États nations seuls ne pourraient plus financer : l'entreprise d'aéronautique Airbus (contre le monopole de l'américain Boeing), le programme spatial européen Arianespace et l'Agence Spatiale Européenne (ESA), ou l'accélérateur géant de particules du CERN.",
-            croyancesText: "L'Union Européenne repose sur un dogme politique inviolable : les 'Critères de Copenhague'. Pour y adhérer, une nation doit obligatoirement prouver qu'elle possède des institutions démocratiques stables, qu'elle respecte les Droits de l'Homme, abolit la peine de mort, respecte les minorités de son pays, et adhère à l'économie de marché viable.",
+            croyancesText: "L'Union Européenne repose sur un dogme politique inviolable : les 'Critères de Copenhague'. Pour y adhérer, une nation doit obligatoirement prouver qu'elle possède des institutions démocratiques stables, qu'elle respecte les Droits de l'Homme (ce qui implique en pratique l'abolition de la peine de mort, exigée par ailleurs par l'UE), respecte les minorités de son pays, et adhère à l'économie de marché viable.",
             diplomatie: "C'est l'anti-Empire. L'UE n'est pas construite par la force militaire (elle n'a d'ailleurs aucune véritable armée commune), mais par l'adhésion volontaire au Droit par traités. Elle utilise son immense marché de 450 millions de consommateurs parmi les plus riches au monde (Le Marché Unique) comme 'Soft Power' pour imposer des normes économiques et écologiques mondiales (RGPD).",
             guerres: [
               { nom: "Guerres de Yougoslavie", annee: 1991, adversaires: ["Factions nationalistes balkaniques"], allies: ["Intervention OTAN/Casques Bleus"], morts: "Environ 140 000 morts (épuration ethnique)", vainqueur: "Communauté Internationale", consequences: "Impuissante politiquement et militairement à gérer l'horreur à ses propres frontières, l'Europe dut faire appel aux bombardiers américains de l'OTAN pour stopper le conflit.", wikiUrl: "https://fr.wikipedia.org/wiki/Guerres_de_Yougoslavie" }
@@ -852,20 +851,20 @@ export default [
             description: "Sur les cendres du plus riche vice-royaume espagnol, une nation métissée forgeant son identité par les larmes d'une gigantesque Révolution agraire.",
             datesCles: [
               { annee: 1810, evenement: "Cri de Dolores", info: "L'appel du prêtre Miguel Hidalgo déclenchant la sanglante guerre d'indépendance." },
-              { annee: 1848, evenement: "Guerre Américano-Mexicaine", info: "Catastrophe territoriale, le Mexique perd la moitié de son pays (Californie, Texas)." },
+              { annee: 1848, evenement: "Guerre Américano-Mexicaine", info: "Catastrophe territoriale : le Mexique cède la Californie et le Sud-Ouest aux États-Unis. Le Texas, indépendant depuis 1836, avait été annexé par les États-Unis en 1845." },
               { annee: 1862, evenement: "L'Intervention Française", info: "Napoléon III tente de placer l'empereur Maximilien sur le trône, mais les Mexicains le fusillent en 1867." },
               { annee: 1910, evenement: "Révolution Mexicaine", info: "Explosion de violence pour la réforme agraire et la justice sociale, chassant le dictateur Porfirio Díaz." }
             ],
             dirigeants: [
               { titre: "Dictateur 'Modernisateur'", nom: "Porfirio Díaz", surnom: "", debut: 1876, fin: 1911 },
-              { titre: "Président (PRI)", nom: "Lázaro Cárdenas", surnom: "", debut: 1934, fin: 1940 }
+              { titre: "Président (Parti national révolutionnaire, devenu PRM, ancêtre du PRI fondé en 1946)", nom: "Lázaro Cárdenas", surnom: "", debut: 1934, fin: 1940 }
             ],
             personnages: [
               { nom: "Emiliano Zapata", role: "Chef de guérilla agraire", description: "Héros pur et dur de la Révolution au cri de 'Tierra y Libertad', luttant pour rendre les terres aux paysans indigènes volés par les haciendas.", dates: "1879 à 1919", wikiUrl: "https://fr.wikipedia.org/wiki/Emiliano_Zapata" },
               { nom: "Frida Kahlo", role: "Artiste peintre", description: "L'icône absolue de l'art et du féminisme mexicain du 20ème siècle, revendiquant sa culture indigène et communiste.", dates: "1907 à 1954", wikiUrl: "https://fr.wikipedia.org/wiki/Frida_Kahlo" }
             ],
             sciences: "Sous le 'Porfiriato' (la longue dictature de Díaz), le pays se modernise techniquement de force grâce aux capitaux étrangers (Royaume-Uni, USA) avec 19 000 km de chemins de fer et l'extraction massive d'argent et de pétrole, mais au prix de la misère paysanne. En 1938, le gouvernement nationalise le pétrole (PEMEX), affirmant sa souveraineté industrielle moderne face aux multinationales américaines.",
-            croyancesText: "Le 'Mestizaje' (métissage) de la foi est la colonne vertébrale du pays, symbolisé par Notre-Dame de Guadalupe (la vierge catholique au teint brun, apparue sur la colline de l'ancien temple aztèque de Tonantzin). La Révolution de 1910 adopte une Constitution violemment laïque et anticommuniste, entraînant une sanglante guerre civile religieuse dans les années 20 ('La Guerre des Cristeros' où les paysans armés meurent pour le Christ-Roi).",
+            croyancesText: "Le 'Mestizaje' (métissage) de la foi est la colonne vertébrale du pays, symbolisé par Notre-Dame de Guadalupe (la vierge catholique au teint brun, apparue sur la colline de l'ancien temple aztèque de Tonantzin). La Révolution de 1910 adopte une Constitution (1917) fortement anticléricale, entraînant une sanglante guerre civile religieuse dans les années 20 ('La Guerre des Cristeros' où les paysans armés meurent pour le Christ-Roi).",
             diplomatie: "Le traumatisme fondamental de l'État mexicain est d'avoir été amputé de moitié par la force de son surpuissant voisin du nord, les États-Unis. Après la Révolution, le pays opte pour une politique étrangère pacifiste stricte (La Doctrine Estrada : non-intervention dans les affaires des autres États). Le pays devient gouverné par un 'parti unique' autoritaire mais stable, le PRI, pendant soixante-dix ans.",
             guerres: [
               { nom: "La Révolution Mexicaine", annee: 1910, adversaires: ["Armées Fédérales"], allies: ["Armées de Zapata (Sud) et de Pancho Villa (Nord)"], morts: "Entre 1 et 2 millions (guerre et grippe espagnole)", vainqueur: "La faction constitutionnaliste (Carranza)", consequences: "L'une des guerres les plus atroces du XXe siècle. Elle accouche de la Constitution de 1917, garantissant les droits sociaux, le droit du travail et la séparation de l'Église et de l'État.", wikiUrl: "https://fr.wikipedia.org/wiki/R%C3%A9volution_mexicaine" }
@@ -887,17 +886,17 @@ export default [
             ],
             dirigeants: [
               { titre: "Empereur du Brésil", nom: "Pierre II (Pedro II)", surnom: "Le Magnanime", debut: 1831, fin: 1889 },
-              { titre: "Président populiste dictateur", nom: "Getúlio Vargas", surnom: "", debut: 1930, fin: 1954 },
-              { titre: "Président", nom: "Lula da Silva", surnom: "", debut: 2003, fin: 2010 }
+              { titre: "Président populiste dictateur", nom: "Getúlio Vargas", surnom: "Au pouvoir de 1930 à 1945, puis de 1951 à 1954", debut: 1930, fin: 1954 },
+              { titre: "Président", nom: "Lula da Silva", surnom: "Président de 2003 à 2010, puis de nouveau depuis 2023", debut: 2003, fin: 2010 }
             ],
             personnages: [
               { nom: "Oscar Niemeyer", role: "Architecte", description: "Le visionnaire communiste aux lignes courbes, bâtisseur monumental des palais de Brasília.", dates: "1907 à 2012", wikiUrl: "https://fr.wikipedia.org/wiki/Oscar_Niemeyer" }
             ],
-            sciences: "Puissance d'ingénierie d'altitude et hydroélectrique. Ils construisent le Barrage d'Itaipu (fournissant 20% de l'électricité de la nation). Le Brésil investit lourdement dans les biotechnologies : confronté aux chocs pétroliers, il devient le leader mondial de la production de biocarburant à l'éthanol (extrait de sa production géante de canne à sucre) pour faire fonctionner son parc automobile et développe la compagnie aéronautique Embraer.",
+            sciences: "Puissance hydroélectrique, le Brésil construit avec le Paraguay le barrage d'Itaipu (qui fournit aujourd'hui environ 10 % de l'électricité du pays, davantage dans les années 1990). Le Brésil investit lourdement dans les biotechnologies : confronté aux chocs pétroliers, il devient le leader mondial de la production de biocarburant à l'éthanol (extrait de sa production géante de canne à sucre) pour faire fonctionner son parc automobile et développe la compagnie aéronautique Embraer.",
             croyancesText: "La plus grande nation catholique du monde est le laboratoire des syncrétismes religieux liés à la cruelle importation de millions d'esclaves africains (Yoruba, Kongos). Les divinités africaines (Orixás) furent masquées derrière les noms des saints catholiques pour échapper aux colons, donnant naissance au puissant rite spirituel et musical du Candomblé (culte d'Iemanja la déesse des mers) très pratiqué à Bahia.",
             diplomatie: "Son unité territoriale gigantesque a été maintenue sans éclatement (contrairement à l'Amérique espagnole) car la famille royale de Lisbonne s'y était installée pour fuir Napoléon. Politiquement, le pays oscille entre des dictatures militaires (les Juntes de 1964 à 1985 protégées par Washington) et des périodes de démocratie vibrante et exportatrice (Café, Soja, Fer), affirmant aujourd'hui son statut de pilier des BRICS (pays émergents).",
             guerres: [
-              { nom: "Guerre de la Triple Alliance", annee: 1864, adversaires: ["Dictature du Paraguay"], allies: ["Argentine", "Uruguay"], morts: "Anéantissement du peuple paraguayen", vainqueur: "Brésil et ses alliés", consequences: "Le conflit le plus meurtrier de l'Amérique du Sud moderne. Le Brésil sécurise le contrôle stratégique des immenses fleuves d'Amérique du Sud mais l'endettement affaiblit la monarchie.", wikiUrl: "https://fr.wikipedia.org/wiki/Guerre_de_la_Triple-Alliance" }
+              { nom: "Guerre de la Triple Alliance", annee: 1864, adversaires: ["Dictature du Paraguay"], allies: ["Argentine", "Uruguay"], morts: "Pertes énormes pour le Paraguay (estimations très variables)", vainqueur: "Brésil et ses alliés", consequences: "Le conflit le plus meurtrier de l'Amérique du Sud moderne. Le Brésil sécurise le contrôle stratégique des immenses fleuves d'Amérique du Sud mais l'endettement affaiblit la monarchie.", wikiUrl: "https://fr.wikipedia.org/wiki/Guerre_de_la_Triple-Alliance" }
             ],
             documentaires: [{ titre: "L'Empire du Brésil, exception sud-américaine", url: "https://fr.wikipedia.org/wiki/Empire_du_Br%C3%A9sil" }]
           }
@@ -910,22 +909,22 @@ export default [
             id: "turquie",
             trackId: "ottomans", row: 1,
             label: "Turquie",
-            period: "1923 à 2020", start: 1789, end: 2020,
+            period: "1789 à 2020", start: 1789, end: 2020,
             color: "#27ae60", isRiver: false, capitale: "Ankara",
             description: "Sur les ruines de l'empire ottoman, la révolution kémaliste impose par la poigne une république moderne, laïque et occidentale reliant l'Europe à l'Asie.",
             datesCles: [
               { annee: 1915, evenement: "Génocide Arménien", info: "Extermination de plus d'un million d'arméniens chrétiens par le régime des Jeunes-Turcs." },
-              { annee: 1920, evenement: "Traité de Sèvres", info: "Démantèlement de l'Empire Ottoman par la France et l'Angleterre." },
+              { annee: 1920, evenement: "Traité de Sèvres", info: "Démantèlement de l'Empire ottoman imposé par les Alliés." },
               { annee: 1923, evenement: "La République", info: "Mustafa Kemal rejette les traités occidentaux et sauve le cœur de la nation." },
-              { annee: 1928, evenement: "L'Alphabet Latin", info: "L'État abandonne en une nuit l'alphabet arabe pour occidentaliser la société." }
+              { annee: 1928, evenement: "L'Alphabet Latin", info: "Une loi de novembre 1928 remplace l'alphabet arabe par l'alphabet latin ; la transition se fait sur plusieurs mois." }
             ],
             dirigeants: [
               { titre: "Le Père des Turcs (Président)", nom: "Mustafa Kemal", surnom: "Atatürk", debut: 1923, fin: 1938 },
-              { titre: "Président (AKP)", nom: "Recep Tayyip Erdoğan", surnom: "", debut: 2003, fin: 2020 }
+              { titre: "Premier ministre puis Président (AKP)", nom: "Recep Tayyip Erdoğan", surnom: "Premier ministre de 2003 à 2014, président depuis 2014", debut: 2003, fin: 2020 }
             ],
             personnages: [],
             sciences: "Le rattrapage des années 20 est un modèle de dirigisme étatique et militaire : construction expresse de l'industrie textile, d'aciéries, laïcisation massive des universités, et l'un des premiers droits de vote accordé aux femmes au monde (1934).",
-            croyancesText: "Le 'Kémalisme' impose une laïcité absolue et agressive en pays musulman : le vêtement religieux islamique (le fez, le voile) est interdit dans l'espace public de force, l'appel à la prière doit se faire en turc, l'alphabet arabe est proscrit. Plus tard (années 2000), le gouvernement d'Erdoğan remettra progressivement l'Islam sunnite politique au cœur du discours de l'État.",
+            croyancesText: "Le 'Kémalisme' impose une laïcité absolue et agressive en pays musulman : le fez est interdit (loi sur le chapeau, 1925), le voile est découragé et interdit dans certains lieux publics (administrations, universités), l'appel à la prière doit se faire en turc, l'alphabet arabe est proscrit. Plus tard (années 2000), le gouvernement d'Erdoğan remettra progressivement l'Islam sunnite politique au cœur du discours de l'État.",
             diplomatie: "Devenue le flanc Est stratégique de l'OTAN face à l'URSS pendant la guerre froide (abritant des missiles nucléaires américains), la diplomatie turque est pragmatique : candidat de longue date à l'entrée dans l'Union Européenne, c'est aussi un acteur militarisé incontournable au Moyen-Orient (conflits avec la Grèce pour Chypre, opposition armée au nationalisme kurde).",
             guerres: [
               { nom: "Guerre d'Indépendance Turque", annee: 1919, adversaires: ["Grèce", "Arménie", "Alliés occidentaux"], allies: ["Russie bolchévique"], morts: "Pertes civiles et militaires lourdes", vainqueur: "Turquie (Gouvernement d'Ankara)", consequences: "Atatürk écrase l'armée grecque qui tentait d'occuper la côte ouest. Annulation de la partition de la Turquie et immense échange forcé de populations chrétiennes et musulmanes.", wikiUrl: "https://fr.wikipedia.org/wiki/Guerre_d'ind%C3%A9pendance_turque" }
@@ -938,7 +937,7 @@ export default [
             label: "Iran",
             period: "1789 à 2020", start: 1789, end: 2020,
             color: "#9c27b0", isRiver: false, capitale: "Téhéran",
-            description: "Dernière puissance perse, passée de la dictature moderne pétrolière pro-américaine (les Chahs) à l'instauration de l'unique République Islamique chiite du monde.",
+            description: "Dernière puissance perse, passée de la monarchie des Qadjars à la dictature pétrolière des Chahs Pahlavi (pro-américaine surtout après 1953), à l'instauration de l'unique République Islamique chiite du monde.",
             datesCles: [
               { annee: 1908, evenement: "Pétrole de Masjed Soleyman", info: "Découverte historique bouleversant la géopolitique (Anglo-Persian Oil Company)." },
               { annee: 1953, evenement: "Opération Ajax", info: "La CIA et les Britanniques renversent le gouvernement Mossadegh pour récupérer le pétrole." },
@@ -1034,12 +1033,15 @@ export default [
               { titre: "Dictateur (Nord)", nom: "Kim Il-sung", surnom: "Le Président Éternel", debut: 1948, fin: 1994 },
               { titre: "Dictateur militaire (Sud)", nom: "Park Chung-hee", surnom: "", debut: 1961, fin: 1979 }
             ],
-            personnages: [],
+            personnages: [
+              { nom: "Syngman Rhee", role: "Premier président de la Corée du Sud", description: "Militant de l'indépendance coréenne, il dirige la Corée du Sud de 1948 à 1960 de façon de plus en plus autoritaire, avant d'être chassé par une révolte étudiante.", dates: "1875 à 1965", wikiUrl: "https://fr.wikipedia.org/wiki/Syngman_Rhee" },
+              { nom: "Kim Dae-jung", role: "Opposant puis président de la Corée du Sud", description: "Opposant aux dictatures militaires, élu président en 1997, il mène une politique de rapprochement avec le Nord (« politique du rayon de soleil ») et reçoit le prix Nobel de la paix en 2000.", dates: "1924 à 2009", wikiUrl: "https://fr.wikipedia.org/wiki/Kim_Dae-jung" }
+            ],
             sciences: "Le contraste est vertigineux : Le Sud réalise 'Le Miracle sur le fleuve Han', des chaebols (immenses conglomérats nationaux comme Samsung, Hyundai) propulsant un pays ravagé dans la domination mondiale des écrans, bateaux et de la mémoire électronique, et sa K-Culture musicale. Le Nord se militarise à outrance au prix de grandes famines, sacrifiant tout à l'obtention de la dissuasion balistique et nucléaire autonome.",
             croyancesText: "Le Nord vit sous l'idéologie politique quasi-religieuse absolue du 'Juche' (L'Autosuffisance totale militaire et économique). Des milliers de statues monumentales à la gloire de la dynastie totalitaire des Kim dominent chaque ville. Le Sud, profondément dynamique religieusement, abrite d'immenses mega-églises évangéliques (christianisme) et une grande part de laïcs pragmatiques et matérialistes.",
             diplomatie: "Techniquement, la guerre de Corée n'est pas terminée (seul un Armistice de Cessez-le-feu fut signé à Panmunjom en 1953). Le Nord, soutenu par la Chine communiste, est le pays le plus isolé et sanctionné diplomatiquement du monde. Le Sud, bastion géopolitique armé indispensable des États-Unis en Asie de l'Est, déploie sa diplomatie économique libre-échangiste.",
             guerres: [
-              { nom: "Guerre de Corée", annee: 1950, adversaires: ["Corée du Nord", "Volontaires de la Chine Maoïste"], allies: ["Corée du Sud", "Force de Coalition de l'ONU (États-Unis)"], morts: "Plus de 2,5 millions de civils (Séoul rasée 4 fois)", vainqueur: "Statu Quo (Match nul sanglant)", consequences: "La guerre la plus destructrice de l'ère de la Guerre Froide. Le Général américain MacArthur voulut y utiliser la bombe atomique contre la Chine mais fut limogé.", wikiUrl: "https://fr.wikipedia.org/wiki/Guerre_de_Cor%C3%A9e" }
+              { nom: "Guerre de Corée", annee: 1950, adversaires: ["Corée du Nord", "Volontaires de la Chine Maoïste"], allies: ["Corée du Sud", "Force de Coalition de l'ONU (États-Unis)"], morts: "Environ 2,5 à 3 millions de morts au total, en grande partie civils (Séoul change de mains 4 fois)", vainqueur: "Statu Quo (Match nul sanglant)", consequences: "La guerre la plus destructrice de l'ère de la Guerre Froide. Le général américain MacArthur, qui voulait étendre la guerre à la Chine (il envisagea même l'arme atomique), est limogé en 1951 par le président Truman, surtout pour insubordination.", wikiUrl: "https://fr.wikipedia.org/wiki/Guerre_de_Cor%C3%A9e" }
             ],
             documentaires: [{ titre: "Guerre de Corée : Le grand affrontement", url: "https://fr.wikipedia.org/wiki/Histoire_de_la_Cor%C3%A9e" }]
           },
@@ -1082,7 +1084,7 @@ export default [
               { annee: 1800, evenement: "Nationalisation", info: "L'entreprise privée ruinée VOC disparaît, l'État néerlandais prend le contrôle brutal de l'archipel." },
               { annee: 1942, evenement: "Invasion japonaise", info: "Les forces nippones éjectent les Hollandais pour s'emparer du très convoité pétrole indonésien." },
               { annee: 1945, evenement: "Indépendance de force", info: "Au départ des Japonais, Sukarno lit la déclaration de souveraineté d'Indonésie (Revolusi)." },
-              { annee: 1965, evenement: "Purges anticommunistes", info: "La dictature du général Suharto (L'Ordre Nouveau) massacre au moins 500 000 communistes présumés." }
+              { annee: 1965, evenement: "Purges anticommunistes", info: "L'armée, dirigée par le général Suharto (qui n'est pas encore président), et des milices massacrent entre 500 000 et 1 million de communistes présumés selon les estimations." }
             ],
             dirigeants: [
               { titre: "Président de la République", nom: "Sukarno", surnom: "", debut: 1945, fin: 1967 },
@@ -1091,9 +1093,9 @@ export default [
             personnages: [],
             sciences: "Le colonialisme hollandais fut d'une terrible rentabilité avec le 'Cultuurstelsel' (Système de cultures forcées) obligeant les paysans indigènes à cultiver (tabac, café, canne à sucre, indigo) pour les marchands européens en les affamant de leur propre riz. Devenue indépendante, la géographie volcanique du pays la contraint à une ingénierie complexe pour extraire les minerais, et a géré d'immenses catastrophes sismiques (Tsunami géant de 2004 en Aceh).",
             croyancesText: "C'est un État laïque abritant l'immense majorité musulmane sunnite de la planète (près de 230 millions d'habitants). Pour lier ses 17 000 îles ethniquement disparates, le pays est cimenté par le principe du 'Pancasila' : l'obligation philosophique d'État (la croyance en un seul Dieu, une humanité juste, une démocratie unifiée). L'hindouisme reste vivace et concentré (Bali).",
-            diplomatie: "C'est le fer de lance de l'anticolonialisme du Tiers-Monde. Sukarno accueille la fameuse Conférence de Bandung (1955), réunissant pour la première fois les leaders africains et asiatiques non-alignés. Suharto plus tard alignera l'économie militarisée du pays sur les capitaux de la Guerre Froide américaine, en annexant violemment le Timor oriental et la Papouasie.",
+            diplomatie: "C'est le fer de lance de l'anticolonialisme du Tiers-Monde. Sukarno accueille la fameuse Conférence de Bandung (1955), réunissant pour la première fois les leaders africains et asiatiques non-alignés. Suharto plus tard alignera l'économie militarisée du pays sur les capitaux de la Guerre Froide américaine, en annexant violemment le Timor oriental (1975-1976) ; la Papouasie occidentale est intégrée en 1969 après un « Acte de libre choix » très contesté.",
             guerres: [
-              { nom: "Guerre d'indépendance indonésienne", annee: 1945, adversaires: ["Pays-Bas", "Empire Britannique (en appui)"], allies: ["Soutien diplomatique États-Unis/ONU"], morts: "100 000 Indonésiens", vainqueur: "Indonésie", consequences: "Les Hollandais tentèrent violemment de reconquérir leurs anciennes colonies pendant 4 ans après la WWII, mais cédèrent face au coût militaire et à l'embargo menacé par les Américains.", wikiUrl: "https://fr.wikipedia.org/wiki/R%C3%A9volution_nationale_indon%C3%A9sienne" }
+              { nom: "Guerre d'indépendance indonésienne", annee: 1945, adversaires: ["Pays-Bas", "Empire Britannique (en appui)"], allies: ["Soutien diplomatique États-Unis/ONU"], morts: "Environ 100 000 Indonésiens selon les estimations", vainqueur: "Indonésie", consequences: "Les Hollandais tentèrent violemment de reconquérir leurs anciennes colonies pendant 4 ans après la WWII, mais cédèrent face au coût militaire et à l'embargo menacé par les Américains.", wikiUrl: "https://fr.wikipedia.org/wiki/R%C3%A9volution_nationale_indon%C3%A9sienne" }
             ],
             documentaires: [{ titre: "La Naissance de l'Indonésie : Bandung", url: "https://fr.wikipedia.org/wiki/Histoire_de_l%27Indon%C3%A9sie" }]
           },
@@ -1107,17 +1109,17 @@ export default [
             datesCles: [
               { annee: 1819, evenement: "Comptoir Franc", info: "L'Anglais Stamford Raffles fonde le port, libérant les taxes pour attirer les marchands de toute l'Asie." },
               { annee: 1942, evenement: "La Chute", info: "La forteresse navale britannique réputée inexpugnable est foudroyée à vélo par la jungle par l'armée japonaise." },
-              { annee: 1965, evenement: "Indépendance Forcée", info: "Jetée hors de la Fédération de Malaisie pour des raisons ethniques, l'île de pêcheurs doit survivre seule." }
+              { annee: 1965, evenement: "Indépendance Forcée", info: "Jetée hors de la Fédération de Malaisie pour des raisons ethniques, Singapour, déjà un grand port d'environ 1,9 million d'habitants, doit survivre seule." }
             ],
             dirigeants: [
               { titre: "Père Fondateur (Premier ministre)", nom: "Lee Kuan Yew", surnom: "", debut: 1959, fin: 1990 }
             ],
             personnages: [],
-            sciences: "Le miracle de la survie logistique de la Tech et de la finance. Dénuée d'eau douce, Singapour met en œuvre une politique d'ingénierie stricte de recyclage hydrique ('NEWater') rendant les égouts potables. Son industrie a littéralement poldérisé l'île (sable gagné sur l'océan), érigeant un système d'algorithmes et de grues géantes pilotant le premier grand port logistique de fret conteneurisé mondial en temps réel (le Port de Singapour, PSA).",
-            croyancesText: "Société multiconfessionnelle (Bouddhistes, Musulmans, Hindous et Chrétiens) dominée historiquement par l'ethnie migratoire chinoise Hakka et Hokkien. La doctrine fondatrice n'est pas religieuse mais autoritaire et morale : le confucianisme asiatique de la discipline, de l'harmonie raciale et du travail acharné. Les sanctions judiciaires et corporelles (coups de fouet en rotin) y sont rigoureusement appliquées (tolérance zéro de l'État).",
-            diplomatie: "C'est la Suisse d'Asie. Pour assurer la survie de cette minuscule île très riche (1ère place de banques et de puces électroniques) coincée entre des géants malais et indonésiens plus pauvres, le pays base sa sécurité sur d'excellentes forces armées (Air Force), le libre-échange capitaliste global, et une coopération diplomatique fine sans aucun positionnement sur les droits de l'homme internes de ses partenaires.",
+            sciences: "Le miracle de la survie logistique de la Tech et de la finance. Dénuée d'eau douce, Singapour met en œuvre une politique d'ingénierie stricte de recyclage hydrique ('NEWater') rendant les égouts potables. Son industrie a littéralement poldérisé l'île (sable gagné sur l'océan), érigeant un système d'algorithmes et de grues géantes pilotant l'un des plus grands ports à conteneurs du monde (le 2e, derrière Shanghai).",
+            croyancesText: "Société multiconfessionnelle (Bouddhistes, Musulmans, Hindous et Chrétiens) où la population d'origine chinoise est majoritaire (surtout des Hokkien, avec des minorités comme les Hakka). La doctrine fondatrice n'est pas religieuse mais autoritaire et morale : le confucianisme asiatique de la discipline, de l'harmonie raciale et du travail acharné. Les sanctions judiciaires et corporelles (coups de fouet en rotin) y sont rigoureusement appliquées (tolérance zéro de l'État).",
+            diplomatie: "C'est la Suisse d'Asie. Pour assurer la survie de cette minuscule île très riche, coincée entre des géants malais et indonésiens plus pauvres, le pays base sa sécurité sur d'excellentes forces armées (Air Force), le libre-échange capitaliste global, et une coopération diplomatique fine sans aucun positionnement sur les droits de l'homme internes de ses partenaires.",
             guerres: [
-              { nom: "L'Occupation Japonaise", annee: 1942, adversaires: ["Empire Japonais"], allies: ["Empire Britannique", "Milices chinoises malaises"], morts: "Massacre (Sook Ching) de 50 000 civils chinois", vainqueur: "Japon (temporairement)", consequences: "Les troupes impériales de Yamashita soumettent les généraux britanniques stupéfaits. Le traumatisme des persécutions montre aux peuples de la région que les colons blancs ne sont pas invincibles.", wikiUrl: "https://fr.wikipedia.org/wiki/Bataille_de_Singapour" }
+              { nom: "L'Occupation Japonaise", annee: 1942, adversaires: ["Empire Japonais"], allies: ["Empire Britannique", "Milices chinoises malaises"], morts: "Massacre (Sook Ching) de 25 000 à 50 000 civils chinois selon les estimations", vainqueur: "Japon (temporairement)", consequences: "Les troupes impériales de Yamashita soumettent les généraux britanniques stupéfaits. Le traumatisme des persécutions montre aux peuples de la région que les colons blancs ne sont pas invincibles.", wikiUrl: "https://fr.wikipedia.org/wiki/Bataille_de_Singapour" }
             ],
             documentaires: [{ titre: "Le grand miracle de Singapour", url: "https://fr.wikipedia.org/wiki/Singapour" }]
           }
@@ -1132,16 +1134,16 @@ export default [
             label: "Empire d'Éthiopie (Abyssinie)",
             period: "1789 à 2020", start: 1789, end: 2020,
             color: "#7b1fa2", isRiver: false, capitale: "Addis-Abeba",
-            description: "La grande fierté noire. Seul grand royaume d'Afrique, encerclé par les colonies, ayant militairement défait une armée moderne européenne pour maintenir son indépendance trimillénaire.",
+            description: "La grande fierté noire. Avec le Libéria, le seul État d'Afrique resté indépendant face à la colonisation, ayant militairement défait une armée européenne moderne pour maintenir une indépendance vieille de trois millénaires selon la tradition.",
             datesCles: [
               { annee: 1896, evenement: "Bataille d'Adoua", info: "Un coup de tonnerre mondial : l'empereur Ménélik II écrase avec des fusils l'armée coloniale d'invasion de l'Italie." },
               { annee: 1935, evenement: "Invasion Fasciste", info: "L'Italie de Mussolini venge son orgueil en envahissant le pays à coup d'armes chimiques et de bombardiers." },
-              { annee: 1974, evenement: "Fin de la dynastie de Salomon", info: "Une junte militaire communiste (le Derg) renverse le divin et dernier Empereur Haïlé Sélassié." },
-              { annee: 1991, evenement: "République Fédérale", info: "Chute de la dictature du Derg." }
+              { annee: 1974, evenement: "Fin de la dynastie de Salomon", info: "Une junte militaire (le Derg), qui se proclame ensuite marxiste-léniniste, renverse le dernier empereur, Haïlé Sélassié." },
+              { annee: 1991, evenement: "Chute du Derg", info: "Chute de la dictature du Derg. La République fédérale est instaurée par la Constitution de 1995." }
             ],
             dirigeants: [
-              { titre: "Négus (Roi des rois)", nom: "Ménélik II", surnom: "", debut: 1889, fin: 1913 },
-              { titre: "Négus", nom: "Haïlé Sélassié", surnom: "Le Lion conquérant", debut: 1930, fin: 1974 },
+              { titre: "Negusa Nagast (roi des rois)", nom: "Ménélik II", surnom: "", debut: 1889, fin: 1913 },
+              { titre: "Empereur", nom: "Haïlé Sélassié", surnom: "Le Lion conquérant", debut: 1930, fin: 1974 },
               { titre: "Général de Junte", nom: "Mengistu", surnom: "Le Négus rouge", debut: 1977, fin: 1991 }
             ],
             personnages: [],
@@ -1149,7 +1151,7 @@ export default [
             croyancesText: "L'empereur est légitimé par son sang, descendant légendairement en ligne directe du roi biblique Salomon et de la reine de Saba. Haïlé Sélassié (Tafari Makonnen) deviendra d'ailleurs la figure du messie réincarné (Jah) pour le mouvement spirituel noir de libération pacifique naissant en Jamaïque : les Rastafaris. La population musulmane reste marginalisée au profit du cœur chrétien orthodoxe.",
             diplomatie: "Auréolée de sa victoire sacrée face aux Blancs colonisateurs, l'Éthiopie de la guerre froide utilise sa respectabilité immense en se positionnant comme la capitale morale de tout le continent noir désaliéné, entraînant le siège physique de l'Organisation de l'Unité Africaine (OUA) à Addis-Abeba.",
             guerres: [
-              { nom: "Bataille d'Adoua", annee: 1896, adversaires: ["Royaume d'Italie"], allies: ["Artillerie moderne (achats)"], morts: "7000 soldats italiens massacrés", vainqueur: "Éthiopie", consequences: "Honte géopolitique pour l'Italie, forçant le pape et l'Europe à signer un traité de paix et à reconnaître le pays comme une véritable Nation.", wikiUrl: "https://fr.wikipedia.org/wiki/Bataille_d'Adoua" }
+              { nom: "Bataille d'Adoua", annee: 1896, adversaires: ["Royaume d'Italie"], allies: ["Armées de Ménélik II, impératrice Taytu"], morts: "Plusieurs milliers de morts côté italien, dont des askaris érythréens", vainqueur: "Éthiopie", consequences: "Défaite humiliante pour l'Italie, qui signe avec l'Éthiopie le traité d'Addis-Abeba (octobre 1896) reconnaissant son indépendance.", wikiUrl: "https://fr.wikipedia.org/wiki/Bataille_d'Adoua" }
             ],
             documentaires: [{ titre: "Adoua 1896, l'indépendance de l'Éthiopie", url: "https://fr.wikipedia.org/wiki/Histoire_de_l%27%C3%89thiopie" }]
           },
@@ -1159,10 +1161,10 @@ export default [
             label: "Royaume du Dahomey (Bénin)",
             period: "1789 à 1894", start: 1789, end: 1894,
             color: "#b22222", isRiver: false, capitale: "Abomey",
-            description: "Une redoutable puissance militaire d'Afrique de l'Ouest du golfe de Guinée, au Palais et rites fascinants, dirigée par la seule armée de femmes régulières recensée dans l'histoire mondiale.",
+            description: "Une redoutable puissance militaire d'Afrique de l'Ouest du golfe de Guinée, au Palais et rites fascinants, célèbre pour son corps de guerrières, les « Amazones ».",
             datesCles: [
-              { annee: 1818, evenement: "Libération du joug d'Oyo", info: "L'État se renforce financièrement et refuse de payer le tribut de soumission (d'esclaves) aux Yorubas d'Oyo." },
-              { annee: 1892, evenement: "Les guerres coloniales", info: "Refus du Roi de plier le genou : les troupes de marine françaises du Général Dodds marchent vers la capitale." }
+              { annee: 1818, evenement: "Avènement de Ghézo", info: "Ghézo devient roi. Vers 1823, le Dahomey cesse de payer le tribut dû à l'empire yoruba d'Oyo." },
+              { annee: 1892, evenement: "Les guerres coloniales", info: "Refus du Roi de plier le genou : les troupes de marine françaises du colonel Dodds marchent vers la capitale." }
             ],
             dirigeants: [
               { titre: "Roi du Dahomey", nom: "Ghézo", surnom: "", debut: 1818, fin: 1858 },
@@ -1171,11 +1173,11 @@ export default [
             personnages: [
               { nom: "Les Amazones (Les Mino)", role: "Corps d'infanterie d'élite féminine", description: "Célibataires dévouées au roi. De 4 000 femmes entraînées à la machette puis aux armes à feu, souvent utilisées en premier rideau d'assaut sacrificiel terrifiant.", dates: "Dissolution en 1894", wikiUrl: "https://fr.wikipedia.org/wiki/Amazones_du_Dahomey" }
             ],
-            sciences: "Société agricole structurée pour la discipline et le prélèvement strict d'impôts par les hauts dignitaires pour l'effort de guerre. Quand l'Europe abolit la traite négrière, le roi Ghézo restructure magistralement l'économie du pays en forçant les prisonniers de guerre à planter massivement la palmeraie : le 'Commerce légitime' de l'huile de palme vendu à l'Europe industrielle pour lubrifier les usines et faire du savon remplacera la traite.",
+            sciences: "Société agricole structurée pour la discipline et le prélèvement strict d'impôts par les hauts dignitaires pour l'effort de guerre. Quand l'Europe abolit la traite négrière, le roi Ghézo développe, en employant des captifs, les plantations de palmiers : le 'commerce légitime' de l'huile de palme, vendue à l'Europe industrielle pour lubrifier les machines et faire du savon, se développe à côté de la traite, qui continue jusqu'aux années 1860.",
             croyancesText: "Religion panthéoniste polythéiste (Le culte Vaudou / Vodun) d'une extrême richesse où les rois morts veillent sur la terre. L'effroi européen provint des 'Coutumes annuelles', où le roi en grande cérémonie ordonnait l'immolation et la décapitation de dizaines (parfois centaines à la mort d'un monarque) de prisonniers de guerre et de criminels sur une plateforme devant les ambassadeurs de la côte pour les envoyer comme serviteurs royaux dans l'Au-delà.",
             diplomatie: "C'est l'archétype cruel des états prédateurs militaires et de l'encerclement. Il est haï par les petits royaumes pacifiques voisins car les guerres 'annuelles' systématiques de Dahomey servent à capturer et revendre d'innombrables esclaves aux ports européens de Ouidah, pour acheter la poudre et l'artillerie anglaise et portugaise permettant leur souveraineté brutale de s'accroître.",
             guerres: [
-              { nom: "Seconde Guerre du Dahomey", annee: 1892, adversaires: ["Troupes coloniales françaises (A. Dodds)"], allies: ["Troupes et canonnières de marine"], morts: "Pertes totales de l'armée des Amazones au corps à corps", vainqueur: "France", consequences: "Les baïonnettes et obus français éventrent l'infanterie des Amazones armées de winchesters. Béhanzin incendie lui-même ses magnifiques palais d'Abomey et s'enfuit. Déporté à la Martinique, son pays est colonisé.", wikiUrl: "https://fr.wikipedia.org/wiki/Seconde_guerre_du_Dahomey" }
+              { nom: "Seconde Guerre du Dahomey", annee: 1892, adversaires: ["Troupes coloniales françaises (colonel A. Dodds)"], allies: ["Troupes et canonnières de marine"], morts: "Pertes totales de l'armée des Amazones au corps à corps", vainqueur: "France", consequences: "Les baïonnettes et obus français éventrent l'infanterie des Amazones armées de winchesters. Béhanzin incendie lui-même ses palais d'Abomey et s'enfuit. Il se rend en 1894, est exilé en Martinique puis en Algérie, où il meurt en 1906 ; son pays est colonisé.", wikiUrl: "https://fr.wikipedia.org/wiki/Seconde_guerre_du_Dahomey" }
             ],
             documentaires: [{ titre: "Le Royaume du Dahomey : Rois et Amazones", url: "https://fr.wikipedia.org/wiki/Royaume_du_Dahomey" }]
           },
@@ -1183,12 +1185,12 @@ export default [
             id: "afrique-sud",
             trackId: "afrique_australe", row: 3,
             label: "Afrique du Sud",
-            period: "1806 à 2020", start: 1789, end: 2020,
+            period: "1789 à 2020", start: 1789, end: 2020,
             color: "#ffc107", isRiver: false, capitale: "Pretoria / Le Cap",
-            description: "De la colonisation impitoyable de l'Empire britannique à l'instauration de l'Apartheid de la minorité blanche, transcendé par l'avènement pacificateur de la Nation Arc-en-ciel.",
+            description: "De la colonisation, commencée par les Néerlandais (Compagnie des Indes orientales, 1652) puis poursuivie par l'Empire britannique, à l'instauration de l'Apartheid de la minorité blanche, transcendé par l'avènement pacificateur de la Nation Arc-en-ciel.",
             datesCles: [
               { annee: 1886, evenement: "Ruée vers l'Or", info: "La découverte de gisements géants dans le Transvaal attise les haines coloniales entre Boers (paysans blancs d'origine hollandaise) et Anglais." },
-              { annee: 1899, evenement: "Guerre des Boers", info: "L'Empire britannique vainc les républiques Boers et y déploie les tout premiers camps de concentration pour civils." },
+              { annee: 1899, evenement: "Guerre des Boers", info: "L'Empire britannique vainc les républiques Boers et y déploie des camps de concentration pour civils, parmi les premiers de l'histoire (après ceux de Cuba en 1896)." },
               { annee: 1948, evenement: "L'Apartheid", info: "Le Parti national impose la terrible ségrégation raciale étatique stricte pour isoler les Noirs." },
               { annee: 1994, evenement: "Démocratie universelle", info: "Élection libre : le pays frôle la guerre civile mais s'apaise." }
             ],
@@ -1199,11 +1201,11 @@ export default [
             personnages: [
               { nom: "F. W. de Klerk", role: "Président afrikaner", description: "Le dernier chef d'État de l'apartheid, partageant le Prix Nobel avec Mandela pour avoir organisé les premières élections multiraciales.", dates: "1936 à 2021", wikiUrl: "https://fr.wikipedia.org/wiki/Frederik_de_Klerk" }
             ],
-            sciences: "Le territoire est une mine d'extraction titanesque mondiale des richesses minières lourdes (Or de Johannesburg et des diamants de Kimberley par la firme De Beers). Cette industrialisation extractive faramineuse s'est construite sur le sang de l'exploitation systématique des populations noires bantoues parquées et encartées ('les pass') dans des 'Bantoustans'. C'est en Afrique du Sud que le premier cœur humain fut chirurgicalement transplanté (Christian Barnard, 1967).",
-            croyancesText: "L'Apartheid n'est pas qu'un système politique. Les dirigeants Boers (d'origine calviniste hollandaise très fondamentaliste de l'Église réformée hollandaise) s'identifiaient à un Peuple Élu de la Bible (le Grand Trek) justifiant religieusement et moralement la ségrégation des races comme ordre divin protecteur de la civilisation blanche face à l'Océan africain. En retour, les Églises noires et la philosophie ubuntu de la réconciliation (M. Tutu) briseront cette haine.",
+            sciences: "Le territoire est une mine d'extraction titanesque mondiale des richesses minières lourdes (Or de Johannesburg et des diamants de Kimberley par la firme De Beers). Cette industrialisation extractive faramineuse s'est construite sur le sang de l'exploitation systématique des populations noires bantoues parquées et encartées ('les pass') dans des 'Bantoustans'. C'est en Afrique du Sud que le premier cœur humain fut chirurgicalement transplanté (Christiaan Barnard, 1967).",
+            croyancesText: "L'Apartheid n'est pas qu'un système politique. Les dirigeants Boers (d'origine calviniste hollandaise très fondamentaliste de l'Église réformée hollandaise) s'identifiaient à un Peuple Élu de la Bible (le Grand Trek) justifiant religieusement et moralement la ségrégation des races comme ordre divin protecteur de la civilisation blanche face à l'Océan africain. En retour, les Églises noires et la philosophie ubuntu de la réconciliation (Desmond Tutu) briseront cette haine.",
             diplomatie: "Sous l'apartheid et la Guerre Froide, Pretoria (farouchement anticommuniste) possédait son propre armement atomique (qu'elle démantela plus tard en 1989) pour intimider les insurrections d'Angola et les pays de la ligne de front (soutenus par Fidel Castro au nom de l'URSS). Isolé et boycotté sportivement et financièrement par le monde entier, le gouvernement finira par céder aux pressions économiques des banques étrangères et internes (ANC).",
             guerres: [
-              { nom: "Guerre Anglo-Zouloue", annee: 1879, adversaires: ["Empire Britannique"], allies: ["Contingents coloniaux"], morts: "Victoire de choc initiale, puis l'Empire", vainqueur: "Empire Britannique", consequences: "Malgré l'humiliation sanglante initiale d'Isandhlwana par les formidables lances zouloues (sagaies Assegai), l'artillerie anglaise exécute méthodiquement les Zoulous et anéantit leur souveraineté.", wikiUrl: "https://fr.wikipedia.org/wiki/Guerre_anglo-zouloue" }
+              { nom: "Guerre Anglo-Zouloue", annee: 1879, adversaires: ["Royaume zoulou"], allies: ["Empire britannique et contingents coloniaux"], morts: "Plus de 10 000 morts au total, en majorité zoulous (estimations)", vainqueur: "Empire Britannique", consequences: "Malgré la victoire zouloue d'Isandhlwana au début de la guerre, l'armée britannique, mieux armée (fusils, artillerie), écrase les Zoulous à Ulundi et met fin à l'indépendance du royaume zoulou.", wikiUrl: "https://fr.wikipedia.org/wiki/Guerre_anglo-zouloue" }
             ],
             documentaires: [{ titre: "L'Afrique du Sud de Mandela et la fin de l'Apartheid", url: "https://fr.wikipedia.org/wiki/Histoire_de_l%27Afrique_du_Sud" }]
           }

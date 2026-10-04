@@ -15,7 +15,7 @@ export default [
             id: "egypte",
             trackId: "egypte", row: 1,
             label: "Égypte antique",
-            period: "-3 000 à -30", start: -3000, end: -30,
+            period: "-3 150 à -30", start: -3150, end: -30,
             color: "#e6c229", isRiver: true, capitale: "Memphis puis Thèbes",
             description: "Trois millénaires de civilisation pharaonique bâtis sur les crues régulières du Nil, alliant ingénierie colossale et théocratie absolue.",
             datesCles: [

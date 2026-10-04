@@ -67,15 +67,19 @@ epochs.forEach((ep, i) => {
       if (!isHex(civ.color)) err(w, `couleur invalide : ${civ.color}`);
       if (!isNum(civ.start) || !isNum(civ.end)) err(w, "start/end doivent être des nombres");
       else if (civ.start >= civ.end) err(w, `start (${civ.start}) ≥ end (${civ.end})`);
-      else if (civ.start < ep.start || civ.end > ep.end) warn(w, `déborde de l'époque (${civ.start} → ${civ.end})`);
+      // (une civilisation peut déborder de son époque : la frise l'indique par ‹ ›)
 
       if (civIds.has(civ.id)) err(w, `id dupliqué (déjà dans ${civIds.get(civ.id)})`);
       civIds.set(civ.id, cWhere);
 
       for (const d of civ.datesCles ?? []) {
         if (!isNum(d.annee) || !isStr(d.evenement)) err(w, `date clé invalide : ${JSON.stringify(d)}`);
-        else if (isNum(civ.start) && (d.annee < civ.start || d.annee > civ.end))
-          warn(w, `date clé « ${d.evenement} » (${d.annee}) hors de ${civ.start} → ${civ.end}`);
+        else if (isNum(civ.start)) {
+          // tolérance pour une date « de contexte » (ex. Boston Tea Party, 3 ans avant 1776)
+          const margin = Math.max(30, (civ.end - civ.start) * 0.05);
+          if (d.annee < civ.start - margin || d.annee > civ.end + margin)
+            warn(w, `date clé « ${d.evenement} » (${d.annee}) hors de ${civ.start} → ${civ.end}`);
+        }
       }
       for (const g of civ.guerres ?? []) {
         if (!isStr(g.nom)) err(w, `guerre sans nom : ${JSON.stringify(g).slice(0, 80)}`);

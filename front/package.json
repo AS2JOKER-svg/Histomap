@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "data": "node scripts/build-epochs.mjs && node scripts/validate-data.mjs",
-    "validate": "node scripts/validate-data.mjs",
+    "data": "node scripts/build-epochs.mjs && node scripts/validate-data.mjs && node scripts/validate-revision.mjs",
+    "validate": "node scripts/validate-data.mjs && node scripts/validate-revision.mjs",
     "dev": "vite",
-    "prebuild": "node scripts/validate-data.mjs",
+    "prebuild": "node scripts/validate-data.mjs && node scripts/validate-revision.mjs",
     "build": "vite build",
     "preview": "vite preview",
     "map": "node scripts/build-map.mjs"

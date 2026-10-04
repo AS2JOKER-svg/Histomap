@@ -25,6 +25,7 @@ histomap/
 │   │   ├── lineages.mjs         ← civilisations reliées d'une époque à l'autre
 │   │   ├── build-epochs.mjs     ← génère src/data/epochs.json
 │   │   ├── validate-data.mjs    ← vérifie les données avant chaque build
+│   │   ├── validate-revision.mjs← vérifie les chapitres et quiz rédigés
 │   │   └── build-map.mjs        ← génère les fonds de carte (public/map/)
 │   ├── src/
 │   │   ├── App.jsx              ← plan du site (routes)

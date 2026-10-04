@@ -67,6 +67,9 @@ Après `npm run data`, tous les membres prennent la même couleur (frise, carte,
 « ← Avant / La suite → » (champ `lineage` généré dans `epochs.json`). Une civilisation n'appartient qu'à une lignée.
 
 ### Écrire un chapitre de révision (« On avance »)
+**Chapitres rédigés à ce jour (11)** : Europe paléolithique · Égypte · Grèce · Rome · Chine (Qin & Han) ·
+Empire byzantin · Califat islamique · Empire mongol · France capétienne · France d'Ancien Régime · France contemporaine.
+
 Chaque civilisation a un chapitre **généré automatiquement** à partir de ses données. Pour un chapitre
 **rédigé à la main** (meilleure qualité) : copier `src/data/revision/france-capet.js`, l'adapter, puis
 l'enregistrer dans `src/data/revision/index.js`.
@@ -74,6 +77,8 @@ l'enregistrer dans `src/data/revision/index.js`.
 - Types de cartes : `text` (titre + texte + chiffre mis en avant), `keyfigure` (grand chiffre), `dates`,
   `steps` (schéma en étapes), `map` (mini-carte, `years: [...]`), `war`, `person`, `leaders`.
 - La couverture, la carte « avant / après » (lignée) et le bilan (`recap`) sont ajoutés automatiquement.
+- `npm run validate` vérifie les chapitres rédigés (`scripts/validate-revision.mjs`) : ids uniques, types de cartes,
+  bonne réponse existante, années de carte disponibles. Une erreur bloque le build.
 
 ### Questions de quiz
 Chaque chapitre a un réservoir de questions **générées automatiquement** (≈ 38 en moyenne, de 20 à 67) :

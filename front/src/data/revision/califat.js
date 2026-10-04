@@ -1,0 +1,175 @@
+/** Chapitre rédigé : Califat islamique (632 – 1258). */
+export default {
+  readingTime: 4,
+  cards: [
+    // ── Niveau 1 ──
+    {
+      id: 'origine',
+      tier: 1,
+      type: 'text',
+      kicker: 'Création',
+      title: 'Muhammad et la naissance de l’islam',
+      body:
+        "Au début du VIIe siècle, Muhammad (Mahomet) prêche une nouvelle religion à La Mecque. En 622, il part pour Médine : c'est l'Hégire, point de départ du calendrier musulman. À sa mort, en 632, l'Arabie est unifiée.",
+      highlight: { value: '622', label: "l'Hégire, an 1 du calendrier musulman" },
+    },
+    {
+      id: 'calife',
+      tier: 1,
+      type: 'text',
+      kicker: 'Pouvoir',
+      title: 'Le calife, « successeur »',
+      body:
+        "Après Muhammad, la communauté est dirigée par un calife (« successeur »), chef politique et religieux. La question de sa succession divise très tôt les musulmans entre sunnites et chiites, ces derniers soutenant Ali, gendre du Prophète.",
+    },
+    {
+      id: 'expansion',
+      tier: 1,
+      type: 'steps',
+      kicker: 'Fluctuations',
+      title: 'Une expansion fulgurante',
+      items: [
+        { year: 636, label: 'Victoire du Yarmouk : la Syrie byzantine tombe' },
+        { year: 642, label: "Conquête de l'Égypte" },
+        { year: 651, label: "Fin de l'Empire perse sassanide" },
+        { year: 711, label: "Passage en Espagne (al-Andalus)" },
+        { year: 732, label: 'Arrêt en Gaule, près de Poitiers' },
+      ],
+    },
+    {
+      id: 'taille',
+      tier: 1,
+      type: 'keyfigure',
+      kicker: 'Apogée',
+      value: '≈ 11 M km²',
+      label: 'superficie du califat omeyyade vers 750',
+      caption: "De l'Espagne à l'Indus en à peine plus d'un siècle : l'un des plus grands empires de l'histoire.",
+    },
+    {
+      id: 'carte',
+      tier: 1,
+      type: 'map',
+      kicker: 'Territoire',
+      title: 'Le califat sur la carte',
+      years: [700, 800, 900],
+      caption: "Changez d'année : l'unité se fissure peu à peu (al-Andalus, Afrique du Nord prennent leur indépendance).",
+    },
+    {
+      id: 'dynasties',
+      tier: 1,
+      type: 'dates',
+      kicker: 'Durée',
+      title: 'Deux grandes dynasties',
+      items: [
+        { year: 661, label: 'Les Omeyyades, capitale Damas' },
+        { year: 691, label: 'Achèvement du Dôme du Rocher à Jérusalem' },
+        { year: 750, label: 'Les Abbassides prennent le pouvoir' },
+        { year: 762, label: 'Fondation de Bagdad, nouvelle capitale' },
+      ],
+    },
+    {
+      id: 'sagesse',
+      tier: 1,
+      type: 'text',
+      kicker: 'Connaissance',
+      title: 'La Maison de la sagesse',
+      body:
+        "À Bagdad, des savants traduisent en arabe les œuvres grecques, perses et indiennes. Le mathématicien al-Khwârizmî donne son nom à l'« algorithme » et le titre de son livre, al-jabr, à l'« algèbre ». Les chiffres « arabes » viennent en réalité de l'Inde.",
+    },
+    {
+      id: 'haroun',
+      tier: 1,
+      type: 'person',
+      nom: 'Haroun al-Rachid',
+      role: 'Calife abbasside',
+      dates: 'règne 786 – 809',
+      description: "Son règne symbolise l'âge d'or de Bagdad ; il apparaît dans les contes des Mille et Une Nuits. Il échange des ambassades avec Charlemagne, à qui il offre un éléphant.",
+    },
+    {
+      id: 'bagdad-1258',
+      tier: 1,
+      type: 'war',
+      nom: 'Sac de Bagdad',
+      annee: 1258,
+      adversaires: ['Mongols (Hulagu)'],
+      allies: ['Défenseurs abbassides'],
+      vainqueur: 'Les Mongols',
+      consequences: "Bagdad est pillée, ses bibliothèques détruites, le dernier calife abbasside exécuté. C'est la fin du califat de Bagdad.",
+    },
+
+    // ── Niveau 2 ──
+    {
+      id: 'karbala',
+      tier: 2,
+      type: 'text',
+      kicker: 'Croyances',
+      title: 'Karbala, 680',
+      body:
+        "Husayn, petit-fils du Prophète et fils d'Ali, est tué à Karbala par l'armée omeyyade. Sa mort devient un événement fondateur pour les chiites, commémoré chaque année lors de l'Achoura.",
+    },
+    {
+      id: 'papier',
+      tier: 2,
+      type: 'text',
+      kicker: 'Découvertes',
+      title: 'Le papier arrive en Méditerranée',
+      body:
+        "Après la bataille de Talas (751) contre les Chinois, le savoir-faire du papier se diffuse à Samarcande, puis à Bagdad. Moins cher que le parchemin, il permet la multiplication des livres et des bibliothèques.",
+    },
+    {
+      id: 'avicenne',
+      tier: 2,
+      type: 'person',
+      nom: 'Avicenne (Ibn Sina)',
+      role: 'Médecin et philosophe',
+      dates: '980 – 1037',
+      description: "Son Canon de la médecine, traduit en latin, est utilisé dans les universités européennes jusqu'au XVIIe siècle.",
+    },
+    {
+      id: 'fragmentation',
+      tier: 2,
+      type: 'text',
+      kicker: 'Crise',
+      title: 'Un empire qui se fragmente',
+      body:
+        "Dès le Xe siècle, plusieurs califes rivaux coexistent : les Omeyyades de Cordoue en Espagne, les Fatimides chiites au Caire. À Bagdad, le calife abbasside garde un rôle religieux mais le pouvoir passe aux émirs, puis aux Turcs seldjoukides (1055).",
+    },
+    {
+      id: 'commerce',
+      tier: 2,
+      type: 'text',
+      kicker: 'Économie',
+      title: 'Un carrefour du commerce',
+      body:
+        "Le califat relie la Méditerranée à l'océan Indien et à la Route de la soie. Le dinar d'or circule partout ; caravanes et navires transportent épices, soie, papier et esclaves.",
+    },
+  ],
+
+  quiz: [
+    { id: 'hegire', type: 'mcq', prompt: "Quelle année marque l'Hégire, début du calendrier musulman ?", options: ['622', '632', '661', '750'], answer: 0 },
+    { id: 'hegire-ville', type: 'mcq', prompt: "Vers quelle ville Muhammad part-il lors de l'Hégire ?", options: ['Médine', 'Jérusalem', 'Damas', 'Bagdad'], answer: 0 },
+    { id: 'calife', type: 'mcq', prompt: 'Que signifie « calife » ?', options: ['Successeur', 'Prophète', 'Roi des rois', 'Guerrier'], answer: 0 },
+    { id: 'chiites', type: 'mcq', prompt: 'Les chiites soutiennent comme successeur du Prophète…', options: ['Ali', 'Mu’awiya', 'Haroun al-Rachid', 'Saladin'], answer: 0 },
+    { id: 'omeyyades', type: 'mcq', prompt: 'Quelle est la capitale des Omeyyades ?', options: ['Damas', 'Bagdad', 'Le Caire', 'Cordoue'], answer: 0 },
+    { id: 'bagdad', type: 'mcq', prompt: 'Quelle dynastie fonde Bagdad en 762 ?', options: ['Les Abbassides', 'Les Omeyyades', 'Les Fatimides', 'Les Seldjoukides'], answer: 0 },
+    { id: 'espagne', type: 'tf', prompt: 'Les armées musulmanes passent en Espagne en 711.', answer: true },
+    { id: 'poitiers', type: 'mcq', prompt: "Près de quelle ville l'avancée en Gaule est-elle arrêtée en 732 ?", options: ['Poitiers', 'Paris', 'Toulouse', 'Lyon'], answer: 0 },
+    { id: 'expansion-ordre', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Hégire', 'Mort de Muhammad', 'Conquête de l’Égypte', 'Passage en Espagne', 'Fondation de Bagdad'] },
+    { id: 'algebre', type: 'mcq', prompt: "Quel savant donne son nom à l'« algorithme » ?", options: ['Al-Khwârizmî', 'Avicenne', 'Averroès', 'Ibn Battuta'], answer: 0 },
+    { id: 'chiffres', type: 'tf', prompt: 'Les chiffres dits « arabes » ont été inventés en Arabie.', answer: false, explanation: "Ils viennent de l'Inde et ont été transmis par le monde arabe." },
+    { id: 'haroun', type: 'mcq', prompt: 'Quel calife est associé aux Mille et Une Nuits ?', options: ['Haroun al-Rachid', 'Mu’awiya', 'Ali', 'Al-Mansur'], answer: 0 },
+    { id: 'charlemagne', type: 'mcq', prompt: 'Quel cadeau Haroun al-Rachid offre-t-il à Charlemagne ?', options: ['Un éléphant', 'Une couronne', 'Un dromadaire blanc', 'Un manuscrit du Coran'], answer: 0 },
+    { id: 'avicenne', type: 'mcq', prompt: 'Quel ouvrage d’Avicenne est utilisé en Europe jusqu’au XVIIe siècle ?', options: ['Le Canon de la médecine', 'Le Livre des rois', 'Les Mille et Une Nuits', "L'Algèbre"], answer: 0 },
+    { id: 'karbala', type: 'mcq', prompt: 'Qui est tué à Karbala en 680 ?', options: ['Husayn', 'Ali', 'Mu’awiya', 'Abu Bakr'], answer: 0 },
+    { id: 'talas', type: 'mcq', prompt: 'Quel savoir-faire chinois se diffuse après la bataille de Talas (751) ?', options: ['Le papier', 'La poudre', 'La boussole', 'La porcelaine'], answer: 0 },
+    { id: '1258', type: 'mcq', prompt: 'Qui saccage Bagdad en 1258 ?', options: ['Les Mongols', 'Les croisés', 'Les Byzantins', 'Les Ottomans'], answer: 0 },
+    { id: 'fatimides', type: 'tf', prompt: 'Les Fatimides sont une dynastie chiite installée au Caire.', answer: true },
+  ],
+
+  recap: [
+    "622 : l'Hégire ; 632 : mort de Muhammad, l'Arabie est unifiée",
+    'Expansion de l’Espagne à l’Indus en un siècle',
+    "Omeyyades (Damas) puis Abbassides (Bagdad) : âge d'or des sciences",
+    '1258 : les Mongols saccagent Bagdad',
+  ],
+}

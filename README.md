@@ -37,7 +37,6 @@ histomap/
 │   │   ├── config/welcome.js    ← mot de bienvenue
 │   │   └── data/epochs.json     ← GÉNÉRÉ, ne pas éditer à la main
 │   └── GUIDE_EDITION.md         ← comment ajouter du contenu
-├── back/                        ← API Hono + Mistral (optionnelle, non utilisée par le site)
 └── .github/workflows/deploy.yml ← déploiement GitHub Pages à chaque push sur main
 ```
 
@@ -69,18 +68,14 @@ npm run dev     # http://localhost:5173/Histomap/
 
 Fiches lues, dernier endroit consulté (« Reprendre » sur l'accueil), série de jours : tout est enregistré **dans le navigateur** (`localStorage`, clé `histomap_progress`). Rien n'est envoyé sur un serveur ; en contrepartie, la progression ne se synchronise pas entre appareils.
 
+## Application installable et hors ligne
+
+HistoMap est une PWA : sur téléphone, « Installer l'application » (Android) ou « Partager → Sur l'écran d'accueil » (iPhone) l'ajoute comme une appli. Après la première visite, le site, les fiches, les révisions et les quiz fonctionnent **sans réseau** ; les fonds de carte se téléchargent à la demande (bouton « Carte du monde hors ligne » sur l'accueil). Quand une nouvelle version est publiée, un bandeau propose de la charger.
+
 ## Déploiement
 
 Chaque push sur `main` déclenche `.github/workflows/deploy.yml` : installation, génération + validation des données, build, puis publication sur GitHub Pages.
 
-## Backend (optionnel)
+## Pas de serveur
 
-`back/` contient une petite API Hono qui peut appeler Mistral pour enrichir des fiches. Le site n'en dépend pas.
-
-```bash
-cd back
-cp .env.example .env   # puis renseigner MISTRAL_API_KEY
-npm install && npm run dev
-```
-
-⚠️ Ne jamais committer `back/.env` : il est ignoré par git.
+Toutes les données sont écrites en dur dans le dépôt (`front/scripts/`, `front/src/data/`) : le site est entièrement statique, sans API ni clé secrète.

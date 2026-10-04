@@ -3,6 +3,7 @@ import { motion } from 'framer-motion'
 import { getEpochs, countCivilizations, findCivilization } from '../lib/data'
 import { formatYear } from '../lib/time'
 import { isHandwritten } from '../lib/revision'
+import { PASS_MARK } from '../lib/quiz'
 import useDocumentTitle from '../lib/useDocumentTitle'
 import PageHeader from '../components/ui/PageHeader'
 import Icon from '../components/ui/Icon'
@@ -12,7 +13,7 @@ const STEPS = [
   { icon: 'clock', title: 'Une période', text: 'Antiquité, Moyen Âge…' },
   { icon: 'globe', title: 'Une civilisation', text: 'Europe → France' },
   { icon: 'cards', title: 'Des cartes', text: 'À faire glisser' },
-  { icon: 'check', title: 'Un quiz', text: '20 questions (bientôt)' },
+  { icon: 'check', title: 'Un quiz', text: '20 questions, validé dès 15/20' },
 ]
 
 /** Hub temporel « On avance » : choisir une époque à réviser. */
@@ -20,6 +21,7 @@ export default function RevisePage() {
   useDocumentTitle('On avance')
   const epochs = getEpochs()
   const chapters = useProgress((s) => s.chapters)
+  const quizzes = useProgress((s) => s.quizzes)
 
   // Séances en cours (la plus récente d'abord) → « Continuer »
   const inProgress = Object.entries(chapters)
@@ -32,7 +34,7 @@ export default function RevisePage() {
       <PageHeader
         eyebrow="On avance · réviser"
         title="Révisez une époque, pas à pas"
-        description="Choisissez une période puis une civilisation : des cartes courtes à faire glisser, illustrées de cartes, de dates et de schémas. En reprenant un chapitre, de nouvelles cartes apparaissent."
+        description="Choisissez une période puis une civilisation : des cartes courtes à faire glisser, illustrées de cartes, de dates et de schémas, puis un quiz de 20 questions. Sous 15/20, reprenez le chapitre : de nouvelles cartes et de nouvelles questions vous attendent."
       />
 
       {inProgress.length > 0 && (
@@ -77,7 +79,8 @@ export default function RevisePage() {
         {epochs.map((epoch, i) => {
           const total = countCivilizations(epoch)
           const civIds = epoch.continents.flatMap((c) => c.civilizations.map((v) => v.id))
-          const finished = civIds.filter((id) => chapters[id]?.rounds > 0).length
+          const finished = civIds.filter((id) => chapters[id]?.rounds > 0 || quizzes[id]?.best >= PASS_MARK).length
+          const validated = civIds.filter((id) => quizzes[id]?.best >= PASS_MARK).length
           const enriched = civIds.some(isHandwritten)
           return (
             <motion.div key={epoch.id} initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: i * 0.05 }}>
@@ -89,7 +92,8 @@ export default function RevisePage() {
                     {formatYear(epoch.start)} → {formatYear(epoch.end)}
                   </span>
                   <span className="block text-xs text-muted mt-1.5">
-                    {finished ? `${finished} chapitre${finished > 1 ? 's' : ''} terminé${finished > 1 ? 's' : ''} sur ${total}` : `${total} chapitres à découvrir`}
+                    {finished ? `${finished} chapitre${finished > 1 ? 's' : ''} fait${finished > 1 ? 's' : ''} sur ${total}` : `${total} chapitres à découvrir`}
+                    {validated > 0 && <span className="text-success font-medium"> · {validated} validé{validated > 1 ? 's' : ''} ✓</span>}
                   </span>
                   {enriched && (
                     <span className="mt-2 inline-flex items-center gap-1 text-[11px] font-semibold text-accent">

@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 import { useProgress, timeAgo } from '../../store/progress'
 import Icon from '../ui/Icon'
 
-const KIND_ICON = { fiche: 'cards', frise: 'timeline', carte: 'globe', revision: 'layers' }
+const KIND_ICON = { fiche: 'cards', frise: 'timeline', carte: 'globe', revision: 'layers', quiz: 'sparkles' }
 
 /**
  * « Reprendre où j'en étais » : affiché en haut de l'accueil dès qu'un

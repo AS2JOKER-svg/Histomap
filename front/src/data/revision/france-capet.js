@@ -193,6 +193,29 @@ export default {
         "Pour gagner la guerre, Charles VII crée une armée permanente payée par un impôt régulier, la taille, et dote le royaume d'une artillerie redoutable. Le roi n'est plus un seigneur parmi d'autres : il gouverne un véritable État.",
     },
   ],
+  // Questions de quiz rédigées à la main (ajoutées aux questions générées automatiquement).
+  // Types : mcq (answer = index de la bonne réponse), tf (answer = true/false), order (items dans le bon ordre).
+  quiz: [
+    { id: 'capet-elu', type: 'mcq', prompt: 'Comment Hugues Capet devient-il roi en 987 ?', options: ['Il est élu par les grands seigneurs', 'Il hérite du trône de son père', 'Il est nommé par le pape', 'Il conquiert Paris par les armes'], answer: 0, explanation: "À la mort du dernier Carolingien, les grands du royaume l'élisent." },
+    { id: 'domaine-987', type: 'mcq', prompt: 'En 987, quelle région le roi contrôle-t-il vraiment ?', options: ["L'Île-de-France et l'Orléanais", 'La Normandie', 'La Provence', 'Toute la France actuelle'], answer: 0 },
+    { id: 'vassaux', type: 'tf', prompt: 'Au début de la dynastie, certains vassaux du roi sont plus puissants que lui.', answer: true, explanation: 'Le duc de Normandie ou le comte de Flandre, par exemple.' },
+    { id: 'normandie', type: 'mcq', prompt: 'Quel roi prend la Normandie aux Plantagenêts en 1204 ?', options: ['Philippe Auguste', 'Louis IX', 'Philippe le Bel', 'Hugues Capet'], answer: 0 },
+    { id: 'bouvines-lieu', type: 'mcq', prompt: 'La bataille de Bouvines (1214) se déroule près de quelle ville actuelle ?', options: ['Lille', 'Bordeaux', 'Orléans', 'Reims'], answer: 0 },
+    { id: 'saint-louis', type: 'mcq', prompt: 'Quel roi est surnommé « Saint Louis » ?', options: ['Louis IX', 'Louis VI', 'Louis XI', 'Louis VII'], answer: 0, explanation: 'Louis IX règne de 1226 à 1270 ; il est canonisé en 1297.' },
+    { id: 'gothique-abbe', type: 'mcq', prompt: "Quel abbé fait reconstruire Saint-Denis vers 1140, acte de naissance de l'art gothique ?", options: ['Suger', 'Bernard de Clairvaux', 'Abélard', 'Robert de Sorbon'], answer: 0 },
+    { id: 'notre-dame', type: 'mcq', prompt: 'En quelle année commence la construction de Notre-Dame de Paris ?', options: ['1163', '987', '1337', '1453'], answer: 0 },
+    { id: 'sorbonne', type: 'tf', prompt: 'Robert de Sorbon fonde en 1257 un collège qui deviendra la Sorbonne.', answer: true },
+    { id: 'etats-generaux', type: 'mcq', prompt: 'Quel roi réunit les premiers États généraux en 1302 ?', options: ['Philippe le Bel', 'Charles VII', 'Louis IX', 'Philippe Auguste'], answer: 0, explanation: "Philippe IV s'appuie sur le royaume contre le pape Boniface VIII." },
+    { id: 'templiers', type: 'tf', prompt: 'Les Templiers sont arrêtés sur ordre de Louis XI.', answer: false, explanation: "C'est Philippe le Bel, en 1307." },
+    { id: 'succession-1328', type: 'mcq', prompt: "Quelle dynastie monte sur le trône en 1328, à la fin des Capétiens « directs » ?", options: ['Les Valois', 'Les Bourbons', 'Les Plantagenêts', 'Les Carolingiens'], answer: 0 },
+    { id: 'cent-ans-cause', type: 'mcq', prompt: 'Pourquoi la guerre de Cent Ans éclate-t-elle ?', options: ["Le roi d'Angleterre revendique la couronne de France", 'Une querelle religieuse avec le pape', 'Une invasion viking', 'Une révolte des villes flamandes'], answer: 0 },
+    { id: 'cent-ans-ordre', type: 'order', prompt: "Remettez ces batailles de la guerre de Cent Ans dans l'ordre.", items: ['Crécy', 'Azincourt', "Délivrance d'Orléans", 'Castillon'], explanation: 'Crécy (1346) → Azincourt (1415) → Orléans (1429) → Castillon (1453).' },
+    { id: 'jeanne-sacre', type: 'mcq', prompt: "Où Jeanne d'Arc fait-elle sacrer Charles VII en 1429 ?", options: ['Reims', 'Paris', 'Orléans', 'Rouen'], answer: 0 },
+    { id: 'jeanne-mort', type: 'tf', prompt: "Jeanne d'Arc est brûlée à Rouen en 1431.", answer: true },
+    { id: 'peste', type: 'mcq', prompt: 'Quelle part de la population la peste noire emporte-t-elle environ ?', options: ['Un tiers', 'Un dixième', 'Les trois quarts', 'Presque personne'], answer: 0 },
+    { id: 'louis-xi-surnom', type: 'mcq', prompt: 'Quel roi est surnommé « l’universelle aragne » ?', options: ['Louis XI', 'Charles VII', 'Philippe le Bel', 'Louis IX'], answer: 0 },
+    { id: 'taille', type: 'tf', prompt: "À la fin de la guerre de Cent Ans, le roi dispose d'une armée permanente payée par un impôt régulier.", answer: true, explanation: 'La taille finance la première armée permanente sous Charles VII.' },
+  ],
   // Points du bilan (carte finale)
   recap: [
     '987 : Hugues Capet fonde une dynastie qui durera des siècles',

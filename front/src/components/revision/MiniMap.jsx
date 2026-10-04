@@ -11,7 +11,9 @@ const H = 220
  * Même cadrage pour toutes les années (on voit le territoire grandir ou
  * rétrécir), avec un sélecteur d'année.
  */
-export default function MiniMap({ civ, years }) {
+export default function MiniMap({ civ, years, quiz = false }) {
+  // Mode quiz : couleur neutre et aucun nom dans l'étiquette d'accessibilité
+  const fill = quiz ? 'rgb(var(--c-accent))' : civ.color
   const [data, setData] = useState(null) // { land, snapshots: { [year]: FeatureCollection } }
   const [index, setIndex] = useState(0)
   const key = years.join(',')
@@ -59,7 +61,7 @@ export default function MiniMap({ civ, years }) {
   return (
     <div>
       <div className="relative rounded-2xl overflow-hidden border border-line" style={{ background: 'var(--map-sea)' }}>
-        <svg viewBox={`0 0 ${W} ${H}`} className="block w-full h-auto map-svg" role="img" aria-label={`Territoire de ${civ.label} en ${formatYear(year)}`}>
+        <svg viewBox={`0 0 ${W} ${H}`} className="block w-full h-auto map-svg" role="img" aria-label={quiz ? `Territoire mystère en ${formatYear(year)}` : `Territoire de ${civ.label} en ${formatYear(year)}`}>
           {view && (
             <>
               <path d={view.path(data.land)} fill="var(--map-land)" />
@@ -69,7 +71,7 @@ export default function MiniMap({ civ, years }) {
                   <path
                     key={i}
                     d={view.path(f)}
-                    fill={mine ? civ.color : 'var(--map-other)'}
+                    fill={mine ? fill : 'var(--map-other)'}
                     fillOpacity={mine ? (link.colony ? 0.45 : 0.95) : 1}
                     stroke="var(--map-border)"
                     strokeWidth={0.5}
@@ -79,8 +81,8 @@ export default function MiniMap({ civ, years }) {
               })}
               {marker && (
                 <g transform={`translate(${marker.x},${marker.y})`} pointerEvents="none">
-                  <circle r="9" fill={civ.color} className="map-pulse" />
-                  <circle r="5" fill={civ.color} stroke="#fff" strokeWidth="2" />
+                  <circle r="9" fill={fill} className="map-pulse" />
+                  <circle r="5" fill={fill} stroke="#fff" strokeWidth="2" />
                 </g>
               )}
             </>

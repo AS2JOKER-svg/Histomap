@@ -4,6 +4,7 @@ import { motion } from 'framer-motion'
 import { getEpoch, getEpochs } from '../lib/data'
 import { formatYear } from '../lib/time'
 import { chapterSize, isHandwritten } from '../lib/revision'
+import { PASS_MARK } from '../lib/quiz'
 import useDocumentTitle from '../lib/useDocumentTitle'
 import Breadcrumbs from '../components/ui/Breadcrumbs'
 import PageHeader from '../components/ui/PageHeader'
@@ -18,13 +19,15 @@ export default function ReviseEpochPage() {
   const epoch = getEpoch(epochId)
   useDocumentTitle(epoch ? `Réviser · ${epoch.label}` : 'Époque introuvable')
   const chapters = useProgress((s) => s.chapters)
+  const quizzes = useProgress((s) => s.quizzes)
   const [continentId, setContinentId] = useState(null)
 
   if (!epoch) return <NotFoundPage title="Époque introuvable" />
 
   const continents = epoch.continents.filter((c) => !continentId || c.id === continentId)
   const civIds = epoch.continents.flatMap((c) => c.civilizations.map((v) => v.id))
-  const finished = civIds.filter((id) => chapters[id]?.rounds > 0).length
+  const finished = civIds.filter((id) => chapters[id]?.rounds > 0 || quizzes[id]?.best >= PASS_MARK).length
+  const validated = civIds.filter((id) => quizzes[id]?.best >= PASS_MARK).length
 
   return (
     <section>
@@ -33,7 +36,7 @@ export default function ReviseEpochPage() {
         eyebrow={`${formatYear(epoch.start)} → ${formatYear(epoch.end)}`}
         color={epoch.color}
         title={`Réviser : ${epoch.label}`}
-        description="Choisissez une civilisation. Chaque chapitre dure quelques minutes ; vous pouvez le quitter et le reprendre à tout moment."
+        description={`Choisissez une civilisation : des cartes à faire glisser, puis un quiz de 20 questions (validé dès ${PASS_MARK}/20).${validated ? ` ${validated} chapitre${validated > 1 ? "s" : ""} validé${validated > 1 ? "s" : ""} ici.` : ""}`}
         actions={<ProgressRing value={finished / civIds.length} color={epoch.color} label={`${finished}/${civIds.length}`} size={60} />}
       />
 
@@ -75,7 +78,7 @@ export default function ReviseEpochPage() {
             <h2 id={`cont-${continent.id}`} className="eyebrow mb-3">{continent.label}</h2>
             <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
               {continent.civilizations.map((civ, i) => (
-                <ChapterCard key={civ.id} epoch={epoch} continent={continent} civ={civ} chapter={chapters[civ.id]} index={i} />
+                <ChapterCard key={civ.id} epoch={epoch} continent={continent} civ={civ} chapter={chapters[civ.id]} quiz={quizzes[civ.id]} index={i} />
               ))}
             </div>
           </section>
@@ -85,10 +88,15 @@ export default function ReviseEpochPage() {
   )
 }
 
-function ChapterCard({ epoch, continent, civ, chapter, index }) {
+function ChapterCard({ epoch, continent, civ, chapter, quiz, index }) {
+  const validated = quiz?.best >= PASS_MARK
   const size = chapterSize({ epoch, continent, civ })
-  const status = !chapter
-    ? { label: 'Nouveau', tone: 'muted' }
+  const status = chapter?.current
+    ? { label: `En cours · ${chapter.current.pos + 1}/${chapter.current.queue.length}`, tone: 'accent' }
+    : !chapter
+    ? validated
+      ? { label: 'Validé au quiz', tone: 'success' }
+      : { label: 'Nouveau', tone: 'muted' }
     : chapter.current
       ? { label: `En cours · ${chapter.current.pos + 1}/${chapter.current.queue.length}`, tone: 'accent' }
       : chapter.rounds === 1 && size.tier2 > 0
@@ -108,8 +116,8 @@ function ChapterCard({ epoch, continent, civ, chapter, index }) {
         <span className="p-4 flex flex-col flex-1">
           <span className="flex items-start justify-between gap-2">
             <span className="font-semibold text-ink leading-snug">{civ.label}</span>
-            {chapter?.rounds > 0 && !chapter.current && (
-              <span className="grid place-items-center w-6 h-6 rounded-full bg-success text-white shrink-0">
+            {validated && (
+              <span className="grid place-items-center w-6 h-6 rounded-full bg-success text-white shrink-0" title="Chapitre validé au quiz">
                 <Icon name="check" size={13} strokeWidth={2.8} />
               </span>
             )}
@@ -120,6 +128,11 @@ function ChapterCard({ epoch, continent, civ, chapter, index }) {
             {isHandwritten(civ.id) && (
               <span className="text-[11px] font-semibold px-2 py-1 rounded-md bg-accent/10 text-accent inline-flex items-center gap-1">
                 <Icon name="star" size={11} /> Enrichi
+              </span>
+            )}
+            {quiz?.best != null && (
+              <span className={`text-[11px] font-semibold px-2 py-1 rounded-md tabular-nums ${validated ? 'bg-success/10 text-success' : 'bg-danger/10 text-danger'}`}>
+                Quiz {quiz.best}/20
               </span>
             )}
             <span className="text-[11px] text-muted ml-auto">{size.tier1} cartes</span>

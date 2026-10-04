@@ -136,6 +136,7 @@ function Chapter({ refCiv }) {
 function ChapterDone({ refCiv, result, onRestart }) {
   const { epoch, continent, civ } = refCiv
   const chapter = useProgress((s) => s.chapters[civ.id])
+  const quizBest = useProgress((s) => s.quizzes[civ.id]?.best ?? null)
   const size = chapterSize(refCiv)
   const nextRound = chapter?.rounds ?? 1
   const next = civ.lineage?.next
@@ -172,14 +173,21 @@ function ChapterDone({ refCiv, result, onRestart }) {
         </div>
       </div>
 
-      {/* Quiz : sprint 6 */}
-      <div className="mt-4 p-4 rounded-2xl border border-dashed border-line text-left flex items-center gap-3">
-        <span className="grid place-items-center w-10 h-10 rounded-xl bg-surface2 text-muted shrink-0"><Icon name="sparkles" size={18} /></span>
-        <span className="text-sm">
-          <span className="block font-semibold text-ink">Le quiz arrive bientôt</span>
-          <span className="block text-muted">20 questions pour valider ce chapitre.</span>
+      {/* Quiz du chapitre */}
+      <Link
+        to={`/reviser/${epoch.id}/${civ.id}/quiz`}
+        className="mt-4 group p-4 rounded-2xl text-white text-left flex items-center gap-3 shadow-lift transition active:scale-[.98]"
+        style={{ background: `linear-gradient(135deg, ${civ.color}, ${civ.color}cc)` }}
+      >
+        <span className="grid place-items-center w-11 h-11 rounded-xl bg-white/20 shrink-0"><Icon name="sparkles" size={20} /></span>
+        <span className="flex-1">
+          <span className="block font-semibold">Passer le quiz</span>
+          <span className="block text-sm opacity-90">
+            20 questions · {quizBest != null ? `meilleur score ${quizBest}/20` : 'validez le chapitre dès 15/20'}
+          </span>
         </span>
-      </div>
+        <Icon name="arrowRight" size={20} className="group-hover:translate-x-0.5 transition" />
+      </Link>
 
       <div className="mt-6 grid gap-2.5">
         {nextRound === 1 && size.tier2 > 0 && (

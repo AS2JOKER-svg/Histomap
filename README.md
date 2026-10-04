@@ -13,7 +13,7 @@ Inspiré du célèbre *Histomap* de John B. Sparks (1931).
 | `#/frise/:epoque` | Une époque : continents et civilisations | ✅ |
 | `#/frise/:epoque/:civilisation` | Fiche détaillée | ✅ |
 | `#/carte` | Carte du monde : 54 cartes de -123 000 à 2010, conflits, fiches | ✅ |
-| `#/reviser` | « On avance » : hub temporel → civilisation → cartes de révision | ✅ (quiz : sprint 6) |
+| `#/reviser` | « On avance » : hub temporel → civilisation → cartes de révision → quiz de 20 questions | ✅ |
 
 ## Structure
 

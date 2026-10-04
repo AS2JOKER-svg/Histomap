@@ -75,6 +75,21 @@ l'enregistrer dans `src/data/revision/index.js`.
   `steps` (schéma en étapes), `map` (mini-carte, `years: [...]`), `war`, `person`, `leaders`.
 - La couverture, la carte « avant / après » (lignée) et le bilan (`recap`) sont ajoutés automatiquement.
 
+### Questions de quiz
+Chaque chapitre a un réservoir de questions **générées automatiquement** (≈ 38 en moyenne, de 20 à 67) :
+dates, ordre chronologique, capitale, dirigeants, personnages, guerres, carte, lignée, vrai/faux…
+Pour ajouter des questions rédigées à la main, compléter le tableau `quiz` du chapitre
+(voir `src/data/revision/france-capet.js`) :
+```js
+{ id: 'saint-louis', type: 'mcq', prompt: 'Quel roi est surnommé « Saint Louis » ?',
+  options: ['Louis IX', 'Louis VI', 'Louis XI', 'Louis VII'], answer: 0, explanation: '…' },
+{ id: 'sorbonne', type: 'tf', prompt: 'Robert de Sorbon fonde la Sorbonne en 1257.', answer: true },
+{ id: 'ordre', type: 'order', prompt: 'Remettez dans l’ordre…', items: ['A', 'B', 'C'] } // items dans le BON ordre
+```
+- `answer` = position de la bonne réponse dans `options` (elles sont mélangées à l'affichage).
+- **Ne jamais réutiliser ou renommer un `id`** : il sert à mémoriser les questions ratées.
+- Règles (dans `src/lib/quiz.js`) : 20 questions, validé dès 15/20 ; après un échec, 5 questions ratées reviennent avec 15 nouvelles.
+
 ### Relier une civilisation à la carte
 Dans `src/data/map-links.js` :
 - `TERRITORIES['mon-id']` = noms **anglais** des territoires sur les cartes historiques (ex. `'Kingdom of France'`). La liste des noms disponibles par année est dans `public/map/index.json`.
@@ -103,7 +118,8 @@ Dans `src/data/map-links.js` :
 | Messages éphémères (toasts) | `useUI().showToast({ text, tone })` dans `src/store/ui.js` |
 | On avance : hub, choix du chapitre, chapitre | `src/pages/RevisePage.jsx`, `ReviseEpochPage.jsx`, `ChapterPage.jsx` |
 | Cartes de révision (paquet, types de cartes) | `src/components/revision/` + `src/lib/revision.js` |
-| Chapitres rédigés à la main | `src/data/revision/` |
+| Chapitres rédigés à la main (cartes + questions) | `src/data/revision/` |
+| Quiz : génération des questions, règles | `src/lib/quiz.js` + `src/pages/QuizPage.jsx` + `src/components/quiz/` |
 | Le mot de bienvenue | `src/config/welcome.js` (`enabled: false` pour le couper) |
 | Les couleurs, le mode sombre | `src/index.css` (variables `--c-…`) |
 | Les icônes | `src/components/ui/Icon.jsx` |

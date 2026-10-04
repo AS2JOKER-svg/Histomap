@@ -11,7 +11,7 @@
  *   lastFiche { path, title, subtitle, color, at }         dernière fiche lue
  *   days      ['2026-10-03', …]                            jours d'activité (60 max)
  *   chapters  { [civId]: Chapter }                        révisions (voir plus bas)
- *   quizzes   { [civId]: { attempts, best, failed: [] } }  quiz       (sprint 6)
+ *   quizzes   { [civId]: Quiz }                             quiz (voir plus bas)
  *   startedAt                                              première visite
  *
  * Pour faire évoluer le schéma : incrémenter VERSION et compléter migrate().
@@ -130,6 +130,60 @@ export const useProgress = create(
           }
         })
         get().touchDay()
+      },
+
+      // ── Quiz ─────────────────────────────────────────────────────────────────
+      // Quiz = {
+      //   attempts, best, lastScore, lastAt,     (notes sur 20)
+      //   failed: [qid],   questions ratées à la dernière tentative
+      //   asked:  [qid],   toutes les questions déjà posées
+      //   history: [{ at, score }],
+      //   current: { attempt, ids: [qid], answers: [{ id, correct, response }] } | null
+      // }
+
+      startQuiz(civId, ids) {
+        set((s) => {
+          const q = s.quizzes[civId] ?? { attempts: 0, best: null, failed: [], asked: [], history: [] }
+          return { quizzes: { ...s.quizzes, [civId]: { ...q, current: { attempt: q.attempts, ids, answers: [] } } } }
+        })
+        get().touchDay()
+      },
+
+      answerQuestion(civId, id, response, correct) {
+        set((s) => {
+          const q = s.quizzes[civId]
+          if (!q?.current || q.current.answers.some((a) => a.id === id)) return {}
+          return { quizzes: { ...s.quizzes, [civId]: { ...q, current: { ...q.current, answers: [...q.current.answers, { id, response, correct }] } } } }
+        })
+      },
+
+      /** Clôture le quiz en cours et renvoie { score, correct, total } (note sur 20). */
+      finishQuiz(civId) {
+        const q = get().quizzes[civId]
+        if (!q?.current) return null
+        const { answers, ids } = q.current
+        const correct = answers.filter((a) => a.correct).length
+        const total = ids.length
+        const score = total ? Math.round((correct / total) * 20) : 0
+        const now = Date.now()
+        set((s) => ({
+          quizzes: {
+            ...s.quizzes,
+            [civId]: {
+              ...q,
+              attempts: q.attempts + 1,
+              best: Math.max(q.best ?? 0, score),
+              lastScore: score,
+              lastAt: now,
+              failed: answers.filter((a) => !a.correct).map((a) => a.id),
+              asked: [...new Set([...q.asked, ...ids])],
+              history: [...q.history, { at: now, score }].slice(-20),
+              current: null,
+            },
+          },
+        }))
+        get().touchDay()
+        return { score, correct, total }
       },
 
       touchDay() {

@@ -185,6 +185,16 @@
 }
 .bar-pulse { animation: bar-pulse 0.95s ease-out 3; }
 
+/* Confettis (quiz validé) */
+@keyframes confetti-fall {
+  0%   { transform: translateY(-20px) rotate(0deg); opacity: 1; }
+  100% { transform: translateY(105vh) rotate(540deg); opacity: .9; }
+}
+.confetti {
+  position: absolute; top: 0; width: 8px; height: 14px; border-radius: 2px;
+  animation: confetti-fall 2s cubic-bezier(.2,.6,.4,1) forwards;
+}
+
 @layer utilities {
   .font-display { font-family: 'Fraunces', Georgia, serif; }
   .pb-safe { padding-bottom: env(safe-area-inset-bottom); }

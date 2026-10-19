@@ -1,0 +1,16 @@
+{
+  "id": "bombardements-d-hiroshima-et-nagasaki",
+  "nom": "Bombardements d’Hiroshima et de Nagasaki",
+  "annee": 1945,
+  "dates": "6 et 9 août 1945",
+  "lieu": "Hiroshima et Nagasaki (Japon)",
+  "description": "Les États-Unis larguent deux bombes atomiques sur les villes japonaises d’Hiroshima et de Nagasaki : les seules utilisations de l’arme nucléaire dans une guerre.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "Environ 110 000 à 210 000 personnes meurent d’ici la fin de 1945, la plupart civiles ; beaucoup d’autres souffrent des radiations. Le Japon capitule le 15 août."
+    }
+  ],
+  "aSavoir": ["Les survivants, appelés hibakusha, ont témoigné toute leur vie contre les armes nucléaires."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bombardements_atomiques_d%27Hiroshima_et_Nagasaki"
+}

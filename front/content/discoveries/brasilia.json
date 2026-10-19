@@ -1,0 +1,15 @@
+{
+  "id": "brasilia",
+  "nom": "Brasília",
+  "annee": 1960,
+  "domaine": "Architecture et urbanisme",
+  "dates": "1956 → 1960",
+  "description": "La capitale du Brésil, construite en moins de quatre ans au milieu du cerrado, une savane du centre du pays, selon les plans de Lúcio Costa et d’Oscar Niemeyer.",
+  "sections": [
+    {
+      "titre": "Comment elle est conçue",
+      "texte": "Vue du ciel, la ville a la forme d’un avion ou d’un oiseau ; les ministères s’alignent le long d’un grand axe, et les bâtiments de Niemeyer ont des formes courbes et épurées."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bras%C3%ADlia"
+}

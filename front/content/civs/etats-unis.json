@@ -10,49 +10,267 @@
   "row": 1,
   "isRiver": false,
   "capitale": "Washington D.C.",
-  "description": "D'une république rurale s'entre-déchirant sur l'esclavage à l'hégémonie économique, militaire, spatiale et culturelle de l'histoire du monde moderne.",
+  "description": "Les États-Unis depuis 1789 : une jeune république qui s’étend jusqu’au Pacifique, se déchire sur l’esclavage, devient la première puissance industrielle puis la superpuissance du XXe siècle.",
   "territories": ["United States of America", "United States", "USA"],
   "datesCles": [
     {
-      "annee": 1861,
-      "evenement": "Guerre de Sécession",
-      "info": "Guerre civile totale, victoire de l'Union, 13ème Amendement abolissant l'esclavage des Noirs."
+      "annee": 1803,
+      "evenement": "Achat de la Louisiane",
+      "info": "Les États-Unis achètent à la France un immense territoire à l’ouest du Mississippi."
     },
     {
+      "annee": 1861,
+      "evenement": "Guerre de Sécession",
+      "info": "Guerre civile entre le Nord et le Sud ; la victoire du Nord mène au 13e amendement, qui abolit l’esclavage (1865).",
+      "ref": "guerre-de-secession"
+    },
+    { "annee": 1920, "evenement": "Vote des femmes", "info": "Le 19e amendement donne le droit de vote aux femmes." },
+    {
       "annee": 1929,
-      "evenement": "Jeudi Noir (Wall Street)",
-      "info": "Krach boursier menant à la Grande Dépression et aux réformes sociales du 'New Deal' par F.D. Roosevelt."
+      "evenement": "Jeudi noir (Wall Street)",
+      "info": "Krach boursier menant à la Grande Dépression et aux réformes sociales du New Deal de F. D. Roosevelt.",
+      "ref": "krach-de-1929"
     },
     {
       "annee": 1945,
-      "evenement": "Bombes Atomiques",
-      "info": "L'utilisation de l'arme nucléaire sur le Japon installe l'Amérique comme hyperpuissance du 'Monde Libre'."
+      "evenement": "Bombes atomiques",
+      "info": "Les États-Unis bombardent Hiroshima et Nagasaki ; le Japon capitule.",
+      "ref": "bombardements-d-hiroshima-et-nagasaki"
     },
+    { "annee": 1964, "evenement": "Loi sur les droits civiques", "info": "La ségrégation raciale est interdite." },
     {
       "annee": 1969,
       "evenement": "Apollo 11",
-      "info": "Neil Armstrong pose le pied sur la Lune, couronnant la victoire technologique de la Guerre Froide."
+      "info": "Neil Armstrong est le premier homme à marcher sur la Lune.",
+      "ref": "apollo-11"
+    },
+    {
+      "annee": 2001,
+      "evenement": "Attentats du 11 septembre",
+      "info": "Des attentats terroristes font près de 3 000 morts à New York et Washington.",
+      "ref": "attentats-du-11-septembre"
     }
   ],
   "dirigeants": [
-    { "titre": "Le Libérateur", "nom": "Abraham Lincoln", "surnom": "Honest Abe", "debut": 1861, "fin": 1865 },
-    { "titre": "Président Fédéral", "nom": "Franklin D. Roosevelt", "surnom": "FDR", "debut": 1933, "fin": 1945 },
-    { "titre": "Président", "nom": "John F. Kennedy", "surnom": "JFK", "debut": 1961, "fin": 1963 }
+    {
+      "nom": "George Washington",
+      "titre": "Président",
+      "debut": 1789,
+      "fin": 1797,
+      "dynastie": "p1",
+      "personne": "george-washington",
+      "note": "premier président",
+      "cle": true
+    },
+    { "nom": "John Adams", "titre": "Président", "debut": 1797, "fin": 1801, "dynastie": "p1" },
+    {
+      "nom": "Thomas Jefferson",
+      "titre": "Président",
+      "debut": 1801,
+      "fin": 1809,
+      "dynastie": "p1",
+      "personne": "thomas-jefferson",
+      "note": "achète la Louisiane",
+      "cle": true
+    },
+    { "nom": "James Madison", "titre": "Président", "debut": 1809, "fin": 1817, "dynastie": "p1" },
+    {
+      "nom": "James Monroe",
+      "titre": "Président",
+      "debut": 1817,
+      "fin": 1825,
+      "dynastie": "p1",
+      "note": "doctrine Monroe"
+    },
+    { "nom": "John Quincy Adams", "titre": "Président", "debut": 1825, "fin": 1829, "dynastie": "p1" },
+    {
+      "nom": "Andrew Jackson",
+      "titre": "Président",
+      "debut": 1829,
+      "fin": 1837,
+      "dynastie": "p1",
+      "note": "fait déporter les Amérindiens du Sud-Est"
+    },
+    { "nom": "Martin Van Buren", "titre": "Président", "debut": 1837, "fin": 1841, "dynastie": "p1" },
+    {
+      "nom": "William Henry Harrison",
+      "titre": "Président",
+      "debut": 1841,
+      "fin": 1841,
+      "dynastie": "p1",
+      "note": "mort un mois après son investiture"
+    },
+    { "nom": "John Tyler", "titre": "Président", "debut": 1841, "fin": 1845, "dynastie": "p1" },
+    {
+      "nom": "James Polk",
+      "titre": "Président",
+      "debut": 1845,
+      "fin": 1849,
+      "dynastie": "p1",
+      "note": "guerre contre le Mexique"
+    },
+    { "nom": "Zachary Taylor", "titre": "Président", "debut": 1849, "fin": 1850, "dynastie": "p1" },
+    { "nom": "Millard Fillmore", "titre": "Président", "debut": 1850, "fin": 1853, "dynastie": "p1" },
+    { "nom": "Franklin Pierce", "titre": "Président", "debut": 1853, "fin": 1857, "dynastie": "p1" },
+    { "nom": "James Buchanan", "titre": "Président", "debut": 1857, "fin": 1861, "dynastie": "p1" },
+    {
+      "nom": "Abraham Lincoln",
+      "titre": "Président",
+      "surnom": "Honest Abe",
+      "debut": 1861,
+      "fin": 1865,
+      "dynastie": "p2",
+      "personne": "abraham-lincoln",
+      "note": "abolit l’esclavage ; assassiné",
+      "cle": true
+    },
+    { "nom": "Andrew Johnson", "titre": "Président", "debut": 1865, "fin": 1869, "dynastie": "p2" },
+    {
+      "nom": "Ulysses S. Grant",
+      "titre": "Président",
+      "debut": 1869,
+      "fin": 1877,
+      "dynastie": "p2",
+      "note": "général vainqueur de la guerre de Sécession"
+    },
+    { "nom": "Rutherford B. Hayes", "titre": "Président", "debut": 1877, "fin": 1881, "dynastie": "p2" },
+    { "nom": "James Garfield", "titre": "Président", "debut": 1881, "fin": 1881, "dynastie": "p2", "note": "assassiné" },
+    { "nom": "Chester Arthur", "titre": "Président", "debut": 1881, "fin": 1885, "dynastie": "p2" },
+    {
+      "nom": "Grover Cleveland",
+      "titre": "Président",
+      "debut": 1885,
+      "fin": 1889,
+      "dynastie": "p2",
+      "note": "revient au pouvoir de 1893 à 1897"
+    },
+    { "nom": "Benjamin Harrison", "titre": "Président", "debut": 1889, "fin": 1893, "dynastie": "p2" },
+    { "nom": "William McKinley", "titre": "Président", "debut": 1897, "fin": 1901, "dynastie": "p2", "note": "assassiné" },
+    {
+      "nom": "Theodore Roosevelt",
+      "titre": "Président",
+      "debut": 1901,
+      "fin": 1909,
+      "dynastie": "p3",
+      "note": "crée les premiers grands parcs nationaux",
+      "cle": true
+    },
+    { "nom": "William Taft", "titre": "Président", "debut": 1909, "fin": 1913, "dynastie": "p3" },
+    {
+      "nom": "Woodrow Wilson",
+      "titre": "Président",
+      "debut": 1913,
+      "fin": 1921,
+      "dynastie": "p3",
+      "note": "engage le pays dans la Grande Guerre"
+    },
+    { "nom": "Warren Harding", "titre": "Président", "debut": 1921, "fin": 1923, "dynastie": "p3" },
+    { "nom": "Calvin Coolidge", "titre": "Président", "debut": 1923, "fin": 1929, "dynastie": "p3" },
+    { "nom": "Herbert Hoover", "titre": "Président", "debut": 1929, "fin": 1933, "dynastie": "p3" },
+    {
+      "nom": "Franklin D. Roosevelt",
+      "titre": "Président",
+      "debut": 1933,
+      "fin": 1945,
+      "dynastie": "p3",
+      "personne": "franklin-d-roosevelt",
+      "note": "New Deal ; seul président élu quatre fois",
+      "cle": true
+    },
+    {
+      "nom": "Harry Truman",
+      "titre": "Président",
+      "debut": 1945,
+      "fin": 1953,
+      "dynastie": "p4",
+      "note": "décide l’usage de la bombe atomique"
+    },
+    { "nom": "Dwight Eisenhower", "titre": "Président", "debut": 1953, "fin": 1961, "dynastie": "p4" },
+    {
+      "nom": "John F. Kennedy",
+      "titre": "Président",
+      "debut": 1961,
+      "fin": 1963,
+      "dynastie": "p4",
+      "note": "assassiné à Dallas",
+      "cle": true
+    },
+    {
+      "nom": "Lyndon Johnson",
+      "titre": "Président",
+      "debut": 1963,
+      "fin": 1969,
+      "dynastie": "p4",
+      "note": "loi sur les droits civiques"
+    },
+    {
+      "nom": "Richard Nixon",
+      "titre": "Président",
+      "debut": 1969,
+      "fin": 1974,
+      "dynastie": "p4",
+      "note": "démissionne après le scandale du Watergate"
+    },
+    { "nom": "Gerald Ford", "titre": "Président", "debut": 1974, "fin": 1977, "dynastie": "p4" },
+    { "nom": "Jimmy Carter", "titre": "Président", "debut": 1977, "fin": 1981, "dynastie": "p4" },
+    { "nom": "Ronald Reagan", "titre": "Président", "debut": 1981, "fin": 1989, "dynastie": "p4", "cle": true },
+    { "nom": "George H. W. Bush", "titre": "Président", "debut": 1989, "fin": 1993, "dynastie": "p4" },
+    { "nom": "Bill Clinton", "titre": "Président", "debut": 1993, "fin": 2001, "dynastie": "p4" },
+    { "nom": "George W. Bush", "titre": "Président", "debut": 2001, "fin": 2009, "dynastie": "p4" },
+    {
+      "nom": "Barack Obama",
+      "titre": "Président",
+      "debut": 2009,
+      "fin": 2017,
+      "dynastie": "p4",
+      "note": "premier président afro-américain",
+      "cle": true
+    },
+    {
+      "nom": "Donald Trump",
+      "titre": "Président",
+      "debut": 2017,
+      "fin": 2020,
+      "dynastie": "p4",
+      "note": "en fonction en 2020 (jusqu’en janvier 2021)"
+    }
   ],
   "personnages": [
     {
+      "nom": "Martin Luther King",
+      "role": "Pasteur et militant",
+      "description": "Figure du mouvement non violent pour les droits civiques des Afro-Américains, prix Nobel de la paix, assassiné en 1968.",
+      "dates": "1929 → 1968",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Martin_Luther_King",
+      "ref": "martin-luther-king"
+    },
+    {
       "nom": "Thomas Edison",
-      "role": "Inventeur Industriel",
-      "description": "Père de l'ampoule électrique et du phonographe, il révolutionne la gestion de l'innovation (Laboratoire de Menlo Park).",
-      "dates": "1847 à 1931",
+      "role": "Inventeur",
+      "description": "Il met au point l’ampoule électrique, le phonographe et des centrales électriques.",
+      "dates": "1847 → 1931",
       "wikiUrl": "https://fr.wikipedia.org/wiki/Thomas_Edison"
     },
     {
-      "nom": "Martin Luther King",
-      "role": "Pasteur et Activiste",
-      "description": "Icône pacifique du mouvement des Droits Civiques luttant contre la ségrégation raciale (Jim Crow). Assassiné en 1968.",
-      "dates": "1929 à 1968",
-      "wikiUrl": "https://fr.wikipedia.org/wiki/Martin_Luther_King"
+      "nom": "Harriet Tubman",
+      "role": "Militante abolitionniste",
+      "description": "Esclave évadée, elle aide des dizaines d’esclaves à s’enfuir par le « chemin de fer clandestin ».",
+      "dates": "vers 1822 → 1913",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Harriet_Tubman"
+    },
+    {
+      "nom": "Rosa Parks",
+      "role": "Militante",
+      "description": "En refusant de céder sa place à un Blanc dans un bus en 1955, elle lance le boycott de Montgomery.",
+      "dates": "1913 → 2005",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Rosa_Parks"
+    },
+    {
+      "nom": "Neil Armstrong",
+      "role": "Astronaute",
+      "description": "Premier homme à marcher sur la Lune, le 21 juillet 1969.",
+      "dates": "1930 → 2012",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Neil_Armstrong"
     }
   ],
   "guerres": [
@@ -61,7 +279,7 @@
       "annee": 1861,
       "adversaires": ["États Confédérés du Sud (Général Lee)"],
       "allies": ["Les États de l'Union du Nord (Général Grant)"],
-      "morts": "Plus de 620 000 soldats américains tués",
+      "morts": "Entre 620 000 et 750 000 soldats tués, selon les estimations",
       "vainqueur": "Le Nord (Lincoln)",
       "consequences": "La guerre la plus sanglante de l'histoire du pays, menée à l'origine pour préserver la nation et achevée par l'émancipation de 4 millions d'esclaves afro-américains.",
       "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_de_S%C3%A9cession"
@@ -69,21 +287,129 @@
     {
       "nom": "Guerre Froide (Guerre du Viêt Nam)",
       "annee": 1955,
-      "adversaires": ["Nord Viêt Nam Communiste (Viet Cong)"],
+      "adversaires": ["Nord Viêt Nam et Viet Cong"],
       "allies": ["Sud Viêt Nam"],
-      "morts": "58 000 Américains, 3 Millions de Vietnamiens",
+      "morts": "Environ 58 000 Américains et entre 1 et 3 millions de Vietnamiens, selon les estimations",
       "vainqueur": "Nord Viêt Nam",
-      "consequences": "Défaite diplomatique et traumatisme moral total pour l'Amérique, entraînant un syndrome de rejet militaire pour toute une génération.",
+      "consequences": "Les troupes américaines quittent le Viêt Nam en 1973 ; Saïgon tombe en 1975. La guerre provoque d’immenses manifestations aux États-Unis et une crise de confiance.",
       "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_du_Vi%C3%AAt_Nam"
     }
   ],
-  "sciences": "Leur industrie du XXe siècle est la plus spectaculaire : Henry Ford invente le fordisme (travail à la chaîne), démocratisant l'automobile. Ils abritent le Projet Manhattan (1942), mobilisant les meilleurs physiciens (Oppenheimer, Fermi) pour contrôler la fission nucléaire. Plus tard, via des financements de la Défense (ARPANET), la Californie donne naissance à Internet, au PC et au smartphone (Silicon Valley), numérisant la planète entière.",
-  "croyancesText": "Le socle identitaire est le 'Rêve Américain' et la 'Destinée Manifeste' (l'idée qu'ils ont reçu de Dieu la mission providentielle de propager la liberté sur Terre). Pendant la Guerre Froide contre les Soviétiques ('l'Empire du Mal' athée), ils ajoutent officiellement la devise 'In God We Trust' sur tous les billets de banque pour marquer la primauté chrétienne capitaliste face au marxisme.",
-  "diplomatie": "Du repli sur soi de la Doctrine Monroe (l'Amérique aux Américains, refusant d'intervenir en Europe), le pays devient l'hyperpuissance mondiale post-1945. Les États-Unis façonnent l'ordre international libéral (Création de l'ONU, du FMI, de l'OTAN). Ils interviennent militairement à travers le monde (Corée, Vietnam, Irak) pour contenir le communisme puis sécuriser les ressources énergétiques et combattre le terrorisme.",
-  "documentaires": [
+  "sciences": "Les États-Unis sont la patrie de nombreuses inventions : téléphone (Bell), ampoule électrique (Edison), avion (frères Wright, 1903), production à la chaîne (Ford). Après 1945, ils dominent la recherche : bombe atomique, conquête spatiale (Apollo), ordinateurs et Internet, né d’un réseau militaire et universitaire.",
+  "croyancesText": "Le premier amendement interdit au Congrès d’établir une religion officielle et garantit la liberté de culte, dans une société très croyante, majoritairement protestante. Les Églises jouent un grand rôle, notamment dans le mouvement des droits civiques. Catholiques, juifs, musulmans et de nombreuses autres religions sont présents.",
+  "diplomatie": "Au XIXe siècle, les États-Unis s’opposent aux interventions européennes en Amérique (doctrine Monroe). Ils interviennent dans les deux guerres mondiales, puis dirigent le « monde libre » contre l’URSS pendant la guerre froide (OTAN, plan Marshall, guerres de Corée et du Viêt Nam). Depuis 1991, ils sont la principale puissance mondiale.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": { "valeur": "Washington", "precision": "depuis 1800 ; New York puis Philadelphie avant" },
+    "regimes": { "valeur": "République fédérale présidentielle", "precision": "Constitution de 1787, toujours en vigueur" },
+    "langues": { "valeur": "Anglais", "precision": "pas de langue officielle fédérale ; l’espagnol est très parlé" },
+    "religion": {
+      "valeur": "Protestantisme majoritaire",
+      "precision": "grande diversité religieuse, pas de religion officielle"
+    },
+    "apogee": { "valeur": "Depuis 1945", "precision": "première puissance économique et militaire" },
+    "population": { "valeur": "Environ 331 millions en 2020", "precision": "contre 3,9 millions en 1790" },
+    "monnaie": { "valeur": "Dollar" },
+    "duree": { "valeur": "Plus de 230 ans dans cette fiche" },
+    "aujourdhui": { "valeur": "États-Unis", "precision": "50 États" }
+  },
+  "essentiel": [
+    "Au XIXe siècle, les États-Unis s’étendent jusqu’au Pacifique, au prix de la dépossession et de la déportation des Amérindiens.",
+    "La [[guerre-de-secession|guerre de Sécession]] (1861-1865) oppose le Nord au Sud esclavagiste ; [[abraham-lincoln|Lincoln]] abolit l’esclavage.",
+    "Devenus la première puissance industrielle, les États-Unis traversent la crise de 1929 ([[krach-de-1929|krach de Wall Street]]) ; [[franklin-d-roosevelt|Roosevelt]] lance le New Deal.",
+    "Ils jouent un rôle décisif dans la Seconde Guerre mondiale et utilisent la [[bombardements-d-hiroshima-et-nagasaki|bombe atomique]], puis affrontent l’URSS dans la guerre froide et envoient des hommes sur la Lune ([[apollo-11|Apollo 11]]).",
+    "Le mouvement des droits civiques, mené notamment par [[martin-luther-king|Martin Luther King]], obtient la fin de la ségrégation dans les années 1960."
+  ],
+  "periodes": [
     {
-      "titre": "L'histoire des États-Unis : The Civil War (Ken Burns)",
-      "url": "https://fr.wikipedia.org/wiki/Histoire_des_%C3%89tats-Unis"
+      "nom": "La jeune république",
+      "debut": 1789,
+      "fin": 1861,
+      "resume": "Les États-Unis s’étendent vers l’ouest (Louisiane, Floride, Texas, Californie) ; les Amérindiens sont chassés de leurs terres. Le Nord s’industrialise, le Sud vit de l’esclavage.",
+      "evenements": [
+        { "annee": 1803, "evenement": "Achat de la Louisiane" },
+        { "annee": 1830, "evenement": "Loi de déportation des Indiens" },
+        { "annee": 1848, "evenement": "Victoire sur le Mexique" }
+      ]
+    },
+    {
+      "nom": "Guerre civile et âge industriel",
+      "debut": 1861,
+      "fin": 1914,
+      "resume": "Après la guerre de Sécession, l’esclavage est aboli mais la ségrégation s’installe au Sud. Des millions d’immigrants arrivent ; le pays devient la première puissance industrielle.",
+      "evenements": [
+        { "annee": 1863, "evenement": "Proclamation d’émancipation" },
+        { "annee": 1869, "evenement": "Chemin de fer transcontinental" },
+        { "annee": 1898, "evenement": "Guerre contre l’Espagne" }
+      ]
+    },
+    {
+      "nom": "Guerres mondiales et crise",
+      "debut": 1914,
+      "fin": 1945,
+      "resume": "Les États-Unis entrent en guerre en 1917, traversent la Grande Dépression, puis jouent un rôle décisif dans la victoire de 1945.",
+      "evenements": [
+        { "annee": 1929, "evenement": "Krach de Wall Street", "ref": "krach-de-1929" },
+        { "annee": 1941, "evenement": "Attaque de Pearl Harbor" },
+        { "annee": 1945, "evenement": "Hiroshima et Nagasaki", "ref": "bombardements-d-hiroshima-et-nagasaki" }
+      ]
+    },
+    {
+      "nom": "La superpuissance",
+      "debut": 1945,
+      "fin": 2020,
+      "resume": "Guerre froide contre l’URSS, conquête spatiale, lutte pour les droits civiques, guerre du Viêt Nam ; après 1991, les États-Unis sont la seule superpuissance.",
+      "evenements": [
+        { "annee": 1963, "evenement": "Assassinat de Kennedy" },
+        { "annee": 1969, "evenement": "Apollo 11", "ref": "apollo-11" },
+        { "annee": 2001, "evenement": "11 septembre", "ref": "attentats-du-11-septembre" },
+        { "annee": 2008, "evenement": "Élection de Barack Obama" }
+      ]
+    }
+  ],
+  "regimes": [
+    {
+      "id": "republique",
+      "nom": "République fédérale présidentielle",
+      "debut": 1789,
+      "fin": 2020,
+      "note": "Le président, élu pour quatre ans, gouverne ; le Congrès vote les lois ; la Cour suprême veille au respect de la Constitution."
+    }
+  ],
+  "dynasties": [
+    { "id": "p1", "nom": "Présidents de 1789 à 1861", "debut": 1789, "fin": 1861, "regime": "republique" },
+    { "id": "p2", "nom": "Présidents de 1861 à 1901", "debut": 1861, "fin": 1901, "regime": "republique" },
+    { "id": "p3", "nom": "Présidents de 1901 à 1945", "debut": 1901, "fin": 1945, "regime": "republique" },
+    {
+      "id": "p4",
+      "nom": "Présidents de 1945 à 2020",
+      "debut": 1945,
+      "fin": 2020,
+      "regime": "republique",
+      "note": "Liste complète des présidents."
+    }
+  ],
+  "societe": "Pays d’immigrants, les États-Unis accueillent des dizaines de millions de personnes. L’esclavage, puis la ségrégation, marquent profondément la société ; les Amérindiens sont dépossédés et parqués dans des réserves. Les femmes votent depuis 1920.",
+  "economie": "Agriculture, puis industrie (acier, pétrole, automobile), finance, technologies ; première économie mondiale depuis la fin du XIXe siècle.",
+  "decouvertes": [],
+  "arts": "Jazz, blues, rock, cinéma hollywoodien, gratte-ciel, littérature (Mark Twain, Hemingway, Toni Morrison), comics.",
+  "quotidien": "Au XXe siècle, l’automobile, la télévision et la maison de banlieue deviennent le symbole du « rêve américain ».",
+  "heritage": [
+    {
+      "titre": "Une culture mondiale",
+      "texte": "Cinéma, musique, séries, réseaux sociaux : la culture américaine est diffusée dans le monde entier."
+    },
+    {
+      "titre": "Les droits civiques",
+      "texte": "Le combat non violent de Martin Luther King inspire les mouvements pour l’égalité dans le monde."
+    }
+  ],
+  "aSavoir": ["Washington, la capitale, n’appartient à aucun État : c’est un district fédéral, le district de Columbia."],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Histoire_des_%C3%89tats-Unis",
+    {
+      "titre": "Encyclopædia Britannica — United States, history",
+      "url": "https://www.britannica.com/place/United-States/History"
     }
   ]
 }

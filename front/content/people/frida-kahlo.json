@@ -1,0 +1,16 @@
+{
+  "id": "frida-kahlo",
+  "nom": "Frida Kahlo",
+  "role": "Peintre",
+  "roles": ["Peintre"],
+  "dates": "1907 → 1954",
+  "naissance": 1907,
+  "mort": 1954,
+  "description": "Peintre mexicaine, connue pour ses autoportraits intenses où elle exprime ses souffrances physiques et son attachement à la culture mexicaine.",
+  "essentiel": [
+    "Gravement blessée dans un accident de bus à 18 ans, elle commence à peindre pendant sa convalescence.",
+    "Elle épouse le peintre Diego Rivera.",
+    "Sa maison, la Casa Azul, est devenue un musée."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Frida_Kahlo"
+}

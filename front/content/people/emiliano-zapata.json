@@ -1,0 +1,17 @@
+{
+  "id": "emiliano-zapata",
+  "nom": "Emiliano Zapata",
+  "role": "Chef révolutionnaire",
+  "roles": ["Paysan", "Révolutionnaire"],
+  "dates": "1879 → 1919",
+  "naissance": 1879,
+  "mort": 1919,
+  "description": "Chef paysan de l’État de Morelos pendant la révolution mexicaine, il défend la redistribution des terres aux communautés paysannes.",
+  "essentiel": [
+    "Il soulève les paysans du sud dès 1910.",
+    "Son plan d’Ayala (1911) réclame la restitution des terres.",
+    "Il est assassiné dans un guet-apens en 1919."
+  ],
+  "aSavoir": ["Le mouvement zapatiste du Chiapas, apparu en 1994, a repris son nom."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Emiliano_Zapata"
+}

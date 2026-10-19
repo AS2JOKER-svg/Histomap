@@ -1,0 +1,16 @@
+{
+  "id": "tanzimat",
+  "nom": "Tanzimat",
+  "annee": 1839,
+  "fin": 1876,
+  "dates": "1839 → 1876",
+  "lieu": "Empire ottoman",
+  "description": "Une période de grandes réformes de l’Empire ottoman, inspirées de l’Europe : administration, armée, justice, écoles, égalité des sujets quelle que soit leur religion.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "L’État se modernise, mais les réformes n’empêchent pas la perte de territoires ni l’endettement. Elles aboutissent à la première constitution ottomane (1876), vite suspendue."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Tanzimat"
+}

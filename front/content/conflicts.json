@@ -456,5 +456,13 @@
   "Campagne de Russie": {
     "coords": [37.62, 55.75],
     "lieu": "Moscou"
+  },
+  "Guerre américano-mexicaine": {
+    "coords": [-99.13, 19.43],
+    "lieu": "Mexico"
+  },
+  "Bataille des Dardanelles": {
+    "coords": [26.3, 40.23],
+    "lieu": "Gallipoli"
   }
 }

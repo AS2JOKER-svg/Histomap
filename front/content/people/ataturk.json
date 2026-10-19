@@ -1,0 +1,19 @@
+{
+  "id": "ataturk",
+  "nom": "Mustafa Kemal Atatürk",
+  "role": "Fondateur de la République turque",
+  "roles": ["Officier", "Président"],
+  "dates": "1881 → 1938",
+  "naissance": 1881,
+  "mort": 1938,
+  "description": "Officier ottoman qui mène la guerre d’indépendance turque, fonde la République en 1923 et impose une modernisation radicale et autoritaire du pays.",
+  "reperes": [{ "label": "Président", "valeur": "1923 → 1938" }],
+  "essentiel": [
+    "Il se distingue en 1915 lors de la bataille des Dardanelles.",
+    "Il dirige la guerre d’indépendance et obtient le [[traite-de-lausanne|traité de Lausanne]].",
+    "Il abolit le sultanat et le califat, instaure la laïcité et le vote des femmes.",
+    "Il impose l’[[alphabet-turc|alphabet latin]] et l’usage des noms de famille."
+  ],
+  "aSavoir": ["Le Parlement lui donne en 1934 le nom d’Atatürk, « père des Turcs »."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Mustafa_Kemal_Atat%C3%BCrk"
+}

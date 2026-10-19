@@ -10,60 +10,292 @@
   "row": 1,
   "isRiver": false,
   "capitale": "Ankara",
-  "description": "Sur les ruines de l'empire ottoman, la révolution kémaliste impose par la poigne une république moderne, laïque et occidentale reliant l'Europe à l'Asie.",
+  "description": "De l’Empire ottoman en déclin, qui tente de se moderniser, à la République turque fondée par Mustafa Kemal en 1923, laïque et tournée vers l’Europe, puis transformée au XXIe siècle.",
   "territories": ["Ottoman Empire", "Ottoman Sultanate", "Republic of Turkey", "Turkey"],
   "datesCles": [
     {
+      "annee": 1826,
+      "evenement": "Suppression des janissaires",
+      "info": "Le sultan Mahmud II supprime le corps des janissaires, devenu un obstacle aux réformes."
+    },
+    {
+      "annee": 1839,
+      "evenement": "Le Tanzimat",
+      "info": "Un édit lance de grandes réformes et proclame l’égalité de tous les sujets de l’empire.",
+      "ref": "tanzimat"
+    },
+    {
       "annee": 1915,
-      "evenement": "Génocide Arménien",
-      "info": "Extermination de plus d'un million d'arméniens chrétiens par le régime des Jeunes-Turcs."
+      "evenement": "Génocide arménien",
+      "info": "Le gouvernement ottoman organise l’extermination de plus d’un million d’Arméniens.",
+      "ref": "genocide-armenien"
     },
     {
       "annee": 1920,
       "evenement": "Traité de Sèvres",
-      "info": "Démantèlement de l'Empire ottoman imposé par les Alliés."
+      "info": "Les Alliés imposent le démantèlement de l’Empire ottoman, refusé par les nationalistes turcs."
     },
     {
       "annee": 1923,
       "evenement": "La République",
-      "info": "Mustafa Kemal rejette les traités occidentaux et sauve le cœur de la nation."
+      "info": "Après sa victoire, Mustafa Kemal obtient le traité de Lausanne et proclame la République turque.",
+      "ref": "traite-de-lausanne"
     },
     {
       "annee": 1928,
-      "evenement": "L'Alphabet Latin",
-      "info": "Une loi de novembre 1928 remplace l'alphabet arabe par l'alphabet latin ; la transition se fait sur plusieurs mois."
+      "evenement": "L’alphabet latin",
+      "info": "Une loi de novembre 1928 remplace l’alphabet arabe par l’alphabet latin ; la transition se fait sur plusieurs mois."
+    },
+    { "annee": 1952, "evenement": "Entrée dans l’OTAN", "info": "La Turquie rejoint l’alliance occidentale." },
+    {
+      "annee": 2016,
+      "evenement": "Tentative de coup d’État",
+      "info": "Une tentative de putsch échoue ; elle est suivie d’une vaste répression."
     }
   ],
   "dirigeants": [
-    { "titre": "Le Père des Turcs (Président)", "nom": "Mustafa Kemal", "surnom": "Atatürk", "debut": 1923, "fin": 1938 },
     {
-      "titre": "Premier ministre puis Président (AKP)",
+      "nom": "Selim III",
+      "titre": "Sultan",
+      "debut": 1789,
+      "fin": 1807,
+      "dynastie": "sultans",
+      "note": "tente de moderniser l’armée ; renversé"
+    },
+    {
+      "nom": "Mahmud II",
+      "titre": "Sultan",
+      "debut": 1808,
+      "fin": 1839,
+      "dynastie": "sultans",
+      "note": "supprime les janissaires",
+      "cle": true
+    },
+    {
+      "nom": "Abdülmecid Ier",
+      "titre": "Sultan",
+      "debut": 1839,
+      "fin": 1861,
+      "dynastie": "sultans",
+      "note": "lance le Tanzimat"
+    },
+    { "nom": "Abdülaziz", "titre": "Sultan", "debut": 1861, "fin": 1876, "dynastie": "sultans" },
+    {
+      "nom": "Abdülhamid II",
+      "titre": "Sultan",
+      "debut": 1876,
+      "fin": 1909,
+      "dynastie": "sultans",
+      "note": "règne autoritaire ; massacres d’Arméniens (1894-1896)",
+      "cle": true
+    },
+    { "nom": "Mehmed V", "titre": "Sultan", "debut": 1909, "fin": 1918, "dynastie": "sultans" },
+    { "nom": "Mehmed VI", "titre": "Sultan", "debut": 1918, "fin": 1922, "dynastie": "sultans", "note": "dernier sultan" },
+    {
+      "nom": "Mustafa Kemal Atatürk",
+      "titre": "Président de la République",
+      "debut": 1923,
+      "fin": 1938,
+      "dynastie": "republique",
+      "personne": "ataturk",
+      "note": "fondateur de la République",
+      "cle": true
+    },
+    {
+      "nom": "İsmet İnönü",
+      "titre": "Président de la République",
+      "debut": 1938,
+      "fin": 1950,
+      "dynastie": "republique",
+      "cle": true
+    },
+    {
+      "nom": "Celal Bayar",
+      "titre": "Président de la République",
+      "debut": 1950,
+      "fin": 1960,
+      "dynastie": "republique",
+      "note": "premier président issu d’élections pluralistes"
+    },
+    {
+      "nom": "Turgut Özal",
+      "titre": "Premier ministre, puis président",
+      "debut": 1983,
+      "fin": 1993,
+      "dynastie": "republique"
+    },
+    {
       "nom": "Recep Tayyip Erdoğan",
-      "surnom": "Premier ministre de 2003 à 2014, président depuis 2014",
+      "titre": "Premier ministre, puis président",
       "debut": 2003,
-      "fin": 2020
+      "fin": 2020,
+      "dynastie": "republique",
+      "note": "Premier ministre de 2003 à 2014, président depuis 2014 ; en fonction en 2020",
+      "cle": true
     }
   ],
-  "personnages": [],
+  "personnages": [
+    {
+      "nom": "Mustafa Kemal Atatürk",
+      "role": "Fondateur de la République",
+      "description": "Officier victorieux aux Dardanelles, il mène la guerre d’indépendance et fonde la Turquie moderne.",
+      "dates": "1881 → 1938",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Mustafa_Kemal_Atat%C3%BCrk",
+      "ref": "ataturk"
+    },
+    {
+      "nom": "Halide Edib",
+      "role": "Écrivaine et militante",
+      "description": "Romancière et militante des droits des femmes, elle participe à la guerre d’indépendance.",
+      "dates": "1884 → 1964",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Halide_Edib_Ad%C4%B1var"
+    },
+    {
+      "nom": "Orhan Pamuk",
+      "role": "Écrivain",
+      "description": "Romancier stambouliote, prix Nobel de littérature en 2006.",
+      "dates": "né en 1952",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Orhan_Pamuk"
+    }
+  ],
   "guerres": [
+    {
+      "nom": "Bataille des Dardanelles",
+      "annee": 1915,
+      "adversaires": ["Royaume-Uni, France, Australie, Nouvelle-Zélande"],
+      "allies": ["Empire allemand"],
+      "morts": "Plus de 100 000 morts des deux côtés",
+      "vainqueur": "Empire ottoman",
+      "consequences": "Le débarquement allié à Gallipoli échoue ; le jeune officier Mustafa Kemal s’y distingue.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_des_Dardanelles"
+    },
     {
       "nom": "Guerre d'Indépendance Turque",
       "annee": 1919,
-      "adversaires": ["Grèce", "Arménie", "Alliés occidentaux"],
-      "allies": ["Russie bolchévique"],
-      "morts": "Pertes civiles et militaires lourdes",
+      "adversaires": ["Grèce", "Arménie", "Forces d’occupation alliées"],
+      "allies": ["Russie soviétique (aide matérielle)"],
+      "morts": "Lourdes pertes civiles et militaires",
       "vainqueur": "Turquie (Gouvernement d'Ankara)",
-      "consequences": "Atatürk écrase l'armée grecque qui tentait d'occuper la côte ouest. Annulation de la partition de la Turquie et immense échange forcé de populations chrétiennes et musulmanes.",
+      "consequences": "Mustafa Kemal repousse l’armée grecque qui occupait l’ouest de l’Anatolie. Le traité de Lausanne (1923) reconnaît les frontières de la Turquie ; un échange de populations déplace plus d’un million de Grecs et des centaines de milliers de Turcs.",
       "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_d'ind%C3%A9pendance_turque"
     }
   ],
-  "sciences": "Le rattrapage des années 20 est un modèle de dirigisme étatique et militaire : construction expresse de l'industrie textile, d'aciéries, laïcisation massive des universités, et l'un des premiers droits de vote accordé aux femmes au monde (1934).",
-  "croyancesText": "Le 'Kémalisme' impose une laïcité absolue et agressive en pays musulman : le fez est interdit (loi sur le chapeau, 1925), le voile est découragé et interdit dans certains lieux publics (administrations, universités), l'appel à la prière doit se faire en turc, l'alphabet arabe est proscrit. Plus tard (années 2000), le gouvernement d'Erdoğan remettra progressivement l'Islam sunnite politique au cœur du discours de l'État.",
-  "diplomatie": "Devenue le flanc Est stratégique de l'OTAN face à l'URSS pendant la guerre froide (abritant des missiles nucléaires américains), la diplomatie turque est pragmatique : candidat de longue date à l'entrée dans l'Union Européenne, c'est aussi un acteur militarisé incontournable au Moyen-Orient (conflits avec la Grèce pour Chypre, opposition armée au nationalisme kurde).",
-  "documentaires": [
+  "sciences": "Les réformes ottomanes créent des écoles militaires, de médecine et d’ingénieurs, le télégraphe et les chemins de fer (comme le chemin de fer du Hedjaz). La République développe l’enseignement public, les universités et l’industrie d’État.",
+  "croyancesText": "L’islam sunnite est la religion de la grande majorité de la population ; pourtant, Atatürk abolit le califat (1924), ferme les confréries religieuses, adopte le calendrier et le code civil européens et inscrit la laïcité dans la Constitution (1937). Les minorités chrétiennes (Arméniens, Grecs, Assyriens) presque disparaissent après les massacres et les échanges de populations.",
+  "diplomatie": "L’Empire ottoman perd peu à peu ses territoires européens et arabes. Allié de l’Allemagne en 1914, il est vaincu et démembré. La République de Turquie défend ses frontières de 1923, reste neutre pendant presque toute la Seconde Guerre mondiale, puis rejoint l’OTAN et se porte candidate à l’Union européenne.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": { "valeur": "Istanbul, puis Ankara", "precision": "Ankara depuis 1923" },
+    "regimes": {
+      "valeur": "Sultanat, puis république",
+      "precision": "république parlementaire, puis présidentielle depuis 2018"
+    },
+    "langues": { "valeur": "Turc", "precision": "écrit en alphabet latin depuis 1928" },
+    "religion": { "valeur": "Islam sunnite majoritaire", "precision": "république laïque depuis 1928-1937" },
+    "apogee": { "valeur": "Années 2000-2010", "precision": "forte croissance économique" },
+    "population": { "valeur": "Environ 84 millions en 2020", "precision": "environ 13 millions en 1927" },
+    "monnaie": { "valeur": "Livre turque" },
+    "duree": { "valeur": "Plus de 230 ans dans cette fiche" },
+    "aujourdhui": { "valeur": "Turquie", "precision": "avec, avant 1918, une grande partie des Balkans et du Proche-Orient" }
+  },
+  "essentiel": [
+    "Au XIXe siècle, l’Empire ottoman, « l’homme malade de l’Europe », tente de se moderniser par les réformes du [[tanzimat|Tanzimat]].",
+    "Pendant la Première Guerre mondiale, le gouvernement des Jeunes-Turcs organise le [[genocide-armenien|génocide des Arméniens]].",
+    "Après la défaite, [[ataturk|Mustafa Kemal]] mène la guerre d’indépendance et obtient le [[traite-de-lausanne|traité de Lausanne]] ; il fonde la République turque en 1923.",
+    "Il impose des réformes radicales : laïcité, droits des femmes, et un [[alphabet-turc|nouvel alphabet]] latin.",
+    "La Turquie rejoint l’OTAN (1952), traverse plusieurs coups d’État militaires et, sous Recep Tayyip Erdoğan, s’éloigne du modèle kémaliste."
+  ],
+  "periodes": [
     {
-      "titre": "Atatürk, père de la Turquie moderne",
-      "url": "https://fr.wikipedia.org/wiki/Mustafa_Kemal_Atat%C3%BCrk"
+      "nom": "Les réformes ottomanes",
+      "debut": 1789,
+      "fin": 1908,
+      "resume": "L’empire perd la Grèce, l’Égypte et une partie des Balkans ; les sultans réforment l’armée et l’administration. Abdülhamid II gouverne en autocrate.",
+      "evenements": [
+        { "annee": 1830, "evenement": "Indépendance de la Grèce" },
+        { "annee": 1839, "evenement": "Tanzimat", "ref": "tanzimat" },
+        { "annee": 1876, "evenement": "Première constitution" }
+      ]
+    },
+    {
+      "nom": "Les Jeunes-Turcs et la guerre",
+      "debut": 1908,
+      "fin": 1923,
+      "resume": "La révolution jeune-turque (1908) mène le pays dans les guerres balkaniques puis dans la Première Guerre mondiale aux côtés de l’Allemagne. Le génocide arménien est perpétré.",
+      "evenements": [
+        { "annee": 1915, "evenement": "Génocide arménien", "ref": "genocide-armenien" },
+        { "annee": 1915, "evenement": "Bataille des Dardanelles" },
+        { "annee": 1922, "evenement": "Abolition du sultanat" }
+      ]
+    },
+    {
+      "nom": "La République kémaliste",
+      "debut": 1923,
+      "fin": 1950,
+      "resume": "Atatürk transforme le pays : laïcité, code civil, alphabet latin, droit de vote des femmes (1934).",
+      "evenements": [
+        { "annee": 1923, "evenement": "Traité de Lausanne", "ref": "traite-de-lausanne" },
+        { "annee": 1924, "evenement": "Abolition du califat" },
+        { "annee": 1934, "evenement": "Vote des femmes" }
+      ]
+    },
+    {
+      "nom": "La Turquie démocratique et ses crises",
+      "debut": 1950,
+      "fin": 2020,
+      "resume": "Le multipartisme s’installe, interrompu par des coups d’État militaires (1960, 1971, 1980). Depuis 2003, Erdoğan domine la vie politique.",
+      "evenements": [
+        { "annee": 1952, "evenement": "Entrée dans l’OTAN" },
+        { "annee": 1980, "evenement": "Coup d’État militaire" },
+        { "annee": 2016, "evenement": "Tentative de coup d’État" }
+      ]
+    }
+  ],
+  "regimes": [
+    { "id": "sultanat", "nom": "Sultanat ottoman", "debut": 1789, "fin": 1922 },
+    { "id": "republique", "nom": "République turque", "debut": 1923, "fin": 2020 }
+  ],
+  "dynasties": [
+    {
+      "id": "sultans",
+      "nom": "Les derniers sultans ottomans",
+      "debut": 1789,
+      "fin": 1922,
+      "regime": "sultanat",
+      "note": "De 1913 à 1918, le pouvoir réel est aux mains des Jeunes-Turcs."
+    },
+    {
+      "id": "republique",
+      "nom": "Présidents et dirigeants de la République",
+      "debut": 1923,
+      "fin": 2020,
+      "regime": "republique",
+      "note": "Sélection."
+    }
+  ],
+  "societe": "Les réformes kémalistes transforment la société : interdiction du fez, adoption des noms de famille (1934), droit de vote des femmes, éducation laïque. L’exode rural et l’émigration vers l’Europe marquent la seconde moitié du XXe siècle. La question kurde provoque un long conflit armé à partir de 1984.",
+  "economie": "Agriculture, puis industrie textile, automobile et tourisme ; forte croissance dans les années 2000.",
+  "decouvertes": ["alphabet-turc"],
+  "arts": "Architecture ottomane tardive, littérature de Nâzım Hikmet et d’Orhan Pamuk, musique et cinéma turcs.",
+  "quotidien": "Les maisons de thé (çay) et les bazars restent des lieux de vie sociale ; la Turquie est l’un des pays les plus visités au monde.",
+  "heritage": [
+    {
+      "titre": "Atatürk",
+      "texte": "Son mausolée d’Ankara et ses portraits omniprésents témoignent de son importance en Turquie."
+    },
+    {
+      "titre": "Istanbul",
+      "texte": "Ville à cheval sur deux continents, elle est l’une des plus grandes métropoles du monde."
+    }
+  ],
+  "aSavoir": [
+    "Le génocide arménien est reconnu par de nombreux pays et par la plupart des historiens, mais la Turquie refuse ce terme."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Histoire_de_la_Turquie",
+    {
+      "titre": "Encyclopædia Britannica — Turkey, history",
+      "url": "https://www.britannica.com/place/Turkey/History"
     }
   ]
 }

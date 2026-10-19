@@ -1,0 +1,15 @@
+{
+  "id": "lei-aurea",
+  "nom": "Loi d’Or (Lei Áurea)",
+  "annee": 1888,
+  "dates": "13 mai 1888",
+  "lieu": "Rio de Janeiro",
+  "description": "La princesse Isabel, régente, signe une loi de deux articles qui abolit immédiatement l’esclavage au Brésil, sans indemnité pour les propriétaires.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "Environ 700 000 personnes sont libérées. Les anciens esclaves ne reçoivent ni terres ni aide, ce qui pèse longtemps sur les inégalités. Mécontents, des grands propriétaires soutiennent la chute de l’empire l’année suivante."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Loi_d%27or"
+}

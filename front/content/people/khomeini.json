@@ -1,0 +1,18 @@
+{
+  "id": "khomeini",
+  "nom": "Rouhollah Khomeini",
+  "role": "Guide de la Révolution islamique",
+  "roles": ["Religieux (ayatollah)", "Guide suprême"],
+  "dates": "1902 → 1989",
+  "naissance": 1902,
+  "mort": 1989,
+  "description": "Religieux chiite opposé au chah, exilé pendant quinze ans, il prend la tête de la révolution de 1979 et fonde la République islamique d’Iran, qu’il dirige jusqu’à sa mort.",
+  "reperes": [{ "label": "Guide suprême", "valeur": "1979 → 1989" }],
+  "essentiel": [
+    "Exilé en 1964, il vit en Irak puis en France, d’où il dirige l’opposition.",
+    "Il rentre triomphalement à Téhéran en février 1979.",
+    "Il impose un régime fondé sur l’autorité des religieux et fait exécuter de nombreux opposants.",
+    "Il dirige le pays pendant la guerre contre l’Irak."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Rouhollah_Khomeini"
+}

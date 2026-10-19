@@ -10,74 +10,287 @@
   "row": 2,
   "isRiver": false,
   "capitale": "Mexico",
-  "description": "Sur les cendres du plus riche vice-royaume espagnol, une nation métissée forgeant son identité par les larmes d'une gigantesque Révolution agraire.",
+  "description": "Le Mexique indépendant : une guerre d’indépendance, des pertes territoriales face aux États-Unis, une intervention française, une grande révolution, puis la longue domination d’un parti unique.",
   "territories": ["Mexico"],
   "datesCles": [
     {
       "annee": 1810,
       "evenement": "Cri de Dolores",
-      "info": "L'appel du prêtre Miguel Hidalgo déclenchant la sanglante guerre d'indépendance."
+      "info": "L’appel du prêtre Miguel Hidalgo déclenche la guerre d’indépendance.",
+      "ref": "cri-de-dolores"
     },
+    { "annee": 1821, "evenement": "Indépendance", "info": "Le Mexique devient indépendant de l’Espagne." },
     {
       "annee": 1848,
-      "evenement": "Guerre Américano-Mexicaine",
-      "info": "Catastrophe territoriale : le Mexique cède la Californie et le Sud-Ouest aux États-Unis. Le Texas, indépendant depuis 1836, avait été annexé par les États-Unis en 1845."
+      "evenement": "Guerre américano-mexicaine",
+      "info": "Le Mexique cède la Californie et le Sud-Ouest aux États-Unis. Le Texas, indépendant depuis 1836, avait été annexé par les États-Unis en 1845."
     },
     {
       "annee": 1862,
-      "evenement": "L'Intervention Française",
-      "info": "Napoléon III tente de placer l'empereur Maximilien sur le trône, mais les Mexicains le fusillent en 1867."
+      "evenement": "L’intervention française",
+      "info": "Napoléon III tente d’installer l’empereur Maximilien, fusillé par les républicains mexicains en 1867."
     },
     {
       "annee": 1910,
-      "evenement": "Révolution Mexicaine",
-      "info": "Explosion de violence pour la réforme agraire et la justice sociale, chassant le dictateur Porfirio Díaz."
+      "evenement": "Révolution mexicaine",
+      "info": "Une révolution pour la démocratie et la réforme agraire chasse le dictateur Porfirio Díaz.",
+      "ref": "revolution-mexicaine"
+    },
+    {
+      "annee": 1938,
+      "evenement": "Nationalisation du pétrole",
+      "info": "Le président Lázaro Cárdenas nationalise les compagnies pétrolières étrangères."
+    },
+    {
+      "annee": 2000,
+      "evenement": "Alternance",
+      "info": "Pour la première fois depuis 71 ans, le PRI perd l’élection présidentielle."
     }
   ],
   "dirigeants": [
-    { "titre": "Dictateur 'Modernisateur'", "nom": "Porfirio Díaz", "debut": 1876, "fin": 1911 },
     {
-      "titre": "Président (Parti national révolutionnaire, devenu PRM, ancêtre du PRI fondé en 1946)",
+      "nom": "Miguel Hidalgo",
+      "titre": "Chef de l’insurrection",
+      "debut": 1810,
+      "fin": 1811,
+      "dynastie": "independance",
+      "note": "prêtre, fusillé en 1811",
+      "cle": true
+    },
+    { "nom": "Agustín de Iturbide", "titre": "Empereur", "debut": 1822, "fin": 1823, "dynastie": "independance" },
+    {
+      "nom": "Antonio López de Santa Anna",
+      "titre": "Président",
+      "debut": 1833,
+      "fin": 1855,
+      "dynastie": "independance",
+      "note": "au pouvoir à onze reprises"
+    },
+    {
+      "nom": "Benito Juárez",
+      "titre": "Président",
+      "debut": 1858,
+      "fin": 1872,
+      "dynastie": "independance",
+      "personne": "benito-juarez",
+      "cle": true
+    },
+    {
+      "nom": "Maximilien Ier",
+      "titre": "Empereur",
+      "debut": 1864,
+      "fin": 1867,
+      "dynastie": "independance",
+      "note": "installé par la France, fusillé"
+    },
+    {
+      "nom": "Porfirio Díaz",
+      "titre": "Président (dictateur)",
+      "debut": 1876,
+      "fin": 1911,
+      "dynastie": "independance",
+      "note": "au pouvoir sauf de 1880 à 1884",
+      "cle": true
+    },
+    { "nom": "Francisco Madero", "titre": "Président", "debut": 1911, "fin": 1913, "dynastie": "xxe", "note": "assassiné" },
+    {
+      "nom": "Venustiano Carranza",
+      "titre": "Président",
+      "debut": 1917,
+      "fin": 1920,
+      "dynastie": "xxe",
+      "note": "Constitution de 1917"
+    },
+    {
       "nom": "Lázaro Cárdenas",
+      "titre": "Président",
       "debut": 1934,
-      "fin": 1940
+      "fin": 1940,
+      "dynastie": "xxe",
+      "note": "réforme agraire, nationalisation du pétrole",
+      "cle": true
+    },
+    {
+      "nom": "Vicente Fox",
+      "titre": "Président",
+      "debut": 2000,
+      "fin": 2006,
+      "dynastie": "xxe",
+      "note": "premier président hors du PRI depuis 1929",
+      "cle": true
+    },
+    {
+      "nom": "Andrés Manuel López Obrador",
+      "titre": "Président",
+      "debut": 2018,
+      "fin": 2020,
+      "dynastie": "xxe",
+      "note": "en fonction en 2020"
     }
   ],
   "personnages": [
     {
       "nom": "Emiliano Zapata",
-      "role": "Chef de guérilla agraire",
-      "description": "Héros pur et dur de la Révolution au cri de 'Tierra y Libertad', luttant pour rendre les terres aux paysans indigènes volés par les haciendas.",
-      "dates": "1879 à 1919",
-      "wikiUrl": "https://fr.wikipedia.org/wiki/Emiliano_Zapata"
+      "role": "Révolutionnaire",
+      "description": "Chef paysan du sud, il réclame « la terre à ceux qui la travaillent » ; assassiné en 1919.",
+      "dates": "1879 → 1919",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Emiliano_Zapata",
+      "ref": "emiliano-zapata"
     },
     {
       "nom": "Frida Kahlo",
-      "role": "Artiste peintre",
-      "description": "L'icône absolue de l'art et du féminisme mexicain du 20ème siècle, revendiquant sa culture indigène et communiste.",
-      "dates": "1907 à 1954",
-      "wikiUrl": "https://fr.wikipedia.org/wiki/Frida_Kahlo"
+      "role": "Peintre",
+      "description": "Peintre de ses autoportraits et de la culture mexicaine, devenue une icône mondiale.",
+      "dates": "1907 → 1954",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Frida_Kahlo",
+      "ref": "frida-kahlo"
+    },
+    {
+      "nom": "Pancho Villa",
+      "role": "Révolutionnaire",
+      "description": "Chef révolutionnaire du nord, à la tête d’une puissante armée de cavaliers.",
+      "dates": "1878 → 1923",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Pancho_Villa"
+    },
+    {
+      "nom": "Diego Rivera",
+      "role": "Peintre",
+      "description": "Grand peintre muraliste, il représente l’histoire du Mexique sur les murs des bâtiments publics.",
+      "dates": "1886 → 1957",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Diego_Rivera"
     }
   ],
   "guerres": [
     {
+      "nom": "Guerre américano-mexicaine",
+      "annee": 1846,
+      "adversaires": ["États-Unis"],
+      "allies": [],
+      "morts": "Environ 25 000 Mexicains et 13 000 Américains",
+      "vainqueur": "États-Unis",
+      "consequences": "Par le traité de Guadalupe Hidalgo (1848), le Mexique cède la Californie, le Nouveau-Mexique et d’autres territoires aux États-Unis.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_am%C3%A9ricano-mexicaine"
+    },
+    {
       "nom": "La Révolution Mexicaine",
       "annee": 1910,
-      "adversaires": ["Armées Fédérales"],
-      "allies": ["Armées de Zapata (Sud) et de Pancho Villa (Nord)"],
-      "morts": "Entre 1 et 2 millions (guerre et grippe espagnole)",
+      "adversaires": ["Gouvernements de Díaz puis de Huerta"],
+      "allies": ["Armées de Zapata (sud), de Pancho Villa (nord) et constitutionnalistes"],
+      "morts": "Environ 1 million de morts, ou plus selon les estimations (combats, famines, épidémies)",
       "vainqueur": "La faction constitutionnaliste (Carranza)",
-      "consequences": "L'une des guerres les plus atroces du XXe siècle. Elle accouche de la Constitution de 1917, garantissant les droits sociaux, le droit du travail et la séparation de l'Église et de l'État.",
+      "consequences": "La révolution renverse Díaz, adopte la Constitution de 1917 et lance la réforme agraire ; les chefs révolutionnaires s’affrontent ensuite entre eux.",
       "wikiUrl": "https://fr.wikipedia.org/wiki/R%C3%A9volution_mexicaine"
     }
   ],
-  "sciences": "Sous le 'Porfiriato' (la longue dictature de Díaz), le pays se modernise techniquement de force grâce aux capitaux étrangers (Royaume-Uni, USA) avec 19 000 km de chemins de fer et l'extraction massive d'argent et de pétrole, mais au prix de la misère paysanne. En 1938, le gouvernement nationalise le pétrole (PEMEX), affirmant sa souveraineté industrielle moderne face aux multinationales américaines.",
-  "croyancesText": "Le 'Mestizaje' (métissage) de la foi est la colonne vertébrale du pays, symbolisé par Notre-Dame de Guadalupe (la vierge catholique au teint brun, apparue sur la colline de l'ancien temple aztèque de Tonantzin). La Révolution de 1910 adopte une Constitution (1917) fortement anticléricale, entraînant une sanglante guerre civile religieuse dans les années 20 ('La Guerre des Cristeros' où les paysans armés meurent pour le Christ-Roi).",
-  "diplomatie": "Le traumatisme fondamental de l'État mexicain est d'avoir été amputé de moitié par la force de son surpuissant voisin du nord, les États-Unis. Après la Révolution, le pays opte pour une politique étrangère pacifiste stricte (La Doctrine Estrada : non-intervention dans les affaires des autres États). Le pays devient gouverné par un 'parti unique' autoritaire mais stable, le PRI, pendant soixante-dix ans.",
-  "documentaires": [
+  "sciences": "Le Mexique développe ses chemins de fer sous le Porfiriat, puis son industrie pétrolière nationalisée (Pemex, 1938). Le chimiste Mario Molina reçoit le prix Nobel en 1995 pour ses travaux sur la couche d’ozone. Des variétés de blé à haut rendement créées au Mexique sont à l’origine de la « révolution verte ».",
+  "croyancesText": "Le catholicisme reste la religion de la grande majorité, avec une forte dévotion à la Vierge de Guadalupe. Les lois de Réforme de Juárez séparent l’Église et l’État ; dans les années 1920, la guerre des Cristeros oppose l’État à des catholiques révoltés. Des traditions indigènes se mêlent au catholicisme, comme le jour des Morts.",
+  "diplomatie": "Le Mexique perd la moitié de son territoire au profit des États-Unis (1848) et subit l’intervention française (1862-1867). Au XXe siècle, il défend la non-intervention et accueille de nombreux réfugiés, dont des républicains espagnols. Depuis 1994, il est lié économiquement aux États-Unis et au Canada.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": { "valeur": "Mexico", "precision": "bâtie sur les ruines de Tenochtitlan" },
+    "regimes": {
+      "valeur": "République fédérale",
+      "precision": "avec deux brefs empires et de longues périodes de dictature ou de parti dominant"
+    },
+    "langues": { "valeur": "Espagnol", "precision": "et 68 langues indigènes reconnues, dont le nahuatl" },
+    "religion": { "valeur": "Catholicisme", "precision": "État laïque depuis les réformes de Juárez" },
+    "apogee": { "valeur": "Années 1940-1970", "precision": "le « miracle mexicain »" },
+    "population": { "valeur": "Environ 126 millions en 2020", "precision": "contre 6 millions vers 1810" },
+    "monnaie": { "valeur": "Peso" },
+    "duree": { "valeur": "Plus de 200 ans dans cette fiche" },
+    "aujourdhui": {
+      "valeur": "Mexique",
+      "precision": "avec, avant 1848, le Texas, la Californie et le sud-ouest des États-Unis"
+    }
+  },
+  "essentiel": [
+    "Le [[cri-de-dolores|cri de Dolores]] du prêtre Hidalgo lance en 1810 la guerre d’indépendance, achevée en 1821.",
+    "Le Mexique perd la moitié de son territoire au profit des États-Unis après la guerre de 1846-1848.",
+    "Le président [[benito-juarez|Benito Juárez]] sépare l’Église et l’État et résiste à l’intervention française de Napoléon III.",
+    "La [[revolution-mexicaine|révolution]] de 1910, avec des chefs comme [[emiliano-zapata|Zapata]], renverse le dictateur Porfirio Díaz et réclame la terre pour les paysans.",
+    "Le parti issu de la révolution (le PRI) gouverne jusqu’en 2000 ; l’artiste [[frida-kahlo|Frida Kahlo]] devient un symbole de l’identité mexicaine."
+  ],
+  "periodes": [
     {
-      "titre": "Le Mexique : De l'indépendance à la Révolution",
-      "url": "https://fr.wikipedia.org/wiki/Histoire_du_Mexique"
+      "nom": "Indépendance et instabilité",
+      "debut": 1810,
+      "fin": 1876,
+      "resume": "Après l’indépendance, coups d’État et guerres se succèdent ; le Mexique perd la moitié de son territoire et subit l’intervention française.",
+      "evenements": [
+        { "annee": 1821, "evenement": "Indépendance" },
+        { "annee": 1848, "evenement": "Traité de Guadalupe Hidalgo" },
+        { "annee": 1867, "evenement": "Exécution de Maximilien" }
+      ]
+    },
+    {
+      "nom": "Le Porfiriat",
+      "debut": 1876,
+      "fin": 1910,
+      "resume": "Le dictateur Porfirio Díaz modernise le pays (chemins de fer, mines, investissements étrangers), mais les paysans perdent leurs terres."
+    },
+    {
+      "nom": "La Révolution",
+      "debut": 1910,
+      "fin": 1920,
+      "resume": "Une décennie de guerre civile entre révolutionnaires et gouvernements successifs ; la Constitution de 1917 prévoit la réforme agraire.",
+      "evenements": [
+        { "annee": 1911, "evenement": "Départ de Díaz" },
+        { "annee": 1917, "evenement": "Constitution" },
+        { "annee": 1919, "evenement": "Assassinat de Zapata" }
+      ]
+    },
+    {
+      "nom": "Le Mexique moderne",
+      "debut": 1920,
+      "fin": 2020,
+      "resume": "Le PRI gouverne pendant 71 ans ; le pays s’industrialise et s’urbanise. La fin du XXe siècle voit l’ouverture démocratique et économique.",
+      "evenements": [
+        { "annee": 1938, "evenement": "Nationalisation du pétrole" },
+        { "annee": 1968, "evenement": "Massacre de Tlatelolco" },
+        { "annee": 1994, "evenement": "Accord de libre-échange nord-américain" }
+      ]
+    }
+  ],
+  "regimes": [
+    {
+      "id": "republique",
+      "nom": "République (avec deux empires)",
+      "debut": 1810,
+      "fin": 2020,
+      "note": "Le Mexique est une république fédérale, avec deux brefs empires (1822-1823 et 1864-1867)."
+    }
+  ],
+  "dynasties": [
+    { "id": "independance", "nom": "Indépendance et XIXe siècle", "debut": 1810, "fin": 1911, "regime": "republique" },
+    {
+      "id": "xxe",
+      "nom": "Présidents du XXe siècle",
+      "debut": 1911,
+      "fin": 2020,
+      "regime": "republique",
+      "note": "Sélection."
+    }
+  ],
+  "societe": "La société est métissée, avec une forte population indigène. La révolution donne des terres aux paysans (ejidos). Des millions de Mexicains émigrent vers les États-Unis au XXe siècle.",
+  "economie": "Mines d’argent, pétrole, agriculture, puis industrie (usines frontalières) et tourisme.",
+  "decouvertes": [],
+  "arts": "Muralisme (Rivera, Orozco, Siqueiros), peinture de Frida Kahlo, littérature d’Octavio Paz (prix Nobel 1990), musique mariachi.",
+  "quotidien": "Le jour des Morts, les familles décorent les tombes de fleurs et d’offrandes ; la cuisine mexicaine est inscrite au patrimoine immatériel de l’UNESCO.",
+  "heritage": [
+    {
+      "titre": "Une culture riche",
+      "texte": "Le Mexique compte plus de 35 sites inscrits au patrimoine mondial, des pyramides aztèques et mayas aux villes coloniales."
+    },
+    { "titre": "Le 16 septembre", "texte": "Le jour du cri de Dolores est la fête nationale du Mexique." }
+  ],
+  "aSavoir": [
+    "Le 5 mai (Cinco de Mayo), très fêté aux États-Unis, commémore une victoire mexicaine contre l’armée française à Puebla, en 1862."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Histoire_du_Mexique",
+    {
+      "titre": "Encyclopædia Britannica — Mexico, history",
+      "url": "https://www.britannica.com/place/Mexico/History"
     }
   ]
 }

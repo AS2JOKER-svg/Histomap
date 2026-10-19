@@ -464,5 +464,17 @@
   "Bataille des Dardanelles": {
     "coords": [26.3, 40.23],
     "lieu": "Gallipoli"
+  },
+  "Première guerre de l’opium": {
+    "coords": [113.26, 23.13],
+    "lieu": "Canton"
+  },
+  "Guerre civile chinoise": {
+    "coords": [116.4, 39.9],
+    "lieu": "Chine"
+  },
+  "Guerre russo-japonaise": {
+    "coords": [129.6, 34.4],
+    "lieu": "Détroit de Tsushima"
   }
 }

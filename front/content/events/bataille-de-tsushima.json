@@ -1,0 +1,17 @@
+{
+  "id": "bataille-de-tsushima",
+  "nom": "Bataille de Tsushima",
+  "annee": 1905,
+  "dates": "27-28 mai 1905",
+  "lieu": "Détroit de Tsushima (entre la Corée et le Japon)",
+  "description": "La flotte japonaise de l’amiral Tōgō détruit la flotte russe, venue de la Baltique après un voyage de huit mois.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "La Russie demande la paix. Pour la première fois à l’époque moderne, un pays asiatique bat une grande puissance européenne, ce qui a un immense retentissement."
+    }
+  ],
+  "avant": "restauration-de-meiji",
+  "apres": "attaque-de-pearl-harbor",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Tsushima"
+}

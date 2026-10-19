@@ -1,0 +1,17 @@
+{
+  "id": "attaque-de-pearl-harbor",
+  "nom": "Attaque de Pearl Harbor",
+  "annee": 1941,
+  "dates": "7 décembre 1941",
+  "lieu": "Pearl Harbor (Hawaï)",
+  "description": "L’aviation japonaise attaque par surprise la base navale américaine de Pearl Harbor : plus de 2 400 Américains sont tués.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "Les États-Unis entrent dans la Seconde Guerre mondiale. Le Japon conquiert rapidement l’Asie du Sud-Est, avant d’être repoussé à partir de 1942."
+    }
+  ],
+  "avant": "bataille-de-tsushima",
+  "apres": "bombardements-d-hiroshima-et-nagasaki",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Attaque_de_Pearl_Harbor"
+}

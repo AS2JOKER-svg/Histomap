@@ -1,0 +1,17 @@
+{
+  "id": "guerres-de-l-opium",
+  "nom": "Guerres de l’opium",
+  "annee": 1839,
+  "fin": 1860,
+  "dates": "1839-1842 et 1856-1860",
+  "lieu": "Chine",
+  "description": "Le Royaume-Uni, puis la France, font la guerre à la Chine, qui voulait interdire l’opium vendu par les marchands britanniques, et lui imposent l’ouverture de ses ports.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "La Chine cède Hong Kong, ouvre ses ports et accorde des privilèges aux étrangers : ce sont les premiers « traités inégaux ». En 1860, les troupes franco-britanniques pillent et incendient le palais d’Été de Pékin."
+    }
+  ],
+  "apres": "revolte-des-taiping",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Guerres_de_l%27opium"
+}

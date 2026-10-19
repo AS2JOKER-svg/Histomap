@@ -1,0 +1,18 @@
+{
+  "id": "mao-zedong",
+  "nom": "Mao Zedong",
+  "role": "Fondateur de la République populaire de Chine",
+  "roles": ["Révolutionnaire", "Président du Parti communiste"],
+  "dates": "1893 → 1976",
+  "naissance": 1893,
+  "mort": 1976,
+  "description": "Chef du Parti communiste chinois, il gagne la guerre civile et proclame la République populaire en 1949. Ses politiques provoquent des dizaines de millions de morts.",
+  "reperes": [{ "label": "Au pouvoir", "valeur": "1949 → 1976" }],
+  "essentiel": [
+    "Il prend la tête du parti pendant la [[longue-marche|Longue Marche]].",
+    "Il proclame la République populaire le 1er octobre 1949.",
+    "Le [[grand-bond-en-avant|Grand Bond en avant]] provoque une famine gigantesque.",
+    "Il lance la [[revolution-culturelle|Révolution culturelle]] (1966) pour éliminer ses rivaux."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Mao_Zedong"
+}

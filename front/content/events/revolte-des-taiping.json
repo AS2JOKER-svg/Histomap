@@ -1,0 +1,17 @@
+{
+  "id": "revolte-des-taiping",
+  "nom": "Révolte des Taiping",
+  "annee": 1850,
+  "fin": 1864,
+  "dates": "1850 → 1864",
+  "lieu": "Chine du Sud et du centre",
+  "description": "Un mouvement religieux et social, mené par Hong Xiuquan, qui se dit frère cadet de Jésus, fonde un « Royaume céleste » à Nankin et défie la dynastie Qing.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "La guerre fait peut-être 20 à 30 millions de morts : c’est l’une des guerres les plus meurtrières de l’histoire. Les Qing l’emportent avec l’aide d’armées régionales et d’officiers occidentaux."
+    }
+  ],
+  "avant": "guerres-de-l-opium",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/R%C3%A9volte_des_Taiping"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "revolution-culturelle",
+  "nom": "Révolution culturelle",
+  "annee": 1966,
+  "fin": 1976,
+  "dates": "1966 → 1976",
+  "lieu": "Chine",
+  "description": "[[mao-zedong|Mao]] lance les jeunes Gardes rouges contre les « ennemis du peuple » : enseignants, intellectuels, cadres du parti, monuments et traditions.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "Des centaines de milliers, peut-être des millions de personnes sont tuées ; des millions de jeunes sont envoyés à la campagne. Les écoles et les universités ferment pendant des années."
+    }
+  ],
+  "avant": "grand-bond-en-avant",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/R%C3%A9volution_culturelle"
+}

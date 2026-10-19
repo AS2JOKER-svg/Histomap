@@ -1,0 +1,18 @@
+{
+  "id": "cixi",
+  "nom": "Cixi",
+  "role": "Impératrice douairière",
+  "roles": ["Impératrice douairière", "Régente"],
+  "dates": "1835 → 1908",
+  "naissance": 1835,
+  "mort": 1908,
+  "description": "Concubine de l’empereur Xianfeng, elle gouverne la Chine de fait pendant près de cinquante ans, au nom de son fils puis de son neveu.",
+  "essentiel": [
+    "Elle prend le pouvoir par un coup d’État en 1861.",
+    "Elle soutient certaines modernisations mais écarte l’empereur Guangxu, qui voulait des réformes radicales (1898).",
+    "Elle soutient la révolte des Boxers contre les étrangers en 1900.",
+    "Elle meurt en 1908, un jour après Guangxu."
+  ],
+  "aSavoir": ["Son image a longtemps été très négative ; les historiens la jugent aujourd’hui de façon plus nuancée."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Cixi"
+}

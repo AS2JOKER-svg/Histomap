@@ -1,0 +1,16 @@
+{
+  "id": "shinkansen",
+  "nom": "Shinkansen",
+  "annee": 1964,
+  "domaine": "Technique",
+  "dates": "1964",
+  "description": "Le premier train à grande vitesse du monde, mis en service entre Tokyo et Osaka pour les Jeux olympiques de 1964, à plus de 200 km/h.",
+  "sections": [
+    {
+      "titre": "Ses particularités",
+      "texte": "Il roule sur des voies réservées, sans passage à niveau. Il est réputé pour sa ponctualité et sa sécurité : aucun passager n’a été tué dans un accident du Shinkansen."
+    }
+  ],
+  "aSavoir": ["Son surnom est le « train-balle », à cause de la forme de son nez."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Shinkansen"
+}

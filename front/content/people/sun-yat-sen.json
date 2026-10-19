@@ -1,0 +1,16 @@
+{
+  "id": "sun-yat-sen",
+  "nom": "Sun Yat-sen",
+  "role": "Fondateur de la République de Chine",
+  "roles": ["Médecin", "Révolutionnaire"],
+  "dates": "1866 → 1925",
+  "naissance": 1866,
+  "mort": 1925,
+  "description": "Médecin révolutionnaire, il fonde le Guomindang et devient le premier président provisoire de la République de Chine en 1912.",
+  "essentiel": [
+    "Il organise plusieurs soulèvements contre les Qing depuis l’exil.",
+    "Il formule les « Trois principes du peuple » : nationalisme, démocratie, bien-être du peuple.",
+    "Il est vénéré à la fois en Chine populaire et à Taïwan."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Sun_Yat-sen"
+}

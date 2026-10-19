@@ -10,67 +10,344 @@
   "row": 3,
   "isRiver": false,
   "capitale": "Pékin",
-  "description": "Le pays a survécu à un 'siècle de la honte' colonial pour fonder un communisme absolu et affamé, devenu depuis les années 80 l'atelier du monde libéralisé.",
+  "description": "La Chine depuis la fin du XVIIIe siècle : l’empire Qing humilié par les puissances étrangères, la république de 1912, la victoire communiste de 1949, puis l’essor économique qui en fait une superpuissance.",
   "territories": ["Manchu Empire", "Qing Empire", "China"],
   "datesCles": [
     {
       "annee": 1839,
-      "evenement": "Guerres de l'Opium",
-      "info": "L'Empire britannique détruit l'armée Qing pour forcer les Chinois à acheter leur opium."
+      "evenement": "Guerres de l’opium",
+      "info": "Le Royaume-Uni bat la Chine, qui voulait interdire le commerce de l’opium, et obtient Hong Kong.",
+      "ref": "guerres-de-l-opium"
+    },
+    {
+      "annee": 1850,
+      "evenement": "Révolte des Taiping",
+      "info": "Une immense rébellion fait des dizaines de millions de morts.",
+      "ref": "revolte-des-taiping"
     },
     {
       "annee": 1911,
-      "evenement": "Chute de l'Empire",
-      "info": "Sun Yat-sen met fin à 2000 ans de domination dynastique impériale (République)."
+      "evenement": "Chute de l’Empire",
+      "info": "La révolution met fin à plus de 2 000 ans d’empire ; la république est proclamée le 1er janvier 1912."
+    },
+    {
+      "annee": 1934,
+      "evenement": "La Longue Marche",
+      "info": "Encerclés, les communistes parcourent des milliers de kilomètres pour échapper aux nationalistes.",
+      "ref": "longue-marche"
     },
     {
       "annee": 1949,
       "evenement": "Victoire de Mao",
-      "info": "Fin de la guerre civile. Tchang Kaï-chek (les nationalistes) fuit à Taïwan."
+      "info": "Fin de la guerre civile : Mao proclame la République populaire ; Tchang Kaï-chek et les nationalistes se replient à Taïwan."
     },
     {
       "annee": 1958,
-      "evenement": "Le Grand Bond en Avant",
-      "info": "Planification maoïste délirante générant la plus grande famine de l'histoire humaine."
+      "evenement": "Le Grand Bond en avant",
+      "info": "La politique économique de Mao provoque une famine de plusieurs dizaines de millions de morts.",
+      "ref": "grand-bond-en-avant"
+    },
+    {
+      "annee": 1966,
+      "evenement": "Révolution culturelle",
+      "info": "Mao lance les Gardes rouges contre ses adversaires ; le pays sombre dans la violence.",
+      "ref": "revolution-culturelle"
     },
     {
       "annee": 1978,
-      "evenement": "Quatre Modernisations",
-      "info": "Deng Xiaoping ouvre au capitalisme l'économie du pays ('Économie socialiste de marché')."
+      "evenement": "Réformes de Deng Xiaoping",
+      "info": "Deng Xiaoping ouvre l’économie aux investissements étrangers et au marché."
+    },
+    {
+      "annee": 1989,
+      "evenement": "Tian’anmen",
+      "info": "L’armée réprime dans le sang les manifestations pour la démocratie à Pékin.",
+      "ref": "massacre-de-tian-anmen"
     }
   ],
   "dirigeants": [
-    { "titre": "Le Grand Timonier (Dictateur)", "nom": "Mao Zedong", "debut": 1949, "fin": 1976 },
-    { "titre": "Leader Paramount", "nom": "Deng Xiaoping", "debut": 1978, "fin": 1989 }
+    { "nom": "Jiaqing", "titre": "Empereur", "debut": 1796, "fin": 1820, "dynastie": "qing" },
+    {
+      "nom": "Daoguang",
+      "titre": "Empereur",
+      "debut": 1820,
+      "fin": 1850,
+      "dynastie": "qing",
+      "note": "règne de la première guerre de l’opium"
+    },
+    { "nom": "Xianfeng", "titre": "Empereur", "debut": 1850, "fin": 1861, "dynastie": "qing" },
+    {
+      "nom": "Cixi",
+      "titre": "Impératrice douairière",
+      "debut": 1861,
+      "fin": 1908,
+      "dynastie": "qing",
+      "personne": "cixi",
+      "note": "gouverne de fait au nom de son fils puis de son neveu",
+      "cle": true
+    },
+    { "nom": "Tongzhi", "titre": "Empereur", "debut": 1861, "fin": 1875, "dynastie": "qing" },
+    {
+      "nom": "Guangxu",
+      "titre": "Empereur",
+      "debut": 1875,
+      "fin": 1908,
+      "dynastie": "qing",
+      "note": "réformateur, écarté par Cixi"
+    },
+    {
+      "nom": "Puyi",
+      "titre": "Empereur",
+      "debut": 1908,
+      "fin": 1912,
+      "dynastie": "qing",
+      "note": "dernier empereur, abdique à 6 ans"
+    },
+    {
+      "nom": "Sun Yat-sen",
+      "titre": "Président provisoire",
+      "debut": 1912,
+      "fin": 1912,
+      "dynastie": "republique",
+      "personne": "sun-yat-sen",
+      "note": "fondateur du Guomindang",
+      "cle": true
+    },
+    {
+      "nom": "Yuan Shikai",
+      "titre": "Président",
+      "debut": 1912,
+      "fin": 1916,
+      "dynastie": "republique",
+      "note": "tente de se proclamer empereur"
+    },
+    {
+      "nom": "Tchang Kaï-chek",
+      "titre": "Chef du gouvernement nationaliste",
+      "debut": 1928,
+      "fin": 1949,
+      "dynastie": "republique",
+      "note": "se replie à Taïwan",
+      "cle": true
+    },
+    {
+      "nom": "Mao Zedong",
+      "titre": "Président du Parti communiste",
+      "surnom": "le Grand Timonier",
+      "debut": 1949,
+      "fin": 1976,
+      "dynastie": "pcc",
+      "personne": "mao-zedong",
+      "cle": true
+    },
+    { "nom": "Hua Guofeng", "titre": "Président du Parti communiste", "debut": 1976, "fin": 1978, "dynastie": "pcc" },
+    {
+      "nom": "Deng Xiaoping",
+      "titre": "Dirigeant suprême",
+      "debut": 1978,
+      "fin": 1992,
+      "dynastie": "pcc",
+      "personne": "deng-xiaoping",
+      "note": "sans être chef de l’État, il dirige le pays",
+      "cle": true
+    },
+    { "nom": "Jiang Zemin", "titre": "Secrétaire général du Parti", "debut": 1989, "fin": 2002, "dynastie": "pcc" },
+    { "nom": "Hu Jintao", "titre": "Secrétaire général du Parti", "debut": 2002, "fin": 2012, "dynastie": "pcc" },
+    {
+      "nom": "Xi Jinping",
+      "titre": "Secrétaire général du Parti",
+      "debut": 2012,
+      "fin": 2020,
+      "dynastie": "pcc",
+      "note": "en fonction en 2020",
+      "cle": true
+    }
   ],
   "personnages": [
     {
       "nom": "Sun Yat-sen",
       "role": "Révolutionnaire",
-      "description": "Père de la Chine moderne, auteur des 'Trois principes du peuple' respecté tant par les communistes que par Taïwan.",
-      "dates": "1866 à 1925",
-      "wikiUrl": "https://fr.wikipedia.org/wiki/Sun_Yat-sen"
+      "description": "Père de la République chinoise, honoré à la fois en Chine populaire et à Taïwan.",
+      "dates": "1866 → 1925",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Sun_Yat-sen",
+      "ref": "sun-yat-sen"
+    },
+    {
+      "nom": "Lu Xun",
+      "role": "Écrivain",
+      "description": "Le plus grand écrivain chinois du XXe siècle, critique sévère des traditions et des injustices.",
+      "dates": "1881 → 1936",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Lu_Xun"
+    },
+    {
+      "nom": "Tu Youyou",
+      "role": "Pharmacologue",
+      "description": "Elle découvre un médicament contre le paludisme à partir de la médecine traditionnelle ; prix Nobel de médecine en 2015.",
+      "dates": "née en 1930",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Tu_Youyou"
     }
   ],
   "guerres": [
     {
+      "nom": "Première guerre de l’opium",
+      "annee": 1839,
+      "adversaires": ["Royaume-Uni"],
+      "allies": [],
+      "morts": "Plusieurs milliers",
+      "vainqueur": "Royaume-Uni",
+      "consequences": "Par le traité de Nankin (1842), la Chine cède Hong Kong et ouvre cinq ports au commerce britannique.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Premi%C3%A8re_guerre_de_l%27opium"
+    },
+    {
       "nom": "Seconde Guerre sino-japonaise",
       "annee": 1937,
       "adversaires": ["Empire du Japon"],
-      "allies": ["Alliés de la Seconde Guerre Mondiale"],
-      "morts": "20 millions de morts chinois",
-      "vainqueur": "République de Chine (et Alliés)",
-      "consequences": "L'horreur de l'invasion impériale nippone (Massacre de Nankin). Les communistes de Mao utiliseront l'épuisement des forces du gouvernement nationaliste de l'époque pour gagner la guerre civile.",
+      "allies": ["Alliés de la Seconde Guerre mondiale"],
+      "morts": "Entre 15 et 20 millions de morts chinois, surtout civils",
+      "vainqueur": "République de Chine et Alliés",
+      "consequences": "L’armée japonaise commet d’immenses crimes, comme le massacre de Nankin (1937). Après la défaite japonaise, la guerre civile reprend et les communistes l’emportent en 1949.",
       "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_sino-japonaise_(1937-1945)"
+    },
+    {
+      "nom": "Guerre civile chinoise",
+      "annee": 1946,
+      "adversaires": ["Nationalistes du Guomindang (Tchang Kaï-chek)"],
+      "allies": ["Parti communiste (Mao Zedong)"],
+      "morts": "Plusieurs millions",
+      "vainqueur": "Communistes",
+      "consequences": "Phase décisive de 1946 à 1949. Mao proclame la République populaire le 1er octobre 1949 ; les nationalistes se replient à Taïwan.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_civile_chinoise"
     }
   ],
-  "sciences": "Leur rattrapage après 1978 est ahurissant. Partis du vélo et de la boue, ils bâtissent en trente ans les villes côtières géantes de l'exportation mondiale (Shenzhen). Puissance spatiale et technologique ultra-surveillée (reconnaissance faciale et pare-feu d'État), la Chine produit l'essentiel des terres rares mondiales et le plus vaste réseau de trains à grande vitesse jamais construit.",
-  "croyancesText": "Sous Mao, la terrible 'Révolution Culturelle' mobilise la jeunesse (Les Gardes Rouges) via le Petit Livre Rouge pour détruire la mémoire passée : ils saccagent les temples, brûlent l'art ancien et torturent tous les intellectuels et opposants idéologiques (lutte des classes absolue). Aujourd'hui, l'Athéisme du Parti Communiste règne, couplé à une tolérance religieuse très strictement subordonnée à l'ordre public (camps de rééducation de la minorité musulmane Ouïghoure).",
-  "diplomatie": "Effacer l'humiliation des Traités Inégaux du 19ème siècle (où les Européens pillaient leurs ports de la côte est). Après l'isolement maoïste (et la rupture de leur alliance avec l'URSS soviétique), le pays a rejoint l'OMC (2001) et utilise les milliards de ses excédents commerciaux pour le projet monumental des 'Nouvelles routes de la soie', visant la suprématie géopolitique en Asie et en Afrique.",
-  "documentaires": [
+  "sciences": "La Chine populaire se dote de la bombe atomique (1964) et lance son premier satellite (1970). Depuis les réformes, elle forme des millions d’ingénieurs, construit le plus grand réseau de trains à grande vitesse du monde et le barrage des Trois-Gorges, et envoie des astronautes dans l’espace (2003).",
+  "croyancesText": "Bouddhisme, taoïsme, confucianisme et culte des ancêtres ont longtemps coexisté. Le régime communiste, athée, persécute les religions pendant la Révolution culturelle ; depuis, il les tolère sous contrôle étroit. Les Tibétains, les Ouïghours musulmans et les chrétiens non officiels subissent des restrictions et des répressions.",
+  "diplomatie": "Au XIXe siècle, les puissances occidentales et le Japon imposent à la Chine des « traités inégaux » : ports ouverts, concessions, Hong Kong cédée au Royaume-Uni. Alliée de l’URSS puis rivale, la Chine populaire se rapproche des États-Unis en 1972. Au XXIe siècle, elle est une grande puissance commerciale et militaire, en rivalité avec les États-Unis.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": { "valeur": "Pékin", "precision": "Nankin sous la république (1928-1949)" },
+    "regimes": {
+      "valeur": "Empire, république, puis République populaire",
+      "precision": "parti communiste unique depuis 1949 ; la République de Chine se maintient à Taïwan"
+    },
+    "langues": {
+      "valeur": "Chinois (mandarin standard)",
+      "precision": "nombreuses autres langues chinoises et langues des minorités"
+    },
+    "religion": {
+      "valeur": "Bouddhisme, taoïsme, traditions populaires",
+      "precision": "État officiellement athée depuis 1949 ; religions étroitement contrôlées"
+    },
+    "apogee": { "valeur": "XXIe siècle", "precision": "deuxième économie mondiale" },
+    "population": { "valeur": "Environ 1,4 milliard en 2020", "precision": "environ 300 millions en 1790" },
+    "monnaie": { "valeur": "Yuan (renminbi)" },
+    "duree": { "valeur": "Plus de 230 ans dans cette fiche" },
+    "aujourdhui": { "valeur": "Chine", "precision": "et Taïwan, gouvernée par la République de Chine depuis 1949" }
+  },
+  "essentiel": [
+    "Au XIXe siècle, la Chine des Qing est battue lors des [[guerres-de-l-opium|guerres de l’opium]] et ravagée par la [[revolte-des-taiping|révolte des Taiping]], la plus meurtrière des guerres civiles.",
+    "En 1911-1912, la révolution menée par les partisans de [[sun-yat-sen|Sun Yat-sen]] renverse le dernier empereur.",
+    "Nationalistes et communistes s’affrontent ; pendant la [[longue-marche|Longue Marche]], [[mao-zedong|Mao Zedong]] prend la tête du Parti communiste, qui l’emporte en 1949.",
+    "Le [[grand-bond-en-avant|Grand Bond en avant]] provoque une famine immense, puis la [[revolution-culturelle|Révolution culturelle]] plonge le pays dans le chaos.",
+    "À partir de 1978, [[deng-xiaoping|Deng Xiaoping]] ouvre l’économie ; le parti réprime les manifestations de [[massacre-de-tian-anmen|Tian’anmen]] (1989) et la Chine devient une grande puissance."
+  ],
+  "periodes": [
     {
-      "titre": "La Chine : Le Siècle de l'humiliation et la vengeance",
-      "url": "https://fr.wikipedia.org/wiki/Histoire_de_la_R%C3%A9publique_populaire_de_Chine"
+      "nom": "Le déclin des Qing",
+      "debut": 1789,
+      "fin": 1911,
+      "resume": "Défaites face aux Occidentaux et au Japon, traités inégaux, rébellions : l’empire s’affaiblit malgré des tentatives de réforme, sous l’autorité de l’impératrice douairière Cixi.",
+      "evenements": [
+        { "annee": 1842, "evenement": "Traité de Nankin" },
+        { "annee": 1895, "evenement": "Défaite contre le Japon" },
+        { "annee": 1900, "evenement": "Révolte des Boxers" }
+      ]
+    },
+    {
+      "nom": "La République de Chine",
+      "debut": 1911,
+      "fin": 1949,
+      "resume": "La république se divise entre seigneurs de la guerre ; nationalistes et communistes s’affrontent, puis luttent contre l’invasion japonaise.",
+      "evenements": [
+        { "annee": 1919, "evenement": "Mouvement du 4 Mai" },
+        { "annee": 1934, "evenement": "Longue Marche", "ref": "longue-marche" },
+        { "annee": 1937, "evenement": "Invasion japonaise et massacre de Nankin" }
+      ]
+    },
+    {
+      "nom": "La Chine de Mao",
+      "debut": 1949,
+      "fin": 1976,
+      "resume": "Le Parti communiste transforme le pays : réforme agraire, collectivisation, Grand Bond en avant et Révolution culturelle, au prix de dizaines de millions de victimes.",
+      "evenements": [
+        { "annee": 1950, "evenement": "Intervention en Corée et au Tibet" },
+        { "annee": 1958, "evenement": "Grand Bond en avant", "ref": "grand-bond-en-avant" },
+        { "annee": 1966, "evenement": "Révolution culturelle", "ref": "revolution-culturelle" }
+      ]
+    },
+    {
+      "nom": "Réformes et puissance",
+      "debut": 1976,
+      "fin": 2020,
+      "resume": "Deng Xiaoping lance l’ouverture économique ; la Chine devient « l’atelier du monde » puis la deuxième économie mondiale, sans démocratisation politique.",
+      "evenements": [
+        { "annee": 1978, "evenement": "Réformes économiques" },
+        { "annee": 1989, "evenement": "Tian’anmen", "ref": "massacre-de-tian-anmen" },
+        { "annee": 1997, "evenement": "Retour de Hong Kong" },
+        { "annee": 2008, "evenement": "Jeux olympiques de Pékin" }
+      ]
+    }
+  ],
+  "regimes": [
+    { "id": "empire", "nom": "Empire Qing", "debut": 1789, "fin": 1912 },
+    {
+      "id": "republique",
+      "nom": "République de Chine",
+      "debut": 1912,
+      "fin": 1949,
+      "note": "Elle se maintient à Taïwan après 1949."
+    },
+    {
+      "id": "populaire",
+      "nom": "République populaire de Chine",
+      "debut": 1949,
+      "fin": 2020,
+      "note": "Le pouvoir appartient au Parti communiste ; son secrétaire général est le principal dirigeant."
+    }
+  ],
+  "dynasties": [
+    { "id": "qing", "nom": "Les derniers Qing", "debut": 1796, "fin": 1912, "regime": "empire" },
+    {
+      "id": "republique",
+      "nom": "Dirigeants de la République de Chine",
+      "debut": 1912,
+      "fin": 1949,
+      "regime": "republique"
+    },
+    { "id": "pcc", "nom": "Dirigeants de la République populaire", "debut": 1949, "fin": 2020, "regime": "populaire" }
+  ],
+  "societe": "La révolution de 1949 transforme la société : réforme agraire, droits des femmes, alphabétisation, mais aussi persécution des « ennemis de classe ». Depuis 1978, des centaines de millions de Chinois sortent de la pauvreté et s’installent en ville ; la politique de l’enfant unique (1979-2015) limite les naissances.",
+  "economie": "Économie agricole, puis planifiée, puis « économie socialiste de marché » ; premier exportateur mondial et deuxième économie mondiale au XXIe siècle.",
+  "decouvertes": [],
+  "arts": "Littérature de Lu Xun et de Mo Yan (prix Nobel 2012), opéra de Pékin, cinéma de Zhang Yimou, art contemporain d’Ai Weiwei.",
+  "quotidien": "Les villes chinoises se transforment à grande vitesse ; des centaines de millions de travailleurs migrants quittent les campagnes pour les usines.",
+  "heritage": [
+    {
+      "titre": "Une puissance mondiale",
+      "texte": "La Chine est devenue l’« atelier du monde » et une puissance technologique."
+    },
+    {
+      "titre": "Deux Chines",
+      "texte": "La République populaire et Taïwan, issues de la guerre civile, sont toujours séparées."
+    }
+  ],
+  "aSavoir": [
+    "Les estimations de la famine du Grand Bond en avant varient de 15 à 45 millions de morts ; c’est la plus meurtrière de l’histoire."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Histoire_de_la_Chine",
+    {
+      "titre": "Encyclopædia Britannica — China, history",
+      "url": "https://www.britannica.com/place/China/History"
     }
   ]
 }

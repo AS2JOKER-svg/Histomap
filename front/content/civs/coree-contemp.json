@@ -10,69 +10,282 @@
   "row": 5,
   "isRiver": false,
   "capitale": "Séoul (Sud) / Pyongyang (Nord)",
-  "description": "Une tragédie nationale. Trente-cinq ans de brutale occupation japonaise, suivie d'une guerre civile destructrice figeant deux nations que tout sépare sur le 38ème parallèle.",
+  "description": "La Corée depuis la fin du XVIIIe siècle : le royaume Joseon, l’empire coréen, la colonisation japonaise, puis la division en deux États ennemis, la Corée du Nord communiste et la Corée du Sud devenue démocratie prospère.",
   "territories": ["Korea", "Korea, Republic of", "Korea, Democratic People's Republic of"],
   "datesCles": [
     {
+      "annee": 1897,
+      "evenement": "Empire coréen",
+      "info": "Le roi Gojong se proclame empereur pour affirmer l’indépendance de la Corée."
+    },
+    {
       "annee": 1910,
       "evenement": "Annexion par le Japon",
-      "info": "L'Empire nippon asservit la Corée (travail forcé, 'femmes de réconfort', interdiction de la langue)."
+      "info": "Le Japon colonise la Corée : travail forcé, « femmes de réconfort », interdiction progressive de la langue coréenne."
+    },
+    {
+      "annee": 1919,
+      "evenement": "Mouvement du 1er mars",
+      "info": "Des manifestations pacifiques pour l’indépendance sont durement réprimées.",
+      "ref": "mouvement-du-1er-mars"
     },
     {
       "annee": 1945,
-      "evenement": "La Libération et Partition",
-      "info": "L'URSS libère le nord et les USA le sud, créant deux zones d'occupation."
+      "evenement": "Libération et partition",
+      "info": "L’URSS occupe le nord et les États-Unis le sud, de part et d’autre du 38e parallèle."
     },
     {
       "annee": 1950,
-      "evenement": "L'Invasion de la Guerre de Corée",
-      "info": "L'armée de Kim Il-sung attaque le Sud pour réunifier le pays par la force militaire."
+      "evenement": "Guerre de Corée",
+      "info": "L’armée de Kim Il-sung attaque le Sud pour réunifier le pays par la force.",
+      "ref": "guerre-de-coree"
+    },
+    {
+      "annee": 1980,
+      "evenement": "Soulèvement de Gwangju",
+      "info": "L’armée sud-coréenne écrase un soulèvement pour la démocratie.",
+      "ref": "soulevement-de-gwangju"
     },
     {
       "annee": 1988,
-      "evenement": "Jeux Olympiques de Séoul",
-      "info": "Marque la consécration mondiale du miracle économique du Sud et sa transition en démocratie."
+      "evenement": "Jeux olympiques de Séoul",
+      "info": "Ils marquent la réussite économique du Sud et sa transition vers la démocratie."
+    },
+    {
+      "annee": 2006,
+      "evenement": "Essai nucléaire nord-coréen",
+      "info": "La Corée du Nord réalise son premier essai nucléaire."
     }
   ],
   "dirigeants": [
-    { "titre": "Dictateur (Nord)", "nom": "Kim Il-sung", "surnom": "Le Président Éternel", "debut": 1948, "fin": 1994 },
-    { "titre": "Dictateur militaire (Sud)", "nom": "Park Chung-hee", "debut": 1961, "fin": 1979 }
-  ],
-  "personnages": [
+    {
+      "nom": "Gojong",
+      "titre": "Roi, puis empereur",
+      "debut": 1863,
+      "fin": 1907,
+      "dynastie": "yi",
+      "note": "proclame l’Empire coréen ; forcé d’abdiquer par le Japon",
+      "cle": true
+    },
+    { "nom": "Sunjong", "titre": "Empereur", "debut": 1907, "fin": 1910, "dynastie": "yi", "note": "dernier souverain" },
+    {
+      "nom": "Kim Il-sung",
+      "titre": "Dirigeant de la Corée du Nord",
+      "debut": 1946,
+      "fin": 1994,
+      "dynastie": "nord",
+      "personne": "kim-il-sung",
+      "note": "proclamé « président éternel » après sa mort",
+      "cle": true
+    },
+    { "nom": "Kim Jong-il", "titre": "Dirigeant de la Corée du Nord", "debut": 1994, "fin": 2011, "dynastie": "nord" },
+    {
+      "nom": "Kim Jong-un",
+      "titre": "Dirigeant de la Corée du Nord",
+      "debut": 2011,
+      "fin": 2020,
+      "dynastie": "nord",
+      "note": "en fonction en 2020"
+    },
     {
       "nom": "Syngman Rhee",
-      "role": "Premier président de la Corée du Sud",
-      "description": "Militant de l'indépendance coréenne, il dirige la Corée du Sud de 1948 à 1960 de façon de plus en plus autoritaire, avant d'être chassé par une révolte étudiante.",
-      "dates": "1875 à 1965",
-      "wikiUrl": "https://fr.wikipedia.org/wiki/Syngman_Rhee"
+      "titre": "Président de la Corée du Sud",
+      "debut": 1948,
+      "fin": 1960,
+      "dynastie": "sud",
+      "note": "chassé par une révolte étudiante",
+      "cle": true
+    },
+    {
+      "nom": "Park Chung-hee",
+      "titre": "Président (dictateur militaire)",
+      "debut": 1961,
+      "fin": 1979,
+      "dynastie": "sud",
+      "note": "industrialisation rapide ; assassiné",
+      "cle": true
+    },
+    {
+      "nom": "Chun Doo-hwan",
+      "titre": "Président (dictateur militaire)",
+      "debut": 1980,
+      "fin": 1988,
+      "dynastie": "sud",
+      "note": "réprime Gwangju"
     },
     {
       "nom": "Kim Dae-jung",
-      "role": "Opposant puis président de la Corée du Sud",
-      "description": "Opposant aux dictatures militaires, élu président en 1997, il mène une politique de rapprochement avec le Nord (« politique du rayon de soleil ») et reçoit le prix Nobel de la paix en 2000.",
-      "dates": "1924 à 2009",
+      "titre": "Président",
+      "debut": 1998,
+      "fin": 2003,
+      "dynastie": "sud",
+      "note": "prix Nobel de la paix",
+      "cle": true
+    },
+    {
+      "nom": "Park Geun-hye",
+      "titre": "Présidente",
+      "debut": 2013,
+      "fin": 2017,
+      "dynastie": "sud",
+      "note": "première femme présidente ; destituée"
+    },
+    {
+      "nom": "Moon Jae-in",
+      "titre": "Président",
+      "debut": 2017,
+      "fin": 2020,
+      "dynastie": "sud",
+      "note": "en fonction en 2020"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Kim Dae-jung",
+      "role": "Président",
+      "description": "Opposant aux dictatures, condamné à mort puis gracié, il devient président et reçoit le prix Nobel de la paix (2000).",
+      "dates": "1924 → 2009",
       "wikiUrl": "https://fr.wikipedia.org/wiki/Kim_Dae-jung"
+    },
+    {
+      "nom": "Yu Gwan-sun",
+      "role": "Militante",
+      "description": "Lycéenne, héroïne du mouvement du 1er mars 1919, morte en prison à 17 ans.",
+      "dates": "1902 → 1920",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Yu_Gwan-sun"
+    },
+    {
+      "nom": "Syngman Rhee",
+      "role": "Président",
+      "description": "Premier président de la Corée du Sud, au pouvoir de plus en plus autoritaire.",
+      "dates": "1875 → 1965",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Syngman_Rhee"
     }
   ],
   "guerres": [
     {
       "nom": "Guerre de Corée",
       "annee": 1950,
-      "adversaires": ["Corée du Nord", "Volontaires de la Chine Maoïste"],
-      "allies": ["Corée du Sud", "Force de Coalition de l'ONU (États-Unis)"],
+      "adversaires": ["Corée du Nord", "Volontaires chinois"],
+      "allies": ["Corée du Sud", "Forces de l’ONU (surtout américaines)"],
       "morts": "Environ 2,5 à 3 millions de morts au total, en grande partie civils (Séoul change de mains 4 fois)",
-      "vainqueur": "Statu Quo (Match nul sanglant)",
-      "consequences": "La guerre la plus destructrice de l'ère de la Guerre Froide. Le général américain MacArthur, qui voulait étendre la guerre à la Chine (il envisagea même l'arme atomique), est limogé en 1951 par le président Truman, surtout pour insubordination.",
+      "vainqueur": "Aucun vainqueur (armistice de 1953)",
+      "consequences": "La frontière est fixée près du 38e parallèle par l’armistice de Panmunjom (1953) ; aucun traité de paix n’a été signé.",
       "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_de_Cor%C3%A9e"
     }
   ],
-  "sciences": "Le contraste est vertigineux : Le Sud réalise 'Le Miracle sur le fleuve Han', des chaebols (immenses conglomérats nationaux comme Samsung, Hyundai) propulsant un pays ravagé dans la domination mondiale des écrans, bateaux et de la mémoire électronique, et sa K-Culture musicale. Le Nord se militarise à outrance au prix de grandes famines, sacrifiant tout à l'obtention de la dissuasion balistique et nucléaire autonome.",
-  "croyancesText": "Le Nord vit sous l'idéologie politique quasi-religieuse absolue du 'Juche' (L'Autosuffisance totale militaire et économique). Des milliers de statues monumentales à la gloire de la dynastie totalitaire des Kim dominent chaque ville. Le Sud, profondément dynamique religieusement, abrite d'immenses mega-églises évangéliques (christianisme) et une grande part de laïcs pragmatiques et matérialistes.",
-  "diplomatie": "Techniquement, la guerre de Corée n'est pas terminée (seul un Armistice de Cessez-le-feu fut signé à Panmunjom en 1953). Le Nord, soutenu par la Chine communiste, est le pays le plus isolé et sanctionné diplomatiquement du monde. Le Sud, bastion géopolitique armé indispensable des États-Unis en Asie de l'Est, déploie sa diplomatie économique libre-échangiste.",
-  "documentaires": [
+  "sciences": "La Corée du Sud devient en quelques décennies une puissance technologique : électronique (Samsung, LG), automobile, construction navale, réseaux Internet parmi les plus rapides du monde. La Corée du Nord consacre une grande partie de ses ressources aux missiles et à l’arme nucléaire.",
+  "croyancesText": "En Corée du Sud, près de la moitié des habitants se déclarent sans religion ; les autres sont surtout chrétiens (protestants et catholiques) ou bouddhistes, et le confucianisme marque toujours la vie familiale. En Corée du Nord, les religions sont réprimées et les dirigeants Kim font l’objet d’un véritable culte.",
+  "diplomatie": "Après 1953, les deux Corées restent techniquement en guerre : seul un armistice a été signé. Le Sud est allié des États-Unis, le Nord de la Chine. Les sommets intercoréens (2000, 2018) n’ont pas abouti à la paix.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": { "valeur": "Séoul (Sud) et Pyongyang (Nord)" },
+    "regimes": {
+      "valeur": "Monarchie, colonie japonaise, puis deux républiques",
+      "precision": "le Nord est une dictature héréditaire ; le Sud, une démocratie depuis 1987"
+    },
+    "langues": { "valeur": "Coréen", "precision": "écrit en hangeul" },
+    "religion": {
+      "valeur": "Au Sud : sans religion, christianisme, bouddhisme",
+      "precision": "au Nord, religions réprimées et culte des dirigeants"
+    },
+    "apogee": {
+      "valeur": "Corée du Sud depuis les années 1990",
+      "precision": "grande puissance technologique et culturelle"
+    },
+    "population": { "valeur": "Environ 52 millions au Sud et 26 millions au Nord en 2020" },
+    "monnaie": { "valeur": "Won (Sud et Nord)" },
+    "duree": { "valeur": "Plus de 230 ans dans cette fiche" },
+    "aujourdhui": { "valeur": "Corée du Sud et Corée du Nord" }
+  },
+  "essentiel": [
+    "Le royaume Joseon devient l’Empire coréen en 1897, mais le Japon l’annexe en 1910 et impose une colonisation brutale.",
+    "Le [[mouvement-du-1er-mars|mouvement du 1er mars 1919]] réclame l’indépendance ; il est réprimé dans le sang.",
+    "En 1945, la Corée est libérée et coupée en deux zones, soviétique au nord, américaine au sud.",
+    "La [[guerre-de-coree|guerre de Corée]] (1950-1953), déclenchée par le Nord de [[kim-il-sung|Kim Il-sung]], fait des millions de morts et fige la division.",
+    "Le Sud, après des dictatures militaires et le [[soulevement-de-gwangju|soulèvement de Gwangju]], devient une démocratie prospère ; le Nord reste une dictature fermée, dotée de l’arme nucléaire."
+  ],
+  "periodes": [
     {
-      "titre": "Guerre de Corée : Le grand affrontement",
-      "url": "https://fr.wikipedia.org/wiki/Histoire_de_la_Cor%C3%A9e"
+      "nom": "La fin de Joseon",
+      "debut": 1789,
+      "fin": 1910,
+      "resume": "Le royaume fermé est forcé de s’ouvrir par le Japon (1876) et devient l’enjeu des rivalités chinoises, japonaises et russes.",
+      "evenements": [{ "annee": 1876, "evenement": "Traité de Ganghwa" }, { "annee": 1897, "evenement": "Empire coréen" }]
+    },
+    {
+      "nom": "La colonisation japonaise",
+      "debut": 1910,
+      "fin": 1945,
+      "resume": "Le Japon exploite la Corée, tente d’effacer sa culture et mobilise de force des centaines de milliers de Coréens pendant la guerre.",
+      "evenements": [{ "annee": 1919, "evenement": "Mouvement du 1er mars", "ref": "mouvement-du-1er-mars" }]
+    },
+    {
+      "nom": "Division et guerre",
+      "debut": 1945,
+      "fin": 1953,
+      "resume": "Deux États rivaux naissent en 1948 ; la guerre de Corée fait des millions de victimes et se termine par un simple armistice.",
+      "evenements": [
+        { "annee": 1948, "evenement": "Création des deux États" },
+        { "annee": 1950, "evenement": "Guerre de Corée", "ref": "guerre-de-coree" }
+      ]
+    },
+    {
+      "nom": "Deux Corées",
+      "debut": 1953,
+      "fin": 2020,
+      "resume": "Le Sud connaît un développement économique spectaculaire et se démocratise en 1987 ; le Nord, dirigé par la famille Kim, connaît une grave famine dans les années 1990 et développe l’arme nucléaire.",
+      "evenements": [
+        { "annee": 1980, "evenement": "Gwangju", "ref": "soulevement-de-gwangju" },
+        { "annee": 1987, "evenement": "Démocratisation du Sud" },
+        { "annee": 2000, "evenement": "Premier sommet intercoréen" }
+      ]
+    }
+  ],
+  "regimes": [
+    { "id": "monarchie", "nom": "Royaume, puis Empire coréen", "debut": 1789, "fin": 1910 },
+    { "id": "colonie", "nom": "Colonie japonaise", "debut": 1910, "fin": 1945 },
+    {
+      "id": "deux-etats",
+      "nom": "Deux États",
+      "debut": 1945,
+      "fin": 2020,
+      "note": "République de Corée (Sud) et République populaire démocratique de Corée (Nord)."
+    }
+  ],
+  "dynasties": [
+    { "id": "yi", "nom": "Les derniers souverains Joseon", "debut": 1863, "fin": 1910, "regime": "monarchie" },
+    { "id": "nord", "nom": "Corée du Nord : la famille Kim", "debut": 1946, "fin": 2020, "regime": "deux-etats" },
+    {
+      "id": "sud",
+      "nom": "Corée du Sud : présidents",
+      "debut": 1948,
+      "fin": 2020,
+      "regime": "deux-etats",
+      "note": "Sélection."
+    }
+  ],
+  "societe": "Le Sud connaît une urbanisation et une scolarisation rapides ; la démocratie s’installe en 1987 après de grandes manifestations. Au Nord, la population vit sous un contrôle total ; la famine des années 1990 fait des centaines de milliers de morts.",
+  "economie": "Au Sud, « miracle sur le fleuve Han » : industrialisation rapide à partir des années 1960. Au Nord, économie planifiée en grande difficulté.",
+  "decouvertes": ["hangeul"],
+  "arts": "Musique pop coréenne (K-pop), cinéma (Parasite, Palme d’or et Oscar en 2019-2020), séries télévisées : la « vague coréenne » (hallyu) conquiert le monde.",
+  "quotidien": "Des millions de familles ont été séparées par la frontière en 1953 ; certaines ont pu se revoir brièvement lors de réunions organisées.",
+  "heritage": [
+    {
+      "titre": "La « vague coréenne »",
+      "texte": "K-pop, séries et cinéma coréens sont populaires dans le monde entier."
+    },
+    {
+      "titre": "Une frontière de la guerre froide",
+      "texte": "La zone démilitarisée qui sépare les deux Corées est l’une des frontières les plus surveillées du monde."
+    }
+  ],
+  "aSavoir": ["Séoul, la capitale du Sud, n’est qu’à une cinquantaine de kilomètres de la frontière avec le Nord."],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Histoire_de_la_Cor%C3%A9e",
+    {
+      "titre": "Encyclopædia Britannica — Korea, history",
+      "url": "https://www.britannica.com/place/Korea/History"
     }
   ]
 }

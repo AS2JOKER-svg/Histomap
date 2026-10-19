@@ -1,0 +1,16 @@
+{
+  "id": "kim-il-sung",
+  "nom": "Kim Il-sung",
+  "role": "Fondateur de la Corée du Nord",
+  "roles": ["Guérillero", "Dirigeant"],
+  "dates": "1912 → 1994",
+  "naissance": 1912,
+  "mort": 1994,
+  "description": "Ancien guérillero contre les Japonais, installé au pouvoir par l’URSS, il fonde la Corée du Nord, déclenche la guerre de Corée et établit une dictature héréditaire.",
+  "essentiel": [
+    "Il dirige le nord de la Corée à partir de 1946 et proclame la République populaire démocratique en 1948.",
+    "Il lance l’invasion du Sud en 1950, qui déclenche la [[guerre-de-coree|guerre de Corée]].",
+    "Il impose un culte de la personnalité et transmet le pouvoir à son fils Kim Jong-il."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Kim_Il-sung"
+}

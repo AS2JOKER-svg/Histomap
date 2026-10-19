@@ -1,0 +1,18 @@
+{
+  "id": "grand-bond-en-avant",
+  "nom": "Grand Bond en avant",
+  "annee": 1958,
+  "fin": 1962,
+  "dates": "1958 → 1962",
+  "lieu": "Chine",
+  "description": "Une campagne lancée par [[mao-zedong|Mao]] pour industrialiser la Chine à marche forcée : collectivisation des terres en communes populaires, petits hauts fourneaux dans les villages.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "Les objectifs irréalistes, les réquisitions et la désorganisation de l’agriculture provoquent une terrible famine : de 15 à 45 millions de morts selon les estimations."
+    }
+  ],
+  "liens": [{ "ref": "mao-zedong", "relation": "Son initiateur" }],
+  "apres": "revolution-culturelle",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Grand_Bond_en_avant"
+}

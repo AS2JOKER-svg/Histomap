@@ -1,0 +1,21 @@
+{
+  "id": "guerre-de-coree",
+  "nom": "Guerre de Corée",
+  "annee": 1950,
+  "fin": 1953,
+  "dates": "25 juin 1950 → 27 juillet 1953",
+  "lieu": "Corée",
+  "description": "L’armée nord-coréenne de [[kim-il-sung|Kim Il-sung]] envahit le Sud ; les forces de l’ONU, surtout américaines, puis des « volontaires » chinois interviennent.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Le Nord envahit presque tout le Sud ; les forces de l’ONU contre-attaquent jusqu’à la frontière chinoise ; la Chine intervient et repousse les Américains. Le front se stabilise près du 38e parallèle. Séoul change quatre fois de mains."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Environ 2,5 à 3 millions de morts, surtout civils. L’armistice de 1953 fige la division ; aucun traité de paix n’a été signé."
+    }
+  ],
+  "liens": [{ "ref": "kim-il-sung", "relation": "Le dirigeant du Nord" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_de_Cor%C3%A9e"
+}

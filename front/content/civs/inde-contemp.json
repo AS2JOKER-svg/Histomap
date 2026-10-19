@@ -10,57 +10,304 @@
   "row": 6,
   "isRiver": false,
   "capitale": "New Delhi",
-  "description": "Le 'Joyau de la Couronne britannique' spolié économiquement pendant 150 ans, gagnant la liberté par la non-violence avant de se fracturer violemment avec le Pakistan.",
+  "description": "L’Inde, conquise par la Compagnie britannique des Indes orientales, puis colonie de la Couronne, obtient son indépendance en 1947 par un mouvement largement non violent, au prix d’une partition sanglante, et devient la plus grande démocratie du monde.",
   "territories": ["British Raj", "India"],
   "datesCles": [
     {
       "annee": 1857,
-      "evenement": "La Révolte des Cipayes",
-      "info": "L'armée indienne au service des Anglais se mutine. L'insurrection est noyée dans le sang."
+      "evenement": "Révolte des cipayes",
+      "info": "Des soldats indiens de l’armée britannique se soulèvent ; la révolte est écrasée.",
+      "ref": "revolte-des-cipayes"
+    },
+    {
+      "annee": 1876,
+      "evenement": "Impératrice des Indes",
+      "info": "La reine Victoria prend le titre d’impératrice des Indes."
+    },
+    {
+      "annee": 1885,
+      "evenement": "Fondation du Congrès",
+      "info": "Le Congrès national indien est fondé ; il mènera la lutte pour l’indépendance."
     },
     {
       "annee": 1930,
-      "evenement": "La Marche du Sel",
-      "info": "Le coup de maître de la désobéissance civile pacifique de Gandhi contre le monopole anglais."
+      "evenement": "La marche du sel",
+      "info": "Gandhi marche 390 km pour protester contre le monopole britannique sur le sel.",
+      "ref": "marche-du-sel"
     },
     {
       "annee": 1947,
-      "evenement": "L'Indépendance et la Partition",
-      "info": "Les Britanniques s'en vont. Le pays est fracturé selon des lignes religieuses."
+      "evenement": "L’indépendance et la partition",
+      "info": "L’Inde et le Pakistan deviennent indépendants le 15 août ; la partition provoque des violences meurtrières.",
+      "ref": "partition-des-indes"
     },
     {
-      "annee": 1974,
-      "evenement": "L'arme nucléaire",
-      "info": "L'Inde (Opération Bouddha Souriant) fait exploser sa première bombe atomique."
+      "annee": 1950,
+      "evenement": "La République",
+      "info": "La Constitution, rédigée notamment par B. R. Ambedkar, fait de l’Inde une république démocratique."
+    },
+    { "annee": 1974, "evenement": "L’arme nucléaire", "info": "L’Inde réalise son premier essai nucléaire." },
+    {
+      "annee": 1991,
+      "evenement": "Libéralisation",
+      "info": "L’Inde ouvre son économie, ce qui accélère sa croissance."
     }
   ],
   "dirigeants": [
-    { "titre": "Impératrice des Indes", "nom": "Reine Victoria", "debut": 1876, "fin": 1901 },
-    { "titre": "1er Premier ministre", "nom": "Jawaharlal Nehru", "debut": 1947, "fin": 1964 }
+    {
+      "nom": "Lord Canning",
+      "titre": "Gouverneur général, puis premier vice-roi",
+      "debut": 1856,
+      "fin": 1862,
+      "dynastie": "coloniaux",
+      "note": "réprime la révolte des cipayes"
+    },
+    {
+      "nom": "Victoria",
+      "titre": "Impératrice des Indes",
+      "debut": 1876,
+      "fin": 1901,
+      "dynastie": "coloniaux",
+      "personne": "reine-victoria",
+      "note": "reine du Royaume-Uni",
+      "cle": true
+    },
+    {
+      "nom": "Lord Curzon",
+      "titre": "Vice-roi",
+      "debut": 1899,
+      "fin": 1905,
+      "dynastie": "coloniaux",
+      "note": "partage le Bengale"
+    },
+    {
+      "nom": "Lord Mountbatten",
+      "titre": "Dernier vice-roi",
+      "debut": 1947,
+      "fin": 1947,
+      "dynastie": "coloniaux",
+      "note": "organise l’indépendance"
+    },
+    {
+      "nom": "Jawaharlal Nehru",
+      "titre": "Premier ministre",
+      "debut": 1947,
+      "fin": 1964,
+      "dynastie": "premiers-ministres",
+      "personne": "jawaharlal-nehru",
+      "note": "premier Premier ministre",
+      "cle": true
+    },
+    {
+      "nom": "Lal Bahadur Shastri",
+      "titre": "Premier ministre",
+      "debut": 1964,
+      "fin": 1966,
+      "dynastie": "premiers-ministres"
+    },
+    {
+      "nom": "Indira Gandhi",
+      "titre": "Première ministre",
+      "debut": 1966,
+      "fin": 1984,
+      "dynastie": "premiers-ministres",
+      "personne": "indira-gandhi",
+      "note": "écartée de 1977 à 1980 ; assassinée",
+      "cle": true
+    },
+    {
+      "nom": "Rajiv Gandhi",
+      "titre": "Premier ministre",
+      "debut": 1984,
+      "fin": 1989,
+      "dynastie": "premiers-ministres",
+      "note": "assassiné en 1991"
+    },
+    {
+      "nom": "P. V. Narasimha Rao",
+      "titre": "Premier ministre",
+      "debut": 1991,
+      "fin": 1996,
+      "dynastie": "premiers-ministres",
+      "note": "libéralisation de l’économie"
+    },
+    {
+      "nom": "Atal Bihari Vajpayee",
+      "titre": "Premier ministre",
+      "debut": 1998,
+      "fin": 2004,
+      "dynastie": "premiers-ministres",
+      "cle": true
+    },
+    {
+      "nom": "Manmohan Singh",
+      "titre": "Premier ministre",
+      "debut": 2004,
+      "fin": 2014,
+      "dynastie": "premiers-ministres",
+      "note": "premier sikh à ce poste"
+    },
+    {
+      "nom": "Narendra Modi",
+      "titre": "Premier ministre",
+      "debut": 2014,
+      "fin": 2020,
+      "dynastie": "premiers-ministres",
+      "note": "en fonction en 2020",
+      "cle": true
+    }
   ],
   "personnages": [
     {
       "nom": "Mahatma Gandhi",
-      "role": "Guide Politique et Spirituel",
-      "description": "L'apôtre mondial de l'Ahimsa (la non-violence) dont le jeûne politique et le boycott des textiles anglais brisèrent la légitimité coloniale.",
-      "dates": "1869 à 1948",
-      "wikiUrl": "https://fr.wikipedia.org/wiki/Mahatma_Gandhi"
+      "role": "Leader de l’indépendance",
+      "description": "Avocat devenu chef du mouvement pour l’indépendance, il prône la désobéissance civile non violente.",
+      "dates": "1869 → 1948",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Mohandas_Karamchand_Gandhi",
+      "ref": "mahatma-gandhi"
+    },
+    {
+      "nom": "B. R. Ambedkar",
+      "role": "Juriste et réformateur",
+      "description": "Issu de la caste des « intouchables », il combat les discriminations et rédige la Constitution indienne.",
+      "dates": "1891 → 1956",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bhimrao_Ramji_Ambedkar"
+    },
+    {
+      "nom": "Rabindranath Tagore",
+      "role": "Poète",
+      "description": "Premier Asiatique prix Nobel de littérature (1913), auteur de l’hymne national indien.",
+      "dates": "1861 → 1941",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Rabindranath_Tagore"
+    },
+    {
+      "nom": "Muhammad Ali Jinnah",
+      "role": "Fondateur du Pakistan",
+      "description": "Chef de la Ligue musulmane, il obtient la création d’un État pour les musulmans, le Pakistan.",
+      "dates": "1876 → 1948",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Muhammad_Ali_Jinnah"
     }
   ],
   "guerres": [
     {
       "nom": "Guerres Indo-Pakistanaises",
       "annee": 1947,
-      "adversaires": ["République Islamique du Pakistan"],
-      "allies": ["(L'Inde sera soutenue logistiquement par l'URSS)"],
-      "morts": "Pertes militaires lourdes",
-      "vainqueur": "Victoires indiennes",
-      "consequences": "En 1971, l'armée indienne écrase le Pakistan pour assurer la sécession d'un nouvel État musulman séparé : le Bangladesh.",
+      "adversaires": ["Pakistan"],
+      "allies": [],
+      "morts": "Plusieurs dizaines de milliers de soldats ; des centaines de milliers de victimes civiles en 1971",
+      "vainqueur": "Inde (notamment en 1971)",
+      "consequences": "Guerres en 1947, 1965, 1971 et 1999, surtout pour le Cachemire. En 1971, l’intervention indienne permet l’indépendance du Bangladesh. Le Cachemire reste divisé.",
       "wikiUrl": "https://fr.wikipedia.org/wiki/Guerres_indo-pakistanaises"
     }
   ],
-  "sciences": "Pour extraire les immenses ressources (coton, thé) vers Londres, les Anglais arment l'Inde du plus gigantesque réseau ferroviaire et télégraphique d'Asie. Au XXème siècle, libérée des horribles famines britanniques par la 'Révolution verte' agricole (nouveaux engrais et hybrides), l'Inde contemporaine devient une superpuissance de services informatiques mondialisés, avec son propre programme spatial abouti sur Mars.",
-  "croyancesText": "Ce sont les croyances qui ont dicté les frontières modernes. À l'indépendance, issue des revendications de la Ligue musulmane et des négociations avec les Britanniques, le territoire est partagé : c'est la Partition. L'Inde (majoritairement hindoue laïque) et le Pakistan Occidental et Oriental (États musulmans, et le futur Bangladesh). Cette ligne de séparation, l'une des pires tragédies de l'Histoire, engendra 15 millions de déplacés jetés sur les routes au milieu des massacres inter-religieux.",
-  "diplomatie": "Durant la Guerre Froide, refusant l'alignement sur les Américains ou les Soviétiques, l'Inde invente le 'Mouvement des non-alignés' pour donner une voix au Tiers-Monde en développement. Sa diplomatie du XXIe siècle est focalisée sur le duel territorial brûlant au nord sur les neiges du Cachemire, une poudrière face au Pakistan (soutenu par les Chinois).",
-  "documentaires": [{ "titre": "Gandhi, la libération sans les armes", "url": "https://fr.wikipedia.org/wiki/Mahatma_Gandhi" }]
+  "sciences": "Sous le Raj, les Britanniques construisent l’un des plus grands réseaux ferroviaires du monde. Des savants indiens se distinguent, comme le physicien C. V. Raman (prix Nobel 1930) et le mathématicien Ramanujan. L’Inde indépendante crée des instituts de technologie, mène la « révolution verte » dans l’agriculture, se dote de l’arme nucléaire (1974) et envoie des sondes vers la Lune et Mars.",
+  "croyancesText": "L’Inde est en majorité hindoue, avec une importante minorité musulmane et des sikhs, chrétiens, bouddhistes et jaïns. Les tensions entre hindous et musulmans, attisées pendant la colonisation, culminent lors de la partition. La Constitution de 1950 proclame un État laïque et interdit la discrimination fondée sur la caste.",
+  "diplomatie": "La Compagnie, puis la Couronne britannique, exploitent l’Inde au profit du Royaume-Uni. Indépendante, l’Inde de Nehru choisit le non-alignement pendant la guerre froide. Elle affronte le Pakistan (1947, 1965, 1971, 1999) et la Chine (1962), et devient une puissance régionale.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": { "valeur": "Calcutta, puis New Delhi", "precision": "New Delhi depuis 1931" },
+    "regimes": {
+      "valeur": "Domination coloniale, puis république parlementaire",
+      "precision": "Compagnie des Indes (jusqu’en 1858), Raj britannique, puis république (1950)"
+    },
+    "langues": { "valeur": "Hindi et anglais", "precision": "22 langues officiellement reconnues" },
+    "religion": {
+      "valeur": "Hindouisme majoritaire",
+      "precision": "avec une grande minorité musulmane, des sikhs, chrétiens, bouddhistes, jaïns"
+    },
+    "apogee": { "valeur": "XXIe siècle", "precision": "puissance économique émergente" },
+    "population": { "valeur": "Environ 1,38 milliard en 2020", "precision": "environ 340 millions en 1947" },
+    "monnaie": { "valeur": "Roupie indienne" },
+    "duree": { "valeur": "Plus de 230 ans dans cette fiche" },
+    "aujourdhui": { "valeur": "Inde", "precision": "avec, avant 1947, le Pakistan, le Bangladesh et la Birmanie" }
+  },
+  "essentiel": [
+    "La Compagnie britannique des Indes orientales conquiert l’Inde ; après la [[revolte-des-cipayes|révolte des cipayes]] (1857), la Couronne britannique gouverne directement.",
+    "Le mouvement pour l’indépendance, mené par le Congrès et [[mahatma-gandhi|Gandhi]], choisit la non-violence, comme lors de la [[marche-du-sel|marche du sel]] (1930).",
+    "L’indépendance de 1947 s’accompagne de la [[partition-des-indes|partition]] entre l’Inde et le Pakistan, avec d’immenses violences et déplacements.",
+    "Premier Premier ministre, [[jawaharlal-nehru|Jawaharlal Nehru]] fonde une république démocratique et laïque.",
+    "Sous [[indira-gandhi|Indira Gandhi]] et ses successeurs, l’Inde devient une puissance nucléaire puis une grande économie émergente."
+  ],
+  "periodes": [
+    {
+      "nom": "La Compagnie des Indes",
+      "debut": 1789,
+      "fin": 1858,
+      "resume": "La Compagnie britannique conquiert peu à peu l’Inde, battant les Marathes et les Sikhs, et gouverne au nom du profit.",
+      "evenements": [
+        { "annee": 1818, "evenement": "Défaite des Marathes" },
+        { "annee": 1857, "evenement": "Révolte des cipayes", "ref": "revolte-des-cipayes" }
+      ]
+    },
+    {
+      "nom": "Le Raj britannique",
+      "debut": 1858,
+      "fin": 1947,
+      "resume": "La Couronne gouverne l’Inde ; chemins de fer et universités se développent, mais aussi des famines meurtrières. Le mouvement national grandit.",
+      "evenements": [
+        { "annee": 1885, "evenement": "Fondation du Congrès" },
+        { "annee": 1919, "evenement": "Massacre d’Amritsar" },
+        { "annee": 1930, "evenement": "Marche du sel", "ref": "marche-du-sel" },
+        { "annee": 1943, "evenement": "Famine du Bengale" }
+      ]
+    },
+    {
+      "nom": "L’Inde indépendante",
+      "debut": 1947,
+      "fin": 2020,
+      "resume": "La plus grande démocratie du monde affronte la pauvreté, les conflits avec le Pakistan et la Chine, puis connaît une forte croissance.",
+      "evenements": [
+        { "annee": 1947, "evenement": "Indépendance et partition", "ref": "partition-des-indes" },
+        { "annee": 1948, "evenement": "Assassinat de Gandhi" },
+        { "annee": 1971, "evenement": "Guerre de libération du Bangladesh" }
+      ]
+    }
+  ],
+  "regimes": [
+    { "id": "compagnie", "nom": "Compagnie des Indes orientales", "debut": 1789, "fin": 1858 },
+    { "id": "raj", "nom": "Raj britannique", "debut": 1858, "fin": 1947 },
+    { "id": "republique", "nom": "Union indienne, puis république", "debut": 1947, "fin": 2020 }
+  ],
+  "dynasties": [
+    {
+      "id": "coloniaux",
+      "nom": "Souveraine et vice-rois britanniques",
+      "debut": 1856,
+      "fin": 1947,
+      "note": "Sélection."
+    },
+    {
+      "id": "premiers-ministres",
+      "nom": "Premiers ministres de l’Inde",
+      "debut": 1947,
+      "fin": 2020,
+      "regime": "republique",
+      "note": "Sélection."
+    }
+  ],
+  "societe": "La société est marquée par les castes, que la Constitution interdit de discriminer, et par de grandes inégalités. Les famines de l’époque coloniale font des millions de morts, dont celle du Bengale en 1943. Depuis les années 1990, une classe moyenne nombreuse se développe.",
+  "economie": "Agriculture, textile (affaibli par la concurrence britannique sous la colonisation), puis industrie et services informatiques ; forte croissance depuis 1991.",
+  "decouvertes": [],
+  "arts": "Littérature de Tagore, cinéma de Satyajit Ray et de Bollywood (le plus productif du monde), musique classique et danse indiennes.",
+  "quotidien": "Le cricket, importé par les Britanniques, est le sport le plus populaire. Les fêtes religieuses, comme Diwali, rassemblent des millions de personnes.",
+  "heritage": [
+    {
+      "titre": "La non-violence",
+      "texte": "La méthode de Gandhi a inspiré Martin Luther King, Nelson Mandela et de nombreux mouvements dans le monde."
+    },
+    {
+      "titre": "La plus grande démocratie",
+      "texte": "Plus de 900 millions d’électeurs étaient appelés à voter lors des élections de 2019."
+    }
+  ],
+  "aSavoir": [
+    "Gandhi a été assassiné en 1948 par un extrémiste hindou qui lui reprochait sa bienveillance envers les musulmans."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Histoire_de_l%27Inde",
+    {
+      "titre": "Encyclopædia Britannica — India, history",
+      "url": "https://www.britannica.com/place/India/History"
+    }
+  ]
 }

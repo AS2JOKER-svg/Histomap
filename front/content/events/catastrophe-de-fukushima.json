@@ -1,0 +1,15 @@
+{
+  "id": "catastrophe-de-fukushima",
+  "nom": "Catastrophe de Fukushima",
+  "annee": 2011,
+  "dates": "11 mars 2011",
+  "lieu": "Nord-est du Japon",
+  "description": "Un séisme de magnitude 9 provoque un tsunami géant qui fait environ 18 000 morts et entraîne un grave accident à la centrale nucléaire de Fukushima Daiichi.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "Plus de 150 000 personnes sont évacuées autour de la centrale. Plusieurs pays, dont l’Allemagne, décident de sortir du nucléaire."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Accident_nucl%C3%A9aire_de_Fukushima"
+}

@@ -10,62 +10,287 @@
   "row": 4,
   "isRiver": false,
   "capitale": "Tokyo",
-  "description": "D'un archipel isolé du temps à l'imitation foudroyante de l'Occident, sombrant dans l'impérialisme avant de devenir le miracle économique pacifiste de la Tech.",
+  "description": "Le Japon contemporain : ouvert de force en 1853, il se modernise à grande vitesse sous l’empereur Meiji, devient une puissance impérialiste, est vaincu en 1945, puis devient une démocratie pacifique et une grande puissance économique.",
   "territories": ["Japan", "Imperial Japan", "Empire of Japan"],
   "datesCles": [
     {
       "annee": 1853,
-      "evenement": "Les Navires Noirs",
-      "info": "L'amiral américain Perry force le Japon à s'ouvrir au commerce sous la menace de ses canons."
+      "evenement": "Les navires noirs",
+      "info": "Le commodore américain Perry force le Japon à s’ouvrir au commerce sous la menace de ses canons.",
+      "ref": "arrivee-du-commodore-perry"
     },
     {
       "annee": 1868,
-      "evenement": "Restauration Meiji",
-      "info": "L'Empereur reprend le pouvoir au Shogun. Le Japon s'occidentalise et s'industrialise de force."
+      "evenement": "Restauration de Meiji",
+      "info": "L’empereur reprend le pouvoir au shogun ; le Japon se modernise à grande vitesse.",
+      "ref": "restauration-de-meiji"
     },
     {
       "annee": 1905,
-      "evenement": "Guerre Russo-Japonaise",
-      "info": "Pour la première fois, une nation asiatique moderne écrase militairement un grand empire européen."
+      "evenement": "Guerre russo-japonaise",
+      "info": "Le Japon bat la Russie : pour la première fois à l’époque moderne, un pays asiatique l’emporte sur une grande puissance européenne.",
+      "ref": "bataille-de-tsushima"
+    },
+    {
+      "annee": 1910,
+      "evenement": "Annexion de la Corée",
+      "info": "La Corée devient une colonie japonaise jusqu’en 1945."
+    },
+    {
+      "annee": 1941,
+      "evenement": "Pearl Harbor",
+      "info": "Le Japon attaque la flotte américaine à Hawaï.",
+      "ref": "attaque-de-pearl-harbor"
     },
     {
       "annee": 1945,
-      "evenement": "Cataclysme Atomique",
-      "info": "Frappes nucléaires américaines (Hiroshima et Nagasaki) forçant la capitulation sans condition du dieu-empereur."
+      "evenement": "Hiroshima et Nagasaki",
+      "info": "Après les bombardements atomiques américains, l’empereur annonce la capitulation.",
+      "ref": "bombardements-d-hiroshima-et-nagasaki"
+    },
+    {
+      "annee": 1964,
+      "evenement": "Jeux de Tokyo et Shinkansen",
+      "info": "Le Japon accueille les Jeux olympiques et inaugure le premier train à grande vitesse."
+    },
+    {
+      "annee": 2011,
+      "evenement": "Catastrophe de Fukushima",
+      "info": "Un séisme et un tsunami font environ 18 000 morts et provoquent un accident nucléaire.",
+      "ref": "catastrophe-de-fukushima"
     }
   ],
   "dirigeants": [
-    { "titre": "Empereur", "nom": "Meiji", "debut": 1867, "fin": 1912 },
-    { "titre": "Empereur", "nom": "Hirohito", "surnom": "Shōwa", "debut": 1926, "fin": 1989 }
+    { "nom": "Kōkaku", "titre": "Empereur", "debut": 1780, "fin": 1817, "dynastie": "empereurs" },
+    { "nom": "Ninkō", "titre": "Empereur", "debut": 1817, "fin": 1846, "dynastie": "empereurs" },
+    { "nom": "Kōmei", "titre": "Empereur", "debut": 1846, "fin": 1867, "dynastie": "empereurs" },
+    {
+      "nom": "Meiji (Mutsuhito)",
+      "titre": "Empereur",
+      "debut": 1867,
+      "fin": 1912,
+      "dynastie": "empereurs",
+      "personne": "empereur-meiji",
+      "cle": true
+    },
+    { "nom": "Taishō (Yoshihito)", "titre": "Empereur", "debut": 1912, "fin": 1926, "dynastie": "empereurs" },
+    {
+      "nom": "Shōwa (Hirohito)",
+      "titre": "Empereur",
+      "debut": 1926,
+      "fin": 1989,
+      "dynastie": "empereurs",
+      "note": "règne pendant la guerre ; renonce à son caractère divin en 1946",
+      "cle": true
+    },
+    {
+      "nom": "Heisei (Akihito)",
+      "titre": "Empereur",
+      "debut": 1989,
+      "fin": 2019,
+      "dynastie": "empereurs",
+      "note": "abdique en 2019"
+    },
+    {
+      "nom": "Naruhito",
+      "titre": "Empereur",
+      "debut": 2019,
+      "fin": 2020,
+      "dynastie": "empereurs",
+      "note": "ère Reiwa ; en fonction en 2020"
+    },
+    {
+      "nom": "Itō Hirobumi",
+      "titre": "Premier ministre",
+      "debut": 1885,
+      "fin": 1901,
+      "dynastie": "premiers-ministres",
+      "note": "premier Premier ministre ; auteur de la Constitution de 1889",
+      "cle": true
+    },
+    {
+      "nom": "Hideki Tōjō",
+      "titre": "Premier ministre",
+      "debut": 1941,
+      "fin": 1944,
+      "dynastie": "premiers-ministres",
+      "note": "lance la guerre contre les États-Unis ; exécuté en 1948",
+      "cle": true
+    },
+    {
+      "nom": "Shigeru Yoshida",
+      "titre": "Premier ministre",
+      "debut": 1946,
+      "fin": 1954,
+      "dynastie": "premiers-ministres",
+      "note": "reconstruction et alliance avec les États-Unis",
+      "cle": true
+    },
+    {
+      "nom": "Shinzō Abe",
+      "titre": "Premier ministre",
+      "debut": 2012,
+      "fin": 2020,
+      "dynastie": "premiers-ministres",
+      "note": "plus long mandat de l’histoire japonaise"
+    }
   ],
   "personnages": [
     {
       "nom": "Isoroku Yamamoto",
-      "role": "Amiral de la Flotte",
-      "description": "Architecte brillant de l'attaque surprise sur Pearl Harbor, bien qu'il ait prédit que le Japon ne pourrait tenir face à la puissance industrielle américaine à long terme.",
-      "dates": "1884 à 1943",
+      "role": "Amiral",
+      "description": "Commandant de la flotte japonaise, il conçoit l’attaque de Pearl Harbor, tout en ayant douté d’une guerre contre les États-Unis.",
+      "dates": "1884 → 1943",
       "wikiUrl": "https://fr.wikipedia.org/wiki/Isoroku_Yamamoto"
+    },
+    {
+      "nom": "Akira Kurosawa",
+      "role": "Cinéaste",
+      "description": "Réalisateur des Sept Samouraïs, l’un des plus grands cinéastes du monde.",
+      "dates": "1910 → 1998",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Akira_Kurosawa"
+    },
+    {
+      "nom": "Hayao Miyazaki",
+      "role": "Réalisateur d’animation",
+      "description": "Cofondateur du studio Ghibli, auteur de Mon voisin Totoro et du Voyage de Chihiro.",
+      "dates": "né en 1941",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Hayao_Miyazaki"
     }
   ],
   "guerres": [
     {
+      "nom": "Guerre russo-japonaise",
+      "annee": 1904,
+      "adversaires": ["Empire russe"],
+      "allies": [],
+      "morts": "Environ 130 000 morts",
+      "vainqueur": "Japon",
+      "consequences": "La victoire japonaise de Tsushima (1905) choque l’Europe ; le Japon s’impose en Corée et en Mandchourie.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_russo-japonaise"
+    },
+    {
       "nom": "La Guerre du Pacifique",
       "annee": 1941,
-      "adversaires": ["États-Unis d'Amérique (Flotte du Pacifique)"],
-      "allies": ["Allemagne Nazie"],
-      "morts": "Environ 3 millions de Japonais, villes rasées au napalm",
-      "vainqueur": "États-Unis",
-      "consequences": "L'attaque de Pearl Harbor réveille le géant industriel américain. Le Japon perd son empire maritime bataille par bataille (Midway, Okinawa).",
+      "adversaires": ["États-Unis", "Royaume-Uni", "Chine", "Pays-Bas", "Australie"],
+      "allies": ["Allemagne nazie", "Italie fasciste"],
+      "morts": "Environ 3 millions de Japonais ; des millions de victimes dans les pays occupés",
+      "vainqueur": "États-Unis et Alliés",
+      "consequences": "Le Japon capitule le 2 septembre 1945 ; il est occupé par les Américains et perd son empire colonial.",
       "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_du_Pacifique"
     }
   ],
-  "sciences": "Le miracle économique japonais de l'après-guerre est vertigineux : ils passent des ruines calcinées à la deuxième économie mondiale en 20 ans. Inventeurs de la miniaturisation technologique (le Walkman Sony, le magnétoscope), du Toyotisme industriel, et du premier train à grande vitesse du monde fonctionnant au millimètre près (Le Shinkansen, en 1964).",
-  "croyancesText": "À l'ère Meiji est instauré un shintō d'État organisé autour du culte de l'Empereur, présenté comme le descendant de la déesse du Soleil Amaterasu. Dans les années 1930-1945, la propagande militariste s'en sert pour exiger des soldats un sacrifice total (jusqu'aux pilotes kamikazes). Fin 1945, les Américains forceront l'Empereur Hirohito à déclarer officiellement à la radio : 'Je ne suis qu'un être humain', détruisant le mythe religieux de l'État.",
-  "diplomatie": "Pour ne pas être colonisé comme la Chine, le Japon colonial de la fin du 19ème siècle conquiert Taiwan et annexe la Corée pour ses ressources en acier. Entré dans l'Axe fasciste pendant la guerre, leur expansionnisme brutal (La Sphère de coprospérité de la grande Asie orientale) s'effondre face au pacifique. En 1947, le général américain MacArthur rédige la nouvelle constitution nippone interdisant à jamais au pays d'avoir une armée offensive, transformant l'archipel en forteresse économique américaine.",
-  "documentaires": [
+  "sciences": "Le Japon de Meiji importe les techniques occidentales et forme ses ingénieurs. Après 1945, il devient un leader de l’automobile, de l’électronique (transistors, consoles de jeux), de la robotique et des trains à grande vitesse : le Shinkansen circule depuis 1964. Ses chercheurs reçoivent de nombreux prix Nobel.",
+  "croyancesText": "Le shintō et le bouddhisme coexistent ; de nombreux Japonais pratiquent les deux. Sous Meiji, l’État fait du shintō un culte national centré sur l’empereur, considéré comme divin. En 1946, l’empereur renonce publiquement à ce caractère divin et la Constitution sépare la religion et l’État.",
+  "diplomatie": "Le Japon se libère des traités inégaux, bat la Chine (1895) et la Russie (1905), annexe Taïwan et la Corée et envahit la Chine (1937). Allié de l’Allemagne nazie, il attaque les États-Unis en 1941. Depuis 1945, sa Constitution lui interdit la guerre, et il est allié des États-Unis.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": { "valeur": "Tokyo", "precision": "Edo est renommée Tokyo en 1868" },
+    "regimes": {
+      "valeur": "Empire, puis monarchie parlementaire",
+      "precision": "Constitution de 1889, puis Constitution pacifiste de 1947"
+    },
+    "langues": { "valeur": "Japonais" },
+    "religion": { "valeur": "Shintō et bouddhisme", "precision": "le shintō d’État est aboli en 1945" },
+    "apogee": { "valeur": "Années 1960-1980", "precision": "« miracle économique »" },
+    "population": { "valeur": "Environ 126 millions en 2020", "precision": "en baisse depuis 2010" },
+    "monnaie": { "valeur": "Yen", "precision": "depuis 1871" },
+    "duree": { "valeur": "Plus de 230 ans dans cette fiche" },
+    "aujourdhui": { "valeur": "Japon", "precision": "avec, avant 1945, Taïwan, la Corée et des territoires conquis en Asie" }
+  },
+  "essentiel": [
+    "En 1853, l’[[arrivee-du-commodore-perry|arrivée du commodore Perry]] force le Japon à s’ouvrir ; en 1868, la [[restauration-de-meiji|restauration de Meiji]] rend le pouvoir à l’empereur.",
+    "Sous l’[[empereur-meiji|empereur Meiji]], le Japon s’industrialise et se dote d’une armée moderne ; il bat la Russie à [[bataille-de-tsushima|Tsushima]] (1905).",
+    "Puissance impérialiste, il annexe la Corée, envahit la Chine et attaque les États-Unis à [[attaque-de-pearl-harbor|Pearl Harbor]] (1941).",
+    "Vaincu après les [[bombardements-d-hiroshima-et-nagasaki|bombes d’Hiroshima et Nagasaki]], il devient une démocratie pacifique.",
+    "Le « miracle économique » en fait l’une des premières puissances mondiales, symbolisée par le [[shinkansen|Shinkansen]] ; en 2011, il subit la [[catastrophe-de-fukushima|catastrophe de Fukushima]]."
+  ],
+  "periodes": [
     {
-      "titre": "L'ère Meiji, l'entrée du Japon dans le monde moderne",
-      "url": "https://fr.wikipedia.org/wiki/%C3%88re_Meiji"
+      "nom": "La fin du shogunat",
+      "debut": 1789,
+      "fin": 1868,
+      "resume": "Le Japon d’Edo reste fermé, jusqu’à l’arrivée des navires américains et des traités imposés par les Occidentaux.",
+      "evenements": [{ "annee": 1853, "evenement": "Navires noirs", "ref": "arrivee-du-commodore-perry" }]
+    },
+    {
+      "nom": "Le Japon de Meiji et l’empire",
+      "debut": 1868,
+      "fin": 1945,
+      "resume": "Le Japon adopte les techniques occidentales, bat la Chine et la Russie, se constitue un empire colonial, puis le militarisme mène à la guerre en Asie et dans le Pacifique.",
+      "evenements": [
+        { "annee": 1889, "evenement": "Constitution" },
+        { "annee": 1905, "evenement": "Tsushima", "ref": "bataille-de-tsushima" },
+        { "annee": 1937, "evenement": "Invasion de la Chine" },
+        { "annee": 1941, "evenement": "Pearl Harbor", "ref": "attaque-de-pearl-harbor" }
+      ]
+    },
+    {
+      "nom": "Le Japon d’après-guerre",
+      "debut": 1945,
+      "fin": 2020,
+      "resume": "Occupé par les Américains jusqu’en 1952, le Japon adopte une constitution pacifiste et devient la deuxième économie mondiale, avant une longue stagnation à partir des années 1990.",
+      "evenements": [
+        { "annee": 1947, "evenement": "Constitution pacifiste" },
+        { "annee": 1964, "evenement": "Jeux de Tokyo" },
+        { "annee": 2011, "evenement": "Fukushima", "ref": "catastrophe-de-fukushima" }
+      ]
+    }
+  ],
+  "regimes": [
+    { "id": "shogunat", "nom": "Shogunat Tokugawa", "debut": 1789, "fin": 1868 },
+    {
+      "id": "empire",
+      "nom": "Empire du Japon",
+      "debut": 1868,
+      "fin": 1947,
+      "note": "Constitution de 1889 ; l’armée prend une place croissante dans les années 1930."
+    },
+    {
+      "id": "parlementaire",
+      "nom": "Monarchie parlementaire",
+      "debut": 1947,
+      "fin": 2020,
+      "note": "L’empereur est le « symbole de l’État » ; le Premier ministre gouverne."
+    }
+  ],
+  "dynasties": [
+    {
+      "id": "empereurs",
+      "nom": "Les empereurs",
+      "debut": 1780,
+      "fin": 2020,
+      "note": "Chaque règne porte un nom d’ère, qui devient le nom posthume de l’empereur."
+    },
+    {
+      "id": "premiers-ministres",
+      "nom": "Quelques grands Premiers ministres",
+      "debut": 1885,
+      "fin": 2020,
+      "note": "Sélection."
+    }
+  ],
+  "societe": "Meiji supprime les ordres de l’époque d’Edo et rend l’école obligatoire. Avant 1945, l’armée et l’empereur dominent la société ; l’empire commet de graves crimes en Asie (travail forcé, « femmes de réconfort »). Après-guerre, les femmes votent ; la société s’urbanise et vieillit rapidement.",
+  "economie": "Industrialisation rapide sous Meiji (soie, textile, chantiers navals) ; après 1945, « miracle économique » (automobile, électronique), puis stagnation à partir des années 1990.",
+  "decouvertes": ["shinkansen"],
+  "arts": "Littérature (Natsume Sōseki, Kawabata, prix Nobel 1968), cinéma (Kurosawa, Ozu), manga et anime diffusés dans le monde entier.",
+  "quotidien": "Les Japonais vivent majoritairement dans de grandes villes ; le respect des règles collectives et la ponctualité des transports sont réputés.",
+  "heritage": [
+    {
+      "titre": "La culture japonaise",
+      "texte": "Manga, anime, jeux vidéo et cuisine japonaise sont populaires dans le monde entier."
+    },
+    {
+      "titre": "La mémoire d’Hiroshima",
+      "texte": "Le dôme de Genbaku est inscrit au patrimoine mondial comme symbole de la paix."
+    }
+  ],
+  "aSavoir": ["Le Japon a le système de numérotation des années par ères impériales : 2020 est l’an 2 de l’ère Reiwa."],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Histoire_du_Japon",
+    {
+      "titre": "Encyclopædia Britannica — Japan, history",
+      "url": "https://www.britannica.com/place/Japan/History"
     }
   ]
 }

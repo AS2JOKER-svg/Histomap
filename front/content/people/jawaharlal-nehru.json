@@ -1,0 +1,18 @@
+{
+  "id": "jawaharlal-nehru",
+  "nom": "Jawaharlal Nehru",
+  "role": "Premier ministre de l’Inde",
+  "roles": ["Avocat", "Premier ministre"],
+  "dates": "1889 → 1964",
+  "naissance": 1889,
+  "mort": 1964,
+  "description": "Compagnon de Gandhi, il devient le premier Premier ministre de l’Inde indépendante et fonde une démocratie laïque, planifie l’économie et défend le non-alignement.",
+  "reperes": [{ "label": "Premier ministre", "valeur": "1947 → 1964" }],
+  "essentiel": [
+    "Il passe près de dix ans dans les prisons britanniques.",
+    "Le 14 août 1947 à minuit, il annonce l’indépendance de l’Inde.",
+    "Il lance des plans quinquennaux et fonde des grandes écoles d’ingénieurs.",
+    "Sa fille [[indira-gandhi|Indira Gandhi]] lui succédera."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Jawaharlal_Nehru"
+}

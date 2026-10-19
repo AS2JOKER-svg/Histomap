@@ -1,0 +1,18 @@
+{
+  "id": "marche-du-sel",
+  "nom": "Marche du sel",
+  "annee": 1930,
+  "dates": "12 mars → 6 avril 1930",
+  "lieu": "D’Ahmedabad à Dandi (Gujarat)",
+  "description": "[[mahatma-gandhi|Gandhi]] marche 390 km jusqu’à la mer pour y récolter du sel, défiant le monopole et la taxe britanniques sur le sel.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "Des millions d’Indiens imitent son geste ; plus de 60 000 sont arrêtés. La marche fait connaître au monde entier la lutte non violente pour l’indépendance."
+    }
+  ],
+  "liens": [{ "ref": "mahatma-gandhi", "relation": "Son organisateur" }],
+  "avant": "revolte-des-cipayes",
+  "apres": "partition-des-indes",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Marche_du_sel"
+}

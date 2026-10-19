@@ -1,0 +1,15 @@
+{
+  "id": "mouvement-du-1er-mars",
+  "nom": "Mouvement du 1er mars 1919",
+  "annee": 1919,
+  "dates": "1er mars 1919",
+  "lieu": "Corée",
+  "description": "Des Coréens lisent une déclaration d’indépendance et manifestent pacifiquement dans tout le pays contre la colonisation japonaise.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "La répression japonaise fait des milliers de morts. Un gouvernement provisoire coréen se forme en exil à Shanghai. Le 1er mars est un jour férié en Corée du Sud."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Mouvement_du_1er_Mars"
+}

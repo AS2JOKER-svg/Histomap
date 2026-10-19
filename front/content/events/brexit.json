@@ -1,0 +1,20 @@
+{
+  "id": "brexit",
+  "nom": "Brexit",
+  "annee": 2016,
+  "fin": 2020,
+  "dates": "référendum de 2016, sortie le 31 janvier 2020",
+  "lieu": "Royaume-Uni",
+  "description": "Par référendum, 51,9 % des électeurs britanniques votent pour quitter l’Union européenne ; le pays en sort officiellement le 31 janvier 2020.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Après le vote du 23 juin 2016, de longues négociations aboutissent à un accord de retrait. La période de transition s’achève fin 2020."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Le Royaume-Uni est le premier pays à quitter l’Union. L’Écosse et l’Irlande du Nord, qui avaient voté pour rester, en débattent encore."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Brexit"
+}

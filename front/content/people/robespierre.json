@@ -1,0 +1,17 @@
+{
+  "id": "robespierre",
+  "nom": "Maximilien de Robespierre",
+  "role": "Révolutionnaire",
+  "roles": ["Avocat", "Député", "Membre du Comité de salut public"],
+  "dates": "1758 → 1794",
+  "naissance": 1758,
+  "mort": 1794,
+  "description": "Avocat d’Arras, député révolutionnaire surnommé « l’Incorruptible », il devient la figure dominante du Comité de salut public pendant la Terreur, avant d’être guillotiné à son tour.",
+  "essentiel": [
+    "Il défend le suffrage universel et s’oppose d’abord à la peine de mort.",
+    "Membre du Comité de salut public (1793-1794), il justifie la Terreur au nom de la défense de la République.",
+    "Renversé le 9 Thermidor (27 juillet 1794), il est guillotiné le lendemain."
+  ],
+  "aSavoir": ["Son rôle exact dans la Terreur est encore débattu par les historiens."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Maximilien_de_Robespierre"
+}

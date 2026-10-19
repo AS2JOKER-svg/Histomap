@@ -1,0 +1,19 @@
+{
+  "id": "reine-victoria",
+  "nom": "Victoria",
+  "nomComplet": "Reine Victoria",
+  "role": "Reine du Royaume-Uni",
+  "roles": ["Reine", "Impératrice des Indes"],
+  "dates": "1819 → 1901",
+  "naissance": 1819,
+  "mort": 1901,
+  "description": "Reine pendant 63 ans, elle donne son nom à l’« ère victorienne », époque de l’apogée de la puissance industrielle et impériale britannique.",
+  "reperes": [{ "label": "Règne", "valeur": "1837 → 1901" }],
+  "essentiel": [
+    "Reine à 18 ans, elle épouse son cousin Albert, avec qui elle a neuf enfants.",
+    "Elle porte longtemps le deuil d’Albert, mort en 1861.",
+    "Elle devient impératrice des Indes en 1877.",
+    "Ses petits-enfants épousent les familles royales d’Europe : on la surnomme « la grand-mère de l’Europe »."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Victoria_(reine)"
+}

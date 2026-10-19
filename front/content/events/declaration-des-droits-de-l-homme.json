@@ -1,0 +1,20 @@
+{
+  "id": "declaration-des-droits-de-l-homme",
+  "nom": "Déclaration des droits de l’homme et du citoyen",
+  "annee": 1789,
+  "dates": "26 août 1789",
+  "lieu": "Versailles",
+  "description": "L’Assemblée nationale proclame que « les hommes naissent et demeurent libres et égaux en droits », ainsi que la souveraineté de la nation et la séparation des pouvoirs.",
+  "sections": [
+    {
+      "titre": "Ce qu’elle dit",
+      "texte": "17 articles affirment la liberté, la propriété, la sûreté, la résistance à l’oppression, l’égalité devant la loi et l’impôt, la liberté d’opinion et d’expression."
+    },
+    {
+      "titre": "Ses limites",
+      "texte": "Les femmes n’y sont pas mentionnées : Olympe de Gouges rédige en 1791 une Déclaration des droits de la femme. L’esclavage n’est aboli qu’en 1794."
+    }
+  ],
+  "avant": "prise-de-la-bastille",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/D%C3%A9claration_des_droits_de_l%27homme_et_du_citoyen_de_1789"
+}

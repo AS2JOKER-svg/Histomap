@@ -1,0 +1,21 @@
+{
+  "id": "bataille-de-yorktown",
+  "nom": "Bataille de Yorktown",
+  "annee": 1781,
+  "dates": "septembre-octobre 1781",
+  "lieu": "Yorktown (Virginie)",
+  "description": "Encerclée par l’armée de [[george-washington|Washington]], l’armée française de Rochambeau et la flotte de l’amiral de Grasse, l’armée britannique de Cornwallis capitule.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "C’est la victoire décisive de la guerre. La paix est signée à Paris en 1783."
+    }
+  ],
+  "liens": [
+    { "ref": "george-washington", "relation": "Commandant américain" },
+    { "ref": "la-fayette", "relation": "Général de l’armée américaine" }
+  ],
+  "avant": "declaration-d-independance",
+  "apres": "constitution-des-etats-unis",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Yorktown"
+}

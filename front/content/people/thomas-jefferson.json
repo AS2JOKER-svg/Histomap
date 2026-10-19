@@ -1,0 +1,19 @@
+{
+  "id": "thomas-jefferson",
+  "nom": "Thomas Jefferson",
+  "role": "Rédacteur de la Déclaration d’indépendance",
+  "roles": ["Homme politique", "Président"],
+  "dates": "1743 → 1826",
+  "naissance": 1743,
+  "mort": 1826,
+  "description": "Avocat et planteur de Virginie, il rédige l’essentiel de la Déclaration d’indépendance et devient le troisième président des États-Unis (1801-1809).",
+  "essentiel": [
+    "Il écrit que « tous les hommes sont créés égaux » et ont droit à « la vie, la liberté et la recherche du bonheur ».",
+    "Ambassadeur en France de 1785 à 1789, il assiste aux débuts de la Révolution.",
+    "Président, il achète la Louisiane à la France (1803)."
+  ],
+  "aSavoir": [
+    "Il a possédé plus de 600 esclaves au cours de sa vie, une contradiction avec ses idées dont il avait conscience."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Thomas_Jefferson"
+}

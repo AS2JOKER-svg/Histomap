@@ -11,47 +11,119 @@
   "row": 2,
   "isRiver": false,
   "capitale": "Cuzco",
-  "description": "Le 'Tahuantinsuyu' (l'Empire des 4 quartiers). Un prodige administratif de 4000 kilomètres étiré sur la cordillère des Andes, administré sans aucune monnaie ni écriture.",
+  "description": "Le Tahuantinsuyu, « les quatre parties du monde » : le plus grand empire de l’Amérique précolombienne, étiré sur 4 000 km le long des Andes, conquis par les Espagnols de Pizarro à partir de 1532.",
   "territories": ["Inca Empire"],
   "datesCles": [
     {
       "annee": 1438,
-      "evenement": "Pachacutec",
-      "info": "L'empereur transforme un petit royaume de Cuzco en un empire continental foudroyant."
+      "evenement": "Pachacútec",
+      "info": "Le prince repousse une invasion de Cuzco, devient Sapa Inca et lance les grandes conquêtes."
     },
     {
       "annee": 1450,
       "evenement": "Machu Picchu",
-      "info": "Construction du mystérieux sanctuaire et domaine royal perché dans les nuages."
+      "info": "Construction du domaine royal de Machu Picchu, dans les montagnes."
+    },
+    {
+      "annee": 1527,
+      "evenement": "Mort de Huayna Cápac",
+      "info": "L’empereur meurt, sans doute de la variole, arrivée avant les Espagnols."
     },
     {
       "annee": 1529,
-      "evenement": "Guerre Civile Inca",
-      "info": "Guerre de succession fraternelle entre Atahualpa et Huascar, affaiblissant mortellement l'empire."
+      "evenement": "Guerre civile inca",
+      "info": "Les frères Atahualpa et Huáscar se disputent le trône."
     },
     {
       "annee": 1532,
-      "evenement": "Massacre de Cajamarca",
-      "info": "Pizarro capture par surprise le Sapa Inca, sonnant l'hallali de l'empire andin."
+      "evenement": "Capture d’Atahualpa",
+      "info": "Pizarro capture par surprise le Sapa Inca à Cajamarca.",
+      "ref": "bataille-de-cajamarca"
+    },
+    {
+      "annee": 1533,
+      "evenement": "Exécution d’Atahualpa",
+      "info": "Malgré une immense rançon en or et en argent, Atahualpa est exécuté ; les Espagnols prennent Cuzco."
     }
   ],
   "dirigeants": [
     {
-      "titre": "Sapa Inca (Empereur)",
-      "nom": "Pachacútec",
-      "surnom": "Celui qui bouleverse le monde",
-      "debut": 1438,
-      "fin": 1471
+      "nom": "Viracocha Inca",
+      "titre": "Sapa Inca",
+      "debut": 1410,
+      "fin": 1438,
+      "dynastie": "sapa-inca",
+      "note": "dates approximatives"
     },
-    { "titre": "Dernier Empereur", "nom": "Atahualpa", "debut": 1532, "fin": 1533 }
+    {
+      "nom": "Pachacútec",
+      "titre": "Sapa Inca",
+      "debut": 1438,
+      "fin": 1471,
+      "dynastie": "sapa-inca",
+      "personne": "pachacutec",
+      "note": "son nom signifie « celui qui transforme le monde »",
+      "cle": true
+    },
+    {
+      "nom": "Túpac Yupanqui",
+      "titre": "Sapa Inca",
+      "debut": 1471,
+      "fin": 1493,
+      "dynastie": "sapa-inca",
+      "note": "grand conquérant",
+      "cle": true
+    },
+    {
+      "nom": "Huayna Cápac",
+      "titre": "Sapa Inca",
+      "debut": 1493,
+      "fin": 1527,
+      "dynastie": "sapa-inca",
+      "note": "mort d’une épidémie",
+      "cle": true
+    },
+    {
+      "nom": "Huáscar",
+      "titre": "Sapa Inca",
+      "debut": 1527,
+      "fin": 1532,
+      "dynastie": "sapa-inca",
+      "note": "vaincu et tué sur l’ordre de son frère"
+    },
+    {
+      "nom": "Atahualpa",
+      "titre": "Sapa Inca",
+      "debut": 1532,
+      "fin": 1533,
+      "dynastie": "sapa-inca",
+      "personne": "atahualpa",
+      "note": "capturé et exécuté par les Espagnols",
+      "cle": true
+    }
   ],
   "personnages": [
     {
       "nom": "Francisco Pizarro",
       "role": "Conquistador",
-      "description": "Ancien porcher espagnol illettré, analphabète mais stratège impitoyable, il s'empara du plus grand empire d'Amérique avec seulement 168 soldats.",
-      "dates": "1478 à 1541",
-      "wikiUrl": "https://fr.wikipedia.org/wiki/Francisco_Pizarro"
+      "description": "Conquistador espagnol qui, avec moins de 200 hommes et l’appui de peuples hostiles aux Incas, s’empare de l’empire.",
+      "dates": "vers 1478 → 1541",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Francisco_Pizarro",
+      "ref": "francisco-pizarro"
+    },
+    {
+      "nom": "Garcilaso de la Vega",
+      "role": "Écrivain",
+      "description": "Fils d’un conquistador et d’une princesse inca, il écrit une histoire des Incas, les Commentaires royaux.",
+      "dates": "1539 → 1616",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Inca_Garcilaso_de_la_Vega"
+    },
+    {
+      "nom": "Túpac Amaru",
+      "role": "Dernier Sapa Inca de Vilcabamba",
+      "description": "Dernier souverain inca résistant aux Espagnols, capturé et exécuté à Cuzco en 1572.",
+      "dates": "vers 1545 → 1572",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/T%C3%BApac_Amaru"
     }
   ],
   "guerres": [
@@ -59,15 +131,97 @@
       "nom": "Bataille de Cajamarca",
       "annee": 1532,
       "adversaires": ["Espagne (Pizarro)"],
-      "allies": ["Tribus locales anti-incas"],
-      "morts": "Plus de 2000 dignitaires incas massacrés sans défense",
+      "allies": [],
+      "morts": "Plusieurs milliers d’Incas, surtout des serviteurs et des dignitaires presque sans armes ; aucun Espagnol tué",
       "vainqueur": "Espagne",
-      "consequences": "En un coup de poker sidérant, Pizarro capture l'Inca-Dieu Atahualpa au milieu de son armée de 80 000 hommes. Il encaisse la 'Rançon de l'Inca' (une pièce remplie d'or massif) puis le fait étrangler, provoquant l'effondrement pyramidal de l'État.",
+      "consequences": "Pizarro capture Atahualpa au milieu de son armée. Il obtient une salle remplie d’or et d’argent comme rançon, puis le fait exécuter en 1533, ce qui désorganise l’empire.",
       "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Cajamarca"
     }
   ],
-  "sciences": "Leur génie réside dans l'organisation étatique, la logistique et l'architecture antisismique de pointe. Dénués d'écriture, ils administrent des millions de sujets via les Quipus (système complexe de cordelettes à nœuds colorés tenu par les Quipucamayocs) pour la comptabilité et le recensement. Le Qhapaq Ñan est un prodigieux réseau de routes pavées de 30 000 km d'altitude, franchissant les précipices grâce à des ponts suspendus en fibres végétales tressées.",
-  "croyancesText": "Le Sapa Inca ('Inca Unique') est le fils vivant du dieu Soleil (Inti). À sa mort, le souverain est éviscéré, séché, et sa momie (le Mallqui) continue 'réellement' à régner, participant aux banquets, aux défilés rituels sur la place d'armes de Cuzco (l'Auccaypata), et conservant la propriété de tous ses palais et de ses terres, ce qui force ses successeurs à toujours conquérir de nouvelles terres pour financer leur propre cour.",
-  "diplomatie": "C'est l'État providence et centralisé ultime (la Mita). Pas d'argent : l'impôt se paie en force de travail manuel pour l'État. En échange, les immenses greniers impériaux (Qollqas) redistribuent nourriture et vêtements à la population lors des famines (sécheresses andines). L'expansion diplomatique inca privilégiait d'abord l'offre d'assimilation douce avec échanges de cadeaux somptueux. Si l'ennemi refusait, l'armée impériale andine écrasait son royaume.",
-  "documentaires": [{ "titre": "L'empire Inca, le secret des nuages", "url": "https://fr.wikipedia.org/wiki/Empire_inca" }]
+  "sciences": "Les Incas sont de grands bâtisseurs : leurs murs de blocs de pierre parfaitement ajustés, sans mortier, résistent aux séismes. Ils construisent des terrasses agricoles, des canaux et un réseau de routes de près de 30 000 km, avec des ponts suspendus en fibres végétales tressées. Ils tiennent leurs comptes et leurs recensements avec les quipus, des cordelettes à nœuds de couleurs.",
+  "croyancesText": "Le Sapa Inca est considéré comme le fils du Soleil (Inti). À sa mort, son corps momifié continue d’être honoré : il « participe » aux fêtes, garde ses palais et ses terres, ce qui pousse les successeurs à conquérir de nouvelles terres. Les Incas vénèrent aussi la Terre-Mère (Pachamama) et des lieux sacrés (huacas) ; des enfants sont parfois sacrifiés lors de grandes cérémonies sur les sommets.",
+  "diplomatie": "Avant de combattre, les Incas proposent souvent aux peuples voisins de se soumettre en échange de cadeaux et de privilèges pour leurs chefs ; en cas de refus, l’armée intervient. Ils déplacent des populations entières (mitmaqkuna) pour contrôler les régions conquises. L’impôt se paie en travail pour l’État (la mit’a), et de grands entrepôts (qollqas) stockent vivres et vêtements.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": { "valeur": "Cuzco", "precision": "au Pérou, à 3 400 m d’altitude" },
+    "regimes": {
+      "valeur": "Empire",
+      "precision": "le Sapa Inca, fils du Soleil, gouverne avec une noblesse et des fonctionnaires"
+    },
+    "langues": { "valeur": "Quechua", "precision": "langue de l’administration, imposée dans tout l’empire" },
+    "religion": {
+      "valeur": "Polythéisme",
+      "precision": "culte du Soleil (Inti), de la Terre-Mère (Pachamama), des ancêtres et des momies royales"
+    },
+    "apogee": { "valeur": "Vers 1525", "precision": "sous Huayna Cápac" },
+    "population": { "valeur": "Environ 10 millions", "precision": "estimations entre 6 et 14 millions" },
+    "monnaie": { "valeur": "Aucune", "precision": "l’impôt se paie en travail" },
+    "duree": { "valeur": "Moins d’un siècle", "precision": "environ 95 ans d’empire" },
+    "aujourdhui": {
+      "valeur": "Pérou, Équateur, Bolivie",
+      "precision": "et une partie du Chili, de l’Argentine et de la Colombie"
+    }
+  },
+  "essentiel": [
+    "Vers 1438, [[pachacutec|Pachacútec]] transforme le petit royaume de Cuzco en un empire conquérant.",
+    "Ses successeurs l’étendent de l’Équateur au Chili ; il est relié par un immense réseau de routes, le [[qhapaq-nan|Qhapaq Ñan]].",
+    "Sans écriture alphabétique, les Incas tiennent leurs comptes avec des cordelettes à nœuds, les [[quipu|quipus]].",
+    "Ils bâtissent des cités de pierre parfaitement ajustée, comme [[machu-picchu|Machu Picchu]].",
+    "Affaibli par une épidémie et une guerre civile, l’empire est conquis par [[francisco-pizarro|Pizarro]], qui capture [[atahualpa|Atahualpa]] à [[bataille-de-cajamarca|Cajamarca]] en 1532."
+  ],
+  "periodes": [
+    {
+      "nom": "L’expansion",
+      "debut": 1438,
+      "fin": 1493,
+      "resume": "Pachacútec et son fils Túpac Yupanqui conquièrent les Andes, de l’Équateur au centre du Chili, et réorganisent Cuzco.",
+      "evenements": [{ "annee": 1450, "evenement": "Machu Picchu" }, { "annee": 1470, "evenement": "Conquête du royaume chimú" }]
+    },
+    {
+      "nom": "L’apogée et la crise",
+      "debut": 1493,
+      "fin": 1532,
+      "resume": "Huayna Cápac gouverne un empire immense. Sa mort, causée par une épidémie, ouvre une guerre civile entre ses fils.",
+      "evenements": [
+        { "annee": 1527, "evenement": "Mort de Huayna Cápac" },
+        { "annee": 1529, "evenement": "Guerre entre Huáscar et Atahualpa" }
+      ]
+    },
+    {
+      "nom": "La conquête espagnole",
+      "debut": 1532,
+      "fin": 1533,
+      "resume": "Pizarro capture Atahualpa, obtient une rançon fabuleuse puis l’exécute. La résistance inca se poursuit à Vilcabamba jusqu’en 1572.",
+      "evenements": [
+        { "annee": 1532, "evenement": "Cajamarca", "ref": "bataille-de-cajamarca" },
+        { "annee": 1533, "evenement": "Prise de Cuzco" }
+      ]
+    }
+  ],
+  "dynasties": [
+    {
+      "id": "sapa-inca",
+      "nom": "Les Sapa Inca",
+      "debut": 1410,
+      "fin": 1533,
+      "note": "Liste de l’époque impériale ; les rois antérieurs, depuis le fondateur légendaire Manco Cápac, sont connus par la tradition."
+    }
+  ],
+  "societe": "Le Sapa Inca et la noblesse de Cuzco gouvernent ; les chefs locaux (curacas) administrent les communautés (ayllus). Les paysans cultivent les terres de leur communauté, de l’État et des dieux.",
+  "economie": "Agriculture en terrasses (maïs, pomme de terre, quinoa), élevage de lamas et d’alpagas, tissage ; pas de marché ni de monnaie, mais un vaste système de redistribution.",
+  "decouvertes": ["quipu", "machu-picchu", "qhapaq-nan"],
+  "arts": "Architecture de pierre (Sacsayhuamán, Coricancha, Machu Picchu), textiles très fins, objets d’or et d’argent, presque tous fondus par les Espagnols.",
+  "quotidien": "Les familles vivent dans des maisons de pierre ou d’adobe. Les chasquis, coureurs relayés, transmettent les messages sur les routes de l’empire.",
+  "heritage": [
+    { "titre": "Le quechua", "texte": "Plus de 8 millions de personnes parlent encore le quechua dans les Andes." },
+    { "titre": "Machu Picchu et le Qhapaq Ñan", "texte": "Tous deux sont inscrits au patrimoine mondial." },
+    { "titre": "Inti Raymi", "texte": "La fête du Soleil est de nouveau célébrée chaque année à Cuzco." }
+  ],
+  "aSavoir": [
+    "Les épidémies apportées par les Européens, comme la variole, ont tué une grande partie de la population andine, souvent avant même l’arrivée des conquistadors."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Empire_inca",
+    { "titre": "Encyclopædia Britannica — Inca", "url": "https://www.britannica.com/topic/Inca" }
+  ]
 }

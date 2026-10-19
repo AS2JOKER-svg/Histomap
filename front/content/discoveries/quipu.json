@@ -1,0 +1,19 @@
+{
+  "id": "quipu",
+  "nom": "Quipu",
+  "annee": 1450,
+  "domaine": "Écriture et calcul",
+  "dates": "XVe-XVIe siècles",
+  "description": "Un ensemble de cordelettes de couleurs, avec des nœuds disposés selon un système décimal, utilisé par les Incas pour compter et enregistrer des informations.",
+  "sections": [
+    {
+      "titre": "Comment ça marche",
+      "texte": "La position et le type des nœuds indiquent les unités, les dizaines et les centaines ; la couleur des cordes indique ce qui est compté. Des spécialistes, les quipucamayocs, les lisent et les fabriquent."
+    },
+    {
+      "titre": "Un mystère",
+      "texte": "Les chercheurs se demandent si certains quipus enregistraient aussi des récits ou des noms, comme une écriture."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Quipu"
+}

@@ -225,9 +225,6 @@
     "coords": [5.39, 49.16],
     "lieu": "Verdun"
   },
-  "Bataille d'Angleterre (WWII)": {
-    "coords": [-0.13, 51.51]
-  },
   "Seconde Guerre mondiale (Front de l'Est/Ouest)": {
     "coords": [13.4, 52.52]
   },
@@ -436,5 +433,20 @@
   "Bataille de Tchaldiran": {
     "coords": [44, 39.1],
     "lieu": "Tchaldiran (nord-ouest de l’Iran)"
+  },
+  "Bataille d’Angleterre": {
+    "coords": [-0.13, 51.51]
+  },
+  "Guerres napoléoniennes": {
+    "coords": [16.76, 49.13],
+    "lieu": "Austerlitz (et toute l’Europe)"
+  },
+  "Guerre d’Algérie": {
+    "coords": [3.06, 36.75],
+    "lieu": "Algérie"
+  },
+  "Bataille de Trafalgar": {
+    "coords": [-6.03, 36.18],
+    "lieu": "Cap Trafalgar (Espagne)"
   }
 }

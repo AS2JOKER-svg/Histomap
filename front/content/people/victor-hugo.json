@@ -1,0 +1,17 @@
+{
+  "id": "victor-hugo",
+  "nom": "Victor Hugo",
+  "role": "Écrivain et homme politique",
+  "roles": ["Poète", "Romancier", "Dramaturge", "Homme politique"],
+  "dates": "1802 → 1885",
+  "naissance": 1802,
+  "mort": 1885,
+  "description": "Poète, romancier et dramaturge, auteur de Notre-Dame de Paris et des Misérables, il combat la peine de mort et le régime de Napoléon III.",
+  "essentiel": [
+    "Chef de file du romantisme.",
+    "Opposant au coup d’État de 1851, il vit dix-neuf ans en exil.",
+    "Il défend l’abolition de la peine de mort et l’école pour tous.",
+    "Ses funérailles, en 1885, rassemblent près de deux millions de personnes."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Victor_Hugo"
+}

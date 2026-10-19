@@ -10,66 +10,238 @@
   "row": 3,
   "isRiver": false,
   "capitale": "Philadelphie puis New York (capitale en 1789)",
-  "description": "La rébellion politique de treize colonies britanniques qui, aidées par la France, vont inventer la démocratie constitutionnelle moderne.",
+  "description": "Les treize colonies britanniques d’Amérique du Nord se révoltent, proclament leur indépendance en 1776 et, avec l’aide de la France, la gagnent. Elles se dotent en 1787 d’une constitution toujours en vigueur.",
   "territories": ["United States of America"],
   "datesCles": [
     {
       "annee": 1773,
       "evenement": "Boston Tea Party",
-      "info": "Les colons jettent les cargaisons de thé à l'eau pour protester contre les impôts anglais ('No taxation without representation')."
+      "info": "Des colons jettent à la mer des cargaisons de thé pour protester contre les taxes britanniques (« pas d’impôt sans représentation »).",
+      "ref": "boston-tea-party"
+    },
+    {
+      "annee": 1775,
+      "evenement": "Lexington et Concord",
+      "info": "Premiers combats entre miliciens américains et soldats britanniques."
     },
     {
       "annee": 1776,
-      "evenement": "Déclaration d'Indépendance",
-      "info": "Le 4 juillet, rédigée par Thomas Jefferson, proclamant le droit au 'bonheur' et l'égalité des hommes (blancs)."
+      "evenement": "Déclaration d’indépendance",
+      "info": "Le 4 juillet, le Congrès proclame l’indépendance des treize colonies.",
+      "ref": "declaration-d-independance"
+    },
+    {
+      "annee": 1778,
+      "evenement": "Alliance française",
+      "info": "La France s’allie aux Américains et entre en guerre contre la Grande-Bretagne."
     },
     {
       "annee": 1781,
       "evenement": "Bataille de Yorktown",
-      "info": "L'armée française de Rochambeau, la flotte de l'amiral de Grasse et les Américains de Washington (dont La Fayette) obligent l'armée britannique à capituler."
+      "info": "L’armée française de Rochambeau, la flotte de l’amiral de Grasse et les Américains de Washington (dont La Fayette) obligent l’armée britannique à capituler.",
+      "ref": "bataille-de-yorktown"
     },
     {
       "annee": 1787,
       "evenement": "La Constitution",
-      "info": "Les pères fondateurs instaurent la première république fédérale présidentielle moderne."
+      "info": "Une convention réunie à Philadelphie rédige la Constitution fédérale.",
+      "ref": "constitution-des-etats-unis"
+    },
+    {
+      "annee": 1789,
+      "evenement": "Washington président",
+      "info": "George Washington devient le premier président des États-Unis."
     }
   ],
-  "dirigeants": [{ "titre": "1er Président", "nom": "George Washington", "debut": 1789, "fin": 1797 }],
+  "dirigeants": [
+    {
+      "nom": "Peyton Randolph",
+      "titre": "Président du Congrès continental",
+      "debut": 1774,
+      "fin": 1775,
+      "dynastie": "congres"
+    },
+    {
+      "nom": "John Hancock",
+      "titre": "Président du Congrès continental",
+      "debut": 1775,
+      "fin": 1777,
+      "dynastie": "congres",
+      "note": "premier signataire de la Déclaration d’indépendance",
+      "cle": true
+    },
+    { "nom": "John Jay", "titre": "Président du Congrès continental", "debut": 1778, "fin": 1779, "dynastie": "congres" },
+    {
+      "nom": "George Washington",
+      "titre": "Commandant en chef de l’armée continentale",
+      "debut": 1775,
+      "fin": 1783,
+      "dynastie": "congres",
+      "personne": "george-washington",
+      "cle": true
+    },
+    {
+      "nom": "George Washington",
+      "titre": "Président des États-Unis",
+      "debut": 1789,
+      "fin": 1797,
+      "dynastie": "presidence",
+      "personne": "george-washington",
+      "note": "premier président"
+    }
+  ],
   "personnages": [
     {
       "nom": "Benjamin Franklin",
-      "role": "Polymathe et Diplomate",
-      "description": "L'incarnation des Lumières américaines. Physicien (le paratonnerre), imprimeur, c'est son génie diplomatique qui convaincra le roi de France de financer la Révolution américaine.",
-      "dates": "1706 à 1790",
-      "wikiUrl": "https://fr.wikipedia.org/wiki/Benjamin_Franklin"
+      "role": "Savant et diplomate",
+      "description": "Imprimeur, inventeur du paratonnerre, il obtient l’alliance de la France.",
+      "dates": "1706 → 1790",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Benjamin_Franklin",
+      "ref": "benjamin-franklin"
+    },
+    {
+      "nom": "Thomas Jefferson",
+      "role": "Rédacteur de la Déclaration",
+      "description": "Principal auteur de la Déclaration d’indépendance, futur troisième président.",
+      "dates": "1743 → 1826",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Thomas_Jefferson",
+      "ref": "thomas-jefferson"
     },
     {
       "nom": "Marquis de La Fayette",
       "role": "Général",
-      "description": "Le 'Héros des deux mondes'. Ce jeune noble français finança son propre navire pour venir libérer l'Amérique, forgeant l'alliance éternelle franco-américaine.",
-      "dates": "1757 à 1834",
-      "wikiUrl": "https://fr.wikipedia.org/wiki/Gilbert_du_Motier_de_La_Fayette"
+      "description": "Jeune noble français, il s’engage aux côtés des Américains et devient le « héros des deux mondes ».",
+      "dates": "1757 → 1834",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Gilbert_du_Motier_de_La_Fayette",
+      "ref": "la-fayette"
+    },
+    {
+      "nom": "Abigail Adams",
+      "role": "Épistolière",
+      "description": "Épouse de John Adams, elle lui demande dans ses lettres de « se souvenir des dames » dans les nouvelles lois.",
+      "dates": "1744 → 1818",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Abigail_Adams"
     }
   ],
   "guerres": [
     {
       "nom": "Guerre d'indépendance des États-Unis",
       "annee": 1775,
-      "adversaires": ["Empire Britannique (George III)"],
-      "allies": ["Royaume de France", "Royaume d'Espagne"],
-      "morts": "Env. 25 000 patriotes américains",
+      "adversaires": ["Grande-Bretagne (George III)"],
+      "allies": ["France", "Espagne", "Provinces-Unies"],
+      "morts": "Environ 25 000 morts du côté américain, surtout de maladie",
       "vainqueur": "États-Unis d'Amérique",
-      "consequences": "Traité de Paris (1783) reconnaissant l'indépendance. Le fardeau financier de cette guerre précipitera la France dans sa propre Révolution de 1789.",
+      "consequences": "Le traité de Paris (1783) reconnaît l’indépendance des États-Unis. Le coût de la guerre aggrave la crise financière qui mène à la Révolution française.",
       "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_d'ind%C3%A9pendance_des_%C3%89tats-Unis"
     }
   ],
-  "sciences": "Outre les inventions pratiques de Franklin (paratonnerre, lunettes à double foyer), l'innovation majeure de la jeune nation est la 'Science politique'. La Constitution (1787) met en pratique stricte la théorie européenne de Montesquieu sur la séparation des pouvoirs : Législatif (Congrès), Exécutif (Président), Judiciaire (Cour Suprême), avec un système d'équilibre ('Checks and Balances').",
-  "croyancesText": "Profondément marqués par le puritanisme de la Nouvelle-Angleterre (le Mayflower, le mythe de la 'Cité sur la Colline'), les Pères fondateurs (majoritairement déistes ou protestants) accomplissent une révolution : le Premier Amendement (1791) interdit au Congrès d'établir une religion officielle : il n'existe donc pas de religion officielle fédérale, tandis que la société reste très croyante.",
-  "diplomatie": "La guerre d'indépendance était ingagnable militairement seule. Les miliciens et 'Minutemen' de Washington, mal équipés, survivaient dans les hivers de Valley Forge. Le salut vint du Traité d'alliance franco-américain de 1778. L'envoi par Louis XVI de millions de livres d'or, d'armes, de l'escadre de l'amiral de Grasse et de l'armée de Rochambeau a coulé la couronne française mais sauvé l'Amérique naissante.",
-  "documentaires": [
+  "sciences": "Benjamin Franklin mène des expériences célèbres sur l’électricité et invente le paratonnerre et les lunettes à double foyer. La principale innovation de la jeune nation est politique : la Constitution de 1787 applique les idées de Montesquieu sur la séparation des pouvoirs — Congrès (législatif), président (exécutif) et Cour suprême (judiciaire) — avec un système de contrôles mutuels.",
+  "croyancesText": "Les colonies sont majoritairement protestantes, marquées par le puritanisme de la Nouvelle-Angleterre. Les Pères fondateurs, souvent influencés par les Lumières, refusent une religion d’État : le premier amendement (1791) interdit au Congrès d’établir une religion officielle et garantit la liberté de culte, dans une société qui reste très croyante.",
+  "diplomatie": "Seuls, les Américains auraient eu du mal à vaincre la Grande-Bretagne. L’alliance avec la France (1778) leur apporte argent, armes, une flotte et une armée ; l’Espagne et les Provinces-Unies entrent aussi en guerre contre les Britanniques. La guerre aggrave fortement la dette de la France.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": { "valeur": "Philadelphie, puis New York", "precision": "New York est la première capitale fédérale en 1789" },
+    "regimes": { "valeur": "République fédérale", "precision": "Congrès continental, puis constitution de 1787" },
+    "langues": { "valeur": "Anglais" },
+    "religion": { "valeur": "Protestantisme majoritaire", "precision": "pas de religion officielle fédérale" },
+    "apogee": { "valeur": "1787-1789", "precision": "adoption de la Constitution" },
+    "population": { "valeur": "Environ 3,9 millions en 1790", "precision": "dont près de 700 000 esclaves" },
+    "monnaie": { "valeur": "Dollar continental, puis dollar", "precision": "le dollar est adopté en 1785-1792" },
+    "duree": { "valeur": "Environ 15 ans dans cette fiche" },
+    "aujourdhui": { "valeur": "États-Unis", "precision": "côte Est" }
+  },
+  "essentiel": [
+    "Les colons refusent de payer des impôts votés à Londres sans eux ; la [[boston-tea-party|Boston Tea Party]] (1773) marque la rupture.",
+    "Le 4 juillet 1776, les colonies adoptent la [[declaration-d-independance|Déclaration d’indépendance]], rédigée surtout par [[thomas-jefferson|Thomas Jefferson]].",
+    "L’armée de [[george-washington|George Washington]], aidée par la France grâce à [[benjamin-franklin|Benjamin Franklin]] et [[la-fayette|La Fayette]], l’emporte à [[bataille-de-yorktown|Yorktown]] (1781).",
+    "En 1787, la [[constitution-des-etats-unis|Constitution]] crée une république fédérale avec une séparation des pouvoirs.",
+    "Les droits proclamés ne concernent pas tout le monde : l’esclavage reste légal, et les Amérindiens sont exclus."
+  ],
+  "periodes": [
     {
-      "titre": "La Révolution américaine : Naissance d'une nation",
-      "url": "https://fr.wikipedia.org/wiki/R%C3%A9volution_am%C3%A9ricaine"
+      "nom": "La révolte",
+      "debut": 1773,
+      "fin": 1776,
+      "resume": "Les colonies protestent contre les lois et les taxes britanniques, puis prennent les armes.",
+      "evenements": [
+        { "annee": 1773, "evenement": "Boston Tea Party", "ref": "boston-tea-party" },
+        { "annee": 1775, "evenement": "Lexington et Concord" }
+      ]
+    },
+    {
+      "nom": "La guerre d’indépendance",
+      "debut": 1776,
+      "fin": 1783,
+      "resume": "Après des débuts difficiles, l’armée continentale tient bon ; l’alliance française fait basculer la guerre.",
+      "evenements": [
+        { "annee": 1776, "evenement": "Déclaration d’indépendance", "ref": "declaration-d-independance" },
+        { "annee": 1777, "evenement": "Victoire de Saratoga" },
+        { "annee": 1781, "evenement": "Yorktown", "ref": "bataille-de-yorktown" },
+        { "annee": 1783, "evenement": "Traité de Paris" }
+      ]
+    },
+    {
+      "nom": "La Constitution",
+      "debut": 1783,
+      "fin": 1789,
+      "resume": "La confédération, trop faible, est remplacée par une république fédérale dotée d’un président.",
+      "evenements": [
+        { "annee": 1787, "evenement": "Constitution", "ref": "constitution-des-etats-unis" },
+        { "annee": 1789, "evenement": "Premier président" }
+      ]
+    }
+  ],
+  "regimes": [
+    {
+      "id": "congres",
+      "nom": "Congrès continental et Confédération",
+      "debut": 1774,
+      "fin": 1789,
+      "note": "Le Congrès, assemblée des délégués des colonies puis des États, dirige la guerre ; il n’y a pas de chef de l’État."
+    },
+    {
+      "id": "federation",
+      "nom": "République fédérale",
+      "debut": 1789,
+      "fin": 1797,
+      "note": "La Constitution crée un président, un Congrès et une Cour suprême."
+    }
+  ],
+  "dynasties": [
+    {
+      "id": "congres",
+      "nom": "Présidents du Congrès et commandant en chef",
+      "debut": 1774,
+      "fin": 1783,
+      "regime": "congres",
+      "note": "Sélection."
+    },
+    { "id": "presidence", "nom": "Président des États-Unis", "debut": 1789, "fin": 1797, "regime": "federation" }
+  ],
+  "societe": "La société est dominée par les propriétaires blancs. Près d’un habitant sur cinq est un esclave d’origine africaine, surtout dans le Sud. Les femmes n’ont pas de droits politiques. Les Amérindiens, dont beaucoup s’allient aux Britanniques, perdent leurs terres.",
+  "economie": "Agriculture (tabac, riz, blé), plantations esclavagistes du Sud, commerce maritime, artisanat ; la guerre provoque une forte inflation.",
+  "decouvertes": [],
+  "arts": "Architecture néoclassique, portraits de Gilbert Stuart, pamphlets politiques comme Le Sens commun de Thomas Paine.",
+  "quotidien": "La plupart des Américains vivent dans des fermes. Les débats politiques se déroulent dans les tavernes, les journaux et les assemblées locales.",
+  "heritage": [
+    {
+      "titre": "La plus ancienne constitution écrite",
+      "texte": "La Constitution de 1787, plusieurs fois amendée, est toujours en vigueur."
+    },
+    { "titre": "Le 4 juillet", "texte": "Le jour de l’indépendance est la fête nationale des États-Unis." },
+    {
+      "titre": "L’amitié franco-américaine",
+      "texte": "La Fayette et Rochambeau restent des héros aux États-Unis ; la statue de la Liberté, offerte par la France en 1886, rappelle cette alliance."
+    }
+  ],
+  "aSavoir": [
+    "Jefferson, qui écrit que « tous les hommes sont créés égaux », possédait lui-même plus de 600 esclaves au cours de sa vie."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/R%C3%A9volution_am%C3%A9ricaine",
+    {
+      "titre": "Encyclopædia Britannica — American Revolution",
+      "url": "https://www.britannica.com/event/American-Revolution"
     }
   ]
 }

@@ -1,0 +1,20 @@
+{
+  "id": "theorie-de-l-evolution",
+  "nom": "Théorie de l’évolution",
+  "annee": 1859,
+  "domaine": "Biologie",
+  "dates": "1859",
+  "description": "La théorie de [[charles-darwin|Charles Darwin]] selon laquelle les espèces se transforment au fil des générations par la sélection naturelle, et descendent d’ancêtres communs.",
+  "sections": [
+    {
+      "titre": "Comment ça marche",
+      "texte": "Les individus d’une espèce sont tous un peu différents. Ceux dont les caractères sont les mieux adaptés à leur milieu survivent et se reproduisent davantage, et transmettent ces caractères."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "D’abord très contestée, surtout pour l’origine de l’homme, elle est aujourd’hui le fondement de toute la biologie, confirmée par la génétique."
+    }
+  ],
+  "aSavoir": ["Le naturaliste Alfred Russel Wallace a eu la même idée en même temps que Darwin."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/%C3%89volution_(biologie)"
+}

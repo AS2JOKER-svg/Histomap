@@ -1,0 +1,20 @@
+{
+  "id": "constitution-des-etats-unis",
+  "nom": "Constitution des États-Unis",
+  "annee": 1787,
+  "dates": "17 septembre 1787",
+  "lieu": "Philadelphie",
+  "description": "Une convention de délégués des États rédige une constitution qui crée un gouvernement fédéral fort, avec un président, un Congrès et une Cour suprême.",
+  "sections": [
+    {
+      "titre": "Ce qu’elle prévoit",
+      "texte": "Séparation des pouvoirs, fédéralisme, élection du président pour quatre ans. Un compromis compte chaque esclave pour trois cinquièmes d’habitant pour répartir les sièges."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Ratifiée en 1788, elle est complétée en 1791 par la Déclaration des droits (dix amendements). C’est la plus ancienne constitution écrite encore en vigueur."
+    }
+  ],
+  "avant": "bataille-de-yorktown",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Constitution_des_%C3%89tats-Unis"
+}

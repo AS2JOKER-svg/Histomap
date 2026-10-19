@@ -1,0 +1,16 @@
+{
+  "id": "qhapaq-nan",
+  "nom": "Qhapaq Ñan",
+  "annee": 1450,
+  "domaine": "Technique",
+  "dates": "XVe siècle",
+  "description": "Le réseau de routes de l’empire inca : près de 30 000 km de chemins pavés, escaliers et ponts suspendus, de la Colombie au Chili.",
+  "sections": [
+    {
+      "titre": "Son rôle",
+      "texte": "Les armées, les fonctionnaires, les caravanes de lamas et les messagers chasquis y circulent. Des relais et des entrepôts le jalonnent."
+    }
+  ],
+  "aSavoir": ["Il est inscrit au patrimoine mondial depuis 2014."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Qhapaq_%C3%91an"
+}

@@ -10,59 +10,392 @@
   "row": 1,
   "isRiver": false,
   "capitale": "Paris",
-  "description": "La nation révolutionnaire (5 républiques, 2 empires, 2 monarchies en deux siècles), accouchant des droits de l'homme et du Code civil au prix d'un sanglant accouchement.",
+  "description": "La France depuis 1789 : une révolution qui proclame les droits de l’homme, deux empires, trois monarchies et cinq républiques, deux guerres mondiales, la décolonisation et la construction européenne.",
   "territories": ["France"],
   "datesCles": [
     {
       "annee": 1789,
       "evenement": "La Révolution",
-      "info": "Prise de la Bastille, Déclaration des Droits de l'Homme, chute de la monarchie absolue de Louis XVI."
+      "info": "Prise de la Bastille le 14 juillet, abolition des privilèges et Déclaration des droits de l’homme et du citoyen.",
+      "ref": "prise-de-la-bastille"
+    },
+    {
+      "annee": 1792,
+      "evenement": "La République",
+      "info": "La monarchie est abolie ; Louis XVI est guillotiné en 1793."
     },
     {
       "annee": 1804,
-      "evenement": "L'Empire",
-      "info": "Napoléon Bonaparte se sacre Empereur des Français et soumet la majorité de l'Europe."
+      "evenement": "L’Empire",
+      "info": "Napoléon Bonaparte se fait sacrer empereur et publie le Code civil."
     },
     {
-      "annee": 1914,
-      "evenement": "Première Guerre mondiale",
-      "info": "La victoire héroïque dans les tranchées (Verdun) ruine le pays."
+      "annee": 1848,
+      "evenement": "Suffrage universel masculin",
+      "info": "La IIe République abolit définitivement l’esclavage dans les colonies et instaure le suffrage universel masculin."
+    },
+    {
+      "annee": 1905,
+      "evenement": "Loi de séparation",
+      "info": "La loi sépare les Églises et l’État : c’est la naissance de la laïcité.",
+      "ref": "loi-de-1905"
+    },
+    {
+      "annee": 1916,
+      "evenement": "Bataille de Verdun",
+      "info": "Dix mois de combats, plus de 300 000 morts français et allemands.",
+      "ref": "bataille-de-verdun"
     },
     {
       "annee": 1940,
-      "evenement": "La Seconde Guerre",
-      "info": "Débâcle face à l'Allemagne nazie. Régime de Vichy contre Résistance (De Gaulle)."
+      "evenement": "La défaite et l’appel du 18 juin",
+      "info": "La France est vaincue et occupée ; le maréchal Pétain instaure le régime de Vichy, tandis que de Gaulle appelle à la résistance depuis Londres.",
+      "ref": "appel-du-18-juin"
     },
-    { "annee": 1958, "evenement": "Ve République", "info": "Le Général de Gaulle crée un régime présidentiel fort." }
+    {
+      "annee": 1944,
+      "evenement": "Libération et vote des femmes",
+      "info": "La France est libérée ; les femmes obtiennent le droit de vote."
+    },
+    {
+      "annee": 1958,
+      "evenement": "Ve République",
+      "info": "Charles de Gaulle fonde un régime où le président a un rôle central."
+    },
+    {
+      "annee": 1962,
+      "evenement": "Indépendance de l’Algérie",
+      "info": "Après huit ans de guerre, l’Algérie devient indépendante."
+    }
   ],
   "dirigeants": [
-    { "titre": "L'Incorruptible", "nom": "Robespierre", "debut": 1793, "fin": 1794 },
-    { "titre": "Empereur des Français", "nom": "Napoléon Ier", "surnom": "L'Aigle", "debut": 1804, "fin": 1815 },
     {
+      "nom": "Louis XVI",
+      "titre": "Roi de France, puis roi des Français",
+      "debut": 1774,
+      "fin": 1792,
+      "dynastie": "revolution",
+      "note": "guillotiné en 1793",
+      "cle": true
+    },
+    {
+      "nom": "Maximilien de Robespierre",
+      "titre": "Membre du Comité de salut public",
+      "surnom": "l’Incorruptible",
+      "debut": 1793,
+      "fin": 1794,
+      "dynastie": "revolution",
+      "personne": "robespierre",
+      "note": "n’est pas chef de l’État ; figure de la Terreur"
+    },
+    {
+      "nom": "Napoléon Bonaparte",
+      "titre": "Premier consul",
+      "debut": 1799,
+      "fin": 1804,
+      "dynastie": "revolution",
+      "personne": "napoleon-ier"
+    },
+    {
+      "nom": "Napoléon Ier",
+      "titre": "Empereur des Français",
+      "debut": 1804,
+      "fin": 1815,
+      "dynastie": "empereurs-rois",
+      "personne": "napoleon-ier",
+      "note": "abdique en 1814, revient pendant les Cent-Jours (1815)",
+      "cle": true
+    },
+    {
+      "nom": "Louis XVIII",
+      "titre": "Roi de France",
+      "debut": 1814,
+      "fin": 1824,
+      "dynastie": "empereurs-rois",
+      "note": "frère de Louis XVI ; accorde une Charte"
+    },
+    {
+      "nom": "Charles X",
+      "titre": "Roi de France",
+      "debut": 1824,
+      "fin": 1830,
+      "dynastie": "empereurs-rois",
+      "note": "renversé par la révolution de Juillet"
+    },
+    {
+      "nom": "Louis-Philippe Ier",
+      "titre": "Roi des Français",
+      "debut": 1830,
+      "fin": 1848,
+      "dynastie": "empereurs-rois",
+      "note": "renversé par la révolution de 1848",
+      "cle": true
+    },
+    {
+      "nom": "Louis-Napoléon Bonaparte",
       "titre": "Président de la République",
+      "debut": 1848,
+      "fin": 1852,
+      "dynastie": "empereurs-rois",
+      "note": "premier président élu au suffrage universel masculin"
+    },
+    {
+      "nom": "Napoléon III",
+      "titre": "Empereur des Français",
+      "debut": 1852,
+      "fin": 1870,
+      "dynastie": "empereurs-rois",
+      "note": "neveu de Napoléon Ier, prisonnier à Sedan",
+      "cle": true
+    },
+    {
+      "nom": "Adolphe Thiers",
+      "titre": "Président de la République",
+      "debut": 1871,
+      "fin": 1873,
+      "dynastie": "presidents-3",
+      "note": "écrase la Commune de Paris"
+    },
+    {
+      "nom": "Patrice de Mac Mahon",
+      "titre": "Président de la République",
+      "debut": 1873,
+      "fin": 1879,
+      "dynastie": "presidents-3"
+    },
+    {
+      "nom": "Jules Grévy",
+      "titre": "Président de la République",
+      "debut": 1879,
+      "fin": 1887,
+      "dynastie": "presidents-3"
+    },
+    {
+      "nom": "Sadi Carnot",
+      "titre": "Président de la République",
+      "debut": 1887,
+      "fin": 1894,
+      "dynastie": "presidents-3",
+      "note": "assassiné"
+    },
+    {
+      "nom": "Jean Casimir-Perier",
+      "titre": "Président de la République",
+      "debut": 1894,
+      "fin": 1895,
+      "dynastie": "presidents-3"
+    },
+    {
+      "nom": "Félix Faure",
+      "titre": "Président de la République",
+      "debut": 1895,
+      "fin": 1899,
+      "dynastie": "presidents-3"
+    },
+    {
+      "nom": "Émile Loubet",
+      "titre": "Président de la République",
+      "debut": 1899,
+      "fin": 1906,
+      "dynastie": "presidents-3"
+    },
+    {
+      "nom": "Armand Fallières",
+      "titre": "Président de la République",
+      "debut": 1906,
+      "fin": 1913,
+      "dynastie": "presidents-3"
+    },
+    {
+      "nom": "Raymond Poincaré",
+      "titre": "Président de la République",
+      "debut": 1913,
+      "fin": 1920,
+      "dynastie": "presidents-3",
+      "note": "président pendant la Grande Guerre"
+    },
+    {
+      "nom": "Paul Deschanel",
+      "titre": "Président de la République",
+      "debut": 1920,
+      "fin": 1920,
+      "dynastie": "presidents-3"
+    },
+    {
+      "nom": "Alexandre Millerand",
+      "titre": "Président de la République",
+      "debut": 1920,
+      "fin": 1924,
+      "dynastie": "presidents-3"
+    },
+    {
+      "nom": "Gaston Doumergue",
+      "titre": "Président de la République",
+      "debut": 1924,
+      "fin": 1931,
+      "dynastie": "presidents-3"
+    },
+    {
+      "nom": "Paul Doumer",
+      "titre": "Président de la République",
+      "debut": 1931,
+      "fin": 1932,
+      "dynastie": "presidents-3",
+      "note": "assassiné"
+    },
+    {
+      "nom": "Albert Lebrun",
+      "titre": "Président de la République",
+      "debut": 1932,
+      "fin": 1940,
+      "dynastie": "presidents-3"
+    },
+    {
+      "nom": "Philippe Pétain",
+      "titre": "Chef de l’État français (Vichy)",
+      "debut": 1940,
+      "fin": 1944,
+      "dynastie": "guerre",
+      "note": "collabore avec l’Allemagne nazie ; condamné en 1945",
+      "cle": true
+    },
+    {
       "nom": "Charles de Gaulle",
-      "surnom": "Le Général",
-      "debut": 1958,
-      "fin": 1969
+      "titre": "Chef du Gouvernement provisoire",
+      "debut": 1944,
+      "fin": 1946,
+      "dynastie": "guerre",
+      "personne": "charles-de-gaulle"
+    },
+    {
+      "nom": "Vincent Auriol",
+      "titre": "Président de la République",
+      "debut": 1947,
+      "fin": 1954,
+      "dynastie": "presidents-4"
+    },
+    { "nom": "René Coty", "titre": "Président de la République", "debut": 1954, "fin": 1959, "dynastie": "presidents-4" },
+    {
+      "nom": "Charles de Gaulle",
+      "titre": "Président de la République",
+      "debut": 1959,
+      "fin": 1969,
+      "dynastie": "presidents-5",
+      "personne": "charles-de-gaulle",
+      "note": "fondateur de la Ve République",
+      "cle": true
+    },
+    {
+      "nom": "Georges Pompidou",
+      "titre": "Président de la République",
+      "debut": 1969,
+      "fin": 1974,
+      "dynastie": "presidents-5"
+    },
+    {
+      "nom": "Valéry Giscard d’Estaing",
+      "titre": "Président de la République",
+      "debut": 1974,
+      "fin": 1981,
+      "dynastie": "presidents-5",
+      "note": "majorité à 18 ans, loi Veil"
+    },
+    {
+      "nom": "François Mitterrand",
+      "titre": "Président de la République",
+      "debut": 1981,
+      "fin": 1995,
+      "dynastie": "presidents-5",
+      "note": "abolition de la peine de mort",
+      "cle": true
+    },
+    {
+      "nom": "Jacques Chirac",
+      "titre": "Président de la République",
+      "debut": 1995,
+      "fin": 2007,
+      "dynastie": "presidents-5"
+    },
+    {
+      "nom": "Nicolas Sarkozy",
+      "titre": "Président de la République",
+      "debut": 2007,
+      "fin": 2012,
+      "dynastie": "presidents-5"
+    },
+    {
+      "nom": "François Hollande",
+      "titre": "Président de la République",
+      "debut": 2012,
+      "fin": 2017,
+      "dynastie": "presidents-5"
+    },
+    {
+      "nom": "Emmanuel Macron",
+      "titre": "Président de la République",
+      "debut": 2017,
+      "fin": 2020,
+      "dynastie": "presidents-5",
+      "note": "toujours en fonction à la fin de la période couverte (2020)"
     }
   ],
   "personnages": [
     {
       "nom": "Marie Curie",
-      "role": "Scientifique",
-      "description": "Pionnière absolue de la radioactivité. Première femme (et seule personne) ayant reçu deux Prix Nobel dans deux sciences (Physique et Chimie).",
-      "dates": "1867 à 1934",
-      "wikiUrl": "https://fr.wikipedia.org/wiki/Marie_Curie"
+      "role": "Physicienne et chimiste",
+      "description": "Pionnière de la radioactivité, première femme Prix Nobel et seule personne récompensée dans deux sciences différentes.",
+      "dates": "1867 → 1934",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Marie_Curie",
+      "ref": "marie-curie"
     },
     {
       "nom": "Victor Hugo",
-      "role": "Écrivain et Homme d'État",
-      "description": "Auteur monumental (Les Misérables), conscience morale de la République et farouche opposant à la peine de mort et à Napoléon III.",
-      "dates": "1802 à 1885",
-      "wikiUrl": "https://fr.wikipedia.org/wiki/Victor_Hugo"
+      "role": "Écrivain et homme politique",
+      "description": "Auteur des Misérables, opposant à Napoléon III et à la peine de mort.",
+      "dates": "1802 → 1885",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Victor_Hugo",
+      "ref": "victor-hugo"
+    },
+    {
+      "nom": "Louis Pasteur",
+      "role": "Scientifique",
+      "description": "Il montre le rôle des microbes dans les maladies et met au point le vaccin contre la rage (1885).",
+      "dates": "1822 → 1895",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Louis_Pasteur"
+    },
+    {
+      "nom": "Jean Jaurès",
+      "role": "Homme politique",
+      "description": "Dirigeant socialiste, défenseur de la paix, assassiné à la veille de la Première Guerre mondiale.",
+      "dates": "1859 → 1914",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Jean_Jaur%C3%A8s"
+    },
+    {
+      "nom": "Simone Veil",
+      "role": "Femme politique",
+      "description": "Rescapée d’Auschwitz, ministre de la Santé, elle fait voter la loi sur l’IVG (1975), puis préside le premier Parlement européen élu.",
+      "dates": "1927 → 2017",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Simone_Veil"
+    },
+    {
+      "nom": "Jean Moulin",
+      "role": "Résistant",
+      "description": "Représentant du général de Gaulle, il unifie les mouvements de Résistance ; arrêté et torturé, il meurt en 1943.",
+      "dates": "1899 → 1943",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Jean_Moulin"
     }
   ],
   "guerres": [
+    {
+      "nom": "Guerres napoléoniennes",
+      "annee": 1803,
+      "adversaires": ["Royaume-Uni, Autriche, Russie, Prusse et leurs alliés"],
+      "allies": ["États vassaux de l’Empire"],
+      "morts": "Entre 3 et 6 millions de morts en Europe, selon les estimations",
+      "vainqueur": "Coalition européenne",
+      "consequences": "Guerres de 1803 à 1815. Après avoir dominé l’Europe, Napoléon est vaincu ; le congrès de Vienne redessine la carte du continent.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerres_napol%C3%A9oniennes"
+    },
     {
       "nom": "Première Guerre mondiale (La Grande Guerre)",
       "annee": 1914,
@@ -70,17 +403,176 @@
       "allies": ["Empire Britannique", "Empire Russe", "États-Unis"],
       "morts": "1,4 million de soldats français tués",
       "vainqueur": "La France et ses alliés",
-      "consequences": "Victoire pyrrhique. Le Traité de Versailles (1919) humilie l'Allemagne, jetant les graines du ressentiment qui mènera au nazisme et à la Seconde Guerre mondiale.",
+      "consequences": "La France sort victorieuse mais ruinée et endeuillée. Le traité de Versailles (1919) impose à l’Allemagne des conditions très dures, ressenties comme une humiliation, que les nazis exploiteront.",
       "wikiUrl": "https://fr.wikipedia.org/wiki/Premi%C3%A8re_Guerre_mondiale"
+    },
+    {
+      "nom": "Guerre d’Algérie",
+      "annee": 1954,
+      "adversaires": ["Front de libération nationale (FLN)"],
+      "allies": [],
+      "morts": "Plusieurs centaines de milliers de morts, surtout algériens (estimations très discutées)",
+      "vainqueur": "Indépendance de l’Algérie",
+      "consequences": "Guerre de 1954 à 1962. L’Algérie devient indépendante ; près d’un million de « pieds-noirs » quittent le pays. La guerre provoque la chute de la IVe République.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_d%27Alg%C3%A9rie"
     }
   ],
-  "sciences": "Puissance d'ingénierie majeure : Louis Pasteur révolutionne la médecine mondiale avec le vaccin contre la rage et le concept des microbes. Au XXe siècle, la France se dote d'une infrastructure d'État souveraine : l'indépendance énergétique par l'édification du plus vaste réseau de centrales nucléaires d'Europe, la suprématie ferroviaire avec l'invention du TGV, et de l'avion supersonique civil Concorde (avec le Royaume-Uni).",
-  "croyancesText": "Le grand choc est la Loi de séparation des Églises et de l'État de 1905, accouchant du concept unique de 'Laïcité' à la française : la religion relève strictement du domaine privé. La 'Religion Républicaine' d'État s'appuie sur la trilogie 'Liberté, Égalité, Fraternité', transmise d'abord par les 'hussards noirs' (les instituteurs de l'école laïque, gratuite et obligatoire de Jules Ferry).",
-  "diplomatie": "Durant le 19ème, c'est l'Empire colonial : avec l'Afrique et l'Indochine, la France bâtit le 2ème plus vaste empire mondial derrière les Anglais (la 'Mission civilisatrice'). Après l'humiliation de 1940 et les sanglantes guerres de décolonisation (Algérie, Indochine), la diplomatie gaullienne vise l'indépendance (bombe atomique, sortie du commandement de l'OTAN) et cofonde, avec l'ennemi d'hier (l'Allemagne), le projet européen pacifique.",
-  "documentaires": [
+  "sciences": "Les savants révolutionnaires créent le système métrique (1795). Louis Pasteur découvre le rôle des microbes et met au point le vaccin contre la rage ; Pierre et Marie Curie étudient la radioactivité. Les frères Lumière inventent le cinématographe (1895). Au XXe siècle, la France développe un vaste parc de centrales nucléaires, le TGV (1981) et, avec le Royaume-Uni, l’avion supersonique Concorde.",
+  "croyancesText": "La loi de séparation des Églises et de l’État de 1905 fonde la laïcité : l’État ne reconnaît ni ne finance aucun culte, et garantit la liberté de conscience. La République diffuse ses valeurs, « Liberté, Égalité, Fraternité », par l’école gratuite, laïque et obligatoire des lois Ferry (1881-1882). La France reste de tradition catholique, avec d’importantes communautés musulmane, protestante et juive.",
+  "diplomatie": "Au XIXe siècle, la France bâtit le deuxième empire colonial du monde, en Afrique et en Asie, au nom d’une prétendue « mission civilisatrice ». Après la défaite de 1940 et les guerres de décolonisation (Indochine, Algérie), la diplomatie du général de Gaulle recherche l’indépendance : bombe atomique (1960), sortie du commandement intégré de l’OTAN (1966). Avec l’Allemagne, la France est au cœur de la construction européenne.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": { "valeur": "Paris", "precision": "Bordeaux et Vichy pendant certaines guerres" },
+    "regimes": { "valeur": "Cinq républiques, deux empires, trois monarchies", "precision": "la Ve République depuis 1958" },
+    "langues": { "valeur": "Français" },
+    "religion": { "valeur": "Laïcité", "precision": "séparation des Églises et de l’État depuis 1905 ; tradition catholique" },
+    "apogee": {
+      "valeur": "Plusieurs moments",
+      "precision": "empire napoléonien, empire colonial vers 1930, « Trente Glorieuses »"
+    },
+    "population": { "valeur": "Environ 67 millions en 2020", "precision": "contre 28 millions en 1789" },
+    "monnaie": { "valeur": "Franc (1795), puis euro (2002)" },
+    "duree": { "valeur": "Plus de 230 ans dans cette fiche" },
+    "aujourdhui": { "valeur": "France", "precision": "avec ses territoires d’outre-mer" }
+  },
+  "essentiel": [
+    "La Révolution de 1789 abolit les privilèges, proclame la [[declaration-des-droits-de-l-homme|Déclaration des droits de l’homme]] et fonde la République en 1792, au prix de la Terreur menée notamment par [[robespierre|Robespierre]].",
+    "[[napoleon-ier|Napoléon Bonaparte]] prend le pouvoir, fait rédiger le [[code-civil|Code civil]] et domine l’Europe avant d’être vaincu en 1815.",
+    "Après une longue alternance de monarchies, de républiques et d’empires, la IIIe République (1870) installe la démocratie, l’école laïque et la [[loi-de-1905|laïcité]].",
+    "La France subit deux guerres mondiales : victoire coûteuse en 1918 ([[bataille-de-verdun|Verdun]]), défaite et occupation en 1940, résistance autour de [[charles-de-gaulle|de Gaulle]].",
+    "Après la décolonisation, la Ve République (1958) donne au président un rôle central ; la France construit l’Europe avec l’Allemagne."
+  ],
+  "periodes": [
     {
-      "titre": "De Gaulle et l'histoire de la Ve République",
-      "url": "https://fr.wikipedia.org/wiki/Cinqui%C3%A8me_R%C3%A9publique_(France)"
+      "nom": "La Révolution",
+      "debut": 1789,
+      "fin": 1799,
+      "resume": "La monarchie absolue s’effondre ; la République est proclamée en 1792. Guerres extérieures, Terreur et guerre de Vendée font des centaines de milliers de victimes.",
+      "evenements": [
+        { "annee": 1789, "evenement": "Prise de la Bastille", "ref": "prise-de-la-bastille" },
+        { "annee": 1793, "evenement": "Exécution de Louis XVI" },
+        { "annee": 1794, "evenement": "Chute de Robespierre" }
+      ]
+    },
+    {
+      "nom": "Napoléon",
+      "debut": 1799,
+      "fin": 1815,
+      "resume": "Bonaparte prend le pouvoir, réorganise la France et conquiert une grande partie de l’Europe, avant d’être vaincu à Waterloo.",
+      "evenements": [
+        { "annee": 1804, "evenement": "Sacre et Code civil" },
+        { "annee": 1805, "evenement": "Victoire d’Austerlitz" },
+        { "annee": 1815, "evenement": "Défaite de Waterloo" }
+      ]
+    },
+    {
+      "nom": "Monarchies et empire",
+      "debut": 1815,
+      "fin": 1870,
+      "resume": "Les rois Bourbon, puis Louis-Philippe, et enfin Napoléon III gouvernent ; révolutions de 1830 et 1848. La France s’industrialise et commence à se constituer un empire colonial.",
+      "evenements": [
+        { "annee": 1830, "evenement": "Révolution de Juillet" },
+        { "annee": 1848, "evenement": "IIe République" },
+        { "annee": 1870, "evenement": "Défaite contre la Prusse" }
+      ]
+    },
+    {
+      "nom": "La IIIe République",
+      "debut": 1870,
+      "fin": 1940,
+      "resume": "La République s’enracine : école gratuite, laïque et obligatoire, libertés, empire colonial. Elle sort victorieuse mais épuisée de la Grande Guerre.",
+      "evenements": [
+        { "annee": 1882, "evenement": "Lois Ferry sur l’école" },
+        { "annee": 1905, "evenement": "Loi de séparation", "ref": "loi-de-1905" },
+        { "annee": 1916, "evenement": "Verdun", "ref": "bataille-de-verdun" }
+      ]
+    },
+    {
+      "nom": "La guerre et la Libération",
+      "debut": 1940,
+      "fin": 1946,
+      "resume": "Défaite, occupation allemande, régime de Vichy qui collabore avec l’Allemagne nazie et participe à la déportation des Juifs ; la Résistance et la France libre préparent la Libération.",
+      "evenements": [
+        { "annee": 1940, "evenement": "Appel du 18 juin", "ref": "appel-du-18-juin" },
+        { "annee": 1944, "evenement": "Débarquement et libération de Paris" }
+      ]
+    },
+    {
+      "nom": "IVe et Ve Républiques",
+      "debut": 1946,
+      "fin": 2020,
+      "resume": "Reconstruction et croissance des « Trente Glorieuses », décolonisation, construction européenne et Ve République.",
+      "evenements": [
+        { "annee": 1951, "evenement": "Communauté européenne du charbon et de l’acier" },
+        { "annee": 1962, "evenement": "Indépendance de l’Algérie" },
+        { "annee": 1981, "evenement": "Abolition de la peine de mort" }
+      ]
+    }
+  ],
+  "regimes": [
+    { "id": "revolution", "nom": "Révolution et Ire République", "debut": 1789, "fin": 1804 },
+    { "id": "empire", "nom": "Premier Empire", "debut": 1804, "fin": 1815 },
+    { "id": "monarchies", "nom": "Restauration et monarchie de Juillet", "debut": 1815, "fin": 1848 },
+    { "id": "deuxieme", "nom": "IIe République et Second Empire", "debut": 1848, "fin": 1870 },
+    { "id": "troisieme", "nom": "IIIe République", "debut": 1870, "fin": 1940 },
+    {
+      "id": "vichy",
+      "nom": "Régime de Vichy et Libération",
+      "debut": 1940,
+      "fin": 1946,
+      "note": "L’« État français » de Pétain gouverne la France occupée ; le Gouvernement provisoire de la République est installé à la Libération."
+    },
+    { "id": "quatrieme", "nom": "IVe République", "debut": 1946, "fin": 1958 },
+    { "id": "cinquieme", "nom": "Ve République", "debut": 1958, "fin": 2020 }
+  ],
+  "dynasties": [
+    {
+      "id": "revolution",
+      "nom": "De la Révolution au Consulat",
+      "debut": 1774,
+      "fin": 1804,
+      "regime": "revolution",
+      "note": "De 1792 à 1799, il n’y a pas de chef de l’État : le pouvoir appartient à des assemblées et à des comités."
+    },
+    { "id": "empereurs-rois", "nom": "Empereurs et rois", "debut": 1804, "fin": 1870, "regime": "empire" },
+    {
+      "id": "presidents-3",
+      "nom": "Présidents de la IIIe République",
+      "debut": 1871,
+      "fin": 1940,
+      "regime": "troisieme"
+    },
+    { "id": "guerre", "nom": "La Seconde Guerre mondiale", "debut": 1940, "fin": 1946, "regime": "vichy" },
+    { "id": "presidents-4", "nom": "Présidents de la IVe République", "debut": 1947, "fin": 1959, "regime": "quatrieme" },
+    { "id": "presidents-5", "nom": "Présidents de la Ve République", "debut": 1959, "fin": 2020, "regime": "cinquieme" }
+  ],
+  "societe": "La Révolution proclame l’égalité des citoyens. Au XIXe siècle, l’industrialisation fait naître une classe ouvrière ; le suffrage universel masculin s’impose en 1848, le vote des femmes en 1944. Au XXe siècle, l’exode rural, l’immigration et l’État-providence (Sécurité sociale, 1945) transforment la société.",
+  "economie": "Agriculture, puis industrie (textile, chemins de fer, automobile, aéronautique, nucléaire) ; forte croissance des « Trente Glorieuses » (1945-1975), puis économie de services ; l’euro remplace le franc en 2002.",
+  "decouvertes": ["code-civil"],
+  "arts": "Romantisme (Hugo, Delacroix), réalisme et impressionnisme (Monet, Renoir), cinéma des frères Lumière, surréalisme, Nouvelle Vague ; Paris est longtemps la capitale mondiale des arts.",
+  "quotidien": "Au XXe siècle, la vie des Français change profondément : électricité, automobile, congés payés (1936), télévision, puis Internet.",
+  "heritage": [
+    {
+      "titre": "Les droits de l’homme",
+      "texte": "La Déclaration de 1789 inspire les déclarations des droits du monde entier ; la devise « Liberté, Égalité, Fraternité » est celle de la République."
+    },
+    {
+      "titre": "Le Code civil",
+      "texte": "Le Code de 1804 a servi de modèle à de nombreux pays d’Europe, d’Amérique latine et d’Afrique."
+    },
+    {
+      "titre": "Le système métrique",
+      "texte": "Né pendant la Révolution, il est utilisé presque partout dans le monde."
+    }
+  ],
+  "aSavoir": [
+    "Le 14 juillet, fête nationale depuis 1880, commémore à la fois la prise de la Bastille (1789) et la fête de la Fédération (1790)."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Histoire_de_France",
+    {
+      "titre": "Encyclopædia Britannica — France, history",
+      "url": "https://www.britannica.com/place/France/History"
     }
   ]
 }

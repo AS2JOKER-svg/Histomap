@@ -1,0 +1,19 @@
+{
+  "id": "winston-churchill",
+  "nom": "Winston Churchill",
+  "role": "Premier ministre britannique",
+  "roles": ["Premier ministre", "Écrivain"],
+  "dates": "1874 → 1965",
+  "naissance": 1874,
+  "mort": 1965,
+  "description": "Homme politique britannique qui dirige le pays pendant la Seconde Guerre mondiale et refuse toute paix avec l’Allemagne nazie, alors que le Royaume-Uni se bat presque seul en 1940-1941.",
+  "reperes": [{ "label": "Premier ministre", "valeur": "1940 → 1945 et 1951 → 1955" }],
+  "essentiel": [
+    "Il devient Premier ministre le 10 mai 1940, jour de l’offensive allemande à l’ouest.",
+    "Ses discours galvanisent les Britanniques pendant la [[bataille-d-angleterre|bataille d’Angleterre]].",
+    "Il s’allie aux États-Unis et à l’URSS contre Hitler.",
+    "Il reçoit le prix Nobel de littérature en 1953."
+  ],
+  "aSavoir": ["Sa vision impériale et certaines de ses décisions, notamment en Inde, sont aujourd’hui critiquées."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Winston_Churchill"
+}

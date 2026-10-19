@@ -1,0 +1,28 @@
+{
+  "id": "napoleon-ier",
+  "nom": "Napoléon Ier",
+  "nomComplet": "Napoléon Bonaparte",
+  "role": "Empereur des Français",
+  "roles": ["Général", "Premier consul", "Empereur"],
+  "dates": "1769 → 1821",
+  "naissance": 1769,
+  "mort": 1821,
+  "description": "Général révolutionnaire devenu Premier consul en 1799, puis empereur en 1804, il réorganise la France et domine une grande partie de l’Europe avant d’être vaincu et exilé.",
+  "reperes": [{ "label": "Premier consul", "valeur": "1799 → 1804" }, { "label": "Empereur", "valeur": "1804 → 1815" }],
+  "essentiel": [
+    "Né en Corse, il se fait connaître par ses victoires en Italie (1796-1797).",
+    "Il prend le pouvoir par le coup d’État du 18 Brumaire (1799).",
+    "Il crée le [[code-civil|Code civil]], les préfets, les lycées et la Banque de France.",
+    "Il rétablit l’esclavage dans les colonies en 1802.",
+    "Vaincu en Russie (1812), puis à Waterloo (1815), il meurt en exil à Sainte-Hélène."
+  ],
+  "chronologie": [
+    { "annee": 1799, "texte": "Coup d’État du 18 Brumaire" },
+    { "annee": 1804, "texte": "Sacre et Code civil" },
+    { "annee": 1805, "texte": "Victoire d’Austerlitz" },
+    { "annee": 1812, "texte": "Retraite de Russie" },
+    { "annee": 1815, "texte": "Défaite de Waterloo" },
+    { "annee": 1821, "texte": "Mort à Sainte-Hélène" }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Napol%C3%A9on_Ier"
+}

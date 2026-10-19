@@ -1,0 +1,46 @@
+{
+  "id": "iberes",
+  "label": "Peuples Ibères",
+  "tier": 1,
+  "region": "peninsule-iberique",
+  "period": "-600 à -19",
+  "start": -600,
+  "end": -19,
+  "color": "#bcaaa4",
+  "trackId": "iberes",
+  "row": 6,
+  "isRiver": false,
+  "capitale": "Oppida",
+  "description": "Guerriers farouches de la péninsule hispanique, maîtres de la forge, coincés dans l'étau du choc des titans entre Rome et Carthage.",
+  "territories": ["Celtiberians"],
+  "datesCles": [
+    {
+      "annee": -218,
+      "evenement": "Débarquement romain",
+      "info": "La 2e Guerre punique transforme la péninsule en champ de bataille mondial."
+    },
+    {
+      "annee": -19,
+      "evenement": "Guerres Cantabres",
+      "info": "L'empereur Auguste achève dans le sang la pacification de toute l'Hispanie."
+    }
+  ],
+  "dirigeants": [{ "titre": "Chef des Ilergètes", "nom": "Indíbil", "debut": -220, "fin": -205 }],
+  "personnages": [],
+  "guerres": [
+    {
+      "nom": "Guerres celtibères & numantines",
+      "annee": -154,
+      "adversaires": ["République Romaine"],
+      "allies": [],
+      "morts": "Destruction des élites celtibères",
+      "vainqueur": "Rome (Scipion Émilien)",
+      "consequences": "La chute de la cité celtibère de Numance (-133) brise la résistance celtibère, mais la conquête de toute l'Hispanie ne s'achève qu'avec les guerres cantabres (-19).",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_de_Numance"
+    }
+  ],
+  "sciences": "Leur apport technique majeur au monde antique est la sidérurgie de l'acier (les mines d'Hispanie). Ils inventent la redoutable 'Falcata', une épée courte courbée asymétriquement capable de trancher les casques et les boucliers. Le glaive romain (gladius hispaniensis) ne dérive pas de la falcata, mais d'épées droites celtibères adoptées par Rome.",
+  "croyancesText": "Culture fortement influencée par les Phéniciens et les Grecs installés sur leurs côtes. Ils pratiquent un art sculptural distinctif de figures féminines divines aux parures somptueuses (la Dame d'Elche, la Dame de Baza), associées à des cultes de fécondité, et incinèrent leurs morts héroïques en pliant ou détruisant volontairement leurs armes dans les tombes.",
+  "diplomatie": "Les Ibères et les Celtibères ne se battent pas en rangs serrés, mais privilégient les embuscades et le harcèlement. Fortement tribaux, ils scellent des alliances (hospitium) ; les Celtibères, surtout, échangent des tessères de bronze (jetons de pacte). Ils fournissent la majorité des troupes d'élite à l'armée carthaginoise d'Hannibal contre Rome.",
+  "documentaires": [{ "titre": "L'Hispanie avant Rome", "url": "https://fr.wikipedia.org/wiki/Ib%C3%A8res" }]
+}

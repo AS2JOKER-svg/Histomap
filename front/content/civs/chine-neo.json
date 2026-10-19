@@ -1,0 +1,52 @@
+{
+  "id": "chine-neo",
+  "label": "Chine néolithique",
+  "tier": 1,
+  "region": "chine",
+  "period": "-1 700 000 à -2 000",
+  "start": -1700000,
+  "end": -2000,
+  "trackId": "chine",
+  "row": 1,
+  "isRiver": true,
+  "capitale": "Bassins du Fleuve Jaune et du Yangtsé",
+  "description": "Des premiers foyers d'Homo erectus aux puissantes cultures agricoles de Yangshao et Longshan, jetant les bases de la civilisation chinoise.",
+  "territories": [],
+  "datesCles": [
+    {
+      "annee": -750000,
+      "evenement": "L'Homme de Pékin",
+      "info": "Un Homo erectus découvert dans la grotte de Zhoukoudian, daté selon les études entre -780 000 et -400 000 ans environ. Son usage du feu est débattu."
+    },
+    {
+      "annee": -7000,
+      "evenement": "Riziculture et Millet",
+      "info": "Apparition de la culture du millet au nord (Fleuve Jaune) et du riz au sud (Yangtsé)."
+    },
+    {
+      "annee": -5000,
+      "evenement": "Culture de Yangshao",
+      "info": "Sédentarisation massive avec la création de superbes céramiques peintes."
+    },
+    {
+      "annee": -3000,
+      "evenement": "Culture de Longshan",
+      "info": "Apparition des murs en pisé, de la poterie noire ultra-fine et des guerres tribales."
+    }
+  ],
+  "dirigeants": [],
+  "personnages": [
+    {
+      "nom": "Fuxi et Nuwa",
+      "role": "Héros mythologiques",
+      "description": "Souverains légendaires de la mythologie chinoise, crédités de l'invention de la chasse, de la pêche, du mariage et de la musique.",
+      "dates": "Figures mythiques, sans date historique",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Nuwa"
+    }
+  ],
+  "guerres": [],
+  "sciences": "Deux pôles d'innovation coexistent : le bassin du fleuve Jaune, aride, spécialisé dans le millet, et le bassin du Yangtsé, inondable, qui invente la riziculture. Dès cette époque, la Chine se distingue par des inventions précoces qui deviendront ses monopoles : l'élevage du ver à soie pour la création de tissus, et le travail rituel du jade, une pierre si dure qu'elle ne se taille pas mais s'use par abrasion.",
+  "croyancesText": "Le respect fondamental des ancêtres, pilier de la mentalité chinoise, naît ici. On ne vénère pas de dieux olympiens, mais les esprits de la nature et les fondateurs du clan. La culture de Longshan systématise la scapulomancie (divination) : on craquèle des omoplates d'animaux au feu pour y lire l'avenir, une pratique qui donnera directement naissance à l'écriture chinoise.",
+  "diplomatie": "À la fin de la période (culture de Longshan), l'accroissement démographique provoque une violente compétition pour les terres arables. Les villages se dotent d'immenses remparts en terre damée (pisé). L'archéologie révèle l'apparition d'armes spécialisées (haches d'armes) et de tombes très riches contrastant avec des fosses communes, marquant la naissance des premières aristocraties guerrières.",
+  "documentaires": [{ "titre": "Wikipédia : Néolithique chinois", "url": "https://fr.wikipedia.org/wiki/N%C3%A9olithique_chinois" }]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "usa-moderne",
+  "label": "États-Unis d'Amérique (Fondation)",
+  "tier": 1,
+  "region": "amerique-nord",
+  "period": "1776 à 1789",
+  "start": 1776,
+  "end": 1789,
+  "trackId": "usa",
+  "row": 3,
+  "isRiver": false,
+  "capitale": "Philadelphie puis New York (capitale en 1789)",
+  "description": "La rébellion politique de treize colonies britanniques qui, aidées par la France, vont inventer la démocratie constitutionnelle moderne.",
+  "territories": ["United States of America"],
+  "datesCles": [
+    {
+      "annee": 1773,
+      "evenement": "Boston Tea Party",
+      "info": "Les colons jettent les cargaisons de thé à l'eau pour protester contre les impôts anglais ('No taxation without representation')."
+    },
+    {
+      "annee": 1776,
+      "evenement": "Déclaration d'Indépendance",
+      "info": "Le 4 juillet, rédigée par Thomas Jefferson, proclamant le droit au 'bonheur' et l'égalité des hommes (blancs)."
+    },
+    {
+      "annee": 1781,
+      "evenement": "Bataille de Yorktown",
+      "info": "L'armée française de Rochambeau, la flotte de l'amiral de Grasse et les Américains de Washington (dont La Fayette) obligent l'armée britannique à capituler."
+    },
+    {
+      "annee": 1787,
+      "evenement": "La Constitution",
+      "info": "Les pères fondateurs instaurent la première république fédérale présidentielle moderne."
+    }
+  ],
+  "dirigeants": [{ "titre": "1er Président", "nom": "George Washington", "debut": 1789, "fin": 1797 }],
+  "personnages": [
+    {
+      "nom": "Benjamin Franklin",
+      "role": "Polymathe et Diplomate",
+      "description": "L'incarnation des Lumières américaines. Physicien (le paratonnerre), imprimeur, c'est son génie diplomatique qui convaincra le roi de France de financer la Révolution américaine.",
+      "dates": "1706 à 1790",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Benjamin_Franklin"
+    },
+    {
+      "nom": "Marquis de La Fayette",
+      "role": "Général",
+      "description": "Le 'Héros des deux mondes'. Ce jeune noble français finança son propre navire pour venir libérer l'Amérique, forgeant l'alliance éternelle franco-américaine.",
+      "dates": "1757 à 1834",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Gilbert_du_Motier_de_La_Fayette"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerre d'indépendance des États-Unis",
+      "annee": 1775,
+      "adversaires": ["Empire Britannique (George III)"],
+      "allies": ["Royaume de France", "Royaume d'Espagne"],
+      "morts": "Env. 25 000 patriotes américains",
+      "vainqueur": "États-Unis d'Amérique",
+      "consequences": "Traité de Paris (1783) reconnaissant l'indépendance. Le fardeau financier de cette guerre précipitera la France dans sa propre Révolution de 1789.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_d'ind%C3%A9pendance_des_%C3%89tats-Unis"
+    }
+  ],
+  "sciences": "Outre les inventions pratiques de Franklin (paratonnerre, lunettes à double foyer), l'innovation majeure de la jeune nation est la 'Science politique'. La Constitution (1787) met en pratique stricte la théorie européenne de Montesquieu sur la séparation des pouvoirs : Législatif (Congrès), Exécutif (Président), Judiciaire (Cour Suprême), avec un système d'équilibre ('Checks and Balances').",
+  "croyancesText": "Profondément marqués par le puritanisme de la Nouvelle-Angleterre (le Mayflower, le mythe de la 'Cité sur la Colline'), les Pères fondateurs (majoritairement déistes ou protestants) accomplissent une révolution : le Premier Amendement (1791) interdit au Congrès d'établir une religion officielle : il n'existe donc pas de religion officielle fédérale, tandis que la société reste très croyante.",
+  "diplomatie": "La guerre d'indépendance était ingagnable militairement seule. Les miliciens et 'Minutemen' de Washington, mal équipés, survivaient dans les hivers de Valley Forge. Le salut vint du Traité d'alliance franco-américain de 1778. L'envoi par Louis XVI de millions de livres d'or, d'armes, de l'escadre de l'amiral de Grasse et de l'armée de Rochambeau a coulé la couronne française mais sauvé l'Amérique naissante.",
+  "documentaires": [
+    {
+      "titre": "La Révolution américaine : Naissance d'une nation",
+      "url": "https://fr.wikipedia.org/wiki/R%C3%A9volution_am%C3%A9ricaine"
+    }
+  ]
+}

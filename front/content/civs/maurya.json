@@ -1,0 +1,61 @@
+{
+  "id": "maurya",
+  "label": "Empire Maurya (Inde)",
+  "tier": 1,
+  "region": "asie-sud",
+  "period": "-322 à -185",
+  "start": -322,
+  "end": -185,
+  "trackId": "inde",
+  "row": 6,
+  "isRiver": true,
+  "capitale": "Pataliputra",
+  "description": "Le premier empire centralisé du sous-continent indien, célèbre pour le règne d'Ashoka qui transforma une doctrine politique militariste en empire de la tolérance bouddhique.",
+  "territories": ["Mauryan Empire"],
+  "datesCles": [
+    {
+      "annee": -322,
+      "evenement": "Fondation",
+      "info": "Chandragupta Maurya unifie le nord de l'Inde dans le chaos post-Alexandre le Grand."
+    },
+    {
+      "annee": -261,
+      "evenement": "Guerre du Kalinga",
+      "info": "Victoire si sanglante que l'empereur Ashoka renonce à jamais à la violence."
+    },
+    {
+      "annee": -250,
+      "evenement": "Édits d'Ashoka",
+      "info": "L'empereur fait graver des piliers partout en Inde pour diffuser les valeurs bouddhistes du Dharma."
+    }
+  ],
+  "dirigeants": [
+    { "titre": "Samrat (Empereur)", "nom": "Chandragupta", "debut": -322, "fin": -298 },
+    { "titre": "Samrat", "nom": "Ashoka", "surnom": "Le Grand / Le Cruel devenu Le Pieux", "debut": -268, "fin": -232 }
+  ],
+  "personnages": [
+    {
+      "nom": "Chanakya (Kautilya)",
+      "role": "Ministre et Stratège",
+      "description": "L'équivalent indien de Machiavel. Auteur de l'Arthashastra, un traité politique de cynisme et d'espionnage d'État redoutable.",
+      "dates": "≈ -350 à -283",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Ch%C3%A2nakya"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerre du Kalinga",
+      "annee": -261,
+      "adversaires": ["République du Kalinga"],
+      "allies": [],
+      "morts": "100 000 soldats, 150 000 civils",
+      "vainqueur": "Empire Maurya",
+      "consequences": "Traumatisme moral et spirituel majeur d'Ashoka entraînant sa conversion au bouddhisme et la fin des conquêtes.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_du_Kalinga"
+    }
+  ],
+  "sciences": "Sous l'impulsion de l'Arthashastra, l'État maurya est une immense machine bureaucratique. L'Inde standardise les poids, mesures et monnaies. La médecine ayurvédique et la chirurgie de guerre se perfectionnent, et Pataliputra devient l'une des villes les plus immenses et majestueuses du monde, entourée, selon l'ambassadeur grec Mégasthène, d'une palissade de bois percée de 64 portes.",
+  "croyancesText": "Le règne d'Ashoka est la plateforme de lancement mondiale du bouddhisme. Choqué par les atrocités de la guerre, l'empereur se convertit et instaure l'Ahimsa (la non-violence absolue envers les humains et les animaux). Il ne persécute pas l'Hindouisme ou le Jaïnisme, imposant au contraire une tolérance religieuse d'État révolutionnaire financée par le trésor impérial.",
+  "diplomatie": "Avant Ashoka, la diplomatie repose sur l'espionnage paranoïaque et les armées d'éléphants. Après sa conversion, l'expansion militaire s'arrête net. Ashoka envoie alors des missionnaires (ambassadeurs religieux) vers la Perse, la Syrie, l'Égypte gréco-macédonienne et au Sri Lanka pour prêcher le Dharma, substituant la conquête militaire par le soft-power culturel.",
+  "documentaires": [{ "titre": "Ashoka, l'empereur bouddhiste de l'Inde", "url": "https://fr.wikipedia.org/wiki/Empire_Maurya" }]
+}

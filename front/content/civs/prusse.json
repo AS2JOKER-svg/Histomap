@@ -1,0 +1,53 @@
+{
+  "id": "prusse",
+  "label": "Royaume de Prusse",
+  "tier": 1,
+  "region": "europe-centrale",
+  "period": "1701 à 1789",
+  "start": 1701,
+  "end": 1789,
+  "trackId": "allemagne",
+  "row": 6,
+  "isRiver": false,
+  "capitale": "Berlin / Potsdam",
+  "description": "D'un duché pauvre et sablonneux à l'armée la plus crainte d'Europe : 'La Prusse n'est pas un État avec une armée, mais une armée avec un État'.",
+  "territories": ["Prussia", "Hohenzollern"],
+  "datesCles": [
+    {
+      "annee": 1701,
+      "evenement": "Royaume de Prusse",
+      "info": "L'électeur de Brandebourg se couronne lui-même Roi avec l'accord de l'Empereur."
+    },
+    {
+      "annee": 1740,
+      "evenement": "Guerres de Silésie",
+      "info": "Frédéric II arrache cette riche province à l'Autriche de Marie-Thérèse."
+    },
+    {
+      "annee": 1756,
+      "evenement": "Guerre de Sept Ans",
+      "info": "La Prusse affronte victorieusement seule les trois plus grandes armées du continent."
+    }
+  ],
+  "dirigeants": [
+    { "titre": "Roi en Prusse", "nom": "Frédéric-Guillaume Ier", "surnom": "Le Roi-Sergent", "debut": 1713, "fin": 1740 },
+    { "titre": "Roi de Prusse", "nom": "Frédéric II", "surnom": "Frédéric le Grand", "debut": 1740, "fin": 1786 }
+  ],
+  "personnages": [],
+  "guerres": [
+    {
+      "nom": "Guerre de Sept Ans (Front Européen)",
+      "annee": 1756,
+      "adversaires": ["France", "Autriche", "Russie", "Suède"],
+      "allies": ["Grande-Bretagne (soutien financier)"],
+      "morts": "Près d'un million en Europe centrale",
+      "vainqueur": "Prusse",
+      "consequences": "Sauvée in extremis par le retrait miracle de la Russie (Le 'Miracle de la maison de Brandebourg'), la Prusse conserve la Silésie et s'impose comme une puissance majeure.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_de_Sept_Ans"
+    }
+  ],
+  "sciences": "Invention du système des 'Cantons' (Kantonssystem), une proto-conscription obligatoire très en avance sur son temps. Les soldats prussiens s'entraînent avec une baguette de fer (invention de Dessauer) leur permettant de tirer 4 coups à la minute contre 2 pour les armées ennemies. La Prusse rend l'école primaire obligatoire dès 1717, obligation renforcée par le règlement scolaire de 1763 sous Frédéric II (d'autres États allemands, comme la Saxe-Gotha en 1642, l'avaient précédée).",
+  "croyancesText": "La dynastie est calviniste depuis 1613 et gouverne une population surtout luthérienne ; elle applique la vision de l'Absolutisme éclairé : une tolérance religieuse utilitariste absolue. Dès 1685, l'édit de Potsdam du Grand Électeur accueille environ 20 000 protestants français (huguenots). Plus tard, Frédéric II fait construire une cathédrale catholique en plein Berlin protestant et accueille les Jésuites bannis d'ailleurs, absorbant leur précieux savoir-faire artisanal et intellectuel.",
+  "diplomatie": "Sa géographie éclatée l'oblige à l'agressivité militaire préventive. Pour relier la Prusse-Orientale au Brandebourg, Frédéric II n'hésitera pas à organiser avec la Russie et l'Autriche le dépeçage pur et simple du Royaume de Pologne (Partages de la Pologne). Il invite Voltaire à sa cour (Palais de Sanssouci) pour donner un vernis philosophique à sa politique machiavélique.",
+  "documentaires": [{ "titre": "Frédéric le Grand, l'énigme prussienne", "url": "https://fr.wikipedia.org/wiki/Royaume_de_Prusse" }]
+}

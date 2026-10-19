@@ -4,67 +4,107 @@ Petit mode d'emploi pour ajouter ou modifier du contenu et des pages sans rien c
 
 ---
 
-## 1. Ajouter / modifier une civilisation
+## 1. Le contenu : `front/content/`
 
-### Où ?
-Les données ne se modifient **jamais** directement dans `src/data/epochs.json` : c'est un fichier **généré**, il est écrasé à chaque `npm run data`.
-On édite les **sources** dans `scripts/` :
+Tout le contenu vit dans **`front/content/`**, en JSON, **un fichier par unité** (une civilisation, une personne…).
+Le site ne lit jamais ces fichiers directement : `scripts/build-content.mjs` les compile dans `src/data/`
+(**fichiers générés, ignorés par git : ne jamais les éditer**). `npm run dev`, `npm run data` et `npm run build` le font automatiquement.
 
-| Fichier | Époque |
+| Fichier | Rôle |
 |---|---|
-| `scripts/data-part1.mjs` | Préhistoire |
-| `scripts/data-part2.mjs` | Antiquité |
-| `scripts/data-part3.mjs` | Moyen Âge |
-| `scripts/data-part4.mjs` | Époque moderne, Époque contemporaine |
-| `scripts/build-epochs.mjs` | Assemble tout → `src/data/epochs.json` |
-| `scripts/validate-data.mjs` | Vérifie les données (lancé automatiquement) |
+| `content/epochs.json` | Le plan du site : époques → continents → **liste ordonnée des ids** des civilisations |
+| `content/civs/<id>.json` | Une fiche par civilisation |
+| `content/people/<id>.json` | Fiches liées : personnes |
+| `content/events/<id>.json` | Fiches liées : événements |
+| `content/discoveries/<id>.json` | Fiches liées : découvertes, inventions, œuvres |
+| `content/lineages.json` | Même civilisation sur plusieurs époques (couleur commune, « La suite ») |
+| `content/regions.json` | Régions actuelles normalisées (champ `region` des fiches) |
+| `content/conflicts.json` | Lieu de chaque guerre sur la carte |
+| `content/ignore-territories.json` | Territoires des cartes volontairement sans fiche |
 
-### Dans quel ordre ?
-1. Ouvrir le bon `data-partX.mjs`, trouver le bon continent (`europe`, `asie`, `afrique`, `amerique`).
-2. Ajouter/modifier un objet civilisation dans `civilizations`.
-3. Régénérer **et valider** :
+### Ajouter une civilisation
+1. Créer `content/civs/<id>.json` (copier une fiche existante, par exemple `carthage.json`). Le nom du fichier **est** l'id.
+2. Ajouter l'id dans `content/epochs.json`, dans la liste `civs` du bon continent, à la place voulue (l'ordre est celui des listes et des quiz).
+3. Compiler **et valider** :
    ```bash
    cd front && npm run data
    ```
-4. Vérifier dans le navigateur (`npm run dev`).
+4. Vérifier dans le navigateur (`npm run dev`), puis `npm run coverage` pour voir le trou comblé.
 
-### Structure d'une civilisation
-```js
+### Structure d'une fiche de civilisation
+```jsonc
 {
-  id: "france-capet",          // OBLIGATOIRE, UNIQUE dans tout le site (sert dans l'URL)
-  trackId: "france",           // optionnel : civs qui partagent une même ligne de frise
-  row: 1,                      // optionnel : ordre vertical dans le continent
-  label: "France (Capétiens)",
-  period: "987 à 1492",        // texte affiché
-  start: 987,                  // NOMBRE (négatif = av. J.-C.)
-  end: 1492,                   // NOMBRE, strictement > start
-  color: "#2c6fd1",            // couleur hexadécimale
-  isRiver: false,
-  capitale: "Paris",
-  description: "…",
-  datesCles:   [{ annee, evenement, info }],
-  dirigeants:  [{ titre, nom, surnom, debut, fin }],
-  personnages: [{ nom, role, description, dates, wikiUrl }],
-  guerres:     [{ nom, annee, adversaires: [], allies: [], morts, vainqueur, consequences, wikiUrl }],
-  sciences: "texte…",
-  croyancesText: "texte…",
-  diplomatie: "texte…",
-  documentaires: [{ titre, url }]
+  "id": "france-capet",            // OBLIGATOIRE = nom du fichier, unique dans tout le site (sert dans l'URL)
+  "label": "France (Capétiens)",
+  "tier": 1,                       // 1 majeure, 2 secondaire, 3 mineure
+  "region": "europe-ouest",        // id de content/regions.json (région ACTUELLE du cœur de la civilisation)
+  "period": "987 à 1492",          // texte affiché
+  "start": 987,                    // NOMBRE (négatif = av. J.-C.)
+  "end": 1492,                     // NOMBRE, strictement > start
+  "color": "#2c6fd1",              // SAUF si la civilisation est dans une lignée (la couleur vient alors de la lignée)
+  "trackId": "france",             // optionnel : civilisations qui partagent une même ligne de frise
+  "row": 1,                        // optionnel : ordre vertical dans le continent
+  "isRiver": false,
+  "capitale": "Paris",
+  "description": "…",
+  "territories": ["Kingdom of France", "France"],   // noms ANGLAIS des territoires sur les cartes (voir plus bas)
+  "datesCles":   [{ "annee": 1214, "evenement": "Bouvines", "info": "…", "ref": "bataille-de-bouvines" }],
+  "dirigeants":  [{ "nom": "Philippe II", "titre": "Roi", "surnom": "Auguste", "debut": 1180, "fin": 1223,
+                    "dynastie": "capetiens-directs", "personne": "philippe-auguste" }],
+  "dynasties":   [{ "id": "capetiens-directs", "nom": "Capétiens directs", "debut": 987, "fin": 1328 }],
+  "personnages": [{ "nom": "…", "role": "…", "description": "…", "dates": "1412 à 1431", "wikiUrl": "https://…", "ref": "jeanne-d-arc" }],
+  "guerres":     [{ "nom": "…", "annee": 1337, "adversaires": [], "allies": [], "morts": "…", "vainqueur": "…", "consequences": "…", "wikiUrl": "https://…" }],
+  "sciences": "texte…",
+  "croyancesText": "texte…",
+  "diplomatie": "texte…",
+  "documentaires": [{ "titre": "…", "url": "https://…" }],
+  "sources": ["https://fr.wikipedia.org/wiki/…"]
 }
 ```
+- Champs facultatifs : `trackId`, `row`, `surnom`, `dynastie`, `personne`, `dynasties`, `ref`, `sources`.
+- `ref` (date clé → événement, personnage → personne) et `personne` (dirigeant → personne) relient la ligne à une **fiche liée** : elle deviendra cliquable.
+- `dynastie` doit exister dans `dynasties` de la même fiche.
+- **Un champ inconnu est une erreur** (une faute de frappe comme `dirigeant` au lieu de `dirigeants` ne passe pas).
+
+### Fiches liées (personnes, événements, découvertes)
+Une fiche liée est **partagée** : Jules César a une seule fiche, citée par Rome, les Celtes, l'Égypte…
+```jsonc
+// content/people/jules-cesar.json
+{ "id": "jules-cesar", "nom": "Jules César", "role": "Général et homme d'État", "dates": "-100 à -44",
+  "naissance": -100, "mort": -44, "description": "…", "wikiUrl": "https://…", "sources": ["https://…"] }
+// content/events/<id>.json      : { id, nom, annee (obligatoire), fin?, lieu?, description, wikiUrl?, sources? }
+// content/discoveries/<id>.json : { id, nom, annee?, domaine?, description, wikiUrl?, sources? }
+```
+Les ids sont **uniques dans tout le site**, civilisations comprises (minuscules, chiffres, tirets).
+« Apparaît dans » (les fiches qui citent celle-ci) est calculé automatiquement.
+
+### Liens dans les textes
+Dans **n'importe quel texte** de `content/` (description, info d'une date, sciences, description d'une personne…) :
+- `[[jules-cesar]]` → affiche le nom de la fiche (« Jules César ») ;
+- `[[jules-cesar|César]]` → affiche « César ».
+
+L'id peut être une civilisation ou une fiche liée. Un lien vers une fiche inexistante, ou des crochets mal fermés, **bloquent le build**.
+Les quiz et les cartes générées utilisent le texte brut (sans les crochets).
 
 ### Le validateur (`npm run validate`)
-Il tourne avant **chaque build** (en local et sur GitHub Actions).
-- **Erreur** ❌ → le build s'arrête : id dupliqué, date non numérique, `start ≥ end`, couleur invalide, champ obligatoire manquant…
-- **Alerte** ⚠️ → le build continue, mais le contenu mérite un coup d'œil (date clé hors de la période de la civilisation, etc.).
+Il tourne avant **chaque build** (en local et sur GitHub Actions). Objectif : **0 erreur et 0 alerte**.
+- **Erreur** ❌ → le build s'arrête : id dupliqué, fiche absente de `epochs.json`, date non numérique, `start ≥ end`, région ou tier invalide,
+  champ inconnu, lien ou référence vers une fiche inexistante, couleur en double avec une lignée…
+- **Alerte** ⚠️ → le build continue, mais le contenu mérite un coup d'œil (date clé hors de la période, guerre sans lieu sur la carte…).
+- Les messages donnent le fichier exact (`content/civs/rome.json (dirigeant « Auguste ») — …`).
 
 ### Relier une civilisation d'une époque à l'autre (lignées)
-Dans `scripts/lineages.mjs` : une lignée = une couleur + la liste des ids dans l'ordre chronologique.
-```js
-{ id: 'france', label: 'France', color: '#3f6fd1', members: ['francs', 'france-capet', 'france-mod', 'france-contemp'] }
+Dans `content/lineages.json` : une lignée = une couleur + la liste des ids dans l'ordre chronologique.
+```json
+{ "id": "france", "label": "France", "color": "#3f6fd1", "members": ["francs", "france-capet", "france-mod", "france-contemp"] }
 ```
-Après `npm run data`, tous les membres prennent la même couleur (frise, carte, fiches) et gagnent les liens
-« ← Avant / La suite → » (champ `lineage` généré dans `epochs.json`). Une civilisation n'appartient qu'à une lignée.
+Tous les membres prennent la couleur de la lignée (leurs fiches n'ont donc **pas** de `color`) et gagnent les liens
+« ← Avant / La suite → ». Une civilisation n'appartient qu'à une lignée.
+
+### Rapport de couverture (`npm run coverage`)
+Affiche le tableau **région × siècle** (combien de civilisations actives, où sont les trous) et la liste des **territoires des
+cartes sans fiche**, classés par nombre de cartes. Rapport complet : `reports/couverture.md` (généré).
+Pour exclure volontairement un territoire (mode de vie générique, colonie, micro-État) : `content/ignore-territories.json`.
 
 ### Écrire un chapitre de révision (« On avance »)
 **Les 105 civilisations ont un chapitre rédigé** (cartes + quiz + bilan) dans `src/data/revision/<id>.js`.
@@ -82,7 +122,7 @@ un petit fichier chargé seulement quand on l'ouvre (`src/lib/chapters.js`).
 - `npm run validate` vérifie les chapitres rédigés (`scripts/validate-revision.mjs`) : ids uniques, types de cartes,
   bonne réponse existante, années de carte disponibles. Une erreur bloque le build.
 - Pour vérifier un nouveau fichier avant de l'enregistrer : `node scripts/validate-revision.mjs src/data/revision/mon-chapitre.js`.
-- Carte `map` : prendre des années listées pour la civilisation dans `src/data/map-presence.json` (sinon la mini-carte n'a rien à colorer).
+- Carte `map` : prendre des années listées pour la civilisation dans `src/data/map-presence.json` (généré par `npm run data`) (sinon la mini-carte n'a rien à colorer).
 
 ### Questions de quiz
 Chaque chapitre a un réservoir de questions **générées automatiquement** (≈ 38 en moyenne, de 20 à 67) :
@@ -100,9 +140,9 @@ Pour ajouter des questions rédigées à la main, compléter le tableau `quiz` d
 - Règles (dans `src/lib/quiz.js`) : 20 questions, validé dès 15/20 ; après un échec, 5 questions ratées reviennent avec 15 nouvelles.
 
 ### Relier une civilisation à la carte
-Dans `src/data/map-links.js` :
-- `TERRITORIES['mon-id']` = noms **anglais** des territoires sur les cartes historiques (ex. `'Kingdom of France'`). La liste des noms disponibles par année est dans `public/map/index.json`.
-- `CONFLICTS['Nom exact de la guerre']` = `[longitude, latitude]` du lieu emblématique.
+- `territories` dans la fiche = noms **anglais** des territoires sur les cartes historiques (ex. `"Kingdom of France"`).
+  La liste des noms disponibles par année est dans `public/map/index.json` ; `npm run coverage` liste ceux qui n'ont pas de fiche.
+- `content/conflicts.json` : `"Nom exact de la guerre": { "coords": [longitude, latitude], "lieu": "Cannes" }` (lieu facultatif).
 - Le validateur signale un nom de territoire introuvable ou une guerre sans coordonnées.
 
 ---
@@ -120,9 +160,12 @@ Dans `src/data/map-links.js` :
 | L'aperçu d'une civilisation (tiroir) | `src/components/timeline/CivPreview.jsx` |
 | Les échelles de temps (linéaire / log) | `src/lib/time.js` (`createEpochScale`) |
 | La fiche d'une civilisation | `src/pages/CivilizationPage.jsx` |
+| Accès aux données (index léger, détail à la demande) | `src/lib/data.js` (`loadCiv`, `useCiv`) |
+| Compilation et validation du contenu | `scripts/build-content.mjs`, `scripts/validate-content.mjs`, `scripts/lib/` |
+| Liens `[[id]]` dans les textes | `src/lib/links.js` + `src/components/ui/RichText.jsx` |
 | La carte du monde | `src/pages/MapPage.jsx` + `src/components/map/` + `src/lib/map.js` |
-| Relier une civilisation à la carte, placer un conflit | `src/data/map-links.js` |
-| Lignées (même civilisation sur plusieurs époques) | `scripts/lineages.mjs` + `src/components/LineageTrail.jsx` |
+| Relier une civilisation à la carte, placer un conflit | `content/civs/<id>.json` (`territories`) + `content/conflicts.json` |
+| Lignées (même civilisation sur plusieurs époques) | `content/lineages.json` + `src/components/LineageTrail.jsx` |
 | Progression (fiches lues, reprendre, série) | `src/store/progress.js` + `src/components/progress/` |
 | Messages éphémères (toasts) | `useUI().showToast({ text, tone })` dans `src/store/ui.js` |
 | On avance : hub, choix du chapitre, chapitre | `src/pages/RevisePage.jsx`, `ReviseEpochPage.jsx`, `ChapterPage.jsx` |
@@ -134,7 +177,7 @@ Dans `src/data/map-links.js` :
 | Les icônes | `src/components/ui/Icon.jsx` |
 
 ### À garder en tête
-- **Les pages ne lisent pas le JSON directement** : elles passent par `src/lib/data.js` (`getEpoch`, `getCivilization`…).
+- **Les pages ne lisent pas le JSON directement** : elles passent par `src/lib/data.js`. `getEpoch`, `getCivilization`… renvoient la version **légère** (frise, listes) ; le détail (dates, dirigeants, textes…) se charge avec `useCiv(id)` / `loadCiv(id)`.
 - **Couleurs** : utiliser les classes de thème (`text-ink`, `text-muted`, `bg-surface`, `bg-surface2`, `border-line`, `text-accent`…) plutôt que `bg-white` ou `text-gray-500`, sinon le mode sombre casse.
 - **Boutons** : classes prêtes à l'emploi `btn-primary`, `btn-secondary`, `btn-ghost`, `btn-icon` (zone tactile ≥ 44 px).
 - **`localStorage`** : toujours passer par `src/lib/storage.js` (protégé contre la navigation privée).

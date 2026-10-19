@@ -1,0 +1,79 @@
+{
+  "id": "egypte",
+  "label": "Égypte antique",
+  "tier": 1,
+  "region": "egypte",
+  "period": "-3 150 à -30",
+  "start": -3150,
+  "end": -30,
+  "color": "#e6c229",
+  "trackId": "egypte",
+  "row": 1,
+  "isRiver": true,
+  "capitale": "Memphis puis Thèbes",
+  "description": "Trois millénaires de civilisation pharaonique bâtis sur les crues régulières du Nil, alliant ingénierie colossale et théocratie absolue.",
+  "territories": ["Egypt"],
+  "datesCles": [
+    {
+      "annee": -3150,
+      "evenement": "Unification de l'Égypte",
+      "info": "Le pharaon Narmer unifie la Haute et la Basse-Égypte."
+    },
+    {
+      "annee": -2560,
+      "evenement": "Grande Pyramide de Gizeh",
+      "info": "Achevement du tombeau de Khéops (146m), la seule des 7 merveilles du monde encore debout."
+    },
+    {
+      "annee": -1353,
+      "evenement": "Révolution amarnienne",
+      "info": "Akhenaton tente d'imposer le culte unique d'Aton."
+    },
+    {
+      "annee": -30,
+      "evenement": "Mort de Cléopâtre VII",
+      "info": "Suicide de la dernière reine, l'Égypte devient une simple province romaine."
+    }
+  ],
+  "dirigeants": [
+    { "titre": "Pharaon (Ancien Empire)", "nom": "Khéops", "surnom": "Le Bâtisseur", "debut": -2589, "fin": -2566 },
+    {
+      "titre": "Pharaon (Nouvel Empire)",
+      "nom": "Hatchepsout",
+      "surnom": "La Reine-Pharaon",
+      "debut": -1478,
+      "fin": -1458
+    },
+    { "titre": "Pharaon (Nouvel Empire)", "nom": "Ramsès II", "surnom": "Le Grand", "debut": -1279, "fin": -1213 }
+  ],
+  "personnages": [
+    {
+      "nom": "Imhotep",
+      "role": "Vizir et architecte",
+      "description": "Concepteur de la pyramide à degrés de Djoser, plus tard divinisé comme dieu de la médecine.",
+      "dates": "≈ -2650",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Imhotep"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Bataille de Qadesh",
+      "annee": -1274,
+      "adversaires": ["Empire Hittite (Muwatalli II)"],
+      "allies": ["Mercenaires Shardanes"],
+      "morts": "Inconnu (chars détruits en masse)",
+      "vainqueur": "Statu quo (Revendiqué par Ramsès II)",
+      "consequences": "Signature du plus ancien traité de paix paritaire de l'histoire.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Qadesh"
+    }
+  ],
+  "sciences": "L'Égypte antique est la civilisation de la géométrie et de l'hydraulique. Les crues annuelles du Nil effaçant les limites des champs, ils ont inventé l'arpentage et la géométrie de précision. Ils maîtrisent la médecine (papyrus d'Edwin Smith détaillant la chirurgie et la suture), l'architecture monumentale en pierre de taille, et inventent le calendrier solaire de 365 jours ainsi que le papyrus, révolutionnant le support de l'écriture hiéroglyphique.",
+  "croyancesText": "Le pharaon est l'incarnation d'Horus sur terre, garant de la 'Maât' (l'harmonie et la justice cosmique) contre le chaos (Isefet). La religion est dominée par le mythe d'Osiris, assassiné puis ressuscité, qui promet une vie après la mort à condition de préserver l'intégrité du corps par la momification et d'avoir un cœur plus léger que la plume de la vérité lors de la pesée des âmes.",
+  "diplomatie": "Longtemps isolée et protégée par ses déserts, l'Égypte adopte une diplomatie d'empire lors du Nouvel Empire, étendant son influence jusqu'en Syrie. Elle utilise un réseau d'ambassadeurs et des mariages diplomatiques pour sceller des alliances, documentés par les fameuses 'Lettres d'Amarna' écrites en cunéiforme diplomatique akkadien.",
+  "documentaires": [
+    {
+      "titre": "Planète Égypte : La naissance d'un empire",
+      "url": "https://fr.wikipedia.org/wiki/%C3%89gypte_antique"
+    }
+  ]
+}

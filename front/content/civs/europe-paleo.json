@@ -1,0 +1,70 @@
+{
+  "id": "europe-paleo",
+  "label": "Europe paléolithique",
+  "tier": 1,
+  "region": "europe-ouest",
+  "period": "-500 000 à -12 000",
+  "start": -500000,
+  "end": -12000,
+  "color": "#9aa8c2",
+  "trackId": "europe_occidentale",
+  "row": 1,
+  "isRiver": false,
+  "capitale": "Grottes et abris sous roche",
+  "description": "Des ères glaciaires hostiles à l'explosion de l'art pariétal, marquée par la cohabitation entre l'Homme de Néandertal et Homo Sapiens (Cro-Magnon).",
+  "territories": ["Neanderthal"],
+  "datesCles": [
+    {
+      "annee": -400000,
+      "evenement": "L'Homme de Tautavel",
+      "info": "L'un des plus anciens habitants connus du territoire européen (France)."
+    },
+    {
+      "annee": -250000,
+      "evenement": "L'Homme de Néandertal",
+      "info": "Une espèce parfaitement adaptée au climat glaciaire européen émerge."
+    },
+    {
+      "annee": -43000,
+      "evenement": "Arrivée d'Homo Sapiens",
+      "info": "Les Sapiens (Aurignaciens) arrivent en Europe et cohabitent avec Néandertal."
+    },
+    {
+      "annee": -36000,
+      "evenement": "Grotte Chauvet",
+      "info": "Création de la plus ancienne grande fresque d'art pariétal au monde (Ardèche)."
+    },
+    {
+      "annee": -30000,
+      "evenement": "Extinction de Néandertal",
+      "info": "Disparition progressive de l'Homme de Néandertal face à la pression démographique de Sapiens."
+    },
+    {
+      "annee": -17000,
+      "evenement": "Grotte de Lascaux",
+      "info": "La « Chapelle Sixtine de la préhistoire », apogée de la culture magdalénienne."
+    }
+  ],
+  "dirigeants": [],
+  "personnages": [
+    {
+      "nom": "L'Homme de Néandertal",
+      "role": "Espèce humaine autochtone",
+      "description": "Chasseur de mégafaune, robuste et doté d'un cerveau plus volumineux que le nôtre. Il est le premier à enterrer ses morts.",
+      "dates": "-300 000 à -30 000",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Homme_de_N%C3%A9andertal"
+    },
+    {
+      "nom": "L'Homme de Cro-Magnon",
+      "role": "Homo Sapiens européen",
+      "description": "Nom donné aux premiers Sapiens d'Europe occidentale. Artistes accomplis et nomades efficaces.",
+      "dates": "Dès -43 000",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Homme_de_Cro-Magnon"
+    }
+  ],
+  "guerres": [],
+  "sciences": "L'adaptation au froid glaciaire force l'innovation. Néandertal utilise la méthode Levallois pour produire des éclats de silex d'une grande précision. À son arrivée, Sapiens révolutionne la chasse avec le propulseur, qui permet de projeter des sagaies à longue distance et en sécurité, ainsi que l'invention de l'aiguille à chas en os pour coudre des vêtements hermétiques en peau.",
+  "croyancesText": "L'art pariétal (peintures au fond des grottes) est la manifestation la plus éclatante d'une spiritualité complexe. Ces sanctuaires obscurs (Chauvet, Lascaux, Altamira) ne sont pas des lieux d'habitation, mais probablement des lieux de rites initiatiques ou chamaniques. Les animaux dessinés (mammouths, rhinocéros, lions des cavernes) ne sont pas le reflet du menu quotidien, mais des figures mythologiques.",
+  "diplomatie": "Il existe des réseaux d'échanges à longue distance sur tout le continent. On retrouve des coquillages marins au centre des terres, et du silex de grande qualité transporté sur des centaines de kilomètres. La génétique prouve également qu'il y a eu des métissages (hybridations) entre Néandertal et Sapiens.",
+  "documentaires": [{ "titre": "Arte : Néandertal, l'énigme", "url": "https://fr.wikipedia.org/wiki/Homme_de_N%C3%A9andertal" }]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "perse",
+  "label": "Empire perse achéménide",
+  "tier": 1,
+  "region": "iran",
+  "period": "-550 à -330",
+  "start": -550,
+  "end": -330,
+  "trackId": "perse",
+  "row": 2,
+  "isRiver": false,
+  "capitale": "Persépolis / Suse / Pasargades",
+  "description": "Le premier empire global de l'histoire, tolérant et hyper-organisé, s'étendant de la mer Égée jusqu'au fleuve Indus.",
+  "territories": ["Achaemenid Empire"],
+  "datesCles": [
+    {
+      "annee": -539,
+      "evenement": "Fin de Babylone",
+      "info": "Cyrus libère les déportés hébreux, autorisé à rebâtir le Temple."
+    },
+    { "annee": -490, "evenement": "Guerres Médiques", "info": "Darius Ier échoue à soumettre Athènes (Marathon)." },
+    {
+      "annee": -331,
+      "evenement": "Gaugamèles",
+      "info": "Alexandre le Grand écrase Darius III, signant la chute de l'Empire."
+    }
+  ],
+  "dirigeants": [
+    { "titre": "Roi des Rois", "nom": "Cyrus II", "surnom": "Le Grand", "debut": -559, "fin": -530 },
+    { "titre": "Roi des Rois", "nom": "Darius Ier", "surnom": "Le Grand", "debut": -522, "fin": -486 }
+  ],
+  "personnages": [],
+  "guerres": [
+    {
+      "nom": "Bataille de Gaugamèles",
+      "annee": -331,
+      "adversaires": ["Royaume de Macédoine (Alexandre le Grand)"],
+      "allies": ["Contingents indiens, bactriens"],
+      "morts": "Environ 50 000 morts perses",
+      "vainqueur": "Macédoine",
+      "consequences": "Fuite puis meurtre de Darius III. Les Macédoniens s'emparent des incommensurables trésors de Babylone et Persépolis.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Gaugam%C3%A8les"
+    }
+  ],
+  "sciences": "Pour administrer un empire de 5 millions de km², les Perses révolutionnent la communication logistique. Darius construit la 'Voie Royale' (2500 km) dotée d'un réseau de coursiers à cheval permettant de faire passer un ordre impérial en une semaine au lieu de trois mois. Ils standardisent l'économie mondiale avec une monnaie d'or internationale (la Darique).",
+  "croyancesText": "L'Empire s'appuie sur le Zoroastrisme, l'une des premières religions dualistes. Elle oppose Ahura Mazda (Dieu créateur, lumière, vérité) à Ahriman (les ténèbres, le mensonge). Cette religion d'État profondément morale influence le développement de la justice persane, tout en maintenant une tolérance politique totale pour les religions des peuples conquis (Égypte, Babylone, Jérusalem).",
+  "diplomatie": "Leur système d'administration est un modèle de décentralisation tolérante. L'Empire est divisé en 20 provinces (Satrapies). Le Satrape (gouverneur) gère le territoire, mais les inspecteurs du Roi (Les 'Yeux et les Oreilles du Roi') contrôlent l'absence de corruption. Les peuples gardent leurs langues et leurs dieux à la stricte condition de payer le tribut et fournir des soldats.",
+  "documentaires": [
+    {
+      "titre": "Empire Achéménide : Les maîtres de l'Orient",
+      "url": "https://fr.wikipedia.org/wiki/Empire_ach%C3%A9m%C3%A9nide"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "france-mod",
+  "label": "France (Ancien Régime)",
+  "tier": 1,
+  "region": "europe-ouest",
+  "period": "1492 à 1789",
+  "start": 1492,
+  "end": 1789,
+  "trackId": "france",
+  "row": 2,
+  "isRiver": false,
+  "capitale": "Paris / Versailles",
+  "description": "De la Renaissance italienne importée par François Ier jusqu'à l'absolutisme solaire de Louis XIV, forgeant le modèle de l'État centralisé moderne.",
+  "territories": ["France"],
+  "datesCles": [
+    {
+      "annee": 1515,
+      "evenement": "Bataille de Marignan",
+      "info": "Victoire de François Ier en Italie, signature d'une paix perpétuelle avec les Suisses."
+    },
+    {
+      "annee": 1598,
+      "evenement": "L'Édit de Nantes",
+      "info": "Henri IV met fin à 30 ans de guerres de religion en accordant la tolérance aux Protestants."
+    },
+    {
+      "annee": 1682,
+      "evenement": "Installation à Versailles",
+      "info": "Louis XIV enferme la noblesse dans une 'prison dorée', apogée de l'absolutisme."
+    },
+    {
+      "annee": 1751,
+      "evenement": "L'Encyclopédie",
+      "info": "Diderot et d'Alembert publient l'œuvre majeure des Lumières."
+    }
+  ],
+  "dirigeants": [
+    { "titre": "Roi de France", "nom": "François Ier", "surnom": "Le Père des Lettres", "debut": 1515, "fin": 1547 },
+    { "titre": "Roi de France", "nom": "Henri IV", "surnom": "Le Vert Galant", "debut": 1589, "fin": 1610 },
+    { "titre": "Roi de France", "nom": "Louis XIV", "surnom": "Le Roi-Soleil", "debut": 1643, "fin": 1715 }
+  ],
+  "personnages": [
+    {
+      "nom": "Cardinal de Richelieu",
+      "role": "Principal Ministre",
+      "description": "Théoricien de la 'Raison d'État', il détruit le pouvoir politique des protestants et mate la haute noblesse pour Louis XIII.",
+      "dates": "1585 à 1642",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Armand_Jean_du_Plessis_de_Richelieu"
+    },
+    {
+      "nom": "Voltaire",
+      "role": "Philosophe",
+      "description": "Figure de proue des Lumières, défenseur acharné de la liberté d'expression et critique féroce du fanatisme religieux.",
+      "dates": "1694 à 1778",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Voltaire"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerre de Trente Ans",
+      "annee": 1618,
+      "adversaires": ["Saint-Empire (Habsbourg)", "Espagne"],
+      "allies": ["Suède", "Princes protestants allemands"],
+      "morts": "Des millions de morts en Allemagne (famine, peste)",
+      "vainqueur": "France et Alliés (Traités de Westphalie)",
+      "consequences": "La France devient la première puissance militaire du continent, la carte de l'Europe moderne est dessinée.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_de_Trente_Ans"
+    }
+  ],
+  "sciences": "Le mercantilisme d'État (Colbertisme) stimule l'industrie : création de manufactures royales (Gobelins, Saint-Gobain). Sur le plan civil, la France réalise des prouesses techniques comme le Canal du Midi (reliant l'Atlantique à la Méditerranée, conçu par Riquet). Descartes invente la géométrie analytique, et Pascal pose les bases du rationalisme scientifique moderne.",
+  "croyancesText": "Le royaume est ravagé par l'apparition du calvinisme. Après le massacre de la Saint-Barthélemy (1572), le royaume se fracture avant d'être réconcilié par Henri IV. Sous Louis XIV, l'absolutisme dicte 'Un roi, une loi, une foi' : l'Édit de Nantes est révoqué en 1685, forçant l'exode massif des élites protestantes (les Huguenots) vers la Prusse et les Pays-Bas, ruinant une partie de l'économie française.",
+  "diplomatie": "La diplomatie française obéit au principe de l'encerclement : pour briser l'hégémonie des Habsbourg (qui entourent la France en Espagne et en Allemagne), François Ier s'allie de manière jugée 'scandaleuse' avec l'Empire Ottoman musulman (l'alliance des Lys et du Croissant). Plus tard, la France déploiera un vaste empire colonial ('Nouvelle-France' au Québec, Louisiane).",
+  "documentaires": [
+    {
+      "titre": "Louis XIV, le roi est mort, vive le roi",
+      "url": "https://fr.wikipedia.org/wiki/Ancien_R%C3%A9gime"
+    }
+  ]
+}

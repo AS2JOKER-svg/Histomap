@@ -1,0 +1,74 @@
+{
+  "id": "provinces-unies",
+  "label": "Provinces-Unies (Siècle d'Or)",
+  "tier": 1,
+  "region": "europe-ouest",
+  "period": "1581 à 1789",
+  "start": 1581,
+  "end": 1789,
+  "color": "#ff9800",
+  "trackId": "pays_bas",
+  "row": 4,
+  "isRiver": false,
+  "capitale": "Amsterdam / La Haye",
+  "description": "La première république marchande et capitaliste au monde. Une petite nation ayant arraché son indépendance à l'Espagne pour devenir le banquier et le transporteur de l'Europe.",
+  "territories": ["Dutch Republic", "Netherlands"],
+  "datesCles": [
+    {
+      "annee": 1581,
+      "evenement": "Acte de La Haye",
+      "info": "Les provinces du Nord se déclarent indépendantes de l'Empire espagnol."
+    },
+    {
+      "annee": 1602,
+      "evenement": "Fondation de la VOC",
+      "info": "Création de la Compagnie Néerlandaise des Indes Orientales, première société par actions de l'histoire."
+    },
+    {
+      "annee": 1637,
+      "evenement": "La crise de la Tulipe",
+      "info": "Souvent présentée comme le premier krach spéculatif de l'histoire, la « tulipomanie » voit s'effondrer le prix des bulbes ; les historiens jugent aujourd'hui ses dégâts économiques exagérés."
+    }
+  ],
+  "dirigeants": [
+    { "titre": "Stathouder", "nom": "Guillaume Ier d'Orange", "surnom": "Le Taciturne", "debut": 1559, "fin": 1584 },
+    { "titre": "Grand Pensionnaire", "nom": "Johan de Witt", "debut": 1653, "fin": 1672 }
+  ],
+  "personnages": [
+    {
+      "nom": "Baruch Spinoza",
+      "role": "Philosophe",
+      "description": "Penseur rationaliste majeur, précurseur des Lumières. Ses idées sur la séparation de l'Église et de l'État lui valurent l'excommunication juive.",
+      "dates": "1632 à 1677",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Baruch_Spinoza"
+    },
+    {
+      "nom": "Rembrandt",
+      "role": "Peintre",
+      "description": "Le grand maître du clair-obscur, symbolisant la richesse bourgeoise et la profondeur spirituelle néerlandaise.",
+      "dates": "1606 à 1669",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Rembrandt"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerre de Hollande",
+      "annee": 1672,
+      "adversaires": ["Royaume de France", "Angleterre"],
+      "allies": ["Espagne", "Saint-Empire"],
+      "morts": "Pertes économiques graves",
+      "vainqueur": "Provinces-Unies (survie stratégique)",
+      "consequences": "L'Année du Désastre (Rampjaar). Pour stopper l'invasion de Louis XIV, les Hollandais détruisent volontairement leurs digues et inondent leur propre pays.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_de_Hollande"
+    }
+  ],
+  "sciences": "Leur génie logistique repose sur la création de la 'Flûte' (Fluyt), un navire marchand au ventre bombé pouvant transporter des charges colossales avec un équipage réduit, cassant tous les prix du fret mondial. En physique, Christiaan Huygens invente l'horloge à pendule et étudie les anneaux de Saturne grâce aux formidables lentilles polies par les artisans d'Amsterdam.",
+  "croyancesText": "Le Calvinisme rigoriste est le ciment national face à l'Espagne catholique. Cependant, la nécessité du commerce pousse les Hollandais à une tolérance religieuse inédite : ils accueillent à bras ouverts les Juifs séfarades fuyant l'Inquisition, et les Protestants français fuyant Louis XIV, absorbant ainsi les capitaux et les cerveaux fuyant l'intolérance européenne.",
+  "diplomatie": "C'est un État hybride. Les États Généraux (bourgeois, marchands) dirigent l'économie, tandis que le Stathouder (issu de la maison d'Orange) dirige les armées en temps de guerre. La VOC (leur compagnie privée) dispose du droit souverain de battre monnaie, de déclarer la guerre aux rois d'Asie et de bâtir ses propres forteresses (Batavia/Jakarta), agissant comme un État dans l'État.",
+  "documentaires": [
+    {
+      "titre": "Le Siècle d'Or hollandais",
+      "url": "https://fr.wikipedia.org/wiki/Si%C3%A8cle_d%27or_n%C3%A9erlandais"
+    }
+  ]
+}

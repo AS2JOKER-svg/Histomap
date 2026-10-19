@@ -1,0 +1,54 @@
+{
+  "id": "thraces",
+  "label": "Peuples Thraces",
+  "tier": 1,
+  "region": "balkans",
+  "period": "-1200 à 46",
+  "start": -1200,
+  "end": 46,
+  "color": "#a1887f",
+  "trackId": "thraces",
+  "row": 5,
+  "isRiver": false,
+  "capitale": "Seuthopolis",
+  "description": "Redoutables guerriers d'infanterie légère et immenses orfèvres des Balkans, dont les cultes à mystère ont façonné la spiritualité antique de la région.",
+  "territories": ["Thrace", "Odrysian Kingdom"],
+  "datesCles": [
+    {
+      "annee": -460,
+      "evenement": "Royaume des Odryses",
+      "info": "Après le retrait perse de Thrace (après -479), Térès Ier fonde vers -470/-460 le royaume des Odryses en unifiant plusieurs tribus."
+    },
+    {
+      "annee": 46,
+      "evenement": "Annexion par Rome",
+      "info": "L'empereur romain Claude annexe définitivement la région."
+    }
+  ],
+  "dirigeants": [{ "titre": "Roi des Odryses", "nom": "Seuthès III", "debut": -331, "fin": -300 }],
+  "personnages": [
+    {
+      "nom": "Spartacus",
+      "role": "Gladiateur (ancien soldat thrace)",
+      "description": "Mène la révolte de la troisième guerre servile, infligeant de lourdes défaites aux armées consulaires romaines avant d'être écrasé par Crassus.",
+      "dates": "Naissance inconnue, mort en -71",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Spartacus"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Troisième Guerre Servile",
+      "annee": -73,
+      "adversaires": ["République Romaine (Crassus)"],
+      "allies": ["Esclaves gladiateurs et ruraux"],
+      "morts": "Plusieurs dizaines de milliers de rebelles tués (chiffres antiques incertains), 6000 crucifiés",
+      "vainqueur": "Rome",
+      "consequences": "L'armée de Spartacus (d'origine thrace) est détruite, Rome durcit la répression servile.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Troisi%C3%A8me_Guerre_servile"
+    }
+  ],
+  "sciences": "Leur art militaire est renommé. Ils inventent les 'peltastes', des fantassins très mobiles équipés d'un bouclier léger (la pelta) en osier, brisant les lourdes et rigides phalanges grecques par un harcèlement constant au javelot. L'orfèvrerie thrace (trésor de Panagyurichté), mêlant influences perses et grecques, témoigne d'une extrême sophistication technique.",
+  "croyancesText": "Leur philosophie religieuse méprise la mort physique, perçue comme un simple passage vers une vie meilleure ou immortelle (le culte de Zalmoxis), ce qui explique leur redoutable témérité au combat. Les Grecs prêtaient une origine thrace au culte de Dionysos (pourtant déjà attesté en Grèce mycénienne, en linéaire B) et au mythe d'Orphée.",
+  "diplomatie": "Peuples profondément divisés en tribus rivales, considérés par Hérodote comme 'le peuple le plus nombreux du monde après les Indiens, et invincible s'il s'unissait'. Ils se vendent massivement comme mercenaires de luxe aux Perses, aux cités grecques, puis aux rois hellénistiques (Macédoniens).",
+  "documentaires": [{ "titre": "L'or des Thraces", "url": "https://fr.wikipedia.org/wiki/Thraces" }]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "goryeo",
+  "label": "Corée (Dynastie Goryeo)",
+  "tier": 1,
+  "region": "coree",
+  "period": "918 à 1392",
+  "start": 918,
+  "end": 1392,
+  "trackId": "coree",
+  "row": 6,
+  "isRiver": false,
+  "capitale": "Gaegyeong",
+  "description": "Un riche empire bouddhiste de la péninsule asiatique, reconnu pour son céramisme d'art, qui dut survivre à près d'un siècle de domination mongole.",
+  "territories": ["Goryeo", "Korea"],
+  "datesCles": [
+    {
+      "annee": 918,
+      "evenement": "Fondation",
+      "info": "Wang Geon fonde le royaume de 'Goryeo' (qui deviendra le mot 'Corée') ; il unifie la péninsule en 935-936."
+    },
+    {
+      "annee": 1170,
+      "evenement": "Coup d'état militaire",
+      "info": "Les généraux massacrent les nobles civils et instaurent une dictature d'un siècle."
+    },
+    {
+      "annee": 1231,
+      "evenement": "Invasion Mongole",
+      "info": "Début d'une guerre de terre brûlée forçant le roi à se réfugier sur une île fortifiée."
+    },
+    {
+      "annee": 1377,
+      "evenement": "L'Imprimerie métallique",
+      "info": "Impression du Jikji, le plus ancien livre conservé imprimé en caractères mobiles métalliques (leur usage est attesté dès vers 1234)."
+    }
+  ],
+  "dirigeants": [
+    { "titre": "Taejo (Fondateur)", "nom": "Wang Geon", "debut": 918, "fin": 943 },
+    { "titre": "Dictateur Militaire", "nom": "Choe Chung-heon", "debut": 1196, "fin": 1219 }
+  ],
+  "personnages": [
+    {
+      "nom": "Gongmin",
+      "role": "Roi réformateur",
+      "description": "Lutte héroïquement et victorieusement pour se débarrasser de la tutelle mongole déclinante.",
+      "dates": "1351 à 1374",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Gongmin_(roi_de_Goryeo)"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerre Mongol-Goryeo",
+      "annee": 1231,
+      "adversaires": ["Empire Mongol"],
+      "allies": [],
+      "morts": "Massacre civil par la cavalerie mongole",
+      "vainqueur": "Empire Mongol",
+      "consequences": "Le Goryeo devient un État vassal des Mongols, qui l'utiliseront comme base forcée de construction navale pour attaquer le Japon.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Invasions_mongoles_de_la_Cor%C3%A9e"
+    }
+  ],
+  "sciences": "Le génie technique coréen devance le monde sur deux points. D'abord, l'imprimerie : les Coréens utilisent des caractères mobiles fondus en métal dès le XIIIe siècle ; le Jikji (1377), plus ancien livre conservé imprimé ainsi, précède d'environ 78 ans la Bible de Gutenberg. Ensuite, le Céladon, une céramique d'un éclat vert émeraude incrustée d'argile blanche et noire, dont l'envoyé chinois Xu Jing fait l'éloge en 1123.",
+  "croyancesText": "L'état dépense une fortune dans le patronage du Bouddhisme, y voyant une armure mystique pour protéger la nation. Lors des invasions mongoles, l'État a financé la gravure du Tripitaka Koreana : environ 81 258 planches de bois (selon les comptages) contenant le canon bouddhiste gravé à l'envers, pour invoquer l'aide divine (ils sont toujours intacts aujourd'hui).",
+  "diplomatie": "Goryeo est un acteur pivot entre les puissantes dynasties nordiques mandchoues (Khitan, Jurchen) et la Chine. Son régime vacille lors des purges internes, passant d'un pouvoir civil à une junte militaire impitoyable (le clan Choe). Pour survivre à l'invasion mongole, la royauté coréenne devra se résoudre à marier ses princes aux princesses gengiskhanides pendant près d'un siècle.",
+  "documentaires": [{ "titre": "La dynastie Goryeo et le Tripitaka Koreana", "url": "https://fr.wikipedia.org/wiki/Goryeo" }]
+}

@@ -3,10 +3,13 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "data": "node scripts/build-epochs.mjs && node scripts/build-revision-index.mjs && node scripts/validate-data.mjs && node scripts/validate-revision.mjs",
-    "validate": "node scripts/validate-data.mjs && node scripts/validate-revision.mjs",
+    "content": "node scripts/build-content.mjs && node scripts/build-revision-index.mjs",
+    "validate": "node scripts/validate-content.mjs && node scripts/validate-revision.mjs",
+    "data": "npm run content && npm run validate",
+    "coverage": "npm run content && node scripts/coverage-report.mjs",
+    "predev": "npm run content",
     "dev": "vite",
-    "prebuild": "node scripts/build-revision-index.mjs && node scripts/validate-data.mjs && node scripts/validate-revision.mjs",
+    "prebuild": "npm run data",
     "build": "vite build",
     "preview": "vite preview",
     "map": "node scripts/build-map.mjs"

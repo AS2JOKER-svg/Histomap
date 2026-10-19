@@ -1,0 +1,59 @@
+{
+  "id": "ashanti",
+  "label": "Empire Ashanti",
+  "tier": 1,
+  "region": "afrique-ouest",
+  "period": "1701 à 1789",
+  "start": 1701,
+  "end": 1789,
+  "color": "#dfb134",
+  "trackId": "ashanti",
+  "row": 2,
+  "isRiver": false,
+  "capitale": "Kumasi",
+  "description": "Une redoutable fédération militaire forestière née autour d'une relique sacrée (le Trône d'or), monopolisant l'or et la traite sur la Côte de l'Or (Ghana).",
+  "territories": ["Asante"],
+  "datesCles": [
+    {
+      "annee": 1701,
+      "evenement": "Le Mythe Fondateur",
+      "info": "Bataille de Feyiase : Osei Tutu écrase les oppresseurs Denkyira et proclame l'Empire."
+    },
+    { "annee": 1744, "evenement": "Expansion du Nord", "info": "L'armée soumet le puissant royaume de Dagbon." }
+  ],
+  "dirigeants": [
+    {
+      "titre": "Asantehene (Empereur)",
+      "nom": "Osei Tutu Ier",
+      "surnom": "Règne de vers 1680/1695 à vers 1717 (dates incertaines)",
+      "debut": 1680,
+      "fin": 1717
+    },
+    { "titre": "Asantehene", "nom": "Opoku Ware Ier", "debut": 1720, "fin": 1750 }
+  ],
+  "personnages": [
+    {
+      "nom": "Okomfo Anokye",
+      "role": "Grand prêtre et cofondateur",
+      "description": "Le magicien légendaire qui fit descendre le Trône d'Or du ciel et dicta les lois inviolables de la constitution Ashanti.",
+      "dates": "≈ 1655 à 1717",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Okomfo_Anokye"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerre d'indépendance Ashanti",
+      "annee": 1701,
+      "adversaires": ["Royaume de Denkyira"],
+      "allies": [],
+      "morts": "Mort du roi ennemi",
+      "vainqueur": "Confédération Ashanti",
+      "consequences": "Les Ashanti arrachent le contrôle des routes commerciales menant aux forts européens de la côte, assurant la fortune de l'empire.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Empire_ashanti"
+    }
+  ],
+  "sciences": "Leur métallurgie de la poudre et de l'or est d'une sophistication inouïe. Ils utilisent les 'poids akan', de petites sculptures géométriques et figuratives en laiton servant à peser la poudre d'or ; ces poids existaient déjà avant l'empire, chez les peuples akan. Militairement, ils adoptent très tôt le mousquet européen, modifiant radicalement les tactiques de guerre en forêt dense.",
+  "croyancesText": "Toute la nation, pourtant composée de chefferies fières et indépendantes, est unifiée par l'âme religieuse de l'empire : le 'Sika Dwa Kofi' (Le Trône d'Or). Il ne représente pas le pouvoir d'un homme, mais contient l'esprit spirituel de la nation Ashanti toute entière. Même le roi n'a pas le droit de s'y asseoir, et sa simple profanation justifie une guerre totale.",
+  "diplomatie": "C'est une confédération stricte : le roi de Kumasi (Asantehene) préside un parlement des rois provinciaux (Asantemanhyiamu). Leur économie diplomatique est impitoyable : ils lancent des razzias constantes contre les tribus intérieures pour faire des captifs qu'ils échangent aux forts côtiers des Européens (Britanniques, Hollandais) contre des fusils, alimentant un cycle infini d'expansion impérialiste.",
+  "documentaires": [{ "titre": "Le Trône d'Or des Ashanti", "url": "https://fr.wikipedia.org/wiki/Empire_ashanti" }]
+}

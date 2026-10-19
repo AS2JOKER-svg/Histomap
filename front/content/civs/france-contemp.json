@@ -1,0 +1,86 @@
+{
+  "id": "france-contemp",
+  "label": "France",
+  "tier": 1,
+  "region": "europe-ouest",
+  "period": "1789 à 2020",
+  "start": 1789,
+  "end": 2020,
+  "trackId": "france",
+  "row": 1,
+  "isRiver": false,
+  "capitale": "Paris",
+  "description": "La nation révolutionnaire (5 républiques, 2 empires, 2 monarchies en deux siècles), accouchant des droits de l'homme et du Code civil au prix d'un sanglant accouchement.",
+  "territories": ["France"],
+  "datesCles": [
+    {
+      "annee": 1789,
+      "evenement": "La Révolution",
+      "info": "Prise de la Bastille, Déclaration des Droits de l'Homme, chute de la monarchie absolue de Louis XVI."
+    },
+    {
+      "annee": 1804,
+      "evenement": "L'Empire",
+      "info": "Napoléon Bonaparte se sacre Empereur des Français et soumet la majorité de l'Europe."
+    },
+    {
+      "annee": 1914,
+      "evenement": "Première Guerre mondiale",
+      "info": "La victoire héroïque dans les tranchées (Verdun) ruine le pays."
+    },
+    {
+      "annee": 1940,
+      "evenement": "La Seconde Guerre",
+      "info": "Débâcle face à l'Allemagne nazie. Régime de Vichy contre Résistance (De Gaulle)."
+    },
+    { "annee": 1958, "evenement": "Ve République", "info": "Le Général de Gaulle crée un régime présidentiel fort." }
+  ],
+  "dirigeants": [
+    { "titre": "L'Incorruptible", "nom": "Robespierre", "debut": 1793, "fin": 1794 },
+    { "titre": "Empereur des Français", "nom": "Napoléon Ier", "surnom": "L'Aigle", "debut": 1804, "fin": 1815 },
+    {
+      "titre": "Président de la République",
+      "nom": "Charles de Gaulle",
+      "surnom": "Le Général",
+      "debut": 1958,
+      "fin": 1969
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Marie Curie",
+      "role": "Scientifique",
+      "description": "Pionnière absolue de la radioactivité. Première femme (et seule personne) ayant reçu deux Prix Nobel dans deux sciences (Physique et Chimie).",
+      "dates": "1867 à 1934",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Marie_Curie"
+    },
+    {
+      "nom": "Victor Hugo",
+      "role": "Écrivain et Homme d'État",
+      "description": "Auteur monumental (Les Misérables), conscience morale de la République et farouche opposant à la peine de mort et à Napoléon III.",
+      "dates": "1802 à 1885",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Victor_Hugo"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Première Guerre mondiale (La Grande Guerre)",
+      "annee": 1914,
+      "adversaires": ["Empire Allemand", "Autriche-Hongrie"],
+      "allies": ["Empire Britannique", "Empire Russe", "États-Unis"],
+      "morts": "1,4 million de soldats français tués",
+      "vainqueur": "La France et ses alliés",
+      "consequences": "Victoire pyrrhique. Le Traité de Versailles (1919) humilie l'Allemagne, jetant les graines du ressentiment qui mènera au nazisme et à la Seconde Guerre mondiale.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Premi%C3%A8re_Guerre_mondiale"
+    }
+  ],
+  "sciences": "Puissance d'ingénierie majeure : Louis Pasteur révolutionne la médecine mondiale avec le vaccin contre la rage et le concept des microbes. Au XXe siècle, la France se dote d'une infrastructure d'État souveraine : l'indépendance énergétique par l'édification du plus vaste réseau de centrales nucléaires d'Europe, la suprématie ferroviaire avec l'invention du TGV, et de l'avion supersonique civil Concorde (avec le Royaume-Uni).",
+  "croyancesText": "Le grand choc est la Loi de séparation des Églises et de l'État de 1905, accouchant du concept unique de 'Laïcité' à la française : la religion relève strictement du domaine privé. La 'Religion Républicaine' d'État s'appuie sur la trilogie 'Liberté, Égalité, Fraternité', transmise d'abord par les 'hussards noirs' (les instituteurs de l'école laïque, gratuite et obligatoire de Jules Ferry).",
+  "diplomatie": "Durant le 19ème, c'est l'Empire colonial : avec l'Afrique et l'Indochine, la France bâtit le 2ème plus vaste empire mondial derrière les Anglais (la 'Mission civilisatrice'). Après l'humiliation de 1940 et les sanglantes guerres de décolonisation (Algérie, Indochine), la diplomatie gaullienne vise l'indépendance (bombe atomique, sortie du commandement de l'OTAN) et cofonde, avec l'ennemi d'hier (l'Allemagne), le projet européen pacifique.",
+  "documentaires": [
+    {
+      "titre": "De Gaulle et l'histoire de la Ve République",
+      "url": "https://fr.wikipedia.org/wiki/Cinqui%C3%A8me_R%C3%A9publique_(France)"
+    }
+  ]
+}

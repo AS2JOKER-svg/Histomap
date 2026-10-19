@@ -1,0 +1,51 @@
+{
+  "id": "xiongnu",
+  "label": "Xiongnu",
+  "tier": 1,
+  "region": "mongolie",
+  "period": "-209 à 46",
+  "start": -209,
+  "end": 46,
+  "color": "#795548",
+  "trackId": "steppe_asie",
+  "row": 8,
+  "isRiver": false,
+  "capitale": "Ordo (Campements mobiles)",
+  "description": "Immense confédération nomade et militarisée, ancêtres putatifs des Huns, forçant les empereurs chinois à s'humilier ou à se ruiner pour protéger leurs frontières.",
+  "territories": ["Xiongnu", "Southern Xiongnu"],
+  "datesCles": [
+    {
+      "annee": -209,
+      "evenement": "L'Unification des Steppes",
+      "info": "Modu Chanyu exécute son père et rassemble tous les clans nomades du nord de la Chine."
+    },
+    {
+      "annee": -200,
+      "evenement": "Bataille de Baideng",
+      "info": "Les Xiongnu encerclent le premier empereur Han, Gaozu, qui s'échappe après sept jours puis négocie le traité de « paix et parenté » (heqin)."
+    },
+    {
+      "annee": 46,
+      "evenement": "Crise et scission",
+      "info": "Une crise éclate en 46 apr. J.-C. ; en 48, la confédération se divise formellement en deux (Xiongnu du Nord, hostiles, et du Sud, alliés de la Chine)."
+    }
+  ],
+  "dirigeants": [{ "titre": "Chanyu (Empereur des Steppes)", "nom": "Modu", "debut": -209, "fin": -174 }],
+  "personnages": [],
+  "guerres": [
+    {
+      "nom": "Bataille de Baideng",
+      "annee": -200,
+      "adversaires": ["Dynastie Han (Gaozu)"],
+      "allies": [],
+      "morts": "Gelures et famine pour les Han",
+      "vainqueur": "Xiongnu",
+      "consequences": "L'empereur de Chine est encerclé sur une montagne par 400 000 cavaliers selon l'historien Sima Qian. Il s'échappe au bout de sept jours puis négocie le heqin, un traité qui oblige la Chine à verser des présents aux nomades.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Baideng"
+    }
+  ],
+  "sciences": "Toute leur technologie est tournée vers la mobilité foudroyante. L'utilisation de l'arc composite à double courbure, décoché en plein galop sans étriers solides, requiert un entraînement dès l'enfance. Ils inventent les 'flèches sifflantes' perforées : le Chanyu tire la première, le son indique la cible, et des milliers de cavaliers abattent instantanément la même cible, offrant une coordination tactique parfaite.",
+  "croyancesText": "Ils pratiquent le Tengrisme (vénération du 'Ciel Bleu Éternel' Tengri, de la Terre et du Soleil). Le Chanyu est considéré comme 'Né du Ciel et de la Terre'. Lors de grands rassemblements annuels d'automne dans les montagnes sacrées, ils organisent des sacrifices de chevaux blancs, des courses équestres et effectuent un recensement des populations (têtes de bétail et hommes en âge de combattre).",
+  "diplomatie": "Leur économie n'est pas agricole. Ils dépendent du pillage structurel (pour obtenir céréales, fer et soie de Chine) et d'un système mafieux d'extorsion d'État : le traité impérial de 'Paix et Parenté' (Heqin). La Chine leur donne annuellement des princesses en mariage, de l'or et des soieries massives à la seule condition que les Xiongnu s'abstiennent de raser les villes frontalières.",
+  "documentaires": [{ "titre": "L'empire des Steppes : Les Xiongnu", "url": "https://fr.wikipedia.org/wiki/Xiongnu" }]
+}

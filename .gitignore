@@ -17,3 +17,15 @@ Thumbs.db
 .idea/
 *.log
 .cache/
+
+# Données générées depuis front/content/ (npm run content, lancé par dev, data et build)
+front/src/data/index.json
+front/src/data/civs/
+front/src/data/entities/
+front/src/data/territories.json
+front/src/data/conflicts.json
+front/src/data/quiz-context.json
+front/src/data/map-presence.json
+front/src/data/revision-meta.json
+front/src/data/revision/index.js
+front/reports/

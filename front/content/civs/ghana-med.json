@@ -1,0 +1,59 @@
+{
+  "id": "ghana-med",
+  "label": "Empire du Ghana",
+  "tier": 1,
+  "region": "afrique-ouest",
+  "period": "500 à 1240",
+  "start": 500,
+  "end": 1240,
+  "color": "#c59b27",
+  "trackId": "afrique_ouest",
+  "row": 1,
+  "isRiver": false,
+  "capitale": "Koumbi Saleh",
+  "description": "Le 'Pays de l'Or'. Premier grand empire subsaharien s'enrichissant en taxant le commerce caravanier transsaharien.",
+  "territories": ["Empire of Ghana", "Ghana"],
+  "datesCles": [
+    {
+      "annee": 1068,
+      "evenement": "Description d'al-Bakri",
+      "info": "Le géographe andalou décrit la cour royale : le roi siège couvert d'or massif."
+    },
+    {
+      "annee": 1076,
+      "evenement": "Attaque almoravide",
+      "info": "Selon des auteurs arabes plus tardifs, les Almoravides, venus de l'actuelle Mauritanie, prennent la capitale (un épisode débattu par les historiens)."
+    },
+    {
+      "annee": 1240,
+      "evenement": "L'annexion",
+      "info": "Les ruines du royaume sont absorbées par un nouvel empire émergeant : le Mali."
+    }
+  ],
+  "dirigeants": [
+    {
+      "titre": "Kaya Magan (Roi de l'Or)",
+      "nom": "Tunka Manin",
+      "surnom": "Début de règne en 1063, fin de règne inconnue",
+      "debut": 1063,
+      "fin": 1076
+    }
+  ],
+  "personnages": [],
+  "guerres": [
+    {
+      "nom": "Guerre Almoravide",
+      "annee": 1076,
+      "adversaires": ["Mouvement Almoravide"],
+      "allies": [],
+      "morts": "Inconnu",
+      "vainqueur": "Almoravides",
+      "consequences": "Selon des sources arabes plus tardives (épisode débattu), chute de la capitale Koumbi Saleh. Le contrôle des routes de l'or est déstabilisé, fragmentant l'empire du Wagadou en petites principautés vassales.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Empire_du_Ghana"
+    }
+  ],
+  "sciences": "Ils ne produisent pas d'or, ils le prélèvent en transit. L'ingénierie de l'État repose sur l'invention de la douane impériale. Ils s'installent à la lisière absolue du désert du Sahara, là où les caravaniers nord-africains (venant d'arriver avec du sel et du cuivre) sont obligés de s'arrêter. Les fonctionnaires du roi prélèvent un impôt lourd sur chaque charge de dromadaire entrant et sortant du royaume.",
+  "croyancesText": "L'État est divisé en deux villes parallèles séparées de dix kilomètres : la ville royale, pratiquant la religion animiste traditionnelle (selon la légende soninké du Wagadou, le serpent Bida garantissait la prospérité et l'or du pays) et la ville marchande, habitée par des marchands musulmans, souvent arabo-berbères, dotée de nombreuses mosquées.",
+  "diplomatie": "Le pouvoir royal réside dans le monopole : toute pépite d'or brute trouvée sur le territoire appartient au roi, les marchands ne pouvant faire commerce que de poudre d'or. L'armée impériale, très lourdement armée grâce à la maîtrise de la fonte du fer, comptait selon les chroniqueurs jusqu'à 200 000 fantassins pour maintenir la paix commerciale sur l'immense savane.",
+  "documentaires": [{ "titre": "Le Ghana, pays de l'or", "url": "https://fr.wikipedia.org/wiki/Empire_du_Ghana" }]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "kongo",
+  "label": "Royaume du Kongo",
+  "tier": 1,
+  "region": "afrique-centrale",
+  "period": "1390 à 1914",
+  "start": 1390,
+  "end": 1492,
+  "trackId": "afrique_centrale",
+  "row": 2,
+  "isRiver": true,
+  "capitale": "Mbanza Kongo",
+  "description": "État hautement centralisé du bassin du Congo, riche en cuivre et en ivoire, bouleversé par le choc diplomatique de l'arrivée des navires portugais à la fin du Moyen Âge.",
+  "territories": ["Congo"],
+  "datesCles": [
+    {
+      "annee": 1390,
+      "evenement": "Fondation mythique",
+      "info": "L'union politique entre le forgeron chasseur Nimi et les populations locales."
+    },
+    {
+      "annee": 1482,
+      "evenement": "Arrivée de Diogo Cão",
+      "info": "Le premier explorateur européen franchit l'embouchure du fleuve Congo."
+    },
+    {
+      "annee": 1491,
+      "evenement": "Le grand baptême",
+      "info": "Le roi Nzinga a Nkuwu se convertit volontairement au catholicisme (prenant le nom de João Ier)."
+    }
+  ],
+  "dirigeants": [
+    {
+      "titre": "Manikongo (Roi)",
+      "nom": "Nimi a Lukeni",
+      "surnom": "Ou Lukeni lua Nimi selon la tradition ; fin du XIVe siècle, dates inconnues",
+      "debut": 1390,
+      "fin": 1420
+    },
+    { "titre": "Manikongo", "nom": "Nzinga a Nkuwu", "surnom": "João Ier du Kongo", "debut": 1470, "fin": 1509 }
+  ],
+  "personnages": [],
+  "guerres": [
+    {
+      "nom": "Expansion du Kongo (fin XIVe – XVe s.)",
+      "annee": 1400,
+      "adversaires": ["Chefferies voisines (Nsundi, Mbata…)"],
+      "allies": [],
+      "morts": "Inconnu",
+      "vainqueur": "Royaume du Kongo",
+      "consequences": "L'intégration des petits États voisins fait du Kongo l'entité politique la plus étendue d'Afrique centrale précoloniale.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Royaume_du_Kongo"
+    }
+  ],
+  "sciences": "Le Kongo produit des œuvres d'artisanat si complexes qu'elles impressionneront les rois d'Europe : des étoffes de raphia du Kongo, si fines qu'on les compare au velours. L'économie est monétarisée avec une incroyable précision grâce au 'Nzimbu', des petits coquillages pêchés exclusivement sur l'île de Luanda (appartenant personnellement au roi), faisant office de monnaie divisionnaire contrôlée par l'État pour éviter l'inflation.",
+  "croyancesText": "Avant le baptême royal de 1491, le roi est le maître des esprits 'Nkisi' : des forces de la nature et de l'au-delà contenues dans des objets rituels (minkisi) capables de guérir ou de foudroyer les criminels. Le passage au christianisme par les souverains n'est pas vu comme une soumission, mais comme l'absorption d'une nouvelle 'magie blanche' très puissante venue de l'océan.",
+  "diplomatie": "À la fin de notre période médiévale, l'arrivée des Portugais déclenche une diplomatie d'égal à égal rarissime dans l'histoire coloniale. Le roi du Kongo et le roi du Portugal échangent des ambassades. Des prêtres, des artisans et des maçons portugais arrivent au Kongo, qui fournit de l'ivoire, du cuivre et bientôt des captifs (début de la traite).",
+  "documentaires": [
+    {
+      "titre": "Le Royaume du Kongo : la Croix et le Nzimbu",
+      "url": "https://fr.wikipedia.org/wiki/Royaume_du_Kongo"
+    }
+  ]
+}

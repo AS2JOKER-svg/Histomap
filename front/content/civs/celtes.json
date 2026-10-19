@@ -1,0 +1,64 @@
+{
+  "id": "celtes",
+  "label": "Celtes / Gaulois",
+  "tier": 1,
+  "region": "europe-ouest",
+  "period": "-800 à -50",
+  "start": -800,
+  "end": -50,
+  "color": "#5b8c5a",
+  "trackId": "celtes",
+  "row": 4,
+  "isRiver": false,
+  "capitale": "Oppida fortifiés (Bibracte, Gergovie)",
+  "description": "Mosaïque de peuples indo-européens dominant l'Europe continentale (période de La Tène), d'une bravoure absolue, réputés pour leur orfèvrerie et leur sidérurgie supérieures.",
+  "territories": ["Celts", "Boii"],
+  "datesCles": [
+    {
+      "annee": -390,
+      "evenement": "Le Sac de Rome",
+      "info": "Le chef sénon Brennus met Rome à sac et exige la fameuse rançon (Vae Victis)."
+    },
+    {
+      "annee": -279,
+      "evenement": "Grande Expédition",
+      "info": "Les Celtes pillent Delphes en Grèce et s'installent jusqu'en Anatolie centrale (Galates)."
+    },
+    {
+      "annee": -52,
+      "evenement": "Bataille de Gergovie",
+      "info": "Grande victoire tactique de Vercingétorix contre les légions de César."
+    },
+    {
+      "annee": -52,
+      "evenement": "Siège d'Alésia",
+      "info": "La capitulation gauloise scelle la fin de l'indépendance celtique sur le continent."
+    }
+  ],
+  "dirigeants": [{ "titre": "Chef des Arvernes", "nom": "Vercingétorix", "debut": -52, "fin": -52 }],
+  "personnages": [
+    {
+      "nom": "Brennus",
+      "role": "Chef guerrier",
+      "description": "Général celte ayant humilié la jeune République romaine en pillant la ville, un traumatisme fondateur pour l'armée romaine.",
+      "dates": "≈ -390",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Brennus_(IVe_si%C3%A8cle_av._J.-C.)"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Bataille d'Alésia",
+      "annee": -52,
+      "adversaires": ["Rome (Jules César)"],
+      "allies": ["Coalition gauloise unifiée"],
+      "morts": "Plus de 250 000 morts",
+      "vainqueur": "Rome",
+      "consequences": "Échec de l'armée de secours, Vercingétorix jette ses armes aux pieds de César, marquant l'intégration définitive de la Gaule à l'Empire romain.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_d'Al%C3%A9sia"
+    }
+  ],
+  "sciences": "Les barbares gaulois de César sont une fiction politique. Les Celtes sont de brillants ingénieurs agricoles : ils inventent la moissonneuse gauloise (vallus), la cotte de mailles en fer et le tonneau en bois (cerclé de fer, remplaçant l'amphore argileuse). Leurs routes de commerce en charriot pavées de rondins parcourent toute l'Europe.",
+  "croyancesText": "L'autorité suprême appartient à la caste sacerdotale des Druides. Ils sont juges, médecins, gardiens de la mémoire (transmise uniquement à l'oral par interdiction religieuse d'écrire) et de la loi. Ils célèbrent la sacralité de la nature (forêts, sources), décapitent les vaincus pour en conserver la tête (siège de l'âme) et pratiquent des sacrifices (animaux et ponctuellement humains) au dieu Toutatis, Esus ou Taranis.",
+  "diplomatie": "Il n'y a pas 'un' empire gaulois, mais des dizaines de nations puissantes (Éduens, Arvernes, Carnutes). Leur incapacité à forger une union diplomatique durable est leur talon d'Achille. Les Éduens, rivaux des Arvernes, vont jusqu'à s'allier à Rome et appeler Jules César à l'aide, ouvrant sciemment les portes de la Gaule à la conquête romaine.",
+  "documentaires": [{ "titre": "Le mythe des Gaulois", "url": "https://fr.wikipedia.org/wiki/Gaulois_(peuples)" }]
+}

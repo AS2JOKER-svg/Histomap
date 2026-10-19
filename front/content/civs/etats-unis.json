@@ -1,0 +1,89 @@
+{
+  "id": "etats-unis",
+  "label": "États-Unis d'Amérique (Superpuissance)",
+  "tier": 1,
+  "region": "amerique-nord",
+  "period": "1789 à 2020",
+  "start": 1789,
+  "end": 2020,
+  "trackId": "usa",
+  "row": 1,
+  "isRiver": false,
+  "capitale": "Washington D.C.",
+  "description": "D'une république rurale s'entre-déchirant sur l'esclavage à l'hégémonie économique, militaire, spatiale et culturelle de l'histoire du monde moderne.",
+  "territories": ["United States of America", "United States", "USA"],
+  "datesCles": [
+    {
+      "annee": 1861,
+      "evenement": "Guerre de Sécession",
+      "info": "Guerre civile totale, victoire de l'Union, 13ème Amendement abolissant l'esclavage des Noirs."
+    },
+    {
+      "annee": 1929,
+      "evenement": "Jeudi Noir (Wall Street)",
+      "info": "Krach boursier menant à la Grande Dépression et aux réformes sociales du 'New Deal' par F.D. Roosevelt."
+    },
+    {
+      "annee": 1945,
+      "evenement": "Bombes Atomiques",
+      "info": "L'utilisation de l'arme nucléaire sur le Japon installe l'Amérique comme hyperpuissance du 'Monde Libre'."
+    },
+    {
+      "annee": 1969,
+      "evenement": "Apollo 11",
+      "info": "Neil Armstrong pose le pied sur la Lune, couronnant la victoire technologique de la Guerre Froide."
+    }
+  ],
+  "dirigeants": [
+    { "titre": "Le Libérateur", "nom": "Abraham Lincoln", "surnom": "Honest Abe", "debut": 1861, "fin": 1865 },
+    { "titre": "Président Fédéral", "nom": "Franklin D. Roosevelt", "surnom": "FDR", "debut": 1933, "fin": 1945 },
+    { "titre": "Président", "nom": "John F. Kennedy", "surnom": "JFK", "debut": 1961, "fin": 1963 }
+  ],
+  "personnages": [
+    {
+      "nom": "Thomas Edison",
+      "role": "Inventeur Industriel",
+      "description": "Père de l'ampoule électrique et du phonographe, il révolutionne la gestion de l'innovation (Laboratoire de Menlo Park).",
+      "dates": "1847 à 1931",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Thomas_Edison"
+    },
+    {
+      "nom": "Martin Luther King",
+      "role": "Pasteur et Activiste",
+      "description": "Icône pacifique du mouvement des Droits Civiques luttant contre la ségrégation raciale (Jim Crow). Assassiné en 1968.",
+      "dates": "1929 à 1968",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Martin_Luther_King"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "La Guerre de Sécession (Civil War)",
+      "annee": 1861,
+      "adversaires": ["États Confédérés du Sud (Général Lee)"],
+      "allies": ["Les États de l'Union du Nord (Général Grant)"],
+      "morts": "Plus de 620 000 soldats américains tués",
+      "vainqueur": "Le Nord (Lincoln)",
+      "consequences": "La guerre la plus sanglante de l'histoire du pays, menée à l'origine pour préserver la nation et achevée par l'émancipation de 4 millions d'esclaves afro-américains.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_de_S%C3%A9cession"
+    },
+    {
+      "nom": "Guerre Froide (Guerre du Viêt Nam)",
+      "annee": 1955,
+      "adversaires": ["Nord Viêt Nam Communiste (Viet Cong)"],
+      "allies": ["Sud Viêt Nam"],
+      "morts": "58 000 Américains, 3 Millions de Vietnamiens",
+      "vainqueur": "Nord Viêt Nam",
+      "consequences": "Défaite diplomatique et traumatisme moral total pour l'Amérique, entraînant un syndrome de rejet militaire pour toute une génération.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_du_Vi%C3%AAt_Nam"
+    }
+  ],
+  "sciences": "Leur industrie du XXe siècle est la plus spectaculaire : Henry Ford invente le fordisme (travail à la chaîne), démocratisant l'automobile. Ils abritent le Projet Manhattan (1942), mobilisant les meilleurs physiciens (Oppenheimer, Fermi) pour contrôler la fission nucléaire. Plus tard, via des financements de la Défense (ARPANET), la Californie donne naissance à Internet, au PC et au smartphone (Silicon Valley), numérisant la planète entière.",
+  "croyancesText": "Le socle identitaire est le 'Rêve Américain' et la 'Destinée Manifeste' (l'idée qu'ils ont reçu de Dieu la mission providentielle de propager la liberté sur Terre). Pendant la Guerre Froide contre les Soviétiques ('l'Empire du Mal' athée), ils ajoutent officiellement la devise 'In God We Trust' sur tous les billets de banque pour marquer la primauté chrétienne capitaliste face au marxisme.",
+  "diplomatie": "Du repli sur soi de la Doctrine Monroe (l'Amérique aux Américains, refusant d'intervenir en Europe), le pays devient l'hyperpuissance mondiale post-1945. Les États-Unis façonnent l'ordre international libéral (Création de l'ONU, du FMI, de l'OTAN). Ils interviennent militairement à travers le monde (Corée, Vietnam, Irak) pour contenir le communisme puis sécuriser les ressources énergétiques et combattre le terrorisme.",
+  "documentaires": [
+    {
+      "titre": "L'histoire des États-Unis : The Civil War (Ken Burns)",
+      "url": "https://fr.wikipedia.org/wiki/Histoire_des_%C3%89tats-Unis"
+    }
+  ]
+}

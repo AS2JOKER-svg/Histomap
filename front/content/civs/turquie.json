@@ -1,0 +1,69 @@
+{
+  "id": "turquie",
+  "label": "Turquie",
+  "tier": 1,
+  "region": "anatolie",
+  "period": "1789 à 2020",
+  "start": 1789,
+  "end": 2020,
+  "trackId": "ottomans",
+  "row": 1,
+  "isRiver": false,
+  "capitale": "Ankara",
+  "description": "Sur les ruines de l'empire ottoman, la révolution kémaliste impose par la poigne une république moderne, laïque et occidentale reliant l'Europe à l'Asie.",
+  "territories": ["Ottoman Empire", "Ottoman Sultanate", "Republic of Turkey", "Turkey"],
+  "datesCles": [
+    {
+      "annee": 1915,
+      "evenement": "Génocide Arménien",
+      "info": "Extermination de plus d'un million d'arméniens chrétiens par le régime des Jeunes-Turcs."
+    },
+    {
+      "annee": 1920,
+      "evenement": "Traité de Sèvres",
+      "info": "Démantèlement de l'Empire ottoman imposé par les Alliés."
+    },
+    {
+      "annee": 1923,
+      "evenement": "La République",
+      "info": "Mustafa Kemal rejette les traités occidentaux et sauve le cœur de la nation."
+    },
+    {
+      "annee": 1928,
+      "evenement": "L'Alphabet Latin",
+      "info": "Une loi de novembre 1928 remplace l'alphabet arabe par l'alphabet latin ; la transition se fait sur plusieurs mois."
+    }
+  ],
+  "dirigeants": [
+    { "titre": "Le Père des Turcs (Président)", "nom": "Mustafa Kemal", "surnom": "Atatürk", "debut": 1923, "fin": 1938 },
+    {
+      "titre": "Premier ministre puis Président (AKP)",
+      "nom": "Recep Tayyip Erdoğan",
+      "surnom": "Premier ministre de 2003 à 2014, président depuis 2014",
+      "debut": 2003,
+      "fin": 2020
+    }
+  ],
+  "personnages": [],
+  "guerres": [
+    {
+      "nom": "Guerre d'Indépendance Turque",
+      "annee": 1919,
+      "adversaires": ["Grèce", "Arménie", "Alliés occidentaux"],
+      "allies": ["Russie bolchévique"],
+      "morts": "Pertes civiles et militaires lourdes",
+      "vainqueur": "Turquie (Gouvernement d'Ankara)",
+      "consequences": "Atatürk écrase l'armée grecque qui tentait d'occuper la côte ouest. Annulation de la partition de la Turquie et immense échange forcé de populations chrétiennes et musulmanes.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_d'ind%C3%A9pendance_turque"
+    }
+  ],
+  "sciences": "Le rattrapage des années 20 est un modèle de dirigisme étatique et militaire : construction expresse de l'industrie textile, d'aciéries, laïcisation massive des universités, et l'un des premiers droits de vote accordé aux femmes au monde (1934).",
+  "croyancesText": "Le 'Kémalisme' impose une laïcité absolue et agressive en pays musulman : le fez est interdit (loi sur le chapeau, 1925), le voile est découragé et interdit dans certains lieux publics (administrations, universités), l'appel à la prière doit se faire en turc, l'alphabet arabe est proscrit. Plus tard (années 2000), le gouvernement d'Erdoğan remettra progressivement l'Islam sunnite politique au cœur du discours de l'État.",
+  "diplomatie": "Devenue le flanc Est stratégique de l'OTAN face à l'URSS pendant la guerre froide (abritant des missiles nucléaires américains), la diplomatie turque est pragmatique : candidat de longue date à l'entrée dans l'Union Européenne, c'est aussi un acteur militarisé incontournable au Moyen-Orient (conflits avec la Grèce pour Chypre, opposition armée au nationalisme kurde).",
+  "documentaires": [
+    {
+      "titre": "Atatürk, père de la Turquie moderne",
+      "url": "https://fr.wikipedia.org/wiki/Mustafa_Kemal_Atat%C3%BCrk"
+    }
+  ]
+}

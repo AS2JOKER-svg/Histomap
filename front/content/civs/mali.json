@@ -1,0 +1,65 @@
+{
+  "id": "mali",
+  "label": "Empire du Mali",
+  "tier": 1,
+  "region": "afrique-ouest",
+  "period": "1235 à 1670",
+  "start": 1235,
+  "end": 1492,
+  "color": "#f39c12",
+  "trackId": "afrique_ouest",
+  "row": 1,
+  "isRiver": true,
+  "capitale": "Niani / Tombouctou",
+  "description": "Sur les cendres du Ghana, le conquérant épique Soundiata fonde un État immense, mondialement célèbre pour le pèlerinage fastueux de Mansa Moussa, souvent présenté comme l'homme le plus riche de l'Histoire.",
+  "territories": ["Mali"],
+  "datesCles": [
+    {
+      "annee": 1235,
+      "evenement": "Bataille de Kirina",
+      "info": "Victoire fondatrice de Soundiata Keïta contre le roi forgeron Soumaoro Kanté."
+    },
+    {
+      "annee": 1236,
+      "evenement": "Charte du Manden",
+      "info": "Selon la tradition orale, Soundiata proclame des règles de vie commune. Transmise par les griots et mise par écrit seulement au XXe siècle, son contenu exact est débattu par les historiens."
+    },
+    {
+      "annee": 1324,
+      "evenement": "Pèlerinage à La Mecque",
+      "info": "L'empereur Mansa Moussa dépense tellement d'or en Égypte qu'il y provoque une hyper-inflation."
+    }
+  ],
+  "dirigeants": [
+    {
+      "titre": "Mansa (Roi des Rois)",
+      "nom": "Soundiata Keïta",
+      "surnom": "Le Lion du Mandingue",
+      "debut": 1235,
+      "fin": 1255
+    },
+    { "titre": "Mansa", "nom": "Moussa Ier", "surnom": "Kankou Moussa", "debut": 1312, "fin": 1337 }
+  ],
+  "personnages": [],
+  "guerres": [
+    {
+      "nom": "Bataille de Kirina",
+      "annee": 1235,
+      "adversaires": ["Empire Sosso (Soumaoro Kanté)"],
+      "allies": ["Coalition des tribus mandingues"],
+      "morts": "Pertes militaires lourdes",
+      "vainqueur": "Mali",
+      "consequences": "Soundiata prend le pouvoir absolu, rédige la constitution de l'empire et fixe les droits de la confrérie des chasseurs.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Kirina"
+    }
+  ],
+  "sciences": "Le Mali développe l'architecture en banco (mélange de terre argileuse, de paille et de beurre de karité) avec des armatures en bois palmier pointant hors des murs de mosquées spectaculaires (comme à Djenné) permettant aux maçons de crépir les murs chaque année après les pluies estivales. Tombouctou devient une véritable université (Sankoré) abritant des milliers de manuscrits (mathématiques, astronomie, droit islamique).",
+  "croyancesText": "L'islam est la religion officielle de la cour et de l'administration des villes marchandes, permettant d'intégrer le Mali dans le système diplomatique et bancaire musulman nord-africain. Cependant, l'immense majorité des populations rurales de l'empire reste profondément attachée aux religions animistes traditionnelles et au culte des ancêtres fondateurs.",
+  "diplomatie": "Une légende, rapportée par Mansa Moussa lui-même mais jamais prouvée, raconte que son prédécesseur Aboubakri II aurait abdiqué vers 1311 pour lancer une flotte de deux mille navires sur l'Océan Atlantique, qui ne serait jamais revenue. L'empereur Mansa Moussa a financé un afflux massif de savants andalous et égyptiens vers Tombouctou, y développant un puissant soft-power intellectuel.",
+  "documentaires": [
+    {
+      "titre": "Soundiata Keïta, la naissance de l'Empire du Mali",
+      "url": "https://fr.wikipedia.org/wiki/Empire_du_Mali"
+    }
+  ]
+}

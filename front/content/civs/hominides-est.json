@@ -1,0 +1,70 @@
+{
+  "id": "hominides-est",
+  "label": "Hominidés d'Afrique de l'Est",
+  "tier": 1,
+  "region": "afrique-est",
+  "period": "-3 200 000 à -200 000",
+  "start": -3200000,
+  "end": -200000,
+  "color": "#a8b89a",
+  "trackId": "humanite_berceau",
+  "row": 1,
+  "isRiver": true,
+  "capitale": "Vallée du Grand Rift",
+  "description": "Le berceau de l'humanité, théâtre de l'évolution depuis les Australopithèques jusqu'à l'émergence d'Homo sapiens.",
+  "territories": ["Homo erectus", "Homo heidelbergensis"],
+  "datesCles": [
+    {
+      "annee": -3200000,
+      "evenement": "Lucy l'Australopithèque",
+      "info": "Découverte en Éthiopie, elle prouve l'acquisition précoce de la bipédie."
+    },
+    {
+      "annee": -2400000,
+      "evenement": "Homo Habilis",
+      "info": "L'« homme habile » apparaît vers -2,4 millions d'années. Il n'est pas l'inventeur des premiers outils : des outils plus anciens sont connus à Lomekwi (Kenya, vers -3,3 millions d'années) et la culture oldowayenne débute vers -2,6 millions d'années."
+    },
+    {
+      "annee": -1800000,
+      "evenement": "Homo Erectus",
+      "info": "Premier hominidé à quitter l'Afrique et à maîtriser la symétrie des outils (bifaces acheuléens)."
+    },
+    {
+      "annee": -400000,
+      "evenement": "Maîtrise du feu",
+      "info": "Domestication des foyers, permettant la cuisson de la viande et la protection nocturne."
+    },
+    {
+      "annee": -300000,
+      "evenement": "Apparition d'Homo Sapiens",
+      "info": "Les plus anciens fossiles de notre espèce découverts au Maroc (Djebel Irhoud) et en Éthiopie."
+    }
+  ],
+  "dirigeants": [],
+  "personnages": [
+    {
+      "nom": "Lucy (Australopithecus afarensis)",
+      "role": "Fossile emblématique",
+      "description": "Découverte en 1974 en Éthiopie par l'équipe de Donald Johanson, Yves Coppens et Maurice Taieb. Son squelette complet à 40% a révolutionné notre compréhension de la bipédie.",
+      "dates": "Vers -3,2 Millions d'années",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Lucy_(australopith%C3%A8que)"
+    },
+    {
+      "nom": "Toumaï (Sahelanthropus tchadensis)",
+      "role": "Plus ancien hominidé",
+      "description": "Découvert au Tchad, il est considéré comme l'une des premières espèces de la lignée humaine.",
+      "dates": "Vers -7 Millions d'années",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Touma%C3%AF"
+    }
+  ],
+  "guerres": [],
+  "sciences": "L'évolution technologique est extrêmement lente mais décisive. La transition de la culture Oldowayenne (galets simplement aménagés) à l'Acheuléen (bifaces symétriques taillés sur les deux faces) témoigne d'une évolution majeure du cortex cérébral : la capacité de conceptualiser la forme de l'outil avant de le fabriquer. La maîtrise du feu transforme ensuite la physiologie humaine, la digestion cuite demandant moins d'énergie, permettant au cerveau de se développer.",
+  "croyancesText": "Pour cette période reculée, on ne parle pas de religion mais de « pensée symbolique naissante ». Les premières traces de rites funéraires ou de considérations au-delà de la survie immédiate apparaissent tardivement. Des amas d'ossements et des crânes manipulés ou striés suggèrent de possibles rites de décharnement ou un respect particulier accordé aux défunts avant même l'apparition de Sapiens.",
+  "diplomatie": "Il n'y a pas de géopolitique, mais des logiques de survie et de migration. Les groupes de chasseurs-cueilleurs vivent en bandes nomades (20 à 50 individus). Lorsque les ressources s'épuisent ou que le climat change, ces groupes se scindent ou migrent. C'est le phénomène « Out of Africa », qui verra Erectus puis Sapiens sortir d'Afrique par vagues successives via le couloir levantin pour peupler l'Eurasie.",
+  "documentaires": [
+    {
+      "titre": "L'Odyssée de l'espèce (France 3)",
+      "url": "https://fr.wikipedia.org/wiki/L%27Odyss%C3%A9e_de_l%27esp%C3%A8ce_(t%C3%A9l%C3%A9film)"
+    }
+  ]
+}

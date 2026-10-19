@@ -1,0 +1,40 @@
+{
+  "id": "huari",
+  "label": "Empire Huari (Wari)",
+  "tier": 1,
+  "region": "andes",
+  "period": "600 à 1050",
+  "start": 600,
+  "end": 1050,
+  "color": "#ba9c07",
+  "trackId": "andes_nord",
+  "row": 3,
+  "isRiver": false,
+  "capitale": "Huari (Pérou central)",
+  "description": "Les véritables 'Romains des Andes'. L'empire militaire et bureaucratique implacable qui a préparé les infrastructures routières des futurs Incas.",
+  "territories": ["Huari Empire"],
+  "datesCles": [
+    {
+      "annee": 600,
+      "evenement": "L'Expansion Militaire",
+      "info": "Huari lance une conquête fulgurante vers le Nord et la côte de Nazca."
+    },
+    {
+      "annee": 700,
+      "evenement": "Standardisation",
+      "info": "L'empire diffuse sa culture (peut-être une langue ancêtre de l'aymara, selon une hypothèse) et développe les terrasses agricoles."
+    },
+    {
+      "annee": 1000,
+      "evenement": "Fragmentation",
+      "info": "La capitale est abandonnée vers l'an 1000 ; les causes (sécheresse, révoltes, crise politique) sont discutées."
+    }
+  ],
+  "dirigeants": [],
+  "personnages": [],
+  "guerres": [],
+  "sciences": "Excellents géomètres d'État, les Huari construisent de nouveaux centres administratifs (comme Pikillaqta), conçus sur un plan quadrillé rigide, avec de hauts murs. Ils développent les terrasses agricoles (andenes) à flanc de montagne et construisent des routes, en partie reprises plus tard par les Incas.",
+  "croyancesText": "La religion Huari s'inspire du Dieu aux Sceptres de Tiwanaku, mais dans un style militaire, strict et géométrique. Leurs tapisseries funéraires sont des chefs-d'œuvre mondiaux de complexité optique (abstraction pure avec un nombre ahurissant de fils au centimètre carré). Leurs rites incluent des tombes royales souterraines labyrinthiques pour protéger les momies sacrées des hauts dignitaires de l'État.",
+  "diplomatie": "C'est l'anti-thèse de l'empire culturel de Tiwanaku. Les Huari sont des conquérants purs et durs, imposant par la force militaire une centralisation absolue des excédents agricoles dans des greniers d'État. Pour éviter la confrontation avec le géant Tiwanaku au Sud, un accord implicite ou une guerre froide fige la frontière andine, permettant aux Huari d'étendre leur influence vers le nord et l'ouest du Pérou (y compris dans l'ancienne région moche, où cette influence est visible sans qu'une conquête soit attestée).",
+  "documentaires": [{ "titre": "L'Empire Wari : les prédécesseurs des Incas", "url": "https://fr.wikipedia.org/wiki/Culture_Wari" }]
+}

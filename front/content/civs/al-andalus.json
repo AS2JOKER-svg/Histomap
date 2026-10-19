@@ -1,0 +1,79 @@
+{
+  "id": "al-andalus",
+  "label": "Al-Andalus",
+  "tier": 1,
+  "region": "peninsule-iberique",
+  "period": "711 à 1492",
+  "start": 711,
+  "end": 1492,
+  "color": "#1b5e20",
+  "trackId": "iberie_sud",
+  "row": 8,
+  "isRiver": false,
+  "capitale": "Cordoue puis Grenade",
+  "description": "Splendeur islamique d'Espagne, pôle de tolérance religieuse et intellectuelle, traduisant et transmettant le savoir antique à l'Europe engourdie.",
+  "territories": ["Emirate of Córdoba", "Caliphate of Córdoba", "Almohad Caliphate", "Granada"],
+  "datesCles": [
+    {
+      "annee": 711,
+      "evenement": "Conquête musulmane",
+      "info": "Les troupes arabo-berbères de Tariq ibn Ziyad écrasent les Wisigoths."
+    },
+    {
+      "annee": 929,
+      "evenement": "Califat de Cordoue",
+      "info": "L'émir Abd al-Rahman III se proclame Calife, coupant les ponts avec Bagdad."
+    },
+    {
+      "annee": 1031,
+      "evenement": "Chute du Califat",
+      "info": "L'empire implose en dizaines de petits royaumes rivaux (les Taïfas)."
+    },
+    {
+      "annee": 1212,
+      "evenement": "Las Navas de Tolosa",
+      "info": "Défaite décisive des Almohades face à la coalition des royaumes chrétiens (Castille, Aragon, Navarre)."
+    },
+    {
+      "annee": 1492,
+      "evenement": "Chute de Grenade",
+      "info": "Fin de huit siècles de présence politique de l'Islam en péninsule Ibérique."
+    }
+  ],
+  "dirigeants": [
+    { "titre": "Calife Omeyyade", "nom": "Abd al-Rahman III", "debut": 912, "fin": 961 },
+    { "titre": "Émir de Grenade", "nom": "Boabdil", "debut": 1482, "fin": 1492 }
+  ],
+  "personnages": [
+    {
+      "nom": "Averroès (Ibn Rushd)",
+      "role": "Philosophe et Médecin",
+      "description": "Le grand commentateur d'Aristote, tentant de concilier rationalisme philosophique et révélation islamique.",
+      "dates": "1126 à 1198",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Averro%C3%A8s"
+    },
+    {
+      "nom": "Maïmonide",
+      "role": "Philosophe juif",
+      "description": "Grand médecin et théologien de la diaspora séfarade de Cordoue.",
+      "dates": "1138 à 1204",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Mo%C3%AFse_Ma%C3%AFmonide"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Bataille de Las Navas de Tolosa",
+      "annee": 1212,
+      "adversaires": ["Castille, Aragon et Navarre", "Croisés européens"],
+      "allies": ["Empire Almohade"],
+      "morts": "Très lourdes pertes dans les rangs almohades",
+      "vainqueur": "Royaumes chrétiens (Reconquista)",
+      "consequences": "La puissance militaire almohade en péninsule est brisée. Le sud de l'Espagne s'ouvre à la reconquête chrétienne.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Las_Navas_de_Tolosa"
+    }
+  ],
+  "sciences": "Al-Andalus est le laboratoire de l'Europe. Ils introduisent les moulins à vent, le papier, l'astrolabe, et révolutionnent l'agriculture par de vastes réseaux d'irrigation (acclimatant le riz, les agrumes, le coton). La chirurgie fait un bond avec Abulcasis (créateur de centaines d'instruments médicaux). La bibliothèque de Cordoue compte 400 000 manuscrits (quand les monastères français en comptaient 400).",
+  "croyancesText": "Terre de la 'Convivencia' (coexistence). Sous le droit islamique, les Chrétiens et les Juifs ont le statut de 'Dhimmis' : ils sont libres de pratiquer leur foi et de se gouverner, en échange d'un impôt spécifique de soumission (la Jizya). Bien que n'étant pas une société égalitaire au sens moderne, cette tolérance a permis une effervescence théologique, poétique et scientifique unique au monde.",
+  "diplomatie": "La politique andalouse est minée par les clivages ethniques internes (Arabes de souche, Berbères d'Afrique du Nord, Slaves mercenaires, Espagnols convertis). Après la dislocation du Califat puissant, les roitelets des Taïfas préfèrent souvent s'allier avec les rois chrétiens du Nord et payer des tributs (Parias) pour faire la guerre à leurs frères musulmans voisins.",
+  "documentaires": [{ "titre": "Al-Andalus, l'Espagne et le temps des califes", "url": "https://fr.wikipedia.org/wiki/Al-Andalus" }]
+}

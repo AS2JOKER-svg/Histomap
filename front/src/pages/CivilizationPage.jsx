@@ -1,7 +1,7 @@
 import { useEffect } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { motion } from 'framer-motion'
-import { getCivilization } from '../lib/data'
+import { getCivilization, useCiv } from '../lib/data'
 import { haptic } from '../lib/haptics'
 import { useProgress } from '../store/progress'
 import { useUI } from '../store/ui'
@@ -10,12 +10,15 @@ import { formatYear, formatDuration } from '../lib/time'
 import useDocumentTitle from '../lib/useDocumentTitle'
 import Breadcrumbs from '../components/ui/Breadcrumbs'
 import Icon from '../components/ui/Icon'
+import RichText from '../components/ui/RichText'
 import NotFoundPage from './NotFoundPage'
 import { civTextStyle } from '../lib/color'
 
 export default function CivilizationPage() {
   const { epochId, civId } = useParams()
   const found = getCivilization(epochId, civId)
+  // En-tête : version légère (immédiate) ; sections : détail chargé à la demande
+  const detail = useCiv(civId)
   useDocumentTitle(found?.civ.label ?? 'Fiche introuvable')
   const readFiche = useProgress((s) => s.readFiche)
   const setLast = useProgress((s) => s.setLast)
@@ -38,7 +41,8 @@ export default function CivilizationPage() {
     return <NotFoundPage title="Fiche introuvable" text="Cette civilisation n'existe pas dans cette époque." />
   }
 
-  const { epoch, continent, civ } = found
+  const { epoch, continent } = found
+  const civ = detail.civ ?? found.civ
   const events = [...(civ.datesCles ?? [])].sort((a, b) => a.annee - b.annee)
   const dirigeants = civ.dirigeants ?? []
   const personnages = civ.personnages ?? []
@@ -72,7 +76,7 @@ export default function CivilizationPage() {
             <span className="eyebrow">{epoch.label} · {continent.label}</span>
           </div>
           <h1 className="font-display text-3xl sm:text-5xl font-semibold text-ink tracking-tight">{civ.label}</h1>
-          <p className="text-muted mt-3 max-w-3xl text-[15px] sm:text-base leading-relaxed">{civ.description}</p>
+          <RichText as="p" className="text-muted mt-3 max-w-3xl text-[15px] sm:text-base leading-relaxed" text={civ.description} />
 
           <div className="flex flex-wrap gap-2 mt-5">
             <Chip label="Période" value={civ.period} />
@@ -90,6 +94,10 @@ export default function CivilizationPage() {
 
       <LineageTrail civ={civ} linkTo={(m) => `/frise/${m.epochId}/${m.civId}`} />
 
+      {detail.status !== 'ready' ? (
+        <DetailFallback status={detail.status} retry={detail.retry} />
+      ) : (
+      <>
       <div className="grid gap-6 md:grid-cols-2">
         {/* Dates clés */}
         <Section icon="clock" title="Dates clés">
@@ -112,8 +120,8 @@ export default function CivilizationPage() {
                   <div className="text-xs font-semibold tabular-nums civ-text" style={civTextStyle(civ.color)}>
                     {formatYear(ev.annee)}
                   </div>
-                  <div className="text-sm font-medium text-ink">{ev.evenement}</div>
-                  {ev.info && <p className="text-sm text-muted mt-0.5 leading-relaxed">{ev.info}</p>}
+                  <RichText as="div" className="text-sm font-medium text-ink" text={ev.evenement} />
+                  {ev.info && <RichText as="p" className="text-sm text-muted mt-0.5 leading-relaxed" text={ev.info} />}
                 </motion.li>
               ))}
             </ol>
@@ -169,7 +177,7 @@ export default function CivilizationPage() {
                         {p.wikiUrl && <WikiLink href={p.wikiUrl} />}
                       </div>
                       {p.role && <div className="text-xs text-muted">{p.role}{p.dates ? ` · ${p.dates}` : ''}</div>}
-                      {p.description && <p className="text-sm text-muted mt-1 leading-relaxed">{p.description}</p>}
+                      {p.description && <RichText as="p" className="text-sm text-muted mt-1 leading-relaxed" text={p.description} />}
                     </div>
                   </li>
                 ))}
@@ -226,7 +234,7 @@ export default function CivilizationPage() {
                   <dl className="text-xs text-muted space-y-1 mt-2 leading-relaxed">
                     {g.morts && <div><dt className="inline font-semibold text-ink">Pertes : </dt><dd className="inline">{g.morts}</dd></div>}
                     {g.vainqueur && <div><dt className="inline font-semibold text-ink">Vainqueur : </dt><dd className="inline">{g.vainqueur}</dd></div>}
-                    {g.consequences && <div><dt className="inline font-semibold text-ink">Conséquences : </dt><dd className="inline">{g.consequences}</dd></div>}
+                    {g.consequences && <div><dt className="inline font-semibold text-ink">Conséquences : </dt><RichText as="dd" className="inline" text={g.consequences} /></div>}
                   </dl>
                 </li>
               ))}
@@ -257,6 +265,8 @@ export default function CivilizationPage() {
             ))}
           </div>
         </Section>
+      )}
+      </>
       )}
 
       {/* Autres civilisations du même continent */}
@@ -314,7 +324,37 @@ function Chip({ label, value }) {
 
 function Prose({ text }) {
   if (!text) return <Empty>Non renseigné.</Empty>
-  return <p className="text-[15px] text-muted leading-relaxed whitespace-pre-line">{text}</p>
+  return <RichText as="p" className="text-[15px] text-muted leading-relaxed whitespace-pre-line" text={text} />
+}
+
+/** Détail de la fiche en cours de chargement, ou indisponible (hors ligne, jamais ouverte). */
+function DetailFallback({ status, retry }) {
+  if (status === 'error') {
+    return (
+      <div className="card p-6 text-center">
+        <span className="inline-grid place-items-center w-12 h-12 rounded-2xl bg-surface2 text-muted mb-3">
+          <Icon name="wifiOff" size={22} />
+        </span>
+        <p className="font-semibold text-ink">Fiche indisponible</p>
+        <p className="text-sm text-muted mt-1">Elle n'a pas pu être chargée. Vérifiez votre connexion, puis réessayez.</p>
+        <button onClick={retry} className="btn-primary h-11 px-4 mt-4">
+          <Icon name="refresh" size={18} /> Réessayer
+        </button>
+      </div>
+    )
+  }
+  return (
+    <div className="grid gap-6 md:grid-cols-2 animate-pulse" aria-busy="true" aria-label="Chargement de la fiche">
+      {[0, 1, 2, 3].map((i) => (
+        <div key={i} className="card p-6 space-y-3">
+          <div className="h-5 w-40 rounded bg-surface2" />
+          <div className="h-4 rounded bg-surface2" />
+          <div className="h-4 w-5/6 rounded bg-surface2" />
+          <div className="h-4 w-2/3 rounded bg-surface2" />
+        </div>
+      ))}
+    </div>
+  )
 }
 
 function WikiLink({ href }) {

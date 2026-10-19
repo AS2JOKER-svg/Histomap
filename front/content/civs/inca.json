@@ -1,0 +1,73 @@
+{
+  "id": "inca",
+  "label": "Empire inca",
+  "tier": 1,
+  "region": "andes",
+  "period": "1438 à 1533",
+  "start": 1438,
+  "end": 1533,
+  "color": "#f39c12",
+  "trackId": "andes",
+  "row": 2,
+  "isRiver": false,
+  "capitale": "Cuzco",
+  "description": "Le 'Tahuantinsuyu' (l'Empire des 4 quartiers). Un prodige administratif de 4000 kilomètres étiré sur la cordillère des Andes, administré sans aucune monnaie ni écriture.",
+  "territories": ["Inca Empire"],
+  "datesCles": [
+    {
+      "annee": 1438,
+      "evenement": "Pachacutec",
+      "info": "L'empereur transforme un petit royaume de Cuzco en un empire continental foudroyant."
+    },
+    {
+      "annee": 1450,
+      "evenement": "Machu Picchu",
+      "info": "Construction du mystérieux sanctuaire et domaine royal perché dans les nuages."
+    },
+    {
+      "annee": 1529,
+      "evenement": "Guerre Civile Inca",
+      "info": "Guerre de succession fraternelle entre Atahualpa et Huascar, affaiblissant mortellement l'empire."
+    },
+    {
+      "annee": 1532,
+      "evenement": "Massacre de Cajamarca",
+      "info": "Pizarro capture par surprise le Sapa Inca, sonnant l'hallali de l'empire andin."
+    }
+  ],
+  "dirigeants": [
+    {
+      "titre": "Sapa Inca (Empereur)",
+      "nom": "Pachacútec",
+      "surnom": "Celui qui bouleverse le monde",
+      "debut": 1438,
+      "fin": 1471
+    },
+    { "titre": "Dernier Empereur", "nom": "Atahualpa", "debut": 1532, "fin": 1533 }
+  ],
+  "personnages": [
+    {
+      "nom": "Francisco Pizarro",
+      "role": "Conquistador",
+      "description": "Ancien porcher espagnol illettré, analphabète mais stratège impitoyable, il s'empara du plus grand empire d'Amérique avec seulement 168 soldats.",
+      "dates": "1478 à 1541",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Francisco_Pizarro"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Bataille de Cajamarca",
+      "annee": 1532,
+      "adversaires": ["Espagne (Pizarro)"],
+      "allies": ["Tribus locales anti-incas"],
+      "morts": "Plus de 2000 dignitaires incas massacrés sans défense",
+      "vainqueur": "Espagne",
+      "consequences": "En un coup de poker sidérant, Pizarro capture l'Inca-Dieu Atahualpa au milieu de son armée de 80 000 hommes. Il encaisse la 'Rançon de l'Inca' (une pièce remplie d'or massif) puis le fait étrangler, provoquant l'effondrement pyramidal de l'État.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Cajamarca"
+    }
+  ],
+  "sciences": "Leur génie réside dans l'organisation étatique, la logistique et l'architecture antisismique de pointe. Dénués d'écriture, ils administrent des millions de sujets via les Quipus (système complexe de cordelettes à nœuds colorés tenu par les Quipucamayocs) pour la comptabilité et le recensement. Le Qhapaq Ñan est un prodigieux réseau de routes pavées de 30 000 km d'altitude, franchissant les précipices grâce à des ponts suspendus en fibres végétales tressées.",
+  "croyancesText": "Le Sapa Inca ('Inca Unique') est le fils vivant du dieu Soleil (Inti). À sa mort, le souverain est éviscéré, séché, et sa momie (le Mallqui) continue 'réellement' à régner, participant aux banquets, aux défilés rituels sur la place d'armes de Cuzco (l'Auccaypata), et conservant la propriété de tous ses palais et de ses terres, ce qui force ses successeurs à toujours conquérir de nouvelles terres pour financer leur propre cour.",
+  "diplomatie": "C'est l'État providence et centralisé ultime (la Mita). Pas d'argent : l'impôt se paie en force de travail manuel pour l'État. En échange, les immenses greniers impériaux (Qollqas) redistribuent nourriture et vêtements à la population lors des famines (sécheresses andines). L'expansion diplomatique inca privilégiait d'abord l'offre d'assimilation douce avec échanges de cadeaux somptueux. Si l'ennemi refusait, l'armée impériale andine écrasait son royaume.",
+  "documentaires": [{ "titre": "L'empire Inca, le secret des nuages", "url": "https://fr.wikipedia.org/wiki/Empire_inca" }]
+}

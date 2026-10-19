@@ -1,0 +1,72 @@
+{
+  "id": "maya",
+  "label": "Civilisation maya (Époque classique)",
+  "tier": 1,
+  "region": "mesoamerique",
+  "period": "250 à 900",
+  "start": 476,
+  "end": 1492,
+  "color": "#16a085",
+  "trackId": "mesoamerique",
+  "row": 1,
+  "isRiver": false,
+  "capitale": "Tikal, Calakmul, Copán",
+  "description": "Les 'Grecs de l'Amérique' : une constellation de cités-États en guerre perpétuelle dans la jungle, dotées des mathématiques et de l'astronomie les plus précises du monde.",
+  "territories": ["Maya chiefdoms and states", "Maya states", "Maya city-states"],
+  "datesCles": [
+    {
+      "annee": 562,
+      "evenement": "Défaite de Tikal",
+      "info": "Tikal est vaincue par la cité de Caracol, alliée de la puissance rivale Calakmul."
+    },
+    {
+      "annee": 695,
+      "evenement": "Revanche de Tikal",
+      "info": "Tikal bat définitivement Calakmul, amorçant l'ultime essor architectural maya."
+    },
+    {
+      "annee": 830,
+      "evenement": "L'Effondrement",
+      "info": "Début d'une sécheresse systémique couplée à une surpopulation causant l'abandon des grandes capitales."
+    },
+    {
+      "annee": 1000,
+      "evenement": "Période postclassique",
+      "info": "Renaissance dans la péninsule aride du Yucatán autour de Chichén Itzá et Mayapán."
+    }
+  ],
+  "dirigeants": [
+    {
+      "titre": "K'uhul Ajaw (Saint Seigneur)",
+      "nom": "Pakal",
+      "surnom": "Le Grand (Roi de Palenque)",
+      "debut": 615,
+      "fin": 683
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Jasaw Chan K'awiil Ier",
+      "role": "Roi de Tikal",
+      "description": "Le grand souverain qui releva Tikal de la ruine, écrasa ses ennemis et finança les immenses temples jumeaux de la cité.",
+      "dates": "Règne de 682 à 734",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Jasaw_Chan_K%27awiil_I"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Première et Seconde Guerre Tikal-Calakmul",
+      "annee": 537,
+      "adversaires": ["Cité-État de Calakmul (et vassaux)"],
+      "allies": ["Cité-État de Tikal (et vassaux)"],
+      "morts": "Très lourd tribut en élites décapitées",
+      "vainqueur": "Calakmul (puis Tikal)",
+      "consequences": "Un basculement constant de l'hégémonie Maya. La guerre épuise la paysannerie obligée de construire de massives fortifications dans la forêt tropicale.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Royaume_du_Serpent"
+    }
+  ],
+  "sciences": "Leur système d'écriture (les glyphes mayas) n'est pas un alphabet mais un système logo-syllabique, mêlant signes-mots et signes-syllabes : c'est le système d'écriture le plus complet des Amériques précolombiennes. Les Mayas utilisent le zéro dans leur numération en base 20 (l'un des plus anciens zéros connus) et atteignent une grande précision astronomique sans télescope : leurs tables permettent de prévoir les éclipses et les cycles de Vénus.",
+  "croyancesText": "Le cosmos Maya nécessite un sang royal régulier pour ne pas s'arrêter. Les souverains ('K'uhul Ajaw') pratiquent l'autosacrifice rituel (saignée de la langue avec des cordes épineuses ou du sexe avec des épines de raie) pour ouvrir des portails de communication avec les divinités (le Serpent-Vision). Les prisonniers de guerre capturés sont torturés puis décapités ou précipités en bas des grands temples-pyramides à degrés.",
+  "diplomatie": "Il n'y a jamais eu d'Empire Maya. La jungle abrite un écosystème géopolitique à la grecque, avec près de 60 royaumes et cités-États s'alliant ou se massacrant en une 'guerre des Étoiles' (guerres déclarées selon la position de Vénus). Tikal (soutenue par l'héritage de Teotihuacán) et Calakmul (l'Empire du Serpent) passent des siècles dans une guerre froide et chaude de procuration, épuisant finalement les ressources de la forêt.",
+  "documentaires": [{ "titre": "L'apocalypse des Mayas", "url": "https://fr.wikipedia.org/wiki/Civilisation_maya" }]
+}

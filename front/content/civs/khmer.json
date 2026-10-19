@@ -1,0 +1,59 @@
+{
+  "id": "khmer",
+  "label": "Empire Khmer",
+  "tier": 1,
+  "region": "asie-sud-est-continentale",
+  "period": "802 à 1431",
+  "start": 802,
+  "end": 1431,
+  "color": "#ff9800",
+  "trackId": "indochine",
+  "row": 7,
+  "isRiver": true,
+  "capitale": "Angkor",
+  "description": "Cité d'eau, de pierre et de jungle : le grand empire d'Indochine aux temples démesurés, anéanti par les caprices de la mousson et la guerre.",
+  "territories": ["Chen-La", "Khmer Empire"],
+  "datesCles": [
+    {
+      "annee": 802,
+      "evenement": "Fondation sur la montagne",
+      "info": "Jayavarman II se proclame roi-dieu de l'Univers sur le Mont Kulen."
+    },
+    {
+      "annee": 1150,
+      "evenement": "Angkor Wat",
+      "info": "Suryavarman II bâtit la plus grande structure religieuse mondiale en grès massif."
+    },
+    {
+      "annee": 1181,
+      "evenement": "La Revanche",
+      "info": "Jayavarman VII écrase les envahisseurs du Champa et bâtit la grande Angkor Thom."
+    },
+    {
+      "annee": 1431,
+      "evenement": "Le Sacre et la Fuite",
+      "info": "Invasion thaï (Ayutthaya). La cour khmère abandonne Angkor à la jungle."
+    }
+  ],
+  "dirigeants": [
+    { "titre": "Devaraja (Roi-Dieu)", "nom": "Suryavarman II", "debut": 1113, "fin": 1150 },
+    { "titre": "Devaraja", "nom": "Jayavarman VII", "surnom": "Le Roi bâtisseur", "debut": 1181, "fin": 1218 }
+  ],
+  "personnages": [],
+  "guerres": [
+    {
+      "nom": "Guerres Khméro-Chams",
+      "annee": 1177,
+      "adversaires": ["Royaume de Champa (Sud-Vietnam actuel)"],
+      "allies": [],
+      "morts": "Saccage initial d'Angkor",
+      "vainqueur": "Empire Khmer (Contre-attaque)",
+      "consequences": "Après un raid naval dévastateur des Chams remontant le lac, le prince khmer Jayavarman VII prend le pouvoir, envahit le Champa et le réduit en province.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Empire_khmer"
+    }
+  ],
+  "sciences": "Angkor n'est pas seulement un temple, c'est la plus grande mégalopole pré-industrielle du monde (plusieurs centaines de milliers d'habitants selon les estimations). Pour survivre à l'alternance mousson/sécheresse, ils créent une 'Cité Hydraulique' folle : des Barays. Des lacs artificiels de 8 km sur 2 km, construits non pas en creusant, mais en érigeant des digues titanesques, capables d'irriguer les rizières permettant 3 à 4 récoltes par an.",
+  "croyancesText": "Initialement fondé sur le culte de Shiva et Vishnu, le roi n'est pas seulement représentant, il 'est' le dieu (Devaraja). L'architecture des temples, comme Angkor Wat entouré de douves, est une réplique terrestre parfaite de la cosmologie hindoue (le mythique mont Meru entouré de l'océan cosmique). Plus tard, le roi Jayavarman VII impose le Bouddhisme du Grand Véhicule (Mahayana) en faisant sculpter d'immenses visages sereins sur ses tours (Bayon).",
+  "diplomatie": "L'Empire s'étend du Vietnam au Myanmar. Il relie ses provinces vassales par un réseau d'autoroutes de latérite surélevées pour échapper aux inondations, ponctuées de ponts à arches en encorbellement et d'hôpitaux royaux. La diplomatie extérieure est brutale, reposant sur l'utilisation d'infanterie légère naviguant sur le grand lac du Tonlé Sap, et de brigades massives d'éléphants de guerre.",
+  "documentaires": [{ "titre": "Le génie hydraulique d'Angkor", "url": "https://fr.wikipedia.org/wiki/Empire_khmer" }]
+}

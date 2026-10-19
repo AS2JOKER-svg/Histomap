@@ -1,0 +1,67 @@
+{
+  "id": "chine-tang-song",
+  "label": "Chine (Tang & Song)",
+  "tier": 1,
+  "region": "chine",
+  "period": "618 à 1279",
+  "start": 618,
+  "end": 1279,
+  "trackId": "chine",
+  "row": 3,
+  "isRiver": true,
+  "capitale": "Chang'an, Kaifeng, Hangzhou",
+  "description": "Les ères dynastiques les plus brillantes de l'humanité médiévale, inventant les piliers de la modernité (imprimerie, boussole, monnaie papier, poudre à canon).",
+  "territories": ["Sui Empire", "Tang Empire", "Song Empire"],
+  "datesCles": [
+    {
+      "annee": 618,
+      "evenement": "Fondation des Tang",
+      "info": "Âge d'or de l'expansionnisme militaire chinois et de la poésie classique."
+    },
+    {
+      "annee": 690,
+      "evenement": "Impératrice Wu",
+      "info": "Wu Zetian fonde sa propre dynastie éphémère (unique femme empereur régnante)."
+    },
+    {
+      "annee": 960,
+      "evenement": "Fondation des Song",
+      "info": "L'État devient un empire bureaucratique, urbain et marchand (Renaissance chinoise)."
+    },
+    {
+      "annee": 1279,
+      "evenement": "Chute des Song",
+      "info": "Détruite lors d'une terrible bataille navale (Yamen) contre la flotte de Kubilai Khan."
+    }
+  ],
+  "dirigeants": [
+    { "titre": "Empereur Tang", "nom": "Taizong", "debut": 626, "fin": 649 },
+    { "titre": "Impératrice (Auguste et Céleste)", "nom": "Wu Zetian", "debut": 690, "fin": 705 },
+    { "titre": "Empereur Song", "nom": "Taizu", "debut": 960, "fin": 976 }
+  ],
+  "personnages": [
+    {
+      "nom": "Li Bai",
+      "role": "Le Poète immortel",
+      "description": "Le plus célèbre poète de l'histoire chinoise, génie taoïste, buveur invétéré, légende de la dynastie Tang.",
+      "dates": "701 à 762",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Li_Bai"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Révolte d'An Lushan",
+      "annee": 755,
+      "adversaires": ["Généraux frontaliers rebelles"],
+      "allies": ["Tribus Ouïghours mercenaires"],
+      "morts": "Jusqu'à 30 millions de victimes (famines)",
+      "vainqueur": "Dynastie Tang (affaiblie)",
+      "consequences": "L'une des guerres les plus meurtrières de toute l'histoire humaine. L'Empire Tang est ruiné et perdra le contrôle de l'Asie Centrale.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/R%C3%A9volte_d'An_Lushan"
+    }
+  ],
+  "sciences": "Ils opèrent quatre révolutions technologiques mondiales (des siècles avant l'Europe) : la poudre à canon (utilisée pour les roquettes et lances de feu sous les Song), la boussole nautique (permettant une marine marchande géante), l'imprimerie (par blocs de bois gravés, multipliant la diffusion des savoirs) et l'invention du papier-monnaie (billet de banque) pour soutenir un boom économique pré-capitaliste colossal.",
+  "croyancesText": "Trois doctrines cohabitent et s'affrontent. Sous les Tang, le Bouddhisme, importé d'Inde via la Route de la Soie, devient ultrapuissant et florissant, s'intégrant à la cour. Sous la dynastie Song, en réaction, l'État finance le 'Néo-Confucianisme', une refonte rationnelle et morale très stricte, insistant sur le devoir civique, la loyauté absolue à l'État et la redéfinition du rôle de la femme (début de la coutume des pieds bandés).",
+  "diplomatie": "La cour Tang est la plus cosmopolite du monde (Chang'an compte un million d'habitants). Ils gèrent l'Eurasie en employant des généraux étrangers turcs, ce qui conduira au désastre de la Révolte d'An Lushan. Les Song, au contraire, méprisent la classe militaire et confient le pouvoir politique entier aux civils Lettrés, ayant réussi des concours impériaux extrêmement difficiles, créant une puissante méritocratie administrative.",
+  "documentaires": [{ "titre": "L'Âge d'or de la Chine (Série Arte)", "url": "https://fr.wikipedia.org/wiki/Dynastie_Song" }]
+}

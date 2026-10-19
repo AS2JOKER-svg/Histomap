@@ -1,0 +1,62 @@
+{
+  "id": "espagne",
+  "label": "Empire espagnol",
+  "tier": 1,
+  "region": "peninsule-iberique",
+  "period": "1492 à 1789",
+  "start": 1492,
+  "end": 1789,
+  "trackId": "espagne",
+  "row": 1,
+  "isRiver": false,
+  "capitale": "Madrid",
+  "description": "Le premier empire sur lequel 'le soleil ne se couche jamais', inondant l'Europe de l'or et de l'argent des Amériques tout en s'épuisant dans les guerres de religion.",
+  "territories": ["Spain", "Castille", "Aragón", "Spanish Habsburg"],
+  "datesCles": [
+    {
+      "annee": 1492,
+      "evenement": "Découverte de l'Amérique",
+      "info": "Christophe Colomb débarque aux Bahamas. La même année, chute de Grenade (fin de la Reconquista)."
+    },
+    { "annee": 1521, "evenement": "Conquête du Mexique", "info": "Hernán Cortés anéantit l'Empire Aztèque." },
+    {
+      "annee": 1588,
+      "evenement": "Désastre de l'Invincible Armada",
+      "info": "La flotte espagnole est décimée par les tempêtes et les Anglais, marquant la fin de l'hégémonie navale."
+    },
+    {
+      "annee": 1700,
+      "evenement": "Guerre de Succession",
+      "info": "Extinction des Habsbourg d'Espagne, la France y place un roi Bourbon."
+    }
+  ],
+  "dirigeants": [
+    { "titre": "Empereur du Saint-Empire et Roi", "nom": "Charles Quint", "debut": 1516, "fin": 1556 },
+    { "titre": "Roi d'Espagne", "nom": "Philippe II", "surnom": "Le Prudent", "debut": 1556, "fin": 1598 }
+  ],
+  "personnages": [
+    {
+      "nom": "Miguel de Cervantes",
+      "role": "Écrivain",
+      "description": "Auteur de Don Quichotte, considéré comme le premier roman moderne de la littérature mondiale.",
+      "dates": "1547 à 1616",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Miguel_de_Cervantes"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerre de Quatre-Vingts Ans",
+      "annee": 1568,
+      "adversaires": ["Provinces-Unies (Pays-Bas)"],
+      "allies": ["Saint-Empire"],
+      "morts": "Pertes économiques et militaires colossales",
+      "vainqueur": "Provinces-Unies",
+      "consequences": "L'Espagne perd les riches Pays-Bas, ruinant son trésor royal et déclenchant plusieurs banqueroutes d'État successives.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_de_Quatre-Vingts_Ans"
+    }
+  ],
+  "sciences": "Le Siècle d'or espagnol (Siglo de Oro) brille par les arts (peinture de Velázquez, El Greco) mais aussi par l'ingénierie navale. Ils conçoivent le Galion, navire océanique massif armé de canons, capable de traverser l'Atlantique chargé de tonnes de lingots d'argent extraits des mines de Potosí (Bolivie) grâce à un nouveau procédé chimique d'amalgamation au mercure.",
+  "croyancesText": "L'Espagne est le fer de lance armé de la Contre-Réforme catholique face au protestantisme naissant. La redoutable Inquisition espagnole (fondée par les Rois Catholiques) traque l'hérésie, les juifs et musulmans convertis secrètement (Marranes et Morisques) avec une intransigeance absolue, instaurant la doctrine de la 'Limpieza de sangre' (pureté de sang).",
+  "diplomatie": "Leur diplomatie est dynastique et matrimoniale, résumée par la devise des Habsbourg : 'Que les autres fassent la guerre, toi, heureuse Autriche, marie-toi'. Par le jeu des héritages, Charles Quint règne sur l'Espagne, l'Allemagne, les Pays-Bas et l'Amérique. Pour sécuriser ses flottes, l'Espagne met en place le système des 'Flottes des Indes', des convois armés gigantesques annuels.",
+  "documentaires": [{ "titre": "Charles Quint, les rouages d'un empire", "url": "https://fr.wikipedia.org/wiki/Empire_espagnol" }]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "angleterre",
+  "label": "Angleterre",
+  "tier": 1,
+  "region": "iles-britanniques",
+  "period": "927 à 1492",
+  "start": 927,
+  "end": 1492,
+  "trackId": "angleterre",
+  "row": 4,
+  "isRiver": false,
+  "capitale": "Londres",
+  "description": "Une île marquée par l'invasion normande, forgeant l'une des royautés les plus structurées d'Europe et les bases du parlementarisme moderne.",
+  "territories": ["England", "English territory", "Angevin Empire"],
+  "datesCles": [
+    {
+      "annee": 1066,
+      "evenement": "Bataille de Hastings",
+      "info": "Guillaume le Conquérant écrase les Anglo-Saxons et prend la couronne."
+    },
+    {
+      "annee": 1170,
+      "evenement": "Meurtre de Thomas Becket",
+      "info": "L'archevêque de Cantorbéry est assassiné dans sa cathédrale sur ordre du roi."
+    },
+    {
+      "annee": 1215,
+      "evenement": "Magna Carta",
+      "info": "Les barons forcent Jean sans Terre à signer la 'Grande Charte', limitant l'absolutisme royal."
+    },
+    { "annee": 1485, "evenement": "Fin de la Guerre des Deux-Roses", "info": "La Maison Tudor s'empare du trône." }
+  ],
+  "dirigeants": [
+    { "titre": "Roi (Normand)", "nom": "Guillaume", "surnom": "Le Conquérant", "debut": 1066, "fin": 1087 },
+    { "titre": "Roi (Plantagenêt)", "nom": "Richard Ier", "surnom": "Cœur de Lion", "debut": 1189, "fin": 1199 },
+    { "titre": "Roi", "nom": "Henri V", "debut": 1413, "fin": 1422 }
+  ],
+  "personnages": [
+    {
+      "nom": "Éléonore d'Aquitaine",
+      "role": "Reine",
+      "description": "L'une des femmes les plus puissantes d'Europe, reine de France puis d'Angleterre, mère de Richard Cœur de Lion.",
+      "dates": "1122 à 1204",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/%C3%89l%C3%A9onore_d'Aquitaine"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerre de Cent Ans",
+      "annee": 1337,
+      "adversaires": ["Royaume de France"],
+      "allies": ["Bourguignons (temporairement)"],
+      "morts": "Catastrophe démographique",
+      "vainqueur": "France",
+      "consequences": "L'Angleterre perd tous ses territoires continentaux. Repliée sur son île, elle sombre dans une violente guerre civile (la guerre des Deux-Roses).",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_de_Cent_Ans"
+    }
+  ],
+  "sciences": "Le génie anglais est d'abord juridique et administratif. Ils conçoivent la 'Common Law' (jurisprudence remplaçant les lois féodales locales par un droit royal commun) et rédigent le Domesday Book (1086), le premier grand recensement de toutes les propriétés du royaume. Sur le plan militaire, ils adoptent l'arc long (longbow) gallois, une arme capable de percer les armures de la chevalerie française.",
+  "croyancesText": "Royaume farouchement catholique, l'Angleterre médiévale est marquée par un contrôle royal strict sur l'Église, provoquant des clashs violents (l'assassinat de l'archevêque Thomas Becket en 1170). Vers la fin du Moyen Âge, des théologiens comme John Wyclif (les Lollards) commencent à critiquer la richesse de Rome et traduisent la Bible en anglais, préparant le terrain au schisme anglican.",
+  "diplomatie": "La diplomatie anglaise (l'Empire Plantagenêt) est un paradoxe : le roi d'Angleterre possède la moitié de la France (Normandie, Aquitaine) et est donc, techniquement, le vassal du roi de France. Ce casse-tête diplomatique, couplé à des revendications dynastiques croisées, va dégénérer dans l'un des conflits les plus longs de l'histoire humaine : la Guerre de Cent Ans.",
+  "documentaires": [{ "titre": "L'Empire des Plantagenêts", "url": "https://fr.wikipedia.org/wiki/Royaume_d%27Angleterre" }]
+}

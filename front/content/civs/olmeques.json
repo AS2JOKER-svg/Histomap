@@ -1,0 +1,40 @@
+{
+  "id": "olmeques",
+  "label": "Olmèques",
+  "tier": 1,
+  "region": "mesoamerique",
+  "period": "-1200 à -400",
+  "start": -1200,
+  "end": -400,
+  "color": "#16a085",
+  "trackId": "mesoamerique",
+  "row": 1,
+  "isRiver": true,
+  "capitale": "San Lorenzo / La Venta",
+  "description": "La 'culture mère' de Mésoamérique, inventeurs mystérieux de l'écriture primitive, de la saignée rituelle et du jeu de balle.",
+  "territories": ["Olmec"],
+  "datesCles": [
+    {
+      "annee": -1200,
+      "evenement": "Essor de San Lorenzo",
+      "info": "Émergence du premier grand centre de population structuré d'Amérique centrale."
+    },
+    {
+      "annee": -900,
+      "evenement": "Apogée de La Venta",
+      "info": "San Lorenzo décline mystérieusement, La Venta devient la grande capitale cérémonielle."
+    },
+    {
+      "annee": -400,
+      "evenement": "Le Grand Oubli",
+      "info": "Dépeuplement inexpliqué de l'aire olmèque, héritage transmis aux Mayas et Zapotèques."
+    }
+  ],
+  "dirigeants": [],
+  "personnages": [],
+  "guerres": [],
+  "sciences": "Leur génie logistique frappe encore aujourd'hui : ils ont taillé des 'Têtes Colossales' dans des blocs de basalte de 20 tonnes, et les ont transportées sur des dizaines de kilomètres à travers des jungles marécageuses sans roue ni animaux de trait. Ils vulcanisent de manière empirique la sève de l'hévéa pour fabriquer les premières balles rebondissantes en caoutchouc.",
+  "croyancesText": "L'art olmèque exprime une cosmologie complexe et chamanique. Le Jaguar y est l'animal suprême de la nuit et de la pluie, souvent représenté en fusion avec les traits d'un enfant humain pleurant (le 'Were-Jaguar'). Le souverain agirait comme un chamane capable de voyager dans le monde des esprits par des transes (peut-être à l'aide de substances psychotropes) pour obtenir la clémence des dieux de la pluie.",
+  "diplomatie": "Il s'agit moins d'un empire militaire que d'un réseau de centres religieux (une hiérarchie de villes et de villages). Les Olmèques opèrent une domination culturelle et commerciale (pour l'importation de jade, d'obsidienne et de magnétite). Leur art devient le standard de prestige copié par toutes les autres tribus émergentes du continent (de la vallée du Mexique jusqu'au Honduras).",
+  "documentaires": [{ "titre": "Le mystère des Olmèques", "url": "https://fr.wikipedia.org/wiki/Olm%C3%A8ques" }]
+}

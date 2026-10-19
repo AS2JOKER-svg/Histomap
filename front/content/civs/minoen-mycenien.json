@@ -1,0 +1,78 @@
+{
+  "id": "minoen-mycenien",
+  "label": "Minoens & Mycéniens",
+  "tier": 1,
+  "region": "grece-egee",
+  "period": "-3000 à -1100",
+  "start": -3000,
+  "end": -1100,
+  "trackId": "grece",
+  "row": 1,
+  "isRiver": false,
+  "capitale": "Knossos / Mycènes",
+  "description": "Les premières civilisations urbaines et lettrées d'Europe : d'abord la thalassocratie pacifique minoenne en Crète, puis la culture guerrière des Mycéniens.",
+  "territories": ["Minoan", "Cycladic"],
+  "datesCles": [
+    {
+      "annee": -1900,
+      "evenement": "Période des Premiers Palais",
+      "info": "Édification de Knossos et Phaistos en Crète (Civilisation Minoenne)."
+    },
+    {
+      "annee": -1600,
+      "evenement": "Émergence de Mycènes",
+      "info": "Sur le continent, essor d'une élite guerrière indo-européenne bâtissant des citadelles cyclopéennes."
+    },
+    {
+      "annee": -1600,
+      "evenement": "Éruption de Théra (Santorin)",
+      "info": "Au XVIIe ou au XVIe siècle av. J.-C. (date discutée), le volcan ensevelit la ville d'Akrotiri. Son rôle dans le déclin minoen est discuté."
+    },
+    {
+      "annee": -1450,
+      "evenement": "Prise de Knossos",
+      "info": "Vers -1450, les Mycéniens s'installent en Crète et prennent le contrôle de Knossos."
+    },
+    {
+      "annee": -1200,
+      "evenement": "Guerre de Troie",
+      "info": "Les coalitions mycéniennes (Achéens) attaquent la cité de Troie (Anatolie)."
+    },
+    {
+      "annee": -1100,
+      "evenement": "Effondrement de l'Âge du Bronze",
+      "info": "Destruction de tous les palais mycéniens, oubli de l'écriture (Linéaire B)."
+    }
+  ],
+  "dirigeants": [
+    {
+      "titre": "Wanax (Roi-Guerrier)",
+      "nom": "Agamemnon",
+      "surnom": "Roi des Rois (Légendaire)",
+      "debut": -1200,
+      "fin": -1180
+    }
+  ],
+  "personnages": [],
+  "guerres": [
+    {
+      "nom": "Guerre de Troie",
+      "annee": -1200,
+      "adversaires": ["Troie (Wilusa Hittite)"],
+      "allies": ["Coalition Achéenne"],
+      "morts": "Destruction urbaine majeure",
+      "vainqueur": "Mycéniens",
+      "consequences": "Pillage des routes commerciales anatoliennes, mais épuisement des forces mycéniennes ouvrant la voie à leur propre effondrement.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_de_Troie"
+    }
+  ],
+  "sciences": "Les Minoens sont de formidables architectes civils : Knossos est un palais labyrinthique sans fortifications militaires, doté du premier réseau de plomberie et d'évacuation d'eau courante d'Europe. Les Mycéniens excellent en ingénierie militaire, bâtissant des murs cyclopéens (blocs de pierre pesant des tonnes) et forgeant des armures en plaques de bronze (Panoplie de Dendra).",
+  "croyancesText": "La religion minoenne est dominée par des figures féminines (la Déesse aux Serpents) et le culte du taureau (rituel acrobatique de saut au-dessus de la bête). Les Mycéniens, eux, posent les bases de la mythologie grecque : les tablettes en argile écrites en Linéaire B mentionnent déjà Zeus, Poséidon, Athéna et Héra.",
+  "diplomatie": "La Crète minoenne régnait par sa flotte marchande, sécurisant les routes maritimes de la Méditerranée sans avoir besoin de murailles. Les Mycéniens fonctionnent en réseau de royaumes militarisés rivaux mais capables de se coaliser pour des expéditions de pillage lointaines (comme l'expédition historique ayant inspiré la Guerre de Troie).",
+  "documentaires": [
+    {
+      "titre": "L'effondrement de l'âge du Bronze",
+      "url": "https://fr.wikipedia.org/wiki/Effondrement_de_l%27%C3%A2ge_du_bronze_r%C3%A9cent"
+    }
+  ]
+}

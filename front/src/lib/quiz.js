@@ -17,7 +17,10 @@
  *   map   { prompt, year, civId, options[], answer }          (carte + QCM)
  */
 import PRESENCE from '../data/map-presence.json'
+// leurres tirés des autres fiches (scripts/build-content.mjs) : pas besoin de charger leur détail
+import CONTEXT from '../data/quiz-context.json'
 import { getEpochs } from './data'
+import { stripLinksDeep } from './links'
 import { formatDuration, formatYear } from './time'
 
 export const QUIZ_LENGTH = 20
@@ -93,10 +96,12 @@ const ALL = getEpochs().flatMap((epoch) =>
   epoch.continents.flatMap((continent) => continent.civilizations.map((civ) => ({ epoch, continent, civ })))
 )
 
-/** Réservoir complet de questions d'une civilisation. */
+/** Réservoir complet de questions d'une civilisation (ref.civ = fiche complète, voir lib/data loadCiv). */
 export function questionPool(ref) {
-  const { civ, epoch, continent } = ref
-  const hand = (ref.hand?.quiz ?? []).map((q) => ({ ...q, id: `hand-${q.id}` }))
+  const { epoch, continent } = ref
+  // les questions sont du texte brut : on retire la syntaxe des liens [[id|texte]]
+  const civ = stripLinksDeep(ref.civ)
+  const hand = (ref.hand?.quiz ?? []).map((q) => ({ ...stripLinksDeep(q), id: `hand-${q.id}` }))
   return [...hand, ...autoQuestions(civ, epoch, continent)].filter(Boolean)
 }
 
@@ -105,11 +110,12 @@ function autoQuestions(civ, epoch, continent) {
   const sameEpoch = ALL.filter((r) => r.epoch.id === epoch.id && r.civ.id !== civ.id).map((r) => r.civ)
   const sameCont = sameEpoch.filter((c) => continent.civilizations.some((x) => x.id === c.id))
   const dates = [...(civ.datesCles ?? [])].sort((a, b) => a.annee - b.annee)
-  const otherEvents = sameEpoch.flatMap((c) => (c.datesCles ?? []).map((d) => d.evenement))
+  const context = CONTEXT.epochs[epoch.id] ?? { events: [], leaders: [] }
+  const otherEvents = context.events.filter((e) => e.civ !== civ.id).map((e) => e.evenement)
   const leaders = civ.dirigeants ?? []
-  const otherLeaders = ALL.filter((r) => r.epoch.id === epoch.id).flatMap((r) => r.civ.dirigeants ?? [])
+  const otherLeaders = context.leaders
   const people = civ.personnages ?? []
-  const otherPeople = ALL.flatMap((r) => r.civ.personnages ?? []).filter((p) => !people.some((x) => x.nom === p.nom))
+  const otherPeople = CONTEXT.people.filter((p) => !people.some((x) => x.nom === p.nom))
   const wars = civ.guerres ?? []
   const name = civ.label
 

@@ -1,0 +1,70 @@
+{
+  "id": "indonesie",
+  "label": "Indes Orientales puis Indonésie",
+  "tier": 1,
+  "region": "asie-sud-est-insulaire",
+  "period": "1789 à 2020",
+  "start": 1789,
+  "end": 2020,
+  "color": "#009688",
+  "trackId": "indonesie",
+  "row": 7,
+  "isRiver": false,
+  "capitale": "Batavia puis Jakarta",
+  "description": "Une gigantesque entreprise coloniale néerlandaise, conquise et mutilée par l'Empire du Soleil Levant, libérée dans le sang pour forger la plus grande nation musulmane de la planète.",
+  "territories": ["Dutch East Indies", "Netherlands Indies", "Indonesia"],
+  "datesCles": [
+    {
+      "annee": 1800,
+      "evenement": "Nationalisation",
+      "info": "L'entreprise privée ruinée VOC disparaît, l'État néerlandais prend le contrôle brutal de l'archipel."
+    },
+    {
+      "annee": 1942,
+      "evenement": "Invasion japonaise",
+      "info": "Les forces nippones éjectent les Hollandais pour s'emparer du très convoité pétrole indonésien."
+    },
+    {
+      "annee": 1945,
+      "evenement": "Indépendance de force",
+      "info": "Au départ des Japonais, Sukarno lit la déclaration de souveraineté d'Indonésie (Revolusi)."
+    },
+    {
+      "annee": 1965,
+      "evenement": "Purges anticommunistes",
+      "info": "L'armée, dirigée par le général Suharto (qui n'est pas encore président), et des milices massacrent entre 500 000 et 1 million de communistes présumés selon les estimations."
+    }
+  ],
+  "dirigeants": [
+    { "titre": "Président de la République", "nom": "Sukarno", "debut": 1945, "fin": 1967 },
+    {
+      "titre": "Président militaire (Dictateur)",
+      "nom": "Suharto",
+      "surnom": "Le Père du développement",
+      "debut": 1967,
+      "fin": 1998
+    }
+  ],
+  "personnages": [],
+  "guerres": [
+    {
+      "nom": "Guerre d'indépendance indonésienne",
+      "annee": 1945,
+      "adversaires": ["Pays-Bas", "Empire Britannique (en appui)"],
+      "allies": ["Soutien diplomatique États-Unis/ONU"],
+      "morts": "Environ 100 000 Indonésiens selon les estimations",
+      "vainqueur": "Indonésie",
+      "consequences": "Les Hollandais tentèrent violemment de reconquérir leurs anciennes colonies pendant 4 ans après la WWII, mais cédèrent face au coût militaire et à l'embargo menacé par les Américains.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/R%C3%A9volution_nationale_indon%C3%A9sienne"
+    }
+  ],
+  "sciences": "Le colonialisme hollandais fut d'une terrible rentabilité avec le 'Cultuurstelsel' (Système de cultures forcées) obligeant les paysans indigènes à cultiver (tabac, café, canne à sucre, indigo) pour les marchands européens en les affamant de leur propre riz. Devenue indépendante, la géographie volcanique du pays la contraint à une ingénierie complexe pour extraire les minerais, et a géré d'immenses catastrophes sismiques (Tsunami géant de 2004 en Aceh).",
+  "croyancesText": "C'est un État laïque abritant l'immense majorité musulmane sunnite de la planète (près de 230 millions d'habitants). Pour lier ses 17 000 îles ethniquement disparates, le pays est cimenté par le principe du 'Pancasila' : l'obligation philosophique d'État (la croyance en un seul Dieu, une humanité juste, une démocratie unifiée). L'hindouisme reste vivace et concentré (Bali).",
+  "diplomatie": "C'est le fer de lance de l'anticolonialisme du Tiers-Monde. Sukarno accueille la fameuse Conférence de Bandung (1955), réunissant pour la première fois les leaders africains et asiatiques non-alignés. Suharto plus tard alignera l'économie militarisée du pays sur les capitaux de la Guerre Froide américaine, en annexant violemment le Timor oriental (1975-1976) ; la Papouasie occidentale est intégrée en 1969 après un « Acte de libre choix » très contesté.",
+  "documentaires": [
+    {
+      "titre": "La Naissance de l'Indonésie : Bandung",
+      "url": "https://fr.wikipedia.org/wiki/Histoire_de_l%27Indon%C3%A9sie"
+    }
+  ]
+}

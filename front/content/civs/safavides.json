@@ -1,0 +1,66 @@
+{
+  "id": "safavides",
+  "label": "Empire Safavide",
+  "tier": 1,
+  "region": "iran",
+  "period": "1501 à 1736",
+  "start": 1501,
+  "end": 1736,
+  "trackId": "perse",
+  "row": 3,
+  "isRiver": false,
+  "capitale": "Tabriz puis Ispahan",
+  "description": "L'éclatante renaissance de la Perse (Iran). Ils ont imposé le chiisme comme religion d'État et transformé leur capitale en 'Moitié du monde'.",
+  "territories": ["Safavid Empire"],
+  "datesCles": [
+    {
+      "annee": 1501,
+      "evenement": "Couronnement",
+      "info": "Ismaïl Ier prend Tabriz et se proclame Chah (Roi), instaurant le Chiisme d'État."
+    },
+    {
+      "annee": 1514,
+      "evenement": "Bataille de Tchaldiran",
+      "info": "Défaite traumatisante face à l'artillerie ottomane, figeant la frontière turco-perse."
+    },
+    {
+      "annee": 1598,
+      "evenement": "Ispahan",
+      "info": "Le grand roi Abbas Ier fait de la ville sa nouvelle capitale flamboyante."
+    },
+    {
+      "annee": 1722,
+      "evenement": "Siège par les Afghans",
+      "info": "Chute de la dynastie après un long siège de la capitale provoquant une famine."
+    }
+  ],
+  "dirigeants": [
+    { "titre": "Chah", "nom": "Ismaïl Ier", "debut": 1501, "fin": 1524 },
+    { "titre": "Chah", "nom": "Abbas Ier", "surnom": "Le Grand", "debut": 1588, "fin": 1629 }
+  ],
+  "personnages": [
+    {
+      "nom": "Molla Sadra Chirazi",
+      "role": "Philosophe théologien",
+      "description": "Le plus grand philosophe iranien de l'époque moderne, théoricien de la théosophie transcendante.",
+      "dates": "1571 à 1640",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Molla_Sadra_Chirazi"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerres Ottomano-Persanes",
+      "annee": 1603,
+      "adversaires": ["Empire Ottoman"],
+      "allies": [],
+      "morts": "Des dizaines de milliers, terres ravagées",
+      "vainqueur": "Empire Safavide",
+      "consequences": "Abbas le Grand prend sa revanche sur les Ottomans, reconquérant Bagdad et le Caucase, rétablissant la puissance militaire perse.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerres_ottomano-persanes"
+    }
+  ],
+  "sciences": "Leur génie urbain culmine à Ispahan. La place Naqsh-e Jahan est l'une des plus grandes du monde, cernée de bazars, de la colossale Mosquée Royale aux dômes couverts de céramiques émaillées bleues turquoises, et du palais royal surplombant des parties de polo. Leur artisanat devient l'exportation suprême : naissance du grand art mondial du 'tapis persan' en soie et brocart, tissé dans des manufactures d'État.",
+  "croyancesText": "C'est l'événement géopolitique fondateur du Moyen-Orient moderne. Les souverains safavides forcent massivement la conversion de la population sunnite iranienne au Chiisme duodécimain, invoquant la figure de l'Imam caché. Cette décision crée une ligne de fracture étatique, culturelle et militaire définitive (toujours active aujourd'hui) avec l'empire voisin sunnite des Ottomans.",
+  "diplomatie": "Isolés au milieu d'empires sunnites hostiles (Ottomans à l'ouest, Ouzbeks à l'est), les Chahs perses déploient une intense diplomatie vers l'Europe chrétienne (France, Angleterre, Vatican) espérant former une alliance de revers ('une attaque en tenaille') contre les Turcs. Pour moderniser son armée, Abbas Ier emploie même des mercenaires anglais (les frères Shirley) pour créer son propre corps de canonniers et d'arquebusiers.",
+  "documentaires": [{ "titre": "L'art et la gloire de la Perse Safavide", "url": "https://fr.wikipedia.org/wiki/Safavides" }]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "hebreux",
+  "label": "Israël et Juda (Hébreux)",
+  "tier": 1,
+  "region": "levant",
+  "period": "-1200 à 70",
+  "start": -1200,
+  "end": 70,
+  "color": "#af9b63",
+  "trackId": "hebreux",
+  "row": 5,
+  "isRiver": false,
+  "capitale": "Jérusalem",
+  "description": "Un petit royaume sous constante pression impériale, dont l'invention du monothéisme radical et du texte biblique va changer l'histoire humaine à l'échelle planétaire.",
+  "territories": ["Kingdom of David and Solomon", "Judea"],
+  "datesCles": [
+    {
+      "annee": -1000,
+      "evenement": "Royaume unifié",
+      "info": "Le roi David conquiert Jérusalem et y installe la capitale de Juda et d'Israël."
+    },
+    {
+      "annee": -960,
+      "evenement": "Premier Temple",
+      "info": "Salomon construit le Temple abritant l'Arche d'Alliance."
+    },
+    {
+      "annee": -587,
+      "evenement": "L'Exil de Babylone",
+      "info": "Nebuchadnetsar détruit le Temple. C'est l'exil qui déclenche l'écriture de la Torah."
+    },
+    {
+      "annee": 70,
+      "evenement": "Destruction du Second Temple",
+      "info": "Les Romains écrasent la révolte juive, marquant le début de la grande Diaspora."
+    }
+  ],
+  "dirigeants": [
+    { "titre": "Roi", "nom": "David", "debut": -1010, "fin": -970 },
+    { "titre": "Roi", "nom": "Salomon", "surnom": "Le Sage", "debut": -970, "fin": -931 },
+    { "titre": "Tétrarque / Roi client", "nom": "Hérode", "surnom": "Le Grand", "debut": -37, "fin": -4 }
+  ],
+  "personnages": [],
+  "guerres": [
+    {
+      "nom": "Première Guerre judéo-romaine",
+      "annee": 66,
+      "adversaires": ["Empire Romain (Titus)"],
+      "allies": [],
+      "morts": "Extrêmement massives, famine",
+      "vainqueur": "Rome",
+      "consequences": "Incendie et destruction absolue de Jérusalem et du Second Temple par les légions romaines.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Premi%C3%A8re_Guerre_jud%C3%A9o-romaine"
+    }
+  ],
+  "sciences": "Pauvres en ressources naturelles, ils se distinguent par une ingénierie de survie, notamment le système de défense hydrique. Le roi Ézéchias fait creuser un impressionnant tunnel aqueduc (533 mètres sous la roche en partant des deux extrémités) pour garantir l'approvisionnement en eau de Jérusalem lors du siège sanglant mené par les Assyriens.",
+  "croyancesText": "L'invention révolutionnaire du Yahwisme : le passage progressif de l'hénothéisme (Yahvé est le plus fort des dieux) au monothéisme strict (il est le seul Dieu, incréé, moral, agissant dans l'Histoire). L'aniconisme (refus de représenter Dieu en image) et la sanctification du jour du repos (Shabbat) sont des concepts en rupture totale avec les civilisations voisines.",
+  "diplomatie": "Placé géographiquement sur le corridor militaire inévitable entre les empires égyptien, hittite et mésopotamien, le royaume oscille constamment entre soumission, révoltes et exils. Leur stratégie politique repose sur le messianisme : l'espoir théologique d'une restauration divine finale de la nation israélite face aux persécutions païennes successives (Séléucides, Romains).",
+  "documentaires": [
+    {
+      "titre": "L'Histoire du peuple hébreu",
+      "url": "https://fr.wikipedia.org/wiki/Histoire_du_peuple_h%C3%A9breu"
+    }
+  ]
+}

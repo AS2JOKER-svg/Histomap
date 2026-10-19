@@ -1,0 +1,83 @@
+{
+  "id": "grece",
+  "label": "Grèce antique",
+  "tier": 1,
+  "region": "grece-egee",
+  "period": "-800 à -146",
+  "start": -800,
+  "end": -146,
+  "trackId": "grece",
+  "row": 1,
+  "isRiver": false,
+  "capitale": "Athènes / Sparte / Pella",
+  "description": "Un ensemble de cités-États farouchement indépendantes, berceau de la rationalité scientifique, de la démocratie et de l'idéal classique.",
+  "territories": ["Greek city-states", "Greek colonies", "Empire of Alexander"],
+  "datesCles": [
+    {
+      "annee": -776,
+      "evenement": "Premiers Jeux Olympiques",
+      "info": "Marque le début du calendrier grec, trêve sacrée entre toutes les cités."
+    },
+    {
+      "annee": -508,
+      "evenement": "Invention de la Démocratie",
+      "info": "Réformes de Clisthène à Athènes : le pouvoir au peuple (les citoyens)."
+    },
+    {
+      "annee": -490,
+      "evenement": "Bataille de Marathon",
+      "info": "Les hoplites athéniens repoussent la première invasion perse."
+    },
+    {
+      "annee": -399,
+      "evenement": "Procès de Socrate",
+      "info": "Le père de la philosophie est condamné à boire la ciguë par la démocratie athénienne."
+    },
+    {
+      "annee": -334,
+      "evenement": "L'épopée d'Alexandre",
+      "info": "Le jeune roi de Macédoine détruit l'Empire Perse et hellénise l'Orient."
+    }
+  ],
+  "dirigeants": [
+    { "titre": "Stratège d'Athènes", "nom": "Périclès", "surnom": "L'Olympien", "debut": -461, "fin": -429 },
+    { "titre": "Roi de Macédoine", "nom": "Alexandre", "surnom": "Le Grand", "debut": -336, "fin": -323 }
+  ],
+  "personnages": [
+    {
+      "nom": "Léonidas",
+      "role": "Roi de Sparte",
+      "description": "Mort héroïquement avec ses 300 Spartiates aux Thermopyles pour ralentir l'armée perse de Xerxès.",
+      "dates": "Mort en -480",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/L%C3%A9onidas_Ier_de_Sparte"
+    },
+    {
+      "nom": "Aristote",
+      "role": "Philosophe et polymathe",
+      "description": "Fondateur du Lycée, précepteur d'Alexandre le Grand, il a systématisé la logique, la politique et la biologie.",
+      "dates": "-384 à -322",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Aristote"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerre du Péloponnèse",
+      "annee": -431,
+      "adversaires": ["Ligue du Péloponnèse (Sparte)"],
+      "allies": ["Ligue de Délos (Athènes)"],
+      "morts": "Plus de 100 000 civils et soldats",
+      "vainqueur": "Sparte",
+      "consequences": "Fin de l'Âge d'Or athénien et déclin de la Grèce classique, facilitant la future conquête macédonienne.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_du_P%C3%A9loponn%C3%A8se"
+    }
+  ],
+  "sciences": "Le miracle grec, c'est le passage du mythe à la raison (Logos). Hippocrate sépare la médecine de la magie, Thucydide invente l'histoire scientifique sans intervention divine, Pythagore et Euclide posent les théorèmes fondateurs des mathématiques. L'architecture classique atteint la perfection des proportions doriques avec l'édification du Parthénon (-447).",
+  "croyancesText": "Le panthéon des douze dieux de l'Olympe (Zeus, Athéna, Apollon...) est profondément humanisé : les dieux sont soumis aux mêmes passions (colère, jalousie) et au Destin final (les Moires) que les mortels. La religion est civique : on consulte l'Oracle de Delphes pour les décisions d'État, et les cultes à mystères (comme Éleusis) offrent l'espoir d'une vie après la mort.",
+  "diplomatie": "Le monde grec est divisé en Polis (cités-États : Athènes la navale, Sparte la militariste, Thèbes l'oligarchique). Elles sont en guerre perpétuelle les unes contre les autres pour l'hégémonie de la Ligue de Délos ou du Péloponnèse. Elles ne s'unissent, au nom de leur culture commune (langue grecque contre les 'barbares'), que face à la menace de l'Empire Perse.",
+  "documentaires": [
+    {
+      "titre": "L'Antiquité : Au temps de la Grèce antique",
+      "url": "https://fr.wikipedia.org/wiki/Gr%C3%A8ce_antique"
+    }
+  ]
+}

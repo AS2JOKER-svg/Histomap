@@ -1,0 +1,62 @@
+{
+  "id": "dahomey",
+  "label": "Royaume du Dahomey (Bénin)",
+  "tier": 1,
+  "region": "afrique-ouest",
+  "period": "1789 à 1894",
+  "start": 1789,
+  "end": 1894,
+  "color": "#b22222",
+  "trackId": "afrique_ouest_2",
+  "row": 2,
+  "isRiver": false,
+  "capitale": "Abomey",
+  "description": "Une redoutable puissance militaire d'Afrique de l'Ouest du golfe de Guinée, au Palais et rites fascinants, célèbre pour son corps de guerrières, les « Amazones ».",
+  "territories": ["Dahomey"],
+  "datesCles": [
+    {
+      "annee": 1818,
+      "evenement": "Avènement de Ghézo",
+      "info": "Ghézo devient roi. Vers 1823, le Dahomey cesse de payer le tribut dû à l'empire yoruba d'Oyo."
+    },
+    {
+      "annee": 1892,
+      "evenement": "Les guerres coloniales",
+      "info": "Refus du Roi de plier le genou : les troupes de marine françaises du colonel Dodds marchent vers la capitale."
+    }
+  ],
+  "dirigeants": [
+    { "titre": "Roi du Dahomey", "nom": "Ghézo", "debut": 1818, "fin": 1858 },
+    { "titre": "Roi Exilé", "nom": "Béhanzin", "surnom": "Le Requin", "debut": 1889, "fin": 1894 }
+  ],
+  "personnages": [
+    {
+      "nom": "Les Amazones (Les Mino)",
+      "role": "Corps d'infanterie d'élite féminine",
+      "description": "Célibataires dévouées au roi. De 4 000 femmes entraînées à la machette puis aux armes à feu, souvent utilisées en premier rideau d'assaut sacrificiel terrifiant.",
+      "dates": "Dissolution en 1894",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Amazones_du_Dahomey"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Seconde Guerre du Dahomey",
+      "annee": 1892,
+      "adversaires": ["Troupes coloniales françaises (colonel A. Dodds)"],
+      "allies": ["Troupes et canonnières de marine"],
+      "morts": "Pertes totales de l'armée des Amazones au corps à corps",
+      "vainqueur": "France",
+      "consequences": "Les baïonnettes et obus français éventrent l'infanterie des Amazones armées de winchesters. Béhanzin incendie lui-même ses palais d'Abomey et s'enfuit. Il se rend en 1894, est exilé en Martinique puis en Algérie, où il meurt en 1906 ; son pays est colonisé.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Seconde_guerre_du_Dahomey"
+    }
+  ],
+  "sciences": "Société agricole structurée pour la discipline et le prélèvement strict d'impôts par les hauts dignitaires pour l'effort de guerre. Quand l'Europe abolit la traite négrière, le roi Ghézo développe, en employant des captifs, les plantations de palmiers : le 'commerce légitime' de l'huile de palme, vendue à l'Europe industrielle pour lubrifier les machines et faire du savon, se développe à côté de la traite, qui continue jusqu'aux années 1860.",
+  "croyancesText": "Religion panthéoniste polythéiste (Le culte Vaudou / Vodun) d'une extrême richesse où les rois morts veillent sur la terre. L'effroi européen provint des 'Coutumes annuelles', où le roi en grande cérémonie ordonnait l'immolation et la décapitation de dizaines (parfois centaines à la mort d'un monarque) de prisonniers de guerre et de criminels sur une plateforme devant les ambassadeurs de la côte pour les envoyer comme serviteurs royaux dans l'Au-delà.",
+  "diplomatie": "C'est l'archétype cruel des états prédateurs militaires et de l'encerclement. Il est haï par les petits royaumes pacifiques voisins car les guerres 'annuelles' systématiques de Dahomey servent à capturer et revendre d'innombrables esclaves aux ports européens de Ouidah, pour acheter la poudre et l'artillerie anglaise et portugaise permettant leur souveraineté brutale de s'accroître.",
+  "documentaires": [
+    {
+      "titre": "Le Royaume du Dahomey : Rois et Amazones",
+      "url": "https://fr.wikipedia.org/wiki/Royaume_du_Dahomey"
+    }
+  ]
+}

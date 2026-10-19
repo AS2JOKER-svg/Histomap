@@ -1,0 +1,85 @@
+{
+  "id": "italie-contemp",
+  "label": "Italie (Unification à la République)",
+  "tier": 1,
+  "region": "italie",
+  "period": "1861 à 2020",
+  "start": 1861,
+  "end": 2020,
+  "trackId": "italie",
+  "row": 6,
+  "isRiver": false,
+  "capitale": "Rome",
+  "description": "L'émergence difficile d'un seul pays sur un territoire fracturé (Le Risorgimento), l'invention du Fascisme, et la refondation d'une puissance économique pro-européenne.",
+  "territories": ["Italy", "Kingdom of Italy"],
+  "datesCles": [
+    {
+      "annee": 1861,
+      "evenement": "Le Risorgimento",
+      "info": "Grâce à Cavour et Garibaldi, le royaume d'Italie est proclamé. L'unification reste incomplète : la Vénétie est rattachée en 1866 et Rome en 1870."
+    },
+    {
+      "annee": 1922,
+      "evenement": "Marche sur Rome",
+      "info": "Le roi nomme Mussolini chef du gouvernement après la marche des 'Chemises noires'. La dictature fasciste ne s'installe vraiment qu'en 1925-1926."
+    },
+    {
+      "annee": 1943,
+      "evenement": "La Chute du Duce",
+      "info": "Les Alliés débarquent au Sud. Le Roi fait arrêter Mussolini, l'Italie bascule dans la guerre civile."
+    },
+    {
+      "annee": 1946,
+      "evenement": "La République",
+      "info": "Par référendum, l'Italie abolit la royauté, responsable de l'alliance avec Hitler."
+    }
+  ],
+  "dirigeants": [
+    {
+      "titre": "Roi d'Italie",
+      "nom": "Victor-Emmanuel II",
+      "surnom": "Le Père de la Patrie",
+      "debut": 1861,
+      "fin": 1878
+    },
+    {
+      "titre": "Président du Conseil (Duce)",
+      "nom": "Benito Mussolini",
+      "surnom": "Le Duce",
+      "debut": 1922,
+      "fin": 1943
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Giuseppe Garibaldi",
+      "role": "Général Républicain",
+      "description": "Révolutionnaire, général des volontaires en chemise rouge. Héros charismatique ayant offert le sud (Les Deux-Siciles) au roi pour unifier le pays.",
+      "dates": "1807 à 1882",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Giuseppe_Garibaldi"
+    },
+    {
+      "nom": "Enrico Fermi",
+      "role": "Physicien",
+      "description": "L'un des pionniers de la physique nucléaire et créateur du premier réacteur nucléaire. Prix Nobel exilé aux États-Unis.",
+      "dates": "1901 à 1954",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Enrico_Fermi"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Troisième guerre d'Indépendance italienne",
+      "annee": 1866,
+      "adversaires": ["Empire d'Autriche"],
+      "allies": ["Royaume de Prusse"],
+      "morts": "Pertes modérées",
+      "vainqueur": "Prusse",
+      "consequences": "Battue par l'Autriche à Custoza et à Lissa, l'Italie obtient pourtant la Vénétie grâce à la victoire prussienne : l'Autriche la cède à la France, qui la remet à l'Italie.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Troisi%C3%A8me_guerre_d'Ind%C3%A9pendance_italienne"
+    }
+  ],
+  "sciences": "Le génie italien moderne s'illustre avec Guglielmo Marconi, co-inventeur de la radio (liaisons TSF), révolutionnant les communications mondiales. Après 1945, c'est le 'Miracle économique italien', soutenu par une industrie de design, de mécanique de précision et d'automobile (Fiat) dans le nord prospère (Triangle industriel de Milan-Turin-Gênes), contrastant avec le Mezzogiorno agraire au sud.",
+  "croyancesText": "L'unification italienne a un prix : annexer militairement les États du Pape. Pie IX s'enferme au Vatican et se déclare 'prisonnier politique', interdisant aux catholiques de voter. Le problème sera cyniquement réglé par le fasciste Mussolini lors des Accords du Latran (1929), qui font de la minuscule Cité du Vatican un État indépendant. Après la guerre, la démocratie chrétienne ('Democrazia Cristiana') gouvernera le pays pendant 50 ans.",
+  "diplomatie": "Hantée par le mythe de la grandeur de l'Empire Romain, l'Italie fasciste tente d'édifier un empire colonial en Libye et en Éthiopie (guerre au gaz moutarde en 1935). L'alliance désastreuse avec l'Allemagne nazie (Pacte d'Acier) mène le pays à la ruine en 1945. L'Italie d'après-guerre choisit la diplomatie pacifiste de coopération : elle est l'un des 6 grands membres fondateurs du Traité de Rome (1957) instaurant la CEE (future Europe).",
+  "documentaires": [{ "titre": "Mussolini, l'ascension et la chute", "url": "https://fr.wikipedia.org/wiki/Benito_Mussolini" }]
+}

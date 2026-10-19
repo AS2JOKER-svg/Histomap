@@ -1,0 +1,69 @@
+{
+  "id": "oyo",
+  "label": "Empire d'Oyo",
+  "tier": 1,
+  "region": "afrique-ouest",
+  "period": "1492 à 1789",
+  "start": 1492,
+  "end": 1789,
+  "color": "#9e9d24",
+  "trackId": "oyo",
+  "row": 4,
+  "isRiver": false,
+  "capitale": "Oyo-Ile",
+  "description": "La puissance politique suprême du peuple Yoruba, structurée par une armée de cavaliers et une constitution complexe prévenant la tyrannie.",
+  "territories": ["Oyo"],
+  "datesCles": [
+    {
+      "annee": 1550,
+      "evenement": "Création de la Cavalerie",
+      "info": "Vers 1550 (dates traditionnelles incertaines), Orompoto sécurise l'importation de chevaux du Nord, donnant la suprématie militaire à l'empire."
+    },
+    {
+      "annee": 1748,
+      "evenement": "Soumission du Dahomey",
+      "info": "L'armée d'Oyo oblige le puissant royaume du Dahomey à lui verser un tribut annuel en or et en captifs."
+    }
+  ],
+  "dirigeants": [
+    {
+      "titre": "Alaafin (Empereur)",
+      "nom": "Orompoto",
+      "surnom": "Vers 1550-1560, dates incertaines ; une femme selon certaines traditions",
+      "debut": 1550,
+      "fin": 1560
+    },
+    {
+      "titre": "Alaafin",
+      "nom": "Abiodun",
+      "surnom": "Ne gouverne vraiment qu'après avoir renversé Gaa en 1774",
+      "debut": 1770,
+      "fin": 1789
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Bashorun Gaa",
+      "role": "Premier ministre (Chef des Oyo Mesi)",
+      "description": "Le faiseur de rois. Tyran politique qui organisa l'assassinat rituel de 4 empereurs successifs avant d'être exécuté.",
+      "dates": "Mort en 1774",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Gaa_(Oyo)"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerres contre le Dahomey",
+      "annee": 1726,
+      "adversaires": ["Royaume du Dahomey (Roi Agadja)"],
+      "allies": [],
+      "morts": "Pertes d'infanterie dahoméenne",
+      "vainqueur": "Empire d'Oyo",
+      "consequences": "La cavalerie lourde d'Oyo anéantit l'armée du Dahomey à plusieurs reprises en zone de savane, les forçant à devenir un État tributaire pendant un siècle.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Empire_d'Oyo"
+    }
+  ],
+  "sciences": "Leur génie politique réside dans l'invention d'un système de contre-pouvoirs impitoyable, très rare pour l'époque. Ils maîtrisent un artisanat textile de luxe (le tissage de l'Aso Oke) et la sculpture sur bois sacrée utilisée lors des intenses rituels urbains.",
+  "croyancesText": "Centre spirituel et politique du polythéisme Yoruba. L'Alaafin est le représentant terrestre et le descendant divin de Shango (l'Orisha et dieu de la foudre). Le culte justifie le pouvoir impérial et cimente la loyauté des royaumes vassaux, qui doivent envoyer des délégations aux grands festivals religieux de la capitale.",
+  "diplomatie": "La constitution non-écrite d'Oyo est stricte : l'Empereur (Alaafin) a droit de vie ou de mort, mais s'il devient tyrannique, le conseil des 7 nobles (Oyo Mesi) peut lui présenter une calebasse vide (ou des œufs de perroquet), l'obligeant à un suicide rituel par poison. Le chef militaire suprême (l'Are-Ona-Kakanfo) devait obligatoirement se suicider si son armée perdait une bataille, assurant une motivation absolue.",
+  "documentaires": [{ "titre": "L'Empire d'Oyo, la gloire des Yorubas", "url": "https://fr.wikipedia.org/wiki/Empire_d'Oyo" }]
+}

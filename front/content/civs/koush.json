@@ -1,0 +1,54 @@
+{
+  "id": "koush",
+  "label": "Royaume de Koush (Nubie)",
+  "tier": 1,
+  "region": "nubie-soudan",
+  "period": "-1070 à 350",
+  "start": -1070,
+  "end": 350,
+  "color": "#a0522d",
+  "trackId": "nubie",
+  "row": 3,
+  "isRiver": true,
+  "capitale": "Napata puis Méroé",
+  "description": "Puissant royaume d'archers du haut Nil, héritier, rival puis conquérant de l'Égypte pharaonique, réputé pour sa métallurgie du fer.",
+  "territories": ["Kush", "Kerma", "Meroe", "Kushites"],
+  "datesCles": [
+    {
+      "annee": -727,
+      "evenement": "Conquête de l'Égypte",
+      "info": "Le roi nubien Piânkhy s'empare de l'Égypte, fondant la XXVe dynastie ('Pharaons noirs')."
+    },
+    {
+      "annee": -664,
+      "evenement": "Expulsion par les Assyriens",
+      "info": "Les Koushites sont chassés d'Égypte par l'invasion assyrienne et se replient vers le sud."
+    },
+    {
+      "annee": -300,
+      "evenement": "Âge d'or de Méroé",
+      "info": "Déplacement de la capitale à Méroé et explosion de la sidérurgie du fer."
+    }
+  ],
+  "dirigeants": [
+    { "titre": "Pharaon (XXVe dynastie)", "nom": "Taharqa", "debut": -690, "fin": -664 },
+    { "titre": "Candace (Reine)", "nom": "Amanirenas", "surnom": "La borgne", "debut": -40, "fin": -10 }
+  ],
+  "personnages": [],
+  "guerres": [
+    {
+      "nom": "Guerre Méroïtico-Romaine",
+      "annee": -24,
+      "adversaires": ["Empire Romain (Préfecture d'Égypte)"],
+      "allies": [],
+      "morts": "Milliers de légionnaires et nubiens",
+      "vainqueur": "Statu Quo (Traité de Samos)",
+      "consequences": "Rome abandonne son projet de conquête de la Nubie et annule les tributs imposés.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Amanirenas"
+    }
+  ],
+  "sciences": "À partir du déplacement de la capitale à Méroé, le royaume devient le plus grand centre de sidérurgie d'Afrique antique. Leurs immenses scories de fonte du fer témoignent d'une production industrielle d'armes et d'outils. Ils développent également l'écriture méroïtique, une écriture alphasyllabaire autonome qui n'est toujours pas totalement déchiffrée aujourd'hui.",
+  "croyancesText": "Le panthéon est un syncrétisme fascinant entre les divinités traditionnelles égyptiennes (Amon) et les dieux strictement nubiens, comme Apédémak (le dieu-lion guerrier) et Arensnuphis. Ils relancent la construction de pyramides (plus de 200 à Méroé), plus petites et plus pointues que celles d'Égypte, abritant les nécropoles royales.",
+  "diplomatie": "Leur force militaire repose sur l'archerie (l'Égypte appelait la Nubie 'Ta-Seti', le Pays de l'Arc). Après la domination assyrienne, ils entretiennent une relation commerciale prudente avec l'Égypte ptolémaïque puis romaine. La reine (Candace) Amanirenas a même mené une guerre féroce contre les légions romaines d'Auguste, forçant Rome à signer un traité de paix reconnaissant les frontières de Koush.",
+  "documentaires": [{ "titre": "L'histoire oubliée des Pharaons Noirs", "url": "https://fr.wikipedia.org/wiki/Royaume_de_Koush" }]
+}

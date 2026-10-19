@@ -1,0 +1,78 @@
+{
+  "id": "coree-contemp",
+  "label": "Les deux Corées",
+  "tier": 1,
+  "region": "coree",
+  "period": "1789 à 2020",
+  "start": 1789,
+  "end": 2020,
+  "trackId": "coree",
+  "row": 5,
+  "isRiver": false,
+  "capitale": "Séoul (Sud) / Pyongyang (Nord)",
+  "description": "Une tragédie nationale. Trente-cinq ans de brutale occupation japonaise, suivie d'une guerre civile destructrice figeant deux nations que tout sépare sur le 38ème parallèle.",
+  "territories": ["Korea", "Korea, Republic of", "Korea, Democratic People's Republic of"],
+  "datesCles": [
+    {
+      "annee": 1910,
+      "evenement": "Annexion par le Japon",
+      "info": "L'Empire nippon asservit la Corée (travail forcé, 'femmes de réconfort', interdiction de la langue)."
+    },
+    {
+      "annee": 1945,
+      "evenement": "La Libération et Partition",
+      "info": "L'URSS libère le nord et les USA le sud, créant deux zones d'occupation."
+    },
+    {
+      "annee": 1950,
+      "evenement": "L'Invasion de la Guerre de Corée",
+      "info": "L'armée de Kim Il-sung attaque le Sud pour réunifier le pays par la force militaire."
+    },
+    {
+      "annee": 1988,
+      "evenement": "Jeux Olympiques de Séoul",
+      "info": "Marque la consécration mondiale du miracle économique du Sud et sa transition en démocratie."
+    }
+  ],
+  "dirigeants": [
+    { "titre": "Dictateur (Nord)", "nom": "Kim Il-sung", "surnom": "Le Président Éternel", "debut": 1948, "fin": 1994 },
+    { "titre": "Dictateur militaire (Sud)", "nom": "Park Chung-hee", "debut": 1961, "fin": 1979 }
+  ],
+  "personnages": [
+    {
+      "nom": "Syngman Rhee",
+      "role": "Premier président de la Corée du Sud",
+      "description": "Militant de l'indépendance coréenne, il dirige la Corée du Sud de 1948 à 1960 de façon de plus en plus autoritaire, avant d'être chassé par une révolte étudiante.",
+      "dates": "1875 à 1965",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Syngman_Rhee"
+    },
+    {
+      "nom": "Kim Dae-jung",
+      "role": "Opposant puis président de la Corée du Sud",
+      "description": "Opposant aux dictatures militaires, élu président en 1997, il mène une politique de rapprochement avec le Nord (« politique du rayon de soleil ») et reçoit le prix Nobel de la paix en 2000.",
+      "dates": "1924 à 2009",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Kim_Dae-jung"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerre de Corée",
+      "annee": 1950,
+      "adversaires": ["Corée du Nord", "Volontaires de la Chine Maoïste"],
+      "allies": ["Corée du Sud", "Force de Coalition de l'ONU (États-Unis)"],
+      "morts": "Environ 2,5 à 3 millions de morts au total, en grande partie civils (Séoul change de mains 4 fois)",
+      "vainqueur": "Statu Quo (Match nul sanglant)",
+      "consequences": "La guerre la plus destructrice de l'ère de la Guerre Froide. Le général américain MacArthur, qui voulait étendre la guerre à la Chine (il envisagea même l'arme atomique), est limogé en 1951 par le président Truman, surtout pour insubordination.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_de_Cor%C3%A9e"
+    }
+  ],
+  "sciences": "Le contraste est vertigineux : Le Sud réalise 'Le Miracle sur le fleuve Han', des chaebols (immenses conglomérats nationaux comme Samsung, Hyundai) propulsant un pays ravagé dans la domination mondiale des écrans, bateaux et de la mémoire électronique, et sa K-Culture musicale. Le Nord se militarise à outrance au prix de grandes famines, sacrifiant tout à l'obtention de la dissuasion balistique et nucléaire autonome.",
+  "croyancesText": "Le Nord vit sous l'idéologie politique quasi-religieuse absolue du 'Juche' (L'Autosuffisance totale militaire et économique). Des milliers de statues monumentales à la gloire de la dynastie totalitaire des Kim dominent chaque ville. Le Sud, profondément dynamique religieusement, abrite d'immenses mega-églises évangéliques (christianisme) et une grande part de laïcs pragmatiques et matérialistes.",
+  "diplomatie": "Techniquement, la guerre de Corée n'est pas terminée (seul un Armistice de Cessez-le-feu fut signé à Panmunjom en 1953). Le Nord, soutenu par la Chine communiste, est le pays le plus isolé et sanctionné diplomatiquement du monde. Le Sud, bastion géopolitique armé indispensable des États-Unis en Asie de l'Est, déploie sa diplomatie économique libre-échangiste.",
+  "documentaires": [
+    {
+      "titre": "Guerre de Corée : Le grand affrontement",
+      "url": "https://fr.wikipedia.org/wiki/Histoire_de_la_Cor%C3%A9e"
+    }
+  ]
+}

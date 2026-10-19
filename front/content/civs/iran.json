@@ -1,0 +1,71 @@
+{
+  "id": "iran",
+  "label": "Iran",
+  "tier": 1,
+  "region": "iran",
+  "period": "1789 à 2020",
+  "start": 1789,
+  "end": 2020,
+  "trackId": "perse",
+  "row": 2,
+  "isRiver": false,
+  "capitale": "Téhéran",
+  "description": "Dernière puissance perse, passée de la monarchie des Qadjars à la dictature pétrolière des Chahs Pahlavi (pro-américaine surtout après 1953), à l'instauration de l'unique République Islamique chiite du monde.",
+  "territories": ["Persia", "Iran"],
+  "datesCles": [
+    {
+      "annee": 1908,
+      "evenement": "Pétrole de Masjed Soleyman",
+      "info": "Découverte historique bouleversant la géopolitique (Anglo-Persian Oil Company)."
+    },
+    {
+      "annee": 1953,
+      "evenement": "Opération Ajax",
+      "info": "La CIA et les Britanniques renversent le gouvernement Mossadegh pour récupérer le pétrole."
+    },
+    {
+      "annee": 1979,
+      "evenement": "La Révolution Islamique",
+      "info": "L'Ayatollah Khomeini chasse le Chah, fondant une théocratie anti-occidentale radicale."
+    },
+    {
+      "annee": 1980,
+      "evenement": "Guerre Iran-Irak",
+      "info": "Saddam Hussein attaque, soudant le nouveau régime idéologique par les martyrs de guerre."
+    }
+  ],
+  "dirigeants": [
+    { "titre": "Chah", "nom": "Mohammad Reza", "surnom": "Pahlavi", "debut": 1941, "fin": 1979 },
+    { "titre": "Guide de la Révolution (Ayatollah)", "nom": "Rouhollah Khomeini", "debut": 1979, "fin": 1989 }
+  ],
+  "personnages": [
+    {
+      "nom": "Mohammad Mossadegh",
+      "role": "Premier ministre démocratique",
+      "description": "L'homme qui nationalisa le pétrole iranien en 1951, entraînant son renversement par le MI6 britannique et la CIA.",
+      "dates": "1882 à 1967",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Mohammad_Mossadegh"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerre Iran-Irak",
+      "annee": 1980,
+      "adversaires": ["Irak (Saddam Hussein)"],
+      "allies": ["Syrie (Hafez al-Assad)"],
+      "morts": "Au moins 1 million de morts",
+      "vainqueur": "Statu Quo (Ruine économique)",
+      "consequences": "Guerre de tranchées terrifiante utilisant des armes chimiques irakiennes et des vagues d'assaut de très jeunes martyrs iraniens.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_Iran-Irak"
+    }
+  ],
+  "sciences": "La 'Révolution blanche' du Chah (années 60) force l'industrialisation, la réforme agraire et l'éradication du féodalisme par les revenus de l'or noir. Sous la République islamique, malgré de lourds embargos, le pays réussit à développer en autarcie un très controversé programme d'enrichissement d'uranium (nucléaire) et un puissant programme balistique.",
+  "croyancesText": "Le basculement de 1979 ('Le velayat-e faqih' ou gouvernement du juriste islamique) donne le pouvoir absolu au clergé chiite. Le pays est gouverné selon la stricte charia religieuse (voile obligatoire, gardiens de la révolution), bien qu'enfermant une société civile jeune, lettrée et très éloignée idéologiquement de l'autorité religieuse suprême.",
+  "diplomatie": "Du grand gendarme pro-américain du golfe (sous le Chah) à 'l'Axe du mal' (sous la République Islamique). La diplomatie de Téhéran s'articule autour de la confrontation existentielle contre les USA ('le Grand Satan') et Israël, ainsi qu'une guerre d'influence de l'Ombre contre l'Arabie Saoudite (sunnite) en finançant des milices (Hezbollah au Liban, Houthis au Yémen).",
+  "documentaires": [
+    {
+      "titre": "Iran 1979 : Anatomie d'une révolution",
+      "url": "https://fr.wikipedia.org/wiki/R%C3%A9volution_iranienne"
+    }
+  ]
+}

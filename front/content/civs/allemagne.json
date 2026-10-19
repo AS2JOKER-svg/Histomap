@@ -1,0 +1,79 @@
+{
+  "id": "allemagne",
+  "label": "Allemagne",
+  "tier": 1,
+  "region": "europe-centrale",
+  "period": "1871 à 2020",
+  "start": 1871,
+  "end": 2020,
+  "trackId": "allemagne",
+  "row": 3,
+  "isRiver": false,
+  "capitale": "Berlin (Bonn pendant scission)",
+  "description": "Unification fulgurante par le sang et le fer, effondrement dans l'abysse génocidaire nazi, puis renaissance en tant que moteur démocratique et économique de l'Europe.",
+  "territories": ["Germany", "German Empire"],
+  "datesCles": [
+    {
+      "annee": 1871,
+      "evenement": "L'Unification",
+      "info": "Bismarck fonde l'Empire allemand (IIe Reich) dans la Galerie des Glaces à Versailles."
+    },
+    {
+      "annee": 1933,
+      "evenement": "La Tragédie",
+      "info": "La crise de 1929 détruit la République de Weimar, Hitler est nommé chancelier légalement par le président Hindenburg (janvier 1933)."
+    },
+    {
+      "annee": 1945,
+      "evenement": "L'Année Zéro",
+      "info": "Le pays, en ruines totales, est vaincu, dénazifié et divisé en deux (RFA à l'ouest, RDA communiste à l'est)."
+    },
+    {
+      "annee": 1989,
+      "evenement": "Chute du Mur de Berlin",
+      "info": "Effondrement du bloc soviétique, réunification pacifique de l'Allemagne."
+    }
+  ],
+  "dirigeants": [
+    { "titre": "Le Chancelier de Fer", "nom": "Otto von Bismarck", "debut": 1871, "fin": 1890 },
+    { "titre": "Dictateur (Führer)", "nom": "Adolf Hitler", "debut": 1933, "fin": 1945 },
+    { "titre": "Chancelière Fédérale", "nom": "Angela Merkel", "surnom": "Mutti", "debut": 2005, "fin": 2021 }
+  ],
+  "personnages": [
+    {
+      "nom": "Albert Einstein",
+      "role": "Physicien",
+      "description": "Révolutionne la conception de l'espace, du temps et de la gravité avec ses théories de la relativité. Fuit le nazisme en 1933.",
+      "dates": "1879 à 1955",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Albert_Einstein"
+    },
+    {
+      "nom": "Karl Marx",
+      "role": "Philosophe et économiste",
+      "description": "Co-auteur du Manifeste du parti communiste, dénonçant l'exploitation capitaliste et appelant à la révolution prolétarienne mondiale.",
+      "dates": "1818 à 1883",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Karl_Marx"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Seconde Guerre mondiale (Front de l'Est/Ouest)",
+      "annee": 1939,
+      "adversaires": ["URSS", "États-Unis", "Royaume-Uni", "France"],
+      "allies": ["Italie fasciste", "Empire du Japon (L'Axe)"],
+      "morts": "Plus de 60 millions au total (dont la Shoah)",
+      "vainqueur": "Les Alliés",
+      "consequences": "Anéantissement du totalitarisme nazi. Début de l'ère atomique. Le monde se fracture en deux lors de la Guerre froide naissante.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Seconde_Guerre_mondiale"
+    }
+  ],
+  "sciences": "Génie mondial de la chimie (invention de l'aspirine, des engrais de synthèse BASF), de la physique quantique et de l'ingénierie automobile (Moteur à explosion de Benz et Daimler). Cependant, ce génie fut tragiquement exploité pendant le IIIe Reich : invention d'une terrifiante ingénierie de la mort (chambres à gaz, camps d'extermination industriels comme Auschwitz) et invention de la première fusée balistique (V2) par Wernher von Braun.",
+  "croyancesText": "Après les ravages de l'idéologie nazie axée sur le racisme pseudo-scientifique (supériorité de la race 'Aryenne') et de l'Antisémitisme génocidaire de l'État (la Shoah), l'Allemagne de l'Ouest (puis réunifiée) se refonde sur la notion indéfectible d'État de Droit, le libéralisme économique 'rhénan', l'anti-militarisme et la culpabilité historique reconnue ('Erinnerungskultur' ou culture de la mémoire).",
+  "diplomatie": "Du Weltpolitik (politique mondiale) belliqueuse du Kaiser Guillaume II menant à WWI, à l'expansionnisme vital fanatique (Lebensraum) d'Hitler déclenchant WWII, l'Allemagne s'est heurtée au monde entier. Depuis 1945, la politique étrangère (Ostpolitik) est radicalement pacifique : l'ancrage pro-européen et le pacifisme absolu priment, l'Allemagne devenant le géant économique (puissance exportatrice) de l'Union Européenne sans ses ambitions militaires.",
+  "documentaires": [
+    {
+      "titre": "Apocalypse : La Seconde Guerre mondiale",
+      "url": "https://fr.wikipedia.org/wiki/Seconde_Guerre_mondiale"
+    }
+  ]
+}

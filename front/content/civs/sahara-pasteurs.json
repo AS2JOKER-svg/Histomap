@@ -1,0 +1,50 @@
+{
+  "id": "sahara-pasteurs",
+  "label": "Pasteurs du Sahara vert",
+  "tier": 1,
+  "region": "afrique-nord",
+  "period": "-10 000 à -3 000",
+  "start": -10000,
+  "end": -3000,
+  "color": "#c2b280",
+  "trackId": "afrique_nord",
+  "row": 2,
+  "isRiver": false,
+  "capitale": "Massif du Tassili n'Ajjer",
+  "description": "Une riche culture pastorale épanouie dans un Sahara verdoyant (optimum climatique de l'Holocène), avant sa désertification.",
+  "territories": [],
+  "datesCles": [
+    {
+      "annee": -10000,
+      "evenement": "Période humide africaine",
+      "info": "La fin de la période glaciaire transforme le Sahara en une savane riche en lacs et en faune."
+    },
+    {
+      "annee": -9400,
+      "evenement": "Premières céramiques",
+      "info": "Vers -9400, des chasseurs-cueilleurs d'Afrique saharienne (site d'Ounjougou, au Mali) fabriquent parmi les plus anciennes poteries d'Afrique, pour cuire des graines et des plantes sauvages."
+    },
+    {
+      "annee": -5000,
+      "evenement": "Apogée de l'art rupestre",
+      "info": "Multiplication des fresques représentant des troupeaux de bovins dans le Tassili."
+    },
+    {
+      "annee": -3500,
+      "evenement": "Début de la désertification",
+      "info": "L'aridification repousse les pasteurs vers la vallée du Nil, contribuant à la naissance de l'Égypte."
+    }
+  ],
+  "dirigeants": [],
+  "personnages": [],
+  "guerres": [],
+  "sciences": "Ces populations ne pratiquent pas l'agriculture au sens strict, mais développent une maîtrise avancée de l'élevage bovin et de la céramique (souvent décorée au peigne). Ils exploitent intensivement les ressources lacustres (harpons en os) et savent stocker les graminées sauvages dans de grandes jarres en argile pour pallier les famines.",
+  "croyancesText": "Leurs croyances nous sont parvenues par le somptueux art rupestre du Tassili n'Ajjer (Algérie). Les parois rocheuses montrent un panthéon animiste complexe : figures surnommées « Grands Dieux martiens » par Henri Lhote (un surnom aujourd'hui abandonné), « têtes rondes », chamans masqués et femmes rituellement décorées. Le bétail, omniprésent, semble posséder un statut sacré, préfigurant les cultes bovins de l'Égypte antique (la déesse Hathor).",
+  "diplomatie": "Ces sociétés tribales semi-nomades suivent les cycles saisonniers des pluies. L'abondance de ressources de la période dite du « Sahara vert » favorise les échanges pacifiques et les rassemblements rituels autour des grands points d'eau.",
+  "documentaires": [
+    {
+      "titre": "Documentaire : Le Sahara Vert",
+      "url": "https://fr.wikipedia.org/wiki/Subpluvial_n%C3%A9olithique"
+    }
+  ]
+}

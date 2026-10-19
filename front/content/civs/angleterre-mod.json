@@ -1,0 +1,85 @@
+{
+  "id": "angleterre-mod",
+  "label": "Angleterre / Grande-Bretagne",
+  "tier": 1,
+  "region": "iles-britanniques",
+  "period": "1492 à 1789",
+  "start": 1492,
+  "end": 1789,
+  "trackId": "angleterre",
+  "row": 3,
+  "isRiver": false,
+  "capitale": "Londres",
+  "description": "La nation qui, par la décapitation de son roi et son schisme religieux, a inventé la monarchie parlementaire moderne et dominé le commerce maritime mondial.",
+  "territories": [
+    "England",
+    "England and Ireland",
+    "Great Britain",
+    "United Kingdom",
+    "United Kingdom of Great Britain and Ireland"
+  ],
+  "datesCles": [
+    {
+      "annee": 1534,
+      "evenement": "L'Acte de Suprématie",
+      "info": "Henri VIII rompt avec le Pape pour divorcer, fondant l'Église anglicane."
+    },
+    {
+      "annee": 1642,
+      "evenement": "Guerre Civile",
+      "info": "La guerre civile éclate entre le roi et le Parlement. En 1649, le roi Charles Ier est exécuté et une république dominée par Cromwell et les puritains est instaurée."
+    },
+    {
+      "annee": 1688,
+      "evenement": "La Glorieuse Révolution",
+      "info": "Renversement presque sans combat, en Angleterre, du roi catholique Jacques II, et adoption du 'Bill of Rights' garantissant le pouvoir du Parlement. La guerre éclate en revanche en Irlande et en Écosse (bataille de la Boyne, 1690)."
+    },
+    {
+      "annee": 1707,
+      "evenement": "Acte d'Union",
+      "info": "L'Angleterre et l'Écosse s'unissent pour former le royaume de Grande-Bretagne (le Royaume-Uni naîtra en 1801, avec l'Irlande)."
+    }
+  ],
+  "dirigeants": [
+    { "titre": "Roi d'Angleterre", "nom": "Henri VIII", "debut": 1509, "fin": 1547 },
+    { "titre": "Reine", "nom": "Élisabeth Ire", "surnom": "La Reine Vierge", "debut": 1558, "fin": 1603 },
+    { "titre": "Lord Protecteur", "nom": "Oliver Cromwell", "debut": 1653, "fin": 1658 }
+  ],
+  "personnages": [
+    {
+      "nom": "Isaac Newton",
+      "role": "Physicien",
+      "description": "L'un des plus grands scientifiques de tous les temps, il formule la loi de la gravitation universelle.",
+      "dates": "1643 à 1727",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Isaac_Newton"
+    },
+    {
+      "nom": "William Shakespeare",
+      "role": "Dramaturge",
+      "description": "Auteur immense (Hamlet, Roméo et Juliette) dont l'œuvre a littéralement forgé la langue anglaise moderne.",
+      "dates": "1564 à 1616",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/William_Shakespeare"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerre de Sept Ans (Guerre de la Conquête)",
+      "annee": 1756,
+      "adversaires": ["Royaume de France", "Autriche"],
+      "allies": ["Prusse"],
+      "morts": "Environ un million de morts (estimations) dans une guerre aux dimensions mondiales",
+      "vainqueur": "Grande-Bretagne",
+      "consequences": "Les Britanniques expulsent la France d'Amérique du Nord (chute du Québec) et des Indes, s'assurant le monopole colonial mondial.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_de_Sept_Ans"
+    }
+  ],
+  "sciences": "Leur stabilité politique précoce permet le déclenchement de la première Révolution industrielle à la fin du XVIIIe siècle. L'invention de la machine à vapeur (Newcomen puis perfectionnée par Watt) permet de pomper l'eau des mines de charbon, puis de motoriser les métiers à tisser. C'est également la naissance de la finance moderne avec la création de la Banque d'Angleterre (1694) pour financer les guerres contre la France.",
+  "croyancesText": "Le pays est traversé par une tension religieuse extrême entre Anglicans (religion d'État modérée), Catholiques (persécutés et exclus des fonctions publiques) et Puritains (calvinistes radicaux). Ces derniers, fuyant les persécutions, embarqueront sur le Mayflower pour coloniser l'Amérique du Nord, important leur éthique de travail et de prédestination divine.",
+  "diplomatie": "La politique étrangère britannique ('L'Équilibre des puissances') consiste à refuser qu'un seul État continental (France ou Espagne) ne domine l'Europe. Protégée par sa flotte royale (la Royal Navy), elle finance les ennemis de ses ennemis et s'assure le contrôle des détroits maritimes, fondant l'expansion colossale de l'East India Company en Asie.",
+  "documentaires": [
+    {
+      "titre": "Les Tudor : Une dynastie de sang et de passion",
+      "url": "https://fr.wikipedia.org/wiki/P%C3%A9riode_Tudor"
+    }
+  ]
+}

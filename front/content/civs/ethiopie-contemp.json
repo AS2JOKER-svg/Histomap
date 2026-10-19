@@ -1,0 +1,64 @@
+{
+  "id": "ethiopie-contemp",
+  "label": "Empire d'Éthiopie (Abyssinie)",
+  "tier": 1,
+  "region": "corne-afrique",
+  "period": "1789 à 2020",
+  "start": 1789,
+  "end": 2020,
+  "trackId": "corne_afrique",
+  "row": 1,
+  "isRiver": false,
+  "capitale": "Addis-Abeba",
+  "description": "La grande fierté noire. Avec le Libéria, le seul État d'Afrique resté indépendant face à la colonisation, ayant militairement défait une armée européenne moderne pour maintenir une indépendance vieille de trois millénaires selon la tradition.",
+  "territories": ["Ethiopia", "Abyssinia"],
+  "datesCles": [
+    {
+      "annee": 1896,
+      "evenement": "Bataille d'Adoua",
+      "info": "Un coup de tonnerre mondial : l'empereur Ménélik II écrase avec des fusils l'armée coloniale d'invasion de l'Italie."
+    },
+    {
+      "annee": 1935,
+      "evenement": "Invasion Fasciste",
+      "info": "L'Italie de Mussolini venge son orgueil en envahissant le pays à coup d'armes chimiques et de bombardiers."
+    },
+    {
+      "annee": 1974,
+      "evenement": "Fin de la dynastie de Salomon",
+      "info": "Une junte militaire (le Derg), qui se proclame ensuite marxiste-léniniste, renverse le dernier empereur, Haïlé Sélassié."
+    },
+    {
+      "annee": 1991,
+      "evenement": "Chute du Derg",
+      "info": "Chute de la dictature du Derg. La République fédérale est instaurée par la Constitution de 1995."
+    }
+  ],
+  "dirigeants": [
+    { "titre": "Negusa Nagast (roi des rois)", "nom": "Ménélik II", "debut": 1889, "fin": 1913 },
+    { "titre": "Empereur", "nom": "Haïlé Sélassié", "surnom": "Le Lion conquérant", "debut": 1930, "fin": 1974 },
+    { "titre": "Général de Junte", "nom": "Mengistu", "surnom": "Le Négus rouge", "debut": 1977, "fin": 1991 }
+  ],
+  "personnages": [],
+  "guerres": [
+    {
+      "nom": "Bataille d'Adoua",
+      "annee": 1896,
+      "adversaires": ["Royaume d'Italie"],
+      "allies": ["Armées de Ménélik II, impératrice Taytu"],
+      "morts": "Plusieurs milliers de morts côté italien, dont des askaris érythréens",
+      "vainqueur": "Éthiopie",
+      "consequences": "Défaite humiliante pour l'Italie, qui signe avec l'Éthiopie le traité d'Addis-Abeba (octobre 1896) reconnaissant son indépendance.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_d'Adoua"
+    }
+  ],
+  "sciences": "Leur génie du XIXe siècle est la clairvoyance géopolitique de modernisation. Réalisant l'ampleur du partage de l'Afrique par les Européens, les monarques achètent de formidables stocks de fusils modernes et d'artillerie (notamment aux Français de Djibouti et aux Russes orthodoxes) pour créer une infanterie qui s'avéra inarrêtable. Ils lancèrent la création de l'impressionnante ligne de chemin de fer franco-éthiopienne.",
+  "croyancesText": "L'empereur est légitimé par son sang, descendant légendairement en ligne directe du roi biblique Salomon et de la reine de Saba. Haïlé Sélassié (Tafari Makonnen) deviendra d'ailleurs la figure du messie réincarné (Jah) pour le mouvement spirituel noir de libération pacifique naissant en Jamaïque : les Rastafaris. La population musulmane reste marginalisée au profit du cœur chrétien orthodoxe.",
+  "diplomatie": "Auréolée de sa victoire sacrée face aux Blancs colonisateurs, l'Éthiopie de la guerre froide utilise sa respectabilité immense en se positionnant comme la capitale morale de tout le continent noir désaliéné, entraînant le siège physique de l'Organisation de l'Unité Africaine (OUA) à Addis-Abeba.",
+  "documentaires": [
+    {
+      "titre": "Adoua 1896, l'indépendance de l'Éthiopie",
+      "url": "https://fr.wikipedia.org/wiki/Histoire_de_l%27%C3%89thiopie"
+    }
+  ]
+}

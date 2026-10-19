@@ -1,0 +1,71 @@
+{
+  "id": "japon",
+  "label": "Japon (Meiji à nos jours)",
+  "tier": 1,
+  "region": "japon",
+  "period": "1789 à 2020",
+  "start": 1789,
+  "end": 2020,
+  "trackId": "japon",
+  "row": 4,
+  "isRiver": false,
+  "capitale": "Tokyo",
+  "description": "D'un archipel isolé du temps à l'imitation foudroyante de l'Occident, sombrant dans l'impérialisme avant de devenir le miracle économique pacifiste de la Tech.",
+  "territories": ["Japan", "Imperial Japan", "Empire of Japan"],
+  "datesCles": [
+    {
+      "annee": 1853,
+      "evenement": "Les Navires Noirs",
+      "info": "L'amiral américain Perry force le Japon à s'ouvrir au commerce sous la menace de ses canons."
+    },
+    {
+      "annee": 1868,
+      "evenement": "Restauration Meiji",
+      "info": "L'Empereur reprend le pouvoir au Shogun. Le Japon s'occidentalise et s'industrialise de force."
+    },
+    {
+      "annee": 1905,
+      "evenement": "Guerre Russo-Japonaise",
+      "info": "Pour la première fois, une nation asiatique moderne écrase militairement un grand empire européen."
+    },
+    {
+      "annee": 1945,
+      "evenement": "Cataclysme Atomique",
+      "info": "Frappes nucléaires américaines (Hiroshima et Nagasaki) forçant la capitulation sans condition du dieu-empereur."
+    }
+  ],
+  "dirigeants": [
+    { "titre": "Empereur", "nom": "Meiji", "debut": 1867, "fin": 1912 },
+    { "titre": "Empereur", "nom": "Hirohito", "surnom": "Shōwa", "debut": 1926, "fin": 1989 }
+  ],
+  "personnages": [
+    {
+      "nom": "Isoroku Yamamoto",
+      "role": "Amiral de la Flotte",
+      "description": "Architecte brillant de l'attaque surprise sur Pearl Harbor, bien qu'il ait prédit que le Japon ne pourrait tenir face à la puissance industrielle américaine à long terme.",
+      "dates": "1884 à 1943",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Isoroku_Yamamoto"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "La Guerre du Pacifique",
+      "annee": 1941,
+      "adversaires": ["États-Unis d'Amérique (Flotte du Pacifique)"],
+      "allies": ["Allemagne Nazie"],
+      "morts": "Environ 3 millions de Japonais, villes rasées au napalm",
+      "vainqueur": "États-Unis",
+      "consequences": "L'attaque de Pearl Harbor réveille le géant industriel américain. Le Japon perd son empire maritime bataille par bataille (Midway, Okinawa).",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_du_Pacifique"
+    }
+  ],
+  "sciences": "Le miracle économique japonais de l'après-guerre est vertigineux : ils passent des ruines calcinées à la deuxième économie mondiale en 20 ans. Inventeurs de la miniaturisation technologique (le Walkman Sony, le magnétoscope), du Toyotisme industriel, et du premier train à grande vitesse du monde fonctionnant au millimètre près (Le Shinkansen, en 1964).",
+  "croyancesText": "À l'ère Meiji est instauré un shintō d'État organisé autour du culte de l'Empereur, présenté comme le descendant de la déesse du Soleil Amaterasu. Dans les années 1930-1945, la propagande militariste s'en sert pour exiger des soldats un sacrifice total (jusqu'aux pilotes kamikazes). Fin 1945, les Américains forceront l'Empereur Hirohito à déclarer officiellement à la radio : 'Je ne suis qu'un être humain', détruisant le mythe religieux de l'État.",
+  "diplomatie": "Pour ne pas être colonisé comme la Chine, le Japon colonial de la fin du 19ème siècle conquiert Taiwan et annexe la Corée pour ses ressources en acier. Entré dans l'Axe fasciste pendant la guerre, leur expansionnisme brutal (La Sphère de coprospérité de la grande Asie orientale) s'effondre face au pacifique. En 1947, le général américain MacArthur rédige la nouvelle constitution nippone interdisant à jamais au pays d'avoir une armée offensive, transformant l'archipel en forteresse économique américaine.",
+  "documentaires": [
+    {
+      "titre": "L'ère Meiji, l'entrée du Japon dans le monde moderne",
+      "url": "https://fr.wikipedia.org/wiki/%C3%88re_Meiji"
+    }
+  ]
+}

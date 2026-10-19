@@ -1,0 +1,46 @@
+{
+  "id": "illyriens",
+  "label": "Illyriens",
+  "tier": 1,
+  "region": "balkans",
+  "period": "-700 à -168",
+  "start": -700,
+  "end": -168,
+  "color": "#455a64",
+  "trackId": "illyriens",
+  "row": 8,
+  "isRiver": false,
+  "capitale": "Scutari (Scodra)",
+  "description": "Marins corsaires intrépides de la mer Adriatique, fondateurs de redoutables petits royaumes militaires, dont la piraterie force Rome à sortir d'Italie.",
+  "territories": ["Illyrians"],
+  "datesCles": [
+    {
+      "annee": -229,
+      "evenement": "1ère Guerre d'Illyrie",
+      "info": "Rome envoie 200 navires pour stopper la reine Teuta."
+    },
+    {
+      "annee": -168,
+      "evenement": "Chute de Scodra",
+      "info": "L'armée romaine défait le roi Genthios, fin de l'Illyrie libre."
+    }
+  ],
+  "dirigeants": [{ "titre": "Reine (Régente)", "nom": "Teuta", "surnom": "La Reine des pirates", "debut": -231, "fin": -227 }],
+  "personnages": [],
+  "guerres": [
+    {
+      "nom": "Guerres d'Illyrie",
+      "annee": -229,
+      "adversaires": ["République Romaine"],
+      "allies": [],
+      "morts": "Inconnu",
+      "vainqueur": "Rome",
+      "consequences": "Ouverture totale de l'Est à la politique expansionniste romaine, conduisant à la future conquête de la Grèce.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerres_d'Illyrie"
+    }
+  ],
+  "sciences": "Excellents constructeurs navals, ils conçoivent le lembos : une galère légère, rapide et maniable, adoptée ensuite par les Macédoniens. Les liburnes, navires légers de la flotte romaine, tiennent leur nom des Liburnes, un peuple illyrien de marins. Ils exploitent massivement l'argent de Damastion pour frapper monnaie.",
+  "croyancesText": "Leur religion balkanique reste assez obscure faute d'écrits, mais est fortement marquée par le culte chtonien du serpent, protecteur du foyer domestique et symbole de la terre. Ils vénéraient Medaurus, un dieu monté à cheval armé d'une lance, divinité de la guerre protectrice des citadelles de montagne.",
+  "diplomatie": "Leur économie politique est basée sur le mercenariat d'élite (gardiens des rois macédoniens) et une piraterie d'État institutionnalisée. L'assassinat d'un ambassadeur romain par la reine Teuta, venue se plaindre des attaques sur les marchands italiens, provoque la toute première traversée de la mer Adriatique par les légions romaines.",
+  "documentaires": [{ "titre": "Les Illyriens, voisins de la Grèce antique", "url": "https://fr.wikipedia.org/wiki/Illyriens" }]
+}

@@ -2,16 +2,30 @@ import { useMemo } from 'react'
 import { createPortal } from 'react-dom'
 import { Link } from 'react-router-dom'
 import { useChapter } from '../../lib/chapters'
+import { useCiv } from '../../lib/data'
 import Icon from '../ui/Icon'
 
 /**
- * Charge le chapitre rédigé (s'il existe) puis affiche children(refAvecChapitre)
- * en plein écran. Pendant le chargement : un squelette ; en cas d'échec
- * (hors ligne et chapitre jamais ouvert) : un message et « Réessayer ».
+ * Charge la fiche complète et le chapitre rédigé (s'il existe) puis affiche
+ * children(refComplète) en plein écran. Pendant le chargement : un squelette ;
+ * en cas d'échec (hors ligne et chapitre jamais ouvert) : un message et « Réessayer ».
  */
 export default function ChapterGate({ refCiv, children }) {
-  const { status, chapter, retry } = useChapter(refCiv.civ.id)
-  const ref = useMemo(() => (status === 'ready' ? { ...refCiv, hand: chapter } : null), [status, chapter, refCiv])
+  const chapterState = useChapter(refCiv.civ.id)
+  const civState = useCiv(refCiv.civ.id)
+  const { chapter } = chapterState
+  const fullCiv = civState.civ
+  const status = [chapterState.status, civState.status].includes('error')
+    ? 'error'
+    : chapterState.status === 'ready' && civState.status === 'ready' ? 'ready' : 'loading'
+  const retry = () => {
+    if (chapterState.status === 'error') chapterState.retry()
+    if (civState.status === 'error') civState.retry()
+  }
+  const ref = useMemo(
+    () => (status === 'ready' ? { ...refCiv, civ: fullCiv, hand: chapter } : null),
+    [status, chapter, fullCiv, refCiv]
+  )
 
   let content
   if (ref) content = children(ref)

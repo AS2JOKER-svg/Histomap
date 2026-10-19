@@ -1,0 +1,50 @@
+{
+  "id": "songhai",
+  "label": "Empire Songhaï",
+  "tier": 1,
+  "region": "afrique-ouest",
+  "period": "1464 à 1492",
+  "start": 1464,
+  "end": 1492,
+  "trackId": "afrique_ouest",
+  "row": 1,
+  "isRiver": true,
+  "capitale": "Gao",
+  "description": "Anciens vassaux du Mali s'émancipant pour fonder un empire qui deviendra, sous les Askia, le plus vaste de l'histoire de l'Afrique de l'Ouest.",
+  "territories": ["Songhai"],
+  "datesCles": [
+    {
+      "annee": 1464,
+      "evenement": "Prise de pouvoir",
+      "info": "Sonni Ali Ber s'empare du trône et entame des conquêtes fulgurantes et sans merci."
+    },
+    {
+      "annee": 1468,
+      "evenement": "Prise de Tombouctou",
+      "info": "L'armée Songhaï chasse les Touaregs et pille brutalement la ville des lettrés."
+    },
+    {
+      "annee": 1473,
+      "evenement": "Siège de Djenné",
+      "info": "Chute de la cité-État marchande imprenable après un long blocus naval sur le Niger."
+    }
+  ],
+  "dirigeants": [{ "titre": "Empereur (Sonni)", "nom": "Ali Ber", "surnom": "Ali le Grand / Le Tyran", "debut": 1464, "fin": 1492 }],
+  "personnages": [],
+  "guerres": [
+    {
+      "nom": "Expansion contre les royaumes Mossis",
+      "annee": 1483,
+      "adversaires": ["Cavaleries Mossis"],
+      "allies": [],
+      "morts": "Inconnu",
+      "vainqueur": "Songhaï",
+      "consequences": "Sécurisation totale du sud du fleuve Niger, repoussant les redoutables pillards Mossis hors des zones agricoles vitales.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Empire_songha%C3%AF"
+    }
+  ],
+  "sciences": "Leur suprématie est tactique. Sonni Ali s'appuie sur une cavalerie mobile et sur une flotte de pirogues qui circule sur le fleuve Niger, permettant de transporter troupes et ravitaillement.",
+  "croyancesText": "Contrairement à l'empire du Mali, Sonni Ali Ber déteste le clergé musulman de Tombouctou qu'il accuse de trahison. Il règne en mêlant islam et pratiques religieuses traditionnelles songhaï, ce qui lui vaut d'être présenté comme un tyran impie par les chroniqueurs musulmans (comme l'auteur du Tarikh al-Sudan, rédigé au XVIIe siècle).",
+  "diplomatie": "Sonni Ali mène surtout une politique de conquête : il soumet les grandes villes marchandes du Niger (Tombouctou, Djenné) et repousse les Touaregs et les Mossis. L'organisation administrative de l'empire (provinces confiées à des gouverneurs, poids et mesures) sera surtout l'œuvre de son successeur Askia Mohammed.",
+  "documentaires": [{ "titre": "La suprématie de l'Empire Songhaï", "url": "https://fr.wikipedia.org/wiki/Empire_songha%C3%AF" }]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "francs",
+  "label": "Royaume franc",
+  "tier": 1,
+  "region": "europe-ouest",
+  "period": "481 à 987",
+  "start": 481,
+  "end": 987,
+  "trackId": "francs",
+  "row": 2,
+  "isRiver": false,
+  "capitale": "Aix-la-Chapelle",
+  "description": "De la conversion de Clovis au sacre de Charlemagne, le royaume qui a forgé la matrice féodale et chrétienne de l'Europe occidentale.",
+  "territories": ["Franks", "Frankish Kingdom", "Carolingian Empire", "West Francia", "East Francia"],
+  "datesCles": [
+    {
+      "annee": 496,
+      "evenement": "Baptême de Clovis",
+      "info": "L'alliance fondatrice entre la royauté franque et l'Église catholique."
+    },
+    {
+      "annee": 732,
+      "evenement": "Bataille de Poitiers",
+      "info": "Charles Martel stoppe l'expansion omeyyade (arabo-berbère) en Gaule."
+    },
+    {
+      "annee": 800,
+      "evenement": "Sacre de Charlemagne",
+      "info": "Le Pape Léon III le couronne Empereur d'Occident à Rome le jour de Noël."
+    },
+    {
+      "annee": 843,
+      "evenement": "Traité de Verdun",
+      "info": "Partage de l'Empire entre les petits-fils de Charlemagne (naissance de la France et de la Germanie)."
+    }
+  ],
+  "dirigeants": [
+    { "titre": "Roi des Francs (Mérovingien)", "nom": "Clovis Ier", "debut": 481, "fin": 511 },
+    {
+      "titre": "Empereur d'Occident (Carolingien)",
+      "nom": "Charlemagne",
+      "surnom": "Carolus Magnus",
+      "debut": 768,
+      "fin": 814
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Charles Martel",
+      "role": "Maire du Palais",
+      "description": "Grand-père de Charlemagne, il réorganise l'armée franque et arrête les Omeyyades.",
+      "dates": "690 à 741",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Charles_Martel"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerres saxonnes",
+      "annee": 772,
+      "adversaires": ["Tribus saxonnes païennes (Widukind)"],
+      "allies": [],
+      "morts": "Dizaines de milliers de Saxons",
+      "vainqueur": "Francs (Charlemagne)",
+      "consequences": "Soumission et baptême forcé de la Saxe, étendant la chrétienté jusqu'à l'Elbe.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_des_Saxons"
+    }
+  ],
+  "sciences": "La 'Renaissance carolingienne' stoppe le déclin culturel post-romain. Charlemagne crée des écoles monastiques et impose la 'minuscule caroline', une écriture standardisée claire qui unifie la diffusion des textes en Europe (et dont dérive notre typographie moderne). Sur le plan militaire, l'adoption de l'étrier donne naissance à la redoutable chevalerie lourde franque.",
+  "croyancesText": "C'est l'alliance indéfectible du Trône et de l'Autel. Les Francs ne sont pas des hérétiques ariens mais des catholiques romains, devenant le bras armé de la Papauté. Charlemagne procède à des conversions forcées d'une brutalité extrême (massacre de Verden) contre les tribus germaniques païennes, instaurant la dîme obligatoire pour financer le clergé.",
+  "diplomatie": "L'administration impériale est assurée par un réseau de fidélités personnelles (vassalité) et contrôlée par les 'Missi Dominici' (les envoyés du maître) qui parcourent l'empire à cheval pour surveiller les comtes et rendre la justice. Le Traité de Verdun (843) scinde cette diplomatie en créant les futures frontières de la France, de l'Allemagne et de l'Italie.",
+  "documentaires": [{ "titre": "Charlemagne, le prince à cheval", "url": "https://fr.wikipedia.org/wiki/Empire_carolingien" }]
+}

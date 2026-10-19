@@ -1,0 +1,40 @@
+{
+  "id": "nok",
+  "label": "Civilisation Nok",
+  "tier": 1,
+  "region": "afrique-ouest",
+  "period": "-1500 à 200",
+  "start": -1500,
+  "end": 200,
+  "color": "#d35400",
+  "trackId": "afrique_ouest",
+  "row": 5,
+  "isRiver": false,
+  "capitale": "Aucune connue (centre du Nigeria)",
+  "description": "Société pionnière d'Afrique de l'Ouest, ayant maîtrisé la métallurgie du fer sans passer par l'âge du bronze, célèbre pour ses terres cuites saisissantes.",
+  "territories": [],
+  "datesCles": [
+    {
+      "annee": -1500,
+      "evenement": "Apparition de la culture",
+      "info": "Premières traces de sédentarisation agricole sur le plateau central du Nigeria."
+    },
+    {
+      "annee": -500,
+      "evenement": "Travail du fer",
+      "info": "Vers le milieu du Ier millénaire av. J.-C., le travail du fer est attesté, dans des fourneaux en argile."
+    },
+    {
+      "annee": 200,
+      "evenement": "Disparition",
+      "info": "Déclin inexpliqué de la production artistique et fragmentation culturelle."
+    }
+  ],
+  "dirigeants": [],
+  "personnages": [],
+  "guerres": [],
+  "sciences": "Le mystère Nok réside dans sa métallurgie. Contrairement à l'Eurasie, l'Afrique subsaharienne n'a pas connu d'âge du cuivre et du bronze ; elle est passée directement de la pierre au fer. Les forgerons Nok ont inventé des fourneaux à tirage naturel capables d'atteindre 1200°C. Parallèlement, leur art de la céramique cuite est d'une sophistication anatomique troublante pour la période.",
+  "croyancesText": "Bien que leurs cités aient été emportées par le temps, il nous reste leur impressionnante statuaire en terre cuite. Ces têtes et corps (certaines têtes presque grandeur nature), caractérisés par de grands yeux triangulaires ou en amande et des coiffures élaborées, étaient probablement des effigies d'ancêtres, de divinités animistes ou des figures de prestige utilisées lors de rites agraires ou funéraires.",
+  "diplomatie": "Il semble s'agir d'une culture villageoise fortement décentralisée, fonctionnant par réseaux de chefferies, mais partageant un code esthétique et technologique unifié sur une zone de plusieurs dizaines de milliers de km². Aucune structure défensive de guerre n'a été retrouvée.",
+  "documentaires": [{ "titre": "L'art et la culture Nok", "url": "https://fr.wikipedia.org/wiki/Civilisation_Nok" }]
+}

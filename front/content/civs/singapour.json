@@ -1,0 +1,51 @@
+{
+  "id": "singapour",
+  "label": "Singapour",
+  "tier": 1,
+  "region": "asie-sud-est-insulaire",
+  "period": "1819 à 2020",
+  "start": 1819,
+  "end": 2020,
+  "color": "#e53935",
+  "trackId": "singapour",
+  "row": 8,
+  "isRiver": false,
+  "capitale": "Singapour",
+  "description": "D'un simple port colonial anti-pirates à la cité-État utopiste, le seul État de l'Histoire à avoir obtenu son indépendance contre sa propre volonté pour devenir l'hyper-hub de la mondialisation asiatique.",
+  "territories": [],
+  "datesCles": [
+    {
+      "annee": 1819,
+      "evenement": "Comptoir Franc",
+      "info": "L'Anglais Stamford Raffles fonde le port, libérant les taxes pour attirer les marchands de toute l'Asie."
+    },
+    {
+      "annee": 1942,
+      "evenement": "La Chute",
+      "info": "La forteresse navale britannique réputée inexpugnable est foudroyée à vélo par la jungle par l'armée japonaise."
+    },
+    {
+      "annee": 1965,
+      "evenement": "Indépendance Forcée",
+      "info": "Jetée hors de la Fédération de Malaisie pour des raisons ethniques, Singapour, déjà un grand port d'environ 1,9 million d'habitants, doit survivre seule."
+    }
+  ],
+  "dirigeants": [{ "titre": "Père Fondateur (Premier ministre)", "nom": "Lee Kuan Yew", "debut": 1959, "fin": 1990 }],
+  "personnages": [],
+  "guerres": [
+    {
+      "nom": "L'Occupation Japonaise",
+      "annee": 1942,
+      "adversaires": ["Empire Japonais"],
+      "allies": ["Empire Britannique", "Milices chinoises malaises"],
+      "morts": "Massacre (Sook Ching) de 25 000 à 50 000 civils chinois selon les estimations",
+      "vainqueur": "Japon (temporairement)",
+      "consequences": "Les troupes impériales de Yamashita soumettent les généraux britanniques stupéfaits. Le traumatisme des persécutions montre aux peuples de la région que les colons blancs ne sont pas invincibles.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Singapour"
+    }
+  ],
+  "sciences": "Le miracle de la survie logistique de la Tech et de la finance. Dénuée d'eau douce, Singapour met en œuvre une politique d'ingénierie stricte de recyclage hydrique ('NEWater') rendant les égouts potables. Son industrie a littéralement poldérisé l'île (sable gagné sur l'océan), érigeant un système d'algorithmes et de grues géantes pilotant l'un des plus grands ports à conteneurs du monde (le 2e, derrière Shanghai).",
+  "croyancesText": "Société multiconfessionnelle (Bouddhistes, Musulmans, Hindous et Chrétiens) où la population d'origine chinoise est majoritaire (surtout des Hokkien, avec des minorités comme les Hakka). La doctrine fondatrice n'est pas religieuse mais autoritaire et morale : le confucianisme asiatique de la discipline, de l'harmonie raciale et du travail acharné. Les sanctions judiciaires et corporelles (coups de fouet en rotin) y sont rigoureusement appliquées (tolérance zéro de l'État).",
+  "diplomatie": "C'est la Suisse d'Asie. Pour assurer la survie de cette minuscule île très riche, coincée entre des géants malais et indonésiens plus pauvres, le pays base sa sécurité sur d'excellentes forces armées (Air Force), le libre-échange capitaliste global, et une coopération diplomatique fine sans aucun positionnement sur les droits de l'homme internes de ses partenaires.",
+  "documentaires": [{ "titre": "Le grand miracle de Singapour", "url": "https://fr.wikipedia.org/wiki/Singapour" }]
+}

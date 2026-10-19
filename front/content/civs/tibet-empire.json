@@ -1,0 +1,62 @@
+{
+  "id": "tibet-empire",
+  "label": "Empire du Tibet",
+  "tier": 1,
+  "region": "chine",
+  "period": "618 à 842",
+  "start": 618,
+  "end": 842,
+  "color": "#b8860b",
+  "trackId": "tibet",
+  "row": 4,
+  "isRiver": false,
+  "capitale": "Lhassa",
+  "description": "Une redoutable puissance militaire d'altitude qui terrorisa l'Empire chinois, tout en se convertissant massivement au bouddhisme mystique.",
+  "territories": ["Tufan Empire", "Tibetan Empire"],
+  "datesCles": [
+    {
+      "annee": 630,
+      "evenement": "Unification du Plateau",
+      "info": "Songtsen Gampo fonde l'empire et crée la ville de Lhassa."
+    },
+    {
+      "annee": 763,
+      "evenement": "Prise de Chang'an",
+      "info": "L'armée tibétaine profite d'une rébellion chinoise pour envahir et piller la capitale des Tang."
+    },
+    {
+      "annee": 842,
+      "evenement": "Effondrement",
+      "info": "L'assassinat du dernier roi, Langdarma, précipite le pays dans la guerre civile féodale."
+    }
+  ],
+  "dirigeants": [
+    { "titre": "Tsenpo (Empereur)", "nom": "Songtsen Gampo", "debut": 629, "fin": 649 },
+    { "titre": "Tsenpo", "nom": "Trisong Detsen", "debut": 755, "fin": 797 }
+  ],
+  "personnages": [
+    {
+      "nom": "Padmasambhava",
+      "role": "Maître tantrique",
+      "description": "Gourou indien invité au Tibet pour dompter par magie les démons locaux, fondateur spirituel du bouddhisme tibétain.",
+      "dates": "≈ VIIIe siècle",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Padmasambhava"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerres sino-tibétaines",
+      "annee": 763,
+      "adversaires": ["Empire Tang"],
+      "allies": ["Royaume de Nanzhao"],
+      "morts": "Pertes militaires frontalières",
+      "vainqueur": "Empire Tibétain (pour un temps)",
+      "consequences": "Profitant de la révolte d'An Lushan, le Tibet prend brièvement Chang'an, la capitale des Tang, en 763, et contrôle pour un temps le Gansu et une partie des oasis d'Asie centrale, avant de s'effondrer de l'intérieur au IXe siècle.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Empire_du_Tibet"
+    }
+  ],
+  "sciences": "Leur suprématie est militaire. Ils développent une cavalerie cataphractaire (lourde) terrifiante : le cavalier et sa monture sont entièrement recouverts d'armures de mailles métalliques. C'est sous cet empire que la langue tibétaine est dotée d'une écriture alphabetique et d'une grammaire complexe (adaptée du sanskrit indien) spécifiquement pour traduire massivement les textes sacrés bouddhistes d'Inde.",
+  "croyancesText": "À l'origine, le Tibet pratique le 'Bön', un animisme de haute montagne axé sur le culte des esprits protecteurs et de la royauté divine. Sous le patronage des rois (les Rois du Dharma), un grand débat (le débat de Samye, vers 792-794) oppose des moines chan (zen) chinois, partisans de l'éveil subit, et le moine indien Kamalashila, partisan d'une voie graduelle. Kamalashila est déclaré vainqueur et le Tibet suit les écoles indiennes, qui va fusionner avec la magie locale pour créer le Bouddhisme tantrique tibétain.",
+  "diplomatie": "Situé stratégiquement sur le Toit du Monde, le Tibet verrouille les routes commerciales de la Soie sud. Pour sécuriser sa paix, le roi Songtsen Gampo force diplomatiquement la Chine (Princesse Wencheng) et le Népal (Princesse Bhrikuti, selon la tradition) à lui donner des épouses royales, lesquelles auraient apporté avec elles les premières idoles bouddhistes au Tibet.",
+  "documentaires": [{ "titre": "L'Histoire occulte du Tibet", "url": "https://fr.wikipedia.org/wiki/Empire_du_Tibet" }]
+}

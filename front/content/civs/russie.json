@@ -1,0 +1,80 @@
+{
+  "id": "russie",
+  "label": "Russie / URSS",
+  "tier": 1,
+  "region": "russie-europeenne",
+  "period": "1789 à 2020",
+  "start": 1789,
+  "end": 2020,
+  "trackId": "rus",
+  "row": 4,
+  "isRiver": false,
+  "capitale": "Saint-Pétersbourg / Moscou",
+  "description": "Des fastes de l'autocratie tsariste à la création sanglante de la première puissance communiste mondiale, effondrée puis ressuscitée dans un nationalisme fort.",
+  "territories": ["Russian Empire", "Russia", "USSR"],
+  "datesCles": [
+    {
+      "annee": 1812,
+      "evenement": "Guerre Patriotique",
+      "info": "L'hiver russe et la terre brûlée anéantissent la Grande Armée de Napoléon."
+    },
+    {
+      "annee": 1917,
+      "evenement": "La Révolution d'Octobre",
+      "info": "Lénine et les Bolchéviques instaurent le premier État communiste (l'Union Soviétique)."
+    },
+    {
+      "annee": 1943,
+      "evenement": "Bataille de Stalingrad",
+      "info": "Point d'arrêt sanglant du nazisme, l'Armée rouge gagne au prix de 27 millions de morts."
+    },
+    {
+      "annee": 1991,
+      "evenement": "Chute de l'URSS",
+      "info": "Gorbatchev démissionne, fin pacifique du bloc de l'Est."
+    }
+  ],
+  "dirigeants": [
+    { "titre": "Tsar", "nom": "Nicolas II", "debut": 1894, "fin": 1917 },
+    {
+      "titre": "Secrétaire Général (Dictateur)",
+      "nom": "Joseph Staline",
+      "surnom": "Le Petit Père des Peuples",
+      "debut": 1922,
+      "fin": 1953
+    },
+    { "titre": "Président Fédéral", "nom": "Vladimir Poutine", "debut": 1999, "fin": 2020 }
+  ],
+  "personnages": [
+    {
+      "nom": "Vladimir Ilitch Lénine",
+      "role": "Révolutionnaire",
+      "description": "Théoricien marxiste, fondateur de l'Union des républiques socialistes soviétiques (URSS).",
+      "dates": "1870 à 1924",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Vladimir_Ilitch_L%C3%A9nine"
+    },
+    {
+      "nom": "Iouri Gagarine",
+      "role": "Cosmonaute",
+      "description": "Le 12 avril 1961, il devient le premier homme de l'histoire à voyager dans l'espace.",
+      "dates": "1934 à 1968",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Iouri_Gagarine"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Grande Guerre patriotique (Front de l'Est WWII)",
+      "annee": 1941,
+      "adversaires": ["Allemagne Nazie (Opération Barbarossa)"],
+      "allies": ["États-Unis", "Royaume-Uni"],
+      "morts": "27 millions de Soviétiques",
+      "vainqueur": "URSS",
+      "consequences": "L'Armée Rouge détruit plus de 80% des troupes d'élite de la Wehrmacht, prend Berlin et installe le communisme sur la moitié de l'Europe.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Front_de_l'Est_(Seconde_Guerre_mondiale)"
+    }
+  ],
+  "sciences": "Le rattrapage scientifique sous le communisme stalinien fut forcé et spectaculaire : d'une nation agricole misérable à une superpuissance d'industrie lourde et nucléaire en 20 ans. La course à l'espace soviétique offre à l'humanité le premier satellite artificiel (Sputnik), le premier animal et le premier homme dans l'espace. Ils inventent également la légendaire arme d'assaut (AK-47 Kalachnikov).",
+  "croyancesText": "Sous l'URSS, l'athéisme d'État scientifique fut imposé avec force : fermeture des églises orthodoxes, goulag pour les dissidents et effacement complet des religions, remplacées par le culte idéologique quasi-religieux de Staline et Lénine. Après l'effondrement soviétique de 1991, l'État russe post-communiste s'appuie à nouveau lourdement sur l'Église orthodoxe russe du patriarche Kirill pour légitimer son autorité nationale et morale.",
+  "diplomatie": "Après la Seconde Guerre, l'URSS impose le 'Rideau de Fer' sur les pays d'Europe de l'Est (Pacte de Varsovie). C'est la Guerre Froide face aux États-Unis : un duel idéologique mondial par conflits interposés sans affrontement militaire direct (Équilibre de la terreur nucléaire). L'économie planifiée soviétique s'écroule en 1991. La Russie contemporaine mène une politique de reconquête d'influence farouche sur son 'étranger proche'.",
+  "documentaires": [{ "titre": "Staline, le Tyran rouge", "url": "https://fr.wikipedia.org/wiki/Joseph_Staline" }]
+}

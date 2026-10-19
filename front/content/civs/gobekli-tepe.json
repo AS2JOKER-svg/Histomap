@@ -1,0 +1,45 @@
+{
+  "id": "gobekli-tepe",
+  "label": "Proche-Orient (Göbekli Tepe)",
+  "tier": 1,
+  "region": "anatolie",
+  "period": "-10000 à -8000",
+  "start": -10000,
+  "end": -8000,
+  "color": "#8d6e63",
+  "trackId": "proche_orient",
+  "row": 3,
+  "isRiver": false,
+  "capitale": "Göbekli Tepe / Karahan Tepe",
+  "description": "Le plus ancien sanctuaire monumental connu, bâti par des chasseurs-cueilleurs avant même l'invention de l'agriculture, renversant notre compréhension de l'histoire.",
+  "territories": ["Levantine Corridor (Neolithic Farmers)"],
+  "datesCles": [
+    {
+      "annee": -9600,
+      "evenement": "Érection des mégalithes",
+      "info": "Taille et mise en place des immenses piliers en forme de T ornés de bas-reliefs animaliers."
+    },
+    {
+      "annee": -8500,
+      "evenement": "Domestication végétale précoce",
+      "info": "Selon des études génétiques, l'engrain (une céréale proche du blé) a été domestiqué dans la région (monts Karaca Dağ)."
+    },
+    {
+      "annee": -8000,
+      "evenement": "Enfouissement du site",
+      "info": "Les enceintes sont recouvertes de gravats, ce qui les a conservées. Cet enfouissement a peut-être été volontaire, mais la question est débattue."
+    }
+  ],
+  "dirigeants": [],
+  "personnages": [],
+  "guerres": [],
+  "sciences": "Le site de Göbekli Tepe détruit l'ancien paradigme archéologique. Il prouve que la capacité à tailler et transporter des piliers monolithes d'environ 10 tonnes (jusqu'à 5,5 m de haut) n'a pas nécessité une société sédentaire agricole préalable. L'organisation complexe d'un chantier d'une telle ampleur par des chasseurs nomades montre une maîtrise insoupçonnée de la taille de pierre (réalisée sans aucun outil en métal) et de l'ingénierie structurelle.",
+  "croyancesText": "Le site a longtemps été vu comme exclusivement cultuel, mais des fouilles récentes y ont trouvé des citernes, des meules et des bâtiments domestiques. L'animisme qui s'y déploie est terrifiant et mystérieux : les bas-reliefs ne montrent aucun animal comestible (gazelles), mais une majorité d'animaux dangereux (scorpions, serpents, vautours, renards, sangliers), à côté d'aurochs, de grues et d'ânes sauvages. Les piliers en forme de T, parfois dotés de bras, pourraient représenter des ancêtres déifiés ou des dieux sans visage.",
+  "diplomatie": "La construction et l'entretien de ce sanctuaire ont nécessité la coopération de plusieurs tribus ou clans de la région d'Anatolie. Göbekli Tepe fonctionnait probablement comme un centre de pèlerinage où des groupes dispersés se réunissaient ponctuellement pour festoyer, peut-être échanger des partenaires (hypothèse) et partager des innovations, favorisant ainsi la découverte de l'agriculture.",
+  "documentaires": [
+    {
+      "titre": "Arte : Göbekli Tepe, le plus vieux temple du monde",
+      "url": "https://fr.wikipedia.org/wiki/G%C3%B6bekli_Tepe"
+    }
+  ]
+}

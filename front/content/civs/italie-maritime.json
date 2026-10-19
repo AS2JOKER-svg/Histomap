@@ -1,0 +1,73 @@
+{
+  "id": "italie-maritime",
+  "label": "Républiques Maritimes",
+  "tier": 1,
+  "region": "italie",
+  "period": "697 à 1492",
+  "start": 697,
+  "end": 1492,
+  "trackId": "italie",
+  "row": 7,
+  "isRiver": false,
+  "capitale": "Venise, Gênes, Amalfi",
+  "description": "Pionnières du capitalisme marchand et maîtresses des mers, ces cités-États d'Italie ont participé aux croisades et dominé une grande partie du commerce des épices d'Orient.",
+  "territories": ["Venice", "Genoa"],
+  "datesCles": [
+    {
+      "annee": 828,
+      "evenement": "Reliques de Saint Marc",
+      "info": "Les Vénitiens volent le corps du saint à Alexandrie, justifiant leur suprématie spirituelle."
+    },
+    {
+      "annee": 1204,
+      "evenement": "4e Croisade",
+      "info": "Venise détourne la croisade pour saccager sa rivale commerciale, Constantinople."
+    },
+    {
+      "annee": 1298,
+      "evenement": "Bataille de Curzola",
+      "info": "Gênes écrase la flotte de Venise. Marco Polo y est fait prisonnier."
+    },
+    {
+      "annee": 1380,
+      "evenement": "Guerre de Chioggia",
+      "info": "Venise résiste à Gênes et à ses alliés puis l'emporte ; la paix de Turin (1381) confirme sa position de grande puissance commerciale, sans lui donner de monopole."
+    }
+  ],
+  "dirigeants": [{ "titre": "Doge de Venise", "nom": "Enrico Dandolo", "debut": 1192, "fin": 1205 }],
+  "personnages": [
+    {
+      "nom": "Marco Polo",
+      "role": "Marchand explorateur",
+      "description": "Vénitien ayant traversé l'Asie, resté de longues années au service de l'empereur mongol Kubilaï. Son 'Livre des Merveilles' a fasciné l'Europe.",
+      "dates": "1254 à 1324",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Marco_Polo"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerre de Saint-Sabas",
+      "annee": 1256,
+      "adversaires": ["République de Gênes"],
+      "allies": [],
+      "morts": "Inconnu",
+      "vainqueur": "Venise (sur mer)",
+      "consequences": "Guerre de 1256 à 1270, partie d'une querelle de quartiers à Acre. Venise l'emporte sur mer, mais par le traité de Nymphée (1261), l'Empire byzantin ouvre la mer Noire à Gênes.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_de_Saint-Sabas"
+    },
+    {
+      "nom": "Guerre de Chioggia",
+      "annee": 1378,
+      "adversaires": ["République de Gênes", "Royaume de Hongrie", "Seigneurie de Padoue"],
+      "allies": [],
+      "morts": "Inconnu",
+      "vainqueur": "Venise",
+      "consequences": "Guerre de 1378 à 1381. Venise, assiégée à Chioggia, finit par l'emporter. La paix de Turin (1381) rétablit un équilibre, sans donner de monopole à Venise.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_de_Chioggia"
+    }
+  ],
+  "sciences": "Elles ont inventé la banque moderne, la comptabilité en partie double, la lettre de change (un ordre de paiement entre places marchandes, ancêtre lointain du chèque), l'assurance maritime et le premier système de brevet industriel. L'Arsenal de Venise est l'un des plus grands chantiers du Moyen Âge : charpentiers, voiliers et forgerons y travaillent par étapes, ce qui permet d'armer rapidement des flottes entières (selon une anecdote de 1574, une galère y aurait même été assemblée en une journée).",
+  "croyancesText": "Malgré un catholicisme affiché de façade, le véritable dieu des Républiques est le commerce. La Papauté menaçait souvent Venise d'excommunication pour son commerce impie (bois, fer, esclaves) avec le monde musulman, ce qui n'empêchait pas Venise de défendre farouchement ses intérêts commerciaux (la formule « Nous sommes d'abord Vénitiens, ensuite Chrétiens » qu'on lui prête est apocryphe).",
+  "diplomatie": "Plutôt que de conquérir de lourds empires continentaux, Venise et Gênes créent des 'empires de comptoirs'. Ce sont des réseaux ininterrompus de ports fortifiés (Crète, Chypre, Crimée) sécurisant la route des épices et de la soie. Elles sont gouvernées par un patriciat oligarchique (le Grand Conseil), élisant un Doge surveillé par le terrible et redouté Conseil des Dix.",
+  "documentaires": [{ "titre": "Venise : La Cité des Doges", "url": "https://fr.wikipedia.org/wiki/R%C3%A9publique_de_Venise" }]
+}

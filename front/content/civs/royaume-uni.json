@@ -1,0 +1,85 @@
+{
+  "id": "royaume-uni",
+  "label": "Royaume-Uni",
+  "tier": 1,
+  "region": "iles-britanniques",
+  "period": "1789 à 2020",
+  "start": 1789,
+  "end": 2020,
+  "trackId": "angleterre",
+  "row": 2,
+  "isRiver": false,
+  "capitale": "Londres",
+  "description": "Le pays qui a allumé la chaudière du monde moderne (la Révolution Industrielle), avant d'être le seul d'Europe à résister seul au nazisme en 1940.",
+  "territories": ["United Kingdom", "United Kingdom of Great Britain and Ireland", "Great Britain"],
+  "datesCles": [
+    {
+      "annee": 1815,
+      "evenement": "Bataille de Waterloo",
+      "info": "Le duc de Wellington vainc définitivement Napoléon, assurant l'hégémonie britannique."
+    },
+    {
+      "annee": 1837,
+      "evenement": "L'Ère Victorienne",
+      "info": "Apogée du plus grand empire de l'histoire, la 'Pax Britannica'."
+    },
+    {
+      "annee": 1940,
+      "evenement": "La Bataille d'Angleterre",
+      "info": "Churchill promet 'du sang et des larmes' : la Royal Air Force sauve le pays de l'invasion hitlérienne."
+    },
+    {
+      "annee": 2016,
+      "evenement": "Le Brexit",
+      "info": "Par référendum choc, le peuple britannique décide de sortir de l'Union Européenne."
+    }
+  ],
+  "dirigeants": [
+    {
+      "titre": "Reine et Impératrice des Indes",
+      "nom": "Victoria",
+      "surnom": "La Grand-mère de l'Europe",
+      "debut": 1837,
+      "fin": 1901
+    },
+    { "titre": "Premier Ministre", "nom": "Winston Churchill", "surnom": "Le Vieux Lion", "debut": 1940, "fin": 1945 },
+    { "titre": "Reine", "nom": "Élisabeth II", "debut": 1952, "fin": 2022 }
+  ],
+  "personnages": [
+    {
+      "nom": "Charles Darwin",
+      "role": "Biologiste",
+      "description": "Publication de 'L'Origine des espèces'. La théorie de l'évolution par la sélection naturelle détruit la vision biblique de la création.",
+      "dates": "1809 à 1882",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Charles_Darwin"
+    },
+    {
+      "nom": "Alan Turing",
+      "role": "Mathématicien",
+      "description": "Père de l'informatique moderne. A brisé la machine de codage nazie (Enigma) puis condamné par l'État pour son homosexualité.",
+      "dates": "1912 à 1954",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Alan_Turing"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Bataille d'Angleterre (WWII)",
+      "annee": 1940,
+      "adversaires": ["Allemagne Nazie (Luftwaffe)"],
+      "allies": ["Pilotes polonais, tchèques, français libres"],
+      "morts": "40 000 civils sous le Blitz (bombardements)",
+      "vainqueur": "Royaume-Uni",
+      "consequences": "Échec total du plan d'invasion de Hitler (Opération Lion de Mer). C'est le grand tournant psychologique mondial : le nazisme n'est pas invincible.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_d'Angleterre"
+    }
+  ],
+  "sciences": "Le Royaume-Uni est l'usine du monde du 19ème siècle. Abondamment fourni en charbon, ils exploitent la machine à vapeur (James Watt) dans des usines textiles géantes (Manchester, Birmingham). Ils révolutionnent le transport mondial par l'invention de la locomotive à vapeur (Stephenson) et du télégraphe. Sous la Seconde guerre mondiale, ils inventent le Radar militaire.",
+  "croyancesText": "L'Anglicanisme perd de sa ferveur absolue au profit d'un pragmatisme économique : le Libéralisme (théorisé par l'écossais Adam Smith dans 'La Richesse des nations'). La foi dans le libre-échange, le capitalisme industriel et la 'Main invisible' devient la nouvelle religion d'État, au détriment des conditions de vie horrifiques des ouvriers (théorisées par Marx, exilé à Londres).",
+  "diplomatie": "La 'Splendide Solitude' du 19ème : isolés du continent, ils règnent sur l'Inde, l'Australie, le Canada et une partie de l'Afrique par la domination navale totale de la Royal Navy. Avec le 20ème siècle (WW1 et WWII), l'Empire s'effondre économiquement, les colonies prennent leur indépendance (Commonwealth). Londres devient alors le plus proche allié indéfectible de la superpuissance américaine (La Relation Spéciale).",
+  "documentaires": [
+    {
+      "titre": "L'Empire où le soleil ne se couche jamais",
+      "url": "https://fr.wikipedia.org/wiki/Empire_britannique"
+    }
+  ]
+}

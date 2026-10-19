@@ -14,13 +14,20 @@
  *   cover · text · keyfigure · dates · steps · map · leaders · person · war · lineage · recap
  */
 import { chapterMeta } from './chapters'
+import { isFull } from './data'
+import { stripLinksDeep } from './links'
 import PRESENCE from '../data/map-presence.json'
 import { formatDuration, formatYear } from './time'
 
-/** Toutes les cartes (niveaux 1 et 2) d'une civilisation, avec couverture et bilan. */
+/**
+ * Toutes les cartes (niveaux 1 et 2) d'une civilisation, avec couverture et bilan.
+ * Sans chapitre rédigé, ref.civ doit être la fiche complète (lib/data loadCiv).
+ */
 export function chapterCards(ref) {
-  const { civ, hand } = ref
-  const body = hand ? hand.cards : autoCards(ref)
+  const { hand } = ref
+  // cartes générées = texte brut : on retire la syntaxe des liens [[id|texte]]
+  const civ = hand ? ref.civ : stripLinksDeep(ref.civ)
+  const body = hand ? hand.cards : autoCards({ civ })
   const cover = { id: 'cover', tier: 0, type: 'cover', readingTime: hand?.readingTime ?? Math.max(2, Math.round(body.length / 3)) }
   const lineage = civ.lineage ? [{ id: 'lineage', tier: 1, type: 'lineage' }] : []
   const recap = { id: 'recap', tier: 0, type: 'recap', points: hand?.recap ?? autoRecap(civ) }
@@ -53,11 +60,15 @@ export function buildDeck(ref, { round = 0, toReview = [] } = {}) {
   return [cover, ...picked, recap]
 }
 
-/** Nombre de cartes de chaque niveau (affiché dans le hub). */
+/**
+ * Nombre de cartes de chaque niveau (affiché dans le hub). Null si on ne peut
+ * pas le savoir sans charger la fiche (chapitre généré, fiche légère).
+ */
 export function chapterSize(ref) {
   // Chapitre rédigé pas encore chargé (listes) : tailles précalculées
   const meta = !ref.hand && chapterMeta(ref.civ.id)
   if (meta) return { tier1: meta.tier1 + (ref.civ.lineage ? 1 : 0), tier2: meta.tier2 }
+  if (!ref.hand && !isFull(ref.civ)) return null
   const all = chapterCards(ref)
   return { tier1: all.filter((c) => c.tier === 1).length, tier2: all.filter((c) => c.tier === 2).length }
 }

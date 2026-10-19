@@ -1,0 +1,76 @@
+{
+  "id": "vikings",
+  "label": "Scandinavie (Vikings)",
+  "tier": 1,
+  "region": "europe-nord",
+  "period": "793 à 1066",
+  "start": 793,
+  "end": 1066,
+  "color": "#00838f",
+  "trackId": "scandinavie",
+  "row": 5,
+  "isRiver": false,
+  "capitale": "Roskilde / Jelling",
+  "description": "Navigateurs, pirates et marchands d'élite nordiques qui ont pillé, colonisé et redessiné la carte politique de l'Europe médiévale.",
+  "territories": [
+    "Danes",
+    "Northmen",
+    "Swedes and Goths",
+    "Kingdom of Norway",
+    "Norway",
+    "Sweden",
+    "Denmark",
+    "Icelandic Commonwealth"
+  ],
+  "datesCles": [
+    {
+      "annee": 793,
+      "evenement": "Pillage de Lindisfarne",
+      "info": "Premier grand raid documenté sur un monastère anglais."
+    },
+    {
+      "annee": 911,
+      "evenement": "Fondation de la Normandie",
+      "info": "Le chef Rollon reçoit des terres du roi franc en échange de l'arrêt des pillages."
+    },
+    {
+      "annee": 1000,
+      "evenement": "Découverte de l'Amérique",
+      "info": "Leif Erikson atteint Terre-Neuve (Vinland) 5 siècles avant Colomb."
+    },
+    {
+      "annee": 1066,
+      "evenement": "Bataille de Stamford Bridge",
+      "info": "Mort d'Harald Hardrada, marquant la fin de l'ère viking."
+    }
+  ],
+  "dirigeants": [
+    { "titre": "Roi du Danemark et d'Angleterre", "nom": "Knut", "surnom": "Le Grand", "debut": 1016, "fin": 1035 },
+    { "titre": "Roi de Norvège", "nom": "Harald", "surnom": "Hardrada", "debut": 1046, "fin": 1066 }
+  ],
+  "personnages": [
+    {
+      "nom": "Ragnar Lodbrok",
+      "role": "Chef légendaire",
+      "description": "Héros mythique des sagas, il unifie les raids et aurait mené le premier sac de Paris en 845.",
+      "dates": "≈ IXe siècle",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Ragnar_Lodbrok"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Invasion de la Grande Armée païenne",
+      "annee": 865,
+      "adversaires": ["Royaumes Anglo-Saxons"],
+      "allies": [],
+      "morts": "Importantes destructions",
+      "vainqueur": "Vikings",
+      "consequences": "Chute des royaumes de Mercie et de Northumbrie, création du Danelaw (zone sous loi danoise en Angleterre).",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Grande_Arm%C3%A9e"
+    }
+  ],
+  "sciences": "Leur suprématie navale absolue repose sur le 'Langskip' (Drakkar). Ces navires à bordages à clin, symétriques (on ne fait pas demi-tour, on inverse simplement les rameurs) et à très faible tirant d'eau, peuvent naviguer en plein océan et remonter les fleuves de la Seine ou de la Volga. Ils naviguent en haute mer grâce au 'compas solaire' et aux pierres de soleil (spath d'Islande) repérant la lumière polarisée par temps couvert.",
+  "croyancesText": "Le paganisme nordique est centré sur le Valhalla : seuls les guerriers mourant avec bravoure, l'arme à la main, rejoignent le palais d'Odin pour s'entraîner en vue du Ragnarök (la fin du monde). Le panthéon inclut Thor (dieu du tonnerre) et Freyja (fertilité). Aux Xe et XIe siècles, l'élite viking est politiquement christianisée pour s'intégrer au réseau diplomatique européen.",
+  "diplomatie": "Le terme 'Viking' n'est pas un peuple, mais une action (partir en expédition, 'i viking'). D'abord pilleurs d'abbayes, ils développent une diplomatie de l'extorsion systématique : le 'Danegeld', un tribut d'argent massif payé par les rois d'Angleterre et de France pour qu'ils s'en aillent. Ils se transforment ensuite en colons fondateurs d'États (Normandie, Rus' de Kiev, Danelaw).",
+  "documentaires": [{ "titre": "L'épopée des Vikings", "url": "https://fr.wikipedia.org/wiki/%C3%82ge_des_Vikings" }]
+}

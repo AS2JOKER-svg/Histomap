@@ -1,0 +1,72 @@
+{
+  "id": "afrique-sud",
+  "label": "Afrique du Sud",
+  "tier": 1,
+  "region": "afrique-australe",
+  "period": "1789 à 2020",
+  "start": 1789,
+  "end": 2020,
+  "color": "#ffc107",
+  "trackId": "afrique_australe",
+  "row": 3,
+  "isRiver": false,
+  "capitale": "Pretoria / Le Cap",
+  "description": "De la colonisation, commencée par les Néerlandais (Compagnie des Indes orientales, 1652) puis poursuivie par l'Empire britannique, à l'instauration de l'Apartheid de la minorité blanche, transcendé par l'avènement pacificateur de la Nation Arc-en-ciel.",
+  "territories": ["Cape Colony", "Union of South Africa", "South Africa"],
+  "datesCles": [
+    {
+      "annee": 1886,
+      "evenement": "Ruée vers l'Or",
+      "info": "La découverte de gisements géants dans le Transvaal attise les haines coloniales entre Boers (paysans blancs d'origine hollandaise) et Anglais."
+    },
+    {
+      "annee": 1899,
+      "evenement": "Guerre des Boers",
+      "info": "L'Empire britannique vainc les républiques Boers et y déploie des camps de concentration pour civils, parmi les premiers de l'histoire (après ceux de Cuba en 1896)."
+    },
+    {
+      "annee": 1948,
+      "evenement": "L'Apartheid",
+      "info": "Le Parti national impose la terrible ségrégation raciale étatique stricte pour isoler les Noirs."
+    },
+    {
+      "annee": 1994,
+      "evenement": "Démocratie universelle",
+      "info": "Élection libre : le pays frôle la guerre civile mais s'apaise."
+    }
+  ],
+  "dirigeants": [
+    { "titre": "Chef de la nation Zouloue", "nom": "Chaka Zoulou", "debut": 1816, "fin": 1828 },
+    { "titre": "Président d'Afrique du Sud", "nom": "Nelson Mandela", "surnom": "Madiba", "debut": 1994, "fin": 1999 }
+  ],
+  "personnages": [
+    {
+      "nom": "F. W. de Klerk",
+      "role": "Président afrikaner",
+      "description": "Le dernier chef d'État de l'apartheid, partageant le Prix Nobel avec Mandela pour avoir organisé les premières élections multiraciales.",
+      "dates": "1936 à 2021",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Frederik_de_Klerk"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerre Anglo-Zouloue",
+      "annee": 1879,
+      "adversaires": ["Royaume zoulou"],
+      "allies": ["Empire britannique et contingents coloniaux"],
+      "morts": "Plus de 10 000 morts au total, en majorité zoulous (estimations)",
+      "vainqueur": "Empire Britannique",
+      "consequences": "Malgré la victoire zouloue d'Isandhlwana au début de la guerre, l'armée britannique, mieux armée (fusils, artillerie), écrase les Zoulous à Ulundi et met fin à l'indépendance du royaume zoulou.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_anglo-zouloue"
+    }
+  ],
+  "sciences": "Le territoire est une mine d'extraction titanesque mondiale des richesses minières lourdes (Or de Johannesburg et des diamants de Kimberley par la firme De Beers). Cette industrialisation extractive faramineuse s'est construite sur le sang de l'exploitation systématique des populations noires bantoues parquées et encartées ('les pass') dans des 'Bantoustans'. C'est en Afrique du Sud que le premier cœur humain fut chirurgicalement transplanté (Christiaan Barnard, 1967).",
+  "croyancesText": "L'Apartheid n'est pas qu'un système politique. Les dirigeants Boers (d'origine calviniste hollandaise très fondamentaliste de l'Église réformée hollandaise) s'identifiaient à un Peuple Élu de la Bible (le Grand Trek) justifiant religieusement et moralement la ségrégation des races comme ordre divin protecteur de la civilisation blanche face à l'Océan africain. En retour, les Églises noires et la philosophie ubuntu de la réconciliation (Desmond Tutu) briseront cette haine.",
+  "diplomatie": "Sous l'apartheid et la Guerre Froide, Pretoria (farouchement anticommuniste) possédait son propre armement atomique (qu'elle démantela plus tard en 1989) pour intimider les insurrections d'Angola et les pays de la ligne de front (soutenus par Fidel Castro au nom de l'URSS). Isolé et boycotté sportivement et financièrement par le monde entier, le gouvernement finira par céder aux pressions économiques des banques étrangères et internes (ANC).",
+  "documentaires": [
+    {
+      "titre": "L'Afrique du Sud de Mandela et la fin de l'Apartheid",
+      "url": "https://fr.wikipedia.org/wiki/Histoire_de_l%27Afrique_du_Sud"
+    }
+  ]
+}

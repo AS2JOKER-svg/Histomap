@@ -1,0 +1,76 @@
+{
+  "id": "union-europeenne",
+  "label": "Union Européenne (Projet Politique)",
+  "tier": 1,
+  "region": "europe-ouest",
+  "period": "1951 à 2020",
+  "start": 1951,
+  "end": 2020,
+  "color": "#003399",
+  "trackId": "europe_unie",
+  "row": 7,
+  "isRiver": false,
+  "capitale": "Bruxelles / Strasbourg / Francfort",
+  "description": "Le miracle diplomatique inédit de l'histoire humaine : lier les économies des belligérants de deux guerres mondiales pour rendre le retour à la guerre matériellement impossible.",
+  "territories": [],
+  "datesCles": [
+    {
+      "annee": 1951,
+      "evenement": "Traité CECA",
+      "info": "Communauté européenne du charbon et de l'acier (France, Allemagne, Italie, Benelux)."
+    },
+    {
+      "annee": 1957,
+      "evenement": "Traité de Rome",
+      "info": "Création de la CEE, instaurant la libre circulation des marchandises et des travailleurs."
+    },
+    {
+      "annee": 1992,
+      "evenement": "Traité de Maastricht",
+      "info": "L'institution prend le nom formel d'Union Européenne."
+    },
+    {
+      "annee": 2002,
+      "evenement": "L'Euro",
+      "info": "Mise en circulation matérielle de la monnaie commune remplaçant les devises nationales (Franc, Mark)."
+    }
+  ],
+  "dirigeants": [{ "titre": "Président de la Commission", "nom": "Jacques Delors", "debut": 1985, "fin": 1995 }],
+  "personnages": [
+    {
+      "nom": "Jean Monnet & Robert Schuman",
+      "role": "Les Pères de l'Europe",
+      "description": "Jean Monnet, haut fonctionnaire, et Robert Schuman, homme politique et ministre français des Affaires étrangères, parient sur l'intégration économique progressive (méthode des petits pas) plutôt que la politique.",
+      "dates": "XXe siècle",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/P%C3%A8res_de_l%27Europe"
+    },
+    {
+      "nom": "Simone Veil",
+      "role": "Présidente du Parlement",
+      "description": "Survivante d'Auschwitz, elle devient la première présidente (élue au suffrage universel) du Parlement européen en 1979.",
+      "dates": "1927 à 2017",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Simone_Veil"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerres de Yougoslavie",
+      "annee": 1991,
+      "adversaires": ["Factions nationalistes balkaniques"],
+      "allies": ["Intervention OTAN/Casques Bleus"],
+      "morts": "Environ 140 000 morts (épuration ethnique)",
+      "vainqueur": "Communauté Internationale",
+      "consequences": "Impuissante politiquement et militairement à gérer l'horreur à ses propres frontières, l'Europe dut faire appel aux bombardiers américains de l'OTAN pour stopper le conflit.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerres_de_Yougoslavie"
+    }
+  ],
+  "sciences": "Le bloc consolide les puissances par des collaborations industrielles massives de pointe que les États nations seuls ne pourraient plus financer : l'entreprise d'aéronautique Airbus (contre le monopole de l'américain Boeing), le programme spatial européen Arianespace et l'Agence Spatiale Européenne (ESA), ou l'accélérateur géant de particules du CERN.",
+  "croyancesText": "L'Union Européenne repose sur un dogme politique inviolable : les 'Critères de Copenhague'. Pour y adhérer, une nation doit obligatoirement prouver qu'elle possède des institutions démocratiques stables, qu'elle respecte les Droits de l'Homme (ce qui implique en pratique l'abolition de la peine de mort, exigée par ailleurs par l'UE), respecte les minorités de son pays, et adhère à l'économie de marché viable.",
+  "diplomatie": "C'est l'anti-Empire. L'UE n'est pas construite par la force militaire (elle n'a d'ailleurs aucune véritable armée commune), mais par l'adhésion volontaire au Droit par traités. Elle utilise son immense marché de 450 millions de consommateurs parmi les plus riches au monde (Le Marché Unique) comme 'Soft Power' pour imposer des normes économiques et écologiques mondiales (RGPD).",
+  "documentaires": [
+    {
+      "titre": "La construction européenne : De la CECA à l'UE",
+      "url": "https://fr.wikipedia.org/wiki/Histoire_de_l%27Union_europ%C3%A9enne"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "zimbabwe-civilisation",
+  "label": "Civilisation du Grand Zimbabwe",
+  "tier": 1,
+  "region": "afrique-australe",
+  "period": "1100 à 1450",
+  "start": 1100,
+  "end": 1450,
+  "color": "#795548",
+  "trackId": "afrique_australe",
+  "row": 3,
+  "isRiver": false,
+  "capitale": "Grand Zimbabwe",
+  "description": "Au milieu de la brousse, un royaume d'architectes mégalithiques bâtissant des murailles colossales de granit sans aucun ciment, enrichi par des mines d'or abondantes.",
+  "territories": ["Great Zimbabwe"],
+  "datesCles": [
+    {
+      "annee": 1100,
+      "evenement": "Premiers villages",
+      "info": "Les premiers villages de populations shona apparaissent sur le site vers le XIe siècle."
+    },
+    {
+      "annee": 1350,
+      "evenement": "Apogée",
+      "info": "Au XIVe siècle, la ville compte environ 10 000 à 18 000 habitants selon les estimations (la plus grande d'Afrique australe précoloniale)."
+    },
+    {
+      "annee": 1450,
+      "evenement": "Abandon mystérieux",
+      "info": "Épuisement écologique du sol et migration du pouvoir vers l'Empire du Monomotapa."
+    }
+  ],
+  "dirigeants": [],
+  "personnages": [],
+  "guerres": [],
+  "sciences": "Le mot Zimbabwe signifie 'Les maisons de pierre' (Dzimba Dza Mabwe). Leurs architectes ont conçu la 'Grande Enceinte', un mur elliptique de 11 mètres de haut et 250 mètres de long, composé d'un million de blocs de granit retaillés et ajustés en chevron avec une telle perfection technique qu'ils n'ont besoin d'aucun mortier ou liant d'argile pour tenir debout.",
+  "croyancesText": "La religion Shona s'articule autour de Mwari, le dieu créateur universel, et d'un culte assidu des esprits (Mhondoro). À l'intérieur de l'Enceinte se trouve une mystérieuse tour conique massive de 9 mètres, symbole possible de la fécondité masculine ou du grenier à grain cosmique garantissant l'abondance de l'Empire.",
+  "diplomatie": "Ils pratiquent une politique d'exportation discrète mais massive. Isolés à l'intérieur des terres, les monarques expédient l'or fondu, l'ivoire et des peaux rares par caravanes de porteurs jusqu'aux cités commerciales arabo-swahilies de la côte de l'Océan Indien (comme Sofala, au Mozambique, port relié à Kilwa, en Tanzanie). En échange, l'archéologie a retrouvé dans les ruines du Zimbabwe des céladons chinois, des céramiques persanes, des perles indiennes en verre et du corail.",
+  "documentaires": [{ "titre": "Le mystère du Grand Zimbabwe", "url": "https://fr.wikipedia.org/wiki/Grand_Zimbabwe" }]
+}

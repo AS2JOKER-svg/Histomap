@@ -1,0 +1,80 @@
+{
+  "id": "rus-kiev",
+  "label": "Rus' de Kiev",
+  "tier": 1,
+  "region": "europe-est",
+  "period": "862 à 1240",
+  "start": 862,
+  "end": 1240,
+  "trackId": "rus",
+  "row": 6,
+  "isRiver": true,
+  "capitale": "Kiev",
+  "description": "Matrice de la Russie moderne, gigantesque fédération slave encadrée par des guerriers-marchands scandinaves et illuminée par l'influence byzantine.",
+  "territories": [
+    "Rus' Khaganate",
+    "Kyivan Rus",
+    "Kievan Rus",
+    "Principality of Kyiv",
+    "Other Rus Principalities",
+    "Principality of Novgorod",
+    "Principality of Vladimir-Suzdal",
+    "Principality of Galicia-Volhynia"
+  ],
+  "datesCles": [
+    {
+      "annee": 862,
+      "evenement": "Arrivée de Riourik",
+      "info": "Le chef varangien (viking) prend le contrôle de Novgorod."
+    },
+    {
+      "annee": 988,
+      "evenement": "Le Baptême de Kiev",
+      "info": "Le prince Vladimir choisit la religion orthodoxe, liant son destin à Constantinople."
+    },
+    {
+      "annee": 1019,
+      "evenement": "L'Âge d'or",
+      "info": "Iaroslav le Sage rédige le premier code de lois et embellit Kiev."
+    },
+    {
+      "annee": 1240,
+      "evenement": "Invasion Mongole",
+      "info": "La Horde d'Or détruit Kiev, brisant l'unité de la Rus'."
+    }
+  ],
+  "dirigeants": [
+    { "titre": "Grand Prince de Kiev", "nom": "Vladimir Ier", "surnom": "Le Grand", "debut": 980, "fin": 1015 },
+    { "titre": "Grand Prince", "nom": "Iaroslav", "surnom": "Le Sage", "debut": 1019, "fin": 1054 }
+  ],
+  "personnages": [
+    {
+      "nom": "Olga de Kiev",
+      "role": "Princesse régente",
+      "description": "Venge l'assassinat de son mari par les Drevliens d'une manière effroyable, puis devient la première convertie au christianisme.",
+      "dates": "≈ 890 à 969",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Olga_Kievan"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerre contre la Horde d'Or (Mongols)",
+      "annee": 1237,
+      "adversaires": ["Empire Mongol (Batu Khan)"],
+      "allies": [],
+      "morts": "Holocauste urbain et démographique",
+      "vainqueur": "Mongols",
+      "consequences": "Chute apocalyptique de Kiev. La Rus' est soumise au 'joug tatar' (versement d'impôts aux Khans) pour plus de deux siècles.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Invasion_mongole_de_la_Rous'_de_Kiev"
+    }
+  ],
+  "sciences": "Leur réussite économique réside dans la maîtrise logistique de la 'Route des Varègues aux Grecs', un réseau de fleuves, de lacs et de portages terrestres (tirer les bateaux sur des rondins) reliant la mer Baltique à la mer Noire et Constantinople. Ils exportent vers le Sud le miel, la cire, les fourrures et les esclaves slaves (terme qui donnera le mot esclave en Europe).",
+  "croyancesText": "Initialement fidèles au paganisme slave (Peroun, dieu du tonnerre), la géopolitique dicte la conversion. Selon la Chronique des Temps Passés, Vladimir a étudié l'islam (rejeté car interdisant l'alcool), le judaïsme (rejeté car nation en exil) et le catholicisme romain (trop triste). Subjugués par l'or de Sainte-Sophie à Byzance, ils choisissent l'orthodoxie grecque.",
+  "diplomatie": "La Rus' de Kiev fonctionne comme une fédération de cités dirigées par les fils de la famille princière, selon un complexe système de succession tournante ('lestvitchnaïa') qui provoque des guerres civiles permanentes. Iaroslav le Sage marie ses filles aux rois de France (Anne de Kiev), de Norvège et de Hongrie, insérant la Russie dans la cour des grands d'Europe.",
+  "documentaires": [
+    {
+      "titre": "Les origines de la Russie : La Rus' de Kiev",
+      "url": "https://fr.wikipedia.org/wiki/Rus%27_de_Kiev"
+    }
+  ]
+}

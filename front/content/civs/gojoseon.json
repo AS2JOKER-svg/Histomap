@@ -1,0 +1,53 @@
+{
+  "id": "gojoseon",
+  "label": "Royaume de Gojoseon (Corée)",
+  "tier": 1,
+  "region": "coree",
+  "period": "-1000 à -108",
+  "start": -1000,
+  "end": -108,
+  "trackId": "coree",
+  "row": 9,
+  "isRiver": false,
+  "capitale": "Wanggeom-seong (emplacement débattu : Pyongyang ou Liaoning)",
+  "description": "Le creuset fondateur de l'identité coréenne (l'ère du bronze et du fer antique), dont la chute face aux Han pousse une partie des élites vers le sud, un des facteurs qui préparent l'époque des Trois Royaumes coréens.",
+  "territories": ["Gojoseon"],
+  "datesCles": [
+    {
+      "annee": -1000,
+      "evenement": "Bronze Mumun",
+      "info": "Essor de la période Mumun (commencée vers -1500) : poterie sans décor, culture du riz et mégalithes (dolmens)."
+    },
+    {
+      "annee": -194,
+      "evenement": "Période Wiman",
+      "info": "Un général exilé s'empare du pouvoir, importe le fer et transforme l'État en puissance militaire."
+    },
+    {
+      "annee": -108,
+      "evenement": "L'invasion Han",
+      "info": "L'empereur chinois Han Wudi lance une invasion terrestre et navale massive pour annexer la péninsule."
+    }
+  ],
+  "dirigeants": [
+    { "titre": "Roi Fondateur", "nom": "Dangun", "surnom": "Le Roi Divin (Légendaire)", "debut": -2333, "fin": -1000 },
+    { "titre": "Roi", "nom": "Wiman", "surnom": "Fin de règne incertaine", "debut": -194, "fin": -160 }
+  ],
+  "personnages": [],
+  "guerres": [
+    {
+      "nom": "Guerre Han-Gojoseon",
+      "annee": -109,
+      "adversaires": ["Dynastie Han (Wudi)"],
+      "allies": [],
+      "morts": "Effondrement du gouvernement central",
+      "vainqueur": "Dynastie Han",
+      "consequences": "Guerre de -109 à -108. Chute de la capitale en -108. La Chine divise le nord de la Corée en 'Quatre Commanderies' ; une partie des élites part vers le sud.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_Han%E2%80%93Gojoseon"
+    }
+  ],
+  "sciences": "Le paysage préhistorique coréen a laissé une empreinte unique : environ 40 % des dolmens (sépultures de pierres géantes) du monde se trouvent en Corée, la plupart datant de l'âge du bronze de la péninsule. Technologiquement, leur armement se distingue par la maîtrise de la dague (ou poignard) en bronze de type mandoliniforme (en forme de luth), un symbole de statut exclusif aux élites de ce royaume.",
+  "croyancesText": "Le fondement religieux est le mythe de Dangun. Hwanung (le fils du Ciel) descend sur terre, donne à une ourse désireuse de devenir humaine de l'armoise et de l'ail à manger dans une grotte pendant 100 jours. Transformée en femme, elle épouse le dieu et donne naissance à Dangun, fondant le concept d'un sang coréen béni du Ciel et directement connecté à l'esprit de la montagne sauvage.",
+  "diplomatie": "Situé au nord de la péninsule et s'étendant en Mandchourie, Gojoseon jouait le rôle d'intermédiaire commercial indispensable et lucratif entre les tribus du sud de la Corée (les Jin) et l'Empire Chinois (les Han). Ce monopole sur le transit du fer fut la cause directe de l'invasion impériale visant à briser leur contrôle économique de la région.",
+  "documentaires": [{ "titre": "L'origine de la Corée : Gojoseon", "url": "https://fr.wikipedia.org/wiki/Gojoseon" }]
+}

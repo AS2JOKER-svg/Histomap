@@ -1,0 +1,67 @@
+{
+  "id": "mesopotamie",
+  "label": "Mésopotamie",
+  "tier": 1,
+  "region": "mesopotamie",
+  "period": "-3500 à -539",
+  "start": -3500,
+  "end": -539,
+  "trackId": "mesopotamie",
+  "row": 1,
+  "isRiver": true,
+  "capitale": "Ourouk, Akkad, Babylone",
+  "description": "Le berceau des premières villes-États, de l'écriture et du droit, bâti dans l'interfluve du Tigre et de l'Euphrate par les Sumériens et les Babyloniens.",
+  "territories": ["Ur", "Babylonia", "Assyria"],
+  "datesCles": [
+    {
+      "annee": -3300,
+      "evenement": "L'Écriture",
+      "info": "L'argile est marquée de signes cunéiformes (en forme de clous) pour tenir les comptes des temples."
+    },
+    {
+      "annee": -2334,
+      "evenement": "L'Empire d'Akkad",
+      "info": "Sargon l'Ancien fonde le premier empire territorial de l'histoire humaine."
+    },
+    {
+      "annee": -1750,
+      "evenement": "Code de Hammurabi",
+      "info": "Première transcription écrite du droit ('Œil pour œil, dent pour dent')."
+    },
+    {
+      "annee": -539,
+      "evenement": "Chute de Babylone",
+      "info": "Le Perse Cyrus le Grand prend la ville d'un coup de génie stratégique."
+    }
+  ],
+  "dirigeants": [
+    { "titre": "Roi d'Akkad", "nom": "Sargon", "surnom": "L'Ancien", "debut": -2334, "fin": -2279 },
+    { "titre": "Roi de Babylone", "nom": "Hammurabi", "surnom": "Le Législateur", "debut": -1792, "fin": -1750 },
+    { "titre": "Roi (Empire néo-babylonien)", "nom": "Nabuchodonosor II", "debut": -605, "fin": -562 }
+  ],
+  "personnages": [
+    {
+      "nom": "Gilgamesh",
+      "role": "Roi légendaire d'Uruk",
+      "description": "Héros de la première grande épopée littéraire humaine, obsédé par la quête impossible de l'immortalité.",
+      "dates": "≈ -2600",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Gilgamesh"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Conquête de Babylone par les Perses",
+      "annee": -539,
+      "adversaires": ["Empire Perse (Cyrus le Grand)"],
+      "allies": ["Prêtres mécontents de Marduk"],
+      "morts": "Très faibles",
+      "vainqueur": "Perses Achéménides",
+      "consequences": "Les Perses détournent l'Euphrate et entrent par le lit du fleuve. L'indépendance de Babylone prend fin pour toujours.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Chute_de_Babylone"
+    }
+  ],
+  "sciences": "Leur génie mathématique structure toujours notre monde. Inventeurs du système sexagésimal (base 60), ils nous ont légué la division de l'heure en 60 minutes et du cercle en 360 degrés. Ils perfectionnent l'irrigation, tracent les premières cartes célestes (astronomie et zodiaque), et utilisent la brique cuite vernissée pour ériger d'immenses Ziggourats (tours à étages).",
+  "croyancesText": "Le monde a été façonné à partir du sang d'un dieu sacrifié pour libérer les divinités supérieures (Anu, Enlil, Enki) du fardeau du travail, délégué aux hommes. En Mésopotamie, les dieux sont capricieux et terrifiants. Le récit mésopotamien du Déluge (le Mythe d'Atrahasis), racontant la colère divine noyant l'humanité, sera repris plus tard dans la Bible biblique.",
+  "diplomatie": "La géopolitique babylonienne et assyrienne alterne entre alliances marchandes avec les Anatoliens et guerre de terreur. Les puissants empires militaristes du Nord (Assyrie) dominent par la guerre de siège (béliers, sapeurs) et la déportation massive (exil de la population à des milliers de kilomètres) pour effacer l'identité culturelle des vaincus et éviter les rébellions.",
+  "documentaires": [{ "titre": "L'épopée de la Mésopotamie", "url": "https://fr.wikipedia.org/wiki/M%C3%A9sopotamie" }]
+}

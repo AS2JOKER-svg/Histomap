@@ -1,0 +1,49 @@
+{
+  "id": "songhai-mod",
+  "label": "Empire Songhaï (Apogée)",
+  "tier": 1,
+  "region": "afrique-ouest",
+  "period": "1492 à 1591",
+  "start": 1492,
+  "end": 1591,
+  "trackId": "afrique_ouest",
+  "row": 1,
+  "isRiver": true,
+  "capitale": "Gao",
+  "description": "L'âge d'or intellectuel et impérial de l'Afrique de l'Ouest, brisé par l'arrivée des armes à feu traversant le Sahara.",
+  "territories": ["Songhai"],
+  "datesCles": [
+    {
+      "annee": 1493,
+      "evenement": "Dynastie des Askia",
+      "info": "Sonni Ali Ber est mort fin 1492. En 1493, Askia Mohammed bat son fils Sonni Baro à Anfao, prend le pouvoir et renforce la place de l'islam dans l'État."
+    },
+    { "annee": 1591, "evenement": "L'Invasion marocaine", "info": "Fin de l'Empire suite à la bataille de Tondibi." }
+  ],
+  "dirigeants": [{ "titre": "Empereur (Askia)", "nom": "Askia Mohammed Ier", "surnom": "Le Grand", "debut": 1493, "fin": 1528 }],
+  "personnages": [
+    {
+      "nom": "Ahmed Baba",
+      "role": "Savant et Grand Mufti",
+      "description": "Le plus grand intellectuel de Tombouctou, auteur de dizaines d'ouvrages, surtout de droit islamique et de biographies de savants, déporté lors de l'invasion marocaine.",
+      "dates": "1556 à 1627",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Ahmed_Baba"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Bataille de Tondibi",
+      "annee": 1591,
+      "adversaires": ["Sultanat Saadien (Maroc, mené par Djouder Pacha, eunuque d'origine espagnole au service du sultan)"],
+      "allies": [],
+      "morts": "La cavalerie d'élite Songhaï est fauchée",
+      "vainqueur": "Sultanat du Maroc",
+      "consequences": "Les arquebuses marocaines détruisent les lances et les épées de la cavalerie Songhaï. Tombouctou et Gao sont saccagées, l'Empire est démembré.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Tondibi"
+    }
+  ],
+  "sciences": "Le règne d'Askia Mohammed voit une organisation de l'État remarquable pour l'époque : introduction de poids et mesures officiels unifiés pour sécuriser le commerce de l'or et du sel, création d'un corps d'inspecteurs des marchés, et approfondissement d'un réseau complexe de canaux d'irrigation sur les rives du fleuve Niger.",
+  "croyancesText": "L'empire renoue pleinement avec l'Islam diplomatique et sunnite. Le pèlerinage de l'Askia Mohammed à La Mecque, accompagné d'une fortune de 300 000 pièces d'or (dont une partie seulement est distribuée en aumônes), a pour but d'obtenir la validation du Calife du Caire pour être reconnu comme 'Lieutenant du Calife au Soudan', asseyant son autorité légale sur tous les musulmans de la région.",
+  "diplomatie": "Le pouvoir royal passe d'un règne de conquêtes (sous les Sonni) à une vaste administration avec des dignitaires spécialisés (finances, agriculture, flotte). Le territoire est divisé en provinces confiées à des gouverneurs (Fari) nommés par l'Askia. Toutefois, la puissance du Songhaï attire la convoitise du redoutable Sultanat Saadien du Maroc, désireux de s'emparer des mines d'or et des mines de sel gemme de Teghazza pour renflouer ses caisses après la bataille des Trois Rois.",
+  "documentaires": [{ "titre": "La chute de l'Empire Songhaï", "url": "https://fr.wikipedia.org/wiki/Empire_songha%C3%AF" }]
+}

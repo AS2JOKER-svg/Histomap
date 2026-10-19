@@ -1,0 +1,72 @@
+{
+  "id": "france-capet",
+  "label": "France (Capétiens)",
+  "tier": 1,
+  "region": "europe-ouest",
+  "period": "987 à 1492",
+  "start": 987,
+  "end": 1492,
+  "trackId": "france",
+  "row": 2,
+  "isRiver": false,
+  "capitale": "Paris",
+  "description": "La lente construction de l'État français, l'essor des cathédrales gothiques et le traumatisme fondateur de la Guerre de Cent Ans.",
+  "territories": ["Kingdom of France", "France"],
+  "datesCles": [
+    {
+      "annee": 987,
+      "evenement": "Hugues Capet",
+      "info": "Élection de Hugues Capet au trône, début d'une dynastie ininterrompue de 8 siècles."
+    },
+    {
+      "annee": 1214,
+      "evenement": "Bataille de Bouvines",
+      "info": "Philippe Auguste écrase une coalition impériale et anglaise, sauvant la nation."
+    },
+    {
+      "annee": 1307,
+      "evenement": "Arrestation des Templiers",
+      "info": "Philippe le Bel détruit le puissant ordre financier et militaire du Temple."
+    },
+    {
+      "annee": 1429,
+      "evenement": "Siège d'Orléans",
+      "info": "Jeanne d'Arc libère la ville et inverse le cours de la guerre de Cent Ans."
+    }
+  ],
+  "dirigeants": [
+    { "titre": "Roi de France", "nom": "Philippe II", "surnom": "Auguste", "debut": 1180, "fin": 1223 },
+    { "titre": "Roi de France", "nom": "Louis IX", "surnom": "Saint Louis", "debut": 1226, "fin": 1270 },
+    { "titre": "Roi de France", "nom": "Charles VII", "surnom": "Le Victorieux", "debut": 1422, "fin": 1461 }
+  ],
+  "personnages": [
+    {
+      "nom": "Jeanne d'Arc",
+      "role": "Chef de guerre et sainte",
+      "description": "Paysanne visionnaire qui mena victorieusement les troupes françaises contre l'Angleterre avant d'être brûlée vive à 19 ans.",
+      "dates": "1412 à 1431",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Jeanne_d'Arc"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerre de Cent Ans",
+      "annee": 1337,
+      "adversaires": ["Royaume d'Angleterre", "Duché de Bourgogne"],
+      "allies": ["Royaume d'Écosse"],
+      "morts": "Des millions (guerre + peste noire)",
+      "vainqueur": "France (Dynastie des Valois)",
+      "consequences": "Les Anglais sont expulsés du continent (sauf Calais). L'armée française devient permanente et professionnelle (Francs-archers, artillerie de bureau).",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_de_Cent_Ans"
+    }
+  ],
+  "sciences": "Le temps des bâtisseurs de cathédrales : la France invente l'art gothique (arc brisé, croisée d'ogives, arcs-boutants) permettant des bâtiments vertigineux baignés de lumière (Notre-Dame, Reims). Paris devient la capitale intellectuelle de la chrétienté avec la fondation de l'Université de la Sorbonne (1257).",
+  "croyancesText": "Le roi de France est sacré à Reims avec l'huile de la Sainte Ampoule, faisant de lui un 'Roi Thaumaturge' (censé guérir les écrouelles par simple toucher). La foi est omniprésente, poussant la monarchie à financer de grandes croisades en Orient, mais aussi à mener la brutale Croisade des Albigeois contre les hérétiques cathares dans le sud du royaume.",
+  "diplomatie": "Au départ, le roi de France n'est qu'un seigneur parmi d'autres, moins puissant que ses propres vassaux (comme les Ducs de Normandie). La diplomatie capétienne (notamment sous Philippe Auguste et Philippe le Bel) est une politique de centralisation féroce : mariages arrangés, confiscation de fiefs et guerres pour remplacer la féodalité éclatée par un État royal fort doté d'impôts permanents.",
+  "documentaires": [
+    {
+      "titre": "La Guerre de Cent Ans (Série Documentaire)",
+      "url": "https://fr.wikipedia.org/wiki/Cap%C3%A9tiens"
+    }
+  ]
+}

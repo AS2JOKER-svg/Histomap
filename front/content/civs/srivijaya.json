@@ -1,0 +1,51 @@
+{
+  "id": "srivijaya",
+  "label": "Empire de Srivijaya",
+  "tier": 1,
+  "region": "asie-sud-est-insulaire",
+  "period": "650 à 1377",
+  "start": 650,
+  "end": 1377,
+  "color": "#009688",
+  "trackId": "indonesie",
+  "row": 8,
+  "isRiver": false,
+  "capitale": "Palembang (Sumatra)",
+  "description": "Puissante confédération maritime (Indonésie/Malaisie) tenant en otage le détroit de Malacca et s'enrichissant du commerce mondial des épices fines.",
+  "territories": ["Srivijaya Empire"],
+  "datesCles": [
+    {
+      "annee": 682,
+      "evenement": "Inscription de Kedukan Bukit",
+      "info": "Elle relate une expédition de 20 000 soldats menée par le souverain. Les serments de fidélité sont connus par d'autres inscriptions (Telaga Batu, Kota Kapur en 686)."
+    },
+    {
+      "annee": 687,
+      "evenement": "Pôle d'éducation",
+      "info": "Le pèlerin chinois Yijing (I-Tsing), qui y séjourne entre 671 et 695, décrit un centre bouddhiste accueillant plus de 1000 moines."
+    },
+    {
+      "annee": 1025,
+      "evenement": "Le raid indien",
+      "info": "L'empire Chola ravage 14 ports d'Indonésie, brisant le monopole naval de Srivijaya."
+    }
+  ],
+  "dirigeants": [{ "titre": "Maharaja", "nom": "Balaputradewa", "debut": 850, "fin": 860 }],
+  "personnages": [],
+  "guerres": [
+    {
+      "nom": "Invasion des Chola",
+      "annee": 1025,
+      "adversaires": ["Empire Chola (Inde du Sud)"],
+      "allies": [],
+      "morts": "Effondrement économique du réseau",
+      "vainqueur": "Empire Chola",
+      "consequences": "Exaspérés par les taxes de Srivijaya, les navires de guerre de l'Inde du sud attaquent par surprise et pillent la capitale, marquant le déclin de l'Indonésie médiévale.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Srivijaya"
+    }
+  ],
+  "sciences": "Empire de navigateurs d'élite, ils utilisent des 'outriggers' (bateaux à balanciers) cousus avec de la fibre de palme (sans clous de métal, qui rouilleraient sous les tropiques). Ils maîtrisent parfaitement la complexe logistique des vents de mousson, stockant les marchandises chinoises et indiennes dans d'énormes entrepôts pendant les mois d'attente du changement de vent.",
+  "croyancesText": "L'État parraine lourdement le bouddhisme, surtout mahayana (avec des éléments tantriques). Palembang devient le centre international obligatoire où les moines de l'Inde orientale, du Tibet et de la Chine viennent séjourner des années pour y étudier la traduction des écritures sacrées sanskrites avant de continuer leur voyage mystique.",
+  "diplomatie": "C'est une thalassocratie (puissance maritime). Srivijaya dispose de peu de terres agricoles et tire l'essentiel de sa richesse du commerce. Ses flottes contrôlent les détroits de Malacca et de la Sonde et incitent les navires marchands circulant entre la Perse, l'Inde et la Chine à faire escale dans ses ports, où ils paient des taxes.",
+  "documentaires": [{ "titre": "L'Empire marchand de Srivijaya", "url": "https://fr.wikipedia.org/wiki/Srivijaya" }]
+}

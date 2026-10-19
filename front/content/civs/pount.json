@@ -1,0 +1,43 @@
+{
+  "id": "pount",
+  "label": "Royaume de Pount",
+  "tier": 1,
+  "region": "corne-afrique",
+  "period": "-2500 à -1000",
+  "start": -2500,
+  "end": -1000,
+  "color": "#dfb134",
+  "trackId": "pount",
+  "row": 6,
+  "isRiver": false,
+  "capitale": "Inconnue",
+  "description": "L'Eldorado de l'Antiquité, royaume mystérieux de la Corne de l'Afrique, grand fournisseur de myrrhe et d'encens pour les temples égyptiens.",
+  "territories": [],
+  "datesCles": [
+    {
+      "annee": -2480,
+      "evenement": "Première expédition égyptienne",
+      "info": "Le pharaon Sahourê envoie la première flotte documentée vers Pount."
+    },
+    {
+      "annee": -1473,
+      "evenement": "L'expédition d'Hatchepsout",
+      "info": "Mission monumentale immortalisée sur les murs du temple de Deir el-Bahari."
+    }
+  ],
+  "dirigeants": [{ "titre": "Roi", "nom": "Parahou", "debut": -1480, "fin": -1470 }],
+  "personnages": [
+    {
+      "nom": "Reine Ati",
+      "role": "Souveraine de Pount",
+      "description": "Représentée sur les bas-reliefs égyptiens avec une silhouette très particulière (certains y voient une possible stéatopygie, mais l'interprétation reste prudente), elle accueille l'expédition égyptienne.",
+      "dates": "≈ -1473",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Pays_de_Pount"
+    }
+  ],
+  "guerres": [],
+  "sciences": "Leur maîtrise de l'extraction, du bouturage et du conditionnement des résines aromatiques d'arbres endémiques (Boswellia pour l'encens, Commiphora pour la myrrhe) en faisait les maîtres d'une proto-industrie du luxe, indispensable à l'embaumement et aux liturgies du monde antique nord-africain.",
+  "croyancesText": "Pour les Égyptiens, Pount était 'Ta Nétjer', le Pays des Dieux. C'était la terre mythique d'où provenaient les dieux Hathor et Bès, et la patrie de la myrrhe, considérée comme les 'larmes des dieux'. Les rituels de Pount incluaient vraisemblablement un culte animiste axé sur l'abondance des ressources de la savane.",
+  "diplomatie": "C'est l'un des premiers partenariats commerciaux pacifiques documentés de l'histoire. Les Égyptiens apportaient des armes, des bijoux et des amulettes, échangés contre des arbres à encens avec leurs racines, de l'or, des peaux de panthères, du bois d'ébène et des babouins sacrés. Il n'y a aucune trace de tentative de conquête militaire.",
+  "documentaires": [{ "titre": "Le fabuleux pays de Pount", "url": "https://fr.wikipedia.org/wiki/Pays_de_Pount" }]
+}

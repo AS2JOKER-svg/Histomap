@@ -1,0 +1,84 @@
+{
+  "id": "ottomans",
+  "label": "Empire ottoman",
+  "tier": 1,
+  "region": "anatolie",
+  "period": "1492 à 1789",
+  "start": 1492,
+  "end": 1789,
+  "trackId": "ottomans",
+  "row": 1,
+  "isRiver": false,
+  "capitale": "Istanbul (Constantinople)",
+  "description": "Superpuissance islamique turque dominant la Méditerranée, l'Europe de l'Est et l'Afrique du Nord, terrifiant les rois chrétiens par sa redoutable armée de Janissaires.",
+  "territories": ["Ottoman Empire"],
+  "datesCles": [
+    {
+      "annee": 1517,
+      "evenement": "Prise de l'Égypte et du Califat",
+      "info": "Selim Ier s'empare du Caire et rapatrie le titre sacré de Calife à Istanbul."
+    },
+    {
+      "annee": 1529,
+      "evenement": "Premier siège de Vienne",
+      "info": "L'armée de Soliman fait trembler l'Europe mais doit rebrousser chemin avant l'hiver."
+    },
+    {
+      "annee": 1571,
+      "evenement": "Bataille de Lépante",
+      "info": "La Sainte-Ligue (Sainte-Alliance chrétienne) détruit la flotte ottomane, freinant leur expansion maritime."
+    },
+    {
+      "annee": 1683,
+      "evenement": "Deuxième siège de Vienne",
+      "info": "Défaite décisive face à la Pologne, marquant l'arrêt total des conquêtes territoriales."
+    }
+  ],
+  "dirigeants": [
+    { "titre": "Sultan et Calife", "nom": "Selim Ier", "surnom": "Le Terrible", "debut": 1512, "fin": 1520 },
+    {
+      "titre": "Sultan et Calife",
+      "nom": "Soliman",
+      "surnom": "Le Magnifique / Le Législateur",
+      "debut": 1520,
+      "fin": 1566
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Mimar Sinan",
+      "role": "L'Architecte impérial",
+      "description": "Le Michel-Ange ottoman, ingénieur de génie ayant construit plus de 300 ponts, aqueducs et les sublimes mosquées à grand dôme (Mosquée Bleue, Süleymaniye).",
+      "dates": "1489 à 1588",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Mimar_Sinan"
+    },
+    {
+      "nom": "Roxelane (Hürrem Sultan)",
+      "role": "Sultane (Haseki)",
+      "description": "Esclave ruthène devenue l'épouse légitime et conseillère politique toute puissante de Soliman.",
+      "dates": "≈ 1502 à 1558",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Roxelane"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Bataille de Mohács",
+      "annee": 1526,
+      "adversaires": ["Royaume de Hongrie"],
+      "allies": [],
+      "morts": "La chevalerie hongroise anéantie",
+      "vainqueur": "Ottomans (Soliman)",
+      "consequences": "Le roi de Hongrie Louis II meurt noyé dans un marécage. La Hongrie est rayée de la carte et absorbée, ouvrant la route vers Vienne.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Moh%C3%A1cs_(1526)"
+    }
+  ],
+  "sciences": "Leur génie est poliorcétique et balistique : ils industrialisent la fonte d'immenses canons de siège ('Les Basilics') capables d'abattre les murailles médiévales. Sur le plan institutionnel, Soliman rédige le 'Kanun' (le code de droit séculier) modernisant l'administration fiscale et pénale en parallèle de la Sharia religieuse.",
+  "croyancesText": "Bastion de l'Islam sunnite, l'Empire est d'une très grande diversité. Pour gouverner chrétiens des Balkans et juifs, ils officialisent le 'Système des Millets' : chaque communauté religieuse gère son propre droit civil, ses écoles et son clergé, en échange d'un impôt de capitation (Jizya). La Cour de Topkapi est elle-même un creuset ethnique, la plupart des mères de sultans et des Grands Vizirs étant d'origine européenne balkanique (convertis).",
+  "diplomatie": "Leur outil de pouvoir absolu est le 'Devşirme' (le ramassage) : des enfants chrétiens des Balkans sont arrachés à leur famille, islamisés, et éduqués dans l'ascèse totale pour devenir soit de hauts fonctionnaires fidèles, soit les 'Janissaires' (l'infanterie d'élite au mousquet, l'armée la plus disciplinée d'Europe). Sur le plan international, la France de François Ier est leur grand allié stratégique contre les Habsbourg.",
+  "documentaires": [
+    {
+      "titre": "Soliman le Magnifique, le sultan qui fit trembler l'Europe",
+      "url": "https://fr.wikipedia.org/wiki/Soliman_le_Magnifique"
+    }
+  ]
+}

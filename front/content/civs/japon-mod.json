@@ -1,0 +1,73 @@
+{
+  "id": "japon-mod",
+  "label": "Japon (Époque d'Edo)",
+  "tier": 1,
+  "region": "japon",
+  "period": "1603 à 1868",
+  "start": 1603,
+  "end": 1868,
+  "trackId": "japon",
+  "row": 5,
+  "isRiver": false,
+  "capitale": "Edo (Tokyo)",
+  "description": "Après un siècle de massacres, la dictature de Tokugawa verrouille l'archipel dans une paix de fer. Plus d'étrangers, plus d'armes à feu, place à l'art et au sabre.",
+  "territories": ["Tokugawa shogunate", "Japan"],
+  "datesCles": [
+    {
+      "annee": 1600,
+      "evenement": "Bataille de Sekigahara",
+      "info": "Ieyasu Tokugawa écrase la coalition de l'Ouest, marquant la fin des guerres civiles."
+    },
+    {
+      "annee": 1603,
+      "evenement": "Shogunat Tokugawa",
+      "info": "L'Empereur nomme Tokugawa shogun (dictateur militaire héréditaire) du Japon."
+    },
+    {
+      "annee": 1639,
+      "evenement": "Fermeture du pays (Sakoku)",
+      "info": "Le pays se ferme progressivement dans les années 1630 : les Japonais ont interdiction de quitter l'archipel sous peine de mort, et les Portugais sont expulsés en 1639."
+    }
+  ],
+  "dirigeants": [
+    { "titre": "Shogun", "nom": "Tokugawa Ieyasu", "debut": 1603, "fin": 1605 },
+    { "titre": "Shogun", "nom": "Tokugawa Tsunayoshi", "surnom": "Le Shogun des Chiens", "debut": 1680, "fin": 1709 }
+  ],
+  "personnages": [
+    {
+      "nom": "Miyamoto Musashi",
+      "role": "Le Saint au Sabre",
+      "description": "Samouraï errant (rōnin) invaincu en 60 duels mortels, fondateur d'une école d'escrime à deux sabres et auteur du célèbre 'Traité des cinq roues'.",
+      "dates": "1584 à 1645",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Miyamoto_Musashi"
+    },
+    {
+      "nom": "Katsushika Hokusai",
+      "role": "Artiste peintre",
+      "description": "Le maître incontesté de l'estampe japonaise, auteur au début du 19ème de 'La Grande Vague de Kanagawa'.",
+      "dates": "1760 à 1849",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Hokusai"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Bataille de Sekigahara",
+      "annee": 1600,
+      "adversaires": ["L'Armée de l'Ouest (Fidèles de Toyotomi)"],
+      "allies": ["L'Armée de l'Est (Tokugawa)"],
+      "morts": "Environ 30 000 morts au combat",
+      "vainqueur": "Tokugawa Ieyasu",
+      "consequences": "La plus grande bataille de l'histoire du Japon. La paix de Tokugawa fige la classe des samouraïs, qui se transforme en caste de bureaucrates lettrés.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Sekigahara"
+    }
+  ],
+  "sciences": "Sans guerre, la société s'urbanise. Edo (Tokyo) devient en 1700 la plus grande ville du monde (1 million d'habitants), hyper-propre et sans épidémie grâce à un système sophistiqué de recyclage des déchets (transformés en engrais payant pour les paysans). Ils maîtrisent parfaitement la xilographie polychrome (gravure sur bois permettant d'imprimer l'art Ukiyo-e) et un enseignement mathématique unique et esthétique (le Sangaku).",
+  "croyancesText": "L'ordre social est sanctifié par le Néo-confucianisme (Système Shinōkōshō) classant la société : Samouraïs (seuls autorisés à porter deux sabres), Paysans, Artisans, puis Marchands (au bas de l'échelle car vus comme parasites). Le Christianisme est considéré comme une arme politique occidentale : après la révolte catholique de Shimabara en 1637, il est brutalement interdit, les prêtres martyrisés (Fumi-e).",
+  "diplomatie": "C'est l'époque du 'Sakoku' (le pays enchaîné). Seuls les marchands de la VOC (Hollande) ont le droit de commercer une fois par an sur la minuscule île artificielle de Dejima à Nagasaki, car ils ne font pas de prosélytisme catholique. Pour ruiner et empêcher ses seigneurs (Daimyos) de se rebeller, le Shogun crée le 'Sankin-kōtai' : ils sont obligés de vivre une année sur deux à Edo, laissant leurs familles en otage le reste du temps.",
+  "documentaires": [
+    {
+      "titre": "Le Japon : Les heures de gloire d'Edo",
+      "url": "https://fr.wikipedia.org/wiki/%C3%89poque_d%27Edo"
+    }
+  ]
+}

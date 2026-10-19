@@ -1,0 +1,71 @@
+{
+  "id": "reconquista-royaumes",
+  "label": "Royaumes de la Reconquista",
+  "tier": 1,
+  "region": "peninsule-iberique",
+  "period": "718 à 1492",
+  "start": 718,
+  "end": 1492,
+  "trackId": "iberie_nord",
+  "row": 9,
+  "isRiver": false,
+  "capitale": "Léon / Tolède / Burgos",
+  "description": "Les petits royaumes chrétiens réfugiés dans les montagnes du nord (Castille, Aragon) devenant peu à peu la féroce machine de guerre de l'Espagne moderne.",
+  "territories": ["Asturias", "León", "Castilla", "Castile", "Castille", "Aragón", "Navarre", "Portugal"],
+  "datesCles": [
+    {
+      "annee": 718,
+      "evenement": "Bataille de Covadonga",
+      "info": "Vers 718-722 (date discutée), Pélage repousse un raid musulman dans les montagnes des Asturies."
+    },
+    {
+      "annee": 1085,
+      "evenement": "Prise de Tolède",
+      "info": "Alphonse VI reprend l'ancienne capitale wisigothe au centre de la péninsule."
+    },
+    {
+      "annee": 1212,
+      "evenement": "Las Navas de Tolosa",
+      "info": "La coalition chrétienne écrase les troupes almohades."
+    },
+    {
+      "annee": 1469,
+      "evenement": "Le Mariage",
+      "info": "Isabelle de Castille épouse Ferdinand d'Aragon. C'est une union personnelle : les deux couronnes gardent leurs propres lois et institutions."
+    },
+    {
+      "annee": 1492,
+      "evenement": "La prise de Grenade",
+      "info": "Fin de la Reconquista chrétienne. (La même année, Colomb part pour les Amériques)."
+    }
+  ],
+  "dirigeants": [
+    { "titre": "Roi de Castille", "nom": "Alphonse VIII", "surnom": "Le Noble", "debut": 1158, "fin": 1214 },
+    { "titre": "Reine et Roi (Catholiques)", "nom": "Isabelle & Ferdinand", "debut": 1474, "fin": 1504 }
+  ],
+  "personnages": [
+    {
+      "nom": "Le Cid (Rodrigo Díaz de Vivar)",
+      "role": "Chevalier / Mercenaire",
+      "description": "Héros de l'épopée espagnole, il servit autant les rois chrétiens que les émirs musulmans, se taillant une principauté à Valence.",
+      "dates": "Vers 1043 à 1099",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Rodrigo_D%C3%ADaz_de_Vivar"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerre de Grenade",
+      "annee": 1482,
+      "adversaires": ["Royaume nasride de Grenade (Boabdil)"],
+      "allies": ["Couronne de Castille", "Couronne d'Aragon"],
+      "morts": "Fin de l'Al-Andalus",
+      "vainqueur": "Rois Catholiques",
+      "consequences": "Capitulation par traité. L'Espagne est réunifiée. Peu après, la monarchie expulsera les Juifs et forcera la conversion des musulmans (Morisques).",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_de_Grenade"
+    }
+  ],
+  "sciences": "Leur génie est poliorcétique (guerre de siège) et naval. Aragon et la Catalogne développent une flotte puissante (les galères catalanes) et l'une des cartographies les plus précises du monde. En reprenant les villes musulmanes (comme Tolède), ils mettent la main sur les immenses bibliothèques arabes et créent l'École de traduction de Tolède, transférant les mathématiques et la philosophie vers le latin.",
+  "croyancesText": "C'est une société de frontière justifiant sa violence territoriale par la théologie de la Croisade perpétuelle. L'Église structure la société autour du culte de Santiago Matamoros (Saint Jacques le Tueur de Maures), patron protecteur, et de la création de violents ordres militaires nationaux de moines-soldats (Ordre de Calatrava et de Santiago) inspirés des Templiers.",
+  "diplomatie": "La Reconquista n'est pas un front uni continu. Les royaumes chrétiens (Léon, Castille, Navarre, Portugal, Aragon) se font la guerre entre eux autant qu'aux musulmans, via des successions dynastiques empoisonnées. Le mariage secret des 'Rois Catholiques' (Isabelle et Ferdinand) en 1469 rapproche la Castille et l'Aragon : c'est une union personnelle, chaque couronne gardant ses lois, mais leur politique commune fait de l'Espagne une puissance redoutée en Europe.",
+  "documentaires": [{ "titre": "La Reconquista : La fabrique de l'Espagne", "url": "https://fr.wikipedia.org/wiki/Reconquista" }]
+}

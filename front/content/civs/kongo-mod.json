@@ -1,0 +1,66 @@
+{
+  "id": "kongo-mod",
+  "label": "Royaume du Kongo (Christianisé)",
+  "tier": 1,
+  "region": "afrique-centrale",
+  "period": "1492 à 1789",
+  "start": 1492,
+  "end": 1789,
+  "trackId": "afrique_centrale",
+  "row": 3,
+  "isRiver": true,
+  "capitale": "Mbanza Kongo (San Salvador)",
+  "description": "Un royaume subsaharien choisissant librement de se christianiser, tentant de traiter d'égal à égal avec l'Europe avant d'être broyé par les trafiquants d'esclaves portugais.",
+  "territories": ["Congo"],
+  "datesCles": [
+    {
+      "annee": 1518,
+      "evenement": "Un évêque kongo",
+      "info": "Le fils du roi du Kongo, Henrique, est nommé évêque (titulaire d'Utique) par le pape, l'un des tout premiers évêques d'Afrique subsaharienne."
+    },
+    {
+      "annee": 1526,
+      "evenement": "Les lettres d'Afonso",
+      "info": "L'empereur implore le roi du Portugal de stopper la capture illégale de ses nobles par les esclavagistes."
+    },
+    {
+      "annee": 1665,
+      "evenement": "Bataille d'Ambuila",
+      "info": "Le roi du Kongo est décapité par les colons portugais d'Angola."
+    },
+    {
+      "annee": 1704,
+      "evenement": "Révolution Antonianiste",
+      "info": "Kimpa Vita lance un mouvement religieux qui appelle à repeupler l'ancienne capitale et à réunifier le royaume."
+    }
+  ],
+  "dirigeants": [
+    { "titre": "Manikongo (Roi)", "nom": "Afonso Ier", "surnom": "Nzinga Mvemba", "debut": 1509, "fin": 1542 },
+    { "titre": "Manikongo", "nom": "António Ier", "surnom": "Nvita a Nkanga", "debut": 1661, "fin": 1665 }
+  ],
+  "personnages": [
+    {
+      "nom": "Kimpa Vita (Dona Beatriz)",
+      "role": "Prophétesse",
+      "description": "Sorte de Jeanne d'Arc congolaise. Se disant possédée par Saint Antoine, elle prêche un christianisme africain (où le Christ serait né au Kongo) pour réunifier l'État, avant d'être brûlée vive en 1706.",
+      "dates": "1684 à 1706",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Kimpa_Vita"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Bataille d'Ambuila",
+      "annee": 1665,
+      "adversaires": ["Colonie portugaise d'Angola"],
+      "allies": [],
+      "morts": "Anéantissement de la noblesse",
+      "vainqueur": "Portugal",
+      "consequences": "Refusant de céder des mines d'or, le roi António est vaincu et décapité. Sa tête est ramenée en triomphe à Luanda. Le royaume sombre dans une anarchie féodale de 40 ans.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_d'Ambuila"
+    }
+  ],
+  "sciences": "Le royaume crée un véritable syncrétisme intellectuel afro-européen. Une partie de la haute noblesse s'alphabétise en portugais et en latin. Ils réorganisent l'administration de l'État en copiant les titres de noblesse européens (Ducs, Comtes, Marquis) plaqués sur les structures de parenté matrilinéaires traditionnelles.",
+  "croyancesText": "Le christianisme du Kongo n'est pas imposé par la force, c'est une appropriation d'État. Les anciens esprits (Nkisi) sont assimilés aux saints catholiques, et la Croix devient le nouveau symbole suprême de la magie protectrice royale. Les missionnaires jésuites puis capucins (souvent italiens, envoyés par Rome) accompagnent cette christianisation.",
+  "diplomatie": "Sous Afonso Ier, le roi du Kongo et le roi du Portugal s'appellent 'Frères' dans leurs lettres ; le Kongo fait venir des maîtres d'école, des imprimeurs, des artisans et des arquebuses. Initialement un partenariat, la relation dégénère car la monnaie d'échange exigée par les Portugais pour les armes à feu n'est plus l'ivoire ou le cuivre, mais les esclaves pour les plantations du Brésil. La couronne du Kongo s'épuise à lancer des guerres frontalières interminables pour fournir des captifs, finissant par détruire l'équilibre démographique et moral de son propre royaume.",
+  "documentaires": [{ "titre": "Le Royaume du Kongo", "url": "https://fr.wikipedia.org/wiki/Royaume_du_Kongo" }]
+}

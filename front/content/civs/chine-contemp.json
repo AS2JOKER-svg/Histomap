@@ -1,0 +1,76 @@
+{
+  "id": "chine-contemp",
+  "label": "Chine (République & Populaire)",
+  "tier": 1,
+  "region": "chine",
+  "period": "1789 à 2020",
+  "start": 1789,
+  "end": 2020,
+  "trackId": "chine",
+  "row": 3,
+  "isRiver": true,
+  "capitale": "Pékin",
+  "description": "Le pays a survécu à un 'siècle de la honte' colonial pour fonder un communisme absolu et affamé, devenu depuis les années 80 l'atelier du monde libéralisé.",
+  "territories": ["Manchu Empire", "Qing Empire", "China"],
+  "datesCles": [
+    {
+      "annee": 1839,
+      "evenement": "Guerres de l'Opium",
+      "info": "L'Empire britannique détruit l'armée Qing pour forcer les Chinois à acheter leur opium."
+    },
+    {
+      "annee": 1911,
+      "evenement": "Chute de l'Empire",
+      "info": "Sun Yat-sen met fin à 2000 ans de domination dynastique impériale (République)."
+    },
+    {
+      "annee": 1949,
+      "evenement": "Victoire de Mao",
+      "info": "Fin de la guerre civile. Tchang Kaï-chek (les nationalistes) fuit à Taïwan."
+    },
+    {
+      "annee": 1958,
+      "evenement": "Le Grand Bond en Avant",
+      "info": "Planification maoïste délirante générant la plus grande famine de l'histoire humaine."
+    },
+    {
+      "annee": 1978,
+      "evenement": "Quatre Modernisations",
+      "info": "Deng Xiaoping ouvre au capitalisme l'économie du pays ('Économie socialiste de marché')."
+    }
+  ],
+  "dirigeants": [
+    { "titre": "Le Grand Timonier (Dictateur)", "nom": "Mao Zedong", "debut": 1949, "fin": 1976 },
+    { "titre": "Leader Paramount", "nom": "Deng Xiaoping", "debut": 1978, "fin": 1989 }
+  ],
+  "personnages": [
+    {
+      "nom": "Sun Yat-sen",
+      "role": "Révolutionnaire",
+      "description": "Père de la Chine moderne, auteur des 'Trois principes du peuple' respecté tant par les communistes que par Taïwan.",
+      "dates": "1866 à 1925",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Sun_Yat-sen"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Seconde Guerre sino-japonaise",
+      "annee": 1937,
+      "adversaires": ["Empire du Japon"],
+      "allies": ["Alliés de la Seconde Guerre Mondiale"],
+      "morts": "20 millions de morts chinois",
+      "vainqueur": "République de Chine (et Alliés)",
+      "consequences": "L'horreur de l'invasion impériale nippone (Massacre de Nankin). Les communistes de Mao utiliseront l'épuisement des forces du gouvernement nationaliste de l'époque pour gagner la guerre civile.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_sino-japonaise_(1937-1945)"
+    }
+  ],
+  "sciences": "Leur rattrapage après 1978 est ahurissant. Partis du vélo et de la boue, ils bâtissent en trente ans les villes côtières géantes de l'exportation mondiale (Shenzhen). Puissance spatiale et technologique ultra-surveillée (reconnaissance faciale et pare-feu d'État), la Chine produit l'essentiel des terres rares mondiales et le plus vaste réseau de trains à grande vitesse jamais construit.",
+  "croyancesText": "Sous Mao, la terrible 'Révolution Culturelle' mobilise la jeunesse (Les Gardes Rouges) via le Petit Livre Rouge pour détruire la mémoire passée : ils saccagent les temples, brûlent l'art ancien et torturent tous les intellectuels et opposants idéologiques (lutte des classes absolue). Aujourd'hui, l'Athéisme du Parti Communiste règne, couplé à une tolérance religieuse très strictement subordonnée à l'ordre public (camps de rééducation de la minorité musulmane Ouïghoure).",
+  "diplomatie": "Effacer l'humiliation des Traités Inégaux du 19ème siècle (où les Européens pillaient leurs ports de la côte est). Après l'isolement maoïste (et la rupture de leur alliance avec l'URSS soviétique), le pays a rejoint l'OMC (2001) et utilise les milliards de ses excédents commerciaux pour le projet monumental des 'Nouvelles routes de la soie', visant la suprématie géopolitique en Asie et en Afrique.",
+  "documentaires": [
+    {
+      "titre": "La Chine : Le Siècle de l'humiliation et la vengeance",
+      "url": "https://fr.wikipedia.org/wiki/Histoire_de_la_R%C3%A9publique_populaire_de_Chine"
+    }
+  ]
+}

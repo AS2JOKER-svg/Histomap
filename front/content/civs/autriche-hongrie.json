@@ -1,0 +1,79 @@
+{
+  "id": "autriche-hongrie",
+  "label": "Autriche-Hongrie",
+  "tier": 1,
+  "region": "europe-centrale",
+  "period": "1789 à 1918",
+  "start": 1789,
+  "end": 1918,
+  "color": "#fbc02d",
+  "trackId": "autriche",
+  "row": 5,
+  "isRiver": false,
+  "capitale": "Vienne",
+  "description": "La 'Mosaïque de peuples'. L'imposant empire conservateur des Habsbourg abritant la plus brillante ébullition intellectuelle d'Europe centrale, foudroyé par les nationalismes.",
+  "territories": ["Austrian Empire", "Austria Hungary", "Austro-Hungarian Empire"],
+  "datesCles": [
+    {
+      "annee": 1815,
+      "evenement": "Le Congrès de Vienne",
+      "info": "L'Autriche de Metternich redessine la carte de l'Europe après la chute de Napoléon."
+    },
+    {
+      "annee": 1867,
+      "evenement": "Le Compromis",
+      "info": "Pour éviter l'implosion, l'empire se divise en 'Double Monarchie' : l'Autriche et la Hongrie à parts égales."
+    },
+    {
+      "annee": 1914,
+      "evenement": "Attentat de Sarajevo",
+      "info": "L'héritier de l'Empire, François-Ferdinand, est assassiné par Gavrilo Princip, un Serbe de Bosnie lié à des réseaux nationalistes serbes. L'attentat déclenche la Première Guerre mondiale."
+    },
+    {
+      "annee": 1918,
+      "evenement": "Démantèlement",
+      "info": "La défaite disloque l'Empire en plusieurs pays : Autriche, Hongrie, Tchécoslovaquie, Yougoslavie."
+    }
+  ],
+  "dirigeants": [
+    { "titre": "Empereur d'Autriche (Roi de Hongrie)", "nom": "François-Joseph Ier", "debut": 1848, "fin": 1916 },
+    { "titre": "Dernier Empereur", "nom": "Charles Ier", "debut": 1916, "fin": 1918 }
+  ],
+  "personnages": [
+    {
+      "nom": "Impératrice Élisabeth",
+      "role": "Sissi",
+      "description": "L'impératrice martyre et dépressive, refusant le protocole archaïque de Vienne, grande protectrice de la nation hongroise.",
+      "dates": "1837 à 1898",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/%C3%89lisabeth_en_Bavi%C3%A8re"
+    },
+    {
+      "nom": "Sigmund Freud",
+      "role": "Médecin et Neurologue",
+      "description": "Inventeur de la psychanalyse au sein de la foisonnante Vienne de la fin de siècle.",
+      "dates": "1856 à 1939",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Sigmund_Freud"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Bataille de Sadowa",
+      "annee": 1866,
+      "adversaires": ["Royaume de Prusse (Bismarck)"],
+      "allies": ["Saxe, Bavière"],
+      "morts": "Pertes stratégiques catastrophiques",
+      "vainqueur": "Prusse",
+      "consequences": "Bismarck expulse définitivement l'Autriche des affaires allemandes, laissant le champ libre à la création de l'Empire Allemand quelques années plus tard.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_austro-prussienne"
+    }
+  ],
+  "sciences": "La 'Vienne fin de siècle' est la capitale mondiale de la modernité artistique et scientifique, un bouillon de culture (Klimt, Mahler, Freud, Zweig). Scientifiquement, Gregor Mendel (un moine morave de l'Empire) fonde la génétique moderne avec ses lois sur les petits pois, et Ignaz Semmelweis impose l'asepsie (lavage des mains) en médecine.",
+  "croyancesText": "L'Empire est le bastion catholique conservateur. Mais sa fragilité et sa richesse viennent de ses formidables minorités. Vienne est l'une des grandes capitales du judaïsme européen, berceau intellectuel du Sionisme théorisé par Theodor Herzl (visant à créer un État juif face à la montée de l'antisémitisme en Europe).",
+  "diplomatie": "Diriger 50 millions d'habitants parlant une dizaine de langues reconnues, au statut variable selon les régions (allemand, hongrois, tchèque, croate, polonais…) sous une monarchie germanophone est un numéro d'équilibriste mortel. L'éveil de l'idée de 'Nation' en Europe rend ce système caduc. En s'alliant militairement avec l'Allemagne (La Duplice), Vienne condamne son destin à celui de Berlin lors de la Première Guerre mondiale.",
+  "documentaires": [
+    {
+      "titre": "L'Empire Austro-Hongrois, le crépuscule des Habsbourg",
+      "url": "https://fr.wikipedia.org/wiki/Autriche-Hongrie"
+    }
+  ]
+}

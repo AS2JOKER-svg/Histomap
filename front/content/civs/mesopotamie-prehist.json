@@ -1,0 +1,44 @@
+{
+  "id": "mesopotamie-prehist",
+  "label": "Mésopotamie pré-urbaine",
+  "tier": 1,
+  "region": "mesopotamie",
+  "period": "-10 000 à -3 500",
+  "start": -10000,
+  "end": -3500,
+  "trackId": "mesopotamie",
+  "row": 2,
+  "isRiver": true,
+  "capitale": "Croissant fertile (Eridu, Uruk)",
+  "description": "Le creuset de la civilisation urbaine : du premier village agricole à l'émergence des villes-États colossales de Sumer.",
+  "territories": ["Ubaid", "Levantine Corridor (Neolithic Farmers)", "Amuq D", "Ghassul"],
+  "datesCles": [
+    {
+      "annee": -9000,
+      "evenement": "Révolution agricole",
+      "info": "Première domestication du blé et des moutons sur les piémonts du Croissant fertile (Levant, Taurus, Zagros), en bordure de la plaine mésopotamienne."
+    },
+    {
+      "annee": -6000,
+      "evenement": "Culture de Halaf",
+      "info": "Villages circulaires et céramique peinte de haute qualité dans le nord de la Mésopotamie."
+    },
+    {
+      "annee": -5400,
+      "evenement": "Période d'Obeïd",
+      "info": "Premiers temples, apparition de l'irrigation complexe dans les marécages du Sud."
+    },
+    {
+      "annee": -3500,
+      "evenement": "Essor d'Uruk",
+      "info": "Vers -3500, Uruk devient l'une des premières grandes villes du monde."
+    }
+  ],
+  "dirigeants": [],
+  "personnages": [],
+  "guerres": [],
+  "sciences": "Le Sud mésopotamien (le pays de Sumer) est un marécage infertile sans pluie. Le génie de la période d'Obeïd est d'avoir inventé l'irrigation artificielle à grande échelle en canalisant le Tigre et l'Euphrate. Pour gérer cette logistique, ils utilisent des jetons d'argile pour compter, ancêtres de l'écriture. Un peu plus tard, à la période d'Uruk (vers -3500), apparaissent le sceau-cylindre (pour sceller les marchandises) et la roue (pour la poterie puis les transports).",
+  "croyancesText": "La religion mésopotamienne se structure autour du Temple (l'É). Chaque ville est la propriété d'un dieu tutélaire (Enki à Eridu, Inanna à Uruk). Le temple n'est pas qu'un lieu de culte, c'est le centre économique de la ville : il stocke les récoltes, gère les terres, emploie des artisans et redistribue la nourriture en période de crise.",
+  "diplomatie": "Durant la fin de cette période (période d'Uruk), la Mésopotamie du Sud devient si puissante qu'elle déploie un vaste réseau de comptoirs coloniaux vers le Nord (Syrie, Anatolie) pour s'approvisionner en bois, pierre et métaux qui font défaut dans leurs plaines de boue. C'est la première mondialisation économique connue.",
+  "documentaires": [{ "titre": "Wikipédia : Période d'Uruk", "url": "https://fr.wikipedia.org/wiki/P%C3%A9riode_d%27Uruk" }]
+}

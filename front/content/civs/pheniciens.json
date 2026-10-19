@@ -1,0 +1,51 @@
+{
+  "id": "pheniciens",
+  "label": "Phéniciens",
+  "tier": 1,
+  "region": "levant",
+  "period": "-1200 à -64",
+  "start": -1200,
+  "end": -64,
+  "color": "#6a1b29",
+  "trackId": "pheniciens",
+  "row": 4,
+  "isRiver": false,
+  "capitale": "Tyr, Sidon, Byblos",
+  "description": "Les plus grands navigateurs et marchands de l'Antiquité, créateurs de l'alphabet moderne et tisseurs d'un réseau économique s'étendant jusqu'en Atlantique.",
+  "territories": [],
+  "datesCles": [
+    {
+      "annee": -1200,
+      "evenement": "L'Alphabet",
+      "info": "Apparition et diffusion d'un système à 22 consonnes remplaçant les milliers de signes cunéiformes."
+    },
+    {
+      "annee": -814,
+      "evenement": "Fondation de Carthage",
+      "info": "L'expansionnisme de Tyr fonde la future reine de la Méditerranée."
+    },
+    {
+      "annee": -332,
+      "evenement": "Siège de Tyr",
+      "info": "Alexandre le Grand construit une digue pour assiéger la cité insulaire réputée imprenable."
+    }
+  ],
+  "dirigeants": [{ "titre": "Roi de Tyr", "nom": "Hiram Ier", "debut": -969, "fin": -936 }],
+  "personnages": [],
+  "guerres": [
+    {
+      "nom": "Siège de Tyr par Alexandre",
+      "annee": -332,
+      "adversaires": ["Macédoine (Alexandre)", "Flottes de Sidon, Byblos et Chypre (ralliées à Alexandre)"],
+      "allies": [],
+      "morts": "8000 citoyens tués, 30 000 esclaves",
+      "vainqueur": "Macédoine",
+      "consequences": "Destruction de la ville et massacre. Déclin définitif de la Phénicie au profit d'Alexandrie d'Égypte.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Tyr_(332_av._J.-C.)"
+    }
+  ],
+  "sciences": "Outre l'invention révolutionnaire de l'alphabet phonétique (diffusé aux Grecs qui y ajouteront les voyelles), les Phéniciens maîtrisent l'industrie chimique du luxe : l'extraction d'un mollusque (le murex) pour créer la pourpre, une teinture violacée inaltérable vendue à prix d'or à toutes les cours royales (jusqu'aux empereurs romains). Ils découvrent également la navigation nocturne via l'étoile Polaire.",
+  "croyancesText": "Culte polythéiste sémitique, vénérant de puissantes entités locales (Baal, Seigneur ; Melqart, dieu protecteur de Tyr ; Astarté, déesse de la fertilité et de la guerre). La pratique occasionnelle de sacrifices de substitution par le feu lors de crises majeures s'exportera et se systématisera dans leur colonie de Carthage.",
+  "diplomatie": "Peuple de cités-États rivales, ils préfèrent la diplomatie commerciale à la guerre territoriale (ils manquent de terres agricoles). Ils offrent le savoir-faire de leurs charpentiers marins et architectes à leurs puissants voisins (le roi Hiram aide le roi Salomon d'Israël à construire son Premier Temple) en échange d'alliances ou d'achats de matières premières (le cèdre du Liban).",
+  "documentaires": [{ "titre": "L'épopée des Phéniciens", "url": "https://fr.wikipedia.org/wiki/Ph%C3%A9niciens" }]
+}

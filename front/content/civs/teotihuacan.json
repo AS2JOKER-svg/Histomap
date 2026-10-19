@@ -1,0 +1,64 @@
+{
+  "id": "teotihuacan",
+  "label": "Teotihuacán",
+  "tier": 1,
+  "region": "mesoamerique",
+  "period": "-100 à vers 550-650",
+  "start": -100,
+  "end": 476,
+  "color": "#117a65",
+  "trackId": "mesoamerique",
+  "row": 1,
+  "isRiver": false,
+  "capitale": "Teotihuacán",
+  "description": "La métropole titanique du plateau mexicain. Cité cosmopolite sans rois identifiés, rayonnant comme le 'Lieu où les dieux sont nés'.",
+  "territories": ["Teotihuacan"],
+  "datesCles": [
+    {
+      "annee": 150,
+      "evenement": "Pyramide du Soleil",
+      "info": "Achèvement du monument central de la cité, aligné sur la course astronomique."
+    },
+    {
+      "annee": 250,
+      "evenement": "La Cité État",
+      "info": "Teotihuacán compte déjà plus de 100 000 habitants (plus grande ville des Amériques)."
+    },
+    {
+      "annee": 378,
+      "evenement": "Entrée maya (L'Entrada)",
+      "info": "Le chef de guerre Siyaj K'ak', lié à Teotihuacán, arrive à Tikal ; le roi Chak Tok Ich'aak meurt le jour même, et Yax Nuun Ayiin devient roi en 379."
+    }
+  ],
+  "dirigeants": [],
+  "personnages": [
+    {
+      "nom": "Siyaj K'ak' (« Le feu est né »)",
+      "role": "Chef de guerre",
+      "description": "Chef de guerre lié à Teotihuacán, arrivé à Tikal en 378. Ce n'est pas un souverain de Teotihuacán : aucun souverain de la cité n'est connu.",
+      "dates": "Arrivée à Tikal en 378",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Siyaj_K%27ak%27"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerre Civile Interne",
+      "annee": 550,
+      "adversaires": ["Factions élitistes internes"],
+      "allies": [],
+      "morts": "Massacre des quartiers nobles",
+      "vainqueur": "Effondrement du système",
+      "consequences": "Vers 550 (entre 550 et 650 selon les sources), le centre de la cité est incendié, peut-être par la population ou une faction rivale. La cité périclite, bien que son influence religieuse ne s'éteigne jamais.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Teotihuac%C3%A1n"
+    }
+  ],
+  "sciences": "C'est l'un des premiers triomphes d'urbanisme géométrique de masse. La ville, traversée par 'l'Allée des Morts' longue d'environ 2,5 km, est divisée en quartiers résidentiels pour étrangers (Zapotèques, Mayas), abritant des ateliers spécialisés. La richesse de la ville repose sur le contrôle absolu et industriel de l'extraction de l'obsidienne (verre volcanique) de Pachuca, utilisée comme l'arme la plus tranchante du monde précolombien.",
+  "croyancesText": "L'art de la ville est paradoxal : on n'y trouve aucune statue de roi glorieux. L'iconographie est surtout consacrée à un dieu de la pluie à lunettes et au Serpent à Plumes, que l'on désigne par les noms aztèques de divinités apparentées (Tlaloc et Quetzalcoatl). La fondation de leurs grands temples s'accompagne de sacrifices : des centaines de guerriers aux mains liées et des animaux prédateurs (pumas, aigles) ont été enterrés au cœur des pyramides.",
+  "diplomatie": "C'est le suzerain brutal et distant de la Mésoamérique. En l'an 378, bien avant les Aztèques, Teotihuacán envoie une expédition militaire à plus de 1000 km dans les jungles mayas. Le roi de Tikal, la plus grande cité maya, meurt le jour de leur arrivée, et Yax Nuun Ayiin, fils d'un personnage nommé « Chouette-Lance-Dards », devient roi en 379, imposant leur style architectural et vestimentaire à la civilisation Maya (le style Talud-Tablero).",
+  "documentaires": [
+    {
+      "titre": "Teotihuacan : Le mystère de la cité des dieux",
+      "url": "https://fr.wikipedia.org/wiki/Teotihuac%C3%A1n"
+    }
+  ]
+}

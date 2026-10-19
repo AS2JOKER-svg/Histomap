@@ -1,0 +1,56 @@
+{
+  "id": "etrusques",
+  "label": "Étrusques",
+  "tier": 1,
+  "region": "italie",
+  "period": "-900 à -264",
+  "start": -900,
+  "end": -264,
+  "color": "#e91e63",
+  "trackId": "etrusques",
+  "row": 2,
+  "isRiver": false,
+  "capitale": "Dodécapole étrusque",
+  "description": "Puissance commerciale, artistique et théocratique raffinée d'Italie centrale qui a gouverné Rome à ses débuts avant d'être engloutie par elle.",
+  "territories": ["Etrurians"],
+  "datesCles": [
+    {
+      "annee": -800,
+      "evenement": "Apogée commerciale",
+      "info": "L'Étrurie domine la mer Tyrrhénienne grâce à son alliance avec Carthage."
+    },
+    {
+      "annee": -616,
+      "evenement": "Rois étrusques à Rome",
+      "info": "La dynastie des Tarquins prend le trône de Rome et l'urbanise profondément."
+    },
+    {
+      "annee": -509,
+      "evenement": "Perte de Rome",
+      "info": "Tarquin le Superbe est chassé, naissance de la République romaine."
+    },
+    {
+      "annee": -396,
+      "evenement": "Chute de Véies",
+      "info": "Rome détruit la grande cité étrusque voisine après un siège de 10 ans."
+    }
+  ],
+  "dirigeants": [{ "titre": "Roi de Clusium", "nom": "Lars Porsenna", "debut": -508, "fin": -490 }],
+  "personnages": [],
+  "guerres": [
+    {
+      "nom": "Guerres romano-étrusques",
+      "annee": -396,
+      "adversaires": ["République Romaine"],
+      "allies": [],
+      "morts": "Inconnu",
+      "vainqueur": "Rome",
+      "consequences": "Annexion cité par cité par Rome, pillage des trésors étrusques et assimilation culturelle totale.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/%C3%89trusques"
+    }
+  ],
+  "sciences": "Grands ingénieurs hydrauliques, ils enseignent à Rome le drainage des marais (la Cloaca Maxima, l'égout géant de Rome, est une œuvre étrusque) et l'utilisation de l'arc de pierre en architecture (véritable fondement des futurs aqueducs romains). Excellents métallurgistes, ils exploitent le fer de l'île d'Elbe pour armer leurs redoutables flottes de pirates et commerçants.",
+  "croyancesText": "C'est une religion de la divination obsessionnelle, l'Etrusca disciplina. Les haruspices lisent le destin de l'État dans les foies des animaux sacrifiés (hépatoscopie) ou dans la trajectoire des éclairs. Leur panthéon (Tinia, Uni, Menrva) sera intégralement 'copié-collé' par Rome (Jupiter, Junon, Minerve). Leurs vastes nécropoles monumentales, peintes de banquets joyeux, célèbrent le culte des ancêtres.",
+  "diplomatie": "L'Étrurie n'est pas un empire centralisé mais une Dodécapole, une ligue religieuse de douze puissantes cités-États (Tarquinia, Cerveteri...). Leur division politique causera leur perte militaire. Alliés à Carthage, ils affrontent les Grecs phocéens lors de la bataille navale d'Alalia (vers -540), au large de la Corse : les Grecs l'emportent peut-être, mais au prix de telles pertes qu'ils abandonnent la Corse ; l'issue réelle reste incertaine.",
+  "documentaires": [{ "titre": "Les Étrusques, précurseurs de Rome", "url": "https://fr.wikipedia.org/wiki/%C3%89trusques" }]
+}

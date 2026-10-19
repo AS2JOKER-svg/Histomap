@@ -1,0 +1,58 @@
+{
+  "id": "aksoum",
+  "label": "Royaume d'Aksoum",
+  "tier": 1,
+  "region": "corne-afrique",
+  "period": "100 à 476",
+  "start": 100,
+  "end": 476,
+  "trackId": "corne_afrique",
+  "row": 4,
+  "isRiver": false,
+  "capitale": "Aksoum",
+  "description": "Puissance commerciale majeure de la mer Rouge et l'un des premiers empires au monde à adopter officiellement le christianisme.",
+  "territories": ["Axum"],
+  "datesCles": [
+    {
+      "annee": 270,
+      "evenement": "Frappe de monnaie",
+      "info": "Aksoum devient l'un des rares royaumes de l'époque à frapper sa propre monnaie d'or."
+    },
+    {
+      "annee": 330,
+      "evenement": "Conversion au Christianisme",
+      "info": "Le roi Ézana fait du christianisme la religion d'État, ce qui le rapproche de l'Empire romain."
+    },
+    {
+      "annee": 350,
+      "evenement": "Expédition d'Ézana vers le Nil",
+      "info": "Le roi Ézana mène une expédition vers le Nil ; le royaume de Méroé (Koush), déjà affaibli, disparaît à cette époque."
+    }
+  ],
+  "dirigeants": [{ "titre": "Négus (Roi des Rois)", "nom": "Ézana", "surnom": "Le Converti", "debut": 320, "fin": 360 }],
+  "personnages": [
+    {
+      "nom": "Frumence de Tyr",
+      "role": "Évêque d'Aksoum",
+      "description": "Philosophe syro-grec capturé lors d'une escale en mer Rouge, devenu conseiller royal et initiateur de la christianisation du royaume.",
+      "dates": "≈ 300 - 383",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Frumence_d'Aksoum"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Campagne de Nubie",
+      "annee": 350,
+      "adversaires": ["Royaume de Koush (Méroé)"],
+      "allies": [],
+      "morts": "Inconnu",
+      "vainqueur": "Royaume d'Aksoum",
+      "consequences": "Le royaume de Méroé, déjà affaibli, disparaît à cette époque ; Aksoum affirme sa domination dans la région.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Royaume_d'Aksoum"
+    }
+  ],
+  "sciences": "Les Aksoumites sont des maîtres de l'ingénierie navale, naviguant avec les moussons jusqu'en Inde et à Ceylan. Architectes exceptionnels, ils bâtissent des stèles géantes monolithes pesant jusqu'à 500 tonnes, censées représenter des palais à plusieurs étages. Ils créent et utilisent l'écriture guèze, dérivée de l'écriture sud-arabique et toujours utilisée en Éthiopie et en Érythrée.",
+  "croyancesText": "D'abord polythéistes (vénérant Astar et le dieu de la guerre Mahrem, assimilé au dieu grec Arès), ils opèrent un basculement géopolitique radical vers 330. Le roi Ézana remplace le croissant et le disque solaire par la Croix sur ses monnaies. L'Église orthodoxe tewahedo qui en naît possède une liturgie unique, fortement imprégnée de judaïsme (revendiquant la possession de l'Arche d'Alliance).",
+  "diplomatie": "Considéré par le prophète persan Mani (au IIIe siècle) comme l'un des quatre plus grands empires du monde (avec Rome, la Perse et la Chine). Aksoum contrôle le détroit de Bab el-Mandeb, taxant tout le commerce d'ivoire, d'or, d'encens et d'esclaves entre l'Empire romain d'Orient, la Perse sassanide et l'Inde antique.",
+  "documentaires": [{ "titre": "Aksoum, la Rome africaine", "url": "https://fr.wikipedia.org/wiki/Royaume_d'Aksoum" }]
+}

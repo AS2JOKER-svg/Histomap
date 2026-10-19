@@ -1,0 +1,78 @@
+{
+  "id": "pologne-lituanie",
+  "label": "République des Deux Nations (Pologne)",
+  "tier": 1,
+  "region": "europe-centrale",
+  "period": "1569 à 1795",
+  "start": 1569,
+  "end": 1795,
+  "color": "#880e4f",
+  "trackId": "pologne",
+  "row": 7,
+  "isRiver": false,
+  "capitale": "Cracovie puis Varsovie",
+  "description": "Le plus vaste État d'Europe au 17ème siècle, paradoxe démocratique et nobiliaire (la Liberté dorée), balayé de la carte par la rapacité de ses voisins.",
+  "territories": ["Poland-Lithuania", "Polish–Lithuanian Commonwealth"],
+  "datesCles": [
+    {
+      "annee": 1569,
+      "evenement": "Union de Lublin",
+      "info": "La Pologne et la Lituanie fusionnent officiellement pour contrer la Russie."
+    },
+    {
+      "annee": 1683,
+      "evenement": "Bataille de Vienne",
+      "info": "Le roi polonais sauve l'Europe d'une conquête ottomane."
+    },
+    {
+      "annee": 1772,
+      "evenement": "Premier Partage",
+      "info": "La Prusse, la Russie et l'Autriche commencent à s'annexer le pays."
+    },
+    {
+      "annee": 1795,
+      "evenement": "Disparition",
+      "info": "Troisième partage, la Pologne est effacée de la carte politique européenne pour 123 ans."
+    }
+  ],
+  "dirigeants": [
+    {
+      "titre": "Roi et Grand-Duc",
+      "nom": "Jean III Sobieski",
+      "surnom": "Le Lion de Lehistan",
+      "debut": 1674,
+      "fin": 1696
+    },
+    { "titre": "Dernier Roi", "nom": "Stanislas II", "surnom": "Poniatowski", "debut": 1764, "fin": 1795 }
+  ],
+  "personnages": [
+    {
+      "nom": "Nicolas Copernic",
+      "role": "Astronome (pré-union)",
+      "description": "Le chanoine et astronome polonais qui, en plaçant le Soleil au centre de l'univers, a déclenché la révolution scientifique moderne.",
+      "dates": "1473 à 1543",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Nicolas_Copernic"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Le Déluge (Potop)",
+      "annee": 1655,
+      "adversaires": ["Empire Suédois", "Tsarat de Russie"],
+      "allies": ["Saint-Empire (tardivement)"],
+      "morts": "Peut-être un quart à un tiers de la population (estimations)",
+      "vainqueur": "Statu Quo (Ruine totale)",
+      "consequences": "Invasion généralisée. Bien que la Pologne survive, ses villes et son économie sont rasées, amorçant son déclin fatal.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/D%C3%A9luge_(Pologne)"
+    }
+  ],
+  "sciences": "Leur génie est militaire et équestre : l'invention des Hussards Ailés (Husaria). C'est une cavalerie lourde de choc, dotée d'armures resplendissantes et d'immenses 'ailes' en plumes d'aigle fixées dans le dos (dont le rôle exact est discuté : impressionner l'ennemi, peut-être gêner les lassos). Ils constituent l'une des unités d'élite les plus redoutées d'Europe et remportent de nombreuses victoires pendant plus d'un siècle.",
+  "croyancesText": "En pleine époque des bûchers européens, la Pologne vote en 1573 la 'Confédération de Varsovie', l'une des premières lois de tolérance religieuse de l'Histoire (après l'édit de Torda, en Transylvanie, en 1568). Elle devient l'asile de l'Europe : Catholiques, Orthodoxes, Luthériens, et la plus grande communauté Juive du monde (Ashkénazes) y cohabitent en paix, protégés par des lois d'autonomie (le Conseil des Quatre Terres).",
+  "diplomatie": "Leur système politique inédit (le 'Sarmatisme') causera leur ruine. C'est une monarchie élective : le roi est élu par l'assemblée de tous les nobles présents (élection « viritim »). Pire, ils pratiquent le 'liberum veto' : un seul noble (souvent soudoyé par la Russie ou la France) peut crier son veto pour annuler n'importe quelle loi ou déclaration de guerre, paralysant totalement l'État face aux absolutismes voisins centralisés.",
+  "documentaires": [
+    {
+      "titre": "L'âge d'or et la tragédie de la Pologne",
+      "url": "https://fr.wikipedia.org/wiki/R%C3%A9publique_des_Deux_Nations"
+    }
+  ]
+}

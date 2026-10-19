@@ -1,0 +1,67 @@
+{
+  "id": "moghols",
+  "label": "Empire moghol",
+  "tier": 1,
+  "region": "asie-sud",
+  "period": "1526 à 1789",
+  "start": 1526,
+  "end": 1789,
+  "trackId": "inde",
+  "row": 2,
+  "isRiver": true,
+  "capitale": "Delhi / Agra / Lahore",
+  "description": "Dynastie turco-mongole islamique régnant sur la majorité hindoue de l'Inde, offrant au monde l'une de ses architectures et orfèvreries les plus resplendissantes.",
+  "territories": ["Mughal Empire"],
+  "datesCles": [
+    {
+      "annee": 1526,
+      "evenement": "Bataille de Panipat",
+      "info": "Babur (descendant de Gengis Khan et Tamerlan) défait le sultan de Delhi grâce à ses canons."
+    },
+    {
+      "annee": 1556,
+      "evenement": "L'Âge d'or",
+      "info": "Début du long règne d'Akbar, pacifiant et unifiant l'Inde septentrionale."
+    },
+    {
+      "annee": 1653,
+      "evenement": "Achèvement du Taj Mahal",
+      "info": "Chef-d'œuvre commandé par Shah Jahan en mémoire de son épouse bien-aimée Mumtaz Mahal."
+    },
+    {
+      "annee": 1739,
+      "evenement": "Sac de Delhi",
+      "info": "Le Perse Nader Chah pille la capitale et vole le mythique Trône du Paon, sonnant le glas de l'Empire."
+    }
+  ],
+  "dirigeants": [
+    { "titre": "Empereur (Padichah)", "nom": "Babur", "surnom": "Le Tigre", "debut": 1526, "fin": 1530 },
+    { "titre": "Empereur", "nom": "Akbar", "surnom": "Le Grand", "debut": 1556, "fin": 1605 },
+    { "titre": "Empereur", "nom": "Shah Jahan", "surnom": "Le Bâtisseur", "debut": 1628, "fin": 1658 }
+  ],
+  "personnages": [
+    {
+      "nom": "Aurangzeb",
+      "role": "Empereur intégriste",
+      "description": "Il a étendu l'empire à sa superficie maximale mais sa stricte intolérance islamique a provoqué des révoltes (Marathes, Sikhs) détruisant l'État de l'intérieur.",
+      "dates": "1618 à 1707",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Aurangzeb"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerres Marathes",
+      "annee": 1680,
+      "adversaires": ["Empire Marathe (Shivaji)"],
+      "allies": [],
+      "morts": "Guerre de guérilla interminable",
+      "vainqueur": "Marathes",
+      "consequences": "Les hindous du sud se rebellent contre l'intolérance d'Aurangzeb, déclenchant une guérilla de 27 ans qui ruine le trésor moghol et prépare l'invasion britannique.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerres_marathes"
+    }
+  ],
+  "sciences": "Leur apport mondial est l'architecture moghole, une fusion inouïe des styles perses, islamiques et hindous (coupoles à bulbe, minarets, arcades festonnées, symétrie parfaite des jardins d'eau ou 'Chahar bagh'). Ils atteignent des sommets dans le travail du marbre blanc incrusté de pierres précieuses (pietra dura) et la création de miniatures (peintures enluminées).",
+  "croyancesText": "Le règne d'Akbar est un miracle de tolérance : musulman gouvernant des millions d'hindous, il abolit l'impôt sur les non-musulmans (la Jizya), épouse des princesses hindoues et invite des moines jésuites portugais à débattre avec les mollahs. Il tente même de fonder une religion syncrétique universelle (le Dîn-i-Ilâhî). Un siècle plus tard, son descendant Aurangzeb fera le chemin inverse en persécutant la majorité, provoquant la ruine de l'empire.",
+  "diplomatie": "C'est l'un des 'Empires de la poudre à canon' (avec les Ottomans et Safavides). L'armée moghole repose sur de lourds canons importés de Turquie et fixés sur des chars tirés par des bœufs, protégés par des arquebusiers. Pour contrôler les hindous (les Rajputs), ils intègrent massivement leurs nobles dans l'administration fiscale centralisée (le système des Mansabdars).",
+  "documentaires": [{ "titre": "L'Empire moghol, les seigneurs de l'Inde", "url": "https://fr.wikipedia.org/wiki/Empire_moghol" }]
+}

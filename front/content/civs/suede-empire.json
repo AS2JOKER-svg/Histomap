@@ -1,0 +1,63 @@
+{
+  "id": "suede-empire",
+  "label": "Empire suédois",
+  "tier": 1,
+  "region": "europe-nord",
+  "period": "1561 à 1721",
+  "start": 1561,
+  "end": 1721,
+  "color": "#1976d2",
+  "trackId": "suede",
+  "row": 5,
+  "isRiver": false,
+  "capitale": "Stockholm",
+  "description": "Une nation glaciale et peu peuplée qui se militarise à l'extrême pour s'ériger en hégémonie absolue de la mer Baltique.",
+  "territories": ["Sweden"],
+  "datesCles": [
+    {
+      "annee": 1630,
+      "evenement": "Intervention en Allemagne",
+      "info": "Le roi Gustave Adolphe débarque en Allemagne pour sauver le protestantisme face aux armées impériales."
+    },
+    {
+      "annee": 1648,
+      "evenement": "Traités de Westphalie",
+      "info": "La Suède est reconnue comme l'une des grandes puissances garantes de la paix en Europe."
+    },
+    {
+      "annee": 1709,
+      "evenement": "Désastre de Poltava",
+      "info": "L'armée suédoise est anéantie en Ukraine par le tsar Pierre le Grand de Russie."
+    }
+  ],
+  "dirigeants": [
+    { "titre": "Roi de Suède", "nom": "Gustave II Adolphe", "surnom": "Le Lion du Nord", "debut": 1611, "fin": 1632 },
+    { "titre": "Reine", "nom": "Christine", "surnom": "La Minerve du Nord", "debut": 1632, "fin": 1654 },
+    { "titre": "Roi", "nom": "Charles XII", "debut": 1697, "fin": 1718 }
+  ],
+  "personnages": [
+    {
+      "nom": "Axel Oxenstierna",
+      "role": "Chancelier",
+      "description": "L'architecte administratif de la Suède moderne, gérant l'empire pendant les minorités et la guerre de Trente Ans.",
+      "dates": "1583 à 1654",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Axel_Oxenstierna"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Grande Guerre du Nord",
+      "annee": 1700,
+      "adversaires": ["Empire Russe", "Danemark", "Pologne-Lituanie"],
+      "allies": ["Empire Ottoman (temporairement)"],
+      "morts": "Effondrement démographique suédois",
+      "vainqueur": "Russie",
+      "consequences": "Le roi Charles XII mène une guerre brillante mais épuise son pays. La Suède perd son statut d'empire au profit de la nouvelle Russie de Pierre le Grand.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Grande_guerre_du_Nord"
+    }
+  ],
+  "sciences": "Le 'miracle suédois' est purement logistique et militaire. Gustave II Adolphe invente la guerre moderne combinée : il allège les mousquets et l'artillerie de campagne (les premiers « canons de cuir », peu efficaces, sont vite remplacés par de légères pièces régimentaires), permettant aux fantassins de tirer en salves rapides. À Breitenfeld (1631), cette armée bat les lourdes formations impériales et catholiques.",
+  "croyancesText": "Le luthéranisme n'est pas seulement une religion, c'est l'ossature de l'État. Les pasteurs font office de fonctionnaires civils, tenant un registre précis des naissances et de l'alphabétisation (la loi religieuse de 1686 impose l'apprentissage de la lecture, vérifié par les pasteurs lors d'examens réguliers). C'est ce clergé qui assure l'implacable recrutement local des soldats pour les guerres du roi.",
+  "diplomatie": "Riche en bois, en cuivre et en fer de haute qualité, la Suède exporte massivement ses canons dans toute l'Europe. Pour briser la puissance des Habsbourg, le cardinal français de Richelieu finance secrètement avec de l'or français l'armée protestante suédoise. La Suède annexe la Poméranie et les pays baltes, transformant la mer Baltique en un 'lac suédois'.",
+  "documentaires": [{ "titre": "L'Empire suédois, la terreur du Nord", "url": "https://fr.wikipedia.org/wiki/Empire_su%C3%A9dois" }]
+}

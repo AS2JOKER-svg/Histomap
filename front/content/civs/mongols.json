@@ -1,0 +1,69 @@
+{
+  "id": "mongols",
+  "label": "Empire mongol",
+  "tier": 1,
+  "region": "mongolie",
+  "period": "1206 à 1368",
+  "start": 1206,
+  "end": 1368,
+  "color": "#e67e22",
+  "trackId": "steppe_asie",
+  "row": 2,
+  "isRiver": false,
+  "capitale": "Karakorum",
+  "description": "La plus foudroyante conquête de l'histoire humaine, unifiant l'Eurasie de la Corée à la Hongrie sous le sabot de la cavalerie des steppes.",
+  "territories": ["Mongol Empire", "Great Khanate", "Chagatai Khanate", "Ilkhanate", "Khanate of the Golden Horde"],
+  "datesCles": [
+    {
+      "annee": 1206,
+      "evenement": "Le Qurultay",
+      "info": "L'assemblée nomade élit Temüjin comme chef suprême sous le nom de Gengis Khan."
+    },
+    {
+      "annee": 1215,
+      "evenement": "Chute de Pékin",
+      "info": "Les armées mongoles s'emparent de la capitale de la Chine du Nord (dynastie Jin)."
+    },
+    {
+      "annee": 1241,
+      "evenement": "Victoires en Europe",
+      "info": "Les Mongols écrasent les armées polonaises, allemandes et hongroises."
+    },
+    { "annee": 1258, "evenement": "Sac de Bagdad", "info": "Destruction du cœur de l'Empire arabo-musulman." }
+  ],
+  "dirigeants": [
+    {
+      "titre": "Khagan (Grand Khan)",
+      "nom": "Gengis Khan",
+      "surnom": "Le Souverain universel",
+      "debut": 1206,
+      "fin": 1227
+    },
+    { "titre": "Khagan / Empereur de Chine", "nom": "Kubilai Khan", "debut": 1260, "fin": 1294 }
+  ],
+  "personnages": [
+    {
+      "nom": "Subötaï",
+      "role": "Le Stratège",
+      "description": "Général suprême de Gengis Khan. Considéré comme l'un des plus grands tacticiens militaires de tous les temps, vainqueur dans plus de 65 batailles.",
+      "dates": "1176 à 1248",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Sub%C3%B6ta%C3%AF"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Campagne de la Rus' et de l'Europe",
+      "annee": 1237,
+      "adversaires": ["Principautés russes", "Royaume de Hongrie", "Pologne"],
+      "allies": [],
+      "morts": "La moitié de la population russe",
+      "vainqueur": "Mongols (Batu Khan et Subötaï)",
+      "consequences": "Écrasement total des armées chevaleresques européennes (batailles de Legnica et Mohi). Seule la mort du Grand Khan Ögödei stoppe l'invasion mongole vers Vienne et Paris.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Invasions_mongoles_de_l%27Europe"
+    }
+  ],
+  "sciences": "Ils n'inventent ni architecture monumentale ni philosophie, mais révolutionnent la logistique militaire et civile. Ils créent le 'Yam', le premier système postal relais continental : un cavalier mongol porteur du sceau d'or (Païza) pouvait parcourir 300 km par jour. En asservissant des ingénieurs chinois et musulmans, ils maîtrisent l'artillerie de siège (trébuchets géants, bombes à poudre).",
+  "croyancesText": "Fidèles au Tengrisme chamanique (le Ciel éternel), les Mongols croient que leur destinée divine est de dominer le monde entier. Paradoxalement, c'est l'empire le plus tolérant du monde sur le plan religieux (Pax Mongolica) : chrétiens nestoriens, bouddhistes, taoïstes et musulmans siègent ensemble à la cour de Karakorum sans subir de persécution (tant qu'ils paient leurs taxes).",
+  "diplomatie": "La politique de la terreur pragmatique. Une ville qui se rend sans combattre est épargnée et taxée ; une ville qui résiste est rasée, ses habitants massacrés à l'exception des artisans qualifiés déportés en Mongolie. Après la mort de Gengis Khan, l'empire, devenu trop grand, se fragmente en quatre immenses Khanats (La Horde d'Or en Russie, l'Ilkhanat en Perse, Djaghataï en Asie centrale, et les Yuan en Chine).",
+  "documentaires": [{ "titre": "Gengis Khan, le loup mongol", "url": "https://fr.wikipedia.org/wiki/Empire_mongol" }]
+}

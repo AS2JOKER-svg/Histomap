@@ -1,0 +1,63 @@
+{
+  "id": "serg",
+  "label": "Saint-Empire Romain Germanique",
+  "tier": 1,
+  "region": "europe-centrale",
+  "period": "962 à 1492",
+  "start": 962,
+  "end": 1492,
+  "trackId": "serg",
+  "row": 3,
+  "isRiver": false,
+  "capitale": "Diètes itinérantes",
+  "description": "Un labyrinthe féodal d'Europe centrale, dirigé par un empereur élu, théâtre du grand choc de pouvoir entre le trône et la Papauté.",
+  "territories": ["Holy Roman Empire"],
+  "datesCles": [
+    { "annee": 962, "evenement": "Sacre d'Otton Ier", "info": "Création officielle du Saint-Empire à Rome." },
+    {
+      "annee": 1077,
+      "evenement": "Pénitence de Canossa",
+      "info": "Le roi Henri IV (couronné empereur seulement en 1084), excommunié, attend en habit de pénitent dans la neige, trois jours selon les chroniques, le pardon du pape Grégoire VII."
+    },
+    { "annee": 1356, "evenement": "La Bulle d'Or", "info": "Fixe l'élection impériale par sept princes-électeurs." },
+    {
+      "annee": 1450,
+      "evenement": "Invention de l'imprimerie",
+      "info": "Gutenberg invente la typographie à Mayence."
+    }
+  ],
+  "dirigeants": [
+    { "titre": "Empereur des Romains", "nom": "Otton Ier", "surnom": "Le Grand", "debut": 936, "fin": 973 },
+    { "titre": "Empereur", "nom": "Frédéric Ier", "surnom": "Barberousse", "debut": 1152, "fin": 1190 }
+  ],
+  "personnages": [
+    {
+      "nom": "Frédéric II",
+      "role": "Empereur",
+      "description": "Surnommé la 'Stupeur du monde', souverain polyglotte, scientifique et excommunié deux fois par la papauté.",
+      "dates": "1194 à 1250",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_II_(empereur_du_Saint-Empire)"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerres d'Italie / Ligue Lombarde",
+      "annee": 1176,
+      "adversaires": ["Communes d'Italie du Nord (Milan)"],
+      "allies": ["Princes germaniques fidèles"],
+      "morts": "Fortes pertes chevaleresques",
+      "vainqueur": "Ligue Lombarde (Paix de Constance)",
+      "consequences": "Frédéric Barberousse est vaincu à Legnano, l'Italie du Nord gagne son indépendance de fait face à l'Empire.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Ligue_lombarde"
+    }
+  ],
+  "sciences": "Le génie germanique culmine à la fin du Moyen Âge avec Johannes Gutenberg, qui invente l'imprimerie à caractères mobiles en métal, révolutionnant la diffusion du savoir mondial. Sur le plan économique, les cités marchandes du nord (Lübeck, Hambourg) fondent la Ligue Hanséatique, une superpuissance maritime commerciale dotée de sa propre flotte et de ses lois.",
+  "croyancesText": "L'histoire de l'Empire est déchirée par la 'Querelle des Investitures' : qui a le pouvoir suprême sur terre, le Pape ou l'Empereur ? L'Empereur se voit comme le successeur des Césars, chef de la chrétienté. Cette tension fracture l'Allemagne et l'Italie en deux factions haineuses (les Guelfes soutenant le Pape, les Gibelins soutenant l'Empereur).",
+  "diplomatie": "Le Saint-Empire n'est pas une nation, mais un patchwork ingouvernable de plus de 300 principautés, duchés, comtés et villes libres. L'Empereur, au lieu d'hériter du trône, doit être élu et corrompre massivement les Princes-Électeurs pour garder le pouvoir (qui finira par être monopolisé par la Maison des Habsbourg).",
+  "documentaires": [
+    {
+      "titre": "Le Saint-Empire, le cœur de l'Europe",
+      "url": "https://fr.wikipedia.org/wiki/Saint-Empire_romain_germanique"
+    }
+  ]
+}

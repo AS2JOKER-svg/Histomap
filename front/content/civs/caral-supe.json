@@ -1,0 +1,40 @@
+{
+  "id": "caral-supe",
+  "label": "Civilisation de Caral-Supe",
+  "tier": 1,
+  "region": "andes",
+  "period": "-3500 à -1800",
+  "start": -3500,
+  "end": -1800,
+  "color": "#f4d03f",
+  "trackId": "andes",
+  "row": 1,
+  "isRiver": true,
+  "capitale": "Caral",
+  "description": "La plus ancienne civilisation des Amériques, ayant érigé d'immenses pyramides dans les vallées péruviennes, avec peu ou pas de traces de guerre (un point débattu), sans écriture ni poterie.",
+  "territories": ["Norte Chico"],
+  "datesCles": [
+    {
+      "annee": -3500,
+      "evenement": "Sédentarisation côtière",
+      "info": "Les populations s'installent dans la vallée de Supe pour exploiter les ressources marines et agricoles. Les premiers centres monumentaux apparaissent vers -3000."
+    },
+    {
+      "annee": -2600,
+      "evenement": "Âge d'or architectural",
+      "info": "Construction de la ville sacrée de Caral et de sa Grande Pyramide (Pirámide Mayor)."
+    },
+    {
+      "annee": -1800,
+      "evenement": "Déclin et abandon",
+      "info": "Les causes de l'abandon sont discutées : des changements climatiques (épisodes El Niño) sont une hypothèse parmi d'autres."
+    }
+  ],
+  "dirigeants": [],
+  "personnages": [],
+  "guerres": [],
+  "sciences": "Leur développement technologique est unique et atypique : ils ne fabriquent ni armes, ni poteries, mais sont d'exceptionnels architectes. Ils inventent les 'shicras', des sacs en fibre végétale remplis de pierres intégrés dans les fondations des pyramides, qui stabilisaient peut-être les édifices lors des séismes (une hypothèse). Un objet trouvé à Caral a été présenté comme un très ancien 'quipu' (système de cordelettes à nœuds), mais cette identification est débattue : les plus anciens quipus sûrement datés sont huaris.",
+  "croyancesText": "La religion de Caral semble axée sur le culte du feu et la musique. Au centre des architectures monumentales se trouvent des amphithéâtres circulaires engloutis contenant des foyers sacrés où des offrandes (quartz, coquillages, cheveux) étaient brûlées. Des fouilles y ont mis au jour d'impressionnants ensembles d'instruments à vent : 32 flûtes taillées dans des os de condor et de pélican.",
+  "diplomatie": "Fait remarquable, l'archéologie n'a révélé à Caral que peu ou pas de traces de guerre (peu de murailles, d'armes ou de corps blessés), même si ce point reste débattu. Leur économie repose sur un puissant réseau commercial pacifique entre les pêcheurs de la côte (apportant anchois et sardines) et les agriculteurs des terres (cultivant le coton et les courges).",
+  "documentaires": [{ "titre": "Wikipédia : Civilisation de Caral", "url": "https://fr.wikipedia.org/wiki/Civilisation_de_Caral" }]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "hittites",
+  "label": "Empire hittite",
+  "tier": 1,
+  "region": "anatolie",
+  "period": "-1650 à -1178",
+  "start": -1650,
+  "end": -1178,
+  "color": "#b5651d",
+  "trackId": "hittites",
+  "row": 3,
+  "isRiver": false,
+  "capitale": "Hattusa",
+  "description": "Géant militarisé du plateau anatolien (Turquie actuelle), pionnier de la métallurgie du fer et grand rival diplomatique de l'Égypte pharaonique.",
+  "territories": ["Hittites"],
+  "datesCles": [
+    {
+      "annee": -1595,
+      "evenement": "Pillage de Babylone",
+      "info": "Le roi Mursili Ier mène un raid éclair à 2000 km de sa base, détruisant la dynastie de Hammurabi."
+    },
+    {
+      "annee": -1274,
+      "evenement": "Bataille de Qadesh",
+      "info": "Choc de titans contre l'Égypte de Ramsès II pour le contrôle de la Syrie."
+    },
+    {
+      "annee": -1178,
+      "evenement": "Effondrement brutal",
+      "info": "Invasion mystérieuse (Peuples de la mer) et famines, Hattusa est abandonnée."
+    }
+  ],
+  "dirigeants": [
+    { "titre": "Grand Roi (Labarna)", "nom": "Hattushili III", "debut": -1267, "fin": -1237 },
+    { "titre": "Grand Roi", "nom": "Muwatalli II", "debut": -1295, "fin": -1272 }
+  ],
+  "personnages": [],
+  "guerres": [
+    {
+      "nom": "Bataille de Qadesh",
+      "annee": -1274,
+      "adversaires": ["Nouvel Empire Égyptien"],
+      "allies": ["Vassaux anatoliens et syriens"],
+      "morts": "Pertes lourdes sur les chars",
+      "vainqueur": "Statu Quo (Revendiqué par les Hittites)",
+      "consequences": "Les Hittites conservent le contrôle sur la riche région syrienne de l'Amourrou.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Qadesh"
+    }
+  ],
+  "sciences": "Les Hittites savent travailler le fer, mais ce métal reste rare et précieux (offert en cadeau diplomatique) : leur armée combat surtout avec des armes en bronze. Ils révolutionnent la charrerie militaire en construisant des chars à trois places (un conducteur, un lancier, un porte-bouclier), offrant une force de frappe écrasante sur le champ de bataille.",
+  "croyancesText": "L'État hittite pratique un syncrétisme de 'Le panthéon des Mille Dieux'. Lorsqu'ils conquièrent un peuple, ils intègrent ses dieux aux leurs pour s'attirer leurs faveurs. Le dieu central est Tarhunna (le Dieu de l'Orage), vénéré dans le grand sanctuaire rupestre de Yazılıkaya, symbole de la puissance de la tempête sur les arides plateaux anatoliens.",
+  "diplomatie": "Ce sont les inventeurs du Droit international antique. Contrairement à l'Assyrie qui rase ses ennemis, les Hittites créent des traités de vassalité extrêmement complexes (avec clauses d'extradition, mariage, et obligations d'assistance militaire) gravés sur l'argile et l'argent. Le Traité de Qadesh (-1259) avec Ramsès II est exposé au siège de l'ONU à New York comme le premier pacte de non-agression.",
+  "documentaires": [{ "titre": "Hittites : L'empire des mille dieux", "url": "https://fr.wikipedia.org/wiki/Hittites" }]
+}

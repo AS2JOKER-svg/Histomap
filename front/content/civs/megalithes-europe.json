@@ -1,0 +1,40 @@
+{
+  "id": "megalithes-europe",
+  "label": "Culture Mégalithique",
+  "tier": 1,
+  "region": "europe-ouest",
+  "period": "-4500 à -3000",
+  "start": -4500,
+  "end": -3000,
+  "color": "#78909c",
+  "trackId": "megalithes",
+  "row": 2,
+  "isRiver": false,
+  "capitale": "Façade Atlantique (Carnac, Stonehenge)",
+  "description": "Un vaste réseau culturel maritime d'Europe occidentale caractérisé par l'érection de monuments géants en pierre, démontrant une ingénierie sociale sidérante.",
+  "territories": [],
+  "datesCles": [
+    {
+      "annee": -4500,
+      "evenement": "Débuts du mégalithisme",
+      "info": "Émergence des premiers cairns et dolmens sur la façade atlantique (Bretagne, Péninsule ibérique)."
+    },
+    {
+      "annee": -3600,
+      "evenement": "Temples de Ġgantija",
+      "info": "À Malte, édification de structures autoportantes colossales, avant les pyramides d'Égypte."
+    },
+    {
+      "annee": -3100,
+      "evenement": "Newgrange",
+      "info": "Construction de l'immense tumulus irlandais, parfaitement aligné sur le solstice d'hiver."
+    }
+  ],
+  "dirigeants": [],
+  "personnages": [],
+  "guerres": [],
+  "sciences": "Leur génie réside dans l'ingénierie mécanique et astronomique. Déplacer, lever et caler des monolithes pesant jusqu'à près de 300 tonnes (environ 280 tonnes pour le Grand Menhir brisé d'Er Grah) implique des centaines d'hommes, des systèmes de rondins, de leviers et une organisation sociale mathématique. Leurs sites servent de calendriers géants pour prédire solstices et équinoxes.",
+  "croyancesText": "Le mégalithe a une fonction funéraire et territoriale. Les dolmens sont des caveaux collectifs recouverts de terre (tumulus) où reposent les ancêtres. Dresser une pierre monumentale (un menhir), c'est ancrer physiquement et symboliquement un clan sur son territoire face au ciel.",
+  "diplomatie": "L'uniformité du phénomène mégalithique de la Scandinavie au Portugal prouve l'existence de réseaux maritimes intenses le long des côtes atlantiques. Les élites s'échangent des objets de grand prestige, notamment des haches en jadéite polie extraite des Alpes et exportée jusqu'en Écosse.",
+  "documentaires": [{ "titre": "Wikipédia : Mégalithisme", "url": "https://fr.wikipedia.org/wiki/M%C3%A9galithisme_en_Europe" }]
+}

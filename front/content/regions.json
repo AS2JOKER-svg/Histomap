@@ -1,0 +1,167 @@
+[
+  { "id": "iles-britanniques", "label": "Îles Britanniques", "continent": "europe", "pays": "Royaume-Uni, Irlande" },
+  {
+    "id": "europe-ouest",
+    "label": "Europe de l'Ouest",
+    "continent": "europe",
+    "pays": "France, Belgique, Pays-Bas, Luxembourg, Suisse"
+  },
+  {
+    "id": "peninsule-iberique",
+    "label": "Péninsule Ibérique",
+    "continent": "europe",
+    "pays": "Espagne, Portugal, Andorre"
+  },
+  { "id": "italie", "label": "Italie", "continent": "europe", "pays": "Italie, Malte, Saint-Marin" },
+  {
+    "id": "europe-centrale",
+    "label": "Europe centrale",
+    "continent": "europe",
+    "pays": "Allemagne, Autriche, Pologne, Tchéquie, Slovaquie, Hongrie"
+  },
+  {
+    "id": "europe-nord",
+    "label": "Europe du Nord",
+    "continent": "europe",
+    "pays": "Danemark, Norvège, Suède, Finlande, Islande"
+  },
+  { "id": "grece-egee", "label": "Grèce et mer Égée", "continent": "europe", "pays": "Grèce, Chypre" },
+  {
+    "id": "balkans",
+    "label": "Balkans",
+    "continent": "europe",
+    "pays": "Slovénie, Croatie, Bosnie, Serbie, Monténégro, Kosovo, Albanie, Macédoine du Nord, Bulgarie, Roumanie"
+  },
+  {
+    "id": "europe-est",
+    "label": "Europe de l'Est",
+    "continent": "europe",
+    "pays": "Ukraine, Biélorussie, Moldavie, pays baltes"
+  },
+  {
+    "id": "russie-europeenne",
+    "label": "Russie d'Europe",
+    "continent": "europe",
+    "pays": "Russie à l'ouest de l'Oural"
+  },
+  { "id": "caucase", "label": "Caucase", "continent": "asie", "pays": "Géorgie, Arménie, Azerbaïdjan" },
+  { "id": "anatolie", "label": "Anatolie", "continent": "asie", "pays": "Turquie" },
+  { "id": "levant", "label": "Levant", "continent": "asie", "pays": "Syrie, Liban, Israël, Palestine, Jordanie" },
+  { "id": "mesopotamie", "label": "Mésopotamie", "continent": "asie", "pays": "Irak, Koweït" },
+  {
+    "id": "peninsule-arabique",
+    "label": "Péninsule Arabique",
+    "continent": "asie",
+    "pays": "Arabie saoudite, Yémen, Oman, Émirats, Qatar, Bahreïn"
+  },
+  { "id": "iran", "label": "Iran", "continent": "asie", "pays": "Iran" },
+  {
+    "id": "asie-centrale",
+    "label": "Asie centrale",
+    "continent": "asie",
+    "pays": "Kazakhstan, Ouzbékistan, Turkménistan, Kirghizistan, Tadjikistan, Afghanistan"
+  },
+  { "id": "mongolie", "label": "Mongolie", "continent": "asie", "pays": "Mongolie et steppes orientales" },
+  {
+    "id": "siberie",
+    "label": "Sibérie et Extrême-Orient russe",
+    "continent": "asie",
+    "pays": "Russie à l'est de l'Oural"
+  },
+  { "id": "chine", "label": "Chine", "continent": "asie", "pays": "Chine (dont Tibet, Xinjiang, Mandchourie), Taïwan" },
+  { "id": "coree", "label": "Corée", "continent": "asie", "pays": "Corée du Sud, Corée du Nord" },
+  { "id": "japon", "label": "Japon", "continent": "asie", "pays": "Japon" },
+  {
+    "id": "asie-sud",
+    "label": "Asie du Sud",
+    "continent": "asie",
+    "pays": "Inde, Pakistan, Bangladesh, Sri Lanka, Népal, Bhoutan"
+  },
+  {
+    "id": "asie-sud-est-continentale",
+    "label": "Asie du Sud-Est continentale",
+    "continent": "asie",
+    "pays": "Birmanie, Thaïlande, Laos, Cambodge, Viêt Nam"
+  },
+  {
+    "id": "asie-sud-est-insulaire",
+    "label": "Asie du Sud-Est insulaire",
+    "continent": "asie",
+    "pays": "Indonésie, Malaisie, Singapour, Philippines, Brunei, Timor oriental"
+  },
+  { "id": "egypte", "label": "Égypte", "continent": "afrique", "pays": "Égypte" },
+  {
+    "id": "afrique-nord",
+    "label": "Afrique du Nord",
+    "continent": "afrique",
+    "pays": "Maroc, Algérie, Tunisie, Libye, Sahara occidental"
+  },
+  { "id": "nubie-soudan", "label": "Nubie et Soudan", "continent": "afrique", "pays": "Soudan, Soudan du Sud" },
+  {
+    "id": "corne-afrique",
+    "label": "Corne de l'Afrique",
+    "continent": "afrique",
+    "pays": "Éthiopie, Érythrée, Djibouti, Somalie"
+  },
+  {
+    "id": "afrique-ouest",
+    "label": "Afrique de l'Ouest",
+    "continent": "afrique",
+    "pays": "Sénégal, Mali, Niger, Nigeria, Ghana, Côte d'Ivoire, Bénin, Burkina Faso, Guinée, Mauritanie…"
+  },
+  {
+    "id": "afrique-centrale",
+    "label": "Afrique centrale",
+    "continent": "afrique",
+    "pays": "Tchad, Cameroun, Centrafrique, Gabon, Congo, RD Congo, Angola"
+  },
+  {
+    "id": "afrique-est",
+    "label": "Afrique de l'Est",
+    "continent": "afrique",
+    "pays": "Kenya, Tanzanie, Ouganda, Rwanda, Burundi, Madagascar, Comores"
+  },
+  {
+    "id": "afrique-australe",
+    "label": "Afrique australe",
+    "continent": "afrique",
+    "pays": "Afrique du Sud, Namibie, Botswana, Zimbabwe, Zambie, Mozambique, Malawi, Lesotho, Eswatini"
+  },
+  {
+    "id": "amerique-nord",
+    "label": "Amérique du Nord",
+    "continent": "amerique",
+    "pays": "Canada, États-Unis, Groenland"
+  },
+  {
+    "id": "mesoamerique",
+    "label": "Mésoamérique",
+    "continent": "amerique",
+    "pays": "Mexique, Guatemala, Belize, Honduras, Salvador"
+  },
+  {
+    "id": "amerique-centrale-caraibes",
+    "label": "Amérique centrale et Caraïbes",
+    "continent": "amerique",
+    "pays": "Nicaragua, Costa Rica, Panama, Antilles"
+  },
+  { "id": "andes", "label": "Andes", "continent": "amerique", "pays": "Colombie, Équateur, Pérou, Bolivie, Chili" },
+  {
+    "id": "amerique-sud-est",
+    "label": "Brésil, cône Sud et Guyanes",
+    "continent": "amerique",
+    "pays": "Brésil, Argentine, Uruguay, Paraguay, Venezuela, Guyanes"
+  },
+  {
+    "id": "australasie",
+    "label": "Australie et Nouvelle-Zélande",
+    "continent": "oceanie",
+    "pays": "Australie, Nouvelle-Zélande"
+  },
+  {
+    "id": "pacifique",
+    "label": "Pacifique",
+    "continent": "oceanie",
+    "pays": "Papouasie, Mélanésie, Micronésie, Polynésie, Hawaï"
+  }
+]

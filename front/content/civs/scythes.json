@@ -1,0 +1,54 @@
+{
+  "id": "scythes",
+  "label": "Cavaliers Scythes",
+  "tier": 1,
+  "region": "europe-est",
+  "period": "-800 à -300",
+  "start": -800,
+  "end": -300,
+  "color": "#7d6608",
+  "trackId": "scythes",
+  "row": 7,
+  "isRiver": false,
+  "capitale": "Campements nomades",
+  "description": "Insaisissables seigneurs des steppes eurasiatiques, parmi les premiers maîtres de la cavalerie légère tirant à l'arc, qui mirent à genoux l'armée de l'Empire Perse.",
+  "territories": ["Scythians", "Proto-Scythian culture"],
+  "datesCles": [
+    {
+      "annee": -513,
+      "evenement": "L'invasion de Darius",
+      "info": "Darius Ier (Perse) tente de les soumettre mais s'épuise dans les steppes."
+    },
+    {
+      "annee": -339,
+      "evenement": "Défaite face à Philippe II",
+      "info": "L'armée macédonienne (père d'Alexandre) bat le roi Ateas, amorçant le déclin scythe."
+    }
+  ],
+  "dirigeants": [
+    {
+      "titre": "Roi scythe",
+      "nom": "Ateas",
+      "surnom": "Dates de vie approximatives (vers -429 à -339), règne mal connu",
+      "debut": -429,
+      "fin": -339
+    }
+  ],
+  "personnages": [],
+  "guerres": [
+    {
+      "nom": "Campagne perse contre les Scythes",
+      "annee": -513,
+      "adversaires": ["Empire Achéménide (Darius Ier)"],
+      "allies": [],
+      "morts": "Armée perse décimée par la famine",
+      "vainqueur": "Scythes",
+      "consequences": "Humiliation diplomatique de l'Empire Perse qui abandonne la conquête des steppes nordiques.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Scythes"
+    }
+  ],
+  "sciences": "Leur innovation technologique bouleverse l'histoire militaire : l'arc scythe (petit, symétrique, composite de bois, corne et tendon) permet de tirer à très grande vitesse depuis le dos d'un cheval lancé au galop. Ils sont aussi parmi les premiers à porter le pantalon, indispensable pour monter à cheval.",
+  "croyancesText": "Le chamanisme nomade règne. Ils scellent des serments de sang, consomment du cannabis sous des tentes pour entrer en transe purificatrice. La mort des élites (les Kourganes) est accompagnée de sacrifices colossaux d'hommes (serviteurs) et de centaines de chevaux, enterrés sous de gigantesques tumulus de terre avec des parures en or d'art animalier.",
+  "diplomatie": "Ce peuple ne possède ni villes, ni temples de pierre, ni champs cultivés, ce qui les rend invincibles. Leur tactique stratégique est la 'terre brûlée' : face à une armée impériale lourde (comme les Perses), ils reculent à l'infini dans les steppes, empoisonnent les puits et harcèlent l'ennemi de nuit jusqu'à la mutinerie des troupes adverses.",
+  "documentaires": [{ "titre": "L'or et les flèches : Les Scythes", "url": "https://fr.wikipedia.org/wiki/Scythes" }]
+}

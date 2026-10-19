@@ -1,0 +1,74 @@
+{
+  "id": "azteque",
+  "label": "Empire aztèque",
+  "tier": 1,
+  "region": "mesoamerique",
+  "period": "1428 à 1521",
+  "start": 1428,
+  "end": 1521,
+  "trackId": "mesoamerique",
+  "row": 1,
+  "isRiver": false,
+  "capitale": "Tenochtitlan (Mexico)",
+  "description": "Un peuple de mercenaires devenu la superpuissance mésoaméricaine d'une ville lacustre féérique, foudroyé à son apogée par le choc viral et militaire des conquistadors espagnols.",
+  "territories": ["Aztec Empire"],
+  "datesCles": [
+    {
+      "annee": 1428,
+      "evenement": "La Triple Alliance",
+      "info": "Tenochtitlan s'allie avec Texcoco et Tlacopan, formant l'Empire aztèque."
+    },
+    {
+      "annee": 1487,
+      "evenement": "Inauguration du Templo Mayor",
+      "info": "L'Empereur Ahuitzotl sacrifie des milliers de captifs en quatre jours."
+    },
+    {
+      "annee": 1519,
+      "evenement": "L'Arrivée de Cortés",
+      "info": "Les Espagnols entrent dans la métropole d'eau et sont éblouis par sa propreté et sa taille (200 000 hab)."
+    },
+    {
+      "annee": 1521,
+      "evenement": "La Chute",
+      "info": "Siège, famine, variole et assaut final. La ville est rasée pour construire Mexico."
+    }
+  ],
+  "dirigeants": [
+    { "titre": "Tlatoani (Empereur)", "nom": "Ahuitzotl", "debut": 1486, "fin": 1502 },
+    { "titre": "Tlatoani", "nom": "Moctezuma II", "debut": 1502, "fin": 1520 },
+    { "titre": "Dernier Tlatoani", "nom": "Cuauhtémoc", "surnom": "L'Aigle qui tombe", "debut": 1520, "fin": 1521 }
+  ],
+  "personnages": [
+    {
+      "nom": "Hernán Cortés",
+      "role": "Conquistador",
+      "description": "Aventurier castillan impitoyable et stratège de génie, qui exploita les haines locales pour renverser l'Empire.",
+      "dates": "1485 à 1547",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Hern%C3%A1n_Cort%C3%A9s"
+    },
+    {
+      "nom": "La Malinche (Doña Marina)",
+      "role": "Interprète",
+      "description": "Esclave indigène offerte à Cortés. Maîtrisant le nahuatl et le maya, son rôle fut déterminant dans la chute de son propre peuple.",
+      "dates": "≈ 1500 à 1529",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/La_Malinche"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Siège de Tenochtitlan",
+      "annee": 1521,
+      "adversaires": ["Conquistadors Espagnols"],
+      "allies": ["Centaines de milliers de Tlaxcaltèques et Totonaques"],
+      "morts": "Anéantissement démographique aztèque (glaive + variole)",
+      "vainqueur": "Espagne (Hernán Cortés)",
+      "consequences": "Chute définitive du monde précolombien. Sur les ruines du Templo Mayor sanglant, les prêtres catholiques édifient la future cathédrale de Mexico.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Chute_de_l%27Empire_azt%C3%A8que"
+    }
+  ],
+  "sciences": "Construite au milieu d'un lac d'altitude, Tenochtitlan est la 'Venise du Nouveau Monde'. L'ingénierie aztèque invente les 'Chinampas' (jardins flottants) : d'immenses radeaux d'osier recouverts de boue fertile fixés au fond du lac par des racines de saule, permettant d'obtenir jusqu'à 7 récoltes annuelles de maïs pour nourrir une mégalopole gargantuesque traversée de canaux et d'aqueducs d'eau douce.",
+  "croyancesText": "C'est la religion de l'Apocalypse (le mythe du 5ème Soleil). L'univers est voué à mourir si le soleil (Huitzilopochtli) s'arrête. Le seul 'carburant' cosmique capable de nourrir l'astre est l'eau précieuse (le sang humain). Cette terreur eschatologique justifie l'institutionnalisation des sacrifices humains : l'arrachage du cœur palpitant au couteau d'obsidienne en haut du Templo Mayor. La mort au combat ou sacrifié est la seule garantissant le paradis.",
+  "diplomatie": "Pour maintenir le stock de prisonniers nécessaires aux sacrifices (et l'apport en cacao, coton et jade), les Aztèques mènent des 'Guerres Fleuries' (Xochiyaoyotl). Des batailles arrangées ritualisées contre des royaumes vassaux (Tlaxcala) où le but n'est pas de tuer, mais de capturer vivant. Ces peuples opprimés, haïssant la tyrannie de Tenochtitlan, fourniront les dizaines de milliers d'alliés indispensables à la victoire espagnole.",
+  "documentaires": [{ "titre": "Le dernier jour des Aztèques", "url": "https://fr.wikipedia.org/wiki/Azt%C3%A8ques" }]
+}

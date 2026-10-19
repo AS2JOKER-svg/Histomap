@@ -1,0 +1,98 @@
+{
+  "id": "rome",
+  "label": "Rome antique",
+  "tier": 1,
+  "region": "italie",
+  "period": "-753 à 476",
+  "start": -753,
+  "end": 476,
+  "trackId": "rome",
+  "row": 3,
+  "isRiver": true,
+  "capitale": "Rome",
+  "description": "D'une petite bourgade pastorale au plus grand et au plus structuré des empires occidentaux, dictant la loi, l'architecture et la langue (le latin) à toute l'Europe.",
+  "territories": [
+    "Rome",
+    "Roman Republic",
+    "Roman Empire",
+    "Western Roman Empire",
+    "Rome (Constantinus)",
+    "Rome (Diocletianus)",
+    "Rome (Galerius)",
+    "Rome (Maximian)"
+  ],
+  "datesCles": [
+    {
+      "annee": -753,
+      "evenement": "Fondation mythique",
+      "info": "Romulus fonde la ville sur le Mont Palatin après avoir tué son frère Rémus."
+    },
+    {
+      "annee": -509,
+      "evenement": "Instauration de la République",
+      "info": "Création d'un régime oligarchique dirigé par le Sénat (SPQR)."
+    },
+    {
+      "annee": -44,
+      "evenement": "Assassinat de César",
+      "info": "La crise des guerres civiles sonne le glas de la République."
+    },
+    {
+      "annee": -27,
+      "evenement": "L'Empire romain",
+      "info": "Octave (Auguste) centralise le pouvoir absolu et instaure la Pax Romana."
+    },
+    {
+      "annee": 476,
+      "evenement": "Chute de l'Occident",
+      "info": "Le chef germanique Odoacre dépose le dernier empereur romain d'Occident, Romulus Augustule."
+    }
+  ],
+  "dirigeants": [
+    { "titre": "Dictateur à vie", "nom": "Jules César", "surnom": "Imperator", "debut": -49, "fin": -44 },
+    { "titre": "Empereur", "nom": "Auguste", "surnom": "Le Vénérable", "debut": -27, "fin": 14 },
+    { "titre": "Empereur", "nom": "Trajan", "surnom": "L'Optimus Princeps", "debut": 98, "fin": 117 }
+  ],
+  "personnages": [
+    {
+      "nom": "Cicéron",
+      "role": "Consul et Orateur",
+      "description": "Sauveur de la République contre Catilina, ses écrits philosophiques et rhétoriques fondent l'humanisme européen.",
+      "dates": "-106 à -43",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Cic%C3%A9ron"
+    },
+    {
+      "nom": "Constantin",
+      "role": "Empereur",
+      "description": "Légalise le christianisme et déplace la capitale à Constantinople, assurant la survie de l'Empire en Orient (Byzance).",
+      "dates": "272 à 337",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Constantin_Ier_(empereur_romain)"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerre des Gaules",
+      "annee": -58,
+      "adversaires": ["Confédération de tribus gauloises (Vercingétorix)"],
+      "allies": ["Tribus rèmes et éduennes"],
+      "morts": "1 million de morts, 1 million d'esclaves",
+      "vainqueur": "Jules César",
+      "consequences": "L'annexion totale de la Gaule enrichit démesurément César, qui utilise son armée aguerrie pour franchir le Rubicon et prendre Rome.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_des_Gaules"
+    },
+    {
+      "nom": "Troisième Guerre Punique",
+      "annee": -149,
+      "adversaires": ["Carthage"],
+      "allies": ["Numidie"],
+      "morts": "300 000 morts civils",
+      "vainqueur": "Rome (Scipion Émilien)",
+      "consequences": "Éradication totale de la rivale carthaginoise de la carte, Rome contrôle incontestablement la Méditerranée.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Troisi%C3%A8me_guerre_punique"
+    }
+  ],
+  "sciences": "Leur suprématie est ingénierique, pragmatique et militaire. L'invention du béton de pouzzolane, qui durcit sous l'eau, leur permet de bâtir le dôme du Panthéon et des digues massives. Ils quadrillent l'Europe d'un réseau de plus de 100 000 km de routes empierrées, d'aqueducs pour la salubrité urbaine (thermes), et inventent le Droit romain, base absolue de l'organisation juridique occidentale.",
+  "croyancesText": "Originellement un panthéon civique très influencé par la Grèce (la Triade capitoline : Jupiter, Junon, Minerve), la religion romaine est transactionnelle (do ut des : je donne pour que tu donnes). Le culte devient politique avec la divinisation des empereurs. Face aux crises morales et barbares du IIIe siècle, l'Empire bascule vers le monothéisme, le christianisme devenant la seule religion d'État en 380 (Édit de Thessalonique).",
+  "diplomatie": "La devise romaine 'Divide et impera' (Diviser pour régner) résume leur stratégie. Les peuples soumis se voient offrir divers statuts (socii, citoyenneté partielle, rois-clients) pour éviter toute rébellion coalisée. C'est le rouleau compresseur de la légion manipulaire puis cohorte (réforme de Marius) qui impose la Paix Romaine, financée par un système d'imposition intraitable et la traite d'esclaves massive.",
+  "documentaires": [{ "titre": "Nota Bene : L'armée Romaine", "url": "https://fr.wikipedia.org/wiki/Rome_antique" }]
+}

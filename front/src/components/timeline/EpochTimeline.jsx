@@ -247,7 +247,7 @@ function Bar({ item, index, scale, epoch, selected, dimmed, read, pulse, onSelec
   const top = item.lane * (LANE_H + LANE_GAP)
   const fg = readableText(civ.color)
   const showPeriod = labelInside && textWidth(civ.period, '400 10.5px Inter, system-ui, sans-serif') + 20 <= w
-  const events = w > 36 ? (civ.datesCles ?? []).filter((d) => d.annee >= epoch.start && d.annee <= epoch.end) : []
+  const events = w > 36 ? (civ.eventYears ?? []).filter((y) => y >= epoch.start && y <= epoch.end) : []
 
   return (
     <>
@@ -284,11 +284,11 @@ function Bar({ item, index, scale, epoch, selected, dimmed, read, pulse, onSelec
             {showPeriod && <span className="block text-[10.5px] leading-tight opacity-80 truncate">{civ.period}</span>}
           </span>
         )}
-        {events.map((d, i) => (
+        {events.map((year, i) => (
           <span
             key={i}
             className="absolute bottom-[3px] w-1 h-1 -ml-0.5 rounded-full"
-            style={{ left: scale.x(d.annee) - x, background: fg, opacity: 0.55 }}
+            style={{ left: scale.x(year) - x, background: fg, opacity: 0.55 }}
           />
         ))}
         {overflowBefore && <span className="absolute left-0.5 top-0.5 text-[10px] leading-none opacity-80">‹</span>}

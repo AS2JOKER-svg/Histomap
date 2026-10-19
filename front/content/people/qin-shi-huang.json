@@ -1,0 +1,32 @@
+{
+  "id": "qin-shi-huang",
+  "nom": "Qin Shi Huang",
+  "role": "Premier Empereur de Chine",
+  "roles": ["Roi de Qin", "Empereur"],
+  "dates": "−259 → −210",
+  "naissance": -259,
+  "mort": -210,
+  "description": "Roi de Qin qui conquiert les six autres royaumes chinois et se proclame en −221 « Premier Empereur ». Il impose des règles communes à tout l’empire, mais gouverne par la terreur.",
+  "reperes": [
+    { "label": "Roi de Qin", "valeur": "−247 → −221" },
+    { "label": "Empereur", "valeur": "−221 → −210" },
+    { "label": "Tombeau", "valeur": "Près de Xi’an", "precision": "avec l’armée de terre cuite" }
+  ],
+  "essentiel": [
+    "En dix ans, il conquiert les royaumes rivaux et unifie la Chine.",
+    "Il impose une même écriture, une même monnaie, les mêmes poids et mesures, et même un écartement unique des essieux de chars.",
+    "Il fait relier les murailles du nord et construire des routes et des canaux.",
+    "Il fait brûler des livres et persécute les lettrés qui le critiquent.",
+    "Obsédé par l’immortalité, il meurt pendant un voyage ; son empire s’effondre quatre ans plus tard."
+  ],
+  "chronologie": [
+    { "annee": -247, "texte": "Devient roi de Qin" },
+    { "annee": -221, "texte": "Unification et titre de Premier Empereur" },
+    { "annee": -213, "texte": "Autodafé des livres" },
+    { "annee": -210, "texte": "Mort pendant une tournée dans l’empire" }
+  ],
+  "aSavoir": [
+    "Son tombeau principal n’a jamais été ouvert : les archéologues attendent des techniques capables de le préserver."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Qin_Shi_Huang"
+}

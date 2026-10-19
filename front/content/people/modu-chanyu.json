@@ -1,0 +1,16 @@
+{
+  "id": "modu-chanyu",
+  "nom": "Modu Chanyu",
+  "role": "Chanyu des Xiongnu",
+  "roles": ["Chanyu", "Conquérant"],
+  "dates": "règne −209 → −174",
+  "mort": -174,
+  "description": "Chef xiongnu qui prend le pouvoir en tuant son père et unit les nomades des steppes en une confédération capable de faire plier le premier empereur Han.",
+  "essentiel": [
+    "Selon Sima Qian, il entraîne ses archers à tirer sur toute cible visée par sa flèche sifflante, puis s’en sert pour tuer son père.",
+    "Il soumet les peuples voisins, dont les Donghu et les Yuezhi.",
+    "À [[bataille-de-baideng|Baideng]], il encercle l’empereur Gaozu et lui impose le heqin."
+  ],
+  "aSavoir": ["Il aurait écrit à l’impératrice Lü Zhi pour lui proposer le mariage, ce qu’elle prit comme une insulte."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Modu_Chanyu"
+}

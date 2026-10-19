@@ -10,52 +10,216 @@
   "row": 6,
   "isRiver": false,
   "capitale": "Pataliputra",
-  "description": "Le premier empire centralisé du sous-continent indien, célèbre pour le règne d'Ashoka qui transforma une doctrine politique militariste en empire de la tolérance bouddhique.",
+  "description": "Le premier empire à unifier presque tout le sous-continent indien. Son empereur Ashoka, après une guerre sanglante, se tourne vers le bouddhisme et fait graver ses principes dans tout l’empire.",
   "territories": ["Mauryan Empire"],
   "datesCles": [
     {
       "annee": -322,
-      "evenement": "Fondation",
-      "info": "Chandragupta Maurya unifie le nord de l'Inde dans le chaos post-Alexandre le Grand."
+      "evenement": "Fondation de l’empire",
+      "info": "Chandragupta Maurya renverse les Nanda et prend Pataliputra."
+    },
+    {
+      "annee": -303,
+      "evenement": "Traité avec Séleucos",
+      "info": "Le roi grec Séleucos Ier cède à Chandragupta l’est de l’Afghanistan contre 500 éléphants."
     },
     {
       "annee": -261,
       "evenement": "Guerre du Kalinga",
-      "info": "Victoire si sanglante que l'empereur Ashoka renonce à jamais à la violence."
+      "info": "La conquête du Kalinga fait des centaines de milliers de victimes selon Ashoka lui-même.",
+      "ref": "guerre-du-kalinga"
     },
     {
       "annee": -250,
-      "evenement": "Édits d'Ashoka",
-      "info": "L'empereur fait graver des piliers partout en Inde pour diffuser les valeurs bouddhistes du Dharma."
+      "evenement": "Édits d’Ashoka",
+      "info": "L’empereur fait graver dans tout l’empire ses principes de morale et de tolérance, le dharma."
+    },
+    {
+      "annee": -185,
+      "evenement": "Fin de l’empire",
+      "info": "Le dernier empereur, Brihadratha, est assassiné par son général Pushyamitra Shunga."
     }
   ],
   "dirigeants": [
-    { "titre": "Samrat (Empereur)", "nom": "Chandragupta", "debut": -322, "fin": -298 },
-    { "titre": "Samrat", "nom": "Ashoka", "surnom": "Le Grand / Le Cruel devenu Le Pieux", "debut": -268, "fin": -232 }
+    {
+      "nom": "Chandragupta",
+      "titre": "Empereur",
+      "debut": -322,
+      "fin": -298,
+      "dynastie": "maurya",
+      "personne": "chandragupta-maurya",
+      "note": "fondateur ; devient moine jaïn selon la tradition",
+      "cle": true
+    },
+    {
+      "nom": "Bindusara",
+      "titre": "Empereur",
+      "debut": -298,
+      "fin": -273,
+      "dynastie": "maurya",
+      "note": "étend l’empire vers le sud",
+      "cle": true
+    },
+    {
+      "nom": "Ashoka",
+      "titre": "Empereur",
+      "debut": -268,
+      "fin": -232,
+      "dynastie": "maurya",
+      "personne": "ashoka",
+      "note": "se convertit au bouddhisme",
+      "cle": true
+    },
+    { "nom": "Dasharatha", "titre": "Empereur", "debut": -232, "fin": -224, "dynastie": "maurya" },
+    {
+      "nom": "Samprati",
+      "titre": "Empereur",
+      "debut": -224,
+      "fin": -215,
+      "dynastie": "maurya",
+      "note": "protecteur du jaïnisme"
+    },
+    { "nom": "Shalishuka", "titre": "Empereur", "debut": -215, "fin": -202, "dynastie": "maurya" },
+    { "nom": "Devavarman", "titre": "Empereur", "debut": -202, "fin": -195, "dynastie": "maurya" },
+    { "nom": "Shatadhanvan", "titre": "Empereur", "debut": -195, "fin": -187, "dynastie": "maurya" },
+    {
+      "nom": "Brihadratha",
+      "titre": "Empereur",
+      "debut": -187,
+      "fin": -185,
+      "dynastie": "maurya",
+      "note": "assassiné par son général"
+    }
   ],
   "personnages": [
     {
+      "nom": "Ashoka",
+      "role": "Empereur",
+      "description": "Après la sanglante conquête du Kalinga, il se tourne vers le bouddhisme et fait graver ses principes dans tout l’empire.",
+      "dates": "règne vers −268 → −232",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Ashoka",
+      "ref": "ashoka"
+    },
+    {
+      "nom": "Chandragupta Maurya",
+      "role": "Fondateur de l’empire",
+      "description": "Il unifie le nord de l’Inde et tient tête aux successeurs grecs d’Alexandre.",
+      "dates": "règne vers −322 → −298",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Chandragupta_Maurya",
+      "ref": "chandragupta-maurya"
+    },
+    {
       "nom": "Chanakya (Kautilya)",
-      "role": "Ministre et Stratège",
-      "description": "L'équivalent indien de Machiavel. Auteur de l'Arthashastra, un traité politique de cynisme et d'espionnage d'État redoutable.",
-      "dates": "≈ -350 à -283",
-      "wikiUrl": "https://fr.wikipedia.org/wiki/Ch%C3%A2nakya"
+      "role": "Conseiller et penseur politique",
+      "description": "Conseiller de Chandragupta ; la tradition lui attribue l’Arthashastra, un traité sur l’art de gouverner, d’espionner et de faire la guerre, qui a sans doute été complété plus tard.",
+      "dates": "IVe siècle av. J.-C.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Kautilya"
+    },
+    {
+      "nom": "Mégasthène",
+      "role": "Ambassadeur grec",
+      "description": "Envoyé de Séleucos Ier à Pataliputra, il décrit l’Inde maurya dans un livre dont il reste des extraits.",
+      "dates": "vers −350 → −290",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/M%C3%A9gasth%C3%A8ne"
     }
   ],
   "guerres": [
     {
       "nom": "Guerre du Kalinga",
       "annee": -261,
-      "adversaires": ["République du Kalinga"],
+      "adversaires": ["Royaume du Kalinga"],
       "allies": [],
-      "morts": "100 000 soldats, 150 000 civils",
+      "morts": "Selon Ashoka lui-même : 100 000 tués et 150 000 déportés, sans compter les victimes de la guerre",
       "vainqueur": "Empire Maurya",
       "consequences": "Traumatisme moral et spirituel majeur d'Ashoka entraînant sa conversion au bouddhisme et la fin des conquêtes.",
       "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_du_Kalinga"
     }
   ],
-  "sciences": "Sous l'impulsion de l'Arthashastra, l'État maurya est une immense machine bureaucratique. L'Inde standardise les poids, mesures et monnaies. La médecine ayurvédique et la chirurgie de guerre se perfectionnent, et Pataliputra devient l'une des villes les plus immenses et majestueuses du monde, entourée, selon l'ambassadeur grec Mégasthène, d'une palissade de bois percée de 64 portes.",
-  "croyancesText": "Le règne d'Ashoka est la plateforme de lancement mondiale du bouddhisme. Choqué par les atrocités de la guerre, l'empereur se convertit et instaure l'Ahimsa (la non-violence absolue envers les humains et les animaux). Il ne persécute pas l'Hindouisme ou le Jaïnisme, imposant au contraire une tolérance religieuse d'État révolutionnaire financée par le trésor impérial.",
-  "diplomatie": "Avant Ashoka, la diplomatie repose sur l'espionnage paranoïaque et les armées d'éléphants. Après sa conversion, l'expansion militaire s'arrête net. Ashoka envoie alors des missionnaires (ambassadeurs religieux) vers la Perse, la Syrie, l'Égypte gréco-macédonienne et au Sri Lanka pour prêcher le Dharma, substituant la conquête militaire par le soft-power culturel.",
-  "documentaires": [{ "titre": "Ashoka, l'empereur bouddhiste de l'Inde", "url": "https://fr.wikipedia.org/wiki/Empire_Maurya" }]
+  "sciences": "L’empire est administré par une bureaucratie nombreuse : impôts, routes, poids et mesures, irrigation. L’ambassadeur grec Mégasthène décrit Pataliputra comme une ville immense, entourée d’une palissade de bois percée de 64 portes et de 570 tours. Les piliers d’Ashoka, d’un seul bloc de grès poli, hauts de plus de 12 mètres, témoignent d’un grand savoir-faire.",
+  "croyancesText": "Le brahmanisme (ancêtre de l’hindouisme), le bouddhisme et le jaïnisme coexistent. Chandragupta finit sa vie comme moine jaïn selon la tradition. Ashoka se tourne vers le bouddhisme après la guerre du Kalinga : il recommande le respect de la vie, la tolérance entre religions et la bienveillance, tout en gardant une armée et la peine de mort.",
+  "diplomatie": "Chandragupta conclut un traité avec Séleucos Ier, qui envoie un ambassadeur, Mégasthène. Ashoka cite dans ses édits cinq rois grecs auprès desquels il a envoyé des messagers, de l’Égypte à la Macédoine, et envoie son fils Mahinda répandre le bouddhisme au Sri Lanka.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": { "valeur": "Pataliputra", "precision": "aujourd’hui Patna, dans l’État du Bihar" },
+    "regimes": { "valeur": "Empire", "precision": "un empereur, des ministres et une administration très organisée" },
+    "langues": {
+      "valeur": "Prakrits",
+      "precision": "langues issues du sanskrit ; édits d’Ashoka écrits en brahmi, et aussi en grec et en araméen à l’ouest"
+    },
+    "religion": {
+      "valeur": "Brahmanisme, bouddhisme, jaïnisme",
+      "precision": "Ashoka soutient le bouddhisme tout en respectant les autres religions"
+    },
+    "apogee": { "valeur": "Vers −260", "precision": "sous Ashoka, de l’Afghanistan au sud de l’Inde" },
+    "population": { "valeur": "Peut-être 50 millions", "precision": "estimation très incertaine" },
+    "monnaie": { "valeur": "Monnaies poinçonnées en argent", "precision": "le karshapana" },
+    "duree": { "valeur": "Environ 140 ans" },
+    "aujourdhui": { "valeur": "Inde", "precision": "et le Pakistan, le Bangladesh, le Népal et l’est de l’Afghanistan" }
+  },
+  "essentiel": [
+    "Vers −322, [[chandragupta-maurya|Chandragupta Maurya]] renverse la dynastie Nanda et unifie le nord de l’Inde, après le départ d’Alexandre le Grand.",
+    "Il bat le roi grec Séleucos Ier, qui lui cède l’est de l’Afghanistan en échange de 500 éléphants de guerre.",
+    "Son petit-fils [[ashoka|Ashoka]] conquiert le Kalinga lors d’une [[guerre-du-kalinga|guerre très meurtrière]], puis se tourne vers le bouddhisme.",
+    "Ashoka fait graver ses [[edits-d-ashoka|édits]] sur des rochers et des piliers dans tout l’empire, et envoie des missionnaires bouddhistes jusqu’au Sri Lanka.",
+    "L’empire décline après lui et disparaît en −185, quand le dernier empereur est assassiné par son général."
+  ],
+  "periodes": [
+    {
+      "nom": "La fondation",
+      "debut": -322,
+      "fin": -273,
+      "resume": "Chandragupta, aidé de son conseiller Chanakya, conquiert le nord de l’Inde ; son fils Bindusara étend l’empire vers le sud.",
+      "evenements": [{ "annee": -303, "evenement": "Traité avec Séleucos Ier" }]
+    },
+    {
+      "nom": "Le règne d’Ashoka",
+      "debut": -268,
+      "fin": -232,
+      "resume": "Après la guerre du Kalinga, Ashoka gouverne selon le dharma, soutient le bouddhisme et fait graver ses édits.",
+      "evenements": [
+        { "annee": -261, "evenement": "Guerre du Kalinga", "ref": "guerre-du-kalinga" },
+        { "annee": -250, "evenement": "Concile bouddhique de Pataliputra (selon la tradition)" }
+      ]
+    },
+    {
+      "nom": "Le déclin",
+      "debut": -232,
+      "fin": -185,
+      "resume": "Les successeurs d’Ashoka règnent sur un empire qui se fragmente."
+    }
+  ],
+  "dynasties": [
+    {
+      "id": "maurya",
+      "nom": "Les empereurs Maurya",
+      "debut": -322,
+      "fin": -185,
+      "note": "Liste complète ; dates approximatives, surtout après Ashoka."
+    }
+  ],
+  "societe": "La société est divisée en groupes héréditaires (varnas) : prêtres, guerriers, marchands et paysans, serviteurs. Mégasthène décrit sept groupes, dont les philosophes, les paysans et les soldats.",
+  "economie": "Agriculture irriguée (riz, blé, coton), impôt sur les récoltes, artisanat, commerce sur les grandes routes, comme la route royale de Taxila à Pataliputra.",
+  "decouvertes": ["edits-d-ashoka"],
+  "arts": "Piliers d’Ashoka couronnés de lions, comme le chapiteau de Sarnath, premiers stupas (Sanchi), grottes creusées dans la roche (Barabar) : les débuts de l’art bouddhique.",
+  "quotidien": "La plupart des habitants sont paysans. Ashoka fait planter des arbres, creuser des puits et créer des abris le long des routes pour les voyageurs et les animaux.",
+  "heritage": [
+    {
+      "titre": "Les symboles de l’Inde",
+      "texte": "Le chapiteau aux lions de Sarnath est l’emblème officiel de l’Inde, et la roue d’Ashoka figure sur son drapeau."
+    },
+    {
+      "titre": "Le bouddhisme en Asie",
+      "texte": "Les missions d’Ashoka contribuent à faire du bouddhisme une religion répandue dans toute l’Asie."
+    }
+  ],
+  "aSavoir": [
+    "L’écriture brahmi des édits avait été oubliée : elle n’a été déchiffrée qu’en 1837, par le Britannique James Prinsep, ce qui a fait redécouvrir Ashoka."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Empire_Maurya",
+    {
+      "titre": "Encyclopædia Britannica — Mauryan empire",
+      "url": "https://www.britannica.com/topic/Mauryan-empire"
+    }
+  ]
 }

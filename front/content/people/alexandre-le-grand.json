@@ -24,6 +24,7 @@
     { "annee": -336, "texte": "Devient roi après l’assassinat de son père" },
     { "annee": -334, "texte": "Victoire du Granique" },
     { "annee": -333, "texte": "Victoire d’Issos" },
+    { "annee": -332, "texte": "Prise de Tyr", "ref": "siege-de-tyr" },
     { "annee": -332, "texte": "Conquête de l’Égypte", "ref": "conquete-alexandre-egypte" },
     { "annee": -331, "texte": "Victoire de Gaugamèles", "ref": "bataille-de-gaugameles" },
     { "annee": -326, "texte": "Bataille de l’Hydaspe, en Inde" },

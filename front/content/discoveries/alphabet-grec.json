@@ -4,7 +4,7 @@
   "annee": -800,
   "domaine": "Écriture",
   "dates": "vers −800",
-  "description": "Les Grecs adaptent l’alphabet des Phéniciens et lui ajoutent des voyelles : c’est le premier alphabet à noter à la fois les consonnes et les voyelles.",
+  "description": "Les Grecs adaptent l’[[alphabet-phenicien|alphabet des Phéniciens]] et lui ajoutent des voyelles : c’est le premier alphabet à noter à la fois les consonnes et les voyelles.",
   "sections": [
     {
       "titre": "Comment ça marche",
@@ -16,5 +16,6 @@
     }
   ],
   "aSavoir": ["Le mot « alphabet » vient des deux premières lettres grecques : alpha et bêta."],
-  "wikiUrl": "https://fr.wikipedia.org/wiki/Alphabet_grec"
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Alphabet_grec",
+  "avant": "alphabet-phenicien"
 }

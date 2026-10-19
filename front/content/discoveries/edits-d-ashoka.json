@@ -1,0 +1,20 @@
+{
+  "id": "edits-d-ashoka",
+  "nom": "Édits d’Ashoka",
+  "annee": -250,
+  "domaine": "Écriture",
+  "dates": "vers −260 → −232",
+  "description": "Des textes gravés sur des rochers et des piliers dans tout l’empire, où [[ashoka|Ashoka]] s’adresse à ses sujets : les plus anciens textes écrits de l’Inde que l’on sache dater.",
+  "sections": [
+    {
+      "titre": "Ce qu’ils disent",
+      "texte": "L’empereur y prône le dharma : respect des parents et des maîtres, bienveillance envers les esclaves et les animaux, tolérance entre religions. Il y raconte aussi ses remords après la guerre du Kalinga."
+    },
+    {
+      "titre": "Où les trouve-t-on",
+      "texte": "On en connaît plusieurs dizaines, de l’Afghanistan au sud de l’Inde. À Kandahar, ils sont traduits en grec et en araméen pour les habitants de la région."
+    }
+  ],
+  "liens": [{ "ref": "ashoka", "relation": "L’empereur qui les fait graver" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/%C3%89dits_d%27Ashoka"
+}

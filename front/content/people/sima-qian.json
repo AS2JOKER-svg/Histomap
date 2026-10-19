@@ -1,0 +1,16 @@
+{
+  "id": "sima-qian",
+  "nom": "Sima Qian",
+  "role": "Historien",
+  "roles": ["Historien", "Astronome"],
+  "dates": "vers −145 → vers −86",
+  "naissance": -145,
+  "mort": -86,
+  "description": "Grand historien de la cour des Han, auteur des Mémoires historiques (Shiji), qui racontent l’histoire de la Chine depuis les origines légendaires jusqu’à son époque.",
+  "essentiel": [
+    "Il succède à son père comme grand astrologue de la cour et reprend son projet d’histoire.",
+    "Pour avoir défendu un général disgracié, il est condamné à la castration par [[han-wudi|Wudi]] ; il choisit de vivre pour achever son œuvre.",
+    "Ses Mémoires historiques mêlent récits, biographies et tableaux chronologiques : elles servent de modèle à toutes les histoires officielles chinoises."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Sima_Qian"
+}

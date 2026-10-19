@@ -1,0 +1,24 @@
+{
+  "id": "route-de-la-soie",
+  "nom": "Ouverture des routes de la soie",
+  "annee": -138,
+  "fin": -126,
+  "dates": "−138 → −126",
+  "lieu": "De Chang’an à l’Asie centrale",
+  "description": "L’empereur [[han-wudi|Wudi]] envoie l’explorateur Zhang Qian chercher des alliés contre les Xiongnu en Asie centrale. Ses récits ouvrent la voie aux routes commerciales entre la Chine et l’Occident.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Capturé par les Xiongnu, Zhang Qian reste leur prisonnier une dizaine d’années, s’échappe, atteint la Bactriane, puis rentre en Chine en −126 avec des informations sur des pays inconnus."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "La Chine envoie des ambassades et des caravanes vers l’ouest. Soie, laque et fer partent vers l’Asie centrale, l’Inde et la Méditerranée ; chevaux, raisin, luzerne et plus tard le bouddhisme arrivent en Chine."
+    }
+  ],
+  "liens": [{ "ref": "han-wudi", "relation": "L’empereur qui envoie l’expédition" }],
+  "aSavoir": [
+    "L’expression « route de la soie » a été inventée en 1877 par le géographe allemand Ferdinand von Richthofen."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Route_de_la_soie"
+}

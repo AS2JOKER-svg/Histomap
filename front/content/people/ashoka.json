@@ -1,0 +1,26 @@
+{
+  "id": "ashoka",
+  "nom": "Ashoka",
+  "role": "Empereur Maurya",
+  "roles": ["Empereur"],
+  "dates": "règne vers −268 → −232",
+  "mort": -232,
+  "description": "Empereur de l’Inde qui, horrifié par les massacres de la conquête du Kalinga, se tourne vers le bouddhisme et gouverne en prônant la non-violence, la tolérance et la bienveillance.",
+  "reperes": [{ "label": "Règne", "valeur": "vers −268 → −232" }, { "label": "Capitale", "valeur": "Pataliputra" }],
+  "essentiel": [
+    "Petit-fils de Chandragupta, il conquiert le Kalinga vers −261.",
+    "Dans ses [[edits-d-ashoka|édits]], il exprime ses remords pour les victimes de cette [[guerre-du-kalinga|guerre]].",
+    "Il soutient le bouddhisme, fait construire des stupas et envoie des missionnaires jusqu’au Sri Lanka.",
+    "Il demande le respect de toutes les religions et des animaux."
+  ],
+  "chronologie": [
+    { "annee": -268, "texte": "Début du règne" },
+    { "annee": -261, "texte": "Conquête du Kalinga", "ref": "guerre-du-kalinga" },
+    { "annee": -250, "texte": "Gravure de nombreux édits" },
+    { "annee": -232, "texte": "Mort" }
+  ],
+  "aSavoir": [
+    "Les textes bouddhistes plus tardifs le présentent d’abord comme un roi cruel, « Ashoka le Terrible » ; ces récits sont en partie légendaires."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Ashoka"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "revolte-des-turbans-jaunes",
+  "nom": "Révolte des Turbans jaunes",
+  "annee": 184,
+  "dates": "184 → vers 205",
+  "lieu": "Nord et est de la Chine",
+  "description": "Une immense révolte paysanne, menée par un mouvement religieux taoïste, ébranle la dynastie Han et ouvre la voie à la division de la Chine.",
+  "sections": [
+    {
+      "titre": "Contexte",
+      "texte": "Famines, épidémies et impôts écrasent les paysans, tandis que la cour est déchirée par les eunuques et les grandes familles."
+    },
+    {
+      "titre": "Déroulement",
+      "texte": "Le guérisseur Zhang Jue annonce l’avènement d’un « Ciel jaune ». Des centaines de milliers de rebelles, coiffés de foulards jaunes, se soulèvent. La révolte est écrasée par des généraux qui deviennent très puissants."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Les chefs de guerre se disputent l’empire ; en 220, le dernier empereur Han abdique. C’est le début de l’époque des Trois Royaumes."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/R%C3%A9bellion_des_Turbans_jaunes"
+}

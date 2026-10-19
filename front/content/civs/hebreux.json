@@ -11,50 +11,362 @@
   "row": 5,
   "isRiver": false,
   "capitale": "Jérusalem",
-  "description": "Un petit royaume sous constante pression impériale, dont l'invention du monothéisme radical et du texte biblique va changer l'histoire humaine à l'échelle planétaire.",
+  "description": "Les royaumes d’Israël et de Juda, puis la Judée, petit territoire entre les grands empires, où naît le monothéisme juif et où sont écrits les livres de la Bible hébraïque.",
   "territories": ["Kingdom of David and Solomon", "Judea"],
   "datesCles": [
     {
       "annee": -1000,
-      "evenement": "Royaume unifié",
-      "info": "Le roi David conquiert Jérusalem et y installe la capitale de Juda et d'Israël."
+      "evenement": "Jérusalem capitale",
+      "info": "Selon la Bible, le roi David prend Jérusalem et en fait sa capitale. Une stèle du IXe siècle av. J.-C. mentionne la « maison de David »."
     },
     {
       "annee": -960,
       "evenement": "Premier Temple",
-      "info": "Salomon construit le Temple abritant l'Arche d'Alliance."
+      "info": "Selon la Bible, Salomon construit le Temple de Jérusalem ; aucun vestige n’en a été retrouvé."
+    },
+    {
+      "annee": -722,
+      "evenement": "Chute de Samarie",
+      "info": "Les Assyriens détruisent le royaume d’Israël et déportent une partie de ses habitants."
+    },
+    {
+      "annee": -701,
+      "evenement": "Siège de Jérusalem",
+      "info": "Le roi assyrien Sennachérib assiège Jérusalem, qui résiste."
     },
     {
       "annee": -587,
-      "evenement": "L'Exil de Babylone",
-      "info": "Nebuchadnetsar détruit le Temple. C'est l'exil qui déclenche l'écriture de la Torah."
+      "evenement": "Destruction du Premier Temple",
+      "info": "Nabuchodonosor II prend Jérusalem et déporte une partie de la population à Babylone.",
+      "ref": "exil-a-babylone"
+    },
+    {
+      "annee": -538,
+      "evenement": "Retour d’exil",
+      "info": "Le roi perse Cyrus autorise les exilés à rentrer et à reconstruire le Temple."
+    },
+    {
+      "annee": -167,
+      "evenement": "Révolte des Maccabées",
+      "info": "Les Judéens se soulèvent contre le roi grec Antiochos IV, qui avait interdit leur culte."
+    },
+    {
+      "annee": -37,
+      "evenement": "Hérode le Grand",
+      "info": "Hérode devient roi de Judée avec l’appui de Rome et agrandit le Temple."
     },
     {
       "annee": 70,
       "evenement": "Destruction du Second Temple",
-      "info": "Les Romains écrasent la révolte juive, marquant le début de la grande Diaspora."
+      "info": "Les légions de Titus prennent Jérusalem et incendient le Temple.",
+      "ref": "destruction-du-second-temple"
     }
   ],
   "dirigeants": [
-    { "titre": "Roi", "nom": "David", "debut": -1010, "fin": -970 },
-    { "titre": "Roi", "nom": "Salomon", "surnom": "Le Sage", "debut": -970, "fin": -931 },
-    { "titre": "Tétrarque / Roi client", "nom": "Hérode", "surnom": "Le Grand", "debut": -37, "fin": -4 }
+    { "nom": "Saül", "titre": "Roi", "debut": -1030, "fin": -1010, "dynastie": "royaume-uni" },
+    {
+      "nom": "David",
+      "titre": "Roi",
+      "debut": -1010,
+      "fin": -970,
+      "dynastie": "royaume-uni",
+      "note": "fait de Jérusalem sa capitale",
+      "cle": true
+    },
+    {
+      "nom": "Salomon",
+      "titre": "Roi",
+      "debut": -970,
+      "fin": -931,
+      "dynastie": "royaume-uni",
+      "note": "bâtit le Temple selon la Bible",
+      "cle": true
+    },
+    {
+      "nom": "Jéroboam Ier",
+      "titre": "Roi d’Israël",
+      "debut": -931,
+      "fin": -910,
+      "dynastie": "israel",
+      "note": "premier roi du royaume du Nord"
+    },
+    { "nom": "Omri", "titre": "Roi d’Israël", "debut": -885, "fin": -874, "dynastie": "israel", "note": "fonde Samarie" },
+    {
+      "nom": "Achab",
+      "titre": "Roi d’Israël",
+      "debut": -874,
+      "fin": -853,
+      "dynastie": "israel",
+      "note": "époux de Jézabel"
+    },
+    {
+      "nom": "Jéhu",
+      "titre": "Roi d’Israël",
+      "debut": -841,
+      "fin": -814,
+      "dynastie": "israel",
+      "note": "représenté sur l’obélisque noir de Salmanazar III"
+    },
+    {
+      "nom": "Osée",
+      "titre": "Roi d’Israël",
+      "debut": -732,
+      "fin": -722,
+      "dynastie": "israel",
+      "note": "dernier roi d’Israël"
+    },
+    { "nom": "Roboam", "titre": "Roi de Juda", "debut": -931, "fin": -913, "dynastie": "juda", "note": "fils de Salomon" },
+    {
+      "nom": "Ézéchias",
+      "titre": "Roi de Juda",
+      "debut": -716,
+      "fin": -687,
+      "dynastie": "juda",
+      "note": "résiste à Sennachérib",
+      "cle": true
+    },
+    {
+      "nom": "Josias",
+      "titre": "Roi de Juda",
+      "debut": -640,
+      "fin": -609,
+      "dynastie": "juda",
+      "note": "grande réforme religieuse"
+    },
+    {
+      "nom": "Sédécias",
+      "titre": "Roi de Juda",
+      "debut": -597,
+      "fin": -587,
+      "dynastie": "juda",
+      "note": "dernier roi de Juda"
+    },
+    {
+      "nom": "Judas Maccabée",
+      "titre": "Chef de la révolte",
+      "debut": -167,
+      "fin": -160,
+      "dynastie": "hasmoneens",
+      "note": "reprend le Temple en −164"
+    },
+    { "nom": "Jean Hyrcan Ier", "titre": "Grand prêtre et prince", "debut": -134, "fin": -104, "dynastie": "hasmoneens" },
+    { "nom": "Alexandre Jannée", "titre": "Roi", "debut": -103, "fin": -76, "dynastie": "hasmoneens" },
+    {
+      "nom": "Salomé Alexandra",
+      "titre": "Reine",
+      "debut": -76,
+      "fin": -67,
+      "dynastie": "hasmoneens",
+      "note": "seule reine de la dynastie"
+    },
+    {
+      "nom": "Hérode Ier",
+      "titre": "Roi de Judée (allié de Rome)",
+      "surnom": "le Grand",
+      "debut": -37,
+      "fin": -4,
+      "dynastie": "herodiens",
+      "personne": "herode-le-grand",
+      "cle": true
+    },
+    {
+      "nom": "Agrippa Ier",
+      "titre": "Roi de Judée",
+      "debut": 41,
+      "fin": 44,
+      "dynastie": "herodiens",
+      "note": "dernier roi de Judée"
+    }
   ],
-  "personnages": [],
+  "personnages": [
+    {
+      "nom": "Hérode le Grand",
+      "role": "Roi de Judée",
+      "description": "Roi allié de Rome, grand bâtisseur et souverain impitoyable, il reconstruit le Temple de Jérusalem.",
+      "dates": "vers −73 → −4",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/H%C3%A9rode_Ier_le_Grand",
+      "ref": "herode-le-grand"
+    },
+    {
+      "nom": "Flavius Josèphe",
+      "role": "Historien",
+      "description": "Chef juif rallié aux Romains pendant la grande révolte, il en écrit l’histoire ; c’est notre principale source sur cette époque.",
+      "dates": "37 → vers 100",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Flavius_Jos%C3%A8phe"
+    },
+    {
+      "nom": "Judas Maccabée",
+      "role": "Chef de la révolte",
+      "description": "Il mène la révolte contre le roi grec Antiochos IV et reprend le Temple en −164, événement célébré par la fête de Hanoukka.",
+      "dates": "mort en −160",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Judas_Maccab%C3%A9e"
+    }
+  ],
   "guerres": [
+    {
+      "nom": "Révolte des Maccabées",
+      "annee": -167,
+      "adversaires": ["Royaume séleucide (Antiochos IV)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Les Maccabées",
+      "consequences": "Le Temple est repris et purifié en −164 ; la dynastie hasmonéenne obtient ensuite l’indépendance de la Judée.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/R%C3%A9volte_des_Maccab%C3%A9es"
+    },
     {
       "nom": "Première Guerre judéo-romaine",
       "annee": 66,
-      "adversaires": ["Empire Romain (Titus)"],
+      "adversaires": ["Empire romain (Vespasien, puis Titus)"],
       "allies": [],
-      "morts": "Extrêmement massives, famine",
+      "morts": "Très lourdes ; Flavius Josèphe avance plus d’un million de morts, un chiffre sans doute exagéré",
       "vainqueur": "Rome",
-      "consequences": "Incendie et destruction absolue de Jérusalem et du Second Temple par les légions romaines.",
+      "consequences": "Jérusalem et le Second Temple sont détruits en 70 ; la forteresse de Massada tombe en 73 ou 74. Le judaïsme se réorganise autour de la synagogue et de l’étude.",
       "wikiUrl": "https://fr.wikipedia.org/wiki/Premi%C3%A8re_Guerre_jud%C3%A9o-romaine"
     }
   ],
-  "sciences": "Pauvres en ressources naturelles, ils se distinguent par une ingénierie de survie, notamment le système de défense hydrique. Le roi Ézéchias fait creuser un impressionnant tunnel aqueduc (533 mètres sous la roche en partant des deux extrémités) pour garantir l'approvisionnement en eau de Jérusalem lors du siège sanglant mené par les Assyriens.",
-  "croyancesText": "L'invention révolutionnaire du Yahwisme : le passage progressif de l'hénothéisme (Yahvé est le plus fort des dieux) au monothéisme strict (il est le seul Dieu, incréé, moral, agissant dans l'Histoire). L'aniconisme (refus de représenter Dieu en image) et la sanctification du jour du repos (Shabbat) sont des concepts en rupture totale avec les civilisations voisines.",
-  "diplomatie": "Placé géographiquement sur le corridor militaire inévitable entre les empires égyptien, hittite et mésopotamien, le royaume oscille constamment entre soumission, révoltes et exils. Leur stratégie politique repose sur le messianisme : l'espoir théologique d'une restauration divine finale de la nation israélite face aux persécutions païennes successives (Séléucides, Romains).",
-  "documentaires": [{ "titre": "L'Histoire du peuple hébreu", "url": "https://fr.wikipedia.org/wiki/H%C3%A9breux" }]
+  "sciences": "Pour protéger l’eau de Jérusalem du siège assyrien, le roi Ézéchias fait creuser un tunnel de 533 mètres dans la roche, commencé par les deux bouts : une inscription raconte la rencontre des deux équipes. Les scribes de Juda, puis des communautés juives, rassemblent, écrivent et recopient les livres qui forment la Bible hébraïque.",
+  "croyancesText": "Le culte de YHWH, d’abord dieu principal d’Israël parmi d’autres, devient peu à peu un monothéisme strict : un seul Dieu, créateur, qui fait alliance avec son peuple et lui donne une loi. On ne le représente pas en image. Le shabbat, jour de repos, et le Temple de Jérusalem sont au cœur de la vie religieuse. Le judaïsme influencera profondément le christianisme et l’islam.",
+  "diplomatie": "Situés sur la route entre l’Égypte et la Mésopotamie, les royaumes doivent choisir entre soumission, alliances et révoltes face aux grands empires : Assyrie, Babylone, Perse, royaumes grecs puis Rome. L’espoir d’un messie, un roi envoyé par Dieu pour restaurer le royaume, grandit sous ces dominations.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": { "valeur": "Jérusalem", "precision": "capitale de Juda ; Samarie est celle du royaume d’Israël au nord" },
+    "regimes": {
+      "valeur": "Royautés, puis dominations étrangères",
+      "precision": "avec une période d’indépendance sous les Hasmonéens"
+    },
+    "langues": { "valeur": "Hébreu, puis araméen", "precision": "le grec se répand à l’époque hellénistique" },
+    "religion": { "valeur": "Culte de YHWH", "precision": "qui devient un monothéisme strict : le judaïsme" },
+    "apogee": {
+      "valeur": "IXe-VIIIe siècles av. J.-C.",
+      "precision": "royaume d’Israël des Omrides ; selon la Bible, royaume uni de David et Salomon au Xe siècle"
+    },
+    "population": { "valeur": "Quelques centaines de milliers", "precision": "estimations très incertaines" },
+    "monnaie": {
+      "valeur": "Argent pesé, puis monnaies",
+      "precision": "premières monnaies locales à l’époque perse ; pièces hasmonéennes et d’Hérode"
+    },
+    "duree": { "valeur": "Environ 1 270 ans" },
+    "aujourdhui": { "valeur": "Israël et Palestine", "precision": "et une partie de la Jordanie" }
+  },
+  "essentiel": [
+    "Selon la Bible, David fait de Jérusalem sa capitale vers −1000 et son fils Salomon y bâtit le Temple ; leur histoire est mal connue en dehors du texte biblique.",
+    "Deux royaumes coexistent ensuite : Israël au nord, détruit par l’Assyrie en −722, et Juda au sud, avec Jérusalem.",
+    "En −587, Nabuchodonosor II détruit le Temple : une partie du peuple part en [[exil-a-babylone|exil à Babylone]], puis rentre grâce à Cyrus.",
+    "Le culte d’un dieu unique, YHWH, s’affirme peu à peu ; une grande partie de la Bible hébraïque est mise par écrit à cette époque.",
+    "Après une période d’indépendance, la Judée passe sous domination romaine ; en 70, les Romains [[destruction-du-second-temple|détruisent le Second Temple]]."
+  ],
+  "periodes": [
+    {
+      "nom": "Les origines",
+      "debut": -1200,
+      "fin": -1030,
+      "resume": "Des villages apparaissent dans les collines de Canaan. Une stèle du pharaon Mérenptah mentionne déjà « Israël » vers −1208."
+    },
+    {
+      "nom": "Les royaumes d’Israël et de Juda",
+      "debut": -1030,
+      "fin": -587,
+      "resume": "Selon la Bible, Saül, David et Salomon règnent sur un royaume uni, puis celui-ci se divise. Israël, au nord, est détruit par l’Assyrie ; Juda, au sud, par Babylone.",
+      "evenements": [
+        { "annee": -853, "evenement": "Achab combat les Assyriens à Qarqar" },
+        { "annee": -722, "evenement": "Chute de Samarie" },
+        { "annee": -587, "evenement": "Destruction du Premier Temple", "ref": "exil-a-babylone" }
+      ]
+    },
+    {
+      "nom": "L’exil et le Second Temple",
+      "debut": -587,
+      "fin": -167,
+      "resume": "Après l’exil, les Judéens rentrent sous l’autorité perse et rebâtissent le Temple. La Judée passe ensuite aux royaumes grecs.",
+      "evenements": [{ "annee": -538, "evenement": "Édit de Cyrus" }, { "annee": -515, "evenement": "Inauguration du Second Temple" }]
+    },
+    {
+      "nom": "Les Hasmonéens et Rome",
+      "debut": -167,
+      "fin": 70,
+      "resume": "La révolte des Maccabées mène à un royaume indépendant. Pompée prend Jérusalem en −63 ; Hérode règne pour Rome, puis la Judée devient province romaine.",
+      "evenements": [
+        { "annee": -167, "evenement": "Révolte des Maccabées" },
+        { "annee": -63, "evenement": "Pompée prend Jérusalem" },
+        { "annee": 70, "evenement": "Destruction du Second Temple", "ref": "destruction-du-second-temple" }
+      ]
+    }
+  ],
+  "regimes": [
+    {
+      "id": "royaumes",
+      "nom": "Royaumes d’Israël et de Juda",
+      "debut": -1030,
+      "fin": -587,
+      "note": "Les dates des premiers rois sont celles de la tradition biblique ; leur historicité est discutée."
+    },
+    {
+      "id": "dominations",
+      "nom": "Dominations perse et grecque",
+      "debut": -587,
+      "fin": -140,
+      "note": "Les Judéens sont gouvernés par des gouverneurs et par les grands prêtres du Temple."
+    },
+    { "id": "hasmoneens", "nom": "Royaume hasmonéen", "debut": -140, "fin": -63 },
+    {
+      "id": "rome",
+      "nom": "Domination romaine",
+      "debut": -63,
+      "fin": 70,
+      "note": "Rois clients (Hérode), puis préfets et procurateurs romains."
+    }
+  ],
+  "dynasties": [
+    {
+      "id": "royaume-uni",
+      "nom": "Le royaume uni (selon la Bible)",
+      "debut": -1030,
+      "fin": -931,
+      "regime": "royaumes",
+      "note": "Dates traditionnelles, tirées de la Bible."
+    },
+    {
+      "id": "israel",
+      "nom": "Rois d’Israël (royaume du Nord)",
+      "debut": -931,
+      "fin": -722,
+      "regime": "royaumes",
+      "note": "Sélection ; Omri, Achab et Jéhu sont cités par des inscriptions assyriennes ou moabites."
+    },
+    {
+      "id": "juda",
+      "nom": "Rois de Juda (royaume du Sud)",
+      "debut": -931,
+      "fin": -587,
+      "regime": "royaumes",
+      "note": "Sélection."
+    },
+    { "id": "hasmoneens", "nom": "Les Hasmonéens", "debut": -167, "fin": -67, "regime": "hasmoneens" },
+    { "id": "herodiens", "nom": "Les Hérodiens", "debut": -37, "fin": 44, "regime": "rome" }
+  ],
+  "societe": "Les familles et les tribus structurent la société. Prêtres et lévites servent au Temple ; les prophètes critiquent parfois les rois et les injustices. À l’époque romaine, plusieurs courants s’opposent : sadducéens, pharisiens, esséniens et zélotes.",
+  "economie": "Agriculture de collines (blé, orge, olivier, vigne), élevage de moutons et de chèvres, artisanat ; Jérusalem vit aussi des pèlerinages au Temple.",
+  "decouvertes": ["manuscrits-de-la-mer-morte"],
+  "arts": "Peu d’images, en raison de l’interdit religieux, mais une riche architecture (Temple d’Hérode, forteresse de Massada), des sceaux gravés, des ivoires de Samarie et surtout une littérature : récits, lois, psaumes, prophéties.",
+  "quotidien": "Les familles vivent dans des maisons de pierre autour d’une cour. Trois fêtes de pèlerinage (Pâque, Pentecôte, Tabernacles) rassemblent les foules à Jérusalem.",
+  "heritage": [
+    {
+      "titre": "La Bible",
+      "texte": "La Bible hébraïque est le texte fondateur du judaïsme et l’Ancien Testament des chrétiens ; l’islam reconnaît aussi ses prophètes."
+    },
+    {
+      "titre": "Le monothéisme",
+      "texte": "L’idée d’un Dieu unique, partagée par le judaïsme, le christianisme et l’islam, concerne aujourd’hui plus de la moitié de l’humanité."
+    },
+    { "titre": "Le shabbat", "texte": "L’idée d’un jour de repos chaque semaine vient de cette tradition." }
+  ],
+  "aSavoir": [
+    "L’existence d’un grand royaume de David et Salomon est discutée par les archéologues : certains y voient un petit royaume, d’autres une construction plus tardive des auteurs bibliques.",
+    "Le mur des Lamentations, à Jérusalem, est un mur de soutènement de l’esplanade du Temple d’Hérode."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/H%C3%A9breux",
+    "https://fr.wikipedia.org/wiki/Royaume_de_Juda",
+    { "titre": "Encyclopædia Britannica — Judaism, history", "url": "https://www.britannica.com/topic/Judaism" }
+  ]
 }

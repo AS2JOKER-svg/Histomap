@@ -1,0 +1,22 @@
+{
+  "id": "destruction-du-second-temple",
+  "nom": "Destruction du Second Temple",
+  "annee": 70,
+  "dates": "août 70",
+  "lieu": "Jérusalem",
+  "description": "Pendant la grande révolte juive contre Rome, les légions de Titus prennent Jérusalem après un long siège et incendient le Temple.",
+  "sections": [
+    {
+      "titre": "Contexte",
+      "texte": "En 66, la Judée se soulève contre les abus des gouverneurs romains. L’empereur Vespasien, puis son fils Titus, mènent la reconquête."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Le Temple n’a jamais été reconstruit. Le judaïsme se réorganise autour des rabbins, de la synagogue et de l’étude des textes. L’arc de Titus, à Rome, montre le butin du Temple porté en triomphe."
+    }
+  ],
+  "aSavoir": [
+    "Selon la tradition juive, le Premier et le Second Temple ont été détruits le même jour du calendrier, le 9 du mois d’Av."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_J%C3%A9rusalem_(70)"
+}

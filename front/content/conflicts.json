@@ -336,5 +336,9 @@
   "Chute de l’Empire assyrien": {
     "coords": [43.15, 36.36],
     "lieu": "Ninive"
+  },
+  "Révolte des Maccabées": {
+    "coords": [35.2, 31.85],
+    "lieu": "Judée"
   }
 }

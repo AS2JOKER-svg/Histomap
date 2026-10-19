@@ -1,0 +1,27 @@
+{
+  "id": "han-wudi",
+  "nom": "Han Wudi",
+  "nomComplet": "Liu Che, empereur Wu des Han",
+  "role": "Empereur Han",
+  "roles": ["Empereur"],
+  "dates": "−156 → −87",
+  "naissance": -156,
+  "mort": -87,
+  "description": "Empereur Han pendant 54 ans, il fait du confucianisme la doctrine de l’État, combat les Xiongnu et étend l’empire jusqu’en Asie centrale, en Corée et au Vietnam.",
+  "reperes": [{ "label": "Règne", "valeur": "−141 → −87", "precision": "l’un des plus longs de l’histoire chinoise" }],
+  "essentiel": [
+    "Il crée une académie impériale pour former les fonctionnaires aux classiques confucéens.",
+    "Il envoie Zhang Qian vers l’Ouest, ouvrant les [[route-de-la-soie|routes de la soie]].",
+    "Ses généraux repoussent les Xiongnu au-delà du désert de Gobi.",
+    "Pour financer ses guerres, il crée des monopoles d’État sur le sel et le fer."
+  ],
+  "chronologie": [
+    { "annee": -141, "texte": "Devient empereur à 15 ans" },
+    { "annee": -138, "texte": "Mission de Zhang Qian", "ref": "route-de-la-soie" },
+    { "annee": -119, "texte": "Victoire de Mobei sur les Xiongnu" },
+    { "annee": -108, "texte": "Conquête du nord de la Corée" },
+    { "annee": -87, "texte": "Mort" }
+  ],
+  "liens": [{ "ref": "sima-qian", "relation": "L’historien de sa cour, qu’il fait castrer" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Han_Wudi"
+}

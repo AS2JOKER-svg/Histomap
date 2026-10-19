@@ -1,0 +1,21 @@
+{
+  "id": "herode-le-grand",
+  "nom": "Hérode le Grand",
+  "nomComplet": "Hérode Ier",
+  "role": "Roi de Judée",
+  "roles": ["Roi", "Bâtisseur"],
+  "dates": "vers −73 → −4",
+  "naissance": -73,
+  "mort": -4,
+  "description": "Roi de Judée installé par Rome, il règne plus de trente ans, couvre son royaume de monuments et reconstruit le Temple de Jérusalem, mais reste dans les mémoires comme un tyran soupçonneux.",
+  "reperes": [{ "label": "Règne", "valeur": "−37 → −4" }],
+  "essentiel": [
+    "D’origine iduméenne, il est nommé roi par le Sénat romain et conquiert son royaume avec l’aide de Rome.",
+    "Il agrandit le Temple et son esplanade, bâtit le port de Césarée et la forteresse de Massada.",
+    "Il fait exécuter son épouse Mariamne et plusieurs de ses fils, qu’il soupçonne de complot."
+  ],
+  "aSavoir": [
+    "Le « massacre des Innocents » que lui attribue l’Évangile de Matthieu n’est rapporté par aucune autre source."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/H%C3%A9rode_Ier_le_Grand"
+}

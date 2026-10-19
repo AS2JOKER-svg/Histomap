@@ -1,0 +1,23 @@
+{
+  "id": "papier",
+  "nom": "Le papier",
+  "annee": 105,
+  "domaine": "Technique",
+  "dates": "IIe siècle av. J.-C. ; perfectionné en 105",
+  "description": "Une feuille faite de fibres végétales écrasées dans l’eau puis séchées. Connu en Chine dès le IIe siècle av. J.-C., il est amélioré en 105 par le fonctionnaire Cai Lun.",
+  "sections": [
+    {
+      "titre": "Comment ça marche",
+      "texte": "On fait macérer de l’écorce de mûrier, du chanvre ou de vieux chiffons, on les réduit en pâte, puis on étale cette pâte sur un tamis pour former une feuille qu’on laisse sécher."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Moins cher que la soie et plus léger que les lattes de bambou, le papier facilite l’administration et la diffusion des livres. Il atteint le monde musulman au VIIIe siècle, puis l’Europe au XIIe siècle."
+    }
+  ],
+  "aSavoir": [
+    "Des fragments de papier plus anciens que Cai Lun ont été retrouvés par les archéologues : il ne l’a pas inventé, mais l’a perfectionné."
+  ],
+  "apres": "imprimerie",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Papier"
+}

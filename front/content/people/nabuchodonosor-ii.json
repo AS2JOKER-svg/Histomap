@@ -14,7 +14,7 @@
   "chronologie": [
     { "annee": -605, "texte": "Victoire de Karkemish et début du règne" },
     { "annee": -597, "texte": "Première prise de Jérusalem" },
-    { "annee": -587, "texte": "Destruction de Jérusalem et du Temple" },
+    { "annee": -587, "texte": "Destruction de Jérusalem et du Temple", "ref": "exil-a-babylone" },
     { "annee": -562, "texte": "Mort" }
   ],
   "aSavoir": ["La porte d’Ishtar, en briques émaillées bleues, a été reconstruite au musée de Pergame, à Berlin."],

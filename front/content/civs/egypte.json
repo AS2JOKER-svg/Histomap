@@ -57,8 +57,48 @@
       "dynastie": "thinite",
       "note": "vers −3100 ; durée du règne inconnue"
     },
-    { "nom": "Djéser", "titre": "Pharaon", "debut": -2667, "fin": -2648, "dynastie": "ancien" },
-    { "nom": "Snéfrou", "titre": "Pharaon", "debut": -2613, "fin": -2589, "dynastie": "ancien" },
+    {
+      "nom": "Aha",
+      "titre": "Pharaon",
+      "debut": -3000,
+      "fin": -3000,
+      "dynastie": "thinite",
+      "note": "vers −3000 ; date approximative"
+    },
+    {
+      "nom": "Den",
+      "titre": "Pharaon",
+      "debut": -2950,
+      "fin": -2950,
+      "dynastie": "thinite",
+      "note": "vers −2950 ; date approximative"
+    },
+    {
+      "nom": "Khâsekhemoui",
+      "titre": "Pharaon",
+      "debut": -2690,
+      "fin": -2690,
+      "dynastie": "thinite",
+      "note": "vers −2690 ; dernier roi de la IIe dynastie"
+    },
+    {
+      "nom": "Djéser",
+      "titre": "Pharaon",
+      "debut": -2667,
+      "fin": -2648,
+      "dynastie": "ancien",
+      "note": "pyramide à degrés, conçue par Imhotep"
+    },
+    { "nom": "Sekhemkhet", "titre": "Pharaon", "debut": -2648, "fin": -2640, "dynastie": "ancien" },
+    { "nom": "Houni", "titre": "Pharaon", "debut": -2637, "fin": -2613, "dynastie": "ancien" },
+    {
+      "nom": "Snéfrou",
+      "titre": "Pharaon",
+      "debut": -2613,
+      "fin": -2589,
+      "dynastie": "ancien",
+      "note": "premières pyramides à faces lisses"
+    },
     {
       "nom": "Khéops",
       "titre": "Pharaon",
@@ -68,8 +108,37 @@
       "note": "grande pyramide de Gizeh",
       "cle": true
     },
-    { "nom": "Khéphren", "titre": "Pharaon", "debut": -2558, "fin": -2532, "dynastie": "ancien" },
+    { "nom": "Djédefrê", "titre": "Pharaon", "debut": -2566, "fin": -2558, "dynastie": "ancien" },
+    {
+      "nom": "Khéphren",
+      "titre": "Pharaon",
+      "debut": -2558,
+      "fin": -2532,
+      "dynastie": "ancien",
+      "note": "deuxième pyramide de Gizeh et, sans doute, le Sphinx"
+    },
     { "nom": "Mykérinos", "titre": "Pharaon", "debut": -2532, "fin": -2503, "dynastie": "ancien" },
+    { "nom": "Chepseskaf", "titre": "Pharaon", "debut": -2503, "fin": -2498, "dynastie": "ancien" },
+    {
+      "nom": "Ouserkaf",
+      "titre": "Pharaon",
+      "debut": -2494,
+      "fin": -2487,
+      "dynastie": "ancien",
+      "note": "fondateur de la Ve dynastie"
+    },
+    { "nom": "Sahourê", "titre": "Pharaon", "debut": -2487, "fin": -2475, "dynastie": "ancien" },
+    { "nom": "Niouserrê", "titre": "Pharaon", "debut": -2445, "fin": -2421, "dynastie": "ancien" },
+    {
+      "nom": "Ounas",
+      "titre": "Pharaon",
+      "debut": -2375,
+      "fin": -2345,
+      "dynastie": "ancien",
+      "note": "premiers « textes des pyramides »"
+    },
+    { "nom": "Téti", "titre": "Pharaon", "debut": -2345, "fin": -2323, "dynastie": "ancien" },
+    { "nom": "Pépi Ier", "titre": "Pharaon", "debut": -2321, "fin": -2287, "dynastie": "ancien" },
     {
       "nom": "Pépi II",
       "titre": "Pharaon",
@@ -86,8 +155,59 @@
       "dynastie": "moyen",
       "note": "réunifie l’Égypte"
     },
-    { "nom": "Amenemhat Ier", "titre": "Pharaon", "debut": -1985, "fin": -1956, "dynastie": "moyen" },
-    { "nom": "Sésostris III", "titre": "Pharaon", "debut": -1874, "fin": -1855, "dynastie": "moyen" },
+    { "nom": "Montouhotep III", "titre": "Pharaon", "debut": -2004, "fin": -1992, "dynastie": "moyen" },
+    {
+      "nom": "Amenemhat Ier",
+      "titre": "Pharaon",
+      "debut": -1985,
+      "fin": -1956,
+      "dynastie": "moyen",
+      "note": "fondateur de la XIIe dynastie"
+    },
+    { "nom": "Sésostris Ier", "titre": "Pharaon", "debut": -1956, "fin": -1911, "dynastie": "moyen" },
+    { "nom": "Amenemhat II", "titre": "Pharaon", "debut": -1911, "fin": -1877, "dynastie": "moyen" },
+    { "nom": "Sésostris II", "titre": "Pharaon", "debut": -1877, "fin": -1870, "dynastie": "moyen" },
+    {
+      "nom": "Sésostris III",
+      "titre": "Pharaon",
+      "debut": -1870,
+      "fin": -1831,
+      "dynastie": "moyen",
+      "note": "conquérant de la Nubie"
+    },
+    { "nom": "Amenemhat III", "titre": "Pharaon", "debut": -1831, "fin": -1786, "dynastie": "moyen" },
+    {
+      "nom": "Néferousobek",
+      "titre": "Reine-pharaon",
+      "debut": -1777,
+      "fin": -1773,
+      "dynastie": "moyen",
+      "note": "première femme pharaon dont le règne est bien attesté"
+    },
+    {
+      "nom": "Apophis",
+      "titre": "Pharaon",
+      "debut": -1580,
+      "fin": -1540,
+      "dynastie": "pi2",
+      "note": "roi hyksos ; dates approximatives"
+    },
+    {
+      "nom": "Séqénenrê Taâ",
+      "titre": "Pharaon",
+      "debut": -1560,
+      "fin": -1558,
+      "dynastie": "pi2",
+      "note": "roi de Thèbes, mort au combat contre les Hyksos selon l’étude de sa momie ; dates approximatives"
+    },
+    {
+      "nom": "Kamosis",
+      "titre": "Pharaon",
+      "debut": -1555,
+      "fin": -1550,
+      "dynastie": "pi2",
+      "note": "roi de Thèbes, combat les Hyksos"
+    },
     {
       "nom": "Ahmôsis Ier",
       "titre": "Pharaon",
@@ -96,6 +216,9 @@
       "dynastie": "nouvel",
       "note": "chasse les Hyksos"
     },
+    { "nom": "Amenhotep Ier", "titre": "Pharaon", "debut": -1525, "fin": -1504, "dynastie": "nouvel" },
+    { "nom": "Thoutmôsis Ier", "titre": "Pharaon", "debut": -1504, "fin": -1492, "dynastie": "nouvel" },
+    { "nom": "Thoutmôsis II", "titre": "Pharaon", "debut": -1492, "fin": -1479, "dynastie": "nouvel" },
     {
       "nom": "Hatchepsout",
       "titre": "Pharaon",
@@ -106,7 +229,17 @@
       "note": "régente dès −1479",
       "cle": true
     },
-    { "nom": "Thoutmôsis III", "titre": "Pharaon", "debut": -1479, "fin": -1425, "dynastie": "nouvel", "cle": true },
+    {
+      "nom": "Thoutmôsis III",
+      "titre": "Pharaon",
+      "debut": -1479,
+      "fin": -1425,
+      "dynastie": "nouvel",
+      "note": "le grand conquérant du Nouvel Empire",
+      "cle": true
+    },
+    { "nom": "Amenhotep II", "titre": "Pharaon", "debut": -1427, "fin": -1400, "dynastie": "nouvel" },
+    { "nom": "Thoutmôsis IV", "titre": "Pharaon", "debut": -1400, "fin": -1390, "dynastie": "nouvel" },
     { "nom": "Amenhotep III", "titre": "Pharaon", "debut": -1390, "fin": -1352, "dynastie": "nouvel" },
     {
       "nom": "Akhénaton",
@@ -118,6 +251,16 @@
       "cle": true
     },
     { "nom": "Toutânkhamon", "titre": "Pharaon", "debut": -1336, "fin": -1327, "dynastie": "nouvel", "cle": true },
+    { "nom": "Aÿ", "titre": "Pharaon", "debut": -1327, "fin": -1323, "dynastie": "nouvel" },
+    { "nom": "Horemheb", "titre": "Pharaon", "debut": -1323, "fin": -1295, "dynastie": "nouvel" },
+    {
+      "nom": "Ramsès Ier",
+      "titre": "Pharaon",
+      "debut": -1295,
+      "fin": -1294,
+      "dynastie": "nouvel",
+      "note": "fondateur de la XIXe dynastie"
+    },
     { "nom": "Séthi Ier", "titre": "Pharaon", "debut": -1294, "fin": -1279, "dynastie": "nouvel" },
     {
       "nom": "Ramsès II",
@@ -129,7 +272,33 @@
       "personne": "ramses-ii",
       "cle": true
     },
-    { "nom": "Ramsès III", "titre": "Pharaon", "debut": -1184, "fin": -1153, "dynastie": "nouvel" },
+    { "nom": "Mérenptah", "titre": "Pharaon", "debut": -1213, "fin": -1203, "dynastie": "nouvel" },
+    { "nom": "Séthi II", "titre": "Pharaon", "debut": -1200, "fin": -1194, "dynastie": "nouvel" },
+    { "nom": "Taousert", "titre": "Reine-pharaon", "debut": -1188, "fin": -1186, "dynastie": "nouvel" },
+    {
+      "nom": "Ramsès III",
+      "titre": "Pharaon",
+      "debut": -1184,
+      "fin": -1153,
+      "dynastie": "nouvel",
+      "note": "repousse les « Peuples de la mer »"
+    },
+    {
+      "nom": "Ramsès XI",
+      "titre": "Pharaon",
+      "debut": -1099,
+      "fin": -1069,
+      "dynastie": "nouvel",
+      "note": "dernier roi du Nouvel Empire"
+    },
+    {
+      "nom": "Psousennès Ier",
+      "titre": "Pharaon",
+      "debut": -1039,
+      "fin": -991,
+      "dynastie": "pi3",
+      "note": "règne depuis Tanis, dans le delta"
+    },
     {
       "nom": "Chéchonq Ier",
       "titre": "Pharaon",
@@ -138,6 +307,16 @@
       "dynastie": "pi3",
       "note": "dynastie d’origine libyenne"
     },
+    { "nom": "Osorkon II", "titre": "Pharaon", "debut": -874, "fin": -850, "dynastie": "pi3" },
+    {
+      "nom": "Piânkhy",
+      "titre": "Pharaon",
+      "debut": -747,
+      "fin": -716,
+      "dynastie": "pi3",
+      "note": "roi de Koush, conquiert l’Égypte"
+    },
+    { "nom": "Chabaka", "titre": "Pharaon", "debut": -716, "fin": -702, "dynastie": "pi3", "note": "pharaon koushite" },
     {
       "nom": "Taharqa",
       "titre": "Pharaon",
@@ -146,8 +325,28 @@
       "dynastie": "pi3",
       "note": "pharaon koushite (XXVe dynastie)"
     },
-    { "nom": "Psammétique Ier", "titre": "Pharaon", "debut": -664, "fin": -610, "dynastie": "basse" },
+    {
+      "nom": "Psammétique Ier",
+      "titre": "Pharaon",
+      "debut": -664,
+      "fin": -610,
+      "dynastie": "basse",
+      "note": "réunifie le pays depuis Saïs"
+    },
+    { "nom": "Néchao II", "titre": "Pharaon", "debut": -610, "fin": -595, "dynastie": "basse" },
+    { "nom": "Apriès", "titre": "Pharaon", "debut": -589, "fin": -570, "dynastie": "basse" },
     { "nom": "Amasis", "titre": "Pharaon", "debut": -570, "fin": -526, "dynastie": "basse" },
+    {
+      "nom": "Psammétique III",
+      "titre": "Pharaon",
+      "debut": -526,
+      "fin": -525,
+      "dynastie": "basse",
+      "note": "vaincu par les Perses"
+    },
+    { "nom": "Cambyse II", "titre": "Roi des Perses et pharaon", "debut": -525, "fin": -522, "dynastie": "basse" },
+    { "nom": "Darius Ier", "titre": "Roi des Perses et pharaon", "debut": -522, "fin": -486, "dynastie": "basse" },
+    { "nom": "Nectanébo Ier", "titre": "Pharaon", "debut": -380, "fin": -362, "dynastie": "basse" },
     {
       "nom": "Nectanébo II",
       "titre": "Pharaon",
@@ -165,6 +364,23 @@
       "note": "roi de Macédoine"
     },
     { "nom": "Ptolémée Ier", "titre": "Pharaon", "surnom": "Sôter", "debut": -305, "fin": -285, "dynastie": "ptolemaique" },
+    {
+      "nom": "Ptolémée II",
+      "titre": "Pharaon",
+      "debut": -285,
+      "fin": -246,
+      "dynastie": "ptolemaique",
+      "note": "phare et bibliothèque d’Alexandrie"
+    },
+    { "nom": "Ptolémée III", "titre": "Pharaon", "debut": -246, "fin": -221, "dynastie": "ptolemaique" },
+    {
+      "nom": "Ptolémée V",
+      "titre": "Pharaon",
+      "debut": -205,
+      "fin": -180,
+      "dynastie": "ptolemaique",
+      "note": "décret de la pierre de Rosette (−196)"
+    },
     {
       "nom": "Cléopâtre VII",
       "titre": "Reine",
@@ -346,7 +562,7 @@
       "nom": "L’époque thinite",
       "debut": -3100,
       "fin": -2686,
-      "note": "Liste des principaux pharaons parmi plus de 170 connus. Dates selon la chronologie d’I. Shaw (Oxford) : à quelques décennies près avant −1500."
+      "note": "Une sélection d’environ 70 pharaons parmi plus de 170 connus, dont beaucoup ne sont qu’un nom. Dates selon la chronologie d’I. Shaw (Oxford) : approximatives, à quelques décennies près avant −1500."
     },
     { "id": "ancien", "nom": "L’Ancien Empire", "debut": -2686, "fin": -2160 },
     {
@@ -362,7 +578,7 @@
       "nom": "La Deuxième Période intermédiaire",
       "debut": -1650,
       "fin": -1550,
-      "note": "Rois hyksos au nord, rois thébains au sud."
+      "note": "Rois hyksos au nord, rois thébains au sud. Dates approximatives."
     },
     { "id": "nouvel", "nom": "Le Nouvel Empire", "debut": -1550, "fin": -1069 },
     { "id": "pi3", "nom": "La Troisième Période intermédiaire", "debut": -1069, "fin": -664 },

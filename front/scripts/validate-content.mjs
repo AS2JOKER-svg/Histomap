@@ -192,6 +192,12 @@ for (const [id, { file, data: civ }] of content.civs) {
   if (!isNum(civ.start) || !isNum(civ.end)) err(w, 'start/end doivent être des nombres')
   else if (civ.start >= civ.end) err(w, `start (${civ.start}) ≥ end (${civ.end})`)
   // (une civilisation peut déborder de son époque : la frise l'indique par ‹ ›)
+  // La période affichée doit correspondre aux dates : « 250 à 900 » ⇔ start 250, end 900
+  if (isStr(civ.period) && isNum(civ.start) && isNum(civ.end)) {
+    const nums = (civ.period.replace(/(\d)[\s\u202f\u00a0](?=\d{3})/g, '$1').match(/-?\d+/g) ?? []).map(Number)
+    if (nums.length >= 2 && (nums[0] !== civ.start || nums[nums.length - 1] !== civ.end))
+      err(w, `période « ${civ.period} » différente des dates enregistrées (${civ.start} → ${civ.end})`)
+  }
   if (lineageOf.has(id)) {
     if (civ.color !== undefined) err(w, `pas de « color » : la couleur vient de la lignée « ${lineageOf.get(id)} » (content/lineages.json)`)
   } else if (!isHex(civ.color)) err(w, `couleur invalide : ${civ.color}`)

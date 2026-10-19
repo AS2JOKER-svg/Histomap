@@ -9,10 +9,12 @@
   "color": "#d4ac0d",
   "trackId": "andes",
   "row": 2,
-  "isRiver": true,
+  "isRiver": false,
   "capitale": "Chavín de Huántar",
   "description": "Centre de pèlerinage pan-andin, imposant la première unité spirituelle des Andes grâce à son architecture sonore et ses transes.",
-  "territories": ["Chavin"],
+  "territories": [
+    "Chavin"
+  ],
   "datesCles": [
     {
       "annee": -900,
@@ -31,5 +33,10 @@
   "sciences": "Leur temple est une machine théâtrale à subjuguer les esprits. Les architectes Chavín ont créé un réseau de galeries souterraines complètement obscures, traversées par des canaux hydrauliques dissimulés. Lors de la saison des pluies, l'eau s'y engouffre, et la pression de l'air fait peut-être rugir l'édifice : selon une hypothèse, cela aurait donné l'illusion que la montagne et le temple « respirent » et grognent comme un immense félin.",
   "croyancesText": "Le culte est chamanique et terrifiant. Le prêtre absorbe des extraits du cactus hallucinogène San Pedro et guide le pèlerin dans les galeries obscures du temple. Au centre se dresse le Lanzón, une stèle de granit de 4,5 m figurant une divinité féroce mi-humaine mi-félin. Le « dieu aux bâtons » (ou aux sceptres) est, lui, représenté sur la stèle Raimondi. Selon certaines hypothèses, le pèlerin aurait vécu une expérience de mort et de renaissance symboliques.",
   "diplomatie": "Chavín ne possède pas d'armée conquérante. Son autorité est un 'soft-power' de la peur et de la fascination religieuse. En échange d'oracles et de prophéties (cruciales pour anticiper les ravages climatiques d'El Niño sur les récoltes côtières), les populations de tout le Pérou offrent des lamas, du maïs, de l'or et des textiles brodés précieux aux prêtres du temple.",
-  "documentaires": [{ "titre": "Chavin, les maîtres des montagnes", "url": "https://fr.wikipedia.org/wiki/Chav%C3%ADn_(culture)" }]
+  "documentaires": [
+    {
+      "titre": "Chavin, les maîtres des montagnes",
+      "url": "https://fr.wikipedia.org/wiki/Chav%C3%ADn_(culture)"
+    }
+  ]
 }

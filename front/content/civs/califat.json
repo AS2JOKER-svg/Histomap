@@ -9,17 +9,24 @@
   "color": "#27ae60",
   "trackId": "moyen_orient",
   "row": 1,
-  "isRiver": true,
+  "isRiver": false,
   "capitale": "Damas / Bagdad",
   "description": "La foudroyante expansion arabe unifiant le Moyen-Orient sous le sceau de l'Islam et fondant, sous les Abbassides de Bagdad, l'Âge d'Or scientifique.",
-  "territories": ["Umayyad Caliphate", "Abbasid Caliphate"],
+  "territories": [
+    "Umayyad Caliphate",
+    "Abbasid Caliphate"
+  ],
   "datesCles": [
     {
       "annee": 632,
       "evenement": "Mort du Prophète",
       "info": "Début des grandes conquêtes des Califes Bien-Guidés hors d'Arabie."
     },
-    { "annee": 661, "evenement": "Dynastie Omeyyade", "info": "Déplacement de la capitale à Damas (Syrie)." },
+    {
+      "annee": 661,
+      "evenement": "Dynastie Omeyyade",
+      "info": "Déplacement de la capitale à Damas (Syrie)."
+    },
     {
       "annee": 750,
       "evenement": "Révolution Abbasside",
@@ -32,8 +39,18 @@
     }
   ],
   "dirigeants": [
-    { "titre": "Calife Omeyyade", "nom": "Mu'awiya Ier", "debut": 661, "fin": 680 },
-    { "titre": "Calife Abbasside", "nom": "Haroun al-Rachid", "debut": 786, "fin": 809 }
+    {
+      "titre": "Calife Omeyyade",
+      "nom": "Mu'awiya Ier",
+      "debut": 661,
+      "fin": 680
+    },
+    {
+      "titre": "Calife Abbasside",
+      "nom": "Haroun al-Rachid",
+      "debut": 786,
+      "fin": 809
+    }
   ],
   "personnages": [
     {
@@ -55,8 +72,12 @@
     {
       "nom": "Invasion Mongole et Sac de Bagdad",
       "annee": 1258,
-      "adversaires": ["Empire Mongol (Hülegü Khan)"],
-      "allies": ["Contingents chrétiens géorgiens"],
+      "adversaires": [
+        "Empire Mongol (Hülegü Khan)"
+      ],
+      "allies": [
+        "Contingents chrétiens géorgiens"
+      ],
       "morts": "Entre 200 000 et 800 000 morts civils",
       "vainqueur": "Mongols",
       "consequences": "Le fleuve Tigre devient noir d'encre (livres jetés à l'eau) puis rouge de sang. Le Calife est mis à mort enroulé dans un tapis piétiné par des chevaux.",
@@ -66,5 +87,10 @@
   "sciences": "C'est la civilisation de la synthèse et de la traduction. À Bagdad, la 'Maison de la Sagesse' réunit des savants traduisant en arabe le savoir perse, indien et grec. Ils inventent les hôpitaux publics (bimaristan), révolutionnent l'optique, raffinent la trigonométrie et la distillation en chimie, et diffusent l'usage de la pâte à papier acquise auprès des Chinois.",
   "croyancesText": "L'Islam ('soumission à Dieu') est la matrice de l'Empire. Cependant, l'histoire du Califat est marquée par le schisme sanglant et définitif entre le Sunnisme (axé sur la tradition et l'élection) et le Chiisme (axé sur la descendance sanguine d'Ali, le gendre du prophète). L'empire est également jalonné de l'émergence de sectes millénaristes redoutables, comme les Assassins (Nizârites).",
   "diplomatie": "La légitimité du souverain réside dans son titre de 'Commandeur des Croyants' (Calife). Au début, l'expansion est militaire, brisant l'Empire Perse Sassanide affaibli. Sous les Abbassides, le califat devient trop vaste à gouverner. Les gouverneurs de province (Émirs) et les vizirs perses ou turcs prennent le pouvoir réel, laissant au Calife un simple rôle de pape religieux à Bagdad.",
-  "documentaires": [{ "titre": "L'Islam : L'Empire de la Foi", "url": "https://fr.wikipedia.org/wiki/Califat_abbasside" }]
+  "documentaires": [
+    {
+      "titre": "L'Islam : L'Empire de la Foi",
+      "url": "https://fr.wikipedia.org/wiki/Califat_abbasside"
+    }
+  ]
 }

@@ -4,14 +4,16 @@
   "tier": 1,
   "region": "mesoamerique",
   "period": "1810 à 2020",
-  "start": 1789,
+  "start": 1810,
   "end": 2020,
   "trackId": "mesoamerique",
   "row": 2,
   "isRiver": false,
   "capitale": "Mexico",
   "description": "Sur les cendres du plus riche vice-royaume espagnol, une nation métissée forgeant son identité par les larmes d'une gigantesque Révolution agraire.",
-  "territories": ["Mexico"],
+  "territories": [
+    "Mexico"
+  ],
   "datesCles": [
     {
       "annee": 1810,
@@ -35,7 +37,12 @@
     }
   ],
   "dirigeants": [
-    { "titre": "Dictateur 'Modernisateur'", "nom": "Porfirio Díaz", "debut": 1876, "fin": 1911 },
+    {
+      "titre": "Dictateur 'Modernisateur'",
+      "nom": "Porfirio Díaz",
+      "debut": 1876,
+      "fin": 1911
+    },
     {
       "titre": "Président (Parti national révolutionnaire, devenu PRM, ancêtre du PRI fondé en 1946)",
       "nom": "Lázaro Cárdenas",
@@ -63,8 +70,12 @@
     {
       "nom": "La Révolution Mexicaine",
       "annee": 1910,
-      "adversaires": ["Armées Fédérales"],
-      "allies": ["Armées de Zapata (Sud) et de Pancho Villa (Nord)"],
+      "adversaires": [
+        "Armées Fédérales"
+      ],
+      "allies": [
+        "Armées de Zapata (Sud) et de Pancho Villa (Nord)"
+      ],
       "morts": "Entre 1 et 2 millions (guerre et grippe espagnole)",
       "vainqueur": "La faction constitutionnaliste (Carranza)",
       "consequences": "L'une des guerres les plus atroces du XXe siècle. Elle accouche de la Constitution de 1917, garantissant les droits sociaux, le droit du travail et la séparation de l'Église et de l'État.",

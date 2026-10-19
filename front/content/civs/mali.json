@@ -5,14 +5,16 @@
   "region": "afrique-ouest",
   "period": "1235 à 1670",
   "start": 1235,
-  "end": 1492,
+  "end": 1670,
   "color": "#f39c12",
   "trackId": "afrique_ouest",
   "row": 1,
-  "isRiver": true,
+  "isRiver": false,
   "capitale": "Niani / Tombouctou",
   "description": "Sur les cendres du Ghana, le conquérant épique Soundiata fonde un État immense, mondialement célèbre pour le pèlerinage fastueux de Mansa Moussa, souvent présenté comme l'homme le plus riche de l'Histoire.",
-  "territories": ["Mali"],
+  "territories": [
+    "Mali"
+  ],
   "datesCles": [
     {
       "annee": 1235,
@@ -38,15 +40,25 @@
       "debut": 1235,
       "fin": 1255
     },
-    { "titre": "Mansa", "nom": "Moussa Ier", "surnom": "Kankou Moussa", "debut": 1312, "fin": 1337 }
+    {
+      "titre": "Mansa",
+      "nom": "Moussa Ier",
+      "surnom": "Kankou Moussa",
+      "debut": 1312,
+      "fin": 1337
+    }
   ],
   "personnages": [],
   "guerres": [
     {
       "nom": "Bataille de Kirina",
       "annee": 1235,
-      "adversaires": ["Empire Sosso (Soumaoro Kanté)"],
-      "allies": ["Coalition des tribus mandingues"],
+      "adversaires": [
+        "Empire Sosso (Soumaoro Kanté)"
+      ],
+      "allies": [
+        "Coalition des tribus mandingues"
+      ],
       "morts": "Pertes militaires lourdes",
       "vainqueur": "Mali",
       "consequences": "Soundiata prend le pouvoir absolu, rédige la constitution de l'empire et fixe les droits de la confrérie des chasseurs.",

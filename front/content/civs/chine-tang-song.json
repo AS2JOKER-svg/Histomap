@@ -8,7 +8,7 @@
   "end": 1279,
   "trackId": "chine",
   "row": 3,
-  "isRiver": true,
+  "isRiver": false,
   "capitale": "Chang'an, Kaifeng, Hangzhou",
   "description": "Six siècles et demi de Chine impériale, des Tang cosmopolites aux Song lettrés et marchands : une époque de grande poésie, de villes immenses et d’inventions qui ont changé le monde.",
   "territories": ["Sui Empire", "Tang Empire", "Song Empire"],

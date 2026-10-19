@@ -9,10 +9,13 @@
   "color": "#1b5e20",
   "trackId": "bresil",
   "row": 3,
-  "isRiver": true,
+  "isRiver": false,
   "capitale": "Rio de Janeiro / Brasília",
   "description": "Le géant de l'Amérique latine, seule monarchie impériale stable issue d'une colonie, forgeant un métissage unique de cultures européennes, africaines et indigènes.",
-  "territories": ["Kingdom of Brazil", "Brazil"],
+  "territories": [
+    "Kingdom of Brazil",
+    "Brazil"
+  ],
   "datesCles": [
     {
       "annee": 1822,
@@ -71,8 +74,13 @@
     {
       "nom": "Guerre de la Triple Alliance",
       "annee": 1864,
-      "adversaires": ["Dictature du Paraguay"],
-      "allies": ["Argentine", "Uruguay"],
+      "adversaires": [
+        "Dictature du Paraguay"
+      ],
+      "allies": [
+        "Argentine",
+        "Uruguay"
+      ],
       "morts": "Pertes énormes pour le Paraguay (estimations très variables)",
       "vainqueur": "Brésil et ses alliés",
       "consequences": "Le conflit le plus meurtrier de l'Amérique du Sud moderne. Le Brésil sécurise le contrôle stratégique des immenses fleuves d'Amérique du Sud mais l'endettement affaiblit la monarchie.",

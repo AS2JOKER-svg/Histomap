@@ -8,10 +8,16 @@
   "end": 1789,
   "trackId": "chine",
   "row": 4,
-  "isRiver": true,
+  "isRiver": false,
   "capitale": "Pékin",
   "description": "La reconstruction d'une muraille de pierre contre le monde extérieur sous les Ming, avant de devenir l'empire le plus vaste, riche et peuplé de la Terre sous les Qing.",
-  "territories": ["Ming Empire", "Ming Chinese Empire", "Post-Ming Warlords", "Manchu Empire", "Qing Empire"],
+  "territories": [
+    "Ming Empire",
+    "Ming Chinese Empire",
+    "Post-Ming Warlords",
+    "Manchu Empire",
+    "Qing Empire"
+  ],
   "datesCles": [
     {
       "annee": 1420,
@@ -35,9 +41,24 @@
     }
   ],
   "dirigeants": [
-    { "titre": "Empereur (Ming)", "nom": "Wanli", "debut": 1572, "fin": 1620 },
-    { "titre": "Empereur (Qing)", "nom": "Kangxi", "debut": 1661, "fin": 1722 },
-    { "titre": "Empereur (Qing)", "nom": "Qianlong", "debut": 1735, "fin": 1796 }
+    {
+      "titre": "Empereur (Ming)",
+      "nom": "Wanli",
+      "debut": 1572,
+      "fin": 1620
+    },
+    {
+      "titre": "Empereur (Qing)",
+      "nom": "Kangxi",
+      "debut": 1661,
+      "fin": 1722
+    },
+    {
+      "titre": "Empereur (Qing)",
+      "nom": "Qianlong",
+      "debut": 1735,
+      "fin": 1796
+    }
   ],
   "personnages": [
     {
@@ -52,7 +73,9 @@
     {
       "nom": "Campagnes de l'empereur Qianlong",
       "annee": 1755,
-      "adversaires": ["Tribus mongoles Zounghares"],
+      "adversaires": [
+        "Tribus mongoles Zounghares"
+      ],
       "allies": [],
       "morts": "Massacre (quasi génocide des Zounghares)",
       "vainqueur": "Dynastie Qing",
@@ -63,5 +86,10 @@
   "sciences": "Bien que techniquement stagnante comparée à l'essor européen, la Chine gère une logistique sidérante : le 'Grand Canal', long de 1700 kilomètres, permet d'acheminer via des milliers de barges l'impôt en grain du Sud fertile vers l'aride capitale (Pékin). Ils inondent l'Europe de biens manufacturés de très grand luxe : la porcelaine 'bleu et blanc', la soie, et plus tard le thé.",
   "croyancesText": "Le Confucianisme règne en maître : la piété filiale, l'obéissance aux supérieurs et les rites impériaux dictent l'ordre social. L'Empereur est le 'Fils du Ciel' garant de l'harmonie de l'univers. Les envahisseurs Qing (d'ethnie mandchoue) vont s'empresser d'adopter ces rituels chinois pour prouver qu'ils détiennent le Mandat Céleste, tout en imposant brutalement à tous les hommes la coupe de cheveux mandchoue (le crâne rasé avec la natte).",
   "diplomatie": "La Chine se considère littéralement comme 'L'Empire du Milieu', le centre absolu de la civilisation, entouré de 'barbares'. Ils n'ont pas de 'diplomatie' ou de ministres des affaires étrangères, mais un 'Système de Tributs' : les pays étrangers (Corée, Vietnam) et même les marchands européens (les Anglais) doivent faire le 'Kowtow' (se prosterner face contre terre) et offrir des cadeaux pour avoir l'insigne honneur de commercer.",
-  "documentaires": [{ "titre": "L'apogée de l'Empire Qing", "url": "https://fr.wikipedia.org/wiki/Dynastie_Qing" }]
+  "documentaires": [
+    {
+      "titre": "L'apogée de l'Empire Qing",
+      "url": "https://fr.wikipedia.org/wiki/Dynastie_Qing"
+    }
+  ]
 }

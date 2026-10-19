@@ -8,10 +8,14 @@
   "end": 220,
   "trackId": "chine",
   "row": 7,
-  "isRiver": true,
+  "isRiver": false,
   "capitale": "Xianyang / Chang'an",
   "description": "La brutale unification impériale de la Chine par Qin, suivie par l'Âge d'Or de la dynastie Han qui ouvrira la Route de la Soie et fixera l'identité chinoise.",
-  "territories": ["Qin", "Han Empire", "Han"],
+  "territories": [
+    "Qin",
+    "Han Empire",
+    "Han"
+  ],
   "datesCles": [
     {
       "annee": -221,
@@ -35,8 +39,19 @@
     }
   ],
   "dirigeants": [
-    { "titre": "Premier Empereur de Chine", "nom": "Qin Shi Huang", "debut": -221, "fin": -210 },
-    { "titre": "Empereur (Han)", "nom": "Wudi", "surnom": "Le Martial", "debut": -141, "fin": -87 }
+    {
+      "titre": "Premier Empereur de Chine",
+      "nom": "Qin Shi Huang",
+      "debut": -221,
+      "fin": -210
+    },
+    {
+      "titre": "Empereur (Han)",
+      "nom": "Wudi",
+      "surnom": "Le Martial",
+      "debut": -141,
+      "fin": -87
+    }
   ],
   "personnages": [
     {
@@ -51,8 +66,12 @@
     {
       "nom": "Campagnes Han contre les Xiongnu",
       "annee": -133,
-      "adversaires": ["Confédération nomade Xiongnu"],
-      "allies": ["Tribus Yuezhi (partiellement)"],
+      "adversaires": [
+        "Confédération nomade Xiongnu"
+      ],
+      "allies": [
+        "Tribus Yuezhi (partiellement)"
+      ],
       "morts": "Très importantes, épuisement économique",
       "vainqueur": "Dynastie Han",
       "consequences": "Les Xiongnu sont repoussés au nord du désert de Gobi, permettant l'extension agricole de la Chine vers l'Ouest.",
@@ -62,5 +81,10 @@
   "sciences": "C'est l'apogée des 'quatre grandes inventions' primitives : le papier, la boussole magnétique (à l'origine pour le Feng Shui), le sismographe (de Zhang Heng), et l'arbalète à répétition, ainsi qu'une maîtrise précoce de la fonte de la fonte de fer (grâce à des soufflets hydrauliques) avec des siècles d'avance sur l'Occident. L'ingénierie de Qin Shi Huang construit les premières bases de la Grande Muraille.",
   "croyancesText": "Sous les Qin, la doctrine d'État cruelle du Légisme dicte que la nature humaine est mauvaise et ne répond qu'à la peur des châtiments, amenant l'autodafé (incendie) des livres confucéens. La dynastie Han renverse cette philosophie, faisant du Confucianisme (respect de la hiérarchie, de la famille, moralité des élites) la religion d'État indispensable pour réussir les concours de la fonction publique.",
   "diplomatie": "La politique étrangère Han est axée sur le système de 'Heqin' (alliances matrimoniales) et les tributs asymétriques pour pacifier les puissantes tribus nomades du nord (Xiongnu). L'exploration vers l'ouest de l'ambassadeur Zhang Qian (à la recherche de chevaux géants du Ferghana) crée la matrice géopolitique de la Route de la Soie reliant la Chine à l'Empire romain.",
-  "documentaires": [{ "titre": "L'empire des Han : L'Antiquité Chinoise", "url": "https://fr.wikipedia.org/wiki/Dynastie_Han" }]
+  "documentaires": [
+    {
+      "titre": "L'empire des Han : L'Antiquité Chinoise",
+      "url": "https://fr.wikipedia.org/wiki/Dynastie_Han"
+    }
+  ]
 }

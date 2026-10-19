@@ -9,10 +9,13 @@
   "color": "#a8b89a",
   "trackId": "humanite_berceau",
   "row": 1,
-  "isRiver": true,
+  "isRiver": false,
   "capitale": "Vallée du Grand Rift",
   "description": "Le berceau de l'humanité, théâtre de l'évolution depuis les Australopithèques jusqu'à l'émergence d'Homo sapiens.",
-  "territories": ["Homo erectus", "Homo heidelbergensis"],
+  "territories": [
+    "Homo erectus",
+    "Homo heidelbergensis"
+  ],
   "datesCles": [
     {
       "annee": -3200000,

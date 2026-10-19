@@ -3,16 +3,18 @@
   "label": "Teotihuacán",
   "tier": 1,
   "region": "mesoamerique",
-  "period": "-100 à vers 550-650",
+  "period": "vers -100 à vers 650",
   "start": -100,
-  "end": 476,
+  "end": 650,
   "color": "#117a65",
   "trackId": "mesoamerique",
   "row": 1,
   "isRiver": false,
   "capitale": "Teotihuacán",
   "description": "La métropole titanique du plateau mexicain. Cité cosmopolite sans rois identifiés, rayonnant comme le 'Lieu où les dieux sont nés'.",
-  "territories": ["Teotihuacan"],
+  "territories": [
+    "Teotihuacan"
+  ],
   "datesCles": [
     {
       "annee": 150,
@@ -44,7 +46,9 @@
     {
       "nom": "Guerre Civile Interne",
       "annee": 550,
-      "adversaires": ["Factions élitistes internes"],
+      "adversaires": [
+        "Factions élitistes internes"
+      ],
       "allies": [],
       "morts": "Massacre des quartiers nobles",
       "vainqueur": "Effondrement du système",

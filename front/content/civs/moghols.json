@@ -8,10 +8,12 @@
   "end": 1789,
   "trackId": "inde",
   "row": 2,
-  "isRiver": true,
+  "isRiver": false,
   "capitale": "Delhi / Agra / Lahore",
   "description": "Dynastie turco-mongole islamique régnant sur la majorité hindoue de l'Inde, offrant au monde l'une de ses architectures et orfèvreries les plus resplendissantes.",
-  "territories": ["Mughal Empire"],
+  "territories": [
+    "Mughal Empire"
+  ],
   "datesCles": [
     {
       "annee": 1526,
@@ -35,9 +37,27 @@
     }
   ],
   "dirigeants": [
-    { "titre": "Empereur (Padichah)", "nom": "Babur", "surnom": "Le Tigre", "debut": 1526, "fin": 1530 },
-    { "titre": "Empereur", "nom": "Akbar", "surnom": "Le Grand", "debut": 1556, "fin": 1605 },
-    { "titre": "Empereur", "nom": "Shah Jahan", "surnom": "Le Bâtisseur", "debut": 1628, "fin": 1658 }
+    {
+      "titre": "Empereur (Padichah)",
+      "nom": "Babur",
+      "surnom": "Le Tigre",
+      "debut": 1526,
+      "fin": 1530
+    },
+    {
+      "titre": "Empereur",
+      "nom": "Akbar",
+      "surnom": "Le Grand",
+      "debut": 1556,
+      "fin": 1605
+    },
+    {
+      "titre": "Empereur",
+      "nom": "Shah Jahan",
+      "surnom": "Le Bâtisseur",
+      "debut": 1628,
+      "fin": 1658
+    }
   ],
   "personnages": [
     {
@@ -52,7 +72,9 @@
     {
       "nom": "Guerres Marathes",
       "annee": 1680,
-      "adversaires": ["Empire Marathe (Shivaji)"],
+      "adversaires": [
+        "Empire Marathe (Shivaji)"
+      ],
       "allies": [],
       "morts": "Guerre de guérilla interminable",
       "vainqueur": "Marathes",
@@ -63,5 +85,10 @@
   "sciences": "Leur apport mondial est l'architecture moghole, une fusion inouïe des styles perses, islamiques et hindous (coupoles à bulbe, minarets, arcades festonnées, symétrie parfaite des jardins d'eau ou 'Chahar bagh'). Ils atteignent des sommets dans le travail du marbre blanc incrusté de pierres précieuses (pietra dura) et la création de miniatures (peintures enluminées).",
   "croyancesText": "Le règne d'Akbar est un miracle de tolérance : musulman gouvernant des millions d'hindous, il abolit l'impôt sur les non-musulmans (la Jizya), épouse des princesses hindoues et invite des moines jésuites portugais à débattre avec les mollahs. Il tente même de fonder une religion syncrétique universelle (le Dîn-i-Ilâhî). Un siècle plus tard, son descendant Aurangzeb fera le chemin inverse en persécutant la majorité, provoquant la ruine de l'empire.",
   "diplomatie": "C'est l'un des 'Empires de la poudre à canon' (avec les Ottomans et Safavides). L'armée moghole repose sur de lourds canons importés de Turquie et fixés sur des chars tirés par des bœufs, protégés par des arquebusiers. Pour contrôler les hindous (les Rajputs), ils intègrent massivement leurs nobles dans l'administration fiscale centralisée (le système des Mansabdars).",
-  "documentaires": [{ "titre": "L'Empire moghol, les seigneurs de l'Inde", "url": "https://fr.wikipedia.org/wiki/Empire_moghol" }]
+  "documentaires": [
+    {
+      "titre": "L'Empire moghol, les seigneurs de l'Inde",
+      "url": "https://fr.wikipedia.org/wiki/Empire_moghol"
+    }
+  ]
 }

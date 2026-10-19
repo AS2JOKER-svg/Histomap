@@ -8,7 +8,7 @@
   "end": 1240,
   "trackId": "rus",
   "row": 6,
-  "isRiver": true,
+  "isRiver": false,
   "capitale": "Kiev",
   "description": "Matrice de la Russie moderne, gigantesque fédération slave encadrée par des guerriers-marchands scandinaves et illuminée par l'influence byzantine.",
   "territories": [
@@ -44,8 +44,20 @@
     }
   ],
   "dirigeants": [
-    { "titre": "Grand Prince de Kiev", "nom": "Vladimir Ier", "surnom": "Le Grand", "debut": 980, "fin": 1015 },
-    { "titre": "Grand Prince", "nom": "Iaroslav", "surnom": "Le Sage", "debut": 1019, "fin": 1054 }
+    {
+      "titre": "Grand Prince de Kiev",
+      "nom": "Vladimir Ier",
+      "surnom": "Le Grand",
+      "debut": 980,
+      "fin": 1015
+    },
+    {
+      "titre": "Grand Prince",
+      "nom": "Iaroslav",
+      "surnom": "Le Sage",
+      "debut": 1019,
+      "fin": 1054
+    }
   ],
   "personnages": [
     {
@@ -60,7 +72,9 @@
     {
       "nom": "Guerre contre la Horde d'Or (Mongols)",
       "annee": 1237,
-      "adversaires": ["Empire Mongol (Batu Khan)"],
+      "adversaires": [
+        "Empire Mongol (Batu Khan)"
+      ],
       "allies": [],
       "morts": "Holocauste urbain et démographique",
       "vainqueur": "Mongols",

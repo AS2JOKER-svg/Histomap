@@ -8,7 +8,7 @@
   "end": 476,
   "trackId": "rome",
   "row": 3,
-  "isRiver": true,
+  "isRiver": false,
   "capitale": "Rome",
   "description": "Une petite cité du Latium devenue, en sept siècles de conquêtes, le premier empire à unifier tout le pourtour de la Méditerranée.",
   "territories": [

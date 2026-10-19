@@ -11,13 +11,13 @@
   "row": 2,
   "isRiver": false,
   "capitale": "Cahuachi (centre cérémoniel)",
-  "description": "Société du désert aride péruvien, passée maître dans l'ingénierie hydraulique de survie et le tracé énigmatique de dessins géants.",
+  "description": "Une culture de la côte désertique du sud du Pérou, célèbre pour ses dessins géants tracés dans le désert, ses céramiques colorées et ses canaux souterrains.",
   "territories": ["Nazca"],
   "datesCles": [
     {
       "annee": -100,
       "evenement": "Tracé des lignes",
-      "info": "Début de la création des immenses géoglyphes (Araignée, Colibri, Singe) dans le désert."
+      "info": "Début de la création des grands géoglyphes du désert (colibri, singe, araignée…)."
     },
     {
       "annee": 300,
@@ -31,10 +31,86 @@
     }
   ],
   "dirigeants": [],
-  "personnages": [],
+  "personnages": [
+    {
+      "nom": "Maria Reiche",
+      "role": "Mathématicienne et archéologue",
+      "description": "Allemande installée au Pérou, elle consacre cinquante ans de sa vie à mesurer, étudier et protéger les lignes de Nazca.",
+      "dates": "1903 → 1998",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Maria_Reiche"
+    }
+  ],
   "guerres": [],
-  "sciences": "Survivre dans le désert le plus aride du monde implique des prouesses de terrassement. On leur attribue généralement les 'Puquios' : de monumentaux aqueducs souterrains empierrés captant l'eau des nappes phréatiques, avec d'impressionnantes cheminées d'aération en spirale pour permettre l'entretien sans que l'eau ne s'évapore sous le soleil mortel. Leur céramique polychrome utilise une grande variété de couleurs minérales (souvent plus d'une dizaine).",
-  "croyancesText": "Les fameuses Lignes de Nazca (géoglyphes) ne sont pas des pistes pour extraterrestres, mais des chemins processionnels religieux. Selon une hypothèse répandue, des processions parcouraient les tracés du colibri ou du condor pour prier les dieux de la montagne et appeler la pluie. Leurs rites incluent la collection intensive de 'têtes-trophées' momifiées d'ennemis pour voler leur énergie rituelle.",
-  "diplomatie": "Nazca est une confédération de chefferies de vallées, liées par une religion commune dont le grand centre est Cahuachi (centre cérémoniel et de pèlerinage en adobe, et non une capitale). La sécheresse permanente et le besoin de ressources rendent les conflits rituels très fréquents, où capturer vivant son adversaire pour l'offrir en sacrifice (ou le décapiter) garantit la gloire et l'approvisionnement mystique en eau.",
-  "documentaires": [{ "titre": "Nazca, les messages de la Terre", "url": "https://fr.wikipedia.org/wiki/Nazca_(civilisation)" }]
+  "sciences": "Pour tracer leurs figures, les Nazcas retirent les pierres sombres de la surface du désert pour faire apparaître le sol clair, en suivant sans doute des modèles réduits agrandis à l’aide de piquets et de cordes. On leur attribue généralement les puquios, canaux souterrains qui captent l’eau des nappes, avec des puits en spirale pour les entretenir. Leurs céramiques sont peintes avant cuisson de dix couleurs ou plus.",
+  "croyancesText": "Les lignes de Nazca étaient sans doute liées à l’eau et à la fertilité : on pense que des processions les parcouraient à pied pour prier les dieux d’envoyer la pluie. Les Nazcas conservaient aussi des têtes-trophées, souvent de guerriers ennemis, percées pour être suspendues, qui avaient une grande valeur rituelle.",
+  "diplomatie": "Les vallées nazcas forment des chefferies indépendantes, unies par une religion commune et le centre de Cahuachi. Les combats entre groupes, souvent représentés sur les céramiques, servaient peut-être à capturer des têtes-trophées.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": { "valeur": "Aucune", "precision": "Cahuachi est un centre cérémoniel et de pèlerinage, pas une capitale" },
+    "regimes": { "valeur": "Chefferies", "precision": "unies par une religion commune" },
+    "langues": { "valeur": "Inconnue", "precision": "pas d’écriture" },
+    "religion": { "valeur": "Polythéisme", "precision": "culte de l’eau et de la fertilité, têtes-trophées" },
+    "apogee": { "valeur": "Vers 1 à 450" },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": { "valeur": "Aucune" },
+    "duree": { "valeur": "Environ 850 ans" },
+    "aujourdhui": { "valeur": "Pérou", "precision": "région d’Ica, sur la côte sud" }
+  },
+  "essentiel": [
+    "Les Nazcas vivent dans des vallées fertiles au milieu de l’un des déserts les plus secs du monde.",
+    "Ils tracent dans le désert les [[lignes-de-nazca|lignes de Nazca]] : des centaines de lignes droites et de figures géantes d’animaux et de plantes.",
+    "Leur grand centre religieux, Cahuachi, accueille des pèlerinages et des cérémonies.",
+    "On leur attribue des canaux souterrains, les puquios, qui permettent d’irriguer malgré la sécheresse.",
+    "Leurs céramiques, peintes d’une dizaine de couleurs, sont parmi les plus belles des Andes."
+  ],
+  "periodes": [
+    {
+      "nom": "Les débuts",
+      "debut": -200,
+      "fin": 1,
+      "resume": "Héritiers de la culture Paracas, les Nazcas s’installent dans les vallées du sud et commencent à tracer des lignes."
+    },
+    {
+      "nom": "L’apogée",
+      "debut": 1,
+      "fin": 450,
+      "resume": "Cahuachi devient un grand centre de pèlerinage ; les figures géantes et les céramiques polychromes se multiplient.",
+      "evenements": [{ "annee": 300, "evenement": "Apogée de Cahuachi" }]
+    },
+    {
+      "nom": "Le déclin",
+      "debut": 450,
+      "fin": 650,
+      "resume": "Sécheresses et déforestation fragilisent les vallées ; la culture décline, puis la région passe sous l’influence de l’empire Wari."
+    }
+  ],
+  "regimes": [
+    {
+      "id": "chefferies",
+      "nom": "Chefferies",
+      "debut": -200,
+      "fin": 650,
+      "note": "Les vallées semblent dirigées par des chefs locaux, unis par une même religion ; aucun nom n’est connu."
+    }
+  ],
+  "dynasties": [],
+  "societe": "Des chefs et des prêtres dirigent les communautés ; potiers et tisserands sont très habiles. La plupart des habitants sont agriculteurs.",
+  "economie": "Agriculture irriguée (maïs, haricots, courges, coton), pêche sur la côte, échanges avec les Andes.",
+  "decouvertes": ["lignes-de-nazca"],
+  "arts": "Céramiques polychromes aux motifs d’animaux, de plantes et d’êtres mythiques, textiles brodés, géoglyphes géants.",
+  "quotidien": "Les habitants vivent dans des maisons de roseaux et d’adobe, près des champs irrigués. L’eau est une préoccupation constante.",
+  "heritage": [
+    {
+      "titre": "Les lignes",
+      "texte": "Inscrites au patrimoine mondial depuis 1994, elles attirent chaque année des milliers de visiteurs qui les survolent en avion."
+    }
+  ],
+  "aSavoir": [
+    "Les lignes ne sont pas l’œuvre d’extraterrestres, comme on l’a parfois prétendu : on a retrouvé les piquets et les tessons laissés par leurs créateurs.",
+    "En 2024, des chercheurs ont découvert plus de 300 nouvelles figures grâce à l’intelligence artificielle."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Nazca_(civilisation)",
+    "https://fr.wikipedia.org/wiki/G%C3%A9oglyphes_de_Nazca"
+  ]
 }

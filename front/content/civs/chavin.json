@@ -11,25 +11,109 @@
   "row": 2,
   "isRiver": false,
   "capitale": "Chavín de Huántar",
-  "description": "Centre de pèlerinage pan-andin, imposant la première unité spirituelle des Andes grâce à son architecture sonore et ses transes.",
+  "description": "Un grand centre religieux des Andes du Pérou, à plus de 3 000 mètres d’altitude, dont l’art et les croyances se diffusent dans une grande partie du pays.",
   "territories": ["Chavin"],
   "datesCles": [
     {
       "annee": -900,
       "evenement": "Fondation du Vieux Temple",
-      "info": "L'élite religieuse construit le grand labyrinthe en U à 3100 mètres d'altitude."
+      "info": "Un temple en U, percé de galeries, est construit à plus de 3 000 mètres d’altitude."
+    },
+    {
+      "annee": -500,
+      "evenement": "Le Nouveau Temple",
+      "info": "Le temple est agrandi ; sa porte est ornée de colonnes et de rapaces sculptés."
     },
     {
       "annee": -400,
-      "evenement": "L'Apogée du culte",
-      "info": "Le style artistique du Dieu-Jaguar irradie toute la côte du Pérou."
+      "evenement": "Apogée du culte",
+      "info": "Le style de Chavín se diffuse dans une grande partie du Pérou."
+    },
+    {
+      "annee": -200,
+      "evenement": "Déclin",
+      "info": "Le centre perd son rôle ; des habitations s’installent sur les places du temple."
     }
   ],
   "dirigeants": [],
-  "personnages": [],
+  "personnages": [
+    {
+      "nom": "Julio C. Tello",
+      "role": "Archéologue",
+      "description": "Archéologue péruvien qui étudie Chavín à partir de 1919 et y voit l’une des sources de la civilisation andine.",
+      "dates": "1880 → 1947",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Julio_Tello"
+    }
+  ],
   "guerres": [],
-  "sciences": "Leur temple est une machine théâtrale à subjuguer les esprits. Les architectes Chavín ont créé un réseau de galeries souterraines complètement obscures, traversées par des canaux hydrauliques dissimulés. Lors de la saison des pluies, l'eau s'y engouffre, et la pression de l'air fait peut-être rugir l'édifice : selon une hypothèse, cela aurait donné l'illusion que la montagne et le temple « respirent » et grognent comme un immense félin.",
-  "croyancesText": "Le culte est chamanique et terrifiant. Le prêtre absorbe des extraits du cactus hallucinogène San Pedro et guide le pèlerin dans les galeries obscures du temple. Au centre se dresse le Lanzón, une stèle de granit de 4,5 m figurant une divinité féroce mi-humaine mi-félin. Le « dieu aux bâtons » (ou aux sceptres) est, lui, représenté sur la stèle Raimondi. Selon certaines hypothèses, le pèlerin aurait vécu une expérience de mort et de renaissance symboliques.",
-  "diplomatie": "Chavín ne possède pas d'armée conquérante. Son autorité est un 'soft-power' de la peur et de la fascination religieuse. En échange d'oracles et de prophéties (cruciales pour anticiper les ravages climatiques d'El Niño sur les récoltes côtières), les populations de tout le Pérou offrent des lamas, du maïs, de l'or et des textiles brodés précieux aux prêtres du temple.",
-  "documentaires": [{ "titre": "Chavin, les maîtres des montagnes", "url": "https://fr.wikipedia.org/wiki/Chav%C3%ADn_(culture)" }]
+  "sciences": "Les bâtisseurs de Chavín créent un réseau de galeries souterraines obscures et de canaux, qui évacuent l’eau des pluies. Selon une hypothèse, l’eau et l’air qui y circulaient produisaient des bruits impressionnants. On a retrouvé dans le temple une vingtaine de trompes faites de coquillages (pututus), qui servaient pendant les cérémonies.",
+  "croyancesText": "L’art de Chavín représente des êtres mêlant traits humains, félins, serpents et rapaces. Au cœur du temple se dresse le Lanzón, une stèle de granit de 4,5 m. Des images de prêtres tenant le cactus San Pedro, qui contient une substance hallucinogène, laissent penser que les cérémonies s’accompagnaient de transes. Selon certaines hypothèses, le pèlerin vivait une expérience de mort et de renaissance symboliques.",
+  "diplomatie": "Chavín ne semble pas avoir eu d’armée conquérante. Son influence est religieuse : des pèlerins viennent de loin consulter son oracle et apportent des offrandes, comme des coquillages de la côte de l’Équateur ou de l’obsidienne des hautes terres.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": {
+      "valeur": "Chavín de Huántar",
+      "precision": "centre religieux à 3 150 m d’altitude, dans la cordillère Blanche"
+    },
+    "regimes": {
+      "valeur": "Pouvoir religieux ?",
+      "precision": "le centre semble dirigé par des prêtres ; aucun souverain n’est connu"
+    },
+    "langues": { "valeur": "Inconnue", "precision": "pas d’écriture" },
+    "religion": { "valeur": "Polythéisme", "precision": "divinités mi-humaines mi-félines, oracle" },
+    "apogee": { "valeur": "Vers −500 à −250" },
+    "population": { "valeur": "Inconnue", "precision": "peut-être 2 000 à 3 000 habitants autour du temple" },
+    "monnaie": { "valeur": "Aucune" },
+    "duree": { "valeur": "Environ 700 ans" },
+    "aujourdhui": { "valeur": "Pérou", "precision": "région d’Ancash" }
+  },
+  "essentiel": [
+    "Chavín de Huántar est un temple de pierre bâti dans une vallée des Andes, au carrefour de la côte et de l’Amazonie.",
+    "Ses galeries souterraines obscures abritent le [[lanzon-de-chavin|Lanzón]], une stèle représentant une divinité mi-humaine mi-féline.",
+    "Les pèlerins venaient de loin consulter les prêtres, qui utilisaient peut-être des plantes hallucinogènes.",
+    "Le style artistique de Chavín (félins, serpents, rapaces) se retrouve dans une grande partie du Pérou.",
+    "Le centre décline vers −200 ; il est inscrit au patrimoine mondial de l’UNESCO depuis 1985."
+  ],
+  "periodes": [
+    {
+      "nom": "Le Vieux Temple",
+      "debut": -900,
+      "fin": -500,
+      "resume": "Le premier temple, en forme de U, est construit autour d’une place circulaire en contrebas, avec ses galeries et le Lanzón."
+    },
+    {
+      "nom": "L’apogée",
+      "debut": -500,
+      "fin": -200,
+      "resume": "Le temple s’agrandit ; ses images et son culte se diffusent de la côte aux hautes terres."
+    }
+  ],
+  "regimes": [
+    {
+      "id": "pretres",
+      "nom": "Pouvoir religieux",
+      "debut": -900,
+      "fin": -200,
+      "note": "Aucun palais ni tombe royale n’a été identifié : le pouvoir semble aux mains des prêtres du temple."
+    }
+  ],
+  "dynasties": [],
+  "societe": "Des prêtres et une élite religieuse dirigent le centre. Des artisans travaillent la pierre, l’or et la céramique. Autour, des paysans cultivent les terrasses et élèvent des lamas.",
+  "economie": "Agriculture de montagne (pomme de terre, maïs), élevage de lamas et d’alpagas, échanges entre la côte, les Andes et l’Amazonie.",
+  "decouvertes": ["lanzon-de-chavin"],
+  "arts": "Stèle Raimondi (le « dieu aux bâtons »), obélisque Tello, têtes sculptées fixées aux murs du temple, bijoux en or martelé et céramiques noires.",
+  "quotidien": "Les pèlerins arrivent par les cols de montagne avec leurs offrandes. Les fêtes se déroulent sur les grandes places du temple, au son des trompes en coquillage.",
+  "heritage": [
+    {
+      "titre": "Une religion partagée",
+      "texte": "Le « dieu aux bâtons » de Chavín se retrouve, sous d’autres formes, dans des cultures andines plus tardives, comme Tiwanaku."
+    }
+  ],
+  "aSavoir": [
+    "L’idée que les prêtres annonçaient les phénomènes climatiques comme El Niño est une hypothèse, pas un fait établi."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Chav%C3%ADn_(culture)",
+    "https://fr.wikipedia.org/wiki/Chav%C3%ADn_de_Hu%C3%A1ntar"
+  ]
 }

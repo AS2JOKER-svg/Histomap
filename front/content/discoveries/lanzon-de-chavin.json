@@ -1,0 +1,19 @@
+{
+  "id": "lanzon-de-chavin",
+  "nom": "Lanzón de Chavín",
+  "annee": -900,
+  "domaine": "Art et religion",
+  "dates": "vers −900",
+  "description": "Une stèle de granit de 4,5 mètres, dressée au cœur des galeries obscures du temple de Chavín : une divinité aux crocs de félin et aux cheveux en serpents.",
+  "sections": [
+    {
+      "titre": "Ce qu’elle représente",
+      "texte": "Le dieu a une main levée et une main baissée, peut-être pour montrer qu’il relie le ciel et le monde souterrain. Sa forme rappelle un pieu planté dans le sol."
+    },
+    {
+      "titre": "Où elle se trouve",
+      "texte": "Elle n’a jamais été déplacée : elle est toujours à sa place, dans une galerie en croix, où seuls quelques privilégiés devaient pouvoir l’approcher."
+    }
+  ],
+  "wikiUrl": "https://en.wikipedia.org/wiki/Lanz%C3%B3n"
+}

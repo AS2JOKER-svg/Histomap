@@ -1,0 +1,22 @@
+{
+  "id": "lignes-de-nazca",
+  "nom": "Lignes de Nazca",
+  "annee": -100,
+  "domaine": "Art et religion",
+  "dates": "vers −200 → 600",
+  "description": "Des centaines de lignes droites, de formes géométriques et de figures géantes (colibri, singe, araignée, orque…) tracées dans le désert du sud du Pérou.",
+  "sections": [
+    {
+      "titre": "Comment elles ont été faites",
+      "texte": "En retirant les cailloux sombres de la surface, les Nazcas font apparaître le sol plus clair. Le climat très sec et l’absence de vent les ont conservées pendant des siècles. Certaines figures mesurent plusieurs centaines de mètres."
+    },
+    {
+      "titre": "À quoi servaient-elles",
+      "texte": "Elles étaient sans doute parcourues à pied lors de processions, pour demander l’eau et la fertilité aux dieux. Les plus petites figures, le long des chemins, devaient être vues depuis le sol."
+    }
+  ],
+  "aSavoir": [
+    "Contrairement à une idée répandue, la plupart peuvent être aperçues depuis les collines voisines ; il n’est pas nécessaire de voler pour les voir."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/G%C3%A9oglyphes_de_Nazca"
+}

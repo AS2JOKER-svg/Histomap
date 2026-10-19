@@ -71,10 +71,6 @@
   "Guerre Han-Gojoseon": {
     "coords": [125.75, 39.03]
   },
-  "Guerre Civile Interne": {
-    "coords": [-98.84, 19.69],
-    "lieu": "Teotihuacan"
-  },
   "Chute de Constantinople": {
     "coords": [28.98, 41.01]
   },
@@ -340,5 +336,9 @@
   "Révolte des Maccabées": {
     "coords": [35.2, 31.85],
     "lieu": "Judée"
+  },
+  "Entrée de Teotihuacan à Tikal": {
+    "coords": [-89.62, 17.22],
+    "lieu": "Tikal (Guatemala)"
   }
 }

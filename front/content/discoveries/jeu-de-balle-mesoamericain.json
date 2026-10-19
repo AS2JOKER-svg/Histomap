@@ -1,0 +1,23 @@
+{
+  "id": "jeu-de-balle-mesoamericain",
+  "nom": "Jeu de balle mésoaméricain",
+  "annee": -1600,
+  "domaine": "Sport et religion",
+  "dates": "vers −1600 → XVIe siècle",
+  "description": "Un jeu d’équipe pratiqué pendant plus de 3 000 ans au Mexique et en Amérique centrale : on frappe une lourde balle de caoutchouc avec les hanches, sans les mains.",
+  "sections": [
+    {
+      "titre": "Comment ça marche",
+      "texte": "Sur un terrain en forme de I, bordé de murs inclinés, deux équipes se renvoient la balle. Plus tard, des anneaux de pierre sont fixés aux murs : y faire passer la balle est un exploit rare."
+    },
+    {
+      "titre": "Un rituel",
+      "texte": "Le jeu a souvent une valeur religieuse, liée au mouvement du soleil et des astres. Certaines parties se terminaient par des sacrifices."
+    }
+  ],
+  "aSavoir": [
+    "Une version de ce jeu, l’ulama, est toujours pratiquée dans le nord-ouest du Mexique.",
+    "Les Espagnols, qui ne connaissaient pas le caoutchouc, furent stupéfaits par ces balles qui rebondissaient."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Jeu_de_balle_(M%C3%A9soam%C3%A9rique)"
+}

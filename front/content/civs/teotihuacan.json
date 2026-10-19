@@ -11,23 +11,25 @@
   "row": 1,
   "isRiver": false,
   "capitale": "Teotihuacán",
-  "description": "La métropole titanique du plateau mexicain. Cité cosmopolite sans rois identifiés, rayonnant comme le 'Lieu où les dieux sont nés'.",
+  "description": "L’une des plus grandes villes du monde au milieu du Ier millénaire, au nord de l’actuelle Mexico, avec ses pyramides du Soleil et de la Lune. Son influence s’étend jusqu’au pays maya.",
   "territories": ["Teotihuacan"],
   "datesCles": [
     {
-      "annee": 150,
-      "evenement": "Pyramide du Soleil",
-      "info": "Achèvement du monument central de la cité, aligné sur la course astronomique."
+      "annee": -100,
+      "evenement": "Fondation",
+      "info": "Des villages de la vallée se regroupent ; la ville commence à grandir."
     },
-    {
-      "annee": 250,
-      "evenement": "La Cité État",
-      "info": "Teotihuacán compte déjà plus de 100 000 habitants (plus grande ville des Amériques)."
-    },
+    { "annee": 200, "evenement": "Pyramide du Soleil", "info": "Le plus grand monument de la ville est achevé." },
     {
       "annee": 378,
-      "evenement": "Entrée maya (L'Entrada)",
-      "info": "Le chef de guerre Siyaj K'ak', lié à Teotihuacán, arrive à Tikal ; le roi Chak Tok Ich'aak meurt le jour même, et Yax Nuun Ayiin devient roi en 379."
+      "evenement": "Entrée maya (L’Entrada)",
+      "info": "Le chef de guerre Siyaj K’ak’, lié à Teotihuacán, arrive à Tikal ; le roi Chak Tok Ich’aak meurt le jour même, et Yax Nuun Ayiin devient roi en 379."
+    },
+    { "annee": 450, "evenement": "Apogée", "info": "La ville compte environ 100 000 habitants." },
+    {
+      "annee": 550,
+      "evenement": "Incendie du centre",
+      "info": "Les palais et les temples de l’allée des Morts sont incendiés, peut-être lors d’une révolte ; la ville décline ensuite."
     }
   ],
   "dirigeants": [],
@@ -37,28 +39,105 @@
       "role": "Chef de guerre",
       "description": "Chef de guerre lié à Teotihuacán, arrivé à Tikal en 378. Ce n'est pas un souverain de Teotihuacán : aucun souverain de la cité n'est connu.",
       "dates": "Arrivée à Tikal en 378",
-      "wikiUrl": "https://en.wikipedia.org/wiki/Siyaj_K%27ak%27"
+      "wikiUrl": "https://en.wikipedia.org/wiki/Tikal"
     }
   ],
   "guerres": [
     {
-      "nom": "Guerre Civile Interne",
-      "annee": 550,
-      "adversaires": ["Factions élitistes internes"],
+      "nom": "Entrée de Teotihuacan à Tikal",
+      "annee": 378,
+      "adversaires": ["Tikal (roi Chak Tok Ich’aak)"],
       "allies": [],
-      "morts": "Massacre des quartiers nobles",
-      "vainqueur": "Effondrement du système",
-      "consequences": "Vers 550 (entre 550 et 650 selon les sources), le centre de la cité est incendié, peut-être par la population ou une faction rivale. La cité périclite, bien que son influence religieuse ne s'éteigne jamais.",
-      "wikiUrl": "https://fr.wikipedia.org/wiki/Teotihuac%C3%A1n"
+      "morts": "Inconnues ; le roi de Tikal meurt le jour de l’arrivée",
+      "vainqueur": "Teotihuacan (Siyaj K’ak’)",
+      "consequences": "Un nouveau roi lié à Teotihuacan, Yax Nuun Ayiin, est installé à Tikal en 379 ; l’influence de Teotihuacan se répand chez les Mayas.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Tikal"
     }
   ],
-  "sciences": "C'est l'un des premiers triomphes d'urbanisme géométrique de masse. La ville, traversée par 'l'Allée des Morts' longue d'environ 2,5 km, est divisée en quartiers résidentiels pour étrangers (Zapotèques, Mayas), abritant des ateliers spécialisés. La richesse de la ville repose sur le contrôle absolu et industriel de l'extraction de l'obsidienne (verre volcanique) de Pachuca, utilisée comme l'arme la plus tranchante du monde précolombien.",
-  "croyancesText": "L'art de la ville est paradoxal : on n'y trouve aucune statue de roi glorieux. L'iconographie est surtout consacrée à un dieu de la pluie à lunettes et au Serpent à Plumes, que l'on désigne par les noms aztèques de divinités apparentées (Tlaloc et Quetzalcoatl). La fondation de leurs grands temples s'accompagne de sacrifices : des centaines de guerriers aux mains liées et des animaux prédateurs (pumas, aigles) ont été enterrés au cœur des pyramides.",
-  "diplomatie": "C'est le suzerain brutal et distant de la Mésoamérique. En l'an 378, bien avant les Aztèques, Teotihuacán envoie une expédition militaire à plus de 1000 km dans les jungles mayas. Le roi de Tikal, la plus grande cité maya, meurt le jour de leur arrivée, et Yax Nuun Ayiin, fils d'un personnage nommé « Chouette-Lance-Dards », devient roi en 379, imposant leur style architectural et vestimentaire à la civilisation Maya (le style Talud-Tablero).",
-  "documentaires": [
+  "sciences": "Teotihuacan est une ville planifiée : rues orientées selon un même axe, plus de 2 000 ensembles d’habitations collectives en pierre, canalisations. Ses artisans travaillent l’obsidienne (verre volcanique) des gisements voisins pour fabriquer couteaux, pointes et miroirs, vendus dans toute la Mésoamérique.",
+  "croyancesText": "L’art de la ville ne montre aucun roi glorieux. Il représente surtout un dieu de la pluie à lunettes et le Serpent à plumes, que l’on désigne par les noms aztèques de divinités apparentées (Tlaloc et Quetzalcoatl). La construction des grands temples s’accompagne de sacrifices : environ 200 guerriers aux mains liées ont été enterrés sous le temple du Serpent à plumes, et des animaux (pumas, aigles, loups) sous la pyramide de la Lune.",
+  "diplomatie": "Teotihuacan entretient des liens avec toute la Mésoamérique : des Zapotèques d’Oaxaca et des Mayas vivent dans ses quartiers. En 378, une expédition liée à la ville arrive à Tikal, à plus de 1 000 km : le roi de Tikal meurt le jour même et un nouveau roi, Yax Nuun Ayiin, fils d’un personnage nommé « Chouette-Lance-Dards », est installé en 379. Le style de Teotihuacan (talud-tablero) se répand alors chez les Mayas.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": { "valeur": "Teotihuacan", "precision": "à 40 km au nord-est de Mexico" },
+    "regimes": {
+      "valeur": "Inconnu",
+      "precision": "aucun souverain n’est connu ; peut-être un pouvoir partagé entre grandes familles"
+    },
+    "langues": {
+      "valeur": "Inconnue",
+      "precision": "peut-être le nahuatl ancien, le totonaque ou l’otomi ; signes encore non déchiffrés"
+    },
+    "religion": { "valeur": "Polythéisme", "precision": "dieu de la pluie et Serpent à plumes" },
+    "apogee": { "valeur": "Vers 350 à 550", "precision": "environ 100 000 habitants" },
+    "population": { "valeur": "Environ 100 000 habitants", "precision": "l’une des six plus grandes villes du monde vers 500" },
+    "monnaie": { "valeur": "Aucune", "precision": "commerce de l’obsidienne, des céramiques et des plumes" },
+    "duree": { "valeur": "Environ 750 ans" },
+    "aujourdhui": { "valeur": "Mexique", "precision": "État de Mexico" }
+  },
+  "essentiel": [
+    "Fondée vers −100, Teotihuacan devient une immense ville, organisée selon un plan géométrique le long de l’« allée des Morts ».",
+    "Ses [[pyramide-du-soleil|pyramides du Soleil]] et de la Lune comptent parmi les plus grands monuments d’Amérique.",
+    "La ville accueille des quartiers d’étrangers, venus d’Oaxaca ou du pays maya, et fabrique des outils en obsidienne pour toute la région.",
+    "En 378, un chef de guerre lié à Teotihuacan arrive à Tikal, la grande cité maya, et y installe un nouveau roi.",
+    "Vers 550, le centre de la ville est incendié ; Teotihuacan décline. Les Aztèques, des siècles plus tard, y voient la ville où les dieux sont nés."
+  ],
+  "periodes": [
     {
-      "titre": "Teotihuacan : Le mystère de la cité des dieux",
-      "url": "https://fr.wikipedia.org/wiki/Teotihuac%C3%A1n"
+      "nom": "La croissance",
+      "debut": -100,
+      "fin": 250,
+      "resume": "Après des éruptions volcaniques qui ravagent le sud de la vallée de Mexico, la population afflue. La ville s’organise et bâtit ses grandes pyramides.",
+      "evenements": [
+        { "annee": 200, "evenement": "Achèvement de la pyramide du Soleil" },
+        { "annee": 200, "evenement": "Temple du Serpent à plumes" }
+      ]
+    },
+    {
+      "nom": "L’apogée",
+      "debut": 250,
+      "fin": 550,
+      "resume": "Teotihuacan est la plus puissante ville de Mésoamérique. Son influence atteint le pays maya.",
+      "evenements": [{ "annee": 378, "evenement": "Arrivée de Siyaj K’ak’ à Tikal" }]
+    },
+    {
+      "nom": "Le déclin",
+      "debut": 550,
+      "fin": 650,
+      "resume": "Après l’incendie du centre, la population diminue fortement, mais le site reste un lieu sacré."
     }
+  ],
+  "regimes": [
+    {
+      "id": "inconnu",
+      "nom": "Pouvoir collectif ?",
+      "debut": -100,
+      "fin": 650,
+      "note": "Aucune image ni inscription ne glorifie un roi : certains archéologues pensent que la ville était gouvernée par plusieurs grandes familles ou un conseil."
+    }
+  ],
+  "dynasties": [],
+  "societe": "La plupart des habitants vivent dans de grands ensembles d’habitations, partagés par plusieurs familles qui exercent souvent le même métier. Les élites occupent des palais richement décorés de peintures murales.",
+  "economie": "Agriculture irriguée de la vallée (maïs, haricots, courges, amarante), ateliers d’obsidienne et de céramique, commerce à longue distance.",
+  "decouvertes": ["pyramide-du-soleil"],
+  "arts": "Peintures murales colorées (le « paradis de Tlaloc » de Tepantitla), masques de pierre, vases tripodes, têtes de serpents à plumes sculptées sur le temple de Quetzalcoatl.",
+  "quotidien": "Les habitants vivent dans des ensembles fermés autour de patios, avec leurs autels familiaux. Les marchés de la ville attirent des gens de toute la région.",
+  "heritage": [
+    {
+      "titre": "Un site majeur",
+      "texte": "Teotihuacan, inscrite au patrimoine mondial, est l’un des sites archéologiques les plus visités du Mexique."
+    },
+    {
+      "titre": "Un nom aztèque",
+      "texte": "Teotihuacan signifie en nahuatl « le lieu où les hommes deviennent des dieux » ; les Aztèques y situaient la naissance du Soleil et de la Lune."
+    }
+  ],
+  "aSavoir": [
+    "On ne connaît pas le nom que les habitants donnaient à leur ville.",
+    "En 2003, un tunnel scellé a été découvert sous le temple du Serpent à plumes ; on y a trouvé des milliers d’offrandes et même du mercure liquide."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Teotihuac%C3%A1n",
+    { "titre": "Encyclopædia Britannica — Teotihuacán", "url": "https://www.britannica.com/place/Teotihuacan" }
   ]
 }

@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Fiche découverte · Maquettes HistoMap</title>
+<link rel="stylesheet" href="assets/maquette.css">
+<style>
+  .cycle { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; }
+  .cycle div { border-radius: 12px; padding: 10px 6px; text-align: center; background: rgb(var(--c-surface-2)); }
+  .cycle div b { display: block; font-size: 20px; font-family: Fraunces, Georgia, serif; }
+  .cycle div span { font-size: 11px; color: rgb(var(--c-muted)); }
+  .cycle div.leap { background: rgb(var(--c-success) / .14); box-shadow: inset 0 0 0 2px rgb(var(--c-success) / .5); }
+</style>
+</head>
+<body>
+<main class="stage">
+  <div class="phone" style="--civ:#8e44ad">
+    <div class="statusbar"><span>9:41</span><span class="dots">●●● ▮</span></div>
+
+    <div class="screen with-cta">
+      <div class="appbar">
+        <a class="icon-btn" href="05-fiche-civilisation.html#societe" aria-label="Retour"><svg data-i="arrowLeft"></svg></a>
+        <span class="title">Calendrier julien</span>
+        <a class="icon-btn" href="03-recherche.html" aria-label="Rechercher"><svg data-i="search"></svg></a>
+        <button class="icon-btn" aria-label="Partager"><svg data-i="share"></svg></button>
+      </div>
+
+      <header class="entity-hero">
+        <div style="display:flex;gap:6px"><span class="badge discovery">Découverte</span><span class="chip" style="padding:3px 8px;font-size:11px">Mesure du temps</span></div>
+        <h1 class="display" style="font-size:34px;font-weight:600;line-height:1.05;margin-top:8px">Calendrier julien</h1>
+        <p class="tabular" style="margin-top:8px;font-weight:600"><span class="civ-text">46 av. J.-C.</span> <span class="muted" style="font-weight:400">· en vigueur le 1er janvier −45</span></p>
+        <p class="prose" style="margin-top:12px">La réforme de <span class="ref" data-ref="jules-cesar">Jules César</span> : une année de 365 jours, et un jour de plus tous les quatre ans. C'est l'ancêtre direct de notre calendrier.</p>
+      </header>
+
+      <div class="section">
+        <h2 class="section-title"><span class="ico"><svg data-i="layers" class="sm"></svg></span>Repères</h2>
+        <dl class="facts" style="margin:0">
+          <div><dt>Décidé par</dt><dd><span class="ref" data-ref="jules-cesar">Jules César</span><small>alors dictateur</small></dd></div>
+          <div><dt>Conseiller</dt><dd><span class="ref" data-ref="sosigene">Sosigène d'Alexandrie</span><small>astronome, selon Pline l'Ancien</small></dd></div>
+          <div><dt>Durée de l'année</dt><dd>365,25 jours<small>en moyenne</small></dd></div>
+          <div><dt>Utilisé</dt><dd>Jusqu'en 1582<small>et bien plus tard selon les pays</small></dd></div>
+        </dl>
+      </div>
+
+      <div class="section">
+        <h2 class="section-title"><span class="ico"><svg data-i="sparkles" class="sm"></svg></span>Comment ça marche</h2>
+        <div class="cycle" aria-label="Cycle de quatre ans : trois années de 365 jours, une de 366">
+          <div><b>365</b><span>an 1</span></div>
+          <div><b>365</b><span>an 2</span></div>
+          <div><b>365</b><span>an 3</span></div>
+          <div class="leap"><b>366</b><span>bissextile</span></div>
+        </div>
+        <p class="prose" style="margin-top:12px">En moyenne, 365 jours et un quart. Mais l'année solaire dure un peu moins (environ 365,2422 jours) : le calendrier julien prend <b>un jour d'avance tous les 128 ans</b> environ.</p>
+      </div>
+
+      <div class="section">
+        <h2 class="section-title"><span class="ico"><svg data-i="history" class="sm"></svg></span>Pourquoi cette réforme ?</h2>
+        <p class="prose">L'ancien calendrier romain comptait 355 jours, et l'on ajoutait des mois au jugé. Il avait pris près de trois mois de décalage sur les saisons. Pour tout recaler, l'année −46 dure <b>445 jours</b> : on l'a appelée « l'année de la confusion ».</p>
+      </div>
+
+      <div class="section">
+        <h2 class="section-title"><span class="ico"><svg data-i="temple" class="sm"></svg></span>Ce qu'il en reste aujourd'hui</h2>
+        <div class="card">
+          <div class="row"><div class="grow"><div class="t">Juillet et août</div><div class="s">Mois renommés en l'honneur de Jules César puis d'<span class="ref" data-ref="auguste">Auguste</span>.</div></div></div>
+          <div class="row"><div class="grow"><div class="t">Notre calendrier</div><div class="s">Le <span class="ref" data-ref="calendrier-gregorien">calendrier grégorien</span> (1582) garde le principe et corrige la dérive.</div></div></div>
+          <div class="row"><div class="grow"><div class="t">Le Noël orthodoxe</div><div class="s">Plusieurs Églises orthodoxes suivent encore le calendrier julien : leur Noël tombe le 7 janvier.</div></div></div>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2 class="section-title"><span class="ico"><svg data-i="timeline" class="sm"></svg></span>Avant, après</h2>
+        <div class="sequence">
+          <button class="card" data-ref="x" data-type="decouverte" data-nom="Calendrier romain républicain" data-dates="avant −45" data-resume="Année de 355 jours, avec un mois intercalaire ajouté de temps en temps par les pontifes."><span class="eyebrow">← Avant</span><span style="display:block;font-weight:600;margin-top:4px">Calendrier républicain</span></button>
+          <button class="card" data-ref="calendrier-gregorien" style="text-align:right"><span class="eyebrow">Après · 1582 →</span><span style="display:block;font-weight:600;margin-top:4px">Calendrier grégorien</span></button>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2 class="section-title"><span class="ico"><svg data-i="alert" class="sm"></svg></span>À savoir</h2>
+        <div class="card" style="padding:14px 16px">
+          <p class="prose" style="font-size:14px">La Russie n'adopte le calendrier grégorien qu'en 1918 : c'est pourquoi la révolution « d'Octobre » 1917 a eu lieu… en novembre dans notre calendrier.</p>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2 class="section-title"><span class="ico"><svg data-i="link" class="sm"></svg></span>Apparaît dans</h2>
+        <div style="display:flex;gap:8px;flex-wrap:wrap">
+          <button class="chip" data-ref="rome"><span class="badge civ" style="padding:1px 5px">●</span> Rome antique</button>
+          <button class="chip" data-ref="jules-cesar"><span class="badge person" style="padding:1px 5px">●</span> Jules César</button>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2 class="section-title"><span class="ico"><svg data-i="book" class="sm"></svg></span>Sources</h2>
+        <div class="card">
+          <a class="row" href="https://fr.wikipedia.org/wiki/Calendrier_julien" target="_blank" rel="noreferrer"><div class="grow"><div class="t" style="font-size:14px">Wikipédia — Calendrier julien</div></div><svg data-i="external" class="chev sm"></svg></a>
+        </div>
+      </div>
+      <div class="footer-space"></div>
+    </div>
+
+    <div class="cta-bar"><a class="btn btn-accent btn-block" href="04-frise.html"><svg data-i="timeline" class="sm"></svg> Voir −46 sur la frise</a></div>
+
+    <nav class="tabbar" aria-label="Navigation principale">
+      <a href="02-accueil.html"><svg data-i="home"></svg>Accueil</a>
+      <a href="04-frise.html" aria-current="page"><svg data-i="timeline"></svg>Frise</a>
+      <a href="04b-carte.html"><svg data-i="globe"></svg>Carte</a>
+      <a href="09-guerres.html"><svg data-i="swords"></svg>Guerres</a>
+      <a href="10-reviser.html"><svg data-i="cards"></svg>Réviser</a>
+    </nav>
+  </div>
+
+  <aside class="notes">
+    <a class="back" href="index.html"><svg data-i="arrowLeft" class="sm"></svg> Toutes les maquettes</a>
+    <p class="eyebrow">Maquette 08 · Demande 2</p>
+    <h1>Fiche d'une découverte</h1>
+    <p>Inventions, techniques, œuvres, idées : tout ce qu'une civilisation a apporté.</p>
+    <h2>Pourquoi ces choix</h2>
+    <ul>
+      <li><b>« Comment ça marche »</b> avec un petit schéma : une découverte se comprend mieux qu'elle ne se lit. Chaque fiche aura son schéma simple (fait en code, pas en image : léger et lisible en mode sombre).</li>
+      <li><b>« Ce qu'il en reste aujourd'hui »</b> relie le passé au quotidien de l'élève (juillet, août, Noël orthodoxe). C'est ce qui donne envie de retenir.</li>
+      <li><b>« Avant, après »</b> montre la filiation des idées (calendrier républicain → julien → grégorien).</li>
+      <li><b>Domaine</b> (mesure du temps, médecine, architecture…) : permettra plus tard une vue « toutes les découvertes en médecine ».</li>
+    </ul>
+    <div class="tools"><button class="btn btn-secondary" data-theme-toggle><svg data-i="moon" class="sm"></svg> Thème</button></div>
+  </aside>
+</main>
+<script src="assets/maquette.js"></script>
+</body>
+</html>

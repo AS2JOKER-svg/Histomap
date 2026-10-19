@@ -50,16 +50,17 @@ Tout le code est dans `front/`. Commandes (depuis `front/`, ou depuis la racine 
 6. `localStorage` : toujours via `src/lib/storage.js`. Si la forme de `histomap_progress` change : incrémenter `VERSION` et compléter `migrate()` dans `store/progress.js`.
 7. Garder les anciens liens (`#/frise/...`, `#/carte`, `#/reviser/...`) fonctionnels.
 8. Ne pas ajouter de serveur, de compte utilisateur ni de pistage.
-9. Petits pas : à la fin de chaque tâche, résumer ce qui a été fait, ce qui a été vérifié, et ce qui reste douteux. Ne pas enchaîner sur le sprint suivant sans accord.
+9. Petits pas : à la fin de chaque sprint, **un commit** (branche de travail, jamais de push sans accord) et un résumé : ce qui a été fait, vérifié, et ce qui reste douteux. Les sprints dont le but est une validation (liste d'une vague, pilote) attendent la réponse de l'utilisateur.
 10. Refonte des données ou du code de calcul : comparer avant/après ce que l'app produit (questions de quiz, cartes de révision, conflits, territoires) — aucune différence non voulue.
 
 ## Feuille de route (v3)
 - ✅ Sprints 0 à 8 : app complète (frise, carte, révisions, quiz, PWA).
 - ✅ Sprint 9 : fondations des données (content/ en JSON, index léger + détail à la demande, fiches liées et liens `[[id]]`, dirigeants structurés, régions, rapport de couverture, validateurs).
-- Sprint 10A : maquettes (arborescence 4 onglets, **nouvelle structure de fiche**, fiches liées cliquables, **frise des dirigeants**, recherche globale, accueil 3 écrans). Attendre la validation.
+- ✅ Sprint 10A : maquettes validées le 19/10/2026 (`front/maquettes/index.html`, tableau des décisions). Décisions : barre du bas à **5 onglets** (Accueil, Frise, Carte, Guerres, Réviser — Frise et Carte restent séparées) ; « On avance » devient « Réviser » ; fiche civilisation à **6 onglets** (Résumé, Histoire, Dirigeants, Société, Guerres, Carte) + bouton fixe « Réviser » ; **9 repères** (capitale, régimes, langues, religion, apogée, population, monnaie, durée, aujourd'hui) ; **pas d'images** (initiales + liens Wikipédia) ; action principale des fiches liées : « Voir sur la frise ».
 - Sprint 10B : implémentation des maquettes validées.
 - Sprint 11 : pilote « fiches en béton » sur 5 civilisations (structure complète, dirigeants complets, fiches liées nombreuses) → valider qualité et coût.
-- Sprint 12 : mise à niveau des 100 autres fiches par lots de 5, relecture factuelle séparée.
-- Sprints 13+ : nouvelles civilisations par vagues (steppes et Russie ; Asie centrale et Perse ; Afrique ; Asie du Sud-Est et Océanie ; Amériques ; Europe médiévale et moderne ; États contemporains), directement au format complet.
+- Sprint 12 : mise à niveau des 100 autres fiches par lots de 5, relecture factuelle séparée. Corrections connues : 8 fiches aux dates coupées aux bornes d'époque (maya 476→1492 au lieu de 250→900, byzance, kongo, mali, mexique, nazca, teotihuacan, tiwanaku : la frise gère déjà le débordement ‹ ›) + règle du validateur « période affichée = dates » ; `isRiver` faux sur 29 fiches ; personnages qui ne sont pas des personnes ; « Isabelle & Ferdinand » en un seul dirigeant ; formulations non neutres (Aurangzeb).
+- Sprint 13 : quiz express (3 questions) sur les fiches liées.
+- Sprints 14+ : nouvelles civilisations par vagues (steppes et Russie ; Asie centrale et Perse ; Afrique ; Asie du Sud-Est et Océanie ; Amériques ; Europe médiévale et moderne ; États contemporains), directement au format complet.
 - Guerres A (prototype Seconde Guerre mondiale) puis B (extension).
 - Play Store (TWA sur le domaine du studio, knightborn-studio.fr).

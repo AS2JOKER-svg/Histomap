@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Guerres · Maquettes HistoMap</title>
+<link rel="stylesheet" href="assets/maquette.css">
+<style>
+  .featured { display: block; overflow: hidden; border-radius: 22px; color: #fff; background: linear-gradient(150deg, #2c3e50, #1a1f2b); box-shadow: var(--shadow-lift); }
+  .featured .top { padding: 18px 18px 0; }
+  .featured .camps { display: grid; grid-template-columns: 1fr auto 1fr; gap: 10px; align-items: center; padding: 14px 18px; }
+  .featured .camp { border-radius: 14px; padding: 10px 12px; font-weight: 700; text-align: center; }
+  .featured .stats { display: flex; gap: 16px; padding: 0 18px 18px; font-size: 12.5px; opacity: .85; }
+  .war { padding: 14px; text-align: left; width: 100%; display: block; }
+</style>
+</head>
+<body>
+<main class="stage">
+  <div class="phone">
+    <div class="statusbar"><span>9:41</span><span class="dots">●●● ▮</span></div>
+
+    <div class="screen">
+      <div class="appbar left"><span class="title">Guerres</span><a class="icon-btn" href="03-recherche.html" aria-label="Rechercher"><svg data-i="search"></svg></a></div>
+
+      <div class="carousel" style="margin:0;padding:2px 16px 8px">
+        <span class="chip on">Toutes</span><span class="chip">Antiquité</span><span class="chip">Moyen Âge</span><span class="chip">Moderne</span><span class="chip">Contemporaine</span>
+      </div>
+
+      <!-- Action principale : la guerre mise en avant -->
+      <div class="pad" style="margin-top:8px">
+        <a class="featured" href="#" data-ref="x" data-type="guerre" data-nom="Seconde Guerre mondiale" data-dates="1939 → 1945" data-resume="Page prototype du sprint Guerres A : en-tête camp contre camp, frise de 8 à 10 phases avec une carte qui avance dans le temps, 15 batailles, 20 personnages et un quiz.">
+          <div class="top">
+            <span style="font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;opacity:.75">À la une · 1939 → 1945</span>
+            <span class="display" style="display:block;font-size:26px;font-weight:600;margin-top:4px">Seconde Guerre mondiale</span>
+          </div>
+          <div class="camps">
+            <span class="camp" style="background:#2e6f95">Alliés</span>
+            <span style="font-size:12px;font-weight:800;opacity:.8">VS</span>
+            <span class="camp" style="background:#7b2d26">Axe</span>
+          </div>
+          <div class="stats"><span>10 phases</span><span>15 batailles</span><span>20 personnages</span></div>
+        </a>
+      </div>
+
+      <div class="section">
+        <p class="eyebrow" style="margin-bottom:10px">Antiquité</p>
+        <div style="display:grid;gap:10px">
+          <button class="card war" data-ref="x" data-type="guerre" data-nom="Guerres médiques" data-dates="−499 → −449" data-resume="Les cités grecques, menées par Athènes et Sparte, repoussent les invasions de l'Empire perse (Marathon, Salamine)."><div style="display:flex;justify-content:space-between"><span style="font-weight:600">Guerres médiques</span><span class="muted tabular" style="font-size:12.5px">−499 → −449</span></div><div class="versus"><span class="side win">Cités grecques</span><span class="vs">VS</span><span class="side">Empire perse</span></div></button>
+          <button class="card war" data-ref="x" data-type="guerre" data-nom="Guerre du Péloponnèse" data-dates="−431 → −404" data-resume="Athènes et ses alliés contre Sparte et la ligue du Péloponnèse ; Athènes capitule en −404."><div style="display:flex;justify-content:space-between"><span style="font-weight:600">Guerre du Péloponnèse</span><span class="muted tabular" style="font-size:12.5px">−431 → −404</span></div><div class="versus"><span class="side">Athènes</span><span class="vs">VS</span><span class="side win">Sparte</span></div></button>
+          <button class="card war" data-ref="guerres-puniques"><div style="display:flex;justify-content:space-between"><span style="font-weight:600">Guerres puniques</span><span class="muted tabular" style="font-size:12.5px">−264 → −146</span></div><div class="versus"><span class="side win">Rome</span><span class="vs">VS</span><span class="side">Carthage</span></div></button>
+          <button class="card war" data-ref="guerre-des-gaules"><div style="display:flex;justify-content:space-between"><span style="font-weight:600">Guerre des Gaules</span><span class="muted tabular" style="font-size:12.5px">−58 → −50</span></div><div class="versus"><span class="side win">Rome (César)</span><span class="vs">VS</span><span class="side">Peuples gaulois</span></div></button>
+        </div>
+      </div>
+
+      <div class="section">
+        <p class="eyebrow" style="margin-bottom:10px">Moyen Âge</p>
+        <div style="display:grid;gap:10px">
+          <button class="card war" data-ref="x" data-type="guerre" data-nom="Guerre de Cent Ans" data-dates="1337 → 1453" data-resume="Conflit entre les rois de France et d'Angleterre pour la couronne de France, entrecoupé de longues trêves."><div style="display:flex;justify-content:space-between"><span style="font-weight:600">Guerre de Cent Ans</span><span class="muted tabular" style="font-size:12.5px">1337 → 1453</span></div><div class="versus"><span class="side win">Royaume de France</span><span class="vs">VS</span><span class="side">Royaume d'Angleterre</span></div></button>
+        </div>
+      </div>
+      <div class="footer-space"></div>
+    </div>
+
+    <nav class="tabbar" aria-label="Navigation principale">
+      <a href="02-accueil.html"><svg data-i="home"></svg>Accueil</a>
+      <a href="04-frise.html"><svg data-i="timeline"></svg>Frise</a>
+      <a href="04b-carte.html"><svg data-i="globe"></svg>Carte</a>
+      <a href="09-guerres.html" aria-current="page"><svg data-i="swords"></svg>Guerres</a>
+      <a href="10-reviser.html"><svg data-i="cards"></svg>Réviser</a>
+    </nav>
+  </div>
+
+  <aside class="notes">
+    <a class="back" href="index.html"><svg data-i="arrowLeft" class="sm"></svg> Toutes les maquettes</a>
+    <p class="eyebrow">Maquette 09 · Nouvel onglet</p>
+    <h1>Guerres</h1>
+    <p>Un onglet dédié : les guerres sont l'un des sujets les plus recherchés, et le plus visuel sur une carte.</p>
+    <h2>Pourquoi ces choix</h2>
+    <ul>
+      <li><b>« Camp contre camp »</b> sur chaque carte, vainqueur encadré en vert : on comprend le conflit avant même de l'ouvrir.</li>
+      <li><b>Une guerre à la une</b> (action principale) : au lancement, la Seconde Guerre mondiale, le prototype du sprint Guerres A.</li>
+      <li><b>Rangées par époque</b>, avec les mêmes filtres que la frise.</li>
+      <li><b>La page d'une guerre</b> (phases, carte animée, batailles, personnages, quiz) sera maquettée au sprint Guerres A. Elle remplacera les champs « guerres » des fiches et les points rouges actuels de la carte.</li>
+    </ul>
+    <div class="tools"><button class="btn btn-secondary" data-theme-toggle><svg data-i="moon" class="sm"></svg> Thème</button></div>
+  </aside>
+</main>
+<script src="assets/maquette.js"></script>
+</body>
+</html>

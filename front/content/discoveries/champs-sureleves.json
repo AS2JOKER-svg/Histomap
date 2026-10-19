@@ -1,0 +1,19 @@
+{
+  "id": "champs-sureleves",
+  "nom": "Champs surélevés (suka kollus)",
+  "annee": 600,
+  "domaine": "Agriculture",
+  "dates": "Ier millénaire",
+  "description": "Des bandes de terre surélevées, séparées par des canaux d’eau, qui permettent de cultiver à près de 4 000 mètres d’altitude, malgré le gel nocturne.",
+  "sections": [
+    {
+      "titre": "Comment ça marche",
+      "texte": "L’eau des canaux emmagasine la chaleur du soleil et la restitue la nuit, protégeant les plantes du gel. La vase des canaux sert d’engrais."
+    },
+    {
+      "titre": "Aujourd’hui",
+      "texte": "Dans les années 1980, des agronomes et des paysans boliviens et péruviens ont remis en culture certains de ces champs, avec de bons rendements."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Champ_sur%C3%A9lev%C3%A9"
+}

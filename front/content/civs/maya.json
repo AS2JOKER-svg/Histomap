@@ -11,23 +11,44 @@
   "row": 1,
   "isRiver": false,
   "capitale": "Tikal, Calakmul, Copán",
-  "description": "Les 'Grecs de l'Amérique' : une constellation de cités-États en guerre perpétuelle dans la jungle, dotées des mathématiques et de l'astronomie les plus précises du monde.",
+  "description": "Des dizaines de royaumes rivaux dans les forêts du Mexique et d’Amérique centrale, aux cités de pierre couvertes d’inscriptions : la seule écriture complète des Amériques, des mathématiques avec le zéro et une astronomie très précise.",
   "territories": ["Maya chiefdoms and states", "Maya states", "Maya city-states"],
   "datesCles": [
+    {
+      "annee": 292,
+      "evenement": "Plus ancien monument daté",
+      "info": "Une stèle de Tikal porte la plus ancienne date en compte long connue des basses terres mayas."
+    },
+    {
+      "annee": 378,
+      "evenement": "L’arrivée de Siyaj K’ak’",
+      "info": "Un chef de guerre lié à Teotihuacan arrive à Tikal ; une nouvelle dynastie est installée."
+    },
     {
       "annee": 562,
       "evenement": "Défaite de Tikal",
       "info": "Tikal est vaincue par la cité de Caracol, alliée de la puissance rivale Calakmul."
     },
     {
+      "annee": 683,
+      "evenement": "Mort de Pakal",
+      "info": "Le roi de Palenque est enterré dans le temple des Inscriptions."
+    },
+    {
       "annee": 695,
       "evenement": "Revanche de Tikal",
-      "info": "Tikal bat définitivement Calakmul, amorçant l'ultime essor architectural maya."
+      "info": "Tikal bat Calakmul, amorçant un nouvel essor de la cité."
+    },
+    {
+      "annee": 738,
+      "evenement": "Le roi de Copán décapité",
+      "info": "Le roi Uaxaclajuun Ub’aah K’awiil est capturé et exécuté par son ancien vassal, Quiriguá."
     },
     {
       "annee": 830,
-      "evenement": "L'Effondrement",
-      "info": "Les grandes cités du sud sont abandonnées une à une. Les historiens invoquent un ensemble de causes : sécheresses, guerres entre cités, épuisement des sols."
+      "evenement": "L’effondrement",
+      "info": "Les grandes cités du sud sont abandonnées une à une. Les historiens invoquent un ensemble de causes : sécheresses, guerres entre cités, épuisement des sols.",
+      "ref": "effondrement-maya"
     },
     {
       "annee": 909,
@@ -37,36 +58,284 @@
   ],
   "dirigeants": [
     {
-      "titre": "K'uhul Ajaw (Saint Seigneur)",
-      "nom": "Pakal",
-      "surnom": "Le Grand (Roi de Palenque)",
+      "nom": "Chak Tok Ich’aak Ier",
+      "titre": "Roi de Tikal",
+      "debut": 360,
+      "fin": 378,
+      "dynastie": "tikal",
+      "note": "meurt le jour de l’arrivée de Siyaj K’ak’"
+    },
+    {
+      "nom": "Yax Nuun Ayiin Ier",
+      "titre": "Roi de Tikal",
+      "debut": 379,
+      "fin": 404,
+      "dynastie": "tikal",
+      "note": "installé avec l’appui de Teotihuacan",
+      "cle": true
+    },
+    { "nom": "Siyaj Chan K’awiil II", "titre": "Roi de Tikal", "debut": 411, "fin": 456, "dynastie": "tikal" },
+    {
+      "nom": "Wak Chan K’awiil",
+      "titre": "Roi de Tikal",
+      "debut": 537,
+      "fin": 562,
+      "dynastie": "tikal",
+      "note": "vaincu par Caracol"
+    },
+    { "nom": "Nuun Ujol Chaak", "titre": "Roi de Tikal", "debut": 657, "fin": 679, "dynastie": "tikal" },
+    {
+      "nom": "Jasaw Chan K’awiil Ier",
+      "titre": "Roi de Tikal",
+      "debut": 682,
+      "fin": 734,
+      "dynastie": "tikal",
+      "personne": "jasaw-chan-kawiil",
+      "note": "bat Calakmul en 695",
+      "cle": true
+    },
+    { "nom": "Yik’in Chan K’awiil", "titre": "Roi de Tikal", "debut": 734, "fin": 766, "dynastie": "tikal" },
+    {
+      "nom": "Yuknoom Ch’een II",
+      "titre": "Roi de Calakmul",
+      "debut": 636,
+      "fin": 686,
+      "dynastie": "calakmul",
+      "note": "domine un vaste réseau de royaumes vassaux",
+      "cle": true
+    },
+    {
+      "nom": "Yuknoom Yich’aak K’ahk’",
+      "titre": "Roi de Calakmul",
+      "debut": 686,
+      "fin": 695,
+      "dynastie": "calakmul",
+      "note": "vaincu par Tikal"
+    },
+    {
+      "nom": "K’inich Janaab Pakal Ier",
+      "titre": "Roi de Palenque",
       "debut": 615,
-      "fin": 683
+      "fin": 683,
+      "dynastie": "palenque",
+      "personne": "pakal",
+      "note": "monte sur le trône à 12 ans",
+      "cle": true
+    },
+    {
+      "nom": "K’inich Kan Bahlam II",
+      "titre": "Roi de Palenque",
+      "debut": 684,
+      "fin": 702,
+      "dynastie": "palenque",
+      "note": "fils de Pakal, bâtit le groupe de la Croix"
+    },
+    {
+      "nom": "Yax K’uk’ Mo’",
+      "titre": "Roi de Copán",
+      "debut": 426,
+      "fin": 437,
+      "dynastie": "copan",
+      "note": "fondateur de la dynastie"
+    },
+    {
+      "nom": "Uaxaclajuun Ub’aah K’awiil",
+      "titre": "Roi de Copán",
+      "debut": 695,
+      "fin": 738,
+      "dynastie": "copan",
+      "note": "surnommé « 18-Lapin » par les archéologues ; décapité par Quiriguá",
+      "cle": true
+    },
+    {
+      "nom": "Yax Pasaj Chan Yopaat",
+      "titre": "Roi de Copán",
+      "debut": 763,
+      "fin": 810,
+      "dynastie": "copan",
+      "note": "16e roi, fait sculpter l’autel Q"
+    },
+    {
+      "nom": "Yajaw Te’ K’inich II",
+      "titre": "Roi de Caracol",
+      "debut": 553,
+      "fin": 593,
+      "dynastie": "autres",
+      "note": "vainqueur de Tikal en 562"
+    },
+    {
+      "nom": "Itzamnaaj Bahlam III",
+      "titre": "Roi de Yaxchilán",
+      "debut": 681,
+      "fin": 742,
+      "dynastie": "autres",
+      "note": "surnommé « Bouclier-Jaguar » par les archéologues"
     }
   ],
   "personnages": [
     {
-      "nom": "Jasaw Chan K'awiil Ier",
+      "nom": "Pakal",
+      "role": "Roi de Palenque",
+      "description": "Roi pendant 68 ans, il fait de Palenque l’une des plus belles cités mayas.",
+      "dates": "603 → 683",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/K%27inich_Janaab%27_Pakal_Ier",
+      "ref": "pakal"
+    },
+    {
+      "nom": "Jasaw Chan K’awiil Ier",
       "role": "Roi de Tikal",
-      "description": "Le grand souverain qui releva Tikal de la ruine, écrasa ses ennemis et finança les immenses temples jumeaux de la cité.",
-      "dates": "Règne de 682 à 734",
-      "wikiUrl": "https://fr.wikipedia.org/wiki/Jasaw_Chan_K%CA%BCawiil_Ier"
+      "description": "Le grand souverain qui releva Tikal de la ruine, battit Calakmul et fit bâtir de grands temples-pyramides.",
+      "dates": "règne 682 → 734",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Jasaw_Chan_K%CA%BCawiil_Ier",
+      "ref": "jasaw-chan-kawiil"
+    },
+    {
+      "nom": "Dame K’abal Xook",
+      "role": "Reine de Yaxchilán",
+      "description": "Épouse du roi Itzamnaaj Bahlam III, représentée sur de célèbres linteaux sculptés lors d’un rituel de saignée.",
+      "dates": "morte en 749",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Ix_K%CA%BCab%CA%BCal_Xook"
+    },
+    {
+      "nom": "Iouri Knorozov",
+      "role": "Linguiste",
+      "description": "Linguiste soviétique qui montre dans les années 1950 que l’écriture maya note des syllabes, ouvrant la voie à son déchiffrement.",
+      "dates": "1922 → 1999",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Iouri_Knorozov"
     }
   ],
   "guerres": [
     {
       "nom": "Première et Seconde Guerre Tikal-Calakmul",
       "annee": 537,
-      "adversaires": ["Cité-État de Calakmul (et vassaux)"],
-      "allies": ["Cité-État de Tikal (et vassaux)"],
-      "morts": "Très lourd tribut en élites décapitées",
-      "vainqueur": "Calakmul (puis Tikal)",
-      "consequences": "Un basculement constant de l'hégémonie Maya. La guerre épuise la paysannerie obligée de construire de massives fortifications dans la forêt tropicale.",
+      "adversaires": ["Calakmul et ses alliés (dont Caracol)"],
+      "allies": ["Royaume de Tikal et ses alliés"],
+      "morts": "Inconnues ; des rois capturés sont sacrifiés",
+      "vainqueur": "Calakmul (562), puis Tikal (695)",
+      "consequences": "Calakmul domine les basses terres pendant plus d’un siècle, avant que Tikal ne la batte en 695. Ces guerres incessantes ont peut-être contribué à l’effondrement.",
       "wikiUrl": "https://fr.wikipedia.org/wiki/Calakmul"
     }
   ],
-  "sciences": "Leur système d'écriture (les glyphes mayas) n'est pas un alphabet mais un système logo-syllabique, mêlant signes-mots et signes-syllabes : c'est le système d'écriture le plus complet des Amériques précolombiennes. Les Mayas utilisent le zéro dans leur numération en base 20 (l'un des plus anciens zéros connus) et atteignent une grande précision astronomique sans télescope : leurs tables permettent de prévoir les éclipses et les cycles de Vénus.",
-  "croyancesText": "Le cosmos Maya nécessite un sang royal régulier pour ne pas s'arrêter. Les souverains ('K'uhul Ajaw') pratiquent l'autosacrifice rituel (saignée de la langue avec des cordes épineuses ou du sexe avec des épines de raie) pour ouvrir des portails de communication avec les divinités (le Serpent-Vision). Les prisonniers de guerre capturés sont torturés puis décapités ou précipités en bas des grands temples-pyramides à degrés.",
-  "diplomatie": "Il n'y a jamais eu d'Empire Maya : la jungle abrite un écosystème géopolitique à la grecque, avec près de 60 royaumes et cités-États s'alliant ou se massacrant en une 'guerre des Étoiles' (guerres déclarées selon la position de Vénus). Tikal (soutenue par l'héritage de Teotihuacán) et Calakmul (l'Empire du Serpent) passent des siècles dans une guerre froide et chaude de procuration, épuisant finalement les ressources de la forêt.",
-  "documentaires": [{ "titre": "L'apocalypse des Mayas", "url": "https://fr.wikipedia.org/wiki/Civilisation_maya" }]
+  "sciences": "Leur système d’écriture (les glyphes mayas) n’est pas un alphabet mais un système logo-syllabique, mêlant signes-mots et signes-syllabes : c’est le système d’écriture le plus complet des Amériques précolombiennes. Les Mayas utilisent le zéro dans leur numération en base 20 (l’un des plus anciens zéros connus) et atteignent une grande précision astronomique sans télescope : leurs tables permettent de prévoir les éclipses et les cycles de Vénus.",
+  "croyancesText": "Les Mayas pensent que les dieux ont créé les humains à partir du maïs et qu’il faut les nourrir par des offrandes. Les rois, intermédiaires avec le monde divin, pratiquent des saignées rituelles (de la langue ou du sexe) pour entrer en contact avec les dieux et les ancêtres. Les prisonniers de guerre de haut rang sont souvent sacrifiés. Le jeu de balle a aussi une valeur religieuse.",
+  "diplomatie": "Il n’y a jamais eu d’empire maya : près de soixante royaumes s’allient, se marient entre familles royales ou se font la guerre. Aux VIe et VIIe siècles, deux réseaux d’alliances s’opposent, autour de Tikal et de Calakmul. Certaines batailles semblent avoir été fixées selon la position de Vénus, une hypothèse discutée.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": {
+      "valeur": "Aucune capitale commune",
+      "precision": "des dizaines de cités-royaumes : Tikal, Calakmul, Palenque, Copán, Caracol…"
+    },
+    "regimes": {
+      "valeur": "Royaumes",
+      "precision": "chaque cité a son « seigneur sacré » (k’uhul ajaw) ; certaines dominent des vassales"
+    },
+    "langues": {
+      "valeur": "Langues mayas",
+      "precision": "écrites en glyphes ; une trentaine de langues mayas sont toujours parlées"
+    },
+    "religion": {
+      "valeur": "Polythéisme",
+      "precision": "dieux du maïs, de la pluie (Chaak), du soleil ; culte des ancêtres royaux"
+    },
+    "apogee": { "valeur": "VIIe-VIIIe siècles", "precision": "rivalité de Tikal et de Calakmul" },
+    "population": {
+      "valeur": "Peut-être 7 à 11 millions",
+      "precision": "dans les basses terres vers 800, d’après les relevés laser récents (estimation)"
+    },
+    "monnaie": { "valeur": "Pas de monnaie", "precision": "fèves de cacao, jade, plumes et tissus servent aux échanges" },
+    "duree": {
+      "valeur": "Environ 650 ans pour l’époque classique",
+      "precision": "la civilisation maya commence bien avant et se poursuit après"
+    },
+    "aujourdhui": {
+      "valeur": "Mexique, Guatemala, Belize, Honduras, Salvador",
+      "precision": "les Mayas d’aujourd’hui sont plusieurs millions"
+    }
+  },
+  "essentiel": [
+    "Il n’y a jamais eu d’empire maya, mais des dizaines de royaumes, alliés ou rivaux, dans les forêts du Yucatán et du Guatemala.",
+    "Leurs scribes utilisent l’[[ecriture-maya|écriture maya]], la plus complète des Amériques, et le [[compte-long-maya|compte long]], un calendrier qui compte les jours depuis une date de départ.",
+    "Deux grandes puissances s’affrontent : Tikal, où règne [[jasaw-chan-kawiil|Jasaw Chan K’awiil]], et Calakmul, la cité du Serpent.",
+    "À Palenque, le roi [[pakal|Pakal]] fait bâtir le temple des Inscriptions, où se trouve son [[tombeau-de-pakal|tombeau]].",
+    "Aux IXe et Xe siècles, les grandes cités du sud sont abandonnées : c’est l’[[effondrement-maya|effondrement maya classique]] ; la civilisation se poursuit au Yucatán."
+  ],
+  "periodes": [
+    {
+      "nom": "Le classique ancien",
+      "debut": 250,
+      "fin": 600,
+      "resume": "Les royaumes se multiplient ; leurs rois font graver des stèles datées. Teotihuacan influence Tikal à partir de 378.",
+      "evenements": [
+        { "annee": 378, "evenement": "Arrivée de Siyaj K’ak’ à Tikal" },
+        { "annee": 426, "evenement": "Fondation de la dynastie de Copán" },
+        { "annee": 562, "evenement": "Défaite de Tikal face à Caracol" }
+      ]
+    },
+    {
+      "nom": "Le classique récent",
+      "debut": 600,
+      "fin": 800,
+      "resume": "Âge d’or des cités : Calakmul domine un vaste réseau d’alliances, puis Tikal se relève. Palenque, Copán et Yaxchilán bâtissent leurs plus beaux monuments.",
+      "evenements": [
+        { "annee": 683, "evenement": "Tombeau de Pakal" },
+        { "annee": 695, "evenement": "Victoire de Tikal sur Calakmul" },
+        { "annee": 738, "evenement": "Copán vaincue par Quiriguá" }
+      ]
+    },
+    {
+      "nom": "L’effondrement",
+      "debut": 800,
+      "fin": 900,
+      "resume": "Les dynasties cessent de faire graver des monuments ; la population des basses terres du sud diminue fortement.",
+      "evenements": [
+        { "annee": 830, "evenement": "Abandon progressif des cités du sud", "ref": "effondrement-maya" },
+        { "annee": 909, "evenement": "Dernière date en compte long" }
+      ]
+    }
+  ],
+  "regimes": [
+    {
+      "id": "royaumes",
+      "nom": "Royaumes rivaux",
+      "debut": 250,
+      "fin": 900,
+      "note": "Chaque cité a son roi sacré ; les plus puissantes, comme Tikal et Calakmul, imposent leur autorité à des rois vassaux."
+    }
+  ],
+  "dynasties": [
+    {
+      "id": "tikal",
+      "nom": "Rois de Tikal",
+      "debut": 360,
+      "fin": 766,
+      "note": "Sélection ; dates d’après les inscriptions."
+    },
+    { "id": "calakmul", "nom": "Rois de Calakmul (dynastie du Serpent)", "debut": 636, "fin": 695 },
+    { "id": "palenque", "nom": "Rois de Palenque", "debut": 615, "fin": 702 },
+    { "id": "copan", "nom": "Rois de Copán", "debut": 426, "fin": 810, "note": "Sélection." },
+    { "id": "autres", "nom": "Autres cités", "debut": 553, "fin": 742 }
+  ],
+  "societe": "Le roi et la noblesse dominent ; des scribes, des artisans et des marchands vivent dans les cités. La grande majorité des habitants sont des paysans qui cultivent le maïs, les haricots et les courges, et construisent les monuments.",
+  "economie": "Agriculture (maïs, haricots, courges, cacao), champs surélevés et terrasses, commerce de l’obsidienne, du jade, du sel et des plumes de quetzal.",
+  "decouvertes": ["ecriture-maya", "compte-long-maya", "tombeau-de-pakal", "jeu-de-balle-mesoamericain"],
+  "arts": "Temples-pyramides de Tikal, palais de Palenque, stèles sculptées de Copán, peintures murales de Bonampak, vases peints, figurines de Jaina.",
+  "quotidien": "Les familles vivent dans des maisons de bois et de chaume autour d’une cour, entourées de jardins. Le maïs est à la base de tous les repas, sous forme de bouillies et de galettes.",
+  "heritage": [
+    {
+      "titre": "Les Mayas aujourd’hui",
+      "texte": "Plusieurs millions de personnes parlent encore des langues mayas au Mexique et au Guatemala."
+    },
+    {
+      "titre": "Des sites célèbres",
+      "texte": "Tikal, Palenque, Copán et Calakmul sont inscrits au patrimoine mondial."
+    }
+  ],
+  "aSavoir": [
+    "La « fin du monde » de 2012 n’a jamais été annoncée par les Mayas : le 21 décembre 2012 marquait seulement la fin d’un grand cycle de leur calendrier.",
+    "En 2018, des relevés au laser ont révélé plus de 60 000 constructions cachées sous la forêt du Guatemala."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Civilisation_maya",
+    { "titre": "Encyclopædia Britannica — Maya", "url": "https://www.britannica.com/topic/Maya-people" }
+  ]
 }

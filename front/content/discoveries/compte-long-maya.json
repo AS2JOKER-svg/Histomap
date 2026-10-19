@@ -1,0 +1,22 @@
+{
+  "id": "compte-long-maya",
+  "nom": "Compte long maya",
+  "annee": 292,
+  "domaine": "Mathématiques et calendrier",
+  "dates": "en usage de la fin du Ier millénaire av. J.-C. à 909",
+  "description": "Un calendrier qui compte les jours écoulés depuis une date de départ mythique (correspondant au 11 août −3114), en base 20 et avec le zéro.",
+  "sections": [
+    {
+      "titre": "Comment ça marche",
+      "texte": "Une date s’écrit avec cinq nombres : les jours, les mois de 20 jours, les « années » de 360 jours, puis les périodes de 20 et de 400 de ces années. Le zéro permet de marquer une position vide."
+    },
+    {
+      "titre": "Son usage",
+      "texte": "Les rois s’en servent pour dater les événements de leur règne sur les stèles. Il est utilisé en même temps que d’autres calendriers de 260 et de 365 jours."
+    }
+  ],
+  "aSavoir": [
+    "Le grand cycle qui s’est achevé le 21 décembre 2012 a fait croire à une « prophétie de fin du monde » qui n’a jamais existé."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Compte_long"
+}

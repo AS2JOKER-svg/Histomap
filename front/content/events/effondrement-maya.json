@@ -1,0 +1,20 @@
+{
+  "id": "effondrement-maya",
+  "nom": "Effondrement maya classique",
+  "annee": 830,
+  "fin": 950,
+  "dates": "vers 800 → 950",
+  "lieu": "Basses terres mayas du sud",
+  "description": "En un peu plus d’un siècle, les grandes cités mayas du sud (Tikal, Calakmul, Copán, Palenque…) cessent de construire et sont peu à peu abandonnées.",
+  "sections": [
+    {
+      "titre": "Les causes",
+      "texte": "Les chercheurs combinent plusieurs explications : sécheresses répétées (attestées par les sédiments des lacs), guerres entre royaumes, surpopulation et épuisement des sols, perte de confiance dans les rois."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "La population se déplace vers le nord du Yucatán, où des cités comme Chichén Itzá prospèrent. La civilisation maya ne disparaît pas : elle se transforme."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Effondrement_de_la_civilisation_maya_classique"
+}

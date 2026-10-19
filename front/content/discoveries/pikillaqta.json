@@ -1,0 +1,15 @@
+{
+  "id": "pikillaqta",
+  "nom": "Pikillaqta",
+  "annee": 700,
+  "domaine": "Architecture",
+  "dates": "vers 600-1000",
+  "description": "Un immense centre administratif huari près de Cuzco : plus de 700 bâtiments construits sur un plan quadrillé, entourés de hauts murs.",
+  "sections": [
+    {
+      "titre": "À quoi servait-il",
+      "texte": "Il servait sans doute à stocker des récoltes, loger des travailleurs et des soldats et contrôler la région. Une partie des bâtiments n’a jamais été terminée."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Pikillacta"
+}

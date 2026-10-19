@@ -1,0 +1,22 @@
+{
+  "id": "tombeau-de-pakal",
+  "nom": "Tombeau de Pakal",
+  "annee": 683,
+  "domaine": "Archéologie",
+  "dates": "683 ; découvert en 1952",
+  "description": "La chambre funéraire du roi [[pakal|Pakal]], cachée au cœur du temple des Inscriptions de Palenque, avec un immense couvercle de sarcophage sculpté.",
+  "sections": [
+    {
+      "titre": "Sa découverte",
+      "texte": "En 1952, l’archéologue Alberto Ruz découvre un escalier rempli de gravats sous une dalle du temple ; il mène, 25 mètres plus bas, à la chambre du roi."
+    },
+    {
+      "titre": "Ce qu’on y a trouvé",
+      "texte": "Le roi portait un masque funéraire en mosaïque de jade. Le couvercle du sarcophage le montre tombant dans le monde souterrain, au pied de l’arbre du monde."
+    }
+  ],
+  "aSavoir": [
+    "Certains ont prétendu que le couvercle représentait un astronaute aux commandes d’une fusée : c’est une interprétation sans fondement."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Temple_des_Inscriptions"
+}

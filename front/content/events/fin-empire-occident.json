@@ -1,0 +1,23 @@
+{
+  "id": "fin-empire-occident",
+  "nom": "Fin de l’Empire romain d’Occident",
+  "annee": 476,
+  "dates": "septembre 476",
+  "lieu": "Ravenne, Italie",
+  "description": "Le chef germanique Odoacre dépose le jeune Romulus Augustule et renvoie les insignes impériaux à Constantinople : il n’y a plus d’empereur en Occident.",
+  "sections": [
+    {
+      "titre": "Contexte",
+      "texte": "Depuis le début du Ve siècle, l’Occident perd ses provinces au profit de royaumes germaniques. Rome est pillée par les Wisigoths en 410, puis par les Vandales en 455. Les derniers empereurs sont souvent placés sur le trône par des chefs militaires."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Odoacre gouverne l’Italie en reconnaissant, en théorie, l’empereur d’Orient. L’Empire romain continue à Constantinople jusqu’en 1453."
+    }
+  ],
+  "liens": [{ "ref": "byzance", "relation": "L’Empire d’Orient, qui continue" }],
+  "aSavoir": [
+    "La date de 476 est un repère choisi après coup : pour les contemporains, l’événement passe presque inaperçu."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Chute_de_l%27Empire_romain_d%27Occident"
+}

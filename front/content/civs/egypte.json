@@ -11,48 +11,211 @@
   "row": 1,
   "isRiver": true,
   "capitale": "Memphis puis Thèbes",
-  "description": "Trois millénaires de civilisation pharaonique bâtis sur les crues régulières du Nil, alliant ingénierie colossale et théocratie absolue.",
+  "description": "Trois millénaires de civilisation sur les rives du Nil : des pharaons considérés comme divins, des pyramides et des temples géants, une écriture hiéroglyphique et une religion tournée vers l’au-delà.",
   "territories": ["Egypt"],
   "datesCles": [
     {
       "annee": -3150,
-      "evenement": "Unification de l'Égypte",
-      "info": "Le pharaon Narmer unifie la Haute et la Basse-Égypte."
+      "evenement": "Unification de l’Égypte",
+      "info": "Vers −3150 / −3000 selon les chronologies, la Haute et la Basse-Égypte sont réunies ; la tradition en attribue le mérite au roi Narmer.",
+      "ref": "unification-egypte"
     },
     {
       "annee": -2560,
-      "evenement": "Grande Pyramide de Gizeh",
-      "info": "Achevement du tombeau de Khéops (146m), la seule des 7 merveilles du monde encore debout."
+      "evenement": "Grande pyramide de Gizeh",
+      "info": "Achèvement du tombeau de Khéops (environ 146 m à l’origine), la seule des sept merveilles du monde antique encore debout."
     },
     {
-      "annee": -1353,
+      "annee": -1352,
       "evenement": "Révolution amarnienne",
-      "info": "Akhenaton tente d'imposer le culte unique d'Aton."
+      "info": "[[akhenaton|Akhénaton]] fait d’Aton le dieu principal et fonde une nouvelle capitale, Amarna."
+    },
+    {
+      "annee": -1274,
+      "evenement": "Bataille de Qadesh",
+      "info": "[[ramses-ii|Ramsès II]] affronte les Hittites en Syrie ; aucun des deux camps ne l’emporte vraiment."
+    },
+    {
+      "annee": -332,
+      "evenement": "Conquête d’Alexandre le Grand",
+      "info": "Les Perses sont chassés ; Alexandre fonde Alexandrie.",
+      "ref": "conquete-alexandre-egypte"
     },
     {
       "annee": -30,
       "evenement": "Mort de Cléopâtre VII",
-      "info": "Suicide de la dernière reine, l'Égypte devient une simple province romaine."
+      "info": "Après la défaite d’Actium, la dernière reine se donne la mort ; l’Égypte devient romaine.",
+      "ref": "mort-de-cleopatre"
     }
   ],
   "dirigeants": [
-    { "titre": "Pharaon (Ancien Empire)", "nom": "Khéops", "surnom": "Le Bâtisseur", "debut": -2589, "fin": -2566 },
     {
-      "titre": "Pharaon (Nouvel Empire)",
-      "nom": "Hatchepsout",
-      "surnom": "La Reine-Pharaon",
-      "debut": -1478,
-      "fin": -1458
+      "nom": "Narmer",
+      "titre": "Pharaon",
+      "debut": -3100,
+      "fin": -3100,
+      "dynastie": "thinite",
+      "note": "vers −3100 ; durée du règne inconnue"
     },
-    { "titre": "Pharaon (Nouvel Empire)", "nom": "Ramsès II", "surnom": "Le Grand", "debut": -1279, "fin": -1213 }
+    { "nom": "Djéser", "titre": "Pharaon", "debut": -2667, "fin": -2648, "dynastie": "ancien" },
+    { "nom": "Snéfrou", "titre": "Pharaon", "debut": -2613, "fin": -2589, "dynastie": "ancien" },
+    {
+      "nom": "Khéops",
+      "titre": "Pharaon",
+      "debut": -2589,
+      "fin": -2566,
+      "dynastie": "ancien",
+      "note": "grande pyramide de Gizeh",
+      "cle": true
+    },
+    { "nom": "Khéphren", "titre": "Pharaon", "debut": -2558, "fin": -2532, "dynastie": "ancien" },
+    { "nom": "Mykérinos", "titre": "Pharaon", "debut": -2532, "fin": -2503, "dynastie": "ancien" },
+    {
+      "nom": "Pépi II",
+      "titre": "Pharaon",
+      "debut": -2278,
+      "fin": -2184,
+      "dynastie": "ancien",
+      "note": "durée du règne discutée"
+    },
+    {
+      "nom": "Montouhotep II",
+      "titre": "Pharaon",
+      "debut": -2055,
+      "fin": -2004,
+      "dynastie": "moyen",
+      "note": "réunifie l’Égypte"
+    },
+    { "nom": "Amenemhat Ier", "titre": "Pharaon", "debut": -1985, "fin": -1956, "dynastie": "moyen" },
+    { "nom": "Sésostris III", "titre": "Pharaon", "debut": -1874, "fin": -1855, "dynastie": "moyen" },
+    {
+      "nom": "Ahmôsis Ier",
+      "titre": "Pharaon",
+      "debut": -1550,
+      "fin": -1525,
+      "dynastie": "nouvel",
+      "note": "chasse les Hyksos"
+    },
+    {
+      "nom": "Hatchepsout",
+      "titre": "Pharaon",
+      "debut": -1473,
+      "fin": -1458,
+      "dynastie": "nouvel",
+      "personne": "hatchepsout",
+      "note": "régente dès −1479",
+      "cle": true
+    },
+    { "nom": "Thoutmôsis III", "titre": "Pharaon", "debut": -1479, "fin": -1425, "dynastie": "nouvel", "cle": true },
+    { "nom": "Amenhotep III", "titre": "Pharaon", "debut": -1390, "fin": -1352, "dynastie": "nouvel" },
+    {
+      "nom": "Akhénaton",
+      "titre": "Pharaon",
+      "debut": -1352,
+      "fin": -1336,
+      "dynastie": "nouvel",
+      "personne": "akhenaton",
+      "cle": true
+    },
+    { "nom": "Toutânkhamon", "titre": "Pharaon", "debut": -1336, "fin": -1327, "dynastie": "nouvel", "cle": true },
+    { "nom": "Séthi Ier", "titre": "Pharaon", "debut": -1294, "fin": -1279, "dynastie": "nouvel" },
+    {
+      "nom": "Ramsès II",
+      "titre": "Pharaon",
+      "surnom": "le Grand",
+      "debut": -1279,
+      "fin": -1213,
+      "dynastie": "nouvel",
+      "personne": "ramses-ii",
+      "cle": true
+    },
+    { "nom": "Ramsès III", "titre": "Pharaon", "debut": -1184, "fin": -1153, "dynastie": "nouvel" },
+    {
+      "nom": "Chéchonq Ier",
+      "titre": "Pharaon",
+      "debut": -945,
+      "fin": -924,
+      "dynastie": "pi3",
+      "note": "dynastie d’origine libyenne"
+    },
+    {
+      "nom": "Taharqa",
+      "titre": "Pharaon",
+      "debut": -690,
+      "fin": -664,
+      "dynastie": "pi3",
+      "note": "pharaon koushite (XXVe dynastie)"
+    },
+    { "nom": "Psammétique Ier", "titre": "Pharaon", "debut": -664, "fin": -610, "dynastie": "basse" },
+    { "nom": "Amasis", "titre": "Pharaon", "debut": -570, "fin": -526, "dynastie": "basse" },
+    {
+      "nom": "Nectanébo II",
+      "titre": "Pharaon",
+      "debut": -360,
+      "fin": -343,
+      "dynastie": "basse",
+      "note": "dernier pharaon d’origine égyptienne"
+    },
+    {
+      "nom": "Alexandre le Grand",
+      "titre": "Pharaon",
+      "debut": -332,
+      "fin": -323,
+      "dynastie": "ptolemaique",
+      "note": "roi de Macédoine"
+    },
+    { "nom": "Ptolémée Ier", "titre": "Pharaon", "surnom": "Sôter", "debut": -305, "fin": -285, "dynastie": "ptolemaique" },
+    {
+      "nom": "Cléopâtre VII",
+      "titre": "Reine",
+      "debut": -51,
+      "fin": -30,
+      "dynastie": "ptolemaique",
+      "personne": "cleopatre-vii",
+      "note": "dernière souveraine",
+      "cle": true
+    }
   ],
   "personnages": [
     {
       "nom": "Imhotep",
       "role": "Vizir et architecte",
-      "description": "Concepteur de la pyramide à degrés de Djoser, plus tard divinisé comme dieu de la médecine.",
-      "dates": "≈ -2650",
-      "wikiUrl": "https://fr.wikipedia.org/wiki/Imhotep"
+      "description": "Concepteur de la pyramide à degrés de Djéser ; il fut plus tard vénéré comme un dieu de la médecine.",
+      "dates": "vers −2650",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Imhotep",
+      "ref": "imhotep"
+    },
+    {
+      "nom": "Hatchepsout",
+      "role": "Reine devenue pharaon",
+      "description": "Elle règne en pharaon pendant une quinzaine d’années et fait bâtir le temple de Deir el-Bahari.",
+      "dates": "règne −1473 → −1458",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Hatchepsout",
+      "ref": "hatchepsout"
+    },
+    {
+      "nom": "Akhénaton",
+      "role": "Pharaon réformateur",
+      "description": "Il fait d’Aton, le disque solaire, le dieu principal et fonde la capitale d’Amarna.",
+      "dates": "règne −1352 → −1336",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Akh%C3%A9naton",
+      "ref": "akhenaton"
+    },
+    {
+      "nom": "Ramsès II",
+      "role": "Pharaon",
+      "description": "Pharaon au très long règne, bâtisseur d’Abou Simbel, il combat les Hittites à Qadesh puis signe la paix avec eux.",
+      "dates": "règne −1279 → −1213",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Rams%C3%A8s_II",
+      "ref": "ramses-ii"
+    },
+    {
+      "nom": "Cléopâtre VII",
+      "role": "Dernière reine",
+      "description": "Dernière souveraine de la dynastie des Ptolémées, alliée de César puis de Marc Antoine.",
+      "dates": "−69 → −30",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Cl%C3%A9op%C3%A2tre_VII",
+      "ref": "cleopatre-vii"
     }
   ],
   "guerres": [
@@ -61,19 +224,179 @@
       "annee": -1274,
       "adversaires": ["Empire Hittite (Muwatalli II)"],
       "allies": ["Mercenaires Shardanes"],
-      "morts": "Inconnu (chars détruits en masse)",
-      "vainqueur": "Statu quo (Revendiqué par Ramsès II)",
-      "consequences": "Signature du plus ancien traité de paix paritaire de l'histoire.",
+      "morts": "Inconnues",
+      "vainqueur": "Aucun vainqueur net (chaque camp revendique la victoire)",
+      "consequences": "Une quinzaine d’années plus tard, vers −1259, [[ramses-ii|Ramsès II]] et le roi hittite Hattusili III signent l’un des plus anciens traités de paix connus.",
       "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Qadesh"
     }
   ],
-  "sciences": "L'Égypte antique est la civilisation de la géométrie et de l'hydraulique. Les crues annuelles du Nil effaçant les limites des champs, ils ont inventé l'arpentage et la géométrie de précision. Ils maîtrisent la médecine (papyrus d'Edwin Smith détaillant la chirurgie et la suture), l'architecture monumentale en pierre de taille, et inventent le calendrier solaire de 365 jours ainsi que le papyrus, révolutionnant le support de l'écriture hiéroglyphique.",
-  "croyancesText": "Le pharaon est l'incarnation d'Horus sur terre, garant de la 'Maât' (l'harmonie et la justice cosmique) contre le chaos (Isefet). La religion est dominée par le mythe d'Osiris, assassiné puis ressuscité, qui promet une vie après la mort à condition de préserver l'intégrité du corps par la momification et d'avoir un cœur plus léger que la plume de la vérité lors de la pesée des âmes.",
-  "diplomatie": "Longtemps isolée et protégée par ses déserts, l'Égypte adopte une diplomatie d'empire lors du Nouvel Empire, étendant son influence jusqu'en Syrie. Elle utilise un réseau d'ambassadeurs et des mariages diplomatiques pour sceller des alliances, documentés par les fameuses 'Lettres d'Amarna' écrites en cunéiforme diplomatique akkadien.",
-  "documentaires": [
-    {
-      "titre": "Planète Égypte : La naissance d'un empire",
-      "url": "https://fr.wikipedia.org/wiki/%C3%89gypte_antique"
+  "sciences": "Pour reconstituer chaque année les limites des champs effacées par la crue, les Égyptiens développent l’arpentage et la géométrie. Leur médecine est réputée : le papyrus Edwin Smith décrit des blessures et leur traitement. Ils créent un [[calendrier-egyptien|calendrier de 365 jours]], l’écriture [[hieroglyphes|hiéroglyphique]] et un support d’écriture léger, le [[papyrus]].",
+  "croyancesText": "Les Égyptiens honorent des centaines de dieux, souvent représentés avec une tête d’animal (Horus le faucon, Anubis le chacal). Le pharaon, incarnation d’Horus, garantit la Maât, l’ordre et la justice du monde, contre le chaos. Le mythe d’Osiris, tué puis ramené à la vie, promet une existence après la mort : le corps est préservé par la momification, et lors de la pesée du cœur, celui-ci doit être en équilibre avec la plume de Maât ; trop lourd, il est dévoré.",
+  "diplomatie": "Longtemps protégée par ses déserts, l’Égypte devient au Nouvel Empire une puissance impériale qui domine la Nubie et une partie du Levant. Elle entretient une correspondance avec les grands rois de son temps, connue par les lettres d’Amarna, écrites en akkadien, la langue diplomatique de l’époque. Vers −1259, Ramsès II et le roi hittite Hattusili III signent l’un des plus anciens traités de paix connus.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": {
+      "valeur": "Memphis",
+      "precision": "puis Thèbes au Nouvel Empire, Amarna sous Akhénaton, Alexandrie sous les Ptolémées"
+    },
+    "regimes": { "valeur": "Monarchie pharaonique", "precision": "une trentaine de dynasties" },
+    "langues": {
+      "valeur": "Égyptien ancien",
+      "precision": "écrit en [[hieroglyphes|hiéroglyphes]] ; grec à l’époque ptolémaïque"
+    },
+    "religion": {
+      "valeur": "Polythéisme",
+      "precision": "des centaines de dieux ; brève parenthèse d’Akhénaton autour du seul Aton"
+    },
+    "apogee": { "valeur": "Nouvel Empire, vers −1450", "precision": "sous Thoutmôsis III, de la Nubie à la Syrie" },
+    "population": { "valeur": "1 à 5 millions d’habitants", "precision": "selon les époques ; estimations très incertaines" },
+    "monnaie": {
+      "valeur": "Pas de monnaie pendant la plus grande partie de son histoire",
+      "precision": "échanges évalués en deben de cuivre ; premières pièces au IVe siècle av. J.-C."
+    },
+    "duree": { "valeur": "Environ 3 000 ans", "precision": "de l’unification à la conquête romaine" },
+    "aujourdhui": {
+      "valeur": "Égypte",
+      "precision": "la vallée et le delta du Nil ; au Nouvel Empire, domination jusqu’au Soudan, en Israël, au Liban et en Syrie actuels"
     }
+  },
+  "essentiel": [
+    "Le Nil, dont la crue annuelle fertilise une étroite vallée au milieu du désert, est à la base de toute la civilisation.",
+    "Le pharaon, roi considéré comme d’essence divine, est le garant de l’ordre du monde, la Maât.",
+    "Pyramides, temples et tombeaux, bâtis par une administration très organisée, témoignent de la puissance de l’État.",
+    "L’écriture [[hieroglyphes|hiéroglyphique]], apparue vers −3200, est l’une des plus anciennes du monde.",
+    "Après trois millénaires, l’Égypte est conquise par Alexandre le Grand (−332), gouvernée par les Ptolémées, puis devient romaine à la mort de [[cleopatre-vii|Cléopâtre]] (−30)."
+  ],
+  "periodes": [
+    {
+      "nom": "L’époque thinite",
+      "debut": -3100,
+      "fin": -2686,
+      "resume": "Les deux royaumes de Haute et de Basse-Égypte sont unifiés. Les premiers rois (Ire et IIe dynasties) installent une administration et l’écriture hiéroglyphique se développe.",
+      "evenements": [{ "annee": -3100, "evenement": "Unification de l’Égypte (date approximative)", "ref": "unification-egypte" }]
+    },
+    {
+      "nom": "L’Ancien Empire",
+      "debut": -2686,
+      "fin": -2160,
+      "resume": "L’âge des pyramides (IIIe à VIe dynasties). Le pouvoir royal, très centralisé à Memphis, mobilise des milliers d’ouvriers pour bâtir les tombeaux royaux de Saqqarah et de Gizeh.",
+      "evenements": [
+        { "annee": -2650, "evenement": "Pyramide à degrés de Djéser, conçue par Imhotep" },
+        { "annee": -2560, "evenement": "Achèvement de la grande pyramide de Khéops" }
+      ]
+    },
+    {
+      "nom": "La Première Période intermédiaire",
+      "debut": -2160,
+      "fin": -2055,
+      "resume": "Le pouvoir central s’effondre : des princes locaux se partagent le pays, sur fond de crues irrégulières."
+    },
+    {
+      "nom": "Le Moyen Empire",
+      "debut": -2055,
+      "fin": -1650,
+      "resume": "Montouhotep II réunifie le pays depuis Thèbes. Les XIe et XIIe dynasties développent l’irrigation du Fayoum, la littérature classique et l’influence en Nubie.",
+      "evenements": [{ "annee": -2055, "evenement": "Réunification par Montouhotep II" }]
+    },
+    {
+      "nom": "La Deuxième Période intermédiaire",
+      "debut": -1650,
+      "fin": -1550,
+      "resume": "Les Hyksos, venus du Proche-Orient, règnent sur le nord du pays depuis Avaris, tandis que des rois thébains tiennent le sud."
+    },
+    {
+      "nom": "Le Nouvel Empire",
+      "debut": -1550,
+      "fin": -1069,
+      "resume": "Après l’expulsion des Hyksos, l’Égypte devient une puissance impériale, de la Nubie à la Syrie. C’est l’époque des grands temples de Karnak et de Louxor, de la Vallée des Rois, d’[[hatchepsout|Hatchepsout]], d’[[akhenaton|Akhénaton]] et de [[ramses-ii|Ramsès II]].",
+      "evenements": [
+        { "annee": -1550, "evenement": "Ahmôsis Ier chasse les Hyksos" },
+        { "annee": -1352, "evenement": "Akhénaton impose le culte d’Aton" },
+        { "annee": -1274, "evenement": "Bataille de Qadesh contre les Hittites" },
+        { "annee": -1259, "evenement": "Traité de paix avec les Hittites" }
+      ]
+    },
+    {
+      "nom": "La Troisième Période intermédiaire",
+      "debut": -1069,
+      "fin": -664,
+      "resume": "Le pays se divise entre plusieurs dynasties, dont des rois d’origine libyenne, puis des pharaons koushites venus de Nubie (XXVe dynastie)."
+    },
+    {
+      "nom": "La Basse Époque",
+      "debut": -664,
+      "fin": -332,
+      "resume": "Les dynasties saïtes relancent le pays, avant deux périodes de domination perse. Nectanébo II est le dernier pharaon d’origine égyptienne.",
+      "evenements": [{ "annee": -525, "evenement": "Conquête perse de Cambyse II" }]
+    },
+    {
+      "nom": "L’époque ptolémaïque",
+      "debut": -332,
+      "fin": -30,
+      "resume": "Après la conquête d’Alexandre, ses successeurs grecs, les Ptolémées, gouvernent depuis Alexandrie, foyer intellectuel du monde méditerranéen avec sa célèbre bibliothèque.",
+      "evenements": [
+        { "annee": -332, "evenement": "Conquête d’Alexandre le Grand", "ref": "conquete-alexandre-egypte" },
+        { "annee": -30, "evenement": "Mort de Cléopâtre VII", "ref": "mort-de-cleopatre" }
+      ]
+    }
+  ],
+  "dynasties": [
+    {
+      "id": "thinite",
+      "nom": "L’époque thinite",
+      "debut": -3100,
+      "fin": -2686,
+      "note": "Liste des principaux pharaons parmi plus de 170 connus. Dates selon la chronologie d’I. Shaw (Oxford) : à quelques décennies près avant −1500."
+    },
+    { "id": "ancien", "nom": "L’Ancien Empire", "debut": -2686, "fin": -2160 },
+    {
+      "id": "pi1",
+      "nom": "La Première Période intermédiaire",
+      "debut": -2160,
+      "fin": -2055,
+      "note": "Période de morcellement : aucun pharaon ne domine tout le pays."
+    },
+    { "id": "moyen", "nom": "Le Moyen Empire", "debut": -2055, "fin": -1650 },
+    {
+      "id": "pi2",
+      "nom": "La Deuxième Période intermédiaire",
+      "debut": -1650,
+      "fin": -1550,
+      "note": "Rois hyksos au nord, rois thébains au sud."
+    },
+    { "id": "nouvel", "nom": "Le Nouvel Empire", "debut": -1550, "fin": -1069 },
+    { "id": "pi3", "nom": "La Troisième Période intermédiaire", "debut": -1069, "fin": -664 },
+    { "id": "basse", "nom": "La Basse Époque", "debut": -664, "fin": -332 },
+    { "id": "ptolemaique", "nom": "L’époque ptolémaïque", "debut": -332, "fin": -30 }
+  ],
+  "societe": "Au sommet, le pharaon ; autour de lui, les prêtres, les scribes et les hauts fonctionnaires, seuls à maîtriser l’écriture. La grande majorité de la population est paysanne et doit des impôts en nature et des corvées. Les femmes disposent de droits importants : elles peuvent posséder des biens, hériter, témoigner en justice et divorcer. L’esclavage existe, surtout pour des prisonniers de guerre, mais les grands chantiers reposent avant tout sur des ouvriers payés en nature et des paysans réquisitionnés.",
+  "economie": "Tout repose sur la crue du Nil, qui dépose chaque été un limon fertile. Les paysans cultivent le blé, l’orge et le lin, élèvent bétail et volailles. L’État collecte les récoltes dans ses greniers et redistribue des rations. L’Égypte importe du bois du Liban, de l’encens du pays de Pount et de l’or de Nubie.",
+  "decouvertes": ["hieroglyphes", "papyrus", "calendrier-egyptien"],
+  "arts": "Pyramides de Gizeh, temples de Karnak, de Louxor et d’Abou Simbel, tombes peintes de la Vallée des Rois : l’art égyptien sert d’abord les dieux et l’éternité. Les règles sont strictes (personnages de profil, épaules de face, taille selon l’importance) et changent peu en trois mille ans, sauf sous Akhénaton. Le masque d’or de Toutânkhamon, découvert intact en 1922, en est le chef-d’œuvre le plus célèbre.",
+  "quotidien": "On vit dans des maisons de brique crue, on mange du pain, des oignons et du poisson, et l’on boit de la bière. Les vêtements sont en lin. Les enfants jouent à la balle et les adultes au senet, un jeu de plateau. Les fêtes religieuses, avec la sortie des statues des dieux, rythment l’année.",
+  "heritage": [
+    {
+      "titre": "Notre alphabet",
+      "texte": "Les hiéroglyphes ont inspiré les premiers alphabets du Sinaï, ancêtres de l’alphabet phénicien, puis du grec et du latin."
+    },
+    {
+      "titre": "Notre calendrier",
+      "texte": "L’année de 365 jours vient d’Égypte ; elle a inspiré le [[calendrier-julien|calendrier julien]]."
+    },
+    { "titre": "Le mot « papier »", "texte": "Il vient du [[papyrus]], le support d’écriture égyptien." },
+    {
+      "titre": "L’égyptologie",
+      "texte": "Depuis le déchiffrement des hiéroglyphes par Champollion en 1822, l’Égypte ancienne est l’une des civilisations les mieux étudiées."
+    }
+  ],
+  "aSavoir": [
+    "Les pyramides n’ont pas été construites par des esclaves : les fouilles des villages d’ouvriers de Gizeh montrent des équipes organisées, nourries et soignées.",
+    "Les dates avant −1500 sont incertaines de plusieurs décennies ; elles varient selon les chronologies utilisées.",
+    "Cléopâtre était d’origine grecque macédonienne, comme toute la dynastie des Ptolémées ; elle fut la première de sa famille à parler égyptien, selon Plutarque."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/%C3%89gypte_antique",
+    { "titre": "Encyclopædia Britannica — Ancient Egypt", "url": "https://www.britannica.com/place/ancient-Egypt" },
+    { "titre": "World History Encyclopedia — Ancient Egypt", "url": "https://www.worldhistory.org/egypt/" }
   ]
 }

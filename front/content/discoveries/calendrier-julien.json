@@ -1,0 +1,44 @@
+{
+  "id": "calendrier-julien",
+  "nom": "Calendrier julien",
+  "annee": -46,
+  "domaine": "Mesure du temps",
+  "dates": "−46 (en vigueur le 1er janvier −45)",
+  "description": "La réforme de [[jules-cesar|Jules César]] : une année de 365 jours, et un jour de plus tous les quatre ans. C’est l’ancêtre direct de notre calendrier.",
+  "reperes": [
+    {
+      "label": "Décidé par",
+      "valeur": "[[jules-cesar|Jules César]]",
+      "precision": "conseillé, selon Pline l’Ancien, par l’astronome Sosigène d’Alexandrie"
+    },
+    { "label": "Durée de l’année", "valeur": "365,25 jours", "precision": "en moyenne" }
+  ],
+  "sections": [
+    {
+      "titre": "Comment ça marche",
+      "texte": "Trois années de 365 jours, puis une année bissextile de 366 jours. Mais l’année solaire dure un peu moins (environ 365,2422 jours) : le calendrier julien prend un jour d’avance tous les 128 ans environ."
+    },
+    {
+      "titre": "Pourquoi cette réforme ?",
+      "texte": "L’ancien calendrier romain comptait 355 jours et l’on ajoutait des mois au jugé : il avait pris près de trois mois de décalage sur les saisons. Pour tout recaler, l’année −46 dure 445 jours."
+    }
+  ],
+  "heritage": [
+    {
+      "titre": "Juillet et août",
+      "texte": "Mois renommés en l’honneur de Jules César puis d’[[auguste|Auguste]]."
+    },
+    {
+      "titre": "Notre calendrier",
+      "texte": "Le calendrier grégorien (1582) en garde le principe et corrige la dérive en supprimant dix jours."
+    },
+    {
+      "titre": "Le Noël orthodoxe",
+      "texte": "Plusieurs Églises orthodoxes suivent encore le calendrier julien : leur Noël tombe le 7 janvier."
+    }
+  ],
+  "aSavoir": [
+    "La Russie n’adopte le calendrier grégorien qu’en 1918 : la révolution « d’Octobre » 1917 a eu lieu en novembre dans notre calendrier."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Calendrier_julien"
+}

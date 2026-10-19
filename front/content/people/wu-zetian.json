@@ -1,0 +1,32 @@
+{
+  "id": "wu-zetian",
+  "nom": "Wu Zetian",
+  "role": "Impératrice régnante",
+  "roles": ["Impératrice", "Empereur"],
+  "dates": "624 → 705",
+  "naissance": 624,
+  "mort": 705,
+  "description": "Seule femme de l’histoire chinoise à avoir porté le titre d’empereur. Elle gouverne de fait pendant un demi-siècle et fonde sa propre dynastie, les Zhou.",
+  "reperes": [
+    {
+      "label": "Règne en son nom",
+      "valeur": "690 → 705",
+      "precision": "mais elle exerce le pouvoir dès les années 660"
+    }
+  ],
+  "essentiel": [
+    "Concubine de Taizong, puis épouse de l’empereur Gaozong, elle gouverne à sa place lorsqu’il est malade.",
+    "En 690, elle se proclame empereur et fonde la dynastie Zhou.",
+    "Elle favorise le bouddhisme et le recrutement de fonctionnaires par concours."
+  ],
+  "chronologie": [
+    { "annee": 655, "texte": "Devient impératrice, épouse de Gaozong" },
+    { "annee": 690, "texte": "Se proclame empereur" },
+    { "annee": 705, "texte": "Contrainte d’abdiquer ; meurt quelques mois plus tard" }
+  ],
+  "liens": [{ "ref": "tang-taizong", "relation": "Ancien maître, dont elle fut concubine" }],
+  "aSavoir": [
+    "Les historiens confucéens, hostiles à une femme au pouvoir, ont noirci son portrait ; les travaux récents nuancent cette image."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Wu_Zetian"
+}

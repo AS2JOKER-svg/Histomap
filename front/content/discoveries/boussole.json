@@ -1,0 +1,24 @@
+{
+  "id": "boussole",
+  "nom": "Boussole",
+  "annee": 1088,
+  "domaine": "Navigation",
+  "dates": "XIe siècle",
+  "description": "Une aiguille aimantée qui s’oriente vers le nord. Décrite en Chine au XIe siècle, elle sert à la navigation dès le début du XIIe siècle.",
+  "sections": [
+    {
+      "titre": "Comment ça marche",
+      "texte": "Une aiguille de fer frottée sur un aimant s’aligne sur le champ magnétique terrestre. En 1088, le savant Shen Kuo décrit l’aiguille aimantée et remarque qu’elle ne pointe pas exactement vers le nord géographique : c’est la déclinaison magnétique."
+    }
+  ],
+  "heritage": [
+    {
+      "titre": "Les grandes navigations",
+      "texte": "Connue en Europe à la fin du XIIe siècle, la boussole rend possibles les longues traversées des grandes découvertes."
+    }
+  ],
+  "aSavoir": [
+    "Avant la navigation, des instruments magnétiques servaient en Chine à la géomancie, pour orienter maisons et tombeaux."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Boussole"
+}

@@ -45,7 +45,7 @@ export default {
       tier: 1,
       type: 'text',
       kicker: 'Découvertes',
-      title: 'Les jardins flottants',
+      title: 'Des champs gagnés sur le lac',
       body:
         "Pour cultiver sur le lac, les Aztèques construisent des chinampas : des champs artificiels faits de boue et de végétaux, fixés par des arbres. On y récolte plusieurs fois par an maïs, haricots, courges et piments.",
     },

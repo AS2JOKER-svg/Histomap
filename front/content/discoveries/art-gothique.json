@@ -1,0 +1,28 @@
+{
+  "id": "art-gothique",
+  "nom": "Architecture gothique",
+  "annee": 1140,
+  "domaine": "Architecture",
+  "dates": "vers 1140",
+  "description": "Une nouvelle façon de bâtir les églises, née en Île-de-France : grâce à la croisée d’ogives, à l’arc brisé et aux arcs-boutants, les murs s’élèvent et s’ouvrent à de grands vitraux.",
+  "sections": [
+    {
+      "titre": "Comment ça marche",
+      "texte": "La croisée d’ogives concentre le poids de la voûte sur quelques piliers ; les arcs-boutants, à l’extérieur, l’empêchent de s’écarter. Les murs ne portent presque plus rien : on peut les percer de grandes fenêtres."
+    },
+    {
+      "titre": "Naissance",
+      "texte": "L’abbé Suger fait reconstruire vers 1140 le chœur de la basilique de Saint-Denis, considéré comme le premier grand édifice gothique. Le style gagne ensuite toute l’Europe."
+    }
+  ],
+  "heritage": [
+    {
+      "titre": "Les cathédrales",
+      "texte": "Notre-Dame de Paris, Chartres, Reims, Amiens, mais aussi Cologne, Canterbury ou Burgos."
+    }
+  ],
+  "aSavoir": [
+    "Le mot « gothique » a été inventé à la Renaissance pour dénigrer cet art jugé « barbare », comme les Goths ; à l’époque, on parlait d’« art français »."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Architecture_gothique"
+}

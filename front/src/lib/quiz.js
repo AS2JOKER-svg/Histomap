@@ -96,6 +96,9 @@ const ALL = getEpochs().flatMap((epoch) =>
   epoch.continents.flatMap((continent) => continent.civilizations.map((civ) => ({ epoch, continent, civ })))
 )
 
+/** Dirigeants retenus pour le quiz : ceux marqués « cle » s'il y en a, sinon tous. */
+export const quizLeaders = (leaders) => (leaders.some((l) => l.cle) ? leaders.filter((l) => l.cle) : leaders)
+
 /** Réservoir complet de questions d'une civilisation (ref.civ = fiche complète, voir lib/data loadCiv). */
 export function questionPool(ref) {
   const { epoch, continent } = ref
@@ -112,7 +115,8 @@ function autoQuestions(civ, epoch, continent) {
   const dates = [...(civ.datesCles ?? [])].sort((a, b) => a.annee - b.annee)
   const context = CONTEXT.epochs[epoch.id] ?? { events: [], leaders: [] }
   const otherEvents = context.events.filter((e) => e.civ !== civ.id).map((e) => e.evenement)
-  const leaders = civ.dirigeants ?? []
+  // Liste complète des dirigeants : seuls les dirigeants « clés » (cle: true) font l'objet de questions
+  const leaders = quizLeaders(civ.dirigeants ?? [])
   const otherLeaders = context.leaders
   const people = civ.personnages ?? []
   const otherPeople = CONTEXT.people.filter((p) => !people.some((x) => x.nom === p.nom))
@@ -201,7 +205,11 @@ function autoQuestions(civ, epoch, continent) {
 
   // Personnage : vrai / faux sur son appartenance
   if (people[0]) {
-    const intruder = pick(otherPeople.map((p) => p.nom), 1, rng(`${civ.id}-intrus`))[0]
+    // Intrus pris dans une autre époque ET sur un autre continent : jamais quelqu'un de lié à la civilisation
+    // (César pour les Gaulois, Jeanne d'Arc pour la France moderne…)
+    const far = new Set(ALL.filter((r) => r.epoch.id !== epoch.id && r.continent.id !== continent.id).map((r) => r.civ.id))
+    const strangers = otherPeople.filter((p) => far.has(p.civ))
+    const intruder = pick((strangers.length ? strangers : otherPeople).map((p) => p.nom), 1, rng(`${civ.id}-intrus`))[0]
     if (intruder) qs.push({ id: 'tf-person', type: 'tf', prompt: sentence(`${intruder} est un personnage marquant de : ${name}`), answer: false, explanation: `Pour ${name}, on retient notamment ${people.map((p) => p.nom).join(', ')}.` })
   }
 

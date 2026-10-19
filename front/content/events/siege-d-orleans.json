@@ -1,0 +1,22 @@
+{
+  "id": "siege-d-orleans",
+  "nom": "Siège d’Orléans",
+  "annee": 1428,
+  "fin": 1429,
+  "dates": "octobre 1428 → 8 mai 1429",
+  "lieu": "Orléans",
+  "description": "Les Anglais assiègent Orléans, verrou de la Loire. L’arrivée de [[jeanne-d-arc|Jeanne d’Arc]] redonne courage aux défenseurs, qui font lever le siège en quelques jours.",
+  "sections": [
+    {
+      "titre": "Contexte",
+      "texte": "Depuis le traité de Troyes (1420), le roi d’Angleterre prétend au trône de France. Charles VII, le dauphin, ne contrôle que le sud de la Loire : si Orléans tombe, son royaume est coupé en deux."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "La victoire ouvre la route de Reims, où Charles VII est sacré le 17 juillet 1429. Le cours de la guerre s’inverse."
+    }
+  ],
+  "liens": [{ "ref": "jeanne-d-arc", "relation": "Elle mène la délivrance de la ville" }],
+  "aSavoir": ["Orléans fête encore chaque année la délivrance de la ville, le 8 mai."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_d%27Orl%C3%A9ans_(1428-1429)"
+}

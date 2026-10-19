@@ -1,0 +1,21 @@
+{
+  "id": "calendrier-azteque",
+  "nom": "Calendrier aztèque",
+  "annee": 1428,
+  "domaine": "Mesure du temps",
+  "dates": "hérité des civilisations mésoaméricaines",
+  "description": "Deux calendriers combinés : une année solaire de 365 jours et un calendrier rituel de 260 jours. Ils ne retombent ensemble que tous les 52 ans.",
+  "sections": [
+    {
+      "titre": "Comment ça marche",
+      "texte": "L’année solaire compte 18 mois de 20 jours, plus 5 jours jugés néfastes. Le calendrier rituel combine 20 signes et 13 nombres. Tous les 52 ans, la fin du cycle est marquée par la cérémonie du Feu nouveau."
+    }
+  ],
+  "heritage": [
+    {
+      "titre": "La pierre du Soleil",
+      "texte": "Ce disque sculpté de plus de 3,5 m, retrouvé en 1790 à Mexico, est souvent appelé « calendrier aztèque » ; c’est en fait un monument religieux qui représente les ères du monde."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Calendrier_azt%C3%A8que"
+}

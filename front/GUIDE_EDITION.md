@@ -81,6 +81,11 @@ Le site ne lit jamais ces fichiers directement : `scripts/build-content.mjs` les
 (bandeau) + `dirigeants` groupés par `dynasties` (barre de règne proportionnelle) · Société = société, économie, religions
 (`croyancesText`), sciences (+ `decouvertes`), arts, vie quotidienne, diplomatie · Guerres = `guerres` · Carte = territoire.
 - Dynastie : `{ id, nom, debut, fin, regime?, note? }` ; dirigeant : `note` facultative (ex. « selon la tradition »).
+- **Liste complète des dirigeants** : marquer les 5 à 8 plus importants avec `"cle": true`. Seuls ceux-là font l'objet de
+  questions de quiz (sinon, 80 empereurs romains donneraient des centaines de questions) ; ils sont aussi cités dans le
+  résumé des groupes fermés (« dont Khéops, Hatchepsout… »).
+- `documentaires` : les anciens liens portaient des titres d'émissions mais pointaient tous vers Wikipédia. Ne plus en
+  ajouter : mettre les références dans `sources` (liste vide `[]` dans les fiches mises à niveau).
 - Régime sans chef unique (République romaine, cités marchandes…) : l'expliquer dans `note` et ne lister que les grandes figures.
 - Champs facultatifs : `trackId`, `row`, `surnom`, `dynastie`, `personne`, `dynasties`, `ref`, `sources`.
 - `ref` (date clé → événement, personnage → personne) et `personne` (dirigeant → personne) relient la ligne à une **fiche liée** : elle deviendra cliquable.

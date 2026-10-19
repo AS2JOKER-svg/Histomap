@@ -1,0 +1,20 @@
+{
+  "id": "conquete-alexandre-egypte",
+  "nom": "Conquête de l’Égypte par Alexandre",
+  "annee": -332,
+  "dates": "−332",
+  "lieu": "Égypte",
+  "description": "Alexandre le Grand, roi de Macédoine, chasse les Perses d’Égypte sans combat important et y est accueilli en libérateur.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Après sa victoire sur les Perses, Alexandre entre en Égypte. Il se rend à l’oasis de Siwa, où l’oracle d’Amon le salue comme fils du dieu, et fonde Alexandrie sur la côte."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "À sa mort, son général Ptolémée prend l’Égypte et fonde la dynastie des Ptolémées, qui règne jusqu’à [[cleopatre-vii|Cléopâtre]]."
+    }
+  ],
+  "apres": "mort-de-cleopatre",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Alexandre_le_Grand"
+}

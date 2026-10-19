@@ -1,0 +1,44 @@
+{
+  "id": "jules-cesar",
+  "nom": "Jules César",
+  "nomComplet": "Caius Julius Caesar",
+  "role": "Général et homme d’État",
+  "roles": ["Général", "Homme politique", "Écrivain"],
+  "dates": "−100 → −44",
+  "naissance": -100,
+  "mort": -44,
+  "description": "Général et homme d’État romain : il conquiert la Gaule, prend le pouvoir par la guerre civile et devient dictateur. Son assassinat précipite la fin de la République.",
+  "reperes": [
+    { "label": "Naissance", "valeur": "12 ou 13 juillet −100", "precision": "Rome" },
+    { "label": "Mort", "valeur": "15 mars −44", "precision": "Rome, assassiné" },
+    { "label": "Fonctions", "valeur": "Consul (−59), gouverneur des Gaules (−58 → −50), dictateur (−49 → −44)" },
+    { "label": "Œuvre", "valeur": "La Guerre des Gaules", "precision": "récit de ses propres campagnes" }
+  ],
+  "essentiel": [
+    "Il conquiert la Gaule et bat Vercingétorix à Alésia (−52).",
+    "En franchissant le [[passage-du-rubicon|Rubicon]] avec son armée, il déclenche une guerre civile qu’il remporte, puis concentre tous les pouvoirs.",
+    "Sa réforme du [[calendrier-julien|calendrier]] est l’ancêtre du nôtre ; son nom devient un titre (Kaiser, tsar)."
+  ],
+  "chronologie": [
+    { "annee": -100, "texte": "Naissance à Rome, dans une famille patricienne ancienne" },
+    {
+      "annee": -60,
+      "texte": "Alliance avec Pompée et Crassus",
+      "detail": "Un accord privé que l’on appelle le premier triumvirat."
+    },
+    { "annee": -59, "texte": "Consul" },
+    { "annee": -58, "texte": "Début de la guerre des Gaules", "detail": "Victoire d’Alésia en −52." },
+    { "annee": -49, "texte": "Passage du Rubicon", "ref": "passage-du-rubicon" },
+    { "annee": -48, "texte": "Victoire de Pharsale sur Pompée" },
+    { "annee": -46, "texte": "Réforme du calendrier", "ref": "calendrier-julien" },
+    { "annee": -44, "texte": "Assassinat aux ides de mars", "ref": "assassinat-de-cesar" }
+  ],
+  "liens": [
+    { "ref": "auguste", "relation": "Petit-neveu et fils adoptif" },
+    { "ref": "ciceron", "relation": "Adversaire politique, puis rallié" }
+  ],
+  "aSavoir": [
+    "César a lui-même écrit le récit de la guerre des Gaules : les historiens jugent ses chiffres (ennemis tués, prisonniers) exagérés et son récit orienté à sa gloire."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Jules_C%C3%A9sar"
+}

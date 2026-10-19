@@ -1,0 +1,17 @@
+{
+  "id": "imhotep",
+  "nom": "Imhotep",
+  "role": "Vizir et architecte",
+  "roles": ["Vizir", "Architecte", "Grand prêtre"],
+  "dates": "vers −2650",
+  "naissance": -2650,
+  "description": "Vizir du pharaon Djéser et concepteur de sa pyramide à degrés, le plus ancien grand monument en pierre taillée d’Égypte.",
+  "essentiel": [
+    "Il conçoit à Saqqarah la pyramide à degrés de Djéser, première pyramide de l’histoire.",
+    "Plus de deux mille ans après sa mort, il est vénéré comme un dieu de la médecine ; les Grecs l’assimilent à Asclépios."
+  ],
+  "aSavoir": [
+    "On sait très peu de choses certaines sur sa vie : son nom est attesté sur une statue de Djéser, le reste vient de traditions bien plus tardives."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Imhotep"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "beton-romain",
+  "nom": "Béton romain",
+  "annee": -200,
+  "domaine": "Architecture",
+  "dates": "dès le IIe siècle av. J.-C.",
+  "description": "Un mortier de chaux et de cendre volcanique (la pouzzolane) mêlé de pierres, capable de durcir même sous l’eau. Il permet aux Romains de bâtir des voûtes et des coupoles géantes.",
+  "sections": [
+    {
+      "titre": "Comment ça marche",
+      "texte": "La chaux réagit avec la cendre volcanique pour former un liant très résistant. Coulé entre des parements de briques ou de pierres, il donne des murs, des voûtes et des quais d’une solidité remarquable."
+    }
+  ],
+  "heritage": [
+    {
+      "titre": "Le Panthéon de Rome",
+      "texte": "Sa coupole en béton non armé, reconstruite vers 125, reste l’une des plus grandes du monde, près de deux mille ans plus tard."
+    },
+    {
+      "titre": "Un sujet de recherche",
+      "texte": "Les chimistes étudient encore pourquoi certains bétons romains résistent si bien au temps et à l’eau de mer."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/B%C3%A9ton_romain"
+}

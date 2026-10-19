@@ -1,0 +1,20 @@
+{
+  "id": "bataille-de-yamen",
+  "nom": "Bataille de Yamen",
+  "annee": 1279,
+  "dates": "19 mars 1279",
+  "lieu": "Yamen, au large de l’actuelle Canton",
+  "description": "La flotte mongole de Kubilai Khan écrase la dernière flotte des Song. Le dernier empereur Song, un enfant, meurt pendant la bataille : la Chine passe entièrement sous la dynastie mongole des Yuan.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Encerclée dans la baie, la flotte Song est détruite. Selon la tradition, le ministre Lu Xiufu se jette à la mer avec le jeune empereur Zhao Bing plutôt que de se rendre."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Pour la première fois, toute la Chine est gouvernée par une dynastie étrangère, les Yuan, fondée par Kubilai Khan."
+    }
+  ],
+  "avant": "prise-de-kaifeng",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Yamen"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "passage-du-rubicon",
+  "nom": "Passage du Rubicon",
+  "annee": -49,
+  "dates": "janvier 49 av. J.-C.",
+  "lieu": "Rubicon, au nord de l’Italie",
+  "description": "[[jules-cesar|César]] franchit avec une légion le petit fleuve qui marque la limite de l’Italie, ce que la loi interdit à un général en armes : c’est le début de la guerre civile.",
+  "sections": [
+    {
+      "titre": "Contexte",
+      "texte": "Le Sénat, allié à Pompée, exige que César quitte son commandement en Gaule et rentre à Rome en simple particulier, où il risque un procès."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Pompée et une grande partie du Sénat fuient en Grèce. César les y bat à Pharsale (−48), puis élimine leurs derniers partisans en Afrique et en Espagne."
+    }
+  ],
+  "liens": [{ "ref": "jules-cesar", "relation": "Le général qui franchit le fleuve" }],
+  "apres": "assassinat-de-cesar",
+  "aSavoir": [
+    "L’expression « franchir le Rubicon » signifie aujourd’hui prendre une décision sans retour.",
+    "La phrase « Le sort en est jeté » (alea jacta est) lui est attribuée par les historiens antiques."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Passage_du_Rubicon"
+}

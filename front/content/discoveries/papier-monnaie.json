@@ -1,0 +1,25 @@
+{
+  "id": "papier-monnaie",
+  "nom": "Papier-monnaie",
+  "annee": 1024,
+  "domaine": "Économie",
+  "dates": "1024",
+  "description": "Les premiers billets de banque émis par un État : en 1024, les Song remplacent par des billets officiels les reçus de dépôt créés par des marchands du Sichuan.",
+  "sections": [
+    {
+      "titre": "Pourquoi ?",
+      "texte": "Les pièces de fer, lourdes et de faible valeur, étaient peu pratiques pour le commerce. Des marchands délivraient des reçus de dépôt échangeables ; l’État en prend le contrôle et émet ses propres billets, les jiaozi."
+    },
+    {
+      "titre": "Les risques",
+      "texte": "Imprimer trop de billets fait perdre leur valeur : à la fin des Song, l’inflation devient un grave problème."
+    }
+  ],
+  "heritage": [
+    {
+      "titre": "Nos billets",
+      "texte": "Marco Polo s’émerveille du papier-monnaie des Mongols ; l’Europe n’émet ses premiers billets qu’au XVIIe siècle."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Jiaozi_(monnaie)"
+}

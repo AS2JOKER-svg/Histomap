@@ -1,0 +1,28 @@
+{
+  "id": "universite-de-paris",
+  "nom": "Université de Paris",
+  "annee": 1200,
+  "domaine": "Enseignement",
+  "dates": "vers 1200",
+  "description": "Une communauté de maîtres et d’étudiants reconnue par le roi et par le pape, qui devient l’un des plus grands centres d’enseignement de l’Europe médiévale.",
+  "sections": [
+    {
+      "titre": "Comment ça marche",
+      "texte": "L’université réunit quatre facultés : les arts (formation générale), la théologie, le droit canon et la médecine. On y enseigne en latin, par des cours commentant des textes et par des débats, les « disputes »."
+    },
+    {
+      "titre": "Naissance",
+      "texte": "Philippe Auguste accorde des privilèges aux étudiants en 1200 ; le pape donne des statuts en 1215. En 1257, Robert de Sorbon fonde un collège pour les étudiants pauvres en théologie : la Sorbonne."
+    }
+  ],
+  "heritage": [
+    {
+      "titre": "Le modèle des universités",
+      "texte": "Avec Bologne et Oxford, Paris sert de modèle aux universités d’Europe : facultés, grades (baccalauréat, licence, doctorat), autonomie des maîtres."
+    }
+  ],
+  "aSavoir": [
+    "La Sorbonne n’est à l’origine qu’un collège parmi d’autres ; son nom a fini par désigner toute l’université de Paris."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Paris_(Moyen_%C3%82ge)"
+}

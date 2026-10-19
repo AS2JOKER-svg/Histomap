@@ -10,58 +10,389 @@
   "row": 3,
   "isRiver": true,
   "capitale": "Chang'an, Kaifeng, Hangzhou",
-  "description": "Les ères dynastiques les plus brillantes de l'humanité médiévale, inventant les piliers de la modernité (imprimerie, boussole, monnaie papier, poudre à canon).",
+  "description": "Six siècles et demi de Chine impériale, des Tang cosmopolites aux Song lettrés et marchands : une époque de grande poésie, de villes immenses et d’inventions qui ont changé le monde.",
   "territories": ["Sui Empire", "Tang Empire", "Song Empire"],
   "datesCles": [
     {
       "annee": 618,
       "evenement": "Fondation des Tang",
-      "info": "Âge d'or de l'expansionnisme militaire chinois et de la poésie classique."
+      "info": "Li Yuan renverse la dynastie Sui et devient l’empereur Gaozu."
     },
     {
       "annee": 690,
-      "evenement": "Impératrice Wu",
-      "info": "Wu Zetian fonde sa propre dynastie éphémère (unique femme empereur régnante)."
+      "evenement": "Wu Zetian prend le titre d’empereur",
+      "info": "Elle fonde sa propre dynastie, les Zhou, jusqu’en 705."
+    },
+    {
+      "annee": 755,
+      "evenement": "Révolte d’An Lushan",
+      "info": "Huit ans de guerre civile, dont les Tang sortent très affaiblis.",
+      "ref": "revolte-d-an-lushan"
     },
     {
       "annee": 960,
       "evenement": "Fondation des Song",
-      "info": "L'État devient un empire bureaucratique, urbain et marchand (Renaissance chinoise)."
+      "info": "Le général Zhao Kuangyin, l’empereur Taizu, réunifie la plus grande partie du pays."
+    },
+    {
+      "annee": 1127,
+      "evenement": "Prise de Kaifeng par les Jin",
+      "info": "Les Song perdent le nord et se replient au sud du fleuve Yangzi.",
+      "ref": "prise-de-kaifeng"
     },
     {
       "annee": 1279,
-      "evenement": "Chute des Song",
-      "info": "Détruite lors d'une terrible bataille navale (Yamen) contre la flotte de Kubilai Khan."
+      "evenement": "Bataille de Yamen",
+      "info": "Défaite navale des derniers Song face à la flotte de Kubilai Khan.",
+      "ref": "bataille-de-yamen"
     }
   ],
   "dirigeants": [
-    { "titre": "Empereur Tang", "nom": "Taizong", "debut": 626, "fin": 649 },
-    { "titre": "Impératrice (Auguste et Céleste)", "nom": "Wu Zetian", "debut": 690, "fin": 705 },
-    { "titre": "Empereur Song", "nom": "Taizu", "debut": 960, "fin": 976 }
+    { "nom": "Gaozu", "titre": "Empereur", "debut": 618, "fin": 626, "dynastie": "tang", "note": "Li Yuan, fondateur" },
+    {
+      "nom": "Taizong",
+      "titre": "Empereur",
+      "debut": 626,
+      "fin": 649,
+      "dynastie": "tang",
+      "personne": "tang-taizong",
+      "cle": true
+    },
+    { "nom": "Gaozong", "titre": "Empereur", "debut": 649, "fin": 683, "dynastie": "tang" },
+    {
+      "nom": "Zhongzong",
+      "titre": "Empereur",
+      "debut": 684,
+      "fin": 684,
+      "dynastie": "tang",
+      "note": "premier règne, déposé"
+    },
+    {
+      "nom": "Ruizong",
+      "titre": "Empereur",
+      "debut": 684,
+      "fin": 690,
+      "dynastie": "tang",
+      "note": "premier règne, sous la tutelle de sa mère"
+    },
+    {
+      "nom": "Wu Zetian",
+      "titre": "Impératrice régnante",
+      "debut": 690,
+      "fin": 705,
+      "dynastie": "tang",
+      "personne": "wu-zetian",
+      "note": "dynastie Zhou",
+      "cle": true
+    },
+    { "nom": "Zhongzong", "titre": "Empereur", "debut": 705, "fin": 710, "dynastie": "tang", "note": "second règne" },
+    {
+      "nom": "Shang",
+      "titre": "Empereur",
+      "debut": 710,
+      "fin": 710,
+      "dynastie": "tang",
+      "note": "Li Chongmao, quelques semaines"
+    },
+    { "nom": "Ruizong", "titre": "Empereur", "debut": 710, "fin": 712, "dynastie": "tang", "note": "second règne" },
+    {
+      "nom": "Xuanzong",
+      "titre": "Empereur",
+      "debut": 712,
+      "fin": 756,
+      "dynastie": "tang",
+      "note": "Li Longji",
+      "cle": true
+    },
+    { "nom": "Suzong", "titre": "Empereur", "debut": 756, "fin": 762, "dynastie": "tang" },
+    { "nom": "Daizong", "titre": "Empereur", "debut": 762, "fin": 779, "dynastie": "tang" },
+    { "nom": "Dezong", "titre": "Empereur", "debut": 779, "fin": 805, "dynastie": "tang" },
+    { "nom": "Shunzong", "titre": "Empereur", "debut": 805, "fin": 805, "dynastie": "tang" },
+    { "nom": "Xianzong", "titre": "Empereur", "debut": 805, "fin": 820, "dynastie": "tang" },
+    { "nom": "Muzong", "titre": "Empereur", "debut": 820, "fin": 824, "dynastie": "tang" },
+    { "nom": "Jingzong", "titre": "Empereur", "debut": 824, "fin": 827, "dynastie": "tang" },
+    { "nom": "Wenzong", "titre": "Empereur", "debut": 827, "fin": 840, "dynastie": "tang" },
+    {
+      "nom": "Wuzong",
+      "titre": "Empereur",
+      "debut": 840,
+      "fin": 846,
+      "dynastie": "tang",
+      "note": "proscription du bouddhisme (845)"
+    },
+    { "nom": "Xuanzong", "titre": "Empereur", "debut": 846, "fin": 859, "dynastie": "tang", "note": "Li Chen" },
+    { "nom": "Yizong", "titre": "Empereur", "debut": 859, "fin": 873, "dynastie": "tang" },
+    { "nom": "Xizong", "titre": "Empereur", "debut": 873, "fin": 888, "dynastie": "tang" },
+    { "nom": "Zhaozong", "titre": "Empereur", "debut": 888, "fin": 904, "dynastie": "tang" },
+    {
+      "nom": "Ai",
+      "titre": "Empereur",
+      "debut": 904,
+      "fin": 907,
+      "dynastie": "tang",
+      "note": "Li Zhu, dernier empereur Tang"
+    },
+    {
+      "nom": "Taizu",
+      "titre": "Empereur",
+      "debut": 960,
+      "fin": 976,
+      "dynastie": "song-nord",
+      "note": "Zhao Kuangyin, fondateur",
+      "cle": true
+    },
+    { "nom": "Taizong", "titre": "Empereur", "debut": 976, "fin": 997, "dynastie": "song-nord", "note": "Zhao Jiong" },
+    { "nom": "Zhenzong", "titre": "Empereur", "debut": 997, "fin": 1022, "dynastie": "song-nord" },
+    { "nom": "Renzong", "titre": "Empereur", "debut": 1022, "fin": 1063, "dynastie": "song-nord" },
+    { "nom": "Yingzong", "titre": "Empereur", "debut": 1063, "fin": 1067, "dynastie": "song-nord" },
+    {
+      "nom": "Shenzong",
+      "titre": "Empereur",
+      "debut": 1067,
+      "fin": 1085,
+      "dynastie": "song-nord",
+      "note": "soutient les réformes de Wang Anshi"
+    },
+    { "nom": "Zhezong", "titre": "Empereur", "debut": 1085, "fin": 1100, "dynastie": "song-nord" },
+    {
+      "nom": "Huizong",
+      "titre": "Empereur",
+      "debut": 1100,
+      "fin": 1125,
+      "dynastie": "song-nord",
+      "note": "empereur peintre et calligraphe, capturé par les Jin",
+      "cle": true
+    },
+    {
+      "nom": "Qinzong",
+      "titre": "Empereur",
+      "debut": 1126,
+      "fin": 1127,
+      "dynastie": "song-nord",
+      "note": "capturé par les Jin"
+    },
+    {
+      "nom": "Gaozong",
+      "titre": "Empereur",
+      "debut": 1127,
+      "fin": 1162,
+      "dynastie": "song-sud",
+      "note": "Zhao Gou, fondateur des Song du Sud",
+      "cle": true
+    },
+    { "nom": "Xiaozong", "titre": "Empereur", "debut": 1162, "fin": 1189, "dynastie": "song-sud" },
+    { "nom": "Guangzong", "titre": "Empereur", "debut": 1189, "fin": 1194, "dynastie": "song-sud" },
+    { "nom": "Ningzong", "titre": "Empereur", "debut": 1194, "fin": 1224, "dynastie": "song-sud" },
+    { "nom": "Lizong", "titre": "Empereur", "debut": 1224, "fin": 1264, "dynastie": "song-sud" },
+    { "nom": "Duzong", "titre": "Empereur", "debut": 1264, "fin": 1274, "dynastie": "song-sud" },
+    {
+      "nom": "Gongdi",
+      "titre": "Empereur",
+      "debut": 1274,
+      "fin": 1276,
+      "dynastie": "song-sud",
+      "note": "enfant, capturé par les Mongols"
+    },
+    { "nom": "Duanzong", "titre": "Empereur", "debut": 1276, "fin": 1278, "dynastie": "song-sud" },
+    {
+      "nom": "Zhao Bing",
+      "titre": "Empereur",
+      "debut": 1278,
+      "fin": 1279,
+      "dynastie": "song-sud",
+      "note": "enfant, mort à la bataille de Yamen"
+    }
   ],
   "personnages": [
     {
       "nom": "Li Bai",
-      "role": "Le Poète immortel",
-      "description": "Le plus célèbre poète de l'histoire chinoise, génie taoïste, buveur invétéré, légende de la dynastie Tang.",
-      "dates": "701 à 762",
-      "wikiUrl": "https://fr.wikipedia.org/wiki/Li_Bai"
+      "role": "Poète",
+      "description": "Le plus célèbre poète chinois, chantre du vin, de la lune et de la nature, figure légendaire de la cour des Tang.",
+      "dates": "701 → 762",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Li_Bai",
+      "ref": "li-bai"
+    },
+    {
+      "nom": "Du Fu",
+      "role": "Poète",
+      "description": "Ami de Li Bai, il décrit dans ses poèmes les souffrances de la guerre et du peuple pendant la révolte d’An Lushan.",
+      "dates": "712 → 770",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Du_Fu"
+    },
+    {
+      "nom": "Xuanzang",
+      "role": "Moine voyageur",
+      "description": "Moine bouddhiste parti chercher des textes sacrés en Inde, il revient en 645 et traduit des centaines de textes ; son voyage inspire le roman La Pérégrination vers l’Ouest.",
+      "dates": "602 → 664",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Xuanzang"
+    },
+    {
+      "nom": "Wang Anshi",
+      "role": "Ministre réformateur",
+      "description": "Chancelier des Song, il lance les « nouvelles lois » pour soulager les paysans et renforcer l’État.",
+      "dates": "1021 → 1086",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Wang_Anshi",
+      "ref": "wang-anshi"
+    },
+    {
+      "nom": "Zhu Xi",
+      "role": "Philosophe",
+      "description": "Penseur du néo-confucianisme, dont les commentaires ont servi de base aux concours impériaux pendant six siècles.",
+      "dates": "1130 → 1200",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Zhu_Xi",
+      "ref": "zhu-xi"
     }
   ],
   "guerres": [
     {
       "nom": "Révolte d'An Lushan",
       "annee": 755,
-      "adversaires": ["Généraux frontaliers rebelles"],
-      "allies": ["Tribus Ouïghours mercenaires"],
-      "morts": "Jusqu'à 30 millions de victimes (famines)",
-      "vainqueur": "Dynastie Tang (affaiblie)",
-      "consequences": "L'une des guerres les plus meurtrières de toute l'histoire humaine. L'Empire Tang est ruiné et perdra le contrôle de l'Asie Centrale.",
+      "adversaires": ["Rebelles menés par An Lushan, puis Shi Siming"],
+      "allies": ["Cavaliers ouïghours"],
+      "morts": "Inconnues : les recensements chutent fortement, mais surtout parce que l’administration ne parvient plus à compter la population",
+      "vainqueur": "Dynastie Tang (très affaiblie)",
+      "consequences": "Les Tang survivent, mais les gouverneurs militaires des provinces deviennent presque indépendants et l’empire perd ses positions en Asie centrale.",
       "wikiUrl": "https://fr.wikipedia.org/wiki/R%C3%A9volte_d'An_Lushan"
     }
   ],
-  "sciences": "Ils opèrent quatre révolutions technologiques mondiales (des siècles avant l'Europe) : la poudre à canon (utilisée pour les roquettes et lances de feu sous les Song), la boussole nautique (permettant une marine marchande géante), l'imprimerie (par blocs de bois gravés, multipliant la diffusion des savoirs) et l'invention du papier-monnaie (billet de banque) pour soutenir un boom économique pré-capitaliste colossal.",
-  "croyancesText": "Trois doctrines cohabitent et s'affrontent. Sous les Tang, le Bouddhisme, importé d'Inde via la Route de la Soie, devient ultrapuissant et florissant, s'intégrant à la cour. Sous la dynastie Song, en réaction, l'État finance le 'Néo-Confucianisme', une refonte rationnelle et morale très stricte, insistant sur le devoir civique, la loyauté absolue à l'État et la redéfinition du rôle de la femme (début de la coutume des pieds bandés).",
-  "diplomatie": "La cour Tang est la plus cosmopolite du monde (Chang'an compte un million d'habitants). Ils gèrent l'Eurasie en employant des généraux étrangers turcs, ce qui conduira au désastre de la Révolte d'An Lushan. Les Song, au contraire, méprisent la classe militaire et confient le pouvoir politique entier aux civils Lettrés, ayant réussi des concours impériaux extrêmement difficiles, créant une puissante méritocratie administrative.",
-  "documentaires": [{ "titre": "L'Âge d'or de la Chine (Série Arte)", "url": "https://fr.wikipedia.org/wiki/Dynastie_Song" }]
+  "sciences": "L’[[imprimerie]] par blocs de bois permet de diffuser livres et textes religieux ; les caractères mobiles apparaissent vers 1040. Les alchimistes découvrent la [[poudre-a-canon|poudre]], utilisée ensuite dans des armes. La [[boussole]] sert à la navigation dès le début du XIIe siècle. Le savant Shen Kuo décrit dans son œuvre, en 1088, l’aiguille aimantée, l’imprimerie à caractères mobiles et de nombreuses observations scientifiques.",
+  "croyancesText": "Trois enseignements coexistent. Le bouddhisme, venu d’Inde, connaît son apogée sous les Tang, avec de puissants monastères, avant d’être durement frappé par la proscription de 845. Le taoïsme est soutenu par la famille impériale Tang, qui prétend descendre de Laozi. Sous les Song, le confucianisme se renouvelle : le néo-confucianisme de [[zhu-xi|Zhu Xi]] met l’accent sur l’étude, la morale personnelle et les devoirs envers la famille et l’État.",
+  "diplomatie": "Les Tang dominent un vaste réseau de peuples tributaires et contrôlent un temps les routes de la soie jusqu’en Asie centrale, avant leur défaite face aux Abbassides à Talas (751). Ils combattent aussi l’empire du Tibet. Les Song préfèrent la paix achetée : par le traité de Shanyuan (1005), ils versent un tribut aux Liao. Ils perdent pourtant le nord face aux Jürchen de la dynastie Jin (1127), puis tout l’empire face aux Mongols.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": { "valeur": "Chang’an", "precision": "sous les Tang ; puis Kaifeng (Song du Nord) et Hangzhou (Song du Sud)" },
+    "regimes": {
+      "valeur": "Empire",
+      "precision": "administré par des fonctionnaires lettrés, recrutés de plus en plus par concours"
+    },
+    "langues": { "valeur": "Chinois classique (écrit)", "precision": "et de nombreux parlers régionaux" },
+    "religion": { "valeur": "Confucianisme, bouddhisme, taoïsme", "precision": "les « trois enseignements » coexistent" },
+    "apogee": {
+      "valeur": "Milieu du VIIIe siècle",
+      "precision": "influence des Tang jusqu’en Asie centrale ; essor économique des Song aux XIe-XIIe siècles"
+    },
+    "population": {
+      "valeur": "Environ 50 millions vers 750, plus de 100 millions vers 1100",
+      "precision": "estimations d’après les recensements"
+    },
+    "monnaie": {
+      "valeur": "Pièces de bronze percées",
+      "precision": "et, sous les Song, les premiers billets émis par l’État ([[papier-monnaie|papier-monnaie]])"
+    },
+    "duree": { "valeur": "Environ 660 ans", "precision": "Tang (618-907), Cinq Dynasties (907-960), Song (960-1279)" },
+    "aujourdhui": {
+      "valeur": "Chine",
+      "precision": "les Tang dominent aussi une partie de l’Asie centrale ; les Song perdent le nord en 1127"
+    }
+  },
+  "essentiel": [
+    "Les Tang (618-907) font de la Chine une grande puissance ouverte sur l’Asie : Chang’an, au départ des routes de la soie, est l’une des plus grandes villes du monde.",
+    "[[wu-zetian|Wu Zetian]] est la seule femme de l’histoire chinoise à avoir porté le titre d’empereur (690-705).",
+    "La [[revolte-d-an-lushan|révolte d’An Lushan]] (755-763) affaiblit durablement les Tang, qui disparaissent en 907.",
+    "Les Song (960-1279) gouvernent avec des fonctionnaires lettrés recrutés par concours ; villes, commerce et techniques connaissent un essor remarquable.",
+    "L’[[imprimerie]], la [[poudre-a-canon|poudre]], la [[boussole]] et les [[papier-monnaie|billets de banque]] se développent à cette époque, bien avant l’Europe."
+  ],
+  "periodes": [
+    {
+      "nom": "L’âge d’or des Tang",
+      "debut": 618,
+      "fin": 755,
+      "resume": "Les premiers empereurs, dont [[tang-taizong|Taizong]], réorganisent l’État et étendent l’empire vers l’Asie centrale. [[wu-zetian|Wu Zetian]] gouverne un demi-siècle, puis le long règne de Xuanzong marque l’apogée de la poésie, avec [[li-bai|Li Bai]] et Du Fu.",
+      "evenements": [
+        { "annee": 618, "evenement": "Fondation des Tang" },
+        { "annee": 690, "evenement": "Wu Zetian prend le titre d’empereur" },
+        { "annee": 751, "evenement": "Défaite de Talas face aux Abbassides, en Asie centrale" }
+      ]
+    },
+    {
+      "nom": "Les Tang affaiblis",
+      "debut": 755,
+      "fin": 907,
+      "resume": "Après la révolte d’An Lushan, les gouverneurs militaires des provinces deviennent presque indépendants. En 845, l’empereur Wuzong fait fermer des milliers de monastères bouddhistes. La grande révolte de Huang Chao (874-884) précipite la fin de la dynastie.",
+      "evenements": [
+        { "annee": 755, "evenement": "Révolte d’An Lushan", "ref": "revolte-d-an-lushan" },
+        { "annee": 845, "evenement": "Proscription du bouddhisme" },
+        { "annee": 907, "evenement": "Fin de la dynastie Tang" }
+      ]
+    },
+    {
+      "nom": "Les Cinq Dynasties et les Dix Royaumes",
+      "debut": 907,
+      "fin": 960,
+      "resume": "La Chine se divise : cinq dynasties éphémères se succèdent au nord, une dizaine de royaumes se partagent le sud."
+    },
+    {
+      "nom": "Les Song du Nord",
+      "debut": 960,
+      "fin": 1127,
+      "resume": "Taizu réunifie la Chine, sauf le nord-est tenu par l’empire Liao. Les Song confient le pouvoir à des fonctionnaires civils et achètent la paix avec leurs voisins. Le ministre [[wang-anshi|Wang Anshi]] lance de grandes réformes. Kaifeng, la capitale, est l’une des villes les plus peuplées du monde.",
+      "evenements": [
+        { "annee": 960, "evenement": "Fondation des Song" },
+        { "annee": 1005, "evenement": "Traité de Shanyuan : la paix avec les Liao contre un tribut" },
+        { "annee": 1069, "evenement": "Début des réformes de Wang Anshi" },
+        { "annee": 1127, "evenement": "Prise de Kaifeng par les Jin", "ref": "prise-de-kaifeng" }
+      ]
+    },
+    {
+      "nom": "Les Song du Sud",
+      "debut": 1127,
+      "fin": 1279,
+      "resume": "Repliés au sud du Yangzi, les Song installent leur capitale à Hangzhou. Le commerce maritime, la riziculture et les villes prospèrent ; [[zhu-xi|Zhu Xi]] renouvelle le confucianisme. Les Mongols de Kubilai Khan conquièrent finalement tout le pays.",
+      "evenements": [
+        { "annee": 1273, "evenement": "Chute de Xiangyang après six ans de siège mongol" },
+        { "annee": 1276, "evenement": "Prise de Hangzhou par les Mongols" },
+        { "annee": 1279, "evenement": "Bataille de Yamen", "ref": "bataille-de-yamen" }
+      ]
+    }
+  ],
+  "dynasties": [
+    {
+      "id": "tang",
+      "nom": "Les Tang",
+      "debut": 618,
+      "fin": 907,
+      "note": "Wu Zetian interrompt la dynastie de 690 à 705 en fondant les Zhou. Les empereurs sont appelés par leur « nom de temple » ; le nom personnel est indiqué quand deux noms se confondent en français."
+    },
+    {
+      "id": "cinq-dynasties",
+      "nom": "Les Cinq Dynasties et les Dix Royaumes",
+      "debut": 907,
+      "fin": 960,
+      "note": "Période de division : une quinzaine de souverains rivaux, non détaillés ici."
+    },
+    { "id": "song-nord", "nom": "Les Song du Nord", "debut": 960, "fin": 1127 },
+    { "id": "song-sud", "nom": "Les Song du Sud", "debut": 1127, "fin": 1279 }
+  ],
+  "societe": "L’empereur, « Fils du Ciel », gouverne avec une administration de fonctionnaires lettrés. Sous les Song, les concours impériaux deviennent la voie principale pour y entrer : des milliers de candidats étudient les classiques confucéens pendant des années. La grande majorité de la population est paysanne. Les marchands, peu considérés dans la théorie confucéenne, s’enrichissent avec l’essor des villes. Les femmes de l’aristocratie Tang jouissent d’une certaine liberté ; sous les Song se répand chez les élites la pratique des pieds bandés.",
+  "economie": "Le Grand Canal, achevé sous les Sui, relie le riche sud rizicole au nord. Sous les Song, une variété de riz précoce venue du Champa permet deux récoltes par an. Les villes se multiplient, le commerce maritime part des ports de Guangzhou et de Quanzhou, et la soie, le thé et la porcelaine s’exportent dans toute l’Asie. Les [[papier-monnaie|billets de banque]] facilitent les échanges.",
+  "decouvertes": ["imprimerie", "poudre-a-canon", "boussole", "papier-monnaie"],
+  "arts": "La poésie Tang, avec [[li-bai|Li Bai]], Du Fu et Wang Wei, est considérée comme l’âge d’or de la poésie chinoise. Sous les Song s’épanouissent la peinture de paysage, la calligraphie et la céramique (céladons, porcelaines). L’empereur Huizong est lui-même un peintre et un calligraphe réputé. Le rouleau « Le long de la rivière pendant la fête de Qingming » montre la vie foisonnante de Kaifeng.",
+  "quotidien": "Le thé devient la boisson de tous ; vers 760, Lu Yu lui consacre un traité, le Classique du thé. Dans les grandes villes Song, restaurants, maisons de thé, théâtres et marchés de nuit animent les rues. C’est aussi à cette époque que l’usage des chaises et des tables hautes se généralise.",
+  "heritage": [
+    {
+      "titre": "Quatre inventions",
+      "texte": "L’imprimerie, la poudre, la boussole et le papier-monnaie se diffusent ensuite jusqu’en Europe."
+    },
+    {
+      "titre": "Le recrutement par concours",
+      "texte": "L’idée de choisir les fonctionnaires par examen, perfectionnée sous les Song, a inspiré les administrations modernes."
+    },
+    {
+      "titre": "La poésie Tang",
+      "texte": "Les poèmes de Li Bai et Du Fu sont encore appris par cœur par les écoliers chinois."
+    },
+    {
+      "titre": "Le thé",
+      "texte": "La culture du thé, codifiée sous les Tang, s’est répandue au Japon, en Corée puis dans le monde entier."
+    }
+  ],
+  "aSavoir": [
+    "L’expression « quatre grandes inventions » (papier, imprimerie, poudre, boussole) a été popularisée au XXe siècle ; le papier, lui, date de bien avant, sous les Han.",
+    "Les chiffres de population viennent des recensements, qui comptent des foyers imposables : ils varient autant avec l’efficacité de l’administration qu’avec la population réelle."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Dynastie_Tang",
+    "https://fr.wikipedia.org/wiki/Dynastie_Song",
+    { "titre": "Encyclopædia Britannica — Tang dynasty", "url": "https://www.britannica.com/topic/Tang-dynasty" }
+  ]
 }

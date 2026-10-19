@@ -270,7 +270,8 @@ for (const [id, { file, data: civ }] of content.civs) {
   }
   for (const l of civ.dirigeants ?? []) {
     const lw = `${w} (dirigeant « ${l.nom ?? '?'} »)`
-    onlyFields(lw, l, ['nom', 'titre', 'surnom', 'debut', 'fin', 'dynastie', 'personne', 'note'])
+    onlyFields(lw, l, ['nom', 'titre', 'surnom', 'debut', 'fin', 'dynastie', 'personne', 'note', 'cle'])
+    optional(lw, l, 'cle', (v) => v === true, 'true (dirigeant clé, retenu pour le quiz) ou absent')
     optional(lw, l, 'note', isStr, 'un texte')
     if (!isStr(l.nom) || !isStr(l.titre)) err(lw, '« nom » et « titre » obligatoires')
     if (!isNum(l.debut) || !isNum(l.fin)) err(lw, '« debut » et « fin » doivent être des nombres')

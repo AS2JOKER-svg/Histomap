@@ -1,0 +1,21 @@
+{
+  "id": "constantin-ier",
+  "nom": "Constantin Ier",
+  "nomComplet": "Flavius Valerius Constantinus",
+  "role": "Empereur romain",
+  "roles": ["Empereur"],
+  "dates": "vers 272 → 337",
+  "naissance": 272,
+  "mort": 337,
+  "description": "Empereur qui se rallie au christianisme, lui accorde la liberté de culte et fonde Constantinople, future capitale de l’Empire d’Orient.",
+  "reperes": [{ "label": "Règne", "valeur": "306 → 337", "precision": "seul maître de l’Empire à partir de 324" }],
+  "essentiel": [
+    "Vainqueur au pont Milvius (312), il attribue sa victoire au Dieu des chrétiens.",
+    "En 313, il accorde avec Licinius la liberté de culte aux chrétiens.",
+    "Il fonde Constantinople, inaugurée en 330."
+  ],
+  "aSavoir": [
+    "Il n’est baptisé que sur son lit de mort, en 337 ; le christianisme ne devient religion d’État qu’en 380, sous Théodose."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Constantin_Ier_(empereur_romain)"
+}

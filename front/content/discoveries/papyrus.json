@@ -1,0 +1,19 @@
+{
+  "id": "papyrus",
+  "nom": "Papyrus",
+  "annee": -3000,
+  "domaine": "Écriture",
+  "dates": "dès le IIIe millénaire av. J.-C.",
+  "description": "Un support d’écriture léger et souple, fabriqué avec les tiges d’une plante des bords du Nil. Il a servi dans tout le monde méditerranéen pendant des millénaires.",
+  "sections": [
+    {
+      "titre": "Comment ça marche",
+      "texte": "Les tiges sont découpées en fines lamelles, posées en deux couches croisées, puis pressées et séchées : la sève les colle entre elles. Les feuilles sont assemblées en rouleaux."
+    }
+  ],
+  "heritage": [{ "titre": "Le mot « papier »", "texte": "Il vient du grec papyros, qui désignait cette plante." }],
+  "aSavoir": [
+    "Les plus anciens papyrus écrits connus, ceux du ouadi el-Jarf, datent du règne de Khéops : ils racontent le transport des pierres de la grande pyramide."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Papyrus_(papier)"
+}

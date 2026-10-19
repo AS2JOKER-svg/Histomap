@@ -10,42 +10,250 @@
   "row": 2,
   "isRiver": false,
   "capitale": "Paris",
-  "description": "La lente construction de l'État français, l'essor des cathédrales gothiques et le traumatisme fondateur de la Guerre de Cent Ans.",
+  "description": "Cinq siècles de construction de l’État royal, de l’élection de Hugues Capet à la fin de la guerre de Cent Ans : le temps des cathédrales gothiques, de l’université de Paris et de Jeanne d’Arc.",
   "territories": ["Kingdom of France", "France"],
   "datesCles": [
     {
       "annee": 987,
-      "evenement": "Hugues Capet",
-      "info": "Élection de Hugues Capet au trône, début d'une dynastie ininterrompue de 8 siècles."
+      "evenement": "Élection de Hugues Capet",
+      "info": "Les grands du royaume le choisissent comme roi ; ses descendants et leurs branches régneront jusqu’en 1792."
     },
     {
       "annee": 1214,
       "evenement": "Bataille de Bouvines",
-      "info": "Philippe Auguste écrase une coalition impériale et anglaise, sauvant la nation."
+      "info": "Philippe Auguste bat une coalition menée par l’empereur Otton IV, alliée du roi d’Angleterre.",
+      "ref": "bataille-de-bouvines"
     },
     {
       "annee": 1307,
       "evenement": "Arrestation des Templiers",
-      "info": "Philippe le Bel détruit le puissant ordre financier et militaire du Temple."
+      "info": "Sur ordre de Philippe le Bel ; l’ordre du Temple est supprimé par le pape en 1312."
+    },
+    {
+      "annee": 1348,
+      "evenement": "La peste noire",
+      "info": "L’épidémie tue en quelques années une grande partie de la population.",
+      "ref": "peste-noire"
     },
     {
       "annee": 1429,
-      "evenement": "Siège d'Orléans",
-      "info": "Jeanne d'Arc libère la ville et inverse le cours de la guerre de Cent Ans."
+      "evenement": "Siège d’Orléans",
+      "info": "Jeanne d’Arc fait lever le siège ; Charles VII est sacré à Reims.",
+      "ref": "siege-d-orleans"
+    },
+    {
+      "annee": 1453,
+      "evenement": "Fin de la guerre de Cent Ans",
+      "info": "Après la bataille de Castillon, les Anglais ne gardent que Calais."
     }
   ],
   "dirigeants": [
-    { "titre": "Roi de France", "nom": "Philippe II", "surnom": "Auguste", "debut": 1180, "fin": 1223 },
-    { "titre": "Roi de France", "nom": "Louis IX", "surnom": "Saint Louis", "debut": 1226, "fin": 1270 },
-    { "titre": "Roi de France", "nom": "Charles VII", "surnom": "Le Victorieux", "debut": 1422, "fin": 1461 }
+    {
+      "nom": "Hugues Capet",
+      "titre": "Roi des Francs",
+      "debut": 987,
+      "fin": 996,
+      "dynastie": "capetiens-directs",
+      "personne": "hugues-capet",
+      "cle": true
+    },
+    {
+      "nom": "Robert II",
+      "titre": "Roi des Francs",
+      "surnom": "le Pieux",
+      "debut": 996,
+      "fin": 1031,
+      "dynastie": "capetiens-directs"
+    },
+    { "nom": "Henri Ier", "titre": "Roi des Francs", "debut": 1031, "fin": 1060, "dynastie": "capetiens-directs" },
+    { "nom": "Philippe Ier", "titre": "Roi des Francs", "debut": 1060, "fin": 1108, "dynastie": "capetiens-directs" },
+    {
+      "nom": "Louis VI",
+      "titre": "Roi des Francs",
+      "surnom": "le Gros",
+      "debut": 1108,
+      "fin": 1137,
+      "dynastie": "capetiens-directs"
+    },
+    {
+      "nom": "Louis VII",
+      "titre": "Roi des Francs",
+      "surnom": "le Jeune",
+      "debut": 1137,
+      "fin": 1180,
+      "dynastie": "capetiens-directs"
+    },
+    {
+      "nom": "Philippe II",
+      "titre": "Roi de France",
+      "surnom": "Auguste",
+      "debut": 1180,
+      "fin": 1223,
+      "dynastie": "capetiens-directs",
+      "personne": "philippe-auguste",
+      "cle": true
+    },
+    {
+      "nom": "Louis VIII",
+      "titre": "Roi de France",
+      "surnom": "le Lion",
+      "debut": 1223,
+      "fin": 1226,
+      "dynastie": "capetiens-directs"
+    },
+    {
+      "nom": "Louis IX",
+      "titre": "Roi de France",
+      "surnom": "Saint Louis",
+      "debut": 1226,
+      "fin": 1270,
+      "dynastie": "capetiens-directs",
+      "personne": "louis-ix",
+      "cle": true
+    },
+    {
+      "nom": "Philippe III",
+      "titre": "Roi de France",
+      "surnom": "le Hardi",
+      "debut": 1270,
+      "fin": 1285,
+      "dynastie": "capetiens-directs"
+    },
+    {
+      "nom": "Philippe IV",
+      "titre": "Roi de France",
+      "surnom": "le Bel",
+      "debut": 1285,
+      "fin": 1314,
+      "dynastie": "capetiens-directs",
+      "personne": "philippe-le-bel",
+      "cle": true
+    },
+    {
+      "nom": "Louis X",
+      "titre": "Roi de France",
+      "surnom": "le Hutin",
+      "debut": 1314,
+      "fin": 1316,
+      "dynastie": "capetiens-directs"
+    },
+    {
+      "nom": "Jean Ier",
+      "titre": "Roi de France",
+      "surnom": "le Posthume",
+      "debut": 1316,
+      "fin": 1316,
+      "dynastie": "capetiens-directs",
+      "note": "roi à sa naissance, mort cinq jours plus tard"
+    },
+    {
+      "nom": "Philippe V",
+      "titre": "Roi de France",
+      "surnom": "le Long",
+      "debut": 1316,
+      "fin": 1322,
+      "dynastie": "capetiens-directs"
+    },
+    {
+      "nom": "Charles IV",
+      "titre": "Roi de France",
+      "surnom": "le Bel",
+      "debut": 1322,
+      "fin": 1328,
+      "dynastie": "capetiens-directs"
+    },
+    {
+      "nom": "Philippe VI",
+      "titre": "Roi de France",
+      "debut": 1328,
+      "fin": 1350,
+      "dynastie": "valois",
+      "note": "premier roi Valois"
+    },
+    {
+      "nom": "Jean II",
+      "titre": "Roi de France",
+      "surnom": "le Bon",
+      "debut": 1350,
+      "fin": 1364,
+      "dynastie": "valois",
+      "note": "prisonnier des Anglais après Poitiers (1356)"
+    },
+    { "nom": "Charles V", "titre": "Roi de France", "surnom": "le Sage", "debut": 1364, "fin": 1380, "dynastie": "valois" },
+    {
+      "nom": "Charles VI",
+      "titre": "Roi de France",
+      "surnom": "le Bien-Aimé",
+      "debut": 1380,
+      "fin": 1422,
+      "dynastie": "valois",
+      "note": "atteint de crises de folie"
+    },
+    {
+      "nom": "Charles VII",
+      "titre": "Roi de France",
+      "surnom": "le Victorieux",
+      "debut": 1422,
+      "fin": 1461,
+      "dynastie": "valois",
+      "cle": true
+    },
+    {
+      "nom": "Louis XI",
+      "titre": "Roi de France",
+      "surnom": "le Prudent",
+      "debut": 1461,
+      "fin": 1483,
+      "dynastie": "valois",
+      "cle": true
+    },
+    {
+      "nom": "Charles VIII",
+      "titre": "Roi de France",
+      "surnom": "l’Affable",
+      "debut": 1483,
+      "fin": 1498,
+      "dynastie": "valois"
+    }
   ],
   "personnages": [
     {
-      "nom": "Jeanne d'Arc",
+      "nom": "Jeanne d’Arc",
       "role": "Chef de guerre et sainte",
-      "description": "Paysanne visionnaire qui mena victorieusement les troupes françaises contre l'Angleterre avant d'être brûlée vive à 19 ans.",
-      "dates": "1412 à 1431",
-      "wikiUrl": "https://fr.wikipedia.org/wiki/Jeanne_d'Arc"
+      "description": "Jeune paysanne lorraine convaincue d’être envoyée par Dieu, elle fait lever le siège d’Orléans et conduit Charles VII au sacre ; capturée, elle est brûlée à Rouen à environ 19 ans.",
+      "dates": "vers 1412 → 1431",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Jeanne_d%27Arc",
+      "ref": "jeanne-d-arc"
+    },
+    {
+      "nom": "Saint Louis",
+      "role": "Roi (Louis IX)",
+      "description": "Roi pieux et justicier, il mène deux croisades et meurt devant Tunis ; il est canonisé en 1297.",
+      "dates": "1214 → 1270",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Louis_IX",
+      "ref": "louis-ix"
+    },
+    {
+      "nom": "Philippe le Bel",
+      "role": "Roi (Philippe IV)",
+      "description": "Roi autoritaire entouré de juristes, il affronte le pape et fait arrêter les Templiers.",
+      "dates": "1268 → 1314",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Philippe_IV_le_Bel",
+      "ref": "philippe-le-bel"
+    },
+    {
+      "nom": "Suger",
+      "role": "Abbé de Saint-Denis",
+      "description": "Conseiller de Louis VI et Louis VII, il fait reconstruire la basilique de Saint-Denis, considérée comme le premier grand édifice gothique.",
+      "dates": "vers 1081 → 1151",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Suger"
+    },
+    {
+      "nom": "Christine de Pizan",
+      "role": "Femme de lettres",
+      "description": "Née à Venise et élevée à la cour de Charles V, elle est l’une des premières femmes à vivre de sa plume ; elle célèbre Jeanne d’Arc dès 1429.",
+      "dates": "vers 1364 → vers 1430",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Christine_de_Pizan"
     }
   ],
   "guerres": [
@@ -54,19 +262,151 @@
       "annee": 1337,
       "adversaires": ["Royaume d'Angleterre", "Duché de Bourgogne"],
       "allies": ["Royaume d'Écosse"],
-      "morts": "Des millions (guerre + peste noire)",
+      "morts": "Impossible à chiffrer ; la population du royaume recule fortement, surtout à cause de la peste noire et des famines",
       "vainqueur": "France (Dynastie des Valois)",
-      "consequences": "Les Anglais sont expulsés du continent (sauf Calais). L'armée française devient permanente et professionnelle (Francs-archers, artillerie de bureau).",
+      "consequences": "Les Anglais sont chassés du continent, sauf de Calais. La guerre a fait naître une armée et un impôt royaux permanents, et renforcé le sentiment d’appartenance au royaume.",
       "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_de_Cent_Ans"
     }
   ],
-  "sciences": "Le temps des bâtisseurs de cathédrales : la France invente l'art gothique (arc brisé, croisée d'ogives, arcs-boutants) permettant des bâtiments vertigineux baignés de lumière (Notre-Dame, Reims). Paris devient la capitale intellectuelle de la chrétienté avec la fondation de l'Université de la Sorbonne (1257).",
-  "croyancesText": "Le roi de France est sacré à Reims avec l'huile de la Sainte Ampoule, faisant de lui un 'Roi Thaumaturge' (censé guérir les écrouelles par simple toucher). La foi est omniprésente, poussant la monarchie à financer de grandes croisades en Orient, mais aussi à mener la brutale Croisade des Albigeois contre les hérétiques cathares dans le sud du royaume.",
-  "diplomatie": "Au départ, le roi de France n'est qu'un seigneur parmi d'autres, moins puissant que ses propres vassaux (comme les Ducs de Normandie). La diplomatie capétienne (notamment sous Philippe Auguste et Philippe le Bel) est une politique de centralisation féroce : mariages arrangés, confiscation de fiefs et guerres pour remplacer la féodalité éclatée par un État royal fort doté d'impôts permanents.",
-  "documentaires": [
+  "sciences": "L’[[universite-de-paris|université de Paris]], née vers 1200, attire des maîtres de toute l’Europe, comme Thomas d’Aquin, et devient un grand centre de théologie. Les bâtisseurs inventent l’[[art-gothique|architecture gothique]] : croisée d’ogives, arc brisé et arcs-boutants permettent des églises plus hautes et plus lumineuses. À la fin de la période, l’artillerie des frères Bureau contribue aux victoires de Charles VII.",
+  "croyancesText": "Le catholicisme encadre toute la vie, du baptême aux funérailles. Le roi, sacré à Reims, passe pour avoir le pouvoir de guérir les écrouelles (une maladie de peau) en les touchant. L’Église bâtit cathédrales et abbayes, et prêche les croisades en Orient. Dans le sud, la croisade contre les Albigeois (1209-1229) vise les cathares, jugés hérétiques, et ouvre la région au pouvoir royal ; l’Inquisition poursuit ensuite les dissidents.",
+  "diplomatie": "Au départ, le roi est moins puissant que certains de ses vassaux, comme le duc de Normandie, devenu roi d’Angleterre. Les Capétiens agrandissent leur domaine par les mariages, les héritages, la confiscation des fiefs de vassaux rebelles et la guerre. Leur grand rival est la famille anglaise des Plantagenêts, ce qui mène à la guerre de Cent Ans. Philippe le Bel affronte aussi le pape Boniface VIII sur la question du pouvoir du roi sur l’Église de France.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": {
+      "valeur": "Paris",
+      "precision": "résidence principale des rois ; Bourges pour Charles VII pendant l’occupation anglaise de Paris"
+    },
+    "regimes": { "valeur": "Monarchie féodale", "precision": "de plus en plus centralisée à partir de Philippe Auguste" },
+    "langues": {
+      "valeur": "Ancien puis moyen français",
+      "precision": "langue d’oc au sud ; latin pour l’Église et les actes savants"
+    },
+    "religion": { "valeur": "Catholicisme", "precision": "le roi est sacré à Reims" },
+    "apogee": {
+      "valeur": "Le XIIIe siècle",
+      "precision": "de Philippe Auguste à Philippe le Bel : domaine royal multiplié, rayonnement de Paris"
+    },
+    "population": {
+      "valeur": "16 à 20 millions d’habitants vers 1328",
+      "precision": "le royaume le plus peuplé d’Europe ; forte chute après la peste noire"
+    },
+    "monnaie": {
+      "valeur": "Livre tournois",
+      "precision": "monnaie de compte ; pièces : denier, gros tournois (1266), franc (1360), écu d’or"
+    },
+    "duree": { "valeur": "Environ 500 ans", "precision": "les Capétiens, puis leur branche des Valois" },
+    "aujourdhui": {
+      "valeur": "France",
+      "precision": "un royaume plus petit que la France actuelle : la Provence n’y entre qu’en 1481 ; l’Alsace, la Lorraine, la Savoie et Nice plus tard"
+    }
+  },
+  "essentiel": [
+    "En 987, les grands du royaume élisent [[hugues-capet|Hugues Capet]] : ses descendants gardent le trône de père en fils pendant des siècles.",
+    "Partis d’un petit domaine autour de Paris et d’Orléans, les rois imposent peu à peu leur autorité aux grands seigneurs, dont les rois d’Angleterre, aussi ducs de Normandie et d’Aquitaine.",
+    "[[philippe-auguste|Philippe Auguste]], [[louis-ix|Saint Louis]] et [[philippe-le-bel|Philippe le Bel]] posent les bases d’un État : administration, justice royale, impôts.",
+    "C’est l’âge des cathédrales [[art-gothique|gothiques]] et de l’[[universite-de-paris|université de Paris]].",
+    "Au XIVe siècle, la [[peste-noire|peste noire]] et la guerre de Cent Ans (1337-1453) ravagent le royaume, qui en sort victorieux et renforcé."
+  ],
+  "periodes": [
     {
-      "titre": "La Guerre de Cent Ans (Série Documentaire)",
-      "url": "https://fr.wikipedia.org/wiki/Cap%C3%A9tiens"
+      "nom": "Les premiers Capétiens",
+      "debut": 987,
+      "fin": 1180,
+      "resume": "Le roi est sacré, mais son pouvoir réel se limite à un petit domaine. Pour garantir la succession, chaque roi fait sacrer son fils de son vivant. Louis VI soumet les seigneurs d’Île-de-France ; Louis VII divorce d’Aliénor d’Aquitaine, qui épouse Henri Plantagenêt, futur roi d’Angleterre.",
+      "evenements": [
+        { "annee": 987, "evenement": "Élection de Hugues Capet" },
+        { "annee": 1152, "evenement": "Aliénor d’Aquitaine épouse Henri Plantagenêt" }
+      ]
+    },
+    {
+      "nom": "L’affirmation du pouvoir royal",
+      "debut": 1180,
+      "fin": 1328,
+      "resume": "[[philippe-auguste|Philippe Auguste]] prend la Normandie aux Plantagenêts et triomphe à Bouvines. La croisade contre les Albigeois étend l’autorité royale au sud. [[louis-ix|Saint Louis]] incarne le roi chrétien et justicier ; [[philippe-le-bel|Philippe le Bel]] s’oppose au pape et fait arrêter les Templiers. En 1328, la lignée directe s’éteint.",
+      "evenements": [
+        { "annee": 1204, "evenement": "Conquête de la Normandie" },
+        { "annee": 1214, "evenement": "Bataille de Bouvines", "ref": "bataille-de-bouvines" },
+        { "annee": 1270, "evenement": "Mort de Saint Louis devant Tunis" },
+        { "annee": 1307, "evenement": "Arrestation des Templiers" },
+        { "annee": 1328, "evenement": "Fin des Capétiens directs" }
+      ]
+    },
+    {
+      "nom": "Les Valois et la guerre de Cent Ans",
+      "debut": 1328,
+      "fin": 1453,
+      "resume": "Philippe VI de Valois monte sur le trône, mais le roi d’Angleterre Édouard III, petit-fils de Philippe le Bel, le revendique. La guerre de Cent Ans alterne défaites françaises (Crécy, Poitiers, Azincourt), trêves et reconquêtes. Avec [[jeanne-d-arc|Jeanne d’Arc]], Charles VII reprend l’avantage et chasse les Anglais.",
+      "evenements": [
+        { "annee": 1337, "evenement": "Début de la guerre de Cent Ans" },
+        { "annee": 1346, "evenement": "Défaite de Crécy" },
+        { "annee": 1348, "evenement": "La peste noire atteint le royaume", "ref": "peste-noire" },
+        { "annee": 1415, "evenement": "Défaite d’Azincourt" },
+        { "annee": 1429, "evenement": "Siège d’Orléans et sacre de Charles VII", "ref": "siege-d-orleans" },
+        { "annee": 1453, "evenement": "Victoire de Castillon" }
+      ]
+    },
+    {
+      "nom": "La reconstruction",
+      "debut": 1453,
+      "fin": 1492,
+      "resume": "Le royaume se relève. Louis XI affaiblit les grands princes, au premier rang desquels le duc de Bourgogne, et rattache l’Anjou et la Provence. Charles VIII épouse Anne de Bretagne, prélude au rattachement de la Bretagne.",
+      "evenements": [
+        { "annee": 1477, "evenement": "Mort du duc de Bourgogne, Charles le Téméraire" },
+        { "annee": 1481, "evenement": "Rattachement de la Provence" },
+        { "annee": 1491, "evenement": "Mariage de Charles VIII et d’Anne de Bretagne" }
+      ]
+    }
+  ],
+  "dynasties": [
+    {
+      "id": "capetiens-directs",
+      "nom": "Les Capétiens directs",
+      "debut": 987,
+      "fin": 1328,
+      "note": "Jusqu’à Philippe Auguste, le roi porte le titre de « roi des Francs »."
+    },
+    {
+      "id": "valois",
+      "nom": "Les Valois",
+      "debut": 1328,
+      "fin": 1498,
+      "note": "Branche cadette des Capétiens. Charles VIII règne jusqu’en 1498 ; la suite est dans la fiche « France (Ancien Régime) »."
+    }
+  ],
+  "societe": "La société se pense en trois ordres : ceux qui prient (le clergé), ceux qui combattent (les nobles) et ceux qui travaillent (l’immense majorité, surtout paysanne). Les liens de vassalité unissent seigneurs et vassaux. À partir du XIIe siècle, les villes grandissent : marchands et artisans s’organisent en métiers et obtiennent des chartes de franchise. Le servage recule peu à peu.",
+  "economie": "Jusqu’au début du XIVe siècle, l’économie est portée par un essor agricole (défrichements, charrue, moulins) et une forte croissance de la population. Les foires de Champagne sont alors le grand carrefour du commerce européen. Le XIVe siècle est celui des crises : famines, peste noire et guerre font chuter la population et la production.",
+  "decouvertes": ["art-gothique", "universite-de-paris"],
+  "arts": "Les cathédrales gothiques (Saint-Denis, Notre-Dame de Paris, Chartres, Reims, Amiens) et la Sainte-Chapelle, consacrée en 1248, couvrent le royaume de vitraux et de sculptures. La littérature en langue française s’épanouit : chansons de geste, romans de chevalerie, poésie de François Villon, chroniques de Froissart.",
+  "quotidien": "Les paysans vivent au rythme des saisons et des fêtes religieuses, dans des villages groupés autour de l’église et du château. Le pain est la base de l’alimentation. En ville, les rues étroites accueillent ateliers et marchés ; les confréries et les métiers encadrent la vie des artisans.",
+  "heritage": [
+    {
+      "titre": "Un État",
+      "texte": "Administration, impôt permanent, armée royale : les bases de l’État français sont posées pendant ces cinq siècles."
+    },
+    {
+      "titre": "Les cathédrales",
+      "texte": "Notre-Dame de Paris, Chartres, Reims ou Amiens comptent parmi les monuments les plus visités de France."
+    },
+    {
+      "titre": "La langue",
+      "texte": "Le français de Paris s’impose peu à peu comme langue du pouvoir, avant de devenir langue officielle des actes en 1539."
+    },
+    {
+      "titre": "Une figure",
+      "texte": "[[jeanne-d-arc|Jeanne d’Arc]], canonisée en 1920, est restée l’une des personnalités les plus célèbres de l’histoire de France."
+    }
+  ],
+  "aSavoir": [
+    "Le surnom « Capet » n’a été donné à Hugues qu’après sa mort ; il vient peut-être de la chape (cape) de saint Martin, dont sa famille était abbé laïc.",
+    "La guerre de Cent Ans n’est pas une guerre continue : elle alterne batailles, sièges et longues trêves pendant 116 ans."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Cap%C3%A9tiens",
+    "https://fr.wikipedia.org/wiki/Guerre_de_Cent_Ans",
+    {
+      "titre": "Encyclopædia Britannica — Capetian dynasty",
+      "url": "https://www.britannica.com/topic/Capetian-dynasty"
     }
   ]
 }

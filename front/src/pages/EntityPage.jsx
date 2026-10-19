@@ -13,7 +13,7 @@ import NotFoundPage from './NotFoundPage'
 
 // Libellés qui changent selon le type de fiche
 const LABELS = {
-  personne: { essentiel: 'Pourquoi il ou elle compte', chronologie: 'Sa vie en dates', liens: 'Son entourage' },
+  personne: { essentiel: 'Pourquoi retenir ce nom', chronologie: 'Sa vie en dates', liens: 'Son entourage' },
   evenement: { essentiel: "L'essentiel", chronologie: 'Chronologie', liens: 'Acteurs' },
   decouverte: { essentiel: "L'essentiel", chronologie: 'Chronologie', liens: 'Personnes liées' },
 }

@@ -10,7 +10,7 @@
   "row": 3,
   "isRiver": true,
   "capitale": "Rome",
-  "description": "D'une petite bourgade pastorale au plus grand et au plus structuré des empires occidentaux, dictant la loi, l'architecture et la langue (le latin) à toute l'Europe.",
+  "description": "Une petite cité du Latium devenue, en sept siècles de conquêtes, le premier empire à unifier tout le pourtour de la Méditerranée.",
   "territories": [
     "Rome",
     "Roman Republic",
@@ -24,49 +24,257 @@
   "datesCles": [
     {
       "annee": -753,
-      "evenement": "Fondation mythique",
-      "info": "Romulus fonde la ville sur le Mont Palatin après avoir tué son frère Rémus."
+      "evenement": "Fondation de Rome",
+      "info": "Selon la légende, Romulus fonde la ville sur le Palatin. L’archéologie montre des villages plus anciens sur les collines."
     },
     {
       "annee": -509,
-      "evenement": "Instauration de la République",
-      "info": "Création d'un régime oligarchique dirigé par le Sénat (SPQR)."
+      "evenement": "Naissance de la République",
+      "info": "Selon la tradition, le dernier roi, Tarquin le Superbe, est chassé ; deux consuls élus pour un an le remplacent."
     },
     {
       "annee": -44,
       "evenement": "Assassinat de César",
-      "info": "La crise des guerres civiles sonne le glas de la République."
+      "info": "Des sénateurs poignardent Jules César : la République ne s’en relève pas.",
+      "ref": "assassinat-de-cesar"
     },
     {
       "annee": -27,
-      "evenement": "L'Empire romain",
-      "info": "Octave (Auguste) centralise le pouvoir absolu et instaure la Pax Romana."
+      "evenement": "Octave devient Auguste",
+      "info": "Le Sénat donne à Octave le titre d’Auguste : c’est le début de l’Empire."
     },
     {
       "annee": 476,
-      "evenement": "Chute de l'Occident",
-      "info": "Le chef germanique Odoacre dépose le dernier empereur romain d'Occident, Romulus Augustule."
+      "evenement": "Fin de l’Empire d’Occident",
+      "info": "Le chef germanique Odoacre dépose Romulus Augustule. L’Empire d’Orient continue.",
+      "ref": "fin-empire-occident"
     }
   ],
   "dirigeants": [
-    { "titre": "Dictateur à vie", "nom": "Jules César", "surnom": "Imperator", "debut": -49, "fin": -44 },
-    { "titre": "Empereur", "nom": "Auguste", "surnom": "Le Vénérable", "debut": -27, "fin": 14 },
-    { "titre": "Empereur", "nom": "Trajan", "surnom": "L'Optimus Princeps", "debut": 98, "fin": 117 }
+    { "nom": "Romulus", "titre": "Roi", "debut": -753, "fin": -716, "dynastie": "rois", "note": "légendaire" },
+    { "nom": "Numa Pompilius", "titre": "Roi", "debut": -715, "fin": -673, "dynastie": "rois" },
+    { "nom": "Tullus Hostilius", "titre": "Roi", "debut": -673, "fin": -642, "dynastie": "rois" },
+    { "nom": "Ancus Marcius", "titre": "Roi", "debut": -642, "fin": -617, "dynastie": "rois" },
+    { "nom": "Tarquin l’Ancien", "titre": "Roi", "debut": -616, "fin": -579, "dynastie": "rois" },
+    { "nom": "Servius Tullius", "titre": "Roi", "debut": -578, "fin": -535, "dynastie": "rois" },
+    { "nom": "Tarquin le Superbe", "titre": "Roi", "debut": -535, "fin": -509, "dynastie": "rois" },
+    {
+      "nom": "Scipion l’Africain",
+      "titre": "Consul",
+      "debut": -205,
+      "fin": -194,
+      "dynastie": "figures-republique",
+      "note": "consul en −205 et −194, vainqueur d’Hannibal"
+    },
+    {
+      "nom": "Marius",
+      "titre": "Consul",
+      "debut": -107,
+      "fin": -86,
+      "dynastie": "figures-republique",
+      "note": "sept fois consul"
+    },
+    { "nom": "Sylla", "titre": "Dictateur", "debut": -82, "fin": -79, "dynastie": "figures-republique" },
+    {
+      "nom": "Pompée",
+      "titre": "Consul",
+      "debut": -70,
+      "fin": -52,
+      "dynastie": "figures-republique",
+      "note": "consul en −70, −55 et −52"
+    },
+    {
+      "nom": "Jules César",
+      "titre": "Dictateur",
+      "debut": -49,
+      "fin": -44,
+      "dynastie": "figures-republique",
+      "personne": "jules-cesar",
+      "note": "dictateur à vie en −44",
+      "cle": true
+    },
+    {
+      "nom": "Auguste",
+      "titre": "Empereur",
+      "debut": -27,
+      "fin": 14,
+      "dynastie": "julio-claudiens",
+      "personne": "auguste",
+      "cle": true
+    },
+    { "nom": "Tibère", "titre": "Empereur", "debut": 14, "fin": 37, "dynastie": "julio-claudiens" },
+    { "nom": "Caligula", "titre": "Empereur", "debut": 37, "fin": 41, "dynastie": "julio-claudiens" },
+    { "nom": "Claude", "titre": "Empereur", "debut": 41, "fin": 54, "dynastie": "julio-claudiens" },
+    { "nom": "Néron", "titre": "Empereur", "debut": 54, "fin": 68, "dynastie": "julio-claudiens" },
+    { "nom": "Galba", "titre": "Empereur", "debut": 68, "fin": 69, "dynastie": "quatre-empereurs" },
+    { "nom": "Othon", "titre": "Empereur", "debut": 69, "fin": 69, "dynastie": "quatre-empereurs" },
+    { "nom": "Vitellius", "titre": "Empereur", "debut": 69, "fin": 69, "dynastie": "quatre-empereurs" },
+    { "nom": "Vespasien", "titre": "Empereur", "debut": 69, "fin": 79, "dynastie": "flaviens" },
+    { "nom": "Titus", "titre": "Empereur", "debut": 79, "fin": 81, "dynastie": "flaviens" },
+    { "nom": "Domitien", "titre": "Empereur", "debut": 81, "fin": 96, "dynastie": "flaviens" },
+    { "nom": "Nerva", "titre": "Empereur", "debut": 96, "fin": 98, "dynastie": "antonins" },
+    {
+      "nom": "Trajan",
+      "titre": "Empereur",
+      "surnom": "Optimus Princeps",
+      "debut": 98,
+      "fin": 117,
+      "dynastie": "antonins",
+      "personne": "trajan",
+      "cle": true
+    },
+    { "nom": "Hadrien", "titre": "Empereur", "debut": 117, "fin": 138, "dynastie": "antonins" },
+    { "nom": "Antonin le Pieux", "titre": "Empereur", "debut": 138, "fin": 161, "dynastie": "antonins" },
+    {
+      "nom": "Marc Aurèle",
+      "titre": "Empereur",
+      "surnom": "l’empereur philosophe",
+      "debut": 161,
+      "fin": 180,
+      "dynastie": "antonins",
+      "cle": true
+    },
+    { "nom": "Lucius Verus", "titre": "Co-empereur", "debut": 161, "fin": 169, "dynastie": "antonins" },
+    { "nom": "Commode", "titre": "Empereur", "debut": 180, "fin": 192, "dynastie": "antonins" },
+    { "nom": "Pertinax", "titre": "Empereur", "debut": 193, "fin": 193, "dynastie": "severes" },
+    { "nom": "Didius Julianus", "titre": "Empereur", "debut": 193, "fin": 193, "dynastie": "severes" },
+    { "nom": "Septime Sévère", "titre": "Empereur", "debut": 193, "fin": 211, "dynastie": "severes" },
+    { "nom": "Caracalla", "titre": "Empereur", "debut": 211, "fin": 217, "dynastie": "severes" },
+    { "nom": "Geta", "titre": "Co-empereur", "debut": 211, "fin": 211, "dynastie": "severes" },
+    { "nom": "Macrin", "titre": "Empereur", "debut": 217, "fin": 218, "dynastie": "severes" },
+    { "nom": "Élagabal", "titre": "Empereur", "debut": 218, "fin": 222, "dynastie": "severes" },
+    { "nom": "Sévère Alexandre", "titre": "Empereur", "debut": 222, "fin": 235, "dynastie": "severes" },
+    { "nom": "Maximin le Thrace", "titre": "Empereur", "debut": 235, "fin": 238, "dynastie": "crise" },
+    { "nom": "Gordien Ier", "titre": "Empereur", "debut": 238, "fin": 238, "dynastie": "crise" },
+    { "nom": "Gordien II", "titre": "Empereur", "debut": 238, "fin": 238, "dynastie": "crise" },
+    { "nom": "Pupien", "titre": "Empereur", "debut": 238, "fin": 238, "dynastie": "crise" },
+    { "nom": "Balbin", "titre": "Empereur", "debut": 238, "fin": 238, "dynastie": "crise" },
+    { "nom": "Gordien III", "titre": "Empereur", "debut": 238, "fin": 244, "dynastie": "crise" },
+    { "nom": "Philippe l’Arabe", "titre": "Empereur", "debut": 244, "fin": 249, "dynastie": "crise" },
+    { "nom": "Dèce", "titre": "Empereur", "debut": 249, "fin": 251, "dynastie": "crise" },
+    { "nom": "Trébonien Galle", "titre": "Empereur", "debut": 251, "fin": 253, "dynastie": "crise" },
+    { "nom": "Émilien", "titre": "Empereur", "debut": 253, "fin": 253, "dynastie": "crise" },
+    {
+      "nom": "Valérien",
+      "titre": "Empereur",
+      "debut": 253,
+      "fin": 260,
+      "dynastie": "crise",
+      "note": "capturé par les Perses"
+    },
+    { "nom": "Gallien", "titre": "Empereur", "debut": 253, "fin": 268, "dynastie": "crise" },
+    { "nom": "Claude II", "titre": "Empereur", "surnom": "le Gothique", "debut": 268, "fin": 270, "dynastie": "crise" },
+    { "nom": "Quintille", "titre": "Empereur", "debut": 270, "fin": 270, "dynastie": "crise" },
+    { "nom": "Aurélien", "titre": "Empereur", "debut": 270, "fin": 275, "dynastie": "crise" },
+    { "nom": "Tacite", "titre": "Empereur", "debut": 275, "fin": 276, "dynastie": "crise" },
+    { "nom": "Florien", "titre": "Empereur", "debut": 276, "fin": 276, "dynastie": "crise" },
+    { "nom": "Probus", "titre": "Empereur", "debut": 276, "fin": 282, "dynastie": "crise" },
+    { "nom": "Carus", "titre": "Empereur", "debut": 282, "fin": 283, "dynastie": "crise" },
+    { "nom": "Numérien", "titre": "Empereur", "debut": 283, "fin": 284, "dynastie": "crise" },
+    { "nom": "Carin", "titre": "Empereur", "debut": 283, "fin": 285, "dynastie": "crise" },
+    { "nom": "Dioclétien", "titre": "Empereur", "debut": 284, "fin": 305, "dynastie": "tetrarchie", "cle": true },
+    { "nom": "Maximien", "titre": "Empereur", "debut": 286, "fin": 305, "dynastie": "tetrarchie" },
+    { "nom": "Constance Chlore", "titre": "Empereur", "debut": 305, "fin": 306, "dynastie": "tetrarchie" },
+    { "nom": "Galère", "titre": "Empereur", "debut": 305, "fin": 311, "dynastie": "tetrarchie" },
+    { "nom": "Sévère II", "titre": "Empereur", "debut": 306, "fin": 307, "dynastie": "tetrarchie" },
+    { "nom": "Licinius", "titre": "Empereur", "debut": 308, "fin": 324, "dynastie": "tetrarchie" },
+    { "nom": "Maximin Daïa", "titre": "Empereur", "debut": 311, "fin": 313, "dynastie": "tetrarchie" },
+    {
+      "nom": "Constantin Ier",
+      "titre": "Empereur",
+      "surnom": "le Grand",
+      "debut": 306,
+      "fin": 337,
+      "dynastie": "tetrarchie",
+      "personne": "constantin-ier",
+      "cle": true
+    },
+    { "nom": "Constantin II", "titre": "Empereur", "debut": 337, "fin": 340, "dynastie": "tetrarchie" },
+    { "nom": "Constant", "titre": "Empereur", "debut": 337, "fin": 350, "dynastie": "tetrarchie" },
+    { "nom": "Constance II", "titre": "Empereur", "debut": 337, "fin": 361, "dynastie": "tetrarchie" },
+    { "nom": "Julien", "titre": "Empereur", "debut": 360, "fin": 363, "dynastie": "tetrarchie" },
+    { "nom": "Jovien", "titre": "Empereur", "debut": 363, "fin": 364, "dynastie": "tetrarchie" },
+    { "nom": "Valentinien Ier", "titre": "Empereur", "debut": 364, "fin": 375, "dynastie": "valentiniens" },
+    { "nom": "Valens", "titre": "Empereur", "debut": 364, "fin": 378, "dynastie": "valentiniens", "note": "Orient" },
+    { "nom": "Gratien", "titre": "Empereur", "debut": 367, "fin": 383, "dynastie": "valentiniens" },
+    { "nom": "Valentinien II", "titre": "Empereur", "debut": 375, "fin": 392, "dynastie": "valentiniens" },
+    {
+      "nom": "Théodose Ier",
+      "titre": "Empereur",
+      "surnom": "le Grand",
+      "debut": 379,
+      "fin": 395,
+      "dynastie": "theodosiens",
+      "note": "dernier à régner sur tout l’Empire",
+      "cle": true
+    },
+    { "nom": "Honorius", "titre": "Empereur", "debut": 393, "fin": 423, "dynastie": "theodosiens", "note": "Occident" },
+    {
+      "nom": "Valentinien III",
+      "titre": "Empereur",
+      "debut": 425,
+      "fin": 455,
+      "dynastie": "theodosiens",
+      "note": "Occident"
+    },
+    { "nom": "Pétrone Maxime", "titre": "Empereur", "debut": 455, "fin": 455, "dynastie": "derniers-occident" },
+    { "nom": "Avitus", "titre": "Empereur", "debut": 455, "fin": 456, "dynastie": "derniers-occident" },
+    { "nom": "Majorien", "titre": "Empereur", "debut": 457, "fin": 461, "dynastie": "derniers-occident" },
+    { "nom": "Libius Sévère", "titre": "Empereur", "debut": 461, "fin": 465, "dynastie": "derniers-occident" },
+    { "nom": "Anthémius", "titre": "Empereur", "debut": 467, "fin": 472, "dynastie": "derniers-occident" },
+    { "nom": "Olybrius", "titre": "Empereur", "debut": 472, "fin": 472, "dynastie": "derniers-occident" },
+    { "nom": "Glycérius", "titre": "Empereur", "debut": 473, "fin": 474, "dynastie": "derniers-occident" },
+    { "nom": "Julius Nepos", "titre": "Empereur", "debut": 474, "fin": 475, "dynastie": "derniers-occident" },
+    {
+      "nom": "Romulus Augustule",
+      "titre": "Empereur",
+      "debut": 475,
+      "fin": 476,
+      "dynastie": "derniers-occident",
+      "note": "dernier empereur d’Occident",
+      "cle": true
+    }
   ],
   "personnages": [
     {
-      "nom": "Cicéron",
-      "role": "Consul et Orateur",
-      "description": "Sauveur de la République contre Catilina, ses écrits philosophiques et rhétoriques fondent l'humanisme européen.",
-      "dates": "-106 à -43",
-      "wikiUrl": "https://fr.wikipedia.org/wiki/Cic%C3%A9ron"
+      "nom": "Jules César",
+      "role": "Général et dictateur",
+      "description": "Conquérant de la Gaule, il prend le pouvoir par la guerre civile ; son assassinat en −44 précipite la fin de la République.",
+      "dates": "−100 → −44",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Jules_C%C3%A9sar",
+      "ref": "jules-cesar"
     },
     {
-      "nom": "Constantin",
+      "nom": "Auguste",
+      "role": "Premier empereur",
+      "description": "Petit-neveu et fils adoptif de César, il fonde l’Empire en −27 et règne plus de quarante ans.",
+      "dates": "−63 → 14",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Auguste",
+      "ref": "auguste"
+    },
+    {
+      "nom": "Cicéron",
+      "role": "Orateur et consul",
+      "description": "Avocat, consul en −63 et plus grand orateur de Rome, défenseur de la République ; ses écrits ont nourri l’humanisme européen.",
+      "dates": "−106 → −43",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Cic%C3%A9ron",
+      "ref": "ciceron"
+    },
+    {
+      "nom": "Trajan",
       "role": "Empereur",
-      "description": "Légalise le christianisme et déplace la capitale à Constantinople, assurant la survie de l'Empire en Orient (Byzance).",
-      "dates": "272 à 337",
-      "wikiUrl": "https://fr.wikipedia.org/wiki/Constantin_Ier_(empereur_romain)"
+      "description": "Empereur de 98 à 117, sous qui l’Empire atteint sa plus grande étendue.",
+      "dates": "53 → 117",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Trajan",
+      "ref": "trajan"
+    },
+    {
+      "nom": "Constantin Ier",
+      "role": "Empereur",
+      "description": "Il accorde la liberté de culte aux chrétiens et fonde Constantinople, future capitale de l’Empire d’Orient.",
+      "dates": "vers 272 → 337",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Constantin_Ier_(empereur_romain)",
+      "ref": "constantin-ier"
     }
   ],
   "guerres": [
@@ -75,9 +283,9 @@
       "annee": -58,
       "adversaires": ["Confédération de tribus gauloises (Vercingétorix)"],
       "allies": ["Tribus rèmes et éduennes"],
-      "morts": "1 million de morts, 1 million d'esclaves",
-      "vainqueur": "Jules César",
-      "consequences": "L'annexion totale de la Gaule enrichit démesurément César, qui utilise son armée aguerrie pour franchir le Rubicon et prendre Rome.",
+      "morts": "Selon Plutarque, un million de morts et autant d’esclaves (chiffres jugés exagérés)",
+      "vainqueur": "Rome (Jules César)",
+      "consequences": "La Gaule devient romaine. Enrichi et à la tête d’une armée aguerrie, [[jules-cesar|César]] franchit le Rubicon en −49 et s’empare du pouvoir.",
       "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_des_Gaules"
     },
     {
@@ -85,14 +293,201 @@
       "annee": -149,
       "adversaires": ["Carthage"],
       "allies": ["Numidie"],
-      "morts": "300 000 morts civils",
+      "morts": "Carthage rasée ; selon les sources antiques, environ 50 000 survivants réduits en esclavage",
       "vainqueur": "Rome (Scipion Émilien)",
-      "consequences": "Éradication totale de la rivale carthaginoise de la carte, Rome contrôle incontestablement la Méditerranée.",
+      "consequences": "Carthage disparaît ; son territoire devient la province romaine d’Afrique. Rome domine la Méditerranée occidentale.",
       "wikiUrl": "https://fr.wikipedia.org/wiki/Troisi%C3%A8me_guerre_punique"
     }
   ],
-  "sciences": "Leur suprématie est ingénierique, pragmatique et militaire. L'invention du béton de pouzzolane, qui durcit sous l'eau, leur permet de bâtir le dôme du Panthéon et des digues massives. Ils quadrillent l'Europe d'un réseau de plus de 100 000 km de routes empierrées, d'aqueducs pour la salubrité urbaine (thermes), et inventent le Droit romain, base absolue de l'organisation juridique occidentale.",
-  "croyancesText": "Originellement un panthéon civique très influencé par la Grèce (la Triade capitoline : Jupiter, Junon, Minerve), la religion romaine est transactionnelle (do ut des : je donne pour que tu donnes). Le culte devient politique avec la divinisation des empereurs. Face aux crises morales et barbares du IIIe siècle, l'Empire bascule vers le monothéisme, le christianisme devenant la seule religion d'État en 380 (Édit de Thessalonique).",
-  "diplomatie": "La devise romaine 'Divide et impera' (Diviser pour régner) résume leur stratégie. Les peuples soumis se voient offrir divers statuts (socii, citoyenneté partielle, rois-clients) pour éviter toute rébellion coalisée. C'est le rouleau compresseur de la légion manipulaire puis cohorte (réforme de Marius) qui impose la Paix Romaine, financée par un système d'imposition intraitable et la traite d'esclaves massive.",
-  "documentaires": [{ "titre": "Nota Bene : L'armée Romaine", "url": "https://fr.wikipedia.org/wiki/Rome_antique" }]
+  "sciences": "Les Romains excellent dans l’ingénierie. Leur [[beton-romain|béton]], à base de chaux et de cendre volcanique, durcit même sous l’eau et permet de bâtir ports, voûtes et la coupole du Panthéon. Des dizaines de milliers de kilomètres de voies pavées relient les provinces, et des aqueducs alimentent les villes en eau. Sous [[jules-cesar|César]], la réforme du [[calendrier-julien|calendrier]] donne l’ancêtre du nôtre.",
+  "croyancesText": "La religion romaine est d’abord civique : les grands dieux (Jupiter, Junon, Minerve sur le Capitole) protègent la cité en échange de sacrifices, selon un principe d’échange (« je donne pour que tu donnes »). Chaque maison honore aussi ses dieux domestiques. Sous l’Empire s’ajoute le culte de l’empereur. Des cultes venus d’Orient se répandent, dont le christianisme, d’abord persécuté, toléré en 313, puis religion d’État en 380 (édit de Thessalonique).",
+  "diplomatie": "Rome étend son influence autant par les alliances que par la guerre : les peuples soumis reçoivent des statuts différents (alliés, citoyenneté partielle, rois clients), ce qui évite qu’ils s’unissent contre elle. On résume souvent cette politique par la formule « diviser pour régner », qui est en réalité bien plus tardive. L’armée de métier, réformée à la fin de la République, garde ensuite des frontières fortifiées (limes) du Rhin à l’Euphrate.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": {
+      "valeur": "Rome",
+      "precision": "puis Milan (286) et Ravenne (402) pour l’Occident ; Constantinople pour l’Orient (330)"
+    },
+    "regimes": { "valeur": "Royauté, République, Empire", "precision": "voir l’onglet Dirigeants" },
+    "langues": { "valeur": "Latin", "precision": "grec dans la moitié orientale de l’Empire" },
+    "religion": { "valeur": "Polythéisme", "precision": "puis christianisme, religion d’État en 380" },
+    "apogee": { "valeur": "117, sous [[trajan|Trajan]]", "precision": "environ 5 millions de km²" },
+    "population": { "valeur": "50 à 70 millions d’habitants", "precision": "estimations pour le IIe siècle" },
+    "monnaie": { "valeur": "Denier d’argent, sesterce", "precision": "puis le solidus d’or (IVe siècle)" },
+    "duree": { "valeur": "Environ 1 200 ans", "precision": "dont 500 ans d’Empire" },
+    "aujourdhui": {
+      "valeur": "Une quarantaine de pays actuels",
+      "precision": "de l’Angleterre à l’Égypte, du Portugal à la Syrie ; berceau : l’Italie"
+    }
+  },
+  "essentiel": [
+    "Une cité-État du Latium qui, de conquête en conquête, finit par dominer toute la Méditerranée, qu’elle appelle « notre mer » (Mare nostrum).",
+    "Trois régimes se succèdent : la royauté, la République (le Sénat et deux consuls élus chaque année), puis l’Empire fondé par [[auguste|Auguste]] en −27.",
+    "Une armée de métier, des routes et des villes nouvelles unifient un territoire immense : c’est la Pax Romana, deux siècles de paix relative.",
+    "Le latin, le droit et les techniques de construction ([[beton-romain|béton]], aqueducs) marquent durablement l’Europe.",
+    "L’Empire est partagé en 395. L’Occident disparaît en 476 ; l’Orient continue jusqu’en 1453 sous le nom d’[[byzance|Empire byzantin]]."
+  ],
+  "periodes": [
+    {
+      "nom": "La Royauté",
+      "debut": -753,
+      "fin": -509,
+      "resume": "Selon la tradition, Rome est gouvernée par sept rois, dont les trois derniers sont étrusques. La ville s’organise : premiers temples, assèchement du Forum, naissance du Sénat. Ces récits, écrits des siècles plus tard, sont en partie légendaires.",
+      "evenements": [
+        { "annee": -753, "evenement": "Fondation de Rome (selon la tradition)" },
+        { "annee": -509, "evenement": "Expulsion du dernier roi, Tarquin le Superbe" }
+      ]
+    },
+    {
+      "nom": "La République",
+      "debut": -509,
+      "fin": -27,
+      "resume": "Le pouvoir est partagé entre des magistrats élus pour un an, dont deux consuls, et le Sénat. Rome soumet l’Italie, puis bat [[carthage|Carthage]] lors des guerres puniques et s’étend en Grèce, en Espagne et en Gaule. Les conquêtes enrichissent une minorité et ouvrent un siècle de guerres civiles, de Marius et Sylla jusqu’à [[jules-cesar|César]].",
+      "evenements": [
+        { "annee": -264, "evenement": "Début des guerres puniques contre Carthage" },
+        { "annee": -146, "evenement": "Destruction de Carthage et de Corinthe" },
+        { "annee": -49, "evenement": "Passage du Rubicon", "ref": "passage-du-rubicon" },
+        { "annee": -44, "evenement": "Assassinat de César", "ref": "assassinat-de-cesar" },
+        { "annee": -31, "evenement": "Bataille d’Actium : Octave bat Marc Antoine et Cléopâtre" }
+      ]
+    },
+    {
+      "nom": "Le Haut-Empire",
+      "debut": -27,
+      "fin": 235,
+      "resume": "[[auguste|Auguste]] concentre les pouvoirs tout en gardant l’apparence de la République : c’est le Principat. Deux siècles de paix relative (Pax Romana) suivent ; villes, routes et commerce prospèrent. L’Empire atteint sa plus grande étendue sous [[trajan|Trajan]].",
+      "evenements": [
+        { "annee": -27, "evenement": "Octave reçoit le titre d’Auguste" },
+        { "annee": 64, "evenement": "Grand incendie de Rome, sous Néron" },
+        { "annee": 79, "evenement": "Éruption du Vésuve : Pompéi et Herculanum ensevelies" },
+        { "annee": 117, "evenement": "Plus grande étendue de l’Empire, sous Trajan" },
+        { "annee": 212, "evenement": "Édit de Caracalla : citoyenneté pour tous les hommes libres" }
+      ]
+    },
+    {
+      "nom": "La crise du IIIe siècle",
+      "debut": 235,
+      "fin": 284,
+      "resume": "Plus d’une vingtaine d’empereurs, souvent proclamés par leurs soldats, se succèdent en un demi-siècle. Attaques aux frontières, guerre contre les Perses sassanides et dévaluation de la monnaie fragilisent l’Empire, qui se divise un temps en trois.",
+      "evenements": [
+        { "annee": 260, "evenement": "L’empereur Valérien est capturé par les Perses" },
+        { "annee": 271, "evenement": "Aurélien fait entourer Rome d’une nouvelle muraille" }
+      ]
+    },
+    {
+      "nom": "Le Bas-Empire",
+      "debut": 284,
+      "fin": 476,
+      "resume": "Dioclétien réorganise l’administration et partage le pouvoir entre quatre empereurs (la Tétrarchie). [[constantin-ier|Constantin]] se rallie au christianisme et fonde Constantinople. Après le partage de 395, l’Occident, affaibli par les invasions, disparaît en 476.",
+      "evenements": [
+        { "annee": 293, "evenement": "Mise en place de la Tétrarchie" },
+        { "annee": 313, "evenement": "Liberté de culte accordée aux chrétiens (accord de Milan)" },
+        { "annee": 330, "evenement": "Inauguration de Constantinople" },
+        { "annee": 380, "evenement": "Le christianisme devient religion d’État" },
+        { "annee": 395, "evenement": "Partage définitif entre Occident et Orient" },
+        { "annee": 410, "evenement": "Rome pillée par les Wisigoths d’Alaric" },
+        { "annee": 476, "evenement": "Fin de l’Empire d’Occident", "ref": "fin-empire-occident" }
+      ]
+    }
+  ],
+  "regimes": [
+    {
+      "id": "royaute",
+      "nom": "Royauté",
+      "debut": -753,
+      "fin": -509,
+      "note": "Sept rois selon la tradition romaine : leurs règnes sont en partie légendaires."
+    },
+    {
+      "id": "republique",
+      "nom": "République",
+      "debut": -509,
+      "fin": -27,
+      "note": "Pas de chef unique : deux consuls élus chaque année, contrôlés par le Sénat. En cas de crise, un dictateur peut recevoir les pleins pouvoirs pour six mois."
+    },
+    {
+      "id": "empire",
+      "nom": "Empire",
+      "debut": -27,
+      "fin": 476,
+      "note": "Un empereur, parfois plusieurs à la fois (co-empereurs, Tétrarchie). Usurpateurs non reconnus omis."
+    }
+  ],
+  "dynasties": [
+    {
+      "id": "rois",
+      "nom": "Les sept rois",
+      "debut": -753,
+      "fin": -509,
+      "regime": "royaute",
+      "note": "Dates selon la tradition romaine."
+    },
+    {
+      "id": "figures-republique",
+      "nom": "Grandes figures de la République",
+      "debut": -509,
+      "fin": -27,
+      "regime": "republique",
+      "note": "Plutôt qu’une liste de plusieurs centaines de consuls, les hommes qui ont marqué le pouvoir."
+    },
+    { "id": "julio-claudiens", "nom": "Les Julio-Claudiens", "debut": -27, "fin": 68, "regime": "empire" },
+    { "id": "quatre-empereurs", "nom": "L’année des quatre empereurs", "debut": 68, "fin": 69, "regime": "empire" },
+    { "id": "flaviens", "nom": "Les Flaviens", "debut": 69, "fin": 96, "regime": "empire" },
+    { "id": "antonins", "nom": "Les Antonins", "debut": 96, "fin": 192, "regime": "empire" },
+    {
+      "id": "severes",
+      "nom": "Les Sévères",
+      "debut": 193,
+      "fin": 235,
+      "regime": "empire",
+      "note": "Avec Pertinax et Didius Julianus (193), puis Macrin (217-218), qui n’appartiennent pas à la dynastie."
+    },
+    { "id": "crise", "nom": "La crise du IIIe siècle", "debut": 235, "fin": 285, "regime": "empire" },
+    { "id": "tetrarchie", "nom": "La Tétrarchie et les Constantiniens", "debut": 284, "fin": 364, "regime": "empire" },
+    { "id": "valentiniens", "nom": "Les Valentiniens", "debut": 364, "fin": 392, "regime": "empire" },
+    {
+      "id": "theodosiens",
+      "nom": "Les Théodosiens",
+      "debut": 379,
+      "fin": 455,
+      "regime": "empire",
+      "note": "À partir de 395, seuls les empereurs d’Occident sont listés ; ceux d’Orient sont dans la fiche Empire byzantin."
+    },
+    {
+      "id": "derniers-occident",
+      "nom": "Les derniers empereurs d’Occident",
+      "debut": 455,
+      "fin": 476,
+      "regime": "empire"
+    }
+  ],
+  "societe": "La société distingue d’abord les libres des esclaves. Parmi les libres, les citoyens romains (droit de vote, protection en justice) se distinguent des pérégrins, les étrangers libres. Au début de la République, les plébéiens luttent contre les patriciens et obtiennent peu à peu l’égalité politique. La citoyenneté s’étend ensuite à toute l’Italie, puis à tous les hommes libres de l’Empire en 212. Les esclaves, très nombreux, travaillent aux champs, dans les mines et les maisons ; certains sont affranchis.",
+  "economie": "L’agriculture domine : blé, vigne et olivier. Les conquêtes font affluer butin et esclaves vers l’Italie. Sous l’Empire, la Méditerranée pacifiée devient un immense marché : blé d’Égypte et d’Afrique pour nourrir Rome, huile d’Espagne, vin de Gaule. Une même monnaie, le denier, circule d’un bout à l’autre de l’Empire.",
+  "decouvertes": ["calendrier-julien", "beton-romain"],
+  "arts": "Les Romains bâtissent pour durer et pour impressionner : amphithéâtres (le Colisée, inauguré en 80), temples (le Panthéon, reconstruit vers 125), arcs de triomphe, thermes et ponts-aqueducs (le pont du Gard, au Ier siècle). La littérature latine connaît son âge d’or sous Auguste avec Virgile, Horace et Ovide.",
+  "quotidien": "En ville, la plupart des habitants vivent dans des immeubles de location (insulae), les plus riches dans une maison à cour intérieure (domus). Les thermes publics sont un lieu de détente et de rencontre. Courses de chars au Circus Maximus et combats de gladiateurs attirent les foules ; à Rome, l’État distribue du blé aux citoyens pauvres.",
+  "heritage": [
+    {
+      "titre": "Nos langues",
+      "texte": "Le français, l’italien, l’espagnol, le portugais et le roumain viennent du latin."
+    },
+    {
+      "titre": "Notre calendrier",
+      "texte": "Hérité du [[calendrier-julien|calendrier julien]] ; juillet et août doivent leur nom à César et à Auguste."
+    },
+    {
+      "titre": "Nos lois",
+      "texte": "Le droit romain, compilé au VIe siècle sous Justinien, inspire de nombreux codes européens."
+    },
+    { "titre": "Nos villes", "texte": "Lyon, Londres, Cologne ou Mayence sont nées de fondations romaines." }
+  ],
+  "aSavoir": [
+    "Les rois et la date de fondation viennent de la tradition romaine, écrite plusieurs siècles plus tard : ce sont des récits en partie légendaires.",
+    "« Chute de Rome » : beaucoup d’historiens préfèrent parler de transformation du monde romain, car l’Empire d’Orient dure encore près de mille ans."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Rome_antique",
+    { "titre": "Encyclopædia Britannica — Ancient Rome", "url": "https://www.britannica.com/place/ancient-Rome" },
+    { "titre": "World History Encyclopedia — Ancient Rome", "url": "https://www.worldhistory.org/Rome/" }
+  ]
 }

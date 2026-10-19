@@ -151,7 +151,9 @@ for (const epoch of epochs) {
   for (const ct of epoch.continents)
     for (const civ of ct.civilizations) {
       for (const d of civ.datesCles ?? []) ctx.events.push({ civ: civ.id, evenement: stripLinks(d.evenement) })
-      for (const l of civ.dirigeants ?? []) ctx.leaders.push({ civ: civ.id, nom: l.nom, titre: l.titre, surnom: l.surnom })
+      // (même règle que src/lib/quiz.js : les dirigeants « clés » s'il y en a, sinon tous)
+      const leaders = civ.dirigeants?.some((l) => l.cle) ? civ.dirigeants.filter((l) => l.cle) : civ.dirigeants ?? []
+      for (const l of leaders) ctx.leaders.push({ civ: civ.id, nom: l.nom, titre: l.titre, surnom: l.surnom })
       for (const p of civ.personnages ?? []) quizContext.people.push({ civ: civ.id, nom: p.nom, role: p.role })
     }
 }

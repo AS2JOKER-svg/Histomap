@@ -104,7 +104,7 @@ export default {
       kicker: 'Pouvoir',
       title: 'Hatchepsout, la femme pharaon',
       body:
-        "Vers 1478 av. J.-C., Hatchepsout prend le titre de pharaon et se fait représenter avec la barbe postiche royale. Elle envoie une grande expédition commerciale au pays de Pount et fait bâtir son temple à Deir el-Bahari.",
+        "Vers 1473 av. J.-C., Hatchepsout, jusque-là régente, prend le titre de pharaon et se fait représenter avec la barbe postiche royale. Elle envoie une grande expédition commerciale au pays de Pount et fait bâtir son temple à Deir el-Bahari.",
     },
     {
       id: 'amarna',

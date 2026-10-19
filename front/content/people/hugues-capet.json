@@ -1,0 +1,25 @@
+{
+  "id": "hugues-capet",
+  "nom": "Hugues Capet",
+  "role": "Roi des Francs",
+  "roles": ["Roi", "Fondateur de dynastie"],
+  "dates": "vers 940 → 996",
+  "naissance": 940,
+  "mort": 996,
+  "description": "Duc des Francs élu roi en 987 par les grands du royaume, il fonde la dynastie des Capétiens, dont les descendants régneront sur la France pendant des siècles.",
+  "reperes": [
+    { "label": "Règne", "valeur": "987 → 996" },
+    {
+      "label": "Élection",
+      "valeur": "987",
+      "precision": "à Senlis, après la mort du dernier roi carolingien, Louis V"
+    }
+  ],
+  "essentiel": [
+    "Son élection met fin à la dynastie carolingienne.",
+    "Il fait sacrer son fils Robert dès 987 : cette pratique assure la succession héréditaire.",
+    "Son pouvoir réel se limite à un petit domaine autour de Paris et d’Orléans."
+  ],
+  "aSavoir": ["Le surnom « Capet » ne lui est donné qu’après sa mort."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Hugues_Capet"
+}

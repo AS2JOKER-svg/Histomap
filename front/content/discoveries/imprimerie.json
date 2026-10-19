@@ -1,0 +1,28 @@
+{
+  "id": "imprimerie",
+  "nom": "Imprimerie chinoise",
+  "annee": 868,
+  "domaine": "Écriture et livre",
+  "dates": "VIIIe siècle → vers 1040",
+  "description": "L’impression de textes à partir de planches de bois gravées, puis de caractères mobiles : des siècles avant l’Europe, la Chine diffuse livres et textes en grand nombre.",
+  "sections": [
+    {
+      "titre": "Comment ça marche",
+      "texte": "Dans la xylographie, chaque page est sculptée en relief sur une planche de bois, encrée puis pressée sur du papier. Vers 1040, l’artisan Bi Sheng invente des caractères mobiles en argile cuite, que l’on peut assembler puis réutiliser."
+    },
+    {
+      "titre": "Repère",
+      "texte": "Le plus ancien livre imprimé daté qui nous soit parvenu est un Sûtra du Diamant de 868, retrouvé dans les grottes de Dunhuang."
+    }
+  ],
+  "heritage": [
+    {
+      "titre": "En Corée et en Europe",
+      "texte": "La Corée imprime avec des caractères mobiles en métal dès le XIIIe siècle ; Gutenberg met au point sa presse vers 1450, sans lien direct établi avec la Chine."
+    }
+  ],
+  "aSavoir": [
+    "Les caractères mobiles se sont moins imposés en Chine qu’en Europe : l’écriture chinoise compte des milliers de signes, ce qui rend la gravure de planches souvent plus pratique."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Histoire_de_l%27imprimerie"
+}

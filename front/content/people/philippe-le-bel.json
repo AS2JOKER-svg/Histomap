@@ -1,0 +1,28 @@
+{
+  "id": "philippe-le-bel",
+  "nom": "Philippe le Bel",
+  "nomComplet": "Philippe IV",
+  "role": "Roi de France",
+  "roles": ["Roi"],
+  "dates": "1268 → 1314",
+  "naissance": 1268,
+  "mort": 1314,
+  "description": "Roi autoritaire entouré de juristes, il renforce l’État, affronte le pape Boniface VIII et fait arrêter les Templiers.",
+  "reperes": [{ "label": "Règne", "valeur": "1285 → 1314" }],
+  "essentiel": [
+    "Il réunit en 1302 une assemblée des trois ordres, souvent présentée comme les premiers États généraux.",
+    "Son conflit avec le pape culmine avec l’attentat d’Anagni (1303) ; la papauté s’installe ensuite à Avignon.",
+    "Il fait arrêter les Templiers en 1307 ; leur grand maître est brûlé en 1314."
+  ],
+  "chronologie": [
+    { "annee": 1285, "texte": "Devient roi" },
+    { "annee": 1302, "texte": "Assemblée des trois ordres" },
+    { "annee": 1303, "texte": "Attentat d’Anagni contre le pape Boniface VIII" },
+    { "annee": 1307, "texte": "Arrestation des Templiers" },
+    { "annee": 1314, "texte": "Mort" }
+  ],
+  "aSavoir": [
+    "La légende de la « malédiction des Templiers », popularisée par le roman Les Rois maudits, n’a pas de fondement historique."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Philippe_IV_le_Bel"
+}

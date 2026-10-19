@@ -1,0 +1,21 @@
+{
+  "id": "calendrier-egyptien",
+  "nom": "Calendrier égyptien",
+  "annee": -2700,
+  "domaine": "Mesure du temps",
+  "dates": "dès l’Ancien Empire",
+  "description": "Une année de 365 jours : douze mois de trente jours, plus cinq jours ajoutés en fin d’année. Il est l’ancêtre direct de notre calendrier.",
+  "sections": [
+    {
+      "titre": "Comment ça marche",
+      "texte": "L’année compte trois saisons de quatre mois, liées au Nil : l’inondation, la croissance des cultures et la récolte. Sans année bissextile, ce calendrier se décale d’un jour tous les quatre ans par rapport aux saisons."
+    }
+  ],
+  "heritage": [
+    {
+      "titre": "Le calendrier julien",
+      "texte": "Le [[calendrier-julien|calendrier de César]] reprend l’année de 365 jours et ajoute un jour tous les quatre ans pour corriger le décalage."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Calendrier_nilotique"
+}

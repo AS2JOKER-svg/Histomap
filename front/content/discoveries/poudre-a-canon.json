@@ -1,0 +1,25 @@
+{
+  "id": "poudre-a-canon",
+  "nom": "Poudre noire",
+  "annee": 850,
+  "domaine": "Chimie et armement",
+  "dates": "IXe siècle → 1044",
+  "description": "Un mélange de salpêtre, de soufre et de charbon de bois, découvert par des alchimistes chinois qui cherchaient des élixirs, puis utilisé dans des armes.",
+  "sections": [
+    {
+      "titre": "Comment ça marche",
+      "texte": "Le salpêtre fournit l’oxygène qui fait brûler très vite le soufre et le charbon : la combustion produit un grand volume de gaz chauds, capable de propulser une flèche ou de faire exploser un récipient."
+    },
+    {
+      "titre": "Repères",
+      "texte": "Les premières recettes écrites figurent dans un traité militaire de 1044. Les Song l’utilisent pour des flèches incendiaires, des bombes puis des « lances à feu »."
+    }
+  ],
+  "heritage": [
+    {
+      "titre": "Vers le monde",
+      "texte": "La poudre gagne le monde musulman et l’Europe au XIIIe siècle, où elle transforme la guerre avec les canons et les armes à feu."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Poudre_noire"
+}

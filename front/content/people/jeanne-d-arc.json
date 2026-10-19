@@ -1,0 +1,31 @@
+{
+  "id": "jeanne-d-arc",
+  "nom": "Jeanne d’Arc",
+  "role": "Chef de guerre et sainte",
+  "roles": ["Chef de guerre", "Sainte"],
+  "dates": "vers 1412 → 1431",
+  "naissance": 1412,
+  "mort": 1431,
+  "description": "Jeune paysanne de Domrémy convaincue d’être envoyée par Dieu, elle fait lever le siège d’Orléans et conduit Charles VII au sacre de Reims. Capturée, elle est jugée et brûlée à Rouen.",
+  "reperes": [
+    { "label": "Naissance", "valeur": "vers 1412", "precision": "Domrémy, aux confins de la Lorraine" },
+    { "label": "Mort", "valeur": "30 mai 1431", "precision": "Rouen, brûlée vive" }
+  ],
+  "essentiel": [
+    "Elle fait lever le siège d’Orléans en mai 1429.",
+    "Elle conduit Charles VII à Reims, où il est sacré le 17 juillet 1429.",
+    "Capturée à Compiègne, livrée aux Anglais, elle est condamnée pour hérésie par un tribunal d’Église."
+  ],
+  "chronologie": [
+    { "annee": 1429, "texte": "Rencontre Charles VII à Chinon, puis libère Orléans", "ref": "siege-d-orleans" },
+    { "annee": 1429, "texte": "Sacre de Charles VII à Reims" },
+    { "annee": 1430, "texte": "Capturée à Compiègne" },
+    { "annee": 1431, "texte": "Brûlée à Rouen" },
+    { "annee": 1456, "texte": "Procès en réhabilitation : la condamnation est annulée" }
+  ],
+  "aSavoir": [
+    "Elle est canonisée en 1920.",
+    "Les actes de ses deux procès, conservés, font d’elle l’une des personnes du Moyen Âge les mieux connues."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Jeanne_d%27Arc"
+}

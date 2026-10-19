@@ -1,0 +1,16 @@
+{
+  "id": "wang-anshi",
+  "nom": "Wang Anshi",
+  "role": "Ministre réformateur",
+  "roles": ["Chancelier", "Poète"],
+  "dates": "1021 → 1086",
+  "naissance": 1021,
+  "mort": 1086,
+  "description": "Chancelier de l’empereur Shenzong, il lance les « nouvelles lois », de vastes réformes pour soulager les paysans et renforcer les finances de l’État.",
+  "essentiel": [
+    "Prêts d’État aux paysans au moment des semailles, pour les libérer des usuriers.",
+    "Réorganisation de l’impôt, des milices villageoises et des concours.",
+    "Ses réformes divisent profondément la cour : l’historien Sima Guang mène l’opposition."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Wang_Anshi"
+}

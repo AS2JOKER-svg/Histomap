@@ -1,0 +1,22 @@
+{
+  "id": "malinche",
+  "nom": "La Malinche",
+  "nomComplet": "Malintzin, baptisée Doña Marina",
+  "role": "Interprète",
+  "roles": ["Interprète", "Conseillère"],
+  "dates": "vers 1500 → vers 1529",
+  "naissance": 1500,
+  "mort": 1529,
+  "description": "Femme nahua donnée aux Espagnols en 1519, elle parle le nahuatl et le maya, apprend l’espagnol et devient l’interprète indispensable de Cortés.",
+  "essentiel": [
+    "Vendue enfant à des Mayas, elle est offerte aux Espagnols avec d’autres jeunes femmes en 1519.",
+    "Elle traduit les échanges entre Cortés et les souverains autochtones, dont Moctezuma.",
+    "Elle a un fils de Cortés, Martín, souvent présenté comme l’un des premiers métis du Mexique."
+  ],
+  "liens": [{ "ref": "hernan-cortes", "relation": "Elle est son interprète" }],
+  "aSavoir": [
+    "Longtemps vue au Mexique comme une traîtresse (le mot « malinchisme » désigne la préférence pour l’étranger), elle est aujourd’hui souvent réévaluée comme une femme qui a survécu dans une situation imposée.",
+    "Sa date de mort est incertaine."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/La_Malinche"
+}

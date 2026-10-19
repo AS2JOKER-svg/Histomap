@@ -1,0 +1,21 @@
+{
+  "id": "trajan",
+  "nom": "Trajan",
+  "nomComplet": "Marcus Ulpius Traianus",
+  "role": "Empereur romain",
+  "roles": ["Empereur", "Général"],
+  "dates": "53 → 117",
+  "naissance": 53,
+  "mort": 117,
+  "description": "Premier empereur né dans une province (en Espagne), il conquiert la Dacie et porte l’Empire à sa plus grande étendue.",
+  "reperes": [
+    { "label": "Règne", "valeur": "98 → 117" },
+    { "label": "Naissance", "valeur": "53", "precision": "Italica, en Hispanie (près de Séville)" }
+  ],
+  "essentiel": [
+    "Il conquiert la Dacie (actuelle Roumanie), célébrée par la colonne Trajane à Rome.",
+    "Sous son règne, en 117, l’Empire atteint sa plus grande étendue.",
+    "Le Sénat lui donne le titre d’Optimus Princeps, « le meilleur des princes »."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Trajan"
+}

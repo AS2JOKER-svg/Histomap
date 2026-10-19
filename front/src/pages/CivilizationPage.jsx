@@ -169,7 +169,10 @@ function Resume({ civ, epoch, continent, onTab }) {
   const dates = [...(civ.datesCles ?? [])].sort((a, b) => a.annee - b.annee)
   const years = mapYears(civ)
   const siblings = continent.civilizations.filter((c) => c.id !== civ.id)
-  const sources = [...(civ.sources ?? []), ...(civ.documentaires ?? []).map((d) => ({ titre: d.titre, url: d.url }))]
+  // Les anciens « documentaires » pointent tous vers Wikipédia : on les affiche comme tels (titre tiré du lien), sans doublon
+  const sources = [...(civ.sources ?? []), ...(civ.documentaires ?? []).map((d) => d.url)].filter(
+    (src, i, all) => all.findIndex((x) => (x.url ?? x) === (src.url ?? src)) === i
+  )
 
   return (
     <>
@@ -356,6 +359,9 @@ function Dirigeants({ civ }) {
   const groups = dynasties.map((d) => ({ ...d, leaders: leaders.filter((l) => l.dynastie === d.id) })).filter((g) => g.leaders.length || g.note)
   const rest = leaders.filter((l) => !l.dynastie || !dynasties.some((d) => d.id === l.dynastie))
   if (rest.length) groups.push({ id: 'autres', nom: groups.length ? 'Autres dirigeants' : 'Dirigeants', leaders: rest })
+  // Ouvert par défaut : le premier groupe qui contient un dirigeant clé (les autres affichent ces noms en résumé)
+  const firstKey = groups.findIndex((g) => g.leaders.some((l) => l.cle))
+  const opened = groups.length <= 2 ? -1 : firstKey >= 0 ? firstKey : 0
   const start = Math.min(...regimes.map((r) => r.debut), civ.start)
   const end = Math.max(...regimes.map((r) => r.fin), civ.end)
 
@@ -414,14 +420,21 @@ function Dirigeants({ civ }) {
           const from = g.debut ?? Math.min(...g.leaders.map((l) => l.debut))
           const to = g.fin ?? Math.max(...g.leaders.map((l) => l.fin))
           const span = Math.max(to - from, 1)
+          const keyNames = g.leaders.filter((l) => l.cle).map((l) => l.nom)
           return (
-            <details key={g.id} className="group border-b border-line" open={i === 0 || groups.length <= 2}>
+            <details key={g.id} className="group border-b border-line" open={opened === -1 || i === opened}>
               <summary className="list-none flex items-center gap-3 min-h-[60px] py-3 cursor-pointer [&::-webkit-details-marker]:hidden">
                 <span className="flex-1">
                   <span className="block eyebrow tabular-nums">
                     {formatYear(from)} → {formatYear(to)}
                   </span>
                   <span className="block text-base font-semibold text-ink mt-0.5">{g.nom}</span>
+                  {keyNames.length > 0 && (
+                    <span className="block text-[13px] text-muted mt-0.5 group-open:hidden">
+                      dont {keyNames.slice(0, 3).join(', ')}
+                      {keyNames.length > 3 ? '…' : ''}
+                    </span>
+                  )}
                 </span>
                 <span className="chip tabular-nums">{g.leaders.length}</span>
                 <Icon name="chevronRight" className="text-muted transition group-open:rotate-90" />

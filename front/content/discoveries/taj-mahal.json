@@ -1,0 +1,20 @@
+{
+  "id": "taj-mahal",
+  "nom": "Taj Mahal",
+  "annee": 1653,
+  "domaine": "Architecture",
+  "dates": "1632 → 1653",
+  "description": "Un mausolée de marbre blanc, bâti à Agra par [[shah-jahan|Shah Jahan]] pour son épouse Mumtaz Mahal : l’un des monuments les plus célèbres du monde.",
+  "sections": [
+    {
+      "titre": "Comment il a été bâti",
+      "texte": "Environ 20 000 ouvriers et artisans y travaillent. Le marbre blanc est incrusté de pierres semi-précieuses formant des fleurs et des inscriptions du Coran."
+    },
+    {
+      "titre": "Ce qu’il représente",
+      "texte": "Avec ses jardins divisés en quatre et ses canaux, il évoque le paradis tel qu’il est décrit dans le Coran."
+    }
+  ],
+  "aSavoir": ["Shah Jahan est lui-même enterré à côté de son épouse."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Taj_Mahal"
+}

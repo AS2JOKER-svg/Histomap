@@ -1,0 +1,19 @@
+{
+  "id": "janissaires",
+  "nom": "Les janissaires",
+  "annee": 1400,
+  "domaine": "Armée",
+  "dates": "XIVe siècle → 1826",
+  "description": "Le corps d’infanterie d’élite des sultans ottomans, formé de jeunes garçons prélevés dans les familles chrétiennes des Balkans, convertis et entraînés au service du sultan.",
+  "sections": [
+    {
+      "titre": "Comment ils sont recrutés",
+      "texte": "Par le devşirme, des garçons sont choisis, convertis à l’islam et formés pendant des années. Les plus doués deviennent hauts fonctionnaires, les autres janissaires."
+    },
+    {
+      "titre": "Leur évolution",
+      "texte": "Armés de mousquets dès le XVe siècle, ils forment l’une des premières armées permanentes d’Europe. Devenus une puissance politique qui renverse des sultans, ils sont supprimés en 1826."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Janissaire"
+}

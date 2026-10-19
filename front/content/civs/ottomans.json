@@ -10,54 +10,183 @@
   "row": 1,
   "isRiver": false,
   "capitale": "Istanbul (Constantinople)",
-  "description": "Superpuissance islamique turque dominant la Méditerranée, l'Europe de l'Est et l'Afrique du Nord, terrifiant les rois chrétiens par sa redoutable armée de Janissaires.",
+  "description": "L’Empire ottoman des Temps modernes, à cheval sur l’Europe, l’Asie et l’Afrique : une grande puissance musulmane qui atteint son apogée sous Soliman le Magnifique, puis recule face aux Habsbourg et à la Russie.",
   "territories": ["Ottoman Empire"],
   "datesCles": [
     {
       "annee": 1517,
-      "evenement": "Prise de l'Égypte et du Califat",
-      "info": "Selim Ier s'empare du Caire et rapatrie le titre sacré de Calife à Istanbul."
+      "evenement": "Conquête de l’Égypte",
+      "info": "Selim Ier s’empare du Caire et met fin au sultanat mamelouk ; les Ottomans deviennent protecteurs de La Mecque et Médine."
+    },
+    {
+      "annee": 1526,
+      "evenement": "Bataille de Mohács",
+      "info": "Soliman écrase l’armée hongroise ; le roi Louis II est tué.",
+      "ref": "bataille-de-mohacs"
     },
     {
       "annee": 1529,
       "evenement": "Premier siège de Vienne",
-      "info": "L'armée de Soliman fait trembler l'Europe mais doit rebrousser chemin avant l'hiver."
+      "info": "L’armée de Soliman doit rebrousser chemin avant l’hiver.",
+      "ref": "premier-siege-de-vienne"
     },
     {
       "annee": 1571,
       "evenement": "Bataille de Lépante",
-      "info": "La Sainte-Ligue (Sainte-Alliance chrétienne) détruit la flotte ottomane, freinant leur expansion maritime."
+      "info": "La Sainte Ligue détruit la flotte ottomane, qui est reconstruite dès l’année suivante.",
+      "ref": "bataille-de-lepante"
     },
     {
       "annee": 1683,
       "evenement": "Deuxième siège de Vienne",
-      "info": "Défaite décisive face à la Pologne, marquant l'arrêt total des conquêtes territoriales."
+      "info": "L’armée ottomane est battue par une coalition menée par Jean III Sobieski.",
+      "ref": "bataille-de-vienne"
+    },
+    {
+      "annee": 1699,
+      "evenement": "Traité de Karlowitz",
+      "info": "Les Ottomans cèdent la Hongrie aux Habsbourg : c’est leur premier grand recul."
+    },
+    {
+      "annee": 1774,
+      "evenement": "Traité de Küçük Kaynarca",
+      "info": "Vaincu par la Russie, l’empire perd le contrôle de la mer Noire."
     }
   ],
   "dirigeants": [
-    { "titre": "Sultan et Calife", "nom": "Selim Ier", "surnom": "Le Terrible", "debut": 1512, "fin": 1520 },
     {
-      "titre": "Sultan et Calife",
-      "nom": "Soliman",
-      "surnom": "Le Magnifique / Le Législateur",
+      "nom": "Bayezid II",
+      "titre": "Sultan",
+      "debut": 1481,
+      "fin": 1512,
+      "dynastie": "osmanli",
+      "note": "accueille les juifs chassés d’Espagne"
+    },
+    {
+      "nom": "Selim Ier",
+      "titre": "Sultan",
+      "surnom": "Yavuz (« le Redoutable »)",
+      "debut": 1512,
+      "fin": 1520,
+      "dynastie": "osmanli",
+      "note": "conquiert l’Égypte",
+      "cle": true
+    },
+    {
+      "nom": "Soliman Ier",
+      "titre": "Sultan",
+      "surnom": "le Magnifique",
       "debut": 1520,
-      "fin": 1566
+      "fin": 1566,
+      "dynastie": "osmanli",
+      "personne": "soliman-le-magnifique",
+      "note": "appelé « le Législateur » par les Turcs",
+      "cle": true
+    },
+    { "nom": "Selim II", "titre": "Sultan", "debut": 1566, "fin": 1574, "dynastie": "osmanli" },
+    { "nom": "Murad III", "titre": "Sultan", "debut": 1574, "fin": 1595, "dynastie": "osmanli" },
+    { "nom": "Mehmed III", "titre": "Sultan", "debut": 1595, "fin": 1603, "dynastie": "osmanli" },
+    {
+      "nom": "Ahmed Ier",
+      "titre": "Sultan",
+      "debut": 1603,
+      "fin": 1617,
+      "dynastie": "osmanli",
+      "note": "fait bâtir la mosquée Bleue"
+    },
+    {
+      "nom": "Osman II",
+      "titre": "Sultan",
+      "debut": 1618,
+      "fin": 1622,
+      "dynastie": "osmanli",
+      "note": "tué par les janissaires"
+    },
+    {
+      "nom": "Murad IV",
+      "titre": "Sultan",
+      "debut": 1623,
+      "fin": 1640,
+      "dynastie": "osmanli",
+      "note": "reprend Bagdad aux Safavides",
+      "cle": true
+    },
+    { "nom": "Ibrahim Ier", "titre": "Sultan", "debut": 1640, "fin": 1648, "dynastie": "osmanli" },
+    {
+      "nom": "Mehmed IV",
+      "titre": "Sultan",
+      "debut": 1648,
+      "fin": 1687,
+      "dynastie": "osmanli",
+      "note": "règne du siège de Vienne de 1683",
+      "cle": true
+    },
+    {
+      "nom": "Ahmed III",
+      "titre": "Sultan",
+      "debut": 1703,
+      "fin": 1730,
+      "dynastie": "osmanli",
+      "note": "« ère des Tulipes »"
+    },
+    { "nom": "Mahmud Ier", "titre": "Sultan", "debut": 1730, "fin": 1754, "dynastie": "osmanli" },
+    { "nom": "Mustafa III", "titre": "Sultan", "debut": 1757, "fin": 1774, "dynastie": "osmanli" },
+    { "nom": "Abdülhamid Ier", "titre": "Sultan", "debut": 1774, "fin": 1789, "dynastie": "osmanli" },
+    {
+      "nom": "Selim III",
+      "titre": "Sultan",
+      "debut": 1789,
+      "fin": 1807,
+      "dynastie": "osmanli",
+      "note": "tente de moderniser l’armée",
+      "cle": true
     }
   ],
   "personnages": [
     {
+      "nom": "Soliman le Magnifique",
+      "role": "Sultan",
+      "description": "Le plus célèbre des sultans, conquérant, législateur et poète.",
+      "dates": "1494 → 1566",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Soliman_le_Magnifique",
+      "ref": "soliman-le-magnifique"
+    },
+    {
       "nom": "Mimar Sinan",
-      "role": "L'Architecte impérial",
-      "description": "Le Michel-Ange ottoman, ingénieur de génie ayant construit plus de 300 ponts, aqueducs et les sublimes mosquées à grand dôme (Mosquée Bleue, Süleymaniye).",
-      "dates": "1489 à 1588",
-      "wikiUrl": "https://fr.wikipedia.org/wiki/Mimar_Sinan"
+      "role": "Architecte impérial",
+      "description": "Architecte de trois sultans, il construit plus de 300 édifices, dont les mosquées Süleymaniye à Istanbul et Selimiye à Edirne.",
+      "dates": "vers 1490 → 1588",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Mimar_Sinan",
+      "ref": "mimar-sinan"
     },
     {
       "nom": "Roxelane (Hürrem Sultan)",
-      "role": "Sultane (Haseki)",
-      "description": "Esclave ruthène devenue l'épouse légitime et conseillère politique toute puissante de Soliman.",
-      "dates": "≈ 1502 à 1558",
-      "wikiUrl": "https://fr.wikipedia.org/wiki/Roxelane"
+      "role": "Épouse de Soliman",
+      "description": "Esclave venue de Ruthénie, elle devient l’épouse et la conseillère de Soliman.",
+      "dates": "vers 1502 → 1558",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Roxelane",
+      "ref": "roxelane"
+    },
+    {
+      "nom": "Kösem Sultan",
+      "role": "Régente",
+      "description": "Mère de deux sultans, elle gouverne de fait l’empire pendant des décennies au XVIIe siècle.",
+      "dates": "vers 1589 → 1651",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/K%C3%B6sem"
+    },
+    {
+      "nom": "Piri Reis",
+      "role": "Amiral et cartographe",
+      "description": "Auteur d’une célèbre carte du monde (1513) qui montre déjà les côtes de l’Amérique.",
+      "dates": "vers 1470 → 1553",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Piri_Reis"
+    },
+    {
+      "nom": "Evliya Çelebi",
+      "role": "Voyageur et écrivain",
+      "description": "Il parcourt l’empire pendant quarante ans et en décrit les villes et les peuples dans un immense récit de voyage.",
+      "dates": "1611 → vers 1682",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Evliya_%C3%87elebi"
     }
   ],
   "guerres": [
@@ -66,19 +195,138 @@
       "annee": 1526,
       "adversaires": ["Royaume de Hongrie"],
       "allies": [],
-      "morts": "La chevalerie hongroise anéantie",
+      "morts": "Plusieurs milliers de soldats hongrois et le roi Louis II",
       "vainqueur": "Ottomans (Soliman)",
-      "consequences": "Le roi de Hongrie Louis II meurt noyé dans un marécage. La Hongrie est rayée de la carte et absorbée, ouvrant la route vers Vienne.",
+      "consequences": "Le roi Louis II meurt noyé en fuyant. La Hongrie est partagée entre Ottomans et Habsbourg ; la route de Vienne est ouverte.",
       "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Moh%C3%A1cs_(1526)"
+    },
+    {
+      "nom": "Siège de Vienne (1529)",
+      "annee": 1529,
+      "adversaires": ["Monarchie de Habsbourg"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Habsbourg (Vienne résiste)",
+      "consequences": "Soliman lève le siège à l’approche de l’hiver ; Vienne marque la limite de l’avancée ottomane.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Vienne_(1529)"
+    },
+    {
+      "nom": "Bataille de Lépante",
+      "annee": 1571,
+      "adversaires": ["Sainte Ligue (Espagne, Venise, papauté)"],
+      "allies": [],
+      "morts": "Environ 40 000 morts au total, selon les estimations",
+      "vainqueur": "Sainte Ligue",
+      "consequences": "La flotte ottomane est détruite, mais elle est vite reconstruite ; l’Empire ottoman reste maître de la Méditerranée orientale.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_L%C3%A9pante"
+    },
+    {
+      "nom": "Bataille de Vienne",
+      "annee": 1683,
+      "adversaires": ["Coalition chrétienne (Pologne, Saint-Empire, Autriche)"],
+      "allies": [],
+      "morts": "Environ 15 000 à 20 000 morts",
+      "vainqueur": "Coalition chrétienne",
+      "consequences": "Le siège de Vienne est levé ; c’est le début du recul ottoman en Europe centrale.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Vienne_(1683)"
     }
   ],
-  "sciences": "Leur génie est poliorcétique et balistique : ils industrialisent la fonte d'immenses canons de siège ('Les Basilics') capables d'abattre les murailles médiévales. Sur le plan institutionnel, Soliman rédige le 'Kanun' (le code de droit séculier) modernisant l'administration fiscale et pénale en parallèle de la Sharia religieuse.",
-  "croyancesText": "Bastion de l'Islam sunnite, l'Empire est d'une très grande diversité. Pour gouverner chrétiens des Balkans et juifs, ils officialisent le 'Système des Millets' : chaque communauté religieuse gère son propre droit civil, ses écoles et son clergé, en échange d'un impôt de capitation (Jizya). La Cour de Topkapi est elle-même un creuset ethnique, la plupart des mères de sultans et des Grands Vizirs étant d'origine européenne balkanique (convertis).",
-  "diplomatie": "Leur outil de pouvoir absolu est le 'Devşirme' (le ramassage) : des enfants chrétiens des Balkans sont arrachés à leur famille, islamisés, et éduqués dans l'ascèse totale pour devenir soit de hauts fonctionnaires fidèles, soit les 'Janissaires' (l'infanterie d'élite au mousquet, l'armée la plus disciplinée d'Europe). Sur le plan international, la France de François Ier est leur grand allié stratégique contre les Habsbourg.",
-  "documentaires": [
+  "sciences": "L’armée ottomane maîtrise tôt l’artillerie : fonderies d’Istanbul, grands canons de siège, corps d’artilleurs. Soliman fait rassembler les lois du sultan (kanun) qui complètent la loi religieuse. Les architectes, comme Sinan, perfectionnent les mosquées à grande coupole. Piri Reis dessine des cartes marines réputées, et l’observatoire de Taqi al-Din à Istanbul (1577) mène des observations astronomiques.",
+  "croyancesText": "L’empire défend l’islam sunnite, et les sultans se présentent comme califes, surtout à partir du XVIIIe siècle. Chrétiens orthodoxes, arméniens et juifs gardent leur religion, leurs chefs religieux, leurs tribunaux pour les affaires familiales et leurs écoles, en payant un impôt spécial : c’est le système qu’on appellera plus tard des « millets ». L’empire accueille les juifs chassés d’Espagne en 1492.",
+  "diplomatie": "Pour recruter les janissaires et les hauts fonctionnaires, l’État prélève de jeunes garçons chrétiens des Balkans (le devşirme), convertis à l’islam et formés au service du sultan. Beaucoup de mères de sultans et de grands vizirs sont d’origine chrétienne ou étrangère. La France de François Ier devient l’alliée des Ottomans contre les Habsbourg.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": { "valeur": "Istanbul", "precision": "l’ancienne Constantinople, prise en 1453" },
+    "regimes": { "valeur": "Sultanat", "precision": "le sultan, aussi calife, gouverne avec le grand vizir et le Divan" },
+    "langues": {
+      "valeur": "Turc ottoman",
+      "precision": "écrit en caractères arabes ; arabe, persan, grec, slave, arménien dans l’empire"
+    },
+    "religion": {
+      "valeur": "Islam sunnite",
+      "precision": "avec de grandes communautés chrétiennes et juives, organisées par confession"
+    },
+    "apogee": { "valeur": "XVIe siècle", "precision": "sous Soliman le Magnifique" },
+    "population": { "valeur": "Environ 20 à 30 millions", "precision": "au XVIe siècle (estimation)" },
+    "monnaie": { "valeur": "Akçe d’argent, puis piastre (kuruş)" },
+    "duree": { "valeur": "Environ 300 ans dans cette fiche", "precision": "l’empire existe de vers 1300 à 1922" },
+    "aujourdhui": {
+      "valeur": "De l’Algérie à l’Irak",
+      "precision": "Turquie, Balkans, Hongrie, Proche-Orient, Égypte, Afrique du Nord, côtes de l’Arabie"
+    }
+  },
+  "essentiel": [
+    "Selim Ier conquiert la Syrie, l’Égypte et les villes saintes de La Mecque et Médine (1516-1517).",
+    "[[soliman-le-magnifique|Soliman le Magnifique]] bat la Hongrie à [[bataille-de-mohacs|Mohács]], assiège [[premier-siege-de-vienne|Vienne]] en 1529 et fait rédiger des lois pour tout l’empire.",
+    "L’armée repose sur les [[janissaires|janissaires]], et la cour d’Istanbul se couvre de monuments, comme la [[mosquee-suleymaniye|Süleymaniye]] de l’architecte [[mimar-sinan|Sinan]].",
+    "Les femmes du palais, comme [[roxelane|Roxelane]] puis Kösem, jouent un grand rôle politique.",
+    "L’échec devant [[bataille-de-vienne|Vienne]] en 1683 ouvre un long recul face aux Habsbourg et à la Russie."
+  ],
+  "periodes": [
     {
-      "titre": "Soliman le Magnifique, le sultan qui fit trembler l'Europe",
-      "url": "https://fr.wikipedia.org/wiki/Soliman_le_Magnifique"
+      "nom": "Les grandes conquêtes",
+      "debut": 1492,
+      "fin": 1566,
+      "resume": "Selim Ier conquiert le Proche-Orient et l’Égypte ; Soliman soumet la Hongrie, Bagdad et domine la Méditerranée.",
+      "evenements": [
+        { "annee": 1517, "evenement": "Conquête de l’Égypte" },
+        { "annee": 1526, "evenement": "Mohács", "ref": "bataille-de-mohacs" },
+        { "annee": 1529, "evenement": "Premier siège de Vienne", "ref": "premier-siege-de-vienne" },
+        { "annee": 1538, "evenement": "Victoire navale de Préveza" }
+      ]
+    },
+    {
+      "nom": "Un empire stable",
+      "debut": 1566,
+      "fin": 1683,
+      "resume": "Les sultans gouvernent depuis le palais de Topkapı ; les grands vizirs et les femmes du harem ont un grand pouvoir. L’empire prend encore Chypre et la Crète.",
+      "evenements": [
+        { "annee": 1571, "evenement": "Lépante", "ref": "bataille-de-lepante" },
+        { "annee": 1616, "evenement": "Achèvement de la mosquée Bleue" },
+        { "annee": 1669, "evenement": "Conquête de la Crète" }
+      ]
+    },
+    {
+      "nom": "Le recul",
+      "debut": 1683,
+      "fin": 1789,
+      "resume": "Après Vienne, les Ottomans perdent la Hongrie, puis le nord de la mer Noire face à la Russie. L’« ère des Tulipes » ouvre l’empire aux modes européennes.",
+      "evenements": [
+        { "annee": 1683, "evenement": "Échec devant Vienne", "ref": "bataille-de-vienne" },
+        { "annee": 1699, "evenement": "Traité de Karlowitz" },
+        { "annee": 1727, "evenement": "Première imprimerie en caractères arabes à Istanbul" }
+      ]
+    }
+  ],
+  "dynasties": [
+    {
+      "id": "osmanli",
+      "nom": "Les sultans ottomans",
+      "debut": 1481,
+      "fin": 1807,
+      "note": "Sélection des sultans de la période."
+    }
+  ],
+  "societe": "Le sultan gouverne avec des serviteurs d’origine servile, très puissants, et une administration qui recense les terres et les impôts. Paysans, artisans organisés en corporations et marchands forment une société très diverse, de Belgrade à Bagdad.",
+  "economie": "Agriculture, impôts des provinces, commerce des épices, de la soie et du café, contrôle des grandes routes entre l’Europe et l’Asie.",
+  "decouvertes": ["mosquee-suleymaniye", "janissaires"],
+  "arts": "Mosquées de Sinan, mosquée Bleue, palais de Topkapı, céramiques d’Iznik, calligraphie, miniatures, musique de cour.",
+  "quotidien": "Les cafés, apparus à Istanbul au XVIe siècle, deviennent des lieux de discussion ; les hammams et les bazars animent les villes.",
+  "heritage": [
+    {
+      "titre": "Istanbul",
+      "texte": "Ses mosquées, son palais de Topkapı et ses bazars, hérités des Ottomans, sont inscrits au patrimoine mondial."
+    },
+    { "titre": "Le café", "texte": "La mode du café gagne l’Europe à partir de l’Empire ottoman au XVIIe siècle." }
+  ],
+  "aSavoir": [
+    "L’idée selon laquelle Selim Ier aurait reçu le titre de calife au Caire en 1517 a été popularisée au XVIIIe siècle ; les historiens la jugent douteuse."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Empire_ottoman",
+    {
+      "titre": "Encyclopædia Britannica — Ottoman Empire",
+      "url": "https://www.britannica.com/place/Ottoman-Empire"
     }
   ]
 }

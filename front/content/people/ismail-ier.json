@@ -1,0 +1,17 @@
+{
+  "id": "ismail-ier",
+  "nom": "Ismaïl Ier",
+  "role": "Fondateur de l’empire safavide",
+  "roles": ["Chah", "Poète"],
+  "dates": "1487 → 1524",
+  "naissance": 1487,
+  "mort": 1524,
+  "description": "Chef d’un ordre religieux devenu chah à 14 ans, il unifie l’Iran et impose le chiisme comme religion d’État.",
+  "essentiel": [
+    "Ses partisans, les Qizilbash, le vénèrent comme un guide presque divin.",
+    "Il prend Tabriz en 1501 et conquiert tout l’Iran en dix ans.",
+    "Battu à [[bataille-de-tchaldiran|Tchaldiran]] (1514), il ne commande plus jamais lui-même son armée.",
+    "Il écrit des poèmes en turc azéri sous le nom de Khatai."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Ismail_Ier"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "babur",
+  "nom": "Babur",
+  "nomComplet": "Zahir ud-Din Muhammad Babur",
+  "role": "Fondateur de l’empire moghol",
+  "roles": ["Empereur", "Écrivain"],
+  "dates": "1483 → 1530",
+  "naissance": 1483,
+  "mort": 1530,
+  "description": "Prince d’Asie centrale, descendant de Tamerlan et de Gengis Khan, chassé de son royaume de Ferghana, il conquiert le nord de l’Inde et fonde l’empire moghol.",
+  "essentiel": [
+    "Il tente plusieurs fois de prendre Samarcande, sans succès durable.",
+    "Il bat le sultan de Delhi à la [[premiere-bataille-de-panipat|bataille de Panipat]] (1526).",
+    "Il écrit en turc ses mémoires, le Baburnama, l’une des premières autobiographies de souverain."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Babur"
+}

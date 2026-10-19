@@ -1,0 +1,25 @@
+{
+  "id": "soliman-le-magnifique",
+  "nom": "Soliman le Magnifique",
+  "nomComplet": "Soliman Ier",
+  "role": "Sultan ottoman",
+  "roles": ["Sultan", "Législateur", "Poète"],
+  "dates": "1494 → 1566",
+  "naissance": 1494,
+  "mort": 1566,
+  "description": "Sultan pendant 46 ans, il porte l’Empire ottoman à son apogée : conquêtes en Europe et au Proche-Orient, lois pour tout l’empire et grands monuments.",
+  "reperes": [{ "label": "Règne", "valeur": "1520 → 1566" }],
+  "essentiel": [
+    "Il prend Belgrade, Rhodes, puis bat les Hongrois à [[bataille-de-mohacs|Mohács]] (1526).",
+    "Il assiège [[premier-siege-de-vienne|Vienne]] en 1529 sans succès.",
+    "Les Turcs le surnomment « le Législateur » pour ses lois.",
+    "Il épouse son ancienne esclave [[roxelane|Roxelane]] et fait bâtir la [[mosquee-suleymaniye|Süleymaniye]].",
+    "Il écrit des poèmes sous le nom de Muhibbi."
+  ],
+  "liens": [
+    { "ref": "roxelane", "relation": "Son épouse" },
+    { "ref": "mimar-sinan", "relation": "Son architecte" },
+    { "ref": "francois-ier", "relation": "Son allié contre les Habsbourg" }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Soliman_le_Magnifique"
+}

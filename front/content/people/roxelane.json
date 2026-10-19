@@ -1,0 +1,17 @@
+{
+  "id": "roxelane",
+  "nom": "Roxelane",
+  "nomComplet": "Hürrem Sultan",
+  "role": "Épouse de Soliman le Magnifique",
+  "roles": ["Sultane", "Conseillère"],
+  "dates": "vers 1502 → 1558",
+  "naissance": 1502,
+  "mort": 1558,
+  "description": "Capturée en Ruthénie (Ukraine actuelle) et vendue comme esclave, elle devient l’épouse légitime de Soliman, une conseillère influente et la mère du sultan Selim II.",
+  "essentiel": [
+    "Soliman l’affranchit et l’épouse, ce qui est contraire aux usages.",
+    "Elle correspond avec des souverains étrangers et finance des œuvres de charité.",
+    "Ses ennemis l’accusent d’avoir poussé Soliman à faire exécuter son fils aîné, Mustafa."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Roxelane"
+}

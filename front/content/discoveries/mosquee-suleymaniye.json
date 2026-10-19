@@ -1,0 +1,16 @@
+{
+  "id": "mosquee-suleymaniye",
+  "nom": "Mosquée Süleymaniye",
+  "annee": 1557,
+  "domaine": "Architecture",
+  "dates": "1550 → 1557",
+  "description": "La grande mosquée bâtie par [[mimar-sinan|Sinan]] pour [[soliman-le-magnifique|Soliman]] sur une colline d’Istanbul, entourée d’écoles, d’un hôpital, de bains et de cuisines pour les pauvres.",
+  "sections": [
+    {
+      "titre": "Comment elle est bâtie",
+      "texte": "Sa coupole de 53 mètres de haut repose sur quatre énormes piliers. Sinan soigne l’éclairage et l’acoustique de la salle de prière."
+    }
+  ],
+  "aSavoir": ["Soliman et Roxelane sont enterrés dans des mausolées à côté de la mosquée."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Mosqu%C3%A9e_S%C3%BCleymaniye"
+}

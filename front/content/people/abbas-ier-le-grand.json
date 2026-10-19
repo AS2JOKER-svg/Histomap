@@ -1,0 +1,19 @@
+{
+  "id": "abbas-ier-le-grand",
+  "nom": "Abbas le Grand",
+  "nomComplet": "Abbas Ier",
+  "role": "Chah d’Iran",
+  "roles": ["Chah", "Bâtisseur"],
+  "dates": "1571 → 1629",
+  "naissance": 1571,
+  "mort": 1629,
+  "description": "Le plus grand chah safavide : il réorganise l’armée, reprend des territoires aux Ottomans et aux Ouzbeks et fait d’Ispahan une capitale splendide.",
+  "reperes": [{ "label": "Règne", "valeur": "1588 → 1629" }],
+  "essentiel": [
+    "Il crée une armée permanente, équipée d’armes à feu.",
+    "Il installe sa capitale à Ispahan et fait aménager la [[place-naqsh-e-jahan|place Naqsh-e Jahan]].",
+    "Il prend Ormuz aux Portugais en 1622, avec l’aide d’une flotte anglaise.",
+    "Méfiant, il fait tuer ou aveugler plusieurs de ses fils."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Abbas_Ier_le_Grand"
+}

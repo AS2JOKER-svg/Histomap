@@ -1,0 +1,19 @@
+{
+  "id": "premiere-bataille-de-panipat",
+  "nom": "Première bataille de Panipat",
+  "annee": 1526,
+  "dates": "21 avril 1526",
+  "lieu": "Panipat, au nord de Delhi",
+  "description": "[[babur|Babur]], avec une petite armée équipée de canons et de mousquets, bat l’armée bien plus nombreuse du sultan de Delhi, Ibrahim Lodi.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Babur protège son centre par des chariots attachés, derrière lesquels tirent canons et mousquets ; ses cavaliers encerclent l’ennemi. Les éléphants du sultan, effrayés par les détonations, sèment le désordre."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Ibrahim Lodi est tué. Babur prend Delhi et Agra et fonde l’empire moghol."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Premi%C3%A8re_bataille_de_Panipat"
+}

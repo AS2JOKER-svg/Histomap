@@ -33,7 +33,8 @@
     {
       "annee": -1274,
       "evenement": "Bataille de Qadesh",
-      "info": "[[ramses-ii|Ramsès II]] affronte les Hittites en Syrie ; aucun des deux camps ne l’emporte vraiment."
+      "info": "[[ramses-ii|Ramsès II]] affronte les Hittites en Syrie ; aucun des deux camps ne l’emporte vraiment.",
+      "ref": "bataille-de-qadesh"
     },
     {
       "annee": -332,
@@ -529,7 +530,7 @@
       "evenements": [
         { "annee": -1550, "evenement": "Ahmôsis Ier chasse les Hyksos" },
         { "annee": -1352, "evenement": "Akhénaton impose le culte d’Aton" },
-        { "annee": -1274, "evenement": "Bataille de Qadesh contre les Hittites" },
+        { "annee": -1274, "evenement": "Bataille de Qadesh contre les Hittites", "ref": "bataille-de-qadesh" },
         { "annee": -1259, "evenement": "Traité de paix avec les Hittites" }
       ]
     },

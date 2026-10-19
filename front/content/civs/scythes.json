@@ -11,44 +11,169 @@
   "row": 7,
   "isRiver": false,
   "capitale": "Campements nomades",
-  "description": "Insaisissables seigneurs des steppes eurasiatiques, parmi les premiers maîtres de la cavalerie légère tirant à l'arc, qui mirent à genoux l'armée de l'Empire Perse.",
+  "description": "Peuples de cavaliers nomades des steppes, au nord de la mer Noire, archers redoutables et maîtres d’un art animalier en or, qui tiennent tête aux Perses.",
   "territories": ["Scythians", "Proto-Scythian culture"],
   "datesCles": [
     {
+      "annee": -650,
+      "evenement": "Raids au Proche-Orient",
+      "info": "Selon Hérodote, les Scythes dominent la Médie pendant 28 ans et poussent jusqu’aux portes de l’Égypte."
+    },
+    {
       "annee": -513,
-      "evenement": "L'invasion de Darius",
-      "info": "Darius Ier (Perse) tente de les soumettre mais s'épuise dans les steppes."
+      "evenement": "L’invasion de Darius",
+      "info": "Darius Ier franchit le Danube ; les Scythes reculent en comblant les puits et l’obligent à faire demi-tour."
     },
     {
       "annee": -339,
       "evenement": "Défaite face à Philippe II",
-      "info": "L'armée macédonienne (père d'Alexandre) bat le roi Ateas, amorçant le déclin scythe."
+      "info": "Le roi Ateas, âgé de plus de 90 ans selon les sources, meurt en combattant les Macédoniens."
+    },
+    {
+      "annee": -300,
+      "evenement": "Recul face aux Sarmates",
+      "info": "D’autres nomades, les Sarmates, prennent le contrôle des steppes ; les Scythes se replient en Crimée."
     }
   ],
   "dirigeants": [
     {
-      "titre": "Roi scythe",
+      "nom": "Madyès",
+      "titre": "Roi",
+      "debut": -650,
+      "fin": -625,
+      "dynastie": "rois",
+      "note": "domine la Médie selon Hérodote"
+    },
+    {
+      "nom": "Idanthyrse",
+      "titre": "Roi",
+      "debut": -513,
+      "fin": -513,
+      "dynastie": "rois",
+      "note": "résiste à Darius Ier",
+      "cle": true
+    },
+    {
+      "nom": "Scylès",
+      "titre": "Roi",
+      "debut": -460,
+      "fin": -450,
+      "dynastie": "rois",
+      "note": "tué pour avoir adopté les coutumes grecques"
+    },
+    {
       "nom": "Ateas",
-      "surnom": "Dates de vie approximatives (vers -429 à -339), règne mal connu",
-      "debut": -429,
-      "fin": -339
+      "titre": "Roi",
+      "debut": -360,
+      "fin": -339,
+      "dynastie": "rois",
+      "note": "unifie les Scythes ; meurt face à Philippe II",
+      "cle": true
     }
   ],
-  "personnages": [],
+  "personnages": [
+    {
+      "nom": "Ateas",
+      "role": "Roi",
+      "description": "Roi qui unifie une grande partie des Scythes et frappe monnaie, avant de mourir au combat contre Philippe II de Macédoine.",
+      "dates": "mort en −339",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Ateas"
+    },
+    {
+      "nom": "Anacharsis",
+      "role": "Prince et sage",
+      "description": "Prince scythe qui voyage en Grèce au VIe siècle av. J.-C. ; les Grecs le comptent parfois parmi les Sept Sages.",
+      "dates": "VIe siècle av. J.-C.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Anacharsis"
+    }
+  ],
   "guerres": [
     {
       "nom": "Campagne perse contre les Scythes",
       "annee": -513,
       "adversaires": ["Empire Achéménide (Darius Ier)"],
       "allies": [],
-      "morts": "Armée perse décimée par la famine",
-      "vainqueur": "Scythes",
-      "consequences": "Humiliation diplomatique de l'Empire Perse qui abandonne la conquête des steppes nordiques.",
+      "morts": "Inconnues",
+      "vainqueur": "Les Scythes (Darius se retire)",
+      "consequences": "Darius Ier renonce à soumettre les steppes, mais garde la Thrace, conquise au passage.",
       "wikiUrl": "https://fr.wikipedia.org/wiki/Scythes"
     }
   ],
-  "sciences": "Leur innovation technologique bouleverse l'histoire militaire : l'arc scythe (petit, symétrique, composite de bois, corne et tendon) permet de tirer à très grande vitesse depuis le dos d'un cheval lancé au galop. Ils sont aussi parmi les premiers à porter le pantalon, indispensable pour monter à cheval.",
-  "croyancesText": "Le chamanisme nomade règne. Ils scellent des serments de sang, consomment du cannabis sous des tentes pour entrer en transe purificatrice. La mort des élites (les Kourganes) est accompagnée de sacrifices colossaux d'hommes (serviteurs) et de centaines de chevaux, enterrés sous de gigantesques tumulus de terre avec des parures en or d'art animalier.",
-  "diplomatie": "Ce peuple ne possède ni villes, ni temples de pierre, ni champs cultivés, ce qui les rend invincibles. Leur tactique stratégique est la 'terre brûlée' : face à une armée impériale lourde (comme les Perses), ils reculent à l'infini dans les steppes, empoisonnent les puits et harcèlent l'ennemi de nuit jusqu'à la mutinerie des troupes adverses.",
-  "documentaires": [{ "titre": "L'or et les flèches : Les Scythes", "url": "https://fr.wikipedia.org/wiki/Scythes" }]
+  "sciences": "Les Scythes sont des cavaliers exceptionnels. Leur arc composite, court et puissant, fait de bois, de corne et de tendons, permet de tirer en pleine course. Comme les autres cavaliers des steppes, ils portent des pantalons, bien adaptés à l’équitation. Leurs orfèvres, souvent aidés d’artisans grecs, créent des objets en or d’une grande finesse.",
+  "croyancesText": "Selon Hérodote, les Scythes honorent la déesse du foyer Tabiti et un dieu de la guerre représenté par une épée plantée sur un tas de fagots. Ils respirent la fumée de graines de chanvre dans de petites tentes, ce que l’archéologie a confirmé. Leurs rois sont enterrés sous des kourganes, avec des chevaux sacrifiés et parfois des serviteurs.",
+  "diplomatie": "Sans villes ni champs à défendre, les Scythes peuvent reculer devant un ennemi trop puissant, comme Darius Ier, en le harcelant et en ne laissant rien derrière eux. Ils échangent avec les colonies grecques de la mer Noire du blé, des esclaves et des peaux contre du vin, de l’huile et des objets de luxe.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": { "valeur": "Aucune", "precision": "nomades ; plus tard, Néapolis scythe en Crimée" },
+    "regimes": { "valeur": "Royauté nomade", "precision": "des rois à la tête de tribus, selon Hérodote" },
+    "langues": { "valeur": "Scythe", "precision": "langue iranienne, sans écriture ; connue par des noms propres" },
+    "religion": {
+      "valeur": "Polythéisme",
+      "precision": "déesse du foyer Tabiti, dieu de la guerre honoré par une épée plantée en terre"
+    },
+    "apogee": { "valeur": "VIIe-IVe siècles av. J.-C." },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": { "valeur": "Aucune au début", "precision": "le roi Ateas frappe des monnaies au IVe siècle av. J.-C." },
+    "duree": { "valeur": "Environ 500 ans", "precision": "des royaumes scythes survivent en Crimée jusqu’au IIIe siècle" },
+    "aujourdhui": { "valeur": "Ukraine et sud de la Russie", "precision": "steppes au nord de la mer Noire" }
+  },
+  "essentiel": [
+    "Les Scythes sont des nomades qui vivent à cheval, avec leurs troupeaux, dans les steppes au nord de la mer Noire.",
+    "Archers redoutables, ils lancent au VIIe siècle av. J.-C. des raids jusqu’au Proche-Orient.",
+    "Vers −513, le roi perse [[darius-ier|Darius Ier]] les attaque, mais ils reculent sans livrer bataille et l’obligent à rentrer.",
+    "Leurs chefs sont enterrés sous d’immenses tumulus (kourganes) avec chevaux, serviteurs et objets en or.",
+    "Vaincus par Philippe II de Macédoine en −339, puis repoussés par les Sarmates, ils se replient en Crimée."
+  ],
+  "periodes": [
+    {
+      "nom": "L’arrivée dans les steppes de la mer Noire",
+      "debut": -800,
+      "fin": -600,
+      "resume": "Venus des steppes d’Asie, les Scythes s’installent au nord de la mer Noire et lancent des raids vers le Caucase et le Proche-Orient."
+    },
+    {
+      "nom": "L’apogée",
+      "debut": -600,
+      "fin": -339,
+      "resume": "Les rois scythes commercent avec les colonies grecques de la mer Noire, résistent aux Perses et se font enterrer dans des kourganes remplis d’or.",
+      "evenements": [{ "annee": -513, "evenement": "Échec de Darius Ier" }, { "annee": -339, "evenement": "Mort d’Ateas" }]
+    },
+    {
+      "nom": "Le repli",
+      "debut": -339,
+      "fin": -300,
+      "resume": "Affaiblis, les Scythes cèdent la steppe aux Sarmates et se maintiennent en Crimée pendant encore plusieurs siècles."
+    }
+  ],
+  "dynasties": [
+    {
+      "id": "rois",
+      "nom": "Rois scythes connus",
+      "debut": -650,
+      "fin": -339,
+      "note": "Connus surtout par Hérodote ; dates approximatives."
+    }
+  ],
+  "societe": "Une aristocratie guerrière domine les tribus. Hérodote décrit des Scythes « royaux », qui considèrent les autres comme leurs sujets, et des Scythes agriculteurs, sédentaires. Des tombes de femmes enterrées avec des armes montrent que certaines combattaient.",
+  "economie": "Élevage nomade (chevaux, moutons, bovins), commerce du blé produit par les peuples agriculteurs de la région avec les cités grecques, butin des raids.",
+  "decouvertes": ["pectoral-de-tolstaia-mohyla"],
+  "arts": "L’« art animalier » des steppes représente cerfs, félins et griffons, souvent enroulés ou en combat, sur des plaques d’or, des fourreaux d’épée et des harnais.",
+  "quotidien": "Les familles vivent dans des chariots couverts de feutre, tirés par des bœufs, et se déplacent avec leurs troupeaux. Elles se nourrissent de viande et de lait de jument.",
+  "heritage": [
+    {
+      "titre": "L’or des Scythes",
+      "texte": "Les trésors des kourganes sont exposés à l’Ermitage de Saint-Pétersbourg et dans les musées d’Ukraine."
+    },
+    {
+      "titre": "Les Amazones",
+      "texte": "Les tombes de guerrières des steppes ont peut-être inspiré aux Grecs la légende des Amazones."
+    }
+  ],
+  "aSavoir": [
+    "Une grande partie de ce que l’on sait des Scythes vient du livre IV des Histoires d’Hérodote, qui a visité la région de la mer Noire au Ve siècle av. J.-C."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Scythes",
+    { "titre": "Encyclopædia Britannica — Scythian", "url": "https://www.britannica.com/topic/Scythian" }
+  ]
 }

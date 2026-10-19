@@ -1,0 +1,21 @@
+{
+  "id": "sargon-d-akkad",
+  "nom": "Sargon d’Akkad",
+  "role": "Roi d’Akkad",
+  "roles": ["Roi", "Conquérant"],
+  "dates": "règne vers −2334 → −2279",
+  "mort": -2279,
+  "description": "Fondateur de l’empire d’Akkad, il soumet les cités de Sumer et étend son pouvoir du golfe Persique à la Méditerranée : on le considère souvent comme le premier bâtisseur d’empire.",
+  "reperes": [
+    { "label": "Règne", "valeur": "vers −2334 → −2279", "precision": "dates de la chronologie moyenne, incertaines" },
+    { "label": "Capitale", "valeur": "Akkad", "precision": "ville dont on n’a toujours pas retrouvé l’emplacement" }
+  ],
+  "essentiel": [
+    "D’origine modeste, il aurait été échanson du roi de Kish avant de prendre le pouvoir.",
+    "Il bat Lugal-zagesi d’Ourouk et réunit toutes les cités de Sumer.",
+    "Il impose l’akkadien, une langue sémitique, comme langue de l’administration.",
+    "Sa fille Enheduanna est le plus ancien auteur connu par son nom."
+  ],
+  "aSavoir": ["Une légende raconte que, bébé, il fut déposé dans un panier sur l’Euphrate, comme Moïse sur le Nil."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Sargon_d%27Akkad"
+}

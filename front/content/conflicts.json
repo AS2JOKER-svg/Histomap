@@ -332,5 +332,9 @@
   "Guerres cantabres": {
     "coords": [-4.05, 43.15],
     "lieu": "Cantabrie"
+  },
+  "Chute de l’Empire assyrien": {
+    "coords": [43.15, 36.36],
+    "lieu": "Ninive"
   }
 }

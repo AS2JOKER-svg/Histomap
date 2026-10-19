@@ -11,44 +11,230 @@
   "row": 3,
   "isRiver": false,
   "capitale": "Hattusa",
-  "description": "Géant militarisé du plateau anatolien (Turquie actuelle), pionnier de la métallurgie du fer et grand rival diplomatique de l'Égypte pharaonique.",
+  "description": "Puissant royaume d’Anatolie, rival de l’Égypte et de l’Assyrie, dont la capitale Hattusa domine le plateau de l’actuelle Turquie, jusqu’à l’effondrement de l’âge du bronze.",
   "territories": ["Hittites"],
   "datesCles": [
+    { "annee": -1650, "evenement": "Fondation du royaume", "info": "Hattusili Ier fait de Hattusa sa capitale." },
     {
       "annee": -1595,
       "evenement": "Pillage de Babylone",
-      "info": "Le roi Mursili Ier mène un raid éclair à 2000 km de sa base, détruisant la dynastie de Hammurabi."
+      "info": "Le roi Mursili Ier mène un raid lointain et met fin à la dynastie d’Hammurabi."
+    },
+    {
+      "annee": -1350,
+      "evenement": "Règne de Suppiluliuma Ier",
+      "info": "Le royaume devient un empire qui domine l’Anatolie et le nord de la Syrie."
     },
     {
       "annee": -1274,
       "evenement": "Bataille de Qadesh",
-      "info": "Choc de titans contre l'Égypte de Ramsès II pour le contrôle de la Syrie."
+      "info": "Les Hittites affrontent l’armée de Ramsès II pour le contrôle de la Syrie.",
+      "ref": "bataille-de-qadesh"
+    },
+    {
+      "annee": -1259,
+      "evenement": "Traité de paix avec l’Égypte",
+      "info": "Hattusili III et Ramsès II signent l’un des plus anciens traités de paix connus.",
+      "ref": "traite-de-qadesh"
     },
     {
       "annee": -1178,
-      "evenement": "Effondrement brutal",
-      "info": "Invasion mystérieuse (Peuples de la mer) et famines, Hattusa est abandonnée."
+      "evenement": "Effondrement",
+      "info": "Dans une crise générale (sécheresses, famines, révoltes, invasions des « Peuples de la mer »), Hattusa est abandonnée."
     }
   ],
   "dirigeants": [
-    { "titre": "Grand Roi (Labarna)", "nom": "Hattushili III", "debut": -1267, "fin": -1237 },
-    { "titre": "Grand Roi", "nom": "Muwatalli II", "debut": -1295, "fin": -1272 }
+    {
+      "nom": "Hattusili Ier",
+      "titre": "Grand Roi",
+      "debut": -1650,
+      "fin": -1620,
+      "dynastie": "grands-rois",
+      "note": "fait de Hattusa sa capitale",
+      "cle": true
+    },
+    {
+      "nom": "Mursili Ier",
+      "titre": "Grand Roi",
+      "debut": -1620,
+      "fin": -1590,
+      "dynastie": "grands-rois",
+      "note": "pille Babylone",
+      "cle": true
+    },
+    {
+      "nom": "Télipinu",
+      "titre": "Grand Roi",
+      "debut": -1525,
+      "fin": -1500,
+      "dynastie": "grands-rois",
+      "note": "fixe les règles de succession"
+    },
+    {
+      "nom": "Suppiluliuma Ier",
+      "titre": "Grand Roi",
+      "debut": -1350,
+      "fin": -1322,
+      "dynastie": "grands-rois",
+      "note": "fait du royaume un empire",
+      "cle": true
+    },
+    { "nom": "Mursili II", "titre": "Grand Roi", "debut": -1321, "fin": -1295, "dynastie": "grands-rois" },
+    {
+      "nom": "Muwatalli II",
+      "titre": "Grand Roi",
+      "debut": -1295,
+      "fin": -1272,
+      "dynastie": "grands-rois",
+      "note": "affronte Ramsès II à Qadesh",
+      "cle": true
+    },
+    {
+      "nom": "Mursili III",
+      "titre": "Grand Roi",
+      "debut": -1272,
+      "fin": -1267,
+      "dynastie": "grands-rois",
+      "note": "renversé par son oncle"
+    },
+    {
+      "nom": "Hattusili III",
+      "titre": "Grand Roi",
+      "debut": -1267,
+      "fin": -1237,
+      "dynastie": "grands-rois",
+      "note": "signe la paix avec l’Égypte",
+      "cle": true
+    },
+    { "nom": "Tudhaliya IV", "titre": "Grand Roi", "debut": -1237, "fin": -1209, "dynastie": "grands-rois" },
+    {
+      "nom": "Suppiluliuma II",
+      "titre": "Grand Roi",
+      "debut": -1207,
+      "fin": -1178,
+      "dynastie": "grands-rois",
+      "note": "dernier roi connu"
+    }
   ],
-  "personnages": [],
+  "personnages": [
+    {
+      "nom": "Suppiluliuma Ier",
+      "role": "Grand Roi",
+      "description": "Il fait des Hittites une grande puissance ; une reine d’Égypte, veuve d’un pharaon, lui demande un de ses fils comme époux.",
+      "dates": "règne vers −1350 → −1322",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Suppiluliuma_Ier"
+    },
+    {
+      "nom": "Puduhepa",
+      "role": "Reine",
+      "description": "Épouse de Hattusili III, elle joue un grand rôle politique et religieux et correspond avec Ramsès II.",
+      "dates": "XIIIe siècle av. J.-C.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Puduhepa"
+    },
+    {
+      "nom": "Bedřich Hrozný",
+      "role": "Linguiste",
+      "description": "Savant tchèque qui déchiffre la langue hittite en 1915 et montre qu’elle est indo-européenne.",
+      "dates": "1879 → 1952",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bed%C5%99ich_Hrozn%C3%BD"
+    }
+  ],
   "guerres": [
     {
       "nom": "Bataille de Qadesh",
       "annee": -1274,
-      "adversaires": ["Nouvel Empire Égyptien"],
+      "adversaires": ["Égypte (Ramsès II)"],
       "allies": ["Vassaux anatoliens et syriens"],
-      "morts": "Pertes lourdes sur les chars",
-      "vainqueur": "Statu Quo (Revendiqué par les Hittites)",
-      "consequences": "Les Hittites conservent le contrôle sur la riche région syrienne de l'Amourrou.",
+      "morts": "Inconnues ; de lourdes pertes de chars des deux côtés",
+      "vainqueur": "Aucun vainqueur net",
+      "consequences": "Ramsès II célèbre une victoire sur ses temples, mais les Hittites gardent le contrôle de Qadesh et du nord de la Syrie. Les deux empires signent la paix en −1259.",
       "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Qadesh"
     }
   ],
-  "sciences": "Les Hittites savent travailler le fer, mais ce métal reste rare et précieux (offert en cadeau diplomatique) : leur armée combat surtout avec des armes en bronze. Ils révolutionnent la charrerie militaire en construisant des chars à trois places (un conducteur, un lancier, un porte-bouclier), offrant une force de frappe écrasante sur le champ de bataille.",
-  "croyancesText": "L'État hittite pratique un syncrétisme de 'Le panthéon des Mille Dieux'. Lorsqu'ils conquièrent un peuple, ils intègrent ses dieux aux leurs pour s'attirer leurs faveurs. Le dieu central est Tarhunna (le Dieu de l'Orage), vénéré dans le grand sanctuaire rupestre de Yazılıkaya, symbole de la puissance de la tempête sur les arides plateaux anatoliens.",
-  "diplomatie": "Ce sont les inventeurs du Droit international antique. Contrairement à l'Assyrie qui rase ses ennemis, les Hittites créent des traités de vassalité extrêmement complexes (avec clauses d'extradition, mariage, et obligations d'assistance militaire) gravés sur l'argile et l'argent. Le Traité de Qadesh (-1259) avec Ramsès II est exposé au siège de l'ONU à New York comme le premier pacte de non-agression.",
-  "documentaires": [{ "titre": "Hittites : L'empire des mille dieux", "url": "https://fr.wikipedia.org/wiki/Hittites" }]
+  "sciences": "Les Hittites savent travailler le fer, mais ce métal reste rare et précieux (offert en cadeau diplomatique) : leur armée combat surtout avec des armes en bronze. Leurs chars légers portent trois hommes : un conducteur, un combattant et un porteur de bouclier. Leurs scribes tiennent d’immenses archives à Hattusa, où l’on a retrouvé plus de 30 000 tablettes.",
+  "croyancesText": "Les Hittites parlent des « mille dieux du Hatti » : en conquérant de nouveaux pays, ils adoptent leurs divinités. Le dieu de l’Orage et la déesse du Soleil d’Arinna dominent le panthéon. Le sanctuaire rupestre de Yazılıkaya, près de Hattusa, montre une procession de dieux sculptés dans la roche.",
+  "diplomatie": "Les Hittites sont de grands diplomates : leurs archives conservent des dizaines de traités avec des rois vassaux et des puissances voisines, qui prévoient assistance militaire, extradition des fugitifs et mariages. Le traité conclu avec Ramsès II en −1259 est l’un des plus anciens traités de paix connus.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": {
+      "valeur": "Hattusa",
+      "precision": "près de Boğazkale (Turquie) ; un temps Tarhuntassa, au XIIIe siècle av. J.-C."
+    },
+    "regimes": {
+      "valeur": "Monarchie",
+      "precision": "le « Grand Roi », entouré d’une assemblée de nobles (le pankus) ; la reine a un rôle important"
+    },
+    "langues": {
+      "valeur": "Hittite",
+      "precision": "la plus ancienne langue indo-européenne écrite, en cunéiforme ; aussi le louvite, en hiéroglyphes"
+    },
+    "religion": {
+      "valeur": "Polythéisme",
+      "precision": "les « mille dieux du Hatti », dont le dieu de l’Orage et la déesse du Soleil d’Arinna"
+    },
+    "apogee": { "valeur": "XIVe-XIIIe siècles av. J.-C.", "precision": "de Suppiluliuma Ier à Hattusili III" },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": { "valeur": "Pas de pièces", "precision": "paiements en argent pesé" },
+    "duree": { "valeur": "Environ 470 ans" },
+    "aujourdhui": { "valeur": "Turquie", "precision": "et le nord de la Syrie" }
+  },
+  "essentiel": [
+    "Les Hittites fondent vers −1650 un royaume en Anatolie centrale, autour de leur capitale Hattusa.",
+    "Leur roi Mursili Ier mène vers −1595 un raid jusqu’à Babylone, à plus de 1 000 km, et la pille.",
+    "Au XIVe siècle av. J.-C., Suppiluliuma Ier en fait une grande puissance, maîtresse du nord de la Syrie.",
+    "Ils affrontent l’Égypte de Ramsès II à [[bataille-de-qadesh|Qadesh]] (−1274), puis signent avec elle un [[traite-de-qadesh|traité de paix]] (−1259).",
+    "Vers −1180, le royaume s’effondre dans la crise qui frappe toute la Méditerranée orientale ; Hattusa est abandonnée."
+  ],
+  "periodes": [
+    {
+      "nom": "L’Ancien Royaume",
+      "debut": -1650,
+      "fin": -1400,
+      "resume": "Les premiers rois bâtissent un royaume conquérant mais déchiré par les meurtres au sein de la famille royale. Le roi Télipinu fixe des règles de succession.",
+      "evenements": [{ "annee": -1595, "evenement": "Pillage de Babylone" }, { "annee": -1525, "evenement": "Édit de Télipinu" }]
+    },
+    {
+      "nom": "L’Empire hittite",
+      "debut": -1400,
+      "fin": -1178,
+      "resume": "Suppiluliuma Ier et ses successeurs dominent l’Anatolie et la Syrie et traitent d’égal à égal avec l’Égypte, Babylone et l’Assyrie.",
+      "evenements": [
+        { "annee": -1274, "evenement": "Bataille de Qadesh", "ref": "bataille-de-qadesh" },
+        { "annee": -1259, "evenement": "Traité avec l’Égypte", "ref": "traite-de-qadesh" },
+        { "annee": -1178, "evenement": "Abandon de Hattusa" }
+      ]
+    }
+  ],
+  "dynasties": [
+    {
+      "id": "grands-rois",
+      "nom": "Les Grands Rois hittites",
+      "debut": -1650,
+      "fin": -1178,
+      "note": "Sélection ; les dates sont approximatives, surtout pour l’Ancien Royaume."
+    }
+  ],
+  "societe": "Le Grand Roi est aussi grand prêtre. Les lois hittites, plus souvent des amendes que des châtiments corporels, distinguent les hommes libres et les non-libres.",
+  "economie": "Agriculture (blé, orge) et élevage sur le plateau anatolien, mines d’argent et de cuivre, tribut des royaumes vassaux de Syrie.",
+  "decouvertes": [],
+  "arts": "Porte des Lions et porte royale de Hattusa, reliefs de Yazılıkaya, vases en forme d’animaux, sceaux royaux : un art puissant, souvent sculpté dans la pierre.",
+  "quotidien": "Les paysans vivent dans des villages de maisons de brique et de bois. Les fêtes religieuses, nombreuses, réunissent le roi et la population dans les sanctuaires.",
+  "heritage": [
+    { "titre": "Hattusa", "texte": "La capitale hittite est inscrite au patrimoine mondial de l’UNESCO." },
+    {
+      "titre": "Le traité de Qadesh",
+      "texte": "Une copie agrandie de la version hittite est exposée au siège de l’ONU à New York, symbole de la paix entre les nations."
+    },
+    {
+      "titre": "Une langue clé",
+      "texte": "Le hittite a aidé les linguistes à comprendre l’origine des langues indo-européennes, famille du français."
+    }
+  ],
+  "aSavoir": [
+    "L’idée que les Hittites auraient dû leur puissance au « secret du fer » est une légende : ils utilisaient surtout le bronze."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Hittites",
+    { "titre": "Encyclopædia Britannica — Hittite", "url": "https://www.britannica.com/topic/Hittite" }
+  ]
 }

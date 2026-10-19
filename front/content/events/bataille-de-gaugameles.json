@@ -1,0 +1,20 @@
+{
+  "id": "bataille-de-gaugameles",
+  "nom": "Bataille de Gaugamèles",
+  "annee": -331,
+  "dates": "1er octobre −331",
+  "lieu": "Près d’Erbil (Kurdistan irakien)",
+  "description": "[[alexandre-le-grand|Alexandre le Grand]] écrase l’immense armée du roi perse Darius III : l’Empire perse s’effondre.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Darius a choisi une plaine aplanie pour ses chars à faux. Alexandre étire la ligne perse, ouvre une brèche et charge avec sa cavalerie vers Darius, qui prend la fuite."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Alexandre entre à Babylone, à Suse et à Persépolis. Darius III est assassiné l’année suivante par l’un de ses satrapes."
+    }
+  ],
+  "liens": [{ "ref": "alexandre-le-grand", "relation": "Le vainqueur" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Gaugam%C3%A8les"
+}

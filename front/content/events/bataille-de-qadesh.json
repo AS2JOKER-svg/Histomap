@@ -1,0 +1,21 @@
+{
+  "id": "bataille-de-qadesh",
+  "nom": "Bataille de Qadesh",
+  "annee": -1274,
+  "dates": "vers −1274",
+  "lieu": "Qadesh, sur l’Oronte (Syrie)",
+  "description": "L’armée égyptienne de [[ramses-ii|Ramsès II]] affronte l’armée hittite de Muwatalli II : l’une des plus grandes batailles de chars de l’histoire.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Trompé par de faux déserteurs, Ramsès II avance trop vite. Les chars hittites surprennent une partie de son armée ; le pharaon, presque encerclé, est sauvé par l’arrivée de renforts."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Aucun des deux camps ne l’emporte vraiment. Ramsès célèbre une victoire sur ses temples, mais Qadesh reste aux Hittites. Une quinzaine d’années plus tard, les deux empires font la paix."
+    }
+  ],
+  "liens": [{ "ref": "ramses-ii", "relation": "Le pharaon" }],
+  "apres": "traite-de-qadesh",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Qadesh"
+}

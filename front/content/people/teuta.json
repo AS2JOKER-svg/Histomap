@@ -1,0 +1,15 @@
+{
+  "id": "teuta",
+  "nom": "Teuta",
+  "role": "Reine des Ardiéens",
+  "roles": ["Reine (régente)"],
+  "dates": "règne −231 → −228",
+  "description": "Régente du royaume illyrien des Ardiéens à la mort de son mari Agron, elle laisse ses navires attaquer les marchands de l’Adriatique et affronte Rome lors de la première guerre d’Illyrie.",
+  "essentiel": [
+    "Elle gouverne au nom de son beau-fils Pinnès, encore enfant.",
+    "Ses flottes s’emparent de la riche cité de Phoinikè et menacent les colonies grecques de la côte.",
+    "En −229, Rome envoie 200 navires ; vaincue, Teuta doit payer un tribut et renoncer à naviguer au sud de Lissos."
+  ],
+  "aSavoir": ["On ignore ce qu’elle est devenue après −228."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Teuta"
+}

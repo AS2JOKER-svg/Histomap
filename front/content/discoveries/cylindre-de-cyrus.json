@@ -1,0 +1,17 @@
+{
+  "id": "cylindre-de-cyrus",
+  "nom": "Cylindre de Cyrus",
+  "annee": -539,
+  "domaine": "Écriture",
+  "dates": "vers −539 ; découvert en 1879",
+  "description": "Un cylindre d’argile couvert d’écriture cunéiforme, où [[cyrus-le-grand|Cyrus]] raconte sa prise de Babylone et se présente comme un roi juste, choisi par le dieu Marduk.",
+  "sections": [
+    {
+      "titre": "Ce qu’il dit",
+      "texte": "Cyrus y accuse le dernier roi de Babylone d’avoir maltraité ses sujets et annonce qu’il a permis aux peuples déportés de rentrer chez eux avec les statues de leurs dieux."
+    }
+  ],
+  "aSavoir": ["Il est conservé au British Museum ; une copie se trouve au siège de l’ONU, à New York."],
+  "liens": [{ "ref": "cyrus-le-grand", "relation": "Le roi qui l’a fait rédiger" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Cylindre_de_Cyrus"
+}

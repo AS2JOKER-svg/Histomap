@@ -1,0 +1,21 @@
+{
+  "id": "code-de-hammurabi",
+  "nom": "Code de Hammurabi",
+  "annee": -1754,
+  "domaine": "Droit",
+  "dates": "vers −1754",
+  "description": "Une stèle de basalte de 2,25 mètres sur laquelle [[hammurabi|Hammurabi]] a fait graver près de 300 lois : l’un des plus célèbres textes juridiques de l’Antiquité.",
+  "sections": [
+    {
+      "titre": "Ce qu’il contient",
+      "texte": "Des décisions sur le commerce, la famille, l’agriculture, les salaires, les blessures… Beaucoup suivent la loi du talion (« œil pour œil, dent pour dent »), mais la peine dépend du rang de la victime."
+    },
+    {
+      "titre": "Sa redécouverte",
+      "texte": "Emportée par un roi élamite à Suse, la stèle y a été retrouvée en 1901 par des archéologues français. Elle est exposée au Louvre."
+    }
+  ],
+  "aSavoir": ["Ce n’est pas le plus ancien recueil de lois : celui d’Ur-Nammu date de plus de trois siècles avant."],
+  "liens": [{ "ref": "hammurabi", "relation": "Le roi qui l’a fait graver" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Code_de_Hammurabi"
+}

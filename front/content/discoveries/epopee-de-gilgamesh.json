@@ -1,0 +1,20 @@
+{
+  "id": "epopee-de-gilgamesh",
+  "nom": "Épopée de Gilgamesh",
+  "annee": -1800,
+  "domaine": "Littérature",
+  "dates": "vers −2100 → −1200 (versions successives)",
+  "description": "L’une des plus anciennes œuvres littéraires du monde : le roi Gilgamesh et son ami Enkidu vivent des aventures, puis Gilgamesh cherche en vain à échapper à la mort.",
+  "sections": [
+    {
+      "titre": "Ce qu’elle raconte",
+      "texte": "Après la mort d’Enkidu, Gilgamesh part à la recherche d’Utnapishtim, le seul homme à qui les dieux ont donné l’immortalité après l’avoir sauvé du déluge. Il échoue, mais apprend la sagesse."
+    },
+    {
+      "titre": "Comment on l’a retrouvée",
+      "texte": "En 1872, George Smith, en déchiffrant une tablette de la bibliothèque d’Assurbanipal, découvre le récit du déluge, très proche de celui de la Bible."
+    }
+  ],
+  "liens": [{ "ref": "assurbanipal", "relation": "Sa bibliothèque en conservait la version la plus complète" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/%C3%89pop%C3%A9e_de_Gilgamesh"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "cyrus-le-grand",
+  "nom": "Cyrus le Grand",
+  "nomComplet": "Cyrus II",
+  "role": "Fondateur de l’Empire perse",
+  "roles": ["Roi des rois", "Conquérant"],
+  "dates": "règne −559 → −530",
+  "mort": -530,
+  "description": "Roi perse qui, en trente ans, soumet les Mèdes, la Lydie et Babylone, et fonde le plus grand empire du monde de son temps. Il laisse le souvenir d’un souverain clément.",
+  "reperes": [
+    { "label": "Règne", "valeur": "−559 → −530" },
+    { "label": "Tombeau", "valeur": "Pasargades (Iran)", "precision": "toujours debout" }
+  ],
+  "essentiel": [
+    "En −550, il renverse le roi mède Astyage, son suzerain.",
+    "Il bat Crésus, le richissime roi de Lydie, vers −547.",
+    "En −539, il [[prise-de-babylone|entre dans Babylone]] et permet aux peuples déportés de rentrer chez eux.",
+    "La Bible le présente comme un libérateur."
+  ],
+  "chronologie": [
+    { "annee": -559, "texte": "Devient roi des Perses" },
+    { "annee": -550, "texte": "Victoire sur les Mèdes" },
+    { "annee": -547, "texte": "Conquête de la Lydie" },
+    { "annee": -539, "texte": "Prise de Babylone", "ref": "prise-de-babylone" },
+    { "annee": -530, "texte": "Mort en Asie centrale" }
+  ],
+  "aSavoir": [
+    "Le [[cylindre-de-cyrus|cylindre de Cyrus]] est parfois présenté comme la « première charte des droits de l’homme » : c’est exagéré, il s’agit d’un texte de propagande royale."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Cyrus_II"
+}

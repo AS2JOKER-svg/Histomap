@@ -1,0 +1,21 @@
+{
+  "id": "traite-de-qadesh",
+  "nom": "Traité de paix égypto-hittite",
+  "annee": -1259,
+  "dates": "vers −1259",
+  "lieu": "Égypte et Hattusa",
+  "description": "[[ramses-ii|Ramsès II]] et le roi hittite Hattusili III signent un traité de paix et d’alliance : l’un des plus anciens traités de paix dont on connaît le texte.",
+  "sections": [
+    {
+      "titre": "Ce qu’il prévoit",
+      "texte": "Les deux rois promettent de ne plus s’attaquer, de s’aider contre un ennemi commun et de se livrer les fugitifs. Le texte est connu dans les deux versions : en hiéroglyphes sur les murs de temples égyptiens, en akkadien sur des tablettes de Hattusa."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "La paix dure jusqu’à la fin de l’empire hittite. Ramsès II épouse même une princesse hittite."
+    }
+  ],
+  "liens": [{ "ref": "ramses-ii", "relation": "Le pharaon signataire" }],
+  "avant": "bataille-de-qadesh",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Trait%C3%A9_de_paix_%C3%A9gypto-hittite"
+}

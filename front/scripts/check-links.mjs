@@ -8,6 +8,8 @@ import { PATHS } from './lib/content.mjs'
 
 const LINK = /https:\/\/([a-z]+)\.wikipedia\.org\/wiki\/([^"\s#]+)/g
 const BATCH = 45
+// Politique de Wikimedia : un User-Agent qui identifie l'outil
+const USER_AGENT = 'HistoMap-links/1.0 (https://github.com/AS2JOKER-svg/Histomap)'
 
 // lang → titre → fichiers qui le citent
 const titles = new Map()
@@ -23,15 +25,21 @@ for (const entry of readdirSync(PATHS.content, { recursive: true })) {
   }
 }
 
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms))
+
 async function query(lang, batch) {
   const params = new URLSearchParams({ action: 'query', titles: batch.join('|'), redirects: '1', format: 'json' })
   for (let attempt = 1; ; attempt++) {
     try {
-      const res = await fetch(`https://${lang}.wikipedia.org/w/api.php?${params}`, { headers: { 'User-Agent': 'HistoMap-links/1.0' } })
-      if (!res.ok) throw new Error(`HTTP ${res.status}`)
-      return (await res.json()).query
+      const res = await fetch(`https://${lang}.wikipedia.org/w/api.php?${params}`, { headers: { 'User-Agent': USER_AGENT }, signal: AbortSignal.timeout(60000) })
+      if (res.ok) return (await res.json()).query
+      // 429 : trop de requêtes, on attend le délai demandé
+      const wait = res.status === 429 ? Number(res.headers.get('retry-after') || 10) * 1000 : 2000 * attempt
+      if (attempt === 5) throw new Error(`HTTP ${res.status}`)
+      await sleep(wait)
     } catch (e) {
-      if (attempt === 3) throw e
+      if (attempt === 5) throw new Error(`Wikipédia injoignable (${lang}) : ${e.message}`)
+      await sleep(2000 * attempt)
     }
   }
 }
@@ -43,6 +51,7 @@ for (const [lang, map] of titles) {
   total += list.length
   for (let i = 0; i < list.length; i += BATCH) {
     const { pages } = await query(lang, list.slice(i, i + BATCH))
+    await sleep(500) // une requête toutes les demi-secondes au plus
     for (const p of Object.values(pages)) {
       if ('missing' in p || 'invalid' in p) missing.push({ lang, title: p.title, files: map.get(p.title) ?? new Set() })
     }

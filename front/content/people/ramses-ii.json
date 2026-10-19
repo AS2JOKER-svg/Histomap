@@ -13,13 +13,13 @@
     { "label": "Monuments", "valeur": "Abou Simbel, le Ramesseum" }
   ],
   "essentiel": [
-    "Il combat les Hittites à Qadesh (−1274) et présente la bataille comme une victoire sur ses monuments.",
+    "Il combat les Hittites à [[bataille-de-qadesh|Qadesh]] (−1274) et présente la bataille comme une victoire sur ses monuments.",
     "Vers −1259, il signe avec le roi hittite Hattusili III l’un des plus anciens traités de paix connus.",
     "Il couvre l’Égypte de monuments, dont les temples d’Abou Simbel."
   ],
   "chronologie": [
     { "annee": -1279, "texte": "Début du règne" },
-    { "annee": -1274, "texte": "Bataille de Qadesh" },
+    { "annee": -1274, "texte": "Bataille de Qadesh", "ref": "bataille-de-qadesh" },
     { "annee": -1259, "texte": "Traité de paix avec les Hittites" },
     { "annee": -1213, "texte": "Mort, vers 90 ans" }
   ],

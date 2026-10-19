@@ -15,7 +15,7 @@
   ],
   "essentiel": [
     "Fils de Philippe II, il a pour précepteur le philosophe [[aristote|Aristote]].",
-    "Il bat le roi perse Darius III au Granique, à Issos puis à Gaugamèles.",
+    "Il bat le roi perse Darius III au Granique, à Issos puis à [[bataille-de-gaugameles|Gaugamèles]].",
     "Il [[conquete-alexandre-egypte|entre en Égypte]] et fonde Alexandrie, la plus célèbre des nombreuses villes qui portent son nom.",
     "Son armée, épuisée, refuse d’aller au-delà de l’Indus.",
     "À sa mort, ses généraux se partagent l’empire en royaumes rivaux."
@@ -25,7 +25,7 @@
     { "annee": -334, "texte": "Victoire du Granique" },
     { "annee": -333, "texte": "Victoire d’Issos" },
     { "annee": -332, "texte": "Conquête de l’Égypte", "ref": "conquete-alexandre-egypte" },
-    { "annee": -331, "texte": "Victoire de Gaugamèles" },
+    { "annee": -331, "texte": "Victoire de Gaugamèles", "ref": "bataille-de-gaugameles" },
     { "annee": -326, "texte": "Bataille de l’Hydaspe, en Inde" },
     { "annee": -323, "texte": "Mort à Babylone" }
   ],

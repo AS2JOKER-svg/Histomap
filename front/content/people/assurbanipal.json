@@ -1,0 +1,19 @@
+{
+  "id": "assurbanipal",
+  "nom": "Assurbanipal",
+  "role": "Roi d’Assyrie",
+  "roles": ["Roi", "Lettré"],
+  "dates": "règne −669 → vers −631",
+  "mort": -631,
+  "description": "Dernier grand roi d’Assyrie, guerrier impitoyable et lettré, il rassemble à Ninive une bibliothèque de dizaines de milliers de tablettes.",
+  "essentiel": [
+    "Il se vante de savoir lire et écrire, ce qui est rare pour un roi.",
+    "Il fait copier dans tout l’empire des textes religieux, scientifiques et littéraires, dont l’[[epopee-de-gilgamesh|Épopée de Gilgamesh]].",
+    "Il écrase l’Élam et détruit sa capitale, Suse, vers −647.",
+    "Son empire s’effondre une vingtaine d’années après sa mort."
+  ],
+  "aSavoir": [
+    "Les tablettes de sa bibliothèque, retrouvées au XIXe siècle, sont conservées au British Museum de Londres."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Assurbanipal"
+}

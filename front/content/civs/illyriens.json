@@ -10,37 +10,193 @@
   "trackId": "illyriens",
   "row": 8,
   "isRiver": false,
-  "capitale": "Scutari (Scodra)",
-  "description": "Marins corsaires intrépides de la mer Adriatique, fondateurs de redoutables petits royaumes militaires, dont la piraterie force Rome à sortir d'Italie.",
+  "capitale": "Scodra (Shkodër)",
+  "description": "Peuples des Balkans de l’Ouest, sur les côtes de l’Adriatique, réputés comme marins et guerriers, dont les royaumes sont soumis par Rome au IIe siècle av. J.-C.",
   "territories": ["Illyrians"],
   "datesCles": [
     {
+      "annee": -358,
+      "evenement": "Défaite de Bardylis",
+      "info": "Philippe II de Macédoine bat et tue le vieux roi dardanien Bardylis."
+    },
+    {
       "annee": -229,
-      "evenement": "1ère Guerre d'Illyrie",
-      "info": "Rome envoie 200 navires pour stopper la reine Teuta."
+      "evenement": "Première guerre d’Illyrie",
+      "info": "Rome envoie 200 navires contre la reine Teuta."
+    },
+    {
+      "annee": -219,
+      "evenement": "Deuxième guerre d’Illyrie",
+      "info": "Rome bat Démétrios de Pharos, qui s’était retourné contre elle."
     },
     {
       "annee": -168,
       "evenement": "Chute de Scodra",
-      "info": "L'armée romaine défait le roi Genthios, fin de l'Illyrie libre."
+      "info": "L’armée romaine défait le roi Genthios : c’est la fin de l’Illyrie indépendante."
     }
   ],
-  "dirigeants": [{ "titre": "Reine (Régente)", "nom": "Teuta", "surnom": "La Reine des pirates", "debut": -231, "fin": -227 }],
-  "personnages": [],
+  "dirigeants": [
+    {
+      "nom": "Bardylis",
+      "titre": "Roi",
+      "debut": -385,
+      "fin": -358,
+      "dynastie": "dardaniens",
+      "note": "tué par Philippe II",
+      "cle": true
+    },
+    {
+      "nom": "Glaukias",
+      "titre": "Roi des Taulantiens",
+      "debut": -335,
+      "fin": -302,
+      "dynastie": "dardaniens",
+      "note": "protège le jeune Pyrrhus"
+    },
+    {
+      "nom": "Agron",
+      "titre": "Roi",
+      "debut": -250,
+      "fin": -231,
+      "dynastie": "ardieens",
+      "note": "crée une puissante flotte"
+    },
+    {
+      "nom": "Teuta",
+      "titre": "Reine (régente)",
+      "debut": -231,
+      "fin": -228,
+      "dynastie": "ardieens",
+      "personne": "teuta",
+      "note": "affronte Rome",
+      "cle": true
+    },
+    {
+      "nom": "Démétrios de Pharos",
+      "titre": "Régent",
+      "debut": -228,
+      "fin": -219,
+      "dynastie": "ardieens",
+      "note": "allié puis ennemi de Rome"
+    },
+    { "nom": "Scerdilaïdas", "titre": "Roi", "debut": -212, "fin": -206, "dynastie": "ardieens" },
+    { "nom": "Pleuratos", "titre": "Roi", "debut": -206, "fin": -181, "dynastie": "ardieens", "note": "allié de Rome" },
+    {
+      "nom": "Genthios",
+      "titre": "Roi",
+      "debut": -181,
+      "fin": -168,
+      "dynastie": "ardieens",
+      "note": "dernier roi, vaincu par Rome",
+      "cle": true
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Teuta",
+      "role": "Reine",
+      "description": "Régente du royaume des Ardiéens, elle laisse ses navires attaquer les marchands italiens et affronte Rome.",
+      "dates": "règne −231 → −228",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Teuta",
+      "ref": "teuta"
+    },
+    {
+      "nom": "Genthios",
+      "role": "Roi",
+      "description": "Dernier roi illyrien, allié de la Macédoine contre Rome, capturé en −168 et exhibé à Rome.",
+      "dates": "règne −181 → −168",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Genthios"
+    }
+  ],
   "guerres": [
     {
       "nom": "Guerres d'Illyrie",
       "annee": -229,
       "adversaires": ["République Romaine"],
       "allies": [],
-      "morts": "Inconnu",
+      "morts": "Inconnues",
       "vainqueur": "Rome",
-      "consequences": "Ouverture totale de l'Est à la politique expansionniste romaine, conduisant à la future conquête de la Grèce.",
+      "consequences": "Rome prend pied de l’autre côté de l’Adriatique : c’est le début de son expansion vers la Grèce et les Balkans.",
       "wikiUrl": "https://fr.wikipedia.org/wiki/Guerres_d'Illyrie"
     }
   ],
-  "sciences": "Excellents constructeurs navals, ils conçoivent le lembos : une galère légère, rapide et maniable, adoptée ensuite par les Macédoniens. Les liburnes, navires légers de la flotte romaine, tiennent leur nom des Liburnes, un peuple illyrien de marins. Ils exploitent massivement l'argent de Damastion pour frapper monnaie.",
-  "croyancesText": "Leur religion balkanique reste assez obscure faute d'écrits, mais est fortement marquée par le culte chtonien du serpent, protecteur du foyer domestique et symbole de la terre. Ils vénéraient Medaurus, un dieu monté à cheval armé d'une lance, divinité de la guerre protectrice des citadelles de montagne.",
-  "diplomatie": "Leur économie politique est basée sur le mercenariat d'élite (gardiens des rois macédoniens) et une piraterie d'État institutionnalisée. L'assassinat d'un ambassadeur romain par la reine Teuta, venue se plaindre des attaques sur les marchands italiens, provoque la toute première traversée de la mer Adriatique par les légions romaines.",
-  "documentaires": [{ "titre": "Les Illyriens, voisins de la Grèce antique", "url": "https://fr.wikipedia.org/wiki/Illyriens" }]
+  "sciences": "Les Illyriens sont d’excellents constructeurs de navires : le lembos, galère légère et rapide, est adopté par les Macédoniens, et les liburnes, navires de la flotte romaine, tiennent leur nom des Liburnes, un peuple illyrien de marins. Ils exploitent des mines d’argent pour frapper monnaie.",
+  "croyancesText": "Leur religion, faute d’écrits, est mal connue. Le serpent, protecteur de la maison, y tient une grande place. Une inscription mentionne Médaure, dieu cavalier armé d’une lance, protecteur de la ville de Risinium.",
+  "diplomatie": "Les Illyriens servent comme mercenaires et pratiquent la piraterie, une activité courante dans l’Antiquité. Selon l’historien grec Polybe, des ambassadeurs romains venus se plaindre auprès de Teuta furent mal reçus, et l’un d’eux fut tué au retour : Rome déclare la guerre en −229.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": { "valeur": "Scodra", "precision": "aujourd’hui Shkodër (Albanie), capitale des derniers rois" },
+    "regimes": { "valeur": "Tribus et royaumes", "precision": "des royaumes se forment à partir du IVe siècle av. J.-C." },
+    "langues": { "valeur": "Illyrien", "precision": "langue indo-européenne mal connue, sans écriture propre" },
+    "religion": { "valeur": "Polythéisme", "precision": "culte du serpent, dieu cavalier Médaure" },
+    "apogee": { "valeur": "IIIe siècle av. J.-C.", "precision": "royaume des Ardiéens d’Agron et Teuta" },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": { "valeur": "Monnaies des rois et des cités", "precision": "à partir du IVe siècle av. J.-C." },
+    "duree": { "valeur": "Environ 530 ans" },
+    "aujourdhui": {
+      "valeur": "Albanie, Monténégro, Croatie, Bosnie",
+      "precision": "côte et arrière-pays de l’Adriatique orientale"
+    }
+  },
+  "essentiel": [
+    "Les Illyriens sont de nombreux peuples (Ardiéens, Dardaniens, Liburnes, Taulantiens…) installés sur la côte est de l’Adriatique.",
+    "Voisins de la Macédoine, ils l’affrontent souvent : Philippe II tue leur roi Bardylis en −358.",
+    "Au IIIe siècle av. J.-C., le royaume des Ardiéens, avec le roi Agron puis la reine [[teuta|Teuta]], domine la mer par ses navires rapides.",
+    "Les attaques contre les marchands italiens provoquent en −229 la première intervention de Rome de l’autre côté de l’Adriatique.",
+    "En −168, Rome bat le roi Genthios et met fin à l’indépendance illyrienne."
+  ],
+  "periodes": [
+    {
+      "nom": "Les peuples illyriens",
+      "debut": -700,
+      "fin": -400,
+      "resume": "Des peuples guerriers vivent dans des villages fortifiés, au contact des colonies grecques de la côte (Épidamne, Apollonia)."
+    },
+    {
+      "nom": "Les royaumes",
+      "debut": -400,
+      "fin": -229,
+      "resume": "Des rois unifient plusieurs tribus et affrontent la Macédoine. Au IIIe siècle, le royaume des Ardiéens devient une puissance maritime.",
+      "evenements": [
+        { "annee": -358, "evenement": "Défaite de Bardylis" },
+        { "annee": -231, "evenement": "Mort d’Agron, régence de Teuta" }
+      ]
+    },
+    {
+      "nom": "Les guerres contre Rome",
+      "debut": -229,
+      "fin": -168,
+      "resume": "Trois guerres opposent les Illyriens à Rome, qui finit par s’emparer de leur royaume.",
+      "evenements": [
+        { "annee": -229, "evenement": "Première guerre d’Illyrie" },
+        { "annee": -168, "evenement": "Capture de Genthios" }
+      ]
+    }
+  ],
+  "dynasties": [
+    {
+      "id": "dardaniens",
+      "nom": "Rois illyriens du IVe siècle",
+      "debut": -385,
+      "fin": -302,
+      "note": "Dates approximatives."
+    },
+    { "id": "ardieens", "nom": "Le royaume des Ardiéens", "debut": -250, "fin": -168 }
+  ],
+  "societe": "Une aristocratie guerrière domine les tribus. Les femmes peuvent exercer le pouvoir, comme Teuta, régente au nom de son beau-fils.",
+  "economie": "Élevage, agriculture, mines d’argent, commerce et piraterie en Adriatique.",
+  "decouvertes": [],
+  "arts": "Casques de bronze dits « illyriens », bijoux, fibules et ceintures décorées, monnaies des rois : un art influencé par les Grecs voisins.",
+  "quotidien": "Les habitants vivent dans des villages fortifiés sur des hauteurs. Selon les auteurs grecs, ils portent souvent des tatouages.",
+  "heritage": [
+    { "titre": "Les liburnes", "texte": "Le nom de ces navires illyriens passe dans la marine romaine." },
+    {
+      "titre": "Une mémoire albanaise",
+      "texte": "En Albanie, les Illyriens sont souvent présentés comme les ancêtres des Albanais, une hypothèse débattue par les linguistes."
+    }
+  ],
+  "aSavoir": [
+    "Presque tout ce que l’on sait de Teuta vient de Polybe, un historien grec favorable à Rome, qui la décrit de façon très négative."
+  ],
+  "sources": ["https://fr.wikipedia.org/wiki/Illyriens", "https://fr.wikipedia.org/wiki/Guerres_d%27Illyrie"]
 }

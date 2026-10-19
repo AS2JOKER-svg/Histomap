@@ -1,0 +1,21 @@
+{
+  "id": "prise-de-babylone",
+  "nom": "Prise de Babylone par Cyrus",
+  "annee": -539,
+  "dates": "octobre −539",
+  "lieu": "Babylone (Irak)",
+  "description": "Après avoir battu l’armée babylonienne à Opis, le roi perse [[cyrus-le-grand|Cyrus le Grand]] entre dans Babylone presque sans combat. La Mésopotamie passe sous domination perse.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Selon l’historien grec Hérodote, les Perses détournent l’Euphrate pour entrer par le lit du fleuve. Le cylindre de Cyrus, lui, raconte une entrée pacifique, accueillie par les habitants."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Cyrus permet aux peuples déportés, dont les Judéens exilés, de rentrer chez eux et de reconstruire leurs temples."
+    }
+  ],
+  "liens": [{ "ref": "cyrus-le-grand", "relation": "Le conquérant" }],
+  "avant": "chute-de-ninive",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Chute_de_Babylone"
+}

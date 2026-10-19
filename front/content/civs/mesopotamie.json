@@ -10,58 +10,532 @@
   "row": 1,
   "isRiver": true,
   "capitale": "Ourouk, Akkad, Babylone",
-  "description": "Le berceau des premières villes-États, de l'écriture et du droit, bâti dans l'interfluve du Tigre et de l'Euphrate par les Sumériens et les Babyloniens.",
+  "description": "Entre le Tigre et l’Euphrate naissent les premières villes, l’écriture et les premiers empires. Sumériens, Akkadiens, Babyloniens et Assyriens s’y succèdent pendant trois millénaires.",
   "territories": ["Ur", "Babylonia", "Assyria"],
   "datesCles": [
     {
       "annee": -3300,
-      "evenement": "L'Écriture",
-      "info": "L'argile est marquée de signes cunéiformes (en forme de clous) pour tenir les comptes des temples."
+      "evenement": "Naissance de l’écriture",
+      "info": "À Ourouk, des comptables tracent des signes sur l’argile pour gérer les biens des temples."
     },
     {
       "annee": -2334,
-      "evenement": "L'Empire d'Akkad",
-      "info": "Sargon l'Ancien fonde le premier empire territorial de l'histoire humaine."
+      "evenement": "L’empire d’Akkad",
+      "info": "Sargon unifie les cités de Sumer et d’Akkad : c’est souvent considéré comme le premier empire de l’histoire."
     },
     {
-      "annee": -1750,
+      "annee": -2112,
+      "evenement": "La IIIe dynastie d’Ur",
+      "info": "Ur-Nammu réunifie Sumer ; on lui attribue le plus ancien recueil de lois connu."
+    },
+    {
+      "annee": -1754,
       "evenement": "Code de Hammurabi",
-      "info": "Première transcription écrite du droit ('Œil pour œil, dent pour dent')."
+      "info": "Le roi de Babylone fait graver près de 300 lois, dont la célèbre loi du talion (« œil pour œil »)."
+    },
+    {
+      "annee": -1595,
+      "evenement": "Les Hittites pillent Babylone",
+      "info": "Le raid du roi hittite Mursili Ier met fin à la dynastie d’Hammurabi."
+    },
+    {
+      "annee": -612,
+      "evenement": "Chute de Ninive",
+      "info": "Babyloniens et Mèdes détruisent la capitale assyrienne.",
+      "ref": "chute-de-ninive"
+    },
+    {
+      "annee": -587,
+      "evenement": "Prise de Jérusalem",
+      "info": "Nabuchodonosor II détruit le Temple et déporte une partie des habitants du royaume de Juda à Babylone."
     },
     {
       "annee": -539,
       "evenement": "Chute de Babylone",
-      "info": "Le Perse Cyrus le Grand prend la ville d'un coup de génie stratégique."
+      "info": "Le roi perse Cyrus le Grand entre dans Babylone : la Mésopotamie devient une province perse.",
+      "ref": "prise-de-babylone"
     }
   ],
   "dirigeants": [
-    { "titre": "Roi d'Akkad", "nom": "Sargon", "surnom": "L'Ancien", "debut": -2334, "fin": -2279 },
-    { "titre": "Roi de Babylone", "nom": "Hammurabi", "surnom": "Le Législateur", "debut": -1792, "fin": -1750 },
-    { "titre": "Roi (Empire néo-babylonien)", "nom": "Nabuchodonosor II", "debut": -605, "fin": -562 }
+    {
+      "nom": "Gilgamesh",
+      "titre": "Roi d’Ourouk",
+      "debut": -2700,
+      "fin": -2700,
+      "dynastie": "sumer",
+      "note": "personnage historique probable, devenu héros légendaire"
+    },
+    { "nom": "Mesannepada", "titre": "Roi d’Ur", "debut": -2560, "fin": -2525, "dynastie": "sumer" },
+    {
+      "nom": "Eannatum",
+      "titre": "Roi de Lagash",
+      "debut": -2450,
+      "fin": -2425,
+      "dynastie": "sumer",
+      "note": "célèbre par la stèle des vautours"
+    },
+    {
+      "nom": "Urukagina",
+      "titre": "Roi de Lagash",
+      "debut": -2350,
+      "fin": -2340,
+      "dynastie": "sumer",
+      "note": "réformes contre les abus des puissants"
+    },
+    {
+      "nom": "Lugal-zagesi",
+      "titre": "Roi d’Ourouk",
+      "debut": -2340,
+      "fin": -2316,
+      "dynastie": "sumer",
+      "note": "unifie Sumer avant d’être vaincu par Sargon"
+    },
+    {
+      "nom": "Sargon",
+      "titre": "Roi d’Akkad",
+      "debut": -2334,
+      "fin": -2279,
+      "dynastie": "akkad",
+      "personne": "sargon-d-akkad",
+      "note": "fonde le premier empire",
+      "cle": true
+    },
+    { "nom": "Rimush", "titre": "Roi d’Akkad", "debut": -2278, "fin": -2270, "dynastie": "akkad" },
+    { "nom": "Manishtushu", "titre": "Roi d’Akkad", "debut": -2269, "fin": -2255, "dynastie": "akkad" },
+    {
+      "nom": "Naram-Sin",
+      "titre": "Roi d’Akkad",
+      "debut": -2254,
+      "fin": -2218,
+      "dynastie": "akkad",
+      "note": "se proclame « roi des quatre régions du monde »"
+    },
+    { "nom": "Shar-kali-sharri", "titre": "Roi d’Akkad", "debut": -2217, "fin": -2193, "dynastie": "akkad" },
+    {
+      "nom": "Gudéa",
+      "titre": "Prince de Lagash",
+      "debut": -2144,
+      "fin": -2124,
+      "dynastie": "ur",
+      "note": "connu par ses nombreuses statues"
+    },
+    {
+      "nom": "Ur-Nammu",
+      "titre": "Roi d’Ur",
+      "debut": -2112,
+      "fin": -2095,
+      "dynastie": "ur",
+      "note": "plus ancien recueil de lois connu",
+      "cle": true
+    },
+    { "nom": "Shulgi", "titre": "Roi d’Ur", "debut": -2094, "fin": -2047, "dynastie": "ur" },
+    { "nom": "Amar-Sin", "titre": "Roi d’Ur", "debut": -2046, "fin": -2038, "dynastie": "ur" },
+    { "nom": "Shu-Sin", "titre": "Roi d’Ur", "debut": -2037, "fin": -2029, "dynastie": "ur" },
+    {
+      "nom": "Ibbi-Sin",
+      "titre": "Roi d’Ur",
+      "debut": -2028,
+      "fin": -2004,
+      "dynastie": "ur",
+      "note": "capturé par les Élamites"
+    },
+    {
+      "nom": "Sumu-abum",
+      "titre": "Roi de Babylone",
+      "debut": -1894,
+      "fin": -1881,
+      "dynastie": "babylone",
+      "note": "fondateur de la dynastie"
+    },
+    {
+      "nom": "Hammurabi",
+      "titre": "Roi de Babylone",
+      "debut": -1792,
+      "fin": -1750,
+      "dynastie": "babylone",
+      "personne": "hammurabi",
+      "note": "unifie la Mésopotamie, code de lois",
+      "cle": true
+    },
+    { "nom": "Samsu-iluna", "titre": "Roi de Babylone", "debut": -1749, "fin": -1712, "dynastie": "babylone" },
+    {
+      "nom": "Samsu-ditana",
+      "titre": "Roi de Babylone",
+      "debut": -1625,
+      "fin": -1595,
+      "dynastie": "babylone",
+      "note": "dernier roi, détrôné par le raid hittite"
+    },
+    {
+      "nom": "Burna-Buriash II",
+      "titre": "Roi de Babylone (kassite)",
+      "debut": -1359,
+      "fin": -1333,
+      "dynastie": "kassites",
+      "note": "correspond avec les pharaons"
+    },
+    {
+      "nom": "Nabuchodonosor Ier",
+      "titre": "Roi de Babylone",
+      "debut": -1125,
+      "fin": -1104,
+      "dynastie": "kassites",
+      "note": "rapporte la statue de Marduk d’Élam"
+    },
+    {
+      "nom": "Shamshi-Adad Ier",
+      "titre": "Roi de Haute-Mésopotamie",
+      "debut": -1808,
+      "fin": -1776,
+      "dynastie": "assyrie"
+    },
+    { "nom": "Assur-uballit Ier", "titre": "Roi d’Assyrie", "debut": -1365, "fin": -1330, "dynastie": "assyrie" },
+    { "nom": "Teglath-Phalasar Ier", "titre": "Roi d’Assyrie", "debut": -1114, "fin": -1076, "dynastie": "assyrie" },
+    {
+      "nom": "Assurnasirpal II",
+      "titre": "Roi d’Assyrie",
+      "debut": -883,
+      "fin": -859,
+      "dynastie": "assyrie",
+      "note": "fait de Nimroud sa capitale"
+    },
+    { "nom": "Salmanazar III", "titre": "Roi d’Assyrie", "debut": -858, "fin": -824, "dynastie": "assyrie" },
+    {
+      "nom": "Teglath-Phalasar III",
+      "titre": "Roi d’Assyrie",
+      "debut": -745,
+      "fin": -727,
+      "dynastie": "assyrie",
+      "note": "réorganise l’empire"
+    },
+    { "nom": "Sargon II", "titre": "Roi d’Assyrie", "debut": -722, "fin": -705, "dynastie": "assyrie" },
+    {
+      "nom": "Sennachérib",
+      "titre": "Roi d’Assyrie",
+      "debut": -705,
+      "fin": -681,
+      "dynastie": "assyrie",
+      "note": "fait de Ninive sa capitale"
+    },
+    {
+      "nom": "Assarhaddon",
+      "titre": "Roi d’Assyrie",
+      "debut": -681,
+      "fin": -669,
+      "dynastie": "assyrie",
+      "note": "conquiert l’Égypte"
+    },
+    {
+      "nom": "Assurbanipal",
+      "titre": "Roi d’Assyrie",
+      "debut": -669,
+      "fin": -631,
+      "dynastie": "assyrie",
+      "personne": "assurbanipal",
+      "note": "bibliothèque de Ninive",
+      "cle": true
+    },
+    {
+      "nom": "Sîn-shar-ishkun",
+      "titre": "Roi d’Assyrie",
+      "debut": -627,
+      "fin": -612,
+      "dynastie": "assyrie",
+      "note": "meurt lors de la prise de Ninive"
+    },
+    {
+      "nom": "Assur-uballit II",
+      "titre": "Roi d’Assyrie",
+      "debut": -612,
+      "fin": -609,
+      "dynastie": "assyrie",
+      "note": "dernier roi"
+    },
+    {
+      "nom": "Nabopolassar",
+      "titre": "Roi de Babylone",
+      "debut": -626,
+      "fin": -605,
+      "dynastie": "neobab",
+      "note": "libère Babylone de l’Assyrie"
+    },
+    {
+      "nom": "Nabuchodonosor II",
+      "titre": "Roi de Babylone",
+      "debut": -605,
+      "fin": -562,
+      "dynastie": "neobab",
+      "personne": "nabuchodonosor-ii",
+      "cle": true
+    },
+    { "nom": "Amel-Marduk", "titre": "Roi de Babylone", "debut": -562, "fin": -560, "dynastie": "neobab" },
+    { "nom": "Nériglissar", "titre": "Roi de Babylone", "debut": -560, "fin": -556, "dynastie": "neobab" },
+    {
+      "nom": "Nabonide",
+      "titre": "Roi de Babylone",
+      "debut": -556,
+      "fin": -539,
+      "dynastie": "neobab",
+      "note": "dernier roi, vaincu par Cyrus"
+    }
   ],
   "personnages": [
     {
+      "nom": "Sargon d’Akkad",
+      "role": "Roi d’Akkad",
+      "description": "Fondateur du premier empire, qui réunit les cités de Mésopotamie sous son autorité.",
+      "dates": "règne vers −2334 → −2279",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Sargon_d%27Akkad",
+      "ref": "sargon-d-akkad"
+    },
+    {
+      "nom": "Hammurabi",
+      "role": "Roi de Babylone",
+      "description": "Il unifie la Mésopotamie et fait graver un célèbre recueil de lois.",
+      "dates": "règne −1792 → −1750",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Hammurabi",
+      "ref": "hammurabi"
+    },
+    {
+      "nom": "Assurbanipal",
+      "role": "Roi d’Assyrie",
+      "description": "Dernier grand roi assyrien, il réunit à Ninive la plus grande bibliothèque du monde antique avant Alexandrie.",
+      "dates": "règne −669 → vers −631",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Assurbanipal",
+      "ref": "assurbanipal"
+    },
+    {
+      "nom": "Nabuchodonosor II",
+      "role": "Roi de Babylone",
+      "description": "Il fait de Babylone la plus grande ville du monde et détruit Jérusalem.",
+      "dates": "règne −605 → −562",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Nabuchodonosor_II",
+      "ref": "nabuchodonosor-ii"
+    },
+    {
+      "nom": "Enheduanna",
+      "role": "Grande prêtresse et poétesse",
+      "description": "Fille de Sargon, grande prêtresse du dieu-lune à Ur, elle est le plus ancien auteur connu par son nom.",
+      "dates": "vers −2285 → −2250",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Enheduanna"
+    },
+    {
       "nom": "Gilgamesh",
-      "role": "Roi légendaire d'Uruk",
-      "description": "Héros de la première grande épopée littéraire humaine, obsédé par la quête impossible de l'immortalité.",
-      "dates": "≈ -2600",
+      "role": "Roi légendaire d’Ourouk",
+      "description": "Héros de l’[[epopee-de-gilgamesh|Épopée de Gilgamesh]], il part en quête de l’immortalité. Un roi de ce nom a sans doute régné vers −2700.",
+      "dates": "vers −2700 ?",
       "wikiUrl": "https://fr.wikipedia.org/wiki/Gilgamesh"
     }
   ],
   "guerres": [
     {
+      "nom": "Chute de l’Empire assyrien",
+      "annee": -612,
+      "adversaires": ["Babyloniens (Nabopolassar)", "Mèdes (Cyaxare)"],
+      "allies": ["Égypte (Néchao II)"],
+      "morts": "Inconnues",
+      "vainqueur": "Babyloniens et Mèdes",
+      "consequences": "Assur (−614), puis Ninive (−612) sont détruites ; le dernier roi assyrien est vaincu à Harran (−609). Babylone hérite de l’empire.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Ninive"
+    },
+    {
       "nom": "Conquête de Babylone par les Perses",
       "annee": -539,
       "adversaires": ["Empire Perse (Cyrus le Grand)"],
-      "allies": ["Prêtres mécontents de Marduk"],
-      "morts": "Très faibles",
-      "vainqueur": "Perses Achéménides",
-      "consequences": "Les Perses détournent l'Euphrate et entrent par le lit du fleuve. L'indépendance de Babylone prend fin pour toujours.",
+      "allies": [],
+      "morts": "Faibles à Babylone ; une bataille a lieu auparavant à Opis",
+      "vainqueur": "Perses achéménides",
+      "consequences": "Après sa victoire d’Opis, Cyrus entre dans Babylone presque sans combat. La Mésopotamie ne sera plus jamais indépendante dans l’Antiquité.",
       "wikiUrl": "https://fr.wikipedia.org/wiki/Chute_de_Babylone"
     }
   ],
-  "sciences": "Leur génie mathématique structure toujours notre monde. Inventeurs du système sexagésimal (base 60), ils nous ont légué la division de l'heure en 60 minutes et du cercle en 360 degrés. Ils perfectionnent l'irrigation, tracent les premières cartes célestes (astronomie et zodiaque), et utilisent la brique cuite vernissée pour ériger d'immenses Ziggourats (tours à étages).",
-  "croyancesText": "Le monde a été façonné à partir du sang d'un dieu sacrifié pour libérer les divinités supérieures (Anu, Enlil, Enki) du fardeau du travail, délégué aux hommes. En Mésopotamie, les dieux sont capricieux et terrifiants. Le récit mésopotamien du Déluge (le Mythe d'Atrahasis), racontant la colère divine noyant l'humanité, sera repris plus tard dans la Bible biblique.",
-  "diplomatie": "La géopolitique babylonienne et assyrienne alterne entre alliances marchandes avec les Anatoliens et guerre de terreur. Les puissants empires militaristes du Nord (Assyrie) dominent par la guerre de siège (béliers, sapeurs) et la déportation massive (exil de la population à des milliers de kilomètres) pour effacer l'identité culturelle des vaincus et éviter les rébellions.",
-  "documentaires": [{ "titre": "L'épopée de la Mésopotamie", "url": "https://fr.wikipedia.org/wiki/M%C3%A9sopotamie" }]
+  "sciences": "Les Mésopotamiens comptent en base 60 : c’est d’eux que nous viennent les 60 minutes de l’heure et les 360 degrés du cercle. Ils résolvent des problèmes de géométrie et d’algèbre, observent le ciel pendant des siècles (les astronomes babyloniens prévoient les éclipses et inventent le zodiaque) et maîtrisent l’irrigation. Leurs ziggourats, tours à étages en briques crues, dominent les villes.",
+  "croyancesText": "Chaque cité a son dieu protecteur, qui habite le temple. Selon les mythes, les dieux ont créé les humains pour travailler à leur place ; le récit d’Atrahasis et l’Épopée de Gilgamesh racontent un déluge envoyé par les dieux, qui ressemble beaucoup à celui de la Bible. À Babylone, le dieu Marduk devient le roi des dieux. Les devins lisent l’avenir dans le foie des animaux et dans les astres.",
+  "diplomatie": "Les rois de Mésopotamie échangent lettres, cadeaux et princesses avec l’Égypte, les Hittites et les autres grandes puissances : les lettres d’Amarna, au XIVe siècle av. J.-C., en conservent la trace. Les Assyriens dominent par la terreur : sièges, destructions et déportations de populations entières vers d’autres régions de l’empire.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": {
+      "valeur": "Ourouk, Akkad, Ur, Babylone, Ninive…",
+      "precision": "la capitale change selon les dynasties et les empires"
+    },
+    "regimes": {
+      "valeur": "Cités-États, puis empires",
+      "precision": "chaque roi se présente comme le représentant des dieux"
+    },
+    "langues": {
+      "valeur": "Sumérien, puis akkadien",
+      "precision": "écrits en cunéiforme ; l’araméen se répand à partir du VIIIe siècle av. J.-C."
+    },
+    "religion": {
+      "valeur": "Polythéisme",
+      "precision": "Anu, Enlil, Enki, Inanna/Ishtar, puis Marduk à Babylone et Assur en Assyrie"
+    },
+    "apogee": {
+      "valeur": "Plusieurs âges d’or",
+      "precision": "Akkad (XXIIIe s.), Babylone d’Hammurabi (XVIIIe s.), Assyrie (VIIIe-VIIe s.), Babylone de Nabuchodonosor (VIe s.)"
+    },
+    "population": {
+      "valeur": "Ourouk : peut-être 40 000 habitants vers −3000",
+      "precision": "Babylone en compte sans doute plus de 100 000 au VIe siècle av. J.-C. (estimations)"
+    },
+    "monnaie": {
+      "valeur": "Pas de pièces",
+      "precision": "l’argent pesé (sicle, environ 8 g) et l’orge servent de moyens de paiement"
+    },
+    "duree": { "valeur": "Environ 3 000 ans" },
+    "aujourdhui": { "valeur": "Irak", "precision": "et une partie de la Syrie, de la Turquie et de l’Iran" }
+  },
+  "essentiel": [
+    "Vers −3300, à Ourouk, apparaît l’[[ecriture-cuneiforme|écriture cunéiforme]], d’abord pour tenir des comptes.",
+    "Les Sumériens vivent dans des cités-États rivales, dominées par des temples et des rois ; [[sargon-d-akkad|Sargon d’Akkad]] les réunit vers −2334 dans le premier empire.",
+    "Vers −1754, [[hammurabi|Hammurabi]] de Babylone fait graver un [[code-de-hammurabi|recueil de lois]] sur une stèle de basalte.",
+    "Au Ier millénaire, l’Assyrie domine tout le Proche-Orient ; [[assurbanipal|Assurbanipal]] réunit à Ninive une immense bibliothèque de tablettes.",
+    "Après la [[chute-de-ninive|chute de Ninive]] (−612), Babylone retrouve sa splendeur avec [[nabuchodonosor-ii|Nabuchodonosor II]], avant d’être [[prise-de-babylone|prise par les Perses]] en −539."
+  ],
+  "periodes": [
+    {
+      "nom": "Les premières villes",
+      "debut": -3500,
+      "fin": -2900,
+      "resume": "Ourouk devient la première grande ville du monde. On y invente l’écriture, le sceau-cylindre et l’administration.",
+      "evenements": [{ "annee": -3300, "evenement": "Premières tablettes écrites" }]
+    },
+    {
+      "nom": "Les cités sumériennes",
+      "debut": -2900,
+      "fin": -2334,
+      "resume": "Ur, Lagash, Ourouk, Kish… des dizaines de cités-États se disputent l’eau et les terres. Les tombes royales d’Ur révèlent leur richesse.",
+      "evenements": [{ "annee": -2450, "evenement": "Stèle des vautours (Lagash)" }]
+    },
+    {
+      "nom": "Akkad et la renaissance sumérienne",
+      "debut": -2334,
+      "fin": -2004,
+      "resume": "Sargon fonde l’empire d’Akkad. Après sa chute, la IIIe dynastie d’Ur réunifie le pays et bâtit de grandes ziggourats.",
+      "evenements": [
+        { "annee": -2334, "evenement": "Sargon fonde l’empire d’Akkad" },
+        { "annee": -2112, "evenement": "Ur-Nammu fonde la IIIe dynastie d’Ur" },
+        { "annee": -2004, "evenement": "Les Élamites détruisent Ur" }
+      ]
+    },
+    {
+      "nom": "Babylone et l’Assyrie",
+      "debut": -2004,
+      "fin": -912,
+      "resume": "Hammurabi fait de Babylone la capitale de la Mésopotamie. Après le raid hittite, les Kassites y règnent quatre siècles, tandis que l’Assyrie grandit au nord.",
+      "evenements": [
+        { "annee": -1754, "evenement": "Code de Hammurabi" },
+        { "annee": -1595, "evenement": "Raid hittite sur Babylone" }
+      ]
+    },
+    {
+      "nom": "L’Empire assyrien",
+      "debut": -912,
+      "fin": -609,
+      "resume": "Les rois assyriens conquièrent tout le Proche-Orient, jusqu’à l’Égypte, et déportent des populations entières. Leur empire s’effondre en quelques années.",
+      "evenements": [
+        { "annee": -722, "evenement": "Prise de Samarie, fin du royaume d’Israël" },
+        { "annee": -671, "evenement": "Conquête de l’Égypte" },
+        { "annee": -612, "evenement": "Chute de Ninive", "ref": "chute-de-ninive" }
+      ]
+    },
+    {
+      "nom": "L’Empire néo-babylonien",
+      "debut": -626,
+      "fin": -539,
+      "resume": "Babylone domine à son tour la région. Nabuchodonosor II la couvre de monuments, comme la porte d’Ishtar.",
+      "evenements": [
+        { "annee": -587, "evenement": "Destruction de Jérusalem" },
+        { "annee": -539, "evenement": "Prise de Babylone par Cyrus", "ref": "prise-de-babylone" }
+      ]
+    }
+  ],
+  "regimes": [
+    {
+      "id": "cites",
+      "nom": "Cités-États",
+      "debut": -3500,
+      "fin": -2334,
+      "note": "Chaque cité a son roi (lugal) ou son prince (ensi), au service du dieu de la ville."
+    },
+    {
+      "id": "empires",
+      "nom": "Royaumes et empires",
+      "debut": -2334,
+      "fin": -539,
+      "note": "Des dynasties successives unifient la région ou s’y affrontent : Akkad, Ur, Babylone, l’Assyrie."
+    }
+  ],
+  "dynasties": [
+    {
+      "id": "sumer",
+      "nom": "Rois des cités sumériennes",
+      "debut": -2700,
+      "fin": -2334,
+      "regime": "cites",
+      "note": "Dates très approximatives. Gilgamesh, roi d’Ourouk vers −2700, est surtout connu par la légende."
+    },
+    {
+      "id": "akkad",
+      "nom": "L’empire d’Akkad",
+      "debut": -2334,
+      "fin": -2193,
+      "regime": "empires",
+      "note": "Dates de la « chronologie moyenne », la plus utilisée ; elles restent incertaines de plusieurs décennies."
+    },
+    {
+      "id": "ur",
+      "nom": "Renaissance sumérienne et IIIe dynastie d’Ur",
+      "debut": -2144,
+      "fin": -2004,
+      "regime": "empires"
+    },
+    { "id": "babylone", "nom": "La Ire dynastie de Babylone", "debut": -1894, "fin": -1595, "regime": "empires" },
+    {
+      "id": "assyrie",
+      "nom": "Les rois d’Assyrie",
+      "debut": -1808,
+      "fin": -609,
+      "regime": "empires",
+      "note": "Sélection parmi plus d’une centaine de rois."
+    },
+    {
+      "id": "kassites",
+      "nom": "Babylone kassite et médio-babylonienne",
+      "debut": -1595,
+      "fin": -1104,
+      "regime": "empires"
+    },
+    { "id": "neobab", "nom": "L’Empire néo-babylonien", "debut": -626, "fin": -539, "regime": "empires" }
+  ],
+  "societe": "Au sommet, le roi et les prêtres ; puis les hommes libres (artisans, marchands, paysans), les dépendants et les esclaves. Le code d’Hammurabi prévoit des peines différentes selon le rang. Les scribes, formés pendant des années dans les « maisons des tablettes », sont très considérés.",
+  "economie": "Agriculture irriguée (orge, dattes, sésame), élevage de moutons pour la laine, tissage. Pauvre en bois, en pierre et en métaux, la Mésopotamie les importe d’Anatolie, d’Iran et du golfe Persique en échange de textiles et de céréales.",
+  "decouvertes": ["ecriture-cuneiforme", "code-de-hammurabi", "epopee-de-gilgamesh", "roue"],
+  "arts": "Étendard d’Ur, tombes royales d’Ur, stèle de Naram-Sin, statues de Gudéa, bas-reliefs des palais assyriens (chasse au lion d’Assurbanipal), porte d’Ishtar en briques émaillées bleues : l’art mésopotamien glorifie les dieux et les rois.",
+  "quotidien": "Les habitants vivent dans des maisons de brique crue autour d’une cour. Ils boivent de la bière d’orge, mangent du pain, des dattes et des oignons. Les enfants des familles aisées apprennent à écrire à l’école des scribes.",
+  "heritage": [
+    {
+      "titre": "L’écriture",
+      "texte": "Le cunéiforme est l’une des plus anciennes écritures du monde ; il a été utilisé pendant plus de 3 000 ans."
+    },
+    {
+      "titre": "Le temps et les mathématiques",
+      "texte": "Nos heures de 60 minutes, nos minutes de 60 secondes et nos cercles de 360 degrés viennent de la base 60 mésopotamienne."
+    },
+    {
+      "titre": "La Bible",
+      "texte": "Le déluge, la tour de Babel (inspirée des ziggourats) et l’exil à Babylone viennent de cet univers."
+    }
+  ],
+  "aSavoir": [
+    "Les célèbres jardins suspendus de Babylone, l’une des Sept Merveilles du monde, ne sont mentionnés par aucun texte babylonien : certains historiens pensent qu’ils se trouvaient en réalité à Ninive.",
+    "De nombreux sites mésopotamiens ont été pillés ou détruits lors des guerres récentes en Irak et en Syrie."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/M%C3%A9sopotamie",
+    {
+      "titre": "Encyclopædia Britannica — History of Mesopotamia",
+      "url": "https://www.britannica.com/place/Mesopotamia-historical-region-Asia"
+    }
+  ]
 }

@@ -1,0 +1,20 @@
+{
+  "id": "persepolis",
+  "nom": "Persépolis",
+  "annee": -518,
+  "domaine": "Architecture",
+  "dates": "−518 → −330",
+  "description": "La capitale cérémonielle des rois perses, fondée par [[darius-ier|Darius Ier]] : un ensemble de palais sur une immense terrasse, au sud de l’Iran.",
+  "sections": [
+    {
+      "titre": "Ce qu’on y voit",
+      "texte": "La salle d’audience (l’Apadana) comptait 72 colonnes de près de 20 mètres. Les escaliers sont décorés de bas-reliefs montrant les délégations des peuples de l’empire apportant leurs cadeaux."
+    },
+    {
+      "titre": "Sa fin",
+      "texte": "En −330, Alexandre le Grand pille les trésors de la ville et incendie les palais."
+    }
+  ],
+  "liens": [{ "ref": "darius-ier", "relation": "Son fondateur" }, { "ref": "alexandre-le-grand", "relation": "Il l’incendie" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Pers%C3%A9polis"
+}

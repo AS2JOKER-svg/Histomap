@@ -1,0 +1,22 @@
+{
+  "id": "nabuchodonosor-ii",
+  "nom": "Nabuchodonosor II",
+  "role": "Roi de Babylone",
+  "roles": ["Roi", "Bâtisseur"],
+  "dates": "règne −605 → −562",
+  "mort": -562,
+  "description": "Roi de Babylone qui domine le Proche-Orient, détruit Jérusalem et fait de sa capitale la plus grande ville du monde de son temps.",
+  "essentiel": [
+    "Avant même de régner, il bat les Égyptiens à Karkemish (−605).",
+    "Il prend Jérusalem, détruit le Temple en −587 et déporte une partie de la population : c’est l’exil à Babylone.",
+    "Il fait bâtir la porte d’Ishtar, les remparts et la grande ziggourat de Babylone."
+  ],
+  "chronologie": [
+    { "annee": -605, "texte": "Victoire de Karkemish et début du règne" },
+    { "annee": -597, "texte": "Première prise de Jérusalem" },
+    { "annee": -587, "texte": "Destruction de Jérusalem et du Temple" },
+    { "annee": -562, "texte": "Mort" }
+  ],
+  "aSavoir": ["La porte d’Ishtar, en briques émaillées bleues, a été reconstruite au musée de Pergame, à Berlin."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Nabuchodonosor_II"
+}

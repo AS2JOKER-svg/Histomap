@@ -56,10 +56,5 @@
   "sciences": "Pauvres en ressources naturelles, ils se distinguent par une ingénierie de survie, notamment le système de défense hydrique. Le roi Ézéchias fait creuser un impressionnant tunnel aqueduc (533 mètres sous la roche en partant des deux extrémités) pour garantir l'approvisionnement en eau de Jérusalem lors du siège sanglant mené par les Assyriens.",
   "croyancesText": "L'invention révolutionnaire du Yahwisme : le passage progressif de l'hénothéisme (Yahvé est le plus fort des dieux) au monothéisme strict (il est le seul Dieu, incréé, moral, agissant dans l'Histoire). L'aniconisme (refus de représenter Dieu en image) et la sanctification du jour du repos (Shabbat) sont des concepts en rupture totale avec les civilisations voisines.",
   "diplomatie": "Placé géographiquement sur le corridor militaire inévitable entre les empires égyptien, hittite et mésopotamien, le royaume oscille constamment entre soumission, révoltes et exils. Leur stratégie politique repose sur le messianisme : l'espoir théologique d'une restauration divine finale de la nation israélite face aux persécutions païennes successives (Séléucides, Romains).",
-  "documentaires": [
-    {
-      "titre": "L'Histoire du peuple hébreu",
-      "url": "https://fr.wikipedia.org/wiki/H%C3%A9breux"
-    }
-  ]
+  "documentaires": [{ "titre": "L'Histoire du peuple hébreu", "url": "https://fr.wikipedia.org/wiki/H%C3%A9breux" }]
 }

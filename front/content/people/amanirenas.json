@@ -1,0 +1,19 @@
+{
+  "id": "amanirenas",
+  "nom": "Amanirenas",
+  "role": "Reine de Méroé",
+  "roles": ["Reine (kandake)", "Chef de guerre"],
+  "dates": "Ier siècle av. J.-C.",
+  "mort": -10,
+  "description": "Reine de Koush qui attaque l’Égypte romaine vers −24, résiste à la contre-offensive romaine et obtient une paix qui préserve l’indépendance de son royaume.",
+  "essentiel": [
+    "Ses troupes prennent Assouan et Philae et renversent des statues d’Auguste.",
+    "Une tête en bronze d’Auguste, rapportée en trophée, a été retrouvée enterrée à Méroé.",
+    "La paix de Samos (−21/−20) supprime le tribut exigé par Rome."
+  ],
+  "aSavoir": [
+    "L’historien grec Strabon la décrit comme « une femme virile, qui avait perdu un œil ».",
+    "Ses dates de règne exactes sont inconnues."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Amanirenas"
+}

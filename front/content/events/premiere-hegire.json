@@ -1,0 +1,19 @@
+{
+  "id": "premiere-hegire",
+  "nom": "Accueil des premiers musulmans à Aksoum",
+  "annee": 615,
+  "dates": "vers 615",
+  "lieu": "Royaume d’Aksoum",
+  "description": "Persécutés à La Mecque, des compagnons de Mahomet trouvent refuge auprès du roi chrétien d’Aksoum. La tradition musulmane appelle cet épisode la « première hégire ».",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Selon la tradition, le roi d’Aksoum (le négus) refuse de livrer les réfugiés aux envoyés de La Mecque après avoir écouté leur foi."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "L’épisode laisse un souvenir favorable de l’Éthiopie dans la tradition musulmane."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Hijra_en_Abyssinie"
+}

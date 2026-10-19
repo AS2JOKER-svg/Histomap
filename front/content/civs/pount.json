@@ -11,7 +11,7 @@
   "row": 6,
   "isRiver": false,
   "capitale": "Inconnue",
-  "description": "L'Eldorado de l'Antiquité, royaume mystérieux de la Corne de l'Afrique, grand fournisseur de myrrhe et d'encens pour les temples égyptiens.",
+  "description": "Le « pays de Pount », partenaire commercial de l’Égypte pendant plus de mille ans, grand fournisseur d’encens, de myrrhe, d’or et d’animaux exotiques. Sa localisation exacte reste discutée.",
   "territories": [],
   "datesCles": [
     {
@@ -20,24 +20,106 @@
       "info": "Le pharaon Sahourê envoie la première flotte documentée vers Pount."
     },
     {
-      "annee": -1473,
+      "annee": -1470,
       "evenement": "L'expédition d'Hatchepsout",
-      "info": "Mission monumentale immortalisée sur les murs du temple de Deir el-Bahari."
+      "info": "Une flotte égyptienne revient avec des arbres à encens, de l’or et des animaux ; l’expédition est racontée sur les murs de Deir el-Bahari.",
+      "ref": "expedition-de-pount"
     }
   ],
-  "dirigeants": [{ "titre": "Roi", "nom": "Parahou", "debut": -1480, "fin": -1470 }],
+  "dirigeants": [
+    {
+      "nom": "Parahou",
+      "titre": "Roi",
+      "debut": -1470,
+      "fin": -1470,
+      "dynastie": "pount",
+      "note": "représenté à Deir el-Bahari",
+      "cle": true
+    },
+    { "nom": "Ati", "titre": "Reine", "debut": -1470, "fin": -1470, "dynastie": "pount", "note": "épouse de Parahou" }
+  ],
   "personnages": [
     {
-      "nom": "Reine Ati",
-      "role": "Souveraine de Pount",
-      "description": "Représentée sur les bas-reliefs égyptiens avec une silhouette très particulière (certains y voient une possible stéatopygie, mais l'interprétation reste prudente), elle accueille l'expédition égyptienne.",
-      "dates": "≈ -1473",
-      "wikiUrl": "https://fr.wikipedia.org/wiki/Pays_de_Pount"
+      "nom": "Ati",
+      "role": "Reine de Pount",
+      "description": "Épouse du roi Parahou, elle accueille l’expédition d’Hatchepsout ; les reliefs égyptiens la représentent avec une silhouette très particulière, dont l’interprétation reste prudente.",
+      "dates": "vers −1470",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Ati_(reine)"
+    },
+    {
+      "nom": "Hatchepsout",
+      "role": "Pharaon d’Égypte",
+      "description": "Elle envoie vers −1470 la plus célèbre expédition vers Pount.",
+      "dates": "règne −1473 → −1458",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Hatchepsout",
+      "ref": "hatchepsout"
     }
   ],
   "guerres": [],
-  "sciences": "Leur maîtrise de l'extraction, du bouturage et du conditionnement des résines aromatiques d'arbres endémiques (Boswellia pour l'encens, Commiphora pour la myrrhe) en faisait les maîtres d'une proto-industrie du luxe, indispensable à l'embaumement et aux liturgies du monde antique nord-africain.",
-  "croyancesText": "Pour les Égyptiens, Pount était 'Ta Nétjer', le Pays des Dieux. C'était la terre mythique d'où provenaient les dieux Hathor et Bès, et la patrie de la myrrhe, considérée comme les 'larmes des dieux'. Les rituels de Pount incluaient vraisemblablement un culte animiste axé sur l'abondance des ressources de la savane.",
-  "diplomatie": "C'est l'un des premiers partenariats commerciaux pacifiques documentés de l'histoire. Les Égyptiens apportaient des armes, des bijoux et des amulettes, échangés contre des arbres à encens avec leurs racines, de l'or, des peaux de panthères, du bois d'ébène et des babouins sacrés. Il n'y a aucune trace de tentative de conquête militaire.",
-  "documentaires": [{ "titre": "Le fabuleux pays de Pount", "url": "https://fr.wikipedia.org/wiki/Pays_de_Pount" }]
+  "sciences": "Les habitants de Pount savaient récolter et conserver les résines d’arbres à encens (Boswellia) et à myrrhe (Commiphora), très recherchées en Égypte pour les temples et l’embaumement. Les Égyptiens rapportèrent même des arbres entiers, avec leurs racines, pour les replanter.",
+  "croyancesText": "Pour les Égyptiens, Pount était « Ta-netjer », le pays du dieu, d’où venaient les parfums offerts aux divinités. La déesse Hathor y était appelée « dame de Pount ». On ne sait presque rien des croyances des habitants eux-mêmes.",
+  "diplomatie": "Les relations avec l’Égypte semblent pacifiques et commerciales : les Égyptiens apportent bijoux, armes et outils, et reçoivent encens, myrrhe, or, ébène, ivoire, peaux de panthère et babouins.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": { "valeur": "Inconnue", "precision": "les villages représentés sont faits de huttes sur pilotis" },
+    "regimes": {
+      "valeur": "Chefferie ou royaume",
+      "precision": "les reliefs égyptiens montrent un roi, Parahou, et une reine, Ati"
+    },
+    "langues": { "valeur": "Inconnues" },
+    "religion": { "valeur": "Inconnue", "precision": "pour les Égyptiens, c’est le « pays du dieu »" },
+    "monnaie": { "valeur": "Aucune", "precision": "troc avec les Égyptiens" },
+    "duree": { "valeur": "Environ 1 500 ans de contacts avec l’Égypte" },
+    "aujourdhui": {
+      "valeur": "Corne de l’Afrique",
+      "precision": "probablement entre l’Érythrée, le nord de l’Éthiopie et l’est du Soudan ; peut-être aussi la côte arabe"
+    }
+  },
+  "essentiel": [
+    "Pount n’est connu que par les textes et les images égyptiens : aucun site n’a encore été identifié avec certitude.",
+    "Dès l’Ancien Empire, les pharaons y envoient des expéditions chercher encens, myrrhe, or, ébène et animaux.",
+    "L’[[expedition-de-pount|expédition d’Hatchepsout]], vers −1470, est racontée en images sur les murs de son temple de Deir el-Bahari.",
+    "Les reliefs montrent un roi, Parahou, une reine, Ati, et des maisons sur pilotis au milieu des arbres à encens.",
+    "Des analyses de momies de babouins rapportés en Égypte désignent une région proche de l’Érythrée et de l’Éthiopie actuelles."
+  ],
+  "periodes": [
+    {
+      "nom": "Les premières expéditions",
+      "debut": -2500,
+      "fin": -1550,
+      "resume": "Sous l’Ancien et le Moyen Empire, les Égyptiens organisent des voyages vers Pount, par la mer Rouge.",
+      "evenements": [{ "annee": -2480, "evenement": "Expédition du pharaon Sahourê" }]
+    },
+    {
+      "nom": "Le Nouvel Empire",
+      "debut": -1550,
+      "fin": -1000,
+      "resume": "Les contacts sont nombreux : Hatchepsout, Thoutmôsis III et Ramsès III mènent des expéditions vers Pount, avant que les mentions ne se raréfient.",
+      "evenements": [{ "annee": -1470, "evenement": "Expédition d’Hatchepsout", "ref": "expedition-de-pount" }]
+    }
+  ],
+  "dynasties": [
+    {
+      "id": "pount",
+      "nom": "Souverains de Pount",
+      "debut": -1480,
+      "fin": -1460,
+      "note": "Seuls deux souverains sont connus, par les reliefs égyptiens de Deir el-Bahari."
+    }
+  ],
+  "societe": "Les reliefs montrent un roi et une reine accueillant les Égyptiens, des villages de huttes coniques sur pilotis et des habitants qui portent les marchandises.",
+  "economie": "Récolte de l’encens et de la myrrhe, or, bois précieux, ivoire, élevage de bétail.",
+  "arts": "Aucun art de Pount n’est identifié ; ce sont les reliefs égyptiens qui nous montrent ses habitants.",
+  "quotidien": "Les maisons sur pilotis, accessibles par des échelles, protégeaient sans doute des crues ou des animaux.",
+  "heritage": [
+    {
+      "titre": "La route de l’encens",
+      "texte": "La Corne de l’Afrique reste aujourd’hui l’une des grandes régions productrices d’encens et de myrrhe."
+    }
+  ],
+  "aSavoir": [
+    "Pount n’était peut-être pas un royaume au sens strict, mais une région où vivaient plusieurs peuples.",
+    "Une étude publiée en 2023 sur des momies de babouins rapportés en Égypte situe leur origine dans une zone couvrant l’Érythrée, l’Éthiopie et la Somalie actuelles."
+  ],
+  "sources": ["https://fr.wikipedia.org/wiki/Pays_de_Pount"]
 }

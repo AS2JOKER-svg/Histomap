@@ -1,0 +1,20 @@
+{
+  "id": "lineaire-b",
+  "nom": "Linéaire B",
+  "annee": -1450,
+  "domaine": "Écriture",
+  "dates": "vers −1450 → −1200",
+  "description": "L’écriture des palais mycéniens, utilisée sur des tablettes d’argile pour tenir des comptes. Déchiffrée en 1952, elle note la plus ancienne forme connue du grec.",
+  "sections": [
+    {
+      "titre": "Comment ça marche",
+      "texte": "Environ 90 signes notent des syllabes, complétés par des idéogrammes (homme, cheval, jarre…) et des chiffres. Les tablettes, cuites par hasard dans les incendies des palais, sont arrivées jusqu’à nous."
+    },
+    {
+      "titre": "Déchiffrement",
+      "texte": "En 1952, l’architecte britannique Michael Ventris montre que les tablettes notent du grec, à la surprise générale."
+    }
+  ],
+  "aSavoir": ["Le linéaire A, écriture plus ancienne des Minoens, n’est toujours pas déchiffré."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Lin%C3%A9aire_B"
+}

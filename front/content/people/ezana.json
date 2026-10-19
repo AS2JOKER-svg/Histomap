@@ -1,0 +1,16 @@
+{
+  "id": "ezana",
+  "nom": "Ézana",
+  "role": "Roi d’Aksoum",
+  "roles": ["Roi des rois"],
+  "dates": "règne vers 320 → 360",
+  "mort": 360,
+  "description": "Roi d’Aksoum qui se convertit au christianisme vers 330, sous l’influence de l’évêque Frumence, faisant de son royaume l’un des premiers États chrétiens.",
+  "essentiel": [
+    "Ses monnaies remplacent le croissant et le disque, symboles des anciens dieux, par la croix.",
+    "Ses inscriptions, en guèze, en sabéen et en grec, racontent ses campagnes, dont une expédition vers le Nil.",
+    "Il est vénéré comme saint par l’Église éthiopienne."
+  ],
+  "aSavoir": ["Ses dates de règne exactes sont inconnues ; on les situe au milieu du IVe siècle."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/%C3%89zana"
+}

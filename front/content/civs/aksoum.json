@@ -3,14 +3,14 @@
   "label": "Royaume d'Aksoum",
   "tier": 1,
   "region": "corne-afrique",
-  "period": "100 à 476",
+  "period": "vers 100 à vers 940",
   "start": 100,
-  "end": 476,
+  "end": 940,
   "trackId": "corne_afrique",
   "row": 4,
   "isRiver": false,
   "capitale": "Aksoum",
-  "description": "Puissance commerciale majeure de la mer Rouge et l'un des premiers empires au monde à adopter officiellement le christianisme.",
+  "description": "Puissance commerciale de la mer Rouge, dans l’actuelle Éthiopie, Aksoum frappe sa propre monnaie et devient au IVe siècle l’un des premiers États à adopter le christianisme.",
   "territories": ["Axum"],
   "datesCles": [
     {
@@ -21,22 +21,85 @@
     {
       "annee": 330,
       "evenement": "Conversion au Christianisme",
-      "info": "Le roi Ézana fait du christianisme la religion d'État, ce qui le rapproche de l'Empire romain."
+      "info": "Le roi Ézana se convertit au christianisme, sous l’influence de l’évêque Frumence ; la croix apparaît sur ses monnaies."
     },
     {
       "annee": 350,
       "evenement": "Expédition d'Ézana vers le Nil",
       "info": "Le roi Ézana mène une expédition vers le Nil ; le royaume de Méroé (Koush), déjà affaibli, disparaît à cette époque."
+    },
+    {
+      "annee": 525,
+      "evenement": "Expédition au Yémen",
+      "info": "Le roi Kaleb traverse la mer Rouge et renverse le roi himyarite qui persécutait les chrétiens."
+    },
+    {
+      "annee": 615,
+      "evenement": "Accueil des premiers musulmans",
+      "info": "Des compagnons de Mahomet, persécutés à La Mecque, trouvent refuge auprès du roi d’Aksoum.",
+      "ref": "premiere-hegire"
     }
   ],
-  "dirigeants": [{ "titre": "Négus (Roi des Rois)", "nom": "Ézana", "surnom": "Le Converti", "debut": 320, "fin": 360 }],
+  "dirigeants": [
+    {
+      "nom": "Zoskalès",
+      "titre": "Roi",
+      "debut": 100,
+      "fin": 100,
+      "dynastie": "rois",
+      "note": "cité par le Périple de la mer Érythrée ; date approximative"
+    },
+    {
+      "nom": "Endybis",
+      "titre": "Roi",
+      "debut": 270,
+      "fin": 300,
+      "dynastie": "rois",
+      "note": "premier roi connu par ses monnaies"
+    },
+    {
+      "nom": "Ézana",
+      "titre": "Roi des rois",
+      "debut": 320,
+      "fin": 360,
+      "dynastie": "rois",
+      "personne": "ezana",
+      "note": "se convertit au christianisme",
+      "cle": true
+    },
+    {
+      "nom": "Kaleb",
+      "titre": "Roi des rois",
+      "debut": 510,
+      "fin": 540,
+      "dynastie": "rois",
+      "note": "expédition au Yémen (525)",
+      "cle": true
+    },
+    {
+      "nom": "Armah",
+      "titre": "Roi des rois",
+      "debut": 614,
+      "fin": 631,
+      "dynastie": "rois",
+      "note": "souvent identifié au roi qui accueille les premiers musulmans"
+    }
+  ],
   "personnages": [
     {
-      "nom": "Frumence de Tyr",
-      "role": "Évêque d'Aksoum",
-      "description": "Philosophe syro-grec capturé lors d'une escale en mer Rouge, devenu conseiller royal et initiateur de la christianisation du royaume.",
-      "dates": "≈ 300 - 383",
-      "wikiUrl": "https://fr.wikipedia.org/wiki/Frumence_d'Aksoum"
+      "nom": "Ézana",
+      "role": "Roi",
+      "description": "Roi d’Aksoum qui se convertit au christianisme vers 330 et remplace le croissant par la croix sur ses monnaies.",
+      "dates": "IVe siècle",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/%C3%89zana",
+      "ref": "ezana"
+    },
+    {
+      "nom": "Frumence",
+      "role": "Premier évêque d’Aksoum",
+      "description": "Jeune chrétien de Tyr capturé en mer Rouge, il devient conseiller à la cour, puis évêque ; il est à l’origine de la conversion du royaume.",
+      "dates": "IVe siècle",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Frumence_d%27Aksoum"
     }
   ],
   "guerres": [
@@ -51,8 +114,89 @@
       "wikiUrl": "https://fr.wikipedia.org/wiki/Royaume_d'Aksoum"
     }
   ],
-  "sciences": "Les Aksoumites sont des maîtres de l'ingénierie navale, naviguant avec les moussons jusqu'en Inde et à Ceylan. Architectes exceptionnels, ils bâtissent des stèles géantes monolithes pesant jusqu'à 500 tonnes, censées représenter des palais à plusieurs étages. Ils créent et utilisent l'écriture guèze, dérivée de l'écriture sud-arabique et toujours utilisée en Éthiopie et en Érythrée.",
-  "croyancesText": "D'abord polythéistes (vénérant Astar et le dieu de la guerre Mahrem, assimilé au dieu grec Arès), ils opèrent un basculement géopolitique radical vers 330. Le roi Ézana remplace le croissant et le disque solaire par la Croix sur ses monnaies. L'Église orthodoxe tewahedo qui en naît possède une liturgie unique, fortement imprégnée de judaïsme (revendiquant la possession de l'Arche d'Alliance).",
-  "diplomatie": "Considéré par le prophète persan Mani (au IIIe siècle) comme l'un des quatre plus grands empires du monde (avec Rome, la Perse et la Chine). Aksoum contrôle le détroit de Bab el-Mandeb, taxant tout le commerce d'ivoire, d'or, d'encens et d'esclaves entre l'Empire romain d'Orient, la Perse sassanide et l'Inde antique.",
-  "documentaires": [{ "titre": "Aksoum, la Rome africaine", "url": "https://fr.wikipedia.org/wiki/Royaume_d'Aksoum" }]
+  "sciences": "Les Aksoumites taillent des stèles monolithes géantes, sculptées comme des façades de palais à plusieurs étages : la plus grande, aujourd’hui tombée, mesurait environ 33 mètres. Ils naviguent jusqu’en Inde grâce aux vents de la mousson. Leur écriture, le guèze, est encore utilisée par l’Église éthiopienne.",
+  "croyancesText": "D’abord polythéistes (le dieu de la guerre Mahrem, Astar), les rois se convertissent au christianisme avec Ézana, vers 330. L’Église éthiopienne orthodoxe tewahedo qui en est issue garde des traditions proches du judaïsme et affirme conserver à Aksoum l’Arche d’Alliance, ce que personne ne peut vérifier.",
+  "diplomatie": "Au IIIe siècle, le prophète perse Mani cite Aksoum parmi les quatre grands royaumes du monde, avec Rome, la Perse et la Chine. Aksoum contrôle le sud de la mer Rouge et taxe le commerce de l’ivoire, de l’or, de l’encens et des esclaves. Il est allié de l’Empire byzantin, notamment lors de l’expédition au Yémen.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": { "valeur": "Aksoum", "precision": "port principal : Adulis, sur la mer Rouge" },
+    "regimes": { "valeur": "Monarchie", "precision": "le roi porte le titre de « roi des rois » (negusa nagast)" },
+    "langues": { "valeur": "Guèze", "precision": "écrit avec un alphabet issu du sud de l’Arabie ; grec pour le commerce" },
+    "religion": { "valeur": "Polythéisme, puis christianisme", "precision": "conversion du roi Ézana vers 330" },
+    "apogee": { "valeur": "IVe-VIe siècles", "precision": "domine le nord de l’Éthiopie, l’Érythrée et, un temps, le Yémen" },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": { "valeur": "Pièces d’or, d’argent et de bronze", "precision": "frappées à partir de la fin du IIIe siècle" },
+    "duree": { "valeur": "Plus de 800 ans" },
+    "aujourdhui": { "valeur": "Éthiopie et Érythrée", "precision": "avec, au VIe siècle, une partie du Yémen" }
+  },
+  "essentiel": [
+    "Aksoum contrôle le commerce entre la Méditerranée, l’Arabie et l’Inde, grâce à son port d’Adulis sur la mer Rouge.",
+    "Ses rois font frapper des monnaies d’or, chose rare à l’époque, et élever d’immenses stèles de pierre.",
+    "Vers 330, le roi [[ezana|Ézana]] se convertit au christianisme, qui reste depuis la religion d’une grande partie des Éthiopiens.",
+    "Au VIe siècle, le roi Kaleb intervient au Yémen ; en 615, Aksoum accueille les premiers musulmans réfugiés de La Mecque.",
+    "Le royaume décline à partir du VIIe siècle, quand le commerce de la mer Rouge passe sous contrôle arabe."
+  ],
+  "periodes": [
+    {
+      "nom": "La formation du royaume",
+      "debut": 100,
+      "fin": 300,
+      "resume": "Aksoum s’impose sur les hauts plateaux. Le Périple de la mer Érythrée, guide grec du Ier siècle, décrit déjà son port d’Adulis et son roi Zoskalès.",
+      "evenements": [{ "annee": 270, "evenement": "Premières monnaies aksoumites" }]
+    },
+    {
+      "nom": "L’apogée chrétien",
+      "debut": 300,
+      "fin": 630,
+      "resume": "Ézana se convertit et étend son pouvoir jusqu’au Nil ; Kaleb intervient au Yémen. Aksoum est alors l’une des grandes puissances du monde.",
+      "evenements": [
+        { "annee": 330, "evenement": "Conversion d’Ézana" },
+        { "annee": 525, "evenement": "Expédition au Yémen" },
+        { "annee": 615, "evenement": "Accueil des premiers musulmans", "ref": "premiere-hegire" }
+      ]
+    },
+    {
+      "nom": "Le déclin",
+      "debut": 630,
+      "fin": 940,
+      "resume": "Les conquêtes arabes détournent le commerce ; la capitale perd son rôle et le pouvoir se déplace vers l’intérieur des plateaux."
+    }
+  ],
+  "dynasties": [
+    {
+      "id": "rois",
+      "nom": "Les rois d’Aksoum",
+      "debut": 100,
+      "fin": 940,
+      "note": "Sélection des rois les mieux connus, surtout par leurs monnaies et leurs inscriptions ; dates approximatives."
+    }
+  ],
+  "societe": "Le roi des rois domine des souverains locaux qui lui versent tribut. La société compte une élite de nobles et de prêtres, des marchands, des agriculteurs et des esclaves.",
+  "economie": "Agriculture des hauts plateaux (orge, blé, teff), élevage, et surtout commerce international : ivoire, or, encens et animaux exotiques contre tissus, vin, huile et métaux.",
+  "arts": "Stèles monumentales, monnaies finement gravées, palais aux murs à décrochements et premières églises : l’architecture d’Aksoum inspirera les églises éthiopiennes.",
+  "quotidien": "La plupart des habitants sont paysans sur les hauts plateaux. À Aksoum et à Adulis, marchands grecs, égyptiens, arabes et indiens se croisent.",
+  "heritage": [
+    {
+      "titre": "Le christianisme éthiopien",
+      "texte": "L’Église tewahedo, née à Aksoum, compte aujourd’hui des dizaines de millions de fidèles."
+    },
+    {
+      "titre": "L’obélisque d’Aksoum",
+      "texte": "Emportée à Rome par les troupes italiennes en 1937, une grande stèle a été rendue à l’Éthiopie en 2005."
+    },
+    {
+      "titre": "Le guèze",
+      "texte": "L’alphabet éthiopien actuel, utilisé pour l’amharique et le tigrigna, en descend."
+    }
+  ],
+  "aSavoir": [
+    "La légende éthiopienne fait descendre les rois d’Aksoum de la reine de Saba et du roi Salomon ; c’est un récit fondateur, pas un fait historique."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Royaume_d%27Aksoum",
+    {
+      "titre": "Encyclopædia Britannica — Aksum",
+      "url": "https://www.britannica.com/place/Aksum-ancient-kingdom-Africa"
+    }
+  ]
 }

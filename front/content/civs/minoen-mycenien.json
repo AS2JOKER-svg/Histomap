@@ -10,7 +10,7 @@
   "row": 1,
   "isRiver": false,
   "capitale": "Knossos / Mycènes",
-  "description": "Les premières civilisations urbaines et lettrées d'Europe : d'abord la thalassocratie pacifique minoenne en Crète, puis la culture guerrière des Mycéniens.",
+  "description": "Les premières civilisations des palais en Europe : les Minoens en Crète, puis les Mycéniens en Grèce continentale, jusqu’à l’effondrement de l’âge du bronze vers −1200.",
   "territories": ["Minoan", "Cycladic"],
   "datesCles": [
     {
@@ -21,12 +21,13 @@
     {
       "annee": -1600,
       "evenement": "Émergence de Mycènes",
-      "info": "Sur le continent, essor d'une élite guerrière indo-européenne bâtissant des citadelles cyclopéennes."
+      "info": "Sur le continent, des chefs guerriers grecs bâtissent des citadelles et se font enterrer avec de riches trésors (tombes à fosse de Mycènes)."
     },
     {
       "annee": -1600,
       "evenement": "Éruption de Théra (Santorin)",
-      "info": "Au XVIIe ou au XVIe siècle av. J.-C. (date discutée), le volcan ensevelit la ville d'Akrotiri. Son rôle dans le déclin minoen est discuté."
+      "info": "Au XVIIe ou au XVIe siècle av. J.-C. (date discutée), le volcan ensevelit la ville d'Akrotiri. Son rôle dans le déclin minoen est discuté.",
+      "ref": "eruption-de-thera"
     },
     {
       "annee": -1450,
@@ -35,44 +36,145 @@
     },
     {
       "annee": -1200,
-      "evenement": "Guerre de Troie",
-      "info": "Les coalitions mycéniennes (Achéens) attaquent la cité de Troie (Anatolie)."
+      "evenement": "Guerre de Troie (selon la tradition)",
+      "info": "Le récit d’Homère garde peut-être le souvenir d’une expédition grecque contre Troie, en Anatolie, vers cette époque."
     },
     {
       "annee": -1100,
       "evenement": "Effondrement de l'Âge du Bronze",
-      "info": "Destruction de tous les palais mycéniens, oubli de l'écriture (Linéaire B)."
+      "info": "Les palais mycéniens sont détruits entre −1200 et −1100 ; l’écriture linéaire B est oubliée."
     }
   ],
-  "dirigeants": [
+  "dirigeants": [],
+  "personnages": [
     {
-      "titre": "Wanax (Roi-Guerrier)",
-      "nom": "Agamemnon",
-      "surnom": "Roi des Rois (Légendaire)",
-      "debut": -1200,
-      "fin": -1180
+      "nom": "Arthur Evans",
+      "role": "Archéologue",
+      "description": "Archéologue britannique qui fouille Knossos à partir de 1900 et donne aux Crétois de l’âge du bronze le nom de « Minoens ».",
+      "dates": "1851 → 1941",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Arthur_Evans"
+    },
+    {
+      "nom": "Heinrich Schliemann",
+      "role": "Archéologue",
+      "description": "Persuadé de la réalité des récits d’Homère, il fouille Troie puis Mycènes, où il découvre en 1876 de riches tombes royales.",
+      "dates": "1822 → 1890",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Heinrich_Schliemann"
+    },
+    {
+      "nom": "Michael Ventris",
+      "role": "Architecte et déchiffreur",
+      "description": "Il déchiffre en 1952 le linéaire B et montre qu’il note une forme très ancienne du grec.",
+      "dates": "1922 → 1956",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Michael_Ventris"
     }
   ],
-  "personnages": [],
   "guerres": [
     {
       "nom": "Guerre de Troie",
       "annee": -1200,
-      "adversaires": ["Troie (Wilusa Hittite)"],
-      "allies": ["Coalition Achéenne"],
-      "morts": "Destruction urbaine majeure",
-      "vainqueur": "Mycéniens",
-      "consequences": "Pillage des routes commerciales anatoliennes, mais épuisement des forces mycéniennes ouvrant la voie à leur propre effondrement.",
+      "adversaires": ["Troie (Wilusa, alliée des Hittites)"],
+      "allies": ["Coalition achéenne (selon la légende)"],
+      "morts": "Inconnues",
+      "vainqueur": "Les Achéens, selon la légende",
+      "consequences": "Racontée par Homère des siècles plus tard (l’Iliade, l’Odyssée), la guerre mêle légende et souvenirs ; la destruction de la ville de Troie VIIa, vers −1180, pourrait en être l’écho.",
       "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_de_Troie"
     }
   ],
-  "sciences": "Les Minoens sont de formidables architectes civils : Knossos est un palais labyrinthique sans fortifications militaires, doté du premier réseau de plomberie et d'évacuation d'eau courante d'Europe. Les Mycéniens excellent en ingénierie militaire, bâtissant des murs cyclopéens (blocs de pierre pesant des tonnes) et forgeant des armures en plaques de bronze (Panoplie de Dendra).",
-  "croyancesText": "La religion minoenne est dominée par des figures féminines (la Déesse aux Serpents) et le culte du taureau (rituel acrobatique de saut au-dessus de la bête). Les Mycéniens, eux, posent les bases de la mythologie grecque : les tablettes en argile écrites en Linéaire B mentionnent déjà Zeus, Poséidon, Athéna et Héra.",
-  "diplomatie": "La Crète minoenne régnait par sa flotte marchande, sécurisant les routes maritimes de la Méditerranée sans avoir besoin de murailles. Les Mycéniens fonctionnent en réseau de royaumes militarisés rivaux mais capables de se coaliser pour des expéditions de pillage lointaines (comme l'expédition historique ayant inspiré la Guerre de Troie).",
-  "documentaires": [
+  "sciences": "Les Minoens sont d’habiles bâtisseurs : leurs palais à plusieurs étages disposent de puits de lumière et de systèmes d’évacuation des eaux. Les Mycéniens construisent des murailles « cyclopéennes » faites de blocs énormes, et des tombes à coupole (tholos) comme le « trésor d’Atrée ». Ils fabriquent aussi des armures de bronze, comme celle retrouvée à Dendra.",
+  "croyancesText": "La religion minoenne accorde une grande place aux figures féminines (comme les « déesses aux serpents ») et au taureau, au cœur de spectaculaires jeux acrobatiques. Les tablettes mycéniennes en linéaire B citent déjà des dieux de la religion grecque : Zeus, Héra, Poséidon, Dionysos.",
+  "diplomatie": "Les Minoens commercent avec l’Égypte et le Proche-Orient ; l’historien grec Thucydide leur attribue une domination des mers, une idée aujourd’hui discutée. Les Mycéniens forment plusieurs royaumes rivaux ; des textes hittites mentionnent un pays d’« Ahhiyawa », souvent identifié aux Grecs mycéniens.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": {
+      "valeur": "Knossos, puis Mycènes",
+      "precision": "chaque palais (Phaistos, Pylos, Tirynthe, Thèbes…) dirige une région"
+    },
+    "regimes": { "valeur": "Royaumes palatiaux", "precision": "chez les Mycéniens, un roi (wanax) dans chaque palais" },
+    "langues": {
+      "valeur": "Minoen (non déchiffré), puis grec mycénien",
+      "precision": "écritures : linéaire A, puis [[lineaire-b|linéaire B]]"
+    },
+    "religion": { "valeur": "Polythéisme", "precision": "les tablettes mycéniennes citent déjà Zeus, Héra et Poséidon" },
+    "apogee": { "valeur": "Vers −1700 (Crète) et −1300 (Mycènes)" },
+    "population": {
+      "valeur": "Inconnue",
+      "precision": "quelques dizaines de milliers d’habitants par royaume, selon des estimations"
+    },
+    "monnaie": { "valeur": "Aucune", "precision": "les palais comptent les biens sur des tablettes" },
+    "duree": { "valeur": "Près de 2 000 ans" },
+    "aujourdhui": { "valeur": "Grèce", "precision": "Crète, Péloponnèse, Grèce centrale et îles de l’Égée" }
+  },
+  "essentiel": [
+    "En Crète, les Minoens bâtissent à partir de −1900 de grands palais, comme Knossos, sans fortifications.",
+    "L’[[eruption-de-thera|éruption du volcan de Théra]] (Santorin) ensevelit la ville d’Akrotiri ; son rôle dans le déclin minoen est discuté.",
+    "Vers −1450, les Mycéniens, des Grecs du continent, prennent le contrôle de la Crète.",
+    "Leurs palais administrent la production en écrivant sur des tablettes d’argile en [[lineaire-b|linéaire B]], la plus ancienne forme écrite du grec.",
+    "Vers −1200, presque tous les palais sont détruits ; l’écriture disparaît pour quatre siècles."
+  ],
+  "periodes": [
     {
-      "titre": "L'effondrement de l'âge du Bronze",
-      "url": "https://fr.wikipedia.org/wiki/Effondrement_de_l%27%C3%A2ge_du_bronze_r%C3%A9cent"
+      "nom": "La Crète des palais",
+      "debut": -1900,
+      "fin": -1450,
+      "resume": "Les Minoens bâtissent des palais à Knossos, Phaistos et Malia, commercent dans toute la Méditerranée orientale et écrivent en linéaire A, toujours non déchiffré.",
+      "evenements": [
+        { "annee": -1900, "evenement": "Premiers palais crétois" },
+        { "annee": -1600, "evenement": "Éruption de Théra (date discutée)", "ref": "eruption-de-thera" }
+      ]
+    },
+    {
+      "nom": "Les royaumes mycéniens",
+      "debut": -1600,
+      "fin": -1200,
+      "resume": "Des royaumes grecs, centrés sur des citadelles (Mycènes, Tirynthe, Pylos), dominent la Grèce et la Crète. Leurs scribes tiennent les comptes en linéaire B.",
+      "evenements": [
+        { "annee": -1450, "evenement": "Les Mycéniens à Knossos" },
+        { "annee": -1250, "evenement": "Porte des Lionnes de Mycènes" }
+      ]
+    },
+    {
+      "nom": "L’effondrement",
+      "debut": -1200,
+      "fin": -1100,
+      "resume": "Les palais sont détruits, comme ailleurs en Méditerranée orientale à la même époque. Les causes (séismes, révoltes, invasions, crises commerciales) se combinent sans doute."
     }
+  ],
+  "regimes": [
+    {
+      "id": "palais",
+      "nom": "Royaumes palatiaux",
+      "debut": -1900,
+      "fin": -1100,
+      "note": "Les tablettes en linéaire B mentionnent un roi (wanax) à la tête de chaque palais, mais aucun nom de roi n’est connu. Minos et Agamemnon sont des personnages de la mythologie, pas des rois attestés."
+    }
+  ],
+  "dynasties": [],
+  "societe": "Le palais est le centre de tout : il collecte les récoltes, organise l’artisanat et distribue les rations. Les tablettes mentionnent des scribes, des artisans, des bergers et des esclaves.",
+  "economie": "Huile d’olive, vin, laine, céramiques et objets de bronze. Le cuivre et l’étain viennent de loin, par mer, ce qui rend ces royaumes dépendants du commerce.",
+  "decouvertes": ["lineaire-b"],
+  "arts": "Fresques colorées de Knossos et d’Akrotiri (dauphins, saut du taureau), vases minoens à décor marin, masques funéraires en or de Mycènes, poignards incrustés : un art raffiné qui précède la Grèce classique.",
+  "quotidien": "Paysans, artisans et marins vivent autour des palais. À Akrotiri, ensevelie par l’éruption, on a retrouvé des maisons à étages décorées de fresques.",
+  "heritage": [
+    {
+      "titre": "La langue grecque",
+      "texte": "Le linéaire B est la plus ancienne trace écrite du grec, langue parlée depuis plus de 3 000 ans."
+    },
+    {
+      "titre": "Les mythes",
+      "texte": "Le Minotaure et le labyrinthe, Agamemnon et la guerre de Troie : la mythologie grecque garde le souvenir de cette époque."
+    },
+    {
+      "titre": "Des sites célèbres",
+      "texte": "Mycènes, Tirynthe et Knossos attirent chaque année des centaines de milliers de visiteurs."
+    }
+  ],
+  "aSavoir": [
+    "Le célèbre « masque d’Agamemnon » trouvé par Schliemann est plus ancien de plusieurs siècles que l’époque supposée de la guerre de Troie.",
+    "Une partie des « reconstitutions » de Knossos par Evans, en béton coloré, est aujourd’hui critiquée par les archéologues."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Civilisation_minoenne",
+    "https://fr.wikipedia.org/wiki/Civilisation_myc%C3%A9nienne"
   ]
 }

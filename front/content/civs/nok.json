@@ -17,7 +17,7 @@
     {
       "annee": -1500,
       "evenement": "Apparition de la culture",
-      "info": "Premières traces de sédentarisation agricole sur le plateau central du Nigeria."
+      "info": "Premiers villages d’agriculteurs sur le plateau central du Nigeria."
     },
     {
       "annee": -500,
@@ -27,14 +27,74 @@
     {
       "annee": 200,
       "evenement": "Disparition",
-      "info": "Déclin inexpliqué de la production artistique et fragmentation culturelle."
+      "info": "La production de statues cesse et les sites sont abandonnés ; les causes restent inconnues."
     }
   ],
   "dirigeants": [],
-  "personnages": [],
+  "personnages": [
+    {
+      "nom": "Bernard Fagg",
+      "role": "Archéologue",
+      "description": "Archéologue britannique qui identifie la culture Nok dans les années 1940, à partir de têtes en terre cuite trouvées dans des mines d’étain.",
+      "dates": "1915 → 1987",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bernard_Fagg"
+    }
+  ],
   "guerres": [],
-  "sciences": "Le mystère Nok réside dans sa métallurgie. Contrairement à l'Eurasie, l'Afrique subsaharienne n'a pas connu d'âge du cuivre et du bronze ; elle est passée directement de la pierre au fer. Les forgerons Nok ont inventé des fourneaux à tirage naturel capables d'atteindre 1200°C. Parallèlement, leur art de la céramique cuite est d'une sophistication anatomique troublante pour la période.",
-  "croyancesText": "Bien que leurs cités aient été emportées par le temps, il nous reste leur impressionnante statuaire en terre cuite. Ces têtes et corps (certaines têtes presque grandeur nature), caractérisés par de grands yeux triangulaires ou en amande et des coiffures élaborées, étaient probablement des effigies d'ancêtres, de divinités animistes ou des figures de prestige utilisées lors de rites agraires ou funéraires.",
-  "diplomatie": "Il semble s'agir d'une culture villageoise fortement décentralisée, fonctionnant par réseaux de chefferies, mais partageant un code esthétique et technologique unifié sur une zone de plusieurs dizaines de milliers de km². Aucune structure défensive de guerre n'a été retrouvée.",
-  "documentaires": [{ "titre": "L'art et la culture Nok", "url": "https://fr.wikipedia.org/wiki/Civilisation_Nok" }]
+  "sciences": "En Afrique de l’Ouest, on passe en général directement de la pierre au fer, sans âge du cuivre ni du bronze. Les forgerons Nok réduisent le minerai de fer dans des fourneaux en argile, au milieu du Ier millénaire av. J.-C. Leurs terres cuites, modelées puis cuites, témoignent d’une grande maîtrise de l’argile.",
+  "croyancesText": "Les statues en terre cuite, parfois presque grandeur nature, aux grands yeux en amande et aux coiffures élaborées, représentaient peut-être des ancêtres, des personnages importants ou des êtres surnaturels. Retrouvées souvent brisées, elles avaient sans doute un rôle dans des rites, peut-être funéraires.",
+  "diplomatie": "La culture Nok semble formée de communautés villageoises partageant une même culture sur un vaste territoire. Aucune fortification n’a été retrouvée ; on ignore tout de leurs relations avec leurs voisins.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": { "valeur": "Aucune connue", "precision": "des centaines de sites sur le plateau central du Nigeria" },
+    "regimes": { "valeur": "Inconnu", "precision": "probablement des communautés villageoises" },
+    "langues": { "valeur": "Inconnues", "precision": "pas d’écriture" },
+    "religion": { "valeur": "Inconnue", "precision": "les statues de terre cuite avaient sans doute un rôle rituel" },
+    "monnaie": { "valeur": "Aucune" },
+    "duree": { "valeur": "Environ 1 700 ans" },
+    "aujourdhui": { "valeur": "Nigeria", "precision": "centre du pays" }
+  },
+  "essentiel": [
+    "La culture Nok s’épanouit sur le plateau central du Nigeria, du milieu du IIe millénaire av. J.-C. au début de notre ère.",
+    "Elle est célèbre pour ses [[terres-cuites-nok|statues en terre cuite]], parmi les plus anciennes sculptures d’Afrique subsaharienne.",
+    "Ses habitants travaillent le fer dès le milieu du Ier millénaire av. J.-C., l’une des plus anciennes métallurgies du fer en Afrique de l’Ouest.",
+    "Ce sont des agriculteurs qui cultivent le mil perlé et le niébé.",
+    "On ne connaît ni leur langue, ni leur organisation politique : tout ce qu’on sait vient de l’archéologie."
+  ],
+  "periodes": [
+    {
+      "nom": "Les premiers villages",
+      "debut": -1500,
+      "fin": -900,
+      "resume": "Des agriculteurs s’installent sur le plateau et cultivent le mil perlé."
+    },
+    {
+      "nom": "L’apogée",
+      "debut": -900,
+      "fin": 1,
+      "resume": "Les statues de terre cuite apparaissent ; le travail du fer se développe. Les sites se multiplient.",
+      "evenements": [{ "annee": -500, "evenement": "Travail du fer attesté" }]
+    },
+    {
+      "nom": "La fin",
+      "debut": 1,
+      "fin": 200,
+      "resume": "La culture Nok disparaît progressivement, pour des raisons encore inconnues."
+    }
+  ],
+  "societe": "On sait très peu de choses de la société Nok. Les statues aux bijoux et coiffures élaborées suggèrent l’existence de personnes de rang élevé.",
+  "economie": "Agriculture (mil perlé, niébé), cueillette de fruits comme ceux du karité, production de fer et d’outils.",
+  "decouvertes": ["terres-cuites-nok"],
+  "arts": "Les terres cuites Nok, têtes et personnages entiers, montrent des coiffures, des bijoux et des attitudes très variés. Leur style influence peut-être des traditions artistiques plus tardives du Nigeria, comme Ifé.",
+  "quotidien": "Les habitants vivent dans des villages, cultivent leurs champs avec des outils en fer et broient le grain sur des meules.",
+  "heritage": [
+    {
+      "titre": "L’art africain",
+      "texte": "Les terres cuites Nok sont les plus anciennes sculptures figuratives connues d’Afrique subsaharienne."
+    }
+  ],
+  "aSavoir": [
+    "Beaucoup de terres cuites Nok vendues dans le commerce de l’art proviennent de fouilles illégales, qui détruisent les sites archéologiques ; leur exportation est interdite par le Nigeria."
+  ],
+  "sources": ["https://fr.wikipedia.org/wiki/Culture_Nok"]
 }

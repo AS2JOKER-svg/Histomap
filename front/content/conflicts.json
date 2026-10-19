@@ -304,5 +304,13 @@
   "Guerre Anglo-Zouloue": {
     "coords": [30.65, -28.36],
     "lieu": "Isandlwana"
+  },
+  "Première Guerre punique": {
+    "coords": [14, 37.5],
+    "lieu": "Sicile"
+  },
+  "Guerre des Mercenaires": {
+    "coords": [10.18, 36.8],
+    "lieu": "Carthage"
   }
 }

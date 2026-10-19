@@ -1,0 +1,22 @@
+{
+  "id": "bataille-de-cannes",
+  "nom": "Bataille de Cannes",
+  "annee": -216,
+  "dates": "2 août 216 av. J.-C.",
+  "lieu": "Cannes, dans les Pouilles (Italie)",
+  "description": "[[hannibal|Hannibal]] encercle et détruit une armée romaine bien plus nombreuse que la sienne : l’une des plus lourdes défaites de l’histoire de Rome.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Hannibal place au centre des troupes qui reculent volontairement, tandis que ses ailes et sa cavalerie referment le piège sur les Romains, encerclés."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Des dizaines de milliers de Romains sont tués. Plusieurs alliés de Rome passent à Carthage, mais Rome refuse de négocier et finit par reprendre l’avantage."
+    }
+  ],
+  "liens": [{ "ref": "hannibal", "relation": "Le vainqueur" }],
+  "apres": "bataille-de-zama",
+  "aSavoir": ["La manœuvre d’encerclement de Cannes est encore enseignée dans les écoles militaires."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Cannes"
+}

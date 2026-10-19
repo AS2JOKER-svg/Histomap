@@ -11,59 +11,308 @@
   "row": 2,
   "isRiver": false,
   "capitale": "Carthage",
-  "description": "Superpuissance marchande et maritime d'Afrique du Nord, fondée par les Phéniciens, devenue le grand cauchemar de la République romaine.",
+  "description": "Fondée par des Phéniciens de Tyr, Carthage devient la grande puissance marchande et maritime de la Méditerranée occidentale, avant d’être vaincue et détruite par Rome.",
   "territories": ["Carthaginian Empire", "Carthage"],
   "datesCles": [
-    { "annee": -814, "evenement": "Fondation", "info": "La princesse phénicienne Didon fuit Tyr et fonde Carthage." },
     {
-      "annee": -264,
-      "evenement": "Première Guerre punique",
-      "info": "Premier choc contre Rome pour le contrôle de la Sicile."
+      "annee": -814,
+      "evenement": "Fondation",
+      "info": "Selon la tradition, la princesse phénicienne Élissa (Didon) fuit Tyr et fonde Carthage."
     },
     {
-      "annee": -218,
-      "evenement": "Franchissement des Alpes",
-      "info": "Hannibal envahit l'Italie avec ses éléphants de guerre."
+      "annee": -480,
+      "evenement": "Défaite d’Himère",
+      "info": "En Sicile, les Grecs de Syracuse battent l’armée carthaginoise."
+    },
+    {
+      "annee": -264,
+      "evenement": "Première guerre punique",
+      "info": "Premier conflit contre Rome, pour le contrôle de la Sicile."
+    },
+    {
+      "annee": -216,
+      "evenement": "Bataille de Cannes",
+      "info": "Hannibal écrase l’armée romaine en Italie.",
+      "ref": "bataille-de-cannes"
+    },
+    {
+      "annee": -202,
+      "evenement": "Bataille de Zama",
+      "info": "Scipion l’Africain bat Hannibal en Afrique.",
+      "ref": "bataille-de-zama"
     },
     {
       "annee": -146,
-      "evenement": "Destruction totale",
-      "info": "Scipion Émilien rase Carthage et vend les survivants en esclavage."
+      "evenement": "Destruction de Carthage",
+      "info": "Après un siège de trois ans, Rome rase la ville.",
+      "ref": "destruction-de-carthage"
     }
   ],
   "dirigeants": [
-    { "titre": "Généralissime", "nom": "Hamilcar Barca", "surnom": "La Foudre", "debut": -247, "fin": -228 },
     {
-      "titre": "Suffète et Général",
+      "nom": "Élissa (Didon)",
+      "titre": "Reine",
+      "debut": -814,
+      "fin": -814,
+      "dynastie": "fondateurs",
+      "note": "fondatrice légendaire"
+    },
+    {
+      "nom": "Magon Ier",
+      "titre": "Roi",
+      "debut": -550,
+      "fin": -530,
+      "dynastie": "fondateurs",
+      "note": "fonde la puissance militaire de Carthage ; dates approximatives"
+    },
+    {
+      "nom": "Hamilcar",
+      "titre": "Roi",
+      "debut": -510,
+      "fin": -480,
+      "dynastie": "fondateurs",
+      "note": "mort à la bataille d’Himère ; dates approximatives"
+    },
+    {
+      "nom": "Hamilcar Barca",
+      "titre": "Général",
+      "debut": -247,
+      "fin": -228,
+      "dynastie": "barcides",
+      "note": "commande en Sicile puis conquiert le sud de l’Espagne"
+    },
+    {
+      "nom": "Hasdrubal le Beau",
+      "titre": "Général",
+      "debut": -228,
+      "fin": -221,
+      "dynastie": "barcides",
+      "note": "fonde Carthagène en Espagne"
+    },
+    {
       "nom": "Hannibal Barca",
-      "surnom": "Le pire ennemi de Rome",
+      "titre": "Général puis suffète",
       "debut": -221,
-      "fin": -183
+      "fin": -195,
+      "dynastie": "barcides",
+      "personne": "hannibal",
+      "note": "suffète en −196",
+      "cle": true
+    },
+    {
+      "nom": "Hasdrubal le Boétharque",
+      "titre": "Général",
+      "debut": -149,
+      "fin": -146,
+      "dynastie": "barcides",
+      "note": "défend la ville pendant le dernier siège"
     }
   ],
   "personnages": [
     {
+      "nom": "Hannibal",
+      "role": "Général",
+      "description": "Il franchit les Alpes avec ses éléphants et bat les Romains à Cannes, avant d’être vaincu à Zama.",
+      "dates": "−247 → −183",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Hannibal_Barca",
+      "ref": "hannibal"
+    },
+    {
+      "nom": "Didon (Élissa)",
+      "role": "Reine légendaire",
+      "description": "Princesse de Tyr à qui la tradition attribue la fondation de Carthage ; Virgile en fait l’héroïne tragique de l’Énéide.",
+      "dates": "légendaire",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Didon"
+    },
+    {
+      "nom": "Hamilcar Barca",
+      "role": "Général",
+      "description": "Père d’Hannibal, il commande en Sicile pendant la première guerre punique, puis conquiert le sud de l’Espagne.",
+      "dates": "vers −275 → −228",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Hamilcar_Barca"
+    },
+    {
+      "nom": "Hannon le Navigateur",
+      "role": "Explorateur",
+      "description": "Il mène une expédition le long de la côte atlantique de l’Afrique, connue par un récit traduit en grec.",
+      "dates": "vers −500",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Hannon_le_Navigateur"
+    },
+    {
       "nom": "Magon",
       "role": "Agronome",
-      "description": "Auteur d'un traité d'agriculture en 28 volumes, tellement réputé que le Sénat romain ordonna sa traduction après la destruction de la ville.",
-      "dates": "≈ -IIIe siècle",
+      "description": "Auteur d’un traité d’agriculture en 28 livres, si réputé que le Sénat romain le fit traduire en latin après la chute de Carthage.",
+      "dates": "IIIe ou IIe siècle av. J.-C.",
       "wikiUrl": "https://fr.wikipedia.org/wiki/Magon_(agronome)"
     }
   ],
   "guerres": [
     {
+      "nom": "Première Guerre punique",
+      "annee": -264,
+      "adversaires": ["République romaine"],
+      "allies": [],
+      "morts": "Très lourdes, surtout en mer",
+      "vainqueur": "Rome",
+      "consequences": "Carthage perd la Sicile, puis la Sardaigne et la Corse, et doit payer une lourde indemnité.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Premi%C3%A8re_guerre_punique"
+    },
+    {
+      "nom": "Guerre des Mercenaires",
+      "annee": -241,
+      "adversaires": ["Mercenaires révoltés et Libyens"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Carthage (Hamilcar Barca)",
+      "consequences": "Les mercenaires impayés se révoltent après la première guerre punique ; Hamilcar Barca écrase la révolte au bout de trois ans.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_des_Mercenaires"
+    },
+    {
       "nom": "Deuxième Guerre Punique",
       "annee": -218,
       "adversaires": ["République Romaine"],
-      "allies": ["Numidie (Symphax)", "Celtes de Gaule cisalpine"],
-      "morts": "Env. 500 000 civils et militaires",
+      "allies": ["Numides de Syphax", "Celtes de Gaule cisalpine"],
+      "morts": "Très lourdes ; à Cannes, des dizaines de milliers de Romains sont tués en une seule journée",
       "vainqueur": "Rome (Scipion l'Africain)",
-      "consequences": "Défaite totale à Zama. Carthage perd son empire ibérique, sa flotte de guerre et son statut de puissance.",
+      "consequences": "Défaite de Zama (−202). Carthage perd l’Espagne et sa flotte de guerre, et paie un lourd tribut à Rome.",
       "wikiUrl": "https://fr.wikipedia.org/wiki/Deuxi%C3%A8me_guerre_punique"
+    },
+    {
+      "nom": "Troisième Guerre Punique",
+      "annee": -149,
+      "adversaires": ["République romaine"],
+      "allies": [],
+      "morts": "La ville est rasée ; selon les sources antiques, environ 50 000 survivants sont réduits en esclavage",
+      "vainqueur": "Rome (Scipion Émilien)",
+      "consequences": "Carthage disparaît ; son territoire devient la province romaine d’Afrique.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Troisi%C3%A8me_guerre_punique"
     }
   ],
-  "sciences": "Carthage est la reine des mers. Son ingénierie navale produit des quinquérèmes construites de manière modulaire (avec des pièces préfabriquées numérotées), permettant d'assembler une flotte en un temps record. Leur port circulaire militaire (le Cothon) est un chef-d'œuvre de logistique camouflée, capable d'abriter 220 navires à l'abri des regards.",
-  "croyancesText": "Héritière des cultes phéniciens, Carthage vénère Baal Hammon et la déesse lunaire Tanit. La religion carthaginoise a longtemps été diabolisée par les Romains et les Grecs qui les accusaient de pratiquer le 'molk' : des sacrifices rituels d'enfants nobles par le feu dans l'enceinte du sanctuaire du Tophet lors de graves crises de l'État.",
-  "diplomatie": "C'est une thalassocratie : son pouvoir repose sur une chaîne ininterrompue de comptoirs commerciaux (Ibérie, Baléares, Corse, Sardaigne, Sicile). Les Carthaginois préfèrent payer des mercenaires (Numides, Ibères, Gaulois) avec l'argent du commerce plutôt que de lever une armée de citoyens, sauf pour le corps d'élite de la Phalange sacrée.",
-  "documentaires": [{ "titre": "Arte : Carthage, la rivale de Rome", "url": "https://fr.wikipedia.org/wiki/Carthage" }]
+  "sciences": "Carthage excelle dans la construction navale : ses navires de guerre sont assemblés à partir de pièces préparées et numérotées, ce qui permet de construire une flotte rapidement. Son port militaire circulaire, le Cothon, pouvait abriter plus de 200 navires. L’agronomie carthaginoise, avec le traité de Magon, était réputée dans tout le monde antique.",
+  "croyancesText": "Héritière de la religion phénicienne, Carthage vénère surtout Baal Hammon et la déesse Tanit. Les auteurs grecs et romains l’accusaient de sacrifier des enfants. Dans les sanctuaires appelés « tophets », les archéologues ont trouvé des milliers d’urnes contenant des restes de jeunes enfants : certains y voient des cimetières d’enfants morts naturellement, mais beaucoup d’historiens estiment aujourd’hui que des sacrifices ont bien eu lieu, au moins à certaines périodes.",
+  "diplomatie": "Carthage est une puissance maritime : son pouvoir repose sur des comptoirs en Afrique du Nord, en Espagne, aux Baléares, en Sardaigne et en Sicile, et sur des traités commerciaux, dont plusieurs avec Rome. Son armée est surtout composée de mercenaires (Numides, Ibères, Gaulois) payés grâce au commerce, encadrés par des officiers carthaginois.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": { "valeur": "Carthage", "precision": "près de l’actuelle Tunis" },
+    "regimes": {
+      "valeur": "Royauté, puis république oligarchique",
+      "precision": "deux suffètes élus chaque année, un Conseil des Anciens"
+    },
+    "langues": { "valeur": "Punique", "precision": "une langue phénicienne, écrite avec l’alphabet phénicien" },
+    "religion": { "valeur": "Polythéisme phénicien", "precision": "Baal Hammon et Tanit" },
+    "apogee": {
+      "valeur": "Vers −300 à −264",
+      "precision": "de la Tunisie à l’Espagne du Sud, en passant par la Sardaigne et l’ouest de la Sicile"
+    },
+    "population": {
+      "valeur": "Peut-être 200 000 habitants",
+      "precision": "pour la ville au IIIe siècle av. J.-C. ; estimations discutées"
+    },
+    "monnaie": { "valeur": "Pièces d’or, d’argent et de bronze", "precision": "frappées à partir du IVe siècle av. J.-C." },
+    "duree": { "valeur": "Près de 700 ans" },
+    "aujourdhui": {
+      "valeur": "Tunisie",
+      "precision": "avec des comptoirs en Algérie, au Maroc, en Espagne, en Sardaigne, à Malte et en Sicile"
+    }
+  },
+  "essentiel": [
+    "Selon la tradition, Carthage est fondée en −814 par des Phéniciens de Tyr, menés par la princesse Élissa (Didon).",
+    "Son empire repose sur le commerce maritime et sur un réseau de comptoirs, de l’Afrique du Nord à l’Espagne.",
+    "Elle se gouverne en république : deux suffètes élus et un conseil de riches familles, comme les Barcides.",
+    "Rivale de Rome, elle perd trois guerres, les guerres puniques ; [[hannibal|Hannibal]] fait trembler Rome mais est vaincu à [[bataille-de-zama|Zama]].",
+    "En −146, Rome [[destruction-de-carthage|rase la ville]] ; elle sera refondée plus tard comme ville romaine."
+  ],
+  "periodes": [
+    {
+      "nom": "La fondation et l’essor",
+      "debut": -814,
+      "fin": -480,
+      "resume": "Comptoir phénicien, Carthage devient indépendante et prend la tête des colonies phéniciennes d’Occident. La dynastie des Magonides lui donne une armée et une flotte.",
+      "evenements": [
+        { "annee": -814, "evenement": "Fondation (selon la tradition)" },
+        { "annee": -535, "evenement": "Bataille d’Alalia : avec les Étrusques, contre les Grecs" }
+      ]
+    },
+    {
+      "nom": "La puissance méditerranéenne",
+      "debut": -480,
+      "fin": -264,
+      "resume": "Malgré des guerres incessantes contre les Grecs de Sicile, Carthage domine le commerce de la Méditerranée occidentale. Le pouvoir passe aux suffètes et aux grandes familles.",
+      "evenements": [
+        { "annee": -480, "evenement": "Défaite d’Himère" },
+        { "annee": -348, "evenement": "Traité avec Rome délimitant les zones d’influence" }
+      ]
+    },
+    {
+      "nom": "Les guerres puniques",
+      "debut": -264,
+      "fin": -146,
+      "resume": "Trois guerres contre Rome. Carthage perd la Sicile, puis, malgré les victoires d’[[hannibal|Hannibal]] en Italie, son empire espagnol. La troisième guerre se termine par la destruction de la ville.",
+      "evenements": [
+        { "annee": -264, "evenement": "Première guerre punique" },
+        { "annee": -218, "evenement": "Hannibal franchit les Alpes" },
+        { "annee": -216, "evenement": "Bataille de Cannes", "ref": "bataille-de-cannes" },
+        { "annee": -202, "evenement": "Bataille de Zama", "ref": "bataille-de-zama" },
+        { "annee": -146, "evenement": "Destruction de Carthage", "ref": "destruction-de-carthage" }
+      ]
+    }
+  ],
+  "regimes": [
+    {
+      "id": "royaute",
+      "nom": "Royauté",
+      "debut": -814,
+      "fin": -400,
+      "note": "Rois ou chefs de la famille des Magonides ; dates très approximatives."
+    },
+    {
+      "id": "republique",
+      "nom": "République",
+      "debut": -400,
+      "fin": -146,
+      "note": "Deux suffètes élus chaque année, un Conseil des Anciens et un tribunal des Cent-Quatre. Les généraux, comme les Barcides, ont un grand pouvoir."
+    }
+  ],
+  "dynasties": [
+    {
+      "id": "fondateurs",
+      "nom": "Fondation et Magonides",
+      "debut": -814,
+      "fin": -400,
+      "regime": "royaute",
+      "note": "Dates traditionnelles ou approximatives."
+    },
+    { "id": "barcides", "nom": "Les généraux barcides et la fin", "debut": -247, "fin": -146, "regime": "republique" }
+  ],
+  "societe": "La ville est dominée par de riches familles de marchands et de propriétaires terriens, qui fournissent les suffètes et les généraux. Artisans, marins et esclaves forment la majorité. Dans l’arrière-pays, les Libyens (Berbères) cultivent les terres et paient tribut.",
+  "economie": "Commerce maritime de métaux (étain, argent d’Espagne), de pourpre, de vin, d’huile et de céramiques ; grandes exploitations agricoles dans l’arrière-pays tunisien, très productives.",
+  "decouvertes": [],
+  "arts": "Stèles gravées des tophets, masques de terre cuite grimaçants, bijoux et amulettes : l’art punique mêle traditions phéniciennes, égyptiennes et grecques.",
+  "quotidien": "Carthage est une grande ville portuaire, aux maisons de plusieurs étages bâties en pierre et en brique. Le quartier de Byrsa, sur la colline, et les ports animent la vie urbaine.",
+  "heritage": [
+    {
+      "titre": "Une ville romaine",
+      "texte": "Refondée par les Romains, Carthage devient l’une des plus grandes villes de l’Empire ; ses ruines sont classées au patrimoine mondial."
+    },
+    {
+      "titre": "Hannibal",
+      "texte": "Sa traversée des Alpes et sa victoire de Cannes sont encore étudiées dans les écoles militaires."
+    },
+    {
+      "titre": "Didon",
+      "texte": "La reine fondatrice inspire l’Énéide de Virgile, puis des opéras, comme Didon et Énée de Purcell."
+    }
+  ],
+  "aSavoir": [
+    "Presque tout ce que l’on sait de Carthage vient de ses ennemis, Grecs et Romains : les textes carthaginois ont disparu.",
+    "La légende du sel répandu sur les ruines de Carthage par les Romains est une invention moderne."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Carthage",
+    "https://fr.wikipedia.org/wiki/Guerres_puniques",
+    {
+      "titre": "Encyclopædia Britannica — Carthage",
+      "url": "https://www.britannica.com/place/Carthage-ancient-city-Tunisia"
+    }
+  ]
 }

@@ -1,0 +1,21 @@
+{
+  "id": "destruction-de-carthage",
+  "nom": "Destruction de Carthage",
+  "annee": -146,
+  "dates": "printemps −146",
+  "lieu": "Carthage",
+  "description": "Après trois ans de siège, l’armée romaine de Scipion Émilien prend Carthage, la rase et réduit ses habitants en esclavage.",
+  "sections": [
+    {
+      "titre": "Contexte",
+      "texte": "Redevenue prospère, Carthage inquiète Rome ; le sénateur Caton l’Ancien répète que « Carthage doit être détruite ». Un conflit avec le roi numide Massinissa sert de prétexte à la guerre."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Le territoire de Carthage devient la province romaine d’Afrique. La même année, Rome détruit aussi Corinthe, en Grèce."
+    }
+  ],
+  "avant": "bataille-de-zama",
+  "aSavoir": ["Le sel répandu sur les ruines est une légende moderne, sans fondement dans les sources antiques."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Troisi%C3%A8me_guerre_punique"
+}

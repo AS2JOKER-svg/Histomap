@@ -1,0 +1,22 @@
+{
+  "id": "bataille-de-zama",
+  "nom": "Bataille de Zama",
+  "annee": -202,
+  "dates": "−202",
+  "lieu": "Afrique du Nord (Tunisie actuelle)",
+  "description": "Le général romain Scipion, allié au roi numide Massinissa, bat [[hannibal|Hannibal]] et met fin à la deuxième guerre punique.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Scipion ouvre des couloirs dans ses lignes pour laisser passer les éléphants carthaginois ; la cavalerie numide de Massinissa décide de la victoire."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Par la paix de −201, Carthage perd l’Espagne et sa flotte, et doit payer une lourde indemnité pendant cinquante ans."
+    }
+  ],
+  "liens": [{ "ref": "hannibal", "relation": "Le vaincu" }],
+  "avant": "bataille-de-cannes",
+  "apres": "destruction-de-carthage",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Zama"
+}

@@ -20,33 +20,121 @@
     },
     {
       "annee": -7000,
-      "evenement": "Riziculture et Millet",
-      "info": "Apparition de la culture du millet au nord (Fleuve Jaune) et du riz au sud (Yangtsé)."
+      "evenement": "Millet et riz",
+      "info": "Le millet est cultivé au nord, sur le fleuve Jaune, et le riz au sud, sur le Yangzi : deux foyers d’agriculture indépendants."
     },
     {
       "annee": -5000,
       "evenement": "Culture de Yangshao",
-      "info": "Sédentarisation massive avec la création de superbes céramiques peintes."
+      "info": "Villages de paysans et poteries peintes, comme à Banpo, près de l’actuelle Xi’an."
     },
     {
       "annee": -3000,
       "evenement": "Culture de Longshan",
-      "info": "Apparition des murs en pisé, de la poterie noire ultra-fine et des guerres tribales."
+      "info": "Villes entourées de murs en terre damée, poterie noire très fine et signes de conflits plus fréquents."
     }
   ],
   "dirigeants": [],
   "personnages": [
     {
-      "nom": "Fuxi et Nuwa",
-      "role": "Héros mythologiques",
-      "description": "Souverains légendaires de la mythologie chinoise, crédités de l'invention de la chasse, de la pêche, du mariage et de la musique.",
-      "dates": "Figures mythiques, sans date historique",
-      "wikiUrl": "https://fr.wikipedia.org/wiki/Nuwa"
+      "nom": "Johan Gunnar Andersson",
+      "role": "Géologue et archéologue",
+      "description": "Ce Suédois identifie en 1921 la culture de Yangshao et participe aux premières fouilles de Zhoukoudian.",
+      "dates": "1874 → 1960",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Johan_Gunnar_Andersson"
+    },
+    {
+      "nom": "Pei Wenzhong",
+      "role": "Paléoanthropologue",
+      "description": "Il découvre en 1929 à Zhoukoudian le premier crâne presque complet de l’Homme de Pékin.",
+      "dates": "1904 → 1982",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Pei_Wenzhong"
     }
   ],
   "guerres": [],
-  "sciences": "Deux pôles d'innovation coexistent : le bassin du fleuve Jaune, aride, spécialisé dans le millet, et le bassin du Yangtsé, inondable, qui invente la riziculture. Dès cette époque, la Chine se distingue par des inventions précoces qui deviendront ses monopoles : l'élevage du ver à soie pour la création de tissus, et le travail rituel du jade, une pierre si dure qu'elle ne se taille pas mais s'use par abrasion.",
-  "croyancesText": "Le respect fondamental des ancêtres, pilier de la mentalité chinoise, naît ici. On ne vénère pas de dieux olympiens, mais les esprits de la nature et les fondateurs du clan. La culture de Longshan systématise la scapulomancie (divination) : on craquèle des omoplates d'animaux au feu pour y lire l'avenir, une pratique qui donnera directement naissance à l'écriture chinoise.",
-  "diplomatie": "À la fin de la période (culture de Longshan), l'accroissement démographique provoque une violente compétition pour les terres arables. Les villages se dotent d'immenses remparts en terre damée (pisé). L'archéologie révèle l'apparition d'armes spécialisées (haches d'armes) et de tombes très riches contrastant avec des fosses communes, marquant la naissance des premières aristocraties guerrières.",
-  "documentaires": [{ "titre": "Wikipédia : Néolithique chinois", "url": "https://fr.wikipedia.org/wiki/N%C3%A9olithique_chinois" }]
+  "sciences": "Deux foyers d’innovation coexistent : le bassin du fleuve Jaune, sec, cultive le millet ; celui du Yangzi, humide, invente la riziculture. Les traces de soie apparaissent très tôt. Le jade, une pierre si dure qu’on ne peut pas la tailler, est façonné par abrasion avec du sable. Le tour de potier permet, à Longshan, une poterie noire aux parois très fines.",
+  "croyancesText": "Le culte des ancêtres, pilier de la culture chinoise, s’enracine à cette époque : les morts sont enterrés avec soin, parfois avec de riches offrandes. À Liangzhu, les grands objets de jade (disques bi, tubes cong) avaient sans doute un rôle religieux. Les sociétés de Longshan pratiquent la scapulomancie, la divination par des os chauffés, qui annonce les inscriptions oraculaires des Shang. Les mythes chinois placent à ces époques des héros fondateurs comme Fuxi et Nuwa, sans fondement historique.",
+  "diplomatie": "À la fin de la période, la population augmente et la compétition pour les terres s’intensifie. Les villages s’entourent de remparts en terre damée ; l’archéologie montre des armes spécialisées et des tombes très inégales, signes de la naissance d’élites guerrières.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": {
+      "valeur": "Aucune",
+      "precision": "grands sites : Zhoukoudian (Homme de Pékin), Banpo (Yangshao), Liangzhu, Taosi"
+    },
+    "regimes": {
+      "valeur": "Villages, puis chefferies",
+      "precision": "les premières villes fortifiées apparaissent vers −3000"
+    },
+    "langues": {
+      "valeur": "Inconnues",
+      "precision": "les premiers signes gravés sur poteries ne forment pas encore une écriture"
+    },
+    "religion": {
+      "valeur": "Culte des ancêtres et des esprits",
+      "precision": "divination par les os (scapulomancie) à la fin de la période"
+    },
+    "monnaie": { "valeur": "Aucune", "precision": "le jade sert d’objet de prestige" },
+    "duree": { "valeur": "Plus d’un million et demi d’années", "precision": "des premiers humains aux premières cités" },
+    "aujourdhui": { "valeur": "Chine", "precision": "vallées du fleuve Jaune et du Yangzi" }
+  },
+  "essentiel": [
+    "Des humains vivent en Chine depuis plus d’un million et demi d’années ; l’Homme de Pékin est l’un des Homo erectus les plus célèbres.",
+    "L’agriculture y est inventée de façon indépendante : le millet au nord, sur le fleuve Jaune, et le riz au sud, sur le Yangzi.",
+    "La culture de Yangshao (vers −5000) est connue pour ses poteries peintes et ses villages comme Banpo.",
+    "La culture de Liangzhu (vers −3300) excelle dans le travail du jade et bâtit une grande cité protégée par des digues.",
+    "Avec la culture de Longshan, les villes fortifiées et les inégalités se multiplient : la voie est ouverte aux premières dynasties."
+  ],
+  "periodes": [
+    {
+      "nom": "Les premiers humains",
+      "debut": -1700000,
+      "fin": -10000,
+      "resume": "Homo erectus, puis Homo sapiens occupent la Chine. Les fossiles de Zhoukoudian, près de Pékin, sont parmi les plus étudiés au monde.",
+      "evenements": [{ "annee": -750000, "evenement": "L’Homme de Pékin à Zhoukoudian" }]
+    },
+    {
+      "nom": "Les premiers paysans",
+      "debut": -9000,
+      "fin": -5000,
+      "resume": "Les poteries apparaissent très tôt en Chine. Les habitants domestiquent le millet au nord et le riz au sud, ainsi que le porc et le chien.",
+      "evenements": [{ "annee": -7000, "evenement": "Riziculture et culture du millet" }]
+    },
+    {
+      "nom": "Yangshao et Liangzhu",
+      "debut": -5000,
+      "fin": -3000,
+      "resume": "Les villages s’agrandissent. La culture de Yangshao produit des poteries peintes ; celle de Liangzhu, au sud, de magnifiques objets rituels en jade.",
+      "evenements": [{ "annee": -5000, "evenement": "Culture de Yangshao" }, { "annee": -3300, "evenement": "Culture de Liangzhu" }]
+    },
+    {
+      "nom": "Longshan",
+      "debut": -3000,
+      "fin": -2000,
+      "resume": "Les sociétés se hiérarchisent : villes fortifiées, tombes de chefs très riches, objets de prestige et divination par les os annoncent la Chine des Shang.",
+      "evenements": [{ "annee": -3000, "evenement": "Culture de Longshan" }]
+    }
+  ],
+  "societe": "D’abord des villages égalitaires, puis des sociétés de plus en plus hiérarchisées : à Liangzhu et à Longshan, quelques tombes regorgent de jades et de poteries, alors que la plupart des défunts n’ont presque rien.",
+  "economie": "Millet, riz, porcs et chiens domestiqués, chasse et pêche. Le jade, les poteries fines et peut-être la soie circulent comme objets de prestige.",
+  "decouvertes": [],
+  "arts": "Poteries peintes de Yangshao (motifs géométriques, poissons, visages), jades rituels de Liangzhu, poterie noire « coquille d’œuf » de Longshan.",
+  "quotidien": "Maisons semi-enterrées au toit de chaume regroupées en villages, greniers, fours de potiers : à Banpo, on peut encore voir le plan d’un village vieux de 6 000 ans.",
+  "heritage": [
+    {
+      "titre": "Le riz et le millet",
+      "texte": "La riziculture inventée sur le Yangzi nourrit aujourd’hui une grande partie de l’humanité."
+    },
+    {
+      "titre": "Des sites classés",
+      "texte": "Zhoukoudian et la cité de Liangzhu sont inscrits au patrimoine mondial de l’UNESCO."
+    }
+  ],
+  "aSavoir": [
+    "Les fossiles originaux de l’Homme de Pékin ont disparu en 1941, pendant la guerre sino-japonaise ; on ne les a jamais retrouvés.",
+    "La tradition chinoise fait commencer son histoire avec la dynastie Xia (vers −2070) ; son existence n’est pas confirmée par l’écriture et reste débattue."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/N%C3%A9olithique_chinois",
+    "https://fr.wikipedia.org/wiki/Homme_de_P%C3%A9kin"
+  ]
 }

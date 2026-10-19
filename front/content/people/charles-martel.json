@@ -1,0 +1,18 @@
+{
+  "id": "charles-martel",
+  "nom": "Charles Martel",
+  "role": "Maire du palais",
+  "roles": ["Maire du palais", "Chef de guerre"],
+  "dates": "vers 688 → 741",
+  "naissance": 688,
+  "mort": 741,
+  "description": "Maire du palais qui gouverne le royaume franc à la place des rois mérovingiens. Sa victoire de Poitiers en fait un héros, et sa famille devient la dynastie carolingienne.",
+  "essentiel": [
+    "Fils illégitime de Pépin de Herstal, il s’impose par les armes après la mort de son père.",
+    "Il bat en [[bataille-de-poitiers|732]] l’armée omeyyade d’al-Andalus.",
+    "Il soumet l’Aquitaine, la Provence et la Bourgogne et distribue des terres d’Église à ses guerriers.",
+    "Son fils Pépin le Bref devient roi, et son petit-fils est [[charlemagne|Charlemagne]]."
+  ],
+  "aSavoir": ["Son surnom, « le Marteau », lui a été donné après sa mort."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Charles_Martel"
+}

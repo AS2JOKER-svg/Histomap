@@ -1,0 +1,22 @@
+{
+  "id": "chute-de-constantinople",
+  "nom": "Prise de Constantinople",
+  "annee": 1453,
+  "dates": "29 mai 1453",
+  "lieu": "Constantinople (Istanbul)",
+  "description": "Après un siège de 53 jours, l’armée ottomane du sultan Mehmed II prend Constantinople. Le dernier empereur byzantin, Constantin XI, meurt au combat.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Les Ottomans, bien plus nombreux, bombardent les murailles avec d’énormes canons. Ils font même passer des navires par la terre pour contourner la chaîne qui ferme la Corne d’Or. L’assaut final a lieu le 29 mai."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Constantinople devient la capitale de l’Empire ottoman. Pour beaucoup d’historiens, cette date marque la fin du Moyen Âge."
+    }
+  ],
+  "aSavoir": [
+    "Le corps de Constantin XI n’a jamais été identifié avec certitude, ce qui a nourri des légendes sur son retour."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Chute_de_Constantinople"
+}

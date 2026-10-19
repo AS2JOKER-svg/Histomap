@@ -1,0 +1,23 @@
+{
+  "id": "bataille-de-poitiers",
+  "nom": "Bataille de Poitiers",
+  "annee": 732,
+  "dates": "octobre 732 (ou 733)",
+  "lieu": "Entre Poitiers et Tours",
+  "description": "[[charles-martel|Charles Martel]] bat une armée omeyyade venue d’al-Andalus, dont le chef, le gouverneur Abd al-Rahman, est tué.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Après avoir pillé l’Aquitaine, l’armée omeyyade marche vers Tours. Les Francs, en formation serrée, résistent à ses charges ; le gouverneur est tué, et l’armée se retire pendant la nuit."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "La victoire renforce le prestige de Charles Martel et de sa famille. Les raids continuent quelque temps en Provence, mais l’expansion omeyyade au nord des Pyrénées s’arrête."
+    }
+  ],
+  "liens": [{ "ref": "charles-martel", "relation": "Le vainqueur" }],
+  "aSavoir": [
+    "Son importance a souvent été exagérée : il s’agissait sans doute d’une grande expédition de pillage plutôt que d’une tentative de conquête de l’Europe."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Poitiers_(732)"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "sac-de-constantinople",
+  "nom": "Sac de Constantinople",
+  "annee": 1204,
+  "dates": "avril 1204",
+  "lieu": "Constantinople",
+  "description": "Détournés de leur but, les croisés de la quatrième croisade et les Vénitiens prennent et pillent Constantinople, la plus grande ville chrétienne.",
+  "sections": [
+    {
+      "titre": "Contexte",
+      "texte": "Endettés envers Venise, les croisés acceptent d’aider un prince byzantin à reprendre le trône contre de l’argent. Faute de paiement, ils attaquent la ville."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Églises et palais sont pillés ; les chevaux de bronze de Saint-Marc, à Venise, viennent de ce butin. Un Empire latin est fondé, et la rupture entre catholiques et orthodoxes devient profonde."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Constantinople_(1204)"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "couronnement-de-charlemagne",
+  "nom": "Couronnement de Charlemagne",
+  "annee": 800,
+  "dates": "25 décembre 800",
+  "lieu": "Basilique Saint-Pierre, Rome",
+  "description": "Le pape Léon III couronne [[charlemagne|Charlemagne]] empereur : pour la première fois depuis 476, l’Occident a de nouveau un empereur.",
+  "sections": [
+    {
+      "titre": "Contexte",
+      "texte": "Chassé de Rome par ses ennemis, le pape s’est réfugié auprès de Charlemagne, qui l’a rétabli. À Constantinople, c’est une femme, Irène, qui règne : pour les Occidentaux, le trône impérial est vacant."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "L’empire carolingien rivalise avec Byzance. L’idée d’un empereur d’Occident sacré par le pape se prolonge dans le Saint-Empire romain germanique."
+    }
+  ],
+  "liens": [{ "ref": "charlemagne", "relation": "L’empereur couronné" }],
+  "aSavoir": [
+    "Selon son biographe Éginhard, Charlemagne aurait été surpris par ce couronnement, ce que beaucoup d’historiens mettent en doute."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Couronnement_de_Charlemagne"
+}

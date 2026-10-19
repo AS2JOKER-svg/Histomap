@@ -340,5 +340,29 @@
   "Entrée de Teotihuacan à Tikal": {
     "coords": [-89.62, 17.22],
     "lieu": "Tikal (Guatemala)"
+  },
+  "Bataille de Manzikert": {
+    "coords": [42.53, 39.14],
+    "lieu": "Manzikert (Malazgirt, Turquie)"
+  },
+  "Quatrième croisade": {
+    "coords": [28.97, 41.01],
+    "lieu": "Constantinople"
+  },
+  "Bataille de Vouillé": {
+    "coords": [0.17, 46.64],
+    "lieu": "Vouillé (Vienne)"
+  },
+  "Bataille de Poitiers (732)": {
+    "coords": [0.43, 46.75],
+    "lieu": "Entre Poitiers et Tours"
+  },
+  "Bataille du Lechfeld": {
+    "coords": [10.9, 48.37],
+    "lieu": "Près d’Augsbourg"
+  },
+  "Croisades hussites": {
+    "coords": [14.42, 50.08],
+    "lieu": "Bohême"
   }
 }

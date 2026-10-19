@@ -10,63 +10,500 @@
   "row": 2,
   "isRiver": false,
   "capitale": "Aix-la-Chapelle",
-  "description": "De la conversion de Clovis au sacre de Charlemagne, le royaume qui a forgé la matrice féodale et chrétienne de l'Europe occidentale.",
+  "description": "Le royaume des Francs, de Clovis à la fin des Carolingiens : il réunit la Gaule et une partie de la Germanie, s’allie à l’Église, et devient avec Charlemagne un empire.",
   "territories": ["Franks", "Frankish Kingdom", "Carolingian Empire", "West Francia", "East Francia"],
   "datesCles": [
     {
+      "annee": 481,
+      "evenement": "Clovis roi des Francs",
+      "info": "Clovis succède à son père Childéric comme roi des Francs saliens, à Tournai."
+    },
+    {
       "annee": 496,
       "evenement": "Baptême de Clovis",
-      "info": "L'alliance fondatrice entre la royauté franque et l'Église catholique."
+      "info": "L’alliance fondatrice entre la royauté franque et l’Église catholique.",
+      "ref": "bapteme-de-clovis"
+    },
+    {
+      "annee": 507,
+      "evenement": "Bataille de Vouillé",
+      "info": "Clovis bat les Wisigoths et s’empare du sud-ouest de la Gaule."
     },
     {
       "annee": 732,
       "evenement": "Bataille de Poitiers",
-      "info": "Charles Martel stoppe l'expansion omeyyade (arabo-berbère) en Gaule."
+      "info": "Charles Martel bat une armée omeyyade venue d’Espagne.",
+      "ref": "bataille-de-poitiers"
+    },
+    {
+      "annee": 751,
+      "evenement": "Pépin le Bref roi",
+      "info": "Le maire du palais dépose le dernier Mérovingien et devient roi avec l’accord du pape."
     },
     {
       "annee": 800,
       "evenement": "Sacre de Charlemagne",
-      "info": "Le Pape Léon III le couronne Empereur d'Occident à Rome le jour de Noël."
+      "info": "Le pape Léon III le couronne empereur à Rome le jour de Noël.",
+      "ref": "couronnement-de-charlemagne"
     },
     {
       "annee": 843,
       "evenement": "Traité de Verdun",
-      "info": "Partage de l'Empire entre les petits-fils de Charlemagne (naissance de la France et de la Germanie)."
+      "info": "Partage de l’Empire entre les petits-fils de Charlemagne (naissance de la France et de la Germanie).",
+      "ref": "traite-de-verdun"
+    },
+    {
+      "annee": 911,
+      "evenement": "Traité de Saint-Clair-sur-Epte",
+      "info": "Charles le Simple cède au chef viking Rollon la région qui deviendra la Normandie."
+    },
+    {
+      "annee": 987,
+      "evenement": "Fin des Carolingiens",
+      "info": "À la mort de Louis V, les grands élisent Hugues Capet roi."
     }
   ],
   "dirigeants": [
-    { "titre": "Roi des Francs (Mérovingien)", "nom": "Clovis Ier", "debut": 481, "fin": 511 },
     {
-      "titre": "Empereur d'Occident (Carolingien)",
-      "nom": "Charlemagne",
-      "surnom": "Carolus Magnus",
+      "nom": "Clovis Ier",
+      "titre": "Roi des Francs",
+      "debut": 481,
+      "fin": 511,
+      "dynastie": "merovingiens",
+      "personne": "clovis",
+      "cle": true
+    },
+    {
+      "nom": "Childebert Ier",
+      "titre": "Roi (Paris)",
+      "debut": 511,
+      "fin": 558,
+      "dynastie": "merovingiens",
+      "note": "fils de Clovis"
+    },
+    {
+      "nom": "Clotaire Ier",
+      "titre": "Roi des Francs",
+      "debut": 511,
+      "fin": 561,
+      "dynastie": "merovingiens",
+      "note": "seul roi de 558 à sa mort"
+    },
+    {
+      "nom": "Sigebert Ier",
+      "titre": "Roi d’Austrasie",
+      "debut": 561,
+      "fin": 575,
+      "dynastie": "merovingiens",
+      "note": "époux de Brunehaut"
+    },
+    {
+      "nom": "Chilpéric Ier",
+      "titre": "Roi de Neustrie",
+      "debut": 561,
+      "fin": 584,
+      "dynastie": "merovingiens",
+      "note": "époux de Frédégonde, rivale de Brunehaut"
+    },
+    {
+      "nom": "Clotaire II",
+      "titre": "Roi des Francs",
+      "debut": 584,
+      "fin": 629,
+      "dynastie": "merovingiens",
+      "note": "seul roi à partir de 613"
+    },
+    {
+      "nom": "Dagobert Ier",
+      "titre": "Roi des Francs",
+      "debut": 629,
+      "fin": 639,
+      "dynastie": "merovingiens",
+      "note": "dernier grand roi mérovingien",
+      "cle": true
+    },
+    {
+      "nom": "Childéric III",
+      "titre": "Roi des Francs",
+      "debut": 743,
+      "fin": 751,
+      "dynastie": "merovingiens",
+      "note": "dernier Mérovingien, enfermé dans un monastère"
+    },
+    { "nom": "Pépin de Herstal", "titre": "Maire du palais", "debut": 680, "fin": 714, "dynastie": "maires" },
+    {
+      "nom": "Charles Martel",
+      "titre": "Maire du palais",
+      "debut": 715,
+      "fin": 741,
+      "dynastie": "maires",
+      "personne": "charles-martel",
+      "note": "vainqueur à Poitiers",
+      "cle": true
+    },
+    {
+      "nom": "Pépin le Bref",
+      "titre": "Maire du palais, puis roi",
+      "debut": 741,
+      "fin": 768,
+      "dynastie": "carolingiens",
+      "note": "roi en 751",
+      "cle": true
+    },
+    {
+      "nom": "Carloman Ier",
+      "titre": "Roi des Francs",
       "debut": 768,
-      "fin": 814
+      "fin": 771,
+      "dynastie": "carolingiens",
+      "note": "frère de Charlemagne"
+    },
+    {
+      "nom": "Charlemagne",
+      "titre": "Roi des Francs, puis empereur",
+      "debut": 768,
+      "fin": 814,
+      "dynastie": "carolingiens",
+      "personne": "charlemagne",
+      "note": "empereur en 800",
+      "cle": true
+    },
+    {
+      "nom": "Louis le Pieux",
+      "titre": "Empereur",
+      "surnom": "le Pieux",
+      "debut": 814,
+      "fin": 840,
+      "dynastie": "carolingiens",
+      "cle": true
+    },
+    {
+      "nom": "Lothaire Ier",
+      "titre": "Empereur",
+      "debut": 840,
+      "fin": 855,
+      "dynastie": "carolingiens",
+      "note": "reçoit la Francie médiane à Verdun"
+    },
+    {
+      "nom": "Charles II",
+      "titre": "Roi de Francie occidentale",
+      "surnom": "le Chauve",
+      "debut": 843,
+      "fin": 877,
+      "dynastie": "francie",
+      "note": "empereur en 875",
+      "cle": true
+    },
+    { "nom": "Louis II", "titre": "Roi", "surnom": "le Bègue", "debut": 877, "fin": 879, "dynastie": "francie" },
+    {
+      "nom": "Louis III",
+      "titre": "Roi",
+      "debut": 879,
+      "fin": 882,
+      "dynastie": "francie",
+      "note": "bat les Vikings à Saucourt"
+    },
+    { "nom": "Carloman II", "titre": "Roi", "debut": 879, "fin": 884, "dynastie": "francie" },
+    {
+      "nom": "Charles le Gros",
+      "titre": "Empereur et roi",
+      "surnom": "le Gros",
+      "debut": 884,
+      "fin": 887,
+      "dynastie": "francie",
+      "note": "réunit un temps tout l’empire"
+    },
+    {
+      "nom": "Eudes",
+      "titre": "Roi",
+      "debut": 888,
+      "fin": 898,
+      "dynastie": "francie",
+      "note": "comte de Paris, défenseur de la ville contre les Vikings ; premier roi robertien"
+    },
+    {
+      "nom": "Charles III",
+      "titre": "Roi",
+      "surnom": "le Simple",
+      "debut": 898,
+      "fin": 922,
+      "dynastie": "francie",
+      "note": "cède la Normandie à Rollon"
+    },
+    {
+      "nom": "Robert Ier",
+      "titre": "Roi",
+      "debut": 922,
+      "fin": 923,
+      "dynastie": "francie",
+      "note": "frère d’Eudes, grand-père d’Hugues Capet"
+    },
+    { "nom": "Raoul", "titre": "Roi", "debut": 923, "fin": 936, "dynastie": "francie" },
+    {
+      "nom": "Louis IV",
+      "titre": "Roi",
+      "surnom": "d’Outremer",
+      "debut": 936,
+      "fin": 954,
+      "dynastie": "francie",
+      "note": "élevé en Angleterre"
+    },
+    { "nom": "Lothaire", "titre": "Roi", "debut": 954, "fin": 986, "dynastie": "francie" },
+    {
+      "nom": "Louis V",
+      "titre": "Roi",
+      "surnom": "le Fainéant",
+      "debut": 986,
+      "fin": 987,
+      "dynastie": "francie",
+      "note": "dernier roi carolingien"
     }
   ],
   "personnages": [
     {
+      "nom": "Clovis",
+      "role": "Roi des Francs",
+      "description": "Il unifie la Gaule et se convertit au catholicisme, fondant la dynastie mérovingienne.",
+      "dates": "vers 466 → 511",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Clovis_Ier",
+      "ref": "clovis"
+    },
+    {
+      "nom": "Charlemagne",
+      "role": "Roi des Francs et empereur",
+      "description": "Conquérant d’un vaste empire, couronné empereur en 800, il encourage les écoles et la culture.",
+      "dates": "vers 742 → 814",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Charlemagne",
+      "ref": "charlemagne"
+    },
+    {
       "nom": "Charles Martel",
-      "role": "Maire du Palais",
-      "description": "Grand-père de Charlemagne, il réorganise l'armée franque et arrête les Omeyyades.",
-      "dates": "690 à 741",
-      "wikiUrl": "https://fr.wikipedia.org/wiki/Charles_Martel"
+      "role": "Maire du palais",
+      "description": "Il gouverne le royaume sans être roi, bat les Omeyyades à Poitiers et prépare l’avènement de sa famille.",
+      "dates": "vers 688 → 741",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Charles_Martel",
+      "ref": "charles-martel"
+    },
+    {
+      "nom": "Clotilde",
+      "role": "Reine",
+      "description": "Princesse burgonde, épouse de Clovis, elle l’aurait poussé à se convertir au catholicisme.",
+      "dates": "vers 475 → 545",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Clotilde"
+    },
+    {
+      "nom": "Brunehaut",
+      "role": "Reine",
+      "description": "Reine d’Austrasie, elle gouverne pendant des décennies pour ses fils et petits-fils, avant d’être exécutée en 613.",
+      "dates": "vers 547 → 613",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Brunehaut"
+    },
+    {
+      "nom": "Alcuin",
+      "role": "Savant",
+      "description": "Moine anglais appelé par Charlemagne pour diriger l’école du palais et organiser la renaissance des études.",
+      "dates": "vers 735 → 804",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Alcuin"
+    },
+    {
+      "nom": "Éginhard",
+      "role": "Biographe",
+      "description": "Conseiller de Charlemagne, il écrit sa biographie, la Vie de Charlemagne.",
+      "dates": "vers 775 → 840",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/%C3%89ginhard"
     }
   ],
   "guerres": [
+    {
+      "nom": "Bataille de Vouillé",
+      "annee": 507,
+      "adversaires": ["Royaume wisigoth (Alaric II)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Francs (Clovis)",
+      "consequences": "Alaric II est tué ; les Francs prennent l’Aquitaine et les Wisigoths se replient en Espagne.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Vouill%C3%A9"
+    },
+    {
+      "nom": "Bataille de Poitiers (732)",
+      "annee": 732,
+      "adversaires": ["Armée omeyyade d’al-Andalus (Abd al-Rahman)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Francs (Charles Martel)",
+      "consequences": "Le gouverneur d’al-Andalus est tué et son armée se retire. La victoire renforce le prestige de Charles Martel.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Poitiers_(732)"
+    },
     {
       "nom": "Guerres saxonnes",
       "annee": 772,
       "adversaires": ["Tribus saxonnes païennes (Widukind)"],
       "allies": [],
-      "morts": "Dizaines de milliers de Saxons",
+      "morts": "Inconnues ; en 782, 4 500 prisonniers saxons sont exécutés à Verden, selon les Annales royales",
       "vainqueur": "Francs (Charlemagne)",
-      "consequences": "Soumission et baptême forcé de la Saxe, étendant la chrétienté jusqu'à l'Elbe.",
+      "consequences": "Guerre de 772 à 804. La Saxe est soumise, convertie de force et intégrée à l’empire.",
       "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_des_Saxons"
     }
   ],
-  "sciences": "La 'Renaissance carolingienne' stoppe le déclin culturel post-romain. Charlemagne crée des écoles monastiques et impose la 'minuscule caroline', une écriture standardisée claire qui unifie la diffusion des textes en Europe (et dont dérive notre typographie moderne). Sur le plan militaire, l'adoption de l'étrier donne naissance à la redoutable chevalerie lourde franque.",
-  "croyancesText": "C'est l'alliance indéfectible du Trône et de l'Autel. Les Francs ne sont pas des hérétiques ariens mais des catholiques romains, devenant le bras armé de la Papauté. Charlemagne procède à des conversions forcées d'une brutalité extrême (massacre de Verden) contre les tribus germaniques païennes, instaurant la dîme obligatoire pour financer le clergé.",
-  "diplomatie": "L'administration impériale est assurée par un réseau de fidélités personnelles (vassalité) et contrôlée par les 'Missi Dominici' (les envoyés du maître) qui parcourent l'empire à cheval pour surveiller les comtes et rendre la justice. Le Traité de Verdun (843) scinde cette diplomatie en créant les futures frontières de la France, de l'Allemagne et de l'Italie.",
-  "documentaires": [{ "titre": "Charlemagne, le prince à cheval", "url": "https://fr.wikipedia.org/wiki/Empire_carolingien" }]
+  "sciences": "Charlemagne veut des clercs instruits : il développe les écoles des monastères et des cathédrales, réunit des savants à sa cour et fait recopier les textes antiques. Les copistes adoptent la minuscule caroline, une écriture claire, ancêtre de nos lettres minuscules. Il réforme aussi la monnaie autour du denier d’argent.",
+  "croyancesText": "Contrairement à d’autres rois germaniques, chrétiens ariens, Clovis choisit le catholicisme, ce qui lui assure le soutien des évêques et de la population gallo-romaine. Les Carolingiens s’allient étroitement au pape. Charlemagne impose le christianisme aux Saxons par la force (en 782, il fait exécuter des milliers de prisonniers à Verden) et rend la dîme obligatoire pour financer l’Église.",
+  "diplomatie": "Le royaume repose sur des liens personnels de fidélité entre le roi et les grands. Charlemagne fait surveiller les comtes par des envoyés, les missi dominici, et échange des ambassades avec le calife de Bagdad Haroun al-Rachid, qui lui offre un éléphant. Le partage de Verdun en 843 dessine les futures frontières de la France et de l’Allemagne.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": {
+      "valeur": "Paris, puis Aix-la-Chapelle",
+      "precision": "Clovis choisit Paris ; Charlemagne réside surtout à Aix-la-Chapelle ; les rois se déplacent beaucoup"
+    },
+    "regimes": { "valeur": "Royauté, puis empire", "precision": "royaume partagé entre les fils du roi à chaque succession" },
+    "langues": {
+      "valeur": "Latin et francique",
+      "precision": "le latin parlé évolue vers l’ancien français ; le francique est une langue germanique"
+    },
+    "religion": { "valeur": "Christianisme catholique", "precision": "depuis le baptême de Clovis" },
+    "apogee": { "valeur": "Vers 800", "precision": "empire de Charlemagne, de l’Èbre à l’Elbe" },
+    "population": { "valeur": "Peut-être 10 à 20 millions", "precision": "sous Charlemagne (estimation)" },
+    "monnaie": {
+      "valeur": "Denier d’argent",
+      "precision": "Charlemagne fixe le système livre, sou et denier, utilisé en France jusqu’en 1795"
+    },
+    "duree": { "valeur": "Environ 500 ans" },
+    "aujourdhui": {
+      "valeur": "France, Belgique, Pays-Bas, Allemagne, Suisse",
+      "precision": "et le nord de l’Italie sous Charlemagne"
+    }
+  },
+  "essentiel": [
+    "[[clovis|Clovis]], roi des Francs, conquiert presque toute la Gaule et se fait [[bapteme-de-clovis|baptiser]], ce qui lui assure l’appui de l’Église.",
+    "Ses descendants, les Mérovingiens, partagent le royaume entre fils ; le pouvoir passe peu à peu aux maires du palais.",
+    "L’un d’eux, [[charles-martel|Charles Martel]], bat les troupes omeyyades à [[bataille-de-poitiers|Poitiers]] ; son fils Pépin le Bref devient roi en 751.",
+    "[[charlemagne|Charlemagne]] conquiert un immense empire et est [[couronnement-de-charlemagne|couronné empereur]] à Rome en 800.",
+    "Après lui, l’empire est partagé au [[traite-de-verdun|traité de Verdun]] (843) ; la Francie occidentale devient le royaume de France."
+  ],
+  "periodes": [
+    {
+      "nom": "Clovis et ses fils",
+      "debut": 481,
+      "fin": 561,
+      "resume": "Clovis unifie la Gaule, sauf la Provence et la Bretagne. Ses fils se partagent le royaume, conquièrent la Burgondie et continuent les guerres.",
+      "evenements": [
+        { "annee": 496, "evenement": "Baptême de Clovis", "ref": "bapteme-de-clovis" },
+        { "annee": 507, "evenement": "Victoire de Vouillé" },
+        { "annee": 534, "evenement": "Conquête de la Burgondie" }
+      ]
+    },
+    {
+      "nom": "Les rois mérovingiens et les maires du palais",
+      "debut": 561,
+      "fin": 751,
+      "resume": "Les royaumes francs (Neustrie, Austrasie, Burgondie) se déchirent. Dagobert est le dernier roi puissant ; le pouvoir passe aux maires du palais, dont la famille des Pippinides.",
+      "evenements": [
+        { "annee": 629, "evenement": "Dagobert seul roi" },
+        { "annee": 732, "evenement": "Bataille de Poitiers", "ref": "bataille-de-poitiers" }
+      ]
+    },
+    {
+      "nom": "L’empire carolingien",
+      "debut": 751,
+      "fin": 843,
+      "resume": "Pépin le Bref devient roi. Charlemagne conquiert la Lombardie, la Saxe et la Bavière, se fait couronner empereur et relance les écoles et la culture.",
+      "evenements": [
+        { "annee": 774, "evenement": "Conquête du royaume lombard" },
+        { "annee": 778, "evenement": "Défaite de Roncevaux" },
+        { "annee": 800, "evenement": "Couronnement impérial", "ref": "couronnement-de-charlemagne" }
+      ]
+    },
+    {
+      "nom": "La Francie occidentale",
+      "debut": 843,
+      "fin": 987,
+      "resume": "Après Verdun, les rois de Francie occidentale affrontent les Vikings et la puissance des grands seigneurs. Des rois d’autres familles (Robertiens) alternent avec les Carolingiens.",
+      "evenements": [
+        { "annee": 843, "evenement": "Traité de Verdun", "ref": "traite-de-verdun" },
+        { "annee": 885, "evenement": "Siège de Paris par les Vikings" },
+        { "annee": 911, "evenement": "Naissance de la Normandie" }
+      ]
+    }
+  ],
+  "regimes": [
+    {
+      "id": "royaute",
+      "nom": "Royauté",
+      "debut": 481,
+      "fin": 800,
+      "note": "Le royaume est considéré comme le bien de la famille royale et partagé entre les fils."
+    },
+    {
+      "id": "empire",
+      "nom": "Empire",
+      "debut": 800,
+      "fin": 843,
+      "note": "Charlemagne et Louis le Pieux portent le titre d’empereur d’Occident."
+    },
+    {
+      "id": "royaume-ouest",
+      "nom": "Royaume de Francie occidentale",
+      "debut": 843,
+      "fin": 987,
+      "note": "Ancêtre du royaume de France."
+    }
+  ],
+  "dynasties": [
+    {
+      "id": "merovingiens",
+      "nom": "Les Mérovingiens",
+      "debut": 481,
+      "fin": 751,
+      "regime": "royaute",
+      "note": "Sélection : après Dagobert, les rois dits « fainéants » laissent gouverner les maires du palais."
+    },
+    {
+      "id": "maires",
+      "nom": "Les maires du palais (Pippinides)",
+      "debut": 680,
+      "fin": 751,
+      "regime": "royaute",
+      "note": "Ils ne sont pas rois, mais gouvernent à leur place."
+    },
+    { "id": "carolingiens", "nom": "Les premiers Carolingiens", "debut": 751, "fin": 843, "regime": "empire" },
+    {
+      "id": "francie",
+      "nom": "Rois de Francie occidentale",
+      "debut": 843,
+      "fin": 987,
+      "regime": "royaume-ouest",
+      "note": "Carolingiens, avec trois rois d’autres familles : Eudes, Robert Ier et Raoul."
+    }
+  ],
+  "societe": "Une aristocratie de guerriers et de grands propriétaires domine les campagnes, avec les évêques et les abbés. La plupart des habitants sont des paysans, libres ou non, qui travaillent sur de grands domaines.",
+  "economie": "Économie surtout rurale : grands domaines cultivés par des paysans dépendants, céréales, vigne, élevage ; commerce limité mais actif vers la mer du Nord et l’Italie.",
+  "decouvertes": ["minuscule-caroline"],
+  "arts": "Bijoux et armes mérovingiens, chapelle palatine d’Aix-la-Chapelle, manuscrits enluminés carolingiens, orfèvrerie religieuse.",
+  "quotidien": "La plupart des Francs vivent dans des villages, au rythme des travaux agricoles et des fêtes religieuses. Les grands chassent, festoient et partent chaque printemps à la guerre.",
+  "heritage": [
+    {
+      "titre": "La France et l’Allemagne",
+      "texte": "Le partage de Verdun (843) est à l’origine des deux pays ; le nom de la France vient des Francs."
+    },
+    {
+      "titre": "Nos lettres minuscules",
+      "texte": "La minuscule caroline, reprise par les imprimeurs de la Renaissance, est l’ancêtre de nos caractères d’imprimerie."
+    },
+    {
+      "titre": "Charlemagne, père de l’Europe",
+      "texte": "Le prix Charlemagne, remis chaque année à Aix-la-Chapelle, récompense les personnes qui œuvrent à l’unité européenne."
+    }
+  ],
+  "aSavoir": [
+    "Charlemagne n’a pas « inventé l’école » : il a développé les écoles des monastères et des cathédrales, réservées surtout aux futurs clercs.",
+    "Les rois mérovingiens portaient les cheveux longs, signe de leur rang royal."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Francs",
+    "https://fr.wikipedia.org/wiki/Carolingiens",
+    {
+      "titre": "Encyclopædia Britannica — Carolingian dynasty",
+      "url": "https://www.britannica.com/topic/Carolingian-dynasty"
+    }
+  ]
 }

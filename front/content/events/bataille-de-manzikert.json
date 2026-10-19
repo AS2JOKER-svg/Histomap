@@ -1,0 +1,19 @@
+{
+  "id": "bataille-de-manzikert",
+  "nom": "Bataille de Manzikert",
+  "annee": 1071,
+  "dates": "26 août 1071",
+  "lieu": "Manzikert (Malazgirt, est de la Turquie)",
+  "description": "Le sultan seldjoukide Alp Arslan bat et capture l’empereur Romain IV Diogène. Les Turcs s’installent ensuite en Anatolie.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Trahi par une partie de ses troupes, l’empereur est encerclé et fait prisonnier. Le sultan le traite avec égards et le libère contre rançon."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Les guerres civiles qui suivent laissent l’Anatolie ouverte aux Turcs. Pour les repousser, l’empereur Alexis Ier demande l’aide de l’Occident, ce qui prépare la première croisade."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Manzikert"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "traite-de-verdun",
+  "nom": "Traité de Verdun",
+  "annee": 843,
+  "dates": "août 843",
+  "lieu": "Verdun",
+  "description": "Les trois petits-fils de [[charlemagne|Charlemagne]] se partagent l’empire : Charles le Chauve reçoit l’ouest, Louis le Germanique l’est, Lothaire le centre et le titre d’empereur.",
+  "sections": [
+    {
+      "titre": "Contexte",
+      "texte": "Après la mort de Louis le Pieux en 840, ses fils se font la guerre. Charles et Louis s’allient contre Lothaire et prêtent les serments de Strasbourg (842), premier texte connu en ancien français."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "La Francie occidentale deviendra la France, la Francie orientale la Germanie. La bande du milieu, la Lotharingie, sera longtemps disputée."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Trait%C3%A9_de_Verdun"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "imprimerie-de-gutenberg",
+  "nom": "Imprimerie de Gutenberg",
+  "annee": 1450,
+  "domaine": "Écriture et livre",
+  "dates": "vers 1450",
+  "description": "À Mayence, Johannes Gutenberg met au point l’impression avec des caractères mobiles en métal, une presse et une encre grasse : il devient possible de produire des livres en grand nombre.",
+  "sections": [
+    {
+      "titre": "Comment ça marche",
+      "texte": "Chaque lettre est fondue en métal dans un moule. On assemble les lettres pour composer une page, on l’encre et on la presse sur le papier. Les caractères sont ensuite réutilisés pour d’autres pages."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "En 50 ans, des millions de livres sont imprimés en Europe. L’imprimerie favorise la diffusion des idées de la Renaissance, de la Réforme protestante et des sciences."
+    }
+  ],
+  "aSavoir": [
+    "La Chine et la Corée imprimaient déjà avec des caractères mobiles ; on ne connaît pas de lien direct entre ces techniques et celle de Gutenberg.",
+    "On connaît une cinquantaine d’exemplaires de sa Bible, imprimée vers 1455."
+  ],
+  "avant": "imprimerie",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Imprimerie"
+}

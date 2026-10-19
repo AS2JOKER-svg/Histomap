@@ -9,55 +9,441 @@
   "trackId": "serg",
   "row": 3,
   "isRiver": false,
-  "capitale": "Diètes itinérantes",
-  "description": "Un labyrinthe féodal d'Europe centrale, dirigé par un empereur élu, théâtre du grand choc de pouvoir entre le trône et la Papauté.",
+  "capitale": "Aucune capitale fixe",
+  "description": "Un vaste ensemble de principautés, de villes et d’évêchés en Europe centrale, sous l’autorité d’un empereur élu qui se veut l’héritier de Rome et de Charlemagne.",
   "territories": ["Holy Roman Empire"],
   "datesCles": [
-    { "annee": 962, "evenement": "Sacre d'Otton Ier", "info": "Création officielle du Saint-Empire à Rome." },
+    {
+      "annee": 955,
+      "evenement": "Bataille du Lechfeld",
+      "info": "Otton Ier écrase les Hongrois près d’Augsbourg et met fin à leurs raids.",
+      "ref": "bataille-du-lechfeld"
+    },
+    {
+      "annee": 962,
+      "evenement": "Sacre d’Otton Ier",
+      "info": "Le pape couronne Otton empereur à Rome : c’est la naissance de ce que l’on appellera le Saint-Empire."
+    },
     {
       "annee": 1077,
       "evenement": "Pénitence de Canossa",
-      "info": "Le roi Henri IV (couronné empereur seulement en 1084), excommunié, attend en habit de pénitent dans la neige, trois jours selon les chroniques, le pardon du pape Grégoire VII."
+      "info": "Le roi Henri IV (couronné empereur seulement en 1084), excommunié, attend en habit de pénitent dans la neige, trois jours selon les chroniques, le pardon du pape Grégoire VII.",
+      "ref": "penitence-de-canossa"
     },
-    { "annee": 1356, "evenement": "La Bulle d'Or", "info": "Fixe l'élection impériale par sept princes-électeurs." },
+    {
+      "annee": 1122,
+      "evenement": "Concordat de Worms",
+      "info": "Compromis entre l’empereur et le pape sur la nomination des évêques."
+    },
+    {
+      "annee": 1176,
+      "evenement": "Bataille de Legnano",
+      "info": "Les villes lombardes battent Frédéric Barberousse."
+    },
+    {
+      "annee": 1356,
+      "evenement": "La Bulle d’or",
+      "info": "Fixe l’élection impériale par sept princes-électeurs.",
+      "ref": "bulle-d-or"
+    },
+    {
+      "annee": 1415,
+      "evenement": "Mort de Jan Hus",
+      "info": "Le réformateur tchèque est brûlé au concile de Constance ; la Bohême se soulève."
+    },
     {
       "annee": 1450,
-      "evenement": "Invention de l'imprimerie",
-      "info": "Gutenberg invente la typographie à Mayence."
+      "evenement": "Imprimerie de Gutenberg",
+      "info": "À Mayence, Gutenberg met au point l’impression à caractères mobiles en métal."
     }
   ],
   "dirigeants": [
-    { "titre": "Empereur des Romains", "nom": "Otton Ier", "surnom": "Le Grand", "debut": 936, "fin": 973 },
-    { "titre": "Empereur", "nom": "Frédéric Ier", "surnom": "Barberousse", "debut": 1152, "fin": 1190 }
+    {
+      "nom": "Otton Ier",
+      "titre": "Empereur",
+      "surnom": "le Grand",
+      "debut": 962,
+      "fin": 973,
+      "dynastie": "ottoniens",
+      "personne": "otton-ier",
+      "note": "roi de Germanie depuis 936",
+      "cle": true
+    },
+    { "nom": "Otton II", "titre": "Empereur", "debut": 973, "fin": 983, "dynastie": "ottoniens" },
+    {
+      "nom": "Otton III",
+      "titre": "Empereur",
+      "debut": 983,
+      "fin": 1002,
+      "dynastie": "ottoniens",
+      "note": "roi à 3 ans, rêve de restaurer l’Empire romain"
+    },
+    { "nom": "Henri II", "titre": "Empereur", "debut": 1002, "fin": 1024, "dynastie": "ottoniens", "note": "canonisé" },
+    { "nom": "Conrad II", "titre": "Empereur", "debut": 1024, "fin": 1039, "dynastie": "saliens" },
+    { "nom": "Henri III", "titre": "Empereur", "debut": 1039, "fin": 1056, "dynastie": "saliens" },
+    {
+      "nom": "Henri IV",
+      "titre": "Empereur",
+      "debut": 1056,
+      "fin": 1105,
+      "dynastie": "saliens",
+      "note": "humilié à Canossa",
+      "cle": true
+    },
+    {
+      "nom": "Henri V",
+      "titre": "Empereur",
+      "debut": 1106,
+      "fin": 1125,
+      "dynastie": "saliens",
+      "note": "signe le concordat de Worms"
+    },
+    { "nom": "Lothaire III", "titre": "Empereur", "debut": 1125, "fin": 1137, "dynastie": "saliens" },
+    {
+      "nom": "Conrad III",
+      "titre": "Roi des Romains",
+      "debut": 1138,
+      "fin": 1152,
+      "dynastie": "staufen",
+      "note": "premier Hohenstaufen"
+    },
+    {
+      "nom": "Frédéric Ier",
+      "titre": "Empereur",
+      "surnom": "Barberousse",
+      "debut": 1152,
+      "fin": 1190,
+      "dynastie": "staufen",
+      "personne": "frederic-barberousse",
+      "cle": true
+    },
+    {
+      "nom": "Henri VI",
+      "titre": "Empereur",
+      "debut": 1190,
+      "fin": 1197,
+      "dynastie": "staufen",
+      "note": "retient Richard Cœur de Lion prisonnier"
+    },
+    {
+      "nom": "Philippe de Souabe",
+      "titre": "Roi des Romains",
+      "debut": 1198,
+      "fin": 1208,
+      "dynastie": "staufen",
+      "note": "assassiné"
+    },
+    {
+      "nom": "Otton IV",
+      "titre": "Empereur",
+      "debut": 1198,
+      "fin": 1215,
+      "dynastie": "staufen",
+      "note": "Welf, vaincu à Bouvines en 1214"
+    },
+    {
+      "nom": "Frédéric II",
+      "titre": "Empereur",
+      "debut": 1212,
+      "fin": 1250,
+      "dynastie": "staufen",
+      "personne": "frederic-ii-de-hohenstaufen",
+      "note": "surnommé « la Stupeur du monde »",
+      "cle": true
+    },
+    { "nom": "Conrad IV", "titre": "Roi des Romains", "debut": 1250, "fin": 1254, "dynastie": "staufen" },
+    {
+      "nom": "Rodolphe Ier",
+      "titre": "Roi des Romains",
+      "debut": 1273,
+      "fin": 1291,
+      "dynastie": "maisons",
+      "note": "premier Habsbourg",
+      "cle": true
+    },
+    {
+      "nom": "Adolphe de Nassau",
+      "titre": "Roi des Romains",
+      "debut": 1292,
+      "fin": 1298,
+      "dynastie": "maisons",
+      "note": "déposé par les électeurs"
+    },
+    { "nom": "Albert Ier", "titre": "Roi des Romains", "debut": 1298, "fin": 1308, "dynastie": "maisons" },
+    {
+      "nom": "Henri VII",
+      "titre": "Empereur",
+      "debut": 1308,
+      "fin": 1313,
+      "dynastie": "maisons",
+      "note": "de la maison de Luxembourg"
+    },
+    {
+      "nom": "Louis IV",
+      "titre": "Empereur",
+      "surnom": "de Bavière",
+      "debut": 1314,
+      "fin": 1347,
+      "dynastie": "maisons",
+      "note": "Wittelsbach, excommunié"
+    },
+    {
+      "nom": "Charles IV",
+      "titre": "Empereur",
+      "debut": 1346,
+      "fin": 1378,
+      "dynastie": "maisons",
+      "note": "promulgue la Bulle d’or ; fonde l’université de Prague",
+      "cle": true
+    },
+    {
+      "nom": "Venceslas",
+      "titre": "Roi des Romains",
+      "debut": 1378,
+      "fin": 1400,
+      "dynastie": "maisons",
+      "note": "déposé par les électeurs"
+    },
+    { "nom": "Robert", "titre": "Roi des Romains", "debut": 1400, "fin": 1410, "dynastie": "maisons" },
+    {
+      "nom": "Sigismond",
+      "titre": "Empereur",
+      "debut": 1410,
+      "fin": 1437,
+      "dynastie": "maisons",
+      "note": "réunit le concile de Constance"
+    },
+    { "nom": "Albert II", "titre": "Roi des Romains", "debut": 1438, "fin": 1439, "dynastie": "habsbourg" },
+    {
+      "nom": "Frédéric III",
+      "titre": "Empereur",
+      "debut": 1440,
+      "fin": 1493,
+      "dynastie": "habsbourg",
+      "note": "dernier empereur couronné à Rome",
+      "cle": true
+    }
   ],
   "personnages": [
     {
-      "nom": "Frédéric II",
+      "nom": "Frédéric II de Hohenstaufen",
       "role": "Empereur",
-      "description": "Surnommé la 'Stupeur du monde', souverain polyglotte, scientifique et excommunié deux fois par la papauté.",
-      "dates": "1194 à 1250",
-      "wikiUrl": "https://fr.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_II_(empereur_du_Saint-Empire)"
+      "description": "Surnommé la « Stupeur du monde », souverain polyglotte et curieux de sciences, excommunié à plusieurs reprises par les papes.",
+      "dates": "1194 → 1250",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_II_(empereur_du_Saint-Empire)",
+      "ref": "frederic-ii-de-hohenstaufen"
+    },
+    {
+      "nom": "Hildegarde de Bingen",
+      "role": "Abbesse, savante et compositrice",
+      "description": "Religieuse rhénane qui écrit sur la médecine, les plantes et la théologie, compose de la musique et correspond avec Barberousse.",
+      "dates": "1098 → 1179",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Hildegarde_de_Bingen"
+    },
+    {
+      "nom": "Jan Hus",
+      "role": "Réformateur religieux",
+      "description": "Prêtre de Prague qui critique l’Église ; condamné au concile de Constance, il est brûlé en 1415, ce qui déclenche les guerres hussites.",
+      "dates": "vers 1370 → 1415",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Jan_Hus"
+    },
+    {
+      "nom": "Johannes Gutenberg",
+      "role": "Inventeur et imprimeur",
+      "description": "Orfèvre de Mayence, il met au point vers 1450 l’imprimerie à caractères mobiles en métal et imprime une célèbre Bible.",
+      "dates": "vers 1400 → 1468",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Johannes_Gutenberg"
     }
   ],
   "guerres": [
     {
+      "nom": "Bataille du Lechfeld",
+      "annee": 955,
+      "adversaires": ["Hongrois (Magyars)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Otton Ier",
+      "consequences": "Les Hongrois cessent leurs raids en Europe de l’Ouest et s’installent dans la plaine du Danube. Otton gagne un immense prestige.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_du_Lechfeld"
+    },
+    {
       "nom": "Guerres d'Italie / Ligue Lombarde",
       "annee": 1176,
       "adversaires": ["Communes d'Italie du Nord (Milan)"],
-      "allies": ["Princes germaniques fidèles"],
-      "morts": "Fortes pertes chevaleresques",
+      "allies": ["Princes allemands fidèles"],
+      "morts": "Inconnues",
       "vainqueur": "Ligue Lombarde (Paix de Constance)",
-      "consequences": "Frédéric Barberousse est vaincu à Legnano, l'Italie du Nord gagne son indépendance de fait face à l'Empire.",
+      "consequences": "Frédéric Barberousse est vaincu à Legnano en 1176 ; par la paix de Constance (1183), les villes lombardes obtiennent une large autonomie.",
       "wikiUrl": "https://fr.wikipedia.org/wiki/Ligue_lombarde"
+    },
+    {
+      "nom": "Croisades hussites",
+      "annee": 1420,
+      "adversaires": ["Hussites de Bohême (Jan Žižka)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Les hussites repoussent cinq croisades",
+      "consequences": "Les hussites obtiennent en 1436 le droit de communier sous les deux espèces : une première brèche dans l’unité de l’Église catholique.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Croisades_contre_les_hussites"
     }
   ],
-  "sciences": "Le génie germanique culmine à la fin du Moyen Âge avec Johannes Gutenberg, qui invente l'imprimerie à caractères mobiles en métal, révolutionnant la diffusion du savoir mondial. Sur le plan économique, les cités marchandes du nord (Lübeck, Hambourg) fondent la Ligue Hanséatique, une superpuissance maritime commerciale dotée de sa propre flotte et de ses lois.",
-  "croyancesText": "L'histoire de l'Empire est déchirée par la 'Querelle des Investitures' : qui a le pouvoir suprême sur terre, le Pape ou l'Empereur ? L'Empereur se voit comme le successeur des Césars, chef de la chrétienté. Cette tension fracture l'Allemagne et l'Italie en deux factions haineuses (les Guelfes soutenant le Pape, les Gibelins soutenant l'Empereur).",
-  "diplomatie": "Le Saint-Empire n'est pas une nation, mais un patchwork ingouvernable de plus de 300 principautés, duchés, comtés et villes libres. L'Empereur, au lieu d'hériter du trône, doit être élu et corrompre massivement les Princes-Électeurs pour garder le pouvoir (qui finira par être monopolisé par la Maison des Habsbourg).",
-  "documentaires": [
+  "sciences": "Vers 1450, à Mayence, Johannes Gutenberg met au point l’imprimerie à caractères mobiles en métal, avec une presse et une encre adaptée : sa Bible, imprimée vers 1455, marque le début d’une révolution du livre en Europe. Les villes marchandes du Nord, regroupées dans la Hanse, développent le commerce maritime. Prague, Vienne et Heidelberg fondent les premières universités de l’Empire au XIVe siècle.",
+  "croyancesText": "L’empereur se veut le protecteur de la chrétienté, mais il s’oppose souvent au pape : la querelle des Investitures porte sur le droit de nommer les évêques. En Italie, les partisans du pape (guelfes) et ceux de l’empereur (gibelins) s’affrontent pendant des siècles. Au XVe siècle, les hussites de Bohême contestent l’Église bien avant la Réforme.",
+  "diplomatie": "L’Empire n’est pas un État unifié, mais un ensemble de centaines de principautés, d’évêchés, de seigneuries et de villes libres. L’empereur doit négocier avec les princes, qui l’élisent. Les promesses et les cadeaux aux électeurs sont fréquents, et les guerres en Italie l’épuisent.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": {
+      "valeur": "Aucune capitale fixe",
+      "precision": "l’empereur se déplace ; Aix-la-Chapelle pour le couronnement royal, Francfort pour l’élection, Prague sous Charles IV"
+    },
+    "regimes": {
+      "valeur": "Monarchie élective",
+      "precision": "le roi est élu par les grands princes, puis couronné empereur par le pape"
+    },
+    "langues": { "valeur": "Allemand, italien, tchèque…", "precision": "le latin pour l’Église et l’administration" },
+    "religion": { "valeur": "Christianisme catholique", "precision": "avec le mouvement hussite en Bohême au XVe siècle" },
+    "apogee": { "valeur": "XIIe-XIIIe siècles", "precision": "sous les Hohenstaufen" },
+    "population": { "valeur": "Peut-être 10 à 15 millions", "precision": "vers 1300 (estimation)" },
+    "monnaie": {
+      "valeur": "Pfennig, puis florin et thaler",
+      "precision": "de nombreux princes et villes frappent leur monnaie"
+    },
+    "duree": { "valeur": "Plus de 500 ans dans HistoMap", "precision": "l’empire existe jusqu’en 1806" },
+    "aujourdhui": {
+      "valeur": "Allemagne, Autriche, République tchèque, Suisse, Pays-Bas, Belgique",
+      "precision": "et le nord de l’Italie, l’est de la France"
+    }
+  },
+  "essentiel": [
+    "En 962, le roi de Germanie [[otton-ier|Otton Ier]] est couronné empereur à Rome : il prétend reprendre l’héritage de Charlemagne.",
+    "L’empereur est élu par les grands princes : son pouvoir dépend de leur fidélité et de son entente avec le pape.",
+    "La querelle des Investitures oppose l’empereur et le pape ; en 1077, Henri IV vient s’humilier à [[penitence-de-canossa|Canossa]].",
+    "Les empereurs de la famille Hohenstaufen, comme [[frederic-barberousse|Frédéric Barberousse]] et [[frederic-ii-de-hohenstaufen|Frédéric II]], tentent de dominer l’Italie.",
+    "La [[bulle-d-or|Bulle d’or]] de 1356 fixe l’élection par sept princes-électeurs ; à partir de 1438, les Habsbourg gardent la couronne."
+  ],
+  "periodes": [
     {
-      "titre": "Le Saint-Empire, le cœur de l'Europe",
-      "url": "https://fr.wikipedia.org/wiki/Saint-Empire_romain_germanique"
+      "nom": "Les Ottoniens",
+      "debut": 962,
+      "fin": 1024,
+      "resume": "Otton Ier et ses successeurs s’appuient sur les évêques pour gouverner et dominent l’Italie du Nord.",
+      "evenements": [
+        { "annee": 955, "evenement": "Bataille du Lechfeld", "ref": "bataille-du-lechfeld" },
+        { "annee": 962, "evenement": "Couronnement d’Otton Ier" }
+      ]
+    },
+    {
+      "nom": "Les Saliens et la querelle des Investitures",
+      "debut": 1024,
+      "fin": 1138,
+      "resume": "Les empereurs saliens affrontent les papes réformateurs, qui refusent que les laïcs nomment les évêques.",
+      "evenements": [
+        { "annee": 1077, "evenement": "Pénitence de Canossa", "ref": "penitence-de-canossa" },
+        { "annee": 1122, "evenement": "Concordat de Worms" }
+      ]
+    },
+    {
+      "nom": "Les Hohenstaufen",
+      "debut": 1138,
+      "fin": 1254,
+      "resume": "Frédéric Barberousse et son petit-fils Frédéric II veulent dominer l’Italie et se heurtent aux villes lombardes et aux papes.",
+      "evenements": [
+        { "annee": 1176, "evenement": "Défaite de Legnano" },
+        { "annee": 1190, "evenement": "Mort de Barberousse pendant la croisade" },
+        { "annee": 1250, "evenement": "Mort de Frédéric II" }
+      ]
+    },
+    {
+      "nom": "Le Grand Interrègne et les maisons rivales",
+      "debut": 1254,
+      "fin": 1438,
+      "resume": "Après vingt ans sans empereur reconnu, les familles Habsbourg, Luxembourg et Wittelsbach se disputent la couronne. La Bulle d’or organise l’élection.",
+      "evenements": [
+        { "annee": 1273, "evenement": "Élection de Rodolphe de Habsbourg" },
+        { "annee": 1356, "evenement": "Bulle d’or", "ref": "bulle-d-or" },
+        { "annee": 1419, "evenement": "Début des guerres hussites" }
+      ]
+    },
+    {
+      "nom": "Les Habsbourg",
+      "debut": 1438,
+      "fin": 1492,
+      "resume": "La couronne reste dans la famille des Habsbourg. Les villes s’enrichissent, et l’imprimerie naît à Mayence.",
+      "evenements": [{ "annee": 1450, "evenement": "Imprimerie de Gutenberg" }]
+    }
+  ],
+  "regimes": [
+    {
+      "id": "election",
+      "nom": "Monarchie élective",
+      "debut": 962,
+      "fin": 1492,
+      "note": "Les grands princes élisent le « roi des Romains », qui devient empereur après son couronnement, en général par le pape."
+    }
+  ],
+  "dynasties": [
+    { "id": "ottoniens", "nom": "Les Ottoniens", "debut": 962, "fin": 1024, "regime": "election" },
+    {
+      "id": "saliens",
+      "nom": "Les Saliens",
+      "debut": 1024,
+      "fin": 1137,
+      "regime": "election",
+      "note": "Suivis de Lothaire III (1125-1137)."
+    },
+    {
+      "id": "staufen",
+      "nom": "Les Hohenstaufen",
+      "debut": 1138,
+      "fin": 1254,
+      "regime": "election",
+      "note": "Avec Otton IV, de la famille rivale des Welf."
+    },
+    {
+      "id": "maisons",
+      "nom": "Habsbourg, Luxembourg et Wittelsbach",
+      "debut": 1273,
+      "fin": 1437,
+      "regime": "election",
+      "note": "Après le Grand Interrègne (1254-1273)."
+    },
+    {
+      "id": "habsbourg",
+      "nom": "Les Habsbourg",
+      "debut": 1438,
+      "fin": 1493,
+      "regime": "election",
+      "note": "Ils garderont la couronne presque sans interruption jusqu’en 1806."
+    }
+  ],
+  "societe": "Princes laïcs et ecclésiastiques, chevaliers, bourgeois des villes libres et paysans forment une société très diverse. Les villes, comme Lübeck, Nuremberg ou Cologne, deviennent riches et puissantes.",
+  "economie": "Agriculture, mines d’argent (Bohême, Saxe, Tyrol), commerce de la Hanse en mer du Nord et en Baltique, artisanat et foires.",
+  "decouvertes": ["imprimerie-de-gutenberg"],
+  "arts": "Cathédrales romanes de Spire et de Worms, puis gothiques de Cologne et de Prague, orfèvrerie ottonienne, manuscrits enluminés.",
+  "quotidien": "Dans les villes, les métiers sont organisés en corporations ; les foires de Francfort attirent les marchands de toute l’Europe.",
+  "heritage": [
+    {
+      "titre": "Le fédéralisme allemand",
+      "texte": "L’Allemagne et l’Autriche actuelles sont des États fédéraux, héritiers de la diversité des principautés de l’Empire."
+    },
+    {
+      "titre": "L’imprimerie",
+      "texte": "L’invention de Gutenberg a permis la diffusion massive des livres en Europe."
+    },
+    {
+      "titre": "Les cathédrales",
+      "texte": "Aix-la-Chapelle, Spire et Cologne sont inscrites au patrimoine mondial."
+    }
+  ],
+  "aSavoir": [
+    "Selon Voltaire, le Saint-Empire n’était « ni saint, ni romain, ni un empire ».",
+    "L’expression « Saint-Empire romain » n’apparaît qu’au XIIe siècle ; « de la nation germanique » est ajouté au XVe siècle."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Saint-Empire_romain_germanique",
+    {
+      "titre": "Encyclopædia Britannica — Holy Roman Empire",
+      "url": "https://www.britannica.com/place/Holy-Roman-Empire"
     }
   ]
 }

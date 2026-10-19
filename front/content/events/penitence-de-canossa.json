@@ -1,0 +1,22 @@
+{
+  "id": "penitence-de-canossa",
+  "nom": "Pénitence de Canossa",
+  "annee": 1077,
+  "dates": "janvier 1077",
+  "lieu": "Château de Canossa (Italie du Nord)",
+  "description": "Excommunié par le pape Grégoire VII, le roi Henri IV vient lui demander pardon, pieds nus dans la neige, devant le château de Canossa.",
+  "sections": [
+    {
+      "titre": "Contexte",
+      "texte": "Le pape veut interdire aux laïcs de nommer les évêques ; Henri IV refuse et tente de le déposer. Le pape l’excommunie, et les princes allemands menacent d’élire un autre roi."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Le pape lève l’excommunication, mais la lutte reprend : Henri IV prend Rome en 1084 et se fait couronner par un antipape. Le conflit ne se règle qu’au concordat de Worms (1122)."
+    }
+  ],
+  "aSavoir": [
+    "« Aller à Canossa » signifie encore aujourd’hui, en allemand et en français, s’humilier devant un adversaire."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/P%C3%A9nitence_de_Canossa"
+}

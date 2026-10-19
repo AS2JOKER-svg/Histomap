@@ -1,0 +1,17 @@
+{
+  "id": "frederic-ii-de-hohenstaufen",
+  "nom": "Frédéric II de Hohenstaufen",
+  "role": "Empereur",
+  "roles": ["Roi de Sicile", "Empereur", "Croisé"],
+  "dates": "1194 → 1250",
+  "naissance": 1194,
+  "mort": 1250,
+  "description": "Petit-fils de Barberousse, élevé en Sicile, il parle plusieurs langues, s’intéresse aux sciences et à la poésie, et affronte les papes, qui l’excommunient plusieurs fois.",
+  "essentiel": [
+    "Roi de Sicile, il réside à Palerme et dans le sud de l’Italie plutôt qu’en Allemagne.",
+    "Excommunié, il part en croisade et obtient Jérusalem par la négociation avec le sultan d’Égypte en 1229.",
+    "Il fonde l’université de Naples et écrit un traité sur la chasse au faucon."
+  ],
+  "aSavoir": ["Ses contemporains le surnomment « la Stupeur du monde » (Stupor mundi)."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_II_(empereur_du_Saint-Empire)"
+}

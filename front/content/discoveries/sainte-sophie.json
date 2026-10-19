@@ -1,0 +1,21 @@
+{
+  "id": "sainte-sophie",
+  "nom": "Sainte-Sophie",
+  "annee": 537,
+  "domaine": "Architecture",
+  "dates": "532 → 537",
+  "description": "La grande basilique de Constantinople, bâtie en cinq ans sur l’ordre de [[justinien-ier|Justinien]] : sa coupole géante semble flotter au-dessus de l’église.",
+  "sections": [
+    {
+      "titre": "Comment elle a été bâtie",
+      "texte": "Les architectes Anthémius de Tralles et Isidore de Milet posent une coupole de 31 mètres de diamètre sur quatre grands arcs, percée de 40 fenêtres qui font entrer la lumière."
+    },
+    {
+      "titre": "Ce qu’elle est devenue",
+      "texte": "Cathédrale orthodoxe pendant neuf siècles, elle devient mosquée en 1453, musée en 1934, puis de nouveau mosquée en 2020."
+    }
+  ],
+  "aSavoir": ["Elle est restée la plus grande église du monde pendant près de mille ans."],
+  "liens": [{ "ref": "justinien-ier", "relation": "L’empereur qui la fait bâtir" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Sainte-Sophie_de_Constantinople"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "charlemagne",
+  "nom": "Charlemagne",
+  "nomComplet": "Charles Ier, dit Charlemagne",
+  "role": "Roi des Francs et empereur d’Occident",
+  "roles": ["Roi des Francs", "Roi des Lombards", "Empereur"],
+  "dates": "vers 742 → 814",
+  "naissance": 742,
+  "mort": 814,
+  "description": "Roi des Francs qui conquiert un empire allant de l’Espagne à l’Elbe et de la mer du Nord à Rome. Couronné empereur en 800, il réorganise l’administration et relance les études.",
+  "reperes": [
+    { "label": "Règne", "valeur": "768 → 814" },
+    { "label": "Empereur", "valeur": "800 → 814" },
+    { "label": "Résidence", "valeur": "Aix-la-Chapelle" }
+  ],
+  "essentiel": [
+    "Il conquiert le royaume lombard, la Saxe, la Bavière et repousse les Avars.",
+    "Le 25 décembre 800, le pape Léon III le [[couronnement-de-charlemagne|couronne empereur]] à Rome.",
+    "Il surveille les comtes grâce aux missi dominici et fixe ses lois dans des capitulaires.",
+    "Il développe les écoles et fait recopier les textes : c’est la renaissance carolingienne, avec la [[minuscule-caroline|minuscule caroline]]."
+  ],
+  "chronologie": [
+    { "annee": 768, "texte": "Devient roi des Francs avec son frère Carloman" },
+    { "annee": 772, "texte": "Début des guerres contre les Saxons" },
+    { "annee": 774, "texte": "Roi des Lombards" },
+    { "annee": 778, "texte": "Défaite de Roncevaux" },
+    { "annee": 800, "texte": "Couronnement impérial", "ref": "couronnement-de-charlemagne" },
+    { "annee": 814, "texte": "Mort à Aix-la-Chapelle" }
+  ],
+  "liens": [{ "ref": "charles-martel", "relation": "Son grand-père" }],
+  "aSavoir": [
+    "Il savait lire, mais, selon son biographe Éginhard, il eut beaucoup de mal à apprendre à écrire.",
+    "Il n’avait sans doute pas de « barbe fleurie » : ses monnaies le montrent avec une moustache."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Charlemagne"
+}

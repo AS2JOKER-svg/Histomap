@@ -1,0 +1,19 @@
+{
+  "id": "schisme-de-1054",
+  "nom": "Schisme de 1054",
+  "annee": 1054,
+  "dates": "juillet 1054",
+  "lieu": "Constantinople",
+  "description": "Le légat du pape et le patriarche de Constantinople s’excommunient mutuellement : c’est le symbole de la séparation entre l’Église catholique et l’Église orthodoxe.",
+  "sections": [
+    {
+      "titre": "Contexte",
+      "texte": "Depuis des siècles, Rome et Constantinople s’opposent sur l’autorité du pape, des points de doctrine et des usages (pain levé ou non pour la messe, mariage des prêtres)."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "La rupture ne devient vraiment définitive qu’après le sac de Constantinople par les croisés en 1204. Les excommunications ont été levées en 1965 par le pape Paul VI et le patriarche Athénagoras."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Schisme_de_1054"
+}

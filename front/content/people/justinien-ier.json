@@ -1,0 +1,28 @@
+{
+  "id": "justinien-ier",
+  "nom": "Justinien Ier",
+  "role": "Empereur byzantin",
+  "roles": ["Empereur", "Législateur", "Bâtisseur"],
+  "dates": "vers 482 → 565",
+  "naissance": 482,
+  "mort": 565,
+  "description": "Empereur qui rêve de reconstituer l’Empire romain : ses généraux reprennent l’Afrique, l’Italie et le sud de l’Espagne. Il fait compiler le droit romain et bâtir Sainte-Sophie.",
+  "reperes": [{ "label": "Règne", "valeur": "527 → 565" }, { "label": "Épouse", "valeur": "Théodora" }],
+  "essentiel": [
+    "Neveu de l’empereur Justin Ier, un paysan devenu chef de la garde.",
+    "Pendant la [[sedition-nika|sédition Nika]], son épouse [[theodora|Théodora]] le convainc de ne pas fuir.",
+    "Il fait rédiger le Corpus juris civilis, compilation du droit romain.",
+    "Il fait reconstruire [[sainte-sophie|Sainte-Sophie]], inaugurée en 537.",
+    "Son règne est frappé par une terrible épidémie de peste, à partir de 541."
+  ],
+  "chronologie": [
+    { "annee": 527, "texte": "Devient empereur" },
+    { "annee": 529, "texte": "Premier code de lois" },
+    { "annee": 532, "texte": "Sédition Nika", "ref": "sedition-nika" },
+    { "annee": 534, "texte": "Reconquête de l’Afrique" },
+    { "annee": 554, "texte": "Fin de la reconquête de l’Italie" },
+    { "annee": 565, "texte": "Mort" }
+  ],
+  "liens": [{ "ref": "theodora", "relation": "Son épouse" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Justinien_Ier"
+}

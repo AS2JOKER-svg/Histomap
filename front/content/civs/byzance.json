@@ -10,59 +10,625 @@
   "row": 1,
   "isRiver": false,
   "capitale": "Constantinople",
-  "description": "Le survivant de l'Empire romain d'Orient, forteresse imprenable de la chrétienté orthodoxe et phare culturel du Moyen Âge.",
+  "description": "L’Empire romain d’Orient, chrétien et de langue grecque, qui survit mille ans à la chute de Rome autour de sa capitale, Constantinople, jusqu’à sa prise par les Ottomans en 1453.",
   "territories": ["Eastern Roman Empire", "Byzantine Empire"],
   "datesCles": [
-    { "annee": 532, "evenement": "Sédition Nika", "info": "Révolte matée dans le sang par Justinien et Théodora." },
+    {
+      "annee": 395,
+      "evenement": "Partage de l’Empire romain",
+      "info": "À la mort de Théodose Ier, son fils Arcadius reçoit l’Orient, son fils Honorius l’Occident."
+    },
+    {
+      "annee": 532,
+      "evenement": "Sédition Nika",
+      "info": "Une révolte à l’hippodrome manque de renverser Justinien ; elle est écrasée dans le sang.",
+      "ref": "sedition-nika"
+    },
     {
       "annee": 537,
       "evenement": "Sainte-Sophie",
-      "info": "Inauguration de la plus grande basilique chrétienne du monde."
+      "info": "Inauguration de la basilique Sainte-Sophie, la plus grande église du monde pendant près de mille ans."
+    },
+    {
+      "annee": 678,
+      "evenement": "Le feu grégeois",
+      "info": "Une arme incendiaire nouvelle aide Constantinople à repousser la flotte arabe qui l’assiège."
     },
     {
       "annee": 1054,
-      "evenement": "Schisme d'Orient",
-      "info": "Rupture définitive entre le Pape de Rome et le Patriarche de Constantinople."
+      "evenement": "Schisme de 1054",
+      "info": "Le légat du pape et le patriarche de Constantinople s’excommunient mutuellement.",
+      "ref": "schisme-de-1054"
+    },
+    {
+      "annee": 1071,
+      "evenement": "Bataille de Manzikert",
+      "info": "Les Turcs seldjoukides battent l’empereur Romain IV et s’installent en Anatolie.",
+      "ref": "bataille-de-manzikert"
     },
     {
       "annee": 1204,
       "evenement": "Sac de Constantinople",
-      "info": "Les croisés catholiques pillent la ville, brisant la puissance byzantine."
+      "info": "Les croisés de la quatrième croisade pillent la ville et fondent un empire latin.",
+      "ref": "sac-de-constantinople"
+    },
+    {
+      "annee": 1261,
+      "evenement": "Reprise de Constantinople",
+      "info": "Michel VIII Paléologue reprend la capitale et restaure l’empire."
     },
     {
       "annee": 1453,
       "evenement": "Chute finale",
-      "info": "Mehmed II (Ottomans) s'empare de la ville. Fin de l'Empire romain."
+      "info": "Mehmed II (Ottomans) s’empare de la ville. Fin de l’Empire romain.",
+      "ref": "chute-de-constantinople"
     }
   ],
   "dirigeants": [
-    { "titre": "Basileus (Empereur)", "nom": "Justinien Ier", "surnom": "Le Grand", "debut": 527, "fin": 565 },
-    { "titre": "Basileus", "nom": "Basile II", "surnom": "Le Bulgaroctone", "debut": 976, "fin": 1025 },
-    { "titre": "Dernier Empereur", "nom": "Constantin XI", "surnom": "Paléologue", "debut": 1449, "fin": 1453 }
+    {
+      "nom": "Arcadius",
+      "titre": "Empereur",
+      "debut": 395,
+      "fin": 408,
+      "dynastie": "theodosiens",
+      "note": "premier empereur de l’Orient seul"
+    },
+    {
+      "nom": "Théodose II",
+      "titre": "Empereur",
+      "debut": 408,
+      "fin": 450,
+      "dynastie": "theodosiens",
+      "note": "fait bâtir les grandes murailles de Constantinople"
+    },
+    { "nom": "Marcien", "titre": "Empereur", "debut": 450, "fin": 457, "dynastie": "theodosiens" },
+    { "nom": "Léon Ier", "titre": "Empereur", "debut": 457, "fin": 474, "dynastie": "theodosiens" },
+    {
+      "nom": "Zénon",
+      "titre": "Empereur",
+      "debut": 474,
+      "fin": 491,
+      "dynastie": "theodosiens",
+      "note": "règne interrompu par l’usurpateur Basiliscus (475-476)"
+    },
+    { "nom": "Anastase Ier", "titre": "Empereur", "debut": 491, "fin": 518, "dynastie": "theodosiens" },
+    {
+      "nom": "Justin Ier",
+      "titre": "Empereur",
+      "debut": 518,
+      "fin": 527,
+      "dynastie": "justiniens",
+      "note": "ancien paysan devenu chef de la garde"
+    },
+    {
+      "nom": "Justinien Ier",
+      "titre": "Empereur",
+      "surnom": "le Grand",
+      "debut": 527,
+      "fin": 565,
+      "dynastie": "justiniens",
+      "personne": "justinien-ier",
+      "cle": true
+    },
+    { "nom": "Justin II", "titre": "Empereur", "debut": 565, "fin": 578, "dynastie": "justiniens" },
+    { "nom": "Tibère II Constantin", "titre": "Empereur", "debut": 578, "fin": 582, "dynastie": "justiniens" },
+    {
+      "nom": "Maurice",
+      "titre": "Empereur",
+      "debut": 582,
+      "fin": 602,
+      "dynastie": "justiniens",
+      "note": "renversé et tué"
+    },
+    { "nom": "Phocas", "titre": "Empereur", "debut": 602, "fin": 610, "dynastie": "justiniens", "note": "usurpateur" },
+    {
+      "nom": "Héraclius",
+      "titre": "Empereur",
+      "debut": 610,
+      "fin": 641,
+      "dynastie": "heracliens",
+      "note": "bat les Perses, puis perd le Proche-Orient face aux Arabes",
+      "cle": true
+    },
+    { "nom": "Constant II", "titre": "Empereur", "debut": 641, "fin": 668, "dynastie": "heracliens" },
+    {
+      "nom": "Constantin IV",
+      "titre": "Empereur",
+      "debut": 668,
+      "fin": 685,
+      "dynastie": "heracliens",
+      "note": "repousse le premier siège arabe de Constantinople"
+    },
+    {
+      "nom": "Justinien II",
+      "titre": "Empereur",
+      "debut": 685,
+      "fin": 711,
+      "dynastie": "heracliens",
+      "note": "renversé en 695, nez coupé, il reprend le trône en 705"
+    },
+    { "nom": "Léonce", "titre": "Empereur", "debut": 695, "fin": 698, "dynastie": "heracliens" },
+    { "nom": "Tibère III", "titre": "Empereur", "debut": 698, "fin": 705, "dynastie": "heracliens" },
+    { "nom": "Philippicos", "titre": "Empereur", "debut": 711, "fin": 713, "dynastie": "heracliens" },
+    { "nom": "Anastase II", "titre": "Empereur", "debut": 713, "fin": 715, "dynastie": "heracliens" },
+    { "nom": "Théodose III", "titre": "Empereur", "debut": 715, "fin": 717, "dynastie": "heracliens" },
+    {
+      "nom": "Léon III",
+      "titre": "Empereur",
+      "debut": 717,
+      "fin": 741,
+      "dynastie": "isauriens",
+      "note": "repousse le second siège arabe ; lance l’iconoclasme",
+      "cle": true
+    },
+    { "nom": "Constantin V", "titre": "Empereur", "debut": 741, "fin": 775, "dynastie": "isauriens" },
+    { "nom": "Léon IV", "titre": "Empereur", "debut": 775, "fin": 780, "dynastie": "isauriens" },
+    {
+      "nom": "Constantin VI",
+      "titre": "Empereur",
+      "debut": 780,
+      "fin": 797,
+      "dynastie": "isauriens",
+      "note": "aveuglé sur l’ordre de sa mère"
+    },
+    {
+      "nom": "Irène",
+      "titre": "Impératrice",
+      "debut": 797,
+      "fin": 802,
+      "dynastie": "isauriens",
+      "note": "première femme à régner seule ; rétablit le culte des images",
+      "cle": true
+    },
+    {
+      "nom": "Nicéphore Ier",
+      "titre": "Empereur",
+      "debut": 802,
+      "fin": 811,
+      "dynastie": "isauriens",
+      "note": "tué au combat contre les Bulgares"
+    },
+    { "nom": "Michel Ier Rhangabé", "titre": "Empereur", "debut": 811, "fin": 813, "dynastie": "isauriens" },
+    { "nom": "Léon V", "titre": "Empereur", "surnom": "l’Arménien", "debut": 813, "fin": 820, "dynastie": "isauriens" },
+    {
+      "nom": "Michel II",
+      "titre": "Empereur",
+      "debut": 820,
+      "fin": 829,
+      "dynastie": "isauriens",
+      "note": "fondateur de la dynastie amorienne"
+    },
+    {
+      "nom": "Théophile",
+      "titre": "Empereur",
+      "debut": 829,
+      "fin": 842,
+      "dynastie": "isauriens",
+      "note": "dernier empereur iconoclaste"
+    },
+    { "nom": "Michel III", "titre": "Empereur", "debut": 842, "fin": 867, "dynastie": "isauriens" },
+    {
+      "nom": "Basile Ier",
+      "titre": "Empereur",
+      "debut": 867,
+      "fin": 886,
+      "dynastie": "macedoniens",
+      "note": "ancien palefrenier, fondateur de la dynastie"
+    },
+    { "nom": "Léon VI", "titre": "Empereur", "surnom": "le Sage", "debut": 886, "fin": 912, "dynastie": "macedoniens" },
+    { "nom": "Alexandre", "titre": "Empereur", "debut": 912, "fin": 913, "dynastie": "macedoniens" },
+    {
+      "nom": "Constantin VII",
+      "titre": "Empereur",
+      "surnom": "Porphyrogénète",
+      "debut": 913,
+      "fin": 959,
+      "dynastie": "macedoniens",
+      "note": "empereur savant, auteur de traités"
+    },
+    { "nom": "Romain Ier Lécapène", "titre": "Co-empereur", "debut": 920, "fin": 944, "dynastie": "macedoniens" },
+    { "nom": "Romain II", "titre": "Empereur", "debut": 959, "fin": 963, "dynastie": "macedoniens" },
+    {
+      "nom": "Nicéphore II Phocas",
+      "titre": "Empereur",
+      "debut": 963,
+      "fin": 969,
+      "dynastie": "macedoniens",
+      "note": "général victorieux des Arabes"
+    },
+    { "nom": "Jean Ier Tzimiskès", "titre": "Empereur", "debut": 969, "fin": 976, "dynastie": "macedoniens" },
+    {
+      "nom": "Basile II",
+      "titre": "Empereur",
+      "surnom": "le Bulgaroctone",
+      "debut": 976,
+      "fin": 1025,
+      "dynastie": "macedoniens",
+      "note": "« tueur de Bulgares » ; l’empire à son apogée",
+      "cle": true
+    },
+    { "nom": "Constantin VIII", "titre": "Empereur", "debut": 1025, "fin": 1028, "dynastie": "macedoniens" },
+    { "nom": "Romain III Argyre", "titre": "Empereur", "debut": 1028, "fin": 1034, "dynastie": "macedoniens" },
+    { "nom": "Michel IV", "titre": "Empereur", "debut": 1034, "fin": 1041, "dynastie": "macedoniens" },
+    { "nom": "Michel V", "titre": "Empereur", "debut": 1041, "fin": 1042, "dynastie": "macedoniens" },
+    {
+      "nom": "Zoé et Théodora",
+      "titre": "Impératrices",
+      "debut": 1042,
+      "fin": 1042,
+      "dynastie": "macedoniens",
+      "note": "deux sœurs règnent ensemble quelques semaines"
+    },
+    {
+      "nom": "Constantin IX Monomaque",
+      "titre": "Empereur",
+      "debut": 1042,
+      "fin": 1055,
+      "dynastie": "macedoniens",
+      "note": "règne pendant le schisme de 1054"
+    },
+    {
+      "nom": "Théodora",
+      "titre": "Impératrice",
+      "debut": 1055,
+      "fin": 1056,
+      "dynastie": "macedoniens",
+      "note": "dernière de la dynastie"
+    },
+    { "nom": "Michel VI", "titre": "Empereur", "debut": 1056, "fin": 1057, "dynastie": "macedoniens" },
+    { "nom": "Isaac Ier Comnène", "titre": "Empereur", "debut": 1057, "fin": 1059, "dynastie": "comnenes" },
+    { "nom": "Constantin X Doukas", "titre": "Empereur", "debut": 1059, "fin": 1067, "dynastie": "comnenes" },
+    {
+      "nom": "Romain IV Diogène",
+      "titre": "Empereur",
+      "debut": 1068,
+      "fin": 1071,
+      "dynastie": "comnenes",
+      "note": "vaincu et capturé à Manzikert"
+    },
+    { "nom": "Michel VII Doukas", "titre": "Empereur", "debut": 1071, "fin": 1078, "dynastie": "comnenes" },
+    { "nom": "Nicéphore III Botaniatès", "titre": "Empereur", "debut": 1078, "fin": 1081, "dynastie": "comnenes" },
+    {
+      "nom": "Alexis Ier Comnène",
+      "titre": "Empereur",
+      "debut": 1081,
+      "fin": 1118,
+      "dynastie": "comnenes",
+      "note": "redresse l’empire ; appelle les Occidentaux à l’aide",
+      "cle": true
+    },
+    { "nom": "Jean II Comnène", "titre": "Empereur", "debut": 1118, "fin": 1143, "dynastie": "comnenes" },
+    { "nom": "Manuel Ier Comnène", "titre": "Empereur", "debut": 1143, "fin": 1180, "dynastie": "comnenes" },
+    { "nom": "Alexis II Comnène", "titre": "Empereur", "debut": 1180, "fin": 1183, "dynastie": "comnenes" },
+    {
+      "nom": "Andronic Ier Comnène",
+      "titre": "Empereur",
+      "debut": 1183,
+      "fin": 1185,
+      "dynastie": "comnenes",
+      "note": "lynché par la foule"
+    },
+    {
+      "nom": "Isaac II Ange",
+      "titre": "Empereur",
+      "debut": 1185,
+      "fin": 1204,
+      "dynastie": "comnenes",
+      "note": "détrôné en 1195, rétabli en 1203"
+    },
+    { "nom": "Alexis III Ange", "titre": "Empereur", "debut": 1195, "fin": 1203, "dynastie": "comnenes" },
+    {
+      "nom": "Alexis IV Ange",
+      "titre": "Empereur",
+      "debut": 1203,
+      "fin": 1204,
+      "dynastie": "comnenes",
+      "note": "installé par les croisés"
+    },
+    {
+      "nom": "Alexis V Murzuphle",
+      "titre": "Empereur",
+      "debut": 1204,
+      "fin": 1204,
+      "dynastie": "comnenes",
+      "note": "règne pendant la prise de la ville"
+    },
+    { "nom": "Théodore Ier Laskaris", "titre": "Empereur à Nicée", "debut": 1205, "fin": 1221, "dynastie": "nicee" },
+    { "nom": "Jean III Vatatzès", "titre": "Empereur à Nicée", "debut": 1221, "fin": 1254, "dynastie": "nicee" },
+    { "nom": "Théodore II Laskaris", "titre": "Empereur à Nicée", "debut": 1254, "fin": 1258, "dynastie": "nicee" },
+    {
+      "nom": "Jean IV Laskaris",
+      "titre": "Empereur à Nicée",
+      "debut": 1258,
+      "fin": 1261,
+      "dynastie": "nicee",
+      "note": "enfant, écarté et aveuglé par Michel VIII"
+    },
+    {
+      "nom": "Michel VIII Paléologue",
+      "titre": "Empereur",
+      "debut": 1259,
+      "fin": 1282,
+      "dynastie": "paleologues",
+      "note": "reprend Constantinople en 1261",
+      "cle": true
+    },
+    { "nom": "Andronic II Paléologue", "titre": "Empereur", "debut": 1282, "fin": 1328, "dynastie": "paleologues" },
+    { "nom": "Andronic III Paléologue", "titre": "Empereur", "debut": 1328, "fin": 1341, "dynastie": "paleologues" },
+    {
+      "nom": "Jean V Paléologue",
+      "titre": "Empereur",
+      "debut": 1341,
+      "fin": 1391,
+      "dynastie": "paleologues",
+      "note": "règne entrecoupé de guerres civiles et d’usurpations"
+    },
+    {
+      "nom": "Jean VI Cantacuzène",
+      "titre": "Empereur",
+      "debut": 1347,
+      "fin": 1354,
+      "dynastie": "paleologues",
+      "note": "finit sa vie comme moine"
+    },
+    {
+      "nom": "Manuel II Paléologue",
+      "titre": "Empereur",
+      "debut": 1391,
+      "fin": 1425,
+      "dynastie": "paleologues",
+      "note": "parcourt l’Europe pour chercher de l’aide"
+    },
+    {
+      "nom": "Jean VIII Paléologue",
+      "titre": "Empereur",
+      "debut": 1425,
+      "fin": 1448,
+      "dynastie": "paleologues",
+      "note": "tente l’union des Églises (concile de Florence, 1439)"
+    },
+    {
+      "nom": "Constantin XI Paléologue",
+      "titre": "Empereur",
+      "debut": 1449,
+      "fin": 1453,
+      "dynastie": "paleologues",
+      "note": "dernier empereur, mort pendant l’assaut",
+      "cle": true
+    }
   ],
   "personnages": [
     {
-      "nom": "Impératrice Théodora",
-      "role": "Co-régente",
-      "description": "Ancienne actrice devenue l'épouse de Justinien, elle sauva le trône lors de la sédition Nika et influença les lois en faveur des femmes.",
-      "dates": "≈ 500 à 548",
-      "wikiUrl": "https://fr.wikipedia.org/wiki/Th%C3%A9odora_(imp%C3%A9ratrice,_%C3%A9pouse_de_Justinien_Ier)"
+      "nom": "Justinien Ier",
+      "role": "Empereur",
+      "description": "Il reconquiert une partie de l’Occident, fait compiler le droit romain et bâtit Sainte-Sophie.",
+      "dates": "vers 482 → 565",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Justinien_Ier",
+      "ref": "justinien-ier"
+    },
+    {
+      "nom": "Théodora",
+      "role": "Impératrice",
+      "description": "Ancienne actrice devenue l’épouse de Justinien, elle l’empêche de fuir pendant la sédition Nika et soutient des lois favorables aux femmes.",
+      "dates": "vers 500 → 548",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Th%C3%A9odora_(imp%C3%A9ratrice,_%C3%A9pouse_de_Justinien_Ier)",
+      "ref": "theodora"
+    },
+    {
+      "nom": "Bélisaire",
+      "role": "Général",
+      "description": "Général de Justinien, il reconquiert l’Afrique sur les Vandales et l’Italie sur les Ostrogoths.",
+      "dates": "vers 500 → 565",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/B%C3%A9lisaire"
+    },
+    {
+      "nom": "Anne Comnène",
+      "role": "Princesse et historienne",
+      "description": "Fille d’Alexis Ier, elle écrit l’Alexiade, histoire du règne de son père : l’une des premières historiennes connues.",
+      "dates": "1083 → 1153",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Anne_Comn%C3%A8ne"
+    },
+    {
+      "nom": "Cyrille et Méthode",
+      "role": "Missionnaires",
+      "description": "Deux frères envoyés chez les Slaves, à qui l’on attribue l’alphabet glagolitique, ancêtre du cyrillique.",
+      "dates": "IXe siècle",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Cyrille_et_M%C3%A9thode"
     }
   ],
   "guerres": [
     {
+      "nom": "Bataille de Manzikert",
+      "annee": 1071,
+      "adversaires": ["Turcs seldjoukides (Alp Arslan)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Seldjoukides",
+      "consequences": "L’empereur Romain IV est capturé ; les Turcs s’installent en Anatolie, cœur de l’empire.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Manzikert"
+    },
+    {
+      "nom": "Quatrième croisade",
+      "annee": 1204,
+      "adversaires": ["Croisés et Vénitiens"],
+      "allies": [],
+      "morts": "Inconnues ; massacres et pillages pendant trois jours",
+      "vainqueur": "Croisés",
+      "consequences": "Constantinople est pillée ; un Empire latin la gouverne jusqu’en 1261. Byzance ne retrouvera jamais sa puissance.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Quatri%C3%A8me_croisade"
+    },
+    {
       "nom": "Chute de Constantinople",
       "annee": 1453,
       "adversaires": ["Empire Ottoman (Mehmed II)"],
-      "allies": ["Génois, Vénitiens"],
-      "morts": "Massacre de la population",
+      "allies": ["Génois et Vénitiens"],
+      "morts": "Plusieurs milliers de défenseurs et d’habitants tués ; une grande partie de la population est réduite en esclavage",
       "vainqueur": "Ottomans",
-      "consequences": "Choc mondial. La basilique Sainte-Sophie devient une mosquée. Les savants byzantins fuient vers l'Italie, déclenchant la Renaissance.",
+      "consequences": "Constantinople devient la capitale ottomane et Sainte-Sophie une mosquée. Des savants grecs, déjà nombreux à partir pour l’Italie, contribuent à la Renaissance.",
       "wikiUrl": "https://fr.wikipedia.org/wiki/Chute_de_Constantinople"
     }
   ],
-  "sciences": "Outre la préservation vitale de la littérature et de la philosophie grecque antique, Byzance a inventé l'une des armes les plus terrifiantes de l'histoire : le feu grégeois. Ce liquide incendiaire indextinguible, projeté par des siphons en bronze sur les navires ennemis, brûlait même sur l'eau. Sur le plan civil, Justinien compile le droit romain (Corpus Juris Civilis), fondement de la justice européenne moderne.",
-  "croyancesText": "Le Césaropapisme est la règle : l'Empereur (Basileus) est le lieutenant de Dieu sur terre, il nomme le Patriarche et convoque les conciles. La religion byzantine (le christianisme orthodoxe) est marquée par de violentes querelles théologiques, notamment la crise iconoclaste (destruction des images pieuses aux VIIIe-IXe siècles) et sa liturgie éclatante magnifiée par un art inégalé de la mosaïque d'or.",
-  "diplomatie": "Enfermée entre l'Europe barbare, les Bulgares, l'Islam naissant et les Turcs, Byzance survit pendant 1000 ans grâce à une diplomatie machiavélique (le terme 'byzantin' en est resté). Le 'Bureau des Barbares' orchestrait l'espionnage, les versements massifs d'or pour monter les ennemis les uns contre les autres, et l'éblouissement des ambassadeurs dans le Grand Palais de Constantinople.",
-  "documentaires": [{ "titre": "Arte : Byzance, l'Empire romain d'Orient", "url": "https://fr.wikipedia.org/wiki/Empire_byzantin" }]
+  "sciences": "Byzance conserve et recopie les textes de la Grèce antique, transmis plus tard aux Arabes et aux Italiens. Elle invente le feu grégeois, un liquide incendiaire projeté sur les navires ennemis, qui brûle même sur l’eau. Justinien fait compiler le droit romain (Corpus juris civilis), base de nombreux codes européens. Ses architectes coiffent Sainte-Sophie d’une coupole géante de 31 mètres de diamètre.",
+  "croyancesText": "L’empereur, couronné par le patriarche, se présente comme le lieutenant de Dieu : il convoque les conciles et intervient dans les affaires de l’Église. Les querelles religieuses sont intenses, comme la crise de l’iconoclasme (VIIIe-IXe siècles), où les empereurs font détruire les images saintes avant qu’elles ne soient rétablies. Les monastères, comme ceux du mont Athos, et les icônes sont au cœur de la piété orthodoxe.",
+  "diplomatie": "Entourée d’ennemis (Perses, Arabes, Bulgares, Turcs, Normands, croisés), Byzance survit grâce à une diplomatie habile : tributs, mariages princiers, alliances de revers et cérémonies éblouissantes pour impressionner les ambassadeurs. Un bureau spécial s’occupe des relations avec les peuples étrangers. Elle convertit les Slaves au christianisme orthodoxe, dont les Russes en 988.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": {
+      "valeur": "Constantinople",
+      "precision": "aujourd’hui Istanbul ; Nicée pendant l’occupation latine (1204-1261)"
+    },
+    "regimes": {
+      "valeur": "Empire",
+      "precision": "un empereur (basileus) couronné par l’Église, sans règle fixe de succession"
+    },
+    "langues": { "valeur": "Grec", "precision": "le latin reste langue officielle jusqu’au VIIe siècle" },
+    "religion": {
+      "valeur": "Christianisme orthodoxe",
+      "precision": "le patriarche de Constantinople et l’empereur dirigent l’Église"
+    },
+    "apogee": { "valeur": "VIe siècle et vers 1025", "precision": "sous Justinien, puis sous Basile II" },
+    "population": {
+      "valeur": "Jusqu’à 25 millions",
+      "precision": "sous Justinien (estimation) ; Constantinople compte peut-être 400 000 habitants au VIe siècle, environ 50 000 en 1453"
+    },
+    "monnaie": {
+      "valeur": "Solidus (nomisma) d’or",
+      "precision": "monnaie de référence en Méditerranée pendant sept siècles"
+    },
+    "duree": { "valeur": "Plus de 1 000 ans" },
+    "aujourdhui": {
+      "valeur": "Turquie et Grèce",
+      "precision": "et, selon les époques, les Balkans, l’Italie, le Proche-Orient, l’Égypte et l’Afrique du Nord"
+    }
+  },
+  "essentiel": [
+    "En 395, l’Empire romain est partagé ; la partie orientale, autour de Constantinople, survit à la [[fin-empire-occident|chute de l’Occident]] en 476.",
+    "[[justinien-ier|Justinien]] reconquiert l’Italie et l’Afrique, fait rédiger le code de droit romain et bâtit [[sainte-sophie|Sainte-Sophie]].",
+    "L’empire perd ensuite le Proche-Orient et l’Égypte face aux Arabes, mais résiste grâce à ses murailles et au [[feu-gregeois|feu grégeois]].",
+    "L’Église d’Orient se sépare peu à peu de Rome ([[schisme-de-1054|schisme de 1054]]) ; en 1204, les croisés [[sac-de-constantinople|pillent Constantinople]].",
+    "Réduit à quelques territoires, l’empire tombe le 29 mai 1453 lors de la [[chute-de-constantinople|prise de Constantinople]] par les Ottomans."
+  ],
+  "periodes": [
+    {
+      "nom": "L’Empire romain d’Orient",
+      "debut": 395,
+      "fin": 610,
+      "resume": "L’Orient survit aux invasions. Justinien tente de reconstituer l’Empire romain et donne à Constantinople ses plus grands monuments.",
+      "evenements": [
+        { "annee": 532, "evenement": "Sédition Nika", "ref": "sedition-nika" },
+        { "annee": 537, "evenement": "Inauguration de Sainte-Sophie" },
+        { "annee": 541, "evenement": "Peste de Justinien" }
+      ]
+    },
+    {
+      "nom": "L’empire assiégé",
+      "debut": 610,
+      "fin": 867,
+      "resume": "Les conquêtes arabes enlèvent le Proche-Orient, l’Égypte et l’Afrique. L’empire, devenu grec, résiste à deux sièges arabes et se déchire sur la question des images (iconoclasme).",
+      "evenements": [
+        { "annee": 636, "evenement": "Défaite du Yarmouk face aux Arabes" },
+        { "annee": 717, "evenement": "Deuxième siège arabe de Constantinople" },
+        { "annee": 843, "evenement": "Fin de l’iconoclasme" }
+      ]
+    },
+    {
+      "nom": "L’apogée macédonien",
+      "debut": 867,
+      "fin": 1071,
+      "resume": "Les empereurs de la dynastie macédonienne reconquièrent des territoires ; Basile II soumet la Bulgarie. Les Slaves, dont les Russes, adoptent le christianisme orthodoxe.",
+      "evenements": [
+        { "annee": 988, "evenement": "Baptême du prince Vladimir de Kiev" },
+        { "annee": 1018, "evenement": "Conquête de la Bulgarie" },
+        { "annee": 1054, "evenement": "Schisme de 1054", "ref": "schisme-de-1054" }
+      ]
+    },
+    {
+      "nom": "Comnènes et croisades",
+      "debut": 1071,
+      "fin": 1204,
+      "resume": "Après Manzikert, les Comnènes redressent l’empire avec l’aide des croisés, mais la quatrième croisade se retourne contre Constantinople.",
+      "evenements": [
+        { "annee": 1071, "evenement": "Bataille de Manzikert", "ref": "bataille-de-manzikert" },
+        { "annee": 1096, "evenement": "Passage de la première croisade" },
+        { "annee": 1204, "evenement": "Sac de Constantinople", "ref": "sac-de-constantinople" }
+      ]
+    },
+    {
+      "nom": "Nicée et les Paléologues",
+      "debut": 1204,
+      "fin": 1453,
+      "resume": "Les Byzantins se replient à Nicée, reprennent Constantinople en 1261, mais l’empire s’affaiblit face aux Serbes, aux Vénitiens et surtout aux Ottomans.",
+      "evenements": [
+        { "annee": 1261, "evenement": "Reprise de Constantinople" },
+        { "annee": 1453, "evenement": "Chute de Constantinople", "ref": "chute-de-constantinople" }
+      ]
+    }
+  ],
+  "dynasties": [
+    { "id": "theodosiens", "nom": "Théodosiens et Léonides", "debut": 395, "fin": 518 },
+    {
+      "id": "justiniens",
+      "nom": "Dynastie justinienne",
+      "debut": 518,
+      "fin": 610,
+      "note": "Avec l’usurpateur Phocas (602-610)."
+    },
+    {
+      "id": "heracliens",
+      "nom": "Dynastie héraclide",
+      "debut": 610,
+      "fin": 717,
+      "note": "Suivie de vingt ans de coups d’État (695-717)."
+    },
+    { "id": "isauriens", "nom": "Isauriens et Amoriens", "debut": 717, "fin": 867, "note": "L’époque de l’iconoclasme." },
+    {
+      "id": "macedoniens",
+      "nom": "Dynastie macédonienne",
+      "debut": 867,
+      "fin": 1057,
+      "note": "Avec des co-empereurs et généraux qui gouvernent pour des héritiers trop jeunes."
+    },
+    { "id": "comnenes", "nom": "Doukas, Comnènes et Anges", "debut": 1057, "fin": 1204 },
+    {
+      "id": "nicee",
+      "nom": "L’empire de Nicée (Laskarides)",
+      "debut": 1205,
+      "fin": 1261,
+      "note": "Pendant l’occupation latine de Constantinople."
+    },
+    { "id": "paleologues", "nom": "Les Paléologues", "debut": 1259, "fin": 1453 }
+  ],
+  "societe": "L’empereur gouverne avec une administration nombreuse de fonctionnaires lettrés et d’eunuques. L’aristocratie militaire des provinces gagne en puissance à partir du Xe siècle. Constantinople, avec ses courses de chars à l’hippodrome, ses marchés et ses églises, est la plus grande ville d’Europe pendant des siècles.",
+  "economie": "Agriculture, commerce de la soie (dont Byzance obtient le secret au VIe siècle), des épices et des produits de luxe, artisanat ; l’empire contrôle le passage entre la mer Noire et la Méditerranée.",
+  "decouvertes": ["sainte-sophie", "feu-gregeois"],
+  "arts": "Mosaïques à fond d’or (Ravenne, Sainte-Sophie), icônes, manuscrits enluminés, ivoires et soieries : l’art byzantin influence toute l’Europe orthodoxe et l’Italie.",
+  "quotidien": "À Constantinople, les courses de chars passionnent la population, divisée entre les factions des Bleus et des Verts. Les fêtes religieuses et les processions impériales rythment l’année.",
+  "heritage": [
+    {
+      "titre": "L’Église orthodoxe",
+      "texte": "Les Églises orthodoxes de Grèce, de Russie, de Serbie, de Roumanie ou de Bulgarie sont les héritières de Byzance."
+    },
+    {
+      "titre": "Le droit",
+      "texte": "Le code de Justinien a inspiré le droit de nombreux pays européens, dont le Code civil français."
+    },
+    {
+      "titre": "L’alphabet cyrillique",
+      "texte": "Créé par des disciples de missionnaires byzantins, il est utilisé par des centaines de millions de personnes."
+    },
+    {
+      "titre": "Sainte-Sophie",
+      "texte": "Église, mosquée, musée, puis de nouveau mosquée depuis 2020 : elle domine toujours Istanbul."
+    }
+  ],
+  "aSavoir": [
+    "Les Byzantins ne se sont jamais appelés ainsi : ils se disaient « Romains ». Le mot « byzantin » a été inventé par des historiens au XVIe siècle."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Empire_byzantin",
+    {
+      "titre": "Encyclopædia Britannica — Byzantine Empire",
+      "url": "https://www.britannica.com/place/Byzantine-Empire"
+    }
+  ]
 }

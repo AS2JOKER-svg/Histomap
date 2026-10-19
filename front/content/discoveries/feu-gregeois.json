@@ -1,0 +1,20 @@
+{
+  "id": "feu-gregeois",
+  "nom": "Feu grégeois",
+  "annee": 672,
+  "domaine": "Technique militaire",
+  "dates": "vers 672",
+  "description": "Un liquide incendiaire projeté par des siphons sur les navires ennemis, qui continue de brûler sur l’eau : l’arme secrète de Byzance.",
+  "sections": [
+    {
+      "titre": "Comment ça marche",
+      "texte": "Sa recette, gardée secrète, est perdue. Il contenait sans doute du pétrole brut, peut-être mêlé de résine. Le liquide, chauffé et mis sous pression, était projeté enflammé."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Il aide Constantinople à repousser les flottes arabes lors des sièges de 674-678 et 717-718, puis les attaques russes au Xe siècle."
+    }
+  ],
+  "aSavoir": ["La tradition attribue son invention à Callinicos, un architecte venu de Syrie."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Feu_gr%C3%A9geois"
+}

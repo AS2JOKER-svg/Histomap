@@ -8,6 +8,7 @@ import useDocumentTitle from '../lib/useDocumentTitle'
 import Breadcrumbs from '../components/ui/Breadcrumbs'
 import Icon from '../components/ui/Icon'
 import RichText from '../components/ui/RichText'
+import ExpressQuiz from '../components/quiz/ExpressQuiz'
 import { AsKnow, Facts, Initials, KeyPoints, Prose, Section, Sources, Timeline, TitledList } from '../components/fiche/blocks'
 import NotFoundPage from './NotFoundPage'
 
@@ -166,6 +167,12 @@ function Entity({ e }) {
       {e.aSavoir?.length > 0 && (
         <Section icon="alert" title="À savoir">
           <AsKnow items={e.aSavoir} />
+        </Section>
+      )}
+
+      {e.express?.length > 0 && (
+        <Section icon="star" title="Quiz express" id="quiz">
+          <ExpressQuiz fiche={e} color={color} />
         </Section>
       )}
 

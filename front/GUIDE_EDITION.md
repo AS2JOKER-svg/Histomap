@@ -120,6 +120,21 @@ Une fiche liée est **partagée** : Jules César a une seule fiche, citée par R
 Les ids sont **uniques dans tout le site**, civilisations comprises (minuscules, chiffres, tirets).
 « Apparaît dans » (les fiches qui citent celle-ci) est calculé automatiquement.
 
+#### Quiz express (3 questions en bas de chaque fiche liée)
+Il est **généré au build** (`scripts/lib/express.mjs`), rien à rédiger. Les questions viennent des champs :
+`naissance`/`mort` ou `annee` (date), `dates` d'un seul siècle (« XIIIe siècle »), `role`, `lieu`, `domaine`,
+`liens`/`avant`/`apres` (fiche liée), la civilisation dont la fiche fait partie, l'ordre chronologique avec
+d'autres fiches de la même civilisation. Règle d'or : **une seule bonne réponse possible** — les leurres
+viennent d'autres continents, d'autres familles de rôles ou de domaines, et une question est écartée si la
+réponse se lit dans le nom (« Baptême de Clovis » → Clovis). Pour qu'une fiche ait un bon quiz :
+- des dates **précises** (`annee`, `naissance`, `mort`) : une date en siècles (« IXe-XIIe siècles ») est jugée
+  trop floue pour une question de date ou d'ordre ;
+- un `lieu` **précis** (« Pékin », « Adoua (nord de l'Éthiopie) ») plutôt que « Europe » ou « …, puis le monde » ;
+- un `role` court (« Pharaon », « Général carthaginois ») ;
+- des `liens` vers les acteurs.
+`npm run data` affiche le bilan (fiches à 3 questions, à 2, sans quiz). Les ids (`x-date`, `x-role`…) sont
+stables : le meilleur score de chaque fiche est gardé dans la progression (`express`).
+
 ### Liens dans les textes
 Dans **n'importe quel texte** de `content/` (description, info d'une date, sciences, description d'une personne…) :
 - `[[jules-cesar]]` → affiche le nom de la fiche (« Jules César ») ;
@@ -219,6 +234,8 @@ Pour ajouter des questions rédigées à la main, compléter le tableau `quiz` d
 | Cartes de révision (paquet, types de cartes) | `src/components/revision/` + `src/lib/revision.js` |
 | Chapitres rédigés à la main (cartes + questions) | `src/data/revision/` |
 | Quiz : génération des questions, règles | `src/lib/quiz.js` + `src/pages/QuizPage.jsx` + `src/components/quiz/` |
+| Affichage et correction d'une question (partagé) | `src/lib/questions.js` + `src/components/quiz/QuestionView.jsx` |
+| Quiz express des fiches liées | `scripts/lib/express.mjs` (génération au build) + `src/components/quiz/ExpressQuiz.jsx` |
 | Les couleurs, le mode sombre | `src/index.css` (variables `--c-…`) |
 | Les icônes | `src/components/ui/Icon.jsx` |
 
@@ -227,7 +244,7 @@ Pour ajouter des questions rédigées à la main, compléter le tableau `quiz` d
 - **Couleurs** : utiliser les classes de thème (`text-ink`, `text-muted`, `bg-surface`, `bg-surface2`, `border-line`, `text-accent`…) plutôt que `bg-white` ou `text-gray-500`, sinon le mode sombre casse.
 - **Boutons** : classes prêtes à l'emploi `btn-primary`, `btn-secondary`, `btn-ghost`, `btn-icon` (zone tactile ≥ 44 px).
 - **`localStorage`** : toujours passer par `src/lib/storage.js` (protégé contre la navigation privée).
-- **Progression** : clé `histomap_progress` (version 1). Si vous changez sa forme, incrémentez `VERSION` et complétez `migrate()` dans `store/progress.js`, sinon les utilisateurs perdent leur avancement.
+- **Progression** : clé `histomap_progress` (version 2 depuis le quiz express). Si vous changez sa forme, incrémentez `VERSION` et complétez `migrate()` dans `store/progress.js`, sinon les utilisateurs perdent leur avancement.
 - **Couleur d'une civilisation en texte** : ne pas écrire `style={{ color: civ.color }}` (certaines couleurs, comme l'or de l'Égypte, sont illisibles sur fond blanc) mais `className="civ-text" style={civTextStyle(civ.color)}` ; pour un fond portant du texte blanc : `style={{ background: solidBg(civ.color) }}` (`src/lib/color.js`). Le contraste AA (4,5:1) est alors garanti dans les deux thèmes.
 - **Application installable / hors ligne** : `public/manifest.webmanifest` (nom, icônes, raccourcis), `sw/sw.js` (service worker, complété au build par le plugin de `vite.config.js`), `src/lib/pwa.js` + `src/store/app.js` (connexion, installation, mise à jour). Le service worker n'est actif qu'après `npm run build` (pas en `npm run dev`). Icônes : `public/icons/`.
 - **Vibrations** : `haptic('success')` depuis `src/lib/haptics.js`. Android uniquement (Safari iOS ne le permet pas).

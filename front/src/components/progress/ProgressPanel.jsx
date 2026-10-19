@@ -13,6 +13,7 @@ export default function ProgressPanel() {
   const fiches = useProgress((s) => s.fiches)
   const chapters = useProgress((s) => s.chapters)
   const quizzes = useProgress((s) => s.quizzes)
+  const express = useProgress((s) => s.express)
   const days = useProgress((s) => s.days)
   const last = useProgress((s) => s.last)
   const reset = useProgress((s) => s.reset)
@@ -22,6 +23,7 @@ export default function ProgressPanel() {
   const read = Object.keys(fiches).length
   const revised = Object.values(chapters).filter((c) => c.rounds > 0).length
   const validated = Object.values(quizzes).filter((q) => q.best >= 15).length
+  const expressPerfect = Object.values(express).filter((x) => x.best === x.total).length
   const streak = streakOf(days)
   const suggestion = suggestNext(epochs, fiches, last)
 
@@ -50,7 +52,8 @@ export default function ProgressPanel() {
             <Bar pct={read / total} />
             <Link to="/reviser" className="block text-[11px] text-muted hover:text-ink mt-2">
               {revised ? `${revised} chapitre${revised > 1 ? 's' : ''} révisé${revised > 1 ? 's' : ''}` : 'Aucun chapitre révisé'}
-              {validated > 0 && ` · ${validated} validé${validated > 1 ? 's' : ''} au quiz`} →
+              {validated > 0 && ` · ${validated} validé${validated > 1 ? 's' : ''} au quiz`}
+              {expressPerfect > 0 && ` · ${expressPerfect} quiz express sans faute`} →
             </Link>
           </Tile>
           <Tile icon="sparkles" value={streak} unit={streak > 1 ? 'jours' : 'jour'} label="série en cours" highlight={streak >= 2}>

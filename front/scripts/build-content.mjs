@@ -4,6 +4,7 @@
 //                               civilisation, ce qu'il faut pour la frise, les listes et l'aperçu
 //   src/data/civs/<id>.json     détail d'une fiche (dates, dirigeants, textes…), chargé à la demande
 //   src/data/entities/<id>.json fiches liées (personnes, événements, découvertes) + « apparaît dans »
+//                               + « express » : les questions du quiz express (scripts/lib/express.mjs)
 //   src/data/territories.json   civilisation → noms des territoires sur les cartes historiques
 //   src/data/conflicts.json     guerres placées sur la carte
 //   src/data/quiz-context.json  leurres des quiz (événements, dirigeants, personnages des autres fiches)
@@ -16,6 +17,7 @@
 import { mkdirSync, rmSync, writeFileSync } from 'fs'
 import { join } from 'path'
 import { PATHS, assemble, loadContent, loadMapIndex } from './lib/content.mjs'
+import { expressQuestions } from './lib/express.mjs'
 import { parseLinks, resolveLinks, stripLinks, stripLinksDeep } from '../src/lib/links.js'
 
 const content = loadContent()
@@ -99,6 +101,12 @@ const index = epochs.map(({ continents, ...meta }) => ({
 const regions = Object.fromEntries(content.regions.map((r) => [r.id, r.label]))
 writeJson('index.json', { stats, regions, epochs: index })
 
+// Quiz express des fiches liées (texte brut : les questions n'affichent pas de liens)
+const express = expressQuestions({ content, byId, backlinks })
+// (moins de 2 questions sûres : pas de quiz express sur la fiche, ce n'est pas une erreur)
+const expressCount = (n) => [...express.values()].filter((qs) => (n === 2 ? qs.length === 2 : n === 3 ? qs.length >= 3 : qs.length < 2)).length
+console.log(`Quiz express : ${expressCount(3)} fiches à 3 questions, ${expressCount(2)} à 2, ${expressCount(0)} sans quiz (données trop floues)`)
+
 // Référence affichable vers une autre fiche : { id, nom, type } (sans charger la fiche)
 const refOf = (id) =>
   byId.has(id)
@@ -113,6 +121,7 @@ for (const [id, { type, data }] of content.entities) {
     ...out,
     type,
     apparaitDans: { civs: [...(links?.civs ?? [])], fiches: [...(links?.fiches ?? [])].map(refOf) },
+    ...(express.get(id)?.length >= 2 ? { express: express.get(id) } : {}),
   })
 }
 

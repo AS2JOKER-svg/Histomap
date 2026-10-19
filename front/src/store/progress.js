@@ -5,13 +5,14 @@
  * part sur un serveur. Conséquence : la progression est propre à un appareil
  * et à un navigateur (pas de synchronisation téléphone ↔ ordinateur).
  *
- * Schéma (version 1) :
+ * Schéma (version 2) :
  *   fiches    { [civId]: { firstAt, lastAt, views } }      fiches complètes ouvertes
  *   last      { path, title, subtitle, kind, color, at }   dernier endroit « utile »
  *   lastFiche { path, title, subtitle, color, at }         dernière fiche lue
  *   days      ['2026-10-03', …]                            jours d'activité (60 max)
  *   chapters  { [civId]: Chapter }                        révisions (voir plus bas)
  *   quizzes   { [civId]: Quiz }                             quiz (voir plus bas)
+ *   express   { [ficheId]: { best, total, attempts, lastAt } }  quiz express des fiches liées (v2)
  *   startedAt                                              première visite
  *
  * Pour faire évoluer le schéma : incrémenter VERSION et compléter migrate().
@@ -20,7 +21,7 @@ import { create } from 'zustand'
 import { persist, createJSONStorage } from 'zustand/middleware'
 import { load } from '../lib/storage'
 
-const VERSION = 1
+const VERSION = 2
 const MAX_DAYS = 60
 
 const today = () => {
@@ -39,6 +40,7 @@ const initial = () => ({
   days: [],
   chapters: {},
   quizzes: {},
+  express: {},
   startedAt: Date.now(),
 })
 
@@ -186,6 +188,21 @@ export const useProgress = create(
         return { score, correct, total }
       },
 
+      // ── Quiz express (fiches liées) ─────────────────────────────────────────
+      /** Enregistre un quiz express terminé : `correct` bonnes réponses sur `total`. */
+      finishExpress(ficheId, correct, total) {
+        set((s) => {
+          const prev = s.express[ficheId]
+          return {
+            express: {
+              ...s.express,
+              [ficheId]: { best: Math.max(prev?.best ?? 0, correct), total, attempts: (prev?.attempts ?? 0) + 1, lastAt: Date.now() },
+            },
+          }
+        })
+        get().touchDay()
+      },
+
       touchDay() {
         const d = today()
         const days = get().days
@@ -208,9 +225,16 @@ export const useProgress = create(
         days: s.days,
         chapters: s.chapters,
         quizzes: s.quizzes,
+        express: s.express,
         startedAt: s.startedAt,
       }),
-      migrate: (persisted) => ({ ...initial(), ...persisted }),
+      // v1 → v2 : ajout de « express » (quiz express des fiches liées), vide au départ.
+      // Les champs absents reprennent leur valeur initiale ; rien n'est perdu.
+      migrate: (persisted, version) => {
+        const state = { ...initial(), ...persisted }
+        if (version < 2) state.express = {}
+        return state
+      },
     }
   )
 )

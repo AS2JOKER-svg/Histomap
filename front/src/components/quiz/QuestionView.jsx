@@ -1,10 +1,12 @@
-import { useEffect, useState } from 'react'
+import { Suspense, lazy, useEffect, useState } from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
-import { isCorrect } from '../../lib/quiz'
+import { isCorrect } from '../../lib/questions'
 import { haptic } from '../../lib/haptics'
 import Icon from '../ui/Icon'
-import MiniMap from '../revision/MiniMap'
 import { civTextStyle } from '../../lib/color'
+
+// carte (d3) chargée seulement pour les questions « carte »
+const MiniMap = lazy(() => import('../revision/MiniMap'))
 
 const LETTERS = ['A', 'B', 'C', 'D']
 const TYPE_LABEL = { mcq: 'QCM', tf: 'Vrai ou faux', order: 'Remettre dans l’ordre', map: 'Carte' }
@@ -58,7 +60,9 @@ export default function QuestionView({ question: q, index, total, civ, answered,
 
         {q.type === 'map' && (
           <div className="mt-4">
-            <MiniMap civ={civ} years={[q.year]} quiz />
+            <Suspense fallback={<div className="h-[220px] rounded-xl bg-surface2 animate-pulse" aria-label="Chargement de la carte" />}>
+              <MiniMap civ={civ} years={[q.year]} quiz />
+            </Suspense>
           </div>
         )}
 

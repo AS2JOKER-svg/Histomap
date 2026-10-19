@@ -1,0 +1,19 @@
+{
+  "id": "vasa",
+  "nom": "Le Vasa",
+  "annee": 1628,
+  "domaine": "Navigation",
+  "dates": "coulé en 1628, renfloué en 1961",
+  "description": "Le plus puissant navire de guerre suédois, armé de 64 canons, qui chavire et coule dans le port de Stockholm lors de son premier voyage, après 1 300 mètres de navigation.",
+  "sections": [
+    {
+      "titre": "Pourquoi il a coulé",
+      "texte": "Trop haut et pas assez lesté, il était instable : un coup de vent l’a couché sur le côté et l’eau est entrée par les sabords des canons."
+    },
+    {
+      "titre": "Sa redécouverte",
+      "texte": "Retrouvé en 1956 et renfloué en 1961, il est conservé presque intact grâce à l’eau froide et peu salée de la Baltique."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Vasa"
+}

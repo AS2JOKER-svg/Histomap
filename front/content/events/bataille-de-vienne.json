@@ -1,0 +1,23 @@
+{
+  "id": "bataille-de-vienne",
+  "nom": "Bataille de Vienne",
+  "annee": 1683,
+  "dates": "12 septembre 1683",
+  "lieu": "Vienne (Autriche)",
+  "description": "Une armée de secours polonaise et impériale, menée par [[jean-iii-sobieski|Jean III Sobieski]], brise le siège de Vienne par l’armée ottomane du grand vizir Kara Mustafa.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Après deux mois de siège, la ville est à bout. L’armée de secours descend des collines du Kahlenberg ; la charge des hussards ailés, l’une des plus grandes charges de cavalerie de l’histoire, met les Ottomans en déroute."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "L’Empire ottoman entame un long recul en Europe centrale : il perd la Hongrie en 1699."
+    }
+  ],
+  "liens": [{ "ref": "jean-iii-sobieski", "relation": "Le chef de l’armée de secours" }],
+  "aSavoir": [
+    "Une légende, sans preuve, attribue l’invention du croissant aux boulangers viennois célébrant la victoire."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Vienne_(1683)"
+}

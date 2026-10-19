@@ -1,0 +1,17 @@
+{
+  "id": "jean-iii-sobieski",
+  "nom": "Jean III Sobieski",
+  "role": "Roi de Pologne",
+  "roles": ["Roi", "Chef de guerre"],
+  "dates": "1629 → 1696",
+  "naissance": 1629,
+  "mort": 1696,
+  "description": "Grand capitaine élu roi en 1674, il mène la cavalerie qui brise le siège de Vienne par les Ottomans en 1683.",
+  "reperes": [{ "label": "Règne", "valeur": "1674 → 1696" }],
+  "essentiel": [
+    "Il remporte de nombreuses victoires sur les Ottomans et les Tatars avant d’être élu roi.",
+    "À la [[bataille-de-vienne|bataille de Vienne]], il commande la grande charge des hussards ailés.",
+    "Il écrit au pape : « Nous sommes venus, nous avons vu, Dieu a vaincu »."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Jean_III_Sobieski"
+}

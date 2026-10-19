@@ -11,32 +11,62 @@
   "row": 2,
   "isRiver": false,
   "capitale": "Kumasi",
-  "description": "Une redoutable fédération militaire forestière née autour d'une relique sacrée (le Trône d'or), monopolisant l'or et la traite sur la Côte de l'Or (Ghana).",
+  "description": "Une confédération de royaumes akan de la forêt, unie autour du Trône d’or de Kumasi, qui devient au XVIIIe siècle la grande puissance de l’actuel Ghana grâce à l’or et au commerce avec les Européens de la côte.",
   "territories": ["Asante"],
   "datesCles": [
     {
       "annee": 1701,
-      "evenement": "Le Mythe Fondateur",
-      "info": "Bataille de Feyiase : Osei Tutu écrase les oppresseurs Denkyira et proclame l'Empire."
+      "evenement": "Le mythe fondateur",
+      "info": "Bataille de Feyiase : Osei Tutu bat le royaume de Denkyira, dont les Ashanti étaient tributaires.",
+      "ref": "bataille-de-feyiase"
     },
-    { "annee": 1744, "evenement": "Expansion du Nord", "info": "L'armée soumet le puissant royaume de Dagbon." }
+    { "annee": 1744, "evenement": "Expansion au nord", "info": "L’armée ashanti soumet le royaume de Dagbon." }
   ],
   "dirigeants": [
     {
-      "titre": "Asantehene (Empereur)",
       "nom": "Osei Tutu Ier",
-      "surnom": "Règne de vers 1680/1695 à vers 1717 (dates incertaines)",
-      "debut": 1680,
-      "fin": 1717
+      "titre": "Asantehene",
+      "debut": 1695,
+      "fin": 1717,
+      "dynastie": "asantehene",
+      "personne": "osei-tutu",
+      "note": "fondateur ; dates incertaines",
+      "cle": true
     },
-    { "titre": "Asantehene", "nom": "Opoku Ware Ier", "debut": 1720, "fin": 1750 }
+    {
+      "nom": "Opoku Ware Ier",
+      "titre": "Asantehene",
+      "debut": 1720,
+      "fin": 1750,
+      "dynastie": "asantehene",
+      "note": "grand conquérant",
+      "cle": true
+    },
+    { "nom": "Kusi Obodom", "titre": "Asantehene", "debut": 1750, "fin": 1764, "dynastie": "asantehene" },
+    {
+      "nom": "Osei Kwadwo",
+      "titre": "Asantehene",
+      "debut": 1764,
+      "fin": 1777,
+      "dynastie": "asantehene",
+      "note": "réforme l’administration"
+    },
+    { "nom": "Osei Kwame Panyin", "titre": "Asantehene", "debut": 1777, "fin": 1803, "dynastie": "asantehene" }
   ],
   "personnages": [
     {
+      "nom": "Osei Tutu",
+      "role": "Fondateur de l’empire",
+      "description": "Roi de Kumasi qui unit les royaumes akan et fonde l’empire ashanti.",
+      "dates": "mort vers 1717",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Osei_Tutu",
+      "ref": "osei-tutu"
+    },
+    {
       "nom": "Okomfo Anokye",
-      "role": "Grand prêtre et cofondateur",
-      "description": "Le magicien légendaire qui fit descendre le Trône d'Or du ciel et dicta les lois inviolables de la constitution Ashanti.",
-      "dates": "≈ 1655 à 1717",
+      "role": "Grand prêtre",
+      "description": "Prêtre et conseiller d’Osei Tutu ; selon la tradition, il fit descendre le Trône d’or du ciel et donna ses lois à la confédération.",
+      "dates": "fin XVIIe-début XVIIIe siècle",
       "wikiUrl": "https://fr.wikipedia.org/wiki/Okomfo_Anokye"
     }
   ],
@@ -46,14 +76,85 @@
       "annee": 1701,
       "adversaires": ["Royaume de Denkyira"],
       "allies": [],
-      "morts": "Mort du roi ennemi",
+      "morts": "Inconnues ; le roi du Denkyira est tué",
       "vainqueur": "Confédération Ashanti",
-      "consequences": "Les Ashanti arrachent le contrôle des routes commerciales menant aux forts européens de la côte, assurant la fortune de l'empire.",
+      "consequences": "Les Ashanti se libèrent du Denkyira et prennent le contrôle des routes commerciales menant aux forts européens de la côte.",
       "wikiUrl": "https://fr.wikipedia.org/wiki/Empire_ashanti"
     }
   ],
-  "sciences": "Leur métallurgie de la poudre et de l'or est d'une sophistication inouïe. Ils utilisent les 'poids akan', de petites sculptures géométriques et figuratives en laiton servant à peser la poudre d'or ; ces poids existaient déjà avant l'empire, chez les peuples akan. Militairement, ils adoptent très tôt le mousquet européen, modifiant radicalement les tactiques de guerre en forêt dense.",
-  "croyancesText": "Toute la nation, pourtant composée de chefferies fières et indépendantes, est unifiée par l'âme religieuse de l'empire : le 'Sika Dwa Kofi' (Le Trône d'Or). Il ne représente pas le pouvoir d'un homme, mais contient l'esprit spirituel de la nation Ashanti toute entière. Même le roi n'a pas le droit de s'y asseoir, et sa simple profanation justifie une guerre totale.",
-  "diplomatie": "C'est une confédération stricte : le roi de Kumasi (Asantehene) préside un parlement des rois provinciaux (Asantemanhyiamu). Leur économie diplomatique est impitoyable : ils lancent des razzias constantes contre les tribus intérieures pour faire des captifs qu'ils échangent aux forts côtiers des Européens (Britanniques, Hollandais) contre des fusils, alimentant un cycle infini d'expansion impérialiste.",
-  "documentaires": [{ "titre": "Le Trône d'Or des Ashanti", "url": "https://fr.wikipedia.org/wiki/Empire_ashanti" }]
+  "sciences": "Les orfèvres akan travaillent l’or avec virtuosité. Pour peser la poudre d’or, ils utilisent des poids en laiton, figurant des animaux, des objets ou des proverbes ; ces poids existaient avant l’empire chez les Akan. Les Ashanti adoptent tôt les fusils européens, ce qui transforme la guerre dans la forêt.",
+  "croyancesText": "Toute la nation est unie par le Trône d’or (Sika Dwa Kofi), qui contient, selon la tradition, l’âme du peuple ashanti. Même le roi ne s’y assoit pas. Les Ashanti honorent un dieu créateur, Nyame, des divinités secondaires et les ancêtres, à qui l’on rend un culte lors de grandes fêtes.",
+  "diplomatie": "L’asantehene préside un conseil des rois des royaumes membres. L’empire tire sa richesse de l’or et du commerce avec les forts européens de la côte (britanniques et hollandais) : il y échange des captifs, pris lors des guerres, contre des fusils, de la poudre et des tissus. Il participe ainsi largement à la traite atlantique.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": { "valeur": "Kumasi" },
+    "regimes": {
+      "valeur": "Confédération monarchique",
+      "precision": "l’asantehene, roi de Kumasi, avec un conseil des chefs des royaumes membres"
+    },
+    "langues": { "valeur": "Twi (akan)" },
+    "religion": {
+      "valeur": "Religion traditionnelle akan",
+      "precision": "culte des ancêtres et du dieu créateur Nyame ; le Trône d’or est sacré"
+    },
+    "apogee": { "valeur": "Fin du XVIIIe siècle", "precision": "l’empire continue au XIXe siècle" },
+    "population": { "valeur": "Peut-être 2 à 3 millions", "precision": "vers 1800 (estimation)" },
+    "monnaie": { "valeur": "Poudre d’or", "precision": "pesée avec les poids akan" },
+    "duree": { "valeur": "Environ 90 ans dans cette fiche", "precision": "l’empire dure jusqu’en 1902" },
+    "aujourdhui": { "valeur": "Ghana", "precision": "et une partie de la Côte d’Ivoire et du Togo" }
+  },
+  "essentiel": [
+    "Vers 1700, [[osei-tutu|Osei Tutu]], roi de Kumasi, unit plusieurs royaumes akan contre le puissant Denkyira.",
+    "Selon la tradition, le prêtre Okomfo Anokye fait descendre du ciel le [[trone-d-or|Trône d’or]], qui incarne l’âme de la nation ashanti.",
+    "Les Ashanti battent le Denkyira à [[bataille-de-feyiase|Feyiase]] (1701) et prennent le contrôle des routes de l’or vers la côte.",
+    "L’empire s’enrichit par l’or, pesé avec les [[poids-akan|poids akan]], et par la vente de captifs aux Européens contre des fusils.",
+    "Au XVIIIe siècle, il soumet de nombreux royaumes voisins et devient la grande puissance de la région."
+  ],
+  "periodes": [
+    {
+      "nom": "La fondation",
+      "debut": 1701,
+      "fin": 1720,
+      "resume": "Osei Tutu et Okomfo Anokye unissent les royaumes akan autour du Trône d’or et de Kumasi.",
+      "evenements": [{ "annee": 1701, "evenement": "Victoire de Feyiase", "ref": "bataille-de-feyiase" }]
+    },
+    {
+      "nom": "L’expansion",
+      "debut": 1720,
+      "fin": 1789,
+      "resume": "Opoku Ware et ses successeurs conquièrent les royaumes voisins et organisent l’administration de l’empire.",
+      "evenements": [{ "annee": 1744, "evenement": "Soumission de Dagbon" }]
+    }
+  ],
+  "dynasties": [
+    {
+      "id": "asantehene",
+      "nom": "Les asantehene (rois ashanti)",
+      "debut": 1695,
+      "fin": 1803,
+      "note": "Dates de la tradition, parfois incertaines pour les premiers rois."
+    }
+  ],
+  "societe": "La société est organisée en clans matrilinéaires : on hérite par sa mère. La reine mère joue un rôle politique important, notamment dans le choix du roi. Des captifs travaillent dans les champs et les mines d’or.",
+  "economie": "Mines et orpaillage, noix de kola vendues vers le nord, commerce avec les Européens de la côte, agriculture de la forêt (igname, plantain).",
+  "decouvertes": ["trone-d-or", "poids-akan"],
+  "arts": "Bijoux et insignes en or, tissus kente aux couleurs vives, tabourets sculptés, poids akan, bâtiments décorés de Kumasi.",
+  "quotidien": "Les grandes fêtes de l’igname (Odwira) rassemblent chaque année les chefs à Kumasi pour honorer les ancêtres et renouveler leur fidélité au roi.",
+  "heritage": [
+    {
+      "titre": "Le Trône d’or",
+      "texte": "Il est toujours le symbole du royaume ashanti, qui existe aujourd’hui au sein du Ghana, avec son asantehene."
+    },
+    {
+      "titre": "Le kente",
+      "texte": "Ce tissu ashanti est devenu un symbole de fierté africaine dans le monde entier."
+    }
+  ],
+  "aSavoir": [
+    "En 1900, le gouverneur britannique exige de s’asseoir sur le Trône d’or : cette offense déclenche la révolte menée par la reine mère Yaa Asantewaa."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Empire_ashanti",
+    { "titre": "Encyclopædia Britannica — Asante empire", "url": "https://www.britannica.com/place/Asante-empire" }
+  ]
 }

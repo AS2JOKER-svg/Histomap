@@ -1,0 +1,16 @@
+{
+  "id": "chateau-de-sanssouci",
+  "nom": "Château de Sanssouci",
+  "annee": 1747,
+  "domaine": "Architecture",
+  "dates": "1745 → 1747",
+  "description": "Le palais d’été de [[frederic-ii-de-prusse|Frédéric II]] à Potsdam, en style rococo, au sommet de terrasses plantées de vignes : le roi y reçoit philosophes et musiciens.",
+  "sections": [
+    {
+      "titre": "Son nom",
+      "texte": "Il porte un nom français, « sans souci », car le roi voulait y vivre loin des affaires de l’État."
+    }
+  ],
+  "aSavoir": ["Selon son souhait, Frédéric II y est enterré, près de ses chiens, depuis 1991."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Sanssouci"
+}

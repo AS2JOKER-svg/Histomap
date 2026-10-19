@@ -1,0 +1,19 @@
+{
+  "id": "manuscrits-de-tombouctou",
+  "nom": "Manuscrits de Tombouctou",
+  "annee": 1500,
+  "domaine": "Écriture et savoir",
+  "dates": "XIIIe-XXe siècles",
+  "description": "Des centaines de milliers de manuscrits en arabe et en langues africaines, conservés par des familles de Tombouctou : droit, religion, astronomie, médecine, histoire, poésie.",
+  "sections": [
+    {
+      "titre": "Leur histoire",
+      "texte": "Recopiés et transmis de génération en génération, cachés lors des invasions, ils sont aujourd’hui étudiés et numérisés."
+    },
+    {
+      "titre": "Un sauvetage",
+      "texte": "En 2012, lors de l’occupation de Tombouctou par des groupes armés, des bibliothécaires évacuent en secret des centaines de milliers de manuscrits vers Bamako."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Manuscrits_de_Tombouctou"
+}

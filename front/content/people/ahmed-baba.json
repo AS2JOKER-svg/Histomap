@@ -1,0 +1,16 @@
+{
+  "id": "ahmed-baba",
+  "nom": "Ahmed Baba",
+  "role": "Savant de Tombouctou",
+  "roles": ["Juriste", "Écrivain"],
+  "dates": "1556 → 1627",
+  "naissance": 1556,
+  "mort": 1627,
+  "description": "Grand savant de Tombouctou, auteur de nombreux ouvrages de droit et de biographies. Déporté à Marrakech après la conquête marocaine, il y enseigne avant de revenir dans sa ville.",
+  "essentiel": [
+    "Issu d’une grande famille de lettrés, il possède une bibliothèque de plus de 1 600 volumes.",
+    "Il écrit un traité contre l’asservissement des musulmans d’Afrique de l’Ouest.",
+    "Un grand institut de conservation des manuscrits porte son nom à Tombouctou."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Ahmed_Baba"
+}

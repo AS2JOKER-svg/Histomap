@@ -1,0 +1,19 @@
+{
+  "id": "afonso-ier-du-kongo",
+  "nom": "Afonso Ier du Kongo",
+  "nomComplet": "Mvemba a Nzinga",
+  "role": "Roi du Kongo",
+  "roles": ["Roi (manikongo)"],
+  "dates": "vers 1456 → 1542",
+  "naissance": 1456,
+  "mort": 1542,
+  "description": "Fils de Nzinga a Nkuwu, roi chrétien du Kongo pendant plus de trente ans : il fait du catholicisme la religion du royaume et proteste contre la traite des esclaves.",
+  "reperes": [{ "label": "Règne", "valeur": "1509 → 1542" }],
+  "essentiel": [
+    "Il prend le pouvoir après la mort de son père [[nzinga-a-nkuwu|Nzinga a Nkuwu]], en battant son frère.",
+    "Il fait bâtir des églises et envoie de jeunes nobles étudier au Portugal.",
+    "Son fils Henrique devient évêque en 1518.",
+    "En 1526, il écrit au roi du Portugal pour dénoncer l’enlèvement de ses sujets par les marchands d’esclaves."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Alphonse_Ier_(manikongo)"
+}

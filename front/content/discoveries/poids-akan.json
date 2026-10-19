@@ -1,0 +1,15 @@
+{
+  "id": "poids-akan",
+  "nom": "Poids akan",
+  "annee": 1400,
+  "domaine": "Économie et art",
+  "dates": "XVe-XIXe siècles",
+  "description": "De petites figurines en laiton, géométriques ou représentant des animaux, des objets et des scènes, servant à peser la poudre d’or utilisée comme monnaie.",
+  "sections": [
+    {
+      "titre": "Comment ils sont faits",
+      "texte": "Ils sont fondus selon la technique de la cire perdue. Beaucoup illustrent des proverbes akan."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Poids_%C3%A0_peser_l%27or"
+}

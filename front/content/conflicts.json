@@ -416,5 +416,13 @@
   "Guerres civiles anglaises": {
     "coords": [-1.5, 52.7],
     "lieu": "Angleterre (Naseby)"
+  },
+  "Guerres de Silésie": {
+    "coords": [17.03, 51.11],
+    "lieu": "Silésie (Breslau/Wrocław)"
+  },
+  "Bataille de Vienne": {
+    "coords": [16.37, 48.21],
+    "lieu": "Vienne"
   }
 }

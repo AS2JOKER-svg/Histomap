@@ -11,53 +11,246 @@
   "row": 5,
   "isRiver": false,
   "capitale": "Stockholm",
-  "description": "Une nation glaciale et peu peuplée qui se militarise à l'extrême pour s'ériger en hégémonie absolue de la mer Baltique.",
+  "description": "Au XVIIe siècle, la Suède, pays peu peuplé, devient une grande puissance militaire qui domine la mer Baltique, avant d’être vaincue par la Russie de Pierre le Grand.",
   "territories": ["Sweden"],
   "datesCles": [
     {
+      "annee": 1561,
+      "evenement": "Conquête de l’Estonie",
+      "info": "La ville de Reval (Tallinn) se place sous la protection de la Suède."
+    },
+    {
+      "annee": 1628,
+      "evenement": "Naufrage du Vasa",
+      "info": "Le plus grand navire de guerre suédois coule lors de son premier voyage."
+    },
+    {
       "annee": 1630,
       "evenement": "Intervention en Allemagne",
-      "info": "Le roi Gustave Adolphe débarque en Allemagne pour sauver le protestantisme face aux armées impériales."
+      "info": "Gustave II Adolphe débarque en Allemagne pour soutenir les protestants face aux armées de l’empereur."
+    },
+    {
+      "annee": 1632,
+      "evenement": "Mort de Gustave Adolphe",
+      "info": "Le roi est tué à la bataille de Lützen, que son armée remporte."
     },
     {
       "annee": 1648,
       "evenement": "Traités de Westphalie",
-      "info": "La Suède est reconnue comme l'une des grandes puissances garantes de la paix en Europe."
+      "info": "La Suède obtient la Poméranie occidentale et d’autres territoires allemands."
     },
     {
       "annee": 1709,
       "evenement": "Désastre de Poltava",
-      "info": "L'armée suédoise est anéantie en Ukraine par le tsar Pierre le Grand de Russie."
+      "info": "L’armée suédoise est anéantie en Ukraine par le tsar Pierre le Grand.",
+      "ref": "bataille-de-poltava"
+    },
+    {
+      "annee": 1721,
+      "evenement": "Traité de Nystad",
+      "info": "La Suède cède l’Estonie, la Livonie et l’Ingrie à la Russie : fin de sa puissance."
     }
   ],
   "dirigeants": [
-    { "titre": "Roi de Suède", "nom": "Gustave II Adolphe", "surnom": "Le Lion du Nord", "debut": 1611, "fin": 1632 },
-    { "titre": "Reine", "nom": "Christine", "surnom": "La Minerve du Nord", "debut": 1632, "fin": 1654 },
-    { "titre": "Roi", "nom": "Charles XII", "debut": 1697, "fin": 1718 }
+    { "nom": "Éric XIV", "titre": "Roi", "debut": 1560, "fin": 1568, "dynastie": "vasa", "note": "déposé par son frère" },
+    { "nom": "Jean III", "titre": "Roi", "debut": 1568, "fin": 1592, "dynastie": "vasa" },
+    {
+      "nom": "Sigismond",
+      "titre": "Roi de Suède et de Pologne",
+      "debut": 1592,
+      "fin": 1599,
+      "dynastie": "vasa",
+      "note": "catholique, déposé par les Suédois"
+    },
+    { "nom": "Charles IX", "titre": "Roi", "debut": 1599, "fin": 1611, "dynastie": "vasa" },
+    {
+      "nom": "Gustave II Adolphe",
+      "titre": "Roi",
+      "surnom": "le Lion du Nord",
+      "debut": 1611,
+      "fin": 1632,
+      "dynastie": "vasa",
+      "personne": "gustave-ii-adolphe",
+      "cle": true
+    },
+    {
+      "nom": "Christine",
+      "titre": "Reine",
+      "debut": 1632,
+      "fin": 1654,
+      "dynastie": "vasa",
+      "personne": "christine-de-suede",
+      "note": "abdique en 1654",
+      "cle": true
+    },
+    {
+      "nom": "Charles X Gustave",
+      "titre": "Roi",
+      "debut": 1654,
+      "fin": 1660,
+      "dynastie": "palatins",
+      "note": "traverse les détroits gelés pour attaquer le Danemark",
+      "cle": true
+    },
+    {
+      "nom": "Charles XI",
+      "titre": "Roi",
+      "debut": 1660,
+      "fin": 1697,
+      "dynastie": "palatins",
+      "note": "instaure la monarchie absolue",
+      "cle": true
+    },
+    {
+      "nom": "Charles XII",
+      "titre": "Roi",
+      "debut": 1697,
+      "fin": 1718,
+      "dynastie": "palatins",
+      "personne": "charles-xii",
+      "cle": true
+    },
+    {
+      "nom": "Ulrique-Éléonore",
+      "titre": "Reine",
+      "debut": 1718,
+      "fin": 1720,
+      "dynastie": "palatins",
+      "note": "sœur de Charles XII"
+    },
+    {
+      "nom": "Frédéric Ier",
+      "titre": "Roi",
+      "debut": 1720,
+      "fin": 1751,
+      "dynastie": "hesse",
+      "note": "le pouvoir passe à la Diète : « l’ère de la liberté »"
+    }
   ],
   "personnages": [
     {
       "nom": "Axel Oxenstierna",
       "role": "Chancelier",
-      "description": "L'architecte administratif de la Suède moderne, gérant l'empire pendant les minorités et la guerre de Trente Ans.",
-      "dates": "1583 à 1654",
+      "description": "Chancelier de Gustave Adolphe puis de Christine, il organise l’administration de l’État suédois.",
+      "dates": "1583 → 1654",
       "wikiUrl": "https://fr.wikipedia.org/wiki/Axel_Oxenstierna"
+    },
+    {
+      "nom": "René Descartes",
+      "role": "Philosophe français",
+      "description": "Invité par la reine Christine, il meurt à Stockholm en 1650, après quelques mois dans le froid suédois.",
+      "dates": "1596 → 1650",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Ren%C3%A9_Descartes"
     }
   ],
   "guerres": [
+    {
+      "nom": "Guerre de Trente Ans",
+      "annee": 1618,
+      "adversaires": ["Saint-Empire (Habsbourg)", "Ligue catholique"],
+      "allies": ["Princes protestants allemands", "France"],
+      "morts": "Plusieurs millions de morts dans le Saint-Empire",
+      "vainqueur": "Suède, France et leurs alliés",
+      "consequences": "La Suède intervient en 1630. Aux traités de Westphalie (1648), elle obtient des territoires dans le nord de l’Allemagne.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_de_Trente_Ans"
+    },
     {
       "nom": "Grande Guerre du Nord",
       "annee": 1700,
       "adversaires": ["Empire Russe", "Danemark", "Pologne-Lituanie"],
       "allies": ["Empire Ottoman (temporairement)"],
-      "morts": "Effondrement démographique suédois",
-      "vainqueur": "Russie",
-      "consequences": "Le roi Charles XII mène une guerre brillante mais épuise son pays. La Suède perd son statut d'empire au profit de la nouvelle Russie de Pierre le Grand.",
+      "morts": "Très lourdes ; la Suède perd une grande partie de ses hommes jeunes",
+      "vainqueur": "Russie et ses alliés",
+      "consequences": "Guerre de 1700 à 1721. Charles XII remporte des victoires brillantes mais épuise son pays. La Suède perd son statut d’empire au profit de la Russie de Pierre le Grand.",
       "wikiUrl": "https://fr.wikipedia.org/wiki/Grande_guerre_du_Nord"
     }
   ],
-  "sciences": "Le 'miracle suédois' est purement logistique et militaire. Gustave II Adolphe invente la guerre moderne combinée : il allège les mousquets et l'artillerie de campagne (les premiers « canons de cuir », peu efficaces, sont vite remplacés par de légères pièces régimentaires), permettant aux fantassins de tirer en salves rapides. À Breitenfeld (1631), cette armée bat les lourdes formations impériales et catholiques.",
-  "croyancesText": "Le luthéranisme n'est pas seulement une religion, c'est l'ossature de l'État. Les pasteurs font office de fonctionnaires civils, tenant un registre précis des naissances et de l'alphabétisation (la loi religieuse de 1686 impose l'apprentissage de la lecture, vérifié par les pasteurs lors d'examens réguliers). C'est ce clergé qui assure l'implacable recrutement local des soldats pour les guerres du roi.",
-  "diplomatie": "Riche en bois, en cuivre et en fer de haute qualité, la Suède exporte massivement ses canons dans toute l'Europe. Pour briser la puissance des Habsbourg, le cardinal français de Richelieu finance secrètement avec de l'or français l'armée protestante suédoise. La Suède annexe la Poméranie et les pays baltes, transformant la mer Baltique en un 'lac suédois'.",
-  "documentaires": [{ "titre": "L'Empire suédois, la terreur du Nord", "url": "https://fr.wikipedia.org/wiki/Empire_su%C3%A9dois" }]
+  "sciences": "Gustave II Adolphe modernise l’armée : soldats recrutés dans chaque paroisse, mousquets plus légers, petits canons régimentaires mobiles (les premiers « canons de cuir », peu efficaces, sont vite abandonnés) et tir en salves. À Breitenfeld (1631), cette armée bat les lourdes formations impériales. La Suède exporte dans toute l’Europe le fer et le cuivre de ses mines, comme celle de Falun, et ses canons de fonte.",
+  "croyancesText": "Le luthéranisme est l’ossature de l’État. Les pasteurs tiennent les registres des habitants et vérifient chaque année, dans les foyers, que chacun sait lire le catéchisme (la loi de l’Église de 1686 impose l’apprentissage de la lecture). Ce clergé aide aussi au recrutement des soldats pour les guerres du roi.",
+  "diplomatie": "Riche en fer et en cuivre, la Suède exporte massivement ses canons. Pour affaiblir les Habsbourg, la France de Richelieu lui verse des subsides par le traité de Bärwalde (1631). La Suède annexe la Poméranie et les pays baltes, faisant de la mer Baltique un « lac suédois », mais elle a trop d’ennemis : Danemark, Pologne, Russie, Brandebourg.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": { "valeur": "Stockholm" },
+    "regimes": {
+      "valeur": "Monarchie",
+      "precision": "avec une Diète (Riksdag) de quatre ordres, dont les paysans ; monarchie absolue sous Charles XI et Charles XII"
+    },
+    "langues": { "valeur": "Suédois", "precision": "avec le finnois et l’allemand dans l’empire" },
+    "religion": { "valeur": "Luthéranisme", "precision": "religion d’État" },
+    "apogee": { "valeur": "Vers 1660", "precision": "la Baltique est presque un « lac suédois »" },
+    "population": { "valeur": "Environ 2,5 millions", "precision": "avec la Finlande et les provinces baltes, vers 1700" },
+    "monnaie": { "valeur": "Daler", "precision": "la Suède émet les premiers billets de banque d’Europe (1661)" },
+    "duree": { "valeur": "Environ 160 ans" },
+    "aujourdhui": {
+      "valeur": "Suède et Finlande",
+      "precision": "et alors l’Estonie, la Lettonie, une partie de la Russie et du nord de l’Allemagne"
+    }
+  },
+  "essentiel": [
+    "À partir de 1561, la Suède conquiert l’Estonie, puis la Livonie, et s’impose dans la Baltique.",
+    "[[gustave-ii-adolphe|Gustave II Adolphe]] réforme l’armée et intervient en 1630 dans la guerre de Trente Ans, où il est tué en 1632.",
+    "Sa fille, la reine [[christine-de-suede|Christine]], attire les savants à sa cour avant d’abdiquer et de se convertir au catholicisme.",
+    "Les traités de Westphalie (1648) donnent à la Suède des territoires en Allemagne : elle est une grande puissance.",
+    "Le roi [[charles-xii|Charles XII]] est vaincu à [[bataille-de-poltava|Poltava]] (1709) ; en 1721, la Suède cède ses provinces baltes à la Russie."
+  ],
+  "periodes": [
+    {
+      "nom": "L’expansion baltique",
+      "debut": 1561,
+      "fin": 1630,
+      "resume": "Les rois Vasa disputent la Baltique au Danemark, à la Pologne et à la Russie."
+    },
+    {
+      "nom": "La grande puissance",
+      "debut": 1630,
+      "fin": 1700,
+      "resume": "Gustave II Adolphe et ses successeurs font de la Suède l’arbitre du nord de l’Europe ; Charles XI renforce le pouvoir royal.",
+      "evenements": [
+        { "annee": 1631, "evenement": "Victoire de Breitenfeld" },
+        { "annee": 1648, "evenement": "Traités de Westphalie" },
+        { "annee": 1658, "evenement": "Traité de Roskilde : la Suède prend le sud de la Scandinavie au Danemark" }
+      ]
+    },
+    {
+      "nom": "La chute",
+      "debut": 1700,
+      "fin": 1721,
+      "resume": "Charles XII remporte d’abord des victoires éclatantes, puis s’enfonce en Russie et perd tout à Poltava.",
+      "evenements": [
+        { "annee": 1700, "evenement": "Victoire de Narva" },
+        { "annee": 1709, "evenement": "Poltava", "ref": "bataille-de-poltava" },
+        { "annee": 1718, "evenement": "Mort de Charles XII en Norvège" }
+      ]
+    }
+  ],
+  "dynasties": [
+    { "id": "vasa", "nom": "Les Vasa", "debut": 1560, "fin": 1654 },
+    { "id": "palatins", "nom": "Les Palatins-Deux-Ponts", "debut": 1654, "fin": 1720 },
+    { "id": "hesse", "nom": "Frédéric de Hesse", "debut": 1720, "fin": 1751 }
+  ],
+  "societe": "La noblesse fournit officiers et administrateurs. Les paysans, en grande partie libres et propriétaires, sont représentés à la Diète, ce qui est rare en Europe. Le service militaire pèse lourdement sur les campagnes.",
+  "economie": "Mines de fer et de cuivre, forges, bois et goudron pour la marine, agriculture ; contrôle et taxation du commerce de la Baltique.",
+  "decouvertes": ["vasa"],
+  "arts": "Palais royal de Stockholm, château de Drottningholm, collections réunies par la reine Christine.",
+  "quotidien": "La plupart des Suédois vivent dans des fermes isolées. Les longs hivers et les guerres incessantes rendent la vie dure ; de nombreux hommes partent à l’armée et ne reviennent pas.",
+  "heritage": [
+    {
+      "titre": "Le Vasa",
+      "texte": "Le navire, renfloué en 1961, est exposé dans un musée de Stockholm : l’un des plus visités de Scandinavie."
+    },
+    {
+      "titre": "Une société alphabétisée",
+      "texte": "Grâce à la loi de 1686, presque tous les Suédois savent lire au XVIIIe siècle."
+    }
+  ],
+  "aSavoir": [
+    "La reine Christine refusait de se marier ; après son abdication, elle s’installe à Rome, où elle est enterrée à la basilique Saint-Pierre."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Empire_su%C3%A9dois",
+    {
+      "titre": "Encyclopædia Britannica — Sweden, history",
+      "url": "https://www.britannica.com/place/Sweden/History"
+    }
+  ]
 }

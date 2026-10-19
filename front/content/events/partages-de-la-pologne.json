@@ -1,0 +1,22 @@
+{
+  "id": "partages-de-la-pologne",
+  "nom": "Partages de la Pologne",
+  "annee": 1772,
+  "fin": 1795,
+  "dates": "1772, 1793 et 1795",
+  "lieu": "République des Deux Nations",
+  "description": "En trois partages, la Russie, la Prusse et l’Autriche se répartissent tout le territoire de la Pologne-Lituanie, qui disparaît de la carte pendant 123 ans.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Le premier partage (1772) prend près d’un tiers du pays. Après la Constitution du 3 mai 1791, la Russie et la Prusse imposent un deuxième partage (1793). L’insurrection de Kościuszko (1794) échoue, et le troisième partage (1795) fait disparaître l’État."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Les Polonais restent divisés entre trois empires jusqu’en 1918 ; leurs nombreuses insurrections échouent."
+    }
+  ],
+  "liens": [{ "ref": "frederic-ii-de-prusse", "relation": "L’un des initiateurs du premier partage" }],
+  "avant": "constitution-du-3-mai-1791",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Partages_de_la_Pologne"
+}

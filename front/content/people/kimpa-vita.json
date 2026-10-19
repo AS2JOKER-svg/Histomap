@@ -1,0 +1,17 @@
+{
+  "id": "kimpa-vita",
+  "nom": "Kimpa Vita",
+  "nomComplet": "Dona Beatriz Kimpa Vita",
+  "role": "Prophétesse",
+  "roles": ["Prophétesse", "Chef religieuse"],
+  "dates": "1684 → 1706",
+  "naissance": 1684,
+  "mort": 1706,
+  "description": "Jeune noble kongo qui se dit habitée par saint Antoine et fonde le mouvement antonien, un christianisme africain qui appelle à réunifier le royaume. Elle est brûlée comme hérétique.",
+  "essentiel": [
+    "Elle affirme que Jésus et la Vierge Marie étaient Kongo.",
+    "Elle rassemble des milliers de fidèles et réoccupe l’ancienne capitale, São Salvador.",
+    "Capturée, elle est condamnée et brûlée sur l’ordre du roi Pedro IV, avec l’accord des missionnaires capucins."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Kimpa_Vita"
+}

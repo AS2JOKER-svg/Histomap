@@ -1,0 +1,20 @@
+{
+  "id": "bataille-de-poltava",
+  "nom": "Bataille de Poltava",
+  "annee": 1709,
+  "dates": "8 juillet 1709",
+  "lieu": "Poltava (Ukraine)",
+  "description": "L’armée russe de Pierre le Grand écrase l’armée suédoise de [[charles-xii|Charles XII]], épuisée par l’hiver et blessée : la Russie remplace la Suède comme grande puissance du Nord.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Après le terrible hiver de 1708-1709, l’armée suédoise, réduite, attaque des redoutes russes. Charles XII, blessé au pied, commande depuis une civière. L’armée est détruite ou capturée quelques jours plus tard."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Charles XII s’enfuit dans l’Empire ottoman. La Russie s’ouvre sur la Baltique, où Pierre le Grand a fondé Saint-Pétersbourg."
+    }
+  ],
+  "liens": [{ "ref": "charles-xii", "relation": "Le roi vaincu" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Poltava"
+}

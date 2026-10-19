@@ -1,0 +1,16 @@
+{
+  "id": "tombeau-des-askia",
+  "nom": "Tombeau des Askia",
+  "annee": 1495,
+  "domaine": "Architecture",
+  "dates": "fin du XVe siècle",
+  "description": "Une grande pyramide de terre de 17 mètres, hérissée de pièces de bois, bâtie à Gao pour Askia Mohammed à son retour de La Mecque.",
+  "sections": [
+    {
+      "titre": "Comment il est construit",
+      "texte": "Il est fait de briques de terre crue ; les poutres de bois qui dépassent servent d’échafaudage pour l’entretien régulier."
+    }
+  ],
+  "aSavoir": ["Il est inscrit au patrimoine mondial depuis 2004."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Tombeau_des_Askia"
+}

@@ -11,47 +11,151 @@
   "row": 7,
   "isRiver": false,
   "capitale": "Cracovie puis Varsovie",
-  "description": "Le plus vaste État d'Europe au 17ème siècle, paradoxe démocratique et nobiliaire (la Liberté dorée), balayé de la carte par la rapacité de ses voisins.",
+  "description": "La République des Deux Nations, union de la Pologne et de la Lituanie : l’un des plus grands États d’Europe, où le roi est élu par la noblesse, avant d’être partagé par ses voisins à la fin du XVIIIe siècle.",
   "territories": ["Poland-Lithuania", "Polish–Lithuanian Commonwealth"],
   "datesCles": [
     {
       "annee": 1569,
       "evenement": "Union de Lublin",
-      "info": "La Pologne et la Lituanie fusionnent officiellement pour contrer la Russie."
+      "info": "La Pologne et la Lituanie s’unissent en une république commune, avec un roi et une Diète uniques."
     },
+    {
+      "annee": 1573,
+      "evenement": "Confédération de Varsovie",
+      "info": "La noblesse garantit la paix entre les religions."
+    },
+    { "annee": 1655, "evenement": "Le Déluge", "info": "Suédois et Russes envahissent le pays, qui est ravagé." },
     {
       "annee": 1683,
       "evenement": "Bataille de Vienne",
-      "info": "Le roi polonais sauve l'Europe d'une conquête ottomane."
+      "info": "Jean III Sobieski aide à briser le siège de Vienne par les Ottomans.",
+      "ref": "bataille-de-vienne"
     },
     {
       "annee": 1772,
       "evenement": "Premier Partage",
-      "info": "La Prusse, la Russie et l'Autriche commencent à s'annexer le pays."
+      "info": "La Prusse, la Russie et l’Autriche commencent à s’annexer le pays.",
+      "ref": "partages-de-la-pologne"
+    },
+    {
+      "annee": 1791,
+      "evenement": "Constitution du 3 mai",
+      "info": "La première constitution écrite moderne d’Europe tente de réformer l’État.",
+      "ref": "constitution-du-3-mai-1791"
     },
     {
       "annee": 1795,
       "evenement": "Disparition",
-      "info": "Troisième partage, la Pologne est effacée de la carte politique européenne pour 123 ans."
+      "info": "Troisième partage : la Pologne disparaît de la carte de l’Europe pour 123 ans."
     }
   ],
   "dirigeants": [
     {
-      "titre": "Roi et Grand-Duc",
-      "nom": "Jean III Sobieski",
-      "surnom": "Le Lion de Lehistan",
-      "debut": 1674,
-      "fin": 1696
+      "nom": "Sigismond II Auguste",
+      "titre": "Roi",
+      "debut": 1548,
+      "fin": 1572,
+      "dynastie": "rois",
+      "note": "dernier Jagellon ; réalise l’union de Lublin",
+      "cle": true
     },
-    { "titre": "Dernier Roi", "nom": "Stanislas II", "surnom": "Poniatowski", "debut": 1764, "fin": 1795 }
+    {
+      "nom": "Henri de Valois",
+      "titre": "Roi",
+      "debut": 1573,
+      "fin": 1574,
+      "dynastie": "rois",
+      "note": "s’enfuit pour devenir le roi de France Henri III"
+    },
+    {
+      "nom": "Étienne Báthory",
+      "titre": "Roi",
+      "debut": 1576,
+      "fin": 1586,
+      "dynastie": "rois",
+      "note": "prince de Transylvanie, bat les Russes",
+      "cle": true
+    },
+    {
+      "nom": "Sigismond III Vasa",
+      "titre": "Roi",
+      "debut": 1587,
+      "fin": 1632,
+      "dynastie": "rois",
+      "note": "installe la capitale à Varsovie",
+      "cle": true
+    },
+    { "nom": "Ladislas IV Vasa", "titre": "Roi", "debut": 1632, "fin": 1648, "dynastie": "rois" },
+    {
+      "nom": "Jean II Casimir Vasa",
+      "titre": "Roi",
+      "debut": 1648,
+      "fin": 1668,
+      "dynastie": "rois",
+      "note": "règne pendant le Déluge ; abdique"
+    },
+    { "nom": "Michel Korybut Wiśniowiecki", "titre": "Roi", "debut": 1669, "fin": 1673, "dynastie": "rois" },
+    {
+      "nom": "Jean III Sobieski",
+      "titre": "Roi",
+      "surnom": "le Lion de Lechistan",
+      "debut": 1674,
+      "fin": 1696,
+      "dynastie": "rois",
+      "personne": "jean-iii-sobieski",
+      "cle": true
+    },
+    {
+      "nom": "Auguste II",
+      "titre": "Roi",
+      "surnom": "le Fort",
+      "debut": 1697,
+      "fin": 1733,
+      "dynastie": "rois",
+      "note": "électeur de Saxe ; détrôné de 1704 à 1709"
+    },
+    {
+      "nom": "Stanislas Leszczyński",
+      "titre": "Roi",
+      "debut": 1704,
+      "fin": 1736,
+      "dynastie": "rois",
+      "note": "roi à deux reprises, puis duc de Lorraine"
+    },
+    { "nom": "Auguste III", "titre": "Roi", "debut": 1733, "fin": 1763, "dynastie": "rois" },
+    {
+      "nom": "Stanislas II Auguste Poniatowski",
+      "titre": "Roi",
+      "debut": 1764,
+      "fin": 1795,
+      "dynastie": "rois",
+      "note": "dernier roi ; soutient la constitution de 1791",
+      "cle": true
+    }
   ],
   "personnages": [
     {
       "nom": "Nicolas Copernic",
-      "role": "Astronome (pré-union)",
-      "description": "Le chanoine et astronome polonais qui, en plaçant le Soleil au centre de l'univers, a déclenché la révolution scientifique moderne.",
-      "dates": "1473 à 1543",
-      "wikiUrl": "https://fr.wikipedia.org/wiki/Nicolas_Copernic"
+      "role": "Astronome",
+      "description": "Chanoine et astronome du royaume de Pologne, il place le Soleil au centre du monde (avant l’union de 1569).",
+      "dates": "1473 → 1543",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Nicolas_Copernic",
+      "ref": "nicolas-copernic"
+    },
+    {
+      "nom": "Tadeusz Kościuszko",
+      "role": "Chef militaire",
+      "description": "Héros de la guerre d’indépendance américaine, il mène l’insurrection polonaise de 1794 contre la Russie et la Prusse.",
+      "dates": "1746 → 1817",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Tadeusz_Ko%C5%9Bciuszko"
+    },
+    {
+      "nom": "Jean III Sobieski",
+      "role": "Roi",
+      "description": "Grand chef de guerre, vainqueur des Ottomans devant Vienne en 1683.",
+      "dates": "1629 → 1696",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Jean_III_Sobieski",
+      "ref": "jean-iii-sobieski"
     }
   ],
   "guerres": [
@@ -59,20 +163,124 @@
       "nom": "Le Déluge (Potop)",
       "annee": 1655,
       "adversaires": ["Empire Suédois", "Tsarat de Russie"],
-      "allies": ["Saint-Empire (tardivement)"],
+      "allies": ["Tatars de Crimée, puis Autriche et Brandebourg"],
       "morts": "Peut-être un quart à un tiers de la population (estimations)",
-      "vainqueur": "Statu Quo (Ruine totale)",
-      "consequences": "Invasion généralisée. Bien que la Pologne survive, ses villes et son économie sont rasées, amorçant son déclin fatal.",
+      "vainqueur": "Aucun vainqueur net ; la République survit",
+      "consequences": "Guerres de 1655 à 1660. La Pologne survit, mais ses villes et son économie sont ruinées, et elle perd une partie de l’Ukraine au profit de la Russie.",
       "wikiUrl": "https://fr.wikipedia.org/wiki/D%C3%A9luge_(Pologne)"
+    },
+    {
+      "nom": "Bataille de Vienne",
+      "annee": 1683,
+      "adversaires": ["Empire ottoman (Kara Mustafa)"],
+      "allies": ["Saint-Empire", "Autriche"],
+      "morts": "Environ 15 000 à 20 000 morts",
+      "vainqueur": "Coalition chrétienne",
+      "consequences": "Le siège de Vienne est levé ; c’est le début du recul ottoman en Europe centrale.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Vienne_(1683)"
     }
   ],
-  "sciences": "Leur génie est militaire et équestre : l'invention des Hussards Ailés (Husaria). C'est une cavalerie lourde de choc, dotée d'armures resplendissantes et d'immenses 'ailes' en plumes d'aigle fixées dans le dos (dont le rôle exact est discuté : impressionner l'ennemi, peut-être gêner les lassos). Ils constituent l'une des unités d'élite les plus redoutées d'Europe et remportent de nombreuses victoires pendant plus d'un siècle.",
-  "croyancesText": "En pleine époque des bûchers européens, la Pologne vote en 1573 la 'Confédération de Varsovie', l'une des premières lois de tolérance religieuse de l'Histoire (après l'édit de Torda, en Transylvanie, en 1568). Elle devient l'asile de l'Europe : Catholiques, Orthodoxes, Luthériens, et la plus grande communauté Juive du monde (Ashkénazes) y cohabitent en paix, protégés par des lois d'autonomie (le Conseil des Quatre Terres).",
-  "diplomatie": "Leur système politique inédit (le 'Sarmatisme') causera leur ruine. C'est une monarchie élective : le roi est élu par l'assemblée de tous les nobles présents (élection « viritim »). Pire, ils pratiquent le 'liberum veto' : un seul noble (souvent soudoyé par la Russie ou la France) peut crier son veto pour annuler n'importe quelle loi ou déclaration de guerre, paralysant totalement l'État face aux absolutismes voisins centralisés.",
-  "documentaires": [
+  "sciences": "La République est réputée pour sa cavalerie lourde, les hussards ailés (husaria), dont les ailes de plumes fixées au dos avaient un rôle discuté (impressionner l’ennemi, peut-être gêner les lassos). Ils remportent de nombreuses victoires pendant plus d’un siècle. L’université de Cracovie, où a étudié Copernic, est l’une des plus anciennes d’Europe centrale.",
+  "croyancesText": "En pleine époque des guerres de religion, la noblesse adopte en 1573 la confédération de Varsovie, l’une des premières lois de tolérance religieuse d’Europe (après l’édit de Torda, en Transylvanie, en 1568). Catholiques, orthodoxes, protestants et juifs vivent dans le même État ; les communautés juives s’administrent elles-mêmes (Conseil des Quatre Terres). La tolérance recule au XVIIe siècle, et les juifs sont victimes de massacres pendant la révolte cosaque de 1648.",
+  "diplomatie": "C’est une monarchie élective : le roi est élu par tous les nobles présents. À partir de 1652, le liberum veto permet à un seul député d’annuler les décisions de la Diète, souvent à l’instigation de puissances étrangères, ce qui paralyse l’État face à ses voisins absolutistes : Russie, Prusse et Autriche.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": { "valeur": "Cracovie, puis Varsovie", "precision": "la cour s’installe à Varsovie à la fin du XVIe siècle" },
+    "regimes": {
+      "valeur": "Monarchie élective",
+      "precision": "un roi élu par la noblesse et une Diète (Sejm) où chaque noble peut opposer son veto"
+    },
+    "langues": {
+      "valeur": "Polonais",
+      "precision": "avec le ruthène, le lituanien, le yiddish, l’allemand ; le latin pour l’administration"
+    },
+    "religion": {
+      "valeur": "Catholicisme majoritaire",
+      "precision": "avec orthodoxes, protestants, juifs et musulmans tatars"
+    },
+    "apogee": { "valeur": "Début du XVIIe siècle", "precision": "près d’un million de km²" },
+    "population": { "valeur": "Environ 11 millions", "precision": "vers 1650" },
+    "monnaie": { "valeur": "Złoty et thaler" },
+    "duree": { "valeur": "Plus de 225 ans" },
+    "aujourdhui": {
+      "valeur": "Pologne, Lituanie, Biélorussie, Ukraine",
+      "precision": "et une partie de la Lettonie et de la Russie"
+    }
+  },
+  "essentiel": [
+    "En 1569, l’union de Lublin unit le royaume de Pologne et le grand-duché de Lituanie en une seule république.",
+    "Le roi est élu par l’ensemble de la noblesse, qui jouit de grandes libertés : c’est la « Liberté dorée ».",
+    "La confédération de Varsovie (1573) garantit la tolérance religieuse ; la plus grande communauté juive d’Europe y vit.",
+    "Le roi [[jean-iii-sobieski|Jean III Sobieski]] et ses hussards ailés écrasent l’armée ottomane devant [[bataille-de-vienne|Vienne]] en 1683.",
+    "Paralysé par le liberum veto, l’État ne peut résister à ses voisins : malgré la [[constitution-du-3-mai-1791|constitution de 1791]], il disparaît lors des [[partages-de-la-pologne|partages]]."
+  ],
+  "periodes": [
     {
-      "titre": "L'âge d'or et la tragédie de la Pologne",
-      "url": "https://fr.wikipedia.org/wiki/R%C3%A9publique_des_Deux_Nations"
+      "nom": "L’âge d’or",
+      "debut": 1569,
+      "fin": 1648,
+      "resume": "La République est l’un des plus grands et des plus riches États d’Europe, grâce aux exportations de blé par la Vistule et Gdańsk.",
+      "evenements": [
+        { "annee": 1573, "evenement": "Confédération de Varsovie" },
+        { "annee": 1610, "evenement": "Les Polonais occupent Moscou" }
+      ]
+    },
+    {
+      "nom": "Les guerres et le Déluge",
+      "debut": 1648,
+      "fin": 1699,
+      "resume": "Révolte cosaque, invasions suédoise et russe dévastent le pays ; Jean III Sobieski remporte encore de grandes victoires contre les Ottomans.",
+      "evenements": [
+        { "annee": 1648, "evenement": "Révolte de Khmelnytsky" },
+        { "annee": 1655, "evenement": "Le Déluge" },
+        { "annee": 1683, "evenement": "Bataille de Vienne", "ref": "bataille-de-vienne" }
+      ]
+    },
+    {
+      "nom": "Déclin et partages",
+      "debut": 1699,
+      "fin": 1795,
+      "resume": "La Russie domine la République. Les réformes du roi Stanislas II arrivent trop tard : trois partages font disparaître l’État.",
+      "evenements": [
+        { "annee": 1772, "evenement": "Premier partage", "ref": "partages-de-la-pologne" },
+        { "annee": 1791, "evenement": "Constitution du 3 mai", "ref": "constitution-du-3-mai-1791" },
+        { "annee": 1794, "evenement": "Insurrection de Kościuszko" }
+      ]
+    }
+  ],
+  "regimes": [
+    {
+      "id": "election",
+      "nom": "Monarchie élective",
+      "debut": 1569,
+      "fin": 1795,
+      "note": "Après la mort du dernier Jagellon (1572), chaque roi est élu par l’assemblée de tous les nobles présents. Les rois étrangers (français, hongrois, suédois, saxons) sont nombreux."
+    }
+  ],
+  "dynasties": [{ "id": "rois", "nom": "Les rois élus", "debut": 1548, "fin": 1795, "note": "Liste presque complète." }],
+  "societe": "La noblesse (szlachta), près d’un habitant sur dix, détient tous les droits politiques. Les paysans sont, pour la plupart, des serfs soumis à de lourdes corvées. Les villes comptent de nombreux marchands allemands et juifs.",
+  "economie": "Exportation de blé vers l’Europe de l’Ouest par Gdańsk, bois, potasse ; grands domaines cultivés par les serfs.",
+  "decouvertes": ["heliocentrisme"],
+  "arts": "Château royal de Varsovie, églises baroques, portraits de nobles « sarmates », palais de Wilanów de Jean III Sobieski.",
+  "quotidien": "Les nobles portent des costumes inspirés des Orientaux, avec un sabre courbe (karabela), et se veulent les descendants des anciens Sarmates.",
+  "heritage": [
+    {
+      "titre": "Une constitution pionnière",
+      "texte": "Le 3 mai, jour de la constitution de 1791, est fête nationale en Pologne."
+    },
+    {
+      "titre": "Une nation sans État",
+      "texte": "Pendant 123 ans, les Polonais gardent leur langue et leur culture sans État, jusqu’à la renaissance de la Pologne en 1918."
+    }
+  ],
+  "aSavoir": [
+    "L’hymne national polonais commence par « La Pologne n’a pas encore péri », écrit en 1797, après sa disparition."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/R%C3%A9publique_des_Deux_Nations",
+    {
+      "titre": "Encyclopædia Britannica — Poland, history",
+      "url": "https://www.britannica.com/place/Poland/History"
     }
   ]
 }

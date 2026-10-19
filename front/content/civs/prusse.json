@@ -10,44 +10,201 @@
   "row": 6,
   "isRiver": false,
   "capitale": "Berlin / Potsdam",
-  "description": "D'un duché pauvre et sablonneux à l'armée la plus crainte d'Europe : 'La Prusse n'est pas un État avec une armée, mais une armée avec un État'.",
+  "description": "Un royaume aux territoires dispersés, du Rhin à la Baltique, qui devient en un siècle une grande puissance grâce à son armée et à son administration, sous la dynastie des Hohenzollern.",
   "territories": ["Prussia", "Hohenzollern"],
   "datesCles": [
     {
       "annee": 1701,
       "evenement": "Royaume de Prusse",
-      "info": "L'électeur de Brandebourg se couronne lui-même Roi avec l'accord de l'Empereur."
+      "info": "L’électeur de Brandebourg se couronne lui-même roi à Königsberg, avec l’accord de l’empereur."
     },
     {
       "annee": 1740,
       "evenement": "Guerres de Silésie",
-      "info": "Frédéric II arrache cette riche province à l'Autriche de Marie-Thérèse."
+      "info": "Frédéric II envahit cette riche province autrichienne et la conserve."
     },
     {
-      "annee": 1756,
-      "evenement": "Guerre de Sept Ans",
-      "info": "La Prusse affronte victorieusement seule les trois plus grandes armées du continent."
+      "annee": 1757,
+      "evenement": "Bataille de Rossbach",
+      "info": "Frédéric II écrase une armée française et impériale deux fois plus nombreuse.",
+      "ref": "bataille-de-rossbach"
+    },
+    {
+      "annee": 1763,
+      "evenement": "Paix de Hubertusburg",
+      "info": "La Prusse sort de la guerre de Sept Ans en conservant la Silésie."
+    },
+    {
+      "annee": 1772,
+      "evenement": "Premier partage de la Pologne",
+      "info": "La Prusse annexe la Prusse royale, qui relie ses territoires.",
+      "ref": "partages-de-la-pologne"
     }
   ],
   "dirigeants": [
-    { "titre": "Roi en Prusse", "nom": "Frédéric-Guillaume Ier", "surnom": "Le Roi-Sergent", "debut": 1713, "fin": 1740 },
-    { "titre": "Roi de Prusse", "nom": "Frédéric II", "surnom": "Frédéric le Grand", "debut": 1740, "fin": 1786 }
+    {
+      "nom": "Frédéric-Guillaume",
+      "titre": "Électeur de Brandebourg",
+      "surnom": "le Grand Électeur",
+      "debut": 1640,
+      "fin": 1688,
+      "dynastie": "electeurs",
+      "note": "reconstruit le pays après la guerre de Trente Ans",
+      "cle": true
+    },
+    {
+      "nom": "Frédéric Ier",
+      "titre": "Électeur, puis roi en Prusse",
+      "debut": 1688,
+      "fin": 1713,
+      "dynastie": "rois",
+      "note": "roi à partir de 1701",
+      "cle": true
+    },
+    {
+      "nom": "Frédéric-Guillaume Ier",
+      "titre": "Roi en Prusse",
+      "surnom": "le Roi-Sergent",
+      "debut": 1713,
+      "fin": 1740,
+      "dynastie": "rois",
+      "cle": true
+    },
+    {
+      "nom": "Frédéric II",
+      "titre": "Roi de Prusse",
+      "surnom": "le Grand",
+      "debut": 1740,
+      "fin": 1786,
+      "dynastie": "rois",
+      "personne": "frederic-ii-de-prusse",
+      "cle": true
+    },
+    { "nom": "Frédéric-Guillaume II", "titre": "Roi de Prusse", "debut": 1786, "fin": 1797, "dynastie": "rois" }
   ],
-  "personnages": [],
+  "personnages": [
+    {
+      "nom": "Frédéric II de Prusse",
+      "role": "Roi",
+      "description": "Roi guerrier et philosophe, il fait de la Prusse une grande puissance.",
+      "dates": "1712 → 1786",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_II_(roi_de_Prusse)",
+      "ref": "frederic-ii-de-prusse"
+    },
+    {
+      "nom": "Emmanuel Kant",
+      "role": "Philosophe",
+      "description": "Professeur à Königsberg, il pose la question « Qu’est-ce que les Lumières ? » et révolutionne la philosophie.",
+      "dates": "1724 → 1804",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Emmanuel_Kant"
+    },
+    {
+      "nom": "Moses Mendelssohn",
+      "role": "Philosophe",
+      "description": "Philosophe juif de Berlin, figure des Lumières allemandes et défenseur de la tolérance.",
+      "dates": "1729 → 1786",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Moses_Mendelssohn"
+    }
+  ],
   "guerres": [
+    {
+      "nom": "Guerres de Silésie",
+      "annee": 1740,
+      "adversaires": ["Monarchie de Habsbourg (Marie-Thérèse)"],
+      "allies": ["France, Bavière (1741-1745)"],
+      "morts": "Plusieurs dizaines de milliers",
+      "vainqueur": "Prusse",
+      "consequences": "Guerres de 1740 à 1745. La Prusse s’empare de la Silésie, riche province peuplée, et la garde.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerres_de_Sil%C3%A9sie"
+    },
     {
       "nom": "Guerre de Sept Ans (Front Européen)",
       "annee": 1756,
       "adversaires": ["France", "Autriche", "Russie", "Suède"],
       "allies": ["Grande-Bretagne (soutien financier)"],
       "morts": "Près d'un million en Europe centrale",
-      "vainqueur": "Prusse",
-      "consequences": "Sauvée in extremis par le retrait miracle de la Russie (Le 'Miracle de la maison de Brandebourg'), la Prusse conserve la Silésie et s'impose comme une puissance majeure.",
+      "vainqueur": "Prusse (statu quo)",
+      "consequences": "Sauvée de justesse par la mort de la tsarine Élisabeth et le retrait de la Russie en 1762 (le « miracle de la maison de Brandebourg »), la Prusse conserve la Silésie et s’impose comme une grande puissance.",
       "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_de_Sept_Ans"
     }
   ],
-  "sciences": "Invention du système des 'Cantons' (Kantonssystem), une proto-conscription obligatoire très en avance sur son temps. Les soldats prussiens s'entraînent avec une baguette de fer (invention de Dessauer) leur permettant de tirer 4 coups à la minute contre 2 pour les armées ennemies. La Prusse rend l'école primaire obligatoire dès 1717, obligation renforcée par le règlement scolaire de 1763 sous Frédéric II (d'autres États allemands, comme la Saxe-Gotha en 1642, l'avaient précédée).",
-  "croyancesText": "La dynastie est calviniste depuis 1613 et gouverne une population surtout luthérienne ; elle applique la vision de l'Absolutisme éclairé : une tolérance religieuse utilitariste absolue. Dès 1685, l'édit de Potsdam du Grand Électeur accueille environ 20 000 protestants français (huguenots). Plus tard, Frédéric II fait construire une cathédrale catholique en plein Berlin protestant et accueille les Jésuites bannis d'ailleurs, absorbant leur précieux savoir-faire artisanal et intellectuel.",
-  "diplomatie": "Sa géographie éclatée l'oblige à l'agressivité militaire préventive. Pour relier la Prusse-Orientale au Brandebourg, Frédéric II n'hésitera pas à organiser avec la Russie et l'Autriche le dépeçage pur et simple du Royaume de Pologne (Partages de la Pologne). Il invite Voltaire à sa cour (Palais de Sanssouci) pour donner un vernis philosophique à sa politique machiavélique.",
-  "documentaires": [{ "titre": "Frédéric le Grand, l'énigme prussienne", "url": "https://fr.wikipedia.org/wiki/Royaume_de_Prusse" }]
+  "sciences": "La Prusse invente le système des cantons, qui oblige chaque région à fournir des recrues à un régiment. L’entraînement intensif et la baguette de fer des fusils permettent aux soldats prussiens de tirer plus vite que leurs adversaires. L’école primaire est déclarée obligatoire dès 1717, puis organisée par le règlement de 1763. Frédéric II fait assécher des marais et encourage la culture de la pomme de terre.",
+  "croyancesText": "La dynastie est calviniste depuis 1613 et gouverne une population surtout luthérienne : elle pratique une tolérance religieuse intéressée. Par l’édit de Potsdam (1685), le Grand Électeur accueille environ 20 000 protestants français. Frédéric II fait bâtir une église catholique à Berlin et accueille les jésuites, chassés d’autres pays : « Chacun doit pouvoir faire son salut à sa façon », écrit-il.",
+  "diplomatie": "Ses territoires dispersés poussent la Prusse à l’offensive pour les relier. Frédéric II envahit la Silésie autrichienne, puis, avec la Russie et l’Autriche, organise le premier partage de la Pologne. Pendant la guerre de Sept Ans, il ne doit son salut qu’aux subsides britanniques et au retrait de la Russie en 1762.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": { "valeur": "Berlin", "precision": "et Potsdam, résidence de Frédéric II" },
+    "regimes": { "valeur": "Monarchie absolue", "precision": "« despotisme éclairé » sous Frédéric II" },
+    "langues": { "valeur": "Allemand", "precision": "avec le polonais et, à la cour de Frédéric II, le français" },
+    "religion": {
+      "valeur": "Protestantisme",
+      "precision": "rois calvinistes, population surtout luthérienne ; tolérance religieuse"
+    },
+    "apogee": { "valeur": "Règne de Frédéric II (1740-1786)" },
+    "population": { "valeur": "Environ 5,4 millions en 1786", "precision": "contre 2,2 millions en 1740" },
+    "monnaie": { "valeur": "Thaler" },
+    "duree": { "valeur": "Environ 90 ans dans cette fiche", "precision": "le royaume dure jusqu’en 1918" },
+    "aujourdhui": { "valeur": "Allemagne et Pologne", "precision": "et une partie de la Russie (Kaliningrad) et de la Lituanie" }
+  },
+  "essentiel": [
+    "Les princes-électeurs de Brandebourg héritent du duché de Prusse ; en 1701, Frédéric Ier se couronne « roi en Prusse ».",
+    "Son fils, le « Roi-Sergent » Frédéric-Guillaume Ier, crée une armée nombreuse et disciplinée et une administration économe.",
+    "[[frederic-ii-de-prusse|Frédéric II]] prend la Silésie à l’Autriche et résiste, pendant la guerre de Sept Ans, à une coalition de grandes puissances ([[bataille-de-rossbach|Rossbach]]).",
+    "Ami de Voltaire, il se veut un « despote éclairé » et fait bâtir le [[chateau-de-sanssouci|château de Sanssouci]].",
+    "Avec la Russie et l’Autriche, il participe au premier [[partages-de-la-pologne|partage de la Pologne]] (1772)."
+  ],
+  "periodes": [
+    {
+      "nom": "La naissance du royaume",
+      "debut": 1701,
+      "fin": 1740,
+      "resume": "Frédéric Ier obtient le titre royal ; Frédéric-Guillaume Ier bâtit une armée parmi les plus grandes d’Europe, rapportée à sa population."
+    },
+    {
+      "nom": "Frédéric le Grand",
+      "debut": 1740,
+      "fin": 1786,
+      "resume": "Frédéric II agrandit le royaume par la guerre, le reconstruit après la guerre de Sept Ans et le modernise.",
+      "evenements": [
+        { "annee": 1740, "evenement": "Invasion de la Silésie" },
+        { "annee": 1757, "evenement": "Rossbach et Leuthen", "ref": "bataille-de-rossbach" },
+        { "annee": 1772, "evenement": "Partage de la Pologne", "ref": "partages-de-la-pologne" }
+      ]
+    },
+    {
+      "nom": "Après Frédéric II",
+      "debut": 1786,
+      "fin": 1789,
+      "resume": "Son neveu Frédéric-Guillaume II lui succède, à la veille de la Révolution française."
+    }
+  ],
+  "dynasties": [
+    {
+      "id": "electeurs",
+      "nom": "Les électeurs de Brandebourg-Prusse",
+      "debut": 1640,
+      "fin": 1701,
+      "note": "Avant la création du royaume."
+    },
+    { "id": "rois", "nom": "Les rois de Prusse (Hohenzollern)", "debut": 1701, "fin": 1797 }
+  ],
+  "societe": "Les nobles propriétaires terriens, les Junkers, fournissent les officiers ; les paysans des grands domaines de l’Est sont des serfs. L’administration, honnête et économe, est réputée en Europe.",
+  "economie": "Agriculture des grands domaines, manufactures soutenues par l’État (textiles, porcelaine de Berlin), colonisation intérieure des terres asséchées ; une grande partie des recettes va à l’armée.",
+  "decouvertes": ["chateau-de-sanssouci"],
+  "arts": "Château de Sanssouci et Nouveau Palais à Potsdam, opéra de Berlin, musique de Carl Philipp Emanuel Bach à la cour ; Frédéric II joue lui-même de la flûte.",
+  "quotidien": "Dans les villes de garnison, les soldats sont partout. Les paysans cultivent de plus en plus la pomme de terre, que le roi impose contre les famines.",
+  "heritage": [
+    {
+      "titre": "L’unité allemande",
+      "texte": "Au XIXe siècle, c’est la Prusse qui unifie l’Allemagne autour d’elle."
+    },
+    { "titre": "Potsdam", "texte": "Les palais et jardins de Potsdam sont inscrits au patrimoine mondial." }
+  ],
+  "aSavoir": [
+    "Jeune prince, Frédéric II écrit un « Anti-Machiavel » condamnant la politique sans morale… avant de mener lui-même une politique de conquête très réaliste."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Royaume_de_Prusse",
+    { "titre": "Encyclopædia Britannica — Prussia", "url": "https://www.britannica.com/place/Prussia" }
+  ]
 }

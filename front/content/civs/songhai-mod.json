@@ -10,40 +10,172 @@
   "row": 1,
   "isRiver": false,
   "capitale": "Gao",
-  "description": "L'âge d'or intellectuel et impérial de l'Afrique de l'Ouest, brisé par l'arrivée des armes à feu traversant le Sahara.",
+  "description": "L’empire songhaï des Askia, le plus vaste empire de l’histoire de l’Afrique de l’Ouest, administré depuis Gao et rayonnant par les savants de Tombouctou, jusqu’à l’invasion marocaine de 1591.",
   "territories": ["Songhai"],
   "datesCles": [
     {
       "annee": 1493,
       "evenement": "Dynastie des Askia",
-      "info": "Sonni Ali Ber est mort fin 1492. En 1493, Askia Mohammed bat son fils Sonni Baro à Anfao, prend le pouvoir et renforce la place de l'islam dans l'État."
+      "info": "Sonni Ali Ber est mort fin 1492. En 1493, Askia Mohammed bat son fils Sonni Baro à Anfao, prend le pouvoir et renforce la place de l’islam dans l’État."
     },
-    { "annee": 1591, "evenement": "L'Invasion marocaine", "info": "Fin de l'Empire suite à la bataille de Tondibi." }
+    {
+      "annee": 1496,
+      "evenement": "Pèlerinage d’Askia Mohammed",
+      "info": "L’askia se rend à La Mecque et reçoit au Caire le titre de « calife » pour l’Afrique de l’Ouest."
+    },
+    { "annee": 1549, "evenement": "Règne d’Askia Daoud", "info": "Début d’un long règne prospère." },
+    {
+      "annee": 1591,
+      "evenement": "L’invasion marocaine",
+      "info": "Fin de l’empire après la bataille de Tondibi.",
+      "ref": "bataille-de-tondibi"
+    }
   ],
-  "dirigeants": [{ "titre": "Empereur (Askia)", "nom": "Askia Mohammed Ier", "surnom": "Le Grand", "debut": 1493, "fin": 1528 }],
+  "dirigeants": [
+    {
+      "nom": "Askia Mohammed Ier",
+      "titre": "Askia",
+      "surnom": "le Grand",
+      "debut": 1493,
+      "fin": 1528,
+      "dynastie": "askia",
+      "personne": "askia-mohammed",
+      "note": "fondateur ; déposé par son fils",
+      "cle": true
+    },
+    { "nom": "Askia Moussa", "titre": "Askia", "debut": 1528, "fin": 1531, "dynastie": "askia" },
+    { "nom": "Askia Mohammed II Benkan", "titre": "Askia", "debut": 1531, "fin": 1537, "dynastie": "askia" },
+    { "nom": "Askia Ismaïl", "titre": "Askia", "debut": 1537, "fin": 1539, "dynastie": "askia" },
+    { "nom": "Askia Ishaq Ier", "titre": "Askia", "debut": 1539, "fin": 1549, "dynastie": "askia" },
+    {
+      "nom": "Askia Daoud",
+      "titre": "Askia",
+      "debut": 1549,
+      "fin": 1582,
+      "dynastie": "askia",
+      "note": "règne prospère",
+      "cle": true
+    },
+    { "nom": "Askia Mohammed III", "titre": "Askia", "debut": 1582, "fin": 1586, "dynastie": "askia" },
+    { "nom": "Askia Mohammed IV Bani", "titre": "Askia", "debut": 1586, "fin": 1588, "dynastie": "askia" },
+    {
+      "nom": "Askia Ishaq II",
+      "titre": "Askia",
+      "debut": 1588,
+      "fin": 1591,
+      "dynastie": "askia",
+      "note": "vaincu à Tondibi",
+      "cle": true
+    }
+  ],
   "personnages": [
     {
       "nom": "Ahmed Baba",
-      "role": "Savant et Grand Mufti",
-      "description": "Le plus grand intellectuel de Tombouctou, auteur de dizaines d'ouvrages, surtout de droit islamique et de biographies de savants, déporté lors de l'invasion marocaine.",
-      "dates": "1556 à 1627",
-      "wikiUrl": "https://fr.wikipedia.org/wiki/Ahmed_Baba"
+      "role": "Savant de Tombouctou",
+      "description": "Le plus grand intellectuel de Tombouctou, auteur de dizaines d’ouvrages, surtout de droit islamique et de biographies de savants, déporté lors de l’invasion marocaine.",
+      "dates": "1556 → 1627",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Ahmed_Baba",
+      "ref": "ahmed-baba"
+    },
+    {
+      "nom": "Djouder Pacha",
+      "role": "Général marocain",
+      "description": "Né en Espagne, eunuque au service du sultan du Maroc, il commande l’armée qui traverse le Sahara et vainc les Songhaï.",
+      "dates": "mort en 1606",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Djouder_Pacha"
     }
   ],
   "guerres": [
     {
       "nom": "Bataille de Tondibi",
       "annee": 1591,
-      "adversaires": ["Sultanat Saadien (Maroc, mené par Djouder Pacha, eunuque d'origine espagnole au service du sultan)"],
+      "adversaires": ["Sultanat saadien du Maroc (Djouder Pacha)"],
       "allies": [],
-      "morts": "La cavalerie d'élite Songhaï est fauchée",
+      "morts": "Inconnues ; l’armée songhaï, bien plus nombreuse, est mise en déroute",
       "vainqueur": "Sultanat du Maroc",
-      "consequences": "Les arquebuses marocaines détruisent les lances et les épées de la cavalerie Songhaï. Tombouctou et Gao sont saccagées, l'Empire est démembré.",
+      "consequences": "Les arquebuses marocaines l’emportent sur la cavalerie songhaï. Gao et Tombouctou sont occupées, les lettrés déportés au Maroc, et l’empire se fragmente.",
       "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Tondibi"
     }
   ],
-  "sciences": "Le règne d'Askia Mohammed voit une organisation de l'État remarquable pour l'époque : introduction de poids et mesures officiels unifiés pour sécuriser le commerce de l'or et du sel, création d'un corps d'inspecteurs des marchés, et approfondissement d'un réseau complexe de canaux d'irrigation sur les rives du fleuve Niger.",
-  "croyancesText": "L'empire renoue pleinement avec l'Islam diplomatique et sunnite. Le pèlerinage de l'Askia Mohammed à La Mecque, accompagné d'une fortune de 300 000 pièces d'or (dont une partie seulement est distribuée en aumônes), a pour but d'obtenir la validation du Calife du Caire pour être reconnu comme 'Lieutenant du Calife au Soudan', asseyant son autorité légale sur tous les musulmans de la région.",
-  "diplomatie": "Le pouvoir royal passe d'un règne de conquêtes (sous les Sonni) à une vaste administration avec des dignitaires spécialisés (finances, agriculture, flotte). Le territoire est divisé en provinces confiées à des gouverneurs (Fari) nommés par l'Askia. Toutefois, la puissance du Songhaï attire la convoitise du redoutable Sultanat Saadien du Maroc, désireux de s'emparer des mines d'or et des mines de sel gemme de Teghazza pour renflouer ses caisses après la bataille des Trois Rois.",
-  "documentaires": [{ "titre": "La chute de l'Empire Songhaï", "url": "https://fr.wikipedia.org/wiki/Empire_songha%C3%AF" }]
+  "sciences": "Le règne d’Askia Mohammed voit une organisation de l’État remarquable : poids et mesures officiels pour sécuriser le commerce de l’or et du sel, inspecteurs des marchés, canaux d’irrigation sur les rives du fleuve Niger. À Tombouctou, des dizaines d’écoles enseignent le droit, la grammaire, l’astronomie et les mathématiques ; des familles de lettrés réunissent de grandes bibliothèques.",
+  "croyancesText": "Contrairement à Sonni Ali, Askia Mohammed s’appuie sur les lettrés musulmans. Lors de son pèlerinage à La Mecque, accompagné, selon les chroniques, de 300 000 pièces d’or, il reçoit au Caire le titre de « calife » pour l’Afrique de l’Ouest, ce qui renforce son autorité. Dans les campagnes, les cultes traditionnels restent vivants.",
+  "diplomatie": "L’empire est divisé en provinces confiées à des gouverneurs nommés par l’askia, avec des ministres spécialisés (finances, agriculture, flotte du Niger). Sa richesse attire le sultan saadien du Maroc, Ahmed al-Mansour, qui veut s’emparer des mines de sel de Teghazza et de l’or.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": { "valeur": "Gao", "precision": "Tombouctou est la capitale intellectuelle" },
+    "regimes": { "valeur": "Empire", "precision": "l’askia gouverne avec des ministres et des gouverneurs de province" },
+    "langues": { "valeur": "Songhaï", "precision": "arabe pour l’écrit et le savoir" },
+    "religion": {
+      "valeur": "Islam",
+      "precision": "religion de l’État ; les cultes traditionnels persistent dans les campagnes"
+    },
+    "apogee": { "valeur": "XVIe siècle", "precision": "sous Askia Mohammed et Askia Daoud" },
+    "population": { "valeur": "Peut-être plusieurs millions", "precision": "estimation incertaine" },
+    "monnaie": { "valeur": "Cauris, or, sel" },
+    "duree": { "valeur": "Environ 100 ans" },
+    "aujourdhui": {
+      "valeur": "Mali, Niger",
+      "precision": "et une partie du Burkina Faso, du Sénégal, de la Mauritanie et du Nigeria"
+    }
+  },
+  "essentiel": [
+    "En 1493, le général [[askia-mohammed|Askia Mohammed]] renverse les Sonni et fonde la dynastie des Askia.",
+    "Il organise l’empire en provinces, unifie les poids et mesures et fait de l’islam la religion de l’État.",
+    "Tombouctou devient un grand centre de savoir, dont témoignent les [[manuscrits-de-tombouctou|manuscrits de Tombouctou]] et le savant [[ahmed-baba|Ahmed Baba]].",
+    "Les askias se font enterrer à Gao, sous le [[tombeau-des-askia|tombeau des Askia]].",
+    "En 1591, une armée marocaine équipée d’armes à feu traverse le Sahara et bat les Songhaï à [[bataille-de-tondibi|Tondibi]] : l’empire s’effondre."
+  ],
+  "periodes": [
+    {
+      "nom": "Askia Mohammed",
+      "debut": 1493,
+      "fin": 1528,
+      "resume": "Le fondateur de la dynastie organise l’empire et l’étend jusqu’au pays haoussa et au Sahara.",
+      "evenements": [{ "annee": 1496, "evenement": "Pèlerinage à La Mecque" }]
+    },
+    {
+      "nom": "L’apogée",
+      "debut": 1528,
+      "fin": 1582,
+      "resume": "Malgré des querelles de succession, l’empire reste puissant ; Askia Daoud règne plus de trente ans."
+    },
+    {
+      "nom": "La chute",
+      "debut": 1582,
+      "fin": 1591,
+      "resume": "Les guerres civiles affaiblissent l’empire, qui ne résiste pas à l’invasion marocaine.",
+      "evenements": [{ "annee": 1591, "evenement": "Bataille de Tondibi", "ref": "bataille-de-tondibi" }]
+    }
+  ],
+  "dynasties": [
+    {
+      "id": "askia",
+      "nom": "La dynastie des Askia",
+      "debut": 1493,
+      "fin": 1591,
+      "note": "Liste complète des askias de Gao."
+    }
+  ],
+  "societe": "Une aristocratie militaire et des lettrés dominent ; les marchands animent les villes. De nombreux captifs travaillent sur les domaines royaux, organisés en villages.",
+  "economie": "Commerce transsaharien (or, sel, esclaves, livres), agriculture et pêche le long du Niger, artisanat des villes.",
+  "decouvertes": ["manuscrits-de-tombouctou", "tombeau-des-askia", "commerce-transsaharien"],
+  "arts": "Mosquées en terre de Tombouctou et Gao, tombeau des Askia, manuscrits enluminés.",
+  "quotidien": "Selon Léon l’Africain, qui visite Tombouctou vers 1510, les livres s’y vendent plus cher que toute autre marchandise.",
+  "heritage": [
+    {
+      "titre": "Les manuscrits de Tombouctou",
+      "texte": "Des centaines de milliers de manuscrits, conservés par des familles, témoignent de la vie intellectuelle de l’Afrique de l’Ouest."
+    },
+    { "titre": "Le tombeau des Askia", "texte": "Il est inscrit au patrimoine mondial." }
+  ],
+  "aSavoir": [
+    "L’histoire de l’empire est connue par deux chroniques écrites à Tombouctou au XVIIe siècle, le Tarikh al-Sudan et le Tarikh al-Fattash."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Empire_songha%C3%AF",
+    {
+      "titre": "Encyclopædia Britannica — Songhai empire",
+      "url": "https://www.britannica.com/place/Songhai-empire"
+    }
+  ]
 }

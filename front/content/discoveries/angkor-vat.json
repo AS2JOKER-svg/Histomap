@@ -1,0 +1,22 @@
+{
+  "id": "angkor-vat",
+  "nom": "Angkor Vat",
+  "annee": 1150,
+  "domaine": "Architecture",
+  "dates": "vers 1113 → 1150",
+  "description": "Le grand temple bâti par le roi Suryavarman II et dédié à Vishnou : le plus grand monument religieux du monde, entouré de douves de près de 200 mètres de large.",
+  "sections": [
+    {
+      "titre": "Ce qu’il représente",
+      "texte": "Ses cinq tours figurent les sommets du mont Meru, demeure des dieux, et ses douves l’océan cosmique. Ses galeries portent des centaines de mètres de bas-reliefs : batailles, épopées indiennes, danseuses célestes."
+    },
+    {
+      "titre": "Comment il a été bâti",
+      "texte": "Des millions de blocs de grès, extraits à plus de 30 km, ont été acheminés par canaux et assemblés sans mortier."
+    }
+  ],
+  "aSavoir": [
+    "Contrairement à la plupart des temples khmers, il est tourné vers l’ouest, direction associée à Vishnou et à la mort : c’était peut-être aussi le tombeau du roi."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Angkor_Vat"
+}

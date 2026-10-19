@@ -1,0 +1,19 @@
+{
+  "id": "bronzes-chola",
+  "nom": "Bronzes chola",
+  "annee": 1000,
+  "domaine": "Art",
+  "dates": "Xe-XIIe siècles",
+  "description": "Des statues de dieux en bronze, fondues selon la technique de la cire perdue, pour être portées en procession : la plus célèbre est le Shiva Nataraja, le danseur cosmique dans un cercle de flammes.",
+  "sections": [
+    {
+      "titre": "Comment ils sont fabriqués",
+      "texte": "Le sculpteur modèle la statue en cire, la recouvre d’argile, puis chauffe le tout : la cire fond et s’écoule, et l’on verse le métal en fusion dans le moule ainsi creusé."
+    },
+    {
+      "titre": "Ce qu’ils représentent",
+      "texte": "Le Shiva Nataraja danse pour détruire et recréer l’univers ; il écrase de son pied le démon de l’ignorance."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Nataraja"
+}

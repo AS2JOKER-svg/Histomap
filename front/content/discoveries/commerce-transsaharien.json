@@ -1,0 +1,19 @@
+{
+  "id": "commerce-transsaharien",
+  "nom": "Commerce transsaharien",
+  "annee": 800,
+  "domaine": "Économie",
+  "dates": "VIIIe-XVIe siècles",
+  "description": "Des caravanes de chameaux traversent le Sahara pour échanger l’or et les esclaves d’Afrique de l’Ouest contre le sel, le cuivre, les tissus et les chevaux d’Afrique du Nord.",
+  "sections": [
+    {
+      "titre": "Comment ça marche",
+      "texte": "La traversée dure environ deux mois, d’oasis en oasis. Le sel, extrait dans le désert à Teghazza puis Taoudeni, est indispensable au sud ; l’or du Bambouk et du Bouré est très recherché au nord et jusqu’en Europe."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Les royaumes du Sahel (Ghana, Mali, Songhaï) s’enrichissent en contrôlant ces échanges. L’islam, l’écriture arabe et le savoir se diffusent avec les marchands."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Commerce_transsaharien"
+}

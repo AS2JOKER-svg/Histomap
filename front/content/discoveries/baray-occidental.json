@@ -1,0 +1,19 @@
+{
+  "id": "baray-occidental",
+  "nom": "Barays d’Angkor",
+  "annee": 1050,
+  "domaine": "Technique",
+  "dates": "IXe-XIIe siècles",
+  "description": "D’immenses réservoirs rectangulaires bâtis par les rois khmers : le baray occidental mesure environ 8 km sur 2 et peut contenir des dizaines de millions de mètres cubes d’eau.",
+  "sections": [
+    {
+      "titre": "Comment ils étaient faits",
+      "texte": "Ils ne sont pas creusés : on élève de hautes levées de terre autour d’une surface plane, qui se remplit avec les pluies et les canaux."
+    },
+    {
+      "titre": "À quoi servaient-ils",
+      "texte": "Ils régulaient l’eau de la mousson et avaient aussi un sens religieux, comme images de l’océan entourant le mont Meru. Leur rôle dans l’irrigation des rizières fait débat."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Baray_occidental"
+}

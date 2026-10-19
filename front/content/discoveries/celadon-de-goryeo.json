@@ -1,0 +1,18 @@
+{
+  "id": "celadon-de-goryeo",
+  "nom": "Céladon de Goryeo",
+  "annee": 1100,
+  "domaine": "Art",
+  "dates": "XIe-XIIIe siècles",
+  "description": "Une céramique couverte d’une glaçure vert-de-gris transparente, souvent ornée de motifs incrustés d’argile blanche et noire : le chef-d’œuvre des potiers coréens.",
+  "sections": [
+    {
+      "titre": "Comment il est fabriqué",
+      "texte": "La couleur vient d’un peu de fer dans la glaçure, cuite dans un four sans oxygène. Pour l’incrustation, le potier grave le motif, le remplit d’argile colorée, puis émaille et cuit la pièce."
+    }
+  ],
+  "aSavoir": [
+    "En 1123, l’envoyé chinois Xu Jing en fait l’éloge, alors que la Chine était réputée pour ses propres céramiques."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/C%C3%A9ladon"
+}

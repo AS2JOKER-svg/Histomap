@@ -1,0 +1,20 @@
+{
+  "id": "temple-de-brihadisvara",
+  "nom": "Temple de Brihadisvara",
+  "annee": 1010,
+  "domaine": "Architecture",
+  "dates": "vers 1003 → 1010",
+  "description": "Le grand temple dédié à Shiva à Thanjavur, bâti par [[rajaraja-ier|Rajaraja Ier]] : sa tour pyramidale de 66 mètres en granit en fait l’un des plus hauts temples de l’Inde.",
+  "sections": [
+    {
+      "titre": "Comment il a été bâti",
+      "texte": "Il est fait de dizaines de milliers de tonnes de granit, une pierre absente des environs. Le sommet de la tour est un énorme bloc de granit, hissé peut-être grâce à une longue rampe de terre."
+    },
+    {
+      "titre": "Ce qu’on y trouve",
+      "texte": "Un immense lingam, symbole de Shiva, des fresques, et sur les murs des inscriptions qui listent les terres, les employés et les dons du temple."
+    }
+  ],
+  "liens": [{ "ref": "rajaraja-ier", "relation": "Le roi bâtisseur" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Temple_de_Brihadesvara"
+}

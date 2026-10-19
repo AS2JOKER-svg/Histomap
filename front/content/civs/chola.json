@@ -11,13 +11,18 @@
   "row": 9,
   "isRiver": false,
   "capitale": "Thanjavur",
-  "description": "La superpuissance tamoule de l'Inde du Sud, à la marine conquérante et à l'architecture monumentale inébranlable.",
+  "description": "La grande puissance tamoule du sud de l’Inde, connue pour ses temples géants, ses bronzes et ses expéditions navales jusqu’en Asie du Sud-Est.",
   "territories": ["Cholas", "Chola Empire"],
   "datesCles": [
     {
       "annee": 848,
-      "evenement": "L'ascension",
-      "info": "Vijayalaya Chola s'empare de la ville de Thanjavur et fonde la dynastie impériale."
+      "evenement": "L’ascension",
+      "info": "Vijayalaya Chola s’empare de Thanjavur et fonde la dynastie."
+    },
+    {
+      "annee": 920,
+      "evenement": "Inscriptions d’Uttaramerur",
+      "info": "Elles décrivent comment les assemblées de village sont désignées, en partie par tirage au sort."
     },
     {
       "annee": 1010,
@@ -27,28 +32,189 @@
     {
       "annee": 1025,
       "evenement": "Hégémonie navale",
-      "info": "La flotte Chola traverse le golfe du Bengale pour écraser l'Empire de Srivijaya."
+      "info": "La flotte Chola traverse le golfe du Bengale et attaque les ports de Srivijaya.",
+      "ref": "raid-chola-de-1025"
+    },
+    {
+      "annee": 1070,
+      "evenement": "Kulottunga Ier",
+      "info": "Un prince d’une famille alliée monte sur le trône et unit les Chola et les Chalukya orientaux."
+    },
+    {
+      "annee": 1279,
+      "evenement": "Fin de la dynastie",
+      "info": "Le dernier roi Chola est vaincu par les Pandya de Madurai."
     }
   ],
   "dirigeants": [
-    { "titre": "Raja (Roi)", "nom": "Rajaraja Ier", "surnom": "Le Grand", "debut": 985, "fin": 1014 },
-    { "titre": "Raja", "nom": "Rajendra Ier", "debut": 1014, "fin": 1044 }
+    {
+      "nom": "Vijayalaya",
+      "titre": "Roi",
+      "debut": 848,
+      "fin": 871,
+      "dynastie": "chola",
+      "note": "fondateur de la dynastie",
+      "cle": true
+    },
+    { "nom": "Aditya Ier", "titre": "Roi", "debut": 871, "fin": 907, "dynastie": "chola" },
+    {
+      "nom": "Parantaka Ier",
+      "titre": "Roi",
+      "debut": 907,
+      "fin": 955,
+      "dynastie": "chola",
+      "note": "règne des inscriptions d’Uttaramerur"
+    },
+    { "nom": "Sundara Chola", "titre": "Roi", "debut": 957, "fin": 970, "dynastie": "chola" },
+    { "nom": "Uttama Chola", "titre": "Roi", "debut": 970, "fin": 985, "dynastie": "chola" },
+    {
+      "nom": "Rajaraja Ier",
+      "titre": "Roi",
+      "surnom": "le Grand",
+      "debut": 985,
+      "fin": 1014,
+      "dynastie": "chola",
+      "personne": "rajaraja-ier",
+      "cle": true
+    },
+    {
+      "nom": "Rajendra Ier",
+      "titre": "Roi",
+      "debut": 1014,
+      "fin": 1044,
+      "dynastie": "chola",
+      "note": "expéditions au Gange et en Asie du Sud-Est",
+      "cle": true
+    },
+    { "nom": "Rajadhiraja Ier", "titre": "Roi", "debut": 1044, "fin": 1054, "dynastie": "chola", "note": "tué au combat" },
+    { "nom": "Virarajendra", "titre": "Roi", "debut": 1063, "fin": 1070, "dynastie": "chola" },
+    {
+      "nom": "Kulottunga Ier",
+      "titre": "Roi",
+      "debut": 1070,
+      "fin": 1122,
+      "dynastie": "chola",
+      "note": "long règne prospère",
+      "cle": true
+    },
+    {
+      "nom": "Kulottunga III",
+      "titre": "Roi",
+      "debut": 1178,
+      "fin": 1218,
+      "dynastie": "chola",
+      "note": "dernier grand roi"
+    },
+    { "nom": "Rajendra III", "titre": "Roi", "debut": 1246, "fin": 1279, "dynastie": "chola", "note": "dernier roi" }
   ],
-  "personnages": [],
+  "personnages": [
+    {
+      "nom": "Rajaraja Ier",
+      "role": "Roi",
+      "description": "Il fait des Chola la première puissance du sud de l’Inde et bâtit le temple de Brihadisvara.",
+      "dates": "vers 947 → 1014",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Rajaraja_Ier",
+      "ref": "rajaraja-ier"
+    },
+    {
+      "nom": "Rajendra Ier",
+      "role": "Roi",
+      "description": "Fils de Rajaraja, il porte l’empire à son apogée et fonde une nouvelle capitale, Gangaikonda Cholapuram, « la ville de celui qui a pris le Gange ».",
+      "dates": "règne 1014 → 1044",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Rajendra_Ier"
+    }
+  ],
   "guerres": [
     {
       "nom": "Campagnes navales d'Asie du Sud-Est",
       "annee": 1025,
       "adversaires": ["Empire de Srivijaya", "Royaumes malais"],
       "allies": [],
-      "morts": "Pillage systématique",
+      "morts": "Inconnues",
       "vainqueur": "Empire Chola",
-      "consequences": "Le roi Rajendra Ier s'empare de dizaines de ports exotiques et capture le roi de Srivijaya.",
+      "consequences": "Rajendra Ier fait piller une quinzaine de ports et capturer le roi de Srivijaya ; les Chola n’occupent pas durablement ces territoires.",
       "wikiUrl": "https://fr.wikipedia.org/wiki/Dynastie_Chola"
     }
   ],
-  "sciences": "Ils entretiennent et développent les aménagements hydrauliques du fleuve Kaveri, dont une grande partie est plus ancienne (barrage de Kallanai, attribué aux premiers Chola). Ils produisent la plus belle statuaire de bronze à cire perdue de l'humanité, particulièrement la figure du Shiva Nataraja (le danseur cosmique entouré de flammes), fondue d'une seule pièce et d'une fluidité de mouvement spectaculaire.",
-  "croyancesText": "Farouchement hindous de rite shivaïte, les souverains Chola construisent des temples massifs, dominés par leur vimana (la tour du sanctuaire), conçus pour fonctionner comme de véritables banques et centres de redistribution agricole. Ils réinvestissent l'immense butin de leurs guerres en Asie du Sud-Est pour recouvrir les toits de leurs temples d'or pur, transformant la caste des brahmanes (prêtres) en riche administrateurs d'État.",
-  "diplomatie": "C'est l'un des très rares empires de l'histoire indienne à se tourner vers la conquête navale étrangère. Ils entretiennent de formelles ambassades diplomatiques et commerciales jusqu'à la cour de la dynastie Song en Chine. Quand le monopole malaisien de Srivijaya menace leurs marchands en bloquant le détroit, l'empereur indien lève une flotte armée pour aller les détruire.",
-  "documentaires": [{ "titre": "L'art du bronze et l'Empire Chola", "url": "https://fr.wikipedia.org/wiki/Dynastie_Chola" }]
+  "sciences": "Les Chola entretiennent et développent les aménagements de la Kaveri, comme le barrage de Kallanai, attribué aux premiers rois Chola, et creusent des réservoirs pour irriguer les rizières. Leurs fondeurs maîtrisent la technique de la cire perdue pour créer des bronzes d’une grande finesse. Le temple de Brihadisvara est couronné d’une tour de 66 mètres, dont le sommet est un bloc de granit de plusieurs dizaines de tonnes.",
+  "croyancesText": "Les rois Chola sont de fervents dévots de Shiva, tout en protégeant aussi les temples de Vishnou. Leurs grands temples ne sont pas seulement religieux : ils possèdent des terres, prêtent de l’argent, emploient des centaines de personnes et organisent fêtes et écoles. Les hymnes des poètes-saints tamouls, les Nayanars, sont rassemblés à cette époque.",
+  "diplomatie": "Les Chola sont l’un des rares empires indiens à mener des expéditions navales lointaines. Ils envoient des ambassades à la cour des Song en Chine. Quand Srivijaya gêne le commerce de leurs marchands dans les détroits, Rajendra Ier lance une flotte pour attaquer ses ports.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": {
+      "valeur": "Thanjavur, puis Gangaikonda Cholapuram",
+      "precision": "nouvelle capitale fondée par Rajendra Ier vers 1025"
+    },
+    "regimes": { "valeur": "Monarchie", "precision": "avec des assemblées de village très actives" },
+    "langues": { "valeur": "Tamoul", "precision": "et sanskrit pour les textes religieux" },
+    "religion": { "valeur": "Hindouisme", "precision": "surtout shivaïte, avec un grand essor de la poésie dévotionnelle" },
+    "apogee": { "valeur": "Vers 985-1044", "precision": "sous Rajaraja Ier et Rajendra Ier" },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": { "valeur": "Monnaies d’or, d’argent et de cuivre" },
+    "duree": { "valeur": "Plus de 430 ans" },
+    "aujourdhui": { "valeur": "Inde du Sud et Sri Lanka", "precision": "surtout le Tamil Nadu" }
+  },
+  "essentiel": [
+    "Vers 850, Vijayalaya Chola prend Thanjavur et fonde une dynastie qui domine bientôt le sud de l’Inde.",
+    "[[rajaraja-ier|Rajaraja Ier]] conquiert le Sri Lanka et fait bâtir le [[temple-de-brihadisvara|temple de Brihadisvara]] à Thanjavur.",
+    "Son fils Rajendra Ier mène une expédition jusqu’au Gange et lance le [[raid-chola-de-1025|raid naval de 1025]] contre Srivijaya.",
+    "Les Chola envoient des ambassades jusqu’en Chine et leurs marchands sillonnent l’océan Indien.",
+    "Leurs [[bronzes-chola|bronzes]], comme le Shiva danseur, comptent parmi les chefs-d’œuvre de l’art indien."
+  ],
+  "periodes": [
+    {
+      "nom": "L’ascension",
+      "debut": 848,
+      "fin": 985,
+      "resume": "Les Chola s’imposent dans le delta de la Kaveri face aux Pallava et aux Pandya.",
+      "evenements": [{ "annee": 920, "evenement": "Inscriptions d’Uttaramerur" }]
+    },
+    {
+      "nom": "L’empire",
+      "debut": 985,
+      "fin": 1070,
+      "resume": "Rajaraja Ier et Rajendra Ier conquièrent le sud de l’Inde, le Sri Lanka et les Maldives, et lancent des expéditions vers le Gange et l’Asie du Sud-Est.",
+      "evenements": [
+        { "annee": 1010, "evenement": "Temple de Brihadisvara" },
+        { "annee": 1025, "evenement": "Raid sur Srivijaya", "ref": "raid-chola-de-1025" }
+      ]
+    },
+    {
+      "nom": "Les Chola tardifs",
+      "debut": 1070,
+      "fin": 1279,
+      "resume": "La dynastie reste puissante sous Kulottunga Ier, puis s’affaiblit face aux Pandya et aux Hoysala."
+    }
+  ],
+  "dynasties": [
+    {
+      "id": "chola",
+      "nom": "Les rois Chola",
+      "debut": 848,
+      "fin": 1279,
+      "note": "Sélection ; dates d’après les inscriptions."
+    }
+  ],
+  "societe": "La société est organisée en castes ; les brahmanes reçoivent des villages en don. Les assemblées de village (sabha, ur) gèrent les terres, l’eau et la justice locale. De puissantes guildes de marchands commercent dans tout l’océan Indien.",
+  "economie": "Riziculture irriguée dans le delta de la Kaveri, tissage du coton, commerce maritime avec l’Asie du Sud-Est, la Chine et le monde arabe.",
+  "decouvertes": ["temple-de-brihadisvara", "bronzes-chola"],
+  "arts": "Temples de Thanjavur, Gangaikonda Cholapuram et Darasuram, bronzes de Shiva Nataraja, peintures murales, poésie tamoule.",
+  "quotidien": "La vie des villages tourne autour du temple, des rizières et des fêtes religieuses, accompagnées de musique et de danse.",
+  "heritage": [
+    {
+      "titre": "Les grands temples",
+      "texte": "Trois temples Chola sont inscrits au patrimoine mondial sous le nom de « grands temples vivants » : on y célèbre toujours le culte."
+    },
+    {
+      "titre": "Le Shiva Nataraja",
+      "texte": "Une statue de Shiva danseur se dresse au CERN, près de Genève, offerte par l’Inde."
+    }
+  ],
+  "aSavoir": [
+    "Une grande partie de l’histoire des Chola est connue par les milliers d’inscriptions gravées sur les murs des temples."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Chola",
+    { "titre": "Encyclopædia Britannica — Chola dynasty", "url": "https://www.britannica.com/topic/Chola-dynasty" }
+  ]
 }

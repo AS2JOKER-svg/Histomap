@@ -11,41 +11,179 @@
   "row": 8,
   "isRiver": false,
   "capitale": "Palembang (Sumatra)",
-  "description": "Puissante confédération maritime (Indonésie/Malaisie) tenant en otage le détroit de Malacca et s'enrichissant du commerce mondial des épices fines.",
+  "description": "Une puissance maritime centrée sur Sumatra, qui contrôle pendant des siècles les détroits entre l’océan Indien et la mer de Chine, et devient un grand centre du bouddhisme.",
   "territories": ["Srivijaya Empire"],
   "datesCles": [
     {
-      "annee": 682,
-      "evenement": "Inscription de Kedukan Bukit",
-      "info": "Elle relate une expédition de 20 000 soldats menée par le souverain. Les serments de fidélité sont connus par d'autres inscriptions (Telaga Batu, Kota Kapur en 686)."
+      "annee": 671,
+      "evenement": "Visite de Yijing",
+      "info": "Le pèlerin chinois Yijing, qui y séjourne entre 671 et 695, décrit un centre bouddhiste accueillant plus de 1 000 moines."
     },
     {
-      "annee": 687,
-      "evenement": "Pôle d'éducation",
-      "info": "Le pèlerin chinois Yijing (I-Tsing), qui y séjourne entre 671 et 695, décrit un centre bouddhiste accueillant plus de 1000 moines."
+      "annee": 682,
+      "evenement": "Inscription de Kedukan Bukit",
+      "info": "Elle relate une expédition de 20 000 soldats menée par le souverain. Les serments de fidélité sont connus par d’autres inscriptions (Telaga Batu, Kota Kapur en 686)."
     },
+    { "annee": 825, "evenement": "Borobudur", "info": "Les Sailendra achèvent à Java le grand monument bouddhiste." },
     {
       "annee": 1025,
       "evenement": "Le raid indien",
-      "info": "L'empire Chola ravage 14 ports d'Indonésie, brisant le monopole naval de Srivijaya."
+      "info": "L’empire Chola attaque une quinzaine de ports de Srivijaya et capture son roi.",
+      "ref": "raid-chola-de-1025"
+    },
+    { "annee": 1377, "evenement": "Fin de l’empire", "info": "Le royaume javanais de Majapahit soumet Palembang." }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Dapunta Hyang Sri Jayanasa",
+      "titre": "Maharaja",
+      "debut": 671,
+      "fin": 702,
+      "dynastie": "maharajas",
+      "note": "fondateur connu par les inscriptions",
+      "cle": true
+    },
+    {
+      "nom": "Balaputradewa",
+      "titre": "Maharaja",
+      "debut": 850,
+      "fin": 860,
+      "dynastie": "maharajas",
+      "note": "prince Sailendra, fonde un monastère à Nalanda",
+      "cle": true
+    },
+    {
+      "nom": "Sri Chulamanivarmadeva",
+      "titre": "Maharaja",
+      "debut": 1003,
+      "fin": 1008,
+      "dynastie": "maharajas",
+      "note": "finance un temple bouddhiste en pays chola"
+    },
+    {
+      "nom": "Sangrama Vijayatunggavarman",
+      "titre": "Maharaja",
+      "debut": 1020,
+      "fin": 1025,
+      "dynastie": "maharajas",
+      "note": "capturé lors du raid chola",
+      "cle": true
     }
   ],
-  "dirigeants": [{ "titre": "Maharaja", "nom": "Balaputradewa", "debut": 850, "fin": 860 }],
-  "personnages": [],
+  "personnages": [
+    {
+      "nom": "Yijing",
+      "role": "Moine pèlerin chinois",
+      "description": "Moine chinois qui séjourne plusieurs années à Srivijaya et y étudie le sanskrit avant et après son voyage en Inde.",
+      "dates": "635 → 713",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Yijing"
+    },
+    {
+      "nom": "George Cœdès",
+      "role": "Historien",
+      "description": "Historien français qui identifie en 1918 l’existence de l’empire de Srivijaya à partir des inscriptions.",
+      "dates": "1886 → 1969",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/George_C%C5%93d%C3%A8s"
+    }
+  ],
   "guerres": [
     {
       "nom": "Invasion des Chola",
       "annee": 1025,
       "adversaires": ["Empire Chola (Inde du Sud)"],
       "allies": [],
-      "morts": "Effondrement économique du réseau",
+      "morts": "Inconnues",
       "vainqueur": "Empire Chola",
-      "consequences": "Exaspérés par les taxes de Srivijaya, les navires de guerre de l'Inde du sud attaquent par surprise et pillent la capitale, marquant le déclin de l'Indonésie médiévale.",
+      "consequences": "La flotte Chola pille les ports de Srivijaya et capture son roi. L’empire perd son monopole sur les détroits et décline.",
       "wikiUrl": "https://fr.wikipedia.org/wiki/Srivijaya"
     }
   ],
-  "sciences": "Empire de navigateurs d'élite, ils utilisent des 'outriggers' (bateaux à balanciers) cousus avec de la fibre de palme (sans clous de métal, qui rouilleraient sous les tropiques). Ils maîtrisent parfaitement la complexe logistique des vents de mousson, stockant les marchandises chinoises et indiennes dans d'énormes entrepôts pendant les mois d'attente du changement de vent.",
-  "croyancesText": "L'État parraine lourdement le bouddhisme, surtout mahayana (avec des éléments tantriques). Palembang devient le centre international obligatoire où les moines de l'Inde orientale, du Tibet et de la Chine viennent séjourner des années pour y étudier la traduction des écritures sacrées sanskrites avant de continuer leur voyage mystique.",
-  "diplomatie": "C'est une thalassocratie (puissance maritime). Srivijaya dispose de peu de terres agricoles et tire l'essentiel de sa richesse du commerce. Ses flottes contrôlent les détroits de Malacca et de la Sonde et incitent les navires marchands circulant entre la Perse, l'Inde et la Chine à faire escale dans ses ports, où ils paient des taxes.",
-  "documentaires": [{ "titre": "L'Empire marchand de Srivijaya", "url": "https://fr.wikipedia.org/wiki/Srivijaya" }]
+  "sciences": "Les marins de Srivijaya maîtrisent la navigation entre l’Inde et la Chine grâce aux vents de mousson. Leurs navires sont faits de planches assemblées par des chevilles de bois et des liens végétaux. Les ports servent d’entrepôts où l’on attend le changement de vent, et où l’on étudie aussi le sanskrit et les textes bouddhistes.",
+  "croyancesText": "Les maharajas protègent le bouddhisme, surtout mahayana, avec des éléments tantriques. Palembang accueille des moines venus de Chine, d’Inde et d’autres régions d’Asie, qui y étudient le sanskrit et les textes sacrés. Les inscriptions royales mêlent formules bouddhistes et malédictions contre les traîtres.",
+  "diplomatie": "C’est une thalassocratie (puissance maritime). Srivijaya dispose de peu de terres agricoles et tire l’essentiel de sa richesse du commerce. Ses flottes contrôlent les détroits de Malacca et de la Sonde et incitent les navires marchands circulant entre la Perse, l’Inde et la Chine à faire escale dans ses ports, où ils paient des taxes. Ses rois envoient des ambassades régulières en Chine.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": {
+      "valeur": "Palembang",
+      "precision": "sur l’île de Sumatra ; le centre se déplace vers Jambi (Malayu) au XIe siècle"
+    },
+    "regimes": { "valeur": "Monarchie", "precision": "un maharaja qui obtient la fidélité des chefs locaux par des serments" },
+    "langues": { "valeur": "Vieux malais", "precision": "écrit avec un alphabet venu d’Inde ; sanskrit pour la religion" },
+    "religion": { "valeur": "Bouddhisme", "precision": "surtout mahayana, avec des éléments tantriques" },
+    "apogee": { "valeur": "VIIIe-XIe siècles" },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": { "valeur": "Monnaies d’or et d’argent", "precision": "petites pièces, et monnaies chinoises" },
+    "duree": { "valeur": "Plus de 700 ans", "precision": "avec un net déclin après 1025" },
+    "aujourdhui": {
+      "valeur": "Indonésie et Malaisie",
+      "precision": "Sumatra, péninsule Malaise, et une influence jusqu’à Java et au sud de la Thaïlande"
+    }
+  },
+  "essentiel": [
+    "Srivijaya naît à la fin du VIIe siècle autour de Palembang, sur l’île de Sumatra.",
+    "Ses flottes contrôlent les détroits de Malacca et de la Sonde, passage obligé du commerce entre l’Inde et la Chine.",
+    "Le pèlerin chinois Yijing y trouve un grand centre bouddhiste, où étudient plus de mille moines.",
+    "La dynastie Sailendra, liée à Srivijaya, bâtit à Java le temple de [[borobudur|Borobudur]].",
+    "En 1025, le [[raid-chola-de-1025|raid de la flotte Chola]] affaiblit l’empire, finalement soumis au XIVe siècle par le royaume javanais de Majapahit."
+  ],
+  "periodes": [
+    {
+      "nom": "La naissance",
+      "debut": 650,
+      "fin": 775,
+      "resume": "Le maharaja Jayanasa soumet les ports voisins et fait graver des inscriptions qui menacent de malédiction ceux qui le trahiraient.",
+      "evenements": [{ "annee": 682, "evenement": "Inscription de Kedukan Bukit" }]
+    },
+    {
+      "nom": "L’apogée",
+      "debut": 775,
+      "fin": 1025,
+      "resume": "Srivijaya domine le commerce des détroits et s’allie aux Sailendra de Java. Ses rois financent des monastères jusqu’en Inde.",
+      "evenements": [
+        { "annee": 825, "evenement": "Borobudur" },
+        { "annee": 860, "evenement": "Monastère fondé à Nalanda (Inde) par Balaputradewa" }
+      ]
+    },
+    {
+      "nom": "Le déclin",
+      "debut": 1025,
+      "fin": 1377,
+      "resume": "Après le raid Chola, le centre se déplace vers Jambi. D’autres ports et royaumes concurrents s’affirment, jusqu’à la conquête javanaise.",
+      "evenements": [
+        { "annee": 1025, "evenement": "Raid Chola", "ref": "raid-chola-de-1025" },
+        { "annee": 1377, "evenement": "Conquête par Majapahit" }
+      ]
+    }
+  ],
+  "dynasties": [
+    {
+      "id": "maharajas",
+      "nom": "Les maharajas de Srivijaya",
+      "debut": 671,
+      "fin": 1030,
+      "note": "Seuls quelques souverains sont connus, par des inscriptions ; dates approximatives."
+    }
+  ],
+  "societe": "Le maharaja s’appuie sur des chefs locaux liés par serment, des marchands et des marins, souvent des Orang Laut, peuple de la mer. Des communautés étrangères (Indiens, Chinois, Arabes) vivent dans les ports.",
+  "economie": "Commerce et taxes portuaires, épices, camphre, résines, bois précieux et or de Sumatra.",
+  "decouvertes": ["borobudur"],
+  "arts": "Statues de bouddhas et de bodhisattvas en bronze et en pierre, stupas, et, à Java, le grand monument de Borobudur des Sailendra.",
+  "quotidien": "À Palembang, une grande partie de la population vit sur des radeaux et des maisons sur pilotis le long du fleuve Musi, selon les voyageurs chinois.",
+  "heritage": [
+    {
+      "titre": "La langue malaise",
+      "texte": "Les inscriptions de Srivijaya sont parmi les plus anciens textes en malais, ancêtre de l’indonésien et du malais actuels."
+    },
+    {
+      "titre": "Un symbole national",
+      "texte": "L’Indonésie voit dans Srivijaya l’un de ses premiers grands États."
+    }
+  ],
+  "aSavoir": [
+    "On a longtemps ignoré l’existence de Srivijaya : il a été redécouvert au XXe siècle grâce à des inscriptions et aux textes chinois."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Srivijaya",
+    { "titre": "Encyclopædia Britannica — Srivijaya", "url": "https://www.britannica.com/place/Srivijaya-empire" }
+  ]
 }

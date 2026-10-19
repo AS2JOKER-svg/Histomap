@@ -1,0 +1,19 @@
+{
+  "id": "raid-chola-de-1025",
+  "nom": "Raid chola contre Srivijaya",
+  "annee": 1025,
+  "dates": "1025",
+  "lieu": "Détroit de Malacca (Sumatra et péninsule Malaise)",
+  "description": "La flotte du roi Chola Rajendra Ier traverse le golfe du Bengale et attaque les ports de l’empire de Srivijaya, dont elle capture le roi.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Une inscription du temple de Thanjavur énumère une quinzaine de ports pris et pillés, de Sumatra à la péninsule Malaise."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Srivijaya perd son monopole sur les détroits et décline lentement ; les marchands tamouls y gagnent un accès plus libre au commerce avec la Chine."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Invasion_Chola_de_Sriwijaya"
+}

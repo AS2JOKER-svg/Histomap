@@ -1,0 +1,17 @@
+{
+  "id": "al-bakri",
+  "nom": "Al-Bakri",
+  "nomComplet": "Abu Ubayd al-Bakri",
+  "role": "Géographe andalou",
+  "roles": ["Géographe", "Écrivain"],
+  "dates": "vers 1014 → 1094",
+  "naissance": 1014,
+  "mort": 1094,
+  "description": "Géographe d’al-Andalus qui rassemble, dans son Livre des routes et des royaumes (1068), les récits de voyageurs et de marchands. Il laisse la plus précieuse description de l’empire du Ghana.",
+  "essentiel": [
+    "Il n’a jamais voyagé en Afrique de l’Ouest : il interroge les marchands et utilise des archives de Cordoue.",
+    "Il décrit la capitale double du Ghana, la cour du roi Tunka Manin et le commerce de l’or et du sel.",
+    "Son œuvre est aussi une source majeure sur l’Afrique du Nord de son temps."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Al-Bakri"
+}

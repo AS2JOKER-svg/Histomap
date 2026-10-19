@@ -11,49 +11,162 @@
   "row": 1,
   "isRiver": false,
   "capitale": "Koumbi Saleh",
-  "description": "Le 'Pays de l'Or'. Premier grand empire subsaharien s'enrichissant en taxant le commerce caravanier transsaharien.",
+  "description": "Le Wagadou, que les auteurs arabes appellent Ghana : un royaume soninké du Sahel, enrichi par le commerce de l’or et du sel entre l’Afrique de l’Ouest et le monde musulman.",
   "territories": ["Empire of Ghana", "Ghana"],
   "datesCles": [
     {
+      "annee": 800,
+      "evenement": "Le « pays de l’or »",
+      "info": "L’astronome al-Fazari est le premier auteur arabe à mentionner le Ghana, « pays de l’or »."
+    },
+    {
       "annee": 1068,
-      "evenement": "Description d'al-Bakri",
-      "info": "Le géographe andalou décrit la cour royale : le roi siège couvert d'or massif."
+      "evenement": "Description d’al-Bakri",
+      "info": "Le géographe andalou décrit la cour royale : le roi siège couvert d’or."
     },
     {
       "annee": 1076,
       "evenement": "Attaque almoravide",
-      "info": "Selon des auteurs arabes plus tardifs, les Almoravides, venus de l'actuelle Mauritanie, prennent la capitale (un épisode débattu par les historiens)."
+      "info": "Selon des auteurs arabes plus tardifs, les Almoravides, venus de l’actuelle Mauritanie, prennent la capitale (un épisode débattu par les historiens)."
     },
     {
-      "annee": 1240,
-      "evenement": "L'annexion",
-      "info": "Les ruines du royaume sont absorbées par un nouvel empire émergeant : le Mali."
-    }
+      "annee": 1203,
+      "evenement": "Domination du Sosso",
+      "info": "Le royaume de Sosso de Soumaoro Kanté s’empare de la capitale."
+    },
+    { "annee": 1240, "evenement": "L’annexion", "info": "Les restes du royaume sont absorbés par l’empire du Mali." }
   ],
   "dirigeants": [
     {
-      "titre": "Kaya Magan (Roi de l'Or)",
+      "nom": "Basi",
+      "titre": "Roi (ghana)",
+      "debut": 1040,
+      "fin": 1062,
+      "dynastie": "wagadou",
+      "note": "oncle maternel de Tunka Manin ; dates approximatives"
+    },
+    {
       "nom": "Tunka Manin",
-      "surnom": "Début de règne en 1063, fin de règne inconnue",
-      "debut": 1063,
-      "fin": 1076
+      "titre": "Roi (ghana)",
+      "debut": 1062,
+      "fin": 1076,
+      "dynastie": "wagadou",
+      "note": "décrit par al-Bakri ; fin de règne inconnue",
+      "cle": true
     }
   ],
-  "personnages": [],
+  "personnages": [
+    {
+      "nom": "Al-Bakri",
+      "role": "Géographe andalou",
+      "description": "Sans jamais avoir quitté al-Andalus, il rassemble les récits des marchands et décrit le Ghana avec précision en 1068.",
+      "dates": "vers 1014 → 1094",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Al-Bakri",
+      "ref": "al-bakri"
+    },
+    {
+      "nom": "Soumaoro Kanté",
+      "role": "Roi du Sosso",
+      "description": "Roi forgeron du Sosso, il domine les terres de l’ancien Ghana avant d’être vaincu par Soundiata Keïta, fondateur du Mali.",
+      "dates": "mort vers 1235",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Soumaoro_Kant%C3%A9"
+    }
+  ],
   "guerres": [
     {
       "nom": "Guerre Almoravide",
       "annee": 1076,
-      "adversaires": ["Mouvement Almoravide"],
+      "adversaires": ["Almoravides"],
       "allies": [],
-      "morts": "Inconnu",
+      "morts": "Inconnues",
       "vainqueur": "Almoravides",
       "consequences": "Selon des sources arabes plus tardives (épisode débattu), chute de la capitale Koumbi Saleh. Le contrôle des routes de l'or est déstabilisé, fragmentant l'empire du Wagadou en petites principautés vassales.",
       "wikiUrl": "https://fr.wikipedia.org/wiki/Empire_du_Ghana"
     }
   ],
-  "sciences": "Ils ne produisent pas d'or, ils le prélèvent en transit. L'ingénierie de l'État repose sur l'invention de la douane impériale. Ils s'installent à la lisière absolue du désert du Sahara, là où les caravaniers nord-africains (venant d'arriver avec du sel et du cuivre) sont obligés de s'arrêter. Les fonctionnaires du roi prélèvent un impôt lourd sur chaque charge de dromadaire entrant et sortant du royaume.",
-  "croyancesText": "L'État est divisé en deux villes parallèles séparées de dix kilomètres : la ville royale, pratiquant la religion animiste traditionnelle (selon la légende soninké du Wagadou, le serpent Bida garantissait la prospérité et l'or du pays) et la ville marchande, habitée par des marchands musulmans, souvent arabo-berbères, dotée de nombreuses mosquées.",
-  "diplomatie": "Le pouvoir royal réside dans le monopole : toute pépite d'or brute trouvée sur le territoire appartient au roi, les marchands ne pouvant faire commerce que de poudre d'or. L'armée impériale, très lourdement armée grâce à la maîtrise de la fonte du fer, comptait selon les chroniqueurs jusqu'à 200 000 fantassins pour maintenir la paix commerciale sur l'immense savane.",
-  "documentaires": [{ "titre": "Le Ghana, pays de l'or", "url": "https://fr.wikipedia.org/wiki/Empire_du_Ghana" }]
+  "sciences": "Le Ghana ne produit pas lui-même l’or : il est extrait plus au sud, dans les régions du Bambouk et du Bouré. Le royaume s’enrichit en contrôlant son passage. Selon al-Bakri, le roi prélève un dinar d’or sur chaque charge de sel qui entre dans le pays, et deux sur chaque charge qui en sort. Les forgerons, très considérés, fabriquent outils et armes en fer.",
+  "croyancesText": "Selon al-Bakri, la capitale est formée de deux villes à une dizaine de kilomètres l’une de l’autre : celle du roi, où l’on pratique la religion traditionnelle, avec des bois sacrés gardés par des prêtres, et celle des marchands musulmans, qui compte douze mosquées. La légende soninké du Wagadou raconte que le serpent Bida garantissait la prospérité et l’or du pays en échange d’un sacrifice.",
+  "diplomatie": "Le roi tire son pouvoir du contrôle de l’or : selon al-Bakri, toutes les pépites trouvées dans le royaume lui reviennent, les marchands ne pouvant vendre que la poudre d’or. Il emploie des musulmans comme interprètes et ministres. Al-Bakri affirme qu’il peut lever 200 000 guerriers, dont 40 000 archers, un chiffre sans doute exagéré.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": { "valeur": "Koumbi Saleh (probablement)", "precision": "dans le sud-est de l’actuelle Mauritanie" },
+    "regimes": {
+      "valeur": "Monarchie",
+      "precision": "le roi porte le titre de « ghana » ; la succession passe au fils de la sœur du roi"
+    },
+    "langues": { "valeur": "Soninké", "precision": "les textes qui en parlent sont arabes" },
+    "religion": {
+      "valeur": "Religion traditionnelle, puis islam",
+      "precision": "le roi garde la religion traditionnelle ; les marchands sont musulmans"
+    },
+    "apogee": { "valeur": "XIe siècle", "precision": "décrit par le géographe al-Bakri en 1068" },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": { "valeur": "Poudre d’or, sel, cuivre", "precision": "pas de pièces locales" },
+    "duree": { "valeur": "Plus de 700 ans", "precision": "origines mal connues" },
+    "aujourdhui": { "valeur": "Mauritanie et Mali", "precision": "le Ghana actuel, plus au sud, a seulement repris son nom" }
+  },
+  "essentiel": [
+    "Le royaume du Wagadou, appelé Ghana par les Arabes, contrôle le Sahel entre le Sénégal et le Niger.",
+    "Il s’enrichit en taxant le [[commerce-transsaharien|commerce transsaharien]] : l’or du sud contre le sel du Sahara.",
+    "Le géographe andalou [[al-bakri|al-Bakri]] décrit en 1068 un roi couvert d’or et une capitale à deux villes, dont les ruines sont peut-être celles de [[koumbi-saleh|Koumbi Saleh]].",
+    "À la fin du XIe siècle, le royaume est attaqué par les Almoravides, une conquête dont l’ampleur est débattue.",
+    "Affaibli, il est dominé par le royaume de Sosso, puis absorbé par l’empire du Mali au XIIIe siècle."
+  ],
+  "periodes": [
+    {
+      "nom": "Les origines",
+      "debut": 500,
+      "fin": 800,
+      "resume": "Des communautés soninké du Sahel s’organisent en royaume, sans doute grâce au commerce avec le Sahara, qui se développe avec le chameau."
+    },
+    {
+      "nom": "Le royaume de l’or",
+      "debut": 800,
+      "fin": 1076,
+      "resume": "Le Ghana contrôle les routes de l’or. Les auteurs arabes vantent sa richesse ; al-Bakri décrit la cour en 1068.",
+      "evenements": [{ "annee": 1068, "evenement": "Description d’al-Bakri" }]
+    },
+    {
+      "nom": "Le déclin",
+      "debut": 1076,
+      "fin": 1240,
+      "resume": "Les Almoravides, la sécheresse et le déplacement des routes de l’or affaiblissent le royaume, dominé par le Sosso puis absorbé par le Mali.",
+      "evenements": [
+        { "annee": 1076, "evenement": "Attaque almoravide (débattue)" },
+        { "annee": 1240, "evenement": "Annexion par le Mali" }
+      ]
+    }
+  ],
+  "dynasties": [
+    {
+      "id": "wagadou",
+      "nom": "Rois du Wagadou",
+      "debut": 1040,
+      "fin": 1076,
+      "note": "Seuls deux rois sont connus avec certitude, par al-Bakri. Les traditions soninké citent un fondateur légendaire, Dinga ou Kaya Maghan."
+    }
+  ],
+  "societe": "Le roi, entouré de dignitaires et de ses gardes, rend la justice en public. La succession se fait par les femmes : c’est le fils de la sœur du roi qui hérite. Agriculteurs, éleveurs, forgerons et marchands forment la population.",
+  "economie": "Contrôle du commerce de l’or vers le nord et du sel vers le sud, agriculture (mil, sorgho), élevage, artisanat du fer et du cuivre.",
+  "decouvertes": ["commerce-transsaharien", "koumbi-saleh"],
+  "arts": "Les fouilles de Koumbi Saleh ont révélé des maisons de pierre, des poteries et des objets de verre et de cuivre importés du nord.",
+  "quotidien": "Selon al-Bakri, le roi reçoit ses sujets assis sous un pavillon entouré de chevaux harnachés d’or et de chiens portant des colliers d’or et d’argent.",
+  "heritage": [
+    {
+      "titre": "Un nom repris",
+      "texte": "À son indépendance en 1957, la Gold Coast britannique prend le nom de Ghana en hommage à cet empire, bien qu’elle soit située plus au sud."
+    },
+    {
+      "titre": "Les Soninké",
+      "texte": "Les descendants des Soninké vivent aujourd’hui au Mali, en Mauritanie et au Sénégal et gardent les récits du Wagadou."
+    }
+  ],
+  "aSavoir": ["L’identification de Koumbi Saleh comme capitale du Ghana est probable, mais pas absolument certaine."],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Empire_du_Ghana",
+    {
+      "titre": "Encyclopædia Britannica — Ghana empire",
+      "url": "https://www.britannica.com/place/Ghana-historical-West-African-empire"
+    }
+  ]
 }

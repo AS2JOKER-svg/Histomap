@@ -1,0 +1,19 @@
+{
+  "id": "jayavarman-vii",
+  "nom": "Jayavarman VII",
+  "role": "Roi khmer",
+  "roles": ["Roi", "Bâtisseur"],
+  "dates": "vers 1122 → 1218",
+  "naissance": 1122,
+  "mort": 1218,
+  "description": "Roi qui libère Angkor de l’occupation des Chams, devient le plus grand bâtisseur de l’empire et fait du bouddhisme la religion de la cour.",
+  "reperes": [{ "label": "Règne", "valeur": "1181 → vers 1218" }],
+  "essentiel": [
+    "Après le [[sac-d-angkor|sac de 1177]], il chasse les Chams et se fait couronner en 1181.",
+    "Il bâtit la ville fortifiée d’Angkor Thom et le temple du Bayon, aux tours couvertes de visages.",
+    "Selon ses inscriptions, il fait construire plus de 100 hôpitaux et 121 gîtes d’étape le long des routes.",
+    "Il conquiert le Champa."
+  ],
+  "aSavoir": ["Beaucoup pensent que les visages du Bayon le représentent sous les traits d’un bodhisattva."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Jayavarman_VII"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "proclamation-de-l-empire-allemand",
+  "nom": "Proclamation de l’Empire allemand",
+  "annee": 1871,
+  "dates": "18 janvier 1871",
+  "lieu": "Galerie des Glaces, château de Versailles",
+  "description": "Pendant le siège de Paris, le roi de Prusse Guillaume Ier est proclamé empereur allemand dans le château de Versailles : l’Allemagne est unifiée.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "La France, humiliée, perd l’Alsace et la Moselle. En 1919, l’Allemagne vaincue devra signer le traité de paix dans la même galerie des Glaces."
+    }
+  ],
+  "liens": [{ "ref": "otto-von-bismarck", "relation": "L’artisan de l’unification" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Reich_allemand"
+}

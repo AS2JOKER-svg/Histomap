@@ -290,6 +290,21 @@ for (const [id, { file, data: civ }] of content.civs) {
     if (l.dynastie !== undefined && !dynastyIds.has(l.dynastie)) err(lw, `dynastie « ${l.dynastie} » absente de « dynasties »`)
     expectEntity(w, l.personne, 'personne', `dirigeant « ${l.nom} »`)
   }
+  // Questions du quiz sur les dirigeants clés (src/lib/quiz.js) : « qui gouverne de X à Y ? » et
+  // « classez du plus ancien au plus récent » (4 premiers) ne doivent pas avoir deux bonnes réponses
+  const keyLeaders = (civ.dirigeants ?? []).filter((l) => l.cle)
+  const quizLeaders = keyLeaders.length ? keyLeaders : (civ.dirigeants ?? [])
+  const reigns = new Map()
+  for (const l of quizLeaders) {
+    const k = `${l.debut}→${l.fin}`
+    if (reigns.has(k) && reigns.get(k) !== l.nom) warn(w, `dirigeants « ${reigns.get(k)} » et « ${l.nom} » : mêmes dates (${k}), la question « qui gouverne ? » serait ambiguë`)
+    reigns.set(k, l.nom)
+  }
+  if (quizLeaders.length >= 3) {
+    const firsts = [...quizLeaders].sort((a, b) => a.debut - b.debut).slice(0, 4)
+    if (new Set(firsts.map((l) => l.debut)).size < firsts.length)
+      warn(w, `dirigeants clés : deux des quatre premiers commencent la même année (${firsts.map((l) => `${l.nom} ${l.debut}`).join(', ')}), la question « classez-les » serait ambiguë`)
+  }
   for (const p of civ.personnages ?? []) {
     const pw = `${w} (personnage « ${p.nom ?? '?'} »)`
     onlyFields(pw, p, ['nom', 'role', 'description', 'dates', 'wikiUrl', 'ref'])

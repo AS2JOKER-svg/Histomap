@@ -1,0 +1,21 @@
+{
+  "id": "congres-de-vienne",
+  "nom": "Congrès de Vienne",
+  "annee": 1815,
+  "fin": 1815,
+  "dates": "septembre 1814 → juin 1815",
+  "lieu": "Vienne",
+  "description": "Après la défaite de Napoléon, les grandes puissances (Autriche, Royaume-Uni, Russie, Prusse, puis France) redessinent la carte de l’Europe.",
+  "sections": [
+    {
+      "titre": "Ce qu’il décide",
+      "texte": "Les monarchies sont restaurées, la France revient à ses frontières de 1792, et un équilibre est recherché entre les grandes puissances. Les aspirations des peuples (Italiens, Polonais, Allemands) sont ignorées."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "L’Europe connaît une longue période sans guerre générale, mais les nationalismes et les révolutions de 1830 et 1848 remettent cet ordre en cause."
+    }
+  ],
+  "liens": [{ "ref": "metternich", "relation": "Il préside le congrès" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Congr%C3%A8s_de_Vienne"
+}

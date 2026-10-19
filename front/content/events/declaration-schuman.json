@@ -1,0 +1,21 @@
+{
+  "id": "declaration-schuman",
+  "nom": "Déclaration Schuman",
+  "annee": 1950,
+  "dates": "9 mai 1950",
+  "lieu": "Paris (Quai d’Orsay)",
+  "description": "[[robert-schuman|Robert Schuman]] propose de placer la production de charbon et d’acier de la France et de l’Allemagne sous une autorité commune, ouverte aux autres pays.",
+  "sections": [
+    {
+      "titre": "Pourquoi",
+      "texte": "Le charbon et l’acier servent à fabriquer des armes : les mettre en commun rend la guerre entre la France et l’Allemagne « matériellement impossible »."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Six pays fondent la CECA en 1951. Le 9 mai est devenu la journée de l’Europe."
+    }
+  ],
+  "liens": [{ "ref": "robert-schuman", "relation": "Il la prononce" }, { "ref": "jean-monnet", "relation": "Il l’a préparée" }],
+  "apres": "traite-de-rome",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/D%C3%A9claration_Schuman"
+}

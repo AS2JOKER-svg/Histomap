@@ -448,5 +448,13 @@
   "Bataille de Trafalgar": {
     "coords": [-6.03, 36.18],
     "lieu": "Cap Trafalgar (Espagne)"
+  },
+  "Guerre franco-allemande de 1870": {
+    "coords": [4.94, 49.7],
+    "lieu": "Sedan"
+  },
+  "Campagne de Russie": {
+    "coords": [37.62, 55.75],
+    "lieu": "Moscou"
   }
 }

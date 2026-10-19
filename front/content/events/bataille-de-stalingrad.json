@@ -1,0 +1,20 @@
+{
+  "id": "bataille-de-stalingrad",
+  "nom": "Bataille de Stalingrad",
+  "annee": 1942,
+  "fin": 1943,
+  "dates": "juillet 1942 → 2 février 1943",
+  "lieu": "Stalingrad (Volgograd)",
+  "description": "L’armée allemande attaque la ville de Stalingrad, sur la Volga. Après des mois de combats de rue, l’Armée rouge encercle et oblige l’armée allemande à capituler.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "La ville est presque entièrement détruite. En novembre 1942, une contre-offensive soviétique encercle la 6e armée allemande, qui capitule en février 1943."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "C’est l’une des batailles les plus meurtrières de l’histoire, avec peut-être 1 à 2 millions de victimes. Elle marque le tournant de la guerre à l’est."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Stalingrad"
+}

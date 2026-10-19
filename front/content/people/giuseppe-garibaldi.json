@@ -1,0 +1,18 @@
+{
+  "id": "giuseppe-garibaldi",
+  "nom": "Giuseppe Garibaldi",
+  "role": "Héros de l’unification italienne",
+  "roles": ["Révolutionnaire", "Général"],
+  "dates": "1807 → 1882",
+  "naissance": 1807,
+  "mort": 1882,
+  "description": "Révolutionnaire qui combat pour l’unité et la liberté de l’Italie, et aussi en Amérique du Sud ; avec les « Mille », il conquiert la Sicile et le royaume de Naples.",
+  "essentiel": [
+    "Condamné à mort pour un complot, il s’exile en Amérique du Sud.",
+    "En 1860, l’[[expedition-des-mille|expédition des Mille]] lui permet de conquérir le sud de l’Italie.",
+    "Il remet ses conquêtes au roi Victor-Emmanuel II.",
+    "Il combat aussi aux côtés de la France en 1870-1871."
+  ],
+  "aSavoir": ["On l’appelle le « héros des deux mondes », comme La Fayette."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Giuseppe_Garibaldi"
+}

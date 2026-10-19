@@ -1,0 +1,15 @@
+{
+  "id": "chute-du-mur-de-berlin",
+  "nom": "Chute du mur de Berlin",
+  "annee": 1989,
+  "dates": "9 novembre 1989",
+  "lieu": "Berlin",
+  "description": "Sous la pression des manifestations et de l’exode de ses habitants, la RDA ouvre la frontière ; les Berlinois franchissent et commencent à démolir le mur qui coupait la ville depuis 1961.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "Le régime communiste de RDA s’effondre ; l’Allemagne est réunifiée le 3 octobre 1990. C’est le symbole de la fin de la guerre froide en Europe."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Chute_du_mur_de_Berlin"
+}

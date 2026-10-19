@@ -88,6 +88,7 @@ Le site ne lit jamais ces fichiers directement : `scripts/build-content.mjs` les
 - `documentaires` : les anciens liens portaient des titres d'émissions mais pointaient tous vers Wikipédia. Ne plus en
   ajouter : mettre les références dans `sources` (liste vide `[]` dans les fiches mises à niveau).
 - Régime sans chef unique (République romaine, cités marchandes…) : l'expliquer dans `note` et ne lister que les grandes figures.
+- Dirigeants clés : deux d'entre eux ne doivent pas avoir les mêmes dates, et les quatre plus anciens doivent commencer des années différentes (sinon les questions « qui gouverne ? » et « classez-les » auraient deux bonnes réponses ; le validateur prévient).
 - `surnom` : uniquement un vrai surnom historique (« le Chauve », « Barberousse ») ; le quiz demande « Quel est le surnom de… ? ».
 - `sciences`, `croyancesText`, `diplomatie` : le quiz cite leur **première phrase** (« à quelle civilisation correspond ce
   passage ? ») ; elle doit faire au moins 40 caractères et ne pas citer le nom de la civilisation (le validateur prévient).

@@ -1,0 +1,18 @@
+{
+  "id": "jean-monnet",
+  "nom": "Jean Monnet",
+  "role": "Inspirateur de la construction européenne",
+  "roles": ["Haut fonctionnaire", "Homme d’affaires"],
+  "dates": "1888 → 1979",
+  "naissance": 1888,
+  "mort": 1979,
+  "description": "Négociant en cognac devenu haut fonctionnaire, il inspire le projet de la CECA et consacre sa vie à l’unification de l’Europe.",
+  "essentiel": [
+    "Il organise la coordination économique des Alliés pendant les deux guerres mondiales.",
+    "Il prépare le texte de la [[declaration-schuman|déclaration Schuman]].",
+    "Il préside la Haute Autorité de la CECA (1952-1955).",
+    "Il repose au Panthéon depuis 1988."
+  ],
+  "liens": [{ "ref": "robert-schuman", "relation": "Son partenaire politique" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Jean_Monnet"
+}

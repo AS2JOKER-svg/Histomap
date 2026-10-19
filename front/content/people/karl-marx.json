@@ -1,0 +1,16 @@
+{
+  "id": "karl-marx",
+  "nom": "Karl Marx",
+  "role": "Philosophe et économiste",
+  "roles": ["Philosophe", "Économiste", "Journaliste"],
+  "dates": "1818 → 1883",
+  "naissance": 1818,
+  "mort": 1883,
+  "description": "Penseur allemand qui analyse le capitalisme et annonce une révolution des ouvriers ; ses idées inspirent le socialisme et les régimes communistes du XXe siècle.",
+  "essentiel": [
+    "Avec Friedrich Engels, il publie en 1848 le Manifeste du parti communiste.",
+    "Exilé à Londres, il écrit Le Capital (1867).",
+    "Il voit l’histoire comme une lutte entre classes sociales."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Karl_Marx"
+}

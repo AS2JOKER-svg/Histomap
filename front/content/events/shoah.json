@@ -1,0 +1,26 @@
+{
+  "id": "shoah",
+  "nom": "La Shoah",
+  "annee": 1941,
+  "fin": 1945,
+  "dates": "1941 → 1945",
+  "lieu": "Europe occupée par l’Allemagne nazie",
+  "description": "L’extermination systématique des Juifs d’Europe par l’Allemagne nazie et ses complices : environ six millions de personnes assassinées.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Après des années de persécutions, les nazis massacrent par balles les Juifs d’Europe de l’Est à partir de 1941, puis organisent la déportation vers des centres de mise à mort, comme Auschwitz-Birkenau, où les victimes sont assassinées dans des chambres à gaz."
+    },
+    {
+      "titre": "Les victimes",
+      "texte": "Environ six millions de Juifs, dont plus d’un million d’enfants, sont tués. Les nazis assassinent aussi des centaines de milliers de Roms et de personnes handicapées."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Après la guerre, des responsables sont jugés à Nuremberg. La notion de « génocide » est définie dans le droit international (1948)."
+    }
+  ],
+  "liens": [{ "ref": "adolf-hitler", "relation": "Principal responsable" }],
+  "aSavoir": ["« Shoah » signifie « catastrophe » en hébreu."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Shoah"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "robert-schuman",
+  "nom": "Robert Schuman",
+  "role": "Ministre des Affaires étrangères",
+  "roles": ["Homme politique"],
+  "dates": "1886 → 1963",
+  "naissance": 1886,
+  "mort": 1963,
+  "description": "Homme politique français né au Luxembourg et élevé en Lorraine allemande, il propose le 9 mai 1950 de mettre en commun le charbon et l’acier franco-allemands.",
+  "essentiel": [
+    "Ministre des Affaires étrangères de 1948 à 1952.",
+    "Sa [[declaration-schuman|déclaration du 9 mai 1950]] est l’acte de naissance de la construction européenne.",
+    "Il préside ensuite l’Assemblée parlementaire européenne (1958-1960)."
+  ],
+  "liens": [{ "ref": "jean-monnet", "relation": "L’inspirateur du projet" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Robert_Schuman"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "simone-veil",
+  "nom": "Simone Veil",
+  "role": "Femme politique",
+  "roles": ["Magistrate", "Ministre", "Présidente du Parlement européen"],
+  "dates": "1927 → 2017",
+  "naissance": 1927,
+  "mort": 2017,
+  "description": "Rescapée d’Auschwitz, ministre de la Santé, elle fait voter en 1975 la loi sur l’IVG, puis devient la première présidente du Parlement européen élu.",
+  "essentiel": [
+    "Déportée à 16 ans, elle perd sa mère, son père et son frère dans la Shoah.",
+    "Ministre de la Santé, elle défend la loi dépénalisant l’avortement (1975).",
+    "Elle préside le Parlement européen de 1979 à 1982.",
+    "Elle entre au Panthéon en 2018."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Simone_Veil"
+}

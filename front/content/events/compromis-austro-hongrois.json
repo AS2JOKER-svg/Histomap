@@ -1,0 +1,20 @@
+{
+  "id": "compromis-austro-hongrois",
+  "nom": "Compromis austro-hongrois",
+  "annee": 1867,
+  "dates": "1867",
+  "lieu": "Vienne et Budapest",
+  "description": "Après la défaite contre la Prusse, l’empereur accorde à la Hongrie une large autonomie : l’empire devient la « double monarchie » d’Autriche-Hongrie.",
+  "sections": [
+    {
+      "titre": "Ce qu’il prévoit",
+      "texte": "L’Autriche et la Hongrie ont chacune leur parlement et leur gouvernement ; elles partagent l’empereur-roi, l’armée, la diplomatie et les finances communes."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Les Hongrois sont satisfaits, mais les autres peuples, notamment les Tchèques et les Slaves du Sud, réclament les mêmes droits."
+    }
+  ],
+  "liens": [{ "ref": "francois-joseph", "relation": "L’empereur-roi" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Compromis_austro-hongrois"
+}

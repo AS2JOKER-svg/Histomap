@@ -1,0 +1,16 @@
+{
+  "id": "iouri-gagarine",
+  "nom": "Iouri Gagarine",
+  "role": "Cosmonaute",
+  "roles": ["Pilote", "Cosmonaute"],
+  "dates": "1934 → 1968",
+  "naissance": 1934,
+  "mort": 1968,
+  "description": "Pilote soviétique qui devient, le 12 avril 1961, le premier être humain à voyager dans l’espace, en faisant le tour de la Terre en 108 minutes.",
+  "essentiel": [
+    "Fils de paysans, il devient pilote de chasse.",
+    "À bord de Vostok 1, il effectue une orbite complète autour de la Terre.",
+    "Devenu un héros mondial, il meurt dans un accident d’avion en 1968."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Iouri_Gagarine"
+}

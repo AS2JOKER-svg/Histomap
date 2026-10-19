@@ -10,70 +10,366 @@
   "row": 3,
   "isRiver": false,
   "capitale": "Berlin (Bonn pendant scission)",
-  "description": "Unification fulgurante par le sang et le fer, effondrement dans l'abysse génocidaire nazi, puis renaissance en tant que moteur démocratique et économique de l'Europe.",
+  "description": "L’Allemagne unifiée en 1871 : un empire puissant, une république fragile, la dictature nazie responsable de la Seconde Guerre mondiale et de la Shoah, puis deux États séparés, réunifiés en 1990 au cœur de l’Europe.",
   "territories": ["Germany", "German Empire"],
   "datesCles": [
     {
       "annee": 1871,
-      "evenement": "L'Unification",
-      "info": "Bismarck fonde l'Empire allemand (IIe Reich) dans la Galerie des Glaces à Versailles."
+      "evenement": "L’unification",
+      "info": "Le roi de Prusse est proclamé empereur allemand dans la galerie des Glaces de Versailles.",
+      "ref": "proclamation-de-l-empire-allemand"
+    },
+    {
+      "annee": 1919,
+      "evenement": "République de Weimar",
+      "info": "Après la défaite, une république démocratique est proclamée ; le traité de Versailles impose de lourdes réparations."
     },
     {
       "annee": 1933,
-      "evenement": "La Tragédie",
-      "info": "La crise de 1929 détruit la République de Weimar, Hitler est nommé chancelier légalement par le président Hindenburg (janvier 1933)."
+      "evenement": "Hitler au pouvoir",
+      "info": "La crise de 1929 fragilise la république ; Hitler est nommé chancelier par le président Hindenburg en janvier 1933 et installe la dictature."
     },
+    { "annee": 1939, "evenement": "La Seconde Guerre mondiale", "info": "L’Allemagne envahit la Pologne." },
     {
       "annee": 1945,
-      "evenement": "L'Année Zéro",
-      "info": "Le pays, en ruines totales, est vaincu, dénazifié et divisé en deux (RFA à l'ouest, RDA communiste à l'est)."
+      "evenement": "L’année zéro",
+      "info": "Le pays, en ruines, capitule ; il est occupé, dénazifié puis divisé en deux États (1949)."
+    },
+    {
+      "annee": 1961,
+      "evenement": "Le mur de Berlin",
+      "info": "La RDA construit un mur pour empêcher ses habitants de fuir à l’Ouest."
     },
     {
       "annee": 1989,
-      "evenement": "Chute du Mur de Berlin",
-      "info": "Effondrement du bloc soviétique, réunification pacifique de l'Allemagne."
+      "evenement": "Chute du mur de Berlin",
+      "info": "Le 9 novembre, le mur s’ouvre ; l’Allemagne est réunifiée le 3 octobre 1990.",
+      "ref": "chute-du-mur-de-berlin"
     }
   ],
   "dirigeants": [
-    { "titre": "Le Chancelier de Fer", "nom": "Otto von Bismarck", "debut": 1871, "fin": 1890 },
-    { "titre": "Dictateur (Führer)", "nom": "Adolf Hitler", "debut": 1933, "fin": 1945 },
-    { "titre": "Chancelière Fédérale", "nom": "Angela Merkel", "surnom": "Mutti", "debut": 2005, "fin": 2021 }
+    { "nom": "Guillaume Ier", "titre": "Empereur allemand", "debut": 1871, "fin": 1888, "dynastie": "empire", "cle": true },
+    {
+      "nom": "Otto von Bismarck",
+      "titre": "Ministre-président de Prusse, puis chancelier",
+      "surnom": "le Chancelier de fer",
+      "debut": 1862,
+      "fin": 1890,
+      "dynastie": "empire",
+      "personne": "otto-von-bismarck",
+      "note": "chancelier de l’Empire de 1871 à 1890",
+      "cle": true
+    },
+    {
+      "nom": "Frédéric III",
+      "titre": "Empereur allemand",
+      "debut": 1888,
+      "fin": 1888,
+      "dynastie": "empire",
+      "note": "règne 99 jours"
+    },
+    {
+      "nom": "Guillaume II",
+      "titre": "Empereur allemand",
+      "debut": 1888,
+      "fin": 1918,
+      "dynastie": "empire",
+      "note": "abdique en 1918",
+      "cle": true
+    },
+    { "nom": "Friedrich Ebert", "titre": "Président du Reich", "debut": 1919, "fin": 1925, "dynastie": "weimar" },
+    {
+      "nom": "Paul von Hindenburg",
+      "titre": "Président du Reich",
+      "debut": 1925,
+      "fin": 1934,
+      "dynastie": "weimar",
+      "note": "nomme Hitler chancelier"
+    },
+    {
+      "nom": "Adolf Hitler",
+      "titre": "Chancelier, puis « Führer »",
+      "debut": 1933,
+      "fin": 1945,
+      "dynastie": "nazi",
+      "personne": "adolf-hitler",
+      "note": "dictateur, responsable de la guerre et de la Shoah",
+      "cle": true
+    },
+    {
+      "nom": "Konrad Adenauer",
+      "titre": "Chancelier de la RFA",
+      "debut": 1949,
+      "fin": 1963,
+      "dynastie": "rfa",
+      "note": "premier chancelier, artisan de la réconciliation avec la France",
+      "cle": true
+    },
+    {
+      "nom": "Willy Brandt",
+      "titre": "Chancelier de la RFA",
+      "debut": 1969,
+      "fin": 1974,
+      "dynastie": "rfa",
+      "note": "prix Nobel de la paix"
+    },
+    { "nom": "Helmut Schmidt", "titre": "Chancelier de la RFA", "debut": 1974, "fin": 1982, "dynastie": "rfa" },
+    {
+      "nom": "Helmut Kohl",
+      "titre": "Chancelier",
+      "debut": 1982,
+      "fin": 1998,
+      "dynastie": "rfa",
+      "note": "chancelier de la réunification",
+      "cle": true
+    },
+    { "nom": "Gerhard Schröder", "titre": "Chancelier", "debut": 1998, "fin": 2005, "dynastie": "rfa" },
+    {
+      "nom": "Angela Merkel",
+      "titre": "Chancelière",
+      "debut": 2005,
+      "fin": 2020,
+      "dynastie": "rfa",
+      "note": "première femme chancelière ; toujours en fonction en 2020 (jusqu’en 2021)",
+      "cle": true
+    },
+    {
+      "nom": "Walter Ulbricht",
+      "titre": "Dirigeant de la RDA",
+      "debut": 1950,
+      "fin": 1971,
+      "dynastie": "rda",
+      "note": "fait construire le mur"
+    },
+    { "nom": "Erich Honecker", "titre": "Dirigeant de la RDA", "debut": 1971, "fin": 1989, "dynastie": "rda" }
   ],
   "personnages": [
     {
       "nom": "Albert Einstein",
       "role": "Physicien",
-      "description": "Révolutionne la conception de l'espace, du temps et de la gravité avec ses théories de la relativité. Fuit le nazisme en 1933.",
-      "dates": "1879 à 1955",
-      "wikiUrl": "https://fr.wikipedia.org/wiki/Albert_Einstein"
+      "description": "Auteur de la théorie de la relativité ; juif, il quitte l’Allemagne en 1933.",
+      "dates": "1879 → 1955",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Albert_Einstein",
+      "ref": "albert-einstein"
     },
     {
       "nom": "Karl Marx",
       "role": "Philosophe et économiste",
-      "description": "Co-auteur du Manifeste du parti communiste, dénonçant l'exploitation capitaliste et appelant à la révolution prolétarienne mondiale.",
-      "dates": "1818 à 1883",
-      "wikiUrl": "https://fr.wikipedia.org/wiki/Karl_Marx"
+      "description": "Penseur du communisme et critique du capitalisme, auteur du Capital.",
+      "dates": "1818 → 1883",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Karl_Marx",
+      "ref": "karl-marx"
+    },
+    {
+      "nom": "Sophie Scholl",
+      "role": "Résistante",
+      "description": "Étudiante du groupe de la Rose blanche, exécutée en 1943 pour avoir diffusé des tracts contre le régime nazi.",
+      "dates": "1921 → 1943",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Sophie_Scholl"
+    },
+    {
+      "nom": "Anne Frank",
+      "role": "Écrivaine",
+      "description": "Jeune fille juive née à Francfort, cachée à Amsterdam, morte en déportation ; son journal est lu dans le monde entier.",
+      "dates": "1929 → 1945",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Anne_Frank"
     }
   ],
   "guerres": [
+    {
+      "nom": "Guerre franco-allemande de 1870",
+      "annee": 1870,
+      "adversaires": ["Empire français (Napoléon III)"],
+      "allies": ["États allemands du Sud"],
+      "morts": "Environ 180 000 morts",
+      "vainqueur": "Prusse et ses alliés",
+      "consequences": "Napoléon III est capturé à Sedan. L’Empire allemand est proclamé, et la France perd l’Alsace et une partie de la Lorraine.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_franco-allemande_de_1870"
+    },
+    {
+      "nom": "Première Guerre mondiale (La Grande Guerre)",
+      "annee": 1914,
+      "adversaires": ["France", "Royaume-Uni", "Russie", "États-Unis"],
+      "allies": ["Autriche-Hongrie", "Empire ottoman"],
+      "morts": "Environ 10 millions de soldats tués, dont 2 millions d’Allemands",
+      "vainqueur": "La France et ses alliés",
+      "consequences": "L’Allemagne perd ses colonies et des territoires et doit payer des réparations ; l’empereur abdique.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Premi%C3%A8re_Guerre_mondiale"
+    },
+    {
+      "nom": "Guerre franco-allemande de 1870",
+      "annee": 1870,
+      "adversaires": ["Empire français (Napoléon III)"],
+      "allies": ["États allemands du Sud"],
+      "morts": "Environ 180 000 morts",
+      "vainqueur": "Prusse et ses alliés",
+      "consequences": "Napoléon III est capturé à Sedan. L’Empire allemand est proclamé, et la France perd l’Alsace et une partie de la Lorraine.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_franco-allemande_de_1870"
+    },
+    {
+      "nom": "Première Guerre mondiale (La Grande Guerre)",
+      "annee": 1914,
+      "adversaires": ["France", "Royaume-Uni", "Russie", "États-Unis"],
+      "allies": ["Autriche-Hongrie", "Empire ottoman"],
+      "morts": "Environ 10 millions de soldats tués, dont 2 millions d’Allemands",
+      "vainqueur": "La France et ses alliés",
+      "consequences": "L’Allemagne perd ses colonies et des territoires et doit payer des réparations ; l’empereur abdique.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Premi%C3%A8re_Guerre_mondiale"
+    },
+    {
+      "nom": "Guerre franco-allemande de 1870",
+      "annee": 1870,
+      "adversaires": ["Empire français (Napoléon III)"],
+      "allies": ["États allemands du Sud"],
+      "morts": "Environ 180 000 morts",
+      "vainqueur": "Prusse et ses alliés",
+      "consequences": "Napoléon III est capturé à Sedan. L’Empire allemand est proclamé, et la France perd l’Alsace et une partie de la Lorraine.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_franco-allemande_de_1870"
+    },
+    {
+      "nom": "Première Guerre mondiale (La Grande Guerre)",
+      "annee": 1914,
+      "adversaires": ["France", "Royaume-Uni", "Russie", "États-Unis"],
+      "allies": ["Autriche-Hongrie", "Empire ottoman"],
+      "morts": "Environ 10 millions de soldats tués, dont 2 millions d’Allemands",
+      "vainqueur": "La France et ses alliés",
+      "consequences": "L’Allemagne perd ses colonies et des territoires et doit payer des réparations ; l’empereur abdique.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Premi%C3%A8re_Guerre_mondiale"
+    },
     {
       "nom": "Seconde Guerre mondiale (Front de l'Est/Ouest)",
       "annee": 1939,
       "adversaires": ["URSS", "États-Unis", "Royaume-Uni", "France"],
       "allies": ["Italie fasciste", "Empire du Japon (L'Axe)"],
-      "morts": "Plus de 60 millions au total (dont la Shoah)",
+      "morts": "Plus de 60 millions de morts dans le monde, dont six millions de Juifs assassinés lors de la Shoah",
       "vainqueur": "Les Alliés",
-      "consequences": "Anéantissement du totalitarisme nazi. Début de l'ère atomique. Le monde se fracture en deux lors de la Guerre froide naissante.",
+      "consequences": "L’Allemagne nazie est vaincue en 1945. Ses dirigeants sont jugés à Nuremberg ; le pays est occupé puis divisé. Le monde entre dans la guerre froide.",
       "wikiUrl": "https://fr.wikipedia.org/wiki/Seconde_Guerre_mondiale"
     }
   ],
-  "sciences": "Génie mondial de la chimie (invention de l'aspirine, des engrais de synthèse BASF), de la physique quantique et de l'ingénierie automobile (Moteur à explosion de Benz et Daimler). Cependant, ce génie fut tragiquement exploité pendant le IIIe Reich : invention d'une terrifiante ingénierie de la mort (chambres à gaz, camps d'extermination industriels comme Auschwitz) et invention de la première fusée balistique (V2) par Wernher von Braun.",
-  "croyancesText": "Après les ravages de l'idéologie nazie axée sur le racisme pseudo-scientifique (supériorité de la race 'Aryenne') et de l'Antisémitisme génocidaire de l'État (la Shoah), l'Allemagne de l'Ouest (puis réunifiée) se refonde sur la notion indéfectible d'État de Droit, le libéralisme économique 'rhénan', l'anti-militarisme et la culpabilité historique reconnue ('Erinnerungskultur' ou culture de la mémoire).",
-  "diplomatie": "Du Weltpolitik (politique mondiale) belliqueuse du Kaiser Guillaume II menant à WWI, à l'expansionnisme vital fanatique (Lebensraum) d'Hitler déclenchant WWII, l'Allemagne s'est heurtée au monde entier. Depuis 1945, la politique étrangère (Ostpolitik) est radicalement pacifique : l'ancrage pro-européen et le pacifisme absolu priment, l'Allemagne devenant le géant économique (puissance exportatrice) de l'Union Européenne sans ses ambitions militaires.",
-  "documentaires": [
+  "sciences": "Vers 1900, l’Allemagne est à la pointe de la chimie, de l’électricité et de la physique : Wilhelm Röntgen découvre les rayons X (1895), Max Planck pose les bases de la physique quantique, Albert Einstein publie la théorie de la relativité. Carl Benz construit l’une des premières automobiles (1886). Après 1945, l’industrie automobile et mécanique fait la puissance de la RFA.",
+  "croyancesText": "L’Allemagne est partagée entre protestants, surtout au nord et à l’est, et catholiques, au sud et à l’ouest. Les Juifs allemands, bien intégrés, sont persécutés à partir de 1933 puis exterminés : c’est la Shoah. Après 1945, l’Allemagne fait un long travail de mémoire sur les crimes nazis.",
+  "diplomatie": "Bismarck isole la France et multiplie les alliances. Guillaume II cherche une « place au soleil » et entre dans une course aux armements. Hitler veut conquérir un « espace vital » à l’est. Après 1945, la RFA se réconcilie avec la France (traité de l’Élysée, 1963) et fonde la construction européenne, tandis que la RDA appartient au bloc soviétique.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": { "valeur": "Berlin", "precision": "Bonn est la capitale de l’Allemagne de l’Ouest de 1949 à 1990" },
+    "regimes": {
+      "valeur": "Empire, république, dictature, puis république fédérale",
+      "precision": "deux États de 1949 à 1990 : RFA à l’ouest, RDA communiste à l’est"
+    },
+    "langues": { "valeur": "Allemand" },
+    "religion": {
+      "valeur": "Protestantisme et catholicisme",
+      "precision": "communauté juive anéantie par la Shoah, en partie reconstituée"
+    },
+    "apogee": {
+      "valeur": "Vers 1900 et depuis 1990",
+      "precision": "grande puissance industrielle, première économie d’Europe"
+    },
+    "population": { "valeur": "Environ 83 millions en 2020", "precision": "contre 41 millions en 1871" },
+    "monnaie": { "valeur": "Mark, Deutsche Mark, puis euro" },
+    "duree": { "valeur": "Environ 150 ans dans cette fiche" },
+    "aujourdhui": { "valeur": "Allemagne", "precision": "avec, jusqu’en 1945, des territoires aujourd’hui polonais et russes" }
+  },
+  "essentiel": [
+    "En 1871, après sa victoire sur la France, la Prusse de [[otto-von-bismarck|Bismarck]] unifie l’Allemagne : c’est la [[proclamation-de-l-empire-allemand|proclamation de l’Empire]].",
+    "Vaincue en 1918, l’Allemagne devient une république fragile, frappée par la crise de 1929.",
+    "Nommé chancelier en 1933, [[adolf-hitler|Hitler]] instaure une dictature raciste, déclenche la Seconde Guerre mondiale et organise la [[shoah|Shoah]].",
+    "Après 1945, le pays est divisé : la RFA démocratique à l’ouest, la RDA communiste à l’est, séparées par le mur de Berlin.",
+    "La [[chute-du-mur-de-berlin|chute du mur]] (1989) mène à la réunification (1990) ; l’Allemagne devient un pilier de l’Union européenne."
+  ],
+  "periodes": [
     {
-      "titre": "Apocalypse : La Seconde Guerre mondiale",
-      "url": "https://fr.wikipedia.org/wiki/Seconde_Guerre_mondiale"
+      "nom": "L’Empire allemand",
+      "debut": 1871,
+      "fin": 1918,
+      "resume": "L’Allemagne devient la première puissance industrielle d’Europe et se dote de colonies. Guillaume II mène une politique agressive qui contribue à la Première Guerre mondiale.",
+      "evenements": [
+        { "annee": 1871, "evenement": "Proclamation de l’Empire", "ref": "proclamation-de-l-empire-allemand" },
+        { "annee": 1884, "evenement": "Conférence de Berlin sur l’Afrique" },
+        { "annee": 1914, "evenement": "Entrée en guerre" }
+      ]
+    },
+    {
+      "nom": "La république de Weimar",
+      "debut": 1918,
+      "fin": 1933,
+      "resume": "La jeune république affronte l’hyperinflation de 1923, des tentatives de coup d’État et la crise de 1929, qui fait monter les extrêmes.",
+      "evenements": [{ "annee": 1923, "evenement": "Hyperinflation" }, { "annee": 1929, "evenement": "Crise économique mondiale" }]
+    },
+    {
+      "nom": "Le IIIe Reich",
+      "debut": 1933,
+      "fin": 1945,
+      "resume": "Hitler supprime les libertés, persécute les Juifs et les opposants, réarme le pays et déclenche la guerre. Le régime extermine six millions de Juifs et des centaines de milliers de Roms et de personnes handicapées.",
+      "evenements": [
+        { "annee": 1935, "evenement": "Lois de Nuremberg" },
+        { "annee": 1938, "evenement": "Nuit de Cristal" },
+        { "annee": 1942, "evenement": "Conférence de Wannsee" }
+      ]
+    },
+    {
+      "nom": "Deux Allemagnes",
+      "debut": 1945,
+      "fin": 1990,
+      "resume": "La RFA, démocratique, connaît un « miracle économique » ; la RDA est une dictature communiste alliée à l’URSS. Berlin est coupée par un mur de 1961 à 1989.",
+      "evenements": [
+        { "annee": 1949, "evenement": "Création de la RFA et de la RDA" },
+        { "annee": 1961, "evenement": "Construction du mur" },
+        { "annee": 1989, "evenement": "Chute du mur", "ref": "chute-du-mur-de-berlin" }
+      ]
+    },
+    {
+      "nom": "L’Allemagne réunifiée",
+      "debut": 1990,
+      "fin": 2020,
+      "resume": "L’Allemagne réunifiée devient la première économie d’Europe et un acteur central de l’Union européenne."
+    }
+  ],
+  "regimes": [
+    { "id": "empire", "nom": "Empire allemand", "debut": 1871, "fin": 1918 },
+    { "id": "weimar", "nom": "République de Weimar", "debut": 1918, "fin": 1933 },
+    { "id": "nazi", "nom": "Dictature nazie (IIIe Reich)", "debut": 1933, "fin": 1945 },
+    { "id": "division", "nom": "RFA et RDA", "debut": 1945, "fin": 1990 },
+    { "id": "reunifiee", "nom": "République fédérale réunifiée", "debut": 1990, "fin": 2020 }
+  ],
+  "dynasties": [
+    { "id": "empire", "nom": "Les empereurs et le chancelier de fer", "debut": 1862, "fin": 1918, "regime": "empire" },
+    { "id": "weimar", "nom": "Présidents de la république de Weimar", "debut": 1919, "fin": 1934, "regime": "weimar" },
+    { "id": "nazi", "nom": "Le régime nazi", "debut": 1933, "fin": 1945, "regime": "nazi" },
+    {
+      "id": "rfa",
+      "nom": "Chanceliers de la RFA et de l’Allemagne réunifiée",
+      "debut": 1949,
+      "fin": 2020,
+      "regime": "division",
+      "note": "C’est le chancelier qui gouverne ; sélection."
+    },
+    { "id": "rda", "nom": "Dirigeants de la RDA", "debut": 1950, "fin": 1989, "regime": "division" }
+  ],
+  "societe": "L’industrialisation crée une classe ouvrière nombreuse ; Bismarck instaure les premières assurances sociales du monde (maladie, accidents, retraite). Le régime nazi exclut, persécute et assassine Juifs, Roms, opposants, homosexuels et personnes handicapées. Après 1945, l’Allemagne accueille des millions d’expulsés et de travailleurs immigrés.",
+  "economie": "Chimie, acier, électricité, automobile, machines-outils ; après la guerre, le « miracle économique » de la RFA, puis l’intégration difficile de l’économie de l’ex-RDA.",
+  "decouvertes": ["theorie-de-la-relativite"],
+  "arts": "Expressionnisme, Bauhaus, cinéma de Fritz Lang, théâtre de Brecht, musique de Wagner et Brahms, littérature de Thomas Mann ; les nazis brûlent les livres et persécutent l’« art dégénéré ».",
+  "quotidien": "Pendant la guerre froide, des familles sont séparées par le mur ; plus de 140 personnes sont tuées en tentant de le franchir.",
+  "heritage": [
+    {
+      "titre": "Le devoir de mémoire",
+      "texte": "Le Mémorial aux Juifs assassinés d’Europe, à Berlin, rappelle les crimes du nazisme."
+    },
+    {
+      "titre": "Le couple franco-allemand",
+      "texte": "Anciens ennemis, la France et l’Allemagne sont aujourd’hui au cœur de l’Union européenne."
+    }
+  ],
+  "aSavoir": [
+    "Hitler n’a jamais obtenu la majorité des voix lors d’élections libres : son parti obtient au plus 37 % en 1932."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Histoire_de_l%27Allemagne",
+    {
+      "titre": "Encyclopædia Britannica — Germany, history",
+      "url": "https://www.britannica.com/place/Germany/History"
     }
   ]
 }

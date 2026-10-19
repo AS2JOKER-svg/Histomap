@@ -11,66 +11,254 @@
   "row": 7,
   "isRiver": false,
   "capitale": "Bruxelles / Strasbourg / Francfort",
-  "description": "Le miracle diplomatique inédit de l'histoire humaine : lier les économies des belligérants de deux guerres mondiales pour rendre le retour à la guerre matériellement impossible.",
+  "description": "Une construction politique inédite : des États européens, souvent ennemis dans le passé, mettent en commun une partie de leur souveraineté pour assurer la paix et la prospérité.",
   "territories": [],
   "datesCles": [
     {
+      "annee": 1950,
+      "evenement": "Déclaration Schuman",
+      "info": "La France propose de mettre en commun la production de charbon et d’acier avec l’Allemagne.",
+      "ref": "declaration-schuman"
+    },
+    {
       "annee": 1951,
       "evenement": "Traité CECA",
-      "info": "Communauté européenne du charbon et de l'acier (France, Allemagne, Italie, Benelux)."
+      "info": "Communauté européenne du charbon et de l’acier (France, Allemagne, Italie, Benelux)."
     },
     {
       "annee": 1957,
       "evenement": "Traité de Rome",
-      "info": "Création de la CEE, instaurant la libre circulation des marchandises et des travailleurs."
+      "info": "Création de la CEE, qui organise un marché commun.",
+      "ref": "traite-de-rome"
+    },
+    {
+      "annee": 1979,
+      "evenement": "Parlement élu",
+      "info": "Les citoyens élisent pour la première fois le Parlement européen ; Simone Veil en devient présidente."
     },
     {
       "annee": 1992,
       "evenement": "Traité de Maastricht",
-      "info": "L'institution prend le nom formel d'Union Européenne."
+      "info": "Création de l’Union européenne et de la citoyenneté européenne.",
+      "ref": "traite-de-maastricht"
     },
     {
       "annee": 2002,
-      "evenement": "L'Euro",
-      "info": "Mise en circulation matérielle de la monnaie commune remplaçant les devises nationales (Franc, Mark)."
+      "evenement": "L’euro",
+      "info": "Les pièces et billets en euros remplacent les monnaies nationales dans 12 pays."
+    },
+    {
+      "annee": 2004,
+      "evenement": "Grand élargissement",
+      "info": "Dix pays, surtout d’Europe centrale et orientale, rejoignent l’Union."
+    },
+    {
+      "annee": 2020,
+      "evenement": "Sortie du Royaume-Uni",
+      "info": "Le Royaume-Uni est le premier pays à quitter l’Union.",
+      "ref": "brexit"
     }
   ],
-  "dirigeants": [{ "titre": "Président de la Commission", "nom": "Jacques Delors", "debut": 1985, "fin": 1995 }],
-  "personnages": [
+  "dirigeants": [
     {
-      "nom": "Jean Monnet & Robert Schuman",
-      "role": "Les Pères de l'Europe",
-      "description": "Jean Monnet, haut fonctionnaire, et Robert Schuman, homme politique et ministre français des Affaires étrangères, parient sur l'intégration économique progressive (méthode des petits pas) plutôt que la politique.",
-      "dates": "XXe siècle",
-      "wikiUrl": "https://fr.wikipedia.org/wiki/P%C3%A8res_de_l%27Europe"
+      "nom": "Jean Monnet",
+      "titre": "Président de la Haute Autorité de la CECA",
+      "debut": 1952,
+      "fin": 1955,
+      "dynastie": "haute-autorite",
+      "personne": "jean-monnet",
+      "cle": true
+    },
+    {
+      "nom": "Walter Hallstein",
+      "titre": "Président de la Commission",
+      "debut": 1958,
+      "fin": 1967,
+      "dynastie": "commission",
+      "note": "premier président de la Commission",
+      "cle": true
+    },
+    { "nom": "Roy Jenkins", "titre": "Président de la Commission", "debut": 1977, "fin": 1981, "dynastie": "commission" },
+    {
+      "nom": "Jacques Delors",
+      "titre": "Président de la Commission",
+      "debut": 1985,
+      "fin": 1995,
+      "dynastie": "commission",
+      "note": "prépare le marché unique et l’euro",
+      "cle": true
+    },
+    {
+      "nom": "Romano Prodi",
+      "titre": "Président de la Commission",
+      "debut": 1999,
+      "fin": 2004,
+      "dynastie": "commission"
+    },
+    {
+      "nom": "José Manuel Barroso",
+      "titre": "Président de la Commission",
+      "debut": 2004,
+      "fin": 2014,
+      "dynastie": "commission"
+    },
+    {
+      "nom": "Jean-Claude Juncker",
+      "titre": "Président de la Commission",
+      "debut": 2014,
+      "fin": 2019,
+      "dynastie": "commission"
+    },
+    {
+      "nom": "Ursula von der Leyen",
+      "titre": "Présidente de la Commission",
+      "debut": 2019,
+      "fin": 2020,
+      "dynastie": "commission",
+      "note": "première femme à ce poste ; toujours en fonction en 2020",
+      "cle": true
     },
     {
       "nom": "Simone Veil",
-      "role": "Présidente du Parlement",
-      "description": "Survivante d'Auschwitz, elle devient la première présidente (élue au suffrage universel) du Parlement européen en 1979.",
-      "dates": "1927 à 2017",
-      "wikiUrl": "https://fr.wikipedia.org/wiki/Simone_Veil"
+      "titre": "Présidente du Parlement européen",
+      "debut": 1979,
+      "fin": 1982,
+      "dynastie": "parlement",
+      "personne": "simone-veil",
+      "note": "première présidente du Parlement élu",
+      "cle": true
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Jean Monnet",
+      "role": "Inspirateur de l’Europe",
+      "description": "Haut fonctionnaire français, il conçoit le plan de la CECA et préside sa Haute Autorité.",
+      "dates": "1888 → 1979",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Jean_Monnet",
+      "ref": "jean-monnet"
+    },
+    {
+      "nom": "Robert Schuman",
+      "role": "Ministre français des Affaires étrangères",
+      "description": "Il présente le 9 mai 1950 le projet de mise en commun du charbon et de l’acier.",
+      "dates": "1886 → 1963",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Robert_Schuman",
+      "ref": "robert-schuman"
+    },
+    {
+      "nom": "Simone Veil",
+      "role": "Femme politique",
+      "description": "Rescapée d’Auschwitz, elle préside le premier Parlement européen élu au suffrage universel (1979).",
+      "dates": "1927 → 2017",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Simone_Veil",
+      "ref": "simone-veil"
     }
   ],
   "guerres": [
     {
       "nom": "Guerres de Yougoslavie",
       "annee": 1991,
-      "adversaires": ["Factions nationalistes balkaniques"],
-      "allies": ["Intervention OTAN/Casques Bleus"],
-      "morts": "Environ 140 000 morts (épuration ethnique)",
-      "vainqueur": "Communauté Internationale",
-      "consequences": "Impuissante politiquement et militairement à gérer l'horreur à ses propres frontières, l'Europe dut faire appel aux bombardiers américains de l'OTAN pour stopper le conflit.",
+      "adversaires": ["Belligérants de l’ex-Yougoslavie (Serbie, Croatie, Bosnie-Herzégovine, Kosovo…)"],
+      "allies": ["Médiation européenne, Casques bleus de l’ONU, puis OTAN"],
+      "morts": "Environ 140 000 morts, avec des massacres et des « nettoyages ethniques »",
+      "vainqueur": "Pas de vainqueur unique : accords de Dayton (1995)",
+      "consequences": "Guerres de 1991 à 2001 à la frontière de l’Union, qui ne parvient pas à les empêcher. Le massacre de Srebrenica (1995) est reconnu comme un génocide. Plusieurs pays issus de la Yougoslavie rejoignent ensuite l’Union.",
       "wikiUrl": "https://fr.wikipedia.org/wiki/Guerres_de_Yougoslavie"
     }
   ],
-  "sciences": "Le bloc consolide les puissances par des collaborations industrielles massives de pointe que les États nations seuls ne pourraient plus financer : l'entreprise d'aéronautique Airbus (contre le monopole de l'américain Boeing), le programme spatial européen Arianespace et l'Agence Spatiale Européenne (ESA), ou l'accélérateur géant de particules du CERN.",
-  "croyancesText": "L'Union Européenne repose sur un dogme politique inviolable : les 'Critères de Copenhague'. Pour y adhérer, une nation doit obligatoirement prouver qu'elle possède des institutions démocratiques stables, qu'elle respecte les Droits de l'Homme (ce qui implique en pratique l'abolition de la peine de mort, exigée par ailleurs par l'UE), respecte les minorités de son pays, et adhère à l'économie de marché viable.",
-  "diplomatie": "C'est l'anti-Empire : l'UE n'est pas construite par la force militaire (elle n'a d'ailleurs aucune véritable armée commune), mais par l'adhésion volontaire au Droit par traités. Elle utilise son immense marché de 450 millions de consommateurs parmi les plus riches au monde (Le Marché Unique) comme 'Soft Power' pour imposer des normes économiques et écologiques mondiales (RGPD).",
-  "documentaires": [
+  "sciences": "L’Union finance de grands programmes communs : recherche, satellites de navigation Galileo, échanges d’étudiants Erasmus (depuis 1987), qui ont permis à des millions de jeunes d’étudier dans un autre pays européen.",
+  "croyancesText": "L’Union n’a pas de religion officielle et protège la liberté de pensée, de conscience et de religion. Sa Charte des droits fondamentaux (2000) interdit les discriminations et abolit la peine de mort dans tous les États membres.",
+  "diplomatie": "L’Union n’est pas construite par la force militaire (elle n’a pas d’armée commune), mais par l’adhésion volontaire d’États démocratiques. Elle mène une politique commerciale commune et une diplomatie limitée. Elle a eu du mal à empêcher les guerres de Yougoslavie (1991-2001), à ses portes.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": { "valeur": "Bruxelles, Strasbourg, Luxembourg", "precision": "la Banque centrale européenne est à Francfort" },
+    "regimes": {
+      "valeur": "Union d’États",
+      "precision": "une Commission, un Parlement élu, un Conseil des États et une Cour de justice"
+    },
+    "langues": { "valeur": "24 langues officielles" },
+    "religion": {
+      "valeur": "Aucune religion officielle",
+      "precision": "tradition chrétienne majoritaire et diversité religieuse"
+    },
+    "apogee": { "valeur": "Années 2000", "precision": "euro et élargissement à l’Europe de l’Est" },
+    "population": { "valeur": "Environ 447 millions en 2020", "precision": "27 États membres" },
+    "monnaie": { "valeur": "Euro", "precision": "adopté par 19 États en 2020" },
+    "duree": { "valeur": "Environ 70 ans" },
+    "aujourdhui": { "valeur": "27 États d’Europe" }
+  },
+  "essentiel": [
+    "Le 9 mai 1950, par la [[declaration-schuman|déclaration Schuman]], la France propose de mettre en commun le charbon et l’acier avec l’Allemagne, son ennemie d’hier.",
+    "Six pays fondent la CECA (1951), puis la Communauté économique européenne par le [[traite-de-rome|traité de Rome]] (1957).",
+    "Des « pères de l’Europe », comme [[jean-monnet|Jean Monnet]] et [[robert-schuman|Robert Schuman]], portent ce projet.",
+    "Le [[traite-de-maastricht|traité de Maastricht]] (1992) crée l’Union européenne, puis l’[[euro|euro]] devient la monnaie commune.",
+    "L’Union s’élargit à 28 membres, dont les pays de l’Est en 2004, avant la sortie du Royaume-Uni en 2020."
+  ],
+  "periodes": [
     {
-      "titre": "La construction européenne : De la CECA à l'UE",
-      "url": "https://fr.wikipedia.org/wiki/Histoire_de_l%27Union_europ%C3%A9enne"
+      "nom": "Les Communautés européennes",
+      "debut": 1951,
+      "fin": 1992,
+      "resume": "Six pays, puis douze, construisent un marché commun, une politique agricole et un Parlement élu.",
+      "evenements": [
+        { "annee": 1957, "evenement": "Traité de Rome", "ref": "traite-de-rome" },
+        { "annee": 1973, "evenement": "Entrée du Royaume-Uni, de l’Irlande et du Danemark" },
+        { "annee": 1985, "evenement": "Accords de Schengen" }
+      ]
+    },
+    {
+      "nom": "L’Union européenne",
+      "debut": 1992,
+      "fin": 2020,
+      "resume": "L’Union adopte une monnaie commune, s’élargit à l’Est et traverse plusieurs crises (dette, migrations, Brexit).",
+      "evenements": [
+        { "annee": 1992, "evenement": "Maastricht", "ref": "traite-de-maastricht" },
+        { "annee": 2002, "evenement": "Euro" },
+        { "annee": 2012, "evenement": "Prix Nobel de la paix" }
+      ]
     }
+  ],
+  "regimes": [
+    {
+      "id": "union",
+      "nom": "Communautés, puis Union européenne",
+      "debut": 1951,
+      "fin": 2020,
+      "note": "Les États restent souverains mais exercent ensemble certaines compétences ; la Commission propose les lois, que votent le Parlement et le Conseil."
+    }
+  ],
+  "dynasties": [
+    { "id": "haute-autorite", "nom": "Président de la Haute Autorité de la CECA", "debut": 1952, "fin": 1955 },
+    {
+      "id": "commission",
+      "nom": "Présidents de la Commission européenne",
+      "debut": 1958,
+      "fin": 2020,
+      "note": "Sélection."
+    },
+    { "id": "parlement", "nom": "Présidence du Parlement élu", "debut": 1979, "fin": 1982 }
+  ],
+  "societe": "Les citoyens européens peuvent circuler, travailler et étudier dans tous les pays membres ; l’espace Schengen supprime les contrôles aux frontières intérieures.",
+  "economie": "Le plus grand marché unique du monde, avec une monnaie commune pour une partie des États, une politique agricole commune et des aides aux régions les plus pauvres.",
+  "decouvertes": ["euro"],
+  "arts": "L’Union choisit chaque année des « capitales européennes de la culture ». Son hymne est l’« Ode à la joie » de Beethoven.",
+  "quotidien": "Pour beaucoup d’Européens, l’Union, c’est l’euro, les voyages sans passeport dans l’espace Schengen et le programme Erasmus.",
+  "heritage": [
+    {
+      "titre": "La paix",
+      "texte": "L’Union a reçu le prix Nobel de la paix en 2012 pour avoir contribué à la paix et à la réconciliation en Europe."
+    },
+    {
+      "titre": "La journée de l’Europe",
+      "texte": "Le 9 mai, date de la déclaration Schuman, est la fête de l’Europe."
+    }
+  ],
+  "aSavoir": [
+    "Les douze étoiles du drapeau européen ne représentent pas les États membres : douze est un symbole de perfection et d’unité."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Union_europ%C3%A9enne",
+    "https://fr.wikipedia.org/wiki/Construction_europ%C3%A9enne"
   ]
 }

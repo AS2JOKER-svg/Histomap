@@ -1,0 +1,15 @@
+{
+  "id": "referendum-de-1946",
+  "nom": "Référendum institutionnel italien",
+  "annee": 1946,
+  "dates": "2 juin 1946",
+  "lieu": "Italie",
+  "description": "Les Italiens, dont les femmes pour la première fois, votent pour la république à 54 % ; la monarchie, compromise avec le fascisme, est abolie.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "Le roi Humbert II part en exil. Une Constitution républicaine entre en vigueur en 1948. Le 2 juin est la fête nationale."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Naissance_de_la_R%C3%A9publique_italienne"
+}

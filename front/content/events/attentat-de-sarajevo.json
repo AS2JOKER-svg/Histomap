@@ -1,0 +1,15 @@
+{
+  "id": "attentat-de-sarajevo",
+  "nom": "Attentat de Sarajevo",
+  "annee": 1914,
+  "dates": "28 juin 1914",
+  "lieu": "Sarajevo (Bosnie)",
+  "description": "L’archiduc François-Ferdinand, héritier de l’Autriche-Hongrie, et son épouse sont assassinés par Gavrilo Princip, un jeune Serbe de Bosnie lié à des réseaux nationalistes serbes.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "L’Autriche-Hongrie, soutenue par l’Allemagne, déclare la guerre à la Serbie le 28 juillet. Par le jeu des alliances, la Russie, l’Allemagne, la France et le Royaume-Uni entrent en guerre : c’est la Première Guerre mondiale."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Attentat_de_Sarajevo"
+}

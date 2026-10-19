@@ -11,48 +11,126 @@
   "row": 5,
   "isRiver": false,
   "capitale": "Vienne",
-  "description": "La 'Mosaïque de peuples'. L'imposant empire conservateur des Habsbourg abritant la plus brillante ébullition intellectuelle d'Europe centrale, foudroyé par les nationalismes.",
+  "description": "L’empire des Habsbourg, devenu l’Autriche-Hongrie en 1867 : un empire multinational de Vienne à Prague, Budapest et Cracovie, foyer d’une brillante culture, disloqué par la Première Guerre mondiale.",
   "territories": ["Austrian Empire", "Austria Hungary", "Austro-Hungarian Empire"],
   "datesCles": [
     {
+      "annee": 1804,
+      "evenement": "Empire d’Autriche",
+      "info": "François II crée le titre d’empereur d’Autriche ; il renonce au titre d’empereur du Saint-Empire en 1806."
+    },
+    {
       "annee": 1815,
-      "evenement": "Le Congrès de Vienne",
-      "info": "L'Autriche de Metternich redessine la carte de l'Europe après la chute de Napoléon."
+      "evenement": "Le congrès de Vienne",
+      "info": "L’Autriche de Metternich réorganise la carte de l’Europe après la chute de Napoléon.",
+      "ref": "congres-de-vienne"
+    },
+    {
+      "annee": 1848,
+      "evenement": "Révolutions",
+      "info": "Vienne, Prague et Budapest se soulèvent ; le jeune François-Joseph devient empereur."
     },
     {
       "annee": 1867,
-      "evenement": "Le Compromis",
-      "info": "Pour éviter l'implosion, l'empire se divise en 'Double Monarchie' : l'Autriche et la Hongrie à parts égales."
+      "evenement": "Le compromis",
+      "info": "L’empire devient une « double monarchie » : l’Autriche et la Hongrie, chacune avec son gouvernement, unies par l’empereur.",
+      "ref": "compromis-austro-hongrois"
     },
     {
       "annee": 1914,
       "evenement": "Attentat de Sarajevo",
-      "info": "L'héritier de l'Empire, François-Ferdinand, est assassiné par Gavrilo Princip, un Serbe de Bosnie lié à des réseaux nationalistes serbes. L'attentat déclenche la Première Guerre mondiale."
+      "info": "L’héritier de l’empire, François-Ferdinand, est assassiné par Gavrilo Princip, un Serbe de Bosnie lié à des réseaux nationalistes serbes. L’attentat déclenche la Première Guerre mondiale.",
+      "ref": "attentat-de-sarajevo"
     },
     {
       "annee": 1918,
       "evenement": "Démantèlement",
-      "info": "La défaite disloque l'Empire en plusieurs pays : Autriche, Hongrie, Tchécoslovaquie, Yougoslavie."
+      "info": "La défaite disloque l’empire en plusieurs pays : Autriche, Hongrie, Tchécoslovaquie, Yougoslavie, Pologne."
     }
   ],
   "dirigeants": [
-    { "titre": "Empereur d'Autriche (Roi de Hongrie)", "nom": "François-Joseph Ier", "debut": 1848, "fin": 1916 },
-    { "titre": "Dernier Empereur", "nom": "Charles Ier", "debut": 1916, "fin": 1918 }
+    {
+      "nom": "Léopold II",
+      "titre": "Empereur",
+      "debut": 1790,
+      "fin": 1792,
+      "dynastie": "habsbourg",
+      "note": "frère de Marie-Antoinette"
+    },
+    {
+      "nom": "François Ier",
+      "titre": "Empereur (François II du Saint-Empire)",
+      "debut": 1792,
+      "fin": 1835,
+      "dynastie": "habsbourg",
+      "note": "premier empereur d’Autriche",
+      "cle": true
+    },
+    {
+      "nom": "Ferdinand Ier",
+      "titre": "Empereur",
+      "debut": 1835,
+      "fin": 1848,
+      "dynastie": "habsbourg",
+      "note": "abdique pendant la révolution de 1848"
+    },
+    {
+      "nom": "François-Joseph Ier",
+      "titre": "Empereur et roi",
+      "debut": 1848,
+      "fin": 1916,
+      "dynastie": "habsbourg",
+      "personne": "francois-joseph",
+      "note": "règne de 68 ans",
+      "cle": true
+    },
+    {
+      "nom": "Charles Ier",
+      "titre": "Empereur et roi",
+      "debut": 1916,
+      "fin": 1918,
+      "dynastie": "habsbourg",
+      "note": "dernier empereur",
+      "cle": true
+    },
+    {
+      "nom": "Klemens von Metternich",
+      "titre": "Chancelier",
+      "debut": 1809,
+      "fin": 1848,
+      "dynastie": "ministres",
+      "personne": "metternich",
+      "cle": true
+    }
   ],
   "personnages": [
     {
-      "nom": "Impératrice Élisabeth",
-      "role": "Sissi",
-      "description": "L'impératrice martyre et dépressive, refusant le protocole archaïque de Vienne, grande protectrice de la nation hongroise.",
-      "dates": "1837 à 1898",
-      "wikiUrl": "https://fr.wikipedia.org/wiki/%C3%89lisabeth_en_Bavi%C3%A8re"
+      "nom": "Élisabeth (Sissi)",
+      "role": "Impératrice",
+      "description": "Épouse de François-Joseph, très populaire en Hongrie, assassinée par un anarchiste à Genève en 1898.",
+      "dates": "1837 → 1898",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/%C3%89lisabeth_de_Wittelsbach"
     },
     {
       "nom": "Sigmund Freud",
-      "role": "Médecin et Neurologue",
-      "description": "Inventeur de la psychanalyse au sein de la foisonnante Vienne de la fin de siècle.",
-      "dates": "1856 à 1939",
+      "role": "Médecin",
+      "description": "Médecin viennois, fondateur de la psychanalyse.",
+      "dates": "1856 → 1939",
       "wikiUrl": "https://fr.wikipedia.org/wiki/Sigmund_Freud"
+    },
+    {
+      "nom": "Ludwig van Beethoven",
+      "role": "Compositeur",
+      "description": "Né à Bonn, il fait toute sa carrière à Vienne, où il compose ses symphonies.",
+      "dates": "1770 → 1827",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Ludwig_van_Beethoven"
+    },
+    {
+      "nom": "Gregor Mendel",
+      "role": "Moine et scientifique",
+      "description": "Moine de Brno, il découvre les lois de l’hérédité en croisant des pois.",
+      "dates": "1822 → 1884",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Gregor_Mendel"
     }
   ],
   "guerres": [
@@ -61,19 +139,139 @@
       "annee": 1866,
       "adversaires": ["Royaume de Prusse (Bismarck)"],
       "allies": ["Saxe, Bavière"],
-      "morts": "Pertes stratégiques catastrophiques",
+      "morts": "Plusieurs dizaines de milliers de tués, de blessés et de prisonniers",
       "vainqueur": "Prusse",
-      "consequences": "Bismarck expulse définitivement l'Autriche des affaires allemandes, laissant le champ libre à la création de l'Empire Allemand quelques années plus tard.",
+      "consequences": "Bismarck écarte l’Autriche des affaires allemandes, ouvrant la voie à la création de l’Empire allemand. L’Autriche doit aussi céder la Vénétie.",
       "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_austro-prussienne"
+    },
+    {
+      "nom": "Première Guerre mondiale (La Grande Guerre)",
+      "annee": 1914,
+      "adversaires": ["Serbie", "Russie", "Italie", "France", "Royaume-Uni"],
+      "allies": ["Empire allemand", "Empire ottoman", "Bulgarie"],
+      "morts": "Environ 1,1 million de soldats austro-hongrois tués",
+      "vainqueur": "La France et ses alliés",
+      "consequences": "L’empire est vaincu et disloqué ; de nouveaux États naissent, comme la Tchécoslovaquie et la Yougoslavie.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Premi%C3%A8re_Guerre_mondiale"
+    },
+    {
+      "nom": "Première Guerre mondiale (La Grande Guerre)",
+      "annee": 1914,
+      "adversaires": ["Serbie", "Russie", "Italie", "France", "Royaume-Uni"],
+      "allies": ["Empire allemand", "Empire ottoman", "Bulgarie"],
+      "morts": "Environ 1,1 million de soldats austro-hongrois tués",
+      "vainqueur": "La France et ses alliés",
+      "consequences": "L’empire est vaincu et disloqué ; de nouveaux États naissent, comme la Tchécoslovaquie et la Yougoslavie.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Premi%C3%A8re_Guerre_mondiale"
+    },
+    {
+      "nom": "Première Guerre mondiale (La Grande Guerre)",
+      "annee": 1914,
+      "adversaires": ["Serbie", "Russie", "Italie", "France", "Royaume-Uni"],
+      "allies": ["Empire allemand", "Empire ottoman", "Bulgarie"],
+      "morts": "Environ 1,1 million de soldats austro-hongrois tués",
+      "vainqueur": "La France et ses alliés",
+      "consequences": "L’empire est vaincu et disloqué ; de nouveaux États naissent, comme la Tchécoslovaquie et la Yougoslavie.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Premi%C3%A8re_Guerre_mondiale"
     }
   ],
-  "sciences": "La 'Vienne fin de siècle' est la capitale mondiale de la modernité artistique et scientifique, un bouillon de culture (Klimt, Mahler, Freud, Zweig). Scientifiquement, Gregor Mendel (un moine morave de l'Empire) fonde la génétique moderne avec ses lois sur les petits pois, et Ignaz Semmelweis impose l'asepsie (lavage des mains) en médecine.",
-  "croyancesText": "L'Empire est le bastion catholique conservateur. Mais sa fragilité et sa richesse viennent de ses formidables minorités. Vienne est l'une des grandes capitales du judaïsme européen, berceau intellectuel du Sionisme théorisé par Theodor Herzl (visant à créer un État juif face à la montée de l'antisémitisme en Europe).",
-  "diplomatie": "Diriger 50 millions d'habitants parlant une dizaine de langues reconnues, au statut variable selon les régions (allemand, hongrois, tchèque, croate, polonais…) sous une monarchie germanophone est un numéro d'équilibriste mortel. L'éveil de l'idée de 'Nation' en Europe rend ce système caduc. En s'alliant militairement avec l'Allemagne (La Duplice), Vienne condamne son destin à celui de Berlin lors de la Première Guerre mondiale.",
-  "documentaires": [
+  "sciences": "L’empire est un foyer scientifique : Gregor Mendel découvre les lois de l’hérédité, Sigmund Freud fonde la psychanalyse, et les médecins de Vienne font progresser la médecine moderne. Le réseau ferroviaire relie les régions de l’empire, et Vienne se transforme avec le Ring, ses boulevards et ses monuments.",
+  "croyancesText": "Les Habsbourg sont catholiques et se veulent les protecteurs de l’Église. L’empire compte aussi de nombreux protestants, orthodoxes, des Juifs (très présents à Vienne, Budapest et en Galicie) et, après l’annexion de la Bosnie, des musulmans.",
+  "diplomatie": "Après 1815, Metternich veut maintenir l’ordre établi et réprimer les révolutions. Mais les nationalismes travaillent l’empire : Italiens, Hongrois, Tchèques, Polonais, Slaves du Sud réclament leur autonomie ou leur indépendance. Allié à l’Allemagne, l’empire entre en guerre contre la Serbie en 1914.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": { "valeur": "Vienne", "precision": "et Budapest pour la Hongrie après 1867" },
+    "regimes": {
+      "valeur": "Monarchie",
+      "precision": "empire d’Autriche (1804), puis double monarchie austro-hongroise (1867)"
+    },
+    "langues": {
+      "valeur": "Allemand, hongrois, tchèque, polonais…",
+      "precision": "une dizaine de langues officiellement reconnues"
+    },
+    "religion": {
+      "valeur": "Catholicisme majoritaire",
+      "precision": "avec protestants, orthodoxes, juifs et musulmans de Bosnie"
+    },
+    "apogee": { "valeur": "Vers 1900", "precision": "Vienne, capitale culturelle de l’Europe" },
+    "population": { "valeur": "Environ 52 millions en 1914" },
+    "monnaie": { "valeur": "Florin, puis couronne (1892)" },
+    "duree": { "valeur": "Environ 130 ans dans cette fiche" },
+    "aujourdhui": {
+      "valeur": "Autriche, Hongrie, Tchéquie, Slovaquie",
+      "precision": "et une partie de la Pologne, de l’Ukraine, de la Roumanie, de l’Italie et des Balkans"
+    }
+  },
+  "essentiel": [
+    "En 1804, l’empereur François crée l’empire d’Autriche ; deux ans plus tard, il abandonne le titre d’empereur du Saint-Empire.",
+    "Après la chute de Napoléon, le chancelier [[metternich|Metternich]] réorganise l’Europe au [[congres-de-vienne|congrès de Vienne]].",
+    "Secoué par les révolutions de 1848 et battu par la Prusse, l’empire devient en 1867, par le [[compromis-austro-hongrois|compromis]], une double monarchie, l’Autriche-Hongrie.",
+    "Sous le long règne de [[francois-joseph|François-Joseph]], Vienne devient une capitale de la musique, des arts et de la science.",
+    "L’[[attentat-de-sarajevo|attentat de Sarajevo]] (1914) déclenche la Première Guerre mondiale ; en 1918, l’empire se disloque."
+  ],
+  "periodes": [
     {
-      "titre": "L'Empire Austro-Hongrois, le crépuscule des Habsbourg",
-      "url": "https://fr.wikipedia.org/wiki/Autriche-Hongrie"
+      "nom": "L’empire d’Autriche",
+      "debut": 1789,
+      "fin": 1848,
+      "resume": "L’Autriche combat la France révolutionnaire et napoléonienne, puis Metternich fait de Vienne le centre de la politique européenne et réprime les mouvements libéraux.",
+      "evenements": [
+        { "annee": 1805, "evenement": "Défaite d’Austerlitz" },
+        { "annee": 1815, "evenement": "Congrès de Vienne", "ref": "congres-de-vienne" }
+      ]
+    },
+    {
+      "nom": "Révolutions et défaites",
+      "debut": 1848,
+      "fin": 1867,
+      "resume": "Les révolutions de 1848 sont réprimées. L’Autriche perd la Lombardie (1859) puis est chassée d’Allemagne par la Prusse (1866).",
+      "evenements": [{ "annee": 1848, "evenement": "Printemps des peuples" }, { "annee": 1866, "evenement": "Défaite de Sadowa" }]
+    },
+    {
+      "nom": "La double monarchie",
+      "debut": 1867,
+      "fin": 1918,
+      "resume": "L’Autriche-Hongrie connaît une grande vie culturelle, mais les peuples (Tchèques, Slaves du Sud, Polonais…) réclament plus de droits. L’annexion de la Bosnie (1908) aggrave les tensions avec la Serbie.",
+      "evenements": [
+        { "annee": 1867, "evenement": "Compromis", "ref": "compromis-austro-hongrois" },
+        { "annee": 1908, "evenement": "Annexion de la Bosnie" },
+        { "annee": 1914, "evenement": "Attentat de Sarajevo", "ref": "attentat-de-sarajevo" }
+      ]
+    }
+  ],
+  "dynasties": [
+    {
+      "id": "habsbourg",
+      "nom": "Les Habsbourg-Lorraine",
+      "debut": 1790,
+      "fin": 1918,
+      "note": "Liste complète des souverains de la période."
+    },
+    { "id": "ministres", "nom": "Un grand chancelier", "debut": 1809, "fin": 1848 }
+  ],
+  "societe": "Une aristocratie puissante domine encore, mais les villes se développent ; la société est très diverse, avec une dizaine de peuples. L’abolition du servage date de 1848.",
+  "economie": "Agriculture (surtout en Hongrie), industrie en Bohême et autour de Vienne, chemins de fer ; Vienne et Budapest sont de grandes places financières.",
+  "decouvertes": [],
+  "arts": "Musique (Mozart, Beethoven, Schubert, la valse de Strauss, Mahler), peinture de Klimt et Schiele, architecture du Ring de Vienne, littérature de Kafka et Zweig.",
+  "quotidien": "À Vienne, les cafés sont des lieux de lecture et de débat ; les bals, avec la valse, rythment l’hiver.",
+  "heritage": [
+    {
+      "titre": "Vienne",
+      "texte": "Le centre historique de Vienne et le palais de Schönbrunn sont inscrits au patrimoine mondial."
+    },
+    {
+      "titre": "La musique classique",
+      "texte": "Chaque 1er janvier, le concert du Nouvel An de Vienne, diffusé dans le monde entier, joue les valses des Strauss."
+    }
+  ],
+  "aSavoir": [
+    "François-Joseph a régné 68 ans : il était déjà empereur pendant les révolutions de 1848 et l’était encore pendant la Première Guerre mondiale."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Autriche-Hongrie",
+    {
+      "titre": "Encyclopædia Britannica — Austria-Hungary",
+      "url": "https://www.britannica.com/place/Austria-Hungary"
     }
   ]
 }

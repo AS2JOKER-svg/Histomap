@@ -1,0 +1,19 @@
+{
+  "id": "adolf-hitler",
+  "nom": "Adolf Hitler",
+  "role": "Dictateur nazi",
+  "roles": ["Chef du parti nazi", "Chancelier", "Dictateur"],
+  "dates": "1889 → 1945",
+  "naissance": 1889,
+  "mort": 1945,
+  "description": "Chef du parti nazi, nommé chancelier en 1933, il instaure une dictature raciste, déclenche la Seconde Guerre mondiale et organise l’extermination des Juifs d’Europe. Il se suicide en 1945.",
+  "reperes": [{ "label": "Au pouvoir", "valeur": "1933 → 1945" }],
+  "essentiel": [
+    "Né en Autriche, il fonde son idéologie sur le racisme, l’antisémitisme et la volonté de conquête.",
+    "Nommé chancelier en janvier 1933, il supprime en quelques mois les libertés et les partis.",
+    "Il envahit la Pologne en 1939, déclenchant la Seconde Guerre mondiale.",
+    "Il est le principal responsable de la [[shoah|Shoah]].",
+    "Il se suicide à Berlin le 30 avril 1945, alors que l’Armée rouge prend la ville."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Adolf_Hitler"
+}

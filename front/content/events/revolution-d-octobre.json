@@ -1,0 +1,20 @@
+{
+  "id": "revolution-d-octobre",
+  "nom": "Révolution d’Octobre",
+  "annee": 1917,
+  "dates": "25 octobre 1917 (7 novembre selon notre calendrier)",
+  "lieu": "Petrograd (Saint-Pétersbourg)",
+  "description": "Les bolcheviks de [[lenine|Lénine]] prennent le pouvoir à Petrograd et renversent le gouvernement provisoire, installé après la chute du tsar en février.",
+  "sections": [
+    {
+      "titre": "Contexte",
+      "texte": "La guerre, les défaites et la faim ont provoqué en février la chute du tsar Nicolas II. Le gouvernement provisoire continue la guerre et perd le soutien des soldats et des ouvriers."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Les bolcheviks dissolvent l’Assemblée élue, signent la paix avec l’Allemagne et gagnent une guerre civile meurtrière (1918-1921). L’URSS est fondée en 1922."
+    }
+  ],
+  "liens": [{ "ref": "lenine", "relation": "Le chef des bolcheviks" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/R%C3%A9volution_d%27Octobre"
+}

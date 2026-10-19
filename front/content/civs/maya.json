@@ -12,11 +12,7 @@
   "isRiver": false,
   "capitale": "Tikal, Calakmul, Copán",
   "description": "Les 'Grecs de l'Amérique' : une constellation de cités-États en guerre perpétuelle dans la jungle, dotées des mathématiques et de l'astronomie les plus précises du monde.",
-  "territories": [
-    "Maya chiefdoms and states",
-    "Maya states",
-    "Maya city-states"
-  ],
+  "territories": ["Maya chiefdoms and states", "Maya states", "Maya city-states"],
   "datesCles": [
     {
       "annee": 562,
@@ -61,12 +57,8 @@
     {
       "nom": "Première et Seconde Guerre Tikal-Calakmul",
       "annee": 537,
-      "adversaires": [
-        "Cité-État de Calakmul (et vassaux)"
-      ],
-      "allies": [
-        "Cité-État de Tikal (et vassaux)"
-      ],
+      "adversaires": ["Cité-État de Calakmul (et vassaux)"],
+      "allies": ["Cité-État de Tikal (et vassaux)"],
       "morts": "Très lourd tribut en élites décapitées",
       "vainqueur": "Calakmul (puis Tikal)",
       "consequences": "Un basculement constant de l'hégémonie Maya. La guerre épuise la paysannerie obligée de construire de massives fortifications dans la forêt tropicale.",
@@ -76,10 +68,5 @@
   "sciences": "Leur système d'écriture (les glyphes mayas) n'est pas un alphabet mais un système logo-syllabique, mêlant signes-mots et signes-syllabes : c'est le système d'écriture le plus complet des Amériques précolombiennes. Les Mayas utilisent le zéro dans leur numération en base 20 (l'un des plus anciens zéros connus) et atteignent une grande précision astronomique sans télescope : leurs tables permettent de prévoir les éclipses et les cycles de Vénus.",
   "croyancesText": "Le cosmos Maya nécessite un sang royal régulier pour ne pas s'arrêter. Les souverains ('K'uhul Ajaw') pratiquent l'autosacrifice rituel (saignée de la langue avec des cordes épineuses ou du sexe avec des épines de raie) pour ouvrir des portails de communication avec les divinités (le Serpent-Vision). Les prisonniers de guerre capturés sont torturés puis décapités ou précipités en bas des grands temples-pyramides à degrés.",
   "diplomatie": "Il n'y a jamais eu d'Empire Maya. La jungle abrite un écosystème géopolitique à la grecque, avec près de 60 royaumes et cités-États s'alliant ou se massacrant en une 'guerre des Étoiles' (guerres déclarées selon la position de Vénus). Tikal (soutenue par l'héritage de Teotihuacán) et Calakmul (l'Empire du Serpent) passent des siècles dans une guerre froide et chaude de procuration, épuisant finalement les ressources de la forêt.",
-  "documentaires": [
-    {
-      "titre": "L'apocalypse des Mayas",
-      "url": "https://fr.wikipedia.org/wiki/Civilisation_maya"
-    }
-  ]
+  "documentaires": [{ "titre": "L'apocalypse des Mayas", "url": "https://fr.wikipedia.org/wiki/Civilisation_maya" }]
 }

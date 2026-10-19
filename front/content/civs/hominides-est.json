@@ -12,10 +12,7 @@
   "isRiver": false,
   "capitale": "Vallée du Grand Rift",
   "description": "Le berceau de l'humanité, théâtre de l'évolution depuis les Australopithèques jusqu'à l'émergence d'Homo sapiens.",
-  "territories": [
-    "Homo erectus",
-    "Homo heidelbergensis"
-  ],
+  "territories": ["Homo erectus", "Homo heidelbergensis"],
   "datesCles": [
     {
       "annee": -3200000,
@@ -30,12 +27,12 @@
     {
       "annee": -1800000,
       "evenement": "Homo Erectus",
-      "info": "Premier hominidé à quitter l'Afrique et à maîtriser la symétrie des outils (bifaces acheuléens)."
+      "info": "Il fabrique des bifaces symétriques (l’Acheuléen) et fait partie des premiers humains à quitter l’Afrique."
     },
     {
       "annee": -400000,
       "evenement": "Maîtrise du feu",
-      "info": "Domestication des foyers, permettant la cuisson de la viande et la protection nocturne."
+      "info": "L’usage régulier du feu se généralise ; il permet de cuire les aliments, de se chauffer et de se protéger."
     },
     {
       "annee": -300000,
@@ -46,28 +43,121 @@
   "dirigeants": [],
   "personnages": [
     {
-      "nom": "Lucy (Australopithecus afarensis)",
-      "role": "Fossile emblématique",
-      "description": "Découverte en 1974 en Éthiopie par l'équipe de Donald Johanson, Yves Coppens et Maurice Taieb. Son squelette complet à 40% a révolutionné notre compréhension de la bipédie.",
-      "dates": "Vers -3,2 Millions d'années",
-      "wikiUrl": "https://fr.wikipedia.org/wiki/Lucy_(australopith%C3%A8que)"
+      "nom": "Mary Leakey",
+      "role": "Paléoanthropologue",
+      "description": "Découvre en Tanzanie le crâne de Zinjanthrope (1959) et les empreintes de pas de Laetoli (1978), vieilles de 3,6 millions d’années.",
+      "dates": "1913 → 1996",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Mary_Leakey"
     },
     {
-      "nom": "Toumaï (Sahelanthropus tchadensis)",
-      "role": "Plus ancien hominidé",
-      "description": "Découvert au Tchad, il est considéré comme l'une des premières espèces de la lignée humaine.",
-      "dates": "Vers -7 Millions d'années",
-      "wikiUrl": "https://fr.wikipedia.org/wiki/Touma%C3%AF"
+      "nom": "Yves Coppens",
+      "role": "Paléontologue",
+      "description": "Codirige l’expédition qui découvre Lucy en 1974 et popularise l’histoire des origines de l’humanité en France.",
+      "dates": "1934 → 2022",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Yves_Coppens"
+    },
+    {
+      "nom": "Donald Johanson",
+      "role": "Paléoanthropologue",
+      "description": "Codirige l’expédition et met au jour Lucy à Hadar, en Éthiopie, le 24 novembre 1974.",
+      "dates": "né en 1943",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Donald_Johanson"
     }
   ],
   "guerres": [],
-  "sciences": "L'évolution technologique est extrêmement lente mais décisive. La transition de la culture Oldowayenne (galets simplement aménagés) à l'Acheuléen (bifaces symétriques taillés sur les deux faces) témoigne d'une évolution majeure du cortex cérébral : la capacité de conceptualiser la forme de l'outil avant de le fabriquer. La maîtrise du feu transforme ensuite la physiologie humaine, la digestion cuite demandant moins d'énergie, permettant au cerveau de se développer.",
+  "sciences": "L'évolution technologique est extrêmement lente mais décisive. La transition de la culture Oldowayenne (galets simplement aménagés) à l'Acheuléen (bifaces symétriques taillés sur les deux faces) témoigne d’une capacité nouvelle : de conceptualiser la forme de l'outil avant de le fabriquer. La maîtrise du feu transforme ensuite la physiologie humaine, la nourriture cuite étant plus facile à digérer.",
   "croyancesText": "Pour cette période reculée, on ne parle pas de religion mais de « pensée symbolique naissante ». Les premières traces de rites funéraires ou de considérations au-delà de la survie immédiate apparaissent tardivement. Des amas d'ossements et des crânes manipulés ou striés suggèrent de possibles rites de décharnement ou un respect particulier accordé aux défunts avant même l'apparition de Sapiens.",
   "diplomatie": "Il n'y a pas de géopolitique, mais des logiques de survie et de migration. Les groupes de chasseurs-cueilleurs vivent en bandes nomades (20 à 50 individus). Lorsque les ressources s'épuisent ou que le climat change, ces groupes se scindent ou migrent. C'est le phénomène « Out of Africa », qui verra Erectus puis Sapiens sortir d'Afrique par vagues successives via le couloir levantin pour peupler l'Eurasie.",
-  "documentaires": [
+  "documentaires": [],
+  "reperes": {
+    "capitale": {
+      "valeur": "Aucune",
+      "precision": "sites principaux : Hadar et l’Omo (Éthiopie), Olduvai et Laetoli (Tanzanie), lac Turkana (Kenya)"
+    },
+    "regimes": { "valeur": "Petits groupes nomades", "precision": "quelques dizaines d’individus" },
+    "langues": { "valeur": "Inconnues", "precision": "l’apparition du langage articulé reste débattue" },
+    "religion": {
+      "valeur": "Aucune trace connue",
+      "precision": "les premiers indices de pensée symbolique sont bien plus tardifs"
+    },
+    "population": { "valeur": "Quelques dizaines de milliers d’individus au plus", "precision": "estimations très incertaines" },
+    "monnaie": { "valeur": "Aucune" },
+    "duree": { "valeur": "Environ 3 millions d’années" },
+    "aujourdhui": {
+      "valeur": "Éthiopie, Kenya, Tanzanie",
+      "precision": "d’autres fossiles clés viennent du Tchad et d’Afrique du Sud"
+    }
+  },
+  "essentiel": [
+    "La vallée du Grand Rift, en Afrique de l’Est, a livré une grande partie des fossiles qui racontent l’évolution humaine.",
+    "Les australopithèques, comme [[lucy|Lucy]], marchent déjà debout il y a plus de 3 millions d’années.",
+    "Les plus anciens outils de pierre taillée connus ont environ 3,3 millions d’années : ils sont plus anciens que le genre Homo.",
+    "Homo erectus fabrique des bifaces et quitte l’Afrique il y a environ 1,8 million d’années.",
+    "Notre espèce, Homo sapiens, apparaît en Afrique il y a environ 300 000 ans."
+  ],
+  "periodes": [
     {
-      "titre": "L'Odyssée de l'espèce (France 3)",
-      "url": "https://fr.wikipedia.org/wiki/L%27Odyss%C3%A9e_de_l%27esp%C3%A8ce_(t%C3%A9l%C3%A9film)"
+      "nom": "Les australopithèques",
+      "debut": -4200000,
+      "fin": -2000000,
+      "resume": "Ces hominidés marchent debout tout en restant à l’aise dans les arbres. Leur cerveau a la taille de celui d’un chimpanzé. [[lucy|Lucy]], découverte en Éthiopie, est la plus célèbre.",
+      "evenements": [
+        { "annee": -3700000, "evenement": "Empreintes de pas de Laetoli (Tanzanie)" },
+        { "annee": -3200000, "evenement": "Vie de Lucy" }
+      ]
+    },
+    {
+      "nom": "Les premiers humains",
+      "debut": -2800000,
+      "fin": -1500000,
+      "resume": "Les premiers représentants du genre Homo apparaissent. Ils taillent des galets (l’Oldowayen) et consomment davantage de viande, souvent récupérée sur des carcasses.",
+      "evenements": [
+        { "annee": -2600000, "evenement": "Début de la culture oldowayenne" },
+        { "annee": -2400000, "evenement": "Homo habilis" }
+      ]
+    },
+    {
+      "nom": "Homo erectus",
+      "debut": -1900000,
+      "fin": -200000,
+      "resume": "Plus grand, au cerveau plus volumineux, Homo erectus invente le biface et se répand jusqu’en Asie. L’usage du feu se généralise.",
+      "evenements": [
+        { "annee": -1800000, "evenement": "Premières sorties d’Afrique" },
+        { "annee": -1600000, "evenement": "Le « garçon de Turkana », squelette presque complet" }
+      ]
+    },
+    {
+      "nom": "L’apparition d’Homo sapiens",
+      "debut": -300000,
+      "fin": -200000,
+      "resume": "Les plus anciens fossiles de notre espèce, au Maroc et en Éthiopie, montrent qu’Homo sapiens est né en Afrique, sans doute dans plusieurs régions à la fois.",
+      "evenements": [{ "annee": -300000, "evenement": "Fossiles de Djebel Irhoud (Maroc)" }]
+    }
+  ],
+  "societe": "Les hominidés vivent en petits groupes mobiles qui se partagent la nourriture. Certains fossiles suggèrent l’entraide : à Dmanisi (Géorgie), un individu ayant perdu presque toutes ses dents a survécu des années, sans doute grâce aux autres.",
+  "economie": "Cueillette de fruits, de graines et de racines, récupération de viande sur des carcasses, puis chasse de plus en plus organisée. Les outils servent à découper la viande et à briser les os pour la moelle.",
+  "decouvertes": ["lucy", "toumai"],
+  "arts": "Aucun art n’est connu pour ces périodes très anciennes. Les plus anciennes traces de gestes « gratuits », comme des gravures sur coquillage, apparaissent bien plus tard et hors d’Afrique de l’Est.",
+  "quotidien": "Les journées sont consacrées à la recherche de nourriture et d’eau, et à la surveillance des prédateurs. Les groupes se déplacent au fil des saisons. À partir de la maîtrise du feu, les veillées autour du foyer deviennent un moment de vie collective.",
+  "heritage": [
+    {
+      "titre": "Une origine commune",
+      "texte": "Tous les humains actuels descendent de populations d’Homo sapiens apparues en Afrique."
+    },
+    {
+      "titre": "Les sites classés",
+      "texte": "La basse vallée de l’Omo, Hadar et les sites du lac Turkana sont inscrits au patrimoine mondial de l’UNESCO."
+    }
+  ],
+  "aSavoir": [
+    "L’homme ne « descend pas du singe » : humains et chimpanzés partagent un ancêtre commun qui vivait il y a environ 6 à 7 millions d’années.",
+    "L’évolution humaine n’est pas une ligne droite mais un buisson : plusieurs espèces d’hominidés ont souvent vécu en même temps."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Lign%C3%A9e_humaine",
+    {
+      "titre": "Encyclopædia Britannica — Human evolution",
+      "url": "https://www.britannica.com/science/human-evolution"
     }
   ]
 }

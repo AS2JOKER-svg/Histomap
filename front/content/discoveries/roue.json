@@ -1,0 +1,18 @@
+{
+  "id": "roue",
+  "nom": "La roue",
+  "annee": -3500,
+  "domaine": "Transport",
+  "dates": "vers −3500",
+  "description": "Une invention qui apparaît presque en même temps en Mésopotamie et en Europe, d’abord pour des chariots tirés par des bœufs, et sans doute pour les tours de potier.",
+  "sections": [
+    {
+      "titre": "Comment ça marche",
+      "texte": "Les premières roues sont des disques pleins, taillés dans des planches assemblées, fixés à un essieu. Les roues à rayons, plus légères, apparaissent vers −2000 pour les chars de guerre."
+    }
+  ],
+  "aSavoir": [
+    "Les civilisations d’Amérique connaissaient la roue (sur des jouets), mais ne l’ont pas utilisée pour le transport, faute d’animaux de trait."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Roue"
+}

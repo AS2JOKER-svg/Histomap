@@ -12,10 +12,7 @@
   "isRiver": false,
   "capitale": "Thanjavur",
   "description": "La superpuissance tamoule de l'Inde du Sud, à la marine conquérante et à l'architecture monumentale inébranlable.",
-  "territories": [
-    "Cholas",
-    "Chola Empire"
-  ],
+  "territories": ["Cholas", "Chola Empire"],
   "datesCles": [
     {
       "annee": 848,
@@ -34,29 +31,15 @@
     }
   ],
   "dirigeants": [
-    {
-      "titre": "Raja (Roi)",
-      "nom": "Rajaraja Ier",
-      "surnom": "Le Grand",
-      "debut": 985,
-      "fin": 1014
-    },
-    {
-      "titre": "Raja",
-      "nom": "Rajendra Ier",
-      "debut": 1014,
-      "fin": 1044
-    }
+    { "titre": "Raja (Roi)", "nom": "Rajaraja Ier", "surnom": "Le Grand", "debut": 985, "fin": 1014 },
+    { "titre": "Raja", "nom": "Rajendra Ier", "debut": 1014, "fin": 1044 }
   ],
   "personnages": [],
   "guerres": [
     {
       "nom": "Campagnes navales d'Asie du Sud-Est",
       "annee": 1025,
-      "adversaires": [
-        "Empire de Srivijaya",
-        "Royaumes malais"
-      ],
+      "adversaires": ["Empire de Srivijaya", "Royaumes malais"],
       "allies": [],
       "morts": "Pillage systématique",
       "vainqueur": "Empire Chola",
@@ -67,10 +50,5 @@
   "sciences": "Ils entretiennent et développent les aménagements hydrauliques du fleuve Kaveri, dont une grande partie est plus ancienne (barrage de Kallanai, attribué aux premiers Chola). Ils produisent la plus belle statuaire de bronze à cire perdue de l'humanité, particulièrement la figure du Shiva Nataraja (le danseur cosmique entouré de flammes), fondue d'une seule pièce et d'une fluidité de mouvement spectaculaire.",
   "croyancesText": "Farouchement hindous de rite shivaïte, les souverains Chola construisent des temples massifs, dominés par leur vimana (la tour du sanctuaire), conçus pour fonctionner comme de véritables banques et centres de redistribution agricole. Ils réinvestissent l'immense butin de leurs guerres en Asie du Sud-Est pour recouvrir les toits de leurs temples d'or pur, transformant la caste des brahmanes (prêtres) en riche administrateurs d'État.",
   "diplomatie": "C'est l'un des très rares empires de l'histoire indienne à se tourner vers la conquête navale étrangère. Ils entretiennent de formelles ambassades diplomatiques et commerciales jusqu'à la cour de la dynastie Song en Chine. Quand le monopole malaisien de Srivijaya menace leurs marchands en bloquant le détroit, l'empereur indien lève une flotte armée pour aller les détruire.",
-  "documentaires": [
-    {
-      "titre": "L'art du bronze et l'Empire Chola",
-      "url": "https://fr.wikipedia.org/wiki/Dynastie_Chola"
-    }
-  ]
+  "documentaires": [{ "titre": "L'art du bronze et l'Empire Chola", "url": "https://fr.wikipedia.org/wiki/Dynastie_Chola" }]
 }

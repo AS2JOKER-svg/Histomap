@@ -12,9 +12,7 @@
   "isRiver": false,
   "capitale": "Cahuachi (centre cérémoniel)",
   "description": "Société du désert aride péruvien, passée maître dans l'ingénierie hydraulique de survie et le tracé énigmatique de dessins géants.",
-  "territories": [
-    "Nazca"
-  ],
+  "territories": ["Nazca"],
   "datesCles": [
     {
       "annee": -100,
@@ -38,10 +36,5 @@
   "sciences": "Survivre dans le désert le plus aride du monde implique des prouesses de terrassement. On leur attribue généralement les 'Puquios' : de monumentaux aqueducs souterrains empierrés captant l'eau des nappes phréatiques, avec d'impressionnantes cheminées d'aération en spirale pour permettre l'entretien sans que l'eau ne s'évapore sous le soleil mortel. Leur céramique polychrome utilise une grande variété de couleurs minérales (souvent plus d'une dizaine).",
   "croyancesText": "Les fameuses Lignes de Nazca (géoglyphes) ne sont pas des pistes pour extraterrestres, mais des chemins processionnels religieux. Selon une hypothèse répandue, des processions parcouraient les tracés du colibri ou du condor pour prier les dieux de la montagne et appeler la pluie. Leurs rites incluent la collection intensive de 'têtes-trophées' momifiées d'ennemis pour voler leur énergie rituelle.",
   "diplomatie": "Nazca est une confédération de chefferies de vallées, liées par une religion commune dont le grand centre est Cahuachi (centre cérémoniel et de pèlerinage en adobe, et non une capitale). La sécheresse permanente et le besoin de ressources rendent les conflits rituels très fréquents, où capturer vivant son adversaire pour l'offrir en sacrifice (ou le décapiter) garantit la gloire et l'approvisionnement mystique en eau.",
-  "documentaires": [
-    {
-      "titre": "Nazca, les messages de la Terre",
-      "url": "https://fr.wikipedia.org/wiki/Nazca_(culture)"
-    }
-  ]
+  "documentaires": [{ "titre": "Nazca, les messages de la Terre", "url": "https://fr.wikipedia.org/wiki/Nazca_(culture)" }]
 }

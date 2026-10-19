@@ -1,0 +1,28 @@
+{
+  "id": "otzi",
+  "nom": "Ötzi",
+  "role": "L’homme des glaces",
+  "roles": ["Momie", "Âge du cuivre"],
+  "dates": "vers −3350 → vers −3300",
+  "naissance": -3350,
+  "mort": -3300,
+  "description": "Un homme de l’âge du cuivre mort dans les Alpes il y a plus de 5 000 ans, dont le corps a été conservé par la glace avec ses vêtements et son équipement.",
+  "reperes": [
+    {
+      "label": "Découverte",
+      "valeur": "19 septembre 1991",
+      "precision": "glacier du Similaun, à la frontière italo-autrichienne"
+    },
+    { "label": "Âge", "valeur": "Environ 45 ans" },
+    { "label": "Musée", "valeur": "Bolzano (Italie)" }
+  ],
+  "essentiel": [
+    "Il porte une hache en cuivre, un arc, des flèches et des vêtements en cuir et en fourrure.",
+    "Une pointe de flèche logée dans son épaule montre qu’il a été tué.",
+    "Son corps porte plus de soixante tatouages, parmi les plus anciens connus."
+  ],
+  "aSavoir": [
+    "Il est mort vers −3300, il y a environ 5 300 ans : quelque sept siècles avant la construction de la grande pyramide de Khéops."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/%C3%96tzi"
+}

@@ -32,19 +32,92 @@
     {
       "annee": -3500,
       "evenement": "Début de la désertification",
-      "info": "L'aridification repousse les pasteurs vers la vallée du Nil, contribuant à la naissance de l'Égypte."
+      "info": "Le Sahara s’assèche peu à peu ; les pasteurs se replient vers le Sahel, les massifs et la vallée du Nil, où certains chercheurs voient une des sources de la civilisation égyptienne."
     }
   ],
   "dirigeants": [],
-  "personnages": [],
+  "personnages": [
+    {
+      "nom": "Henri Lhote",
+      "role": "Explorateur et ethnologue",
+      "description": "Il fait connaître au grand public les fresques du Tassili n’Ajjer, dont il fait relever des centaines de copies en 1956-1957.",
+      "dates": "1903 → 1991",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Henri_Lhote"
+    },
+    {
+      "nom": "Théodore Monod",
+      "role": "Naturaliste",
+      "description": "Grand spécialiste du Sahara, qu’il a parcouru pendant plus de soixante ans.",
+      "dates": "1902 → 2000",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Th%C3%A9odore_Monod"
+    }
+  ],
   "guerres": [],
   "sciences": "Ces populations ne pratiquent pas l'agriculture au sens strict, mais développent une maîtrise avancée de l'élevage bovin et de la céramique (souvent décorée au peigne). Ils exploitent intensivement les ressources lacustres (harpons en os) et savent stocker les graminées sauvages dans de grandes jarres en argile pour pallier les famines.",
-  "croyancesText": "Leurs croyances nous sont parvenues par le somptueux art rupestre du Tassili n'Ajjer (Algérie). Les parois rocheuses montrent un panthéon animiste complexe : figures surnommées « Grands Dieux martiens » par Henri Lhote (un surnom aujourd'hui abandonné), « têtes rondes », chamans masqués et femmes rituellement décorées. Le bétail, omniprésent, semble posséder un statut sacré, préfigurant les cultes bovins de l'Égypte antique (la déesse Hathor).",
+  "croyancesText": "Leurs croyances ne nous sont connues que par l’art rupestre, difficile à interpréter. Les peintures du Tassili montrent des personnages masqués, de grandes figures aux « têtes rondes » et des scènes qui pourraient être des cérémonies. Le bétail, omniprésent, semble avoir eu une grande importance ; certains chercheurs y voient une parenté avec les cultes bovins de l’Égypte ancienne, mais cela reste une hypothèse.",
   "diplomatie": "Ces sociétés tribales semi-nomades suivent les cycles saisonniers des pluies. L'abondance de ressources de la période dite du « Sahara vert » favorise les échanges pacifiques et les rassemblements rituels autour des grands points d'eau.",
-  "documentaires": [
+  "documentaires": [],
+  "reperes": {
+    "capitale": {
+      "valeur": "Aucune",
+      "precision": "sites principaux : Tassili n’Ajjer (Algérie), Acacus (Libye), Ennedi (Tchad), Nabta Playa (Égypte)"
+    },
+    "regimes": { "valeur": "Groupes semi-nomades", "precision": "chasseurs-pêcheurs, puis éleveurs" },
+    "langues": { "valeur": "Inconnues" },
+    "religion": { "valeur": "Inconnue", "precision": "l’art rupestre suggère des rites et un rôle particulier du bétail" },
+    "monnaie": { "valeur": "Aucune" },
+    "duree": { "valeur": "Environ 7 000 ans" },
+    "aujourdhui": { "valeur": "Le Sahara", "precision": "Algérie, Libye, Niger, Tchad, Égypte, Soudan, Mali" }
+  },
+  "essentiel": [
+    "À la fin de la dernière glaciation, la « période humide africaine » transforme le Sahara en une savane parsemée de lacs.",
+    "Des chasseurs-pêcheurs s’y installent ; vers −9400, ils fabriquent parmi les plus anciennes poteries d’Afrique.",
+    "Des éleveurs de bovins prennent le relais et parcourent ces immenses pâturages.",
+    "Des milliers de peintures et de gravures, comme l’[[art-rupestre-du-tassili|art rupestre du Tassili]], racontent leur vie.",
+    "Vers −3500 / −3000, le Sahara redevient un désert : les populations se replient vers les montagnes, le Sahel et la vallée du Nil."
+  ],
+  "periodes": [
     {
-      "titre": "Documentaire : Le Sahara Vert",
-      "url": "https://fr.wikipedia.org/wiki/Subpluvial_n%C3%A9olithique"
+      "nom": "Le Sahara humide des chasseurs-pêcheurs",
+      "debut": -10000,
+      "fin": -6000,
+      "resume": "Lacs et rivières abritent hippopotames, crocodiles et poissons. Les habitants chassent, pêchent au harpon et récoltent des graminées sauvages, qu’ils cuisent dans leurs premières poteries.",
+      "evenements": [{ "annee": -9400, "evenement": "Poteries d’Ounjougou (Mali)" }]
+    },
+    {
+      "nom": "Le temps des éleveurs",
+      "debut": -6000,
+      "fin": -3500,
+      "resume": "L’élevage de bovins, de moutons et de chèvres se répand. Les peintures montrent de grands troupeaux, des campements et des scènes de vie.",
+      "evenements": [
+        { "annee": -5000, "evenement": "Apogée de l’art rupestre bovidien" },
+        { "annee": -4800, "evenement": "Cercle de pierres de Nabta Playa (date approximative)" }
+      ]
+    },
+    {
+      "nom": "Le retour du désert",
+      "debut": -3500,
+      "fin": -3000,
+      "resume": "Les pluies diminuent, les lacs s’assèchent. Les éleveurs se replient vers les points d’eau, les montagnes et les vallées."
     }
-  ]
+  ],
+  "societe": "Des groupes familiaux se déplacent au rythme des saisons et des pâturages. Ils se retrouvent probablement autour des grands points d’eau, pour échanger et célébrer des rites.",
+  "economie": "D’abord la chasse, la pêche et la cueillette de graines sauvages, puis l’élevage de bovins, de moutons et de chèvres. Le lait et peut-être le sang du bétail complètent l’alimentation.",
+  "decouvertes": ["art-rupestre-du-tassili"],
+  "arts": "Des milliers de gravures et de peintures couvrent les parois des massifs sahariens. Les spécialistes y distinguent plusieurs périodes : les grandes gravures d’animaux sauvages, les « têtes rondes », puis les scènes d’éleveurs avec leurs troupeaux.",
+  "quotidien": "Campements de huttes légères, poteries décorées au peigne, harpons en os pour la pêche, meules pour broyer les graines : la vie s’organise autour de l’eau et des troupeaux.",
+  "heritage": [
+    {
+      "titre": "Un musée à ciel ouvert",
+      "texte": "Le Tassili n’Ajjer et l’Acacus sont inscrits au patrimoine mondial de l’UNESCO."
+    },
+    {
+      "titre": "Une leçon de climat",
+      "texte": "Le Sahara vert rappelle que le climat peut changer profondément, et avec lui les sociétés."
+    }
+  ],
+  "aSavoir": [
+    "Certaines copies réalisées par l’équipe d’Henri Lhote ont été critiquées pour leurs erreurs et leurs « embellissements » ; les chercheurs travaillent aujourd’hui sur les parois et sur des photographies."
+  ],
+  "sources": ["https://fr.wikipedia.org/wiki/Sahara_vert", "https://fr.wikipedia.org/wiki/Tassili_n%27Ajjer"]
 }

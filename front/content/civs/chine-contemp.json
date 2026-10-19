@@ -11,11 +11,7 @@
   "isRiver": false,
   "capitale": "Pékin",
   "description": "Le pays a survécu à un 'siècle de la honte' colonial pour fonder un communisme absolu et affamé, devenu depuis les années 80 l'atelier du monde libéralisé.",
-  "territories": [
-    "Manchu Empire",
-    "Qing Empire",
-    "China"
-  ],
+  "territories": ["Manchu Empire", "Qing Empire", "China"],
   "datesCles": [
     {
       "annee": 1839,
@@ -44,18 +40,8 @@
     }
   ],
   "dirigeants": [
-    {
-      "titre": "Le Grand Timonier (Dictateur)",
-      "nom": "Mao Zedong",
-      "debut": 1949,
-      "fin": 1976
-    },
-    {
-      "titre": "Leader Paramount",
-      "nom": "Deng Xiaoping",
-      "debut": 1978,
-      "fin": 1989
-    }
+    { "titre": "Le Grand Timonier (Dictateur)", "nom": "Mao Zedong", "debut": 1949, "fin": 1976 },
+    { "titre": "Leader Paramount", "nom": "Deng Xiaoping", "debut": 1978, "fin": 1989 }
   ],
   "personnages": [
     {
@@ -70,12 +56,8 @@
     {
       "nom": "Seconde Guerre sino-japonaise",
       "annee": 1937,
-      "adversaires": [
-        "Empire du Japon"
-      ],
-      "allies": [
-        "Alliés de la Seconde Guerre Mondiale"
-      ],
+      "adversaires": ["Empire du Japon"],
+      "allies": ["Alliés de la Seconde Guerre Mondiale"],
       "morts": "20 millions de morts chinois",
       "vainqueur": "République de Chine (et Alliés)",
       "consequences": "L'horreur de l'invasion impériale nippone (Massacre de Nankin). Les communistes de Mao utiliseront l'épuisement des forces du gouvernement nationaliste de l'époque pour gagner la guerre civile.",

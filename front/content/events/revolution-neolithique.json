@@ -1,0 +1,20 @@
+{
+  "id": "revolution-neolithique",
+  "nom": "La révolution néolithique",
+  "annee": -9500,
+  "dates": "à partir de −9500 environ",
+  "lieu": "Croissant fertile (Proche-Orient), puis le monde",
+  "description": "Le passage de la chasse et de la cueillette à l’agriculture et à l’élevage. Il s’invente d’abord au Proche-Orient, puis, de façon indépendante, en Chine, en Amérique et en Nouvelle-Guinée.",
+  "sections": [
+    {
+      "titre": "Ce qui change",
+      "texte": "Les humains cultivent le blé, l’orge, les lentilles, domestiquent la chèvre, le mouton, le bœuf et le porc. Ils se sédentarisent dans des villages et inventent la poterie et le tissage."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "La population augmente fortement ; les réserves de nourriture permettent à certains de se spécialiser. Les inégalités, la propriété et les conflits pour la terre s’accentuent."
+    }
+  ],
+  "aSavoir": ["Le mot « révolution » est trompeur : le changement s’étale sur plusieurs millénaires."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/R%C3%A9volution_n%C3%A9olithique"
+}

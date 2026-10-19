@@ -11,9 +11,7 @@
   "isRiver": false,
   "capitale": "Mbanza Kongo",
   "description": "État hautement centralisé du bassin du Congo, riche en cuivre et en ivoire, bouleversé par le choc diplomatique de l'arrivée des navires portugais à la fin du Moyen Âge.",
-  "territories": [
-    "Congo"
-  ],
+  "territories": ["Congo"],
   "datesCles": [
     {
       "annee": 1390,
@@ -39,22 +37,14 @@
       "debut": 1390,
       "fin": 1420
     },
-    {
-      "titre": "Manikongo",
-      "nom": "Nzinga a Nkuwu",
-      "surnom": "João Ier du Kongo",
-      "debut": 1470,
-      "fin": 1509
-    }
+    { "titre": "Manikongo", "nom": "Nzinga a Nkuwu", "surnom": "João Ier du Kongo", "debut": 1470, "fin": 1509 }
   ],
   "personnages": [],
   "guerres": [
     {
       "nom": "Expansion du Kongo (fin XIVe – XVe s.)",
       "annee": 1400,
-      "adversaires": [
-        "Chefferies voisines (Nsundi, Mbata…)"
-      ],
+      "adversaires": ["Chefferies voisines (Nsundi, Mbata…)"],
       "allies": [],
       "morts": "Inconnu",
       "vainqueur": "Royaume du Kongo",

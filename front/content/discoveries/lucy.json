@@ -1,0 +1,23 @@
+{
+  "id": "lucy",
+  "nom": "Lucy",
+  "annee": -3200000,
+  "domaine": "Paléoanthropologie",
+  "dates": "vécut vers −3,2 millions d’années ; découverte en 1974",
+  "description": "Le squelette d’une femelle australopithèque (Australopithecus afarensis), retrouvé à environ 40 % en Éthiopie. Elle prouve que nos ancêtres marchaient debout bien avant d’avoir un gros cerveau.",
+  "reperes": [
+    { "label": "Découverte", "valeur": "24 novembre 1974", "precision": "Hadar, Éthiopie" },
+    { "label": "Taille", "valeur": "Environ 1,10 m", "precision": "pour une trentaine de kilos" }
+  ],
+  "sections": [
+    {
+      "titre": "Pourquoi elle est importante",
+      "texte": "Son bassin et ses jambes montrent une marche debout, alors que ses bras longs et ses doigts courbes rappellent la vie dans les arbres. Elle a longtemps été le plus ancien squelette d’hominidé aussi complet."
+    }
+  ],
+  "aSavoir": [
+    "Son nom vient de la chanson des Beatles « Lucy in the Sky with Diamonds », écoutée au camp le soir de la découverte.",
+    "En Éthiopie, on l’appelle aussi Dinknesh, « tu es merveilleuse »."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Lucy_(australopith%C3%A8que)"
+}

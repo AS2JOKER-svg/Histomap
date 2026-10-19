@@ -11,9 +11,7 @@
   "isRiver": false,
   "capitale": "Mbanza Kongo (San Salvador)",
   "description": "Un royaume subsaharien choisissant librement de se christianiser, tentant de traiter d'égal à égal avec l'Europe avant d'être broyé par les trafiquants d'esclaves portugais.",
-  "territories": [
-    "Congo"
-  ],
+  "territories": ["Congo"],
   "datesCles": [
     {
       "annee": 1518,
@@ -37,20 +35,8 @@
     }
   ],
   "dirigeants": [
-    {
-      "titre": "Manikongo (Roi)",
-      "nom": "Afonso Ier",
-      "surnom": "Nzinga Mvemba",
-      "debut": 1509,
-      "fin": 1542
-    },
-    {
-      "titre": "Manikongo",
-      "nom": "António Ier",
-      "surnom": "Nvita a Nkanga",
-      "debut": 1661,
-      "fin": 1665
-    }
+    { "titre": "Manikongo (Roi)", "nom": "Afonso Ier", "surnom": "Nzinga Mvemba", "debut": 1509, "fin": 1542 },
+    { "titre": "Manikongo", "nom": "António Ier", "surnom": "Nvita a Nkanga", "debut": 1661, "fin": 1665 }
   ],
   "personnages": [
     {
@@ -65,9 +51,7 @@
     {
       "nom": "Bataille d'Ambuila",
       "annee": 1665,
-      "adversaires": [
-        "Colonie portugaise d'Angola"
-      ],
+      "adversaires": ["Colonie portugaise d'Angola"],
       "allies": [],
       "morts": "Anéantissement de la noblesse",
       "vainqueur": "Portugal",
@@ -78,10 +62,5 @@
   "sciences": "Le royaume crée un véritable syncrétisme intellectuel afro-européen. Une partie de la haute noblesse s'alphabétise en portugais et en latin. Ils réorganisent l'administration de l'État en copiant les titres de noblesse européens (Ducs, Comtes, Marquis) plaqués sur les structures de parenté matrilinéaires traditionnelles.",
   "croyancesText": "Le christianisme du Kongo n'est pas imposé par la force, c'est une appropriation d'État. Les anciens esprits (Nkisi) sont assimilés aux saints catholiques, et la Croix devient le nouveau symbole suprême de la magie protectrice royale. Les missionnaires jésuites puis capucins (souvent italiens, envoyés par Rome) accompagnent cette christianisation.",
   "diplomatie": "Sous Afonso Ier, le roi du Kongo et le roi du Portugal s'appellent 'Frères' dans leurs lettres ; le Kongo fait venir des maîtres d'école, des imprimeurs, des artisans et des arquebuses. Initialement un partenariat, la relation dégénère car la monnaie d'échange exigée par les Portugais pour les armes à feu n'est plus l'ivoire ou le cuivre, mais les esclaves pour les plantations du Brésil. La couronne du Kongo s'épuise à lancer des guerres frontalières interminables pour fournir des captifs, finissant par détruire l'équilibre démographique et moral de son propre royaume.",
-  "documentaires": [
-    {
-      "titre": "Le Royaume du Kongo",
-      "url": "https://fr.wikipedia.org/wiki/Royaume_du_Kongo"
-    }
-  ]
+  "documentaires": [{ "titre": "Le Royaume du Kongo", "url": "https://fr.wikipedia.org/wiki/Royaume_du_Kongo" }]
 }

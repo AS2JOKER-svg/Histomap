@@ -11,9 +11,7 @@
   "isRiver": false,
   "capitale": "Gao",
   "description": "Anciens vassaux du Mali s'émancipant pour fonder un empire qui deviendra, sous les Askia, le plus vaste de l'histoire de l'Afrique de l'Ouest.",
-  "territories": [
-    "Songhai"
-  ],
+  "territories": ["Songhai"],
   "datesCles": [
     {
       "annee": 1464,
@@ -31,23 +29,13 @@
       "info": "Chute de la cité-État marchande imprenable après un long blocus naval sur le Niger."
     }
   ],
-  "dirigeants": [
-    {
-      "titre": "Empereur (Sonni)",
-      "nom": "Ali Ber",
-      "surnom": "Ali le Grand / Le Tyran",
-      "debut": 1464,
-      "fin": 1492
-    }
-  ],
+  "dirigeants": [{ "titre": "Empereur (Sonni)", "nom": "Ali Ber", "surnom": "Ali le Grand / Le Tyran", "debut": 1464, "fin": 1492 }],
   "personnages": [],
   "guerres": [
     {
       "nom": "Expansion contre les royaumes Mossis",
       "annee": 1483,
-      "adversaires": [
-        "Cavaleries Mossis"
-      ],
+      "adversaires": ["Cavaleries Mossis"],
       "allies": [],
       "morts": "Inconnu",
       "vainqueur": "Songhaï",
@@ -58,10 +46,5 @@
   "sciences": "Leur suprématie est tactique. Sonni Ali s'appuie sur une cavalerie mobile et sur une flotte de pirogues qui circule sur le fleuve Niger, permettant de transporter troupes et ravitaillement.",
   "croyancesText": "Contrairement à l'empire du Mali, Sonni Ali Ber déteste le clergé musulman de Tombouctou qu'il accuse de trahison. Il règne en mêlant islam et pratiques religieuses traditionnelles songhaï, ce qui lui vaut d'être présenté comme un tyran impie par les chroniqueurs musulmans (comme l'auteur du Tarikh al-Sudan, rédigé au XVIIe siècle).",
   "diplomatie": "Sonni Ali mène surtout une politique de conquête : il soumet les grandes villes marchandes du Niger (Tombouctou, Djenné) et repousse les Touaregs et les Mossis. L'organisation administrative de l'empire (provinces confiées à des gouverneurs, poids et mesures) sera surtout l'œuvre de son successeur Askia Mohammed.",
-  "documentaires": [
-    {
-      "titre": "La suprématie de l'Empire Songhaï",
-      "url": "https://fr.wikipedia.org/wiki/Empire_songha%C3%AF"
-    }
-  ]
+  "documentaires": [{ "titre": "La suprématie de l'Empire Songhaï", "url": "https://fr.wikipedia.org/wiki/Empire_songha%C3%AF" }]
 }

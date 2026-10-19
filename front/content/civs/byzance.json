@@ -11,16 +11,9 @@
   "isRiver": false,
   "capitale": "Constantinople",
   "description": "Le survivant de l'Empire romain d'Orient, forteresse imprenable de la chrétienté orthodoxe et phare culturel du Moyen Âge.",
-  "territories": [
-    "Eastern Roman Empire",
-    "Byzantine Empire"
-  ],
+  "territories": ["Eastern Roman Empire", "Byzantine Empire"],
   "datesCles": [
-    {
-      "annee": 532,
-      "evenement": "Sédition Nika",
-      "info": "Révolte matée dans le sang par Justinien et Théodora."
-    },
+    { "annee": 532, "evenement": "Sédition Nika", "info": "Révolte matée dans le sang par Justinien et Théodora." },
     {
       "annee": 537,
       "evenement": "Sainte-Sophie",
@@ -43,27 +36,9 @@
     }
   ],
   "dirigeants": [
-    {
-      "titre": "Basileus (Empereur)",
-      "nom": "Justinien Ier",
-      "surnom": "Le Grand",
-      "debut": 527,
-      "fin": 565
-    },
-    {
-      "titre": "Basileus",
-      "nom": "Basile II",
-      "surnom": "Le Bulgaroctone",
-      "debut": 976,
-      "fin": 1025
-    },
-    {
-      "titre": "Dernier Empereur",
-      "nom": "Constantin XI",
-      "surnom": "Paléologue",
-      "debut": 1449,
-      "fin": 1453
-    }
+    { "titre": "Basileus (Empereur)", "nom": "Justinien Ier", "surnom": "Le Grand", "debut": 527, "fin": 565 },
+    { "titre": "Basileus", "nom": "Basile II", "surnom": "Le Bulgaroctone", "debut": 976, "fin": 1025 },
+    { "titre": "Dernier Empereur", "nom": "Constantin XI", "surnom": "Paléologue", "debut": 1449, "fin": 1453 }
   ],
   "personnages": [
     {
@@ -78,12 +53,8 @@
     {
       "nom": "Chute de Constantinople",
       "annee": 1453,
-      "adversaires": [
-        "Empire Ottoman (Mehmed II)"
-      ],
-      "allies": [
-        "Génois, Vénitiens"
-      ],
+      "adversaires": ["Empire Ottoman (Mehmed II)"],
+      "allies": ["Génois, Vénitiens"],
       "morts": "Massacre de la population",
       "vainqueur": "Ottomans",
       "consequences": "Choc mondial. La basilique Sainte-Sophie devient une mosquée. Les savants byzantins fuient vers l'Italie, déclenchant la Renaissance.",
@@ -93,10 +64,5 @@
   "sciences": "Outre la préservation vitale de la littérature et de la philosophie grecque antique, Byzance a inventé l'une des armes les plus terrifiantes de l'histoire : le feu grégeois. Ce liquide incendiaire indextinguible, projeté par des siphons en bronze sur les navires ennemis, brûlait même sur l'eau. Sur le plan civil, Justinien compile le droit romain (Corpus Juris Civilis), fondement de la justice européenne moderne.",
   "croyancesText": "Le Césaropapisme est la règle : l'Empereur (Basileus) est le lieutenant de Dieu sur terre, il nomme le Patriarche et convoque les conciles. La religion byzantine (le christianisme orthodoxe) est marquée par de violentes querelles théologiques, notamment la crise iconoclaste (destruction des images pieuses aux VIIIe-IXe siècles) et sa liturgie éclatante magnifiée par un art inégalé de la mosaïque d'or.",
   "diplomatie": "Enfermée entre l'Europe barbare, les Bulgares, l'Islam naissant et les Turcs, Byzance survit pendant 1000 ans grâce à une diplomatie machiavélique (le terme 'byzantin' en est resté). Le 'Bureau des Barbares' orchestrait l'espionnage, les versements massifs d'or pour monter les ennemis les uns contre les autres, et l'éblouissement des ambassadeurs dans le Grand Palais de Constantinople.",
-  "documentaires": [
-    {
-      "titre": "Arte : Byzance, l'Empire romain d'Orient",
-      "url": "https://fr.wikipedia.org/wiki/Empire_byzantin"
-    }
-  ]
+  "documentaires": [{ "titre": "Arte : Byzance, l'Empire romain d'Orient", "url": "https://fr.wikipedia.org/wiki/Empire_byzantin" }]
 }

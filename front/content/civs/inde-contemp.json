@@ -11,10 +11,7 @@
   "isRiver": false,
   "capitale": "New Delhi",
   "description": "Le 'Joyau de la Couronne britannique' spolié économiquement pendant 150 ans, gagnant la liberté par la non-violence avant de se fracturer violemment avec le Pakistan.",
-  "territories": [
-    "British Raj",
-    "India"
-  ],
+  "territories": ["British Raj", "India"],
   "datesCles": [
     {
       "annee": 1857,
@@ -38,18 +35,8 @@
     }
   ],
   "dirigeants": [
-    {
-      "titre": "Impératrice des Indes",
-      "nom": "Reine Victoria",
-      "debut": 1876,
-      "fin": 1901
-    },
-    {
-      "titre": "1er Premier ministre",
-      "nom": "Jawaharlal Nehru",
-      "debut": 1947,
-      "fin": 1964
-    }
+    { "titre": "Impératrice des Indes", "nom": "Reine Victoria", "debut": 1876, "fin": 1901 },
+    { "titre": "1er Premier ministre", "nom": "Jawaharlal Nehru", "debut": 1947, "fin": 1964 }
   ],
   "personnages": [
     {
@@ -64,12 +51,8 @@
     {
       "nom": "Guerres Indo-Pakistanaises",
       "annee": 1947,
-      "adversaires": [
-        "République Islamique du Pakistan"
-      ],
-      "allies": [
-        "(L'Inde sera soutenue logistiquement par l'URSS)"
-      ],
+      "adversaires": ["République Islamique du Pakistan"],
+      "allies": ["(L'Inde sera soutenue logistiquement par l'URSS)"],
       "morts": "Pertes militaires lourdes",
       "vainqueur": "Victoires indiennes",
       "consequences": "En 1971, l'armée indienne écrase le Pakistan pour assurer la sécession d'un nouvel État musulman séparé : le Bangladesh.",
@@ -79,10 +62,5 @@
   "sciences": "Pour extraire les immenses ressources (coton, thé) vers Londres, les Anglais arment l'Inde du plus gigantesque réseau ferroviaire et télégraphique d'Asie. Au XXème siècle, libérée des horribles famines britanniques par la 'Révolution verte' agricole (nouveaux engrais et hybrides), l'Inde contemporaine devient une superpuissance de services informatiques mondialisés, avec son propre programme spatial abouti sur Mars.",
   "croyancesText": "Ce sont les croyances qui ont dicté les frontières modernes. À l'indépendance, issue des revendications de la Ligue musulmane et des négociations avec les Britanniques, le territoire est partagé : c'est la Partition. L'Inde (majoritairement hindoue laïque) et le Pakistan Occidental et Oriental (États musulmans, et le futur Bangladesh). Cette ligne de séparation, l'une des pires tragédies de l'Histoire, engendra 15 millions de déplacés jetés sur les routes au milieu des massacres inter-religieux.",
   "diplomatie": "Durant la Guerre Froide, refusant l'alignement sur les Américains ou les Soviétiques, l'Inde invente le 'Mouvement des non-alignés' pour donner une voix au Tiers-Monde en développement. Sa diplomatie du XXIe siècle est focalisée sur le duel territorial brûlant au nord sur les neiges du Cachemire, une poudrière face au Pakistan (soutenu par les Chinois).",
-  "documentaires": [
-    {
-      "titre": "Gandhi, la libération sans les armes",
-      "url": "https://fr.wikipedia.org/wiki/Mahatma_Gandhi"
-    }
-  ]
+  "documentaires": [{ "titre": "Gandhi, la libération sans les armes", "url": "https://fr.wikipedia.org/wiki/Mahatma_Gandhi" }]
 }

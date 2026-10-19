@@ -1,0 +1,16 @@
+{
+  "id": "nzinga-a-nkuwu",
+  "nom": "Nzinga a Nkuwu",
+  "nomComplet": "João Ier du Kongo",
+  "role": "Roi du Kongo",
+  "roles": ["Roi (manikongo)"],
+  "dates": "mort en 1509",
+  "mort": 1509,
+  "description": "Roi du Kongo qui reçoit les premiers Portugais et se fait baptiser en 1491 sous le nom de João Ier, du nom du roi du Portugal.",
+  "essentiel": [
+    "Il échange des ambassades avec le roi Jean II du Portugal.",
+    "Il est baptisé le 3 mai 1491 à Mbanza Kongo avec plusieurs nobles.",
+    "Il revient ensuite en partie aux pratiques traditionnelles, tandis que son fils Afonso reste un chrétien fervent."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Nzinga_Nkuwu"
+}

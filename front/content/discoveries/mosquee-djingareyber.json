@@ -1,0 +1,19 @@
+{
+  "id": "mosquee-djingareyber",
+  "nom": "Mosquée de Djingareyber",
+  "annee": 1327,
+  "domaine": "Architecture",
+  "dates": "vers 1327",
+  "description": "La grande mosquée de Tombouctou, construite en terre crue à la demande de [[mansa-moussa|Mansa Moussa]] : l’un des plus anciens monuments de l’Afrique de l’Ouest.",
+  "sections": [
+    {
+      "titre": "Comment elle est construite",
+      "texte": "Les murs en banco (terre et paille), soutenus par du bois, doivent être recrépis régulièrement : c’est un travail collectif qui mobilise les habitants."
+    },
+    {
+      "titre": "Son rôle",
+      "texte": "Avec les mosquées de Sankoré et de Sidi Yahia, elle fait de Tombouctou un centre religieux et intellectuel du monde musulman."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Mosqu%C3%A9e_Djingareyber"
+}

@@ -10,41 +10,141 @@
   "row": 1,
   "isRiver": false,
   "capitale": "Gao",
-  "description": "Anciens vassaux du Mali s'émancipant pour fonder un empire qui deviendra, sous les Askia, le plus vaste de l'histoire de l'Afrique de l'Ouest.",
+  "description": "Le royaume songhaï de Gao, longtemps vassal du Mali, devient un empire avec Sonni Ali, qui conquiert Tombouctou et Djenné à la fin du XVe siècle.",
   "territories": ["Songhai"],
   "datesCles": [
     {
       "annee": 1464,
       "evenement": "Prise de pouvoir",
-      "info": "Sonni Ali Ber s'empare du trône et entame des conquêtes fulgurantes et sans merci."
+      "info": "Sonni Ali Ber devient roi de Gao et lance ses conquêtes."
     },
     {
       "annee": 1468,
       "evenement": "Prise de Tombouctou",
-      "info": "L'armée Songhaï chasse les Touaregs et pille brutalement la ville des lettrés."
+      "info": "L’armée songhaï chasse les Touaregs ; Sonni Ali fait exécuter ou chasser des lettrés qu’il accuse de trahison."
     },
     {
       "annee": 1473,
       "evenement": "Siège de Djenné",
-      "info": "Chute de la cité-État marchande imprenable après un long blocus naval sur le Niger."
+      "info": "La riche ville marchande se rend après un long blocus.",
+      "ref": "siege-de-djenne"
+    },
+    {
+      "annee": 1483,
+      "evenement": "Victoire sur les Mossi",
+      "info": "Sonni Ali repousse les cavaliers mossi qui menaçaient la région."
+    },
+    {
+      "annee": 1492,
+      "evenement": "Mort de Sonni Ali",
+      "info": "Il meurt, peut-être noyé en traversant une rivière ; son fils est renversé par Askia Mohammed en 1493."
     }
   ],
-  "dirigeants": [{ "titre": "Empereur (Sonni)", "nom": "Ali Ber", "surnom": "Ali le Grand / Le Tyran", "debut": 1464, "fin": 1492 }],
-  "personnages": [],
+  "dirigeants": [
+    {
+      "nom": "Sonni Ali",
+      "titre": "Roi (sonni)",
+      "surnom": "Ber (« le Grand »)",
+      "debut": 1464,
+      "fin": 1492,
+      "dynastie": "sonni",
+      "personne": "sonni-ali-ber",
+      "note": "conquérant",
+      "cle": true
+    },
+    {
+      "nom": "Sonni Baro",
+      "titre": "Roi (sonni)",
+      "debut": 1492,
+      "fin": 1493,
+      "dynastie": "sonni",
+      "note": "fils de Sonni Ali, renversé par Askia Mohammed"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Sonni Ali Ber",
+      "role": "Roi conquérant",
+      "description": "Il fait du royaume de Gao un empire, mais les chroniqueurs musulmans le décrivent comme un tyran.",
+      "dates": "mort en 1492",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Sonni_Ali_Ber",
+      "ref": "sonni-ali-ber"
+    }
+  ],
   "guerres": [
     {
       "nom": "Expansion contre les royaumes Mossis",
       "annee": 1483,
-      "adversaires": ["Cavaleries Mossis"],
+      "adversaires": ["Royaumes mossi"],
       "allies": [],
-      "morts": "Inconnu",
+      "morts": "Inconnues",
       "vainqueur": "Songhaï",
-      "consequences": "Sécurisation totale du sud du fleuve Niger, repoussant les redoutables pillards Mossis hors des zones agricoles vitales.",
+      "consequences": "Les raids des cavaliers mossi sur la boucle du Niger sont repoussés.",
       "wikiUrl": "https://fr.wikipedia.org/wiki/Empire_songha%C3%AF"
     }
   ],
-  "sciences": "Leur suprématie est tactique : Sonni Ali s'appuie sur une cavalerie mobile et sur une flotte de pirogues qui circule sur le fleuve Niger, permettant de transporter troupes et ravitaillement.",
-  "croyancesText": "Contrairement à l'empire du Mali, Sonni Ali Ber déteste le clergé musulman de Tombouctou qu'il accuse de trahison. Il règne en mêlant islam et pratiques religieuses traditionnelles songhaï, ce qui lui vaut d'être présenté comme un tyran impie par les chroniqueurs musulmans (comme l'auteur du Tarikh al-Sudan, rédigé au XVIIe siècle).",
-  "diplomatie": "Sonni Ali mène surtout une politique de conquête : il soumet les grandes villes marchandes du Niger (Tombouctou, Djenné) et repousse les Touaregs et les Mossis. L'organisation administrative de l'empire (provinces confiées à des gouverneurs, poids et mesures) sera surtout l'œuvre de son successeur Askia Mohammed.",
-  "documentaires": [{ "titre": "La suprématie de l'Empire Songhaï", "url": "https://fr.wikipedia.org/wiki/Empire_songha%C3%AF" }]
+  "sciences": "Sonni Ali s’appuie sur une cavalerie mobile et sur une flotte de pirogues qui circule sur le fleuve Niger, permettant de transporter troupes et ravitaillement. Il aurait même fait creuser un canal pour atteindre la ville de Walata, projet resté inachevé.",
+  "croyancesText": "Contrairement aux souverains du Mali, Sonni Ali se méfie des lettrés musulmans de Tombouctou, qu’il accuse de trahison. Il règne en mêlant islam et pratiques religieuses traditionnelles songhaï, ce qui lui vaut d’être présenté comme un tyran impie par les chroniqueurs musulmans (comme l’auteur du Tarikh al-Sudan, rédigé au XVIIe siècle).",
+  "diplomatie": "Sonni Ali mène surtout une politique de conquête : il soumet les grandes villes marchandes du Niger (Tombouctou, Djenné) et repousse les Touaregs et les Mossi. L’organisation administrative de l’empire (provinces confiées à des gouverneurs, poids et mesures) sera surtout l’œuvre de son successeur Askia Mohammed.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": { "valeur": "Gao", "precision": "sur la boucle du fleuve Niger" },
+    "regimes": { "valeur": "Monarchie", "precision": "la dynastie des Sonni, puis celle des Askia (après 1493)" },
+    "langues": { "valeur": "Songhaï", "precision": "arabe pour l’écrit" },
+    "religion": { "valeur": "Islam et religions traditionnelles", "precision": "Sonni Ali mêle les deux" },
+    "apogee": {
+      "valeur": "XVIe siècle",
+      "precision": "sous les Askia (voir la fiche « Empire songhaï » des Temps modernes)"
+    },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": { "valeur": "Cauris, or, sel" },
+    "duree": {
+      "valeur": "Une trentaine d’années dans cette fiche",
+      "precision": "le royaume de Gao existe depuis bien plus longtemps"
+    },
+    "aujourdhui": { "valeur": "Mali et Niger" }
+  },
+  "essentiel": [
+    "Le royaume songhaï de Gao, sur le Niger, existe depuis des siècles ; il a longtemps payé tribut au Mali.",
+    "En 1464, [[sonni-ali-ber|Sonni Ali Ber]] devient roi et lance une série de conquêtes.",
+    "Il prend Tombouctou aux Touaregs en 1468 et s’empare de Djenné après un long [[siege-de-djenne|siège]].",
+    "Il utilise une flotte de pirogues sur le Niger et une cavalerie rapide.",
+    "Mal vu des lettrés musulmans, il meurt en 1492 ; l’année suivante, son général Askia Mohammed prend le pouvoir."
+  ],
+  "periodes": [
+    {
+      "nom": "Les conquêtes de Sonni Ali",
+      "debut": 1464,
+      "fin": 1492,
+      "resume": "En une trentaine d’années de campagnes incessantes, Sonni Ali fait du royaume de Gao le premier empire de la boucle du Niger.",
+      "evenements": [
+        { "annee": 1468, "evenement": "Prise de Tombouctou" },
+        { "annee": 1473, "evenement": "Prise de Djenné", "ref": "siege-de-djenne" }
+      ]
+    }
+  ],
+  "dynasties": [
+    {
+      "id": "sonni",
+      "nom": "La dynastie des Sonni",
+      "debut": 1464,
+      "fin": 1493,
+      "note": "Les rois précédents sont mal connus."
+    }
+  ],
+  "societe": "Le roi s’appuie sur ses guerriers, ses pêcheurs-bateliers du Niger et des captifs qui cultivent les terres royales. Les villes marchandes gardent leurs élites de lettrés et de commerçants.",
+  "economie": "Commerce du Niger et du Sahara (or, sel, esclaves), agriculture et pêche le long du fleuve.",
+  "decouvertes": ["commerce-transsaharien"],
+  "arts": "Architecture en terre de Gao et de Djenné ; la tradition orale songhaï garde le souvenir de Sonni Ali comme un roi magicien.",
+  "quotidien": "La vie suit le rythme du fleuve Niger : crues, pêche, navigation des pirogues et marchés des villes.",
+  "heritage": [
+    {
+      "titre": "Un héros national",
+      "texte": "Au Mali et au Niger, Sonni Ali est aujourd’hui souvent présenté comme un grand bâtisseur d’empire, loin de l’image de tyran des chroniques."
+    }
+  ],
+  "aSavoir": [
+    "Ce que l’on sait de Sonni Ali vient surtout de chroniques écrites au XVIIe siècle par des lettrés de Tombouctou, qui lui étaient hostiles."
+  ],
+  "sources": ["https://fr.wikipedia.org/wiki/Empire_songha%C3%AF", "https://fr.wikipedia.org/wiki/Sonni_Ali_Ber"]
 }

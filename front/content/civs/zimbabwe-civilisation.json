@@ -11,7 +11,7 @@
   "row": 3,
   "isRiver": false,
   "capitale": "Grand Zimbabwe",
-  "description": "Au milieu de la brousse, un royaume d'architectes mégalithiques bâtissant des murailles colossales de granit sans aucun ciment, enrichi par des mines d'or abondantes.",
+  "description": "Une grande cité de pierre bâtie par des ancêtres des Shona en Afrique australe, enrichie par le commerce de l’or avec la côte de l’océan Indien.",
   "territories": ["Great Zimbabwe"],
   "datesCles": [
     {
@@ -19,22 +19,99 @@
       "evenement": "Premiers villages",
       "info": "Les premiers villages de populations shona apparaissent sur le site vers le XIe siècle."
     },
+    { "annee": 1250, "evenement": "Premiers grands murs", "info": "Les murs de pierre de la colline sont élevés." },
     {
       "annee": 1350,
       "evenement": "Apogée",
-      "info": "Au XIVe siècle, la ville compte environ 10 000 à 18 000 habitants selon les estimations (la plus grande d'Afrique australe précoloniale)."
+      "info": "Au XIVe siècle, la ville compte environ 10 000 à 18 000 habitants selon les estimations (la plus grande d’Afrique australe précoloniale)."
     },
     {
       "annee": 1450,
-      "evenement": "Abandon mystérieux",
-      "info": "Épuisement écologique du sol et migration du pouvoir vers l'Empire du Monomotapa."
+      "evenement": "Abandon",
+      "info": "La ville est abandonnée, peut-être à cause de l’épuisement des sols et du déplacement des routes de l’or vers le nord."
     }
   ],
   "dirigeants": [],
-  "personnages": [],
+  "personnages": [
+    {
+      "nom": "Gertrude Caton-Thompson",
+      "role": "Archéologue",
+      "description": "En 1929, ses fouilles démontrent que le Grand Zimbabwe a été bâti par des Africains, contre les théories racistes de l’époque.",
+      "dates": "1888 → 1985",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Gertrude_Caton-Thompson"
+    }
+  ],
   "guerres": [],
-  "sciences": "Le mot Zimbabwe signifie 'Les maisons de pierre' (Dzimba Dza Mabwe). Leurs architectes ont conçu la 'Grande Enceinte', un mur elliptique de 11 mètres de haut et 250 mètres de long, composé d'un million de blocs de granit retaillés et ajustés en chevron avec une telle perfection technique qu'ils n'ont besoin d'aucun mortier ou liant d'argile pour tenir debout.",
-  "croyancesText": "La religion Shona s'articule autour de Mwari, le dieu créateur universel, et d'un culte assidu des esprits (Mhondoro). À l'intérieur de l'Enceinte se trouve une mystérieuse tour conique massive de 9 mètres, symbole possible de la fécondité masculine ou du grenier à grain cosmique garantissant l'abondance de l'Empire.",
-  "diplomatie": "Ils pratiquent une politique d'exportation discrète mais massive. Isolés à l'intérieur des terres, les monarques expédient l'or fondu, l'ivoire et des peaux rares par caravanes de porteurs jusqu'aux cités commerciales arabo-swahilies de la côte de l'Océan Indien (comme Sofala, au Mozambique, port relié à Kilwa, en Tanzanie). En échange, l'archéologie a retrouvé dans les ruines du Zimbabwe des céladons chinois, des céramiques persanes, des perles indiennes en verre et du corail.",
-  "documentaires": [{ "titre": "Le mystère du Grand Zimbabwe", "url": "https://fr.wikipedia.org/wiki/Grand_Zimbabwe" }]
+  "sciences": "Le mot « zimbabwe » viendrait du shona « dzimba dza mabwe », « maisons de pierre ». Les bâtisseurs taillent des blocs de granit et les empilent avec précision, sans mortier. La Grande Enceinte forme un mur elliptique de près de 250 mètres de long et jusqu’à 11 mètres de haut. Les habitants travaillent l’or, le cuivre et le fer.",
+  "croyancesText": "On sait peu de choses des croyances des habitants. Comme chez les Shona plus tardifs, le culte des ancêtres et des esprits protecteurs jouait sans doute un grand rôle. À l’intérieur de la Grande Enceinte se dresse une tour conique de pierre de près de 10 mètres, pleine, dont la fonction reste inconnue.",
+  "diplomatie": "Les rois exportent l’or, l’ivoire et des peaux vers les cités swahilies de la côte de l’océan Indien, comme Sofala (au Mozambique), port relié à Kilwa (en Tanzanie). En échange, l’archéologie a retrouvé au Grand Zimbabwe des céladons chinois, des céramiques persanes, des perles de verre et même une pièce de Kilwa.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": { "valeur": "Grand Zimbabwe", "precision": "près de Masvingo, dans le sud-est du Zimbabwe" },
+    "regimes": { "valeur": "Royauté", "precision": "des rois au rôle aussi religieux ; aucun nom n’est connu" },
+    "langues": { "valeur": "Proto-shona", "precision": "langue bantoue, sans écriture" },
+    "religion": {
+      "valeur": "Culte des ancêtres",
+      "precision": "religion des ancêtres ; le dieu créateur Mwari est connu des Shona plus tardifs"
+    },
+    "apogee": { "valeur": "XIVe siècle" },
+    "population": { "valeur": "10 000 à 18 000 habitants", "precision": "à son apogée, selon les estimations" },
+    "monnaie": { "valeur": "Aucune", "precision": "or, cuivre et bétail servent aux échanges" },
+    "duree": { "valeur": "Environ 350 ans" },
+    "aujourdhui": { "valeur": "Zimbabwe", "precision": "et une partie du Mozambique et du Botswana" }
+  },
+  "essentiel": [
+    "Au XIe siècle, des populations de langue bantoue, ancêtres des Shona, s’installent sur la colline du Grand Zimbabwe.",
+    "Elles bâtissent de grands murs de pierre sèche, dont la [[grande-enceinte|Grande Enceinte]], la plus grande construction ancienne d’Afrique subsaharienne.",
+    "La ville s’enrichit en exportant l’or et l’ivoire vers les ports swahilis de l’océan Indien, comme Sofala et Kilwa.",
+    "Des [[oiseaux-du-zimbabwe|oiseaux sculptés]] en stéatite ornaient les enceintes : l’un d’eux figure aujourd’hui sur le drapeau du pays.",
+    "Au XVe siècle, la ville est abandonnée ; le pouvoir passe au royaume du Mutapa, plus au nord."
+  ],
+  "periodes": [
+    {
+      "nom": "Les débuts",
+      "debut": 1100,
+      "fin": 1250,
+      "resume": "Héritiers de Mapungubwe, un royaume plus au sud, des éleveurs et agriculteurs s’installent sur le site."
+    },
+    {
+      "nom": "La cité de pierre",
+      "debut": 1250,
+      "fin": 1450,
+      "resume": "Les rois font bâtir les enceintes de pierre. La ville contrôle le commerce de l’or avec la côte.",
+      "evenements": [{ "annee": 1350, "evenement": "Construction de la Grande Enceinte" }]
+    }
+  ],
+  "regimes": [
+    {
+      "id": "royaute",
+      "nom": "Royauté",
+      "debut": 1100,
+      "fin": 1450,
+      "note": "Les enceintes de la colline et de la vallée abritaient sans doute le roi et son entourage, mais aucun nom de souverain n’est connu."
+    }
+  ],
+  "dynasties": [],
+  "societe": "Une élite vit dans les enceintes de pierre, tandis que la population habite des maisons de terre et de paille autour. La richesse se mesure aussi en bétail.",
+  "economie": "Élevage de bovins, agriculture (sorgho, mil), mines d’or et commerce à longue distance avec la côte.",
+  "decouvertes": ["grande-enceinte", "oiseaux-du-zimbabwe"],
+  "arts": "Murs de pierre décorés de motifs en chevrons, oiseaux sculptés en stéatite, objets en or et en cuivre.",
+  "quotidien": "Les habitants vivent dans des cases rondes en terre, cultivent les champs et gardent les troupeaux autour de la ville.",
+  "heritage": [
+    {
+      "titre": "Le nom d’un pays",
+      "texte": "À son indépendance en 1980, la Rhodésie prend le nom de Zimbabwe ; l’oiseau du Zimbabwe figure sur le drapeau."
+    },
+    { "titre": "Un patrimoine mondial", "texte": "Le site est inscrit au patrimoine mondial depuis 1986." }
+  ],
+  "aSavoir": [
+    "Pendant la colonisation, des Européens ont attribué ces ruines aux Phéniciens ou à la reine de Saba, refusant de reconnaître une œuvre africaine ; l’archéologie a prouvé le contraire."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Grand_Zimbabwe",
+    {
+      "titre": "Encyclopædia Britannica — Great Zimbabwe",
+      "url": "https://www.britannica.com/place/Great-Zimbabwe"
+    }
+  ]
 }

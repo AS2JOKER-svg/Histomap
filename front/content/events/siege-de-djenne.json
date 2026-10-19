@@ -1,0 +1,18 @@
+{
+  "id": "siege-de-djenne",
+  "nom": "Siège de Djenné",
+  "annee": 1473,
+  "dates": "vers 1473",
+  "lieu": "Djenné (Mali)",
+  "description": "La riche ville marchande de Djenné, protégée par les eaux du Niger et du Bani, finit par se rendre à [[sonni-ali-ber|Sonni Ali]] après un long blocus.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "Le roi épargne la ville et épouse, selon la tradition, la mère du jeune souverain de Djenné. Le Songhaï contrôle désormais les grandes villes du commerce du Niger."
+    }
+  ],
+  "aSavoir": [
+    "Selon le Tarikh al-Sudan, le siège aurait duré « sept ans, sept mois et sept jours » : une formule symbolique, pas une durée réelle."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Djenn%C3%A9"
+}

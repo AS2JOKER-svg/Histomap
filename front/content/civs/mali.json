@@ -11,55 +11,259 @@
   "row": 1,
   "isRiver": false,
   "capitale": "Niani / Tombouctou",
-  "description": "Sur les cendres du Ghana, le conquérant épique Soundiata fonde un État immense, mondialement célèbre pour le pèlerinage fastueux de Mansa Moussa, souvent présenté comme l'homme le plus riche de l'Histoire.",
+  "description": "Fondé par Soundiata Keïta au XIIIe siècle, l’empire du Mali domine l’Afrique de l’Ouest, de l’Atlantique au Niger. Son souverain Mansa Moussa éblouit le monde musulman par son pèlerinage à La Mecque.",
   "territories": ["Mali"],
   "datesCles": [
     {
       "annee": 1235,
       "evenement": "Bataille de Kirina",
-      "info": "Victoire fondatrice de Soundiata Keïta contre le roi forgeron Soumaoro Kanté."
+      "info": "Victoire fondatrice de Soundiata Keïta contre le roi forgeron Soumaoro Kanté.",
+      "ref": "bataille-de-kirina"
     },
     {
       "annee": 1236,
       "evenement": "Charte du Manden",
-      "info": "Selon la tradition orale, Soundiata proclame des règles de vie commune. Transmise par les griots et mise par écrit seulement au XXe siècle, son contenu exact est débattu par les historiens."
+      "info": "Selon la tradition orale, Soundiata proclame des règles de vie commune. Transmise par les griots et mise par écrit seulement au XXe siècle, son contenu exact est débattu par les historiens.",
+      "ref": "charte-du-manden"
     },
     {
       "annee": 1324,
       "evenement": "Pèlerinage à La Mecque",
-      "info": "L'empereur Mansa Moussa dépense tellement d'or en Égypte qu'il y provoque une hyper-inflation."
+      "info": "Mansa Moussa dépense et distribue tant d’or au Caire que la valeur du métal y baisse pendant des années.",
+      "ref": "pelerinage-de-mansa-moussa"
+    },
+    {
+      "annee": 1352,
+      "evenement": "Visite d’Ibn Battuta",
+      "info": "Le grand voyageur marocain séjourne au Mali et décrit la cour de Mansa Souleymane."
+    },
+    {
+      "annee": 1375,
+      "evenement": "L’Atlas catalan",
+      "info": "Une carte de Majorque représente Mansa Moussa tenant une pépite d’or."
+    },
+    {
+      "annee": 1468,
+      "evenement": "Perte de Tombouctou",
+      "info": "Le Songhaï s’empare de Tombouctou ; le Mali recule vers l’ouest."
+    },
+    {
+      "annee": 1670,
+      "evenement": "Fin de l’empire",
+      "info": "Le royaume bambara de Ségou pille Niani ; le Mali n’est plus qu’un petit royaume."
     }
   ],
   "dirigeants": [
     {
-      "titre": "Mansa (Roi des Rois)",
       "nom": "Soundiata Keïta",
-      "surnom": "Le Lion du Mandingue",
+      "titre": "Mansa",
+      "surnom": "le Lion du Mandingue",
       "debut": 1235,
-      "fin": 1255
+      "fin": 1255,
+      "dynastie": "keita",
+      "personne": "soundiata-keita",
+      "note": "fondateur",
+      "cle": true
     },
-    { "titre": "Mansa", "nom": "Moussa Ier", "surnom": "Kankou Moussa", "debut": 1312, "fin": 1337 }
+    {
+      "nom": "Ouali Keïta",
+      "titre": "Mansa",
+      "debut": 1255,
+      "fin": 1270,
+      "dynastie": "keita",
+      "note": "fils de Soundiata, fait le pèlerinage à La Mecque"
+    },
+    {
+      "nom": "Sakoura",
+      "titre": "Mansa",
+      "debut": 1285,
+      "fin": 1300,
+      "dynastie": "keita",
+      "note": "ancien esclave affranchi, usurpateur et conquérant"
+    },
+    {
+      "nom": "Aboubakri II",
+      "titre": "Mansa",
+      "debut": 1310,
+      "fin": 1312,
+      "dynastie": "keita",
+      "note": "aurait disparu en mer en explorant l’Atlantique (récit invérifiable)"
+    },
+    {
+      "nom": "Moussa Ier",
+      "titre": "Mansa",
+      "debut": 1312,
+      "fin": 1337,
+      "dynastie": "keita",
+      "personne": "mansa-moussa",
+      "note": "aussi appelé Kankou Moussa ; dates discutées",
+      "cle": true
+    },
+    { "nom": "Maghan Ier", "titre": "Mansa", "debut": 1337, "fin": 1341, "dynastie": "keita" },
+    {
+      "nom": "Souleymane",
+      "titre": "Mansa",
+      "debut": 1341,
+      "fin": 1360,
+      "dynastie": "keita",
+      "note": "reçoit Ibn Battuta",
+      "cle": true
+    },
+    { "nom": "Mari Djata II", "titre": "Mansa", "debut": 1360, "fin": 1374, "dynastie": "keita" },
+    {
+      "nom": "Mahmoud IV",
+      "titre": "Mansa",
+      "debut": 1590,
+      "fin": 1610,
+      "dynastie": "keita",
+      "note": "tente en vain de reprendre Djenné (1599)"
+    }
   ],
-  "personnages": [],
+  "personnages": [
+    {
+      "nom": "Soundiata Keïta",
+      "role": "Fondateur de l’empire",
+      "description": "Héros de l’épopée mandingue, il bat le roi du Sosso et fonde l’empire du Mali.",
+      "dates": "vers 1190 → vers 1255",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Soundiata_Ke%C3%AFta",
+      "ref": "soundiata-keita"
+    },
+    {
+      "nom": "Mansa Moussa",
+      "role": "Empereur",
+      "description": "Souverain du Mali à son apogée, célèbre pour son pèlerinage à La Mecque et ses constructions à Tombouctou.",
+      "dates": "règne vers 1312 → 1337",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Mansa_Moussa",
+      "ref": "mansa-moussa"
+    },
+    {
+      "nom": "Ibn Battuta",
+      "role": "Voyageur",
+      "description": "Grand voyageur marocain, il parcourt le monde musulman jusqu’en Chine et visite le Mali en 1352-1353.",
+      "dates": "1304 → 1377",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Ibn_Battuta",
+      "ref": "ibn-battuta"
+    },
+    {
+      "nom": "Abu Ishaq es-Sahéli",
+      "role": "Poète et architecte",
+      "description": "Poète andalou rencontré à La Mecque par Mansa Moussa, on lui attribue la mosquée de Djingareyber à Tombouctou.",
+      "dates": "vers 1290 → 1346",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Abou_Ishaq_es-Sah%C3%A9li"
+    }
+  ],
   "guerres": [
     {
       "nom": "Bataille de Kirina",
       "annee": 1235,
       "adversaires": ["Empire Sosso (Soumaoro Kanté)"],
-      "allies": ["Coalition des tribus mandingues"],
-      "morts": "Pertes militaires lourdes",
+      "allies": ["Coalition des clans mandingues"],
+      "morts": "Inconnues",
       "vainqueur": "Mali",
-      "consequences": "Soundiata prend le pouvoir absolu, rédige la constitution de l'empire et fixe les droits de la confrérie des chasseurs.",
+      "consequences": "Soumaoro Kanté disparaît ; Soundiata devient maître du pays mandingue et fonde l’empire du Mali.",
       "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Kirina"
     }
   ],
-  "sciences": "Le Mali développe l'architecture en banco (mélange de terre argileuse, de paille et de beurre de karité) avec des armatures en bois palmier pointant hors des murs de mosquées spectaculaires (comme à Djenné) permettant aux maçons de crépir les murs chaque année après les pluies estivales. Tombouctou devient une véritable université (Sankoré) abritant des milliers de manuscrits (mathématiques, astronomie, droit islamique).",
-  "croyancesText": "L'islam est la religion officielle de la cour et de l'administration des villes marchandes, permettant d'intégrer le Mali dans le système diplomatique et bancaire musulman nord-africain. Cependant, l'immense majorité des populations rurales de l'empire reste profondément attachée aux religions animistes traditionnelles et au culte des ancêtres fondateurs.",
-  "diplomatie": "Une légende, rapportée par Mansa Moussa lui-même mais jamais prouvée, raconte que son prédécesseur Aboubakri II aurait abdiqué vers 1311 pour lancer une flotte de deux mille navires sur l'Océan Atlantique, qui ne serait jamais revenue. L'empereur Mansa Moussa a financé un afflux massif de savants andalous et égyptiens vers Tombouctou, y développant un puissant soft-power intellectuel.",
-  "documentaires": [
+  "sciences": "Les bâtisseurs du Mali élèvent de grandes mosquées en banco, un mélange de terre crue et de paille, hérissées de pièces de bois qui servent d’échafaudage pour refaire l’enduit après chaque saison des pluies. À Tombouctou, des savants enseignent le droit, la théologie, l’astronomie et les mathématiques autour des mosquées, et réunissent des bibliothèques de manuscrits qui se multiplient surtout aux XVe et XVIe siècles.",
+  "croyancesText": "L’islam est la religion officielle de la cour et de l’administration des villes marchandes, ce qui intègre le Mali au monde musulman. Cependant, une grande partie des populations rurales reste attachée aux religions traditionnelles et au culte des ancêtres. Les mansas eux-mêmes gardent certains rites anciens, comme l’observe avec surprise Ibn Battuta.",
+  "diplomatie": "Le Mali échange des ambassades avec le Maroc et l’Égypte. Selon un récit fait par Mansa Moussa lui-même au Caire, son prédécesseur Aboubakri II aurait lancé une flotte sur l’océan Atlantique et ne serait jamais revenu ; ce récit n’est pas vérifiable. Mansa Moussa fait venir à Tombouctou des savants et des architectes d’Égypte et d’al-Andalus.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": {
+      "valeur": "Niani (probablement)",
+      "precision": "l’emplacement exact de la capitale reste discuté ; Tombouctou et Djenné sont les grandes villes marchandes"
+    },
+    "regimes": {
+      "valeur": "Empire",
+      "precision": "le mansa (« roi des rois ») règne sur des royaumes et des provinces qui lui paient tribut"
+    },
+    "langues": { "valeur": "Mandingue (malinké)", "precision": "l’arabe pour l’écrit, la religion et le commerce" },
+    "religion": {
+      "valeur": "Islam et religions traditionnelles",
+      "precision": "la cour et les villes sont musulmanes, les campagnes restent souvent fidèles aux cultes anciens"
+    },
+    "apogee": { "valeur": "XIVe siècle", "precision": "sous Mansa Moussa et Mansa Souleymane" },
+    "population": { "valeur": "Peut-être 20 millions", "precision": "estimation très incertaine, au XIVe siècle" },
+    "monnaie": { "valeur": "Or, sel, cauris, cuivre", "precision": "pas de pièces frappées" },
+    "duree": { "valeur": "Plus de 400 ans", "precision": "avec un long déclin à partir du XVe siècle" },
+    "aujourdhui": {
+      "valeur": "Mali, Sénégal, Gambie, Guinée, Mauritanie",
+      "precision": "et une partie du Niger et du Burkina Faso"
+    }
+  },
+  "essentiel": [
+    "Vers 1235, [[soundiata-keita|Soundiata Keïta]] bat le roi du Sosso à [[bataille-de-kirina|Kirina]] et fonde l’empire du Mali.",
+    "Selon la tradition orale, il proclame la [[charte-du-manden|charte du Manden]], des règles de vie commune transmises par les griots.",
+    "Le Mali contrôle les mines d’or et le [[commerce-transsaharien|commerce transsaharien]], qui en font l’un des États les plus riches du monde.",
+    "En 1324, le [[pelerinage-de-mansa-moussa|pèlerinage de Mansa Moussa]] à La Mecque, avec des tonnes d’or, rend le Mali célèbre jusqu’en Europe.",
+    "Tombouctou, avec la [[mosquee-djingareyber|mosquée de Djingareyber]], devient un grand centre de savoir ; le voyageur [[ibn-battuta|Ibn Battuta]] visite l’empire en 1352."
+  ],
+  "periodes": [
     {
-      "titre": "Soundiata Keïta, la naissance de l'Empire du Mali",
-      "url": "https://fr.wikipedia.org/wiki/Empire_du_Mali"
+      "nom": "La fondation",
+      "debut": 1235,
+      "fin": 1312,
+      "resume": "Soundiata unit les clans mandingues et soumet les anciens territoires du Ghana. Ses successeurs étendent l’empire jusqu’à l’Atlantique.",
+      "evenements": [
+        { "annee": 1235, "evenement": "Kirina", "ref": "bataille-de-kirina" },
+        { "annee": 1260, "evenement": "Pèlerinage de Mansa Ouli" }
+      ]
+    },
+    {
+      "nom": "L’apogée",
+      "debut": 1312,
+      "fin": 1360,
+      "resume": "Mansa Moussa et Mansa Souleymane règnent sur un empire immense et riche. Tombouctou et Gao se couvrent de mosquées.",
+      "evenements": [
+        { "annee": 1324, "evenement": "Pèlerinage de Mansa Moussa", "ref": "pelerinage-de-mansa-moussa" },
+        { "annee": 1327, "evenement": "Mosquée de Djingareyber" },
+        { "annee": 1352, "evenement": "Visite d’Ibn Battuta" }
+      ]
+    },
+    {
+      "nom": "Le déclin",
+      "debut": 1360,
+      "fin": 1670,
+      "resume": "Querelles de succession, révoltes et attaques des Touaregs, du Songhaï puis des Bambara réduisent l’empire, tandis que les Portugais détournent une partie du commerce vers la côte.",
+      "evenements": [{ "annee": 1468, "evenement": "Perte de Tombouctou" }, { "annee": 1599, "evenement": "Échec devant Djenné" }]
+    }
+  ],
+  "dynasties": [
+    {
+      "id": "keita",
+      "nom": "Les mansas (dynastie Keïta)",
+      "debut": 1235,
+      "fin": 1610,
+      "note": "Sélection ; les dates viennent surtout de l’historien Ibn Khaldoun et restent approximatives."
+    }
+  ],
+  "societe": "La société mandingue est organisée en clans et en groupes professionnels héréditaires : forgerons, griots (gardiens de la mémoire et de la parole), cordonniers. Les griots conservent l’histoire de l’empire par la tradition orale. L’esclavage existe, et l’on vend des captifs vers le nord.",
+  "economie": "Or du Bambouk et du Bouré, sel du Sahara, cuivre, commerce transsaharien ; agriculture (mil, sorgho, riz), élevage et pêche sur le Niger.",
+  "decouvertes": ["mosquee-djingareyber", "atlas-catalan", "commerce-transsaharien"],
+  "arts": "Mosquées en terre de Tombouctou et de Djenné, statuettes en terre cuite de la région de Djenné, manuscrits enluminés, musique et épopées des griots.",
+  "quotidien": "Ibn Battuta s’étonne de la sécurité des routes, où l’on voyage sans crainte, et de la place des femmes, qui circulent librement et ne portent pas le voile.",
+  "heritage": [
+    {
+      "titre": "L’épopée de Soundiata",
+      "texte": "Chantée par les griots depuis près de 800 ans, elle est l’un des grands récits de la littérature africaine."
+    },
+    {
+      "titre": "Un patrimoine mondial",
+      "texte": "Tombouctou et Djenné sont inscrites au patrimoine mondial ; la charte du Manden est inscrite au patrimoine immatériel."
+    },
+    {
+      "titre": "Un nom repris",
+      "texte": "L’ancien Soudan français prend en 1960 le nom de Mali en hommage à l’empire."
+    }
+  ],
+  "aSavoir": [
+    "On présente souvent Mansa Moussa comme « l’homme le plus riche de l’histoire » ; c’est une formule impossible à vérifier, car sa fortune ne peut pas être comparée aux richesses actuelles."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Empire_du_Mali",
+    {
+      "titre": "Encyclopædia Britannica — Mali empire",
+      "url": "https://www.britannica.com/place/Mali-historical-empire-Africa"
     }
   ]
 }

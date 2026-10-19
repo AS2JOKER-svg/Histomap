@@ -1,0 +1,19 @@
+{
+  "id": "nzimbu",
+  "nom": "Nzimbu (monnaie de coquillages)",
+  "annee": 1400,
+  "domaine": "Économie",
+  "dates": "XVe-XVIIe siècles",
+  "description": "De petits coquillages pêchés autour de l’île de Luanda, qui servent de monnaie dans le royaume du Kongo, sous le contrôle du roi.",
+  "sections": [
+    {
+      "titre": "Comment ça marche",
+      "texte": "Seuls les coquillages d’une certaine espèce, pêchés sur l’île du roi, ont cours. Ils sont triés par taille et comptés par paniers standardisés."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Le contrôle de la monnaie renforce le pouvoir du roi. Quand les Portugais en importent massivement, sa valeur s’effondre au XVIIe siècle."
+    }
+  ],
+  "wikiUrl": "https://en.wikipedia.org/wiki/Shell_money"
+}

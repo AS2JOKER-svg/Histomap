@@ -1,0 +1,18 @@
+{
+  "id": "sonni-ali-ber",
+  "nom": "Sonni Ali Ber",
+  "role": "Roi songhaï",
+  "roles": ["Roi", "Conquérant"],
+  "dates": "mort en 1492",
+  "mort": 1492,
+  "description": "Roi de Gao qui, en près de trente ans de campagnes, transforme le royaume songhaï en empire en prenant Tombouctou et Djenné.",
+  "reperes": [{ "label": "Règne", "valeur": "1464 → 1492" }],
+  "essentiel": [
+    "Il ne perd, selon la tradition, aucune bataille.",
+    "Il prend Tombouctou en 1468 et persécute une partie des lettrés.",
+    "Il soumet Djenné après un long [[siege-de-djenne|siège]].",
+    "La tradition orale en fait un magicien capable de se transformer."
+  ],
+  "aSavoir": ["Les chroniqueurs musulmans le surnomment « le tyran » ; « Ber » signifie « le Grand » en songhaï."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Sonni_Ali_Ber"
+}

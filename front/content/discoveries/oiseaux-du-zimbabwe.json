@@ -1,0 +1,16 @@
+{
+  "id": "oiseaux-du-zimbabwe",
+  "nom": "Oiseaux du Zimbabwe",
+  "annee": 1300,
+  "domaine": "Art",
+  "dates": "XIIIe-XVe siècles",
+  "description": "Huit oiseaux sculptés dans la stéatite, posés sur des colonnes, retrouvés au Grand Zimbabwe : sans doute des symboles liés aux ancêtres royaux.",
+  "sections": [
+    {
+      "titre": "Leur histoire",
+      "texte": "Emportés pendant la colonisation, certains ont été rendus au Zimbabwe, dont le dernier par l’Allemagne en 2003."
+    }
+  ],
+  "aSavoir": ["L’oiseau du Zimbabwe figure sur le drapeau, les armoiries et la monnaie du pays."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Oiseau_Zimbabwe"
+}

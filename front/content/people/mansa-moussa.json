@@ -1,0 +1,19 @@
+{
+  "id": "mansa-moussa",
+  "nom": "Mansa Moussa",
+  "nomComplet": "Moussa Ier du Mali (Kankou Moussa)",
+  "role": "Empereur du Mali",
+  "roles": ["Mansa", "Pèlerin", "Bâtisseur"],
+  "dates": "règne vers 1312 → 1337",
+  "mort": 1337,
+  "description": "Souverain du Mali à son apogée, devenu célèbre dans tout le monde musulman et en Europe par son fastueux pèlerinage à La Mecque en 1324.",
+  "reperes": [{ "label": "Règne", "valeur": "vers 1312 → 1337", "precision": "dates discutées" }],
+  "essentiel": [
+    "Lors de son [[pelerinage-de-mansa-moussa|pèlerinage]], il traverse l’Égypte avec une immense caravane chargée d’or.",
+    "Il ramène des savants et des architectes et fait bâtir des mosquées à Tombouctou et Gao.",
+    "Ses armées prennent Gao et Tombouctou, qui deviennent des villes de l’empire.",
+    "L’[[atlas-catalan|Atlas catalan]] (1375) le représente sur son trône, tenant une pépite d’or."
+  ],
+  "aSavoir": ["« Kankou Moussa » signifie « Moussa, fils de Kankou », du nom de sa mère."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Mansa_Moussa"
+}

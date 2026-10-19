@@ -1,0 +1,17 @@
+{
+  "id": "ibn-battuta",
+  "nom": "Ibn Battuta",
+  "role": "Voyageur marocain",
+  "roles": ["Voyageur", "Juge", "Écrivain"],
+  "dates": "1304 → 1377",
+  "naissance": 1304,
+  "mort": 1377,
+  "description": "Né à Tanger, il passe près de trente ans sur les routes, de l’Afrique de l’Ouest à la Chine, et raconte ses voyages dans un célèbre récit, la Rihla.",
+  "essentiel": [
+    "Parti en pèlerinage à La Mecque en 1325, il continue son voyage pendant des décennies.",
+    "Il est juge à Delhi et aux Maldives, et visite la Chine.",
+    "En 1352-1353, il traverse le Sahara et séjourne à la cour du Mali.",
+    "Sa Rihla est une source précieuse sur le monde musulman du XIVe siècle."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Ibn_Battuta"
+}

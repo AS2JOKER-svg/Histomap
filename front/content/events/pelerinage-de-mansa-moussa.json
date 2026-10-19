@@ -1,0 +1,21 @@
+{
+  "id": "pelerinage-de-mansa-moussa",
+  "nom": "Pèlerinage de Mansa Moussa",
+  "annee": 1324,
+  "dates": "1324-1325",
+  "lieu": "Du Mali à La Mecque, par Le Caire",
+  "description": "[[mansa-moussa|Mansa Moussa]] traverse le Sahara et l’Égypte avec une immense caravane pour aller à La Mecque ; ses dépenses en or éblouissent le monde musulman.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Selon les chroniqueurs arabes, il voyage avec des milliers de personnes et des dizaines de chameaux chargés d’or. Au Caire, il distribue tant d’or que sa valeur baisse sur le marché pendant plusieurs années."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Le Mali devient célèbre jusqu’en Europe. Mansa Moussa revient avec des savants et des architectes qui transforment Tombouctou."
+    }
+  ],
+  "liens": [{ "ref": "mansa-moussa", "relation": "Le pèlerin" }],
+  "aSavoir": ["Les chiffres de la caravane (60 000 personnes selon certaines sources) sont sans doute exagérés."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Mansa_Moussa"
+}

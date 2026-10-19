@@ -1,0 +1,23 @@
+{
+  "id": "invincible-armada",
+  "nom": "L’Invincible Armada",
+  "annee": 1588,
+  "dates": "juillet-août 1588",
+  "lieu": "Manche et mer du Nord",
+  "description": "[[philippe-ii-d-espagne|Philippe II]] envoie une immense flotte pour envahir l’Angleterre d’[[elisabeth-ire|Élisabeth Ire]]. Elle est mise en échec par la flotte anglaise, puis dispersée par les tempêtes.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Les navires anglais, plus maniables, harcèlent l’Armada ; à Calais, des brûlots la forcent à rompre sa formation. Ne pouvant rentrer par la Manche, elle contourne l’Écosse et l’Irlande, où de nombreux navires font naufrage."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "L’Angleterre est sauvée, et le prestige d’Élisabeth renforcé. L’Espagne reconstruit sa flotte et reste une grande puissance navale pendant des décennies."
+    }
+  ],
+  "liens": [
+    { "ref": "philippe-ii-d-espagne", "relation": "Le roi qui l’envoie" },
+    { "ref": "elisabeth-ire", "relation": "La reine visée" }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Invincible_Armada"
+}

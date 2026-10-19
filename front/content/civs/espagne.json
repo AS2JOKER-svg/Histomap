@@ -10,53 +10,311 @@
   "row": 1,
   "isRiver": false,
   "capitale": "Madrid",
-  "description": "Le premier empire sur lequel 'le soleil ne se couche jamais', inondant l'Europe de l'or et de l'argent des Amériques tout en s'épuisant dans les guerres de religion.",
+  "description": "La monarchie espagnole des Temps modernes : un empire mondial, de l’Amérique aux Philippines, enrichi par l’argent du Nouveau Monde, champion du catholicisme et épuisé par ses guerres en Europe.",
   "territories": ["Spain", "Castille", "Aragón", "Spanish Habsburg"],
   "datesCles": [
     {
       "annee": 1492,
-      "evenement": "Découverte de l'Amérique",
-      "info": "Christophe Colomb débarque aux Bahamas. La même année, chute de Grenade (fin de la Reconquista)."
+      "evenement": "Colomb en Amérique",
+      "info": "Christophe Colomb débarque aux Bahamas. La même année, chute de Grenade (fin de la Reconquista) et expulsion des juifs.",
+      "ref": "premier-voyage-de-colomb"
     },
-    { "annee": 1521, "evenement": "Conquête du Mexique", "info": "Hernán Cortés anéantit l'Empire Aztèque." },
+    {
+      "annee": 1521,
+      "evenement": "Conquête du Mexique",
+      "info": "Hernán Cortés et ses alliés indigènes prennent Tenochtitlan.",
+      "ref": "chute-de-tenochtitlan"
+    },
+    {
+      "annee": 1545,
+      "evenement": "Découverte de Potosí",
+      "info": "Une montagne d’argent est découverte dans les Andes : elle va financer l’empire."
+    },
+    {
+      "annee": 1571,
+      "evenement": "Bataille de Lépante",
+      "info": "La flotte chrétienne écrase la flotte ottomane en Grèce.",
+      "ref": "bataille-de-lepante"
+    },
     {
       "annee": 1588,
-      "evenement": "Désastre de l'Invincible Armada",
-      "info": "La flotte espagnole est décimée par les tempêtes et les Anglais, marquant la fin de l'hégémonie navale."
+      "evenement": "Échec de l’Invincible Armada",
+      "info": "La flotte envoyée contre l’Angleterre est battue puis dispersée par les tempêtes.",
+      "ref": "invincible-armada"
+    },
+    { "annee": 1605, "evenement": "Don Quichotte", "info": "Cervantès publie la première partie de son roman." },
+    {
+      "annee": 1648,
+      "evenement": "Indépendance des Provinces-Unies",
+      "info": "L’Espagne reconnaît l’indépendance des Pays-Bas du Nord à la paix de Münster."
     },
     {
       "annee": 1700,
       "evenement": "Guerre de Succession",
-      "info": "Extinction des Habsbourg d'Espagne, la France y place un roi Bourbon."
+      "info": "Le dernier Habsbourg, Charles II, meurt sans enfant ; un petit-fils de Louis XIV devient roi sous le nom de Philippe V."
     }
   ],
   "dirigeants": [
-    { "titre": "Empereur du Saint-Empire et Roi", "nom": "Charles Quint", "debut": 1516, "fin": 1556 },
-    { "titre": "Roi d'Espagne", "nom": "Philippe II", "surnom": "Le Prudent", "debut": 1556, "fin": 1598 }
+    {
+      "nom": "Jeanne Ire",
+      "titre": "Reine de Castille",
+      "surnom": "la Folle",
+      "debut": 1504,
+      "fin": 1555,
+      "dynastie": "habsbourg",
+      "note": "écartée du pouvoir et enfermée à Tordesillas"
+    },
+    {
+      "nom": "Charles Ier (Charles Quint)",
+      "titre": "Roi d’Espagne et empereur",
+      "debut": 1516,
+      "fin": 1556,
+      "dynastie": "habsbourg",
+      "personne": "charles-quint",
+      "note": "abdique en 1556",
+      "cle": true
+    },
+    {
+      "nom": "Philippe II",
+      "titre": "Roi d’Espagne et de Portugal",
+      "surnom": "le Prudent",
+      "debut": 1556,
+      "fin": 1598,
+      "dynastie": "habsbourg",
+      "personne": "philippe-ii-d-espagne",
+      "cle": true
+    },
+    {
+      "nom": "Philippe III",
+      "titre": "Roi",
+      "debut": 1598,
+      "fin": 1621,
+      "dynastie": "habsbourg",
+      "note": "expulse les Morisques"
+    },
+    {
+      "nom": "Philippe IV",
+      "titre": "Roi",
+      "debut": 1621,
+      "fin": 1665,
+      "dynastie": "habsbourg",
+      "note": "protecteur de Velázquez",
+      "cle": true
+    },
+    {
+      "nom": "Charles II",
+      "titre": "Roi",
+      "surnom": "l’Ensorcelé",
+      "debut": 1665,
+      "fin": 1700,
+      "dynastie": "habsbourg",
+      "note": "dernier Habsbourg, mort sans enfant"
+    },
+    {
+      "nom": "Philippe V",
+      "titre": "Roi",
+      "debut": 1700,
+      "fin": 1746,
+      "dynastie": "bourbons",
+      "note": "petit-fils de Louis XIV",
+      "cle": true
+    },
+    { "nom": "Ferdinand VI", "titre": "Roi", "debut": 1746, "fin": 1759, "dynastie": "bourbons" },
+    {
+      "nom": "Charles III",
+      "titre": "Roi",
+      "debut": 1759,
+      "fin": 1788,
+      "dynastie": "bourbons",
+      "note": "roi réformateur des Lumières",
+      "cle": true
+    },
+    { "nom": "Charles IV", "titre": "Roi", "debut": 1788, "fin": 1808, "dynastie": "bourbons" }
   ],
   "personnages": [
     {
-      "nom": "Miguel de Cervantes",
+      "nom": "Christophe Colomb",
+      "role": "Navigateur",
+      "description": "Navigateur génois au service de la Castille, il atteint l’Amérique en 1492 en cherchant une route vers l’Asie.",
+      "dates": "vers 1451 → 1506",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Christophe_Colomb",
+      "ref": "christophe-colomb"
+    },
+    {
+      "nom": "Charles Quint",
+      "role": "Roi d’Espagne et empereur",
+      "description": "Héritier de quatre dynasties, il règne sur le plus vaste empire de son temps.",
+      "dates": "1500 → 1558",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Charles_Quint",
+      "ref": "charles-quint"
+    },
+    {
+      "nom": "Miguel de Cervantès",
       "role": "Écrivain",
-      "description": "Auteur de Don Quichotte, considéré comme le premier roman moderne de la littérature mondiale.",
-      "dates": "1547 à 1616",
-      "wikiUrl": "https://fr.wikipedia.org/wiki/Miguel_de_Cervantes"
+      "description": "Auteur de Don Quichotte, souvent considéré comme le premier roman moderne.",
+      "dates": "1547 → 1616",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Miguel_de_Cervantes",
+      "ref": "cervantes"
+    },
+    {
+      "nom": "Bartolomé de las Casas",
+      "role": "Prêtre dominicain",
+      "description": "Ancien colon devenu défenseur des Amérindiens, il dénonce les violences de la colonisation.",
+      "dates": "1484 → 1566",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bartolom%C3%A9_de_las_Casas"
+    },
+    {
+      "nom": "Thérèse d’Avila",
+      "role": "Religieuse et mystique",
+      "description": "Réformatrice de l’ordre du Carmel, elle écrit des textes mystiques qui comptent parmi les classiques de la langue espagnole.",
+      "dates": "1515 → 1582",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Th%C3%A9r%C3%A8se_d%27Avila"
+    },
+    {
+      "nom": "Diego Velázquez",
+      "role": "Peintre",
+      "description": "Peintre de la cour de Philippe IV, auteur des Ménines.",
+      "dates": "1599 → 1660",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Diego_Vel%C3%A1zquez"
     }
   ],
   "guerres": [
     {
+      "nom": "Bataille de Lépante",
+      "annee": 1571,
+      "adversaires": ["Empire ottoman"],
+      "allies": ["Venise", "États pontificaux", "Gênes"],
+      "morts": "Environ 40 000 morts au total, selon les estimations",
+      "vainqueur": "Sainte Ligue",
+      "consequences": "La flotte ottomane est détruite, mais elle est vite reconstruite ; l’Empire ottoman reste maître de la Méditerranée orientale.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_L%C3%A9pante"
+    },
+    {
       "nom": "Guerre de Quatre-Vingts Ans",
       "annee": 1568,
       "adversaires": ["Provinces-Unies (Pays-Bas)"],
-      "allies": ["Saint-Empire"],
-      "morts": "Pertes économiques et militaires colossales",
+      "allies": [],
+      "morts": "Inconnues ; des centaines de milliers de victimes",
       "vainqueur": "Provinces-Unies",
-      "consequences": "L'Espagne perd les riches Pays-Bas, ruinant son trésor royal et déclenchant plusieurs banqueroutes d'État successives.",
+      "consequences": "Guerre de 1568 à 1648. L’Espagne reconnaît l’indépendance des Provinces-Unies ; les dépenses militaires provoquent plusieurs banqueroutes de l’État.",
       "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_de_Quatre-Vingts_Ans"
+    },
+    {
+      "nom": "Guerre de Succession d’Espagne",
+      "annee": 1701,
+      "adversaires": ["Autriche, Angleterre, Provinces-Unies"],
+      "allies": ["France"],
+      "morts": "Plusieurs centaines de milliers",
+      "vainqueur": "Philippe V garde le trône",
+      "consequences": "Guerre de 1701 à 1714. Philippe V reste roi d’Espagne, mais l’Espagne perd ses possessions en Europe (Pays-Bas, Italie) et Gibraltar.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_de_Succession_d%27Espagne"
     }
   ],
-  "sciences": "Le Siècle d'or espagnol (Siglo de Oro) brille par les arts (peinture de Velázquez, El Greco) mais aussi par l'ingénierie navale. Ils conçoivent le Galion, navire océanique massif armé de canons, capable de traverser l'Atlantique chargé de tonnes de lingots d'argent extraits des mines de Potosí (Bolivie) grâce à un nouveau procédé chimique d'amalgamation au mercure.",
-  "croyancesText": "L'Espagne est le fer de lance armé de la Contre-Réforme catholique face au protestantisme naissant. La redoutable Inquisition espagnole (fondée par les Rois Catholiques) traque l'hérésie, les juifs et musulmans convertis secrètement (Marranes et Morisques) avec une intransigeance absolue, instaurant la doctrine de la 'Limpieza de sangre' (pureté de sang).",
-  "diplomatie": "Leur diplomatie est dynastique et matrimoniale, résumée par la devise des Habsbourg : 'Que les autres fassent la guerre, toi, heureuse Autriche, marie-toi'. Par le jeu des héritages, Charles Quint règne sur l'Espagne, l'Allemagne, les Pays-Bas et l'Amérique. Pour sécuriser ses flottes, l'Espagne met en place le système des 'Flottes des Indes', des convois armés gigantesques annuels.",
-  "documentaires": [{ "titre": "Charles Quint, les rouages d'un empire", "url": "https://fr.wikipedia.org/wiki/Empire_espagnol" }]
+  "sciences": "L’Espagne organise la navigation transatlantique : les galions, gros navires armés, traversent l’océan en convois, la Flotte des Indes, pour rapporter l’argent d’Amérique. Les mines de Potosí et du Mexique utilisent l’amalgame au mercure pour extraire l’argent. La Casa de Contratación de Séville forme les pilotes et tient à jour la carte officielle du Nouveau Monde.",
+  "croyancesText": "L’Espagne se veut le champion du catholicisme face aux protestants et aux Ottomans. L’Inquisition espagnole, créée en 1478, surveille les juifs et les musulmans convertis, soupçonnés de pratiquer en secret leur ancienne religion, et persécute les protestants. Les statuts de « pureté de sang » excluent les descendants de convertis de nombreuses fonctions. En Amérique, les missionnaires convertissent les populations indigènes.",
+  "diplomatie": "Leur diplomatie est dynastique et matrimoniale, résumée par la devise des Habsbourg : « Que les autres fassent la guerre, toi, heureuse Autriche, marie-toi ». Par le jeu des héritages, Charles Quint règne sur l’Espagne, l’Allemagne, les Pays-Bas et l’Amérique. L’Espagne affronte la France, les Ottomans, les protestants des Pays-Bas et l’Angleterre, et s’épuise dans ces guerres.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": { "valeur": "Madrid", "precision": "capitale fixe à partir de 1561 ; la cour se déplaçait avant" },
+    "regimes": {
+      "valeur": "Monarchie",
+      "precision": "un roi qui gouverne avec des conseils ; chaque royaume (Castille, Aragon…) garde ses lois jusqu’en 1716"
+    },
+    "langues": {
+      "valeur": "Castillan",
+      "precision": "avec le catalan, le basque, le galicien et, dans l’empire, des centaines de langues"
+    },
+    "religion": { "valeur": "Catholicisme", "precision": "religion unique imposée ; l’Inquisition surveille les convertis" },
+    "apogee": { "valeur": "XVIe siècle", "precision": "sous Charles Quint et Philippe II, le « Siècle d’or »" },
+    "population": {
+      "valeur": "Environ 8 millions en Espagne",
+      "precision": "vers 1600 ; l’empire américain compte bien davantage"
+    },
+    "monnaie": {
+      "valeur": "Real et pièce de huit",
+      "precision": "la piastre d’argent espagnole circule dans le monde entier"
+    },
+    "duree": { "valeur": "Environ 300 ans" },
+    "aujourdhui": {
+      "valeur": "Espagne",
+      "precision": "avec, à l’époque, l’Amérique latine, les Philippines, une partie de l’Italie et des Pays-Bas"
+    }
+  },
+  "essentiel": [
+    "En 1492, l’année de la prise de Grenade, [[christophe-colomb|Christophe Colomb]] atteint l’Amérique pour les Rois catholiques lors de son [[premier-voyage-de-colomb|premier voyage]].",
+    "Les conquistadors soumettent les Aztèques et les Incas ; l’argent des [[mines-de-potosi|mines de Potosí]] afflue vers l’Espagne.",
+    "[[charles-quint|Charles Quint]] règne sur l’Espagne, les Pays-Bas, une partie de l’Italie, l’Amérique et le Saint-Empire : un empire « où le soleil ne se couche jamais ».",
+    "[[philippe-ii-d-espagne|Philippe II]] défend le catholicisme : victoire de [[bataille-de-lepante|Lépante]], mais échec de l’[[invincible-armada|Invincible Armada]] contre l’Angleterre.",
+    "Le Siècle d’or voit fleurir les arts et les lettres, de [[cervantes|Cervantès]] à Velázquez, tandis que les guerres ruinent le royaume ; les Bourbons succèdent aux Habsbourg en 1700."
+  ],
+  "periodes": [
+    {
+      "nom": "Découvertes et conquêtes",
+      "debut": 1492,
+      "fin": 1556,
+      "resume": "Les Rois catholiques, puis Charles Quint, bâtissent un empire mondial : conquête du Mexique, du Pérou, guerres contre la France et les Ottomans.",
+      "evenements": [
+        { "annee": 1492, "evenement": "Premier voyage de Colomb", "ref": "premier-voyage-de-colomb" },
+        { "annee": 1521, "evenement": "Prise de Tenochtitlan", "ref": "chute-de-tenochtitlan" },
+        { "annee": 1533, "evenement": "Conquête de l’empire inca" }
+      ]
+    },
+    {
+      "nom": "Le Siècle d’or",
+      "debut": 1556,
+      "fin": 1648,
+      "resume": "Philippe II gouverne depuis Madrid et l’Escurial un empire immense. Les arts brillent, mais les guerres et les banqueroutes se succèdent, et les Pays-Bas du Nord font sécession.",
+      "evenements": [
+        { "annee": 1571, "evenement": "Lépante", "ref": "bataille-de-lepante" },
+        { "annee": 1588, "evenement": "Invincible Armada", "ref": "invincible-armada" },
+        { "annee": 1609, "evenement": "Expulsion des Morisques" }
+      ]
+    },
+    {
+      "nom": "Déclin et réformes",
+      "debut": 1648,
+      "fin": 1789,
+      "resume": "L’Espagne perd sa prépondérance au profit de la France. Les Bourbons réorganisent l’État et l’empire au XVIIIe siècle.",
+      "evenements": [
+        { "annee": 1700, "evenement": "Avènement des Bourbons" },
+        { "annee": 1767, "evenement": "Expulsion des jésuites" }
+      ]
+    }
+  ],
+  "dynasties": [
+    {
+      "id": "habsbourg",
+      "nom": "Les Habsbourg d’Espagne",
+      "debut": 1504,
+      "fin": 1700,
+      "note": "Après la mort d’Isabelle la Catholique."
+    },
+    { "id": "bourbons", "nom": "Les Bourbons d’Espagne", "debut": 1700, "fin": 1808 }
+  ],
+  "societe": "La noblesse (dont les hidalgos) et l’Église dominent la société. En Amérique, les colons espagnols dominent une société très inégale où les Amérindiens doivent travailler pour eux, notamment dans les mines, et où sont déportés des esclaves africains.",
+  "economie": "Argent et or d’Amérique, laine des moutons mérinos, commerce colonial organisé en monopole depuis Séville puis Cadix ; l’afflux d’argent provoque une forte hausse des prix en Europe.",
+  "decouvertes": ["mines-de-potosi"],
+  "arts": "Peinture du Siècle d’or (le Greco, Velázquez, Zurbarán, Murillo), théâtre de Lope de Vega et Calderón, palais de l’Escurial, art baroque des églises d’Amérique.",
+  "quotidien": "Les grandes fêtes religieuses, les processions et les autodafés de l’Inquisition rythment la vie des villes. Le chocolat, venu du Mexique, devient une boisson à la mode.",
+  "heritage": [
+    {
+      "titre": "La langue espagnole",
+      "texte": "Avec près de 500 millions de locuteurs natifs, l’espagnol est la deuxième langue maternelle du monde."
+    },
+    {
+      "titre": "Le Siècle d’or",
+      "texte": "Don Quichotte, les Ménines de Velázquez et le théâtre baroque font partie du patrimoine culturel mondial."
+    },
+    { "titre": "Une monnaie mondiale", "texte": "La pièce de huit réaux a servi de modèle au dollar américain." }
+  ],
+  "aSavoir": [
+    "L’expression « l’empire sur lequel le soleil ne se couche jamais » s’applique à l’Espagne de Philippe II, avant d’être reprise pour l’Empire britannique."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Empire_espagnol",
+    {
+      "titre": "Encyclopædia Britannica — Spain, history",
+      "url": "https://www.britannica.com/place/Spain/History"
+    }
+  ]
 }

@@ -396,5 +396,25 @@
   "Guerre d’Ōnin": {
     "coords": [135.76, 35.01],
     "lieu": "Kyoto"
+  },
+  "Bataille de Lépante": {
+    "coords": [21.17, 38.25],
+    "lieu": "Golfe de Patras (Grèce)"
+  },
+  "Guerre de Succession d’Espagne": {
+    "coords": [-3.7, 40.42],
+    "lieu": "Espagne et Europe"
+  },
+  "Guerres d’Italie": {
+    "coords": [9.3, 45.4],
+    "lieu": "Italie du Nord (Marignan)"
+  },
+  "Guerres de religion (France)": {
+    "coords": [2.35, 48.86],
+    "lieu": "France"
+  },
+  "Guerres civiles anglaises": {
+    "coords": [-1.5, 52.7],
+    "lieu": "Angleterre (Naseby)"
   }
 }

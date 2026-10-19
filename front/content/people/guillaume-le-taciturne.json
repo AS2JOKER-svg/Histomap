@@ -1,0 +1,18 @@
+{
+  "id": "guillaume-le-taciturne",
+  "nom": "Guillaume le Taciturne",
+  "nomComplet": "Guillaume Ier d’Orange-Nassau",
+  "role": "Chef de la révolte des Pays-Bas",
+  "roles": ["Prince d’Orange", "Stathouder"],
+  "dates": "1533 → 1584",
+  "naissance": 1533,
+  "mort": 1584,
+  "description": "Grand seigneur au service de l’Espagne, il prend la tête de la révolte des Pays-Bas contre Philippe II et devient le « père de la patrie » néerlandaise.",
+  "essentiel": [
+    "Il s’oppose à la répression des protestants par l’Espagne.",
+    "Il dirige la révolte à partir de 1568.",
+    "Philippe II met sa tête à prix ; il est assassiné à Delft en 1584."
+  ],
+  "aSavoir": ["L’hymne national néerlandais, le Wilhelmus, lui est consacré."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Guillaume_Ier_d%27Orange-Nassau"
+}

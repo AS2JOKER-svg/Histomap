@@ -1,0 +1,21 @@
+{
+  "id": "bataille-de-marignan",
+  "nom": "Bataille de Marignan",
+  "annee": 1515,
+  "dates": "13-14 septembre 1515",
+  "lieu": "Marignan (Melegnano, près de Milan)",
+  "description": "Le jeune roi [[francois-ier|François Ier]] bat les mercenaires suisses qui défendaient le duché de Milan.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Pendant deux jours, la cavalerie et l’artillerie françaises, aidées de soldats vénitiens, finissent par repousser les redoutables piquiers suisses."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "François Ier prend Milan. En 1516, il signe avec les Suisses une « paix perpétuelle », qui sera respectée jusqu’à la Révolution."
+    }
+  ],
+  "liens": [{ "ref": "francois-ier", "relation": "Le vainqueur" }],
+  "aSavoir": ["Selon la tradition, François Ier se fait adouber chevalier sur le champ de bataille par Bayard."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Marignan"
+}

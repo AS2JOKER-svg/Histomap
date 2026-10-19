@@ -1,0 +1,17 @@
+{
+  "id": "cervantes",
+  "nom": "Miguel de Cervantès",
+  "role": "Écrivain",
+  "roles": ["Écrivain", "Soldat"],
+  "dates": "1547 → 1616",
+  "naissance": 1547,
+  "mort": 1616,
+  "description": "Écrivain espagnol, auteur de Don Quichotte, l’histoire d’un gentilhomme qui se prend pour un chevalier errant : un des livres les plus lus au monde.",
+  "essentiel": [
+    "Soldat, il est blessé à la main gauche à [[bataille-de-lepante|Lépante]].",
+    "Capturé par des corsaires, il passe cinq ans captif à Alger.",
+    "Don Quichotte (1605 et 1615) se moque des romans de chevalerie et invente le roman moderne."
+  ],
+  "aSavoir": ["Il meurt le 22 avril 1616, la veille de l’enterrement d’un autre géant, William Shakespeare."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Miguel_de_Cervantes"
+}

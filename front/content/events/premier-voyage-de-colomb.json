@@ -1,0 +1,24 @@
+{
+  "id": "premier-voyage-de-colomb",
+  "nom": "Premier voyage de Christophe Colomb",
+  "annee": 1492,
+  "fin": 1493,
+  "dates": "3 août 1492 → mars 1493",
+  "lieu": "Atlantique et Antilles",
+  "description": "Avec trois navires (la Santa María, la Pinta et la Niña), [[christophe-colomb|Christophe Colomb]] traverse l’Atlantique et atteint les Bahamas le 12 octobre 1492.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Parti de Palos, il fait escale aux Canaries puis navigue plus d’un mois sans voir la terre. Il explore ensuite Cuba et Hispaniola, où la Santa María s’échoue."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "L’Espagne entreprend la conquête et la colonisation de l’Amérique. Pour les peuples amérindiens, c’est le début d’une catastrophe : guerres, travail forcé et surtout épidémies."
+    }
+  ],
+  "liens": [
+    { "ref": "christophe-colomb", "relation": "Le navigateur" },
+    { "ref": "isabelle-la-catholique", "relation": "La reine qui finance le voyage" }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Voyages_de_Christophe_Colomb"
+}

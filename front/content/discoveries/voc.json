@@ -1,0 +1,20 @@
+{
+  "id": "voc",
+  "nom": "Compagnie néerlandaise des Indes orientales (VOC)",
+  "annee": 1602,
+  "domaine": "Économie",
+  "dates": "1602 → 1799",
+  "description": "Une compagnie commerciale dont le capital est divisé en actions vendues au public, qui obtient le monopole du commerce néerlandais avec l’Asie.",
+  "sections": [
+    {
+      "titre": "Comment ça marche",
+      "texte": "Les investisseurs achètent des actions, revendables à la Bourse d’Amsterdam, et reçoivent une part des bénéfices. La compagnie peut lever des armées, signer des traités et battre monnaie."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Elle domine le commerce des épices et fonde Batavia (Jakarta). Sa puissance repose aussi sur la violence : massacre des habitants des îles Banda (1621), travail forcé et esclavage."
+    }
+  ],
+  "aSavoir": ["Elle est souvent présentée comme la première multinationale de l’histoire."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Compagnie_n%C3%A9erlandaise_des_Indes_orientales"
+}

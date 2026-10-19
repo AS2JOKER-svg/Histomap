@@ -1,0 +1,21 @@
+{
+  "id": "glorieuse-revolution",
+  "nom": "Glorieuse Révolution",
+  "annee": 1688,
+  "fin": 1689,
+  "dates": "1688-1689",
+  "lieu": "Angleterre",
+  "description": "Le roi catholique Jacques II est renversé presque sans combat en Angleterre par sa fille Marie et son gendre, le prince hollandais Guillaume d’Orange, qui acceptent le Bill of Rights.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Inquiets de la naissance d’un héritier catholique, des parlementaires appellent Guillaume, qui débarque avec une armée. Jacques II s’enfuit en France."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Le Bill of Rights (1689) interdit au roi de suspendre les lois, de lever des impôts ou d’entretenir une armée sans l’accord du Parlement. En Irlande et en Écosse, la guerre fait rage (bataille de la Boyne, 1690)."
+    }
+  ],
+  "avant": "execution-de-charles-ier",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Glorieuse_R%C3%A9volution"
+}

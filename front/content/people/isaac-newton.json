@@ -1,0 +1,20 @@
+{
+  "id": "isaac-newton",
+  "nom": "Isaac Newton",
+  "role": "Physicien et mathématicien",
+  "roles": ["Physicien", "Mathématicien", "Astronome"],
+  "dates": "1643 → 1727",
+  "naissance": 1643,
+  "mort": 1727,
+  "description": "Savant anglais qui formule les lois du mouvement et la gravitation universelle, invente le calcul infinitésimal et étudie la lumière.",
+  "essentiel": [
+    "Dans ses Principia (1687), il montre qu’une même loi explique la chute des corps et le mouvement des planètes.",
+    "Il décompose la lumière blanche avec un prisme et invente un télescope à miroir.",
+    "Il développe le calcul infinitésimal, en même temps que l’Allemand Leibniz.",
+    "Il dirige la Monnaie royale et préside la Royal Society."
+  ],
+  "aSavoir": [
+    "L’histoire de la pomme tombée sur sa tête est une légende ; il racontait seulement que la chute d’une pomme l’avait fait réfléchir."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Isaac_Newton"
+}

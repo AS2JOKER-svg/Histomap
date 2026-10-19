@@ -1,0 +1,17 @@
+{
+  "id": "oliver-cromwell",
+  "nom": "Oliver Cromwell",
+  "role": "Lord Protecteur",
+  "roles": ["Chef militaire", "Lord Protecteur"],
+  "dates": "1599 → 1658",
+  "naissance": 1599,
+  "mort": 1658,
+  "description": "Député puritain devenu chef de l’armée du Parlement pendant la guerre civile, il fait juger et exécuter le roi Charles Ier, puis gouverne l’Angleterre comme Lord Protecteur.",
+  "essentiel": [
+    "Il crée la New Model Army, une armée disciplinée qui bat les royalistes.",
+    "Il signe l’arrêt de mort de Charles Ier en 1649.",
+    "Il mène une répression très meurtrière en Irlande.",
+    "Lord Protecteur à partir de 1653, il gouverne avec l’armée ; la monarchie est rétablie deux ans après sa mort."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Oliver_Cromwell"
+}

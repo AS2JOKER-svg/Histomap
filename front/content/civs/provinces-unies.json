@@ -11,64 +11,274 @@
   "row": 4,
   "isRiver": false,
   "capitale": "Amsterdam / La Haye",
-  "description": "La première république marchande et capitaliste au monde. Une petite nation ayant arraché son indépendance à l'Espagne pour devenir le banquier et le transporteur de l'Europe.",
+  "description": "La république des Provinces-Unies, née de la révolte contre l’Espagne : un petit pays de marchands qui devient au XVIIe siècle la première puissance commerciale du monde et un foyer de tolérance et d’arts.",
   "territories": ["Dutch Republic", "Netherlands"],
   "datesCles": [
     {
+      "annee": 1568,
+      "evenement": "Début de la révolte",
+      "info": "Guillaume d’Orange prend la tête de la révolte contre l’Espagne : c’est le début de la guerre de Quatre-Vingts Ans."
+    },
+    {
       "annee": 1581,
       "evenement": "Acte de La Haye",
-      "info": "Les provinces du Nord se déclarent indépendantes de l'Empire espagnol."
+      "info": "Les provinces du Nord déclarent qu’elles ne reconnaissent plus Philippe II comme souverain."
     },
     {
       "annee": 1602,
       "evenement": "Fondation de la VOC",
-      "info": "Création de la Compagnie Néerlandaise des Indes Orientales, première société par actions de l'histoire."
+      "info": "Création de la Compagnie néerlandaise des Indes orientales, l’une des premières sociétés par actions."
     },
     {
       "annee": 1637,
-      "evenement": "La crise de la Tulipe",
-      "info": "Souvent présentée comme le premier krach spéculatif de l'histoire, la « tulipomanie » voit s'effondrer le prix des bulbes ; les historiens jugent aujourd'hui ses dégâts économiques exagérés."
+      "evenement": "La crise de la tulipe",
+      "info": "Souvent présentée comme le premier krach spéculatif de l’histoire, la « tulipomanie » voit s’effondrer le prix des bulbes ; les historiens jugent aujourd’hui ses dégâts économiques exagérés.",
+      "ref": "tulipomanie"
+    },
+    {
+      "annee": 1648,
+      "evenement": "Indépendance reconnue",
+      "info": "Par la paix de Münster, l’Espagne reconnaît l’indépendance des Provinces-Unies."
+    },
+    {
+      "annee": 1672,
+      "evenement": "L’Année du désastre",
+      "info": "Attaquée par la France, l’Angleterre et deux évêchés allemands, la république inonde ses terres pour se défendre.",
+      "ref": "annee-du-desastre"
+    },
+    {
+      "annee": 1689,
+      "evenement": "Un stathouder roi d’Angleterre",
+      "info": "Le stathouder Guillaume III devient roi d’Angleterre après la Glorieuse Révolution.",
+      "ref": "glorieuse-revolution"
     }
   ],
   "dirigeants": [
-    { "titre": "Stathouder", "nom": "Guillaume Ier d'Orange", "surnom": "Le Taciturne", "debut": 1559, "fin": 1584 },
-    { "titre": "Grand Pensionnaire", "nom": "Johan de Witt", "debut": 1653, "fin": 1672 }
+    {
+      "nom": "Guillaume Ier d’Orange",
+      "titre": "Stathouder",
+      "surnom": "le Taciturne",
+      "debut": 1572,
+      "fin": 1584,
+      "dynastie": "stathouders",
+      "personne": "guillaume-le-taciturne",
+      "note": "chef de la révolte, assassiné",
+      "cle": true
+    },
+    {
+      "nom": "Maurice de Nassau",
+      "titre": "Stathouder",
+      "debut": 1585,
+      "fin": 1625,
+      "dynastie": "stathouders",
+      "note": "grand général, réformateur de l’armée",
+      "cle": true
+    },
+    { "nom": "Frédéric-Henri", "titre": "Stathouder", "debut": 1625, "fin": 1647, "dynastie": "stathouders" },
+    { "nom": "Guillaume II", "titre": "Stathouder", "debut": 1647, "fin": 1650, "dynastie": "stathouders" },
+    {
+      "nom": "Guillaume III",
+      "titre": "Stathouder, puis roi d’Angleterre",
+      "debut": 1672,
+      "fin": 1702,
+      "dynastie": "stathouders",
+      "note": "repousse Louis XIV",
+      "cle": true
+    },
+    { "nom": "Guillaume IV", "titre": "Stathouder", "debut": 1747, "fin": 1751, "dynastie": "stathouders" },
+    {
+      "nom": "Guillaume V",
+      "titre": "Stathouder",
+      "debut": 1751,
+      "fin": 1795,
+      "dynastie": "stathouders",
+      "note": "chassé par la conquête française"
+    },
+    {
+      "nom": "Johan van Oldenbarnevelt",
+      "titre": "Avocat de Hollande",
+      "debut": 1586,
+      "fin": 1619,
+      "dynastie": "regents",
+      "note": "exécuté après un conflit avec Maurice",
+      "cle": true
+    },
+    {
+      "nom": "Johan de Witt",
+      "titre": "Grand-pensionnaire",
+      "debut": 1653,
+      "fin": 1672,
+      "dynastie": "regents",
+      "note": "massacré par la foule en 1672",
+      "cle": true
+    }
   ],
   "personnages": [
     {
-      "nom": "Baruch Spinoza",
-      "role": "Philosophe",
-      "description": "Penseur rationaliste majeur, précurseur des Lumières. Ses idées sur la séparation de l'Église et de l'État lui valurent l'excommunication juive.",
-      "dates": "1632 à 1677",
-      "wikiUrl": "https://fr.wikipedia.org/wiki/Baruch_Spinoza"
-    },
-    {
       "nom": "Rembrandt",
       "role": "Peintre",
-      "description": "Le grand maître du clair-obscur, symbolisant la richesse bourgeoise et la profondeur spirituelle néerlandaise.",
-      "dates": "1606 à 1669",
-      "wikiUrl": "https://fr.wikipedia.org/wiki/Rembrandt"
+      "description": "Le grand maître du clair-obscur, auteur de La Ronde de nuit et de nombreux autoportraits.",
+      "dates": "1606 → 1669",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Rembrandt",
+      "ref": "rembrandt"
+    },
+    {
+      "nom": "Baruch Spinoza",
+      "role": "Philosophe",
+      "description": "Penseur rationaliste, il défend la liberté de penser et une conception de Dieu confondu avec la nature.",
+      "dates": "1632 → 1677",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Baruch_Spinoza",
+      "ref": "spinoza"
+    },
+    {
+      "nom": "Johannes Vermeer",
+      "role": "Peintre",
+      "description": "Peintre de Delft, maître de la lumière et des scènes d’intérieur, auteur de La Jeune Fille à la perle.",
+      "dates": "1632 → 1675",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Johannes_Vermeer"
+    },
+    {
+      "nom": "Christiaan Huygens",
+      "role": "Savant",
+      "description": "Il invente l’horloge à pendule et découvre l’anneau de Saturne.",
+      "dates": "1629 → 1695",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Christiaan_Huygens"
+    },
+    {
+      "nom": "Antoni van Leeuwenhoek",
+      "role": "Naturaliste",
+      "description": "Avec des microscopes qu’il fabrique lui-même, il observe le premier des bactéries et des spermatozoïdes.",
+      "dates": "1632 → 1723",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Antoni_van_Leeuwenhoek"
+    },
+    {
+      "nom": "Hugo Grotius",
+      "role": "Juriste",
+      "description": "Il défend la liberté des mers et pose les bases du droit international.",
+      "dates": "1583 → 1645",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Hugo_Grotius"
     }
   ],
   "guerres": [
     {
       "nom": "Guerre de Hollande",
       "annee": 1672,
-      "adversaires": ["Royaume de France", "Angleterre"],
-      "allies": ["Espagne", "Saint-Empire"],
-      "morts": "Pertes économiques graves",
-      "vainqueur": "Provinces-Unies (survie stratégique)",
-      "consequences": "L'Année du Désastre (Rampjaar). Pour stopper l'invasion de Louis XIV, les Hollandais détruisent volontairement leurs digues et inondent leur propre pays.",
+      "adversaires": ["Royaume de France", "Angleterre (jusqu’en 1674)"],
+      "allies": ["Espagne", "Saint-Empire", "Brandebourg"],
+      "morts": "Inconnues",
+      "vainqueur": "Aucun vainqueur net ; la république survit",
+      "consequences": "Guerre de 1672 à 1678. En inondant leurs terres, les Hollandais arrêtent l’invasion de Louis XIV ; la paix de Nimègue préserve leur territoire.",
       "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_de_Hollande"
     }
   ],
-  "sciences": "Leur génie logistique repose sur la création de la 'Flûte' (Fluyt), un navire marchand au ventre bombé pouvant transporter des charges colossales avec un équipage réduit, cassant tous les prix du fret mondial. En physique, Christiaan Huygens invente l'horloge à pendule et étudie les anneaux de Saturne grâce aux formidables lentilles polies par les artisans d'Amsterdam.",
-  "croyancesText": "Le Calvinisme rigoriste est le ciment national face à l'Espagne catholique. Cependant, la nécessité du commerce pousse les Hollandais à une tolérance religieuse inédite : ils accueillent à bras ouverts les Juifs séfarades fuyant l'Inquisition, et les Protestants français fuyant Louis XIV, absorbant ainsi les capitaux et les cerveaux fuyant l'intolérance européenne.",
-  "diplomatie": "C'est un État hybride : les États Généraux (bourgeois, marchands) dirigent l'économie, tandis que le Stathouder (issu de la maison d'Orange) dirige les armées en temps de guerre. La VOC (leur compagnie privée) dispose du droit souverain de battre monnaie, de déclarer la guerre aux rois d'Asie et de bâtir ses propres forteresses (Batavia/Jakarta), agissant comme un État dans l'État.",
-  "documentaires": [
-    {
-      "titre": "Le Siècle d'Or hollandais",
-      "url": "https://fr.wikipedia.org/wiki/Si%C3%A8cle_d%27or_n%C3%A9erlandais"
+  "sciences": "Les chantiers navals hollandais construisent la flûte (fluyt), un navire marchand au ventre arrondi, qui transporte beaucoup avec un petit équipage et fait baisser le prix du transport. Huygens invente l’horloge à pendule et découvre l’anneau de Saturne ; Leeuwenhoek observe les micro-organismes au microscope. Les Hollandais maîtrisent aussi l’art de gagner des terres sur la mer grâce aux digues et aux moulins (polders).",
+  "croyancesText": "Le calvinisme, religion de l’Église officielle, soude la révolte contre l’Espagne catholique. Mais le commerce pousse à une grande tolérance : catholiques, luthériens, mennonites et juifs peuvent vivre et commercer, même si les catholiques n’ont pas d’églises publiques. Les Provinces-Unies accueillent les juifs séfarades chassés de la péninsule Ibérique et les protestants français.",
+  "diplomatie": "La république est un État hybride : les États généraux (marchands et régents des villes) dirigent la politique et le commerce, tandis que le stathouder (de la maison d’Orange) commande les armées. La Compagnie des Indes orientales (VOC) dispose du droit de battre monnaie, de faire la guerre et de construire des forteresses en Asie, comme à Batavia (Jakarta), agissant comme un État dans l’État.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": {
+      "valeur": "Amsterdam et La Haye",
+      "precision": "Amsterdam, métropole commerciale ; La Haye, siège du gouvernement"
+    },
+    "regimes": {
+      "valeur": "République fédérale",
+      "precision": "sept provinces, des États généraux, et un stathouder de la maison d’Orange qui commande l’armée"
+    },
+    "langues": { "valeur": "Néerlandais" },
+    "religion": { "valeur": "Calvinisme", "precision": "Église officielle, avec une large tolérance pour les autres cultes" },
+    "apogee": { "valeur": "Le Siècle d’or (XVIIe siècle)" },
+    "population": { "valeur": "Environ 2 millions", "precision": "vers 1650" },
+    "monnaie": { "valeur": "Florin", "precision": "Banque d’Amsterdam fondée en 1609" },
+    "duree": { "valeur": "Plus de 200 ans", "precision": "jusqu’à la conquête française de 1795" },
+    "aujourdhui": {
+      "valeur": "Pays-Bas",
+      "precision": "avec des comptoirs et colonies en Indonésie, au Sri Lanka, en Afrique du Sud, aux Antilles et au Suriname"
     }
+  },
+  "essentiel": [
+    "Les provinces du nord des Pays-Bas se révoltent contre Philippe II d’Espagne sous la conduite de [[guillaume-le-taciturne|Guillaume d’Orange]] et proclament leur indépendance en 1581.",
+    "Au XVIIe siècle, leur flotte marchande domine le commerce mondial ; la [[voc|Compagnie des Indes orientales]] contrôle les épices d’Indonésie.",
+    "Amsterdam devient la capitale financière de l’Europe, avec sa banque, sa Bourse et la célèbre [[tulipomanie|crise des tulipes]].",
+    "Le pays accueille les persécutés de toute l’Europe et voit fleurir les arts et les sciences : [[rembrandt|Rembrandt]], Vermeer, [[spinoza|Spinoza]], Huygens.",
+    "En 1672, l’[[annee-du-desastre|« Année du désastre »]], le pays résiste à l’invasion française en inondant ses terres."
+  ],
+  "periodes": [
+    {
+      "nom": "La révolte et la naissance de la république",
+      "debut": 1568,
+      "fin": 1609,
+      "resume": "Les provinces du Nord, calvinistes, se révoltent contre l’Espagne et s’organisent en république. Une trêve est signée en 1609.",
+      "evenements": [
+        { "annee": 1581, "evenement": "Acte de La Haye" },
+        { "annee": 1584, "evenement": "Assassinat de Guillaume d’Orange" },
+        { "annee": 1602, "evenement": "Fondation de la VOC" }
+      ]
+    },
+    {
+      "nom": "Le Siècle d’or",
+      "debut": 1609,
+      "fin": 1672,
+      "resume": "Les Provinces-Unies dominent le commerce maritime ; Amsterdam rayonne. Leurs navires fondent des comptoirs de Batavia (Jakarta) à New Amsterdam (New York).",
+      "evenements": [
+        { "annee": 1619, "evenement": "Fondation de Batavia" },
+        { "annee": 1637, "evenement": "Tulipomanie", "ref": "tulipomanie" },
+        { "annee": 1648, "evenement": "Paix de Münster" }
+      ]
+    },
+    {
+      "nom": "Une puissance moyenne",
+      "debut": 1672,
+      "fin": 1789,
+      "resume": "Après les guerres contre la France et l’Angleterre, la république reste riche mais perd sa première place au profit de la Grande-Bretagne.",
+      "evenements": [
+        { "annee": 1672, "evenement": "Année du désastre", "ref": "annee-du-desastre" },
+        { "annee": 1689, "evenement": "Guillaume III roi d’Angleterre" }
+      ]
+    }
+  ],
+  "regimes": [
+    {
+      "id": "republique",
+      "nom": "République des Sept Provinces",
+      "debut": 1581,
+      "fin": 1795,
+      "note": "Le pouvoir oscille entre les États généraux, dominés par les riches marchands de Hollande, et le stathouder, prince d’Orange et chef de l’armée. Pendant deux périodes, il n’y a pas de stathouder."
+    }
+  ],
+  "dynasties": [
+    { "id": "stathouders", "nom": "Les stathouders (maison d’Orange-Nassau)", "debut": 1572, "fin": 1795 },
+    {
+      "id": "regents",
+      "nom": "Les grands dirigeants des États",
+      "debut": 1586,
+      "fin": 1672,
+      "note": "L’avocat de Hollande, puis le grand-pensionnaire, dirigent la politique de la république."
+    }
+  ],
+  "societe": "Les riches marchands et régents des villes dominent une société urbaine, où l’on sait souvent lire et écrire. Marins, artisans et ouvriers forment la majorité. Les colonies et comptoirs reposent en partie sur le travail forcé et la traite des esclaves.",
+  "economie": "Commerce maritime mondial (épices, céréales de la Baltique, harengs), banque et Bourse d’Amsterdam, construction navale, textiles, colonies.",
+  "decouvertes": ["voc"],
+  "arts": "Peinture du Siècle d’or : Rembrandt, Vermeer, Frans Hals, natures mortes et paysages achetés par les bourgeois ; canaux et maisons à pignons d’Amsterdam.",
+  "quotidien": "Les maisons bourgeoises, propres et ornées de tableaux, étonnent les voyageurs. On patine sur les canaux gelés en hiver.",
+  "heritage": [
+    {
+      "titre": "Le capitalisme moderne",
+      "texte": "Sociétés par actions, Bourse, banque centrale : Amsterdam a inventé ou perfectionné de nombreux outils financiers."
+    },
+    {
+      "titre": "Les musées",
+      "texte": "Les tableaux du Siècle d’or remplissent le Rijksmusem d’Amsterdam et les musées du monde entier."
+    },
+    {
+      "titre": "New York",
+      "texte": "La ville s’appelait New Amsterdam avant d’être cédée aux Anglais en 1664 ; Harlem et Brooklyn ont des noms néerlandais."
+    }
+  ],
+  "aSavoir": [
+    "On parle souvent de « Hollande » pour tout le pays, mais la Hollande n’était que la plus riche des sept provinces."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Provinces-Unies",
+    "https://fr.wikipedia.org/wiki/Si%C3%A8cle_d%27or_n%C3%A9erlandais"
   ]
 }

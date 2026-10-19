@@ -1,0 +1,16 @@
+{
+  "id": "spinoza",
+  "nom": "Baruch Spinoza",
+  "role": "Philosophe",
+  "roles": ["Philosophe"],
+  "dates": "1632 → 1677",
+  "naissance": 1632,
+  "mort": 1677,
+  "description": "Philosophe d’Amsterdam, issu d’une famille juive portugaise, il développe une pensée rationnelle qui identifie Dieu à la nature et défend la liberté de penser.",
+  "essentiel": [
+    "En 1656, la communauté juive d’Amsterdam le bannit pour ses idées jugées impies.",
+    "Il gagne sa vie en polissant des lentilles.",
+    "Son Éthique, publiée après sa mort, influence fortement les Lumières."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Baruch_Spinoza"
+}

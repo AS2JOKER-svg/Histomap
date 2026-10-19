@@ -1,0 +1,19 @@
+{
+  "id": "henri-iv",
+  "nom": "Henri IV",
+  "role": "Roi de France et de Navarre",
+  "roles": ["Roi"],
+  "dates": "1553 → 1610",
+  "naissance": 1553,
+  "mort": 1610,
+  "description": "Chef protestant devenu roi de France, il se convertit au catholicisme, met fin aux guerres de religion par l’édit de Nantes et reconstruit le royaume.",
+  "reperes": [{ "label": "Règne", "valeur": "1589 → 1610" }],
+  "essentiel": [
+    "Il échappe au [[massacre-de-la-saint-barthelemy|massacre de la Saint-Barthélemy]], six jours après son mariage.",
+    "Pour être accepté par les catholiques, il se convertit en 1593.",
+    "L’[[edit-de-nantes|édit de Nantes]] (1598) accorde la liberté de culte aux protestants.",
+    "Il est assassiné par Ravaillac en 1610."
+  ],
+  "aSavoir": ["La formule « Paris vaut bien une messe » lui est attribuée, mais il ne l’a sans doute jamais prononcée."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Henri_IV_(roi_de_France)"
+}

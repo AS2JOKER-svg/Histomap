@@ -1,0 +1,21 @@
+{
+  "id": "massacre-de-la-saint-barthelemy",
+  "nom": "Massacre de la Saint-Barthélemy",
+  "annee": 1572,
+  "dates": "24 août 1572",
+  "lieu": "Paris, puis une vingtaine de villes",
+  "description": "Quelques jours après le mariage du protestant Henri de Navarre et de Marguerite de Valois, des milliers de protestants sont massacrés à Paris, puis en province.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Le roi Charles IX et son conseil décident d’éliminer les chefs protestants, dont l’amiral de Coligny. La population catholique de Paris se joint au massacre, qui s’étend aux provinces."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Peut-être 10 000 morts dans tout le royaume. Les guerres de religion reprennent de plus belle."
+    }
+  ],
+  "liens": [{ "ref": "henri-iv", "relation": "Il y échappe de justesse" }],
+  "apres": "edit-de-nantes",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Massacre_de_la_Saint-Barth%C3%A9lemy"
+}

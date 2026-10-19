@@ -10,7 +10,7 @@
   "row": 3,
   "isRiver": false,
   "capitale": "Londres",
-  "description": "La nation qui, par la décapitation de son roi et son schisme religieux, a inventé la monarchie parlementaire moderne et dominé le commerce maritime mondial.",
+  "description": "L’Angleterre des Tudors et des Stuarts, puis la Grande-Bretagne : une monarchie qui rompt avec Rome, traverse une guerre civile, adopte un régime parlementaire et devient la première puissance maritime et commerciale du monde.",
   "territories": [
     "England",
     "England and Ireland",
@@ -21,47 +21,216 @@
   "datesCles": [
     {
       "annee": 1534,
-      "evenement": "L'Acte de Suprématie",
-      "info": "Henri VIII rompt avec le Pape pour divorcer, fondant l'Église anglicane."
+      "evenement": "L’Acte de suprématie",
+      "info": "Henri VIII rompt avec le pape et devient chef de l’Église d’Angleterre."
     },
     {
-      "annee": 1642,
-      "evenement": "Guerre Civile",
-      "info": "La guerre civile éclate entre le roi et le Parlement. En 1649, le roi Charles Ier est exécuté et une république dominée par Cromwell et les puritains est instaurée."
+      "annee": 1588,
+      "evenement": "Défaite de l’Armada",
+      "info": "La flotte espagnole envoyée contre l’Angleterre est mise en échec.",
+      "ref": "invincible-armada"
+    },
+    {
+      "annee": 1607,
+      "evenement": "Jamestown",
+      "info": "Première colonie anglaise durable en Amérique du Nord, en Virginie."
+    },
+    {
+      "annee": 1649,
+      "evenement": "Exécution de Charles Ier",
+      "info": "Après la guerre civile, le roi est jugé et décapité ; une république est proclamée.",
+      "ref": "execution-de-charles-ier"
     },
     {
       "annee": 1688,
       "evenement": "La Glorieuse Révolution",
-      "info": "Renversement presque sans combat, en Angleterre, du roi catholique Jacques II, et adoption du 'Bill of Rights' garantissant le pouvoir du Parlement. La guerre éclate en revanche en Irlande et en Écosse (bataille de la Boyne, 1690)."
+      "info": "Renversement presque sans combat, en Angleterre, du roi catholique Jacques II, et adoption du « Bill of Rights » garantissant le pouvoir du Parlement. La guerre éclate en revanche en Irlande et en Écosse (bataille de la Boyne, 1690).",
+      "ref": "glorieuse-revolution"
     },
     {
       "annee": 1707,
-      "evenement": "Acte d'Union",
-      "info": "L'Angleterre et l'Écosse s'unissent pour former le royaume de Grande-Bretagne (le Royaume-Uni naîtra en 1801, avec l'Irlande)."
+      "evenement": "Acte d’Union",
+      "info": "L’Angleterre et l’Écosse s’unissent pour former le royaume de Grande-Bretagne (le Royaume-Uni naîtra en 1801, avec l’Irlande)."
+    },
+    {
+      "annee": 1763,
+      "evenement": "Traité de Paris",
+      "info": "Victorieuse de la guerre de Sept Ans, la Grande-Bretagne prend le Canada à la France."
+    },
+    {
+      "annee": 1783,
+      "evenement": "Indépendance américaine",
+      "info": "La Grande-Bretagne reconnaît l’indépendance des États-Unis."
     }
   ],
   "dirigeants": [
-    { "titre": "Roi d'Angleterre", "nom": "Henri VIII", "debut": 1509, "fin": 1547 },
-    { "titre": "Reine", "nom": "Élisabeth Ire", "surnom": "La Reine Vierge", "debut": 1558, "fin": 1603 },
-    { "titre": "Lord Protecteur", "nom": "Oliver Cromwell", "debut": 1653, "fin": 1658 }
+    { "nom": "Henri VII", "titre": "Roi", "debut": 1485, "fin": 1509, "dynastie": "tudor", "note": "fondateur des Tudor" },
+    {
+      "nom": "Henri VIII",
+      "titre": "Roi",
+      "debut": 1509,
+      "fin": 1547,
+      "dynastie": "tudor",
+      "personne": "henri-viii",
+      "note": "six épouses ; fonde l’Église d’Angleterre",
+      "cle": true
+    },
+    {
+      "nom": "Édouard VI",
+      "titre": "Roi",
+      "debut": 1547,
+      "fin": 1553,
+      "dynastie": "tudor",
+      "note": "roi enfant, protestant"
+    },
+    {
+      "nom": "Marie Ire",
+      "titre": "Reine",
+      "surnom": "la Sanglante (Bloody Mary)",
+      "debut": 1553,
+      "fin": 1558,
+      "dynastie": "tudor",
+      "note": "rétablit le catholicisme et persécute les protestants"
+    },
+    {
+      "nom": "Élisabeth Ire",
+      "titre": "Reine",
+      "surnom": "la Reine vierge",
+      "debut": 1558,
+      "fin": 1603,
+      "dynastie": "tudor",
+      "personne": "elisabeth-ire",
+      "cle": true
+    },
+    {
+      "nom": "Jacques Ier",
+      "titre": "Roi",
+      "debut": 1603,
+      "fin": 1625,
+      "dynastie": "stuart",
+      "note": "déjà roi d’Écosse ; unit les deux couronnes"
+    },
+    {
+      "nom": "Charles Ier",
+      "titre": "Roi",
+      "debut": 1625,
+      "fin": 1649,
+      "dynastie": "stuart",
+      "note": "exécuté en 1649",
+      "cle": true
+    },
+    {
+      "nom": "Oliver Cromwell",
+      "titre": "Lord Protecteur",
+      "debut": 1653,
+      "fin": 1658,
+      "dynastie": "commonwealth",
+      "personne": "oliver-cromwell",
+      "cle": true
+    },
+    { "nom": "Richard Cromwell", "titre": "Lord Protecteur", "debut": 1658, "fin": 1659, "dynastie": "commonwealth" },
+    {
+      "nom": "Charles II",
+      "titre": "Roi",
+      "surnom": "le Joyeux Monarque",
+      "debut": 1660,
+      "fin": 1685,
+      "dynastie": "restauration"
+    },
+    {
+      "nom": "Jacques II",
+      "titre": "Roi",
+      "debut": 1685,
+      "fin": 1688,
+      "dynastie": "restauration",
+      "note": "catholique, renversé"
+    },
+    {
+      "nom": "Guillaume III et Marie II",
+      "titre": "Roi et reine",
+      "debut": 1689,
+      "fin": 1702,
+      "dynastie": "restauration",
+      "note": "règnent ensemble jusqu’à la mort de Marie (1694)",
+      "cle": true
+    },
+    {
+      "nom": "Anne",
+      "titre": "Reine",
+      "debut": 1702,
+      "fin": 1714,
+      "dynastie": "restauration",
+      "note": "première reine de Grande-Bretagne"
+    },
+    {
+      "nom": "George Ier",
+      "titre": "Roi",
+      "debut": 1714,
+      "fin": 1727,
+      "dynastie": "hanovre",
+      "note": "prince allemand, ne parle presque pas anglais"
+    },
+    { "nom": "George II", "titre": "Roi", "debut": 1727, "fin": 1760, "dynastie": "hanovre" },
+    {
+      "nom": "George III",
+      "titre": "Roi",
+      "debut": 1760,
+      "fin": 1820,
+      "dynastie": "hanovre",
+      "note": "perd les colonies américaines",
+      "cle": true
+    }
   ],
   "personnages": [
     {
       "nom": "Isaac Newton",
-      "role": "Physicien",
-      "description": "L'un des plus grands scientifiques de tous les temps, il formule la loi de la gravitation universelle.",
-      "dates": "1643 à 1727",
-      "wikiUrl": "https://fr.wikipedia.org/wiki/Isaac_Newton"
+      "role": "Physicien et mathématicien",
+      "description": "Il formule les lois du mouvement et la gravitation universelle.",
+      "dates": "1643 → 1727",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Isaac_Newton",
+      "ref": "isaac-newton"
     },
     {
       "nom": "William Shakespeare",
-      "role": "Dramaturge",
-      "description": "Auteur immense (Hamlet, Roméo et Juliette) dont l'œuvre a littéralement forgé la langue anglaise moderne.",
-      "dates": "1564 à 1616",
-      "wikiUrl": "https://fr.wikipedia.org/wiki/William_Shakespeare"
+      "role": "Dramaturge et poète",
+      "description": "Auteur de Hamlet, Roméo et Juliette ou Macbeth, il a profondément marqué la langue anglaise.",
+      "dates": "1564 → 1616",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/William_Shakespeare",
+      "ref": "william-shakespeare"
+    },
+    {
+      "nom": "Thomas More",
+      "role": "Humaniste et chancelier",
+      "description": "Auteur de L’Utopie, il refuse de reconnaître Henri VIII comme chef de l’Église et est exécuté.",
+      "dates": "1478 → 1535",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Thomas_More"
+    },
+    {
+      "nom": "John Locke",
+      "role": "Philosophe",
+      "description": "Il défend les droits naturels, la tolérance et le gouvernement fondé sur le consentement des citoyens.",
+      "dates": "1632 → 1704",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/John_Locke"
+    },
+    {
+      "nom": "Mary Wollstonecraft",
+      "role": "Philosophe",
+      "description": "Elle défend l’éducation et les droits des femmes dans un livre de 1792.",
+      "dates": "1759 → 1797",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Mary_Wollstonecraft"
     }
   ],
   "guerres": [
+    {
+      "nom": "Guerres civiles anglaises",
+      "annee": 1642,
+      "adversaires": ["Royalistes (Charles Ier)"],
+      "allies": ["Parlementaires (Cromwell)"],
+      "morts": "Peut-être 200 000 morts en Angleterre, beaucoup plus en Irlande",
+      "vainqueur": "Parlement",
+      "consequences": "Guerres de 1642 à 1651. Charles Ier est exécuté et une république est proclamée ; Cromwell reconquiert brutalement l’Irlande.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerres_des_Trois_Royaumes"
+    },
     {
       "nom": "Guerre de Sept Ans (Guerre de la Conquête)",
       "annee": 1756,
@@ -69,17 +238,139 @@
       "allies": ["Prusse"],
       "morts": "Environ un million de morts (estimations) dans une guerre aux dimensions mondiales",
       "vainqueur": "Grande-Bretagne",
-      "consequences": "Les Britanniques expulsent la France d'Amérique du Nord (chute du Québec) et des Indes, s'assurant le monopole colonial mondial.",
+      "consequences": "Les Britanniques prennent le Canada à la France et s’imposent en Inde : ils deviennent la première puissance coloniale du monde.",
       "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_de_Sept_Ans"
+    },
+    {
+      "nom": "Guerre d'indépendance des États-Unis",
+      "annee": 1775,
+      "adversaires": ["Colonies américaines (Washington)"],
+      "allies": [],
+      "morts": "Plusieurs dizaines de milliers",
+      "vainqueur": "États-Unis (avec la France)",
+      "consequences": "Par le traité de Paris (1783), la Grande-Bretagne reconnaît l’indépendance des États-Unis.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_d%27ind%C3%A9pendance_des_%C3%89tats-Unis"
     }
   ],
-  "sciences": "Leur stabilité politique précoce permet le déclenchement de la première Révolution industrielle à la fin du XVIIIe siècle. L'invention de la machine à vapeur (Newcomen puis perfectionnée par Watt) permet de pomper l'eau des mines de charbon, puis de motoriser les métiers à tisser. C'est également la naissance de la finance moderne avec la création de la Banque d'Angleterre (1694) pour financer les guerres contre la France.",
-  "croyancesText": "Le pays est traversé par une tension religieuse extrême entre Anglicans (religion d'État modérée), Catholiques (persécutés et exclus des fonctions publiques) et Puritains (calvinistes radicaux). Ces derniers, fuyant les persécutions, embarqueront sur le Mayflower pour coloniser l'Amérique du Nord, important leur éthique de travail et de prédestination divine.",
-  "diplomatie": "La politique étrangère britannique ('L'Équilibre des puissances') consiste à refuser qu'un seul État continental (France ou Espagne) ne domine l'Europe. Protégée par sa flotte royale (la Royal Navy), elle finance les ennemis de ses ennemis et s'assure le contrôle des détroits maritimes, fondant l'expansion colossale de l'East India Company en Asie.",
-  "documentaires": [
+  "sciences": "Newton publie en 1687 les Principia, qui expliquent le mouvement des planètes par la gravitation. La Royal Society (1660) réunit les savants. Au XVIIIe siècle, la machine à vapeur de Newcomen, perfectionnée par Watt, pompe l’eau des mines puis actionne les usines textiles, tandis que de nouvelles machines à filer naissent : c’est le début de la révolution industrielle. La Banque d’Angleterre (1694) finance l’État et ses guerres.",
+  "croyancesText": "Le pays est traversé par une tension religieuse entre anglicans (Église d’État), catholiques, exclus des fonctions publiques, et puritains (protestants calvinistes plus stricts). Des puritains, persécutés, partent en 1620 sur le Mayflower fonder une colonie en Amérique du Nord. La Glorieuse Révolution garantit une tolérance limitée aux protestants non anglicans.",
+  "diplomatie": "La politique étrangère britannique cherche l’« équilibre des puissances » : empêcher un seul État, l’Espagne puis la France, de dominer le continent. Protégée par la Royal Navy, la Grande-Bretagne finance ses alliés, conquiert des colonies et développe la Compagnie des Indes orientales, qui prend le contrôle d’une partie de l’Inde après 1757.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": { "valeur": "Londres" },
+    "regimes": {
+      "valeur": "Monarchie, puis monarchie parlementaire",
+      "precision": "avec une république (1649-1660) ; après 1689, le Parlement contrôle les impôts et l’armée"
+    },
+    "langues": { "valeur": "Anglais", "precision": "avec le gallois, le gaélique et le scots" },
+    "religion": {
+      "valeur": "Anglicanisme",
+      "precision": "Église d’Angleterre, séparée de Rome en 1534 ; catholiques et dissidents protestants discriminés"
+    },
+    "apogee": { "valeur": "XVIIIe siècle", "precision": "victoire de la guerre de Sept Ans (1763)" },
+    "population": { "valeur": "Environ 9 millions en Grande-Bretagne", "precision": "vers 1750" },
+    "monnaie": { "valeur": "Livre sterling", "precision": "Banque d’Angleterre fondée en 1694" },
+    "duree": { "valeur": "Environ 300 ans" },
+    "aujourdhui": {
+      "valeur": "Royaume-Uni",
+      "precision": "avec un empire colonial en Amérique du Nord, aux Antilles et en Inde"
+    }
+  },
+  "essentiel": [
+    "[[henri-viii|Henri VIII]] rompt avec le pape pour divorcer et fonde l’Église d’Angleterre (1534).",
+    "Sous [[elisabeth-ire|Élisabeth Ire]], l’Angleterre repousse l’[[invincible-armada|Invincible Armada]] et vit l’âge d’or de [[william-shakespeare|Shakespeare]].",
+    "Le conflit entre le roi et le Parlement mène à la guerre civile et à l’[[execution-de-charles-ier|exécution de Charles Ier]] (1649) ; [[oliver-cromwell|Cromwell]] gouverne une république.",
+    "La [[glorieuse-revolution|Glorieuse Révolution]] (1688) donne au Parlement un pouvoir durable : c’est la naissance de la monarchie parlementaire.",
+    "Au XVIIIe siècle, la Grande-Bretagne domine les mers ; la [[machine-a-vapeur|machine à vapeur]] annonce la révolution industrielle, et [[isaac-newton|Newton]] révolutionne la science."
+  ],
+  "periodes": [
     {
-      "titre": "Les Tudor : Une dynastie de sang et de passion",
-      "url": "https://fr.wikipedia.org/wiki/P%C3%A9riode_Tudor"
+      "nom": "Les Tudor",
+      "debut": 1492,
+      "fin": 1603,
+      "resume": "Henri VIII crée l’Église d’Angleterre. Après les règnes troublés de ses enfants, Élisabeth Ire stabilise le pays et l’ouvre aux mers.",
+      "evenements": [
+        { "annee": 1534, "evenement": "Acte de suprématie" },
+        { "annee": 1588, "evenement": "Invincible Armada", "ref": "invincible-armada" },
+        { "annee": 1600, "evenement": "Fondation de la Compagnie des Indes orientales" }
+      ]
+    },
+    {
+      "nom": "Les Stuart et les révolutions",
+      "debut": 1603,
+      "fin": 1714,
+      "resume": "Les Stuart veulent gouverner sans le Parlement : guerre civile, république de Cromwell, restauration, puis Glorieuse Révolution.",
+      "evenements": [
+        { "annee": 1649, "evenement": "Exécution de Charles Ier", "ref": "execution-de-charles-ier" },
+        { "annee": 1666, "evenement": "Grand incendie de Londres" },
+        { "annee": 1688, "evenement": "Glorieuse Révolution", "ref": "glorieuse-revolution" },
+        { "annee": 1707, "evenement": "Union avec l’Écosse" }
+      ]
+    },
+    {
+      "nom": "Les Hanovre",
+      "debut": 1714,
+      "fin": 1789,
+      "resume": "Les ministres, comme Walpole, gouvernent avec le Parlement. La Grande-Bretagne gagne la guerre de Sept Ans, perd ses colonies américaines et entre dans la révolution industrielle.",
+      "evenements": [
+        { "annee": 1721, "evenement": "Walpole, premier « Premier ministre »" },
+        { "annee": 1763, "evenement": "Traité de Paris" },
+        { "annee": 1769, "evenement": "Machine à vapeur de Watt" }
+      ]
+    }
+  ],
+  "regimes": [
+    { "id": "monarchie", "nom": "Monarchie", "debut": 1492, "fin": 1649 },
+    {
+      "id": "republique",
+      "nom": "République (Commonwealth)",
+      "debut": 1649,
+      "fin": 1660,
+      "note": "Après l’exécution de Charles Ier ; Cromwell gouverne comme Lord Protecteur à partir de 1653."
+    },
+    {
+      "id": "parlementaire",
+      "nom": "Monarchie, puis monarchie parlementaire",
+      "debut": 1660,
+      "fin": 1789,
+      "note": "Après 1689, le roi ne peut plus lever d’impôts ni entretenir d’armée sans l’accord du Parlement."
+    }
+  ],
+  "dynasties": [
+    { "id": "tudor", "nom": "Les Tudor", "debut": 1485, "fin": 1603, "regime": "monarchie" },
+    { "id": "stuart", "nom": "Les Stuart", "debut": 1603, "fin": 1649, "regime": "monarchie" },
+    { "id": "commonwealth", "nom": "Le Commonwealth", "debut": 1653, "fin": 1659, "regime": "republique" },
+    { "id": "restauration", "nom": "Les Stuart restaurés", "debut": 1660, "fin": 1714, "regime": "parlementaire" },
+    { "id": "hanovre", "nom": "Les Hanovre", "debut": 1714, "fin": 1820, "regime": "parlementaire" }
+  ],
+  "societe": "La noblesse et la gentry (petite noblesse terrienne) dominent le Parlement. Les enclosures, qui clôturent les champs communs, poussent de nombreux paysans vers les villes. Les marchands de Londres et de Bristol s’enrichissent du commerce colonial, dont la traite des esclaves.",
+  "economie": "Laine et textiles, commerce maritime mondial, colonies sucrières des Antilles, traite atlantique, charbon, puis industrie textile mécanisée à la fin du XVIIIe siècle.",
+  "decouvertes": ["machine-a-vapeur"],
+  "arts": "Théâtre élisabéthain (Shakespeare, Marlowe), cathédrale Saint-Paul de Christopher Wren, musique de Purcell et Haendel, romans de Defoe et Swift.",
+  "quotidien": "À Londres, les cafés (coffee houses) deviennent des lieux de discussion et d’affaires. Le thé, importé d’Asie, se répand dans toute la société au XVIIIe siècle.",
+  "heritage": [
+    {
+      "titre": "La démocratie parlementaire",
+      "texte": "Le Bill of Rights (1689) et le rôle du Parlement inspirent les régimes parlementaires du monde entier."
+    },
+    {
+      "titre": "La langue anglaise",
+      "texte": "L’anglais de Shakespeare et de la Bible du roi Jacques (1611) devient, avec l’expansion britannique, une langue mondiale."
+    },
+    {
+      "titre": "La révolution industrielle",
+      "texte": "Elle commence en Grande-Bretagne avant de transformer le monde entier."
+    }
+  ],
+  "aSavoir": [
+    "Le Royaume-Uni n’a pas de constitution écrite en un seul texte : ses règles reposent sur des lois anciennes, comme le Bill of Rights, et sur la coutume."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Royaume_d%27Angleterre",
+    "https://fr.wikipedia.org/wiki/Royaume_de_Grande-Bretagne",
+    {
+      "titre": "Encyclopædia Britannica — United Kingdom, history",
+      "url": "https://www.britannica.com/place/United-Kingdom/History"
     }
   ]
 }

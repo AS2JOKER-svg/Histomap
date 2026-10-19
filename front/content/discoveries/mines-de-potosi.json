@@ -1,0 +1,20 @@
+{
+  "id": "mines-de-potosi",
+  "nom": "Mines de Potosí",
+  "annee": 1545,
+  "domaine": "Économie",
+  "dates": "découvertes en 1545",
+  "description": "Une montagne des Andes boliviennes, le Cerro Rico, d’où les Espagnols tirent d’énormes quantités d’argent : l’une des plus grandes mines de l’histoire.",
+  "sections": [
+    {
+      "titre": "Comment on l’exploite",
+      "texte": "Les Espagnols imposent aux communautés amérindiennes un travail forcé par roulement, la mita, dans des conditions terribles. À partir des années 1570, l’argent est extrait du minerai grâce au mercure."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Potosí devient l’une des plus grandes villes du monde. Son argent finance l’empire espagnol et circule jusqu’en Chine, mais au prix de très nombreux morts."
+    }
+  ],
+  "aSavoir": ["En espagnol, « valer un Potosí » signifie encore « valoir une fortune »."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Potos%C3%AD"
+}

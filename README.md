@@ -62,6 +62,7 @@ npm run dev                    # http://localhost:5173/Histomap/ (marche aussi d
 | `npm run data` | Compile `content/` → `src/data/` puis valide tout |
 | `npm run validate` | Valide seulement le contenu et les chapitres |
 | `npm run coverage` | Rapport de couverture → `front/reports/couverture.md` |
+| `npm run links` | Vérifie que tous les liens Wikipédia du contenu existent (connexion requise) |
 | `npm run map` | Régénère les fonds de carte depuis historical-basemaps (réseau requis, rarement utile) |
 | `npm run build` | Valide puis construit le site dans `dist/` |
 | `npm run preview` | Sert le build localement |

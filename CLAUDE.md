@@ -15,6 +15,7 @@ Tout le code est dans `front/`. Commandes (depuis `front/`, ou depuis la racine 
 - `npm run data` : compile le contenu + valide tout (**À LANCER APRÈS CHAQUE MODIFICATION DE CONTENU** : 0 erreur, 0 alerte)
 - `npm run validate` : valide seulement
 - `npm run coverage` : rapport de couverture (région × siècle, territoires des cartes sans fiche) → `front/reports/couverture.md`
+- `npm run links` : vérifie que tous les liens Wikipédia de `content/` mènent à une page existante (réseau requis ; à lancer après chaque lot de fiches)
 - `npm run build` : compile, valide puis construit `dist/` (+ service worker)
 - `npm run preview` : sert le build (tester le hors-ligne ici, pas en dev)
 

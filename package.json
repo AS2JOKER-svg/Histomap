@@ -7,6 +7,7 @@
     "data": "npm --prefix front run data",
     "validate": "npm --prefix front run validate",
     "coverage": "npm --prefix front run coverage",
+    "links": "npm --prefix front run links",
     "build": "npm --prefix front run build",
     "preview": "npm --prefix front run preview"
   }

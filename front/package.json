@@ -7,6 +7,7 @@
     "validate": "node scripts/validate-content.mjs && node scripts/validate-revision.mjs",
     "data": "npm run content && npm run validate",
     "coverage": "npm run content && node scripts/coverage-report.mjs",
+    "links": "node scripts/check-links.mjs",
     "predev": "npm run content",
     "dev": "vite",
     "prebuild": "npm run data",

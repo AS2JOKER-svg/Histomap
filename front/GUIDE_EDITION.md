@@ -30,6 +30,7 @@ Le site ne lit jamais ces fichiers directement : `scripts/build-content.mjs` les
    cd front && npm run data
    ```
 4. Vérifier dans le navigateur (`npm run dev`), puis `npm run coverage` pour voir le trou comblé.
+5. Lancer `npm run links` pour vérifier les liens Wikipédia ajoutés.
 
 ### Structure d'une fiche de civilisation
 ```jsonc

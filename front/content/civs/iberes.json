@@ -11,36 +11,221 @@
   "row": 6,
   "isRiver": false,
   "capitale": "Oppida",
-  "description": "Guerriers farouches de la péninsule hispanique, maîtres de la forge, coincés dans l'étau du choc des titans entre Rome et Carthage.",
+  "description": "Peuples de l’est et du sud de la péninsule Ibérique, au contact des Grecs et des Phéniciens, pris dans la rivalité entre Carthage et Rome, puis conquis par Rome.",
   "territories": ["Celtiberians"],
   "datesCles": [
     {
+      "annee": -600,
+      "evenement": "Contacts avec les Grecs",
+      "info": "Les Grecs de Phocée fondent des comptoirs sur la côte, comme Emporion (Ampurias), vers −575."
+    },
+    {
+      "annee": -237,
+      "evenement": "Conquête carthaginoise",
+      "info": "Hamilcar Barca débarque en Espagne et soumet le sud de la péninsule."
+    },
+    {
       "annee": -218,
       "evenement": "Débarquement romain",
-      "info": "La 2e Guerre punique transforme la péninsule en champ de bataille mondial."
+      "info": "La deuxième guerre punique fait de la péninsule un champ de bataille entre Rome et Carthage."
+    },
+    {
+      "annee": -206,
+      "evenement": "Victoire romaine d’Ilipa",
+      "info": "Scipion chasse les Carthaginois d’Espagne ; Rome commence sa conquête."
+    },
+    {
+      "annee": -133,
+      "evenement": "Chute de Numance",
+      "info": "Après un long siège, la ville celtibère est prise par Scipion Émilien.",
+      "ref": "siege-de-numance"
     },
     {
       "annee": -19,
-      "evenement": "Guerres Cantabres",
-      "info": "L'empereur Auguste achève dans le sang la pacification de toute l'Hispanie."
+      "evenement": "Fin des guerres cantabres",
+      "info": "Auguste achève la conquête de toute la péninsule."
     }
   ],
-  "dirigeants": [{ "titre": "Chef des Ilergètes", "nom": "Indíbil", "debut": -220, "fin": -205 }],
-  "personnages": [],
+  "dirigeants": [
+    {
+      "nom": "Arganthonios",
+      "titre": "Roi de Tartessos",
+      "debut": -630,
+      "fin": -550,
+      "dynastie": "iberes",
+      "note": "roi du royaume de Tartessos, ami des Grecs ; Hérodote lui prête 80 ans de règne"
+    },
+    {
+      "nom": "Indíbil",
+      "titre": "Roi des Ilergètes",
+      "debut": -218,
+      "fin": -205,
+      "dynastie": "iberes",
+      "note": "allié tour à tour de Carthage et de Rome",
+      "cle": true
+    },
+    {
+      "nom": "Mandonio",
+      "titre": "Roi des Ilergètes",
+      "debut": -218,
+      "fin": -205,
+      "dynastie": "iberes",
+      "note": "frère d’Indíbil"
+    },
+    {
+      "nom": "Edecon",
+      "titre": "Roi des Édétans",
+      "debut": -209,
+      "fin": -206,
+      "dynastie": "iberes",
+      "note": "allié de Scipion"
+    },
+    {
+      "nom": "Viriathe",
+      "titre": "Chef lusitanien",
+      "debut": -147,
+      "fin": -139,
+      "dynastie": "resistances",
+      "personne": "viriathe",
+      "note": "assassiné par ses compagnons achetés par Rome",
+      "cle": true
+    },
+    {
+      "nom": "Rhétogène",
+      "titre": "Chef de Numance",
+      "debut": -134,
+      "fin": -133,
+      "dynastie": "resistances",
+      "note": "tente de briser le siège"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Viriathe",
+      "role": "Chef lusitanien",
+      "description": "Berger devenu chef de guerre, il tient tête aux armées romaines pendant huit ans avant d’être assassiné.",
+      "dates": "mort en −139",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Viriathe",
+      "ref": "viriathe"
+    },
+    {
+      "nom": "Indíbil",
+      "role": "Roi des Ilergètes",
+      "description": "Roi ibère de l’actuelle Catalogne, allié de Carthage puis de Rome, avant de se révolter contre les Romains et d’être tué au combat.",
+      "dates": "mort en −205",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Indibilis"
+    }
+  ],
   "guerres": [
     {
       "nom": "Guerres celtibères & numantines",
       "annee": -154,
       "adversaires": ["République Romaine"],
       "allies": [],
-      "morts": "Destruction des élites celtibères",
+      "morts": "Inconnues ; les défenseurs de Numance meurent de faim ou se suicident plutôt que de se rendre",
       "vainqueur": "Rome (Scipion Émilien)",
       "consequences": "La chute de la cité celtibère de Numance (-133) brise la résistance celtibère, mais la conquête de toute l'Hispanie ne s'achève qu'avec les guerres cantabres (-19).",
       "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_de_Numance"
+    },
+    {
+      "nom": "Guerres cantabres",
+      "annee": -29,
+      "adversaires": ["Empire romain (Auguste)"],
+      "allies": ["Cantabres et Astures"],
+      "morts": "Inconnues",
+      "vainqueur": "Rome",
+      "consequences": "Les derniers peuples indépendants du nord de la péninsule sont soumis : toute l’Hispanie est romaine.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerres_cantabres"
     }
   ],
-  "sciences": "Leur apport technique majeur au monde antique est la sidérurgie de l'acier (les mines d'Hispanie). Ils inventent la redoutable 'Falcata', une épée courte courbée asymétriquement capable de trancher les casques et les boucliers. Le glaive romain (gladius hispaniensis) ne dérive pas de la falcata, mais d'épées droites celtibères adoptées par Rome.",
-  "croyancesText": "Culture fortement influencée par les Phéniciens et les Grecs installés sur leurs côtes. Ils pratiquent un art sculptural distinctif de figures féminines divines aux parures somptueuses (la Dame d'Elche, la Dame de Baza), associées à des cultes de fécondité, et incinèrent leurs morts héroïques en pliant ou détruisant volontairement leurs armes dans les tombes.",
-  "diplomatie": "Les Ibères et les Celtibères ne se battent pas en rangs serrés, mais privilégient les embuscades et le harcèlement. Fortement tribaux, ils scellent des alliances (hospitium) ; les Celtibères, surtout, échangent des tessères de bronze (jetons de pacte). Ils fournissent la majorité des troupes d'élite à l'armée carthaginoise d'Hannibal contre Rome.",
-  "documentaires": [{ "titre": "L'Hispanie avant Rome", "url": "https://fr.wikipedia.org/wiki/Ib%C3%A8res" }]
+  "sciences": "Les forgerons de la péninsule sont réputés : la falcata ibère, épée courbe, est redoutable, et les Romains adoptent le « glaive hispanique » (gladius hispaniensis), une épée droite inspirée des armes celtibères. Les Ibères exploitent aussi d’importantes mines d’argent, de cuivre et de plomb, dans le sud de la péninsule.",
+  "croyancesText": "Les Ibères fréquentent des sanctuaires de hauteur ou des grottes, où ils déposent par milliers des statuettes de bronze. Ils sculptent de grandes statues de femmes richement parées, comme la Dame d’Elche ou la Dame de Baza, qui servaient peut-être d’urnes funéraires. Ils incinèrent leurs morts, souvent avec leurs armes volontairement pliées.",
+  "diplomatie": "Les peuples de la péninsule, divisés, s’allient ou s’affrontent au gré de leurs intérêts. Ils scellent des pactes d’hospitalité, que les Celtibères gravent sur des tessères de bronze. Beaucoup combattent comme mercenaires pour Carthage, dans l’armée d’Hannibal, puis comme auxiliaires de Rome.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": {
+      "valeur": "Aucune capitale commune",
+      "precision": "des villes fortifiées (oppida), comme Ullastret ou Edeta"
+    },
+    "regimes": { "valeur": "Peuples indépendants", "precision": "dirigés par des rois ou des chefs, liés par des pactes" },
+    "langues": { "valeur": "Ibère", "precision": "écriture ibère : on sait la lire, mais la langue reste incomprise" },
+    "religion": { "valeur": "Polythéisme", "precision": "sanctuaires de hauteur et offrandes de statuettes" },
+    "apogee": { "valeur": "Ve-IIIe siècles av. J.-C." },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": {
+      "valeur": "Monnaies d’argent et de bronze",
+      "precision": "à partir du IIIe siècle av. J.-C., avec des légendes en écriture ibère"
+    },
+    "duree": { "valeur": "Environ 600 ans" },
+    "aujourdhui": { "valeur": "Espagne", "precision": "côte méditerranéenne et Andalousie, jusqu’au Languedoc en France" }
+  },
+  "essentiel": [
+    "Les Ibères vivent sur la côte méditerranéenne de l’Espagne et en Andalousie ; au centre et au nord-ouest vivent des peuples celtes et celtibères.",
+    "Au contact des Phéniciens et des Grecs, ils adoptent l’écriture, la monnaie et un art original, comme la [[dame-d-elche|Dame d’Elche]].",
+    "Au IIIe siècle av. J.-C., Carthage conquiert le sud de l’Espagne et recrute de nombreux Ibères dans l’armée d’Hannibal.",
+    "Rome s’empare de la péninsule après la deuxième guerre punique, mais la conquête dure près de deux siècles, marquée par le [[siege-de-numance|siège de Numance]].",
+    "Les guerres cantabres, achevées en −19 sous Auguste, terminent la conquête."
+  ],
+  "periodes": [
+    {
+      "nom": "L’essor des Ibères",
+      "debut": -600,
+      "fin": -237,
+      "resume": "Au contact des Grecs et des Phéniciens, les Ibères développent des villes fortifiées, une écriture et un art original.",
+      "evenements": [{ "annee": -575, "evenement": "Fondation d’Emporion par les Grecs" }]
+    },
+    {
+      "nom": "Entre Carthage et Rome",
+      "debut": -237,
+      "fin": -206,
+      "resume": "Carthage conquiert le sud de la péninsule ; la deuxième guerre punique s’y joue en partie, jusqu’à la victoire de Scipion.",
+      "evenements": [
+        { "annee": -219, "evenement": "Hannibal prend Sagonte" },
+        { "annee": -206, "evenement": "Victoire romaine d’Ilipa" }
+      ]
+    },
+    {
+      "nom": "La conquête romaine",
+      "debut": -206,
+      "fin": -19,
+      "resume": "Les révoltes se succèdent : Lusitaniens de Viriathe, Celtibères de Numance, puis Cantabres et Astures, derniers soumis.",
+      "evenements": [
+        { "annee": -139, "evenement": "Assassinat de Viriathe" },
+        { "annee": -133, "evenement": "Chute de Numance", "ref": "siege-de-numance" },
+        { "annee": -19, "evenement": "Fin des guerres cantabres" }
+      ]
+    }
+  ],
+  "dynasties": [
+    {
+      "id": "iberes",
+      "nom": "Chefs ibères",
+      "debut": -630,
+      "fin": -205,
+      "note": "Connus par les historiens grecs et romains ; dates approximatives."
+    },
+    { "id": "resistances", "nom": "Chefs celtibères et lusitaniens face à Rome", "debut": -147, "fin": -133 }
+  ],
+  "societe": "Une aristocratie guerrière domine les villes fortifiées. Les liens de fidélité au chef sont très forts : certains guerriers se « vouent » à lui et refusent de lui survivre.",
+  "economie": "Agriculture méditerranéenne (céréales, vigne, olivier), élevage, mines d’argent et de cuivre, commerce avec les Grecs et les Phéniciens.",
+  "decouvertes": ["dame-d-elche"],
+  "arts": "Grandes sculptures de pierre (Dame d’Elche, Dame de Baza, guerriers de Porcuna), céramiques peintes de scènes de chasse et de combat, bijoux en or et en argent.",
+  "quotidien": "Les Ibères vivent dans des villages et des villes perchés, entourés de murailles, aux maisons de pierre et de brique crue. Ils travaillent la laine et le lin et cultivent leurs champs autour des villes.",
+  "heritage": [
+    {
+      "titre": "La Dame d’Elche",
+      "texte": "Exposée au Musée archéologique national de Madrid, elle est devenue un symbole du patrimoine espagnol."
+    },
+    {
+      "titre": "L’Hispanie romaine",
+      "texte": "La péninsule devient l’une des provinces les plus romanisées : l’espagnol, le portugais et le catalan viennent du latin qui y était parlé."
+    }
+  ],
+  "aSavoir": [
+    "L’écriture ibère se lit, mais la langue reste incomprise, comme l’étrusque : on peut prononcer les mots sans savoir ce qu’ils veulent dire."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Ib%C3%A8res",
+    { "titre": "Encyclopædia Britannica — Iberian", "url": "https://www.britannica.com/topic/Iberian-people" }
+  ]
 }

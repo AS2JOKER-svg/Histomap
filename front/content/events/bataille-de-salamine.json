@@ -1,0 +1,20 @@
+{
+  "id": "bataille-de-salamine",
+  "nom": "Bataille de Salamine",
+  "annee": -480,
+  "dates": "septembre −480",
+  "lieu": "Détroit de Salamine, près d’Athènes",
+  "description": "La flotte grecque, menée par l’Athénien Thémistocle, attire la flotte perse dans un détroit étroit et l’écrase : c’est le tournant des guerres médiques.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Dans le détroit, les nombreux navires perses se gênent les uns les autres. Les trières grecques, plus maniables, les éperonnent. Xerxès assiste à la défaite depuis la côte."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Xerxès rentre en Asie. L’année suivante, l’armée perse restée en Grèce est battue à Platées : l’invasion est terminée, et Athènes devient la grande puissance maritime de la Grèce."
+    }
+  ],
+  "avant": "bataille-des-thermopyles",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Salamine"
+}

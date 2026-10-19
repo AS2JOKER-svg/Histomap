@@ -1,0 +1,24 @@
+{
+  "id": "socrate",
+  "nom": "Socrate",
+  "role": "Philosophe",
+  "roles": ["Philosophe"],
+  "dates": "vers −470 → −399",
+  "naissance": -470,
+  "mort": -399,
+  "description": "Philosophe athénien qui n’a rien écrit : il interrogeait ses concitoyens pour les pousser à réfléchir. Condamné à mort, il refuse de fuir et boit la ciguë.",
+  "essentiel": [
+    "On le connaît par les écrits de ses élèves, surtout Platon et Xénophon.",
+    "Sa méthode consiste à poser des questions pour montrer à chacun les limites de ce qu’il croit savoir.",
+    "En −399, il est accusé de ne pas honorer les dieux de la cité et de corrompre la jeunesse, puis condamné à mort."
+  ],
+  "chronologie": [
+    { "annee": -470, "texte": "Naissance à Athènes" },
+    { "annee": -432, "texte": "Combat comme hoplite pendant la guerre du Péloponnèse" },
+    { "annee": -399, "texte": "Procès et mort" }
+  ],
+  "aSavoir": [
+    "La phrase « Je sais que je ne sais rien » résume, de façon simplifiée, ce que Platon lui fait dire dans l’Apologie de Socrate."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Socrate"
+}

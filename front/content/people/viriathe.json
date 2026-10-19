@@ -1,0 +1,19 @@
+{
+  "id": "viriathe",
+  "nom": "Viriathe",
+  "role": "Chef lusitanien",
+  "roles": ["Chef de guerre"],
+  "dates": "mort en −139",
+  "mort": -139,
+  "description": "Berger lusitanien devenu chef de guerre, il résiste aux Romains pendant huit ans dans l’ouest de la péninsule, avant d’être assassiné par des compagnons achetés par Rome.",
+  "essentiel": [
+    "Il survit au massacre de Lusitaniens qui s’étaient rendus au gouverneur romain Galba, en −150.",
+    "Il bat plusieurs armées romaines grâce à des embuscades et à une grande mobilité.",
+    "Rome finit par corrompre ses compagnons, qui le tuent dans son sommeil."
+  ],
+  "aSavoir": [
+    "Selon la tradition, quand les assassins vinrent réclamer leur récompense, les Romains leur répondirent que « Rome ne paie pas les traîtres ».",
+    "Il est considéré comme un héros national au Portugal."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Viriathe"
+}

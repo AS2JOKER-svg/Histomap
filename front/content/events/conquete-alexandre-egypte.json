@@ -4,7 +4,7 @@
   "annee": -332,
   "dates": "−332",
   "lieu": "Égypte",
-  "description": "Alexandre le Grand, roi de Macédoine, chasse les Perses d’Égypte sans combat important et y est accueilli en libérateur.",
+  "description": "[[alexandre-le-grand|Alexandre le Grand]], roi de Macédoine, chasse les Perses d’Égypte sans combat important et y est accueilli en libérateur.",
   "sections": [
     {
       "titre": "Déroulement",
@@ -16,5 +16,6 @@
     }
   ],
   "apres": "mort-de-cleopatre",
-  "wikiUrl": "https://fr.wikipedia.org/wiki/Alexandre_le_Grand"
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Alexandre_le_Grand",
+  "liens": [{ "ref": "alexandre-le-grand", "relation": "Le conquérant" }]
 }

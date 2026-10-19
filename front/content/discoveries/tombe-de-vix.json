@@ -1,0 +1,20 @@
+{
+  "id": "tombe-de-vix",
+  "nom": "Tombe de Vix",
+  "annee": -500,
+  "domaine": "Archéologie",
+  "dates": "vers −500 ; découverte en 1953",
+  "description": "La tombe d’une femme de très haut rang, enterrée vers −500 en Bourgogne avec un char et un gigantesque vase de bronze grec : le vase de Vix.",
+  "sections": [
+    {
+      "titre": "Ce qu’on y a trouvé",
+      "texte": "Le vase, haut de 1,64 mètre et d’une contenance d’environ 1 100 litres, est le plus grand vase de bronze connu de l’Antiquité. La défunte portait un torque en or de près de 500 grammes."
+    },
+    {
+      "titre": "Ce que cela nous apprend",
+      "texte": "Ces objets montrent les échanges entre les chefs celtes et le monde grec et étrusque, sans doute grâce au commerce de l’étain."
+    }
+  ],
+  "aSavoir": ["Le trésor est exposé au musée du Pays châtillonnais, à Châtillon-sur-Seine."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Tombe_de_Vix"
+}

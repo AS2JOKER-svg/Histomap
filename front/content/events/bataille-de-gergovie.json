@@ -1,0 +1,21 @@
+{
+  "id": "bataille-de-gergovie",
+  "nom": "Bataille de Gergovie",
+  "annee": -52,
+  "dates": "printemps −52",
+  "lieu": "Gergovie, près de Clermont-Ferrand",
+  "description": "[[vercingetorix|Vercingétorix]] repousse l’assaut de [[jules-cesar|César]] contre Gergovie, ville des Arvernes : l’une des rares défaites de César en Gaule.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Les légions attaquent le plateau fortifié, mais se laissent entraîner trop loin et sont repoussées avec de lourdes pertes."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "César lève le siège. La victoire renforce l’autorité de Vercingétorix, que rejoignent même les Éduens."
+    }
+  ],
+  "liens": [{ "ref": "vercingetorix", "relation": "Le vainqueur" }, { "ref": "jules-cesar", "relation": "Le vaincu" }],
+  "apres": "siege-d-alesia",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Gergovie"
+}

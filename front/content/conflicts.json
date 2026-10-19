@@ -312,5 +312,25 @@
   "Guerre des Mercenaires": {
     "coords": [10.18, 36.8],
     "lieu": "Carthage"
+  },
+  "Guerres médiques": {
+    "coords": [23.97, 38.15],
+    "lieu": "Marathon"
+  },
+  "Guerre d’Achaïe": {
+    "coords": [22.88, 37.91],
+    "lieu": "Corinthe"
+  },
+  "Bataille d’Alalia": {
+    "coords": [9.6, 42.1],
+    "lieu": "Au large d’Aléria (Corse)"
+  },
+  "Bataille de l’Allia": {
+    "coords": [12.55, 42.02],
+    "lieu": "Rivière Allia, au nord de Rome"
+  },
+  "Guerres cantabres": {
+    "coords": [-4.05, 43.15],
+    "lieu": "Cantabrie"
   }
 }

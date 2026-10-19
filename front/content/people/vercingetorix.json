@@ -1,0 +1,29 @@
+{
+  "id": "vercingetorix",
+  "nom": "Vercingétorix",
+  "role": "Chef des Arvernes",
+  "roles": ["Chef de guerre"],
+  "dates": "vers −80 → −46",
+  "naissance": -80,
+  "mort": -46,
+  "description": "Jeune noble arverne qui unit la plupart des peuples gaulois contre Jules César en −52. Vainqueur à Gergovie, il est assiégé à Alésia et se rend.",
+  "reperes": [
+    { "label": "Commandement", "valeur": "−52" },
+    { "label": "Mort", "valeur": "−46", "precision": "exécuté à Rome après six ans de captivité" }
+  ],
+  "essentiel": [
+    "Fils de Celtillos, un chef arverne exécuté pour avoir voulu devenir roi.",
+    "Il pratique la politique de la terre brûlée pour affamer l’armée romaine.",
+    "Il repousse César à [[bataille-de-gergovie|Gergovie]], puis s’enferme dans [[siege-d-alesia|Alésia]].",
+    "Après sa reddition, il est exhibé lors du triomphe de César en −46, puis exécuté."
+  ],
+  "chronologie": [
+    { "annee": -52, "texte": "Prend la tête de la révolte gauloise" },
+    { "annee": -52, "texte": "Victoire de Gergovie", "ref": "bataille-de-gergovie" },
+    { "annee": -52, "texte": "Reddition à Alésia", "ref": "siege-d-alesia" },
+    { "annee": -46, "texte": "Exécuté à Rome" }
+  ],
+  "liens": [{ "ref": "jules-cesar", "relation": "Son adversaire" }],
+  "aSavoir": ["On ne connaît pas son visage : les statues du XIXe siècle, moustachues et casquées, sont imaginaires."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Vercing%C3%A9torix"
+}

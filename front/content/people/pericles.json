@@ -1,0 +1,30 @@
+{
+  "id": "pericles",
+  "nom": "Périclès",
+  "role": "Stratège d’Athènes",
+  "roles": ["Stratège", "Orateur"],
+  "dates": "vers −495 → −429",
+  "naissance": -495,
+  "mort": -429,
+  "description": "Homme politique athénien qui domine la vie de sa cité pendant trente ans : il renforce la démocratie, fait d’Athènes une puissance maritime et lance les chantiers de l’Acropole.",
+  "reperes": [
+    { "label": "Stratège", "valeur": "réélu chaque année de −443 à −429" },
+    { "label": "Mort", "valeur": "−429", "precision": "emporté par la peste qui frappe Athènes" }
+  ],
+  "essentiel": [
+    "Il fait payer les citoyens qui exercent une charge publique, pour que les plus pauvres puissent aussi participer.",
+    "Avec le trésor de la ligue de Délos, il fait reconstruire l’Acropole, dont le [[parthenon|Parthénon]].",
+    "Il engage Athènes dans la guerre du Péloponnèse contre Sparte, mais meurt de la peste dès les premières années."
+  ],
+  "chronologie": [
+    { "annee": -461, "texte": "Devient l’un des principaux dirigeants d’Athènes" },
+    { "annee": -447, "texte": "Lancement du Parthénon" },
+    { "annee": -431, "texte": "Début de la guerre du Péloponnèse" },
+    { "annee": -429, "texte": "Mort de la peste" }
+  ],
+  "aSavoir": [
+    "Le « siècle de Périclès » désigne l’âge d’or d’Athènes, au Ve siècle av. J.-C.",
+    "Sa compagne, Aspasie, originaire de Milet, était réputée pour son intelligence."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/P%C3%A9ricl%C3%A8s"
+}

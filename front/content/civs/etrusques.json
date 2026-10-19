@@ -10,47 +10,233 @@
   "trackId": "etrusques",
   "row": 2,
   "isRiver": false,
-  "capitale": "Dodécapole étrusque",
-  "description": "Puissance commerciale, artistique et théocratique raffinée d'Italie centrale qui a gouverné Rome à ses débuts avant d'être engloutie par elle.",
+  "capitale": "Douze grandes cités (Tarquinia, Cerveteri, Véies…)",
+  "description": "Peuple d’Italie centrale aux cités riches et raffinées, maîtres du commerce des métaux et de la divination, qui ont profondément marqué Rome avant d’être conquis par elle.",
   "territories": ["Etrurians"],
   "datesCles": [
     {
-      "annee": -800,
-      "evenement": "Apogée commerciale",
-      "info": "L'Étrurie domine la mer Tyrrhénienne grâce à son alliance avec Carthage."
+      "annee": -700,
+      "evenement": "Essor des cités",
+      "info": "Les cités étrusques s’enrichissent grâce aux métaux et adoptent l’écriture, avec un alphabet emprunté aux Grecs."
     },
     {
       "annee": -616,
       "evenement": "Rois étrusques à Rome",
-      "info": "La dynastie des Tarquins prend le trône de Rome et l'urbanise profondément."
+      "info": "Selon la tradition, Tarquin l’Ancien devient roi de Rome ; la ville s’urbanise."
+    },
+    {
+      "annee": -540,
+      "evenement": "Bataille d’Alalia",
+      "info": "Alliés aux Carthaginois, les Étrusques affrontent la flotte grecque de Phocée au large de la Corse.",
+      "ref": "bataille-d-alalia"
     },
     {
       "annee": -509,
       "evenement": "Perte de Rome",
-      "info": "Tarquin le Superbe est chassé, naissance de la République romaine."
+      "info": "Selon la tradition, Tarquin le Superbe est chassé et Rome devient une république."
     },
     {
       "annee": -396,
       "evenement": "Chute de Véies",
-      "info": "Rome détruit la grande cité étrusque voisine après un siège de 10 ans."
+      "info": "Rome prend la grande cité étrusque voisine après un long siège.",
+      "ref": "chute-de-veies"
+    },
+    {
+      "annee": -264,
+      "evenement": "Prise de Volsinies",
+      "info": "Rome détruit Volsinies, l’une des dernières cités étrusques indépendantes."
     }
   ],
-  "dirigeants": [{ "titre": "Roi de Clusium", "nom": "Lars Porsenna", "debut": -508, "fin": -490 }],
-  "personnages": [],
+  "dirigeants": [
+    {
+      "nom": "Tarquin l’Ancien",
+      "titre": "Roi de Rome",
+      "debut": -616,
+      "fin": -579,
+      "dynastie": "tarquins",
+      "note": "originaire de Tarquinia selon la tradition",
+      "cle": true
+    },
+    {
+      "nom": "Servius Tullius",
+      "titre": "Roi de Rome",
+      "debut": -578,
+      "fin": -535,
+      "dynastie": "tarquins",
+      "note": "origine discutée ; peut-être l’Étrusque Mastarna"
+    },
+    {
+      "nom": "Tarquin le Superbe",
+      "titre": "Roi de Rome",
+      "debut": -535,
+      "fin": -509,
+      "dynastie": "tarquins",
+      "note": "dernier roi de Rome",
+      "cle": true
+    },
+    {
+      "nom": "Thefarie Velianas",
+      "titre": "Roi de Caere (Cerveteri)",
+      "debut": -510,
+      "fin": -490,
+      "dynastie": "cites",
+      "note": "connu par les lamelles d’or de Pyrgi"
+    },
+    {
+      "nom": "Lars Porsenna",
+      "titre": "Roi de Clusium (Chiusi)",
+      "debut": -508,
+      "fin": -500,
+      "dynastie": "cites",
+      "note": "attaque Rome après la chute des Tarquins",
+      "cle": true
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Lars Porsenna",
+      "role": "Roi de Clusium",
+      "description": "Roi étrusque qui assiège Rome peu après la chute des Tarquins ; les Romains en ont fait le héros de plusieurs légendes.",
+      "dates": "vers −508",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Porsenna"
+    },
+    {
+      "nom": "Tanaquil",
+      "role": "Reine",
+      "description": "Épouse de Tarquin l’Ancien ; selon les historiens romains, cette Étrusque savait lire les présages et fit roi Servius Tullius.",
+      "dates": "VIe siècle av. J.-C. (tradition)",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Tanaquil"
+    }
+  ],
   "guerres": [
+    {
+      "nom": "Bataille d’Alalia",
+      "annee": -540,
+      "adversaires": ["Grecs de Phocée"],
+      "allies": ["Carthage"],
+      "morts": "Inconnues ; les deux flottes perdent de nombreux navires",
+      "vainqueur": "Incertain",
+      "consequences": "Selon Hérodote, les Grecs l’emportent mais, trop affaiblis, abandonnent leur colonie corse d’Alalia : la Corse passe sous influence étrusque.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_d%27Alalia"
+    },
     {
       "nom": "Guerres romano-étrusques",
       "annee": -396,
       "adversaires": ["République Romaine"],
       "allies": [],
-      "morts": "Inconnu",
+      "morts": "Inconnues",
       "vainqueur": "Rome",
-      "consequences": "Annexion cité par cité par Rome, pillage des trésors étrusques et assimilation culturelle totale.",
+      "consequences": "Rome annexe les cités une à une ; elles gardent un temps leur langue et leurs traditions, puis se fondent dans le monde romain.",
       "wikiUrl": "https://fr.wikipedia.org/wiki/%C3%89trusques"
     }
   ],
-  "sciences": "Grands ingénieurs hydrauliques, ils enseignent à Rome le drainage des marais (la Cloaca Maxima, l'égout géant de Rome, est une œuvre étrusque) et l'utilisation de l'arc de pierre en architecture (véritable fondement des futurs aqueducs romains). Excellents métallurgistes, ils exploitent le fer de l'île d'Elbe pour armer leurs redoutables flottes de pirates et commerçants.",
-  "croyancesText": "C'est une religion de la divination obsessionnelle, l'Etrusca disciplina. Les haruspices lisent le destin de l'État dans les foies des animaux sacrifiés (hépatoscopie) ou dans la trajectoire des éclairs. Leur panthéon (Tinia, Uni, Menrva) sera intégralement 'copié-collé' par Rome (Jupiter, Junon, Minerve). Leurs vastes nécropoles monumentales, peintes de banquets joyeux, célèbrent le culte des ancêtres.",
-  "diplomatie": "L'Étrurie n'est pas un empire centralisé mais une Dodécapole, une ligue religieuse de douze puissantes cités-États (Tarquinia, Cerveteri...). Leur division politique causera leur perte militaire. Alliés à Carthage, ils affrontent les Grecs phocéens lors de la bataille navale d'Alalia (vers -540), au large de la Corse : les Grecs l'emportent peut-être, mais au prix de telles pertes qu'ils abandonnent la Corse ; l'issue réelle reste incertaine.",
-  "documentaires": [{ "titre": "Les Étrusques, précurseurs de Rome", "url": "https://fr.wikipedia.org/wiki/%C3%89trusques" }]
+  "sciences": "Les Étrusques sont d’habiles ingénieurs : ils drainent les terres humides grâce à des canaux souterrains et, selon la tradition romaine, les rois étrusques lancent à Rome la Cloaca Maxima, le grand égout. Excellents métallurgistes, ils exploitent le fer de l’île d’Elbe et le cuivre de Toscane. Leurs bijoux en or, décorés de minuscules grains soudés (granulation), sont d’une grande finesse.",
+  "croyancesText": "La religion étrusque accorde une place majeure à la divination : les haruspices lisent la volonté des dieux dans le foie des animaux sacrifiés et dans la foudre. Les dieux Tinia, Uni et Menrva sont assimilés par les Romains à Jupiter, Junon et Minerve. Les Étrusques bâtissent de vastes nécropoles, dont les tombes peintes montrent banquets, danses et jeux.",
+  "diplomatie": "Les cités forment une ligue religieuse de douze membres, qui se réunit au sanctuaire de Voltumna, mais elles mènent chacune leur propre politique, ce qui les affaiblit face à Rome. Alliées aux Carthaginois, elles affrontent les Grecs pour le contrôle de la mer Tyrrhénienne.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": {
+      "valeur": "Aucune capitale commune",
+      "precision": "une ligue de douze cités : Tarquinia, Cerveteri (Caere), Véies, Vulci, Volsinies…"
+    },
+    "regimes": {
+      "valeur": "Cités indépendantes",
+      "precision": "dirigées par des rois, puis par des magistrats élus (zilath) ; une ligue religieuse les rassemble"
+    },
+    "langues": {
+      "valeur": "Étrusque",
+      "precision": "écrite avec un alphabet emprunté aux Grecs : on sait la lire, mais on la comprend mal"
+    },
+    "religion": { "valeur": "Polythéisme", "precision": "Tinia, Uni, Menrva ; grande importance de la divination" },
+    "apogee": { "valeur": "VIIe-VIe siècles av. J.-C.", "precision": "des rois étrusques règnent sur Rome" },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": {
+      "valeur": "Monnaies à partir du Ve siècle av. J.-C.",
+      "precision": "frappées par certaines cités, comme Populonia"
+    },
+    "duree": { "valeur": "Environ 650 ans" },
+    "aujourdhui": {
+      "valeur": "Italie",
+      "precision": "Toscane, nord du Latium et Ombrie, avec des extensions vers la plaine du Pô et la Campanie"
+    }
+  },
+  "essentiel": [
+    "Les Étrusques vivent en Italie centrale, dans une douzaine de grandes cités indépendantes unies par une ligue religieuse.",
+    "Riches de leurs mines de fer et de cuivre, ils commercent avec les Grecs et les Phéniciens de Carthage.",
+    "Selon la tradition, des rois étrusques, les Tarquins, règnent sur Rome jusqu’à la naissance de la République.",
+    "Leur langue, qui n’appartient pas à la famille indo-européenne, reste en grande partie incomprise.",
+    "Rome conquiert leurs cités une à une, de la [[chute-de-veies|chute de Véies]] (−396) à celle de Volsinies (−264)."
+  ],
+  "periodes": [
+    {
+      "nom": "La culture de Villanova",
+      "debut": -900,
+      "fin": -700,
+      "resume": "Les ancêtres des Étrusques vivent dans de grands villages qui deviennent peu à peu des villes. Ils incinèrent leurs morts dans des urnes en forme de cabane."
+    },
+    {
+      "nom": "L’âge d’or",
+      "debut": -700,
+      "fin": -474,
+      "resume": "Les cités s’enrichissent par le commerce, bâtissent de riches tombes peintes et dominent une partie de l’Italie, de la plaine du Pô à la Campanie.",
+      "evenements": [
+        { "annee": -616, "evenement": "Tarquin l’Ancien roi de Rome" },
+        { "annee": -540, "evenement": "Bataille d’Alalia", "ref": "bataille-d-alalia" },
+        { "annee": -509, "evenement": "Rome chasse son roi étrusque" }
+      ]
+    },
+    {
+      "nom": "Le recul face à Rome",
+      "debut": -474,
+      "fin": -264,
+      "resume": "Battus en mer par les Grecs de Syracuse à Cumes (−474), chassés de Campanie, les Étrusques perdent leurs cités une à une face à Rome.",
+      "evenements": [
+        { "annee": -474, "evenement": "Défaite navale de Cumes" },
+        { "annee": -396, "evenement": "Chute de Véies", "ref": "chute-de-veies" },
+        { "annee": -264, "evenement": "Prise de Volsinies" }
+      ]
+    }
+  ],
+  "regimes": [
+    {
+      "id": "cites",
+      "nom": "Cités indépendantes",
+      "debut": -900,
+      "fin": -264,
+      "note": "Chaque cité a son roi (lucumon), puis, à partir du Ve siècle, des magistrats élus. On connaît très peu de noms de souverains."
+    }
+  ],
+  "dynasties": [
+    {
+      "id": "tarquins",
+      "nom": "Les rois étrusques de Rome",
+      "debut": -616,
+      "fin": -509,
+      "note": "Dates traditionnelles, transmises par les historiens romains ; leur réalité est discutée."
+    },
+    { "id": "cites", "nom": "Rois de cités étrusques", "debut": -510, "fin": -490, "note": "Dates approximatives." }
+  ],
+  "societe": "Une aristocratie riche domine les cités. Les femmes étrusques ont une liberté qui étonne les Grecs : elles assistent aux banquets avec leurs maris et leur nom est souvent inscrit sur les tombes.",
+  "economie": "Mines de fer et de cuivre, travail du bronze, agriculture (céréales, vigne, olivier) et commerce avec les Grecs, les Phéniciens et les Celtes : on retrouve du vin étrusque jusqu’en Gaule.",
+  "decouvertes": ["sarcophage-des-epoux"],
+  "arts": "Tombes peintes de Tarquinia, sarcophages sculptés, céramique noire brillante (bucchero), statues de bronze comme la Chimère d’Arezzo, bijoux en or : l’art étrusque mêle influences grecques et orientales.",
+  "quotidien": "Les familles aisées organisent des banquets avec musique et danse. Les spectacles de lutte, de courses et de combats, peut-être ancêtres des jeux de gladiateurs, sont appréciés.",
+  "heritage": [
+    {
+      "titre": "Rome",
+      "texte": "Les Romains doivent aux Étrusques une partie de leurs symboles de pouvoir (la toge bordée de pourpre, les faisceaux) et de leur religion."
+    },
+    { "titre": "L’alphabet latin", "texte": "C’est par les Étrusques que l’alphabet grec arrive à Rome." },
+    {
+      "titre": "La Toscane",
+      "texte": "La région tire son nom des « Tusci », nom latin des Étrusques ; leurs nécropoles de Cerveteri et Tarquinia sont classées par l’UNESCO."
+    }
+  ],
+  "aSavoir": [
+    "Presque tout ce qu’on sait de l’histoire étrusque vient des auteurs grecs et romains : les livres étrusques sont tous perdus."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/%C3%89trusques",
+    { "titre": "Encyclopædia Britannica — Etruscan", "url": "https://www.britannica.com/topic/Etruscan" }
+  ]
 }

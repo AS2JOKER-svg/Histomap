@@ -1,0 +1,22 @@
+{
+  "id": "bataille-des-thermopyles",
+  "nom": "Bataille des Thermopyles",
+  "annee": -480,
+  "dates": "août ou septembre −480",
+  "lieu": "Défilé des Thermopyles, en Grèce centrale",
+  "description": "Pendant trois jours, quelques milliers de Grecs menés par le roi spartiate [[leonidas|Léonidas]] bloquent l’armée de Xerxès dans un passage étroit, avant d’être contournés et massacrés.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Les Grecs repoussent les assauts perses dans le défilé. Un habitant, Éphialtès, montre aux Perses un sentier de montagne qui permet de prendre les Grecs à revers. Léonidas renvoie la plupart des alliés et combat jusqu’à la mort."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Les Perses passent et incendient Athènes, évacuée. Mais le sacrifice de Léonidas devient un symbole, et la flotte grecque prend sa revanche à Salamine."
+    }
+  ],
+  "liens": [{ "ref": "leonidas", "relation": "Le roi spartiate qui commande les Grecs" }],
+  "avant": "bataille-de-marathon",
+  "apres": "bataille-de-salamine",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_des_Thermopyles"
+}

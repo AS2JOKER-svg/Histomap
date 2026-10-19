@@ -361,7 +361,8 @@
       "debut": -332,
       "fin": -323,
       "dynastie": "ptolemaique",
-      "note": "roi de Macédoine"
+      "note": "roi de Macédoine",
+      "personne": "alexandre-le-grand"
     },
     { "nom": "Ptolémée Ier", "titre": "Pharaon", "surnom": "Sôter", "debut": -305, "fin": -285, "dynastie": "ptolemaique" },
     {

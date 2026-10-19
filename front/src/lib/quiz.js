@@ -187,7 +187,7 @@ function autoQuestions(civ, epoch, continent) {
     if (l.titre) qs.push(mcq(`leader-titre-${i}`, `Quel titre porte ${l.nom} (${name}) ?`, l.titre, otherLeaders.map((x) => x.titre)))
     if (l.surnom) qs.push(mcq(`leader-surnom-${i}`, `Quel est le surnom de ${l.nom} (${name}) ?`, l.surnom, otherLeaders.map((x) => x.surnom)))
     qs.push(
-      mcq(`leader-reign-${i}`, `${name} : qui gouverne de ${formatYear(l.debut)} à ${formatYear(l.fin)} ?`, l.nom, [...leaders.filter((x) => x !== l).map((x) => x.nom), ...otherLeaders.map((x) => x.nom)], {
+      mcq(`leader-reign-${i}`, `${name} : qui gouverne ${l.debut === l.fin ? `en ${formatYear(l.debut)}` : `de ${formatYear(l.debut)} à ${formatYear(l.fin)}`} ?`, l.nom, [...leaders.filter((x) => x !== l).map((x) => x.nom), ...otherLeaders.map((x) => x.nom)], {
         explanation: `${l.titre}${l.surnom ? ` « ${l.surnom} »` : ''}.`,
       })
     )

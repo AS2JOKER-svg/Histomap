@@ -343,16 +343,61 @@ function Histoire({ civ }) {
   )
 }
 
+// Période d'un règne ; une seule date quand il tient dans l'année (ou n'est connu que par une date)
+const reign = (l) => (l.debut === l.fin ? formatYear(l.debut) : `${formatYear(l.debut)} → ${formatYear(l.fin)}`)
+
+/** Bande des régimes politiques, proportionnelle à leur durée, suivie de leurs notes. */
+function Regimes({ civ, regimes }) {
+  if (!regimes.length) return null
+  const start = Math.min(...regimes.map((r) => r.debut))
+  const end = Math.max(...regimes.map((r) => r.fin))
+  return (
+    <div className="mt-6">
+      <div className="flex h-11 rounded-xl overflow-hidden gap-0.5" aria-hidden="true">
+        {regimes.map((r, i) => (
+          <div
+            key={r.id}
+            className="grid place-items-center min-w-0 text-[11px] font-bold text-white px-1"
+            style={{ flex: Math.max(r.fin - r.debut, 1) / (end - start), background: shade(solidBg(civ.color), -i * 8), textShadow: '0 1px 2px rgba(0,0,0,.3)' }}
+          >
+            <span className="truncate max-w-full">{r.nom}</span>
+          </div>
+        ))}
+      </div>
+      <div className="flex justify-between text-[11px] text-muted tabular-nums mt-1.5">
+        <span>{formatYear(start)}</span>
+        <span>{formatYear(end)}</span>
+      </div>
+      {regimes.some((r) => r.note) && (
+        <ul className="mt-4 space-y-1.5">
+          {regimes
+            .filter((r) => r.note)
+            .map((r) => (
+              <li key={r.id} className="text-sm text-muted leading-relaxed">
+                <span className="font-semibold text-ink">{r.nom} : </span>
+                <RichText text={r.note} />
+              </li>
+            ))}
+        </ul>
+      )}
+    </div>
+  )
+}
+
 function Dirigeants({ civ }) {
   const openSheet = useUI((s) => s.openSheet)
   const leaders = civ.dirigeants ?? []
   const regimes = civ.regimes ?? []
   const dynasties = civ.dynasties ?? []
   if (!leaders.length) {
+    // Les régimes restent affichés : leur note explique souvent pourquoi aucun nom n'est connu
     return (
-      <Section icon="crown" title="Dirigeants">
-        <Empty>Aucun dirigeant connu par son nom pour cette civilisation.</Empty>
-      </Section>
+      <>
+        <Regimes civ={civ} regimes={regimes} />
+        <Section icon="crown" title="Dirigeants">
+          <Empty>Aucun dirigeant connu par son nom pour cette civilisation.</Empty>
+        </Section>
+      </>
     )
   }
   // Groupes : une dynastie par groupe, dans l'ordre des dynasties ; le reste à la fin
@@ -362,8 +407,6 @@ function Dirigeants({ civ }) {
   // Ouvert par défaut : le premier groupe qui contient un dirigeant clé (les autres affichent ces noms en résumé)
   const firstKey = groups.findIndex((g) => g.leaders.some((l) => l.cle))
   const opened = groups.length <= 2 ? -1 : firstKey >= 0 ? firstKey : 0
-  const start = Math.min(...regimes.map((r) => r.debut), civ.start)
-  const end = Math.max(...regimes.map((r) => r.fin), civ.end)
 
   const open = (l) =>
     openSheet(
@@ -372,7 +415,7 @@ function Dirigeants({ civ }) {
         : {
             badge: 'personne',
             title: l.nom,
-            subtitle: `${l.titre} · ${formatYear(l.debut)} → ${formatYear(l.fin)}`,
+            subtitle: `${l.titre} · ${reign(l)}`,
             text: l.surnom ? `Surnom : « ${l.surnom} »` : null,
             note: l.note,
           }
@@ -380,37 +423,7 @@ function Dirigeants({ civ }) {
 
   return (
     <>
-      {regimes.length > 0 && (
-        <div className="mt-6">
-          <div className="flex h-11 rounded-xl overflow-hidden gap-0.5" aria-hidden="true">
-            {regimes.map((r, i) => (
-              <div
-                key={r.id}
-                className="grid place-items-center text-[11px] font-bold text-white overflow-hidden whitespace-nowrap px-1"
-                style={{ flex: Math.max(r.fin - r.debut, 1) / (end - start), background: shade(solidBg(civ.color), -i * 8), textShadow: '0 1px 2px rgba(0,0,0,.3)' }}
-              >
-                {r.nom}
-              </div>
-            ))}
-          </div>
-          <div className="flex justify-between text-[11px] text-muted tabular-nums mt-1.5">
-            <span>{formatYear(start)}</span>
-            <span>{formatYear(end)}</span>
-          </div>
-          {regimes.some((r) => r.note) && (
-            <ul className="mt-4 space-y-1.5">
-              {regimes
-                .filter((r) => r.note)
-                .map((r) => (
-                  <li key={r.id} className="text-sm text-muted leading-relaxed">
-                    <span className="font-semibold text-ink">{r.nom} : </span>
-                    <RichText text={r.note} />
-                  </li>
-                ))}
-            </ul>
-          )}
-        </div>
-      )}
+      <Regimes civ={civ} regimes={regimes} />
 
       <p className="mt-6 text-sm text-muted">
         {leaders.length} dirigeant{leaders.length > 1 ? 's' : ''}. Touchez un nom pour son aperçu.
@@ -454,7 +467,7 @@ function Dirigeants({ civ }) {
                       {l.personne && <span className="ml-1.5 inline-block w-1.5 h-1.5 rounded-full bg-accent align-middle" title="Fiche complète" />}
                     </span>
                     <span className="text-xs text-muted tabular-nums">
-                      {formatYear(l.debut)} → {formatYear(l.fin)}
+                      {reign(l)}
                     </span>
                     <span className="col-span-2 text-xs text-muted -mt-1">
                       {l.titre}

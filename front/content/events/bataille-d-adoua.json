@@ -1,0 +1,24 @@
+{
+  "id": "bataille-d-adoua",
+  "nom": "Bataille d’Adoua",
+  "annee": 1896,
+  "dates": "1er mars 1896",
+  "lieu": "Adoua (nord de l’Éthiopie)",
+  "description": "L’armée de [[menelik-ii|Ménélik II]], bien plus nombreuse et équipée de fusils modernes, écrase l’armée italienne venue d’Érythrée.",
+  "sections": [
+    {
+      "titre": "Contexte",
+      "texte": "L’Italie prétendait que le traité de Wouchalé (1889) faisait de l’Éthiopie son protectorat ; Ménélik le dénonce."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "L’Italie reconnaît l’indépendance de l’Éthiopie. C’est la plus grande victoire africaine contre une armée coloniale européenne, saluée dans tout le monde colonisé."
+    }
+  ],
+  "liens": [
+    { "ref": "menelik-ii", "relation": "Le vainqueur" },
+    { "ref": "taytu-betul", "relation": "Elle commande des troupes" }
+  ],
+  "apres": "seconde-guerre-italo-ethiopienne",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_d%27Adoua"
+}

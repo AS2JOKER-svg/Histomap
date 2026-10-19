@@ -1,0 +1,16 @@
+{
+  "id": "desmond-tutu",
+  "nom": "Desmond Tutu",
+  "role": "Archevêque du Cap",
+  "roles": ["Archevêque", "Militant"],
+  "dates": "1931 → 2021",
+  "naissance": 1931,
+  "mort": 2021,
+  "description": "Archevêque anglican, il lutte de manière non violente contre l’apartheid et préside après 1994 la Commission vérité et réconciliation.",
+  "essentiel": [
+    "Il reçoit le prix Nobel de la paix en 1984.",
+    "Il appelle le monde à des sanctions économiques contre l’Afrique du Sud.",
+    "Il invente l’expression « nation arc-en-ciel »."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Desmond_Tutu"
+}

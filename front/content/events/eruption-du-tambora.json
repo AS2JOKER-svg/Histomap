@@ -1,0 +1,15 @@
+{
+  "id": "eruption-du-tambora",
+  "nom": "Éruption du Tambora",
+  "annee": 1815,
+  "dates": "avril 1815",
+  "lieu": "Île de Sumbawa",
+  "description": "Le volcan Tambora explose : c’est la plus puissante éruption volcanique connue de l’histoire.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "Des dizaines de milliers de personnes meurent sur place et de faim. Les cendres refroidissent le climat mondial : 1816 est l’« année sans été » en Europe et en Amérique du Nord, avec des récoltes perdues et des famines."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Tambora"
+}

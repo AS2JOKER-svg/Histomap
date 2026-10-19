@@ -1,0 +1,16 @@
+{
+  "id": "palais-royaux-d-abomey",
+  "nom": "Palais royaux d’Abomey",
+  "annee": 1645,
+  "domaine": "Architecture",
+  "dates": "XVIIe → XIXe siècle",
+  "description": "Un ensemble de palais en terre construits par les rois successifs du Dahomey, chacun ajoutant le sien à côté de ceux de ses prédécesseurs.",
+  "sections": [
+    {
+      "titre": "Les bas-reliefs",
+      "texte": "Leurs murs sont décorés de bas-reliefs en terre peinte qui représentent les exploits et les symboles des rois : le requin de Béhanzin, le buffle de Ghézo, le lion de Glèlè."
+    }
+  ],
+  "aSavoir": ["Ils sont inscrits au patrimoine mondial de l’UNESCO depuis 1985."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Palais_royaux_d%27Abomey"
+}

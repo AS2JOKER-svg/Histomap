@@ -11,62 +11,366 @@
   "row": 3,
   "isRiver": false,
   "capitale": "Pretoria / Le Cap",
-  "description": "De la colonisation, commencée par les Néerlandais (Compagnie des Indes orientales, 1652) puis poursuivie par l'Empire britannique, à l'instauration de l'Apartheid de la minorité blanche, transcendé par l'avènement pacificateur de la Nation Arc-en-ciel.",
+  "description": "L’Afrique du Sud, colonisée par les Néerlandais puis les Britanniques, unifiée en 1910, impose de 1948 à 1991 l’apartheid, un régime de ségrégation raciale, avant de devenir une démocratie en 1994 sous la présidence de Nelson Mandela.",
   "territories": ["Cape Colony", "Union of South Africa", "South Africa"],
   "datesCles": [
     {
+      "annee": 1806,
+      "evenement": "Le Cap britannique",
+      "info": "Le Royaume-Uni s’empare définitivement de la colonie du Cap, fondée par les Néerlandais en 1652."
+    },
+    {
+      "annee": 1816,
+      "evenement": "Chaka, roi des Zoulous",
+      "info": "Il fait des Zoulous la principale puissance militaire de la région."
+    },
+    {
+      "annee": 1835,
+      "evenement": "Le Grand Trek",
+      "info": "Des milliers de Boers quittent la colonie du Cap vers l’intérieur des terres.",
+      "ref": "grand-trek"
+    },
+    {
       "annee": 1886,
-      "evenement": "Ruée vers l'Or",
-      "info": "La découverte de gisements géants dans le Transvaal attise les haines coloniales entre Boers (paysans blancs d'origine hollandaise) et Anglais."
+      "evenement": "Ruée vers l’or",
+      "info": "La découverte d’immenses gisements d’or dans le Transvaal fait naître Johannesburg."
     },
     {
       "annee": 1899,
       "evenement": "Guerre des Boers",
-      "info": "L'Empire britannique vainc les républiques Boers et y déploie des camps de concentration pour civils, parmi les premiers de l'histoire (après ceux de Cuba en 1896)."
+      "info": "Le Royaume-Uni l’emporte sur les républiques boers, après avoir enfermé des civils dans des camps de concentration.",
+      "ref": "seconde-guerre-des-boers"
+    },
+    {
+      "annee": 1910,
+      "evenement": "Union sud-africaine",
+      "info": "Les quatre colonies forment un dominion britannique, où seuls les Blancs ont de vrais droits politiques."
     },
     {
       "annee": 1948,
-      "evenement": "L'Apartheid",
-      "info": "Le Parti national impose la terrible ségrégation raciale étatique stricte pour isoler les Noirs."
+      "evenement": "L’apartheid",
+      "info": "Le Parti national impose une ségrégation raciale stricte dans tous les domaines de la vie.",
+      "ref": "apartheid"
+    },
+    {
+      "annee": 1960,
+      "evenement": "Massacre de Sharpeville",
+      "info": "La police tire sur une manifestation contre les laissez-passer : 69 morts.",
+      "ref": "massacre-de-sharpeville"
+    },
+    {
+      "annee": 1976,
+      "evenement": "Soulèvement de Soweto",
+      "info": "Des lycéens noirs manifestent contre l’enseignement imposé en afrikaans ; la répression fait des centaines de morts.",
+      "ref": "soulevement-de-soweto"
     },
     {
       "annee": 1994,
-      "evenement": "Démocratie universelle",
-      "info": "Élection libre : le pays frôle la guerre civile mais s'apaise."
+      "evenement": "Premières élections libres",
+      "info": "Tous les Sud-Africains votent ; Nelson Mandela devient président."
     }
   ],
   "dirigeants": [
-    { "titre": "Chef de la nation Zouloue", "nom": "Chaka Zoulou", "debut": 1816, "fin": 1828 },
-    { "titre": "Président d'Afrique du Sud", "nom": "Nelson Mandela", "surnom": "Madiba", "debut": 1994, "fin": 1999 }
+    {
+      "nom": "Chaka",
+      "titre": "Roi des Zoulous",
+      "debut": 1816,
+      "fin": 1828,
+      "dynastie": "zoulous",
+      "personne": "chaka",
+      "note": "assassiné par ses demi-frères",
+      "cle": true
+    },
+    {
+      "nom": "Dingane",
+      "titre": "Roi des Zoulous",
+      "debut": 1828,
+      "fin": 1840,
+      "dynastie": "zoulous",
+      "note": "vaincu par les Boers à Blood River"
+    },
+    { "nom": "Mpande", "titre": "Roi des Zoulous", "debut": 1840, "fin": 1872, "dynastie": "zoulous" },
+    {
+      "nom": "Cetshwayo",
+      "titre": "Roi des Zoulous",
+      "debut": 1872,
+      "fin": 1879,
+      "dynastie": "zoulous",
+      "note": "vaincu par les Britanniques",
+      "cle": true
+    },
+    {
+      "nom": "Paul Kruger",
+      "titre": "Président du Transvaal",
+      "debut": 1883,
+      "fin": 1902,
+      "dynastie": "boers",
+      "note": "chef des Boers pendant la guerre",
+      "cle": true
+    },
+    {
+      "nom": "Louis Botha",
+      "titre": "Premier ministre",
+      "debut": 1910,
+      "fin": 1919,
+      "dynastie": "gouvernement",
+      "note": "ancien général boer"
+    },
+    {
+      "nom": "Jan Smuts",
+      "titre": "Premier ministre",
+      "debut": 1919,
+      "fin": 1924,
+      "dynastie": "gouvernement",
+      "note": "de nouveau de 1939 à 1948",
+      "cle": true
+    },
+    { "nom": "J. B. M. Hertzog", "titre": "Premier ministre", "debut": 1924, "fin": 1939, "dynastie": "gouvernement" },
+    {
+      "nom": "Daniel François Malan",
+      "titre": "Premier ministre",
+      "debut": 1948,
+      "fin": 1954,
+      "dynastie": "gouvernement",
+      "note": "instaure l’apartheid",
+      "cle": true
+    },
+    {
+      "nom": "Hendrik Verwoerd",
+      "titre": "Premier ministre",
+      "debut": 1958,
+      "fin": 1966,
+      "dynastie": "gouvernement",
+      "note": "principal architecte de l’apartheid ; assassiné",
+      "cle": true
+    },
+    { "nom": "John Vorster", "titre": "Premier ministre", "debut": 1966, "fin": 1978, "dynastie": "gouvernement" },
+    {
+      "nom": "P. W. Botha",
+      "titre": "Premier ministre, puis président",
+      "debut": 1978,
+      "fin": 1989,
+      "dynastie": "gouvernement"
+    },
+    {
+      "nom": "Frederik de Klerk",
+      "titre": "Président",
+      "debut": 1989,
+      "fin": 1994,
+      "dynastie": "gouvernement",
+      "note": "abolit l’apartheid",
+      "cle": true
+    },
+    {
+      "nom": "Nelson Mandela",
+      "titre": "Président",
+      "surnom": "Madiba",
+      "debut": 1994,
+      "fin": 1999,
+      "dynastie": "gouvernement",
+      "personne": "nelson-mandela",
+      "cle": true
+    },
+    { "nom": "Thabo Mbeki", "titre": "Président", "debut": 1999, "fin": 2008, "dynastie": "gouvernement" },
+    { "nom": "Jacob Zuma", "titre": "Président", "debut": 2009, "fin": 2018, "dynastie": "gouvernement" },
+    {
+      "nom": "Cyril Ramaphosa",
+      "titre": "Président",
+      "debut": 2018,
+      "fin": 2020,
+      "dynastie": "gouvernement",
+      "note": "en fonction en 2020"
+    }
   ],
   "personnages": [
     {
-      "nom": "F. W. de Klerk",
-      "role": "Président afrikaner",
-      "description": "Le dernier chef d'État de l'apartheid, partageant le Prix Nobel avec Mandela pour avoir organisé les premières élections multiraciales.",
-      "dates": "1936 à 2021",
+      "nom": "Nelson Mandela",
+      "role": "Président",
+      "description": "Chef de la lutte contre l’apartheid, prisonnier pendant 27 ans, premier président de l’Afrique du Sud démocratique.",
+      "dates": "1918 → 2013",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Nelson_Mandela",
+      "ref": "nelson-mandela"
+    },
+    {
+      "nom": "Desmond Tutu",
+      "role": "Archevêque",
+      "description": "Archevêque anglican, prix Nobel de la paix (1984), il préside la Commission vérité et réconciliation.",
+      "dates": "1931 → 2021",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Desmond_Tutu",
+      "ref": "desmond-tutu"
+    },
+    {
+      "nom": "Frederik de Klerk",
+      "role": "Président",
+      "description": "Dernier président de l’apartheid, il libère Mandela et négocie la fin du régime ; prix Nobel de la paix avec Mandela (1993).",
+      "dates": "1936 → 2021",
       "wikiUrl": "https://fr.wikipedia.org/wiki/Frederik_de_Klerk"
+    },
+    {
+      "nom": "Steve Biko",
+      "role": "Militant",
+      "description": "Fondateur du mouvement de la « conscience noire », il meurt en 1977 des coups reçus en détention.",
+      "dates": "1946 → 1977",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Steve_Biko"
+    },
+    {
+      "nom": "Miriam Makeba",
+      "role": "Chanteuse",
+      "description": "Surnommée « Mama Africa », exilée pendant plus de trente ans, elle fait connaître au monde la lutte contre l’apartheid.",
+      "dates": "1932 → 2008",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Miriam_Makeba"
     }
   ],
   "guerres": [
     {
       "nom": "Guerre Anglo-Zouloue",
       "annee": 1879,
-      "adversaires": ["Royaume zoulou"],
-      "allies": ["Empire britannique et contingents coloniaux"],
+      "adversaires": ["Royaume-Uni"],
+      "allies": ["Royaume zoulou"],
       "morts": "Plus de 10 000 morts au total, en majorité zoulous (estimations)",
-      "vainqueur": "Empire Britannique",
-      "consequences": "Malgré la victoire zouloue d'Isandhlwana au début de la guerre, l'armée britannique, mieux armée (fusils, artillerie), écrase les Zoulous à Ulundi et met fin à l'indépendance du royaume zoulou.",
+      "vainqueur": "Royaume-Uni",
+      "consequences": "Malgré leur victoire d’Isandhlwana au début de la guerre, les Zoulous sont écrasés à Ulundi par l’armée britannique, mieux armée ; le royaume zoulou perd son indépendance.",
       "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_anglo-zouloue"
+    },
+    {
+      "nom": "Seconde guerre des Boers",
+      "annee": 1899,
+      "adversaires": ["Royaume-Uni"],
+      "allies": ["Républiques boers (Transvaal et État libre d’Orange)"],
+      "morts": "Environ 22 000 soldats britanniques, 7 000 combattants boers, plus de 40 000 civils boers et africains morts dans les camps",
+      "vainqueur": "Royaume-Uni",
+      "consequences": "Le traité de Vereeniging (1902) rattache les républiques boers à l’Empire britannique ; elles forment avec les colonies du Cap et du Natal l’Union sud-africaine en 1910.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Seconde_guerre_des_Boers"
     }
   ],
-  "sciences": "Le territoire est une mine d'extraction titanesque mondiale des richesses minières lourdes (Or de Johannesburg et des diamants de Kimberley par la firme De Beers). Cette industrialisation extractive faramineuse s'est construite sur le sang de l'exploitation systématique des populations noires bantoues parquées et encartées ('les pass') dans des 'Bantoustans'. C'est en Afrique du Sud que le premier cœur humain fut chirurgicalement transplanté (Christiaan Barnard, 1967).",
-  "croyancesText": "L'Apartheid n'est pas qu'un système politique. Les dirigeants Boers (d'origine calviniste hollandaise très fondamentaliste de l'Église réformée hollandaise) s'identifiaient à un Peuple Élu de la Bible (le Grand Trek) justifiant religieusement et moralement la ségrégation des races comme ordre divin protecteur de la civilisation blanche face à l'Océan africain. En retour, les Églises noires et la philosophie ubuntu de la réconciliation (Desmond Tutu) briseront cette haine.",
-  "diplomatie": "Sous l'apartheid et la Guerre Froide, Pretoria (farouchement anticommuniste) possédait son propre armement atomique (qu'elle démantela plus tard en 1989) pour intimider les insurrections d'Angola et les pays de la ligne de front (soutenus par Fidel Castro au nom de l'URSS). Isolé et boycotté sportivement et financièrement par le monde entier, le gouvernement finira par céder aux pressions économiques des banques étrangères et internes (ANC).",
-  "documentaires": [
+  "sciences": "L’exploitation des diamants de Kimberley (à partir de 1867) et de l’or du Witwatersrand (1886) fait de l’Afrique du Sud la première puissance minière du monde, grâce au travail de centaines de milliers de mineurs noirs mal payés. Le chirurgien Christiaan Barnard y réalise en 1967 la [[premiere-greffe-du-coeur|première greffe du cœur]]. Le régime de l’apartheid fabrique en secret six bombes atomiques, démantelées vers 1990.",
+  "croyancesText": "La majorité des Sud-Africains sont chrétiens, souvent dans des Églises africaines indépendantes, et beaucoup honorent aussi leurs ancêtres. Une partie de l’Église réformée néerlandaise a longtemps justifié l’apartheid par la Bible. À l’inverse, des responsables religieux comme [[desmond-tutu|Desmond Tutu]] ont combattu le régime et défendu la réconciliation.",
+  "diplomatie": "Pendant la guerre froide, le régime de l’apartheid se présente comme un rempart contre le communisme et intervient en Angola et en Namibie. Condamné par l’ONU, il subit des sanctions et des boycotts, notamment sportifs, de plus en plus nombreux dans les années 1980. Depuis 1994, l’Afrique du Sud est une puissance régionale et membre des BRICS.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": { "valeur": "Pretoria, Le Cap et Bloemfontein", "precision": "gouvernement, Parlement et justice" },
+    "regimes": {
+      "valeur": "Colonies et royaumes africains, Union sud-africaine, puis république",
+      "precision": "apartheid de 1948 à 1991 ; démocratie depuis 1994"
+    },
+    "langues": {
+      "valeur": "Onze langues officielles en 2020",
+      "precision": "dont le zoulou, le xhosa, l’afrikaans et l’anglais"
+    },
+    "religion": { "valeur": "Christianisme majoritaire", "precision": "avec des religions traditionnelles africaines" },
+    "apogee": { "valeur": "Depuis 1994", "precision": "première économie industrielle d’Afrique" },
+    "population": { "valeur": "Environ 59 millions en 2020" },
+    "monnaie": { "valeur": "Rand", "precision": "depuis 1961" },
+    "duree": { "valeur": "Plus de 230 ans dans cette fiche" },
+    "aujourdhui": { "valeur": "Afrique du Sud" }
+  },
+  "essentiel": [
+    "Au début du XIXe siècle, le roi [[chaka|Chaka]] bâtit la puissance zouloue, tandis que les Britanniques s’emparent de la colonie du Cap.",
+    "Fuyant l’autorité britannique, des colons boers partent vers l’intérieur lors du [[grand-trek|Grand Trek]] et fondent leurs républiques.",
+    "La découverte de diamants puis d’or attise les conflits : les Britanniques soumettent les Zoulous (1879) puis les Boers lors de la [[seconde-guerre-des-boers|guerre des Boers]].",
+    "De 1948 à 1991, l’[[apartheid|apartheid]] sépare et opprime la majorité noire ; la répression frappe à [[massacre-de-sharpeville|Sharpeville]] et à [[soulevement-de-soweto|Soweto]].",
+    "Libéré en 1990 après 27 ans de prison, [[nelson-mandela|Nelson Mandela]] devient en 1994 le premier président élu par tous les Sud-Africains."
+  ],
+  "periodes": [
     {
-      "titre": "L'Afrique du Sud de Mandela et la fin de l'Apartheid",
-      "url": "https://fr.wikipedia.org/wiki/Histoire_de_l%27Afrique_du_Sud"
+      "nom": "Colons et royaumes africains",
+      "debut": 1789,
+      "fin": 1867,
+      "resume": "Les Britanniques prennent Le Cap ; les Zoulous de Chaka dominent l’est ; les Boers du Grand Trek fondent le Transvaal et l’État libre d’Orange.",
+      "evenements": [
+        { "annee": 1816, "evenement": "Règne de Chaka" },
+        { "annee": 1835, "evenement": "Grand Trek", "ref": "grand-trek" },
+        { "annee": 1838, "evenement": "Bataille de Blood River" }
+      ]
+    },
+    {
+      "nom": "Diamants, or et conquêtes",
+      "debut": 1867,
+      "fin": 1910,
+      "resume": "Les découvertes de diamants (1867) et d’or (1886) attirent investisseurs et travailleurs ; les Britanniques soumettent les royaumes africains et les républiques boers.",
+      "evenements": [
+        { "annee": 1879, "evenement": "Guerre anglo-zouloue" },
+        { "annee": 1899, "evenement": "Guerre des Boers", "ref": "seconde-guerre-des-boers" }
+      ]
+    },
+    {
+      "nom": "L’Union et l’apartheid",
+      "debut": 1910,
+      "fin": 1990,
+      "resume": "La minorité blanche monopolise le pouvoir ; l’apartheid, à partir de 1948, organise la séparation des « races ». L’ANC, interdit, passe à la lutte armée.",
+      "evenements": [
+        { "annee": 1912, "evenement": "Fondation de l’ANC" },
+        { "annee": 1948, "evenement": "Apartheid", "ref": "apartheid" },
+        { "annee": 1964, "evenement": "Mandela condamné à la prison à vie" },
+        { "annee": 1976, "evenement": "Soweto", "ref": "soulevement-de-soweto" }
+      ]
+    },
+    {
+      "nom": "La « nation arc-en-ciel »",
+      "debut": 1990,
+      "fin": 2020,
+      "resume": "Mandela est libéré, l’apartheid aboli ; la démocratie s’installe, mais les inégalités et le chômage restent très élevés.",
+      "evenements": [
+        { "annee": 1990, "evenement": "Libération de Mandela" },
+        { "annee": 1994, "evenement": "Élections libres" },
+        { "annee": 1996, "evenement": "Commission vérité et réconciliation" }
+      ]
+    }
+  ],
+  "regimes": [
+    {
+      "id": "colonies",
+      "nom": "Colonies britanniques, républiques boers et royaumes africains",
+      "debut": 1789,
+      "fin": 1910
+    },
+    {
+      "id": "union",
+      "nom": "Union sud-africaine",
+      "debut": 1910,
+      "fin": 1961,
+      "note": "Dominion de l’Empire britannique."
+    },
+    {
+      "id": "republique",
+      "nom": "République sud-africaine",
+      "debut": 1961,
+      "fin": 2020,
+      "note": "Apartheid jusqu’en 1991 ; démocratie depuis 1994."
+    }
+  ],
+  "dynasties": [
+    { "id": "zoulous", "nom": "Rois zoulous", "debut": 1816, "fin": 1879, "regime": "colonies" },
+    { "id": "boers", "nom": "République sud-africaine du Transvaal", "debut": 1883, "fin": 1902, "regime": "colonies" },
+    {
+      "id": "gouvernement",
+      "nom": "Chefs du gouvernement et présidents",
+      "debut": 1910,
+      "fin": 2020,
+      "note": "Premiers ministres jusqu’en 1984, puis présidents."
+    }
+  ],
+  "societe": "L’apartheid classe chaque habitant par « race », interdit les mariages mixtes, réserve aux Blancs les meilleures terres, écoles et quartiers, et oblige les Noirs à porter un laissez-passer. Des millions de personnes sont déplacées de force vers les « bantoustans ». Depuis 1994, l’égalité des droits est garantie, mais les inégalités restent parmi les plus fortes du monde.",
+  "economie": "Mines d’or et de diamants, agriculture ; première économie industrielle d’Afrique au XXe siècle.",
+  "decouvertes": ["premiere-greffe-du-coeur"],
+  "arts": "Musique (jazz sud-africain, chants de lutte, Miriam Makeba), littérature (Nadine Gordimer et J. M. Coetzee, prix Nobel), art rupestre san plus ancien.",
+  "quotidien": "Le rugby, longtemps sport des Blancs, devient un symbole de réconciliation lors de la Coupe du monde 1995, remise par Mandela au capitaine de l’équipe nationale.",
+  "heritage": [
+    {
+      "titre": "La réconciliation",
+      "texte": "La Commission vérité et réconciliation a inspiré d’autres pays sortant de conflits."
+    },
+    {
+      "titre": "Mandela",
+      "texte": "Le 18 juillet, jour de sa naissance, est la Journée internationale Nelson Mandela."
+    }
+  ],
+  "aSavoir": ["L’Afrique du Sud est le seul pays à avoir fabriqué l’arme atomique puis à y avoir renoncé de lui-même."],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Histoire_de_l%27Afrique_du_Sud",
+    {
+      "titre": "Encyclopædia Britannica — South Africa, history",
+      "url": "https://www.britannica.com/place/South-Africa/History"
     }
   ]
 }

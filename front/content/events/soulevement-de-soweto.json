@@ -1,0 +1,16 @@
+{
+  "id": "soulevement-de-soweto",
+  "nom": "Soulèvement de Soweto",
+  "annee": 1976,
+  "dates": "16 juin 1976",
+  "lieu": "Soweto (près de Johannesburg)",
+  "description": "Des milliers de lycéens noirs manifestent contre l’obligation d’étudier en afrikaans, la langue des dirigeants de l’apartheid ; la police tire.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "La révolte s’étend au pays ; la répression fait au moins 176 morts selon les chiffres officiels, sans doute bien davantage. La photo du jeune Hector Pieterson, mortellement blessé, fait le tour du monde."
+    }
+  ],
+  "avant": "massacre-de-sharpeville",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/%C3%89meutes_de_Soweto"
+}

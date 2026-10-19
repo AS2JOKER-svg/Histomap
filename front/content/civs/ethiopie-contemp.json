@@ -10,55 +10,305 @@
   "row": 1,
   "isRiver": false,
   "capitale": "Addis-Abeba",
-  "description": "La grande fierté noire. Avec le Libéria, le seul État d'Afrique resté indépendant face à la colonisation, ayant militairement défait une armée européenne moderne pour maintenir une indépendance vieille de trois millénaires selon la tradition.",
+  "description": "L’Empire éthiopien, réunifié au XIXe siècle, bat l’Italie à Adoua et reste, avec le Liberia, le seul pays d’Afrique à échapper à la colonisation, malgré l’occupation italienne de 1936-1941 ; la monarchie tombe en 1974.",
   "territories": ["Ethiopia", "Abyssinia"],
   "datesCles": [
     {
+      "annee": 1855,
+      "evenement": "Couronnement de Tewodros II",
+      "info": "Il met fin à l’« ère des princes » et réunifie l’empire."
+    },
+    {
+      "annee": 1868,
+      "evenement": "Expédition britannique",
+      "info": "Vaincu à Magdala par une armée britannique, Tewodros II se donne la mort."
+    },
+    {
       "annee": 1896,
-      "evenement": "Bataille d'Adoua",
-      "info": "Un coup de tonnerre mondial : l'empereur Ménélik II écrase avec des fusils l'armée coloniale d'invasion de l'Italie."
+      "evenement": "Bataille d’Adoua",
+      "info": "L’empereur Ménélik II écrase l’armée italienne venue conquérir le pays.",
+      "ref": "bataille-d-adoua"
     },
     {
       "annee": 1935,
-      "evenement": "Invasion Fasciste",
-      "info": "L'Italie de Mussolini venge son orgueil en envahissant le pays à coup d'armes chimiques et de bombardiers."
+      "evenement": "Invasion italienne",
+      "info": "L’Italie de Mussolini envahit le pays en utilisant des armes chimiques.",
+      "ref": "seconde-guerre-italo-ethiopienne"
+    },
+    {
+      "annee": 1941,
+      "evenement": "Libération",
+      "info": "Avec l’aide britannique et des résistants éthiopiens, Haïlé Sélassié revient à Addis-Abeba."
+    },
+    {
+      "annee": 1963,
+      "evenement": "Organisation de l’unité africaine",
+      "info": "L’OUA est fondée à Addis-Abeba, qui accueille aujourd’hui l’Union africaine."
     },
     {
       "annee": 1974,
-      "evenement": "Fin de la dynastie de Salomon",
-      "info": "Une junte militaire (le Derg), qui se proclame ensuite marxiste-léniniste, renverse le dernier empereur, Haïlé Sélassié."
+      "evenement": "Chute de la monarchie",
+      "info": "Le Derg, une junte militaire qui se proclame ensuite marxiste-léniniste, renverse Haïlé Sélassié."
+    },
+    {
+      "annee": 1984,
+      "evenement": "Grande famine",
+      "info": "La famine, aggravée par la guerre et la politique du régime, émeut le monde entier.",
+      "ref": "famine-de-1983-1985-en-ethiopie"
     },
     {
       "annee": 1991,
       "evenement": "Chute du Derg",
-      "info": "Chute de la dictature du Derg. La République fédérale est instaurée par la Constitution de 1995."
+      "info": "Des mouvements rebelles renversent Mengistu ; une république fédérale est instaurée par la Constitution de 1995."
     }
   ],
   "dirigeants": [
-    { "titre": "Negusa Nagast (roi des rois)", "nom": "Ménélik II", "debut": 1889, "fin": 1913 },
-    { "titre": "Empereur", "nom": "Haïlé Sélassié", "surnom": "Le Lion conquérant", "debut": 1930, "fin": 1974 },
-    { "titre": "Général de Junte", "nom": "Mengistu", "surnom": "Le Négus rouge", "debut": 1977, "fin": 1991 }
+    {
+      "nom": "Tewodros II",
+      "titre": "Negusa nagast (roi des rois)",
+      "debut": 1855,
+      "fin": 1868,
+      "dynastie": "empereurs",
+      "personne": "tewodros-ii",
+      "note": "se donne la mort à Magdala",
+      "cle": true
+    },
+    { "nom": "Tekle Giyorgis II", "titre": "Negusa nagast", "debut": 1868, "fin": 1871, "dynastie": "empereurs" },
+    {
+      "nom": "Yohannes IV",
+      "titre": "Negusa nagast",
+      "debut": 1872,
+      "fin": 1889,
+      "dynastie": "empereurs",
+      "note": "tué au combat contre les mahdistes du Soudan",
+      "cle": true
+    },
+    {
+      "nom": "Ménélik II",
+      "titre": "Negusa nagast",
+      "debut": 1889,
+      "fin": 1913,
+      "dynastie": "empereurs",
+      "personne": "menelik-ii",
+      "note": "vainqueur d’Adoua",
+      "cle": true
+    },
+    {
+      "nom": "Iyasou V",
+      "titre": "Empereur (non couronné)",
+      "debut": 1913,
+      "fin": 1916,
+      "dynastie": "empereurs",
+      "note": "renversé"
+    },
+    {
+      "nom": "Zaouditou",
+      "titre": "Impératrice",
+      "debut": 1916,
+      "fin": 1930,
+      "dynastie": "empereurs",
+      "note": "fille de Ménélik ; le régent Tafari gouverne avec elle"
+    },
+    {
+      "nom": "Haïlé Sélassié",
+      "titre": "Negusa nagast",
+      "debut": 1930,
+      "fin": 1974,
+      "dynastie": "empereurs",
+      "personne": "haile-selassie",
+      "note": "exilé de 1936 à 1941 ; renversé par le Derg",
+      "cle": true
+    },
+    {
+      "nom": "Mengistu Haile Mariam",
+      "titre": "Chef du Derg, puis président",
+      "debut": 1977,
+      "fin": 1991,
+      "dynastie": "derg",
+      "note": "dictateur ; en exil depuis 1991",
+      "cle": true
+    },
+    {
+      "nom": "Meles Zenawi",
+      "titre": "Président, puis Premier ministre",
+      "debut": 1991,
+      "fin": 2012,
+      "dynastie": "federale",
+      "cle": true
+    },
+    { "nom": "Hailemariam Desalegn", "titre": "Premier ministre", "debut": 2012, "fin": 2018, "dynastie": "federale" },
+    {
+      "nom": "Abiy Ahmed",
+      "titre": "Premier ministre",
+      "debut": 2018,
+      "fin": 2020,
+      "dynastie": "federale",
+      "note": "prix Nobel de la paix 2019 ; en fonction en 2020"
+    }
   ],
-  "personnages": [],
+  "personnages": [
+    {
+      "nom": "Taytu Betul",
+      "role": "Impératrice",
+      "description": "Épouse de Ménélik II, conseillère influente, elle commande des troupes lors de la campagne d’Adoua.",
+      "dates": "vers 1851 → 1918",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Taytu_Betul",
+      "ref": "taytu-betul"
+    },
+    {
+      "nom": "Ras Alula",
+      "role": "Général",
+      "description": "Chef de guerre de Yohannes IV, vainqueur des Italiens à Dogali (1887).",
+      "dates": "vers 1847 → 1897",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Alula_Engida"
+    },
+    {
+      "nom": "Abebe Bikila",
+      "role": "Athlète",
+      "description": "Il remporte le marathon des Jeux olympiques de Rome en 1960, pieds nus, devenant le premier champion olympique d’Afrique noire.",
+      "dates": "1932 → 1973",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Abebe_Bikila"
+    }
+  ],
   "guerres": [
     {
       "nom": "Bataille d'Adoua",
       "annee": 1896,
-      "adversaires": ["Royaume d'Italie"],
-      "allies": ["Armées de Ménélik II, impératrice Taytu"],
-      "morts": "Plusieurs milliers de morts côté italien, dont des askaris érythréens",
+      "adversaires": ["Royaume d’Italie"],
+      "allies": [],
+      "morts": "Plusieurs milliers de morts de chaque côté ; les pertes italiennes, Italiens et askaris érythréens, sont très lourdes",
       "vainqueur": "Éthiopie",
-      "consequences": "Défaite humiliante pour l'Italie, qui signe avec l'Éthiopie le traité d'Addis-Abeba (octobre 1896) reconnaissant son indépendance.",
-      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_d'Adoua"
+      "consequences": "Défaite humiliante pour l’Italie, qui signe le traité d’Addis-Abeba (octobre 1896) reconnaissant l’indépendance de l’Éthiopie.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_d%27Adoua"
+    },
+    {
+      "nom": "Seconde guerre italo-éthiopienne",
+      "annee": 1935,
+      "adversaires": ["Italie fasciste"],
+      "allies": [],
+      "morts": "Plusieurs centaines de milliers d’Éthiopiens selon les estimations éthiopiennes, combats et occupation compris",
+      "vainqueur": "Italie (jusqu’en 1941)",
+      "consequences": "L’Italie prend Addis-Abeba en mai 1936 et réunit l’Éthiopie à ses colonies. La résistance se poursuit, et le pays est libéré en 1941 avec l’aide britannique.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Seconde_guerre_italo-%C3%A9thiopienne"
     }
   ],
-  "sciences": "Leur génie du XIXe siècle est la clairvoyance géopolitique de modernisation. Réalisant l'ampleur du partage de l'Afrique par les Européens, les monarques achètent de formidables stocks de fusils modernes et d'artillerie (notamment aux Français de Djibouti et aux Russes orthodoxes) pour créer une infanterie qui s'avéra inarrêtable. Ils lancèrent la création de l'impressionnante ligne de chemin de fer franco-éthiopienne.",
-  "croyancesText": "L'empereur est légitimé par son sang, descendant légendairement en ligne directe du roi biblique Salomon et de la reine de Saba. Haïlé Sélassié (Tafari Makonnen) deviendra d'ailleurs la figure du messie réincarné (Jah) pour le mouvement spirituel noir de libération pacifique naissant en Jamaïque : les Rastafaris. La population musulmane reste marginalisée au profit du cœur chrétien orthodoxe.",
-  "diplomatie": "Auréolée de sa victoire sacrée face aux Blancs colonisateurs, l'Éthiopie de la guerre froide utilise sa respectabilité immense en se positionnant comme la capitale morale de tout le continent noir désaliéné, entraînant le siège physique de l'Organisation de l'Unité Africaine (OUA) à Addis-Abeba.",
-  "documentaires": [
+  "sciences": "Pour résister aux colonisateurs, Tewodros II tente de fabriquer des canons, puis Ménélik II achète en masse des fusils modernes et de l’artillerie à la France, à l’Italie et à la Russie. Ménélik fait construire le chemin de fer de Djibouti à Addis-Abeba (achevé en 1917), le télégraphe et les premières écoles modernes. Au XXIe siècle, l’Éthiopie construit sur le Nil Bleu le plus grand barrage d’Afrique.",
+  "croyancesText": "L’Église orthodoxe éthiopienne, l’une des plus anciennes du monde, est l’Église d’État jusqu’en 1974 ; les empereurs se disent descendants du roi Salomon et de la reine de Saba. Environ un tiers des Éthiopiens sont musulmans. En Jamaïque, le mouvement rastafari, né dans les années 1930, vénère Haïlé Sélassié comme une incarnation divine.",
+  "diplomatie": "L’Éthiopie défend son indépendance face aux Égyptiens, aux mahdistes, aux Britanniques et aux Italiens. Membre de la Société des Nations dès 1923, elle y dénonce en vain l’agression italienne (1936). Symbole de l’Afrique libre, elle accueille le siège de l’Organisation de l’unité africaine (1963), devenue l’Union africaine.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": { "valeur": "Addis-Abeba", "precision": "fondée vers 1886 par Ménélik II et Taytu ; Gondar auparavant" },
+    "regimes": {
+      "valeur": "Empire, dictature militaire, puis république fédérale",
+      "precision": "monarchie jusqu’en 1974, Derg de 1974 à 1991"
+    },
+    "langues": {
+      "valeur": "Amharique",
+      "precision": "plus de 80 langues, dont l’oromo et le tigrigna ; guèze pour la liturgie"
+    },
+    "religion": { "valeur": "Christianisme orthodoxe éthiopien", "precision": "avec environ un tiers de musulmans" },
+    "apogee": { "valeur": "Fin du XIXe siècle", "precision": "règne de Ménélik II" },
+    "population": { "valeur": "Environ 115 millions en 2020", "precision": "deuxième pays le plus peuplé d’Afrique" },
+    "monnaie": { "valeur": "Birr", "precision": "thaler de Marie-Thérèse au XIXe siècle" },
+    "duree": { "valeur": "Plus de 230 ans dans cette fiche" },
+    "aujourdhui": { "valeur": "Éthiopie", "precision": "et l’Érythrée, annexée en 1962 et indépendante depuis 1993" }
+  },
+  "essentiel": [
+    "Après l’« ère des princes », [[tewodros-ii|Tewodros II]] réunifie l’empire à partir de 1855.",
+    "[[menelik-ii|Ménélik II]] agrandit le pays et écrase l’armée italienne à la [[bataille-d-adoua|bataille d’Adoua]] (1896) : l’Éthiopie reste indépendante.",
+    "L’Italie de Mussolini l’envahit en 1935 lors de la [[seconde-guerre-italo-ethiopienne|seconde guerre italo-éthiopienne]] ; [[haile-selassie|Haïlé Sélassié]] retrouve son trône en 1941.",
+    "En 1974, une junte militaire, le Derg, renverse l’empereur ; la dictature de Mengistu et la [[famine-de-1983-1985-en-ethiopie|famine de 1983-1985]] font des centaines de milliers de victimes.",
+    "Depuis 1991, l’Éthiopie est une république fédérale organisée selon les peuples qui la composent."
+  ],
+  "periodes": [
     {
-      "titre": "Adoua 1896, l'indépendance de l'Éthiopie",
-      "url": "https://fr.wikipedia.org/wiki/Histoire_de_l%27%C3%89thiopie"
+      "nom": "L’ère des princes",
+      "debut": 1789,
+      "fin": 1855,
+      "resume": "Les empereurs de Gondar n’ont plus de pouvoir réel ; de grands seigneurs régionaux se disputent le pays.",
+      "evenements": []
+    },
+    {
+      "nom": "La réunification et Adoua",
+      "debut": 1855,
+      "fin": 1913,
+      "resume": "Tewodros II, Yohannes IV puis Ménélik II rebâtissent un empire fort ; Ménélik conquiert le sud et bat les Italiens.",
+      "evenements": [
+        { "annee": 1868, "evenement": "Magdala" },
+        { "annee": 1889, "evenement": "Traité de Wouchalé" },
+        { "annee": 1896, "evenement": "Adoua", "ref": "bataille-d-adoua" }
+      ]
+    },
+    {
+      "nom": "L’Éthiopie d’Haïlé Sélassié",
+      "debut": 1913,
+      "fin": 1974,
+      "resume": "Le régent puis empereur modernise l’État, affronte l’invasion italienne, puis règne en monarque absolu jusqu’à sa chute.",
+      "evenements": [
+        { "annee": 1923, "evenement": "Entrée à la Société des Nations" },
+        { "annee": 1935, "evenement": "Invasion italienne", "ref": "seconde-guerre-italo-ethiopienne" },
+        { "annee": 1963, "evenement": "Fondation de l’OUA" }
+      ]
+    },
+    {
+      "nom": "Le Derg et la république",
+      "debut": 1974,
+      "fin": 2020,
+      "resume": "La dictature militaire, soutenue par l’URSS, mène la « Terreur rouge » et des guerres contre la Somalie et l’Érythrée ; la république fédérale lui succède en 1991.",
+      "evenements": [
+        { "annee": 1977, "evenement": "Guerre de l’Ogaden" },
+        { "annee": 1984, "evenement": "Famine", "ref": "famine-de-1983-1985-en-ethiopie" },
+        { "annee": 1993, "evenement": "Indépendance de l’Érythrée" }
+      ]
+    }
+  ],
+  "regimes": [
+    {
+      "id": "empire",
+      "nom": "Empire d’Éthiopie",
+      "debut": 1789,
+      "fin": 1974,
+      "note": "Occupation italienne de 1936 à 1941."
+    },
+    { "id": "derg", "nom": "Dictature militaire du Derg", "debut": 1974, "fin": 1991 },
+    { "id": "federale", "nom": "République fédérale", "debut": 1991, "fin": 2020 }
+  ],
+  "dynasties": [
+    {
+      "id": "empereurs",
+      "nom": "Les empereurs depuis la réunification",
+      "debut": 1855,
+      "fin": 1974,
+      "regime": "empire",
+      "note": "Ils se disent descendants de Salomon et de la reine de Saba."
+    },
+    { "id": "derg", "nom": "Le Derg", "debut": 1974, "fin": 1991, "regime": "derg" },
+    {
+      "id": "federale",
+      "nom": "Premiers ministres de la république fédérale",
+      "debut": 1991,
+      "fin": 2020,
+      "regime": "federale"
+    }
+  ],
+  "societe": "La société impériale est dominée par la noblesse et l’Église, qui possèdent l’essentiel des terres ; l’esclavage n’est aboli qu’en 1942. Le Derg nationalise les terres en 1975, mais sa « Terreur rouge » fait des dizaines de milliers de victimes. Depuis 1991, le pays est organisé en régions selon les peuples (Oromo, Amhara, Tigréens, Somali…), ce qui alimente aussi des conflits.",
+  "economie": "Agriculture et élevage, café (originaire d’Éthiopie) ; forte croissance au XXIe siècle.",
+  "decouvertes": [],
+  "arts": "Peintures religieuses, croix processionnelles, musique éthiopienne (éthio-jazz de Mulatu Astatke), course à pied de fond.",
+  "quotidien": "L’Éthiopie a son propre calendrier, en retard de sept à huit ans sur le calendrier grégorien, et compte les heures à partir du lever du soleil.",
+  "heritage": [
+    {
+      "titre": "Un symbole de l’Afrique libre",
+      "texte": "Les couleurs du drapeau éthiopien, vert, jaune et rouge, ont inspiré de nombreux drapeaux africains."
+    },
+    { "titre": "La capitale de l’Afrique", "texte": "Addis-Abeba accueille le siège de l’Union africaine." }
+  ],
+  "aSavoir": ["L’anniversaire de la victoire d’Adoua est un jour férié en Éthiopie."],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Histoire_de_l%27%C3%89thiopie",
+    {
+      "titre": "Encyclopædia Britannica — Ethiopia, history",
+      "url": "https://www.britannica.com/place/Ethiopia/History"
     }
   ]
 }

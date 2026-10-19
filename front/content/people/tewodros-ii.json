@@ -1,0 +1,17 @@
+{
+  "id": "tewodros-ii",
+  "nom": "Tewodros II",
+  "role": "Empereur d’Éthiopie",
+  "roles": ["Empereur"],
+  "dates": "vers 1818 → 1868",
+  "naissance": 1818,
+  "mort": 1868,
+  "description": "Chef de guerre d’origine modeste, il se fait couronner en 1855, met fin à l’« ère des princes » et tente de moderniser l’Éthiopie.",
+  "essentiel": [
+    "Il réunifie l’empire par les armes.",
+    "Il fait fabriquer des canons par des missionnaires européens.",
+    "Il emprisonne des Britanniques, ce qui provoque une expédition militaire contre lui.",
+    "Vaincu à Magdala, il se donne la mort en 1868."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Tewodros_II"
+}

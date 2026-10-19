@@ -1,0 +1,17 @@
+{
+  "id": "diponegoro",
+  "nom": "Diponegoro",
+  "role": "Prince javanais",
+  "roles": ["Prince", "Chef rebelle"],
+  "dates": "1785 → 1855",
+  "naissance": 1785,
+  "mort": 1855,
+  "description": "Prince de la cour de Yogyakarta, il prend la tête d’un grand soulèvement contre les Néerlandais, la [[guerre-de-java|guerre de Java]] (1825-1830).",
+  "essentiel": [
+    "Il se présente comme un chef musulman et défend les paysans écrasés par les taxes.",
+    "Les Néerlandais le capturent par traîtrise lors de négociations en 1830.",
+    "Exilé à Célèbes, il y meurt en 1855.",
+    "Il est aujourd’hui un héros national indonésien."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Diponegoro"
+}

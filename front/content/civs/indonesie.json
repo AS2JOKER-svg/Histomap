@@ -11,60 +11,320 @@
   "row": 7,
   "isRiver": false,
   "capitale": "Batavia puis Jakarta",
-  "description": "Une gigantesque entreprise coloniale néerlandaise, conquise et mutilée par l'Empire du Soleil Levant, libérée dans le sang pour forger la plus grande nation musulmane de la planète.",
+  "description": "L’archipel des Indes orientales, colonie néerlandaise exploitée pour ses cultures d’exportation, occupé par le Japon, puis indépendant en 1945 : l’Indonésie est devenue le pays qui compte le plus de musulmans au monde.",
   "territories": ["Dutch East Indies", "Netherlands Indies", "Indonesia"],
   "datesCles": [
     {
       "annee": 1800,
-      "evenement": "Nationalisation",
-      "info": "L'entreprise privée ruinée VOC disparaît, l'État néerlandais prend le contrôle brutal de l'archipel."
+      "evenement": "Fin de la VOC",
+      "info": "La compagnie, ruinée, est dissoute : l’État néerlandais prend le contrôle de ses possessions."
+    },
+    {
+      "annee": 1815,
+      "evenement": "Éruption du Tambora",
+      "info": "La plus puissante éruption volcanique connue de l’histoire refroidit le climat mondial.",
+      "ref": "eruption-du-tambora"
+    },
+    {
+      "annee": 1825,
+      "evenement": "Guerre de Java",
+      "info": "Le prince Diponegoro se soulève contre les Néerlandais ; la guerre dure cinq ans.",
+      "ref": "guerre-de-java"
+    },
+    {
+      "annee": 1830,
+      "evenement": "Le système des cultures",
+      "info": "Les paysans doivent consacrer une partie de leurs terres ou de leur travail aux cultures d’exportation."
     },
     {
       "annee": 1942,
       "evenement": "Invasion japonaise",
-      "info": "Les forces nippones éjectent les Hollandais pour s'emparer du très convoité pétrole indonésien."
+      "info": "Le Japon chasse les Néerlandais et occupe l’archipel, riche en pétrole."
     },
     {
       "annee": 1945,
-      "evenement": "Indépendance de force",
-      "info": "Au départ des Japonais, Sukarno lit la déclaration de souveraineté d'Indonésie (Revolusi)."
+      "evenement": "Proclamation de l’indépendance",
+      "info": "Le 17 août, Sukarno et Hatta proclament l’indépendance ; les Pays-Bas ne la reconnaissent qu’en 1949."
+    },
+    {
+      "annee": 1955,
+      "evenement": "Conférence de Bandung",
+      "info": "Des pays d’Asie et d’Afrique se réunissent pour la première fois sans les puissances coloniales.",
+      "ref": "conference-de-bandung"
     },
     {
       "annee": 1965,
-      "evenement": "Purges anticommunistes",
-      "info": "L'armée, dirigée par le général Suharto (qui n'est pas encore président), et des milices massacrent entre 500 000 et 1 million de communistes présumés selon les estimations."
+      "evenement": "Massacres anticommunistes",
+      "info": "L’armée et des milices tuent de 500 000 à 1 million de communistes présumés selon les estimations.",
+      "ref": "massacres-de-1965-en-indonesie"
+    },
+    {
+      "annee": 2004,
+      "evenement": "Tsunami",
+      "info": "Un tsunami géant dévaste la province d’Aceh.",
+      "ref": "tsunami-de-2004"
     }
   ],
   "dirigeants": [
-    { "titre": "Président de la République", "nom": "Sukarno", "debut": 1945, "fin": 1967 },
     {
-      "titre": "Président militaire (Dictateur)",
+      "nom": "Herman Willem Daendels",
+      "titre": "Gouverneur général",
+      "debut": 1808,
+      "fin": 1811,
+      "dynastie": "gouverneurs",
+      "note": "nommé par Louis Bonaparte, roi de Hollande"
+    },
+    {
+      "nom": "Stamford Raffles",
+      "titre": "Lieutenant-gouverneur de Java",
+      "debut": 1811,
+      "fin": 1816,
+      "dynastie": "gouverneurs",
+      "personne": "stamford-raffles",
+      "note": "pendant l’occupation britannique",
+      "cle": true
+    },
+    {
+      "nom": "Johannes van den Bosch",
+      "titre": "Gouverneur général",
+      "debut": 1830,
+      "fin": 1834,
+      "dynastie": "gouverneurs",
+      "note": "instaure le système des cultures",
+      "cle": true
+    },
+    {
+      "nom": "Sukarno",
+      "titre": "Président",
+      "debut": 1945,
+      "fin": 1967,
+      "dynastie": "presidents",
+      "personne": "sukarno",
+      "note": "écarté du pouvoir réel dès 1966",
+      "cle": true
+    },
+    {
       "nom": "Suharto",
-      "surnom": "Le Père du développement",
+      "titre": "Président",
+      "surnom": "le Père du développement",
       "debut": 1967,
-      "fin": 1998
+      "fin": 1998,
+      "dynastie": "presidents",
+      "personne": "suharto",
+      "note": "régime militaire de l’« Ordre nouveau »",
+      "cle": true
+    },
+    { "nom": "B. J. Habibie", "titre": "Président", "debut": 1998, "fin": 1999, "dynastie": "presidents" },
+    { "nom": "Abdurrahman Wahid", "titre": "Président", "debut": 1999, "fin": 2001, "dynastie": "presidents" },
+    {
+      "nom": "Megawati Sukarnoputri",
+      "titre": "Présidente",
+      "debut": 2001,
+      "fin": 2004,
+      "dynastie": "presidents",
+      "note": "fille de Sukarno, première femme présidente",
+      "cle": true
+    },
+    {
+      "nom": "Susilo Bambang Yudhoyono",
+      "titre": "Président",
+      "debut": 2004,
+      "fin": 2014,
+      "dynastie": "presidents",
+      "note": "premier président élu au suffrage direct"
+    },
+    {
+      "nom": "Joko Widodo",
+      "titre": "Président",
+      "debut": 2014,
+      "fin": 2020,
+      "dynastie": "presidents",
+      "note": "en fonction en 2020"
     }
   ],
-  "personnages": [],
+  "personnages": [
+    {
+      "nom": "Diponegoro",
+      "role": "Prince rebelle",
+      "description": "Prince de Yogyakarta, chef de la guerre de Java contre les Néerlandais, héros national.",
+      "dates": "1785 → 1855",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Diponegoro",
+      "ref": "diponegoro"
+    },
+    {
+      "nom": "Kartini",
+      "role": "Pionnière de l’éducation des filles",
+      "description": "Fille d’un notable javanais, elle défend dans ses lettres l’instruction des femmes ; elle est un symbole national.",
+      "dates": "1879 → 1904",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Raden_Adjeng_Kartini"
+    },
+    {
+      "nom": "Multatuli",
+      "role": "Écrivain néerlandais",
+      "description": "Ancien fonctionnaire colonial, il dénonce l’exploitation des paysans javanais dans son roman Max Havelaar (1860).",
+      "dates": "1820 → 1887",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Multatuli"
+    },
+    {
+      "nom": "Mohammad Hatta",
+      "role": "Vice-président",
+      "description": "Compagnon de Sukarno, il proclame avec lui l’indépendance et négocie sa reconnaissance par les Pays-Bas.",
+      "dates": "1902 → 1980",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Mohammad_Hatta"
+    },
+    {
+      "nom": "Pramoedya Ananta Toer",
+      "role": "Écrivain",
+      "description": "Le plus célèbre romancier indonésien, emprisonné sans procès sous Suharto.",
+      "dates": "1925 → 2006",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Pramoedya_Ananta_Toer"
+    }
+  ],
   "guerres": [
+    {
+      "nom": "Guerre de Java",
+      "annee": 1825,
+      "adversaires": ["Indes néerlandaises"],
+      "allies": ["Partisans du prince Diponegoro"],
+      "morts": "Environ 200 000 Javanais, surtout par la faim et les maladies",
+      "vainqueur": "Pays-Bas",
+      "consequences": "Diponegoro est capturé par ruse en 1830 et exilé. Les Néerlandais renforcent leur domination sur Java.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_de_Java"
+    },
     {
       "nom": "Guerre d'indépendance indonésienne",
       "annee": 1945,
-      "adversaires": ["Pays-Bas", "Empire Britannique (en appui)"],
-      "allies": ["Soutien diplomatique États-Unis/ONU"],
-      "morts": "Environ 100 000 Indonésiens selon les estimations",
+      "adversaires": ["Pays-Bas", "Royaume-Uni (1945-1946)"],
+      "allies": [],
+      "morts": "Environ 100 000 Indonésiens selon les estimations ; environ 5 000 soldats néerlandais",
       "vainqueur": "Indonésie",
-      "consequences": "Les Hollandais tentèrent violemment de reconquérir leurs anciennes colonies pendant 4 ans après la WWII, mais cédèrent face au coût militaire et à l'embargo menacé par les Américains.",
+      "consequences": "Les Pays-Bas tentent de reconquérir leur colonie par deux grandes offensives (1947 et 1948). Sous la pression internationale, notamment américaine, ils reconnaissent l’indépendance en décembre 1949.",
       "wikiUrl": "https://fr.wikipedia.org/wiki/R%C3%A9volution_nationale_indon%C3%A9sienne"
     }
   ],
-  "sciences": "Le colonialisme hollandais fut d'une terrible rentabilité avec le 'Cultuurstelsel' (Système de cultures forcées) obligeant les paysans indigènes à cultiver (tabac, café, canne à sucre, indigo) pour les marchands européens en les affamant de leur propre riz. Devenue indépendante, la géographie volcanique du pays la contraint à une ingénierie complexe pour extraire les minerais, et a géré d'immenses catastrophes sismiques (Tsunami géant de 2004 en Aceh).",
-  "croyancesText": "C'est un État laïque abritant l'immense majorité musulmane sunnite de la planète (près de 230 millions d'habitants). Pour lier ses 17 000 îles ethniquement disparates, le pays est cimenté par le principe du 'Pancasila' : l'obligation philosophique d'État (la croyance en un seul Dieu, une humanité juste, une démocratie unifiée). L'hindouisme reste vivace et concentré (Bali).",
-  "diplomatie": "C'est le fer de lance de l'anticolonialisme du Tiers-Monde. Sukarno accueille la fameuse Conférence de Bandung (1955), réunissant pour la première fois les leaders africains et asiatiques non-alignés. Suharto plus tard alignera l'économie militarisée du pays sur les capitaux de la Guerre Froide américaine, en annexant violemment le Timor oriental (1975-1976) ; la Papouasie occidentale est intégrée en 1969 après un « Acte de libre choix » très contesté.",
-  "documentaires": [
+  "sciences": "Le « système des cultures » (1830-1870) oblige les paysans javanais à cultiver café, sucre et indigo pour l’exportation, ce qui enrichit les Pays-Bas mais provoque des famines. Le jardin botanique de Buitenzorg (Bogor) devient un grand centre de recherche tropicale. L’Indonésie indépendante exploite pétrole, gaz et minerais, et doit faire face à de fréquents séismes et éruptions.",
+  "croyancesText": "L’islam, arrivé par le commerce à partir du XIIIe siècle, est la religion de près de neuf Indonésiens sur dix. L’État n’est ni islamique ni laïque au sens strict : il repose sur le Pancasila, cinq principes dont la croyance en un Dieu unique, et reconnaît six religions. L’hindouisme domine à Bali, et le christianisme dans plusieurs îles de l’Est.",
+  "diplomatie": "Sukarno fait de l’Indonésie une figure du tiers-monde : la conférence de Bandung (1955) réunit 29 pays d’Asie et d’Afrique. Suharto se rapproche des États-Unis pendant la guerre froide. L’Indonésie annexe la Papouasie occidentale (1969) après un vote très contesté, et envahit le Timor oriental (1975), qui devient indépendant en 2002.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": {
+      "valeur": "Batavia, devenue Jakarta",
+      "precision": "Yogyakarta pendant la guerre d’indépendance (1946-1949)"
+    },
+    "regimes": {
+      "valeur": "Colonie néerlandaise, puis république",
+      "precision": "régime militaire de Suharto (1967-1998), démocratie depuis 1998"
+    },
+    "langues": {
+      "valeur": "Indonésien",
+      "precision": "langue commune issue du malais ; plus de 700 langues locales, dont le javanais"
+    },
+    "religion": {
+      "valeur": "Islam sunnite très majoritaire",
+      "precision": "avec des chrétiens, des hindous (surtout à Bali) et des bouddhistes"
+    },
+    "apogee": { "valeur": "XXIe siècle", "precision": "grande puissance émergente d’Asie du Sud-Est" },
+    "population": { "valeur": "Environ 270 millions en 2020", "precision": "quatrième population du monde" },
+    "monnaie": { "valeur": "Roupie indonésienne", "precision": "florin néerlandais à l’époque coloniale" },
+    "duree": { "valeur": "Plus de 230 ans dans cette fiche" },
+    "aujourdhui": { "valeur": "Indonésie", "precision": "avec le Timor oriental, occupé de 1975 à 1999" }
+  },
+  "essentiel": [
+    "Après la faillite de la [[voc|VOC]] (1799), l’État néerlandais gouverne directement l’archipel ; il réprime la [[guerre-de-java|guerre de Java]] menée par le prince [[diponegoro|Diponegoro]].",
+    "Le « système des cultures » oblige les paysans javanais à produire café, sucre et indigo pour l’exportation, ce qui provoque des famines.",
+    "Occupé par le Japon (1942-1945), l’archipel proclame son indépendance en 1945 sous la direction de [[sukarno|Sukarno]] et l’arrache aux Pays-Bas après quatre ans de guerre.",
+    "Sukarno accueille la [[conference-de-bandung|conférence de Bandung]] (1955) ; les [[massacres-de-1965-en-indonesie|massacres de 1965-1966]] ouvrent la voie au régime militaire de [[suharto|Suharto]].",
+    "Devenue une démocratie en 1998, l’Indonésie est frappée par le [[tsunami-de-2004|tsunami de 2004]]."
+  ],
+  "periodes": [
     {
-      "titre": "La Naissance de l'Indonésie : Bandung",
-      "url": "https://fr.wikipedia.org/wiki/Histoire_de_l%27Indon%C3%A9sie"
+      "nom": "Les Indes néerlandaises",
+      "debut": 1789,
+      "fin": 1942,
+      "resume": "L’État néerlandais remplace la VOC, conquiert peu à peu tout l’archipel et exploite ses ressources (café, sucre, caoutchouc, pétrole).",
+      "evenements": [
+        { "annee": 1825, "evenement": "Guerre de Java", "ref": "guerre-de-java" },
+        { "annee": 1873, "evenement": "Début de la guerre d’Aceh" },
+        { "annee": 1928, "evenement": "Serment de la jeunesse" }
+      ]
+    },
+    {
+      "nom": "Occupation et révolution",
+      "debut": 1942,
+      "fin": 1949,
+      "resume": "Le Japon occupe l’archipel et impose le travail forcé ; l’indépendance proclamée en 1945 est arrachée aux Pays-Bas en 1949.",
+      "evenements": [
+        { "annee": 1945, "evenement": "Proclamation de l’indépendance" },
+        { "annee": 1949, "evenement": "Reconnaissance par les Pays-Bas" }
+      ]
+    },
+    {
+      "nom": "L’Indonésie de Sukarno",
+      "debut": 1949,
+      "fin": 1967,
+      "resume": "Le premier président défend le non-alignement et instaure une « démocratie dirigée » de plus en plus autoritaire.",
+      "evenements": [
+        { "annee": 1955, "evenement": "Conférence de Bandung", "ref": "conference-de-bandung" },
+        { "annee": 1965, "evenement": "Massacres", "ref": "massacres-de-1965-en-indonesie" }
+      ]
+    },
+    {
+      "nom": "L’« Ordre nouveau » puis la démocratie",
+      "debut": 1967,
+      "fin": 2020,
+      "resume": "Suharto développe l’économie mais gouverne par la force et la corruption ; la crise de 1998 le fait tomber et ouvre une démocratie.",
+      "evenements": [
+        { "annee": 1975, "evenement": "Invasion du Timor oriental" },
+        { "annee": 1998, "evenement": "Chute de Suharto" },
+        { "annee": 2004, "evenement": "Tsunami", "ref": "tsunami-de-2004" }
+      ]
+    }
+  ],
+  "regimes": [
+    {
+      "id": "colonie",
+      "nom": "Indes orientales néerlandaises",
+      "debut": 1789,
+      "fin": 1942,
+      "note": "Domination britannique de 1811 à 1816."
+    },
+    { "id": "occupation", "nom": "Occupation japonaise", "debut": 1942, "fin": 1945 },
+    { "id": "republique", "nom": "République d’Indonésie", "debut": 1945, "fin": 2020 }
+  ],
+  "dynasties": [
+    {
+      "id": "gouverneurs",
+      "nom": "Quelques gouverneurs coloniaux",
+      "debut": 1808,
+      "fin": 1834,
+      "regime": "colonie",
+      "note": "Sélection."
+    },
+    { "id": "presidents", "nom": "Présidents de l’Indonésie", "debut": 1945, "fin": 2020, "regime": "republique" }
+  ],
+  "societe": "La société coloniale est hiérarchisée : Européens, puis « Orientaux étrangers » (Chinois, Arabes), puis indigènes. Le nationalisme naît au début du XXe siècle ; en 1928, le « serment de la jeunesse » proclame une seule patrie, une seule nation et une seule langue. Après l’indépendance, l’école diffuse l’indonésien dans tout l’archipel.",
+  "economie": "Cultures d’exportation (café, sucre, épices, caoutchouc), pétrole ; après 1967, forte croissance fondée sur le pétrole et l’industrie, frappée par la crise asiatique de 1997.",
+  "decouvertes": ["voc"],
+  "arts": "Gamelan (orchestres de percussions), théâtre d’ombres wayang, batik, danses balinaises.",
+  "quotidien": "La plupart des Indonésiens vivent à Java, l’une des îles les plus peuplées du monde.",
+  "heritage": [
+    {
+      "titre": "Une nation de 17 000 îles",
+      "texte": "Sa devise, « L’unité dans la diversité », rassemble des centaines de peuples et de langues."
+    },
+    {
+      "titre": "Le non-alignement",
+      "texte": "La conférence de Bandung reste un symbole de l’émancipation des anciens pays colonisés."
+    }
+  ],
+  "aSavoir": [
+    "L’indonésien a été choisi comme langue nationale plutôt que le javanais, pourtant plus parlé, pour ne favoriser aucun peuple."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Histoire_de_l%27Indon%C3%A9sie",
+    {
+      "titre": "Encyclopædia Britannica — Indonesia, history",
+      "url": "https://www.britannica.com/place/Indonesia/History"
     }
   ]
 }

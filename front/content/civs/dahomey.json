@@ -3,60 +3,251 @@
   "label": "Royaume du Dahomey (Bénin)",
   "tier": 1,
   "region": "afrique-ouest",
-  "period": "1789 à 1894",
-  "start": 1789,
+  "period": "vers 1600 à 1894",
+  "start": 1600,
   "end": 1894,
   "color": "#b22222",
   "trackId": "afrique_ouest_2",
   "row": 2,
   "isRiver": false,
   "capitale": "Abomey",
-  "description": "Une redoutable puissance militaire d'Afrique de l'Ouest du golfe de Guinée, au Palais et rites fascinants, célèbre pour son corps de guerrières, les « Amazones ».",
+  "description": "Un royaume d’Afrique de l’Ouest, sur le territoire de l’actuel Bénin, puissance militaire enrichie par la traite des esclaves, célèbre pour ses palais d’Abomey et ses régiments de femmes soldats, conquis par la France en 1894.",
   "territories": ["Dahomey"],
   "datesCles": [
     {
+      "annee": 1645,
+      "evenement": "Règne de Houegbadja",
+      "info": "Selon la tradition, il fonde le royaume et le palais d’Abomey."
+    },
+    {
+      "annee": 1727,
+      "evenement": "Conquête de Ouidah",
+      "info": "Le roi Agaja s’empare de ce grand port de la traite des esclaves."
+    },
+    {
+      "annee": 1730,
+      "evenement": "Tributaire d’Oyo",
+      "info": "Après plusieurs invasions de la cavalerie d’Oyo, le Dahomey doit lui payer tribut."
+    },
+    {
       "annee": 1818,
       "evenement": "Avènement de Ghézo",
-      "info": "Ghézo devient roi. Vers 1823, le Dahomey cesse de payer le tribut dû à l'empire yoruba d'Oyo."
+      "info": "Ghézo renverse son frère ; vers 1823, il cesse de payer le tribut à Oyo."
     },
     {
       "annee": 1892,
-      "evenement": "Les guerres coloniales",
-      "info": "Refus du Roi de plier le genou : les troupes de marine françaises du colonel Dodds marchent vers la capitale."
+      "evenement": "Prise d’Abomey",
+      "info": "Les troupes françaises du colonel Dodds entrent dans la capitale, que Béhanzin a incendiée.",
+      "ref": "conquete-francaise-du-dahomey"
+    },
+    {
+      "annee": 1894,
+      "evenement": "Reddition de Béhanzin",
+      "info": "Le roi se rend et est exilé en Martinique ; le Dahomey devient une colonie française."
     }
   ],
   "dirigeants": [
-    { "titre": "Roi du Dahomey", "nom": "Ghézo", "debut": 1818, "fin": 1858 },
-    { "titre": "Roi Exilé", "nom": "Béhanzin", "surnom": "Le Requin", "debut": 1889, "fin": 1894 }
+    { "nom": "Dakodonou", "titre": "Roi", "debut": 1620, "fin": 1645, "dynastie": "rois", "note": "règne légendaire" },
+    {
+      "nom": "Houegbadja",
+      "titre": "Roi",
+      "debut": 1645,
+      "fin": 1685,
+      "dynastie": "rois",
+      "note": "fondateur du royaume selon la tradition",
+      "cle": true
+    },
+    { "nom": "Akaba", "titre": "Roi", "debut": 1685, "fin": 1716, "dynastie": "rois" },
+    {
+      "nom": "Hangbè",
+      "titre": "Reine",
+      "debut": 1716,
+      "fin": 1718,
+      "dynastie": "rois",
+      "note": "règne contesté, effacé des listes officielles"
+    },
+    {
+      "nom": "Agaja",
+      "titre": "Roi",
+      "debut": 1718,
+      "fin": 1740,
+      "dynastie": "rois",
+      "note": "conquiert Allada et Ouidah",
+      "cle": true
+    },
+    { "nom": "Tegbessou", "titre": "Roi", "debut": 1740, "fin": 1774, "dynastie": "rois" },
+    { "nom": "Kpengla", "titre": "Roi", "debut": 1774, "fin": 1789, "dynastie": "rois" },
+    { "nom": "Agonglo", "titre": "Roi", "debut": 1789, "fin": 1797, "dynastie": "rois" },
+    {
+      "nom": "Adandozan",
+      "titre": "Roi",
+      "debut": 1797,
+      "fin": 1818,
+      "dynastie": "rois",
+      "note": "renversé par Ghézo et effacé de la liste officielle"
+    },
+    { "nom": "Ghézo", "titre": "Roi", "debut": 1818, "fin": 1858, "dynastie": "rois", "personne": "ghezo", "cle": true },
+    { "nom": "Glèlè", "titre": "Roi", "debut": 1858, "fin": 1889, "dynastie": "rois" },
+    {
+      "nom": "Béhanzin",
+      "titre": "Roi",
+      "debut": 1889,
+      "fin": 1894,
+      "dynastie": "rois",
+      "personne": "behanzin",
+      "note": "son emblème est le requin ; exilé",
+      "cle": true
+    },
+    {
+      "nom": "Agoli-Agbo",
+      "titre": "Roi sous protectorat français",
+      "debut": 1894,
+      "fin": 1900,
+      "dynastie": "rois",
+      "note": "placé sur le trône par la France"
+    }
   ],
   "personnages": [
     {
-      "nom": "Les Amazones (Les Mino)",
-      "role": "Corps d'infanterie d'élite féminine",
-      "description": "Célibataires dévouées au roi. De 4 000 femmes entraînées à la machette puis aux armes à feu, souvent utilisées en premier rideau d'assaut sacrificiel terrifiant.",
-      "dates": "Dissolution en 1894",
-      "wikiUrl": "https://fr.wikipedia.org/wiki/Amazones_du_Dahomey"
+      "nom": "Agaja",
+      "role": "Roi",
+      "description": "Il conquiert les royaumes côtiers d’Allada et de Ouidah, donnant au Dahomey un accès direct au commerce avec les Européens.",
+      "dates": "règne 1718 → 1740",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Agadja"
+    },
+    {
+      "nom": "Ghézo",
+      "role": "Roi",
+      "description": "Le plus puissant roi du Dahomey, qui libère le royaume de la tutelle d’Oyo.",
+      "dates": "mort en 1858",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Gh%C3%A9zo",
+      "ref": "ghezo"
+    },
+    {
+      "nom": "Francisco Félix de Souza",
+      "role": "Négrier",
+      "description": "Marchand d’esclaves d’origine brésilienne, allié de Ghézo, qui le nomme chef des Européens de Ouidah avec le titre de « Chacha ».",
+      "dates": "1754 → 1849",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Francisco_F%C3%A9lix_de_Souza"
+    },
+    {
+      "nom": "Béhanzin",
+      "role": "Roi",
+      "description": "Dernier roi indépendant, il résiste à la conquête française.",
+      "dates": "1845 → 1906",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/B%C3%A9hanzin",
+      "ref": "behanzin"
     }
   ],
   "guerres": [
     {
       "nom": "Seconde Guerre du Dahomey",
       "annee": 1892,
-      "adversaires": ["Troupes coloniales françaises (colonel A. Dodds)"],
-      "allies": ["Troupes et canonnières de marine"],
-      "morts": "Pertes totales de l'armée des Amazones au corps à corps",
+      "adversaires": ["France"],
+      "allies": [],
+      "morts": "Plusieurs milliers de soldats dahoméens, dont de nombreuses Agojie ; quelques centaines côté français",
       "vainqueur": "France",
-      "consequences": "Les baïonnettes et obus français éventrent l'infanterie des Amazones armées de winchesters. Béhanzin incendie lui-même ses palais d'Abomey et s'enfuit. Il se rend en 1894, est exilé en Martinique puis en Algérie, où il meurt en 1906 ; son pays est colonisé.",
+      "consequences": "Les troupes du colonel Dodds, mieux armées, prennent Abomey en novembre 1892. Béhanzin se rend en 1894 ; il est exilé en Martinique puis en Algérie, où il meurt en 1906. Le Dahomey devient une colonie française.",
       "wikiUrl": "https://fr.wikipedia.org/wiki/Seconde_guerre_du_Dahomey"
     }
   ],
-  "sciences": "Société agricole structurée pour la discipline et le prélèvement strict d'impôts par les hauts dignitaires pour l'effort de guerre. Quand l'Europe abolit la traite négrière, le roi Ghézo développe, en employant des captifs, les plantations de palmiers : le 'commerce légitime' de l'huile de palme, vendue à l'Europe industrielle pour lubrifier les machines et faire du savon, se développe à côté de la traite, qui continue jusqu'aux années 1860.",
-  "croyancesText": "Religion panthéoniste polythéiste (Le culte Vaudou / Vodun) d'une extrême richesse où les rois morts veillent sur la terre. L'effroi européen provint des 'Coutumes annuelles', où le roi en grande cérémonie ordonnait l'immolation et la décapitation de dizaines (parfois centaines à la mort d'un monarque) de prisonniers de guerre et de criminels sur une plateforme devant les ambassadeurs de la côte pour les envoyer comme serviteurs royaux dans l'Au-delà.",
-  "diplomatie": "C'est l'archétype cruel des états prédateurs militaires et de l'encerclement. Il est haï par les petits royaumes pacifiques voisins car les guerres 'annuelles' systématiques de Dahomey servent à capturer et revendre d'innombrables esclaves aux ports européens de Ouidah, pour acheter la poudre et l'artillerie anglaise et portugaise permettant leur souveraineté brutale de s'accroître.",
-  "documentaires": [
+  "sciences": "Le royaume dispose d’une administration très organisée : recensements de la population, impôts sur les marchés, ministres spécialisés et messagers. Les palais royaux d’Abomey sont ornés de bas-reliefs en terre qui racontent l’histoire des rois. Quand la traite décline, Ghézo développe des plantations de palmiers à huile, cultivées par des captifs, pour vendre l’huile de palme à l’Europe industrielle.",
+  "croyancesText": "La religion vodun honore de nombreuses divinités et les ancêtres, notamment les rois défunts. Lors des « coutumes annuelles », grandes cérémonies royales, des captifs et des condamnés sont sacrifiés pour servir les rois dans l’au-delà, ce qui frappe les visiteurs européens. Le vodun reste aujourd’hui une religion officiellement reconnue au Bénin.",
+  "diplomatie": "Le Dahomey mène presque chaque année des guerres contre ses voisins, surtout pour capturer des prisonniers vendus aux négriers européens à Ouidah, en échange d’armes, de tissus et d’alcool. Tributaire de l’empire d’Oyo pendant près d’un siècle, il s’en libère sous Ghézo. Il entretient des relations avec le Portugal, le Brésil, la France et le Royaume-Uni.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": { "valeur": "Abomey" },
+    "regimes": { "valeur": "Monarchie", "precision": "tributaire de l’empire d’Oyo d’environ 1730 à 1823" },
+    "langues": { "valeur": "Fon" },
+    "religion": { "valeur": "Vodun", "precision": "culte des divinités et des ancêtres royaux" },
+    "apogee": { "valeur": "XIXe siècle", "precision": "règne de Ghézo" },
+    "population": { "valeur": "Mal connue", "precision": "les estimations des voyageurs européens varient beaucoup" },
+    "monnaie": { "valeur": "Cauris", "precision": "petits coquillages servant de monnaie" },
+    "duree": { "valeur": "Environ 300 ans" },
+    "aujourdhui": { "valeur": "Bénin", "precision": "sud du pays" }
+  },
+  "essentiel": [
+    "Fondé au XVIIe siècle autour d’Abomey par le peuple fon, le royaume conquiert au XVIIIe siècle les ports de la côte, dont Ouidah, sous le roi Agaja.",
+    "Le Dahomey participe massivement à la traite atlantique : il vend aux Européens des captifs pris lors de guerres et de razzias.",
+    "Le roi [[ghezo|Ghézo]] se libère de la tutelle d’Oyo et développe le commerce de l’huile de palme.",
+    "Son armée comprend des régiments de femmes soldats, appelées « Amazones » par les Européens.",
+    "Le roi [[behanzin|Béhanzin]] résiste à la [[conquete-francaise-du-dahomey|conquête française]], mais doit se rendre en 1894."
+  ],
+  "periodes": [
     {
-      "titre": "Le Royaume du Dahomey : Rois et Amazones",
-      "url": "https://fr.wikipedia.org/wiki/Royaume_du_Dahomey"
+      "nom": "La formation du royaume",
+      "debut": 1600,
+      "fin": 1718,
+      "resume": "Les rois fon bâtissent autour d’Abomey un État centralisé et guerrier.",
+      "evenements": [{ "annee": 1645, "evenement": "Règne de Houegbadja" }]
+    },
+    {
+      "nom": "Conquêtes et tutelle d’Oyo",
+      "debut": 1718,
+      "fin": 1818,
+      "resume": "Agaja conquiert la côte et ses ports négriers ; le royaume doit cependant payer tribut à Oyo.",
+      "evenements": [{ "annee": 1724, "evenement": "Conquête d’Allada" }, { "annee": 1727, "evenement": "Conquête de Ouidah" }]
+    },
+    {
+      "nom": "L’apogée",
+      "debut": 1818,
+      "fin": 1889,
+      "resume": "Ghézo, puis Glèlè, rendent le royaume indépendant et puissant ; la traite décline et l’huile de palme prend le relais.",
+      "evenements": [{ "annee": 1823, "evenement": "Fin du tribut à Oyo" }, { "annee": 1851, "evenement": "Défaite devant Abeokuta" }]
+    },
+    {
+      "nom": "La conquête française",
+      "debut": 1889,
+      "fin": 1894,
+      "resume": "Béhanzin affronte la France, qui conquiert le royaume.",
+      "evenements": [
+        { "annee": 1890, "evenement": "Première guerre contre la France" },
+        { "annee": 1892, "evenement": "Prise d’Abomey", "ref": "conquete-francaise-du-dahomey" }
+      ]
+    }
+  ],
+  "regimes": [
+    {
+      "id": "royaume",
+      "nom": "Royaume du Dahomey",
+      "debut": 1600,
+      "fin": 1894,
+      "note": "Tributaire de l’empire d’Oyo d’environ 1730 à 1823."
+    }
+  ],
+  "dynasties": [
+    {
+      "id": "rois",
+      "nom": "Les rois d’Abomey",
+      "debut": 1600,
+      "fin": 1894,
+      "regime": "royaume",
+      "note": "Liste traditionnelle ; les dates des premiers rois sont incertaines."
+    }
+  ],
+  "societe": "Le roi est entouré de ministres, chacun doublé d’une femme du palais chargée de le surveiller. L’armée comprend des régiments de femmes soldats, les Agojie ou Mino, réputées pour leur courage : plusieurs milliers au XIXe siècle. Une grande partie de la population servile travaille sur les plantations royales.",
+  "economie": "Traite des esclaves jusqu’aux années 1860, puis huile de palme ; agriculture et marchés.",
+  "decouvertes": ["palais-royaux-d-abomey"],
+  "arts": "Bas-reliefs des palais d’Abomey, tentures appliquées, statues royales et trônes, sculptures en métal.",
+  "quotidien": "Les grandes fêtes royales rassemblent la population à Abomey, autour des cérémonies, des défilés militaires et des distributions de cadeaux.",
+  "heritage": [
+    {
+      "titre": "La mémoire de la traite",
+      "texte": "À Ouidah, la « Porte du non-retour » rappelle les centaines de milliers de captifs déportés vers les Amériques."
+    },
+    {
+      "titre": "Le retour des trésors",
+      "texte": "En 2021, la France a restitué au Bénin 26 œuvres pillées à Abomey en 1892."
+    }
+  ],
+  "aSavoir": [
+    "Les Européens appelaient les femmes soldats du Dahomey « Amazones », en référence aux guerrières de la mythologie grecque."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Royaume_du_Dahomey",
+    {
+      "titre": "Encyclopædia Britannica — Dahomey",
+      "url": "https://www.britannica.com/place/Dahomey-historical-kingdom-Africa"
     }
   ]
 }

@@ -1,0 +1,16 @@
+{
+  "id": "massacre-de-sook-ching",
+  "nom": "Massacre de Sook Ching",
+  "annee": 1942,
+  "dates": "février → mars 1942",
+  "lieu": "Singapour",
+  "description": "Après la conquête, l’armée japonaise rassemble les hommes d’origine chinoise, accusés d’être hostiles au Japon, et en exécute un grand nombre.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "Le nombre de victimes est discuté : les autorités japonaises de l’époque parlent d’environ 5 000 morts, les estimations singapouriennes vont jusqu’à 50 000. Un mémorial rappelle ce massacre au centre de Singapour."
+    }
+  ],
+  "avant": "chute-de-singapour",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Massacre_de_Sook_Ching"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "guerre-de-java",
+  "nom": "Guerre de Java",
+  "annee": 1825,
+  "fin": 1830,
+  "dates": "1825 → 1830",
+  "lieu": "Centre de Java",
+  "description": "Le prince [[diponegoro|Diponegoro]] soulève les paysans et une partie de l’aristocratie javanaise contre la domination néerlandaise.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "La guerre fait environ 200 000 morts javanais. Victorieux, les Néerlandais imposent ensuite le système des cultures pour rembourser son coût."
+    }
+  ],
+  "liens": [{ "ref": "diponegoro", "relation": "Le chef du soulèvement" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_de_Java"
+}

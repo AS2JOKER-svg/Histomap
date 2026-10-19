@@ -1,0 +1,22 @@
+{
+  "id": "seconde-guerre-des-boers",
+  "nom": "Seconde guerre des Boers",
+  "annee": 1899,
+  "fin": 1902,
+  "dates": "octobre 1899 → mai 1902",
+  "lieu": "Afrique du Sud",
+  "description": "Le Royaume-Uni, attiré par l’or du Transvaal, affronte les deux républiques boers de Paul Kruger.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Après des victoires boers, les Britanniques prennent les capitales en 1900. Les Boers mènent alors une guérilla ; les Britanniques brûlent les fermes et enferment civils boers et africains dans des camps, où des dizaines de milliers meurent de maladies."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Les républiques boers sont annexées en 1902. Le souvenir des camps nourrit le nationalisme afrikaner."
+    }
+  ],
+  "avant": "grand-trek",
+  "apres": "apartheid",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Seconde_guerre_des_Boers"
+}

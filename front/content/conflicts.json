@@ -476,5 +476,17 @@
   "Guerre russo-japonaise": {
     "coords": [129.6, 34.4],
     "lieu": "Détroit de Tsushima"
+  },
+  "Guerre de Java": {
+    "coords": [110.36, -7.8],
+    "lieu": "Centre de Java"
+  },
+  "Seconde guerre italo-éthiopienne": {
+    "coords": [39.47, 13],
+    "lieu": "Nord de l’Éthiopie"
+  },
+  "Seconde guerre des Boers": {
+    "coords": [28, -26.2],
+    "lieu": "Transvaal et État libre d’Orange"
   }
 }

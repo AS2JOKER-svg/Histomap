@@ -1,0 +1,19 @@
+{
+  "id": "chaka",
+  "nom": "Chaka",
+  "role": "Roi des Zoulous",
+  "roles": ["Roi", "Chef de guerre"],
+  "dates": "vers 1787 → 1828",
+  "naissance": 1787,
+  "mort": 1828,
+  "description": "Roi des Zoulous de 1816 à 1828, il réorganise l’armée et fait de son petit royaume la plus grande puissance du sud-est de l’Afrique.",
+  "essentiel": [
+    "Il organise ses guerriers en régiments disciplinés et leur donne une courte lance de combat rapproché.",
+    "Ses conquêtes provoquent de grandes migrations et guerres dans toute la région.",
+    "Il est assassiné en 1828 par ses demi-frères, dont Dingane, qui lui succède."
+  ],
+  "aSavoir": [
+    "Sa vie est mal connue : les récits ont été écrits surtout par des Européens et des traditions orales, parfois embellis."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Chaka"
+}

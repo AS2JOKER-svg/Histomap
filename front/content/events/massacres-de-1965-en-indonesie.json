@@ -1,0 +1,17 @@
+{
+  "id": "massacres-de-1965-en-indonesie",
+  "nom": "Massacres de 1965-1966 en Indonésie",
+  "annee": 1965,
+  "fin": 1966,
+  "dates": "octobre 1965 → 1966",
+  "lieu": "Indonésie, surtout Java, Bali et Sumatra",
+  "description": "Après une tentative de coup d’État attribuée aux communistes, l’armée, dirigée par [[suharto|Suharto]], et des milices tuent des centaines de milliers de communistes présumés.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "Les estimations vont de 500 000 à 1 million de morts ; des centaines de milliers de personnes sont emprisonnées sans procès. Le Parti communiste est anéanti et Suharto prend le pouvoir. Ces massacres restent un sujet tabou en Indonésie."
+    }
+  ],
+  "liens": [{ "ref": "suharto", "relation": "Il commande l’armée" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Massacres_de_1965_en_Indon%C3%A9sie"
+}

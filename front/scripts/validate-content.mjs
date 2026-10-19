@@ -29,7 +29,15 @@ function optional(where, obj, key, test, expected) {
 }
 function sources(where, obj) {
   if (obj.sources === undefined) return
-  if (!isArr(obj.sources) || !obj.sources.every(isUrl)) err(where, '« sources » doit être une liste de liens http(s)')
+  const ok = (x) => isUrl(x) || (x && isStr(x.titre) && isUrl(x.url) && Object.keys(x).every((k) => ['titre', 'url'].includes(k)))
+  if (!isArr(obj.sources) || !obj.sources.every(ok)) err(where, '« sources » : liste de liens http(s) ou de { titre, url }')
+}
+const isStrList = (v) => isArr(v) && v.every(isStr)
+/** [{ titre, texte }] : héritage, sections d'une fiche liée */
+function blocks(where, obj, key) {
+  if (obj[key] === undefined) return
+  if (!isArr(obj[key]) || !obj[key].every((b) => b && isStr(b.titre) && isStr(b.texte) && Object.keys(b).every((k) => ['titre', 'texte'].includes(k))))
+    err(where, `« ${key} » doit être une liste de { titre, texte }`)
 }
 
 // ── Régions ─────────────────────────────────────────────────────────────────
@@ -102,10 +110,14 @@ for (const l of isArr(content.lineages) ? content.lineages : []) {
 }
 
 // ── Fiches liées (personnes, événements, découvertes) ───────────────────────
+// Blocs communs : en-tête (nom, nomComplet, dates, roles, description = « en une phrase »), repères,
+// essentiel (« pourquoi il compte »), sections (contexte, déroulement…), chronologie, liens (entourage,
+// acteurs), avant / après, héritage, à savoir, sources.
+const ENTITY_COMMON = ['nomComplet', 'dates', 'roles', 'reperes', 'essentiel', 'sections', 'chronologie', 'liens', 'avant', 'apres', 'heritage', 'aSavoir', 'wikiUrl', 'sources']
 const ENTITY_FIELDS = {
-  personne: { required: ['nom', 'description'], allowed: ['role', 'dates', 'naissance', 'mort', 'wikiUrl', 'sources'] },
-  evenement: { required: ['nom', 'description'], allowed: ['annee', 'fin', 'lieu', 'wikiUrl', 'sources'] },
-  decouverte: { required: ['nom', 'description'], allowed: ['annee', 'domaine', 'wikiUrl', 'sources'] },
+  personne: { required: ['nom', 'description'], allowed: ['role', 'naissance', 'mort', ...ENTITY_COMMON] },
+  evenement: { required: ['nom', 'description'], allowed: ['annee', 'fin', 'lieu', ...ENTITY_COMMON] },
+  decouverte: { required: ['nom', 'description'], allowed: ['annee', 'domaine', ...ENTITY_COMMON] },
 }
 const seenEntity = new Map()
 for (const { type, file, name, data } of content.entityFiles) {
@@ -124,9 +136,27 @@ for (const { type, file, name, data } of content.entityFiles) {
   sources(w, data)
   if (type === 'evenement' && !isNum(data.annee)) err(w, '« annee » obligatoire pour un événement')
   if (isNum(data.naissance) && isNum(data.mort) && data.naissance > data.mort) err(w, `naissance (${data.naissance}) après la mort (${data.mort})`)
+  if (data.roles !== undefined && !isStrList(data.roles)) err(w, '« roles » doit être une liste de textes')
+  if (data.essentiel !== undefined && !isStrList(data.essentiel)) err(w, '« essentiel » doit être une liste de textes')
+  if (data.aSavoir !== undefined && !isStrList(data.aSavoir)) err(w, '« aSavoir » doit être une liste de textes')
+  if (data.reperes !== undefined && !(isArr(data.reperes) && data.reperes.every((r) => r && isStr(r.label) && isStr(r.valeur) && (r.precision === undefined || isStr(r.precision)))))
+    err(w, '« reperes » doit être une liste de { label, valeur, precision? }')
+  blocks(w, data, 'sections')
+  blocks(w, data, 'heritage')
+  if (data.chronologie !== undefined && !(isArr(data.chronologie) && data.chronologie.every((c) => c && isNum(c.annee) && isStr(c.texte))))
+    err(w, '« chronologie » doit être une liste de { annee, texte, detail?, ref? }')
+  if (data.liens !== undefined && !(isArr(data.liens) && data.liens.every((l) => l && isStr(l.ref) && isStr(l.relation))))
+    err(w, '« liens » doit être une liste de { ref, relation }')
   if (isNum(data.annee) && isNum(data.fin) && data.annee > data.fin) err(w, `début (${data.annee}) après la fin (${data.fin})`)
 }
 const entityType = (id) => content.entities.get(id)?.type
+const exists = (id) => content.civs.has(id) || content.entities.has(id)
+for (const { file, data } of content.entityFiles) {
+  const w = `content/${file}`
+  for (const k of ['avant', 'apres']) if (data[k] !== undefined && !exists(data[k])) err(w, `« ${k} » : fiche « ${data[k]} » introuvable`)
+  for (const l of isArr(data.liens) ? data.liens : []) if (isStr(l.ref) && !exists(l.ref)) err(w, `lien vers « ${l.ref} » : fiche introuvable`)
+  for (const c of isArr(data.chronologie) ? data.chronologie : []) if (c.ref !== undefined && !exists(c.ref)) err(w, `chronologie : fiche « ${c.ref} » introuvable`)
+}
 const expectEntity = (where, id, type, what) => {
   if (id === undefined) return
   if (!isStr(id)) return err(where, `${what} : l'id doit être un texte`)
@@ -138,9 +168,13 @@ const expectEntity = (where, id, type, what) => {
 // ── Civilisations ────────────────────────────────────────────────────────────
 const CIV_FIELDS = [
   'id', 'label', 'tier', 'region', 'period', 'start', 'end', 'color', 'trackId', 'row', 'isRiver', 'capitale', 'description',
-  'territories', 'datesCles', 'dirigeants', 'dynasties', 'personnages', 'guerres', 'sciences', 'croyancesText', 'diplomatie',
+  'territories', 'reperes', 'essentiel', 'datesCles', 'periodes', 'regimes', 'dynasties', 'dirigeants', 'personnages', 'guerres',
+  'societe', 'economie', 'croyancesText', 'sciences', 'decouvertes', 'arts', 'quotidien', 'diplomatie', 'heritage', 'aSavoir',
   'documentaires', 'sources',
 ]
+// Les 9 repères (identiques pour toutes les fiches). Capitale et durée ont une valeur par défaut
+// (champ capitale, dates) ; « reperes » peut les préciser.
+export const REPERES = ['capitale', 'regimes', 'langues', 'religion', 'apogee', 'population', 'monnaie', 'duree', 'aujourdhui']
 const mapIndex = loadMapIndex()
 const mapNames = mapIndex ? new Set(mapIndex.flatMap((m) => [...m.names, ...(m.powers ?? [])])) : null
 if (!mapIndex) warn('carte', 'public/map/index.json introuvable (lancer `npm run map`)')
@@ -168,6 +202,46 @@ for (const [id, { file, data: civ }] of content.civs) {
   for (const k of ['datesCles', 'dirigeants', 'personnages', 'guerres', 'documentaires'])
     if (!isArr(civ[k])) err(w, `champ « ${k} » doit être un tableau`)
   for (const k of ['sciences', 'croyancesText', 'diplomatie']) if (!isStr(civ[k])) warn(w, `texte « ${k} » vide`)
+  for (const k of ['societe', 'economie', 'arts', 'quotidien']) optional(w, civ, k, isStr, 'un texte')
+  if (civ.reperes !== undefined) {
+    if (!civ.reperes || typeof civ.reperes !== 'object' || isArr(civ.reperes)) err(w, '« reperes » doit être un objet')
+    else
+      for (const [k, v] of Object.entries(civ.reperes)) {
+        if (!REPERES.includes(k)) err(w, `repère inconnu « ${k} » (autorisés : ${REPERES.join(', ')})`)
+        const ok = isStr(v) || (v && isStr(v.valeur) && (v.precision === undefined || isStr(v.precision)) && Object.keys(v).every((x) => ['valeur', 'precision'].includes(x)))
+        if (!ok) err(w, `repère « ${k} » : un texte ou { valeur, precision }`)
+      }
+  }
+  if (civ.essentiel !== undefined) {
+    if (!isStrList(civ.essentiel)) err(w, '« essentiel » doit être une liste de textes')
+    else if (civ.essentiel.length > 5) err(w, `« essentiel » : 5 points maximum (${civ.essentiel.length})`)
+  }
+  if (civ.aSavoir !== undefined && !isStrList(civ.aSavoir)) err(w, '« aSavoir » doit être une liste de textes')
+  blocks(w, civ, 'heritage')
+  for (const id of civ.decouvertes ?? []) expectEntity(w, id, 'decouverte', 'découvertes')
+  if (civ.decouvertes !== undefined && !isStrList(civ.decouvertes)) err(w, '« decouvertes » doit être une liste d’ids')
+  for (const pe of civ.periodes ?? []) {
+    const pw = `${w} (période « ${pe.nom ?? '?'} »)`
+    onlyFields(pw, pe, ['nom', 'debut', 'fin', 'resume', 'evenements'])
+    if (!isStr(pe.nom) || !isStr(pe.resume)) err(pw, '« nom » et « resume » obligatoires')
+    if (!isNum(pe.debut) || !isNum(pe.fin) || pe.debut > pe.fin) err(pw, `dates invalides ${pe.debut} → ${pe.fin}`)
+    for (const ev of pe.evenements ?? []) {
+      onlyFields(pw, ev, ['annee', 'evenement', 'ref'])
+      if (!isNum(ev.annee) || !isStr(ev.evenement)) err(pw, `événement invalide : ${JSON.stringify(ev).slice(0, 80)}`)
+      expectEntity(pw, ev.ref, 'evenement', `événement « ${ev.evenement} »`)
+    }
+  }
+  const regimeIds = new Set()
+  for (const re of civ.regimes ?? []) {
+    const rw = `${w} (régime « ${re.id ?? '?'} »)`
+    onlyFields(rw, re, ['id', 'nom', 'debut', 'fin', 'note'])
+    if (!isStr(re.id) || !ID.test(re.id)) err(rw, 'id manquant ou mal formé')
+    else if (regimeIds.has(re.id)) err(rw, 'id dupliqué')
+    regimeIds.add(re.id)
+    if (!isStr(re.nom)) err(rw, 'nom manquant')
+    if (!isNum(re.debut) || !isNum(re.fin) || re.debut > re.fin) err(rw, `dates invalides ${re.debut} → ${re.fin}`)
+    optional(rw, re, 'note', isStr, 'un texte')
+  }
 
   for (const d of civ.datesCles ?? []) {
     if (!isNum(d.annee) || !isStr(d.evenement)) err(w, `date clé invalide : ${JSON.stringify(d).slice(0, 90)}`)
@@ -185,7 +259,9 @@ for (const [id, { file, data: civ }] of content.civs) {
   if (civ.dynasties !== undefined && !isArr(civ.dynasties)) err(w, '« dynasties » doit être un tableau')
   for (const dy of isArr(civ.dynasties) ? civ.dynasties : []) {
     const dw = `${w} (dynastie « ${dy.id ?? '?'} »)`
-    onlyFields(dw, dy, ['id', 'nom', 'debut', 'fin'])
+    onlyFields(dw, dy, ['id', 'nom', 'debut', 'fin', 'regime', 'note'])
+    if (dy.regime !== undefined && !regimeIds.has(dy.regime)) err(dw, `régime « ${dy.regime} » absent de « regimes »`)
+    optional(dw, dy, 'note', isStr, 'un texte')
     if (!isStr(dy.id) || !ID.test(dy.id)) err(dw, 'id manquant ou mal formé')
     else if (dynastyIds.has(dy.id)) err(dw, 'id dupliqué')
     dynastyIds.add(dy.id)
@@ -194,7 +270,8 @@ for (const [id, { file, data: civ }] of content.civs) {
   }
   for (const l of civ.dirigeants ?? []) {
     const lw = `${w} (dirigeant « ${l.nom ?? '?'} »)`
-    onlyFields(lw, l, ['nom', 'titre', 'surnom', 'debut', 'fin', 'dynastie', 'personne'])
+    onlyFields(lw, l, ['nom', 'titre', 'surnom', 'debut', 'fin', 'dynastie', 'personne', 'note'])
+    optional(lw, l, 'note', isStr, 'un texte')
     if (!isStr(l.nom) || !isStr(l.titre)) err(lw, '« nom » et « titre » obligatoires')
     if (!isNum(l.debut) || !isNum(l.fin)) err(lw, '« debut » et « fin » doivent être des nombres')
     else if (l.debut > l.fin) err(lw, `début de règne (${l.debut}) après la fin (${l.fin})`)

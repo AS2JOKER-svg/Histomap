@@ -7,6 +7,8 @@
 //   src/data/territories.json   civilisation → noms des territoires sur les cartes historiques
 //   src/data/conflicts.json     guerres placées sur la carte
 //   src/data/quiz-context.json  leurres des quiz (événements, dirigeants, personnages des autres fiches)
+//   src/data/search.json        index de la recherche globale (chargé à l'ouverture de la recherche)
+//   src/data/wars.json          toutes les guerres des fiches (onglet Guerres)
 //   src/data/map-presence.json  années de carte où chaque civilisation a un territoire
 //
 // Usage : node scripts/build-content.mjs  (lancé par `npm run data`, `npm run dev` et `npm run build`)
@@ -25,7 +27,11 @@ const { epochs, byId } = assemble(content)
 
 // Champs de l'index léger (le reste part dans le détail, chargé à la demande)
 const LIGHT = ['id', 'label', 'tier', 'region', 'period', 'start', 'end', 'color', 'trackId', 'row', 'isRiver', 'capitale', 'description', 'lineage']
-const DETAIL = ['datesCles', 'dirigeants', 'dynasties', 'personnages', 'guerres', 'sciences', 'croyancesText', 'diplomatie', 'documentaires', 'sources']
+const DETAIL = [
+  'reperes', 'essentiel', 'datesCles', 'periodes', 'regimes', 'dynasties', 'dirigeants', 'personnages', 'guerres',
+  'societe', 'economie', 'croyancesText', 'sciences', 'decouvertes', 'arts', 'quotidien', 'diplomatie', 'heritage', 'aSavoir',
+  'documentaires', 'sources',
+]
 const pickFields = (obj, keys) => Object.fromEntries(keys.filter((k) => obj[k] !== undefined).map((k) => [k, obj[k]]))
 
 // ── Liens [[id]] : nom affiché + « apparaît dans » ─────────────────────────────
@@ -52,8 +58,13 @@ for (const { civ } of byId.values()) {
   for (const p of civ.personnages ?? []) linkFrom(p.ref, 'civs', civ.id)
   for (const d of civ.dirigeants ?? []) linkFrom(d.personne, 'civs', civ.id)
   for (const d of civ.datesCles ?? []) linkFrom(d.ref, 'civs', civ.id)
+  for (const p of civ.periodes ?? []) for (const e of p.evenements ?? []) linkFrom(e.ref, 'civs', civ.id)
+  for (const id of civ.decouvertes ?? []) linkFrom(id, 'civs', civ.id)
 }
-for (const [id, { data }] of content.entities) for (const target of textLinks(data)) linkFrom(target, 'fiches', id)
+for (const [id, { data }] of content.entities) {
+  const targets = [...textLinks(data), data.avant, data.apres, ...(data.liens ?? []).map((l) => l.ref), ...(data.chronologie ?? []).map((c) => c.ref)]
+  for (const target of targets) if (target) linkFrom(target, byId.has(target) ? 'civs' : 'fiches', id)
+}
 
 // ── Écriture ──────────────────────────────────────────────────────────────────
 const D = PATHS.data
@@ -73,7 +84,10 @@ const index = epochs.map(({ continents, ...meta }) => ({
       stats.events += civ.datesCles?.length ?? 0
       stats.people += civ.personnages?.length ?? 0
       stats.wars += civ.guerres?.length ?? 0
-      writeJson(`civs/${civ.id}.json`, resolveDeep(pickFields(civ, DETAIL)))
+      const detail = resolveDeep(pickFields(civ, DETAIL))
+      // découvertes : id → { id, nom } (la fiche affiche le nom sans charger chaque découverte)
+      if (detail.decouvertes) detail.decouvertes = detail.decouvertes.map((id) => ({ id, nom: labelOf(id) ?? id }))
+      writeJson(`civs/${civ.id}.json`, detail)
       return {
         ...resolveDeep(pickFields(civ, LIGHT)),
         // petits points des dates clés sur la frise
@@ -82,14 +96,23 @@ const index = epochs.map(({ continents, ...meta }) => ({
     }),
   })),
 }))
-writeJson('index.json', { stats, epochs: index })
+const regions = Object.fromEntries(content.regions.map((r) => [r.id, r.label]))
+writeJson('index.json', { stats, regions, epochs: index })
 
+// Référence affichable vers une autre fiche : { id, nom, type } (sans charger la fiche)
+const refOf = (id) =>
+  byId.has(id)
+    ? { id, nom: byId.get(id).civ.label, type: 'civ' }
+    : { id, nom: content.entities.get(id)?.data.nom ?? id, type: content.entities.get(id)?.type ?? null }
 for (const [id, { type, data }] of content.entities) {
   const links = backlinks.get(id)
+  const out = resolveDeep(data)
+  for (const k of ['avant', 'apres']) if (out[k]) out[k] = refOf(out[k])
+  if (out.liens) out.liens = out.liens.map((l) => ({ ...refOf(l.ref), relation: l.relation }))
   writeJson(`entities/${id}.json`, {
-    ...resolveDeep(data),
+    ...out,
     type,
-    apparaitDans: { civs: [...(links?.civs ?? [])], fiches: [...(links?.fiches ?? [])] },
+    apparaitDans: { civs: [...(links?.civs ?? [])], fiches: [...(links?.fiches ?? [])].map(refOf) },
   })
 }
 
@@ -134,7 +157,50 @@ for (const epoch of epochs) {
 }
 writeJson('quiz-context.json', quizContext)
 
+// ── Recherche globale ─────────────────────────────────────────────────────────
+// Une entrée : { t: type, n: nom, s: sous-titre, y: année (tri), to: lien interne } + q : texte normalisé
+// (minuscules, sans accents) où l'on cherche. Les personnes et événements qui n'ont pas encore de
+// fiche liée renvoient vers la fiche de leur civilisation (onglet adapté).
+const norm = (t) => stripLinks(String(t ?? '')).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase()
+const search = []
+const add = (e, ...extra) => search.push({ ...e, q: norm([e.n, ...extra].join(' ')) })
+const civPath = (id) => {
+  const w = byId.get(id)
+  return `/frise/${w.epoch.id}/${id}`
+}
+for (const { epoch, civ } of byId.values()) {
+  add({ t: 'civ', id: civ.id, n: civ.label, s: `${civ.period} · ${epoch.label}`, y: civ.start, to: civPath(civ.id), c: civ.color }, civ.capitale)
+  for (const p of civ.personnages ?? [])
+    if (!p.ref) add({ t: 'personne', n: p.nom, s: `${p.role ?? ''} · ${civ.label}`, to: `${civPath(civ.id)}`, c: civ.color }, p.role)
+  for (const l of civ.dirigeants ?? [])
+    if (!l.personne) add({ t: 'personne', n: l.nom, s: `${l.titre} · ${civ.label}`, y: l.debut, to: `${civPath(civ.id)}?onglet=dirigeants`, c: civ.color }, l.surnom, l.titre)
+  for (const d of civ.datesCles ?? [])
+    if (!d.ref) add({ t: 'evenement', n: stripLinks(d.evenement), s: civ.label, y: d.annee, to: `${civPath(civ.id)}?onglet=histoire`, c: civ.color })
+}
+const dateOf = (d) => d.annee ?? d.naissance ?? null
+for (const [id, { type, data }] of content.entities)
+  add({ t: type, id, n: data.nom, s: data.dates ?? data.role ?? data.domaine ?? '', y: dateOf(data), to: `/fiche/${id}` }, data.nomComplet, data.role, data.description)
+
+// ── Guerres : une entrée par guerre (même nom + même année = même guerre, vue des deux camps) ──
+const wars = new Map()
+for (const { epoch, civ } of byId.values())
+  for (const g of civ.guerres ?? []) {
+    const key = `${g.nom}|${g.annee ?? ''}`
+    const war = wars.get(key) ?? {
+      // camp = la première fiche qui raconte la guerre ; une 2e fiche (ex. Qadesh vue par les Hittites) est l'autre camp
+      key, nom: g.nom, annee: g.annee ?? null, epoch: epoch.id, civs: [], camp: [civ.label], adversaires: g.adversaires ?? [],
+      allies: g.allies ?? [], vainqueur: stripLinks(g.vainqueur ?? ''), consequences: stripLinks(g.consequences ?? ''),
+      morts: g.morts ?? '', wikiUrl: g.wikiUrl ?? null, coords: content.conflicts[g.nom]?.coords ?? null,
+    }
+    war.civs.push(civ.id)
+    wars.set(key, war)
+  }
+const warList = [...wars.values()].sort((a, b) => (a.annee ?? 0) - (b.annee ?? 0))
+writeJson('wars.json', warList)
+for (const w of warList) add({ t: 'guerre', n: w.nom, s: [...w.camp, ...w.adversaires].join(' · ').slice(0, 90), y: w.annee, to: `/guerres?guerre=${encodeURIComponent(w.key)}` }, w.adversaires.join(' '), w.camp.join(' '))
+writeJson('search.json', search)
+
 console.log(
   `OK → ${stats.epochs} époques, ${stats.civs} civilisations (${content.lineages.length} lignées), ` +
-    `${content.entities.size} fiches liées, ${conflicts.length} conflits sur la carte → src/data/`
+    `${content.entities.size} fiches liées, ${warList.length} guerres, ${search.length} entrées de recherche → src/data/`
 )

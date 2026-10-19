@@ -184,9 +184,10 @@ function hasMap(civ) {
   return !!PRESENCE[civ.id]?.length
 }
 
-/** Jusqu'à 3 années de carte où la civilisation a un territoire, réparties sur sa période. */
-export function mapYears(civ) {
+/** Jusqu'à `max` années de carte (3 par défaut) où la civilisation a un territoire, réparties sur sa période. */
+export function mapYears(civ, max = 3) {
   const years = PRESENCE[civ.id] ?? []
-  if (years.length <= 3) return years
-  return [years[0], years[Math.floor(years.length / 2)], years[years.length - 1]]
+  if (years.length <= max) return years
+  // premier, derniers et intermédiaires régulièrement espacés (pour 3 : premier, milieu, dernier)
+  return Array.from({ length: max }, (_, i) => years[Math.round((i * (years.length - 1)) / (max - 1))])
 }

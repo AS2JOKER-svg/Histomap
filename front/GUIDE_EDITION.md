@@ -58,9 +58,30 @@ Le site ne lit jamais ces fichiers directement : `scripts/build-content.mjs` les
   "croyancesText": "texte…",
   "diplomatie": "texte…",
   "documentaires": [{ "titre": "…", "url": "https://…" }],
-  "sources": ["https://fr.wikipedia.org/wiki/…"]
+  "sources": ["https://fr.wikipedia.org/wiki/…", { "titre": "Britannica — …", "url": "https://…" }],
+
+  // ── Structure « fiche en béton » (sprint 10B) : tout est facultatif, la fiche s'adapte ──
+  "reperes": {                     // les 9 repères (capitale et durée ont une valeur par défaut)
+    "capitale":  { "valeur": "Paris", "precision": "…" },   // un texte, ou { valeur, precision }
+    "regimes": "Monarchie féodale", "langues": "…", "religion": "…", "apogee": "…",
+    "population": "…", "monnaie": "…", "duree": "…", "aujourdhui": "…"
+  },
+  "essentiel": ["5 points maximum, ce qu'il faut retenir"],
+  "periodes": [{ "nom": "…", "debut": 987, "fin": 1180, "resume": "…",
+                 "evenements": [{ "annee": 1214, "evenement": "Bouvines", "ref": "bataille-de-bouvines" }] }],
+  "regimes": [{ "id": "republique", "nom": "République", "debut": -509, "fin": -27, "note": "Pas de chef unique : …" }],
+  "societe": "…", "economie": "…", "arts": "…", "quotidien": "…",   // onglet Société (avec croyancesText, sciences, diplomatie)
+  "decouvertes": ["calendrier-julien"],                              // ids de content/discoveries/
+  "heritage": [{ "titre": "Nos langues", "texte": "…" }],
+  "aSavoir": ["légendes, débats d'historiens, idées reçues"]
 }
 ```
+**Où s'affiche quoi** (fiche à 6 onglets) : Résumé = mini-carte, repères, essentiel, dates clés, personnages, héritage,
+à savoir, lignée, sources · Histoire = `periodes` (sinon les dates clés avec leur explication) · Dirigeants = `regimes`
+(bandeau) + `dirigeants` groupés par `dynasties` (barre de règne proportionnelle) · Société = société, économie, religions
+(`croyancesText`), sciences (+ `decouvertes`), arts, vie quotidienne, diplomatie · Guerres = `guerres` · Carte = territoire.
+- Dynastie : `{ id, nom, debut, fin, regime?, note? }` ; dirigeant : `note` facultative (ex. « selon la tradition »).
+- Régime sans chef unique (République romaine, cités marchandes…) : l'expliquer dans `note` et ne lister que les grandes figures.
 - Champs facultatifs : `trackId`, `row`, `surnom`, `dynastie`, `personne`, `dynasties`, `ref`, `sources`.
 - `ref` (date clé → événement, personnage → personne) et `personne` (dirigeant → personne) relient la ligne à une **fiche liée** : elle deviendra cliquable.
 - `dynastie` doit exister dans `dynasties` de la même fiche.
@@ -70,10 +91,21 @@ Le site ne lit jamais ces fichiers directement : `scripts/build-content.mjs` les
 Une fiche liée est **partagée** : Jules César a une seule fiche, citée par Rome, les Celtes, l'Égypte…
 ```jsonc
 // content/people/jules-cesar.json
-{ "id": "jules-cesar", "nom": "Jules César", "role": "Général et homme d'État", "dates": "-100 à -44",
-  "naissance": -100, "mort": -44, "description": "…", "wikiUrl": "https://…", "sources": ["https://…"] }
-// content/events/<id>.json      : { id, nom, annee (obligatoire), fin?, lieu?, description, wikiUrl?, sources? }
-// content/discoveries/<id>.json : { id, nom, annee?, domaine?, description, wikiUrl?, sources? }
+{ "id": "jules-cesar", "nom": "Jules César", "nomComplet": "Caius Julius Caesar",
+  "role": "Général et homme d'État", "roles": ["Général", "Homme politique", "Écrivain"],
+  "dates": "−100 → −44", "naissance": -100, "mort": -44,
+  "description": "En une phrase : qui est-ce ?",
+  "reperes": [{ "label": "Naissance", "valeur": "12 ou 13 juillet −100", "precision": "Rome" }],
+  "essentiel": ["Pourquoi il compte : 3 points"],
+  "chronologie": [{ "annee": -49, "texte": "Passage du Rubicon", "detail": "…", "ref": "rubicon" }],
+  "liens": [{ "ref": "pompee", "relation": "Allié, puis rival" }],
+  "aSavoir": ["…"], "wikiUrl": "https://…", "sources": ["https://…"] }
+// content/events/<id>.json : { id, nom, annee (obligatoire), fin?, dates?, lieu?, description,
+//    sections: [{ titre: "Contexte" | "Déroulement" | "Conséquences", texte }], liens (acteurs), avant?, apres?, … }
+// content/discoveries/<id>.json : { id, nom, annee?, domaine?, description,
+//    sections: [{ titre: "Comment ça marche", texte }], heritage: [{ titre, texte }], avant?, apres?, … }
+// Champs communs : nomComplet, dates, roles, reperes, essentiel, sections, chronologie, liens, avant, apres,
+//                  heritage, aSavoir, wikiUrl, sources. Page : #/fiche/<id> ; aperçu : depuis tout lien [[id]].
 ```
 Les ids sont **uniques dans tout le site**, civilisations comprises (minuscules, chiffres, tirets).
 « Apparaît dans » (les fiches qui citent celle-ci) est calculé automatiquement.
@@ -159,7 +191,12 @@ Pour ajouter des questions rédigées à la main, compléter le tableau `quiz` d
 | Le rangement des barres en lignes | `src/components/timeline/layout.js` |
 | L'aperçu d'une civilisation (tiroir) | `src/components/timeline/CivPreview.jsx` |
 | Les échelles de temps (linéaire / log) | `src/lib/time.js` (`createEpochScale`) |
-| La fiche d'une civilisation | `src/pages/CivilizationPage.jsx` |
+| La fiche d'une civilisation (6 onglets) | `src/pages/CivilizationPage.jsx` + `src/components/fiche/` |
+| Les fiches liées (personne, événement, découverte) | `src/pages/EntityPage.jsx` + `src/lib/entities.js` |
+| L'aperçu d'une fiche (feuille du bas) | `src/components/RefSheet.jsx` + `useUI().openSheet(...)` |
+| La recherche globale | `src/pages/SearchPage.jsx` + `src/lib/search.js` (index : `src/data/search.json`, généré) |
+| L'onglet Guerres | `src/pages/WarsPage.jsx` (liste : `src/data/wars.json`, générée) |
+| La présentation au premier lancement | `src/components/Onboarding.jsx` |
 | Accès aux données (index léger, détail à la demande) | `src/lib/data.js` (`loadCiv`, `useCiv`) |
 | Compilation et validation du contenu | `scripts/build-content.mjs`, `scripts/validate-content.mjs`, `scripts/lib/` |
 | Liens `[[id]]` dans les textes | `src/lib/links.js` + `src/components/ui/RichText.jsx` |
@@ -172,7 +209,6 @@ Pour ajouter des questions rédigées à la main, compléter le tableau `quiz` d
 | Cartes de révision (paquet, types de cartes) | `src/components/revision/` + `src/lib/revision.js` |
 | Chapitres rédigés à la main (cartes + questions) | `src/data/revision/` |
 | Quiz : génération des questions, règles | `src/lib/quiz.js` + `src/pages/QuizPage.jsx` + `src/components/quiz/` |
-| Le mot de bienvenue | `src/config/welcome.js` (`enabled: false` pour le couper) |
 | Les couleurs, le mode sombre | `src/index.css` (variables `--c-…`) |
 | Les icônes | `src/components/ui/Icon.jsx` |
 

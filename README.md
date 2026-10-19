@@ -8,12 +8,15 @@ Inspiré du célèbre *Histomap* de John B. Sparks (1931).
 
 | URL | Section | État |
 |---|---|---|
-| `#/` | Accueil : les trois portes d'entrée | ✅ |
+| `#/` | Accueil : « Continuer », recherche, portes d'entrée, progression | ✅ |
 | `#/frise` | Frise des 5 époques | ✅ |
 | `#/frise/:epoque` | Une époque : continents et civilisations | ✅ |
-| `#/frise/:epoque/:civilisation` | Fiche détaillée | ✅ |
+| `#/frise/:epoque/:civilisation` | Fiche détaillée (6 onglets : `?onglet=histoire`, `dirigeants`…) | ✅ |
 | `#/carte` | Carte du monde : 54 cartes de -123 000 à 2010, conflits, fiches | ✅ |
-| `#/reviser` | « On avance » : hub temporel → civilisation → cartes de révision → quiz de 20 questions | ✅ |
+| `#/guerres` | Guerres, par époque, camp contre camp | ✅ |
+| `#/recherche` | Recherche globale (civilisations, personnes, événements, guerres, découvertes) | ✅ |
+| `#/fiche/:id` | Fiche liée : personne, événement, découverte | ✅ |
+| `#/reviser` | Réviser : époque → civilisation → cartes de révision → quiz de 20 questions | ✅ |
 
 ## Structure
 
@@ -39,7 +42,6 @@ histomap/
 │   │   ├── components/          ← composants partagés (ui/ = briques de base)
 │   │   ├── lib/                 ← accès aux données, temps, stockage, vibrations
 │   │   ├── store/               ← état global (thème, interface, progression)
-│   │   ├── config/welcome.js    ← mot de bienvenue
 │   │   └── data/                ← GÉNÉRÉ depuis content/ (sauf revision/<id>.js : chapitres rédigés)
 │   └── GUIDE_EDITION.md         ← comment ajouter du contenu
 └── .github/workflows/deploy.yml ← déploiement GitHub Pages à chaque push sur main

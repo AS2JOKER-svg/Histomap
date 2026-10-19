@@ -3,6 +3,8 @@ import { motion } from 'framer-motion'
 import { getEpochs, countCivilizations, findCivilization } from '../lib/data'
 import { formatYear } from '../lib/time'
 import { PASS_MARK } from '../lib/quiz'
+import { chapterSize } from '../lib/revision'
+import { shade, solidBg } from '../lib/color'
 import useDocumentTitle from '../lib/useDocumentTitle'
 import PageHeader from '../components/ui/PageHeader'
 import Icon from '../components/ui/Icon'
@@ -15,9 +17,12 @@ const STEPS = [
   { icon: 'check', title: 'Un quiz', text: '20 questions, validé dès 15/20' },
 ]
 
-/** Hub temporel « On avance » : choisir une époque à réviser. */
+/**
+ * Réviser (maquette 10) : chapitre conseillé (action principale), séances en
+ * cours, quiz à retravailler, puis le choix d'une époque.
+ */
 export default function RevisePage() {
-  useDocumentTitle('On avance')
+  useDocumentTitle('Réviser')
   const epochs = getEpochs()
   const chapters = useProgress((s) => s.chapters)
   const quizzes = useProgress((s) => s.quizzes)
@@ -28,13 +33,63 @@ export default function RevisePage() {
     .map(([id, ch]) => ({ ref: findCivilization(id), ch }))
     .filter((x) => x.ref)
 
+  // Chapitre conseillé : le premier jamais commencé, dans l'ordre de la frise
+  const suggestion = epochs
+    .flatMap((epoch) => epoch.continents.flatMap((continent) => continent.civilizations.map((civ) => ({ epoch, continent, civ }))))
+    .find(({ civ }) => !chapters[civ.id] && !quizzes[civ.id])
+  const suggestionSize = suggestion && chapterSize(suggestion)
+
+  // Quiz sous la barre des 15/20 : les questions ratées reviendront au prochain essai
+  const toRework = Object.entries(quizzes)
+    .filter(([, q]) => q.attempts > 0 && (q.best ?? 0) < PASS_MARK && !q.current)
+    .map(([id, q]) => ({ ref: findCivilization(id), q }))
+    .filter((x) => x.ref)
+    .sort((a, b) => (b.q.lastAt ?? 0) - (a.q.lastAt ?? 0))
+
   return (
     <>
       <PageHeader
-        eyebrow="On avance · réviser"
+        eyebrow="Réviser"
         title="Révisez une époque, pas à pas"
-        description="Choisissez une période puis une civilisation : des cartes courtes à faire glisser, illustrées de cartes, de dates et de schémas, puis un quiz de 20 questions. Sous 15/20, reprenez le chapitre : de nouvelles cartes et de nouvelles questions vous attendent."
+        description="Des cartes courtes à faire glisser, puis un quiz de 20 questions. Sous 15/20, reprenez le chapitre : de nouvelles cartes et de nouvelles questions vous attendent."
       />
+
+      {suggestion && inProgress.length === 0 && (
+        <Link
+          to={`/reviser/${suggestion.epoch.id}/${suggestion.civ.id}`}
+          className="group block rounded-4xl p-5 sm:p-6 mb-8 text-white shadow-lift hoverable"
+          style={{ background: `linear-gradient(140deg, ${solidBg(suggestion.civ.color)}, ${shade(solidBg(suggestion.civ.color), -22)})` }}
+        >
+          <span className="text-[11px] font-bold uppercase tracking-[.14em] opacity-85">Chapitre conseillé · {suggestion.epoch.label}</span>
+          <span className="block font-display text-3xl font-semibold leading-tight mt-1">{suggestion.civ.label}</span>
+          <span className="block text-sm opacity-90 mt-0.5">
+            {suggestionSize ? `${suggestionSize.tier1} cartes, puis le quiz` : 'Des cartes, puis le quiz'}
+          </span>
+          <span className="mt-5 flex items-center justify-center gap-2 h-12 rounded-xl bg-white font-semibold" style={{ color: shade(solidBg(suggestion.civ.color), -35) }}>
+            Commencer <Icon name="arrowRight" size={18} />
+          </span>
+        </Link>
+      )}
+
+      {toRework.length > 0 && (
+        <section className="mb-8" aria-labelledby="rework-title">
+          <h2 id="rework-title" className="eyebrow mb-3">À retravailler</h2>
+          <div className="grid gap-3 sm:grid-cols-2">
+            {toRework.map(({ ref, q }) => (
+              <Link key={ref.civ.id} to={`/reviser/${ref.epoch.id}/${ref.civ.id}`} className="card hoverable p-4 flex items-center gap-4">
+                <span className="badge badge-guerre !text-[13px] tabular-nums">{q.best}/20</span>
+                <span className="min-w-0 flex-1">
+                  <span className="block font-semibold text-ink truncate">{ref.civ.label}</span>
+                  <span className="block text-xs text-muted">
+                    {q.failed?.length ? `${Math.min(q.failed.length, 5)} questions ratées reviendront au prochain quiz` : 'Reprenez le chapitre, puis le quiz'}
+                  </span>
+                </span>
+                <Icon name="arrowRight" className="text-muted" />
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
 
       {inProgress.length > 0 && (
         <section className="mb-8" aria-labelledby="continue-title">

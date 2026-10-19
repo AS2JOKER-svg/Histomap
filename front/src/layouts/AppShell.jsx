@@ -1,20 +1,21 @@
 import { useEffect } from 'react'
 import { Link, NavLink, useLocation, useOutlet } from 'react-router-dom'
 import { motion } from 'framer-motion'
-import { welcome } from '../config/welcome'
 import { useUI } from '../store/ui'
 import { haptic } from '../lib/haptics'
 import Icon from '../components/ui/Icon'
 import ThemeToggle from '../components/ui/ThemeToggle'
-import WelcomeModal from '../components/WelcomeModal'
+import Onboarding from '../components/Onboarding'
+import RefSheet from '../components/RefSheet'
 import Toaster from '../components/Toaster'
 import AppBanner from '../components/app/AppBanner'
 
 export const NAV = [
-  { to: '/',        label: 'Accueil',   icon: 'home',     end: true },
-  { to: '/frise',   label: 'Frise',     icon: 'timeline' },
-  { to: '/carte',   label: 'Carte',     icon: 'globe' },
-  { to: '/reviser', label: 'On avance', icon: 'cards' },
+  { to: '/',        label: 'Accueil', icon: 'home',     end: true },
+  { to: '/frise',   label: 'Frise',   icon: 'timeline' },
+  { to: '/carte',   label: 'Carte',   icon: 'globe' },
+  { to: '/guerres', label: 'Guerres', icon: 'swords' },
+  { to: '/reviser', label: 'Réviser', icon: 'cards' },
 ]
 
 /**
@@ -26,9 +27,9 @@ export const NAV = [
 export default function AppShell() {
   const { pathname } = useLocation()
   const outlet = useOutlet()
-  const welcomeOpen = useUI((s) => s.welcomeOpen)
-  const openWelcome = useUI((s) => s.openWelcome)
-  const closeWelcome = useUI((s) => s.closeWelcome)
+  const onboardingOpen = useUI((s) => s.onboardingOpen)
+  const openOnboarding = useUI((s) => s.openOnboarding)
+  const closeOnboarding = useUI((s) => s.closeOnboarding)
 
   useEffect(() => {
     window.scrollTo({ top: 0 })
@@ -80,11 +81,12 @@ export default function AppShell() {
           </nav>
 
           <div className="ml-auto md:ml-0 flex items-center gap-1">
-            {welcome.enabled && (
-              <button onClick={openWelcome} className="btn-icon" aria-label="Mot de bienvenue" title="Mot de bienvenue">
-                <Icon name="info" />
-              </button>
-            )}
+            <Link to="/recherche" className="btn-icon" aria-label="Rechercher" title="Rechercher">
+              <Icon name="search" />
+            </Link>
+            <button onClick={openOnboarding} className="btn-icon" aria-label="Présentation de HistoMap" title="Présentation">
+              <Icon name="info" />
+            </button>
             <ThemeToggle />
           </div>
         </div>
@@ -108,7 +110,8 @@ export default function AppShell() {
       </footer>
 
       <MobileTabBar />
-      <WelcomeModal open={welcomeOpen} onClose={closeWelcome} />
+      <RefSheet />
+      <Onboarding open={onboardingOpen} onClose={closeOnboarding} />
       <Toaster />
     </div>
   )
@@ -120,7 +123,7 @@ function MobileTabBar() {
       aria-label="Navigation principale"
       className="md:hidden fixed bottom-0 inset-x-0 z-30 glass border-t border-line/70 pb-safe"
     >
-      <ul className="grid grid-cols-4 h-[4.25rem] px-2">
+      <ul className="grid grid-cols-5 h-[4.25rem] px-1">
         {NAV.map((item) => (
           <li key={item.to}>
             <NavLink
@@ -131,7 +134,7 @@ function MobileTabBar() {
             >
               {({ isActive }) => (
                 <>
-                  <span className={`relative grid place-items-center w-14 h-8 rounded-full transition-colors ${isActive ? 'text-accent' : 'text-muted'}`}>
+                  <span className={`relative grid place-items-center w-12 h-8 rounded-full transition-colors ${isActive ? 'text-accent' : 'text-muted'}`}>
                     {isActive && (
                       <motion.span
                         layoutId="nav-mobile"

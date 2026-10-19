@@ -32,7 +32,7 @@ export default function ReviseEpochPage() {
 
   return (
     <section>
-      <Breadcrumbs items={[{ label: 'On avance', to: '/reviser' }, { label: epoch.label }]} />
+      <Breadcrumbs items={[{ label: 'Réviser', to: '/reviser' }, { label: epoch.label }]} />
       <PageHeader
         eyebrow={`${formatYear(epoch.start)} → ${formatYear(epoch.end)}`}
         color={epoch.color}

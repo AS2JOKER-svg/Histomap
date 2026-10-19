@@ -30,7 +30,8 @@ Tout le code est dans `front/`. Commandes (depuis `front/`, ou depuis la racine 
 - `front/src/data/revision/<id>.js` : **un chapitre de révision par civilisation** (cartes + quiz + bilan). `index.js` et `revision-meta.json` sont **générés** par `scripts/build-revision-index.mjs`.
 - `front/src/lib/` : `data.js` (index léger : getEpochs, getCivilization… ; détail : `loadCiv(id)` / `useCiv(id)`), `links.js` (syntaxe des liens `[[id|texte]]`), `revision.js`, `chapters.js`, `quiz.js`, `map.js`, `color.js`, `storage.js`, `haptics.js`, `pwa.js`.
 - `front/src/store/` : `progress.js` (progression, clé `histomap_progress`, version 1), `ui.js`, `app.js`.
-- `front/src/pages/` : une page par écran. `front/src/components/` : composants (ui/ = briques de base, dont `RichText` pour les textes à liens).
+- `front/src/pages/` : une page par écran. `front/src/components/` : composants (ui/ = briques de base, dont `RichText` pour les textes à liens ; fiche/ = briques communes des fiches ; `RefSheet` = aperçu d'une fiche ouvert de partout via `useUI().openSheet`).
+- Routes : `/` accueil, `/frise…`, `/frise/:epoque/:civ?onglet=…` (fiche à 6 onglets), `/fiche/:id` (fiche liée), `/carte`, `/guerres`, `/recherche`, `/reviser…`.
 - `front/GUIDE_EDITION.md` : **formats détaillés du contenu** (à lire avant d'écrire une fiche ou un chapitre).
 
 ## Formats de contenu (résumé — détail dans GUIDE_EDITION.md)
@@ -57,7 +58,7 @@ Tout le code est dans `front/`. Commandes (depuis `front/`, ou depuis la racine 
 - ✅ Sprints 0 à 8 : app complète (frise, carte, révisions, quiz, PWA).
 - ✅ Sprint 9 : fondations des données (content/ en JSON, index léger + détail à la demande, fiches liées et liens `[[id]]`, dirigeants structurés, régions, rapport de couverture, validateurs).
 - ✅ Sprint 10A : maquettes validées le 19/10/2026 (`front/maquettes/index.html`, tableau des décisions). Décisions : barre du bas à **5 onglets** (Accueil, Frise, Carte, Guerres, Réviser — Frise et Carte restent séparées) ; « On avance » devient « Réviser » ; fiche civilisation à **6 onglets** (Résumé, Histoire, Dirigeants, Société, Guerres, Carte) + bouton fixe « Réviser » ; **9 repères** (capitale, régimes, langues, religion, apogée, population, monnaie, durée, aujourd'hui) ; **pas d'images** (initiales + liens Wikipédia) ; action principale des fiches liées : « Voir sur la frise ».
-- Sprint 10B : implémentation des maquettes validées.
+- ✅ Sprint 10B : implémentation (5 onglets, présentation en 3 écrans, accueil « Continuer », fiche à 6 onglets, fiches liées + aperçu, recherche, Guerres, Réviser). Les fiches s'adaptent au contenu présent : elles s'enrichissent dès que les champs de la structure « béton » sont remplis (sprints 11-12).
 - Sprint 11 : pilote « fiches en béton » sur 5 civilisations (structure complète, dirigeants complets, fiches liées nombreuses) → valider qualité et coût.
 - Sprint 12 : mise à niveau des 100 autres fiches par lots de 5, relecture factuelle séparée. Corrections connues : 8 fiches aux dates coupées aux bornes d'époque (maya 476→1492 au lieu de 250→900, byzance, kongo, mali, mexique, nazca, teotihuacan, tiwanaku : la frise gère déjà le débordement ‹ ›) + règle du validateur « période affichée = dates » ; `isRiver` faux sur 29 fiches ; personnages qui ne sont pas des personnes ; « Isabelle & Ferdinand » en un seul dirigeant ; formulations non neutres (Aurangzeb).
 - Sprint 13 : quiz express (3 questions) sur les fiches liées.

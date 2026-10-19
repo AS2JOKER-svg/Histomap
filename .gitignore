@@ -25,6 +25,8 @@ front/src/data/entities/
 front/src/data/territories.json
 front/src/data/conflicts.json
 front/src/data/quiz-context.json
+front/src/data/search.json
+front/src/data/wars.json
 front/src/data/map-presence.json
 front/src/data/revision-meta.json
 front/src/data/revision/index.js

@@ -15,6 +15,7 @@
  */
 import { useEffect, useState } from 'react'
 import INDEX from '../data/index.json'
+import MAP_YEARS from '../data/map-years.json'
 
 const epochs = INDEX.epochs
 
@@ -41,6 +42,9 @@ export function countCivilizations(epoch) {
   return epoch.continents.reduce((n, c) => n + c.civilizations.length, 0)
 }
 
+/** Nom d'une région actuelle normalisée (content/regions.json), ex. « italie » → « Italie ». */
+export const regionLabel = (id) => INDEX.regions?.[id] ?? null
+
 /** Chiffres globaux affichés sur l'accueil (calculés au build). */
 export function getStats() {
   return INDEX.stats
@@ -54,6 +58,16 @@ export function findCivilization(civId) {
       if (civ) return { epoch, continent, civ }
     }
   return null
+}
+
+/** Époque contenant cette année (la première ou la dernière si hors bornes). */
+export function epochOfYear(year) {
+  return epochs.find((e) => year >= e.start && year < e.end) ?? (year < epochs[0].start ? epochs[0] : epochs[epochs.length - 1])
+}
+
+/** Carte historique la plus proche d'une année quelconque. */
+export function nearestMapYear(year) {
+  return MAP_YEARS.reduce((best, y) => (Math.abs(y - year) < Math.abs(best - year) ? y : best))
 }
 
 // ── Détail des fiches, chargé à la demande ───────────────────────────────────

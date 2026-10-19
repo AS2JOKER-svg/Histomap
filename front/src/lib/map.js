@@ -12,7 +12,7 @@ import { feature } from 'topojson-client'
 import MAP_YEARS from '../data/map-years.json'
 import TERRITORIES from '../data/territories.json'
 import CONFLICTS from '../data/conflicts.json'
-import { findCivilization, getEpochs } from './data'
+import { epochOfYear, findCivilization, getEpochs, nearestMapYear } from './data'
 
 export { MAP_YEARS }
 
@@ -131,12 +131,5 @@ export function conflictsAt(year) {
   })
 }
 
-export function epochOfYear(year) {
-  const epochs = getEpochs()
-  return epochs.find((e) => year >= e.start && year < e.end) ?? (year < epochs[0].start ? epochs[0] : epochs[epochs.length - 1])
-}
-
-/** Carte la plus proche d'une année quelconque. */
-export function nearestMapYear(year) {
-  return MAP_YEARS.reduce((best, y) => (Math.abs(y - year) < Math.abs(best - year) ? y : best))
-}
+// (définis dans lib/data : utilisables sans charger d3 ; ré-exportés ici pour la carte)
+export { epochOfYear, nearestMapYear }

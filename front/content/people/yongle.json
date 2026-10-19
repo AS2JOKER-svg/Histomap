@@ -1,0 +1,19 @@
+{
+  "id": "yongle",
+  "nom": "Yongle",
+  "nomComplet": "Zhu Di, empereur Yongle des Ming",
+  "role": "Empereur Ming",
+  "roles": ["Empereur", "Bâtisseur"],
+  "dates": "1360 → 1424",
+  "naissance": 1360,
+  "mort": 1424,
+  "description": "Fils du fondateur des Ming, il prend le trône par la force, installe la capitale à Pékin, fait bâtir la Cité interdite et lance les expéditions maritimes de Zheng He.",
+  "reperes": [{ "label": "Règne", "valeur": "1402 → 1424" }],
+  "essentiel": [
+    "Il renverse son neveu au cours d’une guerre civile.",
+    "Il fait construire la [[cite-interdite|Cité interdite]] et installe la capitale à Pékin.",
+    "Il envoie [[zheng-he|Zheng He]] explorer l’océan Indien.",
+    "Il fait rédiger une immense encyclopédie de plus de 11 000 volumes."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Yongle"
+}

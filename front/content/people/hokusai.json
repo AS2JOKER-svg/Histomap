@@ -1,0 +1,17 @@
+{
+  "id": "hokusai",
+  "nom": "Hokusai",
+  "nomComplet": "Katsushika Hokusai",
+  "role": "Peintre et graveur",
+  "roles": ["Peintre", "Graveur"],
+  "dates": "1760 → 1849",
+  "naissance": 1760,
+  "mort": 1849,
+  "description": "Artiste japonais d’une grande inventivité, auteur de milliers d’œuvres, dont la série des Trente-six vues du mont Fuji, avec la célèbre Grande Vague.",
+  "essentiel": [
+    "Il change plus de trente fois de nom d’artiste au cours de sa vie.",
+    "Sa [[grande-vague-de-kanagawa|Grande Vague de Kanagawa]] est l’une des images les plus connues au monde.",
+    "Ses carnets de dessins, les Manga, fixent toutes sortes de scènes et de personnages."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Hokusai"
+}

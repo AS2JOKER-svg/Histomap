@@ -1,0 +1,17 @@
+{
+  "id": "yi-sun-sin",
+  "nom": "Yi Sun-sin",
+  "role": "Amiral coréen",
+  "roles": ["Amiral"],
+  "dates": "1545 → 1598",
+  "naissance": 1545,
+  "mort": 1598,
+  "description": "Amiral de la flotte coréenne pendant la guerre d’Imjin, il remporte une série de victoires navales contre le Japon et meurt lors de la dernière bataille de la guerre.",
+  "essentiel": [
+    "Il fait construire ou perfectionner les [[bateau-tortue|bateaux-tortues]].",
+    "Disgracié à la suite d’intrigues, il est rappelé en 1597.",
+    "À [[bataille-de-myeongnyang|Myeongnyang]], avec 13 navires, il repousse une flotte bien plus nombreuse.",
+    "Il est tué par une balle à la bataille de Noryang (1598), en demandant de cacher sa mort à ses hommes."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Yi_Sun-sin"
+}

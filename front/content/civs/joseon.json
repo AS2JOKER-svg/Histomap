@@ -10,43 +10,142 @@
   "row": 6,
   "isRiver": false,
   "capitale": "Hanseong (Séoul)",
-  "description": "Le 'Royaume Ermite' : 500 ans de paix confucéenne, d'inventions brillantes (le Hangeul) et de survie héroïque face aux invasions japonaises et mandchoues.",
+  "description": "La dernière dynastie royale de Corée, qui gouverne pendant cinq siècles selon les principes du néoconfucianisme, invente l’alphabet hangeul et résiste aux invasions japonaises et mandchoues.",
   "territories": ["Korea"],
   "datesCles": [
     {
+      "annee": 1392,
+      "evenement": "Fondation",
+      "info": "Yi Seong-gye renverse le dernier roi de Goryeo et fonde la dynastie Joseon."
+    },
+    {
       "annee": 1443,
-      "evenement": "Invention du Hangeul",
-      "info": "Le roi Sejong le Grand fait créer l'alphabet coréen en 1443 ; il est promulgué en 1446."
+      "evenement": "Invention du hangeul",
+      "info": "Le roi Sejong le Grand fait créer l’alphabet coréen en 1443 ; il est promulgué en 1446."
     },
     {
       "annee": 1592,
-      "evenement": "Invasions japonaises (Guerre d'Imjin)",
-      "info": "160 000 soldats de Toyotomi Hideyoshi débarquent pour envahir la Chine via la Corée."
+      "evenement": "Invasions japonaises (guerre d’Imjin)",
+      "info": "Plus de 150 000 soldats de Toyotomi Hideyoshi débarquent pour envahir la Chine via la Corée.",
+      "ref": "guerre-d-imjin"
     },
     {
-      "annee": 1636,
-      "evenement": "Invasion Qing",
-      "info": "Les Mandchous écrasent le roi coréen et forcent le pays à se soumettre à la nouvelle dynastie chinoise."
+      "annee": 1597,
+      "evenement": "Bataille de Myeongnyang",
+      "info": "Avec 13 navires, l’amiral Yi Sun-sin repousse une flotte japonaise dix fois plus nombreuse.",
+      "ref": "bataille-de-myeongnyang"
+    },
+    {
+      "annee": 1637,
+      "evenement": "Soumission aux Qing",
+      "info": "Après l’invasion mandchoue, le roi Injo doit se prosterner devant l’empereur Qing."
+    },
+    {
+      "annee": 1796,
+      "evenement": "Forteresse de Hwaseong",
+      "info": "Le roi Jeongjo fait bâtir à Suwon une forteresse moderne."
+    },
+    {
+      "annee": 1897,
+      "evenement": "Empire coréen",
+      "info": "Le roi Gojong se proclame empereur pour affirmer l’indépendance de la Corée."
     }
   ],
   "dirigeants": [
-    { "titre": "Roi", "nom": "Sejong", "surnom": "Le Grand", "debut": 1418, "fin": 1450 },
-    { "titre": "Roi", "nom": "Seonjo", "debut": 1567, "fin": 1608 }
+    {
+      "nom": "Taejo (Yi Seong-gye)",
+      "titre": "Roi",
+      "debut": 1392,
+      "fin": 1398,
+      "dynastie": "yi",
+      "note": "fondateur",
+      "cle": true
+    },
+    { "nom": "Taejong", "titre": "Roi", "debut": 1400, "fin": 1418, "dynastie": "yi" },
+    {
+      "nom": "Sejong",
+      "titre": "Roi",
+      "surnom": "le Grand",
+      "debut": 1418,
+      "fin": 1450,
+      "dynastie": "yi",
+      "personne": "sejong",
+      "note": "crée le hangeul",
+      "cle": true
+    },
+    { "nom": "Sejo", "titre": "Roi", "debut": 1455, "fin": 1468, "dynastie": "yi", "note": "usurpe le trône de son neveu" },
+    { "nom": "Seongjong", "titre": "Roi", "debut": 1469, "fin": 1494, "dynastie": "yi" },
+    { "nom": "Yeonsangun", "titre": "Roi", "debut": 1494, "fin": 1506, "dynastie": "yi", "note": "tyran déposé" },
+    {
+      "nom": "Seonjo",
+      "titre": "Roi",
+      "debut": 1567,
+      "fin": 1608,
+      "dynastie": "yi",
+      "note": "règne pendant la guerre d’Imjin",
+      "cle": true
+    },
+    { "nom": "Gwanghaegun", "titre": "Roi", "debut": 1608, "fin": 1623, "dynastie": "yi", "note": "déposé" },
+    { "nom": "Injo", "titre": "Roi", "debut": 1623, "fin": 1649, "dynastie": "yi", "note": "se soumet aux Qing" },
+    { "nom": "Sukjong", "titre": "Roi", "debut": 1674, "fin": 1720, "dynastie": "yi" },
+    {
+      "nom": "Yeongjo",
+      "titre": "Roi",
+      "debut": 1724,
+      "fin": 1776,
+      "dynastie": "yi",
+      "note": "règne de 52 ans, réformateur",
+      "cle": true
+    },
+    {
+      "nom": "Jeongjo",
+      "titre": "Roi",
+      "debut": 1776,
+      "fin": 1800,
+      "dynastie": "yi",
+      "note": "roi lettré et réformateur",
+      "cle": true
+    },
+    { "nom": "Cheoljong", "titre": "Roi", "debut": 1849, "fin": 1863, "dynastie": "yi" },
+    {
+      "nom": "Gojong",
+      "titre": "Roi, puis empereur",
+      "debut": 1863,
+      "fin": 1907,
+      "dynastie": "yi",
+      "note": "proclame l’Empire coréen en 1897",
+      "cle": true
+    }
   ],
   "personnages": [
     {
       "nom": "Amiral Yi Sun-sin",
-      "role": "Héros militaire",
-      "description": "Le 'Nelson asiatique'. Un génie naval invaincu qui, à la tête de la flotte coréenne et avec ses navires-tortues, joua un rôle décisif contre la flotte japonaise lors de la guerre d'Imjin.",
-      "dates": "1545 à 1598",
-      "wikiUrl": "https://fr.wikipedia.org/wiki/Yi_Sun-sin"
+      "role": "Amiral",
+      "description": "Le plus grand héros militaire coréen : à la tête de la flotte, il remporte une série de victoires décisives contre les Japonais.",
+      "dates": "1545 → 1598",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Yi_Sun-sin",
+      "ref": "yi-sun-sin"
+    },
+    {
+      "nom": "Jang Yeong-sil",
+      "role": "Inventeur",
+      "description": "Né dans une famille de condition modeste, il fabrique pour Sejong des horloges à eau, des instruments astronomiques et un pluviomètre.",
+      "dates": "vers 1390 → après 1442",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Jang_Yeong-sil"
+    },
+    {
+      "nom": "Shin Saimdang",
+      "role": "Peintre et poétesse",
+      "description": "Artiste réputée, mère du philosophe Yi I ; son portrait figure sur le billet de 50 000 wons.",
+      "dates": "1504 → 1551",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Shin_Saimdang"
     }
   ],
   "guerres": [
     {
       "nom": "Bataille de Myeongnyang (Guerre d'Imjin)",
       "annee": 1597,
-      "adversaires": ["Empire du Japon"],
+      "adversaires": ["Japon (Toyotomi Hideyoshi)"],
       "allies": [],
       "morts": "Une trentaine de navires japonais coulés ou endommagés",
       "vainqueur": "Joseon (Amiral Yi)",
@@ -54,8 +153,80 @@
       "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Myong-Yang"
     }
   ],
-  "sciences": "Le roi Sejong invente le 'Hangeul', un alphabet phonétique où la forme de la lettre montre littéralement la position de la langue dans la bouche, conçu pour que même le paysan le plus humble puisse apprendre à lire en quelques jours. Militairement, Yi Sun-sin fait construire le Geobukseon (navire-tortue), parfois présenté comme le premier cuirassé de l'histoire (un point débattu), mû à la rame et à la voile, couvert de piques en fer pour empêcher l'abordage et doté de canons et d'une tête de dragon qui pouvait cracher de la fumée.",
-  "croyancesText": "Le Bouddhisme est chassé du pouvoir : Joseon devient le pays le plus rigoriste du monde selon les préceptes du Néo-confucianisme de Zhu Xi. Le culte des ancêtres devient obligatoire, la société est cloisonnée et les moines bouddhistes sont bannis des villes et forcés de s'exiler dans les montagnes.",
-  "diplomatie": "Prise en tenaille entre la Chine et le Japon, la politique étrangère coréenne s'appelle le 'Sadae' (servir le grand). Joseon se déclare volontairement et respectueusement l'État vassal et le 'petit frère' de l'Empire Chinois (Ming puis Qing), garantissant ainsi un parapluie militaire et l'accès exclusif aux marchés commerciaux de Pékin tout en verrouillant ses propres côtes aux barbares occidentaux.",
-  "documentaires": [{ "titre": "Amiral Yi, le sauveur de la Corée", "url": "https://fr.wikipedia.org/wiki/Yi_Sun-sin" }]
+  "sciences": "Le roi Sejong fait créer le hangeul, un alphabet où la forme des consonnes rappelle la position de la bouche et de la langue, conçu pour que chacun puisse apprendre à lire facilement. Ses savants fabriquent des horloges à eau, des cadrans solaires et un pluviomètre (1441). Pendant la guerre d’Imjin, l’amiral Yi Sun-sin utilise des bateaux-tortues, couverts d’un toit hérissé de pointes, parfois présentés comme les premiers navires cuirassés (un point débattu).",
+  "croyancesText": "Le bouddhisme est écarté du pouvoir : Joseon adopte le néoconfucianisme de Zhu Xi comme doctrine officielle. Le culte des ancêtres, les rites familiaux et la piété filiale structurent la société ; de nombreux monastères bouddhistes doivent se replier dans les montagnes. Le chamanisme reste très présent dans la vie populaire.",
+  "diplomatie": "Pris entre la Chine et le Japon, Joseon pratique le « sadae » (« servir le grand ») : il se reconnaît vassal de la Chine des Ming, puis des Qing, ce qui lui assure protection et commerce. Il limite fortement les contacts avec les Occidentaux, ce qui lui vaut au XIXe siècle le surnom de « royaume ermite ».",
+  "documentaires": [],
+  "reperes": {
+    "capitale": { "valeur": "Hanseong (Séoul)" },
+    "regimes": { "valeur": "Monarchie", "precision": "un roi et des fonctionnaires lettrés (yangban) recrutés par concours" },
+    "langues": { "valeur": "Coréen", "precision": "écrit en caractères chinois et, à partir de 1446, en hangeul" },
+    "religion": { "valeur": "Néoconfucianisme", "precision": "le bouddhisme est écarté du pouvoir ; chamanisme populaire" },
+    "apogee": { "valeur": "XVe siècle et XVIIIe siècle", "precision": "sous Sejong, puis sous Yeongjo et Jeongjo" },
+    "population": { "valeur": "Environ 7 à 15 millions", "precision": "selon les époques" },
+    "monnaie": { "valeur": "Sangpyeong tongbo", "precision": "pièce de cuivre généralisée au XVIIe siècle" },
+    "duree": { "valeur": "Plus de 500 ans" },
+    "aujourdhui": { "valeur": "Corée du Nord et Corée du Sud" }
+  },
+  "essentiel": [
+    "En 1392, le général Yi Seong-gye renverse Goryeo et fonde la dynastie Joseon, avec Séoul pour capitale.",
+    "Le roi [[sejong|Sejong le Grand]] fait créer l’alphabet coréen, le [[hangeul|hangeul]], et encourage les sciences.",
+    "Le royaume s’organise selon le néoconfucianisme : examens, culte des ancêtres, hiérarchie stricte.",
+    "Pendant la [[guerre-d-imjin|guerre d’Imjin]], l’amiral [[yi-sun-sin|Yi Sun-sin]] et ses [[bateau-tortue|bateaux-tortues]] repoussent la flotte japonaise, notamment à [[bataille-de-myeongnyang|Myeongnyang]].",
+    "Vassal de la Chine, fermé aux Occidentaux (le « royaume ermite »), Joseon devient l’Empire coréen en 1897."
+  ],
+  "periodes": [
+    {
+      "nom": "La fondation et l’âge d’or",
+      "debut": 1392,
+      "fin": 1592,
+      "resume": "Les premiers rois organisent l’État confucéen ; Sejong crée le hangeul et fait fabriquer instruments scientifiques et imprimeries.",
+      "evenements": [{ "annee": 1443, "evenement": "Hangeul" }, { "annee": 1485, "evenement": "Code des lois du royaume" }]
+    },
+    {
+      "nom": "Les invasions",
+      "debut": 1592,
+      "fin": 1637,
+      "resume": "Le Japon envahit la Corée (1592-1598), puis les Mandchous (1627 et 1636). Le pays est ravagé.",
+      "evenements": [
+        { "annee": 1592, "evenement": "Guerre d’Imjin", "ref": "guerre-d-imjin" },
+        { "annee": 1597, "evenement": "Myeongnyang", "ref": "bataille-de-myeongnyang" },
+        { "annee": 1637, "evenement": "Soumission aux Qing" }
+      ]
+    },
+    {
+      "nom": "Renaissance et repli",
+      "debut": 1637,
+      "fin": 1897,
+      "resume": "Les rois Yeongjo et Jeongjo réforment le pays. Au XIXe siècle, le royaume se ferme aux Occidentaux, avant d’être forcé à s’ouvrir par le Japon (1876).",
+      "evenements": [
+        { "annee": 1796, "evenement": "Forteresse de Hwaseong" },
+        { "annee": 1876, "evenement": "Traité de Ganghwa avec le Japon" }
+      ]
+    }
+  ],
+  "dynasties": [{ "id": "yi", "nom": "Les rois Yi", "debut": 1392, "fin": 1907, "note": "Sélection parmi 27 souverains." }],
+  "societe": "Les yangban, aristocrates lettrés, dominent l’État et la société. Viennent ensuite les techniciens et fonctionnaires subalternes, les paysans, puis les « basses classes » et les esclaves (nobi), nombreux jusqu’au XVIIIe siècle.",
+  "economie": "Riziculture, ginseng, céramique (porcelaine blanche), papier, commerce avec la Chine et, plus limité, avec le Japon.",
+  "decouvertes": ["hangeul", "bateau-tortue"],
+  "arts": "Porcelaine blanche et « buncheong », peinture de paysages, palais de Gyeongbokgung, forteresse de Hwaseong, littérature en hangeul.",
+  "quotidien": "Les maisons coréennes sont chauffées par le sol (ondol). Les hommes yangban portent un chapeau de crin noir, le gat.",
+  "heritage": [
+    {
+      "titre": "Le hangeul",
+      "texte": "L’alphabet de Sejong est toujours celui des deux Corées ; le 9 octobre, jour du hangeul, est férié en Corée du Sud."
+    },
+    {
+      "titre": "Les palais de Séoul",
+      "texte": "Gyeongbokgung et Changdeokgung, palais des rois Joseon, attirent des millions de visiteurs."
+    }
+  ],
+  "aSavoir": ["De nombreuses séries télévisées coréennes historiques (sageuk) se déroulent à l’époque Joseon."],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Joseon",
+    {
+      "titre": "Encyclopædia Britannica — Chosŏn dynasty",
+      "url": "https://www.britannica.com/topic/Choson-dynasty"
+    }
+  ]
 }

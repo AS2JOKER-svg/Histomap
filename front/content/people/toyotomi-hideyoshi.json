@@ -1,0 +1,17 @@
+{
+  "id": "toyotomi-hideyoshi",
+  "nom": "Toyotomi Hideyoshi",
+  "role": "Unificateur du Japon",
+  "roles": ["Chef de guerre", "Régent"],
+  "dates": "1537 → 1598",
+  "naissance": 1537,
+  "mort": 1598,
+  "description": "Fils de paysan devenu le général d’Oda Nobunaga, il achève l’unification du Japon, puis lance l’invasion de la Corée, qui échoue.",
+  "essentiel": [
+    "Il prend la succession de Nobunaga après son assassinat en 1582.",
+    "Il fait recenser les terres et désarmer les paysans (« chasse aux sabres », 1588).",
+    "Il envahit la Corée en 1592 lors de la [[guerre-d-imjin|guerre d’Imjin]], pour attaquer la Chine.",
+    "Il meurt en 1598 ; ses troupes quittent la Corée."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Toyotomi_Hideyoshi"
+}

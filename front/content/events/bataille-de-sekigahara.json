@@ -1,0 +1,17 @@
+{
+  "id": "bataille-de-sekigahara",
+  "nom": "Bataille de Sekigahara",
+  "annee": 1600,
+  "dates": "21 octobre 1600",
+  "lieu": "Sekigahara (centre du Japon)",
+  "description": "L’armée de l’Est de [[tokugawa-ieyasu|Tokugawa Ieyasu]] bat l’armée de l’Ouest, fidèle aux héritiers de Hideyoshi, grâce à la trahison de plusieurs seigneurs pendant la bataille.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "Ieyasu devient le maître du Japon et se fait nommer shogun en 1603. Les seigneurs vaincus perdent leurs terres."
+    }
+  ],
+  "liens": [{ "ref": "tokugawa-ieyasu", "relation": "Le vainqueur" }],
+  "apres": "fermeture-du-japon",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Sekigahara"
+}

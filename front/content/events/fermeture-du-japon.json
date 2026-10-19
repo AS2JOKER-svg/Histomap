@@ -1,0 +1,21 @@
+{
+  "id": "fermeture-du-japon",
+  "nom": "Fermeture du Japon (sakoku)",
+  "annee": 1639,
+  "dates": "années 1630 → 1853",
+  "lieu": "Japon",
+  "description": "Le shogunat interdit aux Japonais de quitter le pays, chasse les Portugais et limite le commerce extérieur aux Hollandais et aux Chinois, à Nagasaki.",
+  "sections": [
+    {
+      "titre": "Pourquoi",
+      "texte": "Le shogun craint l’influence des missionnaires chrétiens et des puissances européennes, et veut contrôler le commerce."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Le Japon vit plus de deux siècles presque coupé de l’Occident, sans guerres extérieures, mais il reste informé par les Hollandais."
+    }
+  ],
+  "avant": "bataille-de-sekigahara",
+  "apres": "arrivee-du-commodore-perry",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Sakoku"
+}

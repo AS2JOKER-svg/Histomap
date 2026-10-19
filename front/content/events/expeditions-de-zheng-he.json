@@ -1,0 +1,22 @@
+{
+  "id": "expeditions-de-zheng-he",
+  "nom": "Expéditions de Zheng He",
+  "annee": 1405,
+  "fin": 1433,
+  "dates": "1405 → 1433",
+  "lieu": "Océan Indien",
+  "description": "Sept grandes expéditions maritimes, commandées par l’amiral [[zheng-he|Zheng He]], atteignent l’Asie du Sud-Est, l’Inde, le golfe Persique, l’Arabie et l’Afrique de l’Est.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Des dizaines de navires, dont de très grands « bateaux-trésors », emportent des milliers de soldats, de marins et de diplomates. Ils distribuent des cadeaux et rapportent des ambassadeurs et des animaux exotiques."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Après 1433, les Ming arrêtent ces expéditions, jugées trop coûteuses, et se concentrent sur la défense du nord."
+    }
+  ],
+  "liens": [{ "ref": "zheng-he", "relation": "L’amiral" }, { "ref": "yongle", "relation": "L’empereur qui les ordonne" }],
+  "aSavoir": ["La taille des plus grands navires, décrite par les textes chinois, est discutée par les historiens."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Expéditions_maritimes_de_Zheng_He"
+}

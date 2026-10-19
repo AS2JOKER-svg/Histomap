@@ -1,0 +1,18 @@
+{
+  "id": "bateau-tortue",
+  "nom": "Bateau-tortue (geobukseon)",
+  "annee": 1592,
+  "domaine": "Technique militaire",
+  "dates": "fin du XVIe siècle",
+  "description": "Un navire de guerre coréen à rames et à voile, couvert d’un toit hérissé de pointes de fer pour empêcher l’abordage, armé de canons et d’une tête de dragon à la proue.",
+  "sections": [
+    {
+      "titre": "Son rôle",
+      "texte": "Utilisés par [[yi-sun-sin|Yi Sun-sin]] pendant la guerre d’Imjin, ils percent les lignes ennemies et résistent aux tirs et aux tentatives d’abordage."
+    }
+  ],
+  "aSavoir": [
+    "On ne sait pas exactement si le toit était recouvert de plaques de fer : le titre de « premier cuirassé » est discuté."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bateau_tortue"
+}

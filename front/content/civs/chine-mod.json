@@ -10,58 +10,311 @@
   "row": 4,
   "isRiver": false,
   "capitale": "Pékin",
-  "description": "La reconstruction d'une muraille de pierre contre le monde extérieur sous les Ming, avant de devenir l'empire le plus vaste, riche et peuplé de la Terre sous les Qing.",
+  "description": "La Chine des Ming, qui chassent les Mongols, bâtissent la Cité interdite et la Grande Muraille actuelle, puis des Qing mandchous, sous lesquels l’empire atteint sa plus grande étendue et sa plus forte population.",
   "territories": ["Ming Empire", "Ming Chinese Empire", "Post-Ming Warlords", "Manchu Empire", "Qing Empire"],
   "datesCles": [
     {
+      "annee": 1368,
+      "evenement": "Fondation des Ming",
+      "info": "Les Mongols sont chassés ; Zhu Yuanzhang devient l’empereur Hongwu."
+    },
+    {
+      "annee": 1405,
+      "evenement": "Expéditions de Zheng He",
+      "info": "Une immense flotte part vers l’océan Indien ; sept expéditions atteignent jusqu’à l’Afrique de l’Est.",
+      "ref": "expeditions-de-zheng-he"
+    },
+    {
       "annee": 1420,
-      "evenement": "La Cité Interdite",
-      "info": "L'empereur Yongle achève le palais et déplace la capitale définitivement à Pékin."
+      "evenement": "La Cité interdite",
+      "info": "L’empereur Yongle achève le palais et installe la capitale à Pékin."
+    },
+    {
+      "annee": 1601,
+      "evenement": "Matteo Ricci à Pékin",
+      "info": "Le jésuite italien est autorisé à s’installer dans la capitale."
     },
     {
       "annee": 1644,
-      "evenement": "La Chute des Ming",
-      "info": "Une révolte paysanne prend Pékin. Le dernier empereur Ming se pend à un arbre."
-    },
-    {
-      "annee": 1644,
-      "evenement": "L'Invasion Mandchoue",
-      "info": "Les guerriers des steppes franchissent la Grande Muraille et fondent la dynastie Qing."
+      "evenement": "La chute des Ming",
+      "info": "Une armée rebelle prend Pékin ; le dernier empereur Ming se pend. Les Mandchous entrent dans Pékin et fondent la dynastie Qing.",
+      "ref": "chute-des-ming"
     },
     {
       "annee": 1689,
       "evenement": "Traité de Nertchinsk",
-      "info": "Premier traité officiel avec un pays européen (la Russie)."
+      "info": "Premier traité signé entre la Chine et un État européen, la Russie, qui fixe leur frontière."
+    },
+    {
+      "annee": 1759,
+      "evenement": "Conquête du Xinjiang",
+      "info": "Après avoir anéanti les Dzoungars, les Qing annexent le Turkestan oriental."
     }
   ],
   "dirigeants": [
-    { "titre": "Empereur (Ming)", "nom": "Wanli", "debut": 1572, "fin": 1620 },
-    { "titre": "Empereur (Qing)", "nom": "Kangxi", "debut": 1661, "fin": 1722 },
-    { "titre": "Empereur (Qing)", "nom": "Qianlong", "debut": 1735, "fin": 1796 }
+    {
+      "nom": "Hongwu",
+      "titre": "Empereur",
+      "debut": 1368,
+      "fin": 1398,
+      "dynastie": "ming",
+      "note": "fondateur, ancien moine mendiant",
+      "cle": true
+    },
+    {
+      "nom": "Jianwen",
+      "titre": "Empereur",
+      "debut": 1398,
+      "fin": 1402,
+      "dynastie": "ming",
+      "note": "renversé par son oncle"
+    },
+    {
+      "nom": "Yongle",
+      "titre": "Empereur",
+      "debut": 1402,
+      "fin": 1424,
+      "dynastie": "ming",
+      "personne": "yongle",
+      "note": "Pékin capitale, expéditions de Zheng He",
+      "cle": true
+    },
+    { "nom": "Hongxi", "titre": "Empereur", "debut": 1424, "fin": 1425, "dynastie": "ming" },
+    { "nom": "Xuande", "titre": "Empereur", "debut": 1425, "fin": 1435, "dynastie": "ming" },
+    {
+      "nom": "Zhengtong",
+      "titre": "Empereur",
+      "debut": 1435,
+      "fin": 1464,
+      "dynastie": "ming",
+      "note": "capturé par les Mongols en 1449, revient sur le trône en 1457"
+    },
+    { "nom": "Jingtai", "titre": "Empereur", "debut": 1449, "fin": 1457, "dynastie": "ming" },
+    { "nom": "Chenghua", "titre": "Empereur", "debut": 1464, "fin": 1487, "dynastie": "ming" },
+    { "nom": "Hongzhi", "titre": "Empereur", "debut": 1487, "fin": 1505, "dynastie": "ming" },
+    { "nom": "Zhengde", "titre": "Empereur", "debut": 1505, "fin": 1521, "dynastie": "ming" },
+    { "nom": "Jiajing", "titre": "Empereur", "debut": 1521, "fin": 1567, "dynastie": "ming" },
+    { "nom": "Longqing", "titre": "Empereur", "debut": 1567, "fin": 1572, "dynastie": "ming" },
+    {
+      "nom": "Wanli",
+      "titre": "Empereur",
+      "debut": 1572,
+      "fin": 1620,
+      "dynastie": "ming",
+      "note": "le plus long règne Ming",
+      "cle": true
+    },
+    { "nom": "Taichang", "titre": "Empereur", "debut": 1620, "fin": 1620, "dynastie": "ming", "note": "règne un mois" },
+    { "nom": "Tianqi", "titre": "Empereur", "debut": 1620, "fin": 1627, "dynastie": "ming" },
+    {
+      "nom": "Chongzhen",
+      "titre": "Empereur",
+      "debut": 1627,
+      "fin": 1644,
+      "dynastie": "ming",
+      "note": "dernier empereur Ming, se suicide",
+      "cle": true
+    },
+    {
+      "nom": "Nurhaci",
+      "titre": "Khan des Jurchen",
+      "debut": 1616,
+      "fin": 1626,
+      "dynastie": "qing",
+      "note": "unifie les Mandchous"
+    },
+    {
+      "nom": "Hong Taiji",
+      "titre": "Khan, puis empereur",
+      "debut": 1626,
+      "fin": 1643,
+      "dynastie": "qing",
+      "note": "proclame la dynastie Qing en 1636"
+    },
+    {
+      "nom": "Shunzhi",
+      "titre": "Empereur",
+      "debut": 1643,
+      "fin": 1661,
+      "dynastie": "qing",
+      "note": "premier empereur Qing à Pékin"
+    },
+    {
+      "nom": "Kangxi",
+      "titre": "Empereur",
+      "debut": 1661,
+      "fin": 1722,
+      "dynastie": "qing",
+      "personne": "kangxi",
+      "note": "règne de 61 ans",
+      "cle": true
+    },
+    {
+      "nom": "Yongzheng",
+      "titre": "Empereur",
+      "debut": 1722,
+      "fin": 1735,
+      "dynastie": "qing",
+      "note": "réformateur",
+      "cle": true
+    },
+    {
+      "nom": "Qianlong",
+      "titre": "Empereur",
+      "debut": 1735,
+      "fin": 1796,
+      "dynastie": "qing",
+      "personne": "qianlong",
+      "note": "abdique pour ne pas régner plus longtemps que son grand-père",
+      "cle": true
+    }
   ],
   "personnages": [
     {
+      "nom": "Zheng He",
+      "role": "Amiral",
+      "description": "Eunuque musulman, il commande sept grandes expéditions maritimes jusqu’en Afrique de l’Est.",
+      "dates": "1371 → 1433",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Zheng_He",
+      "ref": "zheng-he"
+    },
+    {
       "nom": "Matteo Ricci",
-      "role": "Missionnaire Jésuite",
-      "description": "Prêtre italien, génie des mathématiques, l'un des très rares étrangers admis à la cour Ming pour avoir traduit la géométrie européenne en chinois.",
-      "dates": "1552 à 1610",
-      "wikiUrl": "https://fr.wikipedia.org/wiki/Matteo_Ricci"
+      "role": "Missionnaire jésuite",
+      "description": "Prêtre italien, il apprend le chinois, s’habille en lettré et fait connaître les mathématiques et la géographie européennes à Pékin.",
+      "dates": "1552 → 1610",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Matteo_Ricci",
+      "ref": "matteo-ricci"
+    },
+    {
+      "nom": "Wang Yangming",
+      "role": "Philosophe",
+      "description": "Penseur néoconfucéen qui insiste sur la connaissance intérieure et l’action morale.",
+      "dates": "1472 → 1529",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Wang_Yangming"
+    },
+    {
+      "nom": "Cao Xueqin",
+      "role": "Écrivain",
+      "description": "Auteur du Rêve dans le pavillon rouge, le plus célèbre roman chinois.",
+      "dates": "vers 1715 → 1763",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Cao_Xueqin"
     }
   ],
   "guerres": [
     {
       "nom": "Campagnes de l'empereur Qianlong",
       "annee": 1755,
-      "adversaires": ["Tribus mongoles Zounghares"],
+      "adversaires": ["Khanat dzoungar"],
       "allies": [],
-      "morts": "Massacre (quasi génocide des Zounghares)",
+      "morts": "Les Dzoungars sont presque entièrement exterminés (1755-1758), un massacre que de nombreux historiens qualifient de génocide",
       "vainqueur": "Dynastie Qing",
-      "consequences": "Les armées Qing à feu doublent la taille de la Chine, annexant définitivement le Tibet, la Mongolie et le Turkestan (l'actuel Xinjiang).",
+      "consequences": "Les Qing annexent le Turkestan oriental (l’actuel Xinjiang) ; avec le Tibet et la Mongolie, l’empire atteint sa plus grande étendue.",
       "wikiUrl": "https://fr.wikipedia.org/wiki/Dix_Grandes_Campagnes"
     }
   ],
-  "sciences": "Bien que techniquement stagnante comparée à l'essor européen, la Chine gère une logistique sidérante : le 'Grand Canal', long de 1700 kilomètres, permet d'acheminer via des milliers de barges l'impôt en grain du Sud fertile vers l'aride capitale (Pékin). Ils inondent l'Europe de biens manufacturés de très grand luxe : la porcelaine 'bleu et blanc', la soie, et plus tard le thé.",
-  "croyancesText": "Le Confucianisme règne en maître : la piété filiale, l'obéissance aux supérieurs et les rites impériaux dictent l'ordre social. L'Empereur est le 'Fils du Ciel' garant de l'harmonie de l'univers. Les envahisseurs Qing (d'ethnie mandchoue) vont s'empresser d'adopter ces rituels chinois pour prouver qu'ils détiennent le Mandat Céleste, tout en imposant brutalement à tous les hommes la coupe de cheveux mandchoue (le crâne rasé avec la natte).",
-  "diplomatie": "La Chine se considère littéralement comme 'L'Empire du Milieu', le centre absolu de la civilisation, entouré de 'barbares'. Ils n'ont pas de 'diplomatie' ou de ministres des affaires étrangères, mais un 'Système de Tributs' : les pays étrangers (Corée, Vietnam) et même les marchands européens (les Anglais) doivent faire le 'Kowtow' (se prosterner face contre terre) et offrir des cadeaux pour avoir l'insigne honneur de commercer.",
-  "documentaires": [{ "titre": "L'apogée de l'Empire Qing", "url": "https://fr.wikipedia.org/wiki/Dynastie_Qing" }]
+  "sciences": "Le Grand Canal, long de près de 1 800 km, achemine le riz du Sud vers Pékin. Les Ming reconstruisent en pierre et en brique une grande partie de la Grande Muraille. La porcelaine « bleu et blanc » de Jingdezhen, la soie et plus tard le thé sont exportés en masse vers l’Europe. Les Qing font réaliser d’immenses encyclopédies et compilations, comme les Quatre Magasins (36 000 volumes).",
+  "croyancesText": "Le confucianisme guide l’État et la société : piété filiale, respect de la hiérarchie et des rites. L’empereur est le Fils du Ciel, garant de l’harmonie du monde. Les Qing, mandchous, adoptent ces rites pour montrer qu’ils ont reçu le mandat du Ciel, tout en imposant à tous les hommes la coiffure mandchoue (le front rasé et la natte). Le bouddhisme et le taoïsme restent très pratiqués.",
+  "diplomatie": "La Chine se considère comme l’« Empire du Milieu », centre de la civilisation. Les relations avec l’étranger passent par le système du tribut : les envoyés de Corée, du Vietnam ou du Siam apportent des présents et se prosternent devant l’empereur (le kowtow), en échange de cadeaux et du droit de commercer. Les Européens ne peuvent commercer qu’à Canton à partir de 1757.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": { "valeur": "Nankin, puis Pékin", "precision": "Pékin à partir de 1421" },
+    "regimes": {
+      "valeur": "Empire",
+      "precision": "un empereur, « Fils du Ciel », et des fonctionnaires recrutés par concours"
+    },
+    "langues": { "valeur": "Chinois", "precision": "les Qing parlent aussi le mandchou" },
+    "religion": { "valeur": "Confucianisme, bouddhisme, taoïsme", "precision": "avec le culte des ancêtres" },
+    "apogee": { "valeur": "XVIIIe siècle", "precision": "sous Kangxi, Yongzheng et Qianlong" },
+    "population": { "valeur": "Environ 300 millions vers 1790", "precision": "contre peut-être 100 millions vers 1400" },
+    "monnaie": {
+      "valeur": "Lingots d’argent et sapèques de cuivre",
+      "precision": "l’argent vient en grande partie d’Amérique et du Japon"
+    },
+    "duree": { "valeur": "Plus de 420 ans dans cette fiche" },
+    "aujourdhui": { "valeur": "Chine", "precision": "et la Mongolie, Taïwan sous les Qing" }
+  },
+  "essentiel": [
+    "En 1368, Zhu Yuanzhang chasse les Mongols et fonde la dynastie Ming sous le nom d’empereur Hongwu.",
+    "Son fils [[yongle|Yongle]] installe la capitale à Pékin, dans la [[cite-interdite|Cité interdite]], et envoie l’amiral [[zheng-he|Zheng He]] lors de grandes [[expeditions-de-zheng-he|expéditions maritimes]].",
+    "Le jésuite [[matteo-ricci|Matteo Ricci]] introduit des savoirs européens à la cour ; la porcelaine et la soie chinoises sont exportées dans le monde entier.",
+    "En 1644, lors de la [[chute-des-ming|chute des Ming]], les Mandchous prennent Pékin et fondent la dynastie Qing.",
+    "Les empereurs [[kangxi|Kangxi]] et [[qianlong|Qianlong]] étendent l’empire jusqu’au Tibet, à la Mongolie et au Turkestan."
+  ],
+  "periodes": [
+    {
+      "nom": "Les Ming",
+      "debut": 1368,
+      "fin": 1644,
+      "resume": "Les Ming restaurent un pouvoir chinois, reconstruisent la Grande Muraille et développent le commerce et l’artisanat ; ils renoncent aux grandes expéditions maritimes après 1433.",
+      "evenements": [
+        { "annee": 1405, "evenement": "Première expédition de Zheng He", "ref": "expeditions-de-zheng-he" },
+        { "annee": 1421, "evenement": "Pékin capitale" },
+        { "annee": 1592, "evenement": "Les Ming aident la Corée contre le Japon" }
+      ]
+    },
+    {
+      "nom": "La conquête mandchoue",
+      "debut": 1644,
+      "fin": 1683,
+      "resume": "Les Qing conquièrent le sud de la Chine, imposent la coiffure mandchoue et prennent Taïwan en 1683.",
+      "evenements": [
+        { "annee": 1644, "evenement": "Prise de Pékin", "ref": "chute-des-ming" },
+        { "annee": 1683, "evenement": "Conquête de Taïwan" }
+      ]
+    },
+    {
+      "nom": "L’apogée des Qing",
+      "debut": 1683,
+      "fin": 1789,
+      "resume": "Kangxi, Yongzheng et Qianlong gouvernent un empire immense et prospère ; la population double.",
+      "evenements": [{ "annee": 1689, "evenement": "Traité de Nertchinsk" }, { "annee": 1759, "evenement": "Conquête du Xinjiang" }]
+    }
+  ],
+  "dynasties": [
+    {
+      "id": "ming",
+      "nom": "Les Ming",
+      "debut": 1368,
+      "fin": 1644,
+      "note": "Liste complète ; l’empereur est désigné par le nom de son ère de règne."
+    },
+    {
+      "id": "qing",
+      "nom": "Les Qing (Mandchous)",
+      "debut": 1616,
+      "fin": 1796,
+      "note": "Avec les deux premiers souverains mandchous, avant la conquête de la Chine."
+    }
+  ],
+  "societe": "Les lettrés-fonctionnaires, recrutés par de difficiles concours, forment l’élite. Les paysans sont la grande majorité ; marchands et artisans s’enrichissent dans les villes du bas Yangzi. Sous les Qing, les Mandchous gardent une place privilégiée dans l’armée et l’administration.",
+  "economie": "Agriculture (riz, blé, plantes venues d’Amérique comme le maïs et la patate douce), soie, porcelaine, thé ; l’argent d’Amérique afflue en échange des produits chinois.",
+  "decouvertes": ["cite-interdite"],
+  "arts": "Cité interdite, temple du Ciel, porcelaines Ming, peintures de lettrés, romans classiques (Au bord de l’eau, Le Voyage vers l’Ouest, Le Rêve dans le pavillon rouge), opéra.",
+  "quotidien": "Dans les villes, les maisons de thé, les théâtres et les marchés sont très animés. Les femmes des familles aisées ont souvent les pieds bandés.",
+  "heritage": [
+    {
+      "titre": "La Grande Muraille",
+      "texte": "La muraille que l’on visite aujourd’hui est surtout celle des Ming."
+    },
+    {
+      "titre": "La Cité interdite",
+      "texte": "Le palais des empereurs Ming et Qing, devenu musée, est l’un des sites les plus visités au monde."
+    },
+    {
+      "titre": "Les frontières de la Chine",
+      "texte": "Les conquêtes des Qing dessinent en grande partie les frontières de la Chine actuelle."
+    }
+  ],
+  "aSavoir": [
+    "L’idée que la Chine aurait « stagné » face à l’Europe est aujourd’hui discutée : au XVIIIe siècle, son économie était l’une des plus riches du monde."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Dynastie_Ming",
+    "https://fr.wikipedia.org/wiki/Dynastie_Qing",
+    {
+      "titre": "Encyclopædia Britannica — Ming dynasty",
+      "url": "https://www.britannica.com/topic/Ming-dynasty-Chinese-history"
+    }
+  ]
 }

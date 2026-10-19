@@ -1,0 +1,21 @@
+{
+  "id": "guerre-d-imjin",
+  "nom": "Guerre d’Imjin",
+  "annee": 1592,
+  "fin": 1598,
+  "dates": "1592 → 1598",
+  "lieu": "Corée",
+  "description": "[[toyotomi-hideyoshi|Toyotomi Hideyoshi]] envahit la Corée pour attaquer la Chine. Avec l’aide des armées Ming et la flotte de [[yi-sun-sin|Yi Sun-sin]], les Coréens finissent par repousser les Japonais.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Les Japonais prennent Séoul en trois semaines. Mais les victoires navales de Yi Sun-sin coupent leur ravitaillement, des milices se soulèvent et les Ming envoient une armée. Une seconde invasion, en 1597, échoue aussi."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "La Corée est dévastée ; des dizaines de milliers de Coréens, dont des potiers, sont emmenés au Japon. À la mort de Hideyoshi, les Japonais se retirent."
+    }
+  ],
+  "liens": [{ "ref": "toyotomi-hideyoshi", "relation": "L’envahisseur" }, { "ref": "yi-sun-sin", "relation": "L’amiral coréen" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_d%27Imjin"
+}

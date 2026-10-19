@@ -1,0 +1,19 @@
+{
+  "id": "kangxi",
+  "nom": "Kangxi",
+  "nomComplet": "Xuanye, empereur Kangxi des Qing",
+  "role": "Empereur Qing",
+  "roles": ["Empereur"],
+  "dates": "1654 → 1722",
+  "naissance": 1654,
+  "mort": 1722,
+  "description": "Empereur pendant 61 ans, il achève la conquête de la Chine, signe la paix avec la Russie et s’intéresse aux sciences européennes enseignées par les jésuites.",
+  "reperes": [{ "label": "Règne", "valeur": "1661 → 1722" }],
+  "essentiel": [
+    "Empereur à 7 ans, il écarte les régents à 15 ans.",
+    "Il écrase la révolte de trois anciens généraux chinois et conquiert Taïwan (1683).",
+    "Il signe le traité de Nertchinsk avec la Russie (1689).",
+    "Il fait rédiger un grand dictionnaire de caractères chinois, toujours de référence."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Kangxi"
+}

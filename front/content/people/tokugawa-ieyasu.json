@@ -1,0 +1,19 @@
+{
+  "id": "tokugawa-ieyasu",
+  "nom": "Tokugawa Ieyasu",
+  "role": "Shogun",
+  "roles": ["Chef de guerre", "Shogun"],
+  "dates": "1543 → 1616",
+  "naissance": 1543,
+  "mort": 1616,
+  "description": "Allié d’Oda Nobunaga puis de Toyotomi Hideyoshi, il l’emporte à Sekigahara en 1600, devient shogun en 1603 et fonde un régime qui assure plus de 250 ans de paix.",
+  "reperes": [{ "label": "Shogun", "valeur": "1603 → 1605", "precision": "il garde le pouvoir réel jusqu’à sa mort" }],
+  "essentiel": [
+    "Il passe son enfance comme otage d’autres clans.",
+    "Il gagne la [[bataille-de-sekigahara|bataille de Sekigahara]] (1600).",
+    "Il installe son gouvernement à Edo, future Tokyo.",
+    "Il élimine les derniers Toyotomi au siège d’Osaka (1615)."
+  ],
+  "liens": [{ "ref": "toyotomi-hideyoshi", "relation": "Son ancien suzerain" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Tokugawa_Ieyasu"
+}

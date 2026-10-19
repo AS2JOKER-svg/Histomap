@@ -1,0 +1,19 @@
+{
+  "id": "cite-interdite",
+  "nom": "Cité interdite",
+  "annee": 1420,
+  "domaine": "Architecture",
+  "dates": "1406 → 1420",
+  "description": "Le palais impérial de Pékin, construit par l’empereur [[yongle|Yongle]] : près de 1 000 bâtiments entourés de murs et de douves, interdits aux simples sujets.",
+  "sections": [
+    {
+      "titre": "Comment il a été bâti",
+      "texte": "Des centaines de milliers d’ouvriers y travaillent. Les bâtiments, en bois, aux toits de tuiles jaunes réservées à l’empereur, s’alignent sur un axe nord-sud."
+    },
+    {
+      "titre": "Ce qu’il est devenu",
+      "texte": "Résidence de 24 empereurs Ming et Qing, il devient en 1925 le musée du Palais."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Cit%C3%A9_interdite"
+}

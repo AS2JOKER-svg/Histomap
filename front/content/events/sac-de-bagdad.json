@@ -1,0 +1,23 @@
+{
+  "id": "sac-de-bagdad",
+  "nom": "Sac de Bagdad",
+  "annee": 1258,
+  "dates": "février 1258",
+  "lieu": "Bagdad (Irak)",
+  "description": "L’armée mongole d’Hülegü, petit-fils de Gengis Khan, prend Bagdad, la pille et tue le dernier calife abbasside, al-Mustasim.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Après un court siège, la ville se rend. Les Mongols la pillent pendant une semaine et massacrent une grande partie de ses habitants."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Le califat de Bagdad disparaît. Les bibliothèques sont détruites ; selon un récit célèbre, le Tigre devint noir de l’encre des livres jetés à l’eau. Le centre du monde arabe se déplace vers Le Caire."
+    }
+  ],
+  "avant": "fondation-de-bagdad",
+  "aSavoir": [
+    "Selon les chroniques, le calife fut enroulé dans un tapis et piétiné par des chevaux, car les Mongols ne voulaient pas verser le sang d’un souverain."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Bagdad_(1258)"
+}

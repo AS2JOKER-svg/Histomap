@@ -1,0 +1,20 @@
+{
+  "id": "dit-du-genji",
+  "nom": "Le Dit du Genji",
+  "annee": 1008,
+  "domaine": "Littérature",
+  "dates": "vers 1008",
+  "description": "Un immense roman écrit par [[murasaki-shikibu|Murasaki Shikibu]], qui raconte la vie, les amours et les tristesses du prince Genji à la cour impériale.",
+  "sections": [
+    {
+      "titre": "Ce qu’il raconte",
+      "texte": "En 54 chapitres, le roman suit Genji, fils d’empereur, puis ses descendants. Il décrit avec finesse les sentiments des personnages et la beauté éphémère des choses."
+    },
+    {
+      "titre": "Son importance",
+      "texte": "Souvent considéré comme l’un des premiers romans du monde, il a inspiré au Japon des siècles de peinture, de théâtre et de littérature."
+    }
+  ],
+  "liens": [{ "ref": "murasaki-shikibu", "relation": "Son autrice" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Le_Dit_du_Genji"
+}

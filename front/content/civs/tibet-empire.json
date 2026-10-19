@@ -11,35 +11,117 @@
   "row": 4,
   "isRiver": false,
   "capitale": "Lhassa",
-  "description": "Une redoutable puissance militaire d'altitude qui terrorisa l'Empire chinois, tout en se convertissant massivement au bouddhisme mystique.",
+  "description": "L’empire tibétain, fondé au VIIe siècle sur le haut plateau, rival de la Chine des Tang en Asie centrale. Ses rois adoptent le bouddhisme et dotent le Tibet de son écriture.",
   "territories": ["Tufan Empire", "Tibetan Empire"],
   "datesCles": [
     {
       "annee": 630,
       "evenement": "Unification du Plateau",
-      "info": "Songtsen Gampo fonde l'empire et crée la ville de Lhassa."
+      "info": "Songtsen Gampo fonde l’empire et fait de Lhassa sa capitale."
+    },
+    {
+      "annee": 641,
+      "evenement": "Mariage avec Wencheng",
+      "info": "La princesse chinoise Wencheng épouse Songtsen Gampo."
     },
     {
       "annee": 763,
-      "evenement": "Prise de Chang'an",
-      "info": "L'armée tibétaine profite d'une rébellion chinoise pour envahir et piller la capitale des Tang."
+      "evenement": "Prise de Chang’an",
+      "info": "L’armée tibétaine profite d’une rébellion chinoise pour envahir et piller la capitale des Tang.",
+      "ref": "revolte-d-an-lushan"
+    },
+    { "annee": 779, "evenement": "Monastère de Samye", "info": "Premier monastère bouddhiste du Tibet." },
+    {
+      "annee": 821,
+      "evenement": "Traité avec la Chine",
+      "info": "Le Tibet et la Chine des Tang signent une paix et fixent leur frontière.",
+      "ref": "traite-sino-tibetain-de-821"
     },
     {
       "annee": 842,
       "evenement": "Effondrement",
-      "info": "L'assassinat du dernier roi, Langdarma, précipite le pays dans la guerre civile féodale."
+      "info": "L’assassinat du dernier roi, Langdarma, précipite le pays dans la guerre civile."
     }
   ],
   "dirigeants": [
-    { "titre": "Tsenpo (Empereur)", "nom": "Songtsen Gampo", "debut": 629, "fin": 649 },
-    { "titre": "Tsenpo", "nom": "Trisong Detsen", "debut": 755, "fin": 797 }
+    {
+      "nom": "Songtsen Gampo",
+      "titre": "Roi (tsenpo)",
+      "debut": 618,
+      "fin": 650,
+      "dynastie": "yarlung",
+      "personne": "songtsen-gampo",
+      "note": "fondateur de l’empire",
+      "cle": true
+    },
+    {
+      "nom": "Mangsong Mangtsen",
+      "titre": "Roi",
+      "debut": 650,
+      "fin": 676,
+      "dynastie": "yarlung",
+      "note": "règne sous la tutelle d’un ministre"
+    },
+    { "nom": "Tridu Songtsen", "titre": "Roi", "debut": 676, "fin": 704, "dynastie": "yarlung" },
+    {
+      "nom": "Tride Tsugtsen",
+      "titre": "Roi",
+      "debut": 704,
+      "fin": 754,
+      "dynastie": "yarlung",
+      "note": "épouse la princesse chinoise Jincheng"
+    },
+    {
+      "nom": "Trisong Detsen",
+      "titre": "Roi",
+      "debut": 755,
+      "fin": 797,
+      "dynastie": "yarlung",
+      "note": "fait du bouddhisme la religion du royaume",
+      "cle": true
+    },
+    { "nom": "Muné Tsenpo", "titre": "Roi", "debut": 797, "fin": 799, "dynastie": "yarlung" },
+    { "nom": "Tride Songtsen", "titre": "Roi", "debut": 799, "fin": 815, "dynastie": "yarlung" },
+    {
+      "nom": "Ralpacan",
+      "titre": "Roi",
+      "debut": 815,
+      "fin": 838,
+      "dynastie": "yarlung",
+      "note": "signe la paix avec la Chine",
+      "cle": true
+    },
+    {
+      "nom": "Langdarma",
+      "titre": "Roi",
+      "debut": 838,
+      "fin": 842,
+      "dynastie": "yarlung",
+      "note": "dernier roi, assassiné",
+      "cle": true
+    }
   ],
   "personnages": [
     {
+      "nom": "Songtsen Gampo",
+      "role": "Fondateur de l’empire",
+      "description": "Il unifie le Tibet, fonde Lhassa et ouvre le pays au bouddhisme.",
+      "dates": "vers 605 → 650",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Songtsen_Gampo",
+      "ref": "songtsen-gampo"
+    },
+    {
+      "nom": "Princesse Wencheng",
+      "role": "Reine",
+      "description": "Princesse chinoise envoyée en 641 épouser Songtsen Gampo ; la tradition lui attribue l’apport d’une statue du Bouddha, toujours vénérée au Jokhang.",
+      "dates": "vers 625 → 680",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Wencheng"
+    },
+    {
       "nom": "Padmasambhava",
-      "role": "Maître tantrique",
-      "description": "Gourou indien invité au Tibet pour dompter par magie les démons locaux, fondateur spirituel du bouddhisme tibétain.",
-      "dates": "≈ VIIIe siècle",
+      "role": "Maître bouddhiste",
+      "description": "Maître indien invité au Tibet au VIIIe siècle ; la tradition dit qu’il soumit les démons locaux. Il est vénéré comme le fondateur du bouddhisme tibétain.",
+      "dates": "VIIIe siècle",
       "wikiUrl": "https://fr.wikipedia.org/wiki/Padmasambhava"
     }
   ],
@@ -49,14 +131,99 @@
       "annee": 763,
       "adversaires": ["Empire Tang"],
       "allies": ["Royaume de Nanzhao"],
-      "morts": "Pertes militaires frontalières",
+      "morts": "Inconnues",
       "vainqueur": "Empire Tibétain (pour un temps)",
       "consequences": "Profitant de la révolte d'An Lushan, le Tibet prend brièvement Chang'an, la capitale des Tang, en 763, et contrôle pour un temps le Gansu et une partie des oasis d'Asie centrale, avant de s'effondrer de l'intérieur au IXe siècle.",
       "wikiUrl": "https://fr.wikipedia.org/wiki/Empire_du_Tibet"
     }
   ],
-  "sciences": "Leur suprématie est militaire : ils développent une cavalerie cataphractaire (lourde) terrifiante : le cavalier et sa monture sont entièrement recouverts d'armures de mailles métalliques. C'est sous cet empire que la langue tibétaine est dotée d'une écriture alphabetique et d'une grammaire complexe (adaptée du sanskrit indien) spécifiquement pour traduire massivement les textes sacrés bouddhistes d'Inde.",
-  "croyancesText": "À l'origine, le Tibet pratique le 'Bön', un animisme de haute montagne axé sur le culte des esprits protecteurs et de la royauté divine. Sous le patronage des rois (les Rois du Dharma), un grand débat (le débat de Samye, vers 792-794) oppose des moines chan (zen) chinois, partisans de l'éveil subit, et le moine indien Kamalashila, partisan d'une voie graduelle. Kamalashila est déclaré vainqueur et le Tibet suit les écoles indiennes, qui va fusionner avec la magie locale pour créer le Bouddhisme tantrique tibétain.",
-  "diplomatie": "Situé stratégiquement sur le Toit du Monde, le Tibet verrouille les routes commerciales de la Soie sud. Pour sécuriser sa paix, le roi Songtsen Gampo force diplomatiquement la Chine (Princesse Wencheng) et le Népal (Princesse Bhrikuti, selon la tradition) à lui donner des épouses royales, lesquelles auraient apporté avec elles les premières idoles bouddhistes au Tibet.",
-  "documentaires": [{ "titre": "L'Histoire occulte du Tibet", "url": "https://fr.wikipedia.org/wiki/Empire_du_Tibet" }]
+  "sciences": "Selon la tradition, le ministre Thonmi Sambhota est envoyé en Inde pour créer un alphabet tibétain, adapté des écritures indiennes. Les rois organisent ensuite la traduction de milliers de textes bouddhistes du sanskrit, avec des dictionnaires pour fixer les termes. L’armée tibétaine, réputée, compte des cavaliers protégés par des armures de mailles, d’après les sources chinoises.",
+  "croyancesText": "La religion ancienne du Tibet honore les esprits des montagnes et considère le roi comme d’origine divine ; les traditions bön en conservent une partie. Le bouddhisme, protégé par les rois, devient religion officielle sous Trisong Detsen. Selon la tradition, le débat de Samye (vers 792-794) oppose un moine chan chinois, partisan de l’éveil subit, au moine indien Kamalashila, partisan d’une voie graduelle : celui-ci l’emporte, et le Tibet suit les écoles indiennes.",
+  "diplomatie": "L’empire tibétain dispute à la Chine des Tang le contrôle des routes commerciales d’Asie centrale. Les mariages avec des princesses chinoises et népalaises et les traités alternent avec les guerres. Le traité de 821-822, gravé sur un pilier à Lhassa, fixe une frontière entre les deux empires.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": { "valeur": "Lhassa", "precision": "les rois résident aussi dans des camps et palais de la vallée du Yarlung" },
+    "regimes": { "valeur": "Monarchie", "precision": "le roi (tsenpo) gouverne avec de puissants clans aristocratiques" },
+    "langues": { "valeur": "Tibétain", "precision": "écrit avec un alphabet créé au VIIe siècle d’après des modèles indiens" },
+    "religion": {
+      "valeur": "Religion ancienne, puis bouddhisme",
+      "precision": "bouddhisme protégé par les rois à partir du VIIIe siècle"
+    },
+    "apogee": { "valeur": "Fin du VIIIe siècle", "precision": "du Turkestan au Bengale, prise de Chang’an en 763" },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": { "valeur": "Pas de monnaie", "precision": "échanges en orge, or, chevaux et soie" },
+    "duree": { "valeur": "Plus de 220 ans" },
+    "aujourdhui": {
+      "valeur": "Chine (Tibet)",
+      "precision": "et une partie du Népal, du Bhoutan, de l’Inde et de l’Asie centrale"
+    }
+  },
+  "essentiel": [
+    "Au VIIe siècle, [[songtsen-gampo|Songtsen Gampo]] unifie le plateau tibétain et fait de Lhassa sa capitale.",
+    "Il épouse une princesse chinoise et, selon la tradition, une princesse népalaise ; le bouddhisme commence à entrer au Tibet.",
+    "L’empire devient une grande puissance militaire : en 763, il prend brièvement Chang’an, la capitale de la Chine des Tang.",
+    "Le roi Trisong Detsen fait bâtir le [[monastere-de-samye|monastère de Samye]] et fait du bouddhisme la religion du royaume.",
+    "Après un [[traite-sino-tibetain-de-821|traité de paix avec la Chine]], l’empire s’effondre en 842 dans les querelles de succession."
+  ],
+  "periodes": [
+    {
+      "nom": "La fondation",
+      "debut": 618,
+      "fin": 650,
+      "resume": "Songtsen Gampo unifie les clans du plateau, fait créer l’écriture tibétaine et s’allie à la Chine et au Népal par des mariages.",
+      "evenements": [{ "annee": 641, "evenement": "Mariage avec la princesse Wencheng" }]
+    },
+    {
+      "nom": "L’empire conquérant",
+      "debut": 650,
+      "fin": 797,
+      "resume": "Les armées tibétaines disputent à la Chine les oasis d’Asie centrale. Trisong Detsen adopte le bouddhisme.",
+      "evenements": [
+        { "annee": 763, "evenement": "Prise de Chang’an" },
+        { "annee": 779, "evenement": "Fondation de Samye" },
+        { "annee": 792, "evenement": "Débat de Samye" }
+      ]
+    },
+    {
+      "nom": "Paix et déclin",
+      "debut": 797,
+      "fin": 842,
+      "resume": "Les derniers rois font traduire massivement les textes bouddhistes et signent la paix avec la Chine. L’assassinat de Langdarma ouvre une période de division.",
+      "evenements": [
+        { "annee": 821, "evenement": "Traité de paix", "ref": "traite-sino-tibetain-de-821" },
+        { "annee": 842, "evenement": "Assassinat de Langdarma" }
+      ]
+    }
+  ],
+  "dynasties": [
+    {
+      "id": "yarlung",
+      "nom": "Les rois du Tibet (dynastie de Yarlung)",
+      "debut": 618,
+      "fin": 842,
+      "note": "Dates approximatives, qui varient selon les sources tibétaines et chinoises."
+    }
+  ],
+  "societe": "Le roi gouverne avec de grands clans nobles, dont les chefs servent de ministres et de généraux. La majorité de la population vit de l’élevage des yaks et des moutons et de la culture de l’orge.",
+  "economie": "Élevage, culture de l’orge dans les vallées, tribut des peuples soumis, contrôle de routes commerciales d’Asie centrale.",
+  "decouvertes": ["monastere-de-samye"],
+  "arts": "Temple du Jokhang à Lhassa, monastère de Samye, tombeaux royaux de la vallée du Yarlung, piliers gravés d’inscriptions.",
+  "quotidien": "Sur le haut plateau, les familles nomades vivent sous la tente avec leurs troupeaux ; dans les vallées, les paysans cultivent l’orge, base de la tsampa, la farine grillée.",
+  "heritage": [
+    { "titre": "L’écriture tibétaine", "texte": "L’alphabet créé au VIIe siècle est toujours utilisé." },
+    {
+      "titre": "Le bouddhisme tibétain",
+      "texte": "Il se répand ensuite en Mongolie et dans tout l’Himalaya ; le Jokhang de Lhassa reste un grand lieu de pèlerinage."
+    }
+  ],
+  "aSavoir": [
+    "Selon la tradition, Langdarma persécuta le bouddhisme, mais les historiens discutent l’ampleur de cette persécution."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Empire_du_Tibet",
+    {
+      "titre": "Encyclopædia Britannica — Tibet, history",
+      "url": "https://www.britannica.com/place/Tibet/History"
+    }
+  ]
 }

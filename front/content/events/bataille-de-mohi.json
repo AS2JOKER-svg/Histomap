@@ -1,0 +1,19 @@
+{
+  "id": "bataille-de-mohi",
+  "nom": "Bataille de Mohi",
+  "annee": 1241,
+  "dates": "11 avril 1241",
+  "lieu": "Mohi (Hongrie)",
+  "description": "L’armée mongole de Batu et de Subötaï écrase l’armée du roi de Hongrie, deux jours après avoir battu les Polonais et les Allemands à Legnica.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Les Mongols traversent la rivière de nuit et encerclent le camp hongrois, laissant volontairement une issue pour massacrer les fuyards."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "La Hongrie est ravagée. En 1242, les Mongols se retirent vers l’est, peut-être à la nouvelle de la mort du grand khan Ögödei."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Mohi"
+}

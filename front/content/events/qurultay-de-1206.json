@@ -1,0 +1,16 @@
+{
+  "id": "qurultay-de-1206",
+  "nom": "Qurultay de 1206",
+  "annee": 1206,
+  "dates": "printemps 1206",
+  "lieu": "Sources de l’Onon (Mongolie)",
+  "description": "Une grande assemblée des chefs des tribus des steppes proclame Temüjin souverain de tous les Mongols, sous le nom de [[gengis-khan|Gengis Khan]].",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "Les tribus rivales sont réunies en un seul peuple, organisé pour la guerre. Quelques années plus tard commencent les grandes conquêtes."
+    }
+  ],
+  "liens": [{ "ref": "gengis-khan", "relation": "Le chef proclamé" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Qurultay"
+}

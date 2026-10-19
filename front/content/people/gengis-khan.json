@@ -1,0 +1,35 @@
+{
+  "id": "gengis-khan",
+  "nom": "Gengis Khan",
+  "nomComplet": "Temüjin",
+  "role": "Fondateur de l’Empire mongol",
+  "roles": ["Grand khan", "Conquérant"],
+  "dates": "vers 1162 → 1227",
+  "naissance": 1162,
+  "mort": 1227,
+  "description": "Né Temüjin, fils d’un chef de clan assassiné, il unifie les tribus mongoles et lance des conquêtes qui font des Mongols les maîtres d’une grande partie de l’Asie.",
+  "reperes": [
+    { "label": "Règne", "valeur": "1206 → 1227" },
+    {
+      "label": "Titre",
+      "valeur": "Gengis Khan",
+      "precision": "sans doute « souverain universel » ou « souverain ferme »"
+    }
+  ],
+  "essentiel": [
+    "Il passe une jeunesse difficile, après la mort de son père, avant de s’imposer par les alliances et la guerre.",
+    "En 1206, le [[qurultay-de-1206|qurultay]] le proclame Gengis Khan.",
+    "Il conquiert le royaume Xixia, le nord de la Chine des Jin et l’empire du Khwarezm.",
+    "Il organise l’armée et fait rédiger un code de lois, le Yassa."
+  ],
+  "chronologie": [
+    { "annee": 1206, "texte": "Proclamé Gengis Khan", "ref": "qurultay-de-1206" },
+    { "annee": 1215, "texte": "Prise de Pékin" },
+    { "annee": 1220, "texte": "Prise de Samarcande" },
+    { "annee": 1227, "texte": "Mort pendant la campagne contre les Xixia" }
+  ],
+  "aSavoir": [
+    "Des études génétiques suggèrent que des millions d’hommes en Asie descendent de lui ou de sa famille proche ; ce résultat reste débattu."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Gengis_Khan"
+}

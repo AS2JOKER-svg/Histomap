@@ -1,0 +1,24 @@
+{
+  "id": "maison-de-la-sagesse",
+  "nom": "Maison de la sagesse",
+  "annee": 830,
+  "domaine": "Savoir",
+  "dates": "IXe siècle",
+  "description": "Une bibliothèque et un centre de traduction et de recherche à Bagdad, où les savants traduisent en arabe les œuvres grecques, persanes et indiennes.",
+  "sections": [
+    {
+      "titre": "Ce qu’on y faisait",
+      "texte": "Des traducteurs, souvent chrétiens, comme Hunayn ibn Ishaq, traduisent Aristote, Galien, Euclide ou Ptolémée. Les savants y font aussi des recherches en mathématiques et en astronomie."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Ces traductions et commentaires seront à leur tour traduits en latin au Moyen Âge, notamment à Tolède."
+    }
+  ],
+  "aSavoir": [
+    "On sait en réalité peu de choses précises sur son organisation : certains historiens pensent qu’elle était surtout une bibliothèque du palais."
+  ],
+  "liens": [{ "ref": "al-khwarizmi", "relation": "Un de ses savants" }],
+  "apres": "ecole-de-traducteurs-de-tolede",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Maison_de_la_sagesse"
+}

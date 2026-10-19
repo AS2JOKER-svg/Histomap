@@ -1,0 +1,23 @@
+{
+  "id": "ecole-de-traducteurs-de-tolede",
+  "nom": "École de traducteurs de Tolède",
+  "annee": 1130,
+  "domaine": "Savoir",
+  "dates": "XIIe-XIIIe siècles",
+  "description": "À Tolède, reprise par les chrétiens, des savants juifs, chrétiens et musulmans traduisent de l’arabe vers le latin, puis le castillan, les grandes œuvres de science et de philosophie.",
+  "sections": [
+    {
+      "titre": "Comment ça marchait",
+      "texte": "Souvent, un traducteur lisait le texte arabe à voix haute en langue romane, et un second le mettait par écrit en latin. Gérard de Crémone traduit ainsi plus de 70 livres, dont l’Almageste de Ptolémée."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Aristote, Euclide, Avicenne, Averroès et les mathématiciens arabes entrent dans les universités européennes."
+    }
+  ],
+  "aSavoir": [
+    "Ce n’était pas une école au sens d’un bâtiment, mais un ensemble de traducteurs encouragés par les archevêques puis par Alphonse X."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Traductions_latines_du_XIIe_si%C3%A8cle",
+  "avant": "maison-de-la-sagesse"
+}

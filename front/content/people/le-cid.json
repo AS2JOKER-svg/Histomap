@@ -1,0 +1,19 @@
+{
+  "id": "le-cid",
+  "nom": "Le Cid",
+  "nomComplet": "Rodrigo Díaz de Vivar",
+  "role": "Chevalier castillan",
+  "roles": ["Chef de guerre", "Seigneur de Valence"],
+  "dates": "vers 1043 → 1099",
+  "naissance": 1043,
+  "mort": 1099,
+  "description": "Chevalier castillan banni par son roi, il met son épée au service de princes chrétiens et musulmans, puis conquiert Valence, où il règne jusqu’à sa mort. Il devient le héros d’une épopée.",
+  "essentiel": [
+    "Son surnom vient de l’arabe sayyid, « seigneur ».",
+    "Banni deux fois par Alphonse VI, il sert notamment l’émir musulman de Saragosse.",
+    "Il prend Valence en 1094 et la défend contre les Almoravides.",
+    "Le Cantar de mio Cid, écrit vers 1200, fait de lui le modèle du chevalier castillan."
+  ],
+  "aSavoir": ["La pièce de Corneille, Le Cid (1637), raconte une histoire inventée inspirée de sa jeunesse."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Le_Cid"
+}

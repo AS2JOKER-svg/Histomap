@@ -1,0 +1,16 @@
+{
+  "id": "murasaki-shikibu",
+  "nom": "Murasaki Shikibu",
+  "role": "Femme de lettres",
+  "roles": ["Dame de cour", "Romancière"],
+  "dates": "vers 973 → vers 1014",
+  "naissance": 973,
+  "mort": 1014,
+  "description": "Dame de la cour impériale de Kyoto, autrice du [[dit-du-genji|Dit du Genji]], immense roman sur la vie et les amours d’un prince, souvent considéré comme l’un des premiers romans du monde.",
+  "essentiel": [
+    "Fille d’un lettré, elle apprend en cachette le chinois, réservé en principe aux hommes.",
+    "Au service de l’impératrice Shōshi, elle tient aussi un journal sur la vie de la cour.",
+    "Son nom réel est inconnu : « Murasaki » vient d’un personnage de son roman."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Murasaki_Shikibu"
+}

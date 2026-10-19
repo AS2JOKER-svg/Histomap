@@ -380,5 +380,21 @@
   "Conquête omeyyade de l’Hispanie": {
     "coords": [-5.8, 36.5],
     "lieu": "Guadalete (Andalousie)"
+  },
+  "Bataille du Yarmouk": {
+    "coords": [35.95, 32.8],
+    "lieu": "Rivière Yarmouk (frontière Syrie-Jordanie)"
+  },
+  "Bataille de Talas": {
+    "coords": [72.2, 42.5],
+    "lieu": "Talas (Kirghizistan)"
+  },
+  "Guerre de Genpei": {
+    "coords": [130.96, 33.96],
+    "lieu": "Dan-no-ura"
+  },
+  "Guerre d’Ōnin": {
+    "coords": [135.76, 35.01],
+    "lieu": "Kyoto"
   }
 }

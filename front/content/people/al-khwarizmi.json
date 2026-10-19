@@ -1,0 +1,17 @@
+{
+  "id": "al-khwarizmi",
+  "nom": "Al-Khwârizmî",
+  "nomComplet": "Muhammad ibn Musa al-Khwârizmî",
+  "role": "Mathématicien et astronome",
+  "roles": ["Mathématicien", "Astronome", "Géographe"],
+  "dates": "vers 780 → vers 850",
+  "naissance": 780,
+  "mort": 850,
+  "description": "Savant de la Maison de la sagesse de Bagdad, originaire du Khwarezm (Asie centrale). Son livre sur la résolution des équations donne naissance à l’[[algebre|algèbre]].",
+  "essentiel": [
+    "Son traité « al-jabr » explique comment résoudre des équations : le mot « algèbre » vient de son titre.",
+    "Il fait connaître le système de numération indien, avec le zéro.",
+    "Son nom latinisé, Algorismus, a donné le mot « algorithme »."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Al-Khw%C3%A2rizm%C3%AE"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "prise-de-tolede",
+  "nom": "Prise de Tolède",
+  "annee": 1085,
+  "dates": "25 mai 1085",
+  "lieu": "Tolède (Castille)",
+  "description": "Le roi Alphonse VI de Castille obtient la reddition de Tolède, ancienne capitale des Wisigoths et grande ville d’al-Andalus.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "La frontière chrétienne atteint le Tage. Effrayés, les rois des taïfas appellent à l’aide les Almoravides du Maroc. Tolède devient un grand centre de traduction des savoirs arabes."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Prise_de_Tol%C3%A8de_(1085)"
+}

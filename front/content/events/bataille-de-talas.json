@@ -1,0 +1,18 @@
+{
+  "id": "bataille-de-talas",
+  "nom": "Bataille de Talas",
+  "annee": 751,
+  "dates": "juillet 751",
+  "lieu": "Rivière Talas (Kirghizistan)",
+  "description": "En Asie centrale, l’armée abbasside bat une armée chinoise de la dynastie Tang, trahie par ses alliés turcs karlouks.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "L’Asie centrale reste dans le monde musulman. Une tradition raconte que des prisonniers chinois apprirent aux Arabes à fabriquer le papier à Samarcande."
+    }
+  ],
+  "aSavoir": [
+    "L’histoire des prisonniers papetiers est peut-être une légende : le papier était sans doute déjà connu en Asie centrale."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Talas"
+}

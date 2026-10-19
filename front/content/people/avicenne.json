@@ -1,0 +1,17 @@
+{
+  "id": "avicenne",
+  "nom": "Avicenne",
+  "nomComplet": "Abu Ali al-Husayn ibn Sina",
+  "role": "Médecin et philosophe",
+  "roles": ["Médecin", "Philosophe"],
+  "dates": "980 → 1037",
+  "naissance": 980,
+  "mort": 1037,
+  "description": "Médecin et philosophe persan, auteur du Canon de la médecine, qui sert de référence aux médecins d’Europe et du monde musulman pendant six siècles.",
+  "essentiel": [
+    "Enfant prodige, il aurait appris le Coran par cœur à 10 ans et soigné un prince à 17 ans.",
+    "Son Canon rassemble les connaissances médicales grecques, persanes et arabes.",
+    "En philosophie, il prolonge la pensée d’Aristote et influence les penseurs juifs et chrétiens."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Avicenne"
+}

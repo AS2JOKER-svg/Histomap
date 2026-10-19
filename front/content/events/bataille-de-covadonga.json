@@ -1,0 +1,15 @@
+{
+  "id": "bataille-de-covadonga",
+  "nom": "Bataille de Covadonga",
+  "annee": 722,
+  "dates": "vers 718-722 (date discutée)",
+  "lieu": "Covadonga (Asturies)",
+  "description": "Dans les montagnes des Asturies, le chef Pélage repousse une troupe musulmane. Cette victoire, sans doute modeste, devient le symbole du début de la Reconquista.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "Pélage fonde le royaume des Asturies, d’où partiront les royaumes de León et de Castille. Les chroniques chrétiennes plus tardives en font un récit héroïque."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Covadonga"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "haroun-al-rachid",
+  "nom": "Haroun al-Rachid",
+  "role": "Calife abbasside",
+  "roles": ["Calife"],
+  "dates": "vers 766 → 809",
+  "naissance": 766,
+  "mort": 809,
+  "description": "Cinquième calife abbasside, dont le règne marque l’apogée de Bagdad. Sa cour, riche et raffinée, a inspiré les contes des Mille et Une Nuits.",
+  "reperes": [{ "label": "Règne", "valeur": "786 → 809" }, { "label": "Capitale", "valeur": "Bagdad" }],
+  "essentiel": [
+    "Il gouverne avec la puissante famille de vizirs des Barmécides, qu’il fait ensuite tomber.",
+    "Il mène des campagnes contre Byzance.",
+    "Il échange des ambassades avec Charlemagne, à qui il offre un éléphant, Abul-Abbas.",
+    "Il encourage les savants et les poètes à Bagdad."
+  ],
+  "liens": [{ "ref": "charlemagne", "relation": "Son correspondant en Occident" }],
+  "aSavoir": [
+    "Dans les Mille et Une Nuits, il parcourt la nuit les rues de Bagdad déguisé ; ces récits sont des contes, pas de l’histoire."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Haroun_al-Rachid"
+}

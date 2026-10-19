@@ -1,0 +1,17 @@
+{
+  "id": "guerre-d-onin",
+  "nom": "Guerre d’Ōnin",
+  "annee": 1467,
+  "fin": 1477,
+  "dates": "1467 → 1477",
+  "lieu": "Kyoto",
+  "description": "Une querelle de succession au sein du shogunat dégénère en guerre entre les grands seigneurs. Kyoto est en grande partie détruite.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "Le shogun perd toute autorité. Les seigneurs (daimyō) se font la guerre pendant un siècle : c’est l’époque Sengoku, « des provinces en guerre », qui ne prendra fin qu’avec la réunification du Japon à la fin du XVIe siècle."
+    }
+  ],
+  "avant": "invasions-mongoles-du-japon",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_d%27%C5%8Cnin"
+}

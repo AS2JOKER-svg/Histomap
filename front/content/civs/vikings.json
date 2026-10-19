@@ -11,7 +11,7 @@
   "row": 5,
   "isRiver": false,
   "capitale": "Roskilde / Jelling",
-  "description": "Navigateurs, pirates et marchands d'élite nordiques qui ont pillé, colonisé et redessiné la carte politique de l'Europe médiévale.",
+  "description": "Les peuples scandinaves de l’époque viking : pillards, marchands et colons, ils naviguent de l’Amérique du Nord à la mer Caspienne et fondent des États en Angleterre, en Normandie et en Russie.",
   "territories": [
     "Danes",
     "Northmen",
@@ -26,35 +26,178 @@
     {
       "annee": 793,
       "evenement": "Pillage de Lindisfarne",
-      "info": "Premier grand raid documenté sur un monastère anglais."
+      "info": "Premier grand raid documenté sur un monastère anglais.",
+      "ref": "pillage-de-lindisfarne"
+    },
+    {
+      "annee": 845,
+      "evenement": "Raid sur Paris",
+      "info": "Une flotte viking remonte la Seine et obtient une énorme rançon du roi Charles le Chauve."
+    },
+    {
+      "annee": 865,
+      "evenement": "La Grande Armée",
+      "info": "Une armée danoise débarque en Angleterre et conquiert une grande partie du pays."
     },
     {
       "annee": 911,
       "evenement": "Fondation de la Normandie",
-      "info": "Le chef Rollon reçoit des terres du roi franc en échange de l'arrêt des pillages."
+      "info": "Le chef Rollon reçoit des terres du roi franc en échange de l’arrêt des pillages."
+    },
+    {
+      "annee": 930,
+      "evenement": "L’Althing islandais",
+      "info": "Les colons d’Islande créent une assemblée générale, l’une des plus anciennes du monde."
+    },
+    {
+      "annee": 965,
+      "evenement": "Conversion du Danemark",
+      "info": "Le roi Harald à la Dent bleue se fait baptiser et le proclame sur la pierre de Jelling."
     },
     {
       "annee": 1000,
-      "evenement": "Découverte de l'Amérique",
-      "info": "Leif Erikson atteint Terre-Neuve (Vinland) 5 siècles avant Colomb."
+      "evenement": "Les Vikings en Amérique",
+      "info": "Leif Erikson atteint une terre qu’il nomme Vinland, cinq siècles avant Colomb.",
+      "ref": "decouverte-du-vinland"
     },
     {
       "annee": 1066,
       "evenement": "Bataille de Stamford Bridge",
-      "info": "Mort d'Harald Hardrada, marquant la fin de l'ère viking."
+      "info": "Mort d’Harald Hardrada, marquant la fin de l’ère viking.",
+      "ref": "bataille-de-stamford-bridge"
     }
   ],
   "dirigeants": [
-    { "titre": "Roi du Danemark et d'Angleterre", "nom": "Knut", "surnom": "Le Grand", "debut": 1016, "fin": 1035 },
-    { "titre": "Roi de Norvège", "nom": "Harald", "surnom": "Hardrada", "debut": 1046, "fin": 1066 }
+    {
+      "nom": "Godfred",
+      "titre": "Roi des Danois",
+      "debut": 804,
+      "fin": 810,
+      "dynastie": "danemark",
+      "note": "affronte Charlemagne"
+    },
+    { "nom": "Horik Ier", "titre": "Roi des Danois", "debut": 827, "fin": 854, "dynastie": "danemark" },
+    { "nom": "Gorm", "titre": "Roi de Danemark", "surnom": "l’Ancien", "debut": 936, "fin": 958, "dynastie": "danemark" },
+    {
+      "nom": "Harald Ier",
+      "titre": "Roi de Danemark",
+      "surnom": "à la Dent bleue",
+      "debut": 958,
+      "fin": 986,
+      "dynastie": "danemark",
+      "note": "unifie et convertit le Danemark",
+      "cle": true
+    },
+    {
+      "nom": "Sven Ier",
+      "titre": "Roi de Danemark",
+      "surnom": "à la Barbe fourchue",
+      "debut": 986,
+      "fin": 1014,
+      "dynastie": "danemark",
+      "note": "conquiert l’Angleterre en 1013"
+    },
+    {
+      "nom": "Knut",
+      "titre": "Roi de Danemark, d’Angleterre et de Norvège",
+      "surnom": "le Grand",
+      "debut": 1018,
+      "fin": 1035,
+      "dynastie": "danemark",
+      "personne": "knut-le-grand",
+      "cle": true
+    },
+    {
+      "nom": "Harald Ier",
+      "titre": "Roi de Norvège",
+      "surnom": "à la Belle Chevelure",
+      "debut": 872,
+      "fin": 930,
+      "dynastie": "norvege",
+      "note": "premier roi de Norvège selon les sagas"
+    },
+    {
+      "nom": "Olaf Ier",
+      "titre": "Roi de Norvège",
+      "debut": 995,
+      "fin": 1000,
+      "dynastie": "norvege",
+      "note": "Olaf Tryggvason, impose le christianisme"
+    },
+    {
+      "nom": "Olaf II",
+      "titre": "Roi de Norvège",
+      "surnom": "le Saint",
+      "debut": 1015,
+      "fin": 1028,
+      "dynastie": "norvege",
+      "note": "patron de la Norvège"
+    },
+    {
+      "nom": "Harald III",
+      "titre": "Roi de Norvège",
+      "surnom": "Hardrada",
+      "debut": 1046,
+      "fin": 1066,
+      "dynastie": "norvege",
+      "note": "tué à Stamford Bridge",
+      "cle": true
+    },
+    {
+      "nom": "Olof",
+      "titre": "Roi de Suède",
+      "surnom": "Skötkonung",
+      "debut": 995,
+      "fin": 1022,
+      "dynastie": "suede",
+      "note": "premier roi chrétien de Suède"
+    },
+    {
+      "nom": "Rollon",
+      "titre": "Chef viking, puis comte de Rouen",
+      "debut": 911,
+      "fin": 930,
+      "dynastie": "colonies",
+      "note": "fondateur de la Normandie",
+      "cle": true
+    }
   ],
   "personnages": [
     {
+      "nom": "Leif Erikson",
+      "role": "Explorateur",
+      "description": "Fils d’Érik le Rouge, il atteint vers l’an 1000 une terre d’Amérique du Nord qu’il nomme Vinland.",
+      "dates": "vers 970 → vers 1020",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Leif_Erikson"
+    },
+    {
+      "nom": "Knut le Grand",
+      "role": "Roi",
+      "description": "Roi du Danemark, d’Angleterre et de Norvège, à la tête d’un empire de la mer du Nord.",
+      "dates": "vers 995 → 1035",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Knut_le_Grand",
+      "ref": "knut-le-grand"
+    },
+    {
+      "nom": "Érik le Rouge",
+      "role": "Explorateur",
+      "description": "Banni d’Islande pour meurtre, il découvre le Groenland vers 982 et y fonde une colonie.",
+      "dates": "vers 950 → vers 1003",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/%C3%89rik_le_Rouge"
+    },
+    {
       "nom": "Ragnar Lodbrok",
       "role": "Chef légendaire",
-      "description": "Héros mythique des sagas, il unifie les raids et aurait mené le premier sac de Paris en 845.",
-      "dates": "≈ IXe siècle",
+      "description": "Héros des sagas, parfois identifié au chef du raid sur Paris de 845 ; son existence réelle est incertaine.",
+      "dates": "IXe siècle (légendaire)",
       "wikiUrl": "https://fr.wikipedia.org/wiki/Ragnar_Lodbrok"
+    },
+    {
+      "nom": "Snorri Sturluson",
+      "role": "Poète et historien islandais",
+      "description": "Au XIIIe siècle, il met par écrit une grande partie de la mythologie nordique et des sagas des rois de Norvège.",
+      "dates": "1179 → 1241",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Snorri_Sturluson"
     }
   ],
   "guerres": [
@@ -63,14 +206,147 @@
       "annee": 865,
       "adversaires": ["Royaumes Anglo-Saxons"],
       "allies": [],
-      "morts": "Importantes destructions",
+      "morts": "Inconnues",
       "vainqueur": "Vikings",
-      "consequences": "Chute des royaumes de Mercie et de Northumbrie, création du Danelaw (zone sous loi danoise en Angleterre).",
+      "consequences": "Les royaumes de Northumbrie, d’Est-Anglie et une partie de la Mercie tombent ; seul le Wessex d’Alfred le Grand résiste. Le nord-est de l’Angleterre devient le Danelaw.",
       "wikiUrl": "https://fr.wikipedia.org/wiki/Grande_Arm%C3%A9e"
+    },
+    {
+      "nom": "Bataille de Stamford Bridge",
+      "annee": 1066,
+      "adversaires": ["Royaume d’Angleterre (Harold II)"],
+      "allies": ["Tostig, frère révolté d’Harold"],
+      "morts": "Inconnues ; l’armée norvégienne est presque anéantie",
+      "vainqueur": "Anglais",
+      "consequences": "Harald Hardrada est tué. Trois semaines plus tard, l’armée anglaise épuisée est battue à Hastings par les Normands.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Stamford_Bridge"
+    },
+    {
+      "nom": "Bataille de Stamford Bridge",
+      "annee": 1066,
+      "adversaires": ["Royaume d’Angleterre (Harold II)"],
+      "allies": ["Tostig, frère révolté d’Harold"],
+      "morts": "Inconnues ; l’armée norvégienne est presque anéantie",
+      "vainqueur": "Anglais",
+      "consequences": "Harald Hardrada est tué. Trois semaines plus tard, l’armée anglaise épuisée est battue à Hastings par les Normands.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Stamford_Bridge"
     }
   ],
-  "sciences": "Leur suprématie navale absolue repose sur le 'Langskip' (Drakkar). Ces navires à bordages à clin, symétriques (on ne fait pas demi-tour, on inverse simplement les rameurs) et à très faible tirant d'eau, peuvent naviguer en plein océan et remonter les fleuves de la Seine ou de la Volga. Ils naviguent en haute mer grâce au 'compas solaire' et aux pierres de soleil (spath d'Islande) repérant la lumière polarisée par temps couvert.",
-  "croyancesText": "Le paganisme nordique est centré sur le Valhalla : seuls les guerriers mourant avec bravoure, l'arme à la main, rejoignent le palais d'Odin pour s'entraîner en vue du Ragnarök (la fin du monde). Le panthéon inclut Thor (dieu du tonnerre) et Freyja (fertilité). Aux Xe et XIe siècles, l'élite viking est politiquement christianisée pour s'intégrer au réseau diplomatique européen.",
-  "diplomatie": "Le terme 'Viking' n'est pas un peuple, mais une action (partir en expédition, 'i viking'). D'abord pilleurs d'abbayes, ils développent une diplomatie de l'extorsion systématique : le 'Danegeld', un tribut d'argent massif payé par les rois d'Angleterre et de France pour qu'ils s'en aillent. Ils se transforment ensuite en colons fondateurs d'États (Normandie, Rus' de Kiev, Danelaw).",
-  "documentaires": [{ "titre": "L'épopée des Vikings", "url": "https://fr.wikipedia.org/wiki/%C3%82ge_des_Vikings" }]
+  "sciences": "Les navires vikings, construits en bordages qui se chevauchent (à clin), sont légers, rapides et peuvent naviguer en haute mer comme remonter les fleuves. Les Vikings naviguent en observant le soleil, les étoiles, les oiseaux et les courants ; certains historiens pensent qu’ils utilisaient des cristaux (pierres de soleil) pour repérer le soleil par temps couvert, ce qui reste une hypothèse. Ils écrivent en runes sur la pierre, le bois et l’os.",
+  "croyancesText": "Les Vikings vénèrent Odin, dieu de la sagesse et de la guerre, Thor, dieu du tonnerre, et Freyja, déesse de l’amour et de la fertilité. Selon les mythes, une partie des guerriers morts au combat rejoint Odin au Valhalla en attendant le Ragnarök, la fin du monde. Les chefs sont parfois enterrés dans des navires. Aux Xe et XIe siècles, les rois se convertissent au christianisme.",
+  "diplomatie": "Les Vikings sont à la fois pillards et marchands. Les rois d’Angleterre et de France leur versent de lourds tributs, le Danegeld, pour qu’ils s’en aillent. Ils deviennent aussi colons et fondateurs d’États : le Danelaw en Angleterre, la Normandie, et la Rus’ à l’est. Des Varègues servent dans la garde des empereurs byzantins.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": {
+      "valeur": "Aucune capitale commune",
+      "precision": "Jelling et Roskilde au Danemark, Trondheim en Norvège, Uppsala et Birka en Suède"
+    },
+    "regimes": {
+      "valeur": "Chefferies, puis royaumes",
+      "precision": "assemblées d’hommes libres (le thing) ; royaumes de Danemark, Norvège et Suède aux Xe-XIe siècles"
+    },
+    "langues": { "valeur": "Vieux norrois", "precision": "écrit avec les runes" },
+    "religion": {
+      "valeur": "Paganisme nordique, puis christianisme",
+      "precision": "Odin, Thor, Freyja ; conversion des rois aux Xe-XIe siècles"
+    },
+    "apogee": { "valeur": "IXe-Xe siècles", "precision": "raids et installations dans toute l’Europe" },
+    "population": { "valeur": "Peut-être 2 millions", "precision": "pour toute la Scandinavie (estimation)" },
+    "monnaie": {
+      "valeur": "Argent pesé",
+      "precision": "pièces arabes et anglaises découpées et pesées ; premières monnaies royales vers 1000"
+    },
+    "duree": { "valeur": "Environ 270 ans" },
+    "aujourdhui": {
+      "valeur": "Danemark, Norvège, Suède",
+      "precision": "avec des colonies en Islande, au Groenland, en Angleterre, en Irlande, en Normandie et en Russie"
+    }
+  },
+  "essentiel": [
+    "« Viking » désigne d’abord une activité : partir en expédition par la mer pour piller ou commercer.",
+    "Le [[pillage-de-lindisfarne|pillage de Lindisfarne]] en 793 ouvre deux siècles de raids sur l’Europe, de l’Irlande à l’Espagne.",
+    "Grâce à leurs [[navire-viking|navires]], les Vikings s’installent en Angleterre, en Normandie, en Islande, au Groenland et jusqu’au [[decouverte-du-vinland|Vinland]], en Amérique.",
+    "À l’est, des Scandinaves, appelés Varègues, descendent les fleuves jusqu’à Constantinople et participent à la fondation de la Rus’ de Kiev.",
+    "Au XIe siècle, les rois se convertissent au christianisme ; la mort d’Harald Hardrada à [[bataille-de-stamford-bridge|Stamford Bridge]] (1066) clôt l’époque viking."
+  ],
+  "periodes": [
+    {
+      "nom": "Les premiers raids",
+      "debut": 793,
+      "fin": 865,
+      "resume": "De petites flottes attaquent les monastères et les ports d’Angleterre, d’Irlande et de l’empire carolingien. Des Scandinaves s’installent à Dublin.",
+      "evenements": [
+        { "annee": 793, "evenement": "Lindisfarne", "ref": "pillage-de-lindisfarne" },
+        { "annee": 841, "evenement": "Fondation de Dublin" },
+        { "annee": 845, "evenement": "Raid sur Paris" }
+      ]
+    },
+    {
+      "nom": "Conquêtes et colonies",
+      "debut": 865,
+      "fin": 980,
+      "resume": "Les Vikings conquièrent une partie de l’Angleterre (le Danelaw), reçoivent la Normandie, peuplent l’Islande et descendent les fleuves de l’Est.",
+      "evenements": [
+        { "annee": 885, "evenement": "Siège de Paris" },
+        { "annee": 911, "evenement": "Traité de Saint-Clair-sur-Epte" },
+        { "annee": 930, "evenement": "Althing islandais" }
+      ]
+    },
+    {
+      "nom": "Les royaumes chrétiens",
+      "debut": 980,
+      "fin": 1066,
+      "resume": "Les rois du Danemark, de Norvège et de Suède se convertissent. Knut le Grand règne sur un empire de la mer du Nord ; des Vikings atteignent l’Amérique.",
+      "evenements": [
+        { "annee": 1000, "evenement": "Leif Erikson au Vinland", "ref": "decouverte-du-vinland" },
+        { "annee": 1016, "evenement": "Knut roi d’Angleterre" },
+        { "annee": 1066, "evenement": "Stamford Bridge", "ref": "bataille-de-stamford-bridge" }
+      ]
+    }
+  ],
+  "dynasties": [
+    {
+      "id": "danemark",
+      "nom": "Rois de Danemark",
+      "debut": 804,
+      "fin": 1035,
+      "note": "Sélection ; dates approximatives avant le Xe siècle."
+    },
+    {
+      "id": "norvege",
+      "nom": "Rois de Norvège",
+      "debut": 872,
+      "fin": 1066,
+      "note": "Sélection ; les dates d’Harald à la Belle Chevelure sont traditionnelles."
+    },
+    { "id": "suede", "nom": "Rois de Suède", "debut": 995, "fin": 1022 },
+    { "id": "colonies", "nom": "Chefs vikings en Europe", "debut": 911, "fin": 930 }
+  ],
+  "societe": "La société comprend des chefs (jarls), des hommes libres (paysans, artisans, marchands) et des esclaves (thralls). Les hommes libres se réunissent au thing pour régler les conflits. Les femmes gèrent la ferme et ont des droits, comme celui de divorcer.",
+  "economie": "Agriculture et élevage, pêche, commerce à longue distance (fourrures, ambre, esclaves, argent) entre la Baltique, Byzance et le monde musulman, butin des raids.",
+  "decouvertes": ["navire-viking", "pierres-de-jelling"],
+  "arts": "Navires sculptés d’Oseberg, pierres runiques, bijoux et broches en argent, motifs entrelacés d’animaux.",
+  "quotidien": "Les familles vivent dans de longues maisons de bois, où gens et bêtes passent l’hiver. Les sagas, la musique et les jeux de plateau occupent les soirées.",
+  "heritage": [
+    {
+      "titre": "Des mots et des lieux",
+      "texte": "Des centaines de noms de lieux en Normandie (en -bec, -tot, -fleur) et en Angleterre (en -by, -thorpe) viennent des Vikings."
+    },
+    {
+      "titre": "Le Bluetooth",
+      "texte": "La technologie sans fil porte le surnom du roi Harald à la Dent bleue, et son logo combine ses initiales en runes."
+    },
+    {
+      "titre": "Les jours de la semaine",
+      "texte": "En anglais, Wednesday, Thursday et Friday portent les noms des dieux Odin (Woden), Thor et Frigg."
+    }
+  ],
+  "aSavoir": [
+    "Les Vikings ne portaient pas de casques à cornes : cette image vient des costumes d’opéra du XIXe siècle.",
+    "Le mot « drakkar » a été inventé en français au XIXe siècle ; les Vikings parlaient de « langskip » (navire long)."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Vikings",
+    { "titre": "Encyclopædia Britannica — Viking", "url": "https://www.britannica.com/topic/Viking-people" }
+  ]
 }

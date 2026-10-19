@@ -1,0 +1,22 @@
+{
+  "id": "navire-viking",
+  "nom": "Navire viking (langskip)",
+  "annee": 800,
+  "domaine": "Navigation",
+  "dates": "VIIIe-XIe siècles",
+  "description": "Un navire long, étroit et léger, à voile carrée et à rames, capable de traverser l’océan et de remonter les fleuves : la clé de l’expansion viking.",
+  "sections": [
+    {
+      "titre": "Comment il est construit",
+      "texte": "Des planches de chêne se chevauchent (construction à clin) et sont fixées par des rivets. La quille souple et le faible tirant d’eau permettent d’accoster sur les plages."
+    },
+    {
+      "titre": "Ce que l’on a retrouvé",
+      "texte": "Les navires d’Oseberg et de Gokstad, enterrés en Norvège avec des défunts de haut rang, sont exposés à Oslo."
+    }
+  ],
+  "aSavoir": [
+    "Le mot « drakkar » a été inventé au XIXe siècle à partir de « dreki », dragon, en référence aux proues sculptées."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Langskip"
+}

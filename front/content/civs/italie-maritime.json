@@ -10,18 +10,34 @@
   "row": 7,
   "isRiver": false,
   "capitale": "Venise, Gênes, Amalfi",
-  "description": "Pionnières du capitalisme marchand et maîtresses des mers, ces cités-États d'Italie ont participé aux croisades et dominé une grande partie du commerce des épices d'Orient.",
+  "description": "Venise, Gênes, Pise et Amalfi, cités-États de marchands et de marins qui dominent le commerce entre l’Europe, Byzance et le monde musulman et inventent de nouvelles techniques commerciales.",
   "territories": ["Venice", "Genoa"],
   "datesCles": [
     {
+      "annee": 697,
+      "evenement": "Premier doge",
+      "info": "Selon la tradition, les lagunes de Venise élisent leur premier doge."
+    },
+    {
       "annee": 828,
-      "evenement": "Reliques de Saint Marc",
-      "info": "Les Vénitiens volent le corps du saint à Alexandrie, justifiant leur suprématie spirituelle."
+      "evenement": "Reliques de saint Marc",
+      "info": "Des marchands vénitiens rapportent d’Alexandrie le corps de l’évangéliste, qui devient le patron de Venise."
+    },
+    {
+      "annee": 1082,
+      "evenement": "Privilèges à Byzance",
+      "info": "L’empereur Alexis Ier accorde aux Vénitiens le commerce sans taxes dans l’empire."
     },
     {
       "annee": 1204,
       "evenement": "4e Croisade",
-      "info": "Venise détourne la croisade pour saccager sa rivale commerciale, Constantinople."
+      "info": "Les croisés, endettés envers Venise, prennent et pillent Constantinople.",
+      "ref": "sac-de-constantinople"
+    },
+    {
+      "annee": 1284,
+      "evenement": "Bataille de la Meloria",
+      "info": "Gênes détruit la flotte de Pise, qui ne s’en relève pas."
     },
     {
       "annee": 1298,
@@ -29,19 +45,120 @@
       "info": "Gênes écrase la flotte de Venise. Marco Polo y est fait prisonnier."
     },
     {
+      "annee": 1347,
+      "evenement": "La peste arrive en Europe",
+      "info": "Des galères génoises venues de Caffa, en Crimée, apportent la peste en Méditerranée.",
+      "ref": "peste-noire"
+    },
+    {
       "annee": 1380,
       "evenement": "Guerre de Chioggia",
-      "info": "Venise résiste à Gênes et à ses alliés puis l'emporte ; la paix de Turin (1381) confirme sa position de grande puissance commerciale, sans lui donner de monopole."
+      "info": "Venise résiste à Gênes et à ses alliés puis l’emporte ; la paix de Turin (1381) confirme sa position de grande puissance commerciale, sans lui donner de monopole."
     }
   ],
-  "dirigeants": [{ "titre": "Doge de Venise", "nom": "Enrico Dandolo", "debut": 1192, "fin": 1205 }],
+  "dirigeants": [
+    {
+      "nom": "Paolo Lucio Anafesto",
+      "titre": "Doge de Venise",
+      "debut": 697,
+      "fin": 717,
+      "dynastie": "venise",
+      "note": "premier doge selon la tradition ; peut-être légendaire"
+    },
+    {
+      "nom": "Pietro II Orseolo",
+      "titre": "Doge de Venise",
+      "debut": 991,
+      "fin": 1009,
+      "dynastie": "venise",
+      "note": "soumet les pirates de Dalmatie",
+      "cle": true
+    },
+    {
+      "nom": "Enrico Dandolo",
+      "titre": "Doge de Venise",
+      "debut": 1192,
+      "fin": 1205,
+      "dynastie": "venise",
+      "personne": "enrico-dandolo",
+      "note": "détourne la quatrième croisade",
+      "cle": true
+    },
+    {
+      "nom": "Pietro Gradenigo",
+      "titre": "Doge de Venise",
+      "debut": 1289,
+      "fin": 1311,
+      "dynastie": "venise",
+      "note": "ferme le Grand Conseil aux nouvelles familles (1297)"
+    },
+    {
+      "nom": "Marino Faliero",
+      "titre": "Doge de Venise",
+      "debut": 1354,
+      "fin": 1355,
+      "dynastie": "venise",
+      "note": "décapité pour avoir comploté contre la république"
+    },
+    {
+      "nom": "Andrea Contarini",
+      "titre": "Doge de Venise",
+      "debut": 1368,
+      "fin": 1382,
+      "dynastie": "venise",
+      "note": "doge pendant la guerre de Chioggia"
+    },
+    {
+      "nom": "Francesco Foscari",
+      "titre": "Doge de Venise",
+      "debut": 1423,
+      "fin": 1457,
+      "dynastie": "venise",
+      "note": "plus long règne ; étend Venise en Italie",
+      "cle": true
+    },
+    { "nom": "Agostino Barbarigo", "titre": "Doge de Venise", "debut": 1486, "fin": 1501, "dynastie": "venise" },
+    {
+      "nom": "Simone Boccanegra",
+      "titre": "Doge de Gênes",
+      "debut": 1339,
+      "fin": 1363,
+      "dynastie": "genes",
+      "note": "premier doge de Gênes ; règne en deux fois",
+      "cle": true
+    },
+    {
+      "nom": "Antoniotto Adorno",
+      "titre": "Doge de Gênes",
+      "debut": 1378,
+      "fin": 1396,
+      "dynastie": "genes",
+      "note": "élu plusieurs fois"
+    }
+  ],
   "personnages": [
     {
       "nom": "Marco Polo",
-      "role": "Marchand explorateur",
-      "description": "Vénitien ayant traversé l'Asie, resté de longues années au service de l'empereur mongol Kubilaï. Son 'Livre des Merveilles' a fasciné l'Europe.",
-      "dates": "1254 à 1324",
-      "wikiUrl": "https://fr.wikipedia.org/wiki/Marco_Polo"
+      "role": "Marchand et voyageur",
+      "description": "Vénitien qui traverse l’Asie et reste de longues années au service de l’empereur mongol Kubilaï ; son récit fascine l’Europe.",
+      "dates": "1254 → 1324",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Marco_Polo",
+      "ref": "marco-polo"
+    },
+    {
+      "nom": "Enrico Dandolo",
+      "role": "Doge de Venise",
+      "description": "Doge âgé et presque aveugle, il détourne la quatrième croisade vers Zara puis Constantinople.",
+      "dates": "vers 1107 → 1205",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Enrico_Dandolo",
+      "ref": "enrico-dandolo"
+    },
+    {
+      "nom": "Fibonacci",
+      "role": "Mathématicien",
+      "description": "Fils d’un marchand de Pise, il fait connaître en Europe les chiffres indo-arabes dans son Liber abaci (1202).",
+      "dates": "vers 1175 → vers 1250",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Leonardo_Fibonacci"
     }
   ],
   "guerres": [
@@ -66,8 +183,122 @@
       "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_de_Chioggia"
     }
   ],
-  "sciences": "Elles ont inventé la banque moderne, la comptabilité en partie double, la lettre de change (un ordre de paiement entre places marchandes, ancêtre lointain du chèque), l'assurance maritime et le premier système de brevet industriel. L'Arsenal de Venise est l'un des plus grands chantiers du Moyen Âge : charpentiers, voiliers et forgerons y travaillent par étapes, ce qui permet d'armer rapidement des flottes entières (selon une anecdote de 1574, une galère y aurait même été assemblée en une journée).",
-  "croyancesText": "Malgré un catholicisme affiché de façade, le véritable dieu des Républiques est le commerce. La Papauté menaçait souvent Venise d'excommunication pour son commerce impie (bois, fer, esclaves) avec le monde musulman, ce qui n'empêchait pas Venise de défendre farouchement ses intérêts commerciaux (la formule « Nous sommes d'abord Vénitiens, ensuite Chrétiens » qu'on lui prête est apocryphe).",
-  "diplomatie": "Plutôt que de conquérir de lourds empires continentaux, Venise et Gênes créent des 'empires de comptoirs'. Ce sont des réseaux ininterrompus de ports fortifiés (Crète, Chypre, Crimée) sécurisant la route des épices et de la soie. Elles sont gouvernées par un patriciat oligarchique (le Grand Conseil), élisant un Doge surveillé par le terrible et redouté Conseil des Dix.",
-  "documentaires": [{ "titre": "Venise : La Cité des Doges", "url": "https://fr.wikipedia.org/wiki/R%C3%A9publique_de_Venise" }]
+  "sciences": "Les marchands italiens développent des outils qui facilitent le commerce : la lettre de change, qui évite de transporter de l’argent, l’assurance maritime, les sociétés de marchands et la comptabilité en partie double. Fibonacci fait connaître les chiffres indo-arabes. Venise adopte en 1474 l’une des premières lois sur les brevets. L’Arsenal de Venise, immense chantier naval, organise la construction des galères par étapes.",
+  "croyancesText": "Les républiques sont catholiques et fières de leurs saints patrons, comme saint Marc à Venise. Elles commercent pourtant avec les musulmans, même quand le pape l’interdit, notamment pour le bois, le fer et les esclaves, et sont parfois menacées d’excommunication. La formule « Nous sommes d’abord Vénitiens, ensuite chrétiens », qu’on prête à Venise, est apocryphe.",
+  "diplomatie": "Venise et Gênes créent des empires de comptoirs : des ports fortifiés et des îles (Crète, Chypre, Chios, Caffa en Crimée) qui protègent leurs routes commerciales. Leurs diplomates négocient avec Byzance, les sultans d’Égypte, les Mongols et les Ottomans. Les deux rivales se livrent quatre grandes guerres entre 1256 et 1381.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": { "valeur": "Venise, Gênes, Pise, Amalfi", "precision": "quatre républiques rivales" },
+    "regimes": {
+      "valeur": "Républiques oligarchiques",
+      "precision": "un doge élu, contrôlé par des conseils de grandes familles marchandes"
+    },
+    "langues": { "valeur": "Vénitien, génois, toscan", "precision": "langues romanes d’Italie ; latin pour les actes" },
+    "religion": { "valeur": "Christianisme catholique" },
+    "apogee": { "valeur": "XIIIe-XVe siècles", "precision": "Venise domine l’Adriatique et la Méditerranée orientale" },
+    "population": {
+      "valeur": "Venise : environ 100 000 habitants vers 1300",
+      "precision": "l’une des plus grandes villes d’Europe"
+    },
+    "monnaie": {
+      "valeur": "Ducat vénitien et génois d’or",
+      "precision": "le ducat (1284) devient une monnaie de référence internationale"
+    },
+    "duree": { "valeur": "Près de 800 ans" },
+    "aujourdhui": {
+      "valeur": "Italie",
+      "precision": "avec des comptoirs en Grèce, en Croatie, à Chypre, en Crimée et au Proche-Orient"
+    }
+  },
+  "essentiel": [
+    "Amalfi, Pise, Gênes et Venise s’enrichissent par le commerce maritime avec Byzance et le monde musulman.",
+    "Elles profitent des croisades pour obtenir des quartiers et des privilèges dans les ports d’Orient ; Venise détourne la quatrième croisade vers [[sac-de-constantinople|Constantinople]] (1204).",
+    "Venise et Gênes fondent des empires de comptoirs fortifiés, de la Crète à la Crimée, et se font la guerre pendant plus d’un siècle.",
+    "Leurs marchands, comme [[marco-polo|Marco Polo]], voyagent jusqu’en Chine ; ils développent la [[lettre-de-change|lettre de change]], l’assurance et la comptabilité.",
+    "Venise, avec son [[arsenal-de-venise|Arsenal]], reste la grande puissance commerciale de la Méditerranée à la fin du Moyen Âge."
+  ],
+  "periodes": [
+    {
+      "nom": "Les débuts",
+      "debut": 697,
+      "fin": 1000,
+      "resume": "Amalfi et Venise, sous l’autorité lointaine de Byzance, commercent avec Constantinople et le monde musulman."
+    },
+    {
+      "nom": "Croisades et comptoirs",
+      "debut": 1000,
+      "fin": 1204,
+      "resume": "Pise, Gênes et Venise transportent les croisés et obtiennent des quartiers dans les ports d’Orient.",
+      "evenements": [
+        { "annee": 1082, "evenement": "Privilèges vénitiens à Byzance" },
+        { "annee": 1099, "evenement": "Les Génois au siège de Jérusalem" },
+        { "annee": 1204, "evenement": "Sac de Constantinople", "ref": "sac-de-constantinople" }
+      ]
+    },
+    {
+      "nom": "La rivalité de Venise et Gênes",
+      "debut": 1204,
+      "fin": 1381,
+      "resume": "Les deux républiques se partagent la Méditerranée orientale et la mer Noire et se livrent quatre grandes guerres.",
+      "evenements": [
+        { "annee": 1284, "evenement": "Gênes écrase Pise" },
+        { "annee": 1298, "evenement": "Bataille de Curzola" },
+        { "annee": 1381, "evenement": "Paix de Turin" }
+      ]
+    },
+    {
+      "nom": "L’apogée vénitien",
+      "debut": 1381,
+      "fin": 1492,
+      "resume": "Venise étend ses territoires en Italie du Nord et garde un vaste empire maritime, malgré la poussée ottomane.",
+      "evenements": [{ "annee": 1453, "evenement": "Chute de Constantinople" }]
+    }
+  ],
+  "regimes": [
+    {
+      "id": "republiques",
+      "nom": "Républiques marchandes",
+      "debut": 697,
+      "fin": 1492,
+      "note": "À Venise, le doge est élu à vie, mais son pouvoir est limité par le Grand Conseil, réservé aux familles nobles à partir de 1297, et par le Conseil des Dix (1310)."
+    }
+  ],
+  "dynasties": [
+    {
+      "id": "venise",
+      "nom": "Doges de Venise",
+      "debut": 697,
+      "fin": 1501,
+      "note": "Sélection parmi plus d’une centaine de doges."
+    },
+    {
+      "id": "genes",
+      "nom": "Doges de Gênes",
+      "debut": 1339,
+      "fin": 1396,
+      "note": "Gênes élit des doges à partir de 1339 ; avant, elle est dirigée par des consuls et des capitaines."
+    }
+  ],
+  "societe": "Les grandes familles marchandes gouvernent : à Venise, le Grand Conseil est réservé aux familles nobles inscrites au Livre d’or. Artisans, marins et ouvriers de l’Arsenal forment la majorité. Des communautés étrangères (Allemands, Grecs, Juifs) vivent dans leurs quartiers.",
+  "economie": "Commerce des épices, de la soie, du coton, du sucre, de l’alun et des esclaves entre l’Orient et l’Europe ; verrerie de Murano, construction navale, banque.",
+  "decouvertes": ["arsenal-de-venise", "lettre-de-change"],
+  "arts": "Basilique Saint-Marc et ses mosaïques, palais des Doges, cathédrale et tour penchée de Pise, verrerie de Murano.",
+  "quotidien": "À Venise, on circule en barque sur les canaux. Les fêtes, comme le mariage symbolique du doge avec la mer chaque année, rassemblent toute la ville.",
+  "heritage": [
+    {
+      "titre": "Le vocabulaire des affaires",
+      "texte": "Banque, faillite (banca rotta), crédit, ducat : de nombreux mots du commerce viennent de l’italien."
+    },
+    {
+      "titre": "Venise",
+      "texte": "La ville et sa lagune sont inscrites au patrimoine mondial ; la tour de Pise est l’un des monuments les plus visités au monde."
+    }
+  ],
+  "aSavoir": [
+    "Le mot « quarantaine » vient de Venise : pendant la peste, les navires devaient attendre quarante jours avant de débarquer."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/R%C3%A9publiques_maritimes",
+    "https://fr.wikipedia.org/wiki/R%C3%A9publique_de_Venise"
+  ]
 }

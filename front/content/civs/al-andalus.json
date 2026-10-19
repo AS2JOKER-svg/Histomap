@@ -11,23 +11,34 @@
   "row": 8,
   "isRiver": false,
   "capitale": "Cordoue puis Grenade",
-  "description": "Splendeur islamique d'Espagne, pôle de tolérance religieuse et intellectuelle, traduisant et transmettant le savoir antique à l'Europe engourdie.",
+  "description": "La péninsule Ibérique sous domination musulmane, de 711 à 1492 : un émirat puis un califat brillant autour de Cordoue, puis des royaumes qui reculent devant les chrétiens jusqu’à la chute de Grenade.",
   "territories": ["Emirate of Córdoba", "Caliphate of Córdoba", "Almohad Caliphate", "Granada"],
   "datesCles": [
     {
       "annee": 711,
       "evenement": "Conquête musulmane",
-      "info": "Les troupes arabo-berbères de Tariq ibn Ziyad écrasent les Wisigoths."
+      "info": "Les troupes arabo-berbères de Tariq ibn Ziyad battent le roi wisigoth Rodéric.",
+      "ref": "conquete-omeyyade-hispanie"
+    },
+    {
+      "annee": 756,
+      "evenement": "Émirat de Cordoue",
+      "info": "Abd al-Rahman Ier, rescapé du massacre des Omeyyades, fonde un émirat indépendant."
     },
     {
       "annee": 929,
       "evenement": "Califat de Cordoue",
-      "info": "L'émir Abd al-Rahman III se proclame Calife, coupant les ponts avec Bagdad."
+      "info": "L’émir Abd al-Rahman III se proclame calife, rivalisant avec Bagdad et Le Caire."
     },
     {
       "annee": 1031,
       "evenement": "Chute du Califat",
-      "info": "L'empire implose en dizaines de petits royaumes rivaux (les Taïfas)."
+      "info": "Le califat se divise en dizaines de petits royaumes rivaux, les taïfas."
+    },
+    {
+      "annee": 1086,
+      "evenement": "Les Almoravides",
+      "info": "Appelés à l’aide après la prise de Tolède par la Castille, les Almoravides du Maroc battent les chrétiens à Zalaca."
     },
     {
       "annee": 1212,
@@ -37,43 +48,343 @@
     {
       "annee": 1492,
       "evenement": "Chute de Grenade",
-      "info": "Fin de huit siècles de présence politique de l'Islam en péninsule Ibérique."
+      "info": "Fin de huit siècles de présence politique de l’Islam en péninsule Ibérique.",
+      "ref": "chute-de-grenade"
     }
   ],
   "dirigeants": [
-    { "titre": "Calife Omeyyade", "nom": "Abd al-Rahman III", "debut": 912, "fin": 961 },
-    { "titre": "Émir de Grenade", "nom": "Boabdil", "debut": 1482, "fin": 1492 }
+    {
+      "nom": "Tariq ibn Ziyad",
+      "titre": "Chef de guerre",
+      "debut": 711,
+      "fin": 712,
+      "dynastie": "conquete",
+      "note": "berbère, il débarque à Gibraltar (Djebel Tariq)",
+      "cle": true
+    },
+    {
+      "nom": "Moussa ibn Noçaïr",
+      "titre": "Gouverneur",
+      "debut": 712,
+      "fin": 714,
+      "dynastie": "conquete",
+      "note": "gouverneur d’Ifriqiya, achève la conquête"
+    },
+    {
+      "nom": "Abd al-Rahman Ier",
+      "titre": "Émir",
+      "debut": 756,
+      "fin": 788,
+      "dynastie": "omeyyades",
+      "note": "fondateur de l’émirat de Cordoue",
+      "cle": true
+    },
+    { "nom": "Hicham Ier", "titre": "Émir", "debut": 788, "fin": 796, "dynastie": "omeyyades" },
+    { "nom": "Al-Hakam Ier", "titre": "Émir", "debut": 796, "fin": 822, "dynastie": "omeyyades" },
+    { "nom": "Abd al-Rahman II", "titre": "Émir", "debut": 822, "fin": 852, "dynastie": "omeyyades" },
+    { "nom": "Muhammad Ier", "titre": "Émir", "debut": 852, "fin": 886, "dynastie": "omeyyades" },
+    { "nom": "Abd Allah", "titre": "Émir", "debut": 888, "fin": 912, "dynastie": "omeyyades" },
+    {
+      "nom": "Abd al-Rahman III",
+      "titre": "Émir, puis calife",
+      "debut": 912,
+      "fin": 961,
+      "dynastie": "omeyyades",
+      "personne": "abd-al-rahman-iii",
+      "note": "calife en 929",
+      "cle": true
+    },
+    {
+      "nom": "Al-Hakam II",
+      "titre": "Calife",
+      "debut": 961,
+      "fin": 976,
+      "dynastie": "omeyyades",
+      "note": "grand bibliophile"
+    },
+    {
+      "nom": "Hicham II",
+      "titre": "Calife",
+      "debut": 976,
+      "fin": 1013,
+      "dynastie": "omeyyades",
+      "note": "dominé par son vizir al-Mansur"
+    },
+    {
+      "nom": "Al-Mansur (Almanzor)",
+      "titre": "Vizir (hajib)",
+      "debut": 978,
+      "fin": 1002,
+      "dynastie": "omeyyades",
+      "note": "véritable maître d’al-Andalus",
+      "cle": true
+    },
+    {
+      "nom": "Al-Mutamid",
+      "titre": "Roi de Séville",
+      "debut": 1069,
+      "fin": 1091,
+      "dynastie": "berberes",
+      "note": "roi poète, détrôné par les Almoravides"
+    },
+    {
+      "nom": "Youssef ibn Tachfin",
+      "titre": "Émir almoravide",
+      "debut": 1086,
+      "fin": 1106,
+      "dynastie": "berberes",
+      "note": "vainqueur à Zalaca",
+      "cle": true
+    },
+    {
+      "nom": "Abu Yusuf Yaqub al-Mansur",
+      "titre": "Calife almohade",
+      "debut": 1184,
+      "fin": 1199,
+      "dynastie": "berberes",
+      "note": "vainqueur à Alarcos (1195)"
+    },
+    {
+      "nom": "Muhammad al-Nasir",
+      "titre": "Calife almohade",
+      "debut": 1199,
+      "fin": 1213,
+      "dynastie": "berberes",
+      "note": "vaincu à Las Navas de Tolosa"
+    },
+    {
+      "nom": "Muhammad Ier",
+      "titre": "Émir de Grenade",
+      "debut": 1238,
+      "fin": 1273,
+      "dynastie": "nasrides",
+      "note": "fondateur du royaume, lance l’Alhambra",
+      "cle": true
+    },
+    { "nom": "Yusuf Ier", "titre": "Émir de Grenade", "debut": 1333, "fin": 1354, "dynastie": "nasrides" },
+    {
+      "nom": "Muhammad V",
+      "titre": "Émir de Grenade",
+      "debut": 1354,
+      "fin": 1391,
+      "dynastie": "nasrides",
+      "note": "fait bâtir la cour des Lions"
+    },
+    {
+      "nom": "Boabdil (Muhammad XII)",
+      "titre": "Émir de Grenade",
+      "debut": 1482,
+      "fin": 1492,
+      "dynastie": "nasrides",
+      "note": "dernier émir, il rend Grenade",
+      "cle": true
+    }
   ],
   "personnages": [
     {
+      "nom": "Abd al-Rahman III",
+      "role": "Calife de Cordoue",
+      "description": "Il restaure l’unité d’al-Andalus, se proclame calife et fait de Cordoue l’une des capitales du monde.",
+      "dates": "889 → 961",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Abd_al-Rahman_III",
+      "ref": "abd-al-rahman-iii"
+    },
+    {
       "nom": "Averroès (Ibn Rushd)",
-      "role": "Philosophe et Médecin",
-      "description": "Le grand commentateur d'Aristote, tentant de concilier rationalisme philosophique et révélation islamique.",
-      "dates": "1126 à 1198",
-      "wikiUrl": "https://fr.wikipedia.org/wiki/Averro%C3%A8s"
+      "role": "Philosophe, médecin et juge",
+      "description": "Grand commentateur d’Aristote, il défend l’accord entre la philosophie et la foi.",
+      "dates": "1126 → 1198",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Averro%C3%A8s",
+      "ref": "averroes"
     },
     {
       "nom": "Maïmonide",
-      "role": "Philosophe juif",
-      "description": "Grand médecin et théologien de la diaspora séfarade de Cordoue.",
-      "dates": "1138 à 1204",
-      "wikiUrl": "https://fr.wikipedia.org/wiki/Mo%C3%AFse_Ma%C3%AFmonide"
+      "role": "Philosophe et médecin juif",
+      "description": "Né à Cordoue, il fuit les persécutions almohades et devient médecin au Caire ; grand penseur du judaïsme.",
+      "dates": "1138 → 1204",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Ma%C3%AFmonide",
+      "ref": "maimonide"
+    },
+    {
+      "nom": "Abulcasis (al-Zahrawi)",
+      "role": "Médecin et chirurgien",
+      "description": "Médecin de Cordoue, auteur d’une encyclopédie médicale qui décrit plus de 200 instruments de chirurgie.",
+      "dates": "936 → 1013",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Abu_al-Qasim_al-Zahrawi"
+    },
+    {
+      "nom": "Ibn Hazm",
+      "role": "Poète et penseur",
+      "description": "Auteur du Collier de la colombe, un traité sur l’amour devenu un classique de la littérature arabe.",
+      "dates": "994 → 1064",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Ibn_Hazm"
     }
   ],
   "guerres": [
     {
+      "nom": "Conquête omeyyade de l’Hispanie",
+      "annee": 711,
+      "adversaires": ["Royaume wisigoth (Rodéric)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Omeyyades (Tariq ibn Ziyad)",
+      "consequences": "Le roi wisigoth est tué au Guadalete ; en quelques années, presque toute la péninsule passe sous domination musulmane.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Conqu%C3%AAte_musulmane_de_la_p%C3%A9ninsule_Ib%C3%A9rique"
+    },
+    {
+      "nom": "Conquête omeyyade de l’Hispanie",
+      "annee": 711,
+      "adversaires": ["Royaume wisigoth (Rodéric)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Omeyyades (Tariq ibn Ziyad)",
+      "consequences": "Le roi wisigoth est tué au Guadalete ; en quelques années, presque toute la péninsule passe sous domination musulmane.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Conqu%C3%AAte_musulmane_de_la_p%C3%A9ninsule_Ib%C3%A9rique"
+    },
+    {
       "nom": "Bataille de Las Navas de Tolosa",
       "annee": 1212,
       "adversaires": ["Castille, Aragon et Navarre", "Croisés européens"],
-      "allies": ["Empire Almohade"],
-      "morts": "Très lourdes pertes dans les rangs almohades",
+      "allies": ["Empire almohade"],
+      "morts": "Très lourdes dans l’armée almohade",
       "vainqueur": "Royaumes chrétiens (Reconquista)",
       "consequences": "La puissance militaire almohade en péninsule est brisée. Le sud de l'Espagne s'ouvre à la reconquête chrétienne.",
       "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Las_Navas_de_Tolosa"
     }
   ],
-  "sciences": "Al-Andalus est le laboratoire de l'Europe. Ils introduisent les moulins à vent, le papier, l'astrolabe, et révolutionnent l'agriculture par de vastes réseaux d'irrigation (acclimatant le riz, les agrumes, le coton). La chirurgie fait un bond avec Abulcasis (créateur de centaines d'instruments médicaux). La bibliothèque de Cordoue compte 400 000 manuscrits (quand les monastères français en comptaient 400).",
-  "croyancesText": "Terre de la 'Convivencia' (coexistence). Sous le droit islamique, les Chrétiens et les Juifs ont le statut de 'Dhimmis' : ils sont libres de pratiquer leur foi et de se gouverner, en échange d'un impôt spécifique de soumission (la Jizya). Bien que n'étant pas une société égalitaire au sens moderne, cette tolérance a permis une effervescence théologique, poétique et scientifique unique au monde.",
-  "diplomatie": "La politique andalouse est minée par les clivages ethniques internes (Arabes de souche, Berbères d'Afrique du Nord, Slaves mercenaires, Espagnols convertis). Après la dislocation du Califat puissant, les roitelets des Taïfas préfèrent souvent s'allier avec les rois chrétiens du Nord et payer des tributs (Parias) pour faire la guerre à leurs frères musulmans voisins.",
-  "documentaires": [{ "titre": "Al-Andalus, l'Espagne et le temps des califes", "url": "https://fr.wikipedia.org/wiki/Al-Andalus" }]
+  "sciences": "Al-Andalus transmet à l’Europe une partie des savoirs grecs, persans et indiens conservés et enrichis par les savants arabes : astronomie, mathématiques, médecine. Après la prise de Tolède par la Castille (1085), des traducteurs y font passer de nombreux livres de l’arabe au latin. Le papier y est fabriqué dès le XIe siècle, à Xàtiva. L’agriculture irriguée introduit le riz, les agrumes, le coton et la canne à sucre. Abulcasis décrit des centaines d’instruments de chirurgie.",
+  "croyancesText": "L’islam est la religion du pouvoir, mais chrétiens et juifs ont le statut de « protégés » (dhimmis) : ils peuvent pratiquer leur religion en payant un impôt spécial, mais n’ont pas les mêmes droits que les musulmans. Cette coexistence, parfois idéalisée sous le nom de « convivencia », connaît des périodes de tolérance et de persécution, notamment sous les Almohades, qui poussent Maïmonide à l’exil.",
+  "diplomatie": "Al-Andalus est traversé par des divisions entre Arabes, Berbères, convertis et esclaves militaires. Après 1031, les rois des taïfas s’allient parfois aux rois chrétiens contre leurs voisins musulmans et leur paient tribut (les parias). Ils font appel aux empires berbères du Maroc, qui finissent par les remplacer.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": {
+      "valeur": "Cordoue, puis Séville et Grenade",
+      "precision": "Cordoue sous les Omeyyades, Séville sous les Almohades, Grenade sous les Nasrides"
+    },
+    "regimes": {
+      "valeur": "Émirat, puis califat, puis royaumes",
+      "precision": "émirs et califes omeyyades, royaumes des taïfas, empires berbères, émirat de Grenade"
+    },
+    "langues": {
+      "valeur": "Arabe, mozarabe, hébreu, berbère",
+      "precision": "l’arabe est la langue du pouvoir et de la culture"
+    },
+    "religion": { "valeur": "Islam sunnite", "precision": "avec d’importantes communautés chrétiennes et juives" },
+    "apogee": { "valeur": "Xe siècle", "precision": "califat de Cordoue, sous Abd al-Rahman III" },
+    "population": {
+      "valeur": "Peut-être 5 à 7 millions",
+      "precision": "au Xe siècle (estimation) ; Cordoue est l’une des plus grandes villes d’Europe"
+    },
+    "monnaie": { "valeur": "Dinar d’or et dirham d’argent" },
+    "duree": { "valeur": "Près de 800 ans" },
+    "aujourdhui": { "valeur": "Espagne et Portugal", "precision": "surtout l’Andalousie, nom hérité d’al-Andalus" }
+  },
+  "essentiel": [
+    "En 711, une armée arabo-berbère menée par Tariq ibn Ziyad [[conquete-omeyyade-hispanie|conquiert le royaume wisigoth]] en quelques années.",
+    "Un prince omeyyade rescapé, Abd al-Rahman Ier, fonde en 756 un émirat indépendant à Cordoue ; [[abd-al-rahman-iii|Abd al-Rahman III]] se proclame calife en 929.",
+    "Cordoue, avec sa [[mosquee-de-cordoue|grande mosquée]], devient un centre de savoir où travaillent des penseurs comme [[averroes|Averroès]] et [[maimonide|Maïmonide]].",
+    "Après 1031, al-Andalus se divise en petits royaumes, les taïfas ; les empires berbères almoravide et almohade tentent d’arrêter les chrétiens.",
+    "Le dernier royaume, Grenade, celui de l’[[alhambra|Alhambra]], [[chute-de-grenade|tombe en 1492]]."
+  ],
+  "periodes": [
+    {
+      "nom": "La conquête et l’émirat",
+      "debut": 711,
+      "fin": 929,
+      "resume": "Les musulmans conquièrent presque toute la péninsule. Les Omeyyades de Cordoue gouvernent un émirat indépendant de Bagdad.",
+      "evenements": [
+        { "annee": 711, "evenement": "Bataille du Guadalete", "ref": "conquete-omeyyade-hispanie" },
+        { "annee": 756, "evenement": "Émirat omeyyade" },
+        { "annee": 785, "evenement": "Début de la grande mosquée de Cordoue" }
+      ]
+    },
+    {
+      "nom": "Le califat de Cordoue",
+      "debut": 929,
+      "fin": 1031,
+      "resume": "Al-Andalus est à son apogée : Cordoue rayonne par ses bibliothèques, ses palais (Madinat al-Zahra) et ses savants. Le vizir al-Mansur mène des raids dévastateurs contre les chrétiens.",
+      "evenements": [
+        { "annee": 929, "evenement": "Proclamation du califat" },
+        { "annee": 997, "evenement": "Al-Mansur pille Saint-Jacques-de-Compostelle" }
+      ]
+    },
+    {
+      "nom": "Taïfas et empires berbères",
+      "debut": 1031,
+      "fin": 1238,
+      "resume": "Divisés, les royaumes des taïfas paient tribut aux chrétiens. Les Almoravides puis les Almohades, venus du Maroc, unifient un temps al-Andalus.",
+      "evenements": [
+        { "annee": 1085, "evenement": "Prise de Tolède par la Castille" },
+        { "annee": 1212, "evenement": "Défaite de Las Navas de Tolosa" }
+      ]
+    },
+    {
+      "nom": "Le royaume de Grenade",
+      "debut": 1238,
+      "fin": 1492,
+      "resume": "Seul le royaume nasride de Grenade subsiste, en payant tribut à la Castille. Il bâtit l’Alhambra et tombe en 1492.",
+      "evenements": [
+        { "annee": 1238, "evenement": "Fondation du royaume nasride" },
+        { "annee": 1492, "evenement": "Chute de Grenade", "ref": "chute-de-grenade" }
+      ]
+    }
+  ],
+  "regimes": [
+    { "id": "omeyyades", "nom": "Émirat et califat omeyyades", "debut": 711, "fin": 1031 },
+    { "id": "taifas", "nom": "Taïfas et empires berbères", "debut": 1031, "fin": 1238 },
+    { "id": "nasrides", "nom": "Émirat de Grenade", "debut": 1238, "fin": 1492 }
+  ],
+  "dynasties": [
+    { "id": "conquete", "nom": "Les conquérants", "debut": 711, "fin": 714, "regime": "omeyyades" },
+    {
+      "id": "omeyyades",
+      "nom": "Les Omeyyades de Cordoue",
+      "debut": 756,
+      "fin": 1031,
+      "regime": "omeyyades",
+      "note": "Sélection."
+    },
+    {
+      "id": "berberes",
+      "nom": "Taïfas, Almoravides et Almohades",
+      "debut": 1069,
+      "fin": 1213,
+      "regime": "taifas",
+      "note": "Sélection."
+    },
+    {
+      "id": "nasrides",
+      "nom": "Les Nasrides de Grenade",
+      "debut": 1238,
+      "fin": 1492,
+      "regime": "nasrides",
+      "note": "Sélection."
+    }
+  ],
+  "societe": "Une élite arabe et berbère domine, mais la majorité de la population descend d’Hispano-Romains et de Wisigoths, souvent convertis à l’islam (muladis). Les chrétiens arabisés (mozarabes) et les juifs forment d’importantes minorités.",
+  "economie": "Agriculture irriguée très productive, artisanat de luxe (soie, cuir de Cordoue, céramique), commerce avec le Maghreb, l’Orient et les royaumes chrétiens.",
+  "decouvertes": ["mosquee-de-cordoue", "alhambra"],
+  "arts": "Grande mosquée de Cordoue, palais de Madinat al-Zahra, Giralda de Séville, Alhambra de Grenade : un art de l’arc, de la céramique, du stuc sculpté et des jardins.",
+  "quotidien": "Les villes ont des bains publics, des souks et des jardins irrigués. La poésie et la musique sont très appréciées ; le musicien Ziryab apporte à Cordoue des modes venues de Bagdad.",
+  "heritage": [
+    {
+      "titre": "La langue",
+      "texte": "Des milliers de mots espagnols viennent de l’arabe (aceite, azúcar, alcalde…), et en français aussi : sucre, coton, algèbre, chiffre."
+    },
+    {
+      "titre": "Des monuments",
+      "texte": "La mosquée-cathédrale de Cordoue et l’Alhambra de Grenade sont parmi les monuments les plus visités d’Espagne."
+    },
+    {
+      "titre": "La transmission des savoirs",
+      "texte": "Les traductions faites en Espagne ont fait redécouvrir Aristote et la science arabe à l’Europe."
+    }
+  ],
+  "aSavoir": [
+    "Les 400 000 livres de la bibliothèque du calife al-Hakam II sont un chiffre transmis par des auteurs plus tardifs, sans doute exagéré."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Al-Andalus",
+    { "titre": "Encyclopædia Britannica — al-Andalus", "url": "https://www.britannica.com/place/al-Andalus" }
+  ]
 }

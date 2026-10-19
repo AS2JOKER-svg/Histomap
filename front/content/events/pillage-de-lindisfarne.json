@@ -1,0 +1,20 @@
+{
+  "id": "pillage-de-lindisfarne",
+  "nom": "Pillage de Lindisfarne",
+  "annee": 793,
+  "dates": "8 juin 793",
+  "lieu": "Île de Lindisfarne (nord-est de l’Angleterre)",
+  "description": "Des Vikings venus de Norvège pillent le monastère de Lindisfarne, l’un des plus célèbres d’Angleterre : c’est le début de l’époque viking.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Les pillards débarquent sur l’île, tuent des moines, en emmènent d’autres comme esclaves et emportent les objets précieux."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Le choc est immense dans toute la chrétienté : le savant Alcuin y voit une punition divine. Les raids se multiplient les années suivantes."
+    }
+  ],
+  "apres": "bataille-de-stamford-bridge",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Sac_de_Lindisfarne"
+}

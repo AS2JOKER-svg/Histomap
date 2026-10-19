@@ -1,0 +1,20 @@
+{
+  "id": "conquete-omeyyade-hispanie",
+  "nom": "Conquête musulmane de l’Hispanie",
+  "annee": 711,
+  "fin": 718,
+  "dates": "711 → vers 718",
+  "lieu": "Péninsule Ibérique",
+  "description": "Une armée arabo-berbère, menée par Tariq ibn Ziyad, traverse le détroit de Gibraltar, bat le roi wisigoth Rodéric et conquiert presque toute la péninsule en quelques années.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Tariq débarque au pied du rocher qui portera son nom (Djebel Tariq, Gibraltar). Le roi Rodéric est tué au Guadalete. Tolède, la capitale wisigothe, tombe, puis le gouverneur Moussa ibn Noçaïr achève la conquête."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Seules les montagnes du nord échappent aux conquérants : c’est de là que partira la Reconquista. Al-Andalus devient une province du califat omeyyade de Damas."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Conqu%C3%AAte_musulmane_de_la_p%C3%A9ninsule_Ib%C3%A9rique"
+}

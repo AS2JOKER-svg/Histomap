@@ -15,5 +15,6 @@
       "texte": "Églises et palais sont pillés ; les chevaux de bronze de Saint-Marc, à Venise, viennent de ce butin. Un Empire latin est fondé, et la rupture entre catholiques et orthodoxes devient profonde."
     }
   ],
-  "wikiUrl": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Constantinople_(1204)"
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Constantinople_(1204)",
+  "liens": [{ "ref": "enrico-dandolo", "relation": "Le doge de Venise qui détourne la croisade" }]
 }

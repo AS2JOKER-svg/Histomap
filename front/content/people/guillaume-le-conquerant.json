@@ -1,0 +1,25 @@
+{
+  "id": "guillaume-le-conquerant",
+  "nom": "Guillaume le Conquérant",
+  "nomComplet": "Guillaume Ier d’Angleterre",
+  "role": "Duc de Normandie et roi d’Angleterre",
+  "roles": ["Duc de Normandie", "Roi d’Angleterre"],
+  "dates": "vers 1027 → 1087",
+  "naissance": 1027,
+  "mort": 1087,
+  "description": "Duc de Normandie qui débarque en Angleterre en 1066, bat le roi Harold à Hastings et devient roi. Il transforme profondément le pays.",
+  "reperes": [{ "label": "Duc de Normandie", "valeur": "1035 → 1087" }, { "label": "Roi d’Angleterre", "valeur": "1066 → 1087" }],
+  "essentiel": [
+    "Fils illégitime du duc Robert, on l’appelle d’abord « Guillaume le Bâtard ».",
+    "Il revendique la couronne promise, selon lui, par Édouard le Confesseur.",
+    "Il gagne la [[bataille-de-hastings|bataille de Hastings]] et est couronné à Westminster le jour de Noël 1066.",
+    "Il fait bâtir des châteaux, dont la tour de Londres, et rédiger le Domesday Book."
+  ],
+  "chronologie": [
+    { "annee": 1035, "texte": "Devient duc de Normandie, enfant" },
+    { "annee": 1066, "texte": "Victoire de Hastings et couronnement", "ref": "bataille-de-hastings" },
+    { "annee": 1086, "texte": "Domesday Book" },
+    { "annee": 1087, "texte": "Mort à Rouen" }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Guillaume_le_Conqu%C3%A9rant"
+}

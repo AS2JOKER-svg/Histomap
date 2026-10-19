@@ -1,0 +1,18 @@
+{
+  "id": "averroes",
+  "nom": "Averroès",
+  "nomComplet": "Abu al-Walid Muhammad ibn Rushd",
+  "role": "Philosophe, médecin et juge",
+  "roles": ["Philosophe", "Médecin", "Juge"],
+  "dates": "1126 → 1198",
+  "naissance": 1126,
+  "mort": 1198,
+  "description": "Philosophe de Cordoue, grand commentateur d’Aristote : il défend l’idée que la philosophie et la religion ne s’opposent pas. Son œuvre marque la pensée européenne.",
+  "essentiel": [
+    "Juge à Séville et à Cordoue, médecin du calife almohade.",
+    "Ses commentaires d’Aristote, traduits en latin, font de lui « le Commentateur » pour les savants européens.",
+    "Tombé en disgrâce, ses livres sont brûlés peu avant sa mort, à Marrakech."
+  ],
+  "liens": [{ "ref": "maimonide", "relation": "Un autre grand penseur né à Cordoue" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Averro%C3%A8s"
+}

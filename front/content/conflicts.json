@@ -364,5 +364,21 @@
   "Croisades hussites": {
     "coords": [14.42, 50.08],
     "lieu": "Bohême"
+  },
+  "Conquête normande de l’Angleterre": {
+    "coords": [0.49, 50.91],
+    "lieu": "Hastings"
+  },
+  "Guerre des Deux-Roses": {
+    "coords": [-1.41, 52.59],
+    "lieu": "Bosworth"
+  },
+  "Bataille de Stamford Bridge": {
+    "coords": [-0.91, 53.99],
+    "lieu": "Stamford Bridge (près d’York)"
+  },
+  "Conquête omeyyade de l’Hispanie": {
+    "coords": [-5.8, 36.5],
+    "lieu": "Guadalete (Andalousie)"
   }
 }

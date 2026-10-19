@@ -10,54 +10,488 @@
   "row": 4,
   "isRiver": false,
   "capitale": "Londres",
-  "description": "Une île marquée par l'invasion normande, forgeant l'une des royautés les plus structurées d'Europe et les bases du parlementarisme moderne.",
+  "description": "Le royaume d’Angleterre, unifié au Xe siècle, conquis par les Normands en 1066, puis gouverné par les Plantagenêts qui règnent aussi sur une grande partie de la France.",
   "territories": ["England", "English territory", "Angevin Empire"],
   "datesCles": [
     {
+      "annee": 927,
+      "evenement": "Unification",
+      "info": "Æthelstan, roi du Wessex, prend York et devient le premier roi de toute l’Angleterre."
+    },
+    {
       "annee": 1066,
       "evenement": "Bataille de Hastings",
-      "info": "Guillaume le Conquérant écrase les Anglo-Saxons et prend la couronne."
+      "info": "Guillaume le Conquérant écrase les Anglo-Saxons et prend la couronne.",
+      "ref": "bataille-de-hastings"
+    },
+    {
+      "annee": 1086,
+      "evenement": "Domesday Book",
+      "info": "Guillaume fait recenser toutes les terres et tous les biens du royaume."
     },
     {
       "annee": 1170,
       "evenement": "Meurtre de Thomas Becket",
-      "info": "L'archevêque de Cantorbéry est assassiné dans sa cathédrale sur ordre du roi."
+      "info": "L’archevêque de Cantorbéry est tué dans sa cathédrale par des chevaliers du roi Henri II.",
+      "ref": "assassinat-de-thomas-becket"
     },
     {
       "annee": 1215,
       "evenement": "Magna Carta",
-      "info": "Les barons forcent Jean sans Terre à signer la 'Grande Charte', limitant l'absolutisme royal."
+      "info": "Les barons forcent Jean sans Terre à accepter la Grande Charte, qui limite le pouvoir du roi.",
+      "ref": "magna-carta"
     },
-    { "annee": 1485, "evenement": "Fin de la Guerre des Deux-Roses", "info": "La Maison Tudor s'empare du trône." }
+    {
+      "annee": 1348,
+      "evenement": "La peste noire",
+      "info": "L’épidémie tue peut-être la moitié de la population.",
+      "ref": "peste-noire"
+    },
+    {
+      "annee": 1415,
+      "evenement": "Bataille d’Azincourt",
+      "info": "Henri V écrase la chevalerie française.",
+      "ref": "bataille-d-azincourt"
+    },
+    {
+      "annee": 1485,
+      "evenement": "Fin de la guerre des Deux-Roses",
+      "info": "Henri Tudor bat Richard III à Bosworth et fonde la dynastie Tudor."
+    }
   ],
   "dirigeants": [
-    { "titre": "Roi (Normand)", "nom": "Guillaume", "surnom": "Le Conquérant", "debut": 1066, "fin": 1087 },
-    { "titre": "Roi (Plantagenêt)", "nom": "Richard Ier", "surnom": "Cœur de Lion", "debut": 1189, "fin": 1199 },
-    { "titre": "Roi", "nom": "Henri V", "debut": 1413, "fin": 1422 }
+    {
+      "nom": "Æthelstan",
+      "titre": "Roi des Anglais",
+      "debut": 927,
+      "fin": 939,
+      "dynastie": "wessex",
+      "note": "premier roi de toute l’Angleterre"
+    },
+    { "nom": "Edmond Ier", "titre": "Roi", "debut": 939, "fin": 946, "dynastie": "wessex" },
+    { "nom": "Eadred", "titre": "Roi", "debut": 946, "fin": 955, "dynastie": "wessex" },
+    { "nom": "Eadwig", "titre": "Roi", "debut": 955, "fin": 959, "dynastie": "wessex" },
+    { "nom": "Edgar", "titre": "Roi", "surnom": "le Pacifique", "debut": 959, "fin": 975, "dynastie": "wessex" },
+    {
+      "nom": "Édouard",
+      "titre": "Roi",
+      "surnom": "le Martyr",
+      "debut": 975,
+      "fin": 978,
+      "dynastie": "wessex",
+      "note": "assassiné"
+    },
+    {
+      "nom": "Æthelred II",
+      "titre": "Roi",
+      "surnom": "le Malavisé",
+      "debut": 978,
+      "fin": 1016,
+      "dynastie": "wessex",
+      "note": "chassé un temps par le Danois Sven (1013-1014)"
+    },
+    { "nom": "Edmond II", "titre": "Roi", "surnom": "Côte-de-Fer", "debut": 1016, "fin": 1016, "dynastie": "wessex" },
+    {
+      "nom": "Knut",
+      "titre": "Roi d’Angleterre, du Danemark et de Norvège",
+      "surnom": "le Grand",
+      "debut": 1016,
+      "fin": 1035,
+      "dynastie": "wessex",
+      "personne": "knut-le-grand"
+    },
+    { "nom": "Harold Ier", "titre": "Roi", "surnom": "Pied-de-Lièvre", "debut": 1035, "fin": 1040, "dynastie": "wessex" },
+    { "nom": "Hardeknut", "titre": "Roi", "debut": 1040, "fin": 1042, "dynastie": "wessex" },
+    {
+      "nom": "Édouard",
+      "titre": "Roi",
+      "surnom": "le Confesseur",
+      "debut": 1042,
+      "fin": 1066,
+      "dynastie": "wessex",
+      "note": "fait bâtir l’abbaye de Westminster"
+    },
+    { "nom": "Harold II", "titre": "Roi", "debut": 1066, "fin": 1066, "dynastie": "wessex", "note": "tué à Hastings" },
+    {
+      "nom": "Guillaume Ier",
+      "titre": "Roi",
+      "surnom": "le Conquérant",
+      "debut": 1066,
+      "fin": 1087,
+      "dynastie": "normands",
+      "personne": "guillaume-le-conquerant",
+      "cle": true
+    },
+    {
+      "nom": "Guillaume II",
+      "titre": "Roi",
+      "surnom": "le Roux",
+      "debut": 1087,
+      "fin": 1100,
+      "dynastie": "normands",
+      "note": "tué d’une flèche à la chasse"
+    },
+    { "nom": "Henri Ier", "titre": "Roi", "surnom": "Beauclerc", "debut": 1100, "fin": 1135, "dynastie": "normands" },
+    {
+      "nom": "Étienne",
+      "titre": "Roi",
+      "debut": 1135,
+      "fin": 1154,
+      "dynastie": "normands",
+      "note": "règne contesté par sa cousine Mathilde (l’Anarchie)"
+    },
+    {
+      "nom": "Henri II",
+      "titre": "Roi",
+      "debut": 1154,
+      "fin": 1189,
+      "dynastie": "plantagenets",
+      "note": "règne de l’Écosse aux Pyrénées ; époux d’Aliénor d’Aquitaine",
+      "cle": true
+    },
+    {
+      "nom": "Richard Ier",
+      "titre": "Roi",
+      "surnom": "Cœur de Lion",
+      "debut": 1189,
+      "fin": 1199,
+      "dynastie": "plantagenets",
+      "personne": "richard-coeur-de-lion",
+      "cle": true
+    },
+    {
+      "nom": "Jean",
+      "titre": "Roi",
+      "surnom": "sans Terre",
+      "debut": 1199,
+      "fin": 1216,
+      "dynastie": "plantagenets",
+      "note": "perd la Normandie ; accepte la Grande Charte",
+      "cle": true
+    },
+    {
+      "nom": "Henri III",
+      "titre": "Roi",
+      "debut": 1216,
+      "fin": 1272,
+      "dynastie": "plantagenets",
+      "note": "affronte la révolte de Simon de Montfort"
+    },
+    {
+      "nom": "Édouard Ier",
+      "titre": "Roi",
+      "debut": 1272,
+      "fin": 1307,
+      "dynastie": "plantagenets",
+      "note": "conquiert le pays de Galles"
+    },
+    {
+      "nom": "Édouard II",
+      "titre": "Roi",
+      "debut": 1307,
+      "fin": 1327,
+      "dynastie": "plantagenets",
+      "note": "battu par les Écossais à Bannockburn, déposé"
+    },
+    {
+      "nom": "Édouard III",
+      "titre": "Roi",
+      "debut": 1327,
+      "fin": 1377,
+      "dynastie": "plantagenets",
+      "note": "lance la guerre de Cent Ans",
+      "cle": true
+    },
+    {
+      "nom": "Richard II",
+      "titre": "Roi",
+      "debut": 1377,
+      "fin": 1399,
+      "dynastie": "plantagenets",
+      "note": "déposé par son cousin"
+    },
+    {
+      "nom": "Henri IV",
+      "titre": "Roi",
+      "debut": 1399,
+      "fin": 1413,
+      "dynastie": "lancastre-york",
+      "note": "premier roi de la maison de Lancastre"
+    },
+    {
+      "nom": "Henri V",
+      "titre": "Roi",
+      "debut": 1413,
+      "fin": 1422,
+      "dynastie": "lancastre-york",
+      "note": "vainqueur à Azincourt",
+      "cle": true
+    },
+    {
+      "nom": "Henri VI",
+      "titre": "Roi",
+      "debut": 1422,
+      "fin": 1471,
+      "dynastie": "lancastre-york",
+      "note": "roi bébé, aussi proclamé roi de France ; déposé en 1461"
+    },
+    {
+      "nom": "Édouard IV",
+      "titre": "Roi",
+      "debut": 1461,
+      "fin": 1483,
+      "dynastie": "lancastre-york",
+      "note": "premier roi de la maison d’York"
+    },
+    {
+      "nom": "Édouard V",
+      "titre": "Roi",
+      "debut": 1483,
+      "fin": 1483,
+      "dynastie": "lancastre-york",
+      "note": "enfant, disparu dans la tour de Londres"
+    },
+    {
+      "nom": "Richard III",
+      "titre": "Roi",
+      "debut": 1483,
+      "fin": 1485,
+      "dynastie": "lancastre-york",
+      "note": "tué à Bosworth ; son squelette a été retrouvé en 2012"
+    },
+    {
+      "nom": "Henri VII",
+      "titre": "Roi",
+      "debut": 1485,
+      "fin": 1509,
+      "dynastie": "tudor",
+      "note": "fondateur des Tudor",
+      "cle": true
+    }
   ],
   "personnages": [
     {
-      "nom": "Éléonore d'Aquitaine",
+      "nom": "Guillaume le Conquérant",
+      "role": "Duc de Normandie et roi",
+      "description": "Il conquiert l’Angleterre en 1066 et impose une nouvelle aristocratie normande.",
+      "dates": "vers 1027 → 1087",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guillaume_le_Conqu%C3%A9rant",
+      "ref": "guillaume-le-conquerant"
+    },
+    {
+      "nom": "Aliénor d’Aquitaine",
       "role": "Reine",
-      "description": "L'une des femmes les plus puissantes d'Europe, reine de France puis d'Angleterre, mère de Richard Cœur de Lion.",
-      "dates": "1122 à 1204",
-      "wikiUrl": "https://fr.wikipedia.org/wiki/%C3%89l%C3%A9onore_d'Aquitaine"
+      "description": "Duchesse d’Aquitaine, reine de France puis d’Angleterre, mère de Richard Cœur de Lion et de Jean sans Terre.",
+      "dates": "vers 1122 → 1204",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Ali%C3%A9nor_d%27Aquitaine",
+      "ref": "eleonore-d-aquitaine"
+    },
+    {
+      "nom": "Richard Cœur de Lion",
+      "role": "Roi",
+      "description": "Roi chevalier qui passe presque tout son règne en croisade ou en guerre en France.",
+      "dates": "1157 → 1199",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Richard_C%C5%93ur_de_Lion",
+      "ref": "richard-coeur-de-lion"
+    },
+    {
+      "nom": "Thomas Becket",
+      "role": "Archevêque de Cantorbéry",
+      "description": "Ami puis adversaire d’Henri II, il est tué dans sa cathédrale en 1170 et devient un saint très vénéré.",
+      "dates": "vers 1120 → 1170",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Thomas_Becket"
+    },
+    {
+      "nom": "Geoffrey Chaucer",
+      "role": "Poète",
+      "description": "Auteur des Contes de Canterbury, il contribue à faire de l’anglais une langue littéraire.",
+      "dates": "vers 1343 → 1400",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Geoffrey_Chaucer"
     }
   ],
   "guerres": [
+    {
+      "nom": "Conquête normande de l’Angleterre",
+      "annee": 1066,
+      "adversaires": ["Royaume anglo-saxon (Harold II)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Normands (Guillaume)",
+      "consequences": "Guillaume devient roi d’Angleterre ; l’aristocratie anglo-saxonne est remplacée par des seigneurs normands.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Conqu%C3%AAte_normande_de_l%27Angleterre"
+    },
+    {
+      "nom": "Conquête normande de l’Angleterre",
+      "annee": 1066,
+      "adversaires": ["Royaume anglo-saxon (Harold II)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Normands (Guillaume)",
+      "consequences": "Guillaume devient roi d’Angleterre ; l’aristocratie anglo-saxonne est remplacée par des seigneurs normands.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Conqu%C3%AAte_normande_de_l%27Angleterre"
+    },
     {
       "nom": "Guerre de Cent Ans",
       "annee": 1337,
       "adversaires": ["Royaume de France"],
       "allies": ["Bourguignons (temporairement)"],
-      "morts": "Catastrophe démographique",
+      "morts": "Inconnues ; la guerre, les famines et la peste ravagent le royaume de France",
       "vainqueur": "France",
-      "consequences": "L'Angleterre perd tous ses territoires continentaux. Repliée sur son île, elle sombre dans une violente guerre civile (la guerre des Deux-Roses).",
+      "consequences": "L’Angleterre perd tous ses territoires en France, sauf Calais. Deux ans plus tard commence la guerre des Deux-Roses.",
       "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_de_Cent_Ans"
+    },
+    {
+      "nom": "Guerre des Deux-Roses",
+      "annee": 1455,
+      "adversaires": ["Maison d’York"],
+      "allies": ["Maison de Lancastre"],
+      "morts": "Inconnues ; une grande partie de la haute noblesse est tuée",
+      "vainqueur": "Henri Tudor",
+      "consequences": "Guerre de 1455 à 1487. Henri VII Tudor, héritier des Lancastre, épouse Élisabeth d’York et réunit les deux familles.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_des_Deux-Roses"
+    },
+    {
+      "nom": "Guerre des Deux-Roses",
+      "annee": 1455,
+      "adversaires": ["Maison d’York"],
+      "allies": ["Maison de Lancastre"],
+      "morts": "Inconnues ; une grande partie de la haute noblesse est tuée",
+      "vainqueur": "Henri Tudor",
+      "consequences": "Guerre de 1455 à 1487. Henri VII Tudor, héritier des Lancastre, épouse Élisabeth d’York et réunit les deux familles.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_des_Deux-Roses"
     }
   ],
-  "sciences": "Le génie anglais est d'abord juridique et administratif. Ils conçoivent la 'Common Law' (jurisprudence remplaçant les lois féodales locales par un droit royal commun) et rédigent le Domesday Book (1086), le premier grand recensement de toutes les propriétés du royaume. Sur le plan militaire, ils adoptent l'arc long (longbow) gallois, une arme capable de percer les armures de la chevalerie française.",
-  "croyancesText": "Royaume farouchement catholique, l'Angleterre médiévale est marquée par un contrôle royal strict sur l'Église, provoquant des clashs violents (l'assassinat de l'archevêque Thomas Becket en 1170). Vers la fin du Moyen Âge, des théologiens comme John Wyclif (les Lollards) commencent à critiquer la richesse de Rome et traduisent la Bible en anglais, préparant le terrain au schisme anglican.",
-  "diplomatie": "La diplomatie anglaise (l'Empire Plantagenêt) est un paradoxe : le roi d'Angleterre possède la moitié de la France (Normandie, Aquitaine) et est donc, techniquement, le vassal du roi de France. Ce casse-tête diplomatique, couplé à des revendications dynastiques croisées, va dégénérer dans l'un des conflits les plus longs de l'histoire humaine : la Guerre de Cent Ans.",
-  "documentaires": [{ "titre": "L'Empire des Plantagenêts", "url": "https://fr.wikipedia.org/wiki/Royaume_d%27Angleterre" }]
+  "sciences": "L’Angleterre médiévale se distingue par son administration : le Domesday Book (1086) recense les terres et les biens de tout le royaume, et la common law, un droit commun appliqué par les juges royaux, se développe sous Henri II. À Oxford et à Cambridge naissent des universités. Les archers gallois et anglais, armés de l’arc long, jouent un rôle décisif à Crécy et à Azincourt.",
+  "croyancesText": "L’Angleterre est catholique, mais les rois et les évêques s’affrontent parfois, comme Henri II et Thomas Becket. À la fin du XIVe siècle, le théologien John Wyclif critique la richesse de l’Église et fait traduire la Bible en anglais ; ses partisans, les lollards, sont persécutés. Les pèlerinages, comme celui de Cantorbéry, sont très populaires.",
+  "diplomatie": "Les rois d’Angleterre sont aussi ducs de Normandie, puis d’Aquitaine : pour ces terres, ils sont vassaux du roi de France. Ces liens compliqués, et la revendication d’Édouard III sur la couronne de France, mènent à la guerre de Cent Ans (1337-1453).",
+  "documentaires": [],
+  "reperes": {
+    "capitale": {
+      "valeur": "Londres",
+      "precision": "Winchester est aussi une résidence royale importante jusqu’au XIIe siècle"
+    },
+    "regimes": {
+      "valeur": "Monarchie",
+      "precision": "le pouvoir du roi est encadré par la Grande Charte (1215) et le Parlement"
+    },
+    "langues": {
+      "valeur": "Vieil anglais, puis anglo-normand et anglais",
+      "precision": "après 1066, l’élite parle français ; l’anglais revient à la cour au XIVe siècle"
+    },
+    "religion": { "valeur": "Christianisme catholique" },
+    "apogee": {
+      "valeur": "XIIe siècle et vers 1420",
+      "precision": "empire Plantagenêt sous Henri II, conquêtes d’Henri V en France"
+    },
+    "population": {
+      "valeur": "Environ 2 millions en 1086",
+      "precision": "peut-être 5 millions vers 1300, beaucoup moins après la peste noire"
+    },
+    "monnaie": { "valeur": "Livre sterling", "precision": "le penny d’argent est la pièce courante" },
+    "duree": { "valeur": "Plus de 550 ans" },
+    "aujourdhui": {
+      "valeur": "Angleterre (Royaume-Uni)",
+      "precision": "et, selon les époques, le pays de Galles et une partie de la France"
+    }
+  },
+  "essentiel": [
+    "Au Xe siècle, les rois du Wessex unifient l’Angleterre face aux Vikings ; Æthelstan est le premier roi de tout le pays.",
+    "En 1066, le duc de Normandie [[guillaume-le-conquerant|Guillaume]] bat Harold II à [[bataille-de-hastings|Hastings]] et devient roi.",
+    "Henri II Plantagenêt et [[eleonore-d-aquitaine|Aliénor d’Aquitaine]] règnent sur l’Angleterre et l’ouest de la France ; leur fils [[richard-coeur-de-lion|Richard Cœur de Lion]] part en croisade.",
+    "En 1215, les barons imposent la [[magna-carta|Grande Charte]] à Jean sans Terre ; le Parlement se développe au XIIIe siècle.",
+    "La guerre de Cent Ans contre la France, marquée par [[bataille-d-azincourt|Azincourt]], se termine par une défaite, suivie de la guerre des Deux-Roses."
+  ],
+  "periodes": [
+    {
+      "nom": "L’Angleterre anglo-saxonne",
+      "debut": 927,
+      "fin": 1066,
+      "resume": "Les rois du Wessex unifient le pays, mais les attaques vikings reprennent : le Danois Knut le Grand règne même sur l’Angleterre.",
+      "evenements": [
+        { "annee": 1016, "evenement": "Knut le Grand roi d’Angleterre" },
+        { "annee": 1042, "evenement": "Avènement d’Édouard le Confesseur" }
+      ]
+    },
+    {
+      "nom": "Les rois normands",
+      "debut": 1066,
+      "fin": 1154,
+      "resume": "Guillaume impose une aristocratie normande, construit des châteaux et fait recenser le royaume. Une guerre civile, l’Anarchie, oppose ensuite Étienne et Mathilde.",
+      "evenements": [
+        { "annee": 1066, "evenement": "Bataille de Hastings", "ref": "bataille-de-hastings" },
+        { "annee": 1086, "evenement": "Domesday Book" }
+      ]
+    },
+    {
+      "nom": "Les Plantagenêts",
+      "debut": 1154,
+      "fin": 1399,
+      "resume": "Henri II règne de l’Écosse aux Pyrénées. Ses fils perdent la Normandie ; la Grande Charte et le Parlement limitent le pouvoir royal. Édouard III lance la guerre de Cent Ans.",
+      "evenements": [
+        { "annee": 1170, "evenement": "Meurtre de Becket", "ref": "assassinat-de-thomas-becket" },
+        { "annee": 1215, "evenement": "Magna Carta", "ref": "magna-carta" },
+        { "annee": 1346, "evenement": "Victoire de Crécy" },
+        { "annee": 1381, "evenement": "Révolte des paysans" }
+      ]
+    },
+    {
+      "nom": "Lancastre et York",
+      "debut": 1399,
+      "fin": 1492,
+      "resume": "Henri V conquiert le nord de la France, mais son fils perd tout. Les familles de Lancastre et d’York se disputent ensuite le trône (guerre des Deux-Roses), jusqu’à la victoire des Tudor.",
+      "evenements": [
+        { "annee": 1415, "evenement": "Azincourt", "ref": "bataille-d-azincourt" },
+        { "annee": 1453, "evenement": "Fin de la guerre de Cent Ans" },
+        { "annee": 1485, "evenement": "Bataille de Bosworth" }
+      ]
+    }
+  ],
+  "dynasties": [
+    {
+      "id": "wessex",
+      "nom": "Les rois anglo-saxons et danois",
+      "debut": 927,
+      "fin": 1066,
+      "note": "Maison de Wessex, interrompue par des rois danois (Sven, Knut et ses fils)."
+    },
+    { "id": "normands", "nom": "Les Normands", "debut": 1066, "fin": 1154 },
+    { "id": "plantagenets", "nom": "Les Plantagenêts", "debut": 1154, "fin": 1399 },
+    {
+      "id": "lancastre-york",
+      "nom": "Lancastre et York",
+      "debut": 1399,
+      "fin": 1485,
+      "note": "Deux branches des Plantagenêts, rivales pendant la guerre des Deux-Roses."
+    },
+    { "id": "tudor", "nom": "Les Tudor", "debut": 1485, "fin": 1509 }
+  ],
+  "societe": "Après 1066, une aristocratie normande, parlant français, domine les paysans anglo-saxons. Les barons, l’Église et les villes négocient leurs droits avec le roi ; le Parlement, avec ses chevaliers et ses bourgeois, vote les impôts.",
+  "economie": "Agriculture et élevage de moutons : la laine anglaise, exportée vers la Flandre, fait la richesse du royaume. Londres, Bristol et York sont les grandes villes marchandes.",
+  "decouvertes": ["tapisserie-de-bayeux"],
+  "arts": "Cathédrales gothiques (Canterbury, Salisbury, Westminster), châteaux normands (tour de Londres), tapisserie de Bayeux, enluminures, poésie de Chaucer.",
+  "quotidien": "La plupart des Anglais sont des paysans attachés à un seigneur. Les foires, les fêtes religieuses et les pèlerinages rythment l’année.",
+  "heritage": [
+    {
+      "titre": "Magna Carta",
+      "texte": "La Grande Charte est considérée comme un texte fondateur des libertés en Angleterre et aux États-Unis."
+    },
+    {
+      "titre": "Le Parlement",
+      "texte": "Le Parlement britannique, l’un des plus anciens du monde, descend des assemblées du XIIIe siècle."
+    },
+    {
+      "titre": "La langue anglaise",
+      "texte": "Après 1066, des milliers de mots français entrent dans l’anglais : beef, pork, justice, government…"
+    }
+  ],
+  "aSavoir": [
+    "La devise de la monarchie britannique, « Dieu et mon droit », et celle de l’ordre de la Jarretière, « Honni soit qui mal y pense », sont en français."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Royaume_d%27Angleterre",
+    {
+      "titre": "Encyclopædia Britannica — United Kingdom, history",
+      "url": "https://www.britannica.com/place/United-Kingdom/History"
+    }
+  ]
 }

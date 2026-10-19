@@ -1,0 +1,20 @@
+{
+  "id": "tapisserie-de-bayeux",
+  "nom": "Tapisserie de Bayeux",
+  "annee": 1077,
+  "domaine": "Art",
+  "dates": "vers 1070-1080",
+  "description": "Une broderie de près de 70 mètres de long qui raconte, comme une bande dessinée, la conquête de l’Angleterre par Guillaume en 1066.",
+  "sections": [
+    {
+      "titre": "Ce qu’elle montre",
+      "texte": "Plus de 600 personnages, des chevaux, des navires, la comète de Halley et la mort du roi Harold, sans doute touché à l’œil par une flèche. Des inscriptions en latin commentent les scènes."
+    },
+    {
+      "titre": "Comment elle a été faite",
+      "texte": "C’est une broderie de laines colorées sur une toile de lin, probablement réalisée en Angleterre pour l’évêque Odon de Bayeux, demi-frère de Guillaume."
+    }
+  ],
+  "aSavoir": ["Elle est exposée à Bayeux et inscrite au registre « Mémoire du monde » de l’UNESCO."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Tapisserie_de_Bayeux"
+}

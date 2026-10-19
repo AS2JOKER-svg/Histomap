@@ -1,0 +1,19 @@
+{
+  "id": "mosquee-de-cordoue",
+  "nom": "Grande mosquée de Cordoue",
+  "annee": 785,
+  "domaine": "Architecture",
+  "dates": "785 → Xe siècle",
+  "description": "La grande mosquée des Omeyyades de Cordoue, avec sa « forêt » de plus de 850 colonnes et ses arcs bicolores rouges et blancs : un chef-d’œuvre de l’art islamique.",
+  "sections": [
+    {
+      "titre": "Comment elle a été bâtie",
+      "texte": "Commencée en 785 par Abd al-Rahman Ier, elle est agrandie trois fois. Les colonnes, souvent récupérées sur des monuments romains, portent deux niveaux d’arcs pour gagner en hauteur."
+    },
+    {
+      "titre": "Ce qu’elle est devenue",
+      "texte": "Transformée en cathédrale après la prise de Cordoue par la Castille en 1236, elle reçoit au XVIe siècle une nef chrétienne en son centre."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Mosqu%C3%A9e-cath%C3%A9drale_de_Cordoue"
+}

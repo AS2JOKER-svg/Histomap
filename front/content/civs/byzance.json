@@ -537,7 +537,7 @@
       "fin": 1071,
       "resume": "Les empereurs de la dynastie macédonienne reconquièrent des territoires ; Basile II soumet la Bulgarie. Les Slaves, dont les Russes, adoptent le christianisme orthodoxe.",
       "evenements": [
-        { "annee": 988, "evenement": "Baptême du prince Vladimir de Kiev" },
+        { "annee": 988, "evenement": "Baptême du prince Vladimir de Kiev", "ref": "bapteme-de-la-rus" },
         { "annee": 1018, "evenement": "Conquête de la Bulgarie" },
         { "annee": 1054, "evenement": "Schisme de 1054", "ref": "schisme-de-1054" }
       ]

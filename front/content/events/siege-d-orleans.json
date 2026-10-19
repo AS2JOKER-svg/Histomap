@@ -18,5 +18,6 @@
   ],
   "liens": [{ "ref": "jeanne-d-arc", "relation": "Elle mène la délivrance de la ville" }],
   "aSavoir": ["Orléans fête encore chaque année la délivrance de la ville, le 8 mai."],
-  "wikiUrl": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_d%27Orl%C3%A9ans_(1428-1429)"
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_d%27Orl%C3%A9ans_(1428-1429)",
+  "avant": "bataille-d-azincourt"
 }

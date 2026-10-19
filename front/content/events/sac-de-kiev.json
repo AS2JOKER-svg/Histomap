@@ -1,0 +1,15 @@
+{
+  "id": "sac-de-kiev",
+  "nom": "Prise de Kiev par les Mongols",
+  "annee": 1240,
+  "dates": "décembre 1240",
+  "lieu": "Kiev",
+  "description": "L’armée mongole de Batu, petit-fils de Gengis Khan, prend et détruit Kiev, la ville la plus prestigieuse de la Rus’.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "La population est massacrée ou réduite en esclavage. Les principautés russes deviennent tributaires de la Horde d’Or. Le centre de la vie russe se déplace vers le nord-est, où Moscou grandira."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Kiev_(1240)"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "bataille-d-azincourt",
+  "nom": "Bataille d’Azincourt",
+  "annee": 1415,
+  "dates": "25 octobre 1415",
+  "lieu": "Azincourt (Pas-de-Calais)",
+  "description": "L’armée anglaise d’Henri V, épuisée et bien moins nombreuse, écrase la chevalerie française dans un champ boueux.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Les chevaliers français, alourdis par leurs armures, chargent dans la boue sous les flèches des archers anglais et s’entassent. Des milliers sont tués ou capturés."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Une grande partie de la noblesse française disparaît. Henri V conquiert la Normandie et, par le traité de Troyes (1420), devient héritier du trône de France."
+    }
+  ],
+  "avant": "siege-d-orleans",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_d%27Azincourt"
+}

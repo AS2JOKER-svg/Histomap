@@ -1,0 +1,18 @@
+{
+  "id": "vladimir-le-grand",
+  "nom": "Vladimir le Grand",
+  "nomComplet": "Vladimir Ier de Kiev",
+  "role": "Grand-prince de Kiev",
+  "roles": ["Grand-prince", "Saint"],
+  "dates": "vers 958 → 1015",
+  "naissance": 958,
+  "mort": 1015,
+  "description": "Grand-prince de Kiev qui convertit la Rus’ au christianisme orthodoxe en 988, après avoir épousé une princesse byzantine.",
+  "essentiel": [
+    "Il prend le pouvoir après une guerre contre son frère Iaropolk.",
+    "Il aide l’empereur Basile II à mater une révolte, en échange de la main de sa sœur Anne.",
+    "Il se fait baptiser et fait baptiser les habitants de Kiev dans le Dniepr : c’est le [[bapteme-de-la-rus|baptême de la Rus’]]."
+  ],
+  "liens": [{ "ref": "olga-de-kiev", "relation": "Sa grand-mère" }, { "ref": "iaroslav-le-sage", "relation": "Son fils" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Vladimir_Ier"
+}

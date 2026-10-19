@@ -1,0 +1,19 @@
+{
+  "id": "lettre-de-change",
+  "nom": "Lettre de change",
+  "annee": 1200,
+  "domaine": "Économie",
+  "dates": "XIIe-XIIIe siècles",
+  "description": "Un document par lequel un marchand ordonne à un correspondant, dans une autre ville, de payer une somme à une tierce personne : on peut ainsi transférer de l’argent sans le transporter.",
+  "sections": [
+    {
+      "titre": "Comment ça marche",
+      "texte": "Un marchand de Gênes remet de l’argent à un banquier, qui lui donne une lettre. À Bruges, le correspondant du banquier paie la somme, en monnaie locale, à la personne désignée."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Moins de risques de vol, change facilité entre monnaies : la lettre de change est un ancêtre du chèque et du virement bancaire."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Lettre_de_change"
+}

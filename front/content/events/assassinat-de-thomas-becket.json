@@ -1,0 +1,19 @@
+{
+  "id": "assassinat-de-thomas-becket",
+  "nom": "Assassinat de Thomas Becket",
+  "annee": 1170,
+  "dates": "29 décembre 1170",
+  "lieu": "Cathédrale de Cantorbéry",
+  "description": "Quatre chevaliers du roi Henri II tuent l’archevêque Thomas Becket dans sa cathédrale, après une longue querelle sur les droits de l’Église.",
+  "sections": [
+    {
+      "titre": "Contexte",
+      "texte": "Ancien chancelier et ami du roi, Becket, devenu archevêque, défend les privilèges de l’Église contre lui. Exaspéré, Henri II aurait demandé qu’on le débarrasse de ce prêtre."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Becket est canonisé dès 1173. Henri II doit faire pénitence publique sur sa tombe, qui devient l’un des plus grands pèlerinages d’Europe."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Thomas_Becket"
+}

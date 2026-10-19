@@ -1,0 +1,19 @@
+{
+  "id": "knut-le-grand",
+  "nom": "Knut le Grand",
+  "role": "Roi du Danemark, d’Angleterre et de Norvège",
+  "roles": ["Roi"],
+  "dates": "vers 995 → 1035",
+  "naissance": 995,
+  "mort": 1035,
+  "description": "Fils de Sven à la Barbe fourchue, il conquiert l’Angleterre en 1016, hérite du Danemark et soumet la Norvège : il règne sur un empire autour de la mer du Nord.",
+  "essentiel": [
+    "Il devient roi d’Angleterre en 1016 et épouse Emma de Normandie, veuve du roi précédent.",
+    "Chrétien, il fait le pèlerinage de Rome en 1027.",
+    "Son empire se disloque après sa mort."
+  ],
+  "aSavoir": [
+    "Selon une légende, il aurait ordonné à la marée de reculer pour montrer à ses courtisans que même un roi ne peut commander aux éléments."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Knut_le_Grand"
+}

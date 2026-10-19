@@ -207,7 +207,11 @@ for (const [id, { file, data: civ }] of content.civs) {
   sources(w, civ)
   for (const k of ['datesCles', 'dirigeants', 'personnages', 'guerres', 'documentaires'])
     if (!isArr(civ[k])) err(w, `champ « ${k} » doit être un tableau`)
-  for (const k of ['sciences', 'croyancesText', 'diplomatie']) if (!isStr(civ[k])) warn(w, `texte « ${k} » vide`)
+  for (const k of ['sciences', 'croyancesText', 'diplomatie']) {
+    if (!isStr(civ[k])) warn(w, `texte « ${k} » vide`)
+    // Le quiz cite la première phrase (« à quelle civilisation correspond ce passage ? ») : trop courte, la question disparaît
+    else if ((civ[k].match(/[^.!?]+[.!?]/)?.[0]?.trim().length ?? 0) < 40) warn(w, `texte « ${k} » : première phrase de moins de 40 caractères, la question du quiz qui la cite ne sera pas générée`)
+  }
   for (const k of ['societe', 'economie', 'arts', 'quotidien']) optional(w, civ, k, isStr, 'un texte')
   if (civ.reperes !== undefined) {
     if (!civ.reperes || typeof civ.reperes !== 'object' || isArr(civ.reperes)) err(w, '« reperes » doit être un objet')

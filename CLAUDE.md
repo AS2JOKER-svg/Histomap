@@ -16,6 +16,7 @@ Tout le code est dans `front/`. Commandes (depuis `front/`, ou depuis la racine 
 - `npm run validate` : valide seulement
 - `npm run coverage` : rapport de couverture (région × siècle, territoires des cartes sans fiche) → `front/reports/couverture.md`
 - `npm run links` : vérifie que tous les liens Wikipédia de `content/` mènent à une page existante (réseau requis ; à lancer après chaque lot de fiches)
+- `npm run territoires -- <mot> [<mot>…]` : cherche des noms de territoires dans les cartes historiques (années, fiche déjà reliée) pour remplir `territories`
 - `npm run build` : compile, valide puis construit `dist/` (+ service worker)
 - `npm run preview` : sert le build (tester le hors-ligne ici, pas en dev)
 
@@ -64,6 +65,6 @@ Tout le code est dans `front/`. Commandes (depuis `front/`, ou depuis la racine 
 - ✅ Sprint 11 (en attente de validation) : pilote « fiches en béton » sur Rome, Égypte, France capétienne, Chine Tang-Song, Aztèques : structure complète, 190 dirigeants (marqués `cle` pour le quiz), 53 fiches liées, relecture factuelle séparée. Modèle à suivre : ces 5 fiches + `front/GUIDE_EDITION.md`.
 - ✅ Sprint 12 : les 105 fiches au format « béton » (22 lots, relecture factuelle séparée, liens Wikipédia vérifiés par `npm run links`). Corrections faites : documentaires trompeurs → `sources`, dates coupées aux bornes d'époque (+ Dahomey), `isRiver`, personnages qui n'étaient pas des personnes, Isabelle & Ferdinand, formulations non neutres, faux surnoms retirés. 519 fiches liées.
 - ✅ Sprint 13 : quiz express sur les fiches liées (3 questions générées au build, 2 quand les données ne permettent pas une 3e question sûre, aucun quiz pour 9 fiches datées en siècles), meilleur score gardé (`histomap_progress` v2, migration v1 → v2).
-- Sprints 14+ : nouvelles civilisations par vagues (steppes et Russie ; Asie centrale et Perse ; Afrique ; Asie du Sud-Est et Océanie ; Amériques ; Europe médiévale et moderne ; États contemporains), directement au format complet.
+- Sprints 14+ : nouvelles civilisations (~110), validées le 20/10/2026, par vagues et lots de 5, format complet + chapitre rédigé dans le même lot, ton strictement factuel (sujets sensibles compris). ✅ Étape 0 (préparation : continent Océanie testé, densité de la frise testée à 25 fiches par continent, `npm run territoires`, liste de contrôle dans GUIDE_EDITION.md). Vagues : 1 steppes et Russie ; 2 Perse, Asie centrale, Caucase, Arabie ; 3 Afrique ; 4 Asie du Sud, de l'Est et du Sud-Est ; 5 Océanie ; 6 Amériques ; 7 Europe antique, médiévale et moderne ; 8 États contemporains.
 - Guerres A (prototype Seconde Guerre mondiale) puis B (extension).
 - Play Store (TWA sur le domaine du studio, knightborn-studio.fr).

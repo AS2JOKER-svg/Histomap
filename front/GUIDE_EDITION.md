@@ -32,6 +32,24 @@ Le site ne lit jamais ces fichiers directement : `scripts/build-content.mjs` les
 4. Vérifier dans le navigateur (`npm run dev`), puis `npm run coverage` pour voir le trou comblé.
 5. Lancer `npm run links` pour vérifier les liens Wikipédia ajoutés.
 
+#### Liste de contrôle d'une nouvelle civilisation (format complet, comme les 105 fiches actuelles)
+- [ ] **Place** : époque = celle où elle **commence** (une fiche qui déborde est gérée par la frise ‹ ›) ; continent ;
+      `region` (voir `content/regions.json`) ; `start`/`end` = vraies dates, et `period` qui les affiche.
+- [ ] **Lignée** : si c'est la même civilisation qu'une fiche d'une autre époque (Parthes → Sassanides…), l'ajouter
+      dans `content/lineages.json` (pas de `color` sur la fiche) ; sinon une `color` propre, lisible et distincte de ses voisines.
+- [ ] **Fiche** : `reperes` (les 9), `essentiel` (4-5 points), `datesCles` (6-10), `periodes`, `regimes`, `dynasties`,
+      liste **complète** des `dirigeants` (dirigeants clés `cle: true`, dates de début non ambiguës), `personnages`,
+      `guerres` (+ lieu dans `content/conflicts.json`), `sciences`/`croyancesText`/`diplomatie` (1re phrase ≥ 40 caractères),
+      `societe`, `economie`, `arts`, `quotidien`, `heritage`, `aSavoir`, `sources`.
+- [ ] **Fiches liées** : 5 à 8 (personnes, événements, découvertes) avec des dates **précises** et un `lieu` précis
+      quand c'est possible (le quiz express en dépend) ; liens `[[id]]` dans les textes.
+- [ ] **Carte** : `npm run territoires -- <mot>` pour trouver les noms de territoires des cartes, puis `territories`.
+      Un même nom peut servir à deux fiches : la carte choisit, chaque année, la fiche active la plus récente.
+- [ ] **Chapitre de révision** rédigé dans le même lot : `src/data/revision/<id>.js` (modèle : `carthage.js`).
+- [ ] **Ton** : faits établis, dates prudentes (« vers »), aucun jugement ; sujets sensibles présentés de façon
+      factuelle, avec les points de vue des acteurs attribués à leurs auteurs. Jamais de texte copié de Wikipédia.
+- [ ] **Vérifier** : `npm run data` (0 erreur, 0 alerte), `npm run links`, `npm run build`, puis relecture factuelle séparée.
+
 ### Structure d'une fiche de civilisation
 ```jsonc
 {
@@ -226,7 +244,7 @@ Pour ajouter des questions rédigées à la main, compléter le tableau `quiz` d
 | Compilation et validation du contenu | `scripts/build-content.mjs`, `scripts/validate-content.mjs`, `scripts/lib/` |
 | Liens `[[id]]` dans les textes | `src/lib/links.js` + `src/components/ui/RichText.jsx` |
 | La carte du monde | `src/pages/MapPage.jsx` + `src/components/map/` + `src/lib/map.js` |
-| Relier une civilisation à la carte, placer un conflit | `content/civs/<id>.json` (`territories`) + `content/conflicts.json` |
+| Relier une civilisation à la carte, placer un conflit | `content/civs/<id>.json` (`territories`, trouver les noms : `npm run territoires -- <mot>`) + `content/conflicts.json` |
 | Lignées (même civilisation sur plusieurs époques) | `content/lineages.json` + `src/components/LineageTrail.jsx` |
 | Progression (fiches lues, reprendre, série) | `src/store/progress.js` + `src/components/progress/` |
 | Messages éphémères (toasts) | `useUI().showToast({ text, tone })` dans `src/store/ui.js` |

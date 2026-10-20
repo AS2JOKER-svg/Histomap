@@ -8,6 +8,7 @@
     "data": "npm run content && npm run validate",
     "coverage": "npm run content && node scripts/coverage-report.mjs",
     "links": "node scripts/check-links.mjs",
+    "territoires": "node scripts/find-territories.mjs",
     "predev": "npm run content",
     "dev": "vite",
     "prebuild": "npm run data",

@@ -1,0 +1,17 @@
+{
+  "id": "mutesa-ier",
+  "nom": "Mutesa Ier",
+  "role": "Kabaka du Buganda",
+  "roles": ["Roi"],
+  "dates": "vers 1837 → 1884",
+  "naissance": 1837,
+  "mort": 1884,
+  "description": "Kabaka de 1856 à 1884, il fait du Buganda la grande puissance des Grands Lacs et accueille à sa cour marchands, explorateurs et missionnaires.",
+  "reperes": [{ "label": "Règne", "valeur": "1856 → 1884" }],
+  "essentiel": [
+    "Il adopte un temps des pratiques musulmanes au contact des marchands de Zanzibar.",
+    "Il reçoit John Speke (1862) et Henry Morton Stanley (1875).",
+    "Il joue les missionnaires protestants, catholiques et les musulmans les uns contre les autres pour garder son indépendance."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Muteesa_Ier"
+}

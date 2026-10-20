@@ -1,0 +1,16 @@
+{
+  "id": "kilwa-kisiwani",
+  "nom": "Ruines de Kilwa Kisiwani",
+  "annee": 1300,
+  "domaine": "Architecture",
+  "dates": "XIe-XVIe siècles",
+  "description": "Les vestiges de la grande cité swahilie de Kilwa, sur une île de Tanzanie : grande mosquée à coupoles et palais de Husuni Kubwa.",
+  "sections": [
+    {
+      "titre": "Un palais au bord de la mer",
+      "texte": "Le palais de Husuni Kubwa, bâti au XIVe siècle, comptait plus de cent pièces, des cours et une piscine taillée dans la roche."
+    }
+  ],
+  "aSavoir": ["Les ruines sont inscrites au patrimoine mondial depuis 1981."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Kilwa_Kisiwani"
+}

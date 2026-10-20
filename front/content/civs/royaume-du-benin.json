@@ -1,0 +1,220 @@
+{
+  "documentaires": [],
+  "decouvertes": ["bronzes-du-benin"],
+  "id": "royaume-du-benin",
+  "label": "Royaume du Bénin",
+  "tier": 1,
+  "region": "afrique-ouest",
+  "period": "vers 1180 à 1897",
+  "start": 1180,
+  "end": 1897,
+  "color": "#b71c1c",
+  "trackId": "afrique_guinee",
+  "row": 1,
+  "isRiver": false,
+  "capitale": "Benin City (Edo)",
+  "description": "Le royaume des Edo, dans le sud du Nigeria actuel, gouverné par un roi sacré, l’oba, célèbre pour ses sculptures de bronze et d’ivoire, jusqu’à sa conquête par les Britanniques en 1897.",
+  "territories": ["Benin"],
+  "reperes": {
+    "capitale": {
+      "valeur": "Benin City (Edo)",
+      "precision": "dans le sud du Nigeria ; à ne pas confondre avec l’actuel pays du Bénin"
+    },
+    "regimes": { "valeur": "Monarchie", "precision": "l’oba, roi sacré, entouré de chefs et de corporations" },
+    "langues": { "valeur": "Edo" },
+    "religion": {
+      "valeur": "Religion edo",
+      "precision": "culte des ancêtres royaux et de divinités comme Olokun, dieu de la mer"
+    },
+    "apogee": { "valeur": "XVe-XVIe siècles", "precision": "règnes d’Ewuare et d’Esigie" },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": { "valeur": "Cauris et manilles", "precision": "bracelets de cuivre et de laiton apportés par les Européens" },
+    "duree": { "valeur": "Environ 700 ans", "precision": "jusqu’à la conquête britannique" },
+    "aujourdhui": { "valeur": "Nigeria", "precision": "État d’Edo ; un oba existe toujours, comme autorité traditionnelle" }
+  },
+  "essentiel": [
+    "Selon la tradition, la dynastie des obas du Bénin est fondée vers la fin du XIIe siècle par Eweka, fils d’un prince d’Ifé.",
+    "Au XVe siècle, l’oba Ewuare transforme Benin City en grande capitale entourée de fossés et de remparts de terre.",
+    "Les Portugais arrivent en 1486 ; le royaume commerce le poivre, l’ivoire et des captifs contre des manilles de cuivre et de laiton.",
+    "Les artistes de la cour fondent les célèbres [[bronzes-du-benin|bronzes du Bénin]], têtes et plaques qui racontent l’histoire des obas ; la [[reine-idia|reine mère Idia]] est représentée dans un masque d’ivoire devenu célèbre.",
+    "En 1897, une [[expedition-punitive-de-benin|expédition britannique]] incendie la ville et emporte des milliers d’œuvres ; l’oba [[ovonramwen|Ovonramwen]] est exilé."
+  ],
+  "datesCles": [
+    {
+      "annee": 1180,
+      "evenement": "Eweka Ier",
+      "info": "Selon la tradition, vers la fin du XIIe siècle, Eweka devient le premier oba de la dynastie actuelle."
+    },
+    {
+      "annee": 1440,
+      "evenement": "Ewuare le Grand",
+      "info": "Vers 1440, l’oba agrandit le royaume et reconstruit la capitale."
+    },
+    {
+      "annee": 1486,
+      "evenement": "Les Portugais",
+      "info": "Le navigateur João Afonso de Aveiro atteint Benin City."
+    },
+    {
+      "annee": 1515,
+      "evenement": "Guerre d’Idah",
+      "info": "L’oba Esigie bat le royaume igala avec l’aide de sa mère Idia."
+    },
+    {
+      "annee": 1553,
+      "evenement": "Les Anglais",
+      "info": "Les premiers marchands anglais arrivent pour acheter du poivre."
+    },
+    {
+      "annee": 1897,
+      "evenement": "Expédition punitive",
+      "info": "Les Britanniques prennent et incendient Benin City.",
+      "ref": "expedition-punitive-de-benin"
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "La dynastie des obas",
+      "debut": 1180,
+      "fin": 1440,
+      "resume": "Selon la tradition, la dynastie fondée par Eweka affirme son pouvoir face aux chefs.",
+      "evenements": [{ "annee": 1180, "evenement": "Eweka Ier" }]
+    },
+    {
+      "nom": "L’empire des guerriers",
+      "debut": 1440,
+      "fin": 1600,
+      "resume": "Ewuare, Ozolua et Esigie conquièrent de vastes territoires ; les Portugais arrivent ; l’art de la cour atteint son apogée.",
+      "evenements": [
+        { "annee": 1440, "evenement": "Ewuare le Grand" },
+        { "annee": 1486, "evenement": "Arrivée des Portugais" },
+        { "annee": 1515, "evenement": "Guerre d’Idah" }
+      ]
+    },
+    {
+      "nom": "Commerce et déclin",
+      "debut": 1600,
+      "fin": 1897,
+      "resume": "Le royaume commerce avec les Européens, connaît des guerres civiles, puis est conquis par les Britanniques.",
+      "evenements": [
+        { "annee": 1553, "evenement": "Marchands anglais" },
+        { "annee": 1897, "evenement": "Expédition punitive", "ref": "expedition-punitive-de-benin" }
+      ]
+    }
+  ],
+  "regimes": [{ "id": "royaume", "nom": "Royaume du Bénin", "debut": 1180, "fin": 1897 }],
+  "dynasties": [
+    {
+      "id": "obas",
+      "nom": "Les obas du Bénin",
+      "debut": 1180,
+      "fin": 1897,
+      "note": "Sélection ; les dates anciennes viennent de la tradition orale."
+    }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Eweka Ier",
+      "titre": "Oba",
+      "debut": 1180,
+      "fin": 1246,
+      "dynastie": "obas",
+      "note": "fondateur selon la tradition",
+      "cle": true
+    },
+    { "nom": "Ewuare", "titre": "Oba", "surnom": "le Grand", "debut": 1440, "fin": 1473, "dynastie": "obas", "cle": true },
+    {
+      "nom": "Ozolua",
+      "titre": "Oba",
+      "debut": 1481,
+      "fin": 1504,
+      "dynastie": "obas",
+      "note": "surnommé « le Conquérant »"
+    },
+    {
+      "nom": "Esigie",
+      "titre": "Oba",
+      "debut": 1504,
+      "fin": 1550,
+      "dynastie": "obas",
+      "note": "accueille les Portugais",
+      "cle": true
+    },
+    { "nom": "Orhogbua", "titre": "Oba", "debut": 1550, "fin": 1578, "dynastie": "obas" },
+    {
+      "nom": "Ovonramwen",
+      "titre": "Oba",
+      "debut": 1888,
+      "fin": 1897,
+      "dynastie": "obas",
+      "personne": "ovonramwen",
+      "note": "exilé par les Britanniques",
+      "cle": true
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Idia",
+      "role": "Reine mère",
+      "description": "Mère de l’oba Esigie, conseillère et cheffe de guerre.",
+      "dates": "XVe-XVIe siècles",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Idia",
+      "ref": "reine-idia"
+    },
+    {
+      "nom": "Ovonramwen",
+      "role": "Oba",
+      "description": "Le dernier oba indépendant, exilé en 1897.",
+      "dates": "vers 1857 → 1914",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Ovonramwen",
+      "ref": "ovonramwen"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerre d’Idah",
+      "annee": 1515,
+      "adversaires": ["Royaume igala"],
+      "allies": ["Mercenaires portugais"],
+      "morts": "Inconnues",
+      "vainqueur": "Royaume du Bénin",
+      "consequences": "L’oba Esigie, aidé par sa mère Idia, repousse l’invasion igala ; Idia reçoit en récompense le titre de reine mère.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Idia"
+    },
+    {
+      "nom": "Expédition punitive de 1897",
+      "annee": 1897,
+      "adversaires": ["Royaume-Uni"],
+      "allies": [],
+      "morts": "Inconnues ; plusieurs centaines au moins",
+      "vainqueur": "Royaume-Uni",
+      "consequences": "Benin City est prise et incendiée ; des milliers d’œuvres sont emportées en Europe. Le royaume est annexé au protectorat britannique du Nigeria.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Exp%C3%A9dition_punitive_britannique_au_B%C3%A9nin"
+    }
+  ],
+  "sciences": "Les fondeurs du Bénin, réunis en corporation au service de l’oba, maîtrisent la technique de la cire perdue pour couler des têtes, des statues et des plaques de laiton et de bronze. Les Edo entourent leurs villes de fossés et de remparts de terre qui, mis bout à bout, couvriraient des milliers de kilomètres.",
+  "croyancesText": "L’oba est un roi sacré, descendant des ancêtres royaux, à qui l’on rend un culte sur des autels ornés de têtes de bronze. Les Edo honorent aussi des divinités comme Olokun, dieu de la mer et de la richesse. Des missionnaires portugais baptisent quelques membres de la cour au XVIe siècle, sans conversion durable.",
+  "diplomatie": "Le Bénin échange des ambassadeurs avec le Portugal dès la fin du XVe siècle et commerce avec les Portugais, puis les Hollandais et les Anglais. L’oba contrôle étroitement le commerce : pendant longtemps, il interdit même la vente d’hommes captifs aux Européens.",
+  "societe": "Autour de l’oba, des chefs de palais, des chefs de ville et des corporations d’artisans (fondeurs, sculpteurs d’ivoire, tisserands) occupent chacun leur quartier. La reine mère dispose de son propre palais et de son propre pouvoir.",
+  "economie": "Agriculture (igname, palmier), commerce du poivre, de l’ivoire, des tissus et des captifs ; artisanat de cour.",
+  "arts": "Têtes et plaques de bronze, masques et défenses d’éléphant sculptés en ivoire, coffres et tabourets ouvragés.",
+  "quotidien": "Les visiteurs européens des XVIe et XVIIe siècles décrivent Benin City comme une grande ville aux larges avenues et aux maisons alignées.",
+  "heritage": [
+    {
+      "titre": "Les bronzes du Bénin",
+      "texte": "Dispersés dans les musées du monde après 1897, ils font l’objet de restitutions au Nigeria depuis les années 2020."
+    },
+    {
+      "titre": "L’oba aujourd’hui",
+      "texte": "Un descendant de la dynastie porte toujours le titre d’oba, autorité traditionnelle respectée au Nigeria."
+    }
+  ],
+  "aSavoir": ["Le masque de la reine Idia a servi d’emblème au festival panafricain FESTAC de Lagos en 1977."],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Royaume_du_B%C3%A9nin",
+    {
+      "titre": "Encyclopædia Britannica — Benin, historical kingdom",
+      "url": "https://www.britannica.com/place/Benin-historical-kingdom-West-Africa"
+    }
+  ]
+}

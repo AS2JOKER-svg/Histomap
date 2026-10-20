@@ -752,5 +752,41 @@
   "Conquête ottomane de l’Égypte": {
     "coords": [37.3, 36.5],
     "lieu": "Marj Dabiq (Syrie)"
+  },
+  "Sac de Kilwa et de Mombasa": {
+    "coords": [39.51, -8.96],
+    "lieu": "Kilwa (Tanzanie)"
+  },
+  "Guerre d’Idah": {
+    "coords": [6.73, 7.1],
+    "lieu": "Idah (Nigeria)"
+  },
+  "Expédition punitive de 1897": {
+    "coords": [5.62, 6.34],
+    "lieu": "Benin City"
+  },
+  "Expédition de Francisco Barreto": {
+    "coords": [33.6, -16.15],
+    "lieu": "Vallée du Zambèze"
+  },
+  "Expulsion des Portugais par les Rozvi": {
+    "coords": [31.5, -17.5],
+    "lieu": "Plateau du Zimbabwe"
+  },
+  "Guerres de religion du Buganda": {
+    "coords": [32.58, 0.31],
+    "lieu": "Mengo (Kampala)"
+  },
+  "Crise de Mengo": {
+    "coords": [32.56, 0.3],
+    "lieu": "Palais de Mengo (Kampala)"
+  },
+  "Guerre franco-malgache de 1883-1885": {
+    "coords": [49.29, -12.28],
+    "lieu": "Diego-Suarez et côtes"
+  },
+  "Expédition de Madagascar (1895)": {
+    "coords": [47.52, -18.91],
+    "lieu": "Antananarivo"
   }
 }

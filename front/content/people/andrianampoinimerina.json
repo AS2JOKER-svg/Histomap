@@ -1,0 +1,17 @@
+{
+  "id": "andrianampoinimerina",
+  "nom": "Andrianampoinimerina",
+  "role": "Roi de l’Imerina",
+  "roles": ["Roi"],
+  "dates": "vers 1745 → 1810",
+  "naissance": 1745,
+  "mort": 1810,
+  "description": "Roi qui réunifie l’Imerina à la fin du XVIIIe siècle et fixe à son royaume l’objectif de conquérir toute l’île.",
+  "reperes": [{ "label": "Règne", "valeur": "vers 1787 → 1810" }],
+  "essentiel": [
+    "Il fait d’Antananarivo sa capitale (1794).",
+    "On lui attribue la phrase : « La mer est la limite de ma rizière ».",
+    "Il développe les rizières irriguées et organise le travail collectif."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Andrianampoinimerina"
+}

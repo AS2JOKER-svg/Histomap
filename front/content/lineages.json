@@ -194,5 +194,14 @@
       "usa-moderne",
       "etats-unis"
     ]
+  },
+  {
+    "id": "zimbabwe",
+    "label": "Zimbabwe",
+    "color": "#795548",
+    "members": [
+      "zimbabwe-civilisation",
+      "monomotapa"
+    ]
   }
 ]

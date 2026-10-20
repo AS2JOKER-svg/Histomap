@@ -1,0 +1,17 @@
+{
+  "id": "ovonramwen",
+  "nom": "Ovonramwen",
+  "role": "Oba du Bénin",
+  "roles": ["Oba"],
+  "dates": "vers 1857 → 1914",
+  "naissance": 1857,
+  "mort": 1914,
+  "description": "Dernier oba indépendant du Bénin, il est renversé et exilé par les Britanniques après l’expédition punitive de 1897.",
+  "reperes": [{ "label": "Règne", "valeur": "1888 → 1897" }],
+  "essentiel": [
+    "Il tente de limiter l’influence britannique sur le commerce.",
+    "En janvier 1897, une délégation britannique qui veut entrer dans la ville est attaquée ; Londres envoie une expédition punitive.",
+    "Il est exilé à Calabar, où il meurt en 1914."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Ovonramwen"
+}

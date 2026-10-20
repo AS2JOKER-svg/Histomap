@@ -1,0 +1,255 @@
+{
+  "documentaires": [],
+  "decouvertes": ["colline-royale-d-ambohimanga"],
+  "id": "royaume-merina",
+  "label": "Royaume de Madagascar (Merina)",
+  "tier": 2,
+  "region": "afrique-est",
+  "period": "vers 1540 à 1897",
+  "start": 1540,
+  "end": 1897,
+  "color": "#ef6c00",
+  "trackId": "afrique_est",
+  "row": 3,
+  "isRiver": false,
+  "capitale": "Antananarivo",
+  "description": "Le royaume des Merina, peuple des hautes terres de Madagascar, qui unifie au XIXe siècle la plus grande partie de l’île avant d’être conquis par la France en 1895.",
+  "territories": ["Merina Kingdom", "Imerina"],
+  "reperes": {
+    "capitale": {
+      "valeur": "Antananarivo",
+      "precision": "fondée vers 1610 ; la colline sacrée d’Ambohimanga est l’autre centre royal"
+    },
+    "regimes": {
+      "valeur": "Monarchie",
+      "precision": "quatre reines se succèdent au XIXe siècle, gouvernant avec un Premier ministre"
+    },
+    "langues": { "valeur": "Malgache", "precision": "langue austronésienne, écrite en alphabet latin depuis les années 1820" },
+    "religion": {
+      "valeur": "Culte des ancêtres, puis christianisme",
+      "precision": "le protestantisme devient religion de la cour en 1869"
+    },
+    "apogee": { "valeur": "XIXe siècle", "precision": "unification de la plus grande partie de l’île" },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": { "valeur": "Piastres d’argent", "precision": "coupées en petits morceaux pesés pour faire la monnaie" },
+    "duree": { "valeur": "Environ 350 ans" },
+    "aujourdhui": { "valeur": "Madagascar" }
+  },
+  "essentiel": [
+    "Madagascar a été peuplée par des navigateurs venus d’Asie du Sud-Est, d’où la langue malgache, et par des populations venues d’Afrique.",
+    "Sur les hautes terres, le royaume merina se forme au XVIe siècle ; vers 1787, [[andrianampoinimerina|Andrianampoinimerina]] unifie l’Imerina et rêve de conquérir toute l’île.",
+    "Son fils Radama Ier s’allie aux Britanniques, interdit l’exportation d’esclaves et fait écrire le malgache avec l’alphabet latin grâce aux missionnaires.",
+    "La reine [[ranavalona-ire|Ranavalona Ire]] chasse les missionnaires et persécute les chrétiens ; ses successeurs se convertissent au protestantisme (1869).",
+    "Après deux guerres, la France conquiert l’île lors de l’[[expedition-de-madagascar|expédition de 1895]] ; la reine Ranavalona III est exilée en 1897 et la monarchie abolie."
+  ],
+  "datesCles": [
+    {
+      "annee": 1540,
+      "evenement": "Andriamanelo",
+      "info": "Vers 1540, selon la tradition, Andriamanelo fonde le royaume merina."
+    },
+    {
+      "annee": 1610,
+      "evenement": "Antananarivo",
+      "info": "Vers 1610, le roi Andrianjaka s’installe sur la colline qui deviendra Antananarivo."
+    },
+    {
+      "annee": 1787,
+      "evenement": "Andrianampoinimerina",
+      "info": "Vers 1787, il réunifie l’Imerina divisé en royaumes rivaux."
+    },
+    {
+      "annee": 1817,
+      "evenement": "Alliance britannique",
+      "info": "Radama Ier signe un traité avec les Britanniques et interdit la traite vers l’étranger."
+    },
+    {
+      "annee": 1828,
+      "evenement": "Ranavalona Ire",
+      "info": "La reine prend le pouvoir et rompt avec les Européens."
+    },
+    {
+      "annee": 1869,
+      "evenement": "Conversion de la cour",
+      "info": "La reine Ranavalona II et son Premier ministre se font baptiser protestants."
+    },
+    {
+      "annee": 1895,
+      "evenement": "Conquête française",
+      "info": "Une armée française prend Antananarivo.",
+      "ref": "expedition-de-madagascar"
+    },
+    {
+      "annee": 1897,
+      "evenement": "Fin de la monarchie",
+      "info": "La France abolit la royauté et exile la reine Ranavalona III."
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "Les royaumes des hautes terres",
+      "debut": 1540,
+      "fin": 1787,
+      "resume": "Les rois merina organisent la culture du riz irrigué et fondent Antananarivo, mais le royaume se divise au XVIIIe siècle.",
+      "evenements": [{ "annee": 1610, "evenement": "Fondation d’Antananarivo" }]
+    },
+    {
+      "nom": "L’unification",
+      "debut": 1787,
+      "fin": 1828,
+      "resume": "Andrianampoinimerina et Radama Ier réunifient l’Imerina et conquièrent une grande partie de l’île, avec l’aide britannique.",
+      "evenements": [{ "annee": 1787, "evenement": "Andrianampoinimerina" }, { "annee": 1817, "evenement": "Alliance britannique" }]
+    },
+    {
+      "nom": "Le royaume des reines",
+      "debut": 1828,
+      "fin": 1897,
+      "resume": "Quatre reines se succèdent ; le royaume se modernise mais doit affronter les ambitions françaises.",
+      "evenements": [
+        { "annee": 1869, "evenement": "Conversion de la cour" },
+        { "annee": 1883, "evenement": "Première guerre franco-malgache" },
+        { "annee": 1895, "evenement": "Conquête française", "ref": "expedition-de-madagascar" }
+      ]
+    }
+  ],
+  "regimes": [{ "id": "royaume", "nom": "Royaume de l’Imerina, puis de Madagascar", "debut": 1540, "fin": 1897 }],
+  "dynasties": [
+    {
+      "id": "merina",
+      "nom": "Les souverains merina",
+      "debut": 1540,
+      "fin": 1897,
+      "note": "Sélection ; dates anciennes approximatives."
+    }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Andriamanelo",
+      "titre": "Roi",
+      "debut": 1540,
+      "fin": 1575,
+      "dynastie": "merina",
+      "note": "fondateur selon la tradition",
+      "cle": true
+    },
+    { "nom": "Ralambo", "titre": "Roi", "debut": 1575, "fin": 1612, "dynastie": "merina" },
+    {
+      "nom": "Andrianjaka",
+      "titre": "Roi",
+      "debut": 1612,
+      "fin": 1630,
+      "dynastie": "merina",
+      "note": "s’installe à Antananarivo"
+    },
+    {
+      "nom": "Andrianampoinimerina",
+      "titre": "Roi",
+      "debut": 1787,
+      "fin": 1810,
+      "dynastie": "merina",
+      "personne": "andrianampoinimerina",
+      "cle": true
+    },
+    {
+      "nom": "Radama Ier",
+      "titre": "Roi",
+      "debut": 1810,
+      "fin": 1828,
+      "dynastie": "merina",
+      "note": "allié des Britanniques",
+      "cle": true
+    },
+    {
+      "nom": "Ranavalona Ire",
+      "titre": "Reine",
+      "debut": 1828,
+      "fin": 1861,
+      "dynastie": "merina",
+      "personne": "ranavalona-ire",
+      "cle": true
+    },
+    { "nom": "Radama II", "titre": "Roi", "debut": 1861, "fin": 1863, "dynastie": "merina", "note": "assassiné" },
+    { "nom": "Rasoherina", "titre": "Reine", "debut": 1863, "fin": 1868, "dynastie": "merina" },
+    {
+      "nom": "Ranavalona II",
+      "titre": "Reine",
+      "debut": 1868,
+      "fin": 1883,
+      "dynastie": "merina",
+      "note": "convertie au protestantisme"
+    },
+    {
+      "nom": "Ranavalona III",
+      "titre": "Reine",
+      "debut": 1883,
+      "fin": 1897,
+      "dynastie": "merina",
+      "note": "dernière reine, exilée en Algérie",
+      "cle": true
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Rainilaiarivony",
+      "role": "Premier ministre",
+      "description": "Premier ministre de 1864 à 1895, il épouse successivement trois reines et dirige la modernisation du royaume.",
+      "dates": "1828 → 1896",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Rainilaiarivony"
+    },
+    {
+      "nom": "Jean Laborde",
+      "role": "Ingénieur français",
+      "description": "Naufragé à Madagascar, il construit pour Ranavalona Ire un grand complexe industriel à Mantasoa.",
+      "dates": "1805 → 1878",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Jean_Laborde_(aventurier)"
+    },
+    {
+      "nom": "Ranavalona III",
+      "role": "Dernière reine",
+      "description": "Reine de 1883 à 1897, exilée par la France à La Réunion puis en Algérie, où elle meurt en 1917.",
+      "dates": "1861 → 1917",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Ranavalona_III"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerre franco-malgache de 1883-1885",
+      "annee": 1883,
+      "adversaires": ["France"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "France (avantage)",
+      "consequences": "Le traité de 1885 donne à la France le contrôle de la politique étrangère de Madagascar et la baie de Diego-Suarez.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Premi%C3%A8re_guerre_franco-malgache"
+    },
+    {
+      "nom": "Expédition de Madagascar (1895)",
+      "annee": 1895,
+      "adversaires": ["France"],
+      "allies": [],
+      "morts": "Environ 6 000 soldats français, surtout de maladie ; pertes malgaches inconnues",
+      "vainqueur": "France",
+      "consequences": "Antananarivo est prise ; Madagascar devient un protectorat, puis une colonie (1896). La monarchie est abolie en 1897.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Exp%C3%A9dition_de_Madagascar"
+    }
+  ],
+  "sciences": "Les Merina aménagent les vallées des hautes terres en immenses rizières irriguées et en terrasses. Au XIXe siècle, avec l’aide d’artisans européens, ils créent des ateliers, une imprimerie et des écoles : dans les années 1870-1880, l’école devient obligatoire en Imerina.",
+  "croyancesText": "Les Malgaches honorent les ancêtres, à qui l’on rend visite lors de la fête du « retournement des morts » (famadihana), et les reliques royales, les sampy. Le christianisme, apporté par les missionnaires britanniques à partir de 1818, est interdit par Ranavalona Ire, puis adopté par la cour en 1869.",
+  "diplomatie": "Le royaume s’appuie d’abord sur le Royaume-Uni, qui lui fournit armes et conseillers. Au XIXe siècle, la France revendique Madagascar ; après deux guerres, elle conquiert l’île en 1895.",
+  "societe": "La société merina est divisée en nobles (andriana), hommes libres (hova) et esclaves. Les sujets doivent un travail obligatoire au souverain, la corvée royale. Le pouvoir réel passe au XIXe siècle aux Premiers ministres, qui épousent les reines.",
+  "economie": "Riziculture irriguée, élevage de zébus, commerce d’esclaves puis de bétail et de produits agricoles avec les Mascareignes.",
+  "arts": "Palais de bois de la Rova d’Antananarivo, tissus de soie (lamba), chants et discours traditionnels (kabary).",
+  "quotidien": "Le riz est servi à presque tous les repas : en malgache, « manger » se dit « manger du riz ».",
+  "heritage": [
+    { "titre": "La colline d’Ambohimanga", "texte": "Le site royal est inscrit au patrimoine mondial." },
+    {
+      "titre": "La langue malgache",
+      "texte": "L’alphabet latin adopté sous Radama Ier est toujours celui du malgache."
+    }
+  ],
+  "aSavoir": ["Le palais de la reine à Antananarivo a brûlé en 1995 ; il est en cours de restauration."],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Royaume_de_Madagascar",
+    { "titre": "Encyclopædia Britannica — Merina", "url": "https://www.britannica.com/topic/Merina" }
+  ]
+}

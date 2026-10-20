@@ -1,0 +1,14 @@
+{
+  "id": "reine-idia",
+  "nom": "Idia",
+  "role": "Reine mère du Bénin",
+  "roles": ["Reine mère", "Conseillère", "Cheffe de guerre"],
+  "dates": "XVe-XVIe siècles",
+  "description": "Mère de l’oba Esigie, elle l’aide à prendre le pouvoir et combat à ses côtés ; elle devient la première à porter le titre de reine mère.",
+  "essentiel": [
+    "Selon la tradition, elle lève une armée et combat lors de la guerre contre les Igala (vers 1515).",
+    "Esigie crée pour elle le titre d’« iyoba », reine mère, avec son propre palais.",
+    "Son visage est représenté sur un célèbre masque-pendentif en ivoire."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Idia"
+}

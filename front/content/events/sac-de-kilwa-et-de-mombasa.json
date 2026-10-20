@@ -1,0 +1,15 @@
+{
+  "id": "sac-de-kilwa-et-de-mombasa",
+  "nom": "Sac de Kilwa et de Mombasa",
+  "annee": 1505,
+  "dates": "1505",
+  "lieu": "Kilwa et Mombasa (Tanzanie et Kenya)",
+  "description": "Une flotte portugaise commandée par Francisco de Almeida attaque les cités swahilies qui refusent de se soumettre.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "Kilwa est prise et un fort portugais y est construit ; Mombasa est pillée et incendiée. Les Portugais imposent des taxes sur le commerce de l’océan Indien, et les cités swahilies déclinent."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Kilwa_Kisiwani"
+}

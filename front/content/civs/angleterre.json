@@ -321,16 +321,6 @@
       "wikiUrl": "https://fr.wikipedia.org/wiki/Conqu%C3%AAte_normande_de_l%27Angleterre"
     },
     {
-      "nom": "Conquête normande de l’Angleterre",
-      "annee": 1066,
-      "adversaires": ["Royaume anglo-saxon (Harold II)"],
-      "allies": [],
-      "morts": "Inconnues",
-      "vainqueur": "Normands (Guillaume)",
-      "consequences": "Guillaume devient roi d’Angleterre ; l’aristocratie anglo-saxonne est remplacée par des seigneurs normands.",
-      "wikiUrl": "https://fr.wikipedia.org/wiki/Conqu%C3%AAte_normande_de_l%27Angleterre"
-    },
-    {
       "nom": "Guerre de Cent Ans",
       "annee": 1337,
       "adversaires": ["Royaume de France"],
@@ -339,16 +329,6 @@
       "vainqueur": "France",
       "consequences": "L’Angleterre perd tous ses territoires en France, sauf Calais. Deux ans plus tard commence la guerre des Deux-Roses.",
       "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_de_Cent_Ans"
-    },
-    {
-      "nom": "Guerre des Deux-Roses",
-      "annee": 1455,
-      "adversaires": ["Maison d’York"],
-      "allies": ["Maison de Lancastre"],
-      "morts": "Inconnues ; une grande partie de la haute noblesse est tuée",
-      "vainqueur": "Henri Tudor",
-      "consequences": "Guerre de 1455 à 1487. Henri VII Tudor, héritier des Lancastre, épouse Élisabeth d’York et réunit les deux familles.",
-      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_des_Deux-Roses"
     },
     {
       "nom": "Guerre des Deux-Roses",

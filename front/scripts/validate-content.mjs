@@ -312,11 +312,15 @@ for (const [id, { file, data: civ }] of content.civs) {
     if (p.wikiUrl && !isUrl(p.wikiUrl)) warn(w, `lien invalide pour « ${p.nom} »`)
     expectEntity(w, p.ref, 'personne', `personnage « ${p.nom} »`)
   }
+  const warKeys = new Set()
   for (const g of civ.guerres ?? []) {
     if (!isStr(g.nom)) {
       err(w, `guerre sans nom : ${JSON.stringify(g).slice(0, 80)}`)
       continue
     }
+    // (un script relancé deux fois l'ajoutait en double : la fiche et le quiz montraient la guerre plusieurs fois)
+    if (warKeys.has(`${g.nom}|${g.annee}`)) err(w, `guerre en double : « ${g.nom} » (${g.annee})`)
+    warKeys.add(`${g.nom}|${g.annee}`)
     onlyFields(`${w} (guerre « ${g.nom} »)`, g, ['nom', 'annee', 'adversaires', 'allies', 'morts', 'vainqueur', 'consequences', 'wikiUrl'])
     if (g.wikiUrl && !isUrl(g.wikiUrl)) warn(w, `lien invalide pour « ${g.nom} »`)
     if (content.conflicts[g.nom]) usedConflicts.add(g.nom)

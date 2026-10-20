@@ -197,46 +197,6 @@
       "wikiUrl": "https://fr.wikipedia.org/wiki/Premi%C3%A8re_Guerre_mondiale"
     },
     {
-      "nom": "Guerre franco-allemande de 1870",
-      "annee": 1870,
-      "adversaires": ["Empire français (Napoléon III)"],
-      "allies": ["États allemands du Sud"],
-      "morts": "Environ 180 000 morts",
-      "vainqueur": "Prusse et ses alliés",
-      "consequences": "Napoléon III est capturé à Sedan. L’Empire allemand est proclamé, et la France perd l’Alsace et une partie de la Lorraine.",
-      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_franco-allemande_de_1870"
-    },
-    {
-      "nom": "Première Guerre mondiale (La Grande Guerre)",
-      "annee": 1914,
-      "adversaires": ["France", "Royaume-Uni", "Russie", "États-Unis"],
-      "allies": ["Autriche-Hongrie", "Empire ottoman"],
-      "morts": "Environ 10 millions de soldats tués, dont 2 millions d’Allemands",
-      "vainqueur": "La France et ses alliés",
-      "consequences": "L’Allemagne perd ses colonies et des territoires et doit payer des réparations ; l’empereur abdique.",
-      "wikiUrl": "https://fr.wikipedia.org/wiki/Premi%C3%A8re_Guerre_mondiale"
-    },
-    {
-      "nom": "Guerre franco-allemande de 1870",
-      "annee": 1870,
-      "adversaires": ["Empire français (Napoléon III)"],
-      "allies": ["États allemands du Sud"],
-      "morts": "Environ 180 000 morts",
-      "vainqueur": "Prusse et ses alliés",
-      "consequences": "Napoléon III est capturé à Sedan. L’Empire allemand est proclamé, et la France perd l’Alsace et une partie de la Lorraine.",
-      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_franco-allemande_de_1870"
-    },
-    {
-      "nom": "Première Guerre mondiale (La Grande Guerre)",
-      "annee": 1914,
-      "adversaires": ["France", "Royaume-Uni", "Russie", "États-Unis"],
-      "allies": ["Autriche-Hongrie", "Empire ottoman"],
-      "morts": "Environ 10 millions de soldats tués, dont 2 millions d’Allemands",
-      "vainqueur": "La France et ses alliés",
-      "consequences": "L’Allemagne perd ses colonies et des territoires et doit payer des réparations ; l’empereur abdique.",
-      "wikiUrl": "https://fr.wikipedia.org/wiki/Premi%C3%A8re_Guerre_mondiale"
-    },
-    {
       "nom": "Seconde Guerre mondiale (Front de l'Est/Ouest)",
       "annee": 1939,
       "adversaires": ["URSS", "États-Unis", "Royaume-Uni", "France"],

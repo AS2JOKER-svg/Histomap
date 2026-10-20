@@ -1,0 +1,14 @@
+{
+  "id": "tonyukuk",
+  "nom": "Tonyukuk",
+  "role": "Conseiller des khagans turcs",
+  "roles": ["Conseiller", "Général"],
+  "dates": "VIIe-VIIIe siècles",
+  "description": "Élevé en Chine, il devient le conseiller et le stratège de trois khagans du second empire turc ; il fait graver le récit de sa vie sur deux stèles.",
+  "essentiel": [
+    "Il aide Ilterish à libérer les Turcs de la domination chinoise (682).",
+    "Il dissuade [[bilge-khagan|Bilge Khagan]] de construire des villes et des temples, pour que les Turcs restent mobiles et libres.",
+    "Ses stèles comptent parmi les plus anciens textes turcs."
+  ],
+  "wikiUrl": "https://en.wikipedia.org/wiki/Tonyukuk"
+}

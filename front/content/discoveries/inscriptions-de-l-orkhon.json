@@ -1,0 +1,19 @@
+{
+  "id": "inscriptions-de-l-orkhon",
+  "nom": "Inscriptions de l’Orkhon",
+  "annee": 732,
+  "domaine": "Écriture",
+  "dates": "732 et 735",
+  "description": "De grandes stèles de pierre élevées dans la vallée de l’Orkhon, en Mongolie, pour le prince Kül Tegin et pour [[bilge-khagan|Bilge Khagan]] : les plus anciens textes longs connus en langue turque.",
+  "sections": [
+    {
+      "titre": "Ce qu’elles racontent",
+      "texte": "Écrites au nom du khagan, elles retracent l’histoire des Turcs, célèbrent leurs victoires et les mettent en garde contre la Chine. Une face porte aussi un texte en chinois."
+    },
+    {
+      "titre": "Leur déchiffrement",
+      "texte": "Découvertes en 1889, elles sont déchiffrées en 1893 par le linguiste danois Vilhelm Thomsen."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Inscriptions_de_l%27Orkhon"
+}

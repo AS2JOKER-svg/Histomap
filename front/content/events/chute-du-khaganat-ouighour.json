@@ -1,0 +1,15 @@
+{
+  "id": "chute-du-khaganat-ouighour",
+  "nom": "Chute du khaganat ouïghour",
+  "annee": 840,
+  "dates": "840",
+  "lieu": "Ordu-Baliq (vallée de l’Orkhon, Mongolie)",
+  "description": "Affaibli par les querelles, une épidémie et des hivers terribles, le khaganat est attaqué par les Kirghiz, qui prennent et détruisent sa capitale.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "Les Ouïghours quittent la Mongolie. Certains se réfugient au Gansu, d’autres dans les oasis de Tourfan et de Qocho, où ils fondent des royaumes prospères, bouddhistes et manichéens."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Khaganat_ou%C3%AFghour"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "arrien",
+  "nom": "Arrien",
+  "nomComplet": "Lucius Flavius Arrianus",
+  "role": "Gouverneur romain et historien grec",
+  "roles": ["Historien", "Gouverneur"],
+  "dates": "vers 85 → vers 160",
+  "naissance": 85,
+  "mort": 160,
+  "description": "Grec d’Asie Mineure devenu haut fonctionnaire romain, il gouverne la Cappadoce sous Hadrien et écrit l’histoire d’Alexandre le Grand.",
+  "essentiel": [
+    "Vers 135, il repousse une invasion des Alains en Cappadoce.",
+    "Il écrit un petit traité décrivant l’ordre de bataille de ses troupes contre les Alains.",
+    "Son « Anabase d’Alexandre » est la principale source sur les conquêtes d’Alexandre."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Arrien"
+}

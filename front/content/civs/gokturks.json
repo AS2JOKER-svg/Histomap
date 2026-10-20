@@ -1,0 +1,242 @@
+{
+  "documentaires": [],
+  "decouvertes": ["inscriptions-de-l-orkhon"],
+  "id": "gokturks",
+  "label": "Empire turc (Göktürks)",
+  "tier": 2,
+  "region": "mongolie",
+  "period": "552 à 744",
+  "start": 552,
+  "end": 744,
+  "color": "#1e88e5",
+  "trackId": "steppe_asie",
+  "row": 0,
+  "isRiver": false,
+  "capitale": "Ötüken (monts Khangaï, Mongolie)",
+  "description": "Le premier empire à porter le nom de « Turc » : des steppes de Mongolie, ses khagans dominent un temps les routes de la soie, de la Mandchourie à la mer Noire, et laissent les plus anciens textes en langue turque.",
+  "territories": ["Göktürks", "Western Gokturk Khaganate"],
+  "reperes": {
+    "capitale": { "valeur": "Ötüken", "precision": "forêt sacrée des monts Khangaï, en Mongolie, centre du pouvoir" },
+    "regimes": {
+      "valeur": "Khaganat",
+      "precision": "dirigé par un khagan du clan Ashina ; divisé vers 600 en Turcs de l’Est et de l’Ouest"
+    },
+    "langues": { "valeur": "Vieux turc", "precision": "premiers textes turcs connus, gravés en alphabet runique" },
+    "religion": {
+      "valeur": "Culte de Tengri",
+      "precision": "le Ciel ; aussi la déesse Umay et la Terre-Eau ; le bouddhisme trouve des adeptes"
+    },
+    "apogee": { "valeur": "Vers 570", "precision": "des steppes de Mandchourie à la mer Noire" },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": { "valeur": "Aucune propre", "precision": "la soie chinoise sert de richesse et de moyen d’échange" },
+    "duree": { "valeur": "Environ 190 ans", "precision": "avec une domination chinoise de 630 à 682" },
+    "aujourdhui": { "valeur": "Mongolie", "precision": "ainsi que le Kazakhstan, le Kirghizistan et le nord de la Chine" }
+  },
+  "essentiel": [
+    "En 552, Bumin, chef du clan Ashina, se révolte contre ses maîtres, les Ruanruan, et fonde un empire dont les peuples se nomment « Türk ».",
+    "Ses successeurs dominent en quelques années les steppes de la Mandchourie à la mer Noire et contrôlent une partie de la [[route-de-la-soie|route de la soie]].",
+    "Ils négocient le commerce de la soie avec Byzance et la Perse : en 568, une ambassade turque menée par le Sogdien Maniakh arrive à Constantinople.",
+    "Divisé en deux khaganats, l’empire de l’Est est soumis par la Chine des Tang en 630, puis renaît en 682.",
+    "Les [[inscriptions-de-l-orkhon|inscriptions de l’Orkhon]], gravées vers 732-735 en l’honneur de [[bilge-khagan|Bilge Khagan]], sont les plus anciens textes connus en langue turque ; en 744, les Ouïghours renversent l’empire."
+  ],
+  "datesCles": [
+    { "annee": 552, "evenement": "Fondation", "info": "Bumin bat les Ruanruan et prend le titre de khagan." },
+    {
+      "annee": 568,
+      "evenement": "Ambassade à Constantinople",
+      "info": "Le khagan de l’Ouest, Istämi, propose à Byzance une alliance contre la Perse et la vente directe de la soie."
+    },
+    {
+      "annee": 600,
+      "evenement": "Division",
+      "info": "Vers 600, l’empire se partage durablement entre Turcs de l’Est et Turcs de l’Ouest."
+    },
+    {
+      "annee": 630,
+      "evenement": "Soumission aux Tang",
+      "info": "L’empereur Tang Taizong capture le khagan Illig : les Turcs de l’Est passent sous domination chinoise."
+    },
+    {
+      "annee": 682,
+      "evenement": "Renaissance",
+      "info": "Ilterish se révolte contre les Tang et fonde le second khaganat turc, conseillé par Tonyukuk."
+    },
+    {
+      "annee": 732,
+      "evenement": "Inscriptions de l’Orkhon",
+      "info": "Une stèle est élevée pour le prince Kül Tegin, frère de Bilge Khagan, puis une autre pour Bilge en 735."
+    },
+    {
+      "annee": 744,
+      "evenement": "Chute",
+      "info": "Une coalition menée par les Ouïghours renverse le dernier khagan turc."
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "Le premier khaganat",
+      "debut": 552,
+      "fin": 630,
+      "resume": "Les Turcs conquièrent les steppes, négocient avec Byzance, la Perse et la Chine, puis se divisent en deux empires rivaux.",
+      "evenements": [
+        { "annee": 552, "evenement": "Révolte de Bumin" },
+        { "annee": 568, "evenement": "Ambassade à Constantinople" },
+        { "annee": 600, "evenement": "Division Est-Ouest" }
+      ]
+    },
+    {
+      "nom": "La domination chinoise",
+      "debut": 630,
+      "fin": 682,
+      "resume": "Les Turcs de l’Est sont soumis aux Tang ; ceux de l’Ouest s’affaiblissent et passent aussi sous contrôle chinois.",
+      "evenements": [{ "annee": 630, "evenement": "Capture du khagan Illig" }]
+    },
+    {
+      "nom": "Le second khaganat",
+      "debut": 682,
+      "fin": 744,
+      "resume": "Ilterish, Qapaghan et Bilge restaurent la puissance turque ; leurs exploits sont gravés sur les stèles de l’Orkhon.",
+      "evenements": [
+        { "annee": 682, "evenement": "Révolte d’Ilterish" },
+        { "annee": 732, "evenement": "Stèle de Kül Tegin" },
+        { "annee": 744, "evenement": "Victoire des Ouïghours" }
+      ]
+    }
+  ],
+  "regimes": [
+    {
+      "id": "premier",
+      "nom": "Premier khaganat turc",
+      "debut": 552,
+      "fin": 630,
+      "note": "Divisé vers 600 en khaganats de l’Est et de l’Ouest."
+    },
+    { "id": "tang", "nom": "Domination des Tang", "debut": 630, "fin": 682 },
+    { "id": "second", "nom": "Second khaganat turc", "debut": 682, "fin": 744 }
+  ],
+  "dynasties": [
+    { "id": "est", "nom": "Khagans de l’Est (clan Ashina)", "debut": 552, "fin": 744, "note": "Sélection." },
+    { "id": "ouest", "nom": "Khagans de l’Ouest", "debut": 552, "fin": 603, "note": "Sélection." }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Bumin",
+      "titre": "Khagan",
+      "debut": 552,
+      "fin": 552,
+      "dynastie": "est",
+      "note": "fondateur ; meurt l’année de sa victoire",
+      "cle": true
+    },
+    {
+      "nom": "Muqan",
+      "titre": "Khagan",
+      "debut": 553,
+      "fin": 572,
+      "dynastie": "est",
+      "note": "grandes conquêtes",
+      "cle": true
+    },
+    { "nom": "Taspar", "titre": "Khagan", "debut": 572, "fin": 581, "dynastie": "est", "note": "protège le bouddhisme" },
+    { "nom": "Illig", "titre": "Khagan", "debut": 620, "fin": 630, "dynastie": "est", "note": "capturé par les Tang" },
+    {
+      "nom": "Ilterish",
+      "titre": "Khagan",
+      "debut": 682,
+      "fin": 691,
+      "dynastie": "est",
+      "note": "restaure l’empire",
+      "cle": true
+    },
+    { "nom": "Qapaghan", "titre": "Khagan", "debut": 691, "fin": 716, "dynastie": "est" },
+    {
+      "nom": "Bilge",
+      "titre": "Khagan",
+      "debut": 716,
+      "fin": 734,
+      "dynastie": "est",
+      "personne": "bilge-khagan",
+      "cle": true
+    },
+    {
+      "nom": "Istämi",
+      "titre": "Yabgu (souverain de l’Ouest)",
+      "debut": 552,
+      "fin": 576,
+      "dynastie": "ouest",
+      "note": "frère de Bumin ; négocie avec Byzance"
+    },
+    { "nom": "Tardu", "titre": "Khagan de l’Ouest", "debut": 576, "fin": 603, "dynastie": "ouest" }
+  ],
+  "personnages": [
+    {
+      "nom": "Tonyukuk",
+      "role": "Conseiller et général",
+      "description": "Conseiller de trois khagans, il raconte sa propre vie sur une stèle qui porte son nom.",
+      "dates": "VIIe-VIIIe siècles",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Tonyukuk",
+      "ref": "tonyukuk"
+    },
+    {
+      "nom": "Kül Tegin",
+      "role": "Prince et chef de guerre",
+      "description": "Frère de Bilge Khagan, il commande ses armées ; sa stèle funéraire est l’une des inscriptions de l’Orkhon.",
+      "dates": "684 → 731",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Kul_Tigin"
+    },
+    {
+      "nom": "Zémarque",
+      "role": "Ambassadeur byzantin",
+      "description": "Envoyé par l’empereur Justin II, il se rend en 569 auprès du khagan Istämi, dans les montagnes d’Asie centrale, et rapporte le récit de son voyage.",
+      "dates": "VIe siècle",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Z%C3%A9marque"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Première guerre perso-turque",
+      "annee": 588,
+      "adversaires": ["Empire sassanide (Bahram Chobin)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Empire sassanide",
+      "consequences": "Le général perse Bahram Chobin bat une grande armée turque près d’Hérat ; les Turcs de l’Ouest cessent leurs attaques contre la Perse pour un temps.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/First_Perso-Turkic_War"
+    },
+    {
+      "nom": "Campagne des Tang contre les Turcs de l’Est",
+      "annee": 629,
+      "adversaires": ["Dynastie Tang (Taizong)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Dynastie Tang",
+      "consequences": "Le général Li Jing surprend le camp du khagan Illig, capturé en 630. Les chefs turcs reconnaissent Taizong comme « khagan céleste ».",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Tang_Taizong"
+    }
+  ],
+  "sciences": "Les Turcs du second khaganat gravent leur langue dans un alphabet de type runique, dont l’origine est discutée, sur de grandes stèles de pierre. Selon les sources chinoises, le clan Ashina était réputé pour son travail du fer dans les monts Altaï avant de fonder l’empire.",
+  "croyancesText": "Les Turcs honorent Tengri, le Ciel, qui donne le pouvoir au khagan, ainsi que la déesse Umay, protectrice des femmes et des enfants, et la « Terre-Eau ». Certains khagans, comme Taspar, soutiennent aussi le bouddhisme, et des marchands sogdiens apportent le manichéisme.",
+  "diplomatie": "Les Turcs veulent vendre directement la soie qu’ils reçoivent de Chine : la Perse refusant, ils s’allient à Byzance contre elle. Les marchands sogdiens servent d’intermédiaires et d’ambassadeurs. Avec la Chine, ils alternent raids, tributs, mariages princiers et soumission.",
+  "societe": "Le khagan, du clan sacré Ashina, partage le pouvoir avec des princes de sa famille qui gouvernent les ailes de l’empire. Les inscriptions de l’Orkhon mettent en garde les Turcs contre l’attrait des soieries chinoises, qui risquent de leur faire perdre leur liberté.",
+  "economie": "Élevage nomade, tributs des peuples soumis et de la Chine, contrôle du commerce de la soie avec l’aide des marchands sogdiens, travail du fer.",
+  "arts": "Stèles gravées et statues funéraires de pierre (balbals), objets en or et en argent, harnais décorés.",
+  "quotidien": "Les Turcs vivent sous la yourte et se déplacent selon les saisons ; les inscriptions évoquent la vie à cheval, la chasse et les grandes assemblées.",
+  "heritage": [
+    {
+      "titre": "Le nom « turc »",
+      "texte": "Le nom de ce peuple désigne aujourd’hui une grande famille de langues parlées de la Turquie à la Sibérie."
+    },
+    {
+      "titre": "Les premiers textes turcs",
+      "texte": "Les inscriptions de l’Orkhon sont étudiées en Turquie, au Kazakhstan et en Mongolie comme un patrimoine commun."
+    }
+  ],
+  "aSavoir": ["« Göktürk » signifie « Turcs célestes » ou « Turcs bleus » : la couleur bleue est associée au Ciel."],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/G%C3%B6kt%C3%BCrks",
+    {
+      "titre": "Encyclopædia Britannica — Turkic peoples",
+      "url": "https://www.britannica.com/topic/Turkic-peoples"
+    }
+  ]
+}

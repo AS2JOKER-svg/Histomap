@@ -1,0 +1,16 @@
+{
+  "id": "bataille-de-la-nedao",
+  "nom": "Bataille de la Nedao",
+  "annee": 454,
+  "dates": "454",
+  "lieu": "Pannonie (rivière Nedao, non localisée)",
+  "description": "Les peuples soumis aux Huns, menés par Ardaric, roi des Gépides, se révoltent contre les fils d’[[attila|Attila]] et les écrasent.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "Ellac, le fils aîné d’Attila, est tué. L’empire hunnique se disloque ; Gépides et Ostrogoths s’installent en Pannonie."
+    }
+  ],
+  "avant": "bataille-des-champs-catalauniques",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_la_Nedao"
+}

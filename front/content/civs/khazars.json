@@ -1,0 +1,232 @@
+{
+  "documentaires": [],
+  "decouvertes": ["sarkel"],
+  "id": "khazars",
+  "label": "Khazars",
+  "tier": 2,
+  "region": "russie-europeenne",
+  "period": "vers 650 à 969",
+  "start": 650,
+  "end": 969,
+  "color": "#827717",
+  "trackId": "scythes",
+  "row": 10,
+  "isRiver": false,
+  "capitale": "Itil (delta de la Volga)",
+  "description": "Un empire de cavaliers turcs entre le Caucase, la Volga et la mer Noire, qui arrête l’expansion arabe au nord du Caucase, s’allie à Byzance et dont l’élite adopte le judaïsme, avant d’être abattu par les princes de Kiev.",
+  "territories": ["Khazars"],
+  "reperes": {
+    "capitale": {
+      "valeur": "Itil",
+      "precision": "dans le delta de la Volga ; ses ruines n’ont pas été identifiées avec certitude"
+    },
+    "regimes": {
+      "valeur": "Khaganat",
+      "precision": "double royauté : un khagan sacré et un « bek » qui gouverne et commande l’armée"
+    },
+    "langues": {
+      "valeur": "Khazar (langue turque)",
+      "precision": "presque inconnue ; on écrit en hébreu, en arabe ou en grec"
+    },
+    "religion": { "valeur": "Judaïsme de l’élite", "precision": "à côté de musulmans, de chrétiens et de païens" },
+    "apogee": { "valeur": "VIIIe-IXe siècles", "precision": "maîtres des steppes entre Caucase, Volga et Dniepr" },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": { "valeur": "Dirhams d’argent", "precision": "monnaies arabes et quelques imitations frappées sur place" },
+    "duree": { "valeur": "Environ 300 ans" },
+    "aujourdhui": {
+      "valeur": "Sud de la Russie",
+      "precision": "ainsi que l’Ukraine, la Crimée, le Daghestan et l’ouest du Kazakhstan"
+    }
+  },
+  "essentiel": [
+    "Issus de l’empire turc des Göktürks, les Khazars fondent au VIIe siècle un khaganat entre le Caucase, la Volga et la mer Noire.",
+    "Lors des [[guerres-arabo-khazares|guerres arabo-khazares]], ils arrêtent l’expansion du califat au nord du Caucase.",
+    "Alliés de Byzance, ils donnent des épouses à deux empereurs ; le fils de l’une d’elles, Léon IV, est surnommé « le Khazar ».",
+    "Leur élite se convertit au judaïsme, un cas rare pour un grand État, tout en tolérant chrétiens, musulmans et païens.",
+    "Maîtres du commerce entre la Baltique, Byzance et le monde musulman, ils sont vaincus vers 965-969 par [[sviatoslav-ier|Sviatoslav]], prince de Kiev."
+  ],
+  "datesCles": [
+    {
+      "annee": 650,
+      "evenement": "Un khaganat indépendant",
+      "info": "Vers 650, les Khazars se libèrent de l’empire turc de l’Ouest et dominent les steppes du nord du Caucase."
+    },
+    {
+      "annee": 652,
+      "evenement": "Victoire de Balanjar",
+      "info": "Une armée arabe est écrasée devant la ville khazare de Balanjar.",
+      "ref": "guerres-arabo-khazares"
+    },
+    {
+      "annee": 704,
+      "evenement": "Justinien II chez les Khazars",
+      "info": "L’empereur byzantin exilé épouse la sœur du khagan Busir, avant de reprendre son trône."
+    },
+    {
+      "annee": 737,
+      "evenement": "Invasion de Marwan",
+      "info": "Le général arabe Marwan pénètre jusqu’à la Volga ; le khagan promet de se convertir à l’islam, mais les Khazars restent indépendants.",
+      "ref": "guerres-arabo-khazares"
+    },
+    {
+      "annee": 800,
+      "evenement": "Conversion au judaïsme",
+      "info": "Entre le milieu du VIIIe et le milieu du IXe siècle, le roi et la noblesse khazars adoptent le judaïsme.",
+      "ref": "conversion-des-khazars-au-judaisme"
+    },
+    {
+      "annee": 840,
+      "evenement": "Forteresse de Sarkel",
+      "info": "Vers 840, des ingénieurs byzantins aident les Khazars à bâtir une forteresse de brique sur le Don."
+    },
+    {
+      "annee": 861,
+      "evenement": "Mission de Constantin-Cyrille",
+      "info": "Le futur saint Cyrille débat de religion à la cour du khagan."
+    },
+    {
+      "annee": 965,
+      "evenement": "Prise de Sarkel",
+      "info": "Sviatoslav, prince de Kiev, s’empare de la forteresse ; vers 968-969, Itil est détruite."
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "La naissance du khaganat",
+      "debut": 650,
+      "fin": 737,
+      "resume": "Les Khazars s’imposent dans les steppes et combattent les armées arabes au Caucase, en alliance avec Byzance.",
+      "evenements": [
+        { "annee": 652, "evenement": "Victoire de Balanjar", "ref": "guerres-arabo-khazares" },
+        { "annee": 704, "evenement": "Accueil de Justinien II" },
+        { "annee": 730, "evenement": "Raid khazar jusqu’à Ardabil" }
+      ]
+    },
+    {
+      "nom": "L’apogée",
+      "debut": 737,
+      "fin": 900,
+      "resume": "Le Caucase devient une frontière stable ; les Khazars s’enrichissent du commerce de la Volga et leur élite adopte le judaïsme.",
+      "evenements": [
+        { "annee": 800, "evenement": "Conversion au judaïsme", "ref": "conversion-des-khazars-au-judaisme" },
+        { "annee": 840, "evenement": "Construction de Sarkel" }
+      ]
+    },
+    {
+      "nom": "Le déclin",
+      "debut": 900,
+      "fin": 969,
+      "resume": "Les Petchénègues et les Rus’ menacent le khaganat, que Sviatoslav de Kiev abat dans les années 960.",
+      "evenements": [
+        { "annee": 965, "evenement": "Prise de Sarkel par Sviatoslav" },
+        { "annee": 969, "evenement": "Destruction d’Itil" }
+      ]
+    }
+  ],
+  "regimes": [
+    {
+      "id": "khaganat",
+      "nom": "Khaganat khazar",
+      "debut": 650,
+      "fin": 969,
+      "note": "Le khagan, sacré, règne ; le bek gouverne."
+    }
+  ],
+  "dynasties": [
+    {
+      "id": "souverains",
+      "nom": "Quelques souverains connus",
+      "debut": 690,
+      "fin": 965,
+      "note": "Les listes de souverains khazars sont très lacunaires ; seules des dates d’attestation sont connues."
+    }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Busir",
+      "titre": "Khagan",
+      "debut": 704,
+      "fin": 705,
+      "dynastie": "souverains",
+      "note": "attesté vers 704 ; beau-frère de l’empereur Justinien II"
+    },
+    {
+      "nom": "Joseph",
+      "titre": "Roi (bek)",
+      "debut": 955,
+      "fin": 960,
+      "dynastie": "souverains",
+      "note": "attesté vers 960 par sa lettre au savant andalou Hasdaï ibn Shaprut"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Tzitzak",
+      "role": "Princesse khazare, impératrice byzantine",
+      "description": "Fille du khagan, elle épouse le futur empereur Constantin V et prend le nom d’Irène ; son fils Léon IV est surnommé « le Khazar ».",
+      "dates": "VIIIe siècle",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Tzitzak"
+    },
+    {
+      "nom": "Hasdaï ibn Shaprut",
+      "role": "Savant et diplomate andalou",
+      "description": "Ministre du calife de Cordoue, il écrit au roi des Khazars pour connaître ce royaume juif lointain.",
+      "dates": "vers 915 → vers 970",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Hasda%C3%AF_ibn_Shaprut"
+    },
+    {
+      "nom": "Sviatoslav Ier",
+      "role": "Prince de Kiev",
+      "description": "Il abat la puissance khazare dans les années 960.",
+      "dates": "vers 942 → 972",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Sviatoslav_Ier",
+      "ref": "sviatoslav-ier"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerres arabo-khazares",
+      "annee": 652,
+      "adversaires": ["Califat (Omeyyades, puis Abbassides)"],
+      "allies": [],
+      "morts": "Inconnues, élevées",
+      "vainqueur": "Aucun vainqueur décisif",
+      "consequences": "Après un siècle de combats, marqué par la victoire khazare de Balanjar (652), le raid jusqu’à Ardabil (730) et l’invasion de Marwan (737), le Caucase devient la frontière entre le califat et les Khazars.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerres_arabo-khazares"
+    },
+    {
+      "nom": "Campagne de Sviatoslav contre les Khazars",
+      "annee": 965,
+      "adversaires": ["Rus’ de Kiev (Sviatoslav)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Rus’ de Kiev",
+      "consequences": "Sarkel est prise et Itil détruite vers 968-969. Le khaganat disparaît ; Petchénègues et Rus’ se partagent les steppes.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Sviatoslav_Ier"
+    }
+  ],
+  "sciences": "Les Khazars bâtissent des forteresses de brique, comme Sarkel sur le Don, construite vers 840 avec l’aide d’ingénieurs byzantins. Leur khaganat se dote aussi d’une administration fiscale qui taxe les marchandises circulant sur la Volga et le Don.",
+  "croyancesText": "Vers le IXe siècle, le roi et la noblesse khazars adoptent le judaïsme. Selon l’auteur arabe al-Masudi, la capitale Itil a sept juges : deux pour les juifs, deux pour les musulmans, deux pour les chrétiens et un pour les païens. Beaucoup de Khazars restent fidèles au culte de Tengri.",
+  "diplomatie": "Les Khazars sont les principaux alliés de Byzance contre les Arabes, puis contre d’autres nomades. Deux empereurs byzantins, Justinien II et Constantin V, épousent des princesses khazares. Ils commercent avec le monde musulman, les Rus’ et les peuples de la forêt, à qui ils imposent un tribut.",
+  "societe": "Le khagan, personnage sacré, vit retiré ; le bek gouverne et commande l’armée. Itil abrite des quartiers juifs, musulmans, chrétiens et païens, avec leurs mosquées, synagogues et églises.",
+  "economie": "Taxe d’un dixième sur les marchandises (fourrures, cire, miel, esclaves), tributs des peuples soumis, élevage, pêche et agriculture.",
+  "arts": "Céramiques, bijoux et objets de métal ; peu d’œuvres khazares sont connues avec certitude.",
+  "quotidien": "Selon les géographes arabes, une partie des habitants d’Itil passe l’hiver en ville et l’été dans les champs et les pâturages.",
+  "heritage": [
+    {
+      "titre": "Un mystère historique",
+      "texte": "La conversion des Khazars au judaïsme fascine depuis le Moyen Âge, comme en témoigne le livre du poète andalou Juda Halevi, le « Kuzari »."
+    },
+    {
+      "titre": "La fin de la puissance des steppes",
+      "texte": "La chute des Khazars ouvre la voie à l’essor de la Rus’ de Kiev."
+    }
+  ],
+  "aSavoir": [
+    "Les historiens rejettent l’idée, parfois avancée, que la plupart des juifs d’Europe de l’Est descendraient des Khazars : les études génétiques et historiques ne la confirment pas."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Khazars",
+    { "titre": "Encyclopædia Britannica — Khazar", "url": "https://www.britannica.com/topic/Khazar" }
+  ]
+}

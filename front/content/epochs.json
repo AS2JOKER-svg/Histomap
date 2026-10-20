@@ -10,22 +10,35 @@
       {
         "id": "afrique",
         "label": "Afrique",
-        "civs": ["hominides-est", "sahara-pasteurs"]
+        "civs": [
+          "hominides-est",
+          "sahara-pasteurs"
+        ]
       },
       {
         "id": "europe",
         "label": "Europe",
-        "civs": ["europe-paleo", "europe-neo", "megalithes-europe"]
+        "civs": [
+          "europe-paleo",
+          "europe-neo",
+          "megalithes-europe"
+        ]
       },
       {
         "id": "asie",
         "label": "Asie",
-        "civs": ["chine-neo", "mesopotamie-prehist", "gobekli-tepe"]
+        "civs": [
+          "chine-neo",
+          "mesopotamie-prehist",
+          "gobekli-tepe"
+        ]
       },
       {
         "id": "amerique",
         "label": "Amérique",
-        "civs": ["caral-supe"]
+        "civs": [
+          "caral-supe"
+        ]
       }
     ]
   },
@@ -40,12 +53,31 @@
       {
         "id": "afrique",
         "label": "Afrique",
-        "civs": ["egypte", "carthage", "koush", "aksoum", "nok", "pount"]
+        "civs": [
+          "egypte",
+          "carthage",
+          "koush",
+          "aksoum",
+          "nok",
+          "pount"
+        ]
       },
       {
         "id": "europe",
         "label": "Europe",
-        "civs": ["minoen-mycenien", "grece", "etrusques", "rome", "celtes", "thraces", "iberes", "scythes", "illyriens"]
+        "civs": [
+          "minoen-mycenien",
+          "grece",
+          "etrusques",
+          "rome",
+          "celtes",
+          "thraces",
+          "iberes",
+          "scythes",
+          "sarmates",
+          "huns",
+          "illyriens"
+        ]
       },
       {
         "id": "asie",
@@ -65,7 +97,12 @@
       {
         "id": "amerique",
         "label": "Amérique",
-        "civs": ["olmeques", "teotihuacan", "chavin", "nazca"]
+        "civs": [
+          "olmeques",
+          "teotihuacan",
+          "chavin",
+          "nazca"
+        ]
       }
     ]
   },
@@ -88,6 +125,7 @@
           "angleterre",
           "vikings",
           "rus-kiev",
+          "khazars",
           "italie-maritime",
           "al-andalus",
           "reconquista-royaumes"
@@ -98,6 +136,8 @@
         "label": "Asie / Moyen-Orient",
         "civs": [
           "califat",
+          "gokturks",
+          "ouighours",
           "mongols",
           "chine-tang-song",
           "tibet-empire",
@@ -111,12 +151,22 @@
       {
         "id": "afrique",
         "label": "Afrique",
-        "civs": ["ghana-med", "mali", "songhai", "kongo", "zimbabwe-civilisation"]
+        "civs": [
+          "ghana-med",
+          "mali",
+          "songhai",
+          "kongo",
+          "zimbabwe-civilisation"
+        ]
       },
       {
         "id": "amerique",
         "label": "Amérique",
-        "civs": ["maya", "tiwanaku", "huari"]
+        "civs": [
+          "maya",
+          "tiwanaku",
+          "huari"
+        ]
       }
     ]
   },
@@ -131,22 +181,46 @@
       {
         "id": "europe",
         "label": "Europe",
-        "civs": ["espagne", "france-mod", "angleterre-mod", "provinces-unies", "suede-empire", "prusse", "pologne-lituanie"]
+        "civs": [
+          "espagne",
+          "france-mod",
+          "angleterre-mod",
+          "provinces-unies",
+          "suede-empire",
+          "prusse",
+          "pologne-lituanie"
+        ]
       },
       {
         "id": "afrique",
         "label": "Afrique",
-        "civs": ["songhai-mod", "ashanti", "kongo-mod", "oyo"]
+        "civs": [
+          "songhai-mod",
+          "ashanti",
+          "kongo-mod",
+          "oyo"
+        ]
       },
       {
         "id": "asie",
         "label": "Asie / Moyen-Orient",
-        "civs": ["ottomans", "moghols", "safavides", "chine-mod", "japon-mod", "joseon"]
+        "civs": [
+          "ottomans",
+          "moghols",
+          "safavides",
+          "chine-mod",
+          "japon-mod",
+          "joseon"
+        ]
       },
       {
         "id": "amerique",
         "label": "Amérique",
-        "civs": ["azteque", "inca", "usa-moderne"]
+        "civs": [
+          "azteque",
+          "inca",
+          "usa-moderne"
+        ]
       }
     ]
   },
@@ -174,17 +248,34 @@
       {
         "id": "amerique",
         "label": "Amérique",
-        "civs": ["etats-unis", "mexique", "bresil"]
+        "civs": [
+          "etats-unis",
+          "mexique",
+          "bresil"
+        ]
       },
       {
         "id": "asie",
         "label": "Asie / Moyen-Orient",
-        "civs": ["turquie", "iran", "chine-contemp", "japon", "coree-contemp", "inde-contemp", "indonesie", "singapour"]
+        "civs": [
+          "turquie",
+          "iran",
+          "chine-contemp",
+          "japon",
+          "coree-contemp",
+          "inde-contemp",
+          "indonesie",
+          "singapour"
+        ]
       },
       {
         "id": "afrique",
         "label": "Afrique",
-        "civs": ["ethiopie-contemp", "dahomey", "afrique-sud"]
+        "civs": [
+          "ethiopie-contemp",
+          "dahomey",
+          "afrique-sud"
+        ]
       }
     ]
   }

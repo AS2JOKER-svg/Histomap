@@ -488,5 +488,49 @@
   "Seconde guerre des Boers": {
     "coords": [28, -26.2],
     "lieu": "Transvaal et État libre d’Orange"
+  },
+  "Raid des Roxolans en Mésie": {
+    "coords": [25.5, 43.8],
+    "lieu": "Mésie (bas Danube)"
+  },
+  "Guerres marcomanes": {
+    "coords": [18.5, 47.8],
+    "lieu": "Danube moyen (Pannonie)"
+  },
+  "Bataille des champs Catalauniques": {
+    "coords": [4.4, 48.9],
+    "lieu": "Champagne"
+  },
+  "Invasion de l’Italie par Attila": {
+    "coords": [13.37, 45.77],
+    "lieu": "Aquilée"
+  },
+  "Bataille de la Nedao": {
+    "coords": [19.5, 46.5],
+    "lieu": "Pannonie"
+  },
+  "Première guerre perso-turque": {
+    "coords": [62.2, 34.35],
+    "lieu": "Près d’Hérat"
+  },
+  "Campagne des Tang contre les Turcs de l’Est": {
+    "coords": [111.6, 40.8],
+    "lieu": "Mongolie-Intérieure"
+  },
+  "Guerres arabo-khazares": {
+    "coords": [47.5, 42.5],
+    "lieu": "Nord du Caucase"
+  },
+  "Campagne de Sviatoslav contre les Khazars": {
+    "coords": [42.1, 47.6],
+    "lieu": "Sarkel (Don)"
+  },
+  "Intervention ouïghoure contre les rebelles d’An Lushan": {
+    "coords": [108.94, 34.34],
+    "lieu": "Chang’an"
+  },
+  "Destruction du khaganat ouïghour": {
+    "coords": [102.66, 47.43],
+    "lieu": "Ordu-Baliq"
   }
 }

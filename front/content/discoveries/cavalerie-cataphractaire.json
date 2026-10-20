@@ -1,0 +1,18 @@
+{
+  "id": "cavalerie-cataphractaire",
+  "nom": "Cavalerie cataphractaire",
+  "domaine": "Technique militaire",
+  "dates": "Antiquité",
+  "description": "Des cavaliers entièrement cuirassés, parfois avec des chevaux eux aussi protégés, qui chargent avec une longue lance. Les Sarmates et les Parthes en font une arme redoutable.",
+  "sections": [
+    {
+      "titre": "Comment ça marche",
+      "texte": "Le cavalier porte une armure d’écailles ou de lamelles et tient à deux mains une lance de plus de trois mètres. La charge, lancée au galop, peut briser une ligne d’infanterie."
+    },
+    {
+      "titre": "La suite",
+      "texte": "Les Romains créent leurs propres unités de cataphractaires au IIe siècle, puis l’Empire byzantin et la Perse sassanide en font le cœur de leurs armées."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Cataphractaire"
+}

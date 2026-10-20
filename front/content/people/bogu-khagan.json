@@ -1,0 +1,16 @@
+{
+  "id": "bogu-khagan",
+  "nom": "Bögü",
+  "role": "Khagan des Ouïghours",
+  "roles": ["Khagan"],
+  "dates": "mort en 779",
+  "mort": 779,
+  "description": "Khagan des Ouïghours de 759 à 779, il intervient en Chine et adopte le manichéisme, dont il fait la religion de son empire.",
+  "reperes": [{ "label": "Règne", "valeur": "759 → 779" }],
+  "essentiel": [
+    "En 762, il aide les Tang à reprendre Luoyang aux rebelles, puis laisse ses troupes piller la ville.",
+    "En 763, il ramène des prêtres manichéens à Ordu-Baliq.",
+    "Il envisage d’envahir la Chine, mais son ministre Tun Baga Tarkhan s’y oppose et le fait tuer en 779."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/B%C3%B6g%C3%BC_khagan"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "attila",
+  "nom": "Attila",
+  "role": "Roi des Huns",
+  "roles": ["Roi", "Chef de guerre"],
+  "dates": "vers 395 → 453",
+  "naissance": 395,
+  "mort": 453,
+  "description": "Roi des Huns de 434 à 453, il domine les peuples d’Europe centrale, rançonne l’Empire romain d’Orient et envahit la Gaule puis l’Italie.",
+  "reperes": [{ "label": "Règne", "valeur": "434 → 453", "precision": "avec son frère Bleda jusqu’en 445" }],
+  "essentiel": [
+    "Il obtient de Constantinople un tribut annuel de plus de 2 000 livres d’or.",
+    "Il est arrêté en Gaule à la [[bataille-des-champs-catalauniques|bataille des champs Catalauniques]] (451).",
+    "Il ravage l’Italie du Nord en 452, puis se retire.",
+    "Il meurt en 453, la nuit de son mariage avec Ildico."
+  ],
+  "aSavoir": [
+    "L’image d’un Attila détruisant tout sur son passage vient surtout d’auteurs chrétiens plus tardifs ; Priscus le décrit comme un chef habile et sobre."
+  ],
+  "liens": [{ "ref": "aetius", "relation": "Son adversaire en 451" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Attila"
+}

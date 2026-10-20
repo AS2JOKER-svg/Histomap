@@ -1,0 +1,225 @@
+{
+  "documentaires": [],
+  "decouvertes": ["cavalerie-cataphractaire"],
+  "id": "sarmates",
+  "label": "Sarmates",
+  "tier": 2,
+  "region": "europe-est",
+  "period": "vers -400 à 375",
+  "start": -400,
+  "end": 375,
+  "color": "#a0522d",
+  "trackId": "scythes",
+  "row": 8,
+  "isRiver": false,
+  "capitale": "Aucune (peuples nomades)",
+  "description": "Des peuples nomades de langue iranienne, cavaliers cuirassés des steppes, qui succèdent aux Scythes au nord de la mer Noire et affrontent Rome sur le Danube, jusqu’à l’arrivée des Huns.",
+  "territories": ["Sarmates", "Alans", "Caucasian Alans"],
+  "reperes": {
+    "capitale": { "valeur": "Aucune", "precision": "peuples nomades vivant sous la tente et dans des chariots" },
+    "regimes": {
+      "valeur": "Peuples et confédérations de tribus",
+      "precision": "Iazyges, Roxolans, Aorses, Siraces, Alains, chacun avec ses rois"
+    },
+    "langues": {
+      "valeur": "Langues iraniennes",
+      "precision": "proches du scythe ; l’ossète actuel descend de la langue des Alains"
+    },
+    "religion": {
+      "valeur": "Polythéisme",
+      "precision": "les Alains vénèrent une épée plantée en terre, selon Ammien Marcellin"
+    },
+    "apogee": {
+      "valeur": "IIe siècle av. J.-C. – Ier siècle apr. J.-C.",
+      "precision": "maîtres des steppes, du Don au Danube"
+    },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": { "valeur": "Aucune", "precision": "échanges ; monnaies grecques et romaines" },
+    "duree": { "valeur": "Environ 750 ans" },
+    "aujourdhui": {
+      "valeur": "Ukraine et sud de la Russie",
+      "precision": "ainsi que l’ouest du Kazakhstan et la Hongrie (Iazyges)"
+    }
+  },
+  "essentiel": [
+    "Venus des steppes entre la Volga et l’Oural, les Sarmates remplacent peu à peu les Scythes au nord de la mer Noire aux IIIe et IIe siècles av. J.-C.",
+    "Leurs cavaliers cuirassés, armés d’une longue lance, impressionnent les Grecs et les Romains, qui finissent par les imiter : ce sont les [[cavalerie-cataphractaire|cataphractaires]].",
+    "Des tombes de femmes enterrées avec des armes rappellent la légende grecque des Amazones, dont Hérodote fait les ancêtres des Sauromates.",
+    "Sur le Danube, Iazyges et Roxolans affrontent Rome ; après les [[guerres-marcomanes|guerres marcomanes]], Marc Aurèle enrôle leurs cavaliers.",
+    "Vers 370, les Huns soumettent les Alains, derniers grands peuples sarmates ; une partie d’entre eux suit les Vandales jusqu’en Afrique."
+  ],
+  "datesCles": [
+    {
+      "annee": -250,
+      "evenement": "À l’ouest du Don",
+      "info": "Vers le IIIe siècle av. J.-C., les Sarmates s’avancent dans les steppes du nord de la mer Noire et supplantent les Scythes."
+    },
+    {
+      "annee": 69,
+      "evenement": "Raid des Roxolans",
+      "info": "Selon Tacite, environ 9 000 cavaliers roxolans qui pillaient la Mésie sont écrasés par les Romains."
+    },
+    {
+      "annee": 72,
+      "evenement": "Les Alains en Arménie",
+      "info": "Selon Flavius Josèphe, les Alains franchissent le Caucase et ravagent la Médie et l’Arménie."
+    },
+    {
+      "annee": 135,
+      "evenement": "Arrien contre les Alains",
+      "info": "Le gouverneur romain de Cappadoce, Arrien, repousse une invasion des Alains."
+    },
+    {
+      "annee": 175,
+      "evenement": "Paix avec Marc Aurèle",
+      "info": "Les Iazyges font la paix avec Rome et fournissent 8 000 cavaliers ; 5 500 sont envoyés en Bretagne.",
+      "ref": "guerres-marcomanes"
+    },
+    {
+      "annee": 370,
+      "evenement": "Les Huns soumettent les Alains",
+      "info": "Vers 370, les Huns battent les Alains du Don : une partie se soumet, une autre fuit vers l’ouest."
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "Des Sauromates aux Sarmates",
+      "debut": -400,
+      "fin": -200,
+      "resume": "Les peuples nomades installés à l’est du Don, appelés Sauromates par Hérodote, s’étendent vers l’ouest aux dépens des Scythes.",
+      "evenements": [{ "annee": -250, "evenement": "Avancée à l’ouest du Don" }]
+    },
+    {
+      "nom": "Les maîtres des steppes",
+      "debut": -200,
+      "fin": 100,
+      "resume": "Iazyges, Roxolans, Aorses et Siraces dominent les steppes du Danube à la Volga, commercent avec les cités grecques et se heurtent à Rome.",
+      "evenements": [{ "annee": 69, "evenement": "Raid des Roxolans en Mésie" }, { "annee": 72, "evenement": "Les Alains en Arménie" }]
+    },
+    {
+      "nom": "Voisins de Rome",
+      "debut": 100,
+      "fin": 375,
+      "resume": "Combattus puis enrôlés par Rome, les Sarmates du Danube deviennent des alliés ; à l’est, les Alains dominent jusqu’à l’arrivée des Huns.",
+      "evenements": [
+        { "annee": 135, "evenement": "Arrien repousse les Alains" },
+        { "annee": 175, "evenement": "Paix avec Marc Aurèle", "ref": "guerres-marcomanes" },
+        { "annee": 370, "evenement": "Victoire des Huns sur les Alains" }
+      ]
+    }
+  ],
+  "regimes": [
+    {
+      "id": "tribus",
+      "nom": "Peuples et rois sarmates",
+      "debut": -400,
+      "fin": 375,
+      "note": "Pas d’État unique : chaque peuple a ses chefs."
+    }
+  ],
+  "dynasties": [
+    {
+      "id": "rois",
+      "nom": "Quelques rois connus par les textes grecs et romains",
+      "debut": -179,
+      "fin": 175,
+      "note": "On ne connaît que quelques noms, cités par leurs voisins."
+    }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Gatalos",
+      "titre": "Roi sarmate",
+      "debut": -179,
+      "fin": -179,
+      "dynastie": "rois",
+      "note": "cité dans un traité entre rois d’Asie Mineure"
+    },
+    {
+      "nom": "Rasparaganus",
+      "titre": "Roi des Roxolans",
+      "debut": 117,
+      "fin": 138,
+      "dynastie": "rois",
+      "note": "connu par une inscription, sous l’empereur Hadrien"
+    },
+    {
+      "nom": "Zanticus",
+      "titre": "Roi des Iazyges",
+      "debut": 175,
+      "fin": 175,
+      "dynastie": "rois",
+      "note": "fait la paix avec Marc Aurèle"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Arrien",
+      "role": "Gouverneur romain et historien",
+      "description": "Gouverneur de Cappadoce, il repousse les Alains vers 135 et décrit l’ordre de bataille qu’il leur oppose.",
+      "dates": "vers 85 → vers 160",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Arrien",
+      "ref": "arrien"
+    },
+    {
+      "nom": "Ovide",
+      "role": "Poète romain",
+      "description": "Exilé à Tomis, sur la mer Noire, il décrit dans ses poèmes les cavaliers sarmates qui traversent le Danube gelé.",
+      "dates": "−43 → vers 17",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Ovide"
+    },
+    {
+      "nom": "Ammien Marcellin",
+      "role": "Historien romain",
+      "description": "Il décrit les Alains et leurs coutumes, puis leur défaite face aux Huns.",
+      "dates": "vers 330 → vers 395",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Ammien_Marcellin"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Raid des Roxolans en Mésie",
+      "annee": 69,
+      "adversaires": ["Empire romain"],
+      "allies": [],
+      "morts": "Environ 9 000 cavaliers roxolans tués, selon Tacite",
+      "vainqueur": "Empire romain",
+      "consequences": "Surpris par le dégel, lourdement chargés de butin et d’armures, les cavaliers roxolans sont écrasés par une légion. Rome renforce ensuite sa frontière du Danube.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Roxolans"
+    },
+    {
+      "nom": "Guerres marcomanes",
+      "annee": 166,
+      "adversaires": ["Empire romain (Marc Aurèle)"],
+      "allies": ["Marcomans", "Quades", "Iazyges"],
+      "morts": "Inconnues, très élevées",
+      "vainqueur": "Empire romain",
+      "consequences": "En 175, les Iazyges font la paix : ils rendent des prisonniers romains et fournissent 8 000 cavaliers à l’armée romaine.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerres_marcomanes"
+    }
+  ],
+  "sciences": "Les cavaliers sarmates portent des armures d’écailles de métal ou de corne et chargent avec une très longue lance tenue à deux mains, le kontos. Les Romains imitent ces cavaliers cuirassés. Les orfèvres sarmates incrustent l’or de pierres colorées, comme la turquoise et le grenat.",
+  "croyancesText": "Selon l’historien romain Ammien Marcellin, les Alains vénèrent une épée nue plantée dans le sol, symbole du dieu de la guerre. Les Sarmates enterrent leurs chefs dans des tertres funéraires, les kourganes, avec leurs armes, leurs bijoux et parfois leurs chevaux.",
+  "diplomatie": "Les Sarmates commercent avec les cités grecques de la mer Noire et servent de mercenaires aux rois de la région. À partir du Ier siècle, Rome les combat sur le Danube, puis les paie ou les enrôle : en 175, Marc Aurèle fait la paix avec les Iazyges et envoie 5 500 de leurs cavaliers en Bretagne.",
+  "societe": "Les Sarmates forment plusieurs peuples, chacun avec ses chefs. Les femmes y tiennent une place remarquable : de nombreuses tombes de femmes contiennent des armes, ce qui a pu nourrir chez les Grecs la légende des Amazones.",
+  "economie": "Élevage nomade de chevaux, de moutons et de bovins ; tribut des peuples voisins ; commerce avec les cités grecques et l’Empire romain.",
+  "arts": "Bijoux et objets en or incrustés de pierres colorées, dans un style dit « polychrome » ; art animalier hérité des Scythes.",
+  "quotidien": "Les familles se déplacent sur de grands chariots couverts tirés par des bœufs, qui leur servent de maisons, en suivant leurs troupeaux.",
+  "heritage": [
+    {
+      "titre": "Les Ossètes",
+      "texte": "Les Ossètes du Caucase parlent une langue qui descend de celle des Alains."
+    },
+    {
+      "titre": "Le « sarmatisme »",
+      "texte": "Aux XVIe-XVIIIe siècles, la noblesse polonaise se disait descendante des Sarmates et en tirait un style de vie et de costume."
+    }
+  ],
+  "aSavoir": [
+    "Les Sarmates n’écrivaient pas : on les connaît par l’archéologie et par les textes de leurs voisins grecs et romains."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Sarmates",
+    { "titre": "Encyclopædia Britannica — Sarmatian", "url": "https://www.britannica.com/topic/Sarmatian" }
+  ]
+}

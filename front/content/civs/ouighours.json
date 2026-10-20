@@ -1,0 +1,244 @@
+{
+  "documentaires": [],
+  "decouvertes": [],
+  "id": "ouighours",
+  "label": "Khaganat ouïghour",
+  "tier": 2,
+  "region": "mongolie",
+  "period": "744 à 840",
+  "start": 744,
+  "end": 840,
+  "color": "#26a69a",
+  "trackId": "steppe_asie",
+  "row": 1,
+  "isRiver": false,
+  "capitale": "Ordu-Baliq (vallée de l’Orkhon)",
+  "description": "Un empire de cavaliers turcs de Mongolie qui succède aux Göktürks, sauve la dynastie Tang pendant la révolte d’An Lushan et fait du manichéisme sa religion d’État, avant d’être détruit par les Kirghiz.",
+  "territories": ["Uyghurs"],
+  "reperes": {
+    "capitale": {
+      "valeur": "Ordu-Baliq",
+      "precision": "ville fortifiée sur l’Orkhon, en Mongolie, aussi appelée Karabalgasun"
+    },
+    "regimes": { "valeur": "Khaganat", "precision": "dynastie Yaglakar, puis Ädiz à partir de 795" },
+    "langues": {
+      "valeur": "Vieux ouïghour (langue turque)",
+      "precision": "écrit en runes, puis dans un alphabet tiré du sogdien"
+    },
+    "religion": { "valeur": "Manichéisme", "precision": "religion d’État à partir de 763 ; culte de Tengri auparavant" },
+    "apogee": { "valeur": "Vers 760-790", "precision": "la Chine des Tang dépend de leur aide militaire" },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": { "valeur": "Aucune propre", "precision": "les chevaux s’échangent contre la soie chinoise" },
+    "duree": { "valeur": "Environ 100 ans" },
+    "aujourdhui": { "valeur": "Mongolie", "precision": "les Ouïghours actuels vivent surtout au Xinjiang, en Chine" }
+  },
+  "essentiel": [
+    "En 744, les Ouïghours, alliés à d’autres tribus, renversent les Göktürks et fondent leur propre khaganat en Mongolie.",
+    "Pendant la [[revolte-d-an-lushan|révolte d’An Lushan]], leurs cavaliers aident la dynastie Tang à reprendre ses deux capitales (757).",
+    "En 763, le khagan [[bogu-khagan|Bögü]] adopte le manichéisme, une religion venue de Perse, qui devient religion d’État : un cas unique dans l’histoire.",
+    "Ils bâtissent une véritable capitale, Ordu-Baliq, et s’enrichissent en échangeant leurs chevaux contre la soie chinoise.",
+    "En 840, les Kirghiz détruisent leur capitale ; les Ouïghours migrent vers le Gansu et les oasis du Tarim, où ils fondent de nouveaux royaumes."
+  ],
+  "datesCles": [
+    { "annee": 744, "evenement": "Fondation", "info": "Kutlug Bilge Köl renverse le dernier khagan des Göktürks." },
+    {
+      "annee": 757,
+      "evenement": "Au secours des Tang",
+      "info": "Les cavaliers ouïghours aident les Tang à reprendre Chang’an et Luoyang aux rebelles d’An Lushan.",
+      "ref": "revolte-d-an-lushan"
+    },
+    {
+      "annee": 758,
+      "evenement": "Une princesse Tang",
+      "info": "La princesse Ningguo, fille de l’empereur, épouse le khagan Bayanchur."
+    },
+    {
+      "annee": 763,
+      "evenement": "Religion manichéenne",
+      "info": "Le khagan Bögü ramène de Chine des prêtres manichéens et fait de leur religion celle de l’État."
+    },
+    {
+      "annee": 795,
+      "evenement": "Nouvelle dynastie",
+      "info": "La dynastie Yaglakar s’éteint ; le clan Ädiz prend le pouvoir."
+    },
+    {
+      "annee": 821,
+      "evenement": "La princesse Taihe",
+      "info": "Une nouvelle princesse chinoise épouse le khagan ouïghour."
+    },
+    {
+      "annee": 840,
+      "evenement": "Chute d’Ordu-Baliq",
+      "info": "Les Kirghiz prennent et détruisent la capitale ; le khaganat disparaît.",
+      "ref": "chute-du-khaganat-ouighour"
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "La fondation",
+      "debut": 744,
+      "fin": 759,
+      "resume": "Les Ouïghours remplacent les Göktürks, bâtissent Ordu-Baliq et viennent au secours de la Chine.",
+      "evenements": [
+        { "annee": 744, "evenement": "Victoire sur les Göktürks" },
+        { "annee": 757, "evenement": "Reprise de Chang’an", "ref": "revolte-d-an-lushan" }
+      ]
+    },
+    {
+      "nom": "L’apogée manichéen",
+      "debut": 759,
+      "fin": 795,
+      "resume": "Sous Bögü et ses successeurs, le khaganat est riche et puissant ; le manichéisme devient religion d’État.",
+      "evenements": [{ "annee": 763, "evenement": "Adoption du manichéisme" }, { "annee": 779, "evenement": "Assassinat de Bögü" }]
+    },
+    {
+      "nom": "La dynastie Ädiz et la chute",
+      "debut": 795,
+      "fin": 840,
+      "resume": "Le khaganat garde son prestige, mais les querelles, les épidémies et les hivers rigoureux l’affaiblissent avant l’attaque des Kirghiz.",
+      "evenements": [
+        { "annee": 821, "evenement": "Mariage de la princesse Taihe" },
+        { "annee": 840, "evenement": "Chute d’Ordu-Baliq", "ref": "chute-du-khaganat-ouighour" }
+      ]
+    }
+  ],
+  "regimes": [{ "id": "khaganat", "nom": "Khaganat ouïghour", "debut": 744, "fin": 840 }],
+  "dynasties": [
+    { "id": "yaglakar", "nom": "Dynastie Yaglakar", "debut": 744, "fin": 795, "regime": "khaganat" },
+    {
+      "id": "adiz",
+      "nom": "Dynastie Ädiz",
+      "debut": 795,
+      "fin": 840,
+      "regime": "khaganat",
+      "note": "Souverains connus surtout par leurs titres chinois."
+    }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Kutlug Bilge Köl",
+      "titre": "Khagan",
+      "debut": 744,
+      "fin": 747,
+      "dynastie": "yaglakar",
+      "note": "fondateur",
+      "cle": true
+    },
+    {
+      "nom": "Bayanchur",
+      "titre": "Khagan",
+      "debut": 747,
+      "fin": 759,
+      "dynastie": "yaglakar",
+      "note": "fait bâtir Ordu-Baliq",
+      "cle": true
+    },
+    {
+      "nom": "Bögü",
+      "titre": "Khagan",
+      "debut": 759,
+      "fin": 779,
+      "dynastie": "yaglakar",
+      "personne": "bogu-khagan",
+      "note": "adopte le manichéisme ; assassiné",
+      "cle": true
+    },
+    {
+      "nom": "Alp Kutlug Bilge",
+      "titre": "Khagan",
+      "debut": 779,
+      "fin": 789,
+      "dynastie": "yaglakar",
+      "note": "ancien ministre (Tun Baga Tarkhan), il fait tuer Bögü"
+    },
+    {
+      "nom": "Huaixin",
+      "titre": "Khagan",
+      "debut": 795,
+      "fin": 808,
+      "dynastie": "adiz",
+      "note": "premier khagan de la dynastie Ädiz",
+      "cle": true
+    },
+    { "nom": "Baoyi", "titre": "Khagan", "debut": 808, "fin": 821, "dynastie": "adiz" },
+    {
+      "nom": "Chongde",
+      "titre": "Khagan",
+      "debut": 821,
+      "fin": 824,
+      "dynastie": "adiz",
+      "note": "épouse la princesse Taihe"
+    },
+    { "nom": "Zhaoli", "titre": "Khagan", "debut": 824, "fin": 832, "dynastie": "adiz" },
+    { "nom": "Zhangxin", "titre": "Khagan", "debut": 832, "fin": 839, "dynastie": "adiz" }
+  ],
+  "personnages": [
+    {
+      "nom": "Bögü",
+      "role": "Khagan",
+      "description": "Le khagan qui adopte le manichéisme.",
+      "dates": "règne 759 → 779",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/B%C3%B6g%C3%BC_khagan",
+      "ref": "bogu-khagan"
+    },
+    {
+      "nom": "Princesse Ningguo",
+      "role": "Princesse Tang",
+      "description": "Fille de l’empereur Suzong, mariée au khagan Bayanchur en 758 pour sceller l’alliance ; elle revient en Chine après la mort de son époux.",
+      "dates": "VIIIe siècle",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Princess_Ningguo"
+    },
+    {
+      "nom": "Princesse Taihe",
+      "role": "Princesse Tang",
+      "description": "Mariée en 821 au khagan ouïghour, elle est capturée par les Kirghiz en 840 puis ramenée en Chine.",
+      "dates": "IXe siècle",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Princess_Taihe"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Intervention ouïghoure contre les rebelles d’An Lushan",
+      "annee": 757,
+      "adversaires": ["Rebelles d’An Lushan (État de Yan)"],
+      "allies": ["Dynastie Tang"],
+      "morts": "Inconnues",
+      "vainqueur": "Tang et Ouïghours",
+      "consequences": "Les deux capitales chinoises sont reprises, mais les Ouïghours pillent Luoyang et obtiennent de la Chine d’énormes quantités de soie.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/R%C3%A9volte_d%27An_Lushan"
+    },
+    {
+      "nom": "Destruction du khaganat ouïghour",
+      "annee": 840,
+      "adversaires": ["Kirghiz du Ienisseï"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Kirghiz",
+      "consequences": "Ordu-Baliq est détruite et le khagan tué. Les Ouïghours se dispersent vers le Gansu et le Tarim, où ils fondent les royaumes de Ganzhou et de Qocho.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Khaganat_ou%C3%AFghour"
+    }
+  ],
+  "sciences": "Les Ouïghours sont parmi les premiers nomades des steppes à bâtir une grande ville fortifiée, Ordu-Baliq, avec palais, temples et entrepôts. Ils adoptent un alphabet tiré de celui des marchands sogdiens : cet alphabet ouïghour servira plus tard à écrire le mongol et le mandchou.",
+  "croyancesText": "En 763, le khagan Bögü adopte le manichéisme, une religion fondée en Perse par Mani, qui voit le monde comme un combat entre la Lumière et les Ténèbres. Elle devient religion d’État, ce qui n’est jamais arrivé ailleurs. Une inscription en trois langues, à Karabalgasun, célèbre cette conversion.",
+  "diplomatie": "Alliés indispensables des Tang après la révolte d’An Lushan, les Ouïghours échangent chaque année des milliers de chevaux contre de grandes quantités de soie, à un prix fixé à leur avantage. Ils reçoivent des princesses chinoises en mariage et s’appuient sur les marchands sogdiens.",
+  "societe": "Le khagan s’appuie sur une aristocratie de chefs de clans ; des marchands sogdiens et des prêtres manichéens jouent un grand rôle à la cour. Une partie de la population commence à vivre en ville et à cultiver la terre.",
+  "economie": "Élevage de chevaux, commerce de la soie et des chevaux avec la Chine, tributs, agriculture autour de la capitale.",
+  "arts": "Peintures et manuscrits manichéens enluminés, retrouvés plus tard dans les royaumes ouïghours de Tourfan.",
+  "quotidien": "Selon un voyageur arabe, Tamim ibn Bahr, Ordu-Baliq possède douze portes de fer et est entourée de champs cultivés et de villages.",
+  "heritage": [
+    {
+      "titre": "L’alphabet ouïghour",
+      "texte": "Repris par les Mongols au XIIIe siècle, il est encore à l’origine de l’écriture mongole traditionnelle."
+    },
+    {
+      "titre": "Les Ouïghours d’aujourd’hui",
+      "texte": "Le peuple ouïghour actuel, qui vit surtout au Xinjiang, se rattache à ces premiers Ouïghours."
+    }
+  ],
+  "aSavoir": ["C’est le seul État de l’histoire à avoir fait du manichéisme sa religion officielle."],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Khaganat_ou%C3%AFghour",
+    { "titre": "Encyclopædia Britannica — Uyghur", "url": "https://www.britannica.com/topic/Uyghur" }
+  ]
+}

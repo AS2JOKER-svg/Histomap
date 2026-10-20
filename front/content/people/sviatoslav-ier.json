@@ -1,0 +1,21 @@
+{
+  "id": "sviatoslav-ier",
+  "nom": "Sviatoslav Ier",
+  "role": "Prince de Kiev",
+  "roles": ["Prince", "Chef de guerre"],
+  "dates": "vers 942 → 972",
+  "naissance": 942,
+  "mort": 972,
+  "description": "Fils d’[[olga-de-kiev|Olga]], prince guerrier de Kiev, il abat l’empire des Khazars puis tente de s’installer sur le Danube.",
+  "reperes": [{ "label": "Règne", "valeur": "vers 945 → 972" }],
+  "essentiel": [
+    "Il détruit la puissance khazare (965-969).",
+    "Il conquiert la Bulgarie du Danube, mais doit l’abandonner face à l’empereur byzantin Jean Tzimiskès (971).",
+    "Sur le chemin du retour, il est tué par les Petchénègues (972)."
+  ],
+  "aSavoir": [
+    "Selon la Chronique des temps passés, il prévenait ses ennemis avant de les attaquer : « Je viens contre vous »."
+  ],
+  "liens": [{ "ref": "olga-de-kiev", "relation": "Sa mère" }, { "ref": "vladimir-le-grand", "relation": "Son fils" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Sviatoslav_Ier"
+}

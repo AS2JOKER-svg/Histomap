@@ -1,0 +1,20 @@
+{
+  "id": "guerres-marcomanes",
+  "nom": "Guerres marcomanes",
+  "annee": 166,
+  "fin": 180,
+  "dates": "166 → 180",
+  "lieu": "Danube moyen (Autriche, Slovaquie, Hongrie actuelles)",
+  "description": "Des peuples germaniques (Marcomans, Quades) et sarmates (Iazyges) franchissent le Danube et envahissent l’Empire romain, jusqu’en Italie du Nord.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "L’empereur Marc Aurèle passe la plupart de ses dernières années sur le front du Danube, où il écrit ses « Pensées ». Les Iazyges sont vaincus et font la paix en 175."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Rome rétablit sa frontière, mais au prix d’un immense effort. L’Empire installe des « barbares » vaincus sur ses terres et en enrôle dans son armée."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Guerres_marcomanes"
+}

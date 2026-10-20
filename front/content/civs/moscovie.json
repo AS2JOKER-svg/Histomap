@@ -1,0 +1,287 @@
+{
+  "documentaires": [],
+  "decouvertes": ["kremlin-de-moscou"],
+  "id": "moscovie",
+  "label": "Grande-principauté de Moscou",
+  "tier": 1,
+  "region": "russie-europeenne",
+  "period": "1263 à 1547",
+  "start": 1263,
+  "end": 1547,
+  "trackId": "rus",
+  "row": 7,
+  "isRiver": false,
+  "capitale": "Moscou",
+  "description": "Une petite principauté qui grandit à l’ombre de la Horde d’or, rassemble les terres russes autour de Moscou et s’en libère en 1480, avant que son souverain ne prenne le titre de tsar.",
+  "territories": ["Grand Duchy of Moscow"],
+  "reperes": {
+    "capitale": {
+      "valeur": "Moscou",
+      "precision": "le Kremlin, reconstruit en brique à la fin du XVe siècle par des architectes italiens"
+    },
+    "regimes": {
+      "valeur": "Grande-principauté",
+      "precision": "vassale de la Horde d’or jusqu’en 1480 ; le grand-prince devient un souverain absolu"
+    },
+    "langues": { "valeur": "Vieux russe", "precision": "slavon d’Église pour les textes religieux" },
+    "religion": { "valeur": "Christianisme orthodoxe", "precision": "le chef de l’Église russe s’installe à Moscou vers 1325" },
+    "apogee": { "valeur": "Règne d’Ivan III (1462 → 1505)", "precision": "le « rassemblement des terres russes »" },
+    "population": { "valeur": "Mal connue" },
+    "monnaie": { "valeur": "Denga", "precision": "petite pièce d’argent frappée à partir de la fin du XIVe siècle" },
+    "duree": { "valeur": "Environ 280 ans" },
+    "aujourdhui": { "valeur": "Russie", "precision": "centre et nord-ouest de la Russie d’Europe" }
+  },
+  "essentiel": [
+    "Vers 1263, Moscou, petite ville du nord-est de la Rus’, revient à Daniel, fils d’Alexandre Nevski ; ses princes grandissent en servant la Horde d’or, dont ils collectent le tribut.",
+    "Ivan Ier, surnommé Kalita (« la Bourse »), obtient le titre de grand-prince et attire à Moscou le chef de l’Église russe.",
+    "En 1380, [[dmitri-donskoi|Dmitri Donskoï]] bat les Mongols de Mamaï à [[bataille-de-koulikovo|Koulikovo]].",
+    "[[ivan-iii|Ivan III]] annexe Novgorod, épouse une princesse byzantine et cesse d’obéir à la Horde après le [[grande-halte-sur-l-ougra|halte sur l’Ougra]] (1480).",
+    "Moscou se présente comme la « troisième Rome », héritière de Byzance ; en 1547, Ivan IV se fait couronner tsar."
+  ],
+  "datesCles": [
+    {
+      "annee": 1263,
+      "evenement": "Daniel, prince de Moscou",
+      "info": "Le plus jeune fils d’Alexandre Nevski reçoit cette petite principauté."
+    },
+    {
+      "annee": 1325,
+      "evenement": "L’Église à Moscou",
+      "info": "Le métropolite, chef de l’Église russe, s’installe à Moscou, qui devient le centre religieux du pays."
+    },
+    {
+      "annee": 1328,
+      "evenement": "Ivan Kalita grand-prince",
+      "info": "Le khan lui accorde le titre de grand-prince et la collecte du tribut."
+    },
+    { "annee": 1380, "evenement": "Koulikovo", "info": "Dmitri Donskoï bat Mamaï.", "ref": "bataille-de-koulikovo" },
+    {
+      "annee": 1448,
+      "evenement": "Une Église indépendante",
+      "info": "L’Église russe élit elle-même son métropolite, sans attendre Constantinople."
+    },
+    {
+      "annee": 1472,
+      "evenement": "Mariage byzantin",
+      "info": "Ivan III épouse Sophie Paléologue, nièce du dernier empereur byzantin."
+    },
+    {
+      "annee": 1478,
+      "evenement": "Annexion de Novgorod",
+      "info": "La riche république marchande perd son indépendance."
+    },
+    {
+      "annee": 1480,
+      "evenement": "Fin du tribut",
+      "info": "Le khan Ahmed renonce à combattre sur l’Ougra.",
+      "ref": "grande-halte-sur-l-ougra"
+    },
+    {
+      "annee": 1547,
+      "evenement": "Ivan IV tsar",
+      "info": "Le grand-prince se fait couronner « tsar de toute la Russie »."
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "L’essor à l’ombre de la Horde",
+      "debut": 1263,
+      "fin": 1359,
+      "resume": "Les princes de Moscou l’emportent sur leurs rivaux de Tver grâce à leur entente avec les khans et attirent l’Église.",
+      "evenements": [
+        { "annee": 1325, "evenement": "Le métropolite à Moscou" },
+        { "annee": 1328, "evenement": "Ivan Kalita grand-prince" }
+      ]
+    },
+    {
+      "nom": "De Koulikovo aux guerres civiles",
+      "debut": 1359,
+      "fin": 1462,
+      "resume": "Moscou défie la Horde, puis traverse une longue guerre de succession au XVe siècle.",
+      "evenements": [
+        { "annee": 1380, "evenement": "Koulikovo", "ref": "bataille-de-koulikovo" },
+        { "annee": 1382, "evenement": "Moscou brûlée par Tokhtamych" },
+        { "annee": 1448, "evenement": "Église russe indépendante" }
+      ]
+    },
+    {
+      "nom": "Le rassemblement des terres russes",
+      "debut": 1462,
+      "fin": 1547,
+      "resume": "Ivan III et Vassili III annexent Novgorod, Tver, Pskov et Riazan et se libèrent de la Horde.",
+      "evenements": [
+        { "annee": 1478, "evenement": "Annexion de Novgorod" },
+        { "annee": 1480, "evenement": "Ougra", "ref": "grande-halte-sur-l-ougra" },
+        { "annee": 1510, "evenement": "Annexion de Pskov" }
+      ]
+    }
+  ],
+  "regimes": [
+    { "id": "vassale", "nom": "Principauté vassale de la Horde d’or", "debut": 1263, "fin": 1480 },
+    { "id": "independante", "nom": "Grande-principauté indépendante", "debut": 1480, "fin": 1547 }
+  ],
+  "dynasties": [{ "id": "daniilovitchi", "nom": "Les descendants de Daniel (branche des Riourikides)", "debut": 1263, "fin": 1547 }],
+  "dirigeants": [
+    {
+      "nom": "Daniel",
+      "titre": "Prince de Moscou",
+      "debut": 1263,
+      "fin": 1303,
+      "dynastie": "daniilovitchi",
+      "note": "fils d’Alexandre Nevski",
+      "cle": true
+    },
+    { "nom": "Iouri", "titre": "Prince de Moscou", "debut": 1303, "fin": 1325, "dynastie": "daniilovitchi" },
+    {
+      "nom": "Ivan Ier",
+      "titre": "Grand-prince",
+      "surnom": "Kalita, « la Bourse »",
+      "debut": 1325,
+      "fin": 1340,
+      "dynastie": "daniilovitchi",
+      "cle": true
+    },
+    {
+      "nom": "Siméon",
+      "titre": "Grand-prince",
+      "surnom": "le Fier",
+      "debut": 1340,
+      "fin": 1353,
+      "dynastie": "daniilovitchi"
+    },
+    {
+      "nom": "Ivan II",
+      "titre": "Grand-prince",
+      "surnom": "le Beau",
+      "debut": 1353,
+      "fin": 1359,
+      "dynastie": "daniilovitchi"
+    },
+    {
+      "nom": "Dmitri",
+      "titre": "Grand-prince",
+      "surnom": "Donskoï, « du Don »",
+      "debut": 1359,
+      "fin": 1389,
+      "dynastie": "daniilovitchi",
+      "personne": "dmitri-donskoi",
+      "cle": true
+    },
+    { "nom": "Vassili Ier", "titre": "Grand-prince", "debut": 1389, "fin": 1425, "dynastie": "daniilovitchi" },
+    {
+      "nom": "Vassili II",
+      "titre": "Grand-prince",
+      "surnom": "l’Aveugle",
+      "debut": 1425,
+      "fin": 1462,
+      "dynastie": "daniilovitchi",
+      "note": "aveuglé par un rival en 1446"
+    },
+    {
+      "nom": "Ivan III",
+      "titre": "Grand-prince",
+      "surnom": "le Grand",
+      "debut": 1462,
+      "fin": 1505,
+      "dynastie": "daniilovitchi",
+      "personne": "ivan-iii",
+      "cle": true
+    },
+    { "nom": "Vassili III", "titre": "Grand-prince", "debut": 1505, "fin": 1533, "dynastie": "daniilovitchi" },
+    {
+      "nom": "Ivan IV",
+      "titre": "Grand-prince",
+      "debut": 1533,
+      "fin": 1547,
+      "dynastie": "daniilovitchi",
+      "note": "couronné tsar en 1547",
+      "personne": "ivan-le-terrible"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Serge de Radonège",
+      "role": "Moine",
+      "description": "Fondateur du monastère de la Trinité, près de Moscou, il aurait béni Dmitri avant Koulikovo ; c’est l’un des saints les plus vénérés de Russie.",
+      "dates": "vers 1314 → 1392",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Serge_de_Radon%C3%A8ge"
+    },
+    {
+      "nom": "Andreï Roublev",
+      "role": "Peintre d’icônes",
+      "description": "Auteur de la célèbre icône de la Trinité, le plus grand peintre de l’ancienne Russie.",
+      "dates": "vers 1360 → vers 1430",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Andre%C3%AF_Roublev"
+    },
+    {
+      "nom": "Sophie Paléologue",
+      "role": "Grande-princesse",
+      "description": "Nièce du dernier empereur byzantin, épouse d’Ivan III, elle renforce le prestige de Moscou comme héritière de Byzance.",
+      "dates": "vers 1455 → 1503",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Sophie_Pal%C3%A9ologue"
+    },
+    {
+      "nom": "Aristotele Fioravanti",
+      "role": "Architecte italien",
+      "description": "Venu de Bologne, il construit au Kremlin la cathédrale de la Dormition (1475-1479).",
+      "dates": "vers 1415 → vers 1486",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Aristotele_Fioravanti"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Bataille de Koulikovo",
+      "annee": 1380,
+      "adversaires": ["Troupes de Mamaï (Horde d’or)"],
+      "allies": ["Princes russes alliés"],
+      "morts": "Inconnues ; très lourdes des deux côtés",
+      "vainqueur": "Moscou",
+      "consequences": "Première grande victoire russe sur la Horde. Elle ne libère pas Moscou : le khan Tokhtamych brûle la ville deux ans plus tard.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Koulikovo"
+    },
+    {
+      "nom": "Guerre contre Novgorod",
+      "annee": 1471,
+      "adversaires": ["République de Novgorod"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Moscou",
+      "consequences": "Battue sur la rivière Chelon (1471), Novgorod perd ses libertés puis est annexée en 1478 ; sa cloche, symbole de l’assemblée des citoyens, est emportée à Moscou.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/R%C3%A9publique_de_Novgorod"
+    },
+    {
+      "nom": "Grande halte sur l’Ougra",
+      "annee": 1480,
+      "adversaires": ["Grande Horde (khan Ahmed)"],
+      "allies": [],
+      "morts": "Peu de combats",
+      "vainqueur": "Moscou",
+      "consequences": "Après des semaines face à face sur les deux rives de l’Ougra, le khan Ahmed se retire : Moscou cesse de payer tribut.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Grande_halte_sur_la_rivi%C3%A8re_Ougra"
+    }
+  ],
+  "sciences": "À la fin du XVe siècle, Ivan III fait venir des architectes italiens qui reconstruisent le Kremlin de Moscou : murailles et tours de brique, cathédrales de la Dormition et de l’Archange-Saint-Michel. Les monastères copient les manuscrits et tiennent les chroniques, principale source sur l’histoire de cette époque.",
+  "croyancesText": "L’Église orthodoxe est au cœur de la vie de la Moscovie. Après la chute de Constantinople (1453), des moines présentent Moscou comme la « troisième Rome », seule gardienne de la vraie foi. Les monastères, comme celui de la Trinité-Saint-Serge, sont de grands centres religieux et économiques.",
+  "diplomatie": "Les princes de Moscou s’imposent d’abord en servant les khans de la Horde d’or, qui leur confient la collecte du tribut. Ils combattent ensuite la Horde, la Lituanie et les républiques de Novgorod et de Pskov. Ivan III échange des ambassades avec le pape, Venise et le Saint-Empire.",
+  "societe": "Le grand-prince s’appuie sur les boyards, grands propriétaires, et sur des serviteurs qui reçoivent des terres en échange du service militaire. Les paysans commencent à perdre la liberté de quitter leur seigneur, sauf autour de la Saint-Georges (fin novembre).",
+  "economie": "Agriculture, fourrures, cire et miel ; commerce avec la Horde, la Hanse (par Novgorod) et l’Orient.",
+  "arts": "Icônes d’Andreï Roublev et de Dionisy, églises à bulbes, Kremlin de Moscou.",
+  "quotidien": "Les maisons sont en bois, comme la plupart des églises ; les incendies ravagent régulièrement Moscou.",
+  "heritage": [
+    {
+      "titre": "Le Kremlin",
+      "texte": "Ses murailles et ses cathédrales, inscrites au patrimoine mondial, datent pour l’essentiel du règne d’Ivan III."
+    },
+    {
+      "titre": "La « troisième Rome »",
+      "texte": "L’idée de Moscou héritière de Byzance marquera longtemps la pensée politique russe."
+    }
+  ],
+  "aSavoir": [
+    "L’aigle à deux têtes, emblème de Byzance, apparaît sur les sceaux d’Ivan III après son mariage avec Sophie Paléologue ; il est toujours sur les armoiries de la Russie."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Grande-principaut%C3%A9_de_Moscou",
+    { "titre": "Encyclopædia Britannica — Muscovy", "url": "https://www.britannica.com/place/Muscovy" }
+  ]
+}

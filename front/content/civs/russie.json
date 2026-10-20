@@ -60,7 +60,8 @@
       "surnom": "la Grande",
       "debut": 1762,
       "fin": 1796,
-      "dynastie": "romanov"
+      "dynastie": "romanov",
+      "personne": "catherine-ii"
     },
     { "nom": "Paul Ier", "titre": "Empereur", "debut": 1796, "fin": 1801, "dynastie": "romanov", "note": "assassiné" },
     {

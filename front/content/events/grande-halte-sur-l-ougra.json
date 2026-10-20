@@ -1,0 +1,17 @@
+{
+  "id": "grande-halte-sur-l-ougra",
+  "nom": "Grande halte sur l’Ougra",
+  "annee": 1480,
+  "dates": "octobre → novembre 1480",
+  "lieu": "Rivière Ougra (au sud-ouest de Moscou)",
+  "description": "L’armée du khan Ahmed et celle d’[[ivan-iii|Ivan III]] se font face pendant des semaines de part et d’autre de la rivière Ougra, sans vraie bataille ; le khan finit par se retirer.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "Moscou cesse définitivement de payer tribut : l’événement marque traditionnellement la fin du « joug tatar »."
+    }
+  ],
+  "liens": [{ "ref": "ivan-iii", "relation": "Le grand-prince de Moscou" }],
+  "avant": "bataille-de-koulikovo",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Grande_halte_sur_la_rivi%C3%A8re_Ougra"
+}

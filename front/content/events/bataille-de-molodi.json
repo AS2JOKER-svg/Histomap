@@ -1,0 +1,16 @@
+{
+  "id": "bataille-de-molodi",
+  "nom": "Bataille de Molodi",
+  "annee": 1572,
+  "dates": "juillet → août 1572",
+  "lieu": "Molodi (au sud de Moscou)",
+  "description": "Un an après avoir incendié Moscou, le khan Devlet Ier Giray revient avec une grande armée ; les Russes, retranchés derrière des fortifications mobiles en bois, l’écrasent.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "C’est la dernière grande invasion tatare jusqu’à Moscou. La Russie peut poursuivre son expansion vers le sud et vers la Sibérie."
+    }
+  ],
+  "apres": "annexion-de-la-crimee-par-la-russie",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Molodi"
+}

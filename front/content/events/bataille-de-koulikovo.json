@@ -1,0 +1,17 @@
+{
+  "id": "bataille-de-koulikovo",
+  "nom": "Bataille de Koulikovo",
+  "annee": 1380,
+  "dates": "8 septembre 1380",
+  "lieu": "Champ de Koulikovo, près du Don",
+  "description": "L’armée du prince de Moscou [[dmitri-donskoi|Dmitri]] et de ses alliés bat les troupes de Mamaï, qui dirige alors l’ouest de la Horde d’or.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "C’est la première grande victoire russe sur la Horde, et Moscou en tire un grand prestige. Mais deux ans plus tard, le khan Tokhtamych brûle Moscou et rétablit le tribut."
+    }
+  ],
+  "liens": [{ "ref": "dmitri-donskoi", "relation": "Le vainqueur" }],
+  "apres": "grande-halte-sur-l-ougra",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Koulikovo"
+}

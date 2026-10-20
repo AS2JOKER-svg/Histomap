@@ -1,0 +1,18 @@
+{
+  "id": "ivan-iii",
+  "nom": "Ivan III",
+  "role": "Grand-prince de Moscou",
+  "roles": ["Grand-prince"],
+  "dates": "1440 → 1505",
+  "naissance": 1440,
+  "mort": 1505,
+  "description": "Surnommé « le Grand », il triple le territoire de Moscou, met fin à la domination de la Horde d’or et fait reconstruire le Kremlin.",
+  "reperes": [{ "label": "Règne", "valeur": "1462 → 1505" }],
+  "essentiel": [
+    "Il annexe Novgorod (1478) et Tver (1485).",
+    "Il épouse Sophie Paléologue, nièce du dernier empereur byzantin (1472).",
+    "Après le [[grande-halte-sur-l-ougra|halte sur l’Ougra]] (1480), il ne paie plus de tribut.",
+    "Il publie un code de lois, le Soudebnik (1497)."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Ivan_III"
+}

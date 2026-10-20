@@ -1,0 +1,17 @@
+{
+  "id": "annexion-de-la-crimee-par-la-russie",
+  "nom": "Annexion de la Crimée par la Russie (1783)",
+  "annee": 1783,
+  "dates": "avril 1783",
+  "lieu": "Crimée",
+  "description": "Après avoir détaché le khanat de l’Empire ottoman (1774), la Russie de [[catherine-ii|Catherine II]] l’annexe ; le dernier khan, Şahin Giray, abdique.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "La Russie fonde la base navale de Sébastopol et devient une puissance de la mer Noire. Beaucoup de Tatars de Crimée émigrent vers l’Empire ottoman dans les décennies suivantes."
+    }
+  ],
+  "liens": [{ "ref": "catherine-ii", "relation": "L’impératrice" }],
+  "avant": "bataille-de-molodi",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Annexion_de_la_Crim%C3%A9e_par_l%27Empire_russe"
+}

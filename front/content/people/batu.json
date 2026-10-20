@@ -1,0 +1,17 @@
+{
+  "id": "batu",
+  "nom": "Batu",
+  "role": "Fondateur de la Horde d’or",
+  "roles": ["Khan", "Chef de guerre"],
+  "dates": "vers 1205 → 1255",
+  "naissance": 1205,
+  "mort": 1255,
+  "description": "Petit-fils de Gengis Khan, il dirige la grande campagne mongole vers l’ouest (1236-1242), soumet les principautés russes et fonde la Horde d’or.",
+  "essentiel": [
+    "Il prend Riazan, Vladimir puis Kiev (1240).",
+    "Ses armées battent les Polonais et les Hongrois en 1241.",
+    "Il fonde Saraï sur la basse Volga."
+  ],
+  "aSavoir": ["Les Russes le surnomment « Batu le Cruel », les Mongols « Sain Khan », le bon khan."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Batu"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "ivan-le-terrible",
+  "nom": "Ivan le Terrible",
+  "nomComplet": "Ivan IV Vassilievitch",
+  "role": "Premier tsar de Russie",
+  "roles": ["Grand-prince", "Tsar"],
+  "dates": "1530 → 1584",
+  "naissance": 1530,
+  "mort": 1584,
+  "description": "Grand-prince de Moscou à trois ans, il se fait couronner tsar en 1547, conquiert les khanats de la Volga, mais son règne tourne à la terreur.",
+  "reperes": [{ "label": "Règne", "valeur": "1533 → 1584", "precision": "tsar à partir de 1547" }],
+  "essentiel": [
+    "Il prend Kazan (1552) et Astrakhan (1556).",
+    "Il crée l’opritchnina (1565), une police qui massacre boyards et villes entières, comme Novgorod en 1570.",
+    "Il perd la longue guerre de Livonie.",
+    "En 1581, dans un accès de colère, il tue son propre fils aîné."
+  ],
+  "aSavoir": ["Son surnom russe, « Grozny », signifie « le Redoutable »."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Ivan_IV"
+}

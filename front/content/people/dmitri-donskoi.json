@@ -1,0 +1,17 @@
+{
+  "id": "dmitri-donskoi",
+  "nom": "Dmitri Donskoï",
+  "role": "Grand-prince de Moscou",
+  "roles": ["Grand-prince"],
+  "dates": "1350 → 1389",
+  "naissance": 1350,
+  "mort": 1389,
+  "description": "Grand-prince de Moscou, il remporte en 1380 la bataille de Koulikovo contre Mamaï, première grande victoire russe sur la Horde d’or.",
+  "reperes": [{ "label": "Règne", "valeur": "1359 → 1389" }],
+  "essentiel": [
+    "Il fait construire le premier Kremlin de pierre blanche (1367).",
+    "Il gagne le surnom de Donskoï, « du Don », après la [[bataille-de-koulikovo|bataille de Koulikovo]].",
+    "Il doit pourtant reprendre le paiement du tribut après l’incendie de Moscou (1382)."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Dmitri_Donsko%C3%AF"
+}

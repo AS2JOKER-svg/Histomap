@@ -1,0 +1,19 @@
+{
+  "id": "pierre-le-grand",
+  "nom": "Pierre le Grand",
+  "nomComplet": "Pierre Ier Alexeïevitch",
+  "role": "Tsar puis empereur de Russie",
+  "roles": ["Tsar", "Empereur", "Réformateur"],
+  "dates": "1672 → 1725",
+  "naissance": 1672,
+  "mort": 1725,
+  "description": "Tsar géant (plus de deux mètres) et infatigable, il transforme la Russie sur le modèle européen et en fait une grande puissance.",
+  "reperes": [{ "label": "Règne", "valeur": "1682 → 1725", "precision": "seul à partir de 1696" }],
+  "essentiel": [
+    "En 1697-1698, il voyage incognito en Europe et travaille comme charpentier dans un chantier naval hollandais.",
+    "Il bat la Suède à [[bataille-de-poltava|Poltava]] (1709) et gagne l’accès à la Baltique.",
+    "Il fonde Saint-Pétersbourg (1703), crée une flotte, une armée moderne et des manufactures.",
+    "Il impose ses réformes par la force et fait mourir en prison son fils Alexis (1718)."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Pierre_Ier_le_Grand"
+}

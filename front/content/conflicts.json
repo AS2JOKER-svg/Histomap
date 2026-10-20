@@ -532,5 +532,45 @@
   "Destruction du khaganat ouïghour": {
     "coords": [102.66, 47.43],
     "lieu": "Ordu-Baliq"
+  },
+  "Bataille de Koulikovo": {
+    "coords": [38.66, 53.65],
+    "lieu": "Champ de Koulikovo (près du Don)"
+  },
+  "Guerre entre Tokhtamych et Tamerlan": {
+    "coords": [46.5, 43.6],
+    "lieu": "Rivière Terek"
+  },
+  "Guerre contre Novgorod": {
+    "coords": [31.27, 58.52],
+    "lieu": "Novgorod"
+  },
+  "Guerre de Livonie": {
+    "coords": [25, 57.3],
+    "lieu": "Livonie (Estonie et Lettonie actuelles)"
+  },
+  "Guerre russo-turque de 1768-1774": {
+    "coords": [28.6, 46.3],
+    "lieu": "Moldavie et mer Noire"
+  },
+  "Incendie de Moscou par les Tatars": {
+    "coords": [37.62, 55.75],
+    "lieu": "Moscou"
+  },
+  "Bataille de Molodi": {
+    "coords": [37.45, 55.28],
+    "lieu": "Molodi (au sud de Moscou)"
+  },
+  "Soulèvement de Khmelnytsky": {
+    "coords": [32, 49.4],
+    "lieu": "Ukraine"
+  },
+  "Guerre russo-polonaise de 1654-1667": {
+    "coords": [30.5, 53],
+    "lieu": "Biélorussie et Ukraine"
+  },
+  "Grande halte sur l’Ougra": {
+    "coords": [35.5, 54.5],
+    "lieu": "Rivière Ougra"
   }
 }

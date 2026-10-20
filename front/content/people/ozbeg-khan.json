@@ -1,0 +1,18 @@
+{
+  "id": "ozbeg-khan",
+  "nom": "Özbeg",
+  "role": "Khan de la Horde d’or",
+  "roles": ["Khan"],
+  "dates": "1282 → 1341",
+  "naissance": 1282,
+  "mort": 1341,
+  "description": "Khan de 1313 à 1341, il fait de l’islam la religion officielle de la Horde, qui connaît sous son règne son apogée.",
+  "reperes": [{ "label": "Règne", "valeur": "1313 → 1341" }],
+  "essentiel": [
+    "Il favorise le commerce et les villes de la Volga.",
+    "Il s’appuie sur les princes de Moscou pour collecter le tribut russe.",
+    "Ibn Battuta visite sa cour vers 1333."
+  ],
+  "aSavoir": ["Le peuple ouzbek porte un nom qui viendrait de celui de ce khan, selon une hypothèse répandue."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/%C3%96zbeg"
+}

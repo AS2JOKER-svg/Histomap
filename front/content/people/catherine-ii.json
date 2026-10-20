@@ -1,0 +1,20 @@
+{
+  "id": "catherine-ii",
+  "nom": "Catherine II",
+  "nomComplet": "Sophie d’Anhalt-Zerbst",
+  "role": "Impératrice de Russie",
+  "roles": ["Impératrice"],
+  "dates": "1729 → 1796",
+  "naissance": 1729,
+  "mort": 1796,
+  "description": "Princesse allemande devenue impératrice après avoir renversé son mari Pierre III, elle agrandit l’empire et correspond avec les philosophes des Lumières.",
+  "reperes": [{ "label": "Règne", "valeur": "1762 → 1796" }],
+  "essentiel": [
+    "Elle correspond avec Voltaire et Diderot et achète la bibliothèque de ce dernier.",
+    "Elle écrase la [[revolte-de-pougatchev|révolte de Pougatchev]] (1773-1775).",
+    "Elle annexe la Crimée (1783) et participe aux trois partages de la Pologne.",
+    "Le servage s’étend et s’aggrave sous son règne."
+  ],
+  "aSavoir": ["Elle est surnommée « la Grande » ; elle a régné 34 ans."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Catherine_II"
+}

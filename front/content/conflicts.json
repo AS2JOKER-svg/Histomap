@@ -612,5 +612,53 @@
   "Bataille de Magnésie": {
     "coords": [27.43, 38.61],
     "lieu": "Magnésie du Sipyle"
+  },
+  "Bataille de Carrhes": {
+    "coords": [39.03, 36.87],
+    "lieu": "Carrhes (Harran, Turquie)"
+  },
+  "Guerre parthique de Trajan": {
+    "coords": [44.58, 33.09],
+    "lieu": "Ctésiphon"
+  },
+  "Bataille d’Hormozgan": {
+    "coords": [55, 28.5],
+    "lieu": "Sud de l’Iran"
+  },
+  "Siège de Bactres": {
+    "coords": [66.9, 36.76],
+    "lieu": "Bactres (Balkh)"
+  },
+  "Invasion nomade de la Bactriane": {
+    "coords": [69.4, 37.17],
+    "lieu": "Aï Khanoum"
+  },
+  "Guerre kouchane contre Ban Chao": {
+    "coords": [77, 39.5],
+    "lieu": "Bassin du Tarim"
+  },
+  "Conquête sassanide de la Bactriane": {
+    "coords": [66.9, 36.76],
+    "lieu": "Bactriane"
+  },
+  "Bataille d’Édesse": {
+    "coords": [38.79, 37.16],
+    "lieu": "Édesse (Urfa)"
+  },
+  "Guerre perso-byzantine de 602-628": {
+    "coords": [43.15, 36.36],
+    "lieu": "Ninive"
+  },
+  "Bataille d’al-Qadisiyya": {
+    "coords": [44.4, 31.7],
+    "lieu": "Al-Qadisiyya (Irak)"
+  },
+  "Bataille de Balkh (900)": {
+    "coords": [66.9, 36.76],
+    "lieu": "Balkh"
+  },
+  "Chute de Boukhara (999)": {
+    "coords": [64.42, 39.77],
+    "lieu": "Boukhara"
   }
 }

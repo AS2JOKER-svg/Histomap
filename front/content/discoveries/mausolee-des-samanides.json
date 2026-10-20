@@ -1,0 +1,15 @@
+{
+  "id": "mausolee-des-samanides",
+  "nom": "Mausolée des Samanides",
+  "annee": 914,
+  "domaine": "Architecture",
+  "dates": "début du Xe siècle",
+  "description": "Un petit mausolée de brique à Boukhara, où repose l’émir Ismaïl, dont les murs forment un décor de briques en relief, comme une vannerie.",
+  "sections": [
+    {
+      "titre": "Un rescapé",
+      "texte": "Enfoui sous la terre pendant des siècles, il aurait échappé aux destructions des Mongols ; il a été dégagé dans les années 1930."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Mausol%C3%A9e_des_Samanides"
+}

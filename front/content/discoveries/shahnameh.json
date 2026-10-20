@@ -1,0 +1,15 @@
+{
+  "id": "shahnameh",
+  "nom": "Shahnameh (le Livre des rois)",
+  "annee": 1010,
+  "domaine": "Littérature",
+  "dates": "vers 977 → 1010",
+  "description": "L’épopée écrite par [[ferdowsi|Ferdowsi]], environ 50 000 vers, qui raconte l’histoire des rois de l’Iran, des origines légendaires à la conquête arabe.",
+  "sections": [
+    {
+      "titre": "Ce qu’on y trouve",
+      "texte": "Des héros comme Rostam, des combats contre des démons et des récits des rois sassanides. C’est l’œuvre fondatrice de la littérature persane."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Livre_des_Rois_(Ferdowsi)"
+}

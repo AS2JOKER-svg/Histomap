@@ -1,0 +1,17 @@
+{
+  "id": "khosro-ier",
+  "nom": "Khosro Ier",
+  "role": "Roi des rois sassanide",
+  "roles": ["Roi des rois", "Réformateur"],
+  "dates": "mort en 579",
+  "mort": 579,
+  "description": "Surnommé Anushirvan, « à l’âme immortelle », il réforme l’impôt et l’armée et fait de sa cour un grand centre de savoir.",
+  "reperes": [{ "label": "Règne", "valeur": "531 → 579" }],
+  "essentiel": [
+    "Il établit un impôt foncier fixe, plus prévisible pour les paysans.",
+    "Il accueille des philosophes grecs chassés d’Athènes (532).",
+    "Il fait traduire des livres indiens, dont des fables, et le jeu d’échecs arrive à sa cour."
+  ],
+  "aSavoir": ["La tradition persane et arabe en fait le modèle du roi juste."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Khosro_Ier"
+}

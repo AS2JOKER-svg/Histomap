@@ -1,0 +1,20 @@
+{
+  "id": "bataille-de-carrhes",
+  "nom": "Bataille de Carrhes",
+  "annee": -53,
+  "dates": "juin −53",
+  "lieu": "Près de Carrhes (Harran, sud-est de la Turquie)",
+  "description": "L’armée romaine de Crassus, partie conquérir l’Empire parthe, est encerclée en terrain découvert par les cavaliers de [[surena|Suréna]].",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Les archers à cheval parthes criblent les légions de flèches, sans cesse réapprovisionnés par des chameaux ; les cavaliers cuirassés chargent les soldats isolés. Crassus est tué lors d’une négociation."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "C’est l’une des pires défaites de l’histoire romaine. Les enseignes des légions ne seront rendues qu’en −20, par un accord avec Auguste."
+    }
+  ],
+  "liens": [{ "ref": "surena", "relation": "Le vainqueur" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Carrhes"
+}

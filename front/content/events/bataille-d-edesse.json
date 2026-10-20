@@ -1,0 +1,16 @@
+{
+  "id": "bataille-d-edesse",
+  "nom": "Bataille d’Édesse",
+  "annee": 260,
+  "dates": "260",
+  "lieu": "Édesse (Urfa, Turquie)",
+  "description": "L’armée de [[chapour-ier|Shapur Ier]] bat l’armée romaine et capture l’empereur Valérien.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "Valérien est le seul empereur romain fait prisonnier par un ennemi étranger ; il meurt en captivité. Shapur fait représenter la scène sur les rochers de Naqsh-e Rostam."
+    }
+  ],
+  "liens": [{ "ref": "chapour-ier", "relation": "Le vainqueur" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_d%27%C3%89desse"
+}

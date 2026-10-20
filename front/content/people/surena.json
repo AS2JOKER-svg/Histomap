@@ -1,0 +1,16 @@
+{
+  "id": "surena",
+  "nom": "Suréna",
+  "role": "Général parthe",
+  "roles": ["Général", "Noble"],
+  "dates": "vers −84 → −53",
+  "naissance": -84,
+  "mort": -53,
+  "description": "Chef de la grande famille noble des Suren, il écrase l’armée romaine de Crassus à Carrhes, avant d’être exécuté par son roi, jaloux de sa gloire.",
+  "essentiel": [
+    "Il mène plus de 10 000 cavaliers, dont des archers à cheval et des cataphractaires.",
+    "Il organise un ravitaillement en flèches à dos de chameau pour ses archers.",
+    "Plutarque le décrit comme le plus grand homme des Parthes après le roi."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Sur%C3%A9na"
+}

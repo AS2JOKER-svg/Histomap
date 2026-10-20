@@ -1,0 +1,18 @@
+{
+  "id": "ai-khanoum",
+  "nom": "Aï Khanoum",
+  "domaine": "Architecture",
+  "dates": "vers −280 → vers −145",
+  "description": "Une ville grecque fondée au bord de l’Oxus (Amou-Daria), dans le nord de l’Afghanistan, avec un gymnase, un théâtre, un palais et des temples.",
+  "sections": [
+    {
+      "titre": "Une découverte",
+      "texte": "Signalée par le roi d’Afghanistan en 1961, elle est fouillée par des archéologues français de 1964 à 1978. On y lit, gravées en grec, des maximes du sanctuaire de Delphes, comme « Enfant, sois sage »."
+    },
+    {
+      "titre": "Son destin",
+      "texte": "Pillée vers −145, abandonnée, elle a été ravagée par des fouilles clandestines pendant les guerres d’Afghanistan."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/A%C3%AF_Khanoum"
+}

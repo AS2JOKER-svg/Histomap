@@ -1,0 +1,20 @@
+{
+  "id": "conquete-musulmane-de-la-perse",
+  "nom": "Conquête musulmane de la Perse",
+  "annee": 633,
+  "fin": 651,
+  "dates": "633 → 651",
+  "lieu": "Irak et Iran",
+  "description": "Les armées du califat, venues d’Arabie, envahissent l’Empire sassanide affaibli par la guerre contre Byzance et les querelles de succession.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Victoire arabe à al-Qadisiyya (636), prise de Ctésiphon (637), victoire décisive de Nahavand (642). Le dernier roi, Yazdegerd III, fuit vers l’est et est tué près de Merv en 651."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "L’Iran entre dans le monde musulman ; la population se convertit peu à peu à l’islam pendant les siècles suivants. Des zoroastriens émigrent vers l’Inde, où leurs descendants sont les Parsis."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Conqu%C3%AAte_musulmane_de_la_Perse"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "ismail-ier-samanide",
+  "nom": "Ismaïl Samani",
+  "nomComplet": "Ismaïl ibn Ahmad",
+  "role": "Émir samanide",
+  "roles": ["Émir"],
+  "dates": "849 → 907",
+  "naissance": 849,
+  "mort": 907,
+  "description": "Émir de 892 à 907, il fait de Boukhara la capitale d’un puissant État persan d’Asie centrale.",
+  "reperes": [{ "label": "Règne", "valeur": "892 → 907" }],
+  "essentiel": [
+    "Il bat les Saffarides près de Balkh (900).",
+    "Il protège les villes des raids des nomades du nord.",
+    "Il est enterré à Boukhara dans le célèbre [[mausolee-des-samanides|mausolée des Samanides]]."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Isma%C3%AFl_Ier_(Samanides)"
+}

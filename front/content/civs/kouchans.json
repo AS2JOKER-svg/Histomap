@@ -1,0 +1,221 @@
+{
+  "documentaires": [],
+  "decouvertes": ["art-du-gandhara"],
+  "id": "kouchans",
+  "label": "Empire kouchan",
+  "tier": 2,
+  "region": "asie-centrale",
+  "period": "vers 30 à 375",
+  "start": 30,
+  "end": 375,
+  "color": "#ef6c00",
+  "trackId": "bactriane",
+  "row": 2,
+  "isRiver": false,
+  "capitale": "Purushapura (Peshawar) et Mathura",
+  "description": "Un empire fondé par des nomades venus de Chine, qui règne de l’Asie centrale au nord de l’Inde, au carrefour de Rome, de la Perse, de l’Inde et de la Chine, et protège le bouddhisme.",
+  "territories": ["Kushan Empire", "Kushan Principalities"],
+  "reperes": {
+    "capitale": {
+      "valeur": "Purushapura et Mathura",
+      "precision": "Purushapura est l’actuelle Peshawar, au Pakistan ; Kapisa (Begram) sert aussi de capitale d’été"
+    },
+    "regimes": { "valeur": "Monarchie", "precision": "le souverain se dit « roi des rois » et « fils du dieu »" },
+    "langues": { "valeur": "Bactrien", "precision": "écrit en lettres grecques ; aussi le grec et des langues indiennes" },
+    "religion": {
+      "valeur": "Cultes variés",
+      "precision": "dieux iraniens, grecs et indiens ; bouddhisme protégé par Kanishka"
+    },
+    "apogee": { "valeur": "Règne de Kanishka", "precision": "IIe siècle, de l’Asie centrale à la vallée du Gange" },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": { "valeur": "Dinars d’or", "precision": "frappés sur le modèle des pièces romaines" },
+    "duree": { "valeur": "Environ 350 ans" },
+    "aujourdhui": {
+      "valeur": "Afghanistan et Pakistan",
+      "precision": "ainsi que le nord de l’Inde, l’Ouzbékistan et le Tadjikistan"
+    }
+  },
+  "essentiel": [
+    "Les Kouchans sont l’une des tribus des Yuezhi, des nomades chassés du nord-ouest de la Chine par les Xiongnu, qui s’installent en Bactriane.",
+    "Vers 30, leur chef Kujula Kadphisès unifie les tribus et fonde un empire qui s’étend vers l’Inde.",
+    "Sous [[kanishka|Kanishka]], au IIe siècle, l’empire va de l’Asie centrale à la vallée du Gange et protège le bouddhisme.",
+    "Au carrefour de la [[route-de-la-soie|route de la soie]], les Kouchans commercent avec Rome, la Perse, l’Inde et la Chine.",
+    "L’[[art-du-gandhara|art du Gandhara]], qui mêle styles grec et indien, donne au Bouddha ses premières représentations humaines ; au IIIe siècle, les Sassanides soumettent une partie de l’empire."
+  ],
+  "datesCles": [
+    { "annee": 30, "evenement": "Kujula Kadphisès", "info": "Vers 30, il unifie les tribus kouchanes." },
+    {
+      "annee": 90,
+      "evenement": "Défaite face à la Chine",
+      "info": "Une armée kouchane est battue par le général chinois Ban Chao dans le bassin du Tarim."
+    },
+    {
+      "annee": 127,
+      "evenement": "Avènement de Kanishka",
+      "info": "Vers 127 selon la datation la plus admise, Kanishka devient roi."
+    },
+    {
+      "annee": 150,
+      "evenement": "Art du Gandhara",
+      "info": "Les ateliers du Gandhara et de Mathura sculptent les premières statues du Bouddha."
+    },
+    {
+      "annee": 230,
+      "evenement": "Les Sassanides",
+      "info": "Vers 230-260, les Sassanides conquièrent la Bactriane et y installent des princes vassaux."
+    },
+    {
+      "annee": 375,
+      "evenement": "Fin de l’empire",
+      "info": "Vers 375, les derniers rois kouchans disparaissent face aux Kidarites."
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "La fondation",
+      "debut": 30,
+      "fin": 127,
+      "resume": "Kujula Kadphisès et ses successeurs unifient les tribus et conquièrent le nord-ouest de l’Inde.",
+      "evenements": [{ "annee": 30, "evenement": "Unification" }, { "annee": 90, "evenement": "Défaite face à Ban Chao" }]
+    },
+    {
+      "nom": "L’apogée",
+      "debut": 127,
+      "fin": 230,
+      "resume": "Kanishka et Huvishka règnent sur un immense empire, carrefour de l’Asie.",
+      "evenements": [
+        { "annee": 127, "evenement": "Avènement de Kanishka" },
+        { "annee": 150, "evenement": "Essor de l’art du Gandhara" }
+      ]
+    },
+    {
+      "nom": "Le déclin",
+      "debut": 230,
+      "fin": 375,
+      "resume": "Les Sassanides prennent l’ouest de l’empire ; les rois kouchans ne gardent que des principautés en Inde du Nord.",
+      "evenements": [{ "annee": 230, "evenement": "Conquête sassanide de la Bactriane" }]
+    }
+  ],
+  "regimes": [{ "id": "empire", "nom": "Empire kouchan", "debut": 30, "fin": 375 }],
+  "dynasties": [
+    {
+      "id": "kouchans",
+      "nom": "Les rois kouchans",
+      "debut": 30,
+      "fin": 230,
+      "note": "Sélection ; dates approximatives et discutées."
+    }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Kujula Kadphisès",
+      "titre": "Roi",
+      "debut": 30,
+      "fin": 80,
+      "dynastie": "kouchans",
+      "note": "fondateur",
+      "cle": true
+    },
+    { "nom": "Vima Takto", "titre": "Roi", "debut": 80, "fin": 95, "dynastie": "kouchans" },
+    {
+      "nom": "Vima Kadphisès",
+      "titre": "Roi",
+      "debut": 95,
+      "fin": 127,
+      "dynastie": "kouchans",
+      "note": "premières pièces d’or",
+      "cle": true
+    },
+    {
+      "nom": "Kanishka Ier",
+      "titre": "Roi des rois",
+      "debut": 127,
+      "fin": 150,
+      "dynastie": "kouchans",
+      "personne": "kanishka",
+      "cle": true
+    },
+    { "nom": "Huvishka", "titre": "Roi", "debut": 150, "fin": 190, "dynastie": "kouchans", "cle": true },
+    {
+      "nom": "Vasudeva Ier",
+      "titre": "Roi",
+      "debut": 190,
+      "fin": 230,
+      "dynastie": "kouchans",
+      "note": "dernier grand roi"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Kanishka",
+      "role": "Roi des rois",
+      "description": "Le plus grand souverain kouchan, protecteur du bouddhisme.",
+      "dates": "IIe siècle",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Kanishka",
+      "ref": "kanishka"
+    },
+    {
+      "nom": "Ashvaghosha",
+      "role": "Poète bouddhiste",
+      "description": "Selon la tradition, il vit à la cour de Kanishka ; il écrit en sanskrit une vie du Bouddha en vers.",
+      "dates": "Ier-IIe siècles",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Ashvaghosha"
+    },
+    {
+      "nom": "Ban Chao",
+      "role": "Général chinois",
+      "description": "Il soumet les oasis du bassin du Tarim à la Chine des Han et repousse une armée kouchane en 90.",
+      "dates": "32 → 102",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Ban_Chao"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerre kouchane contre Ban Chao",
+      "annee": 90,
+      "adversaires": ["Chine des Han (Ban Chao)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Chine des Han",
+      "consequences": "Selon les annales chinoises, l’armée kouchane, affamée, doit se retirer ; les Kouchans envoient ensuite un tribut à la Chine.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Ban_Chao"
+    },
+    {
+      "nom": "Conquête sassanide de la Bactriane",
+      "annee": 240,
+      "adversaires": ["Empire sassanide (Shapur Ier)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Empire sassanide",
+      "consequences": "Les Sassanides installent en Bactriane des princes vassaux, les Kouchano-Sassanides ; l’empire kouchan se réduit au nord de l’Inde.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Empire_kouchan"
+    }
+  ],
+  "sciences": "Les Kouchans frappent une abondante monnaie d’or, au poids des pièces romaines, où figurent des dieux grecs, iraniens et indiens. L’inscription de Rabatak, découverte en Afghanistan en 1993, écrite en bactrien avec des lettres grecques, donne la liste des rois et éclaire leur histoire.",
+  "croyancesText": "Les Kouchans honorent des dieux très variés : dieux iraniens comme le Soleil Mithra, dieux grecs comme Héraclès, dieux indiens comme Shiva, et le Bouddha. Selon la tradition, Kanishka réunit un grand concile bouddhiste ; le bouddhisme se diffuse alors vers l’Asie centrale et la Chine.",
+  "diplomatie": "L’empire est un carrefour : il commerce avec Rome par les ports de l’Inde, avec la Chine par la route de la soie, et affronte les Parthes puis les Sassanides. Le trésor de Begram, en Afghanistan, réunit des verres romains, des ivoires indiens et des laques chinoises.",
+  "societe": "Les rois kouchans, d’origine nomade, gouvernent des peuples très divers : Bactriens, Indiens, Grecs. Des communautés de marchands et de moines bouddhistes jouent un grand rôle dans les villes.",
+  "economie": "Commerce de la route de la soie et des ports indiens, agriculture des vallées, artisanat de l’ivoire et des métaux.",
+  "arts": "Statues du Bouddha du Gandhara et de Mathura, portraits royaux, monastères et stupas.",
+  "quotidien": "Les rois kouchans sont représentés en manteau de nomade, pantalons et bottes, même sur des statues trouvées en Inde.",
+  "heritage": [
+    {
+      "titre": "Le visage du Bouddha",
+      "texte": "Les sculpteurs de l’époque kouchane sont parmi les premiers à représenter le Bouddha sous forme humaine."
+    },
+    {
+      "titre": "Le bouddhisme vers la Chine",
+      "texte": "Des moines venus de l’empire kouchan traduisent les premiers textes bouddhistes en chinois."
+    }
+  ],
+  "aSavoir": [
+    "La date du début du règne de Kanishka a été discutée pendant tout le XXe siècle ; la plupart des historiens retiennent aujourd’hui 127."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Empire_kouchan",
+    {
+      "titre": "Encyclopædia Britannica — Kushan dynasty",
+      "url": "https://www.britannica.com/topic/Kushan-dynasty"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "tir-parthe",
+  "nom": "Tir parthe",
+  "domaine": "Technique militaire",
+  "dates": "Antiquité",
+  "description": "Une technique d’archer à cheval qui consiste à faire semblant de fuir puis à se retourner sur sa selle pour tirer sur les poursuivants.",
+  "sections": [
+    {
+      "titre": "Comment ça marche",
+      "texte": "Le cavalier lâche les rênes, guide son cheval avec les jambes et pivote le buste vers l’arrière. Les ennemis, croyant à une fuite, s’avancent en désordre et deviennent des cibles faciles."
+    }
+  ],
+  "aSavoir": ["En français, une « flèche du Parthe » désigne une remarque blessante lancée au moment de partir."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Tir_parthe"
+}

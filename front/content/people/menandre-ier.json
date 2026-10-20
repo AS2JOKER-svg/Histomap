@@ -1,0 +1,14 @@
+{
+  "id": "menandre-ier",
+  "nom": "Ménandre Ier",
+  "role": "Roi indo-grec",
+  "roles": ["Roi"],
+  "dates": "IIe siècle av. J.-C.",
+  "description": "Roi grec qui règne sur une partie du nord-ouest de l’Inde ; un texte bouddhiste, les « Questions de Milinda », le montre dialoguant avec un moine.",
+  "essentiel": [
+    "Il est le plus célèbre des rois grecs de l’Inde.",
+    "Sa capitale est Sagala (Sialkot, au Pakistan).",
+    "Selon la tradition bouddhiste, il se serait converti au bouddhisme."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/M%C3%A9nandre_Ier"
+}

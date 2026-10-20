@@ -1,0 +1,27 @@
+{
+  "id": "isabelle-la-catholique",
+  "nom": "Isabelle la Catholique",
+  "nomComplet": "Isabelle Ire de Castille",
+  "role": "Reine de Castille",
+  "roles": ["Reine"],
+  "dates": "1451 → 1504",
+  "naissance": 1451,
+  "mort": 1504,
+  "description": "Reine de Castille qui épouse Ferdinand d’Aragon en 1469. Ensemble, les « Rois catholiques » prennent Grenade, financent le voyage de Christophe Colomb et préparent l’unité de l’Espagne.",
+  "reperes": [{ "label": "Règne", "valeur": "1474 → 1504" }, { "label": "Époux", "valeur": "Ferdinand II d’Aragon" }],
+  "essentiel": [
+    "Elle épouse Ferdinand en secret, contre l’avis de son demi-frère le roi.",
+    "Elle gagne une guerre de succession pour la couronne de Castille (1475-1479).",
+    "Avec Ferdinand, elle prend [[chute-de-grenade|Grenade]] en 1492.",
+    "La même année, elle finance l’expédition de Christophe Colomb et ordonne l’expulsion des juifs.",
+    "Elle met en place l’Inquisition espagnole (1478)."
+  ],
+  "chronologie": [
+    { "annee": 1469, "texte": "Mariage avec Ferdinand d’Aragon" },
+    { "annee": 1474, "texte": "Reine de Castille" },
+    { "annee": 1478, "texte": "Création de l’Inquisition espagnole" },
+    { "annee": 1492, "texte": "Prise de Grenade", "ref": "chute-de-grenade" },
+    { "annee": 1504, "texte": "Mort" }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Isabelle_Ire_de_Castille"
+}

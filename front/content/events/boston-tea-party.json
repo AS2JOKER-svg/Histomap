@@ -1,0 +1,16 @@
+{
+  "id": "boston-tea-party",
+  "nom": "Boston Tea Party",
+  "annee": 1773,
+  "dates": "16 décembre 1773",
+  "lieu": "Port de Boston",
+  "description": "Des colons, déguisés en Amérindiens, jettent à la mer 342 caisses de thé de la Compagnie britannique des Indes orientales pour protester contre les taxes votées à Londres.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "Le Parlement britannique ferme le port de Boston et durcit son contrôle sur le Massachusetts, ce qui unit les colonies contre lui."
+    }
+  ],
+  "apres": "declaration-d-independance",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Boston_Tea_Party"
+}

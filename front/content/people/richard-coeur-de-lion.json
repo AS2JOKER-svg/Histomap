@@ -1,0 +1,24 @@
+{
+  "id": "richard-coeur-de-lion",
+  "nom": "Richard Cœur de Lion",
+  "nomComplet": "Richard Ier d’Angleterre",
+  "role": "Roi d’Angleterre",
+  "roles": ["Roi", "Croisé"],
+  "dates": "1157 → 1199",
+  "naissance": 1157,
+  "mort": 1199,
+  "description": "Roi d’Angleterre qui passe à peine six mois de son règne en Angleterre : il mène la troisième croisade, puis combat le roi de France Philippe Auguste.",
+  "reperes": [{ "label": "Règne", "valeur": "1189 → 1199" }],
+  "essentiel": [
+    "Il est le fils d’Henri II et d’[[eleonore-d-aquitaine|Aliénor d’Aquitaine]].",
+    "Pendant la troisième croisade, il prend Acre et bat Saladin, mais ne reprend pas Jérusalem.",
+    "Au retour, il est capturé par le duc d’Autriche et libéré contre une énorme rançon.",
+    "Il meurt d’une flèche reçue en assiégeant un château du Limousin."
+  ],
+  "liens": [
+    { "ref": "eleonore-d-aquitaine", "relation": "Sa mère" },
+    { "ref": "philippe-auguste", "relation": "Son allié, puis son rival" }
+  ],
+  "aSavoir": ["Il parlait surtout français et occitan ; on ignore s’il savait l’anglais."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Richard_C%C5%93ur_de_Lion"
+}

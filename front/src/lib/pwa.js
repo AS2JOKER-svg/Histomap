@@ -50,9 +50,13 @@ export function initPWA() {
       })
       .catch(() => {})
 
+    // Recharger seulement quand une NOUVELLE version prend la main (mise à jour acceptée),
+    // jamais à la première installation : sinon la page se rechargerait quelques secondes
+    // après la toute première visite (en pleine présentation, par exemple).
+    const hadController = !!navigator.serviceWorker.controller
     let reloading = false
     navigator.serviceWorker.addEventListener('controllerchange', () => {
-      if (reloading) return
+      if (reloading || !hadController) return
       reloading = true
       window.location.reload()
     })

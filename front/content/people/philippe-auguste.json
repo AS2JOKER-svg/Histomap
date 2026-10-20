@@ -1,0 +1,28 @@
+{
+  "id": "philippe-auguste",
+  "nom": "Philippe Auguste",
+  "nomComplet": "Philippe II",
+  "role": "Roi de France",
+  "roles": ["Roi"],
+  "dates": "1165 → 1223",
+  "naissance": 1165,
+  "mort": 1223,
+  "description": "Roi qui multiplie le domaine royal en prenant la Normandie aux Plantagenêts et en triomphant à Bouvines ; il fait de Paris une vraie capitale.",
+  "reperes": [
+    { "label": "Règne", "valeur": "1180 → 1223" },
+    { "label": "Grande victoire", "valeur": "[[bataille-de-bouvines|Bouvines]] (1214)" }
+  ],
+  "essentiel": [
+    "Il conquiert la Normandie (1204) et d’autres fiefs du roi d’Angleterre Jean sans Terre.",
+    "Il bat à Bouvines la coalition de l’empereur Otton IV.",
+    "Il dote Paris d’une enceinte et de la forteresse du Louvre, et y fixe les services royaux."
+  ],
+  "chronologie": [
+    { "annee": 1180, "texte": "Début du règne, à 15 ans" },
+    { "annee": 1190, "texte": "Part pour la troisième croisade" },
+    { "annee": 1204, "texte": "Conquête de la Normandie" },
+    { "annee": 1214, "texte": "Victoire de Bouvines", "ref": "bataille-de-bouvines" }
+  ],
+  "aSavoir": ["C’est sous son règne que l’on commence à parler de « roi de France » plutôt que de « roi des Francs »."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Philippe_II_Auguste"
+}

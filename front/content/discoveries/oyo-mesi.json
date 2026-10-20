@@ -1,0 +1,19 @@
+{
+  "id": "oyo-mesi",
+  "nom": "Les Oyo Mesi",
+  "annee": 1600,
+  "domaine": "Politique",
+  "dates": "XVIe-XIXe siècles",
+  "description": "Le conseil des sept grands nobles du royaume d’Oyo, qui choisit le roi et peut l’obliger à mourir s’il gouverne mal : un système d’équilibre des pouvoirs original.",
+  "sections": [
+    {
+      "titre": "Comment ça marche",
+      "texte": "Les Oyo Mesi représentent les grandes familles de la capitale. Leur chef, le bashorun, préside aussi des cérémonies religieuses où il consulte les dieux sur la conduite du roi."
+    },
+    {
+      "titre": "Ses limites",
+      "texte": "Ce pouvoir peut être détourné : au XVIIIe siècle, Bashorun Gaa s’en sert pour éliminer les rois et dominer le royaume."
+    }
+  ],
+  "wikiUrl": "https://en.wikipedia.org/wiki/Oyo_Mesi"
+}

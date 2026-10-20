@@ -1,0 +1,316 @@
+{
+  "id": "perse",
+  "label": "Empire perse achéménide",
+  "tier": 1,
+  "region": "iran",
+  "period": "-550 à -330",
+  "start": -550,
+  "end": -330,
+  "trackId": "perse",
+  "row": 2,
+  "isRiver": false,
+  "capitale": "Persépolis / Suse / Pasargades",
+  "description": "Fondé par Cyrus le Grand, l’Empire achéménide est le plus grand empire de son temps, de l’Égypte et de la mer Égée jusqu’à l’Indus, jusqu’à sa conquête par Alexandre.",
+  "territories": ["Achaemenid Empire"],
+  "datesCles": [
+    {
+      "annee": -550,
+      "evenement": "Cyrus bat les Mèdes",
+      "info": "Le roi perse Cyrus renverse son suzerain mède Astyage : c’est le début de l’empire."
+    },
+    {
+      "annee": -539,
+      "evenement": "Prise de Babylone",
+      "info": "Cyrus entre dans Babylone et autorise les Judéens déportés à rentrer à Jérusalem.",
+      "ref": "prise-de-babylone"
+    },
+    {
+      "annee": -525,
+      "evenement": "Conquête de l’Égypte",
+      "info": "Cambyse II bat le pharaon Psammétique III à Péluse."
+    },
+    {
+      "annee": -518,
+      "evenement": "Fondation de Persépolis",
+      "info": "Darius Ier lance la construction de la capitale cérémonielle de l’empire."
+    },
+    {
+      "annee": -490,
+      "evenement": "Marathon",
+      "info": "Une expédition envoyée par Darius Ier est repoussée par les Athéniens.",
+      "ref": "bataille-de-marathon"
+    },
+    {
+      "annee": -480,
+      "evenement": "Salamine",
+      "info": "La flotte de Xerxès Ier est battue par les Grecs.",
+      "ref": "bataille-de-salamine"
+    },
+    {
+      "annee": -331,
+      "evenement": "Gaugamèles",
+      "info": "Alexandre le Grand écrase l’armée de Darius III.",
+      "ref": "bataille-de-gaugameles"
+    },
+    {
+      "annee": -330,
+      "evenement": "Fin de l’empire",
+      "info": "Persépolis est incendiée et Darius III est assassiné par l’un de ses satrapes."
+    }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Cyrus II",
+      "titre": "Roi des rois",
+      "surnom": "le Grand",
+      "debut": -559,
+      "fin": -530,
+      "dynastie": "achemenides",
+      "personne": "cyrus-le-grand",
+      "note": "fondateur de l’empire",
+      "cle": true
+    },
+    {
+      "nom": "Cambyse II",
+      "titre": "Roi des rois",
+      "debut": -530,
+      "fin": -522,
+      "dynastie": "achemenides",
+      "note": "conquiert l’Égypte"
+    },
+    {
+      "nom": "Bardiya",
+      "titre": "Roi des rois",
+      "debut": -522,
+      "fin": -522,
+      "dynastie": "achemenides",
+      "note": "frère de Cambyse, ou un usurpateur selon Darius"
+    },
+    {
+      "nom": "Darius Ier",
+      "titre": "Roi des rois",
+      "debut": -522,
+      "fin": -486,
+      "dynastie": "achemenides",
+      "personne": "darius-ier",
+      "note": "organise l’empire",
+      "cle": true
+    },
+    {
+      "nom": "Xerxès Ier",
+      "titre": "Roi des rois",
+      "debut": -486,
+      "fin": -465,
+      "dynastie": "achemenides",
+      "note": "envahit la Grèce",
+      "cle": true
+    },
+    { "nom": "Artaxerxès Ier", "titre": "Roi des rois", "debut": -465, "fin": -424, "dynastie": "achemenides" },
+    {
+      "nom": "Xerxès II",
+      "titre": "Roi des rois",
+      "debut": -424,
+      "fin": -424,
+      "dynastie": "achemenides",
+      "note": "assassiné après 45 jours"
+    },
+    { "nom": "Darius II", "titre": "Roi des rois", "debut": -423, "fin": -404, "dynastie": "achemenides" },
+    {
+      "nom": "Artaxerxès II",
+      "titre": "Roi des rois",
+      "debut": -404,
+      "fin": -358,
+      "dynastie": "achemenides",
+      "note": "règne le plus long de la dynastie"
+    },
+    {
+      "nom": "Artaxerxès III",
+      "titre": "Roi des rois",
+      "debut": -358,
+      "fin": -338,
+      "dynastie": "achemenides",
+      "note": "reconquiert l’Égypte"
+    },
+    { "nom": "Artaxerxès IV", "titre": "Roi des rois", "debut": -338, "fin": -336, "dynastie": "achemenides" },
+    {
+      "nom": "Darius III",
+      "titre": "Roi des rois",
+      "debut": -336,
+      "fin": -330,
+      "dynastie": "achemenides",
+      "note": "vaincu par Alexandre",
+      "cle": true
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Cyrus le Grand",
+      "role": "Fondateur de l’empire",
+      "description": "Il bâtit en trente ans le plus grand empire du monde et laisse le souvenir d’un roi clément.",
+      "dates": "règne −559 → −530",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Cyrus_II",
+      "ref": "cyrus-le-grand"
+    },
+    {
+      "nom": "Darius Ier",
+      "role": "Roi des rois",
+      "description": "Organisateur de l’empire : satrapies, monnaie, route royale, Persépolis.",
+      "dates": "règne −522 → −486",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Darius_Ier",
+      "ref": "darius-ier"
+    },
+    {
+      "nom": "Xerxès Ier",
+      "role": "Roi des rois",
+      "description": "Fils de Darius, il envahit la Grèce en −480 et prend Athènes, mais sa flotte est battue à Salamine.",
+      "dates": "règne −486 → −465",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Xerx%C3%A8s_Ier"
+    },
+    {
+      "nom": "Darius III",
+      "role": "Roi des rois",
+      "description": "Dernier Grand Roi achéménide, vaincu par Alexandre à Issos et à Gaugamèles, puis assassiné par ses satrapes.",
+      "dates": "règne −336 → −330",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Darius_III"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerres médiques",
+      "annee": -490,
+      "adversaires": ["Cités grecques (Athènes, Sparte et leurs alliés)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Les cités grecques",
+      "consequences": "Les Perses renoncent à conquérir la Grèce, mais gardent un empire immense et continuent d’intervenir dans les affaires grecques.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerres_m%C3%A9diques"
+    },
+    {
+      "nom": "Bataille de Gaugamèles",
+      "annee": -331,
+      "adversaires": ["Royaume de Macédoine (Alexandre le Grand)"],
+      "allies": ["Contingents de tout l’empire, dont des Bactriens et des Indiens"],
+      "morts": "Inconnues ; les chiffres antiques sont très exagérés",
+      "vainqueur": "Macédoine",
+      "consequences": "Darius III s’enfuit et est assassiné par ses satrapes en −330. Alexandre s’empare de Babylone, de Suse et de Persépolis, qu’il incendie.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Gaugam%C3%A8les"
+    }
+  ],
+  "sciences": "Pour gouverner un empire immense, les Perses construisent la route royale, longue d’environ 2 500 km de Sardes à Suse, avec des relais où des courriers changent de chevaux : selon Hérodote, rien ne va plus vite qu’eux. Ils creusent des qanats, canaux souterrains qui amènent l’eau des montagnes, et un canal reliant le Nil à la mer Rouge. Darius crée une monnaie d’or, la darique.",
+  "croyancesText": "Les rois achéménides se placent sous la protection d’Ahura Mazda, le dieu sage et créateur, opposé au mensonge. Cette religion est proche de celle du prophète Zarathoustra (le zoroastrisme), sans qu’on sache exactement quel lien les rois avaient avec elle. Les peuples de l’empire gardent leurs propres dieux, et les rois financent parfois leurs temples, comme celui de Jérusalem.",
+  "diplomatie": "L’empire est divisé en une vingtaine de satrapies, gouvernées par des satrapes qui lèvent le tribut et les soldats. Des inspecteurs, appelés par les Grecs « les yeux et les oreilles du roi », les surveillent. Les peuples soumis gardent leurs coutumes, mais les révoltes, comme celle des cités grecques d’Ionie en −499, sont durement réprimées.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": {
+      "valeur": "Plusieurs capitales",
+      "precision": "Pasargades, Suse, Persépolis, Ecbatane et Babylone ; la cour se déplace selon les saisons"
+    },
+    "regimes": {
+      "valeur": "Monarchie",
+      "precision": "le « Grand Roi », roi des rois, gouverne par des satrapes (gouverneurs de province)"
+    },
+    "langues": {
+      "valeur": "Vieux-perse, élamite, araméen",
+      "precision": "l’araméen sert de langue administrative dans tout l’empire"
+    },
+    "religion": {
+      "valeur": "Culte d’Ahura Mazda",
+      "precision": "proche du zoroastrisme ; les peuples conquis gardent leurs dieux"
+    },
+    "apogee": { "valeur": "Vers −500", "precision": "sous Darius Ier, environ 5 millions de km²" },
+    "population": { "valeur": "Peut-être 17 à 35 millions", "precision": "estimations très incertaines" },
+    "monnaie": { "valeur": "Darique d’or et sicle d’argent", "precision": "créés sous Darius Ier" },
+    "duree": { "valeur": "Environ 220 ans" },
+    "aujourdhui": { "valeur": "Iran", "precision": "et une vingtaine de pays actuels, de la Turquie et de l’Égypte au Pakistan" }
+  },
+  "essentiel": [
+    "Vers −550, [[cyrus-le-grand|Cyrus le Grand]] soumet les Mèdes, puis conquiert la Lydie et [[prise-de-babylone|Babylone]] : il fonde le plus grand empire du monde à cette époque.",
+    "Son fils Cambyse conquiert l’Égypte ; [[darius-ier|Darius Ier]] organise l’empire en satrapies, crée une monnaie et une route royale.",
+    "Les Perses laissent les peuples conquis garder leur langue et leurs dieux, à condition de payer le tribut et de fournir des soldats.",
+    "Leurs tentatives de conquérir la Grèce échouent à [[bataille-de-marathon|Marathon]] (−490) et à [[bataille-de-salamine|Salamine]] (−480).",
+    "[[alexandre-le-grand|Alexandre le Grand]] bat Darius III à [[bataille-de-gaugameles|Gaugamèles]] (−331) et s’empare de l’empire."
+  ],
+  "periodes": [
+    {
+      "nom": "Les conquêtes",
+      "debut": -550,
+      "fin": -522,
+      "resume": "Cyrus le Grand soumet les Mèdes, la Lydie de Crésus et Babylone ; son fils Cambyse conquiert l’Égypte.",
+      "evenements": [
+        { "annee": -547, "evenement": "Conquête de la Lydie" },
+        { "annee": -539, "evenement": "Prise de Babylone", "ref": "prise-de-babylone" },
+        { "annee": -525, "evenement": "Conquête de l’Égypte" }
+      ]
+    },
+    {
+      "nom": "L’apogée",
+      "debut": -522,
+      "fin": -465,
+      "resume": "Darius Ier organise l’empire, qui atteint l’Indus. Avec Xerxès Ier, les Perses échouent à soumettre la Grèce.",
+      "evenements": [
+        { "annee": -518, "evenement": "Fondation de Persépolis" },
+        { "annee": -490, "evenement": "Marathon", "ref": "bataille-de-marathon" },
+        { "annee": -480, "evenement": "Salamine", "ref": "bataille-de-salamine" }
+      ]
+    },
+    {
+      "nom": "Un empire toujours puissant",
+      "debut": -465,
+      "fin": -336,
+      "resume": "Malgré des révoltes et des querelles de succession, l’empire reste immense. Il perd puis reprend l’Égypte et finance les rivalités entre cités grecques.",
+      "evenements": [
+        { "annee": -404, "evenement": "L’Égypte reprend son indépendance" },
+        { "annee": -343, "evenement": "Artaxerxès III reconquiert l’Égypte" }
+      ]
+    },
+    {
+      "nom": "La conquête macédonienne",
+      "debut": -336,
+      "fin": -330,
+      "resume": "Alexandre le Grand bat Darius III au Granique, à Issos puis à Gaugamèles, et s’empare des capitales perses.",
+      "evenements": [
+        { "annee": -333, "evenement": "Bataille d’Issos" },
+        { "annee": -331, "evenement": "Gaugamèles", "ref": "bataille-de-gaugameles" },
+        { "annee": -330, "evenement": "Incendie de Persépolis" }
+      ]
+    }
+  ],
+  "dynasties": [
+    {
+      "id": "achemenides",
+      "nom": "Les Achéménides",
+      "debut": -559,
+      "fin": -330,
+      "note": "Liste complète des Grands Rois."
+    }
+  ],
+  "societe": "Le Grand Roi est entouré d’une noblesse perse et mède qui fournit les satrapes et les généraux. Les tablettes de Persépolis montrent des milliers de travailleurs de tout l’empire, hommes et femmes, payés en rations.",
+  "economie": "Tribut des satrapies en métaux précieux, chevaux, céréales ; agriculture irriguée grâce aux qanats ; commerce facilité par les routes, la monnaie et la paix intérieure.",
+  "decouvertes": ["persepolis", "cylindre-de-cyrus"],
+  "arts": "Palais de Persépolis et de Suse, bas-reliefs des peuples apportant le tribut, frise des archers en briques émaillées, orfèvrerie (trésor de l’Oxus) : l’art achéménide réunit des artisans de tout l’empire.",
+  "quotidien": "Selon Hérodote, les jeunes Perses apprennent trois choses : monter à cheval, tirer à l’arc et dire la vérité. Le Nouvel An (Norouz) est fêté au printemps.",
+  "heritage": [
+    {
+      "titre": "Persépolis",
+      "texte": "Les ruines de la capitale cérémonielle sont inscrites au patrimoine mondial de l’UNESCO."
+    },
+    {
+      "titre": "Un modèle d’empire",
+      "texte": "L’organisation en provinces, les routes et la poste inspirent Alexandre, puis les empires suivants."
+    },
+    {
+      "titre": "Norouz",
+      "texte": "Le Nouvel An iranien, fêté au printemps, est célébré aujourd’hui par plus de 300 millions de personnes."
+    }
+  ],
+  "aSavoir": [
+    "Presque tout ce que l’on sait des guerres médiques vient de leurs adversaires grecs, à commencer par Hérodote."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Empire_ach%C3%A9m%C3%A9nide",
+    {
+      "titre": "Encyclopædia Britannica — Achaemenian dynasty",
+      "url": "https://www.britannica.com/topic/Achaemenian-dynasty"
+    }
+  ]
+}

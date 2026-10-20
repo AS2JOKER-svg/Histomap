@@ -1,0 +1,25 @@
+{
+  "id": "akhenaton",
+  "nom": "Akhénaton",
+  "nomComplet": "Amenhotep IV",
+  "role": "Pharaon",
+  "roles": ["Pharaon", "Réformateur religieux"],
+  "dates": "règne −1352 → −1336",
+  "mort": -1336,
+  "description": "Pharaon qui bouleverse la religion égyptienne en plaçant Aton, le disque solaire, au-dessus de tous les dieux, et qui fonde une nouvelle capitale, Amarna.",
+  "essentiel": [
+    "Il change de nom (Amenhotep IV devient Akhénaton, « utile à Aton ») et fait fermer des temples d’Amon.",
+    "Il fonde Akhetaton (Amarna), nouvelle capitale construite en quelques années.",
+    "L’art de son règne, plus naturel, rompt avec les conventions."
+  ],
+  "chronologie": [
+    { "annee": -1352, "texte": "Début du règne sous le nom d’Amenhotep IV" },
+    { "annee": -1346, "texte": "Fondation d’Amarna (date approximative)" },
+    { "annee": -1336, "texte": "Mort ; retour progressif au culte d’Amon sous Toutânkhamon" }
+  ],
+  "aSavoir": [
+    "On parle souvent de « premier monothéisme » ; les historiens discutent ce terme, car d’autres divinités restent honorées.",
+    "Son épouse principale est Néfertiti ; Toutânkhamon est très probablement son fils."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Akh%C3%A9naton"
+}

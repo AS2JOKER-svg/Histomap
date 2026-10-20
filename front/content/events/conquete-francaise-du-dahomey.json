@@ -1,0 +1,21 @@
+{
+  "id": "conquete-francaise-du-dahomey",
+  "nom": "Conquête française du Dahomey",
+  "annee": 1892,
+  "fin": 1894,
+  "dates": "1892 → 1894",
+  "lieu": "Sud du Bénin actuel",
+  "description": "La France, installée à Porto-Novo et Cotonou, envoie une colonne militaire dirigée par le colonel Dodds contre le roi [[behanzin|Béhanzin]].",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Les Dahoméens, dont les régiments de femmes soldats, livrent de durs combats, mais l’armement français (fusils à répétition, artillerie) l’emporte. Abomey tombe en novembre 1892."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Béhanzin se rend en janvier 1894. Le Dahomey devient une colonie française ; les trésors royaux sont emportés en France."
+    }
+  ],
+  "liens": [{ "ref": "behanzin", "relation": "Le roi vaincu" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Seconde_guerre_du_Dahomey"
+}

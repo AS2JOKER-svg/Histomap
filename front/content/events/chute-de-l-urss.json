@@ -1,0 +1,15 @@
+{
+  "id": "chute-de-l-urss",
+  "nom": "Dissolution de l’URSS",
+  "annee": 1991,
+  "dates": "décembre 1991",
+  "lieu": "Moscou",
+  "description": "Après l’échec d’un coup d’État contre Gorbatchev et l’indépendance des républiques, l’URSS est dissoute ; Gorbatchev démissionne le 25 décembre 1991.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "Quinze États indépendants naissent, dont la Russie, l’Ukraine et les pays baltes. La guerre froide est terminée."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Dislocation_de_l%27URSS"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "parthenon",
+  "nom": "Parthénon",
+  "annee": -447,
+  "domaine": "Architecture",
+  "dates": "−447 → −432",
+  "description": "Le grand temple d’Athéna, bâti en marbre sur l’Acropole d’Athènes à l’initiative de [[pericles|Périclès]] : le symbole de la Grèce classique.",
+  "sections": [
+    {
+      "titre": "Comment il a été bâti",
+      "texte": "Les architectes Ictinos et Callicratès dirigent le chantier, et le sculpteur Phidias le décor. Les lignes du temple sont légèrement courbées pour paraître parfaitement droites à l’œil."
+    },
+    {
+      "titre": "Ce qu’il est devenu",
+      "texte": "Tour à tour église, mosquée puis poudrière, il est en partie détruit en 1687 par un boulet vénitien. Une grande partie de ses sculptures est aujourd’hui à Londres, au British Museum, et la Grèce en demande le retour."
+    }
+  ],
+  "liens": [{ "ref": "pericles", "relation": "Il lance le chantier" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Parth%C3%A9non"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "bataille-de-hastings",
+  "nom": "Bataille de Hastings",
+  "annee": 1066,
+  "dates": "14 octobre 1066",
+  "lieu": "Près de Hastings (sud de l’Angleterre)",
+  "description": "[[guillaume-le-conquerant|Guillaume de Normandie]] bat l’armée du roi anglo-saxon Harold II, tué pendant la bataille : Guillaume devient roi d’Angleterre.",
+  "sections": [
+    {
+      "titre": "Contexte",
+      "texte": "Trois semaines plus tôt, Harold a battu le roi norvégien Harald Hardrada à [[bataille-de-stamford-bridge|Stamford Bridge]]. Il redescend à marche forcée vers le sud pour affronter les Normands."
+    },
+    {
+      "titre": "Déroulement",
+      "texte": "Les Anglo-Saxons forment un mur de boucliers sur une colline. Les Normands attaquent toute la journée, simulent peut-être des fuites pour attirer l’ennemi, et finissent par l’emporter."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Guillaume est couronné à Noël. Les Normands remplacent l’élite anglo-saxonne, et le français devient pour trois siècles la langue de la cour."
+    }
+  ],
+  "liens": [{ "ref": "guillaume-le-conquerant", "relation": "Le vainqueur" }],
+  "avant": "bataille-de-stamford-bridge",
+  "aSavoir": ["La [[tapisserie-de-bayeux|tapisserie de Bayeux]] raconte la conquête en images."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_d%27Hastings"
+}

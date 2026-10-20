@@ -1,0 +1,25 @@
+{
+  "id": "declaration-d-independance",
+  "nom": "Déclaration d’indépendance des États-Unis",
+  "annee": 1776,
+  "dates": "4 juillet 1776",
+  "lieu": "Philadelphie",
+  "description": "Les représentants des treize colonies proclament leur indépendance et affirment des droits universels : la vie, la liberté et la recherche du bonheur.",
+  "sections": [
+    {
+      "titre": "Ce qu’elle dit",
+      "texte": "Rédigée surtout par [[thomas-jefferson|Thomas Jefferson]], elle affirme que les gouvernements tirent leur pouvoir du consentement des gouvernés et énumère les griefs contre le roi George III."
+    },
+    {
+      "titre": "Ses limites",
+      "texte": "Les droits proclamés ne s’appliquent alors ni aux esclaves ni aux femmes ni aux Amérindiens."
+    }
+  ],
+  "liens": [
+    { "ref": "thomas-jefferson", "relation": "Son principal rédacteur" },
+    { "ref": "benjamin-franklin", "relation": "Un des signataires" }
+  ],
+  "avant": "boston-tea-party",
+  "apres": "bataille-de-yorktown",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/D%C3%A9claration_d%27ind%C3%A9pendance_des_%C3%89tats-Unis"
+}

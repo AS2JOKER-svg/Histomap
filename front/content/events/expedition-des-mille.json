@@ -1,0 +1,16 @@
+{
+  "id": "expedition-des-mille",
+  "nom": "Expédition des Mille",
+  "annee": 1860,
+  "dates": "mai 1860",
+  "lieu": "Sicile et sud de l’Italie",
+  "description": "[[giuseppe-garibaldi|Garibaldi]] débarque en Sicile avec un millier de volontaires, les « Chemises rouges », et conquiert le royaume des Deux-Siciles.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "Garibaldi remet ses conquêtes au roi de Piémont-Sardaigne, Victor-Emmanuel II, qui est proclamé roi d’Italie en 1861."
+    }
+  ],
+  "liens": [{ "ref": "giuseppe-garibaldi", "relation": "Son chef" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Exp%C3%A9dition_des_Mille"
+}

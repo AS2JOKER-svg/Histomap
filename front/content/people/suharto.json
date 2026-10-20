@@ -1,0 +1,18 @@
+{
+  "id": "suharto",
+  "nom": "Suharto",
+  "role": "Président de l’Indonésie",
+  "roles": ["Général", "Président"],
+  "dates": "1921 → 2008",
+  "naissance": 1921,
+  "mort": 2008,
+  "description": "Général, il prend le pouvoir après 1965 et dirige l’Indonésie pendant plus de trente ans : forte croissance économique, mais répression, corruption et occupation du Timor oriental.",
+  "reperes": [{ "label": "Président", "valeur": "1967 → 1998" }],
+  "essentiel": [
+    "L’armée qu’il commande mène les [[massacres-de-1965-en-indonesie|massacres de 1965-1966]].",
+    "Son régime, l’« Ordre nouveau », est soutenu par les pays occidentaux.",
+    "Il ordonne l’invasion du Timor oriental (1975).",
+    "La crise financière de 1997 et les manifestations le forcent à démissionner en 1998."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Soeharto"
+}

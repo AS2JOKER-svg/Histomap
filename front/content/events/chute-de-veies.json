@@ -1,0 +1,20 @@
+{
+  "id": "chute-de-veies",
+  "nom": "Chute de Véies",
+  "annee": -396,
+  "dates": "−396 (date traditionnelle)",
+  "lieu": "Véies, au nord de Rome",
+  "description": "Rome s’empare de Véies, la grande cité étrusque située à une quinzaine de kilomètres, sa rivale depuis des siècles.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Selon les historiens romains, le siège dure dix ans, comme celui de Troie. Le général Camille aurait fait creuser un tunnel pour entrer dans la ville."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Rome double presque son territoire. La conquête des autres cités étrusques commence."
+    }
+  ],
+  "aSavoir": ["La durée de dix ans et le tunnel sont sans doute en partie légendaires."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/V%C3%A9ies"
+}

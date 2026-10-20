@@ -1,0 +1,15 @@
+{
+  "id": "cri-de-dolores",
+  "nom": "Cri de Dolores",
+  "annee": 1810,
+  "dates": "16 septembre 1810",
+  "lieu": "Dolores (Mexique)",
+  "description": "Le prêtre Miguel Hidalgo appelle ses paroissiens à se soulever contre les autorités espagnoles : c’est le début de la guerre d’indépendance du Mexique.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "Hidalgo est capturé et fusillé en 1811, mais la guerre continue. Le Mexique obtient son indépendance en 1821. Le 16 septembre est la fête nationale."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Grito_de_Dolores"
+}

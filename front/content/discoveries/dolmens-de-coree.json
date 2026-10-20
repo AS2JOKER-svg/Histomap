@@ -1,0 +1,20 @@
+{
+  "id": "dolmens-de-coree",
+  "nom": "Dolmens de Corée",
+  "annee": -1000,
+  "domaine": "Archéologie",
+  "dates": "Ier millénaire av. J.-C.",
+  "description": "Des tombes faites de grandes dalles de pierre, posées sur des pierres dressées : la Corée en compte plusieurs dizaines de milliers, une grande partie des dolmens du monde.",
+  "sections": [
+    {
+      "titre": "Comment ils étaient faits",
+      "texte": "Une lourde dalle, parfois de plusieurs dizaines de tonnes, est posée sur des pierres dressées (type « table ») ou directement sur de petites pierres au-dessus d’une fosse (type « damier »)."
+    },
+    {
+      "titre": "Ce qu’ils nous apprennent",
+      "texte": "Leur construction demandait de mobiliser beaucoup de monde : ils montrent l’apparition de chefs puissants à l’âge du bronze."
+    }
+  ],
+  "aSavoir": ["Les sites de Gochang, Hwasun et Ganghwa sont inscrits au patrimoine mondial depuis 2000."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Dolmen"
+}

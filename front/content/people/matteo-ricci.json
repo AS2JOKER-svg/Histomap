@@ -1,0 +1,17 @@
+{
+  "id": "matteo-ricci",
+  "nom": "Matteo Ricci",
+  "role": "Missionnaire jésuite",
+  "roles": ["Missionnaire", "Savant"],
+  "dates": "1552 → 1610",
+  "naissance": 1552,
+  "mort": 1610,
+  "description": "Jésuite italien qui vit près de trente ans en Chine, apprend la langue et les classiques, et fait connaître aux lettrés chinois la géométrie, l’astronomie et la cartographie européennes.",
+  "essentiel": [
+    "Il adopte l’habit des lettrés confucéens pour être accepté.",
+    "Il dessine une carte du monde en chinois (1602).",
+    "Il traduit en chinois les Éléments d’Euclide avec le lettré Xu Guangqi.",
+    "Il est le premier Européen enterré à Pékin, avec l’autorisation de l’empereur."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Matteo_Ricci"
+}

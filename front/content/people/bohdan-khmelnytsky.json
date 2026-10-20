@@ -1,0 +1,20 @@
+{
+  "id": "bohdan-khmelnytsky",
+  "nom": "Bohdan Khmelnytsky",
+  "role": "Hetman des Cosaques",
+  "roles": ["Hetman", "Chef de guerre"],
+  "dates": "vers 1595 → 1657",
+  "naissance": 1595,
+  "mort": 1657,
+  "description": "Officier cosaque, il prend en 1648 la tête d’un immense soulèvement contre la Pologne-Lituanie et fonde l’Hetmanat.",
+  "reperes": [{ "label": "Hetman", "valeur": "1648 → 1657" }],
+  "essentiel": [
+    "Allié au khan de Crimée, il bat les armées polonaises en 1648.",
+    "Il place l’Hetmanat sous la protection du tsar à [[accord-de-pereiaslav|Pereïaslav]] (1654).",
+    "Son soulèvement s’accompagne de massacres de nobles, de prêtres catholiques et de très nombreux Juifs."
+  ],
+  "aSavoir": [
+    "Il est vu comme un héros national en Ukraine ; dans la mémoire juive, son nom reste associé aux massacres de 1648-1649."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bohdan_Khmelnytsky"
+}

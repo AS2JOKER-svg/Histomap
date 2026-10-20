@@ -1,0 +1,18 @@
+{
+  "id": "staline",
+  "nom": "Joseph Staline",
+  "role": "Dictateur soviétique",
+  "roles": ["Secrétaire général du Parti", "Dictateur"],
+  "dates": "1878 → 1953",
+  "naissance": 1878,
+  "mort": 1953,
+  "description": "Successeur de Lénine, il gouverne l’URSS en dictateur pendant près de trente ans : industrialisation forcée, famines, terreur de masse, puis victoire contre l’Allemagne nazie.",
+  "reperes": [{ "label": "Au pouvoir", "valeur": "vers 1924 → 1953" }],
+  "essentiel": [
+    "Il élimine ses rivaux, dont Trotski, assassiné en 1940.",
+    "La collectivisation forcée des terres provoque de terribles famines (1932-1933).",
+    "Lors de la Grande Terreur (1937-1938), environ 700 000 personnes sont exécutées.",
+    "Allié d’Hitler en 1939, il est attaqué par lui en 1941 et mène l’URSS à la victoire."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Joseph_Staline"
+}

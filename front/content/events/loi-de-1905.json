@@ -1,0 +1,16 @@
+{
+  "id": "loi-de-1905",
+  "nom": "Loi de séparation des Églises et de l’État",
+  "annee": 1905,
+  "dates": "9 décembre 1905",
+  "lieu": "Paris",
+  "description": "La loi garantit la liberté de conscience et le libre exercice des cultes, et affirme que l’État ne reconnaît, ne salarie et ne subventionne aucun culte.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "Elle fonde la laïcité française. D’abord vivement combattue par l’Église catholique, elle est aujourd’hui un principe de la République."
+    }
+  ],
+  "aSavoir": ["Elle ne s’applique pas en Alsace et en Moselle, qui étaient allemandes en 1905."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Loi_de_s%C3%A9paration_des_%C3%89glises_et_de_l%27%C3%89tat"
+}

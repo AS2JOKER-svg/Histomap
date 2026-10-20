@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Accueil · Maquettes HistoMap</title>
+<link rel="stylesheet" href="assets/maquette.css">
+<style>
+  .logo { width: 36px; height: 36px; border-radius: 12px; display: grid; place-items: center; color: #fff; font-family: Fraunces, Georgia, serif; font-weight: 700; font-size: 18px; background-image: linear-gradient(135deg, rgb(var(--c-accent)), rgb(var(--c-accent-2))); }
+  .searchbox { display: flex; align-items: center; gap: 10px; height: 50px; padding: 0 14px; border-radius: 16px; background: rgb(var(--c-surface)); border: 1px solid rgb(var(--c-line)); color: rgb(var(--c-muted)); box-shadow: var(--shadow-soft); }
+  .resume { position: relative; overflow: hidden; padding: 18px; border-radius: 22px; color: #fff; background: linear-gradient(140deg, #8e44ad, #5b2c6f); box-shadow: var(--shadow-lift); }
+  .resume .progress { height: 6px; border-radius: 6px; background: rgba(255,255,255,.25); margin-top: 14px; overflow: hidden; }
+  .resume .progress span { display: block; height: 100%; width: 43%; background: #fff; border-radius: 6px; }
+  .door { display: flex; align-items: center; gap: 14px; padding: 14px; }
+  .door .pic { width: 52px; height: 52px; border-radius: 16px; display: grid; place-items: center; flex: none; }
+  .stat { text-align: center; padding: 12px 6px; }
+  .stat b { display: block; font-family: Fraunces, Georgia, serif; font-size: 24px; }
+  .stat span { font-size: 12px; color: rgb(var(--c-muted)); }
+</style>
+</head>
+<body>
+<main class="stage">
+  <div class="phone">
+    <div class="statusbar"><span>9:41</span><span class="dots">●●● ▮</span></div>
+
+    <div class="screen">
+      <div class="pad" style="display:flex;align-items:center;justify-content:space-between;padding-top:10px">
+        <div style="display:flex;align-items:center;gap:10px"><span class="logo">H</span><span class="display" style="font-size:20px;font-weight:600">HistoMap</span></div>
+        <span class="chip" style="color:rgb(var(--c-warning))"><svg data-i="flame" class="xs"></svg> 4 jours</span>
+      </div>
+
+      <div class="pad" style="margin-top:18px">
+        <h1 class="display" style="font-size:28px;font-weight:600;line-height:1.15">Bon retour !</h1>
+        <p class="muted" style="margin-top:4px">Vous en étiez à Rome antique.</p>
+      </div>
+
+      <!-- Action principale : reprendre -->
+      <div class="pad" style="margin-top:16px">
+        <a class="resume" href="05-fiche-civilisation.html" style="display:block">
+          <span style="font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;opacity:.85">Reprendre · Chapitre</span>
+          <span class="display" style="display:block;font-size:26px;font-weight:600;margin-top:4px">Rome antique</span>
+          <span style="opacity:.9;font-size:14px">Carte 6 sur 14 · environ 4 min restantes</span>
+          <div class="progress"><span></span></div>
+          <span class="btn" style="margin-top:16px;width:100%;background:#fff;color:#2b1636">Continuer <svg data-i="arrowRight" class="sm"></svg></span>
+        </a>
+      </div>
+
+      <div class="pad" style="margin-top:14px">
+        <a class="searchbox" href="03-recherche.html"><svg data-i="search"></svg> Une civilisation, un personnage, une guerre…</a>
+      </div>
+
+      <div class="section">
+        <p class="eyebrow" style="margin-bottom:10px">Par où continuer ?</p>
+        <div class="card">
+          <a class="door row" href="04-frise.html"><span class="pic" style="background:rgb(var(--c-accent) / .12);color:rgb(var(--c-accent))"><svg data-i="timeline"></svg></span><div class="grow"><div class="t">Frise</div><div class="s">Toutes les civilisations, de la Préhistoire à nos jours</div></div><svg data-i="chevronRight" class="chev"></svg></a>
+          <a class="door row" href="04b-carte.html"><span class="pic" style="background:rgb(var(--c-accent-2) / .12);color:rgb(var(--c-accent-2))"><svg data-i="globe"></svg></span><div class="grow"><div class="t">Carte</div><div class="s">Le monde à n'importe quelle date</div></div><svg data-i="chevronRight" class="chev"></svg></a>
+          <a class="door row" href="09-guerres.html"><span class="pic" style="background:rgb(var(--c-danger) / .1);color:rgb(var(--c-danger))"><svg data-i="swords"></svg></span><div class="grow"><div class="t">Guerres</div><div class="s">Les grands conflits, phase par phase</div></div><svg data-i="chevronRight" class="chev"></svg></a>
+          <a class="door row" href="10-reviser.html"><span class="pic" style="background:rgb(var(--c-success) / .12);color:rgb(var(--c-success))"><svg data-i="cards"></svg></span><div class="grow"><div class="t">Réviser</div><div class="s">Cartes à faire glisser et quiz sur 20</div></div><svg data-i="chevronRight" class="chev"></svg></a>
+        </div>
+      </div>
+
+      <div class="section">
+        <p class="eyebrow" style="margin-bottom:10px">Ma progression</p>
+        <div class="card" style="display:grid;grid-template-columns:repeat(3,1fr)">
+          <div class="stat"><b>12</b><span>fiches lues<br>sur 105</span></div>
+          <div class="stat" style="border-left:1px solid rgb(var(--c-line));border-right:1px solid rgb(var(--c-line))"><b>3</b><span>chapitres<br>validés</span></div>
+          <div class="stat"><b>4</b><span>jours<br>d'affilée</span></div>
+        </div>
+      </div>
+      <div class="footer-space"></div>
+    </div>
+
+    <nav class="tabbar" aria-label="Navigation principale">
+      <a href="02-accueil.html" aria-current="page"><svg data-i="home"></svg>Accueil</a>
+      <a href="04-frise.html"><svg data-i="timeline"></svg>Frise</a>
+      <a href="04b-carte.html"><svg data-i="globe"></svg>Carte</a>
+      <a href="09-guerres.html"><svg data-i="swords"></svg>Guerres</a>
+      <a href="10-reviser.html"><svg data-i="cards"></svg>Réviser</a>
+    </nav>
+  </div>
+
+  <aside class="notes">
+    <a class="back" href="index.html"><svg data-i="arrowLeft" class="sm"></svg> Toutes les maquettes</a>
+    <p class="eyebrow">Maquette 02</p>
+    <h1>Accueil</h1>
+    <p>Le point de départ de chaque visite. Il répond à une seule question : <b>« qu'est-ce que je fais maintenant ? »</b></p>
+    <h2>Pourquoi ces choix</h2>
+    <ul>
+      <li><b>Un gros bouton « Continuer »</b>, en tête et à la couleur de la civilisation en cours : c'est l'action principale. Il reprend exactement là où on s'était arrêté (chapitre, quiz ou fiche), comme aujourd'hui.</li>
+      <li><b>La recherche juste dessous</b> : pour celui qui sait déjà ce qu'il veut (« Napoléon »).</li>
+      <li><b>4 portes</b> pour les 4 autres onglets, avec une phrase qui dit ce qu'on y trouve. Utile au début ; l'utilisateur régulier passe par la barre du bas.</li>
+      <li><b>Progression en 3 chiffres</b>, sans graphique : fiches lues, chapitres validés, série de jours (l'indicateur qui fait revenir chaque jour).</li>
+      <li><b>Premier lancement</b> : sans historique, la carte « Continuer » devient « Commencer par… » avec un chapitre conseillé (par exemple l'Égypte antique).</li>
+    </ul>
+    <h2>Ce qui disparaît</h2>
+    <p>La fenêtre de bienvenue actuelle (avec son message personnel) est remplacée par l'accueil en 3 écrans (maquette 01). Le texte personnel ne doit pas partir dans la version Play Store.</p>
+    <div class="tools"><button class="btn btn-secondary" data-theme-toggle><svg data-i="moon" class="sm"></svg> Thème</button></div>
+  </aside>
+</main>
+<script src="assets/maquette.js"></script>
+</body>
+</html>

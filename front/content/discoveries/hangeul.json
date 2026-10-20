@@ -1,0 +1,20 @@
+{
+  "id": "hangeul",
+  "nom": "Hangeul",
+  "annee": 1443,
+  "domaine": "Écriture",
+  "dates": "créé en 1443, promulgué en 1446",
+  "description": "L’alphabet coréen, créé à la demande du roi [[sejong|Sejong]] : 28 lettres à l’origine (24 aujourd’hui), si simples qu’on peut, dit-on, les apprendre en une matinée.",
+  "sections": [
+    {
+      "titre": "Comment ça marche",
+      "texte": "La forme des consonnes rappelle la position de la bouche, de la langue ou de la gorge quand on les prononce. Les lettres se regroupent en blocs qui forment des syllabes."
+    },
+    {
+      "titre": "Son histoire",
+      "texte": "Méprisé par les lettrés, attachés aux caractères chinois, il est surtout utilisé par les femmes et le peuple, avant de devenir l’écriture officielle de la Corée au XXe siècle."
+    }
+  ],
+  "liens": [{ "ref": "sejong", "relation": "Le roi qui le fait créer" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Hangeul"
+}

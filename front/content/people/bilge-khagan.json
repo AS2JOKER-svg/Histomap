@@ -1,0 +1,18 @@
+{
+  "id": "bilge-khagan",
+  "nom": "Bilge Khagan",
+  "role": "Khagan des Turcs",
+  "roles": ["Khagan"],
+  "dates": "683 → 734",
+  "naissance": 683,
+  "mort": 734,
+  "description": "Souverain du second khaganat turc, connu par les inscriptions de l’Orkhon où il s’adresse directement à son peuple.",
+  "reperes": [{ "label": "Règne", "valeur": "716 → 734" }],
+  "essentiel": [
+    "Il gouverne avec l’aide de son frère Kül Tegin et du vieux conseiller [[tonyukuk|Tonyukuk]].",
+    "Il fait la paix avec la Chine des Tang et développe le commerce.",
+    "Il meurt empoisonné en 734."
+  ],
+  "liens": [{ "ref": "tonyukuk", "relation": "Son conseiller" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bilge_Kaghan"
+}

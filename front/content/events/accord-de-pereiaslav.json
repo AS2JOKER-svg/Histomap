@@ -1,0 +1,21 @@
+{
+  "id": "accord-de-pereiaslav",
+  "nom": "Accord de Pereïaslav",
+  "annee": 1654,
+  "dates": "janvier 1654",
+  "lieu": "Pereïaslav (Ukraine)",
+  "description": "L’assemblée des Cosaques réunie par [[bohdan-khmelnytsky|Khmelnytsky]] prête serment au tsar Alexis de Russie, qui prend l’Hetmanat sous sa protection.",
+  "sections": [
+    {
+      "titre": "Une interprétation disputée",
+      "texte": "Pour les Cosaques, c’est une alliance qui préserve leur autonomie ; pour Moscou, c’est une soumission. Le sens de l’accord reste discuté par les historiens ukrainiens et russes."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Il déclenche une guerre entre la Russie et la Pologne, qui se termine par le partage de l’Ukraine le long du Dniepr (1667)."
+    }
+  ],
+  "liens": [{ "ref": "bohdan-khmelnytsky", "relation": "L’hetman" }],
+  "avant": "soulevement-de-khmelnytsky",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Trait%C3%A9_de_Pere%C3%AFaslav"
+}

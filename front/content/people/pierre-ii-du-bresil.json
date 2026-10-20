@@ -1,0 +1,19 @@
+{
+  "id": "pierre-ii-du-bresil",
+  "nom": "Pierre II du Brésil",
+  "nomComplet": "Pedro II",
+  "role": "Empereur du Brésil",
+  "roles": ["Empereur"],
+  "dates": "1825 → 1891",
+  "naissance": 1825,
+  "mort": 1891,
+  "description": "Empereur à cinq ans, il règne près de cinquante ans ; souverain cultivé et libéral, il est renversé par l’armée en 1889 et meurt en exil à Paris.",
+  "reperes": [{ "label": "Règne", "valeur": "1831 → 1889", "precision": "avec une régence jusqu’en 1840" }],
+  "essentiel": [
+    "Passionné de sciences, il correspond avec Victor Hugo et Pasteur.",
+    "Son règne apporte une longue stabilité politique.",
+    "Sa fille Isabel signe la [[lei-aurea|loi d’Or]] en 1888.",
+    "Renversé en 1889, il part en exil sans résister."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Pierre_II_(empereur_du_Br%C3%A9sil)"
+}

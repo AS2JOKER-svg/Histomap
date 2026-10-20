@@ -1,0 +1,23 @@
+{
+  "id": "invasions-mongoles-du-japon",
+  "nom": "Invasions mongoles du Japon",
+  "annee": 1274,
+  "fin": 1281,
+  "dates": "1274 et 1281",
+  "lieu": "Baie de Hakata (Kyushu, Japon)",
+  "description": "[[kubilai-khan|Kubilaï Khan]] envoie deux flottes contre le Japon. Les deux fois, les samouraïs résistent et une tempête détruit la flotte d’invasion.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "En 1274, les envahisseurs débarquent mais rembarquent vite, et leurs navires sont pris dans une tempête. En 1281, une flotte bien plus grande est arrêtée par un mur de défense, puis anéantie par un typhon."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Les Japonais voient dans ces typhons des « vents divins » (kamikaze). Les dépenses de la défense affaiblissent le shogunat de Kamakura."
+    }
+  ],
+  "liens": [{ "ref": "kubilai-khan", "relation": "L’empereur qui envoie les flottes" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Invasions_mongoles_du_Japon",
+  "avant": "guerre-de-genpei",
+  "apres": "guerre-d-onin"
+}

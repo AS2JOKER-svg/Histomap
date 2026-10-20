@@ -1,0 +1,24 @@
+{
+  "id": "exil-a-babylone",
+  "nom": "Exil à Babylone",
+  "annee": -587,
+  "fin": -538,
+  "dates": "−587 → −538",
+  "lieu": "Jérusalem et Babylone",
+  "description": "Après la prise de Jérusalem par [[nabuchodonosor-ii|Nabuchodonosor II]] et la destruction du Temple, une partie de la population de Juda est déportée à Babylone. Elle peut rentrer après la [[prise-de-babylone|conquête perse]].",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Une première déportation a lieu en −597, la principale en −587, après la révolte du roi Sédécias. Les exilés s’installent en Babylonie, où ils gardent leur culte."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Loin du Temple, la communauté se rassemble autour de la Loi et des textes ; une grande partie de la Bible prend alors forme. Beaucoup d’exilés restent en Babylonie, où se développera une grande communauté juive."
+    }
+  ],
+  "liens": [
+    { "ref": "nabuchodonosor-ii", "relation": "Le roi qui prend Jérusalem" },
+    { "ref": "cyrus-le-grand", "relation": "Le roi qui autorise le retour" }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Exil_%C3%A0_Babylone"
+}

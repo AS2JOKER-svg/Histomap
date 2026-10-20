@@ -1,0 +1,20 @@
+{
+  "id": "chute-de-ninive",
+  "nom": "Chute de Ninive",
+  "annee": -612,
+  "dates": "−612",
+  "lieu": "Ninive, près de Mossoul (Irak)",
+  "description": "Les Babyloniens de Nabopolassar et les Mèdes de Cyaxare prennent et détruisent Ninive, la capitale de l’Empire assyrien.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Après un siège de près de trois mois, la ville est prise et incendiée. Le roi Sîn-shar-ishkun meurt pendant la prise de la ville."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "L’Empire assyrien disparaît en quelques années ; Babylone et les Mèdes se partagent ses terres."
+    }
+  ],
+  "apres": "prise-de-babylone",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Ninive"
+}

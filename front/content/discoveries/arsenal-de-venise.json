@@ -1,0 +1,22 @@
+{
+  "id": "arsenal-de-venise",
+  "nom": "Arsenal de Venise",
+  "annee": 1104,
+  "domaine": "Technique",
+  "dates": "fondé vers 1104",
+  "description": "L’immense chantier naval de la république de Venise, entouré de murailles : des milliers d’ouvriers y construisent et entretiennent les galères de la flotte.",
+  "sections": [
+    {
+      "titre": "Comment il fonctionnait",
+      "texte": "Les coques, les rames, les voiles et les cordages sont préparés à l’avance par des ateliers spécialisés, puis assemblés par étapes, ce qui permet d’armer rapidement une flotte entière."
+    },
+    {
+      "titre": "Une ville dans la ville",
+      "texte": "Au XVIe siècle, il emploie jusqu’à 16 000 ouvriers, les arsenalotti. Selon une anecdote de 1574, une galère y aurait été assemblée en une journée."
+    }
+  ],
+  "aSavoir": [
+    "Dante le décrit dans La Divine Comédie, comparant les ouvriers qui chauffent la poix aux damnés de l’enfer."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Arsenal_de_Venise"
+}

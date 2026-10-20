@@ -1,0 +1,20 @@
+{
+  "id": "borobudur",
+  "nom": "Borobudur",
+  "annee": 825,
+  "domaine": "Architecture et religion",
+  "dates": "vers 780 → 825",
+  "description": "Un immense monument bouddhiste à Java, bâti par la dynastie Sailendra : une montagne de pierre à neuf terrasses, couverte de 2 672 bas-reliefs et de 504 statues du Bouddha.",
+  "sections": [
+    {
+      "titre": "Ce qu’il représente",
+      "texte": "Le pèlerin monte en tournant autour du monument, des terrasses décorées de scènes de la vie terrestre jusqu’au sommet dépouillé, image de l’éveil."
+    },
+    {
+      "titre": "Son histoire",
+      "texte": "Abandonné, recouvert de cendres volcaniques et de végétation, il est dégagé au XIXe siècle et restauré au XXe siècle avec l’aide de l’UNESCO."
+    }
+  ],
+  "aSavoir": ["C’est le plus grand monument bouddhiste du monde."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Borobudur"
+}

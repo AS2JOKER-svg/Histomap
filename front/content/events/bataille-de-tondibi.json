@@ -1,0 +1,19 @@
+{
+  "id": "bataille-de-tondibi",
+  "nom": "Bataille de Tondibi",
+  "annee": 1591,
+  "dates": "13 mars 1591",
+  "lieu": "Tondibi, près de Gao (Mali)",
+  "description": "L’armée marocaine de Djouder Pacha, environ 4 000 hommes armés d’arquebuses et de canons, traverse le Sahara et met en déroute l’armée songhaï, bien plus nombreuse.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Les Songhaï lancent un troupeau de bœufs contre les Marocains, mais les détonations les font fuir en sens inverse. Les armes à feu l’emportent sur la cavalerie et les archers."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Gao et Tombouctou sont occupées. L’empire se fragmente, et les Marocains ne contrôlent durablement que les villes du Niger."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Tondibi"
+}

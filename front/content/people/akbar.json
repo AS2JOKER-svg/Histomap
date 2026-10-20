@@ -1,0 +1,19 @@
+{
+  "id": "akbar",
+  "nom": "Akbar",
+  "nomComplet": "Jalal ud-Din Muhammad Akbar",
+  "role": "Empereur moghol",
+  "roles": ["Empereur"],
+  "dates": "1542 → 1605",
+  "naissance": 1542,
+  "mort": 1605,
+  "description": "Empereur à 13 ans, il unifie le nord de l’Inde, organise l’administration et pratique une politique de tolérance envers les hindous et les autres religions.",
+  "reperes": [{ "label": "Règne", "valeur": "1556 → 1605" }],
+  "essentiel": [
+    "Il ne sait probablement ni lire ni écrire, mais se fait lire des milliers de livres.",
+    "Il s’allie aux princes rajputs, dont il épouse des filles.",
+    "Il supprime l’impôt sur les non-musulmans et organise des débats entre religions.",
+    "Il fait bâtir la ville de Fatehpur Sikri."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Akbar"
+}

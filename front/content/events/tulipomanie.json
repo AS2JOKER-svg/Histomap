@@ -1,0 +1,19 @@
+{
+  "id": "tulipomanie",
+  "nom": "Tulipomanie",
+  "annee": 1637,
+  "dates": "1634 → février 1637",
+  "lieu": "Provinces-Unies",
+  "description": "Le prix des bulbes de tulipes rares s’envole, certains se vendant le prix d’une maison, puis s’effondre brutalement en février 1637.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Les tulipes aux couleurs rares, en fait atteintes d’un virus, sont très recherchées. On achète et revend des bulbes encore en terre, sur promesse, dans les auberges."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "L’effondrement ruine certains acheteurs, mais les historiens pensent aujourd’hui que les dégâts sur l’économie ont été beaucoup moins graves que la légende ne le dit."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Tulipomanie"
+}

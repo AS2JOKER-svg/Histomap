@@ -1,0 +1,19 @@
+{
+  "id": "william-shakespeare",
+  "nom": "William Shakespeare",
+  "role": "Dramaturge et poète",
+  "roles": ["Dramaturge", "Poète", "Comédien"],
+  "dates": "1564 → 1616",
+  "naissance": 1564,
+  "mort": 1616,
+  "description": "Auteur de près de 40 pièces de théâtre, tragédies, comédies et drames historiques, il est considéré comme le plus grand écrivain de langue anglaise.",
+  "essentiel": [
+    "Né à Stratford-upon-Avon, il fait carrière à Londres comme acteur et auteur.",
+    "Ses pièces sont jouées au théâtre du Globe : Hamlet, Roméo et Juliette, Macbeth, Le Roi Lear…",
+    "Il invente ou popularise des centaines de mots et d’expressions anglaises."
+  ],
+  "aSavoir": [
+    "On sait peu de choses sur sa vie, ce qui a nourri des théories, sans fondement sérieux, selon lesquelles quelqu’un d’autre aurait écrit ses pièces."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/William_Shakespeare"
+}

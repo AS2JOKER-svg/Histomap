@@ -1,0 +1,19 @@
+{
+  "id": "askia-mohammed",
+  "nom": "Askia Mohammed",
+  "nomComplet": "Mohammed Touré, Askia Mohammed Ier",
+  "role": "Empereur songhaï",
+  "roles": ["Askia", "Pèlerin"],
+  "dates": "vers 1443 → 1538",
+  "naissance": 1443,
+  "mort": 1538,
+  "description": "Général de Sonni Ali, il prend le pouvoir en 1493, fonde la dynastie des Askia et fait du Songhaï un empire organisé, appuyé sur l’islam et les lettrés.",
+  "reperes": [{ "label": "Règne", "valeur": "1493 → 1528" }],
+  "essentiel": [
+    "Il bat le fils de Sonni Ali en 1493 et prend le titre d’askia.",
+    "Son pèlerinage à La Mecque (1496-1497) lui vaut le titre de « calife » pour l’Afrique de l’Ouest.",
+    "Il conquiert de nombreux territoires et organise l’administration.",
+    "Âgé et aveugle, il est déposé par son fils en 1528."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Askia_Mohammed"
+}

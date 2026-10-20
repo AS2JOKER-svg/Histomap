@@ -1,0 +1,18 @@
+{
+  "id": "abd-al-rahman-iii",
+  "nom": "Abd al-Rahman III",
+  "role": "Calife de Cordoue",
+  "roles": ["Émir", "Calife"],
+  "dates": "889 → 961",
+  "naissance": 889,
+  "mort": 961,
+  "description": "Émir de Cordoue qui réunifie al-Andalus, se proclame calife en 929 et fait de Cordoue l’une des plus brillantes capitales du monde.",
+  "reperes": [{ "label": "Règne", "valeur": "912 → 961" }, { "label": "Calife", "valeur": "à partir de 929" }],
+  "essentiel": [
+    "Il soumet les révoltes qui divisaient l’émirat.",
+    "En se proclamant calife, il rivalise avec les califes abbassides de Bagdad et fatimides du Caire.",
+    "Il fait bâtir près de Cordoue la ville-palais de Madinat al-Zahra.",
+    "Il reçoit des ambassades de Byzance et du Saint-Empire."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Abd_al-Rahman_III"
+}

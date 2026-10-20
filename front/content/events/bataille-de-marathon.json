@@ -1,0 +1,23 @@
+{
+  "id": "bataille-de-marathon",
+  "nom": "Bataille de Marathon",
+  "annee": -490,
+  "dates": "−490",
+  "lieu": "Plaine de Marathon, en Attique",
+  "description": "Les hoplites d’Athènes et de Platées repoussent l’armée perse débarquée en Attique : la première grande victoire des Grecs contre l’Empire perse.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Les Grecs, moins nombreux, chargent les Perses et les encerclent grâce à leurs ailes renforcées. Selon Hérodote, 192 Athéniens et environ 6 400 Perses sont tués."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "La victoire donne confiance aux Athéniens et à leur jeune démocratie. Dix ans plus tard, les Perses reviennent avec une armée bien plus grande."
+    }
+  ],
+  "apres": "bataille-des-thermopyles",
+  "aSavoir": [
+    "L’épreuve du marathon s’inspire de la légende d’un messager qui aurait couru jusqu’à Athènes annoncer la victoire avant de mourir ; ce récit est tardif."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Marathon"
+}

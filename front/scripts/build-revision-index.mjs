@@ -4,26 +4,26 @@
 //     temps de lecture), pour afficher les listes sans charger les chapitres eux-mêmes.
 // Ajouter un chapitre = créer src/data/revision/<id>.js : il est pris en compte ici.
 // Usage : node scripts/build-revision-index.mjs  (lancé par `npm run data` et avant le build)
-import { readFileSync, readdirSync, writeFileSync } from 'fs'
-import { fileURLToPath, pathToFileURL } from 'url'
-import { dirname, join } from 'path'
+import { readdirSync, writeFileSync } from 'fs'
+import { pathToFileURL } from 'url'
+import { join } from 'path'
+import { PATHS, assemble, loadContent } from './lib/content.mjs'
 
-const __dirname = dirname(fileURLToPath(import.meta.url))
-const DATA = join(__dirname, '..', 'src', 'data')
+const DATA = PATHS.data
 const DIR = join(DATA, 'revision')
 
-const epochs = JSON.parse(readFileSync(join(DATA, 'epochs.json'), 'utf-8'))
+// Ordre d'affichage des civilisations (content/epochs.json)
 const order = []
 const epochOf = {}
-for (const e of epochs) for (const ct of e.continents) for (const c of ct.civilizations) {
-  order.push(c.id)
-  epochOf[c.id] = e.label
+for (const { epoch, civ } of assemble(loadContent()).byId.values()) {
+  order.push(civ.id)
+  epochOf[civ.id] = epoch.label
 }
 
 const ids = readdirSync(DIR).filter((f) => f.endsWith('.js') && f !== 'index.js').map((f) => f.slice(0, -3))
 const unknown = ids.filter((id) => !order.includes(id))
 if (unknown.length) {
-  console.error(`❌ Chapitre(s) sans civilisation dans epochs.json : ${unknown.join(', ')}`)
+  console.error(`❌ Chapitre(s) sans civilisation dans content/ : ${unknown.join(', ')}`)
   process.exit(1)
 }
 ids.sort((a, b) => order.indexOf(a) - order.indexOf(b))

@@ -1,0 +1,17 @@
+{
+  "id": "longue-marche",
+  "nom": "Longue Marche",
+  "annee": 1934,
+  "fin": 1935,
+  "dates": "octobre 1934 → octobre 1935",
+  "lieu": "De la Chine du Sud-Est au Shaanxi",
+  "description": "Encerclées par les nationalistes, les armées communistes parcourent environ 10 000 km pour rejoindre le nord-ouest du pays ; [[mao-zedong|Mao]] en prend la direction.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "Moins d’un marcheur sur dix arrive au bout. La Longue Marche devient un mythe fondateur du communisme chinois."
+    }
+  ],
+  "liens": [{ "ref": "mao-zedong", "relation": "Il prend la tête du parti" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Longue_Marche"
+}

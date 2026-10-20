@@ -1,0 +1,23 @@
+{
+  "id": "premiers-jeux-olympiques",
+  "nom": "Premiers Jeux olympiques",
+  "annee": -776,
+  "dates": "−776 (date traditionnelle)",
+  "lieu": "Olympie, dans le Péloponnèse",
+  "description": "Selon la tradition, les premiers Jeux en l’honneur de Zeus ont lieu à Olympie en −776. Ils sont ensuite organisés tous les quatre ans pendant plus de mille ans.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Au début, il n’y a qu’une épreuve : une course à pied d’un stade (environ 192 mètres). S’ajoutent ensuite la lutte, la boxe, le pentathlon et les courses de chars."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Pendant les Jeux, une trêve sacrée permet aux athlètes et aux spectateurs de voyager en sécurité. Les Grecs comptent les années par olympiades, périodes de quatre ans."
+    }
+  ],
+  "aSavoir": [
+    "Seuls les hommes libres grecs pouvaient concourir ; les femmes mariées n’avaient pas le droit d’y assister.",
+    "Les Jeux antiques disparaissent à la fin du IVe siècle, sous l’empereur chrétien Théodose."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Jeux_olympiques_antiques"
+}

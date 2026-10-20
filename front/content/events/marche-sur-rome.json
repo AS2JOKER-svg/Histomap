@@ -1,0 +1,16 @@
+{
+  "id": "marche-sur-rome",
+  "nom": "Marche sur Rome",
+  "annee": 1922,
+  "dates": "28 octobre 1922",
+  "lieu": "Rome",
+  "description": "Les milices fascistes de [[benito-mussolini|Mussolini]], les « Chemises noires », marchent sur Rome ; plutôt que de les arrêter, le roi nomme Mussolini chef du gouvernement.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "Mussolini installe progressivement une dictature : interdiction des partis et des syndicats, censure, police politique (1925-1926)."
+    }
+  ],
+  "liens": [{ "ref": "benito-mussolini", "relation": "Le chef fasciste" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Marche_sur_Rome"
+}

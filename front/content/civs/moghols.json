@@ -1,0 +1,277 @@
+{
+  "id": "moghols",
+  "label": "Empire moghol",
+  "tier": 1,
+  "region": "asie-sud",
+  "period": "1526 à 1789",
+  "start": 1526,
+  "end": 1789,
+  "trackId": "inde",
+  "row": 2,
+  "isRiver": false,
+  "capitale": "Delhi / Agra / Lahore",
+  "description": "L’empire fondé en Inde par Babur, descendant de Tamerlan et de Gengis Khan : une dynastie musulmane qui gouverne une population majoritairement hindoue et laisse des chefs-d’œuvre comme le Taj Mahal.",
+  "territories": ["Mughal Empire"],
+  "datesCles": [
+    {
+      "annee": 1526,
+      "evenement": "Bataille de Panipat",
+      "info": "Babur, descendant de Gengis Khan et de Tamerlan, bat le sultan de Delhi grâce à ses canons.",
+      "ref": "premiere-bataille-de-panipat"
+    },
+    {
+      "annee": 1556,
+      "evenement": "L’âge d’or",
+      "info": "Début du long règne d’Akbar, qui unifie le nord de l’Inde."
+    },
+    {
+      "annee": 1564,
+      "evenement": "Abolition de la jizya",
+      "info": "Akbar supprime l’impôt payé par les non-musulmans."
+    },
+    {
+      "annee": 1653,
+      "evenement": "Achèvement du Taj Mahal",
+      "info": "Chef-d’œuvre commandé par Shah Jahan en mémoire de son épouse Mumtaz Mahal."
+    },
+    {
+      "annee": 1679,
+      "evenement": "Rétablissement de la jizya",
+      "info": "Aurangzeb rétablit l’impôt sur les non-musulmans."
+    },
+    {
+      "annee": 1739,
+      "evenement": "Sac de Delhi",
+      "info": "Le Perse Nader Shah pille la capitale et emporte le Trône du Paon.",
+      "ref": "sac-de-delhi"
+    },
+    {
+      "annee": 1765,
+      "evenement": "Les Britanniques au Bengale",
+      "info": "L’empereur accorde à la Compagnie britannique des Indes orientales le droit de lever les impôts du Bengale."
+    }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Babur",
+      "titre": "Empereur",
+      "debut": 1526,
+      "fin": 1530,
+      "dynastie": "timourides",
+      "personne": "babur",
+      "note": "fondateur ; son nom signifie « tigre »",
+      "cle": true
+    },
+    {
+      "nom": "Humayun",
+      "titre": "Empereur",
+      "debut": 1530,
+      "fin": 1556,
+      "dynastie": "timourides",
+      "note": "en exil de 1540 à 1555"
+    },
+    {
+      "nom": "Sher Shah Suri",
+      "titre": "Sultan (afghan)",
+      "debut": 1540,
+      "fin": 1545,
+      "dynastie": "timourides",
+      "note": "usurpateur, grand administrateur"
+    },
+    {
+      "nom": "Akbar",
+      "titre": "Empereur",
+      "surnom": "le Grand",
+      "debut": 1556,
+      "fin": 1605,
+      "dynastie": "timourides",
+      "personne": "akbar",
+      "cle": true
+    },
+    {
+      "nom": "Jahangir",
+      "titre": "Empereur",
+      "debut": 1605,
+      "fin": 1627,
+      "dynastie": "timourides",
+      "note": "gouverne avec son épouse Nur Jahan",
+      "cle": true
+    },
+    {
+      "nom": "Shah Jahan",
+      "titre": "Empereur",
+      "debut": 1628,
+      "fin": 1658,
+      "dynastie": "timourides",
+      "personne": "shah-jahan",
+      "note": "fait bâtir le Taj Mahal ; emprisonné par son fils",
+      "cle": true
+    },
+    {
+      "nom": "Aurangzeb",
+      "titre": "Empereur",
+      "debut": 1658,
+      "fin": 1707,
+      "dynastie": "timourides",
+      "personne": "aurangzeb",
+      "note": "empire à sa plus grande étendue",
+      "cle": true
+    },
+    { "nom": "Bahadur Shah Ier", "titre": "Empereur", "debut": 1707, "fin": 1712, "dynastie": "timourides" },
+    { "nom": "Farrukhsiyar", "titre": "Empereur", "debut": 1713, "fin": 1719, "dynastie": "timourides" },
+    {
+      "nom": "Muhammad Shah",
+      "titre": "Empereur",
+      "debut": 1719,
+      "fin": 1748,
+      "dynastie": "timourides",
+      "note": "règne du sac de Delhi"
+    },
+    {
+      "nom": "Shah Alam II",
+      "titre": "Empereur",
+      "debut": 1759,
+      "fin": 1806,
+      "dynastie": "timourides",
+      "note": "sous la protection des Marathes puis des Britanniques"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Akbar",
+      "role": "Empereur",
+      "description": "Le plus grand des empereurs moghols, connu pour ses conquêtes et sa tolérance religieuse.",
+      "dates": "1542 → 1605",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Akbar",
+      "ref": "akbar"
+    },
+    {
+      "nom": "Aurangzeb",
+      "role": "Empereur",
+      "description": "Dernier grand empereur moghol, il étend l’empire au maximum ; sa politique religieuse stricte et ses guerres incessantes affaiblissent l’État.",
+      "dates": "1618 → 1707",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Aurangzeb",
+      "ref": "aurangzeb"
+    },
+    {
+      "nom": "Nur Jahan",
+      "role": "Impératrice",
+      "description": "Épouse de Jahangir, elle exerce un grand pouvoir politique : des monnaies sont frappées à son nom.",
+      "dates": "1577 → 1645",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Nur_Jahan"
+    },
+    {
+      "nom": "Shivaji",
+      "role": "Fondateur de l’empire marathe",
+      "description": "Chef marathe qui résiste aux Moghols et fonde un royaume hindou dans l’ouest de l’Inde.",
+      "dates": "1630 → 1680",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Shivaji"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Première bataille de Panipat",
+      "annee": 1526,
+      "adversaires": ["Sultanat de Delhi (Ibrahim Lodi)"],
+      "allies": [],
+      "morts": "Plusieurs milliers",
+      "vainqueur": "Babur",
+      "consequences": "Le sultan de Delhi est tué ; Babur fonde l’empire moghol.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Premi%C3%A8re_bataille_de_Panipat"
+    },
+    {
+      "nom": "Guerres moghols-marathes",
+      "annee": 1680,
+      "adversaires": ["Marathes (après la mort de Shivaji)"],
+      "allies": [],
+      "morts": "Inconnues ; des centaines de milliers de victimes",
+      "vainqueur": "Marathes",
+      "consequences": "Guerre de 1680 à 1707. Aurangzeb passe ses dernières années à combattre les Marathes dans le Dekkan, ce qui épuise le trésor et affaiblit durablement l’empire.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Empire_marathe"
+    }
+  ],
+  "sciences": "L’architecture moghole mêle traditions persanes, islamiques et indiennes : coupoles à bulbe, minarets, jardins géométriques traversés de canaux (chahar bagh), marbre blanc incrusté de pierres précieuses (pietra dura). Les ateliers impériaux produisent miniatures, bijoux et textiles. Akbar fait traduire en persan des épopées hindoues, comme le Mahabharata.",
+  "croyancesText": "Musulman gouvernant une majorité d’hindous, Akbar supprime l’impôt sur les non-musulmans (jizya), épouse des princesses hindoues et organise des débats entre religions, avec des jésuites portugais, des hindous et des jaïns. Il crée même une voie spirituelle personnelle, le Dîn-i-Ilâhî. Aurangzeb rétablit la jizya en 1679, fait détruire certains temples et exécuter le gourou sikh Tegh Bahadur ; l’ampleur de cette politique est discutée par les historiens.",
+  "diplomatie": "L’empire moghol est l’un des « empires de la poudre à canon », avec les Ottomans et les Safavides. Pour gouverner, les empereurs intègrent les princes hindous rajputs dans la noblesse impériale, classée par rang (le système des mansabdars). Au XVIIIe siècle, les Marathes, les Afghans, les Perses et les compagnies européennes profitent de son affaiblissement.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": { "valeur": "Agra, Fatehpur Sikri, Lahore, Delhi", "precision": "Delhi (Shahjahanabad) à partir de 1648" },
+    "regimes": {
+      "valeur": "Empire",
+      "precision": "un empereur (padishah) et une noblesse de fonctionnaires classés par rang (mansabdars)"
+    },
+    "langues": { "valeur": "Persan", "precision": "langue de la cour et de l’administration ; l’ourdou se développe" },
+    "religion": { "valeur": "Islam", "precision": "religion de la dynastie ; la majorité de la population est hindoue" },
+    "apogee": { "valeur": "Vers 1600-1700", "precision": "sous Akbar, Jahangir, Shah Jahan et Aurangzeb" },
+    "population": { "valeur": "Environ 100 à 150 millions", "precision": "vers 1700 (estimation)" },
+    "monnaie": { "valeur": "Roupie d’argent", "precision": "créée par Sher Shah et généralisée par Akbar" },
+    "duree": { "valeur": "Plus de 260 ans dans cette fiche", "precision": "l’empire disparaît en 1857" },
+    "aujourdhui": { "valeur": "Inde, Pakistan, Bangladesh", "precision": "et l’Afghanistan oriental" }
+  },
+  "essentiel": [
+    "En 1526, [[babur|Babur]] bat le sultan de Delhi à la [[premiere-bataille-de-panipat|bataille de Panipat]] grâce à ses canons et fonde l’empire moghol.",
+    "[[akbar|Akbar]] unifie le nord de l’Inde, s’allie aux princes hindous et pratique une large tolérance religieuse.",
+    "[[shah-jahan|Shah Jahan]] fait bâtir le [[taj-mahal|Taj Mahal]] en mémoire de son épouse.",
+    "[[aurangzeb|Aurangzeb]] porte l’empire à sa plus grande étendue, mais ses guerres et sa politique religieuse provoquent des révoltes.",
+    "Après sa mort, l’empire se divise ; le [[sac-de-delhi|sac de Delhi]] par Nader Shah (1739) et l’avancée britannique précipitent son déclin."
+  ],
+  "periodes": [
+    {
+      "nom": "La fondation",
+      "debut": 1526,
+      "fin": 1556,
+      "resume": "Babur fonde l’empire ; son fils Humayun le perd face à l’Afghan Sher Shah, puis le reconquiert peu avant sa mort.",
+      "evenements": [
+        { "annee": 1526, "evenement": "Panipat", "ref": "premiere-bataille-de-panipat" },
+        { "annee": 1540, "evenement": "Humayun chassé par Sher Shah" }
+      ]
+    },
+    {
+      "nom": "L’apogée",
+      "debut": 1556,
+      "fin": 1707,
+      "resume": "Akbar, Jahangir, Shah Jahan et Aurangzeb gouvernent l’un des plus riches empires du monde et bâtissent palais, mosquées et jardins.",
+      "evenements": [
+        { "annee": 1571, "evenement": "Fondation de Fatehpur Sikri" },
+        { "annee": 1653, "evenement": "Taj Mahal" },
+        { "annee": 1689, "evenement": "Conquête du Dekkan" }
+      ]
+    },
+    {
+      "nom": "Le déclin",
+      "debut": 1707,
+      "fin": 1789,
+      "resume": "Les gouverneurs deviennent indépendants, les Marathes dominent le centre de l’Inde et les Britanniques s’emparent du Bengale.",
+      "evenements": [
+        { "annee": 1739, "evenement": "Sac de Delhi", "ref": "sac-de-delhi" },
+        { "annee": 1757, "evenement": "Victoire britannique de Plassey" }
+      ]
+    }
+  ],
+  "dynasties": [{ "id": "timourides", "nom": "Les empereurs moghols", "debut": 1526, "fin": 1806, "note": "Sélection." }],
+  "societe": "Une noblesse d’origines variées (Persans, Turcs, Afghans, Rajputs) entoure l’empereur. La grande majorité des habitants sont des paysans, qui versent une grande part de leurs récoltes en impôt.",
+  "economie": "Agriculture très productive (riz, blé, coton, indigo), textiles de coton exportés dans le monde entier, commerce avec l’Europe ; l’Inde moghole produit une grande part des richesses du monde.",
+  "decouvertes": ["taj-mahal"],
+  "arts": "Taj Mahal, Fort rouge de Delhi, Fatehpur Sikri, jardins de Shalimar, miniatures mogholes, bijoux et tapis.",
+  "quotidien": "Les jardins, avec leurs fontaines, sont au cœur de la vie de cour. Les grandes villes, comme Agra et Delhi, comptent des centaines de milliers d’habitants.",
+  "heritage": [
+    {
+      "titre": "Le Taj Mahal",
+      "texte": "Le monument le plus célèbre de l’Inde attire des millions de visiteurs chaque année."
+    },
+    {
+      "titre": "La langue ourdou",
+      "texte": "Née au contact du persan et des langues de l’Inde du Nord, elle est la langue nationale du Pakistan."
+    }
+  ],
+  "aSavoir": [
+    "Le célèbre diamant Koh-i-Noor, aujourd’hui sur la couronne britannique, a appartenu aux empereurs moghols avant d’être emporté par Nader Shah en 1739."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Empire_moghol",
+    {
+      "titre": "Encyclopædia Britannica — Mughal dynasty",
+      "url": "https://www.britannica.com/topic/Mughal-dynasty"
+    }
+  ]
+}

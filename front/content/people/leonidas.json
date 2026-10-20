@@ -1,0 +1,20 @@
+{
+  "id": "leonidas",
+  "nom": "Léonidas",
+  "nomComplet": "Léonidas Ier",
+  "role": "Roi de Sparte",
+  "roles": ["Roi de Sparte"],
+  "dates": "mort en −480",
+  "mort": -480,
+  "description": "Roi de Sparte qui meurt en −480 au défilé des Thermopyles, où il retarde l’immense armée du roi perse Xerxès avec quelques milliers de Grecs, dont 300 Spartiates.",
+  "essentiel": [
+    "Avec quelques milliers de soldats, il bloque pendant trois jours un passage étroit entre la montagne et la mer.",
+    "Contourné par un sentier de montagne, il renvoie la plupart des alliés et reste avec ses Spartiates, quelques centaines de Thespiens et de Thébains.",
+    "Sa mort devient le symbole du sacrifice pour la patrie."
+  ],
+  "liens": [{ "ref": "bataille-des-thermopyles", "relation": "La bataille où il meurt" }],
+  "aSavoir": [
+    "La réplique « Viens les prendre » (Molon labe), qu’il aurait faite aux Perses qui exigeaient les armes des Grecs, est rapportée par Plutarque, plus de cinq siècles après."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/L%C3%A9onidas_Ier_de_Sparte"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "eruption-de-thera",
+  "nom": "Éruption du volcan de Théra",
+  "annee": -1600,
+  "dates": "XVIIe ou XVIe siècle av. J.-C. (date discutée)",
+  "lieu": "Théra (Santorin), mer Égée",
+  "description": "L’une des plus grandes éruptions volcaniques de l’histoire humaine : elle ensevelit la ville minoenne d’Akrotiri sous les cendres.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Les habitants d’Akrotiri ont eu le temps de fuir : aucun corps n’a été retrouvé. L’éruption a fortement modifié la forme de l’île, dont le centre s’est effondré."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Les cendres et peut-être un tsunami ont touché la Crète. Le rôle de l’éruption dans le déclin minoen, plusieurs décennies plus tard, est débattu."
+    }
+  ],
+  "aSavoir": [
+    "Certains rapprochent cette catastrophe du mythe de l’Atlantide, raconté par Platon ; c’est une hypothèse invérifiable.",
+    "La date exacte de l’éruption fait débat entre archéologues et spécialistes du carbone 14."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/%C3%89ruption_minoenne"
+}

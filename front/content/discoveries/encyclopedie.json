@@ -1,0 +1,20 @@
+{
+  "id": "encyclopedie",
+  "nom": "L’Encyclopédie",
+  "annee": 1751,
+  "domaine": "Savoir",
+  "dates": "1751 → 1772",
+  "description": "Un dictionnaire de 28 volumes, dirigé par Diderot et d’Alembert, qui rassemble les connaissances de l’époque et diffuse les idées des Lumières.",
+  "sections": [
+    {
+      "titre": "Ce qu’elle contient",
+      "texte": "Plus de 70 000 articles et 2 500 planches illustrées décrivent les sciences, les arts et les métiers. Certains articles critiquent discrètement l’Église et l’absolutisme."
+    },
+    {
+      "titre": "Une œuvre combattue",
+      "texte": "Interdite à plusieurs reprises, elle est publiée malgré tout grâce à des protecteurs, dont Mme de Pompadour."
+    }
+  ],
+  "liens": [{ "ref": "voltaire", "relation": "Il y écrit des articles" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Encyclop%C3%A9die_ou_Dictionnaire_raisonn%C3%A9_des_sciences,_des_arts_et_des_m%C3%A9tiers"
+}

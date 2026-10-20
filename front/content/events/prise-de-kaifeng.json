@@ -1,0 +1,21 @@
+{
+  "id": "prise-de-kaifeng",
+  "nom": "Prise de Kaifeng par les Jin",
+  "annee": 1127,
+  "dates": "1127",
+  "lieu": "Kaifeng",
+  "description": "Les Jürchen de la dynastie Jin prennent la capitale des Song et emmènent en captivité l’ancien empereur Huizong et l’empereur Qinzong : c’est la fin des Song du Nord.",
+  "sections": [
+    {
+      "titre": "Contexte",
+      "texte": "Les Song s’étaient alliés aux Jin pour abattre l’empire Liao, au nord. Les Jin se retournent ensuite contre eux."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Un frère de Qinzong, Zhao Gou, devient l’empereur Gaozong et reconstitue l’empire au sud du Yangzi : ce sont les Song du Sud, avec pour capitale Hangzhou."
+    }
+  ],
+  "apres": "bataille-de-yamen",
+  "aSavoir": ["Les Chinois appellent cet épisode l’« incident de Jingkang », du nom de l’ère de règne de l’époque."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Incident_de_Jingkang"
+}

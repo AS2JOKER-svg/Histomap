@@ -1,0 +1,15 @@
+{
+  "id": "sac-de-delhi",
+  "nom": "Sac de Delhi",
+  "annee": 1739,
+  "dates": "mars 1739",
+  "lieu": "Delhi (Inde)",
+  "description": "Le souverain perse Nader Shah bat l’armée moghole, entre dans Delhi, massacre une partie de la population et emporte d’immenses trésors.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "Nader Shah emporte le Trône du Paon et le diamant Koh-i-Noor. Le prestige de l’empereur s’effondre, ce qui encourage les gouverneurs et les compagnies européennes."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Nader_Chah"
+}

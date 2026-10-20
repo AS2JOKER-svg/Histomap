@@ -1,0 +1,17 @@
+{
+  "id": "francisco-pizarro",
+  "nom": "Francisco Pizarro",
+  "role": "Conquistador",
+  "roles": ["Conquistador", "Gouverneur"],
+  "dates": "vers 1478 → 1541",
+  "naissance": 1478,
+  "mort": 1541,
+  "description": "Conquistador espagnol, d’origine modeste et illettré, qui conquiert l’empire inca à partir de 1532 avec une petite troupe et des alliés indigènes.",
+  "essentiel": [
+    "Il participe à plusieurs expéditions vers le sud avant d’atteindre le Pérou.",
+    "Il capture [[atahualpa|Atahualpa]] à Cajamarca en 1532.",
+    "Il fonde Lima en 1535.",
+    "Il est assassiné en 1541 par des partisans d’un conquistador rival."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Francisco_Pizarro"
+}

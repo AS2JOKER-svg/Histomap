@@ -1,0 +1,17 @@
+{
+  "id": "revolution-constitutionnelle-persane",
+  "nom": "Révolution constitutionnelle persane",
+  "annee": 1906,
+  "fin": 1911,
+  "dates": "1905 → 1911",
+  "lieu": "Iran",
+  "description": "Marchands, religieux et intellectuels obtiennent du chah une constitution et un Parlement élu, le Majlis : l’une des premières révolutions démocratiques d’Asie.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "Le Parlement doit lutter contre des chahs hostiles et contre l’intervention russe et britannique. La constitution reste en vigueur, au moins en théorie, jusqu’en 1979."
+    }
+  ],
+  "apres": "coup-d-etat-de-1953",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/R%C3%A9volution_constitutionnelle_persane"
+}

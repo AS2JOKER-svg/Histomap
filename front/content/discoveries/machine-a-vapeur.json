@@ -1,0 +1,20 @@
+{
+  "id": "machine-a-vapeur",
+  "nom": "Machine à vapeur",
+  "annee": 1712,
+  "domaine": "Technique",
+  "dates": "1712 ; perfectionnée par Watt en 1769",
+  "description": "Une machine qui transforme la force de la vapeur d’eau en mouvement. D’abord utilisée pour pomper l’eau des mines, elle devient le moteur de la révolution industrielle.",
+  "sections": [
+    {
+      "titre": "Comment ça marche",
+      "texte": "La vapeur pousse un piston dans un cylindre. Newcomen la refroidit dans le cylindre lui-même ; James Watt ajoute un condenseur séparé, qui économise beaucoup de charbon, puis transforme le mouvement en rotation."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Elle actionne les usines, puis les locomotives et les navires au XIXe siècle, et rend possible l’industrie moderne."
+    }
+  ],
+  "aSavoir": ["L’unité de puissance, le watt, porte le nom de James Watt."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Machine_%C3%A0_vapeur"
+}

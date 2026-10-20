@@ -1,0 +1,356 @@
+{
+  "documentaires": [],
+  "decouvertes": [],
+  "id": "russie-tsars",
+  "label": "Russie des tsars",
+  "tier": 1,
+  "region": "russie-europeenne",
+  "period": "1547 à 1789",
+  "start": 1547,
+  "end": 1789,
+  "trackId": "rus",
+  "row": 8,
+  "isRiver": false,
+  "capitale": "Moscou, puis Saint-Pétersbourg",
+  "description": "De l’avènement d’Ivan le Terrible au règne de Catherine II, la Russie devient un immense empire qui s’étend jusqu’au Pacifique et, avec Pierre le Grand, une grande puissance européenne.",
+  "territories": ["Tsardom of Muscovy", "Russian Empire"],
+  "reperes": {
+    "capitale": {
+      "valeur": "Moscou, puis Saint-Pétersbourg",
+      "precision": "fondée par Pierre le Grand en 1703, capitale à partir de 1712"
+    },
+    "regimes": { "valeur": "Autocratie", "precision": "le tsar a tous les pouvoirs ; titre d’empereur à partir de 1721" },
+    "langues": { "valeur": "Russe" },
+    "religion": {
+      "valeur": "Christianisme orthodoxe",
+      "precision": "patriarcat de Moscou de 1589 à 1721, puis Saint-Synode contrôlé par l’État"
+    },
+    "apogee": { "valeur": "Règnes de Pierre le Grand et de Catherine II" },
+    "population": { "valeur": "Environ 15 millions vers 1720", "precision": "près de 30 millions vers 1780" },
+    "monnaie": {
+      "valeur": "Rouble",
+      "precision": "divisé en 100 kopecks à partir de 1704 : la première monnaie décimale d’Europe"
+    },
+    "duree": { "valeur": "Environ 240 ans dans cette fiche" },
+    "aujourdhui": { "valeur": "Russie", "precision": "ainsi qu’une partie de l’Ukraine, de la Biélorussie et des pays baltes" }
+  },
+  "essentiel": [
+    "En 1547, [[ivan-le-terrible|Ivan IV]] se fait couronner tsar ; il conquiert Kazan et Astrakhan, mais fait régner la terreur avec l’opritchnina.",
+    "Après le [[temps-des-troubles|temps des troubles]] (1598-1613), la dynastie des Romanov monte sur le trône.",
+    "Cosaques et marchands conquièrent la Sibérie : les Russes atteignent l’océan Pacifique vers 1639.",
+    "[[pierre-le-grand|Pierre le Grand]] modernise le pays sur le modèle européen, bat la Suède à [[bataille-de-poltava|Poltava]] (1709) et fonde Saint-Pétersbourg.",
+    "[[catherine-ii|Catherine II]] agrandit l’empire aux dépens des Ottomans et de la Pologne, tandis que le servage s’aggrave et que la [[revolte-de-pougatchev|révolte de Pougatchev]] est écrasée."
+  ],
+  "datesCles": [
+    {
+      "annee": 1547,
+      "evenement": "Ivan IV couronné tsar",
+      "info": "Le grand-prince de Moscou prend le titre de tsar, venu du latin « caesar »."
+    },
+    {
+      "annee": 1552,
+      "evenement": "Prise de Kazan",
+      "info": "Ivan IV conquiert le khanat tatar de Kazan, puis celui d’Astrakhan (1556)."
+    },
+    {
+      "annee": 1565,
+      "evenement": "L’opritchnina",
+      "info": "Ivan IV crée un territoire et une police personnels qui terrorisent les boyards et le pays."
+    },
+    {
+      "annee": 1582,
+      "evenement": "Conquête de la Sibérie",
+      "info": "Le chef cosaque Ermak prend la capitale du khanat de Sibérie."
+    },
+    {
+      "annee": 1598,
+      "evenement": "Le temps des troubles",
+      "info": "Crise de succession, famine, imposteurs et invasions polonaise et suédoise.",
+      "ref": "temps-des-troubles"
+    },
+    { "annee": 1613, "evenement": "Les Romanov", "info": "Une assemblée élit tsar Michel Romanov." },
+    {
+      "annee": 1703,
+      "evenement": "Saint-Pétersbourg",
+      "info": "Pierre le Grand fonde une nouvelle capitale sur la Baltique."
+    },
+    {
+      "annee": 1709,
+      "evenement": "Poltava",
+      "info": "Pierre le Grand écrase l’armée suédoise de Charles XII.",
+      "ref": "bataille-de-poltava"
+    },
+    {
+      "annee": 1773,
+      "evenement": "Révolte de Pougatchev",
+      "info": "Une immense révolte de Cosaques et de paysans est écrasée.",
+      "ref": "revolte-de-pougatchev"
+    },
+    {
+      "annee": 1783,
+      "evenement": "Annexion de la Crimée",
+      "info": "Catherine II annexe le khanat de Crimée.",
+      "ref": "annexion-de-la-crimee-par-la-russie"
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "Ivan le Terrible",
+      "debut": 1547,
+      "fin": 1584,
+      "resume": "Le premier tsar réforme l’État, conquiert les khanats de la Volga, puis plonge le pays dans la terreur et une longue guerre perdue en Livonie.",
+      "evenements": [
+        { "annee": 1552, "evenement": "Prise de Kazan" },
+        { "annee": 1565, "evenement": "Opritchnina" },
+        { "annee": 1582, "evenement": "Ermak en Sibérie" }
+      ]
+    },
+    {
+      "nom": "Troubles et premiers Romanov",
+      "debut": 1584,
+      "fin": 1682,
+      "resume": "Après le temps des troubles, les Romanov rétablissent l’État ; le servage est fixé par la loi (1649) et l’Ukraine de la rive gauche passe sous protection russe.",
+      "evenements": [
+        { "annee": 1598, "evenement": "Temps des troubles", "ref": "temps-des-troubles" },
+        { "annee": 1613, "evenement": "Michel Romanov" },
+        { "annee": 1649, "evenement": "Code de lois (Oulojénié)" },
+        { "annee": 1654, "evenement": "Accord de Pereïaslav" }
+      ]
+    },
+    {
+      "nom": "Pierre le Grand",
+      "debut": 1682,
+      "fin": 1725,
+      "resume": "Le tsar impose les techniques et les usages européens, crée une flotte, bat la Suède et fonde Saint-Pétersbourg.",
+      "evenements": [
+        { "annee": 1697, "evenement": "Voyage de Pierre en Europe" },
+        { "annee": 1703, "evenement": "Fondation de Saint-Pétersbourg" },
+        { "annee": 1709, "evenement": "Poltava", "ref": "bataille-de-poltava" },
+        { "annee": 1721, "evenement": "Empire de Russie" }
+      ]
+    },
+    {
+      "nom": "L’âge des impératrices",
+      "debut": 1725,
+      "fin": 1789,
+      "resume": "Plusieurs impératrices se succèdent ; Catherine II, souveraine des Lumières, étend l’empire vers la mer Noire et la Pologne.",
+      "evenements": [
+        { "annee": 1762, "evenement": "Avènement de Catherine II" },
+        { "annee": 1773, "evenement": "Révolte de Pougatchev", "ref": "revolte-de-pougatchev" },
+        { "annee": 1783, "evenement": "Annexion de la Crimée", "ref": "annexion-de-la-crimee-par-la-russie" }
+      ]
+    }
+  ],
+  "regimes": [
+    { "id": "tsarat", "nom": "Tsarat de Russie", "debut": 1547, "fin": 1721 },
+    {
+      "id": "empire",
+      "nom": "Empire russe",
+      "debut": 1721,
+      "fin": 1789,
+      "note": "Pierre le Grand prend le titre d’empereur."
+    }
+  ],
+  "dynasties": [
+    { "id": "riourikides", "nom": "Les derniers Riourikides", "debut": 1547, "fin": 1598 },
+    { "id": "troubles", "nom": "Le temps des troubles", "debut": 1598, "fin": 1613 },
+    { "id": "romanov", "nom": "Les Romanov", "debut": 1613, "fin": 1789 }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Ivan IV",
+      "titre": "Tsar",
+      "surnom": "le Terrible",
+      "debut": 1547,
+      "fin": 1584,
+      "dynastie": "riourikides",
+      "personne": "ivan-le-terrible",
+      "cle": true
+    },
+    {
+      "nom": "Fédor Ier",
+      "titre": "Tsar",
+      "debut": 1584,
+      "fin": 1598,
+      "dynastie": "riourikides",
+      "note": "Boris Godounov gouverne pour lui"
+    },
+    { "nom": "Boris Godounov", "titre": "Tsar", "debut": 1598, "fin": 1605, "dynastie": "troubles", "cle": true },
+    {
+      "nom": "Faux Dmitri Ier",
+      "titre": "Tsar (imposteur)",
+      "debut": 1605,
+      "fin": 1606,
+      "dynastie": "troubles",
+      "note": "se fait passer pour un fils d’Ivan IV"
+    },
+    { "nom": "Vassili IV Chouïski", "titre": "Tsar", "debut": 1606, "fin": 1610, "dynastie": "troubles" },
+    {
+      "nom": "Michel Ier",
+      "titre": "Tsar",
+      "debut": 1613,
+      "fin": 1645,
+      "dynastie": "romanov",
+      "note": "premier Romanov",
+      "cle": true
+    },
+    {
+      "nom": "Alexis Ier",
+      "titre": "Tsar",
+      "surnom": "le Très Paisible",
+      "debut": 1645,
+      "fin": 1676,
+      "dynastie": "romanov"
+    },
+    { "nom": "Fédor III", "titre": "Tsar", "debut": 1676, "fin": 1682, "dynastie": "romanov" },
+    {
+      "nom": "Ivan V",
+      "titre": "Tsar",
+      "debut": 1682,
+      "fin": 1696,
+      "dynastie": "romanov",
+      "note": "règne avec son demi-frère Pierre, sous la régence de sa sœur Sophie"
+    },
+    {
+      "nom": "Pierre Ier",
+      "titre": "Tsar, puis empereur",
+      "surnom": "le Grand",
+      "debut": 1682,
+      "fin": 1725,
+      "dynastie": "romanov",
+      "personne": "pierre-le-grand",
+      "cle": true
+    },
+    {
+      "nom": "Catherine Ire",
+      "titre": "Impératrice",
+      "debut": 1725,
+      "fin": 1727,
+      "dynastie": "romanov",
+      "note": "veuve de Pierre le Grand"
+    },
+    { "nom": "Pierre II", "titre": "Empereur", "debut": 1727, "fin": 1730, "dynastie": "romanov" },
+    { "nom": "Anna", "titre": "Impératrice", "debut": 1730, "fin": 1740, "dynastie": "romanov" },
+    {
+      "nom": "Ivan VI",
+      "titre": "Empereur",
+      "debut": 1740,
+      "fin": 1741,
+      "dynastie": "romanov",
+      "note": "bébé renversé, emprisonné à vie"
+    },
+    {
+      "nom": "Élisabeth",
+      "titre": "Impératrice",
+      "debut": 1741,
+      "fin": 1762,
+      "dynastie": "romanov",
+      "note": "fille de Pierre le Grand"
+    },
+    {
+      "nom": "Pierre III",
+      "titre": "Empereur",
+      "debut": 1762,
+      "fin": 1762,
+      "dynastie": "romanov",
+      "note": "renversé par son épouse"
+    },
+    {
+      "nom": "Catherine II",
+      "titre": "Impératrice",
+      "surnom": "la Grande",
+      "debut": 1762,
+      "fin": 1796,
+      "dynastie": "romanov",
+      "personne": "catherine-ii",
+      "cle": true
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Ermak",
+      "role": "Chef cosaque",
+      "description": "Au service des marchands Stroganov, il lance la conquête de la Sibérie en prenant la capitale du khanat de Sibérie (1582).",
+      "dates": "mort en 1585",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Ermak"
+    },
+    {
+      "nom": "Stenka Razine",
+      "role": "Chef cosaque révolté",
+      "description": "Il mène en 1670-1671 une grande révolte de Cosaques et de paysans sur la Volga ; il est exécuté à Moscou.",
+      "dates": "vers 1630 → 1671",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Stenka_Razine"
+    },
+    {
+      "nom": "Mikhaïl Lomonossov",
+      "role": "Savant",
+      "description": "Fils de pêcheur devenu chimiste, physicien et poète, il participe à la fondation de l’université de Moscou (1755).",
+      "dates": "1711 → 1765",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Mikha%C3%AFl_Lomonossov"
+    },
+    {
+      "nom": "Alexandre Souvorov",
+      "role": "Général",
+      "description": "Le plus célèbre général russe du XVIIIe siècle, vainqueur des Ottomans.",
+      "dates": "1730 → 1800",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Alexandre_Souvorov"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerre de Livonie",
+      "annee": 1558,
+      "adversaires": ["Pologne-Lituanie", "Suède", "Ordre livonien"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Pologne-Lituanie et Suède",
+      "consequences": "Après vingt-cinq ans de guerre, Ivan IV ne parvient pas à atteindre durablement la mer Baltique ; le pays sort ruiné.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_de_Livonie"
+    },
+    {
+      "nom": "Grande Guerre du Nord",
+      "annee": 1700,
+      "adversaires": ["Empire suédois (Charles XII)"],
+      "allies": ["Danemark-Norvège", "Saxe", "Pologne-Lituanie"],
+      "morts": "Plusieurs centaines de milliers",
+      "vainqueur": "Russie et ses alliés",
+      "consequences": "Par la paix de Nystad (1721), la Russie obtient les rives de la Baltique et devient une grande puissance européenne ; Pierre prend le titre d’empereur.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Grande_guerre_du_Nord"
+    },
+    {
+      "nom": "Guerre russo-turque de 1768-1774",
+      "annee": 1768,
+      "adversaires": ["Empire ottoman", "Khanat de Crimée"],
+      "allies": [],
+      "morts": "Plusieurs centaines de milliers, surtout par la maladie",
+      "vainqueur": "Russie",
+      "consequences": "Par le traité de Küçük Kaynarca (1774), la Russie atteint la mer Noire et le khanat de Crimée devient indépendant des Ottomans, avant d’être annexé en 1783.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_russo-turque_de_1768-1774"
+    }
+  ],
+  "sciences": "Pierre le Grand fait venir des ingénieurs, des médecins et des savants d’Europe, crée une marine, une école de navigation et l’Académie des sciences de Saint-Pétersbourg (1724). Il réforme l’alphabet et le calendrier. Des expéditions, comme celles de Vitus Béring, explorent la Sibérie et le détroit entre l’Asie et l’Amérique.",
+  "croyancesText": "L’Église orthodoxe est la religion de l’État, et le tsar se présente comme son protecteur. Au XVIIe siècle, la réforme des livres et des rites par le patriarche Nikon provoque un schisme : les « vieux-croyants », qui la refusent, sont persécutés. Pierre le Grand supprime le patriarcat et place l’Église sous le contrôle d’un Saint-Synode.",
+  "diplomatie": "La Russie conquiert les khanats tatars de la Volga, la Sibérie et l’Ukraine de la rive gauche du Dniepr. Elle combat la Suède pour la Baltique, la Pologne et l’Empire ottoman pour les plaines du sud et la mer Noire. Catherine II participe aux partages de la Pologne (1772, 1793, 1795).",
+  "societe": "La noblesse sert l’État et possède la terre ; le code de 1649 attache définitivement les paysans à leur seigneur : c’est le servage, qui concerne la majorité de la population. Pierre le Grand oblige les nobles à se raser la barbe et à s’habiller à l’européenne.",
+  "economie": "Agriculture fondée sur le travail des serfs, fourrures de Sibérie, mines et manufactures de l’Oural développées par Pierre le Grand, commerce par Arkhangelsk puis par la Baltique.",
+  "arts": "Cathédrale Saint-Basile de Moscou (1555-1561), palais baroques de Saint-Pétersbourg comme le palais d’Hiver, collections de l’Ermitage commencées par Catherine II.",
+  "quotidien": "Pierre le Grand impose une taxe sur les barbes et des fêtes à l’européenne ; les paysans, eux, continuent de vivre dans des villages de maisons de bois, l’isba.",
+  "heritage": [
+    {
+      "titre": "Saint-Pétersbourg",
+      "texte": "La ville de Pierre le Grand, avec ses canaux et ses palais, est inscrite au patrimoine mondial."
+    },
+    {
+      "titre": "Un empire continental",
+      "texte": "La conquête de la Sibérie fait de la Russie le plus vaste pays du monde, ce qu’elle est toujours."
+    }
+  ],
+  "aSavoir": ["Le surnom russe d’Ivan IV, « Grozny », signifie plutôt « le Redoutable » que « le Terrible »."],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Tsarat_de_Russie",
+    {
+      "titre": "Encyclopædia Britannica — Russia, history",
+      "url": "https://www.britannica.com/place/Russia/History"
+    }
+  ]
+}

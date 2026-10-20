@@ -1,0 +1,16 @@
+{
+  "id": "arrivee-du-commodore-perry",
+  "nom": "Arrivée du commodore Perry",
+  "annee": 1853,
+  "dates": "juillet 1853",
+  "lieu": "Baie d’Edo (Tokyo)",
+  "description": "L’officier américain Matthew Perry entre dans la baie d’Edo avec des navires à vapeur armés, les « navires noirs », et exige que le Japon s’ouvre au commerce.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "En 1854, le traité de Kanagawa ouvre deux ports aux Américains. D’autres traités suivent avec les Européens. Le shogunat, discrédité, s’effondre en 1868."
+    }
+  ],
+  "avant": "fermeture-du-japon",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Expédition_de_Perry"
+}

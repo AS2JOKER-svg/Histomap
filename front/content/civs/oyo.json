@@ -1,0 +1,176 @@
+{
+  "id": "oyo",
+  "label": "Empire d'Oyo",
+  "tier": 1,
+  "region": "afrique-ouest",
+  "period": "1492 à 1789",
+  "start": 1492,
+  "end": 1789,
+  "color": "#9e9d24",
+  "trackId": "oyo",
+  "row": 4,
+  "isRiver": false,
+  "capitale": "Oyo-Ile",
+  "description": "Le grand royaume yoruba d’Oyo, dans la savane du sud-ouest de l’actuel Nigeria : une puissance militaire fondée sur la cavalerie et un équilibre des pouvoirs entre le roi et un conseil de nobles.",
+  "territories": ["Oyo"],
+  "datesCles": [
+    {
+      "annee": 1550,
+      "evenement": "Création de la cavalerie",
+      "info": "Vers 1550 (dates traditionnelles incertaines), l’alaafin Orompoto organise une puissante cavalerie."
+    },
+    {
+      "annee": 1730,
+      "evenement": "Soumission du Dahomey",
+      "info": "Après plusieurs invasions, le Dahomey accepte de payer tribut à Oyo."
+    },
+    {
+      "annee": 1774,
+      "evenement": "Chute de Bashorun Gaa",
+      "info": "L’alaafin Abiodun renverse et fait exécuter le tout-puissant chef du conseil."
+    }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Orompoto",
+      "titre": "Alaafin",
+      "debut": 1550,
+      "fin": 1560,
+      "dynastie": "alaafin",
+      "note": "crée la cavalerie ; une femme selon certaines traditions",
+      "cle": true
+    },
+    { "nom": "Ajiboyede", "titre": "Alaafin", "debut": 1560, "fin": 1570, "dynastie": "alaafin", "note": "bat les Nupe" },
+    {
+      "nom": "Abipa",
+      "titre": "Alaafin",
+      "debut": 1570,
+      "fin": 1580,
+      "dynastie": "alaafin",
+      "note": "ramène la capitale à Oyo-Ile"
+    },
+    {
+      "nom": "Ojigi",
+      "titre": "Alaafin",
+      "debut": 1724,
+      "fin": 1735,
+      "dynastie": "alaafin",
+      "note": "soumet le Dahomey",
+      "cle": true
+    },
+    {
+      "nom": "Abiodun",
+      "titre": "Alaafin",
+      "debut": 1770,
+      "fin": 1789,
+      "dynastie": "alaafin",
+      "note": "renverse Bashorun Gaa en 1774",
+      "cle": true
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Bashorun Gaa",
+      "role": "Chef du conseil royal",
+      "description": "Chef des Oyo Mesi, il domine le royaume pendant vingt ans en forçant plusieurs rois au suicide, avant d’être renversé et exécuté.",
+      "dates": "mort en 1774",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Oyo_Empire",
+      "ref": "bashorun-gaa"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerres contre le Dahomey",
+      "annee": 1726,
+      "adversaires": ["Royaume du Dahomey (Roi Agadja)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Empire d'Oyo",
+      "consequences": "La cavalerie d’Oyo envahit plusieurs fois le Dahomey, qui devient tributaire d’Oyo jusqu’au début du XIXe siècle.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Empire_d'Oyo"
+    }
+  ],
+  "sciences": "Oyo doit sa puissance à sa cavalerie, rare dans cette région où les mouches tsé-tsé tuent les chevaux : les montures, importées du nord, sont soignées avec attention. Les artisans yoruba excellent dans le tissage (aso oke), la sculpture sur bois et le travail du fer et du laiton.",
+  "croyancesText": "Oyo est un grand centre de la religion yoruba. L’alaafin se présente comme le descendant de Shango, l’orisha de la foudre et ancien roi d’Oyo selon la tradition. Le culte de Shango renforce le pouvoir royal et la fidélité des provinces. Les devins de l’Ifa consultent l’avenir pour les décisions importantes.",
+  "diplomatie": "La constitution non écrite d’Oyo encadre le roi : s’il abuse de son pouvoir, le conseil des Oyo Mesi peut lui présenter des œufs de perroquet ou une calebasse vide, signe qu’il doit se donner la mort. Selon la tradition, le général en chef (l’Are-Ona-Kakanfo) devait se suicider s’il était vaincu. Oyo commerce avec les Européens par les ports de la côte, en particulier dans la traite des captifs.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": { "valeur": "Oyo-Ile (Old Oyo)", "precision": "abandonnée vers 1835" },
+    "regimes": {
+      "valeur": "Monarchie encadrée",
+      "precision": "l’alaafin (roi) et le conseil des Oyo Mesi, qui peut le contraindre à mourir"
+    },
+    "langues": { "valeur": "Yoruba" },
+    "religion": { "valeur": "Religion yoruba", "precision": "culte des orishas, dont Shango, dieu de la foudre" },
+    "apogee": { "valeur": "XVIIIe siècle", "precision": "domine le Dahomey et la côte" },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": { "valeur": "Cauris" },
+    "duree": { "valeur": "Environ 300 ans dans cette fiche", "precision": "le royaume décline au début du XIXe siècle" },
+    "aujourdhui": { "valeur": "Nigeria et Bénin" }
+  },
+  "essentiel": [
+    "Oyo est le plus puissant des royaumes yoruba ; son roi, l’alaafin, se dit descendant de Shango, dieu de la foudre.",
+    "Après une période d’exil au XVIe siècle, le royaume se reconstruit et crée une puissante cavalerie, grâce à des chevaux venus du nord.",
+    "Le pouvoir du roi est équilibré par le conseil des [[oyo-mesi|Oyo Mesi]], qui peut l’obliger à se donner la mort.",
+    "Au XVIIIe siècle, Oyo soumet le Dahomey, qui lui paie tribut.",
+    "Le chef du conseil, [[bashorun-gaa|Bashorun Gaa]], domine le royaume vingt ans, jusqu’à sa chute en 1774."
+  ],
+  "periodes": [
+    {
+      "nom": "L’exil et la reconstruction",
+      "debut": 1492,
+      "fin": 1600,
+      "resume": "Chassés de leur capitale par les Nupe, les rois d’Oyo vivent en exil, puis reviennent et créent leur cavalerie."
+    },
+    {
+      "nom": "L’empire",
+      "debut": 1600,
+      "fin": 1754,
+      "resume": "Oyo domine la savane yoruba et soumet le Dahomey ; il contrôle des routes commerciales vers la côte, dont celles de la traite.",
+      "evenements": [{ "annee": 1730, "evenement": "Tribut du Dahomey" }]
+    },
+    {
+      "nom": "Crises politiques",
+      "debut": 1754,
+      "fin": 1789,
+      "resume": "Bashorun Gaa force plusieurs rois au suicide, avant d’être renversé par Abiodun, qui rétablit l’autorité royale.",
+      "evenements": [{ "annee": 1774, "evenement": "Chute de Gaa" }]
+    }
+  ],
+  "regimes": [
+    {
+      "id": "monarchie",
+      "nom": "Monarchie encadrée",
+      "debut": 1492,
+      "fin": 1789,
+      "note": "Le roi est sacré, mais le conseil des Oyo Mesi, présidé par le bashorun, peut le désavouer."
+    }
+  ],
+  "dynasties": [
+    {
+      "id": "alaafin",
+      "nom": "Les alaafins d’Oyo",
+      "debut": 1530,
+      "fin": 1789,
+      "note": "Sélection ; les dates des premiers rois sont traditionnelles et incertaines."
+    }
+  ],
+  "societe": "Le roi, les membres du conseil, les chefs militaires et les chefs de lignage dominent la société. Les captifs, nombreux, travaillent ou sont vendus vers la côte.",
+  "economie": "Agriculture (igname, mil), tissage, commerce de la savane vers la côte, tribut des royaumes soumis, traite des captifs.",
+  "decouvertes": ["oyo-mesi"],
+  "arts": "Sculptures sur bois liées au culte de Shango, tissus aso oke, perles et poteries ; les ruines d’Oyo-Ile se trouvent aujourd’hui dans un parc national.",
+  "quotidien": "Les grandes fêtes religieuses de la capitale réunissent les délégations des provinces. Les marchés, tenus surtout par des femmes, animent les villes.",
+  "heritage": [
+    {
+      "titre": "La culture yoruba",
+      "texte": "La religion et la culture yoruba, portées par les esclaves déportés, se retrouvent au Brésil, à Cuba et en Haïti (candomblé, santería)."
+    }
+  ],
+  "aSavoir": [
+    "Le royaume d’Oyo s’effondre au début du XIXe siècle, lors de guerres civiles et du djihad peul venu du nord."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Empire_d%27Oyo",
+    { "titre": "Encyclopædia Britannica — Oyo empire", "url": "https://www.britannica.com/place/Oyo-empire" }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "terres-cuites-nok",
+  "nom": "Terres cuites Nok",
+  "annee": -500,
+  "domaine": "Art",
+  "dates": "vers −900 → début de notre ère",
+  "description": "Des statues de terre cuite, têtes et personnages, aux grands yeux en amande et aux coiffures élaborées : les plus anciennes sculptures figuratives connues d’Afrique subsaharienne.",
+  "sections": [
+    {
+      "titre": "Comment elles étaient faites",
+      "texte": "Les sculpteurs modelaient l’argile, souvent creuse, puis la cuisaient. Les pupilles sont percées, ce qui donne aux visages un regard caractéristique."
+    }
+  ],
+  "aSavoir": [
+    "Les premières têtes ont été découvertes par hasard dans les années 1940, par des mineurs qui exploitaient l’étain."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Nok_(culture)"
+}

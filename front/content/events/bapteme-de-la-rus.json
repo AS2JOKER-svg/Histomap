@@ -1,0 +1,20 @@
+{
+  "id": "bapteme-de-la-rus",
+  "nom": "Baptême de la Rus’",
+  "annee": 988,
+  "dates": "988",
+  "lieu": "Kiev",
+  "description": "Le grand-prince [[vladimir-le-grand|Vladimir]] se convertit au christianisme orthodoxe et fait baptiser les habitants de Kiev dans le Dniepr.",
+  "sections": [
+    {
+      "titre": "Contexte",
+      "texte": "Vladimir, jusque-là païen, cherche une alliance avec Byzance. Il obtient d’épouser la sœur de l’empereur Basile II à condition de se faire baptiser."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Les idoles païennes sont jetées au fleuve. La Rus’ adopte l’écriture cyrillique, l’art et la liturgie byzantins : l’orthodoxie marque durablement l’Europe de l’Est."
+    }
+  ],
+  "liens": [{ "ref": "vladimir-le-grand", "relation": "Le prince converti" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Christianisation_de_la_Rus%27_de_Kiev"
+}

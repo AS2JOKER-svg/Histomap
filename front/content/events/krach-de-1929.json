@@ -1,0 +1,15 @@
+{
+  "id": "krach-de-1929",
+  "nom": "Krach de 1929",
+  "annee": 1929,
+  "dates": "24-29 octobre 1929",
+  "lieu": "Bourse de New York (Wall Street)",
+  "description": "Les cours de la Bourse de New York s’effondrent : c’est le début de la Grande Dépression, la plus grave crise économique du XXe siècle.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "Les banques font faillite, les usines ferment ; un Américain sur quatre est au chômage en 1933. La crise gagne le monde entier et favorise la montée des extrémismes en Europe."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Krach_de_1929"
+}

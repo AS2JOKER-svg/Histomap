@@ -1,0 +1,19 @@
+{
+  "id": "bataille-d-ambuila",
+  "nom": "Bataille d’Ambuila",
+  "annee": 1665,
+  "dates": "29 octobre 1665",
+  "lieu": "Ambuila (nord de l’Angola)",
+  "description": "L’armée du royaume du Kongo est écrasée par les troupes de la colonie portugaise d’Angola ; le roi António Ier est tué.",
+  "sections": [
+    {
+      "titre": "Contexte",
+      "texte": "Les Portugais d’Angola convoitent des mines supposées dans le sud du Kongo ; le roi refuse de les céder."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "La mort du roi et de nombreux nobles plonge le royaume dans quarante ans de guerres civiles entre familles rivales."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_d%27Ambuila"
+}

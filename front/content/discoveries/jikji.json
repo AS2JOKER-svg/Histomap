@@ -1,0 +1,21 @@
+{
+  "id": "jikji",
+  "nom": "Jikji",
+  "annee": 1377,
+  "domaine": "Écriture et livre",
+  "dates": "1377",
+  "description": "Un recueil d’enseignements bouddhistes imprimé en 1377 dans un temple coréen : le plus ancien livre conservé imprimé avec des caractères mobiles en métal.",
+  "sections": [
+    {
+      "titre": "Comment il a été imprimé",
+      "texte": "Les caractères, fondus en métal un par un, sont assemblés pour former chaque page, puis réutilisés : c’est le même principe que celui de Gutenberg, près de 80 ans plus tôt."
+    },
+    {
+      "titre": "Son histoire",
+      "texte": "Acheté en Corée par un diplomate français au XIXe siècle, il est conservé à la Bibliothèque nationale de France ; il a été redécouvert en 1972."
+    }
+  ],
+  "avant": "imprimerie",
+  "apres": "imprimerie-de-gutenberg",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Jikji"
+}

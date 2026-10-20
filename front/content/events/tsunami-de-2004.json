@@ -1,0 +1,15 @@
+{
+  "id": "tsunami-de-2004",
+  "nom": "Séisme et tsunami de l’océan Indien",
+  "annee": 2004,
+  "dates": "26 décembre 2004",
+  "lieu": "Océan Indien (épicentre au large de Sumatra)",
+  "description": "Un séisme de magnitude 9,1 au large de Sumatra provoque un tsunami qui frappe les côtes de tout l’océan Indien.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "Environ 230 000 personnes meurent dans une quinzaine de pays, dont plus de 160 000 en Indonésie, surtout dans la province d’Aceh. La catastrophe favorise la paix entre le gouvernement et les rebelles d’Aceh (2005)."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/S%C3%A9isme_et_tsunami_de_2004_dans_l%27oc%C3%A9an_Indien"
+}

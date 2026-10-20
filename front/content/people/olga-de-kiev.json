@@ -1,0 +1,17 @@
+{
+  "id": "olga-de-kiev",
+  "nom": "Olga de Kiev",
+  "role": "Princesse régente de Kiev",
+  "roles": ["Régente", "Sainte"],
+  "dates": "vers 890 → 969",
+  "naissance": 890,
+  "mort": 969,
+  "description": "Épouse du prince Igor, elle gouverne la Rus’ pour son fils Sviatoslav après l’assassinat de son mari, et devient la première souveraine chrétienne de Kiev.",
+  "essentiel": [
+    "Selon la Chronique, elle venge la mort d’Igor par des ruses cruelles contre la tribu des Drevliens.",
+    "Elle réorganise la collecte du tribut.",
+    "Elle se fait baptiser à Constantinople vers 957, mais son fils reste païen."
+  ],
+  "liens": [{ "ref": "vladimir-le-grand", "relation": "Son petit-fils" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Olga_de_Kiev"
+}

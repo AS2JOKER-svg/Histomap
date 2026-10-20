@@ -1,0 +1,16 @@
+{
+  "id": "benjamin-franklin",
+  "nom": "Benjamin Franklin",
+  "role": "Savant, écrivain et diplomate",
+  "roles": ["Imprimeur", "Savant", "Diplomate"],
+  "dates": "1706 → 1790",
+  "naissance": 1706,
+  "mort": 1790,
+  "description": "Imprimeur et écrivain de Philadelphie, savant célèbre pour ses travaux sur l’électricité, il signe la Déclaration d’indépendance et obtient l’alliance de la France.",
+  "essentiel": [
+    "Il prouve que la foudre est un phénomène électrique et invente le paratonnerre.",
+    "Il participe à la rédaction de la [[declaration-d-independance|Déclaration d’indépendance]].",
+    "Ambassadeur à Paris, très populaire, il obtient l’alliance française de 1778."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Benjamin_Franklin"
+}

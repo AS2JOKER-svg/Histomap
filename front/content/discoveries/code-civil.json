@@ -1,0 +1,19 @@
+{
+  "id": "code-civil",
+  "nom": "Code civil",
+  "annee": 1804,
+  "domaine": "Droit",
+  "dates": "21 mars 1804",
+  "description": "Un recueil de lois, voulu par [[napoleon-ier|Napoléon Bonaparte]], qui unifie le droit civil de toute la France : propriété, contrats, mariage, famille.",
+  "sections": [
+    {
+      "titre": "Ce qu’il contient",
+      "texte": "Il consacre l’égalité devant la loi et la propriété, mais place la femme mariée sous l’autorité de son mari."
+    },
+    {
+      "titre": "Son influence",
+      "texte": "Diffusé par les conquêtes napoléoniennes, il sert de modèle à de nombreux pays. Souvent modifié, il est toujours en vigueur en France."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Code_civil_des_Fran%C3%A7ais"
+}

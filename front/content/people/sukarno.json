@@ -1,0 +1,18 @@
+{
+  "id": "sukarno",
+  "nom": "Sukarno",
+  "role": "Premier président de l’Indonésie",
+  "roles": ["Ingénieur", "Président"],
+  "dates": "1901 → 1970",
+  "naissance": 1901,
+  "mort": 1970,
+  "description": "Chef nationaliste emprisonné par les Néerlandais, il proclame l’indépendance de l’Indonésie en 1945 et la dirige jusqu’en 1967, de façon de plus en plus autoritaire.",
+  "reperes": [{ "label": "Président", "valeur": "1945 → 1967" }],
+  "essentiel": [
+    "Il proclame l’indépendance le 17 août 1945 avec Mohammad Hatta.",
+    "Il accueille la [[conference-de-bandung|conférence de Bandung]] (1955).",
+    "Il instaure une « démocratie dirigée » à partir de 1959.",
+    "Après 1965, il est écarté par [[suharto|Suharto]] et finit sa vie en résidence surveillée."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Soekarno"
+}

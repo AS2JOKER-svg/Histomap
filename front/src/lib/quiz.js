@@ -17,40 +17,22 @@
  *   map   { prompt, year, civId, options[], answer }          (carte + QCM)
  */
 import PRESENCE from '../data/map-presence.json'
+// leurres tirés des autres fiches (scripts/build-content.mjs) : pas besoin de charger leur détail
+import CONTEXT from '../data/quiz-context.json'
 import { getEpochs } from './data'
+import { stripLinksDeep } from './links'
 import { formatDuration, formatYear } from './time'
+// hasard reproductible, partagé avec le quiz express (généré au build)
+import { rng, shuffle } from './random'
+
+export { rng, shuffle }
+// affichage et correction d'une question : module léger, partagé avec le quiz express
+export { isCorrect, prepareQuestion } from './questions'
 
 export const QUIZ_LENGTH = 20
 export const PASS_MARK = 15 // sur 20
 const RETRY_FAILED = 5 // questions ratées reposées au quiz suivant
 
-// ── Hasard reproductible ─────────────────────────────────────────────────────
-function hash(str) {
-  let h = 1779033703 ^ str.length
-  for (let i = 0; i < str.length; i++) {
-    h = Math.imul(h ^ str.charCodeAt(i), 3432918353)
-    h = (h << 13) | (h >>> 19)
-  }
-  return h >>> 0
-}
-export function rng(seed) {
-  let a = hash(String(seed))
-  return () => {
-    a |= 0
-    a = (a + 0x6d2b79f5) | 0
-    let t = Math.imul(a ^ (a >>> 15), 1 | a)
-    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t
-    return ((t ^ (t >>> 14)) >>> 0) / 4294967296
-  }
-}
-export function shuffle(arr, rand) {
-  const a = [...arr]
-  for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(rand() * (i + 1))
-    ;[a[i], a[j]] = [a[j], a[i]]
-  }
-  return a
-}
 const uniq = (arr) => [...new Set(arr)]
 
 /** Termine une phrase par un point, sans doubler celui de « av. J.-C. ». */
@@ -93,10 +75,15 @@ const ALL = getEpochs().flatMap((epoch) =>
   epoch.continents.flatMap((continent) => continent.civilizations.map((civ) => ({ epoch, continent, civ })))
 )
 
-/** Réservoir complet de questions d'une civilisation. */
+/** Dirigeants retenus pour le quiz : ceux marqués « cle » s'il y en a, sinon tous. */
+export const quizLeaders = (leaders) => (leaders.some((l) => l.cle) ? leaders.filter((l) => l.cle) : leaders)
+
+/** Réservoir complet de questions d'une civilisation (ref.civ = fiche complète, voir lib/data loadCiv). */
 export function questionPool(ref) {
-  const { civ, epoch, continent } = ref
-  const hand = (ref.hand?.quiz ?? []).map((q) => ({ ...q, id: `hand-${q.id}` }))
+  const { epoch, continent } = ref
+  // les questions sont du texte brut : on retire la syntaxe des liens [[id|texte]]
+  const civ = stripLinksDeep(ref.civ)
+  const hand = (ref.hand?.quiz ?? []).map((q) => ({ ...stripLinksDeep(q), id: `hand-${q.id}` }))
   return [...hand, ...autoQuestions(civ, epoch, continent)].filter(Boolean)
 }
 
@@ -105,11 +92,13 @@ function autoQuestions(civ, epoch, continent) {
   const sameEpoch = ALL.filter((r) => r.epoch.id === epoch.id && r.civ.id !== civ.id).map((r) => r.civ)
   const sameCont = sameEpoch.filter((c) => continent.civilizations.some((x) => x.id === c.id))
   const dates = [...(civ.datesCles ?? [])].sort((a, b) => a.annee - b.annee)
-  const otherEvents = sameEpoch.flatMap((c) => (c.datesCles ?? []).map((d) => d.evenement))
-  const leaders = civ.dirigeants ?? []
-  const otherLeaders = ALL.filter((r) => r.epoch.id === epoch.id).flatMap((r) => r.civ.dirigeants ?? [])
+  const context = CONTEXT.epochs[epoch.id] ?? { events: [], leaders: [] }
+  const otherEvents = context.events.filter((e) => e.civ !== civ.id).map((e) => e.evenement)
+  // Liste complète des dirigeants : seuls les dirigeants « clés » (cle: true) font l'objet de questions
+  const leaders = quizLeaders(civ.dirigeants ?? [])
+  const otherLeaders = context.leaders
   const people = civ.personnages ?? []
-  const otherPeople = ALL.flatMap((r) => r.civ.personnages ?? []).filter((p) => !people.some((x) => x.nom === p.nom))
+  const otherPeople = CONTEXT.people.filter((p) => !people.some((x) => x.nom === p.nom))
   const wars = civ.guerres ?? []
   const name = civ.label
 
@@ -177,7 +166,7 @@ function autoQuestions(civ, epoch, continent) {
     if (l.titre) qs.push(mcq(`leader-titre-${i}`, `Quel titre porte ${l.nom} (${name}) ?`, l.titre, otherLeaders.map((x) => x.titre)))
     if (l.surnom) qs.push(mcq(`leader-surnom-${i}`, `Quel est le surnom de ${l.nom} (${name}) ?`, l.surnom, otherLeaders.map((x) => x.surnom)))
     qs.push(
-      mcq(`leader-reign-${i}`, `${name} : qui gouverne de ${formatYear(l.debut)} à ${formatYear(l.fin)} ?`, l.nom, [...leaders.filter((x) => x !== l).map((x) => x.nom), ...otherLeaders.map((x) => x.nom)], {
+      mcq(`leader-reign-${i}`, `${name} : qui gouverne ${l.debut === l.fin ? `en ${formatYear(l.debut)}` : `de ${formatYear(l.debut)} à ${formatYear(l.fin)}`} ?`, l.nom, [...leaders.filter((x) => x !== l).map((x) => x.nom), ...otherLeaders.map((x) => x.nom)], {
         explanation: `${l.titre}${l.surnom ? ` « ${l.surnom} »` : ''}.`,
       })
     )
@@ -195,7 +184,11 @@ function autoQuestions(civ, epoch, continent) {
 
   // Personnage : vrai / faux sur son appartenance
   if (people[0]) {
-    const intruder = pick(otherPeople.map((p) => p.nom), 1, rng(`${civ.id}-intrus`))[0]
+    // Intrus pris dans une autre époque ET sur un autre continent : jamais quelqu'un de lié à la civilisation
+    // (César pour les Gaulois, Jeanne d'Arc pour la France moderne…)
+    const far = new Set(ALL.filter((r) => r.epoch.id !== epoch.id && r.continent.id !== continent.id).map((r) => r.civ.id))
+    const strangers = otherPeople.filter((p) => far.has(p.civ))
+    const intruder = pick((strangers.length ? strangers : otherPeople).map((p) => p.nom), 1, rng(`${civ.id}-intrus`))[0]
     if (intruder) qs.push({ id: 'tf-person', type: 'tf', prompt: sentence(`${intruder} est un personnage marquant de : ${name}`), answer: false, explanation: `Pour ${name}, on retient notamment ${people.map((p) => p.nom).join(', ')}.` })
   }
 
@@ -265,28 +258,6 @@ export function composeQuiz(pool, { failed = [], asked = [], attempt = 0 } = {})
   const chosen = [...fromFailed, ...fresh, ...seen].slice(0, QUIZ_LENGTH)
   // mélange final en gardant de la variété (pas deux questions identiques de type à la suite si possible)
   return shuffle(chosen, rand)
-}
-
-/** Question prête à afficher : réponses mélangées (selon la tentative). */
-export function prepareQuestion(q, attempt) {
-  if (q.type === 'mcq' || q.type === 'map') {
-    const order = shuffle(q.options.map((_, i) => i), rng(`${q.id}-${attempt}`))
-    return { ...q, options: order.map((i) => q.options[i]), answer: order.indexOf(q.answer) }
-  }
-  if (q.type === 'order') {
-    // mélange garanti différent de l'ordre correct
-    let items = shuffle(q.items, rng(`${q.id}-${attempt}`))
-    if (items.every((x, i) => x === q.items[i])) items = [...items.slice(1), items[0]]
-    return { ...q, shuffled: items }
-  }
-  return q
-}
-
-/** La réponse donnée est-elle juste ? */
-export function isCorrect(q, response) {
-  if (q.type === 'tf') return response === q.answer
-  if (q.type === 'order') return Array.isArray(response) && response.every((x, i) => x === q.items[i])
-  return response === q.answer
 }
 
 /** Note sur 20, même si le quiz compte moins de 20 questions. */

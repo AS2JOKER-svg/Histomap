@@ -1,0 +1,16 @@
+{
+  "id": "stamford-raffles",
+  "nom": "Stamford Raffles",
+  "role": "Administrateur colonial britannique",
+  "roles": ["Lieutenant-gouverneur de Java", "Fondateur de Singapour"],
+  "dates": "1781 → 1826",
+  "naissance": 1781,
+  "mort": 1826,
+  "description": "Fonctionnaire de la Compagnie britannique des Indes orientales, il gouverne Java pendant l’occupation britannique, puis fonde le comptoir de Singapour en 1819.",
+  "essentiel": [
+    "Il dirige Java de 1811 à 1816, pendant que les Pays-Bas sont sous domination française.",
+    "Il fait étudier l’histoire de Java et dégager le temple de Borobudur.",
+    "En 1819, il fonde un port franc à Singapour, sans taxes sur le commerce."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Thomas_Stamford_Raffles"
+}

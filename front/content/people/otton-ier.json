@@ -1,0 +1,17 @@
+{
+  "id": "otton-ier",
+  "nom": "Otton Ier",
+  "role": "Empereur",
+  "roles": ["Roi de Germanie", "Empereur"],
+  "dates": "912 → 973",
+  "naissance": 912,
+  "mort": 973,
+  "description": "Roi de Germanie qui bat les Hongrois au Lechfeld, domine l’Italie et se fait couronner empereur à Rome en 962, fondant ce que l’on appellera le Saint-Empire.",
+  "reperes": [{ "label": "Roi", "valeur": "936 → 973" }, { "label": "Empereur", "valeur": "962 → 973" }],
+  "essentiel": [
+    "Il s’appuie sur les évêques et les abbés, qu’il nomme, pour gouverner.",
+    "Il écrase les Hongrois à la [[bataille-du-lechfeld|bataille du Lechfeld]] en 955.",
+    "Il est couronné empereur par le pape Jean XII le 2 février 962."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Otton_Ier_(empereur_du_Saint-Empire)"
+}

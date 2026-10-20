@@ -1,0 +1,21 @@
+{
+  "id": "grotte-de-lascaux",
+  "nom": "Grotte de Lascaux",
+  "annee": -17000,
+  "domaine": "Art",
+  "dates": "peintures vers −17 000 ; découverte en 1940",
+  "description": "Une grotte de Dordogne aux parois couvertes de chevaux, de taureaux et de cerfs peints, surnommée la « chapelle Sixtine de la préhistoire ».",
+  "sections": [
+    {
+      "titre": "Découverte",
+      "texte": "En septembre 1940, quatre adolescents, dont Marcel Ravidat, découvrent la grotte. Ouverte au public après la guerre, elle est fermée en 1963 car la respiration des visiteurs abîmait les peintures."
+    }
+  ],
+  "heritage": [
+    {
+      "titre": "Des répliques",
+      "texte": "Lascaux II (1983) puis Lascaux IV (2016) permettent de découvrir les peintures sans menacer l’original."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Grotte_de_Lascaux"
+}

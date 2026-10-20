@@ -1,0 +1,20 @@
+{
+  "id": "charles-quint",
+  "nom": "Charles Quint",
+  "nomComplet": "Charles Ier d’Espagne, Charles V du Saint-Empire",
+  "role": "Roi d’Espagne et empereur",
+  "roles": ["Roi d’Espagne", "Empereur"],
+  "dates": "1500 → 1558",
+  "naissance": 1500,
+  "mort": 1558,
+  "description": "Petit-fils des Rois catholiques et de l’empereur Maximilien, il hérite de l’Espagne, des Pays-Bas, de l’Italie du Sud, de l’Amérique et des terres des Habsbourg : le plus vaste empire de son temps.",
+  "reperes": [{ "label": "Roi d’Espagne", "valeur": "1516 → 1556" }, { "label": "Empereur", "valeur": "1519 → 1556" }],
+  "essentiel": [
+    "Né à Gand, il parle d’abord français.",
+    "Il affronte François Ier, qu’il capture à Pavie en 1525.",
+    "Il combat les Ottomans et ne parvient pas à arrêter la Réforme protestante en Allemagne.",
+    "Épuisé, il abdique en 1556 et se retire dans un monastère espagnol."
+  ],
+  "liens": [{ "ref": "francois-ier", "relation": "Son grand rival" }, { "ref": "philippe-ii-d-espagne", "relation": "Son fils" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Charles_Quint"
+}

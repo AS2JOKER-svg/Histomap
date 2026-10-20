@@ -1,0 +1,16 @@
+{
+  "id": "nicolas-copernic",
+  "nom": "Nicolas Copernic",
+  "role": "Astronome",
+  "roles": ["Astronome", "Chanoine", "Médecin"],
+  "dates": "1473 → 1543",
+  "naissance": 1473,
+  "mort": 1543,
+  "description": "Chanoine et astronome du royaume de Pologne, il propose que la Terre tourne sur elle-même et autour du Soleil, une idée qui bouleverse la vision du monde.",
+  "essentiel": [
+    "Il étudie à Cracovie, puis en Italie.",
+    "Il publie son grand livre, Des révolutions des orbes célestes, l’année de sa mort (1543).",
+    "Son [[heliocentrisme|système héliocentrique]] sera défendu par Galilée et Kepler."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Nicolas_Copernic"
+}

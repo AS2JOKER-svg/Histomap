@@ -1,0 +1,434 @@
+{
+  "id": "califat",
+  "label": "Califat islamique",
+  "tier": 1,
+  "region": "mesopotamie",
+  "period": "632 à 1258",
+  "start": 632,
+  "end": 1258,
+  "color": "#27ae60",
+  "trackId": "moyen_orient",
+  "row": 1,
+  "isRiver": false,
+  "capitale": "Damas / Bagdad",
+  "description": "Les califes, successeurs de Mahomet, à la tête de l’empire arabo-musulman : conquêtes foudroyantes, puis âge d’or des sciences à Bagdad, jusqu’à la destruction de la ville par les Mongols en 1258.",
+  "territories": ["Umayyad Caliphate", "Abbasid Caliphate"],
+  "datesCles": [
+    {
+      "annee": 632,
+      "evenement": "Mort du Prophète",
+      "info": "Abou Bakr devient le premier calife ; les grandes conquêtes commencent."
+    },
+    {
+      "annee": 636,
+      "evenement": "Victoire du Yarmouk",
+      "info": "Les Arabes battent l’armée byzantine et prennent la Syrie et la Palestine."
+    },
+    {
+      "annee": 661,
+      "evenement": "Dynastie Omeyyade",
+      "info": "Après l’assassinat d’Ali, Muawiya fonde la dynastie omeyyade, qui gouverne depuis Damas."
+    },
+    {
+      "annee": 680,
+      "evenement": "Bataille de Kerbala",
+      "info": "Hussein, petit-fils du Prophète, est tué par l’armée omeyyade : un événement central pour les chiites."
+    },
+    {
+      "annee": 751,
+      "evenement": "Bataille de Talas",
+      "info": "Les Abbassides battent une armée chinoise des Tang en Asie centrale.",
+      "ref": "bataille-de-talas"
+    },
+    {
+      "annee": 762,
+      "evenement": "Fondation de Bagdad",
+      "info": "Le calife al-Mansur fonde Bagdad, la « ville ronde ».",
+      "ref": "fondation-de-bagdad"
+    },
+    {
+      "annee": 945,
+      "evenement": "Les Bouyides à Bagdad",
+      "info": "Une dynastie persane prend le pouvoir à Bagdad ; le calife ne garde qu’une autorité religieuse."
+    },
+    {
+      "annee": 1258,
+      "evenement": "Saccage de Bagdad",
+      "info": "Les armées mongoles détruisent la ville et tuent le calife : fin du califat abbasside de Bagdad.",
+      "ref": "sac-de-bagdad"
+    }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Abou Bakr",
+      "titre": "Calife",
+      "debut": 632,
+      "fin": 634,
+      "dynastie": "rashidun",
+      "note": "beau-père du Prophète",
+      "cle": true
+    },
+    {
+      "nom": "Omar",
+      "titre": "Calife",
+      "debut": 634,
+      "fin": 644,
+      "dynastie": "rashidun",
+      "note": "grandes conquêtes",
+      "cle": true
+    },
+    {
+      "nom": "Othman",
+      "titre": "Calife",
+      "debut": 644,
+      "fin": 656,
+      "dynastie": "rashidun",
+      "note": "fait mettre le Coran par écrit ; assassiné"
+    },
+    {
+      "nom": "Ali",
+      "titre": "Calife",
+      "debut": 656,
+      "fin": 661,
+      "dynastie": "rashidun",
+      "note": "cousin et gendre du Prophète ; assassiné",
+      "cle": true
+    },
+    {
+      "nom": "Muawiya Ier",
+      "titre": "Calife",
+      "debut": 661,
+      "fin": 680,
+      "dynastie": "omeyyades",
+      "note": "fondateur de la dynastie",
+      "cle": true
+    },
+    { "nom": "Yazid Ier", "titre": "Calife", "debut": 680, "fin": 683, "dynastie": "omeyyades" },
+    { "nom": "Muawiya II", "titre": "Calife", "debut": 683, "fin": 684, "dynastie": "omeyyades" },
+    { "nom": "Marwan Ier", "titre": "Calife", "debut": 684, "fin": 685, "dynastie": "omeyyades" },
+    {
+      "nom": "Abd al-Malik",
+      "titre": "Calife",
+      "debut": 685,
+      "fin": 705,
+      "dynastie": "omeyyades",
+      "note": "arabise l’administration, frappe le dinar, fait bâtir le dôme du Rocher",
+      "cle": true
+    },
+    {
+      "nom": "Al-Walid Ier",
+      "titre": "Calife",
+      "debut": 705,
+      "fin": 715,
+      "dynastie": "omeyyades",
+      "note": "conquête de l’Espagne"
+    },
+    { "nom": "Sulayman", "titre": "Calife", "debut": 715, "fin": 717, "dynastie": "omeyyades" },
+    {
+      "nom": "Omar II",
+      "titre": "Calife",
+      "debut": 717,
+      "fin": 720,
+      "dynastie": "omeyyades",
+      "note": "réputé pour sa piété"
+    },
+    { "nom": "Yazid II", "titre": "Calife", "debut": 720, "fin": 724, "dynastie": "omeyyades" },
+    { "nom": "Hicham", "titre": "Calife", "debut": 724, "fin": 743, "dynastie": "omeyyades" },
+    { "nom": "Al-Walid II", "titre": "Calife", "debut": 743, "fin": 744, "dynastie": "omeyyades" },
+    { "nom": "Yazid III", "titre": "Calife", "debut": 744, "fin": 744, "dynastie": "omeyyades" },
+    { "nom": "Ibrahim", "titre": "Calife", "debut": 744, "fin": 744, "dynastie": "omeyyades" },
+    {
+      "nom": "Marwan II",
+      "titre": "Calife",
+      "debut": 744,
+      "fin": 750,
+      "dynastie": "omeyyades",
+      "note": "dernier Omeyyade de Damas"
+    },
+    {
+      "nom": "As-Saffah",
+      "titre": "Calife",
+      "debut": 750,
+      "fin": 754,
+      "dynastie": "abbassides",
+      "note": "fondateur de la dynastie"
+    },
+    {
+      "nom": "Al-Mansur",
+      "titre": "Calife",
+      "debut": 754,
+      "fin": 775,
+      "dynastie": "abbassides",
+      "note": "fonde Bagdad",
+      "cle": true
+    },
+    { "nom": "Al-Mahdi", "titre": "Calife", "debut": 775, "fin": 785, "dynastie": "abbassides" },
+    { "nom": "Al-Hadi", "titre": "Calife", "debut": 785, "fin": 786, "dynastie": "abbassides" },
+    {
+      "nom": "Haroun al-Rachid",
+      "titre": "Calife",
+      "debut": 786,
+      "fin": 809,
+      "dynastie": "abbassides",
+      "personne": "haroun-al-rachid",
+      "cle": true
+    },
+    {
+      "nom": "Al-Amin",
+      "titre": "Calife",
+      "debut": 809,
+      "fin": 813,
+      "dynastie": "abbassides",
+      "note": "tué pendant la guerre contre son frère"
+    },
+    {
+      "nom": "Al-Mamun",
+      "titre": "Calife",
+      "debut": 813,
+      "fin": 833,
+      "dynastie": "abbassides",
+      "note": "protecteur des savants",
+      "cle": true
+    },
+    {
+      "nom": "Al-Mutasim",
+      "titre": "Calife",
+      "debut": 833,
+      "fin": 842,
+      "dynastie": "abbassides",
+      "note": "recrute des soldats turcs, fonde Samarra"
+    },
+    { "nom": "Al-Wathiq", "titre": "Calife", "debut": 842, "fin": 847, "dynastie": "abbassides" },
+    {
+      "nom": "Al-Mutawakkil",
+      "titre": "Calife",
+      "debut": 847,
+      "fin": 861,
+      "dynastie": "abbassides",
+      "note": "assassiné par ses gardes turcs"
+    },
+    { "nom": "Al-Mutadid", "titre": "Calife", "debut": 892, "fin": 902, "dynastie": "abbassides" },
+    { "nom": "Al-Muqtadir", "titre": "Calife", "debut": 908, "fin": 932, "dynastie": "abbassides" },
+    {
+      "nom": "Al-Qadir",
+      "titre": "Calife",
+      "debut": 991,
+      "fin": 1031,
+      "dynastie": "abbassides",
+      "note": "sous la tutelle des Bouyides"
+    },
+    {
+      "nom": "Al-Qaim",
+      "titre": "Calife",
+      "debut": 1031,
+      "fin": 1075,
+      "dynastie": "abbassides",
+      "note": "accueille les Seldjoukides en 1055"
+    },
+    {
+      "nom": "An-Nasir",
+      "titre": "Calife",
+      "debut": 1180,
+      "fin": 1225,
+      "dynastie": "abbassides",
+      "note": "redonne un peu de pouvoir au califat"
+    },
+    {
+      "nom": "Al-Mustasim",
+      "titre": "Calife",
+      "debut": 1242,
+      "fin": 1258,
+      "dynastie": "abbassides",
+      "note": "dernier calife de Bagdad, tué par les Mongols"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Haroun al-Rachid",
+      "role": "Calife abbasside",
+      "description": "Le plus célèbre des califes, dont la cour fastueuse a inspiré les Mille et Une Nuits.",
+      "dates": "vers 766 → 809",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Haroun_al-Rachid",
+      "ref": "haroun-al-rachid"
+    },
+    {
+      "nom": "Al-Khwârizmî",
+      "role": "Mathématicien",
+      "description": "Savant de la Maison de la sagesse, père de l’algèbre ; il fait connaître les chiffres indiens dans le monde arabe.",
+      "dates": "vers 780 → vers 850",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Al-Khw%C3%A2rizm%C3%AE",
+      "ref": "al-khwarizmi"
+    },
+    {
+      "nom": "Avicenne (Ibn Sina)",
+      "role": "Médecin et philosophe",
+      "description": "Son Canon de la médecine fut la référence médicale de l’Europe et du monde musulman jusqu’au XVIIe siècle.",
+      "dates": "980 → 1037",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Avicenne",
+      "ref": "avicenne"
+    },
+    {
+      "nom": "Rabia al-Adawiyya",
+      "role": "Mystique",
+      "description": "Femme de Bassora, ancienne esclave, l’une des grandes figures du soufisme, la mystique musulmane.",
+      "dates": "vers 714 → 801",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Rabia_al-Adawiyya"
+    },
+    {
+      "nom": "Al-Jahiz",
+      "role": "Écrivain et naturaliste",
+      "description": "Écrivain de Bassora, auteur d’un Livre des animaux et de nombreux essais pleins d’humour.",
+      "dates": "vers 776 → 868",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Al-Jahiz"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Bataille du Yarmouk",
+      "annee": 636,
+      "adversaires": ["Empire byzantin (Héraclius)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Arabes (Khalid ibn al-Walid)",
+      "consequences": "Byzance perd la Syrie et la Palestine ; Jérusalem se rend aux Arabes en 637.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_du_Yarmouk"
+    },
+    {
+      "nom": "Bataille de Talas",
+      "annee": 751,
+      "adversaires": ["Chine des Tang"],
+      "allies": ["Turcs karlouks"],
+      "morts": "Inconnues",
+      "vainqueur": "Abbassides",
+      "consequences": "L’influence chinoise recule en Asie centrale, qui s’ouvre à l’islam.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Talas"
+    },
+    {
+      "nom": "Invasion Mongole et Sac de Bagdad",
+      "annee": 1258,
+      "adversaires": ["Empire Mongol (Hülegü Khan)"],
+      "allies": ["Contingents chrétiens géorgiens"],
+      "morts": "Plusieurs dizaines à plusieurs centaines de milliers de victimes, selon les estimations",
+      "vainqueur": "Mongols",
+      "consequences": "Le calife est exécuté et la ville détruite. Des chroniqueurs racontent que le Tigre devint noir de l’encre des livres jetés dans le fleuve.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Bagdad_(1258)"
+    }
+  ],
+  "sciences": "À Bagdad, des traducteurs font passer en arabe les savoirs grecs, persans et indiens. Les savants du monde musulman développent l’algèbre, la trigonométrie, l’astronomie, l’optique et la chimie, et diffusent les chiffres indiens, dont le zéro. Bagdad a ses hôpitaux (bimaristans), ses observatoires et des fabriques de papier, technique venue de Chine. Avicenne écrit un Canon de la médecine utilisé pendant six siècles.",
+  "croyancesText": "L’islam, « soumission à Dieu », est la religion de l’empire. La question de la succession du Prophète divise la communauté : les sunnites acceptent les califes choisis, les chiites ne reconnaissent que les descendants d’Ali. Chrétiens, juifs et zoroastriens, « gens du Livre », peuvent pratiquer leur religion en payant un impôt spécial. Le soufisme, voie mystique, se développe à partir du VIIIe siècle.",
+  "diplomatie": "Les premières conquêtes brisent l’Empire perse sassanide et enlèvent à Byzance la Syrie et l’Égypte. L’empire, immense, se fragmente ensuite : des dynasties autonomes s’installent en Espagne, en Afrique du Nord, en Égypte et en Perse. À partir de 945, des émirs persans puis des sultans turcs gouvernent à Bagdad au nom du calife, qui garde surtout une autorité religieuse.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": {
+      "valeur": "Médine, Damas, puis Bagdad",
+      "precision": "Médine sous les quatre premiers califes, Damas sous les Omeyyades, Bagdad sous les Abbassides"
+    },
+    "regimes": {
+      "valeur": "Califat",
+      "precision": "le calife, « successeur » du Prophète, est à la fois chef politique et commandeur des croyants"
+    },
+    "langues": {
+      "valeur": "Arabe",
+      "precision": "langue du Coran, de l’administration et des sciences ; le persan reste très parlé"
+    },
+    "religion": { "valeur": "Islam", "precision": "avec d’importantes communautés chrétiennes, juives et zoroastriennes" },
+    "apogee": { "valeur": "VIIIe-IXe siècles", "precision": "de l’Espagne à l’Indus ; Bagdad, centre du monde savant" },
+    "population": {
+      "valeur": "Peut-être 30 à 40 millions",
+      "precision": "vers 800 (estimation) ; Bagdad, plusieurs centaines de milliers d’habitants"
+    },
+    "monnaie": { "valeur": "Dinar d’or et dirham d’argent", "precision": "frappés à partir du calife Abd al-Malik" },
+    "duree": { "valeur": "Plus de 600 ans" },
+    "aujourdhui": { "valeur": "Du Maroc au Pakistan", "precision": "Irak, Syrie, Arabie saoudite, Iran, Égypte, Maghreb…" }
+  },
+  "essentiel": [
+    "À la mort de Mahomet, en 632, ses compagnons choisissent un « calife » (successeur) ; en vingt ans, les Arabes conquièrent l’Empire perse et la moitié de l’Empire byzantin.",
+    "La question de la succession divise les musulmans : les chiites ne reconnaissent que les descendants d’Ali, gendre du Prophète.",
+    "Les Omeyyades de Damas étendent l’empire de l’Espagne à l’Indus ; les Abbassides les renversent en 750 et [[fondation-de-bagdad|fondent Bagdad]].",
+    "Sous [[haroun-al-rachid|Haroun al-Rachid]] et ses fils, la [[maison-de-la-sagesse|Maison de la sagesse]] et des savants comme [[al-khwarizmi|al-Khwârizmî]] et [[avicenne|Avicenne]] font de l’islam le centre des sciences.",
+    "Le pouvoir des califes s’affaiblit au profit des émirs et des sultans turcs ; les Mongols [[sac-de-bagdad|détruisent Bagdad]] en 1258."
+  ],
+  "periodes": [
+    {
+      "nom": "Les califes « bien guidés »",
+      "debut": 632,
+      "fin": 661,
+      "resume": "Les quatre premiers califes, compagnons du Prophète, conquièrent la Syrie, l’Égypte, l’Irak et la Perse. Les rivalités pour le pouvoir mènent à une guerre civile.",
+      "evenements": [
+        { "annee": 636, "evenement": "Victoire du Yarmouk" },
+        { "annee": 642, "evenement": "Conquête de l’Égypte" },
+        { "annee": 651, "evenement": "Fin de l’Empire perse sassanide" }
+      ]
+    },
+    {
+      "nom": "Les Omeyyades",
+      "debut": 661,
+      "fin": 750,
+      "resume": "Depuis Damas, les Omeyyades étendent l’empire jusqu’en Espagne et en Asie centrale, adoptent l’arabe comme langue officielle et bâtissent le dôme du Rocher.",
+      "evenements": [
+        { "annee": 680, "evenement": "Kerbala" },
+        { "annee": 691, "evenement": "Dôme du Rocher à Jérusalem" },
+        { "annee": 711, "evenement": "Conquête de l’Hispanie", "ref": "conquete-omeyyade-hispanie" }
+      ]
+    },
+    {
+      "nom": "L’âge d’or abbasside",
+      "debut": 750,
+      "fin": 945,
+      "resume": "Les Abbassides fondent Bagdad, où savants, traducteurs et poètes font fleurir les sciences et les lettres. Des dynasties locales prennent peu à peu leur autonomie.",
+      "evenements": [
+        { "annee": 762, "evenement": "Fondation de Bagdad", "ref": "fondation-de-bagdad" },
+        { "annee": 830, "evenement": "Essor de la Maison de la sagesse" },
+        { "annee": 909, "evenement": "Califat rival des Fatimides en Afrique du Nord" }
+      ]
+    },
+    {
+      "nom": "Califes sous tutelle",
+      "debut": 945,
+      "fin": 1258,
+      "resume": "Les Bouyides persans, puis les sultans turcs seldjoukides gouvernent au nom du calife. Les croisés arrivent au Proche-Orient. Les Mongols mettent fin au califat.",
+      "evenements": [
+        { "annee": 1055, "evenement": "Les Seldjoukides à Bagdad" },
+        { "annee": 1258, "evenement": "Sac de Bagdad", "ref": "sac-de-bagdad" }
+      ]
+    }
+  ],
+  "dynasties": [
+    { "id": "rashidun", "nom": "Les califes « bien guidés » (Rachidoune)", "debut": 632, "fin": 661 },
+    { "id": "omeyyades", "nom": "Les Omeyyades", "debut": 661, "fin": 750, "note": "Liste complète." },
+    {
+      "id": "abbassides",
+      "nom": "Les Abbassides de Bagdad",
+      "debut": 750,
+      "fin": 1258,
+      "note": "Sélection parmi 37 califes."
+    }
+  ],
+  "societe": "Arabes, Persans, Turcs, Berbères et convertis de toutes origines se mêlent dans les villes. Marchands, savants (oulémas) et fonctionnaires y forment une élite. L’esclavage est répandu, y compris militaire : les califes recrutent des soldats turcs.",
+  "economie": "Commerce à longue distance, de l’Espagne à la Chine, par terre et par mer ; agriculture irriguée (coton, canne à sucre, agrumes) ; artisanat du textile, du papier et du verre.",
+  "decouvertes": ["maison-de-la-sagesse", "algebre"],
+  "arts": "Dôme du Rocher à Jérusalem, grande mosquée des Omeyyades à Damas, minaret en spirale de Samarra, calligraphie arabe, céramique lustrée, poésie d’Abu Nuwas.",
+  "quotidien": "Dans les grandes villes, les habitants fréquentent les mosquées, les bains (hammams) et les souks, où se vendent des produits du monde entier.",
+  "heritage": [
+    {
+      "titre": "Les mots de la science",
+      "texte": "Algèbre, algorithme, chiffre, zéro, alcool, chimie : autant de mots venus de l’arabe."
+    },
+    {
+      "titre": "Les chiffres « arabes »",
+      "texte": "Venus d’Inde, ils sont transmis à l’Europe par le monde musulman et remplacent les chiffres romains."
+    },
+    {
+      "titre": "Les Mille et Une Nuits",
+      "texte": "Ces contes, rassemblés au fil des siècles, ont rendu célèbre la Bagdad d’Haroun al-Rachid."
+    }
+  ],
+  "aSavoir": [
+    "Le califat ne disparaît pas complètement en 1258 : un descendant des Abbassides est installé au Caire par les Mamelouks, avec un rôle surtout symbolique, jusqu’à la conquête ottomane de 1517."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Califat",
+    "https://fr.wikipedia.org/wiki/Abbassides",
+    { "titre": "Encyclopædia Britannica — Caliphate", "url": "https://www.britannica.com/topic/caliphate" }
+  ]
+}

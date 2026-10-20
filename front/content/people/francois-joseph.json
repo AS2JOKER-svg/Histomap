@@ -1,0 +1,21 @@
+{
+  "id": "francois-joseph",
+  "nom": "François-Joseph Ier",
+  "role": "Empereur d’Autriche et roi de Hongrie",
+  "roles": ["Empereur", "Roi de Hongrie"],
+  "dates": "1830 → 1916",
+  "naissance": 1830,
+  "mort": 1916,
+  "description": "Empereur pendant 68 ans, il incarne la monarchie des Habsbourg : il réprime les révolutions de 1848, accepte le compromis avec la Hongrie en 1867 et entre en guerre en 1914.",
+  "reperes": [{ "label": "Règne", "valeur": "1848 → 1916" }],
+  "essentiel": [
+    "Il devient empereur à 18 ans, en pleine révolution.",
+    "Il épouse Élisabeth de Wittelsbach, « Sissi ».",
+    "Il accepte le [[compromis-austro-hongrois|compromis austro-hongrois]] (1867).",
+    "Après l’[[attentat-de-sarajevo|assassinat de son neveu]], il déclare la guerre à la Serbie (1914)."
+  ],
+  "aSavoir": [
+    "Il vit de nombreux drames familiaux : son frère est fusillé au Mexique, son fils se suicide, sa femme et son héritier sont assassinés."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Fran%C3%A7ois-Joseph_Ier"
+}

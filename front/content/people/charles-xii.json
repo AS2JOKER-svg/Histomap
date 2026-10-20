@@ -1,0 +1,17 @@
+{
+  "id": "charles-xii",
+  "nom": "Charles XII",
+  "role": "Roi de Suède",
+  "roles": ["Roi", "Chef de guerre"],
+  "dates": "1682 → 1718",
+  "naissance": 1682,
+  "mort": 1718,
+  "description": "Roi de Suède à 15 ans, chef de guerre brillant, il bat ses ennemis au début de la Grande Guerre du Nord, puis s’enfonce en Russie et est vaincu à Poltava.",
+  "essentiel": [
+    "À 18 ans, il bat les Russes à Narva (1700).",
+    "Il impose son candidat sur le trône de Pologne.",
+    "Vaincu à [[bataille-de-poltava|Poltava]], il se réfugie cinq ans dans l’Empire ottoman.",
+    "Il est tué d’une balle lors du siège d’une forteresse norvégienne en 1718."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Charles_XII"
+}

@@ -1,0 +1,278 @@
+{
+  "id": "japon-mod",
+  "label": "Japon (Époque d'Edo)",
+  "tier": 1,
+  "region": "japon",
+  "period": "1603 à 1868",
+  "start": 1603,
+  "end": 1868,
+  "trackId": "japon",
+  "row": 5,
+  "isRiver": false,
+  "capitale": "Edo (Tokyo)",
+  "description": "Après un siècle de guerres civiles, les Tokugawa unifient le Japon et imposent plus de 250 ans de paix, en fermant presque totalement le pays aux étrangers, jusqu’à l’arrivée des navires américains en 1853.",
+  "territories": ["Tokugawa shogunate", "Japan"],
+  "datesCles": [
+    {
+      "annee": 1600,
+      "evenement": "Bataille de Sekigahara",
+      "info": "Tokugawa Ieyasu bat la coalition de l’Ouest, ce qui met fin aux guerres civiles.",
+      "ref": "bataille-de-sekigahara"
+    },
+    { "annee": 1603, "evenement": "Shogunat Tokugawa", "info": "L’empereur nomme Ieyasu shogun." },
+    {
+      "annee": 1637,
+      "evenement": "Révolte de Shimabara",
+      "info": "Une révolte de paysans en grande partie chrétiens est écrasée."
+    },
+    {
+      "annee": 1639,
+      "evenement": "Fermeture du pays (sakoku)",
+      "info": "Le pays se ferme progressivement dans les années 1630 : les Japonais ont interdiction de quitter l’archipel sous peine de mort, et les Portugais sont expulsés en 1639.",
+      "ref": "fermeture-du-japon"
+    },
+    {
+      "annee": 1853,
+      "evenement": "Les navires noirs",
+      "info": "Le commodore américain Perry entre dans la baie d’Edo avec des navires à vapeur et exige l’ouverture du pays.",
+      "ref": "arrivee-du-commodore-perry"
+    },
+    {
+      "annee": 1868,
+      "evenement": "Restauration de Meiji",
+      "info": "Le dernier shogun rend le pouvoir à l’empereur."
+    }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Oda Nobunaga",
+      "titre": "Chef de guerre",
+      "debut": 1568,
+      "fin": 1582,
+      "dynastie": "unificateurs",
+      "note": "commence l’unification ; tué par un de ses généraux",
+      "cle": true
+    },
+    {
+      "nom": "Toyotomi Hideyoshi",
+      "titre": "Régent (kampaku)",
+      "debut": 1585,
+      "fin": 1598,
+      "dynastie": "unificateurs",
+      "personne": "toyotomi-hideyoshi",
+      "note": "achève l’unification",
+      "cle": true
+    },
+    {
+      "nom": "Tokugawa Ieyasu",
+      "titre": "Shogun",
+      "debut": 1603,
+      "fin": 1605,
+      "dynastie": "tokugawa",
+      "personne": "tokugawa-ieyasu",
+      "note": "garde le pouvoir réel jusqu’à sa mort en 1616",
+      "cle": true
+    },
+    { "nom": "Tokugawa Hidetada", "titre": "Shogun", "debut": 1605, "fin": 1623, "dynastie": "tokugawa" },
+    {
+      "nom": "Tokugawa Iemitsu",
+      "titre": "Shogun",
+      "debut": 1623,
+      "fin": 1651,
+      "dynastie": "tokugawa",
+      "note": "ferme le pays",
+      "cle": true
+    },
+    { "nom": "Tokugawa Ietsuna", "titre": "Shogun", "debut": 1651, "fin": 1680, "dynastie": "tokugawa" },
+    {
+      "nom": "Tokugawa Tsunayoshi",
+      "titre": "Shogun",
+      "surnom": "le Shogun des chiens",
+      "debut": 1680,
+      "fin": 1709,
+      "dynastie": "tokugawa",
+      "note": "interdit de maltraiter les animaux",
+      "cle": true
+    },
+    { "nom": "Tokugawa Ienobu", "titre": "Shogun", "debut": 1709, "fin": 1712, "dynastie": "tokugawa" },
+    { "nom": "Tokugawa Ietsugu", "titre": "Shogun", "debut": 1713, "fin": 1716, "dynastie": "tokugawa" },
+    {
+      "nom": "Tokugawa Yoshimune",
+      "titre": "Shogun",
+      "debut": 1716,
+      "fin": 1745,
+      "dynastie": "tokugawa",
+      "note": "réformateur, autorise les livres européens",
+      "cle": true
+    },
+    { "nom": "Tokugawa Ieshige", "titre": "Shogun", "debut": 1745, "fin": 1760, "dynastie": "tokugawa" },
+    { "nom": "Tokugawa Ieharu", "titre": "Shogun", "debut": 1760, "fin": 1786, "dynastie": "tokugawa" },
+    {
+      "nom": "Tokugawa Ienari",
+      "titre": "Shogun",
+      "debut": 1787,
+      "fin": 1837,
+      "dynastie": "tokugawa",
+      "note": "le plus long règne"
+    },
+    { "nom": "Tokugawa Ieyoshi", "titre": "Shogun", "debut": 1837, "fin": 1853, "dynastie": "tokugawa" },
+    { "nom": "Tokugawa Iesada", "titre": "Shogun", "debut": 1853, "fin": 1858, "dynastie": "tokugawa" },
+    { "nom": "Tokugawa Iemochi", "titre": "Shogun", "debut": 1858, "fin": 1866, "dynastie": "tokugawa" },
+    {
+      "nom": "Tokugawa Yoshinobu",
+      "titre": "Shogun",
+      "debut": 1867,
+      "fin": 1868,
+      "dynastie": "tokugawa",
+      "note": "dernier shogun",
+      "cle": true
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Miyamoto Musashi",
+      "role": "Samouraï et escrimeur",
+      "description": "Samouraï errant qui affirme avoir gagné une soixantaine de duels, fondateur d’une école de combat à deux sabres et auteur du Traité des cinq roues.",
+      "dates": "vers 1584 → 1645",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Miyamoto_Musashi"
+    },
+    {
+      "nom": "Katsushika Hokusai",
+      "role": "Peintre et graveur",
+      "description": "Maître de l’estampe japonaise, auteur de La Grande Vague de Kanagawa.",
+      "dates": "1760 → 1849",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Hokusai",
+      "ref": "hokusai"
+    },
+    {
+      "nom": "Matsuo Bashō",
+      "role": "Poète",
+      "description": "Le plus célèbre auteur de haïkus, ces courts poèmes de trois vers.",
+      "dates": "1644 → 1694",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Matsuo_Bash%C5%8D"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Bataille de Sekigahara",
+      "annee": 1600,
+      "adversaires": ["Armée de l’Ouest (fidèles des Toyotomi, Ishida Mitsunari)"],
+      "allies": ["Armée de l’Est (Tokugawa)"],
+      "morts": "Plusieurs milliers à des dizaines de milliers de morts, selon les estimations",
+      "vainqueur": "Tokugawa Ieyasu",
+      "consequences": "La plus grande bataille de l’histoire du Japon. Tokugawa Ieyasu devient le maître du pays et fonde un shogunat qui durera jusqu’en 1868.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Sekigahara"
+    }
+  ],
+  "sciences": "Sans guerre, la société s’urbanise : vers 1700, Edo compte environ un million d’habitants, l’une des plus grandes villes du monde. Les déchets et les excréments sont recyclés comme engrais pour les campagnes. La gravure sur bois en couleurs permet de diffuser les estampes (ukiyo-e). Par les livres hollandais, des savants japonais étudient la médecine et l’astronomie européennes (les « études hollandaises »).",
+  "croyancesText": "L’État s’appuie sur le néoconfucianisme, qui insiste sur l’ordre et la hiérarchie. Le christianisme, perçu comme une menace politique, est interdit : après la révolte de Shimabara (1637-1638), les chrétiens sont traqués, et l’on oblige les suspects à piétiner des images saintes (fumi-e). Tous les habitants doivent s’inscrire dans un temple bouddhiste.",
+  "diplomatie": "Pendant le sakoku, seuls les Hollandais, enfermés sur l’îlot artificiel de Dejima à Nagasaki, et les Chinois peuvent commercer avec le Japon ; des relations existent aussi avec la Corée et Ryūkyū. Pour contrôler les seigneurs, le shogun impose la résidence alternée (sankin-kōtai) : ils doivent vivre une année sur deux à Edo, où leur famille reste en permanence.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": { "valeur": "Edo (Tokyo)", "precision": "siège du shogun ; l’empereur reste à Kyoto" },
+    "regimes": {
+      "valeur": "Shogunat",
+      "precision": "le shogun Tokugawa gouverne au nom de l’empereur, avec environ 260 seigneurs (daimyo)"
+    },
+    "langues": { "valeur": "Japonais" },
+    "religion": {
+      "valeur": "Bouddhisme et shintō",
+      "precision": "christianisme interdit à partir de 1614 ; néoconfucianisme pour l’État"
+    },
+    "apogee": { "valeur": "Vers 1700", "precision": "ère Genroku, essor des villes et des arts" },
+    "population": { "valeur": "Environ 30 millions", "precision": "au XVIIIe siècle" },
+    "monnaie": { "valeur": "Ryō d’or, monnaies d’argent et de cuivre" },
+    "duree": { "valeur": "Environ 265 ans" },
+    "aujourdhui": { "valeur": "Japon" }
+  },
+  "essentiel": [
+    "Trois chefs de guerre unifient le Japon : Oda Nobunaga, [[toyotomi-hideyoshi|Toyotomi Hideyoshi]], puis [[tokugawa-ieyasu|Tokugawa Ieyasu]], vainqueur à [[bataille-de-sekigahara|Sekigahara]] (1600).",
+    "Ieyasu devient shogun en 1603 ; sa famille gouverne le pays depuis Edo jusqu’en 1868.",
+    "Les Tokugawa interdisent le christianisme et, avec la [[fermeture-du-japon|fermeture du pays]], ne laissent commercer que les Hollandais et les Chinois à Nagasaki.",
+    "La paix permet l’essor des villes, du commerce et des arts populaires : théâtre kabuki, estampes de [[hokusai|Hokusai]] comme la [[grande-vague-de-kanagawa|Grande Vague]].",
+    "En 1853, l’[[arrivee-du-commodore-perry|arrivée du commodore Perry]] force le Japon à s’ouvrir ; le shogunat tombe en 1868."
+  ],
+  "periodes": [
+    {
+      "nom": "L’unification",
+      "debut": 1568,
+      "fin": 1615,
+      "resume": "Nobunaga, Hideyoshi et Ieyasu soumettent les seigneurs ; Hideyoshi envahit la Corée sans succès. Ieyasu l’emporte à Sekigahara et élimine les Toyotomi en 1615.",
+      "evenements": [
+        { "annee": 1590, "evenement": "Hideyoshi unifie le Japon" },
+        { "annee": 1592, "evenement": "Invasion de la Corée", "ref": "guerre-d-imjin" },
+        { "annee": 1600, "evenement": "Sekigahara", "ref": "bataille-de-sekigahara" }
+      ]
+    },
+    {
+      "nom": "La paix des Tokugawa",
+      "debut": 1615,
+      "fin": 1853,
+      "resume": "Le shogunat contrôle les seigneurs, ferme le pays et fige la société. Les villes, surtout Edo et Osaka, prospèrent.",
+      "evenements": [
+        { "annee": 1639, "evenement": "Fermeture du pays", "ref": "fermeture-du-japon" },
+        { "annee": 1700, "evenement": "Edo, l’une des plus grandes villes du monde" },
+        { "annee": 1831, "evenement": "La Grande Vague de Hokusai" }
+      ]
+    },
+    {
+      "nom": "L’ouverture forcée",
+      "debut": 1853,
+      "fin": 1868,
+      "resume": "Les traités imposés par les Occidentaux discréditent le shogunat ; des samouraïs se rallient à l’empereur et renversent les Tokugawa.",
+      "evenements": [{ "annee": 1854, "evenement": "Traité de Kanagawa" }, { "annee": 1868, "evenement": "Restauration de Meiji" }]
+    }
+  ],
+  "regimes": [
+    {
+      "id": "shogunat",
+      "nom": "Shogunat Tokugawa",
+      "debut": 1603,
+      "fin": 1868,
+      "note": "L’empereur règne à Kyoto, mais le shogun gouverne depuis Edo."
+    }
+  ],
+  "dynasties": [
+    {
+      "id": "unificateurs",
+      "nom": "Les unificateurs",
+      "debut": 1568,
+      "fin": 1598,
+      "note": "Ils ne sont pas shoguns, à part Ieyasu."
+    },
+    {
+      "id": "tokugawa",
+      "nom": "Les shoguns Tokugawa",
+      "debut": 1603,
+      "fin": 1868,
+      "regime": "shogunat",
+      "note": "Liste complète des 15 shoguns."
+    }
+  ],
+  "societe": "La société est officiellement divisée en ordres : samouraïs (seuls à porter deux sabres), paysans, artisans et marchands ; les historiens soulignent que la réalité était plus souple. Les samouraïs deviennent surtout des administrateurs, tandis que les marchands s’enrichissent.",
+  "economie": "Riziculture (l’impôt se compte en riz), artisanat, commerce intérieur très actif entre Osaka, Kyoto et Edo, routes surveillées comme le Tōkaidō.",
+  "decouvertes": ["grande-vague-de-kanagawa"],
+  "arts": "Théâtre kabuki et bunraku, estampes ukiyo-e (Hokusai, Hiroshige, Utamaro), haïkus de Bashō, châteaux comme Himeji.",
+  "quotidien": "Dans les villes, le peuple fréquente les bains publics, les théâtres et les quartiers de plaisir. Beaucoup d’enfants apprennent à lire dans les écoles des temples (terakoya).",
+  "heritage": [
+    {
+      "titre": "Le Japon moderne",
+      "texte": "L’alphabétisation et l’organisation héritées d’Edo facilitent la modernisation rapide du Japon après 1868."
+    },
+    {
+      "titre": "Les arts",
+      "texte": "Kabuki, haïku et estampes ont profondément influencé les artistes européens, comme Van Gogh et Monet."
+    }
+  ],
+  "aSavoir": [
+    "Contrairement à une idée répandue, les armes à feu ne sont pas interdites à l’époque d’Edo : leur fabrication est seulement très contrôlée."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/%C3%89poque_d%27Edo",
+    "https://fr.wikipedia.org/wiki/Shogunat_Tokugawa",
+    {
+      "titre": "Encyclopædia Britannica — Tokugawa period",
+      "url": "https://www.britannica.com/event/Tokugawa-period"
+    }
+  ]
+}

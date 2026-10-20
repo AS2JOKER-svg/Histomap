@@ -1,0 +1,15 @@
+{
+  "id": "bataille-de-feyiase",
+  "nom": "Bataille de Feyiase",
+  "annee": 1701,
+  "dates": "1701",
+  "lieu": "Feyiase (Ghana)",
+  "description": "Les Ashanti d’[[osei-tutu|Osei Tutu]] battent le royaume de Denkyira, dont ils étaient tributaires, et deviennent la puissance dominante de la région.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "Le roi du Denkyira est tué. Les Ashanti contrôlent désormais les routes de l’or et du commerce vers la côte."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Feyiase"
+}

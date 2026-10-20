@@ -1,0 +1,26 @@
+{
+  "id": "homme-de-neandertal",
+  "nom": "Homme de Néandertal",
+  "annee": -250000,
+  "domaine": "Paléoanthropologie",
+  "dates": "vers −400 000 → −40 000 ; reconnu en 1856",
+  "description": "Une espèce humaine sœur de la nôtre, adaptée au froid de l’Europe glaciaire, qui a disparu il y a environ 40 000 ans après avoir côtoyé Homo sapiens.",
+  "reperes": [{ "label": "Découverte", "valeur": "1856", "precision": "vallée de Neander, près de Düsseldorf (Allemagne)" }],
+  "sections": [
+    {
+      "titre": "Ce que l’on sait",
+      "texte": "Trapu et robuste, avec un cerveau aussi volumineux que le nôtre, Néandertal taille des outils élaborés, maîtrise le feu, chasse les grands animaux et enterre parfois ses morts."
+    },
+    {
+      "titre": "Disparition",
+      "texte": "Il disparaît vers −40 000, quelques milliers d’années après l’arrivée d’Homo sapiens. Concurrence, changements climatiques et petite population sont avancés ; aucune cause unique ne fait consensus."
+    }
+  ],
+  "heritage": [
+    {
+      "titre": "Dans nos gènes",
+      "texte": "Les populations non africaines portent environ 2 % d’ADN néandertalien, preuve de croisements entre les deux espèces."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Homme_de_N%C3%A9andertal"
+}

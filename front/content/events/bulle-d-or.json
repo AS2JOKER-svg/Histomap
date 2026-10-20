@@ -1,0 +1,20 @@
+{
+  "id": "bulle-d-or",
+  "nom": "Bulle d’or de 1356",
+  "annee": 1356,
+  "dates": "1356",
+  "lieu": "Nuremberg et Metz",
+  "description": "L’empereur Charles IV fixe les règles de l’élection du roi des Romains : sept princes-électeurs, trois archevêques et quatre princes laïcs, votent à la majorité.",
+  "sections": [
+    {
+      "titre": "Ce qu’elle prévoit",
+      "texte": "Les électeurs sont les archevêques de Mayence, Cologne et Trèves, le roi de Bohême, le comte palatin du Rhin, le duc de Saxe et le margrave de Brandebourg. L’élection a lieu à Francfort."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "L’élection ne dépend plus du pape. Les électeurs deviennent les princes les plus puissants de l’Empire. La Bulle d’or reste en vigueur jusqu’en 1806."
+    }
+  ],
+  "aSavoir": ["Elle tient son nom du sceau d’or (bulla) qui l’authentifie."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bulle_d%27or_(1356)"
+}

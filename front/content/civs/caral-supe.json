@@ -1,0 +1,103 @@
+{
+  "id": "caral-supe",
+  "label": "Civilisation de Caral-Supe",
+  "tier": 1,
+  "region": "andes",
+  "period": "-3500 à -1800",
+  "start": -3500,
+  "end": -1800,
+  "color": "#f4d03f",
+  "trackId": "andes",
+  "row": 1,
+  "isRiver": true,
+  "capitale": "Caral",
+  "description": "La plus ancienne civilisation des Amériques, ayant érigé d'immenses pyramides dans les vallées péruviennes, avec peu ou pas de traces de guerre (un point débattu), sans écriture ni poterie.",
+  "territories": ["Norte Chico"],
+  "datesCles": [
+    {
+      "annee": -3500,
+      "evenement": "Sédentarisation côtière",
+      "info": "Les populations s'installent dans la vallée de Supe pour exploiter les ressources marines et agricoles. Les premiers centres monumentaux apparaissent vers -3000."
+    },
+    {
+      "annee": -2600,
+      "evenement": "Âge d'or architectural",
+      "info": "Construction de la ville sacrée de Caral et de sa Grande Pyramide (Pirámide Mayor)."
+    },
+    {
+      "annee": -1800,
+      "evenement": "Déclin et abandon",
+      "info": "Les causes de l'abandon sont discutées : des changements climatiques (épisodes El Niño) sont une hypothèse parmi d'autres."
+    }
+  ],
+  "dirigeants": [],
+  "personnages": [
+    {
+      "nom": "Ruth Shady",
+      "role": "Archéologue",
+      "description": "Archéologue péruvienne qui fouille Caral depuis 1994 et a démontré son ancienneté.",
+      "dates": "née en 1946",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Ruth_Shady"
+    }
+  ],
+  "guerres": [],
+  "sciences": "Leur développement technologique est unique et atypique : ils ne fabriquent ni armes, ni poteries, mais sont d'exceptionnels architectes. Ils inventent les 'shicras', des sacs en fibre végétale remplis de pierres intégrés dans les fondations des pyramides, qui stabilisaient peut-être les édifices lors des séismes (une hypothèse). Un objet trouvé à Caral a été présenté comme un très ancien 'quipu' (système de cordelettes à nœuds), mais cette identification est débattue : les plus anciens quipus sûrement datés sont huaris.",
+  "croyancesText": "La religion de Caral semble axée sur le culte du feu et la musique. Au centre des architectures monumentales se trouvent des amphithéâtres circulaires engloutis contenant des foyers sacrés où des offrandes (quartz, coquillages, cheveux) étaient brûlées. Des fouilles y ont mis au jour d'impressionnants ensembles d'instruments à vent : 32 flûtes taillées dans des os de condor et de pélican.",
+  "diplomatie": "Fait remarquable, l'archéologie n'a révélé à Caral que peu ou pas de traces de guerre (peu de murailles, d'armes ou de corps blessés), même si ce point reste débattu. Leur économie repose sur un puissant réseau commercial pacifique entre les pêcheurs de la côte (apportant anchois et sardines) et les agriculteurs des terres (cultivant le coton et les courges).",
+  "documentaires": [],
+  "reperes": {
+    "capitale": { "valeur": "Caral", "precision": "la plus grande des vingt cités de la vallée de Supe" },
+    "regimes": { "valeur": "Élites religieuses", "precision": "organisation politique mal connue" },
+    "langues": { "valeur": "Inconnues", "precision": "pas d’écriture" },
+    "religion": { "valeur": "Inconnue", "precision": "places circulaires, foyers rituels et offrandes brûlées" },
+    "population": { "valeur": "Peut-être 3 000 habitants à Caral", "precision": "estimation des archéologues" },
+    "monnaie": { "valeur": "Aucune", "precision": "échanges de poisson contre coton et produits agricoles" },
+    "duree": { "valeur": "Environ 1 700 ans" },
+    "aujourdhui": { "valeur": "Pérou", "precision": "côte nord, à environ 200 km de Lima" }
+  },
+  "essentiel": [
+    "Vers −3000, des communautés de la vallée de Supe, au Pérou, bâtissent les plus anciennes villes connues des Amériques.",
+    "Caral compte de grandes pyramides à degrés, des places circulaires enterrées et des quartiers d’habitation.",
+    "Ces sociétés n’ont ni écriture, ni poterie, ni métal : elles reposent sur la pêche et la culture du coton.",
+    "Pêcheurs de la côte et agriculteurs de l’intérieur échangent anchois et sardines contre coton pour les filets et produits agricoles.",
+    "Les traces de guerre sont rares, ce qui fait débat : Caral était peut-être une société plutôt pacifique."
+  ],
+  "periodes": [
+    {
+      "nom": "Les premiers centres",
+      "debut": -3500,
+      "fin": -2600,
+      "resume": "Les premières constructions monumentales apparaissent dans les vallées côtières du nord du Pérou.",
+      "evenements": [{ "annee": -3000, "evenement": "Premiers centres monumentaux" }]
+    },
+    {
+      "nom": "L’apogée de Caral",
+      "debut": -2600,
+      "fin": -2000,
+      "resume": "La « ville sacrée » de Caral se dote de sa grande pyramide, de temples et de places circulaires où se déroulent des cérémonies.",
+      "evenements": [{ "annee": -2600, "evenement": "Construction de la grande pyramide" }]
+    },
+    {
+      "nom": "Le déclin",
+      "debut": -2000,
+      "fin": -1800,
+      "resume": "Les cités sont peu à peu abandonnées ; les causes (climat, séismes, déplacement des échanges) restent discutées."
+    }
+  ],
+  "societe": "Les plus grandes maisons, près des pyramides, abritaient sans doute une élite religieuse, tandis que les gens ordinaires vivaient dans des habitations plus modestes. La vallée comptait une vingtaine de sites aux fonctions complémentaires.",
+  "economie": "Sur la côte, on pêche anchois, sardines et coquillages ; dans les terres, on cultive le coton (pour les filets et les vêtements), les courges, les haricots et la patate douce.",
+  "arts": "Les flûtes en os, les figurines d’argile crue et l’architecture monumentale en pierre sont les principales traces de leur art.",
+  "quotidien": "Les habitants vivent dans des maisons de pierre et de roseaux. Les cérémonies autour des feux sacrés et la musique tiennent une grande place.",
+  "heritage": [
+    {
+      "titre": "Patrimoine mondial",
+      "texte": "La ville sacrée de Caral-Supe est inscrite au patrimoine mondial de l’UNESCO depuis 2009."
+    },
+    {
+      "titre": "Une civilisation très ancienne",
+      "texte": "Caral est contemporaine des pyramides d’Égypte : la civilisation dans les Andes est presque aussi ancienne qu’au Proche-Orient."
+    }
+  ],
+  "aSavoir": ["On parle aussi de civilisation « Norte Chico », du nom de la région côtière où se trouvent ces sites."],
+  "sources": ["https://fr.wikipedia.org/wiki/Caral", "https://fr.wikipedia.org/wiki/Civilisation_de_Caral"]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "kremlin-de-moscou",
+  "nom": "Kremlin de Moscou",
+  "annee": 1485,
+  "domaine": "Architecture",
+  "dates": "1485 → 1495 (murailles de brique)",
+  "description": "La forteresse au cœur de Moscou, reconstruite à la fin du XVe siècle par des architectes italiens appelés par [[ivan-iii|Ivan III]], avec ses murailles de brique rouge, ses tours et ses cathédrales.",
+  "sections": [
+    {
+      "titre": "Ce qu’on y trouve",
+      "texte": "Les cathédrales de la Dormition, où sont couronnés les tsars, de l’Annonciation et de l’Archange-Saint-Michel, le clocher d’Ivan le Grand et des palais. C’est aujourd’hui le siège de la présidence russe."
+    }
+  ],
+  "aSavoir": ["Le mot « kremlin » désigne la forteresse centrale de nombreuses villes russes."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Kremlin_de_Moscou"
+}

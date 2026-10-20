@@ -1,0 +1,21 @@
+{
+  "id": "bataille-des-champs-catalauniques",
+  "nom": "Bataille des champs Catalauniques",
+  "annee": 451,
+  "dates": "juin 451",
+  "lieu": "Champagne (près de Châlons ou de Troyes)",
+  "description": "Une coalition de Romains, de Wisigoths, de Francs et d’Alains, menée par [[aetius|Aetius]], arrête l’armée d’[[attila|Attila]] qui a envahi la Gaule.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "La bataille est d’une violence extrême. Le roi wisigoth Théodoric Ier y est tué. Attila se retranche derrière ses chariots, puis se retire."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "La Gaule est épargnée, mais Attila envahit l’Italie dès l’année suivante. La bataille est souvent présentée comme l’une des dernières victoires de l’Empire romain d’Occident."
+    }
+  ],
+  "liens": [{ "ref": "attila", "relation": "Le vaincu" }, { "ref": "aetius", "relation": "Le chef de la coalition" }],
+  "apres": "bataille-de-la-nedao",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_des_champs_Catalauniques"
+}

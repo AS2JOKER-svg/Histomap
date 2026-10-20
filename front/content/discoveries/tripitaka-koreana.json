@@ -1,0 +1,22 @@
+{
+  "id": "tripitaka-koreana",
+  "nom": "Tripitaka Koreana",
+  "annee": 1251,
+  "domaine": "Religion et imprimerie",
+  "dates": "1237 → 1248",
+  "description": "Plus de 81 000 planches de bois gravées des textes sacrés du bouddhisme, pour imprimer le canon complet : la plus ancienne version complète conservée au monde.",
+  "sections": [
+    {
+      "titre": "Pourquoi il a été gravé",
+      "texte": "Une première version ayant brûlé lors d’une invasion mongole, le royaume en fait graver une nouvelle, en espérant que ce geste pieux protégera le pays."
+    },
+    {
+      "titre": "Une prouesse",
+      "texte": "Les planches contiennent environ 52 millions de caractères, presque sans erreur. Le bâtiment de Haeinsa qui les abrite est ventilé pour les protéger de l’humidité."
+    }
+  ],
+  "aSavoir": [
+    "Les planches et leur dépôt sont inscrits au patrimoine mondial et au registre « Mémoire du monde » de l’UNESCO."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Tripitaka_Koreana"
+}

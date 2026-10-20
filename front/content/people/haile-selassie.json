@@ -1,0 +1,20 @@
+{
+  "id": "haile-selassie",
+  "nom": "Haïlé Sélassié",
+  "nomComplet": "Tafari Makonnen",
+  "role": "Empereur d’Éthiopie",
+  "roles": ["Régent", "Empereur"],
+  "dates": "1892 → 1975",
+  "naissance": 1892,
+  "mort": 1975,
+  "description": "Régent puis empereur, il modernise l’État, résiste à l’invasion italienne depuis l’exil et devient une grande figure de l’Afrique, avant d’être renversé en 1974.",
+  "reperes": [{ "label": "Règne", "valeur": "1930 → 1974" }],
+  "essentiel": [
+    "Il donne à l’Éthiopie sa première Constitution écrite (1931).",
+    "En 1936, il dénonce l’agression italienne devant la Société des Nations.",
+    "Il revient au pouvoir en 1941 et fait d’Addis-Abeba le siège de l’OUA.",
+    "Renversé par le Derg, il meurt en détention en 1975, probablement assassiné."
+  ],
+  "aSavoir": ["Le mouvement rastafari tire son nom de son titre avant le couronnement : ras Tafari."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Ha%C3%AFl%C3%A9_S%C3%A9lassi%C3%A9_Ier"
+}

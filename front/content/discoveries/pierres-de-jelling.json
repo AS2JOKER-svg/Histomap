@@ -1,0 +1,16 @@
+{
+  "id": "pierres-de-jelling",
+  "nom": "Pierres de Jelling",
+  "annee": 965,
+  "domaine": "Écriture",
+  "dates": "vers 965",
+  "description": "Deux grandes pierres gravées de runes au Danemark : sur la plus grande, le roi Harald à la Dent bleue proclame qu’il a unifié le Danemark et fait des Danois des chrétiens.",
+  "sections": [
+    {
+      "titre": "Ce qu’elles disent",
+      "texte": "La petite pierre a été élevée par le roi Gorm pour sa femme Thyra. La grande montre une image du Christ, l’une des plus anciennes de Scandinavie."
+    }
+  ],
+  "aSavoir": ["On les surnomme « l’acte de naissance du Danemark » ; elles sont inscrites au patrimoine mondial."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Pierres_de_Jelling"
+}

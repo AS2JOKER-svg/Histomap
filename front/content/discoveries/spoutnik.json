@@ -1,0 +1,15 @@
+{
+  "id": "spoutnik",
+  "nom": "Spoutnik 1",
+  "annee": 1957,
+  "domaine": "Espace",
+  "dates": "4 octobre 1957",
+  "description": "Le premier satellite artificiel de l’histoire, lancé par l’URSS : une sphère de 58 cm qui fait le tour de la Terre en 96 minutes en émettant un « bip-bip ».",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "Son lancement surprend les États-Unis et déclenche la « course à l’espace », qui mène à l’envoi de Gagarine (1961) puis à l’arrivée des Américains sur la Lune (1969)."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Spoutnik_1"
+}

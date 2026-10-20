@@ -1,0 +1,21 @@
+{
+  "id": "voltaire",
+  "nom": "Voltaire",
+  "nomComplet": "François-Marie Arouet",
+  "role": "Philosophe et écrivain",
+  "roles": ["Philosophe", "Écrivain"],
+  "dates": "1694 → 1778",
+  "naissance": 1694,
+  "mort": 1778,
+  "description": "Écrivain et philosophe des Lumières, il combat le fanatisme et l’injustice et défend la tolérance, avec humour et ironie.",
+  "essentiel": [
+    "Embastillé deux fois, il s’exile en Angleterre, dont il admire la liberté.",
+    "Il écrit des contes philosophiques, comme Candide (1759).",
+    "Il défend Jean Calas, protestant injustement exécuté, et obtient sa réhabilitation.",
+    "Il entretient une correspondance avec les souverains d’Europe, dont Frédéric II de Prusse."
+  ],
+  "aSavoir": [
+    "La phrase « Je ne suis pas d’accord avec ce que vous dites, mais je me battrai pour que vous ayez le droit de le dire » ne vient pas de lui : elle a été écrite par une biographe en 1906."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Voltaire"
+}

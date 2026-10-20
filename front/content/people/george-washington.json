@@ -1,0 +1,19 @@
+{
+  "id": "george-washington",
+  "nom": "George Washington",
+  "role": "Premier président des États-Unis",
+  "roles": ["Général", "Président"],
+  "dates": "1732 → 1799",
+  "naissance": 1732,
+  "mort": 1799,
+  "description": "Planteur de Virginie, commandant de l’armée américaine pendant la guerre d’indépendance, puis premier président des États-Unis.",
+  "reperes": [{ "label": "Commandant en chef", "valeur": "1775 → 1783" }, { "label": "Président", "valeur": "1789 → 1797" }],
+  "essentiel": [
+    "Il maintient l’armée continentale malgré les défaites et le terrible hiver de Valley Forge.",
+    "Avec les Français, il remporte la victoire de [[bataille-de-yorktown|Yorktown]] (1781).",
+    "Il préside la convention qui rédige la Constitution.",
+    "Il refuse un troisième mandat, créant une tradition."
+  ],
+  "aSavoir": ["Il possédait des esclaves ; son testament prévoit leur libération après la mort de son épouse."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/George_Washington"
+}

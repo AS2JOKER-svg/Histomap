@@ -4,8 +4,10 @@ import { motion, useDragControls } from 'framer-motion'
 import { formatDuration, formatYear } from '../../lib/time'
 import { readableText, shade, civTextStyle } from '../../lib/color'
 import Icon from '../ui/Icon'
+import RichText from '../ui/RichText'
 import LineageTrail from '../LineageTrail'
 import { useProgress } from '../../store/progress'
+import { useCiv } from '../../lib/data'
 
 /**
  * Aperçu d'une civilisation sans quitter la frise.
@@ -29,7 +31,10 @@ export default function CivPreview({ civ, epoch, continent, onClose }) {
   }, [civ.id])
 
   const read = useProgress((st) => !!st.fiches[civ.id])
-  const events = [...(civ.datesCles ?? [])].sort((a, b) => a.annee - b.annee)
+  // En-tête et description : version légère (immédiate) ; dates, personnages, conflits : détail chargé à la demande
+  const detail = useCiv(civ.id)
+  const full = detail.civ
+  const events = [...(full?.datesCles ?? [])].sort((a, b) => a.annee - b.annee)
   const fg = readableText(civ.color)
   const offscreen = desktop ? { x: 420, opacity: 0 } : { y: '100%' }
 
@@ -101,7 +106,7 @@ export default function CivPreview({ civ, epoch, continent, onClose }) {
             </p>
           )}
 
-          <p className="text-[15px] text-ink/85 leading-relaxed">{civ.description}</p>
+          <RichText as="p" className="text-[15px] text-ink/85 leading-relaxed" text={civ.description} />
 
           {/* Même civilisation à l'époque précédente / suivante : on ouvre sa frise et on la met en évidence */}
           <LineageTrail
@@ -119,29 +124,42 @@ export default function CivPreview({ civ, epoch, continent, onClose }) {
                     <span className="shrink-0 w-[5.5rem] text-xs font-semibold tabular-nums pt-px civ-text" style={civTextStyle(civ.color)}>
                       {formatYear(ev.annee)}
                     </span>
-                    <span className="text-sm text-ink leading-snug">{ev.evenement}</span>
+                    <RichText className="text-sm text-ink leading-snug" text={ev.evenement} />
                   </li>
                 ))}
               </ol>
             </section>
           )}
 
-          {civ.personnages?.length > 0 && (
+          {detail.status === 'loading' && (
+            <div className="space-y-2.5 animate-pulse" aria-busy="true" aria-label="Chargement de la fiche">
+              <div className="h-3 w-24 rounded bg-surface2" />
+              {[0, 1, 2, 3].map((i) => <div key={i} className="h-4 rounded bg-surface2" />)}
+            </div>
+          )}
+          {detail.status === 'error' && (
+            <p className="text-sm text-muted flex flex-wrap items-center gap-2">
+              Le détail n'a pas pu être chargé.
+              <button onClick={detail.retry} className="text-accent font-medium hover:underline">Réessayer</button>
+            </p>
+          )}
+
+          {full?.personnages?.length > 0 && (
             <section>
               <h3 className="eyebrow mb-2.5">Personnages</h3>
               <div className="flex flex-wrap gap-1.5">
-                {civ.personnages.map((p) => (
+                {full.personnages.map((p) => (
                   <span key={p.nom} className="chip">{p.nom}</span>
                 ))}
               </div>
             </section>
           )}
 
-          {civ.guerres?.length > 0 && (
+          {full?.guerres?.length > 0 && (
             <section>
               <h3 className="eyebrow mb-2.5">Conflits majeurs</h3>
               <ul className="space-y-1.5">
-                {civ.guerres.map((g) => (
+                {full.guerres.map((g) => (
                   <li key={g.nom} className="flex items-baseline justify-between gap-3 text-sm">
                     <span className="text-ink">{g.nom}</span>
                     {g.annee != null && <span className="text-xs text-muted tabular-nums shrink-0">{formatYear(g.annee)}</span>}

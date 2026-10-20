@@ -1,0 +1,19 @@
+{
+  "id": "empereur-meiji",
+  "nom": "Empereur Meiji",
+  "nomComplet": "Mutsuhito",
+  "role": "Empereur du Japon",
+  "roles": ["Empereur"],
+  "dates": "1852 → 1912",
+  "naissance": 1852,
+  "mort": 1912,
+  "description": "Empereur à 15 ans, il incarne la modernisation rapide du Japon : fin du shogunat, Constitution, industrialisation, armée moderne et victoires sur la Chine et la Russie.",
+  "reperes": [{ "label": "Règne", "valeur": "1867 → 1912" }],
+  "essentiel": [
+    "La [[restauration-de-meiji|restauration de 1868]] lui rend le pouvoir.",
+    "Il s’installe à Edo, rebaptisée Tokyo.",
+    "Il promulgue la Constitution de 1889.",
+    "Son règne voit la victoire de [[bataille-de-tsushima|Tsushima]] (1905) et l’annexion de la Corée (1910)."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Meiji_(empereur)"
+}

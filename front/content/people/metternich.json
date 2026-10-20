@@ -1,0 +1,18 @@
+{
+  "id": "metternich",
+  "nom": "Metternich",
+  "nomComplet": "Klemens von Metternich",
+  "role": "Chancelier d’Autriche",
+  "roles": ["Diplomate", "Chancelier"],
+  "dates": "1773 → 1859",
+  "naissance": 1773,
+  "mort": 1859,
+  "description": "Diplomate qui dirige la politique de l’Autriche pendant près de quarante ans, organise le congrès de Vienne et s’efforce de maintenir l’ordre européen contre les révolutions.",
+  "essentiel": [
+    "Ministre des Affaires étrangères à partir de 1809, il négocie le mariage de Napoléon avec Marie-Louise d’Autriche.",
+    "Il préside le [[congres-de-vienne|congrès de Vienne]] (1814-1815).",
+    "Il réprime les mouvements libéraux et nationaux en Europe.",
+    "La révolution de 1848 le chasse du pouvoir."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Klemens_Wenzel_von_Metternich"
+}

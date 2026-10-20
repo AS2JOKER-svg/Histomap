@@ -1,0 +1,15 @@
+{
+  "id": "bataille-de-rossbach",
+  "nom": "Bataille de Rossbach",
+  "annee": 1757,
+  "dates": "5 novembre 1757",
+  "lieu": "Rossbach (Saxe)",
+  "description": "En une heure et demie, l’armée de [[frederic-ii-de-prusse|Frédéric II]] met en déroute une armée française et impériale deux fois plus nombreuse.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "La victoire rend Frédéric II célèbre dans toute l’Allemagne, mais la guerre continue encore six ans."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Rossbach"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "hernan-cortes",
+  "nom": "Hernán Cortés",
+  "role": "Conquistador",
+  "roles": ["Conquistador"],
+  "dates": "1485 → 1547",
+  "naissance": 1485,
+  "mort": 1547,
+  "description": "Conquistador espagnol qui débarque au Mexique en 1519 et, allié à de nombreux peuples autochtones, s’empare de Tenochtitlan en 1521.",
+  "reperes": [
+    { "label": "Naissance", "valeur": "1485", "precision": "Medellín, en Castille" },
+    { "label": "Titre", "valeur": "Marquis de la vallée d’Oaxaca" }
+  ],
+  "essentiel": [
+    "Il s’allie à Tlaxcala, ennemie des Mexicas, et entre à Tenochtitlan en novembre 1519.",
+    "Chassé de la ville en 1520 (la « Noche Triste »), il revient l’assiéger en 1521.",
+    "Il gouverne un temps la Nouvelle-Espagne avant d’être écarté par la Couronne."
+  ],
+  "chronologie": [
+    { "annee": 1519, "texte": "Débarque sur la côte du golfe du Mexique" },
+    { "annee": 1520, "texte": "Fuite de Tenochtitlan (la Noche Triste)" },
+    { "annee": 1521, "texte": "Prise de Tenochtitlan", "ref": "chute-de-tenochtitlan" },
+    { "annee": 1547, "texte": "Meurt en Espagne" }
+  ],
+  "liens": [
+    { "ref": "malinche", "relation": "Son interprète" },
+    { "ref": "moctezuma-ii", "relation": "Le souverain qu’il retient prisonnier" }
+  ],
+  "aSavoir": ["Ses lettres à Charles Quint sont une source essentielle, mais elles servent aussi à justifier ses actes."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Hern%C3%A1n_Cort%C3%A9s"
+}

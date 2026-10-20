@@ -1,0 +1,24 @@
+{
+  "id": "darius-ier",
+  "nom": "Darius Ier",
+  "role": "Roi des rois",
+  "roles": ["Roi des rois", "Organisateur"],
+  "dates": "règne −522 → −486",
+  "mort": -486,
+  "description": "Roi perse qui prend le pouvoir après une crise de succession, réprime les révoltes et organise l’empire : satrapies, impôts, monnaie, routes et nouvelles capitales.",
+  "essentiel": [
+    "Il raconte sa prise de pouvoir dans l’inscription de Behistun, gravée sur une falaise en trois langues.",
+    "Il étend l’empire jusqu’à l’Indus et en Thrace.",
+    "Il fonde [[persepolis|Persépolis]] et crée la darique, une monnaie d’or.",
+    "Son expédition contre Athènes échoue à [[bataille-de-marathon|Marathon]] en −490."
+  ],
+  "chronologie": [
+    { "annee": -522, "texte": "Prise du pouvoir" },
+    { "annee": -518, "texte": "Fondation de Persépolis" },
+    { "annee": -513, "texte": "Expédition contre les Scythes" },
+    { "annee": -490, "texte": "Défaite de Marathon", "ref": "bataille-de-marathon" },
+    { "annee": -486, "texte": "Mort" }
+  ],
+  "aSavoir": ["L’inscription de Behistun a permis aux savants du XIXe siècle de déchiffrer l’écriture cunéiforme."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Darius_Ier"
+}

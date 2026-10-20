@@ -1,0 +1,19 @@
+{
+  "id": "mahatma-gandhi",
+  "nom": "Mahatma Gandhi",
+  "nomComplet": "Mohandas Karamchand Gandhi",
+  "role": "Leader de l’indépendance indienne",
+  "roles": ["Avocat", "Militant"],
+  "dates": "1869 → 1948",
+  "naissance": 1869,
+  "mort": 1948,
+  "description": "Avocat formé à Londres, il lutte d’abord contre les discriminations en Afrique du Sud, puis prend la tête du mouvement pour l’indépendance de l’Inde, par la désobéissance civile non violente.",
+  "essentiel": [
+    "En Afrique du Sud (1893-1914), il invente sa méthode de résistance non violente, le satyagraha.",
+    "Il organise le boycott des produits britanniques et file lui-même son coton.",
+    "La [[marche-du-sel|marche du sel]] (1930) mobilise des millions d’Indiens.",
+    "Il est assassiné le 30 janvier 1948, quelques mois après l’indépendance."
+  ],
+  "aSavoir": ["« Mahatma » signifie « grande âme » ; il ne s’est jamais donné lui-même ce titre."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Mohandas_Karamchand_Gandhi"
+}

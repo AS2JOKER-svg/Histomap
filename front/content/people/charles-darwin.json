@@ -1,0 +1,16 @@
+{
+  "id": "charles-darwin",
+  "nom": "Charles Darwin",
+  "role": "Naturaliste",
+  "roles": ["Naturaliste", "Biologiste"],
+  "dates": "1809 → 1882",
+  "naissance": 1809,
+  "mort": 1882,
+  "description": "Naturaliste anglais qui, après un voyage autour du monde, propose que les espèces évoluent par la sélection naturelle.",
+  "essentiel": [
+    "De 1831 à 1836, il voyage à bord du Beagle et observe la faune des Galápagos.",
+    "En 1859, il publie L’Origine des espèces, qui expose la [[theorie-de-l-evolution|théorie de l’évolution]].",
+    "Il montre ensuite que l’homme descend d’ancêtres communs avec les grands singes."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Charles_Darwin"
+}

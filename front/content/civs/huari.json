@@ -1,0 +1,106 @@
+{
+  "id": "huari",
+  "label": "Empire Huari (Wari)",
+  "tier": 1,
+  "region": "andes",
+  "period": "600 à 1050",
+  "start": 600,
+  "end": 1050,
+  "color": "#ba9c07",
+  "trackId": "andes_nord",
+  "row": 3,
+  "isRiver": false,
+  "capitale": "Huari (Pérou central)",
+  "description": "Le premier grand État des Andes centrales, centré sur la ville de Huari, au Pérou : il étend son influence sur une grande partie du pays par des centres administratifs, des routes et des colonies.",
+  "territories": ["Huari Empire"],
+  "datesCles": [
+    {
+      "annee": 600,
+      "evenement": "L’expansion",
+      "info": "Huari étend son influence vers le nord, la côte et le sud du Pérou."
+    },
+    {
+      "annee": 700,
+      "evenement": "Standardisation",
+      "info": "Huari bâtit des centres administratifs et développe les terrasses agricoles ; elle diffuse peut-être une langue ancêtre de l’aymara, selon une hypothèse."
+    },
+    {
+      "annee": 1000,
+      "evenement": "Fragmentation",
+      "info": "La capitale est abandonnée vers l’an 1000 ; les causes (sécheresse, révoltes, crise politique) sont discutées."
+    }
+  ],
+  "dirigeants": [],
+  "personnages": [],
+  "guerres": [],
+  "sciences": "Les Huari construisent des centres administratifs sur un plan quadrillé, avec de hauts murs, comme Pikillaqta. Ils développent les terrasses agricoles (andenes) à flanc de montagne, des canaux d’irrigation et des routes, en partie reprises plus tard par les Incas. Ils utilisent des cordelettes à nœuds de couleurs, ancêtres des quipus incas, pour tenir des comptes.",
+  "croyancesText": "La religion de Huari partage avec Tiwanaku le culte du Dieu aux bâtons, représenté dans un style plus géométrique. Les grandes offrandes de céramiques brisées rituellement et les tombes souterraines des élites montrent l’importance du culte des ancêtres.",
+  "diplomatie": "Huari étend son influence par des centres administratifs, des colonies et sans doute par la force, mais aussi par des alliances avec les élites locales ; la part de la conquête militaire est discutée. Au sud, à Cerro Baúl, des colonies huari et tiwanaku vivent à proximité, sans conflit connu.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": { "valeur": "Huari", "precision": "près d’Ayacucho, dans les Andes centrales du Pérou" },
+    "regimes": {
+      "valeur": "État centralisé",
+      "precision": "souvent qualifié d’empire ; aucun souverain n’est connu par son nom"
+    },
+    "langues": {
+      "valeur": "Inconnue",
+      "precision": "peut-être une langue ancêtre de l’aymara ou du quechua, selon des hypothèses"
+    },
+    "religion": { "valeur": "Polythéisme", "precision": "culte du Dieu aux bâtons, partagé avec Tiwanaku" },
+    "apogee": { "valeur": "Vers 700-850" },
+    "population": { "valeur": "Huari : peut-être 20 000 à 40 000 habitants", "precision": "estimation" },
+    "monnaie": { "valeur": "Aucune" },
+    "duree": { "valeur": "Environ 450 ans" },
+    "aujourdhui": { "valeur": "Pérou", "precision": "Andes et côte centrale et méridionale" }
+  },
+  "essentiel": [
+    "Vers 600, la ville de Huari étend son influence sur une grande partie du Pérou.",
+    "Elle bâtit des centres administratifs au plan géométrique, comme [[pikillaqta|Pikillaqta]], reliés par des routes.",
+    "Les Huari développent les terrasses agricoles et utilisent déjà des cordelettes à nœuds pour compter, ancêtres des quipus incas.",
+    "Leurs tissages comptent parmi les plus fins des Andes ; la [[tombe-de-huarmey|tombe royale de Huarmey]] a révélé leurs richesses.",
+    "Vers l’an 1000, la capitale est abandonnée ; les Incas reprendront plus tard une partie de leurs routes et de leurs méthodes."
+  ],
+  "periodes": [
+    {
+      "nom": "L’expansion",
+      "debut": 600,
+      "fin": 800,
+      "resume": "Huari fonde des centres et des colonies, de Cajamarca au nord jusqu’à Moquegua au sud, où elle côtoie des colonies de Tiwanaku."
+    },
+    {
+      "nom": "L’apogée et la fin",
+      "debut": 800,
+      "fin": 1050,
+      "resume": "Les centres administratifs fonctionnent, puis sont abandonnés ; des États régionaux prennent le relais."
+    }
+  ],
+  "regimes": [
+    {
+      "id": "etat",
+      "nom": "État centralisé",
+      "debut": 600,
+      "fin": 1050,
+      "note": "L’organisation de Huari (centres administratifs, routes, greniers) suggère un État puissant, mais son fonctionnement, militaire ou religieux, est débattu. Aucun nom de souverain n’est connu."
+    }
+  ],
+  "dynasties": [],
+  "societe": "Une élite administre le territoire depuis les centres, avec des greniers et des ateliers. Les communautés locales fournissent du travail par roulement, un système que les Incas reprendront.",
+  "economie": "Agriculture en terrasses (maïs, pomme de terre), élevage de lamas, artisanat textile et céramique, organisation du travail collectif.",
+  "decouvertes": ["pikillaqta", "tombe-de-huarmey"],
+  "arts": "Tuniques tissées aux motifs géométriques abstraits, très serrées, céramiques polychromes aux grands visages du Dieu aux bâtons, bijoux en or et en argent.",
+  "quotidien": "Les habitants vivent dans des maisons de pierre groupées autour de cours. Les grands banquets, avec de la bière de maïs (chicha), scellent les alliances.",
+  "heritage": [
+    {
+      "titre": "Un modèle pour les Incas",
+      "texte": "Routes, terrasses, centres administratifs et cordelettes à nœuds : les Incas ont repris de nombreuses techniques de Huari."
+    }
+  ],
+  "aSavoir": [
+    "On a longtemps cru que les Incas avaient tout inventé ; l’archéologie montre qu’ils ont hérité de plusieurs siècles d’expériences andines, dont celle de Huari."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Culture_Huari",
+    { "titre": "Encyclopædia Britannica — Wari", "url": "https://www.britannica.com/place/Huari" }
+  ]
+}

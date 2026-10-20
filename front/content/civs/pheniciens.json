@@ -1,0 +1,245 @@
+{
+  "id": "pheniciens",
+  "label": "Phéniciens",
+  "tier": 1,
+  "region": "levant",
+  "period": "-1200 à -64",
+  "start": -1200,
+  "end": -64,
+  "color": "#6a1b29",
+  "trackId": "pheniciens",
+  "row": 4,
+  "isRiver": false,
+  "capitale": "Tyr, Sidon, Byblos",
+  "description": "Des cités marchandes de la côte du Liban, Tyr, Sidon et Byblos, dont les navires parcourent toute la Méditerranée. Elles diffusent l’alphabet et fondent Carthage.",
+  "territories": [],
+  "datesCles": [
+    {
+      "annee": -1050,
+      "evenement": "L’alphabet phénicien",
+      "info": "Un alphabet de 22 signes, notant les consonnes, est utilisé à Byblos et dans les cités phéniciennes."
+    },
+    {
+      "annee": -969,
+      "evenement": "Règne d’Hiram Ier",
+      "info": "Le roi de Tyr fait de sa cité la première puissance commerciale de la Méditerranée."
+    },
+    {
+      "annee": -814,
+      "evenement": "Fondation de Carthage",
+      "info": "Selon la tradition, la princesse tyrienne Élissa (Didon) fonde Carthage."
+    },
+    {
+      "annee": -600,
+      "evenement": "Tour de l’Afrique",
+      "info": "Selon Hérodote, des marins phéniciens au service du pharaon Néchao II font le tour de l’Afrique en trois ans."
+    },
+    {
+      "annee": -332,
+      "evenement": "Siège de Tyr",
+      "info": "Alexandre le Grand construit une digue pour atteindre la cité insulaire et la prend après sept mois.",
+      "ref": "siege-de-tyr"
+    },
+    {
+      "annee": -64,
+      "evenement": "Province romaine",
+      "info": "Pompée intègre la côte phénicienne à la province romaine de Syrie."
+    }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Ahiram",
+      "titre": "Roi de Byblos",
+      "debut": -1000,
+      "fin": -1000,
+      "dynastie": "byblos",
+      "note": "son sarcophage porte l’une des plus anciennes inscriptions phéniciennes",
+      "cle": true
+    },
+    {
+      "nom": "Hiram Ier",
+      "titre": "Roi de Tyr",
+      "debut": -969,
+      "fin": -936,
+      "dynastie": "tyr",
+      "note": "allié du roi Salomon",
+      "cle": true
+    },
+    {
+      "nom": "Ithobaal Ier",
+      "titre": "Roi de Tyr",
+      "debut": -887,
+      "fin": -856,
+      "dynastie": "tyr",
+      "note": "père de Jézabel, reine d’Israël"
+    },
+    {
+      "nom": "Pygmalion",
+      "titre": "Roi de Tyr",
+      "debut": -831,
+      "fin": -785,
+      "dynastie": "tyr",
+      "note": "frère d’Élissa (Didon), selon la tradition",
+      "cle": true
+    },
+    {
+      "nom": "Ithobaal III",
+      "titre": "Roi de Tyr",
+      "debut": -591,
+      "fin": -573,
+      "dynastie": "tyr",
+      "note": "résiste au siège de Nabuchodonosor II"
+    },
+    {
+      "nom": "Azemilkos",
+      "titre": "Roi de Tyr",
+      "debut": -350,
+      "fin": -332,
+      "dynastie": "tyr",
+      "note": "roi lors du siège d’Alexandre"
+    },
+    { "nom": "Tabnit", "titre": "Roi de Sidon", "debut": -490, "fin": -475, "dynastie": "sidon" },
+    {
+      "nom": "Eshmunazar II",
+      "titre": "Roi de Sidon",
+      "debut": -475,
+      "fin": -461,
+      "dynastie": "sidon",
+      "note": "son sarcophage est au Louvre"
+    },
+    {
+      "nom": "Straton Ier",
+      "titre": "Roi de Sidon",
+      "debut": -365,
+      "fin": -352,
+      "dynastie": "sidon",
+      "note": "ami des Grecs"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Hiram Ier",
+      "role": "Roi de Tyr",
+      "description": "Selon la Bible, il fournit au roi Salomon le bois de cèdre et les artisans pour bâtir le Temple de Jérusalem.",
+      "dates": "règne vers −969 → −936",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Hiram_Ier"
+    },
+    {
+      "nom": "Élissa (Didon)",
+      "role": "Princesse de Tyr",
+      "description": "Selon la légende, elle fuit son frère Pygmalion, roi de Tyr, et fonde Carthage.",
+      "dates": "légendaire",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Didon"
+    },
+    {
+      "nom": "Jézabel",
+      "role": "Reine d’Israël",
+      "description": "Princesse de Tyr, épouse du roi Achab d’Israël ; la Bible la présente très négativement pour avoir promu le culte de Baal.",
+      "dates": "IXe siècle av. J.-C.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/J%C3%A9zabel"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Siège de Tyr par Alexandre",
+      "annee": -332,
+      "adversaires": ["Macédoine (Alexandre)", "Flottes de Sidon, Byblos et Chypre (ralliées à Alexandre)"],
+      "allies": [],
+      "morts": "Selon l’historien Arrien, 8 000 habitants tués et 30 000 vendus comme esclaves",
+      "vainqueur": "Macédoine",
+      "consequences": "Tyr est prise après sept mois de siège. La digue construite par Alexandre a transformé l’île en presqu’île, ce qu’elle est toujours.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Tyr_(332_av._J.-C.)"
+    }
+  ],
+  "sciences": "Les Phéniciens sont des navigateurs hors pair. Ils naviguent de nuit en se repérant sur les étoiles : les Grecs appelaient la Petite Ourse « l’étoile phénicienne ». Ils maîtrisent la fabrication du verre soufflé (à la fin de l’époque) et de la pourpre, une teinture tirée de coquillages, le murex. Leur alphabet de 22 signes, bien plus simple que les centaines de signes du cunéiforme, se diffuse dans toute la Méditerranée.",
+  "croyancesText": "Chaque cité a ses dieux : Melqart à Tyr, Eshmoun à Sidon, la Baalat (la « Dame ») à Byblos ; Baal et Astarté sont honorés partout. Les marins emportent leurs dieux dans leurs comptoirs : Melqart a un grand temple à Gadès (Cadix). La pratique des sacrifices d’enfants, attestée à Carthage, est discutée pour la Phénicie elle-même.",
+  "diplomatie": "Les cités, souvent rivales, préfèrent le commerce à la conquête. Elles paient tribut aux grands empires (Assyrie, Babylone, Perse) pour garder leur autonomie, et leur fournissent navires et marins. Hiram Ier de Tyr s’allie au roi Salomon : il lui fournit du cèdre et des artisans pour le Temple de Jérusalem, en échange de blé et d’huile.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": { "valeur": "Aucune capitale commune", "precision": "des cités indépendantes : Tyr, Sidon, Byblos, Arwad" },
+    "regimes": { "valeur": "Cités-royaumes", "precision": "chaque cité a son roi, entouré de conseils de marchands" },
+    "langues": { "valeur": "Phénicien", "precision": "langue sémitique, écrite avec un alphabet de 22 consonnes" },
+    "religion": { "valeur": "Polythéisme", "precision": "Baal, Melqart (dieu de Tyr), Astarté, Eshmoun" },
+    "apogee": { "valeur": "Xe-VIIIe siècles av. J.-C.", "precision": "Tyr domine le commerce méditerranéen" },
+    "population": { "valeur": "Inconnue", "precision": "Tyr compte peut-être 30 000 à 40 000 habitants au IVe siècle av. J.-C." },
+    "monnaie": { "valeur": "Monnaies à partir du Ve siècle av. J.-C.", "precision": "le sicle de Tyr, en argent" },
+    "duree": { "valeur": "Plus de 1 100 ans" },
+    "aujourdhui": {
+      "valeur": "Liban",
+      "precision": "et la côte de la Syrie et du nord d’Israël ; comptoirs de Chypre à l’Espagne"
+    }
+  },
+  "essentiel": [
+    "Les Phéniciens habitent une étroite bande côtière, au pied des montagnes du Liban : leur avenir est sur la mer.",
+    "Ils mettent au point l’[[alphabet-phenicien|alphabet phénicien]], ancêtre des alphabets grec, latin, hébreu et arabe.",
+    "Leurs marchands vendent dans toute la Méditerranée le bois de cèdre, le verre et la précieuse [[pourpre-de-tyr|pourpre]].",
+    "Ils fondent des comptoirs jusqu’en Espagne, dont Cadix et [[carthage|Carthage]], qui deviendra plus puissante que Tyr.",
+    "Soumises tour à tour aux Assyriens, aux Babyloniens et aux Perses, les cités tombent face à Alexandre lors du [[siege-de-tyr|siège de Tyr]] (−332)."
+  ],
+  "periodes": [
+    {
+      "nom": "L’essor des cités",
+      "debut": -1200,
+      "fin": -880,
+      "resume": "Après l’effondrement de l’âge du bronze, les cités de la côte se relèvent les premières et développent l’alphabet et le commerce maritime.",
+      "evenements": [{ "annee": -1050, "evenement": "Alphabet phénicien" }, { "annee": -969, "evenement": "Avènement d’Hiram Ier" }]
+    },
+    {
+      "nom": "L’expansion en Méditerranée",
+      "debut": -880,
+      "fin": -539,
+      "resume": "Les Phéniciens fondent des comptoirs à Chypre, en Sicile, en Sardaigne, en Afrique et en Espagne, tout en payant tribut aux Assyriens puis aux Babyloniens.",
+      "evenements": [
+        { "annee": -814, "evenement": "Fondation de Carthage" },
+        { "annee": -585, "evenement": "Nabuchodonosor II assiège Tyr pendant treize ans" }
+      ]
+    },
+    {
+      "nom": "Sous les Perses et les Grecs",
+      "debut": -539,
+      "fin": -64,
+      "resume": "Les cités fournissent leur flotte aux rois perses. Après la prise de Tyr par Alexandre, elles passent aux royaumes grecs puis à Rome.",
+      "evenements": [
+        { "annee": -480, "evenement": "La flotte phénicienne combat à Salamine", "ref": "bataille-de-salamine" },
+        { "annee": -332, "evenement": "Siège de Tyr", "ref": "siege-de-tyr" }
+      ]
+    }
+  ],
+  "dynasties": [
+    { "id": "byblos", "nom": "Rois de Byblos", "debut": -1000, "fin": -1000, "note": "Date approximative." },
+    {
+      "id": "tyr",
+      "nom": "Rois de Tyr",
+      "debut": -969,
+      "fin": -332,
+      "note": "Dates transmises par l’historien Flavius Josèphe ; approximatives."
+    },
+    { "id": "sidon", "nom": "Rois de Sidon", "debut": -490, "fin": -352, "note": "Dates approximatives." }
+  ],
+  "societe": "Le roi gouverne avec les grandes familles de marchands et d’armateurs. Artisans du verre, de la pourpre, du bois et du métal, marins et esclaves forment la population des cités.",
+  "economie": "Commerce maritime : bois de cèdre, tissus teints en pourpre, verre, ivoires sculptés, vin ; en échange, argent et étain d’Espagne, cuivre de Chypre, or, ivoire.",
+  "decouvertes": ["alphabet-phenicien", "pourpre-de-tyr"],
+  "arts": "Ivoires sculptés, coupes en métal gravées, bijoux, verre coloré, sarcophages de pierre en forme humaine : un art qui mêle influences égyptiennes, mésopotamiennes et grecques.",
+  "quotidien": "Dans les ports, les ateliers de pourpre dégagent une odeur si forte qu’ils sont installés à l’écart des maisons. Les marins partent au printemps et rentrent avant les tempêtes d’hiver.",
+  "heritage": [
+    {
+      "titre": "L’alphabet",
+      "texte": "Les alphabets grec, latin, hébreu et arabe descendent tous de l’alphabet phénicien."
+    },
+    {
+      "titre": "Des villes",
+      "texte": "Cadix, Malaga, Palerme, Carthage… de nombreuses villes de Méditerranée sont d’anciens comptoirs phéniciens."
+    },
+    {
+      "titre": "Les mots",
+      "texte": "Le nom de la Bible vient de Byblos, d’où les Grecs importaient le papyrus ; le mot « Europe » serait peut-être d’origine phénicienne."
+    }
+  ],
+  "aSavoir": [
+    "Les Phéniciens ne se donnaient pas ce nom : il vient du grec « phoinix », qui désigne la couleur pourpre. Ils se désignaient plutôt par leur cité (Tyriens, Sidoniens) ou comme Cananéens."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Ph%C3%A9nicie",
+    { "titre": "Encyclopædia Britannica — Phoenicia", "url": "https://www.britannica.com/place/Phoenicia" }
+  ]
+}

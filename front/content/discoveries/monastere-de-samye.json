@@ -1,0 +1,19 @@
+{
+  "id": "monastere-de-samye",
+  "nom": "Monastère de Samye",
+  "annee": 779,
+  "domaine": "Architecture et religion",
+  "dates": "vers 779",
+  "description": "Le premier monastère bouddhiste du Tibet, fondé par le roi Trisong Detsen, avec l’aide des maîtres indiens Shantarakshita et Padmasambhava.",
+  "sections": [
+    {
+      "titre": "Comment il est construit",
+      "texte": "Son plan reproduit l’univers bouddhiste : un temple central, qui représente le mont Meru, entouré de chapelles et d’un mur circulaire."
+    },
+    {
+      "titre": "Son rôle",
+      "texte": "Les premiers moines tibétains y sont ordonnés et des textes y sont traduits. C’est là qu’aurait eu lieu le grand débat entre bouddhistes indiens et chinois."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Monast%C3%A8re_de_Samy%C3%A9"
+}

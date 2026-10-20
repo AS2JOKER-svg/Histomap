@@ -1,0 +1,18 @@
+{
+  "id": "behanzin",
+  "nom": "Béhanzin",
+  "role": "Dernier roi indépendant du Dahomey",
+  "roles": ["Roi"],
+  "dates": "1845 → 1906",
+  "naissance": 1845,
+  "mort": 1906,
+  "description": "Roi à partir de 1889, il refuse la domination française et mène deux guerres contre la France, avant de se rendre en 1894.",
+  "reperes": [{ "label": "Règne", "valeur": "1889 → 1894" }],
+  "essentiel": [
+    "Il affronte les Français en 1890, puis lors de la [[conquete-francaise-du-dahomey|seconde guerre]] (1892-1894).",
+    "Il incendie Abomey avant de l’abandonner aux Français.",
+    "Il est exilé en Martinique, puis en Algérie, où il meurt.",
+    "Il est aujourd’hui un héros national au Bénin."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/B%C3%A9hanzin"
+}

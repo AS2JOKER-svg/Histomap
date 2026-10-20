@@ -1,0 +1,24 @@
+{
+  "id": "reformes-de-clisthene",
+  "nom": "Réformes de Clisthène",
+  "annee": -508,
+  "dates": "−508/−507",
+  "lieu": "Athènes",
+  "description": "Après la chute des tyrans, Clisthène réorganise les citoyens d’Athènes et donne le pouvoir à leur assemblée : c’est la naissance de la démocratie athénienne.",
+  "sections": [
+    {
+      "titre": "Contexte",
+      "texte": "Athènes sort de plusieurs décennies de tyrannie (Pisistrate et ses fils) et de luttes entre familles aristocratiques."
+    },
+    {
+      "titre": "Déroulement",
+      "texte": "Clisthène répartit les citoyens en dix tribus mêlant habitants de la ville, de la côte et de l’intérieur, pour briser le pouvoir des grandes familles. Un conseil de 500 citoyens tirés au sort prépare les lois votées par l’assemblée."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Tous les citoyens peuvent voter et prendre la parole à l’assemblée (l’ecclésia). L’ostracisme permet d’exiler pour dix ans un homme jugé dangereux pour la cité."
+    }
+  ],
+  "aSavoir": ["Seule une minorité des habitants est citoyenne : les femmes, les étrangers et les esclaves sont exclus."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Clisth%C3%A8ne"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "edit-de-nantes",
+  "nom": "Édit de Nantes",
+  "annee": 1598,
+  "dates": "avril 1598",
+  "lieu": "Nantes",
+  "description": "[[henri-iv|Henri IV]] accorde aux protestants la liberté de conscience, une liberté de culte limitée et des places fortes : les guerres de religion prennent fin.",
+  "sections": [
+    {
+      "titre": "Ce qu’il prévoit",
+      "texte": "Les protestants peuvent célébrer leur culte dans certains lieux, accéder à toutes les charges et disposer d’une centaine de places de sûreté."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "La paix revient. Mais Louis XIV révoque l’édit en 1685 par l’édit de Fontainebleau."
+    }
+  ],
+  "avant": "massacre-de-la-saint-barthelemy",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/%C3%89dit_de_Nantes"
+}

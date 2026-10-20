@@ -1,0 +1,19 @@
+{
+  "id": "li-bai",
+  "nom": "Li Bai",
+  "role": "Poète",
+  "roles": ["Poète"],
+  "dates": "701 → 762",
+  "naissance": 701,
+  "mort": 762,
+  "description": "Le plus célèbre poète chinois : ses poèmes sur le vin, la lune, l’amitié et la nature sont parmi les plus connus de la littérature chinoise.",
+  "essentiel": [
+    "Il passe quelque temps à la cour de l’empereur Xuanzong, puis mène une vie de voyageur.",
+    "Il est l’ami du poète Du Fu.",
+    "Environ un millier de ses poèmes nous sont parvenus."
+  ],
+  "aSavoir": [
+    "Selon la légende, il se serait noyé en voulant embrasser le reflet de la lune dans l’eau ; c’est une légende, pas un fait établi."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Li_Bai"
+}

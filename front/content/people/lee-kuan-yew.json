@@ -1,0 +1,18 @@
+{
+  "id": "lee-kuan-yew",
+  "nom": "Lee Kuan Yew",
+  "role": "Premier ministre de Singapour",
+  "roles": ["Avocat", "Premier ministre"],
+  "dates": "1923 → 2015",
+  "naissance": 1923,
+  "mort": 2015,
+  "description": "Avocat formé à Cambridge, il dirige Singapour pendant plus de trente ans et en fait un pays très riche, avec un pouvoir autoritaire qui limite l’opposition et la presse.",
+  "reperes": [{ "label": "Premier ministre", "valeur": "1959 → 1990" }],
+  "essentiel": [
+    "Il fonde le Parti d’action populaire (1954), au pouvoir depuis 1959.",
+    "Il mène Singapour à l’indépendance en 1965.",
+    "Il attire les entreprises étrangères et développe le logement public.",
+    "Son fils, Lee Hsien Loong, devient Premier ministre en 2004."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Lee_Kuan_Yew"
+}

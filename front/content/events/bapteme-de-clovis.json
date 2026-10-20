@@ -1,0 +1,20 @@
+{
+  "id": "bapteme-de-clovis",
+  "nom": "Baptême de Clovis",
+  "annee": 496,
+  "dates": "un 25 décembre, vers 496-499 (date discutée)",
+  "lieu": "Reims",
+  "description": "[[clovis|Clovis]], roi des Francs, est baptisé dans la foi catholique par l’évêque Remi, avec plusieurs milliers de ses guerriers.",
+  "sections": [
+    {
+      "titre": "Contexte",
+      "texte": "Selon Grégoire de Tours, Clovis promet de se convertir s’il gagne une bataille contre les Alamans. Son épouse Clotilde, catholique, l’y encourageait."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Contrairement aux autres rois germaniques, ariens, Clovis obtient le soutien des évêques et de la population gallo-romaine. Reims devient le lieu du sacre des rois de France."
+    }
+  ],
+  "liens": [{ "ref": "clovis", "relation": "Le roi baptisé" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bapt%C3%AAme_de_Clovis"
+}

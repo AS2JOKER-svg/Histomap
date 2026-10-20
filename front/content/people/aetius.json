@@ -1,0 +1,20 @@
+{
+  "id": "aetius",
+  "nom": "Aetius",
+  "nomComplet": "Flavius Aetius",
+  "role": "Général romain",
+  "roles": ["Général", "Homme d’État"],
+  "dates": "vers 391 → 454",
+  "naissance": 391,
+  "mort": 454,
+  "description": "Général qui domine l’Empire romain d’Occident pendant vingt ans ; il s’appuie longtemps sur les Huns, puis les arrête en Gaule en 451.",
+  "essentiel": [
+    "Jeune, il passe plusieurs années comme otage chez les Huns.",
+    "Il défend la Gaule contre les Wisigoths, les Francs et les Burgondes.",
+    "Il bat Attila aux [[bataille-des-champs-catalauniques|champs Catalauniques]] avec l’aide des Wisigoths.",
+    "Il est assassiné en 454 par l’empereur Valentinien III lui-même."
+  ],
+  "aSavoir": ["On l’a parfois appelé « le dernier des Romains »."],
+  "liens": [{ "ref": "attila", "relation": "Son allié, puis son adversaire" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/A%C3%A9tius"
+}

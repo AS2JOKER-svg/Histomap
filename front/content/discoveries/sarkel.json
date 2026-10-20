@@ -1,0 +1,15 @@
+{
+  "id": "sarkel",
+  "nom": "Forteresse de Sarkel",
+  "annee": 840,
+  "domaine": "Architecture",
+  "dates": "vers 840",
+  "description": "Une forteresse de brique bâtie sur le Don par les Khazars avec l’aide d’ingénieurs byzantins envoyés par l’empereur Théophile.",
+  "sections": [
+    {
+      "titre": "Son destin",
+      "texte": "Prise par [[sviatoslav-ier|Sviatoslav]] en 965, elle devient une ville russe appelée Belaïa Vieja. Ses ruines ont été noyées en 1952 par le réservoir de Tsimliansk."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Sarkel"
+}

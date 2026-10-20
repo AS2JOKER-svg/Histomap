@@ -1,0 +1,18 @@
+{
+  "id": "restauration-de-meiji",
+  "nom": "Restauration de Meiji",
+  "annee": 1868,
+  "dates": "janvier 1868",
+  "lieu": "Kyoto et Edo",
+  "description": "Le dernier shogun rend le pouvoir à l’empereur ; le nouveau gouvernement abolit l’ordre féodal et lance la modernisation du Japon.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "Les fiefs des daimyo sont remplacés par des préfectures, les samouraïs perdent leurs privilèges, l’école et le service militaire deviennent obligatoires. Le Japon adopte des techniques occidentales."
+    }
+  ],
+  "liens": [{ "ref": "empereur-meiji", "relation": "L’empereur restauré" }],
+  "avant": "arrivee-du-commodore-perry",
+  "apres": "bataille-de-tsushima",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Restauration_de_Meiji"
+}

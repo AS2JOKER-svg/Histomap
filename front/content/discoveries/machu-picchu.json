@@ -1,0 +1,19 @@
+{
+  "id": "machu-picchu",
+  "nom": "Machu Picchu",
+  "annee": 1450,
+  "domaine": "Architecture",
+  "dates": "vers 1450",
+  "description": "Une cité inca perchée à 2 430 mètres d’altitude, entre deux montagnes, sans doute un domaine royal de l’empereur [[pachacutec|Pachacútec]].",
+  "sections": [
+    {
+      "titre": "Ce qu’on y voit",
+      "texte": "Temples, palais, maisons et terrasses agricoles, construits en blocs de granit taillés et ajustés sans mortier."
+    },
+    {
+      "titre": "Sa redécouverte",
+      "texte": "Jamais trouvée par les Espagnols, elle est révélée au monde en 1911 par l’explorateur américain Hiram Bingham, guidé par des paysans qui la connaissaient."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Machu_Picchu"
+}

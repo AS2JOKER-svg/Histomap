@@ -1,0 +1,415 @@
+{
+  "id": "reconquista-royaumes",
+  "label": "Royaumes de la Reconquista",
+  "tier": 1,
+  "region": "peninsule-iberique",
+  "period": "718 à 1492",
+  "start": 718,
+  "end": 1492,
+  "trackId": "iberie_nord",
+  "row": 9,
+  "isRiver": false,
+  "capitale": "Léon / Tolède / Burgos",
+  "description": "Les royaumes chrétiens du nord de la péninsule Ibérique (Asturies, León, Castille, Navarre, Aragon, Portugal), qui reprennent peu à peu les terres d’al-Andalus jusqu’à la prise de Grenade en 1492.",
+  "territories": ["Asturias", "León", "Castilla", "Castile", "Castille", "Aragón", "Navarre", "Portugal"],
+  "datesCles": [
+    {
+      "annee": 722,
+      "evenement": "Bataille de Covadonga",
+      "info": "Vers 718-722 (date discutée), Pélage repousse un raid musulman dans les montagnes des Asturies.",
+      "ref": "bataille-de-covadonga"
+    },
+    {
+      "annee": 1085,
+      "evenement": "Prise de Tolède",
+      "info": "Alphonse VI de Castille reprend l’ancienne capitale wisigothe, au centre de la péninsule.",
+      "ref": "prise-de-tolede"
+    },
+    {
+      "annee": 1139,
+      "evenement": "Naissance du Portugal",
+      "info": "Alphonse Henriques prend le titre de roi de Portugal."
+    },
+    {
+      "annee": 1212,
+      "evenement": "Las Navas de Tolosa",
+      "info": "La coalition chrétienne écrase les troupes almohades.",
+      "ref": "bataille-de-las-navas-de-tolosa"
+    },
+    {
+      "annee": 1248,
+      "evenement": "Prise de Séville",
+      "info": "Ferdinand III de Castille prend Séville, après Cordoue (1236)."
+    },
+    {
+      "annee": 1469,
+      "evenement": "Le Mariage",
+      "info": "Isabelle de Castille épouse Ferdinand d’Aragon. C’est une union personnelle : les deux couronnes gardent leurs propres lois et institutions."
+    },
+    {
+      "annee": 1492,
+      "evenement": "La prise de Grenade",
+      "info": "Fin de la Reconquista chrétienne. La même année, Colomb part pour les Amériques.",
+      "ref": "chute-de-grenade"
+    }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Pélage",
+      "titre": "Roi des Asturies",
+      "debut": 718,
+      "fin": 737,
+      "dynastie": "asturies",
+      "note": "vainqueur à Covadonga",
+      "cle": true
+    },
+    {
+      "nom": "Alphonse II",
+      "titre": "Roi des Asturies",
+      "surnom": "le Chaste",
+      "debut": 791,
+      "fin": 842,
+      "dynastie": "asturies"
+    },
+    {
+      "nom": "Alphonse III",
+      "titre": "Roi des Asturies",
+      "surnom": "le Grand",
+      "debut": 866,
+      "fin": 910,
+      "dynastie": "asturies"
+    },
+    { "nom": "Ramire II", "titre": "Roi de León", "debut": 931, "fin": 951, "dynastie": "asturies" },
+    { "nom": "Alphonse V", "titre": "Roi de León", "debut": 999, "fin": 1028, "dynastie": "asturies" },
+    {
+      "nom": "Ferdinand Ier",
+      "titre": "Roi de Castille et de León",
+      "surnom": "le Grand",
+      "debut": 1035,
+      "fin": 1065,
+      "dynastie": "castille"
+    },
+    {
+      "nom": "Alphonse VI",
+      "titre": "Roi de Castille et de León",
+      "debut": 1072,
+      "fin": 1109,
+      "dynastie": "castille",
+      "note": "prend Tolède",
+      "cle": true
+    },
+    {
+      "nom": "Urraque",
+      "titre": "Reine de Castille et de León",
+      "debut": 1109,
+      "fin": 1126,
+      "dynastie": "castille",
+      "note": "première reine régnante"
+    },
+    {
+      "nom": "Alphonse VII",
+      "titre": "Roi et « empereur d’Espagne »",
+      "debut": 1126,
+      "fin": 1157,
+      "dynastie": "castille"
+    },
+    {
+      "nom": "Alphonse VIII",
+      "titre": "Roi de Castille",
+      "surnom": "le Noble",
+      "debut": 1158,
+      "fin": 1214,
+      "dynastie": "castille",
+      "note": "vainqueur à Las Navas de Tolosa",
+      "cle": true
+    },
+    {
+      "nom": "Ferdinand III",
+      "titre": "Roi de Castille et de León",
+      "surnom": "le Saint",
+      "debut": 1217,
+      "fin": 1252,
+      "dynastie": "castille",
+      "note": "prend Cordoue et Séville",
+      "cle": true
+    },
+    {
+      "nom": "Alphonse X",
+      "titre": "Roi de Castille et de León",
+      "surnom": "le Sage",
+      "debut": 1252,
+      "fin": 1284,
+      "dynastie": "castille",
+      "note": "savant et poète, protège les traducteurs"
+    },
+    {
+      "nom": "Pierre Ier",
+      "titre": "Roi de Castille",
+      "surnom": "le Cruel",
+      "debut": 1350,
+      "fin": 1369,
+      "dynastie": "castille",
+      "note": "tué par son demi-frère"
+    },
+    {
+      "nom": "Isabelle Ire",
+      "titre": "Reine de Castille",
+      "surnom": "la Catholique",
+      "debut": 1474,
+      "fin": 1504,
+      "dynastie": "castille",
+      "personne": "isabelle-la-catholique",
+      "cle": true
+    },
+    {
+      "nom": "Sanche III",
+      "titre": "Roi de Navarre",
+      "surnom": "le Grand",
+      "debut": 1004,
+      "fin": 1035,
+      "dynastie": "aragon",
+      "note": "domine tout le nord chrétien"
+    },
+    {
+      "nom": "Alphonse Ier",
+      "titre": "Roi d’Aragon et de Navarre",
+      "surnom": "le Batailleur",
+      "debut": 1104,
+      "fin": 1134,
+      "dynastie": "aragon",
+      "note": "prend Saragosse (1118)"
+    },
+    {
+      "nom": "Jacques Ier",
+      "titre": "Roi d’Aragon",
+      "surnom": "le Conquérant",
+      "debut": 1213,
+      "fin": 1276,
+      "dynastie": "aragon",
+      "note": "prend Majorque et Valence",
+      "cle": true
+    },
+    {
+      "nom": "Pierre III",
+      "titre": "Roi d’Aragon",
+      "surnom": "le Grand",
+      "debut": 1276,
+      "fin": 1285,
+      "dynastie": "aragon",
+      "note": "conquiert la Sicile"
+    },
+    {
+      "nom": "Ferdinand II",
+      "titre": "Roi d’Aragon",
+      "surnom": "le Catholique",
+      "debut": 1479,
+      "fin": 1516,
+      "dynastie": "aragon",
+      "note": "époux d’Isabelle de Castille",
+      "cle": true
+    },
+    {
+      "nom": "Alphonse Ier Henriques",
+      "titre": "Roi de Portugal",
+      "debut": 1139,
+      "fin": 1185,
+      "dynastie": "portugal",
+      "note": "fondateur du royaume ; prend Lisbonne",
+      "cle": true
+    },
+    {
+      "nom": "Denis Ier",
+      "titre": "Roi de Portugal",
+      "debut": 1279,
+      "fin": 1325,
+      "dynastie": "portugal",
+      "note": "fonde l’université de Coimbra"
+    },
+    {
+      "nom": "Jean Ier",
+      "titre": "Roi de Portugal",
+      "debut": 1385,
+      "fin": 1433,
+      "dynastie": "portugal",
+      "note": "prend Ceuta (1415), début de l’expansion outre-mer"
+    },
+    {
+      "nom": "Jean II",
+      "titre": "Roi de Portugal",
+      "debut": 1481,
+      "fin": 1495,
+      "dynastie": "portugal",
+      "note": "finance les expéditions le long de l’Afrique"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Le Cid (Rodrigo Díaz de Vivar)",
+      "role": "Chevalier et chef de guerre",
+      "description": "Héros de l’épopée espagnole, il servit autant les rois chrétiens que les émirs musulmans, se taillant une principauté à Valence.",
+      "dates": "vers 1043 → 1099",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Le_Cid",
+      "ref": "le-cid"
+    },
+    {
+      "nom": "Isabelle la Catholique",
+      "role": "Reine de Castille",
+      "description": "Elle unit sa couronne à celle de Ferdinand d’Aragon, prend Grenade et finance Christophe Colomb.",
+      "dates": "1451 → 1504",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Isabelle_Ire_de_Castille",
+      "ref": "isabelle-la-catholique"
+    },
+    {
+      "nom": "Alphonse X le Sage",
+      "role": "Roi de Castille",
+      "description": "Roi savant qui fait rédiger des lois, des traités d’astronomie et des chansons à la Vierge, et encourage les traductions de l’arabe.",
+      "dates": "1221 → 1284",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Alphonse_X_de_Castille"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Bataille de Las Navas de Tolosa",
+      "annee": 1212,
+      "adversaires": ["Empire almohade (Muhammad al-Nasir)"],
+      "allies": ["Castille, Aragon et Navarre", "Croisés européens"],
+      "morts": "Très lourdes dans l’armée almohade",
+      "vainqueur": "Royaumes chrétiens (Reconquista)",
+      "consequences": "La puissance militaire almohade en péninsule est brisée. Le sud de l’Espagne s’ouvre à la reconquête chrétienne.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Las_Navas_de_Tolosa"
+    },
+    {
+      "nom": "Guerre de Grenade",
+      "annee": 1482,
+      "adversaires": ["Royaume nasride de Grenade (Boabdil)"],
+      "allies": ["Couronne de Castille", "Couronne d’Aragon"],
+      "morts": "Inconnues",
+      "vainqueur": "Rois Catholiques",
+      "consequences": "Guerre de 1482 à 1492. Grenade capitule par traité. Peu après, les Rois catholiques expulsent les juifs (1492) et forcent la conversion des musulmans (1502).",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_de_Grenade"
+    }
+  ],
+  "sciences": "En reprenant des villes comme Tolède, les chrétiens accèdent aux bibliothèques arabes : traducteurs juifs, chrétiens et musulmans y font passer en latin et en castillan les œuvres d’astronomie, de médecine et de philosophie. Les Tables alphonsines, tables astronomiques du roi Alphonse X, sont utilisées pendant trois siècles. Les cartographes de Majorque, comme les auteurs de l’Atlas catalan (1375), dessinent des cartes marines réputées.",
+  "croyancesText": "Les rois chrétiens présentent leurs guerres comme une lutte religieuse, soutenue par les papes qui leur accordent les avantages de la croisade. Saint Jacques, dont le tombeau est vénéré à Compostelle, devient le patron des combattants. Des ordres militaires de moines-soldats, comme Calatrava et Santiago, défendent la frontière. Dans les villes conquises, musulmans (mudéjars) et juifs vivent un temps sous la protection des rois, avant les persécutions de la fin du Moyen Âge.",
+  "diplomatie": "La Reconquista n’est pas un front uni continu : les royaumes chrétiens se font la guerre entre eux autant qu’aux musulmans, et s’allient parfois avec des princes musulmans. Les rois des taïfas leur paient tribut. Le mariage d’Isabelle et de Ferdinand en 1469 rapproche la Castille et l’Aragon : c’est une union personnelle, chaque couronne gardant ses lois, mais leur politique commune fait de l’Espagne une puissance redoutée en Europe.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": {
+      "valeur": "Plusieurs capitales",
+      "precision": "Oviedo, puis León, Burgos et Tolède en Castille ; Saragosse et Barcelone en Aragon ; Lisbonne au Portugal"
+    },
+    "regimes": {
+      "valeur": "Monarchies",
+      "precision": "des rois, entourés d’assemblées (les Cortes) où siègent nobles, clergé et villes"
+    },
+    "langues": {
+      "valeur": "Castillan, catalan, portugais, galicien, basque",
+      "precision": "le latin pour l’Église et les actes savants"
+    },
+    "religion": {
+      "valeur": "Christianisme catholique",
+      "precision": "avec des minorités musulmanes (mudéjars) et juives jusqu’en 1492"
+    },
+    "apogee": { "valeur": "XIIIe siècle", "precision": "grandes conquêtes de Ferdinand III et de Jacques Ier" },
+    "population": { "valeur": "Peut-être 6 à 7 millions", "precision": "vers 1300 (estimation)" },
+    "monnaie": { "valeur": "Maravédi, croat, dobla", "precision": "chaque royaume frappe sa monnaie" },
+    "duree": { "valeur": "Près de 800 ans" },
+    "aujourdhui": { "valeur": "Espagne et Portugal" }
+  },
+  "essentiel": [
+    "Après la conquête musulmane de 711, de petits royaumes chrétiens se maintiennent dans les montagnes du nord, comme les Asturies après la [[bataille-de-covadonga|bataille de Covadonga]].",
+    "Ils avancent vers le sud par étapes : la Castille [[prise-de-tolede|prend Tolède]] en 1085, et le héros [[le-cid|le Cid]] conquiert Valence.",
+    "La victoire de [[bataille-de-las-navas-de-tolosa|Las Navas de Tolosa]] (1212) ouvre l’Andalousie : Cordoue et Séville tombent au XIIIe siècle.",
+    "Les royaumes se font aussi la guerre entre eux ; à Tolède, une [[ecole-de-traducteurs-de-tolede|école de traducteurs]] fait passer les savoirs arabes au latin.",
+    "Le mariage d’[[isabelle-la-catholique|Isabelle de Castille]] et de Ferdinand d’Aragon prépare l’unité de l’Espagne ; ils prennent [[chute-de-grenade|Grenade]] en 1492."
+  ],
+  "periodes": [
+    {
+      "nom": "Les royaumes des montagnes",
+      "debut": 718,
+      "fin": 1031,
+      "resume": "Le royaume des Asturies, puis de León, et les comtés pyrénéens (Navarre, Aragon, Catalogne) survivent face au puissant califat de Cordoue.",
+      "evenements": [
+        { "annee": 722, "evenement": "Covadonga", "ref": "bataille-de-covadonga" },
+        { "annee": 813, "evenement": "Découverte du tombeau de saint Jacques à Compostelle (selon la tradition)" }
+      ]
+    },
+    {
+      "nom": "La poussée vers le Tage",
+      "debut": 1031,
+      "fin": 1212,
+      "resume": "Profitant de la division d’al-Andalus, la Castille prend Tolède. Les Almoravides puis les Almohades freinent la progression chrétienne.",
+      "evenements": [
+        { "annee": 1085, "evenement": "Prise de Tolède", "ref": "prise-de-tolede" },
+        { "annee": 1094, "evenement": "Le Cid prend Valence" },
+        { "annee": 1147, "evenement": "Prise de Lisbonne" }
+      ]
+    },
+    {
+      "nom": "Les grandes conquêtes",
+      "debut": 1212,
+      "fin": 1264,
+      "resume": "Après Las Navas de Tolosa, la Castille prend Cordoue et Séville, l’Aragon les Baléares et Valence, le Portugal l’Algarve.",
+      "evenements": [
+        { "annee": 1212, "evenement": "Las Navas de Tolosa", "ref": "bataille-de-las-navas-de-tolosa" },
+        { "annee": 1236, "evenement": "Prise de Cordoue" },
+        { "annee": 1238, "evenement": "Prise de Valence" }
+      ]
+    },
+    {
+      "nom": "Crises et unification",
+      "debut": 1264,
+      "fin": 1492,
+      "resume": "Peste, guerres civiles et rivalités entre royaumes ralentissent la Reconquista. Le mariage d’Isabelle et de Ferdinand rapproche la Castille et l’Aragon, qui prennent Grenade.",
+      "evenements": [
+        { "annee": 1391, "evenement": "Massacres de juifs dans les villes" },
+        { "annee": 1469, "evenement": "Mariage d’Isabelle et Ferdinand" },
+        { "annee": 1492, "evenement": "Prise de Grenade", "ref": "chute-de-grenade" }
+      ]
+    }
+  ],
+  "dynasties": [
+    {
+      "id": "asturies",
+      "nom": "Asturies et León",
+      "debut": 718,
+      "fin": 1037,
+      "note": "Sélection ; les dates de Pélage sont traditionnelles."
+    },
+    { "id": "castille", "nom": "Castille (et León)", "debut": 1035, "fin": 1504, "note": "Sélection." },
+    {
+      "id": "aragon",
+      "nom": "Navarre et Aragon",
+      "debut": 1004,
+      "fin": 1516,
+      "note": "Sélection ; l’Aragon s’unit à la Catalogne en 1137."
+    },
+    { "id": "portugal", "nom": "Portugal", "debut": 1139, "fin": 1495, "note": "Sélection." }
+  ],
+  "societe": "Une noblesse guerrière reçoit les terres conquises ; des villes obtiennent des chartes (fueros) pour attirer des colons vers la frontière. Les Cortes, assemblées où siègent les représentants des villes, comptent parmi les plus anciennes d’Europe (León, 1188).",
+  "economie": "Élevage de moutons mérinos (la laine est exportée vers la Flandre), agriculture, commerce maritime de la Catalogne en Méditerranée et du Portugal vers l’Atlantique.",
+  "decouvertes": ["ecole-de-traducteurs-de-tolede"],
+  "arts": "Art roman du chemin de Compostelle, cathédrales gothiques de Burgos, Tolède et León, art mudéjar mêlant traditions chrétiennes et islamiques, poème du Cid.",
+  "quotidien": "Sur la frontière, les villes vivent sous la menace des raids ; des milices de citadins y combattent à cheval. Les pèlerins de toute l’Europe marchent vers Saint-Jacques-de-Compostelle.",
+  "heritage": [
+    {
+      "titre": "L’Espagne et le Portugal",
+      "texte": "Les frontières des deux pays et leurs langues sont issues des royaumes de la Reconquista."
+    },
+    {
+      "titre": "Le chemin de Compostelle",
+      "texte": "Le pèlerinage vers Saint-Jacques est toujours parcouru par des centaines de milliers de marcheurs chaque année."
+    },
+    {
+      "titre": "Un héritage mêlé",
+      "texte": "Les monuments mudéjars, comme l’Alcazar de Séville, rappellent les échanges entre chrétiens et musulmans."
+    }
+  ],
+  "aSavoir": [
+    "Le mot « Reconquista » est surtout utilisé depuis le XIXe siècle ; les contemporains ne pensaient pas tous leurs guerres comme une « reconquête »."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Reconquista",
+    { "titre": "Encyclopædia Britannica — Reconquista", "url": "https://www.britannica.com/event/Reconquista" }
+  ]
+}

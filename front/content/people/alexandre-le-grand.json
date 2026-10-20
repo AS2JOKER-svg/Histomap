@@ -1,0 +1,36 @@
+{
+  "id": "alexandre-le-grand",
+  "nom": "Alexandre le Grand",
+  "nomComplet": "Alexandre III de Macédoine",
+  "role": "Roi de Macédoine",
+  "roles": ["Roi de Macédoine", "Pharaon", "Conquérant"],
+  "dates": "−356 → −323",
+  "naissance": -356,
+  "mort": -323,
+  "description": "Roi de Macédoine à 20 ans, il conquiert en onze ans l’immense Empire perse, de l’Égypte à l’Indus, et diffuse la culture grecque dans tout l’Orient.",
+  "reperes": [
+    { "label": "Règne", "valeur": "−336 → −323" },
+    { "label": "Naissance", "valeur": "−356", "precision": "à Pella, capitale de la Macédoine" },
+    { "label": "Mort", "valeur": "−323", "precision": "à Babylone, à 32 ans, sans doute de maladie" }
+  ],
+  "essentiel": [
+    "Fils de Philippe II, il a pour précepteur le philosophe [[aristote|Aristote]].",
+    "Il bat le roi perse Darius III au Granique, à Issos puis à [[bataille-de-gaugameles|Gaugamèles]].",
+    "Il [[conquete-alexandre-egypte|entre en Égypte]] et fonde Alexandrie, la plus célèbre des nombreuses villes qui portent son nom.",
+    "Son armée, épuisée, refuse d’aller au-delà de l’Indus.",
+    "À sa mort, ses généraux se partagent l’empire en royaumes rivaux."
+  ],
+  "chronologie": [
+    { "annee": -336, "texte": "Devient roi après l’assassinat de son père" },
+    { "annee": -334, "texte": "Victoire du Granique" },
+    { "annee": -333, "texte": "Victoire d’Issos" },
+    { "annee": -332, "texte": "Prise de Tyr", "ref": "siege-de-tyr" },
+    { "annee": -332, "texte": "Conquête de l’Égypte", "ref": "conquete-alexandre-egypte" },
+    { "annee": -331, "texte": "Victoire de Gaugamèles", "ref": "bataille-de-gaugameles" },
+    { "annee": -326, "texte": "Bataille de l’Hydaspe, en Inde" },
+    { "annee": -323, "texte": "Mort à Babylone" }
+  ],
+  "liens": [{ "ref": "aristote", "relation": "Son précepteur" }],
+  "aSavoir": ["Le lieu de son tombeau, à Alexandrie, est inconnu aujourd’hui."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Alexandre_le_Grand"
+}

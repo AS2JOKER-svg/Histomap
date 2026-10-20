@@ -1,0 +1,21 @@
+{
+  "id": "eleonore-d-aquitaine",
+  "nom": "Aliénor d’Aquitaine",
+  "role": "Reine de France puis d’Angleterre",
+  "roles": ["Duchesse d’Aquitaine", "Reine de France", "Reine d’Angleterre"],
+  "dates": "vers 1122 → 1204",
+  "naissance": 1122,
+  "mort": 1204,
+  "description": "Héritière du riche duché d’Aquitaine, elle épouse le roi de France Louis VII, puis le futur roi d’Angleterre Henri II : l’une des femmes les plus puissantes du Moyen Âge.",
+  "essentiel": [
+    "Reine de France, elle accompagne Louis VII à la deuxième croisade.",
+    "Après l’annulation de son mariage, elle épouse Henri Plantagenêt en 1152 et lui apporte l’Aquitaine.",
+    "Elle soutient la révolte de ses fils contre Henri II, qui la garde prisonnière quinze ans.",
+    "Elle gouverne l’Angleterre pendant la croisade de son fils [[richard-coeur-de-lion|Richard]]."
+  ],
+  "liens": [{ "ref": "richard-coeur-de-lion", "relation": "Son fils" }],
+  "aSavoir": [
+    "Elle protège les troubadours, poètes de langue d’oc, dont son grand-père Guillaume IX fut l’un des premiers."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Ali%C3%A9nor_d%27Aquitaine"
+}

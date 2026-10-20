@@ -1,0 +1,15 @@
+{
+  "id": "palais-de-bakhtchissarai",
+  "nom": "Palais des khans de Bakhtchissaraï",
+  "annee": 1532,
+  "domaine": "Architecture",
+  "dates": "XVIe-XVIIIe siècles",
+  "description": "La résidence des khans de Crimée, avec ses cours, sa mosquée, son harem, ses bains et ses jardins.",
+  "sections": [
+    {
+      "titre": "La fontaine des larmes",
+      "texte": "Construite en 1764, elle fait couler l’eau goutte à goutte d’une vasque à l’autre, comme des larmes. Pouchkine lui a consacré un poème."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Hansaray"
+}

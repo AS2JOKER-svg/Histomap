@@ -1,0 +1,24 @@
+{
+  "id": "siege-de-tyr",
+  "nom": "Siège de Tyr",
+  "annee": -332,
+  "dates": "janvier → juillet −332",
+  "lieu": "Tyr (Liban)",
+  "description": "Pour prendre Tyr, cité bâtie sur une île, [[alexandre-le-grand|Alexandre le Grand]] fait construire une digue de près d’un kilomètre depuis la côte. Après sept mois, la ville tombe.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Les Tyriens attaquent la digue avec des navires incendiaires. Alexandre rassemble alors une flotte grâce aux autres cités phéniciennes et à Chypre, puis donne l’assaut aux murailles."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "La ville est durement punie : habitants tués, crucifiés ou vendus comme esclaves. Alexandre peut ensuite entrer en Égypte sans craindre la flotte perse."
+    }
+  ],
+  "liens": [{ "ref": "alexandre-le-grand", "relation": "L’assiégeant" }],
+  "apres": "conquete-alexandre-egypte",
+  "aSavoir": [
+    "Le sable accumulé de part et d’autre de la digue a soudé l’île au continent : Tyr est aujourd’hui une presqu’île."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Tyr_(332_av._J.-C.)"
+}

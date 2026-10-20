@@ -200,7 +200,7 @@ function LeadersCard({ card, civ }) {
                 {d.nom}
                 {d.surnom && <span className="font-normal italic text-muted"> « {d.surnom} »</span>}
               </span>
-              <span className="text-xs text-muted tabular-nums shrink-0">{d.fin - d.debut} ans</span>
+              {d.fin > d.debut && <span className="text-xs text-muted tabular-nums shrink-0">{d.fin - d.debut} ans</span>}
             </div>
             <div className="relative h-2.5 mt-1.5 rounded-full bg-surface2">
               <span
@@ -210,7 +210,7 @@ function LeadersCard({ card, civ }) {
             </div>
             <div className="flex justify-between text-[11px] text-muted mt-1 tabular-nums">
               <span>{d.titre}</span>
-              <span>{formatYear(d.debut)} → {formatYear(d.fin)}</span>
+              <span>{d.debut === d.fin ? formatYear(d.debut) : `${formatYear(d.debut)} → ${formatYear(d.fin)}`}</span>
             </div>
           </li>
         ))}

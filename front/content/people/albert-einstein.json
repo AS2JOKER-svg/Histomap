@@ -1,0 +1,17 @@
+{
+  "id": "albert-einstein",
+  "nom": "Albert Einstein",
+  "role": "Physicien",
+  "roles": ["Physicien"],
+  "dates": "1879 → 1955",
+  "naissance": 1879,
+  "mort": 1955,
+  "description": "Physicien né en Allemagne, auteur de la théorie de la relativité, qui bouleverse notre compréhension de l’espace, du temps et de l’énergie. Prix Nobel de physique en 1921.",
+  "essentiel": [
+    "En 1905, il publie quatre articles révolutionnaires, dont la relativité restreinte et la formule E = mc².",
+    "En 1915, il présente la relativité générale, une nouvelle théorie de la gravitation.",
+    "Juif, il quitte l’Allemagne en 1933 pour les États-Unis.",
+    "Pacifiste, il milite après 1945 contre les armes nucléaires."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Albert_Einstein"
+}

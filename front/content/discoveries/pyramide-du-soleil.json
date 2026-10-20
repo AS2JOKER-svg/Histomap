@@ -1,0 +1,22 @@
+{
+  "id": "pyramide-du-soleil",
+  "nom": "Pyramide du Soleil",
+  "annee": 200,
+  "domaine": "Architecture",
+  "dates": "vers 100 → 200",
+  "description": "La plus grande construction de Teotihuacan : une pyramide à degrés d’environ 65 mètres de haut et 225 mètres de côté, l’une des plus grandes d’Amérique.",
+  "sections": [
+    {
+      "titre": "Comment elle a été bâtie",
+      "texte": "Elle est faite de terre et de débris, recouverts de pierre et d’un enduit autrefois peint. Un temple se dressait au sommet."
+    },
+    {
+      "titre": "Ce qu’elle cache",
+      "texte": "Une grotte artificielle, creusée sous la pyramide, servait sans doute à des rites liés à l’eau et aux origines."
+    }
+  ],
+  "aSavoir": [
+    "Son nom vient des Aztèques, qui ont découvert la ville en ruine des siècles plus tard ; on ignore à quel dieu elle était dédiée."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Pyramide_du_Soleil"
+}

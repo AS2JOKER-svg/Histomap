@@ -1,0 +1,413 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Fiche civilisation · Maquettes HistoMap</title>
+<link rel="stylesheet" href="assets/maquette.css">
+</head>
+<body>
+<main class="stage">
+  <div class="phone" style="--civ:#8e44ad">
+    <div class="statusbar"><span>9:41</span><span class="dots">●●● ▮</span></div>
+
+    <div class="screen with-cta">
+      <div class="appbar">
+        <a class="icon-btn" href="04-frise.html" aria-label="Retour vers la frise"><svg data-i="arrowLeft"></svg></a>
+        <span class="title">Rome antique</span>
+        <a class="icon-btn" href="03-recherche.html" aria-label="Rechercher"><svg data-i="search"></svg></a>
+        <button class="icon-btn" aria-label="Partager"><svg data-i="share"></svg></button>
+      </div>
+
+      <!-- En-tête : répond à « c'est quoi ? » en 5 secondes -->
+      <header class="pad" style="padding-top:4px;padding-bottom:14px">
+        <p class="eyebrow" style="display:flex;align-items:center;gap:8px"><span style="width:10px;height:10px;border-radius:99px;background:var(--civ)"></span>Antiquité · Europe · Italie</p>
+        <h1 class="display" style="font-size:38px;font-weight:600;line-height:1.05;margin-top:8px">Rome antique</h1>
+        <p class="tabular" style="margin-top:6px;font-weight:600"><span class="civ-text">−753 → 476</span> <span class="muted" style="font-weight:400">· environ 1 200 ans</span></p>
+        <p class="prose" style="margin-top:10px">Une petite cité du Latium devenue, en sept siècles de conquêtes, le premier empire à unifier tout le pourtour de la Méditerranée.</p>
+      </header>
+
+      <div class="tabs" role="tablist" aria-label="Sections de la fiche" data-tabs>
+        <button role="tab" data-tab="resume">Résumé</button>
+        <button role="tab" data-tab="histoire">Histoire</button>
+        <button role="tab" data-tab="dirigeants">Dirigeants</button>
+        <button role="tab" data-tab="societe">Société</button>
+        <button role="tab" data-tab="guerres">Guerres</button>
+        <button role="tab" data-tab="carte">Carte</button>
+      </div>
+
+      <!-- ═════════════ RÉSUMÉ ═════════════ -->
+      <div data-panel="resume">
+        <p class="sample">Maquette : contenu d'exemple rédigé avec soin, mais à vérifier ligne à ligne au sprint 11 (pilote).</p>
+
+        <div class="section">
+          <img class="map-img" src="assets/carte-rome-100.svg" alt="Carte : l'Empire romain vers l'an 100, tout autour de la Méditerranée">
+          <p class="muted" style="font-size:12.5px;margin-top:6px;display:flex;justify-content:space-between;gap:8px">L'Empire vers 100 apr. J.-C. (apogée en 117) <a href="#carte" data-goto-tab="carte" class="ref" style="font-size:12.5px">Voir l'évolution</a></p>
+        </div>
+
+        <div class="section">
+          <h2 class="section-title"><span class="ico"><svg data-i="layers" class="sm"></svg></span>Repères</h2>
+          <dl class="facts" style="margin:0">
+            <div><dt>Capitale</dt><dd>Rome<small>puis Milan (286) et Ravenne (402) pour l'Occident</small></dd></div>
+            <div><dt>Régimes</dt><dd>Royauté, République, Empire<small><a href="#dirigeants" data-goto-tab="dirigeants" class="ref">voir les dirigeants</a></small></dd></div>
+            <div><dt>Langues</dt><dd>Latin<small>grec dans la moitié orientale</small></dd></div>
+            <div><dt>Religion</dt><dd>Polythéisme<small>puis christianisme, religion d'État en 380</small></dd></div>
+            <div><dt>Apogée</dt><dd>117, sous <span class="ref" data-ref="trajan">Trajan</span><small>environ 5 millions de km²</small></dd></div>
+            <div><dt>Population</dt><dd>50 à 70 millions<small>estimations, IIe siècle</small></dd></div>
+            <div><dt>Monnaie</dt><dd>Denier, sesterce<small>puis le solidus d'or (IVe s.)</small></dd></div>
+            <div><dt>Durée</dt><dd>Environ 1 200 ans<small>dont 500 ans d'Empire</small></dd></div>
+            <div class="wide"><dt>Aujourd'hui</dt><dd>Une quarantaine de pays actuels<small>de l'Angleterre à l'Égypte, du Portugal à la Syrie ; berceau : l'Italie</small></dd></div>
+          </dl>
+        </div>
+
+        <div class="section">
+          <h2 class="section-title"><span class="ico"><svg data-i="sparkles" class="sm"></svg></span>L'essentiel en 5 points</h2>
+          <ol class="key-points">
+            <li><span>Une cité-État du Latium qui, de conquête en conquête, finit par dominer toute la Méditerranée, qu'elle appelle <i>Mare nostrum</i> (« notre mer »).</span></li>
+            <li><span>Trois régimes se succèdent : la royauté, la <span class="ref" data-ref="republique">République</span> (le Sénat et deux consuls élus chaque année), puis l'Empire fondé par <span class="ref" data-ref="auguste">Auguste</span> en −27.</span></li>
+            <li><span>Une armée de métier, des routes et des villes nouvelles unifient un territoire immense : c'est la <i>Pax Romana</i>, deux siècles de paix relative.</span></li>
+            <li><span>Le latin, le <span class="ref" data-ref="droit-romain">droit romain</span> et les techniques de construction (<span class="ref" data-ref="aqueducs">aqueducs</span>, <span class="ref" data-ref="beton-romain">béton</span>) marquent durablement l'Europe.</span></li>
+            <li><span>L'Empire est <span class="ref" data-ref="partage-395">partagé en 395</span>. L'Occident disparaît en 476 ; l'Orient continue jusqu'en 1453 sous le nom d'<span class="ref" data-ref="byzance">Empire byzantin</span>.</span></li>
+          </ol>
+        </div>
+
+        <div class="section">
+          <h2 class="section-title"><span class="ico"><svg data-i="clock" class="sm"></svg></span>5 dates à retenir</h2>
+          <ol class="timeline">
+            <li><div class="when">753 av. J.-C.</div><div class="what"><span class="ref" data-ref="fondation-rome">Fondation de Rome</span></div><div class="why">Selon la tradition, par Romulus.</div></li>
+            <li><div class="when">509 av. J.-C.</div><div class="what"><span class="ref" data-ref="republique">Naissance de la République</span></div><div class="why">Le dernier roi est chassé.</div></li>
+            <li><div class="when">15 mars 44 av. J.-C.</div><div class="what"><span class="ref" data-ref="ides-de-mars">Assassinat de César</span></div><div class="why">La République ne s'en relève pas.</div></li>
+            <li><div class="when">27 av. J.-C.</div><div class="what"><span class="ref" data-ref="auguste-empereur">Octave devient Auguste</span></div><div class="why">Début de l'Empire.</div></li>
+            <li><div class="when">476</div><div class="what"><span class="ref" data-ref="chute-occident">Fin de l'Empire d'Occident</span></div><div class="why">L'Orient continue : l'Empire byzantin.</div></li>
+          </ol>
+          <a href="#histoire" data-goto-tab="histoire" class="btn btn-secondary btn-block">Toute l'histoire, période par période <svg data-i="arrowRight" class="sm"></svg></a>
+        </div>
+
+        <div class="section">
+          <h2 class="section-title"><span class="ico"><svg data-i="star" class="sm"></svg></span>Personnages clés</h2>
+          <div class="carousel">
+            <button class="card" data-ref="jules-cesar" style="width:150px;padding:14px;text-align:left"><span class="avatar">J</span><span class="t" style="display:block;font-weight:600;margin-top:10px">Jules César</span><span class="muted" style="font-size:12.5px">Général, dictateur</span><span class="badge person" style="margin-top:8px">Fiche</span></button>
+            <button class="card" data-ref="auguste" style="width:150px;padding:14px;text-align:left"><span class="avatar">A</span><span class="t" style="display:block;font-weight:600;margin-top:10px">Auguste</span><span class="muted" style="font-size:12.5px">Premier empereur</span></button>
+            <button class="card" data-ref="ciceron" style="width:150px;padding:14px;text-align:left"><span class="avatar">C</span><span class="t" style="display:block;font-weight:600;margin-top:10px">Cicéron</span><span class="muted" style="font-size:12.5px">Orateur, consul</span></button>
+            <button class="card" data-ref="trajan" style="width:150px;padding:14px;text-align:left"><span class="avatar">T</span><span class="t" style="display:block;font-weight:600;margin-top:10px">Trajan</span><span class="muted" style="font-size:12.5px">Empereur conquérant</span></button>
+            <button class="card" data-ref="constantin" style="width:150px;padding:14px;text-align:left"><span class="avatar">C</span><span class="t" style="display:block;font-weight:600;margin-top:10px">Constantin</span><span class="muted" style="font-size:12.5px">Empereur chrétien</span></button>
+          </div>
+        </div>
+
+        <div class="section">
+          <h2 class="section-title"><span class="ico"><svg data-i="temple" class="sm"></svg></span>Ce qu'il en reste aujourd'hui</h2>
+          <div class="card">
+            <div class="row"><div class="grow"><div class="t">Nos langues</div><div class="s">Français, italien, espagnol, portugais, roumain viennent du latin.</div></div></div>
+            <div class="row"><div class="grow"><div class="t">Notre calendrier</div><div class="s">Hérité du <span class="ref" data-ref="calendrier-julien">calendrier julien</span> ; juillet et août doivent leur nom à César et Auguste.</div></div></div>
+            <div class="row"><div class="grow"><div class="t">Nos lois</div><div class="s">Le <span class="ref" data-ref="droit-romain">droit romain</span> inspire de nombreux codes européens.</div></div></div>
+            <div class="row"><div class="grow"><div class="t">Nos villes</div><div class="s">Lyon, Londres, Cologne… et des milliers de kilomètres de routes.</div></div></div>
+          </div>
+        </div>
+
+        <div class="section">
+          <h2 class="section-title"><span class="ico"><svg data-i="alert" class="sm"></svg></span>À savoir</h2>
+          <div class="card" style="padding:14px 16px">
+            <p class="prose" style="font-size:14px">Les rois et la date de fondation viennent de la <b>tradition romaine</b>, écrite plusieurs siècles plus tard : on parle de récits en partie légendaires.</p>
+            <p class="prose" style="font-size:14px;margin-top:10px">« Chute de Rome » : beaucoup d'historiens préfèrent parler de <b>transformation</b> du monde romain, car l'Empire d'Orient dure encore mille ans.</p>
+          </div>
+        </div>
+
+        <div class="section">
+          <h2 class="section-title"><span class="ico"><svg data-i="timeline" class="sm"></svg></span>Fil de l'histoire</h2>
+          <button class="card row" data-ref="byzance" style="width:100%;text-align:left"><div class="grow"><div class="eyebrow">La suite · Moyen Âge</div><div class="t">Empire byzantin</div></div><svg data-i="arrowRight" class="chev"></svg></button>
+        </div>
+
+        <div class="section">
+          <h2 class="section-title"><span class="ico"><svg data-i="book" class="sm"></svg></span>Sources</h2>
+          <div class="card">
+            <a class="row" href="https://fr.wikipedia.org/wiki/Rome_antique" target="_blank" rel="noreferrer"><div class="grow"><div class="t" style="font-size:14px">Wikipédia — Rome antique</div></div><svg data-i="external" class="chev sm"></svg></a>
+            <a class="row" href="https://www.britannica.com/place/ancient-Rome" target="_blank" rel="noreferrer"><div class="grow"><div class="t" style="font-size:14px">Encyclopædia Britannica — Ancient Rome</div></div><svg data-i="external" class="chev sm"></svg></a>
+            <a class="row" href="https://www.worldhistory.org/Rome/" target="_blank" rel="noreferrer"><div class="grow"><div class="t" style="font-size:14px">World History Encyclopedia — Ancient Rome</div></div><svg data-i="external" class="chev sm"></svg></a>
+          </div>
+          <p class="muted" style="font-size:12px;margin-top:8px">Dernière relecture : octobre 2026 · Signaler une erreur</p>
+        </div>
+      </div>
+
+      <!-- ═════════════ HISTOIRE ═════════════ -->
+      <div data-panel="histoire" hidden>
+        <div class="section">
+          <p class="eyebrow" style="margin-bottom:8px">5 grandes périodes</p>
+          <div class="periods" aria-hidden="true">
+            <div style="flex:244;background:#b07cc6">Royauté</div>
+            <div style="flex:482;background:#9b59b6">République</div>
+            <div style="flex:262;background:#8e44ad">Haut-Empire</div>
+            <div style="flex:49;background:#6c3483"></div>
+            <div style="flex:192;background:#5b2c6f">Bas-Empire</div>
+          </div>
+          <div class="scale"><span>−753</span><span>−509</span><span>−27</span><span>235</span><span>476</span></div>
+        </div>
+
+        <div class="section">
+          <details class="acc" open>
+            <summary><div class="grow"><div class="eyebrow">−753 → −509 · environ 250 ans</div><div class="t" style="font-weight:600;font-size:16px">La Royauté</div></div><svg data-i="chevronRight" class="chev"></svg></summary>
+            <div class="acc-body">
+              <p class="prose">Selon la tradition, Rome est gouvernée par sept rois, dont les trois derniers sont étrusques. La ville s'organise : premiers temples, assèchement du Forum, institutions comme le Sénat. Le règne du dernier roi, Tarquin le Superbe, jugé tyrannique, se termine par son expulsion.</p>
+              <ol class="timeline" style="margin-top:14px">
+                <li><div class="when">753 av. J.-C.</div><div class="what"><span class="ref" data-ref="fondation-rome">Fondation de Rome</span></div></li>
+                <li><div class="when">509 av. J.-C.</div><div class="what"><span class="ref" data-ref="republique">Expulsion du dernier roi</span></div></li>
+              </ol>
+            </div>
+          </details>
+          <details class="acc">
+            <summary><div class="grow"><div class="eyebrow">−509 → −27 · environ 480 ans</div><div class="t" style="font-weight:600;font-size:16px">La République</div></div><svg data-i="chevronRight" class="chev"></svg></summary>
+            <div class="acc-body">
+              <p class="prose">Le pouvoir est partagé entre des magistrats élus pour un an, dont deux consuls, et le Sénat. Rome conquiert l'Italie, puis bat <span class="ref" data-ref="carthage">Carthage</span> lors des <span class="ref" data-ref="guerres-puniques">guerres puniques</span>. Mais les conquêtes enrichissent une minorité et déclenchent un siècle de guerres civiles, de Marius et Sylla jusqu'à <span class="ref" data-ref="jules-cesar">César</span>.</p>
+              <ol class="timeline" style="margin-top:14px">
+                <li><div class="when">264–146 av. J.-C.</div><div class="what"><span class="ref" data-ref="guerres-puniques">Guerres puniques</span></div></li>
+                <li><div class="when">58–50 av. J.-C.</div><div class="what"><span class="ref" data-ref="guerre-des-gaules">Guerre des Gaules</span></div></li>
+                <li><div class="when">49 av. J.-C.</div><div class="what"><span class="ref" data-ref="rubicon">Passage du Rubicon</span></div></li>
+                <li><div class="when">15 mars 44 av. J.-C.</div><div class="what"><span class="ref" data-ref="ides-de-mars">Assassinat de César</span></div></li>
+                <li><div class="when">31 av. J.-C.</div><div class="what"><span class="ref" data-ref="actium">Bataille d'Actium</span></div></li>
+              </ol>
+            </div>
+          </details>
+          <details class="acc">
+            <summary><div class="grow"><div class="eyebrow">−27 → 235 · environ 260 ans</div><div class="t" style="font-weight:600;font-size:16px">Le Haut-Empire</div></div><svg data-i="chevronRight" class="chev"></svg></summary>
+            <div class="acc-body">
+              <p class="prose"><span class="ref" data-ref="auguste">Auguste</span> concentre les pouvoirs tout en gardant l'apparence de la République. Deux siècles de <i>Pax Romana</i> suivent : villes, routes et commerce prospèrent. L'Empire atteint sa plus grande étendue sous <span class="ref" data-ref="trajan">Trajan</span> en 117.</p>
+            </div>
+          </details>
+          <details class="acc">
+            <summary><div class="grow"><div class="eyebrow">235 → 284 · environ 50 ans</div><div class="t" style="font-weight:600;font-size:16px">La crise du IIIe siècle</div></div><svg data-i="chevronRight" class="chev"></svg></summary>
+            <div class="acc-body">
+              <p class="prose">Plus d'une vingtaine d'empereurs, souvent proclamés par leurs soldats, se succèdent en un demi-siècle. Invasions aux frontières, guerre contre les Perses et crise de la monnaie fragilisent l'Empire.</p>
+            </div>
+          </details>
+          <details class="acc">
+            <summary><div class="grow"><div class="eyebrow">284 → 476 · environ 190 ans</div><div class="t" style="font-weight:600;font-size:16px">Le Bas-Empire</div></div><svg data-i="chevronRight" class="chev"></svg></summary>
+            <div class="acc-body">
+              <p class="prose">Dioclétien réorganise l'Empire, <span class="ref" data-ref="constantin">Constantin</span> se convertit au christianisme et fonde Constantinople. Après le <span class="ref" data-ref="partage-395">partage de 395</span>, l'Occident, affaibli par les invasions, disparaît en 476.</p>
+              <ol class="timeline" style="margin-top:14px">
+                <li><div class="when">378</div><div class="what"><span class="ref" data-ref="andrinople">Bataille d'Andrinople</span></div></li>
+                <li><div class="when">395</div><div class="what"><span class="ref" data-ref="partage-395">Partage de l'Empire</span></div></li>
+                <li><div class="when">476</div><div class="what"><span class="ref" data-ref="chute-occident">Fin de l'Empire d'Occident</span></div></li>
+              </ol>
+            </div>
+          </details>
+        </div>
+      </div>
+
+      <!-- ═════════════ DIRIGEANTS ═════════════ -->
+      <div data-panel="dirigeants" hidden>
+        <div class="section">
+          <p class="prose">Trois régimes : un roi, puis <b>deux consuls élus chaque année</b> sous la République, puis un empereur. Touchez un nom pour son aperçu ; <span style="color:rgb(var(--c-accent))">●</span> = fiche complète.</p>
+          <div class="regimes" style="margin-top:14px" aria-hidden="true">
+            <div style="flex:244;background:#b07cc6">Rois</div>
+            <div style="flex:482;background:#9b59b6">République</div>
+            <div style="flex:503;background:#6c3483">Empire</div>
+          </div>
+          <div class="scale"><span>−753</span><span>−509</span><span>−27</span><span>476</span></div>
+          <div style="display:flex;gap:6px;flex-wrap:wrap;margin-top:14px">
+            <span class="chip on">Tous</span><span class="chip">Rois (7)</span><span class="chip">Figures de la République</span><span class="chip">Empereurs</span>
+          </div>
+        </div>
+
+        <div class="section">
+          <details class="acc">
+            <summary><div class="grow"><div class="eyebrow">−753 → −509 · selon la tradition</div><div class="t" style="font-weight:600;font-size:16px">Les sept rois</div></div><span class="chip">7</span><svg data-i="chevronRight" class="chev"></svg></summary>
+            <div class="acc-body" data-span="-753,-509">
+              <div class="reign" data-ref="x" data-nom="Romulus" data-dates="−753 → −716 (selon la tradition)" data-resume="Fondateur légendaire de Rome et premier roi." data-from="-753" data-to="-716"><span class="n">Romulus</span><span class="d">−753 → −716</span><div class="bar"><span></span></div></div>
+              <div class="reign" data-ref="x" data-nom="Numa Pompilius" data-dates="−715 → −673 (selon la tradition)" data-resume="Roi pacifique à qui la tradition attribue l'organisation de la religion romaine." data-from="-715" data-to="-673"><span class="n">Numa Pompilius</span><span class="d">−715 → −673</span><div class="bar"><span></span></div></div>
+              <div class="reign" data-ref="x" data-nom="Tullus Hostilius" data-dates="−673 → −642 (selon la tradition)" data-resume="Roi guerrier ; la tradition lui attribue la destruction d'Albe-la-Longue." data-from="-673" data-to="-642"><span class="n">Tullus Hostilius</span><span class="d">−673 → −642</span><div class="bar"><span></span></div></div>
+              <div class="reign" data-ref="x" data-nom="Ancus Marcius" data-dates="−642 → −617 (selon la tradition)" data-resume="La tradition lui attribue la fondation du port d'Ostie." data-from="-642" data-to="-617"><span class="n">Ancus Marcius</span><span class="d">−642 → −617</span><div class="bar"><span></span></div></div>
+              <div class="reign" data-ref="x" data-nom="Tarquin l'Ancien" data-dates="−616 → −579 (selon la tradition)" data-resume="Premier roi étrusque de Rome." data-from="-616" data-to="-579"><span class="n">Tarquin l'Ancien</span><span class="d">−616 → −579</span><div class="bar"><span></span></div></div>
+              <div class="reign" data-ref="x" data-nom="Servius Tullius" data-dates="−578 → −535 (selon la tradition)" data-resume="La tradition lui attribue une réforme qui classe les citoyens selon leur fortune." data-from="-578" data-to="-535"><span class="n">Servius Tullius</span><span class="d">−578 → −535</span><div class="bar"><span></span></div></div>
+              <div class="reign" data-ref="x" data-nom="Tarquin le Superbe" data-dates="−535 → −509 (selon la tradition)" data-resume="Dernier roi, chassé de Rome : début de la République." data-from="-535" data-to="-509"><span class="n">Tarquin le Superbe</span><span class="d">−535 → −509</span><div class="bar"><span></span></div></div>
+            </div>
+          </details>
+
+          <details class="acc">
+            <summary><div class="grow"><div class="eyebrow">−509 → −27 · pouvoir collégial</div><div class="t" style="font-weight:600;font-size:16px">La République : pas de chef unique</div></div><svg data-i="chevronRight" class="chev"></svg></summary>
+            <div class="acc-body">
+              <p class="prose" style="font-size:14px">Chaque année, deux consuls sont élus et contrôlés par le Sénat. En cas de crise, un dictateur peut recevoir les pleins pouvoirs pour six mois. Plutôt qu'une liste de centaines de consuls, voici les figures qui ont marqué le pouvoir :</p>
+              <div style="margin-top:8px" data-span="-509,-27">
+                <div class="reign" data-ref="x" data-nom="Scipion l'Africain" data-dates="vers −236 → −183" data-resume="Vainqueur d'Hannibal à Zama (−202), consul en −205 et −194." data-from="-205" data-to="-194"><span class="n">Scipion l'Africain <i>· consul</i></span><span class="d">−205, −194</span><div class="bar"><span></span></div></div>
+                <div class="reign" data-ref="x" data-nom="Marius" data-dates="vers −157 → −86" data-resume="Général, sept fois consul ; il réforme l'armée en y recrutant des volontaires pauvres." data-from="-107" data-to="-86"><span class="n">Marius <i>· 7 fois consul</i></span><span class="d">−107 → −86</span><div class="bar"><span></span></div></div>
+                <div class="reign" data-ref="x" data-nom="Sylla" data-dates="−138 → −78" data-resume="Général qui marche sur Rome et se fait nommer dictateur." data-from="-82" data-to="-79"><span class="n">Sylla <i>· dictateur</i></span><span class="d">−82 → −79</span><div class="bar"><span></span></div></div>
+                <div class="reign" data-ref="pompee" data-from="-70" data-to="-48"><span class="n">Pompée <i>· consul</i></span><span class="d">−70, −55, −52</span><div class="bar"><span></span></div></div>
+                <div class="reign has-fiche" data-ref="jules-cesar" data-from="-49" data-to="-44"><span class="n">Jules César <i>· dictateur</i></span><span class="d">−49 → −44</span><div class="bar"><span></span></div></div>
+              </div>
+            </div>
+          </details>
+
+          <details class="acc" open>
+            <summary><div class="grow"><div class="eyebrow">−27 → 68</div><div class="t" style="font-weight:600;font-size:16px">Les Julio-Claudiens</div></div><span class="chip">5</span><svg data-i="chevronRight" class="chev"></svg></summary>
+            <div class="acc-body" data-span="-27,68">
+              <div class="reign" data-ref="auguste" data-from="-27" data-to="14"><span class="n">Auguste</span><span class="d">−27 → 14</span><div class="bar"><span></span></div></div>
+              <div class="reign" data-ref="tibere" data-from="14" data-to="37"><span class="n">Tibère</span><span class="d">14 → 37</span><div class="bar"><span></span></div></div>
+              <div class="reign" data-ref="caligula" data-from="37" data-to="41"><span class="n">Caligula</span><span class="d">37 → 41</span><div class="bar"><span></span></div></div>
+              <div class="reign" data-ref="claude" data-from="41" data-to="54"><span class="n">Claude</span><span class="d">41 → 54</span><div class="bar"><span></span></div></div>
+              <div class="reign" data-ref="neron" data-from="54" data-to="68"><span class="n">Néron</span><span class="d">54 → 68</span><div class="bar"><span></span></div></div>
+            </div>
+          </details>
+
+          <details class="acc">
+            <summary><div class="grow"><div class="eyebrow">68 → 96</div><div class="t" style="font-weight:600;font-size:16px">Année des quatre empereurs et Flaviens</div></div><span class="chip">6</span><svg data-i="chevronRight" class="chev"></svg></summary>
+            <div class="acc-body" data-span="68,96">
+              <div class="reign" data-ref="x" data-nom="Galba" data-dates="règne : 68 → 69" data-resume="Premier des « quatre empereurs » de 68-69, assassiné." data-from="68" data-to="69"><span class="n">Galba</span><span class="d">68 → 69</span><div class="bar"><span></span></div></div>
+              <div class="reign" data-ref="x" data-nom="Othon" data-dates="règne : 69" data-resume="Empereur pendant trois mois en 69." data-from="69" data-to="69.3"><span class="n">Othon</span><span class="d">69</span><div class="bar"><span></span></div></div>
+              <div class="reign" data-ref="x" data-nom="Vitellius" data-dates="règne : 69" data-resume="Proclamé par les légions du Rhin, renversé par Vespasien." data-from="69.3" data-to="69.9"><span class="n">Vitellius</span><span class="d">69</span><div class="bar"><span></span></div></div>
+              <div class="reign" data-ref="x" data-nom="Vespasien" data-dates="règne : 69 → 79" data-resume="Fondateur de la dynastie flavienne ; il lance la construction du Colisée." data-from="69" data-to="79"><span class="n">Vespasien</span><span class="d">69 → 79</span><div class="bar"><span></span></div></div>
+              <div class="reign" data-ref="x" data-nom="Titus" data-dates="règne : 79 → 81" data-resume="Inaugure le Colisée en 80 ; son règne voit l'éruption du Vésuve (79)." data-from="79" data-to="81"><span class="n">Titus</span><span class="d">79 → 81</span><div class="bar"><span></span></div></div>
+              <div class="reign" data-ref="x" data-nom="Domitien" data-dates="règne : 81 → 96" data-resume="Dernier Flavien, au pouvoir autoritaire ; assassiné." data-from="81" data-to="96"><span class="n">Domitien</span><span class="d">81 → 96</span><div class="bar"><span></span></div></div>
+            </div>
+          </details>
+
+          <details class="acc">
+            <summary><div class="grow"><div class="eyebrow">96 → 192</div><div class="t" style="font-weight:600;font-size:16px">Les Antonins</div></div><span class="chip">6 + 1</span><svg data-i="chevronRight" class="chev"></svg></summary>
+            <div class="acc-body" data-span="96,192">
+              <div class="reign" data-ref="x" data-nom="Nerva" data-dates="règne : 96 → 98" data-resume="Choisi par le Sénat ; il adopte Trajan." data-from="96" data-to="98"><span class="n">Nerva</span><span class="d">96 → 98</span><div class="bar"><span></span></div></div>
+              <div class="reign" data-ref="trajan" data-from="98" data-to="117"><span class="n">Trajan</span><span class="d">98 → 117</span><div class="bar"><span></span></div></div>
+              <div class="reign" data-ref="hadrien" data-from="117" data-to="138"><span class="n">Hadrien</span><span class="d">117 → 138</span><div class="bar"><span></span></div></div>
+              <div class="reign" data-ref="x" data-nom="Antonin le Pieux" data-dates="règne : 138 → 161" data-resume="Long règne paisible qui a donné son nom à la dynastie." data-from="138" data-to="161"><span class="n">Antonin le Pieux</span><span class="d">138 → 161</span><div class="bar"><span></span></div></div>
+              <div class="reign" data-ref="marc-aurele" data-from="161" data-to="180"><span class="n">Marc Aurèle <i>· avec Lucius Verus (161 → 169)</i></span><span class="d">161 → 180</span><div class="bar"><span></span></div></div>
+              <div class="reign" data-ref="x" data-nom="Commode" data-dates="règne : 180 → 192" data-resume="Fils de Marc Aurèle ; son assassinat ouvre une guerre civile." data-from="180" data-to="192"><span class="n">Commode</span><span class="d">180 → 192</span><div class="bar"><span></span></div></div>
+            </div>
+          </details>
+
+          <details class="acc">
+            <summary><div class="grow"><div class="eyebrow">193 → 235</div><div class="t" style="font-weight:600;font-size:16px">Les Sévères</div></div><span class="chip">4</span><svg data-i="chevronRight" class="chev"></svg></summary>
+            <div class="acc-body" data-span="193,235">
+              <div class="reign" data-ref="x" data-nom="Septime Sévère" data-dates="règne : 193 → 211" data-resume="Général né en Afrique (Leptis Magna), vainqueur de la guerre civile de 193." data-from="193" data-to="211"><span class="n">Septime Sévère</span><span class="d">193 → 211</span><div class="bar"><span></span></div></div>
+              <div class="reign" data-ref="x" data-nom="Caracalla" data-dates="règne : 211 → 217" data-resume="Accorde la citoyenneté à tous les hommes libres de l'Empire (212)." data-from="211" data-to="217"><span class="n">Caracalla</span><span class="d">211 → 217</span><div class="bar"><span></span></div></div>
+              <div class="reign" data-ref="x" data-nom="Élagabal" data-dates="règne : 218 → 222" data-resume="Jeune empereur venu de Syrie, assassiné par la garde." data-from="218" data-to="222"><span class="n">Élagabal</span><span class="d">218 → 222</span><div class="bar"><span></span></div></div>
+              <div class="reign" data-ref="x" data-nom="Sévère Alexandre" data-dates="règne : 222 → 235" data-resume="Son assassinat ouvre la crise du IIIe siècle." data-from="222" data-to="235"><span class="n">Sévère Alexandre</span><span class="d">222 → 235</span><div class="bar"><span></span></div></div>
+              <p class="muted" style="font-size:12.5px;margin-top:8px">Également : Geta (211, avec Caracalla) et Macrin (217 → 218, hors dynastie).</p>
+            </div>
+          </details>
+
+          <details class="acc">
+            <summary><div class="grow"><div class="eyebrow">235 → 284</div><div class="t" style="font-weight:600;font-size:16px">La crise du IIIe siècle</div></div><span class="chip">20+</span><svg data-i="chevronRight" class="chev"></svg></summary>
+            <div class="acc-body" data-span="235,284">
+              <p class="prose" style="font-size:14px">Plus d'une vingtaine d'empereurs en 50 ans, souvent proclamés par leurs soldats. La liste complète sera affichée ici ; quelques repères :</p>
+              <div class="reign" data-ref="x" data-nom="Valérien" data-dates="règne : 253 → 260" data-resume="Seul empereur romain capturé par l'ennemi : fait prisonnier par le roi perse Shapur Ier en 260." data-from="253" data-to="260"><span class="n">Valérien</span><span class="d">253 → 260</span><div class="bar"><span></span></div></div>
+              <div class="reign" data-ref="x" data-nom="Gallien" data-dates="règne : 253 → 268" data-resume="Fils de Valérien ; l'Empire se fragmente sous son règne." data-from="253" data-to="268"><span class="n">Gallien</span><span class="d">253 → 268</span><div class="bar"><span></span></div></div>
+              <div class="reign" data-ref="x" data-nom="Aurélien" data-dates="règne : 270 → 275" data-resume="Réunifie l'Empire et entoure Rome d'une nouvelle muraille." data-from="270" data-to="275"><span class="n">Aurélien</span><span class="d">270 → 275</span><div class="bar"><span></span></div></div>
+            </div>
+          </details>
+
+          <details class="acc">
+            <summary><div class="grow"><div class="eyebrow">284 → 476</div><div class="t" style="font-weight:600;font-size:16px">De Dioclétien à la fin de l'Occident</div></div><span class="chip">repères</span><svg data-i="chevronRight" class="chev"></svg></summary>
+            <div class="acc-body" data-span="284,476">
+              <div class="reign" data-ref="x" data-nom="Dioclétien" data-dates="règne : 284 → 305" data-resume="Réorganise l'Empire et crée la Tétrarchie (293) : quatre empereurs à la fois." data-from="284" data-to="305"><span class="n">Dioclétien</span><span class="d">284 → 305</span><div class="bar"><span></span></div></div>
+              <div class="reign" data-ref="constantin" data-from="306" data-to="337"><span class="n">Constantin Ier</span><span class="d">306 → 337</span><div class="bar"><span></span></div></div>
+              <div class="reign" data-ref="x" data-nom="Théodose Ier" data-dates="règne : 379 → 395" data-resume="Dernier empereur à régner sur tout l'Empire ; fait du christianisme la religion d'État (380)." data-from="379" data-to="395"><span class="n">Théodose Ier</span><span class="d">379 → 395</span><div class="bar"><span></span></div></div>
+              <div class="reign" data-ref="x" data-nom="Honorius" data-dates="règne : 395 → 423" data-resume="Premier empereur d'Occident après le partage ; Rome est pillée par les Wisigoths en 410." data-from="395" data-to="423"><span class="n">Honorius <i>· Occident</i></span><span class="d">395 → 423</span><div class="bar"><span></span></div></div>
+              <div class="reign" data-ref="x" data-nom="Romulus Augustule" data-dates="règne : 475 → 476" data-resume="Dernier empereur d'Occident, déposé par Odoacre." data-from="475" data-to="476"><span class="n">Romulus Augustule <i>· Occident</i></span><span class="d">475 → 476</span><div class="bar"><span></span></div></div>
+            </div>
+          </details>
+        </div>
+      </div>
+
+      <!-- ═════════════ SOCIÉTÉ ═════════════ -->
+      <div data-panel="societe" hidden>
+        <div class="section">
+          <h2 class="section-title"><span class="ico"><svg data-i="users" class="sm"></svg></span>Société</h2>
+          <p class="prose">D'abord une division entre libres et esclaves. Parmi les libres, les <b>citoyens romains</b> (droit de vote, protection en justice) se distinguent des étrangers. La citoyenneté s'étend peu à peu, jusqu'à tous les hommes libres de l'Empire en 212. Les esclaves, très nombreux, travaillent aux champs, dans les mines et les maisons.</p>
+        </div>
+        <div class="section">
+          <h2 class="section-title"><span class="ico"><svg data-i="coins" class="sm"></svg></span>Économie</h2>
+          <p class="prose">L'agriculture domine (blé, vigne, olivier). Sous l'Empire, la Méditerranée devient un immense marché : blé d'Égypte, huile d'Espagne, vin de Gaule. Une même monnaie, le denier, circule partout.</p>
+        </div>
+        <div class="section">
+          <h2 class="section-title"><span class="ico"><svg data-i="temple" class="sm"></svg></span>Religions</h2>
+          <p class="prose">Un polythéisme civique : Jupiter, Junon et Minerve sur le Capitole, et des cultes domestiques. Sous l'Empire s'ajoute le culte de l'empereur. Le christianisme, d'abord persécuté, est toléré en 313 puis devient religion d'État en 380.</p>
+        </div>
+        <div class="section">
+          <h2 class="section-title"><span class="ico"><svg data-i="flask" class="sm"></svg></span>Sciences et techniques</h2>
+          <p class="prose">Les Romains excellent dans l'ingénierie : routes, ponts, ports, et un béton capable de durcir sous l'eau.</p>
+          <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:12px">
+            <button class="chip" data-ref="calendrier-julien"><span class="badge discovery" style="padding:1px 5px">●</span> Calendrier julien</button>
+            <button class="chip" data-ref="beton-romain"><span class="badge discovery" style="padding:1px 5px">●</span> Béton romain</button>
+            <button class="chip" data-ref="aqueducs"><span class="badge discovery" style="padding:1px 5px">●</span> Aqueducs</button>
+            <button class="chip" data-ref="droit-romain"><span class="badge discovery" style="padding:1px 5px">●</span> Droit romain</button>
+          </div>
+        </div>
+        <div class="section">
+          <h2 class="section-title"><span class="ico"><svg data-i="palette" class="sm"></svg></span>Arts et monuments</h2>
+          <div class="card">
+            <div class="row"><div class="grow"><div class="t">Colisée</div><div class="s">Amphithéâtre inauguré en 80</div></div></div>
+            <div class="row"><div class="grow"><div class="t">Panthéon</div><div class="s">Temple reconstruit sous Hadrien, vers 125</div></div></div>
+            <div class="row"><div class="grow"><div class="t">Pont du Gard</div><div class="s">Pont-aqueduc du Ier siècle, en Gaule</div></div></div>
+          </div>
+        </div>
+        <div class="section">
+          <h2 class="section-title"><span class="ico"><svg data-i="home" class="sm"></svg></span>Vie quotidienne</h2>
+          <p class="prose">En ville, la plupart des gens vivent dans des immeubles de location (<i>insulae</i>), les riches dans une <i>domus</i>. Les thermes publics, les courses de chars et les combats de gladiateurs rythment la vie.</p>
+        </div>
+      </div>
+
+      <!-- ═════════════ GUERRES ═════════════ -->
+      <div data-panel="guerres" hidden>
+        <div class="section">
+          <p class="prose" style="font-size:14px">5 guerres majeures. Chacune aura sa propre page (phases, cartes animées, batailles) avec l'onglet <b>Guerres</b>.</p>
+        </div>
+        <div class="section" style="display:grid;gap:10px">
+          <button class="card" data-ref="guerres-puniques" style="padding:14px;text-align:left;width:100%"><div style="display:flex;justify-content:space-between"><span class="t" style="font-weight:600">Guerres puniques</span><span class="muted tabular" style="font-size:12.5px">−264 → −146</span></div><div class="versus"><span class="side win">Rome</span><span class="vs">VS</span><span class="side">Carthage</span></div></button>
+          <button class="card" data-ref="guerre-des-gaules" style="padding:14px;text-align:left;width:100%"><div style="display:flex;justify-content:space-between"><span class="t" style="font-weight:600">Guerre des Gaules</span><span class="muted tabular" style="font-size:12.5px">−58 → −50</span></div><div class="versus"><span class="side win">Rome (César)</span><span class="vs">VS</span><span class="side">Peuples gaulois</span></div></button>
+          <button class="card" data-ref="guerre-civile-cesar" style="padding:14px;text-align:left;width:100%"><div style="display:flex;justify-content:space-between"><span class="t" style="font-weight:600">Guerre civile de César</span><span class="muted tabular" style="font-size:12.5px">−49 → −45</span></div><div class="versus"><span class="side win">César</span><span class="vs">VS</span><span class="side">Pompée et le Sénat</span></div></button>
+          <button class="card" data-ref="guerres-daciques" style="padding:14px;text-align:left;width:100%"><div style="display:flex;justify-content:space-between"><span class="t" style="font-weight:600">Guerres daciques</span><span class="muted tabular" style="font-size:12.5px">101 → 106</span></div><div class="versus"><span class="side win">Rome (Trajan)</span><span class="vs">VS</span><span class="side">Daces (Décébale)</span></div></button>
+          <button class="card" data-ref="andrinople" style="padding:14px;text-align:left;width:100%"><div style="display:flex;justify-content:space-between"><span class="t" style="font-weight:600">Bataille d'Andrinople</span><span class="muted tabular" style="font-size:12.5px">378</span></div><div class="versus"><span class="side">Rome (Valens)</span><span class="vs">VS</span><span class="side win">Goths</span></div></button>
+          <p class="muted" style="font-size:12px">Cadre vert = vainqueur.</p>
+        </div>
+      </div>
+
+      <!-- ═════════════ CARTE ═════════════ -->
+      <div data-panel="carte" hidden>
+        <div class="section">
+          <div class="seg" data-seg role="group" aria-label="Année de la carte">
+            <button data-view="-200">200 av. J.-C.</button>
+            <button data-view="100">100</button>
+            <button data-view="400">400</button>
+          </div>
+          <div data-view-panel="-200" style="margin-top:12px"><img class="map-img" src="assets/carte-rome--200.svg" alt="Carte en 200 av. J.-C."><p class="prose" style="margin-top:10px;font-size:14px">Après la deuxième guerre punique, Rome domine l'Italie et a pris à Carthage la Sicile, la Sardaigne et une partie de l'Espagne.</p></div>
+          <div data-view-panel="100" hidden style="margin-top:12px"><img class="map-img" src="assets/carte-rome-100.svg" alt="Carte en 100"><p class="prose" style="margin-top:10px;font-size:14px">L'Empire entoure toute la Méditerranée ; il atteint son étendue maximale en 117.</p></div>
+          <div data-view-panel="400" hidden style="margin-top:12px"><img class="map-img" src="assets/carte-rome-400.svg" alt="Carte en 400"><p class="prose" style="margin-top:10px;font-size:14px">L'Empire est partagé depuis 395 : en couleur, l'Occident, qui disparaît en 476. L'Orient continue sous le nom d'<span class="ref" data-ref="byzance">Empire byzantin</span>.</p></div>
+          <a class="btn btn-secondary btn-block" href="04b-carte.html" style="margin-top:14px"><svg data-i="globe" class="sm"></svg> Ouvrir la carte du monde à cette date</a>
+        </div>
+      </div>
+      <div class="footer-space"></div>
+    </div>
+
+    <!-- Une seule action principale : réviser cette civilisation -->
+    <div class="cta-bar"><a class="btn btn-accent btn-block" href="10-reviser.html"><svg data-i="cards" class="sm"></svg> Réviser Rome antique · 14 cartes + quiz</a></div>
+
+    <nav class="tabbar" aria-label="Navigation principale">
+      <a href="02-accueil.html"><svg data-i="home"></svg>Accueil</a>
+      <a href="04-frise.html" aria-current="page"><svg data-i="timeline"></svg>Frise</a>
+      <a href="04b-carte.html"><svg data-i="globe"></svg>Carte</a>
+      <a href="09-guerres.html"><svg data-i="swords"></svg>Guerres</a>
+      <a href="10-reviser.html"><svg data-i="cards"></svg>Réviser</a>
+    </nav>
+  </div>
+
+  <aside class="notes">
+    <a class="back" href="index.html"><svg data-i="arrowLeft" class="sm"></svg> Toutes les maquettes</a>
+    <p class="eyebrow">Maquette 05 · Demandes 1 et 3 · validée</p>
+    <h1>Fiche d'une civilisation</h1>
+    <p>La même structure pour les 105 fiches (et les suivantes) : on lit l'essentiel en 2 minutes, on creuse si on veut.</p>
+    <h2>Pourquoi ces choix</h2>
+    <ul>
+      <li><b>En-tête « en une phrase »</b> : nom, dates, durée et une définition. On sait de quoi on parle en 5 secondes.</li>
+      <li><b>6 onglets au lieu de 4</b> : Résumé, Histoire, Dirigeants, Société, Guerres, Carte. Tes demandes (fiche plus riche, tous les dirigeants) ne tiennent pas dans 4 onglets. « Réviser » devient le <b>bouton principal fixe</b> en bas : une seule action principale par écran.</li>
+      <li><b>Repères</b> : les mêmes 9 cases pour toutes les civilisations (capitale, régimes, langue, religion, apogée, population, monnaie, durée, pays actuels), comme l'encadré « ancien pays » de Wikipédia. On peut comparer deux civilisations d'un coup d'œil, et chaque case alimente le quiz.</li>
+      <li><b>Pyramide inversée</b> : l'essentiel en 5 points → 5 dates → personnages → héritage. Le détail est dans les autres onglets.</li>
+      <li><b>Mots soulignés en pointillé</b> = fiches liées. Un toucher ouvre un aperçu sans quitter la page ; « Ouvrir la fiche » mène à la fiche complète (essayez Jules César, Assassinat de César, Calendrier julien).</li>
+      <li><b>Dirigeants (demande 3)</b> : bandeau des régimes, puis tous les dirigeants <b>par dynastie</b>, avec une barre proportionnelle à la durée du règne. La République n'a pas de chef unique : on l'explique et on montre les grandes figures, plutôt qu'une liste illisible de centaines de consuls. Les rois légendaires sont signalés « selon la tradition ».</li>
+      <li><b>« À savoir »</b> : légendes, débats d'historiens. C'est ce qui distingue un contenu sérieux d'un résumé approximatif.</li>
+      <li><b>Sources visibles + « Signaler une erreur »</b> : indispensable pour la crédibilité d'une app payante.</li>
+      <li><b>Histoire en périodes repliables</b> : un bandeau proportionnel montre d'un coup que la République dure plus longtemps que l'Empire d'Occident.</li>
+    </ul>
+    <h2>Données à ajouter (sprint 11)</h2>
+    <p>Nouveaux champs des fiches : <code>enUnePhrase</code>, <code>reperes</code> (9 cases), <code>essentiel</code> (5 points), <code>periodes</code>, <code>societe</code> (6 rubriques), <code>heritage</code>, <code>aSavoir</code>, <code>sources</code>, plus <code>dynasties</code> et une note pour les régimes collégiaux (déjà prévus au sprint 9).</p>
+    <div class="tools"><button class="btn btn-secondary" data-theme-toggle><svg data-i="moon" class="sm"></svg> Thème</button></div>
+  </aside>
+</main>
+<script src="assets/maquette.js"></script>
+</body>
+</html>

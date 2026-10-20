@@ -1,0 +1,20 @@
+{
+  "id": "heliocentrisme",
+  "nom": "Héliocentrisme de Copernic",
+  "annee": 1543,
+  "domaine": "Astronomie",
+  "dates": "1543",
+  "description": "L’idée, publiée par [[nicolas-copernic|Copernic]] en 1543, que la Terre et les planètes tournent autour du Soleil, et non l’inverse.",
+  "sections": [
+    {
+      "titre": "Ce qui change",
+      "texte": "Depuis Ptolémée, on pensait que la Terre était immobile au centre de l’univers. Copernic montre que placer le Soleil au centre explique plus simplement le mouvement des planètes."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Confirmée par Kepler et Galilée au XVIIe siècle, l’idée est d’abord combattue par l’Église ; on parle de « révolution copernicienne » pour tout bouleversement de la pensée."
+    }
+  ],
+  "liens": [{ "ref": "nicolas-copernic", "relation": "Son auteur" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/H%C3%A9liocentrisme"
+}

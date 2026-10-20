@@ -1,0 +1,21 @@
+{
+  "id": "fondation-de-tenochtitlan",
+  "nom": "Fondation de Tenochtitlan",
+  "annee": 1325,
+  "dates": "vers 1325 (date traditionnelle)",
+  "lieu": "Île du lac Texcoco",
+  "description": "Selon le récit mexica, le peuple s’installe là où il voit un aigle posé sur un cactus, signe promis par le dieu Huitzilopochtli. La ville devient la capitale de l’empire.",
+  "sections": [
+    {
+      "titre": "Le récit",
+      "texte": "Partis d’Aztlan, les Mexicas errent pendant des générations avant de trouver, sur une île marécageuse du lac Texcoco, l’aigle annoncé par leur dieu."
+    },
+    {
+      "titre": "Ce que l’on sait",
+      "texte": "L’archéologie confirme une installation sur l’île au XIVe siècle. La ville, reliée à la terre par des chaussées, grandit grâce aux chinampas et compte environ 200 000 habitants en 1519."
+    }
+  ],
+  "apres": "triple-alliance",
+  "aSavoir": ["Le symbole de l’aigle sur le cactus figure aujourd’hui au centre du drapeau mexicain."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Tenochtitlan"
+}

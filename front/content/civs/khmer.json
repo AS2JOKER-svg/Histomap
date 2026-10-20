@@ -1,0 +1,285 @@
+{
+  "id": "khmer",
+  "label": "Empire Khmer",
+  "tier": 1,
+  "region": "asie-sud-est-continentale",
+  "period": "802 à 1431",
+  "start": 802,
+  "end": 1431,
+  "color": "#ff9800",
+  "trackId": "indochine",
+  "row": 7,
+  "isRiver": false,
+  "capitale": "Angkor",
+  "description": "L’empire khmer, qui domine une grande partie de l’Asie du Sud-Est continentale depuis Angkor, immense cité de temples et de réservoirs, avant que sa capitale ne soit abandonnée au XVe siècle.",
+  "territories": ["Chen-La", "Khmer Empire"],
+  "datesCles": [
+    {
+      "annee": 802,
+      "evenement": "Fondation sur la montagne",
+      "info": "Jayavarman II se proclame souverain universel sur le mont Kulen."
+    },
+    {
+      "annee": 889,
+      "evenement": "Fondation d’Angkor",
+      "info": "Yasovarman Ier installe sa capitale, Yasodharapura, sur le site d’Angkor."
+    },
+    {
+      "annee": 1150,
+      "evenement": "Angkor Vat",
+      "info": "Le grand temple de Suryavarman II, dédié à Vishnou, est achevé vers la mort du roi."
+    },
+    {
+      "annee": 1177,
+      "evenement": "Sac d’Angkor",
+      "info": "La flotte du royaume du Champa remonte le fleuve et le grand lac, et pille la capitale.",
+      "ref": "sac-d-angkor"
+    },
+    {
+      "annee": 1181,
+      "evenement": "La Revanche",
+      "info": "Jayavarman VII chasse les Chams, devient roi et bâtit Angkor Thom et le Bayon."
+    },
+    {
+      "annee": 1296,
+      "evenement": "Visite de Zhou Daguan",
+      "info": "Un envoyé chinois séjourne un an à Angkor et décrit la vie de la ville."
+    },
+    {
+      "annee": 1431,
+      "evenement": "Abandon d’Angkor",
+      "info": "Après une attaque du royaume thaï d’Ayutthaya, la cour quitte progressivement Angkor.",
+      "ref": "abandon-d-angkor"
+    }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Jayavarman II",
+      "titre": "Roi",
+      "debut": 802,
+      "fin": 835,
+      "dynastie": "rois",
+      "note": "fondateur de l’empire",
+      "cle": true
+    },
+    {
+      "nom": "Indravarman Ier",
+      "titre": "Roi",
+      "debut": 877,
+      "fin": 889,
+      "dynastie": "rois",
+      "note": "premier grand baray"
+    },
+    {
+      "nom": "Yasovarman Ier",
+      "titre": "Roi",
+      "debut": 889,
+      "fin": 910,
+      "dynastie": "rois",
+      "note": "installe la capitale à Angkor",
+      "cle": true
+    },
+    { "nom": "Rajendravarman II", "titre": "Roi", "debut": 944, "fin": 968, "dynastie": "rois" },
+    {
+      "nom": "Jayavarman V",
+      "titre": "Roi",
+      "debut": 968,
+      "fin": 1001,
+      "dynastie": "rois",
+      "note": "règne du temple de Banteay Srei"
+    },
+    {
+      "nom": "Suryavarman Ier",
+      "titre": "Roi",
+      "debut": 1006,
+      "fin": 1050,
+      "dynastie": "rois",
+      "note": "étend l’empire vers l’ouest"
+    },
+    {
+      "nom": "Udayadityavarman II",
+      "titre": "Roi",
+      "debut": 1050,
+      "fin": 1066,
+      "dynastie": "rois",
+      "note": "fait creuser le baray occidental"
+    },
+    {
+      "nom": "Suryavarman II",
+      "titre": "Roi",
+      "debut": 1113,
+      "fin": 1150,
+      "dynastie": "rois",
+      "note": "bâtit Angkor Vat",
+      "cle": true
+    },
+    {
+      "nom": "Jayavarman VII",
+      "titre": "Roi",
+      "debut": 1181,
+      "fin": 1218,
+      "dynastie": "rois",
+      "personne": "jayavarman-vii",
+      "note": "rebâtit Angkor, bouddhiste",
+      "cle": true
+    },
+    { "nom": "Indravarman II", "titre": "Roi", "debut": 1219, "fin": 1243, "dynastie": "rois" },
+    {
+      "nom": "Jayavarman VIII",
+      "titre": "Roi",
+      "debut": 1243,
+      "fin": 1295,
+      "dynastie": "rois",
+      "note": "retour à l’hindouisme"
+    },
+    {
+      "nom": "Indravarman III",
+      "titre": "Roi",
+      "debut": 1295,
+      "fin": 1308,
+      "dynastie": "rois",
+      "note": "roi lors de la visite de Zhou Daguan"
+    },
+    {
+      "nom": "Ponhea Yat",
+      "titre": "Roi",
+      "debut": 1417,
+      "fin": 1463,
+      "dynastie": "rois",
+      "note": "quitte Angkor pour le sud",
+      "cle": true
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Jayavarman VII",
+      "role": "Roi",
+      "description": "Il chasse les Chams, rebâtit Angkor, adopte le bouddhisme et fait construire routes, gîtes et hôpitaux.",
+      "dates": "vers 1122 → 1218",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Jayavarman_VII",
+      "ref": "jayavarman-vii"
+    },
+    {
+      "nom": "Zhou Daguan",
+      "role": "Diplomate chinois",
+      "description": "Membre d’une ambassade chinoise, il séjourne à Angkor en 1296-1297 et en laisse la seule description par un témoin.",
+      "dates": "vers 1270 → vers 1350",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Zhou_Daguan"
+    },
+    {
+      "nom": "Henri Mouhot",
+      "role": "Naturaliste",
+      "description": "Explorateur français dont les récits, publiés après sa mort en 1861, font connaître Angkor en Europe.",
+      "dates": "1826 → 1861",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Henri_Mouhot"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerres Khméro-Chams",
+      "annee": 1177,
+      "adversaires": ["Royaume de Champa (Sud-Vietnam actuel)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Empire Khmer (Contre-attaque)",
+      "consequences": "Après un raid naval des Chams qui pillent Angkor (1177), le prince khmer Jayavarman VII les chasse, devient roi et soumet le Champa pour une vingtaine d’années.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Empire_khmer"
+    }
+  ],
+  "sciences": "Les Khmers aménagent Angkor en une immense ville-jardin, sur près de 1 000 km² : canaux, digues et barays, des réservoirs géants construits en élevant des levées de terre (le baray occidental mesure 8 km sur 2). Ce système servait à gérer l’eau des moussons ; son rôle exact pour l’irrigation des rizières est discuté. Leurs architectes taillent et assemblent des millions de blocs de grès sans mortier.",
+  "croyancesText": "Les rois khmers honorent Shiva et Vishnou ; un culte royal les associe aux dieux. Les temples-montagnes, comme Angkor Vat entouré de ses douves, représentent le mont Meru, centre de l’univers, entouré de l’océan. Jayavarman VII adopte le bouddhisme mahayana et fait sculpter de grands visages sereins sur les tours du Bayon. À partir du XIIIe siècle, le bouddhisme theravada devient la religion de la majorité.",
+  "diplomatie": "L’Empire s’étend du Vietnam au Myanmar : il relie ses provinces par des routes surélevées, au-dessus des inondations, avec des ponts de pierre, des gîtes d’étape et des hôpitaux. Il affronte souvent le royaume du Champa à l’est, puis les royaumes thaïs à l’ouest, qui finissent par l’emporter.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": {
+      "valeur": "Angkor",
+      "precision": "Yasodharapura, puis Angkor Thom ; la cour s’installe vers Phnom Penh au XVe siècle"
+    },
+    "regimes": { "valeur": "Monarchie", "precision": "le roi, souverain universel, est associé aux dieux par un culte royal" },
+    "langues": { "valeur": "Khmer et sanskrit", "precision": "le sanskrit pour les inscriptions religieuses et royales" },
+    "religion": {
+      "valeur": "Hindouisme, puis bouddhisme",
+      "precision": "shivaïsme et vishnouisme ; bouddhisme mahayana sous Jayavarman VII, puis theravada"
+    },
+    "apogee": { "valeur": "XIIe-début XIIIe siècle", "precision": "sous Suryavarman II et Jayavarman VII" },
+    "population": {
+      "valeur": "Angkor : peut-être 700 000 à 900 000 habitants",
+      "precision": "sur une zone étendue de 1 000 km² (estimation)"
+    },
+    "monnaie": { "valeur": "Pas de monnaie frappée", "precision": "troc, riz, tissus et métaux précieux" },
+    "duree": { "valeur": "Plus de 600 ans" },
+    "aujourdhui": { "valeur": "Cambodge", "precision": "et une partie de la Thaïlande, du Laos et du Vietnam" }
+  },
+  "essentiel": [
+    "En 802, Jayavarman II se proclame souverain universel sur le mont Kulen : c’est la naissance de l’empire khmer.",
+    "Ses successeurs bâtissent Angkor, une immense ville de temples, de canaux et de réservoirs géants, les [[baray-occidental|barays]].",
+    "Suryavarman II fait construire [[angkor-vat|Angkor Vat]], le plus grand monument religieux du monde.",
+    "Après le [[sac-d-angkor|sac d’Angkor par les Chams]] (1177), [[jayavarman-vii|Jayavarman VII]] reconstruit la ville et adopte le bouddhisme.",
+    "Affaiblie par les guerres avec les Thaïs et par des sécheresses, la cour [[abandon-d-angkor|quitte Angkor]] au XVe siècle."
+  ],
+  "periodes": [
+    {
+      "nom": "La fondation",
+      "debut": 802,
+      "fin": 1002,
+      "resume": "Les rois unifient le pays khmer, installent leur capitale à Angkor et bâtissent des temples-montagnes et un premier grand baray.",
+      "evenements": [
+        { "annee": 889, "evenement": "Fondation de Yasodharapura" },
+        { "annee": 967, "evenement": "Temple de Banteay Srei" }
+      ]
+    },
+    {
+      "nom": "L’empire à son apogée",
+      "debut": 1002,
+      "fin": 1218,
+      "resume": "L’empire s’étend en Thaïlande et au Laos. Suryavarman II bâtit Angkor Vat ; Jayavarman VII, après le sac de 1177, couvre l’empire de temples, de routes et d’hôpitaux.",
+      "evenements": [
+        { "annee": 1050, "evenement": "Baray occidental" },
+        { "annee": 1177, "evenement": "Sac d’Angkor", "ref": "sac-d-angkor" },
+        { "annee": 1181, "evenement": "Couronnement de Jayavarman VII" }
+      ]
+    },
+    {
+      "nom": "Le déclin",
+      "debut": 1218,
+      "fin": 1431,
+      "resume": "L’empire perd ses territoires de l’ouest face aux royaumes thaïs. Le bouddhisme theravada se répand ; des sécheresses fragilisent le système hydraulique.",
+      "evenements": [
+        { "annee": 1296, "evenement": "Visite de Zhou Daguan" },
+        { "annee": 1431, "evenement": "Prise d’Angkor par Ayutthaya", "ref": "abandon-d-angkor" }
+      ]
+    }
+  ],
+  "dynasties": [
+    {
+      "id": "rois",
+      "nom": "Les rois d’Angkor",
+      "debut": 802,
+      "fin": 1463,
+      "note": "Sélection parmi une trentaine de rois ; dates d’après les inscriptions, parfois approximatives."
+    }
+  ],
+  "societe": "Le roi, les prêtres et les grands dignitaires dominent une société où la majorité des habitants cultive le riz et travaille pour les temples. Selon Zhou Daguan, les femmes tiennent le commerce sur les marchés.",
+  "economie": "Riziculture, pêche dans le grand lac Tonlé Sap, travail pour les temples, commerce avec la Chine (ivoire, plumes, épices contre soie et céramiques).",
+  "decouvertes": ["angkor-vat", "baray-occidental"],
+  "arts": "Angkor Vat, le Bayon et ses visages, Banteay Srei et ses sculptures fines, bas-reliefs de danseuses célestes (apsaras) et de batailles, statues de bronze et de grès.",
+  "quotidien": "Les habitants vivent dans des maisons de bois sur pilotis, autour des temples et des canaux. Zhou Daguan décrit des marchés animés et des bains quotidiens dans les rivières.",
+  "heritage": [
+    {
+      "titre": "Le symbole du Cambodge",
+      "texte": "Angkor Vat figure sur le drapeau du Cambodge ; le site d’Angkor est inscrit au patrimoine mondial."
+    },
+    {
+      "titre": "La danse khmère",
+      "texte": "Le ballet royal du Cambodge reprend les gestes des apsaras sculptées sur les temples."
+    }
+  ],
+  "aSavoir": [
+    "Angkor n’a jamais été totalement « perdue dans la jungle » : des moines bouddhistes ont continué de vivre à Angkor Vat après le départ de la cour."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Empire_khmer",
+    "https://fr.wikipedia.org/wiki/Angkor",
+    { "titre": "Encyclopædia Britannica — Angkor", "url": "https://www.britannica.com/place/Angkor" }
+  ]
+}

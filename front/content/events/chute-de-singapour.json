@@ -1,0 +1,16 @@
+{
+  "id": "chute-de-singapour",
+  "nom": "Chute de Singapour",
+  "annee": 1942,
+  "dates": "8-15 février 1942",
+  "lieu": "Singapour",
+  "description": "Après avoir conquis la Malaisie en quelques semaines, l’armée japonaise du général Yamashita traverse le détroit de Johor et force les Britanniques à capituler.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "Environ 80 000 soldats britanniques, indiens et australiens sont faits prisonniers : Churchill parle de la pire catastrophe de l’histoire militaire britannique. Le prestige des colonisateurs européens en Asie en sort ruiné."
+    }
+  ],
+  "apres": "massacre-de-sook-ching",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Singapour"
+}

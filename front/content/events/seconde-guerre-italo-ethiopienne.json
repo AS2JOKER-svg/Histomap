@@ -1,0 +1,21 @@
+{
+  "id": "seconde-guerre-italo-ethiopienne",
+  "nom": "Seconde guerre italo-éthiopienne",
+  "annee": 1935,
+  "fin": 1936,
+  "dates": "octobre 1935 → mai 1936",
+  "lieu": "Éthiopie",
+  "description": "L’Italie de [[benito-mussolini|Mussolini]] envahit l’Éthiopie, en partie pour venger Adoua, avec des avions, des chars et des gaz de combat.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "La Société des Nations condamne l’Italie mais ses sanctions restent sans effet. L’occupation est marquée par de violentes répressions, comme le massacre d’Addis-Abeba (1937). L’Éthiopie est libérée en 1941."
+    }
+  ],
+  "liens": [
+    { "ref": "haile-selassie", "relation": "L’empereur en exil" },
+    { "ref": "benito-mussolini", "relation": "Il ordonne l’invasion" }
+  ],
+  "avant": "bataille-d-adoua",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Seconde_guerre_italo-%C3%A9thiopienne"
+}

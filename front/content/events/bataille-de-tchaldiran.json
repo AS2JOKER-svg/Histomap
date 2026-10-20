@@ -1,0 +1,15 @@
+{
+  "id": "bataille-de-tchaldiran",
+  "nom": "Bataille de Tchaldiran",
+  "annee": 1514,
+  "dates": "23 août 1514",
+  "lieu": "Tchaldiran (nord-ouest de l’Iran)",
+  "description": "L’armée ottomane de Selim Ier, avec ses canons et ses janissaires, écrase la cavalerie safavide d’[[ismail-ier|Ismaïl Ier]].",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "Les Ottomans prennent l’est de l’Anatolie et occupent brièvement Tabriz. La rivalité entre Ottomans sunnites et Safavides chiites dure plus d’un siècle."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Tchaldiran"
+}

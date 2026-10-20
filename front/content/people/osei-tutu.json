@@ -1,0 +1,16 @@
+{
+  "id": "osei-tutu",
+  "nom": "Osei Tutu",
+  "role": "Fondateur de l’empire ashanti",
+  "roles": ["Asantehene", "Fondateur"],
+  "dates": "mort vers 1717",
+  "mort": 1717,
+  "description": "Roi de Kumasi qui, avec le prêtre Okomfo Anokye, unit les royaumes akan, bat le Denkyira et fonde l’empire ashanti.",
+  "essentiel": [
+    "Il grandit comme otage à la cour du Denkyira.",
+    "Il fait de Kumasi la capitale et donne à la confédération le [[trone-d-or|Trône d’or]] comme symbole.",
+    "Il remporte la [[bataille-de-feyiase|bataille de Feyiase]] en 1701.",
+    "Il meurt au combat vers 1717."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Osei_Tutu"
+}

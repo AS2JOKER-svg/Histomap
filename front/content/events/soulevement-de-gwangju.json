@@ -1,0 +1,15 @@
+{
+  "id": "soulevement-de-gwangju",
+  "nom": "Soulèvement de Gwangju",
+  "annee": 1980,
+  "dates": "18-27 mai 1980",
+  "lieu": "Gwangju (Corée du Sud)",
+  "description": "Des étudiants et des habitants de Gwangju se soulèvent contre la dictature militaire de Chun Doo-hwan ; l’armée écrase le mouvement.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "Plusieurs centaines de personnes sont tuées. Le souvenir de Gwangju nourrit le mouvement pour la démocratie, qui l’emporte en 1987."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Soul%C3%A8vement_de_Gwangju"
+}

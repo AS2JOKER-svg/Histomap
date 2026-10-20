@@ -1,0 +1,16 @@
+{
+  "id": "bataille-du-lechfeld",
+  "nom": "Bataille du Lechfeld",
+  "annee": 955,
+  "dates": "10 août 955",
+  "lieu": "Près d’Augsbourg (Bavière)",
+  "description": "[[otton-ier|Otton Ier]] écrase l’armée des Hongrois, qui ravageaient l’Europe depuis un demi-siècle.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "Les Hongrois cessent leurs raids et s’installent dans la plaine du Danube, où naît le royaume de Hongrie. Otton, auréolé de sa victoire, est couronné empereur sept ans plus tard."
+    }
+  ],
+  "liens": [{ "ref": "otton-ier", "relation": "Le vainqueur" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_du_Lechfeld"
+}

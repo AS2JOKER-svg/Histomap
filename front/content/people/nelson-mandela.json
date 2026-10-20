@@ -1,0 +1,19 @@
+{
+  "id": "nelson-mandela",
+  "nom": "Nelson Mandela",
+  "role": "Président de l’Afrique du Sud",
+  "roles": ["Avocat", "Militant", "Président"],
+  "dates": "1918 → 2013",
+  "naissance": 1918,
+  "mort": 2013,
+  "description": "Avocat et dirigeant de l’ANC, emprisonné pendant 27 ans par le régime de l’apartheid, il négocie la fin de la ségrégation et devient le premier président noir de l’Afrique du Sud.",
+  "reperes": [{ "label": "Président", "valeur": "1994 → 1999" }],
+  "essentiel": [
+    "Après le [[massacre-de-sharpeville|massacre de Sharpeville]], il participe à la création de la branche armée de l’ANC.",
+    "Condamné à la prison à vie en 1964, il passe 18 ans sur l’île de Robben Island.",
+    "Libéré en 1990, il reçoit le prix Nobel de la paix en 1993 avec Frederik de Klerk.",
+    "Président de 1994 à 1999, il prône la réconciliation."
+  ],
+  "aSavoir": ["« Madiba » est le nom de son clan, utilisé affectueusement par les Sud-Africains."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Nelson_Mandela"
+}

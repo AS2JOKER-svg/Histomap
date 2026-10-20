@@ -1,0 +1,21 @@
+{
+  "id": "abraham-lincoln",
+  "nom": "Abraham Lincoln",
+  "role": "Président des États-Unis",
+  "roles": ["Avocat", "Président"],
+  "dates": "1809 → 1865",
+  "naissance": 1809,
+  "mort": 1865,
+  "description": "Avocat de l’Illinois élu président en 1860, il conduit le Nord pendant la guerre de Sécession, abolit l’esclavage et est assassiné quelques jours après la victoire.",
+  "reperes": [{ "label": "Président", "valeur": "1861 → 1865" }],
+  "essentiel": [
+    "Son élection provoque la sécession des États du Sud.",
+    "Il dirige l’Union pendant la [[guerre-de-secession|guerre de Sécession]].",
+    "Par la proclamation d’émancipation (1863), puis le 13e amendement, il obtient l’abolition de l’esclavage.",
+    "Il est assassiné dans un théâtre de Washington le 14 avril 1865."
+  ],
+  "aSavoir": [
+    "Son discours de Gettysburg (1863) définit la démocratie comme « le gouvernement du peuple, par le peuple, pour le peuple »."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Abraham_Lincoln"
+}

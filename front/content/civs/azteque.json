@@ -1,0 +1,269 @@
+{
+  "id": "azteque",
+  "label": "Empire aztèque",
+  "tier": 1,
+  "region": "mesoamerique",
+  "period": "1428 à 1521",
+  "start": 1428,
+  "end": 1521,
+  "trackId": "mesoamerique",
+  "row": 1,
+  "isRiver": false,
+  "capitale": "Tenochtitlan (Mexico)",
+  "description": "Les Mexicas, installés sur une île du lac Texcoco, bâtissent en moins d’un siècle l’empire le plus puissant de Mésoamérique, avant de tomber face aux Espagnols et à leurs alliés autochtones en 1521.",
+  "territories": ["Aztec Empire"],
+  "datesCles": [
+    {
+      "annee": 1428,
+      "evenement": "La Triple Alliance",
+      "info": "Tenochtitlan s’allie à Texcoco et Tlacopan et renverse la domination de la cité d’Azcapotzalco.",
+      "ref": "triple-alliance"
+    },
+    {
+      "annee": 1487,
+      "evenement": "Nouvelle consécration du Templo Mayor",
+      "info": "Sous Ahuitzotl. Les chroniques parlent de dizaines de milliers de sacrifiés ; les historiens jugent ces chiffres très exagérés."
+    },
+    {
+      "annee": 1519,
+      "evenement": "Arrivée de Cortés à Tenochtitlan",
+      "info": "Moctezuma II reçoit les Espagnols, frappés par la taille et l’organisation de la ville."
+    },
+    {
+      "annee": 1521,
+      "evenement": "Chute de Tenochtitlan",
+      "info": "Après un siège de près de trois mois, la ville tombe ; les Espagnols bâtissent Mexico sur ses ruines.",
+      "ref": "chute-de-tenochtitlan"
+    }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Acamapichtli",
+      "titre": "Tlatoani",
+      "debut": 1376,
+      "fin": 1395,
+      "dynastie": "premiers-tlatoque",
+      "note": "premier tlatoani"
+    },
+    { "nom": "Huitzilihuitl", "titre": "Tlatoani", "debut": 1395, "fin": 1417, "dynastie": "premiers-tlatoque" },
+    { "nom": "Chimalpopoca", "titre": "Tlatoani", "debut": 1417, "fin": 1427, "dynastie": "premiers-tlatoque" },
+    {
+      "nom": "Itzcoatl",
+      "titre": "Tlatoani",
+      "debut": 1427,
+      "fin": 1440,
+      "dynastie": "empire",
+      "note": "fonde la Triple Alliance",
+      "cle": true
+    },
+    {
+      "nom": "Moctezuma Ier",
+      "titre": "Tlatoani",
+      "surnom": "Ilhuicamina",
+      "debut": 1440,
+      "fin": 1469,
+      "dynastie": "empire",
+      "cle": true
+    },
+    { "nom": "Axayacatl", "titre": "Tlatoani", "debut": 1469, "fin": 1481, "dynastie": "empire" },
+    { "nom": "Tizoc", "titre": "Tlatoani", "debut": 1481, "fin": 1486, "dynastie": "empire" },
+    { "nom": "Ahuitzotl", "titre": "Tlatoani", "debut": 1486, "fin": 1502, "dynastie": "empire", "cle": true },
+    {
+      "nom": "Moctezuma II",
+      "titre": "Tlatoani",
+      "surnom": "Xocoyotzin",
+      "debut": 1502,
+      "fin": 1520,
+      "dynastie": "empire",
+      "personne": "moctezuma-ii",
+      "cle": true
+    },
+    {
+      "nom": "Cuitláhuac",
+      "titre": "Tlatoani",
+      "debut": 1520,
+      "fin": 1520,
+      "dynastie": "empire",
+      "note": "meurt de la variole après quelques mois"
+    },
+    {
+      "nom": "Cuauhtémoc",
+      "titre": "Tlatoani",
+      "debut": 1520,
+      "fin": 1521,
+      "dynastie": "empire",
+      "personne": "cuauhtemoc",
+      "note": "dernier tlatoani",
+      "cle": true
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Moctezuma II",
+      "role": "Tlatoani",
+      "description": "Souverain de l’empire à son apogée, il accueille Cortés en 1519 et meurt en 1520, prisonnier des Espagnols.",
+      "dates": "vers 1466 → 1520",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Moctezuma_II",
+      "ref": "moctezuma-ii"
+    },
+    {
+      "nom": "Cuauhtémoc",
+      "role": "Dernier tlatoani",
+      "description": "Il dirige la défense de Tenochtitlan pendant le siège de 1521 ; capturé, il est exécuté par Cortés en 1525.",
+      "dates": "vers 1500 → 1525",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Cuauht%C3%A9moc",
+      "ref": "cuauhtemoc"
+    },
+    {
+      "nom": "Nezahualcoyotl",
+      "role": "Souverain de Texcoco, poète",
+      "description": "Allié des Mexicas dans la Triple Alliance, il est resté célèbre comme poète, législateur et bâtisseur.",
+      "dates": "1402 → 1472",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Nezahualcoyotl",
+      "ref": "nezahualcoyotl"
+    },
+    {
+      "nom": "Hernán Cortés",
+      "role": "Conquistador",
+      "description": "Conquistador espagnol qui, allié à de nombreux peuples autochtones, s’empare de Tenochtitlan en 1521.",
+      "dates": "1485 → 1547",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Hern%C3%A1n_Cort%C3%A9s",
+      "ref": "hernan-cortes"
+    },
+    {
+      "nom": "La Malinche",
+      "role": "Interprète",
+      "description": "Femme nahua donnée aux Espagnols en 1519, elle devient l’interprète et la conseillère de Cortés.",
+      "dates": "vers 1500 → vers 1529",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/La_Malinche",
+      "ref": "malinche"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Siège de Tenochtitlan",
+      "annee": 1521,
+      "adversaires": ["Espagnols d’Hernán Cortés"],
+      "allies": [],
+      "morts": "Très lourdes : la variole puis le siège tuent une grande partie des habitants de la ville",
+      "vainqueur": "Espagnols et leurs alliés autochtones (Tlaxcala, Texcoco…)",
+      "consequences": "Tenochtitlan est détruite et Mexico est bâtie sur ses ruines. Le centre du Mexique devient la Nouvelle-Espagne, colonie espagnole pendant trois siècles.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Chute_de_l%27Empire_azt%C3%A8que"
+    }
+  ],
+  "sciences": "Les Mexicas maîtrisent l’ingénierie lacustre : digues pour séparer l’eau douce de l’eau salée, chaussées reliant l’île à la terre ferme, aqueduc de Chapultepec apportant l’eau potable. Leurs [[chinampas]] sont très productives. Ils utilisent un [[calendrier-azteque|double calendrier]] de 365 et 260 jours hérité des civilisations mésoaméricaines, et connaissent les plantes médicinales, décrites ensuite par des médecins aztèques dans un herbier.",
+  "croyancesText": "Les Mexicas vénèrent de nombreux dieux, dont Huitzilopochtli, dieu du soleil et de la guerre, et Tlaloc, dieu de la pluie, honorés côte à côte au sommet du Templo Mayor. Selon leurs mythes, le monde a déjà connu quatre soleils détruits ; le cinquième, le leur, doit être nourri par le sang des hommes. Ces croyances justifient des sacrifices humains, surtout de prisonniers de guerre. Les guerriers morts au combat ou sacrifiés, comme les femmes mortes en couches, étaient censés accompagner le soleil.",
+  "diplomatie": "Plutôt qu’une administration directe, la Triple Alliance impose un tribut aux cités vaincues, qui gardent leurs souverains. Certaines cités restent indépendantes et hostiles, comme Tlaxcala, avec laquelle les Mexicas mènent les « guerres fleuries » : des combats ritualisés destinés à capturer des prisonniers. Ce ressentiment explique que de nombreux peuples, à commencer par Tlaxcala, s’allient aux Espagnols en 1519.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": { "valeur": "Tenochtitlan", "precision": "fondée vers 1325 sur une île du lac Texcoco ; aujourd’hui Mexico" },
+    "regimes": {
+      "valeur": "Monarchie élective",
+      "precision": "le tlatoani est choisi par un conseil de nobles au sein de la famille régnante"
+    },
+    "langues": { "valeur": "Nahuatl", "precision": "noté par des glyphes et des images dans les codex" },
+    "religion": { "valeur": "Polythéisme", "precision": "Huitzilopochtli, Tlaloc, Quetzalcoatl… ; sacrifices humains" },
+    "apogee": {
+      "valeur": "Vers 1502-1519",
+      "precision": "sous Ahuitzotl puis Moctezuma II, du golfe du Mexique au Pacifique"
+    },
+    "population": {
+      "valeur": "Environ 200 000 habitants à Tenochtitlan",
+      "precision": "l’une des plus grandes villes du monde ; plusieurs millions dans l’empire (estimations très variables)"
+    },
+    "monnaie": {
+      "valeur": "Pas de monnaie frappée",
+      "precision": "fèves de cacao et capes de coton servent d’unités d’échange"
+    },
+    "duree": { "valeur": "Moins d’un siècle d’empire", "precision": "1428-1521 ; la ville existe depuis environ 1325" },
+    "aujourdhui": { "valeur": "Mexique", "precision": "centre et sud du Mexique actuel" }
+  },
+  "essentiel": [
+    "Selon leur tradition, les Mexicas, venus du nord, fondent [[fondation-de-tenochtitlan|Tenochtitlan]] vers 1325 sur une île du lac Texcoco.",
+    "En 1428, ils forment avec Texcoco et Tlacopan la [[triple-alliance|Triple Alliance]], qui domine bientôt le centre du Mexique.",
+    "L’empire repose sur le tribut versé par des dizaines de cités soumises, qui gardent leurs propres souverains.",
+    "La religion, centrée sur le soleil et la guerre, impose des sacrifices humains, notamment au Templo Mayor.",
+    "Les Espagnols d’[[hernan-cortes|Hernán Cortés]], aidés par de nombreux peuples ennemis des Mexicas et par une épidémie de variole, prennent Tenochtitlan en 1521."
+  ],
+  "periodes": [
+    {
+      "nom": "Des origines à l’indépendance",
+      "debut": 1325,
+      "fin": 1428,
+      "resume": "Selon leur récit, les Mexicas quittent un lieu mythique du nord, Aztlan, et errent longtemps avant de fonder Tenochtitlan. Ils servent d’abord la puissante cité d’Azcapotzalco, qui domine la vallée de Mexico.",
+      "evenements": [
+        {
+          "annee": 1325,
+          "evenement": "Fondation de Tenochtitlan (date traditionnelle)",
+          "ref": "fondation-de-tenochtitlan"
+        },
+        { "annee": 1376, "evenement": "Acamapichtli, premier tlatoani" }
+      ]
+    },
+    {
+      "nom": "La Triple Alliance",
+      "debut": 1428,
+      "fin": 1502,
+      "resume": "Itzcoatl et Nezahualcoyotl, souverain de Texcoco, abattent Azcapotzalco. La Triple Alliance mène ensuite des campagnes de plus en plus lointaines, jusqu’au golfe du Mexique et au Pacifique, et impose un tribut aux cités vaincues.",
+      "evenements": [
+        { "annee": 1428, "evenement": "Formation de la Triple Alliance", "ref": "triple-alliance" },
+        { "annee": 1473, "evenement": "Tenochtitlan absorbe sa voisine Tlatelolco" },
+        { "annee": 1487, "evenement": "Nouvelle consécration du Templo Mayor" }
+      ]
+    },
+    {
+      "nom": "L’apogée et la conquête espagnole",
+      "debut": 1502,
+      "fin": 1521,
+      "resume": "[[moctezuma-ii|Moctezuma II]] règne sur un empire à son apogée. En 1519, [[hernan-cortes|Hernán Cortés]] débarque, s’allie à Tlaxcala, ennemie des Mexicas, et entre à Tenochtitlan. Après la fuite des Espagnols en 1520 et une épidémie de variole, la ville tombe en 1521 après un long siège.",
+      "evenements": [
+        { "annee": 1519, "evenement": "Cortés entre à Tenochtitlan" },
+        { "annee": 1520, "evenement": "Mort de Moctezuma II ; épidémie de variole" },
+        { "annee": 1521, "evenement": "Chute de Tenochtitlan", "ref": "chute-de-tenochtitlan" }
+      ]
+    }
+  ],
+  "dynasties": [
+    {
+      "id": "premiers-tlatoque",
+      "nom": "Les premiers souverains de Tenochtitlan",
+      "debut": 1376,
+      "fin": 1427,
+      "note": "Avant l’empire, Tenochtitlan est soumise à Azcapotzalco. Les dates des règnes varient selon les sources indigènes et espagnoles."
+    },
+    { "id": "empire", "nom": "Les souverains de l’empire", "debut": 1427, "fin": 1521 }
+  ],
+  "societe": "Au sommet, le tlatoani et la noblesse (pipiltin), qui fournit prêtres, juges et chefs de guerre. La majorité de la population (macehualtin) est organisée en quartiers, les calpulli, qui répartissent les terres et fournissent tribut et soldats. Les marchands au long cours (pochteca) forment un groupe à part, riche et influent. Il existe aussi des esclaves, souvent pour dettes, dont les enfants naissent libres. L’école est obligatoire pour les garçons, dans des établissements différents selon le rang social.",
+  "economie": "Les [[chinampas]], champs gagnés sur le lac, et le maïs, les haricots, les courges et le piment nourrissent la ville. Le tribut des provinces apporte vêtements de coton, cacao, plumes, jade et or. Le grand marché de Tlatelolco, décrit par les Espagnols, accueille chaque jour des dizaines de milliers de personnes.",
+  "decouvertes": ["chinampas", "calendrier-azteque"],
+  "arts": "Sculptures monumentales (la pierre du Soleil, la statue de Coatlicue), codex peints, orfèvrerie, mosaïques de turquoise et art de la plume comptent parmi les chefs-d’œuvre aztèques. Les poètes, comme [[nezahualcoyotl|Nezahualcoyotl]], composent des « chants » sur la fragilité de la vie.",
+  "quotidien": "Les repas reposent sur les galettes de maïs (tortillas), les haricots et le piment. Le chocolat, boisson amère à base de cacao, est réservé aux nobles et aux guerriers. Les enfants sont élevés avec sévérité. Les fêtes religieuses rythment chacun des 18 mois de 20 jours de l’année.",
+  "heritage": [
+    {
+      "titre": "Le drapeau mexicain",
+      "texte": "L’aigle posé sur un cactus et dévorant un serpent rappelle le récit de la fondation de Tenochtitlan."
+    },
+    {
+      "titre": "Des mots du nahuatl",
+      "texte": "Chocolat, tomate, avocat, piment (chili) ou coyote viennent du nahuatl, encore parlé aujourd’hui par plus d’un million et demi de Mexicains."
+    },
+    {
+      "titre": "Le Templo Mayor",
+      "texte": "Redécouvert en 1978 au cœur de Mexico, il est aujourd’hui un site archéologique et un musée."
+    },
+    {
+      "titre": "Les chinampas de Xochimilco",
+      "texte": "Encore cultivées aujourd’hui, elles sont inscrites au patrimoine mondial de l’UNESCO."
+    }
+  ],
+  "aSavoir": [
+    "« Aztèques » est un nom donné plus tard ; les habitants de Tenochtitlan se nommaient eux-mêmes Mexicas, d’où le nom du Mexique.",
+    "L’idée que Moctezuma aurait pris Cortés pour le dieu Quetzalcoatl de retour vient de récits écrits après la conquête ; beaucoup d’historiens la jugent douteuse.",
+    "Les chiffres de sacrifiés donnés par les chroniques espagnoles et indigènes sont souvent exagérés, mais l’archéologie confirme l’ampleur des sacrifices."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Azt%C3%A8ques",
+    "https://fr.wikipedia.org/wiki/Tenochtitlan",
+    { "titre": "Encyclopædia Britannica — Aztec", "url": "https://www.britannica.com/topic/Aztec" }
+  ]
+}

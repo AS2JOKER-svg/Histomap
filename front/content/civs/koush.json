@@ -1,0 +1,232 @@
+{
+  "id": "koush",
+  "label": "Royaume de Koush (Nubie)",
+  "tier": 1,
+  "region": "nubie-soudan",
+  "period": "-1070 à 350",
+  "start": -1070,
+  "end": 350,
+  "color": "#a0522d",
+  "trackId": "nubie",
+  "row": 3,
+  "isRiver": true,
+  "capitale": "Napata puis Méroé",
+  "description": "Puissant royaume de Nubie, sur le haut Nil : d’abord dominé par l’Égypte, il la conquiert au VIIIe siècle av. J.-C., puis prospère à Méroé grâce au fer et au commerce.",
+  "territories": ["Kush", "Kerma", "Meroe", "Kushites"],
+  "datesCles": [
+    {
+      "annee": -728,
+      "evenement": "Conquête de l'Égypte",
+      "info": "Le roi Piânkhy s’empare de l’Égypte ; ses successeurs forment la XXVe dynastie des pharaons."
+    },
+    {
+      "annee": -664,
+      "evenement": "Expulsion par les Assyriens",
+      "info": "Les Koushites sont chassés d'Égypte par l'invasion assyrienne et se replient vers le sud."
+    },
+    {
+      "annee": -300,
+      "evenement": "Âge d'or de Méroé",
+      "info": "Les rois s’installent à Méroé, qui devient un grand centre de production de fer et de commerce."
+    },
+    {
+      "annee": -24,
+      "evenement": "Guerre contre Rome",
+      "info": "La reine Amanirenas attaque l’Égypte romaine ; la paix de Samos (−21/−20) préserve l’indépendance de Koush."
+    }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Alara",
+      "titre": "Roi",
+      "debut": -790,
+      "fin": -760,
+      "dynastie": "napata",
+      "note": "fondateur de la dynastie ; dates approximatives"
+    },
+    { "nom": "Kachta", "titre": "Roi", "debut": -760, "fin": -747, "dynastie": "napata" },
+    {
+      "nom": "Piânkhy",
+      "titre": "Roi et pharaon",
+      "debut": -747,
+      "fin": -716,
+      "dynastie": "napata",
+      "note": "conquiert l’Égypte",
+      "cle": true
+    },
+    { "nom": "Chabaka", "titre": "Roi et pharaon", "debut": -716, "fin": -702, "dynastie": "napata" },
+    { "nom": "Chabataka", "titre": "Roi et pharaon", "debut": -702, "fin": -690, "dynastie": "napata" },
+    {
+      "nom": "Taharqa",
+      "titre": "Roi et pharaon",
+      "debut": -690,
+      "fin": -664,
+      "dynastie": "napata",
+      "note": "bâtisseur, combat les Assyriens",
+      "cle": true
+    },
+    {
+      "nom": "Tanoutamon",
+      "titre": "Roi",
+      "debut": -664,
+      "fin": -656,
+      "dynastie": "napata",
+      "note": "dernier roi koushite à régner en Égypte"
+    },
+    { "nom": "Aspelta", "titre": "Roi", "debut": -600, "fin": -580, "dynastie": "napata", "note": "dates approximatives" },
+    {
+      "nom": "Arkamani Ier",
+      "titre": "Roi",
+      "debut": -270,
+      "fin": -260,
+      "dynastie": "meroe",
+      "note": "les rois sont désormais enterrés à Méroé ; dates approximatives"
+    },
+    {
+      "nom": "Amanirenas",
+      "titre": "Reine (kandake)",
+      "debut": -40,
+      "fin": -10,
+      "dynastie": "meroe",
+      "note": "combat les Romains ; dates approximatives",
+      "cle": true
+    },
+    {
+      "nom": "Natakamani",
+      "titre": "Roi",
+      "debut": 1,
+      "fin": 20,
+      "dynastie": "meroe",
+      "note": "règne avec la reine Amanitore ; grand bâtisseur ; dates approximatives"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Taharqa",
+      "role": "Pharaon koushite",
+      "description": "Le plus célèbre des pharaons de la XXVe dynastie : grand bâtisseur en Égypte et en Nubie, il affronte les Assyriens.",
+      "dates": "règne −690 → −664",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Taharqa"
+    },
+    {
+      "nom": "Amanirenas",
+      "role": "Reine",
+      "description": "Reine de Méroé qui attaque l’Égypte romaine vers −24 et obtient une paix favorable ; l’historien Strabon la décrit borgne.",
+      "dates": "Ier siècle av. J.-C.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Amanirenas",
+      "ref": "amanirenas"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerre Méroïtico-Romaine",
+      "annee": -24,
+      "adversaires": ["Empire romain (préfecture d’Égypte)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Aucun vainqueur net (paix de Samos)",
+      "consequences": "Rome renonce au tribut et à la conquête de la Nubie ; la frontière est fixée au sud d’Assouan.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Amanirenas"
+    }
+  ],
+  "sciences": "Méroé devient un grand centre de production de fer : d’immenses amas de scories témoignent de son activité. Les Koushites créent aussi l’écriture méroïtique, l’une des plus anciennes d’Afrique : on sait la lire, mais on comprend encore mal la langue qu’elle note.",
+  "croyancesText": "Les Koushites vénèrent Amon, dieu égyptien très honoré en Nubie (au Djebel Barkal notamment), mais aussi des dieux nubiens comme Apédémak, le dieu-lion guerrier. Les rois se font enterrer sous des pyramides plus petites et plus pointues que celles d’Égypte : on en compte plus de deux cents.",
+  "diplomatie": "Les Égyptiens appelaient la Nubie « Ta-Seti », le pays de l’arc, en raison de la réputation de ses archers. Koush commerce avec l’Égypte ptolémaïque puis romaine. Vers −24, la reine Amanirenas attaque l’Égypte romaine ; après une contre-offensive romaine, la paix conclue à Samos supprime le tribut exigé par Rome.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": { "valeur": "Napata", "precision": "puis Méroé à partir du IIIe siècle av. J.-C. environ" },
+    "regimes": {
+      "valeur": "Monarchie",
+      "precision": "le roi est choisi dans la famille royale ; les reines mères (kandakes) ont un grand rôle"
+    },
+    "langues": {
+      "valeur": "Méroïtique",
+      "precision": "écriture méroïtique, lisible mais encore mal comprise ; égyptien pour les inscriptions officielles"
+    },
+    "religion": { "valeur": "Polythéisme", "precision": "Amon et le dieu-lion nubien Apédémak" },
+    "apogee": { "valeur": "Vers −720 à −664", "precision": "les rois koushites règnent aussi sur l’Égypte (XXVe dynastie)" },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": { "valeur": "Pas de monnaie frappée", "precision": "échanges en nature et en or" },
+    "duree": { "valeur": "Environ 1 400 ans" },
+    "aujourdhui": { "valeur": "Soudan", "precision": "vallée du Nil, entre Assouan et Khartoum" }
+  },
+  "essentiel": [
+    "La Nubie, au sud de l’Égypte, abrite depuis le IIIe millénaire av. J.-C. des royaumes puissants, comme celui de Kerma.",
+    "Après des siècles de domination égyptienne, le royaume de Koush s’affirme autour de Napata.",
+    "Vers −728, le roi Piânkhy conquiert l’Égypte : ses successeurs, dont Taharqa, règnent comme pharaons pendant plus d’un demi-siècle.",
+    "Chassés d’Égypte par les Assyriens, les Koushites développent à Méroé un royaume riche du fer, de l’or et du commerce avec l’Afrique.",
+    "Plus de deux cents pyramides, pointues et étroites, se dressent encore dans les nécropoles royales du Soudan."
+  ],
+  "periodes": [
+    {
+      "nom": "Le royaume de Kerma",
+      "debut": -2500,
+      "fin": -1500,
+      "resume": "Avant Koush, un premier grand royaume nubien prospère autour de Kerma, rival de l’Égypte du Moyen Empire."
+    },
+    {
+      "nom": "La domination égyptienne",
+      "debut": -1500,
+      "fin": -1070,
+      "resume": "Les pharaons du Nouvel Empire conquièrent la Nubie, riche en or, et y bâtissent des temples, comme Abou Simbel."
+    },
+    {
+      "nom": "Le royaume de Napata",
+      "debut": -1070,
+      "fin": -300,
+      "resume": "Les rois de Napata s’affirment, conquièrent l’Égypte (XXVe dynastie) puis se replient au sud après l’invasion assyrienne.",
+      "evenements": [
+        { "annee": -728, "evenement": "Piânkhy conquiert l’Égypte" },
+        { "annee": -664, "evenement": "Les Assyriens chassent les Koushites d’Égypte" }
+      ]
+    },
+    {
+      "nom": "Le royaume de Méroé",
+      "debut": -300,
+      "fin": 350,
+      "resume": "Depuis Méroé, les souverains, dont plusieurs reines, contrôlent le commerce entre l’Afrique et la Méditerranée. Le royaume décline aux IIIe et IVe siècles.",
+      "evenements": [
+        { "annee": -24, "evenement": "Guerre contre Rome" },
+        { "annee": 350, "evenement": "Fin du royaume, au moment des expéditions d’Aksoum" }
+      ]
+    }
+  ],
+  "dynasties": [
+    {
+      "id": "napata",
+      "nom": "Les rois de Napata et de la XXVe dynastie",
+      "debut": -790,
+      "fin": -580,
+      "note": "Dates approximatives ; l’ordre de Chabaka et de Chabataka est discuté par les historiens."
+    },
+    {
+      "id": "meroe",
+      "nom": "Les souverains de Méroé",
+      "debut": -300,
+      "fin": 350,
+      "note": "Sélection parmi plusieurs dizaines de souverains, souvent mal datés."
+    }
+  ],
+  "societe": "La famille royale et les prêtres d’Amon dominent la société. Les femmes de la famille royale, en particulier les reines mères appelées kandakes, exercent un pouvoir important, parfois en régnant seules.",
+  "economie": "Agriculture et élevage le long du Nil, mines d’or, production de fer, commerce de l’ivoire, de l’ébène, de l’encens et des esclaves vers l’Égypte et la Méditerranée.",
+  "arts": "Pyramides de Méroé et de Nouri, temples d’Amon au Djebel Barkal et du dieu-lion à Naga, céramiques peintes et bijoux en or : l’art koushite mêle traditions nubiennes et égyptiennes.",
+  "quotidien": "Les habitants vivent de la culture du sorgho et de l’élevage du bétail le long du Nil. Les grandes fêtes religieuses rassemblent les foules dans les temples.",
+  "heritage": [
+    {
+      "titre": "Les pyramides du Soudan",
+      "texte": "Les sites archéologiques de l’île de Méroé et du Djebel Barkal sont inscrits au patrimoine mondial de l’UNESCO."
+    },
+    {
+      "titre": "Les « pharaons noirs »",
+      "texte": "La XXVe dynastie rappelle que l’histoire de l’Égypte est aussi africaine et nubienne."
+    }
+  ],
+  "aSavoir": ["La « Candace » des textes anciens n’est pas un prénom : c’est le titre des reines de Méroé (kandake)."],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Royaume_de_Koush",
+    {
+      "titre": "Encyclopædia Britannica — Kush",
+      "url": "https://www.britannica.com/place/Kush-ancient-kingdom-Africa"
+    }
+  ]
+}

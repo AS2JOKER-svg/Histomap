@@ -1,0 +1,18 @@
+{
+  "id": "marie-curie",
+  "nom": "Marie Curie",
+  "nomComplet": "Maria Skłodowska-Curie",
+  "role": "Physicienne et chimiste",
+  "roles": ["Physicienne", "Chimiste"],
+  "dates": "1867 → 1934",
+  "naissance": 1867,
+  "mort": 1934,
+  "description": "Née en Pologne, elle découvre avec son mari Pierre le polonium et le radium. Première femme Prix Nobel, elle est la seule personne récompensée dans deux sciences différentes.",
+  "essentiel": [
+    "Prix Nobel de physique en 1903, avec Pierre Curie et Henri Becquerel.",
+    "Prix Nobel de chimie en 1911.",
+    "Pendant la Grande Guerre, elle organise des voitures de radiologie pour soigner les blessés.",
+    "Elle meurt d’une maladie causée par les radiations."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Marie_Curie"
+}

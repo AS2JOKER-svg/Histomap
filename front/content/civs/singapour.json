@@ -1,0 +1,256 @@
+{
+  "id": "singapour",
+  "label": "Singapour",
+  "tier": 1,
+  "region": "asie-sud-est-insulaire",
+  "period": "1819 à 2020",
+  "start": 1819,
+  "end": 2020,
+  "color": "#e53935",
+  "trackId": "singapour",
+  "row": 8,
+  "isRiver": false,
+  "capitale": "Singapour",
+  "description": "Comptoir britannique fondé en 1819, occupé par le Japon pendant la Seconde Guerre mondiale, Singapour devient indépendante en 1965 après son exclusion de la Malaisie, puis l’un des pays les plus riches du monde.",
+  "territories": [],
+  "datesCles": [
+    {
+      "annee": 1819,
+      "evenement": "Fondation du port",
+      "info": "Stamford Raffles obtient le droit d’installer un comptoir et en fait un port sans taxes."
+    },
+    {
+      "annee": 1867,
+      "evenement": "Colonie de la Couronne",
+      "info": "Singapour, avec Malacca et Penang, devient une colonie gouvernée directement par Londres."
+    },
+    {
+      "annee": 1942,
+      "evenement": "La chute de Singapour",
+      "info": "La base britannique, jugée imprenable, capitule devant l’armée japonaise.",
+      "ref": "chute-de-singapour"
+    },
+    {
+      "annee": 1959,
+      "evenement": "Autonomie",
+      "info": "Singapour se gouverne elle-même ; Lee Kuan Yew devient Premier ministre."
+    },
+    {
+      "annee": 1963,
+      "evenement": "Union avec la Malaisie",
+      "info": "Singapour rejoint la nouvelle fédération de Malaisie."
+    },
+    {
+      "annee": 1965,
+      "evenement": "Indépendance forcée",
+      "info": "À la suite de tensions politiques et entre communautés, Singapour est exclue de la Malaisie et doit survivre seule."
+    }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Stamford Raffles",
+      "titre": "Fondateur du comptoir",
+      "debut": 1819,
+      "fin": 1823,
+      "dynastie": "fondateurs",
+      "personne": "stamford-raffles",
+      "cle": true
+    },
+    {
+      "nom": "William Farquhar",
+      "titre": "Premier résident britannique",
+      "debut": 1819,
+      "fin": 1823,
+      "dynastie": "fondateurs"
+    },
+    {
+      "nom": "Lee Kuan Yew",
+      "titre": "Premier ministre",
+      "debut": 1959,
+      "fin": 1990,
+      "dynastie": "premiers-ministres",
+      "personne": "lee-kuan-yew",
+      "note": "fondateur de la Singapour moderne",
+      "cle": true
+    },
+    {
+      "nom": "Goh Chok Tong",
+      "titre": "Premier ministre",
+      "debut": 1990,
+      "fin": 2004,
+      "dynastie": "premiers-ministres",
+      "cle": true
+    },
+    {
+      "nom": "Lee Hsien Loong",
+      "titre": "Premier ministre",
+      "debut": 2004,
+      "fin": 2020,
+      "dynastie": "premiers-ministres",
+      "note": "fils de Lee Kuan Yew ; en fonction en 2020",
+      "cle": true
+    },
+    {
+      "nom": "Yusof Ishak",
+      "titre": "Président",
+      "debut": 1965,
+      "fin": 1970,
+      "dynastie": "presidents",
+      "note": "premier président ; son portrait figure sur les billets",
+      "cle": true
+    },
+    {
+      "nom": "Halimah Yacob",
+      "titre": "Présidente",
+      "debut": 2017,
+      "fin": 2020,
+      "dynastie": "presidents",
+      "note": "première femme présidente"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Stamford Raffles",
+      "role": "Fondateur",
+      "description": "Administrateur britannique qui fonde le port de Singapour en 1819.",
+      "dates": "1781 → 1826",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Thomas_Stamford_Raffles",
+      "ref": "stamford-raffles"
+    },
+    {
+      "nom": "Tomoyuki Yamashita",
+      "role": "Général japonais",
+      "description": "Il conquiert la Malaisie et Singapour en 1942 ; il est jugé et exécuté après la guerre pour les crimes de ses troupes aux Philippines.",
+      "dates": "1885 → 1946",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Tomoyuki_Yamashita"
+    },
+    {
+      "nom": "Lim Bo Seng",
+      "role": "Résistant",
+      "description": "Homme d’affaires chinois, il organise la résistance contre l’occupation japonaise et meurt en prison.",
+      "dates": "1909 → 1944",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Lim_Bo_Seng"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "L'Occupation Japonaise",
+      "annee": 1942,
+      "adversaires": ["Empire du Japon"],
+      "allies": ["Royaume-Uni", "Inde britannique", "Australie"],
+      "morts": "Entre 25 000 et 50 000 civils chinois massacrés lors du Sook Ching, selon les estimations",
+      "vainqueur": "Japon (jusqu’en 1945)",
+      "consequences": "Le 15 février 1942, le général Percival capitule avec environ 80 000 soldats. La défaite montre aux peuples d’Asie que les puissances coloniales ne sont pas invincibles.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Singapour"
+    }
+  ],
+  "sciences": "Privée d’eau douce et de ressources, Singapour mise sur l’ingénierie : recyclage des eaux usées en eau potable (NEWater), dessalement, terres gagnées sur la mer qui agrandissent l’île d’environ un quart. Son port à conteneurs, l’un des plus actifs du monde, et l’aéroport de Changi en font une plaque tournante mondiale.",
+  "croyancesText": "Singapour est l’un des pays les plus divers du monde sur le plan religieux : bouddhistes, chrétiens, musulmans, taoïstes et hindous y cohabitent. L’État veille strictement à l’« harmonie religieuse » et raciale. Les valeurs confucéennes de discipline et de travail sont mises en avant par les dirigeants.",
+  "diplomatie": "Petit État entouré de voisins beaucoup plus grands, la Malaisie et l’Indonésie, Singapour mise sur une armée moderne, le libre-échange et de bonnes relations avec les grandes puissances. Elle est membre fondateur de l’ASEAN (1967).",
+  "documentaires": [],
+  "reperes": {
+    "capitale": { "valeur": "Singapour", "precision": "cité-État" },
+    "regimes": {
+      "valeur": "Colonie britannique, puis république parlementaire",
+      "precision": "dominée depuis 1959 par le Parti d’action populaire"
+    },
+    "langues": { "valeur": "Anglais, malais, mandarin et tamoul", "precision": "quatre langues officielles" },
+    "religion": {
+      "valeur": "Bouddhisme, christianisme, islam, taoïsme, hindouisme",
+      "precision": "un cinquième des habitants se déclarent sans religion"
+    },
+    "apogee": { "valeur": "Depuis les années 1990", "precision": "grand centre financier et portuaire" },
+    "population": { "valeur": "Environ 5,7 millions en 2020", "precision": "environ 1,9 million en 1965" },
+    "monnaie": { "valeur": "Dollar de Singapour", "precision": "depuis 1967" },
+    "duree": { "valeur": "Environ 200 ans dans cette fiche" },
+    "aujourdhui": { "valeur": "Singapour" }
+  },
+  "essentiel": [
+    "En 1819, [[stamford-raffles|Stamford Raffles]] fonde un port franc sur l’île de Singapour, au carrefour des routes maritimes d’Asie.",
+    "Le port attire des immigrants chinois, malais et indiens, et devient une colonie britannique prospère.",
+    "En 1942, la [[chute-de-singapour|chute de Singapour]] livre l’île au Japon, qui massacre des dizaines de milliers de Chinois lors du [[massacre-de-sook-ching|Sook Ching]].",
+    "Autonome en 1959, unie à la Malaisie en 1963, Singapour en est exclue en 1965 et devient indépendante.",
+    "Sous [[lee-kuan-yew|Lee Kuan Yew]], la cité-État devient l’un des pays les plus riches du monde, au prix de libertés politiques limitées."
+  ],
+  "periodes": [
+    {
+      "nom": "Le comptoir britannique",
+      "debut": 1819,
+      "fin": 1942,
+      "resume": "Le port franc attire des marchands et des immigrants de toute l’Asie ; il prospère grâce au commerce, puis à l’étain et au caoutchouc de Malaisie.",
+      "evenements": [{ "annee": 1819, "evenement": "Fondation" }, { "annee": 1869, "evenement": "Ouverture du canal de Suez" }]
+    },
+    {
+      "nom": "L’occupation japonaise",
+      "debut": 1942,
+      "fin": 1945,
+      "resume": "Rebaptisée Syonan, l’île subit une occupation brutale.",
+      "evenements": [
+        { "annee": 1942, "evenement": "Chute de Singapour", "ref": "chute-de-singapour" },
+        { "annee": 1942, "evenement": "Sook Ching", "ref": "massacre-de-sook-ching" }
+      ]
+    },
+    {
+      "nom": "Vers l’indépendance",
+      "debut": 1945,
+      "fin": 1965,
+      "resume": "Après le retour des Britanniques, Singapour obtient l’autonomie, rejoint la Malaisie puis en est exclue.",
+      "evenements": [{ "annee": 1959, "evenement": "Autonomie" }, { "annee": 1963, "evenement": "Union avec la Malaisie" }]
+    },
+    {
+      "nom": "La cité-État",
+      "debut": 1965,
+      "fin": 2020,
+      "resume": "Industrialisation, logements publics, port géant et finance font de Singapour un pays très riche, gouverné sans alternance par le même parti.",
+      "evenements": [
+        { "annee": 1965, "evenement": "Indépendance" },
+        { "annee": 1981, "evenement": "Ouverture de l’aéroport de Changi" }
+      ]
+    }
+  ],
+  "regimes": [
+    {
+      "id": "colonie",
+      "nom": "Colonie britannique",
+      "debut": 1819,
+      "fin": 1959,
+      "note": "Occupation japonaise de 1942 à 1945."
+    },
+    { "id": "autonomie", "nom": "État autonome, puis membre de la Malaisie", "debut": 1959, "fin": 1965 },
+    { "id": "republique", "nom": "République de Singapour", "debut": 1965, "fin": 2020 }
+  ],
+  "dynasties": [
+    { "id": "fondateurs", "nom": "Les fondateurs britanniques", "debut": 1819, "fin": 1823, "regime": "colonie" },
+    { "id": "premiers-ministres", "nom": "Premiers ministres", "debut": 1959, "fin": 2020 },
+    {
+      "id": "presidents",
+      "nom": "Présidents (rôle surtout symbolique)",
+      "debut": 1965,
+      "fin": 2020,
+      "regime": "republique",
+      "note": "Sélection."
+    }
+  ],
+  "societe": "La population est d’origine chinoise (environ les trois quarts), malaise et indienne. Plus de 80 % des habitants vivent dans des logements publics. L’État est réputé pour l’efficacité de ses services, mais aussi pour ses lois strictes : peine de mort, châtiments corporels, presse contrôlée.",
+  "economie": "Commerce et port, puis industrie électronique et pétrochimique, finance et services ; l’un des PIB par habitant les plus élevés du monde.",
+  "decouvertes": [],
+  "arts": "Cuisine des « hawker centres » (centres de restauration populaires), mêlant traditions chinoises, malaises et indiennes ; architecture des « shophouses » et jardins de Gardens by the Bay.",
+  "quotidien": "Les habitants parlent souvent le « singlish », un anglais mêlé de mots chinois et malais.",
+  "heritage": [
+    {
+      "titre": "Un modèle de développement",
+      "texte": "Singapour est passée en une génération d’un port pauvre à l’un des pays les plus riches du monde."
+    },
+    { "titre": "Un carrefour", "texte": "Son port et son aéroport comptent parmi les plus importants du monde." }
+  ],
+  "aSavoir": [
+    "Singapour est l’un des rares pays à avoir obtenu son indépendance sans l’avoir réclamée : Lee Kuan Yew a pleuré en l’annonçant à la télévision."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Histoire_de_Singapour",
+    {
+      "titre": "Encyclopædia Britannica — Singapore, history",
+      "url": "https://www.britannica.com/place/Singapore/History"
+    }
+  ]
+}

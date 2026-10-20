@@ -1,0 +1,16 @@
+{
+  "id": "zhu-xi",
+  "nom": "Zhu Xi",
+  "role": "Philosophe",
+  "roles": ["Philosophe", "Lettré"],
+  "dates": "1130 → 1200",
+  "naissance": 1130,
+  "mort": 1200,
+  "description": "Philosophe des Song du Sud, il fait la synthèse du néo-confucianisme, qui a dominé la pensée chinoise pendant des siècles.",
+  "essentiel": [
+    "Il regroupe quatre textes fondamentaux, les « Quatre Livres », et les commente.",
+    "De 1313 à 1905, ses commentaires servent de base aux concours impériaux.",
+    "Sa pensée influence aussi profondément la Corée et le Japon."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Zhu_Xi"
+}

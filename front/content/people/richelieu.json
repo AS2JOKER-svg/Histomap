@@ -1,0 +1,18 @@
+{
+  "id": "richelieu",
+  "nom": "Richelieu",
+  "nomComplet": "Armand Jean du Plessis, cardinal de Richelieu",
+  "role": "Principal ministre de Louis XIII",
+  "roles": ["Cardinal", "Ministre"],
+  "dates": "1585 → 1642",
+  "naissance": 1585,
+  "mort": 1642,
+  "description": "Cardinal et principal ministre de Louis XIII de 1624 à 1642, il renforce l’autorité du roi et engage la France dans la lutte contre les Habsbourg.",
+  "essentiel": [
+    "Il prend La Rochelle aux protestants en 1628, mais leur laisse la liberté de culte.",
+    "Il fait exécuter des nobles comploteurs et interdit les duels.",
+    "Il soutient les protestants allemands et suédois contre les Habsbourg pendant la guerre de Trente Ans.",
+    "Il fonde l’Académie française en 1635."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Armand_Jean_du_Plessis_de_Richelieu"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "francois-ier",
+  "nom": "François Ier",
+  "role": "Roi de France",
+  "roles": ["Roi", "Mécène"],
+  "dates": "1494 → 1547",
+  "naissance": 1494,
+  "mort": 1547,
+  "description": "Roi de la Renaissance, vainqueur à Marignan, rival de Charles Quint, il accueille en France Léonard de Vinci et les artistes italiens.",
+  "reperes": [{ "label": "Règne", "valeur": "1515 → 1547" }],
+  "essentiel": [
+    "Il remporte la [[bataille-de-marignan|bataille de Marignan]] dès le début de son règne.",
+    "Battu et capturé par les troupes de [[charles-quint|Charles Quint]] à Pavie en 1525, il reste un an prisonnier à Madrid.",
+    "Il fait bâtir Chambord et Fontainebleau et accueille Léonard de Vinci, qui meurt à Amboise en 1519.",
+    "L’ordonnance de Villers-Cotterêts (1539) impose le français dans les actes officiels."
+  ],
+  "liens": [{ "ref": "charles-quint", "relation": "Son grand rival" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Fran%C3%A7ois_Ier_(roi_de_France)"
+}

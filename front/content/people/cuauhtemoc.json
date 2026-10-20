@@ -1,0 +1,22 @@
+{
+  "id": "cuauhtemoc",
+  "nom": "Cuauhtémoc",
+  "role": "Dernier tlatoani",
+  "roles": ["Tlatoani", "Chef de guerre"],
+  "dates": "vers 1500 → 1525",
+  "naissance": 1500,
+  "mort": 1525,
+  "description": "Dernier souverain de Tenochtitlan, il dirige la défense de la ville pendant le siège de 1521. Capturé, il est exécuté par Cortés quatre ans plus tard.",
+  "reperes": [
+    { "label": "Règne", "valeur": "1520 → 1521" },
+    { "label": "Nom", "valeur": "Cuauhtémoc", "precision": "« aigle qui descend » en nahuatl" }
+  ],
+  "essentiel": [
+    "Il succède à Cuitláhuac, mort de la variole.",
+    "Il organise la résistance pendant près de trois mois de siège.",
+    "Capturé le 13 août 1521, il est exécuté en 1525 lors d’une expédition de Cortés vers le Honduras."
+  ],
+  "liens": [{ "ref": "moctezuma-ii", "relation": "Son prédécesseur" }, { "ref": "hernan-cortes", "relation": "Son vainqueur" }],
+  "aSavoir": ["Il est aujourd’hui honoré au Mexique comme un héros de la résistance."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Cuauht%C3%A9moc"
+}

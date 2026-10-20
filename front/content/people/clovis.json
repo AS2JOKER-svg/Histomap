@@ -1,0 +1,30 @@
+{
+  "id": "clovis",
+  "nom": "Clovis",
+  "nomComplet": "Clovis Ier",
+  "role": "Roi des Francs",
+  "roles": ["Roi", "Fondateur de dynastie"],
+  "dates": "vers 466 → 511",
+  "naissance": 466,
+  "mort": 511,
+  "description": "Roi des Francs saliens qui conquiert la plus grande partie de la Gaule et se fait baptiser catholique, fondant la dynastie mérovingienne.",
+  "reperes": [{ "label": "Règne", "valeur": "481 → 511" }, { "label": "Capitale", "valeur": "Paris" }],
+  "essentiel": [
+    "Il bat le dernier chef romain de Gaule, Syagrius, à Soissons en 486.",
+    "Il se fait [[bapteme-de-clovis|baptiser]] à Reims par l’évêque Remi, avec des milliers de guerriers.",
+    "Il bat les Wisigoths à Vouillé en 507 et prend l’Aquitaine.",
+    "Il fait rédiger la loi salique et réunit un concile à Orléans.",
+    "À sa mort, le royaume est partagé entre ses quatre fils."
+  ],
+  "chronologie": [
+    { "annee": 481, "texte": "Devient roi des Francs saliens" },
+    { "annee": 486, "texte": "Victoire de Soissons" },
+    { "annee": 496, "texte": "Baptême à Reims (date discutée)", "ref": "bapteme-de-clovis" },
+    { "annee": 507, "texte": "Victoire de Vouillé" },
+    { "annee": 511, "texte": "Mort à Paris" }
+  ],
+  "aSavoir": [
+    "L’histoire du vase de Soissons, que Clovis venge en tuant un guerrier, est racontée par Grégoire de Tours, près d’un siècle plus tard."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Clovis_Ier"
+}

@@ -24,6 +24,8 @@ export function canVibrate() {
 export function haptic(kind = 'tap') {
   if (!canVibrate()) return
   if (typeof matchMedia === 'function' && matchMedia('(prefers-reduced-motion: reduce)').matches) return
+  // Sans geste préalable de l'utilisateur (page ouverte par un lien), le navigateur refuse et le signale
+  if (navigator.userActivation && !navigator.userActivation.hasBeenActive) return
   try {
     navigator.vibrate(PATTERNS[kind] ?? PATTERNS.tap)
   } catch {

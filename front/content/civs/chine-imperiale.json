@@ -1,0 +1,368 @@
+{
+  "id": "chine-imperiale",
+  "label": "Chine (Qin & Han)",
+  "tier": 1,
+  "region": "chine",
+  "period": "-221 à 220",
+  "start": -221,
+  "end": 220,
+  "trackId": "chine",
+  "row": 7,
+  "isRiver": false,
+  "capitale": "Xianyang / Chang'an",
+  "description": "Le Premier Empereur unifie la Chine en −221 ; la dynastie Han qui lui succède gouverne pendant quatre siècles et donne son nom au peuple chinois.",
+  "territories": ["Qin", "Han Empire", "Han"],
+  "datesCles": [
+    {
+      "annee": -221,
+      "evenement": "L’unification",
+      "info": "Qin Shi Huang soumet le dernier des royaumes combattants et se proclame Premier Empereur."
+    },
+    {
+      "annee": -213,
+      "evenement": "Autodafé des livres",
+      "info": "Sur le conseil de son ministre Li Si, le Premier Empereur fait brûler de nombreux livres, notamment confucéens."
+    },
+    {
+      "annee": -206,
+      "evenement": "Fondation des Han",
+      "info": "Après la chute des Qin, Liu Bang fonde la dynastie Han et l’emporte sur son rival Xiang Yu en −202."
+    },
+    {
+      "annee": -138,
+      "evenement": "Mission de Zhang Qian",
+      "info": "L’empereur Wudi envoie Zhang Qian vers l’Asie centrale : c’est le début des routes de la soie.",
+      "ref": "route-de-la-soie"
+    },
+    {
+      "annee": 9,
+      "evenement": "Usurpation de Wang Mang",
+      "info": "Le ministre Wang Mang prend le pouvoir et fonde la dynastie Xin, renversée en 23."
+    },
+    {
+      "annee": 105,
+      "evenement": "Le papier de Cai Lun",
+      "info": "Le fonctionnaire Cai Lun présente à l’empereur un papier amélioré, fait d’écorce, de chanvre et de chiffons."
+    },
+    {
+      "annee": 184,
+      "evenement": "Révolte des Turbans jaunes",
+      "info": "Une immense révolte paysanne ébranle l’empire.",
+      "ref": "revolte-des-turbans-jaunes"
+    },
+    {
+      "annee": 220,
+      "evenement": "Fin des Han",
+      "info": "Le dernier empereur abdique : la Chine se divise en Trois Royaumes."
+    }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Qin Shi Huang",
+      "titre": "Premier Empereur",
+      "debut": -221,
+      "fin": -210,
+      "dynastie": "qin",
+      "personne": "qin-shi-huang",
+      "note": "roi de Qin depuis −247",
+      "cle": true
+    },
+    {
+      "nom": "Qin Er Shi",
+      "titre": "Empereur",
+      "debut": -210,
+      "fin": -207,
+      "dynastie": "qin",
+      "note": "poussé au suicide"
+    },
+    { "nom": "Ziying", "titre": "Roi de Qin", "debut": -207, "fin": -206, "dynastie": "qin", "note": "se rend à Liu Bang" },
+    {
+      "nom": "Gaozu (Liu Bang)",
+      "titre": "Empereur",
+      "debut": -202,
+      "fin": -195,
+      "dynastie": "han-occ",
+      "note": "fondateur des Han",
+      "cle": true
+    },
+    { "nom": "Huidi", "titre": "Empereur", "debut": -195, "fin": -188, "dynastie": "han-occ" },
+    {
+      "nom": "Lü Zhi",
+      "titre": "Impératrice douairière (régente)",
+      "debut": -188,
+      "fin": -180,
+      "dynastie": "han-occ",
+      "note": "veuve de Gaozu, elle gouverne de fait"
+    },
+    { "nom": "Wendi", "titre": "Empereur", "debut": -180, "fin": -157, "dynastie": "han-occ" },
+    { "nom": "Jingdi", "titre": "Empereur", "debut": -157, "fin": -141, "dynastie": "han-occ" },
+    {
+      "nom": "Wudi",
+      "titre": "Empereur",
+      "debut": -141,
+      "fin": -87,
+      "dynastie": "han-occ",
+      "personne": "han-wudi",
+      "note": "son nom signifie « l’empereur martial »",
+      "cle": true
+    },
+    { "nom": "Zhaodi", "titre": "Empereur", "debut": -87, "fin": -74, "dynastie": "han-occ" },
+    { "nom": "Xuandi", "titre": "Empereur", "debut": -74, "fin": -48, "dynastie": "han-occ" },
+    { "nom": "Yuandi", "titre": "Empereur", "debut": -48, "fin": -33, "dynastie": "han-occ" },
+    { "nom": "Chengdi", "titre": "Empereur", "debut": -33, "fin": -7, "dynastie": "han-occ" },
+    { "nom": "Aidi", "titre": "Empereur", "debut": -7, "fin": -1, "dynastie": "han-occ" },
+    { "nom": "Pingdi", "titre": "Empereur", "debut": -1, "fin": 6, "dynastie": "han-occ" },
+    {
+      "nom": "Ruzi Ying",
+      "titre": "Héritier",
+      "debut": 6,
+      "fin": 9,
+      "dynastie": "han-occ",
+      "note": "enfant, sous la tutelle de Wang Mang"
+    },
+    {
+      "nom": "Wang Mang",
+      "titre": "Empereur",
+      "debut": 9,
+      "fin": 23,
+      "dynastie": "xin",
+      "note": "usurpateur réformateur",
+      "cle": true
+    },
+    {
+      "nom": "Guangwudi",
+      "titre": "Empereur",
+      "debut": 25,
+      "fin": 57,
+      "dynastie": "han-or",
+      "note": "restaure les Han",
+      "cle": true
+    },
+    { "nom": "Mingdi", "titre": "Empereur", "debut": 57, "fin": 75, "dynastie": "han-or" },
+    { "nom": "Zhangdi", "titre": "Empereur", "debut": 75, "fin": 88, "dynastie": "han-or" },
+    { "nom": "Hedi", "titre": "Empereur", "debut": 88, "fin": 106, "dynastie": "han-or" },
+    { "nom": "Shangdi", "titre": "Empereur", "debut": 106, "fin": 106, "dynastie": "han-or", "note": "mort bébé" },
+    { "nom": "Andi", "titre": "Empereur", "debut": 106, "fin": 125, "dynastie": "han-or" },
+    { "nom": "Shundi", "titre": "Empereur", "debut": 125, "fin": 144, "dynastie": "han-or" },
+    { "nom": "Chongdi", "titre": "Empereur", "debut": 144, "fin": 145, "dynastie": "han-or" },
+    { "nom": "Zhidi", "titre": "Empereur", "debut": 145, "fin": 146, "dynastie": "han-or" },
+    { "nom": "Huandi", "titre": "Empereur", "debut": 146, "fin": 168, "dynastie": "han-or" },
+    {
+      "nom": "Lingdi",
+      "titre": "Empereur",
+      "debut": 168,
+      "fin": 189,
+      "dynastie": "han-or",
+      "note": "règne marqué par la révolte des Turbans jaunes"
+    },
+    { "nom": "Shaodi", "titre": "Empereur", "debut": 189, "fin": 189, "dynastie": "han-or" },
+    {
+      "nom": "Xiandi",
+      "titre": "Empereur",
+      "debut": 189,
+      "fin": 220,
+      "dynastie": "han-or",
+      "note": "dernier empereur, contrôlé par le général Cao Cao"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Qin Shi Huang",
+      "role": "Premier Empereur",
+      "description": "Il unifie la Chine par la conquête, impose des règles communes et se fait enterrer avec une armée de terre cuite.",
+      "dates": "−259 → −210",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Qin_Shi_Huang",
+      "ref": "qin-shi-huang"
+    },
+    {
+      "nom": "Wudi",
+      "role": "Empereur Han",
+      "description": "Empereur pendant 54 ans, il fait du confucianisme la doctrine de l’État et étend l’empire vers l’Asie centrale.",
+      "dates": "−156 → −87",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Han_Wudi",
+      "ref": "han-wudi"
+    },
+    {
+      "nom": "Sima Qian",
+      "role": "Historien",
+      "description": "Auteur des Mémoires historiques, histoire de la Chine depuis les origines, modèle de toutes les histoires officielles chinoises.",
+      "dates": "vers −145 → vers −86",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Sima_Qian",
+      "ref": "sima-qian"
+    },
+    {
+      "nom": "Zhang Qian",
+      "role": "Explorateur et diplomate",
+      "description": "Envoyé par Wudi vers l’Asie centrale, il est retenu dix ans par les Xiongnu, puis revient avec des informations précieuses sur l’Occident.",
+      "dates": "mort en −114",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Zhang_Qian"
+    },
+    {
+      "nom": "Ban Zhao",
+      "role": "Historienne et lettrée",
+      "description": "Elle achève l’histoire des Han commencée par son père et son frère, et écrit un célèbre livre de conseils aux femmes.",
+      "dates": "vers 45 → vers 117",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Ban_Zhao"
+    },
+    {
+      "nom": "Zhang Heng",
+      "role": "Savant",
+      "description": "Astronome et inventeur, il construit en 132 un appareil qui signale les tremblements de terre lointains.",
+      "dates": "78 → 139",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Zhang_Heng"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Bataille de Baideng",
+      "annee": -200,
+      "adversaires": ["Xiongnu (Modu Chanyu)"],
+      "allies": [],
+      "morts": "Inconnues ; beaucoup de soldats souffrent du froid",
+      "vainqueur": "Xiongnu",
+      "consequences": "L’empereur Gaozu, encerclé sept jours, doit négocier le heqin : la Chine verse des présents aux Xiongnu et leur donne des princesses en mariage.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Battle_of_Baideng"
+    },
+    {
+      "nom": "Campagnes Han contre les Xiongnu",
+      "annee": -133,
+      "adversaires": ["Confédération nomade Xiongnu"],
+      "allies": [],
+      "morts": "Très importantes ; ces guerres épuisent le trésor impérial",
+      "vainqueur": "Dynastie Han",
+      "consequences": "Les Xiongnu sont repoussés au nord du désert de Gobi après la victoire de Mobei (−119) ; la Chine contrôle le corridor du Gansu, porte des routes de la soie.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_Han-Xiongnu"
+    }
+  ],
+  "sciences": "Les Chinois des Han maîtrisent la fonte du fer dans des hauts fourneaux, actionnés au Ier siècle par des soufflets hydrauliques. Le papier, connu depuis le IIe siècle av. J.-C., est amélioré par Cai Lun en 105. Zhang Heng construit un sismoscope qui détecte les tremblements de terre lointains. Les Han inventent aussi le gouvernail d’étambot et la brouette, et rédigent des traités de mathématiques et de médecine.",
+  "croyancesText": "Les Qin appliquent le légisme : des lois strictes et des punitions sévères, au service de l’État ; le Premier Empereur fait brûler des livres en −213. Les Han font du confucianisme, qui insiste sur le respect de la hiérarchie, de la famille et de la morale, la doctrine officielle. Le taoïsme se développe, et le bouddhisme arrive d’Inde au Ier siècle. Le culte des ancêtres reste au cœur de la vie familiale.",
+  "diplomatie": "Face aux Xiongnu, les premiers Han achètent la paix par des cadeaux et des mariages (le heqin). Wudi passe à l’offensive et envoie Zhang Qian chercher des alliés et des chevaux en Asie centrale. Des routes commerciales relient alors la Chine à l’Asie centrale, à l’Inde et, indirectement, à l’Empire romain : une ambassade se disant romaine arrive en Chine en 166.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": {
+      "valeur": "Xianyang, puis Chang’an et Luoyang",
+      "precision": "Xianyang sous les Qin, Chang’an sous les Han occidentaux, Luoyang sous les Han orientaux"
+    },
+    "regimes": {
+      "valeur": "Empire",
+      "precision": "un empereur, « Fils du Ciel », et une administration de fonctionnaires lettrés"
+    },
+    "langues": { "valeur": "Chinois classique", "precision": "écriture unifiée par les Qin" },
+    "religion": {
+      "valeur": "Culte des ancêtres et du Ciel",
+      "precision": "confucianisme et taoïsme ; le bouddhisme arrive au Ier siècle"
+    },
+    "apogee": {
+      "valeur": "Règne de Wudi (−141 → −87)",
+      "precision": "expansion vers l’Asie centrale, la Corée et le Vietnam"
+    },
+    "population": {
+      "valeur": "Environ 58 millions en l’an 2",
+      "precision": "selon le recensement des Han, l’un des plus anciens du monde"
+    },
+    "monnaie": { "valeur": "Pièces de bronze rondes à trou carré", "precision": "banliang sous les Qin, wuzhu sous les Han" },
+    "duree": { "valeur": "Environ 440 ans" },
+    "aujourdhui": { "valeur": "Chine", "precision": "et le nord du Vietnam et de la Corée" }
+  },
+  "essentiel": [
+    "En −221, le roi de Qin achève la conquête des royaumes rivaux et devient [[qin-shi-huang|Qin Shi Huang]], le « Premier Empereur ».",
+    "Il unifie l’écriture, les poids et mesures et la monnaie ; il fait relier les murailles du nord et se fait enterrer avec l’[[armee-de-terre-cuite|armée de terre cuite]].",
+    "La dynastie Han lui succède en −206 et gouverne quatre siècles en s’appuyant sur le confucianisme.",
+    "Sous [[han-wudi|l’empereur Wudi]], l’empire combat les Xiongnu et ouvre les [[route-de-la-soie|routes de la soie]] vers l’Asie centrale.",
+    "L’époque Han voit la diffusion du [[papier|papier]] et l’œuvre de l’historien [[sima-qian|Sima Qian]] ; l’empire s’effondre en 220 après la [[revolte-des-turbans-jaunes|révolte des Turbans jaunes]]."
+  ],
+  "periodes": [
+    {
+      "nom": "L’empire Qin",
+      "debut": -221,
+      "fin": -206,
+      "resume": "Le Premier Empereur unifie la Chine par la force et la loi, puis l’empire s’effondre peu après sa mort, emporté par les révoltes.",
+      "evenements": [
+        { "annee": -213, "evenement": "Autodafé des livres" },
+        { "annee": -210, "evenement": "Mort du Premier Empereur" },
+        { "annee": -209, "evenement": "Révolte de Chen Sheng et Wu Guang" }
+      ]
+    },
+    {
+      "nom": "Les Han occidentaux",
+      "debut": -206,
+      "fin": 9,
+      "resume": "Depuis Chang’an, les Han consolident l’empire, adoptent le confucianisme et s’étendent vers l’Asie centrale, la Corée et le Vietnam.",
+      "evenements": [
+        { "annee": -200, "evenement": "Défaite de Baideng face aux Xiongnu", "ref": "bataille-de-baideng" },
+        { "annee": -138, "evenement": "Mission de Zhang Qian", "ref": "route-de-la-soie" },
+        { "annee": -119, "evenement": "Grande victoire de Mobei sur les Xiongnu" }
+      ]
+    },
+    {
+      "nom": "L’interlude Xin",
+      "debut": 9,
+      "fin": 25,
+      "resume": "Wang Mang prend le pouvoir et tente de grandes réformes, qui échouent ; des inondations et des révoltes le renversent."
+    },
+    {
+      "nom": "Les Han orientaux",
+      "debut": 25,
+      "fin": 220,
+      "resume": "Depuis Luoyang, la dynastie restaurée connaît prospérité et inventions, puis s’affaiblit sous l’effet des eunuques, des grandes familles et des révoltes.",
+      "evenements": [
+        { "annee": 105, "evenement": "Papier de Cai Lun" },
+        { "annee": 184, "evenement": "Révolte des Turbans jaunes", "ref": "revolte-des-turbans-jaunes" }
+      ]
+    }
+  ],
+  "regimes": [
+    {
+      "id": "empire",
+      "nom": "Empire",
+      "debut": -221,
+      "fin": 220,
+      "note": "L’empereur gouverne avec des ministres et des fonctionnaires recrutés pour leur connaissance des classiques confucéens."
+    }
+  ],
+  "dynasties": [
+    { "id": "qin", "nom": "Dynastie Qin", "debut": -221, "fin": -206 },
+    {
+      "id": "han-occ",
+      "nom": "Han occidentaux",
+      "debut": -202,
+      "fin": 9,
+      "note": "Capitale : Chang’an. Les empereurs sont désignés par leur nom posthume."
+    },
+    { "id": "xin", "nom": "Dynastie Xin", "debut": 9, "fin": 23 },
+    {
+      "id": "han-or",
+      "nom": "Han orientaux",
+      "debut": 25,
+      "fin": 220,
+      "note": "Capitale : Luoyang. Plusieurs empereurs montent sur le trône enfants."
+    }
+  ],
+  "societe": "L’empereur gouverne avec des fonctionnaires lettrés, recrutés sur recommandation et sur leur connaissance des classiques confucéens. Les paysans, majoritaires, paient l’impôt et doivent des corvées et le service militaire. De grandes familles de propriétaires gagnent en puissance sous les Han orientaux.",
+  "economie": "Agriculture (millet et blé au nord, riz au sud), monopoles d’État sur le sel et le fer à partir de Wudi, artisanat de la soie, de la laque et du bronze, commerce avec l’Asie centrale.",
+  "decouvertes": ["armee-de-terre-cuite", "papier"],
+  "arts": "Armée de terre cuite du Premier Empereur, linceuls de jade, laques peintes, cheval volant de Gansu en bronze, tombes décorées de briques gravées : l’art Qin et Han célèbre l’empereur et l’au-delà.",
+  "quotidien": "Les paysans vivent dans des maisons de terre battue et cultivent leurs champs avec des outils en fer. Les tombes contiennent des maquettes de maisons, de fermes et de puits, qui montrent la vie quotidienne.",
+  "heritage": [
+    {
+      "titre": "Le nom des Chinois",
+      "texte": "La majorité des Chinois se disent aujourd’hui « Han », du nom de la dynastie ; le nom « Chine » viendrait de Qin."
+    },
+    {
+      "titre": "Un État unifié",
+      "texte": "L’idée d’une Chine unie, gouvernée par un empereur et des fonctionnaires lettrés, dure plus de 2 000 ans."
+    },
+    {
+      "titre": "L’armée de terre cuite",
+      "texte": "Découverte en 1974, elle est l’un des sites archéologiques les plus visités au monde."
+    }
+  ],
+  "aSavoir": [
+    "La Grande Muraille que l’on visite aujourd’hui date surtout de la dynastie Ming (XIVe-XVIIe siècles) ; les murailles des Qin, en terre damée, étaient plus au nord."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Dynastie_Qin",
+    "https://fr.wikipedia.org/wiki/Dynastie_Han",
+    { "titre": "Encyclopædia Britannica — Han dynasty", "url": "https://www.britannica.com/topic/Han-dynasty" }
+  ]
+}

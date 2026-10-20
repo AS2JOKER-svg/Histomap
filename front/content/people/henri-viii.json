@@ -1,0 +1,21 @@
+{
+  "id": "henri-viii",
+  "nom": "Henri VIII",
+  "role": "Roi d’Angleterre",
+  "roles": ["Roi"],
+  "dates": "1491 → 1547",
+  "naissance": 1491,
+  "mort": 1547,
+  "description": "Roi Tudor célèbre pour ses six mariages, il rompt avec le pape pour pouvoir divorcer et fonde l’Église d’Angleterre, dont il devient le chef.",
+  "reperes": [{ "label": "Règne", "valeur": "1509 → 1547" }],
+  "essentiel": [
+    "Le pape refuse d’annuler son mariage avec Catherine d’Aragon, qui ne lui a pas donné de fils.",
+    "Par l’Acte de suprématie (1534), il devient chef de l’Église d’Angleterre.",
+    "Il ferme les monastères et confisque leurs biens.",
+    "Deux de ses épouses, Anne Boleyn et Catherine Howard, sont décapitées."
+  ],
+  "aSavoir": [
+    "Un moyen mnémotechnique anglais résume le sort de ses six épouses : « divorcée, décapitée, morte ; divorcée, décapitée, survivante »."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Henri_VIII"
+}

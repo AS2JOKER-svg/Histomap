@@ -12,6 +12,9 @@ const RevisePage = lazy(() => import('./pages/RevisePage'))
 const ReviseEpochPage = lazy(() => import('./pages/ReviseEpochPage'))
 const ChapterPage = lazy(() => import('./pages/ChapterPage'))
 const QuizPage = lazy(() => import('./pages/QuizPage'))
+const WarsPage = lazy(() => import('./pages/WarsPage'))
+const SearchPage = lazy(() => import('./pages/SearchPage'))
+const EntityPage = lazy(() => import('./pages/EntityPage'))
 const NotFoundPage = lazy(() => import('./pages/NotFoundPage'))
 
 /**
@@ -19,9 +22,12 @@ const NotFoundPage = lazy(() => import('./pages/NotFoundPage'))
  *   /                         Accueil (hub)
  *   /frise                    Frise des époques
  *   /frise/:epochId           Une époque : continents et civilisations
- *   /frise/:epochId/:civId    Fiche d'une civilisation
- *   /carte                    Carte du monde (sprint 3)
- *   /reviser                  « On avance » : hub temporel des révisions
+ *   /frise/:epochId/:civId    Fiche d'une civilisation (?onglet=histoire|dirigeants|societe|guerres|carte)
+ *   /fiche/:id                Fiche liée : personne, événement, découverte
+ *   /carte                    Carte du monde (?annee=…&civ=…)
+ *   /guerres                  Guerres, par époque (?epoque=…, ?guerre=<clé> ouvre l'aperçu)
+ *   /recherche                Recherche globale (?q=…)
+ *   /reviser                  Réviser : hub temporel des révisions
  *   /reviser/:epochId         Choix d'une civilisation (chapitre)
  *   /reviser/:epochId/:civId  Chapitre : cartes à faire glisser (plein écran)
  *   /reviser/:epochId/:civId/quiz  Quiz du chapitre : 20 questions, note sur 20
@@ -34,7 +40,10 @@ export default function App() {
         <Route path="frise" element={<Lazy><TimelinePage /></Lazy>} />
         <Route path="frise/:epochId" element={<Lazy><EpochPage /></Lazy>} />
         <Route path="frise/:epochId/:civId" element={<Lazy><CivilizationPage /></Lazy>} />
+        <Route path="fiche/:id" element={<Lazy><EntityPage /></Lazy>} />
         <Route path="carte" element={<Lazy><MapPage /></Lazy>} />
+        <Route path="guerres" element={<Lazy><WarsPage /></Lazy>} />
+        <Route path="recherche" element={<Lazy><SearchPage /></Lazy>} />
         <Route path="reviser" element={<Lazy><RevisePage /></Lazy>} />
         <Route path="reviser/:epochId" element={<Lazy><ReviseEpochPage /></Lazy>} />
         <Route path="reviser/:epochId/:civId" element={<Lazy><ChapterPage /></Lazy>} />

@@ -1,0 +1,23 @@
+{
+  "id": "apartheid",
+  "nom": "Apartheid",
+  "annee": 1948,
+  "fin": 1991,
+  "dates": "1948 → 1991",
+  "lieu": "Afrique du Sud",
+  "description": "Un système de lois qui sépare les habitants selon leur « race » et réserve le pouvoir et les richesses à la minorité blanche. Le mot signifie « séparation » en afrikaans.",
+  "sections": [
+    {
+      "titre": "Les lois",
+      "texte": "Classement racial de chaque habitant, interdiction des mariages mixtes, quartiers, écoles, plages et transports séparés, laissez-passer obligatoire pour les Noirs, création de « bantoustans » prétendument indépendants."
+    },
+    {
+      "titre": "La fin",
+      "texte": "La résistance intérieure, les sanctions internationales et la crise économique poussent le président de Klerk à libérer [[nelson-mandela|Mandela]] (1990) et à abolir les dernières lois de l’apartheid (1991)."
+    }
+  ],
+  "liens": [{ "ref": "nelson-mandela", "relation": "Son plus célèbre opposant" }],
+  "avant": "seconde-guerre-des-boers",
+  "apres": "massacre-de-sharpeville",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Apartheid"
+}

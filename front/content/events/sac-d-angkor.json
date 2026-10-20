@@ -1,0 +1,16 @@
+{
+  "id": "sac-d-angkor",
+  "nom": "Sac d’Angkor par les Chams",
+  "annee": 1177,
+  "dates": "1177",
+  "lieu": "Angkor (Cambodge)",
+  "description": "La flotte du royaume du Champa remonte le Mékong et le grand lac Tonlé Sap, prend Angkor par surprise et la pille.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "Le roi khmer est tué. Le prince [[jayavarman-vii|Jayavarman VII]] organise la résistance, chasse les Chams et devient roi en 1181. Les bas-reliefs du Bayon montrent des combats navals contre les Chams."
+    }
+  ],
+  "apres": "abandon-d-angkor",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Champa"
+}

@@ -1,0 +1,162 @@
+{
+  "id": "europe-paleo",
+  "label": "Europe paléolithique",
+  "tier": 1,
+  "region": "europe-ouest",
+  "period": "-500 000 à -12 000",
+  "start": -500000,
+  "end": -12000,
+  "color": "#9aa8c2",
+  "trackId": "europe_occidentale",
+  "row": 1,
+  "isRiver": false,
+  "capitale": "Grottes et abris sous roche",
+  "description": "Des ères glaciaires hostiles à l'explosion de l'art pariétal, marquée par la cohabitation entre l'Homme de Néandertal et Homo Sapiens (Cro-Magnon).",
+  "territories": ["Neanderthal"],
+  "datesCles": [
+    {
+      "annee": -450000,
+      "evenement": "L’Homme de Tautavel",
+      "info": "Les restes de la grotte de la Caune de l’Arago (Pyrénées-Orientales) comptent parmi les plus anciens fossiles humains de France."
+    },
+    {
+      "annee": -250000,
+      "evenement": "L'Homme de Néandertal",
+      "info": "Une espèce parfaitement adaptée au climat glaciaire européen émerge."
+    },
+    {
+      "annee": -45000,
+      "evenement": "Arrivée d'Homo Sapiens",
+      "info": "Les premiers Homo sapiens arrivent en Europe et y côtoient Néandertal pendant quelques milliers d’années."
+    },
+    {
+      "annee": -40000,
+      "evenement": "Extinction de Néandertal",
+      "info": "Les derniers Néandertaliens disparaissent ; les causes (concurrence, climat, faible population) sont encore débattues."
+    },
+    {
+      "annee": -36000,
+      "evenement": "Grotte Chauvet",
+      "info": "Lions, rhinocéros et chevaux peints au fond de la grotte : l’un des plus anciens grands ensembles d’art pariétal connus."
+    },
+    {
+      "annee": -17000,
+      "evenement": "Grotte de Lascaux",
+      "info": "La « Chapelle Sixtine de la préhistoire », apogée de la culture magdalénienne."
+    }
+  ],
+  "dirigeants": [],
+  "personnages": [
+    {
+      "nom": "Henri Breuil",
+      "role": "Préhistorien",
+      "description": "Prêtre et savant surnommé le « pape de la préhistoire », il étudie et relève les peintures de nombreuses grottes, dont Lascaux.",
+      "dates": "1877 → 1961",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Henri_Breuil"
+    },
+    {
+      "nom": "Marcel Ravidat",
+      "role": "Découvreur de Lascaux",
+      "description": "Adolescent, il découvre la grotte de Lascaux en septembre 1940 avec trois camarades.",
+      "dates": "1922 → 1995",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Marcel_Ravidat"
+    },
+    {
+      "nom": "Jean-Marie Chauvet",
+      "role": "Spéléologue",
+      "description": "Il découvre en décembre 1994, avec Éliette Brunel et Christian Hillaire, la grotte ornée qui porte son nom.",
+      "dates": "né en 1952",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Jean-Marie_Chauvet"
+    },
+    {
+      "nom": "Henry de Lumley",
+      "role": "Préhistorien",
+      "description": "Il dirige les fouilles de la Caune de l’Arago, où est découvert en 1971 le crâne de l’Homme de Tautavel.",
+      "dates": "né en 1934",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Henry_de_Lumley"
+    }
+  ],
+  "guerres": [],
+  "sciences": "L'adaptation au froid glaciaire force l'innovation. Néandertal utilise la méthode Levallois pour produire des éclats de silex d'une grande précision. À son arrivée, Sapiens révolutionne la chasse avec le propulseur, qui permet de projeter des sagaies à longue distance et en sécurité, ainsi que l'invention de l'aiguille à chas en os pour coudre des vêtements hermétiques en peau.",
+  "croyancesText": "L'art pariétal (peintures au fond des grottes) est la manifestation la plus éclatante d'une spiritualité complexe. Ces sanctuaires obscurs (Chauvet, Lascaux, Altamira) ne sont pas des lieux d'habitation, mais probablement des lieux de rites initiatiques ou chamaniques. Les animaux dessinés (mammouths, rhinocéros, lions des cavernes) ne correspondent pas toujours au gibier consommé, ce qui suggère qu’ils avaient une valeur symbolique.",
+  "diplomatie": "Il existe des réseaux d'échanges à longue distance sur tout le continent. On retrouve des coquillages marins au centre des terres, et du silex de grande qualité transporté sur des centaines de kilomètres. La génétique prouve également qu'il y a eu des métissages (hybridations) entre Néandertal et Sapiens.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": {
+      "valeur": "Aucune",
+      "precision": "sites majeurs : Tautavel, Chauvet, Lascaux (France), Atapuerca, Altamira (Espagne)"
+    },
+    "regimes": { "valeur": "Bandes de chasseurs-cueilleurs", "precision": "quelques dizaines de personnes" },
+    "langues": { "valeur": "Inconnues" },
+    "religion": { "valeur": "Inconnue", "precision": "sépultures et grottes ornées témoignent d’une pensée symbolique" },
+    "population": {
+      "valeur": "Quelques dizaines de milliers de personnes",
+      "precision": "pour toute l’Europe ; estimations très incertaines"
+    },
+    "monnaie": { "valeur": "Aucune" },
+    "duree": { "valeur": "Près de 500 000 ans" },
+    "aujourdhui": { "valeur": "Toute l’Europe", "precision": "les sites les plus riches en France et en Espagne" }
+  },
+  "essentiel": [
+    "Des humains vivent en Europe depuis plus d’un million d’années ; l’Homme de Tautavel y vit il y a environ 450 000 ans.",
+    "L’[[homme-de-neandertal|Homme de Néandertal]], adapté au froid des glaciations, occupe l’Europe pendant des centaines de milliers d’années.",
+    "Homo sapiens arrive vers −45 000 ; les deux espèces se croisent, et nous portons encore un peu d’ADN néandertalien.",
+    "Néandertal disparaît vers −40 000, pour des raisons encore débattues.",
+    "Les grottes ornées, de [[grotte-chauvet|Chauvet]] (vers −36 000) à [[grotte-de-lascaux|Lascaux]] (vers −17 000), comptent parmi les plus anciens chefs-d’œuvre de l’humanité."
+  ],
+  "periodes": [
+    {
+      "nom": "Le Paléolithique inférieur",
+      "debut": -1200000,
+      "fin": -300000,
+      "resume": "Les premiers humains arrivés en Europe taillent des bifaces. Le feu est maîtrisé à partir de −400 000 environ.",
+      "evenements": [
+        { "annee": -1200000, "evenement": "Premiers humains à Atapuerca (Espagne)" },
+        { "annee": -450000, "evenement": "L’Homme de Tautavel" }
+      ]
+    },
+    {
+      "nom": "Le Paléolithique moyen",
+      "debut": -300000,
+      "fin": -40000,
+      "resume": "C’est le temps de Néandertal, chasseur habile, qui taille des éclats de silex selon une méthode élaborée (Levallois) et enterre certains de ses morts.",
+      "evenements": [
+        { "annee": -45000, "evenement": "Arrivée d’Homo sapiens" },
+        { "annee": -40000, "evenement": "Disparition de Néandertal" }
+      ]
+    },
+    {
+      "nom": "Le Paléolithique supérieur",
+      "debut": -45000,
+      "fin": -12000,
+      "resume": "Homo sapiens invente le propulseur, l’aiguille à chas, les parures et l’art des grottes. Plusieurs cultures se succèdent, de l’Aurignacien au Magdalénien.",
+      "evenements": [
+        { "annee": -36000, "evenement": "Peintures de la grotte Chauvet" },
+        { "annee": -17000, "evenement": "Peintures de Lascaux" }
+      ]
+    }
+  ],
+  "societe": "Les chasseurs-cueilleurs vivent en petits groupes mobiles, en contact avec d’autres groupes pour échanger des objets et des partenaires. Les sépultures, parfois accompagnées de parures, montrent l’attention portée à certains défunts.",
+  "economie": "La chasse au renne, au cheval, au bison ou au mammouth fournit viande, peaux, os et bois de cervidés. La cueillette et la pêche complètent l’alimentation. Silex et coquillages voyagent sur des centaines de kilomètres.",
+  "decouvertes": ["homme-de-neandertal", "grotte-chauvet", "grotte-de-lascaux"],
+  "arts": "Peintures et gravures des grottes, statuettes féminines (comme la Dame de Brassempouy), objets en os et en ivoire décorés : l’art du Paléolithique supérieur est d’une grande maîtrise technique.",
+  "quotidien": "Tentes en peaux et abris sous roche, vêtements cousus avec des aiguilles en os, feux de camp, outils en silex renouvelés sans cesse : la vie suit les migrations des troupeaux et les saisons d’un climat bien plus froid qu’aujourd’hui.",
+  "heritage": [
+    {
+      "titre": "Un peu de Néandertal en nous",
+      "texte": "Les personnes non africaines portent environ 2 % d’ADN néandertalien."
+    },
+    {
+      "titre": "Les grottes ornées",
+      "texte": "Chauvet et la vallée de la Vézère (Lascaux) sont inscrites au patrimoine mondial ; des répliques permettent de les visiter."
+    }
+  ],
+  "aSavoir": [
+    "« Cro-Magnon » n’est pas une espèce : c’est le nom d’un abri de Dordogne où furent trouvés en 1868 des squelettes d’Homo sapiens.",
+    "Des peintures plus anciennes que Chauvet ont depuis été datées, en Espagne et en Indonésie."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Pal%C3%A9olithique",
+    "https://fr.wikipedia.org/wiki/Homme_de_N%C3%A9andertal"
+  ]
+}

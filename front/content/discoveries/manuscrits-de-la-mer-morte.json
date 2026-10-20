@@ -1,0 +1,20 @@
+{
+  "id": "manuscrits-de-la-mer-morte",
+  "nom": "Manuscrits de la mer Morte",
+  "annee": -150,
+  "domaine": "Archéologie",
+  "dates": "IIIe s. av. J.-C. → Ier s. apr. J.-C. ; découverts à partir de 1947",
+  "description": "Près de 900 manuscrits retrouvés dans des grottes près de Qumrân, au bord de la mer Morte, dont les plus anciennes copies connues de livres de la Bible hébraïque.",
+  "sections": [
+    {
+      "titre": "Leur découverte",
+      "texte": "En 1947, un berger bédouin trouve des jarres contenant des rouleaux dans une grotte. Les fouilles mettent au jour des dizaines de milliers de fragments dans onze grottes."
+    },
+    {
+      "titre": "Ce qu’ils nous apprennent",
+      "texte": "Ces textes, en hébreu, en araméen et en grec, montrent que le texte de la Bible était déjà très proche de celui que nous connaissons, et révèlent les croyances d’une communauté juive de l’époque."
+    }
+  ],
+  "aSavoir": ["Ils sont conservés au musée d’Israël, à Jérusalem, dans un bâtiment en forme de couvercle de jarre."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Manuscrits_de_la_mer_Morte"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "aurangzeb",
+  "nom": "Aurangzeb",
+  "role": "Empereur moghol",
+  "roles": ["Empereur"],
+  "dates": "1618 → 1707",
+  "naissance": 1618,
+  "mort": 1707,
+  "description": "Fils de Shah Jahan, il prend le pouvoir après une guerre contre ses frères et règne près de cinquante ans. Il étend l’empire à sa plus grande taille, mais ses guerres et sa politique religieuse provoquent de nombreuses révoltes.",
+  "reperes": [{ "label": "Règne", "valeur": "1658 → 1707" }],
+  "essentiel": [
+    "Il emprisonne son père et fait exécuter ses frères.",
+    "Il gouverne selon une interprétation stricte de la loi islamique et rétablit l’impôt sur les non-musulmans en 1679.",
+    "Il passe ses vingt-cinq dernières années à combattre les Marathes dans le sud.",
+    "Après sa mort, l’empire se divise rapidement."
+  ],
+  "aSavoir": [
+    "Son image est aujourd’hui très disputée en Inde : les historiens discutent de la part de la religion et de la politique dans ses décisions."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Aurangzeb"
+}

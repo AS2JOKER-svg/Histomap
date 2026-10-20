@@ -32,7 +32,7 @@ export default function ReviseEpochPage() {
 
   return (
     <section>
-      <Breadcrumbs items={[{ label: 'On avance', to: '/reviser' }, { label: epoch.label }]} />
+      <Breadcrumbs items={[{ label: 'Réviser', to: '/reviser' }, { label: epoch.label }]} />
       <PageHeader
         eyebrow={`${formatYear(epoch.start)} → ${formatYear(epoch.end)}`}
         color={epoch.color}
@@ -100,7 +100,7 @@ function ChapterCard({ epoch, continent, civ, chapter, quiz, index }) {
       : { label: 'Nouveau', tone: 'muted' }
     : chapter.current
       ? { label: `En cours · ${chapter.current.pos + 1}/${chapter.current.queue.length}`, tone: 'accent' }
-      : chapter.rounds === 1 && size.tier2 > 0
+      : chapter.rounds === 1 && size?.tier2 > 0
         ? { label: `Niveau 2 : ${size.tier2} nouvelles cartes`, tone: 'warning' }
         : { label: chapter.rounds > 1 ? `Terminé ×${chapter.rounds}` : 'Terminé', tone: 'success' }
   const toneStyle = {
@@ -131,7 +131,7 @@ function ChapterCard({ epoch, continent, civ, chapter, quiz, index }) {
                 Quiz {quiz.best}/20
               </span>
             )}
-            <span className="text-[11px] text-muted ml-auto">{size.tier1} cartes</span>
+            {size && <span className="text-[11px] text-muted ml-auto">{size.tier1} cartes</span>}
           </span>
         </span>
       </Link>

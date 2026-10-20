@@ -1,0 +1,16 @@
+{
+  "id": "alignements-de-carnac",
+  "nom": "Alignements de Carnac",
+  "annee": -4500,
+  "domaine": "Architecture",
+  "dates": "à partir de −4500 environ",
+  "description": "Près de 3 000 menhirs dressés en longues files sur plusieurs kilomètres, en Bretagne : le plus grand ensemble de ce type au monde.",
+  "sections": [
+    {
+      "titre": "Ce que l’on sait",
+      "texte": "Les pierres sont alignées en rangées parallèles, de taille décroissante. Leur fonction reste discutée : lieu de rassemblement, de procession ou de culte."
+    }
+  ],
+  "aSavoir": ["Selon une légende bretonne, ce seraient des soldats romains changés en pierre par saint Cornély."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Alignements_de_Carnac"
+}

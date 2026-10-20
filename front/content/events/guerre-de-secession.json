@@ -1,0 +1,21 @@
+{
+  "id": "guerre-de-secession",
+  "nom": "Guerre de Sécession",
+  "annee": 1861,
+  "fin": 1865,
+  "dates": "1861 → 1865",
+  "lieu": "États-Unis",
+  "description": "Onze États du Sud, qui veulent maintenir l’esclavage, font sécession et forment la Confédération ; le Nord, dirigé par [[abraham-lincoln|Lincoln]], les combat et l’emporte.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Après des débuts difficiles, le Nord, plus peuplé et industrialisé, prend l’avantage à partir de Gettysburg (1863). Le général sudiste Lee capitule en avril 1865."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "C’est la guerre la plus meurtrière de l’histoire américaine. L’esclavage est aboli, mais les anciens esclaves subiront ensuite un siècle de ségrégation."
+    }
+  ],
+  "liens": [{ "ref": "abraham-lincoln", "relation": "Le président de l’Union" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_de_S%C3%A9cession"
+}

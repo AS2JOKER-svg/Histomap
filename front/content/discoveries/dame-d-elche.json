@@ -1,0 +1,20 @@
+{
+  "id": "dame-d-elche",
+  "nom": "Dame d’Elche",
+  "annee": -400,
+  "domaine": "Art",
+  "dates": "Ve-IVe siècle av. J.-C. ; découverte en 1897",
+  "description": "Un buste de femme en pierre, aux bijoux et à la coiffure spectaculaires, découvert près d’Elche : le chef-d’œuvre de la sculpture ibère.",
+  "sections": [
+    {
+      "titre": "Ce qu’elle montre",
+      "texte": "La femme porte un diadème, de grandes roues de chaque côté du visage et plusieurs colliers. Une cavité dans son dos laisse penser qu’elle servait d’urne funéraire."
+    },
+    {
+      "titre": "Son histoire",
+      "texte": "Achetée par le Louvre peu après sa découverte, elle est rendue à l’Espagne en 1941 et se trouve aujourd’hui au Musée archéologique national de Madrid."
+    }
+  ],
+  "aSavoir": ["Elle était à l’origine peinte : on aperçoit encore des traces de couleur rouge."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Dame_d%27Elche"
+}

@@ -1,6 +1,6 @@
 # HistoMap
 
-Site pour apprendre l'histoire des civilisations : une **frise** interactive, une **carte du monde** dans le temps (à venir) et un espace de **révision** avec fiches et quiz (à venir).
+Site pour apprendre l'histoire des civilisations : une **frise** interactive, une **carte du monde** dans le temps et un espace de **révision** avec fiches et quiz.
 
 Inspiré du célèbre *Histomap* de John B. Sparks (1931).
 
@@ -8,24 +8,32 @@ Inspiré du célèbre *Histomap* de John B. Sparks (1931).
 
 | URL | Section | État |
 |---|---|---|
-| `#/` | Accueil : les trois portes d'entrée | ✅ |
+| `#/` | Accueil : « Continuer », recherche, portes d'entrée, progression | ✅ |
 | `#/frise` | Frise des 5 époques | ✅ |
 | `#/frise/:epoque` | Une époque : continents et civilisations | ✅ |
-| `#/frise/:epoque/:civilisation` | Fiche détaillée | ✅ |
+| `#/frise/:epoque/:civilisation` | Fiche détaillée (6 onglets : `?onglet=histoire`, `dirigeants`…) | ✅ |
 | `#/carte` | Carte du monde : 54 cartes de -123 000 à 2010, conflits, fiches | ✅ |
-| `#/reviser` | « On avance » : hub temporel → civilisation → cartes de révision → quiz de 20 questions | ✅ |
+| `#/guerres` | Guerres, par époque, camp contre camp | ✅ |
+| `#/recherche` | Recherche globale (civilisations, personnes, événements, guerres, découvertes) | ✅ |
+| `#/fiche/:id` | Fiche liée : personne, événement, découverte | ✅ |
+| `#/reviser` | Réviser : époque → civilisation → cartes de révision → quiz de 20 questions | ✅ |
 
 ## Structure
 
 ```
 histomap/
+├── CLAUDE.md                    ← contexte et règles pour l'agent IA
 ├── front/                       ← Le site (React 18 + Vite + Tailwind)
+│   ├── content/                 ← SOURCE de tout le contenu (JSON, à éditer)
+│   │   ├── epochs.json          ← plan : époques → continents → ids des civilisations
+│   │   ├── civs/<id>.json       ← une fiche par civilisation
+│   │   ├── people/ events/ discoveries/  ← fiches liées (personnes, événements, découvertes)
+│   │   └── lineages, regions, conflicts, ignore-territories.json
 │   ├── scripts/
-│   │   ├── data-part1..4.mjs    ← SOURCES des données (à éditer)
-│   │   ├── lineages.mjs         ← civilisations reliées d'une époque à l'autre
-│   │   ├── build-epochs.mjs     ← génère src/data/epochs.json
-│   │   ├── validate-data.mjs    ← vérifie les données avant chaque build
+│   │   ├── build-content.mjs    ← compile content/ → src/data/ (généré)
+│   │   ├── validate-content.mjs ← vérifie le contenu avant chaque build
 │   │   ├── validate-revision.mjs← vérifie les chapitres et quiz rédigés
+│   │   ├── coverage-report.mjs  ← rapport de couverture (trous région × siècle)
 │   │   └── build-map.mjs        ← génère les fonds de carte (public/map/)
 │   ├── src/
 │   │   ├── App.jsx              ← plan du site (routes)
@@ -34,8 +42,7 @@ histomap/
 │   │   ├── components/          ← composants partagés (ui/ = briques de base)
 │   │   ├── lib/                 ← accès aux données, temps, stockage, vibrations
 │   │   ├── store/               ← état global (thème, interface, progression)
-│   │   ├── config/welcome.js    ← mot de bienvenue
-│   │   └── data/epochs.json     ← GÉNÉRÉ, ne pas éditer à la main
+│   │   └── data/                ← GÉNÉRÉ depuis content/ (sauf revision/<id>.js : chapitres rédigés)
 │   └── GUIDE_EDITION.md         ← comment ajouter du contenu
 └── .github/workflows/deploy.yml ← déploiement GitHub Pages à chaque push sur main
 ```
@@ -45,16 +52,17 @@ histomap/
 Prérequis : Node.js 18+ (20 recommandé).
 
 ```bash
-cd front
-npm ci          # installe les dépendances
-npm run dev     # http://localhost:5173/Histomap/
+cd front && npm ci && cd ..   # installe les dépendances (une fois)
+npm run dev                    # http://localhost:5173/Histomap/ (marche aussi depuis front/)
 ```
 
 | Commande | Rôle |
 |---|---|
-| `npm run dev` | Serveur de développement |
-| `npm run data` | Régénère `epochs.json` depuis `scripts/` puis le valide |
-| `npm run validate` | Valide seulement les données |
+| `npm run dev` | Compile le contenu puis lance le serveur de développement |
+| `npm run data` | Compile `content/` → `src/data/` puis valide tout |
+| `npm run validate` | Valide seulement le contenu et les chapitres |
+| `npm run coverage` | Rapport de couverture → `front/reports/couverture.md` |
+| `npm run links` | Vérifie que tous les liens Wikipédia du contenu existent (connexion requise) |
 | `npm run map` | Régénère les fonds de carte depuis historical-basemaps (réseau requis, rarement utile) |
 | `npm run build` | Valide puis construit le site dans `dist/` |
 | `npm run preview` | Sert le build localement |
@@ -62,7 +70,7 @@ npm run dev     # http://localhost:5173/Histomap/
 ## Carte du monde
 
 - **Frontières** : projet [historical-basemaps](https://github.com/aourednik/historical-basemaps) (André Ourednik, **licence GPL-3.0**), simplifiées et converties en TopoJSON dans `front/public/map/` (fichiers séparés du code, avec `LICENSE` et `NOTICE.md`).
-- **Lien carte ↔ fiches** : `front/src/data/map-links.js` (noms des territoires de chaque civilisation + coordonnées des conflits).
+- **Lien carte ↔ fiches** : champ `territories` de chaque fiche (`front/content/civs/`) + `front/content/conflicts.json` (lieu des guerres).
 
 ## Progression
 
@@ -78,4 +86,4 @@ Chaque push sur `main` déclenche `.github/workflows/deploy.yml` : installation,
 
 ## Pas de serveur
 
-Toutes les données sont écrites en dur dans le dépôt (`front/scripts/`, `front/src/data/`) : le site est entièrement statique, sans API ni clé secrète.
+Toutes les données sont dans le dépôt (`front/content/`), compilées au build : le site est entièrement statique, sans API ni clé secrète.

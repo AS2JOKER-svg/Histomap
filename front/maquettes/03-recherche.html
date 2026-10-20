@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Recherche · Maquettes HistoMap</title>
+<link rel="stylesheet" href="assets/maquette.css">
+<style>
+  .field { flex: 1; display: flex; align-items: center; gap: 8px; height: 44px; padding: 0 12px; border-radius: 14px; background: rgb(var(--c-surface)); border: 2px solid rgb(var(--c-accent)); }
+  .field input { flex: 1; border: 0; outline: 0; background: none; font: inherit; font-size: 16px; color: rgb(var(--c-ink)); min-width: 0; }
+  .group { margin: 18px 16px 0; }
+  .group h2 { display: flex; justify-content: space-between; font-size: 11px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: rgb(var(--c-muted)); margin-bottom: 8px; }
+  mark { background: rgb(var(--c-warning) / .22); color: inherit; border-radius: 3px; padding: 0 1px; }
+  .best { display: flex; gap: 14px; align-items: center; padding: 14px; }
+</style>
+</head>
+<body>
+<main class="stage">
+  <div class="phone" style="--civ:#8e44ad">
+    <div class="statusbar"><span>9:41</span><span class="dots">●●● ▮</span></div>
+
+    <div class="screen">
+      <div class="appbar" style="gap:8px;padding:0 12px 0 6px">
+        <a class="icon-btn" href="02-accueil.html" aria-label="Retour"><svg data-i="arrowLeft"></svg></a>
+        <label class="field"><svg data-i="search" class="sm"></svg><input value="cesar" aria-label="Rechercher"><svg data-i="close" class="sm" style="color:rgb(var(--c-muted))"></svg></label>
+      </div>
+      <div class="carousel" style="margin:4px 0 0;padding:4px 16px 8px">
+        <span class="chip on">Tout · 9</span><span class="chip">Personnes · 2</span><span class="chip">Événements · 2</span><span class="chip">Guerres · 2</span><span class="chip">Civilisations · 2</span><span class="chip">Découvertes · 1</span>
+      </div>
+
+      <div class="group">
+        <h2>Meilleur résultat</h2>
+        <a class="card best" href="06-fiche-personne.html"><span class="avatar" style="width:56px;height:56px;font-size:24px">JC</span><div class="grow"><span class="badge person">Personne</span><div class="display" style="font-size:22px;font-weight:600;margin-top:4px">Jules <mark>César</mark></div><div class="muted" style="font-size:13px">−100 → −44 · Rome antique</div></div><svg data-i="chevronRight" class="chev"></svg></a>
+      </div>
+
+      <div class="group">
+        <h2>Personnes <span>2</span></h2>
+        <div class="card">
+          <button class="row" data-ref="auguste" style="width:100%;text-align:left"><span class="avatar" style="width:38px;height:38px;font-size:16px">A</span><div class="grow"><div class="t">Auguste (Octave)</div><div class="s">« fils adoptif de <mark>César</mark> » · −63 → 14</div></div><svg data-i="chevronRight" class="chev sm"></svg></button>
+        </div>
+      </div>
+
+      <div class="group">
+        <h2>Événements <span>2</span></h2>
+        <div class="card">
+          <a class="row" href="07-fiche-evenement.html"><span class="badge event">−44</span><div class="grow"><div class="t">Assassinat de <mark>César</mark></div><div class="s">Rome antique</div></div><svg data-i="chevronRight" class="chev sm"></svg></a>
+          <button class="row" data-ref="rubicon" style="width:100%;text-align:left"><span class="badge event">−49</span><div class="grow"><div class="t">Passage du Rubicon</div><div class="s">« <mark>César</mark> franchit… »</div></div><svg data-i="chevronRight" class="chev sm"></svg></button>
+        </div>
+      </div>
+
+      <div class="group">
+        <h2>Guerres <span>2</span></h2>
+        <div class="card">
+          <button class="row" data-ref="guerre-civile-cesar" style="width:100%;text-align:left"><span class="badge war">−49</span><div class="grow"><div class="t">Guerre civile de <mark>César</mark></div><div class="s"><mark>César</mark> contre Pompée</div></div><svg data-i="chevronRight" class="chev sm"></svg></button>
+          <button class="row" data-ref="guerre-des-gaules" style="width:100%;text-align:left"><span class="badge war">−58</span><div class="grow"><div class="t">Guerre des Gaules</div><div class="s">Rome (<mark>César</mark>) contre les peuples gaulois</div></div><svg data-i="chevronRight" class="chev sm"></svg></button>
+        </div>
+      </div>
+
+      <div class="group">
+        <h2>Civilisations <span>2</span></h2>
+        <div class="card">
+          <a class="row" href="05-fiche-civilisation.html"><span style="width:12px;height:12px;border-radius:99px;background:#8e44ad;flex:none"></span><div class="grow"><div class="t">Rome antique</div><div class="s">−753 → 476 · cite <mark>César</mark></div></div><svg data-i="chevronRight" class="chev sm"></svg></a>
+          <button class="row" data-ref="celtes" style="width:100%;text-align:left"><span style="width:12px;height:12px;border-radius:99px;background:#2e7d32;flex:none"></span><div class="grow"><div class="t">Celtes / Gaulois</div><div class="s">−800 → −50 · cite <mark>César</mark></div></div><svg data-i="chevronRight" class="chev sm"></svg></button>
+        </div>
+      </div>
+
+      <div class="group">
+        <h2>Découvertes <span>1</span></h2>
+        <div class="card">
+          <a class="row" href="08-fiche-decouverte.html"><span class="badge discovery">−46</span><div class="grow"><div class="t">Calendrier julien</div><div class="s">Réforme de Jules <mark>César</mark></div></div><svg data-i="chevronRight" class="chev sm"></svg></a>
+        </div>
+      </div>
+      <div class="footer-space"></div>
+    </div>
+
+    <nav class="tabbar" aria-label="Navigation principale">
+      <a href="02-accueil.html" aria-current="page"><svg data-i="home"></svg>Accueil</a>
+      <a href="04-frise.html"><svg data-i="timeline"></svg>Frise</a>
+      <a href="04b-carte.html"><svg data-i="globe"></svg>Carte</a>
+      <a href="09-guerres.html"><svg data-i="swords"></svg>Guerres</a>
+      <a href="10-reviser.html"><svg data-i="cards"></svg>Réviser</a>
+    </nav>
+  </div>
+
+  <aside class="notes">
+    <a class="back" href="index.html"><svg data-i="arrowLeft" class="sm"></svg> Toutes les maquettes</a>
+    <p class="eyebrow">Maquette 03</p>
+    <h1>Recherche globale</h1>
+    <p>Accessible depuis l'accueil et depuis l'icône loupe de chaque fiche.</p>
+    <h2>Pourquoi ces choix</h2>
+    <ul>
+      <li><b>Tolérante</b> : « cesar » trouve « César » (accents et majuscules ignorés), et les fautes courantes seront tolérées (« vercingetorix », « gengis khan »).</li>
+      <li><b>Un meilleur résultat mis en avant</b>, puis des groupes par type (personnes, événements, guerres, civilisations, découvertes) avec leur badge de couleur, le même partout dans l'app.</li>
+      <li><b>On voit pourquoi un résultat sort</b> : l'extrait avec le mot surligné (« fils adoptif de César »).</li>
+      <li><b>Filtres par type</b> en un toucher, avec le nombre de résultats.</li>
+      <li><b>100 % hors ligne</b> : l'index de recherche est construit au build (comme l'index léger du sprint 9), sans serveur.</li>
+      <li>Sans saisie : recherches récentes et suggestions (« Napoléon », « Pyramides », « Seconde Guerre mondiale »).</li>
+    </ul>
+    <div class="tools"><button class="btn btn-secondary" data-theme-toggle><svg data-i="moon" class="sm"></svg> Thème</button></div>
+  </aside>
+</main>
+<script src="assets/maquette.js"></script>
+</body>
+</html>

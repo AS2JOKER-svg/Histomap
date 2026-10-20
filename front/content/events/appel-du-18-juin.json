@@ -1,0 +1,20 @@
+{
+  "id": "appel-du-18-juin",
+  "nom": "Appel du 18 juin 1940",
+  "annee": 1940,
+  "dates": "18 juin 1940",
+  "lieu": "Londres (BBC)",
+  "description": "Depuis Londres, le général [[charles-de-gaulle|de Gaulle]] appelle à la radio les Français à refuser la défaite et à continuer le combat.",
+  "sections": [
+    {
+      "titre": "Contexte",
+      "texte": "La veille, le maréchal Pétain a annoncé qu’il fallait cesser le combat. L’armistice est signé le 22 juin."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Peu entendu sur le moment, l’appel devient le texte fondateur de la France libre et de la Résistance."
+    }
+  ],
+  "liens": [{ "ref": "charles-de-gaulle", "relation": "Son auteur" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Appel_du_18_Juin"
+}

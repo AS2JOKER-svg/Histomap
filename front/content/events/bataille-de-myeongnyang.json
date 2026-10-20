@@ -1,0 +1,20 @@
+{
+  "id": "bataille-de-myeongnyang",
+  "nom": "Bataille de Myeongnyang",
+  "annee": 1597,
+  "dates": "26 octobre 1597",
+  "lieu": "Détroit de Myeongnyang (sud-ouest de la Corée)",
+  "description": "Avec seulement 13 navires, l’amiral [[yi-sun-sin|Yi Sun-sin]] affronte plus de 130 navires japonais dans un détroit aux courants violents et les force à se replier.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Yi Sun-sin choisit un passage étroit où la flotte japonaise ne peut pas se déployer et utilise le changement de courant pour désorganiser l’ennemi."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Une trentaine de navires japonais sont coulés ou endommagés ; la flotte japonaise ne peut plus remonter vers la capitale par la mer."
+    }
+  ],
+  "liens": [{ "ref": "yi-sun-sin", "relation": "Le vainqueur" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Myong-Yang"
+}

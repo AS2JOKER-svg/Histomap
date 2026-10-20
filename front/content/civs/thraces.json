@@ -1,0 +1,194 @@
+{
+  "id": "thraces",
+  "label": "Peuples Thraces",
+  "tier": 1,
+  "region": "balkans",
+  "period": "-1200 à 46",
+  "start": -1200,
+  "end": 46,
+  "color": "#a1887f",
+  "trackId": "thraces",
+  "row": 5,
+  "isRiver": false,
+  "capitale": "Seuthopolis",
+  "description": "Peuples guerriers et orfèvres des Balkans, entre Grecs, Perses et Scythes. Le royaume des Odryses les unit en partie, avant leur intégration à l’Empire romain.",
+  "territories": ["Thrace", "Odrysian Kingdom"],
+  "datesCles": [
+    {
+      "annee": -513,
+      "evenement": "Conquête perse",
+      "info": "Le roi perse Darius Ier traverse la Thrace pour attaquer les Scythes ; la région passe sous domination perse."
+    },
+    {
+      "annee": -460,
+      "evenement": "Royaume des Odryses",
+      "info": "Après le retrait perse de Thrace (après −479), Térès Ier fonde vers −470/−460 le royaume des Odryses en unifiant plusieurs tribus."
+    },
+    {
+      "annee": -342,
+      "evenement": "Conquête macédonienne",
+      "info": "Philippe II de Macédoine soumet une grande partie de la Thrace."
+    },
+    {
+      "annee": -320,
+      "evenement": "Fondation de Seuthopolis",
+      "info": "Seuthès III fonde sa capitale, sur le modèle des villes grecques."
+    },
+    {
+      "annee": -73,
+      "evenement": "Révolte de Spartacus",
+      "info": "Le gladiateur thrace Spartacus soulève des dizaines de milliers d’esclaves en Italie."
+    },
+    {
+      "annee": 46,
+      "evenement": "Annexion par Rome",
+      "info": "L’empereur romain Claude fait de la Thrace une province romaine."
+    }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Térès Ier",
+      "titre": "Roi des Odryses",
+      "debut": -460,
+      "fin": -445,
+      "dynastie": "odryses",
+      "note": "fondateur du royaume",
+      "cle": true
+    },
+    {
+      "nom": "Sitalcès",
+      "titre": "Roi des Odryses",
+      "debut": -431,
+      "fin": -424,
+      "dynastie": "odryses",
+      "note": "allié d’Athènes"
+    },
+    { "nom": "Seuthès Ier", "titre": "Roi des Odryses", "debut": -424, "fin": -405, "dynastie": "odryses" },
+    { "nom": "Cotys Ier", "titre": "Roi des Odryses", "debut": -384, "fin": -360, "dynastie": "odryses" },
+    {
+      "nom": "Seuthès III",
+      "titre": "Roi des Odryses",
+      "debut": -331,
+      "fin": -300,
+      "dynastie": "odryses",
+      "note": "fonde Seuthopolis",
+      "cle": true
+    },
+    { "nom": "Rhoemetalcès Ier", "titre": "Roi client de Rome", "debut": -12, "fin": 12, "dynastie": "client" },
+    {
+      "nom": "Rhoemetalcès III",
+      "titre": "Roi client de Rome",
+      "debut": 38,
+      "fin": 46,
+      "dynastie": "client",
+      "note": "dernier roi ; son assassinat entraîne l’annexion"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Spartacus",
+      "role": "Gladiateur et chef de révolte",
+      "description": "Thrace devenu gladiateur, il mène la plus grande révolte d’esclaves contre Rome et bat plusieurs armées romaines avant d’être tué.",
+      "dates": "mort en −71",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Spartacus",
+      "ref": "spartacus"
+    },
+    {
+      "nom": "Seuthès III",
+      "role": "Roi des Odryses",
+      "description": "Roi qui tient tête aux Macédoniens après la mort d’Alexandre et fonde Seuthopolis, sa capitale.",
+      "dates": "vers −331 → −300",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Seuth%C3%A8s_III"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Troisième Guerre Servile",
+      "annee": -73,
+      "adversaires": ["République Romaine (Crassus)"],
+      "allies": ["Esclaves gladiateurs et ruraux"],
+      "morts": "Plusieurs dizaines de milliers de rebelles tués (chiffres antiques incertains), 6000 crucifiés",
+      "vainqueur": "Rome",
+      "consequences": "Spartacus est tué au combat en −71 ; 6 000 prisonniers sont crucifiés le long de la via Appia. Rome reste marquée par la peur des révoltes d’esclaves.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Troisi%C3%A8me_Guerre_servile"
+    }
+  ],
+  "sciences": "Les Thraces sont des orfèvres de grand talent : leurs vases, rhytons et bijoux en or et en argent mêlent motifs locaux, grecs et perses. Leurs fantassins légers, armés de javelots et d’un petit bouclier en osier (la pelta), sont imités par les Grecs, qui les appellent peltastes. Ils bâtissent des tombeaux sous tumulus, aux chambres décorées de fresques.",
+  "croyancesText": "Selon Hérodote, les Gètes, un peuple thrace, croient à l’immortalité et honorent Zalmoxis. Les Grecs situaient en Thrace la patrie d’Orphée et attribuaient aux Thraces le culte de Dionysos, pourtant déjà attesté en Grèce mycénienne. Plus tard, d’innombrables reliefs représentent un héros cavalier, divinité protectrice.",
+  "diplomatie": "Divisés en tribus rivales, les Thraces sont décrits par Hérodote comme « le peuple le plus nombreux après les Indiens », qui serait invincible s’il s’unissait. Ils servent comme mercenaires des Perses, des Grecs puis des rois hellénistiques, et leurs rois s’allient tour à tour à Athènes, à la Macédoine et à Rome.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": {
+      "valeur": "Seuthopolis",
+      "precision": "fondée par Seuthès III vers −320 ; auparavant, les rois se déplacent entre leurs résidences"
+    },
+    "regimes": { "valeur": "Tribus, puis royaume des Odryses", "precision": "royaume client de Rome au Ier siècle av. J.-C." },
+    "langues": {
+      "valeur": "Thrace",
+      "precision": "langue indo-européenne, connue par de rares inscriptions en alphabet grec"
+    },
+    "religion": { "valeur": "Polythéisme", "precision": "Zalmoxis chez les Gètes ; mythes d’Orphée et de Dionysos" },
+    "apogee": { "valeur": "Ve-IVe siècles av. J.-C.", "precision": "royaume des Odryses" },
+    "population": { "valeur": "Inconnue", "precision": "Hérodote en fait le peuple le plus nombreux après les Indiens" },
+    "monnaie": { "valeur": "Monnaies grecques, puis royales", "precision": "les rois odryses frappent leurs propres pièces" },
+    "duree": { "valeur": "Plus de 1 200 ans" },
+    "aujourdhui": { "valeur": "Bulgarie", "precision": "et nord-est de la Grèce, Turquie d’Europe, sud de la Roumanie" }
+  },
+  "essentiel": [
+    "Les Thraces sont une multitude de tribus installées entre le Danube, la mer Noire et la mer Égée.",
+    "Ils sont soumis un temps aux Perses, puis le roi Térès Ier fonde au Ve siècle av. J.-C. le royaume des Odryses.",
+    "Réputés pour leur infanterie légère, ils servent comme mercenaires dans les armées grecques et macédoniennes.",
+    "Leurs tombes royales renferment des trésors d’orfèvrerie, comme le [[tresor-de-panagyurichte|trésor de Panagyurichté]].",
+    "Rome annexe la Thrace en 46 ; le plus célèbre des Thraces, [[spartacus|Spartacus]], a mené une révolte d’esclaves contre Rome."
+  ],
+  "periodes": [
+    {
+      "nom": "Les tribus thraces",
+      "debut": -1200,
+      "fin": -513,
+      "resume": "De nombreuses tribus vivent de l’agriculture, de l’élevage des chevaux et de l’exploitation des mines d’or. Les Grecs fondent des colonies sur leurs côtes."
+    },
+    {
+      "nom": "Le royaume des Odryses",
+      "debut": -513,
+      "fin": -342,
+      "resume": "Après la domination perse, les Odryses unifient une grande partie de la Thrace, alliés tour à tour d’Athènes et de ses rivaux.",
+      "evenements": [
+        { "annee": -460, "evenement": "Térès Ier fonde le royaume" },
+        { "annee": -429, "evenement": "Sitalcès envahit la Macédoine" }
+      ]
+    },
+    {
+      "nom": "Entre Macédoine et Rome",
+      "debut": -342,
+      "fin": 46,
+      "resume": "Soumis par Philippe II, les Thraces retrouvent par moments leur indépendance, comme sous Seuthès III, puis deviennent un royaume client de Rome avant d’être annexés.",
+      "evenements": [
+        { "annee": -320, "evenement": "Fondation de Seuthopolis" },
+        { "annee": -73, "evenement": "Révolte de Spartacus" },
+        { "annee": 46, "evenement": "Province romaine" }
+      ]
+    }
+  ],
+  "dynasties": [
+    { "id": "odryses", "nom": "Les rois des Odryses", "debut": -460, "fin": -300, "note": "Dates approximatives." },
+    { "id": "client", "nom": "Les rois clients de Rome", "debut": -12, "fin": 46 }
+  ],
+  "societe": "Une aristocratie guerrière, enterrée dans de riches tumulus, domine une population d’agriculteurs et d’éleveurs de chevaux. Hérodote rapporte que la polygamie y était pratiquée.",
+  "economie": "Agriculture, élevage des chevaux, mines d’or et d’argent, commerce avec les colonies grecques de la mer Noire et de l’Égée (blé, esclaves, métaux contre vin et céramique).",
+  "decouvertes": ["tresor-de-panagyurichte"],
+  "arts": "Trésors d’orfèvrerie (Panagyurichté, Rogozen, Vulchitrun), tombeau peint de Kazanlak, masque en or de Shipka : l’art thrace est l’un des plus riches de l’Europe antique.",
+  "quotidien": "Les Thraces vivent dans des villages et des forteresses de hauteur. Ils sont réputés pour leurs chevaux, leur vin et leurs banquets.",
+  "heritage": [
+    {
+      "titre": "Les trésors thraces",
+      "texte": "Les musées bulgares conservent des trésors d’or parmi les plus spectaculaires de l’Antiquité."
+    },
+    {
+      "titre": "Spartacus",
+      "texte": "Le gladiateur révolté devient un symbole de la lutte pour la liberté, inspirant romans, films et mouvements politiques."
+    }
+  ],
+  "aSavoir": ["Les ruines de Seuthopolis sont aujourd’hui sous les eaux d’un lac de barrage, en Bulgarie."],
+  "sources": ["https://fr.wikipedia.org/wiki/Thraces", "https://fr.wikipedia.org/wiki/Royaume_des_Odryses"]
+}

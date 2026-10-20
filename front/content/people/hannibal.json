@@ -1,0 +1,36 @@
+{
+  "id": "hannibal",
+  "nom": "Hannibal",
+  "nomComplet": "Hannibal Barca",
+  "role": "Général carthaginois",
+  "roles": ["Général", "Suffète"],
+  "dates": "−247 → −183",
+  "naissance": -247,
+  "mort": -183,
+  "description": "Le plus grand général de Carthage : il franchit les Alpes avec ses éléphants, écrase les Romains à Cannes, mais ne parvient pas à prendre Rome et est vaincu à Zama.",
+  "reperes": [
+    { "label": "Commandement", "valeur": "−221 → −202" },
+    { "label": "Suffète", "valeur": "−196" },
+    {
+      "label": "Mort",
+      "valeur": "vers −183",
+      "precision": "en Bithynie (Turquie actuelle), il s’empoisonne pour ne pas être livré aux Romains"
+    }
+  ],
+  "essentiel": [
+    "En −218, il part d’Espagne, traverse les Pyrénées et les Alpes et envahit l’Italie.",
+    "À [[bataille-de-cannes|Cannes]] (−216), il encercle et anéantit une armée romaine bien plus nombreuse.",
+    "Rappelé en Afrique, il est battu par Scipion à [[bataille-de-zama|Zama]] (−202)."
+  ],
+  "chronologie": [
+    { "annee": -218, "texte": "Traversée des Alpes" },
+    { "annee": -216, "texte": "Victoire de Cannes", "ref": "bataille-de-cannes" },
+    { "annee": -202, "texte": "Défaite de Zama", "ref": "bataille-de-zama" },
+    { "annee": -196, "texte": "Suffète de Carthage" },
+    { "annee": -183, "texte": "Mort en exil" }
+  ],
+  "aSavoir": [
+    "Des 37 éléphants partis d’Espagne selon les sources antiques, presque tous meurent pendant ou peu après la traversée des Alpes."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Hannibal_Barca"
+}

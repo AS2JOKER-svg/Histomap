@@ -1,0 +1,23 @@
+{
+  "id": "algebre",
+  "nom": "L’algèbre",
+  "annee": 825,
+  "domaine": "Mathématiques",
+  "dates": "vers 825",
+  "description": "Une méthode pour résoudre des problèmes en cherchant une quantité inconnue. Elle tire son nom du traité d’[[al-khwarizmi|al-Khwârizmî]], « al-jabr ».",
+  "sections": [
+    {
+      "titre": "Comment ça marche",
+      "texte": "Al-Khwârizmî explique, avec des mots et des figures, comment résoudre des équations pour des problèmes concrets : héritages, partages, mesures de terrains. Les lettres et les symboles n’arriveront qu’à la Renaissance."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Traduit en latin au XIIe siècle, son livre fait connaître l’algèbre à l’Europe."
+    }
+  ],
+  "aSavoir": [
+    "« Al-jabr » signifie « la restauration » : l’opération qui consiste à faire passer un terme d’un côté à l’autre de l’égalité."
+  ],
+  "liens": [{ "ref": "al-khwarizmi", "relation": "Son auteur" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Alg%C3%A8bre"
+}

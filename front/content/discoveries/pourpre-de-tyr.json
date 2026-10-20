@@ -1,0 +1,20 @@
+{
+  "id": "pourpre-de-tyr",
+  "nom": "Pourpre de Tyr",
+  "annee": -1200,
+  "domaine": "Artisanat",
+  "dates": "IIe millénaire av. J.-C. → Antiquité tardive",
+  "description": "Une teinture violette très résistante, tirée de coquillages de mer, les murex : la couleur la plus chère de l’Antiquité, réservée aux rois puis aux empereurs.",
+  "sections": [
+    {
+      "titre": "Comment on la fabrique",
+      "texte": "On écrase des milliers de murex pour en extraire une glande, que l’on fait macérer et chauffer. Il faut plusieurs milliers de coquillages pour teindre un seul vêtement."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "La pourpre devient un symbole de pouvoir : les magistrats romains portent une toge bordée de pourpre, et les empereurs byzantins naissent « dans la pourpre »."
+    }
+  ],
+  "aSavoir": ["Des montagnes de coquilles de murex brisées ont été retrouvées près de Sidon et de Tyr."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Pourpre_de_Tyr"
+}

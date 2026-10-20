@@ -1,0 +1,16 @@
+{
+  "id": "euro",
+  "nom": "L’euro",
+  "annee": 2002,
+  "domaine": "Économie",
+  "dates": "1999 (marchés), 2002 (pièces et billets)",
+  "description": "La monnaie commune d’une partie des pays de l’Union européenne : ses pièces et billets remplacent le franc, le mark ou la lire le 1er janvier 2002.",
+  "sections": [
+    {
+      "titre": "Comment ça marche",
+      "texte": "La Banque centrale européenne, à Francfort, fixe les taux d’intérêt pour tous les pays de la zone euro. Chaque pays frappe des pièces avec une face nationale."
+    }
+  ],
+  "aSavoir": ["Les billets représentent des ponts et des fenêtres imaginaires, pour ne favoriser aucun pays."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Euro"
+}

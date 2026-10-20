@@ -1,0 +1,15 @@
+{
+  "name": "histomap",
+  "private": true,
+  "description": "Raccourcis : l'application est dans front/. Ces commandes marchent depuis la racine du dépôt.",
+  "scripts": {
+    "dev": "npm --prefix front run dev",
+    "data": "npm --prefix front run data",
+    "validate": "npm --prefix front run validate",
+    "coverage": "npm --prefix front run coverage",
+    "links": "npm --prefix front run links",
+    "territoires": "npm --prefix front run territoires --",
+    "build": "npm --prefix front run build",
+    "preview": "npm --prefix front run preview"
+  }
+}

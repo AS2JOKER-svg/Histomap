@@ -1,0 +1,18 @@
+{
+  "id": "wang-geon",
+  "nom": "Wang Geon",
+  "nomComplet": "Taejo de Goryeo",
+  "role": "Fondateur de Goryeo",
+  "roles": ["Roi", "Fondateur"],
+  "dates": "877 → 943",
+  "naissance": 877,
+  "mort": 943,
+  "description": "Chef militaire qui fonde le royaume de Goryeo en 918 et réunifie la péninsule coréenne en 936, en ralliant les royaumes de Silla et de Baekje postérieur.",
+  "essentiel": [
+    "Fils d’une riche famille de marchands, il sert d’abord le roi Gung Ye, puis le renverse.",
+    "Il obtient la soumission pacifique du dernier roi de Silla en 935.",
+    "Il épouse 29 femmes issues des grandes familles pour s’assurer leur fidélité.",
+    "Il laisse à ses successeurs dix « instructions » qui recommandent de protéger le bouddhisme."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Taejo_de_Goryeo_(Wang_Geon)"
+}

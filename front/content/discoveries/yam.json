@@ -1,0 +1,20 @@
+{
+  "id": "yam",
+  "nom": "Yam (relais postal mongol)",
+  "annee": 1234,
+  "domaine": "Communication",
+  "dates": "XIIIe siècle",
+  "description": "Un immense réseau de relais à travers l’Empire mongol, où les messagers officiels trouvent des chevaux frais, de la nourriture et un abri.",
+  "sections": [
+    {
+      "titre": "Comment ça marche",
+      "texte": "Des relais sont installés toutes les quelques dizaines de kilomètres. Un messager muni d’une plaque de commandement (païza) peut changer de monture et parcourir jusqu’à 200 km par jour."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Les ordres du khan et les informations circulent très vite. Marchands et voyageurs profitent aussi de ces routes sûres."
+    }
+  ],
+  "aSavoir": ["Marco Polo décrit ce système avec admiration et parle de dizaines de milliers de chevaux."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/%C3%96rt%C3%B6%C3%B6"
+}

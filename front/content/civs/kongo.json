@@ -1,0 +1,170 @@
+{
+  "id": "kongo",
+  "label": "Royaume du Kongo",
+  "tier": 1,
+  "region": "afrique-centrale",
+  "period": "vers 1390 à 1492",
+  "start": 1390,
+  "end": 1492,
+  "trackId": "afrique_centrale",
+  "row": 2,
+  "isRiver": false,
+  "capitale": "Mbanza Kongo",
+  "description": "Un royaume centralisé d’Afrique centrale, près de l’embouchure du fleuve Congo, qui entre en contact avec les Portugais en 1483 et dont le roi se fait baptiser en 1491.",
+  "territories": ["Congo"],
+  "datesCles": [
+    {
+      "annee": 1390,
+      "evenement": "Fondation",
+      "info": "Selon la tradition, Lukeni lua Nimi, venu du nord, conquiert la région de Mbanza Kongo."
+    },
+    {
+      "annee": 1483,
+      "evenement": "Arrivée de Diogo Cão",
+      "info": "Le navigateur portugais atteint l’embouchure du fleuve Congo et entre en contact avec le royaume.",
+      "ref": "arrivee-des-portugais-au-kongo"
+    },
+    {
+      "annee": 1491,
+      "evenement": "Le grand baptême",
+      "info": "Le roi Nzinga a Nkuwu se convertit au catholicisme et prend le nom de João Ier."
+    }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Lukeni lua Nimi",
+      "titre": "Roi (manikongo)",
+      "debut": 1390,
+      "fin": 1420,
+      "dynastie": "manikongo",
+      "note": "fondateur selon la tradition",
+      "cle": true
+    },
+    {
+      "nom": "Nkuwu a Ntinu",
+      "titre": "Roi",
+      "debut": 1440,
+      "fin": 1470,
+      "dynastie": "manikongo",
+      "note": "dates inconnues"
+    },
+    {
+      "nom": "Nzinga a Nkuwu",
+      "titre": "Roi",
+      "debut": 1470,
+      "fin": 1509,
+      "dynastie": "manikongo",
+      "personne": "nzinga-a-nkuwu",
+      "note": "baptisé João Ier en 1491",
+      "cle": true
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Nzinga a Nkuwu (João Ier)",
+      "role": "Roi",
+      "description": "Roi du Kongo qui accueille les Portugais et se fait baptiser en 1491.",
+      "dates": "mort en 1509",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Nzinga_Nkuwu",
+      "ref": "nzinga-a-nkuwu"
+    },
+    {
+      "nom": "Diogo Cão",
+      "role": "Navigateur portugais",
+      "description": "Premier Européen connu à atteindre l’embouchure du fleuve Congo, où il dresse une colonne de pierre (padrão).",
+      "dates": "vers 1440 → vers 1486",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Diogo_C%C3%A3o"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Expansion du Kongo (fin XIVe – XVe s.)",
+      "annee": 1400,
+      "adversaires": ["Chefferies voisines (Nsundi, Mbata…)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Royaume du Kongo",
+      "consequences": "Le Kongo intègre les chefferies voisines et devient l’un des plus grands royaumes d’Afrique centrale.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Royaume_du_Kongo"
+    }
+  ],
+  "sciences": "Les tisserands du Kongo produisent des étoffes de raphia si fines que les Portugais les comparent au velours et à la soie. Les forgerons et les potiers sont très considérés. L’État contrôle la monnaie, des coquillages (nzimbu) pêchés sur l’île de Luanda, qui appartient au roi.",
+  "croyancesText": "Avant le baptême du roi, la religion repose sur le culte des ancêtres et des esprits, présents dans des objets rituels (minkisi) utilisés pour guérir, protéger ou punir. Pour les Kongo, le christianisme apporté par les Portugais semble d’abord une nouvelle force spirituelle, qui s’ajoute aux anciennes.",
+  "diplomatie": "À l’arrivée des Portugais, le roi du Kongo et le roi du Portugal échangent des ambassades et des cadeaux, sur un pied d’égalité. Des prêtres, des artisans et des maçons portugais arrivent au Kongo ; des jeunes nobles kongo partent étudier à Lisbonne. Le commerce de l’ivoire, du cuivre et bientôt des captifs commence.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": {
+      "valeur": "Mbanza Kongo",
+      "precision": "dans le nord de l’Angola actuel ; rebaptisée São Salvador après la conversion"
+    },
+    "regimes": {
+      "valeur": "Monarchie",
+      "precision": "le roi (manikongo) est choisi parmi les descendants du fondateur et nomme les gouverneurs des provinces"
+    },
+    "langues": { "valeur": "Kikongo" },
+    "religion": { "valeur": "Religion traditionnelle, puis christianisme", "precision": "conversion du roi en 1491" },
+    "apogee": { "valeur": "XVIe siècle", "precision": "voir la fiche « Royaume du Kongo » des Temps modernes" },
+    "population": { "valeur": "Peut-être 2 à 3 millions", "precision": "au XVIe siècle (estimation)" },
+    "monnaie": { "valeur": "Nzimbu", "precision": "petits coquillages contrôlés par le roi ; aussi des étoffes de raphia" },
+    "duree": { "valeur": "Environ un siècle dans cette fiche", "precision": "le royaume dure jusqu’au XIXe siècle" },
+    "aujourdhui": {
+      "valeur": "Angola, République démocratique du Congo, Congo, Gabon",
+      "precision": "autour de l’embouchure du fleuve Congo"
+    }
+  },
+  "essentiel": [
+    "Selon la tradition, le royaume est fondé à la fin du XIVe siècle par Lukeni lua Nimi, qui s’impose à Mbanza Kongo.",
+    "Le roi gouverne des provinces dirigées par des gouverneurs qu’il nomme et révoque.",
+    "L’économie utilise une monnaie de coquillages, le [[nzimbu|nzimbu]], dont le roi contrôle la récolte.",
+    "En 1483, le navigateur portugais Diogo Cão atteint l’embouchure du fleuve : c’est l’[[arrivee-des-portugais-au-kongo|arrivée des Portugais]].",
+    "En 1491, le roi [[nzinga-a-nkuwu|Nzinga a Nkuwu]] se fait baptiser sous le nom de João Ier."
+  ],
+  "periodes": [
+    {
+      "nom": "La formation du royaume",
+      "debut": 1390,
+      "fin": 1483,
+      "resume": "Les rois de Mbanza Kongo soumettent ou s’allient aux chefferies voisines, comme le Nsundi et le Mbata."
+    },
+    {
+      "nom": "Les premiers contacts avec l’Europe",
+      "debut": 1483,
+      "fin": 1492,
+      "resume": "Les Portugais arrivent ; des ambassades sont échangées et le roi se convertit.",
+      "evenements": [
+        { "annee": 1483, "evenement": "Arrivée de Diogo Cão", "ref": "arrivee-des-portugais-au-kongo" },
+        { "annee": 1491, "evenement": "Baptême du roi" }
+      ]
+    }
+  ],
+  "dynasties": [
+    {
+      "id": "manikongo",
+      "nom": "Les premiers rois du Kongo",
+      "debut": 1390,
+      "fin": 1509,
+      "note": "Les premiers rois ne sont connus que par la tradition orale, recueillie au XVIIe siècle ; dates très approximatives."
+    }
+  ],
+  "societe": "Une noblesse issue des descendants du fondateur gouverne les provinces. Les villages de paysans paient tribut en nature. Il existe des esclaves domestiques.",
+  "economie": "Agriculture (mil, sorgho, bananes), tissage du raphia, travail du cuivre et du fer, commerce régional, tribut des provinces.",
+  "decouvertes": ["nzimbu"],
+  "arts": "Étoffes de raphia, ivoires sculptés, objets rituels (minkisi), et plus tard crucifix de laiton mêlant art chrétien et art kongo.",
+  "quotidien": "Les villages sont faits de maisons de bois et de paille. Les marchés, tenus selon une semaine de quatre jours, sont des lieux d’échange et de rencontre.",
+  "heritage": [
+    {
+      "titre": "Mbanza Kongo",
+      "texte": "Les vestiges de la capitale sont inscrits au patrimoine mondial de l’UNESCO depuis 2017."
+    }
+  ],
+  "aSavoir": [
+    "Les premières lettres écrites par un roi africain conservées en Europe sont celles du fils de Nzinga a Nkuwu, Afonso Ier, au XVIe siècle."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Royaume_du_Kongo",
+    {
+      "titre": "Encyclopædia Britannica — Kongo",
+      "url": "https://www.britannica.com/place/Kongo-historical-kingdom-Africa"
+    }
+  ]
+}

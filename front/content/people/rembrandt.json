@@ -1,0 +1,17 @@
+{
+  "id": "rembrandt",
+  "nom": "Rembrandt",
+  "nomComplet": "Rembrandt van Rijn",
+  "role": "Peintre",
+  "roles": ["Peintre", "Graveur"],
+  "dates": "1606 → 1669",
+  "naissance": 1606,
+  "mort": 1669,
+  "description": "Peintre et graveur d’Amsterdam, maître du clair-obscur, célèbre pour ses portraits de groupe, ses scènes bibliques et ses nombreux autoportraits.",
+  "essentiel": [
+    "Il peint La Ronde de nuit (1642), un portrait de groupe d’une milice d’Amsterdam.",
+    "Riche et célèbre, il fait faillite en 1656.",
+    "Ses autoportraits, une centaine, retracent sa vie de la jeunesse à la vieillesse."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Rembrandt"
+}

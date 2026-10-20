@@ -1,0 +1,26 @@
+{
+  "id": "louis-xiv",
+  "nom": "Louis XIV",
+  "role": "Roi de France",
+  "roles": ["Roi"],
+  "dates": "1638 → 1715",
+  "naissance": 1638,
+  "mort": 1715,
+  "description": "Le « Roi-Soleil », roi pendant 72 ans, incarne la monarchie absolue. Il fait de Versailles le centre du pouvoir et de la France la première puissance d’Europe.",
+  "reperes": [{ "label": "Règne", "valeur": "1643 → 1715", "precision": "roi à 4 ans, il gouverne seul à partir de 1661" }],
+  "essentiel": [
+    "Marqué dans son enfance par la Fronde, une révolte des nobles et du parlement, il gouverne sans principal ministre après 1661.",
+    "Il installe la cour au [[chateau-de-versailles|château de Versailles]] en 1682.",
+    "Il mène de nombreuses guerres qui agrandissent le royaume mais ruinent les finances.",
+    "Il révoque l’édit de Nantes en 1685.",
+    "Il protège les artistes : Molière, Racine, Lully, Le Brun."
+  ],
+  "chronologie": [
+    { "annee": 1643, "texte": "Devient roi à 4 ans" },
+    { "annee": 1661, "texte": "Gouverne seul" },
+    { "annee": 1682, "texte": "Installation à Versailles" },
+    { "annee": 1685, "texte": "Révocation de l’édit de Nantes" },
+    { "annee": 1715, "texte": "Mort à Versailles" }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Louis_XIV"
+}

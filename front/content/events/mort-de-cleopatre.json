@@ -1,0 +1,24 @@
+{
+  "id": "mort-de-cleopatre",
+  "nom": "Mort de Cléopâtre et fin de l’Égypte indépendante",
+  "annee": -30,
+  "dates": "août −30",
+  "lieu": "Alexandrie",
+  "description": "Après la défaite d’Actium et l’entrée d’Octave dans Alexandrie, [[cleopatre-vii|Cléopâtre VII]] se donne la mort. L’Égypte passe sous l’autorité directe de Rome.",
+  "sections": [
+    {
+      "titre": "Contexte",
+      "texte": "Alliée de Marc Antoine contre [[auguste|Octave]], Cléopâtre est vaincue avec lui à la bataille navale d’Actium (−31). À l’arrivée d’Octave à Alexandrie, Marc Antoine se donne la mort, peu avant elle."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "L’Égypte devient une possession personnelle de l’empereur, gouvernée par un préfet, et le grenier à blé de Rome."
+    }
+  ],
+  "liens": [{ "ref": "cleopatre-vii", "relation": "La reine" }, { "ref": "auguste", "relation": "Octave, le vainqueur" }],
+  "avant": "conquete-alexandre-egypte",
+  "aSavoir": [
+    "La morsure d’un aspic est la version rapportée par les auteurs antiques ; ils signalent eux-mêmes qu’on ne sait pas exactement comment elle est morte."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Cl%C3%A9op%C3%A2tre_VII"
+}

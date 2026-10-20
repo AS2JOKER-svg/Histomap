@@ -19,7 +19,7 @@
     { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
   ],
   "shortcuts": [
-    { "name": "On avance", "short_name": "Réviser", "url": "./#/reviser", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Réviser", "short_name": "Réviser", "url": "./#/reviser", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
     { "name": "Frise chronologique", "short_name": "Frise", "url": "./#/frise", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
     { "name": "Carte du monde", "short_name": "Carte", "url": "./#/carte", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
   ]

@@ -1,0 +1,17 @@
+{
+  "id": "enrico-dandolo",
+  "nom": "Enrico Dandolo",
+  "role": "Doge de Venise",
+  "roles": ["Doge"],
+  "dates": "vers 1107 → 1205",
+  "naissance": 1107,
+  "mort": 1205,
+  "description": "Doge de Venise, déjà très âgé et presque aveugle, qui négocie le transport de la quatrième croisade puis la détourne vers Zara et Constantinople, au profit de Venise.",
+  "essentiel": [
+    "Élu doge vers 85 ans, en 1192.",
+    "Les croisés, incapables de payer leur transport, acceptent d’aider Venise à prendre Zara, puis de marcher sur Constantinople.",
+    "Après le [[sac-de-constantinople|sac de 1204]], Venise reçoit « un quart et demi » de l’Empire byzantin."
+  ],
+  "aSavoir": ["Il est enterré à Sainte-Sophie de Constantinople, où une plaque marque encore l’emplacement de sa tombe."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Enrico_Dandolo"
+}

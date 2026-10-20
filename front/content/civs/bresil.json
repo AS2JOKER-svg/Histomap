@@ -1,0 +1,274 @@
+{
+  "id": "bresil",
+  "label": "Brésil",
+  "tier": 1,
+  "region": "amerique-sud-est",
+  "period": "1822 à 2020",
+  "start": 1822,
+  "end": 2020,
+  "color": "#1b5e20",
+  "trackId": "bresil",
+  "row": 3,
+  "isRiver": false,
+  "capitale": "Rio de Janeiro / Brasília",
+  "description": "Le plus grand pays d’Amérique latine : un empire indépendant en 1822, le dernier pays des Amériques à abolir l’esclavage, puis une république marquée par des dictatures et la démocratie retrouvée en 1985.",
+  "territories": ["Kingdom of Brazil", "Brazil"],
+  "datesCles": [
+    {
+      "annee": 1822,
+      "evenement": "L’indépendance",
+      "info": "Le prince Pierre refuse de rentrer au Portugal et se proclame empereur du Brésil."
+    },
+    {
+      "annee": 1888,
+      "evenement": "Abolition de l’esclavage",
+      "info": "La loi d’Or (Lei Áurea) fait du Brésil le dernier pays des Amériques à abolir l’esclavage.",
+      "ref": "lei-aurea"
+    },
+    {
+      "annee": 1889,
+      "evenement": "La République",
+      "info": "L’armée, soutenue par des grands propriétaires mécontents de l’abolition, renverse l’empereur Pierre II, qui part en exil."
+    },
+    {
+      "annee": 1930,
+      "evenement": "Révolution de 1930",
+      "info": "Getúlio Vargas prend le pouvoir ; il instaure une dictature, l’Estado Novo, de 1937 à 1945."
+    },
+    {
+      "annee": 1960,
+      "evenement": "Brasília",
+      "info": "Inauguration de la nouvelle capitale, construite en moins de quatre ans au centre du pays."
+    },
+    {
+      "annee": 1964,
+      "evenement": "Coup d’État militaire",
+      "info": "Les militaires prennent le pouvoir pour 21 ans."
+    },
+    {
+      "annee": 1985,
+      "evenement": "Retour de la démocratie",
+      "info": "Un président civil remplace les militaires ; une nouvelle constitution est adoptée en 1988."
+    }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Pierre Ier",
+      "titre": "Empereur",
+      "debut": 1822,
+      "fin": 1831,
+      "dynastie": "bragance",
+      "note": "proclame l’indépendance ; abdique",
+      "cle": true
+    },
+    {
+      "nom": "Pierre II",
+      "titre": "Empereur",
+      "surnom": "le Magnanime",
+      "debut": 1831,
+      "fin": 1889,
+      "dynastie": "bragance",
+      "personne": "pierre-ii-du-bresil",
+      "cle": true
+    },
+    {
+      "nom": "Deodoro da Fonseca",
+      "titre": "Président",
+      "debut": 1889,
+      "fin": 1891,
+      "dynastie": "presidents",
+      "note": "premier président"
+    },
+    {
+      "nom": "Getúlio Vargas",
+      "titre": "Président, puis dictateur",
+      "debut": 1930,
+      "fin": 1945,
+      "dynastie": "presidents",
+      "note": "revient au pouvoir de 1951 à 1954",
+      "cle": true
+    },
+    {
+      "nom": "Juscelino Kubitschek",
+      "titre": "Président",
+      "debut": 1956,
+      "fin": 1961,
+      "dynastie": "presidents",
+      "note": "fait construire Brasília",
+      "cle": true
+    },
+    {
+      "nom": "Humberto Castelo Branco",
+      "titre": "Président (régime militaire)",
+      "debut": 1964,
+      "fin": 1967,
+      "dynastie": "presidents"
+    },
+    { "nom": "Fernando Henrique Cardoso", "titre": "Président", "debut": 1995, "fin": 2003, "dynastie": "presidents" },
+    {
+      "nom": "Luiz Inácio Lula da Silva",
+      "titre": "Président",
+      "debut": 2003,
+      "fin": 2010,
+      "dynastie": "presidents",
+      "note": "réélu en 2022",
+      "cle": true
+    },
+    {
+      "nom": "Dilma Rousseff",
+      "titre": "Présidente",
+      "debut": 2011,
+      "fin": 2016,
+      "dynastie": "presidents",
+      "note": "première femme présidente ; destituée"
+    },
+    {
+      "nom": "Jair Bolsonaro",
+      "titre": "Président",
+      "debut": 2019,
+      "fin": 2020,
+      "dynastie": "presidents",
+      "note": "en fonction en 2020 (jusqu’en 2022)"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Oscar Niemeyer",
+      "role": "Architecte",
+      "description": "Architecte des bâtiments de Brasília, aux formes courbes et audacieuses.",
+      "dates": "1907 → 2012",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Oscar_Niemeyer"
+    },
+    {
+      "nom": "Princesse Isabel",
+      "role": "Régente",
+      "description": "Fille de Pierre II, elle signe la loi d’Or qui abolit l’esclavage en 1888.",
+      "dates": "1846 → 1921",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Isabelle_de_Bragance_(1846-1921)"
+    },
+    {
+      "nom": "Pelé",
+      "role": "Footballeur",
+      "description": "Triple champion du monde (1958, 1962, 1970), l’un des plus grands joueurs de l’histoire du football.",
+      "dates": "1940 → 2022",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Pel%C3%A9"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerre de la Triple Alliance",
+      "annee": 1864,
+      "adversaires": ["Paraguay (Francisco Solano López)"],
+      "allies": ["Argentine", "Uruguay"],
+      "morts": "Le Paraguay perd une grande partie de sa population, peut-être la moitié ou plus (estimations très discutées)",
+      "vainqueur": "Brésil et ses alliés",
+      "consequences": "Guerre de 1864 à 1870. Le Paraguay est dévasté et perd des territoires ; l’armée brésilienne, renforcée, joue ensuite un rôle politique.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_de_la_Triple-Alliance"
+    }
+  ],
+  "sciences": "Le Brésil devient un grand producteur agricole grâce à la recherche agronomique (Embrapa) et développe une industrie aéronautique (Embraer). Il produit des biocarburants à partir de la canne à sucre et exploite du pétrole en mer profonde.",
+  "croyancesText": "Le catholicisme est la religion de la majorité, mais les Églises évangéliques progressent fortement depuis les années 1980. Les religions afro-brésiliennes, comme le candomblé, héritées des esclaves, restent vivantes. L’État est laïque depuis la république (1891).",
+  "diplomatie": "Le Brésil s’agrandit par des traités avec ses voisins et gagne la guerre de la Triple Alliance contre le Paraguay. Il participe à la Seconde Guerre mondiale aux côtés des Alliés. Puissance émergente, il fait partie des BRICS et accueille la Coupe du monde (2014) et les Jeux olympiques (2016).",
+  "documentaires": [],
+  "reperes": {
+    "capitale": { "valeur": "Rio de Janeiro, puis Brasília", "precision": "Brasília depuis 1960" },
+    "regimes": {
+      "valeur": "Empire, puis république",
+      "precision": "empire (1822-1889), république avec dictatures (1937-1945, 1964-1985)"
+    },
+    "langues": { "valeur": "Portugais", "precision": "avec plus de 150 langues indigènes" },
+    "religion": {
+      "valeur": "Catholicisme majoritaire",
+      "precision": "forte croissance des Églises évangéliques ; cultes afro-brésiliens"
+    },
+    "apogee": { "valeur": "Années 2000", "precision": "grande puissance émergente" },
+    "population": { "valeur": "Environ 212 millions en 2020", "precision": "contre 4,5 millions en 1822" },
+    "monnaie": { "valeur": "Réal", "precision": "depuis 1994" },
+    "duree": { "valeur": "Environ 200 ans dans cette fiche" },
+    "aujourdhui": { "valeur": "Brésil" }
+  },
+  "essentiel": [
+    "En 1822, le prince Pierre refuse de rentrer au Portugal et proclame l’indépendance : il devient empereur du Brésil.",
+    "Son fils [[pierre-ii-du-bresil|Pierre II]] règne près de cinquante ans ; la [[lei-aurea|loi d’Or]] abolit l’esclavage en 1888.",
+    "En 1889, l’armée renverse l’empereur et proclame la république.",
+    "Getúlio Vargas gouverne longtemps, en partie comme dictateur ; [[brasilia|Brasília]], nouvelle capitale, est inaugurée en 1960.",
+    "Après une dictature militaire (1964-1985), le Brésil redevient une démocratie et une grande puissance économique."
+  ],
+  "periodes": [
+    {
+      "nom": "L’Empire du Brésil",
+      "debut": 1822,
+      "fin": 1889,
+      "resume": "Le Brésil reste une monarchie, contrairement à ses voisins. Son économie repose sur le café et le travail des esclaves, aboli seulement en 1888.",
+      "evenements": [
+        { "annee": 1864, "evenement": "Guerre contre le Paraguay" },
+        { "annee": 1888, "evenement": "Loi d’Or", "ref": "lei-aurea" }
+      ]
+    },
+    {
+      "nom": "La république des oligarchies et Vargas",
+      "debut": 1889,
+      "fin": 1964,
+      "resume": "Les grands propriétaires dominent la république ; Vargas modernise et industrialise le pays. Brasília est construite.",
+      "evenements": [
+        { "annee": 1930, "evenement": "Arrivée de Vargas" },
+        { "annee": 1954, "evenement": "Suicide de Vargas" },
+        { "annee": 1960, "evenement": "Inauguration de Brasília" }
+      ]
+    },
+    {
+      "nom": "Dictature et démocratie",
+      "debut": 1964,
+      "fin": 2020,
+      "resume": "La dictature militaire (1964-1985) réprime les opposants. La démocratie revenue, le Brésil réduit la pauvreté mais traverse des crises politiques.",
+      "evenements": [
+        { "annee": 1985, "evenement": "Fin de la dictature" },
+        { "annee": 2003, "evenement": "Élection de Lula" },
+        { "annee": 2016, "evenement": "Destitution de Dilma Rousseff" }
+      ]
+    }
+  ],
+  "regimes": [
+    { "id": "empire", "nom": "Empire du Brésil", "debut": 1822, "fin": 1889 },
+    {
+      "id": "republique",
+      "nom": "République",
+      "debut": 1889,
+      "fin": 2020,
+      "note": "Avec deux dictatures : l’Estado Novo de Vargas (1937-1945) et le régime militaire (1964-1985)."
+    }
+  ],
+  "dynasties": [
+    { "id": "bragance", "nom": "Les empereurs (maison de Bragance)", "debut": 1822, "fin": 1889, "regime": "empire" },
+    {
+      "id": "presidents",
+      "nom": "Présidents de la République",
+      "debut": 1889,
+      "fin": 2020,
+      "regime": "republique",
+      "note": "Sélection."
+    }
+  ],
+  "societe": "Plus de 4 millions d’Africains ont été déportés au Brésil comme esclaves, davantage que dans tout autre pays. La société métissée reste marquée par de fortes inégalités. Le pays accueille aussi des millions d’immigrants européens et japonais.",
+  "economie": "Café et caoutchouc au XIXe siècle, puis industrie ; aujourd’hui, l’un des premiers producteurs mondiaux de soja, de viande, de minerai de fer et de sucre.",
+  "decouvertes": ["brasilia"],
+  "arts": "Samba et bossa nova, carnaval de Rio, architecture moderne de Niemeyer, littérature de Machado de Assis et Jorge Amado.",
+  "quotidien": "Le football et le carnaval sont des passions nationales. Une grande partie de la population vit dans les grandes villes, dont beaucoup dans des favelas.",
+  "heritage": [
+    { "titre": "Brasília", "texte": "La capitale moderniste est inscrite au patrimoine mondial." },
+    {
+      "titre": "Une culture métissée",
+      "texte": "Samba, capoeira et cuisine brésilienne mêlent héritages africains, européens et amérindiens."
+    }
+  ],
+  "aSavoir": [
+    "La forêt amazonienne, dont 60 % se trouve au Brésil, a perdu environ un cinquième de sa surface depuis les années 1970."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Histoire_du_Br%C3%A9sil",
+    {
+      "titre": "Encyclopædia Britannica — Brazil, history",
+      "url": "https://www.britannica.com/place/Brazil/History"
+    }
+  ]
+}

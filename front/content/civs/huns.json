@@ -1,0 +1,287 @@
+{
+  "documentaires": [],
+  "decouvertes": [],
+  "id": "huns",
+  "label": "Huns",
+  "tier": 1,
+  "region": "europe-centrale",
+  "period": "vers 370 à 469",
+  "start": 370,
+  "end": 469,
+  "color": "#37474f",
+  "trackId": "scythes",
+  "row": 9,
+  "isRiver": false,
+  "capitale": "Camp royal d’Attila (plaine de Hongrie)",
+  "description": "Des cavaliers nomades venus des steppes d’Asie centrale, dont l’arrivée en Europe vers 370 bouleverse l’Empire romain ; sous Attila, ils dominent l’Europe centrale avant de disparaître en quelques années.",
+  "territories": ["Hunnic Empire"],
+  "reperes": {
+    "capitale": {
+      "valeur": "Camp royal d’Attila",
+      "precision": "village de bois dans la plaine de Hongrie, décrit par Priscus ; emplacement inconnu"
+    },
+    "regimes": {
+      "valeur": "Confédération de peuples",
+      "precision": "dirigée par des rois ; Attila règne d’abord avec son frère Bleda"
+    },
+    "langues": { "valeur": "Hunnique", "precision": "langue presque inconnue ; à la cour on parle aussi gotique et latin" },
+    "religion": {
+      "valeur": "Croyances des steppes",
+      "precision": "mal connues ; des devins consultent les présages avant les batailles"
+    },
+    "apogee": { "valeur": "Règne d’Attila (434 → 453)" },
+    "population": { "valeur": "Inconnue", "precision": "les Huns sont une minorité au milieu des peuples qu’ils dominent" },
+    "monnaie": { "valeur": "Or romain", "precision": "versé en tribut par l’Empire d’Orient" },
+    "duree": { "valeur": "Environ un siècle en Europe" },
+    "aujourdhui": { "valeur": "Hongrie", "precision": "ainsi que l’Ukraine, la Roumanie et le sud de la Russie" }
+  },
+  "essentiel": [
+    "Venus des steppes d’Asie, les Huns apparaissent au nord de la mer Noire vers 370 et soumettent les Alains puis une partie des Goths.",
+    "Pour leur échapper, les Goths demandent à entrer dans l’Empire romain en 376 : c’est le début des grandes migrations qui ébranlent Rome.",
+    "Installé dans la plaine de Hongrie, [[attila|Attila]] (434-453) domine de nombreux peuples et impose à l’Empire d’Orient un énorme tribut en or.",
+    "En 451, il envahit la Gaule mais il est arrêté par [[aetius|Aetius]] et les Wisigoths à la [[bataille-des-champs-catalauniques|bataille des champs Catalauniques]] ; en 452, il ravage l’Italie du Nord.",
+    "Après sa mort (453), ses fils se disputent l’empire, qui s’effondre après la [[bataille-de-la-nedao|bataille de la Nedao]] (454)."
+  ],
+  "datesCles": [
+    {
+      "annee": 370,
+      "evenement": "Arrivée en Europe",
+      "info": "Vers 370, les Huns battent les Alains au nord du Caucase, puis le royaume goth d’Ermanaric."
+    },
+    {
+      "annee": 376,
+      "evenement": "Les Goths franchissent le Danube",
+      "info": "Fuyant les Huns, des dizaines de milliers de Goths demandent asile à l’Empire romain."
+    },
+    {
+      "annee": 395,
+      "evenement": "Raid vers l’Orient",
+      "info": "Des Huns franchissent le Caucase et ravagent l’Arménie, la Syrie et la Cappadoce."
+    },
+    { "annee": 434, "evenement": "Attila et Bleda rois", "info": "Les deux frères succèdent à leur oncle Rua." },
+    {
+      "annee": 447,
+      "evenement": "Tribut de l’Orient",
+      "info": "Après une invasion des Balkans, l’Empire d’Orient s’engage à verser chaque année plus de 2 000 livres d’or."
+    },
+    {
+      "annee": 451,
+      "evenement": "Champs Catalauniques",
+      "info": "En Gaule, Attila est arrêté par les Romains d’Aetius et les Wisigoths.",
+      "ref": "bataille-des-champs-catalauniques"
+    },
+    {
+      "annee": 452,
+      "evenement": "Invasion de l’Italie",
+      "info": "Attila détruit Aquilée, puis se retire après avoir reçu une ambassade conduite par le pape Léon Ier."
+    },
+    {
+      "annee": 453,
+      "evenement": "Mort d’Attila",
+      "info": "Il meurt pendant la nuit de ses noces, sans doute d’une hémorragie."
+    },
+    {
+      "annee": 454,
+      "evenement": "Bataille de la Nedao",
+      "info": "Les peuples soumis, menés par les Gépides, se révoltent et battent les fils d’Attila.",
+      "ref": "bataille-de-la-nedao"
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "L’arrivée en Europe",
+      "debut": 370,
+      "fin": 420,
+      "resume": "Les Huns soumettent les Alains et une partie des Goths, poussent d’autres peuples vers l’Empire romain et lancent des raids dans les Balkans et en Orient.",
+      "evenements": [
+        { "annee": 376, "evenement": "Les Goths franchissent le Danube" },
+        { "annee": 395, "evenement": "Raid en Arménie et en Syrie" },
+        { "annee": 408, "evenement": "Raid d’Uldin en Thrace" }
+      ]
+    },
+    {
+      "nom": "L’empire d’Attila",
+      "debut": 420,
+      "fin": 453,
+      "resume": "Depuis la plaine de Hongrie, Rua puis Attila dominent de nombreux peuples et rançonnent l’Empire d’Orient avant d’attaquer l’Occident.",
+      "evenements": [
+        { "annee": 434, "evenement": "Attila et Bleda rois" },
+        { "annee": 451, "evenement": "Champs Catalauniques", "ref": "bataille-des-champs-catalauniques" },
+        { "annee": 452, "evenement": "Invasion de l’Italie" }
+      ]
+    },
+    {
+      "nom": "L’effondrement",
+      "debut": 453,
+      "fin": 469,
+      "resume": "Les fils d’Attila se divisent ; les peuples soumis se libèrent et les derniers Huns se dispersent.",
+      "evenements": [
+        { "annee": 454, "evenement": "Bataille de la Nedao", "ref": "bataille-de-la-nedao" },
+        { "annee": 469, "evenement": "Mort de Dengizich" }
+      ]
+    }
+  ],
+  "regimes": [{ "id": "confederation", "nom": "Confédération hunnique", "debut": 370, "fin": 469 }],
+  "dynasties": [
+    {
+      "id": "rois",
+      "nom": "Rois des Huns",
+      "debut": 400,
+      "fin": 469,
+      "regime": "confederation",
+      "note": "Dates souvent approximatives."
+    }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Uldin",
+      "titre": "Roi",
+      "debut": 400,
+      "fin": 412,
+      "dynastie": "rois",
+      "note": "allié puis ennemi de l’Empire d’Orient",
+      "cle": true
+    },
+    {
+      "nom": "Charaton",
+      "titre": "Roi",
+      "debut": 412,
+      "fin": 412,
+      "dynastie": "rois",
+      "note": "cité par l’historien Olympiodore"
+    },
+    { "nom": "Octar", "titre": "Roi", "debut": 420, "fin": 430, "dynastie": "rois", "note": "règne avec son frère Rua" },
+    {
+      "nom": "Rua",
+      "titre": "Roi",
+      "debut": 425,
+      "fin": 434,
+      "dynastie": "rois",
+      "note": "oncle d’Attila et de Bleda",
+      "cle": true
+    },
+    {
+      "nom": "Bleda",
+      "titre": "Roi",
+      "debut": 434,
+      "fin": 445,
+      "dynastie": "rois",
+      "note": "règne avec son frère Attila, qui le fait sans doute tuer"
+    },
+    {
+      "nom": "Attila",
+      "titre": "Roi",
+      "surnom": "le Fléau de Dieu",
+      "debut": 434,
+      "fin": 453,
+      "dynastie": "rois",
+      "personne": "attila",
+      "cle": true
+    },
+    {
+      "nom": "Ellac",
+      "titre": "Roi",
+      "debut": 453,
+      "fin": 454,
+      "dynastie": "rois",
+      "note": "fils aîné d’Attila, tué à la Nedao"
+    },
+    {
+      "nom": "Dengizich",
+      "titre": "Roi",
+      "debut": 454,
+      "fin": 469,
+      "dynastie": "rois",
+      "note": "fils d’Attila, tué par une armée romaine",
+      "cle": true
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Attila",
+      "role": "Roi des Huns",
+      "description": "Le plus célèbre des chefs huns, qui menace à la fois l’Empire romain d’Orient et celui d’Occident.",
+      "dates": "vers 395 → 453",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Attila",
+      "ref": "attila"
+    },
+    {
+      "nom": "Aetius",
+      "role": "Général romain",
+      "description": "Ancien otage chez les Huns, il les emploie longtemps comme mercenaires, puis les arrête aux champs Catalauniques.",
+      "dates": "vers 391 → 454",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/A%C3%A9tius",
+      "ref": "aetius"
+    },
+    {
+      "nom": "Priscus",
+      "role": "Diplomate et historien",
+      "description": "Membre d’une ambassade de Constantinople en 449, il laisse la seule description directe de la cour d’Attila.",
+      "dates": "Ve siècle",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Priscus_(historien)"
+    },
+    {
+      "nom": "Honoria",
+      "role": "Princesse romaine",
+      "description": "Sœur de l’empereur Valentinien III, elle envoie son anneau à Attila en 450 pour échapper à un mariage forcé ; Attila y voit une demande en mariage et réclame une dot.",
+      "dates": "vers 418 → après 450",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Justa_Grata_Honoria"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Bataille des champs Catalauniques",
+      "annee": 451,
+      "adversaires": ["Empire romain d’Occident (Aetius)", "Wisigoths (Théodoric Ier)", "Francs", "Alains"],
+      "allies": ["Ostrogoths", "Gépides", "autres peuples soumis"],
+      "morts": "Très nombreux mais inconnus ; les 165 000 morts cités par Jordanès sont exagérés",
+      "vainqueur": "Romains et Wisigoths (Attila se retire)",
+      "consequences": "Le roi wisigoth Théodoric Ier est tué. Attila se retire de Gaule, mais revient l’année suivante en Italie.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_des_champs_Catalauniques"
+    },
+    {
+      "nom": "Invasion de l’Italie par Attila",
+      "annee": 452,
+      "adversaires": ["Empire romain d’Occident"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Huns (qui se retirent)",
+      "consequences": "Aquilée est détruite, Milan et Pavie pillées. Attila se retire, peut-être à cause de la famine, des épidémies et d’une attaque de l’Empire d’Orient ; la tradition retient la rencontre avec le pape Léon Ier.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Attila"
+    },
+    {
+      "nom": "Bataille de la Nedao",
+      "annee": 454,
+      "adversaires": ["Gépides (Ardaric)", "Ostrogoths et autres peuples révoltés"],
+      "allies": [],
+      "morts": "Selon Jordanès, 30 000 Huns et alliés, dont Ellac",
+      "vainqueur": "Gépides et peuples révoltés",
+      "consequences": "L’empire hunnique s’effondre : les peuples soumis retrouvent leur indépendance et s’installent en Pannonie.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_la_Nedao"
+    }
+  ],
+  "sciences": "Les Huns sont des archers à cheval redoutables, armés d’un arc composite asymétrique, plus long au-dessus de la poignée qu’en dessous, très puissant. Selon Ammien Marcellin, ils capturent aussi leurs ennemis au lasso. Ils emploient des ingénieurs romains pour les sièges, comme à Naissus en 442.",
+  "croyancesText": "Les croyances des Huns sont mal connues : les auteurs romains mentionnent des devins qui lisent l’avenir dans les entrailles et les os des animaux avant les batailles. À la mort d’Attila, selon Jordanès, ses guerriers se tailladent le visage, chantent ses exploits et l’enterrent en secret dans trois cercueils d’or, d’argent et de fer.",
+  "diplomatie": "Les Huns tirent leur richesse des tributs : par les traités de Margus (435) puis d’Anatolius (447), l’Empire romain d’Orient leur verse des centaines de kilos d’or chaque année. Ils servent aussi de mercenaires à l’Empire d’Occident, notamment pour le général Aetius.",
+  "societe": "L’empire hunnique rassemble de nombreux peuples soumis, Alains, Ostrogoths, Gépides, Ruges, qui combattent pour leurs maîtres. Priscus décrit la cour d’Attila, où l’on parle hunnique, gotique et latin, et où des Romains servent de secrétaires.",
+  "economie": "Tributs en or, pillage, rançons de prisonniers, élevage.",
+  "arts": "Bijoux et diadèmes en or incrustés de grenats, grands chaudrons de bronze, harnais décorés.",
+  "quotidien": "Lors d’un banquet en 449, Priscus remarque qu’Attila mange dans une assiette de bois et boit dans une coupe de bois, alors que ses invités utilisent de la vaisselle d’or et d’argent.",
+  "heritage": [
+    {
+      "titre": "Attila dans les légendes",
+      "texte": "Attila devient Etzel dans la Chanson des Nibelungen et Atli dans les sagas scandinaves ; les chrétiens le surnomment le « fléau de Dieu »."
+    },
+    {
+      "titre": "La fondation de Venise",
+      "texte": "Selon la tradition, des habitants de la région d’Aquilée se réfugient dans les lagunes pour fuir Attila."
+    }
+  ],
+  "aSavoir": [
+    "La Hongrie ne doit pas son nom aux Huns : les Hongrois, arrivés à la fin du IXe siècle, sont un autre peuple, même si des légendes les ont rattachés à Attila."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Huns",
+    { "titre": "Encyclopædia Britannica — Hun", "url": "https://www.britannica.com/topic/Hun-people" }
+  ]
+}

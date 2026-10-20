@@ -1,0 +1,19 @@
+{
+  "id": "bataille-d-alalia",
+  "nom": "Bataille d’Alalia",
+  "annee": -540,
+  "dates": "vers −540",
+  "lieu": "Mer Tyrrhénienne, au large de la Corse",
+  "description": "Une flotte d’Étrusques et de Carthaginois affronte les Grecs de Phocée installés à Alalia, en Corse : l’une des plus anciennes batailles navales connues en Méditerranée occidentale.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Selon Hérodote, 60 navires grecs affrontent une flotte deux fois plus nombreuse. Les Grecs l’emportent, mais perdent la plupart de leurs navires."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Les Phocéens quittent la Corse pour l’Italie du Sud. Étrusques et Carthaginois se partagent l’influence dans la région."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_d%27Alalia"
+}

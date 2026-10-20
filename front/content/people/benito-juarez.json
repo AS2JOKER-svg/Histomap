@@ -1,0 +1,18 @@
+{
+  "id": "benito-juarez",
+  "nom": "Benito Juárez",
+  "role": "Président du Mexique",
+  "roles": ["Avocat", "Président"],
+  "dates": "1806 → 1872",
+  "naissance": 1806,
+  "mort": 1872,
+  "description": "Né dans une famille zapotèque pauvre, il devient le premier président d’origine indigène du Mexique, sépare l’Église et l’État et résiste à l’intervention française.",
+  "reperes": [{ "label": "Président", "valeur": "1858 → 1872" }],
+  "essentiel": [
+    "Orphelin, il ne parle que le zapotèque jusqu’à 12 ans.",
+    "Ses lois de Réforme confisquent les biens de l’Église et instaurent le mariage civil.",
+    "Il dirige la résistance contre l’empereur Maximilien, fusillé en 1867.",
+    "Sa phrase « Le respect du droit d’autrui, c’est la paix » est célèbre au Mexique."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Benito_Ju%C3%A1rez"
+}

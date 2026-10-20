@@ -1,0 +1,266 @@
+{
+  "documentaires": [],
+  "decouvertes": [],
+  "id": "hetmanat-cosaque",
+  "label": "Hetmanat cosaque",
+  "tier": 2,
+  "region": "europe-est",
+  "period": "1648 à 1764",
+  "start": 1648,
+  "end": 1764,
+  "color": "#5c6bc0",
+  "trackId": "cosaques",
+  "row": 1,
+  "isRiver": false,
+  "capitale": "Tchyhyryne, puis Batouryn et Hloukhiv",
+  "description": "L’État des Cosaques d’Ukraine, né en 1648 du soulèvement de Bohdan Khmelnytsky contre la Pologne-Lituanie, placé sous la protection du tsar, puis peu à peu absorbé par l’Empire russe.",
+  "territories": [],
+  "reperes": {
+    "capitale": { "valeur": "Tchyhyryne", "precision": "puis Batouryn (1669-1708) et Hloukhiv" },
+    "regimes": {
+      "valeur": "État cosaque",
+      "precision": "dirigé par un hetman élu ; sous protection du tsar à partir de 1654, avec une autonomie qui se réduit"
+    },
+    "langues": { "valeur": "Ukrainien", "precision": "appelé alors ruthène ; le latin et le polonais servent aussi" },
+    "religion": { "valeur": "Christianisme orthodoxe" },
+    "apogee": { "valeur": "Hetmanats de Khmelnytsky et de Mazepa" },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": { "valeur": "Aucune propre", "precision": "monnaies polonaises, russes et ottomanes" },
+    "duree": { "valeur": "Environ 115 ans" },
+    "aujourdhui": { "valeur": "Ukraine", "precision": "surtout le centre et la rive gauche du Dniepr" }
+  },
+  "essentiel": [
+    "Les Cosaques sont des communautés libres de cavaliers et de paysans soldats installés sur les steppes du Dniepr, autour de la Sitch zaporogue, une forteresse au-delà des rapides.",
+    "En 1648, [[bohdan-khmelnytsky|Bohdan Khmelnytsky]] soulève les Cosaques et les paysans contre la Pologne-Lituanie : c’est la naissance de l’Hetmanat. Le soulèvement s’accompagne de massacres, notamment de nombreux Juifs.",
+    "En 1654, par l’[[accord-de-pereiaslav|accord de Pereïaslav]], l’Hetmanat se place sous la protection du tsar ; l’Ukraine est ensuite partagée le long du Dniepr entre la Pologne et la Russie (1667).",
+    "L’hetman [[ivan-mazepa|Ivan Mazepa]] s’allie au roi de Suède contre Pierre le Grand, mais il est battu à [[bataille-de-poltava|Poltava]] (1709).",
+    "La Russie réduit peu à peu son autonomie : Catherine II supprime la charge d’hetman en 1764, puis détruit la Sitch zaporogue en 1775."
+  ],
+  "datesCles": [
+    {
+      "annee": 1648,
+      "evenement": "Soulèvement de Khmelnytsky",
+      "info": "Les Cosaques, alliés aux Tatars de Crimée, battent les armées polonaises.",
+      "ref": "soulevement-de-khmelnytsky"
+    },
+    {
+      "annee": 1651,
+      "evenement": "Défaite de Berestetchko",
+      "info": "Abandonnés par leurs alliés tatars, les Cosaques sont battus par l’armée polonaise."
+    },
+    {
+      "annee": 1654,
+      "evenement": "Accord de Pereïaslav",
+      "info": "L’Hetmanat se place sous la protection du tsar de Russie.",
+      "ref": "accord-de-pereiaslav"
+    },
+    {
+      "annee": 1667,
+      "evenement": "Partage de l’Ukraine",
+      "info": "Par la trêve d’Androussovo, la rive gauche du Dniepr et Kiev reviennent à la Russie, la rive droite à la Pologne."
+    },
+    {
+      "annee": 1687,
+      "evenement": "Ivan Mazepa hetman",
+      "info": "Il gouverne plus de vingt ans et fait construire de nombreuses églises."
+    },
+    {
+      "annee": 1709,
+      "evenement": "Poltava",
+      "info": "Allié de Charles XII, Mazepa est vaincu ; Batouryn, sa capitale, a été rasée par les Russes l’année précédente.",
+      "ref": "bataille-de-poltava"
+    },
+    {
+      "annee": 1710,
+      "evenement": "Constitution de Pylyp Orlyk",
+      "info": "En exil, le successeur de Mazepa rédige un texte qui limite les pouvoirs de l’hetman."
+    },
+    { "annee": 1764, "evenement": "Fin de l’Hetmanat", "info": "Catherine II supprime la charge d’hetman." }
+  ],
+  "periodes": [
+    {
+      "nom": "La révolte et la naissance de l’Hetmanat",
+      "debut": 1648,
+      "fin": 1657,
+      "resume": "Khmelnytsky libère une grande partie de l’Ukraine de la domination polonaise et cherche des alliés : Tatars, Ottomans, puis tsar de Russie.",
+      "evenements": [
+        { "annee": 1648, "evenement": "Soulèvement", "ref": "soulevement-de-khmelnytsky" },
+        { "annee": 1654, "evenement": "Pereïaslav", "ref": "accord-de-pereiaslav" }
+      ]
+    },
+    {
+      "nom": "La Ruine",
+      "debut": 1657,
+      "fin": 1687,
+      "resume": "Guerres civiles et interventions polonaises, russes et ottomanes dévastent le pays, partagé le long du Dniepr.",
+      "evenements": [{ "annee": 1667, "evenement": "Trêve d’Androussovo" }]
+    },
+    {
+      "nom": "L’Hetmanat sous tutelle russe",
+      "debut": 1687,
+      "fin": 1764,
+      "resume": "Après Mazepa et Poltava, Saint-Pétersbourg contrôle de plus en plus l’Hetmanat, jusqu’à sa suppression.",
+      "evenements": [
+        { "annee": 1709, "evenement": "Poltava", "ref": "bataille-de-poltava" },
+        { "annee": 1722, "evenement": "Création du « collège de Petite-Russie »" },
+        { "annee": 1764, "evenement": "Suppression de l’Hetmanat" }
+      ]
+    }
+  ],
+  "regimes": [
+    {
+      "id": "hetmanat",
+      "nom": "Hetmanat de l’armée zaporogue",
+      "debut": 1648,
+      "fin": 1764,
+      "note": "Sous protection du tsar à partir de 1654."
+    }
+  ],
+  "dynasties": [
+    {
+      "id": "hetmans",
+      "nom": "Les hetmans",
+      "debut": 1648,
+      "fin": 1764,
+      "note": "Sélection ; pendant la Ruine, des hetmans rivaux se partagent le pays."
+    }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Bohdan Khmelnytsky",
+      "titre": "Hetman",
+      "debut": 1648,
+      "fin": 1657,
+      "dynastie": "hetmans",
+      "personne": "bohdan-khmelnytsky",
+      "cle": true
+    },
+    {
+      "nom": "Ivan Vyhovsky",
+      "titre": "Hetman",
+      "debut": 1657,
+      "fin": 1659,
+      "dynastie": "hetmans",
+      "note": "se rapproche de la Pologne"
+    },
+    {
+      "nom": "Iouri Khmelnytsky",
+      "titre": "Hetman",
+      "debut": 1659,
+      "fin": 1663,
+      "dynastie": "hetmans",
+      "note": "fils de Bohdan"
+    },
+    {
+      "nom": "Petro Dorochenko",
+      "titre": "Hetman de la rive droite",
+      "debut": 1665,
+      "fin": 1676,
+      "dynastie": "hetmans",
+      "note": "s’allie aux Ottomans",
+      "cle": true
+    },
+    {
+      "nom": "Ivan Samoïlovytch",
+      "titre": "Hetman de la rive gauche",
+      "debut": 1672,
+      "fin": 1687,
+      "dynastie": "hetmans"
+    },
+    {
+      "nom": "Ivan Mazepa",
+      "titre": "Hetman",
+      "debut": 1687,
+      "fin": 1709,
+      "dynastie": "hetmans",
+      "personne": "ivan-mazepa",
+      "cle": true
+    },
+    {
+      "nom": "Ivan Skoropadsky",
+      "titre": "Hetman",
+      "debut": 1708,
+      "fin": 1722,
+      "dynastie": "hetmans",
+      "note": "nommé avec l’accord de Pierre le Grand"
+    },
+    { "nom": "Danylo Apostol", "titre": "Hetman", "debut": 1727, "fin": 1734, "dynastie": "hetmans" },
+    {
+      "nom": "Kyrylo Rozoumovsky",
+      "titre": "Hetman",
+      "debut": 1750,
+      "fin": 1764,
+      "dynastie": "hetmans",
+      "note": "dernier hetman",
+      "cle": true
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Bohdan Khmelnytsky",
+      "role": "Hetman",
+      "description": "Le chef du soulèvement de 1648 et fondateur de l’Hetmanat.",
+      "dates": "vers 1595 → 1657",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bohdan_Khmelnytsky",
+      "ref": "bohdan-khmelnytsky"
+    },
+    {
+      "nom": "Pylyp Orlyk",
+      "role": "Hetman en exil",
+      "description": "Successeur de Mazepa en exil, il rédige en 1710 une constitution qui sépare les pouvoirs de l’hetman et du conseil des Cosaques.",
+      "dates": "1672 → 1742",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Pylyp_Orlyk"
+    },
+    {
+      "nom": "Ivan Sirko",
+      "role": "Chef des Cosaques zaporogues",
+      "description": "Chef réputé de la Sitch zaporogue, il mène de nombreuses expéditions contre les Tatars et les Ottomans.",
+      "dates": "vers 1610 → 1680",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Ivan_Sirko"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Soulèvement de Khmelnytsky",
+      "annee": 1648,
+      "adversaires": ["République des Deux Nations (Pologne-Lituanie)"],
+      "allies": ["Khanat de Crimée (jusqu’en 1651)"],
+      "morts": "Des dizaines de milliers ; parmi les victimes, de nombreux Juifs, des nobles polonais et des paysans",
+      "vainqueur": "Aucun vainqueur net",
+      "consequences": "Les Cosaques fondent un État, mais ne peuvent l’emporter seuls sur la Pologne : ils se placent sous la protection du tsar en 1654.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Soul%C3%A8vement_de_Khmelnytsky"
+    },
+    {
+      "nom": "Guerre russo-polonaise de 1654-1667",
+      "annee": 1654,
+      "adversaires": ["Pologne-Lituanie"],
+      "allies": ["Tsarat de Russie"],
+      "morts": "Inconnues, très élevées",
+      "vainqueur": "Russie",
+      "consequences": "La trêve d’Androussovo (1667) partage l’Ukraine : la rive gauche du Dniepr et Kiev passent à la Russie.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_russo-polonaise_(1654-1667)"
+    }
+  ],
+  "sciences": "L’Académie de Kiev, fondée par le métropolite Pierre Mohyla (1632) et soutenue par les hetmans, est alors le principal établissement d’enseignement supérieur du monde orthodoxe. Ses élèves deviendront des savants et des hommes d’Église jusqu’en Russie.",
+  "croyancesText": "Les Cosaques sont des défenseurs de l’orthodoxie face à la Pologne catholique et à l’Empire ottoman musulman. Mazepa fait construire et restaurer de nombreuses églises de style « baroque cosaque », à Kiev et ailleurs.",
+  "diplomatie": "L’Hetmanat cherche toujours un protecteur pour résister à la Pologne : le khan de Crimée, le sultan ottoman, le tsar de Russie, le roi de Suède. L’accord de Pereïaslav (1654) le lie à la Russie, mais Cosaques et Russes ne l’interprètent pas de la même façon.",
+  "societe": "Les Cosaques élisent leurs chefs et leur hetman lors de conseils, la rada. Peu à peu, une élite d’officiers cosaques acquiert des terres et devient une noblesse, tandis que les paysans retombent dans la dépendance.",
+  "economie": "Agriculture sur les terres fertiles d’Ukraine, élevage, pêche et chasse sur le Dniepr, butin des expéditions.",
+  "arts": "Églises au « baroque cosaque », icônes, chants épiques des kobzars (dumy).",
+  "quotidien": "À la Sitch zaporogue, seuls les hommes sont admis ; ils vivent dans de grandes maisons communes, les kourènes.",
+  "heritage": [
+    {
+      "titre": "Un symbole national",
+      "texte": "L’Hetmanat et les Cosaques occupent une place centrale dans la mémoire nationale ukrainienne."
+    },
+    {
+      "titre": "La lettre des Cosaques",
+      "texte": "Une lettre insolente que les Zaporogues auraient adressée au sultan, sans doute légendaire, a inspiré au peintre Ilia Répine un tableau célèbre (1880-1891)."
+    }
+  ],
+  "aSavoir": ["Le mot « cosaque » vient d’un mot turc qui signifie « homme libre » ou « vagabond »."],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Hetmanat_cosaque",
+    { "titre": "Encyclopædia Britannica — Cossack", "url": "https://www.britannica.com/topic/Cossack" }
+  ]
+}

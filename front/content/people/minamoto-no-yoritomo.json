@@ -1,0 +1,17 @@
+{
+  "id": "minamoto-no-yoritomo",
+  "nom": "Minamoto no Yoritomo",
+  "role": "Premier shogun",
+  "roles": ["Chef de clan", "Shogun"],
+  "dates": "1147 → 1199",
+  "naissance": 1147,
+  "mort": 1199,
+  "description": "Chef du clan Minamoto, il bat le clan Taira lors de la guerre de Genpei et fonde à Kamakura le premier shogunat, gouvernement des guerriers qui dirigera le Japon pendant près de sept siècles sous différentes formes.",
+  "essentiel": [
+    "Exilé enfant après la défaite de son père, il prend la tête de la révolte contre les Taira en 1180.",
+    "Après la [[guerre-de-genpei|guerre de Genpei]], il installe son gouvernement à Kamakura.",
+    "L’empereur le nomme shogun en 1192.",
+    "Il élimine ses rivaux, dont son propre demi-frère Yoshitsune."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Minamoto_no_Yoritomo"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "grand-trek",
+  "nom": "Grand Trek",
+  "annee": 1835,
+  "fin": 1846,
+  "dates": "vers 1835 → 1846",
+  "lieu": "De la colonie du Cap vers l’intérieur de l’Afrique australe",
+  "description": "Des milliers de Boers, colons d’origine surtout néerlandaise, quittent avec leurs chariots la colonie du Cap, hostiles à l’administration britannique et à l’abolition de l’esclavage (1834).",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "Les Voortrekkers affrontent les peuples africains, dont les Zoulous de Dingane, battus à Blood River (1838). Ils fondent le Transvaal et l’État libre d’Orange. Le Grand Trek devient un mythe fondateur du nationalisme afrikaner."
+    }
+  ],
+  "apres": "seconde-guerre-des-boers",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Grand_Trek"
+}

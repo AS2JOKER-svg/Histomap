@@ -1,0 +1,20 @@
+{
+  "id": "bataille-de-baideng",
+  "nom": "Bataille de Baideng",
+  "annee": -200,
+  "dates": "hiver −200",
+  "lieu": "Près de Datong (Shanxi, Chine)",
+  "description": "Le premier empereur Han, Gaozu, poursuit les Xiongnu et se retrouve encerclé par les cavaliers de [[modu-chanyu|Modu]] pendant sept jours. Il doit acheter la paix.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Gaozu s’avance avec son avant-garde en plein hiver. Modu, qui avait caché ses meilleures troupes, l’encercle sur la colline de Baideng. L’empereur s’échappe grâce à des négociations."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Le traité du heqin oblige les Han à envoyer chaque année de la soie, du vin et des céréales aux Xiongnu, ainsi qu’une princesse en mariage, pendant plus de soixante ans."
+    }
+  ],
+  "liens": [{ "ref": "modu-chanyu", "relation": "Le vainqueur" }],
+  "wikiUrl": "https://en.wikipedia.org/wiki/Battle_of_Baideng"
+}

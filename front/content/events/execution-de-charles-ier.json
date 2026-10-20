@@ -1,0 +1,21 @@
+{
+  "id": "execution-de-charles-ier",
+  "nom": "Exécution de Charles Ier",
+  "annee": 1649,
+  "dates": "30 janvier 1649",
+  "lieu": "Londres (Whitehall)",
+  "description": "Vaincu dans la guerre civile, le roi Charles Ier est jugé pour trahison par une cour de justice du Parlement et décapité : une première en Europe.",
+  "sections": [
+    {
+      "titre": "Contexte",
+      "texte": "Charles Ier veut gouverner et lever des impôts sans le Parlement. La guerre civile éclate en 1642 ; l’armée parlementaire de [[oliver-cromwell|Cromwell]] l’emporte."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "La monarchie est abolie et une république, le Commonwealth, est proclamée. La monarchie revient en 1660 avec son fils Charles II."
+    }
+  ],
+  "liens": [{ "ref": "oliver-cromwell", "relation": "Il signe l’arrêt de mort" }],
+  "apres": "glorieuse-revolution",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Ex%C3%A9cution_de_Charles_Ier"
+}

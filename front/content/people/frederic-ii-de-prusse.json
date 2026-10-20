@@ -1,0 +1,21 @@
+{
+  "id": "frederic-ii-de-prusse",
+  "nom": "Frédéric II de Prusse",
+  "nomComplet": "Frédéric le Grand",
+  "role": "Roi de Prusse",
+  "roles": ["Roi", "Chef de guerre", "Écrivain"],
+  "dates": "1712 → 1786",
+  "naissance": 1712,
+  "mort": 1786,
+  "description": "Roi de Prusse qui agrandit son royaume par la guerre, résiste à une coalition européenne pendant la guerre de Sept Ans et se veut un souverain éclairé, ami des philosophes.",
+  "reperes": [{ "label": "Règne", "valeur": "1740 → 1786" }],
+  "essentiel": [
+    "Jeune homme, il tente de fuir son père autoritaire, qui fait exécuter son ami sous ses yeux.",
+    "Il prend la Silésie à l’Autriche dès son avènement.",
+    "Pendant la guerre de Sept Ans, il remporte des victoires éclatantes, comme [[bataille-de-rossbach|Rossbach]], mais frôle la défaite.",
+    "Il invite Voltaire à Sanssouci, joue de la flûte et écrit en français.",
+    "Il participe au [[partages-de-la-pologne|premier partage de la Pologne]]."
+  ],
+  "liens": [{ "ref": "voltaire", "relation": "Son ami, puis son critique" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_II_(roi_de_Prusse)"
+}

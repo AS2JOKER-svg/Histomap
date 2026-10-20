@@ -1,0 +1,22 @@
+{
+  "id": "sac-de-rome-gaulois",
+  "nom": "Prise de Rome par les Gaulois",
+  "annee": -390,
+  "dates": "vers −390 (ou −387)",
+  "lieu": "Rome",
+  "description": "Les Gaulois Sénons, menés par Brennus, battent l’armée romaine sur l’Allia puis prennent et pillent Rome.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Selon la tradition, seule la colline du Capitole résiste ; les oies sacrées de Junon auraient donné l’alerte lors d’une attaque de nuit."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Les Gaulois repartent contre une rançon en or. Rome, marquée par ce traumatisme, entoure la ville d’une grande muraille."
+    }
+  ],
+  "aSavoir": [
+    "Lors de la pesée de la rançon, Brennus aurait jeté son épée dans la balance en criant « Malheur aux vaincus ! » ; l’anecdote est rapportée par l’historien romain Tite-Live."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_l%27Allia"
+}

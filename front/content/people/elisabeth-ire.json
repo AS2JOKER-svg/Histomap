@@ -1,0 +1,22 @@
+{
+  "id": "elisabeth-ire",
+  "nom": "Élisabeth Ire",
+  "role": "Reine d’Angleterre",
+  "roles": ["Reine"],
+  "dates": "1533 → 1603",
+  "naissance": 1533,
+  "mort": 1603,
+  "description": "Fille d’Henri VIII et d’Anne Boleyn, elle règne 45 ans, établit définitivement l’anglicanisme et fait de l’Angleterre une puissance maritime.",
+  "reperes": [{ "label": "Règne", "valeur": "1558 → 1603" }],
+  "essentiel": [
+    "Elle ne se marie jamais : on la surnomme la « Reine vierge ».",
+    "Elle fait exécuter sa cousine catholique Marie Stuart, reine d’Écosse, en 1587.",
+    "Sa flotte met en échec l’[[invincible-armada|Invincible Armada]] en 1588.",
+    "Son règne est l’âge d’or du théâtre, avec [[william-shakespeare|Shakespeare]]."
+  ],
+  "liens": [
+    { "ref": "henri-viii", "relation": "Son père" },
+    { "ref": "philippe-ii-d-espagne", "relation": "Son grand adversaire" }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/%C3%89lisabeth_Ire"
+}

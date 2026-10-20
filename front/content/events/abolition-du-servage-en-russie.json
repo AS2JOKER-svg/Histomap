@@ -1,0 +1,15 @@
+{
+  "id": "abolition-du-servage-en-russie",
+  "nom": "Abolition du servage en Russie",
+  "annee": 1861,
+  "dates": "3 mars 1861",
+  "lieu": "Empire russe",
+  "description": "Le tsar Alexandre II libère les serfs, paysans attachés à la terre et à leur seigneur : plus de 20 millions de personnes.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "Les paysans deviennent libres, mais doivent racheter leurs terres pendant des décennies. Les déceptions nourrissent les mouvements révolutionnaires ; Alexandre II est assassiné en 1881."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Abolition_du_servage_de_1861"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "abandon-d-angkor",
+  "nom": "Abandon d’Angkor",
+  "annee": 1431,
+  "dates": "vers 1431",
+  "lieu": "Angkor (Cambodge)",
+  "description": "Après une attaque du royaume thaï d’Ayutthaya, la cour khmère quitte Angkor et s’installe plus au sud, près de Phnom Penh.",
+  "sections": [
+    {
+      "titre": "Les causes",
+      "texte": "Les historiens combinent plusieurs explications : guerres contre les Thaïs, sécheresses et inondations qui désorganisent le réseau hydraulique, et essor du commerce maritime qui rend le sud plus attractif."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Angkor se dépeuple, mais Angkor Vat reste un lieu de pèlerinage bouddhiste."
+    }
+  ],
+  "avant": "sac-d-angkor",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Angkor"
+}

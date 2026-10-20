@@ -1,0 +1,21 @@
+{
+  "id": "revolution-iranienne",
+  "nom": "Révolution iranienne",
+  "annee": 1979,
+  "dates": "1978 → février 1979",
+  "lieu": "Iran",
+  "description": "D’immenses manifestations contraignent le chah à quitter le pays en janvier 1979 ; l’ayatollah [[khomeini|Khomeini]] fonde une République islamique, approuvée par référendum.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Religieux, étudiants, ouvriers et partis de gauche s’unissent contre le régime autoritaire du chah. Après son départ, Khomeini rentre d’exil et les religieux prennent le contrôle du pays."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "La loi islamique s’impose ; des opposants sont exécutés. En novembre 1979, des étudiants prennent en otage le personnel de l’ambassade américaine pendant 444 jours."
+    }
+  ],
+  "liens": [{ "ref": "khomeini", "relation": "Le chef de la révolution" }],
+  "avant": "coup-d-etat-de-1953",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/R%C3%A9volution_iranienne"
+}

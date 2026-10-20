@@ -1,0 +1,20 @@
+{
+  "id": "invasions-mongoles-de-la-coree",
+  "nom": "Invasions mongoles de la Corée",
+  "annee": 1231,
+  "fin": 1259,
+  "dates": "1231 → 1259",
+  "lieu": "Corée",
+  "description": "Les Mongols envahissent Goryeo à six reprises. La cour se réfugie sur l’île de Ganghwa, tandis que la population subit massacres et déportations.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Les Mongols, mauvais marins, ne parviennent pas à prendre l’île de Ganghwa, mais ravagent la péninsule. La résistance s’organise dans les forteresses de montagne."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "En 1259, le prince héritier se soumet. La cour rentre à Gaegyeong en 1270 ; des soldats d’élite, les Sambyeolcho, refusent la paix et résistent jusqu’en 1273."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Invasions_mongoles_de_la_Cor%C3%A9e"
+}

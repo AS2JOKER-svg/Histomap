@@ -1,0 +1,19 @@
+{
+  "id": "koumbi-saleh",
+  "nom": "Koumbi Saleh",
+  "annee": 1050,
+  "domaine": "Archéologie",
+  "dates": "IXe-XIVe siècles ; fouillé à partir de 1914",
+  "description": "Les ruines d’une grande ville de pierre dans le sud-est de la Mauritanie, sans doute la ville des marchands de la capitale de l’empire du Ghana.",
+  "sections": [
+    {
+      "titre": "Ce qu’on y a trouvé",
+      "texte": "Des maisons à étages, une grande mosquée, des tombes, des poids pour peser l’or, des perles et du verre venus d’Afrique du Nord."
+    },
+    {
+      "titre": "Ce qui reste à trouver",
+      "texte": "La ville royale décrite par al-Bakri, avec ses bois sacrés, n’a pas été identifiée avec certitude."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Koumbi_Saleh"
+}

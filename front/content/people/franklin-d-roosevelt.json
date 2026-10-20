@@ -1,0 +1,18 @@
+{
+  "id": "franklin-d-roosevelt",
+  "nom": "Franklin D. Roosevelt",
+  "role": "Président des États-Unis",
+  "roles": ["Président"],
+  "dates": "1882 → 1945",
+  "naissance": 1882,
+  "mort": 1945,
+  "description": "Président de 1933 à sa mort en 1945, il combat la Grande Dépression par le New Deal et dirige les États-Unis pendant la Seconde Guerre mondiale.",
+  "reperes": [{ "label": "Président", "valeur": "1933 → 1945", "precision": "seul président élu quatre fois" }],
+  "essentiel": [
+    "Atteint de la poliomyélite, il se déplace difficilement.",
+    "Le New Deal crée de grands travaux, la sécurité sociale et encadre la finance.",
+    "Après Pearl Harbor (1941), il engage le pays dans la guerre.",
+    "Il prépare la création de l’ONU, mais meurt avant la fin de la guerre."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Franklin_Delano_Roosevelt"
+}

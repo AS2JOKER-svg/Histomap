@@ -1,0 +1,25 @@
+{
+  "id": "hatchepsout",
+  "nom": "Hatchepsout",
+  "role": "Reine devenue pharaon",
+  "roles": ["Pharaon"],
+  "dates": "règne −1473 → −1458",
+  "naissance": -1505,
+  "mort": -1458,
+  "description": "Fille de Thoutmôsis Ier, d’abord régente pour le jeune Thoutmôsis III, elle se fait couronner pharaon et règne une quinzaine d’années dans la paix et la prospérité.",
+  "reperes": [
+    { "label": "Règne", "valeur": "−1473 → −1458", "precision": "régente dès −1479" },
+    { "label": "Monument", "valeur": "Temple de Deir el-Bahari", "precision": "face à Thèbes" }
+  ],
+  "essentiel": [
+    "L’une des rares femmes à avoir régné en pharaon de plein droit.",
+    "Elle envoie une grande expédition commerciale au pays de Pount, racontée sur les murs de son temple.",
+    "Après sa mort, ses images et son nom sont martelés sur de nombreux monuments."
+  ],
+  "liens": [{ "ref": "egypte", "relation": "Son royaume" }],
+  "aSavoir": [
+    "Elle se fait parfois représenter avec les attributs masculins du pouvoir, dont la barbe postiche royale.",
+    "Sa naissance vers −1505 est une estimation."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Hatchepsout"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "songtsen-gampo",
+  "nom": "Songtsen Gampo",
+  "role": "Roi du Tibet",
+  "roles": ["Roi (tsenpo)", "Fondateur"],
+  "dates": "vers 605 → 650",
+  "naissance": 605,
+  "mort": 650,
+  "description": "Roi qui unifie les clans du plateau tibétain, fonde l’empire et fait de Lhassa sa capitale. La tradition en fait le premier roi bouddhiste du Tibet.",
+  "essentiel": [
+    "Il soumet les royaumes voisins et étend son pouvoir sur tout le plateau.",
+    "Il fait créer l’écriture tibétaine, selon la tradition.",
+    "Il épouse la princesse chinoise Wencheng et, selon la tradition, la princesse népalaise Bhrikuti.",
+    "On lui attribue la fondation du Jokhang, le temple le plus sacré de Lhassa."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Songtsen_Gampo"
+}

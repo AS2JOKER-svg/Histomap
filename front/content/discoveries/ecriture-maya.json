@@ -1,0 +1,22 @@
+{
+  "id": "ecriture-maya",
+  "nom": "Écriture maya",
+  "annee": 250,
+  "domaine": "Écriture",
+  "dates": "IIIe s. av. J.-C. → XVIe siècle",
+  "description": "L’écriture la plus complète des Amériques avant l’arrivée des Européens : des glyphes qui notent à la fois des mots et des syllabes.",
+  "sections": [
+    {
+      "titre": "Comment ça marche",
+      "texte": "Un même mot peut s’écrire avec un signe-mot, avec des syllabes, ou avec un mélange des deux. Les glyphes sont regroupés en blocs carrés, lus en colonnes de deux."
+    },
+    {
+      "titre": "Son déchiffrement",
+      "texte": "Longtemps incomprise, elle est déchiffrée à partir des années 1950 grâce à Iouri Knorozov et Tatiana Proskouriakoff : on peut aujourd’hui lire la plupart des inscriptions."
+    }
+  ],
+  "aSavoir": [
+    "Seuls quatre livres mayas (codex) ont survécu : les missionnaires espagnols en ont brûlé beaucoup, notamment à Maní en 1562."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/%C3%89criture_maya"
+}

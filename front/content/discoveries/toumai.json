@@ -1,0 +1,20 @@
+{
+  "id": "toumai",
+  "nom": "Toumaï",
+  "annee": -7000000,
+  "domaine": "Paléoanthropologie",
+  "dates": "vécut vers −7 millions d’années ; découvert en 2001",
+  "description": "Un crâne découvert au Tchad par l’équipe de Michel Brunet, attribué à l’espèce Sahelanthropus tchadensis. Il serait l’un des plus anciens représentants connus de la lignée humaine.",
+  "reperes": [{ "label": "Découverte", "valeur": "2001", "precision": "désert du Djourab, Tchad" }],
+  "sections": [
+    {
+      "titre": "Pourquoi il est important",
+      "texte": "Trouvé à 2 500 km à l’ouest de la vallée du Rift, il montre que les premiers hominidés ne vivaient pas seulement en Afrique de l’Est."
+    }
+  ],
+  "aSavoir": [
+    "Sa place dans la lignée humaine est encore débattue : certains chercheurs doutent qu’il marchait debout.",
+    "Toumaï signifie « espoir de vie » en langue goran."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Touma%C3%AF"
+}

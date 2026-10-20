@@ -1,0 +1,23 @@
+{
+  "id": "bataille-de-cajamarca",
+  "nom": "Bataille de Cajamarca",
+  "annee": 1532,
+  "dates": "16 novembre 1532",
+  "lieu": "Cajamarca (Pérou)",
+  "description": "Le conquistador [[francisco-pizarro|Pizarro]], avec 168 hommes, capture par surprise le Sapa Inca [[atahualpa|Atahualpa]], venu le rencontrer avec une escorte presque sans armes.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Cachés autour de la place, les Espagnols ouvrent le feu au signal convenu et chargent à cheval. Des milliers d’Incas sont tués en quelques heures, et Atahualpa est capturé."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Privé de son souverain, l’empire, déjà affaibli par la guerre civile et les épidémies, se désorganise."
+    }
+  ],
+  "liens": [
+    { "ref": "francisco-pizarro", "relation": "Le conquistador" },
+    { "ref": "atahualpa", "relation": "Le souverain capturé" }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Cajamarca"
+}

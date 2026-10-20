@@ -1,0 +1,18 @@
+{
+  "id": "christine-de-suede",
+  "nom": "Christine de Suède",
+  "role": "Reine de Suède",
+  "roles": ["Reine", "Mécène"],
+  "dates": "1626 → 1689",
+  "naissance": 1626,
+  "mort": 1689,
+  "description": "Fille de Gustave Adolphe, reine à 6 ans, passionnée de savoir, elle invite Descartes à sa cour, puis abdique en 1654, se convertit au catholicisme et vit à Rome.",
+  "essentiel": [
+    "Elle gouverne seule à partir de 1644.",
+    "Elle contribue à la paix de Westphalie (1648).",
+    "Elle refuse de se marier et abdique au profit de son cousin.",
+    "À Rome, elle fonde une académie et protège musiciens et artistes."
+  ],
+  "liens": [{ "ref": "gustave-ii-adolphe", "relation": "Son père" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Christine_(reine_de_Su%C3%A8de)"
+}

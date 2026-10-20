@@ -1,0 +1,17 @@
+{
+  "id": "bataille-de-stamford-bridge",
+  "nom": "Bataille de Stamford Bridge",
+  "annee": 1066,
+  "dates": "25 septembre 1066",
+  "lieu": "Près d’York (Angleterre)",
+  "description": "Le roi anglo-saxon Harold II surprend et écrase l’armée du roi de Norvège Harald Hardrada, tué pendant la bataille. On y voit souvent la fin de l’époque viking.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "Trois jours plus tard, Guillaume de Normandie débarque dans le sud. Harold doit redescendre en hâte et est battu à [[bataille-de-hastings|Hastings]]."
+    }
+  ],
+  "avant": "pillage-de-lindisfarne",
+  "apres": "bataille-de-hastings",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Stamford_Bridge"
+}

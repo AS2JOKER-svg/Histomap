@@ -1,0 +1,20 @@
+{
+  "id": "alhambra",
+  "nom": "Alhambra",
+  "annee": 1238,
+  "domaine": "Architecture",
+  "dates": "XIIIe-XIVe siècles",
+  "description": "La citadelle et les palais des émirs nasrides de Grenade, décorés de stucs sculptés, de faïences et de fontaines : l’un des sommets de l’art islamique.",
+  "sections": [
+    {
+      "titre": "Ce qu’on y voit",
+      "texte": "La cour des Lions, avec sa fontaine portée par douze lions de marbre, la cour des Myrtes, les plafonds en nid d’abeille et les jardins du Generalife."
+    },
+    {
+      "titre": "Son nom",
+      "texte": "« Alhambra » vient de l’arabe al-Hamra, « la Rouge », sans doute à cause de la couleur de ses murs."
+    }
+  ],
+  "aSavoir": ["Ses murs sont couverts de poèmes arabes gravés dans le stuc."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Alhambra_(Grenade)"
+}

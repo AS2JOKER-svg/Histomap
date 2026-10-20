@@ -1,0 +1,17 @@
+{
+  "id": "traite-de-rome",
+  "nom": "Traités de Rome",
+  "annee": 1957,
+  "dates": "25 mars 1957",
+  "lieu": "Rome (Capitole)",
+  "description": "La France, l’Allemagne de l’Ouest, l’Italie, la Belgique, les Pays-Bas et le Luxembourg créent la Communauté économique européenne (CEE) et Euratom.",
+  "sections": [
+    {
+      "titre": "Ce qu’ils prévoient",
+      "texte": "Un marché commun, sans droits de douane entre les six pays, la libre circulation des personnes, des marchandises et des capitaux, et une politique agricole commune."
+    }
+  ],
+  "avant": "declaration-schuman",
+  "apres": "traite-de-maastricht",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Trait%C3%A9_de_Rome_(1957)"
+}

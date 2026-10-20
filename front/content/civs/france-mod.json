@@ -1,0 +1,389 @@
+{
+  "id": "france-mod",
+  "label": "France (Ancien Régime)",
+  "tier": 1,
+  "region": "europe-ouest",
+  "period": "1492 à 1789",
+  "start": 1492,
+  "end": 1789,
+  "trackId": "france",
+  "row": 2,
+  "isRiver": false,
+  "capitale": "Paris / Versailles",
+  "description": "La France des Temps modernes, de la Renaissance aux Lumières : guerres d’Italie, guerres de religion, monarchie absolue de Louis XIV et rayonnement culturel, jusqu’à la crise qui mène à la Révolution.",
+  "territories": ["France"],
+  "datesCles": [
+    {
+      "annee": 1515,
+      "evenement": "Bataille de Marignan",
+      "info": "Victoire de François Ier en Italie ; une paix perpétuelle est signée avec les Suisses l’année suivante.",
+      "ref": "bataille-de-marignan"
+    },
+    {
+      "annee": 1539,
+      "evenement": "Ordonnance de Villers-Cotterêts",
+      "info": "Le français devient la langue des actes officiels et de la justice."
+    },
+    {
+      "annee": 1572,
+      "evenement": "Massacre de la Saint-Barthélemy",
+      "info": "Des milliers de protestants sont tués à Paris et en province.",
+      "ref": "massacre-de-la-saint-barthelemy"
+    },
+    {
+      "annee": 1598,
+      "evenement": "L’Édit de Nantes",
+      "info": "Henri IV met fin à plus de trente ans de guerres de religion en accordant la tolérance aux protestants.",
+      "ref": "edit-de-nantes"
+    },
+    {
+      "annee": 1682,
+      "evenement": "Installation à Versailles",
+      "info": "Louis XIV installe la cour et le gouvernement à Versailles."
+    },
+    {
+      "annee": 1685,
+      "evenement": "Révocation de l’édit de Nantes",
+      "info": "Louis XIV interdit le protestantisme ; environ 200 000 protestants fuient le royaume."
+    },
+    {
+      "annee": 1751,
+      "evenement": "L’Encyclopédie",
+      "info": "Diderot et d’Alembert publient le premier volume de l’œuvre majeure des Lumières."
+    },
+    {
+      "annee": 1763,
+      "evenement": "Traité de Paris",
+      "info": "Après la guerre de Sept Ans, la France perd le Canada et presque toute l’Inde."
+    },
+    {
+      "annee": 1789,
+      "evenement": "Les États généraux",
+      "info": "Face à la crise financière, Louis XVI convoque les États généraux : c’est le début de la Révolution."
+    }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Charles VIII",
+      "titre": "Roi de France",
+      "surnom": "l’Affable",
+      "debut": 1483,
+      "fin": 1498,
+      "dynastie": "valois",
+      "note": "lance les guerres d’Italie"
+    },
+    {
+      "nom": "Louis XII",
+      "titre": "Roi de France",
+      "surnom": "le Père du peuple",
+      "debut": 1498,
+      "fin": 1515,
+      "dynastie": "valois"
+    },
+    {
+      "nom": "François Ier",
+      "titre": "Roi de France",
+      "surnom": "le Père et Restaurateur des Lettres",
+      "debut": 1515,
+      "fin": 1547,
+      "dynastie": "valois",
+      "personne": "francois-ier",
+      "cle": true
+    },
+    {
+      "nom": "Henri II",
+      "titre": "Roi de France",
+      "debut": 1547,
+      "fin": 1559,
+      "dynastie": "valois",
+      "note": "tué dans un tournoi"
+    },
+    { "nom": "François II", "titre": "Roi de France", "debut": 1559, "fin": 1560, "dynastie": "valois" },
+    {
+      "nom": "Catherine de Médicis",
+      "titre": "Régente",
+      "debut": 1560,
+      "fin": 1563,
+      "dynastie": "valois",
+      "note": "reine mère, très influente jusqu’en 1589"
+    },
+    {
+      "nom": "Charles IX",
+      "titre": "Roi de France",
+      "debut": 1560,
+      "fin": 1574,
+      "dynastie": "valois",
+      "note": "règne de la Saint-Barthélemy"
+    },
+    {
+      "nom": "Henri III",
+      "titre": "Roi de France",
+      "debut": 1574,
+      "fin": 1589,
+      "dynastie": "valois",
+      "note": "dernier Valois, assassiné"
+    },
+    {
+      "nom": "Henri IV",
+      "titre": "Roi de France et de Navarre",
+      "surnom": "le Vert-Galant",
+      "debut": 1589,
+      "fin": 1610,
+      "dynastie": "bourbons",
+      "personne": "henri-iv",
+      "note": "assassiné par Ravaillac",
+      "cle": true
+    },
+    {
+      "nom": "Louis XIII",
+      "titre": "Roi de France",
+      "surnom": "le Juste",
+      "debut": 1610,
+      "fin": 1643,
+      "dynastie": "bourbons",
+      "note": "gouverne avec Richelieu",
+      "cle": true
+    },
+    {
+      "nom": "Louis XIV",
+      "titre": "Roi de France",
+      "surnom": "le Roi-Soleil",
+      "debut": 1643,
+      "fin": 1715,
+      "dynastie": "bourbons",
+      "personne": "louis-xiv",
+      "note": "règne de 72 ans, le plus long de l’histoire de France",
+      "cle": true
+    },
+    { "nom": "Philippe d’Orléans", "titre": "Régent", "debut": 1715, "fin": 1723, "dynastie": "bourbons" },
+    {
+      "nom": "Louis XV",
+      "titre": "Roi de France",
+      "surnom": "le Bien-Aimé",
+      "debut": 1715,
+      "fin": 1774,
+      "dynastie": "bourbons",
+      "cle": true
+    },
+    {
+      "nom": "Louis XVI",
+      "titre": "Roi de France",
+      "debut": 1774,
+      "fin": 1792,
+      "dynastie": "bourbons",
+      "note": "renversé par la Révolution",
+      "cle": true
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Cardinal de Richelieu",
+      "role": "Principal ministre",
+      "description": "Ministre de Louis XIII, il renforce l’autorité royale face aux grands nobles et aux protestants et engage la France contre les Habsbourg.",
+      "dates": "1585 → 1642",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Armand_Jean_du_Plessis_de_Richelieu",
+      "ref": "richelieu"
+    },
+    {
+      "nom": "Voltaire",
+      "role": "Philosophe",
+      "description": "Figure de proue des Lumières, défenseur de la tolérance et de la liberté d’expression, critique du fanatisme religieux.",
+      "dates": "1694 → 1778",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Voltaire",
+      "ref": "voltaire"
+    },
+    {
+      "nom": "Jean-Baptiste Colbert",
+      "role": "Ministre",
+      "description": "Ministre de Louis XIV, il développe les manufactures, la marine et le commerce colonial.",
+      "dates": "1619 → 1683",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Jean-Baptiste_Colbert"
+    },
+    {
+      "nom": "Molière",
+      "role": "Auteur de théâtre",
+      "description": "Comédien et auteur, il se moque des travers de la société dans des comédies jouées devant Louis XIV.",
+      "dates": "1622 → 1673",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Moli%C3%A8re"
+    },
+    {
+      "nom": "René Descartes",
+      "role": "Philosophe et mathématicien",
+      "description": "Il fonde la philosophie moderne sur le doute et invente la géométrie analytique.",
+      "dates": "1596 → 1650",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Ren%C3%A9_Descartes"
+    },
+    {
+      "nom": "Émilie du Châtelet",
+      "role": "Mathématicienne et physicienne",
+      "description": "Elle traduit et commente en français les Principia de Newton.",
+      "dates": "1706 → 1749",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/%C3%89milie_du_Ch%C3%A2telet"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerres d’Italie",
+      "annee": 1494,
+      "adversaires": ["Espagne, Saint-Empire, États italiens"],
+      "allies": ["Venise, Ottomans (selon les époques)"],
+      "morts": "Inconnues",
+      "vainqueur": "Espagne",
+      "consequences": "Guerres de 1494 à 1559. Malgré Marignan, la France renonce à l’Italie ; les rois en rapportent le goût de la Renaissance.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerres_d%27Italie"
+    },
+    {
+      "nom": "Guerres de religion (France)",
+      "annee": 1562,
+      "adversaires": ["Protestants (huguenots)"],
+      "allies": ["Catholiques, Ligue catholique"],
+      "morts": "Plusieurs centaines de milliers",
+      "vainqueur": "Compromis de l’édit de Nantes",
+      "consequences": "Huit guerres de 1562 à 1598. Henri IV, protestant converti, rétablit la paix et accorde la tolérance aux protestants.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerres_de_Religion_(France)"
+    },
+    {
+      "nom": "Guerre de Trente Ans",
+      "annee": 1618,
+      "adversaires": ["Saint-Empire (Habsbourg)", "Espagne"],
+      "allies": ["Suède", "Princes protestants allemands"],
+      "morts": "Plusieurs millions de morts dans le Saint-Empire, surtout par la famine et les épidémies",
+      "vainqueur": "France et Alliés (Traités de Westphalie)",
+      "consequences": "La France entre en guerre en 1635. Par les traités de Westphalie (1648), elle gagne l’Alsace et devient la première puissance du continent.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_de_Trente_Ans"
+    }
+  ],
+  "sciences": "Descartes invente la géométrie analytique et Pascal construit une machine à calculer. Colbert fonde l’Académie des sciences (1666) et l’Observatoire de Paris. Riquet fait creuser le canal du Midi (1666-1681), qui relie l’Atlantique à la Méditerranée. Les manufactures royales, comme les Gobelins ou Saint-Gobain, produisent tapisseries, glaces et objets de luxe.",
+  "croyancesText": "Le royaume est catholique, mais le protestantisme, surtout calviniste, s’y répand au XVIe siècle et provoque huit guerres de religion. Henri IV accorde la tolérance aux protestants par l’édit de Nantes (1598) ; Louis XIV la supprime en 1685, poussant environ 200 000 protestants à l’exil. Au XVIIIe siècle, les philosophes des Lumières dénoncent l’intolérance.",
+  "diplomatie": "Pour briser l’encerclement par les Habsbourg d’Espagne et d’Autriche, François Ier s’allie aux Ottomans, au grand scandale de l’Europe chrétienne, et Richelieu soutient les protestants allemands et suédois. La France fonde un empire colonial (Nouvelle-France, Louisiane, Antilles), dont elle perd une grande partie en 1763.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": { "valeur": "Paris, puis Versailles", "precision": "la cour s’installe à Versailles en 1682" },
+    "regimes": {
+      "valeur": "Monarchie absolue",
+      "precision": "le roi, « de droit divin », concentre les pouvoirs, mais doit compter avec les parlements et les privilèges"
+    },
+    "langues": {
+      "valeur": "Français",
+      "precision": "langue de l’administration depuis l’ordonnance de Villers-Cotterêts (1539) ; on parle aussi breton, occitan, basque, alsacien…"
+    },
+    "religion": { "valeur": "Catholicisme", "precision": "avec une minorité protestante, tolérée de 1598 à 1685" },
+    "apogee": { "valeur": "Règne de Louis XIV", "precision": "première puissance d’Europe" },
+    "population": { "valeur": "Environ 20 à 28 millions", "precision": "de 1600 à 1789 : le pays le plus peuplé d’Europe" },
+    "monnaie": { "valeur": "Livre tournois", "precision": "pièces : louis d’or, écu d’argent, sou" },
+    "duree": { "valeur": "Environ 300 ans" },
+    "aujourdhui": {
+      "valeur": "France",
+      "precision": "avec des colonies au Canada, en Louisiane, aux Antilles, en Afrique et en Inde"
+    }
+  },
+  "essentiel": [
+    "[[francois-ier|François Ier]], vainqueur à [[bataille-de-marignan|Marignan]], fait venir en France les artistes de la Renaissance italienne.",
+    "Les guerres de religion entre catholiques et protestants déchirent le pays, avec le [[massacre-de-la-saint-barthelemy|massacre de la Saint-Barthélemy]] ; [[henri-iv|Henri IV]] y met fin par l’[[edit-de-nantes|édit de Nantes]].",
+    "Avec [[richelieu|Richelieu]] puis [[louis-xiv|Louis XIV]], la monarchie devient absolue ; la cour s’installe au [[chateau-de-versailles|château de Versailles]].",
+    "La France est la première puissance d’Europe, mais ses guerres coûtent cher, et elle perd une partie de ses colonies en 1763.",
+    "Au XVIIIe siècle, les philosophes des Lumières, comme [[voltaire|Voltaire]], publient l’[[encyclopedie|Encyclopédie]] et critiquent l’absolutisme."
+  ],
+  "periodes": [
+    {
+      "nom": "La Renaissance",
+      "debut": 1492,
+      "fin": 1559,
+      "resume": "Les rois mènent les guerres d’Italie et découvrent la Renaissance. François Ier accueille Léonard de Vinci et fait bâtir Chambord.",
+      "evenements": [
+        { "annee": 1515, "evenement": "Marignan", "ref": "bataille-de-marignan" },
+        { "annee": 1516, "evenement": "Léonard de Vinci en France" },
+        { "annee": 1534, "evenement": "Jacques Cartier au Canada" }
+      ]
+    },
+    {
+      "nom": "Les guerres de religion",
+      "debut": 1559,
+      "fin": 1598,
+      "resume": "Catholiques et protestants s’affrontent pendant huit guerres. Henri IV, protestant converti au catholicisme, rétablit la paix.",
+      "evenements": [
+        { "annee": 1562, "evenement": "Massacre de Wassy, début des guerres" },
+        { "annee": 1572, "evenement": "Saint-Barthélemy", "ref": "massacre-de-la-saint-barthelemy" },
+        { "annee": 1598, "evenement": "Édit de Nantes", "ref": "edit-de-nantes" }
+      ]
+    },
+    {
+      "nom": "Le Grand Siècle",
+      "debut": 1598,
+      "fin": 1715,
+      "resume": "Richelieu, Mazarin puis Louis XIV renforcent l’autorité royale. La France domine l’Europe ; Versailles devient le modèle des cours européennes.",
+      "evenements": [
+        { "annee": 1610, "evenement": "Assassinat d’Henri IV" },
+        { "annee": 1648, "evenement": "Début de la Fronde" },
+        { "annee": 1682, "evenement": "La cour à Versailles" },
+        { "annee": 1685, "evenement": "Révocation de l’édit de Nantes" }
+      ]
+    },
+    {
+      "nom": "Le siècle des Lumières",
+      "debut": 1715,
+      "fin": 1789,
+      "resume": "Les philosophes critiquent l’absolutisme et l’intolérance. Les guerres font perdre des colonies, et la dette de l’État devient énorme.",
+      "evenements": [
+        { "annee": 1751, "evenement": "L’Encyclopédie" },
+        { "annee": 1763, "evenement": "Traité de Paris" },
+        { "annee": 1789, "evenement": "Les États généraux" }
+      ]
+    }
+  ],
+  "regimes": [
+    {
+      "id": "monarchie",
+      "nom": "Monarchie absolue",
+      "debut": 1492,
+      "fin": 1789,
+      "note": "Le roi gouverne avec des ministres ; certains, comme Richelieu, Mazarin ou Colbert, ont un pouvoir considérable."
+    }
+  ],
+  "dynasties": [
+    {
+      "id": "valois",
+      "nom": "Les Valois",
+      "debut": 1483,
+      "fin": 1589,
+      "regime": "monarchie",
+      "note": "Branches d’Orléans et d’Angoulême ; avec la régente Catherine de Médicis."
+    },
+    {
+      "id": "bourbons",
+      "nom": "Les Bourbons",
+      "debut": 1589,
+      "fin": 1792,
+      "regime": "monarchie",
+      "note": "Avec les régences de Marie de Médicis, Anne d’Autriche et Philippe d’Orléans."
+    }
+  ],
+  "societe": "La société est divisée en trois ordres : le clergé, la noblesse, qui ont des privilèges, et le tiers état (bourgeois, artisans, paysans), soit plus de 95 % de la population. Les paysans paient l’essentiel des impôts. Dans les colonies des Antilles, la richesse repose sur l’esclavage, organisé par le Code noir (1685).",
+  "economie": "Agriculture surtout, artisanat, manufactures, commerce colonial (sucre, café, tabac) dans les ports de Bordeaux et Nantes, en grande partie lié à la traite des esclaves.",
+  "decouvertes": ["chateau-de-versailles", "encyclopedie"],
+  "arts": "Châteaux de la Loire, Versailles, théâtre classique (Corneille, Racine, Molière), fables de La Fontaine, peinture de Poussin, musique de Lully et Rameau, salons des Lumières.",
+  "quotidien": "Plus de huit Français sur dix sont paysans. Les famines frappent encore, comme le « grand hiver » de 1709. À la cour de Versailles, l’étiquette règle chaque moment de la journée du roi.",
+  "heritage": [
+    {
+      "titre": "La langue française",
+      "texte": "Fixée par l’Académie française (1635), elle devient au XVIIIe siècle la langue de la diplomatie et des élites européennes."
+    },
+    {
+      "titre": "Versailles",
+      "texte": "Le château, inscrit au patrimoine mondial, est l’un des sites les plus visités de France."
+    },
+    {
+      "titre": "Les Lumières",
+      "texte": "Les idées de Voltaire, Montesquieu, Rousseau et Diderot inspirent les droits de l’homme et les démocraties modernes."
+    }
+  ],
+  "aSavoir": ["La phrase « L’État, c’est moi » attribuée à Louis XIV n’a sans doute jamais été prononcée."],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Royaume_de_France",
+    "https://fr.wikipedia.org/wiki/Ancien_R%C3%A9gime",
+    {
+      "titre": "Encyclopædia Britannica — France, history",
+      "url": "https://www.britannica.com/place/France/History"
+    }
+  ]
+}

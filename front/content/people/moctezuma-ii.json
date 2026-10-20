@@ -1,0 +1,33 @@
+{
+  "id": "moctezuma-ii",
+  "nom": "Moctezuma II",
+  "nomComplet": "Moctezuma Xocoyotzin",
+  "role": "Tlatoani de Tenochtitlan",
+  "roles": ["Tlatoani"],
+  "dates": "vers 1466 → 1520",
+  "naissance": 1466,
+  "mort": 1520,
+  "description": "Souverain de l’empire aztèque à son apogée, il accueille Hernán Cortés à Tenochtitlan en 1519 et meurt l’année suivante, prisonnier des Espagnols.",
+  "reperes": [
+    { "label": "Règne", "valeur": "1502 → 1520" },
+    { "label": "Mort", "valeur": "juin 1520", "precision": "circonstances discutées" }
+  ],
+  "essentiel": [
+    "Il renforce le pouvoir royal et le prestige de la noblesse.",
+    "Le 8 novembre 1519, il reçoit Cortés dans sa capitale ; quelques jours plus tard, les Espagnols le retiennent prisonnier.",
+    "Il meurt pendant le soulèvement de la ville, peu avant la fuite des Espagnols (la « Noche Triste »)."
+  ],
+  "chronologie": [
+    { "annee": 1502, "texte": "Devient tlatoani" },
+    { "annee": 1519, "texte": "Accueille Cortés à Tenochtitlan" },
+    { "annee": 1520, "texte": "Mort, alors qu’il est prisonnier des Espagnols" }
+  ],
+  "liens": [
+    { "ref": "hernan-cortes", "relation": "Le conquistador qu’il accueille" },
+    { "ref": "cuauhtemoc", "relation": "Son successeur après Cuitláhuac" }
+  ],
+  "aSavoir": [
+    "Les Espagnols affirment qu’il a été tué par une pierre lancée par les siens ; les sources indigènes accusent les Espagnols. On ne sait pas avec certitude."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Moctezuma_II"
+}

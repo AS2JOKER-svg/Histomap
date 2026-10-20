@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Frise · Maquettes HistoMap</title>
+<link rel="stylesheet" href="assets/maquette.css">
+<style>
+  .yearbox { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; }
+  .yearbox .y { font-family: Fraunces, Georgia, serif; font-size: 34px; font-weight: 600; font-variant-numeric: tabular-nums; }
+  .axis { display: flex; justify-content: space-between; font-size: 11px; color: rgb(var(--c-muted)); margin: 6px 16px 0; font-variant-numeric: tabular-nums; }
+</style>
+</head>
+<body>
+<main class="stage">
+  <div class="phone">
+    <div class="statusbar"><span>9:41</span><span class="dots">●●● ▮</span></div>
+
+    <div class="screen">
+      <div class="appbar left"><span class="title">Frise</span><a class="icon-btn" href="03-recherche.html" aria-label="Rechercher"><svg data-i="search"></svg></a></div>
+
+      <div class="carousel" style="margin:10px 0 0;padding:4px 16px 6px">
+        <span class="chip">Préhistoire</span><span class="chip on">Antiquité</span><span class="chip">Moyen Âge</span><span class="chip">Moderne</span><span class="chip">Contemporaine</span>
+      </div>
+
+      <!-- Année : trace une ligne verticale sur la frise -->
+      <div class="pad" style="margin-top:8px">
+        <div class="yearbox"><span class="y" data-year-label>100</span><span class="muted" style="font-size:13px">Antiquité · zoom</span></div>
+        <input type="range" min="-1000" max="476" step="1" value="100" data-year-range aria-label="Année">
+      </div>
+
+      <div>
+        <div class="frise" data-frise-span="-1000,476">
+          <div class="yearline" data-year-line></div>
+          <div class="continent">Europe</div>
+          <div class="lane"><div class="fbar" style="background:#4a90d9" data-from="-800" data-to="-146" data-ref="x" data-type="civ" data-nom="Grèce antique" data-dates="−800 → −146" data-resume="Cités grecques, d'Homère à la conquête romaine.">Grèce antique</div></div>
+          <div class="lane"><div class="fbar" style="background:#e91e63" data-from="-900" data-to="-264" data-ref="x" data-type="civ" data-nom="Étrusques" data-dates="−900 → −264" data-resume="Civilisation d'Italie centrale, absorbée par Rome.">Étrusques</div></div>
+          <div class="lane"><div class="fbar" style="background:#8e44ad" data-from="-753" data-to="476" data-ref="rome">Rome antique</div></div>
+          <div class="lane"><div class="fbar" style="background:#5b8c5a" data-from="-800" data-to="-50" data-ref="celtes">Celtes / Gaulois</div></div>
+          <div class="continent">Afrique</div>
+          <div class="lane"><div class="fbar" style="background:#c9a227" data-from="-3150" data-to="-30" data-ref="egypte">‹ Égypte antique</div></div>
+          <div class="lane"><div class="fbar" style="background:#bc6c25" data-from="-814" data-to="-146" data-ref="carthage">Carthage</div><div class="fbar" style="background:#7b1fa2" data-from="100" data-to="476" data-ref="x" data-type="civ" data-nom="Royaume d'Aksoum" data-dates="100 → 476" data-resume="Royaume commerçant d'Éthiopie, converti au christianisme au IVe siècle.">Aksoum</div></div>
+          <div class="lane"><div class="fbar" style="background:#a0522d" data-from="-1070" data-to="350" data-ref="x" data-type="civ" data-nom="Royaume de Koush" data-dates="−1070 → 350" data-resume="Royaume nubien, au sud de l'Égypte, capitale Napata puis Méroé.">Royaume de Koush</div></div>
+          <div class="continent">Asie</div>
+          <div class="lane"><div class="fbar" style="background:#9c27b0" data-from="-550" data-to="-330" data-ref="x" data-type="civ" data-nom="Empire perse achéménide" data-dates="−550 → −330" data-resume="Premier grand empire de l'Iran, de l'Indus à l'Égée.">Perse</div><div class="fbar" style="background:#e67e22" data-from="-221" data-to="220" data-ref="x" data-type="civ" data-nom="Chine (Qin & Han)" data-dates="−221 → 220" data-resume="Unification de la Chine par Qin Shi Huang, puis quatre siècles de dynastie Han.">Chine (Qin & Han)</div></div>
+          <div class="lane"><div class="fbar" style="background:#6a1b29" data-from="-1200" data-to="-64" data-ref="x" data-type="civ" data-nom="Phéniciens" data-dates="−1200 → −64" data-resume="Cités marchandes du Liban actuel, inventeurs d'un alphabet.">‹ Phéniciens</div></div>
+          <div class="lane"><div class="fbar" style="background:#16a085" data-from="-322" data-to="-185" data-ref="x" data-type="civ" data-nom="Empire Maurya" data-dates="−322 → −185" data-resume="Premier empire couvrant presque toute l'Inde.">Maurya</div></div>
+          <div class="lane"><div class="fbar" style="background:#795548" data-from="-209" data-to="46" data-ref="x" data-type="civ" data-nom="Xiongnu" data-dates="−209 → 46" data-resume="Confédération nomade des steppes, au nord de la Chine.">Xiongnu</div></div>
+          <div class="continent">Amérique</div>
+          <div class="lane"><div class="fbar" style="background:#16a085" data-from="-1200" data-to="-400" data-ref="x" data-type="civ" data-nom="Olmèques" data-dates="−1200 → −400" data-resume="Première grande civilisation de Mésoamérique.">‹ Olmèques</div><div class="fbar" style="background:#117a65" data-from="-100" data-to="476" data-ref="x" data-type="civ" data-nom="Teotihuacán" data-dates="−100 → vers 550-650" data-resume="Immense cité du Mexique central, aux pyramides du Soleil et de la Lune.">Teotihuacán</div></div>
+          <div class="lane"><div class="fbar" style="background:#d4ac0d" data-from="-900" data-to="-200" data-ref="x" data-type="civ" data-nom="Chavín" data-dates="−900 → −200" data-resume="Culture des Andes centrales, centrée sur le temple de Chavín de Huántar.">Chavín</div><div class="fbar" style="background:#ba9c07" data-from="-200" data-to="476" data-ref="x" data-type="civ" data-nom="Culture Nazca" data-dates="−200 → vers 600-650" data-resume="Culture du sud du Pérou, célèbre pour ses géoglyphes.">Nazca</div></div>
+        </div>
+        <div class="axis"><span>1000 av.</span><span>500 av.</span><span>1</span><span>476</span></div>
+        <p class="muted pad" style="font-size:12.5px;margin-top:10px">Touchez une barre pour son aperçu. Pincez pour zoomer (comme aujourd'hui).</p>
+      </div>
+
+      <div class="footer-space"></div>
+    </div>
+
+    <nav class="tabbar" aria-label="Navigation principale">
+      <a href="02-accueil.html"><svg data-i="home"></svg>Accueil</a>
+      <a href="04-frise.html" aria-current="page"><svg data-i="timeline"></svg>Frise</a>
+      <a href="04b-carte.html"><svg data-i="globe"></svg>Carte</a>
+      <a href="09-guerres.html"><svg data-i="swords"></svg>Guerres</a>
+      <a href="10-reviser.html"><svg data-i="cards"></svg>Réviser</a>
+    </nav>
+  </div>
+
+  <aside class="notes">
+    <a class="back" href="index.html"><svg data-i="arrowLeft" class="sm"></svg> Toutes les maquettes</a>
+    <p class="eyebrow">Maquette 04 · Décision : onglets séparés</p>
+    <h1>Frise</h1>
+    <p>Décision validée : <b>Frise et Carte restent deux onglets</b>, plus clairs qu'une bascule. La frise actuelle est conservée ; cette maquette montre ce qui s'y ajoute.</p>
+    <h2>Ce qui change</h2>
+    <ul>
+      <li><b>Un curseur d'année</b> qui trace une ligne verticale : on voit d'un coup qui existait à cette date.</li>
+      <li><b>« Voir sur la carte »</b> depuis la frise ouvre l'onglet Carte à la même année (et inversement).</li>
+      <li><b>Toucher une barre</b> ouvre le même aperçu qu'aujourd'hui, puis la nouvelle fiche.</li>
+    </ul>
+    <h2>Barre du bas</h2>
+    <p>5 onglets : Accueil, Frise, Carte, Guerres, Réviser. C'est le maximum recommandé sur mobile ; chaque cible reste assez large au toucher.</p>
+    <div class="tools"><button class="btn btn-secondary" data-theme-toggle><svg data-i="moon" class="sm"></svg> Thème</button></div>
+  </aside>
+</main>
+<script src="assets/maquette.js"></script>
+</body>
+</html>

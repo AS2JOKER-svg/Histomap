@@ -1,0 +1,20 @@
+{
+  "id": "bataille-d-angleterre",
+  "nom": "Bataille d’Angleterre",
+  "annee": 1940,
+  "dates": "juillet → octobre 1940",
+  "lieu": "Ciel du Royaume-Uni",
+  "description": "L’aviation allemande tente de détruire la Royal Air Force pour préparer une invasion ; les pilotes britanniques et alliés résistent et la font échouer.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Grâce au radar, les chasseurs Spitfire et Hurricane interceptent les bombardiers allemands. À partir de septembre, l’Allemagne bombarde les villes : c’est le « Blitz »."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Hitler renonce à l’invasion. Le Royaume-Uni reste en guerre et servira de base au débarquement de 1944."
+    }
+  ],
+  "liens": [{ "ref": "winston-churchill", "relation": "Premier ministre" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_d%27Angleterre"
+}

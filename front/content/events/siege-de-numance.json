@@ -1,0 +1,23 @@
+{
+  "id": "siege-de-numance",
+  "nom": "Siège de Numance",
+  "annee": -133,
+  "fin": -133,
+  "dates": "−134 → −133",
+  "lieu": "Numance, près de Soria (Espagne)",
+  "description": "Après vingt ans de résistance celtibère, Scipion Émilien encercle Numance de murs et de camps et affame la ville, qui tombe en −133.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Scipion fait construire une enceinte de près de 9 kilomètres autour de la ville. Affamés, les habitants finissent par se rendre ; beaucoup préfèrent se donner la mort."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "La ville est détruite et les survivants vendus comme esclaves. La résistance des Celtibères est brisée."
+    }
+  ],
+  "aSavoir": [
+    "Numance est devenue en Espagne le symbole de la résistance jusqu’au bout ; Cervantès en a fait une tragédie."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Numance"
+}

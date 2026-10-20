@@ -1,0 +1,17 @@
+{
+  "id": "revolte-de-pougatchev",
+  "nom": "Révolte de Pougatchev",
+  "annee": 1773,
+  "fin": 1775,
+  "dates": "1773 → 1775",
+  "lieu": "Oural et Volga",
+  "description": "Le Cosaque Emelian Pougatchev se fait passer pour le défunt empereur Pierre III et soulève Cosaques, paysans serfs, ouvriers de l’Oural et peuples de la Volga.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "La révolte, la plus grande de l’histoire russe avant le XXe siècle, est écrasée ; Pougatchev est exécuté à Moscou en 1775. Catherine II renforce ensuite le contrôle des provinces."
+    }
+  ],
+  "liens": [{ "ref": "catherine-ii", "relation": "L’impératrice contestée" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/R%C3%A9volte_de_Pougatchev"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "frederic-barberousse",
+  "nom": "Frédéric Barberousse",
+  "nomComplet": "Frédéric Ier de Hohenstaufen",
+  "role": "Empereur",
+  "roles": ["Roi des Romains", "Empereur", "Croisé"],
+  "dates": "vers 1122 → 1190",
+  "naissance": 1122,
+  "mort": 1190,
+  "description": "Empereur Hohenstaufen qui veut imposer son autorité à l’Italie et au pape. Battu par les villes lombardes, il meurt noyé en partant pour la troisième croisade.",
+  "reperes": [{ "label": "Règne", "valeur": "1152 → 1190" }],
+  "essentiel": [
+    "Il mène six expéditions en Italie et fait raser Milan en 1162.",
+    "La Ligue lombarde le bat à Legnano en 1176 ; il se réconcilie avec le pape.",
+    "Il part pour la troisième croisade et se noie dans un fleuve d’Anatolie en 1190."
+  ],
+  "aSavoir": ["Selon une légende allemande, il dort sous une montagne et se réveillera pour sauver l’Allemagne."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Barberousse"
+}

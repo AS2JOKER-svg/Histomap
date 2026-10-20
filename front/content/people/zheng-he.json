@@ -1,0 +1,16 @@
+{
+  "id": "zheng-he",
+  "nom": "Zheng He",
+  "role": "Amiral chinois",
+  "roles": ["Amiral", "Explorateur"],
+  "dates": "1371 → 1433",
+  "naissance": 1371,
+  "mort": 1433,
+  "description": "Eunuque musulman au service de l’empereur Yongle, il commande sept grandes expéditions maritimes qui atteignent l’Inde, l’Arabie et l’Afrique de l’Est.",
+  "essentiel": [
+    "Capturé enfant, il est castré et entre au service du futur empereur Yongle.",
+    "Il dirige des flottes de dizaines de navires et de milliers d’hommes lors des [[expeditions-de-zheng-he|expéditions maritimes]].",
+    "Il rapporte à Pékin des cadeaux exotiques, dont une girafe."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Zheng_He"
+}

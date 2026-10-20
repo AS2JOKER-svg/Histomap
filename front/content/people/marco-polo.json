@@ -1,0 +1,28 @@
+{
+  "id": "marco-polo",
+  "nom": "Marco Polo",
+  "role": "Marchand et voyageur vénitien",
+  "roles": ["Marchand", "Voyageur"],
+  "dates": "1254 → 1324",
+  "naissance": 1254,
+  "mort": 1324,
+  "description": "Marchand vénitien qui part à 17 ans pour la Chine avec son père et son oncle, reste près de vingt ans au service de l’empereur mongol Kubilaï Khan, puis raconte son voyage.",
+  "reperes": [{ "label": "Voyage", "valeur": "1271 → 1295" }],
+  "essentiel": [
+    "Il traverse l’Asie par les routes de la soie et arrive à la cour de Kubilaï vers 1275.",
+    "Il est chargé de missions dans l’empire, dont il décrit les villes, le papier-monnaie et la poste.",
+    "Prisonnier des Génois après la bataille de Curzola, il dicte ses souvenirs à son compagnon de cellule, Rusticien de Pise.",
+    "Le Devisement du monde (ou Livre des merveilles) inspire plus tard Christophe Colomb."
+  ],
+  "chronologie": [
+    { "annee": 1271, "texte": "Départ de Venise" },
+    { "annee": 1275, "texte": "Arrivée à la cour de Kubilaï" },
+    { "annee": 1295, "texte": "Retour à Venise" },
+    { "annee": 1298, "texte": "Prisonnier à Gênes, il dicte son livre" },
+    { "annee": 1324, "texte": "Mort à Venise" }
+  ],
+  "aSavoir": [
+    "Certains doutent qu’il soit allé en Chine, car il ne parle ni du thé ni de la Grande Muraille ; la plupart des historiens pensent toutefois que son récit est fiable."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Marco_Polo"
+}

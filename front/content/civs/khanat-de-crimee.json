@@ -1,0 +1,254 @@
+{
+  "documentaires": [],
+  "decouvertes": ["palais-de-bakhtchissarai"],
+  "id": "khanat-de-crimee",
+  "label": "Khanat de Crimée",
+  "tier": 2,
+  "region": "europe-est",
+  "period": "1441 à 1783",
+  "start": 1441,
+  "end": 1783,
+  "color": "#00897b",
+  "trackId": "scythes",
+  "row": 12,
+  "isRiver": false,
+  "capitale": "Bakhtchissaraï",
+  "description": "Un khanat tatar né de l’éclatement de la Horde d’or, vassal de l’Empire ottoman, dont les cavaliers dominent les steppes de la mer Noire pendant trois siècles, jusqu’à son annexion par la Russie en 1783.",
+  "territories": ["Crimean Khanate"],
+  "reperes": {
+    "capitale": { "valeur": "Bakhtchissaraï", "precision": "« le palais des jardins », capitale à partir du XVIe siècle" },
+    "regimes": {
+      "valeur": "Khanat",
+      "precision": "dynastie Giray, descendants de Gengis Khan ; vassal de l’Empire ottoman à partir de 1475-1478"
+    },
+    "langues": { "valeur": "Tatar de Crimée", "precision": "langue turque ; le turc ottoman et l’arabe servent aussi" },
+    "religion": { "valeur": "Islam sunnite" },
+    "apogee": { "valeur": "XVIe siècle", "precision": "en 1571, le khan incendie Moscou" },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": { "valeur": "Akçe", "precision": "petites pièces d’argent frappées par les khans" },
+    "duree": { "valeur": "Environ 340 ans" },
+    "aujourdhui": {
+      "valeur": "Crimée",
+      "precision": "péninsule annexée par la Russie en 2014, annexion non reconnue par l’Ukraine et la plupart des États ; et steppes du sud de l’Ukraine"
+    }
+  },
+  "essentiel": [
+    "En 1441, lors de l’éclatement de la Horde d’or, Hacı Giray, descendant de Gengis Khan, fonde un khanat indépendant en Crimée.",
+    "Vassal de l’Empire ottoman à partir de 1475-1478, il reste pendant trois siècles un allié militaire essentiel des sultans.",
+    "Ses cavaliers mènent des razzias en Pologne-Lituanie et en Russie et capturent des centaines de milliers de personnes, vendues comme esclaves sur les marchés de Crimée.",
+    "En 1571, le khan Devlet Ier Giray incendie Moscou, mais il est battu l’année suivante à la [[bataille-de-molodi|bataille de Molodi]].",
+    "Après la guerre russo-turque de 1768-1774, le khanat devient indépendant des Ottomans, puis il est [[annexion-de-la-crimee-par-la-russie|annexé par la Russie]] de Catherine II en 1783."
+  ],
+  "datesCles": [
+    { "annee": 1441, "evenement": "Fondation", "info": "Hacı Giray se rend indépendant de la Horde d’or." },
+    {
+      "annee": 1475,
+      "evenement": "Les Ottomans en Crimée",
+      "info": "Les Ottomans prennent le comptoir génois de Caffa ; le khan devient leur vassal."
+    },
+    { "annee": 1502, "evenement": "Fin de la Horde d’or", "info": "Le khan Meñli Ier Giray détruit Saraï." },
+    {
+      "annee": 1532,
+      "evenement": "Bakhtchissaraï",
+      "info": "Vers 1532, les khans s’installent dans leur nouvelle capitale, où ils bâtissent un palais."
+    },
+    { "annee": 1571, "evenement": "Moscou en flammes", "info": "Le khan Devlet Ier Giray incendie Moscou." },
+    {
+      "annee": 1572,
+      "evenement": "Molodi",
+      "info": "L’armée russe écrase l’armée tatare près de Moscou.",
+      "ref": "bataille-de-molodi"
+    },
+    {
+      "annee": 1648,
+      "evenement": "Alliance avec les Cosaques",
+      "info": "Le khan soutient la révolte de Bohdan Khmelnytsky contre la Pologne."
+    },
+    {
+      "annee": 1774,
+      "evenement": "Indépendance",
+      "info": "Le traité de Küçük Kaynarca détache le khanat de l’Empire ottoman."
+    },
+    {
+      "annee": 1783,
+      "evenement": "Annexion russe",
+      "info": "Catherine II annexe la Crimée.",
+      "ref": "annexion-de-la-crimee-par-la-russie"
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "La fondation",
+      "debut": 1441,
+      "fin": 1502,
+      "resume": "Les Giray s’imposent en Crimée, se placent sous la protection ottomane et abattent les restes de la Horde d’or.",
+      "evenements": [
+        { "annee": 1475, "evenement": "Prise de Caffa par les Ottomans" },
+        { "annee": 1502, "evenement": "Destruction de Saraï" }
+      ]
+    },
+    {
+      "nom": "La puissance",
+      "debut": 1502,
+      "fin": 1700,
+      "resume": "Le khanat lance des raids jusqu’à Moscou et en Pologne, combat aux côtés des Ottomans et s’allie parfois aux Cosaques.",
+      "evenements": [
+        { "annee": 1571, "evenement": "Incendie de Moscou" },
+        { "annee": 1572, "evenement": "Molodi", "ref": "bataille-de-molodi" },
+        { "annee": 1648, "evenement": "Alliance avec Khmelnytsky" }
+      ]
+    },
+    {
+      "nom": "Le déclin",
+      "debut": 1700,
+      "fin": 1783,
+      "resume": "Face à la Russie en pleine expansion, le khanat s’affaiblit, perd la protection ottomane et est annexé.",
+      "evenements": [
+        { "annee": 1736, "evenement": "Bakhtchissaraï incendiée par les Russes" },
+        { "annee": 1774, "evenement": "Indépendance" },
+        { "annee": 1783, "evenement": "Annexion", "ref": "annexion-de-la-crimee-par-la-russie" }
+      ]
+    }
+  ],
+  "regimes": [
+    {
+      "id": "khanat",
+      "nom": "Khanat vassal de l’Empire ottoman",
+      "debut": 1441,
+      "fin": 1774,
+      "note": "Indépendant de 1441 à 1475-1478."
+    },
+    { "id": "independant", "nom": "Khanat indépendant sous influence russe", "debut": 1774, "fin": 1783 }
+  ],
+  "dynasties": [
+    {
+      "id": "giray",
+      "nom": "La dynastie Giray",
+      "debut": 1441,
+      "fin": 1783,
+      "note": "Sélection ; plus de quarante règnes, souvent interrompus par les sultans."
+    }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Hacı Ier Giray",
+      "titre": "Khan",
+      "debut": 1441,
+      "fin": 1466,
+      "dynastie": "giray",
+      "note": "fondateur",
+      "cle": true
+    },
+    {
+      "nom": "Meñli Ier Giray",
+      "titre": "Khan",
+      "debut": 1466,
+      "fin": 1515,
+      "dynastie": "giray",
+      "note": "avec des interruptions ; vassal des Ottomans",
+      "cle": true
+    },
+    { "nom": "Mehmed Ier Giray", "titre": "Khan", "debut": 1515, "fin": 1523, "dynastie": "giray" },
+    { "nom": "Sahib Ier Giray", "titre": "Khan", "debut": 1532, "fin": 1551, "dynastie": "giray" },
+    {
+      "nom": "Devlet Ier Giray",
+      "titre": "Khan",
+      "debut": 1551,
+      "fin": 1577,
+      "dynastie": "giray",
+      "note": "incendie Moscou en 1571",
+      "cle": true
+    },
+    { "nom": "Ğazı II Giray", "titre": "Khan", "debut": 1588, "fin": 1607, "dynastie": "giray", "note": "poète" },
+    {
+      "nom": "İslâm III Giray",
+      "titre": "Khan",
+      "debut": 1644,
+      "fin": 1654,
+      "dynastie": "giray",
+      "note": "allié de Khmelnytsky"
+    },
+    {
+      "nom": "Kırım Giray",
+      "titre": "Khan",
+      "debut": 1758,
+      "fin": 1764,
+      "dynastie": "giray",
+      "note": "de nouveau en 1768-1769"
+    },
+    {
+      "nom": "Şahin Giray",
+      "titre": "Khan",
+      "debut": 1777,
+      "fin": 1783,
+      "dynastie": "giray",
+      "note": "dernier khan",
+      "cle": true
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Hürrem Sultan (Roxelane)",
+      "role": "Épouse du sultan",
+      "description": "Née en Ruthénie (Ukraine actuelle), capturée lors d’un raid tatar et vendue comme esclave, elle devient l’épouse du sultan ottoman Soliman le Magnifique.",
+      "dates": "vers 1502 → 1558",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Roxelane"
+    },
+    {
+      "nom": "Ğazı II Giray",
+      "role": "Khan et poète",
+      "description": "Khan de 1588 à 1607, il est aussi un poète et un musicien réputé.",
+      "dates": "1554 → 1607",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Gazi_II_Giray"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Incendie de Moscou par les Tatars",
+      "annee": 1571,
+      "adversaires": ["Tsarat de Russie (Ivan IV)"],
+      "allies": [],
+      "morts": "Plusieurs dizaines de milliers selon les chroniques",
+      "vainqueur": "Khanat de Crimée",
+      "consequences": "L’armée de Devlet Ier Giray contourne les défenses russes et met le feu aux faubourgs de Moscou ; l’incendie détruit presque toute la ville, sauf le Kremlin.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Incendie_de_Moscou_(1571)"
+    },
+    {
+      "nom": "Bataille de Molodi",
+      "annee": 1572,
+      "adversaires": ["Tsarat de Russie"],
+      "allies": ["Troupes ottomanes"],
+      "morts": "Plusieurs dizaines de milliers",
+      "vainqueur": "Tsarat de Russie",
+      "consequences": "L’armée tatare est écrasée au sud de Moscou : la Crimée ne menace plus jamais la survie de la Russie.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Molodi"
+    }
+  ],
+  "sciences": "Les khans font bâtir à Bakhtchissaraï un palais avec mosquée, bains, jardins et fontaines, dont la célèbre « fontaine des larmes » (1764). Les Tatars de Crimée sont réputés pour leurs chevaux, leur cavalerie légère et leur connaissance des pistes de la steppe.",
+  "croyancesText": "Les Tatars de Crimée sont musulmans sunnites ; le khan est assisté par le mufti et les juges religieux. Des chrétiens grecs, arméniens et des juifs karaïtes vivent aussi dans la péninsule, notamment autour de la forteresse de Tchoufout-Kalé.",
+  "diplomatie": "Le khan est vassal du sultan ottoman, qui peut le nommer et le destituer, mais il garde une grande autonomie. Il reçoit de la Pologne-Lituanie et de la Russie des présents réguliers, une sorte de tribut destiné à limiter les raids. Il s’allie selon les moments aux Cosaques, aux Polonais ou aux Russes.",
+  "societe": "Le pouvoir du khan est partagé avec les grandes familles nobles (beys) et leurs clans. Une partie de la population vit de l’élevage nomade dans la steppe, une autre de l’agriculture et de l’artisanat dans les villes et vallées du sud de la péninsule.",
+  "economie": "Élevage, agriculture et vignes du sud de la Crimée, commerce avec l’Empire ottoman ; traite des captifs vendus sur les marchés de Caffa.",
+  "arts": "Palais de Bakhtchissaraï, mosquées, poésie en turc, broderies et orfèvrerie.",
+  "quotidien": "La cavalerie tatare se déplace avec plusieurs chevaux par cavalier, ce qui lui permet de parcourir de très longues distances en peu de temps.",
+  "heritage": [
+    {
+      "titre": "Les Tatars de Crimée",
+      "texte": "Héritiers du khanat, ils ont été déportés en masse vers l’Asie centrale par le régime soviétique en 1944 ; beaucoup sont revenus en Crimée à partir de la fin des années 1980."
+    },
+    {
+      "titre": "La fontaine de Bakhtchissaraï",
+      "texte": "Elle a inspiré au poète russe Pouchkine un célèbre poème (1824)."
+    }
+  ],
+  "aSavoir": [
+    "Les razzias de captifs, dont les victimes étaient surtout ukrainiennes, polonaises et russes, ont durablement marqué la mémoire de ces peuples."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Khanat_de_Crim%C3%A9e",
+    {
+      "titre": "Encyclopædia Britannica — Crimean Khanate",
+      "url": "https://www.britannica.com/place/Crimean-khanate"
+    }
+  ]
+}

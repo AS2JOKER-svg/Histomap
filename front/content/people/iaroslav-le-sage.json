@@ -1,0 +1,17 @@
+{
+  "id": "iaroslav-le-sage",
+  "nom": "Iaroslav le Sage",
+  "role": "Grand-prince de Kiev",
+  "roles": ["Grand-prince", "Législateur"],
+  "dates": "vers 978 → 1054",
+  "naissance": 978,
+  "mort": 1054,
+  "description": "Grand-prince sous lequel la Rus’ de Kiev atteint son apogée : il fait bâtir Sainte-Sophie de Kiev, rédiger des lois et marie ses enfants aux familles royales d’Europe.",
+  "essentiel": [
+    "Il bat son frère Sviatopolk et devient grand-prince en 1019.",
+    "On lui attribue la première version de la Rousskaïa Pravda, le code de lois de la Rus’.",
+    "Sa fille Anne épouse le roi de France Henri Ier."
+  ],
+  "liens": [{ "ref": "vladimir-le-grand", "relation": "Son père" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Iaroslav_le_Sage"
+}

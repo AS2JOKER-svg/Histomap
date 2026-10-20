@@ -1,0 +1,21 @@
+{
+  "id": "partition-des-indes",
+  "nom": "Indépendance et partition des Indes",
+  "annee": 1947,
+  "dates": "14-15 août 1947",
+  "lieu": "Inde et Pakistan",
+  "description": "L’Empire britannique des Indes est divisé en deux États indépendants : l’Inde, à majorité hindoue, et le Pakistan, à majorité musulmane.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "La frontière est tracée en quelques semaines. Environ 15 millions de personnes fuient d’un pays à l’autre, et des violences entre communautés font entre 200 000 et 2 millions de morts."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "L’Inde et le Pakistan se disputent le Cachemire depuis 1947. En 1971, le Pakistan oriental devient le Bangladesh."
+    }
+  ],
+  "liens": [{ "ref": "jawaharlal-nehru", "relation": "Premier ministre de l’Inde" }],
+  "avant": "marche-du-sel",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Partition_des_Indes"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "constitution-du-3-mai-1791",
+  "nom": "Constitution du 3 mai 1791",
+  "annee": 1791,
+  "dates": "3 mai 1791",
+  "lieu": "Varsovie",
+  "description": "La Diète polonaise adopte une constitution écrite qui supprime le liberum veto et renforce l’État : la première constitution moderne d’Europe, après celle des États-Unis.",
+  "sections": [
+    {
+      "titre": "Ce qu’elle prévoit",
+      "texte": "Séparation des pouvoirs, monarchie héréditaire, fin du veto individuel, droits pour les bourgeois et protection des paysans."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "La Russie, hostile à ces réformes, envahit le pays en 1792 ; la constitution est abolie et le deuxième partage suit."
+    }
+  ],
+  "apres": "partages-de-la-pologne",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Constitution_polonaise_du_3_mai_1791"
+}

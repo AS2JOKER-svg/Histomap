@@ -1,0 +1,19 @@
+{
+  "id": "lettres-sur-ecorce-de-bouleau",
+  "nom": "Lettres sur écorce de bouleau",
+  "annee": 1100,
+  "domaine": "Écriture",
+  "dates": "XIe-XVe siècles ; découvertes à partir de 1951",
+  "description": "Plus d’un millier de messages gravés sur de l’écorce de bouleau, retrouvés dans le sol humide de Novgorod : des lettres de la vie de tous les jours.",
+  "sections": [
+    {
+      "titre": "Ce qu’elles racontent",
+      "texte": "Comptes, demandes de paiement, lettres entre époux, et même des exercices d’écriture d’un petit garçon, Onfim, qui dessine aussi des guerriers."
+    },
+    {
+      "titre": "Ce qu’elles nous apprennent",
+      "texte": "Elles montrent que de nombreux habitants de Novgorod, hommes et femmes, savaient lire et écrire."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Documents_sur_%C3%A9corce_de_bouleau"
+}

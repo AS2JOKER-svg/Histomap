@@ -1,0 +1,18 @@
+{
+  "id": "maimonide",
+  "nom": "Maïmonide",
+  "nomComplet": "Moïse ben Maïmon",
+  "role": "Philosophe et médecin juif",
+  "roles": ["Philosophe", "Médecin", "Rabbin"],
+  "dates": "1138 → 1204",
+  "naissance": 1138,
+  "mort": 1204,
+  "description": "Né à Cordoue, il fuit avec sa famille les persécutions almohades, s’installe en Égypte et devient médecin de la cour de Saladin. C’est l’un des plus grands penseurs du judaïsme.",
+  "essentiel": [
+    "Son Guide des égarés cherche à concilier la foi juive et la philosophie d’Aristote.",
+    "Il rédige le Mishné Torah, grande synthèse de la loi juive.",
+    "Ses traités de médecine sont étudiés pendant des siècles."
+  ],
+  "liens": [{ "ref": "averroes", "relation": "Son contemporain, lui aussi né à Cordoue" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Ma%C3%AFmonide"
+}

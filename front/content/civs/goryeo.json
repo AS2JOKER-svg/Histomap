@@ -1,0 +1,307 @@
+{
+  "id": "goryeo",
+  "label": "Corée (Dynastie Goryeo)",
+  "tier": 1,
+  "region": "coree",
+  "period": "918 à 1392",
+  "start": 918,
+  "end": 1392,
+  "trackId": "coree",
+  "row": 6,
+  "isRiver": false,
+  "capitale": "Gaegyeong",
+  "description": "Le royaume coréen de Goryeo, qui a donné son nom à la Corée : un État bouddhiste raffiné, célèbre pour ses céladons et son imprimerie en caractères métalliques, qui résiste puis se soumet aux Mongols.",
+  "territories": ["Goryeo", "Korea"],
+  "datesCles": [
+    {
+      "annee": 918,
+      "evenement": "Fondation",
+      "info": "Wang Geon fonde le royaume de Goryeo ; il unifie la péninsule en 935-936."
+    },
+    {
+      "annee": 958,
+      "evenement": "Examens d’État",
+      "info": "Le roi Gwangjong crée des examens, sur le modèle chinois, pour recruter les fonctionnaires."
+    },
+    {
+      "annee": 1019,
+      "evenement": "Victoire de Gwiju",
+      "info": "Le général Gang Gam-chan écrase l’armée des Khitans."
+    },
+    {
+      "annee": 1170,
+      "evenement": "Coup d’État militaire",
+      "info": "Les généraux massacrent des fonctionnaires civils et prennent le pouvoir pour un siècle."
+    },
+    {
+      "annee": 1231,
+      "evenement": "Invasion Mongole",
+      "info": "Début de près de trente ans de guerre ; la cour se réfugie sur l’île de Ganghwa.",
+      "ref": "invasions-mongoles-de-la-coree"
+    },
+    {
+      "annee": 1377,
+      "evenement": "L’imprimerie métallique",
+      "info": "Impression du Jikji, le plus ancien livre conservé imprimé en caractères mobiles métalliques (leur usage est attesté dès vers 1234)."
+    },
+    {
+      "annee": 1392,
+      "evenement": "Fin de Goryeo",
+      "info": "Le général Yi Seong-gye renverse le dernier roi et fonde la dynastie Joseon."
+    }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Taejo (Wang Geon)",
+      "titre": "Roi",
+      "debut": 918,
+      "fin": 943,
+      "dynastie": "wang",
+      "personne": "wang-geon",
+      "note": "fondateur",
+      "cle": true
+    },
+    {
+      "nom": "Gwangjong",
+      "titre": "Roi",
+      "debut": 949,
+      "fin": 975,
+      "dynastie": "wang",
+      "note": "crée les examens d’État",
+      "cle": true
+    },
+    {
+      "nom": "Seongjong",
+      "titre": "Roi",
+      "debut": 981,
+      "fin": 997,
+      "dynastie": "wang",
+      "note": "organise l’État sur le modèle confucéen"
+    },
+    { "nom": "Hyeonjong", "titre": "Roi", "debut": 1009, "fin": 1031, "dynastie": "wang", "note": "repousse les Khitans" },
+    { "nom": "Munjong", "titre": "Roi", "debut": 1046, "fin": 1083, "dynastie": "wang" },
+    { "nom": "Injong", "titre": "Roi", "debut": 1122, "fin": 1146, "dynastie": "wang" },
+    {
+      "nom": "Uijong",
+      "titre": "Roi",
+      "debut": 1146,
+      "fin": 1170,
+      "dynastie": "wang",
+      "note": "renversé par les généraux"
+    },
+    {
+      "nom": "Jeong Jung-bu",
+      "titre": "Chef militaire",
+      "debut": 1170,
+      "fin": 1179,
+      "dynastie": "generaux",
+      "note": "mène le coup d’État"
+    },
+    {
+      "nom": "Choe Chung-heon",
+      "titre": "Dictateur militaire",
+      "debut": 1196,
+      "fin": 1219,
+      "dynastie": "generaux",
+      "note": "fonde le régime du clan Choe",
+      "cle": true
+    },
+    {
+      "nom": "Choe U",
+      "titre": "Dictateur militaire",
+      "debut": 1219,
+      "fin": 1249,
+      "dynastie": "generaux",
+      "note": "organise la résistance aux Mongols"
+    },
+    {
+      "nom": "Gojong",
+      "titre": "Roi",
+      "debut": 1213,
+      "fin": 1259,
+      "dynastie": "rois-tardifs",
+      "note": "règne pendant les invasions mongoles"
+    },
+    {
+      "nom": "Chungnyeol",
+      "titre": "Roi",
+      "debut": 1274,
+      "fin": 1308,
+      "dynastie": "rois-tardifs",
+      "note": "épouse une fille de Kubilaï"
+    },
+    {
+      "nom": "Gongmin",
+      "titre": "Roi",
+      "debut": 1351,
+      "fin": 1374,
+      "dynastie": "rois-tardifs",
+      "note": "rejette la tutelle mongole ; assassiné",
+      "cle": true
+    },
+    { "nom": "U", "titre": "Roi", "debut": 1374, "fin": 1388, "dynastie": "rois-tardifs" },
+    { "nom": "Gongyang", "titre": "Roi", "debut": 1389, "fin": 1392, "dynastie": "rois-tardifs", "note": "dernier roi" }
+  ],
+  "personnages": [
+    {
+      "nom": "Wang Geon",
+      "role": "Fondateur",
+      "description": "Ancien chef militaire, il fonde Goryeo et réunifie la péninsule coréenne.",
+      "dates": "877 → 943",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Taejo_de_Goryeo_(Wang_Geon)",
+      "ref": "wang-geon"
+    },
+    {
+      "nom": "Gongmin",
+      "role": "Roi réformateur",
+      "description": "Il profite du déclin des Mongols pour reprendre l’indépendance de Goryeo et lancer des réformes, avant d’être assassiné.",
+      "dates": "règne 1351 → 1374",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Kongmin"
+    },
+    {
+      "nom": "Gang Gam-chan",
+      "role": "Général",
+      "description": "Il écrase l’armée khitane à Gwiju en 1019, la plus grande victoire de Goryeo.",
+      "dates": "948 → 1031",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Gang_Gam-chan"
+    },
+    {
+      "nom": "Kim Bu-sik",
+      "role": "Historien",
+      "description": "Lettré et ministre, il rédige en 1145 le Samguk sagi, la plus ancienne histoire de la Corée conservée.",
+      "dates": "1075 → 1151",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Kim_Pusik"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerre Mongol-Goryeo",
+      "annee": 1231,
+      "adversaires": ["Empire Mongol"],
+      "allies": [],
+      "morts": "Très lourdes ; selon une chronique, plus de 200 000 personnes sont emmenées captives lors de la seule campagne de 1254",
+      "vainqueur": "Empire Mongol",
+      "consequences": "Guerre de 1231 à 1259 (avec de longues trêves). Goryeo devient vassal des Mongols, qui l’utilisent comme base pour attaquer le Japon.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Invasions_mongoles_de_la_Cor%C3%A9e"
+    }
+  ],
+  "sciences": "Les Coréens de Goryeo utilisent des caractères mobiles fondus en métal dès le XIIIe siècle : le Jikji, imprimé en 1377, est le plus ancien livre conservé imprimé ainsi, près de 80 ans avant la Bible de Gutenberg. Leurs potiers créent le céladon, à la glaçure vert-de-gris, puis une technique d’incrustation d’argile blanche et noire unique au monde.",
+  "croyancesText": "Le bouddhisme est la religion de l’État : les rois financent temples et monastères, et les moines jouent un grand rôle politique. Pendant les invasions mongoles, le royaume fait graver tout le canon bouddhiste sur plus de 80 000 planches de bois, le Tripitaka Koreana, pour obtenir la protection du Bouddha. Le confucianisme guide l’administration et gagne du terrain à la fin de la période.",
+  "diplomatie": "Goryeo vit entre la Chine des Song et les puissants peuples du nord, Khitans et Jurchen, qu’il combat ou dont il reconnaît la suzeraineté. Après trente ans de résistance aux Mongols, les rois deviennent leurs vassaux et épousent des princesses de la famille de Kubilaï ; la Corée doit aussi fournir navires et soldats pour les invasions du Japon.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": {
+      "valeur": "Gaegyeong",
+      "precision": "aujourd’hui Kaesong (Corée du Nord) ; l’île de Ganghwa pendant les invasions mongoles (1232-1270)"
+    },
+    "regimes": {
+      "valeur": "Monarchie",
+      "precision": "avec un siècle de régime militaire (1170-1270), puis la tutelle mongole"
+    },
+    "langues": { "valeur": "Coréen", "precision": "écrit avec les caractères chinois" },
+    "religion": { "valeur": "Bouddhisme", "precision": "religion d’État, à côté du confucianisme pour l’administration" },
+    "apogee": { "valeur": "XIe siècle", "precision": "après les victoires sur les Khitans" },
+    "population": { "valeur": "Peut-être 2 à 3 millions", "precision": "estimation" },
+    "monnaie": {
+      "valeur": "Monnaies chinoises et lingots d’argent",
+      "precision": "les pièces frappées par l’État circulent peu"
+    },
+    "duree": { "valeur": "Près de 475 ans" },
+    "aujourdhui": { "valeur": "Corée du Nord et Corée du Sud" }
+  },
+  "essentiel": [
+    "En 918, [[wang-geon|Wang Geon]] fonde le royaume de Goryeo, dont le nom a donné le mot « Corée » ; il réunifie la péninsule en 936.",
+    "Le royaume repousse les invasions des Khitans et adopte des examens pour recruter ses fonctionnaires.",
+    "Ses artisans créent le [[celadon-de-goryeo|céladon]], une céramique vert-de-gris admirée jusqu’en Chine.",
+    "Pendant les [[invasions-mongoles-de-la-coree|invasions mongoles]], le royaume fait graver le [[tripitaka-koreana|Tripitaka Koreana]] ; il finit par se soumettre aux Mongols.",
+    "Goryeo imprime en 1377 le [[jikji|Jikji]], le plus ancien livre conservé imprimé avec des caractères mobiles en métal."
+  ],
+  "periodes": [
+    {
+      "nom": "La fondation",
+      "debut": 918,
+      "fin": 1009,
+      "resume": "Wang Geon réunifie la Corée ; ses successeurs organisent l’État sur le modèle chinois et protègent le bouddhisme.",
+      "evenements": [
+        { "annee": 936, "evenement": "Réunification de la péninsule" },
+        { "annee": 958, "evenement": "Premiers examens d’État" }
+      ]
+    },
+    {
+      "nom": "L’âge d’or",
+      "debut": 1009,
+      "fin": 1170,
+      "resume": "Goryeo repousse les Khitans, s’enrichit et développe ses arts : céladons, peintures bouddhiques, histoire des Trois Royaumes (1145).",
+      "evenements": [
+        { "annee": 1019, "evenement": "Victoire de Gwiju" },
+        { "annee": 1145, "evenement": "Histoire des Trois Royaumes (Samguk sagi)" }
+      ]
+    },
+    {
+      "nom": "Le régime militaire et les Mongols",
+      "debut": 1170,
+      "fin": 1270,
+      "resume": "Les généraux, puis le clan Choe, gouvernent à la place des rois. Les Mongols envahissent le pays à plusieurs reprises.",
+      "evenements": [
+        { "annee": 1196, "evenement": "Prise du pouvoir par Choe Chung-heon" },
+        { "annee": 1232, "evenement": "La cour à Ganghwa" },
+        { "annee": 1251, "evenement": "Achèvement du Tripitaka Koreana" }
+      ]
+    },
+    {
+      "nom": "Sous la tutelle mongole",
+      "debut": 1270,
+      "fin": 1392,
+      "resume": "Les rois épousent des princesses mongoles. Gongmin rejette la tutelle des Yuan, mais le royaume s’affaiblit et tombe en 1392.",
+      "evenements": [
+        { "annee": 1356, "evenement": "Gongmin rejette la tutelle mongole" },
+        { "annee": 1377, "evenement": "Impression du Jikji" }
+      ]
+    }
+  ],
+  "regimes": [
+    { "id": "royaute", "nom": "Monarchie", "debut": 918, "fin": 1170 },
+    {
+      "id": "militaire",
+      "nom": "Régime militaire",
+      "debut": 1170,
+      "fin": 1270,
+      "note": "Les rois restent sur le trône, mais les généraux gouvernent."
+    },
+    { "id": "tutelle", "nom": "Tutelle mongole", "debut": 1270, "fin": 1392 }
+  ],
+  "dynasties": [
+    {
+      "id": "wang",
+      "nom": "Les rois Wang",
+      "debut": 918,
+      "fin": 1170,
+      "regime": "royaute",
+      "note": "Sélection parmi 34 rois."
+    },
+    { "id": "generaux", "nom": "Les chefs militaires", "debut": 1170, "fin": 1249, "regime": "militaire" },
+    { "id": "rois-tardifs", "nom": "Les rois de la fin", "debut": 1213, "fin": 1392, "regime": "tutelle" }
+  ],
+  "societe": "Une aristocratie de grandes familles domine la cour et l’administration. Les paysans cultivent le riz, et une partie importante de la population est non libre. Le régime militaire provoque des révoltes, dont celle de l’esclave Manjeok (1198).",
+  "economie": "Riziculture, céramique, papier, ginseng et commerce avec la Chine des Song ; le port de Byeongnando accueille même des marchands arabes, qui feraient connaître le nom de « Corée ».",
+  "decouvertes": ["celadon-de-goryeo", "tripitaka-koreana", "jikji"],
+  "arts": "Céladons incrustés, peintures bouddhiques sur soie, statues de Bouddha, temples en bois comme le Muryangsujeon de Buseoksa.",
+  "quotidien": "La plupart des Coréens sont paysans. Les grandes fêtes bouddhistes, comme celle des lanternes, rassemblent la population.",
+  "heritage": [
+    {
+      "titre": "Le nom de la Corée",
+      "texte": "Goryeo a donné le mot « Corée » (Korea) dans les langues occidentales."
+    },
+    {
+      "titre": "Le Tripitaka Koreana",
+      "texte": "Les planches sont toujours conservées au temple de Haeinsa, inscrit au patrimoine mondial."
+    }
+  ],
+  "aSavoir": [
+    "Le seul exemplaire connu du Jikji est conservé à la Bibliothèque nationale de France, à Paris ; la Corée du Sud en demande le retour."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Goryeo",
+    { "titre": "Encyclopædia Britannica — Koryŏ dynasty", "url": "https://www.britannica.com/topic/Koryo-dynasty" }
+  ]
+}

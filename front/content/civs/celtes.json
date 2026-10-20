@@ -1,0 +1,313 @@
+{
+  "id": "celtes",
+  "label": "Celtes / Gaulois",
+  "tier": 1,
+  "region": "europe-ouest",
+  "period": "-800 à -50",
+  "start": -800,
+  "end": -50,
+  "color": "#5b8c5a",
+  "trackId": "celtes",
+  "row": 4,
+  "isRiver": false,
+  "capitale": "Aucune ; des oppida (Bibracte, Gergovie…)",
+  "description": "Un ensemble de peuples parlant des langues celtiques, de l’Atlantique au Danube, célèbres pour leur artisanat du métal et leurs druides. Ceux de Gaule sont conquis par César en −52.",
+  "territories": ["Celts", "Boii"],
+  "datesCles": [
+    {
+      "annee": -500,
+      "evenement": "Tombe de Vix",
+      "info": "Une princesse celte est enterrée en Bourgogne avec un immense vase de bronze venu du monde grec."
+    },
+    {
+      "annee": -390,
+      "evenement": "Prise de Rome",
+      "info": "Les Gaulois Sénons du chef Brennus battent les Romains sur l’Allia et prennent Rome (vers −390 selon la tradition, −387 selon d’autres calculs).",
+      "ref": "sac-de-rome-gaulois"
+    },
+    {
+      "annee": -279,
+      "evenement": "Expédition en Grèce",
+      "info": "Une armée celte attaque le sanctuaire de Delphes ; des groupes passent en Anatolie, où ils deviennent les Galates."
+    },
+    {
+      "annee": -121,
+      "evenement": "La Narbonnaise romaine",
+      "info": "Rome bat les Arvernes du roi Bituit et conquiert le sud de la Gaule."
+    },
+    {
+      "annee": -58,
+      "evenement": "Début de la guerre des Gaules",
+      "info": "Jules César intervient en Gaule et la conquiert en quelques années."
+    },
+    {
+      "annee": -52,
+      "evenement": "Bataille de Gergovie",
+      "info": "Vercingétorix repousse l’assaut de César contre la ville des Arvernes.",
+      "ref": "bataille-de-gergovie"
+    },
+    {
+      "annee": -52,
+      "evenement": "Siège d’Alésia",
+      "info": "Assiégé par César, Vercingétorix se rend : la résistance gauloise est brisée.",
+      "ref": "siege-d-alesia"
+    }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Brennus",
+      "titre": "Chef des Sénons",
+      "debut": -390,
+      "fin": -390,
+      "dynastie": "expeditions",
+      "note": "prend Rome",
+      "cle": true
+    },
+    {
+      "nom": "Brennus",
+      "titre": "Chef de guerre",
+      "debut": -279,
+      "fin": -279,
+      "dynastie": "expeditions",
+      "note": "attaque Delphes"
+    },
+    {
+      "nom": "Bituit",
+      "titre": "Roi des Arvernes",
+      "debut": -121,
+      "fin": -121,
+      "dynastie": "gaule",
+      "note": "vaincu par les Romains"
+    },
+    {
+      "nom": "Orgétorix",
+      "titre": "Noble helvète",
+      "debut": -61,
+      "fin": -60,
+      "dynastie": "gaule",
+      "note": "prépare la migration des Helvètes"
+    },
+    {
+      "nom": "Diviciacos",
+      "titre": "Druide et chef éduen",
+      "debut": -63,
+      "fin": -58,
+      "dynastie": "gaule",
+      "note": "allié de César"
+    },
+    {
+      "nom": "Dumnorix",
+      "titre": "Noble éduen",
+      "debut": -58,
+      "fin": -54,
+      "dynastie": "gaule",
+      "note": "frère de Diviciacos, hostile à Rome"
+    },
+    {
+      "nom": "Ambiorix",
+      "titre": "Roi des Éburons",
+      "debut": -54,
+      "fin": -53,
+      "dynastie": "gaule",
+      "note": "écrase une légion romaine"
+    },
+    {
+      "nom": "Vercingétorix",
+      "titre": "Chef des Arvernes",
+      "debut": -52,
+      "fin": -52,
+      "dynastie": "gaule",
+      "personne": "vercingetorix",
+      "note": "chef de la coalition gauloise",
+      "cle": true
+    },
+    {
+      "nom": "Commios",
+      "titre": "Roi des Atrébates",
+      "debut": -57,
+      "fin": -51,
+      "dynastie": "gaule",
+      "note": "allié puis ennemi de César"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Vercingétorix",
+      "role": "Chef des Arvernes",
+      "description": "Il unit la plupart des peuples gaulois contre César en −52, le bat à Gergovie, puis se rend à Alésia.",
+      "dates": "vers −80 → −46",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Vercing%C3%A9torix",
+      "ref": "vercingetorix"
+    },
+    {
+      "nom": "Brennus",
+      "role": "Chef des Sénons",
+      "description": "Chef gaulois qui prend Rome vers −390 ; on lui prête le mot « Malheur aux vaincus ! » (Vae victis).",
+      "dates": "vers −390",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Brennus_(IVe_si%C3%A8cle_av._J.-C.)"
+    },
+    {
+      "nom": "Ambiorix",
+      "role": "Roi des Éburons",
+      "description": "Chef du nord de la Gaule qui anéantit une légion romaine en −54, puis échappe à César.",
+      "dates": "Ier siècle av. J.-C.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Ambiorix"
+    },
+    {
+      "nom": "Diviciacos",
+      "role": "Druide éduen",
+      "description": "Le seul druide gaulois dont on connaisse le nom avec certitude ; allié de Rome, il rencontre Cicéron.",
+      "dates": "Ier siècle av. J.-C.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Diviciacos"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Bataille de l’Allia",
+      "annee": -390,
+      "adversaires": ["République romaine"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Les Gaulois Sénons (Brennus)",
+      "consequences": "Rome est prise et pillée ; les Gaulois ne partent qu’après avoir reçu une rançon en or.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_l%27Allia"
+    },
+    {
+      "nom": "Bataille d'Alésia",
+      "annee": -52,
+      "adversaires": ["Rome (Jules César)"],
+      "allies": ["Coalition de peuples gaulois"],
+      "morts": "Inconnues ; César avance des chiffres énormes, sans doute très exagérés",
+      "vainqueur": "Rome",
+      "consequences": "Vercingétorix se rend à César. La Gaule est entièrement soumise en −51 et devient romaine.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_d'Al%C3%A9sia"
+    }
+  ],
+  "sciences": "Les Celtes sont d’excellents forgerons et orfèvres. Ils fabriquent des cottes de mailles, des épées et des outils en fer de grande qualité. Les Gaulois sont réputés pour leurs tonneaux en bois, et Pline l’Ancien décrit, en Gaule romaine, une moissonneuse poussée par un animal. Leurs chars et leurs routes facilitent le commerce à travers l’Europe.",
+  "croyancesText": "Les druides sont à la fois prêtres, juges, savants et enseignants. Selon César, ils apprennent par cœur et refusent d’écrire leur savoir religieux. Les Celtes honorent de nombreux dieux (Lug, Taranis, Ésus, Teutatès…) dans des sanctuaires en forêt, près des sources ou dans des enclos. Ils conservent parfois les têtes des ennemis vaincus. Les auteurs romains parlent de sacrifices humains, dont l’archéologie trouve peu de traces certaines.",
+  "diplomatie": "La Gaule compte une soixantaine de peuples, souvent rivaux, comme les Éduens et les Arvernes. Ces rivalités servent César : les Éduens, alliés de Rome, l’appellent à l’aide contre la migration des Helvètes en −58, ce qui lui donne l’occasion d’intervenir. En −52, Vercingétorix parvient à réunir la plupart des peuples, mais trop tard.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": {
+      "valeur": "Aucune capitale commune",
+      "precision": "des villes fortifiées (oppida) comme Bibracte chez les Éduens ou Gergovie chez les Arvernes"
+    },
+    "regimes": {
+      "valeur": "Peuples indépendants",
+      "precision": "dirigés par des rois, puis souvent par des aristocrates et des magistrats élus (le vergobret chez les Éduens)"
+    },
+    "langues": {
+      "valeur": "Langues celtiques",
+      "precision": "dont le gaulois ; écrites parfois avec l’alphabet grec, puis latin"
+    },
+    "religion": { "valeur": "Polythéisme", "precision": "avec des prêtres, les druides" },
+    "apogee": { "valeur": "IVe-IIIe siècles av. J.-C.", "precision": "les Celtes s’étendent de l’Espagne à l’Anatolie" },
+    "population": {
+      "valeur": "Gaule : peut-être 5 à 10 millions",
+      "precision": "estimations très incertaines, à la veille de la conquête"
+    },
+    "monnaie": {
+      "valeur": "Monnaies d’or et d’argent",
+      "precision": "à partir du IIIe siècle av. J.-C., imitées des pièces grecques"
+    },
+    "duree": { "valeur": "Environ 750 ans" },
+    "aujourdhui": {
+      "valeur": "Europe de l’Ouest et centrale",
+      "precision": "France, Belgique, Suisse, sud de l’Allemagne, Autriche, Bohême, îles Britanniques, nord de l’Espagne…"
+    }
+  },
+  "essentiel": [
+    "Les Celtes ne forment pas un empire, mais des dizaines de peuples qui partagent des langues, des dieux et un art proches.",
+    "Leur culture se développe d’abord autour de Hallstatt (Autriche), puis de La Tène (Suisse), qui donnent leur nom à deux périodes.",
+    "Ils mènent de grandes expéditions : en −390, des Gaulois [[sac-de-rome-gaulois|prennent Rome]] ; d’autres s’installent jusqu’en Anatolie.",
+    "Ce sont d’excellents artisans du fer et de l’or ; leurs druides sont à la fois prêtres, juges et savants.",
+    "En −52, la révolte menée par [[vercingetorix|Vercingétorix]] échoue à [[siege-d-alesia|Alésia]] : la Gaule devient romaine."
+  ],
+  "periodes": [
+    {
+      "nom": "L’époque de Hallstatt",
+      "debut": -800,
+      "fin": -450,
+      "resume": "De puissants chefs, enterrés avec des chars et des objets précieux venus de Grèce et d’Étrurie, contrôlent le commerce du sel, de l’étain et de l’ambre.",
+      "evenements": [
+        { "annee": -600, "evenement": "Fondation de Marseille par les Grecs" },
+        { "annee": -500, "evenement": "Tombe de Vix" }
+      ]
+    },
+    {
+      "nom": "L’époque de La Tène et les grandes expéditions",
+      "debut": -450,
+      "fin": -200,
+      "resume": "Un nouvel art se développe. Des Celtes s’installent en Italie du Nord, prennent Rome, attaquent la Grèce et fondent la Galatie en Anatolie.",
+      "evenements": [
+        { "annee": -390, "evenement": "Prise de Rome", "ref": "sac-de-rome-gaulois" },
+        { "annee": -279, "evenement": "Attaque de Delphes" }
+      ]
+    },
+    {
+      "nom": "Les oppida et la conquête romaine",
+      "debut": -200,
+      "fin": -50,
+      "resume": "Les Gaulois bâtissent de grandes villes fortifiées et frappent monnaie. Rome conquiert le sud de la Gaule (−121), puis César soumet tout le reste (−58 à −51).",
+      "evenements": [
+        { "annee": -121, "evenement": "Défaite de Bituit" },
+        { "annee": -52, "evenement": "Siège d’Alésia", "ref": "siege-d-alesia" }
+      ]
+    }
+  ],
+  "regimes": [
+    {
+      "id": "peuples",
+      "nom": "Peuples indépendants",
+      "debut": -800,
+      "fin": -50,
+      "note": "Chaque peuple (Éduens, Arvernes, Sénons…) a ses chefs. Les noms connus viennent surtout des auteurs grecs et romains."
+    }
+  ],
+  "dynasties": [
+    {
+      "id": "expeditions",
+      "nom": "Les chefs des grandes expéditions",
+      "debut": -390,
+      "fin": -279,
+      "regime": "peuples",
+      "note": "Deux chefs différents portent le nom de Brennus ; c’est peut-être un titre."
+    },
+    {
+      "id": "gaule",
+      "nom": "Les chefs gaulois face à Rome",
+      "debut": -121,
+      "fin": -51,
+      "regime": "peuples",
+      "note": "Connus surtout par la Guerre des Gaules de César."
+    }
+  ],
+  "societe": "Selon César, la société gauloise est dominée par les druides et les guerriers aristocrates (les « chevaliers »), qui ont de nombreux dépendants. La majorité de la population est paysanne.",
+  "economie": "Agriculture et élevage (céréales, porcs, chevaux), travail du fer, de l’or et du bronze, commerce du sel et de l’étain, importation de vin d’Italie dans des amphores.",
+  "decouvertes": ["tombe-de-vix"],
+  "arts": "L’art de La Tène joue avec les courbes, les spirales et les formes d’animaux sur les bijoux, les armes et les casques. Torques en or, chaudron de Gundestrup et monnaies stylisées en sont des exemples célèbres.",
+  "quotidien": "Les Gaulois vivent dans des fermes et des villages de maisons en bois et en torchis. Ils portent des braies (pantalons) et des manteaux colorés, et apprécient les banquets.",
+  "heritage": [
+    {
+      "titre": "Les langues celtiques",
+      "texte": "Le breton, le gallois, l’irlandais et le gaélique écossais sont toujours parlés."
+    },
+    {
+      "titre": "Des noms de lieux",
+      "texte": "Paris vient des Parisii, Reims des Rèmes, Bourges des Bituriges ; de nombreux mots français viennent du gaulois : chêne, mouton, tonneau, alouette…"
+    },
+    {
+      "titre": "Une figure nationale",
+      "texte": "Au XIXe siècle, Vercingétorix devient en France un héros national."
+    }
+  ],
+  "aSavoir": [
+    "Les Gaulois ne portaient pas de casques à ailes : cette image vient des peintres et illustrateurs du XIXe siècle.",
+    "Presque tout ce que l’on sait d’eux par les textes vient de leurs adversaires, comme César."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Celtes",
+    "https://fr.wikipedia.org/wiki/Gaulois_(peuples)",
+    { "titre": "Encyclopædia Britannica — Celt", "url": "https://www.britannica.com/topic/Celt-people" }
+  ]
+}

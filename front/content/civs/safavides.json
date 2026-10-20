@@ -1,0 +1,219 @@
+{
+  "id": "safavides",
+  "label": "Empire Safavide",
+  "tier": 1,
+  "region": "iran",
+  "period": "1501 à 1736",
+  "start": 1501,
+  "end": 1736,
+  "trackId": "perse",
+  "row": 3,
+  "isRiver": false,
+  "capitale": "Tabriz puis Ispahan",
+  "description": "La dynastie qui unifie l’Iran au XVIe siècle et y impose le chiisme comme religion d’État ; sous Abbas le Grand, Ispahan devient l’une des plus belles villes du monde.",
+  "territories": ["Safavid Empire"],
+  "datesCles": [
+    {
+      "annee": 1501,
+      "evenement": "Couronnement",
+      "info": "Ismaïl Ier prend Tabriz et se proclame chah, instaurant le chiisme d’État."
+    },
+    {
+      "annee": 1514,
+      "evenement": "Bataille de Tchaldiran",
+      "info": "Défaite face à l’artillerie ottomane, qui fige pour longtemps la frontière entre les deux empires.",
+      "ref": "bataille-de-tchaldiran"
+    },
+    { "annee": 1598, "evenement": "Ispahan", "info": "Abbas Ier fait de la ville sa nouvelle capitale." },
+    {
+      "annee": 1623,
+      "evenement": "Reprise de Bagdad",
+      "info": "Abbas Ier reprend Bagdad aux Ottomans, qui la reconquièrent en 1638."
+    },
+    {
+      "annee": 1722,
+      "evenement": "Siège par les Afghans",
+      "info": "Après un long siège et une terrible famine, Ispahan se rend aux Afghans."
+    }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Ismaïl Ier",
+      "titre": "Chah",
+      "debut": 1501,
+      "fin": 1524,
+      "dynastie": "safavides",
+      "personne": "ismail-ier",
+      "note": "fondateur ; poète",
+      "cle": true
+    },
+    {
+      "nom": "Tahmasp Ier",
+      "titre": "Chah",
+      "debut": 1524,
+      "fin": 1576,
+      "dynastie": "safavides",
+      "note": "protège peintres et calligraphes",
+      "cle": true
+    },
+    { "nom": "Ismaïl II", "titre": "Chah", "debut": 1576, "fin": 1577, "dynastie": "safavides" },
+    { "nom": "Mohammad Khodabanda", "titre": "Chah", "debut": 1578, "fin": 1587, "dynastie": "safavides" },
+    {
+      "nom": "Abbas Ier",
+      "titre": "Chah",
+      "surnom": "le Grand",
+      "debut": 1588,
+      "fin": 1629,
+      "dynastie": "safavides",
+      "personne": "abbas-ier-le-grand",
+      "cle": true
+    },
+    { "nom": "Safi", "titre": "Chah", "debut": 1629, "fin": 1642, "dynastie": "safavides" },
+    { "nom": "Abbas II", "titre": "Chah", "debut": 1642, "fin": 1666, "dynastie": "safavides" },
+    { "nom": "Soleiman", "titre": "Chah", "debut": 1666, "fin": 1694, "dynastie": "safavides" },
+    {
+      "nom": "Soltan Hossein",
+      "titre": "Chah",
+      "debut": 1694,
+      "fin": 1722,
+      "dynastie": "safavides",
+      "note": "capitule devant les Afghans",
+      "cle": true
+    },
+    { "nom": "Tahmasp II", "titre": "Chah", "debut": 1722, "fin": 1732, "dynastie": "safavides" },
+    {
+      "nom": "Abbas III",
+      "titre": "Chah",
+      "debut": 1732,
+      "fin": 1736,
+      "dynastie": "safavides",
+      "note": "enfant, dernier chah ; Nader Shah prend le pouvoir"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Abbas le Grand",
+      "role": "Chah",
+      "description": "Le plus grand des chahs safavides, réformateur et bâtisseur d’Ispahan.",
+      "dates": "1571 → 1629",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Abbas_Ier_le_Grand",
+      "ref": "abbas-ier-le-grand"
+    },
+    {
+      "nom": "Molla Sadra",
+      "role": "Philosophe",
+      "description": "Le plus grand philosophe iranien de l’époque moderne, qui unit philosophie, mystique et théologie.",
+      "dates": "1571 → 1640",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Molla_Sadra_Chirazi"
+    },
+    {
+      "nom": "Reza Abbasi",
+      "role": "Peintre",
+      "description": "Grand peintre de la cour d’Abbas Ier, célèbre pour ses portraits élégants.",
+      "dates": "vers 1565 → 1635",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Reza_Abbasi"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Bataille de Tchaldiran",
+      "annee": 1514,
+      "adversaires": ["Empire ottoman (Selim Ier)"],
+      "allies": [],
+      "morts": "Plusieurs milliers",
+      "vainqueur": "Ottomans",
+      "consequences": "L’artillerie et les janissaires ottomans écrasent la cavalerie safavide. Les Ottomans prennent l’est de l’Anatolie ; la frontière se fixe pour des siècles.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Tchaldiran"
+    },
+    {
+      "nom": "Guerres Ottomano-Persanes",
+      "annee": 1603,
+      "adversaires": ["Empire Ottoman"],
+      "allies": [],
+      "morts": "Des dizaines de milliers, terres ravagées",
+      "vainqueur": "Empire safavide (pour cette guerre)",
+      "consequences": "Guerre de 1603 à 1618. Abbas le Grand reprend Tabriz et le Caucase ; il prend aussi Bagdad en 1623, que les Ottomans récupèrent en 1638.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerres_ottomano-persanes"
+    }
+  ],
+  "sciences": "Ispahan devient un modèle d’urbanisme : autour de l’immense place Naqsh-e Jahan se dressent la mosquée Royale, couverte de carreaux de céramique bleue, la mosquée de Cheikh Lotfollah, le palais d’Ali Qapu et le grand bazar ; de grands ponts franchissent la rivière. Des ateliers royaux tissent des tapis de soie et de laine exportés dans toute l’Europe.",
+  "croyancesText": "Les Safavides imposent le chiisme duodécimain, qui attend le retour du douzième imam, caché. Ils font venir des théologiens chiites du Liban et de Bahreïn et persécutent les sunnites et les ordres mystiques rivaux ; la conversion de la population prend plusieurs générations. Ce choix sépare durablement l’Iran chiite de ses voisins sunnites, ottomans et ouzbeks.",
+  "diplomatie": "Entourés d’empires sunnites hostiles, les chahs cherchent des alliés en Europe (Venise, Espagne, papauté, Angleterre) contre les Ottomans. Abbas Ier emploie deux aventuriers anglais, les frères Shirley, pour moderniser son artillerie, et crée une armée permanente de soldats géorgiens et arméniens convertis.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": { "valeur": "Tabriz, Qazvin, puis Ispahan", "precision": "Ispahan à partir de 1598" },
+    "regimes": { "valeur": "Monarchie", "precision": "le chah, chef politique et guide religieux de ses partisans" },
+    "langues": { "valeur": "Persan", "precision": "avec le turc azéri, langue de la cour au début" },
+    "religion": { "valeur": "Islam chiite duodécimain", "precision": "imposé comme religion d’État à partir de 1501" },
+    "apogee": { "valeur": "Règne d’Abbas Ier (1588-1629)" },
+    "population": { "valeur": "Peut-être 8 à 10 millions", "precision": "estimation" },
+    "monnaie": { "valeur": "Abbasi d’argent", "precision": "du nom du chah Abbas" },
+    "duree": { "valeur": "Plus de 230 ans" },
+    "aujourdhui": {
+      "valeur": "Iran",
+      "precision": "et l’Azerbaïdjan, l’Arménie, la Géorgie, une partie de l’Irak et de l’Afghanistan"
+    }
+  },
+  "essentiel": [
+    "En 1501, [[ismail-ier|Ismaïl Ier]], chef d’un ordre religieux soutenu par des tribus turkmènes, prend Tabriz et se proclame chah.",
+    "Il impose le chiisme comme religion d’État : l’Iran devient le grand pays chiite qu’il est toujours.",
+    "Battu par les Ottomans à [[bataille-de-tchaldiran|Tchaldiran]] (1514), l’empire reste en guerre avec eux pendant plus d’un siècle.",
+    "[[abbas-ier-le-grand|Abbas le Grand]] réforme l’armée, reprend des territoires aux Ottomans et fait d’Ispahan une capitale splendide, autour de la [[place-naqsh-e-jahan|place Naqsh-e Jahan]].",
+    "Affaiblie, la dynastie tombe en 1722 quand des Afghans prennent Ispahan."
+  ],
+  "periodes": [
+    {
+      "nom": "Ismaïl et Tahmasp",
+      "debut": 1501,
+      "fin": 1576,
+      "resume": "Ismaïl conquiert l’Iran et impose le chiisme ; son fils Tahmasp résiste aux Ottomans et aux Ouzbeks pendant un demi-siècle.",
+      "evenements": [
+        { "annee": 1514, "evenement": "Tchaldiran", "ref": "bataille-de-tchaldiran" },
+        { "annee": 1555, "evenement": "Paix d’Amasya avec les Ottomans" }
+      ]
+    },
+    {
+      "nom": "Abbas le Grand",
+      "debut": 1588,
+      "fin": 1629,
+      "resume": "Abbas Ier crée une armée permanente, reprend des territoires perdus et transforme Ispahan.",
+      "evenements": [
+        { "annee": 1598, "evenement": "Ispahan capitale" },
+        { "annee": 1622, "evenement": "Prise d’Ormuz aux Portugais avec l’aide anglaise" }
+      ]
+    },
+    {
+      "nom": "Le déclin",
+      "debut": 1629,
+      "fin": 1736,
+      "resume": "Les successeurs d’Abbas, élevés au harem, gouvernent moins ; l’empire s’affaiblit jusqu’à la prise d’Ispahan par les Afghans.",
+      "evenements": [
+        { "annee": 1639, "evenement": "Traité de Zohab : frontière fixée avec les Ottomans" },
+        { "annee": 1722, "evenement": "Chute d’Ispahan" }
+      ]
+    }
+  ],
+  "dynasties": [{ "id": "safavides", "nom": "Les chahs safavides", "debut": 1501, "fin": 1736, "note": "Liste complète." }],
+  "societe": "Les chefs des tribus turkmènes (les Qizilbash, « têtes rouges ») dominent d’abord l’armée ; Abbas Ier réduit leur pouvoir. Les marchands arméniens, installés à la Nouvelle-Djoulfa d’Ispahan, contrôlent le commerce de la soie.",
+  "economie": "Soie, tapis, agriculture irriguée, commerce avec l’Inde, l’Europe et l’Empire ottoman.",
+  "decouvertes": ["place-naqsh-e-jahan"],
+  "arts": "Mosquées d’Ispahan, miniatures persanes, tapis, céramiques, calligraphie ; le Shahnameh de Shah Tahmasp est l’un des plus beaux manuscrits du monde.",
+  "quotidien": "Sur la place d’Ispahan se tiennent marchés, parties de polo et spectacles. Les cafés et les maisons de thé sont très fréquentés.",
+  "heritage": [
+    { "titre": "L’Iran chiite", "texte": "L’Iran reste aujourd’hui le principal pays chiite du monde." },
+    {
+      "titre": "Ispahan",
+      "texte": "La place Naqsh-e Jahan est inscrite au patrimoine mondial ; un proverbe dit qu’« Ispahan est la moitié du monde »."
+    }
+  ],
+  "aSavoir": [
+    "La dynastie tire son nom de Safi al-Din, chef d’un ordre mystique soufi du XIVe siècle dont descendent les chahs."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Safavides",
+    {
+      "titre": "Encyclopædia Britannica — Safavid dynasty",
+      "url": "https://www.britannica.com/topic/Safavid-dynasty"
+    }
+  ]
+}

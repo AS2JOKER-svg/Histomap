@@ -1,0 +1,19 @@
+{
+  "id": "sejong",
+  "nom": "Sejong le Grand",
+  "role": "Roi de Joseon",
+  "roles": ["Roi", "Savant"],
+  "dates": "1397 → 1450",
+  "naissance": 1397,
+  "mort": 1450,
+  "description": "Roi de Corée qui fait créer l’alphabet hangeul pour permettre à tous d’apprendre à lire, et encourage les sciences, l’agriculture et les arts.",
+  "reperes": [{ "label": "Règne", "valeur": "1418 → 1450" }],
+  "essentiel": [
+    "Il réunit des savants dans le « pavillon des sages ».",
+    "Il fait créer le [[hangeul|hangeul]] (1443), promulgué en 1446.",
+    "Il fait fabriquer des instruments scientifiques, dont un pluviomètre et des horloges à eau.",
+    "Il repousse les pirates japonais et étend le royaume vers le nord."
+  ],
+  "aSavoir": ["Sa statue se dresse au centre de Séoul, et son portrait figure sur le billet de 10 000 wons."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Sejong"
+}

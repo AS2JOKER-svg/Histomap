@@ -1,0 +1,17 @@
+{
+  "id": "mimar-sinan",
+  "nom": "Mimar Sinan",
+  "role": "Architecte impérial",
+  "roles": ["Architecte", "Ingénieur"],
+  "dates": "vers 1490 → 1588",
+  "naissance": 1490,
+  "mort": 1588,
+  "description": "Recruté jeune par le devşirme, ingénieur militaire devenu architecte en chef de trois sultans, il construit plus de 300 édifices : mosquées, ponts, bains, écoles.",
+  "essentiel": [
+    "Il bâtit la [[mosquee-suleymaniye|mosquée Süleymaniye]] (1550-1557) pour Soliman.",
+    "Il considère la mosquée Selimiye d’Edirne, achevée vers 1575, comme son chef-d’œuvre.",
+    "Ses élèves bâtissent la mosquée Bleue (1609-1616)."
+  ],
+  "aSavoir": ["On attribue souvent à tort la mosquée Bleue à Sinan : elle est l’œuvre de son élève Sedefkâr Mehmed Ağa."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Mimar_Sinan"
+}

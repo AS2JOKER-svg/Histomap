@@ -1,0 +1,18 @@
+{
+  "id": "nezahualcoyotl",
+  "nom": "Nezahualcoyotl",
+  "role": "Souverain de Texcoco",
+  "roles": ["Souverain", "Poète", "Bâtisseur"],
+  "dates": "1402 → 1472",
+  "naissance": 1402,
+  "mort": 1472,
+  "description": "Souverain de Texcoco, l’une des trois cités de la Triple Alliance, resté célèbre comme poète, législateur et bâtisseur.",
+  "essentiel": [
+    "Il s’allie à Itzcoatl de Tenochtitlan pour abattre Azcapotzalco et fonder la Triple Alliance (1428).",
+    "Il fait de Texcoco un centre de savoir et de poésie.",
+    "On lui attribue de grands travaux, dont une digue sur le lac Texcoco."
+  ],
+  "liens": [{ "ref": "triple-alliance", "relation": "Il en est l’un des fondateurs" }],
+  "aSavoir": ["Son portrait a longtemps figuré sur le billet mexicain de 100 pesos."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Nezahualcoyotl"
+}

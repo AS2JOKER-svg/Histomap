@@ -1,0 +1,19 @@
+{
+  "id": "conversion-des-khazars-au-judaisme",
+  "nom": "Conversion des Khazars au judaïsme",
+  "annee": 800,
+  "dates": "VIIIe-IXe siècles (date discutée)",
+  "lieu": "Khazarie",
+  "description": "Le roi et la noblesse khazars adoptent le judaïsme, alors que leurs voisins sont chrétiens ou musulmans.",
+  "sections": [
+    {
+      "titre": "Les sources",
+      "texte": "On la connaît par des auteurs arabes, par la correspondance du roi Joseph avec Hasdaï ibn Shaprut et par un document retrouvé au Caire. Des pièces frappées vers 837-838 portent l’inscription « Moïse est le messager de Dieu »."
+    },
+    {
+      "titre": "Une conversion partielle",
+      "texte": "La plupart des habitants gardent leur religion : musulmans, chrétiens et païens vivent dans le khaganat."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Khazars"
+}

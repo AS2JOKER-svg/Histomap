@@ -1,0 +1,21 @@
+{
+  "id": "fondation-de-bagdad",
+  "nom": "Fondation de Bagdad",
+  "annee": 762,
+  "dates": "762",
+  "lieu": "Sur le Tigre (Irak)",
+  "description": "Le calife abbasside al-Mansur fait bâtir une nouvelle capitale sur le Tigre : une ville parfaitement ronde, avec le palais et la grande mosquée au centre.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Des dizaines de milliers d’ouvriers construisent en quelques années la « ville ronde », entourée de trois murailles et percée de quatre portes."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Bagdad devient l’une des plus grandes villes du monde et le centre du commerce et des sciences du monde musulman."
+    }
+  ],
+  "apres": "sac-de-bagdad",
+  "aSavoir": ["Il ne reste rien de la ville ronde, détruite et recouverte par la ville moderne."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bagdad"
+}

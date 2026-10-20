@@ -1,0 +1,15 @@
+{
+  "id": "bataille-de-trafalgar",
+  "nom": "Bataille de Trafalgar",
+  "annee": 1805,
+  "dates": "21 octobre 1805",
+  "lieu": "Au large du cap Trafalgar (Espagne)",
+  "description": "La flotte britannique de l’amiral Nelson écrase la flotte franco-espagnole ; Nelson est tué pendant la bataille.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "Napoléon renonce à envahir l’Angleterre et tente plutôt de la ruiner par le blocus continental. La Royal Navy domine les mers pendant un siècle."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Trafalgar"
+}

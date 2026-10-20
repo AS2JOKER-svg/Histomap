@@ -1,0 +1,16 @@
+{
+  "id": "chandragupta-maurya",
+  "nom": "Chandragupta Maurya",
+  "role": "Fondateur de l’Empire Maurya",
+  "roles": ["Empereur"],
+  "dates": "règne vers −322 → −298",
+  "mort": -298,
+  "description": "Fondateur du premier grand empire indien : il renverse la dynastie Nanda, unifie le nord de l’Inde et repousse les Grecs de Séleucos.",
+  "essentiel": [
+    "Aidé de son conseiller Chanakya, il s’empare de Pataliputra vers −322.",
+    "Il profite du départ d’Alexandre le Grand pour soumettre le nord-ouest de l’Inde.",
+    "Vers −303, Séleucos Ier lui cède des territoires contre 500 éléphants.",
+    "Selon la tradition jaïne, il abdique pour devenir moine et se laisse mourir de faim."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Chandragupta_Maurya"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "rajaraja-ier",
+  "nom": "Rajaraja Ier",
+  "role": "Roi Chola",
+  "roles": ["Roi", "Bâtisseur"],
+  "dates": "vers 947 → 1014",
+  "naissance": 947,
+  "mort": 1014,
+  "description": "Roi qui transforme le royaume Chola en empire : il conquiert le sud de l’Inde, le nord du Sri Lanka et les Maldives, et fait bâtir le grand temple de Thanjavur.",
+  "reperes": [{ "label": "Règne", "valeur": "985 → 1014" }],
+  "essentiel": [
+    "Il organise une administration efficace et fait recenser les terres pour l’impôt.",
+    "Il fait construire le [[temple-de-brihadisvara|temple de Brihadisvara]], achevé en 1010.",
+    "Son fils Rajendra Ier poursuit ses conquêtes jusqu’en Asie du Sud-Est."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Rajaraja_Ier"
+}

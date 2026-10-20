@@ -1,0 +1,18 @@
+{
+  "id": "otto-von-bismarck",
+  "nom": "Otto von Bismarck",
+  "role": "Chancelier allemand",
+  "roles": ["Ministre-président de Prusse", "Chancelier"],
+  "dates": "1815 → 1898",
+  "naissance": 1815,
+  "mort": 1898,
+  "description": "Ministre de Prusse qui unifie l’Allemagne par trois guerres, puis gouverne l’Empire allemand comme chancelier pendant près de vingt ans.",
+  "reperes": [{ "label": "Chancelier", "valeur": "1871 → 1890" }],
+  "essentiel": [
+    "Il affirme que les grandes questions se règlent « par le fer et par le sang ».",
+    "Il bat le Danemark, l’Autriche (Sadowa, 1866) et la France (1870).",
+    "Il fait proclamer l’Empire allemand à Versailles en 1871.",
+    "Il crée les premières assurances sociales, tout en combattant les socialistes et l’Église catholique."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Otto_von_Bismarck"
+}

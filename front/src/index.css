@@ -135,6 +135,16 @@
     @apply text-[11px] font-semibold uppercase tracking-[.14em] text-muted;
   }
 
+  /* Type d'une fiche : Personne, Événement, Découverte, Guerre, Civilisation (mêmes couleurs partout) */
+  .badge { @apply inline-flex items-center gap-1 text-[11px] font-bold px-2 py-[3px] rounded-lg tracking-[.02em] whitespace-nowrap; }
+
+  /* Mot cliquable dans un texte (lien vers une fiche liée) : souligné pointillé */
+  .ref-link {
+    @apply text-accent font-medium rounded-sm;
+    text-decoration: underline dotted; text-decoration-thickness: 1.5px; text-underline-offset: 3px;
+  }
+  .ref-link:hover { text-decoration-style: solid; }
+
   .hoverable { @apply transition duration-200; }
   @media (hover: hover) {
     .hoverable:hover { transform: translateY(-2px); box-shadow: var(--shadow-lift); }
@@ -201,6 +211,14 @@
   .no-scrollbar { scrollbar-width: none; }
   .no-scrollbar::-webkit-scrollbar { display: none; }
 }
+
+/* Couleurs des types de fiche. Hors @layer : Tailwind ne les supprime pas, même quand la
+   classe est construite dans le code (badge-${type}). */
+.badge-personne   { background: rgb(var(--c-accent-2) / .14); color: rgb(var(--c-accent-2)); }
+.badge-evenement  { background: rgb(var(--c-warning) / .14); color: rgb(var(--c-warning)); }
+.badge-decouverte { background: rgb(var(--c-success) / .13); color: rgb(var(--c-success)); }
+.badge-guerre     { background: rgb(var(--c-danger) / .12); color: rgb(var(--c-danger)); }
+.badge-civ        { background: rgb(var(--c-accent) / .12); color: rgb(var(--c-accent)); }
 
 /* Couleur de civilisation utilisée comme texte : contraste AA garanti (lib/color.js → civTextStyle) */
 .civ-text { color: var(--civ-text-light); }

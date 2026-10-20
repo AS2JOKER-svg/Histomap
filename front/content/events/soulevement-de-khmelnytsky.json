@@ -1,0 +1,22 @@
+{
+  "id": "soulevement-de-khmelnytsky",
+  "nom": "Soulèvement de Khmelnytsky",
+  "annee": 1648,
+  "fin": 1657,
+  "dates": "1648 → 1657",
+  "lieu": "Ukraine",
+  "description": "Les Cosaques de [[bohdan-khmelnytsky|Bohdan Khmelnytsky]], soutenus par les paysans et, au début, par les Tatars de Crimée, se révoltent contre la domination de la noblesse polonaise.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Victoires cosaques en 1648 (Jovti Vody, Korsoun, Pylavtsi), puis défaite de Berestetchko (1651). Les violences frappent durement les populations civiles, en particulier les communautés juives, dont des dizaines de milliers de membres sont tués."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Naissance de l’Hetmanat cosaque ; affaiblissement durable de la Pologne-Lituanie ; rapprochement avec la Russie."
+    }
+  ],
+  "liens": [{ "ref": "bohdan-khmelnytsky", "relation": "Le chef du soulèvement" }],
+  "apres": "accord-de-pereiaslav",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Soul%C3%A8vement_de_Khmelnytsky"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "indira-gandhi",
+  "nom": "Indira Gandhi",
+  "role": "Première ministre de l’Inde",
+  "roles": ["Première ministre"],
+  "dates": "1917 → 1984",
+  "naissance": 1917,
+  "mort": 1984,
+  "description": "Fille de Nehru, elle est la première femme à diriger l’Inde. Elle remporte la guerre de 1971, mais gouverne de façon autoritaire pendant l’état d’urgence (1975-1977). Elle est assassinée en 1984.",
+  "reperes": [{ "label": "Première ministre", "valeur": "1966 → 1977 et 1980 → 1984" }],
+  "essentiel": [
+    "Elle n’a pas de lien de parenté avec le Mahatma Gandhi.",
+    "Elle soutient l’indépendance du Bangladesh (1971).",
+    "Elle suspend les libertés pendant l’« état d’urgence ».",
+    "Elle est assassinée par ses gardes du corps sikhs après l’assaut du Temple d’or d’Amritsar."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Indira_Gandhi"
+}

@@ -1,7 +1,7 @@
 import { useCallback, useEffect } from 'react'
 import { Link, useLocation, useNavigate, useParams, useSearchParams } from 'react-router-dom'
 import { AnimatePresence } from 'framer-motion'
-import { getCivilization, getEpoch, getEpochs, countCivilizations, findCivilization } from '../lib/data'
+import { getCivilization, getEpoch, getEpochs, countCivilizations, findCivilization, nearestMapYear } from '../lib/data'
 import { useProgress, readCount } from '../store/progress'
 import { useUI } from '../store/ui'
 import { formatDuration, formatYear } from '../lib/time'
@@ -86,7 +86,10 @@ function EpochContent({ epoch }) {
         title={epoch.label}
         description={epoch.description}
         actions={
-          <div className="flex gap-2 text-xs">
+          <div className="flex flex-wrap gap-2 text-xs">
+            <Link to={`/carte?annee=${nearestMapYear(Math.max(epoch.start, Math.min(epoch.end, Math.round((epoch.start + epoch.end) / 2))))}`} className="chip h-8 hover:bg-line/70 transition">
+              <Icon name="globe" size={14} /> <span className="font-medium">Voir sur la carte</span>
+            </Link>
             <span className="chip"><span className="text-muted">Durée</span> <span className="font-medium">{formatDuration(epoch.start, epoch.end)}</span></span>
             <span className="chip" title="Fiches complètes ouvertes dans cette époque">
               <span className="relative w-10 h-1.5 rounded-full bg-line overflow-hidden">

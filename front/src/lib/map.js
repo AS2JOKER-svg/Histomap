@@ -10,8 +10,9 @@
  */
 import { feature } from 'topojson-client'
 import MAP_YEARS from '../data/map-years.json'
-import { TERRITORIES, CONFLICTS } from '../data/map-links.js'
-import { getEpochs } from './data'
+import TERRITORIES from '../data/territories.json'
+import CONFLICTS from '../data/conflicts.json'
+import { epochOfYear, findCivilization, getEpochs, nearestMapYear } from './data'
 
 export { MAP_YEARS }
 
@@ -112,11 +113,8 @@ export function linkTerritoryFor(props, year, civId) {
  * Guerres affichées sur la carte de `year` : chaque guerre apparaît sur la
  * carte la plus proche de sa date (entre les deux milieux d'intervalles).
  */
-const WARS = ALL.flatMap((ref) =>
-  (ref.civ.guerres ?? [])
-    .filter((g) => CONFLICTS[g.nom] && typeof g.annee === 'number')
-    .map((g) => ({ ...g, coords: CONFLICTS[g.nom], ref }))
-)
+// (liste calculée au build : scripts/build-content.mjs → src/data/conflicts.json)
+const WARS = CONFLICTS.map(({ civId, ...war }) => ({ ...war, ref: findCivilization(civId) }))
 
 export function conflictsAt(year) {
   const i = MAP_YEARS.indexOf(year)
@@ -133,12 +131,5 @@ export function conflictsAt(year) {
   })
 }
 
-export function epochOfYear(year) {
-  const epochs = getEpochs()
-  return epochs.find((e) => year >= e.start && year < e.end) ?? (year < epochs[0].start ? epochs[0] : epochs[epochs.length - 1])
-}
-
-/** Carte la plus proche d'une année quelconque. */
-export function nearestMapYear(year) {
-  return MAP_YEARS.reduce((best, y) => (Math.abs(y - year) < Math.abs(best - year) ? y : best))
-}
+// (définis dans lib/data : utilisables sans charger d3 ; ré-exportés ici pour la carte)
+export { epochOfYear, nearestMapYear }

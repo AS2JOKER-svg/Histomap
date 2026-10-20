@@ -1,0 +1,20 @@
+{
+  "id": "tresor-de-panagyurichte",
+  "nom": "Trésor de Panagyurichté",
+  "annee": -300,
+  "domaine": "Art",
+  "dates": "IVe-IIIe siècle av. J.-C. ; découvert en 1949",
+  "description": "Neuf vases en or massif, pesant au total plus de 6 kilos, découverts par hasard en Bulgarie : l’un des plus beaux trésors de l’orfèvrerie thrace.",
+  "sections": [
+    {
+      "titre": "Ce qu’il contient",
+      "texte": "Un plat, une amphore et sept rhytons (vases à boire) décorés de scènes mythologiques grecques et de têtes d’animaux et de femmes."
+    },
+    {
+      "titre": "Sa découverte",
+      "texte": "Il a été trouvé en 1949 par trois frères qui extrayaient de l’argile pour une tuilerie."
+    }
+  ],
+  "aSavoir": ["Il servait sans doute lors de banquets ou de cérémonies royales."],
+  "wikiUrl": "https://en.wikipedia.org/wiki/Panagyurishte_Treasure"
+}

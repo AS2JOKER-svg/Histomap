@@ -1,0 +1,112 @@
+{
+  "id": "megalithes-europe",
+  "label": "Culture Mégalithique",
+  "tier": 1,
+  "region": "europe-ouest",
+  "period": "-4500 à -3000",
+  "start": -4500,
+  "end": -3000,
+  "color": "#78909c",
+  "trackId": "megalithes",
+  "row": 2,
+  "isRiver": false,
+  "capitale": "Façade Atlantique (Carnac, Stonehenge)",
+  "description": "Un vaste réseau culturel maritime d'Europe occidentale caractérisé par l'érection de monuments géants en pierre, démontrant une ingénierie sociale sidérante.",
+  "territories": [],
+  "datesCles": [
+    {
+      "annee": -4500,
+      "evenement": "Débuts du mégalithisme",
+      "info": "Premiers grands monuments de pierre en Bretagne (cairn de Barnenez) et dans la péninsule Ibérique."
+    },
+    {
+      "annee": -3600,
+      "evenement": "Temples de Ġgantija",
+      "info": "À Malte, édification de structures autoportantes colossales, avant les pyramides d'Égypte."
+    },
+    {
+      "annee": -3200,
+      "evenement": "Newgrange",
+      "info": "Le grand tumulus irlandais est construit pour qu’au solstice d’hiver, le soleil levant éclaire sa chambre funéraire."
+    }
+  ],
+  "dirigeants": [],
+  "personnages": [
+    {
+      "nom": "Zacharie Le Rouzic",
+      "role": "Archéologue",
+      "description": "Né à Carnac, il fouille et restaure pendant des décennies les monuments mégalithiques de la région.",
+      "dates": "1864 → 1939",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Zacharie_Le_Rouzic"
+    }
+  ],
+  "guerres": [],
+  "sciences": "Déplacer et dresser des blocs de plusieurs dizaines de tonnes, voire bien plus (le grand menhir brisé d’Er Grah pesait environ 280 tonnes), suppose des rondins, des leviers, des rampes et le travail coordonné de nombreuses personnes. Certains monuments sont orientés avec précision vers le lever ou le coucher du soleil aux solstices, ce qui montre une observation attentive du ciel.",
+  "croyancesText": "Le mégalithe a une fonction funéraire et territoriale. Les dolmens sont des caveaux collectifs recouverts de terre (tumulus) où reposent les ancêtres. Dresser une pierre monumentale (un menhir), c'est ancrer physiquement et symboliquement un clan sur son territoire face au ciel.",
+  "diplomatie": "L'uniformité du phénomène mégalithique de la Scandinavie au Portugal prouve l'existence de réseaux maritimes intenses le long des côtes atlantiques. Les élites s'échangent des objets de grand prestige, notamment des haches en jadéite polie extraite des Alpes et exportée jusqu'en Écosse.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": {
+      "valeur": "Aucune",
+      "precision": "grands sites : Carnac, Barnenez (France), Newgrange (Irlande), Stonehenge (Angleterre), Ġgantija (Malte)"
+    },
+    "regimes": { "valeur": "Communautés paysannes", "precision": "capables d’organiser de grands chantiers collectifs" },
+    "langues": { "valeur": "Inconnues" },
+    "religion": {
+      "valeur": "Inconnue",
+      "precision": "culte des ancêtres probable ; certains monuments sont orientés vers le soleil"
+    },
+    "monnaie": { "valeur": "Aucune", "precision": "échanges de haches polies en jadéite des Alpes" },
+    "duree": { "valeur": "Environ 1 500 ans", "precision": "les mégalithes sont encore dressés et utilisés bien après" },
+    "aujourdhui": {
+      "valeur": "Façade atlantique de l’Europe",
+      "precision": "France, Espagne, Portugal, Irlande, Royaume-Uni, Scandinavie, Malte"
+    }
+  },
+  "essentiel": [
+    "Dès −4500, des communautés paysannes de la façade atlantique dressent menhirs et dolmens et élèvent de grands tumulus.",
+    "Les [[alignements-de-carnac|alignements de Carnac]], en Bretagne, alignent près de 3 000 menhirs.",
+    "Les dolmens sont surtout des tombes collectives ; les menhirs ont pu marquer le territoire ou servir de lieux de rassemblement.",
+    "Certains monuments sont orientés vers le soleil des solstices, comme Newgrange en Irlande.",
+    "Le mégalithisme dure longtemps : [[stonehenge|Stonehenge]], commencé vers −3000, est remanié jusque vers −1500."
+  ],
+  "periodes": [
+    {
+      "nom": "Les premiers monuments",
+      "debut": -4500,
+      "fin": -4000,
+      "resume": "Les premiers cairns et dolmens apparaissent en Bretagne et dans la péninsule Ibérique, ainsi que les premiers menhirs de Carnac.",
+      "evenements": [{ "annee": -4500, "evenement": "Cairn de Barnenez (Bretagne)" }]
+    },
+    {
+      "nom": "Les grands sanctuaires",
+      "debut": -4000,
+      "fin": -3000,
+      "resume": "Les monuments se multiplient de l’Andalousie à la Scandinavie. À Malte, les temples de Ġgantija sont élevés ; en Irlande, le tumulus de Newgrange.",
+      "evenements": [
+        { "annee": -3600, "evenement": "Temples de Ġgantija (Malte)" },
+        { "annee": -3200, "evenement": "Newgrange (Irlande)" }
+      ]
+    }
+  ],
+  "societe": "Ces grands chantiers supposent des communautés capables de mobiliser beaucoup de bras, peut-être sous l’autorité de chefs. Les tombes collectives réunissent les morts d’un groupe sur plusieurs générations.",
+  "economie": "Ce sont des paysans et des éleveurs. Les haches polies en jadéite des Alpes, objets de prestige, circulent sur plus de mille kilomètres.",
+  "decouvertes": ["alignements-de-carnac", "stonehenge"],
+  "arts": "Gravures sur les dalles (haches, crosses, spirales à Gavrinis et à Newgrange), statues-menhirs : l’art mégalithique est surtout fait de signes dont le sens nous échappe.",
+  "quotidien": "La vie quotidienne est celle des paysans néolithiques : villages de bois et de terre, champs, troupeaux. Les monuments, eux, sont des lieux de rassemblement et de mémoire.",
+  "heritage": [
+    {
+      "titre": "Des paysages classés",
+      "texte": "Stonehenge, Newgrange et les temples de Malte sont inscrits au patrimoine mondial de l’UNESCO."
+    },
+    {
+      "titre": "Les mots",
+      "texte": "« Menhir » et « dolmen » viennent du breton (pierre longue, table de pierre)."
+    }
+  ],
+  "aSavoir": [
+    "Les mégalithes n’ont rien à voir avec les druides ni avec les Gaulois, qui vivent plus de 2 000 ans plus tard.",
+    "Leur fonction exacte reste souvent inconnue : tombeaux, temples, observatoires, marqueurs de territoire… les hypothèses ne s’excluent pas."
+  ],
+  "sources": ["https://fr.wikipedia.org/wiki/M%C3%A9galithisme", "https://fr.wikipedia.org/wiki/Alignements_de_Carnac"]
+}

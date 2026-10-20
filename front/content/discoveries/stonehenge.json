@@ -1,0 +1,16 @@
+{
+  "id": "stonehenge",
+  "nom": "Stonehenge",
+  "annee": -3000,
+  "domaine": "Architecture",
+  "dates": "vers −3000 → −1500",
+  "description": "Un cercle de pierres géantes en Angleterre, construit et remanié pendant plus de mille ans, orienté vers le lever du soleil au solstice d’été.",
+  "sections": [
+    {
+      "titre": "Comment il a été construit",
+      "texte": "Un fossé circulaire est creusé vers −3000. Vers −2500, de grands blocs de grès (sarsens) sont dressés, et des « pierres bleues » sont apportées de collines du pays de Galles, à plus de 200 km."
+    }
+  ],
+  "aSavoir": ["Stonehenge n’a pas été construit par les druides : il est bien plus ancien que les Celtes."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Stonehenge"
+}

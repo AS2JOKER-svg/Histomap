@@ -1,0 +1,19 @@
+{
+  "id": "decouverte-du-vinland",
+  "nom": "Les Vikings en Amérique (Vinland)",
+  "annee": 1000,
+  "dates": "vers 1000",
+  "lieu": "Terre-Neuve (Canada)",
+  "description": "Parti du Groenland, Leif Erikson atteint les côtes d’Amérique du Nord, qu’il nomme Vinland. Des Vikings y séjournent quelque temps, cinq siècles avant Christophe Colomb.",
+  "sections": [
+    {
+      "titre": "Ce que racontent les sagas",
+      "texte": "Les sagas islandaises décrivent plusieurs expéditions, des contacts difficiles avec les habitants (appelés Skrælings) et l’abandon de la colonie."
+    },
+    {
+      "titre": "La preuve archéologique",
+      "texte": "En 1960, un campement viking est découvert à L’Anse aux Meadows, à Terre-Neuve. Une étude publiée en 2021 montre que du bois y a été coupé en l’an 1021."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Vinland"
+}

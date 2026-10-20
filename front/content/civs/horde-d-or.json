@@ -1,0 +1,276 @@
+{
+  "documentaires": [],
+  "decouvertes": [],
+  "id": "horde-d-or",
+  "label": "Horde d’or",
+  "tier": 1,
+  "region": "russie-europeenne",
+  "period": "1242 à 1502",
+  "start": 1242,
+  "end": 1502,
+  "color": "#b8860b",
+  "trackId": "scythes",
+  "row": 11,
+  "isRiver": false,
+  "capitale": "Saraï (basse Volga)",
+  "description": "Le khanat mongol fondé par Batu, petit-fils de Gengis Khan, qui domine pendant plus de deux siècles les steppes de la Volga et impose son autorité aux princes russes.",
+  "territories": ["Khanate of the Golden Horde", "Blue Horde", "White Horde", "Golden Horde"],
+  "reperes": {
+    "capitale": { "valeur": "Saraï", "precision": "sur la basse Volga : Saraï-Batou, puis Saraï-Berké" },
+    "regimes": { "valeur": "Khanat mongol", "precision": "dirigé par les descendants de Djötchi, fils aîné de Gengis Khan" },
+    "langues": { "valeur": "Turc kiptchak et mongol", "precision": "le kiptchak devient vite la langue commune" },
+    "religion": { "valeur": "Islam", "precision": "religion officielle sous Özbeg (1313) ; l’Église orthodoxe est protégée" },
+    "apogee": { "valeur": "Règne d’Özbeg (1313 → 1341)" },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": { "valeur": "Dirhams d’argent", "precision": "frappés notamment à Saraï" },
+    "duree": { "valeur": "Environ 260 ans" },
+    "aujourdhui": { "valeur": "Sud de la Russie", "precision": "ainsi que l’Ukraine, la Crimée et le Kazakhstan" }
+  },
+  "essentiel": [
+    "Après la conquête des principautés russes (1237-1240), [[batu|Batu]], petit-fils de Gengis Khan, fonde sur la Volga un khanat qui devient indépendant de l’empire mongol.",
+    "Les princes russes doivent payer un tribut et obtenir du khan une patente, le « yarlyk », pour régner : c’est ce que les Russes appelleront le « joug tatar ».",
+    "Sous [[ozbeg-khan|Özbeg]] (1313-1341), le khanat adopte l’islam et atteint son apogée ; Saraï est une grande ville commerçante.",
+    "Affaiblie par la [[peste-noire|peste noire]] et les guerres civiles, la Horde est battue à [[bataille-de-koulikovo|Koulikovo]] (1380), puis par Tamerlan (1395).",
+    "Elle éclate en plusieurs khanats ; après le [[grande-halte-sur-l-ougra|halte sur l’Ougra]] (1480), Moscou ne lui obéit plus, et Saraï est détruite en 1502."
+  ],
+  "datesCles": [
+    {
+      "annee": 1242,
+      "evenement": "Fondation",
+      "info": "Revenu de sa campagne en Europe, Batu s’installe sur la basse Volga."
+    },
+    {
+      "annee": 1257,
+      "evenement": "Berke, premier khan musulman",
+      "info": "Le frère de Batu se convertit à l’islam et s’allie aux Mamelouks d’Égypte."
+    },
+    { "annee": 1313, "evenement": "Avènement d’Özbeg", "info": "Le khan impose l’islam comme religion officielle." },
+    {
+      "annee": 1346,
+      "evenement": "Siège de Caffa et peste",
+      "info": "La peste frappe l’armée de la Horde qui assiège le comptoir génois de Caffa ; elle gagne ensuite l’Europe.",
+      "ref": "peste-noire"
+    },
+    {
+      "annee": 1380,
+      "evenement": "Défaite de Koulikovo",
+      "info": "Le chef de guerre Mamaï est battu par le prince de Moscou Dmitri Donskoï.",
+      "ref": "bataille-de-koulikovo"
+    },
+    { "annee": 1382, "evenement": "Moscou incendiée", "info": "Le khan Tokhtamych reprend la main et brûle Moscou." },
+    {
+      "annee": 1395,
+      "evenement": "Victoire de Tamerlan",
+      "info": "Le conquérant Tamerlan bat Tokhtamych sur le Terek et détruit Saraï."
+    },
+    {
+      "annee": 1480,
+      "evenement": "Halte sur l’Ougra",
+      "info": "Le khan Ahmed renonce à attaquer Ivan III : la domination de la Horde sur Moscou prend fin.",
+      "ref": "grande-halte-sur-l-ougra"
+    },
+    {
+      "annee": 1502,
+      "evenement": "Fin de la Horde",
+      "info": "Le khan de Crimée détruit Saraï et met fin aux restes de la Horde."
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "La fondation",
+      "debut": 1242,
+      "fin": 1313,
+      "resume": "Batu et ses successeurs organisent leur domination sur les steppes et les principautés russes, et prennent leur indépendance vis-à-vis du grand khan.",
+      "evenements": [{ "annee": 1242, "evenement": "Installation sur la Volga" }, { "annee": 1257, "evenement": "Règne de Berke" }]
+    },
+    {
+      "nom": "L’apogée",
+      "debut": 1313,
+      "fin": 1359,
+      "resume": "Sous Özbeg et Djanibeg, la Horde, convertie à l’islam, est riche et puissante ; la peste noire frappe à partir de 1346.",
+      "evenements": [
+        { "annee": 1313, "evenement": "Avènement d’Özbeg" },
+        { "annee": 1346, "evenement": "Siège de Caffa", "ref": "peste-noire" }
+      ]
+    },
+    {
+      "nom": "Troubles et déclin",
+      "debut": 1359,
+      "fin": 1502,
+      "resume": "Les guerres de succession, la défaite de Koulikovo et les campagnes de Tamerlan brisent la Horde, qui se divise en khanats rivaux.",
+      "evenements": [
+        { "annee": 1380, "evenement": "Koulikovo", "ref": "bataille-de-koulikovo" },
+        { "annee": 1395, "evenement": "Victoire de Tamerlan" },
+        { "annee": 1480, "evenement": "Ougra", "ref": "grande-halte-sur-l-ougra" }
+      ]
+    }
+  ],
+  "regimes": [
+    {
+      "id": "khanat",
+      "nom": "Khanat de la Horde d’or",
+      "debut": 1242,
+      "fin": 1502,
+      "note": "À partir du XVe siècle, la « Grande Horde » n’en est plus que le reste."
+    }
+  ],
+  "dynasties": [
+    {
+      "id": "djotchides",
+      "nom": "Les khans descendants de Djötchi",
+      "debut": 1242,
+      "fin": 1502,
+      "note": "Sélection ; une vingtaine de khans se succèdent pendant les troubles de 1359-1380."
+    }
+  ],
+  "dirigeants": [
+    { "nom": "Batu", "titre": "Khan", "debut": 1242, "fin": 1255, "dynastie": "djotchides", "personne": "batu", "cle": true },
+    { "nom": "Sartaq", "titre": "Khan", "debut": 1256, "fin": 1256, "dynastie": "djotchides" },
+    {
+      "nom": "Berke",
+      "titre": "Khan",
+      "debut": 1257,
+      "fin": 1266,
+      "dynastie": "djotchides",
+      "note": "premier khan musulman",
+      "cle": true
+    },
+    { "nom": "Möngke Temür", "titre": "Khan", "debut": 1266, "fin": 1280, "dynastie": "djotchides" },
+    { "nom": "Töde Möngke", "titre": "Khan", "debut": 1280, "fin": 1287, "dynastie": "djotchides" },
+    { "nom": "Tole Buqa", "titre": "Khan", "debut": 1287, "fin": 1291, "dynastie": "djotchides" },
+    {
+      "nom": "Tokhta",
+      "titre": "Khan",
+      "debut": 1291,
+      "fin": 1312,
+      "dynastie": "djotchides",
+      "note": "fait tuer le général Nogaï"
+    },
+    {
+      "nom": "Özbeg",
+      "titre": "Khan",
+      "debut": 1313,
+      "fin": 1341,
+      "dynastie": "djotchides",
+      "personne": "ozbeg-khan",
+      "note": "islam religion officielle",
+      "cle": true
+    },
+    { "nom": "Tini Beg", "titre": "Khan", "debut": 1341, "fin": 1342, "dynastie": "djotchides" },
+    { "nom": "Djanibeg", "titre": "Khan", "debut": 1342, "fin": 1357, "dynastie": "djotchides", "note": "assiège Caffa" },
+    { "nom": "Berdi Beg", "titre": "Khan", "debut": 1357, "fin": 1359, "dynastie": "djotchides" },
+    {
+      "nom": "Tokhtamych",
+      "titre": "Khan",
+      "debut": 1380,
+      "fin": 1395,
+      "dynastie": "djotchides",
+      "note": "réunifie la Horde, brûle Moscou, vaincu par Tamerlan",
+      "cle": true
+    },
+    {
+      "nom": "Ahmed",
+      "titre": "Khan de la Grande Horde",
+      "debut": 1465,
+      "fin": 1481,
+      "dynastie": "djotchides",
+      "note": "renonce à combattre sur l’Ougra"
+    },
+    {
+      "nom": "Cheikh Ahmed",
+      "titre": "Khan de la Grande Horde",
+      "debut": 1481,
+      "fin": 1502,
+      "dynastie": "djotchides",
+      "note": "dernier khan"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Batu",
+      "role": "Khan fondateur",
+      "description": "Petit-fils de Gengis Khan, il conquiert la Rus’ et fonde la Horde d’or.",
+      "dates": "vers 1205 → 1255",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Batu",
+      "ref": "batu"
+    },
+    {
+      "nom": "Nogaï",
+      "role": "Général et faiseur de khans",
+      "description": "Prince djötchide, il domine la Horde à la fin du XIIIe siècle avant d’être tué en 1299 par le khan Tokhta.",
+      "dates": "mort en 1299",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Noga%C3%AF"
+    },
+    {
+      "nom": "Mamaï",
+      "role": "Chef de guerre",
+      "description": "Sans être de la famille de Gengis Khan, il gouverne l’ouest de la Horde en plaçant des khans à sa main ; il est battu à Koulikovo.",
+      "dates": "mort vers 1380",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Mama%C3%AF"
+    },
+    {
+      "nom": "Ibn Battuta",
+      "role": "Voyageur marocain",
+      "description": "Il visite la cour du khan Özbeg vers 1333 et décrit la richesse de Saraï.",
+      "dates": "1304 → vers 1369",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Ibn_Battuta",
+      "ref": "ibn-battuta"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Bataille de Koulikovo",
+      "annee": 1380,
+      "adversaires": ["Grande-principauté de Moscou (Dmitri Donskoï)"],
+      "allies": ["Troupes de Mamaï"],
+      "morts": "Inconnues ; très lourdes des deux côtés",
+      "vainqueur": "Moscou",
+      "consequences": "Première grande victoire russe sur la Horde. Elle ne libère pas Moscou : le khan Tokhtamych brûle la ville deux ans plus tard.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Koulikovo"
+    },
+    {
+      "nom": "Guerre entre Tokhtamych et Tamerlan",
+      "annee": 1391,
+      "adversaires": ["Tamerlan"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Tamerlan",
+      "consequences": "Battu en 1391 puis sur le Terek en 1395, Tokhtamych perd son trône ; Tamerlan ravage Saraï et les villes de la Horde, qui ne s’en relève pas.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Tokhtamych"
+    },
+    {
+      "nom": "Grande halte sur l’Ougra",
+      "annee": 1480,
+      "adversaires": ["Grande-principauté de Moscou (Ivan III)"],
+      "allies": [],
+      "morts": "Peu de combats",
+      "vainqueur": "Moscou",
+      "consequences": "Après des semaines face à face sur les deux rives de l’Ougra, le khan Ahmed se retire : Moscou cesse de payer tribut.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Grande_halte_sur_la_rivi%C3%A8re_Ougra"
+    }
+  ],
+  "sciences": "La Horde d’or organise un vaste réseau de relais de poste et de routes caravanières qui relie la mer Noire à l’Asie centrale. Ses villes de la Volga, comme Saraï, ont des ateliers de céramique, de métal et des canalisations ; ses khans recensent la population russe pour fixer le tribut.",
+  "croyancesText": "Les premiers khans suivent les croyances des steppes et tolèrent toutes les religions. Berke se convertit à l’islam, puis Özbeg en fait la religion officielle (1313). L’Église orthodoxe russe reçoit des khans des privilèges : ses biens sont exemptés de tribut.",
+  "diplomatie": "La Horde domine les principautés russes de façon indirecte : les princes gardent leur pouvoir, mais doivent aller à Saraï recevoir le yarlyk et payer le tribut. Elle s’allie aux Mamelouks d’Égypte contre les Mongols de Perse et commerce avec les Génois et les Vénitiens de Crimée.",
+  "societe": "Une petite élite mongole se fond rapidement dans la population turque kiptchak des steppes. Les Russes appellent ces peuples « Tatars ». Les princes de Moscou servent d’intermédiaires et collectent le tribut pour le khan.",
+  "economie": "Tribut des principautés russes, élevage, commerce sur la Volga et avec les comptoirs italiens de la mer Noire (fourrures, esclaves, céréales, soie).",
+  "arts": "Céramiques émaillées, bijoux et vaisselle d’or et d’argent, architecture de brique dans les villes de la Volga.",
+  "quotidien": "Ibn Battuta raconte que le khan Özbeg voyage avec un immense camp de chariots, une véritable ville mobile, et que ses épouses tiennent une place importante à la cour.",
+  "heritage": [
+    {
+      "titre": "Les Tatars",
+      "texte": "Les Tatars de la Volga et de Crimée sont en partie héritiers des peuples de la Horde."
+    },
+    {
+      "titre": "Le « joug tatar »",
+      "texte": "Cette expression, apparue plus tard en Russie, désigne la période de domination de la Horde ; les historiens en discutent les effets réels."
+    }
+  ],
+  "aSavoir": [
+    "Le nom « Horde d’or » n’est utilisé par les Russes qu’à partir du XVIe siècle ; on parlait aussi d’« oulous de Djötchi »."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Horde_d%27or",
+    { "titre": "Encyclopædia Britannica — Golden Horde", "url": "https://www.britannica.com/place/Golden-Horde" }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "prise-de-la-bastille",
+  "nom": "Prise de la Bastille",
+  "annee": 1789,
+  "dates": "14 juillet 1789",
+  "lieu": "Paris",
+  "description": "Le peuple de Paris s’empare de la forteresse de la Bastille, prison royale et symbole de l’arbitraire : c’est le premier grand acte de la Révolution.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Inquiets du renvoi du ministre Necker et de la présence des troupes, les Parisiens cherchent des armes et de la poudre. Après des combats, la forteresse se rend ; son gouverneur est tué."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Le roi recule ; dans les campagnes, les paysans se soulèvent. Le 4 août, l’Assemblée abolit les privilèges."
+    }
+  ],
+  "apres": "declaration-des-droits-de-l-homme",
+  "aSavoir": ["Il n’y avait que sept prisonniers dans la Bastille ce jour-là."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Prise_de_la_Bastille"
+}

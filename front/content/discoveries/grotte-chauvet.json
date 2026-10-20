@@ -1,0 +1,21 @@
+{
+  "id": "grotte-chauvet",
+  "nom": "Grotte Chauvet",
+  "annee": -36000,
+  "domaine": "Art",
+  "dates": "peintures vers −36 000 ; découverte en 1994",
+  "description": "Une grotte de l’Ardèche ornée de plus de 400 représentations d’animaux, parmi les plus anciennes et les plus belles peintures connues.",
+  "sections": [
+    {
+      "titre": "Ce qu’on y voit",
+      "texte": "Lions, rhinocéros, mammouths, chevaux et ours, souvent en mouvement et dessinés en perspective, ainsi que des mains et des signes."
+    }
+  ],
+  "heritage": [
+    {
+      "titre": "Une réplique",
+      "texte": "Fermée au public pour la protéger, la grotte est reproduite à l’identique dans la Grotte Chauvet 2, ouverte en 2015."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Grotte_Chauvet"
+}

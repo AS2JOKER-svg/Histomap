@@ -1,0 +1,21 @@
+{
+  "id": "revolte-des-cipayes",
+  "nom": "Révolte des cipayes",
+  "annee": 1857,
+  "fin": 1858,
+  "dates": "1857 → 1858",
+  "lieu": "Nord de l’Inde",
+  "description": "Des soldats indiens de l’armée de la Compagnie britannique, les cipayes, se révoltent ; la rébellion gagne une grande partie du nord de l’Inde.",
+  "sections": [
+    {
+      "titre": "Contexte",
+      "texte": "La révolte éclate à propos de cartouches graissées avec de la graisse de vache et de porc, offense pour les hindous et les musulmans, sur fond de mécontentement contre la domination britannique."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "La révolte est écrasée avec une grande brutalité. La Compagnie est dissoute en 1858 : la Couronne britannique gouverne désormais l’Inde."
+    }
+  ],
+  "apres": "marche-du-sel",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/R%C3%A9volte_des_cipayes"
+}

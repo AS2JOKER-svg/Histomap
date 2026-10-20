@@ -1,0 +1,34 @@
+{
+  "id": "louis-ix",
+  "nom": "Saint Louis",
+  "nomComplet": "Louis IX",
+  "role": "Roi de France",
+  "roles": ["Roi", "Saint"],
+  "dates": "1214 → 1270",
+  "naissance": 1214,
+  "mort": 1270,
+  "description": "Roi pieux et justicier, il mène deux croisades et meurt devant Tunis. Canonisé en 1297, il devient le modèle du roi chrétien.",
+  "reperes": [
+    {
+      "label": "Règne",
+      "valeur": "1226 → 1270",
+      "precision": "sous la régence de sa mère, Blanche de Castille, à ses débuts"
+    },
+    { "label": "Monument", "valeur": "La Sainte-Chapelle", "precision": "consacrée en 1248" }
+  ],
+  "essentiel": [
+    "Il renforce la justice royale : chacun peut faire appel au roi.",
+    "Il mène la septième croisade, où il est fait prisonnier en Égypte (1250), puis la huitième, où il meurt.",
+    "Son prestige moral est immense dans toute l’Europe."
+  ],
+  "chronologie": [
+    { "annee": 1226, "texte": "Devient roi à 12 ans" },
+    { "annee": 1248, "texte": "Consécration de la Sainte-Chapelle ; départ en croisade" },
+    { "annee": 1250, "texte": "Capturé en Égypte, puis libéré contre rançon" },
+    { "annee": 1270, "texte": "Meurt devant Tunis" }
+  ],
+  "aSavoir": [
+    "L’image du roi rendant la justice sous un chêne à Vincennes vient du récit de son ami et biographe Joinville."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Louis_IX"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "chute-de-tenochtitlan",
+  "nom": "Chute de Tenochtitlan",
+  "annee": 1521,
+  "dates": "13 août 1521",
+  "lieu": "Tenochtitlan (Mexico)",
+  "description": "Après près de trois mois de siège, les Espagnols de Cortés et leurs nombreux alliés autochtones prennent Tenochtitlan. L’empire aztèque disparaît.",
+  "sections": [
+    {
+      "titre": "Contexte",
+      "texte": "Chassés de la ville en 1520, les Espagnols se replient à Tlaxcala. Pendant ce temps, une épidémie de variole, maladie inconnue en Amérique, tue une grande partie de la population, dont le tlatoani Cuitláhuac."
+    },
+    {
+      "titre": "Déroulement",
+      "texte": "Cortés fait construire des brigantins pour contrôler le lac et coupe l’eau potable. Les défenseurs, menés par [[cuauhtemoc|Cuauhtémoc]], résistent quartier par quartier jusqu’à sa capture."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "La ville est détruite et Mexico est bâtie sur ses ruines. Le centre du Mexique devient la Nouvelle-Espagne."
+    }
+  ],
+  "liens": [
+    { "ref": "cuauhtemoc", "relation": "Chef de la défense" },
+    { "ref": "hernan-cortes", "relation": "Chef des assiégeants" }
+  ],
+  "avant": "triple-alliance",
+  "aSavoir": [
+    "Les Espagnols ne sont que quelques centaines à un millier ; l’essentiel des assiégeants sont des guerriers autochtones, de Tlaxcala, de Texcoco et d’autres cités."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Tenochtitlan"
+}

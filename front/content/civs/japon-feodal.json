@@ -1,0 +1,347 @@
+{
+  "id": "japon-feodal",
+  "label": "Japon féodal (Samouraïs)",
+  "tier": 1,
+  "region": "japon",
+  "period": "794 à 1492",
+  "start": 794,
+  "end": 1492,
+  "trackId": "japon",
+  "row": 5,
+  "isRiver": false,
+  "capitale": "Kyoto / Kamakura",
+  "description": "Le Japon de l’époque Heian, où brille la culture de cour, puis des shoguns de Kamakura et de Muromachi, quand les guerriers samouraïs prennent le pouvoir réel à la place de l’empereur.",
+  "territories": ["Japan", "Imperial Japan (Fujiwara)", "Shogun Japan (Kamakura)"],
+  "datesCles": [
+    {
+      "annee": 794,
+      "evenement": "Période Heian",
+      "info": "Installation de la capitale impériale à Kyoto. Âge d’or de la littérature de cour."
+    },
+    {
+      "annee": 1008,
+      "evenement": "Le Dit du Genji",
+      "info": "Murasaki Shikibu écrit son grand roman à la cour impériale."
+    },
+    {
+      "annee": 1185,
+      "evenement": "Guerre de Genpei",
+      "info": "Le clan Minamoto écrase les Taira et fonde le shogunat de Kamakura, un gouvernement militaire.",
+      "ref": "guerre-de-genpei"
+    },
+    {
+      "annee": 1281,
+      "evenement": "Les vents divins (Kamikaze)",
+      "info": "Un typhon détruit la flotte d’invasion mongole.",
+      "ref": "invasions-mongoles-du-japon"
+    },
+    {
+      "annee": 1333,
+      "evenement": "Chute de Kamakura",
+      "info": "L’empereur Go-Daigo renverse le shogunat de Kamakura, mais son pouvoir ne dure que trois ans."
+    },
+    {
+      "annee": 1397,
+      "evenement": "Pavillon d’or",
+      "info": "Le shogun Ashikaga Yoshimitsu fait bâtir le Kinkaku-ji à Kyoto."
+    },
+    {
+      "annee": 1467,
+      "evenement": "Guerre d’Ōnin",
+      "info": "Destruction de Kyoto, plongeant le Japon dans un siècle de guerre civile (Sengoku).",
+      "ref": "guerre-d-onin"
+    }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Kanmu",
+      "titre": "Empereur",
+      "debut": 781,
+      "fin": 806,
+      "dynastie": "heian",
+      "note": "installe la capitale à Heian-kyō",
+      "cle": true
+    },
+    {
+      "nom": "Fujiwara no Michinaga",
+      "titre": "Régent",
+      "debut": 995,
+      "fin": 1027,
+      "dynastie": "heian",
+      "note": "apogée des Fujiwara",
+      "cle": true
+    },
+    {
+      "nom": "Shirakawa",
+      "titre": "Empereur, puis empereur retiré",
+      "debut": 1073,
+      "fin": 1129,
+      "dynastie": "heian",
+      "note": "gouverne depuis son monastère"
+    },
+    {
+      "nom": "Taira no Kiyomori",
+      "titre": "Chef du clan Taira",
+      "debut": 1167,
+      "fin": 1181,
+      "dynastie": "heian",
+      "note": "premier guerrier à dominer la cour"
+    },
+    {
+      "nom": "Minamoto no Yoritomo",
+      "titre": "Shogun",
+      "debut": 1192,
+      "fin": 1199,
+      "dynastie": "kamakura",
+      "personne": "minamoto-no-yoritomo",
+      "note": "fondateur du shogunat",
+      "cle": true
+    },
+    {
+      "nom": "Hōjō Masako",
+      "titre": "Veuve de Yoritomo, gouvernante de fait",
+      "debut": 1199,
+      "fin": 1225,
+      "dynastie": "kamakura",
+      "note": "surnommée la « nonne shogun »"
+    },
+    {
+      "nom": "Hōjō Tokimune",
+      "titre": "Régent (shikken)",
+      "debut": 1268,
+      "fin": 1284,
+      "dynastie": "kamakura",
+      "note": "repousse les invasions mongoles",
+      "cle": true
+    },
+    {
+      "nom": "Go-Daigo",
+      "titre": "Empereur",
+      "debut": 1318,
+      "fin": 1339,
+      "dynastie": "muromachi",
+      "note": "renverse Kamakura en 1333"
+    },
+    {
+      "nom": "Ashikaga Takauji",
+      "titre": "Shogun",
+      "debut": 1338,
+      "fin": 1358,
+      "dynastie": "muromachi",
+      "note": "fondateur du shogunat Ashikaga",
+      "cle": true
+    },
+    {
+      "nom": "Ashikaga Yoshimitsu",
+      "titre": "Shogun",
+      "debut": 1368,
+      "fin": 1394,
+      "dynastie": "muromachi",
+      "note": "fait bâtir le Pavillon d’or",
+      "cle": true
+    },
+    {
+      "nom": "Ashikaga Yoshimasa",
+      "titre": "Shogun",
+      "debut": 1449,
+      "fin": 1473,
+      "dynastie": "muromachi",
+      "note": "Pavillon d’argent ; guerre d’Ōnin"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Murasaki Shikibu",
+      "role": "Femme de lettres",
+      "description": "Dame de la cour impériale de Heian, autrice du Dit du Genji, souvent considéré comme l’un des premiers romans du monde.",
+      "dates": "vers 973 → vers 1014",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Murasaki_Shikibu",
+      "ref": "murasaki-shikibu"
+    },
+    {
+      "nom": "Sei Shōnagon",
+      "role": "Femme de lettres",
+      "description": "Dame de cour, autrice des Notes de chevet, recueil d’impressions et de listes plein d’esprit.",
+      "dates": "vers 966 → vers 1025",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Sei_Sh%C5%8Dnagon"
+    },
+    {
+      "nom": "Minamoto no Yoshitsune",
+      "role": "Général",
+      "description": "Demi-frère de Yoritomo, héros de la guerre de Genpei, poussé au suicide par son frère jaloux ; héros de nombreuses légendes.",
+      "dates": "1159 → 1189",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Minamoto_no_Yoshitsune"
+    },
+    {
+      "nom": "Zeami",
+      "role": "Dramaturge",
+      "description": "Acteur et auteur, il donne au théâtre nô sa forme classique.",
+      "dates": "vers 1363 → vers 1443",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Zeami"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerre de Genpei",
+      "annee": 1180,
+      "adversaires": ["Clan Taira"],
+      "allies": ["Clan Minamoto"],
+      "morts": "Inconnues",
+      "vainqueur": "Clan Minamoto",
+      "consequences": "Guerre de 1180 à 1185. Les Taira sont anéantis à la bataille navale de Dan-no-ura ; Yoritomo fonde le shogunat de Kamakura.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_de_Genpei"
+    },
+    {
+      "nom": "Invasions mongoles",
+      "annee": 1274,
+      "adversaires": ["Empire Mongol (Kubilai Khan)"],
+      "allies": [],
+      "morts": "Très lourdes dans la flotte mongole, détruite par les typhons",
+      "vainqueur": "Japon (et les typhons)",
+      "consequences": "Le Japon, sauvé par les vents divins, se convainc de son invincibilité sacrée. Mais le coût défensif ruine le Shogunat de Kamakura, causant sa propre chute interne.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Invasions_mongoles_du_Japon"
+    },
+    {
+      "nom": "Guerre d’Ōnin",
+      "annee": 1467,
+      "adversaires": ["Clan Yamana et ses alliés"],
+      "allies": ["Clan Hosokawa et ses alliés"],
+      "morts": "Inconnues ; Kyoto est en grande partie détruite",
+      "vainqueur": "Aucun vainqueur",
+      "consequences": "Guerre de 1467 à 1477. Le shogun perd toute autorité ; les seigneurs se font la guerre pendant un siècle (époque Sengoku).",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_d%27%C5%8Cnin"
+    }
+  ],
+  "sciences": "Les forgerons japonais fabriquent des sabres réputés : l’acier, replié une dizaine de fois sur lui-même, forme des milliers de couches ; la lame associe un cœur souple et un tranchant très dur, durci par une trempe sélective sous l’argile. Les charpentiers bâtissent des temples et des pagodes en bois qui résistent aux séismes. La cour développe les syllabaires kana, qui permettent d’écrire facilement le japonais.",
+  "croyancesText": "Le shintō, culte des kami (divinités de la nature et des ancêtres), et le bouddhisme se mêlent étroitement : les kami sont souvent vus comme des formes de bouddhas. À l’époque de Kamakura, de nouvelles écoles se répandent : la Terre pure, qui promet le salut par la récitation du nom du bouddha Amida, et le zen, fondé sur la méditation, apprécié des guerriers. Le zen influence la cérémonie du thé, les jardins secs et la calligraphie.",
+  "diplomatie": "Protégé par la mer, le Japon entretient des relations limitées avec la Chine et la Corée, surtout commerciales. Il repousse les invasions mongoles de 1274 et 1281. Les shoguns Ashikaga renouent le commerce officiel avec la Chine des Ming. À l’intérieur, le pouvoir se fragmente entre de grands seigneurs, les daimyō.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": {
+      "valeur": "Kyoto (Heian-kyō)",
+      "precision": "capitale impériale ; le shogunat siège à Kamakura (1185-1333), puis à Kyoto (Muromachi)"
+    },
+    "regimes": {
+      "valeur": "Empire et shogunat",
+      "precision": "l’empereur règne, mais le pouvoir passe aux régents Fujiwara, puis aux shoguns militaires"
+    },
+    "langues": { "valeur": "Japonais", "precision": "écrit avec des caractères chinois et les syllabaires kana" },
+    "religion": {
+      "valeur": "Shintō et bouddhisme",
+      "precision": "les deux religions se mêlent ; essor du zen et de la Terre pure"
+    },
+    "apogee": { "valeur": "XIe siècle (culture de cour) et XIVe siècle", "precision": "Heian, puis l’époque des Ashikaga" },
+    "population": { "valeur": "Environ 5 à 10 millions", "precision": "estimation, en hausse au fil de la période" },
+    "monnaie": { "valeur": "Monnaies chinoises", "precision": "les pièces de cuivre importées de Chine circulent largement" },
+    "duree": { "valeur": "Près de 700 ans" },
+    "aujourdhui": { "valeur": "Japon", "precision": "sauf Hokkaidō et Okinawa" }
+  },
+  "essentiel": [
+    "En 794, la capitale s’installe à Heian-kyō (Kyoto) : la cour impériale y développe une culture raffinée, où brillent des femmes écrivains comme [[murasaki-shikibu|Murasaki Shikibu]].",
+    "Le pouvoir réel passe aux régents de la famille Fujiwara, puis aux clans de guerriers, les samouraïs.",
+    "Après la [[guerre-de-genpei|guerre de Genpei]], [[minamoto-no-yoritomo|Minamoto no Yoritomo]] fonde à Kamakura le premier shogunat, un gouvernement militaire.",
+    "Le Japon repousse deux [[invasions-mongoles-du-japon|invasions mongoles]] (1274 et 1281), aidé par des typhons.",
+    "Les shoguns Ashikaga s’installent à Kyoto ; la [[guerre-d-onin|guerre d’Ōnin]] (1467) ouvre un siècle de guerres civiles."
+  ],
+  "periodes": [
+    {
+      "nom": "L’époque de Heian",
+      "debut": 794,
+      "fin": 1185,
+      "resume": "La cour impériale de Kyoto vit dans le raffinement : poésie, calligraphie, romans. Les Fujiwara gouvernent comme régents ; en province, les guerriers gagnent en puissance.",
+      "evenements": [
+        { "annee": 1008, "evenement": "Le Dit du Genji" },
+        { "annee": 1086, "evenement": "Début du gouvernement des empereurs retirés" }
+      ]
+    },
+    {
+      "nom": "Le shogunat de Kamakura",
+      "debut": 1185,
+      "fin": 1333,
+      "resume": "Les Minamoto, puis les régents Hōjō, gouvernent depuis Kamakura. Le bouddhisme zen et celui de la Terre pure se répandent ; les Mongols sont repoussés.",
+      "evenements": [
+        { "annee": 1192, "evenement": "Yoritomo nommé shogun" },
+        { "annee": 1274, "evenement": "Première invasion mongole", "ref": "invasions-mongoles-du-japon" }
+      ]
+    },
+    {
+      "nom": "L’époque de Muromachi",
+      "debut": 1336,
+      "fin": 1492,
+      "resume": "Les shoguns Ashikaga s’installent à Kyoto. Le théâtre nô, la cérémonie du thé et les jardins secs s’épanouissent, avant que les seigneurs ne s’entre-déchirent.",
+      "evenements": [
+        { "annee": 1397, "evenement": "Pavillon d’or" },
+        { "annee": 1467, "evenement": "Guerre d’Ōnin", "ref": "guerre-d-onin" }
+      ]
+    }
+  ],
+  "regimes": [
+    {
+      "id": "cour",
+      "nom": "Gouvernement de la cour",
+      "debut": 794,
+      "fin": 1185,
+      "note": "L’empereur gouverne d’abord lui-même, puis par l’intermédiaire des régents Fujiwara et des empereurs retirés."
+    },
+    {
+      "id": "shogunat",
+      "nom": "Shogunats",
+      "debut": 1185,
+      "fin": 1492,
+      "note": "Le shogun, chef militaire, gouverne au nom de l’empereur, qui garde son rôle religieux et symbolique."
+    }
+  ],
+  "dynasties": [
+    {
+      "id": "heian",
+      "nom": "Empereurs et régents de Heian",
+      "debut": 781,
+      "fin": 1181,
+      "regime": "cour",
+      "note": "Sélection."
+    },
+    {
+      "id": "kamakura",
+      "nom": "Shogunat de Kamakura",
+      "debut": 1192,
+      "fin": 1333,
+      "regime": "shogunat",
+      "note": "Après les Minamoto, les régents Hōjō détiennent le pouvoir."
+    },
+    {
+      "id": "muromachi",
+      "nom": "Shogunat Ashikaga (Muromachi)",
+      "debut": 1318,
+      "fin": 1490,
+      "regime": "shogunat",
+      "note": "Avec l’empereur Go-Daigo, qui tente de restaurer le pouvoir impérial. Sélection."
+    }
+  ],
+  "societe": "À la cour de Heian, une petite aristocratie vit dans le raffinement. Les samouraïs, guerriers au service d’un seigneur, deviennent la classe dominante à partir du XIIe siècle. Les paysans, majoritaires, cultivent le riz et paient de lourdes redevances.",
+  "economie": "Riziculture, artisanat (sabres, laque, céramique), commerce avec la Chine (cuivre, soie, livres) ; les marchés et les villes se développent à l’époque de Muromachi.",
+  "decouvertes": ["dit-du-genji", "katana"],
+  "arts": "Rouleaux peints, poésie waka, Byōdō-in, statues de Kamakura, théâtre nô, Pavillon d’or et Pavillon d’argent, jardins secs du Ryōan-ji.",
+  "quotidien": "Les paysans vivent dans des villages autour des rizières. À la cour, les dames passent des heures à choisir les couleurs de leurs vêtements superposés et à échanger des poèmes.",
+  "heritage": [
+    {
+      "titre": "Les samouraïs",
+      "texte": "Leur image, souvent idéalisée, fascine dans le monde entier, des films de Kurosawa aux mangas."
+    },
+    {
+      "titre": "Les arts japonais",
+      "texte": "Cérémonie du thé, nô, jardins zen et art floral naissent ou s’épanouissent à cette époque."
+    },
+    { "titre": "Kyoto", "texte": "Ses temples et jardins sont inscrits au patrimoine mondial." }
+  ],
+  "aSavoir": [
+    "Le mot « kamikaze », « vent divin », désignait d’abord les typhons de 1274 et 1281 ; il a été repris pendant la Seconde Guerre mondiale pour les pilotes suicides."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Histoire_du_Japon",
+    "https://fr.wikipedia.org/wiki/%C3%89poque_de_Kamakura",
+    {
+      "titre": "Encyclopædia Britannica — Kamakura period",
+      "url": "https://www.britannica.com/event/Kamakura-period"
+    }
+  ]
+}

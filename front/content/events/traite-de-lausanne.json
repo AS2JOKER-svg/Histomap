@@ -1,0 +1,16 @@
+{
+  "id": "traite-de-lausanne",
+  "nom": "Traité de Lausanne",
+  "annee": 1923,
+  "dates": "24 juillet 1923",
+  "lieu": "Lausanne (Suisse)",
+  "description": "Le traité reconnaît les frontières de la nouvelle Turquie, après sa victoire dans la guerre d’indépendance, et remplace le traité de Sèvres.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "Il prévoit un échange obligatoire de populations entre la Grèce et la Turquie. Mustafa Kemal proclame la République trois mois plus tard."
+    }
+  ],
+  "liens": [{ "ref": "ataturk", "relation": "Le chef turc" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Trait%C3%A9_de_Lausanne_(1923)"
+}

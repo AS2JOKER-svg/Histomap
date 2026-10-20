@@ -5,20 +5,18 @@
 //         node scripts/validate-revision.mjs src/data/revision/x.js …  (fichiers précis,
 //         même s'ils ne sont pas encore enregistrés dans index.js)
 import { readFileSync } from 'fs'
-import { fileURLToPath } from 'url'
-import { dirname, join, resolve, basename } from 'path'
+import { resolve, basename } from 'path'
 import { pathToFileURL } from 'url'
 import { HANDWRITTEN as REGISTERED } from '../src/data/revision/index.js'
+import { PATHS, assemble, loadContent } from './lib/content.mjs'
 
 const files = process.argv.slice(2)
 const HANDWRITTEN = files.length
   ? Object.fromEntries(await Promise.all(files.map(async (f) => [basename(f, '.js'), (await import(pathToFileURL(resolve(f)).href)).default])))
   : REGISTERED
 
-const __dirname = dirname(fileURLToPath(import.meta.url))
-const epochs = JSON.parse(readFileSync(join(__dirname, '..', 'src', 'data', 'epochs.json'), 'utf-8'))
-const mapYears = new Set(JSON.parse(readFileSync(join(__dirname, '..', 'src', 'data', 'map-years.json'), 'utf-8')))
-const civIds = new Set(epochs.flatMap((e) => e.continents.flatMap((c) => c.civilizations.map((v) => v.id))))
+const mapYears = new Set(JSON.parse(readFileSync(PATHS.mapYears, 'utf-8')))
+const civIds = new Set(assemble(loadContent()).byId.keys())
 
 const errors = []
 const err = (where, msg) => errors.push(`${where} — ${msg}`)
@@ -40,7 +38,7 @@ let cards = 0
 let questions = 0
 for (const [civId, chapter] of Object.entries(HANDWRITTEN)) {
   const w = `revision/${civId}`
-  if (!civIds.has(civId)) err(w, 'civilisation inconnue dans epochs.json')
+  if (!civIds.has(civId)) err(w, 'civilisation inconnue (aucun fichier content/civs/ listé dans content/epochs.json)')
   const ids = new Set()
   for (const c of chapter.cards ?? []) {
     cards++

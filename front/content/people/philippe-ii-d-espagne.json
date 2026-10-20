@@ -1,0 +1,18 @@
+{
+  "id": "philippe-ii-d-espagne",
+  "nom": "Philippe II d’Espagne",
+  "role": "Roi d’Espagne",
+  "roles": ["Roi d’Espagne", "Roi de Portugal"],
+  "dates": "1527 → 1598",
+  "naissance": 1527,
+  "mort": 1598,
+  "description": "Fils de Charles Quint, il gouverne depuis son palais de l’Escurial un empire mondial et se veut le défenseur du catholicisme.",
+  "essentiel": [
+    "Il fixe la capitale à Madrid en 1561.",
+    "Sa flotte participe à la victoire de [[bataille-de-lepante|Lépante]] (1571).",
+    "Il devient roi de Portugal en 1580.",
+    "Il échoue à réprimer la révolte des Pays-Bas et à envahir l’Angleterre avec l’[[invincible-armada|Invincible Armada]]."
+  ],
+  "liens": [{ "ref": "charles-quint", "relation": "Son père" }, { "ref": "elisabeth-ire", "relation": "Son adversaire" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Philippe_II_(roi_d%27Espagne)"
+}

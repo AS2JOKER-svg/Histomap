@@ -1,0 +1,213 @@
+{
+  "id": "kongo-mod",
+  "label": "Royaume du Kongo (Christianisé)",
+  "tier": 1,
+  "region": "afrique-centrale",
+  "period": "1492 à 1789",
+  "start": 1492,
+  "end": 1789,
+  "trackId": "afrique_centrale",
+  "row": 3,
+  "isRiver": false,
+  "capitale": "Mbanza Kongo (San Salvador)",
+  "description": "Le royaume du Kongo après sa conversion au christianisme : un État africain qui traite d’abord d’égal à égal avec le Portugal, puis est déchiré par la traite des esclaves, les guerres et les crises de succession.",
+  "territories": ["Congo"],
+  "datesCles": [
+    {
+      "annee": 1518,
+      "evenement": "Un évêque kongo",
+      "info": "Le fils du roi du Kongo, Henrique, est nommé évêque (titulaire d’Utique) par le pape, l’un des tout premiers évêques d’Afrique subsaharienne."
+    },
+    {
+      "annee": 1526,
+      "evenement": "Les lettres d’Afonso",
+      "info": "Le roi demande au roi du Portugal d’arrêter les enlèvements de ses sujets par les marchands d’esclaves."
+    },
+    {
+      "annee": 1568,
+      "evenement": "Invasion des Jaga",
+      "info": "Des guerriers venus de l’est ravagent le royaume ; le roi doit appeler les Portugais à l’aide."
+    },
+    {
+      "annee": 1665,
+      "evenement": "Bataille d’Ambuila",
+      "info": "Le roi du Kongo est tué et décapité par les troupes de l’Angola portugais.",
+      "ref": "bataille-d-ambuila"
+    },
+    {
+      "annee": 1704,
+      "evenement": "Le mouvement antonien",
+      "info": "Kimpa Vita lance un mouvement religieux qui appelle à repeupler l’ancienne capitale et à réunifier le royaume."
+    },
+    {
+      "annee": 1709,
+      "evenement": "Réunification",
+      "info": "Le roi Pedro IV réoccupe la capitale et réunifie le royaume."
+    }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Afonso Ier (Mvemba a Nzinga)",
+      "titre": "Roi (manikongo)",
+      "debut": 1509,
+      "fin": 1542,
+      "dynastie": "rois",
+      "personne": "afonso-ier-du-kongo",
+      "cle": true
+    },
+    { "nom": "Pedro Ier", "titre": "Roi", "debut": 1543, "fin": 1545, "dynastie": "rois" },
+    { "nom": "Diogo Ier", "titre": "Roi", "debut": 1545, "fin": 1561, "dynastie": "rois" },
+    {
+      "nom": "Álvaro Ier",
+      "titre": "Roi",
+      "debut": 1568,
+      "fin": 1587,
+      "dynastie": "rois",
+      "note": "chassé par les Jaga, rétabli avec l’aide portugaise"
+    },
+    {
+      "nom": "Álvaro II",
+      "titre": "Roi",
+      "debut": 1587,
+      "fin": 1614,
+      "dynastie": "rois",
+      "note": "envoie un ambassadeur au pape"
+    },
+    {
+      "nom": "Garcia II",
+      "titre": "Roi",
+      "debut": 1641,
+      "fin": 1661,
+      "dynastie": "rois",
+      "note": "s’allie aux Hollandais contre les Portugais",
+      "cle": true
+    },
+    {
+      "nom": "António Ier (Nvita a Nkanga)",
+      "titre": "Roi",
+      "debut": 1661,
+      "fin": 1665,
+      "dynastie": "rois",
+      "note": "tué à Ambuila",
+      "cle": true
+    },
+    {
+      "nom": "Pedro IV",
+      "titre": "Roi",
+      "debut": 1695,
+      "fin": 1718,
+      "dynastie": "rois",
+      "note": "réunifie le royaume en 1709",
+      "cle": true
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Kimpa Vita (Dona Beatriz)",
+      "role": "Prophétesse",
+      "description": "Jeune femme noble qui se dit habitée par saint Antoine et prêche un christianisme africain pour réunifier le royaume ; elle est brûlée en 1706.",
+      "dates": "1684 → 1706",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Kimpa_Vita",
+      "ref": "kimpa-vita"
+    },
+    {
+      "nom": "Afonso Ier",
+      "role": "Roi",
+      "description": "Roi chrétien qui fait du Kongo un royaume catholique et dénonce la traite dans ses lettres au roi du Portugal.",
+      "dates": "vers 1456 → 1542",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Alphonse_Ier_(manikongo)",
+      "ref": "afonso-ier-du-kongo"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Bataille d'Ambuila",
+      "annee": 1665,
+      "adversaires": ["Colonie portugaise d'Angola"],
+      "allies": [],
+      "morts": "Très lourdes dans la noblesse kongo",
+      "vainqueur": "Portugal",
+      "consequences": "Le roi António Ier est tué et décapité ; sa tête est emportée à Luanda. Le royaume sombre dans quarante ans de guerres civiles.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_d'Ambuila"
+    }
+  ],
+  "sciences": "Une partie de la noblesse apprend à lire et à écrire en portugais et en latin ; le royaume a des écoles et des secrétaires. L’administration reprend des titres européens (duc, comte, marquis), adaptés aux structures traditionnelles des provinces.",
+  "croyancesText": "Le christianisme du Kongo est adopté par les rois eux-mêmes et adapté aux croyances locales : les anciens esprits sont rapprochés des saints, et la croix devient un puissant symbole protecteur. Des missionnaires, souvent des capucins italiens envoyés par Rome, accompagnent cette christianisation. Le mouvement de Kimpa Vita affirme que Jésus est né au Kongo.",
+  "diplomatie": "Sous Afonso Ier, les rois du Kongo et du Portugal s’appellent « frères » ; le Kongo fait venir des prêtres, des maîtres d’école et des artisans. Mais les Portugais exigent de plus en plus d’esclaves en échange, pour les plantations de São Tomé puis du Brésil. Le Kongo envoie des ambassades au pape et s’allie un temps aux Hollandais contre la colonie portugaise d’Angola.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": {
+      "valeur": "Mbanza Kongo (São Salvador)",
+      "precision": "abandonnée de 1678 à 1709 pendant les guerres civiles"
+    },
+    "regimes": {
+      "valeur": "Monarchie",
+      "precision": "roi chrétien élu parmi les descendants d’Afonso Ier, avec des titres de noblesse portugais"
+    },
+    "langues": { "valeur": "Kikongo", "precision": "portugais pour l’écrit" },
+    "religion": { "valeur": "Christianisme catholique", "precision": "mêlé aux croyances traditionnelles" },
+    "apogee": { "valeur": "XVIe siècle", "precision": "sous Afonso Ier" },
+    "population": { "valeur": "Peut-être 2 à 3 millions", "precision": "au XVIe siècle (estimation)" },
+    "monnaie": { "valeur": "Nzimbu et étoffes de raphia" },
+    "duree": { "valeur": "Environ 300 ans dans cette fiche" },
+    "aujourdhui": { "valeur": "Angola, République démocratique du Congo, Congo" }
+  },
+  "essentiel": [
+    "Le roi [[afonso-ier-du-kongo|Afonso Ier]] fait du christianisme la religion du royaume et échange des lettres avec le roi du Portugal.",
+    "Son fils Henrique est nommé évêque par le pape en 1518, l’un des premiers évêques d’Afrique subsaharienne.",
+    "La traite des esclaves vers les plantations portugaises déstabilise le royaume, malgré les plaintes d’Afonso Ier.",
+    "En 1665, les Portugais d’Angola battent et tuent le roi António Ier à la [[bataille-d-ambuila|bataille d’Ambuila]] ; le royaume plonge dans la guerre civile.",
+    "La prophétesse [[kimpa-vita|Kimpa Vita]] prêche un christianisme africain pour réunifier le pays ; elle est brûlée en 1706."
+  ],
+  "periodes": [
+    {
+      "nom": "Le royaume chrétien",
+      "debut": 1492,
+      "fin": 1568,
+      "resume": "Afonso Ier organise une Église kongo et des écoles ; mais la traite des esclaves prend de l’ampleur.",
+      "evenements": [{ "annee": 1509, "evenement": "Avènement d’Afonso Ier" }, { "annee": 1518, "evenement": "Henrique évêque" }]
+    },
+    {
+      "nom": "Entre Portugal et Hollandais",
+      "debut": 1568,
+      "fin": 1665,
+      "resume": "Le royaume se relève de l’invasion des Jaga, mais affronte la colonie portugaise d’Angola, fondée en 1575. Garcia II s’allie un temps aux Hollandais.",
+      "evenements": [
+        { "annee": 1575, "evenement": "Fondation de Luanda par les Portugais" },
+        { "annee": 1665, "evenement": "Bataille d’Ambuila", "ref": "bataille-d-ambuila" }
+      ]
+    },
+    {
+      "nom": "Guerres civiles et réunification",
+      "debut": 1665,
+      "fin": 1789,
+      "resume": "Des familles rivales se disputent le trône ; la capitale est abandonnée. Pedro IV réunifie le royaume, qui reste divisé entre grandes familles.",
+      "evenements": [
+        { "annee": 1706, "evenement": "Exécution de Kimpa Vita" },
+        { "annee": 1709, "evenement": "Pedro IV à São Salvador" }
+      ]
+    }
+  ],
+  "dynasties": [{ "id": "rois", "nom": "Les rois chrétiens du Kongo", "debut": 1509, "fin": 1718, "note": "Sélection." }],
+  "societe": "Une noblesse chrétienne gouverne les provinces ; les villages paient tribut. L’esclavage, d’abord domestique, devient un commerce massif qui déstabilise le royaume.",
+  "economie": "Agriculture, tissage du raphia, cuivre, commerce de l’ivoire et des esclaves avec les Portugais.",
+  "decouvertes": ["nzimbu"],
+  "arts": "Crucifix en laiton mêlant art chrétien et art kongo, ivoires sculptés, étoffes de raphia, ruines de la cathédrale de Mbanza Kongo.",
+  "quotidien": "Les grandes fêtes chrétiennes, comme la Saint-Jacques, sont célébrées par des processions et des danses guerrières.",
+  "heritage": [
+    {
+      "titre": "Une mémoire vivante",
+      "texte": "Kimpa Vita est honorée en Angola et en RDC comme une figure de résistance ; Mbanza Kongo est inscrite au patrimoine mondial."
+    }
+  ],
+  "aSavoir": [
+    "Les lettres d’Afonso Ier au roi du Portugal, conservées à Lisbonne, sont parmi les plus anciens textes écrits par un souverain d’Afrique subsaharienne."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Royaume_du_Kongo",
+    {
+      "titre": "Encyclopædia Britannica — Kongo",
+      "url": "https://www.britannica.com/place/Kongo-historical-kingdom-Africa"
+    }
+  ]
+}

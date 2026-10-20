@@ -1,0 +1,25 @@
+{
+  "id": "hieroglyphes",
+  "nom": "Hiéroglyphes",
+  "annee": -3200,
+  "domaine": "Écriture",
+  "dates": "vers −3200",
+  "description": "L’écriture sacrée de l’Égypte, faite de signes dessinés qui notent à la fois des sons et des idées. C’est l’une des plus anciennes écritures du monde.",
+  "sections": [
+    {
+      "titre": "Comment ça marche",
+      "texte": "Un même signe peut noter un son (une ou plusieurs consonnes), un mot entier, ou préciser le sens d’un mot (un déterminatif). Les voyelles ne sont pas écrites. Environ 700 signes sont couramment utilisés au Moyen Empire."
+    },
+    {
+      "titre": "Déchiffrement",
+      "texte": "Oublié à la fin de l’Antiquité, le système est déchiffré en 1822 par Jean-François Champollion, grâce notamment à la pierre de Rosette, qui porte le même texte en hiéroglyphes, en démotique et en grec."
+    }
+  ],
+  "heritage": [
+    {
+      "titre": "Notre alphabet",
+      "texte": "Des signes hiéroglyphiques ont inspiré les premiers alphabets du Sinaï, ancêtres lointains de notre alphabet."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Hi%C3%A9roglyphe_%C3%A9gyptien"
+}

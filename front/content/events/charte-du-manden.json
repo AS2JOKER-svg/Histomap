@@ -1,0 +1,21 @@
+{
+  "id": "charte-du-manden",
+  "nom": "Charte du Manden",
+  "annee": 1236,
+  "dates": "vers 1236 (selon la tradition)",
+  "lieu": "Kouroukan Fouga (Mali)",
+  "description": "Selon la tradition orale, [[soundiata-keita|Soundiata]] réunit les chefs des clans après sa victoire et proclame des règles pour organiser la vie commune de l’empire.",
+  "sections": [
+    {
+      "titre": "Ce qu’elle contiendrait",
+      "texte": "Selon les versions recueillies au XXe siècle : le respect de la vie humaine, l’organisation des clans et des métiers, et des « parentés à plaisanterie » qui obligent certains clans à s’entraider."
+    },
+    {
+      "titre": "Un texte débattu",
+      "texte": "Transmise oralement pendant sept siècles par les griots, elle n’a été mise par écrit qu’au XXe siècle : les historiens discutent de ce qui remonte réellement au XIIIe siècle."
+    }
+  ],
+  "aSavoir": ["Elle est inscrite depuis 2009 au patrimoine culturel immatériel de l’UNESCO."],
+  "avant": "bataille-de-kirina",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Charte_du_Manden"
+}

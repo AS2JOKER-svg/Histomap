@@ -1,0 +1,22 @@
+{
+  "id": "katana",
+  "nom": "Le sabre japonais (katana)",
+  "annee": 1300,
+  "domaine": "Technique",
+  "dates": "XIIIe-XIVe siècles",
+  "description": "Un sabre courbe à un seul tranchant, fait d’acier replié et trempé avec un savoir-faire exceptionnel : l’arme et le symbole des samouraïs.",
+  "sections": [
+    {
+      "titre": "Comment il est fabriqué",
+      "texte": "Le forgeron replie l’acier une dizaine de fois pour l’épurer, ce qui crée des milliers de couches. Il enveloppe un cœur d’acier souple dans un acier dur, puis recouvre la lame d’argile, plus épaisse sur le dos : à la trempe, le tranchant devient très dur et la lame se courbe."
+    },
+    {
+      "titre": "Son rôle",
+      "texte": "Le katana, porté avec un sabre court, devient l’emblème des samouraïs. Les lames anciennes sont aujourd’hui des œuvres d’art."
+    }
+  ],
+  "aSavoir": [
+    "Contrairement à une idée répandue, l’acier n’est pas replié des milliers de fois, mais une dizaine de fois : ce sont les couches qui se comptent par milliers."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Katana"
+}

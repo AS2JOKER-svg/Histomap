@@ -1,0 +1,18 @@
+{
+  "id": "gustave-ii-adolphe",
+  "nom": "Gustave II Adolphe",
+  "role": "Roi de Suède",
+  "roles": ["Roi", "Chef de guerre"],
+  "dates": "1594 → 1632",
+  "naissance": 1594,
+  "mort": 1632,
+  "description": "Roi de Suède qui modernise l’armée et l’État, intervient dans la guerre de Trente Ans pour soutenir les protestants et fait de son pays une grande puissance. Il meurt au combat à Lützen.",
+  "reperes": [{ "label": "Règne", "valeur": "1611 → 1632" }],
+  "essentiel": [
+    "Il réforme l’armée : recrutement national, artillerie légère, tir en salves.",
+    "Il débarque en Allemagne en 1630 et bat les impériaux à Breitenfeld (1631).",
+    "Il est tué à la bataille de Lützen (1632), que son armée gagne."
+  ],
+  "liens": [{ "ref": "christine-de-suede", "relation": "Sa fille" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Gustave_II_Adolphe"
+}

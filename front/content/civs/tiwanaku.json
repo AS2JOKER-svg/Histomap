@@ -1,0 +1,109 @@
+{
+  "id": "tiwanaku",
+  "label": "Empire de Tiwanaku",
+  "tier": 1,
+  "region": "andes",
+  "period": "vers 500 à vers 1100",
+  "start": 500,
+  "end": 1100,
+  "color": "#d4ac0d",
+  "trackId": "andes",
+  "row": 2,
+  "isRiver": false,
+  "capitale": "Tiwanaku (Bolivie)",
+  "description": "Une grande cité de pierre près du lac Titicaca, à près de 4 000 mètres d’altitude, centre religieux et politique des Andes du Sud pendant six siècles.",
+  "territories": ["Tiahuanaco Empire"],
+  "datesCles": [
+    {
+      "annee": 500,
+      "evenement": "Pôle régional",
+      "info": "Tiwanaku devient un grand centre religieux et urbain de l’Altiplano."
+    },
+    {
+      "annee": 600,
+      "evenement": "Monuments monolithes",
+      "info": "Construction de la pyramide d’Akapana et des grands monolithes ; la porte du Soleil date peut-être de cette époque."
+    },
+    {
+      "annee": 1000,
+      "evenement": "Déclin",
+      "info": "Entre 1000 et 1150 environ, Tiwanaku décline. Une longue sécheresse est une hypothèse souvent avancée."
+    }
+  ],
+  "dirigeants": [],
+  "personnages": [],
+  "guerres": [],
+  "sciences": "Pour cultiver à près de 4 000 mètres d’altitude, les habitants aménagent des champs surélevés (suka kollus), séparés par des canaux : l’eau, chauffée par le soleil le jour, protège les cultures du gel la nuit. Les bâtisseurs taillent la pierre avec une grande précision et relient certains blocs par des agrafes de cuivre coulées sur place, comme à Puma Punku.",
+  "croyancesText": "Pour beaucoup de peuples andins, le lac Titicaca est le lieu d’origine du monde. La divinité principale de Tiwanaku est le Dieu aux bâtons ; certains y voient un ancêtre de Viracocha, le dieu créateur des Incas, mais ce lien reste une hypothèse (le mythe inca est bien plus tardif). Le temple semi-souterrain est orné de dizaines de têtes de pierre fichées dans les murs, peut-être des ancêtres ou des ennemis vaincus.",
+  "diplomatie": "L’influence de Tiwanaku est surtout commerciale et religieuse, et le fait de parler d’« empire » est débattu. Sans armée de conquête documentée à grande échelle, la cité envoie des caravanes de lamas vers la côte (Pérou, Chili) et les forêts de l’est pour échanger feuilles de coca, sel, piment et plumes d’oiseaux exotiques, s’imposant comme la grande métropole des Andes du Sud.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": { "valeur": "Tiwanaku", "precision": "en Bolivie, à une quinzaine de kilomètres du lac Titicaca" },
+    "regimes": {
+      "valeur": "Inconnu",
+      "precision": "sans doute une élite religieuse et politique ; aucun dirigeant n’est connu"
+    },
+    "langues": { "valeur": "Inconnue", "precision": "peut-être une forme ancienne d’aymara ou de puquina" },
+    "religion": { "valeur": "Polythéisme", "precision": "le dieu aux bâtons, sculpté sur la porte du Soleil" },
+    "apogee": { "valeur": "Vers 600-900" },
+    "population": { "valeur": "Peut-être 10 000 à 30 000 habitants", "precision": "dans la ville, selon les estimations" },
+    "monnaie": { "valeur": "Aucune" },
+    "duree": { "valeur": "Environ 600 ans" },
+    "aujourdhui": { "valeur": "Bolivie, Pérou et Chili", "precision": "autour du lac Titicaca" }
+  },
+  "essentiel": [
+    "Tiwanaku se développe près du lac Titicaca, à près de 4 000 mètres d’altitude, sur l’Altiplano.",
+    "Ses habitants cultivent la pomme de terre et le quinoa sur des [[champs-sureleves|champs surélevés]] qui protègent les cultures du gel.",
+    "La ville est un grand centre religieux, avec ses pyramides, ses temples et sa célèbre [[porte-du-soleil|porte du Soleil]].",
+    "Ses caravanes de lamas commercent avec la côte du Pacifique et les forêts de l’est ; elle fonde des colonies agricoles.",
+    "Elle décline entre 1000 et 1150 environ, peut-être à cause d’une longue sécheresse."
+  ],
+  "periodes": [
+    {
+      "nom": "L’essor",
+      "debut": 500,
+      "fin": 800,
+      "resume": "La ville se couvre de monuments de pierre ; son influence s’étend autour du lac Titicaca."
+    },
+    {
+      "nom": "L’expansion",
+      "debut": 800,
+      "fin": 1000,
+      "resume": "Tiwanaku fonde des colonies agricoles dans les vallées plus chaudes, jusqu’au sud du Pérou et au nord du Chili."
+    },
+    {
+      "nom": "Le déclin",
+      "debut": 1000,
+      "fin": 1100,
+      "resume": "Les monuments sont abandonnés et parfois détruits ; la population se disperse."
+    }
+  ],
+  "regimes": [
+    {
+      "id": "inconnu",
+      "nom": "Pouvoir religieux et politique",
+      "debut": 500,
+      "fin": 1100,
+      "note": "Sans écriture, Tiwanaku ne nous a laissé aucun nom de dirigeant. Le fait de parler d’« empire » est débattu."
+    }
+  ],
+  "dynasties": [],
+  "societe": "Une élite religieuse et politique vit au centre de la ville, autour des temples. Agriculteurs, éleveurs de lamas et d’alpagas, artisans et caravaniers forment la population.",
+  "economie": "Pomme de terre, quinoa, élevage de lamas et d’alpagas, pêche dans le lac, échanges par caravanes.",
+  "decouvertes": ["porte-du-soleil", "champs-sureleves"],
+  "arts": "Porte du Soleil, monolithes Bennett et Ponce, céramiques et vases kero, textiles et objets en or.",
+  "quotidien": "Les habitants vivent dans des maisons d’adobe. À cette altitude, ils conservent les pommes de terre en les faisant geler et sécher (le chuño).",
+  "heritage": [
+    {
+      "titre": "Un site sacré",
+      "texte": "Inscrit au patrimoine mondial, Tiwanaku accueille chaque année les célébrations du nouvel an aymara."
+    }
+  ],
+  "aSavoir": [
+    "On a beaucoup spéculé sur la construction de Puma Punku ; l’archéologie montre une maîtrise remarquable de la taille de la pierre, sans aucun mystère surnaturel."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Tiwanaku",
+    { "titre": "Encyclopædia Britannica — Tiahuanaco", "url": "https://www.britannica.com/place/Tiwanaku" }
+  ]
+}

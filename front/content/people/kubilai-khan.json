@@ -1,0 +1,21 @@
+{
+  "id": "kubilai-khan",
+  "nom": "Kubilaï Khan",
+  "role": "Grand khan et empereur de Chine",
+  "roles": ["Grand khan", "Empereur de Chine"],
+  "dates": "1215 → 1294",
+  "naissance": 1215,
+  "mort": 1294,
+  "description": "Petit-fils de Gengis Khan, il devient grand khan en 1260, conquiert la Chine des Song et fonde la dynastie Yuan, avec Pékin pour capitale.",
+  "essentiel": [
+    "Il prend le nom chinois de dynastie Yuan en 1271.",
+    "La victoire de [[bataille-de-yamen|Yamen]] (1279) lui donne toute la Chine.",
+    "Ses [[invasions-mongoles-du-japon|invasions du Japon]] échouent en 1274 et 1281.",
+    "Il reçoit à sa cour le Vénitien [[marco-polo|Marco Polo]]."
+  ],
+  "liens": [
+    { "ref": "gengis-khan", "relation": "Son grand-père" },
+    { "ref": "marco-polo", "relation": "Un voyageur à son service" }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Kubila%C3%AF_Khan"
+}

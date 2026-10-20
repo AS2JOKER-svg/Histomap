@@ -1,0 +1,20 @@
+{
+  "id": "temps-des-troubles",
+  "nom": "Temps des troubles",
+  "annee": 1598,
+  "fin": 1613,
+  "dates": "1598 → 1613",
+  "lieu": "Russie",
+  "description": "Après l’extinction de la dynastie riourikide, la Russie traverse une crise de succession, une terrible famine (1601-1603), des révoltes et des invasions.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Plusieurs imposteurs se font passer pour Dmitri, fils d’Ivan IV mort enfant. Les Polonais occupent Moscou (1610-1612), les Suédois prennent Novgorod."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Une armée levée par le marchand Kouzma Minine et le prince Pojarski libère Moscou (1612). En 1613, une assemblée élit tsar Michel Romanov."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Temps_des_troubles"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "spartacus",
+  "nom": "Spartacus",
+  "role": "Gladiateur et chef de révolte",
+  "roles": ["Gladiateur", "Chef de guerre"],
+  "dates": "mort en −71",
+  "mort": -71,
+  "description": "Thrace devenu esclave et gladiateur, il s’échappe en −73 d’une école de Capoue et soulève des dizaines de milliers d’esclaves contre Rome.",
+  "essentiel": [
+    "Il aurait servi dans l’armée romaine avant d’être réduit en esclavage.",
+    "Avec quelques dizaines de gladiateurs, il s’échappe de Capoue et se réfugie sur le Vésuve.",
+    "Son armée bat plusieurs armées romaines et parcourt l’Italie pendant deux ans.",
+    "Il est tué en −71 face à l’armée de Crassus."
+  ],
+  "chronologie": [
+    { "annee": -73, "texte": "Évasion de l’école de gladiateurs de Capoue" },
+    { "annee": -72, "texte": "Victoires contre les consuls romains" },
+    { "annee": -71, "texte": "Mort au combat" }
+  ],
+  "aSavoir": ["On ne sait pas ce que voulait vraiment Spartacus : quitter l’Italie, ou combattre Rome jusqu’au bout."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Spartacus"
+}

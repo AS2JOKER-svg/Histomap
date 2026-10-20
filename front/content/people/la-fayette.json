@@ -1,0 +1,17 @@
+{
+  "id": "la-fayette",
+  "nom": "La Fayette",
+  "nomComplet": "Gilbert du Motier, marquis de La Fayette",
+  "role": "Général",
+  "roles": ["Général", "Homme politique"],
+  "dates": "1757 → 1834",
+  "naissance": 1757,
+  "mort": 1834,
+  "description": "Jeune noble français qui part combattre pour l’indépendance américaine à 19 ans, puis joue un rôle important au début de la Révolution française.",
+  "essentiel": [
+    "Il arme un navire à ses frais et rejoint Washington en 1777.",
+    "Il participe à la victoire de [[bataille-de-yorktown|Yorktown]].",
+    "En 1789, il présente un projet de déclaration des droits et commande la garde nationale de Paris."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Gilbert_du_Motier_de_La_Fayette"
+}

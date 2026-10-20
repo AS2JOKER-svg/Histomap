@@ -1,0 +1,318 @@
+{
+  "id": "italie-contemp",
+  "label": "Italie (Unification à la République)",
+  "tier": 1,
+  "region": "italie",
+  "period": "1861 à 2020",
+  "start": 1861,
+  "end": 2020,
+  "trackId": "italie",
+  "row": 6,
+  "isRiver": false,
+  "capitale": "Rome",
+  "description": "L’Italie unifiée en 1861 : un royaume qui achève son unité en 1870, connaît la dictature fasciste de Mussolini, puis devient en 1946 une république démocratique, membre fondateur de l’Europe.",
+  "territories": ["Italy", "Kingdom of Italy"],
+  "datesCles": [
+    {
+      "annee": 1860,
+      "evenement": "Expédition des Mille",
+      "info": "Garibaldi conquiert la Sicile et le sud de l’Italie.",
+      "ref": "expedition-des-mille"
+    },
+    {
+      "annee": 1861,
+      "evenement": "Le Risorgimento",
+      "info": "Grâce à Cavour et Garibaldi, le royaume d’Italie est proclamé. L’unification reste incomplète : la Vénétie est rattachée en 1866 et Rome en 1870."
+    },
+    {
+      "annee": 1922,
+      "evenement": "Marche sur Rome",
+      "info": "Le roi nomme Mussolini chef du gouvernement après la marche des « Chemises noires ». La dictature fasciste ne s’installe vraiment qu’en 1925-1926.",
+      "ref": "marche-sur-rome"
+    },
+    {
+      "annee": 1929,
+      "evenement": "Accords du Latran",
+      "info": "Mussolini et le pape reconnaissent l’État du Vatican."
+    },
+    {
+      "annee": 1943,
+      "evenement": "La chute du Duce",
+      "info": "Les Alliés débarquent dans le Sud. Le roi fait arrêter Mussolini ; l’Italie bascule dans la guerre civile."
+    },
+    {
+      "annee": 1946,
+      "evenement": "La République",
+      "info": "Par référendum, les Italiens abolissent la monarchie.",
+      "ref": "referendum-de-1946"
+    },
+    {
+      "annee": 1957,
+      "evenement": "Traité de Rome",
+      "info": "L’Italie est l’un des six pays fondateurs de la Communauté économique européenne.",
+      "ref": "traite-de-rome"
+    }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Victor-Emmanuel II",
+      "titre": "Roi d’Italie",
+      "debut": 1861,
+      "fin": 1878,
+      "dynastie": "savoie",
+      "note": "premier roi d’Italie",
+      "cle": true
+    },
+    {
+      "nom": "Humbert Ier",
+      "titre": "Roi d’Italie",
+      "debut": 1878,
+      "fin": 1900,
+      "dynastie": "savoie",
+      "note": "assassiné par un anarchiste"
+    },
+    {
+      "nom": "Victor-Emmanuel III",
+      "titre": "Roi d’Italie",
+      "debut": 1900,
+      "fin": 1946,
+      "dynastie": "savoie",
+      "note": "laisse Mussolini prendre le pouvoir",
+      "cle": true
+    },
+    {
+      "nom": "Humbert II",
+      "titre": "Roi d’Italie",
+      "debut": 1946,
+      "fin": 1946,
+      "dynastie": "savoie",
+      "note": "règne un mois, avant le référendum"
+    },
+    {
+      "nom": "Camillo Cavour",
+      "titre": "Président du Conseil",
+      "debut": 1852,
+      "fin": 1861,
+      "dynastie": "gouvernement",
+      "note": "chef du gouvernement du Piémont-Sardaigne, puis de l’Italie ; artisan de l’unification",
+      "cle": true
+    },
+    {
+      "nom": "Giovanni Giolitti",
+      "titre": "Président du Conseil",
+      "debut": 1892,
+      "fin": 1921,
+      "dynastie": "gouvernement",
+      "note": "cinq fois au pouvoir"
+    },
+    {
+      "nom": "Benito Mussolini",
+      "titre": "Chef du gouvernement, dictateur",
+      "debut": 1922,
+      "fin": 1943,
+      "dynastie": "gouvernement",
+      "personne": "benito-mussolini",
+      "cle": true
+    },
+    {
+      "nom": "Alcide De Gasperi",
+      "titre": "Président du Conseil",
+      "debut": 1945,
+      "fin": 1953,
+      "dynastie": "gouvernement",
+      "note": "un des pères de l’Europe",
+      "cle": true
+    },
+    {
+      "nom": "Aldo Moro",
+      "titre": "Président du Conseil",
+      "debut": 1963,
+      "fin": 1976,
+      "dynastie": "gouvernement",
+      "note": "enlevé et assassiné par les Brigades rouges en 1978"
+    },
+    {
+      "nom": "Silvio Berlusconi",
+      "titre": "Président du Conseil",
+      "debut": 1994,
+      "fin": 2011,
+      "dynastie": "gouvernement",
+      "note": "au pouvoir à plusieurs reprises"
+    },
+    {
+      "nom": "Enrico De Nicola",
+      "titre": "Président de la République",
+      "debut": 1946,
+      "fin": 1948,
+      "dynastie": "presidents",
+      "note": "premier président"
+    },
+    {
+      "nom": "Sandro Pertini",
+      "titre": "Président de la République",
+      "debut": 1978,
+      "fin": 1985,
+      "dynastie": "presidents",
+      "note": "ancien résistant"
+    },
+    {
+      "nom": "Sergio Mattarella",
+      "titre": "Président de la République",
+      "debut": 2015,
+      "fin": 2020,
+      "dynastie": "presidents",
+      "note": "toujours en fonction à la fin de la période couverte (2020)"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Giuseppe Garibaldi",
+      "role": "Révolutionnaire",
+      "description": "Héros de l’unification, il conquiert le sud de l’Italie avec ses « Chemises rouges ».",
+      "dates": "1807 → 1882",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Giuseppe_Garibaldi",
+      "ref": "giuseppe-garibaldi"
+    },
+    {
+      "nom": "Enrico Fermi",
+      "role": "Physicien",
+      "description": "Prix Nobel de physique, il construit le premier réacteur nucléaire (1942), aux États-Unis où il a fui les lois antisémites.",
+      "dates": "1901 → 1954",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Enrico_Fermi"
+    },
+    {
+      "nom": "Maria Montessori",
+      "role": "Médecin et pédagogue",
+      "description": "Elle crée une méthode d’éducation fondée sur l’autonomie de l’enfant, utilisée dans le monde entier.",
+      "dates": "1870 → 1952",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Maria_Montessori"
+    },
+    {
+      "nom": "Guglielmo Marconi",
+      "role": "Inventeur",
+      "description": "Pionnier de la radio, il réalise la première transmission sans fil à travers l’Atlantique (1901).",
+      "dates": "1874 → 1937",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guglielmo_Marconi"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Troisième guerre d'Indépendance italienne",
+      "annee": 1866,
+      "adversaires": ["Empire d'Autriche"],
+      "allies": ["Royaume de Prusse"],
+      "morts": "Plusieurs milliers",
+      "vainqueur": "Prusse et Italie",
+      "consequences": "Battue par l'Autriche à Custoza et à Lissa, l'Italie obtient pourtant la Vénétie grâce à la victoire prussienne : l'Autriche la cède à la France, qui la remet à l'Italie.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Troisi%C3%A8me_guerre_d'Ind%C3%A9pendance_italienne"
+    }
+  ],
+  "sciences": "Guglielmo Marconi est un pionnier de la radio, Enrico Fermi de la physique nucléaire. Après 1945, le design et l’industrie italiens (automobile, électroménager, mode) deviennent célèbres dans le monde entier.",
+  "croyancesText": "L’Italie est catholique, et le pape vit à Rome. Après la prise de Rome (1870), les papes refusent de reconnaître le royaume, jusqu’aux accords du Latran de 1929, qui créent l’État du Vatican. Le fascisme adopte en 1938 des lois antisémites ; plus de 7 000 Juifs d’Italie sont déportés après 1943.",
+  "diplomatie": "Le royaume d’Italie veut devenir une grande puissance : il colonise la Libye et l’Éthiopie. Allié à l’Allemagne et à l’Autriche avant 1914, il entre pourtant en guerre contre elles en 1915. Mussolini s’allie à Hitler (1936-1943). Après 1945, l’Italie s’ancre dans l’OTAN et la construction européenne.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": { "valeur": "Rome", "precision": "Turin, puis Florence, avant 1871" },
+    "regimes": {
+      "valeur": "Monarchie, dictature fasciste, puis république",
+      "precision": "république parlementaire depuis 1946"
+    },
+    "langues": { "valeur": "Italien", "precision": "nombreux dialectes régionaux" },
+    "religion": { "valeur": "Catholicisme", "precision": "le Vatican, État indépendant depuis 1929, est au cœur de Rome" },
+    "apogee": { "valeur": "Années 1950-1960", "precision": "le « miracle économique »" },
+    "population": { "valeur": "Environ 60 millions en 2020", "precision": "contre 22 millions en 1861" },
+    "monnaie": { "valeur": "Lire, puis euro (2002)" },
+    "duree": { "valeur": "Environ 160 ans dans cette fiche" },
+    "aujourdhui": { "valeur": "Italie" }
+  },
+  "essentiel": [
+    "Au XIXe siècle, le Risorgimento unifie l’Italie, morcelée en plusieurs États, grâce à Cavour et à l’[[expedition-des-mille|expédition des Mille]] de [[giuseppe-garibaldi|Garibaldi]].",
+    "Le royaume d’Italie est proclamé en 1861 ; Rome devient sa capitale en 1871.",
+    "Après la Première Guerre mondiale, [[benito-mussolini|Mussolini]] prend le pouvoir à la suite de la [[marche-sur-rome|marche sur Rome]] (1922) et installe le premier régime fasciste.",
+    "Allié d’Hitler, Mussolini entraîne l’Italie dans la Seconde Guerre mondiale ; il est renversé en 1943.",
+    "Par le [[referendum-de-1946|référendum de 1946]], l’Italie devient une république ; elle participe à la fondation de l’Europe et connaît un « miracle économique »."
+  ],
+  "periodes": [
+    {
+      "nom": "Le royaume d’Italie",
+      "debut": 1861,
+      "fin": 1922,
+      "resume": "Le jeune royaume achève son unité, s’industrialise au nord, tandis que des millions d’Italiens émigrent. Il entre en guerre en 1915 aux côtés de la France.",
+      "evenements": [{ "annee": 1870, "evenement": "Prise de Rome" }, { "annee": 1915, "evenement": "Entrée en guerre" }]
+    },
+    {
+      "nom": "Le fascisme",
+      "debut": 1922,
+      "fin": 1945,
+      "resume": "Mussolini supprime les libertés, conquiert l’Éthiopie (1936), adopte des lois antisémites (1938) et s’allie à Hitler. La guerre est un désastre ; il est exécuté par des résistants en 1945.",
+      "evenements": [
+        { "annee": 1922, "evenement": "Marche sur Rome", "ref": "marche-sur-rome" },
+        { "annee": 1936, "evenement": "Conquête de l’Éthiopie" },
+        { "annee": 1943, "evenement": "Chute de Mussolini" }
+      ]
+    },
+    {
+      "nom": "La République",
+      "debut": 1946,
+      "fin": 2020,
+      "resume": "L’Italie républicaine se reconstruit, connaît un fort essor économique, traverse les « années de plomb » du terrorisme (1970-1980) et participe à la construction européenne.",
+      "evenements": [
+        { "annee": 1946, "evenement": "Référendum", "ref": "referendum-de-1946" },
+        { "annee": 1978, "evenement": "Assassinat d’Aldo Moro" }
+      ]
+    }
+  ],
+  "regimes": [
+    { "id": "royaume", "nom": "Royaume d’Italie", "debut": 1861, "fin": 1922 },
+    {
+      "id": "fascisme",
+      "nom": "Dictature fasciste",
+      "debut": 1922,
+      "fin": 1943,
+      "note": "Le roi reste en place, mais Mussolini gouverne en dictateur."
+    },
+    { "id": "transition", "nom": "Guerre et transition", "debut": 1943, "fin": 1946 },
+    { "id": "republique", "nom": "République italienne", "debut": 1946, "fin": 2020 }
+  ],
+  "dynasties": [
+    { "id": "savoie", "nom": "Les rois (maison de Savoie)", "debut": 1861, "fin": 1946, "regime": "royaume" },
+    {
+      "id": "gouvernement",
+      "nom": "Quelques grands chefs de gouvernement",
+      "debut": 1852,
+      "fin": 2011,
+      "note": "Sélection."
+    },
+    {
+      "id": "presidents",
+      "nom": "Présidents de la République",
+      "debut": 1946,
+      "fin": 2020,
+      "regime": "republique",
+      "note": "Sélection."
+    }
+  ],
+  "societe": "L’écart entre le Nord industriel et le Sud agricole (le Mezzogiorno) est important. Des millions d’Italiens émigrent vers les Amériques et l’Europe du Nord entre 1870 et 1970. Les femmes votent pour la première fois en 1946.",
+  "economie": "Industrie du Nord (Turin, Milan), agriculture, tourisme, design et mode ; « miracle économique » des années 1950-1960.",
+  "decouvertes": [],
+  "arts": "Opéras de Verdi et Puccini, futurisme, cinéma néoréaliste (Rossellini, De Sica) puis Fellini, design et mode.",
+  "quotidien": "Le « miracle économique » transforme la vie : la Fiat 500, la Vespa et la télévision entrent dans les familles.",
+  "heritage": [
+    {
+      "titre": "Un patrimoine immense",
+      "texte": "L’Italie compte plus de sites inscrits au patrimoine mondial de l’UNESCO que tout autre pays."
+    },
+    {
+      "titre": "Une république fondatrice de l’Europe",
+      "texte": "Les traités de Rome (1957) sont signés au Capitole."
+    }
+  ],
+  "aSavoir": ["Le mot « fascisme » vient de l’italien « fascio », le faisceau, symbole d’autorité dans la Rome antique."],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Histoire_de_l%27Italie",
+    {
+      "titre": "Encyclopædia Britannica — Italy, history",
+      "url": "https://www.britannica.com/place/Italy/History"
+    }
+  ]
+}

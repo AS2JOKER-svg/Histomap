@@ -1,0 +1,314 @@
+{
+  "id": "rus-kiev",
+  "label": "Rus' de Kiev",
+  "tier": 1,
+  "region": "europe-est",
+  "period": "862 à 1240",
+  "start": 862,
+  "end": 1240,
+  "trackId": "rus",
+  "row": 6,
+  "isRiver": false,
+  "capitale": "Kiev",
+  "description": "Le premier grand État des Slaves de l’Est, autour de Kiev et Novgorod, fondé par des princes d’origine scandinave et converti au christianisme orthodoxe. Russes, Ukrainiens et Biélorusses s’en réclament.",
+  "territories": [
+    "Rus' Khaganate",
+    "Kyivan Rus",
+    "Kievan Rus",
+    "Principality of Kyiv",
+    "Other Rus Principalities",
+    "Principality of Novgorod",
+    "Principality of Vladimir-Suzdal",
+    "Principality of Galicia-Volhynia"
+  ],
+  "datesCles": [
+    {
+      "annee": 862,
+      "evenement": "Arrivée de Riourik",
+      "info": "Selon la tradition, le chef varègue Riourik prend le pouvoir à Novgorod."
+    },
+    { "annee": 882, "evenement": "Oleg à Kiev", "info": "Oleg s’empare de Kiev et en fait sa capitale." },
+    {
+      "annee": 957,
+      "evenement": "Baptême d’Olga",
+      "info": "La régente Olga se rend à Constantinople et se fait baptiser."
+    },
+    {
+      "annee": 988,
+      "evenement": "Le Baptême de Kiev",
+      "info": "Le prince Vladimir choisit la religion orthodoxe, liant son destin à Constantinople.",
+      "ref": "bapteme-de-la-rus"
+    },
+    {
+      "annee": 1019,
+      "evenement": "L’Âge d’or",
+      "info": "Iaroslav le Sage devient grand-prince, fait bâtir Sainte-Sophie de Kiev et rédiger un code de lois."
+    },
+    {
+      "annee": 1147,
+      "evenement": "Première mention de Moscou",
+      "info": "Le prince Iouri Dolgorouki y invite un allié : c’est la première mention de la ville."
+    },
+    {
+      "annee": 1240,
+      "evenement": "Invasion mongole",
+      "info": "Les Mongols de Batu prennent et détruisent Kiev, brisant l’unité de la Rus’.",
+      "ref": "sac-de-kiev"
+    }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Riourik",
+      "titre": "Prince de Novgorod",
+      "debut": 862,
+      "fin": 879,
+      "dynastie": "riourikides",
+      "note": "fondateur semi-légendaire"
+    },
+    {
+      "nom": "Oleg",
+      "titre": "Prince de Kiev",
+      "debut": 879,
+      "fin": 912,
+      "dynastie": "riourikides",
+      "note": "fait de Kiev sa capitale"
+    },
+    {
+      "nom": "Igor",
+      "titre": "Prince de Kiev",
+      "debut": 912,
+      "fin": 945,
+      "dynastie": "riourikides",
+      "note": "tué par la tribu des Drevliens"
+    },
+    {
+      "nom": "Olga",
+      "titre": "Princesse régente",
+      "debut": 945,
+      "fin": 962,
+      "dynastie": "riourikides",
+      "personne": "olga-de-kiev",
+      "note": "première chrétienne de la dynastie",
+      "cle": true
+    },
+    {
+      "nom": "Sviatoslav Ier",
+      "titre": "Prince de Kiev",
+      "debut": 962,
+      "fin": 972,
+      "dynastie": "riourikides",
+      "note": "grand conquérant, tué par les Petchénègues",
+      "personne": "sviatoslav-ier"
+    },
+    { "nom": "Iaropolk Ier", "titre": "Prince de Kiev", "debut": 972, "fin": 978, "dynastie": "riourikides" },
+    {
+      "nom": "Vladimir Ier",
+      "titre": "Grand-prince de Kiev",
+      "surnom": "le Grand",
+      "debut": 978,
+      "fin": 1015,
+      "dynastie": "riourikides",
+      "personne": "vladimir-le-grand",
+      "note": "convertit la Rus’",
+      "cle": true
+    },
+    {
+      "nom": "Sviatopolk Ier",
+      "titre": "Grand-prince",
+      "surnom": "le Maudit",
+      "debut": 1015,
+      "fin": 1019,
+      "dynastie": "riourikides",
+      "note": "fait tuer ses frères Boris et Gleb"
+    },
+    {
+      "nom": "Iaroslav",
+      "titre": "Grand-prince",
+      "surnom": "le Sage",
+      "debut": 1019,
+      "fin": 1054,
+      "dynastie": "riourikides",
+      "personne": "iaroslav-le-sage",
+      "cle": true
+    },
+    {
+      "nom": "Iziaslav Ier",
+      "titre": "Grand-prince",
+      "debut": 1054,
+      "fin": 1078,
+      "dynastie": "riourikides",
+      "note": "chassé à deux reprises"
+    },
+    { "nom": "Vsevolod Ier", "titre": "Grand-prince", "debut": 1078, "fin": 1093, "dynastie": "riourikides" },
+    { "nom": "Sviatopolk II", "titre": "Grand-prince", "debut": 1093, "fin": 1113, "dynastie": "riourikides" },
+    {
+      "nom": "Vladimir II",
+      "titre": "Grand-prince",
+      "surnom": "Monomaque",
+      "debut": 1113,
+      "fin": 1125,
+      "dynastie": "riourikides",
+      "note": "dernier grand unificateur",
+      "cle": true
+    },
+    {
+      "nom": "Mstislav Ier",
+      "titre": "Grand-prince",
+      "surnom": "le Grand",
+      "debut": 1125,
+      "fin": 1132,
+      "dynastie": "riourikides"
+    },
+    {
+      "nom": "Iouri Ier",
+      "titre": "Grand-prince",
+      "surnom": "Dolgorouki (Long-Bras)",
+      "debut": 1149,
+      "fin": 1157,
+      "dynastie": "riourikides",
+      "note": "fondateur de Moscou"
+    },
+    {
+      "nom": "Mikhaïl de Tchernigov",
+      "titre": "Grand-prince",
+      "debut": 1238,
+      "fin": 1240,
+      "dynastie": "riourikides",
+      "note": "fuit devant les Mongols"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Olga de Kiev",
+      "role": "Princesse régente",
+      "description": "Veuve du prince Igor, elle venge durement sa mort, gouverne pour son fils et se fait baptiser à Constantinople.",
+      "dates": "vers 890 → 969",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Olga_de_Kiev",
+      "ref": "olga-de-kiev"
+    },
+    {
+      "nom": "Anne de Kiev",
+      "role": "Reine de France",
+      "description": "Fille de Iaroslav le Sage, elle épouse en 1051 le roi de France Henri Ier et est la mère de Philippe Ier.",
+      "dates": "vers 1030 → vers 1075",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Anne_de_Kiev"
+    },
+    {
+      "nom": "Nestor le Chroniqueur",
+      "role": "Moine et historien",
+      "description": "Moine de Kiev, on lui attribue la Chronique des temps passés, principale source sur l’histoire de la Rus’.",
+      "dates": "vers 1056 → vers 1114",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Nestor_(moine)"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerre contre la Horde d'Or (Mongols)",
+      "annee": 1237,
+      "adversaires": ["Empire Mongol (Batu Khan)"],
+      "allies": [],
+      "morts": "Très lourdes ; de nombreuses villes sont détruites et leurs habitants massacrés",
+      "vainqueur": "Mongols",
+      "consequences": "Kiev est prise en 1240. Les principautés russes doivent payer tribut aux khans de la Horde d’Or pendant plus de deux siècles.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Invasion_mongole_des_principaut%C3%A9s_russes"
+    }
+  ],
+  "sciences": "La Rus’ prospère grâce à la route « des Varègues aux Grecs », qui relie la Baltique à la mer Noire par les fleuves, les lacs et des portages où les bateaux sont tirés sur des rondins. À Novgorod, les archéologues ont retrouvé plus d’un millier de lettres écrites sur de l’écorce de bouleau, qui montrent qu’une partie de la population savait écrire.",
+  "croyancesText": "Les Slaves honorent Peroun, dieu du tonnerre, et d’autres divinités de la nature. Selon la Chronique, Vladimir aurait comparé l’islam, le judaïsme, le catholicisme et l’orthodoxie avant de choisir cette dernière, éblouie par la beauté des églises de Constantinople ; ce récit est en partie légendaire. Le christianisme orthodoxe apporte l’alphabet cyrillique, les icônes et les monastères, comme la laure des Grottes de Kiev.",
+  "diplomatie": "La Rus’ commerce et guerroie avec Byzance, avec qui elle signe des traités dès le Xe siècle. Iaroslav le Sage marie ses filles aux rois de France, de Norvège et de Hongrie. Les nomades des steppes (Petchénègues, puis Coumans) restent une menace constante, avant l’arrivée des Mongols.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": { "valeur": "Kiev", "precision": "Novgorod au début ; aujourd’hui Kyiv, capitale de l’Ukraine" },
+    "regimes": {
+      "valeur": "Principautés",
+      "precision": "un grand-prince à Kiev, des princes de la même famille dans les autres villes"
+    },
+    "langues": {
+      "valeur": "Vieux slave oriental",
+      "precision": "le slavon d’Église, en alphabet cyrillique, pour la religion"
+    },
+    "religion": { "valeur": "Paganisme slave, puis christianisme orthodoxe", "precision": "conversion en 988" },
+    "apogee": { "valeur": "Début du XIe siècle", "precision": "sous Iaroslav le Sage" },
+    "population": { "valeur": "Peut-être 5 à 7 millions", "precision": "estimation" },
+    "monnaie": { "valeur": "Grivna", "precision": "lingots d’argent ; aussi fourrures et pièces arabes" },
+    "duree": { "valeur": "Près de 380 ans" },
+    "aujourdhui": { "valeur": "Ukraine, Biélorussie, Russie", "precision": "partie européenne" }
+  },
+  "essentiel": [
+    "Selon la Chronique des temps passés, les Slaves appellent en 862 un chef varègue, Riourik, pour les gouverner à Novgorod.",
+    "Son successeur Oleg s’installe à Kiev ; les princes contrôlent la route commerciale qui relie la Baltique à Constantinople.",
+    "La princesse [[olga-de-kiev|Olga]] se fait baptiser ; son petit-fils [[vladimir-le-grand|Vladimir]] convertit tout le pays lors du [[bapteme-de-la-rus|baptême de la Rus’]] en 988.",
+    "Sous [[iaroslav-le-sage|Iaroslav le Sage]], Kiev rivalise avec Constantinople : églises, lois écrites et mariages avec les rois d’Europe.",
+    "Divisée entre princes rivaux, la Rus’ est conquise par les Mongols, qui [[sac-de-kiev|détruisent Kiev]] en 1240."
+  ],
+  "periodes": [
+    {
+      "nom": "La fondation",
+      "debut": 862,
+      "fin": 980,
+      "resume": "Des princes varègues unissent les tribus slaves autour de la route commerciale des fleuves et mènent des expéditions contre Constantinople.",
+      "evenements": [
+        { "annee": 882, "evenement": "Oleg prend Kiev" },
+        { "annee": 907, "evenement": "Expédition d’Oleg contre Constantinople" },
+        { "annee": 957, "evenement": "Baptême d’Olga" }
+      ]
+    },
+    {
+      "nom": "L’âge d’or chrétien",
+      "debut": 980,
+      "fin": 1054,
+      "resume": "Vladimir adopte le christianisme orthodoxe ; Iaroslav le Sage fait de Kiev une grande capitale européenne.",
+      "evenements": [
+        { "annee": 988, "evenement": "Baptême de la Rus’", "ref": "bapteme-de-la-rus" },
+        { "annee": 1037, "evenement": "Fondation de Sainte-Sophie de Kiev" },
+        { "annee": 1051, "evenement": "Anne de Kiev épouse le roi de France Henri Ier" }
+      ]
+    },
+    {
+      "nom": "Les principautés rivales",
+      "debut": 1054,
+      "fin": 1240,
+      "resume": "Les descendants de Iaroslav se disputent Kiev. D’autres centres grandissent : Novgorod, Vladimir, Galicie. Les Mongols conquièrent le pays.",
+      "evenements": [
+        { "annee": 1113, "evenement": "Vladimir Monomaque grand-prince" },
+        { "annee": 1169, "evenement": "Andreï Bogolioubski pille Kiev" },
+        { "annee": 1240, "evenement": "Prise de Kiev par les Mongols", "ref": "sac-de-kiev" }
+      ]
+    }
+  ],
+  "dynasties": [
+    {
+      "id": "riourikides",
+      "nom": "Les Riourikides",
+      "debut": 862,
+      "fin": 1240,
+      "note": "Sélection des grands-princes de Kiev ; les premières dates viennent de la Chronique des temps passés."
+    }
+  ],
+  "societe": "Les princes et leur suite armée (la droujina) dominent la société, avec les boyards (grands propriétaires) et les marchands des villes. La majorité de la population est paysanne. Le code de lois Rousskaïa Pravda fixe des amendes selon les crimes.",
+  "economie": "Commerce des fourrures, de la cire, du miel et des esclaves vers Byzance et le monde musulman ; agriculture (seigle, blé), artisanat urbain.",
+  "decouvertes": ["lettres-sur-ecorce-de-bouleau"],
+  "arts": "Sainte-Sophie de Kiev et ses mosaïques, Sainte-Sophie de Novgorod, icônes, églises en bois et à bulbes, orfèvrerie émaillée.",
+  "quotidien": "Les maisons sont en bois, comme les rues de Novgorod, pavées de rondins. Les bains de vapeur sont très appréciés.",
+  "heritage": [
+    {
+      "titre": "Trois nations",
+      "texte": "L’Ukraine, la Biélorussie et la Russie se réclament toutes de l’héritage de la Rus’ de Kiev."
+    },
+    {
+      "titre": "L’orthodoxie",
+      "texte": "Le baptême de 988 fait de l’Europe de l’Est une terre de christianisme orthodoxe."
+    },
+    {
+      "titre": "Sainte-Sophie de Kiev",
+      "texte": "La cathédrale du XIe siècle est inscrite au patrimoine mondial."
+    }
+  ],
+  "aSavoir": [
+    "Le mot « Rus’ » désignait peut-être à l’origine les Scandinaves eux-mêmes, d’un mot finnois signifiant « ceux qui rament »."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Rus%27_de_Kiev",
+    { "titre": "Encyclopædia Britannica — Kievan Rus", "url": "https://www.britannica.com/topic/Kyivan-Rus" }
+  ]
+}

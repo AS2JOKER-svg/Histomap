@@ -1,0 +1,19 @@
+{
+  "id": "alphabet-turc",
+  "nom": "Alphabet turc",
+  "annee": 1928,
+  "domaine": "Écriture",
+  "dates": "1928",
+  "description": "L’alphabet latin adapté au turc, avec des lettres comme ç, ğ, ı, ö, ş et ü, qui remplace en 1928 l’alphabet arabe utilisé depuis des siècles.",
+  "sections": [
+    {
+      "titre": "Pourquoi",
+      "texte": "L’alphabet arabe notait mal les voyelles du turc. [[ataturk|Atatürk]] veut aussi faciliter l’alphabétisation et rapprocher la Turquie de l’Europe."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "En quelques années, tous les journaux et les livres sont imprimés en lettres latines ; le taux d’alphabétisation progresse fortement."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Alphabet_turc"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "armee-de-terre-cuite",
+  "nom": "Armée de terre cuite",
+  "annee": -210,
+  "domaine": "Archéologie",
+  "dates": "vers −210 ; découverte en 1974",
+  "description": "Environ 8 000 soldats, chevaux et chars en terre cuite, grandeur nature, enterrés près du tombeau de [[qin-shi-huang|Qin Shi Huang]] pour le protéger dans l’au-delà.",
+  "sections": [
+    {
+      "titre": "Comment elle a été faite",
+      "texte": "Les statues sont assemblées à partir de pièces moulées, puis modelées à la main : les visages sont tous différents. Elles étaient peintes de couleurs vives et portaient de vraies armes en bronze."
+    },
+    {
+      "titre": "Sa découverte",
+      "texte": "En 1974, des paysans qui creusaient un puits près de Xi’an tombent sur des fragments de statues. Les fouilles se poursuivent toujours."
+    }
+  ],
+  "aSavoir": ["Les couleurs disparaissent en quelques minutes au contact de l’air, ce qui complique les fouilles."],
+  "liens": [{ "ref": "qin-shi-huang", "relation": "L’empereur qu’elle protège" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Arm%C3%A9e_de_terre_cuite"
+}

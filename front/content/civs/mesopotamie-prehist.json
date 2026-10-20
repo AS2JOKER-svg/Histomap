@@ -1,0 +1,121 @@
+{
+  "id": "mesopotamie-prehist",
+  "label": "Mésopotamie pré-urbaine",
+  "tier": 1,
+  "region": "mesopotamie",
+  "period": "-10 000 à -3 500",
+  "start": -10000,
+  "end": -3500,
+  "trackId": "mesopotamie",
+  "row": 2,
+  "isRiver": true,
+  "capitale": "Croissant fertile (Eridu, Uruk)",
+  "description": "Le creuset de la civilisation urbaine : du premier village agricole à l'émergence des villes-États colossales de Sumer.",
+  "territories": ["Ubaid", "Levantine Corridor (Neolithic Farmers)", "Amuq D", "Ghassul"],
+  "datesCles": [
+    {
+      "annee": -9000,
+      "evenement": "Révolution agricole",
+      "info": "Première domestication du blé et des moutons sur les piémonts du Croissant fertile (Levant, Taurus, Zagros), en bordure de la plaine mésopotamienne.",
+      "ref": "revolution-neolithique"
+    },
+    {
+      "annee": -6000,
+      "evenement": "Culture de Halaf",
+      "info": "Villages circulaires et céramique peinte de haute qualité dans le nord de la Mésopotamie."
+    },
+    {
+      "annee": -5400,
+      "evenement": "Période d'Obeïd",
+      "info": "Premiers temples, apparition de l'irrigation complexe dans les marécages du Sud."
+    },
+    {
+      "annee": -3500,
+      "evenement": "Essor d'Uruk",
+      "info": "Vers -3500, Uruk devient l'une des premières grandes villes du monde."
+    }
+  ],
+  "dirigeants": [],
+  "personnages": [],
+  "guerres": [],
+  "sciences": "Le sud de la Mésopotamie a des terres très fertiles mais presque pas de pluie. À partir de la période d’Obeïd, les habitants creusent des canaux pour irriguer les champs avec l’eau du Tigre et de l’Euphrate. Pour gérer les récoltes, ils utilisent des jetons d’argile, lointains ancêtres de l’écriture. À la période d’Uruk apparaissent le sceau-cylindre et le tour de potier ; la [[roue]] des chariots suit de peu.",
+  "croyancesText": "La religion mésopotamienne se structure autour du Temple (l'É). Chaque ville est la propriété d'un dieu tutélaire (Enki à Eridu, Inanna à Uruk). Le temple n'est pas qu'un lieu de culte, c'est le centre économique de la ville : il stocke les récoltes, gère les terres, emploie des artisans et redistribue la nourriture en période de crise.",
+  "diplomatie": "À la fin de la période d’Uruk, des colonies et des comptoirs mésopotamiens s’installent en Syrie et en Anatolie pour obtenir bois, pierre et métaux, absents des plaines du Sud : c’est l’un des premiers grands réseaux d’échanges connus.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": { "valeur": "Aucune", "precision": "sites majeurs : Jarmo, Tell Halaf, Eridu, Uruk" },
+    "regimes": {
+      "valeur": "Villages, puis cités dirigées par les temples",
+      "precision": "les premières élites apparaissent à la période d’Obeïd"
+    },
+    "langues": { "valeur": "Inconnues", "precision": "le sumérien est attesté par l’écriture vers −3300" },
+    "religion": { "valeur": "Polythéisme naissant", "precision": "premiers temples à Eridu" },
+    "monnaie": { "valeur": "Aucune", "precision": "jetons d’argile pour compter les biens" },
+    "duree": { "valeur": "Environ 6 500 ans" },
+    "aujourdhui": { "valeur": "Irak", "precision": "avec une partie de la Syrie, de la Turquie et de l’Iran" }
+  },
+  "essentiel": [
+    "Sur les collines qui entourent la Mésopotamie, des humains domestiquent les premières plantes et les premiers animaux : c’est la [[revolution-neolithique|révolution néolithique]].",
+    "Les villages de Halaf, au nord, produisent de superbes poteries peintes.",
+    "À la période d’Obeïd, des paysans s’installent dans la plaine du Sud, presque sans pluie, grâce à l’irrigation.",
+    "Les temples deviennent le cœur de la vie économique ; on compte les biens avec des jetons d’argile.",
+    "Vers −3500, Uruk devient l’une des premières villes du monde : l’écriture n’est plus loin."
+  ],
+  "periodes": [
+    {
+      "nom": "Les premiers paysans",
+      "debut": -10000,
+      "fin": -6500,
+      "resume": "Sur les piémonts du Taurus et du Zagros, on domestique le blé, l’orge, la chèvre et le mouton. Les villages, comme Jarmo, se multiplient.",
+      "evenements": [
+        {
+          "annee": -9000,
+          "evenement": "Domestication des premières plantes et des premiers animaux",
+          "ref": "revolution-neolithique"
+        }
+      ]
+    },
+    {
+      "nom": "Hassuna, Samarra et Halaf",
+      "debut": -6500,
+      "fin": -5400,
+      "resume": "Les villages s’étendent vers la plaine. Les cultures de Samarra pratiquent les premières irrigations ; Halaf est réputée pour ses poteries peintes et ses maisons rondes.",
+      "evenements": [{ "annee": -6000, "evenement": "Culture de Halaf" }]
+    },
+    {
+      "nom": "La période d’Obeïd",
+      "debut": -5400,
+      "fin": -4000,
+      "resume": "Des paysans s’installent dans le sud, autour d’Eridu, et creusent des canaux. Les premiers temples en brique et les premières élites apparaissent.",
+      "evenements": [{ "annee": -5400, "evenement": "Premiers temples d’Eridu" }]
+    },
+    {
+      "nom": "La période d’Uruk",
+      "debut": -4000,
+      "fin": -3500,
+      "resume": "Les villes grandissent, Uruk en tête. Sceaux-cylindres, tour de potier et jetons de comptage annoncent la civilisation sumérienne.",
+      "evenements": [{ "annee": -3500, "evenement": "Essor d’Uruk" }]
+    }
+  ],
+  "societe": "Des villages de paysans, puis des communautés plus nombreuses dirigées par les prêtres et les notables qui gèrent les temples et les réserves. Les maisons des élites et les tombes montrent des inégalités croissantes.",
+  "economie": "Céréales irriguées (orge, blé), dattiers, élevage de moutons et de chèvres, pêche dans les marais. Les temples stockent et redistribuent les récoltes.",
+  "arts": "Poteries peintes de Halaf et d’Obeïd, figurines, premiers sceaux gravés.",
+  "quotidien": "On vit dans des maisons de brique crue ou de roseaux, on cultive les champs le long des canaux, on pêche dans les marais. Les fêtes du temple rassemblent la communauté.",
+  "heritage": [
+    {
+      "titre": "L’agriculture",
+      "texte": "Le blé, l’orge, la chèvre et le mouton, domestiqués dans cette région, sont devenus la base de l’alimentation de l’Europe et du Proche-Orient."
+    },
+    {
+      "titre": "La ville",
+      "texte": "Uruk, l’une des toutes premières villes, prépare la naissance de l’écriture et de l’État."
+    }
+  ],
+  "aSavoir": [
+    "Le « Croissant fertile » est une expression inventée en 1916 par l’archéologue américain James Henry Breasted."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Pr%C3%A9histoire_de_la_M%C3%A9sopotamie",
+    "https://fr.wikipedia.org/wiki/P%C3%A9riode_d%27Obe%C3%AFd"
+  ]
+}

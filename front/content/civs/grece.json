@@ -1,0 +1,547 @@
+{
+  "id": "grece",
+  "label": "Grèce antique",
+  "tier": 1,
+  "region": "grece-egee",
+  "period": "-800 à -146",
+  "start": -800,
+  "end": -146,
+  "trackId": "grece",
+  "row": 1,
+  "isRiver": false,
+  "capitale": "Athènes, Sparte, puis Pella",
+  "description": "Des centaines de cités indépendantes qui partagent une langue, des dieux et des jeux : la Grèce antique invente la démocratie, le théâtre et la philosophie, puis, avec Alexandre, diffuse sa culture jusqu’en Inde.",
+  "territories": ["Greek city-states", "Greek colonies", "Empire of Alexander"],
+  "datesCles": [
+    {
+      "annee": -776,
+      "evenement": "Premiers Jeux olympiques",
+      "info": "Date traditionnelle des premiers Jeux, en l’honneur de Zeus, à Olympie.",
+      "ref": "premiers-jeux-olympiques"
+    },
+    {
+      "annee": -508,
+      "evenement": "Naissance de la démocratie",
+      "info": "Les réformes de Clisthène donnent le pouvoir à l’assemblée des citoyens d’Athènes.",
+      "ref": "reformes-de-clisthene"
+    },
+    {
+      "annee": -490,
+      "evenement": "Bataille de Marathon",
+      "info": "Les Athéniens et leurs alliés de Platées repoussent un débarquement perse.",
+      "ref": "bataille-de-marathon"
+    },
+    {
+      "annee": -480,
+      "evenement": "Thermopyles et Salamine",
+      "info": "Léonidas tombe aux Thermopyles ; quelques semaines plus tard, la flotte grecque écrase celle de Xerxès à Salamine.",
+      "ref": "bataille-de-salamine"
+    },
+    {
+      "annee": -447,
+      "evenement": "Début du Parthénon",
+      "info": "Périclès lance la construction du grand temple d’Athéna sur l’Acropole."
+    },
+    {
+      "annee": -431,
+      "evenement": "Guerre du Péloponnèse",
+      "info": "Athènes et Sparte s’affrontent pendant 27 ans ; Athènes est vaincue en −404."
+    },
+    {
+      "annee": -399,
+      "evenement": "Procès de Socrate",
+      "info": "Accusé d’impiété et de corrompre la jeunesse, le philosophe est condamné à mort par un tribunal athénien."
+    },
+    {
+      "annee": -338,
+      "evenement": "Bataille de Chéronée",
+      "info": "Philippe II de Macédoine bat Athènes et Thèbes et impose son autorité aux cités grecques."
+    },
+    {
+      "annee": -334,
+      "evenement": "Alexandre part à la conquête de l’Asie",
+      "info": "En dix ans, il conquiert l’Empire perse, de l’Égypte à l’Indus."
+    },
+    {
+      "annee": -146,
+      "evenement": "Destruction de Corinthe",
+      "info": "Rome écrase une révolte des cités grecques et rase Corinthe : la Grèce passe sous domination romaine."
+    }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Solon",
+      "titre": "Archonte (législateur)",
+      "debut": -594,
+      "fin": -594,
+      "dynastie": "athenes",
+      "note": "abolit l’esclavage pour dettes",
+      "cle": true
+    },
+    {
+      "nom": "Pisistrate",
+      "titre": "Tyran",
+      "debut": -561,
+      "fin": -527,
+      "dynastie": "athenes",
+      "note": "au pouvoir par intermittence"
+    },
+    {
+      "nom": "Hippias",
+      "titre": "Tyran",
+      "debut": -527,
+      "fin": -510,
+      "dynastie": "athenes",
+      "note": "fils de Pisistrate, chassé d’Athènes"
+    },
+    {
+      "nom": "Clisthène",
+      "titre": "Réformateur",
+      "debut": -508,
+      "fin": -508,
+      "dynastie": "athenes",
+      "note": "fonde la démocratie",
+      "cle": true
+    },
+    {
+      "nom": "Thémistocle",
+      "titre": "Archonte puis stratège",
+      "debut": -493,
+      "fin": -471,
+      "dynastie": "athenes",
+      "note": "crée la flotte athénienne, vainqueur de Salamine"
+    },
+    { "nom": "Cimon", "titre": "Stratège", "debut": -476, "fin": -461, "dynastie": "athenes" },
+    {
+      "nom": "Périclès",
+      "titre": "Stratège",
+      "surnom": "l’Olympien",
+      "debut": -461,
+      "fin": -429,
+      "dynastie": "athenes",
+      "personne": "pericles",
+      "note": "réélu stratège chaque année de −443 à sa mort",
+      "cle": true
+    },
+    { "nom": "Cléon", "titre": "Homme politique et stratège", "debut": -429, "fin": -422, "dynastie": "athenes" },
+    { "nom": "Alcibiade", "titre": "Stratège", "debut": -420, "fin": -406, "dynastie": "athenes" },
+    {
+      "nom": "Démosthène",
+      "titre": "Orateur et homme politique",
+      "debut": -351,
+      "fin": -322,
+      "dynastie": "athenes",
+      "note": "mène l’opposition à Philippe II"
+    },
+    { "nom": "Cléomène Ier", "titre": "Roi de Sparte", "debut": -520, "fin": -490, "dynastie": "sparte" },
+    {
+      "nom": "Léonidas Ier",
+      "titre": "Roi de Sparte",
+      "debut": -490,
+      "fin": -480,
+      "dynastie": "sparte",
+      "personne": "leonidas",
+      "note": "meurt aux Thermopyles",
+      "cle": true
+    },
+    { "nom": "Archidamos II", "titre": "Roi de Sparte", "debut": -469, "fin": -427, "dynastie": "sparte" },
+    {
+      "nom": "Agis II",
+      "titre": "Roi de Sparte",
+      "debut": -427,
+      "fin": -400,
+      "dynastie": "sparte",
+      "note": "vainqueur de la guerre du Péloponnèse"
+    },
+    { "nom": "Agésilas II", "titre": "Roi de Sparte", "debut": -400, "fin": -360, "dynastie": "sparte" },
+    {
+      "nom": "Agis IV",
+      "titre": "Roi de Sparte",
+      "debut": -244,
+      "fin": -241,
+      "dynastie": "sparte",
+      "note": "tente de partager les terres ; exécuté"
+    },
+    {
+      "nom": "Cléomène III",
+      "titre": "Roi de Sparte",
+      "debut": -235,
+      "fin": -222,
+      "dynastie": "sparte",
+      "note": "dernier grand roi réformateur"
+    },
+    {
+      "nom": "Épaminondas",
+      "titre": "Béotarque (général)",
+      "debut": -371,
+      "fin": -362,
+      "dynastie": "thebes",
+      "note": "bat Sparte à Leuctres"
+    },
+    {
+      "nom": "Philippe II",
+      "titre": "Roi de Macédoine",
+      "debut": -359,
+      "fin": -336,
+      "dynastie": "argeades",
+      "note": "soumet les cités grecques",
+      "cle": true
+    },
+    {
+      "nom": "Alexandre III",
+      "titre": "Roi de Macédoine",
+      "surnom": "le Grand",
+      "debut": -336,
+      "fin": -323,
+      "dynastie": "argeades",
+      "personne": "alexandre-le-grand",
+      "cle": true
+    },
+    {
+      "nom": "Philippe III Arrhidée",
+      "titre": "Roi de Macédoine",
+      "debut": -323,
+      "fin": -317,
+      "dynastie": "argeades",
+      "note": "demi-frère d’Alexandre"
+    },
+    {
+      "nom": "Alexandre IV",
+      "titre": "Roi de Macédoine",
+      "debut": -323,
+      "fin": -310,
+      "dynastie": "argeades",
+      "note": "fils posthume d’Alexandre, assassiné enfant"
+    },
+    { "nom": "Cassandre", "titre": "Roi de Macédoine", "debut": -305, "fin": -297, "dynastie": "antigonides" },
+    {
+      "nom": "Démétrios Ier",
+      "titre": "Roi de Macédoine",
+      "surnom": "Poliorcète",
+      "debut": -294,
+      "fin": -288,
+      "dynastie": "antigonides"
+    },
+    {
+      "nom": "Antigone II",
+      "titre": "Roi de Macédoine",
+      "surnom": "Gonatas",
+      "debut": -277,
+      "fin": -239,
+      "dynastie": "antigonides"
+    },
+    { "nom": "Démétrios II", "titre": "Roi de Macédoine", "debut": -239, "fin": -229, "dynastie": "antigonides" },
+    {
+      "nom": "Antigone III",
+      "titre": "Roi de Macédoine",
+      "surnom": "Doson",
+      "debut": -229,
+      "fin": -221,
+      "dynastie": "antigonides"
+    },
+    {
+      "nom": "Philippe V",
+      "titre": "Roi de Macédoine",
+      "debut": -221,
+      "fin": -179,
+      "dynastie": "antigonides",
+      "note": "affronte Rome"
+    },
+    {
+      "nom": "Persée",
+      "titre": "Roi de Macédoine",
+      "debut": -179,
+      "fin": -168,
+      "dynastie": "antigonides",
+      "note": "dernier roi, vaincu à Pydna"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Périclès",
+      "role": "Stratège d’Athènes",
+      "description": "Il dirige Athènes pendant son âge d’or, renforce la démocratie et fait bâtir le Parthénon.",
+      "dates": "vers −495 → −429",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/P%C3%A9ricl%C3%A8s",
+      "ref": "pericles"
+    },
+    {
+      "nom": "Alexandre le Grand",
+      "role": "Roi de Macédoine",
+      "description": "En onze ans de campagnes, il conquiert l’Empire perse et pousse jusqu’en Inde.",
+      "dates": "−356 → −323",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Alexandre_le_Grand",
+      "ref": "alexandre-le-grand"
+    },
+    {
+      "nom": "Léonidas",
+      "role": "Roi de Sparte",
+      "description": "Il meurt aux Thermopyles avec ses 300 Spartiates et leurs alliés en retardant l’armée perse de Xerxès.",
+      "dates": "mort en −480",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/L%C3%A9onidas_Ier_de_Sparte",
+      "ref": "leonidas"
+    },
+    {
+      "nom": "Socrate",
+      "role": "Philosophe",
+      "description": "Il interroge sans relâche ses concitoyens sur le bien et la justice ; condamné à mort, il boit la ciguë.",
+      "dates": "vers −470 → −399",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Socrate",
+      "ref": "socrate"
+    },
+    {
+      "nom": "Aristote",
+      "role": "Philosophe et savant",
+      "description": "Élève de Platon et précepteur d’Alexandre, il écrit sur la logique, la politique, la biologie et la physique.",
+      "dates": "−384 → −322",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Aristote",
+      "ref": "aristote"
+    },
+    {
+      "nom": "Homère",
+      "role": "Poète",
+      "description": "Les Grecs lui attribuaient l’Iliade et l’Odyssée, composées vers le VIIIe siècle av. J.-C. ; on ignore s’il a vraiment existé.",
+      "dates": "VIIIe siècle av. J.-C. ?",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Hom%C3%A8re"
+    },
+    {
+      "nom": "Sappho",
+      "role": "Poétesse",
+      "description": "Poétesse de l’île de Lesbos, admirée dans toute l’Antiquité pour ses poèmes lyriques, dont il ne reste que des fragments.",
+      "dates": "vers −630 → vers −570",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Sappho"
+    },
+    {
+      "nom": "Hérodote",
+      "role": "Historien",
+      "description": "Surnommé le « père de l’histoire », il enquête sur les guerres médiques et sur les peuples du monde connu.",
+      "dates": "vers −484 → vers −425",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/H%C3%A9rodote"
+    },
+    {
+      "nom": "Hippocrate",
+      "role": "Médecin",
+      "description": "Il cherche des causes naturelles aux maladies ; le serment qui porte son nom inspire encore les médecins.",
+      "dates": "vers −460 → vers −370",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Hippocrate"
+    },
+    {
+      "nom": "Platon",
+      "role": "Philosophe",
+      "description": "Disciple de Socrate, il fonde l’Académie à Athènes et écrit des dialogues qui posent les grandes questions de la philosophie.",
+      "dates": "vers −428 → −348",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Platon"
+    },
+    {
+      "nom": "Archimède",
+      "role": "Mathématicien et ingénieur",
+      "description": "Savant de Syracuse, il calcule des aires et des volumes, étudie les leviers et la poussée des liquides et défend sa ville contre les Romains.",
+      "dates": "vers −287 → −212",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Archim%C3%A8de"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerres médiques",
+      "annee": -490,
+      "adversaires": ["Empire perse (Darius Ier, puis Xerxès Ier)"],
+      "allies": ["Athènes, Sparte et une trentaine de cités alliées"],
+      "morts": "Inconnues",
+      "vainqueur": "Les cités grecques",
+      "consequences": "Les Perses renoncent à conquérir la Grèce ; Athènes, auréolée de ses victoires, prend la tête de la ligue de Délos.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerres_m%C3%A9diques"
+    },
+    {
+      "nom": "Guerre du Péloponnèse",
+      "annee": -431,
+      "adversaires": ["Ligue du Péloponnèse (Sparte)"],
+      "allies": ["Ligue de Délos (Athènes)"],
+      "morts": "Inconnues ; la peste de −430 tue à elle seule peut-être un quart des Athéniens",
+      "vainqueur": "Sparte",
+      "consequences": "Athènes perd sa flotte et son empire ; Sparte domine la Grèce, mais les cités sortent affaiblies de 27 ans de guerre.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_du_P%C3%A9loponn%C3%A8se"
+    },
+    {
+      "nom": "Guerre d’Achaïe",
+      "annee": -146,
+      "adversaires": ["République romaine"],
+      "allies": ["Ligue achéenne"],
+      "morts": "Inconnues ; les habitants de Corinthe sont tués ou vendus comme esclaves",
+      "vainqueur": "Rome (Lucius Mummius)",
+      "consequences": "Corinthe est rasée ; les cités grecques passent sous le contrôle du gouverneur romain de Macédoine.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Ligue_ach%C3%A9enne"
+    }
+  ],
+  "sciences": "Les penseurs grecs cherchent à expliquer le monde par la raison plutôt que par les mythes. Hippocrate cherche des causes naturelles aux maladies ; Hérodote puis Thucydide enquêtent sur le passé ; les mathématiciens, comme Euclide, organisent la géométrie en démonstrations. Ératosthène estime la circonférence de la Terre, Archimède étudie les leviers. Le Parthénon, commencé en −447, est un chef-d’œuvre d’architecture.",
+  "croyancesText": "Les Grecs vénèrent de nombreux dieux, dont les douze dieux de l’Olympe (Zeus, Héra, Athéna, Apollon…), qui ressemblent aux humains par leurs passions. La religion est l’affaire de toute la cité : sacrifices, fêtes et jeux honorent les dieux. On consulte l’oracle de Delphes avant les grandes décisions, et les mystères d’Éleusis promettent aux initiés une vie meilleure après la mort.",
+  "diplomatie": "Les cités sont souvent en guerre entre elles. Elles s’unissent contre les Perses lors des guerres médiques, puis se regroupent en alliances rivales : la ligue de Délos autour d’Athènes, la ligue du Péloponnèse autour de Sparte. Au IVe siècle, la Macédoine de Philippe II impose sa domination ; Rome intervient à partir de la fin du IIIe siècle.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": {
+      "valeur": "Aucune capitale commune",
+      "precision": "des centaines de cités : Athènes, Sparte, Corinthe, Thèbes… puis Pella, capitale de la Macédoine"
+    },
+    "regimes": {
+      "valeur": "Cités aux régimes variés",
+      "precision": "démocratie à Athènes, deux rois à Sparte, oligarchies et tyrannies ailleurs ; puis royaumes hellénistiques"
+    },
+    "langues": { "valeur": "Grec ancien", "precision": "plusieurs dialectes (attique, ionien, dorien…) ; alphabet grec" },
+    "religion": { "valeur": "Polythéisme", "precision": "les dieux de l’Olympe : Zeus, Héra, Athéna, Apollon…" },
+    "apogee": { "valeur": "Ve siècle av. J.-C.", "precision": "le « siècle de Périclès » à Athènes" },
+    "population": {
+      "valeur": "Peut-être 8 à 10 millions",
+      "precision": "pour tout le monde grec au IVe siècle av. J.-C., colonies comprises (estimation)"
+    },
+    "monnaie": {
+      "valeur": "Drachme",
+      "precision": "chaque cité frappe ses pièces ; la « chouette » d’Athènes circule dans toute la Méditerranée"
+    },
+    "duree": { "valeur": "Environ 650 ans" },
+    "aujourdhui": {
+      "valeur": "Grèce",
+      "precision": "et d’anciennes colonies grecques en Turquie, en Italie du Sud, en Sicile, à Marseille, autour de la mer Noire…"
+    }
+  },
+  "essentiel": [
+    "La Grèce n’est pas un pays unifié, mais un ensemble de cités-États rivales qui partagent la langue, les dieux et les [[premiers-jeux-olympiques|Jeux olympiques]].",
+    "Athènes invente la [[reformes-de-clisthene|démocratie]] : les citoyens votent eux-mêmes les lois, mais les femmes, les étrangers et les esclaves en sont exclus.",
+    "Unies face aux Perses, les cités l’emportent à [[bataille-de-marathon|Marathon]] puis à [[bataille-de-salamine|Salamine]] ; Athènes connaît ensuite son âge d’or avec [[pericles|Périclès]].",
+    "La Grèce invente le théâtre, l’histoire et la philosophie, avec [[socrate|Socrate]], Platon et [[aristote|Aristote]].",
+    "[[alexandre-le-grand|Alexandre le Grand]] conquiert l’Empire perse ; ses successeurs règnent jusqu’à la conquête romaine, achevée en −146."
+  ],
+  "periodes": [
+    {
+      "nom": "L’époque archaïque",
+      "debut": -800,
+      "fin": -490,
+      "resume": "Les cités se forment, adoptent l’alphabet et fondent des colonies tout autour de la Méditerranée. Athènes se dote peu à peu d’institutions démocratiques.",
+      "evenements": [
+        { "annee": -776, "evenement": "Premiers Jeux olympiques", "ref": "premiers-jeux-olympiques" },
+        { "annee": -594, "evenement": "Réformes de Solon" },
+        { "annee": -508, "evenement": "Réformes de Clisthène", "ref": "reformes-de-clisthene" }
+      ]
+    },
+    {
+      "nom": "Les guerres médiques et le siècle de Périclès",
+      "debut": -490,
+      "fin": -431,
+      "resume": "Les cités repoussent les invasions perses. Athènes prend la tête de la ligue de Délos, s’enrichit et se couvre de monuments.",
+      "evenements": [
+        { "annee": -490, "evenement": "Bataille de Marathon", "ref": "bataille-de-marathon" },
+        { "annee": -480, "evenement": "Bataille des Thermopyles", "ref": "bataille-des-thermopyles" },
+        { "annee": -480, "evenement": "Bataille de Salamine", "ref": "bataille-de-salamine" },
+        { "annee": -478, "evenement": "Création de la ligue de Délos" },
+        { "annee": -447, "evenement": "Début du Parthénon" }
+      ]
+    },
+    {
+      "nom": "Les guerres entre cités",
+      "debut": -431,
+      "fin": -338,
+      "resume": "Athènes et Sparte s’épuisent dans la guerre du Péloponnèse ; Sparte puis Thèbes dominent tour à tour, avant que la Macédoine n’impose sa loi.",
+      "evenements": [
+        { "annee": -404, "evenement": "Défaite d’Athènes" },
+        { "annee": -399, "evenement": "Mort de Socrate" },
+        { "annee": -371, "evenement": "Thèbes bat Sparte à Leuctres" },
+        { "annee": -338, "evenement": "Bataille de Chéronée" }
+      ]
+    },
+    {
+      "nom": "Alexandre et l’époque hellénistique",
+      "debut": -338,
+      "fin": -146,
+      "resume": "Alexandre conquiert l’Empire perse. À sa mort, ses généraux se partagent son empire en royaumes grecs (Macédoine, Égypte des Ptolémées, empire séleucide), conquis peu à peu par Rome.",
+      "evenements": [
+        { "annee": -331, "evenement": "Victoire d’Alexandre à Gaugamèles" },
+        { "annee": -323, "evenement": "Mort d’Alexandre à Babylone" },
+        { "annee": -168, "evenement": "Rome bat la Macédoine à Pydna" },
+        { "annee": -146, "evenement": "Destruction de Corinthe" }
+      ]
+    }
+  ],
+  "regimes": [
+    {
+      "id": "cites",
+      "nom": "Cités indépendantes",
+      "debut": -800,
+      "fin": -338,
+      "note": "Chaque cité a son régime : démocratie à Athènes, deux rois et un conseil des anciens à Sparte, tyrannies ou oligarchies ailleurs."
+    },
+    {
+      "id": "macedoine",
+      "nom": "Domination macédonienne",
+      "debut": -338,
+      "fin": -146,
+      "note": "Les cités gardent leurs institutions, mais doivent obéir aux rois de Macédoine."
+    }
+  ],
+  "dynasties": [
+    {
+      "id": "athenes",
+      "nom": "Athènes : législateurs, tyrans et stratèges",
+      "debut": -594,
+      "fin": -322,
+      "regime": "cites",
+      "note": "Athènes n’a pas de roi : ce sont des magistrats, des tyrans ou des stratèges (généraux élus) qui la dirigent."
+    },
+    {
+      "id": "sparte",
+      "nom": "Sparte : quelques rois célèbres",
+      "debut": -520,
+      "fin": -222,
+      "regime": "cites",
+      "note": "Sparte a toujours deux rois en même temps, issus de deux familles (Agiades et Eurypontides). Dates approximatives pour les plus anciens."
+    },
+    { "id": "thebes", "nom": "Thèbes", "debut": -371, "fin": -362, "regime": "cites" },
+    {
+      "id": "argeades",
+      "nom": "Macédoine : les Argéades",
+      "debut": -359,
+      "fin": -310,
+      "regime": "macedoine",
+      "note": "La dynastie de Philippe II et d’Alexandre le Grand."
+    },
+    {
+      "id": "antigonides",
+      "nom": "Macédoine : après Alexandre",
+      "debut": -305,
+      "fin": -168,
+      "regime": "macedoine",
+      "note": "Après les guerres entre les successeurs d’Alexandre, la dynastie des Antigonides règne jusqu’à la conquête romaine."
+    }
+  ],
+  "societe": "Seuls les hommes adultes nés de parents citoyens sont citoyens. Les femmes, les étrangers (métèques) et les esclaves, très nombreux, n’ont pas de droits politiques. À Sparte, les citoyens sont des soldats entraînés dès l’enfance, et le travail de la terre repose sur les hilotes, une population asservie.",
+  "economie": "Agriculture méditerranéenne (blé, vigne, olivier), artisanat (céramique peinte, bronze), mines d’argent du Laurion à Athènes et commerce maritime avec toute la Méditerranée et la mer Noire.",
+  "decouvertes": ["alphabet-grec", "parthenon"],
+  "arts": "Temples aux colonnes doriques et ioniques, sculptures de marbre et de bronze, céramiques à figures noires puis rouges, théâtres en plein air où l’on joue les tragédies d’Eschyle, Sophocle et Euripide et les comédies d’Aristophane.",
+  "quotidien": "La vie publique se passe sur l’agora, la place du marché et des assemblées. Les hommes s’entraînent au gymnase ; les femmes des familles aisées vivent surtout à la maison. Les fêtes religieuses rythment l’année, avec processions, concours et représentations théâtrales.",
+  "heritage": [
+    {
+      "titre": "La démocratie",
+      "texte": "Le mot vient du grec (« pouvoir du peuple ») ; les démocraties modernes se réfèrent à l’exemple athénien, même si elles en diffèrent beaucoup."
+    },
+    {
+      "titre": "Les Jeux olympiques",
+      "texte": "Recréés en 1896 par Pierre de Coubertin, ils reprennent le nom et l’idéal des Jeux d’Olympie."
+    },
+    {
+      "titre": "La langue",
+      "texte": "Des milliers de mots français viennent du grec : philosophie, théâtre, géographie, politique, téléphone…"
+    },
+    {
+      "titre": "Les sciences et la pensée",
+      "texte": "Les théorèmes de Pythagore et de Thalès, la logique d’Aristote et les questions de Platon sont toujours enseignés."
+    }
+  ],
+  "aSavoir": [
+    "Les statues et les temples grecs, que nous voyons blancs, étaient à l’origine peints de couleurs vives.",
+    "Le mot « barbare » désignait pour les Grecs tous ceux qui ne parlaient pas grec, dont la langue ressemblait pour eux à des « bar-bar »."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Gr%C3%A8ce_antique",
+    {
+      "titre": "Encyclopædia Britannica — Ancient Greek civilization",
+      "url": "https://www.britannica.com/place/ancient-Greece"
+    }
+  ]
+}

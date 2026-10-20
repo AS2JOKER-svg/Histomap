@@ -1,0 +1,287 @@
+[
+  {
+    "id": "prehistoire",
+    "label": "Préhistoire",
+    "start": -3000000,
+    "end": -3000,
+    "color": "#8b9d83",
+    "description": "De l'apparition des premiers hominidés dans la vallée du Rift à la révolution néolithique et l'invention de l'écriture.",
+    "continents": [
+      {
+        "id": "afrique",
+        "label": "Afrique",
+        "civs": [
+          "hominides-est",
+          "sahara-pasteurs"
+        ]
+      },
+      {
+        "id": "europe",
+        "label": "Europe",
+        "civs": [
+          "europe-paleo",
+          "europe-neo",
+          "megalithes-europe"
+        ]
+      },
+      {
+        "id": "asie",
+        "label": "Asie",
+        "civs": [
+          "chine-neo",
+          "mesopotamie-prehist",
+          "gobekli-tepe"
+        ]
+      },
+      {
+        "id": "amerique",
+        "label": "Amérique",
+        "civs": [
+          "caral-supe"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "antiquite",
+    "label": "Antiquité",
+    "start": -3000,
+    "end": 476,
+    "color": "#d4a373",
+    "description": "L'émergence des premières grandes cités-États, l'invention de l'écriture et la formation des empires mondiaux (Rome, Han, Maurya, Achéménide).",
+    "continents": [
+      {
+        "id": "afrique",
+        "label": "Afrique",
+        "civs": [
+          "egypte",
+          "carthage",
+          "koush",
+          "aksoum",
+          "nok",
+          "pount"
+        ]
+      },
+      {
+        "id": "europe",
+        "label": "Europe",
+        "civs": [
+          "minoen-mycenien",
+          "grece",
+          "etrusques",
+          "rome",
+          "celtes",
+          "thraces",
+          "iberes",
+          "scythes",
+          "sarmates",
+          "huns",
+          "illyriens"
+        ]
+      },
+      {
+        "id": "asie",
+        "label": "Asie",
+        "civs": [
+          "mesopotamie",
+          "perse",
+          "hittites",
+          "pheniciens",
+          "hebreux",
+          "maurya",
+          "chine-imperiale",
+          "xiongnu",
+          "gojoseon"
+        ]
+      },
+      {
+        "id": "amerique",
+        "label": "Amérique",
+        "civs": [
+          "olmeques",
+          "teotihuacan",
+          "chavin",
+          "nazca"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "moyen-age",
+    "label": "Moyen Âge",
+    "start": 476,
+    "end": 1492,
+    "color": "#7c8bbf",
+    "description": "Empires médiévaux, essor fulgurant de l'Islam, féodalité européenne, grandes dynasties asiatiques et thalassocraties.",
+    "continents": [
+      {
+        "id": "europe",
+        "label": "Europe",
+        "civs": [
+          "byzance",
+          "francs",
+          "france-capet",
+          "serg",
+          "angleterre",
+          "vikings",
+          "rus-kiev",
+          "moscovie",
+          "khazars",
+          "horde-d-or",
+          "khanat-de-crimee",
+          "italie-maritime",
+          "al-andalus",
+          "reconquista-royaumes"
+        ]
+      },
+      {
+        "id": "asie",
+        "label": "Asie / Moyen-Orient",
+        "civs": [
+          "califat",
+          "gokturks",
+          "ouighours",
+          "mongols",
+          "chine-tang-song",
+          "tibet-empire",
+          "japon-feodal",
+          "goryeo",
+          "khmer",
+          "srivijaya",
+          "chola"
+        ]
+      },
+      {
+        "id": "afrique",
+        "label": "Afrique",
+        "civs": [
+          "ghana-med",
+          "mali",
+          "songhai",
+          "kongo",
+          "zimbabwe-civilisation"
+        ]
+      },
+      {
+        "id": "amerique",
+        "label": "Amérique",
+        "civs": [
+          "maya",
+          "tiwanaku",
+          "huari"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "moderne",
+    "label": "Époque moderne",
+    "start": 1492,
+    "end": 1789,
+    "color": "#c98bb9",
+    "description": "Le désenclavement du monde : les grandes découvertes, la Renaissance, la révolution scientifique et la mise en place des premiers empires coloniaux globaux.",
+    "continents": [
+      {
+        "id": "europe",
+        "label": "Europe",
+        "civs": [
+          "espagne",
+          "france-mod",
+          "angleterre-mod",
+          "provinces-unies",
+          "suede-empire",
+          "prusse",
+          "pologne-lituanie",
+          "russie-tsars",
+          "hetmanat-cosaque"
+        ]
+      },
+      {
+        "id": "afrique",
+        "label": "Afrique",
+        "civs": [
+          "songhai-mod",
+          "ashanti",
+          "kongo-mod",
+          "oyo"
+        ]
+      },
+      {
+        "id": "asie",
+        "label": "Asie / Moyen-Orient",
+        "civs": [
+          "ottomans",
+          "moghols",
+          "safavides",
+          "chine-mod",
+          "japon-mod",
+          "joseon"
+        ]
+      },
+      {
+        "id": "amerique",
+        "label": "Amérique",
+        "civs": [
+          "azteque",
+          "inca",
+          "usa-moderne"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "contemporaine",
+    "label": "Époque contemporaine",
+    "start": 1789,
+    "end": 2020,
+    "color": "#5ab5d6",
+    "description": "L'effondrement des rois, la révolution industrielle et fossile, l'horreur des totalitarismes mondiaux et l'ère du capitalisme libéral, technologique et nucléaire.",
+    "continents": [
+      {
+        "id": "europe",
+        "label": "Europe",
+        "civs": [
+          "france-contemp",
+          "royaume-uni",
+          "allemagne",
+          "russie",
+          "autriche-hongrie",
+          "italie-contemp",
+          "union-europeenne"
+        ]
+      },
+      {
+        "id": "amerique",
+        "label": "Amérique",
+        "civs": [
+          "etats-unis",
+          "mexique",
+          "bresil"
+        ]
+      },
+      {
+        "id": "asie",
+        "label": "Asie / Moyen-Orient",
+        "civs": [
+          "turquie",
+          "iran",
+          "chine-contemp",
+          "japon",
+          "coree-contemp",
+          "inde-contemp",
+          "indonesie",
+          "singapour"
+        ]
+      },
+      {
+        "id": "afrique",
+        "label": "Afrique",
+        "civs": [
+          "ethiopie-contemp",
+          "dahomey",
+          "afrique-sud"
+        ]
+      }
+    ]
+  }
+]

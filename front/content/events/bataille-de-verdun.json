@@ -1,0 +1,19 @@
+{
+  "id": "bataille-de-verdun",
+  "nom": "Bataille de Verdun",
+  "annee": 1916,
+  "dates": "21 février → 18 décembre 1916",
+  "lieu": "Verdun (Meuse)",
+  "description": "La plus longue bataille de la Première Guerre mondiale : l’armée allemande attaque Verdun, que l’armée française défend pendant dix mois.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Des millions d’obus pilonnent le champ de bataille. Les soldats français se relaient grâce à la « Voie sacrée », la route qui ravitaille le front."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Plus de 300 000 soldats français et allemands sont tués. Verdun devient le symbole du sacrifice des soldats de la Grande Guerre."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Verdun"
+}

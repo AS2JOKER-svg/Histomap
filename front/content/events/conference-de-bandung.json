@@ -1,0 +1,16 @@
+{
+  "id": "conference-de-bandung",
+  "nom": "Conférence de Bandung",
+  "annee": 1955,
+  "dates": "18-24 avril 1955",
+  "lieu": "Bandung (Java)",
+  "description": "Vingt-neuf pays d’Asie et d’Afrique, pour la plupart récemment décolonisés, se réunissent à l’invitation de [[sukarno|Sukarno]].",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "Les participants condamnent le colonialisme et affirment leur volonté de ne pas dépendre des deux blocs de la guerre froide. La conférence annonce le mouvement des non-alignés (1961)."
+    }
+  ],
+  "liens": [{ "ref": "sukarno", "relation": "Son hôte" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Conf%C3%A9rence_de_Bandung"
+}

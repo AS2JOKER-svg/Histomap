@@ -1,0 +1,18 @@
+{
+  "id": "sarcophage-des-epoux",
+  "nom": "Sarcophage des Époux",
+  "annee": -520,
+  "domaine": "Art",
+  "dates": "vers −520",
+  "description": "Une urne funéraire en terre cuite trouvée à Cerveteri : un homme et une femme y sont allongés côte à côte, comme lors d’un banquet, souriants.",
+  "sections": [
+    {
+      "titre": "Ce qu’il montre",
+      "texte": "Le couple, à demi allongé sur un lit de banquet, partage le même rang : un signe de la place des femmes dans la société étrusque."
+    }
+  ],
+  "aSavoir": [
+    "Il est conservé à Rome, au musée national étrusque de la Villa Giulia ; un autre, très semblable, est au Louvre."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Sarcophage_des_%C3%89poux"
+}

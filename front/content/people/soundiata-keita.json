@@ -1,0 +1,18 @@
+{
+  "id": "soundiata-keita",
+  "nom": "Soundiata Keïta",
+  "role": "Fondateur de l’empire du Mali",
+  "roles": ["Mansa", "Fondateur"],
+  "dates": "vers 1190 → vers 1255",
+  "naissance": 1190,
+  "mort": 1255,
+  "description": "Prince mandingue qui, selon l’épopée, ne marcha qu’à sept ans avant de devenir un chef de guerre ; il bat Soumaoro Kanté à Kirina et fonde l’empire du Mali.",
+  "essentiel": [
+    "Selon l’épopée, il est le fils d’un roi mandingue et de Sogolon, une femme bossue que la prophétie annonçait.",
+    "Exilé dans sa jeunesse, il revient à la tête des clans mandingues et gagne la [[bataille-de-kirina|bataille de Kirina]].",
+    "La tradition lui attribue la [[charte-du-manden|charte du Manden]].",
+    "On connaît son histoire surtout par les griots, et par quelques lignes de l’historien Ibn Khaldoun."
+  ],
+  "aSavoir": ["L’épopée de Soundiata a inspiré de nombreuses œuvres, dont, en partie, le dessin animé Le Roi lion."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Soundiata_Ke%C3%AFta"
+}

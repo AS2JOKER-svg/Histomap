@@ -1,0 +1,16 @@
+{
+  "id": "atlas-catalan",
+  "nom": "Atlas catalan",
+  "annee": 1375,
+  "domaine": "Cartographie",
+  "dates": "1375",
+  "description": "Une carte du monde peinte à Majorque, chef-d’œuvre de la cartographie médiévale : on y voit notamment Mansa Moussa, roi du Mali, tenant une pépite d’or.",
+  "sections": [
+    {
+      "titre": "Ce qu’il montre",
+      "texte": "Des côtes très précises pour la Méditerranée, et, pour l’Afrique et l’Asie, des villes, des rois et des caravanes, d’après les récits des marchands et de Marco Polo."
+    }
+  ],
+  "aSavoir": ["Il est conservé à la Bibliothèque nationale de France."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Atlas_catalan"
+}

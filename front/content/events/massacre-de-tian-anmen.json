@@ -1,0 +1,16 @@
+{
+  "id": "massacre-de-tian-anmen",
+  "nom": "Manifestations et massacre de Tian’anmen",
+  "annee": 1989,
+  "dates": "avril → 4 juin 1989",
+  "lieu": "Pékin",
+  "description": "Des étudiants et des ouvriers manifestent pendant des semaines sur la place Tian’anmen pour plus de libertés ; dans la nuit du 3 au 4 juin, l’armée les réprime.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "Le nombre de morts, des centaines ou des milliers, n’est pas connu. L’événement est censuré en Chine. Le parti maintient son monopole politique tout en poursuivant l’ouverture économique."
+    }
+  ],
+  "aSavoir": ["La photo de l’« homme au char », un inconnu qui arrête une colonne de chars, a fait le tour du monde."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Manifestations_de_la_place_Tian%27anmen"
+}

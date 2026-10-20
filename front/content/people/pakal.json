@@ -1,0 +1,18 @@
+{
+  "id": "pakal",
+  "nom": "Pakal",
+  "nomComplet": "K’inich Janaab Pakal Ier",
+  "role": "Roi de Palenque",
+  "roles": ["Roi (k’uhul ajaw)", "Bâtisseur"],
+  "dates": "603 → 683",
+  "naissance": 603,
+  "mort": 683,
+  "description": "Roi de Palenque pendant 68 ans, l’un des plus longs règnes connus. Il fait de sa cité un centre artistique majeur et repose dans un tombeau célèbre.",
+  "reperes": [{ "label": "Règne", "valeur": "615 → 683", "precision": "il monte sur le trône à 12 ans" }],
+  "essentiel": [
+    "Il succède à sa mère, Sak K’uk’, qui a peut-être régné avant lui.",
+    "Il relève Palenque après des défaites face à Calakmul.",
+    "Il fait bâtir le palais et le temple des Inscriptions, où se trouve son [[tombeau-de-pakal|tombeau]]."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/K%27inich_Janaab%27_Pakal_Ier"
+}

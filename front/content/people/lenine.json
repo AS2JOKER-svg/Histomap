@@ -1,0 +1,18 @@
+{
+  "id": "lenine",
+  "nom": "Lénine",
+  "nomComplet": "Vladimir Ilitch Oulianov",
+  "role": "Fondateur de l’État soviétique",
+  "roles": ["Révolutionnaire", "Chef du gouvernement"],
+  "dates": "1870 → 1924",
+  "naissance": 1870,
+  "mort": 1924,
+  "description": "Révolutionnaire marxiste, chef du parti bolchevik, il prend le pouvoir en Russie en 1917 et fonde l’État soviétique, en instaurant un parti unique et une police politique.",
+  "essentiel": [
+    "Exilé en Europe, il rentre en Russie en avril 1917 avec l’aide de l’Allemagne.",
+    "Il dirige la [[revolution-d-octobre|révolution d’Octobre]].",
+    "Il signe la paix avec l’Allemagne (1918) et gagne la guerre civile, en usant de la terreur.",
+    "Il fonde l’URSS en 1922 et meurt en 1924 ; son corps embaumé est exposé à Moscou."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/L%C3%A9nine"
+}

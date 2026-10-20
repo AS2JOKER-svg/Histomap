@@ -1,0 +1,20 @@
+{
+  "id": "guerres-arabo-khazares",
+  "nom": "Guerres arabo-khazares",
+  "annee": 642,
+  "fin": 799,
+  "dates": "vers 642 → 799",
+  "lieu": "Caucase",
+  "description": "Un long conflit entre le califat et les Khazars pour le contrôle du Caucase et des steppes du nord.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Les Khazars écrasent une armée arabe à Balanjar (652), lancent en 730 un raid jusqu’à Ardabil, en Iran, puis subissent en 737 l’invasion du général Marwan, qui atteint la Volga."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Le Caucase devient une frontière durable : l’Europe de l’Est échappe à l’expansion du califat."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Guerres_arabo-khazares"
+}

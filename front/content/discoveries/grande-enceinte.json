@@ -1,0 +1,19 @@
+{
+  "id": "grande-enceinte",
+  "nom": "Grande Enceinte du Grand Zimbabwe",
+  "annee": 1350,
+  "domaine": "Architecture",
+  "dates": "XIVe siècle",
+  "description": "Un immense mur elliptique de pierre sèche, haut de 11 mètres, qui entoure des habitations et une mystérieuse tour conique : la plus grande construction ancienne d’Afrique subsaharienne.",
+  "sections": [
+    {
+      "titre": "Comment elle a été bâtie",
+      "texte": "Les bâtisseurs ont empilé sans mortier des centaines de milliers de blocs de granit taillés. Le sommet du mur est décoré d’un motif en chevrons."
+    },
+    {
+      "titre": "À quoi servait-elle",
+      "texte": "Elle abritait sans doute le roi ou des membres de l’élite ; certains y voient aussi un lieu d’initiation. Sa fonction exacte reste débattue."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Grand_Zimbabwe"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "annee-du-desastre",
+  "nom": "L’Année du désastre (Rampjaar)",
+  "annee": 1672,
+  "dates": "1672",
+  "lieu": "Provinces-Unies",
+  "description": "Attaquée à la fois par la France de Louis XIV, l’Angleterre et deux évêchés allemands, la république est au bord de l’effondrement.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Les armées françaises envahissent le pays. Les Hollandais ouvrent leurs digues et inondent les terres pour arrêter l’ennemi. La foule massacre Johan de Witt et son frère, accusés de trahison."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Guillaume III d’Orange devient stathouder et organise la résistance ; la république survit."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Rampjaar"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "shah-jahan",
+  "nom": "Shah Jahan",
+  "role": "Empereur moghol",
+  "roles": ["Empereur", "Bâtisseur"],
+  "dates": "1592 → 1666",
+  "naissance": 1592,
+  "mort": 1666,
+  "description": "Empereur qui fait bâtir le Taj Mahal pour son épouse Mumtaz Mahal et fonde une nouvelle capitale à Delhi.",
+  "reperes": [{ "label": "Règne", "valeur": "1628 → 1658" }],
+  "essentiel": [
+    "Il fait construire le [[taj-mahal|Taj Mahal]] après la mort de Mumtaz Mahal en 1631.",
+    "Il fait bâtir le Fort rouge et la grande mosquée de Delhi.",
+    "Son fils [[aurangzeb|Aurangzeb]] le dépose et le tient enfermé au fort d’Agra jusqu’à sa mort."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Shah_Jahan"
+}

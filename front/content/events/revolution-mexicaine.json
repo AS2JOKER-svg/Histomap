@@ -1,0 +1,21 @@
+{
+  "id": "revolution-mexicaine",
+  "nom": "Révolution mexicaine",
+  "annee": 1910,
+  "fin": 1920,
+  "dates": "1910 → 1920",
+  "lieu": "Mexique",
+  "description": "Une révolution contre la dictature de Porfirio Díaz, qui devient une longue guerre civile entre plusieurs chefs, dont [[emiliano-zapata|Zapata]] et Pancho Villa.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Francisco Madero appelle au soulèvement en 1910 ; Díaz s’exile en 1911. Madero est assassiné en 1913, et les révolutionnaires combattent le général Huerta, puis s’affrontent entre eux."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "La Constitution de 1917 prévoit la réforme agraire et des droits pour les ouvriers. Le parti issu de la révolution gouverne le pays jusqu’en 2000."
+    }
+  ],
+  "liens": [{ "ref": "emiliano-zapata", "relation": "Un chef révolutionnaire" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/R%C3%A9volution_mexicaine"
+}

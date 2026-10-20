@@ -1,0 +1,286 @@
+{
+  "id": "iran",
+  "label": "Iran",
+  "tier": 1,
+  "region": "iran",
+  "period": "1789 à 2020",
+  "start": 1789,
+  "end": 2020,
+  "trackId": "perse",
+  "row": 2,
+  "isRiver": false,
+  "capitale": "Téhéran",
+  "description": "L’Iran depuis la fin du XVIIIe siècle : la monarchie des Qadjars, puis celle des Pahlavi, alliée des Occidentaux, renversée par la révolution de 1979 qui fonde une République islamique.",
+  "territories": ["Persia", "Iran"],
+  "datesCles": [
+    {
+      "annee": 1796,
+      "evenement": "Dynastie qadjare",
+      "info": "Agha Mohammad Khan se fait couronner chah ; Téhéran devient la capitale."
+    },
+    {
+      "annee": 1828,
+      "evenement": "Traité de Turkmantchaï",
+      "info": "L’Iran cède à la Russie une grande partie du Caucase."
+    },
+    {
+      "annee": 1906,
+      "evenement": "Révolution constitutionnelle",
+      "info": "Le chah accepte une constitution et un Parlement (Majlis).",
+      "ref": "revolution-constitutionnelle-persane"
+    },
+    {
+      "annee": 1908,
+      "evenement": "Pétrole de Masjed Soleyman",
+      "info": "Découverte du premier grand gisement de pétrole du Moyen-Orient, exploité par une compagnie britannique."
+    },
+    {
+      "annee": 1953,
+      "evenement": "Coup d’État de 1953",
+      "info": "La CIA et les services britanniques organisent le renversement du gouvernement de Mossadegh, qui avait nationalisé le pétrole.",
+      "ref": "coup-d-etat-de-1953"
+    },
+    {
+      "annee": 1979,
+      "evenement": "La révolution islamique",
+      "info": "Le chah quitte le pays ; l’ayatollah Khomeini fonde la République islamique.",
+      "ref": "revolution-iranienne"
+    },
+    {
+      "annee": 1980,
+      "evenement": "Guerre Iran-Irak",
+      "info": "Saddam Hussein attaque l’Iran ; la guerre dure huit ans."
+    }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Agha Mohammad Khan",
+      "titre": "Chah",
+      "debut": 1789,
+      "fin": 1797,
+      "dynastie": "qadjars",
+      "note": "fondateur de la dynastie ; assassiné"
+    },
+    {
+      "nom": "Fath Ali Chah",
+      "titre": "Chah",
+      "debut": 1797,
+      "fin": 1834,
+      "dynastie": "qadjars",
+      "note": "perd le Caucase face à la Russie"
+    },
+    { "nom": "Mohammad Chah", "titre": "Chah", "debut": 1834, "fin": 1848, "dynastie": "qadjars" },
+    {
+      "nom": "Nasseredin Chah",
+      "titre": "Chah",
+      "debut": 1848,
+      "fin": 1896,
+      "dynastie": "qadjars",
+      "note": "long règne ; assassiné",
+      "cle": true
+    },
+    {
+      "nom": "Mozaffaredin Chah",
+      "titre": "Chah",
+      "debut": 1896,
+      "fin": 1907,
+      "dynastie": "qadjars",
+      "note": "accepte la constitution de 1906"
+    },
+    { "nom": "Mohammad Ali Chah", "titre": "Chah", "debut": 1907, "fin": 1909, "dynastie": "qadjars" },
+    { "nom": "Ahmad Chah", "titre": "Chah", "debut": 1909, "fin": 1925, "dynastie": "qadjars", "note": "dernier Qadjar" },
+    {
+      "nom": "Reza Chah",
+      "titre": "Chah",
+      "debut": 1925,
+      "fin": 1941,
+      "dynastie": "pahlavi",
+      "note": "modernise le pays ; déposé par les Alliés",
+      "cle": true
+    },
+    {
+      "nom": "Mohammad Reza Chah",
+      "titre": "Chah",
+      "debut": 1941,
+      "fin": 1979,
+      "dynastie": "pahlavi",
+      "note": "renversé par la révolution",
+      "cle": true
+    },
+    {
+      "nom": "Mohammad Mossadegh",
+      "titre": "Premier ministre",
+      "debut": 1951,
+      "fin": 1953,
+      "dynastie": "pahlavi",
+      "note": "nationalise le pétrole ; renversé"
+    },
+    {
+      "nom": "Rouhollah Khomeini",
+      "titre": "Guide de la Révolution",
+      "debut": 1979,
+      "fin": 1989,
+      "dynastie": "guides",
+      "personne": "khomeini",
+      "note": "fondateur de la République islamique",
+      "cle": true
+    },
+    {
+      "nom": "Ali Khamenei",
+      "titre": "Guide de la Révolution",
+      "debut": 1989,
+      "fin": 2020,
+      "dynastie": "guides",
+      "note": "en fonction en 2020",
+      "cle": true
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Mohammad Mossadegh",
+      "role": "Premier ministre",
+      "description": "Il nationalise le pétrole iranien en 1951 ; il est renversé en 1953 par un coup d’État soutenu par les États-Unis et le Royaume-Uni.",
+      "dates": "1882 → 1967",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Mohammad_Mossadegh"
+    },
+    {
+      "nom": "Shirin Ebadi",
+      "role": "Avocate",
+      "description": "Défenseuse des droits humains, première Iranienne prix Nobel de la paix (2003).",
+      "dates": "née en 1947",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Shirin_Ebadi"
+    },
+    {
+      "nom": "Forough Farrokhzad",
+      "role": "Poétesse",
+      "description": "Grande poétesse iranienne moderne, elle exprime avec audace la vie des femmes.",
+      "dates": "1934 → 1967",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Forough_Farrokhzad"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerre Iran-Irak",
+      "annee": 1980,
+      "adversaires": ["Irak (Saddam Hussein)"],
+      "allies": ["Syrie"],
+      "morts": "Plusieurs centaines de milliers à un million de morts, selon les estimations",
+      "vainqueur": "Aucun vainqueur (retour aux frontières d’avant-guerre)",
+      "consequences": "Guerre de 1980 à 1988, marquée par des combats de tranchées et l’usage d’armes chimiques par l’Irak. Elle renforce le régime iranien et ruine les deux pays.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_Iran-Irak"
+    }
+  ],
+  "sciences": "Les Pahlavi créent l’université de Téhéran (1934), des chemins de fer (le Transiranien) et développent l’industrie pétrolière. L’Iran forme de nombreux scientifiques ; la mathématicienne Maryam Mirzakhani est la première femme à recevoir la médaille Fields (2014). Son programme nucléaire, lancé sous le chah, suscite depuis les années 2000 de fortes tensions internationales.",
+  "croyancesText": "L’islam chiite est la religion de la grande majorité des Iraniens. Depuis 1979, l’État est fondé sur la « tutelle du juriste-théologien » : le guide suprême, un religieux, a le dernier mot. Le port du voile est obligatoire pour les femmes. Des minorités (sunnites, chrétiens arméniens, juifs, zoroastriens, bahaïs) vivent en Iran ; les bahaïs sont persécutés.",
+  "diplomatie": "Au XIXe siècle, l’Iran est un enjeu de rivalité entre la Russie et le Royaume-Uni. Au XXe siècle, son pétrole attire les puissances occidentales ; après 1953, le chah est un allié des États-Unis. La République islamique s’oppose aux États-Unis et à Israël et soutient des mouvements chiites au Moyen-Orient.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": { "valeur": "Téhéran", "precision": "depuis 1786" },
+    "regimes": {
+      "valeur": "Monarchie, puis République islamique",
+      "precision": "depuis 1979, un guide suprême religieux et un président élu"
+    },
+    "langues": { "valeur": "Persan", "precision": "avec l’azéri, le kurde, l’arabe, le baloutche…" },
+    "religion": { "valeur": "Islam chiite", "precision": "religion d’État" },
+    "apogee": { "valeur": "Années 1960-1970", "precision": "croissance liée au pétrole" },
+    "population": { "valeur": "Environ 84 millions en 2020" },
+    "monnaie": { "valeur": "Rial" },
+    "duree": { "valeur": "Plus de 230 ans dans cette fiche" },
+    "aujourdhui": { "valeur": "Iran" }
+  },
+  "essentiel": [
+    "Les rois qadjars gouvernent l’Iran au XIXe siècle et perdent le Caucase face à la Russie.",
+    "La [[revolution-constitutionnelle-persane|révolution constitutionnelle]] de 1906 donne à l’Iran un Parlement, l’un des premiers d’Asie.",
+    "La dynastie Pahlavi modernise le pays à marche forcée ; en 1953, un [[coup-d-etat-de-1953|coup d’État]] soutenu par les États-Unis et le Royaume-Uni renverse le Premier ministre Mossadegh, qui avait nationalisé le pétrole.",
+    "La [[revolution-iranienne|révolution de 1979]] chasse le chah ; l’ayatollah [[khomeini|Khomeini]] fonde une République islamique.",
+    "L’Iran affronte l’Irak dans une guerre de huit ans (1980-1988), puis les sanctions internationales liées à son programme nucléaire."
+  ],
+  "periodes": [
+    {
+      "nom": "Les Qadjars",
+      "debut": 1789,
+      "fin": 1925,
+      "resume": "La dynastie qadjare gouverne un Iran affaibli, soumis aux pressions russes et britanniques. La révolution de 1906 introduit une constitution.",
+      "evenements": [
+        { "annee": 1828, "evenement": "Perte du Caucase" },
+        { "annee": 1906, "evenement": "Constitution", "ref": "revolution-constitutionnelle-persane" }
+      ]
+    },
+    {
+      "nom": "Les Pahlavi",
+      "debut": 1925,
+      "fin": 1979,
+      "resume": "Reza Chah puis son fils modernisent l’armée, l’éducation et l’économie de façon autoritaire. Le pays, riche en pétrole, est allié des États-Unis.",
+      "evenements": [
+        { "annee": 1935, "evenement": "La Perse prend le nom d’Iran" },
+        { "annee": 1953, "evenement": "Renversement de Mossadegh", "ref": "coup-d-etat-de-1953" },
+        { "annee": 1963, "evenement": "Révolution blanche (réformes du chah)" }
+      ]
+    },
+    {
+      "nom": "La République islamique",
+      "debut": 1979,
+      "fin": 2020,
+      "resume": "Le nouveau régime impose la loi islamique et s’oppose aux États-Unis. La guerre contre l’Irak et les sanctions marquent le pays ; des mouvements de contestation sont réprimés.",
+      "evenements": [
+        { "annee": 1979, "evenement": "Révolution", "ref": "revolution-iranienne" },
+        { "annee": 1988, "evenement": "Fin de la guerre Iran-Irak" },
+        { "annee": 2009, "evenement": "Manifestations après l’élection présidentielle" }
+      ]
+    }
+  ],
+  "regimes": [
+    {
+      "id": "monarchie",
+      "nom": "Monarchie (Qadjars puis Pahlavi)",
+      "debut": 1789,
+      "fin": 1979,
+      "note": "Monarchie constitutionnelle à partir de 1906, mais souvent autoritaire."
+    },
+    {
+      "id": "republique-islamique",
+      "nom": "République islamique",
+      "debut": 1979,
+      "fin": 2020,
+      "note": "Le guide suprême, un religieux, détient l’autorité principale ; le président et le Parlement sont élus parmi des candidats autorisés."
+    }
+  ],
+  "dynasties": [
+    { "id": "qadjars", "nom": "Les Qadjars", "debut": 1789, "fin": 1925, "regime": "monarchie" },
+    {
+      "id": "pahlavi",
+      "nom": "Les Pahlavi",
+      "debut": 1925,
+      "fin": 1979,
+      "regime": "monarchie",
+      "note": "Avec le Premier ministre Mossadegh (1951-1953)."
+    },
+    {
+      "id": "guides",
+      "nom": "Les guides de la Révolution",
+      "debut": 1979,
+      "fin": 2020,
+      "regime": "republique-islamique"
+    }
+  ],
+  "societe": "La société iranienne est jeune et très urbanisée ; les femmes sont nombreuses à l’université. Le régime réprime les opposants et contrôle les mœurs, ce qui provoque régulièrement des mouvements de contestation.",
+  "economie": "Pétrole et gaz, agriculture, tapis ; l’économie est affaiblie par la guerre et les sanctions internationales.",
+  "decouvertes": [],
+  "arts": "Peinture qadjare, poésie moderne, cinéma iranien reconnu dans le monde (Abbas Kiarostami, Asghar Farhadi), tapis persans.",
+  "quotidien": "Le Norouz, le nouvel an persan au printemps, est la grande fête de l’année, avec des pique-niques et des tables de sept symboles.",
+  "heritage": [
+    {
+      "titre": "Une culture millénaire",
+      "texte": "L’Iran compte plus de 25 sites inscrits au patrimoine mondial et une grande tradition poétique (Hafez, Saadi)."
+    },
+    {
+      "titre": "Le Norouz",
+      "texte": "Le nouvel an iranien est fêté par plus de 300 millions de personnes dans le monde."
+    }
+  ],
+  "aSavoir": ["Jusqu’en 1935, les Occidentaux appelaient le pays « Perse » ; ses habitants l’appelaient déjà « Iran »."],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Histoire_de_l%27Iran",
+    { "titre": "Encyclopædia Britannica — Iran, history", "url": "https://www.britannica.com/place/Iran/History" }
+  ]
+}

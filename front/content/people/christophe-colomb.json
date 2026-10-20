@@ -1,0 +1,26 @@
+{
+  "id": "christophe-colomb",
+  "nom": "Christophe Colomb",
+  "role": "Navigateur",
+  "roles": ["Navigateur", "Vice-roi des Indes"],
+  "dates": "vers 1451 → 1506",
+  "naissance": 1451,
+  "mort": 1506,
+  "description": "Navigateur génois qui, au service des Rois catholiques, traverse l’Atlantique en 1492 en cherchant l’Asie, et atteint les Antilles : ce voyage ouvre la colonisation européenne de l’Amérique.",
+  "essentiel": [
+    "Il pense, à tort, que la Terre est assez petite pour atteindre l’Asie en naviguant vers l’ouest.",
+    "Le 12 octobre 1492, lors de son [[premier-voyage-de-colomb|premier voyage]], il débarque aux Bahamas.",
+    "Il fait quatre voyages et reste persuadé d’avoir atteint l’Asie.",
+    "Gouverneur brutal d’Hispaniola, il est arrêté et renvoyé en Espagne en 1500."
+  ],
+  "chronologie": [
+    { "annee": 1492, "texte": "Premier voyage", "ref": "premier-voyage-de-colomb" },
+    { "annee": 1493, "texte": "Deuxième voyage, avec 17 navires" },
+    { "annee": 1498, "texte": "Troisième voyage : il atteint le continent" },
+    { "annee": 1506, "texte": "Mort à Valladolid" }
+  ],
+  "aSavoir": [
+    "Contrairement à une légende, les savants de son temps savaient que la Terre est ronde ; ils pensaient seulement, avec raison, que l’Asie était beaucoup plus loin."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Christophe_Colomb"
+}

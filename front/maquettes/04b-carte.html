@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Carte · Maquettes HistoMap</title>
+<link rel="stylesheet" href="assets/maquette.css">
+<style>
+  .yearbox { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; }
+  .yearbox .y { font-family: Fraunces, Georgia, serif; font-size: 34px; font-weight: 600; font-variant-numeric: tabular-nums; }
+  .axis { display: flex; justify-content: space-between; font-size: 11px; color: rgb(var(--c-muted)); margin: 6px 16px 0; font-variant-numeric: tabular-nums; }
+</style>
+</head>
+<body>
+<main class="stage">
+  <div class="phone">
+    <div class="statusbar"><span>9:41</span><span class="dots">●●● ▮</span></div>
+
+    <div class="screen">
+      <div class="appbar left"><span class="title">Carte</span><a class="icon-btn" href="03-recherche.html" aria-label="Rechercher"><svg data-i="search"></svg></a></div>
+
+      <div class="carousel" style="margin:10px 0 0;padding:4px 16px 6px">
+        <span class="chip">Préhistoire</span><span class="chip on">Antiquité</span><span class="chip">Moyen Âge</span><span class="chip">Moderne</span><span class="chip">Contemporaine</span>
+      </div>
+
+      <!-- Année : choisit le fond de carte le plus proche -->
+      <div class="pad" style="margin-top:8px">
+        <div class="yearbox"><span class="y" data-year-label>100</span><a class="ref" style="font-size:13px" href="04-frise.html">Voir sur la frise</a></div>
+        <input type="range" min="-1000" max="476" step="1" value="100" data-year-range aria-label="Année">
+      </div>
+
+      <div>
+        <img src="assets/carte-monde-100.svg" alt="Carte du monde en l'an 100" style="display:block;width:100%;margin-top:6px">
+        <p class="muted pad" style="font-size:12.5px;margin-top:8px">Carte historique la plus proche : 100. Touchez un territoire pour son aperçu.</p>
+        <div class="section">
+          <p class="eyebrow" style="margin-bottom:8px">Sur cette carte · 6 civilisations</p>
+          <div style="display:flex;gap:8px;flex-wrap:wrap">
+            <button class="chip" data-ref="rome"><span style="width:9px;height:9px;border-radius:99px;background:#8e44ad"></span> Rome antique</button>
+            <button class="chip" data-ref="x" data-type="civ" data-nom="Chine (Qin & Han)" data-dates="−221 → 220" data-resume="Unification de la Chine par Qin Shi Huang, puis quatre siècles de dynastie Han."><span style="width:9px;height:9px;border-radius:99px;background:#e67e22"></span> Chine (Qin & Han)</button>
+            <button class="chip" data-ref="x" data-type="civ" data-nom="Royaume de Koush" data-dates="−1070 → 350" data-resume="Royaume nubien, au sud de l'Égypte."><span style="width:9px;height:9px;border-radius:99px;background:#a0522d"></span> Koush</button>
+            <button class="chip" data-ref="x" data-type="civ" data-nom="Royaume d'Aksoum" data-dates="100 → 476" data-resume="Royaume commerçant d'Éthiopie."><span style="width:9px;height:9px;border-radius:99px;background:#7b1fa2"></span> Aksoum</button>
+            <button class="chip" data-ref="x" data-type="civ" data-nom="Teotihuacán" data-dates="−100 → vers 550-650" data-resume="Immense cité du Mexique central."><span style="width:9px;height:9px;border-radius:99px;background:#117a65"></span> Teotihuacán</button>
+            <button class="chip" data-ref="x" data-type="civ" data-nom="Culture Nazca" data-dates="−200 → vers 600-650" data-resume="Culture du sud du Pérou."><span style="width:9px;height:9px;border-radius:99px;background:#ba9c07"></span> Nazca</button>
+          </div>
+        </div>
+      </div>
+      <div class="footer-space"></div>
+    </div>
+
+    <nav class="tabbar" aria-label="Navigation principale">
+      <a href="02-accueil.html"><svg data-i="home"></svg>Accueil</a>
+      <a href="04-frise.html"><svg data-i="timeline"></svg>Frise</a>
+      <a href="04b-carte.html" aria-current="page"><svg data-i="globe"></svg>Carte</a>
+      <a href="09-guerres.html"><svg data-i="swords"></svg>Guerres</a>
+      <a href="10-reviser.html"><svg data-i="cards"></svg>Réviser</a>
+    </nav>
+  </div>
+
+  <aside class="notes">
+    <a class="back" href="index.html"><svg data-i="arrowLeft" class="sm"></svg> Toutes les maquettes</a>
+    <p class="eyebrow">Maquette 04b · Décision : onglets séparés</p>
+    <h1>Carte</h1>
+    <p>La carte actuelle est conservée (curseur du temps, territoires, conflits). Ce qui s'y ajoute :</p>
+    <ul>
+      <li><b>« Voir sur la frise »</b> à côté de l'année : même année, autre onglet.</li>
+      <li><b>« Sur cette carte »</b> : les civilisations visibles, en raccourcis.</li>
+      <li>Toucher un territoire ouvre le même aperçu que la frise, puis la nouvelle fiche.</li>
+    </ul>
+    <div class="tools"><button class="btn btn-secondary" data-theme-toggle><svg data-i="moon" class="sm"></svg> Thème</button></div>
+  </aside>
+</main>
+<script src="assets/maquette.js"></script>
+</body>
+</html>

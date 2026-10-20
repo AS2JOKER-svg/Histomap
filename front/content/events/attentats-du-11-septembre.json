@@ -1,0 +1,15 @@
+{
+  "id": "attentats-du-11-septembre",
+  "nom": "Attentats du 11 septembre 2001",
+  "annee": 2001,
+  "dates": "11 septembre 2001",
+  "lieu": "New York, Washington et Pennsylvanie",
+  "description": "Des terroristes du groupe Al-Qaïda détournent quatre avions de ligne et les lancent contre les tours jumelles du World Trade Center et le Pentagone ; près de 3 000 personnes sont tuées.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "Les États-Unis lancent une « guerre contre le terrorisme » : intervention en Afghanistan (2001) puis en Irak (2003)."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Attentats_du_11_septembre_2001"
+}

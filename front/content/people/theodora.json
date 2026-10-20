@@ -1,0 +1,20 @@
+{
+  "id": "theodora",
+  "nom": "Théodora",
+  "role": "Impératrice byzantine",
+  "roles": ["Impératrice"],
+  "dates": "vers 500 → 548",
+  "naissance": 500,
+  "mort": 548,
+  "description": "Fille d’un dresseur d’ours de l’hippodrome, ancienne actrice, elle épouse Justinien et devient l’une des femmes les plus puissantes de son temps.",
+  "essentiel": [
+    "Lors de la [[sedition-nika|sédition Nika]], elle aurait déclaré que « la pourpre est un beau linceul », pour convaincre Justinien de rester et de combattre.",
+    "Elle soutient des lois protégeant les femmes, notamment contre la prostitution forcée.",
+    "Une célèbre mosaïque de Ravenne la représente avec sa cour."
+  ],
+  "liens": [{ "ref": "justinien-ier", "relation": "Son époux" }],
+  "aSavoir": [
+    "Presque tout ce que l’on sait de sa jeunesse vient de l’Histoire secrète de Procope, un texte très hostile."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Th%C3%A9odora_(imp%C3%A9ratrice,_%C3%A9pouse_de_Justinien_Ier)"
+}

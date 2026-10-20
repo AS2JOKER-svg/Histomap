@@ -1,0 +1,18 @@
+{
+  "id": "atahualpa",
+  "nom": "Atahualpa",
+  "role": "Dernier Sapa Inca",
+  "roles": ["Sapa Inca"],
+  "dates": "vers 1502 → 1533",
+  "naissance": 1502,
+  "mort": 1533,
+  "description": "Fils de Huayna Cápac, il remporte la guerre civile contre son frère Huáscar, mais est capturé par Pizarro à Cajamarca et exécuté en 1533.",
+  "essentiel": [
+    "Il bat l’armée de Huáscar en 1532.",
+    "Il est capturé lors de l’embuscade de [[bataille-de-cajamarca|Cajamarca]].",
+    "Il promet de remplir une salle d’or et deux fois d’argent pour sa liberté.",
+    "Malgré la rançon, les Espagnols le condamnent à mort et l’exécutent par strangulation."
+  ],
+  "liens": [{ "ref": "francisco-pizarro", "relation": "Son vainqueur" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Atahualpa"
+}

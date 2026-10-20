@@ -1,0 +1,23 @@
+{
+  "id": "revolte-d-an-lushan",
+  "nom": "Révolte d’An Lushan",
+  "annee": 755,
+  "fin": 763,
+  "dates": "755 → 763",
+  "lieu": "Nord de la Chine",
+  "description": "Le général An Lushan, gouverneur de plusieurs provinces frontalières, se révolte contre les Tang et s’empare des deux capitales. Huit ans de guerre civile s’ensuivent.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Fin 755, les rebelles prennent Luoyang, puis Chang’an en 756. L’empereur Xuanzong s’enfuit vers le Sichuan ; en chemin, ses soldats exigent la mort de sa favorite Yang Guifei. Avec l’aide de cavaliers ouïghours, les Tang reprennent peu à peu le dessus."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "La dynastie survit, mais elle doit laisser une grande autonomie aux gouverneurs militaires des provinces et perd ses positions en Asie centrale. Elle ne retrouve jamais sa puissance d’avant."
+    }
+  ],
+  "aSavoir": [
+    "On a longtemps avancé des dizaines de millions de morts d’après la chute des recensements ; les historiens estiment qu’elle reflète surtout l’effondrement de l’administration."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/R%C3%A9volte_d%27An_Lushan"
+}

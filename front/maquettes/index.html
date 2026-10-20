@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Maquettes HistoMap · Sprint 10A</title>
+<link rel="stylesheet" href="assets/maquette.css">
+</head>
+<body style="background:rgb(var(--c-bg))">
+<main class="doc">
+  <p class="eyebrow">Sprint 10A · Maquettes validées le 19 octobre 2026</p>
+  <h1>La nouvelle HistoMap</h1>
+  <p class="lead">Cinq onglets, une fiche unique par civilisation accessible de partout, des fiches liées pour les personnes, les événements et les découvertes, une recherche globale. Chaque écran a <b>une seule action principale</b>.</p>
+  <div class="note-card card" style="padding:16px 18px;margin-top:20px">
+    <p><b>Mode d'emploi.</b> Ouvrez un écran et touchez tout : onglets de la fiche, mots soulignés en pointillé (aperçu des fiches liées), noms des dirigeants, barres de la frise, curseur d'année. Le bouton « Thème » de chaque page montre le mode sombre. Les cartes sont les vraies (fonds de l'an 100, de −200 et de 400, couleurs des fiches).</p>
+    <p style="margin-top:8px" class="muted">Le contenu de Rome et de César est rédigé avec soin, mais il sert d'exemple : il sera vérifié ligne à ligne au sprint 11.</p>
+  </div>
+
+  <h2>Arborescence</h2>
+  <div class="tree">
+    <div class="col">
+      <h3><svg data-i="home" class="sm"></svg> Accueil</h3>
+      <ul><li>« Continuer » (action principale)</li><li>Recherche</li><li>4 portes : Frise, Carte, Guerres, Réviser</li><li>Progression en 3 chiffres</li><li><i>1er lancement : 3 écrans</i></li></ul>
+    </div>
+    <div class="col">
+      <h3><svg data-i="timeline" class="sm"></svg> Frise</h3>
+      <ul><li>Frise actuelle conservée</li><li>Curseur d'année (ligne verticale)</li><li>Barre → aperçu → fiche</li><li>« Voir sur la carte »</li></ul>
+    </div>
+    <div class="col">
+      <h3><svg data-i="globe" class="sm"></svg> Carte</h3>
+      <ul><li>Carte actuelle conservée</li><li>« Sur cette carte » : raccourcis</li><li>Territoire → aperçu → fiche</li><li>« Voir sur la frise »</li></ul>
+    </div>
+    <div class="col">
+      <h3><svg data-i="swords" class="sm"></svg> Guerres <span class="badge war">nouveau</span></h3>
+      <ul><li>Guerre à la une</li><li>Liste par époque, « camp contre camp »</li><li>Page d'une guerre : sprint Guerres A</li></ul>
+    </div>
+    <div class="col">
+      <h3><svg data-i="cards" class="sm"></svg> Réviser</h3>
+      <ul><li>Chapitre conseillé (action principale)</li><li>Quiz à retravailler</li><li>Époque → chapitre → quiz (inchangés)</li></ul>
+    </div>
+  </div>
+  <div class="tree-everywhere">
+    <b>Accessible de partout</b> (sans être un onglet) : la <b>fiche civilisation</b> (6 onglets), les <b>fiches liées</b> (personne, événement, découverte, chacune partagée par toutes les fiches qui la citent) et la <b>recherche globale</b>. Un mot souligné ouvre un aperçu sur place ; « Ouvrir la fiche » mène à la fiche complète.
+  </div>
+
+  <h2>Les écrans</h2>
+  <div class="grid">
+    <a class="card screen-card" href="01-bienvenue.html"><span class="num">01</span><p style="font-weight:600;margin-top:4px">Premier lancement</p><p class="muted" style="font-size:14px">3 écrans à la place de la fenêtre de bienvenue.</p></a>
+    <a class="card screen-card" href="02-accueil.html"><span class="num">02</span><p style="font-weight:600;margin-top:4px">Accueil</p><p class="muted" style="font-size:14px">« Continuer », recherche, 4 portes, progression.</p></a>
+    <a class="card screen-card" href="03-recherche.html"><span class="num">03</span><p style="font-weight:600;margin-top:4px">Recherche globale</p><p class="muted" style="font-size:14px">Civilisations, personnes, guerres, événements, découvertes.</p></a>
+    <a class="card screen-card" href="04-frise.html"><span class="num">04</span><p style="font-weight:600;margin-top:4px">Frise</p><p class="muted" style="font-size:14px">La frise actuelle, avec un curseur d'année.</p></a>
+    <a class="card screen-card" href="04b-carte.html"><span class="num">04b</span><p style="font-weight:600;margin-top:4px">Carte</p><p class="muted" style="font-size:14px">La carte actuelle, reliée à la frise.</p></a>
+    <a class="card screen-card" href="05-fiche-civilisation.html"><span class="num">05</span><p style="font-weight:600;margin-top:4px">Fiche civilisation <span class="badge civ">demandes 1 et 3</span></p><p class="muted" style="font-size:14px">Rome : Résumé, Histoire, Dirigeants, Société, Guerres, Carte.</p></a>
+    <a class="card screen-card" href="06-fiche-personne.html"><span class="num">06</span><p style="font-weight:600;margin-top:4px">Fiche personne <span class="badge person">demande 2</span></p><p class="muted" style="font-size:14px">Jules César.</p></a>
+    <a class="card screen-card" href="07-fiche-evenement.html"><span class="num">07</span><p style="font-weight:600;margin-top:4px">Fiche événement <span class="badge event">demande 2</span></p><p class="muted" style="font-size:14px">L'assassinat de César : contexte, déroulement, conséquences.</p></a>
+    <a class="card screen-card" href="08-fiche-decouverte.html"><span class="num">08</span><p style="font-weight:600;margin-top:4px">Fiche découverte <span class="badge discovery">demande 2</span></p><p class="muted" style="font-size:14px">Le calendrier julien, avec son schéma.</p></a>
+    <a class="card screen-card" href="09-guerres.html"><span class="num">09</span><p style="font-weight:600;margin-top:4px">Guerres</p><p class="muted" style="font-size:14px">Le nouvel onglet.</p></a>
+    <a class="card screen-card" href="10-reviser.html"><span class="num">10</span><p style="font-weight:600;margin-top:4px">Réviser</p><p class="muted" style="font-size:14px">« On avance », renommé et recentré.</p></a>
+  </div>
+
+  <h2>Tes trois demandes</h2>
+  <table>
+    <tr><th style="width:28%">Demande</th><th>Réponse dans les maquettes</th></tr>
+    <tr><td><b>1. Des fiches plus claires et plus développées</b></td><td>Fiche en 6 onglets (maquette 05). Le Résumé suit une pyramide inversée : en une phrase → repères (9 cases identiques pour toutes les civilisations) → l'essentiel en 5 points → 5 dates → personnages → héritage → à savoir → sources. Le détail est rangé dans Histoire (périodes), Société (6 rubriques), Guerres et Carte.</td></tr>
+    <tr><td><b>2. Noms, dates et découvertes cliquables</b></td><td>Mots soulignés en pointillé dans tous les textes → aperçu sur place → fiche complète (maquettes 06, 07, 08). Chaque fiche liée est unique et partagée ; « Apparaît dans » est calculé automatiquement (déjà en place depuis le sprint 9).</td></tr>
+    <tr><td><b>3. Tous les dirigeants, de façon agréable</b></td><td>Onglet Dirigeants (maquette 05) : bandeau des régimes, puis tous les dirigeants par dynastie, chacun avec une barre proportionnelle à son règne. Les régimes sans chef unique (République romaine, républiques modernes, cités marchandes…) sont expliqués et illustrés par leurs grandes figures. Les règnes légendaires sont signalés « selon la tradition ».</td></tr>
+  </table>
+
+  <h2>La structure d'une fiche civilisation</h2>
+  <p>Inspirée de l'encadré « ancien pays » de Wikipédia (repères comparables d'une fiche à l'autre), des encyclopédies grand public (Britannica, World History Encyclopedia : définition en tête, puis sections) et des manuels scolaires français (périodes ; contexte, déroulement, conséquences).</p>
+  <table>
+    <tr><th style="width:22%">Bloc</th><th>Contenu</th><th style="width:34%">Pourquoi</th></tr>
+    <tr><td>En une phrase</td><td>Nom, dates, durée, définition en 25 mots maximum</td><td>Savoir de quoi on parle en 5 secondes</td></tr>
+    <tr><td>Repères</td><td>Capitale, régimes, langue, religion, apogée, population, monnaie, durée, pays actuels</td><td>Comparer deux civilisations ; alimente le quiz</td></tr>
+    <tr><td>L'essentiel</td><td>5 points</td><td>Ce qu'il faut retenir, sans plus</td></tr>
+    <tr><td>5 dates</td><td>Les 5 dates à retenir, cliquables</td><td>Ossature chronologique minimale</td></tr>
+    <tr><td>Personnages</td><td>5 à 8 personnes clés, cliquables</td><td>Incarner l'histoire</td></tr>
+    <tr><td>Héritage</td><td>Ce qu'il en reste aujourd'hui</td><td>Relier au quotidien de l'élève</td></tr>
+    <tr><td>À savoir</td><td>Légendes, débats, idées reçues</td><td>Rigueur, confiance des profs et des parents</td></tr>
+    <tr><td>Sources</td><td>2 à 4 références + « Signaler une erreur »</td><td>Crédibilité d'un produit payant</td></tr>
+    <tr><td>Onglets</td><td>Histoire (périodes), Dirigeants, Société (société, économie, religions, sciences, arts, vie quotidienne), Guerres, Carte</td><td>Creuser sans alourdir le résumé</td></tr>
+  </table>
+
+  <h2>Données à ajouter au sprint 11</h2>
+  <p>Champs nouveaux des fiches <code>content/civs/&lt;id&gt;.json</code> : <code>enUnePhrase</code>, <code>reperes</code> (9 cases), <code>essentiel</code> (5 points), <code>periodes</code> (nom, début, fin, résumé, événements liés), <code>societe</code> (6 rubriques), <code>heritage</code>, <code>aSavoir</code>, <code>sources</code>. Déjà prêts depuis le sprint 9 : <code>dynasties</code>, liens <code>[[id]]</code>, fiches liées (<code>people/</code>, <code>events/</code>, <code>discoveries/</code>), « apparaît dans ». À ajouter : une note par régime pour les pouvoirs collégiaux, un schéma pour les découvertes.</p>
+
+  <h2>Ce qui ne change pas</h2>
+  <ul>
+    <li>Les chapitres de révision, les cartes à faire glisser, le quiz sur 20 et la progression enregistrée.</li>
+    <li>Les anciens liens : <code>#/frise/…</code>, <code>#/carte</code>, <code>#/reviser/…</code>.</li>
+    <li>100 % hors ligne, aucun compte, aucun pistage. Accessibilité : contraste AA dans les deux thèmes, zones tactiles d'au moins 44 px, aperçus fermables au clavier (Échap).</li>
+  </ul>
+
+  <h2>Décisions (19 octobre 2026)</h2>
+  <table>
+    <tr><th style="width:36%">Question</th><th>Décision</th></tr>
+    <tr><td>6 onglets dans la fiche, « Réviser » en bouton fixe</td><td><b>Oui</b></td></tr>
+    <tr><td>Les 9 repères</td><td><b>Oui</b> : capitale, régimes, langues, religion, apogée, population, monnaie, durée, aujourd'hui</td></tr>
+    <tr><td>Quiz express sur les fiches liées</td><td><b>Plus tard</b>, dans un sprint dédié. En attendant, l'action principale des fiches liées est « Voir sur la frise ».</td></tr>
+    <tr><td>Frise et carte réunies dans « Explorer »</td><td><b>Non</b> : deux onglets séparés, plus clairs. Barre du bas à 5 onglets.</td></tr>
+    <tr><td>« On avance » devient « Réviser »</td><td><b>Oui</b></td></tr>
+    <tr><td>Portraits (images)</td><td><b>Non</b> : trop lourd. Initiales et liens Wikipédia.</td></tr>
+  </table>
+</main>
+<script src="assets/maquette.js"></script>
+</body>
+</html>

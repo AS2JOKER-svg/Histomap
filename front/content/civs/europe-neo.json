@@ -1,0 +1,123 @@
+{
+  "id": "europe-neo",
+  "label": "Europe néolithique",
+  "tier": 1,
+  "region": "europe-centrale",
+  "period": "-6 000 à -2 200",
+  "start": -6000,
+  "end": -2200,
+  "color": "#8fae9a",
+  "trackId": "europe_occidentale",
+  "row": 1,
+  "isRiver": false,
+  "capitale": "Villages lacustres et agro-pastoraux",
+  "description": "La « révolution néolithique » : l'Europe adopte l'agriculture, se sédentarise, et voit l'émergence des premières sociétés inégalitaires.",
+  "territories": ["Funnel-Beaker", "Dimini", "Stentinello culture", "La Almagra culture", "Narva"],
+  "datesCles": [
+    {
+      "annee": -5500,
+      "evenement": "Courant Danubien",
+      "info": "L'agriculture, arrivée du Proche-Orient par les Balkans, remonte la vallée du Danube (culture rubanée)."
+    },
+    {
+      "annee": -5500,
+      "evenement": "Courant Cardial",
+      "info": "Seconde voie de colonisation agricole, par la mer, le long des côtes méditerranéennes."
+    },
+    {
+      "annee": -3500,
+      "evenement": "Premiers chariots à roues",
+      "info": "La [[roue]] apparaît presque en même temps en Europe et au Proche-Orient ; l’une des plus anciennes représentations de chariot vient de Bronocice, en Pologne."
+    },
+    {
+      "annee": -3300,
+      "evenement": "Mort d'Ötzi",
+      "info": "L’homme des glaces, retrouvé momifié dans les Alpes en 1991, a été tué par une flèche."
+    }
+  ],
+  "dirigeants": [],
+  "personnages": [
+    {
+      "nom": "Ötzi",
+      "role": "L’homme des glaces",
+      "description": "Momie naturelle retrouvée en 1991 dans un glacier des Alpes : son corps et son équipement renseignent sur la vie à l’âge du cuivre.",
+      "dates": "mort vers −3300",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/%C3%96tzi",
+      "ref": "otzi"
+    }
+  ],
+  "guerres": [],
+  "sciences": "Le mode de vie bascule : la forêt européenne est massivement défrichée à la hache de pierre polie pour créer des champs de blé et de lentilles. C'est l'apparition de la poterie utilitaire (pour stocker le grain), de la vannerie, du tissage (lin et laine), et plus tard de la première métallurgie (le cuivre). L'homme modifie pour la première fois son environnement à grande échelle.",
+  "croyancesText": "Les sociétés agricoles développent un culte fort lié à la fertilité et au cycle des saisons. Des figurines féminines, parfois appelées « déesses-mères », se multiplient, sans que l’on sache précisément ce qu’elles représentaient. Le rapport à la mort change avec l'apparition de nécropoles, marquant l'attachement d'un clan à un territoire fixe.",
+  "diplomatie": "La sédentarisation entraîne la notion de propriété (terre, bétail, réserves de grain). Cette accumulation de richesses crée les premières tensions territoriales et de classes sociales. On voit apparaître les premières fortifications de villages (palissades, fossés) et l'archéologie révèle des charniers liés à des massacres de villages entiers (comme le site de Talheim en Allemagne).",
+  "documentaires": [],
+  "reperes": {
+    "capitale": { "valeur": "Aucune", "precision": "villages de maisons longues, puis villages fortifiés" },
+    "regimes": { "valeur": "Communautés villageoises", "precision": "des chefferies apparaissent à la fin de la période" },
+    "langues": {
+      "valeur": "Inconnues",
+      "precision": "les langues indo-européennes arrivent sans doute à la fin de la période"
+    },
+    "religion": {
+      "valeur": "Inconnue",
+      "precision": "figurines, sépultures et monuments suggèrent des cultes des ancêtres et de la fertilité"
+    },
+    "monnaie": { "valeur": "Aucune", "precision": "échanges de haches polies, de coquillages, puis de cuivre" },
+    "duree": { "valeur": "Environ 4 000 ans" },
+    "aujourdhui": { "valeur": "Toute l’Europe" }
+  },
+  "essentiel": [
+    "L’agriculture et l’élevage, nés au Proche-Orient lors de la [[revolution-neolithique|révolution néolithique]], gagnent l’Europe à partir de −6500 environ, par les Balkans et la Méditerranée.",
+    "La génétique montre qu’ils sont surtout apportés par des paysans venus d’Anatolie, qui se mêlent peu à peu aux chasseurs-cueilleurs locaux.",
+    "Villages, maisons longues, poterie, haches polies et tissage transforment la vie quotidienne.",
+    "Les premiers objets en cuivre apparaissent ; [[otzi|Ötzi]] porte une hache en cuivre.",
+    "Vers −3000, des populations venues des steppes de l’est se répandent en Europe et transforment son peuplement."
+  ],
+  "periodes": [
+    {
+      "nom": "Les premiers paysans",
+      "debut": -6500,
+      "fin": -5000,
+      "resume": "Venus d’Anatolie, des paysans s’installent en Grèce et dans les Balkans, puis remontent le Danube (culture rubanée) et longent la Méditerranée (culture cardiale).",
+      "evenements": [
+        { "annee": -5500, "evenement": "Culture rubanée en Europe centrale" },
+        { "annee": -5000, "evenement": "Massacre de Talheim (Allemagne)" }
+      ]
+    },
+    {
+      "nom": "L’Europe des villages",
+      "debut": -5000,
+      "fin": -3500,
+      "resume": "Les paysans occupent tout le continent. Les communautés grandissent, s’entourent parfois de fossés et de palissades, et dressent sur la façade atlantique les premiers mégalithes."
+    },
+    {
+      "nom": "L’âge du cuivre",
+      "debut": -3500,
+      "fin": -2200,
+      "resume": "Le cuivre, la roue et l’araire se diffusent. Vers −3000, des éleveurs des steppes (culture Yamna) s’étendent vers l’ouest ; les cultures « cordées » puis « campaniformes » couvrent une grande partie de l’Europe.",
+      "evenements": [
+        { "annee": -3500, "evenement": "Premiers chariots à roues" },
+        { "annee": -3300, "evenement": "Mort d’Ötzi dans les Alpes" }
+      ]
+    }
+  ],
+  "societe": "Les villages regroupent quelques familles dans de grandes maisons en bois. L’accumulation de réserves et de bétail crée des inégalités : certaines tombes sont bien plus riches que d’autres. Des massacres, comme à Talheim, montrent que la violence existe.",
+  "economie": "Blé, orge, pois et lentilles sont cultivés ; on élève bœufs, moutons, chèvres et porcs. On défriche la forêt à la hache de pierre polie. Les haches en jadéite des Alpes circulent jusqu’en Écosse.",
+  "decouvertes": ["roue"],
+  "arts": "Poteries décorées (rubanées, cardiales), figurines féminines, statues-menhirs et grands monuments de pierre témoignent de traditions artistiques variées selon les régions.",
+  "quotidien": "Les journées suivent le calendrier agricole : semailles, récoltes, soins aux bêtes. On file la laine et le lin, on cuit le pain et les bouillies, on stocke le grain dans des fosses et des jarres.",
+  "heritage": [
+    {
+      "titre": "Nos paysages",
+      "texte": "Champs, villages et forêts défrichées : le paysage agricole européen est né au Néolithique."
+    },
+    {
+      "titre": "Nos gènes",
+      "texte": "Les Européens actuels descendent à la fois des chasseurs-cueilleurs, des premiers paysans venus d’Anatolie et des éleveurs des steppes."
+    }
+  ],
+  "aSavoir": [
+    "Les « déesses-mères » souvent évoquées sont une interprétation : on ne sait pas vraiment ce que représentaient ces figurines."
+  ],
+  "sources": ["https://fr.wikipedia.org/wiki/N%C3%A9olithique", "https://fr.wikipedia.org/wiki/Europe_n%C3%A9olithique"]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "peste-noire",
+  "nom": "La peste noire",
+  "annee": 1347,
+  "fin": 1352,
+  "dates": "1347 → 1352",
+  "lieu": "Europe, Proche-Orient, Afrique du Nord",
+  "description": "Une épidémie de peste venue d’Asie centrale ravage l’Europe : elle tue entre un tiers et la moitié de la population en quelques années.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Arrivée par la mer Noire et la Méditerranée, la maladie touche Marseille fin 1347, puis tout le royaume en 1348. Elle se transmet par les puces des rats et, dans sa forme pulmonaire, d’homme à homme."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Des villages se vident, les salaires augmentent faute de bras, les récoltes manquent. La peste revient régulièrement pendant des siècles. La peur provoque aussi des persécutions, notamment contre les Juifs."
+    }
+  ],
+  "aSavoir": ["La bactérie responsable, Yersinia pestis, n’a été identifiée qu’en 1894, par Alexandre Yersin."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Peste_noire"
+}

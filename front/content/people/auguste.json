@@ -1,0 +1,30 @@
+{
+  "id": "auguste",
+  "nom": "Auguste",
+  "nomComplet": "Caius Octavius, puis Caius Julius Caesar Octavianus Augustus",
+  "role": "Premier empereur romain",
+  "roles": ["Empereur"],
+  "dates": "−63 → 14",
+  "naissance": -63,
+  "mort": 14,
+  "description": "Petit-neveu et fils adoptif de César, vainqueur des guerres civiles, il fonde l’Empire en −27 tout en gardant l’apparence de la République.",
+  "reperes": [
+    { "label": "Naissance", "valeur": "23 septembre −63", "precision": "Rome" },
+    { "label": "Mort", "valeur": "19 août 14", "precision": "Nola (Campanie)" },
+    { "label": "Règne", "valeur": "−27 → 14", "precision": "plus de quarante ans" }
+  ],
+  "essentiel": [
+    "Il venge César et bat ses rivaux, dont Marc Antoine et Cléopâtre à Actium (−31).",
+    "Il invente le Principat : un pouvoir personnel sous des formes républicaines.",
+    "Son règne ouvre deux siècles de paix relative, la Pax Romana."
+  ],
+  "chronologie": [
+    { "annee": -44, "texte": "Adopté par testament par César", "ref": "assassinat-de-cesar" },
+    { "annee": -31, "texte": "Victoire d’Actium" },
+    { "annee": -27, "texte": "Reçoit du Sénat le titre d’Auguste" },
+    { "annee": 14, "texte": "Mort ; Tibère lui succède" }
+  ],
+  "liens": [{ "ref": "jules-cesar", "relation": "Grand-oncle et père adoptif" }],
+  "aSavoir": ["Le mois d’août porte son nom depuis −8."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Auguste"
+}

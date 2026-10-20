@@ -1,0 +1,18 @@
+{
+  "id": "pachacutec",
+  "nom": "Pachacútec",
+  "role": "Sapa Inca",
+  "roles": ["Sapa Inca", "Conquérant", "Bâtisseur"],
+  "dates": "vers 1418 → 1471",
+  "naissance": 1418,
+  "mort": 1471,
+  "description": "Souverain qui transforme le royaume de Cuzco en un empire, réorganise la religion et l’État, et fait rebâtir Cuzco et construire Machu Picchu.",
+  "reperes": [{ "label": "Règne", "valeur": "1438 → 1471" }],
+  "essentiel": [
+    "Il repousse l’attaque des Chancas contre Cuzco, abandonnée par son père.",
+    "Il conquiert une grande partie des Andes centrales.",
+    "Il fait de Cuzco une capitale de pierre et fait bâtir [[machu-picchu|Machu Picchu]].",
+    "Il organise le culte du Soleil et l’administration de l’empire."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Pachacutec"
+}

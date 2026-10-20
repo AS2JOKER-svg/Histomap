@@ -1,0 +1,17 @@
+{
+  "id": "ghezo",
+  "nom": "Ghézo",
+  "role": "Roi du Dahomey",
+  "roles": ["Roi"],
+  "dates": "mort en 1858",
+  "mort": 1858,
+  "description": "Roi de 1818 à 1858, il libère le Dahomey de la tutelle d’Oyo et en fait une grande puissance régionale.",
+  "reperes": [{ "label": "Règne", "valeur": "1818 → 1858" }],
+  "essentiel": [
+    "Il prend le pouvoir en renversant son frère Adandozan, avec l’aide du négrier Francisco Félix de Souza.",
+    "Il cesse de payer tribut à l’empire d’Oyo vers 1823.",
+    "Il renforce l’armée, dont les régiments de femmes soldats.",
+    "Il poursuit la traite tout en développant le commerce de l’huile de palme."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Gh%C3%A9zo"
+}

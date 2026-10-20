@@ -1,0 +1,22 @@
+{
+  "id": "art-rupestre-du-tassili",
+  "nom": "Art rupestre du Tassili",
+  "annee": -5000,
+  "domaine": "Art",
+  "dates": "de −10 000 environ à l’époque historique",
+  "description": "Des milliers de peintures et de gravures sur les parois du plateau du Tassili n’Ajjer, en Algérie : un témoignage unique de la vie au Sahara quand il était vert.",
+  "sections": [
+    {
+      "titre": "Ce qu’on y voit",
+      "texte": "Animaux sauvages (girafes, éléphants, rhinocéros), troupeaux de bovins, scènes de chasse et de danse, personnages masqués, puis, plus tard, chevaux et chameaux, qui montrent l’arrivée du désert."
+    }
+  ],
+  "heritage": [
+    {
+      "titre": "Patrimoine mondial",
+      "texte": "Le Tassili n’Ajjer est inscrit au patrimoine mondial de l’UNESCO depuis 1982."
+    }
+  ],
+  "aSavoir": ["L’apparition des chameaux sur les parois, au début de notre ère, marque la fin du Sahara humide."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Tassili_n%27Ajjer"
+}

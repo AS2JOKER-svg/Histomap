@@ -1,0 +1,22 @@
+{
+  "id": "guerre-de-genpei",
+  "nom": "Guerre de Genpei",
+  "annee": 1180,
+  "fin": 1185,
+  "dates": "1180 → 1185",
+  "lieu": "Japon",
+  "description": "Les deux grands clans guerriers, les Minamoto et les Taira, se disputent le pouvoir. Les Minamoto l’emportent et fondent le shogunat.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Après plusieurs années de combats, les Taira, chassés de Kyoto, sont écrasés à la bataille navale de Dan-no-ura (1185). Le jeune empereur Antoku, petit-fils de Kiyomori, se noie."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "[[minamoto-no-yoritomo|Minamoto no Yoritomo]] fonde le shogunat de Kamakura. Les récits de cette guerre, comme le Dit des Heike, nourrissent la culture japonaise."
+    }
+  ],
+  "liens": [{ "ref": "minamoto-no-yoritomo", "relation": "Le chef vainqueur" }],
+  "apres": "invasions-mongoles-du-japon",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_de_Genpei"
+}

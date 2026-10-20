@@ -1,0 +1,17 @@
+{
+  "id": "massacre-de-sharpeville",
+  "nom": "Massacre de Sharpeville",
+  "annee": 1960,
+  "dates": "21 mars 1960",
+  "lieu": "Sharpeville (Transvaal)",
+  "description": "La police tire sur une foule qui manifestait pacifiquement contre l’obligation du laissez-passer : 69 personnes sont tuées.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "Le gouvernement interdit l’ANC et les autres mouvements noirs, qui passent à la lutte armée. Le 21 mars est devenu la Journée internationale pour l’élimination de la discrimination raciale."
+    }
+  ],
+  "avant": "apartheid",
+  "apres": "soulevement-de-soweto",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Massacre_de_Sharpeville"
+}

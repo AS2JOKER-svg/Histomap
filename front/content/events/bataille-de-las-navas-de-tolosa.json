@@ -1,0 +1,15 @@
+{
+  "id": "bataille-de-las-navas-de-tolosa",
+  "nom": "Bataille de Las Navas de Tolosa",
+  "annee": 1212,
+  "dates": "16 juillet 1212",
+  "lieu": "Sierra Morena (Andalousie)",
+  "description": "Les armées de Castille, d’Aragon et de Navarre, avec des croisés venus d’Europe, écrasent l’armée du calife almohade.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "La puissance almohade s’effondre. En quarante ans, Cordoue, Séville et Valence tombent aux mains des chrétiens ; seul le royaume de Grenade subsiste."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Las_Navas_de_Tolosa"
+}

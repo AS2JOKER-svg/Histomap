@@ -1,0 +1,29 @@
+{
+  "id": "assassinat-de-cesar",
+  "nom": "Assassinat de César",
+  "annee": -44,
+  "dates": "15 mars 44 av. J.-C.",
+  "lieu": "Curie de Pompée, Rome",
+  "description": "Des sénateurs attachés à la République poignardent [[jules-cesar|Jules César]] en pleine séance du Sénat. Ils veulent sauver la République : ils précipitent sa fin.",
+  "sections": [
+    {
+      "titre": "Contexte",
+      "texte": "Vainqueur de la guerre civile, César cumule les pouvoirs. Vers février −44, il est nommé dictateur à vie. Pour une partie des sénateurs, il se comporte en roi, un titre détesté à Rome depuis −509."
+    },
+    {
+      "titre": "Déroulement",
+      "texte": "Le 15 mars, une soixantaine de conjurés menés par Brutus et Cassius l’entourent dans la curie de Pompée, où siège le Sénat. Selon l’historien Suétone, il reçoit 23 coups de poignard."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Le meurtre relance la guerre civile. [[auguste|Octave]], fils adoptif de César, et Marc Antoine battent les conjurés à Philippes (−42), puis s’affrontent. Vainqueur à Actium (−31), Octave devient Auguste en −27 : l’Empire commence."
+    }
+  ],
+  "liens": [{ "ref": "jules-cesar", "relation": "La victime" }, { "ref": "auguste", "relation": "Son héritier" }],
+  "avant": "passage-du-rubicon",
+  "aSavoir": [
+    "« Tu quoque, mi fili » (« Toi aussi, mon fils ») est une formule tardive. Suétone écrit que César mourut sans un mot, tout en signalant que certains lui prêtaient une phrase en grec.",
+    "Les ides désignent le milieu du mois dans le calendrier romain : le 15 en mars."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Assassinat_de_Jules_C%C3%A9sar"
+}

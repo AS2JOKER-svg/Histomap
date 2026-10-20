@@ -1,0 +1,18 @@
+{
+  "id": "deng-xiaoping",
+  "nom": "Deng Xiaoping",
+  "role": "Dirigeant de la Chine",
+  "roles": ["Dirigeant suprême"],
+  "dates": "1904 → 1997",
+  "naissance": 1904,
+  "mort": 1997,
+  "description": "Dirigeant communiste écarté pendant la Révolution culturelle, il prend le pouvoir après la mort de Mao et lance les réformes qui ouvrent la Chine à l’économie de marché.",
+  "essentiel": [
+    "Il lance en 1978 les « quatre modernisations ».",
+    "Il crée des zones économiques spéciales ouvertes aux investisseurs étrangers.",
+    "Il approuve la répression de [[massacre-de-tian-anmen|Tian’anmen]] en 1989.",
+    "Il négocie le retour de Hong Kong (1997)."
+  ],
+  "aSavoir": ["Sa formule : « Peu importe qu’un chat soit noir ou blanc, s’il attrape la souris, c’est un bon chat »."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Deng_Xiaoping"
+}

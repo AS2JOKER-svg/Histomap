@@ -1,0 +1,17 @@
+{
+  "id": "bataille-de-mohacs",
+  "nom": "Bataille de Mohács",
+  "annee": 1526,
+  "dates": "29 août 1526",
+  "lieu": "Mohács (Hongrie)",
+  "description": "L’armée de [[soliman-le-magnifique|Soliman]] écrase en deux heures l’armée hongroise ; le roi Louis II meurt en fuyant.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "Le royaume de Hongrie s’effondre et se divise entre Habsbourg et Ottomans. Pour les Hongrois, Mohács reste le symbole d’une catastrophe nationale."
+    }
+  ],
+  "liens": [{ "ref": "soliman-le-magnifique", "relation": "Le vainqueur" }],
+  "apres": "premier-siege-de-vienne",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Moh%C3%A1cs_(1526)"
+}

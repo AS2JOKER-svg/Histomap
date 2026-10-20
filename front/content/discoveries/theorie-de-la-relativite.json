@@ -1,0 +1,19 @@
+{
+  "id": "theorie-de-la-relativite",
+  "nom": "Théorie de la relativité",
+  "annee": 1905,
+  "domaine": "Physique",
+  "dates": "1905 et 1915",
+  "description": "Les théories d’[[albert-einstein|Albert Einstein]] selon lesquelles le temps et l’espace dépendent du mouvement, et la gravitation est une courbure de l’espace-temps.",
+  "sections": [
+    {
+      "titre": "Ce qu’elle dit",
+      "texte": "La relativité restreinte (1905) montre que le temps s’écoule différemment selon la vitesse et que masse et énergie sont équivalentes (E = mc²). La relativité générale (1915) explique la gravitation par la courbure de l’espace-temps."
+    },
+    {
+      "titre": "Applications",
+      "texte": "Les GPS doivent tenir compte de la relativité pour donner une position précise ; elle a permis de prévoir les trous noirs et les ondes gravitationnelles."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Relativit%C3%A9_g%C3%A9n%C3%A9rale"
+}

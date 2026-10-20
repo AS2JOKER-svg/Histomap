@@ -1,0 +1,17 @@
+{
+  "id": "benito-mussolini",
+  "nom": "Benito Mussolini",
+  "role": "Dictateur fasciste italien",
+  "roles": ["Chef du parti fasciste", "Dictateur"],
+  "dates": "1883 → 1945",
+  "naissance": 1883,
+  "mort": 1945,
+  "description": "Ancien socialiste devenu fondateur du fascisme, il prend le pouvoir en 1922, instaure une dictature, s’allie à Hitler et entraîne l’Italie dans la Seconde Guerre mondiale.",
+  "essentiel": [
+    "Il fonde les « faisceaux de combat » en 1919.",
+    "Après la [[marche-sur-rome|marche sur Rome]], le roi le nomme chef du gouvernement.",
+    "Il supprime les libertés, conquiert l’Éthiopie et adopte des lois antisémites (1938).",
+    "Renversé en 1943, il est capturé et exécuté par des résistants italiens en avril 1945."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Benito_Mussolini"
+}

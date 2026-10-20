@@ -1,0 +1,18 @@
+{
+  "id": "qianlong",
+  "nom": "Qianlong",
+  "nomComplet": "Hongli, empereur Qianlong des Qing",
+  "role": "Empereur Qing",
+  "roles": ["Empereur", "Collectionneur"],
+  "dates": "1711 → 1799",
+  "naissance": 1711,
+  "mort": 1799,
+  "description": "Empereur pendant 60 ans, il porte l’empire à sa plus grande étendue, protège les arts et refuse d’ouvrir la Chine au commerce britannique.",
+  "reperes": [{ "label": "Règne", "valeur": "1735 → 1796" }],
+  "essentiel": [
+    "Ses « dix grandes campagnes » annexent le Xinjiang et renforcent l’emprise sur le Tibet.",
+    "Il fait compiler les Quatre Magasins, une immense bibliothèque, mais aussi censurer des milliers de livres.",
+    "En 1793, il répond à l’ambassade britannique de Macartney que la Chine n’a besoin de rien."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Qianlong"
+}

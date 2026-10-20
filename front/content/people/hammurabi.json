@@ -1,0 +1,26 @@
+{
+  "id": "hammurabi",
+  "nom": "Hammurabi",
+  "role": "Roi de Babylone",
+  "roles": ["Roi", "Législateur"],
+  "dates": "règne −1792 → −1750",
+  "mort": -1750,
+  "description": "Roi de Babylone qui unifie la Mésopotamie par la guerre et la diplomatie, et fait graver l’un des plus célèbres recueils de lois de l’histoire.",
+  "reperes": [
+    { "label": "Règne", "valeur": "−1792 → −1750", "precision": "chronologie moyenne" },
+    { "label": "Capitale", "valeur": "Babylone" }
+  ],
+  "essentiel": [
+    "Petit royaume au début de son règne, Babylone domine toute la Mésopotamie à sa mort.",
+    "Il bat ses rivaux de Larsa, d’Eshnunna et de Mari.",
+    "Son [[code-de-hammurabi|code]] regroupe près de 300 décisions de justice.",
+    "Ses nombreuses lettres montrent un roi attentif à l’irrigation, aux impôts et à la justice."
+  ],
+  "chronologie": [
+    { "annee": -1792, "texte": "Devient roi de Babylone" },
+    { "annee": -1763, "texte": "Conquête de Larsa" },
+    { "annee": -1761, "texte": "Prise de Mari" },
+    { "annee": -1754, "texte": "Rédaction du code (date approximative)" }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Hammurabi"
+}

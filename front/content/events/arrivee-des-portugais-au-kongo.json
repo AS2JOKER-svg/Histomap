@@ -1,0 +1,20 @@
+{
+  "id": "arrivee-des-portugais-au-kongo",
+  "nom": "Arrivée des Portugais au Kongo",
+  "annee": 1483,
+  "dates": "1483",
+  "lieu": "Embouchure du fleuve Congo",
+  "description": "Le navigateur portugais Diogo Cão atteint l’embouchure du fleuve Congo et entre en contact avec le royaume du Kongo.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Cão envoie des messagers au roi, qui ne reviennent pas à temps ; il emmène en otage des Kongo au Portugal, puis les ramène lors d’un second voyage. Des ambassades sont alors échangées."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Le roi Nzinga a Nkuwu se fait baptiser en 1491. Les échanges commerciaux commencent, y compris, bientôt, la traite des esclaves vers les plantations portugaises."
+    }
+  ],
+  "liens": [{ "ref": "nzinga-a-nkuwu", "relation": "Le roi du Kongo" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Diogo_C%C3%A3o"
+}

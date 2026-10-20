@@ -1,0 +1,14 @@
+{
+  "id": "bashorun-gaa",
+  "nom": "Bashorun Gaa",
+  "role": "Chef du conseil d’Oyo",
+  "roles": ["Bashorun (chef des Oyo Mesi)"],
+  "dates": "mort en 1774",
+  "mort": 1774,
+  "description": "Chef du conseil des nobles d’Oyo à partir de 1754, il impose sa volonté au royaume pendant vingt ans en poussant plusieurs rois à se donner la mort, avant d’être renversé par l’alaafin Abiodun.",
+  "essentiel": [
+    "Il utilise le droit du conseil de contraindre le roi au suicide pour éliminer les souverains qui lui résistent.",
+    "En 1774, Abiodun s’allie au chef de l’armée pour le renverser ; il est exécuté."
+  ],
+  "wikiUrl": "https://en.wikipedia.org/wiki/Oyo_Empire"
+}

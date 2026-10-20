@@ -1,0 +1,23 @@
+{
+  "id": "sedition-nika",
+  "nom": "Sédition Nika",
+  "annee": 532,
+  "dates": "janvier 532",
+  "lieu": "Constantinople",
+  "description": "Une émeute née à l’hippodrome se transforme en révolte contre [[justinien-ier|Justinien]] ; elle est noyée dans le sang.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Les supporters des Bleus et des Verts, deux factions de l’hippodrome, s’unissent au cri de « Nika ! » (« Victoire ! »), incendient la ville et proclament un autre empereur. Justinien pense fuir, mais [[theodora|Théodora]] l’en dissuade. Ses généraux enferment les émeutiers dans l’hippodrome et les massacrent."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Environ 30 000 personnes sont tuées. Justinien sort renforcé et fait reconstruire la ville, dont Sainte-Sophie, détruite par l’incendie."
+    }
+  ],
+  "liens": [
+    { "ref": "justinien-ier", "relation": "L’empereur visé" },
+    { "ref": "theodora", "relation": "Elle le convainc de rester" }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/S%C3%A9dition_Nika"
+}

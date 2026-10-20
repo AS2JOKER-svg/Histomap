@@ -1,0 +1,23 @@
+{
+  "id": "ecriture-cuneiforme",
+  "nom": "Écriture cunéiforme",
+  "annee": -3300,
+  "domaine": "Écriture",
+  "dates": "vers −3300 → Ier siècle",
+  "description": "La plus ancienne écriture connue avec les hiéroglyphes égyptiens : des signes en forme de clous imprimés dans l’argile avec un roseau taillé.",
+  "sections": [
+    {
+      "titre": "Comment ça marche",
+      "texte": "Au début, les signes sont de petits dessins (une tête de bœuf, un épi). Ils deviennent peu à peu abstraits et notent aussi des sons : il en existe plusieurs centaines."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Utilisé pour au moins une quinzaine de langues (sumérien, akkadien, hittite, élamite…), le cunéiforme sert aux comptes, aux lois, aux lettres, aux prières et à la littérature."
+    }
+  ],
+  "aSavoir": [
+    "On a retrouvé des centaines de milliers de tablettes, souvent cuites par accident dans les incendies.",
+    "Il a été déchiffré au XIXe siècle, notamment grâce à l’inscription trilingue de Behistun, en Iran."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Cun%C3%A9iforme"
+}

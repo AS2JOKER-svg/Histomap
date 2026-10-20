@@ -1,0 +1,20 @@
+{
+  "id": "guerre-du-kalinga",
+  "nom": "Guerre du Kalinga",
+  "annee": -261,
+  "dates": "vers −261",
+  "lieu": "Kalinga (Odisha, Inde)",
+  "description": "La conquête du royaume du Kalinga par [[ashoka|Ashoka]] fait des centaines de milliers de victimes. Bouleversé, l’empereur se tourne vers le bouddhisme.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "On sait très peu de choses des combats. C’est Ashoka lui-même qui en donne le bilan dans son XIIIe édit : 100 000 tués, 150 000 déportés, et bien plus encore morts de leurs suites."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Ashoka renonce aux conquêtes et proclame son repentir. Le Kalinga reste cependant dans l’empire."
+    }
+  ],
+  "liens": [{ "ref": "ashoka", "relation": "Le conquérant" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_du_Kalinga"
+}

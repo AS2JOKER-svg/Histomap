@@ -1,0 +1,19 @@
+{
+  "id": "porte-du-soleil",
+  "nom": "Porte du Soleil",
+  "annee": 600,
+  "domaine": "Art et religion",
+  "dates": "vers 500-900",
+  "description": "Une porte monumentale taillée dans un seul bloc d’andésite, ornée d’une figure centrale tenant deux bâtons, entourée de personnages ailés.",
+  "sections": [
+    {
+      "titre": "Ce qu’elle représente",
+      "texte": "Le personnage central, le Dieu aux bâtons, est entouré de 48 figures ailées qui courent vers lui. Certains y voient un calendrier, une hypothèse débattue."
+    },
+    {
+      "titre": "Son histoire",
+      "texte": "Elle a sans doute été déplacée, et elle est fendue. Elle a été redressée au début du XXe siècle."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Porte_du_Soleil"
+}

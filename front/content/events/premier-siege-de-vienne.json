@@ -1,0 +1,17 @@
+{
+  "id": "premier-siege-de-vienne",
+  "nom": "Premier siège de Vienne",
+  "annee": 1529,
+  "dates": "septembre-octobre 1529",
+  "lieu": "Vienne (Autriche)",
+  "description": "[[soliman-le-magnifique|Soliman]] assiège Vienne, capitale des Habsbourg, mais doit se retirer à l’approche de l’hiver.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "Vienne marque la limite de l’avancée ottomane en Europe. Les Ottomans y reviennent en 1683, sans plus de succès."
+    }
+  ],
+  "avant": "bataille-de-mohacs",
+  "apres": "bataille-de-vienne",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Vienne_(1529)"
+}

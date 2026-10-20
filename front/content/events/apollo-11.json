@@ -1,0 +1,19 @@
+{
+  "id": "apollo-11",
+  "nom": "Apollo 11",
+  "annee": 1969,
+  "dates": "16-24 juillet 1969",
+  "lieu": "La Lune",
+  "description": "Neil Armstrong et Buzz Aldrin sont les premiers hommes à marcher sur la Lune, tandis que Michael Collins reste en orbite.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Le 21 juillet 1969, Armstrong pose le pied sur la Lune : « C’est un petit pas pour l’homme, mais un bond de géant pour l’humanité ». Des centaines de millions de personnes suivent l’événement à la télévision."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Les États-Unis remportent la course à la Lune face à l’URSS. Douze astronautes marchent sur la Lune entre 1969 et 1972."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Apollo_11"
+}

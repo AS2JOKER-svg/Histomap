@@ -1,0 +1,19 @@
+{
+  "id": "chute-des-ming",
+  "nom": "Chute des Ming",
+  "annee": 1644,
+  "dates": "avril-juin 1644",
+  "lieu": "Pékin",
+  "description": "L’armée rebelle de Li Zicheng prend Pékin ; le dernier empereur Ming se pend. Quelques semaines plus tard, les Mandchous, alliés à un général Ming, entrent dans Pékin et fondent la dynastie Qing.",
+  "sections": [
+    {
+      "titre": "Contexte",
+      "texte": "Famines, épidémies et impôts provoquent des révoltes paysannes, tandis que les Mandchous menacent la frontière nord."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Les Qing mettent près de quarante ans à conquérir toute la Chine. Ils gouvernent jusqu’en 1912."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Transition_des_Ming_aux_Qing"
+}

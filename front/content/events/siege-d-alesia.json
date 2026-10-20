@@ -1,0 +1,27 @@
+{
+  "id": "siege-d-alesia",
+  "nom": "Siège d’Alésia",
+  "annee": -52,
+  "dates": "été et automne −52",
+  "lieu": "Alise-Sainte-Reine, en Bourgogne",
+  "description": "[[jules-cesar|César]] assiège [[vercingetorix|Vercingétorix]] dans l’oppidum d’Alésia et repousse une immense armée gauloise venue le secourir : Vercingétorix se rend.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Les Romains entourent la ville de deux lignes de fortifications : l’une contre les assiégés, l’autre contre l’armée de secours. Affamés, les Gaulois échouent à briser l’encerclement."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Vercingétorix dépose les armes devant César. La Gaule est soumise en −51 et devient une province romaine."
+    }
+  ],
+  "liens": [
+    { "ref": "vercingetorix", "relation": "Le chef gaulois assiégé" },
+    { "ref": "jules-cesar", "relation": "Le vainqueur" }
+  ],
+  "avant": "bataille-de-gergovie",
+  "aSavoir": [
+    "Le lieu de la bataille a longtemps été discuté ; les fouilles réalisées à Alise-Sainte-Reine ont confirmé l’identification."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_d%27Al%C3%A9sia"
+}

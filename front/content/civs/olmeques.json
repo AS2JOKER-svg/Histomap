@@ -1,0 +1,127 @@
+{
+  "id": "olmeques",
+  "label": "Olmèques",
+  "tier": 1,
+  "region": "mesoamerique",
+  "period": "-1500 à -400",
+  "start": -1500,
+  "end": -400,
+  "color": "#16a085",
+  "trackId": "mesoamerique",
+  "row": 1,
+  "isRiver": false,
+  "capitale": "San Lorenzo / La Venta",
+  "description": "La première grande civilisation du Mexique, sur la côte du golfe : ses têtes colossales, son art du jade et son jeu de balle inspirent toute la Mésoamérique.",
+  "territories": ["Olmec"],
+  "datesCles": [
+    {
+      "annee": -1500,
+      "evenement": "Premières balles en caoutchouc",
+      "info": "Dès le milieu du IIe millénaire av. J.-C., des balles de caoutchouc sont déposées en offrande dans la source sacrée d’El Manatí."
+    },
+    {
+      "annee": -1200,
+      "evenement": "Essor de San Lorenzo",
+      "info": "Premier grand centre de la région, avec ses têtes colossales."
+    },
+    {
+      "annee": -900,
+      "evenement": "Apogée de La Venta",
+      "info": "San Lorenzo décline ; La Venta, sur une île au milieu des marais, devient le grand centre olmèque."
+    },
+    {
+      "annee": -400,
+      "evenement": "Abandon de La Venta",
+      "info": "Les grands centres sont abandonnés, peut-être à cause de changements du cours des rivières."
+    }
+  ],
+  "dirigeants": [],
+  "personnages": [
+    {
+      "nom": "Matthew Stirling",
+      "role": "Archéologue",
+      "description": "Archéologue américain qui fouille Tres Zapotes, La Venta et San Lorenzo dans les années 1930-1940 et fait connaître les têtes colossales.",
+      "dates": "1896 → 1975",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Matthew_Stirling"
+    }
+  ],
+  "guerres": [],
+  "sciences": "Les Olmèques déplacent sur des dizaines de kilomètres des blocs de basalte de plusieurs dizaines de tonnes, sans roue ni animaux de trait, sans doute sur des radeaux. Ils fabriquent des balles en caoutchouc en mélangeant le latex de l’hévéa avec le jus d’une plante. Un bloc gravé découvert à Cascajal porte peut-être la plus ancienne écriture d’Amérique, ce qui reste discuté.",
+  "croyancesText": "L’art olmèque représente des êtres mi-humains mi-animaux, notamment des figures d’enfants aux traits de jaguar. Les souverains servaient sans doute d’intermédiaires avec le monde des dieux. On enterre de grandes offrandes de jade et de serpentine, et on pratique le jeu de balle, rituel autant que sportif.",
+  "diplomatie": "Les Olmèques ne forment pas un empire, mais un réseau de centres qui échangent avec les autres régions du Mexique le jade, l’obsidienne et la magnétite. Leur style artistique est imité très loin, jusqu’au Honduras.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": { "valeur": "San Lorenzo, puis La Venta", "precision": "grands centres cérémoniels successifs" },
+    "regimes": {
+      "valeur": "Chefferies ou royautés",
+      "precision": "les têtes colossales représentent sans doute des souverains"
+    },
+    "langues": { "valeur": "Inconnue", "precision": "peut-être une langue de la famille mixe-zoque" },
+    "religion": { "valeur": "Polythéisme", "precision": "divinités mêlant traits humains et animaux, comme le jaguar" },
+    "apogee": { "valeur": "Vers −1200 à −900", "precision": "à San Lorenzo" },
+    "population": { "valeur": "Inconnue", "precision": "San Lorenzo compte peut-être 10 000 habitants" },
+    "monnaie": { "valeur": "Aucune", "precision": "échanges de jade, d’obsidienne et de cacao" },
+    "duree": { "valeur": "Environ 1 100 ans" },
+    "aujourdhui": { "valeur": "Mexique", "precision": "États de Veracruz et de Tabasco" }
+  },
+  "essentiel": [
+    "Les Olmèques vivent dans les plaines humides de la côte du golfe du Mexique.",
+    "Leurs [[tetes-colossales-olmeques|têtes colossales]] de basalte, hautes de près de 3 mètres, représentent sans doute des souverains.",
+    "Ils pratiquent déjà le [[jeu-de-balle-mesoamericain|jeu de balle]], avec des balles en caoutchouc.",
+    "Leur art et leurs symboles se retrouvent dans une grande partie du Mexique et de l’Amérique centrale.",
+    "Leurs grands centres sont abandonnés vers −400 ; Mayas et autres peuples reprennent une partie de leur héritage."
+  ],
+  "periodes": [
+    {
+      "nom": "Les débuts",
+      "debut": -1500,
+      "fin": -1200,
+      "resume": "Des villages d’agriculteurs se développent sur les rives des fleuves ; on dépose des offrandes de caoutchouc et de jade dans les sources sacrées."
+    },
+    {
+      "nom": "San Lorenzo",
+      "debut": -1200,
+      "fin": -900,
+      "resume": "Sur un plateau aménagé, les souverains font sculpter des têtes colossales et des trônes de basalte."
+    },
+    {
+      "nom": "La Venta",
+      "debut": -900,
+      "fin": -400,
+      "resume": "Le centre de La Venta s’organise autour d’une grande pyramide de terre. On y enterre des offrandes massives de jade et de serpentine."
+    }
+  ],
+  "regimes": [
+    {
+      "id": "chefferies",
+      "nom": "Chefferies ou royautés",
+      "debut": -1500,
+      "fin": -400,
+      "note": "Les têtes colossales et les trônes montrent des souverains puissants, mais on ne connaît aucun de leurs noms."
+    }
+  ],
+  "dynasties": [],
+  "societe": "Une élite dirige les grands centres, entourée d’artisans spécialisés, comme les sculpteurs de jade et de basalte. La majorité des habitants cultive le maïs et pêche dans les rivières et les marais.",
+  "economie": "Culture du maïs, des haricots et des courges, pêche et chasse, commerce à longue distance de pierres précieuses.",
+  "decouvertes": ["tetes-colossales-olmeques", "jeu-de-balle-mesoamericain"],
+  "arts": "Têtes colossales, trônes sculptés, haches et masques en jade, figurines aux visages d’enfants : l’art olmèque est l’un des plus anciens et des plus influents d’Amérique.",
+  "quotidien": "Les villages de maisons en bois et en terre bordent les rivières, qui servent de routes aux canoës.",
+  "heritage": [
+    {
+      "titre": "Une civilisation fondatrice",
+      "texte": "Jeu de balle, calendrier, culte du jaguar : de nombreux traits des civilisations mésoaméricaines apparaissent chez les Olmèques."
+    },
+    {
+      "titre": "Les têtes colossales",
+      "texte": "On en connaît 17, exposées au musée de La Venta à Villahermosa et au musée d’anthropologie de Xalapa."
+    }
+  ],
+  "aSavoir": [
+    "Le nom « Olmèque » leur a été donné bien plus tard, d’après un mot aztèque qui signifie « le peuple du pays du caoutchouc ».",
+    "Les archéologues discutent pour savoir s’ils furent la « culture mère » de la Mésoamérique, ou une culture parmi d’autres qui s’influençaient mutuellement."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Olm%C3%A8ques",
+    { "titre": "Encyclopædia Britannica — Olmec", "url": "https://www.britannica.com/topic/Olmec" }
+  ]
+}

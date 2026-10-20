@@ -1,0 +1,16 @@
+{
+  "id": "place-naqsh-e-jahan",
+  "nom": "Place Naqsh-e Jahan",
+  "annee": 1602,
+  "domaine": "Architecture",
+  "dates": "1598 → 1629",
+  "description": "L’immense place royale d’Ispahan (plus de 500 mètres de long), bordée de la mosquée Royale, de la mosquée de Cheikh Lotfollah, du palais d’Ali Qapu et du grand bazar.",
+  "sections": [
+    {
+      "titre": "À quoi elle servait",
+      "texte": "On y organise des parades, des marchés et des parties de polo, que le chah regarde depuis la terrasse du palais d’Ali Qapu."
+    }
+  ],
+  "aSavoir": ["Elle est inscrite au patrimoine mondial depuis 1979."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Place_Naghsh-e_Jahan"
+}

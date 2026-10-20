@@ -1,0 +1,18 @@
+{
+  "id": "ivan-mazepa",
+  "nom": "Ivan Mazepa",
+  "role": "Hetman des Cosaques",
+  "roles": ["Hetman"],
+  "dates": "1639 → 1709",
+  "naissance": 1639,
+  "mort": 1709,
+  "description": "Hetman pendant plus de vingt ans, d’abord fidèle allié de Pierre le Grand, il se rallie en 1708 au roi de Suède Charles XII.",
+  "reperes": [{ "label": "Hetman", "valeur": "1687 → 1709" }],
+  "essentiel": [
+    "Il protège l’Académie de Kiev et fait bâtir de nombreuses églises.",
+    "Il change d’alliance en 1708 ; les Russes rasent sa capitale, Batouryn.",
+    "Vaincu à [[bataille-de-poltava|Poltava]] avec [[charles-xii|Charles XII]], il meurt en exil."
+  ],
+  "aSavoir": ["Sa vie romanesque a inspiré Byron, Victor Hugo et Pouchkine."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Ivan_Mazepa"
+}

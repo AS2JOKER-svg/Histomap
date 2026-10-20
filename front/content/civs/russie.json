@@ -1,0 +1,354 @@
+{
+  "id": "russie",
+  "label": "Russie / URSS",
+  "tier": 1,
+  "region": "russie-europeenne",
+  "period": "1789 à 2020",
+  "start": 1789,
+  "end": 2020,
+  "trackId": "rus",
+  "row": 4,
+  "isRiver": false,
+  "capitale": "Saint-Pétersbourg / Moscou",
+  "description": "L’Empire russe des tsars, puis l’Union soviétique, premier État communiste, superpuissance de la guerre froide, et enfin la Fédération de Russie, depuis 1991.",
+  "territories": ["Russian Empire", "Russia", "USSR"],
+  "datesCles": [
+    {
+      "annee": 1812,
+      "evenement": "Campagne de Russie",
+      "info": "L’armée de Napoléon prend Moscou mais doit battre en retraite et est presque anéantie."
+    },
+    {
+      "annee": 1861,
+      "evenement": "Abolition du servage",
+      "info": "Alexandre II libère plus de 20 millions de paysans serfs.",
+      "ref": "abolition-du-servage-en-russie"
+    },
+    {
+      "annee": 1917,
+      "evenement": "La révolution d’Octobre",
+      "info": "Après la chute du tsar en février, Lénine et les bolcheviks prennent le pouvoir.",
+      "ref": "revolution-d-octobre"
+    },
+    {
+      "annee": 1922,
+      "evenement": "Création de l’URSS",
+      "info": "L’Union des républiques socialistes soviétiques est fondée."
+    },
+    {
+      "annee": 1943,
+      "evenement": "Bataille de Stalingrad",
+      "info": "La victoire soviétique marque un tournant de la guerre contre l’Allemagne nazie.",
+      "ref": "bataille-de-stalingrad"
+    },
+    {
+      "annee": 1961,
+      "evenement": "Gagarine dans l’espace",
+      "info": "Iouri Gagarine devient le premier homme à voyager dans l’espace."
+    },
+    {
+      "annee": 1991,
+      "evenement": "Chute de l’URSS",
+      "info": "Gorbatchev démissionne ; l’URSS est dissoute en quinze États.",
+      "ref": "chute-de-l-urss"
+    }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Catherine II",
+      "titre": "Impératrice",
+      "surnom": "la Grande",
+      "debut": 1762,
+      "fin": 1796,
+      "dynastie": "romanov",
+      "personne": "catherine-ii"
+    },
+    { "nom": "Paul Ier", "titre": "Empereur", "debut": 1796, "fin": 1801, "dynastie": "romanov", "note": "assassiné" },
+    {
+      "nom": "Alexandre Ier",
+      "titre": "Empereur",
+      "debut": 1801,
+      "fin": 1825,
+      "dynastie": "romanov",
+      "note": "vainqueur de Napoléon",
+      "cle": true
+    },
+    { "nom": "Nicolas Ier", "titre": "Empereur", "debut": 1825, "fin": 1855, "dynastie": "romanov" },
+    {
+      "nom": "Alexandre II",
+      "titre": "Empereur",
+      "surnom": "le Libérateur",
+      "debut": 1855,
+      "fin": 1881,
+      "dynastie": "romanov",
+      "note": "abolit le servage ; assassiné",
+      "cle": true
+    },
+    { "nom": "Alexandre III", "titre": "Empereur", "debut": 1881, "fin": 1894, "dynastie": "romanov" },
+    {
+      "nom": "Nicolas II",
+      "titre": "Empereur",
+      "debut": 1894,
+      "fin": 1917,
+      "dynastie": "romanov",
+      "note": "dernier tsar, abdique en 1917 ; exécuté avec sa famille en 1918",
+      "cle": true
+    },
+    {
+      "nom": "Vladimir Lénine",
+      "titre": "Chef du gouvernement soviétique",
+      "debut": 1917,
+      "fin": 1924,
+      "dynastie": "sovietiques",
+      "personne": "lenine",
+      "cle": true
+    },
+    {
+      "nom": "Joseph Staline",
+      "titre": "Secrétaire général du Parti communiste",
+      "debut": 1924,
+      "fin": 1953,
+      "dynastie": "sovietiques",
+      "personne": "staline",
+      "note": "dictateur",
+      "cle": true
+    },
+    {
+      "nom": "Nikita Khrouchtchev",
+      "titre": "Premier secrétaire du Parti",
+      "debut": 1953,
+      "fin": 1964,
+      "dynastie": "sovietiques",
+      "note": "dénonce les crimes de Staline"
+    },
+    {
+      "nom": "Leonid Brejnev",
+      "titre": "Secrétaire général du Parti",
+      "debut": 1964,
+      "fin": 1982,
+      "dynastie": "sovietiques"
+    },
+    {
+      "nom": "Iouri Andropov",
+      "titre": "Secrétaire général du Parti",
+      "debut": 1982,
+      "fin": 1984,
+      "dynastie": "sovietiques"
+    },
+    {
+      "nom": "Konstantin Tchernenko",
+      "titre": "Secrétaire général du Parti",
+      "debut": 1984,
+      "fin": 1985,
+      "dynastie": "sovietiques"
+    },
+    {
+      "nom": "Mikhaïl Gorbatchev",
+      "titre": "Secrétaire général, puis président de l’URSS",
+      "debut": 1985,
+      "fin": 1991,
+      "dynastie": "sovietiques",
+      "note": "lance la perestroïka",
+      "cle": true
+    },
+    { "nom": "Boris Eltsine", "titre": "Président", "debut": 1991, "fin": 1999, "dynastie": "presidents" },
+    {
+      "nom": "Vladimir Poutine",
+      "titre": "Président",
+      "debut": 2000,
+      "fin": 2008,
+      "dynastie": "presidents",
+      "note": "Premier ministre de 2008 à 2012",
+      "cle": true
+    },
+    { "nom": "Dmitri Medvedev", "titre": "Président", "debut": 2008, "fin": 2012, "dynastie": "presidents" },
+    {
+      "nom": "Vladimir Poutine",
+      "titre": "Président",
+      "debut": 2012,
+      "fin": 2020,
+      "dynastie": "presidents",
+      "note": "toujours en fonction à la fin de la période couverte (2020)"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Vladimir Ilitch Lénine",
+      "role": "Révolutionnaire",
+      "description": "Chef des bolcheviks, il prend le pouvoir en 1917 et fonde l’État soviétique.",
+      "dates": "1870 → 1924",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/L%C3%A9nine",
+      "ref": "lenine"
+    },
+    {
+      "nom": "Iouri Gagarine",
+      "role": "Cosmonaute",
+      "description": "Premier être humain à voyager dans l’espace, le 12 avril 1961.",
+      "dates": "1934 → 1968",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Iouri_Gagarine",
+      "ref": "iouri-gagarine"
+    },
+    {
+      "nom": "Léon Tolstoï",
+      "role": "Écrivain",
+      "description": "Auteur de Guerre et Paix et d’Anna Karénine.",
+      "dates": "1828 → 1910",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/L%C3%A9on_Tolsto%C3%AF"
+    },
+    {
+      "nom": "Dmitri Mendeleïev",
+      "role": "Chimiste",
+      "description": "Il invente le tableau périodique des éléments (1869).",
+      "dates": "1834 → 1907",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Dmitri_Mendele%C3%AFev"
+    },
+    {
+      "nom": "Alexandre Soljenitsyne",
+      "role": "Écrivain",
+      "description": "Ancien prisonnier, il dénonce le système des camps soviétiques dans L’Archipel du Goulag.",
+      "dates": "1918 → 2008",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Alexandre_Soljenitsyne"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Campagne de Russie",
+      "annee": 1812,
+      "adversaires": ["Empire français (Napoléon Ier)"],
+      "allies": [],
+      "morts": "Plusieurs centaines de milliers de soldats des deux côtés",
+      "vainqueur": "Empire russe",
+      "consequences": "La Grande Armée, qui a pris Moscou, est presque anéantie pendant la retraite par le froid, la faim et les attaques. C’est le début de la chute de Napoléon.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Campagne_de_Russie"
+    },
+    {
+      "nom": "Grande Guerre patriotique (Front de l'Est WWII)",
+      "annee": 1941,
+      "adversaires": ["Allemagne Nazie (Opération Barbarossa)"],
+      "allies": ["États-Unis", "Royaume-Uni"],
+      "morts": "Environ 27 millions de morts soviétiques, civils et militaires",
+      "vainqueur": "URSS",
+      "consequences": "L’Armée rouge supporte l’essentiel des combats contre l’Allemagne nazie, prend Berlin en 1945 et impose des régimes communistes en Europe de l’Est.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Front_de_l'Est_(Seconde_Guerre_mondiale)"
+    }
+  ],
+  "sciences": "Le chimiste Mendeleïev classe les éléments chimiques dans un tableau périodique (1869). L’URSS forme de nombreux ingénieurs et scientifiques : elle lance le premier satellite artificiel, Spoutnik (1957), puis envoie le premier homme dans l’espace, Iouri Gagarine (1961). Elle se dote de l’arme nucléaire en 1949.",
+  "croyancesText": "L’Église orthodoxe est liée au pouvoir des tsars. L’URSS impose l’athéisme : églises, mosquées et synagogues sont fermées ou détruites, et des milliers de prêtres sont tués ou déportés. Après 1991, l’Église orthodoxe retrouve une place importante et proche du pouvoir.",
+  "diplomatie": "L’Empire russe s’étend vers l’Asie et rivalise avec les Britanniques et les Ottomans. L’URSS domine l’Europe de l’Est après 1945 et affronte les États-Unis dans la guerre froide, sans guerre directe mais avec une course aux armements et à l’espace. La Russie de Poutine cherche à retrouver son influence sur les anciennes républiques soviétiques.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": { "valeur": "Saint-Pétersbourg, puis Moscou", "precision": "Moscou à partir de 1918" },
+    "regimes": {
+      "valeur": "Autocratie, dictature communiste, puis fédération présidentielle",
+      "precision": "tsars jusqu’en 1917, URSS (1922-1991), Fédération de Russie"
+    },
+    "langues": { "valeur": "Russe", "precision": "avec plus de 100 langues dans l’empire et l’URSS" },
+    "religion": {
+      "valeur": "Christianisme orthodoxe",
+      "precision": "athéisme officiel en URSS ; islam et bouddhisme dans certaines régions"
+    },
+    "apogee": { "valeur": "Vers 1945-1975", "precision": "superpuissance, conquête spatiale" },
+    "population": {
+      "valeur": "Environ 146 millions en 2020 (Russie)",
+      "precision": "l’URSS comptait près de 290 millions d’habitants en 1991"
+    },
+    "monnaie": { "valeur": "Rouble" },
+    "duree": { "valeur": "Plus de 230 ans dans cette fiche" },
+    "aujourdhui": { "valeur": "Russie", "precision": "et les 14 autres anciennes républiques soviétiques" }
+  },
+  "essentiel": [
+    "L’Empire russe des tsars repousse Napoléon en 1812 et s’étend de l’Europe au Pacifique ; Alexandre II [[abolition-du-servage-en-russie|abolit le servage]] en 1861.",
+    "En 1917, la [[revolution-d-octobre|révolution d’Octobre]] porte au pouvoir [[lenine|Lénine]] et les bolcheviks, qui fondent l’URSS.",
+    "Sous [[staline|Staline]], l’URSS s’industrialise à marche forcée au prix de millions de morts (famines, camps du Goulag, exécutions).",
+    "L’URSS joue un rôle décisif dans la défaite nazie, avec [[bataille-de-stalingrad|Stalingrad]], puis devient une superpuissance ; elle lance [[spoutnik|Spoutnik]] et envoie [[iouri-gagarine|Gagarine]] dans l’espace.",
+    "En 1991, l’URSS disparaît : c’est la [[chute-de-l-urss|chute de l’URSS]] ; la Fédération de Russie lui succède."
+  ],
+  "periodes": [
+    {
+      "nom": "L’Empire des tsars",
+      "debut": 1789,
+      "fin": 1917,
+      "resume": "La Russie s’étend en Asie centrale et dans le Caucase. Les réformes d’Alexandre II ne suffisent pas ; la défaite contre le Japon (1905) et la Première Guerre mondiale font chuter le régime.",
+      "evenements": [
+        { "annee": 1812, "evenement": "Victoire sur Napoléon" },
+        { "annee": 1861, "evenement": "Abolition du servage", "ref": "abolition-du-servage-en-russie" },
+        { "annee": 1905, "evenement": "Première révolution russe" }
+      ]
+    },
+    {
+      "nom": "Révolution et stalinisme",
+      "debut": 1917,
+      "fin": 1953,
+      "resume": "Les bolcheviks gagnent la guerre civile ; Staline impose la collectivisation, l’industrialisation et la terreur. L’URSS sort victorieuse mais meurtrie de la guerre contre l’Allemagne.",
+      "evenements": [
+        { "annee": 1917, "evenement": "Révolution d’Octobre", "ref": "revolution-d-octobre" },
+        { "annee": 1932, "evenement": "Grande famine (Holodomor en Ukraine)" },
+        { "annee": 1937, "evenement": "Grande Terreur" },
+        { "annee": 1943, "evenement": "Stalingrad", "ref": "bataille-de-stalingrad" }
+      ]
+    },
+    {
+      "nom": "La superpuissance soviétique",
+      "debut": 1953,
+      "fin": 1991,
+      "resume": "L’URSS domine l’Europe de l’Est, rivalise avec les États-Unis dans la guerre froide et la conquête spatiale, puis s’essouffle. Les réformes de Gorbatchev mènent à sa dissolution.",
+      "evenements": [
+        { "annee": 1957, "evenement": "Spoutnik" },
+        { "annee": 1962, "evenement": "Crise des missiles de Cuba" },
+        { "annee": 1986, "evenement": "Catastrophe de Tchernobyl" },
+        { "annee": 1991, "evenement": "Dissolution de l’URSS", "ref": "chute-de-l-urss" }
+      ]
+    },
+    {
+      "nom": "La Fédération de Russie",
+      "debut": 1991,
+      "fin": 2020,
+      "resume": "La Russie traverse une grave crise économique dans les années 1990, puis Vladimir Poutine renforce le pouvoir central. En 2014, la Russie annexe la Crimée, annexion non reconnue par la plupart des pays.",
+      "evenements": [{ "annee": 1994, "evenement": "Guerre de Tchétchénie" }, { "annee": 2014, "evenement": "Annexion de la Crimée" }]
+    }
+  ],
+  "regimes": [
+    { "id": "tsars", "nom": "Empire russe (autocratie)", "debut": 1789, "fin": 1917 },
+    {
+      "id": "urss",
+      "nom": "Russie soviétique et URSS",
+      "debut": 1917,
+      "fin": 1991,
+      "note": "Le pouvoir réel appartient au chef du Parti communiste."
+    },
+    { "id": "federation", "nom": "Fédération de Russie", "debut": 1991, "fin": 2020 }
+  ],
+  "dynasties": [
+    { "id": "romanov", "nom": "Les Romanov", "debut": 1762, "fin": 1917, "regime": "tsars" },
+    { "id": "sovietiques", "nom": "Les dirigeants soviétiques", "debut": 1917, "fin": 1991, "regime": "urss" },
+    {
+      "id": "presidents",
+      "nom": "Les présidents de la Fédération de Russie",
+      "debut": 1991,
+      "fin": 2020,
+      "regime": "federation"
+    }
+  ],
+  "societe": "Jusqu’en 1861, la majorité des paysans sont des serfs. Sous Staline, la collectivisation des terres provoque des famines meurtrières (au moins 5 millions de morts en 1932-1933, dont près de 4 millions en Ukraine), et des millions de personnes sont envoyées dans les camps du Goulag. L’URSS développe l’éducation et la santé pour tous.",
+  "economie": "Agriculture et exportation de blé sous les tsars ; industrialisation planifiée par l’État en URSS ; aujourd’hui, exportation de pétrole et de gaz.",
+  "decouvertes": ["spoutnik"],
+  "arts": "Littérature (Pouchkine, Tolstoï, Dostoïevski, Tchekhov), musique (Tchaïkovski, Stravinsky, Chostakovitch), ballets russes, cinéma d’Eisenstein.",
+  "quotidien": "En URSS, beaucoup de familles vivent dans des appartements communautaires et font la queue devant les magasins ; les vacances en colonie et le sport de masse sont encouragés.",
+  "heritage": [
+    { "titre": "La littérature russe", "texte": "Tolstoï, Dostoïevski et Tchekhov sont lus dans le monde entier." },
+    {
+      "titre": "La conquête spatiale",
+      "texte": "La station spatiale internationale est toujours desservie par des fusées Soyouz, héritières de celles de Gagarine."
+    }
+  ],
+  "aSavoir": [
+    "En février 2022, après la période couverte par cette fiche, la Russie lance une invasion à grande échelle de l’Ukraine."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Histoire_de_la_Russie",
+    {
+      "titre": "Encyclopædia Britannica — Russia, history",
+      "url": "https://www.britannica.com/place/Russia/History"
+    }
+  ]
+}

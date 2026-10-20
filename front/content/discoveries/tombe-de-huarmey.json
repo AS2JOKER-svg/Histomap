@@ -1,0 +1,19 @@
+{
+  "id": "tombe-de-huarmey",
+  "nom": "Tombe royale de Huarmey",
+  "annee": 800,
+  "domaine": "Archéologie",
+  "dates": "vers 800 ; découverte en 2013",
+  "description": "Une tombe intacte, découverte sur la côte du Pérou, où reposaient 58 femmes de l’élite huari, dont des reines, avec plus de mille objets précieux.",
+  "sections": [
+    {
+      "titre": "Ce qu’on y a trouvé",
+      "texte": "Des bijoux en or et en argent, des miroirs, des outils de tissage en or, des céramiques et des textiles. Les pilleurs, qui fouillaient le site depuis des décennies, ne l’avaient jamais trouvée."
+    },
+    {
+      "titre": "Ce qu’elle nous apprend",
+      "texte": "Elle montre le rôle important des femmes de l’élite et la puissance de l’État huari sur la côte nord."
+    }
+  ],
+  "wikiUrl": "https://en.wikipedia.org/wiki/El_Castillo_de_Huarmey"
+}

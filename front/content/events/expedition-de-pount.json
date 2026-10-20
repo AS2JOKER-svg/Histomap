@@ -1,0 +1,20 @@
+{
+  "id": "expedition-de-pount",
+  "nom": "Expédition d’Hatchepsout au pays de Pount",
+  "annee": -1470,
+  "dates": "vers −1470",
+  "lieu": "Mer Rouge et pays de Pount",
+  "description": "Cinq navires envoyés par [[hatchepsout|Hatchepsout]] rapportent de Pount encens, myrrhe, or, ébène et arbres à encens vivants. L’expédition est racontée en images sur les murs de son temple.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Les navires descendent la mer Rouge. À Pount, les Égyptiens sont accueillis par le roi Parahou et la reine Ati ; ils échangent leurs marchandises et chargent leurs bateaux de produits précieux."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Hatchepsout présente l’expédition comme un exploit de son règne, voulu par le dieu Amon. Les arbres rapportés sont replantés devant son temple."
+    }
+  ],
+  "liens": [{ "ref": "hatchepsout", "relation": "Le pharaon qui l’envoie" }, { "ref": "pount", "relation": "La destination" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Pays_de_Pount"
+}

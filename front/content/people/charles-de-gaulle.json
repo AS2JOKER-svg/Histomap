@@ -1,0 +1,18 @@
+{
+  "id": "charles-de-gaulle",
+  "nom": "Charles de Gaulle",
+  "role": "Chef de la France libre, président de la République",
+  "roles": ["Général", "Chef de la France libre", "Président"],
+  "dates": "1890 → 1970",
+  "naissance": 1890,
+  "mort": 1970,
+  "description": "Général qui refuse la défaite de 1940 et dirige la France libre depuis Londres, puis fonde la Ve République et la préside de 1959 à 1969.",
+  "reperes": [{ "label": "Président", "valeur": "1959 → 1969" }],
+  "essentiel": [
+    "Le [[appel-du-18-juin|18 juin 1940]], il appelle à la BBC à continuer le combat.",
+    "Il dirige le Gouvernement provisoire à la Libération (1944-1946).",
+    "Rappelé en 1958, il fonde la Ve République.",
+    "Il met fin à la guerre d’Algérie et mène une politique d’indépendance nationale."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Charles_de_Gaulle"
+}

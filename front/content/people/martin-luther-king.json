@@ -1,0 +1,17 @@
+{
+  "id": "martin-luther-king",
+  "nom": "Martin Luther King",
+  "role": "Militant des droits civiques",
+  "roles": ["Pasteur", "Militant"],
+  "dates": "1929 → 1968",
+  "naissance": 1929,
+  "mort": 1968,
+  "description": "Pasteur baptiste, il mène la lutte non violente pour l’égalité des droits des Afro-Américains. Prix Nobel de la paix en 1964, il est assassiné en 1968.",
+  "essentiel": [
+    "Il dirige le boycott des bus de Montgomery (1955-1956).",
+    "Lors de la marche sur Washington (1963), il prononce son discours « I have a dream ».",
+    "Les lois de 1964 et 1965 interdisent la ségrégation et protègent le droit de vote.",
+    "Il est assassiné à Memphis le 4 avril 1968."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Martin_Luther_King"
+}

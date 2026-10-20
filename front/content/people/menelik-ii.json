@@ -1,0 +1,18 @@
+{
+  "id": "menelik-ii",
+  "nom": "Ménélik II",
+  "role": "Empereur d’Éthiopie",
+  "roles": ["Roi du Choa", "Empereur"],
+  "dates": "1844 → 1913",
+  "naissance": 1844,
+  "mort": 1913,
+  "description": "Roi du Choa devenu empereur en 1889, il agrandit considérablement l’Éthiopie, la modernise et la sauve de la colonisation en battant l’Italie à Adoua.",
+  "reperes": [{ "label": "Règne", "valeur": "1889 → 1913" }],
+  "essentiel": [
+    "Il fonde Addis-Abeba avec son épouse [[taytu-betul|Taytu]].",
+    "Il conquiert les régions du sud et de l’ouest.",
+    "Il bat les Italiens à la [[bataille-d-adoua|bataille d’Adoua]] (1896).",
+    "Il introduit le chemin de fer, le télégraphe et les écoles modernes."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/M%C3%A9n%C3%A9lik_II"
+}

@@ -1,0 +1,338 @@
+{
+  "id": "royaume-uni",
+  "label": "Royaume-Uni",
+  "tier": 1,
+  "region": "iles-britanniques",
+  "period": "1789 à 2020",
+  "start": 1789,
+  "end": 2020,
+  "trackId": "angleterre",
+  "row": 2,
+  "isRiver": false,
+  "capitale": "Londres",
+  "description": "Le Royaume-Uni, berceau de la révolution industrielle, à la tête du plus grand empire de l’histoire au XIXe siècle, puis acteur majeur des deux guerres mondiales et de la décolonisation.",
+  "territories": ["United Kingdom", "United Kingdom of Great Britain and Ireland", "Great Britain"],
+  "datesCles": [
+    { "annee": 1801, "evenement": "Acte d’union", "info": "La Grande-Bretagne et l’Irlande forment le Royaume-Uni." },
+    {
+      "annee": 1805,
+      "evenement": "Bataille de Trafalgar",
+      "info": "La flotte de Nelson écrase les flottes française et espagnole.",
+      "ref": "bataille-de-trafalgar"
+    },
+    {
+      "annee": 1833,
+      "evenement": "Abolition de l’esclavage",
+      "info": "L’esclavage est aboli dans presque tout l’Empire britannique, après l’interdiction de la traite en 1807."
+    },
+    {
+      "annee": 1859,
+      "evenement": "L’Origine des espèces",
+      "info": "Charles Darwin publie sa théorie de l’évolution par la sélection naturelle."
+    },
+    {
+      "annee": 1928,
+      "evenement": "Vote des femmes",
+      "info": "Les femmes obtiennent le droit de vote aux mêmes conditions que les hommes, après une première étape en 1918."
+    },
+    {
+      "annee": 1940,
+      "evenement": "Bataille d’Angleterre",
+      "info": "La Royal Air Force repousse l’aviation allemande.",
+      "ref": "bataille-d-angleterre"
+    },
+    {
+      "annee": 1947,
+      "evenement": "Indépendance de l’Inde",
+      "info": "Le « joyau de l’Empire » devient indépendant : début de la décolonisation."
+    },
+    {
+      "annee": 1948,
+      "evenement": "Service national de santé",
+      "info": "Création du NHS, qui soigne gratuitement toute la population."
+    },
+    {
+      "annee": 2020,
+      "evenement": "Brexit",
+      "info": "Le Royaume-Uni quitte l’Union européenne le 31 janvier 2020.",
+      "ref": "brexit"
+    }
+  ],
+  "dirigeants": [
+    { "nom": "George III", "titre": "Roi", "debut": 1760, "fin": 1820, "dynastie": "souverains" },
+    { "nom": "George IV", "titre": "Roi", "debut": 1820, "fin": 1830, "dynastie": "souverains" },
+    { "nom": "Guillaume IV", "titre": "Roi", "debut": 1830, "fin": 1837, "dynastie": "souverains" },
+    {
+      "nom": "Victoria",
+      "titre": "Reine, impératrice des Indes",
+      "debut": 1837,
+      "fin": 1901,
+      "dynastie": "souverains",
+      "personne": "reine-victoria",
+      "note": "règne de 63 ans",
+      "cle": true
+    },
+    { "nom": "Édouard VII", "titre": "Roi", "debut": 1901, "fin": 1910, "dynastie": "souverains" },
+    {
+      "nom": "George V",
+      "titre": "Roi",
+      "debut": 1910,
+      "fin": 1936,
+      "dynastie": "souverains",
+      "note": "la famille prend le nom de Windsor en 1917"
+    },
+    {
+      "nom": "Édouard VIII",
+      "titre": "Roi",
+      "debut": 1936,
+      "fin": 1936,
+      "dynastie": "souverains",
+      "note": "abdique pour épouser une Américaine divorcée"
+    },
+    { "nom": "George VI", "titre": "Roi", "debut": 1936, "fin": 1952, "dynastie": "souverains" },
+    {
+      "nom": "Élisabeth II",
+      "titre": "Reine",
+      "debut": 1952,
+      "fin": 2020,
+      "dynastie": "souverains",
+      "note": "toujours sur le trône à la fin de la période couverte (2020) ; morte en 2022",
+      "cle": true
+    },
+    {
+      "nom": "William Pitt le Jeune",
+      "titre": "Premier ministre",
+      "debut": 1783,
+      "fin": 1801,
+      "dynastie": "premiers-ministres",
+      "note": "plus jeune Premier ministre, à 24 ans"
+    },
+    {
+      "nom": "Benjamin Disraeli",
+      "titre": "Premier ministre",
+      "debut": 1874,
+      "fin": 1880,
+      "dynastie": "premiers-ministres",
+      "note": "conservateur"
+    },
+    {
+      "nom": "William Gladstone",
+      "titre": "Premier ministre",
+      "debut": 1868,
+      "fin": 1894,
+      "dynastie": "premiers-ministres",
+      "note": "libéral, quatre fois Premier ministre"
+    },
+    {
+      "nom": "David Lloyd George",
+      "titre": "Premier ministre",
+      "debut": 1916,
+      "fin": 1922,
+      "dynastie": "premiers-ministres",
+      "note": "dirige la fin de la Grande Guerre"
+    },
+    {
+      "nom": "Winston Churchill",
+      "titre": "Premier ministre",
+      "debut": 1940,
+      "fin": 1955,
+      "dynastie": "premiers-ministres",
+      "personne": "winston-churchill",
+      "note": "1940-1945 et 1951-1955",
+      "cle": true
+    },
+    {
+      "nom": "Clement Attlee",
+      "titre": "Premier ministre",
+      "debut": 1945,
+      "fin": 1951,
+      "dynastie": "premiers-ministres",
+      "note": "crée le NHS"
+    },
+    {
+      "nom": "Margaret Thatcher",
+      "titre": "Première ministre",
+      "debut": 1979,
+      "fin": 1990,
+      "dynastie": "premiers-ministres",
+      "note": "première femme Première ministre",
+      "cle": true
+    },
+    { "nom": "Tony Blair", "titre": "Premier ministre", "debut": 1997, "fin": 2007, "dynastie": "premiers-ministres" }
+  ],
+  "personnages": [
+    {
+      "nom": "Charles Darwin",
+      "role": "Naturaliste",
+      "description": "Il explique l’évolution des espèces par la sélection naturelle.",
+      "dates": "1809 → 1882",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Charles_Darwin",
+      "ref": "charles-darwin"
+    },
+    {
+      "nom": "Alan Turing",
+      "role": "Mathématicien",
+      "description": "Pionnier de l’informatique, il contribue au déchiffrement des messages allemands codés par Enigma pendant la Seconde Guerre mondiale.",
+      "dates": "1912 → 1954",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Alan_Turing"
+    },
+    {
+      "nom": "Emmeline Pankhurst",
+      "role": "Militante",
+      "description": "Elle dirige le mouvement des suffragettes pour le droit de vote des femmes.",
+      "dates": "1858 → 1928",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Emmeline_Pankhurst"
+    },
+    {
+      "nom": "Charles Dickens",
+      "role": "Écrivain",
+      "description": "Ses romans, comme Oliver Twist, décrivent la misère de l’Angleterre industrielle.",
+      "dates": "1812 → 1870",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Charles_Dickens"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Bataille de Trafalgar",
+      "annee": 1805,
+      "adversaires": ["France et Espagne"],
+      "allies": [],
+      "morts": "Environ 4 500 morts",
+      "vainqueur": "Royaume-Uni (Nelson)",
+      "consequences": "La flotte franco-espagnole est détruite ; Napoléon renonce à envahir l’Angleterre, et la Royal Navy domine les mers pendant un siècle.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Trafalgar"
+    },
+    {
+      "nom": "Bataille d’Angleterre",
+      "annee": 1940,
+      "adversaires": ["Allemagne nazie (Luftwaffe)"],
+      "allies": ["Pilotes du Commonwealth, polonais, tchèques, français"],
+      "morts": "Environ 1 500 aviateurs britanniques et alliés, 2 500 allemands ; plus de 40 000 civils britanniques tués par les bombardements (le « Blitz », 1940-1941)",
+      "vainqueur": "Royaume-Uni",
+      "consequences": "Hitler renonce à envahir la Grande-Bretagne. Churchill rend hommage aux pilotes : « Jamais, dans l’histoire des conflits, tant de gens n’ont dû autant à si peu ».",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_d'Angleterre"
+    }
+  ],
+  "sciences": "Le Royaume-Uni est le berceau de la révolution industrielle : machines textiles, machine à vapeur, chemins de fer (1825), puis télégraphe. Michael Faraday étudie l’électricité, Charles Darwin publie L’Origine des espèces (1859), Alexander Fleming découvre la pénicilline (1928). Pendant la Seconde Guerre mondiale, Alan Turing contribue à casser les codes allemands, et des chercheurs britanniques développent le radar.",
+  "croyancesText": "L’Église d’Angleterre reste l’Église officielle, dont le souverain est le chef. Au XIXe siècle, catholiques et non-conformistes obtiennent l’égalité des droits (1829). Le méthodisme et les mouvements évangéliques jouent un grand rôle dans la lutte contre l’esclavage. Au XXe siècle, la pratique religieuse recule et la diversité augmente avec l’immigration.",
+  "diplomatie": "Grâce à la Royal Navy, le Royaume-Uni bâtit le plus vaste empire de l’histoire : Inde, Canada, Australie, une grande partie de l’Afrique. Il cherche à empêcher qu’une seule puissance domine l’Europe, combat Napoléon, puis l’Allemagne lors des deux guerres mondiales. Après 1945, il décolonise, garde une « relation spéciale » avec les États-Unis et rejoint puis quitte la construction européenne.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": { "valeur": "Londres" },
+    "regimes": { "valeur": "Monarchie parlementaire", "precision": "le souverain règne, le Premier ministre gouverne" },
+    "langues": { "valeur": "Anglais", "precision": "avec le gallois, le gaélique écossais et l’irlandais" },
+    "religion": { "valeur": "Anglicanisme", "precision": "Église d’Angleterre ; grande diversité religieuse aujourd’hui" },
+    "apogee": { "valeur": "Vers 1900-1920", "precision": "l’empire couvre un quart des terres émergées" },
+    "population": { "valeur": "Environ 67 millions en 2020", "precision": "contre environ 16 millions en 1801" },
+    "monnaie": { "valeur": "Livre sterling" },
+    "duree": { "valeur": "Plus de 230 ans dans cette fiche" },
+    "aujourdhui": { "valeur": "Royaume-Uni", "precision": "Angleterre, Écosse, pays de Galles, Irlande du Nord" }
+  },
+  "essentiel": [
+    "Le Royaume-Uni de Grande-Bretagne et d’Irlande naît en 1801 ; l’Irlande, sauf le Nord, en sort en 1922.",
+    "Pays de la révolution industrielle, il devient « l’atelier du monde » ; [[charles-darwin|Charles Darwin]] y publie sa [[theorie-de-l-evolution|théorie de l’évolution]].",
+    "Sous la [[reine-victoria|reine Victoria]], l’Empire britannique devient le plus vaste de l’histoire.",
+    "Pendant la Seconde Guerre mondiale, [[winston-churchill|Churchill]] refuse de traiter avec Hitler ; la [[bataille-d-angleterre|bataille d’Angleterre]] empêche l’invasion.",
+    "Après 1945, le pays perd son empire, crée un système de santé gratuit, entre dans l’Europe en 1973… et en sort avec le [[brexit|Brexit]] en 2020."
+  ],
+  "periodes": [
+    {
+      "nom": "La révolution industrielle et les guerres napoléoniennes",
+      "debut": 1789,
+      "fin": 1837,
+      "resume": "Le Royaume-Uni combat la France révolutionnaire et napoléonienne et devient la première puissance industrielle et maritime.",
+      "evenements": [
+        { "annee": 1805, "evenement": "Trafalgar", "ref": "bataille-de-trafalgar" },
+        { "annee": 1815, "evenement": "Waterloo" },
+        { "annee": 1825, "evenement": "Premier chemin de fer à vapeur pour voyageurs" }
+      ]
+    },
+    {
+      "nom": "L’ère victorienne",
+      "debut": 1837,
+      "fin": 1914,
+      "resume": "Sous Victoria, l’empire s’étend sur tous les continents ; l’industrie et les villes grandissent, au prix d’une grande misère ouvrière.",
+      "evenements": [
+        { "annee": 1851, "evenement": "Grande Exposition de Londres" },
+        { "annee": 1859, "evenement": "Darwin, L’Origine des espèces" },
+        { "annee": 1877, "evenement": "Victoria impératrice des Indes" }
+      ]
+    },
+    {
+      "nom": "Les guerres mondiales",
+      "debut": 1914,
+      "fin": 1945,
+      "resume": "Le Royaume-Uni sort victorieux mais épuisé des deux guerres mondiales ; l’Irlande devient indépendante.",
+      "evenements": [
+        { "annee": 1916, "evenement": "Bataille de la Somme" },
+        { "annee": 1922, "evenement": "État libre d’Irlande" },
+        { "annee": 1940, "evenement": "Bataille d’Angleterre", "ref": "bataille-d-angleterre" }
+      ]
+    },
+    {
+      "nom": "Après l’empire",
+      "debut": 1945,
+      "fin": 2020,
+      "resume": "Décolonisation, État-providence, entrée dans la Communauté européenne (1973), réformes de Margaret Thatcher, puis sortie de l’Union européenne.",
+      "evenements": [
+        { "annee": 1947, "evenement": "Indépendance de l’Inde" },
+        { "annee": 1973, "evenement": "Entrée dans la CEE" },
+        { "annee": 2020, "evenement": "Brexit", "ref": "brexit" }
+      ]
+    }
+  ],
+  "regimes": [
+    {
+      "id": "parlementaire",
+      "nom": "Monarchie parlementaire",
+      "debut": 1789,
+      "fin": 2020,
+      "note": "Le Parlement, élu par un nombre croissant de citoyens au fil des réformes, contrôle le gouvernement ; le monarque a un rôle surtout symbolique."
+    }
+  ],
+  "dynasties": [
+    {
+      "id": "souverains",
+      "nom": "Les souverains (Hanovre, Saxe-Cobourg puis Windsor)",
+      "debut": 1760,
+      "fin": 2020,
+      "note": "Liste complète."
+    },
+    {
+      "id": "premiers-ministres",
+      "nom": "Quelques grands Premiers ministres",
+      "debut": 1783,
+      "fin": 2007,
+      "note": "Ce sont eux qui gouvernent ; sélection."
+    }
+  ],
+  "societe": "L’industrialisation crée une classe ouvrière nombreuse, qui obtient peu à peu des droits : syndicats, réformes électorales, Parti travailliste (1900). Les femmes obtiennent le droit de vote en 1918 puis en 1928. Après 1945, l’État-providence se développe ; la société devient multiculturelle.",
+  "economie": "Industrie (textile, charbon, acier, construction navale), commerce mondial et finance de la City de Londres ; désindustrialisation et économie de services à la fin du XXe siècle.",
+  "decouvertes": ["theorie-de-l-evolution", "machine-a-vapeur"],
+  "arts": "Romantisme (Byron, Turner), romans de Dickens et des sœurs Brontë, architecture victorienne, rock et pop (les Beatles, les Rolling Stones).",
+  "quotidien": "Au XIXe siècle, les ouvriers vivent dans des quartiers surpeuplés et insalubres. Le football moderne naît en Angleterre en 1863.",
+  "heritage": [
+    {
+      "titre": "Le Commonwealth",
+      "texte": "Une association de 56 pays, issus pour la plupart de l’ancien empire, existe toujours."
+    },
+    {
+      "titre": "La langue anglaise",
+      "texte": "L’empire et les États-Unis ont fait de l’anglais la langue internationale."
+    },
+    {
+      "titre": "Le sport",
+      "texte": "Football, rugby, tennis et cricket ont été codifiés au Royaume-Uni au XIXe siècle."
+    }
+  ],
+  "aSavoir": [
+    "Au début du XXe siècle, l’Empire britannique compte environ un quart de la population mondiale ; on disait que « le soleil ne s’y couche jamais »."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Royaume-Uni",
+    {
+      "titre": "Encyclopædia Britannica — United Kingdom, history",
+      "url": "https://www.britannica.com/place/United-Kingdom/History"
+    }
+  ]
+}

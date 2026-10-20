@@ -1,0 +1,20 @@
+{
+  "id": "bataille-de-lepante",
+  "nom": "Bataille de Lépante",
+  "annee": 1571,
+  "dates": "7 octobre 1571",
+  "lieu": "Golfe de Patras (Grèce)",
+  "description": "La flotte de la Sainte Ligue (Espagne, Venise, papauté) écrase la flotte ottomane : l’une des plus grandes batailles navales de galères de l’histoire.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Plus de 400 galères s’affrontent. Les galéasses vénitiennes, très armées, désorganisent la flotte ottomane ; des milliers de galériens chrétiens sont libérés."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "La victoire a un énorme retentissement en Europe, mais les Ottomans reconstruisent leur flotte dès l’année suivante et gardent Chypre."
+    }
+  ],
+  "aSavoir": ["L’écrivain [[cervantes|Cervantès]] y perd l’usage de sa main gauche."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_L%C3%A9pante"
+}

@@ -1,0 +1,340 @@
+{
+  "id": "mongols",
+  "label": "Empire mongol",
+  "tier": 1,
+  "region": "mongolie",
+  "period": "1206 à 1368",
+  "start": 1206,
+  "end": 1368,
+  "color": "#e67e22",
+  "trackId": "steppe_asie",
+  "row": 2,
+  "isRiver": false,
+  "capitale": "Karakorum",
+  "description": "Uni par Gengis Khan en 1206, le peuple mongol conquiert en un demi-siècle le plus grand empire continu de l’histoire, de la Corée à la Hongrie, avant qu’il ne se divise en quatre khanats.",
+  "territories": ["Mongol Empire", "Great Khanate", "Chagatai Khanate", "Ilkhanate", "Khanate of the Golden Horde"],
+  "datesCles": [
+    {
+      "annee": 1206,
+      "evenement": "Le Qurultay",
+      "info": "L’assemblée nomade élit Temüjin comme chef suprême sous le nom de Gengis Khan.",
+      "ref": "qurultay-de-1206"
+    },
+    {
+      "annee": 1215,
+      "evenement": "Chute de Pékin",
+      "info": "Les armées mongoles s’emparent de Zhongdu (Pékin), capitale de la dynastie Jin."
+    },
+    {
+      "annee": 1220,
+      "evenement": "Conquête du Khwarezm",
+      "info": "Samarcande et Boukhara sont prises ; l’empire du Khwarezm s’effondre."
+    },
+    {
+      "annee": 1241,
+      "evenement": "Victoires en Europe",
+      "info": "Les Mongols écrasent les armées polonaise et allemande à Legnica et hongroise à Mohi.",
+      "ref": "bataille-de-mohi"
+    },
+    {
+      "annee": 1258,
+      "evenement": "Sac de Bagdad",
+      "info": "Destruction de la capitale du califat abbasside.",
+      "ref": "sac-de-bagdad"
+    },
+    {
+      "annee": 1279,
+      "evenement": "Conquête de la Chine des Song",
+      "info": "La flotte Song est détruite à Yamen ; Kubilaï règne sur toute la Chine.",
+      "ref": "bataille-de-yamen"
+    },
+    {
+      "annee": 1281,
+      "evenement": "Échec au Japon",
+      "info": "Une seconde flotte d’invasion est détruite par un typhon.",
+      "ref": "invasions-mongoles-du-japon"
+    },
+    { "annee": 1368, "evenement": "Fin des Yuan", "info": "La révolte des Ming chasse les Mongols de Chine." }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Gengis Khan",
+      "titre": "Grand khan",
+      "debut": 1206,
+      "fin": 1227,
+      "dynastie": "grands-khans",
+      "personne": "gengis-khan",
+      "note": "né Temüjin",
+      "cle": true
+    },
+    {
+      "nom": "Tolui",
+      "titre": "Régent",
+      "debut": 1227,
+      "fin": 1229,
+      "dynastie": "grands-khans",
+      "note": "plus jeune fils de Gengis Khan"
+    },
+    {
+      "nom": "Ögödei",
+      "titre": "Grand khan",
+      "debut": 1229,
+      "fin": 1241,
+      "dynastie": "grands-khans",
+      "note": "fait bâtir Karakorum ; conquête de la Chine du Nord",
+      "cle": true
+    },
+    {
+      "nom": "Töregene",
+      "titre": "Régente",
+      "debut": 1241,
+      "fin": 1246,
+      "dynastie": "grands-khans",
+      "note": "veuve d’Ögödei"
+    },
+    { "nom": "Güyük", "titre": "Grand khan", "debut": 1246, "fin": 1248, "dynastie": "grands-khans" },
+    { "nom": "Oghul Qaimish", "titre": "Régente", "debut": 1248, "fin": 1251, "dynastie": "grands-khans" },
+    {
+      "nom": "Möngke",
+      "titre": "Grand khan",
+      "debut": 1251,
+      "fin": 1259,
+      "dynastie": "grands-khans",
+      "note": "lance les conquêtes de la Perse et de la Chine du Sud",
+      "cle": true
+    },
+    {
+      "nom": "Kubilaï",
+      "titre": "Grand khan et empereur de Chine",
+      "debut": 1260,
+      "fin": 1294,
+      "dynastie": "grands-khans",
+      "personne": "kubilai-khan",
+      "note": "fonde la dynastie Yuan",
+      "cle": true
+    },
+    {
+      "nom": "Temür",
+      "titre": "Empereur Yuan",
+      "debut": 1294,
+      "fin": 1307,
+      "dynastie": "yuan",
+      "note": "petit-fils de Kubilaï"
+    },
+    {
+      "nom": "Ayurbarwada",
+      "titre": "Empereur Yuan",
+      "debut": 1311,
+      "fin": 1320,
+      "dynastie": "yuan",
+      "note": "rétablit les examens impériaux"
+    },
+    {
+      "nom": "Toghon Temür",
+      "titre": "Empereur Yuan",
+      "debut": 1333,
+      "fin": 1368,
+      "dynastie": "yuan",
+      "note": "dernier empereur Yuan, chassé par les Ming"
+    },
+    {
+      "nom": "Djaghataï",
+      "titre": "Khan d’Asie centrale",
+      "debut": 1226,
+      "fin": 1242,
+      "dynastie": "khanats",
+      "note": "fils de Gengis Khan"
+    },
+    {
+      "nom": "Batu",
+      "titre": "Khan de la Horde d’Or",
+      "debut": 1227,
+      "fin": 1255,
+      "dynastie": "khanats",
+      "note": "conquiert la Russie",
+      "cle": true
+    },
+    {
+      "nom": "Hülegü",
+      "titre": "Ilkhan de Perse",
+      "debut": 1256,
+      "fin": 1265,
+      "dynastie": "khanats",
+      "note": "prend Bagdad",
+      "cle": true
+    },
+    {
+      "nom": "Ghazan",
+      "titre": "Ilkhan de Perse",
+      "debut": 1295,
+      "fin": 1304,
+      "dynastie": "khanats",
+      "note": "se convertit à l’islam"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Gengis Khan",
+      "role": "Fondateur de l’empire",
+      "description": "Il unifie les Mongols et lance les conquêtes qui créent le plus grand empire continu de l’histoire.",
+      "dates": "vers 1162 → 1227",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Gengis_Khan",
+      "ref": "gengis-khan"
+    },
+    {
+      "nom": "Kubilaï Khan",
+      "role": "Grand khan et empereur de Chine",
+      "description": "Petit-fils de Gengis Khan, il conquiert toute la Chine et y fonde la dynastie Yuan.",
+      "dates": "1215 → 1294",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Kubila%C3%AF_Khan",
+      "ref": "kubilai-khan"
+    },
+    {
+      "nom": "Subötaï",
+      "role": "Général",
+      "description": "Général de Gengis Khan et d’Ögödei, considéré comme l’un des plus grands stratèges de l’histoire.",
+      "dates": "vers 1175 → 1248",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Sub%C3%B6ta%C3%AF"
+    },
+    {
+      "nom": "Börte",
+      "role": "Impératrice",
+      "description": "Première épouse de Gengis Khan, mère de ses quatre fils héritiers, elle joue un rôle de conseillère important.",
+      "dates": "vers 1161 → vers 1230",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/B%C3%B6rte"
+    },
+    {
+      "nom": "Rashid al-Din",
+      "role": "Ministre et historien",
+      "description": "Ministre persan des ilkhans, il écrit une immense histoire du monde, à partir des récits mongols, chinois, indiens et européens.",
+      "dates": "1247 → 1318",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Rashid_al-Din"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Campagne de la Rus' et de l'Europe",
+      "annee": 1237,
+      "adversaires": ["Principautés russes", "Royaume de Hongrie", "Pologne"],
+      "allies": [],
+      "morts": "Très lourdes ; de nombreuses villes sont détruites",
+      "vainqueur": "Mongols (Batu Khan et Subötaï)",
+      "consequences": "Les armées européennes sont écrasées à Legnica et Mohi (1241). Les Mongols se retirent en 1242, peut-être à cause de la mort du grand khan Ögödei ; la Russie reste sous leur domination.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Invasion_mongole_de_l'Europe"
+    }
+  ],
+  "sciences": "Les Mongols organisent un immense réseau de relais postaux, le Yam : des cavaliers porteurs d’un laissez-passer (païza) changent de chevaux toutes les quelques dizaines de kilomètres et peuvent parcourir jusqu’à 200 km par jour. Ils intègrent à leurs armées des ingénieurs chinois et musulmans qui construisent des machines de siège, comme les trébuchets. Sous leur protection, médecins, astronomes et techniques circulent entre la Chine et la Perse.",
+  "croyancesText": "Les Mongols honorent le Ciel éternel (Tengri), la Terre et les esprits, avec l’aide de chamanes. Ils pensent que le Ciel a confié la domination du monde à Gengis Khan et à ses descendants. Ils se montrent très tolérants : à la cour de Karakorum, chrétiens nestoriens, bouddhistes, taoïstes et musulmans débattent ensemble. Les khans finissent par se convertir, au bouddhisme en Chine et à l’islam en Perse et dans la Horde d’Or.",
+  "diplomatie": "La politique de la terreur pragmatique : une ville qui se rend sans combattre est épargnée et taxée ; une ville qui résiste est rasée, ses habitants massacrés à l’exception des artisans qualifiés déportés en Mongolie. Après la mort de Gengis Khan, l’empire, devenu trop grand, se fragmente en quatre immenses khanats (la Horde d’Or en Russie, l’Ilkhanat en Perse, Djaghataï en Asie centrale, et les Yuan en Chine).",
+  "documentaires": [],
+  "reperes": {
+    "capitale": {
+      "valeur": "Karakorum, puis Dadu (Pékin)",
+      "precision": "Karakorum en Mongolie à partir de 1235 ; Kubilaï installe sa capitale à Dadu en 1264"
+    },
+    "regimes": {
+      "valeur": "Empire",
+      "precision": "un grand khan élu par l’assemblée des princes (qurultay), puis quatre khanats"
+    },
+    "langues": {
+      "valeur": "Mongol",
+      "precision": "écrit avec un alphabet emprunté aux Ouïgours ; persan et chinois dans les administrations"
+    },
+    "religion": {
+      "valeur": "Culte du Ciel éternel (Tengri)",
+      "precision": "grande tolérance ; conversions au bouddhisme et à l’islam"
+    },
+    "apogee": { "valeur": "Vers 1260-1280", "precision": "environ 24 millions de km²" },
+    "population": {
+      "valeur": "Plus de 100 millions de sujets",
+      "precision": "les Mongols eux-mêmes ne sont qu’un à deux millions"
+    },
+    "monnaie": {
+      "valeur": "Lingots d’argent, papier-monnaie",
+      "precision": "le papier-monnaie circule en Chine sous les Yuan"
+    },
+    "duree": { "valeur": "Plus de 160 ans" },
+    "aujourdhui": {
+      "valeur": "De la Corée à l’Europe de l’Est",
+      "precision": "Mongolie, Chine, Russie, Asie centrale, Iran, Irak…"
+    }
+  },
+  "essentiel": [
+    "En 1206, lors d’un [[qurultay-de-1206|grand rassemblement]], le chef Temüjin est proclamé [[gengis-khan|Gengis Khan]], souverain de tous les Mongols.",
+    "Ses armées de cavaliers conquièrent le nord de la Chine, l’Asie centrale et la Perse ; ses successeurs atteignent la Russie, la Pologne et la Hongrie ([[bataille-de-mohi|bataille de Mohi]]).",
+    "Les Mongols [[sac-de-kiev|prennent Kiev]] en 1240 et [[sac-de-bagdad|détruisent Bagdad]] en 1258.",
+    "Leur empire facilite les échanges : le [[yam|relais postal du Yam]] relie l’Asie, et des voyageurs comme [[marco-polo|Marco Polo]] traversent le continent.",
+    "Après 1260, l’empire se divise en quatre khanats ; [[kubilai-khan|Kubilaï]] fonde en Chine la dynastie Yuan, chassée en 1368."
+  ],
+  "periodes": [
+    {
+      "nom": "Gengis Khan",
+      "debut": 1206,
+      "fin": 1227,
+      "resume": "Gengis Khan unifie les tribus, réorganise l’armée par unités de dix, cent, mille et dix mille hommes, et lance les grandes conquêtes.",
+      "evenements": [
+        { "annee": 1206, "evenement": "Qurultay", "ref": "qurultay-de-1206" },
+        { "annee": 1215, "evenement": "Prise de Pékin" },
+        { "annee": 1220, "evenement": "Prise de Samarcande" }
+      ]
+    },
+    {
+      "nom": "L’empire mondial",
+      "debut": 1227,
+      "fin": 1260,
+      "resume": "Ses fils et petits-fils conquièrent la Chine du Nord, la Russie, l’Europe de l’Est et le Moyen-Orient.",
+      "evenements": [
+        { "annee": 1240, "evenement": "Prise de Kiev", "ref": "sac-de-kiev" },
+        { "annee": 1241, "evenement": "Mohi et Legnica", "ref": "bataille-de-mohi" },
+        { "annee": 1258, "evenement": "Sac de Bagdad", "ref": "sac-de-bagdad" },
+        { "annee": 1260, "evenement": "Défaite d’Aïn Djalout face aux Mamelouks" }
+      ]
+    },
+    {
+      "nom": "Les quatre khanats",
+      "debut": 1260,
+      "fin": 1368,
+      "resume": "L’empire se divise : Horde d’Or en Russie, Ilkhanat en Perse, khanat de Djaghataï en Asie centrale et dynastie Yuan en Chine. Les échanges entre l’Europe et l’Asie sont intenses.",
+      "evenements": [
+        { "annee": 1271, "evenement": "Kubilaï fonde la dynastie Yuan" },
+        { "annee": 1279, "evenement": "Conquête des Song", "ref": "bataille-de-yamen" },
+        { "annee": 1295, "evenement": "Conversion de l’ilkhan Ghazan à l’islam" },
+        { "annee": 1368, "evenement": "Les Mongols chassés de Chine" }
+      ]
+    }
+  ],
+  "dynasties": [
+    {
+      "id": "grands-khans",
+      "nom": "Les grands khans",
+      "debut": 1206,
+      "fin": 1294,
+      "note": "Avec les régentes qui gouvernent entre deux règnes."
+    },
+    { "id": "yuan", "nom": "Les empereurs Yuan de Chine", "debut": 1294, "fin": 1368, "note": "Sélection." },
+    { "id": "khanats", "nom": "Les khans des grands khanats", "debut": 1226, "fin": 1304, "note": "Sélection." }
+  ],
+  "societe": "Gengis Khan brise les anciennes tribus et organise les Mongols en unités militaires. Il fait rédiger un code de lois, le Yassa. Les femmes des familles princières jouent un rôle politique important, comme régentes. Les peuples soumis sont gouvernés par des administrateurs de toutes origines.",
+  "economie": "Élevage nomade, tribut et impôts des peuples conquis, commerce le long des routes de la soie, protégées par l’empire (la « paix mongole »).",
+  "decouvertes": ["yam"],
+  "arts": "De Karakorum, il ne reste presque rien, mais la cour des khans emploie des artistes de tout l’empire : miniatures persanes de l’Ilkhanat, porcelaine bleue et blanche de la Chine des Yuan, tapis et objets de métal.",
+  "quotidien": "Les Mongols vivent dans des yourtes de feutre, se déplacent avec leurs troupeaux et apprennent à monter à cheval dès l’enfance. Ils se nourrissent de viande et de lait de jument fermenté (airag).",
+  "heritage": [
+    {
+      "titre": "La Mongolie",
+      "texte": "Gengis Khan est le héros national de la Mongolie ; l’aéroport et la grande place d’Oulan-Bator portent son nom."
+    },
+    {
+      "titre": "Les échanges",
+      "texte": "La « paix mongole » rapproche l’Europe et l’Asie : récits de voyageurs, techniques, mais aussi la peste noire, qui suit les routes commerciales."
+    },
+    { "titre": "Les descendants", "texte": "Les empires timouride et moghol se réclament de l’héritage mongol." }
+  ],
+  "aSavoir": [
+    "Le tombeau de Gengis Khan n’a jamais été retrouvé : selon la légende, ceux qui l’ont enterré ont été tués pour garder le secret."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Empire_mongol",
+    { "titre": "Encyclopædia Britannica — Mongol empire", "url": "https://www.britannica.com/place/Mongol-empire" }
+  ]
+}

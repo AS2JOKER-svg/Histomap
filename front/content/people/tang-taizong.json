@@ -1,0 +1,19 @@
+{
+  "id": "tang-taizong",
+  "nom": "Taizong",
+  "nomComplet": "Li Shimin, empereur Taizong des Tang",
+  "role": "Empereur de Chine",
+  "roles": ["Empereur", "Général"],
+  "dates": "598 → 649",
+  "naissance": 598,
+  "mort": 649,
+  "description": "Deuxième empereur des Tang, général victorieux et souverain modèle de la tradition chinoise, il consolide la dynastie fondée par son père.",
+  "reperes": [{ "label": "Règne", "valeur": "626 → 649" }],
+  "essentiel": [
+    "Il prend le pouvoir en 626 en éliminant ses frères (coup de la porte Xuanwu).",
+    "Il soumet les Turcs orientaux (630) et étend l’influence chinoise en Asie centrale.",
+    "Son règne, l’ère Zhenguan, reste dans la tradition un modèle de bon gouvernement."
+  ],
+  "aSavoir": ["Il accueille en 645 le moine Xuanzang, revenu d’Inde avec des centaines de textes bouddhistes."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Tang_Taizong"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "magna-carta",
+  "nom": "Grande Charte (Magna Carta)",
+  "annee": 1215,
+  "dates": "15 juin 1215",
+  "lieu": "Runnymede, près de Londres",
+  "description": "Révoltés, les barons imposent au roi Jean sans Terre une charte qui limite son pouvoir : le roi doit respecter la loi.",
+  "sections": [
+    {
+      "titre": "Ce qu’elle prévoit",
+      "texte": "Le roi ne peut lever certains impôts sans l’accord des grands, ni emprisonner un homme libre sans jugement de ses pairs ou sans respecter la loi du pays."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Annulée par le pape quelques semaines plus tard, elle est rééditée plusieurs fois et devient un symbole des libertés face au pouvoir."
+    }
+  ],
+  "aSavoir": ["Quatre exemplaires originaux de 1215 sont conservés."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Magna_Carta"
+}

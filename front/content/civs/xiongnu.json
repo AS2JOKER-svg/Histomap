@@ -1,0 +1,201 @@
+{
+  "id": "xiongnu",
+  "label": "Xiongnu",
+  "tier": 1,
+  "region": "mongolie",
+  "period": "-209 à 46",
+  "start": -209,
+  "end": 46,
+  "color": "#795548",
+  "trackId": "steppe_asie",
+  "row": 8,
+  "isRiver": false,
+  "capitale": "Ordo (Campements mobiles)",
+  "description": "Une puissante confédération de peuples nomades des steppes de Mongolie, qui tient tête à l’empire chinois des Han pendant deux siècles.",
+  "territories": ["Xiongnu", "Southern Xiongnu"],
+  "datesCles": [
+    {
+      "annee": -209,
+      "evenement": "L’unification des steppes",
+      "info": "Modu fait tuer son père, le chanyu Touman, et rassemble les tribus nomades."
+    },
+    {
+      "annee": -200,
+      "evenement": "Bataille de Baideng",
+      "info": "Les Xiongnu encerclent l’empereur Han Gaozu, qui s’échappe après sept jours et négocie le traité de « paix et parenté » (heqin).",
+      "ref": "bataille-de-baideng"
+    },
+    {
+      "annee": -176,
+      "evenement": "Défaite des Yuezhi",
+      "info": "Les Xiongnu chassent les Yuezhi vers l’ouest et dominent les oasis du bassin du Tarim."
+    },
+    {
+      "annee": -119,
+      "evenement": "Défaite de Mobei",
+      "info": "Les armées de Wudi repoussent les Xiongnu au nord du désert de Gobi."
+    },
+    {
+      "annee": -51,
+      "evenement": "Soumission de Huhanye",
+      "info": "Le chanyu Huhanye se rend à la cour des Han et accepte la suzeraineté chinoise."
+    },
+    {
+      "annee": 46,
+      "evenement": "Crise et scission",
+      "info": "Une crise éclate en 46 apr. J.-C. ; en 48, la confédération se divise formellement en deux (Xiongnu du Nord, hostiles, et du Sud, alliés de la Chine)."
+    }
+  ],
+  "dirigeants": [
+    { "nom": "Touman", "titre": "Chanyu", "debut": -220, "fin": -209, "dynastie": "chanyu", "note": "tué par son fils" },
+    {
+      "nom": "Modu",
+      "titre": "Chanyu",
+      "debut": -209,
+      "fin": -174,
+      "dynastie": "chanyu",
+      "personne": "modu-chanyu",
+      "note": "unifie les steppes",
+      "cle": true
+    },
+    { "nom": "Laoshang", "titre": "Chanyu", "debut": -174, "fin": -161, "dynastie": "chanyu", "note": "bat les Yuezhi" },
+    { "nom": "Junchen", "titre": "Chanyu", "debut": -161, "fin": -126, "dynastie": "chanyu" },
+    { "nom": "Yizhixie", "titre": "Chanyu", "debut": -126, "fin": -114, "dynastie": "chanyu", "note": "défait à Mobei" },
+    {
+      "nom": "Huhanye",
+      "titre": "Chanyu",
+      "debut": -58,
+      "fin": -31,
+      "dynastie": "chanyu",
+      "note": "se soumet aux Han",
+      "cle": true
+    },
+    {
+      "nom": "Zhizhi",
+      "titre": "Chanyu (rival)",
+      "debut": -56,
+      "fin": -36,
+      "dynastie": "chanyu",
+      "note": "tué par une armée chinoise en Asie centrale"
+    },
+    { "nom": "Huduershi", "titre": "Chanyu", "debut": 18, "fin": 46, "dynastie": "chanyu" }
+  ],
+  "personnages": [
+    {
+      "nom": "Modu Chanyu",
+      "role": "Chanyu",
+      "description": "Fondateur de la puissance xiongnu, il unit les tribus des steppes et humilie le premier empereur Han.",
+      "dates": "règne −209 → −174",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Modu_Chanyu",
+      "ref": "modu-chanyu"
+    },
+    {
+      "nom": "Wang Zhaojun",
+      "role": "Dame de la cour Han",
+      "description": "Envoyée en −33 pour épouser le chanyu Huhanye, elle devient l’une des « Quatre Beautés » de la tradition chinoise et un symbole de paix entre les peuples.",
+      "dates": "Ier siècle av. J.-C.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Wang_Zhaojun"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Bataille de Baideng",
+      "annee": -200,
+      "adversaires": ["Dynastie Han (Gaozu)"],
+      "allies": [],
+      "morts": "Inconnues ; beaucoup de soldats chinois souffrent du froid",
+      "vainqueur": "Xiongnu",
+      "consequences": "Selon l’historien Sima Qian, l’empereur de Chine est encerclé par 400 000 cavaliers, un chiffre sans doute exagéré. Il s’échappe au bout de sept jours puis négocie le heqin, un traité qui oblige la Chine à verser des présents aux nomades.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Battle_of_Baideng"
+    }
+  ],
+  "sciences": "Les Xiongnu sont des cavaliers et archers redoutables, équipés d’arcs composites renforcés d’os. Selon Sima Qian, Modu utilise des flèches sifflantes pour désigner les cibles à ses cavaliers. Les tombes de Noin-Ula, en Mongolie, montrent des tapis, des soieries chinoises et des objets venus de tout le continent.",
+  "croyancesText": "Selon les historiens chinois, les Xiongnu honorent le Ciel, la Terre, le Soleil, la Lune et les ancêtres. Le chanyu se dit « fils du Ciel ». Chaque année, de grands rassemblements réunissent les chefs pour des sacrifices, des courses de chevaux et le recensement des hommes et des troupeaux.",
+  "diplomatie": "Les Xiongnu vivent de l’élevage, mais ont besoin des céréales, du métal et de la soie de la Chine, qu’ils obtiennent par le commerce, les raids ou les traités. Par le heqin, les Han leur envoient chaque année des présents et des princesses, en échange de la paix sur la frontière.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": {
+      "valeur": "Longcheng",
+      "precision": "lieu de rassemblement saisonnier en Mongolie ; les chefs se déplacent avec leurs troupeaux"
+    },
+    "regimes": {
+      "valeur": "Confédération de tribus",
+      "precision": "dirigée par un chanyu, entouré des « rois » de la gauche et de la droite"
+    },
+    "langues": { "valeur": "Inconnue", "precision": "pas d’écriture ; peut-être une langue turque, iénisséienne ou mongole" },
+    "religion": { "valeur": "Culte du Ciel", "precision": "ainsi que de la Terre, du Soleil, de la Lune et des ancêtres" },
+    "apogee": { "valeur": "Règne de Modu (−209 → −174)" },
+    "population": { "valeur": "Peut-être 1 à 2 millions", "precision": "estimation très incertaine" },
+    "monnaie": { "valeur": "Aucune", "precision": "échanges de bétail, de soie et de métaux" },
+    "duree": { "valeur": "Environ 250 ans", "precision": "jusqu’à la division en Xiongnu du Nord et du Sud" },
+    "aujourdhui": { "valeur": "Mongolie", "precision": "et le nord de la Chine, le sud de la Sibérie" }
+  },
+  "essentiel": [
+    "Vers −209, [[modu-chanyu|Modu]] prend le pouvoir en tuant son père et unit les tribus des steppes en une puissante confédération.",
+    "À [[bataille-de-baideng|Baideng]] (−200), il encercle le premier empereur Han, qui doit acheter la paix.",
+    "Pendant soixante ans, la Chine verse aux Xiongnu des présents et leur donne des princesses en mariage : c’est le heqin.",
+    "L’empereur Han Wudi passe à l’offensive et repousse les Xiongnu au nord du désert de Gobi.",
+    "Affaiblie par les guerres et les querelles de succession, la confédération se divise ; une partie se soumet à la Chine."
+  ],
+  "periodes": [
+    {
+      "nom": "L’empire des steppes",
+      "debut": -209,
+      "fin": -133,
+      "resume": "Modu et ses successeurs dominent la Mongolie, le bassin du Tarim et imposent le heqin aux Han.",
+      "evenements": [
+        { "annee": -200, "evenement": "Bataille de Baideng", "ref": "bataille-de-baideng" },
+        { "annee": -176, "evenement": "Victoire sur les Yuezhi" }
+      ]
+    },
+    {
+      "nom": "Les guerres contre les Han",
+      "debut": -133,
+      "fin": -51,
+      "resume": "Les Han lancent de grandes campagnes et repoussent les Xiongnu, qui se déchirent entre plusieurs chanyu rivaux.",
+      "evenements": [
+        { "annee": -119, "evenement": "Défaite de Mobei" },
+        { "annee": -57, "evenement": "Guerre civile entre cinq chanyu" }
+      ]
+    },
+    {
+      "nom": "La division",
+      "debut": -51,
+      "fin": 46,
+      "resume": "Une partie des Xiongnu se soumet aux Han ; la confédération se divise définitivement en 48.",
+      "evenements": [
+        { "annee": -51, "evenement": "Soumission de Huhanye" },
+        { "annee": -33, "evenement": "Mariage de Huhanye et de Wang Zhaojun" }
+      ]
+    }
+  ],
+  "dynasties": [
+    {
+      "id": "chanyu",
+      "nom": "Les chanyu",
+      "debut": -220,
+      "fin": 46,
+      "note": "Sélection ; dates transmises par les historiens chinois."
+    }
+  ],
+  "societe": "Le chanyu est entouré de grands chefs, les « rois sages » de la gauche (l’est) et de la droite (l’ouest). Tous les hommes sont des guerriers à cheval, entraînés dès l’enfance à tirer à l’arc.",
+  "economie": "Élevage nomade de chevaux, de moutons et de chameaux, tribut des peuples soumis et des oasis du Tarim, échanges avec la Chine.",
+  "decouvertes": [],
+  "arts": "Plaques de ceinture en bronze et en or ornées d’animaux, tapis de feutre brodé, bijoux : un art animalier proche de celui des autres nomades des steppes.",
+  "quotidien": "Les familles vivent sous la tente et se déplacent avec leurs troupeaux selon les saisons. Elles mangent de la viande et boivent du lait fermenté.",
+  "heritage": [
+    {
+      "titre": "Les Huns ?",
+      "texte": "Certains historiens rattachent les Huns d’Attila, apparus en Europe au IVe siècle, aux Xiongnu ; le lien reste débattu."
+    },
+    {
+      "titre": "Le premier empire des steppes",
+      "texte": "Les Xiongnu inaugurent un modèle repris par les Turcs puis les Mongols : une confédération nomade face à la Chine."
+    }
+  ],
+  "aSavoir": ["Presque tout ce que l’on sait des Xiongnu vient de leurs adversaires chinois, notamment de Sima Qian."],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Xiongnu",
+    { "titre": "Encyclopædia Britannica — Xiongnu", "url": "https://www.britannica.com/topic/Xiongnu" }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "id": "gobekli-tepe",
+  "label": "Proche-Orient (Göbekli Tepe)",
+  "tier": 1,
+  "region": "anatolie",
+  "period": "-10000 à -8000",
+  "start": -10000,
+  "end": -8000,
+  "color": "#8d6e63",
+  "trackId": "proche_orient",
+  "row": 3,
+  "isRiver": false,
+  "capitale": "Göbekli Tepe / Karahan Tepe",
+  "description": "Le plus ancien sanctuaire monumental connu, bâti par des chasseurs-cueilleurs avant même l'invention de l'agriculture, renversant notre compréhension de l'histoire.",
+  "territories": ["Levantine Corridor (Neolithic Farmers)"],
+  "datesCles": [
+    {
+      "annee": -9600,
+      "evenement": "Érection des mégalithes",
+      "info": "Taille et mise en place des immenses piliers en forme de T ornés de bas-reliefs animaliers."
+    },
+    {
+      "annee": -8500,
+      "evenement": "Domestication végétale précoce",
+      "info": "Selon des études génétiques, l'engrain (une céréale proche du blé) a été domestiqué dans la région (monts Karaca Dağ)."
+    },
+    {
+      "annee": -8000,
+      "evenement": "Enfouissement du site",
+      "info": "Les enceintes sont recouvertes de gravats, ce qui les a conservées. Cet enfouissement a peut-être été volontaire, mais la question est débattue."
+    }
+  ],
+  "dirigeants": [],
+  "personnages": [
+    {
+      "nom": "Klaus Schmidt",
+      "role": "Archéologue",
+      "description": "Il dirige les fouilles de Göbekli Tepe à partir de 1995 et révèle au monde l’importance du site.",
+      "dates": "1953 → 2014",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Klaus_Schmidt_(arch%C3%A9ologue)"
+    }
+  ],
+  "guerres": [],
+  "sciences": "Tailler dans le calcaire, déplacer et dresser des piliers d’une dizaine de tonnes, sans outils de métal ni animaux de trait, demandait une organisation remarquable. Ce chantier montre que des chasseurs-cueilleurs pouvaient mener de grands travaux collectifs avant l’invention de l’agriculture.",
+  "croyancesText": "Longtemps présenté comme un pur sanctuaire, le site a aussi livré des maisons, des meules et des citernes. Les reliefs montrent surtout des animaux sauvages, souvent dangereux (serpents, scorpions, vautours, renards), mais aussi des sangliers et des aurochs. Les grands piliers en T, dotés de bras, de mains et de ceintures, pourraient représenter des ancêtres ou des êtres surnaturels ; leur signification exacte reste inconnue.",
+  "diplomatie": "Un tel chantier suppose la collaboration de plusieurs groupes de la région. Göbekli Tepe a pu être un lieu de rassemblement où l’on festoyait ensemble, comme le suggèrent les nombreux restes d’animaux consommés.",
+  "documentaires": [],
+  "reperes": {
+    "capitale": {
+      "valeur": "Aucune",
+      "precision": "sites : Göbekli Tepe, Karahan Tepe et d’autres collines de la région de Şanlıurfa"
+    },
+    "regimes": { "valeur": "Groupes de chasseurs-cueilleurs", "precision": "capables de s’unir pour de grands chantiers" },
+    "langues": { "valeur": "Inconnues" },
+    "religion": { "valeur": "Inconnue", "precision": "piliers sculptés et animaux sauvages évoquent des rites ou des mythes" },
+    "monnaie": { "valeur": "Aucune" },
+    "duree": { "valeur": "Environ 1 500 ans d’occupation" },
+    "aujourdhui": { "valeur": "Turquie", "precision": "sud-est, près de Şanlıurfa" }
+  },
+  "essentiel": [
+    "Vers −9500, sur une colline du sud-est de la Turquie, des chasseurs-cueilleurs élèvent des enceintes de grands piliers de pierre en forme de T.",
+    "Ces piliers, hauts jusqu’à 5,5 m, sont sculptés d’animaux sauvages : renards, sangliers, serpents, vautours, scorpions.",
+    "C’est l’un des plus anciens ensembles monumentaux connus, antérieur de plus de 6 000 ans à Stonehenge.",
+    "Le site montre que de grands chantiers ont précédé l’agriculture, qui naît justement dans cette région peu après.",
+    "Les fouilles récentes ont aussi révélé des maisons et des citernes : Göbekli Tepe était peut-être autant un lieu de vie qu’un sanctuaire."
+  ],
+  "periodes": [
+    {
+      "nom": "Les grandes enceintes",
+      "debut": -9600,
+      "fin": -8800,
+      "resume": "Les plus grands cercles de piliers sont élevés. Les piliers centraux, avec bras et ceintures sculptés, représentent sans doute des êtres humains ou des ancêtres.",
+      "evenements": [{ "annee": -9600, "evenement": "Premières enceintes de piliers" }]
+    },
+    {
+      "nom": "Les bâtiments plus petits",
+      "debut": -8800,
+      "fin": -8000,
+      "resume": "Les constructions deviennent plus modestes et rectangulaires, avant l’abandon et le comblement du site.",
+      "evenements": [{ "annee": -8000, "evenement": "Comblement des enceintes" }]
+    }
+  ],
+  "societe": "Les bâtisseurs sont des chasseurs-cueilleurs, peut-être déjà en partie sédentaires. Les grands banquets montrent une vie collective organisée autour du site.",
+  "economie": "Chasse à la gazelle et à l’aurochs, cueillette de céréales sauvages : l’engrain, ancêtre du blé, sera domestiqué dans les montagnes voisines.",
+  "arts": "Reliefs d’animaux sur les piliers, sculptures en ronde-bosse (têtes humaines, sangliers) : un art monumental d’une étonnante maîtrise pour l’époque.",
+  "quotidien": "On taille la pierre, on chasse, on prépare de grands repas collectifs, on broie les graines sur des meules. Des citernes creusées dans la roche recueillent l’eau de pluie.",
+  "heritage": [
+    {
+      "titre": "Patrimoine mondial",
+      "texte": "Göbekli Tepe est inscrit au patrimoine mondial de l’UNESCO depuis 2018."
+    },
+    {
+      "titre": "Une question nouvelle",
+      "texte": "Le site a renversé l’idée que les grands monuments n’apparaissaient qu’après l’agriculture."
+    }
+  ],
+  "aSavoir": [
+    "Seule une petite partie du site a été fouillée ; les géophysiciens ont repéré d’autres enceintes encore enterrées.",
+    "L’idée d’un enfouissement volontaire du site est aujourd’hui remise en question : les enceintes ont pu se combler en partie naturellement."
+  ],
+  "sources": ["https://fr.wikipedia.org/wiki/G%C3%B6bekli_Tepe"]
+}

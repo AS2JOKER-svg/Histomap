@@ -1,0 +1,23 @@
+{
+  "id": "chateau-de-versailles",
+  "nom": "Château de Versailles",
+  "annee": 1682,
+  "domaine": "Architecture",
+  "dates": "1661 → 1710",
+  "description": "L’ancien pavillon de chasse de Louis XIII, transformé par [[louis-xiv|Louis XIV]] en un immense palais où vivent la cour et le gouvernement à partir de 1682.",
+  "sections": [
+    {
+      "titre": "Comment il a été bâti",
+      "texte": "Les architectes Le Vau et Hardouin-Mansart, le peintre Le Brun et le jardinier Le Nôtre y travaillent pendant des décennies, avec des milliers d’ouvriers."
+    },
+    {
+      "titre": "Son rôle",
+      "texte": "En attirant la noblesse à la cour, le roi la surveille et la rend dépendante de ses faveurs. Versailles devient le modèle des palais royaux d’Europe."
+    }
+  ],
+  "aSavoir": [
+    "La galerie des Glaces compte 357 miroirs ; on y a signé en 1919 le traité qui met fin à la Première Guerre mondiale."
+  ],
+  "liens": [{ "ref": "louis-xiv", "relation": "Le roi bâtisseur" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Versailles"
+}

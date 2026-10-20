@@ -1,0 +1,23 @@
+{
+  "id": "bataille-de-bouvines",
+  "nom": "Bataille de Bouvines",
+  "annee": 1214,
+  "dates": "27 juillet 1214",
+  "lieu": "Bouvines, près de Lille",
+  "description": "[[philippe-auguste|Philippe Auguste]] bat la coalition de l’empereur Otton IV et des comtes de Flandre et de Boulogne, alliés du roi d’Angleterre Jean sans Terre.",
+  "sections": [
+    {
+      "titre": "Contexte",
+      "texte": "Jean sans Terre veut reprendre les fiefs que Philippe Auguste lui a confisqués, dont la Normandie. Il attaque par le sud-ouest pendant que ses alliés attaquent par le nord."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "La victoire consolide les conquêtes du roi de France. Otton IV perd l’Empire au profit de Frédéric II ; affaibli, Jean sans Terre doit accepter en Angleterre la Grande Charte (1215)."
+    }
+  ],
+  "liens": [{ "ref": "philippe-auguste", "relation": "Le vainqueur" }],
+  "aSavoir": [
+    "La bataille a été célébrée plus tard comme un moment fondateur du sentiment national, mais l’idée de nation au sens moderne n’existe pas encore en 1214."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Bouvines"
+}

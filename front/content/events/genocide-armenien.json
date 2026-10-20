@@ -1,0 +1,20 @@
+{
+  "id": "genocide-armenien",
+  "nom": "Génocide arménien",
+  "annee": 1915,
+  "fin": 1923,
+  "dates": "1915 → 1916 (et jusqu’en 1923)",
+  "lieu": "Empire ottoman",
+  "description": "Le gouvernement ottoman des Jeunes-Turcs organise la déportation et l’extermination de la population arménienne de l’empire : plus d’un million de morts.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "À partir d’avril 1915, les élites arméniennes sont arrêtées et tuées ; les hommes sont massacrés, les femmes, les enfants et les vieillards déportés vers les déserts de Syrie, où beaucoup meurent de faim et de violences. D’autres chrétiens, comme les Assyriens, sont aussi victimes de massacres."
+    },
+    {
+      "titre": "Mémoire",
+      "texte": "Le 24 avril est le jour de commémoration. Le génocide est reconnu par de nombreux pays, dont la France (2001), mais pas par la Turquie."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/G%C3%A9nocide_arm%C3%A9nien"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "coup-d-etat-de-1953",
+  "nom": "Coup d’État de 1953 en Iran",
+  "annee": 1953,
+  "dates": "19 août 1953",
+  "lieu": "Téhéran",
+  "description": "La CIA américaine et les services britanniques organisent le renversement du Premier ministre Mohammad Mossadegh, qui avait nationalisé le pétrole iranien.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "Le chah Mohammad Reza renforce son pouvoir personnel, avec l’appui des États-Unis. Ce coup d’État nourrit durablement la méfiance des Iraniens envers l’Occident."
+    }
+  ],
+  "avant": "revolution-constitutionnelle-persane",
+  "apres": "revolution-iranienne",
+  "aSavoir": ["Les États-Unis n’ont reconnu officiellement leur rôle qu’en 2013, en publiant des documents de la CIA."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Op%C3%A9ration_Ajax"
+}

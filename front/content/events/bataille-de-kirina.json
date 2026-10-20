@@ -1,0 +1,21 @@
+{
+  "id": "bataille-de-kirina",
+  "nom": "Bataille de Kirina",
+  "annee": 1235,
+  "dates": "vers 1235",
+  "lieu": "Kirina (Mali)",
+  "description": "[[soundiata-keita|Soundiata Keïta]], à la tête d’une coalition de clans mandingues, bat le roi forgeron du Sosso, Soumaoro Kanté.",
+  "sections": [
+    {
+      "titre": "Ce que raconte l’épopée",
+      "texte": "Soumaoro passait pour invincible grâce à sa magie. Soundiata découvre son interdit : un ergot de coq blanc. Atteint par une flèche armée de cet ergot, Soumaoro perd ses pouvoirs et s’enfuit."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Soundiata devient le maître du pays mandingue et fonde l’empire du Mali."
+    }
+  ],
+  "liens": [{ "ref": "soundiata-keita", "relation": "Le vainqueur" }],
+  "apres": "charte-du-manden",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Kirina"
+}

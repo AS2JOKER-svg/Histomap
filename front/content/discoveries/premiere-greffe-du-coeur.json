@@ -1,0 +1,15 @@
+{
+  "id": "premiere-greffe-du-coeur",
+  "nom": "Première greffe du cœur",
+  "annee": 1967,
+  "domaine": "Médecine",
+  "dates": "3 décembre 1967",
+  "description": "Au Cap, le chirurgien Christiaan Barnard et son équipe réalisent la première transplantation d’un cœur humain d’une personne à une autre.",
+  "sections": [
+    {
+      "titre": "La suite",
+      "texte": "Le patient, Louis Washkansky, survit 18 jours avant de mourir d’une pneumonie. Les médicaments contre le rejet, mis au point dans les années 1980, permettront aux greffés de vivre de nombreuses années."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Christiaan_Barnard"
+}

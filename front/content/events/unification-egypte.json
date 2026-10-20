@@ -1,0 +1,20 @@
+{
+  "id": "unification-egypte",
+  "nom": "Unification de l’Égypte",
+  "annee": -3100,
+  "dates": "vers −3150 / −3000",
+  "lieu": "Vallée du Nil",
+  "description": "Les royaumes de Haute-Égypte (au sud) et de Basse-Égypte (le delta, au nord) sont réunis sous un seul roi : l’histoire des pharaons commence.",
+  "sections": [
+    {
+      "titre": "Ce que l’on sait",
+      "texte": "La tradition attribue l’unification au roi Narmer, représenté sur une célèbre palette en pierre portant les deux couronnes. Les historiens pensent plutôt à un processus progressif, sur plusieurs générations."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Le pharaon porte désormais la double couronne de Haute et de Basse-Égypte, symbole d’un pays uni qui le restera, avec des interruptions, pendant trois mille ans."
+    }
+  ],
+  "aSavoir": ["La date exacte est incertaine : selon les chronologies, entre −3150 et −3000 environ."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Narmer"
+}

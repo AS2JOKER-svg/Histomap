@@ -1,0 +1,24 @@
+{
+  "id": "chinampas",
+  "nom": "Chinampas",
+  "annee": 1300,
+  "domaine": "Agriculture",
+  "dates": "avant les Aztèques ; très développées au XVe siècle",
+  "description": "Des champs construits dans les eaux peu profondes du lac : de longues bandes de terre et de végétaux entourées de canaux, très fertiles.",
+  "sections": [
+    {
+      "titre": "Comment ça marche",
+      "texte": "On empile boue du fond du lac et végétaux entre des piquets ; des saules plantés sur les bords retiennent la terre avec leurs racines. L’eau des canaux irrigue les cultures et permet plusieurs récoltes par an."
+    }
+  ],
+  "heritage": [
+    {
+      "titre": "Xochimilco",
+      "texte": "Au sud de Mexico, des chinampas sont toujours cultivées ; le site est inscrit au patrimoine mondial de l’UNESCO."
+    }
+  ],
+  "aSavoir": [
+    "Contrairement à une idée répandue, les chinampas ne sont pas des « jardins flottants » : elles reposent sur le fond du lac."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Chinampa"
+}

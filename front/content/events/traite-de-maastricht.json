@@ -1,0 +1,16 @@
+{
+  "id": "traite-de-maastricht",
+  "nom": "Traité de Maastricht",
+  "annee": 1992,
+  "dates": "7 février 1992",
+  "lieu": "Maastricht (Pays-Bas)",
+  "description": "Les douze États de la Communauté créent l’Union européenne, une citoyenneté européenne et prévoient une monnaie unique.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "L’Union s’étend à la politique étrangère, à la justice et à la police. En France, le traité est approuvé de justesse par référendum (51 % de oui)."
+    }
+  ],
+  "avant": "traite-de-rome",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Trait%C3%A9_de_Maastricht"
+}

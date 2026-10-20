@@ -1,0 +1,22 @@
+{
+  "id": "triple-alliance",
+  "nom": "Formation de la Triple Alliance",
+  "annee": 1428,
+  "dates": "1428",
+  "lieu": "Vallée de Mexico",
+  "description": "Tenochtitlan, Texcoco et Tlacopan s’allient et renversent Azcapotzalco, la cité qui dominait la vallée. C’est la naissance de l’empire aztèque.",
+  "sections": [
+    {
+      "titre": "Contexte",
+      "texte": "Les Mexicas étaient jusque-là tributaires d’Azcapotzalco, capitale des Tépanèques. À la mort de son roi, une crise de succession offre l’occasion de se libérer."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Les trois cités se partagent le tribut des peuples vaincus. Tenochtitlan prend peu à peu le dessus sur ses deux alliées."
+    }
+  ],
+  "liens": [{ "ref": "nezahualcoyotl", "relation": "Souverain de Texcoco, cofondateur" }],
+  "avant": "fondation-de-tenochtitlan",
+  "apres": "chute-de-tenochtitlan",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Triple_Alliance_(M%C3%A9soam%C3%A9rique)"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "ciceron",
+  "nom": "Cicéron",
+  "nomComplet": "Marcus Tullius Cicero",
+  "role": "Orateur et homme politique",
+  "roles": ["Avocat", "Consul", "Philosophe"],
+  "dates": "−106 → −43",
+  "naissance": -106,
+  "mort": -43,
+  "description": "Avocat, consul et plus grand orateur de Rome, défenseur de la République ; ses discours et ses lettres sont une source majeure sur son époque.",
+  "reperes": [
+    { "label": "Consulat", "valeur": "−63", "precision": "il déjoue la conjuration de Catilina" },
+    { "label": "Mort", "valeur": "−43", "precision": "assassiné sur ordre de Marc Antoine" }
+  ],
+  "essentiel": [
+    "Il incarne l’« homme nouveau » : sans ancêtres consuls, il parvient au sommet par son talent oratoire.",
+    "Il défend la République contre César, puis contre Marc Antoine (les Philippiques).",
+    "Ses écrits fixent le latin classique et inspirent les humanistes de la Renaissance."
+  ],
+  "liens": [{ "ref": "jules-cesar", "relation": "Adversaire politique" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Cic%C3%A9ron"
+}

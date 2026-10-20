@@ -1,0 +1,22 @@
+{
+  "id": "chute-de-grenade",
+  "nom": "Chute de Grenade",
+  "annee": 1492,
+  "dates": "2 janvier 1492",
+  "lieu": "Grenade (Andalousie)",
+  "description": "Après dix ans de guerre, le dernier émir nasride, Boabdil, remet Grenade aux Rois catholiques, Isabelle de Castille et Ferdinand d’Aragon : c’est la fin d’al-Andalus.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Assiégée, affamée, la ville se rend par un traité qui promet aux musulmans de garder leur religion et leurs biens."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Les promesses ne sont pas tenues : les juifs sont expulsés dès 1492, et les musulmans contraints à la conversion à partir de 1502. La même année 1492, Christophe Colomb, financé par les Rois catholiques, atteint l’Amérique."
+    }
+  ],
+  "aSavoir": [
+    "Selon la légende, Boabdil se retourna en pleurant vers Grenade depuis un col appelé depuis « le Soupir du Maure »."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Prise_de_Grenade"
+}

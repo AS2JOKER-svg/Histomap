@@ -1,0 +1,16 @@
+{
+  "id": "taytu-betul",
+  "nom": "Taytu Betul",
+  "role": "Impératrice d’Éthiopie",
+  "roles": ["Impératrice"],
+  "dates": "vers 1851 → 1918",
+  "naissance": 1851,
+  "mort": 1918,
+  "description": "Épouse et conseillère de [[menelik-ii|Ménélik II]], elle est l’une des femmes les plus puissantes de l’histoire éthiopienne.",
+  "essentiel": [
+    "Elle choisit le site d’Addis-Abeba, « la nouvelle fleur ».",
+    "Elle s’oppose au traité de Wouchalé, que l’Italie voulait interpréter comme un protectorat.",
+    "Elle commande ses propres troupes lors de la campagne d’Adoua."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Taytu_Betul"
+}

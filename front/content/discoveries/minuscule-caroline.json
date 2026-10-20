@@ -1,0 +1,19 @@
+{
+  "id": "minuscule-caroline",
+  "nom": "Minuscule caroline",
+  "annee": 780,
+  "domaine": "Écriture",
+  "dates": "vers 780",
+  "description": "Une écriture claire et régulière, aux lettres bien séparées, adoptée par les copistes de l’empire de [[charlemagne|Charlemagne]] : l’ancêtre de nos lettres minuscules.",
+  "sections": [
+    {
+      "titre": "Pourquoi elle a été créée",
+      "texte": "Les écritures de l’époque variaient beaucoup d’une région à l’autre et étaient difficiles à lire. La caroline, plus simple, facilite la copie et la lecture des textes dans tout l’empire."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Oubliée au profit de l’écriture gothique, elle est redécouverte par les humanistes italiens au XVe siècle, qui la prennent pour une écriture antique. Les imprimeurs en tirent les caractères que nous utilisons encore."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Minuscule_caroline"
+}

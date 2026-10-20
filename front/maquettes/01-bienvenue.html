@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Premier lancement · Maquettes HistoMap</title>
+<link rel="stylesheet" href="assets/maquette.css">
+<style>
+  .onb { position: absolute; inset: 44px 0 0; display: flex; flex-direction: column; }
+  .onb [data-step][hidden] { display: none !important; }
+  .onb .skip { align-self: flex-end; margin: 6px 12px 0; font-weight: 600; color: rgb(var(--c-muted)); padding: 10px 12px; }
+  .onb .art { flex: 1; display: grid; place-items: center; padding: 10px 24px; }
+  .onb .txt { padding: 0 28px; text-align: center; }
+  .onb h1 { font-family: Fraunces, Georgia, serif; font-size: 30px; line-height: 1.15; font-weight: 600; }
+  .onb p { margin-top: 10px; color: rgb(var(--c-muted)); font-size: 16px; line-height: 1.55; }
+  .onb .foot { padding: 20px 24px 34px; }
+  .dots-nav { display: flex; justify-content: center; gap: 8px; margin-bottom: 18px; }
+  .dots-nav button { width: 8px; height: 8px; border-radius: 99px; background: rgb(var(--c-line)); transition: width .2s; }
+  .dots-nav button[aria-current='true'] { width: 26px; background: rgb(var(--c-ink)); }
+  .mini-frise { width: 100%; display: grid; gap: 8px; }
+  .mini-frise div { height: 26px; border-radius: 8px; }
+  .stack { position: relative; width: 200px; height: 250px; }
+  .stack .c { position: absolute; inset: 0; border-radius: 22px; background: rgb(var(--c-surface)); border: 1px solid rgb(var(--c-line)); box-shadow: var(--shadow-lift); padding: 20px; }
+  .score { position: absolute; right: -24px; bottom: -14px; width: 92px; height: 92px; border-radius: 99px; display: grid; place-items: center; text-align: center; color: #fff; background: rgb(var(--c-success)); box-shadow: var(--shadow-lift); font-family: Fraunces, Georgia, serif; font-size: 26px; font-weight: 700; line-height: 1; }
+  .score small { display: block; font-family: Inter, sans-serif; font-size: 11px; font-weight: 600; opacity: .9; }
+</style>
+</head>
+<body>
+<main class="stage">
+  <div class="phone">
+    <div class="statusbar"><span>9:41</span><span class="dots">●●● ▮</span></div>
+
+    <div class="onb" data-onboarding>
+      <a class="skip" href="02-accueil.html">Passer</a>
+
+      <section data-step style="display:contents">
+        <div class="art">
+          <div class="mini-frise" aria-hidden="true">
+            <div style="width:78%;background:#c9a227"></div>
+            <div style="width:52%;margin-left:30%;background:#4a90d9"></div>
+            <div style="width:64%;margin-left:34%;background:#8e44ad"></div>
+            <div style="width:40%;margin-left:12%;background:#bc6c25"></div>
+            <div style="width:55%;margin-left:45%;background:#e67e22"></div>
+            <div style="width:36%;margin-left:60%;background:#16a085"></div>
+          </div>
+        </div>
+        <div class="txt">
+          <h1>L'histoire du monde, en un coup d'œil</h1>
+          <p>105 civilisations, de la Préhistoire à nos jours, rangées sur une seule frise. Voyez qui vivait en même temps que qui.</p>
+        </div>
+      </section>
+
+      <section data-step hidden style="display:contents">
+        <div class="art" style="padding:10px 0">
+          <div style="width:100%">
+            <img src="assets/carte-monde-100.svg" alt="" style="display:block;width:100%">
+            <div style="padding:14px 28px 0"><input type="range" min="-3000" max="2000" value="100" aria-label="Année (illustration)" tabindex="-1"></div>
+          </div>
+        </div>
+        <div class="txt">
+          <h1>Une carte qui remonte le temps</h1>
+          <p>Faites glisser les années : les empires naissent, s'étendent et disparaissent. Touchez un territoire pour découvrir sa civilisation.</p>
+        </div>
+      </section>
+
+      <section data-step hidden style="display:contents">
+        <div class="art">
+          <div class="stack" aria-hidden="true">
+            <div class="c" style="transform:rotate(-7deg) translate(-14px,6px)"></div>
+            <div class="c" style="transform:rotate(4deg) translate(10px,2px)"></div>
+            <div class="c"><p class="eyebrow">Repères</p><p class="display ink" style="font-size:22px;font-weight:600;margin-top:8px;color:rgb(var(--c-ink))">5 dates à retenir</p><p class="muted" style="font-size:13px;margin-top:10px">−753 · −509 · −44 · −27 · 476</p></div>
+            <div class="score">16<small>/20</small></div>
+          </div>
+        </div>
+        <div class="txt">
+          <h1>Apprenez à votre rythme</h1>
+          <p>Des cartes à faire glisser, puis un quiz de 20 questions. Un chapitre est validé dès 15/20 ; vos erreurs reviennent la fois suivante.</p>
+        </div>
+      </section>
+
+      <div class="foot">
+        <div class="dots-nav" role="group" aria-label="Étapes"><button data-dot aria-label="Étape 1"></button><button data-dot aria-label="Étape 2"></button><button data-dot aria-label="Étape 3"></button></div>
+        <button class="btn btn-primary btn-block" data-next>Suivant</button>
+      </div>
+    </div>
+  </div>
+
+  <aside class="notes">
+    <a class="back" href="index.html"><svg data-i="arrowLeft" class="sm"></svg> Toutes les maquettes</a>
+    <p class="eyebrow">Maquette 01</p>
+    <h1>Premier lancement</h1>
+    <p>Trois écrans, une seule fois, à la place de la fenêtre de bienvenue actuelle.</p>
+    <h2>Pourquoi ces choix</h2>
+    <ul>
+      <li><b>Un écran = une promesse</b> : la frise (comparer), la carte (voir), la révision (retenir). Ce sont les trois raisons d'installer l'app, et les trois arguments de la fiche Play Store.</li>
+      <li><b>Un seul bouton</b> (« Suivant », puis « Commencer ») et un « Passer » discret : personne n'est bloqué.</li>
+      <li><b>Visuels faits en code</b>, avec les vraies couleurs et la vraie carte de l'an 100 : légers, nets, compatibles mode sombre.</li>
+      <li><b>Aucun compte, aucune question</b> au démarrage : on arrive dans l'app en 3 touchers.</li>
+    </ul>
+    <h2>À l'écran suivant</h2>
+    <p>« Commencer » ouvre l'accueil, avec un premier chapitre conseillé à la place de « Continuer ».</p>
+    <div class="tools"><button class="btn btn-secondary" data-theme-toggle><svg data-i="moon" class="sm"></svg> Thème</button></div>
+  </aside>
+</main>
+<script src="assets/maquette.js"></script>
+</body>
+</html>

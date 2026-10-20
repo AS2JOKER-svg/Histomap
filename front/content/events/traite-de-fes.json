@@ -1,0 +1,15 @@
+{
+  "id": "traite-de-fes",
+  "nom": "Traité de Fès",
+  "annee": 1912,
+  "dates": "30 mars 1912",
+  "lieu": "Fès (Maroc)",
+  "description": "Le sultan Moulay Abdelhafid signe un traité qui place le Maroc sous protectorat français ; l’Espagne obtient des zones au nord et au sud.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "Le sultan reste en place, mais le pouvoir réel appartient au résident général français, Lyautey. Le Maroc retrouve son indépendance en 1956."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Trait%C3%A9_de_F%C3%A8s"
+}

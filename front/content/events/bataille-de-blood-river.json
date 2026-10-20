@@ -1,0 +1,17 @@
+{
+  "id": "bataille-de-blood-river",
+  "nom": "Bataille de Blood River",
+  "annee": 1838,
+  "dates": "16 décembre 1838",
+  "lieu": "Rivière Ncome (KwaZulu-Natal)",
+  "description": "Des Boers du Grand Trek, retranchés derrière un cercle de chariots, repoussent l’armée du roi zoulou Dingane.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "Environ 3 000 Zoulous sont tués ; la rivière aurait été rougie de sang, d’où son nom. Pour les Afrikaners, la date devient une fête nationale ; elle est aujourd’hui en Afrique du Sud le « jour de la Réconciliation »."
+    }
+  ],
+  "avant": "grand-trek",
+  "apres": "bataille-d-isandhlwana",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Blood_River"
+}

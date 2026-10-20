@@ -788,5 +788,33 @@
   "Expédition de Madagascar (1895)": {
     "coords": [47.52, -18.91],
     "lieu": "Antananarivo"
+  },
+  "Bataille des Trois Rois": {
+    "coords": [-5.95, 35],
+    "lieu": "Oued el-Makhazin (près de Ksar el-Kébir)"
+  },
+  "Bataille d’Isly": {
+    "coords": [-1.9, 34.7],
+    "lieu": "Oued Isly (près d’Oujda)"
+  },
+  "Guerre hispano-marocaine (1859-1860)": {
+    "coords": [-5.37, 35.57],
+    "lieu": "Tétouan"
+  },
+  "Djihad d’Usman dan Fodio": {
+    "coords": [5.24, 13.06],
+    "lieu": "Pays haoussa (Gobir)"
+  },
+  "Conquête britannique de Sokoto": {
+    "coords": [8.52, 12],
+    "lieu": "Kano et Sokoto"
+  },
+  "Bataille de Blood River": {
+    "coords": [30.53, -28.1],
+    "lieu": "Rivière Ncome (Natal)"
+  },
+  "Guerres de Samory contre la France": {
+    "coords": [-9.35, 10.2],
+    "lieu": "Haute-Guinée"
   }
 }

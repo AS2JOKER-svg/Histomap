@@ -1,0 +1,20 @@
+{
+  "id": "bataille-des-trois-rois",
+  "nom": "Bataille des Trois Rois",
+  "annee": 1578,
+  "dates": "4 août 1578",
+  "lieu": "Oued el-Makhazin, près de Ksar el-Kébir (Maroc)",
+  "description": "Le jeune roi Sébastien de Portugal débarque au Maroc pour soutenir un sultan déchu ; son armée est écrasée par celle du sultan saadien Abd al-Malik.",
+  "sections": [
+    {
+      "titre": "Pourquoi « des Trois Rois »",
+      "texte": "Trois souverains y meurent : le roi Sébastien, le sultan Abd al-Malik, malade, et le sultan déchu al-Mutawakkil. Le frère d’Abd al-Malik, [[ahmad-al-mansour|Ahmad al-Mansour]], devient sultan."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Le Portugal, privé de son roi et de sa noblesse, passe sous la couronne d’Espagne en 1580. Le Maroc s’enrichit des rançons des prisonniers."
+    }
+  ],
+  "liens": [{ "ref": "ahmad-al-mansour", "relation": "Le nouveau sultan" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_des_Trois_Rois"
+}

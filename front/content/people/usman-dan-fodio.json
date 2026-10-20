@@ -1,0 +1,18 @@
+{
+  "id": "usman-dan-fodio",
+  "nom": "Usman dan Fodio",
+  "role": "Fondateur du califat de Sokoto",
+  "roles": ["Prédicateur", "Lettré", "Chef religieux"],
+  "dates": "1754 → 1817",
+  "naissance": 1754,
+  "mort": 1817,
+  "description": "Lettré peul, il prêche pendant trente ans en pays haoussa, puis lance en 1804 une guerre sainte qui aboutit à la création du califat de Sokoto.",
+  "essentiel": [
+    "Il critique les rois haoussa et les impôts qu’il juge injustes.",
+    "Il prend le titre de « commandeur des croyants » (1804).",
+    "Il laisse la direction militaire à son frère et à son fils pour se consacrer à l’écriture.",
+    "Il écrit plus d’une centaine d’ouvrages."
+  ],
+  "liens": [{ "ref": "nana-asmau", "relation": "Sa fille" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Usman_dan_Fodio"
+}

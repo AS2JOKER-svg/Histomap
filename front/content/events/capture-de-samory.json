@@ -1,0 +1,16 @@
+{
+  "id": "capture-de-samory",
+  "nom": "Capture de Samory",
+  "annee": 1898,
+  "dates": "29 septembre 1898",
+  "lieu": "Guélémou (Côte d’Ivoire)",
+  "description": "Une colonne française commandée par le capitaine Gouraud surprend le camp de [[samory-toure|Samory Touré]], affaibli par la famine, et le capture.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "Samory est exilé au Gabon, où il meurt en 1900. Ses territoires sont intégrés à l’Afrique-Occidentale française."
+    }
+  ],
+  "liens": [{ "ref": "samory-toure", "relation": "Le souverain capturé" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Samory_Tour%C3%A9"
+}

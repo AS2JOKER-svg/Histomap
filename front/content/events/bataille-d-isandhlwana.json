@@ -1,0 +1,17 @@
+{
+  "id": "bataille-d-isandhlwana",
+  "nom": "Bataille d’Isandhlwana",
+  "annee": 1879,
+  "dates": "22 janvier 1879",
+  "lieu": "Isandhlwana (KwaZulu-Natal)",
+  "description": "Au début de la guerre anglo-zouloue, plus de 20 000 guerriers zoulous attaquent un camp britannique et l’anéantissent.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "Plus de 1 300 soldats britanniques et africains au service des Britanniques sont tués : c’est l’une des pires défaites de l’armée britannique à l’époque coloniale. Le Royaume-Uni envoie des renforts et écrase les Zoulous à Ulundi en juillet."
+    }
+  ],
+  "liens": [{ "ref": "cetshwayo", "relation": "Le roi zoulou" }],
+  "avant": "bataille-de-blood-river",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_d%27Isandhlwana"
+}

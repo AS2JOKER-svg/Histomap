@@ -1,0 +1,17 @@
+{
+  "id": "djihad-d-usman-dan-fodio",
+  "nom": "Djihad d’Usman dan Fodio",
+  "annee": 1804,
+  "fin": 1808,
+  "dates": "1804 → 1808",
+  "lieu": "Pays haoussa (nord du Nigeria)",
+  "description": "Le prédicateur [[usman-dan-fodio|Usman dan Fodio]] et ses partisans, surtout peuls, mènent une guerre contre les rois des cités haoussa.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "Les cités haoussa (Gobir, Kano, Katsina, Zaria) passent sous l’autorité d’émirs qui reconnaissent le califat de Sokoto. Le mouvement inspire d’autres guerres saintes en Afrique de l’Ouest au XIXe siècle."
+    }
+  ],
+  "liens": [{ "ref": "usman-dan-fodio", "relation": "Le chef du mouvement" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Usman_dan_Fodio"
+}

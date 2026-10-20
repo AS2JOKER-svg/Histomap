@@ -1,0 +1,16 @@
+{
+  "id": "nana-asmau",
+  "nom": "Nana Asma’u",
+  "role": "Poétesse et enseignante",
+  "roles": ["Poétesse", "Enseignante", "Lettrée"],
+  "dates": "1793 → 1864",
+  "naissance": 1793,
+  "mort": 1864,
+  "description": "Fille d’Usman dan Fodio, elle parle quatre langues, écrit de nombreux poèmes et organise un réseau d’enseignantes pour instruire les femmes du califat.",
+  "essentiel": [
+    "Elle écrit en arabe, en peul et en haoussa.",
+    "Elle forme des enseignantes, les « jaji », qui vont instruire les femmes dans les villages.",
+    "Elle conseille son frère, le calife Muhammad Bello."
+  ],
+  "wikiUrl": "https://en.wikipedia.org/wiki/Nana_Asma%CA%BCu"
+}

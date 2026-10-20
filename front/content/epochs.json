@@ -224,6 +224,7 @@
         "label": "Afrique",
         "civs": [
           "songhai-mod",
+          "maroc-saadiens-alaouites",
           "ashanti",
           "kongo-mod",
           "oyo",
@@ -304,6 +305,9 @@
         "civs": [
           "ethiopie-contemp",
           "dahomey",
+          "califat-de-sokoto",
+          "royaume-zoulou",
+          "empire-wassoulou",
           "afrique-sud"
         ]
       }

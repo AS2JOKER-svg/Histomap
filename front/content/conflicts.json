@@ -704,5 +704,53 @@
   "Guerres afghano-sikhes": {
     "coords": [74.87, 31.62],
     "lieu": "Pendjab"
+  },
+  "Bataille de Zama": {
+    "coords": [9.43, 36.3],
+    "lieu": "Zama (Tunisie)"
+  },
+  "Guerre de Jugurtha": {
+    "coords": [6.61, 36.37],
+    "lieu": "Cirta (Constantine)"
+  },
+  "Bataille de Thapsus": {
+    "coords": [11.06, 35.62],
+    "lieu": "Thapsus (Tunisie)"
+  },
+  "Siège de Dongola (652)": {
+    "coords": [30.74, 18.22],
+    "lieu": "Vieux-Dongola"
+  },
+  "Interventions mameloukes en Makurie": {
+    "coords": [30.74, 18.22],
+    "lieu": "Dongola"
+  },
+  "Bataille de Zallaqa": {
+    "coords": [-6.88, 38.93],
+    "lieu": "Près de Badajoz"
+  },
+  "Bataille d’Alarcos": {
+    "coords": [-3.98, 38.95],
+    "lieu": "Alarcos (Castille)"
+  },
+  "Djihad peul contre le Bornou": {
+    "coords": [12.9, 12.9],
+    "lieu": "Ngazargamu (Nigeria)"
+  },
+  "Conquête du Bornou par Rabih": {
+    "coords": [13.55, 12.92],
+    "lieu": "Kukawa (Nigeria)"
+  },
+  "Bataille d’Aïn Djalout": {
+    "coords": [35.36, 32.55],
+    "lieu": "Aïn Djalout (Galilée)"
+  },
+  "Siège d’Acre (1291)": {
+    "coords": [35.07, 32.93],
+    "lieu": "Acre"
+  },
+  "Conquête ottomane de l’Égypte": {
+    "coords": [37.3, 36.5],
+    "lieu": "Marj Dabiq (Syrie)"
   }
 }

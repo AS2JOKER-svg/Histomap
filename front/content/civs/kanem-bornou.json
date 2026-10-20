@@ -1,0 +1,238 @@
+{
+  "documentaires": [],
+  "decouvertes": ["commerce-transsaharien"],
+  "id": "kanem-bornou",
+  "label": "Kanem-Bornou",
+  "tier": 2,
+  "region": "afrique-centrale",
+  "period": "vers 700 à 1893",
+  "start": 700,
+  "end": 1893,
+  "color": "#795548",
+  "trackId": "tchad",
+  "row": 1,
+  "isRiver": false,
+  "capitale": "Njimi, puis Ngazargamu",
+  "description": "Un royaume né autour du lac Tchad, enrichi par le commerce transsaharien, qui dure plus de mille ans : l’un des États les plus durables de l’histoire africaine.",
+  "territories": ["Kanem", "Kanem-Bornu"],
+  "reperes": {
+    "capitale": {
+      "valeur": "Njimi, puis Ngazargamu",
+      "precision": "Ngazargamu, au Bornou, de la fin du XVe siècle à 1808 ; puis Kukawa"
+    },
+    "regimes": {
+      "valeur": "Monarchie",
+      "precision": "le mai, roi sacré de la dynastie des Sefuwa, puis les shehus de la famille d’al-Kanemi"
+    },
+    "langues": { "valeur": "Kanouri", "precision": "l’arabe sert à l’écrit et à la religion" },
+    "religion": { "valeur": "Islam", "precision": "depuis la conversion du mai Hummay, vers 1085" },
+    "apogee": { "valeur": "Règne d’Idris Alaoma (XVIe siècle)" },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": { "valeur": "Cauris et bandes de coton", "precision": "servent de monnaie d’échange" },
+    "duree": { "valeur": "Plus de 1 000 ans" },
+    "aujourdhui": { "valeur": "Tchad et Nigeria", "precision": "ainsi que le Niger, le Cameroun et le sud de la Libye" }
+  },
+  "essentiel": [
+    "Vers le VIIIe siècle, un royaume se forme au Kanem, au nord-est du lac Tchad, grâce au [[commerce-transsaharien|commerce transsaharien]] vers la Libye et l’Égypte.",
+    "Vers 1085, le roi Hummay se convertit à l’islam ; ses successeurs étendent leur pouvoir jusqu’au Fezzan, en plein Sahara.",
+    "Chassée du Kanem au XIVe siècle, la dynastie des Sefuwa se réinstalle à l’ouest du lac, au Bornou, et fonde la capitale de Ngazargamu.",
+    "Au XVIe siècle, [[idris-alaoma|Idris Alaoma]] équipe son armée de fusils venus de l’Empire ottoman et porte le royaume à son apogée.",
+    "Attaqué par le djihad peul en 1808, le Bornou est sauvé par [[al-kanemi|al-Kanemi]], dont la famille prend le pouvoir ; en 1893, le conquérant Rabih s’en empare, avant la colonisation."
+  ],
+  "datesCles": [
+    {
+      "annee": 800,
+      "evenement": "Le Kanem",
+      "info": "Vers le IXe siècle, des auteurs arabes mentionnent le royaume du Kanem."
+    },
+    { "annee": 1085, "evenement": "Conversion à l’islam", "info": "Vers 1085, le mai Hummay devient musulman." },
+    {
+      "annee": 1240,
+      "evenement": "Dunama Dabbalemi",
+      "info": "Vers 1240, le royaume s’étend jusqu’au Fezzan et entretient des relations avec le Maroc et la Tunisie."
+    },
+    {
+      "annee": 1380,
+      "evenement": "Exil vers le Bornou",
+      "info": "Vers 1380, chassés par les Boulala, les Sefuwa s’installent à l’ouest du lac Tchad."
+    },
+    { "annee": 1470, "evenement": "Ngazargamu", "info": "Vers 1470, le mai Ali Gaji fonde une capitale fortifiée." },
+    {
+      "annee": 1564,
+      "evenement": "Idris Alaoma",
+      "info": "Début du règne du plus célèbre souverain du Bornou (date discutée)."
+    },
+    {
+      "annee": 1808,
+      "evenement": "Chute de Ngazargamu",
+      "info": "Les combattants peuls du djihad incendient la capitale."
+    },
+    { "annee": 1893, "evenement": "Rabih", "info": "Le conquérant soudanais Rabih az-Zubayr s’empare du Bornou." }
+  ],
+  "periodes": [
+    {
+      "nom": "Le Kanem",
+      "debut": 700,
+      "fin": 1380,
+      "resume": "Le royaume du Kanem s’enrichit du commerce avec le nord du Sahara et adopte l’islam.",
+      "evenements": [
+        { "annee": 1085, "evenement": "Conversion de Hummay" },
+        { "annee": 1240, "evenement": "Expansion vers le Fezzan" }
+      ]
+    },
+    {
+      "nom": "Le Bornou des Sefuwa",
+      "debut": 1380,
+      "fin": 1808,
+      "resume": "Réinstallés au Bornou, les Sefuwa reconstruisent un État puissant, qui atteint son apogée au XVIe siècle.",
+      "evenements": [{ "annee": 1470, "evenement": "Fondation de Ngazargamu" }, { "annee": 1564, "evenement": "Idris Alaoma" }]
+    },
+    {
+      "nom": "Les shehus d’al-Kanemi",
+      "debut": 1808,
+      "fin": 1893,
+      "resume": "Après le djihad peul, la famille d’al-Kanemi gouverne le Bornou depuis Kukawa, jusqu’à la conquête de Rabih.",
+      "evenements": [
+        { "annee": 1808, "evenement": "Chute de Ngazargamu" },
+        { "annee": 1846, "evenement": "Fin de la dynastie Sefuwa" }
+      ]
+    }
+  ],
+  "regimes": [{ "id": "royaume", "nom": "Royaume du Kanem, puis du Bornou", "debut": 700, "fin": 1893 }],
+  "dynasties": [
+    {
+      "id": "sefuwa",
+      "nom": "Les mais Sefuwa",
+      "debut": 1075,
+      "fin": 1846,
+      "note": "Sélection ; dates souvent approximatives."
+    },
+    { "id": "kanemi", "nom": "Les shehus de la famille d’al-Kanemi", "debut": 1814, "fin": 1893 }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Hummay",
+      "titre": "Mai",
+      "debut": 1075,
+      "fin": 1086,
+      "dynastie": "sefuwa",
+      "note": "premier roi musulman",
+      "cle": true
+    },
+    {
+      "nom": "Dunama Dabbalemi",
+      "titre": "Mai",
+      "debut": 1210,
+      "fin": 1248,
+      "dynastie": "sefuwa",
+      "note": "étend le royaume jusqu’au Fezzan",
+      "cle": true
+    },
+    {
+      "nom": "Ali Gaji",
+      "titre": "Mai",
+      "debut": 1470,
+      "fin": 1503,
+      "dynastie": "sefuwa",
+      "note": "fonde Ngazargamu",
+      "cle": true
+    },
+    {
+      "nom": "Idris Alaoma",
+      "titre": "Mai",
+      "debut": 1564,
+      "fin": 1596,
+      "dynastie": "sefuwa",
+      "personne": "idris-alaoma",
+      "cle": true
+    },
+    {
+      "nom": "Muhammad al-Amin al-Kanemi",
+      "titre": "Shehu",
+      "debut": 1814,
+      "fin": 1837,
+      "dynastie": "kanemi",
+      "personne": "al-kanemi",
+      "note": "gouverne de fait au nom des mais",
+      "cle": true
+    },
+    {
+      "nom": "Umar",
+      "titre": "Shehu",
+      "debut": 1837,
+      "fin": 1881,
+      "dynastie": "kanemi",
+      "note": "met fin à la dynastie Sefuwa (1846)"
+    },
+    { "nom": "Hashim", "titre": "Shehu", "debut": 1885, "fin": 1893, "dynastie": "kanemi", "note": "vaincu par Rabih" }
+  ],
+  "personnages": [
+    {
+      "nom": "Ahmad ibn Furtu",
+      "role": "Imam et chroniqueur",
+      "description": "Il raconte en arabe les campagnes d’Idris Alaoma : une source précieuse sur l’histoire du Bornou.",
+      "dates": "XVIe siècle",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Idr%C4%ABs_Alaoma"
+    },
+    {
+      "nom": "Rabih az-Zubayr",
+      "role": "Conquérant",
+      "description": "Chef de guerre venu du Soudan, il conquiert le Bornou en 1893 ; il est tué par les Français en 1900.",
+      "dates": "vers 1842 → 1900",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Rabih_az-Zubayr"
+    },
+    {
+      "nom": "Heinrich Barth",
+      "role": "Explorateur allemand",
+      "description": "Il séjourne à Kukawa dans les années 1850 et écrit une description détaillée du Bornou.",
+      "dates": "1821 → 1865",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Heinrich_Barth"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Djihad peul contre le Bornou",
+      "annee": 1808,
+      "adversaires": ["Califat de Sokoto (combattants peuls)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Bornou (grâce à al-Kanemi)",
+      "consequences": "Ngazargamu est incendiée, mais al-Kanemi repousse les Peuls et sauve le royaume ; sa famille prend ensuite le pouvoir.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Muhammad_al-Amin_al-Kanemi"
+    },
+    {
+      "nom": "Conquête du Bornou par Rabih",
+      "annee": 1893,
+      "adversaires": ["Armée de Rabih az-Zubayr"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Rabih az-Zubayr",
+      "consequences": "Kukawa est détruite. Rabih est tué par les Français en 1900 ; le Bornou est partagé entre colonies britannique, française et allemande.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Rabih_az-Zubayr"
+    }
+  ],
+  "sciences": "Le Bornou entretient une armée de cavaliers cuirassés de cottes de mailles et de vêtements matelassés ; Idris Alaoma y ajoute des fusiliers formés par des instructeurs venus de l’Empire ottoman. Les lettrés du Bornou écrivent en arabe et copient des livres de droit et de religion.",
+  "croyancesText": "Le royaume est l’un des premiers États d’Afrique subsaharienne à adopter l’islam, vers 1085. Plusieurs souverains font le pèlerinage à La Mecque, et le Bornou entretient au Caire une maison pour ses étudiants et ses pèlerins. Les anciens rites liés à la royauté sacrée subsistent longtemps à la cour.",
+  "diplomatie": "Le Kanem-Bornou commerce et échange des ambassades avec le Fezzan, Tripoli, l’Égypte, l’Empire ottoman et le Maroc. Au XVIe siècle, Idris Alaoma écrit au sultan ottoman. Le royaume est en rivalité avec les cités haoussa et le Ouaddaï.",
+  "societe": "Le mai, roi sacré, vit retiré et ne parle souvent qu’à travers un rideau. Il s’appuie sur des officiers et sur une aristocratie de cavaliers. Une partie de la population est réduite en esclavage, et la traite vers le nord du Sahara est une source de revenus.",
+  "economie": "Commerce transsaharien (esclaves, ivoire, plumes d’autruche contre chevaux, sel, cuivre et armes), agriculture et pêche autour du lac Tchad.",
+  "arts": "Murs de brique cuite de Ngazargamu, manuscrits coraniques, tissus et cuirs ouvragés.",
+  "quotidien": "Le lac Tchad, immense et peu profond, nourrit les habitants grâce à la pêche, mais sa taille varie beaucoup selon les années.",
+  "heritage": [
+    {
+      "titre": "Un État millénaire",
+      "texte": "Le Kanem-Bornou est l’un des États les plus durables de l’histoire africaine."
+    },
+    {
+      "titre": "Les shehus de Bornou",
+      "texte": "Le titre de shehu de Bornou existe toujours au Nigeria, comme autorité traditionnelle."
+    }
+  ],
+  "aSavoir": [
+    "Les dates des souverains du Kanem-Bornou viennent surtout d’une liste royale, le « girgam », dont la chronologie est discutée."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Kanem-Bornou",
+    { "titre": "Encyclopædia Britannica — Kanem-Bornu", "url": "https://www.britannica.com/place/Kanem-Bornu" }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "jugurtha",
+  "nom": "Jugurtha",
+  "role": "Roi de Numidie",
+  "roles": ["Roi", "Chef de guerre"],
+  "dates": "vers −160 → −104",
+  "naissance": -160,
+  "mort": -104,
+  "description": "Petit-fils de Massinissa, il s’empare de toute la Numidie en éliminant ses cousins et résiste à Rome pendant sept ans.",
+  "essentiel": [
+    "Il a combattu aux côtés des Romains en Espagne, où il a appris leur façon de faire la guerre.",
+    "Il achète, dit-on, des sénateurs romains pour éviter une intervention.",
+    "Livré par Bocchus en −105, il meurt dans une prison de Rome."
+  ],
+  "liens": [{ "ref": "massinissa", "relation": "Son grand-père" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Jugurtha"
+}

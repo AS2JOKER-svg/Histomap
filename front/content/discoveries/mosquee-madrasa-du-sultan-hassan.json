@@ -1,0 +1,15 @@
+{
+  "id": "mosquee-madrasa-du-sultan-hassan",
+  "nom": "Mosquée-madrasa du sultan Hassan",
+  "annee": 1356,
+  "domaine": "Architecture",
+  "dates": "1356 → 1363",
+  "description": "Un immense complexe religieux du Caire, à la fois mosquée, école et mausolée, construit pour le sultan mamelouk Hassan.",
+  "sections": [
+    {
+      "titre": "Un géant",
+      "texte": "Ses murs de pierre s’élèvent à plus de 30 mètres ; quatre grandes salles voûtées s’ouvrent sur une cour, une pour chacune des quatre écoles du droit musulman."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Mosqu%C3%A9e_du_sultan_Hassan"
+}

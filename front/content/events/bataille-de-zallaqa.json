@@ -1,0 +1,17 @@
+{
+  "id": "bataille-de-zallaqa",
+  "nom": "Bataille de Zallaqa",
+  "annee": 1086,
+  "dates": "23 octobre 1086",
+  "lieu": "Près de Badajoz (Espagne)",
+  "description": "Appelé par les rois musulmans d’al-Andalus, menacés par la Castille, l’émir almoravide [[youssef-ibn-tachfine|Youssef ibn Tachfine]] traverse le détroit et écrase l’armée d’Alphonse VI.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "L’avancée chrétienne, qui venait de prendre Tolède (1085), est stoppée pour un temps. Les Almoravides annexent ensuite les royaumes de taïfas."
+    }
+  ],
+  "liens": [{ "ref": "youssef-ibn-tachfine", "relation": "Le vainqueur" }],
+  "apres": "bataille-de-las-navas-de-tolosa",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Sagrajas"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "youssef-ibn-tachfine",
+  "nom": "Youssef ibn Tachfine",
+  "role": "Émir almoravide",
+  "roles": ["Émir", "Chef de guerre"],
+  "dates": "vers 1009 → 1106",
+  "naissance": 1009,
+  "mort": 1106,
+  "description": "Chef berbère almoravide, il fonde Marrakech, unifie le Maghreb occidental et réunit al-Andalus à son empire.",
+  "reperes": [{ "label": "Règne", "valeur": "1061 → 1106" }],
+  "essentiel": [
+    "Il fonde Marrakech vers 1070.",
+    "Appelé à l’aide par les rois musulmans d’Espagne, il bat Alphonse VI à [[bataille-de-zallaqa|Zallaqa]] (1086).",
+    "Il dépose ensuite ces rois, qu’il juge trop faibles et trop riches, et annexe al-Andalus.",
+    "Il vit, dit-on, très simplement, en mangeant du pain d’orge et de la viande de chameau."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Youssef_ibn_Tachfine"
+}

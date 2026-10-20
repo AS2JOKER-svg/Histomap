@@ -1,0 +1,14 @@
+{
+  "id": "medracen",
+  "nom": "Medracen",
+  "domaine": "Architecture",
+  "dates": "IIIe siècle av. J.-C.",
+  "description": "Un grand mausolée royal numide en forme de tumulus à gradins, entouré de colonnes, dans l’est de l’Algérie.",
+  "sections": [
+    {
+      "titre": "Un monument très ancien",
+      "texte": "C’est l’un des plus anciens mausolées royaux d’Afrique du Nord. Il mêle traditions berbères et influences grecques et puniques."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Medracen"
+}

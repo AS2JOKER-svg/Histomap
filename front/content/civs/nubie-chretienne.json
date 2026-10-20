@@ -1,0 +1,220 @@
+{
+  "documentaires": [],
+  "decouvertes": ["fresques-de-faras"],
+  "id": "nubie-chretienne",
+  "label": "Nubie chrétienne (Makurie)",
+  "tier": 2,
+  "region": "nubie-soudan",
+  "period": "vers 500 à 1504",
+  "start": 500,
+  "end": 1504,
+  "color": "#8e24aa",
+  "trackId": "nubie",
+  "row": 4,
+  "isRiver": false,
+  "capitale": "Dongola",
+  "description": "Les royaumes chrétiens qui succèdent à Méroé le long du Nil, en Nubie : la Makurie résiste aux armées arabes et signe avec l’Égypte un traité qui dure six siècles.",
+  "territories": ["Nobatia"],
+  "reperes": {
+    "capitale": { "valeur": "Dongola", "precision": "aujourd’hui Vieux-Dongola ; Faras pour la Nobadie, Soba pour l’Alodie" },
+    "regimes": {
+      "valeur": "Monarchies",
+      "precision": "trois royaumes : Nobadie, Makurie et Alodie ; la Nobadie s’unit à la Makurie au VIIe siècle"
+    },
+    "langues": { "valeur": "Vieux-nubien", "precision": "écrit en alphabet copte ; grec et copte pour la religion" },
+    "religion": { "valeur": "Christianisme", "precision": "Église liée au patriarcat copte d’Alexandrie" },
+    "apogee": { "valeur": "IXe-XIe siècles" },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": { "valeur": "Aucune", "precision": "échanges en nature" },
+    "duree": { "valeur": "Environ 1 000 ans" },
+    "aujourdhui": { "valeur": "Soudan", "precision": "ainsi que le sud de l’Égypte" }
+  },
+  "essentiel": [
+    "Après la fin du royaume de Méroé, trois royaumes se partagent la Nubie : la Nobadie au nord, la Makurie au centre, l’Alodie au sud.",
+    "Au VIe siècle, des missionnaires envoyés de Constantinople les convertissent au christianisme.",
+    "En 652, la Makurie repousse une armée arabe devant Dongola ; les deux camps signent le [[traite-du-baqt|baqt]], un accord de paix et d’échanges qui dure environ six siècles.",
+    "Églises et cathédrales se couvrent de peintures, comme les [[fresques-de-faras|fresques de Faras]], redécouvertes dans les années 1960.",
+    "Affaiblie par les interventions des Mamelouks d’Égypte, la Makurie devient musulmane au XIVe siècle ; l’Alodie tombe vers 1504."
+  ],
+  "datesCles": [
+    {
+      "annee": 543,
+      "evenement": "Conversion de la Nobadie",
+      "info": "Un missionnaire envoyé par l’impératrice Théodora baptise le roi de Nobadie."
+    },
+    { "annee": 580, "evenement": "Conversion de l’Alodie", "info": "Le royaume du sud devient à son tour chrétien." },
+    {
+      "annee": 652,
+      "evenement": "Siège de Dongola et baqt",
+      "info": "Les archers nubiens repoussent les Arabes ; un traité est signé.",
+      "ref": "traite-du-baqt"
+    },
+    {
+      "annee": 707,
+      "evenement": "Cathédrale de Faras",
+      "info": "Vers 707, une grande cathédrale est reconstruite à Faras ; ses murs se couvriront de fresques."
+    },
+    {
+      "annee": 836,
+      "evenement": "Voyage à Bagdad",
+      "info": "Le prince Georgios se rend à Bagdad auprès du calife pour renégocier le baqt."
+    },
+    {
+      "annee": 1276,
+      "evenement": "Intervention mamelouke",
+      "info": "Les Mamelouks prennent Dongola et installent un roi à leur service."
+    },
+    {
+      "annee": 1317,
+      "evenement": "Une mosquée à Dongola",
+      "info": "La salle du trône des rois de Makurie est transformée en mosquée."
+    },
+    {
+      "annee": 1504,
+      "evenement": "Chute de l’Alodie",
+      "info": "Vers 1504, la capitale Soba tombe aux mains du sultanat musulman de Sennar."
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "La christianisation",
+      "debut": 500,
+      "fin": 652,
+      "resume": "Les trois royaumes nubiens se convertissent au christianisme au VIe siècle.",
+      "evenements": [
+        { "annee": 543, "evenement": "Conversion de la Nobadie" },
+        { "annee": 580, "evenement": "Conversion de l’Alodie" }
+      ]
+    },
+    {
+      "nom": "L’âge d’or de la Makurie",
+      "debut": 652,
+      "fin": 1172,
+      "resume": "Protégée par le baqt, la Makurie prospère ; ses églises se couvrent de fresques et ses rois défendent les chrétiens d’Égypte.",
+      "evenements": [{ "annee": 652, "evenement": "Baqt", "ref": "traite-du-baqt" }, { "annee": 836, "evenement": "Ambassade à Bagdad" }]
+    },
+    {
+      "nom": "Le déclin",
+      "debut": 1172,
+      "fin": 1504,
+      "resume": "Les interventions égyptiennes, les migrations de tribus arabes et les querelles dynastiques affaiblissent les royaumes, qui deviennent musulmans.",
+      "evenements": [{ "annee": 1276, "evenement": "Intervention mamelouke" }, { "annee": 1317, "evenement": "Mosquée à Dongola" }]
+    }
+  ],
+  "regimes": [{ "id": "royaumes", "nom": "Royaumes chrétiens de Nubie", "debut": 500, "fin": 1504 }],
+  "dynasties": [
+    {
+      "id": "makurie",
+      "nom": "Quelques rois de Makurie",
+      "debut": 651,
+      "fin": 1276,
+      "note": "Les dates des rois nubiens sont souvent approximatives."
+    }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Qalidurut",
+      "titre": "Roi de Makurie",
+      "debut": 651,
+      "fin": 652,
+      "dynastie": "makurie",
+      "note": "négocie le baqt",
+      "cle": true
+    },
+    {
+      "nom": "Merkurios",
+      "titre": "Roi de Makurie",
+      "debut": 697,
+      "fin": 710,
+      "dynastie": "makurie",
+      "note": "surnommé le « nouveau Constantin »",
+      "cle": true
+    },
+    {
+      "nom": "Kyriakos",
+      "titre": "Roi de Makurie",
+      "debut": 747,
+      "fin": 768,
+      "dynastie": "makurie",
+      "note": "marche sur l’Égypte pour défendre le patriarche copte",
+      "cle": true
+    },
+    {
+      "nom": "Georgios Ier",
+      "titre": "Roi de Makurie",
+      "debut": 856,
+      "fin": 915,
+      "dynastie": "makurie",
+      "note": "a voyagé à Bagdad dans sa jeunesse",
+      "cle": true
+    },
+    {
+      "nom": "David",
+      "titre": "Roi de Makurie",
+      "debut": 1268,
+      "fin": 1276,
+      "dynastie": "makurie",
+      "note": "vaincu par les Mamelouks"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Julien",
+      "role": "Missionnaire",
+      "description": "Prêtre envoyé par l’impératrice byzantine Théodora, il convertit le roi de Nobadie vers 543.",
+      "dates": "VIe siècle",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Nobatie"
+    },
+    {
+      "nom": "Kazimierz Michałowski",
+      "role": "Archéologue polonais",
+      "description": "Il dirige, de 1961 à 1964, les fouilles qui sauvent les fresques de la cathédrale de Faras avant leur engloutissement par le lac Nasser.",
+      "dates": "1901 → 1981",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Kazimierz_Micha%C5%82owski"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Siège de Dongola (652)",
+      "annee": 652,
+      "adversaires": ["Califat (Abdallah ibn Saad)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Compromis : traité du baqt",
+      "consequences": "Les archers nubiens, surnommés par les Arabes « les archers qui visent les yeux », repoussent l’assaut. Un traité est signé : la Nubie reste chrétienne et indépendante.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Makurie"
+    },
+    {
+      "nom": "Interventions mameloukes en Makurie",
+      "annee": 1276,
+      "adversaires": ["Sultanat mamelouk (Baybars)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Sultanat mamelouk",
+      "consequences": "Les Mamelouks placent sur le trône des rois à leur service ; le royaume s’affaiblit et devient musulman au XIVe siècle.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Makurie"
+    }
+  ],
+  "sciences": "Les Nubiens écrivent leur langue, le vieux-nubien, avec l’alphabet copte complété de quelques lettres : c’est l’une des plus anciennes langues écrites d’Afrique subsaharienne. Ils bâtissent des églises de brique voûtées et irriguent les rives du Nil grâce à des roues élévatrices, les saqiyas.",
+  "croyancesText": "Convertis au VIe siècle, les Nubiens sont des chrétiens fervents, liés au patriarche copte d’Alexandrie, qui nomme leurs évêques. Les églises et les monastères se multiplient. L’islam progresse à partir du XIIIe siècle avec les tribus arabes et les interventions égyptiennes.",
+  "diplomatie": "Le baqt de 652 organise pendant six siècles des échanges entre la Nubie et l’Égypte musulmane : chaque année, la Nubie livre des esclaves et reçoit des céréales, du vin et des tissus. Les rois nubiens interviennent parfois en Égypte pour protéger les chrétiens coptes.",
+  "societe": "Le roi, entouré d’une cour aux titres inspirés de Byzance, s’appuie sur l’Église. La succession passe parfois par le fils de la sœur du roi, une coutume ancienne en Nubie.",
+  "economie": "Agriculture irriguée le long du Nil, élevage, commerce avec l’Égypte et la mer Rouge.",
+  "arts": "Fresques des cathédrales de Faras et de Dongola, céramique peinte réputée.",
+  "quotidien": "Le long du Nil, des roues à godets, tournées par des bœufs, montent l’eau du fleuve vers les champs.",
+  "heritage": [
+    {
+      "titre": "Les fresques de Faras",
+      "texte": "Sauvées avant la montée des eaux du lac Nasser, elles sont aujourd’hui à Varsovie et à Khartoum."
+    },
+    {
+      "titre": "Le nubien",
+      "texte": "Des langues nubiennes sont toujours parlées dans le nord du Soudan et le sud de l’Égypte."
+    }
+  ],
+  "aSavoir": ["Le baqt est l’un des plus longs traités de paix de l’histoire."],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Makurie",
+    { "titre": "Encyclopædia Britannica — Makuria", "url": "https://www.britannica.com/place/Makuria" }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "fresques-de-faras",
+  "nom": "Fresques de Faras",
+  "domaine": "Art et religion",
+  "dates": "VIIIe-XIVe siècles",
+  "description": "Les peintures murales de la cathédrale de Faras, en Nubie : saints, évêques, rois et scènes bibliques aux couleurs vives.",
+  "sections": [
+    {
+      "titre": "Un sauvetage",
+      "texte": "Recouvertes de sable pendant des siècles, elles sont dégagées par une équipe polonaise de 1961 à 1964, juste avant que le barrage d’Assouan ne noie le site sous le lac Nasser."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Faras"
+}

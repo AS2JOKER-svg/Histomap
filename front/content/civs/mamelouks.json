@@ -1,0 +1,293 @@
+{
+  "documentaires": [],
+  "decouvertes": ["mosquee-madrasa-du-sultan-hassan"],
+  "id": "mamelouks",
+  "label": "Sultanat mamelouk",
+  "tier": 1,
+  "region": "egypte",
+  "period": "1250 à 1517",
+  "start": 1250,
+  "end": 1517,
+  "color": "#ad1457",
+  "trackId": "egypte",
+  "row": 2,
+  "isRiver": true,
+  "capitale": "Le Caire",
+  "description": "Un État dirigé par d’anciens esclaves soldats, qui règne sur l’Égypte et la Syrie, arrête les Mongols, chasse les derniers croisés et fait du Caire la grande capitale du monde musulman.",
+  "territories": ["Mamluke Sultanate"],
+  "reperes": {
+    "capitale": { "valeur": "Le Caire", "precision": "l’une des plus grandes villes du monde vers 1300" },
+    "regimes": {
+      "valeur": "Sultanat",
+      "precision": "le sultan est choisi parmi les émirs mamelouks ; le pouvoir n’est en principe pas héréditaire"
+    },
+    "langues": { "valeur": "Arabe", "precision": "les mamelouks parlent aussi le turc kiptchak ou le circassien" },
+    "religion": {
+      "valeur": "Islam sunnite",
+      "precision": "un calife abbasside, sans pouvoir, réside au Caire à partir de 1261"
+    },
+    "apogee": { "valeur": "Règnes de Baybars et d’an-Nasir Muhammad", "precision": "XIIIe-XIVe siècles" },
+    "population": { "valeur": "Inconnue", "precision": "la peste noire tue une grande partie des habitants en 1348" },
+    "monnaie": { "valeur": "Dinar d’or et dirham d’argent" },
+    "duree": { "valeur": "Environ 270 ans" },
+    "aujourdhui": {
+      "valeur": "Égypte et Syrie",
+      "precision": "ainsi que le Liban, Israël, la Palestine, la Jordanie et l’ouest de l’Arabie"
+    }
+  },
+  "essentiel": [
+    "Les mamelouks sont des esclaves achetés enfants dans les steppes, convertis à l’islam et formés pour devenir des soldats d’élite ; en 1250, ils prennent le pouvoir en Égypte.",
+    "En 1260, à la [[bataille-d-ain-jalut|bataille d’Aïn Djalout]], ils arrêtent l’avancée des Mongols en Palestine.",
+    "Le sultan [[baybars|Baybars]] combat les croisés et les Mongols ; en 1291, la [[chute-d-acre|chute d’Acre]] met fin aux États latins d’Orient.",
+    "Le Caire devient la plus grande ville du monde musulman, couverte de mosquées et de madrasas, comme la [[mosquee-madrasa-du-sultan-hassan|madrasa du sultan Hassan]].",
+    "Affaiblis par la peste et la concurrence portugaise, les Mamelouks sont vaincus par les Ottomans en 1516-1517 : l’Égypte devient une province ottomane."
+  ],
+  "datesCles": [
+    {
+      "annee": 1250,
+      "evenement": "Prise du pouvoir",
+      "info": "Après avoir capturé le roi de France Louis IX, les mamelouks renversent le dernier sultan ayyoubide."
+    },
+    {
+      "annee": 1260,
+      "evenement": "Aïn Djalout",
+      "info": "Les Mamelouks battent l’armée mongole en Palestine.",
+      "ref": "bataille-d-ain-jalut"
+    },
+    {
+      "annee": 1261,
+      "evenement": "Le calife au Caire",
+      "info": "Baybars installe au Caire un membre de la famille abbasside, survivant du sac de Bagdad."
+    },
+    { "annee": 1268, "evenement": "Prise d’Antioche", "info": "Baybars détruit la principauté croisée d’Antioche." },
+    {
+      "annee": 1291,
+      "evenement": "Chute d’Acre",
+      "info": "La dernière grande place des croisés tombe.",
+      "ref": "chute-d-acre"
+    },
+    {
+      "annee": 1348,
+      "evenement": "Peste noire",
+      "info": "L’épidémie tue une grande partie de la population de l’Égypte et de la Syrie.",
+      "ref": "peste-noire"
+    },
+    {
+      "annee": 1382,
+      "evenement": "Sultans circassiens",
+      "info": "Barquq fonde la lignée des sultans d’origine circassienne."
+    },
+    { "annee": 1517, "evenement": "Conquête ottomane", "info": "Le sultan ottoman Selim Ier prend Le Caire." }
+  ],
+  "periodes": [
+    {
+      "nom": "Les sultans bahrides",
+      "debut": 1250,
+      "fin": 1382,
+      "resume": "Des mamelouks d’origine turque kiptchak arrêtent les Mongols, chassent les croisés et font du Caire une capitale prestigieuse.",
+      "evenements": [
+        { "annee": 1260, "evenement": "Aïn Djalout", "ref": "bataille-d-ain-jalut" },
+        { "annee": 1291, "evenement": "Chute d’Acre", "ref": "chute-d-acre" },
+        { "annee": 1348, "evenement": "Peste noire", "ref": "peste-noire" }
+      ]
+    },
+    {
+      "nom": "Les sultans circassiens",
+      "debut": 1382,
+      "fin": 1517,
+      "resume": "Des mamelouks venus du Caucase gouvernent un État affaibli par les épidémies, Tamerlan et la perte du commerce des épices.",
+      "evenements": [
+        { "annee": 1400, "evenement": "Tamerlan ravage la Syrie" },
+        { "annee": 1498, "evenement": "Les Portugais atteignent l’Inde par la mer" },
+        { "annee": 1516, "evenement": "Défaite de Marj Dabiq" }
+      ]
+    }
+  ],
+  "regimes": [{ "id": "sultanat", "nom": "Sultanat mamelouk", "debut": 1250, "fin": 1517 }],
+  "dynasties": [
+    { "id": "bahrides", "nom": "Les sultans bahrides (turcs)", "debut": 1250, "fin": 1382, "note": "Sélection." },
+    { "id": "burjites", "nom": "Les sultans burjites (circassiens)", "debut": 1382, "fin": 1517, "note": "Sélection." }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Shajar al-Durr",
+      "titre": "Sultane",
+      "debut": 1250,
+      "fin": 1250,
+      "dynastie": "bahrides",
+      "note": "seule femme sultane d’Égypte, règne trois mois"
+    },
+    { "nom": "Aybak", "titre": "Sultan", "debut": 1250, "fin": 1257, "dynastie": "bahrides" },
+    {
+      "nom": "Qutuz",
+      "titre": "Sultan",
+      "debut": 1259,
+      "fin": 1260,
+      "dynastie": "bahrides",
+      "note": "vainqueur d’Aïn Djalout, assassiné",
+      "cle": true
+    },
+    {
+      "nom": "Baybars",
+      "titre": "Sultan",
+      "debut": 1260,
+      "fin": 1277,
+      "dynastie": "bahrides",
+      "personne": "baybars",
+      "cle": true
+    },
+    {
+      "nom": "Qalawun",
+      "titre": "Sultan",
+      "debut": 1279,
+      "fin": 1290,
+      "dynastie": "bahrides",
+      "note": "fonde un grand hôpital au Caire",
+      "cle": true
+    },
+    {
+      "nom": "al-Ashraf Khalil",
+      "titre": "Sultan",
+      "debut": 1290,
+      "fin": 1293,
+      "dynastie": "bahrides",
+      "note": "prend Acre"
+    },
+    {
+      "nom": "an-Nasir Muhammad",
+      "titre": "Sultan",
+      "debut": 1310,
+      "fin": 1341,
+      "dynastie": "bahrides",
+      "note": "troisième règne, le plus brillant",
+      "cle": true
+    },
+    {
+      "nom": "Hassan",
+      "titre": "Sultan",
+      "debut": 1347,
+      "fin": 1361,
+      "dynastie": "bahrides",
+      "note": "règne interrompu ; fait bâtir une immense madrasa"
+    },
+    {
+      "nom": "Barquq",
+      "titre": "Sultan",
+      "debut": 1382,
+      "fin": 1399,
+      "dynastie": "burjites",
+      "note": "premier sultan circassien",
+      "cle": true
+    },
+    {
+      "nom": "Qaitbay",
+      "titre": "Sultan",
+      "debut": 1468,
+      "fin": 1496,
+      "dynastie": "burjites",
+      "note": "grand bâtisseur",
+      "cle": true
+    },
+    {
+      "nom": "Qansuh al-Ghawri",
+      "titre": "Sultan",
+      "debut": 1501,
+      "fin": 1516,
+      "dynastie": "burjites",
+      "note": "tué à Marj Dabiq"
+    },
+    {
+      "nom": "Tuman Bay II",
+      "titre": "Sultan",
+      "debut": 1516,
+      "fin": 1517,
+      "dynastie": "burjites",
+      "note": "dernier sultan, pendu par les Ottomans"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Baybars",
+      "role": "Sultan",
+      "description": "Ancien esclave devenu le plus célèbre des sultans mamelouks.",
+      "dates": "vers 1223 → 1277",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Baybars",
+      "ref": "baybars"
+    },
+    {
+      "nom": "Shajar al-Durr",
+      "role": "Sultane",
+      "description": "Veuve du dernier sultan ayyoubide, elle dirige la résistance contre la croisade de Louis IX, puis devient la seule femme sultane d’Égypte.",
+      "dates": "morte en 1257",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Chajar_ad-Durr"
+    },
+    {
+      "nom": "Ibn Khaldoun",
+      "role": "Historien",
+      "description": "Venu du Maghreb, il devient juge au Caire et y écrit une partie de son œuvre.",
+      "dates": "1332 → 1406",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Ibn_Khaldoun"
+    },
+    {
+      "nom": "Al-Maqrizi",
+      "role": "Historien",
+      "description": "Il décrit Le Caire et son histoire dans une grande œuvre topographique.",
+      "dates": "1364 → 1442",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Al-Maqrizi"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Bataille d’Aïn Djalout",
+      "annee": 1260,
+      "adversaires": ["Empire mongol (Ilkhanat)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Sultanat mamelouk",
+      "consequences": "Première grande défaite des Mongols dans une bataille rangée : l’Égypte et l’Afrique du Nord échappent à leur conquête.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_d%27A%C3%AFn_Djalout"
+    },
+    {
+      "nom": "Siège d’Acre (1291)",
+      "annee": 1291,
+      "adversaires": ["États latins d’Orient", "Ordres militaires"],
+      "allies": [],
+      "morts": "Plusieurs milliers",
+      "vainqueur": "Sultanat mamelouk",
+      "consequences": "Les dernières places croisées de Terre sainte sont abandonnées : c’est la fin des États latins d’Orient.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Saint-Jean-d%27Acre_(1291)"
+    },
+    {
+      "nom": "Conquête ottomane de l’Égypte",
+      "annee": 1516,
+      "adversaires": ["Empire ottoman (Selim Ier)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Empire ottoman",
+      "consequences": "Grâce à leur artillerie, les Ottomans gagnent à Marj Dabiq (1516) et à Ridaniya (1517). L’Égypte et la Syrie deviennent ottomanes.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_ottomano-mamelouke_(1516-1517)"
+    }
+  ],
+  "sciences": "Les Mamelouks fondent au Caire de grands hôpitaux, comme celui du sultan Qalawun, où l’on soigne gratuitement les malades, avec de la musique pour les apaiser. Les savants du Caire écrivent des encyclopédies, des traités d’astronomie et de médecine. Un service postal à cheval et des pigeons voyageurs relient Le Caire à la Syrie.",
+  "croyancesText": "Les Mamelouks sont musulmans sunnites et se présentent comme les défenseurs de l’islam face aux Mongols et aux croisés. Ils accueillent au Caire un calife abbasside, sans pouvoir réel mais qui légitime leur autorité, et protègent les lieux saints de La Mecque et Médine. Des chrétiens coptes et des juifs vivent dans l’empire, parfois soumis à des restrictions.",
+  "diplomatie": "Les Mamelouks s’allient à la Horde d’or contre les Mongols de Perse, d’où viennent beaucoup de leurs esclaves. Ils commercent avec Venise et Gênes, qui achètent les épices de l’Inde à Alexandrie. Au XVIe siècle, la route portugaise par le cap de Bonne-Espérance et l’expansion ottomane les affaiblissent.",
+  "societe": "Les mamelouks forment une caste militaire fermée : leurs enfants, nés libres, ne peuvent en principe pas devenir mamelouks. Ils dominent une population d’Égyptiens et de Syriens, artisans, paysans et savants. Les grands émirs construisent mosquées, écoles et fontaines publiques.",
+  "economie": "Agriculture de la vallée du Nil, commerce des épices entre l’océan Indien et la Méditerranée, sucre, textiles.",
+  "arts": "Mosquées et madrasas du Caire aux minarets élégants, verres émaillés, cuivres incrustés d’argent, Corans enluminés.",
+  "quotidien": "Le Caire compte des centaines de mosquées, des bains et des marchés couverts ; Ibn Battuta y voit « la mère des cités ».",
+  "heritage": [
+    {
+      "titre": "Le Caire historique",
+      "texte": "Une grande partie de ses monuments date de l’époque mamelouke ; il est inscrit au patrimoine mondial."
+    },
+    {
+      "titre": "Les mamelouks après 1517",
+      "texte": "Les émirs mamelouks gardent une grande influence en Égypte ottomane, jusqu’à leur massacre par Méhémet Ali en 1811."
+    }
+  ],
+  "aSavoir": ["« Mamelouk » vient d’un mot arabe qui signifie « possédé », c’est-à-dire esclave."],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Mamelouks",
+    { "titre": "Encyclopædia Britannica — Mamluk", "url": "https://www.britannica.com/topic/Mamluk" }
+  ]
+}

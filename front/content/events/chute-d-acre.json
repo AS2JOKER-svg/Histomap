@@ -1,0 +1,16 @@
+{
+  "id": "chute-d-acre",
+  "nom": "Chute d’Acre",
+  "annee": 1291,
+  "dates": "avril → mai 1291",
+  "lieu": "Acre (Israël actuel)",
+  "description": "Le sultan mamelouk al-Ashraf Khalil assiège et prend Saint-Jean-d’Acre, capitale du royaume latin de Jérusalem.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "Les dernières villes croisées de la côte sont évacuées dans les semaines suivantes : c’est la fin des États latins d’Orient, fondés après la première croisade."
+    }
+  ],
+  "avant": "bataille-d-ain-jalut",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Saint-Jean-d%27Acre_(1291)"
+}

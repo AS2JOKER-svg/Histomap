@@ -1,0 +1,21 @@
+{
+  "id": "guerre-de-jugurtha",
+  "nom": "Guerre de Jugurtha",
+  "annee": -112,
+  "fin": -105,
+  "dates": "−112 → −105",
+  "lieu": "Numidie (Algérie et Tunisie actuelles)",
+  "description": "Rome fait la guerre au roi numide [[jugurtha|Jugurtha]], qui a fait tuer son cousin Adherbal et des marchands italiens à Cirta.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Jugurtha mène une guerre de mouvement dans les montagnes et le désert. Les généraux romains Metellus puis Marius finissent par l’emporter, et Bocchus, roi de Maurétanie, le livre au questeur Sylla."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "La guerre fait la carrière de Marius et de Sylla, futurs rivaux. L’historien Salluste la raconte dans un livre célèbre."
+    }
+  ],
+  "liens": [{ "ref": "jugurtha", "relation": "Le roi vaincu" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_de_Jugurtha"
+}

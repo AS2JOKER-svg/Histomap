@@ -1,0 +1,17 @@
+{
+  "id": "idris-alaoma",
+  "nom": "Idris Alaoma",
+  "role": "Mai du Bornou",
+  "roles": ["Roi"],
+  "dates": "mort en 1596",
+  "mort": 1596,
+  "description": "Le plus célèbre souverain du Bornou, qui modernise son armée avec des armes à feu et étend son royaume autour du lac Tchad.",
+  "reperes": [{ "label": "Règne", "valeur": "vers 1564 → vers 1596", "precision": "dates discutées" }],
+  "essentiel": [
+    "Il fait venir des fusils et des instructeurs de l’Empire ottoman.",
+    "Il mène de nombreuses campagnes contre les Boulala et les cités haoussa.",
+    "Il fait le pèlerinage à La Mecque et construit des mosquées de brique.",
+    "Ses campagnes sont racontées par son imam, Ahmad ibn Furtu."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Idr%C4%ABs_Alaoma"
+}

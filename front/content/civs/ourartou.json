@@ -1,0 +1,214 @@
+{
+  "documentaires": [],
+  "decouvertes": ["canal-de-menua"],
+  "id": "ourartou",
+  "label": "Ourartou",
+  "tier": 2,
+  "region": "caucase",
+  "period": "vers -860 à -590",
+  "start": -860,
+  "end": -590,
+  "color": "#8d6e63",
+  "trackId": "caucase",
+  "row": 1,
+  "isRiver": false,
+  "capitale": "Tushpa (lac de Van)",
+  "description": "Un royaume des hauts plateaux autour du lac de Van, grand rival de l’Assyrie, célèbre pour ses forteresses, ses canaux et le travail du bronze ; sa ville d’Erebuni est l’ancêtre d’Erevan.",
+  "territories": ["Urartu"],
+  "reperes": {
+    "capitale": { "valeur": "Tushpa", "precision": "citadelle au bord du lac de Van, dans l’est de la Turquie actuelle" },
+    "regimes": { "valeur": "Monarchie", "precision": "un roi tout-puissant, appuyé sur un réseau de forteresses" },
+    "langues": { "valeur": "Ourartéen", "precision": "langue proche du hourrite, écrite en cunéiforme emprunté à l’Assyrie" },
+    "religion": { "valeur": "Culte du dieu Haldi", "precision": "avec le dieu de l’orage Teisheba et le dieu solaire Shivini" },
+    "apogee": { "valeur": "VIIIe siècle av. J.-C.", "precision": "règnes de Menua, d’Argishti Ier et de Sarduri II" },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": { "valeur": "Aucune", "precision": "échanges en nature : grain, bétail, métaux" },
+    "duree": { "valeur": "Environ 270 ans" },
+    "aujourdhui": { "valeur": "Est de la Turquie", "precision": "ainsi que l’Arménie et le nord-ouest de l’Iran" }
+  },
+  "essentiel": [
+    "Au IXe siècle av. J.-C., les peuples des montagnes autour du lac de Van s’unissent en un royaume, l’Ourartou, pour résister à l’Assyrie.",
+    "Ses rois couvrent le pays de forteresses, de temples et de canaux d’irrigation, comme le [[canal-de-menua|canal de Menua]], encore utilisé aujourd’hui.",
+    "En 782 av. J.-C., le roi [[argishti-ier|Argishti Ier]] fonde la forteresse d’Erebuni : c’est l’acte de naissance d’Erevan, capitale de l’Arménie.",
+    "En 714 av. J.-C., le roi d’Assyrie Sargon II ravage le pays et pille le grand temple de Musasir lors de sa [[huitieme-campagne-de-sargon-ii|huitième campagne]].",
+    "Affaibli, l’Ourartou disparaît au début du VIe siècle av. J.-C., sans doute sous les coups des Mèdes ; les Arméniens s’installent sur ses terres."
+  ],
+  "datesCles": [
+    {
+      "annee": -858,
+      "evenement": "Aramé, premier roi connu",
+      "info": "Les inscriptions assyriennes mentionnent ce roi, attaqué par Salmanazar III."
+    },
+    {
+      "annee": -830,
+      "evenement": "Tushpa",
+      "info": "Vers 830 av. J.-C., le roi Sarduri Ier fait bâtir la citadelle de Van."
+    },
+    {
+      "annee": -800,
+      "evenement": "Le canal de Menua",
+      "info": "Vers 800 av. J.-C., le roi Menua fait creuser un canal long de plusieurs dizaines de kilomètres qui alimente la région de Van."
+    },
+    {
+      "annee": -782,
+      "evenement": "Fondation d’Erebuni",
+      "info": "Argishti Ier fonde la forteresse d’Erebuni, à l’emplacement de l’actuelle Erevan.",
+      "ref": "fondation-d-erebuni"
+    },
+    {
+      "annee": -743,
+      "evenement": "Défaite face à l’Assyrie",
+      "info": "Le roi d’Assyrie Teglath-Phalasar III bat Sarduri II."
+    },
+    {
+      "annee": -714,
+      "evenement": "Huitième campagne de Sargon II",
+      "info": "Les Assyriens ravagent l’Ourartou et pillent le temple de Musasir.",
+      "ref": "huitieme-campagne-de-sargon-ii"
+    },
+    {
+      "annee": -590,
+      "evenement": "Fin du royaume",
+      "info": "Vers 590 av. J.-C., l’Ourartou disparaît, sans doute conquis par les Mèdes."
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "La formation du royaume",
+      "debut": -860,
+      "fin": -810,
+      "resume": "Les premiers rois unissent les montagnards et fondent leur capitale à Tushpa, sur le lac de Van.",
+      "evenements": [{ "annee": -830, "evenement": "Citadelle de Van" }]
+    },
+    {
+      "nom": "L’apogée",
+      "debut": -810,
+      "fin": -743,
+      "resume": "Menua et Argishti Ier conquièrent les vallées voisines, creusent des canaux et fondent des forteresses jusqu’au lac Sevan.",
+      "evenements": [
+        { "annee": -800, "evenement": "Canal de Menua" },
+        { "annee": -782, "evenement": "Fondation d’Erebuni", "ref": "fondation-d-erebuni" }
+      ]
+    },
+    {
+      "nom": "Face à l’Assyrie",
+      "debut": -743,
+      "fin": -590,
+      "resume": "Battu par l’Assyrie puis frappé par les invasions des Cimmériens, le royaume survit encore un siècle avant de disparaître.",
+      "evenements": [{ "annee": -714, "evenement": "Campagne de Sargon II", "ref": "huitieme-campagne-de-sargon-ii" }]
+    }
+  ],
+  "regimes": [{ "id": "royaume", "nom": "Royaume d’Ourartou", "debut": -860, "fin": -590 }],
+  "dynasties": [
+    {
+      "id": "rois",
+      "nom": "Les rois d’Ourartou",
+      "debut": -858,
+      "fin": -639,
+      "note": "Dates approximatives, établies d’après les sources assyriennes ; les derniers rois sont mal connus."
+    }
+  ],
+  "dirigeants": [
+    { "nom": "Aramé", "titre": "Roi", "debut": -858, "fin": -844, "dynastie": "rois", "note": "premier roi connu" },
+    {
+      "nom": "Sarduri Ier",
+      "titre": "Roi",
+      "debut": -834,
+      "fin": -828,
+      "dynastie": "rois",
+      "note": "fonde la citadelle de Van"
+    },
+    { "nom": "Ishpuini", "titre": "Roi", "debut": -828, "fin": -810, "dynastie": "rois" },
+    {
+      "nom": "Menua",
+      "titre": "Roi",
+      "debut": -810,
+      "fin": -786,
+      "dynastie": "rois",
+      "note": "grand bâtisseur de canaux",
+      "cle": true
+    },
+    {
+      "nom": "Argishti Ier",
+      "titre": "Roi",
+      "debut": -786,
+      "fin": -764,
+      "dynastie": "rois",
+      "personne": "argishti-ier",
+      "cle": true
+    },
+    {
+      "nom": "Sarduri II",
+      "titre": "Roi",
+      "debut": -764,
+      "fin": -735,
+      "dynastie": "rois",
+      "note": "battu par Teglath-Phalasar III",
+      "cle": true
+    },
+    {
+      "nom": "Rusa Ier",
+      "titre": "Roi",
+      "debut": -735,
+      "fin": -714,
+      "dynastie": "rois",
+      "note": "vaincu par Sargon II",
+      "cle": true
+    },
+    { "nom": "Argishti II", "titre": "Roi", "debut": -714, "fin": -685, "dynastie": "rois" },
+    { "nom": "Rusa II", "titre": "Roi", "debut": -685, "fin": -639, "dynastie": "rois", "note": "dernier grand bâtisseur" }
+  ],
+  "personnages": [
+    {
+      "nom": "Argishti Ier",
+      "role": "Roi",
+      "description": "Fondateur d’Erebuni, le plus grand conquérant de l’Ourartou.",
+      "dates": "règne vers −786 → −764",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Argishti_Ier",
+      "ref": "argishti-ier"
+    },
+    {
+      "nom": "Sargon II",
+      "role": "Roi d’Assyrie",
+      "description": "Il ravage l’Ourartou en 714 av. J.-C. et raconte sa campagne dans une longue lettre au dieu Assur.",
+      "dates": "règne −722 → −705",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Sargon_II"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Huitième campagne de Sargon II",
+      "annee": -714,
+      "adversaires": ["Assyrie (Sargon II)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Assyrie",
+      "consequences": "Le roi Rusa Ier est battu ; les Assyriens pillent le temple du dieu Haldi à Musasir et emportent un immense butin.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Huiti%C3%A8me_campagne_de_Sargon_II"
+    }
+  ],
+  "sciences": "Les Ourartéens sont d’excellents ingénieurs : ils creusent des canaux, bâtissent des barrages et des réservoirs pour irriguer leurs vallées de montagne. Leurs forteresses, perchées sur des éperons rocheux, possèdent d’immenses magasins à grain et à vin. Leurs forgerons travaillent le bronze et le fer avec une grande habileté.",
+  "croyancesText": "Le grand dieu de l’Ourartou est Haldi, dieu de la guerre et protecteur du roi, honoré dans le temple de Musasir. Il forme une triade avec Teisheba, dieu de l’orage, et Shivini, dieu du soleil. Les rois gravent sur les rochers des inscriptions qui attribuent leurs victoires à Haldi.",
+  "diplomatie": "L’Ourartou est le principal rival de l’Assyrie au nord : les deux royaumes se disputent les routes du commerce, les mines de métal et les petits royaumes de Syrie. Les rois ourartéens lancent aussi des campagnes vers le Caucase et le lac d’Ourmia.",
+  "societe": "Le roi gouverne depuis des citadelles où sont stockées les récoltes. Les prisonniers de guerre sont déportés pour peupler les nouvelles villes et travailler aux grands chantiers.",
+  "economie": "Agriculture irriguée, vigne, élevage de chevaux réputés, mines et métallurgie du bronze et du fer.",
+  "arts": "Boucliers, chaudrons et statuettes de bronze, ceintures décorées, sculptures sur pierre.",
+  "quotidien": "Dans les forteresses, de grandes jarres enterrées pouvaient contenir des milliers de litres de vin ou de grain.",
+  "heritage": [
+    {
+      "titre": "Erevan",
+      "texte": "La capitale de l’Arménie fête sa fondation en 782 av. J.-C., d’après l’inscription d’Argishti Ier retrouvée à Erebuni."
+    },
+    {
+      "titre": "Le mont Ararat",
+      "texte": "Le nom d’Ararat, donné dans la Bible aux montagnes où s’échoue l’arche de Noé, viendrait du nom de l’Ourartou."
+    }
+  ],
+  "aSavoir": [
+    "Le royaume d’Ourartou a été redécouvert au XIXe siècle grâce aux inscriptions cunéiformes gravées sur les rochers de Van."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Urartu",
+    { "titre": "Encyclopædia Britannica — Urartu", "url": "https://www.britannica.com/place/Urartu" }
+  ]
+}

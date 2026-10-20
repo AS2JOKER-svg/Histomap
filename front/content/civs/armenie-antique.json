@@ -1,0 +1,279 @@
+{
+  "documentaires": [],
+  "decouvertes": ["alphabet-armenien"],
+  "id": "armenie-antique",
+  "label": "Royaume d’Arménie",
+  "tier": 1,
+  "region": "caucase",
+  "period": "-331 à 428",
+  "start": -331,
+  "end": 428,
+  "color": "#c0392b",
+  "trackId": "caucase",
+  "row": 2,
+  "isRiver": false,
+  "capitale": "Artaxata",
+  "description": "Un royaume des hauts plateaux entre la mer Noire et la Caspienne, disputé par Rome et la Perse, qui devient sous Tigrane un empire éphémère puis, selon la tradition, le premier État chrétien.",
+  "territories": ["Armenia"],
+  "reperes": {
+    "capitale": {
+      "valeur": "Artaxata",
+      "precision": "fondée vers 176 av. J.-C. ; puis Tigranocerte sous Tigrane, Vagharshapat et Dvin"
+    },
+    "regimes": { "valeur": "Monarchie", "precision": "dynasties orontide, artaxiade puis arsacide" },
+    "langues": { "valeur": "Arménien", "precision": "écrit à partir de 405 grâce à l’alphabet de Mesrop Machtots" },
+    "religion": {
+      "valeur": "Christianisme",
+      "precision": "religion officielle depuis 301 selon la tradition ; auparavant cultes iraniens et grecs"
+    },
+    "apogee": { "valeur": "Règne de Tigrane II (−95 → −55)", "precision": "de la Caspienne à la Méditerranée" },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": { "valeur": "Drachmes et tétradrachmes", "precision": "frappés notamment par Tigrane le Grand" },
+    "duree": { "valeur": "Environ 760 ans" },
+    "aujourdhui": { "valeur": "Arménie", "precision": "ainsi que l’est de la Turquie et le nord-ouest de l’Iran" }
+  },
+  "essentiel": [
+    "Après la conquête d’Alexandre, des gouverneurs de la famille des Orontides règnent sur l’Arménie ; en 189 av. J.-C., Artaxias Ier fonde un royaume indépendant.",
+    "[[tigrane-le-grand|Tigrane le Grand]] (−95 → −55) se taille un empire jusqu’à la Méditerranée, avant d’être soumis par les Romains Lucullus et Pompée.",
+    "Pendant des siècles, l’Arménie est disputée entre Rome et les Parthes, puis les Perses sassanides.",
+    "Selon la tradition, vers 301, le roi Tiridate III est converti par [[gregoire-l-illuminateur|Grégoire l’Illuminateur]] : l’Arménie devient le premier État chrétien.",
+    "En 405, le moine [[mesrop-machtots|Mesrop Machtots]] crée l’[[alphabet-armenien|alphabet arménien]] ; en 428, la Perse supprime la royauté."
+  ],
+  "datesCles": [
+    {
+      "annee": -331,
+      "evenement": "Après Gaugamèles",
+      "info": "L’Empire perse s’effondre ; les gouverneurs orontides gardent le pouvoir en Arménie.",
+      "ref": "bataille-de-gaugameles"
+    },
+    {
+      "annee": -189,
+      "evenement": "Artaxias Ier roi",
+      "info": "Profitant de la défaite séleucide face à Rome, il fonde un royaume indépendant."
+    },
+    {
+      "annee": -95,
+      "evenement": "Tigrane le Grand",
+      "info": "Il conquiert la Syrie, la Phénicie et une partie de la Mésopotamie."
+    },
+    {
+      "annee": -69,
+      "evenement": "Tigranocerte",
+      "info": "Le général romain Lucullus bat Tigrane et prend sa nouvelle capitale."
+    },
+    {
+      "annee": -66,
+      "evenement": "Soumission à Pompée",
+      "info": "Tigrane garde son trône mais devient l’allié de Rome."
+    },
+    {
+      "annee": 66,
+      "evenement": "Tiridate couronné à Rome",
+      "info": "L’empereur Néron couronne le roi arménien, un prince parthe : un compromis entre Rome et les Parthes."
+    },
+    {
+      "annee": 301,
+      "evenement": "Conversion au christianisme",
+      "info": "Selon la tradition, Tiridate III adopte le christianisme comme religion officielle.",
+      "ref": "conversion-de-l-armenie-au-christianisme"
+    },
+    { "annee": 387, "evenement": "Partage", "info": "Rome et la Perse se partagent l’Arménie." },
+    {
+      "annee": 405,
+      "evenement": "L’alphabet arménien",
+      "info": "Mesrop Machtots crée un alphabet de 36 lettres pour traduire la Bible."
+    },
+    {
+      "annee": 428,
+      "evenement": "Fin de la royauté",
+      "info": "Les Sassanides déposent le dernier roi et nomment un gouverneur perse."
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "Les Orontides",
+      "debut": -331,
+      "fin": -189,
+      "resume": "Des gouverneurs puis rois de la famille orontide dirigent l’Arménie, sous la domination plus ou moins lointaine des Séleucides.",
+      "evenements": [{ "annee": -331, "evenement": "Après Gaugamèles", "ref": "bataille-de-gaugameles" }]
+    },
+    {
+      "nom": "Les Artaxiades",
+      "debut": -189,
+      "fin": 12,
+      "resume": "Le royaume indépendant atteint son apogée sous Tigrane le Grand, puis passe sous l’influence de Rome.",
+      "evenements": [
+        { "annee": -176, "evenement": "Fondation d’Artaxata" },
+        { "annee": -95, "evenement": "Avènement de Tigrane II" },
+        { "annee": -66, "evenement": "Soumission à Pompée" }
+      ]
+    },
+    {
+      "nom": "Les Arsacides",
+      "debut": 12,
+      "fin": 428,
+      "resume": "Une branche de la dynastie parthe règne sur l’Arménie, qui devient chrétienne et invente son alphabet.",
+      "evenements": [
+        { "annee": 66, "evenement": "Couronnement de Tiridate Ier" },
+        { "annee": 301, "evenement": "Conversion", "ref": "conversion-de-l-armenie-au-christianisme" },
+        { "annee": 405, "evenement": "Alphabet arménien" }
+      ]
+    }
+  ],
+  "regimes": [
+    { "id": "orontides", "nom": "Satrapie puis royaume orontide", "debut": -331, "fin": -189 },
+    {
+      "id": "royaume",
+      "nom": "Royaume d’Arménie",
+      "debut": -189,
+      "fin": 428,
+      "note": "Souvent vassal de Rome ou de la Perse."
+    }
+  ],
+  "dynasties": [
+    { "id": "artaxiades", "nom": "Les Artaxiades", "debut": -189, "fin": 12 },
+    {
+      "id": "arsacides",
+      "nom": "Les Arsacides d’Arménie",
+      "debut": 52,
+      "fin": 428,
+      "note": "Sélection ; dates souvent approximatives."
+    }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Artaxias Ier",
+      "titre": "Roi",
+      "debut": -189,
+      "fin": -160,
+      "dynastie": "artaxiades",
+      "note": "fondateur du royaume indépendant",
+      "cle": true
+    },
+    {
+      "nom": "Tigrane II",
+      "titre": "Roi des rois",
+      "surnom": "le Grand",
+      "debut": -95,
+      "fin": -55,
+      "dynastie": "artaxiades",
+      "personne": "tigrane-le-grand",
+      "cle": true
+    },
+    {
+      "nom": "Artavazde II",
+      "titre": "Roi",
+      "debut": -55,
+      "fin": -34,
+      "dynastie": "artaxiades",
+      "note": "capturé par Marc Antoine"
+    },
+    {
+      "nom": "Tiridate Ier",
+      "titre": "Roi",
+      "debut": 63,
+      "fin": 88,
+      "dynastie": "arsacides",
+      "note": "couronné à Rome par Néron en 66",
+      "cle": true
+    },
+    {
+      "nom": "Tiridate III",
+      "titre": "Roi",
+      "debut": 287,
+      "fin": 330,
+      "dynastie": "arsacides",
+      "note": "se convertit au christianisme ; parfois numéroté Tiridate IV",
+      "cle": true
+    },
+    {
+      "nom": "Arsace II",
+      "titre": "Roi",
+      "debut": 350,
+      "fin": 368,
+      "dynastie": "arsacides",
+      "note": "capturé par les Perses"
+    },
+    { "nom": "Pap", "titre": "Roi", "debut": 370, "fin": 374, "dynastie": "arsacides" },
+    { "nom": "Artaxias IV", "titre": "Roi", "debut": 422, "fin": 428, "dynastie": "arsacides", "note": "dernier roi" }
+  ],
+  "personnages": [
+    {
+      "nom": "Tigrane le Grand",
+      "role": "Roi des rois",
+      "description": "Le roi qui fait de l’Arménie, pour un temps, la première puissance d’Orient.",
+      "dates": "vers −140 → −55",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Tigrane_II",
+      "ref": "tigrane-le-grand"
+    },
+    {
+      "nom": "Grégoire l’Illuminateur",
+      "role": "Évangélisateur",
+      "description": "Selon la tradition, il convertit le roi Tiridate III et devient le premier chef de l’Église arménienne.",
+      "dates": "vers 257 → vers 331",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Gr%C3%A9goire_l%27Illuminateur",
+      "ref": "gregoire-l-illuminateur"
+    },
+    {
+      "nom": "Mesrop Machtots",
+      "role": "Moine et savant",
+      "description": "Il invente l’alphabet arménien en 405.",
+      "dates": "vers 362 → 440",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Mesrop_Machtots",
+      "ref": "mesrop-machtots"
+    },
+    {
+      "nom": "Artavazde II",
+      "role": "Roi et écrivain",
+      "description": "Fils de Tigrane, il écrit des tragédies en grec, selon Plutarque ; capturé par Marc Antoine, il est exécuté en Égypte.",
+      "dates": "mort en −31",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Artavazde_II"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Bataille de Tigranocerte",
+      "annee": -69,
+      "adversaires": ["République romaine (Lucullus)"],
+      "allies": [],
+      "morts": "Très lourdes côté arménien, selon les auteurs romains",
+      "vainqueur": "République romaine",
+      "consequences": "Lucullus, avec une armée bien plus petite, bat Tigrane et prend sa nouvelle capitale. En 66 av. J.-C., Tigrane se soumet à Pompée et devient l’allié de Rome.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Troisi%C3%A8me_guerre_de_Mithridate"
+    },
+    {
+      "nom": "Guerre romano-parthe pour l’Arménie",
+      "annee": 58,
+      "adversaires": ["Empire romain (Corbulon)"],
+      "allies": ["Empire parthe"],
+      "morts": "Inconnues",
+      "vainqueur": "Compromis",
+      "consequences": "Après la reddition d’une armée romaine à Rhandeia (62), un compromis est trouvé : le prince parthe Tiridate règne sur l’Arménie, mais reçoit sa couronne des mains de Néron à Rome (66).",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_romano-parthique_de_58-63"
+    }
+  ],
+  "sciences": "En 405, Mesrop Machtots crée un alphabet de 36 lettres adapté aux sons de la langue arménienne ; il est toujours utilisé aujourd’hui, avec quelques lettres ajoutées. Les moines traduisent aussitôt la Bible et de nombreux textes grecs et syriaques : c’est le début d’une riche littérature arménienne.",
+  "croyancesText": "Avant le christianisme, les Arméniens honorent des dieux proches de ceux des Iraniens, comme Aramazd et la déesse Anahit, et des dieux grecs. Selon la tradition, vers 301, Tiridate III adopte le christianisme, ce qui fait de l’Arménie le premier royaume chrétien. L’Église arménienne a gardé une identité propre.",
+  "diplomatie": "Située entre l’Empire romain et l’Iran (Parthes puis Sassanides), l’Arménie est un enjeu permanent : ses rois sont souvent des princes imposés par l’un ou l’autre. En 387, les deux empires se la partagent ; la partie perse perd sa royauté en 428.",
+  "societe": "La société est dominée par de grandes familles nobles, les nakharars, qui possèdent les terres et commandent leurs propres troupes. Après la conversion, l’Église devient une puissance majeure.",
+  "economie": "Agriculture et élevage des hautes vallées, mines, commerce entre la Perse, la Mésopotamie et la mer Noire.",
+  "arts": "Temple de Garni (Ier siècle), de style gréco-romain, premières églises comme la cathédrale d’Etchmiadzin, manuscrits enluminés.",
+  "quotidien": "Les villages de montagne vivent au rythme des saisons : l’hiver est long et rude sur les hauts plateaux.",
+  "heritage": [
+    { "titre": "L’alphabet arménien", "texte": "L’alphabet de Mesrop Machtots est toujours celui de l’Arménie." },
+    {
+      "titre": "L’Église apostolique arménienne",
+      "texte": "Fondée selon la tradition par Grégoire l’Illuminateur, elle est l’une des plus anciennes Églises chrétiennes."
+    }
+  ],
+  "aSavoir": [
+    "La date de 301 pour la conversion de l’Arménie est traditionnelle ; certains historiens la placent plutôt vers 314."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Royaume_d%27Arm%C3%A9nie",
+    {
+      "titre": "Encyclopædia Britannica — Armenia, history",
+      "url": "https://www.britannica.com/place/Armenia/History"
+    }
+  ]
+}

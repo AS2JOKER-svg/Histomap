@@ -1,0 +1,18 @@
+{
+  "id": "antiochos-iii",
+  "nom": "Antiochos III le Grand",
+  "role": "Roi séleucide",
+  "roles": ["Roi"],
+  "dates": "vers −242 → −187",
+  "naissance": -242,
+  "mort": -187,
+  "description": "Roi de 222 à 187 av. J.-C., il reconquiert les provinces d’Orient jusqu’en Inde, mais il est vaincu par Rome.",
+  "reperes": [{ "label": "Règne", "valeur": "−222 → −187" }],
+  "essentiel": [
+    "Il mène une grande expédition vers l’est (−212 → −205), qui lui vaut le surnom de « Grand ».",
+    "Il prend la Syrie du Sud et la Judée aux Ptolémées (−200).",
+    "Il accueille Hannibal, puis est battu par Rome aux Thermopyles et à [[bataille-de-magnesie|Magnésie]] (−190)."
+  ],
+  "liens": [{ "ref": "hannibal", "relation": "Son conseiller en exil" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Antiochos_III"
+}

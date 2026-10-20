@@ -1,0 +1,207 @@
+{
+  "documentaires": [],
+  "decouvertes": ["petra", "route-de-l-encens"],
+  "id": "nabateens",
+  "label": "Nabatéens",
+  "tier": 2,
+  "region": "levant",
+  "period": "vers -312 à 106",
+  "start": -312,
+  "end": 106,
+  "color": "#e07a5f",
+  "trackId": "arabie",
+  "row": 2,
+  "isRiver": false,
+  "capitale": "Pétra",
+  "description": "Un peuple arabe de caravaniers qui contrôle la route de l’encens et taille dans le grès rose sa capitale, Pétra, avant d’être annexé par Rome en 106.",
+  "territories": ["Nabatean Kingdom"],
+  "reperes": {
+    "capitale": { "valeur": "Pétra", "precision": "cité taillée dans le grès rose, dans le sud de la Jordanie" },
+    "regimes": { "valeur": "Monarchie", "precision": "royauté attestée à partir du IIe siècle av. J.-C." },
+    "langues": {
+      "valeur": "Arabe et araméen",
+      "precision": "les inscriptions sont en araméen ; leur écriture est l’ancêtre de l’alphabet arabe"
+    },
+    "religion": {
+      "valeur": "Polythéisme",
+      "precision": "le dieu Dusharê et la déesse al-Uzza, représentés souvent par des pierres dressées"
+    },
+    "apogee": { "valeur": "Règne d’Arétas IV (−9 → 40)" },
+    "population": { "valeur": "Inconnue", "precision": "Pétra compte peut-être 20 000 habitants à son apogée" },
+    "monnaie": { "valeur": "Pièces d’argent et de bronze", "precision": "frappées à Pétra à partir du IIe siècle av. J.-C." },
+    "duree": { "valeur": "Environ 420 ans", "precision": "jusqu’à l’annexion romaine" },
+    "aujourdhui": { "valeur": "Jordanie", "precision": "ainsi que le Néguev, le Sinaï et le nord-ouest de l’Arabie saoudite" }
+  },
+  "essentiel": [
+    "Les Nabatéens, nomades arabes, deviennent les maîtres des pistes du désert sur la [[route-de-l-encens|route de l’encens]], entre l’Arabie du Sud et la Méditerranée.",
+    "Ils savent trouver et stocker l’eau dans le désert grâce à des citernes et des canalisations, ce qui leur permet de résister à leurs ennemis.",
+    "Leur capitale, [[petra|Pétra]], est une ville aux façades monumentales taillées dans les falaises de grès rose.",
+    "Sous [[aretas-iv|Arétas IV]], le royaume s’étend du sud de la Syrie au nord-ouest de l’Arabie, où se trouve la cité de Hégra.",
+    "En 106, à la mort du dernier roi, l’empereur [[trajan|Trajan]] annexe le royaume, qui devient la province romaine d’Arabie."
+  ],
+  "datesCles": [
+    {
+      "annee": -312,
+      "evenement": "Contre Antigone",
+      "info": "Les Nabatéens repoussent deux expéditions d’Antigone le Borgne, un successeur d’Alexandre : c’est leur première mention dans l’histoire."
+    },
+    {
+      "annee": -168,
+      "evenement": "Premier roi connu",
+      "info": "Une inscription mentionne Arétas Ier, « tyran des Arabes »."
+    },
+    { "annee": -85, "evenement": "Damas", "info": "Arétas III prend Damas, qu’il garde une dizaine d’années." },
+    {
+      "annee": -62,
+      "evenement": "Face à Rome",
+      "info": "Après une expédition romaine, Arétas III accepte de payer un tribut."
+    },
+    {
+      "annee": -9,
+      "evenement": "Arétas IV",
+      "info": "Début du règne le plus brillant : Pétra se couvre de monuments."
+    },
+    {
+      "annee": 106,
+      "evenement": "Annexion romaine",
+      "info": "Trajan fait du royaume la province romaine d’Arabie.",
+      "ref": "annexion-du-royaume-nabateen"
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "Des nomades caravaniers",
+      "debut": -312,
+      "fin": -168,
+      "resume": "Les Nabatéens contrôlent les pistes du désert, vivent sous la tente et cachent leurs réserves d’eau.",
+      "evenements": [{ "annee": -312, "evenement": "Échec d’Antigone le Borgne" }]
+    },
+    {
+      "nom": "Le royaume",
+      "debut": -168,
+      "fin": -9,
+      "resume": "Des rois s’imposent, frappent monnaie et s’étendent vers la Syrie, au contact des Hasmonéens de Judée et de Rome.",
+      "evenements": [{ "annee": -85, "evenement": "Prise de Damas" }, { "annee": -62, "evenement": "Tribut à Rome" }]
+    },
+    {
+      "nom": "L’âge d’or de Pétra",
+      "debut": -9,
+      "fin": 106,
+      "resume": "Sous Arétas IV et ses successeurs, Pétra et Hégra se couvrent de tombeaux monumentaux, avant l’annexion romaine.",
+      "evenements": [
+        { "annee": -9, "evenement": "Avènement d’Arétas IV" },
+        { "annee": 106, "evenement": "Annexion", "ref": "annexion-du-royaume-nabateen" }
+      ]
+    }
+  ],
+  "regimes": [
+    {
+      "id": "royaume",
+      "nom": "Royaume nabatéen",
+      "debut": -312,
+      "fin": 106,
+      "note": "Souverains connus à partir de 168 av. J.-C. ; client de Rome à partir de 62 av. J.-C."
+    }
+  ],
+  "dynasties": [{ "id": "rois", "nom": "Les rois nabatéens", "debut": -168, "fin": 106, "note": "Sélection." }],
+  "dirigeants": [
+    {
+      "nom": "Arétas Ier",
+      "titre": "Roi",
+      "debut": -168,
+      "fin": -168,
+      "dynastie": "rois",
+      "note": "premier roi connu",
+      "cle": true
+    },
+    {
+      "nom": "Obodas Ier",
+      "titre": "Roi",
+      "debut": -96,
+      "fin": -85,
+      "dynastie": "rois",
+      "note": "bat le roi de Judée Alexandre Jannée"
+    },
+    { "nom": "Arétas III", "titre": "Roi", "debut": -87, "fin": -62, "dynastie": "rois", "note": "prend Damas", "cle": true },
+    { "nom": "Obodas III", "titre": "Roi", "debut": -30, "fin": -9, "dynastie": "rois" },
+    {
+      "nom": "Arétas IV",
+      "titre": "Roi",
+      "debut": -9,
+      "fin": 40,
+      "dynastie": "rois",
+      "personne": "aretas-iv",
+      "note": "« qui aime son peuple »",
+      "cle": true
+    },
+    { "nom": "Malichus II", "titre": "Roi", "debut": 40, "fin": 70, "dynastie": "rois" },
+    { "nom": "Rabbel II", "titre": "Roi", "debut": 70, "fin": 106, "dynastie": "rois", "note": "dernier roi", "cle": true }
+  ],
+  "personnages": [
+    {
+      "nom": "Arétas IV",
+      "role": "Roi",
+      "description": "Le plus grand roi nabatéen, sous lequel Pétra atteint son apogée.",
+      "dates": "règne −9 → 40",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Ar%C3%A9tas_IV",
+      "ref": "aretas-iv"
+    },
+    {
+      "nom": "Syllaios",
+      "role": "Ministre",
+      "description": "Puissant ministre du roi Obodas III, il guide (et, selon Strabon, égare) l’expédition romaine en Arabie ; il est exécuté à Rome.",
+      "dates": "mort en −6",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Syllaios"
+    },
+    {
+      "nom": "Jean Louis Burckhardt",
+      "role": "Explorateur suisse",
+      "description": "Déguisé en voyageur musulman, il est le premier Européen des Temps modernes à visiter Pétra, en 1812.",
+      "dates": "1784 → 1817",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Jean_Louis_Burckhardt"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Expéditions d’Antigone contre les Nabatéens",
+      "annee": -312,
+      "adversaires": ["Royaume d’Antigone le Borgne"],
+      "allies": [],
+      "morts": "Plusieurs milliers de soldats grecs, selon Diodore",
+      "vainqueur": "Nabatéens",
+      "consequences": "Les Nabatéens écrasent la première expédition sur le chemin du retour et négocient avec la seconde : leur indépendance est préservée.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Nabat%C3%A9ens"
+    },
+    {
+      "nom": "Guerre d’Arétas IV contre Hérode Antipas",
+      "annee": 36,
+      "adversaires": ["Tétrarchie de Galilée (Hérode Antipas)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Nabatéens",
+      "consequences": "Arétas venge sa fille, répudiée par Hérode Antipas, et bat son armée. L’intervention romaine prévue contre lui est annulée à la mort de l’empereur Tibère.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Ar%C3%A9tas_IV"
+    }
+  ],
+  "sciences": "Les Nabatéens sont des maîtres de l’eau : citernes creusées dans la roche, barrages, canalisations en terre cuite qui amènent l’eau des sources jusqu’au cœur de Pétra. Ils sculptent dans la falaise des façades de dizaines de mètres de haut, comme celle du Khazneh, le « Trésor ».",
+  "croyancesText": "Le dieu principal des Nabatéens est Dusharê, « celui du Shara », la montagne de Pétra ; la déesse al-Uzza est aussi très vénérée. Ils représentent souvent leurs dieux par de simples pierres dressées, les bétyles, et célèbrent des banquets rituels dans des salles taillées dans la roche.",
+  "diplomatie": "Les Nabatéens tirent leur richesse des taxes sur les caravanes d’encens, de myrrhe et d’épices. Ils affrontent les Séleucides, les Hasmonéens puis Hérode en Judée, et deviennent un royaume client de Rome, jusqu’à leur annexion.",
+  "societe": "Selon le géographe Strabon, le roi de Pétra vit simplement, partage les banquets de ses sujets et doit parfois rendre des comptes à l’assemblée. Les reines nabatéennes figurent sur les monnaies à côté des rois.",
+  "economie": "Commerce caravanier de l’encens, de la myrrhe et des épices ; agriculture en terrasses grâce à l’irrigation ; élevage de chameaux.",
+  "arts": "Façades monumentales taillées dans la roche, céramique fine aux décors peints très délicats.",
+  "quotidien": "Dans le désert, les Nabatéens creusent des citernes secrètes qu’ils sont seuls à connaître, ce qui leur permet de se réfugier là où leurs ennemis meurent de soif.",
+  "heritage": [
+    {
+      "titre": "Pétra",
+      "texte": "La cité est inscrite au patrimoine mondial et choisie en 2007 parmi les « sept nouvelles merveilles du monde »."
+    },
+    { "titre": "L’alphabet arabe", "texte": "L’écriture des Nabatéens est l’ancêtre directe de l’alphabet arabe." }
+  ],
+  "aSavoir": [
+    "Hégra (Mada’in Salih), en Arabie saoudite, compte plus d’une centaine de tombeaux nabatéens ; c’est le premier site saoudien inscrit au patrimoine mondial (2008)."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Nabat%C3%A9ens",
+    { "titre": "Encyclopædia Britannica — Nabataean", "url": "https://www.britannica.com/topic/Nabataean" }
+  ]
+}

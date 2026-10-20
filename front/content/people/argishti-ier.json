@@ -1,0 +1,14 @@
+{
+  "id": "argishti-ier",
+  "nom": "Argishti Ier",
+  "role": "Roi d’Ourartou",
+  "roles": ["Roi"],
+  "dates": "règne vers −786 → −764",
+  "description": "Roi d’Ourartou au VIIIe siècle av. J.-C., il étend son royaume jusqu’au lac Sevan et fonde la forteresse d’Erebuni, l’ancienne Erevan.",
+  "essentiel": [
+    "Il conquiert les vallées de l’Araxe et du lac Sevan.",
+    "Il fonde Erebuni (782 av. J.-C.) et Argishtihinili.",
+    "Il fait graver le récit de ses campagnes sur le rocher de Van."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Argishti_Ier"
+}

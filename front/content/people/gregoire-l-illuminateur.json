@@ -1,0 +1,17 @@
+{
+  "id": "gregoire-l-illuminateur",
+  "nom": "Grégoire l’Illuminateur",
+  "role": "Évangélisateur de l’Arménie",
+  "roles": ["Saint", "Chef de l’Église arménienne"],
+  "dates": "vers 257 → vers 331",
+  "naissance": 257,
+  "mort": 331,
+  "description": "Selon la tradition, ce chrétien emprisonné pendant treize ans dans une fosse guérit le roi Tiridate III, qui se convertit et fait de l’Arménie un royaume chrétien.",
+  "essentiel": [
+    "La tradition le dit fils de l’assassin du père de Tiridate.",
+    "Il devient le premier catholicos, chef de l’Église arménienne.",
+    "Le monastère de Khor Virap, au pied du mont Ararat, est bâti sur le lieu de sa prison."
+  ],
+  "aSavoir": ["Son histoire est connue par des récits plus tardifs, mêlant histoire et légende."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Gr%C3%A9goire_l%27Illuminateur"
+}

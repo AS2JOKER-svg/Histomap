@@ -572,5 +572,45 @@
   "Grande halte sur l’Ougra": {
     "coords": [35.5, 54.5],
     "lieu": "Rivière Ougra"
+  },
+  "Huitième campagne de Sargon II": {
+    "coords": [44.5, 37.2],
+    "lieu": "Musasir (Zagros)"
+  },
+  "Bataille de Tigranocerte": {
+    "coords": [41, 38.1],
+    "lieu": "Tigranocerte"
+  },
+  "Guerre romano-parthe pour l’Arménie": {
+    "coords": [44.5, 40],
+    "lieu": "Arménie"
+  },
+  "Expédition d’Aelius Gallus": {
+    "coords": [45.35, 15.42],
+    "lieu": "Marib"
+  },
+  "Conquête aksoumite de Himyar": {
+    "coords": [44.2, 14.2],
+    "lieu": "Zafar (Yémen)"
+  },
+  "Expéditions d’Antigone contre les Nabatéens": {
+    "coords": [35.44, 30.33],
+    "lieu": "Région de Pétra"
+  },
+  "Guerre d’Arétas IV contre Hérode Antipas": {
+    "coords": [35.8, 31.6],
+    "lieu": "Pérée (Jordanie)"
+  },
+  "Bataille d’Ipsos": {
+    "coords": [31, 38.8],
+    "lieu": "Ipsos (Phrygie)"
+  },
+  "Bataille de Raphia": {
+    "coords": [34.25, 31.29],
+    "lieu": "Raphia (Rafah)"
+  },
+  "Bataille de Magnésie": {
+    "coords": [27.43, 38.61],
+    "lieu": "Magnésie du Sipyle"
   }
 }

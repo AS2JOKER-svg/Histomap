@@ -1,0 +1,19 @@
+{
+  "id": "alphabet-armenien",
+  "nom": "Alphabet arménien",
+  "annee": 405,
+  "domaine": "Écriture",
+  "dates": "405",
+  "description": "L’alphabet créé par [[mesrop-machtots|Mesrop Machtots]] : 36 lettres qui notent précisément les sons de la langue arménienne.",
+  "sections": [
+    {
+      "titre": "Pourquoi",
+      "texte": "Les Arméniens écrivaient jusque-là en grec ou en syriaque. Un alphabet propre permet de traduire la Bible et de prêcher dans la langue du peuple."
+    },
+    {
+      "titre": "Sa postérité",
+      "texte": "Il est toujours utilisé ; deux lettres lui ont été ajoutées au Moyen Âge."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Alphabet_arm%C3%A9nien"
+}

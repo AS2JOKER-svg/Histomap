@@ -1,0 +1,14 @@
+{
+  "id": "reine-de-saba",
+  "nom": "Reine de Saba",
+  "role": "Reine légendaire",
+  "roles": ["Reine"],
+  "dates": "Xe siècle av. J.-C. selon la tradition",
+  "description": "Une reine qui, selon la Bible (livre des Rois) et le Coran, se rend auprès du roi Salomon pour l’éprouver par des énigmes et lui offrir de l’or et des aromates.",
+  "essentiel": [
+    "La tradition éthiopienne en fait la mère de Ménélik Ier, fondateur légendaire de la dynastie salomonide.",
+    "La tradition arabe lui donne le nom de Bilqis.",
+    "Aucune inscription de Saba ne mentionne de reine à cette époque : son existence n’est pas prouvée."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Reine_de_Saba"
+}

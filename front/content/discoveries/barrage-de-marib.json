@@ -1,0 +1,19 @@
+{
+  "id": "barrage-de-marib",
+  "nom": "Barrage de Marib",
+  "annee": -700,
+  "domaine": "Technique",
+  "dates": "vers le VIIIe siècle av. J.-C. → vers 570",
+  "description": "Un immense barrage de terre et de pierre, long de près de 600 mètres, qui retenait les eaux de crue pour irriguer l’oasis de Marib, capitale de Saba.",
+  "sections": [
+    {
+      "titre": "Comment ça marche",
+      "texte": "Les pluies de mousson remplissent d’un coup le lit d’une rivière à sec. Le barrage dévie cette eau vers des canaux qui arrosent des milliers d’hectares de champs."
+    },
+    {
+      "titre": "Sa fin",
+      "texte": "Réparé plusieurs fois, il cède définitivement vers 570. Ses vestiges sont toujours visibles."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Barrage_de_Marib"
+}

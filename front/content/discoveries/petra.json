@@ -1,0 +1,18 @@
+{
+  "id": "petra",
+  "nom": "Pétra",
+  "domaine": "Architecture",
+  "dates": "IIIe siècle av. J.-C. → IIe siècle",
+  "description": "La capitale des Nabatéens, dans le sud de la Jordanie : une ville dont les temples et les tombeaux sont taillés directement dans les falaises de grès rose.",
+  "sections": [
+    {
+      "titre": "Ce qu’on y voit",
+      "texte": "On y entre par le Siq, un étroit défilé de plus d’un kilomètre, qui débouche sur le Khazneh, une façade de près de 40 mètres de haut. La ville compte des centaines de tombeaux, un théâtre et un réseau de canaux."
+    },
+    {
+      "titre": "Sa redécouverte",
+      "texte": "Abandonnée au Moyen Âge sauf par les Bédouins, elle est révélée aux Européens par l’explorateur Jean Louis Burckhardt en 1812."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/P%C3%A9tra"
+}

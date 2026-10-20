@@ -1,0 +1,18 @@
+{
+  "id": "tigrane-le-grand",
+  "nom": "Tigrane le Grand",
+  "nomComplet": "Tigrane II",
+  "role": "Roi d’Arménie",
+  "roles": ["Roi", "Conquérant"],
+  "dates": "vers −140 → −55",
+  "naissance": -140,
+  "mort": -55,
+  "description": "Roi d’Arménie de 95 à 55 av. J.-C., il conquiert un empire de la Caspienne à la Méditerranée et prend le titre de « roi des rois », avant d’être vaincu par Rome.",
+  "reperes": [{ "label": "Règne", "valeur": "−95 → −55" }],
+  "essentiel": [
+    "Otage chez les Parthes dans sa jeunesse, il monte sur le trône en 95 av. J.-C.",
+    "Il conquiert la Syrie séleucide et fonde une nouvelle capitale, Tigranocerte.",
+    "Allié de son beau-père Mithridate VI du Pont, il est battu par Lucullus (−69) et se soumet à Pompée (−66)."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Tigrane_II"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "annexion-du-royaume-nabateen",
+  "nom": "Annexion du royaume nabatéen",
+  "annee": 106,
+  "dates": "106",
+  "lieu": "Pétra et Bosra",
+  "description": "À la mort du roi Rabbel II, l’empereur [[trajan|Trajan]] annexe le royaume nabatéen, sans combat important semble-t-il.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "Le royaume devient la province romaine d’Arabie, avec Bosra pour capitale. Rome construit une grande route de la mer Rouge à la Syrie, la Via Nova Traiana. Pétra reste une ville prospère pendant encore plusieurs siècles."
+    }
+  ],
+  "liens": [{ "ref": "trajan", "relation": "L’empereur" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Arabie_p%C3%A9tr%C3%A9e"
+}

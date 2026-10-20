@@ -1,0 +1,16 @@
+{
+  "id": "bataille-d-ankara",
+  "nom": "Bataille d’Ankara",
+  "annee": 1402,
+  "dates": "20 juillet 1402",
+  "lieu": "Près d’Ankara (Turquie)",
+  "description": "L’armée de [[tamerlan|Tamerlan]] écrase celle du sultan ottoman Bayezid Ier, abandonné pendant la bataille par une partie de ses troupes.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "Bayezid Ier est capturé et meurt en captivité en 1403. Ses fils se disputent le trône pendant onze ans ; la prise de Constantinople par les Ottomans est retardée d’un demi-siècle."
+    }
+  ],
+  "liens": [{ "ref": "tamerlan", "relation": "Le vainqueur" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_d%27Ankara"
+}

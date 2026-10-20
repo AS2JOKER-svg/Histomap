@@ -1,0 +1,16 @@
+{
+  "id": "nizam-al-mulk",
+  "nom": "Nizam al-Mulk",
+  "role": "Vizir seldjoukide",
+  "roles": ["Vizir", "Écrivain"],
+  "dates": "1018 → 1092",
+  "naissance": 1018,
+  "mort": 1092,
+  "description": "Administrateur persan, vizir des sultans Alp Arslan et Malik Shah, il organise l’Empire seldjoukide pendant trente ans.",
+  "essentiel": [
+    "Il fonde les [[madrasa-nizamiyya|madrasas Nizamiyya]], des écoles financées par l’État.",
+    "Il écrit un « Livre du gouvernement » qui donne des conseils aux princes.",
+    "Il est assassiné en 1092, sans doute par un membre de la secte des Assassins."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Nizam_al-Mulk"
+}

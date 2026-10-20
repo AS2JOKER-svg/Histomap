@@ -1,0 +1,229 @@
+{
+  "documentaires": [],
+  "decouvertes": [],
+  "id": "khwarezm",
+  "label": "Empire du Khwarezm",
+  "tier": 2,
+  "region": "asie-centrale",
+  "period": "1077 à 1231",
+  "start": 1077,
+  "end": 1231,
+  "color": "#6a1b9a",
+  "trackId": "bactriane",
+  "row": 4,
+  "isRiver": false,
+  "capitale": "Gurganj, puis Samarcande",
+  "description": "Un empire d’Asie centrale et d’Iran, dirigé par des chahs d’origine turque, devenu en quelques années l’un des plus vastes du monde musulman, avant d’être anéanti par Gengis Khan.",
+  "territories": ["Khwarazmian dynasty"],
+  "reperes": {
+    "capitale": {
+      "valeur": "Gurganj",
+      "precision": "aujourd’hui Kounia-Ourguentch, au Turkménistan ; puis Samarcande à partir de 1212"
+    },
+    "regimes": { "valeur": "Monarchie", "precision": "le Khwarezm-chah, d’abord gouverneur pour les Seldjoukides" },
+    "langues": { "valeur": "Persan et turc", "precision": "ainsi que le khwarezmien, langue iranienne locale" },
+    "religion": { "valeur": "Islam sunnite" },
+    "apogee": { "valeur": "Règne de Muhammad II (1200 → 1220)", "precision": "de la mer d’Aral au golfe Persique" },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": { "valeur": "Dinars et dirhams" },
+    "duree": { "valeur": "Environ 150 ans" },
+    "aujourdhui": { "valeur": "Ouzbékistan, Turkménistan, Iran", "precision": "ainsi que l’Afghanistan" }
+  },
+  "essentiel": [
+    "En 1077, les Seldjoukides confient le Khwarezm, la région du delta de l’Amou-Daria, à un officier turc, Anush-Tegin, dont les descendants prennent le titre de Khwarezm-chah.",
+    "Devenus indépendants, les chahs abattent le dernier sultan seldjoukide (1194), puis Muhammad II conquiert l’Iran et la Transoxiane.",
+    "En 1218, à Otrar, le gouverneur du chah fait massacrer une caravane de marchands envoyée par [[gengis-khan|Gengis Khan]] : c’est l’[[incident-d-otrar|incident d’Otrar]].",
+    "Gengis Khan se venge : lors de l’[[invasion-mongole-du-khwarezm|invasion mongole]] (1219-1221), Boukhara, Samarcande, Merv et Nichapour sont détruites et leurs habitants massacrés.",
+    "Le prince [[jalal-ad-din|Jalal ad-Din]] résiste encore dix ans, jusqu’à sa mort en 1231."
+  ],
+  "datesCles": [
+    {
+      "annee": 1077,
+      "evenement": "Anush-Tegin",
+      "info": "Un officier turc des Seldjoukides devient gouverneur du Khwarezm."
+    },
+    {
+      "annee": 1194,
+      "evenement": "Fin des Seldjoukides",
+      "info": "Le chah Tekish bat et tue le dernier sultan seldjoukide, Toghrul III."
+    },
+    {
+      "annee": 1210,
+      "evenement": "Victoire sur les Qara Khitai",
+      "info": "Muhammad II se libère de ses suzerains et prend la Transoxiane."
+    },
+    {
+      "annee": 1218,
+      "evenement": "Incident d’Otrar",
+      "info": "Une caravane envoyée par Gengis Khan est massacrée.",
+      "ref": "incident-d-otrar"
+    },
+    {
+      "annee": 1220,
+      "evenement": "Chute de Boukhara et Samarcande",
+      "info": "Les Mongols prennent les grandes villes de Transoxiane.",
+      "ref": "invasion-mongole-du-khwarezm"
+    },
+    {
+      "annee": 1221,
+      "evenement": "Bataille de l’Indus",
+      "info": "Jalal ad-Din, vaincu par Gengis Khan, s’enfuit en traversant le fleuve à cheval."
+    },
+    {
+      "annee": 1231,
+      "evenement": "Mort de Jalal ad-Din",
+      "info": "Le dernier chah est tué en fuite dans les montagnes d’Anatolie."
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "Les gouverneurs",
+      "debut": 1077,
+      "fin": 1172,
+      "resume": "Les chahs du Khwarezm gouvernent pour les Seldjoukides, puis pour les Qara Khitai, en cherchant à s’en libérer.",
+      "evenements": [{ "annee": 1077, "evenement": "Anush-Tegin gouverneur" }]
+    },
+    {
+      "nom": "L’empire",
+      "debut": 1172,
+      "fin": 1218,
+      "resume": "Tekish et Muhammad II conquièrent l’Iran et la Transoxiane et deviennent la première puissance du monde musulman oriental.",
+      "evenements": [
+        { "annee": 1194, "evenement": "Victoire sur les Seldjoukides" },
+        { "annee": 1210, "evenement": "Victoire sur les Qara Khitai" }
+      ]
+    },
+    {
+      "nom": "La catastrophe mongole",
+      "debut": 1218,
+      "fin": 1231,
+      "resume": "Après l’incident d’Otrar, les Mongols détruisent l’empire en trois ans ; Jalal ad-Din résiste jusqu’en 1231.",
+      "evenements": [
+        { "annee": 1218, "evenement": "Otrar", "ref": "incident-d-otrar" },
+        { "annee": 1220, "evenement": "Invasion mongole", "ref": "invasion-mongole-du-khwarezm" }
+      ]
+    }
+  ],
+  "regimes": [{ "id": "chahs", "nom": "Royaume puis empire des Khwarezm-chahs", "debut": 1077, "fin": 1231 }],
+  "dynasties": [{ "id": "anushteginides", "nom": "Les Khwarezm-chahs", "debut": 1077, "fin": 1231 }],
+  "dirigeants": [
+    {
+      "nom": "Anush-Tegin",
+      "titre": "Gouverneur",
+      "debut": 1077,
+      "fin": 1097,
+      "dynastie": "anushteginides",
+      "note": "officier turc des Seldjoukides"
+    },
+    { "nom": "Qutb ad-Din Muhammad", "titre": "Khwarezm-chah", "debut": 1097, "fin": 1127, "dynastie": "anushteginides" },
+    {
+      "nom": "Atsiz",
+      "titre": "Khwarezm-chah",
+      "debut": 1127,
+      "fin": 1156,
+      "dynastie": "anushteginides",
+      "note": "cherche à s’affranchir des Seldjoukides",
+      "cle": true
+    },
+    { "nom": "Il-Arslan", "titre": "Khwarezm-chah", "debut": 1156, "fin": 1172, "dynastie": "anushteginides" },
+    {
+      "nom": "Tekish",
+      "titre": "Khwarezm-chah",
+      "debut": 1172,
+      "fin": 1200,
+      "dynastie": "anushteginides",
+      "note": "abat le dernier sultan seldjoukide",
+      "cle": true
+    },
+    {
+      "nom": "Muhammad II",
+      "titre": "Khwarezm-chah",
+      "debut": 1200,
+      "fin": 1220,
+      "dynastie": "anushteginides",
+      "note": "vaincu par Gengis Khan, meurt sur une île de la Caspienne",
+      "cle": true
+    },
+    {
+      "nom": "Jalal ad-Din",
+      "titre": "Khwarezm-chah",
+      "debut": 1220,
+      "fin": 1231,
+      "dynastie": "anushteginides",
+      "personne": "jalal-ad-din",
+      "cle": true
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Jalal ad-Din",
+      "role": "Dernier chah",
+      "description": "Fils de Muhammad II, il combat les Mongols pendant dix ans.",
+      "dates": "mort en 1231",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Jalal_ad-Din",
+      "ref": "jalal-ad-din"
+    },
+    {
+      "nom": "Gengis Khan",
+      "role": "Conquérant mongol",
+      "description": "Il détruit l’empire du Khwarezm entre 1219 et 1221.",
+      "dates": "vers 1162 → 1227",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Gengis_Khan",
+      "ref": "gengis-khan"
+    },
+    {
+      "nom": "Najm al-Din Kubra",
+      "role": "Maître soufi",
+      "description": "Fondateur d’un ordre mystique, il est tué en défendant Gurganj contre les Mongols en 1221.",
+      "dates": "1145 → 1221",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Najm_al-Din_Kubra"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Invasion mongole du Khwarezm",
+      "annee": 1219,
+      "adversaires": ["Empire mongol (Gengis Khan)"],
+      "allies": [],
+      "morts": "Des centaines de milliers, peut-être davantage ; les chiffres des chroniqueurs sont invérifiables",
+      "vainqueur": "Empire mongol",
+      "consequences": "Les grandes villes d’Asie centrale et du Khorassan sont détruites et leurs populations massacrées ou déportées. La région met des siècles à s’en remettre.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Invasion_mongole_de_l%27Empire_khwarezmien"
+    },
+    {
+      "nom": "Bataille de l’Indus",
+      "annee": 1221,
+      "adversaires": ["Empire mongol (Gengis Khan)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Empire mongol",
+      "consequences": "Jalal ad-Din s’échappe en sautant avec son cheval dans le fleuve et se réfugie en Inde.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_l%27Indus"
+    }
+  ],
+  "sciences": "Le Khwarezm est une terre de savants : avant les chahs, il a vu naître le mathématicien al-Khwarizmi, dont le nom a donné le mot « algorithme », et le savant al-Biruni. Les oasis du delta de l’Amou-Daria sont irriguées par un ancien réseau de canaux.",
+  "croyancesText": "Les chahs du Khwarezm sont des musulmans sunnites, comme leurs sujets. Muhammad II entre en conflit avec le calife de Bagdad, an-Nasir, au point de vouloir le remplacer par un autre calife ; le calife aurait même encouragé les ennemis du chah. Les ordres soufis, comme celui de Najm al-Din Kubra, sont très actifs.",
+  "diplomatie": "Les chahs se libèrent tour à tour des Seldjoukides et des Qara Khitai, puis affrontent les Ghourides d’Afghanistan. En 1218, Gengis Khan propose un accord commercial ; le massacre de sa caravane à Otrar et l’exécution de son ambassadeur entraînent l’invasion mongole.",
+  "societe": "L’armée repose sur des cavaliers turcs kiptchaks, souvent liés à la famille de la mère du chah, la redoutable Terken Khatun. Les villes d’oasis, comme Boukhara et Samarcande, sont peuplées de marchands, d’artisans et de savants.",
+  "economie": "Commerce caravanier entre la Chine, l’Inde, l’Iran et les steppes ; agriculture irriguée des oasis.",
+  "arts": "Mausolées et minarets de brique de Gurganj, comme le minaret de Qutlugh Timur (XIVe siècle, après la reconstruction).",
+  "quotidien": "Avant l’invasion mongole, Gurganj, Boukhara et Samarcande comptent parmi les plus grandes villes du monde musulman.",
+  "heritage": [
+    {
+      "titre": "Le mot « algorithme »",
+      "texte": "Il vient du nom d’al-Khwarizmi, « celui du Khwarezm », mathématicien du IXe siècle."
+    },
+    {
+      "titre": "Kounia-Ourguentch",
+      "texte": "Les ruines de l’ancienne Gurganj sont inscrites au patrimoine mondial."
+    }
+  ],
+  "aSavoir": ["L’invasion du Khwarezm est la première grande campagne de Gengis Khan hors de l’Asie de l’Est."],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Khwarezmchahs",
+    {
+      "titre": "Encyclopædia Britannica — Khwārezm-Shah dynasty",
+      "url": "https://www.britannica.com/topic/Khwarezm-Shah-dynasty"
+    }
+  ]
+}

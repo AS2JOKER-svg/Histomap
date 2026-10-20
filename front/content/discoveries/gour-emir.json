@@ -1,0 +1,15 @@
+{
+  "id": "gour-emir",
+  "nom": "Gour Emir",
+  "annee": 1404,
+  "domaine": "Architecture",
+  "dates": "1403-1404",
+  "description": "Le mausolée de [[tamerlan|Tamerlan]] et de ses descendants à Samarcande, coiffé d’une coupole bleue côtelée.",
+  "sections": [
+    {
+      "titre": "Un modèle",
+      "texte": "Sa coupole double et ses décors de céramique inspireront les architectes de l’Inde moghole, jusqu’au Taj Mahal."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Gour_Emir"
+}

@@ -1,0 +1,318 @@
+{
+  "documentaires": [],
+  "decouvertes": ["madrasa-nizamiyya", "calendrier-jalali"],
+  "id": "seldjoukides",
+  "label": "Seldjoukides",
+  "tier": 1,
+  "region": "iran",
+  "period": "1037 à 1308",
+  "start": 1037,
+  "end": 1308,
+  "color": "#2e7d32",
+  "trackId": "seldjoukides",
+  "row": 1,
+  "isRiver": false,
+  "capitale": "Ispahan, puis Merv ; Konya pour le sultanat de Roum",
+  "description": "Une dynastie de Turcs convertis à l’islam qui conquiert l’Iran, devient protectrice du calife de Bagdad et, après sa victoire de Manzikert, ouvre l’Anatolie aux Turcs.",
+  "territories": ["Seljuk Empire", "Seljuk Caliphate"],
+  "reperes": {
+    "capitale": { "valeur": "Ispahan, puis Merv", "precision": "Konya pour le sultanat de Roum, en Anatolie" },
+    "regimes": { "valeur": "Sultanat", "precision": "le sultan gouverne au nom du calife abbasside de Bagdad" },
+    "langues": {
+      "valeur": "Persan",
+      "precision": "langue de l’administration et de la culture ; arabe pour la religion ; turc à la cour et dans l’armée"
+    },
+    "religion": { "valeur": "Islam sunnite" },
+    "apogee": { "valeur": "Règne de Malik Shah (1072 → 1092)", "precision": "de l’Anatolie à l’Asie centrale" },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": { "valeur": "Dinars d’or et dirhams d’argent" },
+    "duree": {
+      "valeur": "Environ 270 ans",
+      "precision": "jusqu’en 1194 pour le grand empire, 1308 pour le sultanat de Roum"
+    },
+    "aujourdhui": { "valeur": "Iran et Turquie", "precision": "ainsi que l’Irak, le Turkménistan et une partie de la Syrie" }
+  },
+  "essentiel": [
+    "Venus des steppes d’Asie centrale et convertis à l’islam, les Turcs seldjoukides de Tughril Beg conquièrent l’Iran après leur victoire de Dandanakan (1040).",
+    "En 1055, Tughril entre à Bagdad : il devient le protecteur du calife abbasside, qui lui donne le titre de sultan.",
+    "À la [[bataille-de-manzikert|bataille de Manzikert]] (1071), [[alp-arslan|Alp Arslan]] capture l’empereur byzantin : les Turcs s’installent en Anatolie, où naît le sultanat de Roum.",
+    "Sous Malik Shah, le vizir [[nizam-al-mulk|Nizam al-Mulk]] fonde des écoles, les [[madrasa-nizamiyya|madrasas Nizamiyya]], et [[omar-khayyam|Omar Khayyam]] réforme le calendrier.",
+    "Divisé après 1092, le grand empire disparaît en 1194 ; le sultanat de Roum, centre culturel à Konya, est soumis par les Mongols en 1243."
+  ],
+  "datesCles": [
+    {
+      "annee": 1037,
+      "evenement": "Merv et Nichapour",
+      "info": "Les frères Tughril et Chaghri prennent les grandes villes du Khorassan."
+    },
+    { "annee": 1040, "evenement": "Dandanakan", "info": "Les Seldjoukides écrasent l’armée des Ghaznévides." },
+    { "annee": 1055, "evenement": "Tughril à Bagdad", "info": "Le calife abbasside reconnaît Tughril comme sultan." },
+    {
+      "annee": 1071,
+      "evenement": "Manzikert",
+      "info": "Alp Arslan bat et capture l’empereur Romain IV Diogène.",
+      "ref": "bataille-de-manzikert"
+    },
+    {
+      "annee": 1079,
+      "evenement": "Calendrier Jalali",
+      "info": "Une équipe d’astronomes, dont Omar Khayyam, met au point un calendrier très précis."
+    },
+    {
+      "annee": 1092,
+      "evenement": "Fin de l’apogée",
+      "info": "Le vizir Nizam al-Mulk est assassiné, puis Malik Shah meurt ; l’empire se divise."
+    },
+    {
+      "annee": 1097,
+      "evenement": "Dorylée",
+      "info": "Les armées de la première croisade battent le sultan de Roum en Anatolie."
+    },
+    {
+      "annee": 1141,
+      "evenement": "Qatwan",
+      "info": "Le sultan Sanjar est écrasé par les Qara Khitai, venus de l’est."
+    },
+    {
+      "annee": 1243,
+      "evenement": "Köse Dağ",
+      "info": "Les Mongols battent le sultan de Roum, qui devient leur vassal."
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "La conquête",
+      "debut": 1037,
+      "fin": 1072,
+      "resume": "Tughril et Alp Arslan conquièrent l’Iran, l’Irak et l’est de l’Anatolie.",
+      "evenements": [
+        { "annee": 1040, "evenement": "Dandanakan" },
+        { "annee": 1055, "evenement": "Entrée à Bagdad" },
+        { "annee": 1071, "evenement": "Manzikert", "ref": "bataille-de-manzikert" }
+      ]
+    },
+    {
+      "nom": "L’apogée",
+      "debut": 1072,
+      "fin": 1092,
+      "resume": "Malik Shah et son vizir Nizam al-Mulk gouvernent un immense empire et favorisent les savants et les écoles.",
+      "evenements": [
+        { "annee": 1079, "evenement": "Calendrier Jalali" },
+        { "annee": 1092, "evenement": "Assassinat de Nizam al-Mulk" }
+      ]
+    },
+    {
+      "nom": "Divisions et sultanat de Roum",
+      "debut": 1092,
+      "fin": 1308,
+      "resume": "Le grand empire se divise et disparaît en 1194 ; en Anatolie, le sultanat de Roum prospère avant de passer sous domination mongole.",
+      "evenements": [
+        { "annee": 1097, "evenement": "Dorylée" },
+        { "annee": 1141, "evenement": "Qatwan" },
+        { "annee": 1243, "evenement": "Köse Dağ" }
+      ]
+    }
+  ],
+  "regimes": [
+    { "id": "grand-empire", "nom": "Grand Empire seldjoukide", "debut": 1037, "fin": 1194 },
+    {
+      "id": "roum",
+      "nom": "Sultanat de Roum (Anatolie)",
+      "debut": 1077,
+      "fin": 1308,
+      "note": "Vassal des Mongols après 1243."
+    }
+  ],
+  "dynasties": [
+    {
+      "id": "grands",
+      "nom": "Les Grands Seldjoukides",
+      "debut": 1037,
+      "fin": 1194,
+      "regime": "grand-empire",
+      "note": "Sélection."
+    },
+    { "id": "roum", "nom": "Les sultans de Roum", "debut": 1077, "fin": 1308, "regime": "roum", "note": "Sélection." }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Tughril Beg",
+      "titre": "Sultan",
+      "debut": 1037,
+      "fin": 1063,
+      "dynastie": "grands",
+      "note": "fondateur",
+      "cle": true
+    },
+    {
+      "nom": "Alp Arslan",
+      "titre": "Sultan",
+      "debut": 1063,
+      "fin": 1072,
+      "dynastie": "grands",
+      "personne": "alp-arslan",
+      "note": "vainqueur de Manzikert",
+      "cle": true
+    },
+    {
+      "nom": "Malik Shah Ier",
+      "titre": "Sultan",
+      "debut": 1072,
+      "fin": 1092,
+      "dynastie": "grands",
+      "note": "apogée de l’empire",
+      "cle": true
+    },
+    { "nom": "Berkyaruq", "titre": "Sultan", "debut": 1094, "fin": 1105, "dynastie": "grands" },
+    { "nom": "Muhammad Tapar", "titre": "Sultan", "debut": 1105, "fin": 1118, "dynastie": "grands" },
+    {
+      "nom": "Ahmad Sanjar",
+      "titre": "Sultan",
+      "debut": 1118,
+      "fin": 1157,
+      "dynastie": "grands",
+      "note": "battu à Qatwan",
+      "cle": true
+    },
+    {
+      "nom": "Toghrul III",
+      "titre": "Sultan",
+      "debut": 1176,
+      "fin": 1194,
+      "dynastie": "grands",
+      "note": "dernier sultan, tué par le chah du Khwarezm"
+    },
+    {
+      "nom": "Suleiman ibn Qutulmish",
+      "titre": "Sultan de Roum",
+      "debut": 1077,
+      "fin": 1086,
+      "dynastie": "roum",
+      "note": "fondateur du sultanat de Roum"
+    },
+    {
+      "nom": "Kılıç Arslan Ier",
+      "titre": "Sultan de Roum",
+      "debut": 1092,
+      "fin": 1107,
+      "dynastie": "roum",
+      "note": "affronte la première croisade"
+    },
+    {
+      "nom": "Kılıç Arslan II",
+      "titre": "Sultan de Roum",
+      "debut": 1156,
+      "fin": 1192,
+      "dynastie": "roum",
+      "note": "bat les Byzantins à Myriokephalon (1176)"
+    },
+    {
+      "nom": "Kay Kubad Ier",
+      "titre": "Sultan de Roum",
+      "debut": 1220,
+      "fin": 1237,
+      "dynastie": "roum",
+      "note": "apogée du sultanat de Roum",
+      "cle": true
+    },
+    {
+      "nom": "Mesud II",
+      "titre": "Sultan de Roum",
+      "debut": 1303,
+      "fin": 1308,
+      "dynastie": "roum",
+      "note": "dernier sultan"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Nizam al-Mulk",
+      "role": "Vizir",
+      "description": "Le grand vizir d’Alp Arslan et de Malik Shah, organisateur de l’empire.",
+      "dates": "1018 → 1092",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Nizam_al-Mulk",
+      "ref": "nizam-al-mulk"
+    },
+    {
+      "nom": "Omar Khayyam",
+      "role": "Savant et poète",
+      "description": "Mathématicien et astronome, il est aussi célèbre pour ses quatrains.",
+      "dates": "1048 → 1131",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Omar_Khayy%C3%A2m",
+      "ref": "omar-khayyam"
+    },
+    {
+      "nom": "Djalal al-Din Rumi",
+      "role": "Poète mystique",
+      "description": "Installé à Konya, capitale du sultanat de Roum, il écrit en persan une œuvre mystique immense ; ses disciples fondent l’ordre des derviches tourneurs.",
+      "dates": "1207 → 1273",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/R%C3%BBm%C3%AE"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Bataille de Dandanakan",
+      "annee": 1040,
+      "adversaires": ["Empire ghaznévide (Mas’ud Ier)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Seldjoukides",
+      "consequences": "Les Ghaznévides perdent le Khorassan ; les Seldjoukides s’ouvrent la route de l’Iran.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Dandanakan"
+    },
+    {
+      "nom": "Bataille de Manzikert",
+      "annee": 1071,
+      "adversaires": ["Empire byzantin (Romain IV Diogène)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Seldjoukides",
+      "consequences": "L’empereur est capturé puis libéré contre rançon. Des tribus turques s’installent en Anatolie, qui deviendra la Turquie.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Manzikert"
+    },
+    {
+      "nom": "Bataille de Dorylée",
+      "annee": 1097,
+      "adversaires": ["Armées de la première croisade"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Croisés",
+      "consequences": "Le sultan de Roum Kılıç Arslan Ier doit laisser passer les croisés, qui prennent Antioche (1098) puis Jérusalem (1099).",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Doryl%C3%A9e_(1097)"
+    },
+    {
+      "nom": "Bataille de Köse Dağ",
+      "annee": 1243,
+      "adversaires": ["Empire mongol"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Empire mongol",
+      "consequences": "Le sultanat de Roum devient vassal des Mongols et se décompose en principautés turques, dont naîtra l’Empire ottoman.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_K%C3%B6se_Da%C4%9F"
+    }
+  ],
+  "sciences": "Les Seldjoukides protègent les savants : à Ispahan, Omar Khayyam et d’autres astronomes mettent au point en 1079 le calendrier Jalali, plus précis que notre calendrier grégorien. Dans tout l’empire, on bâtit des caravansérails, des mosquées à quatre iwans et des écoles, les madrasas.",
+  "croyancesText": "Les Seldjoukides, musulmans sunnites, se présentent comme les défenseurs du calife abbasside face aux Fatimides chiites d’Égypte. Les madrasas fondées par Nizam al-Mulk forment des juges et des fonctionnaires. Le mystique Rumi vit à Konya, où ses disciples fondent l’ordre des derviches tourneurs.",
+  "diplomatie": "Les Seldjoukides affrontent les Ghaznévides, les Fatimides, l’Empire byzantin puis les croisés. Leur victoire de Manzikert contribue à l’appel du pape à la première croisade (1095). Ils sont combattus à l’intérieur par la secte des Assassins, réfugiée dans la forteresse d’Alamut.",
+  "societe": "Les sultans turcs gouvernent avec une administration persane et donnent des terres, les iqta, à leurs officiers en échange du service militaire. Des tribus nomades turkmènes s’installent dans les régions conquises, surtout en Anatolie.",
+  "economie": "Agriculture, commerce caravanier protégé par un réseau de caravansérails, artisanat des villes (tissus, céramique, métal).",
+  "arts": "Grande mosquée d’Ispahan, caravansérails d’Anatolie, céramiques peintes et tapis.",
+  "quotidien": "Le long des routes d’Anatolie, des caravansérails fortifiés accueillent gratuitement voyageurs et marchands pendant trois jours.",
+  "heritage": [
+    {
+      "titre": "La Turquie",
+      "texte": "Après Manzikert, l’Anatolie se peuple de Turcs : c’est l’origine de la Turquie actuelle."
+    },
+    {
+      "titre": "Les derviches tourneurs",
+      "texte": "La cérémonie des derviches de Konya est inscrite au patrimoine culturel immatériel de l’humanité."
+    }
+  ],
+  "aSavoir": [
+    "« Roum » signifie « Rome » : le sultanat de Roum a été fondé sur des terres prises à l’Empire byzantin, l’empire des « Romains »."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Seldjoukides",
+    { "titre": "Encyclopædia Britannica — Seljuq", "url": "https://www.britannica.com/topic/Seljuq" }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "incident-d-otrar",
+  "nom": "Incident d’Otrar",
+  "annee": 1218,
+  "dates": "1218",
+  "lieu": "Otrar (Kazakhstan actuel)",
+  "description": "Le gouverneur d’Otrar, ville du Khwarezm, fait arrêter et tuer les marchands d’une caravane envoyée par [[gengis-khan|Gengis Khan]], les accusant d’espionnage ; le chah fait ensuite exécuter un ambassadeur mongol.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "Gengis Khan décide de se venger : c’est le début de l’invasion mongole du Khwarezm (1219)."
+    }
+  ],
+  "apres": "invasion-mongole-du-khwarezm",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Otrar"
+}

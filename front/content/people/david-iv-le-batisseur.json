@@ -1,0 +1,18 @@
+{
+  "id": "david-iv-le-batisseur",
+  "nom": "David IV le Bâtisseur",
+  "role": "Roi de Géorgie",
+  "roles": ["Roi"],
+  "dates": "1073 → 1125",
+  "naissance": 1073,
+  "mort": 1125,
+  "description": "Roi à 16 ans, il libère la Géorgie de la domination seldjoukide, reprend Tbilissi et fonde le monastère de Gelati.",
+  "reperes": [{ "label": "Règne", "valeur": "1089 → 1125" }],
+  "essentiel": [
+    "Il réforme l’armée et l’Église.",
+    "Il remporte la [[bataille-de-didgori|bataille de Didgori]] (1121).",
+    "Il fait de Tbilissi sa capitale et protège les habitants musulmans de la ville.",
+    "Il fonde le monastère et l’académie de Gelati (1106), où il est enterré."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/David_IV_de_G%C3%A9orgie"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "madrasa-nizamiyya",
+  "nom": "Madrasas Nizamiyya",
+  "annee": 1067,
+  "domaine": "Enseignement",
+  "dates": "à partir de 1065-1067",
+  "description": "Un réseau d’écoles supérieures fondées par le vizir [[nizam-al-mulk|Nizam al-Mulk]] dans les grandes villes de l’empire, dont la plus célèbre est à Bagdad.",
+  "sections": [
+    {
+      "titre": "Comment ça marche",
+      "texte": "Financées par des fondations pieuses, elles logent et nourrissent les étudiants et paient les professeurs. On y enseigne le droit musulman et la théologie ; le penseur al-Ghazali y a enseigné."
+    }
+  ],
+  "wikiUrl": "https://en.wikipedia.org/wiki/Nizamiyya"
+}

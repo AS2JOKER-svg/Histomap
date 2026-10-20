@@ -1,0 +1,21 @@
+{
+  "id": "troisieme-bataille-de-panipat",
+  "nom": "Troisième bataille de Panipat",
+  "annee": 1761,
+  "dates": "14 janvier 1761",
+  "lieu": "Panipat, au nord de Delhi (Inde)",
+  "description": "L’armée afghane d’[[ahmad-shah-durrani|Ahmad Shah Durrani]], alliée à des princes musulmans de l’Inde, affronte la grande armée de la Confédération marathe.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Affamés après des semaines de siège, les Marathes attaquent ; ils sont écrasés. C’est l’une des plus grandes et des plus meurtrières batailles du XVIIIe siècle."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "L’expansion marathe vers le nord est brisée. Ahmad Shah repart en Afghanistan, et ce vide profite à la Compagnie britannique des Indes."
+    }
+  ],
+  "liens": [{ "ref": "ahmad-shah-durrani", "relation": "Le vainqueur" }],
+  "avant": "premiere-bataille-de-panipat",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Troisi%C3%A8me_bataille_de_Panipat"
+}

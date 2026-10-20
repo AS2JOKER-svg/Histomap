@@ -1,0 +1,22 @@
+{
+  "id": "tamerlan",
+  "nom": "Tamerlan",
+  "nomComplet": "Timour",
+  "role": "Conquérant turco-mongol",
+  "roles": ["Émir", "Conquérant"],
+  "dates": "1336 → 1405",
+  "naissance": 1336,
+  "mort": 1405,
+  "description": "Émir de Samarcande, il conquiert un immense empire de l’Anatolie à l’Inde, au prix de destructions et de massacres considérables.",
+  "reperes": [{ "label": "Règne", "valeur": "1370 → 1405" }],
+  "essentiel": [
+    "Blessé jeune, il boite : son surnom persan, Timour-e Lang, a donné « Tamerlan ».",
+    "Il bat la Horde d’or, pille Delhi (1398) et capture le sultan ottoman à [[bataille-d-ankara|Ankara]] (1402).",
+    "Il fait bâtir à Samarcande des monuments grandioses.",
+    "Il meurt en 1405 en route vers la Chine ; il est enterré au [[gour-emir|Gour Emir]]."
+  ],
+  "aSavoir": [
+    "Les chroniqueurs rapportent qu’il faisait élever des pyramides de crânes après la prise de certaines villes."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Tamerlan"
+}

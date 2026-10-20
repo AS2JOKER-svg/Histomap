@@ -1,0 +1,225 @@
+{
+  "documentaires": [],
+  "decouvertes": [],
+  "id": "empire-durrani",
+  "label": "Empire durrani (Afghanistan)",
+  "tier": 2,
+  "region": "asie-centrale",
+  "period": "1747 à 1826",
+  "start": 1747,
+  "end": 1826,
+  "color": "#00695c",
+  "trackId": "bactriane",
+  "row": 6,
+  "isRiver": false,
+  "capitale": "Kandahar, puis Kaboul",
+  "description": "L’empire fondé en 1747 par Ahmad Shah Durrani, élu roi par les chefs afghans, qui s’étend de l’est de l’Iran au Pendjab et donne naissance à l’Afghanistan.",
+  "territories": ["Afghanistan"],
+  "reperes": {
+    "capitale": { "valeur": "Kandahar, puis Kaboul", "precision": "Kaboul devient capitale en 1776" },
+    "regimes": { "valeur": "Monarchie", "precision": "roi choisi par une assemblée des chefs pachtounes, la jirga" },
+    "langues": {
+      "valeur": "Pachto et persan",
+      "precision": "le persan (dari) est la langue de la cour et de l’administration"
+    },
+    "religion": { "valeur": "Islam sunnite" },
+    "apogee": { "valeur": "Règne d’Ahmad Shah (1747 → 1772)", "precision": "de Mashhad au Pendjab et au Cachemire" },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": { "valeur": "Roupie" },
+    "duree": { "valeur": "Environ 80 ans" },
+    "aujourdhui": { "valeur": "Afghanistan", "precision": "ainsi qu’une partie du Pakistan et du nord-est de l’Iran" }
+  },
+  "essentiel": [
+    "En 1747, après l’assassinat du conquérant perse Nader Shah, les chefs pachtounes réunis en jirga à Kandahar élisent roi [[ahmad-shah-durrani|Ahmad Shah]], qui prend le nom de Durrani, « perle des perles ».",
+    "Il conquiert le Khorassan, le Cachemire et le Pendjab et lance plusieurs expéditions vers l’Inde, pillant Delhi en 1757.",
+    "En 1761, à la [[troisieme-bataille-de-panipat|troisième bataille de Panipat]], il écrase l’armée des Marathes.",
+    "Ses successeurs perdent peu à peu leurs provinces : les Sikhs de Ranjit Singh prennent Lahore (1799), puis le Cachemire et Peshawar.",
+    "En 1826, une autre famille pachtoune, les Barakzaï, prend le pouvoir à Kaboul ; Ahmad Shah reste considéré comme le fondateur de l’Afghanistan."
+  ],
+  "datesCles": [
+    {
+      "annee": 1747,
+      "evenement": "Élection d’Ahmad Shah",
+      "info": "Une jirga de chefs pachtounes le choisit pour roi à Kandahar."
+    },
+    { "annee": 1757, "evenement": "Sac de Delhi", "info": "Ahmad Shah entre dans Delhi et la pille." },
+    {
+      "annee": 1761,
+      "evenement": "Troisième bataille de Panipat",
+      "info": "Les Afghans écrasent les Marathes au nord de Delhi.",
+      "ref": "troisieme-bataille-de-panipat"
+    },
+    { "annee": 1772, "evenement": "Mort d’Ahmad Shah", "info": "Son fils Timur Shah lui succède." },
+    {
+      "annee": 1776,
+      "evenement": "Kaboul capitale",
+      "info": "Timur Shah transfère la capitale de Kandahar à Kaboul."
+    },
+    { "annee": 1799, "evenement": "Lahore aux Sikhs", "info": "Ranjit Singh prend Lahore et fonde l’Empire sikh." },
+    {
+      "annee": 1809,
+      "evenement": "Traité avec les Britanniques",
+      "info": "Shah Shuja signe un traité d’amitié avec la Compagnie britannique des Indes."
+    },
+    { "annee": 1826, "evenement": "Les Barakzaï", "info": "Dost Mohammad Khan s’impose à Kaboul." }
+  ],
+  "periodes": [
+    {
+      "nom": "Ahmad Shah",
+      "debut": 1747,
+      "fin": 1772,
+      "resume": "Le fondateur bâtit un vaste empire grâce à ses campagnes en Iran et en Inde.",
+      "evenements": [
+        { "annee": 1747, "evenement": "Jirga de Kandahar" },
+        { "annee": 1761, "evenement": "Panipat", "ref": "troisieme-bataille-de-panipat" }
+      ]
+    },
+    {
+      "nom": "Timur Shah",
+      "debut": 1772,
+      "fin": 1793,
+      "resume": "Le fils d’Ahmad Shah installe sa capitale à Kaboul et maintient l’empire, déjà menacé par les Sikhs.",
+      "evenements": [{ "annee": 1776, "evenement": "Kaboul capitale" }]
+    },
+    {
+      "nom": "Guerres de succession",
+      "debut": 1793,
+      "fin": 1826,
+      "resume": "Les fils de Timur Shah se disputent le trône ; l’empire perd ses provinces de l’Inde.",
+      "evenements": [
+        { "annee": 1799, "evenement": "Les Sikhs prennent Lahore" },
+        { "annee": 1809, "evenement": "Traité avec les Britanniques" }
+      ]
+    }
+  ],
+  "regimes": [{ "id": "royaume", "nom": "Royaume durrani", "debut": 1747, "fin": 1826 }],
+  "dynasties": [
+    {
+      "id": "sadozai",
+      "nom": "Les Sadozaï (clan d’Ahmad Shah)",
+      "debut": 1747,
+      "fin": 1826,
+      "note": "Plusieurs rois sont déposés puis rétablis."
+    }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Ahmad Shah",
+      "titre": "Roi",
+      "surnom": "Durr-i Durran, « perle des perles »",
+      "debut": 1747,
+      "fin": 1772,
+      "dynastie": "sadozai",
+      "personne": "ahmad-shah-durrani",
+      "cle": true
+    },
+    {
+      "nom": "Timur Shah",
+      "titre": "Roi",
+      "debut": 1772,
+      "fin": 1793,
+      "dynastie": "sadozai",
+      "note": "installe la capitale à Kaboul",
+      "cle": true
+    },
+    {
+      "nom": "Zaman Shah",
+      "titre": "Roi",
+      "debut": 1793,
+      "fin": 1801,
+      "dynastie": "sadozai",
+      "note": "renversé et aveuglé par son frère",
+      "cle": true
+    },
+    {
+      "nom": "Mahmud Shah",
+      "titre": "Roi",
+      "debut": 1801,
+      "fin": 1803,
+      "dynastie": "sadozai",
+      "note": "de nouveau de 1809 à 1818"
+    },
+    {
+      "nom": "Shah Shuja",
+      "titre": "Roi",
+      "debut": 1803,
+      "fin": 1809,
+      "dynastie": "sadozai",
+      "note": "rétabli par les Britanniques en 1839",
+      "cle": true
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Ahmad Shah Durrani",
+      "role": "Roi fondateur",
+      "description": "Le fondateur de l’Afghanistan moderne.",
+      "dates": "vers 1722 → 1772",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Ahmad_Shah_Durrani",
+      "ref": "ahmad-shah-durrani"
+    },
+    {
+      "nom": "Ranjit Singh",
+      "role": "Maharaja sikh",
+      "description": "Il prend Lahore en 1799 et enlève aux Afghans le Pendjab, le Cachemire et Peshawar.",
+      "dates": "1780 → 1839",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Ranjit_Singh"
+    },
+    {
+      "nom": "Mountstuart Elphinstone",
+      "role": "Diplomate britannique",
+      "description": "Envoyé auprès de Shah Shuja en 1809, il publie une description détaillée du royaume de Kaboul.",
+      "dates": "1779 → 1859",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Mountstuart_Elphinstone"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Troisième bataille de Panipat",
+      "annee": 1761,
+      "adversaires": ["Confédération marathe"],
+      "allies": ["Rohillas", "Nawab d’Awadh"],
+      "morts": "Plusieurs dizaines de milliers ; avec les civils massacrés après la bataille, certaines estimations dépassent 100 000",
+      "vainqueur": "Empire durrani",
+      "consequences": "L’expansion des Marathes vers le nord de l’Inde est brisée, ce qui profitera à la Compagnie britannique des Indes.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Troisi%C3%A8me_bataille_de_Panipat"
+    },
+    {
+      "nom": "Guerres afghano-sikhes",
+      "annee": 1748,
+      "adversaires": ["Sikhs du Pendjab"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Sikhs (à terme)",
+      "consequences": "Les Afghans gagnent de nombreuses batailles et détruisent en 1762 le Temple d’or d’Amritsar, mais ne peuvent tenir le Pendjab, où les Sikhs fondent leur empire.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Empire_durrani"
+    }
+  ],
+  "sciences": "Ahmad Shah fait bâtir à Kandahar une nouvelle ville et son mausolée, coiffé d’une coupole turquoise. L’armée durrani s’appuie sur la cavalerie et sur de petits canons portés à dos de chameau, les zamburaks.",
+  "croyancesText": "Les souverains durrani sont des musulmans sunnites, comme la majorité des Pachtounes. Leur empire compte aussi des chiites, des hindous et des sikhs. Lors des guerres contre les Sikhs, Ahmad Shah détruit le Temple d’or d’Amritsar, lieu le plus sacré du sikhisme, reconstruit ensuite par les Sikhs.",
+  "diplomatie": "Ahmad Shah profite de l’effondrement de l’empire de Nader Shah et de l’affaiblissement des Moghols pour conquérir l’est de l’Iran et le nord-ouest de l’Inde. À partir de 1809, les rois de Kaboul entrent en relation avec les Britanniques de l’Inde, inquiets des ambitions françaises puis russes.",
+  "societe": "La société est organisée en tribus pachtounes dirigées par leurs chefs, qui se réunissent en jirga pour prendre les grandes décisions. Le roi doit sans cesse ménager les grandes familles, qui se disputent le pouvoir.",
+  "economie": "Agriculture des vallées, élevage, commerce caravanier entre l’Inde, l’Iran et l’Asie centrale, tributs et butin des campagnes en Inde.",
+  "arts": "Mausolée d’Ahmad Shah à Kandahar, poésie en pachto (Ahmad Shah lui-même écrit des poèmes).",
+  "quotidien": "Les grandes décisions se prennent lors des jirgas, des assemblées où les chefs discutent assis en cercle jusqu’à trouver un accord.",
+  "heritage": [
+    {
+      "titre": "L’Afghanistan",
+      "texte": "Ahmad Shah est considéré comme le fondateur de l’Afghanistan moderne ; on le surnomme « Ahmad Shah Baba », le père."
+    },
+    {
+      "titre": "La loya jirga",
+      "texte": "La grande assemblée des chefs reste une institution importante de la vie politique afghane."
+    }
+  ],
+  "aSavoir": [
+    "Le célèbre diamant Koh-i-Noor, emporté de Delhi par Nader Shah, passe aux rois durrani, puis à Ranjit Singh et enfin à la couronne britannique."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Empire_durrani",
+    {
+      "titre": "Encyclopædia Britannica — Durrani dynasty",
+      "url": "https://www.britannica.com/topic/Durrani-dynasty"
+    }
+  ]
+}

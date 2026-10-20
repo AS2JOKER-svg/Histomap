@@ -660,5 +660,49 @@
   "Chute de Boukhara (999)": {
     "coords": [64.42, 39.77],
     "lieu": "Boukhara"
+  },
+  "Bataille de Dandanakan": {
+    "coords": [62, 37.4],
+    "lieu": "Dandanakan (Turkménistan)"
+  },
+  "Bataille de Dorylée": {
+    "coords": [30.52, 39.78],
+    "lieu": "Dorylée (Eskişehir)"
+  },
+  "Bataille de Köse Dağ": {
+    "coords": [38.6, 40.2],
+    "lieu": "Köse Dağ (est de la Turquie)"
+  },
+  "Invasion mongole du Khwarezm": {
+    "coords": [64.42, 39.77],
+    "lieu": "Boukhara et Samarcande"
+  },
+  "Bataille de l’Indus": {
+    "coords": [71.2, 33.9],
+    "lieu": "Rives de l’Indus"
+  },
+  "Bataille de Didgori": {
+    "coords": [44.55, 41.78],
+    "lieu": "Didgori (près de Tbilissi)"
+  },
+  "Invasions de Tamerlan en Géorgie": {
+    "coords": [44.79, 41.72],
+    "lieu": "Tbilissi"
+  },
+  "Campagne de Tamerlan en Inde": {
+    "coords": [77.21, 28.65],
+    "lieu": "Delhi"
+  },
+  "Bataille d’Ankara": {
+    "coords": [32.86, 39.93],
+    "lieu": "Ankara"
+  },
+  "Troisième bataille de Panipat": {
+    "coords": [76.97, 29.39],
+    "lieu": "Panipat (Inde)"
+  },
+  "Guerres afghano-sikhes": {
+    "coords": [74.87, 31.62],
+    "lieu": "Pendjab"
   }
 }

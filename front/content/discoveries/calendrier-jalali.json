@@ -1,0 +1,15 @@
+{
+  "id": "calendrier-jalali",
+  "nom": "Calendrier Jalali",
+  "annee": 1079,
+  "domaine": "Mathématiques et calendrier",
+  "dates": "1079",
+  "description": "Un calendrier solaire mis au point à Ispahan par une équipe d’astronomes, dont [[omar-khayyam|Omar Khayyam]], pour le sultan Malik Shah.",
+  "sections": [
+    {
+      "titre": "Pourquoi il est précis",
+      "texte": "L’année commence à l’équinoxe de printemps, observée avec précision ; le système des années bissextiles le rend un peu plus exact que le calendrier grégorien, adopté en Europe cinq siècles plus tard. Le calendrier iranien actuel en descend."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Calendrier_persan"
+}

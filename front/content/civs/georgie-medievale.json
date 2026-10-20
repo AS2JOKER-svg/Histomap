@@ -1,0 +1,279 @@
+{
+  "documentaires": [],
+  "decouvertes": ["le-chevalier-a-la-peau-de-tigre"],
+  "id": "georgie-medievale",
+  "label": "Royaume de Géorgie",
+  "tier": 2,
+  "region": "caucase",
+  "period": "1008 à 1490",
+  "start": 1008,
+  "end": 1490,
+  "color": "#b71c1c",
+  "trackId": "caucase",
+  "row": 3,
+  "isRiver": false,
+  "capitale": "Tbilissi",
+  "description": "Un royaume chrétien du Caucase, uni en 1008, qui connaît un âge d’or sous David le Bâtisseur et la reine Tamar avant d’être ravagé par les Mongols et par Tamerlan.",
+  "territories": ["Kingdom of Georgia", "Georgia"],
+  "reperes": {
+    "capitale": { "valeur": "Tbilissi", "precision": "reprise aux musulmans en 1122 ; Koutaïssi auparavant" },
+    "regimes": { "valeur": "Monarchie", "precision": "dynastie des Bagrationi" },
+    "langues": { "valeur": "Géorgien", "precision": "écrit dans un alphabet propre" },
+    "religion": { "valeur": "Christianisme orthodoxe", "precision": "Église géorgienne, chrétienne depuis le IVe siècle" },
+    "apogee": { "valeur": "De David IV à Tamar (1089 → 1213)", "precision": "l’« âge d’or » géorgien" },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": {
+      "valeur": "Pièces de cuivre et d’argent",
+      "precision": "souvent avec des inscriptions en géorgien et en arabe"
+    },
+    "duree": { "valeur": "Environ 480 ans" },
+    "aujourdhui": {
+      "valeur": "Géorgie",
+      "precision": "ainsi qu’une partie de l’Arménie, de l’Azerbaïdjan et du nord-est de la Turquie"
+    }
+  },
+  "essentiel": [
+    "En 1008, Bagrat III unit les principautés géorgiennes en un seul royaume chrétien, entre la mer Noire et la Caspienne.",
+    "[[david-iv-le-batisseur|David IV le Bâtisseur]] bat les Seldjoukides à la [[bataille-de-didgori|bataille de Didgori]] (1121) et reprend Tbilissi (1122).",
+    "La [[reine-tamar|reine Tamar]] (1184-1213), qui porte le titre de « roi », règne sur un royaume puissant ; le poète Chota Roustaveli écrit [[le-chevalier-a-la-peau-de-tigre|Le Chevalier à la peau de tigre]].",
+    "Au XIIIe siècle, les Mongols soumettent la Géorgie ; Georges V le Brillant la libère et la réunifie au XIVe siècle.",
+    "Tamerlan ravage le pays à plusieurs reprises (1386-1403) ; affaibli, le royaume se divise en trois en 1490."
+  ],
+  "datesCles": [
+    { "annee": 1008, "evenement": "Unification", "info": "Bagrat III devient roi de toute la Géorgie." },
+    {
+      "annee": 1089,
+      "evenement": "David IV",
+      "info": "Le jeune roi commence à reconquérir le pays sur les Seldjoukides."
+    },
+    {
+      "annee": 1121,
+      "evenement": "Didgori",
+      "info": "David IV écrase une grande armée seldjoukide.",
+      "ref": "bataille-de-didgori"
+    },
+    {
+      "annee": 1122,
+      "evenement": "Reprise de Tbilissi",
+      "info": "Tbilissi, ville musulmane depuis quatre siècles, devient la capitale."
+    },
+    {
+      "annee": 1184,
+      "evenement": "Règne de Tamar",
+      "info": "Tamar devient seule souveraine ; c’est l’apogée du royaume."
+    },
+    {
+      "annee": 1236,
+      "evenement": "Les Mongols",
+      "info": "Les Mongols envahissent la Géorgie, qui devient leur vassale."
+    },
+    { "annee": 1314, "evenement": "Georges V le Brillant", "info": "Il chasse les Mongols et réunifie le royaume." },
+    {
+      "annee": 1386,
+      "evenement": "Tamerlan",
+      "info": "Tamerlan prend Tbilissi ; il revient plusieurs fois jusqu’en 1403."
+    },
+    {
+      "annee": 1490,
+      "evenement": "Partage",
+      "info": "Le royaume se divise en royaumes de Kartli, de Kakhétie et d’Iméréthie."
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "L’unification",
+      "debut": 1008,
+      "fin": 1089,
+      "resume": "Les Bagrationi unissent les terres géorgiennes, mais les Seldjoukides ravagent le pays à partir de 1060.",
+      "evenements": [{ "annee": 1008, "evenement": "Bagrat III roi de Géorgie" }]
+    },
+    {
+      "nom": "L’âge d’or",
+      "debut": 1089,
+      "fin": 1236,
+      "resume": "David IV, Georges III et Tamar font de la Géorgie la première puissance chrétienne du Caucase ; arts et lettres s’épanouissent.",
+      "evenements": [
+        { "annee": 1121, "evenement": "Didgori", "ref": "bataille-de-didgori" },
+        { "annee": 1184, "evenement": "Avènement de Tamar" },
+        { "annee": 1204, "evenement": "Fondation de l’empire de Trébizonde avec l’aide de Tamar" }
+      ]
+    },
+    {
+      "nom": "Mongols et Tamerlan",
+      "debut": 1236,
+      "fin": 1490,
+      "resume": "Domination mongole, réunification par Georges V, puis dévastations de Tamerlan : le royaume s’affaiblit et se divise.",
+      "evenements": [
+        { "annee": 1314, "evenement": "Georges V le Brillant" },
+        { "annee": 1386, "evenement": "Tamerlan prend Tbilissi" }
+      ]
+    }
+  ],
+  "regimes": [
+    {
+      "id": "royaume",
+      "nom": "Royaume de Géorgie",
+      "debut": 1008,
+      "fin": 1490,
+      "note": "Vassal des Mongols au XIIIe siècle."
+    }
+  ],
+  "dynasties": [{ "id": "bagrationi", "nom": "Les Bagrationi", "debut": 1008, "fin": 1490, "note": "Sélection." }],
+  "dirigeants": [
+    {
+      "nom": "Bagrat III",
+      "titre": "Roi",
+      "debut": 1008,
+      "fin": 1014,
+      "dynastie": "bagrationi",
+      "note": "unificateur",
+      "cle": true
+    },
+    { "nom": "Bagrat IV", "titre": "Roi", "debut": 1027, "fin": 1072, "dynastie": "bagrationi" },
+    { "nom": "Georges II", "titre": "Roi", "debut": 1072, "fin": 1089, "dynastie": "bagrationi" },
+    {
+      "nom": "David IV",
+      "titre": "Roi",
+      "surnom": "le Bâtisseur",
+      "debut": 1089,
+      "fin": 1125,
+      "dynastie": "bagrationi",
+      "personne": "david-iv-le-batisseur",
+      "cle": true
+    },
+    { "nom": "Démétrius Ier", "titre": "Roi", "debut": 1125, "fin": 1156, "dynastie": "bagrationi" },
+    {
+      "nom": "Georges III",
+      "titre": "Roi",
+      "debut": 1156,
+      "fin": 1184,
+      "dynastie": "bagrationi",
+      "note": "associe sa fille Tamar au trône"
+    },
+    {
+      "nom": "Tamar",
+      "titre": "Roi (mepe)",
+      "debut": 1184,
+      "fin": 1213,
+      "dynastie": "bagrationi",
+      "personne": "reine-tamar",
+      "cle": true
+    },
+    { "nom": "Georges IV Lacha", "titre": "Roi", "debut": 1213, "fin": 1223, "dynastie": "bagrationi" },
+    {
+      "nom": "Roussoudan",
+      "titre": "Reine",
+      "debut": 1223,
+      "fin": 1245,
+      "dynastie": "bagrationi",
+      "note": "règne lors des invasions mongoles"
+    },
+    {
+      "nom": "Georges V",
+      "titre": "Roi",
+      "surnom": "le Brillant",
+      "debut": 1314,
+      "fin": 1346,
+      "dynastie": "bagrationi",
+      "note": "libère le pays des Mongols",
+      "cle": true
+    },
+    {
+      "nom": "Bagrat V",
+      "titre": "Roi",
+      "debut": 1360,
+      "fin": 1393,
+      "dynastie": "bagrationi",
+      "note": "capturé par Tamerlan"
+    },
+    {
+      "nom": "Alexandre Ier",
+      "titre": "Roi",
+      "surnom": "le Grand",
+      "debut": 1412,
+      "fin": 1442,
+      "dynastie": "bagrationi",
+      "note": "relève le pays après Tamerlan"
+    },
+    {
+      "nom": "Georges VIII",
+      "titre": "Roi",
+      "debut": 1446,
+      "fin": 1465,
+      "dynastie": "bagrationi",
+      "note": "dernier roi de la Géorgie unie"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Chota Roustaveli",
+      "role": "Poète",
+      "description": "Auteur du « Chevalier à la peau de tigre », le grand poème national géorgien, dédié à la reine Tamar.",
+      "dates": "XIIe-XIIIe siècles",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Chota_Roustaveli"
+    },
+    {
+      "nom": "David IV le Bâtisseur",
+      "role": "Roi",
+      "description": "Le roi qui libère la Géorgie des Seldjoukides.",
+      "dates": "1073 → 1125",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/David_IV_de_G%C3%A9orgie",
+      "ref": "david-iv-le-batisseur"
+    },
+    {
+      "nom": "Tamar",
+      "role": "Souveraine",
+      "description": "La reine de l’âge d’or géorgien.",
+      "dates": "vers 1160 → 1213",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Tamar_de_G%C3%A9orgie",
+      "ref": "reine-tamar"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Bataille de Didgori",
+      "annee": 1121,
+      "adversaires": ["Coalition seldjoukide (Ilghazi)"],
+      "allies": ["Mercenaires kiptchaks", "Croisés francs"],
+      "morts": "Inconnues",
+      "vainqueur": "Royaume de Géorgie",
+      "consequences": "La victoire ouvre à David IV la route de Tbilissi, reprise l’année suivante ; la Géorgie devient la principale puissance du Caucase.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Didgori"
+    },
+    {
+      "nom": "Invasions de Tamerlan en Géorgie",
+      "annee": 1386,
+      "adversaires": ["Tamerlan"],
+      "allies": [],
+      "morts": "Très nombreuses ; villes et monastères détruits",
+      "vainqueur": "Tamerlan",
+      "consequences": "Le roi Bagrat V est capturé ; huit campagnes jusqu’en 1403 ruinent le pays, qui ne retrouvera pas sa puissance.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Tamerlan"
+    }
+  ],
+  "sciences": "Le monastère de Gelati, fondé par David IV en 1106, abrite une académie où l’on enseigne la philosophie, l’astronomie et la rhétorique. Les Géorgiens excellent dans l’orfèvrerie, l’émail cloisonné et l’architecture religieuse en pierre.",
+  "croyancesText": "La Géorgie est chrétienne depuis le IVe siècle, convertie selon la tradition par sainte Nino. L’Église géorgienne, orthodoxe, est au cœur de l’identité nationale. Le royaume compte aussi des communautés musulmanes, arméniennes et juives, que David IV et Tamar traitent avec tolérance.",
+  "diplomatie": "La Géorgie se défend contre les Seldjoukides, puis profite de leur déclin pour s’étendre. Tamar aide ses parents à fonder l’empire de Trébizonde (1204). Le royaume entretient des liens avec Byzance et les États croisés, avant de subir les Mongols et Tamerlan.",
+  "societe": "Le roi s’appuie sur une noblesse puissante, dont le pouvoir grandit après les invasions. David IV crée une armée permanente, en partie formée de 40 000 cavaliers kiptchaks installés en Géorgie avec leurs familles.",
+  "economie": "Agriculture et vigne (la Géorgie est l’un des plus anciens pays du vin), commerce entre la mer Noire et la Caspienne.",
+  "arts": "Églises en pierre sculptée (Svetitskhoveli, Gelati), fresques, icônes d’orfèvrerie, poésie épique.",
+  "quotidien": "Les Géorgiens conservent le vin dans de grandes jarres enterrées, les kvevri, une tradition millénaire toujours vivante.",
+  "heritage": [
+    {
+      "titre": "Le Chevalier à la peau de tigre",
+      "texte": "Le poème de Roustaveli reste le grand texte national ; les jeunes mariés en recevaient traditionnellement un exemplaire."
+    },
+    {
+      "titre": "Le vin en kvevri",
+      "texte": "La vinification en jarres enterrées est inscrite au patrimoine culturel immatériel de l’humanité."
+    }
+  ],
+  "aSavoir": ["Tamar portait le titre de « mepe », c’est-à-dire « roi », et non de reine."],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Royaume_de_G%C3%A9orgie",
+    {
+      "titre": "Encyclopædia Britannica — Georgia, history",
+      "url": "https://www.britannica.com/place/Georgia/History"
+    }
+  ]
+}

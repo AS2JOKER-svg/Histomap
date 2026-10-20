@@ -1,0 +1,15 @@
+{
+  "id": "observatoire-d-ulugh-beg",
+  "nom": "Observatoire d’Ulugh Beg",
+  "annee": 1428,
+  "domaine": "Astronomie",
+  "dates": "vers 1428",
+  "description": "Un observatoire construit sur une colline de Samarcande par le prince [[ulugh-beg|Ulugh Beg]], avec un gigantesque sextant de pierre et de marbre en partie creusé dans le sol.",
+  "sections": [
+    {
+      "titre": "Ce qu’on y fait",
+      "texte": "Les astronomes mesurent la position de plus de 1 000 étoiles et la durée de l’année solaire. Détruit après la mort d’Ulugh Beg, l’observatoire est retrouvé par un archéologue russe en 1908."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Observatoire_astronomique_d%27Ulugh_Beg"
+}

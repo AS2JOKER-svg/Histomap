@@ -1,0 +1,15 @@
+{
+  "id": "seigneur-de-sipan",
+  "nom": "Seigneur de Sipán",
+  "role": "Souverain mochica",
+  "roles": ["Seigneur", "Guerrier", "Prêtre"],
+  "dates": "IIIe siècle",
+  "description": "Souverain mochica enterré vers 250 à Sipán, sur la côte nord du Pérou ; sa tombe, découverte intacte en 1987, est l’une des plus riches des Amériques.",
+  "essentiel": [
+    "Il est enterré avec des colliers, des ornements d’oreilles et des sceptres d’or et d’argent.",
+    "Plusieurs personnes et un chien sont enterrés avec lui.",
+    "Ses parures correspondent à celles d’un personnage central des cérémonies peintes sur les vases mochicas.",
+    "Sa découverte par l’archéologue Walter Alva a empêché le pillage du site."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Seigneur_de_Sip%C3%A1n"
+}

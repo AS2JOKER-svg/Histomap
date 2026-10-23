@@ -1,0 +1,236 @@
+{
+  "documentaires": [],
+  "decouvertes": ["radeau-muisca"],
+  "id": "muiscas",
+  "label": "Confédération muisca",
+  "tier": 2,
+  "region": "andes",
+  "period": "vers 800 à 1540",
+  "start": 800,
+  "end": 1540,
+  "color": "#2e7d32",
+  "trackId": "colombie",
+  "row": 5,
+  "isRiver": false,
+  "capitale": "Bacatá et Hunza",
+  "description": "Les Muiscas, peuple des hauts plateaux de l’actuelle Colombie, organisés en chefferies autour de deux grands chefs, le zipa et le zaque ; leurs offrandes d’or sont à l’origine de la légende de l’Eldorado.",
+  "territories": ["Muisca"],
+  "reperes": {
+    "capitale": {
+      "valeur": "Bacatá et Hunza",
+      "precision": "Bacatá, près de l’actuelle Bogotá, pour le zipa ; Hunza, l’actuelle Tunja, pour le zaque"
+    },
+    "regimes": {
+      "valeur": "Confédération de chefferies",
+      "precision": "deux grands chefs rivaux, le zipa au sud et le zaque au nord"
+    },
+    "langues": { "valeur": "Muysccubun (chibcha)", "precision": "disparue au XVIIIe siècle" },
+    "religion": { "valeur": "Religion muisca", "precision": "Sué, le Soleil, Chía, la Lune, et le héros civilisateur Bochica" },
+    "apogee": { "valeur": "XVe siècle" },
+    "population": {
+      "valeur": "Inconnue",
+      "precision": "les estimations vont de plusieurs centaines de milliers à deux millions"
+    },
+    "monnaie": { "valeur": "Disques d’or et couvertures de coton", "precision": "utilisés dans les échanges" },
+    "duree": { "valeur": "Environ 740 ans" },
+    "aujourdhui": { "valeur": "Colombie", "precision": "départements de Cundinamarca et de Boyacá" }
+  },
+  "essentiel": [
+    "Les Muiscas vivent sur les hauts plateaux froids de la cordillère des Andes, autour de l’actuelle Bogotá, où ils cultivent le maïs et la pomme de terre.",
+    "Ils sont organisés en chefferies, dominées au XVe siècle par deux grands chefs rivaux : le zipa de Bacatá au sud et le zaque de Hunza au nord.",
+    "Ils tirent leur richesse du sel, qu’ils extraient de mines comme celle de Zipaquirá, des émeraudes et du commerce, qui leur procure l’or.",
+    "Leurs orfèvres fabriquent des offrandes d’or ; le [[radeau-muisca|radeau muisca]] évoque la cérémonie du lac Guatavita, à l’origine de la légende de l’Eldorado.",
+    "Entre 1537 et 1540, les conquistadors de Gonzalo Jiménez de Quesada soumettent les Muiscas et fondent Santa Fe de Bogotá."
+  ],
+  "datesCles": [
+    {
+      "annee": 800,
+      "evenement": "Les Muiscas",
+      "info": "Vers 800, les archéologues distinguent la culture muisca sur les hauts plateaux."
+    },
+    {
+      "annee": 1470,
+      "evenement": "Le zipa et le zaque",
+      "info": "Au XVe siècle, deux grands chefs dominent les chefferies et se font la guerre."
+    },
+    {
+      "annee": 1490,
+      "evenement": "Chocontá",
+      "info": "Vers 1490, le zipa et le zaque meurent tous deux lors d’une bataille."
+    },
+    {
+      "annee": 1537,
+      "evenement": "Les Espagnols",
+      "info": "Les troupes de Gonzalo Jiménez de Quesada arrivent sur les hauts plateaux."
+    },
+    { "annee": 1538, "evenement": "Bogotá", "info": "Fondation de Santa Fe de Bogotá." },
+    { "annee": 1540, "evenement": "Fin", "info": "Le dernier zaque, Aquiminzaque, est exécuté par les Espagnols." }
+  ],
+  "periodes": [
+    {
+      "nom": "Les chefferies",
+      "debut": 800,
+      "fin": 1450,
+      "resume": "De nombreuses chefferies se partagent les hauts plateaux et commercent avec les peuples voisins.",
+      "evenements": [{ "annee": 800, "evenement": "Débuts de la culture muisca" }]
+    },
+    {
+      "nom": "Le zipa et le zaque",
+      "debut": 1450,
+      "fin": 1537,
+      "resume": "Deux grandes confédérations rivales se forment au sud et au nord.",
+      "evenements": [{ "annee": 1490, "evenement": "Bataille de Chocontá" }]
+    },
+    {
+      "nom": "La conquête",
+      "debut": 1537,
+      "fin": 1540,
+      "resume": "Les Espagnols soumettent les Muiscas, pillent leurs sanctuaires et fondent Bogotá.",
+      "evenements": [
+        { "annee": 1538, "evenement": "Fondation de Bogotá" },
+        { "annee": 1540, "evenement": "Exécution du dernier zaque" }
+      ]
+    }
+  ],
+  "regimes": [{ "id": "confederation", "nom": "Confédération de chefferies", "debut": 800, "fin": 1540 }],
+  "dynasties": [
+    {
+      "id": "zipas",
+      "nom": "Les zipas de Bacatá",
+      "debut": 1450,
+      "fin": 1539,
+      "note": "Sélection ; dates approximatives."
+    },
+    {
+      "id": "zaques",
+      "nom": "Les zaques de Hunza",
+      "debut": 1470,
+      "fin": 1540,
+      "note": "Sélection ; dates approximatives."
+    }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Saguamanchica",
+      "titre": "Zipa",
+      "debut": 1470,
+      "fin": 1490,
+      "dynastie": "zipas",
+      "note": "meurt à la bataille de Chocontá",
+      "cle": true
+    },
+    {
+      "nom": "Michuá",
+      "titre": "Zaque",
+      "debut": 1470,
+      "fin": 1490,
+      "dynastie": "zaques",
+      "note": "meurt à la bataille de Chocontá"
+    },
+    {
+      "nom": "Nemequene",
+      "titre": "Zipa",
+      "debut": 1490,
+      "fin": 1514,
+      "dynastie": "zipas",
+      "note": "donne des lois à son peuple",
+      "cle": true
+    },
+    {
+      "nom": "Quemuenchatocha",
+      "titre": "Zaque",
+      "debut": 1490,
+      "fin": 1537,
+      "dynastie": "zaques",
+      "note": "capturé par les Espagnols"
+    },
+    {
+      "nom": "Tisquesusa",
+      "titre": "Zipa",
+      "debut": 1514,
+      "fin": 1537,
+      "dynastie": "zipas",
+      "note": "meurt en combattant les Espagnols",
+      "personne": "tisquesusa",
+      "cle": true
+    },
+    { "nom": "Sagipa", "titre": "Zipa", "debut": 1537, "fin": 1539, "dynastie": "zipas", "note": "dernier zipa" },
+    {
+      "nom": "Aquiminzaque",
+      "titre": "Zaque",
+      "debut": 1537,
+      "fin": 1540,
+      "dynastie": "zaques",
+      "note": "dernier zaque, exécuté par les Espagnols",
+      "cle": true
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Tisquesusa",
+      "role": "Zipa de Bacatá",
+      "description": "Le zipa qui affronte l’arrivée des conquistadors.",
+      "dates": "? → 1537",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Tisquesusa",
+      "ref": "tisquesusa"
+    },
+    {
+      "nom": "Gonzalo Jiménez de Quesada",
+      "role": "Conquistador espagnol",
+      "description": "Il conquiert les terres muiscas et fonde Santa Fe de Bogotá en 1538.",
+      "dates": "vers 1509 → 1579",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Gonzalo_Jim%C3%A9nez_de_Quesada"
+    },
+    {
+      "nom": "Bochica",
+      "role": "Héros civilisateur",
+      "description": "Selon les mythes muiscas, ce sage venu de l’est enseigne le tissage et les lois, et ouvre la chute du Tequendama pour sauver la plaine d’une inondation.",
+      "dates": "mythe",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bochica"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Bataille de Chocontá",
+      "annee": 1490,
+      "adversaires": ["Le zaque de Hunza (Michuá)"],
+      "allies": ["Le zipa de Bacatá (Saguamanchica)"],
+      "morts": "Inconnues ; les deux chefs sont tués",
+      "vainqueur": "Indécis",
+      "consequences": "Le zipa et le zaque meurent tous les deux. Leurs successeurs poursuivent la rivalité entre le sud et le nord jusqu’à l’arrivée des Espagnols.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Battle_of_Chocont%C3%A1"
+    },
+    {
+      "nom": "Conquête espagnole des Muiscas",
+      "annee": 1537,
+      "adversaires": ["Conquistadors espagnols (Gonzalo Jiménez de Quesada)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Espagne",
+      "consequences": "Divisés entre le zipa et le zaque, les Muiscas ne peuvent s’unir contre les quelques centaines d’Espagnols, qui pillent leurs sanctuaires et prennent leurs terres.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Spanish_conquest_of_the_Muisca"
+    }
+  ],
+  "sciences": "Les Muiscas exploitent des mines de sel, comme à Zipaquirá et Nemocón, en faisant évaporer l’eau salée dans des récipients de terre. Ils exploitent aussi des mines d’émeraudes. Leurs orfèvres travaillent la tumbaga, un alliage d’or et de cuivre, coulé à la cire perdue. Ils suivent un calendrier lié à la Lune et aux cultures.",
+  "croyancesText": "Les Muiscas honorent Sué, le Soleil, et Chía, la Lune, ainsi que Bochica, héros qui leur aurait enseigné les arts. Les lacs sont sacrés : au lac Guatavita, selon un récit espagnol du XVIIe siècle, le nouveau chef, couvert de poudre d’or, partait sur un radeau jeter des offrandes d’or et d’émeraudes au milieu du lac.",
+  "diplomatie": "Les chefferies s’allient ou se combattent ; le zipa et le zaque se disputent la domination des hauts plateaux. Les Muiscas échangent leur sel, leurs couvertures de coton et leurs émeraudes contre de l’or, du coton et des coquillages avec les peuples des basses terres. Ils doivent aussi se défendre contre les Panches, à l’ouest.",
+  "societe": "Chaque chefferie est dirigée par un chef (cacique), et l’héritage passe souvent du chef au fils de sa sœur. Les prêtres, formés pendant de longues années, gardent les sanctuaires. La plupart des Muiscas sont des paysans qui cultivent le maïs, la pomme de terre et le quinoa.",
+  "economie": "Agriculture (maïs, pomme de terre, quinoa), extraction du sel et des émeraudes, tissage de couvertures de coton, marchés réguliers.",
+  "arts": "Figurines votives d’or (tunjos), radeau muisca, couvertures de coton peintes, pétroglyphes.",
+  "quotidien": "Des marchés se tiennent régulièrement dans plusieurs villages : on y échange le sel, les couvertures, les céréales et les objets d’or.",
+  "heritage": [
+    {
+      "titre": "Le musée de l’Or",
+      "texte": "Le musée de l’Or de Bogotá conserve des dizaines de milliers d’objets précolombiens, dont le célèbre radeau muisca."
+    },
+    {
+      "titre": "La cathédrale de sel",
+      "texte": "Dans l’ancienne mine de sel de Zipaquirá, une cathédrale souterraine a été creusée au XXe siècle."
+    }
+  ],
+  "aSavoir": ["Le nom de la capitale de la Colombie, Bogotá, vient de Bacatá, le domaine du zipa."],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Muiscas",
+    { "titre": "Encyclopædia Britannica — Chibcha", "url": "https://www.britannica.com/topic/Chibcha" }
+  ]
+}

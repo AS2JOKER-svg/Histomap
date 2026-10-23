@@ -1,0 +1,18 @@
+{
+  "id": "monte-alban",
+  "nom": "Monte Albán",
+  "domaine": "Architecture",
+  "dates": "vers −500 → vers 800",
+  "description": "La capitale des Zapotèques, bâtie vers −500 sur une montagne aplanie qui domine de 400 mètres la vallée de Oaxaca.",
+  "sections": [
+    {
+      "titre": "Ce qu’on y voit",
+      "texte": "Une grande place entourée de pyramides, de palais, d’un terrain de jeu de balle et d’un observatoire en forme de pointe de flèche, ainsi que les dalles sculptées des « danseurs »."
+    },
+    {
+      "titre": "Aujourd’hui",
+      "texte": "Le site est inscrit au patrimoine mondial de l’UNESCO depuis 1987, avec le centre historique de Oaxaca."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Monte_Alb%C3%A1n"
+}

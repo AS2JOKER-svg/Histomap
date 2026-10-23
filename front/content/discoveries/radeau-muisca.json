@@ -1,0 +1,15 @@
+{
+  "id": "radeau-muisca",
+  "nom": "Radeau muisca",
+  "domaine": "Art et religion",
+  "dates": "XIIIe-XVe siècles",
+  "description": "Une petite sculpture d’or représentant un chef entouré de compagnons sur un radeau, trouvée en 1969 dans une grotte près de Bogotá.",
+  "sections": [
+    {
+      "titre": "Une image de l’Eldorado",
+      "texte": "Elle rappelle la cérémonie du lac Guatavita, où le nouveau chef, couvert de poudre d’or, jetait des offrandes dans le lac. Ce récit fit naître chez les Européens la légende de l’Eldorado, une cité d’or que de nombreux explorateurs ont cherchée en vain."
+    },
+    { "titre": "Aujourd’hui", "texte": "Elle est exposée au musée de l’Or de Bogotá." }
+  ],
+  "wikiUrl": "https://en.wikipedia.org/wiki/Muisca_raft"
+}

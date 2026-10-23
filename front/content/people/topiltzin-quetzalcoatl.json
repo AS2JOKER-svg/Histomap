@@ -1,0 +1,15 @@
+{
+  "id": "topiltzin-quetzalcoatl",
+  "nom": "Topiltzin Quetzalcoatl",
+  "role": "Roi-prêtre légendaire de Tula",
+  "roles": ["Roi", "Prêtre"],
+  "dates": "Xe siècle (tradition)",
+  "description": "Souverain de Tula selon les récits aztèques, à la fois personnage historique possible et figure légendaire associée au dieu Serpent à plumes.",
+  "essentiel": [
+    "Selon la tradition, il interdit les sacrifices humains et enseigne les arts.",
+    "Les partisans du dieu Tezcatlipoca l’auraient trompé et chassé de Tula.",
+    "Il serait parti vers l’est, au-delà de la mer, en promettant de revenir.",
+    "Les chroniques espagnoles affirment que Moctezuma II aurait pris Cortés pour lui ; beaucoup d’historiens doutent aujourd’hui de ce récit."
+  ],
+  "wikiUrl": "https://en.wikipedia.org/wiki/Ce_Acatl_Topiltzin"
+}

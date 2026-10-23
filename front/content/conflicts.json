@@ -972,5 +972,21 @@
   "Renversement du royaume d’Hawaï": {
     "coords": [-157.86, 21.31],
     "lieu": "Honolulu (Hawaï)"
+  },
+  "Siège de Guiengola": {
+    "coords": [-95.35, 16.37],
+    "lieu": "Guiengola, près de Tehuantepec (Mexique)"
+  },
+  "Conquête inca du Chimor": {
+    "coords": [-79.07, -8.11],
+    "lieu": "Chan Chan (Pérou)"
+  },
+  "Bataille de Chocontá": {
+    "coords": [-73.68, 5.15],
+    "lieu": "Chocontá (Colombie)"
+  },
+  "Conquête espagnole des Muiscas": {
+    "coords": [-74.07, 4.71],
+    "lieu": "Hauts plateaux de Bogotá (Colombie)"
   }
 }

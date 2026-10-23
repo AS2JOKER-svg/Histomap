@@ -1,0 +1,14 @@
+{
+  "id": "mitla",
+  "nom": "Mitla",
+  "domaine": "Architecture",
+  "dates": "vers 1200 → 1521",
+  "description": "Le grand centre religieux zapotèque des derniers siècles avant la conquête, célèbre pour ses murs couverts de mosaïques de pierre géométriques.",
+  "sections": [
+    {
+      "titre": "Des mosaïques sans ciment",
+      "texte": "Des milliers de petites pierres taillées sont assemblées pour former des motifs en zigzag et en spirale, sans mortier, sur les façades des palais."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Mitla"
+}

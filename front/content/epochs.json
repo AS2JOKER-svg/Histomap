@@ -121,9 +121,11 @@
         "label": "Amérique",
         "civs": [
           "olmeques",
+          "zapoteques",
           "teotihuacan",
           "chavin",
-          "nazca"
+          "nazca",
+          "mochicas"
         ]
       },
       {
@@ -217,8 +219,11 @@
         "label": "Amérique",
         "civs": [
           "maya",
+          "tolteques",
           "tiwanaku",
-          "huari"
+          "huari",
+          "chimu",
+          "muiscas"
         ]
       },
       {

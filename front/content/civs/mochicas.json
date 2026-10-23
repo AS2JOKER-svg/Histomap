@@ -1,0 +1,139 @@
+{
+  "documentaires": [],
+  "decouvertes": ["huacas-du-soleil-et-de-la-lune"],
+  "id": "mochicas",
+  "label": "Mochicas (Moche)",
+  "tier": 2,
+  "region": "andes",
+  "period": "vers 100 à 800",
+  "start": 100,
+  "end": 800,
+  "color": "#c62828",
+  "trackId": "andes-nord",
+  "row": 4,
+  "isRiver": false,
+  "capitale": "Huacas du Soleil et de la Lune (vallée de Moche)",
+  "description": "Une culture de la côte désertique du nord du Pérou, qui irrigue ses vallées, bâtit d’immenses pyramides de briques crues et produit des céramiques et des bijoux parmi les plus raffinés de l’Amérique ancienne.",
+  "territories": ["Moche"],
+  "reperes": {
+    "capitale": {
+      "valeur": "Huacas du Soleil et de la Lune",
+      "precision": "dans la vallée de Moche, près de Trujillo (Pérou) ; il y avait sans doute plusieurs centres"
+    },
+    "regimes": {
+      "valeur": "Seigneuries",
+      "precision": "des seigneurs guerriers et prêtres, sans doute répartis en deux grandes régions"
+    },
+    "langues": {
+      "valeur": "Inconnue",
+      "precision": "peut-être une langue proche du mochica, parlé dans la région jusqu’au XXe siècle"
+    },
+    "religion": { "valeur": "Religion andine", "precision": "un dieu « décapiteur » (Ai Apaec) est souvent représenté" },
+    "apogee": { "valeur": "Vers 300 → 600" },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": { "valeur": "Aucune" },
+    "duree": { "valeur": "Environ 700 ans" },
+    "aujourdhui": { "valeur": "Pérou", "precision": "côte nord" }
+  },
+  "essentiel": [
+    "Sur la côte désertique du nord du Pérou, les Mochicas creusent des canaux qui amènent l’eau des Andes et transforment les vallées en oasis.",
+    "Ils bâtissent d’immenses pyramides de briques crues, comme les [[huacas-du-soleil-et-de-la-lune|Huacas du Soleil et de la Lune]], ornées de peintures murales.",
+    "Leurs potiers fabriquent des vases-portraits si réalistes qu’on reconnaît des individus, ainsi que des vases qui montrent la vie quotidienne, la guerre et les rituels.",
+    "Leurs orfèvres maîtrisent l’or, l’argent et le cuivre ; la tombe du [[seigneur-de-sipan|Seigneur de Sipán]], découverte intacte en 1987, est l’une des plus riches des Amériques.",
+    "Vers 600-800, des catastrophes climatiques et des conflits internes contribuent à leur déclin ; les cultures de Lambayeque puis Chimú leur succèdent."
+  ],
+  "datesCles": [
+    {
+      "annee": 100,
+      "evenement": "Les débuts",
+      "info": "Vers 100, la culture mochica se forme dans les vallées de la côte nord du Pérou."
+    },
+    {
+      "annee": 250,
+      "evenement": "Seigneur de Sipán",
+      "info": "Vers 250, un seigneur est enterré à Sipán avec des parures d’or et d’argent et plusieurs accompagnants."
+    },
+    {
+      "annee": 450,
+      "evenement": "Dame de Cao",
+      "info": "Vers 450, une femme tatouée, sans doute une dirigeante, est enterrée avec des armes et des parures."
+    },
+    {
+      "annee": 600,
+      "evenement": "Catastrophes climatiques",
+      "info": "À la fin du VIe siècle, des pluies diluviennes puis des sécheresses frappent la région, selon les chercheurs."
+    },
+    {
+      "annee": 800,
+      "evenement": "Fin",
+      "info": "Vers 800, la culture mochica disparaît ; la culture de Lambayeque lui succède."
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "Les Mochicas",
+      "debut": 100,
+      "fin": 600,
+      "resume": "Des seigneuries puissantes irriguent les vallées et bâtissent de grandes pyramides de briques.",
+      "evenements": [{ "annee": 250, "evenement": "Seigneur de Sipán" }, { "annee": 450, "evenement": "Dame de Cao" }]
+    },
+    {
+      "nom": "Le déclin",
+      "debut": 600,
+      "fin": 800,
+      "resume": "Les dérèglements climatiques et les conflits affaiblissent les seigneuries, qui se replient sur de nouveaux centres.",
+      "evenements": [{ "annee": 600, "evenement": "Pluies et sécheresses" }]
+    }
+  ],
+  "regimes": [{ "id": "seigneuries", "nom": "Seigneuries", "debut": 100, "fin": 800 }],
+  "dirigeants": [],
+  "personnages": [
+    {
+      "nom": "Seigneur de Sipán",
+      "role": "Souverain mochica",
+      "description": "Seigneur dont la tombe intacte, découverte en 1987, contenait des centaines d’objets précieux.",
+      "dates": "IIIe siècle",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Seigneur_de_Sip%C3%A1n",
+      "ref": "seigneur-de-sipan"
+    },
+    {
+      "nom": "Dame de Cao",
+      "role": "Dirigeante mochica",
+      "description": "Momie d’une femme tatouée retrouvée en 2006 avec des armes, la première dirigeante mochica connue.",
+      "dates": "vers 450",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Lady_of_Cao"
+    },
+    {
+      "nom": "Walter Alva",
+      "role": "Archéologue péruvien",
+      "description": "Il découvre et fouille la tombe du Seigneur de Sipán en 1987.",
+      "dates": "né en 1951",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Walter_Alva"
+    }
+  ],
+  "guerres": [],
+  "sciences": "Les Mochicas construisent de longs canaux d’irrigation qui amènent l’eau des rivières des Andes jusqu’aux champs du désert. Leurs orfèvres savent dorer le cuivre par des procédés chimiques et souder des pièces de métal. Leurs potiers utilisent des moules pour fabriquer des vases en série.",
+  "croyancesText": "Les Mochicas honorent des dieux liés à la mer, à la montagne et à la fertilité ; un dieu au visage félin, souvent appelé « le décapiteur », apparaît sur de nombreuses peintures. Les vases et les fresques montrent une cérémonie où des prisonniers de guerre sont sacrifiés, et des tombes de sacrifiés ont été retrouvées à la Huaca de la Lune.",
+  "diplomatie": "Les Mochicas ne forment sans doute pas un empire unique, mais plusieurs seigneuries qui partagent la même culture et se font parfois la guerre. Ils échangent avec les peuples des montagnes et de la côte, d’où viennent les coquillages précieux.",
+  "societe": "Des seigneurs, à la fois chefs de guerre et prêtres, dominent la société, avec des artisans spécialisés (potiers, orfèvres, tisserands) et des paysans qui travaillent sur les terres irriguées.",
+  "economie": "Agriculture irriguée (maïs, haricots, courges, coton), pêche, élevage du lama et du cochon d’Inde.",
+  "arts": "Vases-portraits, vases à anse en étrier, peintures murales des huacas, parures d’or et d’argent, tissus.",
+  "quotidien": "Les vases mochicas montrent des scènes de la vie quotidienne : pêcheurs sur des embarcations de roseaux, tisserandes, musiciens, médecins et même des malades.",
+  "heritage": [
+    {
+      "titre": "Les musées de Sipán",
+      "texte": "Les trésors du Seigneur de Sipán sont exposés au musée des Tombes royales de Sipán, à Lambayeque."
+    },
+    {
+      "titre": "Les caballitos de totora",
+      "texte": "Les pêcheurs de la côte nord du Pérou utilisent toujours des embarcations de roseaux semblables à celles des vases mochicas."
+    }
+  ],
+  "aSavoir": [
+    "La Huaca du Soleil, construite avec des dizaines de millions de briques crues, est l’un des plus grands édifices en adobe des Amériques."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Moche_(culture)",
+    { "titre": "Encyclopædia Britannica — Moche", "url": "https://www.britannica.com/topic/Moche" }
+  ]
+}

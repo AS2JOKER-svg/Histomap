@@ -194,12 +194,16 @@ for (const [id, { type, data }] of content.entities)
 
 // ── Guerres : une entrée par guerre (même nom + même année = même guerre, vue des deux camps) ──
 const wars = new Map()
+// époque de la guerre = celle qui contient son année (pas celle de la fiche : la
+// Première bataille de Panipat, 1526, racontée d'abord par le sultanat de Delhi, est moderne)
+const epochOfYear = (year, fallback) =>
+  year == null ? fallback : (epochs.find((e) => year >= e.start && year < e.end) ?? (year < epochs[0].start ? epochs[0] : epochs.at(-1))).id
 for (const { epoch, civ } of byId.values())
   for (const g of civ.guerres ?? []) {
     const key = `${g.nom}|${g.annee ?? ''}`
     const war = wars.get(key) ?? {
       // camp = la première fiche qui raconte la guerre ; une 2e fiche (ex. Qadesh vue par les Hittites) est l'autre camp
-      key, nom: g.nom, annee: g.annee ?? null, epoch: epoch.id, civs: [], camp: [civ.label], adversaires: g.adversaires ?? [],
+      key, nom: g.nom, annee: g.annee ?? null, epoch: epochOfYear(g.annee, epoch.id), civs: [], camp: [civ.label], adversaires: g.adversaires ?? [],
       allies: g.allies ?? [], vainqueur: stripLinks(g.vainqueur ?? ''), consequences: stripLinks(g.consequences ?? ''),
       morts: g.morts ?? '', wikiUrl: g.wikiUrl ?? null, coords: content.conflicts[g.nom]?.coords ?? null,
     }

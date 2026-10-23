@@ -1,0 +1,16 @@
+{
+  "id": "anacaona",
+  "nom": "Anacaona",
+  "role": "Cacica de Jaragua",
+  "roles": ["Cheffe", "Poétesse"],
+  "dates": "vers 1474 → 1504",
+  "mort": 1504,
+  "description": "Cheffe taïno de la région de Jaragua, à Hispaniola, célèbre pour ses poèmes et ses chants, exécutée par les Espagnols.",
+  "essentiel": [
+    "Elle succède à son frère à la tête de la chefferie de Jaragua.",
+    "Elle compose des chants, les areítos, qui racontent l’histoire de son peuple.",
+    "En 1503, le gouverneur Nicolás de Ovando fait massacrer les chefs réunis à Jaragua.",
+    "Anacaona est pendue peu après ; elle est aujourd’hui un symbole de résistance en Haïti et en République dominicaine."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Anacaona"
+}

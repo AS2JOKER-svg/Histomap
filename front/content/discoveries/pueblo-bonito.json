@@ -1,0 +1,18 @@
+{
+  "id": "pueblo-bonito",
+  "nom": "Pueblo Bonito",
+  "domaine": "Architecture",
+  "dates": "vers 850 → vers 1150",
+  "description": "La plus grande des « great houses » de Chaco Canyon, au Nouveau-Mexique : un bâtiment en demi-cercle de plusieurs centaines de pièces, sur quatre ou cinq étages.",
+  "sections": [
+    {
+      "titre": "Un record",
+      "texte": "Jusqu’au XIXe siècle, aucun bâtiment des États-Unis actuels ne comptait autant de pièces."
+    },
+    {
+      "titre": "Des trésors venus de loin",
+      "texte": "On y a trouvé des milliers d’objets de turquoise, des squelettes d’aras venus du Mexique et des vases contenant des traces de cacao."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Pueblo_Bonito"
+}

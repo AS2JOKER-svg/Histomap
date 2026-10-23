@@ -1,0 +1,197 @@
+{
+  "documentaires": [],
+  "decouvertes": [],
+  "id": "mapuches",
+  "label": "Mapuches (Wallmapu)",
+  "tier": 2,
+  "region": "andes",
+  "period": "vers 1450 à 1883",
+  "start": 1450,
+  "end": 1883,
+  "color": "#3949ab",
+  "trackId": "cone-sud",
+  "row": 5,
+  "isRiver": false,
+  "capitale": "Aucune (des communautés autonomes)",
+  "description": "Le peuple du centre-sud du Chili et de l’Argentine qui arrête l’expansion inca, puis résiste plus de trois siècles aux Espagnols, avant d’être soumis par le Chili et l’Argentine à la fin du XIXe siècle.",
+  "territories": ["Wallmapu (Mapuche)", "Mapuche"],
+  "reperes": {
+    "capitale": { "valeur": "Aucune", "precision": "des communautés (lof) dirigées par des chefs (lonko)" },
+    "regimes": {
+      "valeur": "Communautés autonomes",
+      "precision": "en temps de guerre, elles élisent un chef militaire, le toqui"
+    },
+    "langues": { "valeur": "Mapudungun", "precision": "« la langue de la terre », toujours parlée" },
+    "religion": {
+      "valeur": "Religion mapuche",
+      "precision": "Ngenechen, les ancêtres, et les machi, guérisseuses et guides spirituelles"
+    },
+    "apogee": {
+      "valeur": "XVIIe → XVIIIe siècle",
+      "precision": "les Mapuches contrôlent un vaste territoire de part et d’autre des Andes"
+    },
+    "population": { "valeur": "Inconnue", "precision": "peut-être plusieurs centaines de milliers au XVIe siècle" },
+    "monnaie": { "valeur": "Aucune", "precision": "bétail, tissus et argent travaillé servent aux échanges" },
+    "duree": { "valeur": "Plus de 400 ans" },
+    "aujourdhui": {
+      "valeur": "Chili et Argentine",
+      "precision": "environ 1,7 million de Chiliens se déclarent mapuches (recensement de 2017)"
+    }
+  },
+  "essentiel": [
+    "Les Mapuches, « gens de la terre », vivent dans le centre-sud du Chili actuel, organisés en communautés indépendantes.",
+    "À la fin du XVe siècle, ils arrêtent l’avancée de l’Empire inca au sud du fleuve Maule.",
+    "À partir de 1550, ils combattent les conquistadors espagnols : [[lautaro|Lautaro]] bat et tue le gouverneur Pedro de Valdivia en 1553, et en 1598 les Mapuches détruisent les villes espagnoles du Sud.",
+    "Pendant près de trois siècles, le fleuve Biobío sert de frontière entre l’Empire espagnol et le Wallmapu, le pays mapuche, reconnue lors de grands parlements.",
+    "Après l’indépendance, le Chili et l’Argentine conquièrent les terres mapuches entre 1861 et 1883 ; les Mapuches revendiquent toujours leurs droits sur ces terres."
+  ],
+  "datesCles": [
+    {
+      "annee": 1480,
+      "evenement": "Face aux Incas",
+      "info": "Vers 1480, selon les chroniques, les guerriers du Sud arrêtent les armées incas près du fleuve Maule."
+    },
+    {
+      "annee": 1550,
+      "evenement": "Guerre d’Arauco",
+      "info": "Début d’une longue guerre contre les conquistadors espagnols."
+    },
+    {
+      "annee": 1553,
+      "evenement": "Tucapel",
+      "info": "Lautaro bat les Espagnols ; le gouverneur Pedro de Valdivia est tué."
+    },
+    {
+      "annee": 1598,
+      "evenement": "Curalaba",
+      "info": "Victoire mapuche ; les villes espagnoles au sud du Biobío sont détruites dans les années suivantes."
+    },
+    {
+      "annee": 1641,
+      "evenement": "Parlement de Quilín",
+      "info": "L’Espagne reconnaît la frontière du Biobío et l’autonomie mapuche."
+    },
+    {
+      "annee": 1861,
+      "evenement": "Occupation de l’Araucanie",
+      "info": "Le Chili lance la conquête militaire des terres mapuches."
+    },
+    {
+      "annee": 1883,
+      "evenement": "Fin de l’indépendance",
+      "info": "L’armée chilienne refonde la ville de Villarrica ; les terres mapuches sont annexées."
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "Face aux Incas",
+      "debut": 1450,
+      "fin": 1550,
+      "resume": "Les communautés mapuches arrêtent l’avancée inca vers le sud.",
+      "evenements": [{ "annee": 1480, "evenement": "Combats contre les Incas" }]
+    },
+    {
+      "nom": "La guerre d’Arauco",
+      "debut": 1550,
+      "fin": 1641,
+      "resume": "Les Mapuches résistent aux conquistadors, remportent de grandes victoires et chassent les Espagnols du Sud.",
+      "evenements": [{ "annee": 1553, "evenement": "Bataille de Tucapel" }, { "annee": 1598, "evenement": "Bataille de Curalaba" }]
+    },
+    {
+      "nom": "La frontière du Biobío",
+      "debut": 1641,
+      "fin": 1861,
+      "resume": "Une frontière reconnue sépare le Chili espagnol du Wallmapu ; commerce et parlements alternent avec des conflits.",
+      "evenements": [{ "annee": 1641, "evenement": "Parlement de Quilín" }]
+    },
+    {
+      "nom": "La conquête par les États",
+      "debut": 1861,
+      "fin": 1883,
+      "resume": "Le Chili et l’Argentine conquièrent militairement les terres mapuches.",
+      "evenements": [
+        { "annee": 1861, "evenement": "Début de l’occupation de l’Araucanie" },
+        { "annee": 1883, "evenement": "Refondation de Villarrica" }
+      ]
+    }
+  ],
+  "regimes": [{ "id": "communautes", "nom": "Communautés autonomes", "debut": 1450, "fin": 1883 }],
+  "dirigeants": [],
+  "personnages": [
+    {
+      "nom": "Lautaro",
+      "role": "Chef de guerre (toqui)",
+      "description": "Ancien serviteur des Espagnols, il apprend leur façon de combattre et les bat à Tucapel.",
+      "dates": "vers 1534 → 1557",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Lautaro",
+      "ref": "lautaro"
+    },
+    {
+      "nom": "Caupolicán",
+      "role": "Toqui",
+      "description": "Chef de guerre mapuche capturé et exécuté par les Espagnols en 1558.",
+      "dates": "? → 1558",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Caupolic%C3%A1n"
+    },
+    {
+      "nom": "Pedro de Valdivia",
+      "role": "Conquistador espagnol",
+      "description": "Fondateur de Santiago du Chili, tué en 1553 après la bataille de Tucapel.",
+      "dates": "1497 → 1553",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Pedro_de_Valdivia"
+    },
+    {
+      "nom": "Alonso de Ercilla",
+      "role": "Poète espagnol",
+      "description": "Soldat et poète, il célèbre le courage des Mapuches dans son épopée « La Araucana » (1569).",
+      "dates": "1533 → 1594",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Alonso_de_Ercilla"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerre d’Arauco",
+      "annee": 1550,
+      "adversaires": ["Empire espagnol (gouverneurs du Chili)"],
+      "allies": [],
+      "morts": "Des dizaines de milliers sur près d’un siècle",
+      "vainqueur": "Mapuches (frontière du Biobío reconnue)",
+      "consequences": "Après les victoires de Tucapel (1553) et de Curalaba (1598), les Mapuches chassent les Espagnols au nord du fleuve Biobío. L’Espagne doit reconnaître leur autonomie lors du parlement de Quilín (1641).",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_d%27Arauco"
+    },
+    {
+      "nom": "Occupation de l’Araucanie",
+      "annee": 1861,
+      "adversaires": ["Chili"],
+      "allies": [],
+      "morts": "Inconnues ; des milliers de victimes",
+      "vainqueur": "Chili",
+      "consequences": "L’armée chilienne avance par étapes, fonde des forts et des villes, et annexe les terres mapuches en 1883. Les terres sont distribuées à des colons, et les Mapuches regroupés dans des réserves. En Argentine, la « conquête du désert » (1878-1885) soumet les Mapuches de la pampa.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Occupation_de_l%27Araucanie"
+    }
+  ],
+  "sciences": "Les Mapuches adoptent rapidement le cheval, introduit par les Espagnols, et deviennent d’excellents cavaliers. Leurs chefs militaires, comme Lautaro, adaptent leurs tactiques aux armes européennes : attaques par vagues successives, pièges et fortins. Les orfèvres mapuches travaillent l’argent pour fabriquer de grands bijoux, portés par les femmes.",
+  "croyancesText": "Les Mapuches honorent Ngenechen, puissance créatrice, ainsi que les ancêtres et les esprits de la nature. Les machi, le plus souvent des femmes, sont des guérisseuses et des guides spirituelles ; elles se tiennent près du rewe, un tronc sculpté en escalier. Le ngillatun est une grande cérémonie collective de prière pour la fertilité et l’équilibre du monde.",
+  "diplomatie": "Les Mapuches combattent les Espagnols, mais négocient aussi avec eux lors de grands parlements, où l’on échange discours et cadeaux. Ils commercent du bétail et des tissus de part et d’autre des Andes et s’installent dans la pampa argentine. Après l’indépendance, ils négocient avec le Chili et l’Argentine, avant d’être conquis.",
+  "societe": "La société repose sur les familles et les communautés (lof), dirigées par des chefs (lonko) qui gouvernent par la parole et le consensus. En cas de guerre, plusieurs communautés élisent ensemble un toqui.",
+  "economie": "Agriculture (maïs, pomme de terre, quinoa), élevage de lamas puis de bétail et de chevaux, tissage, orfèvrerie en argent.",
+  "arts": "Bijoux d’argent (trapelacucha), textiles tissés aux motifs géométriques, rewe sculptés, chants et poésie orale.",
+  "quotidien": "Le palin, un jeu de crosse collectif, sert à la fois de sport, de fête et de rituel entre communautés.",
+  "heritage": [
+    {
+      "titre": "Un peuple vivant",
+      "texte": "Les Mapuches forment aujourd’hui le principal peuple autochtone du Chili ; le mapudungun est toujours parlé."
+    },
+    {
+      "titre": "Un conflit actuel",
+      "texte": "Les revendications mapuches sur les terres perdues au XIXe siècle restent une question politique importante au Chili et en Argentine."
+    }
+  ],
+  "aSavoir": [
+    "Le poème épique « La Araucana », écrit par un soldat espagnol, fait des chefs mapuches de véritables héros."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Mapuches",
+    { "titre": "Encyclopædia Britannica — Mapuche", "url": "https://www.britannica.com/topic/Mapuche" }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cahokia",
+  "nom": "Cahokia",
+  "domaine": "Architecture",
+  "dates": "vers 1050 → vers 1350",
+  "description": "La plus grande ville d’Amérique du Nord au nord du Mexique avant l’arrivée des Européens, près de l’actuelle Saint-Louis, avec plus d’une centaine de tertres de terre.",
+  "sections": [
+    {
+      "titre": "Le Monks Mound",
+      "texte": "Ce tertre géant, haut d’environ 30 mètres, est le plus grand ouvrage de terre des Amériques ; un grand bâtiment se dressait à son sommet."
+    },
+    { "titre": "Aujourd’hui", "texte": "Le site est inscrit au patrimoine mondial de l’UNESCO depuis 1982." }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Cahokia"
+}

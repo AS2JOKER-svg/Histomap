@@ -220,6 +220,9 @@
         "civs": [
           "maya",
           "tolteques",
+          "pueblos-ancestraux",
+          "mississippiens",
+          "tainos",
           "tiwanaku",
           "huari",
           "chimu",
@@ -292,6 +295,8 @@
         "civs": [
           "azteque",
           "inca",
+          "confederation-iroquoise",
+          "mapuches",
           "usa-moderne"
         ]
       }

@@ -988,5 +988,33 @@
   "Conquête espagnole des Muiscas": {
     "coords": [-74.07, 4.71],
     "lieu": "Hauts plateaux de Bogotá (Colombie)"
+  },
+  "Bataille de Mabila": {
+    "coords": [-87.5, 32.3],
+    "lieu": "Mabila (Alabama, États-Unis)"
+  },
+  "Conquête espagnole d’Hispaniola": {
+    "coords": [-70.6, 19.2],
+    "lieu": "Hispaniola (Haïti et République dominicaine)"
+  },
+  "Révolte d’Enriquillo": {
+    "coords": [-71.4, 18.2],
+    "lieu": "Montagnes du Bahoruco (République dominicaine)"
+  },
+  "Guerres franco-iroquoises": {
+    "coords": [-73.6, 44.6],
+    "lieu": "Vallée du Saint-Laurent et région des Grands Lacs"
+  },
+  "Expédition Sullivan": {
+    "coords": [-76.9, 42.6],
+    "lieu": "Pays des Senecas et des Cayugas (État de New York)"
+  },
+  "Guerre d’Arauco": {
+    "coords": [-73.2, -37.6],
+    "lieu": "Région du Biobío et de l’Araucanie (Chili)"
+  },
+  "Occupation de l’Araucanie": {
+    "coords": [-72.6, -38.74],
+    "lieu": "Araucanie (Chili)"
   }
 }

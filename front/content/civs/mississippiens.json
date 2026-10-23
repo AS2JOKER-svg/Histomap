@@ -1,0 +1,149 @@
+{
+  "documentaires": [],
+  "decouvertes": ["cahokia"],
+  "id": "mississippiens",
+  "label": "Mississippiens (Cahokia)",
+  "tier": 2,
+  "region": "amerique-nord",
+  "period": "vers 800 à 1600",
+  "start": 800,
+  "end": 1600,
+  "color": "#7b1fa2",
+  "trackId": "mississippi",
+  "row": 5,
+  "isRiver": true,
+  "capitale": "Cahokia",
+  "description": "Les chefferies de la vallée du Mississippi et du sud-est des États-Unis, bâtisseuses de grands tertres de terre ; leur principale ville, Cahokia, compte au XIIe siècle des milliers d’habitants.",
+  "territories": [],
+  "reperes": {
+    "capitale": {
+      "valeur": "Cahokia",
+      "precision": "près de l’actuelle Saint-Louis (Illinois), la plus grande ville au nord du Mexique avant l’arrivée des Européens"
+    },
+    "regimes": { "valeur": "Chefferies", "precision": "des chefs héréditaires, souvent associés au Soleil" },
+    "langues": { "valeur": "Inconnues", "precision": "sans doute plusieurs familles de langues" },
+    "religion": { "valeur": "Religion mississippienne", "precision": "cultes du Soleil, du feu et de l’« homme-oiseau »" },
+    "apogee": { "valeur": "Vers 1050 → 1200", "precision": "Cahokia compte peut-être 10 000 à 20 000 habitants" },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": { "valeur": "Aucune", "precision": "perles de coquillage et cuivre servent aux échanges" },
+    "duree": { "valeur": "Environ 800 ans" },
+    "aujourdhui": { "valeur": "États-Unis", "precision": "vallée du Mississippi et sud-est" }
+  },
+  "essentiel": [
+    "À partir de 800 environ, les peuples de la vallée du Mississippi développent la culture du maïs et forment des chefferies.",
+    "Ils bâtissent des tertres de terre en forme de pyramides tronquées, au sommet desquels se dressent les temples et les maisons des chefs.",
+    "Vers 1050-1200, [[cahokia|Cahokia]], près de l’actuelle Saint-Louis, devient une véritable ville, dominée par un tertre géant, le Monks Mound.",
+    "D’autres grands centres, comme Moundville (Alabama) ou Etowah (Géorgie), partagent des symboles religieux, comme l’homme-oiseau.",
+    "Cahokia est abandonnée vers 1350 ; au XVIe siècle, l’expédition espagnole d’Hernando de Soto rencontre encore de puissantes chefferies, bientôt ravagées par les épidémies."
+  ],
+  "datesCles": [
+    {
+      "annee": 800,
+      "evenement": "Les débuts",
+      "info": "La culture du maïs se développe dans la vallée du Mississippi."
+    },
+    {
+      "annee": 1050,
+      "evenement": "Cahokia",
+      "info": "Cahokia se transforme rapidement en une grande ville planifiée."
+    },
+    {
+      "annee": 1100,
+      "evenement": "Monks Mound",
+      "info": "Le grand tertre de Cahokia atteint environ 30 mètres de haut."
+    },
+    {
+      "annee": 1350,
+      "evenement": "Abandon de Cahokia",
+      "info": "Vers 1350, Cahokia est presque entièrement abandonnée."
+    },
+    {
+      "annee": 1540,
+      "evenement": "Mabila",
+      "info": "L’expédition d’Hernando de Soto affronte les guerriers du chef Tascalusa."
+    },
+    {
+      "annee": 1600,
+      "evenement": "Fin",
+      "info": "Les épidémies venues d’Europe et les guerres font disparaître la plupart des grandes chefferies."
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "Les premières chefferies",
+      "debut": 800,
+      "fin": 1050,
+      "resume": "La culture du maïs permet de nourrir des villages plus grands, autour de chefs.",
+      "evenements": [{ "annee": 800, "evenement": "Débuts de la culture mississippienne" }]
+    },
+    {
+      "nom": "L’âge de Cahokia",
+      "debut": 1050,
+      "fin": 1350,
+      "resume": "Cahokia est la grande ville de la vallée ; ses symboles se diffusent dans tout le sud-est.",
+      "evenements": [{ "annee": 1050, "evenement": "Essor de Cahokia" }, { "annee": 1350, "evenement": "Abandon de Cahokia" }]
+    },
+    {
+      "nom": "Les dernières chefferies",
+      "debut": 1350,
+      "fin": 1600,
+      "resume": "Moundville, Etowah et d’autres centres prospèrent, jusqu’à l’arrivée des Espagnols et des épidémies.",
+      "evenements": [{ "annee": 1540, "evenement": "Bataille de Mabila" }]
+    }
+  ],
+  "regimes": [{ "id": "chefferies", "nom": "Chefferies", "debut": 800, "fin": 1600 }],
+  "dirigeants": [],
+  "personnages": [
+    {
+      "nom": "Tascalusa",
+      "role": "Chef mississippien",
+      "description": "Chef d’une puissante chefferie de l’Alabama, il tend une embuscade aux Espagnols à Mabila en 1540.",
+      "dates": "? → 1540",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Tuskaloosa"
+    },
+    {
+      "nom": "Hernando de Soto",
+      "role": "Conquistador espagnol",
+      "description": "Il traverse de 1539 à 1542 le sud-est des États-Unis à la recherche d’or.",
+      "dates": "vers 1500 → 1542",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Hernando_de_Soto"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Bataille de Mabila",
+      "annee": 1540,
+      "adversaires": ["Expédition espagnole d’Hernando de Soto"],
+      "allies": [],
+      "morts": "Plusieurs milliers de guerriers, selon les chroniques espagnoles",
+      "vainqueur": "Espagnols",
+      "consequences": "Les guerriers du chef Tascalusa attaquent les Espagnols dans la ville fortifiée de Mabila ; les Espagnols incendient la ville. Leur expédition, très affaiblie, poursuit sa route en semant la violence et les maladies.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Battle_of_Mabila"
+    }
+  ],
+  "sciences": "Les Mississippiens déplacent des millions de paniers de terre pour construire leurs tertres ; le Monks Mound de Cahokia est le plus grand ouvrage de terre des Amériques. À Cahokia, des cercles de grands poteaux de bois, appelés « Woodhenge », servaient sans doute de calendrier solaire. Ils cultivent le maïs, les haricots et les courges dans les plaines inondables.",
+  "croyancesText": "Les chefs sont associés au Soleil et au feu sacré. Les objets de cuivre et de coquillage montrent des personnages ailés, comme l’« homme-oiseau » ou le danseur faucon, signes d’une religion commune dans tout le sud-est. À Cahokia, des sépultures accompagnées de sacrifices humains ont été retrouvées sous le tertre 72.",
+  "diplomatie": "Les chefferies échangent sur de longues distances : le cuivre des Grands Lacs, les coquillages du golfe du Mexique et la pierre de régions lointaines arrivent jusqu’à Cahokia. Elles se font aussi la guerre, comme le montrent les palissades qui entourent les villes.",
+  "societe": "La société est hiérarchisée : les chefs et leurs familles vivent au sommet des tertres, tandis que la plupart des gens sont des paysans. Les grands centres accueillent des fêtes qui rassemblent des milliers de personnes.",
+  "economie": "Culture du maïs, des haricots et des courges, chasse, pêche ; échanges de cuivre, de coquillages et d’objets de prestige.",
+  "arts": "Plaques de cuivre repoussé, gorgerins de coquillage gravés, statuettes de pierre, poteries en forme d’animaux et de têtes humaines.",
+  "quotidien": "Le chunkey, un jeu où l’on lance une lance vers une pierre en forme de disque qui roule, attire de nombreux spectateurs et joueurs.",
+  "heritage": [
+    {
+      "titre": "Cahokia",
+      "texte": "Le site de Cahokia est inscrit au patrimoine mondial de l’UNESCO depuis 1982."
+    },
+    {
+      "titre": "Les peuples du Sud-Est",
+      "texte": "Des peuples comme les Creeks, les Choctaws ou les Natchez sont en partie les héritiers des chefferies mississippiennes."
+    }
+  ],
+  "aSavoir": ["Selon certaines estimations, Cahokia était vers 1100 aussi peuplée que Londres à la même époque."],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Civilisation_du_Mississippi",
+    {
+      "titre": "Encyclopædia Britannica — Mississippian culture",
+      "url": "https://www.britannica.com/topic/Mississippian-culture"
+    }
+  ]
+}

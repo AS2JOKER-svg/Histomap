@@ -1,0 +1,16 @@
+{
+  "id": "lautaro",
+  "nom": "Lautaro",
+  "role": "Chef de guerre mapuche",
+  "roles": ["Toqui", "Chef de guerre"],
+  "dates": "vers 1534 → 1557",
+  "mort": 1557,
+  "description": "Jeune Mapuche capturé et employé comme palefrenier par le conquistador Pedro de Valdivia, il apprend les techniques espagnoles avant de retourner auprès des siens et de les mener à la victoire.",
+  "essentiel": [
+    "Il observe comment les Espagnols combattent et soignent leurs chevaux.",
+    "Élu chef de guerre, il bat les Espagnols à Tucapel en 1553 ; Valdivia est tué.",
+    "Il organise ses guerriers en vagues successives pour épuiser la cavalerie ennemie.",
+    "Il est tué en 1557 lors d’une attaque surprise ; il est un héros national au Chili."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Lautaro"
+}

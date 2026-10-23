@@ -1,0 +1,188 @@
+{
+  "documentaires": [],
+  "decouvertes": ["zemi"],
+  "id": "tainos",
+  "label": "Taïnos",
+  "tier": 2,
+  "region": "amerique-centrale-caraibes",
+  "period": "vers 1000 à 1550",
+  "start": 1000,
+  "end": 1550,
+  "color": "#00acc1",
+  "trackId": "caraibes",
+  "row": 6,
+  "isRiver": false,
+  "capitale": "Aucune (des chefferies)",
+  "description": "Le peuple des Grandes Antilles (Hispaniola, Cuba, Porto Rico, Jamaïque, Bahamas), le premier rencontré par Christophe Colomb en 1492, presque anéanti en quelques décennies par la colonisation espagnole.",
+  "territories": ["Taino"],
+  "reperes": {
+    "capitale": { "valeur": "Aucune", "precision": "cinq grandes chefferies (cacicazgos) se partagent Hispaniola en 1492" },
+    "regimes": { "valeur": "Chefferies", "precision": "dirigées par des caciques, hommes ou femmes" },
+    "langues": { "valeur": "Taïno", "precision": "une langue arawak, venue d’Amérique du Sud" },
+    "religion": {
+      "valeur": "Culte des zemís",
+      "precision": "esprits des ancêtres et de la nature, représentés par des statuettes"
+    },
+    "apogee": { "valeur": "XVe siècle" },
+    "population": { "valeur": "Plusieurs centaines de milliers en 1492", "precision": "les estimations varient fortement" },
+    "monnaie": { "valeur": "Aucune" },
+    "duree": { "valeur": "Environ 550 ans" },
+    "aujourdhui": {
+      "valeur": "Grandes Antilles",
+      "precision": "Haïti, République dominicaine, Cuba, Porto Rico, Jamaïque, Bahamas"
+    }
+  },
+  "essentiel": [
+    "Venus d’Amérique du Sud en pirogue au cours des siècles précédents, les ancêtres des Taïnos peuplent les Grandes Antilles ; leur culture s’affirme vers l’an 1000.",
+    "Ils vivent dans des villages dirigés par des caciques, cultivent le manioc et honorent des esprits, les [[zemi|zemís]].",
+    "En 1492, ce sont eux que rencontre [[christophe-colomb|Christophe Colomb]] lors de son [[premier-voyage-de-colomb|premier voyage]].",
+    "La colonisation espagnole les soumet au travail forcé ; des chefs comme [[anacaona|Anacaona]] et [[hatuey|Hatuey]] résistent et sont exécutés.",
+    "En quelques décennies, la violence, le travail forcé et surtout les épidémies font presque disparaître les Taïnos ; leur héritage survit dans des mots, des gènes et des traditions."
+  ],
+  "datesCles": [
+    {
+      "annee": 1000,
+      "evenement": "Culture taïno",
+      "info": "Vers l’an 1000, la culture taïno s’affirme à Hispaniola et à Porto Rico."
+    },
+    {
+      "annee": 1492,
+      "evenement": "Christophe Colomb",
+      "info": "Colomb aborde les Bahamas puis Hispaniola, où il est accueilli par le cacique Guacanagarí.",
+      "ref": "premier-voyage-de-colomb"
+    },
+    {
+      "annee": 1495,
+      "evenement": "Vega Real",
+      "info": "Les Espagnols battent une coalition de caciques à Hispaniola."
+    },
+    {
+      "annee": 1503,
+      "evenement": "Anacaona",
+      "info": "Le gouverneur Ovando fait massacrer les chefs de Jaragua ; la cacica Anacaona est arrêtée, puis exécutée."
+    },
+    {
+      "annee": 1512,
+      "evenement": "Hatuey",
+      "info": "Le chef Hatuey, qui résistait aux Espagnols à Cuba, est brûlé vif."
+    },
+    {
+      "annee": 1519,
+      "evenement": "Enriquillo",
+      "info": "Le cacique Enriquillo se révolte dans les montagnes d’Hispaniola."
+    },
+    {
+      "annee": 1533,
+      "evenement": "Paix d’Enriquillo",
+      "info": "Les Espagnols signent la paix avec Enriquillo, qui obtient la liberté pour les siens."
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "Les chefferies taïnos",
+      "debut": 1000,
+      "fin": 1492,
+      "resume": "Les Taïnos peuplent les Grandes Antilles, organisés en chefferies, et commercent d’île en île en pirogue.",
+      "evenements": [{ "annee": 1000, "evenement": "Affirmation de la culture taïno" }]
+    },
+    {
+      "nom": "La conquête",
+      "debut": 1492,
+      "fin": 1550,
+      "resume": "L’arrivée des Espagnols entraîne la guerre, le travail forcé et des épidémies qui font presque disparaître les Taïnos.",
+      "evenements": [
+        { "annee": 1492, "evenement": "Arrivée de Colomb", "ref": "premier-voyage-de-colomb" },
+        { "annee": 1503, "evenement": "Massacre de Jaragua" },
+        { "annee": 1519, "evenement": "Révolte d’Enriquillo" }
+      ]
+    }
+  ],
+  "regimes": [{ "id": "chefferies", "nom": "Chefferies (cacicazgos)", "debut": 1000, "fin": 1550 }],
+  "dirigeants": [],
+  "personnages": [
+    {
+      "nom": "Anacaona",
+      "role": "Cacica de Jaragua",
+      "description": "Poétesse et cheffe de la région de Jaragua, exécutée par les Espagnols.",
+      "dates": "vers 1474 → 1504",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Anacaona",
+      "ref": "anacaona"
+    },
+    {
+      "nom": "Hatuey",
+      "role": "Cacique",
+      "description": "Venu d’Hispaniola, il organise la résistance à Cuba ; il est brûlé vif en 1512.",
+      "dates": "? → 1512",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Hatuey",
+      "ref": "hatuey"
+    },
+    {
+      "nom": "Enriquillo",
+      "role": "Cacique",
+      "description": "Il mène une révolte de quatorze ans dans les montagnes d’Hispaniola et obtient la paix.",
+      "dates": "vers 1496 → 1535",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Enriquillo"
+    },
+    {
+      "nom": "Bartolomé de las Casas",
+      "role": "Religieux espagnol",
+      "description": "Ancien colon devenu dominicain, il dénonce les violences faites aux Taïnos.",
+      "dates": "1484 → 1566",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bartolom%C3%A9_de_las_Casas"
+    },
+    {
+      "nom": "Christophe Colomb",
+      "role": "Navigateur",
+      "description": "Il aborde les îles des Taïnos en 1492.",
+      "dates": "1451 → 1506",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Christophe_Colomb",
+      "ref": "christophe-colomb"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Conquête espagnole d’Hispaniola",
+      "annee": 1495,
+      "adversaires": ["Espagnols (Christophe Colomb, puis Nicolás de Ovando)"],
+      "allies": [],
+      "morts": "Inconnues ; des dizaines de milliers de victimes, épidémies comprises",
+      "vainqueur": "Espagnols",
+      "consequences": "Après leur victoire de la Vega Real (1495), les Espagnols imposent tributs et travail forcé. En 1503, le gouverneur Ovando fait massacrer les chefs de Jaragua ; les dernières chefferies sont soumises.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Battle_of_Vega_Real"
+    },
+    {
+      "nom": "Révolte d’Enriquillo",
+      "annee": 1519,
+      "adversaires": ["Colons espagnols d’Hispaniola"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Enriquillo (paix signée en 1533)",
+      "consequences": "Retranché dans les montagnes du Bahoruco, Enriquillo résiste pendant quatorze ans ; en 1533, les Espagnols lui accordent la paix et la liberté pour ses compagnons.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Enriquillo"
+    }
+  ],
+  "sciences": "Les Taïnos cultivent le manioc sur des buttes de terre, les conucos, et savent retirer le poison de certaines variétés pour fabriquer des galettes, la cassave. Ils construisent de grandes pirogues creusées dans un tronc, capables de transporter des dizaines de personnes d’île en île. Ils dorment dans des hamacs, une invention qu’ils transmettent aux Européens.",
+  "croyancesText": "Les Taïnos honorent les zemís, des esprits des ancêtres et de la nature, représentés par des statuettes de pierre, de bois ou de coton. Lors de la cérémonie de la cohoba, le cacique et les chamanes inhalent une poudre qui leur permet, croient-ils, de communiquer avec les esprits.",
+  "diplomatie": "Les chefferies d’une même île s’allient par mariage et se rendent visite lors de fêtes et de jeux de balle. Les Taïnos commercent en pirogue entre les îles et doivent parfois se défendre contre les Kalinagos (Caraïbes) des Petites Antilles. En 1492, plusieurs caciques accueillent d’abord pacifiquement les Espagnols.",
+  "societe": "Les villages sont dirigés par des caciques, qui peuvent être des hommes ou des femmes, entourés de nobles (nitaínos) et de chamanes (behiques). La plupart des Taïnos sont des cultivateurs et des pêcheurs.",
+  "economie": "Culture du manioc, du maïs, de la patate douce et du coton ; pêche ; artisanat du bois, du coton et de la pierre.",
+  "arts": "Statuettes de zemís, sièges de cérémonie sculptés (duhos), pétroglyphes, colliers de coquillages.",
+  "quotidien": "Sur la place du village, le batey, on joue à un jeu de balle où il faut garder la balle en l’air sans utiliser les mains ni les pieds.",
+  "heritage": [
+    {
+      "titre": "Des mots taïnos",
+      "texte": "Des mots comme hamac, ouragan, canoë, barbecue, maïs, savane ou cacique viennent de la langue des Taïnos."
+    },
+    {
+      "titre": "Un héritage vivant",
+      "texte": "Des études génétiques montrent qu’une partie importante des Portoricains, des Dominicains et des Cubains ont des ancêtres taïnos."
+    }
+  ],
+  "aSavoir": [
+    "Selon Las Casas, avant d’être brûlé, Hatuey refusa le baptême en apprenant que les Espagnols iraient aussi au paradis."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Ta%C3%AFnos",
+    { "titre": "Encyclopædia Britannica — Taino", "url": "https://www.britannica.com/topic/Taino" }
+  ]
+}

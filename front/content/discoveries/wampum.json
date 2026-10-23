@@ -1,0 +1,18 @@
+{
+  "id": "wampum",
+  "nom": "Wampum",
+  "domaine": "Diplomatie",
+  "dates": "avant 1600 → aujourd’hui",
+  "description": "Des perles taillées dans des coquillages blancs et violets, enfilées en colliers ou tissées en ceintures, qui servent à sceller les traités et à garder la mémoire des accords.",
+  "sections": [
+    {
+      "titre": "Des documents de perles",
+      "texte": "Les motifs des ceintures rappellent le contenu d’un accord ; des gardiens du wampum apprennent à les « lire ». La ceinture de Hiawatha représente les cinq nations reliées entre elles."
+    },
+    {
+      "titre": "Une monnaie ?",
+      "texte": "Au XVIIe siècle, les colons européens utilisent le wampum comme monnaie dans leurs échanges avec les autochtones."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Wampum"
+}

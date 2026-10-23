@@ -1,0 +1,15 @@
+{
+  "id": "hiawatha",
+  "nom": "Hiawatha",
+  "role": "Cofondateur de la Confédération iroquoise",
+  "roles": ["Chef", "Orateur"],
+  "dates": "tradition",
+  "description": "Selon la tradition haudenosaunee, chef qui aide le Pacificateur à unir cinq nations par la Grande Loi de la paix.",
+  "essentiel": [
+    "Selon le récit traditionnel, il perd ses filles pendant les guerres et erre, plongé dans le chagrin.",
+    "Le Pacificateur le console, et Hiawatha devient son porte-parole.",
+    "Ensemble, ils convainquent les nations, et même le redoutable chef Tadodaho, d’accepter la paix.",
+    "La ceinture de wampum dite « de Hiawatha », qui représente les cinq nations, est devenue le drapeau de la confédération."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Hiawatha"
+}

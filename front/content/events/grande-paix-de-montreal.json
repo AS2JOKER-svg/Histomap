@@ -1,0 +1,19 @@
+{
+  "id": "grande-paix-de-montreal",
+  "nom": "Grande Paix de Montréal",
+  "annee": 1701,
+  "dates": "4 août 1701",
+  "lieu": "Montréal (Nouvelle-France)",
+  "description": "Un traité de paix conclu entre la Nouvelle-France et une quarantaine de nations autochtones, dont les Haudenosaunee, qui met fin à près d’un siècle de guerres.",
+  "sections": [
+    {
+      "titre": "Une grande assemblée",
+      "texte": "Plus de 1 300 représentants autochtones se réunissent à Montréal avec le gouverneur Louis-Hector de Callière ; les nations signent le traité en dessinant l’animal de leur clan."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Les Haudenosaunee promettent de rester neutres dans les guerres entre Français et Anglais, ce qui renforce leur rôle d’arbitre entre les deux empires."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Grande_paix_de_Montr%C3%A9al"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "anawrahta",
+  "nom": "Anawrahta",
+  "role": "Roi de Pagan",
+  "roles": ["Roi"],
+  "dates": "1014 → 1077",
+  "naissance": 1014,
+  "mort": 1077,
+  "description": "Roi de Pagan de 1044 à 1077, il unifie pour la première fois la vallée de l’Irrawaddy : il est considéré comme le fondateur de la Birmanie.",
+  "reperes": [{ "label": "Règne", "valeur": "1044 → 1077" }],
+  "essentiel": [
+    "Il soumet les principautés voisines et conquiert, selon les chroniques, le royaume môn de Thaton.",
+    "Il fait du bouddhisme theravada la religion du royaume.",
+    "Il fait construire des digues et des canaux pour irriguer les rizières.",
+    "Il lance la construction de la pagode Shwezigon."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Anawrahta"
+}

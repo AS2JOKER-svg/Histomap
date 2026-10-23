@@ -1,0 +1,213 @@
+{
+  "documentaires": [],
+  "decouvertes": ["temples-de-bagan", "inscription-de-myazedi"],
+  "id": "pagan",
+  "label": "Royaume de Pagan",
+  "tier": 2,
+  "region": "asie-sud-est-continentale",
+  "period": "849 à 1297",
+  "start": 849,
+  "end": 1297,
+  "color": "#6d4c41",
+  "trackId": "birmanie",
+  "row": 6,
+  "isRiver": false,
+  "capitale": "Pagan (Bagan)",
+  "description": "Le premier royaume à unifier la vallée de l’Irrawaddy, en Birmanie (Myanmar), célèbre pour les milliers de temples bouddhistes de sa capitale, Pagan.",
+  "territories": ["Pagan", "Kingdom of Pagan", "Bagan"],
+  "reperes": {
+    "capitale": { "valeur": "Pagan (Bagan)", "precision": "au bord du fleuve Irrawaddy, dans le centre de la Birmanie" },
+    "regimes": { "valeur": "Monarchie" },
+    "langues": {
+      "valeur": "Birman ancien, môn, pali",
+      "precision": "l’écriture birmane naît à cette époque, à partir de l’écriture môn"
+    },
+    "religion": { "valeur": "Bouddhisme theravada", "precision": "avec des éléments hindous et le culte des esprits (nats)" },
+    "apogee": { "valeur": "XIe → XIIIe siècle" },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": {
+      "valeur": "Argent pesé",
+      "precision": "pas de pièces : on paie avec des lingots d’argent, du riz ou des tissus"
+    },
+    "duree": { "valeur": "Environ 450 ans" },
+    "aujourdhui": { "valeur": "Birmanie (Myanmar)" }
+  },
+  "essentiel": [
+    "Selon les chroniques birmanes, la ville de Pagan est fortifiée en 849 au bord de l’Irrawaddy.",
+    "Au XIe siècle, le roi [[anawrahta|Anawrahta]] unifie la vallée de l’Irrawaddy et fait du bouddhisme theravada la religion du royaume.",
+    "Pendant deux siècles et demi, rois, nobles et riches habitants font construire plus de 10 000 [[temples-de-bagan|temples et stupas]] dans la plaine de Pagan.",
+    "L’écriture birmane apparaît à cette époque ; une inscription en quatre langues, la [[inscription-de-myazedi|stèle de Myazedi]] (1113), aide aujourd’hui à comprendre les langues anciennes.",
+    "À la fin du XIIIe siècle, les invasions mongoles affaiblissent le royaume, qui se disloque ; le dernier roi est renversé en 1297."
+  ],
+  "datesCles": [
+    {
+      "annee": 849,
+      "evenement": "Fondation",
+      "info": "Date traditionnelle de la construction des remparts de Pagan."
+    },
+    { "annee": 1044, "evenement": "Anawrahta", "info": "Début du règne du roi qui unifie la Birmanie." },
+    {
+      "annee": 1057,
+      "evenement": "Thaton",
+      "info": "Selon les chroniques, Anawrahta conquiert le royaume môn de Thaton et en ramène moines et textes bouddhistes."
+    },
+    {
+      "annee": 1105,
+      "evenement": "Temple d’Ananda",
+      "info": "Le roi Kyansittha achève l’un des plus beaux temples de Pagan."
+    },
+    {
+      "annee": 1113,
+      "evenement": "Stèle de Myazedi",
+      "info": "Une inscription est gravée en quatre langues : pyu, môn, birman ancien et pali."
+    },
+    { "annee": 1277, "evenement": "Ngasaunggyan", "info": "L’armée de Pagan est battue par les Mongols." },
+    { "annee": 1287, "evenement": "Invasion mongole", "info": "Les Mongols envahissent le royaume, qui s’effondre." },
+    {
+      "annee": 1297,
+      "evenement": "Fin",
+      "info": "Le dernier roi, Kyawswa, est renversé par trois frères, chefs militaires."
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "Une cité-État",
+      "debut": 849,
+      "fin": 1044,
+      "resume": "Pagan n’est qu’une principauté parmi d’autres dans la vallée de l’Irrawaddy.",
+      "evenements": [{ "annee": 849, "evenement": "Fondation" }]
+    },
+    {
+      "nom": "L’empire de Pagan",
+      "debut": 1044,
+      "fin": 1287,
+      "resume": "Les rois unifient la Birmanie, diffusent le bouddhisme theravada et couvrent la plaine de temples.",
+      "evenements": [
+        { "annee": 1057, "evenement": "Conquête de Thaton" },
+        { "annee": 1105, "evenement": "Temple d’Ananda" },
+        { "annee": 1113, "evenement": "Stèle de Myazedi" }
+      ]
+    },
+    {
+      "nom": "La chute",
+      "debut": 1287,
+      "fin": 1297,
+      "resume": "Les invasions mongoles et les révoltes font éclater le royaume.",
+      "evenements": [{ "annee": 1287, "evenement": "Invasion mongole" }, { "annee": 1297, "evenement": "Renversement du dernier roi" }]
+    }
+  ],
+  "regimes": [{ "id": "monarchie", "nom": "Monarchie", "debut": 849, "fin": 1297 }],
+  "dynasties": [{ "id": "pagan", "nom": "Les rois de Pagan", "debut": 849, "fin": 1297, "note": "Sélection." }],
+  "dirigeants": [
+    {
+      "nom": "Anawrahta",
+      "titre": "Roi",
+      "debut": 1044,
+      "fin": 1077,
+      "dynastie": "pagan",
+      "personne": "anawrahta",
+      "cle": true
+    },
+    { "nom": "Sawlu", "titre": "Roi", "debut": 1077, "fin": 1084, "dynastie": "pagan" },
+    {
+      "nom": "Kyansittha",
+      "titre": "Roi",
+      "debut": 1084,
+      "fin": 1112,
+      "dynastie": "pagan",
+      "note": "fait bâtir le temple d’Ananda",
+      "cle": true
+    },
+    { "nom": "Alaungsithu", "titre": "Roi", "debut": 1112, "fin": 1167, "dynastie": "pagan", "cle": true },
+    {
+      "nom": "Narapatisithu",
+      "titre": "Roi",
+      "debut": 1174,
+      "fin": 1211,
+      "dynastie": "pagan",
+      "note": "apogée du royaume",
+      "cle": true
+    },
+    { "nom": "Htilominlo", "titre": "Roi", "debut": 1211, "fin": 1235, "dynastie": "pagan" },
+    {
+      "nom": "Narathihapate",
+      "titre": "Roi",
+      "debut": 1256,
+      "fin": 1287,
+      "dynastie": "pagan",
+      "note": "fuit devant les Mongols",
+      "cle": true
+    },
+    { "nom": "Kyawswa", "titre": "Roi", "debut": 1289, "fin": 1297, "dynastie": "pagan", "note": "dernier roi" }
+  ],
+  "personnages": [
+    {
+      "nom": "Anawrahta",
+      "role": "Roi",
+      "description": "Le fondateur de l’empire de Pagan.",
+      "dates": "1014 → 1077",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Anawrahta",
+      "ref": "anawrahta"
+    },
+    {
+      "nom": "Shin Arahan",
+      "role": "Moine bouddhiste",
+      "description": "Moine môn qui, selon la tradition, convertit Anawrahta au bouddhisme theravada.",
+      "dates": "1034 → 1115",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Shin_Arahan"
+    },
+    {
+      "nom": "Kyansittha",
+      "role": "Roi",
+      "description": "Général d’Anawrahta devenu roi, bâtisseur du temple d’Ananda.",
+      "dates": "1030 → 1112",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Kyanzittha"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Conquête de Thaton",
+      "annee": 1057,
+      "adversaires": ["Royaume môn de Thaton"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Pagan",
+      "consequences": "Selon les chroniques, Anawrahta prend Thaton et ramène à Pagan des moines, des textes bouddhistes et des artisans môns. Les historiens discutent aujourd’hui l’importance de cet épisode.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Thaton_kingdom"
+    },
+    {
+      "nom": "Invasions mongoles de la Birmanie",
+      "annee": 1277,
+      "adversaires": ["Empire mongol de Chine (Kubilai Khan)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Empire mongol",
+      "consequences": "Après la défaite de Ngasaunggyan (1277), les Mongols envahissent la Birmanie en 1287 : le royaume de Pagan s’effondre et se divise en principautés.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/First_Mongol_invasion_of_Burma"
+    }
+  ],
+  "sciences": "Les bâtisseurs de Pagan maîtrisent la voûte et l’arc en brique, rares en Asie du Sud-Est à cette époque, ce qui leur permet de construire de grands temples avec des couloirs intérieurs. Ils développent des réseaux d’irrigation, notamment dans la plaine de Kyaukse, véritable grenier à riz du royaume.",
+  "croyancesText": "Le bouddhisme theravada devient la religion principale, mais les rois honorent aussi des divinités hindoues, et la population continue de vénérer les nats, des esprits protecteurs. Faire construire un temple ou un stupa est un acte de mérite, qui assure une meilleure renaissance.",
+  "diplomatie": "Pagan entretient des liens étroits avec Sri Lanka, autre grand foyer du bouddhisme theravada, et envoie des moines y étudier. Il commerce avec l’Inde et la Chine. Il refuse de reconnaître l’autorité de Kubilai Khan, ce qui provoque les invasions mongoles.",
+  "societe": "Une grande partie des terres et des travailleurs appartient aux monastères, grâce aux dons des fidèles. À la longue, ces dons exemptés d’impôts appauvrissent le trésor royal.",
+  "economie": "Riziculture irriguée, commerce le long de l’Irrawaddy et avec l’Inde ; donations aux monastères.",
+  "arts": "Temples d’Ananda, de Thatbyinnyu et de Dhammayangyi, pagode Shwezigon, peintures murales, laques.",
+  "quotidien": "Les inscriptions des donateurs, gravées dans les temples, énumèrent les terres, les esclaves, le bétail et les objets offerts : elles nous renseignent sur la vie quotidienne de l’époque.",
+  "heritage": [
+    {
+      "titre": "Bagan",
+      "texte": "Plus de 2 000 monuments subsistent dans la plaine de Bagan, inscrite au patrimoine mondial de l’UNESCO en 2019."
+    },
+    {
+      "titre": "L’écriture birmane",
+      "texte": "L’écriture née à Pagan, aux lettres arrondies, est toujours celle de la Birmanie."
+    }
+  ],
+  "aSavoir": [
+    "Le roi Narathihapate est resté dans les chroniques sous le surnom de « roi qui s’enfuit devant les Chinois » (en fait, les Mongols de Chine)."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Royaume_de_Pagan",
+    { "titre": "Encyclopædia Britannica — Pagan dynasty", "url": "https://www.britannica.com/topic/Pagan-dynasty" }
+  ]
+}

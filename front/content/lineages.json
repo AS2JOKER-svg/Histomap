@@ -208,5 +208,15 @@
       "zimbabwe-civilisation",
       "monomotapa"
     ]
+  },
+  {
+    "id": "indonesie",
+    "label": "Indonésie",
+    "color": "#009688",
+    "members": [
+      "srivijaya",
+      "majapahit",
+      "indonesie"
+    ]
   }
 ]

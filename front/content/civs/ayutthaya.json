@@ -1,0 +1,254 @@
+{
+  "documentaires": [],
+  "decouvertes": [],
+  "id": "ayutthaya",
+  "label": "Royaume d’Ayutthaya",
+  "tier": 2,
+  "region": "asie-sud-est-continentale",
+  "period": "1351 à 1767",
+  "start": 1351,
+  "end": 1767,
+  "color": "#7cb342",
+  "trackId": "siam",
+  "row": 10,
+  "isRiver": false,
+  "capitale": "Ayutthaya",
+  "description": "Le royaume siamois qui domine pendant quatre siècles la vallée de la Chao Phraya, en Thaïlande, grand carrefour commercial ouvert à l’Asie et à l’Europe, jusqu’à sa destruction par les Birmans en 1767.",
+  "territories": ["Ayutthaya"],
+  "reperes": {
+    "capitale": { "valeur": "Ayutthaya", "precision": "sur une île au confluent de trois rivières, au nord de Bangkok" },
+    "regimes": {
+      "valeur": "Monarchie",
+      "precision": "le roi est à la fois protecteur du bouddhisme et souverain sacré, à la manière des rois khmers"
+    },
+    "langues": { "valeur": "Thaï (siamois)", "precision": "le pali et le khmer sont aussi utilisés à la cour" },
+    "religion": { "valeur": "Bouddhisme theravada" },
+    "apogee": { "valeur": "Règne de Narai (1656 → 1688)" },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": { "valeur": "Pièces d’argent en forme de balle (pod duang)" },
+    "duree": { "valeur": "Plus de 400 ans" },
+    "aujourdhui": { "valeur": "Thaïlande" }
+  },
+  "essentiel": [
+    "En 1351, le roi Ramathibodi Ier fonde Ayutthaya sur une île au confluent de trois rivières : le royaume siamois s’étend bientôt sur la vallée de la Chao Phraya.",
+    "En 1431, ses armées prennent Angkor : la cour khmère [[abandon-d-angkor|abandonne sa capitale]]. Ayutthaya absorbe aussi le royaume voisin de Sukhothai.",
+    "Ayutthaya devient l’un des grands ports d’Asie, où vivent des marchands chinois, japonais, perses, portugais, hollandais et français.",
+    "Il affronte souvent la Birmanie : vaincu en 1569, il retrouve son indépendance grâce au roi [[naresuan|Naresuan]] ; sous le roi Narai, il échange des [[ambassade-du-siam-en-france|ambassades avec Louis XIV]].",
+    "En 1767, l’armée birmane prend et détruit Ayutthaya ; le général Taksin reconstitue le royaume, dont la capitale deviendra Bangkok."
+  ],
+  "datesCles": [
+    { "annee": 1351, "evenement": "Fondation", "info": "Ramathibodi Ier fonde Ayutthaya." },
+    {
+      "annee": 1431,
+      "evenement": "Angkor",
+      "info": "Les armées d’Ayutthaya prennent Angkor ; la cour khmère part vers le sud.",
+      "ref": "abandon-d-angkor"
+    },
+    { "annee": 1438, "evenement": "Sukhothai", "info": "Le royaume de Sukhothai est rattaché à Ayutthaya." },
+    {
+      "annee": 1569,
+      "evenement": "Défaite face à la Birmanie",
+      "info": "L’armée birmane du roi Bayinnaung prend Ayutthaya, qui devient vassale."
+    },
+    { "annee": 1584, "evenement": "Indépendance", "info": "Le prince Naresuan proclame l’indépendance du Siam." },
+    {
+      "annee": 1686,
+      "evenement": "Ambassade en France",
+      "info": "Une ambassade siamoise est reçue par Louis XIV à Versailles.",
+      "ref": "ambassade-du-siam-en-france"
+    },
+    { "annee": 1767, "evenement": "Chute", "info": "L’armée birmane prend et détruit Ayutthaya." }
+  ],
+  "periodes": [
+    {
+      "nom": "La formation",
+      "debut": 1351,
+      "fin": 1488,
+      "resume": "Ayutthaya s’impose face aux Khmers et à Sukhothai ; le roi Trailokanat organise l’administration.",
+      "evenements": [
+        { "annee": 1431, "evenement": "Prise d’Angkor", "ref": "abandon-d-angkor" },
+        { "annee": 1438, "evenement": "Rattachement de Sukhothai" }
+      ]
+    },
+    {
+      "nom": "Face à la Birmanie",
+      "debut": 1488,
+      "fin": 1605,
+      "resume": "Les guerres contre la Birmanie se multiplient ; Ayutthaya est vaincue, puis libérée par Naresuan.",
+      "evenements": [
+        { "annee": 1569, "evenement": "Prise d’Ayutthaya par les Birmans" },
+        { "annee": 1593, "evenement": "Victoire de Nong Sarai" }
+      ]
+    },
+    {
+      "nom": "Un grand port d’Asie",
+      "debut": 1605,
+      "fin": 1767,
+      "resume": "Le royaume prospère grâce au commerce avec l’Asie et l’Europe, avant d’être détruit par les Birmans.",
+      "evenements": [
+        { "annee": 1686, "evenement": "Ambassade à Versailles", "ref": "ambassade-du-siam-en-france" },
+        { "annee": 1767, "evenement": "Destruction d’Ayutthaya" }
+      ]
+    }
+  ],
+  "regimes": [{ "id": "monarchie", "nom": "Monarchie", "debut": 1351, "fin": 1767 }],
+  "dynasties": [
+    {
+      "id": "rois",
+      "nom": "Les rois d’Ayutthaya",
+      "debut": 1351,
+      "fin": 1767,
+      "note": "Sélection ; cinq dynasties se succèdent."
+    }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Ramathibodi Ier",
+      "titre": "Roi",
+      "debut": 1351,
+      "fin": 1369,
+      "dynastie": "rois",
+      "note": "fondateur",
+      "cle": true
+    },
+    {
+      "nom": "Borommarachathirat II",
+      "titre": "Roi",
+      "debut": 1424,
+      "fin": 1448,
+      "dynastie": "rois",
+      "note": "prend Angkor",
+      "cle": true
+    },
+    {
+      "nom": "Trailokanat",
+      "titre": "Roi",
+      "debut": 1448,
+      "fin": 1488,
+      "dynastie": "rois",
+      "note": "organise l’administration",
+      "cle": true
+    },
+    { "nom": "Maha Chakkraphat", "titre": "Roi", "debut": 1548, "fin": 1568, "dynastie": "rois" },
+    {
+      "nom": "Naresuan",
+      "titre": "Roi",
+      "debut": 1590,
+      "fin": 1605,
+      "dynastie": "rois",
+      "personne": "naresuan",
+      "cle": true
+    },
+    { "nom": "Prasat Thong", "titre": "Roi", "debut": 1629, "fin": 1656, "dynastie": "rois" },
+    {
+      "nom": "Narai",
+      "titre": "Roi",
+      "debut": 1656,
+      "fin": 1688,
+      "dynastie": "rois",
+      "note": "échange des ambassades avec Louis XIV",
+      "cle": true
+    },
+    { "nom": "Ekkathat", "titre": "Roi", "debut": 1758, "fin": 1767, "dynastie": "rois", "note": "dernier roi" }
+  ],
+  "personnages": [
+    {
+      "nom": "Naresuan",
+      "role": "Roi",
+      "description": "Le roi qui libère Ayutthaya de la domination birmane.",
+      "dates": "1555 → 1605",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Naresuan",
+      "ref": "naresuan"
+    },
+    {
+      "nom": "Constantin Phaulkon",
+      "role": "Ministre",
+      "description": "Aventurier grec devenu ministre du roi Narai, il favorise l’alliance avec la France ; il est exécuté en 1688.",
+      "dates": "1647 → 1688",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Constantin_Phaulkon"
+    },
+    {
+      "nom": "Yamada Nagamasa",
+      "role": "Aventurier japonais",
+      "description": "Chef de la communauté japonaise d’Ayutthaya et de la garde du roi au début du XVIIe siècle.",
+      "dates": "1590 → 1630",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Yamada_Nagamasa"
+    },
+    {
+      "nom": "Taksin",
+      "role": "Général puis roi",
+      "description": "Il chasse les Birmans après 1767 et refonde le royaume à Thonburi.",
+      "dates": "1734 → 1782",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Taksin"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Prise d’Angkor (1431)",
+      "annee": 1431,
+      "adversaires": ["Empire khmer"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Ayutthaya",
+      "consequences": "Après un long siège, les armées d’Ayutthaya prennent Angkor ; la cour khmère s’installe plus au sud, près de Phnom Penh.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Empire_khmer"
+    },
+    {
+      "nom": "Guerre birmano-siamoise (1568-1569)",
+      "annee": 1568,
+      "adversaires": ["Royaume birman de Toungoo (Bayinnaung)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Toungoo",
+      "consequences": "Après un long siège, Ayutthaya est prise en 1569 et devient vassale de la Birmanie pendant quinze ans.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Burmese%E2%80%93Siamese_War_(1568%E2%80%931569)"
+    },
+    {
+      "nom": "Bataille de Nong Sarai",
+      "annee": 1593,
+      "adversaires": ["Royaume birman de Toungoo (prince héritier Mingyi Swa)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Ayutthaya",
+      "consequences": "Selon les chroniques siamoises, Naresuan tue le prince héritier birman en duel, à dos d’éléphant ; la Birmanie renonce pour longtemps à attaquer le Siam.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Battle_of_Nong_Sarai"
+    },
+    {
+      "nom": "Chute d’Ayutthaya (1767)",
+      "annee": 1767,
+      "adversaires": ["Birmanie (dynastie Konbaung)"],
+      "allies": [],
+      "morts": "Des dizaines de milliers de tués et de déportés, selon les estimations",
+      "vainqueur": "Birmanie",
+      "consequences": "Après un siège de plus d’un an, la capitale est prise, pillée et incendiée. Le royaume se reconstitue autour de Thonburi, puis de Bangkok.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Burmese%E2%80%93Siamese_War_(1765%E2%80%931767)"
+    }
+  ],
+  "sciences": "Les Siamois creusent des canaux autour et à travers leur capitale, si nombreux que les voyageurs européens la comparent à Venise. Ils construisent de grands temples en brique couverte de stuc, avec de hautes tours, les prang, inspirées de l’architecture khmère.",
+  "croyancesText": "Le bouddhisme theravada est la religion du royaume ; les jeunes hommes passent souvent quelque temps comme moines. Le roi, protecteur du bouddhisme, s’entoure aussi de rites brahmaniques hérités des Khmers. Les étrangers peuvent pratiquer leur religion : des missionnaires catholiques s’y installent au XVIIe siècle.",
+  "diplomatie": "Ayutthaya accueille des marchands du monde entier, chacun dans son quartier. Le roi Narai échange des ambassades avec Louis XIV : en 1686, les ambassadeurs siamois sont reçus à Versailles. Le royaume envoie des tributs à la Chine et combat souvent la Birmanie.",
+  "societe": "Chaque personne a un rang mesuré en unités de terre, le sakdina, qui fixe ses droits et ses devoirs, du roi jusqu’aux esclaves. Les hommes libres doivent chaque année plusieurs mois de travail ou de service militaire au roi.",
+  "economie": "Exportation de riz, de bois précieux, de peaux de cerf (vendues au Japon) et d’étain ; commerce maritime contrôlé en partie par le roi.",
+  "arts": "Temples Wat Phra Si Sanphet et Wat Chaiwatthanaram, statues de Bouddha en bronze, laques et peintures murales.",
+  "quotidien": "Pendant la saison des pluies, une grande partie des habitants vit et commerce sur des bateaux, sur les canaux de la capitale.",
+  "heritage": [
+    {
+      "titre": "La ville historique",
+      "texte": "Les ruines d’Ayutthaya sont inscrites au patrimoine mondial de l’UNESCO depuis 1991."
+    },
+    {
+      "titre": "La Thaïlande",
+      "texte": "Le Siam, devenu Thaïlande en 1939, est le seul pays d’Asie du Sud-Est à n’avoir jamais été colonisé par les Européens."
+    }
+  ],
+  "aSavoir": [
+    "Dans les ruines du Wat Mahathat, une tête de Bouddha est prise dans les racines d’un arbre, l’une des images les plus célèbres de Thaïlande."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Royaume_d%27Ayutthaya",
+    {
+      "titre": "Encyclopædia Britannica — Ayutthaya kingdom",
+      "url": "https://www.britannica.com/place/Ayutthaya-kingdom"
+    }
+  ]
+}

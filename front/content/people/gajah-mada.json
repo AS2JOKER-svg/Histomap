@@ -1,0 +1,16 @@
+{
+  "id": "gajah-mada",
+  "nom": "Gajah Mada",
+  "role": "Premier ministre de Majapahit",
+  "roles": ["Homme d’État", "Chef de guerre"],
+  "dates": "? → 1364",
+  "mort": 1364,
+  "description": "Premier ministre de Majapahit de 1336 environ à sa mort, il étend l’influence de l’empire sur une grande partie de l’archipel indonésien.",
+  "essentiel": [
+    "Selon la tradition, il fait le serment de ne pas goûter au repos avant d’avoir unifié l’archipel.",
+    "Il mène des expéditions militaires à Bali et dans d’autres îles.",
+    "Il est tenu pour responsable du massacre de la famille royale de Sunda à Bubat, en 1357, ce qui provoque sa disgrâce.",
+    "Il est aujourd’hui un héros national en Indonésie ; une grande université porte son nom."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Gajah_Mada"
+}

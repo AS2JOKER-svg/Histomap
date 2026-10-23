@@ -1,0 +1,17 @@
+{
+  "id": "parameswara",
+  "nom": "Parameswara",
+  "role": "Fondateur de Malacca",
+  "roles": ["Prince", "Souverain"],
+  "dates": "vers 1344 → 1414",
+  "mort": 1414,
+  "description": "Prince malais venu de Sumatra, il fonde Malacca vers 1400 et en fait un port prospère grâce à la protection de la Chine.",
+  "essentiel": [
+    "Chassé de Palembang, puis de Singapour (Temasek), il s’installe sur la côte de la péninsule malaise.",
+    "Il obtient la protection de l’empereur chinois Yongle.",
+    "En 1411, il se rend en Chine avec plus de 500 personnes.",
+    "Les historiens discutent encore de sa conversion à l’islam."
+  ],
+  "liens": [{ "ref": "yongle", "relation": "L’empereur chinois qui le protège" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Parameswara"
+}

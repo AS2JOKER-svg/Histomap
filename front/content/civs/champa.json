@@ -61,7 +61,8 @@
     {
       "annee": 1177,
       "evenement": "Pillage d’Angkor",
-      "info": "La flotte chame remonte le Mékong et pille la capitale khmère."
+      "info": "La flotte chame remonte le Mékong et pille la capitale khmère.",
+      "ref": "sac-d-angkor"
     },
     {
       "annee": 1283,
@@ -91,7 +92,7 @@
       "resume": "Le Champa, riche du commerce maritime, affronte les Khmers, le Đại Việt et les Mongols.",
       "evenements": [
         { "annee": 875, "evenement": "Monastère d’Indrapura" },
-        { "annee": 1177, "evenement": "Pillage d’Angkor" },
+        { "annee": 1177, "evenement": "Pillage d’Angkor", "ref": "sac-d-angkor" },
         { "annee": 1371, "evenement": "Pillage de Thăng Long" }
       ]
     },

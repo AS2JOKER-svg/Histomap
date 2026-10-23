@@ -904,5 +904,53 @@
   "Prise de Vijaya": {
     "coords": [109.05, 13.92],
     "lieu": "Vijaya (Chà Bàn, Vietnam)"
+  },
+  "Invasions mongoles du Đại Việt": {
+    "coords": [106.75, 20.9],
+    "lieu": "Fleuve Bạch Đằng et delta du fleuve Rouge"
+  },
+  "Insurrection de Lam Sơn": {
+    "coords": [105.6, 20.1],
+    "lieu": "Lam Sơn (Thanh Hóa, Vietnam)"
+  },
+  "Bataille de Đống Đa": {
+    "coords": [105.83, 21.01],
+    "lieu": "Près de Thăng Long (Hanoï)"
+  },
+  "Conquête de Thaton": {
+    "coords": [97.37, 16.92],
+    "lieu": "Thaton (sud de la Birmanie)"
+  },
+  "Invasions mongoles de la Birmanie": {
+    "coords": [97.6, 24.4],
+    "lieu": "Nord de la Birmanie (Ngasaunggyan), puis Pagan"
+  },
+  "Invasion mongole de Java": {
+    "coords": [112.38, -7.56],
+    "lieu": "Est de Java (Indonésie)"
+  },
+  "Guerre de Paregreg": {
+    "coords": [113.9, -8.2],
+    "lieu": "Est de Java"
+  },
+  "Prise d’Angkor (1431)": {
+    "coords": [103.87, 13.41],
+    "lieu": "Angkor (Cambodge)"
+  },
+  "Guerre birmano-siamoise (1568-1569)": {
+    "coords": [100.57, 14.36],
+    "lieu": "Ayutthaya (Thaïlande)"
+  },
+  "Bataille de Nong Sarai": {
+    "coords": [100.1, 14.47],
+    "lieu": "Nong Sarai (Suphan Buri, Thaïlande)"
+  },
+  "Chute d’Ayutthaya (1767)": {
+    "coords": [100.58, 14.35],
+    "lieu": "Ayutthaya (Thaïlande)"
+  },
+  "Prise de Malacca (1511)": {
+    "coords": [102.25, 2.19],
+    "lieu": "Malacca (Malaisie)"
   }
 }

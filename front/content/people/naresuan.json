@@ -1,0 +1,18 @@
+{
+  "id": "naresuan",
+  "nom": "Naresuan",
+  "role": "Roi d’Ayutthaya",
+  "roles": ["Roi", "Chef de guerre"],
+  "dates": "1555 → 1605",
+  "naissance": 1555,
+  "mort": 1605,
+  "description": "Roi d’Ayutthaya de 1590 à 1605, il libère le royaume de la domination birmane et l’agrandit.",
+  "reperes": [{ "label": "Règne", "valeur": "1590 → 1605" }],
+  "essentiel": [
+    "Enfant, il est emmené comme otage à la cour de Birmanie.",
+    "En 1584, il proclame l’indépendance du Siam.",
+    "Selon les chroniques, il tue en 1593 le prince héritier birman en duel, à dos d’éléphant.",
+    "Il est honoré en Thaïlande comme l’un des plus grands rois du pays."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Naresuan"
+}

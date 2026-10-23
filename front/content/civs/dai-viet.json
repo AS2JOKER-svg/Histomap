@@ -1,0 +1,339 @@
+{
+  "documentaires": [],
+  "decouvertes": ["van-mieu"],
+  "id": "dai-viet",
+  "label": "Đại Việt",
+  "tier": 1,
+  "region": "asie-sud-est-continentale",
+  "period": "939 à 1802",
+  "start": 939,
+  "end": 1802,
+  "color": "#fbc02d",
+  "trackId": "vietnam",
+  "row": 9,
+  "isRiver": false,
+  "capitale": "Thăng Long (Hanoï)",
+  "description": "Le Vietnam indépendant, du départ des Chinois en 939 à l’unification de 1802 : un royaume qui repousse les Song, les Mongols et les Ming, s’étend vers le sud et adopte le modèle confucéen.",
+  "territories": ["Đại Việt", "Annam"],
+  "reperes": {
+    "capitale": {
+      "valeur": "Thăng Long (Hanoï)",
+      "precision": "Hoa Lư de 968 à 1010 ; Huế devient la capitale des seigneurs Nguyễn, puis du Vietnam unifié"
+    },
+    "regimes": {
+      "valeur": "Monarchie (empereur)",
+      "precision": "les souverains se disent empereurs chez eux, tout en payant tribut à la Chine"
+    },
+    "langues": {
+      "valeur": "Vietnamien",
+      "precision": "écrit en caractères chinois, puis en chữ nôm ; le chinois classique reste la langue de l’administration"
+    },
+    "religion": { "valeur": "Bouddhisme, confucianisme, culte des ancêtres" },
+    "apogee": { "valeur": "Règne de Lê Thánh Tông (1460 → 1497)" },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": { "valeur": "Pièces de cuivre à trou carré" },
+    "duree": { "valeur": "Environ 860 ans" },
+    "aujourdhui": { "valeur": "Vietnam" }
+  },
+  "essentiel": [
+    "Après plus de mille ans de domination chinoise, Ngô Quyền remporte la [[bataille-de-bach-dang|bataille du Bạch Đằng]] (938) et devient roi : le Vietnam est indépendant.",
+    "La dynastie Lý installe la capitale à Thăng Long (Hanoï) en 1010 et fonde le [[van-mieu|temple de la Littérature]], où sont formés les lettrés.",
+    "Sous la dynastie Trần, le général [[tran-hung-dao|Trần Hưng Đạo]] repousse trois invasions mongoles, au XIIIe siècle.",
+    "Après vingt ans d’occupation chinoise des Ming, [[le-loi|Lê Lợi]] libère le pays (1428) ; ses successeurs s’étendent vers le sud aux dépens du Champa.",
+    "Divisé entre seigneurs rivaux à partir du XVIe siècle, puis secoué par la révolte des Tây Sơn, le pays est réunifié en 1802 par Nguyễn Ánh, qui le nomme bientôt Việt Nam."
+  ],
+  "datesCles": [
+    {
+      "annee": 938,
+      "evenement": "Bạch Đằng",
+      "info": "Ngô Quyền détruit une flotte chinoise grâce à des pieux plantés dans le lit du fleuve.",
+      "ref": "bataille-de-bach-dang"
+    },
+    {
+      "annee": 1010,
+      "evenement": "Thăng Long",
+      "info": "Le roi Lý Thái Tổ installe la capitale à Thăng Long, l’actuelle Hanoï."
+    },
+    {
+      "annee": 1070,
+      "evenement": "Temple de la Littérature",
+      "info": "Fondation d’un temple dédié à Confucius, qui devient la première université du pays."
+    },
+    {
+      "annee": 1288,
+      "evenement": "Victoire sur les Mongols",
+      "info": "Trần Hưng Đạo détruit la flotte mongole sur le Bạch Đằng."
+    },
+    { "annee": 1407, "evenement": "Occupation des Ming", "info": "La Chine des Ming envahit et occupe le pays." },
+    {
+      "annee": 1428,
+      "evenement": "Lê Lợi",
+      "info": "Après dix ans de lutte, Lê Lợi chasse les Ming et fonde la dynastie Lê."
+    },
+    { "annee": 1471, "evenement": "Prise de Vijaya", "info": "Lê Thánh Tông prend la capitale du Champa." },
+    {
+      "annee": 1789,
+      "evenement": "Đống Đa",
+      "info": "Le chef tây sơn Quang Trung bat une armée chinoise des Qing près de Thăng Long."
+    },
+    {
+      "annee": 1802,
+      "evenement": "Réunification",
+      "info": "Nguyễn Ánh réunifie le pays et devient l’empereur Gia Long."
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "L’indépendance",
+      "debut": 939,
+      "fin": 1009,
+      "resume": "Les premières dynasties (Ngô, Đinh, Lê antérieurs) consolident l’indépendance et repoussent les Song.",
+      "evenements": [
+        { "annee": 938, "evenement": "Bataille du Bạch Đằng", "ref": "bataille-de-bach-dang" },
+        { "annee": 981, "evenement": "Victoire sur les Song" }
+      ]
+    },
+    {
+      "nom": "Lý et Trần",
+      "debut": 1009,
+      "fin": 1400,
+      "resume": "Deux longues dynasties organisent l’État, développent le bouddhisme et les études confucéennes, et repoussent les Mongols.",
+      "evenements": [
+        { "annee": 1010, "evenement": "Capitale à Thăng Long" },
+        { "annee": 1075, "evenement": "Premiers concours de lettrés" },
+        { "annee": 1288, "evenement": "Victoire sur les Mongols" }
+      ]
+    },
+    {
+      "nom": "Les Lê",
+      "debut": 1400,
+      "fin": 1527,
+      "resume": "Après l’occupation chinoise, la dynastie Lê réforme l’État sur le modèle confucéen et s’étend vers le sud.",
+      "evenements": [{ "annee": 1428, "evenement": "Libération par Lê Lợi" }, { "annee": 1471, "evenement": "Prise de Vijaya" }]
+    },
+    {
+      "nom": "Le pays divisé",
+      "debut": 1527,
+      "fin": 1802,
+      "resume": "Les empereurs Lê ne règnent plus que de nom : les seigneurs Trịnh au nord et Nguyễn au sud se font la guerre, avant la révolte des Tây Sơn.",
+      "evenements": [
+        { "annee": 1627, "evenement": "Guerre entre Trịnh et Nguyễn" },
+        { "annee": 1771, "evenement": "Révolte des Tây Sơn" },
+        { "annee": 1789, "evenement": "Bataille de Đống Đa" }
+      ]
+    }
+  ],
+  "regimes": [{ "id": "monarchie", "nom": "Monarchie (empereur)", "debut": 939, "fin": 1802 }],
+  "dynasties": [
+    {
+      "id": "premieres",
+      "nom": "Les premières dynasties (Ngô, Đinh, Lê antérieurs)",
+      "debut": 939,
+      "fin": 1009,
+      "note": "Sélection."
+    },
+    { "id": "ly", "nom": "Les Lý", "debut": 1009, "fin": 1225, "note": "Sélection." },
+    { "id": "tran", "nom": "Les Trần", "debut": 1225, "fin": 1400, "note": "Sélection." },
+    {
+      "id": "le",
+      "nom": "Les Lê postérieurs",
+      "debut": 1428,
+      "fin": 1789,
+      "note": "Sélection ; après 1533, les empereurs Lê ne règnent plus que de nom."
+    },
+    { "id": "tay-son", "nom": "Les Tây Sơn", "debut": 1778, "fin": 1802, "note": "Sélection." }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Ngô Quyền",
+      "titre": "Roi",
+      "debut": 939,
+      "fin": 944,
+      "dynastie": "premieres",
+      "note": "vainqueur du Bạch Đằng",
+      "cle": true
+    },
+    {
+      "nom": "Đinh Bộ Lĩnh",
+      "titre": "Empereur",
+      "debut": 968,
+      "fin": 979,
+      "dynastie": "premieres",
+      "note": "unifie le pays et se proclame empereur",
+      "cle": true
+    },
+    {
+      "nom": "Lê Hoàn",
+      "titre": "Empereur",
+      "debut": 980,
+      "fin": 1005,
+      "dynastie": "premieres",
+      "note": "repousse les Song"
+    },
+    {
+      "nom": "Lý Thái Tổ",
+      "titre": "Empereur",
+      "debut": 1009,
+      "fin": 1028,
+      "dynastie": "ly",
+      "note": "installe la capitale à Thăng Long",
+      "cle": true
+    },
+    {
+      "nom": "Lý Thánh Tông",
+      "titre": "Empereur",
+      "debut": 1054,
+      "fin": 1072,
+      "dynastie": "ly",
+      "note": "nomme le pays Đại Việt"
+    },
+    { "nom": "Trần Thái Tông", "titre": "Empereur", "debut": 1225, "fin": 1258, "dynastie": "tran" },
+    {
+      "nom": "Trần Nhân Tông",
+      "titre": "Empereur",
+      "debut": 1278,
+      "fin": 1293,
+      "dynastie": "tran",
+      "note": "règne pendant les invasions mongoles",
+      "cle": true
+    },
+    {
+      "nom": "Lê Lợi",
+      "titre": "Empereur",
+      "surnom": "Lê Thái Tổ",
+      "debut": 1428,
+      "fin": 1433,
+      "dynastie": "le",
+      "personne": "le-loi",
+      "cle": true
+    },
+    {
+      "nom": "Lê Thánh Tông",
+      "titre": "Empereur",
+      "debut": 1460,
+      "fin": 1497,
+      "dynastie": "le",
+      "note": "réformes et code de lois",
+      "cle": true
+    },
+    {
+      "nom": "Quang Trung",
+      "titre": "Empereur",
+      "debut": 1788,
+      "fin": 1792,
+      "dynastie": "tay-son",
+      "note": "bat les Qing à Đống Đa",
+      "cle": true
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Trần Hưng Đạo",
+      "role": "Général",
+      "description": "Le vainqueur des Mongols, honoré comme un héros national.",
+      "dates": "vers 1228 → 1300",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Tr%E1%BA%A7n_H%C6%B0ng_%C4%90%E1%BA%A1o",
+      "ref": "tran-hung-dao"
+    },
+    {
+      "nom": "Lê Lợi",
+      "role": "Libérateur et empereur",
+      "description": "Il chasse les Ming et fonde la dynastie Lê.",
+      "dates": "1385 → 1433",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/L%C3%AA_L%E1%BB%A3i",
+      "ref": "le-loi"
+    },
+    {
+      "nom": "Nguyễn Trãi",
+      "role": "Lettré et stratège",
+      "description": "Conseiller de Lê Lợi, il rédige en 1428 la « Grande proclamation de la pacification des Wu », un texte célèbre de l’indépendance vietnamienne.",
+      "dates": "1380 → 1442",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Nguy%E1%BB%85n_Tr%C3%A3i"
+    },
+    {
+      "nom": "Alexandre de Rhodes",
+      "role": "Missionnaire jésuite",
+      "description": "Il contribue à mettre au point l’écriture du vietnamien en alphabet latin, le quốc ngữ.",
+      "dates": "1593 → 1660",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Alexandre_de_Rhodes"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Invasions mongoles du Đại Việt",
+      "annee": 1285,
+      "adversaires": ["Empire mongol de Chine (Kubilai Khan)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Đại Việt",
+      "consequences": "Le Đại Việt repousse trois invasions (1258, 1285, 1287-1288). En 1288, Trần Hưng Đạo détruit la flotte mongole sur le Bạch Đằng, grâce à des pieux plantés dans le fleuve.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Mongol_invasions_of_Vietnam"
+    },
+    {
+      "nom": "Raids de Chế Bồng Nga",
+      "annee": 1371,
+      "adversaires": ["Champa (Chế Bồng Nga)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Champa",
+      "consequences": "Le roi du Champa pille Thăng Long et menace le Đại Việt pendant près de vingt ans, jusqu’à sa mort en 1390.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Champa%E2%80%93%C4%90%E1%BA%A1i_Vi%E1%BB%87t_War_(1367%E2%80%931390)"
+    },
+    {
+      "nom": "Insurrection de Lam Sơn",
+      "annee": 1418,
+      "adversaires": ["Chine des Ming"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Lê Lợi",
+      "consequences": "Après dix ans de guérilla puis de batailles, Lê Lợi oblige les armées des Ming à quitter le pays (1427) et fonde la dynastie Lê.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Lam_S%C6%A1n_uprising"
+    },
+    {
+      "nom": "Prise de Vijaya",
+      "annee": 1471,
+      "adversaires": ["Royaume de Champa"],
+      "allies": [],
+      "morts": "Des dizaines de milliers de tués et de captifs, selon les chroniques",
+      "vainqueur": "Đại Việt",
+      "consequences": "Lê Thánh Tông prend la capitale du Champa et capture son roi. Le Đại Việt annexe le centre du Champa et poursuit son expansion vers le sud.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Champa%E2%80%93%C4%90%E1%BA%A1i_Vi%E1%BB%87t_War_(1471)"
+    },
+    {
+      "nom": "Bataille de Đống Đa",
+      "annee": 1789,
+      "adversaires": ["Chine des Qing"],
+      "allies": [],
+      "morts": "Plusieurs milliers",
+      "vainqueur": "Tây Sơn (Quang Trung)",
+      "consequences": "Pendant la fête du Têt, Quang Trung surprend et met en déroute l’armée chinoise venue rétablir l’empereur Lê ; la Chine renonce à intervenir.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Battle_of_Ng%E1%BB%8Dc_H%E1%BB%93i-%C4%90%E1%BB%91ng_%C4%90a"
+    }
+  ],
+  "sciences": "Les lettrés vietnamiens adaptent les caractères chinois pour écrire leur propre langue : c’est le chữ nôm. Les rois font construire des digues le long du fleuve Rouge pour protéger les rizières des crues. Au XVIIe siècle, des missionnaires catholiques, dont Alexandre de Rhodes, mettent au point une écriture du vietnamien en alphabet latin, le quốc ngữ, utilisée aujourd’hui.",
+  "croyancesText": "Le bouddhisme est très important sous les Lý et les Trần, dont plusieurs rois deviennent moines. Le confucianisme prend ensuite la première place, surtout sous les Lê : il fonde l’éducation, les concours et la morale familiale. Le culte des ancêtres et des génies protecteurs des villages reste au cœur de la vie religieuse ; le catholicisme arrive au XVIe siècle.",
+  "diplomatie": "Le Đại Việt reconnaît symboliquement la supériorité de l’empereur de Chine et lui envoie un tribut, tout en défendant farouchement son indépendance : il repousse les Song, les Mongols, les Ming et les Qing. Au sud, il mène une longue expansion aux dépens du Champa puis des Khmers, appelée la « marche vers le sud ».",
+  "societe": "Le pays est gouverné par des lettrés recrutés par des concours sur les textes confucéens. La plupart des habitants sont des paysans vivant dans des villages autonomes, entourés de haies de bambous, autour de la maison commune (đình).",
+  "economie": "Riziculture irriguée dans le delta du fleuve Rouge, puis plus au sud ; soie, céramique ; commerce avec la Chine, le Japon et les Européens au XVIIe siècle.",
+  "arts": "Temple de la Littérature, pagode au Pilier unique, céramiques de Chu Đậu, théâtre de marionnettes sur l’eau.",
+  "quotidien": "Le théâtre de marionnettes sur l’eau, où les marionnettistes cachés derrière un rideau font évoluer les personnages sur un bassin, existe déjà au XIIe siècle, comme l’atteste une stèle de 1121.",
+  "heritage": [
+    {
+      "titre": "Le lac de l’Épée restituée",
+      "texte": "Selon la légende, Lê Lợi aurait rendu à une tortue géante l’épée magique qui l’avait aidé à vaincre les Ming, dans le lac Hoàn Kiếm, au cœur de Hanoï."
+    },
+    {
+      "titre": "L’écriture du vietnamien",
+      "texte": "Le quốc ngữ, en alphabet latin, est devenu l’écriture officielle du Vietnam au XXe siècle."
+    }
+  ],
+  "aSavoir": ["Le nom de « Việt Nam » est adopté en 1804 par l’empereur Gia Long, deux ans après la réunification."],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/%C4%90%E1%BA%A1i_Vi%E1%BB%87t",
+    "https://fr.wikipedia.org/wiki/Histoire_du_Vi%C3%AAt_Nam",
+    {
+      "titre": "Encyclopædia Britannica — Vietnam, history",
+      "url": "https://www.britannica.com/place/Vietnam/History"
+    }
+  ]
+}

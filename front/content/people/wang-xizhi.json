@@ -1,0 +1,17 @@
+{
+  "id": "wang-xizhi",
+  "nom": "Wang Xizhi",
+  "role": "Calligraphe",
+  "roles": ["Calligraphe", "Lettré"],
+  "dates": "303 → 361",
+  "naissance": 303,
+  "mort": 361,
+  "description": "Lettré de la cour des Jin de l’Est, il est considéré en Chine comme le plus grand calligraphe de tous les temps.",
+  "essentiel": [
+    "Son œuvre la plus célèbre est la « Préface du pavillon des Orchidées » (353), écrite lors d’une fête entre amis poètes.",
+    "L’original est perdu : on ne le connaît que par des copies, dont certaines furent faites sous les Tang.",
+    "L’empereur Taizong des Tang admirait tant ce texte qu’il l’aurait fait enterrer avec lui, selon la tradition.",
+    "Ses écritures servent encore de modèles aux apprentis calligraphes."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Wang_Xizhi"
+}

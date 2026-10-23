@@ -864,5 +864,45 @@
   "Conquête chola de Sri Lanka": {
     "coords": [81, 7.94],
     "lieu": "Anuradhapura et Polonnaruwa (Sri Lanka)"
+  },
+  "Guerre de Koguryo contre les Sui": {
+    "coords": [125.6, 39.6],
+    "lieu": "Rivière Salsu (Corée du Nord)"
+  },
+  "Bataille de Baekgang": {
+    "coords": [126.7, 36],
+    "lieu": "Embouchure de la rivière Geum (Corée du Sud)"
+  },
+  "Guerre Silla-Tang": {
+    "coords": [127, 37.9],
+    "lieu": "Centre de la péninsule coréenne"
+  },
+  "Sac de Luoyang (311)": {
+    "coords": [112.45, 34.62],
+    "lieu": "Luoyang (Chine)"
+  },
+  "Bataille de la rivière Fei": {
+    "coords": [116.78, 32.58],
+    "lieu": "Rivière Fei (Anhui, Chine)"
+  },
+  "Conquête des Chen par les Sui": {
+    "coords": [118.78, 32.06],
+    "lieu": "Jiankang (Nankin)"
+  },
+  "Guerre de Jinshin": {
+    "coords": [135.9, 34.98],
+    "lieu": "Région du lac Biwa (Japon)"
+  },
+  "Invasion mongole du Champa": {
+    "coords": [109.1, 13.9],
+    "lieu": "Vijaya (près de Quy Nhơn, Vietnam)"
+  },
+  "Raids de Chế Bồng Nga": {
+    "coords": [105.85, 21.03],
+    "lieu": "Thăng Long (Hanoï)"
+  },
+  "Prise de Vijaya": {
+    "coords": [109.05, 13.92],
+    "lieu": "Vijaya (Chà Bàn, Vietnam)"
   }
 }

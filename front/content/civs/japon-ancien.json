@@ -1,0 +1,275 @@
+{
+  "documentaires": [],
+  "decouvertes": ["kofun", "grand-bouddha-de-todai-ji"],
+  "id": "japon-ancien",
+  "label": "Japon ancien (Yamato)",
+  "tier": 1,
+  "region": "japon",
+  "period": "vers 250 à 794",
+  "start": 250,
+  "end": 794,
+  "trackId": "japon",
+  "row": 5,
+  "isRiver": false,
+  "capitale": "Asuka, puis Nara",
+  "description": "Le Japon des grands tombeaux, puis des premiers empereurs : la cour de Yamato unifie une grande partie de l’archipel, adopte le bouddhisme et l’écriture chinoise, et bâtit Nara sur le modèle de la capitale des Tang.",
+  "territories": ["Yamato"],
+  "reperes": {
+    "capitale": {
+      "valeur": "Asuka, puis Nara",
+      "precision": "la capitale change souvent avant de se fixer à Nara (710), puis à Heian (Kyoto) en 794"
+    },
+    "regimes": {
+      "valeur": "Royauté, puis empire",
+      "precision": "le grand roi de Yamato prend au VIIe siècle le titre de tennō, « empereur »"
+    },
+    "langues": { "valeur": "Japonais ancien", "precision": "écrit avec les caractères chinois" },
+    "religion": { "valeur": "Cultes des kami (shinto) et bouddhisme" },
+    "apogee": { "valeur": "Époque de Nara (710 → 794)" },
+    "population": { "valeur": "Environ 5 à 6 millions au VIIIe siècle", "precision": "estimation des historiens" },
+    "monnaie": {
+      "valeur": "Pièces de cuivre (Wadō kaichin, 708)",
+      "precision": "le riz et les tissus restent les principaux moyens d’échange"
+    },
+    "duree": { "valeur": "Plus de 500 ans" },
+    "aujourdhui": { "valeur": "Japon", "precision": "sauf Hokkaidō et l’extrême nord de Honshū" }
+  },
+  "essentiel": [
+    "Au IIIe siècle, des chroniques chinoises décrivent le pays de Wa et sa reine [[himiko|Himiko]] ; à partir de cette époque, des chefs puissants se font enterrer dans d’immenses [[kofun|tombeaux en trou de serrure]].",
+    "Peu à peu, les grands rois de Yamato, dans la région de Nara, imposent leur autorité à une grande partie de l’archipel.",
+    "Au VIe siècle, le bouddhisme arrive du royaume coréen de Paekche ; le prince [[shotoku-taishi|Shōtoku]] le protège et envoie des ambassades en Chine.",
+    "Au VIIe siècle, la cour copie l’organisation de la Chine des Tang : lois écrites, fonctionnaires, impôts, et le souverain prend le titre d’empereur (tennō) ; le pays prend le nom de Nihon, le Japon.",
+    "En 710, la capitale s’installe à Nara, où l’empereur Shōmu fait fondre le [[grand-bouddha-de-todai-ji|Grand Bouddha du Tōdai-ji]] ; en 794, elle part pour Heian (Kyoto)."
+  ],
+  "datesCles": [
+    {
+      "annee": 250,
+      "evenement": "Les kofun",
+      "info": "Vers le milieu du IIIe siècle apparaissent les premiers grands tombeaux en trou de serrure."
+    },
+    {
+      "annee": 538,
+      "evenement": "Le bouddhisme",
+      "info": "Selon une tradition, le roi de Paekche envoie à Yamato des statues et des textes bouddhistes (une autre tradition donne 552)."
+    },
+    {
+      "annee": 604,
+      "evenement": "Constitution en 17 articles",
+      "info": "Selon la tradition, le prince Shōtoku rédige des règles de bon gouvernement inspirées du bouddhisme et du confucianisme."
+    },
+    {
+      "annee": 607,
+      "evenement": "Ambassade en Chine",
+      "info": "Une ambassade japonaise est envoyée à la cour des Sui ; la même année est fondé le temple Hōryū-ji."
+    },
+    {
+      "annee": 645,
+      "evenement": "Réforme de Taika",
+      "info": "Le clan Soga est renversé ; la cour lance des réformes inspirées de la Chine."
+    },
+    {
+      "annee": 663,
+      "evenement": "Baekgang",
+      "info": "La flotte japonaise venue aider Paekche est détruite par Silla et les Tang."
+    },
+    {
+      "annee": 710,
+      "evenement": "Nara",
+      "info": "La capitale s’installe à Heijō-kyō (Nara), bâtie sur le plan de Chang’an."
+    },
+    {
+      "annee": 712,
+      "evenement": "Kojiki",
+      "info": "Achèvement du « Récit des choses anciennes », la plus ancienne chronique japonaise conservée."
+    },
+    { "annee": 752, "evenement": "Grand Bouddha", "info": "Inauguration de la statue géante du Tōdai-ji." },
+    { "annee": 794, "evenement": "Heian", "info": "L’empereur Kanmu installe la capitale à Heian-kyō (Kyoto)." }
+  ],
+  "periodes": [
+    {
+      "nom": "L’époque des kofun",
+      "debut": 250,
+      "fin": 538,
+      "resume": "De grands chefs se font enterrer dans d’immenses tertres ; la royauté de Yamato s’affirme.",
+      "evenements": [{ "annee": 250, "evenement": "Premiers grands kofun" }]
+    },
+    {
+      "nom": "L’époque d’Asuka",
+      "debut": 538,
+      "fin": 710,
+      "resume": "Le bouddhisme s’installe ; la cour adopte le modèle chinois et devient un empire.",
+      "evenements": [
+        { "annee": 538, "evenement": "Arrivée du bouddhisme" },
+        { "annee": 645, "evenement": "Réforme de Taika" },
+        { "annee": 663, "evenement": "Bataille de Baekgang" }
+      ]
+    },
+    {
+      "nom": "L’époque de Nara",
+      "debut": 710,
+      "fin": 794,
+      "resume": "Une capitale fixe, de grands temples, les premières chroniques et anthologies de poèmes.",
+      "evenements": [{ "annee": 710, "evenement": "Fondation de Nara" }, { "annee": 752, "evenement": "Grand Bouddha du Tōdai-ji" }]
+    }
+  ],
+  "regimes": [
+    { "id": "royaute", "nom": "Royauté de Yamato", "debut": 250, "fin": 645 },
+    { "id": "empire", "nom": "Empire (système des codes)", "debut": 645, "fin": 794 }
+  ],
+  "dynasties": [
+    {
+      "id": "yamato",
+      "nom": "La lignée impériale de Yamato",
+      "debut": 250,
+      "fin": 794,
+      "note": "Sélection ; les dates des premiers souverains sont traditionnelles."
+    }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Kinmei",
+      "titre": "Grand roi",
+      "debut": 539,
+      "fin": 571,
+      "dynastie": "yamato",
+      "note": "le bouddhisme arrive sous son règne",
+      "cle": true
+    },
+    {
+      "nom": "Suiko",
+      "titre": "Impératrice",
+      "debut": 593,
+      "fin": 628,
+      "dynastie": "yamato",
+      "note": "première souveraine dont le règne est bien connu",
+      "cle": true
+    },
+    {
+      "nom": "Tenji",
+      "titre": "Empereur",
+      "debut": 668,
+      "fin": 672,
+      "dynastie": "yamato",
+      "note": "mène la réforme de Taika",
+      "cle": true
+    },
+    {
+      "nom": "Tenmu",
+      "titre": "Empereur",
+      "debut": 673,
+      "fin": 686,
+      "dynastie": "yamato",
+      "note": "renforce le pouvoir impérial",
+      "cle": true
+    },
+    { "nom": "Jitō", "titre": "Impératrice", "debut": 690, "fin": 697, "dynastie": "yamato" },
+    {
+      "nom": "Genmei",
+      "titre": "Impératrice",
+      "debut": 707,
+      "fin": 715,
+      "dynastie": "yamato",
+      "note": "installe la capitale à Nara"
+    },
+    {
+      "nom": "Shōmu",
+      "titre": "Empereur",
+      "debut": 724,
+      "fin": 749,
+      "dynastie": "yamato",
+      "note": "fait fondre le Grand Bouddha",
+      "cle": true
+    },
+    {
+      "nom": "Kanmu",
+      "titre": "Empereur",
+      "debut": 781,
+      "fin": 806,
+      "dynastie": "yamato",
+      "note": "installe la capitale à Heian"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Himiko",
+      "role": "Reine du pays de Wa",
+      "description": "Reine-chamane mentionnée par les chroniques chinoises au IIIe siècle.",
+      "dates": "? → vers 248",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Himiko",
+      "ref": "himiko"
+    },
+    {
+      "nom": "Prince Shōtoku",
+      "role": "Régent",
+      "description": "Le protecteur du bouddhisme et le modèle du sage gouvernant.",
+      "dates": "574 → 622",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Sh%C5%8Dtoku_(prince_du_Japon)",
+      "ref": "shotoku-taishi"
+    },
+    {
+      "nom": "Nakatomi no Kamatari",
+      "role": "Ministre",
+      "description": "Il aide le futur empereur Tenji à renverser les Soga en 645 ; il fonde le clan Fujiwara.",
+      "dates": "614 → 669",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Nakatomi_no_Kamatari"
+    },
+    {
+      "nom": "Gyōki",
+      "role": "Moine bouddhiste",
+      "description": "Moine populaire qui fait construire ponts et canaux et aide à rassembler les dons pour le Grand Bouddha.",
+      "dates": "668 → 749",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Gy%C5%8Dki"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Bataille de Baekgang",
+      "annee": 663,
+      "adversaires": ["Silla", "Chine des Tang"],
+      "allies": ["Partisans de Paekche"],
+      "morts": "Plusieurs milliers",
+      "vainqueur": "Silla et Tang",
+      "consequences": "La flotte japonaise est détruite à l’embouchure de la rivière Geum. Le Japon renonce à intervenir en Corée, fortifie ses côtes et accueille de nombreux réfugiés de Paekche.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Baekgang"
+    },
+    {
+      "nom": "Guerre de Jinshin",
+      "annee": 672,
+      "adversaires": ["Prince Ōtomo, fils de l’empereur Tenji"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Prince Ōama (futur empereur Tenmu)",
+      "consequences": "Cette guerre de succession porte au pouvoir Tenmu, qui renforce l’autorité impériale et développe le culte de la déesse du soleil à Ise.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_de_Jinshin"
+    }
+  ],
+  "sciences": "Les Japonais adoptent l’écriture chinoise et l’adaptent pour noter leur langue. Les charpentiers bâtissent des temples de bois remarquables : certains bâtiments du Hōryū-ji, reconstruits vers 700, sont parmi les plus anciens édifices en bois du monde. Le Grand Bouddha du Tōdai-ji, haut d’environ 15 mètres, nécessite des centaines de tonnes de bronze.",
+  "croyancesText": "Les Japonais honorent les kami, des esprits présents dans la nature et les ancêtres ; la famille impériale se dit descendante de la déesse du soleil, Amaterasu. Le bouddhisme, arrivé de Corée au VIe siècle, est adopté par la cour après une lutte entre clans. À l’époque de Nara, l’empereur Shōmu fait construire un temple bouddhiste dans chaque province.",
+  "diplomatie": "Le Japon entretient des liens étroits avec le royaume coréen de Paekche, d’où viennent des artisans, des lettrés et des moines. À partir de 600, la cour envoie des ambassades en Chine, chez les Sui puis les Tang, pour en rapporter des lois, des textes et des techniques. Après la défaite de Baekgang (663), il renonce à intervenir en Corée.",
+  "societe": "De grands clans, comme les Soga et les Mononobe, dominent la cour. Après 645, l’État recense la population et distribue des rizières aux paysans, qui paient des impôts en riz, en tissus et en travail.",
+  "economie": "Riziculture, travail du fer et du bronze, tissage ; impôts en nature.",
+  "arts": "Figurines de terre cuite des kofun (haniwa), temples Hōryū-ji et Tōdai-ji, anthologie de poèmes du Man’yōshū.",
+  "quotidien": "Le Man’yōshū, recueil de plus de 4 500 poèmes, contient aussi des vers écrits par des soldats, des paysans et des femmes du peuple.",
+  "heritage": [
+    {
+      "titre": "Les premiers livres du Japon",
+      "texte": "Le Kojiki (712) et le Nihon shoki (720) racontent les mythes et l’histoire des débuts du Japon."
+    },
+    {
+      "titre": "Nara",
+      "texte": "Les monuments de l’ancienne Nara et du Hōryū-ji sont inscrits au patrimoine mondial de l’UNESCO."
+    }
+  ],
+  "aSavoir": [
+    "En 607, une lettre de la cour du Japon commence par : « Le fils du Ciel du pays où le soleil se lève au fils du Ciel du pays où le soleil se couche ». L’empereur de Chine en fut, dit-on, irrité."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/P%C3%A9riode_Kofun",
+    "https://fr.wikipedia.org/wiki/P%C3%A9riode_Asuka",
+    "https://fr.wikipedia.org/wiki/P%C3%A9riode_de_Nara",
+    {
+      "titre": "Encyclopædia Britannica — Japan, early history",
+      "url": "https://www.britannica.com/place/Japan/Early-history"
+    }
+  ]
+}

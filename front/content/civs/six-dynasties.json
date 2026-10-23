@@ -1,0 +1,268 @@
+{
+  "documentaires": [],
+  "decouvertes": ["grottes-de-longmen"],
+  "id": "six-dynasties",
+  "label": "Chine des Six Dynasties",
+  "tier": 2,
+  "region": "chine",
+  "period": "220 à 589",
+  "start": 220,
+  "end": 589,
+  "trackId": "chine",
+  "row": 7,
+  "isRiver": false,
+  "capitale": "Luoyang, Jiankang (Nankin)",
+  "description": "Près de quatre siècles de division de la Chine, des Trois Royaumes à la réunification par les Sui : une époque de guerres, mais aussi d’essor du bouddhisme, de la calligraphie et des sciences.",
+  "territories": ["Jin", "Jin Empire", "Toba Wei", "Northern Liang"],
+  "reperes": {
+    "capitale": {
+      "valeur": "Luoyang, Jiankang (Nankin)",
+      "precision": "Jiankang est la capitale des dynasties du Sud ; Luoyang et Pingcheng celles des Wei du Nord"
+    },
+    "regimes": { "valeur": "Empires rivaux", "precision": "plusieurs dynasties se disputent le titre d’empereur" },
+    "langues": { "valeur": "Chinois", "precision": "les peuples des steppes installés au nord parlent aussi leurs langues" },
+    "religion": { "valeur": "Bouddhisme, taoïsme, confucianisme" },
+    "apogee": {
+      "valeur": "Inconnue",
+      "precision": "aucune dynastie ne domine toute la Chine, sauf les Jin, brièvement (280-316)"
+    },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": { "valeur": "Pièces de bronze et soieries" },
+    "duree": { "valeur": "Environ 370 ans" },
+    "aujourdhui": { "valeur": "Chine" }
+  },
+  "essentiel": [
+    "En 220, la dynastie Han disparaît : la Chine se partage entre Trois Royaumes, Wei, Shu et Wu, dont les guerres inspireront un célèbre roman.",
+    "Les Jin réunifient le pays en 280, mais leur empire s’effondre : en 311, des cavaliers venus des steppes prennent Luoyang, et la cour se réfugie au sud, à Jiankang (Nankin).",
+    "Pendant près de trois siècles, le nord est gouverné par des dynasties fondées par des peuples des steppes, comme les Wei du Nord, et le sud par des dynasties chinoises installées à Jiankang.",
+    "Le bouddhisme se répand dans toute la Chine : on creuse des grottes-sanctuaires comme celles de [[grottes-de-longmen|Longmen]], et des moines partent en Inde chercher des textes.",
+    "C’est aussi l’époque du calligraphe [[wang-xizhi|Wang Xizhi]] et du mathématicien [[zu-chongzhi|Zu Chongzhi]] ; en 589, les Sui réunifient la Chine."
+  ],
+  "datesCles": [
+    {
+      "annee": 220,
+      "evenement": "Fin des Han",
+      "info": "Cao Pi fonde la dynastie Wei : c’est le début des Trois Royaumes."
+    },
+    {
+      "annee": 280,
+      "evenement": "Réunification par les Jin",
+      "info": "Les Jin conquièrent le royaume de Wu et réunifient brièvement la Chine."
+    },
+    {
+      "annee": 311,
+      "evenement": "Sac de Luoyang",
+      "info": "Des troupes xiongnu prennent la capitale ; les Jin se replient au sud."
+    },
+    {
+      "annee": 383,
+      "evenement": "Rivière Fei",
+      "info": "Les Jin de l’Est arrêtent une immense armée venue du nord."
+    },
+    {
+      "annee": 439,
+      "evenement": "Wei du Nord",
+      "info": "Les Wei du Nord, fondés par les Xianbei, unifient le nord de la Chine."
+    },
+    {
+      "annee": 494,
+      "evenement": "Luoyang",
+      "info": "L’empereur Xiaowen installe la capitale des Wei du Nord à Luoyang."
+    },
+    { "annee": 589, "evenement": "Réunification", "info": "Les Sui prennent Jiankang et réunifient la Chine." }
+  ],
+  "periodes": [
+    {
+      "nom": "Les Trois Royaumes et les Jin",
+      "debut": 220,
+      "fin": 317,
+      "resume": "Wei, Shu et Wu se font la guerre ; les Jin réunifient le pays en 280, puis s’effondrent dans les guerres civiles et les invasions.",
+      "evenements": [
+        { "annee": 220, "evenement": "Fin des Han" },
+        { "annee": 280, "evenement": "Réunification par les Jin" },
+        { "annee": 311, "evenement": "Sac de Luoyang" }
+      ]
+    },
+    {
+      "nom": "Le Nord et le Sud",
+      "debut": 317,
+      "fin": 589,
+      "resume": "Au nord, des royaumes fondés par des peuples des steppes ; au sud, des dynasties chinoises à Jiankang. Le bouddhisme s’y répand largement.",
+      "evenements": [
+        { "annee": 383, "evenement": "Bataille de la rivière Fei" },
+        { "annee": 439, "evenement": "Les Wei du Nord unifient le Nord" },
+        { "annee": 589, "evenement": "Réunification par les Sui" }
+      ]
+    }
+  ],
+  "regimes": [{ "id": "empires", "nom": "Empires rivaux", "debut": 220, "fin": 589 }],
+  "dynasties": [
+    { "id": "trois-royaumes", "nom": "Les Trois Royaumes", "debut": 220, "fin": 280, "note": "Sélection." },
+    { "id": "jin", "nom": "Les Jin", "debut": 265, "fin": 420, "note": "Sélection." },
+    { "id": "nord", "nom": "Les dynasties du Nord", "debut": 304, "fin": 581, "note": "Sélection." },
+    { "id": "sud", "nom": "Les dynasties du Sud", "debut": 420, "fin": 589, "note": "Sélection." }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Cao Pi",
+      "titre": "Empereur (Wei)",
+      "debut": 220,
+      "fin": 226,
+      "dynastie": "trois-royaumes",
+      "note": "fondateur des Wei",
+      "cle": true
+    },
+    { "nom": "Liu Bei", "titre": "Empereur (Shu)", "debut": 221, "fin": 223, "dynastie": "trois-royaumes", "cle": true },
+    { "nom": "Sun Quan", "titre": "Empereur (Wu)", "debut": 229, "fin": 252, "dynastie": "trois-royaumes", "cle": true },
+    {
+      "nom": "Sima Yan",
+      "titre": "Empereur (Jin)",
+      "surnom": "Wudi",
+      "debut": 266,
+      "fin": 290,
+      "dynastie": "jin",
+      "note": "réunifie la Chine en 280",
+      "cle": true
+    },
+    {
+      "nom": "Sima Rui",
+      "titre": "Empereur (Jin de l’Est)",
+      "debut": 317,
+      "fin": 322,
+      "dynastie": "jin",
+      "note": "refonde l’empire à Jiankang"
+    },
+    {
+      "nom": "Fu Jian",
+      "titre": "Empereur (Qin antérieurs)",
+      "debut": 357,
+      "fin": 385,
+      "dynastie": "nord",
+      "note": "vaincu à la rivière Fei"
+    },
+    {
+      "nom": "Xiaowen",
+      "titre": "Empereur (Wei du Nord)",
+      "debut": 471,
+      "fin": 499,
+      "dynastie": "nord",
+      "note": "installe la capitale à Luoyang",
+      "cle": true
+    },
+    {
+      "nom": "Wudi des Liang",
+      "titre": "Empereur (Liang)",
+      "debut": 502,
+      "fin": 549,
+      "dynastie": "sud",
+      "note": "grand protecteur du bouddhisme"
+    },
+    {
+      "nom": "Chen Shubao",
+      "titre": "Empereur (Chen)",
+      "debut": 582,
+      "fin": 589,
+      "dynastie": "sud",
+      "note": "dernier empereur du Sud"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Cao Cao",
+      "role": "Seigneur de guerre",
+      "description": "Le chef de guerre qui domine le nord de la Chine à la fin des Han ; son fils fonde la dynastie Wei.",
+      "dates": "155 → 220",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Cao_Cao"
+    },
+    {
+      "nom": "Wang Xizhi",
+      "role": "Calligraphe",
+      "description": "Le plus célèbre calligraphe de l’histoire chinoise.",
+      "dates": "303 → 361",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Wang_Xizhi",
+      "ref": "wang-xizhi"
+    },
+    {
+      "nom": "Zu Chongzhi",
+      "role": "Mathématicien et astronome",
+      "description": "Il calcule π avec sept décimales exactes.",
+      "dates": "429 → 500",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Zu_Chongzhi",
+      "ref": "zu-chongzhi"
+    },
+    {
+      "nom": "Tao Yuanming",
+      "role": "Poète",
+      "description": "Un fonctionnaire qui quitte sa charge pour cultiver ses champs et chanter la vie simple.",
+      "dates": "365 → 427",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Tao_Yuanming"
+    },
+    {
+      "nom": "Kumarajiva",
+      "role": "Moine traducteur",
+      "description": "Venu d’Asie centrale, il traduit en chinois de nombreux textes bouddhistes.",
+      "dates": "344 → 413",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Kumarajiva"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Sac de Luoyang (311)",
+      "annee": 311,
+      "adversaires": ["Han Zhao (Xiongnu)"],
+      "allies": [],
+      "morts": "Des dizaines de milliers, selon les chroniques",
+      "vainqueur": "Han Zhao",
+      "consequences": "Luoyang est prise et pillée, l’empereur Jin capturé. La cour se réfugie au sud, à Jiankang : la Chine est coupée en deux pour près de trois siècles.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Disaster_of_Yongjia"
+    },
+    {
+      "nom": "Bataille de la rivière Fei",
+      "annee": 383,
+      "adversaires": ["Qin antérieurs (Fu Jian)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Jin de l’Est",
+      "consequences": "Une armée du Sud, bien moins nombreuse, met en déroute celle de Fu Jian, qui voulait conquérir le Sud. La Chine reste divisée entre Nord et Sud.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_la_rivi%C3%A8re_Fei"
+    },
+    {
+      "nom": "Conquête des Chen par les Sui",
+      "annee": 589,
+      "adversaires": ["Dynastie Sui (empereur Wen)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Sui",
+      "consequences": "Les armées des Sui prennent Jiankang : la Chine est réunifiée après près de trois siècles de division.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Sui_conquest_of_Chen"
+    }
+  ],
+  "sciences": "Le mathématicien Zu Chongzhi calcule que π est compris entre 3,1415926 et 3,1415927 : aucune estimation plus précise ne sera faite pendant près de mille ans. Des statuettes de tombes chinoises du début du IVe siècle montrent parmi les plus anciens étriers connus. Le médecin Wang Shuhe rédige un traité sur le pouls.",
+  "croyancesText": "Le bouddhisme, arrivé de l’Inde par les routes de la soie, se répand dans toutes les classes de la société. Des moines comme Faxian partent en Inde chercher des textes, et le moine Kumarajiva en traduit un grand nombre. Le taoïsme s’organise en Églises avec leurs textes sacrés, et le confucianisme reste la base de l’éducation des lettrés.",
+  "diplomatie": "Les dynasties du Nord et du Sud se font la guerre, mais commercent aussi entre elles. Les peuples des steppes, Xiongnu, Xianbei et d’autres, fondent des royaumes au nord et adoptent peu à peu la culture chinoise. Les cours chinoises reçoivent des ambassades de Corée, du Japon et d’Asie du Sud-Est.",
+  "societe": "De grandes familles aristocratiques dominent la société et la politique. Au nord, l’empereur Xiaowen des Wei du Nord impose à sa cour la langue, les vêtements et les noms chinois. Beaucoup de paysans du Nord fuient vers le sud, ce qui développe les régions du Yangzi.",
+  "economie": "Agriculture, essor des rizières du bassin du Yangzi, soie, commerce par les routes de la soie et par la mer.",
+  "arts": "Calligraphie de Wang Xizhi, peinture de Gu Kaizhi, grottes bouddhistes de Yungang et de Longmen, poésie de Tao Yuanming.",
+  "quotidien": "Le thé commence à se répandre dans le sud de la Chine, d’abord comme boisson médicinale.",
+  "heritage": [
+    {
+      "titre": "Le Roman des Trois Royaumes",
+      "texte": "Les guerres de l’époque inspirent au XIVe siècle l’un des plus célèbres romans chinois, toujours adapté en séries, films et jeux vidéo."
+    },
+    {
+      "titre": "Mulan",
+      "texte": "La « Ballade de Mulan », qui raconte une jeune fille partie à la guerre à la place de son père, a probablement été composée à cette époque dans le nord de la Chine."
+    }
+  ],
+  "aSavoir": [
+    "L’empereur Wudi des Liang était si attaché au bouddhisme qu’il se retira plusieurs fois dans un monastère ; ses ministres durent payer de fortes sommes au clergé pour le faire revenir."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Six_Dynasties",
+    "https://fr.wikipedia.org/wiki/Trois_Royaumes_de_Chine",
+    {
+      "titre": "Encyclopædia Britannica — China, the Six Dynasties",
+      "url": "https://www.britannica.com/place/China/The-Six-Dynasties"
+    }
+  ]
+}

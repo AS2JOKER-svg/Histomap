@@ -1,0 +1,262 @@
+{
+  "documentaires": [],
+  "decouvertes": ["my-son", "riz-de-champa"],
+  "id": "champa",
+  "label": "Royaume de Champa",
+  "tier": 2,
+  "region": "asie-sud-est-continentale",
+  "period": "192 à 1832",
+  "start": 192,
+  "end": 1832,
+  "color": "#3949ab",
+  "trackId": "indochine",
+  "row": 8,
+  "isRiver": false,
+  "capitale": "Indrapura, puis Vijaya",
+  "description": "Un ensemble de royaumes du peuple cham, sur la côte du centre et du sud du Vietnam actuel, enrichis par le commerce maritime, de culture indienne, longtemps rivaux des Khmers et du Đại Việt.",
+  "territories": ["Champa", "Champa City States"],
+  "reperes": {
+    "capitale": {
+      "valeur": "Indrapura, puis Vijaya",
+      "precision": "les capitales changent selon les époques : Simhapura, Indrapura (IXe siècle), Vijaya (XIe-XVe siècles)"
+    },
+    "regimes": { "valeur": "Monarchies", "precision": "souvent plusieurs principautés sous l’autorité d’un roi principal" },
+    "langues": { "valeur": "Cham et sanskrit", "precision": "le cham est une langue austronésienne, parente du malais" },
+    "religion": {
+      "valeur": "Hindouisme (culte de Shiva) et bouddhisme",
+      "precision": "l’islam se répand ensuite chez une partie des Chams"
+    },
+    "apogee": { "valeur": "IXe → XIIe siècle" },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": { "valeur": "Or, argent et pièces chinoises" },
+    "duree": { "valeur": "Plus de 1 600 ans" },
+    "aujourdhui": {
+      "valeur": "Centre et sud du Vietnam",
+      "precision": "les Chams forment aujourd’hui des minorités au Vietnam et au Cambodge"
+    }
+  },
+  "essentiel": [
+    "Selon les sources chinoises, un royaume naît en 192 sur la côte du centre du Vietnam actuel, après une révolte contre les Han : c’est le début du Champa.",
+    "Les Chams, un peuple de marins parlant une langue austronésienne, adoptent la culture indienne : ils honorent Shiva et bâtissent des temples de brique, comme ceux du sanctuaire de [[my-son|Mỹ Sơn]].",
+    "Le Champa s’enrichit du commerce maritime entre la Chine, l’Asie du Sud-Est et l’océan Indien ; une variété de riz venue de chez lui, le [[riz-de-champa|riz de Champa]], transforme l’agriculture chinoise.",
+    "Il combat longtemps les Khmers (il pille Angkor en 1177) et le Đại Việt, dont la capitale est pillée par le roi [[che-bong-nga|Chế Bồng Nga]] au XIVe siècle.",
+    "En 1471, le Đại Việt prend la capitale, Vijaya ; le Champa, réduit au Sud, est peu à peu absorbé et disparaît en 1832."
+  ],
+  "datesCles": [
+    {
+      "annee": 192,
+      "evenement": "Fondation",
+      "info": "Selon les sources chinoises, Khu Liên fonde un royaume après une révolte contre les Han."
+    },
+    {
+      "annee": 400,
+      "evenement": "Mỹ Sơn",
+      "info": "Vers 400, le roi Bhadravarman fonde un sanctuaire dédié à Shiva à Mỹ Sơn."
+    },
+    {
+      "annee": 875,
+      "evenement": "Indrapura",
+      "info": "Le roi Indravarman II fonde un grand monastère bouddhiste dans sa nouvelle capitale."
+    },
+    {
+      "annee": 1177,
+      "evenement": "Pillage d’Angkor",
+      "info": "La flotte chame remonte le Mékong et pille la capitale khmère."
+    },
+    {
+      "annee": 1283,
+      "evenement": "Les Mongols",
+      "info": "Une armée de Kubilai Khan débarque ; les Chams la harcèlent jusqu’à son départ en 1285."
+    },
+    { "annee": 1371, "evenement": "Thăng Long pillée", "info": "Le roi Chế Bồng Nga pille la capitale du Đại Việt." },
+    { "annee": 1471, "evenement": "Chute de Vijaya", "info": "Le Đại Việt prend la capitale du Champa." },
+    {
+      "annee": 1832,
+      "evenement": "Fin",
+      "info": "L’empereur vietnamien Minh Mạng annexe la dernière principauté chame."
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "Lâm Ấp et les premiers royaumes",
+      "debut": 192,
+      "fin": 757,
+      "resume": "Des royaumes chams naissent sur la côte et adoptent la culture indienne.",
+      "evenements": [{ "annee": 192, "evenement": "Fondation" }, { "annee": 400, "evenement": "Sanctuaire de Mỹ Sơn" }]
+    },
+    {
+      "nom": "L’apogée",
+      "debut": 757,
+      "fin": 1471,
+      "resume": "Le Champa, riche du commerce maritime, affronte les Khmers, le Đại Việt et les Mongols.",
+      "evenements": [
+        { "annee": 875, "evenement": "Monastère d’Indrapura" },
+        { "annee": 1177, "evenement": "Pillage d’Angkor" },
+        { "annee": 1371, "evenement": "Pillage de Thăng Long" }
+      ]
+    },
+    {
+      "nom": "Le Champa du Sud",
+      "debut": 1471,
+      "fin": 1832,
+      "resume": "Réduit à la région de Panduranga, le Champa devient vassal du Vietnam avant d’être annexé.",
+      "evenements": [{ "annee": 1471, "evenement": "Chute de Vijaya" }, { "annee": 1832, "evenement": "Annexion" }]
+    }
+  ],
+  "regimes": [{ "id": "monarchies", "nom": "Monarchies", "debut": 192, "fin": 1832 }],
+  "dynasties": [
+    {
+      "id": "rois",
+      "nom": "Les rois du Champa",
+      "debut": 192,
+      "fin": 1832,
+      "note": "Sélection ; beaucoup de dates sont incertaines."
+    }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Bhadravarman Ier",
+      "titre": "Roi",
+      "debut": 380,
+      "fin": 413,
+      "dynastie": "rois",
+      "note": "fonde le sanctuaire de Mỹ Sơn",
+      "cle": true
+    },
+    {
+      "nom": "Indravarman II",
+      "titre": "Roi",
+      "debut": 854,
+      "fin": 898,
+      "dynastie": "rois",
+      "note": "fonde Indrapura",
+      "cle": true
+    },
+    {
+      "nom": "Jaya Indravarman IV",
+      "titre": "Roi",
+      "debut": 1167,
+      "fin": 1190,
+      "dynastie": "rois",
+      "note": "pille Angkor",
+      "cle": true
+    },
+    {
+      "nom": "Chế Bồng Nga",
+      "titre": "Roi",
+      "debut": 1360,
+      "fin": 1390,
+      "dynastie": "rois",
+      "personne": "che-bong-nga",
+      "cle": true
+    },
+    {
+      "nom": "Trà Toàn",
+      "titre": "Roi",
+      "debut": 1460,
+      "fin": 1471,
+      "dynastie": "rois",
+      "note": "capturé lors de la prise de Vijaya"
+    },
+    {
+      "nom": "Po Rome",
+      "titre": "Roi",
+      "debut": 1627,
+      "fin": 1651,
+      "dynastie": "rois",
+      "note": "roi de Panduranga",
+      "cle": true
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Chế Bồng Nga",
+      "role": "Roi du Champa",
+      "description": "Le roi guerrier qui pille plusieurs fois la capitale du Đại Việt.",
+      "dates": "? → 1390",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Ch%E1%BA%BF_B%E1%BB%93ng_Nga",
+      "ref": "che-bong-nga"
+    },
+    {
+      "nom": "Kubilai Khan",
+      "role": "Empereur mongol de Chine",
+      "description": "Il envoie en 1283 une armée contre le Champa, qui doit se retirer.",
+      "dates": "1215 → 1294",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Kubila%C3%AF_Khan",
+      "ref": "kubilai-khan"
+    },
+    {
+      "nom": "Po Rome",
+      "role": "Roi de Panduranga",
+      "description": "Roi du XVIIe siècle, toujours honoré par les Chams, qui lui consacrent un temple.",
+      "dates": "? → 1651",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Po_Rome"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerres Khméro-Chams",
+      "annee": 1177,
+      "adversaires": ["Empire khmer"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Empire khmer, après le pillage d’Angkor par les Chams",
+      "consequences": "La flotte chame pille Angkor en 1177 ; le prince khmer Jayavarman VII la chasse, puis occupe le Champa pendant une vingtaine d’années.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Empire_khmer"
+    },
+    {
+      "nom": "Invasion mongole du Champa",
+      "annee": 1283,
+      "adversaires": ["Empire mongol de Chine (Kubilai Khan)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Champa",
+      "consequences": "Les Chams abandonnent leur capitale et mènent une guérilla dans les montagnes ; l’armée mongole, épuisée, se retire en 1285.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Mongol_invasion_of_Champa"
+    },
+    {
+      "nom": "Raids de Chế Bồng Nga",
+      "annee": 1371,
+      "adversaires": ["Đại Việt (dynastie Trần)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Champa",
+      "consequences": "Le roi Chế Bồng Nga pille Thăng Long (Hanoï) en 1371 et menace le Đại Việt pendant près de vingt ans, jusqu’à sa mort au combat en 1390.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Champa%E2%80%93%C4%90%E1%BA%A1i_Vi%E1%BB%87t_War_(1367%E2%80%931390)"
+    },
+    {
+      "nom": "Prise de Vijaya",
+      "annee": 1471,
+      "adversaires": ["Đại Việt (Lê Thánh Tông)"],
+      "allies": [],
+      "morts": "Des dizaines de milliers de tués et de captifs, selon les chroniques",
+      "vainqueur": "Đại Việt",
+      "consequences": "La capitale chame est prise et son roi capturé. Le Champa ne conserve plus que le Sud, qui sera peu à peu absorbé par le Vietnam.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Champa%E2%80%93%C4%90%E1%BA%A1i_Vi%E1%BB%87t_War_(1471)"
+    }
+  ],
+  "sciences": "Les Chams bâtissent des tours-sanctuaires en brique si bien jointoyées qu’on discute encore de la façon dont les briques étaient collées. Ils cultivent une variété de riz à croissance rapide et résistante à la sécheresse, introduite en Chine au début du XIe siècle sous le nom de « riz de Champa ». Leurs navires dominent une partie du commerce de la mer de Chine méridionale.",
+  "croyancesText": "Les rois chams honorent surtout Shiva, mais aussi Vishnou et une déesse protectrice du pays, vénérée aux tours de Po Nagar. Le bouddhisme mahayana fleurit au IXe siècle. Surtout à partir du XVe siècle, une partie des Chams se convertit à l’islam, aujourd’hui majoritaire chez les Chams du Cambodge.",
+  "diplomatie": "Le Champa envoie des ambassades à la Chine, avec laquelle il commerce. Il combat régulièrement les Khmers à l’ouest et le Đại Việt au nord, mais s’allie parfois à eux, par exemple contre les Mongols. Ses ports accueillent des marchands arabes, persans, indiens et chinois.",
+  "societe": "La société est dominée par des familles royales et nobles et par des prêtres brahmanes. La plupart des Chams vivent de la pêche, de l’agriculture et du commerce. Les sources chinoises parlent aussi de pirates chams.",
+  "economie": "Commerce maritime du bois d’aigle (un bois parfumé très recherché), de l’ivoire, des épices et de la céramique ; riziculture.",
+  "arts": "Tours-sanctuaires de brique de Mỹ Sơn et de Po Nagar, sculptures de grès (danseuses, divinités), réunies au musée de la sculpture chame de Đà Nẵng.",
+  "quotidien": "Les Chams fêtent encore chaque année le Katé, une fête en l’honneur des divinités et des rois anciens, dans les tours de Po Klong Garai et de Po Rome.",
+  "heritage": [
+    { "titre": "Mỹ Sơn", "texte": "Le sanctuaire est inscrit au patrimoine mondial de l’UNESCO depuis 1999." },
+    {
+      "titre": "Les Chams aujourd’hui",
+      "texte": "Plusieurs centaines de milliers de Chams vivent au Vietnam et au Cambodge et parlent toujours leur langue."
+    }
+  ],
+  "aSavoir": [
+    "En 1177, la flotte chame remonte le Mékong et le grand lac Tonlé Sap pour surprendre Angkor : la bataille navale est sculptée sur les murs du temple du Bayon."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Royaume_de_Champa",
+    {
+      "titre": "Encyclopædia Britannica — Champa",
+      "url": "https://www.britannica.com/place/Champa-ancient-kingdom-Indochina"
+    }
+  ]
+}

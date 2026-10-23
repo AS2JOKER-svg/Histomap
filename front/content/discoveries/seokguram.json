@@ -1,0 +1,14 @@
+{
+  "id": "seokguram",
+  "nom": "Grotte de Seokguram",
+  "domaine": "Art et religion",
+  "dates": "VIIIe siècle",
+  "description": "Un sanctuaire bouddhiste artificiel en granit, bâti au VIIIe siècle près de Gyeongju, qui abrite une grande statue du Bouddha assis face à la mer.",
+  "sections": [
+    {
+      "titre": "Un chef-d’œuvre",
+      "texte": "Construite en même temps que le temple voisin de Bulguksa, elle est considérée comme l’un des sommets de l’art bouddhiste d’Asie. Les deux sites sont inscrits au patrimoine mondial de l’UNESCO depuis 1995."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Seokguram"
+}

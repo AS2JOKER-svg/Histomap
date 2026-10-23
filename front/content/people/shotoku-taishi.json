@@ -1,0 +1,17 @@
+{
+  "id": "shotoku-taishi",
+  "nom": "Prince Shōtoku",
+  "role": "Régent du Japon",
+  "roles": ["Prince", "Régent"],
+  "dates": "574 → 622",
+  "naissance": 574,
+  "mort": 622,
+  "description": "Prince régent auprès de l’impératrice Suiko, il est vénéré au Japon comme le grand protecteur du bouddhisme ; une partie des actions qu’on lui attribue relève de la tradition.",
+  "essentiel": [
+    "Il soutient la diffusion du bouddhisme et fonde des temples, dont le Hōryū-ji.",
+    "La tradition lui attribue la « Constitution en dix-sept articles » (604).",
+    "Il envoie des ambassades à la cour chinoise des Sui.",
+    "Son portrait a figuré sur de nombreux billets de banque japonais."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Sh%C5%8Dtoku_(prince_du_Japon)"
+}

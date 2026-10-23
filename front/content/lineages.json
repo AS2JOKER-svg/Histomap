@@ -54,6 +54,7 @@
     "members": [
       "chine-neo",
       "chine-imperiale",
+      "six-dynasties",
       "chine-tang-song",
       "chine-mod",
       "chine-contemp"
@@ -64,6 +65,7 @@
     "label": "Japon",
     "color": "#c0392b",
     "members": [
+      "japon-ancien",
       "japon-feodal",
       "japon-mod",
       "japon"
@@ -75,6 +77,7 @@
     "color": "#2e6f95",
     "members": [
       "gojoseon",
+      "trois-royaumes-coree",
       "goryeo",
       "joseon",
       "coree-contemp"

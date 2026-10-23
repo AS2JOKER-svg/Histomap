@@ -1,0 +1,290 @@
+{
+  "documentaires": [],
+  "decouvertes": ["cheomseongdae", "seokguram"],
+  "id": "trois-royaumes-coree",
+  "label": "Trois Royaumes de Corée et Silla",
+  "tier": 2,
+  "region": "coree",
+  "period": "-57 à 935",
+  "start": -57,
+  "end": 935,
+  "trackId": "coree",
+  "row": 9,
+  "isRiver": false,
+  "capitale": "Gyeongju (Silla)",
+  "description": "L’époque où trois royaumes, Koguryo, Paekche et Silla, se partagent la Corée, avant que Silla n’unifie le sud de la péninsule en 676 et ne rayonne depuis sa capitale, Gyeongju.",
+  "territories": ["Koguryo", "Paekche", "Silla", "Gaya"],
+  "reperes": {
+    "capitale": {
+      "valeur": "Gyeongju (Silla)",
+      "precision": "Pyongyang pour Koguryo à partir de 427 ; Sabi pour Paekche à partir de 538"
+    },
+    "regimes": { "valeur": "Monarchies", "precision": "trois royaumes rivaux, puis le royaume unifié de Silla" },
+    "langues": { "valeur": "Langues coréennes anciennes", "precision": "écrites avec les caractères chinois" },
+    "religion": {
+      "valeur": "Bouddhisme",
+      "precision": "adopté au IVe siècle par Koguryo et Paekche, en 527 par Silla, à côté des cultes anciens"
+    },
+    "apogee": { "valeur": "Silla unifié (VIIIe siècle)" },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": { "valeur": "Tissus, céréales et pièces chinoises" },
+    "duree": { "valeur": "Près de 1 000 ans" },
+    "aujourdhui": { "valeur": "Corée du Sud, Corée du Nord", "precision": "et une partie du nord-est de la Chine pour Koguryo" }
+  },
+  "essentiel": [
+    "Selon les chroniques coréennes, trois royaumes naissent au Ier siècle av. J.-C. : Silla au sud-est, Koguryo au nord et Paekche au sud-ouest.",
+    "Koguryo devient une grande puissance militaire : [[gwanggaeto|Gwanggaeto le Grand]] étend son royaume jusqu’en Mandchourie, et ses armées repoussent les invasions chinoises des Sui et des Tang.",
+    "Paekche entretient des liens étroits avec le Japon, où il transmet le bouddhisme et l’écriture chinoise.",
+    "Allié à la Chine des Tang, Silla conquiert Paekche (660) et Koguryo (668), puis chasse les Tang de la péninsule en 676 : c’est le premier royaume à unifier la plus grande partie de la Corée.",
+    "Le Silla unifié brille par son art bouddhiste, comme la grotte de [[seokguram|Seokguram]] ; affaibli par les révoltes, il se soumet en 935 au nouveau royaume de Goryeo."
+  ],
+  "datesCles": [
+    {
+      "annee": -57,
+      "evenement": "Silla",
+      "info": "Date traditionnelle de la fondation de Silla ; Koguryo et Paekche suivent quelques années plus tard, selon les chroniques."
+    },
+    { "annee": 391, "evenement": "Gwanggaeto", "info": "Début du règne du grand conquérant de Koguryo." },
+    { "annee": 427, "evenement": "Pyongyang", "info": "Koguryo installe sa capitale à Pyongyang." },
+    { "annee": 527, "evenement": "Silla bouddhiste", "info": "Silla adopte officiellement le bouddhisme." },
+    {
+      "annee": 612,
+      "evenement": "Rivière Salsu",
+      "info": "Le général Eulji Mundeok écrase une armée chinoise des Sui."
+    },
+    { "annee": 660, "evenement": "Chute de Paekche", "info": "Silla et les Tang conquièrent Paekche." },
+    { "annee": 668, "evenement": "Chute de Koguryo", "info": "Koguryo tombe à son tour." },
+    {
+      "annee": 676,
+      "evenement": "Silla unifié",
+      "info": "Silla chasse les armées des Tang et contrôle la péninsule jusqu’au fleuve Taedong."
+    },
+    {
+      "annee": 935,
+      "evenement": "Fin de Silla",
+      "info": "Le dernier roi de Silla se soumet à Wang Geon, fondateur de Goryeo."
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "Les Trois Royaumes",
+      "debut": -57,
+      "fin": 668,
+      "resume": "Koguryo, Paekche et Silla, ainsi que la confédération de Gaya, se disputent la péninsule et s’allient tour à tour entre eux, avec la Chine ou avec le Japon.",
+      "evenements": [
+        { "annee": 391, "evenement": "Gwanggaeto roi de Koguryo" },
+        { "annee": 562, "evenement": "Silla annexe Gaya" },
+        { "annee": 660, "evenement": "Chute de Paekche" },
+        { "annee": 668, "evenement": "Chute de Koguryo" }
+      ]
+    },
+    {
+      "nom": "Le Silla unifié",
+      "debut": 668,
+      "fin": 935,
+      "resume": "Silla gouverne le sud et le centre de la péninsule ; sa capitale, Gyeongju, est l’une des grandes villes d’Asie. Au nord, le royaume de Balhae naît en 698.",
+      "evenements": [
+        { "annee": 676, "evenement": "Les Tang chassés" },
+        { "annee": 751, "evenement": "Construction de Bulguksa et de Seokguram" },
+        { "annee": 935, "evenement": "Soumission à Goryeo" }
+      ]
+    }
+  ],
+  "regimes": [{ "id": "monarchies", "nom": "Monarchies", "debut": -57, "fin": 935 }],
+  "dynasties": [
+    {
+      "id": "silla",
+      "nom": "Silla",
+      "debut": -57,
+      "fin": 935,
+      "note": "Sélection ; dates des premiers rois selon la tradition."
+    },
+    { "id": "koguryo", "nom": "Koguryo", "debut": -37, "fin": 668, "note": "Sélection." },
+    { "id": "paekche", "nom": "Paekche", "debut": -18, "fin": 660, "note": "Sélection." }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Bak Hyeokgeose",
+      "titre": "Roi de Silla",
+      "debut": -57,
+      "fin": 4,
+      "dynastie": "silla",
+      "note": "fondateur légendaire",
+      "cle": true
+    },
+    {
+      "nom": "Jumong",
+      "titre": "Roi de Koguryo",
+      "debut": -37,
+      "fin": -19,
+      "dynastie": "koguryo",
+      "note": "fondateur légendaire",
+      "cle": true
+    },
+    {
+      "nom": "Geunchogo",
+      "titre": "Roi de Paekche",
+      "debut": 346,
+      "fin": 375,
+      "dynastie": "paekche",
+      "note": "apogée de Paekche"
+    },
+    {
+      "nom": "Gwanggaeto le Grand",
+      "titre": "Roi de Koguryo",
+      "debut": 391,
+      "fin": 413,
+      "dynastie": "koguryo",
+      "personne": "gwanggaeto",
+      "cle": true
+    },
+    {
+      "nom": "Jangsu",
+      "titre": "Roi de Koguryo",
+      "debut": 413,
+      "fin": 491,
+      "dynastie": "koguryo",
+      "note": "installe la capitale à Pyongyang",
+      "cle": true
+    },
+    {
+      "nom": "Seong",
+      "titre": "Roi de Paekche",
+      "debut": 523,
+      "fin": 554,
+      "dynastie": "paekche",
+      "note": "envoie au Japon des textes et des statues bouddhistes"
+    },
+    {
+      "nom": "Jinheung",
+      "titre": "Roi de Silla",
+      "debut": 540,
+      "fin": 576,
+      "dynastie": "silla",
+      "note": "annexe la confédération de Gaya"
+    },
+    {
+      "nom": "Seondeok",
+      "titre": "Reine de Silla",
+      "debut": 632,
+      "fin": 647,
+      "dynastie": "silla",
+      "personne": "seondeok-de-silla",
+      "cle": true
+    },
+    {
+      "nom": "Munmu",
+      "titre": "Roi de Silla",
+      "debut": 661,
+      "fin": 681,
+      "dynastie": "silla",
+      "note": "achève l’unification",
+      "cle": true
+    },
+    {
+      "nom": "Gyeongsun",
+      "titre": "Roi de Silla",
+      "debut": 927,
+      "fin": 935,
+      "dynastie": "silla",
+      "note": "dernier roi, se soumet à Goryeo"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Gwanggaeto le Grand",
+      "role": "Roi de Koguryo",
+      "description": "Le conquérant qui fait de Koguryo la puissance dominante du nord-est de l’Asie.",
+      "dates": "374 → 413",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Gwanggaeto_le_Grand",
+      "ref": "gwanggaeto"
+    },
+    {
+      "nom": "Seondeok",
+      "role": "Reine de Silla",
+      "description": "La première reine régnante de l’histoire coréenne.",
+      "dates": "? → 647",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Queen_Seondeok_of_Silla",
+      "ref": "seondeok-de-silla"
+    },
+    {
+      "nom": "Kim Yu-sin",
+      "role": "Général de Silla",
+      "description": "Le chef militaire de l’unification, qui bat Paekche en 660.",
+      "dates": "595 → 673",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Kim_Yu-sin"
+    },
+    {
+      "nom": "Eulji Mundeok",
+      "role": "Général de Koguryo",
+      "description": "Il écrase une armée chinoise des Sui à la rivière Salsu en 612.",
+      "dates": "VIe-VIIe siècles",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Eulji_Mundeok"
+    },
+    {
+      "nom": "Jang Bogo",
+      "role": "Commandant maritime",
+      "description": "Il chasse les pirates et contrôle au IXe siècle le commerce maritime entre la Corée, la Chine et le Japon.",
+      "dates": "? → 846",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Jang_Bogo"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerre de Koguryo contre les Sui",
+      "annee": 612,
+      "adversaires": ["Chine des Sui (empereur Yang)"],
+      "allies": [],
+      "morts": "Très lourdes pour l’armée chinoise, selon les chroniques",
+      "vainqueur": "Koguryo",
+      "consequences": "Le général Eulji Mundeok écrase une armée chinoise à la rivière Salsu. Les échecs répétés contre Koguryo contribuent à la chute de la dynastie Sui en 618.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Goguryeo%E2%80%93Sui_War"
+    },
+    {
+      "nom": "Bataille de Baekgang",
+      "annee": 663,
+      "adversaires": ["Partisans de Paekche", "Flotte du Japon (Yamato)"],
+      "allies": ["Chine des Tang"],
+      "morts": "Plusieurs milliers",
+      "vainqueur": "Silla et Tang",
+      "consequences": "La flotte japonaise venue aider les partisans de Paekche est détruite : Paekche ne se relèvera pas, et le Japon renonce à intervenir en Corée.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Baekgang"
+    },
+    {
+      "nom": "Guerre Silla-Tang",
+      "annee": 670,
+      "adversaires": ["Chine des Tang"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Silla",
+      "consequences": "Après avoir vaincu Paekche et Koguryo avec l’aide des Tang, Silla se retourne contre son allié, qui veut dominer la péninsule, et le chasse en 676.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Silla%E2%80%93Tang_War"
+    }
+  ],
+  "sciences": "La tour de pierre de Cheomseongdae, à Gyeongju, construite au VIIe siècle sous la reine Seondeok, est l’un des plus anciens observatoires astronomiques d’Asie de l’Est encore debout. Un texte bouddhiste imprimé avec des planches de bois, retrouvé dans une pagode de Bulguksa et daté d’avant 751, compte parmi les plus anciens imprimés connus. Les orfèvres de Silla fabriquent des couronnes d’or ornées de pendentifs de jade.",
+  "croyancesText": "Les Coréens honorent des esprits de la nature et des ancêtres, avec l’aide de chamanes. Le bouddhisme, venu de Chine, est adopté par Koguryo (372), Paekche (384) puis Silla (527), où il devient religion d’État. Le confucianisme inspire l’enseignement des fonctionnaires : Silla fonde une école royale en 682.",
+  "diplomatie": "Les trois royaumes changent souvent d’alliances entre eux et avec leurs voisins. Paekche s’allie au Japon, auquel il transmet le bouddhisme et l’écriture. Silla s’allie à la Chine des Tang pour vaincre ses rivaux, puis la combat. Au IXe siècle, le commandant Jang Bogo contrôle le commerce maritime entre la Corée, la Chine et le Japon.",
+  "societe": "À Silla, la naissance détermine la place de chacun : c’est le système des « rangs d’os ». Seuls les membres du plus haut rang peuvent devenir roi. Les hwarang, des groupes de jeunes nobles, s’entraînent aux armes, à la poésie et à la morale.",
+  "economie": "Riziculture, travail du fer, orfèvrerie, commerce avec la Chine et le Japon.",
+  "arts": "Couronnes d’or de Silla, peintures murales des tombes de Koguryo, temple de Bulguksa et grotte de Seokguram, pagodes de pierre.",
+  "quotidien": "Les tombes de Koguryo montrent sur leurs murs des scènes de chasse, de danse, de lutte et de cuisine.",
+  "heritage": [
+    {
+      "titre": "Gyeongju",
+      "texte": "L’ancienne capitale de Silla, avec ses tombeaux, Bulguksa et Seokguram, est inscrite au patrimoine mondial de l’UNESCO."
+    },
+    {
+      "titre": "Le nom de la Corée",
+      "texte": "Le royaume de Goryeo, successeur de Silla, prend un nom inspiré de Koguryo ; c’est de lui que vient le mot « Corée »."
+    }
+  ],
+  "aSavoir": ["Silla est le seul royaume coréen à avoir été gouverné par des reines : Seondeok, Jindeok et Jinseong."],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Trois_Royaumes_de_Cor%C3%A9e",
+    "https://fr.wikipedia.org/wiki/Silla",
+    {
+      "titre": "Encyclopædia Britannica — Korea, the Three Kingdoms period",
+      "url": "https://www.britannica.com/place/Korea/The-Three-Kingdoms-period"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "cheomseongdae",
+  "nom": "Cheomseongdae",
+  "domaine": "Astronomie",
+  "dates": "VIIe siècle",
+  "description": "Une tour de pierre de 9 mètres de haut construite à Gyeongju sous la reine Seondeok, considérée comme l’un des plus anciens observatoires astronomiques d’Asie de l’Est.",
+  "sections": [
+    {
+      "titre": "Une tour pleine de symboles",
+      "texte": "Selon une interprétation répandue, ses quelque 360 pierres évoqueraient les jours de l’année. Les historiens débattent encore de la façon dont on l’utilisait pour observer le ciel."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Cheomseongdae"
+}

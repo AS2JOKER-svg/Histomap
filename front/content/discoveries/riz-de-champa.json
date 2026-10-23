@@ -1,0 +1,15 @@
+{
+  "id": "riz-de-champa",
+  "nom": "Riz de Champa",
+  "annee": 1012,
+  "domaine": "Agriculture",
+  "dates": "XIe siècle",
+  "description": "Une variété de riz venue du Champa, qui pousse vite et résiste à la sécheresse, introduite en Chine au début du XIe siècle.",
+  "sections": [
+    {
+      "titre": "Une révolution agricole",
+      "texte": "L’empereur chinois Zhenzong fait distribuer ces semences aux paysans du bas Yangzi. Dans le Sud, elles permettent souvent deux récoltes par an, ce qui aide la population chinoise à augmenter fortement sous les Song."
+    }
+  ],
+  "wikiUrl": "https://en.wikipedia.org/wiki/Champa_rice"
+}

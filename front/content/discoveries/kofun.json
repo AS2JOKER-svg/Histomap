@@ -1,0 +1,18 @@
+{
+  "id": "kofun",
+  "nom": "Kofun",
+  "domaine": "Architecture",
+  "dates": "IIIe-VIIe siècles",
+  "description": "D’immenses tombeaux de terre, souvent en forme de trou de serrure et entourés de fossés, construits pour les chefs et les rois du Japon ancien.",
+  "sections": [
+    {
+      "titre": "Des tombeaux géants",
+      "texte": "Le plus grand, le Daisen kofun, attribué à l’empereur Nintoku, mesure environ 486 mètres de long : c’est l’un des plus grands tombeaux du monde."
+    },
+    {
+      "titre": "Les haniwa",
+      "texte": "Des milliers de figurines de terre cuite, les haniwa, représentant des maisons, des animaux, des guerriers ou des musiciens, étaient disposées sur les tertres. Les kofun de Mozu-Furuichi sont inscrits au patrimoine mondial de l’UNESCO depuis 2019."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Kofun"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "liliuokalani",
+  "nom": "Liliʻuokalani",
+  "role": "Reine d’Hawaï",
+  "roles": ["Reine", "Compositrice"],
+  "dates": "1838 → 1917",
+  "naissance": 1838,
+  "mort": 1917,
+  "description": "Dernière souveraine d’Hawaï (1891-1893), elle est renversée en 1893 et lutte ensuite pacifiquement pour le rétablissement du royaume.",
+  "reperes": [{ "label": "Règne", "valeur": "1891 → 1893" }],
+  "essentiel": [
+    "Elle veut adopter une nouvelle constitution pour rendre le pouvoir au roi et aux Hawaïens.",
+    "Renversée en 1893, elle cède pour éviter un bain de sang.",
+    "Arrêtée en 1895 après un soulèvement de ses partisans, elle abdique et est assignée à résidence dans son palais.",
+    "Elle compose plus de 150 chansons, dont « Aloha ʻOe »."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Lili%CA%BBuokalani"
+}

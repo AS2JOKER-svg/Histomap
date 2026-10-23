@@ -1,0 +1,19 @@
+{
+  "id": "raids-esclavagistes-de-1862",
+  "nom": "Raids esclavagistes de 1862",
+  "annee": 1862,
+  "dates": "1862 → 1863",
+  "lieu": "Rapa Nui (île de Pâques) et Pérou",
+  "description": "Des navires venus du Pérou enlèvent environ 1 500 habitants de Rapa Nui, soit peut-être un tiers à la moitié de la population, pour les faire travailler de force.",
+  "sections": [
+    {
+      "titre": "Une catastrophe",
+      "texte": "La plupart des captifs meurent au Pérou. Sous la pression internationale, une partie des survivants est rapatriée, mais ils rapportent la variole, qui ravage l’île."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Parmi les morts figurent de nombreux chefs et prêtres, gardiens des traditions : une grande partie des savoirs, dont la lecture du rongorongo, se perd. En 1877, il ne reste que 111 habitants."
+    }
+  ],
+  "wikiUrl": "https://en.wikipedia.org/wiki/History_of_Easter_Island"
+}

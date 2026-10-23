@@ -1,0 +1,14 @@
+{
+  "id": "rongorongo",
+  "nom": "Rongorongo",
+  "domaine": "Écriture",
+  "dates": "connu au XIXe siècle",
+  "description": "Des signes gravés sur des tablettes de bois de Rapa Nui, qui forment peut-être une écriture ; ils n’ont jamais été déchiffrés.",
+  "sections": [
+    {
+      "titre": "Une énigme",
+      "texte": "Il ne reste qu’une vingtaine d’objets gravés, conservés dans des musées. Les chercheurs ne savent pas si le rongorongo existait avant l’arrivée des Européens ou s’il a été inventé après avoir vu leur écriture."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Rongorongo"
+}

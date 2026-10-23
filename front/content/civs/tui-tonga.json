@@ -1,0 +1,181 @@
+{
+  "documentaires": [],
+  "decouvertes": ["haamonga-a-maui"],
+  "id": "tui-tonga",
+  "label": "Empire Tuʻi Tonga",
+  "tier": 2,
+  "region": "pacifique",
+  "period": "vers 950 à 1865",
+  "start": 950,
+  "end": 1865,
+  "color": "#1565c0",
+  "trackId": "polynesie-ouest",
+  "row": 5,
+  "isRiver": false,
+  "capitale": "Lapaha (Muʻa), sur Tongatapu",
+  "description": "La royauté sacrée des îles Tonga, dont l’influence s’étend du XIIe au XVe siècle sur une partie de la Polynésie occidentale, de Samoa à Wallis-et-Futuna ; ses héritiers fondent le royaume de Tonga, toujours monarchie aujourd’hui.",
+  "territories": ["Tuʻi Tonga Empire"],
+  "reperes": {
+    "capitale": {
+      "valeur": "Lapaha (Muʻa), sur Tongatapu",
+      "precision": "où se trouvent les tombeaux royaux en pierre (langi)"
+    },
+    "regimes": {
+      "valeur": "Royauté sacrée",
+      "precision": "le Tuʻi Tonga, descendant des dieux selon la tradition ; à partir du XVe siècle, d’autres souverains exercent le pouvoir politique"
+    },
+    "langues": { "valeur": "Tongien", "precision": "une langue polynésienne" },
+    "religion": { "valeur": "Religion polynésienne", "precision": "le christianisme se répand au XIXe siècle" },
+    "apogee": { "valeur": "XIIe → XVe siècle" },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": { "valeur": "Aucune", "precision": "échanges de nattes fines, d’étoffes d’écorce (tapa) et de pirogues" },
+    "duree": { "valeur": "Plus de 900 ans" },
+    "aujourdhui": {
+      "valeur": "Tonga",
+      "precision": "influence ancienne sur Samoa, Wallis-et-Futuna, Niue et une partie de Fidji"
+    }
+  },
+  "essentiel": [
+    "Selon la tradition, vers 950, Ahoʻeitu, fils d’un dieu et d’une femme de Tonga, devient le premier Tuʻi Tonga, « roi de Tonga ».",
+    "Du XIIe au XVe siècle, grâce à leurs grandes pirogues doubles, les Tuʻi Tonga étendent leur influence sur une partie de la Polynésie occidentale ; l’étendue réelle de cet « empire » maritime reste discutée.",
+    "Ils font bâtir à Lapaha d’imposants tombeaux de pierre à gradins et, selon la tradition, le trilithe du [[haamonga-a-maui|Haʻamonga ʻa Maui]].",
+    "Après l’assassinat de plusieurs Tuʻi Tonga, le pouvoir politique passe au XVe siècle à d’autres lignées, tandis que le Tuʻi Tonga garde un rôle sacré.",
+    "Au XIXe siècle, après des guerres civiles, Tāufaʻāhau unifie l’archipel et devient le roi [[george-tupou-ier|George Tupou Ier]] ; le dernier Tuʻi Tonga meurt en 1865."
+  ],
+  "datesCles": [
+    { "annee": 950, "evenement": "Ahoʻeitu", "info": "Selon la tradition, le premier Tuʻi Tonga commence à régner." },
+    {
+      "annee": 1200,
+      "evenement": "Haʻamonga ʻa Maui",
+      "info": "Vers 1200, selon la tradition, le Tuʻi Tonga Tuʻitātui fait dresser un grand portique de pierre."
+    },
+    {
+      "annee": 1470,
+      "evenement": "Partage du pouvoir",
+      "info": "Au XVe siècle, après l’assassinat de plusieurs Tuʻi Tonga, une nouvelle lignée, les Tuʻi Haʻatakalaua, exerce le pouvoir politique."
+    },
+    {
+      "annee": 1643,
+      "evenement": "Abel Tasman",
+      "info": "Le navigateur hollandais est le premier Européen à aborder Tongatapu."
+    },
+    { "annee": 1773, "evenement": "James Cook", "info": "Cook visite Tonga, qu’il surnomme les « îles des Amis »." },
+    {
+      "annee": 1799,
+      "evenement": "Guerres civiles",
+      "info": "L’assassinat d’un souverain ouvre un demi-siècle de guerres entre chefs."
+    },
+    {
+      "annee": 1845,
+      "evenement": "Unification",
+      "info": "Tāufaʻāhau devient roi de tout l’archipel sous le nom de George Tupou Ier."
+    },
+    {
+      "annee": 1865,
+      "evenement": "Dernier Tuʻi Tonga",
+      "info": "À la mort de Laufilitonga, le titre de Tuʻi Tonga disparaît."
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "Les rois sacrés",
+      "debut": 950,
+      "fin": 1470,
+      "resume": "Les Tuʻi Tonga étendent leur influence par la mer et bâtissent les monuments de Lapaha.",
+      "evenements": [
+        { "annee": 950, "evenement": "Ahoʻeitu, premier Tuʻi Tonga" },
+        { "annee": 1200, "evenement": "Haʻamonga ʻa Maui" }
+      ]
+    },
+    {
+      "nom": "Le pouvoir partagé",
+      "debut": 1470,
+      "fin": 1799,
+      "resume": "Le Tuʻi Tonga garde son prestige sacré, mais le pouvoir politique passe aux Tuʻi Haʻatakalaua, puis aux Tuʻi Kanokupolu.",
+      "evenements": [{ "annee": 1643, "evenement": "Abel Tasman" }, { "annee": 1773, "evenement": "James Cook" }]
+    },
+    {
+      "nom": "Guerres et unification",
+      "debut": 1799,
+      "fin": 1865,
+      "resume": "Après un demi-siècle de guerres civiles, Tāufaʻāhau unifie l’archipel et se convertit au christianisme.",
+      "evenements": [
+        { "annee": 1799, "evenement": "Début des guerres civiles" },
+        { "annee": 1845, "evenement": "George Tupou Ier roi" }
+      ]
+    }
+  ],
+  "regimes": [{ "id": "royaute-sacree", "nom": "Royauté sacrée", "debut": 950, "fin": 1865 }],
+  "dirigeants": [],
+  "personnages": [
+    {
+      "nom": "Ahoʻeitu",
+      "role": "Premier Tuʻi Tonga",
+      "description": "Selon la tradition, fils du dieu Tangaloa ʻEitumatupuʻa et d’une femme de Tonga.",
+      "dates": "tradition",
+      "wikiUrl": "https://en.wikipedia.org/wiki/%CA%BBAho%CA%BBeitu"
+    },
+    {
+      "nom": "Tuʻitātui",
+      "role": "Tuʻi Tonga",
+      "description": "La tradition lui attribue le portique de pierre du Haʻamonga ʻa Maui.",
+      "dates": "vers le XIIe siècle",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Tu%CA%BBi-t%C4%81-tui"
+    },
+    {
+      "nom": "George Tupou Ier",
+      "role": "Roi de Tonga",
+      "description": "Il unifie l’archipel en 1845 et donne au pays sa constitution.",
+      "dates": "vers 1797 → 1893",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/George_Tupou_Ier",
+      "ref": "george-tupou-ier"
+    },
+    {
+      "nom": "Laufilitonga",
+      "role": "Dernier Tuʻi Tonga",
+      "description": "Vaincu par Tāufaʻāhau, il garde son titre jusqu’à sa mort en 1865.",
+      "dates": "? → 1865",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Laufilitonga"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerres civiles tonganes",
+      "annee": 1799,
+      "adversaires": ["Chefs rivaux de l’archipel"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Tāufaʻāhau (George Tupou Ier)",
+      "consequences": "Après l’assassinat d’un souverain en 1799, les chefs se disputent le pouvoir pendant un demi-siècle. Tāufaʻāhau unifie l’archipel en 1845 et devient roi sous le nom de George Tupou Ier.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/History_of_Tonga"
+    }
+  ],
+  "sciences": "Les Tongiens construisent de grandes pirogues doubles, les kalia, capables de transporter des dizaines de personnes sur des centaines de kilomètres. Ils taillent et assemblent d’énormes blocs de corail pour bâtir les tombeaux royaux à gradins (langi) et le portique du Haʻamonga ʻa Maui, dont certains pensent qu’il servait à repérer les solstices.",
+  "croyancesText": "Le Tuʻi Tonga est considéré comme un descendant des dieux, et sa personne est sacrée. Les Tongiens honorent des dieux comme Tangaloa et Maui et redoutent de violer les interdits (tapu). Au XIXe siècle, des missionnaires méthodistes convertissent une grande partie de la population, dont le futur roi George Tupou Ier.",
+  "diplomatie": "Les Tuʻi Tonga entretiennent des liens par mariage, échanges de cadeaux et parfois guerres avec les chefs de Samoa, de Fidji, de Wallis et de Futuna. Tonga n’a jamais été colonisé : il devient en 1900 un protectorat britannique, puis retrouve sa pleine indépendance en 1970.",
+  "societe": "La société est très hiérarchisée : les chefs (ʻeiki) dominent les gens du commun, et chacun doit respect à ceux de rang supérieur. Le rang se transmet aussi par les femmes : la sœur du Tuʻi Tonga, la Tuʻi Tonga Fefine, a un rang encore plus élevé que lui.",
+  "economie": "Culture de l’igname, du taro et de la noix de coco, pêche, fabrication de nattes fines et d’étoffes d’écorce (tapa), échangées lors des grandes cérémonies.",
+  "arts": "Tombeaux de pierre à gradins de Lapaha, nattes fines, tapa décorés, danses et chants (lakalaka).",
+  "quotidien": "Lors des grandes cérémonies, on boit le kava, une boisson tirée d’une racine, selon un ordre qui respecte le rang de chacun.",
+  "heritage": [
+    {
+      "titre": "Un royaume toujours vivant",
+      "texte": "Tonga est aujourd’hui le seul royaume du Pacifique ; ses rois descendent des Tuʻi Kanokupolu et des Tuʻi Tonga."
+    },
+    {
+      "titre": "Le lakalaka",
+      "texte": "Cette danse chantée tongienne est inscrite au patrimoine culturel immatériel de l’UNESCO."
+    }
+  ],
+  "aSavoir": [
+    "Cook appela Tonga les « îles des Amis » en raison de l’accueil reçu ; on raconta plus tard que des chefs avaient en fait projeté de l’attaquer."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Tu%CA%BBi_Tonga_Empire",
+    "https://fr.wikipedia.org/wiki/Histoire_des_Tonga",
+    {
+      "titre": "Encyclopædia Britannica — Tonga, history",
+      "url": "https://www.britannica.com/place/Tonga/History"
+    }
+  ]
+}

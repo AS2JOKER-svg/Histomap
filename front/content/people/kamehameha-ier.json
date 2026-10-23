@@ -1,0 +1,17 @@
+{
+  "id": "kamehameha-ier",
+  "nom": "Kamehameha Ier",
+  "role": "Roi d’Hawaï",
+  "roles": ["Roi", "Chef de guerre"],
+  "dates": "vers 1758 → 1819",
+  "mort": 1819,
+  "description": "Chef de l’île d’Hawaï, il unifie l’archipel entre 1795 et 1810 et fonde le royaume d’Hawaï.",
+  "reperes": [{ "label": "Règne", "valeur": "1795 → 1819" }],
+  "essentiel": [
+    "Jeune guerrier, il est présent lors de la visite de James Cook en 1779.",
+    "Il utilise des armes à feu et des conseillers européens pour conquérir les autres îles.",
+    "Il promulgue la « loi de la pagaie brisée », qui protège les civils et les voyageurs.",
+    "Le 11 juin, jour de Kamehameha, est un jour férié à Hawaï."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Kamehameha_Ier"
+}

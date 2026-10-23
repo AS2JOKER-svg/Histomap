@@ -1,0 +1,18 @@
+{
+  "id": "moai",
+  "nom": "Moaï",
+  "domaine": "Art et religion",
+  "dates": "XIIIe-XVIIe siècles",
+  "description": "Près d’un millier de statues monumentales sculptées dans la roche volcanique de Rapa Nui, qui représentent les ancêtres des clans.",
+  "sections": [
+    {
+      "titre": "Des géants de pierre",
+      "texte": "Ils mesurent en moyenne 4 mètres ; le plus grand qui ait été dressé, Paro, atteint environ 10 mètres. Beaucoup portent une coiffe de pierre rouge, le pukao."
+    },
+    {
+      "titre": "Renversés puis relevés",
+      "texte": "Au XIXe siècle, tous les moaï dressés avaient été renversés. Plusieurs ont été relevés au XXe siècle, comme les quinze statues d’Ahu Tongariki."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Moa%C3%AF"
+}

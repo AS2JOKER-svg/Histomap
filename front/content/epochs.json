@@ -225,7 +225,9 @@
         "id": "oceanie",
         "label": "Océanie",
         "civs": [
-          "maoris"
+          "maoris",
+          "tui-tonga",
+          "rapa-nui"
         ]
       }
     ]
@@ -344,6 +346,13 @@
           "royaume-zoulou",
           "empire-wassoulou",
           "afrique-sud"
+        ]
+      },
+      {
+        "id": "oceanie",
+        "label": "Océanie",
+        "civs": [
+          "royaume-hawai"
         ]
       }
     ]

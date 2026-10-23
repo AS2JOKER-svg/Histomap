@@ -1,0 +1,17 @@
+{
+  "id": "george-tupou-ier",
+  "nom": "George Tupou Ier",
+  "role": "Roi de Tonga",
+  "roles": ["Roi", "Chef de guerre"],
+  "dates": "vers 1797 → 1893",
+  "mort": 1893,
+  "description": "Chef tongien, Tāufaʻāhau unifie l’archipel en 1845 et règne sous le nom de George Tupou Ier ; il fonde le royaume moderne de Tonga.",
+  "reperes": [{ "label": "Règne", "valeur": "1845 → 1893" }],
+  "essentiel": [
+    "Converti au christianisme en 1831, il prend le nom de George en l’honneur du roi d’Angleterre.",
+    "Il met fin à un demi-siècle de guerres civiles.",
+    "En 1875, il donne à Tonga une constitution, toujours en vigueur avec des modifications.",
+    "Il abolit le servage et veut préserver l’indépendance du pays face aux Européens."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/George_Tupou_Ier"
+}

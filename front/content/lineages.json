@@ -188,6 +188,7 @@
     "color": "#e74c3c",
     "members": [
       "azteque",
+      "nouvelle-espagne",
       "mexique"
     ]
   },
@@ -217,6 +218,15 @@
       "srivijaya",
       "majapahit",
       "indonesie"
+    ]
+  },
+  {
+    "id": "bresil",
+    "label": "Brésil",
+    "color": "#1b5e20",
+    "members": [
+      "bresil-colonial",
+      "bresil"
     ]
   }
 ]

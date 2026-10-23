@@ -1,0 +1,255 @@
+{
+  "documentaires": [],
+  "decouvertes": [],
+  "id": "nouvelle-france",
+  "label": "Nouvelle-France",
+  "tier": 1,
+  "region": "amerique-nord",
+  "period": "1534 à 1763",
+  "start": 1534,
+  "end": 1763,
+  "color": "#1565c0",
+  "trackId": "amerique-nord",
+  "row": 2,
+  "isRiver": false,
+  "capitale": "Québec",
+  "description": "Les colonies françaises d’Amérique du Nord, du Saint-Laurent à la Louisiane, fondées sur le commerce des fourrures et les alliances avec les peuples autochtones, jusqu’à leur cession à la Grande-Bretagne et à l’Espagne en 1763.",
+  "territories": ["New France", "Louisiana"],
+  "reperes": {
+    "capitale": { "valeur": "Québec", "precision": "fondée en 1608 ; La Nouvelle-Orléans devient la capitale de la Louisiane" },
+    "regimes": {
+      "valeur": "Colonie royale",
+      "precision": "compagnies de commerce, puis gouverneur et intendant nommés par le roi à partir de 1663"
+    },
+    "langues": { "valeur": "Français", "precision": "et les langues des peuples autochtones alliés" },
+    "religion": { "valeur": "Catholicisme" },
+    "apogee": { "valeur": "Vers 1712", "precision": "la Nouvelle-France s’étend de l’Acadie à la Louisiane" },
+    "population": {
+      "valeur": "Environ 70 000 colons vers 1760",
+      "precision": "contre plus d’un million dans les colonies britanniques"
+    },
+    "monnaie": { "valeur": "Livre française", "precision": "et même, faute de pièces, une « monnaie de cartes à jouer »" },
+    "duree": { "valeur": "Plus de 220 ans" },
+    "aujourdhui": { "valeur": "Canada et États-Unis", "precision": "Québec, provinces atlantiques, vallée du Mississippi" }
+  },
+  "essentiel": [
+    "En 1534, [[jacques-cartier|Jacques Cartier]] prend possession de la Gaspésie au nom du roi de France ; l’année suivante, il remonte le Saint-Laurent jusqu’au village iroquoien d’Hochelaga.",
+    "En 1608, [[samuel-de-champlain|Samuel de Champlain]] fonde Québec ; la colonie vit du commerce des fourrures, en alliance avec les Innus, les Algonquins et les Hurons-Wendats.",
+    "Ces alliances l’entraînent dans de longues guerres contre les Haudenosaunee, jusqu’à la [[grande-paix-de-montreal|Grande Paix de Montréal]] (1701).",
+    "Des explorateurs descendent le Mississippi : en 1682, Cavelier de La Salle atteint son embouchure et nomme la région Louisiane, en l’honneur de [[louis-xiv|Louis XIV]].",
+    "Peu peuplée face aux colonies britanniques, la Nouvelle-France est conquise pendant la guerre de Sept Ans : après la [[bataille-des-plaines-d-abraham|bataille des plaines d’Abraham]] (1759), elle est cédée en 1763."
+  ],
+  "datesCles": [
+    {
+      "annee": 1534,
+      "evenement": "Jacques Cartier",
+      "info": "Cartier plante une croix à Gaspé et prend possession du territoire au nom du roi."
+    },
+    { "annee": 1608, "evenement": "Québec", "info": "Samuel de Champlain fonde Québec." },
+    {
+      "annee": 1642,
+      "evenement": "Montréal",
+      "info": "Paul de Chomedey de Maisonneuve et Jeanne Mance fondent Ville-Marie, la future Montréal."
+    },
+    {
+      "annee": 1663,
+      "evenement": "Colonie royale",
+      "info": "Louis XIV prend directement en main la colonie ; les « filles du roi » viennent s’y établir."
+    },
+    { "annee": 1682, "evenement": "Louisiane", "info": "Cavelier de La Salle atteint l’embouchure du Mississippi." },
+    {
+      "annee": 1701,
+      "evenement": "Grande Paix de Montréal",
+      "info": "Paix avec les Haudenosaunee et une quarantaine de nations autochtones.",
+      "ref": "grande-paix-de-montreal"
+    },
+    {
+      "annee": 1713,
+      "evenement": "Traité d’Utrecht",
+      "info": "La France cède l’Acadie, Terre-Neuve et la baie d’Hudson à la Grande-Bretagne."
+    },
+    {
+      "annee": 1755,
+      "evenement": "Grand Dérangement",
+      "info": "Les Britanniques déportent la population acadienne."
+    },
+    {
+      "annee": 1759,
+      "evenement": "Plaines d’Abraham",
+      "info": "Les Britanniques battent l’armée française devant Québec.",
+      "ref": "bataille-des-plaines-d-abraham"
+    },
+    {
+      "annee": 1763,
+      "evenement": "Traité de Paris",
+      "info": "La France cède le Canada à la Grande-Bretagne ; la Louisiane occidentale est passée à l’Espagne."
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "Explorations et premiers postes",
+      "debut": 1534,
+      "fin": 1663,
+      "resume": "Les Français explorent le Saint-Laurent, fondent Québec et Montréal et s’allient aux peuples autochtones pour le commerce des fourrures.",
+      "evenements": [
+        { "annee": 1534, "evenement": "Jacques Cartier" },
+        { "annee": 1608, "evenement": "Fondation de Québec" },
+        { "annee": 1642, "evenement": "Fondation de Montréal" }
+      ]
+    },
+    {
+      "nom": "La colonie royale",
+      "debut": 1663,
+      "fin": 1713,
+      "resume": "Louis XIV développe la colonie, qui s’étend jusqu’à la Louisiane ; la Grande Paix est conclue en 1701.",
+      "evenements": [
+        { "annee": 1663, "evenement": "Colonie royale" },
+        { "annee": 1682, "evenement": "Louisiane" },
+        { "annee": 1701, "evenement": "Grande Paix", "ref": "grande-paix-de-montreal" }
+      ]
+    },
+    {
+      "nom": "Face à la Grande-Bretagne",
+      "debut": 1713,
+      "fin": 1763,
+      "resume": "La Nouvelle-France perd l’Acadie, puis est conquise pendant la guerre de Sept Ans.",
+      "evenements": [
+        { "annee": 1713, "evenement": "Traité d’Utrecht" },
+        { "annee": 1755, "evenement": "Déportation des Acadiens" },
+        { "annee": 1759, "evenement": "Plaines d’Abraham", "ref": "bataille-des-plaines-d-abraham" }
+      ]
+    }
+  ],
+  "regimes": [
+    { "id": "compagnies", "nom": "Colonie de compagnies de commerce", "debut": 1534, "fin": 1663 },
+    { "id": "royale", "nom": "Colonie royale", "debut": 1663, "fin": 1763 }
+  ],
+  "dynasties": [{ "id": "gouverneurs", "nom": "Gouverneurs de la Nouvelle-France", "debut": 1608, "fin": 1760, "note": "Sélection." }],
+  "dirigeants": [
+    {
+      "nom": "Samuel de Champlain",
+      "titre": "Commandant",
+      "debut": 1608,
+      "fin": 1635,
+      "dynastie": "gouverneurs",
+      "note": "fondateur de Québec",
+      "personne": "samuel-de-champlain",
+      "cle": true
+    },
+    {
+      "nom": "Comte de Frontenac",
+      "titre": "Gouverneur",
+      "debut": 1672,
+      "fin": 1682,
+      "dynastie": "gouverneurs",
+      "note": "gouverne une seconde fois de 1689 à 1698",
+      "cle": true
+    },
+    {
+      "nom": "Louis-Hector de Callière",
+      "titre": "Gouverneur",
+      "debut": 1698,
+      "fin": 1703,
+      "dynastie": "gouverneurs",
+      "note": "conclut la Grande Paix de Montréal",
+      "cle": true
+    },
+    {
+      "nom": "Marquis de Vaudreuil",
+      "titre": "Gouverneur",
+      "debut": 1755,
+      "fin": 1760,
+      "dynastie": "gouverneurs",
+      "note": "dernier gouverneur",
+      "cle": true
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Jacques Cartier",
+      "role": "Navigateur",
+      "description": "L’explorateur du Saint-Laurent.",
+      "dates": "1491 → 1557",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Jacques_Cartier",
+      "ref": "jacques-cartier"
+    },
+    {
+      "nom": "Samuel de Champlain",
+      "role": "Explorateur et fondateur",
+      "description": "Le fondateur de Québec.",
+      "dates": "vers 1574 → 1635",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Samuel_de_Champlain",
+      "ref": "samuel-de-champlain"
+    },
+    {
+      "nom": "Jeanne Mance",
+      "role": "Cofondatrice de Montréal",
+      "description": "Elle fonde le premier hôpital de Montréal, l’Hôtel-Dieu.",
+      "dates": "1606 → 1673",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Jeanne_Mance"
+    },
+    {
+      "nom": "Jean Talon",
+      "role": "Intendant",
+      "description": "Il développe l’agriculture, l’artisanat et le peuplement de la colonie.",
+      "dates": "1626 → 1694",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Jean_Talon"
+    },
+    {
+      "nom": "Louis-Joseph de Montcalm",
+      "role": "Général",
+      "description": "Le commandant de l’armée française, mortellement blessé sur les plaines d’Abraham.",
+      "dates": "1712 → 1759",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Louis-Joseph_de_Montcalm"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerres franco-iroquoises",
+      "annee": 1609,
+      "adversaires": ["Confédération iroquoise (Haudenosaunee)"],
+      "allies": ["Hurons-Wendats, Algonquins, Innus"],
+      "morts": "Inconnues",
+      "vainqueur": "Aucun (paix de 1701)",
+      "consequences": "En 1609, Champlain et ses alliés battent des Mohawks près du lac Champlain ; commence près d’un siècle de guerres pour le commerce des fourrures, qui s’achève par la Grande Paix de Montréal en 1701.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerres_franco-iroquoises"
+    },
+    {
+      "nom": "Guerre de Sept Ans (Guerre de la Conquête)",
+      "annee": 1756,
+      "adversaires": ["Grande-Bretagne et ses colonies d’Amérique"],
+      "allies": ["Peuples autochtones alliés"],
+      "morts": "Plusieurs dizaines de milliers (pour toute l’Amérique du Nord)",
+      "vainqueur": "Grande-Bretagne",
+      "consequences": "Après la chute de Québec (1759) et de Montréal (1760), la France cède le Canada à la Grande-Bretagne par le traité de Paris de 1763.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_de_la_Conqu%C3%AAte"
+    }
+  ],
+  "sciences": "Les Français apprennent des peuples autochtones à se déplacer en canot d’écorce et en raquettes, et à soigner le scorbut avec une infusion de conifère, comme les Iroquoiens l’enseignent à Cartier en 1536. Les explorateurs dressent des cartes des Grands Lacs et du Mississippi. Faute de pièces, l’intendant fait même circuler en 1685 une monnaie faite de cartes à jouer signées.",
+  "croyancesText": "La colonie est catholique : des jésuites, des récollets et des religieuses comme Marie de l’Incarnation fondent missions, écoles et hôpitaux. Les missionnaires tentent de convertir les peuples autochtones ; certains, comme les jésuites martyrs de Huronie, sont tués pendant les guerres.",
+  "diplomatie": "La Nouvelle-France repose sur des alliances avec de nombreux peuples autochtones, renouvelées par des échanges de cadeaux et de discours. Elle combat les Haudenosaunee jusqu’en 1701, puis affronte à plusieurs reprises la Grande-Bretagne et ses colonies. Elle est finalement cédée par le traité de Paris de 1763.",
+  "societe": "Les terres de la vallée du Saint-Laurent sont partagées en seigneuries, longues bandes perpendiculaires au fleuve, cultivées par des habitants qui paient des redevances au seigneur. Les coureurs des bois partent chercher les fourrures loin vers l’ouest. Entre 1663 et 1673, environ 800 jeunes femmes, les « filles du roi », viennent s’y marier.",
+  "economie": "Commerce des fourrures de castor, pêche à la morue, agriculture dans la vallée du Saint-Laurent ; en Louisiane, plantations où travaillent des esclaves africains.",
+  "arts": "Églises et maisons de pierre de Québec, sculpture religieuse sur bois, chansons traditionnelles venues de France.",
+  "quotidien": "L’hiver, les habitants se déplacent en traîneau et en raquettes sur la neige et sur le fleuve gelé.",
+  "heritage": [
+    {
+      "titre": "Le français en Amérique",
+      "texte": "Plus de 7 millions de Québécois et de nombreux Acadiens, Franco-Ontariens et Cajuns de Louisiane parlent aujourd’hui français."
+    },
+    {
+      "titre": "Le Vieux-Québec",
+      "texte": "L’arrondissement historique du Vieux-Québec est inscrit au patrimoine mondial de l’UNESCO depuis 1985."
+    }
+  ],
+  "aSavoir": [
+    "Le nom « Canada » viendrait du mot iroquoien « kanata », qui signifie « village » ; Cartier l’entendit en 1535."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Nouvelle-France",
+    {
+      "titre": "Encyclopédie canadienne — Nouvelle-France",
+      "url": "https://www.thecanadianencyclopedia.ca/fr/article/nouvelle-france"
+    }
+  ]
+}

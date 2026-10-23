@@ -1016,5 +1016,25 @@
   "Occupation de l’Araucanie": {
     "coords": [-72.6, -38.74],
     "lieu": "Araucanie (Chili)"
+  },
+  "Guerre des Chichimèques": {
+    "coords": [-102.58, 22.77],
+    "lieu": "Nord du Mexique (Zacatecas)"
+  },
+  "Révolte des Pueblos": {
+    "coords": [-105.94, 35.69],
+    "lieu": "Santa Fe (Nouveau-Mexique, États-Unis)"
+  },
+  "Guerre d’indépendance du Mexique": {
+    "coords": [-100.93, 21.16],
+    "lieu": "Dolores, puis tout le Mexique"
+  },
+  "Batailles des Guararapes": {
+    "coords": [-34.95, -8.15],
+    "lieu": "Près de Recife (Brésil)"
+  },
+  "Destruction de Palmares": {
+    "coords": [-36, -9.27],
+    "lieu": "Serra da Barriga (Alagoas, Brésil)"
   }
 }

@@ -1,0 +1,277 @@
+{
+  "documentaires": [],
+  "decouvertes": ["galion-de-manille"],
+  "id": "nouvelle-espagne",
+  "label": "Nouvelle-Espagne",
+  "tier": 1,
+  "region": "mesoamerique",
+  "period": "1521 à 1821",
+  "start": 1521,
+  "end": 1821,
+  "trackId": "mesoamerique",
+  "row": 1,
+  "isRiver": false,
+  "capitale": "Mexico",
+  "description": "La vice-royauté espagnole fondée sur les ruines de l’Empire aztèque, qui gouverne pendant trois siècles le Mexique, l’Amérique centrale, les Caraïbes et même les Philippines, grâce à l’argent de ses mines, jusqu’à l’indépendance du Mexique en 1821.",
+  "territories": ["Viceroyalty of New Spain", "Cuba (Spain)", "Hispaniola (Spain)", "Santo Domingo (Spain)", "Florida (Spain)"],
+  "reperes": {
+    "capitale": { "valeur": "Mexico", "precision": "bâtie sur les ruines de Tenochtitlan" },
+    "regimes": { "valeur": "Vice-royauté", "precision": "un vice-roi gouverne au nom du roi d’Espagne" },
+    "langues": { "valeur": "Espagnol, nahuatl et autres langues autochtones" },
+    "religion": {
+      "valeur": "Catholicisme",
+      "precision": "imposé par la conquête et les missions ; des croyances anciennes se mêlent au christianisme"
+    },
+    "apogee": {
+      "valeur": "XVIIIe siècle",
+      "precision": "la Nouvelle-Espagne produit alors plus de la moitié de l’argent du monde"
+    },
+    "population": { "valeur": "Environ 6 millions vers 1810", "precision": "estimation" },
+    "monnaie": { "valeur": "Peso d’argent (réal de huit)", "precision": "utilisé dans le monde entier, jusqu’en Chine" },
+    "duree": { "valeur": "300 ans" },
+    "aujourdhui": {
+      "valeur": "Mexique",
+      "precision": "ainsi que l’Amérique centrale, une partie des États-Unis, les Caraïbes et les Philippines"
+    }
+  },
+  "essentiel": [
+    "En 1521, [[hernan-cortes|Hernán Cortés]] et ses alliés autochtones s’emparent de Tenochtitlan ; sur ses ruines, les Espagnols bâtissent Mexico, capitale de la Nouvelle-Espagne, qui devient une vice-royauté en 1535.",
+    "Les épidémies, les guerres et le travail forcé font s’effondrer la population autochtone au XVIe siècle.",
+    "Les mines d’argent de Zacatecas et de Guanajuato font la richesse de l’Espagne ; le [[galion-de-manille|galion de Manille]] relie chaque année le Mexique à l’Asie.",
+    "La société mêle Espagnols, Créoles nés en Amérique, Autochtones, Africains réduits en esclavage et métis ; la culture baroque s’y épanouit, avec la poétesse [[sor-juana-ines-de-la-cruz|Sor Juana Inés de la Cruz]].",
+    "En 1810, le [[cri-de-dolores|cri de Dolores]] du prêtre Miguel Hidalgo lance la guerre d’indépendance ; elle aboutit en 1821 à l’indépendance du [[mexique|Mexique]]."
+  ],
+  "datesCles": [
+    {
+      "annee": 1521,
+      "evenement": "Chute de Tenochtitlan",
+      "info": "Cortés et ses alliés autochtones prennent la capitale aztèque.",
+      "ref": "chute-de-tenochtitlan"
+    },
+    {
+      "annee": 1535,
+      "evenement": "Vice-royauté",
+      "info": "Antonio de Mendoza devient le premier vice-roi de la Nouvelle-Espagne."
+    },
+    {
+      "annee": 1539,
+      "evenement": "L’imprimerie",
+      "info": "La première imprimerie des Amériques s’installe à Mexico."
+    },
+    { "annee": 1546, "evenement": "Zacatecas", "info": "Découverte des grandes mines d’argent de Zacatecas." },
+    {
+      "annee": 1565,
+      "evenement": "Galion de Manille",
+      "info": "Ouverture de la route maritime entre les Philippines et Acapulco."
+    },
+    {
+      "annee": 1680,
+      "evenement": "Révolte des Pueblos",
+      "info": "Au Nouveau-Mexique, les peuples pueblos chassent les Espagnols pendant douze ans."
+    },
+    {
+      "annee": 1810,
+      "evenement": "Cri de Dolores",
+      "info": "Le prêtre Miguel Hidalgo appelle au soulèvement contre le pouvoir espagnol.",
+      "ref": "cri-de-dolores"
+    },
+    {
+      "annee": 1821,
+      "evenement": "Indépendance",
+      "info": "Par le traité de Córdoba, l’Espagne reconnaît l’indépendance du Mexique."
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "La conquête",
+      "debut": 1521,
+      "fin": 1600,
+      "resume": "Les Espagnols soumettent les peuples du Mexique, fondent des villes et des missions ; la population autochtone s’effondre à cause des épidémies.",
+      "evenements": [
+        { "annee": 1521, "evenement": "Chute de Tenochtitlan", "ref": "chute-de-tenochtitlan" },
+        { "annee": 1535, "evenement": "Premier vice-roi" },
+        { "annee": 1546, "evenement": "Mines de Zacatecas" }
+      ]
+    },
+    {
+      "nom": "Le royaume de l’argent",
+      "debut": 1600,
+      "fin": 1760,
+      "resume": "La Nouvelle-Espagne s’enrichit grâce à l’argent ; une société métissée et une culture baroque se développent.",
+      "evenements": [{ "annee": 1680, "evenement": "Révolte des Pueblos" }]
+    },
+    {
+      "nom": "Réformes et indépendance",
+      "debut": 1760,
+      "fin": 1821,
+      "resume": "Les réformes des rois Bourbons renforcent le contrôle de l’Espagne ; les Créoles réclament plus de pouvoir, jusqu’à la guerre d’indépendance.",
+      "evenements": [
+        { "annee": 1810, "evenement": "Cri de Dolores", "ref": "cri-de-dolores" },
+        { "annee": 1821, "evenement": "Indépendance du Mexique" }
+      ]
+    }
+  ],
+  "regimes": [
+    { "id": "vice-royaute", "nom": "Vice-royauté", "debut": 1535, "fin": 1821 },
+    { "id": "conquete", "nom": "Gouvernement de conquête", "debut": 1521, "fin": 1535 }
+  ],
+  "dynasties": [
+    {
+      "id": "vice-rois",
+      "nom": "Gouverneurs et vice-rois",
+      "debut": 1521,
+      "fin": 1821,
+      "note": "Sélection ; plus de soixante vice-rois se sont succédé."
+    }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Hernán Cortés",
+      "titre": "Gouverneur",
+      "debut": 1521,
+      "fin": 1524,
+      "dynastie": "vice-rois",
+      "personne": "hernan-cortes",
+      "cle": true
+    },
+    {
+      "nom": "Antonio de Mendoza",
+      "titre": "Vice-roi",
+      "debut": 1535,
+      "fin": 1550,
+      "dynastie": "vice-rois",
+      "note": "premier vice-roi",
+      "cle": true
+    },
+    {
+      "nom": "Luis de Velasco",
+      "titre": "Vice-roi",
+      "debut": 1550,
+      "fin": 1564,
+      "dynastie": "vice-rois",
+      "note": "fonde l’université de Mexico",
+      "cle": true
+    },
+    {
+      "nom": "Comte de Revillagigedo",
+      "titre": "Vice-roi",
+      "debut": 1789,
+      "fin": 1794,
+      "dynastie": "vice-rois",
+      "note": "modernise la ville de Mexico",
+      "cle": true
+    },
+    {
+      "nom": "Juan Ruiz de Apodaca",
+      "titre": "Vice-roi",
+      "debut": 1816,
+      "fin": 1821,
+      "dynastie": "vice-rois",
+      "note": "dernier vice-roi en fonction"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Hernán Cortés",
+      "role": "Conquistador",
+      "description": "Le conquérant de l’Empire aztèque, premier gouverneur de la Nouvelle-Espagne.",
+      "dates": "1485 → 1547",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Hern%C3%A1n_Cort%C3%A9s",
+      "ref": "hernan-cortes"
+    },
+    {
+      "nom": "Malinche",
+      "role": "Interprète",
+      "description": "Femme nahua qui sert d’interprète et de conseillère à Cortés.",
+      "dates": "vers 1500 → vers 1529",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Malinche",
+      "ref": "malinche"
+    },
+    {
+      "nom": "Bernardino de Sahagún",
+      "role": "Missionnaire franciscain",
+      "description": "Il recueille, avec des savants nahuas, une immense encyclopédie de la culture aztèque, le Codex de Florence.",
+      "dates": "1499 → 1590",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bernardino_de_Sahag%C3%BAn"
+    },
+    {
+      "nom": "Sor Juana Inés de la Cruz",
+      "role": "Poétesse et religieuse",
+      "description": "La plus grande écrivaine de la Nouvelle-Espagne.",
+      "dates": "1648 → 1695",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Juana_In%C3%A9s_de_la_Cruz",
+      "ref": "sor-juana-ines-de-la-cruz"
+    },
+    {
+      "nom": "Miguel Hidalgo",
+      "role": "Prêtre et chef insurgé",
+      "description": "Il lance en 1810 le soulèvement pour l’indépendance ; il est exécuté en 1811.",
+      "dates": "1753 → 1811",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Miguel_Hidalgo_y_Costilla"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Siège de Tenochtitlan",
+      "annee": 1521,
+      "adversaires": ["Empire aztèque (Cuauhtémoc)"],
+      "allies": ["Tlaxcaltèques et autres alliés autochtones"],
+      "morts": "Très lourdes, épidémie de variole comprise",
+      "vainqueur": "Espagnols et leurs alliés autochtones (Tlaxcala, Texcoco…)",
+      "consequences": "Tenochtitlan est détruite ; Mexico est bâtie sur ses ruines et devient la capitale de la Nouvelle-Espagne.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Tenochtitlan"
+    },
+    {
+      "nom": "Guerre des Chichimèques",
+      "annee": 1550,
+      "adversaires": ["Peuples chichimèques du nord du Mexique"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Nouvelle-Espagne (par la négociation)",
+      "consequences": "Pendant quarante ans, les peuples nomades du Nord attaquent les convois d’argent. La paix est obtenue vers 1590 par des cadeaux, des missions et l’installation de colons tlaxcaltèques.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Chichimeca_War"
+    },
+    {
+      "nom": "Révolte des Pueblos",
+      "annee": 1680,
+      "adversaires": ["Peuples pueblos du Nouveau-Mexique (Popé)"],
+      "allies": [],
+      "morts": "Environ 400 colons et missionnaires tués",
+      "vainqueur": "Pueblos (jusqu’en 1692)",
+      "consequences": "Unis sous la direction de Popé, les Pueblos chassent les Espagnols de Santa Fe. Les Espagnols ne reviennent qu’en 1692 et doivent ensuite tolérer davantage les religions traditionnelles.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/R%C3%A9volte_des_Pueblos"
+    },
+    {
+      "nom": "Guerre d’indépendance du Mexique",
+      "annee": 1810,
+      "adversaires": ["Insurgés mexicains (Hidalgo, Morelos, puis Iturbide et Guerrero)"],
+      "allies": [],
+      "morts": "Plusieurs centaines de milliers selon certaines estimations",
+      "vainqueur": "Indépendantistes",
+      "consequences": "Après la mort d’Hidalgo et de Morelos, l’alliance d’Iturbide et de Guerrero obtient en 1821 l’indépendance : le Mexique devient un empire, puis une république.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_d%27ind%C3%A9pendance_du_Mexique"
+    }
+  ],
+  "sciences": "Les mineurs de Nouvelle-Espagne utilisent le procédé du « patio », qui sépare l’argent du minerai grâce au mercure. La première imprimerie des Amériques s’installe à Mexico en 1539 et l’université y ouvre en 1551. Les savants recueillent les connaissances autochtones sur les plantes médicinales, et des produits américains comme le maïs, la tomate, le cacao ou le piment se répandent dans le monde.",
+  "croyancesText": "Les missionnaires franciscains, dominicains et jésuites convertissent les populations autochtones, souvent par la contrainte, et détruisent temples et livres anciens. Le christianisme se mêle à des traditions plus anciennes : la Vierge de Guadalupe, apparue selon la tradition à un Autochtone en 1531, devient le grand symbole religieux du Mexique. L’Inquisition surveille les croyances.",
+  "diplomatie": "La Nouvelle-Espagne est une pièce essentielle de l’Empire espagnol : son argent finance les guerres de l’Espagne en Europe. Par le galion de Manille, elle commerce avec la Chine et le Japon. Elle défend ses frontières du nord contre les Anglais, les Français, puis les États-Unis.",
+  "societe": "La société est divisée en « castes » selon l’origine : les Espagnols nés en Europe occupent les plus hautes charges, les Créoles nés en Amérique sont riches mais exclus du pouvoir, et les Autochtones paient un tribut et doivent du travail. Des centaines de milliers d’Africains sont amenés de force comme esclaves au cours de la période coloniale, et de nombreux métis naissent de ces rencontres.",
+  "economie": "Mines d’argent, grands domaines agricoles (haciendas), élevage, cochenille (colorant rouge), commerce transpacifique.",
+  "arts": "Cathédrales et églises baroques, peintures de castes, poésie de Sor Juana, codex illustrés par des artistes autochtones.",
+  "quotidien": "La cuisine mexicaine naît du mélange des produits locaux, comme le maïs, le haricot et le piment, et de ceux venus d’Europe, comme le porc, le bœuf et le blé.",
+  "heritage": [
+    {
+      "titre": "Le peso",
+      "texte": "La pièce d’argent de huit réaux frappée au Mexique a servi de monnaie dans le monde entier ; elle est l’ancêtre du dollar et du yuan."
+    },
+    {
+      "titre": "Une culture métissée",
+      "texte": "La langue, la religion, la cuisine et l’art du Mexique actuel sont nés du mélange des héritages autochtones, européens et africains."
+    }
+  ],
+  "aSavoir": ["Les Philippines ont été gouvernées depuis Mexico jusqu’en 1821."],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Nouvelle-Espagne",
+    { "titre": "Encyclopædia Britannica — New Spain", "url": "https://www.britannica.com/place/New-Spain" }
+  ]
+}

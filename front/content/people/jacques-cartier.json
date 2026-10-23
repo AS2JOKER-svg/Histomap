@@ -1,0 +1,17 @@
+{
+  "id": "jacques-cartier",
+  "nom": "Jacques Cartier",
+  "role": "Navigateur français",
+  "roles": ["Navigateur", "Explorateur"],
+  "dates": "1491 → 1557",
+  "naissance": 1491,
+  "mort": 1557,
+  "description": "Navigateur de Saint-Malo, il explore le golfe et le fleuve Saint-Laurent lors de trois voyages (1534, 1535-1536, 1541-1542) pour le roi François Ier.",
+  "essentiel": [
+    "En 1534, il plante une croix à Gaspé et rencontre les Iroquoiens du chef Donnacona.",
+    "En 1535, il remonte le Saint-Laurent jusqu’à Hochelaga, à l’emplacement de Montréal.",
+    "Pendant l’hiver 1535-1536, ses marins sont sauvés du scorbut grâce à un remède autochtone.",
+    "Il ramène en France des minéraux qu’il croit être de l’or et des diamants : ce n’est que de la pyrite et du quartz."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Jacques_Cartier"
+}

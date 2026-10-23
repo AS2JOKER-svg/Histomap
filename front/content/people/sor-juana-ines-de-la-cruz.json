@@ -1,0 +1,17 @@
+{
+  "id": "sor-juana-ines-de-la-cruz",
+  "nom": "Sor Juana Inés de la Cruz",
+  "role": "Poétesse et religieuse",
+  "roles": ["Poétesse", "Religieuse", "Savante"],
+  "dates": "1648 → 1695",
+  "naissance": 1648,
+  "mort": 1695,
+  "description": "Religieuse de Mexico, elle est la plus grande écrivaine de la Nouvelle-Espagne et l’une des premières à défendre le droit des femmes à étudier.",
+  "essentiel": [
+    "Enfant, elle apprend à lire seule et veut se déguiser en garçon pour aller à l’université.",
+    "Elle entre au couvent pour pouvoir étudier, et y réunit une grande bibliothèque.",
+    "Elle écrit des poèmes, des pièces de théâtre et des textes en espagnol, en latin et en nahuatl.",
+    "Dans une lettre célèbre, elle défend le droit des femmes au savoir."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Juana_In%C3%A9s_de_la_Cruz"
+}

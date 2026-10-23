@@ -952,5 +952,13 @@
   "Prise de Malacca (1511)": {
     "coords": [102.25, 2.19],
     "lieu": "Malacca (Malaisie)"
+  },
+  "Guerres de la frontière australienne": {
+    "coords": [151, -33.8],
+    "lieu": "Australie (d’abord autour de Sydney)"
+  },
+  "Guerres des mousquets": {
+    "coords": [174.1, -35.25],
+    "lieu": "Île du Nord (Nouvelle-Zélande)"
   }
 }

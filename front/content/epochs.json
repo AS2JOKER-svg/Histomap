@@ -39,6 +39,13 @@
         "civs": [
           "caral-supe"
         ]
+      },
+      {
+        "id": "oceanie",
+        "label": "Océanie",
+        "civs": [
+          "aborigenes-australie"
+        ]
       }
     ]
   },
@@ -117,6 +124,13 @@
           "teotihuacan",
           "chavin",
           "nazca"
+        ]
+      },
+      {
+        "id": "oceanie",
+        "label": "Océanie",
+        "civs": [
+          "lapita"
         ]
       }
     ]
@@ -205,6 +219,13 @@
           "maya",
           "tiwanaku",
           "huari"
+        ]
+      },
+      {
+        "id": "oceanie",
+        "label": "Océanie",
+        "civs": [
+          "maoris"
         ]
       }
     ]

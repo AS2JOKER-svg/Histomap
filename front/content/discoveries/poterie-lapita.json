@@ -1,0 +1,14 @@
+{
+  "id": "poterie-lapita",
+  "nom": "Poterie lapita",
+  "domaine": "Art",
+  "dates": "vers −1350 → vers −500",
+  "description": "Des poteries décorées de motifs imprimés avec un petit peigne dentelé, qui permettent aux archéologues de suivre les premiers peuplements du Pacifique.",
+  "sections": [
+    {
+      "titre": "Un fil conducteur",
+      "texte": "On en retrouve de la Nouvelle-Guinée à Samoa : partout où elles apparaissent, elles signalent l’arrivée des premiers habitants. Leurs motifs comprennent des formes géométriques et des visages stylisés."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Culture_Lapita"
+}

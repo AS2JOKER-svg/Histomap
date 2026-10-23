@@ -1,0 +1,179 @@
+{
+  "documentaires": [],
+  "decouvertes": ["haka"],
+  "id": "maoris",
+  "label": "Maoris (Nouvelle-Zélande)",
+  "tier": 2,
+  "region": "australasie",
+  "period": "vers 1250 à 1840",
+  "start": 1250,
+  "end": 1840,
+  "color": "#2e7d32",
+  "trackId": "nouvelle-zelande",
+  "row": 3,
+  "isRiver": false,
+  "capitale": "Aucune (territoires des tribus)",
+  "description": "Le peuple polynésien qui s’installe vers 1250-1300 en Nouvelle-Zélande, l’une des dernières grandes terres peuplées par les humains, et y développe sa propre culture jusqu’au traité de Waitangi (1840).",
+  "territories": ["Maori", "Maoris", "Māori"],
+  "reperes": {
+    "capitale": { "valeur": "Aucune", "precision": "chaque tribu (iwi) a son territoire" },
+    "regimes": {
+      "valeur": "Chefferies (iwi et hapū)",
+      "precision": "des chefs (rangatira) dont l’autorité vient de leur généalogie"
+    },
+    "langues": { "valeur": "Maori (te reo Māori)", "precision": "une langue polynésienne proche du tahitien" },
+    "religion": {
+      "valeur": "Religion polynésienne",
+      "precision": "dieux comme Tāne et Tangaroa ; le christianisme se répand après 1814"
+    },
+    "apogee": { "valeur": "Inconnue" },
+    "population": { "valeur": "Environ 100 000 vers 1770", "precision": "estimation" },
+    "monnaie": { "valeur": "Aucune", "precision": "échanges de cadeaux, de jade (pounamu) et de nourriture" },
+    "duree": { "valeur": "Environ 600 ans" },
+    "aujourdhui": { "valeur": "Nouvelle-Zélande", "precision": "près d’un Néo-Zélandais sur cinq est maori" }
+  },
+  "essentiel": [
+    "Vers 1250-1300, des navigateurs venus de Polynésie orientale atteignent en pirogue la Nouvelle-Zélande, l’une des dernières grandes terres peuplées par les humains.",
+    "Ils s’adaptent à un climat plus froid : ils chassent les moas, d’immenses oiseaux qui disparaissent en un ou deux siècles, et cultivent la patate douce dans le Nord.",
+    "La société s’organise en tribus (iwi) dirigées par des chefs ; les villages fortifiés (pā) se multiplient, et la sculpture, le tatouage (moko) et le [[haka|haka]] expriment l’identité de chaque groupe.",
+    "Après l’arrivée des Européens (Tasman en 1642, Cook en 1769), l’introduction des mousquets provoque des guerres très meurtrières entre tribus, menées notamment par [[hongi-hika|Hongi Hika]].",
+    "En 1840, des chefs maoris et la Couronne britannique signent le [[traite-de-waitangi|traité de Waitangi]], dont les versions anglaise et maorie ne disent pas la même chose ; il reste au cœur de la vie politique néo-zélandaise."
+  ],
+  "datesCles": [
+    {
+      "annee": 1250,
+      "evenement": "Arrivée",
+      "info": "Vers 1250-1300, des pirogues venues de Polynésie orientale atteignent la Nouvelle-Zélande."
+    },
+    {
+      "annee": 1400,
+      "evenement": "Fin des moas",
+      "info": "Au XVe siècle, les moas, chassés par les humains, ont disparu."
+    },
+    {
+      "annee": 1642,
+      "evenement": "Abel Tasman",
+      "info": "Le navigateur hollandais aborde la côte ; après un affrontement avec des guerriers maoris, il repart sans débarquer."
+    },
+    {
+      "annee": 1769,
+      "evenement": "James Cook",
+      "info": "Cook fait le tour des deux grandes îles ; le Tahitien Tupaia sert d’interprète."
+    },
+    {
+      "annee": 1807,
+      "evenement": "Guerres des mousquets",
+      "info": "Début d’une série de guerres entre tribus équipées d’armes à feu."
+    },
+    {
+      "annee": 1814,
+      "evenement": "Missionnaires",
+      "info": "Le missionnaire Samuel Marsden prêche pour la première fois en Nouvelle-Zélande."
+    },
+    {
+      "annee": 1835,
+      "evenement": "Déclaration d’indépendance",
+      "info": "Des chefs du Nord, réunis sous le nom de « tribus unies de Nouvelle-Zélande », proclament leur indépendance."
+    },
+    {
+      "annee": 1840,
+      "evenement": "Traité de Waitangi",
+      "info": "Des centaines de chefs et la Couronne britannique signent le traité.",
+      "ref": "traite-de-waitangi"
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "Les premiers arrivants",
+      "debut": 1250,
+      "fin": 1500,
+      "resume": "Les premiers habitants explorent les îles, chassent les moas et les phoques et découvrent la pierre verte.",
+      "evenements": [{ "annee": 1250, "evenement": "Arrivée des pirogues" }, { "annee": 1400, "evenement": "Disparition des moas" }]
+    },
+    {
+      "nom": "Les tribus et les pā",
+      "debut": 1500,
+      "fin": 1769,
+      "resume": "Les tribus s’organisent, fortifient leurs collines et développent la culture maorie classique.",
+      "evenements": [{ "annee": 1642, "evenement": "Passage d’Abel Tasman" }]
+    },
+    {
+      "nom": "La rencontre avec les Européens",
+      "debut": 1769,
+      "fin": 1840,
+      "resume": "Commerce avec les baleiniers, arrivée des missionnaires, guerres des mousquets, puis traité de Waitangi.",
+      "evenements": [
+        { "annee": 1769, "evenement": "James Cook" },
+        { "annee": 1807, "evenement": "Début des guerres des mousquets" },
+        { "annee": 1840, "evenement": "Traité de Waitangi", "ref": "traite-de-waitangi" }
+      ]
+    }
+  ],
+  "regimes": [{ "id": "chefferies", "nom": "Chefferies (iwi et hapū)", "debut": 1250, "fin": 1840 }],
+  "dirigeants": [],
+  "personnages": [
+    {
+      "nom": "Kupe",
+      "role": "Navigateur légendaire",
+      "description": "Selon les traditions de plusieurs tribus, il serait le premier à avoir découvert la Nouvelle-Zélande.",
+      "dates": "tradition",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Kupe"
+    },
+    {
+      "nom": "Hongi Hika",
+      "role": "Chef des Ngāpuhi",
+      "description": "Le chef de guerre qui utilise le premier les mousquets à grande échelle.",
+      "dates": "vers 1772 → 1828",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Hongi_Hika",
+      "ref": "hongi-hika"
+    },
+    {
+      "nom": "Te Rauparaha",
+      "role": "Chef des Ngāti Toa",
+      "description": "Chef de guerre qui mène sa tribu vers le sud de l’île du Nord ; on lui attribue le haka « Ka Mate ».",
+      "dates": "vers 1765 → 1849",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Te_Rauparaha"
+    },
+    {
+      "nom": "Tupaia",
+      "role": "Prêtre et navigateur tahitien",
+      "description": "Il accompagne James Cook en 1769 et peut converser avec les Maoris, dont la langue est proche du tahitien.",
+      "dates": "vers 1725 → 1770",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Tupaia"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerres des mousquets",
+      "annee": 1807,
+      "adversaires": ["Tribus maories rivales"],
+      "allies": [],
+      "morts": "Peut-être 20 000 morts ou plus, selon les estimations",
+      "vainqueur": "Aucun (guerres entre tribus)",
+      "consequences": "Les tribus qui obtiennent les premières des mousquets auprès des Européens, comme les Ngāpuhi de Hongi Hika, attaquent leurs rivales. Ces guerres, de 1807 à la fin des années 1830, bouleversent la carte des territoires tribaux.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerres_des_mousquets"
+    }
+  ],
+  "sciences": "Les Maoris conservent la navigation polynésienne et taillent de grandes pirogues de guerre (waka taua) dans un seul tronc d’arbre. Ils fortifient les collines avec des fossés, des terrasses et des palissades (pā). Ils travaillent la pierre verte, le pounamu, très dure, pour en faire des herminettes, des armes et des bijoux.",
+  "croyancesText": "Les Maoris honorent des dieux comme Tāne, dieu des forêts, et Tangaroa, dieu de la mer, enfants du Ciel (Ranginui) et de la Terre (Papatūānuku). Les personnes, les choses et les lieux peuvent être tapu, c’est-à-dire sacrés et interdits. Les tohunga sont des experts religieux. À partir de 1814, des missionnaires répandent le christianisme.",
+  "diplomatie": "Les relations entre tribus mêlent alliances par mariage, échanges de cadeaux et guerres. À la fin du XVIIIe siècle, les Maoris commercent avec les baleiniers et les marchands européens, à qui ils vendent du lin, du bois et de la nourriture contre des outils de fer et des mousquets. En 1840, de nombreux chefs signent le traité de Waitangi avec la Couronne britannique.",
+  "societe": "La société est organisée en familles élargies (whānau), sous-tribus (hapū) et tribus (iwi), qui se réclament chacune d’un ancêtre arrivé sur l’une des grandes pirogues. Les chefs (rangatira) tirent leur autorité de leur généalogie (whakapapa) et de leurs qualités. Les prisonniers de guerre peuvent devenir esclaves.",
+  "economie": "Culture de la patate douce (kūmara) dans le Nord, cueillette de racines de fougère, pêche, chasse aux oiseaux ; échanges de pierre verte entre l’île du Sud et l’île du Nord.",
+  "arts": "Sculpture sur bois des maisons de réunion (wharenui) et des pirogues, tatouage du visage (moko), pendentifs hei-tiki en pierre verte, haka.",
+  "quotidien": "Le marae, l’espace devant la maison de réunion, est le cœur de la vie de la communauté : on y accueille les visiteurs, on y débat et on y pleure les morts.",
+  "heritage": [
+    {
+      "titre": "Une langue officielle",
+      "texte": "Le maori est l’une des langues officielles de la Nouvelle-Zélande depuis 1987."
+    },
+    {
+      "titre": "Le haka",
+      "texte": "Connu dans le monde entier grâce à l’équipe néo-zélandaise de rugby, les All Blacks, il reste une danse de défi, d’accueil ou de deuil."
+    }
+  ],
+  "aSavoir": ["Le nom maori de la Nouvelle-Zélande, Aotearoa, est souvent traduit par « le pays du long nuage blanc »."],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Maoris",
+    { "titre": "Encyclopædia Britannica — Maori", "url": "https://www.britannica.com/topic/Maori" }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "premiere-flotte",
+  "nom": "Première Flotte",
+  "annee": 1788,
+  "dates": "26 janvier 1788",
+  "lieu": "Port Jackson (Sydney, Australie)",
+  "description": "Onze navires britanniques, transportant environ 1 400 personnes, dont plus de 700 forçats, arrivent dans la baie de Sydney pour y fonder une colonie pénitentiaire.",
+  "sections": [
+    {
+      "titre": "Pourquoi l’Australie ?",
+      "texte": "La Grande-Bretagne veut désengorger ses prisons depuis qu’elle ne peut plus envoyer ses condamnés en Amérique, devenue indépendante."
+    },
+    {
+      "titre": "Une date débattue",
+      "texte": "Le 26 janvier est la fête nationale australienne ; de nombreux Aborigènes la considèrent comme un jour de deuil, le début de la colonisation."
+    }
+  ],
+  "wikiUrl": "https://en.wikipedia.org/wiki/First_Fleet"
+}

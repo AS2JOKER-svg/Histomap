@@ -1,0 +1,18 @@
+{
+  "id": "sigiriya",
+  "nom": "Sigiriya",
+  "domaine": "Architecture",
+  "dates": "Ve siècle",
+  "description": "Un palais fortifié bâti à la fin du Ve siècle par le roi Kassapa Ier au sommet d’un rocher qui domine la plaine de près de 200 mètres.",
+  "sections": [
+    {
+      "titre": "Une histoire dramatique",
+      "texte": "Selon la chronique, Kassapa a tué son père, le roi Dhatusena, et craint la vengeance de son demi-frère ; il s’installe sur ce rocher presque imprenable."
+    },
+    {
+      "titre": "Ce qu’on y voit",
+      "texte": "Des jardins avec bassins, des fresques de femmes richement parées et l’entrée monumentale en forme de pattes de lion. Le site est inscrit au patrimoine mondial de l’UNESCO depuis 1982."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Sigiriya"
+}

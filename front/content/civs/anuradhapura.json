@@ -1,0 +1,248 @@
+{
+  "documentaires": [],
+  "decouvertes": ["sigiriya"],
+  "id": "anuradhapura",
+  "label": "Royaume d’Anuradhapura",
+  "tier": 2,
+  "region": "asie-sud",
+  "period": "vers -377 à 1017",
+  "start": -377,
+  "end": 1017,
+  "color": "#ff8f00",
+  "trackId": "lanka",
+  "row": 11,
+  "isRiver": false,
+  "capitale": "Anuradhapura",
+  "description": "Le premier grand royaume de Sri Lanka, dont la capitale, Anuradhapura, est pendant plus de mille ans un centre majeur du bouddhisme, célèbre pour ses stupas géants et ses grands réservoirs d’irrigation.",
+  "territories": ["Sinhalese kingdoms"],
+  "reperes": {
+    "capitale": { "valeur": "Anuradhapura", "precision": "dans le centre-nord de l’île" },
+    "regimes": { "valeur": "Monarchie" },
+    "langues": { "valeur": "Cinghalais ancien et pali", "precision": "le pali est la langue des textes bouddhistes" },
+    "religion": { "valeur": "Bouddhisme theravada", "precision": "l’hindouisme est aussi présent dans l’île" },
+    "apogee": { "valeur": "Du IIe siècle av. J.-C. au Ve siècle" },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": { "valeur": "Pièces de cuivre", "precision": "des monnaies romaines et indiennes circulent aussi" },
+    "duree": { "valeur": "Environ 1 400 ans" },
+    "aujourdhui": { "valeur": "Sri Lanka" }
+  },
+  "essentiel": [
+    "Selon les chroniques, Anuradhapura devient la capitale de Sri Lanka au IVe siècle av. J.-C. ; elle le reste pendant plus de mille ans.",
+    "Au IIIe siècle av. J.-C., selon la tradition, [[mahinda|Mahinda]], fils de l’empereur indien [[ashoka|Ashoka]], convertit le roi Devanampiya Tissa au bouddhisme.",
+    "Les rois construisent des stupas géants, comme le Jetavanaramaya, et un vaste réseau de réservoirs pour irriguer les rizières.",
+    "Au Ier siècle av. J.-C., des moines y mettent par écrit, pour la première fois, les textes du bouddhisme theravada.",
+    "Le royaume affronte souvent des rois venus du sud de l’Inde ; en 993, les [[chola|Chola]] prennent Anuradhapura, puis capturent le dernier roi en 1017."
+  ],
+  "datesCles": [
+    {
+      "annee": -377,
+      "evenement": "Capitale",
+      "info": "Selon la chronique du Mahavamsa, le roi Pandukabhaya fait d’Anuradhapura sa capitale."
+    },
+    {
+      "annee": -250,
+      "evenement": "Le bouddhisme",
+      "info": "Selon la tradition, le moine Mahinda, envoyé par Ashoka, convertit le roi Devanampiya Tissa."
+    },
+    {
+      "annee": -161,
+      "evenement": "Dutugemunu",
+      "info": "Selon le Mahavamsa, il bat le roi Elara, venu du sud de l’Inde, et réunit l’île."
+    },
+    {
+      "annee": -29,
+      "evenement": "Le canon pali",
+      "info": "Selon la tradition, des moines mettent par écrit les enseignements du Bouddha au monastère d’Aluvihare."
+    },
+    {
+      "annee": 277,
+      "evenement": "Le Jetavanaramaya",
+      "info": "Le roi Mahasena fait bâtir un stupa d’environ 120 mètres, l’un des plus hauts monuments du monde antique."
+    },
+    {
+      "annee": 477,
+      "evenement": "Sigiriya",
+      "info": "Le roi Kassapa Ier, qui a tué son père, fait bâtir un palais fortifié au sommet du rocher de Sigiriya."
+    },
+    {
+      "annee": 993,
+      "evenement": "Invasion chola",
+      "info": "Le roi chola Rajaraja Ier conquiert le nord de l’île et pille Anuradhapura."
+    },
+    {
+      "annee": 1017,
+      "evenement": "Fin",
+      "info": "Les Chola capturent le roi Mahinda V ; Polonnaruwa devient la nouvelle capitale."
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "Les débuts",
+      "debut": -377,
+      "fin": -161,
+      "resume": "Anuradhapura devient capitale ; le bouddhisme arrive de l’Inde d’Ashoka.",
+      "evenements": [{ "annee": -250, "evenement": "Arrivée du bouddhisme" }]
+    },
+    {
+      "nom": "Le grand royaume bouddhiste",
+      "debut": -161,
+      "fin": 477,
+      "resume": "Les rois unifient l’île, bâtissent de grands stupas et des réservoirs ; les textes bouddhistes sont mis par écrit.",
+      "evenements": [
+        { "annee": -161, "evenement": "Victoire de Dutugemunu" },
+        { "annee": -29, "evenement": "Canon pali" },
+        { "annee": 277, "evenement": "Jetavanaramaya" }
+      ]
+    },
+    {
+      "nom": "Le royaume tardif",
+      "debut": 477,
+      "fin": 1017,
+      "resume": "Le royaume reste prospère malgré les luttes de succession et les guerres avec les royaumes du sud de l’Inde.",
+      "evenements": [{ "annee": 477, "evenement": "Sigiriya" }, { "annee": 993, "evenement": "Invasion chola" }]
+    }
+  ],
+  "regimes": [{ "id": "monarchie", "nom": "Monarchie", "debut": -377, "fin": 1017 }],
+  "dynasties": [
+    {
+      "id": "rois",
+      "nom": "Les rois d’Anuradhapura",
+      "debut": -377,
+      "fin": 1017,
+      "note": "Sélection ; dates selon les chroniques, souvent incertaines."
+    }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Pandukabhaya",
+      "titre": "Roi",
+      "debut": -377,
+      "fin": -367,
+      "dynastie": "rois",
+      "note": "fait d’Anuradhapura sa capitale",
+      "cle": true
+    },
+    {
+      "nom": "Devanampiya Tissa",
+      "titre": "Roi",
+      "debut": -247,
+      "fin": -207,
+      "dynastie": "rois",
+      "note": "se convertit au bouddhisme",
+      "cle": true
+    },
+    {
+      "nom": "Dutugemunu",
+      "titre": "Roi",
+      "debut": -161,
+      "fin": -137,
+      "dynastie": "rois",
+      "note": "réunit l’île selon le Mahavamsa",
+      "cle": true
+    },
+    {
+      "nom": "Vattagamani Abhaya",
+      "titre": "Roi",
+      "debut": -89,
+      "fin": -77,
+      "dynastie": "rois",
+      "note": "sous son règne, le canon pali est mis par écrit"
+    },
+    {
+      "nom": "Mahasena",
+      "titre": "Roi",
+      "debut": 277,
+      "fin": 304,
+      "dynastie": "rois",
+      "note": "fait bâtir le Jetavanaramaya",
+      "cle": true
+    },
+    {
+      "nom": "Dhatusena",
+      "titre": "Roi",
+      "debut": 455,
+      "fin": 473,
+      "dynastie": "rois",
+      "note": "fait creuser le grand réservoir de Kalawewa"
+    },
+    { "nom": "Kassapa Ier", "titre": "Roi", "debut": 477, "fin": 495, "dynastie": "rois", "note": "bâtit Sigiriya" },
+    { "nom": "Mahinda V", "titre": "Roi", "debut": 982, "fin": 1017, "dynastie": "rois", "note": "capturé par les Chola" }
+  ],
+  "personnages": [
+    {
+      "nom": "Mahinda",
+      "role": "Moine bouddhiste",
+      "description": "Le moine qui, selon la tradition, introduit le bouddhisme à Sri Lanka.",
+      "dates": "IIIe siècle av. J.-C.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Mahinda_(Buddhist_monk)",
+      "ref": "mahinda"
+    },
+    {
+      "nom": "Sanghamitta",
+      "role": "Moniale bouddhiste",
+      "description": "Fille d’Ashoka selon la tradition, elle apporte une bouture de l’arbre sous lequel le Bouddha aurait atteint l’Éveil et fonde un ordre de nonnes.",
+      "dates": "IIIe siècle av. J.-C.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Sanghamitta"
+    },
+    {
+      "nom": "Dutugemunu",
+      "role": "Roi",
+      "description": "Héros de la chronique du Mahavamsa, qui lui attribue la réunification de l’île et la construction du grand stupa Ruwanwelisaya.",
+      "dates": "IIe siècle av. J.-C.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Dutugemunu"
+    },
+    {
+      "nom": "Faxian",
+      "role": "Moine pèlerin chinois",
+      "description": "Il séjourne deux ans à Sri Lanka au début du Ve siècle et décrit les monastères d’Anuradhapura.",
+      "dates": "vers 337 → vers 422",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Faxian"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerre de Dutugemunu contre Elara",
+      "annee": -161,
+      "adversaires": ["Elara, roi venu du sud de l’Inde"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Dutugemunu",
+      "consequences": "Selon le Mahavamsa, Dutugemunu tue Elara en combat singulier et réunit l’île sous son autorité ; la chronique décrit pourtant Elara comme un roi juste, et Dutugemunu fait honorer son tombeau.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Dutugemunu"
+    },
+    {
+      "nom": "Conquête chola de Sri Lanka",
+      "annee": 993,
+      "adversaires": ["Empire chola (Rajaraja Ier, puis Rajendra Ier)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Empire chola",
+      "consequences": "Les Chola prennent et pillent Anuradhapura, puis capturent le roi Mahinda V en 1017. Ils gouvernent le nord de l’île depuis Polonnaruwa jusqu’en 1070.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Chola_conquest_of_Anuradhapura"
+    }
+  ],
+  "sciences": "Les rois font creuser d’immenses réservoirs, appelés « tanks », reliés par des canaux, pour irriguer les rizières pendant la saison sèche. Les ingénieurs règlent le débit de l’eau grâce à des puits de vanne, les bisokotuwa. Les stupas en brique, comme le Jetavanaramaya, comptent parmi les plus grands édifices du monde antique.",
+  "croyancesText": "Le bouddhisme theravada devient la religion du royaume au IIIe siècle av. J.-C. Les rois protègent les grands monastères, comme le Mahavihara et l’Abhayagiri, souvent rivaux. Un arbre issu, selon la tradition, d’une bouture de l’arbre de l’Éveil du Bouddha est encore vénéré à Anuradhapura : le Sri Maha Bodhi. La dent du Bouddha, arrivée d’Inde au IVe siècle selon la tradition, devient un symbole de la royauté.",
+  "diplomatie": "Le royaume entretient des liens étroits avec l’Inde, d’où viennent le bouddhisme, des marchands et parfois des envahisseurs. Ses ports, comme Mantai, commercent avec l’Inde, la Perse, le monde romain et la Chine. Pline l’Ancien rapporte la venue d’une ambassade de l’île à Rome sous l’empereur Claude, et des ambassades se rendent en Chine au Ve siècle.",
+  "societe": "Le roi, les moines et une aristocratie dominent une société de paysans organisée autour des réservoirs de village. Les monastères possèdent de vastes terres et leurs propres réservoirs.",
+  "economie": "Riziculture irriguée, commerce maritime de pierres précieuses, de perles, d’ivoire et d’épices.",
+  "arts": "Stupas (Ruwanwelisaya, Jetavanaramaya, Abhayagiri), « pierres de lune » sculptées au seuil des temples, fresques de Sigiriya.",
+  "quotidien": "Chaque village s’organise autour de son réservoir, de sa rizière et de son temple ; un dicton cinghalais associe « le réservoir, le stupa, le village et le temple ».",
+  "heritage": [
+    {
+      "titre": "Une ville sacrée",
+      "texte": "La ville sacrée d’Anuradhapura est inscrite au patrimoine mondial de l’UNESCO (1982) et reste un grand lieu de pèlerinage."
+    },
+    {
+      "titre": "Le bouddhisme theravada",
+      "texte": "Environ 70 % des Sri-Lankais sont aujourd’hui bouddhistes ; depuis Sri Lanka, le theravada s’est diffusé en Birmanie, en Thaïlande, au Laos et au Cambodge."
+    }
+  ],
+  "aSavoir": [
+    "Selon la tradition, le Sri Maha Bodhi, planté au IIIe siècle av. J.-C., serait le plus vieil arbre planté par l’homme dont on connaît la date."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Royaume_d%27Anuradhapura",
+    { "titre": "Encyclopædia Britannica — Anuradhapura", "url": "https://www.britannica.com/place/Anuradhapura" }
+  ]
+}

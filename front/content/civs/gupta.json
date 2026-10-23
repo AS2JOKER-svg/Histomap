@@ -1,0 +1,264 @@
+{
+  "documentaires": [],
+  "decouvertes": ["universite-de-nalanda", "pilier-de-fer-de-delhi"],
+  "id": "gupta",
+  "label": "Empire gupta",
+  "tier": 1,
+  "region": "asie-sud",
+  "period": "vers 320 à vers 550",
+  "start": 320,
+  "end": 550,
+  "trackId": "inde",
+  "row": 6,
+  "isRiver": false,
+  "capitale": "Pataliputra",
+  "description": "Un empire du nord de l’Inde dont l’époque est souvent appelée l’âge classique de l’Inde : mathématiques, astronomie, littérature sanskrite et art religieux y connaissent un grand essor.",
+  "territories": ["Gupta Empire"],
+  "reperes": {
+    "capitale": { "valeur": "Pataliputra", "precision": "aujourd’hui Patna, dans la vallée du Gange" },
+    "regimes": {
+      "valeur": "Monarchie impériale",
+      "precision": "le souverain porte le titre de « grand roi des rois » ; des rois vassaux gouvernent une partie du territoire"
+    },
+    "langues": {
+      "valeur": "Sanskrit",
+      "precision": "langue de la cour, des inscriptions et de la littérature ; la population parle des langues prakrites"
+    },
+    "religion": {
+      "valeur": "Hindouisme",
+      "precision": "les rois honorent surtout Vishnou, tout en protégeant le bouddhisme et le jaïnisme"
+    },
+    "apogee": { "valeur": "Règne de Chandragupta II (vers 375 → vers 415)" },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": {
+      "valeur": "Dinar d’or",
+      "precision": "des pièces très soignées, qui montrent le roi à cheval, chassant le lion ou jouant de la musique"
+    },
+    "duree": { "valeur": "Environ 230 ans" },
+    "aujourdhui": { "valeur": "Nord de l’Inde" }
+  },
+  "essentiel": [
+    "Vers 320, Chandragupta Ier fonde une dynastie dans la vallée du Gange, autour de Pataliputra, l’ancienne capitale des [[maurya|Maurya]].",
+    "Son fils [[samudragupta|Samudragupta]] et son petit-fils [[chandragupta-ii|Chandragupta II]] étendent l’empire à presque tout le nord de l’Inde.",
+    "Cette époque est souvent appelée l’âge classique de l’Inde : le poète Kalidasa écrit probablement alors ses pièces en sanskrit, et l’astronome [[aryabhata|Aryabhata]] explique les éclipses par l’ombre de la Terre et de la Lune.",
+    "Les rois favorisent l’hindouisme, mais protègent aussi les monastères bouddhistes, comme celui de [[universite-de-nalanda|Nalanda]], qui devient un grand centre d’enseignement.",
+    "À partir du milieu du Ve siècle, les invasions des Huns venus d’Asie centrale et l’indépendance des vassaux affaiblissent l’empire, qui disparaît vers 550."
+  ],
+  "datesCles": [
+    {
+      "annee": 320,
+      "evenement": "Chandragupta Ier",
+      "info": "Début de l’ère gupta : Chandragupta Ier prend le titre de « grand roi des rois »."
+    },
+    {
+      "annee": 350,
+      "evenement": "Conquêtes de Samudragupta",
+      "info": "Une inscription gravée sur un pilier d’Allahabad énumère les rois qu’il a vaincus ou soumis."
+    },
+    {
+      "annee": 400,
+      "evenement": "Le Gujarat",
+      "info": "Vers 400, Chandragupta II bat les Kshatrapas occidentaux et atteint la mer d’Arabie."
+    },
+    {
+      "annee": 405,
+      "evenement": "Faxian",
+      "info": "Au début du Ve siècle, le moine chinois Faxian parcourt l’Inde à la recherche de textes bouddhistes."
+    },
+    {
+      "annee": 455,
+      "evenement": "Les Huns repoussés",
+      "info": "Skandagupta repousse une invasion des Huns venus du nord-ouest."
+    },
+    { "annee": 499, "evenement": "Aryabhata", "info": "L’astronome Aryabhata achève son traité, l’Aryabhatiya." },
+    {
+      "annee": 515,
+      "evenement": "Mihirakula",
+      "info": "Vers 515, le chef hun Mihirakula domine le nord-ouest de l’Inde."
+    },
+    {
+      "annee": 550,
+      "evenement": "Fin de l’empire",
+      "info": "Vers 550, les derniers Gupta ne règnent plus que sur une petite région ; le nord de l’Inde se divise en royaumes."
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "La formation de l’empire",
+      "debut": 320,
+      "fin": 375,
+      "resume": "Chandragupta Ier puis Samudragupta unifient la vallée du Gange et soumettent leurs voisins.",
+      "evenements": [{ "annee": 350, "evenement": "Conquêtes de Samudragupta" }]
+    },
+    {
+      "nom": "L’apogée",
+      "debut": 375,
+      "fin": 455,
+      "resume": "Chandragupta II et Kumaragupta Ier règnent sur un empire prospère, de la mer d’Arabie au golfe du Bengale.",
+      "evenements": [{ "annee": 400, "evenement": "Conquête du Gujarat" }, { "annee": 405, "evenement": "Voyage de Faxian" }]
+    },
+    {
+      "nom": "Le déclin",
+      "debut": 455,
+      "fin": 550,
+      "resume": "Les invasions des Huns et l’indépendance des gouverneurs réduisent peu à peu l’empire.",
+      "evenements": [
+        { "annee": 455, "evenement": "Skandagupta repousse les Huns" },
+        { "annee": 499, "evenement": "Traité d’Aryabhata" }
+      ]
+    }
+  ],
+  "regimes": [{ "id": "empire", "nom": "Monarchie impériale", "debut": 320, "fin": 550 }],
+  "dynasties": [
+    {
+      "id": "gupta",
+      "nom": "Les Gupta",
+      "debut": 320,
+      "fin": 550,
+      "note": "Sélection ; les dates de règne sont approximatives."
+    }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Chandragupta Ier",
+      "titre": "Grand roi des rois",
+      "debut": 320,
+      "fin": 335,
+      "dynastie": "gupta",
+      "note": "fondateur de l’empire",
+      "cle": true
+    },
+    {
+      "nom": "Samudragupta",
+      "titre": "Grand roi des rois",
+      "debut": 335,
+      "fin": 375,
+      "dynastie": "gupta",
+      "personne": "samudragupta",
+      "cle": true
+    },
+    {
+      "nom": "Chandragupta II",
+      "titre": "Grand roi des rois",
+      "surnom": "Vikramaditya",
+      "debut": 375,
+      "fin": 415,
+      "dynastie": "gupta",
+      "personne": "chandragupta-ii",
+      "cle": true
+    },
+    { "nom": "Kumaragupta Ier", "titre": "Grand roi des rois", "debut": 415, "fin": 455, "dynastie": "gupta", "cle": true },
+    {
+      "nom": "Skandagupta",
+      "titre": "Grand roi des rois",
+      "debut": 455,
+      "fin": 467,
+      "dynastie": "gupta",
+      "note": "repousse les Huns"
+    },
+    {
+      "nom": "Budhagupta",
+      "titre": "Grand roi des rois",
+      "debut": 476,
+      "fin": 495,
+      "dynastie": "gupta",
+      "note": "l’un des derniers grands rois"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Samudragupta",
+      "role": "Empereur gupta",
+      "description": "Le conquérant qui étend l’empire à presque tout le nord de l’Inde.",
+      "dates": "IVe siècle",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Samudragupta",
+      "ref": "samudragupta"
+    },
+    {
+      "nom": "Chandragupta II",
+      "role": "Empereur gupta",
+      "description": "Sous son règne, l’empire atteint son apogée.",
+      "dates": "IVe-Ve siècles",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Chandragupta_II",
+      "ref": "chandragupta-ii"
+    },
+    {
+      "nom": "Aryabhata",
+      "role": "Astronome et mathématicien",
+      "description": "L’auteur de l’Aryabhatiya, l’un des grands savants de l’Inde ancienne.",
+      "dates": "476 → vers 550",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Aryabhata",
+      "ref": "aryabhata"
+    },
+    {
+      "nom": "Kalidasa",
+      "role": "Poète et dramaturge",
+      "description": "Le plus célèbre auteur de la littérature sanskrite classique, auteur de la pièce « Shakuntala » ; il a probablement vécu à la cour des Gupta.",
+      "dates": "IVe-Ve siècles",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Kalidasa"
+    },
+    {
+      "nom": "Faxian",
+      "role": "Moine pèlerin chinois",
+      "description": "Il traverse l’Asie centrale pour rapporter de l’Inde des textes bouddhistes et laisse un récit de son voyage.",
+      "dates": "vers 337 → vers 422",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Faxian"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Campagnes de Samudragupta",
+      "annee": 350,
+      "adversaires": ["Rois du nord et du sud de l’Inde"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Gupta",
+      "consequences": "Samudragupta annexe les royaumes de la vallée du Gange ; les rois du Sud et des frontières doivent lui rendre hommage et payer un tribut, sans être annexés.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Samudragupta"
+    },
+    {
+      "nom": "Guerre contre les Kshatrapas occidentaux",
+      "annee": 400,
+      "adversaires": ["Kshatrapas occidentaux (rois saka)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Gupta",
+      "consequences": "Chandragupta II conquiert le Malwa et le Gujarat : l’empire atteint la mer d’Arabie et ses ports, ouverts sur le commerce avec l’Occident.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Western_Satraps"
+    },
+    {
+      "nom": "Invasions des Huns en Inde",
+      "annee": 455,
+      "adversaires": ["Huns venus d’Asie centrale (Toramana, Mihirakula)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Gupta d’abord, puis les Huns",
+      "consequences": "Skandagupta repousse une première invasion vers 455-460. Au début du VIe siècle, les chefs huns Toramana et Mihirakula s’emparent du nord-ouest et du centre de l’Inde, ce qui précipite la fin de l’empire.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Alchon_Huns"
+    }
+  ],
+  "sciences": "L’astronome et mathématicien Aryabhata explique les éclipses par l’ombre de la Terre et de la Lune, affirme que la Terre tourne sur elle-même et donne pour π une valeur très précise (3,1416). Au Ve siècle, des textes indiens utilisent une numération décimale de position, ancêtre lointain de nos chiffres. Le pilier de fer de Delhi, haut d’environ 7 mètres, a très peu rouillé en plus de quinze siècles.",
+  "croyancesText": "Les rois gupta se présentent comme de fervents adorateurs de Vishnou, mais protègent aussi le bouddhisme et le jaïnisme. À cette époque, l’hindouisme prend une grande partie de sa forme classique : on bâtit les premiers temples de pierre, on rédige de grands textes religieux, les Puranas, et le culte de Vishnou et de Shiva se développe.",
+  "diplomatie": "Samudragupta fait des rois du Sud et des frontières des vassaux qui lui paient un tribut. Les Gupta s’allient par mariage à d’autres dynasties : une fille de Chandragupta II épouse un roi vakataka du Dekkan. L’empire commerce avec l’Asie du Sud-Est, la Chine, la Perse et le monde méditerranéen.",
+  "societe": "La société est organisée en quatre grands groupes, les varnas (prêtres, guerriers, marchands et paysans, serviteurs), et en nombreuses castes. Le moine chinois Faxian décrit un pays prospère où les peines sont surtout des amendes, mais note que certains groupes, jugés impurs, vivent à l’écart.",
+  "economie": "Agriculture de la vallée du Gange, artisanat textile, commerce maritime par les ports du Bengale et du Gujarat ; dons de terres aux brahmanes et aux monastères.",
+  "arts": "Statues du Bouddha de Sarnath et de Mathura, premiers temples de pierre (Deogarh), peintures des grottes d’Ajanta (réalisées sous les Vakataka, alliés des Gupta), théâtre et poésie de Kalidasa.",
+  "quotidien": "Les jeux de plateau sont appréciés : le chaturanga, un ancêtre des échecs, apparaît en Inde vers le VIe siècle.",
+  "heritage": [
+    {
+      "titre": "Nos chiffres",
+      "texte": "La numération décimale indienne, complétée par le zéro au VIIe siècle, passe aux savants arabes puis à l’Europe : ce sont nos chiffres dits « arabes »."
+    },
+    {
+      "titre": "Nalanda",
+      "texte": "Les ruines du monastère de Nalanda sont inscrites au patrimoine mondial de l’UNESCO (2016)."
+    }
+  ],
+  "aSavoir": [
+    "Une pièce d’or montre Samudragupta jouant d’un instrument à cordes, la vina : le roi se voulait aussi poète et musicien."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Empire_gupta",
+    { "titre": "Encyclopædia Britannica — Gupta dynasty", "url": "https://www.britannica.com/topic/Gupta-dynasty" }
+  ]
+}

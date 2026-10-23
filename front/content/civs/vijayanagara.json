@@ -1,0 +1,250 @@
+{
+  "documentaires": [],
+  "decouvertes": ["hampi"],
+  "id": "vijayanagara",
+  "label": "Empire de Vijayanagara",
+  "tier": 2,
+  "region": "asie-sud",
+  "period": "1336 à 1646",
+  "start": 1336,
+  "end": 1646,
+  "color": "#ad1457",
+  "trackId": "inde-sud",
+  "row": 10,
+  "isRiver": false,
+  "capitale": "Vijayanagara (Hampi)",
+  "description": "Un puissant empire hindou du sud de l’Inde, dont la capitale, Vijayanagara, est l’une des plus grandes villes du monde vers 1500, avant d’être détruite après la défaite de Talikota en 1565.",
+  "territories": ["Vijayanagara"],
+  "reperes": {
+    "capitale": {
+      "valeur": "Vijayanagara (Hampi)",
+      "precision": "au bord de la rivière Tungabhadra ; puis Penukonda et Chandragiri après 1565"
+    },
+    "regimes": { "valeur": "Monarchie", "precision": "quatre dynasties : Sangama, Saluva, Tuluva et Aravidu" },
+    "langues": { "valeur": "Kannada, télougou, tamoul et sanskrit" },
+    "religion": { "valeur": "Hindouisme", "precision": "les rois honorent d’abord Shiva (Virupaksha), puis surtout Vishnou" },
+    "apogee": { "valeur": "Règne de Krishnadevaraya (1509 → 1529)" },
+    "population": {
+      "valeur": "Inconnue",
+      "precision": "la capitale aurait compté plusieurs centaines de milliers d’habitants vers 1500"
+    },
+    "monnaie": { "valeur": "Pagode (varaha) d’or" },
+    "duree": { "valeur": "Environ 310 ans" },
+    "aujourdhui": { "valeur": "Sud de l’Inde", "precision": "Karnataka, Andhra Pradesh et Tamil Nadu" }
+  },
+  "essentiel": [
+    "En 1336, selon la tradition, deux frères, Harihara et Bukka, fondent une ville au bord de la rivière Tungabhadra : Vijayanagara, la « cité de la victoire ».",
+    "Leur royaume unit une grande partie du sud de l’Inde et affronte pendant deux siècles les sultanats musulmans du Dekkan, d’abord le sultanat bahmanide.",
+    "Sous [[krishnadevaraya|Krishnadevaraya]] (1509-1529), l’empire est à son apogée ; les voyageurs portugais décrivent une capitale immense et riche.",
+    "Les rois font construire des temples géants, comme ceux de [[hampi|Hampi]], et protègent les poètes en kannada, en télougou et en sanskrit.",
+    "En 1565, une coalition de sultans du Dekkan l’écrase à la [[bataille-de-talikota|bataille de Talikota]] ; la capitale est pillée et abandonnée, et l’empire décline jusque vers 1646."
+  ],
+  "datesCles": [
+    {
+      "annee": 1336,
+      "evenement": "Fondation",
+      "info": "Harihara Ier et Bukka fondent la capitale, selon la tradition avec l’aide du sage Vidyaranya."
+    },
+    {
+      "annee": 1347,
+      "evenement": "Les Bahmanides",
+      "info": "Un sultanat musulman naît au nord, dans le Dekkan : commence une longue rivalité."
+    },
+    {
+      "annee": 1370,
+      "evenement": "Madurai",
+      "info": "Vers 1370, Kumara Kampana, fils de Bukka, conquiert le sultanat de Madurai, dans l’extrême sud."
+    },
+    {
+      "annee": 1443,
+      "evenement": "Abdur Razzaq",
+      "info": "Un ambassadeur persan visite la capitale et la décrit comme une ville sans égale."
+    },
+    { "annee": 1509, "evenement": "Krishnadevaraya", "info": "Début du règne du plus célèbre roi de Vijayanagara." },
+    {
+      "annee": 1520,
+      "evenement": "Raichur",
+      "info": "Krishnadevaraya bat le sultan de Bijapur et prend la forteresse de Raichur."
+    },
+    {
+      "annee": 1565,
+      "evenement": "Talikota",
+      "info": "Défaite face à une coalition de sultans du Dekkan ; la capitale est pillée.",
+      "ref": "bataille-de-talikota"
+    },
+    {
+      "annee": 1646,
+      "evenement": "Fin",
+      "info": "Vers 1646, le dernier roi perd ses territoires face aux sultans de Bijapur et de Golconde."
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "Les Sangama",
+      "debut": 1336,
+      "fin": 1485,
+      "resume": "Les fondateurs unifient le Sud et affrontent les Bahmanides.",
+      "evenements": [{ "annee": 1336, "evenement": "Fondation" }, { "annee": 1443, "evenement": "Visite d’Abdur Razzaq" }]
+    },
+    {
+      "nom": "L’apogée",
+      "debut": 1485,
+      "fin": 1565,
+      "resume": "Sous les dynasties Saluva puis Tuluva, Krishnadevaraya mène l’empire à son apogée ; le commerce avec les Portugais de Goa se développe.",
+      "evenements": [
+        { "annee": 1509, "evenement": "Krishnadevaraya roi" },
+        { "annee": 1520, "evenement": "Prise de Raichur" },
+        { "annee": 1565, "evenement": "Talikota", "ref": "bataille-de-talikota" }
+      ]
+    },
+    {
+      "nom": "Le déclin",
+      "debut": 1565,
+      "fin": 1646,
+      "resume": "La dynastie Aravidu règne depuis Penukonda puis Chandragiri ; les gouverneurs, les nayaks, deviennent indépendants.",
+      "evenements": [{ "annee": 1639, "evenement": "Les Anglais s’installent à Madras" }]
+    }
+  ],
+  "regimes": [{ "id": "monarchie", "nom": "Monarchie", "debut": 1336, "fin": 1646 }],
+  "dynasties": [
+    { "id": "sangama", "nom": "Les Sangama", "debut": 1336, "fin": 1485, "note": "Sélection." },
+    { "id": "saluva", "nom": "Les Saluva", "debut": 1485, "fin": 1505, "note": "Sélection." },
+    { "id": "tuluva", "nom": "Les Tuluva", "debut": 1505, "fin": 1570, "note": "Sélection." },
+    { "id": "aravidu", "nom": "Les Aravidu", "debut": 1570, "fin": 1646, "note": "Sélection." }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Harihara Ier",
+      "titre": "Roi",
+      "debut": 1336,
+      "fin": 1356,
+      "dynastie": "sangama",
+      "note": "fondateur",
+      "cle": true
+    },
+    { "nom": "Bukka Raya Ier", "titre": "Roi", "debut": 1356, "fin": 1377, "dynastie": "sangama", "cle": true },
+    {
+      "nom": "Deva Raya II",
+      "titre": "Roi",
+      "debut": 1424,
+      "fin": 1446,
+      "dynastie": "sangama",
+      "note": "recrute des archers musulmans dans son armée",
+      "cle": true
+    },
+    { "nom": "Saluva Narasimha", "titre": "Roi", "debut": 1485, "fin": 1491, "dynastie": "saluva" },
+    {
+      "nom": "Krishnadevaraya",
+      "titre": "Empereur",
+      "debut": 1509,
+      "fin": 1529,
+      "dynastie": "tuluva",
+      "personne": "krishnadevaraya",
+      "cle": true
+    },
+    { "nom": "Achyuta Deva Raya", "titre": "Empereur", "debut": 1529, "fin": 1542, "dynastie": "tuluva" },
+    {
+      "nom": "Sadashiva Raya",
+      "titre": "Empereur",
+      "debut": 1542,
+      "fin": 1570,
+      "dynastie": "tuluva",
+      "note": "le pouvoir réel appartient au régent Rama Raya"
+    },
+    { "nom": "Tirumala Deva Raya", "titre": "Empereur", "debut": 1570, "fin": 1572, "dynastie": "aravidu" },
+    { "nom": "Venkatapati Raya", "titre": "Empereur", "debut": 1586, "fin": 1614, "dynastie": "aravidu" },
+    {
+      "nom": "Sriranga III",
+      "titre": "Empereur",
+      "debut": 1642,
+      "fin": 1646,
+      "dynastie": "aravidu",
+      "note": "dernier empereur"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Krishnadevaraya",
+      "role": "Empereur",
+      "description": "Le plus célèbre souverain de Vijayanagara, guerrier et poète.",
+      "dates": "1471 → 1529",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Krishnadevaraya",
+      "ref": "krishnadevaraya"
+    },
+    {
+      "nom": "Aliya Rama Raya",
+      "role": "Régent",
+      "description": "Gendre de Krishnadevaraya, il gouverne au nom du roi Sadashiva ; il est tué à la bataille de Talikota.",
+      "dates": "1484 → 1565",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Aliya_Rama_Raya"
+    },
+    {
+      "nom": "Domingo Paes",
+      "role": "Voyageur portugais",
+      "description": "Il visite la capitale vers 1520 et la juge aussi grande que Rome.",
+      "dates": "XVIe siècle",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Domingo_Paes"
+    },
+    {
+      "nom": "Vidyaranya",
+      "role": "Sage et moine",
+      "description": "Selon la tradition, il aide Harihara et Bukka à fonder la ville.",
+      "dates": "XIVe siècle",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Vidyaranya"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerres contre le sultanat bahmanide",
+      "annee": 1367,
+      "adversaires": ["Sultanat bahmanide"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Indécis",
+      "consequences": "Du milieu du XIVe au début du XVIe siècle, les deux États se disputent les terres fertiles et les forteresses entre les rivières Krishna et Tungabhadra, comme Raichur.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Sultanat_bahmanide"
+    },
+    {
+      "nom": "Bataille de Raichur",
+      "annee": 1520,
+      "adversaires": ["Sultanat de Bijapur (Ismail Adil Shah)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Vijayanagara",
+      "consequences": "Krishnadevaraya prend la forteresse de Raichur ; c’est l’une des plus grandes victoires de l’empire.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Battle_of_Raichur"
+    },
+    {
+      "nom": "Bataille de Talikota",
+      "annee": 1565,
+      "adversaires": ["Sultanats de Bijapur, Ahmadnagar, Golconde et Bidar"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Coalition des sultanats du Dekkan",
+      "consequences": "Le régent Rama Raya est tué ; la capitale est pillée pendant des mois puis abandonnée. L’empire survit, affaibli, plus au sud.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Talikota"
+    }
+  ],
+  "sciences": "Les ingénieurs de Vijayanagara construisent des réservoirs, des canaux et des aqueducs pour irriguer les terres et alimenter la capitale. Les architectes taillent dans le granit des temples immenses, comme celui de Vittala, dont certains piliers résonnent comme des notes de musique quand on les frappe.",
+  "croyancesText": "Les rois de Vijayanagara se présentent comme les protecteurs des traditions hindoues du Sud. Ils honorent d’abord Virupaksha, une forme de Shiva, puis surtout Vishnou. Des musulmans servent toutefois dans l’armée et habitent la capitale, et les rois accueillent des marchands de toutes religions.",
+  "diplomatie": "L’empire affronte pendant deux siècles les sultanats du Dekkan, avec lesquels il conclut aussi des alliances changeantes. Il achète des chevaux arabes et persans aux marchands, puis aux Portugais installés à Goa à partir de 1510. Il reçoit des ambassadeurs de Perse et des voyageurs européens.",
+  "societe": "Le roi confie les provinces à des chefs militaires, les nayaks, qui lèvent des troupes pour lui. Les temples sont de grands propriétaires et employeurs. Les voyageurs décrivent des fêtes royales somptueuses, comme la fête de Mahanavami, avec ses défilés d’éléphants.",
+  "economie": "Agriculture irriguée (riz, canne à sucre), coton, épices, commerce maritime par les ports de la côte ouest ; achat de chevaux de guerre.",
+  "arts": "Temples de Virupaksha et de Vittala, char de pierre, « bains de la reine », sculptures de Hampi ; poésie en télougou à la cour de Krishnadevaraya.",
+  "quotidien": "Les marchés de la capitale vendent des pierres précieuses, des soieries et des épices ; les voyageurs portugais s’étonnent de leur abondance.",
+  "heritage": [
+    {
+      "titre": "Hampi",
+      "texte": "Les ruines de la capitale sont inscrites au patrimoine mondial de l’UNESCO (1986)."
+    },
+    {
+      "titre": "La littérature télougoue",
+      "texte": "Le règne de Krishnadevaraya est considéré comme un âge d’or de la poésie en télougou."
+    }
+  ],
+  "aSavoir": ["Krishnadevaraya a lui-même écrit un long poème en télougou, l’Amuktamalyada."],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Royaume_de_Vijayanagara",
+    { "titre": "Encyclopædia Britannica — Vijayanagar", "url": "https://www.britannica.com/place/Vijayanagar" }
+  ]
+}

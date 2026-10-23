@@ -1,0 +1,17 @@
+{
+  "id": "alauddin-khalji",
+  "nom": "Alauddin Khalji",
+  "role": "Sultan de Delhi",
+  "roles": ["Sultan"],
+  "dates": "vers 1266 → 1316",
+  "mort": 1316,
+  "description": "Sultan de 1296 à 1316, il repousse les invasions mongoles et étend le sultanat jusqu’au sud de l’Inde.",
+  "reperes": [{ "label": "Règne", "valeur": "1296 → 1316" }],
+  "essentiel": [
+    "Il prend le pouvoir en faisant assassiner son oncle, le sultan Jalaluddin.",
+    "Il repousse plusieurs grandes invasions mongoles entre 1297 et 1306.",
+    "Il fixe les prix des marchés de Delhi pour pouvoir payer une armée nombreuse.",
+    "Son général Malik Kafur mène des expéditions jusqu’à Madurai, à l’extrême sud."
+  ],
+  "wikiUrl": "https://en.wikipedia.org/wiki/Alauddin_Khalji"
+}

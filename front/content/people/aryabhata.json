@@ -1,0 +1,16 @@
+{
+  "id": "aryabhata",
+  "nom": "Aryabhata",
+  "role": "Astronome et mathématicien",
+  "roles": ["Astronome", "Mathématicien"],
+  "dates": "476 → vers 550",
+  "naissance": 476,
+  "description": "Savant indien qui achève en 499, à 23 ans selon son propre texte, un traité d’astronomie et de mathématiques, l’Aryabhatiya.",
+  "essentiel": [
+    "Il explique les éclipses par l’ombre de la Terre et de la Lune, et non par un démon qui dévorerait les astres.",
+    "Il affirme que la Terre tourne sur elle-même, ce qui explique le mouvement apparent des étoiles.",
+    "Il donne pour π une valeur proche de 3,1416.",
+    "Le premier satellite indien, lancé en 1975, porte son nom."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Aryabhata"
+}

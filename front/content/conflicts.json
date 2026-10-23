@@ -816,5 +816,53 @@
   "Guerres de Samory contre la France": {
     "coords": [-9.35, 10.2],
     "lieu": "Haute-Guinée"
+  },
+  "Campagnes de Samudragupta": {
+    "coords": [81.85, 25.44],
+    "lieu": "Nord de l’Inde (pilier d’Allahabad)"
+  },
+  "Guerre contre les Kshatrapas occidentaux": {
+    "coords": [75.78, 23.18],
+    "lieu": "Malwa et Gujarat (Ujjain)"
+  },
+  "Invasions des Huns en Inde": {
+    "coords": [74.53, 32.49],
+    "lieu": "Nord-ouest de l’Inde"
+  },
+  "Invasions mongoles de l’Inde": {
+    "coords": [77.21, 28.65],
+    "lieu": "Pendjab et environs de Delhi"
+  },
+  "Campagnes de Malik Kafur": {
+    "coords": [78.12, 9.93],
+    "lieu": "Dekkan et sud de l’Inde (jusqu’à Madurai)"
+  },
+  "Guerres contre le sultanat bahmanide": {
+    "coords": [77.36, 16.2],
+    "lieu": "Doab de Raichur"
+  },
+  "Bataille de Raichur": {
+    "coords": [77.34, 16.22],
+    "lieu": "Raichur (Karnataka)"
+  },
+  "Bataille de Talikota": {
+    "coords": [76.31, 16.47],
+    "lieu": "Près de Talikota (Karnataka)"
+  },
+  "Deuxième guerre anglo-marathe": {
+    "coords": [75.89, 20.25],
+    "lieu": "Dekkan et nord de l’Inde (Assaye)"
+  },
+  "Troisième guerre anglo-marathe": {
+    "coords": [73.86, 18.52],
+    "lieu": "Pune et centre de l’Inde"
+  },
+  "Guerre de Dutugemunu contre Elara": {
+    "coords": [80.4, 8.33],
+    "lieu": "Anuradhapura (Sri Lanka)"
+  },
+  "Conquête chola de Sri Lanka": {
+    "coords": [81, 7.94],
+    "lieu": "Anuradhapura et Polonnaruwa (Sri Lanka)"
   }
 }

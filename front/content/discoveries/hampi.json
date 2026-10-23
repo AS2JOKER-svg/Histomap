@@ -1,0 +1,18 @@
+{
+  "id": "hampi",
+  "nom": "Hampi",
+  "domaine": "Architecture",
+  "dates": "XIVe-XVIe siècles",
+  "description": "Les ruines de Vijayanagara, l’ancienne capitale de l’empire, au milieu d’un paysage de rochers de granit au bord de la rivière Tungabhadra.",
+  "sections": [
+    {
+      "titre": "Ce qu’on y voit",
+      "texte": "Des temples immenses (Virupaksha, Vittala), un char de pierre, des marchés à colonnades, des écuries pour les éléphants et des aqueducs. Le site est inscrit au patrimoine mondial de l’UNESCO depuis 1986."
+    },
+    {
+      "titre": "Une ville immense",
+      "texte": "Vers 1500, la capitale aurait compté plusieurs centaines de milliers d’habitants, ce qui en faisait l’une des plus grandes villes du monde."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Hampi"
+}

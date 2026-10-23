@@ -1,0 +1,280 @@
+{
+  "documentaires": [],
+  "decouvertes": [],
+  "id": "empire-marathe",
+  "label": "Empire marathe",
+  "tier": 2,
+  "region": "asie-sud",
+  "period": "1674 à 1818",
+  "start": 1674,
+  "end": 1818,
+  "color": "#e67e22",
+  "trackId": "inde-ouest",
+  "row": 3,
+  "isRiver": false,
+  "capitale": "Raigad, puis Satara et Pune",
+  "description": "Un État fondé par Shivaji dans l’ouest de l’Inde, qui résiste à l’Empire moghol puis domine une grande partie de l’Inde au XVIIIe siècle, avant d’être vaincu par les Britanniques en 1818.",
+  "territories": ["Maratha", "Maratha Confederacy"],
+  "reperes": {
+    "capitale": {
+      "valeur": "Raigad, puis Satara et Pune",
+      "precision": "Pune devient le centre du pouvoir des peshwas au XVIIIe siècle"
+    },
+    "regimes": {
+      "valeur": "Royaume, puis confédération",
+      "precision": "le roi (chhatrapati) laisse le pouvoir réel à son Premier ministre, le peshwa, et à de grandes familles"
+    },
+    "langues": { "valeur": "Marathi", "precision": "le persan reste utilisé dans la diplomatie" },
+    "religion": { "valeur": "Hindouisme" },
+    "apogee": { "valeur": "Vers 1758", "precision": "les armées marathes atteignent Attock, sur l’Indus" },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": { "valeur": "Hon d’or et roupie", "precision": "Shivaji fait frapper ses propres pièces" },
+    "duree": { "valeur": "Environ 145 ans" },
+    "aujourdhui": { "valeur": "Inde", "precision": "surtout le Maharashtra" }
+  },
+  "essentiel": [
+    "Au XVIIe siècle, [[shivaji|Shivaji]], un chef marathe de l’ouest de l’Inde, combat le sultanat de Bijapur et l’Empire moghol depuis ses forteresses des montagnes.",
+    "En 1674, il est [[couronnement-de-shivaji|couronné roi]] à Raigad et prend le titre de chhatrapati.",
+    "Après sa mort, les Marathes résistent pendant 27 ans à l’empereur moghol [[aurangzeb|Aurangzeb]], qui meurt en 1707 sans les avoir vaincus.",
+    "Au XVIIIe siècle, les Premiers ministres, les peshwas, comme Bajirao Ier, étendent la domination marathe sur une grande partie de l’Inde ; la défaite de la [[troisieme-bataille-de-panipat|troisième bataille de Panipat]] (1761) arrête leur avance au nord.",
+    "Divisée entre de grandes familles, la confédération marathe est vaincue par la Compagnie britannique des Indes lors de trois guerres ; elle disparaît en 1818."
+  ],
+  "datesCles": [
+    {
+      "annee": 1674,
+      "evenement": "Couronnement de Shivaji",
+      "info": "Shivaji est couronné roi au fort de Raigad.",
+      "ref": "couronnement-de-shivaji"
+    },
+    {
+      "annee": 1680,
+      "evenement": "Mort de Shivaji",
+      "info": "Début d’une longue guerre contre l’empereur moghol Aurangzeb."
+    },
+    {
+      "annee": 1689,
+      "evenement": "Sambhaji",
+      "info": "Le fils de Shivaji est capturé et exécuté sur ordre d’Aurangzeb."
+    },
+    {
+      "annee": 1707,
+      "evenement": "Mort d’Aurangzeb",
+      "info": "L’Empire moghol s’affaiblit ; Shahu, petit-fils de Shivaji, est libéré et devient roi l’année suivante."
+    },
+    {
+      "annee": 1720,
+      "evenement": "Bajirao Ier",
+      "info": "Le nouveau peshwa lance des campagnes vers le nord de l’Inde."
+    },
+    {
+      "annee": 1761,
+      "evenement": "Panipat",
+      "info": "Lourde défaite face à l’armée afghane d’Ahmad Shah Durrani.",
+      "ref": "troisieme-bataille-de-panipat"
+    },
+    {
+      "annee": 1772,
+      "evenement": "Retour à Delhi",
+      "info": "Mahadji Shinde ramène l’empereur moghol à Delhi, sous la protection des Marathes."
+    },
+    {
+      "annee": 1818,
+      "evenement": "Fin du peshwa",
+      "info": "Le dernier peshwa, Baji Rao II, se rend aux Britanniques."
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "Le royaume de Shivaji",
+      "debut": 1674,
+      "fin": 1707,
+      "resume": "Shivaji fonde un royaume ; ses fils et sa belle-fille Tarabai résistent aux armées d’Aurangzeb.",
+      "evenements": [
+        { "annee": 1674, "evenement": "Couronnement", "ref": "couronnement-de-shivaji" },
+        { "annee": 1689, "evenement": "Exécution de Sambhaji" }
+      ]
+    },
+    {
+      "nom": "L’expansion des peshwas",
+      "debut": 1707,
+      "fin": 1761,
+      "resume": "Les peshwas de Pune étendent la domination marathe au centre et au nord de l’Inde.",
+      "evenements": [
+        { "annee": 1720, "evenement": "Bajirao Ier peshwa" },
+        { "annee": 1737, "evenement": "Raid sur Delhi" },
+        { "annee": 1761, "evenement": "Panipat", "ref": "troisieme-bataille-de-panipat" }
+      ]
+    },
+    {
+      "nom": "La confédération",
+      "debut": 1761,
+      "fin": 1818,
+      "resume": "Les grandes familles (Shinde, Holkar, Gaekwad, Bhonsle) gouvernent leurs territoires, avant d’être vaincues par les Britanniques.",
+      "evenements": [
+        { "annee": 1772, "evenement": "Retour de l’empereur moghol à Delhi" },
+        { "annee": 1803, "evenement": "Bataille d’Assaye" },
+        { "annee": 1818, "evenement": "Fin du peshwa" }
+      ]
+    }
+  ],
+  "regimes": [
+    { "id": "royaume", "nom": "Royaume (chhatrapati)", "debut": 1674, "fin": 1713 },
+    { "id": "peshwas", "nom": "Gouvernement des peshwas", "debut": 1713, "fin": 1818 }
+  ],
+  "dynasties": [
+    { "id": "bhonsle", "nom": "Les rois Bhonsle (chhatrapati)", "debut": 1674, "fin": 1818, "note": "Sélection." },
+    { "id": "peshwas", "nom": "Les peshwas (Premiers ministres)", "debut": 1713, "fin": 1818, "note": "Sélection." }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Shivaji",
+      "titre": "Chhatrapati",
+      "debut": 1674,
+      "fin": 1680,
+      "dynastie": "bhonsle",
+      "personne": "shivaji",
+      "cle": true
+    },
+    {
+      "nom": "Sambhaji",
+      "titre": "Chhatrapati",
+      "debut": 1681,
+      "fin": 1689,
+      "dynastie": "bhonsle",
+      "note": "exécuté sur ordre d’Aurangzeb",
+      "cle": true
+    },
+    { "nom": "Rajaram Ier", "titre": "Chhatrapati", "debut": 1689, "fin": 1700, "dynastie": "bhonsle" },
+    {
+      "nom": "Tarabai",
+      "titre": "Régente",
+      "debut": 1700,
+      "fin": 1707,
+      "dynastie": "bhonsle",
+      "note": "veuve de Rajaram, elle dirige la résistance",
+      "cle": true
+    },
+    { "nom": "Shahu Ier", "titre": "Chhatrapati", "debut": 1708, "fin": 1749, "dynastie": "bhonsle", "cle": true },
+    { "nom": "Balaji Vishwanath", "titre": "Peshwa", "debut": 1713, "fin": 1720, "dynastie": "peshwas" },
+    { "nom": "Bajirao Ier", "titre": "Peshwa", "debut": 1720, "fin": 1740, "dynastie": "peshwas", "cle": true },
+    {
+      "nom": "Balaji Bajirao",
+      "titre": "Peshwa",
+      "surnom": "Nanasaheb",
+      "debut": 1740,
+      "fin": 1761,
+      "dynastie": "peshwas"
+    },
+    { "nom": "Madhavrao Ier", "titre": "Peshwa", "debut": 1761, "fin": 1772, "dynastie": "peshwas" },
+    {
+      "nom": "Baji Rao II",
+      "titre": "Peshwa",
+      "debut": 1795,
+      "fin": 1818,
+      "dynastie": "peshwas",
+      "note": "dernier peshwa"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Shivaji",
+      "role": "Fondateur du royaume marathe",
+      "description": "Le chef de guerre qui fonde le royaume marathe face aux Moghols.",
+      "dates": "1630 → 1680",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Shivaji",
+      "ref": "shivaji"
+    },
+    {
+      "nom": "Bajirao Ier",
+      "role": "Peshwa",
+      "description": "Général réputé pour la rapidité de sa cavalerie, il étend la domination marathe vers le nord et atteint Delhi en 1737.",
+      "dates": "1700 → 1740",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bajirao_Ier"
+    },
+    {
+      "nom": "Ahilyabai Holkar",
+      "role": "Reine d’Indore",
+      "description": "Reine réputée pour sa bonne administration et ses fondations religieuses.",
+      "dates": "1725 → 1795",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Ahilyabai_Holkar",
+      "ref": "ahilyabai-holkar"
+    },
+    {
+      "nom": "Mahadji Shinde",
+      "role": "Chef de guerre",
+      "description": "Il contrôle Delhi et protège l’empereur moghol à la fin du XVIIIe siècle.",
+      "dates": "1730 → 1794",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Mahadaji_Shinde"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerres moghols-marathes",
+      "annee": 1680,
+      "adversaires": ["Empire moghol (Aurangzeb)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Marathes",
+      "consequences": "De 1680 à 1707, Aurangzeb mène lui-même la guerre dans le Dekkan ; malgré la prise de nombreux forts et l’exécution de Sambhaji, il ne parvient pas à soumettre les Marathes.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Empire_marathe"
+    },
+    {
+      "nom": "Troisième bataille de Panipat",
+      "annee": 1761,
+      "adversaires": ["Empire durrani (Ahmad Shah Durrani) et ses alliés indiens"],
+      "allies": [],
+      "morts": "Des dizaines de milliers",
+      "vainqueur": "Empire durrani",
+      "consequences": "L’armée marathe est écrasée au nord de Delhi ; l’expansion marathe vers le nord s’arrête pour une dizaine d’années.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Troisi%C3%A8me_bataille_de_Panipat"
+    },
+    {
+      "nom": "Deuxième guerre anglo-marathe",
+      "annee": 1803,
+      "adversaires": ["Compagnie britannique des Indes orientales (Arthur Wellesley, Gerard Lake)"],
+      "allies": [],
+      "morts": "Plusieurs milliers",
+      "vainqueur": "Compagnie britannique des Indes",
+      "consequences": "Après les victoires britanniques d’Assaye et de Laswari, les chefs marathes doivent céder des territoires, dont Delhi.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Second_Anglo-Maratha_War"
+    },
+    {
+      "nom": "Troisième guerre anglo-marathe",
+      "annee": 1817,
+      "adversaires": ["Compagnie britannique des Indes orientales"],
+      "allies": [],
+      "morts": "Plusieurs milliers",
+      "vainqueur": "Compagnie britannique des Indes",
+      "consequences": "Le peshwa Baji Rao II se rend en 1818 et ses terres sont annexées ; les autres chefs marathes deviennent des princes sous protection britannique.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Third_Anglo-Maratha_War"
+    }
+  ],
+  "sciences": "Shivaji fait construire ou renforcer des centaines de forteresses de montagne et des forts sur la mer, comme Sindhudurg. Il crée aussi une marine de guerre pour protéger la côte, que développe au XVIIIe siècle l’amiral Kanhoji Angre.",
+  "croyancesText": "Les rois marathes sont hindous et se posent en protecteurs des temples et des pèlerinages, comme celui de Pandharpur. Shivaji emploie toutefois des musulmans dans son armée et sa marine. La reine Ahilyabai Holkar fait restaurer des temples dans toute l’Inde, dont celui de Kashi Vishwanath à Varanasi.",
+  "diplomatie": "Les Marathes combattent tour à tour le sultanat de Bijapur, l’Empire moghol, les Afghans, le nizam d’Hyderabad et les Britanniques. Au XVIIIe siècle, ils prélèvent un tribut, le chauth (un quart des revenus), sur de nombreuses régions qu’ils ne gouvernent pas directement. Ils protègent l’empereur moghol, qui reste un symbole.",
+  "societe": "L’armée repose sur une cavalerie légère très mobile et sur des fantassins des montagnes. Au XVIIIe siècle, le pouvoir passe des rois aux peshwas de Pune, puis aux grandes familles de chefs : Shinde à Gwalior, Holkar à Indore, Gaekwad à Baroda et Bhonsle à Nagpur.",
+  "economie": "Agriculture, impôts et tributs (chauth et sardeshmukhi), commerce côtier ; pillages lors des campagnes militaires, notamment au Bengale dans les années 1740.",
+  "arts": "Forteresses de Raigad, Sinhagad et Sindhudurg, palais Shaniwar Wada de Pune, temples, chants religieux en marathi.",
+  "quotidien": "Les soldats de Shivaji, les mavales, sont des paysans des montagnes qui connaissent parfaitement les sentiers et les cols.",
+  "heritage": [
+    {
+      "titre": "Le Maharashtra",
+      "texte": "Shivaji est une figure centrale de l’histoire de l’État indien du Maharashtra ; l’aéroport et la grande gare de Mumbai portent son nom."
+    },
+    {
+      "titre": "Les forts",
+      "texte": "Douze forts marathes sont inscrits au patrimoine mondial de l’UNESCO depuis 2025."
+    }
+  ],
+  "aSavoir": [
+    "Selon la tradition, Shivaji s’est échappé en 1666 de la cour d’Aurangzeb, à Agra, caché dans de grands paniers de friandises."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Empire_marathe",
+    "https://fr.wikipedia.org/wiki/Paysages_militaires_marathes_de_l%27Inde",
+    {
+      "titre": "Encyclopædia Britannica — Maratha confederacy",
+      "url": "https://www.britannica.com/topic/Maratha-confederacy"
+    }
+  ]
+}

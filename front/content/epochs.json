@@ -99,6 +99,8 @@
           "nabateens",
           "hebreux",
           "maurya",
+          "gupta",
+          "anuradhapura",
           "chine-imperiale",
           "xiongnu",
           "gojoseon"
@@ -163,7 +165,9 @@
           "goryeo",
           "khmer",
           "srivijaya",
-          "chola"
+          "chola",
+          "sultanat-de-delhi",
+          "vijayanagara"
         ]
       },
       {
@@ -237,6 +241,7 @@
         "civs": [
           "ottomans",
           "moghols",
+          "empire-marathe",
           "safavides",
           "empire-durrani",
           "chine-mod",

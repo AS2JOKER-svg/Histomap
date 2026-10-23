@@ -1,0 +1,18 @@
+{
+  "id": "krishnadevaraya",
+  "nom": "Krishnadevaraya",
+  "role": "Empereur de Vijayanagara",
+  "roles": ["Empereur", "Poète"],
+  "dates": "1471 → 1529",
+  "naissance": 1471,
+  "mort": 1529,
+  "description": "Empereur de 1509 à 1529, il porte Vijayanagara à son apogée par ses victoires et sa protection des arts.",
+  "reperes": [{ "label": "Règne", "valeur": "1509 → 1529" }],
+  "essentiel": [
+    "Il bat les sultans du Dekkan et prend la forteresse de Raichur en 1520.",
+    "Il soumet le royaume des Gajapati d’Odisha, à l’est.",
+    "Il entretient de bonnes relations avec les Portugais de Goa, qui lui vendent des chevaux.",
+    "Poète, il écrit en télougou et protège, selon la tradition, huit grands poètes de cour."
+  ],
+  "wikiUrl": "https://en.wikipedia.org/wiki/Krishnadevaraya"
+}

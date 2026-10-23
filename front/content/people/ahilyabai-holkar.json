@@ -1,0 +1,18 @@
+{
+  "id": "ahilyabai-holkar",
+  "nom": "Ahilyabai Holkar",
+  "role": "Reine d’Indore",
+  "roles": ["Reine"],
+  "dates": "1725 → 1795",
+  "naissance": 1725,
+  "mort": 1795,
+  "description": "Reine de l’État marathe d’Indore de 1767 à 1795, réputée pour sa bonne administration et ses fondations religieuses.",
+  "reperes": [{ "label": "Règne", "valeur": "1767 → 1795" }],
+  "essentiel": [
+    "Veuve, elle prend la tête de l’État après la mort de son beau-père et de son fils.",
+    "Elle tient chaque jour audience pour écouter les plaintes de ses sujets.",
+    "Elle fait de Maheshwar, au bord de la Narmada, sa capitale et un centre de tissage.",
+    "Elle finance la reconstruction de temples dans toute l’Inde, dont celui de Kashi Vishwanath à Varanasi."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Ahilyabai_Holkar"
+}

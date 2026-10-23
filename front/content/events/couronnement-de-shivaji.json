@@ -1,0 +1,16 @@
+{
+  "id": "couronnement-de-shivaji",
+  "nom": "Couronnement de Shivaji",
+  "annee": 1674,
+  "dates": "6 juin 1674",
+  "lieu": "Fort de Raigad (Maharashtra, Inde)",
+  "description": "Shivaji se fait couronner roi selon les rites hindous et prend le titre de chhatrapati, affirmant son indépendance face aux Moghols et au sultanat de Bijapur.",
+  "sections": [
+    {
+      "titre": "Pourquoi c’est important",
+      "texte": "Ce sacre fait de Shivaji un souverain et non plus un simple chef rebelle : il marque la naissance de l’État marathe."
+    }
+  ],
+  "liens": [{ "ref": "shivaji", "relation": "Le roi couronné" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Shivaji"
+}

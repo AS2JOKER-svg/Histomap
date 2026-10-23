@@ -1,0 +1,16 @@
+{
+  "id": "chandragupta-ii",
+  "nom": "Chandragupta II",
+  "role": "Empereur gupta",
+  "roles": ["Empereur"],
+  "dates": "IVe-Ve siècles",
+  "description": "Empereur vers 375-415 : sous son règne, l’empire gupta atteint son apogée et s’étend jusqu’à la mer d’Arabie.",
+  "reperes": [{ "label": "Règne", "valeur": "vers 375 → vers 415" }],
+  "essentiel": [
+    "Il porte le titre de Vikramaditya, « soleil de la vaillance ».",
+    "Il conquiert le Malwa et le Gujarat sur les Kshatrapas occidentaux.",
+    "Le moine chinois Faxian visite l’Inde pendant son règne.",
+    "Sa fille Prabhavatigupta épouse un roi vakataka du Dekkan."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Chandragupta_II"
+}

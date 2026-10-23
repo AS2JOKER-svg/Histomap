@@ -1,0 +1,318 @@
+{
+  "documentaires": [],
+  "decouvertes": ["qutb-minar"],
+  "id": "sultanat-de-delhi",
+  "label": "Sultanat de Delhi",
+  "tier": 1,
+  "region": "asie-sud",
+  "period": "1206 à 1526",
+  "start": 1206,
+  "end": 1526,
+  "trackId": "inde",
+  "row": 2,
+  "isRiver": false,
+  "capitale": "Delhi",
+  "description": "Une suite de cinq dynasties musulmanes d’origine turque ou afghane qui gouvernent le nord de l’Inde depuis Delhi pendant plus de trois siècles, avant d’être remplacées par les Moghols.",
+  "territories": ["Sultanate of Delhi"],
+  "reperes": {
+    "capitale": { "valeur": "Delhi", "precision": "brièvement Daulatabad, dans le Dekkan, sous Muhammad ibn Tughluq" },
+    "regimes": {
+      "valeur": "Sultanat",
+      "precision": "cinq dynasties successives : Mamelouks, Khalji, Tughluq, Sayyid et Lodi"
+    },
+    "langues": {
+      "valeur": "Persan",
+      "precision": "langue de la cour et de l’administration ; la population parle des langues indiennes"
+    },
+    "religion": { "valeur": "Islam sunnite (souverains)", "precision": "la majorité de la population reste hindoue" },
+    "apogee": {
+      "valeur": "Règnes d’Alauddin Khalji et de Muhammad ibn Tughluq",
+      "precision": "début du XIVe siècle : le sultanat atteint le sud de l’Inde"
+    },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": { "valeur": "Tanka d’argent et jital de cuivre", "precision": "introduits par le sultan Iltutmish" },
+    "duree": { "valeur": "Environ 320 ans" },
+    "aujourdhui": { "valeur": "Inde, Pakistan et Bangladesh" }
+  },
+  "essentiel": [
+    "À la fin du XIIe siècle, Muhammad de Ghor, un souverain de l’Afghanistan actuel, conquiert le nord de l’Inde ; à sa mort, en 1206, son général Qutb ud-Din Aibak, un ancien esclave, devient le premier sultan.",
+    "Ses successeurs bâtissent le [[qutb-minar|Qutb Minar]] et organisent l’État ; [[razia-sultana|Razia]] est la seule femme à avoir régné sur Delhi.",
+    "[[alauddin-khalji|Alauddin Khalji]] repousse plusieurs invasions mongoles, puis ses armées atteignent le sud de l’Inde ; [[muhammad-ibn-tughluq|Muhammad ibn Tughluq]] règne sur le plus grand territoire du sultanat.",
+    "En 1398, [[tamerlan|Tamerlan]] pille Delhi ; le sultanat s’affaiblit et le nord de l’Inde se divise en royaumes rivaux.",
+    "En 1526, le dernier sultan, Ibrahim Lodi, est tué par [[babur|Babur]] à la [[premiere-bataille-de-panipat|bataille de Panipat]] : c’est le début de l’empire [[moghols|moghol]]."
+  ],
+  "datesCles": [
+    {
+      "annee": 1206,
+      "evenement": "Premier sultan",
+      "info": "Qutb ud-Din Aibak, ancien esclave devenu général, fonde la dynastie des Mamelouks de Delhi."
+    },
+    {
+      "annee": 1236,
+      "evenement": "Razia",
+      "info": "Razia devient sultane ; elle est renversée par des nobles quatre ans plus tard."
+    },
+    {
+      "annee": 1296,
+      "evenement": "Alauddin Khalji",
+      "info": "Il prend le pouvoir et repousse ensuite plusieurs invasions mongoles."
+    },
+    {
+      "annee": 1327,
+      "evenement": "Daulatabad",
+      "info": "Muhammad ibn Tughluq transfère la capitale dans le Dekkan, puis revient à Delhi quelques années plus tard."
+    },
+    {
+      "annee": 1334,
+      "evenement": "Ibn Battuta",
+      "info": "Le voyageur marocain arrive à Delhi, où il devient juge pendant plusieurs années."
+    },
+    {
+      "annee": 1398,
+      "evenement": "Tamerlan",
+      "info": "Le conquérant turco-mongol bat l’armée du sultan et pille Delhi."
+    },
+    {
+      "annee": 1451,
+      "evenement": "Les Lodi",
+      "info": "Bahlul Lodi, d’origine afghane, fonde la dernière dynastie du sultanat."
+    },
+    {
+      "annee": 1526,
+      "evenement": "Panipat",
+      "info": "Babur bat Ibrahim Lodi, qui est tué au combat.",
+      "ref": "premiere-bataille-de-panipat"
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "Les Mamelouks de Delhi",
+      "debut": 1206,
+      "fin": 1290,
+      "resume": "D’anciens esclaves militaires devenus sultans organisent l’État et construisent les premiers grands monuments.",
+      "evenements": [{ "annee": 1206, "evenement": "Qutb ud-Din Aibak sultan" }, { "annee": 1236, "evenement": "Razia sultane" }]
+    },
+    {
+      "nom": "Khalji et Tughluq",
+      "debut": 1290,
+      "fin": 1414,
+      "resume": "Le sultanat repousse les Mongols et s’étend jusqu’au sud de l’Inde, puis se fragmente ; Tamerlan pille Delhi.",
+      "evenements": [
+        { "annee": 1305, "evenement": "Victoire d’Amroha sur les Mongols" },
+        { "annee": 1327, "evenement": "Capitale à Daulatabad" },
+        { "annee": 1398, "evenement": "Pillage de Delhi par Tamerlan" }
+      ]
+    },
+    {
+      "nom": "Sayyid et Lodi",
+      "debut": 1414,
+      "fin": 1526,
+      "resume": "Le sultanat n’est plus qu’un royaume parmi d’autres dans le nord de l’Inde ; les Lodi, d’origine afghane, le relèvent un temps.",
+      "evenements": [
+        { "annee": 1451, "evenement": "Bahlul Lodi sultan" },
+        { "annee": 1526, "evenement": "Panipat", "ref": "premiere-bataille-de-panipat" }
+      ]
+    }
+  ],
+  "regimes": [{ "id": "sultanat", "nom": "Sultanat", "debut": 1206, "fin": 1526 }],
+  "dynasties": [
+    {
+      "id": "mamelouks",
+      "nom": "Les Mamelouks (dynastie des esclaves)",
+      "debut": 1206,
+      "fin": 1290,
+      "note": "Sélection."
+    },
+    { "id": "khalji", "nom": "Les Khalji", "debut": 1290, "fin": 1320, "note": "Sélection." },
+    { "id": "tughluq", "nom": "Les Tughluq", "debut": 1320, "fin": 1414, "note": "Sélection." },
+    { "id": "sayyid", "nom": "Les Sayyid", "debut": 1414, "fin": 1451, "note": "Sélection." },
+    { "id": "lodi", "nom": "Les Lodi", "debut": 1451, "fin": 1526, "note": "Sélection." }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Qutb ud-Din Aibak",
+      "titre": "Sultan",
+      "debut": 1206,
+      "fin": 1210,
+      "dynastie": "mamelouks",
+      "note": "fondateur",
+      "cle": true
+    },
+    {
+      "nom": "Iltutmish",
+      "titre": "Sultan",
+      "debut": 1211,
+      "fin": 1236,
+      "dynastie": "mamelouks",
+      "note": "achève le Qutb Minar",
+      "cle": true
+    },
+    {
+      "nom": "Razia",
+      "titre": "Sultane",
+      "debut": 1236,
+      "fin": 1240,
+      "dynastie": "mamelouks",
+      "personne": "razia-sultana",
+      "cle": true
+    },
+    { "nom": "Balban", "titre": "Sultan", "debut": 1266, "fin": 1287, "dynastie": "mamelouks" },
+    { "nom": "Jalaluddin Khalji", "titre": "Sultan", "debut": 1290, "fin": 1296, "dynastie": "khalji" },
+    {
+      "nom": "Alauddin Khalji",
+      "titre": "Sultan",
+      "debut": 1296,
+      "fin": 1316,
+      "dynastie": "khalji",
+      "personne": "alauddin-khalji",
+      "cle": true
+    },
+    { "nom": "Ghiyath al-Din Tughluq", "titre": "Sultan", "debut": 1320, "fin": 1325, "dynastie": "tughluq" },
+    {
+      "nom": "Muhammad ibn Tughluq",
+      "titre": "Sultan",
+      "debut": 1325,
+      "fin": 1351,
+      "dynastie": "tughluq",
+      "personne": "muhammad-ibn-tughluq",
+      "cle": true
+    },
+    {
+      "nom": "Firuz Shah Tughluq",
+      "titre": "Sultan",
+      "debut": 1351,
+      "fin": 1388,
+      "dynastie": "tughluq",
+      "note": "fait creuser de grands canaux"
+    },
+    { "nom": "Khizr Khan", "titre": "Sultan", "debut": 1414, "fin": 1421, "dynastie": "sayyid" },
+    { "nom": "Bahlul Lodi", "titre": "Sultan", "debut": 1451, "fin": 1489, "dynastie": "lodi", "cle": true },
+    {
+      "nom": "Sikandar Lodi",
+      "titre": "Sultan",
+      "debut": 1489,
+      "fin": 1517,
+      "dynastie": "lodi",
+      "note": "fait d’Agra sa capitale"
+    },
+    {
+      "nom": "Ibrahim Lodi",
+      "titre": "Sultan",
+      "debut": 1517,
+      "fin": 1526,
+      "dynastie": "lodi",
+      "note": "tué à Panipat",
+      "cle": true
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Razia",
+      "role": "Sultane de Delhi",
+      "description": "La seule femme à avoir régné sur le sultanat de Delhi.",
+      "dates": "vers 1205 → 1240",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Razia_Sultana",
+      "ref": "razia-sultana"
+    },
+    {
+      "nom": "Alauddin Khalji",
+      "role": "Sultan",
+      "description": "Le sultan qui repousse les Mongols et étend le sultanat vers le sud.",
+      "dates": "vers 1266 → 1316",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Alauddin_Khalji",
+      "ref": "alauddin-khalji"
+    },
+    {
+      "nom": "Muhammad ibn Tughluq",
+      "role": "Sultan",
+      "description": "Un sultan savant et ambitieux, dont plusieurs réformes échouent.",
+      "dates": "vers 1290 → 1351",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Muhammad_bin_Tughluq",
+      "ref": "muhammad-ibn-tughluq"
+    },
+    {
+      "nom": "Amir Khusrau",
+      "role": "Poète et musicien",
+      "description": "Poète de langue persane et hindavi, il vit à la cour de plusieurs sultans ; la tradition lui attribue des innovations musicales.",
+      "dates": "1253 → 1325",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Amir_Khusrau"
+    },
+    {
+      "nom": "Ibn Battuta",
+      "role": "Voyageur marocain",
+      "description": "Il sert comme juge à Delhi sous Muhammad ibn Tughluq et décrit la cour du sultan.",
+      "dates": "1304 → 1377",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Ibn_Battuta",
+      "ref": "ibn-battuta"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Invasions mongoles de l’Inde",
+      "annee": 1299,
+      "adversaires": ["Khanat de Djaghataï (Mongols)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Sultanat de Delhi",
+      "consequences": "Entre 1297 et 1306, Alauddin Khalji repousse plusieurs grandes invasions mongoles, dont un siège de Delhi en 1303 ; le nord de l’Inde échappe à la domination mongole.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Mongol_invasions_of_India"
+    },
+    {
+      "nom": "Campagnes de Malik Kafur",
+      "annee": 1310,
+      "adversaires": ["Royaumes du Dekkan et du Sud (Yadava, Kakatiya, Hoysala, Pandya)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Sultanat de Delhi",
+      "consequences": "Le général d’Alauddin mène ses armées jusqu’à Madurai, à l’extrême sud ; les rois vaincus doivent livrer d’énormes trésors et payer un tribut.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Malik_Kafur"
+    },
+    {
+      "nom": "Campagne de Tamerlan en Inde",
+      "annee": 1398,
+      "adversaires": ["Tamerlan (Timourides)"],
+      "allies": [],
+      "morts": "Des dizaines de milliers, selon les chroniques",
+      "vainqueur": "Tamerlan",
+      "consequences": "Tamerlan bat l’armée du sultan Mahmud Tughluq, pille Delhi et massacre une partie de ses habitants ; le sultanat ne s’en relève pas.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Tamerlan"
+    },
+    {
+      "nom": "Première bataille de Panipat",
+      "annee": 1526,
+      "adversaires": ["Babur (futur empereur moghol)"],
+      "allies": [],
+      "morts": "Plusieurs milliers ; le sultan Ibrahim Lodi est tué",
+      "vainqueur": "Babur",
+      "consequences": "Babur s’empare de Delhi et d’Agra : le sultanat disparaît et l’empire moghol commence.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Premi%C3%A8re_bataille_de_Panipat"
+    }
+  ],
+  "sciences": "Les sultans introduisent en Inde l’architecture islamique, avec ses arcs, ses coupoles et ses minarets, comme le Qutb Minar, haut d’environ 73 mètres. Firuz Shah Tughluq fait creuser de grands canaux d’irrigation et transporter à Delhi deux piliers d’Ashoka. Muhammad ibn Tughluq tente de créer une monnaie de cuivre ayant la valeur de l’argent ; l’expérience échoue, car les faux se multiplient.",
+  "croyancesText": "Les sultans sont musulmans sunnites, mais la majorité de leurs sujets reste hindoue. Les non-musulmans paient en général un impôt particulier, la jizya, en échange de la protection du souverain et du droit de pratiquer leur religion. Des temples sont détruits lors des conquêtes, tandis que des mystiques soufis, comme Nizamuddin Auliya à Delhi, attirent des fidèles de toutes origines.",
+  "diplomatie": "Le sultanat repousse les attaques mongoles et accueille des savants, des poètes et des réfugiés qui fuient les conquêtes mongoles en Asie centrale et en Perse. Il reconnaît symboliquement l’autorité du calife abbasside, puis du calife installé au Caire par les Mamelouks. Au XIVe siècle, il envoie une ambassade en Chine, dont Ibn Battuta fait partie.",
+  "societe": "Une noblesse militaire d’origine turque, afghane ou persane gouverne avec l’aide de chefs hindous locaux. Les sultans confient à leurs officiers les revenus de terres, les iqta. Des esclaves militaires, achetés jeunes, peuvent devenir généraux, et même sultans.",
+  "economie": "Agriculture, impôt foncier élevé, artisanat textile, commerce avec l’Asie centrale et le golfe Persique ; Alauddin Khalji fixe les prix des marchés de Delhi.",
+  "arts": "Qutb Minar, porte Alai Darwaza, forteresse de Tughlaqabad, tombeaux des Lodi ; poésie persane d’Amir Khusrau.",
+  "quotidien": "À Delhi, les fidèles se pressent au sanctuaire du saint soufi Nizamuddin Auliya, où l’on chante encore aujourd’hui des qawwalis.",
+  "heritage": [
+    {
+      "titre": "Le Qutb Minar",
+      "texte": "Le minaret et les monuments qui l’entourent sont inscrits au patrimoine mondial de l’UNESCO (1993)."
+    },
+    {
+      "titre": "Une langue nouvelle",
+      "texte": "Les échanges entre le persan et les langues du nord de l’Inde donnent naissance à l’hindoustani, ancêtre de l’hindi et de l’ourdou."
+    }
+  ],
+  "aSavoir": [
+    "Selon les chroniques, Razia abandonne les vêtements de femme et paraît en public sans voile pour gouverner et commander l’armée."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Sultanat_de_Delhi",
+    {
+      "titre": "Encyclopædia Britannica — Delhi sultanate",
+      "url": "https://www.britannica.com/place/Delhi-sultanate"
+    }
+  ]
+}

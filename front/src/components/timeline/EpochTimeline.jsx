@@ -25,7 +25,9 @@ const TICK_FONT = '500 11px Inter, system-ui, sans-serif'
  *     centré sur le curseur ;
  *   - filtre par continent ;
  *   - ✓ sur les fiches déjà lues, flèche « la suite » vers l'époque suivante ;
- *   - `focusId` : barre mise en évidence à l'arrivée (centrée + pulsation).
+ *   - `focusId` : barre mise en évidence à l'arrivée (centrée + pulsation) ;
+ *   - sur mobile, une ligne dont les barres sont hors champ affiche au bord
+ *     « ← Nom » / « Nom → » : un toucher y fait défiler la frise.
  */
 export default function EpochTimeline({ epoch, selectedId, onSelect, focusId }) {
   const scrollRef = useRef(null)
@@ -135,6 +137,18 @@ export default function EpochTimeline({ epoch, selectedId, onSelect, focusId }) 
   }
   const hideCross = () => crossRef.current && (crossRef.current.style.opacity = '0')
 
+  // ── Repère d'une ligne vide : défilement jusqu'à la barre + pulsation ──
+  const pulseTimer = useRef(null)
+  const goToBar = useCallback((item) => {
+    const el = scrollRef.current
+    if (!el) return
+    el.scrollTo({ left: PAD + item.x + item.w / 2 - el.clientWidth / 2, behavior: 'smooth' })
+    setPulseId(item.civ.id)
+    clearTimeout(pulseTimer.current)
+    pulseTimer.current = setTimeout(() => setPulseId(null), 2400)
+  }, [])
+  useEffect(() => () => clearTimeout(pulseTimer.current), [])
+
   return (
     <div className="card overflow-hidden">
       {/* Barre d'outils */}
@@ -203,6 +217,7 @@ export default function EpochTimeline({ epoch, selectedId, onSelect, focusId }) 
                     onSelect={onSelect}
                   />
                 ))}
+                <LaneHints items={items} laneCount={laneCount} scrollRef={scrollRef} contentW={width + PAD * 2} onGo={goToBar} />
               </div>
             </section>
           ))}
@@ -311,6 +326,70 @@ function Bar({ item, index, scale, epoch, selected, dimmed, read, pulse, onSelec
     )}
     </>
   )
+}
+
+/**
+ * Repères des lignes vides : quand aucune barre d'une ligne n'est dans la partie
+ * visible (mobile, frise plus large que l'écran), on affiche au bord le nom de
+ * la plus proche, avec une flèche vers elle. Composant à part : il suit le
+ * défilement sans faire re-rendre toute la frise.
+ */
+function LaneHints({ items, laneCount, scrollRef, contentW, onGo }) {
+  const [view, setView] = useState(null) // { left, w } en px de la toile
+
+  useEffect(() => {
+    const el = scrollRef.current
+    if (!el) return
+    let frame = 0
+    const read = () => {
+      frame = 0
+      setView((v) => (v && v.left === el.scrollLeft && v.w === el.clientWidth ? v : { left: el.scrollLeft, w: el.clientWidth }))
+    }
+    const onScroll = () => (frame ||= requestAnimationFrame(read))
+    read()
+    el.addEventListener('scroll', onScroll, { passive: true })
+    const ro = new ResizeObserver(onScroll)
+    ro.observe(el)
+    return () => {
+      el.removeEventListener('scroll', onScroll)
+      ro.disconnect()
+      cancelAnimationFrame(frame)
+    }
+  }, [scrollRef])
+
+  if (!view || view.w >= contentW - 1) return null
+  // fenêtre visible dans le repère de l'échelle (marge pour la place du repère)
+  const lo = view.left - PAD + 24
+  const hi = view.left + view.w - PAD - 24
+  const hints = []
+  for (let lane = 0; lane < laneCount; lane++) {
+    const row = items.filter((it) => it.lane === lane)
+    if (!row.length || row.some((it) => it.to > lo && it.from < hi)) continue
+    const before = row.filter((it) => it.to <= lo).sort((a, b) => b.to - a.to)[0]
+    const after = row.filter((it) => it.from >= hi).sort((a, b) => a.from - b.from)[0]
+    const side = !before ? 'right' : !after ? 'left' : lo - before.to <= after.from - hi ? 'left' : 'right'
+    hints.push({ lane, side, item: side === 'left' ? before : after })
+  }
+
+  return hints.map(({ lane, side, item }) => (
+    <button
+      key={lane}
+      type="button"
+      onClick={() => onGo(item)}
+      className="absolute z-10 flex items-center gap-1.5 max-w-[60%] px-2.5 rounded-[10px] border border-dashed border-line bg-surface/85 backdrop-blur-sm text-xs font-medium text-muted hover:text-ink transition-colors"
+      style={{
+        top: lane * (LANE_H + LANE_GAP),
+        height: LANE_H,
+        ...(side === 'left' ? { left: view.left + 8 } : { right: contentW - view.left - view.w + 8 }),
+      }}
+      aria-label={`Aller à ${item.civ.label}, ${item.civ.period}`}
+    >
+      {side === 'left' && <Icon name="arrowLeft" size={14} className="shrink-0" />}
+      <span className="w-2 h-2 rounded-full shrink-0" style={{ background: item.civ.color }} aria-hidden="true" />
+      <span className="truncate">{item.civ.label}</span>
+      {side === 'right' && <Icon name="arrowRight" size={14} className="shrink-0" />}
+    </button>
+  ))
 }
 
 function OutsideLabel({ children, read }) {

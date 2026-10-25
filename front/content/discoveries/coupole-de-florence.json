@@ -1,0 +1,16 @@
+{
+  "id": "coupole-de-florence",
+  "nom": "Coupole de Florence",
+  "annee": 1436,
+  "domaine": "Architecture",
+  "dates": "1420 → 1436",
+  "description": "L’immense coupole de la cathédrale Santa Maria del Fiore, à Florence, construite par Filippo Brunelleschi sans les grands cintres de bois qui soutenaient d’habitude les voûtes pendant leur construction.",
+  "sections": [
+    {
+      "titre": "Un exploit technique",
+      "texte": "Large de plus de 40 mètres, elle est formée de deux coques emboîtées et de briques posées en arêtes de poisson. Brunelleschi invente aussi les machines pour monter les matériaux."
+    },
+    { "titre": "Un record", "texte": "C’est la plus grande coupole en briques jamais construite." }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Cath%C3%A9drale_Santa_Maria_del_Fiore"
+}

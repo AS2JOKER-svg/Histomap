@@ -1336,5 +1336,41 @@
   "Guerre franco-thaïlandaise": {
     "coords": [103, 13.4],
     "lieu": "Frontière du Cambodge"
+  },
+  "Révolution haïtienne": {
+    "coords": [-72.2, 19.76],
+    "lieu": "Saint-Domingue (plaine du Nord)"
+  },
+  "Occupation américaine d’Haïti": {
+    "coords": [-72.34, 18.54],
+    "lieu": "Haïti"
+  },
+  "Rébellion du Nord-Ouest": {
+    "coords": [-106.1, 52.75],
+    "lieu": "Batoche (Saskatchewan)"
+  },
+  "Guerre d’indépendance de l’Argentine": {
+    "coords": [-65.2, -26.8],
+    "lieu": "Nord de l’Argentine et Andes"
+  },
+  "Conquête du désert": {
+    "coords": [-66, -39],
+    "lieu": "Pampa et Patagonie"
+  },
+  "Guerre des Malouines": {
+    "coords": [-57.85, -51.7],
+    "lieu": "Îles Malouines"
+  },
+  "Révolution cubaine": {
+    "coords": [-76.85, 20],
+    "lieu": "Sierra Maestra"
+  },
+  "Débarquement de la baie des Cochons": {
+    "coords": [-81.13, 22.07],
+    "lieu": "Baie des Cochons (Playa Girón)"
+  },
+  "Crise des missiles de Cuba": {
+    "coords": [-82.37, 23.13],
+    "lieu": "Cuba"
   }
 }

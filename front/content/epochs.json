@@ -353,8 +353,12 @@
         "label": "Amérique",
         "civs": [
           "etats-unis",
+          "canada",
           "mexique",
-          "bresil"
+          "haiti",
+          "cuba",
+          "bresil",
+          "argentine"
         ]
       },
       {
@@ -397,7 +401,8 @@
         "id": "oceanie",
         "label": "Océanie",
         "civs": [
-          "royaume-hawai"
+          "royaume-hawai",
+          "australie"
         ]
       }
     ]

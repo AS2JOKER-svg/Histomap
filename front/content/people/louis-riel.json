@@ -1,0 +1,17 @@
+{
+  "id": "louis-riel",
+  "nom": "Louis Riel",
+  "role": "Chef métis",
+  "roles": ["Homme politique", "Chef de résistance"],
+  "dates": "1844 → 1885",
+  "naissance": 1844,
+  "mort": 1885,
+  "description": "Chef des Métis francophones de l’Ouest canadien, il mène deux résistances pour défendre leurs terres et leurs droits ; il est pendu pour trahison en 1885.",
+  "essentiel": [
+    "En 1869-1870, il dirige la résistance de la rivière Rouge, qui aboutit à la création du Manitoba.",
+    "Il doit ensuite s’exiler aux États-Unis.",
+    "En 1885, il prend la tête de la rébellion du Nord-Ouest, écrasée à Batoche.",
+    "Considéré longtemps comme un traître, il est aujourd’hui reconnu comme le fondateur du Manitoba."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Louis_Riel"
+}

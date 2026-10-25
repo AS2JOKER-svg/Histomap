@@ -1,0 +1,299 @@
+{
+  "documentaires": [],
+  "decouvertes": [],
+  "id": "argentine",
+  "label": "Argentine",
+  "tier": 2,
+  "region": "amerique-sud-est",
+  "period": "1816 à 2020",
+  "start": 1816,
+  "end": 2020,
+  "trackId": "argentine",
+  "row": 4,
+  "isRiver": false,
+  "capitale": "Buenos Aires",
+  "color": "#0277bd",
+  "description": "Le pays né de l’indépendance des Provinces-Unies du Río de la Plata (1816), enrichi par l’élevage et l’immigration européenne, marqué au XXe siècle par le péronisme, les coups d’État et la dictature militaire de 1976-1983.",
+  "territories": ["Argentina"],
+  "reperes": {
+    "capitale": { "valeur": "Buenos Aires" },
+    "regimes": {
+      "valeur": "République fédérale",
+      "precision": "nombreux coups d’État militaires de 1930 à 1976 ; démocratie depuis 1983"
+    },
+    "langues": { "valeur": "Espagnol" },
+    "religion": { "valeur": "Catholicisme" },
+    "apogee": {
+      "valeur": "Vers 1880 → 1930",
+      "precision": "l’un des pays les plus riches du monde, grâce à la viande et aux céréales"
+    },
+    "population": { "valeur": "Environ 45 millions en 2020" },
+    "monnaie": { "valeur": "Peso argentin" },
+    "duree": { "valeur": "Environ 205 ans dans cette fiche" },
+    "aujourdhui": { "valeur": "Argentine" }
+  },
+  "essentiel": [
+    "Après la révolution de Mai 1810 à Buenos Aires, les Provinces-Unies du Río de la Plata proclament leur indépendance le 9 juillet 1816 ; le général [[jose-de-san-martin|José de San Martín]] libère ensuite le Chili et le Pérou.",
+    "Après des décennies de guerres civiles, le pays adopte en 1853 une constitution fédérale. Vers 1878-1885, la « conquête du désert » soumet les peuples autochtones de la Pampa et de la Patagonie.",
+    "De 1880 à 1930, l’élevage et les céréales enrichissent le pays, qui accueille des millions d’immigrants, surtout italiens et espagnols.",
+    "Élu en 1946, Juan Perón mène avec sa femme Eva une politique sociale très populaire, mais autoritaire ; il est renversé en 1955. De 1930 à 1976, les coups d’État militaires se succèdent.",
+    "La dictature militaire de 1976-1983 fait disparaître des milliers d’opposants : près de 9 000 cas recensés par une commission officielle en 1984, environ 30 000 selon les associations de défense des droits humains. Après la défaite des Malouines (1982), la démocratie revient en 1983."
+  ],
+  "datesCles": [
+    { "annee": 1810, "evenement": "Révolution de Mai", "info": "Buenos Aires renvoie le vice-roi espagnol." },
+    {
+      "annee": 1816,
+      "evenement": "Indépendance",
+      "info": "Le 9 juillet, le congrès de Tucumán proclame l’indépendance."
+    },
+    {
+      "annee": 1817,
+      "evenement": "Traversée des Andes",
+      "info": "San Martín franchit les Andes pour libérer le Chili."
+    },
+    { "annee": 1853, "evenement": "Constitution", "info": "L’Argentine adopte une constitution fédérale." },
+    {
+      "annee": 1879,
+      "evenement": "Conquête du désert",
+      "info": "Grande campagne militaire contre les peuples autochtones du Sud."
+    },
+    {
+      "annee": 1912,
+      "evenement": "Vote secret et obligatoire",
+      "info": "La loi Sáenz Peña instaure le suffrage universel masculin secret."
+    },
+    { "annee": 1930, "evenement": "Premier coup d’État", "info": "L’armée renverse le président Yrigoyen." },
+    { "annee": 1946, "evenement": "Perón", "info": "Juan Perón est élu président." },
+    { "annee": 1976, "evenement": "Dictature", "info": "Une junte militaire prend le pouvoir." },
+    { "annee": 1982, "evenement": "Malouines", "info": "La junte envahit les Malouines et perd la guerre." },
+    { "annee": 1983, "evenement": "Démocratie", "info": "Raúl Alfonsín est élu président." },
+    { "annee": 2001, "evenement": "Crise", "info": "Une grave crise économique provoque des émeutes." }
+  ],
+  "periodes": [
+    {
+      "nom": "Indépendance et guerres civiles",
+      "debut": 1816,
+      "fin": 1853,
+      "resume": "Les provinces luttent contre l’Espagne, puis entre elles ; le caudillo Rosas domine Buenos Aires.",
+      "evenements": [
+        { "annee": 1816, "evenement": "Indépendance" },
+        { "annee": 1817, "evenement": "Traversée des Andes" },
+        { "annee": 1829, "evenement": "Rosas au pouvoir" }
+      ]
+    },
+    {
+      "nom": "L’âge d’or",
+      "debut": 1853,
+      "fin": 1930,
+      "resume": "Constitution, conquête du Sud, immigration massive et prospérité agricole.",
+      "evenements": [
+        { "annee": 1853, "evenement": "Constitution" },
+        { "annee": 1879, "evenement": "Conquête du désert" },
+        { "annee": 1912, "evenement": "Loi Sáenz Peña" }
+      ]
+    },
+    {
+      "nom": "Coups d’État et péronisme",
+      "debut": 1930,
+      "fin": 1983,
+      "resume": "L’armée intervient sans cesse ; le péronisme divise le pays ; la dernière dictature est la plus meurtrière.",
+      "evenements": [
+        { "annee": 1930, "evenement": "Premier coup d’État" },
+        { "annee": 1946, "evenement": "Perón président" },
+        { "annee": 1976, "evenement": "Dictature militaire" },
+        { "annee": 1982, "evenement": "Guerre des Malouines" }
+      ]
+    },
+    {
+      "nom": "La démocratie",
+      "debut": 1983,
+      "fin": 2020,
+      "resume": "Retour de la démocratie, procès des militaires, crises économiques à répétition.",
+      "evenements": [
+        { "annee": 1983, "evenement": "Élection d’Alfonsín" },
+        { "annee": 1985, "evenement": "Procès des juntes" },
+        { "annee": 2001, "evenement": "Crise économique" }
+      ]
+    }
+  ],
+  "regimes": [
+    { "id": "provinces", "nom": "Provinces-Unies du Río de la Plata", "debut": 1816, "fin": 1853 },
+    {
+      "id": "republique",
+      "nom": "République argentine",
+      "debut": 1853,
+      "fin": 2020,
+      "note": "Nombreux régimes militaires entre 1930 et 1983."
+    }
+  ],
+  "dynasties": [{ "id": "chefs", "nom": "Chefs de l’État", "debut": 1826, "fin": 2020, "note": "Sélection." }],
+  "dirigeants": [
+    {
+      "nom": "Bernardino Rivadavia",
+      "titre": "Président",
+      "debut": 1826,
+      "fin": 1827,
+      "dynastie": "chefs",
+      "note": "premier président"
+    },
+    {
+      "nom": "Juan Manuel de Rosas",
+      "titre": "Gouverneur de Buenos Aires",
+      "debut": 1829,
+      "fin": 1852,
+      "dynastie": "chefs",
+      "note": "caudillo autoritaire, au pouvoir avec une interruption de 1832 à 1835",
+      "cle": true
+    },
+    { "nom": "Bartolomé Mitre", "titre": "Président", "debut": 1862, "fin": 1868, "dynastie": "chefs", "cle": true },
+    {
+      "nom": "Domingo Faustino Sarmiento",
+      "titre": "Président",
+      "debut": 1868,
+      "fin": 1874,
+      "dynastie": "chefs",
+      "note": "développe l’école publique"
+    },
+    {
+      "nom": "Julio Argentino Roca",
+      "titre": "Président",
+      "debut": 1880,
+      "fin": 1886,
+      "dynastie": "chefs",
+      "note": "dirige la conquête du désert ; de nouveau président de 1898 à 1904",
+      "cle": true
+    },
+    {
+      "nom": "Juan Perón",
+      "titre": "Président",
+      "debut": 1946,
+      "fin": 1955,
+      "dynastie": "chefs",
+      "note": "de nouveau président en 1973-1974",
+      "cle": true
+    },
+    {
+      "nom": "Jorge Rafael Videla",
+      "titre": "Chef de la junte militaire",
+      "debut": 1976,
+      "fin": 1981,
+      "dynastie": "chefs"
+    },
+    {
+      "nom": "Raúl Alfonsín",
+      "titre": "Président",
+      "debut": 1983,
+      "fin": 1989,
+      "dynastie": "chefs",
+      "note": "premier président de la démocratie retrouvée"
+    },
+    {
+      "nom": "Alberto Fernández",
+      "titre": "Président",
+      "debut": 2019,
+      "fin": 2020,
+      "dynastie": "chefs",
+      "note": "toujours en fonction à la fin de la période couverte (2020)"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "José de San Martín",
+      "role": "Libérateur",
+      "description": "Le général qui libère l’Argentine, le Chili et le Pérou.",
+      "dates": "1778 → 1850",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Jos%C3%A9_de_San_Mart%C3%ADn",
+      "ref": "jose-de-san-martin"
+    },
+    {
+      "nom": "Eva Perón",
+      "role": "Femme politique",
+      "description": "« Evita », épouse de Juan Perón, très populaire auprès des plus pauvres ; elle meurt à 33 ans.",
+      "dates": "1919 → 1952",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Eva_Per%C3%B3n"
+    },
+    {
+      "nom": "Jorge Luis Borges",
+      "role": "Écrivain",
+      "description": "Auteur de nouvelles fantastiques, l’un des grands écrivains du XXe siècle.",
+      "dates": "1899 → 1986",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Jorge_Luis_Borges"
+    },
+    {
+      "nom": "Diego Maradona",
+      "role": "Footballeur",
+      "description": "Champion du monde en 1986, l’un des plus grands joueurs de l’histoire.",
+      "dates": "1960 → 2020",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Diego_Maradona"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerre d’indépendance de l’Argentine",
+      "annee": 1810,
+      "adversaires": ["Armées royalistes espagnoles"],
+      "allies": ["Indépendantistes chiliens"],
+      "morts": "Inconnues",
+      "vainqueur": "Indépendantistes",
+      "consequences": "Les armées de Buenos Aires combattent les royalistes jusqu’au Haut-Pérou ; en 1817, San Martín franchit les Andes et libère le Chili, puis entre à Lima (1821).",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_d%27ind%C3%A9pendance_de_l%27Argentine"
+    },
+    {
+      "nom": "Guerre de la Triple Alliance",
+      "annee": 1864,
+      "adversaires": ["Paraguay (Francisco Solano López)"],
+      "allies": ["Brésil", "Uruguay"],
+      "morts": "Le Paraguay perd une grande partie de sa population (estimations très discutées)",
+      "vainqueur": "Brésil, Argentine et Uruguay",
+      "consequences": "Le Paraguay est dévasté ; l’Argentine annexe des territoires du nord, comme l’actuelle province de Formosa.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_de_la_Triple-Alliance"
+    },
+    {
+      "nom": "Conquête du désert",
+      "annee": 1878,
+      "adversaires": ["Peuples autochtones de la Pampa et de la Patagonie (Mapuches, Ranquels, Tehuelches…)"],
+      "allies": [],
+      "morts": "Des milliers d’autochtones tués ou capturés",
+      "vainqueur": "Argentine",
+      "consequences": "L’armée du général Roca soumet la Pampa et la Patagonie ; les terres conquises sont distribuées à de grands propriétaires, et les survivants autochtones sont déplacés ou forcés de travailler.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Conqu%C3%AAte_du_d%C3%A9sert"
+    },
+    {
+      "nom": "Guerre des Malouines",
+      "annee": 1982,
+      "adversaires": ["Royaume-Uni"],
+      "allies": [],
+      "morts": "649 soldats argentins, 255 soldats britanniques et 3 habitants des îles",
+      "vainqueur": "Royaume-Uni",
+      "consequences": "La junte envahit les îles Malouines (Falkland), britanniques depuis 1833 et revendiquées par l’Argentine. Après dix semaines de guerre, les Britanniques les reprennent ; la défaite entraîne la chute de la dictature.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_des_Malouines"
+    }
+  ],
+  "sciences": "Le policier Juan Vucetich met au point en 1891 une méthode de classement des empreintes digitales, qui permet dès 1892 de confondre une criminelle et sera utilisée dans de nombreux pays. L’Argentine compte plusieurs prix Nobel scientifiques : Bernardo Houssay (médecine, 1947), Luis Federico Leloir (chimie, 1970) et César Milstein (médecine, 1984).",
+  "croyancesText": "La grande majorité des Argentins sont catholiques ; en 2013, l’archevêque de Buenos Aires, Jorge Mario Bergoglio, devient le pape François, premier pape venu d’Amérique. L’Argentine abrite aussi la plus grande communauté juive d’Amérique latine, visée par des attentats meurtriers à Buenos Aires en 1992 et en 1994.",
+  "diplomatie": "L’Argentine revendique les îles Malouines, sous contrôle britannique depuis 1833, ce qui mène à la guerre de 1982. Restée neutre pendant presque toute la Seconde Guerre mondiale, elle accueille ensuite des criminels nazis en fuite, comme Adolf Eichmann, enlevé à Buenos Aires par les services secrets israéliens en 1960. Elle fonde en 1991 le Mercosur avec le Brésil, l’Uruguay et le Paraguay.",
+  "societe": "Entre 1880 et 1930, des millions d’immigrants européens, surtout italiens et espagnols, arrivent en Argentine. En 1947, les femmes obtiennent le droit de vote, grâce notamment à Eva Perón. Pendant la dictature, les « Mères de la place de Mai » réclament chaque jeudi des nouvelles de leurs enfants disparus.",
+  "economie": "Élevage bovin, blé et maïs de la Pampa, exportés vers l’Europe ; à partir du milieu du XXe siècle, le pays connaît de graves crises économiques, comme celle de 2001.",
+  "arts": "Le tango, inscrit au patrimoine culturel immatériel de l’UNESCO en 2009, les nouvelles de Borges et de Cortázar, la bande dessinée Mafalda de Quino.",
+  "quotidien": "L’asado, viande grillée au feu de bois, et le maté, infusion que l’on partage entre amis, font partie de la vie quotidienne.",
+  "heritage": [
+    {
+      "titre": "Le tango",
+      "texte": "Né à la fin du XIXe siècle dans les quartiers populaires de Buenos Aires et de Montevideo, il est dansé dans le monde entier."
+    },
+    {
+      "titre": "Les Mères de la place de Mai",
+      "texte": "Leur combat pour retrouver les disparus de la dictature est devenu un symbole mondial de la défense des droits humains."
+    }
+  ],
+  "aSavoir": [
+    "Le nom « Argentine » vient du latin argentum, « argent » : les premiers explorateurs espéraient trouver ce métal dans la région du Río de la Plata, le « fleuve de l’argent »."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Histoire_de_l%27Argentine",
+    {
+      "titre": "Encyclopædia Britannica — Argentina, History",
+      "url": "https://www.britannica.com/place/Argentina/History"
+    }
+  ]
+}

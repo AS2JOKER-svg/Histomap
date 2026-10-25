@@ -297,5 +297,14 @@
       "ayutthaya",
       "thailande"
     ]
+  },
+  {
+    "id": "canada",
+    "label": "Canada",
+    "color": "#1565c0",
+    "members": [
+      "nouvelle-france",
+      "canada"
+    ]
   }
 ]

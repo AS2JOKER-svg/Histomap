@@ -1,0 +1,266 @@
+{
+  "documentaires": [],
+  "decouvertes": [],
+  "id": "cuba",
+  "label": "Cuba",
+  "tier": 1,
+  "region": "amerique-centrale-caraibes",
+  "period": "1902 à 2020",
+  "start": 1902,
+  "end": 2020,
+  "trackId": "cuba",
+  "row": 7,
+  "isRiver": false,
+  "capitale": "La Havane",
+  "color": "#00838f",
+  "description": "L’île des Caraïbes, colonie espagnole jusqu’en 1898, indépendante en 1902 sous forte influence des États-Unis, puis transformée par la révolution de Fidel Castro (1959) en État communiste allié de l’URSS.",
+  "territories": ["Cuba"],
+  "reperes": {
+    "capitale": { "valeur": "La Havane" },
+    "regimes": {
+      "valeur": "République, dictatures, puis État socialiste à parti unique",
+      "precision": "régime communiste depuis la révolution de 1959"
+    },
+    "langues": { "valeur": "Espagnol" },
+    "religion": {
+      "valeur": "Catholicisme et religions afro-cubaines",
+      "precision": "la santería mêle croyances yorubas et culte des saints ; l’État est officiellement athée de 1976 à 1992"
+    },
+    "population": { "valeur": "Environ 11 millions en 2020" },
+    "monnaie": { "valeur": "Peso cubain" },
+    "duree": { "valeur": "Environ 120 ans dans cette fiche" },
+    "aujourdhui": { "valeur": "Cuba" }
+  },
+  "essentiel": [
+    "Après deux guerres d’indépendance contre l’Espagne (1868-1878 et 1895-1898), menées notamment par José Martí, et l’intervention des États-Unis en 1898, Cuba devient indépendante en 1902 ; mais l’amendement Platt donne aux États-Unis un droit d’intervention et la base de Guantánamo.",
+    "L’économie dépend du sucre et des capitaux américains ; Fulgencio Batista domine la vie politique et, à partir de 1952, gouverne en dictateur.",
+    "Le 1er janvier 1959, les guérilleros de [[fidel-castro|Fidel Castro]] et d’Ernesto « Che » Guevara renversent Batista ; la révolution nationalise les entreprises, rend l’école et la santé gratuites, mais supprime les libertés politiques.",
+    "Alliée de l’URSS, Cuba repousse en 1961 un débarquement d’exilés soutenu par les États-Unis ; en 1962, l’installation de missiles soviétiques sur l’île fait craindre une guerre nucléaire.",
+    "Soumise à un embargo américain depuis 1962, l’île traverse une grave crise après la disparition de l’URSS ; plus d’un million de Cubains ont émigré depuis 1959, surtout vers les États-Unis."
+  ],
+  "datesCles": [
+    { "annee": 1902, "evenement": "Indépendance", "info": "Le 20 mai, la république de Cuba est proclamée." },
+    {
+      "annee": 1933,
+      "evenement": "Révolte des sergents",
+      "info": "Le sergent Fulgencio Batista devient l’homme fort du pays."
+    },
+    { "annee": 1952, "evenement": "Coup d’État", "info": "Batista prend le pouvoir et instaure une dictature." },
+    {
+      "annee": 1953,
+      "evenement": "Moncada",
+      "info": "Le 26 juillet, Fidel Castro attaque sans succès la caserne de la Moncada."
+    },
+    {
+      "annee": 1959,
+      "evenement": "Révolution",
+      "info": "Le 1er janvier, Batista s’enfuit ; les révolutionnaires prennent le pouvoir."
+    },
+    { "annee": 1961, "evenement": "Baie des Cochons", "info": "Un débarquement d’exilés soutenu par la CIA échoue." },
+    { "annee": 1962, "evenement": "Crise des missiles", "info": "Le monde frôle la guerre nucléaire." },
+    {
+      "annee": 1980,
+      "evenement": "Exode de Mariel",
+      "info": "Environ 125 000 Cubains partent pour la Floride en quelques mois."
+    },
+    {
+      "annee": 1991,
+      "evenement": "Période spéciale",
+      "info": "La fin de l’aide soviétique plonge l’île dans une grave crise."
+    },
+    {
+      "annee": 2015,
+      "evenement": "Rapprochement",
+      "info": "Cuba et les États-Unis rétablissent leurs relations diplomatiques."
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "La république sous influence",
+      "debut": 1902,
+      "fin": 1959,
+      "resume": "Une république dominée par le sucre, les capitaux américains et des dirigeants autoritaires.",
+      "evenements": [
+        { "annee": 1902, "evenement": "Indépendance" },
+        { "annee": 1933, "evenement": "Révolte des sergents" },
+        { "annee": 1952, "evenement": "Coup d’État de Batista" }
+      ]
+    },
+    {
+      "nom": "La révolution et l’URSS",
+      "debut": 1959,
+      "fin": 1991,
+      "resume": "Fidel Castro instaure un régime communiste allié de l’URSS, face aux États-Unis.",
+      "evenements": [
+        { "annee": 1959, "evenement": "Révolution" },
+        { "annee": 1961, "evenement": "Baie des Cochons" },
+        { "annee": 1962, "evenement": "Crise des missiles" },
+        { "annee": 1975, "evenement": "Intervention en Angola" }
+      ]
+    },
+    {
+      "nom": "La période spéciale et après",
+      "debut": 1991,
+      "fin": 2020,
+      "resume": "Crise économique, tourisme, transmission du pouvoir de Fidel à Raúl Castro, puis à Miguel Díaz-Canel.",
+      "evenements": [
+        { "annee": 1991, "evenement": "Période spéciale" },
+        { "annee": 2008, "evenement": "Raúl Castro président" },
+        { "annee": 2015, "evenement": "Rapprochement avec les États-Unis" }
+      ]
+    }
+  ],
+  "regimes": [
+    {
+      "id": "republique",
+      "nom": "République",
+      "debut": 1902,
+      "fin": 1959,
+      "note": "Occupation américaine de 1906 à 1909 ; dictatures de Machado et de Batista."
+    },
+    { "id": "socialiste", "nom": "État socialiste", "debut": 1959, "fin": 2020, "note": "Parti communiste unique." }
+  ],
+  "dynasties": [{ "id": "chefs", "nom": "Chefs de l’État", "debut": 1902, "fin": 2020, "note": "Sélection." }],
+  "dirigeants": [
+    {
+      "nom": "Tomás Estrada Palma",
+      "titre": "Président",
+      "debut": 1902,
+      "fin": 1906,
+      "dynastie": "chefs",
+      "note": "premier président",
+      "cle": true
+    },
+    {
+      "nom": "Gerardo Machado",
+      "titre": "Président",
+      "debut": 1925,
+      "fin": 1933,
+      "dynastie": "chefs",
+      "note": "dictateur renversé en 1933"
+    },
+    {
+      "nom": "Fulgencio Batista",
+      "titre": "Dictateur",
+      "debut": 1952,
+      "fin": 1959,
+      "dynastie": "chefs",
+      "note": "déjà président élu de 1940 à 1944",
+      "cle": true
+    },
+    {
+      "nom": "Fidel Castro",
+      "titre": "Premier ministre, puis président",
+      "debut": 1959,
+      "fin": 2008,
+      "dynastie": "chefs",
+      "personne": "fidel-castro",
+      "cle": true
+    },
+    {
+      "nom": "Raúl Castro",
+      "titre": "Président",
+      "debut": 2008,
+      "fin": 2018,
+      "dynastie": "chefs",
+      "note": "frère de Fidel",
+      "cle": true
+    },
+    {
+      "nom": "Miguel Díaz-Canel",
+      "titre": "Président",
+      "debut": 2018,
+      "fin": 2020,
+      "dynastie": "chefs",
+      "note": "toujours en fonction à la fin de la période couverte (2020)"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "José Martí",
+      "role": "Poète et héros national",
+      "description": "Écrivain et chef de la lutte pour l’indépendance, tué au combat en 1895.",
+      "dates": "1853 → 1895",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Jos%C3%A9_Mart%C3%AD"
+    },
+    {
+      "nom": "Fidel Castro",
+      "role": "Chef de la révolution",
+      "description": "Le dirigeant de Cuba pendant près d’un demi-siècle.",
+      "dates": "1926 → 2016",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Fidel_Castro",
+      "ref": "fidel-castro"
+    },
+    {
+      "nom": "Ernesto « Che » Guevara",
+      "role": "Révolutionnaire",
+      "description": "Médecin argentin, compagnon de Fidel Castro, tué en Bolivie en 1967.",
+      "dates": "1928 → 1967",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Che_Guevara"
+    },
+    {
+      "nom": "Celia Cruz",
+      "role": "Chanteuse",
+      "description": "La « reine de la salsa », exilée aux États-Unis après la révolution.",
+      "dates": "1925 → 2003",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Celia_Cruz"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Révolution cubaine",
+      "annee": 1953,
+      "camp": "Révolutionnaires de Fidel Castro",
+      "adversaires": ["Régime de Fulgencio Batista"],
+      "allies": [],
+      "morts": "Plusieurs milliers (estimations discutées)",
+      "vainqueur": "Révolutionnaires",
+      "consequences": "Après l’échec de l’attaque de la Moncada (1953) et le débarquement du bateau Granma (1956), la guérilla de la Sierra Maestra l’emporte : Batista s’enfuit le 1er janvier 1959. Des centaines de partisans de l’ancien régime sont ensuite exécutés.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/R%C3%A9volution_cubaine"
+    },
+    {
+      "nom": "Débarquement de la baie des Cochons",
+      "annee": 1961,
+      "adversaires": ["Exilés cubains entraînés et armés par la CIA"],
+      "allies": [],
+      "morts": "Environ 110 assaillants et 170 soldats cubains",
+      "vainqueur": "Cuba",
+      "consequences": "Plus de 1 100 assaillants sont faits prisonniers. L’échec renforce Fidel Castro, qui proclame le caractère socialiste de la révolution et se rapproche de l’URSS.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/D%C3%A9barquement_de_la_baie_des_Cochons"
+    },
+    {
+      "nom": "Crise des missiles de Cuba",
+      "annee": 1962,
+      "adversaires": ["États-Unis"],
+      "allies": ["URSS"],
+      "morts": "Un pilote américain",
+      "vainqueur": "Compromis (retrait des missiles soviétiques)",
+      "consequences": "Pendant treize jours d’octobre 1962, le monde craint une guerre nucléaire. L’URSS retire ses missiles de Cuba ; les États-Unis promettent de ne pas envahir l’île et retirent discrètement leurs missiles de Turquie.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Crise_des_missiles_de_Cuba"
+    }
+  ],
+  "sciences": "Dès 1881, le médecin cubain Carlos Finlay propose que la fièvre jaune soit transmise par un moustique, une hypothèse confirmée en 1900. Après 1959, Cuba forme un très grand nombre de médecins, dont beaucoup partent en mission à l’étranger, et développe une industrie de vaccins et de biotechnologies.",
+  "croyancesText": "Le catholicisme, religion des colons espagnols, côtoie la santería, née des croyances yorubas des esclaves africains mêlées au culte des saints. Le régime révolutionnaire limite la place de la religion : l’État, athée dans la Constitution de 1976, devient laïque en 1992. Le pape Jean-Paul II visite l’île en 1998.",
+  "diplomatie": "Pendant la guerre froide, Cuba est l’alliée de l’URSS ; elle envoie des dizaines de milliers de soldats combattre en Angola (1975-1991) et soutient des guérillas en Amérique latine. Les États-Unis maintiennent un embargo depuis 1962 et gardent leur base de Guantánamo. Les relations diplomatiques entre les deux pays sont rétablies en 2015.",
+  "societe": "Jusqu’en 1886, l’économie sucrière repose sur l’esclavage. Après 1959, la campagne d’alphabétisation de 1961 et la santé gratuite sont des réussites saluées, mais les opposants sont emprisonnés et la presse est contrôlée par l’État.",
+  "economie": "Sucre et tabac (cigares de La Havane), puis aide soviétique ; après 1991, tourisme, nickel et argent envoyé par les Cubains de l’étranger.",
+  "arts": "Son, mambo, cha-cha-cha et salsa, poèmes de José Martí et de Nicolás Guillén, ballet d’Alicia Alonso.",
+  "quotidien": "Dans les rues de La Havane circulent encore des voitures américaines des années 1950, réparées pendant des décennies faute de pouvoir en importer de nouvelles.",
+  "heritage": [
+    {
+      "titre": "La Vieille Havane",
+      "texte": "La vieille ville et ses fortifications sont inscrites au patrimoine mondial de l’UNESCO depuis 1982."
+    },
+    {
+      "titre": "La rumba cubaine",
+      "texte": "Musique et danse nées chez les descendants d’esclaves africains, elle est inscrite au patrimoine culturel immatériel de l’UNESCO depuis 2016."
+    }
+  ],
+  "aSavoir": [
+    "Le célèbre portrait du Che, photographié en 1960 par Alberto Korda, est l’une des images les plus reproduites au monde."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Histoire_de_Cuba",
+    { "titre": "Encyclopædia Britannica — Cuba, History", "url": "https://www.britannica.com/place/Cuba/History" }
+  ]
+}

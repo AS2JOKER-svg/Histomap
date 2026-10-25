@@ -1,0 +1,16 @@
+{
+  "id": "toussaint-louverture",
+  "nom": "Toussaint Louverture",
+  "role": "Chef de la révolution haïtienne",
+  "roles": ["Général", "Gouverneur"],
+  "dates": "vers 1743 → 1803",
+  "mort": 1803,
+  "description": "Né esclave à Saint-Domingue et affranchi, il devient le principal chef de la révolution, général, puis gouverneur de la colonie, avant d’être déporté en France par Napoléon.",
+  "essentiel": [
+    "Il rejoint la révolte de 1791 et s’impose comme chef militaire.",
+    "Il se rallie à la France quand elle abolit l’esclavage (1794) et chasse les Britanniques.",
+    "En 1801, il donne à la colonie une constitution qui fait de lui un gouverneur à vie.",
+    "Arrêté par traîtrise en 1802, il meurt en 1803 au fort de Joux, dans le Jura."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Toussaint_Louverture"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "jose-de-san-martin",
+  "nom": "José de San Martín",
+  "role": "Libérateur de l’Argentine, du Chili et du Pérou",
+  "roles": ["Général"],
+  "dates": "1778 → 1850",
+  "naissance": 1778,
+  "mort": 1850,
+  "description": "Né dans l’actuelle Argentine et formé dans l’armée espagnole, il devient l’un des chefs des guerres d’indépendance de l’Amérique du Sud.",
+  "essentiel": [
+    "Il revient d’Espagne en 1812 pour rejoindre les indépendantistes.",
+    "En 1817, il franchit les Andes avec son armée et libère le Chili.",
+    "Il entre à Lima en 1821 et proclame l’indépendance du Pérou.",
+    "Il se retire en 1822 et finit sa vie en France, à Boulogne-sur-Mer."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Jos%C3%A9_de_San_Mart%C3%ADn"
+}

@@ -1,0 +1,270 @@
+{
+  "documentaires": [],
+  "decouvertes": [],
+  "id": "canada",
+  "label": "Canada",
+  "tier": 2,
+  "region": "amerique-nord",
+  "period": "1867 à 2020",
+  "start": 1867,
+  "end": 2020,
+  "trackId": "canada",
+  "row": 2,
+  "isRiver": false,
+  "capitale": "Ottawa",
+  "description": "La fédération née en 1867 de l’union de colonies britanniques d’Amérique du Nord, devenue un immense pays bilingue, indépendant par étapes, et l’un des plus riches du monde.",
+  "territories": ["Canada"],
+  "reperes": {
+    "capitale": { "valeur": "Ottawa" },
+    "regimes": {
+      "valeur": "Monarchie constitutionnelle et fédération",
+      "precision": "le souverain britannique reste chef de l’État ; indépendance acquise par étapes (1931, 1982)"
+    },
+    "langues": {
+      "valeur": "Anglais et français",
+      "precision": "langues officielles depuis 1969 ; nombreuses langues autochtones"
+    },
+    "religion": {
+      "valeur": "Christianisme",
+      "precision": "catholiques, surtout au Québec, et protestants ; nombreuses autres religions"
+    },
+    "population": { "valeur": "Environ 38 millions en 2020", "precision": "environ 3,5 millions en 1867" },
+    "monnaie": { "valeur": "Dollar canadien" },
+    "duree": { "valeur": "Environ 150 ans dans cette fiche" },
+    "aujourdhui": { "valeur": "Canada", "precision": "le deuxième plus grand pays du monde" }
+  },
+  "essentiel": [
+    "Après la conquête britannique de la [[nouvelle-france|Nouvelle-France]] (1763), les colonies britanniques d’Amérique du Nord s’unissent le 1er juillet 1867 dans une fédération : l’Ontario, le Québec, la Nouvelle-Écosse et le Nouveau-Brunswick.",
+    "Le pays s’étend jusqu’au Pacifique ; le chemin de fer transcontinental est achevé en 1885. Les peuples autochtones perdent la plus grande partie de leurs terres, et leurs enfants sont placés dans des pensionnats destinés à les assimiler.",
+    "Le Canada combat aux côtés du Royaume-Uni pendant les deux guerres mondiales ; il obtient sa pleine souveraineté en 1931 (statut de Westminster) et rapatrie sa Constitution en 1982.",
+    "Au Québec, la « Révolution tranquille » des années 1960 transforme la société francophone ; les Québécois rejettent l’indépendance par référendum en 1980 puis, de justesse, en 1995.",
+    "Pays d’immigration, le Canada adopte le bilinguisme officiel (1969) et le multiculturalisme (1971)."
+  ],
+  "datesCles": [
+    { "annee": 1867, "evenement": "Confédération", "info": "Le 1er juillet, naissance du Dominion du Canada." },
+    {
+      "annee": 1870,
+      "evenement": "Manitoba",
+      "info": "Après la résistance des Métis de Louis Riel, le Manitoba entre dans la fédération."
+    },
+    {
+      "annee": 1885,
+      "evenement": "Chemin de fer et exécution de Riel",
+      "info": "Le chemin de fer relie l’Atlantique au Pacifique ; Louis Riel est pendu."
+    },
+    {
+      "annee": 1917,
+      "evenement": "Vimy",
+      "info": "Les soldats canadiens prennent la crête de Vimy, dans le nord de la France."
+    },
+    { "annee": 1931, "evenement": "Statut de Westminster", "info": "Le Canada devient pleinement souverain." },
+    { "annee": 1944, "evenement": "Juno Beach", "info": "Les Canadiens débarquent en Normandie le 6 juin." },
+    { "annee": 1949, "evenement": "Terre-Neuve", "info": "Terre-Neuve devient la dixième province." },
+    {
+      "annee": 1969,
+      "evenement": "Bilinguisme",
+      "info": "L’anglais et le français deviennent les langues officielles du pays."
+    },
+    {
+      "annee": 1982,
+      "evenement": "Constitution",
+      "info": "La Constitution est rapatriée, avec une Charte des droits et libertés."
+    },
+    {
+      "annee": 1995,
+      "evenement": "Référendum au Québec",
+      "info": "Le « non » à la souveraineté du Québec l’emporte avec 50,6 % des voix."
+    },
+    { "annee": 1999, "evenement": "Nunavut", "info": "Création d’un territoire à majorité inuite." }
+  ],
+  "periodes": [
+    {
+      "nom": "La Confédération",
+      "debut": 1867,
+      "fin": 1914,
+      "resume": "Le Canada s’étend jusqu’au Pacifique et accueille des millions d’immigrants.",
+      "evenements": [
+        { "annee": 1867, "evenement": "Confédération" },
+        { "annee": 1885, "evenement": "Chemin de fer transcontinental" },
+        { "annee": 1896, "evenement": "Ruée vers l’or du Klondike" }
+      ]
+    },
+    {
+      "nom": "Guerres et souveraineté",
+      "debut": 1914,
+      "fin": 1945,
+      "resume": "Le sacrifice des deux guerres mondiales renforce le sentiment national ; le pays devient souverain.",
+      "evenements": [
+        { "annee": 1917, "evenement": "Vimy" },
+        { "annee": 1931, "evenement": "Statut de Westminster" },
+        { "annee": 1944, "evenement": "Juno Beach" }
+      ]
+    },
+    {
+      "nom": "Le Canada moderne",
+      "debut": 1945,
+      "fin": 2020,
+      "resume": "Prospérité, État-providence, Révolution tranquille au Québec, bilinguisme et multiculturalisme.",
+      "evenements": [
+        { "annee": 1960, "evenement": "Révolution tranquille" },
+        { "annee": 1982, "evenement": "Rapatriement de la Constitution" },
+        { "annee": 1995, "evenement": "Référendum au Québec" }
+      ]
+    }
+  ],
+  "regimes": [
+    { "id": "dominion", "nom": "Dominion du Canada", "debut": 1867, "fin": 1931 },
+    {
+      "id": "souverain",
+      "nom": "Canada souverain",
+      "debut": 1931,
+      "fin": 2020,
+      "note": "Constitution rapatriée en 1982."
+    }
+  ],
+  "dynasties": [{ "id": "premiers", "nom": "Premiers ministres", "debut": 1867, "fin": 2020, "note": "Sélection." }],
+  "dirigeants": [
+    {
+      "nom": "John A. Macdonald",
+      "titre": "Premier ministre",
+      "debut": 1867,
+      "fin": 1873,
+      "dynastie": "premiers",
+      "note": "premier Premier ministre ; de nouveau de 1878 à 1891",
+      "cle": true
+    },
+    {
+      "nom": "Wilfrid Laurier",
+      "titre": "Premier ministre",
+      "debut": 1896,
+      "fin": 1911,
+      "dynastie": "premiers",
+      "note": "premier chef de gouvernement francophone",
+      "cle": true
+    },
+    {
+      "nom": "William Lyon Mackenzie King",
+      "titre": "Premier ministre",
+      "debut": 1935,
+      "fin": 1948,
+      "dynastie": "premiers",
+      "note": "déjà au pouvoir de 1921 à 1930, avec une courte interruption",
+      "cle": true
+    },
+    {
+      "nom": "Lester B. Pearson",
+      "titre": "Premier ministre",
+      "debut": 1963,
+      "fin": 1968,
+      "dynastie": "premiers",
+      "note": "prix Nobel de la paix 1957"
+    },
+    {
+      "nom": "Pierre Elliott Trudeau",
+      "titre": "Premier ministre",
+      "debut": 1968,
+      "fin": 1979,
+      "dynastie": "premiers",
+      "note": "de nouveau de 1980 à 1984 ; rapatrie la Constitution",
+      "cle": true
+    },
+    { "nom": "Brian Mulroney", "titre": "Premier ministre", "debut": 1984, "fin": 1993, "dynastie": "premiers" },
+    { "nom": "Jean Chrétien", "titre": "Premier ministre", "debut": 1993, "fin": 2003, "dynastie": "premiers" },
+    {
+      "nom": "Justin Trudeau",
+      "titre": "Premier ministre",
+      "debut": 2015,
+      "fin": 2020,
+      "dynastie": "premiers",
+      "note": "fils de Pierre Elliott Trudeau ; toujours en fonction à la fin de la période couverte (2020)"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Louis Riel",
+      "role": "Chef métis",
+      "description": "Défenseur des Métis, fondateur du Manitoba, pendu en 1885.",
+      "dates": "1844 → 1885",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Louis_Riel",
+      "ref": "louis-riel"
+    },
+    {
+      "nom": "Frederick Banting",
+      "role": "Médecin",
+      "description": "Codécouvreur de l’insuline, prix Nobel de médecine 1923.",
+      "dates": "1891 → 1941",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Frederick_Banting"
+    },
+    {
+      "nom": "René Lévesque",
+      "role": "Premier ministre du Québec",
+      "description": "Fondateur du Parti québécois, il organise le premier référendum sur la souveraineté (1980).",
+      "dates": "1922 → 1987",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Ren%C3%A9_L%C3%A9vesque"
+    },
+    {
+      "nom": "Terry Fox",
+      "role": "Athlète",
+      "description": "Amputé d’une jambe, il court en 1980 un « marathon de l’espoir » à travers le pays pour la recherche contre le cancer.",
+      "dates": "1958 → 1981",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Terry_Fox"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Rébellion du Nord-Ouest",
+      "annee": 1885,
+      "adversaires": ["Métis de Louis Riel et alliés cris"],
+      "allies": [],
+      "morts": "Plus d’une centaine",
+      "vainqueur": "Gouvernement canadien",
+      "consequences": "Les Métis, inquiets pour leurs terres, se soulèvent dans l’actuelle Saskatchewan ; ils sont battus à Batoche. Louis Riel est pendu à Regina, ce qui divise profondément francophones et anglophones.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/R%C3%A9bellion_du_Nord-Ouest"
+    },
+    {
+      "nom": "Première Guerre mondiale (La Grande Guerre)",
+      "annee": 1914,
+      "adversaires": ["Empire allemand", "Autriche-Hongrie", "Empire ottoman"],
+      "allies": ["Royaume-Uni", "France"],
+      "morts": "Environ 60 000 soldats canadiens",
+      "vainqueur": "Alliés",
+      "consequences": "En avril 1917, les Canadiens prennent la crête de Vimy. La guerre renforce le sentiment national, mais la conscription (1917) divise anglophones et francophones.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Premi%C3%A8re_Guerre_mondiale"
+    },
+    {
+      "nom": "Seconde Guerre mondiale (Front de l'Est/Ouest)",
+      "annee": 1939,
+      "adversaires": ["Allemagne nazie", "Italie fasciste", "Japon"],
+      "allies": ["Royaume-Uni", "États-Unis", "France libre"],
+      "morts": "Environ 45 000 soldats canadiens",
+      "vainqueur": "Alliés",
+      "consequences": "Les Canadiens subissent un échec sanglant à Dieppe (1942), puis débarquent à Juno Beach le 6 juin 1944 et participent à la libération des Pays-Bas (1945).",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Seconde_Guerre_mondiale"
+    }
+  ],
+  "sciences": "En 1921-1922, à Toronto, Frederick Banting et Charles Best isolent l’insuline, qui sauve les malades du diabète. En 1962, le Canada devient le troisième pays à disposer de son propre satellite, Alouette 1, et il fournit à partir de 1981 le bras robotique (Canadarm) des navettes spatiales américaines.",
+  "croyancesText": "Au Québec, l’Église catholique encadre longtemps l’école, la santé et la vie sociale, jusqu’à la Révolution tranquille des années 1960 ; le Canada anglais est surtout protestant. Les spiritualités autochtones, longtemps combattues, sont de nouveau pratiquées. L’immigration apporte d’autres religions : islam, hindouisme, sikhisme, bouddhisme.",
+  "diplomatie": "Membre du Commonwealth, allié des États-Unis et membre fondateur de l’OTAN (1949), le Canada joue un grand rôle dans les missions de paix de l’ONU, dont l’idée revient en 1956 à Lester B. Pearson. En 1994 entre en vigueur l’Accord de libre-échange nord-américain (ALENA), qui le lie aux États-Unis et au Mexique.",
+  "societe": "De la fin du XIXe siècle à 1996, environ 150 000 enfants autochtones sont placés dans des pensionnats destinés à les assimiler, où beaucoup subissent des mauvais traitements ; en 2015, une commission officielle qualifie ce système de « génocide culturel ». Le Canada accueille des immigrants du monde entier ; Toronto et Vancouver comptent parmi les villes les plus diverses du monde.",
+  "economie": "Fourrures, bois et blé, puis mines, pétrole et gaz, industrie et services ; les États-Unis sont de loin son premier partenaire commercial.",
+  "arts": "Peintres du Groupe des Sept, chansons de Félix Leclerc et de Leonard Cohen, romans de Gabrielle Roy et de Margaret Atwood, art inuit.",
+  "quotidien": "Le hockey sur glace est le sport national d’hiver ; la crosse, inventée par les peuples autochtones, est le sport national d’été.",
+  "heritage": [
+    {
+      "titre": "Le Vieux-Québec",
+      "texte": "Seule ville fortifiée au nord du Mexique, l’arrondissement historique du Vieux-Québec est inscrit au patrimoine mondial de l’UNESCO depuis 1985."
+    },
+    {
+      "titre": "Le Nunavut",
+      "texte": "Créé en 1999, ce territoire du Grand Nord est peuplé et gouverné en majorité par des Inuits."
+    }
+  ],
+  "aSavoir": ["Le nom « Canada » viendrait du mot iroquoien « kanata », qui signifie « village »."],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Histoire_du_Canada",
+    {
+      "titre": "Encyclopædia Britannica — Canada, History",
+      "url": "https://www.britannica.com/place/Canada/History"
+    }
+  ]
+}

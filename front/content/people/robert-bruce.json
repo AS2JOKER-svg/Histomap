@@ -1,0 +1,18 @@
+{
+  "id": "robert-bruce",
+  "nom": "Robert Bruce",
+  "role": "Roi d’Écosse",
+  "roles": ["Roi", "Chef de guerre"],
+  "dates": "1274 → 1329",
+  "naissance": 1274,
+  "mort": 1329,
+  "description": "Roi d’Écosse de 1306 à 1329, il mène la guerre d’indépendance contre l’Angleterre et obtient la reconnaissance de son royaume en 1328.",
+  "reperes": [{ "label": "Règne", "valeur": "1306 → 1329" }],
+  "essentiel": [
+    "Il se fait couronner à Scone en 1306, malgré l’occupation anglaise.",
+    "Vaincu au début, il mène une guérilla depuis les montagnes.",
+    "En 1314, il écrase l’armée d’Édouard II à Bannockburn.",
+    "Selon une légende, une araignée qui recommençait sans cesse sa toile lui aurait redonné courage."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Robert_Ier_d%27%C3%89cosse"
+}

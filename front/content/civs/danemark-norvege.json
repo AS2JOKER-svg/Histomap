@@ -1,0 +1,250 @@
+{
+  "documentaires": [],
+  "decouvertes": [],
+  "id": "danemark-norvege",
+  "label": "Danemark-Norvège",
+  "tier": 2,
+  "region": "europe-nord",
+  "period": "1523 à 1814",
+  "start": 1523,
+  "end": 1814,
+  "color": "#00838f",
+  "trackId": "scandinavie",
+  "row": 6,
+  "isRiver": false,
+  "capitale": "Copenhague",
+  "description": "L’union des royaumes de Danemark et de Norvège sous un même roi, puissance de la Baltique et de l’Atlantique Nord avec l’Islande et le Groenland, de la sortie de la Suède de l’union de Kalmar jusqu’au traité de Kiel en 1814.",
+  "territories": ["Denmark-Norway", "Denmark", "Norway"],
+  "reperes": {
+    "capitale": { "valeur": "Copenhague" },
+    "regimes": { "valeur": "Monarchie", "precision": "absolue à partir de 1660" },
+    "langues": {
+      "valeur": "Danois",
+      "precision": "langue de l’administration aussi en Norvège ; norvégien, islandais, féroïen et groenlandais sont parlés localement"
+    },
+    "religion": { "valeur": "Protestantisme luthérien", "precision": "adopté en 1536" },
+    "apogee": { "valeur": "Règne de Christian IV (1588 → 1648)" },
+    "population": { "valeur": "Environ 1,8 million vers 1800", "precision": "Danemark et Norvège réunis, estimation" },
+    "monnaie": { "valeur": "Rigsdaler" },
+    "duree": { "valeur": "Environ 290 ans" },
+    "aujourdhui": {
+      "valeur": "Danemark et Norvège",
+      "precision": "ainsi que l’Islande, les îles Féroé, le Groenland et le sud de la Suède jusqu’en 1658"
+    }
+  },
+  "essentiel": [
+    "En 1523, la Suède quitte l’union de Kalmar ; le Danemark et la Norvège restent unis sous le même roi, à Copenhague.",
+    "En 1536, le roi Christian III impose la Réforme luthérienne ; la Norvège perd son propre conseil et est gouvernée depuis Copenhague.",
+    "Le roi [[christian-iv|Christian IV]] bâtit des villes et des palais, mais perd des batailles pendant la guerre de Trente Ans ; en 1658, le Danemark cède à la Suède ses provinces du sud de la Scandinavie.",
+    "Le royaume possède des colonies aux Antilles, en Inde et en Afrique, et participe à la traite ; en 1792, il est le premier pays à décider l’interdiction de la traite transatlantique.",
+    "Allié de Napoléon, le Danemark est vaincu ; par le traité de Kiel (1814), il cède la Norvège à la Suède mais garde l’Islande, les Féroé et le Groenland."
+  ],
+  "datesCles": [
+    {
+      "annee": 1523,
+      "evenement": "Fin de l’union de Kalmar",
+      "info": "Gustave Vasa devient roi de Suède ; le Danemark et la Norvège restent unis."
+    },
+    { "annee": 1536, "evenement": "Réforme", "info": "Christian III impose le luthéranisme." },
+    {
+      "annee": 1576,
+      "evenement": "Uraniborg",
+      "info": "L’astronome Tycho Brahe fait construire son observatoire sur l’île de Ven."
+    },
+    {
+      "annee": 1624,
+      "evenement": "Christiania",
+      "info": "Christian IV refonde Oslo sous le nom de Christiania après un incendie."
+    },
+    {
+      "annee": 1658,
+      "evenement": "Traité de Roskilde",
+      "info": "Le Danemark cède la Scanie et d’autres provinces à la Suède."
+    },
+    {
+      "annee": 1660,
+      "evenement": "Monarchie absolue",
+      "info": "Frédéric III devient monarque absolu et héréditaire."
+    },
+    { "annee": 1721, "evenement": "Groenland", "info": "Le pasteur Hans Egede s’installe au Groenland." },
+    {
+      "annee": 1792,
+      "evenement": "Interdiction de la traite",
+      "info": "Le Danemark décide d’interdire la traite transatlantique à partir de 1803."
+    },
+    {
+      "annee": 1807,
+      "evenement": "Bombardement de Copenhague",
+      "info": "La flotte britannique bombarde Copenhague et s’empare de la flotte danoise."
+    },
+    { "annee": 1814, "evenement": "Traité de Kiel", "info": "Le Danemark cède la Norvège à la Suède." }
+  ],
+  "periodes": [
+    {
+      "nom": "L’union et la Réforme",
+      "debut": 1523,
+      "fin": 1588,
+      "resume": "Le Danemark-Norvège devient un royaume protestant gouverné depuis Copenhague.",
+      "evenements": [{ "annee": 1536, "evenement": "Réforme luthérienne" }, { "annee": 1576, "evenement": "Uraniborg" }]
+    },
+    {
+      "nom": "Christian IV et les guerres",
+      "debut": 1588,
+      "fin": 1660,
+      "resume": "Christian IV fait du royaume une puissance, mais les guerres contre la Suède lui coûtent ses provinces du sud.",
+      "evenements": [{ "annee": 1624, "evenement": "Fondation de Christiania" }, { "annee": 1658, "evenement": "Traité de Roskilde" }]
+    },
+    {
+      "nom": "La monarchie absolue",
+      "debut": 1660,
+      "fin": 1814,
+      "resume": "Le roi gouverne seul ; le royaume développe son commerce et ses colonies, avant d’être entraîné dans les guerres napoléoniennes.",
+      "evenements": [
+        { "annee": 1660, "evenement": "Monarchie absolue" },
+        { "annee": 1792, "evenement": "Interdiction de la traite" },
+        { "annee": 1814, "evenement": "Traité de Kiel" }
+      ]
+    }
+  ],
+  "regimes": [
+    { "id": "monarchie", "nom": "Monarchie", "debut": 1523, "fin": 1660 },
+    { "id": "absolue", "nom": "Monarchie absolue", "debut": 1660, "fin": 1814 }
+  ],
+  "dynasties": [{ "id": "oldenbourg", "nom": "Maison d’Oldenbourg", "debut": 1523, "fin": 1814, "note": "Sélection." }],
+  "dirigeants": [
+    { "nom": "Frédéric Ier", "titre": "Roi", "debut": 1523, "fin": 1533, "dynastie": "oldenbourg", "cle": true },
+    {
+      "nom": "Christian III",
+      "titre": "Roi",
+      "debut": 1534,
+      "fin": 1559,
+      "dynastie": "oldenbourg",
+      "note": "impose la Réforme",
+      "cle": true
+    },
+    {
+      "nom": "Christian IV",
+      "titre": "Roi",
+      "debut": 1588,
+      "fin": 1648,
+      "dynastie": "oldenbourg",
+      "personne": "christian-iv",
+      "cle": true
+    },
+    {
+      "nom": "Frédéric III",
+      "titre": "Roi",
+      "debut": 1648,
+      "fin": 1670,
+      "dynastie": "oldenbourg",
+      "note": "instaure la monarchie absolue",
+      "cle": true
+    },
+    {
+      "nom": "Christian VII",
+      "titre": "Roi",
+      "debut": 1766,
+      "fin": 1808,
+      "dynastie": "oldenbourg",
+      "note": "malade, il laisse gouverner ses ministres"
+    },
+    {
+      "nom": "Frédéric VI",
+      "titre": "Roi",
+      "debut": 1808,
+      "fin": 1839,
+      "dynastie": "oldenbourg",
+      "note": "régent depuis 1784 ; perd la Norvège"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Christian IV",
+      "role": "Roi",
+      "description": "Le roi bâtisseur.",
+      "dates": "1577 → 1648",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Christian_IV_de_Danemark",
+      "ref": "christian-iv"
+    },
+    {
+      "nom": "Tycho Brahe",
+      "role": "Astronome",
+      "description": "Il réalise les observations du ciel les plus précises avant l’invention de la lunette.",
+      "dates": "1546 → 1601",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Tycho_Brahe"
+    },
+    {
+      "nom": "Ole Rømer",
+      "role": "Astronome",
+      "description": "Il est le premier à montrer, en 1676, que la lumière a une vitesse finie.",
+      "dates": "1644 → 1710",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Ole_R%C3%B8mer"
+    },
+    {
+      "nom": "Hans Egede",
+      "role": "Pasteur et missionnaire",
+      "description": "Il s’installe au Groenland en 1721, ouvrant la colonisation danoise de l’île.",
+      "dates": "1686 → 1758",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Hans_Egede"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerre de Trente Ans",
+      "annee": 1618,
+      "adversaires": ["Empereur et Ligue catholique (Tilly, Wallenstein)"],
+      "allies": ["Princes protestants allemands"],
+      "morts": "Inconnues pour le Danemark",
+      "vainqueur": "Camp impérial (pour la phase danoise)",
+      "consequences": "Christian IV intervient en 1625 pour défendre les protestants, mais il est battu à Lutter (1626) et doit signer la paix de Lübeck en 1629.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_de_Trente_Ans"
+    },
+    {
+      "nom": "Guerre dano-suédoise (1657-1658)",
+      "annee": 1657,
+      "adversaires": ["Empire suédois (Charles X Gustave)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Suède",
+      "consequences": "L’armée suédoise traverse à pied les détroits gelés et menace Copenhague. Par le traité de Roskilde (1658), le Danemark cède la Scanie et ses autres provinces du sud de la Suède actuelle.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Dano-Swedish_War_(1657%E2%80%931658)"
+    },
+    {
+      "nom": "Guerres napoléoniennes",
+      "annee": 1803,
+      "adversaires": ["Royaume-Uni", "Suède"],
+      "allies": ["Empire français"],
+      "morts": "Inconnues",
+      "vainqueur": "Coalition contre Napoléon",
+      "consequences": "Après le bombardement de Copenhague (1807), le Danemark s’allie à Napoléon. Vaincu, il doit céder la Norvège à la Suède par le traité de Kiel (1814).",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerres_napol%C3%A9oniennes"
+    }
+  ],
+  "sciences": "L’astronome Tycho Brahe mesure la position des étoiles et des planètes avec une précision inégalée dans ses observatoires d’Uraniborg et de Stjerneborg ; ses données permettront à Kepler de découvrir les lois du mouvement des planètes. En 1676, Ole Rømer démontre que la lumière se déplace à une vitesse finie.",
+  "croyancesText": "En 1536, le roi impose la Réforme luthérienne : les biens de l’Église catholique sont confisqués, et le roi devient le chef de l’Église. La Bible est traduite en danois. Au XVIIIe siècle, des missionnaires sont envoyés au Groenland et en Inde.",
+  "diplomatie": "Le Danemark-Norvège contrôle le détroit du Sund, à l’entrée de la Baltique, où tous les navires paient un péage. Il affronte à de nombreuses reprises la Suède, sa grande rivale. Il fonde des comptoirs et des colonies aux Antilles (Saint-Thomas), en Inde (Tranquebar) et en Afrique (Côte-de-l’Or).",
+  "societe": "La noblesse domine jusqu’en 1660, puis le roi gouverne seul avec des fonctionnaires. À la fin du XVIIIe siècle, des réformes libèrent les paysans danois de l’obligation de rester sur leur domaine (1788).",
+  "economie": "Péage du Sund, commerce, pêche, bois de Norvège, agriculture, colonies sucrières des Antilles.",
+  "arts": "Château de Rosenborg et Tour ronde de Copenhague, sous Christian IV ; églises en bois debout (stavkirker) en Norvège.",
+  "quotidien": "La Tour ronde de Copenhague, bâtie par Christian IV comme observatoire, se gravit par une large rampe en spirale, sans marches.",
+  "heritage": [
+    {
+      "titre": "Le 17 mai",
+      "texte": "Le 17 mai 1814, juste après le traité de Kiel, les Norvégiens adoptent leur propre constitution ; c’est aujourd’hui leur fête nationale."
+    },
+    {
+      "titre": "Le Groenland",
+      "texte": "Le Groenland et les îles Féroé font toujours partie du royaume de Danemark, avec une large autonomie."
+    }
+  ],
+  "aSavoir": [
+    "Tycho Brahe portait une prothèse de nez en métal, après avoir perdu une partie du sien lors d’un duel à l’épée quand il était étudiant."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Danemark-Norv%C3%A8ge",
+    {
+      "titre": "Encyclopædia Britannica — Denmark, history",
+      "url": "https://www.britannica.com/place/Denmark/History"
+    }
+  ]
+}

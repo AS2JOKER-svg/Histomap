@@ -1,0 +1,231 @@
+{
+  "documentaires": [],
+  "decouvertes": [],
+  "id": "etat-bourguignon",
+  "label": "État bourguignon",
+  "tier": 2,
+  "region": "europe-ouest",
+  "period": "1363 à 1477",
+  "start": 1363,
+  "end": 1477,
+  "color": "#bf360c",
+  "trackId": "bourgogne",
+  "row": 18,
+  "isRiver": false,
+  "capitale": "Dijon, puis Bruxelles et Bruges",
+  "description": "L’ensemble de terres réunies par quatre ducs de Bourgogne de la famille des Valois, de la Bourgogne aux Pays-Bas, l’une des cours les plus brillantes d’Europe, jusqu’à la mort de Charles le Téméraire en 1477.",
+  "territories": [],
+  "reperes": {
+    "capitale": { "valeur": "Dijon, puis Bruxelles et Bruges", "precision": "la cour se déplace entre ses grandes villes" },
+    "regimes": {
+      "valeur": "Principauté",
+      "precision": "les ducs sont vassaux du roi de France et de l’empereur, mais très indépendants"
+    },
+    "langues": { "valeur": "Français et néerlandais (flamand)" },
+    "religion": { "valeur": "Catholicisme" },
+    "apogee": { "valeur": "Règne de Philippe le Bon (1419 → 1467)" },
+    "population": {
+      "valeur": "Inconnue",
+      "precision": "les Pays-Bas bourguignons sont l’une des régions les plus peuplées et urbanisées d’Europe"
+    },
+    "monnaie": { "valeur": "Monnaies des différents territoires", "precision": "unifiées en partie par Philippe le Bon" },
+    "duree": { "valeur": "Environ 115 ans" },
+    "aujourdhui": { "valeur": "France, Belgique, Pays-Bas, Luxembourg" }
+  },
+  "essentiel": [
+    "En 1363, le roi de France Jean II le Bon donne le duché de Bourgogne à son fils Philippe le Hardi ; par son mariage, celui-ci obtient aussi la riche Flandre.",
+    "Son fils Jean sans Peur fait assassiner son rival Louis d’Orléans (1407) : c’est le début d’une guerre civile entre Armagnacs et Bourguignons, pendant la guerre de Cent Ans.",
+    "[[philippe-le-bon|Philippe le Bon]] s’allie d’abord aux Anglais — ses troupes capturent [[jeanne-d-arc|Jeanne d’Arc]] en 1430 — puis réunit la plupart des Pays-Bas et fait de sa cour la plus brillante d’Europe.",
+    "Les peintres de sa cour, comme Jan van Eyck, révolutionnent la peinture à l’huile ; l’ordre de la Toison d’or est fondé en 1430.",
+    "[[charles-le-temeraire|Charles le Téméraire]] veut créer un royaume entre la France et l’Empire, mais il est battu par les Suisses et tué devant Nancy en 1477 ; ses terres sont partagées entre la France et les Habsbourg."
+  ],
+  "datesCles": [
+    { "annee": 1363, "evenement": "Philippe le Hardi", "info": "Le roi Jean II donne la Bourgogne à son fils." },
+    { "annee": 1384, "evenement": "La Flandre", "info": "Philippe le Hardi hérite de la Flandre par sa femme." },
+    {
+      "annee": 1407,
+      "evenement": "Assassinat de Louis d’Orléans",
+      "info": "Jean sans Peur fait tuer son cousin ; la guerre civile commence."
+    },
+    {
+      "annee": 1419,
+      "evenement": "Montereau",
+      "info": "Jean sans Peur est assassiné à son tour ; son fils s’allie aux Anglais."
+    },
+    {
+      "annee": 1430,
+      "evenement": "Toison d’or",
+      "info": "Philippe le Bon fonde l’ordre de la Toison d’or ; ses troupes capturent Jeanne d’Arc."
+    },
+    { "annee": 1435, "evenement": "Traité d’Arras", "info": "Philippe le Bon se réconcilie avec le roi de France." },
+    {
+      "annee": 1476,
+      "evenement": "Grandson et Morat",
+      "info": "Charles le Téméraire est battu deux fois par les Suisses."
+    },
+    {
+      "annee": 1477,
+      "evenement": "Nancy",
+      "info": "Charles le Téméraire est tué devant Nancy ; sa fille Marie épouse Maximilien de Habsbourg."
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "La formation",
+      "debut": 1363,
+      "fin": 1419,
+      "resume": "Philippe le Hardi et Jean sans Peur réunissent la Bourgogne et la Flandre et se mêlent des affaires du royaume de France.",
+      "evenements": [
+        { "annee": 1384, "evenement": "Héritage de la Flandre" },
+        { "annee": 1407, "evenement": "Début de la guerre civile" }
+      ]
+    },
+    {
+      "nom": "L’apogée",
+      "debut": 1419,
+      "fin": 1467,
+      "resume": "Philippe le Bon réunit presque tous les Pays-Bas et fait de sa cour un centre artistique majeur.",
+      "evenements": [{ "annee": 1430, "evenement": "Ordre de la Toison d’or" }, { "annee": 1435, "evenement": "Traité d’Arras" }]
+    },
+    {
+      "nom": "Le rêve brisé",
+      "debut": 1467,
+      "fin": 1477,
+      "resume": "Charles le Téméraire veut un royaume, mais se heurte à Louis XI, aux Suisses et aux Lorrains.",
+      "evenements": [
+        { "annee": 1476, "evenement": "Défaites de Grandson et de Morat" },
+        { "annee": 1477, "evenement": "Mort devant Nancy" }
+      ]
+    }
+  ],
+  "regimes": [{ "id": "principaute", "nom": "Principauté ducale", "debut": 1363, "fin": 1477 }],
+  "dynasties": [{ "id": "valois", "nom": "Les ducs Valois de Bourgogne", "debut": 1363, "fin": 1482 }],
+  "dirigeants": [
+    {
+      "nom": "Philippe le Hardi",
+      "titre": "Duc",
+      "debut": 1363,
+      "fin": 1404,
+      "dynastie": "valois",
+      "note": "fondateur",
+      "cle": true
+    },
+    {
+      "nom": "Jean sans Peur",
+      "titre": "Duc",
+      "debut": 1404,
+      "fin": 1419,
+      "dynastie": "valois",
+      "note": "assassiné à Montereau",
+      "cle": true
+    },
+    {
+      "nom": "Philippe le Bon",
+      "titre": "Duc",
+      "debut": 1419,
+      "fin": 1467,
+      "dynastie": "valois",
+      "personne": "philippe-le-bon",
+      "cle": true
+    },
+    {
+      "nom": "Charles le Téméraire",
+      "titre": "Duc",
+      "debut": 1467,
+      "fin": 1477,
+      "dynastie": "valois",
+      "personne": "charles-le-temeraire",
+      "cle": true
+    },
+    {
+      "nom": "Marie de Bourgogne",
+      "titre": "Duchesse",
+      "debut": 1477,
+      "fin": 1482,
+      "dynastie": "valois",
+      "note": "épouse Maximilien de Habsbourg"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Philippe le Bon",
+      "role": "Duc de Bourgogne",
+      "description": "Le duc de l’apogée bourguignon.",
+      "dates": "1396 → 1467",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Philippe_III_de_Bourgogne",
+      "ref": "philippe-le-bon"
+    },
+    {
+      "nom": "Charles le Téméraire",
+      "role": "Duc de Bourgogne",
+      "description": "Le dernier grand duc, tué à Nancy.",
+      "dates": "1433 → 1477",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Charles_le_T%C3%A9m%C3%A9raire",
+      "ref": "charles-le-temeraire"
+    },
+    {
+      "nom": "Jan van Eyck",
+      "role": "Peintre",
+      "description": "Peintre de la cour de Philippe le Bon, maître de la peinture à l’huile.",
+      "dates": "vers 1390 → 1441",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Jan_van_Eyck"
+    },
+    {
+      "nom": "Jeanne d’Arc",
+      "role": "Héroïne de la guerre de Cent Ans",
+      "description": "Capturée par les Bourguignons à Compiègne en 1430 et livrée aux Anglais.",
+      "dates": "vers 1412 → 1431",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Jeanne_d%27Arc",
+      "ref": "jeanne-d-arc"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerre de Cent Ans",
+      "annee": 1337,
+      "adversaires": ["Royaume de France (Armagnacs), jusqu’en 1435"],
+      "allies": ["Royaume d’Angleterre"],
+      "morts": "Inconnues",
+      "vainqueur": "France",
+      "consequences": "Allié aux Anglais après l’assassinat de Jean sans Peur (1419), le duc de Bourgogne se réconcilie avec le roi de France au traité d’Arras (1435), ce qui aide la France à chasser les Anglais.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_de_Cent_Ans"
+    },
+    {
+      "nom": "Guerres de Bourgogne",
+      "annee": 1474,
+      "adversaires": ["Confédérés suisses", "Lorraine", "Louis XI de France"],
+      "allies": [],
+      "morts": "Plusieurs milliers",
+      "vainqueur": "Suisses et Lorrains",
+      "consequences": "Charles le Téméraire est battu à Grandson et à Morat (1476), puis tué devant Nancy (1477). La Bourgogne revient à la France, les Pays-Bas aux Habsbourg.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerres_de_Bourgogne"
+    }
+  ],
+  "sciences": "Les villes des Pays-Bas bourguignons, comme Bruges, Gand et Anvers, sont parmi les plus riches d’Europe grâce au drap et au commerce. Les peintres de la cour, comme Jan van Eyck, perfectionnent la peinture à l’huile, qui permet des détails et des effets de lumière inédits. À Beaune, le chancelier Nicolas Rolin fonde en 1443 les Hospices, un hôpital pour les pauvres.",
+  "croyancesText": "Les ducs sont de fervents catholiques ; Philippe le Bon promet en 1454, lors du célèbre « banquet du Faisan », de partir en croisade contre les Ottomans, projet qui ne se réalise pas. Les grands ateliers produisent des retables, comme L’Agneau mystique des frères Van Eyck à Gand.",
+  "diplomatie": "Les ducs sont vassaux du roi de France pour la Bourgogne et de l’empereur pour une grande partie des Pays-Bas. Ils s’allient tantôt à l’Angleterre, tantôt à la France. Le mariage de Marie de Bourgogne avec Maximilien de Habsbourg (1477) fait passer les Pays-Bas aux Habsbourg.",
+  "societe": "Une brillante cour entoure les ducs : chevaliers de la Toison d’or, artistes, musiciens. Les puissantes villes flamandes, très attachées à leurs libertés, se révoltent parfois contre les ducs.",
+  "economie": "Drap de Flandre, commerce maritime de Bruges et d’Anvers, vins de Bourgogne, banque.",
+  "arts": "Peinture flamande (Van Eyck, Rogier van der Weyden), tapisseries, manuscrits enluminés, Hospices de Beaune.",
+  "quotidien": "Les fêtes de la cour de Bourgogne, avec leurs banquets, tournois et spectacles, étaient célèbres dans toute l’Europe.",
+  "heritage": [
+    {
+      "titre": "La Toison d’or",
+      "texte": "L’ordre de chevalerie fondé en 1430 existe toujours ; il est décerné par le roi d’Espagne et par la maison de Habsbourg."
+    },
+    {
+      "titre": "Les Pays-Bas",
+      "texte": "En réunissant les provinces des Pays-Bas, les ducs ont préparé la naissance des actuels Belgique, Pays-Bas et Luxembourg."
+    }
+  ],
+  "aSavoir": [
+    "Le surnom de Charles « le Téméraire » lui a été donné après sa mort ; de son vivant, on l’appelait plutôt « le Hardi » ou « le Travailleur »."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/%C3%89tat_bourguignon",
+    {
+      "titre": "Encyclopædia Britannica — Burgundy",
+      "url": "https://www.britannica.com/place/Burgundy-historical-region-France"
+    }
+  ]
+}

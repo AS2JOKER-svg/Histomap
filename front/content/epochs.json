@@ -162,8 +162,10 @@
           "boheme",
           "serbie-medievale",
           "france-capet",
+          "etat-bourguignon",
           "serg",
           "angleterre",
+          "ecosse",
           "vikings",
           "rus-kiev",
           "moscovie",
@@ -171,6 +173,7 @@
           "horde-d-or",
           "khanat-de-crimee",
           "italie-maritime",
+          "etats-pontificaux",
           "al-andalus",
           "reconquista-royaumes"
         ]
@@ -263,10 +266,12 @@
         "label": "Europe",
         "civs": [
           "espagne",
+          "portugal",
           "france-mod",
           "angleterre-mod",
           "provinces-unies",
           "suede-empire",
+          "danemark-norvege",
           "prusse",
           "pologne-lituanie",
           "russie-tsars",

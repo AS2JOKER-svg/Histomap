@@ -1,0 +1,18 @@
+{
+  "id": "jules-ii",
+  "nom": "Jules II",
+  "role": "Pape",
+  "roles": ["Pape", "Mécène", "Chef de guerre"],
+  "dates": "1443 → 1513",
+  "naissance": 1443,
+  "mort": 1513,
+  "description": "Pape de 1503 à 1513, surnommé le « pape guerrier », il agrandit les États pontificaux par les armes et fait de Rome le cœur de la Renaissance.",
+  "reperes": [{ "label": "Pontificat", "valeur": "1503 → 1513" }],
+  "essentiel": [
+    "Il conduit lui-même ses armées pour reprendre des villes d’Italie centrale.",
+    "Il lance en 1506 la construction de la nouvelle basilique Saint-Pierre.",
+    "Il commande à Michel-Ange le plafond de la chapelle Sixtine et à Raphaël les fresques de ses appartements.",
+    "Il crée la Garde suisse, qui protège toujours le pape."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Jules_II"
+}

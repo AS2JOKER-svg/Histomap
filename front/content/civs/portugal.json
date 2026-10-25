@@ -1,0 +1,310 @@
+{
+  "documentaires": [],
+  "decouvertes": ["caravelle"],
+  "id": "portugal",
+  "label": "Portugal et son empire",
+  "tier": 1,
+  "region": "peninsule-iberique",
+  "period": "1139 à 1822",
+  "start": 1139,
+  "end": 1822,
+  "color": "#2e7d32",
+  "trackId": "portugal",
+  "row": 10,
+  "isRiver": false,
+  "capitale": "Coimbra, puis Lisbonne",
+  "description": "Le royaume né de la Reconquista à l’ouest de la péninsule Ibérique, qui ouvre au XVe siècle la route maritime des Indes et bâtit le premier empire colonial mondial, de l’Afrique au Brésil et à l’Asie.",
+  "territories": ["Portugal", "Portuguese Guinea", "Portuguese East Africa", "Delagoa Bay", "Goa", "Angola"],
+  "reperes": {
+    "capitale": {
+      "valeur": "Coimbra, puis Lisbonne",
+      "precision": "Lisbonne devient capitale au XIIIe siècle ; Rio de Janeiro de 1808 à 1821"
+    },
+    "regimes": { "valeur": "Monarchie" },
+    "langues": { "valeur": "Portugais" },
+    "religion": { "valeur": "Catholicisme" },
+    "apogee": { "valeur": "Règne de Manuel Ier (1495 → 1521)", "precision": "l’or et les épices affluent à Lisbonne" },
+    "population": { "valeur": "Environ 1 million vers 1500", "precision": "estimation, sans l’empire" },
+    "monnaie": { "valeur": "Réal, cruzado" },
+    "duree": { "valeur": "Plus de 680 ans" },
+    "aujourdhui": {
+      "valeur": "Portugal",
+      "precision": "son ancien empire comprend le Brésil, l’Angola, le Mozambique, le Cap-Vert, Goa, Macao, le Timor oriental…"
+    }
+  },
+  "essentiel": [
+    "En 1139, Alphonse Henriques se proclame roi de Portugal ; en 1147, il prend Lisbonne aux musulmans, et le royaume atteint ses frontières actuelles au XIIIe siècle.",
+    "En 1385, la victoire d’Aljubarrota sur la Castille assure l’indépendance du royaume et porte au pouvoir la dynastie d’Aviz.",
+    "Au XVe siècle, encouragés par [[henri-le-navigateur|Henri le Navigateur]], les marins portugais explorent les côtes d’Afrique ; en 1498, [[vasco-de-gama|Vasco de Gama]] atteint l’Inde par la mer.",
+    "Le Portugal bâtit un empire de comptoirs et de colonies, de l’Afrique au Brésil et à l’Asie ; ses navires participent massivement à la traite des Africains réduits en esclavage.",
+    "Uni à l’Espagne de 1580 à 1640, ravagé par le [[seisme-de-lisbonne|séisme de 1755]], le pays voit sa cour fuir au Brésil en 1807 ; l’indépendance du Brésil en 1822 met fin à l’empire américain."
+  ],
+  "datesCles": [
+    {
+      "annee": 1139,
+      "evenement": "Royaume de Portugal",
+      "info": "Alphonse Henriques se proclame roi après la bataille d’Ourique."
+    },
+    { "annee": 1147, "evenement": "Lisbonne", "info": "Avec l’aide de croisés, les Portugais prennent Lisbonne." },
+    {
+      "annee": 1385,
+      "evenement": "Aljubarrota",
+      "info": "Jean Ier bat les Castillans et assure l’indépendance du royaume."
+    },
+    { "annee": 1415, "evenement": "Ceuta", "info": "La prise de Ceuta, au Maroc, ouvre l’expansion portugaise." },
+    {
+      "annee": 1488,
+      "evenement": "Cap de Bonne-Espérance",
+      "info": "Bartolomeu Dias contourne la pointe sud de l’Afrique."
+    },
+    { "annee": 1498, "evenement": "Vasco de Gama", "info": "Vasco de Gama atteint Calicut, en Inde, par la mer." },
+    { "annee": 1500, "evenement": "Brésil", "info": "Pedro Álvares Cabral aborde la côte du Brésil." },
+    {
+      "annee": 1580,
+      "evenement": "Union ibérique",
+      "info": "Après la mort du roi Sébastien, le roi d’Espagne devient roi de Portugal."
+    },
+    {
+      "annee": 1640,
+      "evenement": "Restauration",
+      "info": "Une révolte rend l’indépendance au Portugal sous la dynastie de Bragance."
+    },
+    {
+      "annee": 1755,
+      "evenement": "Séisme de Lisbonne",
+      "info": "Un tremblement de terre, un tsunami et des incendies détruisent Lisbonne.",
+      "ref": "seisme-de-lisbonne"
+    },
+    {
+      "annee": 1807,
+      "evenement": "La cour au Brésil",
+      "info": "Fuyant l’invasion française, la famille royale part pour Rio de Janeiro."
+    },
+    { "annee": 1822, "evenement": "Indépendance du Brésil", "info": "Le Brésil se sépare du Portugal." }
+  ],
+  "periodes": [
+    {
+      "nom": "Le royaume de la Reconquista",
+      "debut": 1139,
+      "fin": 1385,
+      "resume": "Le Portugal se forme en reprenant des terres aux musulmans, puis s’organise sous la dynastie de Bourgogne.",
+      "evenements": [{ "annee": 1147, "evenement": "Prise de Lisbonne" }, { "annee": 1290, "evenement": "Fondation de l’université" }]
+    },
+    {
+      "nom": "L’âge des découvertes",
+      "debut": 1385,
+      "fin": 1580,
+      "resume": "La dynastie d’Aviz lance l’exploration de l’Atlantique et de l’océan Indien et bâtit un empire mondial.",
+      "evenements": [
+        { "annee": 1415, "evenement": "Prise de Ceuta" },
+        { "annee": 1498, "evenement": "Vasco de Gama en Inde" },
+        { "annee": 1578, "evenement": "Bataille des Trois Rois", "ref": "bataille-des-trois-rois" }
+      ]
+    },
+    {
+      "nom": "L’union ibérique",
+      "debut": 1580,
+      "fin": 1640,
+      "resume": "Le Portugal partage son roi avec l’Espagne et perd des comptoirs face aux Hollandais.",
+      "evenements": [{ "annee": 1580, "evenement": "Union avec l’Espagne" }]
+    },
+    {
+      "nom": "Les Bragance",
+      "debut": 1640,
+      "fin": 1822,
+      "resume": "Le royaume retrouve son indépendance et s’enrichit de l’or du Brésil, avant les invasions napoléoniennes.",
+      "evenements": [
+        { "annee": 1640, "evenement": "Restauration" },
+        { "annee": 1755, "evenement": "Séisme de Lisbonne", "ref": "seisme-de-lisbonne" },
+        { "annee": 1807, "evenement": "Départ de la cour au Brésil" }
+      ]
+    }
+  ],
+  "regimes": [{ "id": "monarchie", "nom": "Monarchie", "debut": 1139, "fin": 1822 }],
+  "dynasties": [
+    { "id": "bourgogne", "nom": "Maison de Bourgogne", "debut": 1139, "fin": 1383 },
+    { "id": "aviz", "nom": "Maison d’Aviz", "debut": 1385, "fin": 1580 },
+    { "id": "habsbourg", "nom": "Rois d’Espagne (Habsbourg)", "debut": 1580, "fin": 1640 },
+    { "id": "bragance", "nom": "Maison de Bragance", "debut": 1640, "fin": 1822, "note": "Sélection." }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Alphonse Ier Henriques",
+      "titre": "Roi",
+      "debut": 1139,
+      "fin": 1185,
+      "dynastie": "bourgogne",
+      "note": "fondateur du royaume",
+      "cle": true
+    },
+    {
+      "nom": "Denis Ier",
+      "titre": "Roi",
+      "debut": 1279,
+      "fin": 1325,
+      "dynastie": "bourgogne",
+      "note": "fonde l’université"
+    },
+    {
+      "nom": "Jean Ier",
+      "titre": "Roi",
+      "debut": 1385,
+      "fin": 1433,
+      "dynastie": "aviz",
+      "note": "vainqueur d’Aljubarrota",
+      "cle": true
+    },
+    {
+      "nom": "Manuel Ier",
+      "titre": "Roi",
+      "surnom": "le Fortuné",
+      "debut": 1495,
+      "fin": 1521,
+      "dynastie": "aviz",
+      "cle": true
+    },
+    {
+      "nom": "Sébastien Ier",
+      "titre": "Roi",
+      "debut": 1557,
+      "fin": 1578,
+      "dynastie": "aviz",
+      "note": "disparaît à la bataille des Trois Rois"
+    },
+    {
+      "nom": "Philippe II d’Espagne",
+      "titre": "Roi",
+      "debut": 1581,
+      "fin": 1598,
+      "dynastie": "habsbourg",
+      "note": "roi d’Espagne et de Portugal"
+    },
+    {
+      "nom": "Jean IV",
+      "titre": "Roi",
+      "debut": 1640,
+      "fin": 1656,
+      "dynastie": "bragance",
+      "note": "restaure l’indépendance",
+      "cle": true
+    },
+    {
+      "nom": "Joseph Ier",
+      "titre": "Roi",
+      "debut": 1750,
+      "fin": 1777,
+      "dynastie": "bragance",
+      "note": "règne avec le ministre Pombal"
+    },
+    {
+      "nom": "Jean VI",
+      "titre": "Roi",
+      "debut": 1816,
+      "fin": 1826,
+      "dynastie": "bragance",
+      "note": "régent depuis 1799, réfugié au Brésil"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Henri le Navigateur",
+      "role": "Prince",
+      "description": "Le prince qui encourage les premières explorations portugaises.",
+      "dates": "1394 → 1460",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Henri_le_Navigateur",
+      "ref": "henri-le-navigateur"
+    },
+    {
+      "nom": "Vasco de Gama",
+      "role": "Navigateur",
+      "description": "Le premier Européen à atteindre l’Inde par la mer.",
+      "dates": "vers 1469 → 1524",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Vasco_de_Gama",
+      "ref": "vasco-de-gama"
+    },
+    {
+      "nom": "Luís de Camões",
+      "role": "Poète",
+      "description": "L’auteur des Lusiades (1572), épopée des découvertes portugaises.",
+      "dates": "vers 1524 → 1580",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Lu%C3%ADs_de_Cam%C3%B5es"
+    },
+    {
+      "nom": "Marquis de Pombal",
+      "role": "Ministre",
+      "description": "Il reconstruit Lisbonne après le séisme de 1755 et réforme le royaume.",
+      "dates": "1699 → 1782",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Sebasti%C3%A3o_Jos%C3%A9_de_Carvalho_e_Melo"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Bataille d’Aljubarrota",
+      "annee": 1385,
+      "adversaires": ["Royaume de Castille"],
+      "allies": ["Archers anglais"],
+      "morts": "Plusieurs milliers",
+      "vainqueur": "Portugal (Jean Ier)",
+      "consequences": "La victoire assure l’indépendance du Portugal face à la Castille. Elle est suivie en 1386 du traité de Windsor avec l’Angleterre, la plus ancienne alliance toujours en vigueur.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_d%27Aljubarrota"
+    },
+    {
+      "nom": "Bataille des Trois Rois",
+      "annee": 1578,
+      "adversaires": ["Saadiens du Maroc (Abd al-Malik)"],
+      "allies": ["Le sultan déchu al-Mutawakkil"],
+      "morts": "Plusieurs milliers ; une grande partie de la noblesse portugaise est tuée ou capturée",
+      "vainqueur": "Saadiens",
+      "consequences": "Le jeune roi Sébastien disparaît ; sans héritier, le Portugal passe en 1580 sous la couronne d’Espagne.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_des_Trois_Rois"
+    },
+    {
+      "nom": "Guerre de Restauration",
+      "annee": 1640,
+      "adversaires": ["Espagne"],
+      "allies": ["France", "Angleterre"],
+      "morts": "Inconnues",
+      "vainqueur": "Portugal",
+      "consequences": "Après vingt-huit ans de guerre, l’Espagne reconnaît en 1668 l’indépendance du Portugal sous la dynastie de Bragance.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_de_Restauration"
+    },
+    {
+      "nom": "Guerres napoléoniennes",
+      "annee": 1803,
+      "adversaires": ["Empire français (Napoléon)", "Espagne (jusqu’en 1808)"],
+      "allies": ["Royaume-Uni"],
+      "morts": "Plusieurs centaines de milliers pour toute la guerre d’Espagne et du Portugal",
+      "vainqueur": "Coalition (Royaume-Uni, Portugal, Espagne)",
+      "consequences": "Envahi par les Français en 1807, le Portugal est libéré avec l’aide des Britanniques ; mais la cour, partie au Brésil, n’en revient qu’en 1821.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_d%27ind%C3%A9pendance_espagnole"
+    }
+  ],
+  "sciences": "Les Portugais perfectionnent la caravelle, navire léger capable de remonter au vent, et les instruments de navigation comme l’astrolabe et le quadrant. Ils dressent des cartes de plus en plus précises des côtes d’Afrique et d’Asie. Le mathématicien Pedro Nunes invente au XVIe siècle des méthodes de navigation nouvelles.",
+  "croyancesText": "Le Portugal est un royaume catholique, né en partie des croisades de la Reconquista. Les missionnaires portugais, souvent jésuites, partent évangéliser l’Afrique, le Brésil, l’Inde et le Japon. En 1496-1497, les Juifs et les musulmans doivent se convertir ou partir ; l’Inquisition est installée en 1536.",
+  "diplomatie": "Le Portugal est allié à l’Angleterre depuis le traité de Windsor (1386), la plus ancienne alliance du monde encore en vigueur. Le traité de Tordesillas (1494) partage avec l’Espagne les terres à découvrir. Il établit des comptoirs et des relations avec des royaumes d’Afrique et d’Asie, parfois par la force.",
+  "societe": "La noblesse, le clergé et les grands marchands dominent la société. L’empire repose en grande partie sur l’esclavage : les navires portugais et brésiliens ont transporté près de la moitié des Africains déportés vers les Amériques.",
+  "economie": "Commerce des épices de l’Inde, de l’or et des esclaves d’Afrique, du sucre puis de l’or du Brésil ; pêche, vin de Porto.",
+  "arts": "Style manuélin (monastère des Hiéronymites, tour de Belém), azulejos, poésie de Camões.",
+  "quotidien": "Les murs des églises et des maisons portugaises se couvrent d’azulejos, des carreaux de faïence souvent peints en bleu.",
+  "heritage": [
+    {
+      "titre": "La langue portugaise",
+      "texte": "Parlée au Portugal, au Brésil, en Angola, au Mozambique et ailleurs, elle compte plus de 250 millions de locuteurs."
+    },
+    {
+      "titre": "Belém",
+      "texte": "Le monastère des Hiéronymites et la tour de Belém, à Lisbonne, sont inscrits au patrimoine mondial de l’UNESCO."
+    }
+  ],
+  "aSavoir": [
+    "Le Portugal a l’une des plus anciennes frontières d’Europe : elle n’a presque pas changé depuis la fin du XIIIe siècle."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Histoire_du_Portugal",
+    "https://fr.wikipedia.org/wiki/Empire_colonial_portugais",
+    {
+      "titre": "Encyclopædia Britannica — Portugal, history",
+      "url": "https://www.britannica.com/place/Portugal/History"
+    }
+  ]
+}

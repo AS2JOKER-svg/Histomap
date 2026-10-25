@@ -1120,5 +1120,37 @@
   "Chute de Smederevo": {
     "coords": [20.93, 44.66],
     "lieu": "Smederevo (Serbie)"
+  },
+  "Guerres d’indépendance de l’Écosse": {
+    "coords": [-3.94, 56.12],
+    "lieu": "Stirling et Bannockburn (Écosse)"
+  },
+  "Bataille de Flodden": {
+    "coords": [-2.17, 55.63],
+    "lieu": "Flodden, Northumberland (Angleterre)"
+  },
+  "Sac de Rome (1527)": {
+    "coords": [12.46, 41.9],
+    "lieu": "Rome (Italie)"
+  },
+  "Prise de Rome (1870)": {
+    "coords": [12.51, 41.91],
+    "lieu": "Porta Pia, Rome (Italie)"
+  },
+  "Bataille d’Aljubarrota": {
+    "coords": [-8.92, 39.62],
+    "lieu": "Aljubarrota (Portugal)"
+  },
+  "Guerre de Restauration": {
+    "coords": [-7.2, 38.9],
+    "lieu": "Frontière luso-espagnole (Alentejo)"
+  },
+  "Guerres de Bourgogne": {
+    "coords": [6.18, 48.69],
+    "lieu": "Grandson, Morat (Suisse) et Nancy (France)"
+  },
+  "Guerre dano-suédoise (1657-1658)": {
+    "coords": [12.08, 55.64],
+    "lieu": "Détroits danois et Roskilde (Danemark)"
   }
 }

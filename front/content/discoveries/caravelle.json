@@ -1,0 +1,18 @@
+{
+  "id": "caravelle",
+  "nom": "Caravelle",
+  "domaine": "Navigation",
+  "dates": "XVe siècle",
+  "description": "Un navire léger et maniable, à voiles triangulaires, mis au point par les Portugais pour explorer les côtes de l’Afrique.",
+  "sections": [
+    {
+      "titre": "Remonter au vent",
+      "texte": "Ses voiles latines lui permettent de naviguer contre le vent, ce qui est indispensable pour revenir des côtes africaines vers le Portugal."
+    },
+    {
+      "titre": "Des navires célèbres",
+      "texte": "Deux des trois navires de Christophe Colomb, la Niña et la Pinta, étaient des caravelles."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Caravelle_(navire)"
+}

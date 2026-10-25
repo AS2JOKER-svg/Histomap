@@ -1,0 +1,19 @@
+{
+  "id": "marie-stuart",
+  "nom": "Marie Stuart",
+  "role": "Reine d’Écosse",
+  "roles": ["Reine"],
+  "dates": "1542 → 1587",
+  "naissance": 1542,
+  "mort": 1587,
+  "description": "Reine d’Écosse dès l’âge de six jours, reine de France par son mariage avec François II, elle est chassée de son royaume, emprisonnée puis exécutée en Angleterre.",
+  "reperes": [{ "label": "Règne", "valeur": "1542 → 1567" }],
+  "essentiel": [
+    "Élevée à la cour de France, elle épouse le futur François II et devient reine de France en 1559.",
+    "Revenue en Écosse en 1561, cette reine catholique doit gouverner un pays devenu protestant.",
+    "Forcée d’abdiquer en 1567, elle s’enfuit en Angleterre, où sa cousine Élisabeth Ire la fait emprisonner.",
+    "Accusée de complot, elle est exécutée en 1587 ; son fils Jacques devient pourtant roi d’Angleterre en 1603."
+  ],
+  "liens": [{ "ref": "elisabeth-ire", "relation": "Sa cousine, qui la fait exécuter" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Marie_Ire_d%27%C3%89cosse"
+}

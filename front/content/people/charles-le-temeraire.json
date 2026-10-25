@@ -1,0 +1,18 @@
+{
+  "id": "charles-le-temeraire",
+  "nom": "Charles le Téméraire",
+  "role": "Duc de Bourgogne",
+  "roles": ["Duc", "Chef de guerre"],
+  "dates": "1433 → 1477",
+  "naissance": 1433,
+  "mort": 1477,
+  "description": "Dernier grand duc de Bourgogne (1467-1477), il rêve de transformer ses terres en royaume, mais meurt au combat devant Nancy.",
+  "reperes": [{ "label": "Règne", "valeur": "1467 → 1477" }],
+  "essentiel": [
+    "Il est le grand rival du roi de France Louis XI.",
+    "Il veut relier ses terres de Bourgogne et des Pays-Bas en conquérant la Lorraine.",
+    "Il est battu par les Suisses à Grandson et à Morat en 1476.",
+    "Il est tué devant Nancy en janvier 1477 ; son corps est retrouvé dans un étang gelé."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Charles_le_T%C3%A9m%C3%A9raire"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "philippe-le-bon",
+  "nom": "Philippe le Bon",
+  "role": "Duc de Bourgogne",
+  "roles": ["Duc", "Mécène"],
+  "dates": "1396 → 1467",
+  "naissance": 1396,
+  "mort": 1467,
+  "description": "Duc de Bourgogne de 1419 à 1467, il réunit la plupart des Pays-Bas et fait de sa cour l’une des plus brillantes d’Europe.",
+  "reperes": [{ "label": "Règne", "valeur": "1419 → 1467" }],
+  "essentiel": [
+    "Après l’assassinat de son père, il s’allie aux Anglais contre le roi de France.",
+    "Ses troupes capturent Jeanne d’Arc en 1430 et la livrent aux Anglais.",
+    "Il se réconcilie avec la France au traité d’Arras (1435).",
+    "Il fonde l’ordre de la Toison d’or et protège des artistes comme Jan van Eyck."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Philippe_III_de_Bourgogne"
+}

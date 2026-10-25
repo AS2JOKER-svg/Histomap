@@ -1,0 +1,18 @@
+{
+  "id": "gamal-abdel-nasser",
+  "nom": "Gamal Abdel Nasser",
+  "role": "Président de l’Égypte",
+  "roles": ["Militaire", "Président"],
+  "dates": "1918 → 1970",
+  "naissance": 1918,
+  "mort": 1970,
+  "description": "Officier, l’un des chefs de la révolution de 1952, il dirige l’Égypte de 1954 à sa mort et devient la grande figure du nationalisme arabe.",
+  "reperes": [{ "label": "Au pouvoir", "valeur": "1954 → 1970" }],
+  "essentiel": [
+    "Il nationalise le canal de Suez en 1956 et sort renforcé de la crise qui suit.",
+    "Il fait construire le haut barrage d’Assouan avec l’aide de l’URSS.",
+    "Il réprime ses opposants, communistes comme Frères musulmans.",
+    "Après la défaite de 1967, il annonce sa démission, puis reste au pouvoir sous la pression de la foule."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Gamal_Abdel_Nasser"
+}

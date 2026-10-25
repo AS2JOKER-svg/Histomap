@@ -1,0 +1,16 @@
+{
+  "id": "jomo-kenyatta",
+  "nom": "Jomo Kenyatta",
+  "role": "Président du Kenya",
+  "roles": ["Militant", "Président"],
+  "dates": "vers 1897 → 1978",
+  "mort": 1978,
+  "description": "Militant kikuyu de la cause africaine, emprisonné par les Britanniques pendant la révolte des Mau Mau, il devient le premier dirigeant du Kenya indépendant (1963-1978).",
+  "essentiel": [
+    "Il étudie à Londres, où il publie un livre sur les Kikuyus (1938).",
+    "Accusé sans preuves solides de diriger les Mau Mau, il est emprisonné de 1953 à 1961.",
+    "Premier ministre en 1963, puis président en 1964, il gouverne jusqu’à sa mort.",
+    "Il prône la réconciliation, mais écarte ses opposants et favorise ses proches."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Jomo_Kenyatta"
+}

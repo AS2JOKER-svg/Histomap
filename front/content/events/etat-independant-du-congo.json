@@ -1,0 +1,20 @@
+{
+  "id": "etat-independant-du-congo",
+  "nom": "État indépendant du Congo",
+  "annee": 1885,
+  "fin": 1908,
+  "dates": "1885 → 1908",
+  "lieu": "Bassin du Congo",
+  "description": "État reconnu en 1885 lors de la conférence de Berlin, propriété personnelle du roi des Belges Léopold II, connu pour les violences du travail forcé lié à la récolte du caoutchouc.",
+  "sections": [
+    {
+      "titre": "Le « caoutchouc rouge »",
+      "texte": "Les villages doivent livrer des quantités de caoutchouc ; les soldats de la Force publique prennent des otages, coupent des mains et brûlent des villages. Le nombre de victimes est impossible à établir précisément, mais la population chute fortement."
+    },
+    {
+      "titre": "Le scandale",
+      "texte": "Des missionnaires, le diplomate Roger Casement et le journaliste Edmund Morel dénoncent ces crimes ; en 1908, la Belgique reprend le territoire, qui devient le Congo belge."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/%C3%89tat_ind%C3%A9pendant_du_Congo"
+}

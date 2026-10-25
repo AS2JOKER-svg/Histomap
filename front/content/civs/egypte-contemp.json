@@ -1,0 +1,314 @@
+{
+  "documentaires": [],
+  "decouvertes": ["canal-de-suez"],
+  "id": "egypte-contemp",
+  "label": "Égypte contemporaine",
+  "tier": 1,
+  "region": "egypte",
+  "period": "1805 à 2020",
+  "start": 1805,
+  "end": 2020,
+  "trackId": "egypte",
+  "row": 1,
+  "isRiver": false,
+  "capitale": "Le Caire",
+  "description": "L’Égypte modernisée par Méhémet Ali, traversée par le canal de Suez, occupée par les Britanniques, puis république de Nasser, grande puissance du monde arabe en guerre puis en paix avec Israël.",
+  "territories": ["Egypt"],
+  "reperes": {
+    "capitale": { "valeur": "Le Caire" },
+    "regimes": {
+      "valeur": "Province ottomane autonome, occupation britannique, royaume, puis république",
+      "precision": "république depuis 1953"
+    },
+    "langues": { "valeur": "Arabe" },
+    "religion": { "valeur": "Islam sunnite", "precision": "importante minorité chrétienne copte" },
+    "apogee": { "valeur": "Règne de Méhémet Ali (1805 → 1848)", "precision": "l’Égypte devient une puissance régionale" },
+    "population": { "valeur": "Environ 100 millions en 2020", "precision": "environ 4 millions vers 1800 (estimation)" },
+    "monnaie": { "valeur": "Livre égyptienne" },
+    "duree": { "valeur": "Environ 215 ans dans cette fiche" },
+    "aujourdhui": { "valeur": "Égypte" }
+  },
+  "essentiel": [
+    "En 1805, [[mehemet-ali|Méhémet Ali]], officier de l’armée ottomane, prend le pouvoir en Égypte ; il modernise l’armée, l’agriculture et l’administration, et fonde une dynastie qui règne jusqu’en 1953.",
+    "Le [[canal-de-suez|canal de Suez]], ouvert en 1869, relie la Méditerranée à la mer Rouge ; très endettée, l’Égypte passe sous le contrôle des Britanniques, qui l’occupent à partir de 1882.",
+    "Indépendante en 1922 mais toujours sous influence britannique, l’Égypte devient une république après la révolution des « officiers libres » de 1952 ; [[gamal-abdel-nasser|Gamal Abdel Nasser]] nationalise le canal de Suez en 1956.",
+    "L’Égypte affronte Israël en 1948, 1956, 1967 et 1973, puis signe avec lui un traité de paix en 1979, sous la présidence d’Anouar el-Sadate.",
+    "En 2011, d’immenses manifestations poussent Hosni Moubarak à quitter le pouvoir ; en 2013, après de grandes manifestations contre lui, le président élu Mohamed Morsi est renversé par l’armée, dont le chef, Abdel Fattah al-Sissi, devient président en 2014."
+  ],
+  "datesCles": [
+    { "annee": 1805, "evenement": "Méhémet Ali", "info": "Méhémet Ali devient gouverneur de l’Égypte." },
+    { "annee": 1869, "evenement": "Canal de Suez", "info": "Le canal est inauguré." },
+    { "annee": 1882, "evenement": "Occupation britannique", "info": "Les Britanniques occupent l’Égypte." },
+    {
+      "annee": 1922,
+      "evenement": "Indépendance",
+      "info": "Le Royaume-Uni reconnaît l’indépendance de l’Égypte, tout en y gardant des troupes."
+    },
+    { "annee": 1952, "evenement": "Révolution", "info": "Les « officiers libres » renversent le roi Farouk." },
+    { "annee": 1956, "evenement": "Crise de Suez", "info": "Nasser nationalise le canal de Suez." },
+    { "annee": 1967, "evenement": "Guerre des Six Jours", "info": "Israël prend le Sinaï à l’Égypte." },
+    { "annee": 1970, "evenement": "Haut barrage d’Assouan", "info": "Le grand barrage sur le Nil est achevé." },
+    {
+      "annee": 1979,
+      "evenement": "Paix avec Israël",
+      "info": "Traité de paix israélo-égyptien, après les accords de Camp David (1978)."
+    },
+    {
+      "annee": 2011,
+      "evenement": "Révolution",
+      "info": "Hosni Moubarak quitte le pouvoir après dix-huit jours de manifestations."
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "Méhémet Ali et les khédives",
+      "debut": 1805,
+      "fin": 1882,
+      "resume": "L’Égypte, encore théoriquement ottomane, se modernise ; le canal de Suez est creusé, mais les dettes s’accumulent.",
+      "evenements": [
+        { "annee": 1805, "evenement": "Méhémet Ali au pouvoir" },
+        { "annee": 1869, "evenement": "Ouverture du canal de Suez" },
+        { "annee": 1875, "evenement": "Vente des parts égyptiennes du canal au Royaume-Uni" }
+      ]
+    },
+    {
+      "nom": "Sous influence britannique",
+      "debut": 1882,
+      "fin": 1952,
+      "resume": "Occupation britannique, protectorat, puis royaume indépendant mais encore dominé.",
+      "evenements": [
+        { "annee": 1882, "evenement": "Occupation britannique" },
+        { "annee": 1919, "evenement": "Révolution nationaliste" },
+        { "annee": 1922, "evenement": "Indépendance" }
+      ]
+    },
+    {
+      "nom": "L’Égypte de Nasser",
+      "debut": 1952,
+      "fin": 1970,
+      "resume": "La république de Nasser nationalise le canal, se rapproche de l’URSS et devient le symbole du nationalisme arabe.",
+      "evenements": [
+        { "annee": 1952, "evenement": "Révolution des officiers libres" },
+        { "annee": 1956, "evenement": "Crise de Suez" },
+        { "annee": 1967, "evenement": "Guerre des Six Jours" }
+      ]
+    },
+    {
+      "nom": "De Sadate à Sissi",
+      "debut": 1970,
+      "fin": 2020,
+      "resume": "Guerre puis paix avec Israël, rapprochement avec les États-Unis, révolution de 2011 et retour de l’armée au pouvoir.",
+      "evenements": [
+        { "annee": 1973, "evenement": "Guerre du Kippour" },
+        { "annee": 1979, "evenement": "Paix avec Israël" },
+        { "annee": 2011, "evenement": "Révolution" },
+        { "annee": 2013, "evenement": "L’armée renverse le président Morsi" }
+      ]
+    }
+  ],
+  "regimes": [
+    {
+      "id": "khedivat",
+      "nom": "Égypte de Méhémet Ali et des khédives",
+      "debut": 1805,
+      "fin": 1882,
+      "note": "Théoriquement province de l’Empire ottoman."
+    },
+    {
+      "id": "occupation",
+      "nom": "Occupation britannique",
+      "debut": 1882,
+      "fin": 1922,
+      "note": "Protectorat britannique de 1914 à 1922."
+    },
+    { "id": "royaume", "nom": "Royaume d’Égypte", "debut": 1922, "fin": 1953 },
+    { "id": "republique", "nom": "République", "debut": 1953, "fin": 2020 }
+  ],
+  "dynasties": [
+    { "id": "mehemet-ali", "nom": "Dynastie de Méhémet Ali", "debut": 1805, "fin": 1953, "note": "Sélection." },
+    { "id": "presidents", "nom": "Présidents", "debut": 1953, "fin": 2020 }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Méhémet Ali",
+      "titre": "Gouverneur (wali) d’Égypte",
+      "debut": 1805,
+      "fin": 1848,
+      "dynastie": "mehemet-ali",
+      "personne": "mehemet-ali",
+      "cle": true
+    },
+    {
+      "nom": "Ismaïl Pacha",
+      "titre": "Khédive",
+      "debut": 1863,
+      "fin": 1879,
+      "dynastie": "mehemet-ali",
+      "note": "inaugure le canal de Suez",
+      "cle": true
+    },
+    { "nom": "Fouad Ier", "titre": "Sultan, puis roi", "debut": 1917, "fin": 1936, "dynastie": "mehemet-ali" },
+    {
+      "nom": "Farouk Ier",
+      "titre": "Roi",
+      "debut": 1936,
+      "fin": 1952,
+      "dynastie": "mehemet-ali",
+      "note": "renversé en 1952"
+    },
+    {
+      "nom": "Mohammed Naguib",
+      "titre": "Président",
+      "debut": 1953,
+      "fin": 1954,
+      "dynastie": "presidents",
+      "note": "premier président"
+    },
+    {
+      "nom": "Gamal Abdel Nasser",
+      "titre": "Président",
+      "debut": 1954,
+      "fin": 1970,
+      "dynastie": "presidents",
+      "personne": "gamal-abdel-nasser",
+      "cle": true
+    },
+    {
+      "nom": "Anouar el-Sadate",
+      "titre": "Président",
+      "debut": 1970,
+      "fin": 1981,
+      "dynastie": "presidents",
+      "note": "signe la paix avec Israël ; assassiné en 1981",
+      "cle": true
+    },
+    { "nom": "Hosni Moubarak", "titre": "Président", "debut": 1981, "fin": 2011, "dynastie": "presidents" },
+    {
+      "nom": "Mohamed Morsi",
+      "titre": "Président",
+      "debut": 2012,
+      "fin": 2013,
+      "dynastie": "presidents",
+      "note": "premier président élu après 2011, renversé par l’armée"
+    },
+    {
+      "nom": "Abdel Fattah al-Sissi",
+      "titre": "Président",
+      "debut": 2014,
+      "fin": 2020,
+      "dynastie": "presidents",
+      "note": "toujours en fonction à la fin de la période couverte (2020)"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Méhémet Ali",
+      "role": "Gouverneur d’Égypte",
+      "description": "Le fondateur de l’Égypte moderne.",
+      "dates": "1769 → 1849",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/M%C3%A9h%C3%A9met_Ali",
+      "ref": "mehemet-ali"
+    },
+    {
+      "nom": "Gamal Abdel Nasser",
+      "role": "Président",
+      "description": "Le héros du nationalisme arabe, qui nationalise le canal de Suez.",
+      "dates": "1918 → 1970",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Gamal_Abdel_Nasser",
+      "ref": "gamal-abdel-nasser"
+    },
+    {
+      "nom": "Oum Kalthoum",
+      "role": "Chanteuse",
+      "description": "La plus célèbre chanteuse du monde arabe au XXe siècle.",
+      "dates": "1898 ou 1904 → 1975",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Oum_Kalthoum"
+    },
+    {
+      "nom": "Naguib Mahfouz",
+      "role": "Écrivain",
+      "description": "Romancier du Caire, premier écrivain de langue arabe prix Nobel de littérature (1988).",
+      "dates": "1911 → 2006",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Naguib_Mahfouz"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerre anglo-égyptienne",
+      "annee": 1882,
+      "adversaires": ["Royaume-Uni"],
+      "allies": ["Armée égyptienne d’Ahmed Urabi"],
+      "morts": "Plusieurs milliers",
+      "vainqueur": "Royaume-Uni",
+      "consequences": "Après le bombardement d’Alexandrie et la bataille de Tel el-Kébir, les Britanniques occupent l’Égypte ; leurs dernières troupes ne quittent la zone du canal qu’en 1956.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_anglo-%C3%A9gyptienne_(1882)"
+    },
+    {
+      "nom": "Guerre israélo-arabe de 1948-1949",
+      "annee": 1948,
+      "adversaires": ["Israël"],
+      "allies": ["Égypte", "Transjordanie", "Syrie", "Irak", "Liban"],
+      "morts": "Environ 6 000 Israéliens et plusieurs milliers de soldats arabes, sans compter les civils palestiniens",
+      "vainqueur": "Israël",
+      "consequences": "L’Égypte garde la bande de Gaza, qu’elle administre jusqu’en 1967. La défaite discrédite la monarchie et prépare la révolution de 1952.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_isra%C3%A9lo-arabe_de_1948-1949"
+    },
+    {
+      "nom": "Crise du canal de Suez",
+      "annee": 1956,
+      "adversaires": ["Israël", "Royaume-Uni", "France"],
+      "allies": ["Égypte"],
+      "morts": "Plusieurs milliers d’Égyptiens ; environ 200 soldats israéliens, britanniques et français",
+      "vainqueur": "Égypte sur le plan politique",
+      "consequences": "Après la nationalisation du canal par Nasser, Israël, le Royaume-Uni et la France attaquent l’Égypte. Sous la pression des États-Unis et de l’URSS, ils doivent se retirer : Nasser en sort renforcé.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Crise_du_canal_de_Suez"
+    },
+    {
+      "nom": "Guerre des Six Jours",
+      "annee": 1967,
+      "adversaires": ["Israël"],
+      "allies": ["Égypte", "Syrie", "Jordanie"],
+      "morts": "Plus de 10 000 soldats égyptiens ; environ 800 Israéliens",
+      "vainqueur": "Israël",
+      "consequences": "En six jours, Israël prend le Sinaï et la bande de Gaza à l’Égypte, la Cisjordanie et Jérusalem-Est à la Jordanie, et le plateau du Golan à la Syrie. Le canal de Suez reste fermé jusqu’en 1975.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_des_Six_Jours"
+    },
+    {
+      "nom": "Guerre du Kippour",
+      "annee": 1973,
+      "adversaires": ["Israël"],
+      "allies": ["Égypte", "Syrie"],
+      "morts": "Plusieurs milliers dans chaque camp",
+      "vainqueur": "Israël sur le plan militaire",
+      "consequences": "Le 6 octobre 1973, jour de la fête juive de Kippour, l’Égypte et la Syrie attaquent par surprise ; l’armée égyptienne franchit le canal de Suez avant d’être contre-attaquée. La guerre ouvre la voie à la paix de 1979, par laquelle Israël rend le Sinaï à l’Égypte (1982).",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_du_Kippour"
+    }
+  ],
+  "sciences": "Méhémet Ali envoie des étudiants en Europe et fonde des écoles d’ingénieurs et de médecine. Le haut barrage d’Assouan, achevé en 1970, régule les crues du Nil et produit de l’électricité ; le lac qu’il crée oblige à déplacer les temples d’Abou Simbel. Le chimiste égypto-américain Ahmed Zewail reçoit le prix Nobel en 1999.",
+  "croyancesText": "La grande majorité des Égyptiens sont musulmans sunnites ; l’université al-Azhar, au Caire, est l’un des plus grands centres d’enseignement de l’islam. Une importante minorité chrétienne, les coptes, vit aussi en Égypte. Les Frères musulmans, fondés en 1928 par Hassan el-Banna, deviennent un grand mouvement politique et religieux.",
+  "diplomatie": "Nasser fait de l’Égypte la championne du nationalisme arabe : il nationalise le canal de Suez, s’unit à la Syrie de 1958 à 1961 (République arabe unie) et se rapproche de l’URSS. Sadate se tourne vers les États-Unis et signe la paix avec Israël en 1979 ; l’Égypte est alors suspendue de la Ligue arabe jusqu’en 1989.",
+  "societe": "La population, concentrée le long du Nil et dans le delta, passe d’environ 4 millions vers 1800 à 100 millions en 2020. Les Égyptiennes obtiennent le droit de vote en 1956. Le Caire devient la plus grande ville du monde arabe.",
+  "economie": "Coton, développé sous Méhémet Ali ; droits de passage du canal de Suez, tourisme, gaz naturel, argent envoyé par les Égyptiens travaillant à l’étranger.",
+  "arts": "Chansons d’Oum Kalthoum, cinéma du Caire, longtemps le plus important du monde arabe, romans de Naguib Mahfouz.",
+  "quotidien": "Les cafés populaires, les « ahwa », sont des lieux où l’on se retrouve pour boire du thé, jouer au trictrac et discuter.",
+  "heritage": [
+    {
+      "titre": "Le canal de Suez",
+      "texte": "Long d’environ 190 km, il reste l’une des routes maritimes les plus fréquentées du monde."
+    },
+    {
+      "titre": "Abou Simbel",
+      "texte": "Les temples de Ramsès II, découpés en blocs et déplacés dans les années 1960 pour échapper aux eaux du lac de barrage, symbolisent la coopération internationale menée par l’UNESCO."
+    }
+  ],
+  "aSavoir": [
+    "Lors des concerts mensuels d’Oum Kalthoum diffusés à la radio, on raconte que les rues du Caire se vidaient."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Histoire_de_l%27%C3%89gypte",
+    {
+      "titre": "Encyclopædia Britannica — Egypt, History",
+      "url": "https://www.britannica.com/place/Egypt/History"
+    }
+  ]
+}

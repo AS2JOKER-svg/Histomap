@@ -1,0 +1,20 @@
+{
+  "id": "guerre-du-biafra",
+  "nom": "Guerre du Biafra",
+  "annee": 1967,
+  "fin": 1970,
+  "dates": "1967 → 1970",
+  "lieu": "Sud-est du Nigeria",
+  "description": "Guerre civile provoquée par la sécession du sud-est du Nigeria, peuplé surtout d’Igbos, sous le nom de République du Biafra ; elle se termine par la défaite du Biafra.",
+  "sections": [
+    {
+      "titre": "Les causes",
+      "texte": "Après les coups d’État de 1966, des massacres d’Igbos dans le nord poussent des centaines de milliers d’entre eux à fuir vers le sud-est, qui proclame son indépendance en mai 1967."
+    },
+    {
+      "titre": "La famine",
+      "texte": "Encerclé, le Biafra est privé de nourriture ; la famine tue des centaines de milliers de personnes, surtout des enfants. Des ponts aériens humanitaires tentent de secourir la population."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_du_Biafra"
+}

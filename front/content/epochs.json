@@ -376,8 +376,13 @@
         "label": "Afrique",
         "civs": [
           "ethiopie-contemp",
+          "egypte-contemp",
+          "algerie",
           "dahomey",
           "califat-de-sokoto",
+          "nigeria",
+          "rd-congo",
+          "kenya",
           "royaume-zoulou",
           "empire-wassoulou",
           "afrique-sud"

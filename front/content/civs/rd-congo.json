@@ -1,0 +1,278 @@
+{
+  "documentaires": [],
+  "decouvertes": [],
+  "id": "rd-congo",
+  "label": "RD Congo",
+  "tier": 1,
+  "region": "afrique-centrale",
+  "period": "1885 à 2020",
+  "start": 1885,
+  "end": 2020,
+  "trackId": "afrique_centrale",
+  "row": 3,
+  "isRiver": false,
+  "capitale": "Kinshasa",
+  "color": "#0288d1",
+  "description": "Le pays du bassin du Congo, propriété personnelle du roi des Belges Léopold II, puis colonie belge, indépendant en 1960, marqué par la dictature de Mobutu et par des guerres très meurtrières.",
+  "territories": ["Belgian Congo", "Zaire", "Zaire (Belgium)"],
+  "reperes": {
+    "capitale": { "valeur": "Kinshasa", "precision": "Boma, puis Léopoldville (choisie en 1923), rebaptisée Kinshasa en 1966" },
+    "regimes": {
+      "valeur": "Possession de Léopold II, colonie belge, puis république",
+      "precision": "dictature de Mobutu de 1965 à 1997"
+    },
+    "langues": { "valeur": "Français (officiel), lingala, swahili, kikongo, tshiluba", "precision": "plus de 200 langues" },
+    "religion": {
+      "valeur": "Christianisme",
+      "precision": "surtout catholique ; nombreuses Églises protestantes et kimbanguiste"
+    },
+    "population": { "valeur": "Environ 90 millions en 2020", "precision": "estimation" },
+    "monnaie": { "valeur": "Franc congolais", "precision": "zaïre de 1967 à 1997" },
+    "duree": { "valeur": "Environ 135 ans dans cette fiche" },
+    "aujourdhui": { "valeur": "République démocratique du Congo", "precision": "le deuxième plus grand pays d’Afrique" }
+  },
+  "essentiel": [
+    "En 1885, le roi des Belges Léopold II fait reconnaître par les puissances européennes l’[[etat-independant-du-congo|État indépendant du Congo]], dont il est le propriétaire personnel.",
+    "Pour récolter le caoutchouc, ses agents imposent le travail forcé, avec prises d’otages, mutilations et massacres ; la population chute fortement. Un scandale international pousse la Belgique à reprendre le territoire en 1908 : c’est le Congo belge.",
+    "Indépendant le 30 juin 1960, le pays plonge aussitôt dans la crise : sécession du Katanga et assassinat du Premier ministre [[patrice-lumumba|Patrice Lumumba]] en janvier 1961.",
+    "En 1965, Mobutu prend le pouvoir ; il rebaptise le pays Zaïre en 1971 et le gouverne en dictateur jusqu’en 1997.",
+    "Après le génocide des Tutsi au Rwanda (1994), deux guerres (1996-1997 et 1998-2003) entraînent les armées de plusieurs pays africains ; avec les famines et les épidémies, elles font plusieurs millions de morts selon les estimations, et des groupes armés restent actifs dans l’est."
+  ],
+  "datesCles": [
+    {
+      "annee": 1885,
+      "evenement": "État indépendant du Congo",
+      "info": "Léopold II devient le souverain du Congo.",
+      "ref": "etat-independant-du-congo"
+    },
+    { "annee": 1908, "evenement": "Congo belge", "info": "La Belgique reprend le Congo à son roi." },
+    { "annee": 1960, "evenement": "Indépendance", "info": "Le 30 juin, le Congo devient indépendant." },
+    { "annee": 1961, "evenement": "Assassinat de Lumumba", "info": "Le Premier ministre déchu est tué au Katanga." },
+    { "annee": 1965, "evenement": "Coup d’État de Mobutu", "info": "Mobutu prend le pouvoir." },
+    { "annee": 1971, "evenement": "Zaïre", "info": "Le pays est rebaptisé Zaïre." },
+    {
+      "annee": 1997,
+      "evenement": "Chute de Mobutu",
+      "info": "Laurent-Désiré Kabila prend Kinshasa ; le pays redevient la RD Congo."
+    },
+    {
+      "annee": 1998,
+      "evenement": "Deuxième guerre du Congo",
+      "info": "Une guerre impliquant neuf pays africains commence."
+    },
+    { "annee": 2006, "evenement": "Élections", "info": "Premières élections pluralistes depuis 1960." },
+    { "annee": 2019, "evenement": "Alternance", "info": "Félix Tshisekedi succède à Joseph Kabila." }
+  ],
+  "periodes": [
+    {
+      "nom": "L’État de Léopold II",
+      "debut": 1885,
+      "fin": 1908,
+      "resume": "Le roi exploite le pays comme une propriété privée ; le travail forcé pour le caoutchouc fait d’innombrables victimes.",
+      "evenements": [
+        { "annee": 1885, "evenement": "Conférence de Berlin", "ref": "etat-independant-du-congo" },
+        { "annee": 1904, "evenement": "Rapport Casement sur les violences" }
+      ]
+    },
+    {
+      "nom": "Le Congo belge",
+      "debut": 1908,
+      "fin": 1960,
+      "resume": "La Belgique administre le pays avec les compagnies minières et les missions.",
+      "evenements": [
+        { "annee": 1908, "evenement": "Congo belge" },
+        { "annee": 1921, "evenement": "Prédication de Simon Kimbangu" },
+        { "annee": 1959, "evenement": "Émeutes de Léopoldville" }
+      ]
+    },
+    {
+      "nom": "Crises et dictature",
+      "debut": 1960,
+      "fin": 1997,
+      "resume": "Indépendance chaotique, puis trente-deux ans de dictature de Mobutu.",
+      "evenements": [
+        { "annee": 1960, "evenement": "Indépendance" },
+        { "annee": 1965, "evenement": "Coup d’État de Mobutu" },
+        { "annee": 1971, "evenement": "Le Congo devient le Zaïre" }
+      ]
+    },
+    {
+      "nom": "Guerres et reconstruction",
+      "debut": 1997,
+      "fin": 2020,
+      "resume": "Deux guerres, puis une paix fragile ; l’est reste instable.",
+      "evenements": [
+        { "annee": 1997, "evenement": "Chute de Mobutu" },
+        { "annee": 1998, "evenement": "Deuxième guerre du Congo" },
+        { "annee": 2006, "evenement": "Élections pluralistes" }
+      ]
+    }
+  ],
+  "regimes": [
+    {
+      "id": "eic",
+      "nom": "État indépendant du Congo",
+      "debut": 1885,
+      "fin": 1908,
+      "note": "Propriété personnelle du roi Léopold II."
+    },
+    { "id": "colonie", "nom": "Congo belge", "debut": 1908, "fin": 1960 },
+    { "id": "republique", "nom": "République du Congo", "debut": 1960, "fin": 1965 },
+    {
+      "id": "mobutu",
+      "nom": "Dictature de Mobutu",
+      "debut": 1965,
+      "fin": 1997,
+      "note": "Le pays s’appelle Zaïre de 1971 à 1997."
+    },
+    { "id": "rdc", "nom": "République démocratique du Congo", "debut": 1997, "fin": 2020 }
+  ],
+  "dynasties": [
+    { "id": "souverain", "nom": "Le souverain de l’État indépendant", "debut": 1885, "fin": 1908 },
+    { "id": "chefs", "nom": "Chefs de l’État et de gouvernement", "debut": 1960, "fin": 2020 }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Léopold II",
+      "titre": "Roi des Belges, souverain de l’État indépendant du Congo",
+      "debut": 1885,
+      "fin": 1908,
+      "dynastie": "souverain",
+      "cle": true
+    },
+    {
+      "nom": "Joseph Kasa-Vubu",
+      "titre": "Président",
+      "debut": 1960,
+      "fin": 1965,
+      "dynastie": "chefs",
+      "note": "premier président",
+      "cle": true
+    },
+    {
+      "nom": "Patrice Lumumba",
+      "titre": "Premier ministre",
+      "debut": 1960,
+      "fin": 1960,
+      "dynastie": "chefs",
+      "note": "renversé, puis assassiné en janvier 1961",
+      "personne": "patrice-lumumba"
+    },
+    { "nom": "Mobutu Sese Seko", "titre": "Président", "debut": 1965, "fin": 1997, "dynastie": "chefs", "cle": true },
+    {
+      "nom": "Laurent-Désiré Kabila",
+      "titre": "Président",
+      "debut": 1997,
+      "fin": 2001,
+      "dynastie": "chefs",
+      "note": "assassiné en 2001",
+      "cle": true
+    },
+    {
+      "nom": "Joseph Kabila",
+      "titre": "Président",
+      "debut": 2001,
+      "fin": 2019,
+      "dynastie": "chefs",
+      "note": "fils de Laurent-Désiré Kabila"
+    },
+    {
+      "nom": "Félix Tshisekedi",
+      "titre": "Président",
+      "debut": 2019,
+      "fin": 2020,
+      "dynastie": "chefs",
+      "note": "toujours en fonction à la fin de la période couverte (2020)"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Patrice Lumumba",
+      "role": "Premier ministre",
+      "description": "Le héros de l’indépendance, assassiné en 1961.",
+      "dates": "1925 → 1961",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Patrice_Lumumba",
+      "ref": "patrice-lumumba"
+    },
+    {
+      "nom": "Simon Kimbangu",
+      "role": "Prophète",
+      "description": "Prédicateur chrétien emprisonné par les Belges de 1921 à sa mort ; son Église compte aujourd’hui des millions de fidèles.",
+      "dates": "vers 1887 → 1951",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Simon_Kimbangu"
+    },
+    {
+      "nom": "Denis Mukwege",
+      "role": "Médecin",
+      "description": "Gynécologue qui soigne les victimes de violences sexuelles dans l’est du pays, prix Nobel de la paix en 2018.",
+      "dates": "né en 1955",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Denis_Mukwege"
+    },
+    {
+      "nom": "Papa Wemba",
+      "role": "Chanteur",
+      "description": "Grande star de la rumba congolaise, figure de la « sape ».",
+      "dates": "1949 → 2016",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Papa_Wemba"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Crise congolaise",
+      "annee": 1960,
+      "adversaires": ["Sécessions du Katanga et du Sud-Kasaï", "Rébellions (1964-1965)"],
+      "allies": ["Gouvernement congolais", "Casques bleus de l’ONU"],
+      "morts": "Environ 100 000",
+      "vainqueur": "Gouvernement central",
+      "consequences": "Soutenue par des intérêts miniers et des mercenaires, la sécession du Katanga dure jusqu’en 1963. Le secrétaire général de l’ONU, Dag Hammarskjöld, meurt en 1961 dans le crash de son avion, aux circonstances toujours discutées. La crise se termine par le coup d’État de Mobutu (1965).",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Crise_congolaise"
+    },
+    {
+      "nom": "Première guerre du Congo",
+      "annee": 1996,
+      "adversaires": ["Régime de Mobutu"],
+      "allies": ["Rébellion de Laurent-Désiré Kabila (AFDL)", "Rwanda", "Ouganda"],
+      "morts": "Inconnues ; de nombreux réfugiés hutus rwandais sont tués",
+      "vainqueur": "Rébellion de Kabila et ses alliés",
+      "consequences": "Les rebelles traversent le pays en sept mois ; Mobutu s’enfuit en mai 1997 et le Zaïre redevient la République démocratique du Congo.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Premi%C3%A8re_guerre_du_Congo"
+    },
+    {
+      "nom": "Deuxième guerre du Congo",
+      "annee": 1998,
+      "adversaires": ["Rwanda", "Ouganda", "Burundi", "Rébellions congolaises"],
+      "allies": ["Gouvernement congolais (Kabila)", "Angola", "Zimbabwe", "Namibie"],
+      "morts": "Plusieurs millions selon les estimations, surtout de faim et de maladie",
+      "vainqueur": "Aucun (accords de paix de 2002-2003)",
+      "consequences": "Surnommée la « guerre mondiale africaine », elle implique neuf pays et des dizaines de groupes armés, qui se disputent aussi les richesses minières. Les violences contre les civils, dont les violences sexuelles, sont massives ; dans l’est, des groupes armés restent actifs après 2003.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Deuxi%C3%A8me_guerre_du_Congo"
+    }
+  ],
+  "sciences": "En 1959, le premier réacteur nucléaire de recherche d’Afrique est installé à l’université Lovanium de Léopoldville. En 1976, le virus Ebola est identifié après une épidémie près de la rivière Ebola, dans le nord du pays ; le médecin congolais Jean-Jacques Muyembe, qui avait étudié les premiers cas, participe plus tard à la mise au point d’un traitement efficace.",
+  "croyancesText": "Les missionnaires catholiques et protestants christianisent largement le pays pendant la colonisation ; l’Église catholique devient une force majeure, qui s’oppose à plusieurs reprises au pouvoir. Le prophète Simon Kimbangu fonde dans les années 1920 un mouvement chrétien africain, persécuté par les autorités belges. Les religions traditionnelles restent présentes.",
+  "diplomatie": "Pendant la guerre froide, Mobutu est soutenu par les États-Unis, la France et la Belgique, qui voient en lui un rempart contre le communisme. Après 1996, le pays devient le champ de bataille des armées de ses voisins. Depuis 1999, l’ONU y déploie l’une de ses plus grandes missions de maintien de la paix.",
+  "societe": "Sous la colonisation, l’administration, les grandes compagnies et les missions encadrent étroitement la population ; à l’indépendance, le pays ne compte qu’une poignée de diplômés universitaires congolais. Kinshasa est aujourd’hui la plus grande ville francophone du monde.",
+  "economie": "Caoutchouc et ivoire sous Léopold II, puis cuivre, cobalt, diamants et or ; le pays produit la plus grande partie du cobalt mondial, indispensable aux batteries, mais sa population reste parmi les plus pauvres du monde.",
+  "arts": "Rumba congolaise (Franco, Papa Wemba), inscrite au patrimoine culturel immatériel de l’UNESCO en 2021 ; masques et sculptures kuba, luba et songye ; peinture populaire de Chéri Samba.",
+  "quotidien": "À Kinshasa, les « sapeurs », adeptes de la sape, rivalisent d’élégance en défilant dans des vêtements recherchés.",
+  "heritage": [
+    {
+      "titre": "La rumba congolaise",
+      "texte": "Née à Léopoldville et à Brazzaville dans les années 1940, elle a fait danser toute l’Afrique."
+    },
+    {
+      "titre": "Le parc des Virunga",
+      "texte": "Créé en 1925, c’est le plus ancien parc national d’Afrique ; il abrite des gorilles de montagne."
+    }
+  ],
+  "aSavoir": [
+    "Le 30 juin 1960, jour de l’indépendance, Patrice Lumumba prononce devant le roi des Belges un discours qui dénonce les humiliations de la colonisation."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Histoire_de_la_r%C3%A9publique_d%C3%A9mocratique_du_Congo",
+    {
+      "titre": "Encyclopædia Britannica — Democratic Republic of the Congo, History",
+      "url": "https://www.britannica.com/place/Democratic-Republic-of-the-Congo/History"
+    }
+  ]
+}

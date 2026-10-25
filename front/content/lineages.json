@@ -269,5 +269,15 @@
       "danemark-norvege",
       "pays-nordiques"
     ]
+  },
+  {
+    "id": "egypte",
+    "label": "Égypte",
+    "color": "#e6c229",
+    "members": [
+      "egypte",
+      "mamelouks",
+      "egypte-contemp"
+    ]
   }
 ]

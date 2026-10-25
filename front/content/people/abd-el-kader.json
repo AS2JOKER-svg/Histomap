@@ -1,0 +1,18 @@
+{
+  "id": "abd-el-kader",
+  "nom": "Abd el-Kader",
+  "role": "Émir et chef de la résistance algérienne",
+  "roles": ["Chef religieux", "Chef de guerre", "Écrivain"],
+  "dates": "1808 → 1883",
+  "naissance": 1808,
+  "mort": 1883,
+  "description": "Issu d’une famille de lettrés soufis, il est proclamé émir en 1832, organise un État et mène pendant quinze ans la résistance à la conquête française.",
+  "reperes": [{ "label": "Émir", "valeur": "1832 → 1847" }],
+  "essentiel": [
+    "Il signe avec la France le traité de la Tafna (1837), qui lui reconnaît une grande partie de l’intérieur du pays.",
+    "Il reprend la guerre en 1839 et se rend en 1847.",
+    "Retenu prisonnier en France jusqu’en 1852, il s’installe ensuite à Damas.",
+    "En 1860, il protège des milliers de chrétiens lors de massacres à Damas."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Abd_el-Kader"
+}

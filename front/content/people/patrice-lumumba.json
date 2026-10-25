@@ -1,0 +1,17 @@
+{
+  "id": "patrice-lumumba",
+  "nom": "Patrice Lumumba",
+  "role": "Premier ministre du Congo",
+  "roles": ["Homme politique"],
+  "dates": "1925 → 1961",
+  "naissance": 1925,
+  "mort": 1961,
+  "description": "Fondateur du Mouvement national congolais, il devient en 1960 le premier Premier ministre du Congo indépendant ; renversé, il est assassiné au Katanga en janvier 1961.",
+  "essentiel": [
+    "Il prononce le 30 juin 1960 un discours célèbre contre la colonisation.",
+    "Face à la sécession du Katanga, il demande l’aide de l’ONU, puis de l’URSS.",
+    "Destitué en septembre 1960, il est arrêté et livré aux sécessionnistes katangais.",
+    "Il est exécuté le 17 janvier 1961, avec la participation de responsables katangais et belges ; la Belgique a reconnu en 2002 une « responsabilité morale »."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Patrice_Lumumba"
+}

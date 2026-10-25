@@ -35,7 +35,8 @@
     "color": "#4a90d9",
     "members": [
       "minoen-mycenien",
-      "grece"
+      "grece",
+      "grece-moderne"
     ]
   },
   {
@@ -134,7 +135,8 @@
     "members": [
       "wisigoths",
       "reconquista-royaumes",
-      "espagne"
+      "espagne",
+      "espagne-contemp"
     ]
   },
   {
@@ -237,7 +239,8 @@
     "color": "#880e4f",
     "members": [
       "pologne-piast",
-      "pologne-lituanie"
+      "pologne-lituanie",
+      "pologne-contemp"
     ]
   },
   {
@@ -247,6 +250,24 @@
     "members": [
       "monarchie-habsbourg",
       "autriche-hongrie"
+    ]
+  },
+  {
+    "id": "ukraine",
+    "label": "Ukraine",
+    "color": "#5c6bc0",
+    "members": [
+      "hetmanat-cosaque",
+      "ukraine"
+    ]
+  },
+  {
+    "id": "scandinavie",
+    "label": "Scandinavie",
+    "color": "#00838f",
+    "members": [
+      "danemark-norvege",
+      "pays-nordiques"
     ]
   }
 ]

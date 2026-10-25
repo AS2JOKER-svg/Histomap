@@ -1,0 +1,16 @@
+{
+  "id": "lech-walesa",
+  "nom": "Lech Wałęsa",
+  "role": "Syndicaliste et président polonais",
+  "roles": ["Syndicaliste", "Président"],
+  "dates": "né en 1943",
+  "naissance": 1943,
+  "description": "Électricien des chantiers navals de Gdańsk, il dirige le syndicat Solidarność, qui défie le régime communiste, puis devient président de la Pologne de 1990 à 1995.",
+  "essentiel": [
+    "Il mène les grèves de Gdańsk en août 1980.",
+    "Interné près d’un an après la proclamation de l’état de guerre (1981), il reçoit le prix Nobel de la paix en 1983.",
+    "Il participe aux négociations de 1989 qui mettent fin au régime communiste.",
+    "Il est élu président au suffrage universel en 1990."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Lech_Wa%C5%82%C4%99sa"
+}

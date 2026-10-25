@@ -1,0 +1,320 @@
+{
+  "documentaires": [],
+  "decouvertes": [],
+  "id": "espagne-contemp",
+  "label": "Espagne contemporaine",
+  "tier": 2,
+  "region": "peninsule-iberique",
+  "period": "1808 à 2020",
+  "start": 1808,
+  "end": 2020,
+  "trackId": "espagne",
+  "row": 1,
+  "isRiver": false,
+  "capitale": "Madrid",
+  "description": "De l’invasion napoléonienne à la démocratie : l’Espagne perd son empire américain, traverse une guerre civile et la dictature de Franco, puis devient une monarchie parlementaire membre de l’Union européenne.",
+  "territories": ["Spain"],
+  "reperes": {
+    "capitale": { "valeur": "Madrid" },
+    "regimes": {
+      "valeur": "Monarchie, républiques, dictature, puis monarchie parlementaire",
+      "precision": "deux républiques (1873-1874 et 1931-1939), dictature de Franco (1939-1975), monarchie parlementaire depuis 1978"
+    },
+    "langues": {
+      "valeur": "Espagnol (castillan)",
+      "precision": "le catalan, le basque et le galicien sont officiels dans leurs régions"
+    },
+    "religion": { "valeur": "Catholicisme", "precision": "plus de religion officielle depuis 1978" },
+    "apogee": { "valeur": "Années 1980-2000", "precision": "démocratie, entrée dans l’Europe (1986) et forte croissance" },
+    "population": { "valeur": "Environ 47 millions en 2020", "precision": "environ 11 millions vers 1800" },
+    "monnaie": { "valeur": "Peseta (1868), puis euro (2002)" },
+    "duree": { "valeur": "Environ 210 ans dans cette fiche" },
+    "aujourdhui": { "valeur": "Espagne" }
+  },
+  "essentiel": [
+    "En 1808, Napoléon impose son frère Joseph sur le trône d’Espagne ; le soulèvement de Madrid, le 2 mai, lance une longue guerre d’indépendance.",
+    "De 1810 à 1825 environ, l’Espagne perd presque toute son Amérique ; en 1898, la guerre contre les États-Unis lui enlève Cuba, Porto Rico et les Philippines.",
+    "Le XIXe siècle est instable : guerres carlistes entre partisans de deux branches de la famille royale, coups d’État militaires, Première République (1873-1874).",
+    "La Seconde République, proclamée en 1931, est renversée à l’issue de la [[guerre-civile-espagnole|guerre civile]] (1936-1939), gagnée par le général [[francisco-franco|Franco]], qui gouverne en dictateur jusqu’à sa mort en 1975.",
+    "Le roi Juan Carlos Ier accompagne la transition vers la démocratie : Constitution de 1978, entrée dans la Communauté européenne en 1986."
+  ],
+  "datesCles": [
+    {
+      "annee": 1808,
+      "evenement": "Dos de Mayo",
+      "info": "Le 2 mai, Madrid se soulève contre les troupes françaises."
+    },
+    {
+      "annee": 1812,
+      "evenement": "Constitution de Cadix",
+      "info": "Première constitution espagnole, libérale, votée pendant la guerre."
+    },
+    {
+      "annee": 1824,
+      "evenement": "Bataille d’Ayacucho",
+      "info": "Défaite décisive des troupes espagnoles en Amérique du Sud."
+    },
+    {
+      "annee": 1898,
+      "evenement": "Guerre hispano-américaine",
+      "info": "L’Espagne perd Cuba, Porto Rico et les Philippines."
+    },
+    {
+      "annee": 1931,
+      "evenement": "Seconde République",
+      "info": "Le roi Alphonse XIII quitte le pays ; la République est proclamée."
+    },
+    {
+      "annee": 1936,
+      "evenement": "Guerre civile",
+      "info": "Un soulèvement militaire contre la République déclenche la guerre civile.",
+      "ref": "guerre-civile-espagnole"
+    },
+    { "annee": 1975, "evenement": "Mort de Franco", "info": "Juan Carlos Ier devient roi." },
+    {
+      "annee": 1978,
+      "evenement": "Constitution",
+      "info": "L’Espagne devient une monarchie parlementaire démocratique."
+    },
+    {
+      "annee": 1986,
+      "evenement": "Communauté européenne",
+      "info": "L’Espagne et le Portugal entrent dans la Communauté européenne."
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "Guerres et perte de l’empire",
+      "debut": 1808,
+      "fin": 1874,
+      "resume": "Guerre contre Napoléon, indépendance de l’Amérique espagnole, guerres carlistes et révolutions.",
+      "evenements": [
+        { "annee": 1808, "evenement": "Dos de Mayo" },
+        { "annee": 1812, "evenement": "Constitution de Cadix" },
+        { "annee": 1833, "evenement": "Première guerre carliste" },
+        { "annee": 1873, "evenement": "Première République" }
+      ]
+    },
+    {
+      "nom": "Restauration et crises",
+      "debut": 1874,
+      "fin": 1936,
+      "resume": "Les Bourbons reviennent sur le trône ; après le désastre de 1898 et la dictature de Primo de Rivera, la Seconde République est proclamée.",
+      "evenements": [
+        { "annee": 1874, "evenement": "Restauration des Bourbons" },
+        { "annee": 1898, "evenement": "Perte de Cuba et des Philippines" },
+        { "annee": 1923, "evenement": "Dictature de Primo de Rivera" },
+        { "annee": 1931, "evenement": "Seconde République" }
+      ]
+    },
+    {
+      "nom": "Guerre civile et franquisme",
+      "debut": 1936,
+      "fin": 1975,
+      "resume": "Vainqueur de la guerre civile, Franco impose une dictature ; à partir des années 1960, le pays s’industrialise et s’ouvre au tourisme.",
+      "evenements": [
+        { "annee": 1936, "evenement": "Début de la guerre civile", "ref": "guerre-civile-espagnole" },
+        { "annee": 1939, "evenement": "Victoire de Franco" },
+        { "annee": 1953, "evenement": "Accords avec les États-Unis" }
+      ]
+    },
+    {
+      "nom": "La démocratie",
+      "debut": 1975,
+      "fin": 2020,
+      "resume": "Transition démocratique, autonomie des régions et intégration européenne.",
+      "evenements": [
+        { "annee": 1978, "evenement": "Constitution démocratique" },
+        { "annee": 1981, "evenement": "Échec d’une tentative de coup d’État" },
+        { "annee": 1986, "evenement": "Entrée dans la Communauté européenne" },
+        { "annee": 1992, "evenement": "Jeux olympiques de Barcelone" }
+      ]
+    }
+  ],
+  "regimes": [
+    {
+      "id": "monarchie",
+      "nom": "Monarchie",
+      "debut": 1808,
+      "fin": 1873,
+      "note": "Joseph Bonaparte est imposé par Napoléon de 1808 à 1813 ; gouvernement provisoire (1868-1870), puis roi Amédée de Savoie (1870-1873)."
+    },
+    { "id": "republique1", "nom": "Première République", "debut": 1873, "fin": 1874 },
+    {
+      "id": "restauration",
+      "nom": "Monarchie (Restauration)",
+      "debut": 1874,
+      "fin": 1931,
+      "note": "Dictature du général Primo de Rivera de 1923 à 1930."
+    },
+    { "id": "republique2", "nom": "Seconde République", "debut": 1931, "fin": 1939 },
+    { "id": "franquisme", "nom": "Dictature de Franco", "debut": 1939, "fin": 1975 },
+    { "id": "monarchie-parlementaire", "nom": "Monarchie parlementaire", "debut": 1975, "fin": 2020 }
+  ],
+  "dynasties": [
+    {
+      "id": "bourbons",
+      "nom": "Les rois (Bourbons)",
+      "debut": 1814,
+      "fin": 2020,
+      "note": "Sélection ; pas de Bourbon sur le trône de 1868 à 1874 ni de 1931 à 1975."
+    },
+    { "id": "chefs", "nom": "Chefs de l’État et de gouvernement", "debut": 1936, "fin": 1996, "note": "Sélection." }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Ferdinand VII",
+      "titre": "Roi",
+      "debut": 1814,
+      "fin": 1833,
+      "dynastie": "bourbons",
+      "note": "revient sur le trône après le départ des Français",
+      "cle": true
+    },
+    {
+      "nom": "Isabelle II",
+      "titre": "Reine",
+      "debut": 1833,
+      "fin": 1868,
+      "dynastie": "bourbons",
+      "note": "renversée par une révolution",
+      "cle": true
+    },
+    {
+      "nom": "Alphonse XIII",
+      "titre": "Roi",
+      "debut": 1886,
+      "fin": 1931,
+      "dynastie": "bourbons",
+      "note": "quitte l’Espagne en 1931",
+      "cle": true
+    },
+    { "nom": "Manuel Azaña", "titre": "Président de la République", "debut": 1936, "fin": 1939, "dynastie": "chefs" },
+    {
+      "nom": "Francisco Franco",
+      "titre": "Chef de l’État",
+      "debut": 1939,
+      "fin": 1975,
+      "dynastie": "chefs",
+      "note": "chef du camp nationaliste dès 1936",
+      "personne": "francisco-franco",
+      "cle": true
+    },
+    {
+      "nom": "Juan Carlos Ier",
+      "titre": "Roi",
+      "debut": 1975,
+      "fin": 2014,
+      "dynastie": "bourbons",
+      "note": "accompagne la transition démocratique",
+      "cle": true
+    },
+    {
+      "nom": "Adolfo Suárez",
+      "titre": "Président du gouvernement",
+      "debut": 1976,
+      "fin": 1981,
+      "dynastie": "chefs",
+      "note": "conduit la transition"
+    },
+    { "nom": "Felipe González", "titre": "Président du gouvernement", "debut": 1982, "fin": 1996, "dynastie": "chefs" },
+    {
+      "nom": "Philippe VI",
+      "titre": "Roi",
+      "debut": 2014,
+      "fin": 2020,
+      "dynastie": "bourbons",
+      "note": "toujours roi à la fin de la période couverte (2020)"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Francisco Franco",
+      "role": "Dictateur",
+      "description": "Général vainqueur de la guerre civile, il gouverne l’Espagne de 1939 à 1975.",
+      "dates": "1892 → 1975",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Francisco_Franco",
+      "ref": "francisco-franco"
+    },
+    {
+      "nom": "Francisco de Goya",
+      "role": "Peintre",
+      "description": "Il peint les violences de la guerre contre Napoléon, comme Tres de mayo (1814).",
+      "dates": "1746 → 1828",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Francisco_de_Goya"
+    },
+    {
+      "nom": "Pablo Picasso",
+      "role": "Peintre",
+      "description": "Cofondateur du cubisme, il peint Guernica (1937) après le bombardement de la ville.",
+      "dates": "1881 → 1973",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Pablo_Picasso"
+    },
+    {
+      "nom": "Federico García Lorca",
+      "role": "Poète et dramaturge",
+      "description": "Grand poète andalou, il est fusillé par des nationalistes au début de la guerre civile.",
+      "dates": "1898 → 1936",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Federico_Garc%C3%ADa_Lorca"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerre d’indépendance espagnole",
+      "annee": 1808,
+      "adversaires": ["Empire français (Napoléon)"],
+      "allies": ["Royaume-Uni (Wellington)", "Portugal"],
+      "morts": "Plusieurs centaines de milliers, civils compris",
+      "vainqueur": "Espagne et ses alliés",
+      "consequences": "Des guérillas harcèlent l’armée française ; avec l’aide britannique, les Espagnols chassent les Français en 1813-1814. Le mot « guérilla » (« petite guerre ») vient de ce conflit.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_d%27ind%C3%A9pendance_espagnole"
+    },
+    {
+      "nom": "Guerre hispano-américaine",
+      "annee": 1898,
+      "adversaires": ["États-Unis"],
+      "allies": [],
+      "morts": "Plusieurs milliers, surtout de maladies",
+      "vainqueur": "États-Unis",
+      "consequences": "L’Espagne perd Cuba, qui devient indépendante sous tutelle américaine, et cède Porto Rico, Guam et les Philippines aux États-Unis. En Espagne, on parle du « désastre de 98 ».",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_hispano-am%C3%A9ricaine"
+    },
+    {
+      "nom": "Guerre civile espagnole",
+      "annee": 1936,
+      "adversaires": ["Camp nationaliste (général Franco), aidé par l’Allemagne et l’Italie"],
+      "allies": ["Camp républicain, aidé par l’URSS et les Brigades internationales"],
+      "morts": "Plusieurs centaines de milliers, répressions des deux camps comprises",
+      "vainqueur": "Camp nationaliste (Franco)",
+      "consequences": "Franco instaure une dictature qui dure jusqu’en 1975 ; des centaines de milliers d’Espagnols s’exilent, notamment en France en 1939. Le bombardement de Guernica (1937) par l’aviation allemande inspire le tableau de Picasso.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_d%27Espagne"
+    }
+  ],
+  "sciences": "Le médecin Santiago Ramón y Cajal, prix Nobel en 1906, montre que le système nerveux est formé de cellules distinctes, les neurones. L’ingénieur Narciso Monturiol met à l’eau en 1859 l’Ictíneo, l’un des premiers sous-marins, et Isaac Peral lance en 1888 un sous-marin électrique.",
+  "croyancesText": "Le catholicisme est religion d’État pendant la plus grande partie de la période. La Seconde République sépare l’Église et l’État ; au début de la guerre civile, des milliers de prêtres et de religieux sont tués dans la zone républicaine, et l’Église soutient en majorité le camp de Franco, qui fait du catholicisme un pilier de son régime. Depuis la Constitution de 1978, l’Espagne n’a plus de religion officielle.",
+  "diplomatie": "Restée hors des deux guerres mondiales, l’Espagne de Franco envoie toutefois une division de volontaires, la « División Azul », combattre aux côtés de l’Allemagne contre l’URSS. Longtemps isolée après 1945, elle signe en 1953 des accords avec les États-Unis. Devenue démocratique, elle entre dans l’OTAN en 1982 et dans la Communauté européenne en 1986.",
+  "societe": "Au XIXe siècle, l’Espagne reste un pays surtout rural, où de grands propriétaires possèdent d’immenses domaines dans le sud. À partir des années 1960, l’exode rural et l’industrialisation transforment le pays ; la démocratie accorde une large autonomie aux régions, comme la Catalogne et le Pays basque.",
+  "economie": "Agriculture (huile d’olive, vin, agrumes), industrie en Catalogne et au Pays basque, puis tourisme de masse à partir des années 1960.",
+  "arts": "Peintures de Goya, de Picasso, de Dalí et de Miró ; architecture de Gaudí à Barcelone ; flamenco.",
+  "quotidien": "Dans les années 1960, l’arrivée de millions de touristes transforme les côtes méditerranéennes, qui se couvrent d’hôtels.",
+  "heritage": [
+    {
+      "titre": "La Sagrada Família",
+      "texte": "Commencée en 1882 à Barcelone, la basilique à laquelle Antoni Gaudí a consacré plus de quarante ans de sa vie est toujours en construction."
+    },
+    {
+      "titre": "Le mot « guérilla »",
+      "texte": "Il vient de la guerre contre Napoléon (1808-1814) et signifie « petite guerre » en espagnol."
+    }
+  ],
+  "aSavoir": [
+    "Le tableau Guernica n’est arrivé en Espagne qu’en 1981 : Picasso ne voulait pas qu’il y entre avant le retour de la démocratie."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Histoire_de_l%27Espagne",
+    {
+      "titre": "Encyclopædia Britannica — Spain, History",
+      "url": "https://www.britannica.com/place/Spain/History"
+    }
+  ]
+}

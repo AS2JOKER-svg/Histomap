@@ -336,10 +336,15 @@
         "civs": [
           "france-contemp",
           "royaume-uni",
+          "pays-nordiques",
           "allemagne",
           "russie",
+          "ukraine",
           "autriche-hongrie",
+          "pologne-contemp",
           "italie-contemp",
+          "espagne-contemp",
+          "grece-moderne",
           "union-europeenne"
         ]
       },

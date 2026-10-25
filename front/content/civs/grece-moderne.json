@@ -1,0 +1,328 @@
+{
+  "documentaires": [],
+  "decouvertes": [],
+  "id": "grece-moderne",
+  "label": "Grèce moderne",
+  "tier": 2,
+  "region": "grece-egee",
+  "period": "1821 à 2020",
+  "start": 1821,
+  "end": 2020,
+  "trackId": "grece",
+  "row": 1,
+  "isRiver": false,
+  "capitale": "Athènes",
+  "description": "L’État grec né de la guerre d’indépendance contre l’Empire ottoman, qui s’agrandit peu à peu, traverse guerres, dictatures et guerre civile, puis devient une démocratie membre de l’Union européenne.",
+  "territories": ["Greece"],
+  "reperes": {
+    "capitale": { "valeur": "Athènes", "precision": "Égine puis Nauplie avant 1834" },
+    "regimes": { "valeur": "Monarchie, dictatures, puis république", "precision": "république parlementaire depuis 1974" },
+    "langues": { "valeur": "Grec" },
+    "religion": { "valeur": "Christianisme orthodoxe", "precision": "une minorité musulmane vit en Thrace" },
+    "apogee": { "valeur": "Années 1950-1970", "precision": "forte croissance économique" },
+    "population": {
+      "valeur": "Environ 10,7 millions en 2020",
+      "precision": "environ 750 000 habitants à la naissance de l’État"
+    },
+    "monnaie": { "valeur": "Drachme, puis euro (2002)" },
+    "duree": { "valeur": "Environ 200 ans dans cette fiche" },
+    "aujourdhui": { "valeur": "Grèce" }
+  },
+  "essentiel": [
+    "En 1821, les Grecs se soulèvent contre l’Empire ottoman ; aidés par la France, le Royaume-Uni et la Russie, ils obtiennent leur indépendance, reconnue en 1830 ([[guerre-d-independance-grecque|guerre d’indépendance]]).",
+    "Le nouveau royaume ne regroupe qu’une partie des Grecs ; il s’agrandit par étapes jusqu’en 1947 (îles Ioniennes, Thessalie, Macédoine, Épire, Crète, Dodécanèse).",
+    "Après la défaite contre la Turquie en 1922, un échange de populations envoie environ 1,2 million de chrétiens orthodoxes d’Anatolie vers la Grèce et environ 400 000 musulmans de Grèce vers la Turquie.",
+    "Occupée par l’Allemagne, l’Italie et la Bulgarie pendant la Seconde Guerre mondiale, la Grèce connaît ensuite une guerre civile (1946-1949), puis la dictature des colonels (1967-1974).",
+    "Démocratique depuis 1974, elle entre dans la Communauté européenne en 1981 ; à partir de 2010, elle traverse une grave crise de la dette."
+  ],
+  "datesCles": [
+    {
+      "annee": 1821,
+      "evenement": "Soulèvement",
+      "info": "Début de la guerre d’indépendance, célébré le 25 mars, jour de la fête nationale.",
+      "ref": "guerre-d-independance-grecque"
+    },
+    {
+      "annee": 1827,
+      "evenement": "Bataille de Navarin",
+      "info": "Les flottes française, britannique et russe détruisent la flotte ottomane et égyptienne."
+    },
+    {
+      "annee": 1830,
+      "evenement": "Indépendance",
+      "info": "Les grandes puissances reconnaissent l’indépendance de la Grèce."
+    },
+    {
+      "annee": 1896,
+      "evenement": "Jeux olympiques",
+      "info": "Athènes accueille les premiers Jeux olympiques modernes."
+    },
+    {
+      "annee": 1913,
+      "evenement": "Guerres balkaniques",
+      "info": "La Grèce gagne la Macédoine du Sud, l’Épire et la Crète."
+    },
+    {
+      "annee": 1923,
+      "evenement": "Échange de populations",
+      "info": "Le traité de Lausanne organise l’échange des populations entre la Grèce et la Turquie."
+    },
+    { "annee": 1941, "evenement": "Occupation", "info": "L’Allemagne, l’Italie et la Bulgarie occupent la Grèce." },
+    {
+      "annee": 1967,
+      "evenement": "Coup d’État des colonels",
+      "info": "Des officiers prennent le pouvoir et instaurent une dictature."
+    },
+    {
+      "annee": 1974,
+      "evenement": "Retour de la démocratie",
+      "info": "La dictature tombe ; un référendum abolit la monarchie."
+    },
+    {
+      "annee": 1981,
+      "evenement": "Communauté européenne",
+      "info": "La Grèce devient le dixième membre de la Communauté européenne."
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "L’indépendance",
+      "debut": 1821,
+      "fin": 1832,
+      "resume": "Les Grecs se soulèvent et gagnent leur indépendance avec l’aide des grandes puissances.",
+      "evenements": [
+        { "annee": 1821, "evenement": "Soulèvement", "ref": "guerre-d-independance-grecque" },
+        { "annee": 1827, "evenement": "Bataille de Navarin" },
+        { "annee": 1830, "evenement": "Indépendance reconnue" }
+      ]
+    },
+    {
+      "nom": "La « Grande Idée »",
+      "debut": 1832,
+      "fin": 1922,
+      "resume": "Le royaume veut rassembler tous les territoires peuplés de Grecs ; il s’agrandit, jusqu’à la défaite en Anatolie.",
+      "evenements": [
+        { "annee": 1832, "evenement": "Othon, premier roi" },
+        { "annee": 1896, "evenement": "Jeux olympiques d’Athènes" },
+        { "annee": 1913, "evenement": "Gains des guerres balkaniques" },
+        { "annee": 1922, "evenement": "Défaite en Asie Mineure" }
+      ]
+    },
+    {
+      "nom": "Guerres et dictatures",
+      "debut": 1922,
+      "fin": 1974,
+      "resume": "Réfugiés, dictature de Metaxas, occupation, guerre civile puis dictature des colonels.",
+      "evenements": [
+        { "annee": 1936, "evenement": "Dictature de Metaxas" },
+        { "annee": 1941, "evenement": "Occupation" },
+        { "annee": 1946, "evenement": "Guerre civile" },
+        { "annee": 1967, "evenement": "Coup d’État des colonels" }
+      ]
+    },
+    {
+      "nom": "La démocratie européenne",
+      "debut": 1974,
+      "fin": 2020,
+      "resume": "République démocratique, membre de la Communauté européenne puis de la zone euro, frappée par la crise de 2010.",
+      "evenements": [
+        { "annee": 1981, "evenement": "Entrée dans la Communauté européenne" },
+        { "annee": 2004, "evenement": "Jeux olympiques d’Athènes" },
+        { "annee": 2010, "evenement": "Crise de la dette" }
+      ]
+    }
+  ],
+  "regimes": [
+    { "id": "insurrection", "nom": "Gouvernements de l’insurrection", "debut": 1821, "fin": 1832 },
+    { "id": "monarchie", "nom": "Monarchie", "debut": 1832, "fin": 1924 },
+    { "id": "republique2", "nom": "Deuxième République", "debut": 1924, "fin": 1935 },
+    {
+      "id": "monarchie2",
+      "nom": "Monarchie restaurée",
+      "debut": 1935,
+      "fin": 1967,
+      "note": "Dictature de Metaxas (1936-1941), puis occupation (1941-1944)."
+    },
+    { "id": "colonels", "nom": "Dictature des colonels", "debut": 1967, "fin": 1974 },
+    { "id": "republique3", "nom": "Troisième République", "debut": 1974, "fin": 2020 }
+  ],
+  "dynasties": [
+    {
+      "id": "rois",
+      "nom": "Les rois",
+      "debut": 1832,
+      "fin": 1973,
+      "note": "Othon de Bavière, puis la maison de Glücksbourg."
+    },
+    { "id": "chefs", "nom": "Chefs de gouvernement", "debut": 1828, "fin": 2020, "note": "Sélection." }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Ioannis Kapodistrias",
+      "titre": "Gouverneur",
+      "debut": 1828,
+      "fin": 1831,
+      "dynastie": "chefs",
+      "note": "premier chef de l’État grec, assassiné",
+      "cle": true
+    },
+    {
+      "nom": "Othon Ier",
+      "titre": "Roi",
+      "debut": 1832,
+      "fin": 1862,
+      "dynastie": "rois",
+      "note": "prince bavarois, renversé en 1862",
+      "cle": true
+    },
+    {
+      "nom": "Georges Ier",
+      "titre": "Roi",
+      "debut": 1863,
+      "fin": 1913,
+      "dynastie": "rois",
+      "note": "assassiné à Thessalonique",
+      "cle": true
+    },
+    {
+      "nom": "Eleftherios Venizélos",
+      "titre": "Premier ministre",
+      "debut": 1910,
+      "fin": 1933,
+      "dynastie": "chefs",
+      "note": "plusieurs fois Premier ministre entre 1910 et 1933",
+      "personne": "eleftherios-venizelos",
+      "cle": true
+    },
+    {
+      "nom": "Ioannis Metaxas",
+      "titre": "Premier ministre et dictateur",
+      "debut": 1936,
+      "fin": 1941,
+      "dynastie": "chefs"
+    },
+    {
+      "nom": "Georgios Papadopoulos",
+      "titre": "Chef de la junte des colonels",
+      "debut": 1967,
+      "fin": 1973,
+      "dynastie": "chefs"
+    },
+    {
+      "nom": "Constantin Caramanlis",
+      "titre": "Premier ministre",
+      "debut": 1974,
+      "fin": 1980,
+      "dynastie": "chefs",
+      "note": "rétablit la démocratie en 1974",
+      "cle": true
+    },
+    { "nom": "Andréas Papandréou", "titre": "Premier ministre", "debut": 1981, "fin": 1989, "dynastie": "chefs" },
+    {
+      "nom": "Kyriákos Mitsotákis",
+      "titre": "Premier ministre",
+      "debut": 2019,
+      "fin": 2020,
+      "dynastie": "chefs",
+      "note": "toujours en fonction à la fin de la période couverte (2020)"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Eleftherios Venizélos",
+      "role": "Homme d’État",
+      "description": "Le Crétois qui agrandit la Grèce lors des guerres balkaniques.",
+      "dates": "1864 → 1936",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Elefth%C3%A9rios_Veniz%C3%A9los",
+      "ref": "eleftherios-venizelos"
+    },
+    {
+      "nom": "Laskarína Bouboulína",
+      "role": "Héroïne de l’indépendance",
+      "description": "Armatrice de l’île de Spetses, elle commande ses propres navires pendant la guerre d’indépendance.",
+      "dates": "1771 → 1825",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Laskar%C3%ADna_Bouboul%C3%ADna"
+    },
+    {
+      "nom": "Lord Byron",
+      "role": "Poète",
+      "description": "Poète anglais venu soutenir les insurgés grecs, il meurt de maladie à Missolonghi.",
+      "dates": "1788 → 1824",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/George_Gordon_Byron"
+    },
+    {
+      "nom": "Melína Merkoúri",
+      "role": "Actrice et ministre",
+      "description": "Actrice célèbre, ministre de la Culture, elle réclame le retour à Athènes des sculptures du Parthénon conservées à Londres.",
+      "dates": "1920 → 1994",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Melina_Mercouri"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerre d’indépendance grecque",
+      "annee": 1821,
+      "adversaires": ["Empire ottoman", "Égypte de Méhémet Ali"],
+      "allies": ["Royaume-Uni, France et Russie (à partir de 1827)"],
+      "morts": "Plusieurs dizaines de milliers, civils compris",
+      "vainqueur": "Grèce et ses alliés",
+      "consequences": "Des massacres sont commis dans les deux camps, comme à Tripolitsa (1821) et à Chios (1822), qui émeut toute l’Europe. Après la bataille de Navarin (1827), l’Empire ottoman doit accepter l’indépendance grecque, reconnue en 1830.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_d%27ind%C3%A9pendance_grecque"
+    },
+    {
+      "nom": "Guerres balkaniques",
+      "annee": 1912,
+      "adversaires": ["Empire ottoman (1912-1913)", "Bulgarie (1913)"],
+      "allies": ["Serbie", "Monténégro", "Bulgarie (1912-1913)"],
+      "morts": "Plus de 100 000 au total selon les estimations, tous camps confondus",
+      "vainqueur": "Grèce, Serbie et leurs alliés",
+      "consequences": "Après deux guerres, la Grèce agrandit fortement son territoire : elle obtient le sud de la Macédoine avec Thessalonique, l’Épire, la Crète et des îles de la mer Égée.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerres_balkaniques"
+    },
+    {
+      "nom": "Guerre gréco-turque (1919-1922)",
+      "annee": 1919,
+      "adversaires": ["Mouvement national turc (Mustafa Kemal)"],
+      "allies": [],
+      "morts": "Des dizaines de milliers de soldats et de nombreux civils",
+      "vainqueur": "Turquie",
+      "consequences": "L’armée grecque, débarquée à Smyrne en 1919, avance en Anatolie puis est repoussée ; Smyrne brûle en 1922. Le traité de Lausanne (1923) organise un échange de populations entre la Grèce et la Turquie.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_gr%C3%A9co-turque_(1919-1922)"
+    },
+    {
+      "nom": "Guerre civile grecque",
+      "annee": 1946,
+      "adversaires": ["Armée démocratique de Grèce (communistes)"],
+      "allies": ["Gouvernement grec, soutenu par le Royaume-Uni puis les États-Unis"],
+      "morts": "Plusieurs dizaines de milliers",
+      "vainqueur": "Gouvernement grec",
+      "consequences": "La victoire du gouvernement maintient la Grèce dans le camp occidental ; elle entre dans l’OTAN en 1952. Des dizaines de milliers de personnes sont emprisonnées ou partent en exil.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_civile_grecque"
+    }
+  ],
+  "sciences": "Le médecin Geórgios Papanikoláou, émigré aux États-Unis, met au point le frottis qui porte son nom, utilisé pour dépister le cancer du col de l’utérus. Les archéologues fouillent les grands sites antiques ; à Vergina, Manólis Andrónikos découvre en 1977 des tombes royales macédoniennes.",
+  "croyancesText": "L’Église orthodoxe de Grèce, devenue indépendante de Constantinople en 1833 (indépendance reconnue en 1850), tient une grande place dans l’identité nationale. La Constitution fait de l’orthodoxie la « religion dominante » ; une minorité musulmane, exemptée de l’échange de 1923, vit en Thrace.",
+  "diplomatie": "La « Grande Idée », rassembler dans un même État tous les territoires peuplés de Grecs, guide la politique grecque jusqu’en 1922. La Grèce entre dans l’OTAN en 1952 et dans la Communauté européenne en 1981. Ses relations avec la Turquie restent tendues, notamment au sujet de Chypre, divisée depuis 1974.",
+  "societe": "Pays longtemps rural, la Grèce accueille en 1923 plus d’un million de réfugiés d’Asie Mineure, qui fondent de nouveaux quartiers et villages. Au XXe siècle, de nombreux Grecs émigrent vers les États-Unis, l’Australie et l’Allemagne.",
+  "economie": "Agriculture (olives, tabac, raisins secs), marine marchande, l’une des plus grandes du monde, et tourisme.",
+  "arts": "Poèmes de Cavafy, de Séféris et d’Elytis (prix Nobel de littérature en 1963 et 1979), romans de Kazantzákis, musique rebetiko et chansons de Míkis Theodorákis.",
+  "quotidien": "Le 25 mars, jour de la fête nationale, les écoliers défilent en souvenir du début de la guerre d’indépendance.",
+  "heritage": [
+    {
+      "titre": "Les Jeux olympiques modernes",
+      "texte": "Les premiers Jeux olympiques modernes ont lieu à Athènes en 1896 ; la délégation grecque ouvre toujours le défilé des athlètes."
+    },
+    {
+      "titre": "L’hymne national",
+      "texte": "L’Hymne à la liberté, poème de Dionýsios Solomós (1823), est devenu l’hymne national de la Grèce."
+    }
+  ],
+  "aSavoir": ["Le premier roi de la Grèce moderne, Othon, était un prince bavarois de 17 ans à son arrivée en 1833."],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Histoire_de_la_Gr%C3%A8ce",
+    {
+      "titre": "Encyclopædia Britannica — Greece, History",
+      "url": "https://www.britannica.com/place/Greece/History"
+    }
+  ]
+}

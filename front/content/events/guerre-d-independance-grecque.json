@@ -1,0 +1,20 @@
+{
+  "id": "guerre-d-independance-grecque",
+  "nom": "Guerre d’indépendance grecque",
+  "annee": 1821,
+  "fin": 1830,
+  "dates": "1821 → 1830",
+  "lieu": "Grèce (Péloponnèse, îles, Grèce centrale)",
+  "description": "Soulèvement des Grecs contre l’Empire ottoman, qui aboutit, avec l’aide de la France, du Royaume-Uni et de la Russie, à la création d’un État grec indépendant.",
+  "sections": [
+    {
+      "titre": "Une guerre qui émeut l’Europe",
+      "texte": "De nombreux Européens, les « philhellènes », soutiennent les insurgés ; le peintre Delacroix représente le massacre de Chios, le poète Byron meurt à Missolonghi."
+    },
+    {
+      "titre": "Navarin",
+      "texte": "En 1827, les flottes française, britannique et russe détruisent la flotte ottomane et égyptienne dans la baie de Navarin ; l’indépendance est reconnue en 1830."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_d%27ind%C3%A9pendance_grecque"
+}

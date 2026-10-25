@@ -1152,5 +1152,65 @@
   "Guerre dano-suédoise (1657-1658)": {
     "coords": [12.08, 55.64],
     "lieu": "Détroits danois et Roskilde (Danemark)"
+  },
+  "Guerre d’indépendance espagnole": {
+    "coords": [-3.78, 38.09],
+    "lieu": "Bailén (Espagne)"
+  },
+  "Guerre hispano-américaine": {
+    "coords": [-75.82, 20.02],
+    "lieu": "Cuba et Philippines"
+  },
+  "Guerre civile espagnole": {
+    "coords": [-3.7, 40.42],
+    "lieu": "Espagne"
+  },
+  "Guerre d’indépendance grecque": {
+    "coords": [21.67, 36.91],
+    "lieu": "Péloponnèse (Navarin)"
+  },
+  "Guerres balkaniques": {
+    "coords": [22.94, 40.64],
+    "lieu": "Macédoine (Thessalonique)"
+  },
+  "Guerre gréco-turque (1919-1922)": {
+    "coords": [27.14, 38.42],
+    "lieu": "Anatolie occidentale (Smyrne)"
+  },
+  "Guerre civile grecque": {
+    "coords": [20.85, 40.35],
+    "lieu": "Montagnes du nord de la Grèce"
+  },
+  "Guerre soviéto-polonaise": {
+    "coords": [21.01, 52.23],
+    "lieu": "Pologne, Ukraine et Biélorussie"
+  },
+  "Campagne de Pologne (1939)": {
+    "coords": [19.46, 51.76],
+    "lieu": "Pologne"
+  },
+  "Insurrection de Varsovie": {
+    "coords": [21, 52.25],
+    "lieu": "Varsovie"
+  },
+  "Guerre soviéto-ukrainienne": {
+    "coords": [30.52, 50.45],
+    "lieu": "Ukraine"
+  },
+  "Guerre du Donbass": {
+    "coords": [37.8, 48],
+    "lieu": "Donbass (est de l’Ukraine)"
+  },
+  "Guerre des Duchés": {
+    "coords": [9.73, 54.9],
+    "lieu": "Dybbøl (Schleswig)"
+  },
+  "Guerre d’Hiver": {
+    "coords": [29.5, 60.6],
+    "lieu": "Carélie"
+  },
+  "Campagne de Norvège": {
+    "coords": [17.43, 68.44],
+    "lieu": "Norvège (Narvik)"
   }
 }

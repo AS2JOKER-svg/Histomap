@@ -1,0 +1,19 @@
+{
+  "id": "bataille-de-kosovo",
+  "nom": "Bataille de Kosovo",
+  "annee": 1389,
+  "dates": "15 juin 1389 (calendrier julien)",
+  "lieu": "Kosovo Polje (« champ des Merles »)",
+  "description": "Les armées serbes et bosniennes du prince Lazar affrontent l’armée ottomane du sultan Murad Ier ; les deux chefs sont tués.",
+  "sections": [
+    {
+      "titre": "Une victoire coûteuse",
+      "texte": "Les deux armées subissent de lourdes pertes. Les Ottomans l’emportent, et la Serbie devient leur vassale."
+    },
+    {
+      "titre": "Une mémoire",
+      "texte": "La bataille, chantée par de nombreux poèmes épiques, occupe une place centrale dans l’identité et la mémoire serbes ; le jour de la Saint-Guy (Vidovdan), le 28 juin, la commémore."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Kosovo_(1389)"
+}

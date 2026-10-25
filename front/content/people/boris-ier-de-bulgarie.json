@@ -1,0 +1,17 @@
+{
+  "id": "boris-ier-de-bulgarie",
+  "nom": "Boris Ier de Bulgarie",
+  "role": "Prince des Bulgares",
+  "roles": ["Prince", "Saint"],
+  "dates": "? → 907",
+  "mort": 907,
+  "description": "Souverain des Bulgares de 852 à 889, il convertit son peuple au christianisme orthodoxe et accueille les disciples de Cyrille et Méthode.",
+  "reperes": [{ "label": "Règne", "valeur": "852 → 889" }],
+  "essentiel": [
+    "Il se fait baptiser en 864 ou 865, avec l’empereur byzantin pour parrain.",
+    "Il réprime durement la révolte des nobles opposés à la nouvelle religion.",
+    "Il hésite entre Rome et Constantinople, puis obtient une Église bulgare liée à Constantinople.",
+    "Il accueille en 886 les disciples de Cyrille et Méthode, qui fondent les écoles de Preslav et d’Ohrid."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Boris_Ier_de_Bulgarie"
+}

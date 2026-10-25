@@ -1,0 +1,17 @@
+{
+  "id": "mieszko-ier",
+  "nom": "Mieszko Ier",
+  "role": "Duc des Polanes",
+  "roles": ["Duc"],
+  "dates": "vers 935 → 992",
+  "mort": 992,
+  "description": "Premier souverain historique de la Pologne, il se fait baptiser en 966 et étend son pouvoir sur les terres situées entre l’Oder et la Vistule.",
+  "reperes": [{ "label": "Règne", "valeur": "vers 960 → 992" }],
+  "essentiel": [
+    "Il épouse la princesse chrétienne Dubravka de Bohême.",
+    "Il se fait baptiser en 966 : c’est la date symbolique de la naissance de la Pologne.",
+    "Il conquiert la Poméranie et la Silésie.",
+    "Peu avant sa mort, il place ses terres sous la protection du pape."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Mieszko_Ier"
+}

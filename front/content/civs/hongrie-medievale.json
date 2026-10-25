@@ -1,0 +1,259 @@
+{
+  "documentaires": [],
+  "decouvertes": [],
+  "id": "hongrie-medievale",
+  "label": "Royaume de Hongrie",
+  "tier": 1,
+  "region": "europe-centrale",
+  "period": "1000 à 1526",
+  "start": 1000,
+  "end": 1526,
+  "color": "#e65100",
+  "trackId": "hongrie",
+  "row": 12,
+  "isRiver": false,
+  "capitale": "Esztergom, Székesfehérvár, puis Buda",
+  "description": "Le royaume chrétien fondé en l’an 1000 par les Hongrois, peuple venu des steppes, qui devient l’une des grandes puissances d’Europe centrale avant d’être brisé par les Ottomans à Mohács en 1526.",
+  "territories": ["Magyars", "Hungary", "Kingdom of Hungary", "Imperial Hungary"],
+  "reperes": {
+    "capitale": {
+      "valeur": "Esztergom, Székesfehérvár, puis Buda",
+      "precision": "Buda devient la capitale principale au XIVe siècle"
+    },
+    "regimes": { "valeur": "Monarchie", "precision": "les nobles obtiennent des droits par la Bulle d’or de 1222" },
+    "langues": {
+      "valeur": "Hongrois et latin",
+      "precision": "le hongrois n’est pas une langue indo-européenne ; le latin sert à l’administration"
+    },
+    "religion": { "valeur": "Catholicisme", "precision": "adopté sous le roi Étienne Ier" },
+    "apogee": { "valeur": "Règnes de Louis le Grand (1342-1382) et de Matthias Corvin (1458-1490)" },
+    "population": { "valeur": "Environ 3 millions vers 1490", "precision": "estimation" },
+    "monnaie": { "valeur": "Florin d’or hongrois", "precision": "frappé grâce aux riches mines d’or du royaume" },
+    "duree": { "valeur": "Plus de 500 ans" },
+    "aujourdhui": {
+      "valeur": "Hongrie",
+      "precision": "et une partie de la Slovaquie, de la Roumanie, de la Croatie, de la Serbie et de l’Ukraine"
+    }
+  },
+  "essentiel": [
+    "Venus des steppes, les Hongrois (Magyars) s’installent dans la plaine du Danube vers 895 ; leurs raids terrorisent l’Europe jusqu’à leur défaite au Lechfeld (955).",
+    "En l’an 1000, [[etienne-ier-de-hongrie|Étienne Ier]] est couronné roi : il convertit son peuple au christianisme et organise le royaume.",
+    "En 1241, l’invasion mongole et la défaite de [[bataille-de-mohi|Mohi]] ravagent le pays ; le roi Béla IV le reconstruit et le couvre de châteaux de pierre.",
+    "Riche de ses mines d’or, la Hongrie devient une grande puissance ; le roi [[matthias-corvin|Matthias Corvin]] fait de Buda un foyer de la Renaissance.",
+    "En 1526, l’armée ottomane écrase les Hongrois à [[bataille-de-mohacs|Mohács]] : le roi Louis II meurt, et le pays est partagé entre Ottomans et Habsbourg."
+  ],
+  "datesCles": [
+    {
+      "annee": 1000,
+      "evenement": "Couronnement d’Étienne",
+      "info": "À Noël de l’an 1000 ou au début de 1001, Étienne Ier est couronné roi."
+    },
+    { "annee": 1102, "evenement": "La Croatie", "info": "Le roi Coloman devient aussi roi de Croatie." },
+    {
+      "annee": 1222,
+      "evenement": "Bulle d’or",
+      "info": "André II accorde des droits aux nobles et limite le pouvoir royal."
+    },
+    {
+      "annee": 1241,
+      "evenement": "Mohi",
+      "info": "Les Mongols écrasent l’armée hongroise et ravagent le pays.",
+      "ref": "bataille-de-mohi"
+    },
+    {
+      "annee": 1301,
+      "evenement": "Fin des Árpád",
+      "info": "La dynastie fondatrice s’éteint ; les Angevins lui succèdent."
+    },
+    { "annee": 1456, "evenement": "Belgrade", "info": "Jean Hunyadi repousse l’armée ottomane du sultan Mehmed II." },
+    {
+      "annee": 1458,
+      "evenement": "Matthias Corvin",
+      "info": "Le fils de Hunyadi est élu roi ; il fait de sa cour un centre de la Renaissance."
+    },
+    {
+      "annee": 1526,
+      "evenement": "Mohács",
+      "info": "Les Ottomans écrasent l’armée hongroise ; le roi Louis II meurt.",
+      "ref": "bataille-de-mohacs"
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "Les Árpád",
+      "debut": 1000,
+      "fin": 1301,
+      "resume": "Les descendants d’Árpád christianisent et organisent le royaume, qui survit à l’invasion mongole.",
+      "evenements": [
+        { "annee": 1000, "evenement": "Couronnement d’Étienne Ier" },
+        { "annee": 1222, "evenement": "Bulle d’or" },
+        { "annee": 1241, "evenement": "Invasion mongole", "ref": "bataille-de-mohi" }
+      ]
+    },
+    {
+      "nom": "Une grande puissance",
+      "debut": 1301,
+      "fin": 1490,
+      "resume": "Sous les Angevins, Sigismond puis Matthias Corvin, la Hongrie domine l’Europe centrale et affronte les Ottomans.",
+      "evenements": [{ "annee": 1456, "evenement": "Siège de Belgrade" }, { "annee": 1458, "evenement": "Matthias Corvin roi" }]
+    },
+    {
+      "nom": "Vers Mohács",
+      "debut": 1490,
+      "fin": 1526,
+      "resume": "Affaibli par les querelles des nobles et une révolte paysanne (1514), le royaume ne peut résister aux Ottomans.",
+      "evenements": [{ "annee": 1526, "evenement": "Mohács", "ref": "bataille-de-mohacs" }]
+    }
+  ],
+  "regimes": [{ "id": "monarchie", "nom": "Monarchie", "debut": 1000, "fin": 1526 }],
+  "dynasties": [
+    { "id": "arpad", "nom": "Les Árpád", "debut": 1000, "fin": 1301, "note": "Sélection." },
+    {
+      "id": "autres",
+      "nom": "Angevins, Luxembourg, Hunyadi et Jagellon",
+      "debut": 1308,
+      "fin": 1526,
+      "note": "Sélection."
+    }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Étienne Ier",
+      "titre": "Roi",
+      "debut": 1000,
+      "fin": 1038,
+      "dynastie": "arpad",
+      "personne": "etienne-ier-de-hongrie",
+      "cle": true
+    },
+    { "nom": "Coloman", "titre": "Roi", "debut": 1095, "fin": 1116, "dynastie": "arpad", "note": "roi de Croatie en 1102" },
+    {
+      "nom": "André II",
+      "titre": "Roi",
+      "debut": 1205,
+      "fin": 1235,
+      "dynastie": "arpad",
+      "note": "accorde la Bulle d’or",
+      "cle": true
+    },
+    {
+      "nom": "Béla IV",
+      "titre": "Roi",
+      "debut": 1235,
+      "fin": 1270,
+      "dynastie": "arpad",
+      "note": "reconstruit le pays après les Mongols",
+      "cle": true
+    },
+    {
+      "nom": "Louis Ier",
+      "titre": "Roi",
+      "surnom": "le Grand",
+      "debut": 1342,
+      "fin": 1382,
+      "dynastie": "autres",
+      "note": "aussi roi de Pologne",
+      "cle": true
+    },
+    { "nom": "Sigismond", "titre": "Roi", "debut": 1387, "fin": 1437, "dynastie": "autres", "note": "aussi empereur" },
+    {
+      "nom": "Matthias Corvin",
+      "titre": "Roi",
+      "debut": 1458,
+      "fin": 1490,
+      "dynastie": "autres",
+      "personne": "matthias-corvin",
+      "cle": true
+    },
+    { "nom": "Louis II", "titre": "Roi", "debut": 1516, "fin": 1526, "dynastie": "autres", "note": "meurt à Mohács" }
+  ],
+  "personnages": [
+    {
+      "nom": "Étienne Ier",
+      "role": "Premier roi de Hongrie",
+      "description": "Le roi qui christianise la Hongrie.",
+      "dates": "vers 975 → 1038",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/%C3%89tienne_Ier_de_Hongrie",
+      "ref": "etienne-ier-de-hongrie"
+    },
+    {
+      "nom": "Jean Hunyadi",
+      "role": "Chef de guerre",
+      "description": "Le vainqueur des Ottomans à Belgrade en 1456.",
+      "dates": "vers 1407 → 1456",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Jean_Hunyadi"
+    },
+    {
+      "nom": "Matthias Corvin",
+      "role": "Roi",
+      "description": "Le roi de la Renaissance hongroise.",
+      "dates": "1443 → 1490",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Matthias_Corvin",
+      "ref": "matthias-corvin"
+    },
+    {
+      "nom": "Soliman le Magnifique",
+      "role": "Sultan ottoman",
+      "description": "Le vainqueur de Mohács.",
+      "dates": "1494 → 1566",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Soliman_le_Magnifique",
+      "ref": "soliman-le-magnifique"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Invasion mongole de la Hongrie",
+      "annee": 1241,
+      "adversaires": ["Empire mongol (Batu, Subötaï)"],
+      "allies": [],
+      "morts": "Une grande partie de la population, selon les estimations",
+      "vainqueur": "Mongols",
+      "consequences": "Après la bataille de Mohi, les Mongols ravagent la Hongrie pendant un an, puis repartent en 1242. Le roi Béla IV fait construire des dizaines de châteaux de pierre.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Invasions_mongoles_de_la_Hongrie"
+    },
+    {
+      "nom": "Siège de Belgrade (1456)",
+      "annee": 1456,
+      "adversaires": ["Empire ottoman (Mehmed II)"],
+      "allies": [],
+      "morts": "Plusieurs milliers",
+      "vainqueur": "Hongrie (Jean Hunyadi)",
+      "consequences": "Trois ans après la prise de Constantinople, l’armée ottomane est repoussée ; l’avance ottomane vers l’Europe centrale est retardée de soixante-dix ans.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Belgrade_(1456)"
+    },
+    {
+      "nom": "Bataille de Mohács",
+      "annee": 1526,
+      "adversaires": ["Empire ottoman (Soliman le Magnifique)"],
+      "allies": [],
+      "morts": "Plusieurs milliers de soldats hongrois et le roi Louis II",
+      "vainqueur": "Ottomans (Soliman)",
+      "consequences": "Le roi Louis II meurt en fuyant. Le royaume est partagé entre les Ottomans, les Habsbourg et la principauté de Transylvanie.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Moh%C3%A1cs"
+    }
+  ],
+  "sciences": "Les mines d’or et d’argent de Kremnica et de Banská Štiavnica, dans l’actuelle Slovaquie, font de la Hongrie l’un des grands producteurs d’or d’Europe. Matthias Corvin réunit l’une des plus grandes bibliothèques de la Renaissance, la Bibliotheca Corviniana, et invite à Buda des savants et des artistes italiens.",
+  "croyancesText": "Le roi Étienne Ier impose le christianisme catholique, fonde des évêchés et des monastères, et est canonisé en 1083. Les Hongrois honorent aussi des saints de la famille royale, comme Élisabeth de Hongrie. La Hongrie se présente comme le « bouclier de la chrétienté » face aux Ottomans.",
+  "diplomatie": "La Hongrie s’allie par mariage aux grandes dynasties d’Europe ; ses rois sont parfois aussi rois de Croatie, de Pologne ou de Bohême. Elle affronte les Mongols en 1241, puis, à partir de la fin du XIVe siècle, les Ottomans, qui finissent par la vaincre à Mohács.",
+  "societe": "Une puissante noblesse domine le pays et obtient des droits importants, comme ceux de la Bulle d’or (1222). La plupart des habitants sont des paysans ; en 1514, une grande révolte paysanne est durement réprimée.",
+  "economie": "Agriculture et élevage dans la grande plaine, mines d’or, d’argent et de sel, commerce de bétail vers l’Europe occidentale.",
+  "arts": "Couronne de saint Étienne, cathédrale d’Esztergom, palais Renaissance de Buda et de Visegrád, manuscrits enluminés de la Corviniana.",
+  "quotidien": "Selon une tradition, les cloches des églises sonnent à midi en souvenir de la victoire de Belgrade en 1456.",
+  "heritage": [
+    {
+      "titre": "La Sainte Couronne",
+      "texte": "La couronne dite de saint Étienne, symbole de l’État hongrois, est exposée au Parlement de Budapest."
+    },
+    { "titre": "Le 20 août", "texte": "La Hongrie fête chaque 20 août saint Étienne et la fondation de l’État." }
+  ],
+  "aSavoir": [
+    "Le hongrois appartient à la famille des langues ouraliennes, comme le finnois et l’estonien, et non à la famille indo-européenne."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Royaume_de_Hongrie",
+    {
+      "titre": "Encyclopædia Britannica — Hungary, history",
+      "url": "https://www.britannica.com/place/Hungary/History"
+    }
+  ]
+}

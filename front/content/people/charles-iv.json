@@ -1,0 +1,18 @@
+{
+  "id": "charles-iv",
+  "nom": "Charles IV",
+  "role": "Roi de Bohême et empereur",
+  "roles": ["Roi", "Empereur", "Bâtisseur"],
+  "dates": "1316 → 1378",
+  "naissance": 1316,
+  "mort": 1378,
+  "description": "Roi de Bohême à partir de 1346 et empereur du Saint-Empire à partir de 1355, il fait de Prague l’une des grandes capitales de l’Europe.",
+  "reperes": [{ "label": "Règne", "valeur": "1346 → 1378" }],
+  "essentiel": [
+    "Il fonde en 1348 l’université de Prague, la première d’Europe centrale.",
+    "Il fait construire le pont Charles, la cathédrale Saint-Guy et la Nouvelle Ville de Prague.",
+    "Par la [[bulle-d-or|Bulle d’or]] de 1356, il fixe les règles de l’élection impériale.",
+    "Il écrit lui-même une autobiographie en latin."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Charles_IV_(empereur_du_Saint-Empire)"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "alphabet-cyrillique",
+  "nom": "Alphabet cyrillique",
+  "domaine": "Écriture",
+  "dates": "fin du IXe siècle",
+  "description": "L’alphabet mis au point dans la Bulgarie médiévale, à partir de l’alphabet grec et de l’alphabet glagolitique créé par les frères Cyrille et Méthode, pour écrire les langues slaves.",
+  "sections": [
+    {
+      "titre": "Un nom en hommage",
+      "texte": "Il porte le nom de saint Cyrille, même s’il a sans doute été mis au point par ses disciples, dans les écoles de Preslav et d’Ohrid."
+    },
+    {
+      "titre": "Aujourd’hui",
+      "texte": "Il sert à écrire le russe, le bulgare, le serbe, l’ukrainien, le biélorusse, le macédonien, le kazakh ou le mongol, soit les langues de plus de 250 millions de personnes."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Alphabet_cyrillique"
+}

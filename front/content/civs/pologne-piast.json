@@ -1,0 +1,236 @@
+{
+  "documentaires": [],
+  "decouvertes": [],
+  "id": "pologne-piast",
+  "label": "Pologne des Piast",
+  "tier": 2,
+  "region": "europe-centrale",
+  "period": "966 à 1385",
+  "start": 966,
+  "end": 1385,
+  "trackId": "pologne",
+  "row": 13,
+  "isRiver": false,
+  "capitale": "Gniezno, puis Cracovie",
+  "description": "Le premier État polonais, gouverné par la dynastie des Piast, depuis le baptême de Mieszko Ier en 966 jusqu’à l’union avec la Lituanie en 1385.",
+  "territories": ["Poland"],
+  "reperes": {
+    "capitale": { "valeur": "Gniezno, puis Cracovie", "precision": "Cracovie devient la capitale au XIe siècle" },
+    "regimes": { "valeur": "Duché puis royaume", "precision": "divisé entre plusieurs princes de 1138 à 1320" },
+    "langues": { "valeur": "Polonais et latin" },
+    "religion": { "valeur": "Catholicisme", "precision": "adopté en 966" },
+    "apogee": { "valeur": "Règne de Casimir III le Grand (1333 → 1370)" },
+    "population": { "valeur": "Environ 2 millions vers 1370", "precision": "estimation" },
+    "monnaie": { "valeur": "Denier, puis gros de Cracovie" },
+    "duree": { "valeur": "Environ 420 ans" },
+    "aujourdhui": { "valeur": "Pologne" }
+  },
+  "essentiel": [
+    "En 966, le duc [[mieszko-ier|Mieszko Ier]] se fait baptiser : c’est la naissance symbolique de la Pologne, qui entre dans la chrétienté latine.",
+    "Son fils Boleslas Ier le Vaillant agrandit le pays et devient le premier roi de Pologne en 1025.",
+    "À partir de 1138, la Pologne se divise entre plusieurs princes ; elle subit l’invasion mongole de 1241 et doit faire face aux chevaliers Teutoniques au nord.",
+    "Ladislas le Bref réunifie le royaume en 1320 ; son fils [[casimir-iii-le-grand|Casimir III le Grand]] le modernise et fonde l’université de Cracovie (1364).",
+    "Après la mort de Casimir, dernier roi Piast, la reine Hedwige épouse le grand-duc de Lituanie Jogaila (1386) : c’est le début de l’union polono-lituanienne."
+  ],
+  "datesCles": [
+    {
+      "annee": 966,
+      "evenement": "Baptême de Mieszko",
+      "info": "Le duc des Polanes se convertit au christianisme.",
+      "ref": "bapteme-de-la-pologne"
+    },
+    {
+      "annee": 1000,
+      "evenement": "Congrès de Gniezno",
+      "info": "L’empereur Otton III rencontre Boleslas Ier ; Gniezno devient un archevêché."
+    },
+    { "annee": 1025, "evenement": "Premier roi", "info": "Boleslas Ier le Vaillant est couronné roi." },
+    {
+      "annee": 1138,
+      "evenement": "Division",
+      "info": "Le testament de Boleslas III partage le pays entre ses fils."
+    },
+    { "annee": 1241, "evenement": "Legnica", "info": "Les Mongols écrasent une armée polonaise et allemande." },
+    { "annee": 1320, "evenement": "Réunification", "info": "Ladislas le Bref est couronné roi à Cracovie." },
+    {
+      "annee": 1364,
+      "evenement": "Université de Cracovie",
+      "info": "Casimir III fonde la première université du pays."
+    },
+    {
+      "annee": 1385,
+      "evenement": "Union de Krewo",
+      "info": "Accord prévoyant le mariage de la reine Hedwige et de Jogaila, grand-duc de Lituanie."
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "Le premier royaume",
+      "debut": 966,
+      "fin": 1138,
+      "resume": "Les Piast christianisent et unifient la Pologne.",
+      "evenements": [
+        { "annee": 966, "evenement": "Baptême de Mieszko Ier", "ref": "bapteme-de-la-pologne" },
+        { "annee": 1025, "evenement": "Premier roi" }
+      ]
+    },
+    {
+      "nom": "La division",
+      "debut": 1138,
+      "fin": 1320,
+      "resume": "Le pays est partagé entre princes rivaux ; il subit les Mongols et voit s’installer les chevaliers Teutoniques.",
+      "evenements": [
+        { "annee": 1226, "evenement": "Arrivée des chevaliers Teutoniques" },
+        { "annee": 1241, "evenement": "Bataille de Legnica" }
+      ]
+    },
+    {
+      "nom": "Le royaume réunifié",
+      "debut": 1320,
+      "fin": 1385,
+      "resume": "Ladislas le Bref et Casimir le Grand reconstruisent un royaume fort.",
+      "evenements": [
+        { "annee": 1320, "evenement": "Couronnement de Ladislas le Bref" },
+        { "annee": 1364, "evenement": "Université de Cracovie" }
+      ]
+    }
+  ],
+  "regimes": [
+    { "id": "duche", "nom": "Duché puis royaume", "debut": 966, "fin": 1138 },
+    { "id": "division", "nom": "Principautés divisées", "debut": 1138, "fin": 1320 },
+    { "id": "royaume", "nom": "Royaume", "debut": 1320, "fin": 1385 }
+  ],
+  "dynasties": [
+    { "id": "piast", "nom": "Les Piast", "debut": 966, "fin": 1370, "note": "Sélection." },
+    { "id": "autres", "nom": "Après les Piast", "debut": 1370, "fin": 1385, "note": "Sélection." }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Mieszko Ier",
+      "titre": "Duc",
+      "debut": 966,
+      "fin": 992,
+      "dynastie": "piast",
+      "personne": "mieszko-ier",
+      "cle": true
+    },
+    {
+      "nom": "Boleslas Ier le Vaillant",
+      "titre": "Duc, puis roi",
+      "debut": 992,
+      "fin": 1025,
+      "dynastie": "piast",
+      "note": "premier roi",
+      "cle": true
+    },
+    {
+      "nom": "Boleslas III Bouche-Torse",
+      "titre": "Duc",
+      "debut": 1107,
+      "fin": 1138,
+      "dynastie": "piast",
+      "note": "son testament divise le pays",
+      "cle": true
+    },
+    {
+      "nom": "Ladislas le Bref",
+      "titre": "Roi",
+      "debut": 1320,
+      "fin": 1333,
+      "dynastie": "piast",
+      "note": "réunifie le royaume",
+      "cle": true
+    },
+    {
+      "nom": "Casimir III le Grand",
+      "titre": "Roi",
+      "debut": 1333,
+      "fin": 1370,
+      "dynastie": "piast",
+      "personne": "casimir-iii-le-grand",
+      "cle": true
+    },
+    { "nom": "Louis Ier de Hongrie", "titre": "Roi", "debut": 1370, "fin": 1382, "dynastie": "autres" },
+    {
+      "nom": "Hedwige",
+      "titre": "Reine (« roi »)",
+      "debut": 1384,
+      "fin": 1399,
+      "dynastie": "autres",
+      "note": "épouse Jogaila de Lituanie"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Mieszko Ier",
+      "role": "Duc des Polanes",
+      "description": "Le premier souverain historique de la Pologne.",
+      "dates": "vers 935 → 992",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Mieszko_Ier",
+      "ref": "mieszko-ier"
+    },
+    {
+      "nom": "Casimir III le Grand",
+      "role": "Roi",
+      "description": "Le dernier roi Piast, grand bâtisseur.",
+      "dates": "1310 → 1370",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Casimir_III_de_Pologne",
+      "ref": "casimir-iii-le-grand"
+    },
+    {
+      "nom": "Hedwige",
+      "role": "Reine de Pologne",
+      "description": "Couronnée « roi » en 1384, elle épouse Jogaila, unissant la Pologne et la Lituanie.",
+      "dates": "vers 1374 → 1399",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Hedwige_Ire_de_Pologne"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Bataille de Legnica",
+      "annee": 1241,
+      "adversaires": ["Empire mongol"],
+      "allies": ["Chevaliers allemands et Templiers"],
+      "morts": "Inconnues",
+      "vainqueur": "Mongols",
+      "consequences": "Le duc Henri II le Pieux est tué ; deux jours plus tard, les Mongols écrasent aussi les Hongrois à Mohi, puis repartent vers l’est en 1242.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Legnica"
+    },
+    {
+      "nom": "Guerre polono-teutonique (1326-1332)",
+      "annee": 1326,
+      "adversaires": ["Ordre Teutonique"],
+      "allies": ["Lituanie"],
+      "morts": "Inconnues",
+      "vainqueur": "Ordre Teutonique",
+      "consequences": "Les chevaliers Teutoniques conservent la Poméranie de Dantzig, qui coupe la Pologne de la mer ; la paix de Kalisz (1343) confirme leurs conquêtes.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Polish%E2%80%93Teutonic_War_(1326%E2%80%931332)"
+    }
+  ],
+  "sciences": "Casimir III fonde en 1364 l’académie de Cracovie, l’une des plus anciennes universités d’Europe centrale, où étudiera plus tard Copernic. Il fait construire des dizaines de châteaux et de villes fortifiées. Les mines de sel de Wieliczka et de Bochnia, exploitées depuis le XIIIe siècle, font la richesse du royaume.",
+  "croyancesText": "Le baptême de Mieszko Ier en 966 fait entrer la Pologne dans la chrétienté latine ; l’archevêché de Gniezno est fondé en 1000. L’Église catholique joue un grand rôle dans l’unité du pays pendant la période de division. En 1264, le statut de Kalisz accorde protection et droits aux Juifs, qui s’installent nombreux en Pologne.",
+  "diplomatie": "La Pologne entretient des relations difficiles avec le Saint-Empire, puis avec les chevaliers Teutoniques installés au nord en 1226. Elle s’allie à la Hongrie et à la Lituanie. L’union avec la Lituanie, en 1385-1386, crée l’un des plus grands États d’Europe.",
+  "societe": "La société est dominée par les princes, la noblesse et l’Église. Des colons allemands sont invités à fonder des villes et des villages selon le « droit allemand ». Casimir III protège les paysans et les Juifs, ce qui lui vaut le surnom de « roi des paysans ».",
+  "economie": "Agriculture, sel de Wieliczka, commerce sur la Vistule vers la Baltique, artisanat urbain.",
+  "arts": "Cathédrale de Gniezno et ses portes de bronze, château et cathédrale du Wawel à Cracovie, églises romanes et gothiques de brique.",
+  "quotidien": "À Cracovie, une sonnerie de trompette, le hejnał, est jouée chaque heure du haut d’une tour ; selon la tradition, elle s’interrompt brusquement en souvenir d’un trompette tué par une flèche mongole.",
+  "heritage": [
+    {
+      "titre": "Le « roi de pierre »",
+      "texte": "On dit que Casimir le Grand a trouvé une Pologne de bois et l’a laissée de pierre."
+    },
+    {
+      "titre": "Au patrimoine mondial",
+      "texte": "Le centre historique de Cracovie et les mines de sel de Wieliczka ont été parmi les tout premiers sites inscrits au patrimoine mondial de l’UNESCO, en 1978."
+    }
+  ],
+  "aSavoir": ["Hedwige fut couronnée « roi » et non « reine » de Pologne, pour souligner qu’elle régnait elle-même."],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Piast",
+    "https://fr.wikipedia.org/wiki/Histoire_de_la_Pologne",
+    {
+      "titre": "Encyclopædia Britannica — Poland, the Piast dynasty",
+      "url": "https://www.britannica.com/place/Poland/The-emergence-of-Poland"
+    }
+  ]
+}

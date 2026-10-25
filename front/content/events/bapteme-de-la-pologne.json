@@ -1,0 +1,20 @@
+{
+  "id": "bapteme-de-la-pologne",
+  "nom": "Baptême de la Pologne",
+  "annee": 966,
+  "dates": "966 (date traditionnelle : 14 avril)",
+  "lieu": "Probablement Gniezno ou Poznań (Pologne)",
+  "description": "Le duc Mieszko Ier se fait baptiser, entraînant l’entrée de son peuple dans le christianisme latin.",
+  "sections": [
+    {
+      "titre": "Pourquoi ?",
+      "texte": "Le baptême rapproche Mieszko de la Bohême, dont il épouse une princesse, et lui évite que les princes chrétiens voisins prennent prétexte de son paganisme pour l’attaquer."
+    },
+    {
+      "titre": "Aujourd’hui",
+      "texte": "Les Polonais considèrent 966 comme la date de naissance de leur État ; le 1050e anniversaire a été fêté en 2016."
+    }
+  ],
+  "liens": [{ "ref": "mieszko-ier", "relation": "Le duc baptisé" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bapt%C3%AAme_de_la_Pologne"
+}

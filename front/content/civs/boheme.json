@@ -1,0 +1,253 @@
+{
+  "documentaires": [],
+  "decouvertes": [],
+  "id": "boheme",
+  "label": "Royaume de Bohême",
+  "tier": 2,
+  "region": "europe-centrale",
+  "period": "vers 870 à 1526",
+  "start": 870,
+  "end": 1526,
+  "color": "#9e9d24",
+  "trackId": "boheme",
+  "row": 14,
+  "isRiver": false,
+  "capitale": "Prague",
+  "description": "L’État tchèque, d’abord duché puis royaume au sein du Saint-Empire, qui devient au XIVe siècle le cœur de l’Empire sous Charles IV, puis le berceau de la réforme de Jan Hus, avant de passer aux Habsbourg en 1526.",
+  "territories": [],
+  "reperes": {
+    "capitale": { "valeur": "Prague", "precision": "capitale du Saint-Empire sous Charles IV" },
+    "regimes": {
+      "valeur": "Duché, puis royaume (1198)",
+      "precision": "au sein du Saint-Empire ; le roi de Bohême est l’un des sept princes-électeurs"
+    },
+    "langues": { "valeur": "Tchèque, allemand et latin" },
+    "religion": {
+      "valeur": "Catholicisme, puis hussitisme",
+      "precision": "au XVe siècle, une grande partie des Tchèques suit les idées de Jan Hus"
+    },
+    "apogee": { "valeur": "Règne de Charles IV (1346 → 1378)" },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": {
+      "valeur": "Gros de Prague",
+      "precision": "pièce d’argent frappée à partir de 1300 grâce aux mines de Kutná Hora"
+    },
+    "duree": { "valeur": "Environ 650 ans" },
+    "aujourdhui": { "valeur": "République tchèque" }
+  },
+  "essentiel": [
+    "Vers 870, le duc Bořivoj Ier, de la dynastie des Přemyslides, unit les tribus tchèques autour de Prague et se convertit au christianisme.",
+    "Le duc Venceslas, assassiné par son frère en 935, devient le saint patron des Tchèques ; la Bohême devient un royaume héréditaire en 1198.",
+    "Grâce à ses mines d’argent, la Bohême s’enrichit ; sous [[charles-iv|Charles IV]], roi et empereur, Prague devient la capitale du Saint-Empire et reçoit la première université d’Europe centrale (1348).",
+    "Le prédicateur [[jan-hus|Jan Hus]] critique l’Église ; son exécution en 1415 déclenche les guerres hussites, pendant lesquelles les Tchèques repoussent cinq croisades.",
+    "En 1526, le roi Louis II meurt à Mohács ; la couronne de Bohême passe aux Habsbourg."
+  ],
+  "datesCles": [
+    {
+      "annee": 870,
+      "evenement": "Bořivoj Ier",
+      "info": "Vers 870, le premier duc historique des Tchèques règne depuis Prague."
+    },
+    {
+      "annee": 935,
+      "evenement": "Saint Venceslas",
+      "info": "Le duc Venceslas est assassiné par son frère ; il devient le saint patron de la Bohême."
+    },
+    { "annee": 1198, "evenement": "Royaume", "info": "Ottokar Ier obtient le titre de roi héréditaire." },
+    {
+      "annee": 1278,
+      "evenement": "Marchfeld",
+      "info": "Le roi Ottokar II est tué en combattant Rodolphe de Habsbourg."
+    },
+    { "annee": 1348, "evenement": "Université", "info": "Charles IV fonde l’université de Prague." },
+    {
+      "annee": 1356,
+      "evenement": "Bulle d’or",
+      "info": "Le roi de Bohême est l’un des sept princes qui élisent l’empereur.",
+      "ref": "bulle-d-or"
+    },
+    {
+      "annee": 1415,
+      "evenement": "Jan Hus",
+      "info": "Le réformateur est condamné et brûlé au concile de Constance."
+    },
+    {
+      "annee": 1420,
+      "evenement": "Guerres hussites",
+      "info": "Les hussites repoussent une première croisade lancée contre eux."
+    },
+    {
+      "annee": 1526,
+      "evenement": "Les Habsbourg",
+      "info": "Après la mort de Louis II à Mohács, Ferdinand de Habsbourg devient roi de Bohême."
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "Les Přemyslides",
+      "debut": 870,
+      "fin": 1306,
+      "resume": "Les ducs puis rois de la dynastie fondatrice christianisent le pays et l’enrichissent grâce à l’argent.",
+      "evenements": [
+        { "annee": 935, "evenement": "Assassinat de saint Venceslas" },
+        { "annee": 1198, "evenement": "Royaume héréditaire" },
+        { "annee": 1278, "evenement": "Bataille de Marchfeld" }
+      ]
+    },
+    {
+      "nom": "Les Luxembourg",
+      "debut": 1310,
+      "fin": 1419,
+      "resume": "Charles IV fait de Prague la capitale du Saint-Empire.",
+      "evenements": [{ "annee": 1348, "evenement": "Université de Prague" }, { "annee": 1415, "evenement": "Mort de Jan Hus" }]
+    },
+    {
+      "nom": "Hussites et Jagellon",
+      "debut": 1419,
+      "fin": 1526,
+      "resume": "Après les guerres hussites, la Bohême est gouvernée par le roi hussite Georges de Poděbrady, puis par les Jagellon.",
+      "evenements": [
+        { "annee": 1420, "evenement": "Première croisade contre les hussites" },
+        { "annee": 1458, "evenement": "Georges de Poděbrady roi" }
+      ]
+    }
+  ],
+  "regimes": [
+    { "id": "duche", "nom": "Duché", "debut": 870, "fin": 1198 },
+    { "id": "royaume", "nom": "Royaume", "debut": 1198, "fin": 1526 }
+  ],
+  "dynasties": [
+    { "id": "premyslides", "nom": "Les Přemyslides", "debut": 870, "fin": 1306, "note": "Sélection." },
+    { "id": "autres", "nom": "Luxembourg, Poděbrady et Jagellon", "debut": 1310, "fin": 1526, "note": "Sélection." }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Bořivoj Ier",
+      "titre": "Duc",
+      "debut": 870,
+      "fin": 889,
+      "dynastie": "premyslides",
+      "note": "premier duc historique",
+      "cle": true
+    },
+    {
+      "nom": "Venceslas Ier",
+      "titre": "Duc",
+      "debut": 921,
+      "fin": 935,
+      "dynastie": "premyslides",
+      "note": "saint patron des Tchèques",
+      "cle": true
+    },
+    {
+      "nom": "Ottokar Ier",
+      "titre": "Roi",
+      "debut": 1198,
+      "fin": 1230,
+      "dynastie": "premyslides",
+      "note": "premier roi héréditaire"
+    },
+    {
+      "nom": "Ottokar II",
+      "titre": "Roi",
+      "surnom": "le roi de fer et d’or",
+      "debut": 1253,
+      "fin": 1278,
+      "dynastie": "premyslides",
+      "cle": true
+    },
+    {
+      "nom": "Charles IV",
+      "titre": "Roi et empereur",
+      "debut": 1346,
+      "fin": 1378,
+      "dynastie": "autres",
+      "personne": "charles-iv",
+      "cle": true
+    },
+    {
+      "nom": "Georges de Poděbrady",
+      "titre": "Roi",
+      "debut": 1458,
+      "fin": 1471,
+      "dynastie": "autres",
+      "note": "roi hussite"
+    },
+    { "nom": "Louis II", "titre": "Roi", "debut": 1516, "fin": 1526, "dynastie": "autres", "note": "meurt à Mohács" }
+  ],
+  "personnages": [
+    {
+      "nom": "Saint Venceslas",
+      "role": "Duc de Bohême",
+      "description": "Assassiné par son frère, il devient le saint patron des Tchèques.",
+      "dates": "vers 907 → 935",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Venceslas_Ier_de_Boh%C3%AAme"
+    },
+    {
+      "nom": "Charles IV",
+      "role": "Roi et empereur",
+      "description": "Le souverain qui fait de Prague la capitale de l’Empire.",
+      "dates": "1316 → 1378",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Charles_IV_(empereur_du_Saint-Empire)",
+      "ref": "charles-iv"
+    },
+    {
+      "nom": "Jan Hus",
+      "role": "Réformateur religieux",
+      "description": "Prédicateur brûlé en 1415, inspirateur du mouvement hussite.",
+      "dates": "vers 1370 → 1415",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Jan_Hus",
+      "ref": "jan-hus"
+    },
+    {
+      "nom": "Jan Žižka",
+      "role": "Chef de guerre hussite",
+      "description": "Borgne puis aveugle, il remporte toutes ses batailles grâce à ses chariots de guerre.",
+      "dates": "vers 1360 → 1424",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Jan_%C5%BDi%C5%BEka"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Bataille de Marchfeld",
+      "annee": 1278,
+      "adversaires": ["Rodolphe de Habsbourg et la Hongrie"],
+      "allies": [],
+      "morts": "Plusieurs milliers",
+      "vainqueur": "Rodolphe de Habsbourg",
+      "consequences": "Le roi Ottokar II est tué ; les Habsbourg s’emparent de l’Autriche, qui devient le cœur de leur puissance.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Marchfeld"
+    },
+    {
+      "nom": "Croisades hussites",
+      "annee": 1420,
+      "adversaires": ["Croisés du Saint-Empire (empereur Sigismond)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Les hussites repoussent cinq croisades",
+      "consequences": "Les hussites, menés par Jan Žižka puis Procope le Grand, battent les armées croisées ; en 1436, ils obtiennent le droit de communier sous les deux espèces, une première brèche dans l’unité de l’Église.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Croisades_contre_les_hussites"
+    }
+  ],
+  "sciences": "Les mines d’argent de Kutná Hora font de la Bohême l’une des régions les plus riches d’Europe. Charles IV fonde en 1348 l’université de Prague et fait construire le pont Charles et la Nouvelle Ville. L’horloge astronomique de Prague, installée en 1410, fonctionne encore. Les hussites inventent une tactique de chariots de guerre reliés entre eux, armés de canons.",
+  "croyancesText": "La Bohême est catholique depuis le IXe siècle ; saint Venceslas en est le patron. Au début du XVe siècle, le prêtre Jan Hus critique la richesse de l’Église et la vente des indulgences ; condamné, il est brûlé en 1415. Ses partisans, les hussites, demandent notamment que les fidèles communient avec le pain et le vin.",
+  "diplomatie": "La Bohême fait partie du Saint-Empire, dont son roi est l’un des sept électeurs ; elle se tourne aussi vers la Pologne et la Hongrie. Le roi Georges de Poděbrady propose en 1464 une alliance pacifique des princes chrétiens, parfois vue comme une lointaine idée d’Europe unie.",
+  "societe": "La noblesse, le clergé et les villes se partagent le pouvoir avec le roi. Les Tchèques et les Allemands vivent ensemble dans les villes, ce qui crée parfois des tensions, notamment à l’université.",
+  "economie": "Mines d’argent, agriculture, artisanat, commerce ; frappe du gros de Prague.",
+  "arts": "Château et cathédrale Saint-Guy de Prague, pont Charles, horloge astronomique, peinture gothique.",
+  "quotidien": "À l’horloge astronomique de Prague, des figurines d’apôtres défilent chaque heure devant les passants.",
+  "heritage": [
+    {
+      "titre": "Prague",
+      "texte": "Le centre historique de Prague est inscrit au patrimoine mondial de l’UNESCO depuis 1992."
+    },
+    { "titre": "Jan Hus", "texte": "Le 6 juillet, jour de sa mort, est un jour férié en République tchèque." }
+  ],
+  "aSavoir": [
+    "Le pont Charles, à Prague, aurait été commencé le 9 juillet 1357 à 5 h 31, une date choisie, selon une tradition, pour former la suite de chiffres 1-3-5-7-9-7-5-3-1."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Royaume_de_Boh%C3%AAme",
+    { "titre": "Encyclopædia Britannica — Bohemia", "url": "https://www.britannica.com/place/Bohemia" }
+  ]
+}

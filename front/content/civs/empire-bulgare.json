@@ -1,0 +1,270 @@
+{
+  "documentaires": [],
+  "decouvertes": ["alphabet-cyrillique"],
+  "id": "empire-bulgare",
+  "label": "Empire bulgare",
+  "tier": 2,
+  "region": "balkans",
+  "period": "681 à 1396",
+  "start": 681,
+  "end": 1396,
+  "color": "#ad1457",
+  "trackId": "bulgarie",
+  "row": 11,
+  "isRiver": false,
+  "capitale": "Pliska, Preslav, puis Tarnovo",
+  "description": "L’État fondé par les Bulgares au sud du Danube en 681, rival de Byzance, qui adopte le christianisme orthodoxe et voit naître l’alphabet cyrillique, avant d’être conquis par les Ottomans à la fin du XIVe siècle.",
+  "territories": ["Bulgars", "Danube Bulgars", "Bulgar Khanate"],
+  "reperes": {
+    "capitale": {
+      "valeur": "Pliska, Preslav, puis Tarnovo",
+      "precision": "Tarnovo est la capitale du second Empire bulgare (1185-1393)"
+    },
+    "regimes": {
+      "valeur": "Khanat, puis royaume et empire (tsarat)",
+      "precision": "le souverain prend le titre de tsar au Xe siècle"
+    },
+    "langues": { "valeur": "Slavon (vieux bulgare)", "precision": "les Bulgares, d’origine turque, adoptent la langue slave" },
+    "religion": { "valeur": "Christianisme orthodoxe", "precision": "adopté en 864-865 sous Boris Ier" },
+    "apogee": { "valeur": "Règne de Siméon Ier (893 → 927)" },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": { "valeur": "Pièces byzantines, puis monnaie bulgare au XIIIe siècle" },
+    "duree": { "valeur": "Environ 700 ans", "precision": "avec une période de domination byzantine (1018-1185)" },
+    "aujourdhui": {
+      "valeur": "Bulgarie",
+      "precision": "et une partie de la Macédoine du Nord, de la Serbie, de la Roumanie et de la Grèce"
+    }
+  },
+  "essentiel": [
+    "En 681, les Bulgares d’Asparoukh, un peuple venu des steppes, s’installent au sud du Danube après avoir battu les Byzantins ; ils s’unissent aux Slaves de la région.",
+    "Au IXe siècle, le khan Kroum bat et tue l’empereur byzantin Nicéphore Ier (811) ; le roi [[boris-ier-de-bulgarie|Boris Ier]] adopte le christianisme orthodoxe.",
+    "Les disciples de Cyrille et Méthode s’installent en Bulgarie ; l’alphabet [[alphabet-cyrillique|cyrillique]] y est mis au point et se diffuse ensuite dans le monde slave orthodoxe.",
+    "Sous Siméon Ier, qui prend le titre de tsar, la Bulgarie domine les Balkans ; mais l’empereur Basile II la conquiert en 1018.",
+    "En 1185, une révolte fonde un second Empire bulgare autour de Tarnovo ; il est conquis par les Ottomans entre 1393 et 1396."
+  ],
+  "datesCles": [
+    { "annee": 681, "evenement": "Fondation", "info": "Byzance reconnaît l’État bulgare au sud du Danube." },
+    {
+      "annee": 811,
+      "evenement": "Pliska",
+      "info": "Le khan Kroum bat l’armée byzantine ; l’empereur Nicéphore Ier est tué."
+    },
+    { "annee": 864, "evenement": "Baptême", "info": "Boris Ier se convertit au christianisme orthodoxe." },
+    { "annee": 893, "evenement": "Siméon Ier", "info": "Début du règne qui marque l’âge d’or de la Bulgarie." },
+    { "annee": 1014, "evenement": "Kleidion", "info": "L’empereur Basile II écrase l’armée bulgare." },
+    { "annee": 1018, "evenement": "Conquête byzantine", "info": "La Bulgarie devient une province byzantine." },
+    {
+      "annee": 1185,
+      "evenement": "Second Empire",
+      "info": "Les frères Asen et Pierre se révoltent et fondent le second Empire bulgare."
+    },
+    {
+      "annee": 1205,
+      "evenement": "Andrinople",
+      "info": "Le tsar Kaloyan bat et capture l’empereur latin de Constantinople."
+    },
+    {
+      "annee": 1393,
+      "evenement": "Chute de Tarnovo",
+      "info": "Les Ottomans prennent la capitale ; Vidin tombe en 1396."
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "Le premier Empire bulgare",
+      "debut": 681,
+      "fin": 1018,
+      "resume": "Les Bulgares fondent un État puissant, rival de Byzance, adoptent le christianisme et développent une culture écrite slave.",
+      "evenements": [
+        { "annee": 811, "evenement": "Victoire de Pliska" },
+        { "annee": 864, "evenement": "Baptême de Boris Ier" },
+        { "annee": 1014, "evenement": "Défaite de Kleidion" }
+      ]
+    },
+    {
+      "nom": "La domination byzantine",
+      "debut": 1018,
+      "fin": 1185,
+      "resume": "La Bulgarie est une province de l’Empire byzantin.",
+      "evenements": []
+    },
+    {
+      "nom": "Le second Empire bulgare",
+      "debut": 1185,
+      "fin": 1396,
+      "resume": "Le royaume renaît autour de Tarnovo, atteint son apogée sous Ivan Asen II, puis est conquis par les Ottomans.",
+      "evenements": [
+        { "annee": 1185, "evenement": "Révolte des Asen" },
+        { "annee": 1205, "evenement": "Bataille d’Andrinople" },
+        { "annee": 1393, "evenement": "Chute de Tarnovo" }
+      ]
+    }
+  ],
+  "regimes": [
+    { "id": "khanat", "nom": "Khanat", "debut": 681, "fin": 864 },
+    { "id": "tsarat", "nom": "Royaume puis tsarat", "debut": 864, "fin": 1396 }
+  ],
+  "dynasties": [
+    { "id": "premier", "nom": "Le premier Empire bulgare", "debut": 681, "fin": 1018, "note": "Sélection." },
+    { "id": "second", "nom": "Le second Empire bulgare", "debut": 1185, "fin": 1396, "note": "Sélection." }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Asparoukh",
+      "titre": "Khan",
+      "debut": 681,
+      "fin": 700,
+      "dynastie": "premier",
+      "note": "fondateur",
+      "cle": true
+    },
+    {
+      "nom": "Kroum",
+      "titre": "Khan",
+      "debut": 803,
+      "fin": 814,
+      "dynastie": "premier",
+      "note": "vainqueur de Nicéphore Ier",
+      "cle": true
+    },
+    {
+      "nom": "Boris Ier",
+      "titre": "Prince",
+      "debut": 852,
+      "fin": 889,
+      "dynastie": "premier",
+      "personne": "boris-ier-de-bulgarie",
+      "cle": true
+    },
+    {
+      "nom": "Siméon Ier",
+      "titre": "Tsar",
+      "surnom": "le Grand",
+      "debut": 893,
+      "fin": 927,
+      "dynastie": "premier",
+      "cle": true
+    },
+    { "nom": "Samuel", "titre": "Tsar", "debut": 997, "fin": 1014, "dynastie": "premier", "note": "vaincu par Basile II" },
+    {
+      "nom": "Kaloyan",
+      "titre": "Tsar",
+      "debut": 1197,
+      "fin": 1207,
+      "dynastie": "second",
+      "note": "bat les croisés à Andrinople",
+      "cle": true
+    },
+    {
+      "nom": "Ivan Asen II",
+      "titre": "Tsar",
+      "debut": 1218,
+      "fin": 1241,
+      "dynastie": "second",
+      "note": "apogée du second Empire",
+      "cle": true
+    },
+    {
+      "nom": "Ivan Chichman",
+      "titre": "Tsar",
+      "debut": 1371,
+      "fin": 1395,
+      "dynastie": "second",
+      "note": "dernier tsar de Tarnovo"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Boris Ier",
+      "role": "Prince des Bulgares",
+      "description": "Il convertit la Bulgarie au christianisme orthodoxe.",
+      "dates": "? → 907",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Boris_Ier_de_Bulgarie",
+      "ref": "boris-ier-de-bulgarie"
+    },
+    {
+      "nom": "Clément d’Ohrid",
+      "role": "Moine et lettré",
+      "description": "Disciple de Cyrille et Méthode, il enseigne l’écriture slave à des milliers d’élèves.",
+      "dates": "vers 840 → 916",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Cl%C3%A9ment_d%27Ohrid"
+    },
+    {
+      "nom": "Basile II",
+      "role": "Empereur byzantin",
+      "description": "Surnommé « le Tueur de Bulgares », il conquiert le premier Empire bulgare.",
+      "dates": "958 → 1025",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Basile_II"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Bataille de Pliska",
+      "annee": 811,
+      "adversaires": ["Empire byzantin (Nicéphore Ier)"],
+      "allies": [],
+      "morts": "Très lourdes pour l’armée byzantine",
+      "vainqueur": "Bulgares (Kroum)",
+      "consequences": "L’empereur Nicéphore Ier est tué ; selon les chroniques, Kroum fait de son crâne une coupe. La Bulgarie s’affirme comme une grande puissance.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Pliska"
+    },
+    {
+      "nom": "Bataille de Kleidion",
+      "annee": 1014,
+      "adversaires": ["Empire byzantin (Basile II)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Empire byzantin",
+      "consequences": "Selon les chroniques byzantines, Basile II fait aveugler des milliers de prisonniers. La Bulgarie est conquise en 1018.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Kleidion"
+    },
+    {
+      "nom": "Bataille d’Andrinople (1205)",
+      "annee": 1205,
+      "adversaires": ["Empire latin de Constantinople (Baudouin Ier)"],
+      "allies": ["Coumans"],
+      "morts": "Inconnues",
+      "vainqueur": "Bulgares (Kaloyan)",
+      "consequences": "L’empereur latin Baudouin, installé à Constantinople par la quatrième croisade, est capturé et meurt en captivité.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_d%27Andrinople_(1205)"
+    },
+    {
+      "nom": "Conquête ottomane de la Bulgarie",
+      "annee": 1393,
+      "adversaires": ["Empire ottoman (Bayezid Ier)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Empire ottoman",
+      "consequences": "Tarnovo tombe en 1393, Vidin en 1396 : la Bulgarie reste sous domination ottomane pendant près de cinq siècles, jusqu’en 1878.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Bulgarian%E2%80%93Ottoman_wars"
+    }
+  ],
+  "sciences": "À la fin du IXe siècle, les écoles de Preslav et d’Ohrid forment des milliers de lettrés qui traduisent en slave les livres religieux grecs ; l’alphabet cyrillique y est mis au point. Les Bulgares bâtissent de grandes forteresses et des églises de pierre et de brique, comme l’église ronde de Preslav.",
+  "croyancesText": "Les premiers Bulgares honorent Tangra, dieu du ciel des peuples des steppes. En 864-865, Boris Ier impose le christianisme orthodoxe malgré la révolte d’une partie des nobles. L’Église bulgare obtient son propre patriarche au Xe siècle. Le monastère de Rila, fondé au Xe siècle, devient un grand centre religieux.",
+  "diplomatie": "La Bulgarie est tour à tour ennemie et partenaire de l’Empire byzantin : guerres, traités, mariages et tributs se succèdent. Elle hésite un temps entre Rome et Constantinople avant de choisir l’Église orthodoxe. Elle affronte aussi les Magyars, les Serbes, les croisés et les Mongols, avant d’être conquise par les Ottomans.",
+  "societe": "Les nobles d’origine bulgare, les boyards, dominent une population surtout slave, qui fusionne peu à peu en un seul peuple. Les monastères jouent un grand rôle dans la culture et l’économie.",
+  "economie": "Agriculture, élevage, commerce entre l’Europe centrale et Byzance par le Danube et la mer Noire.",
+  "arts": "Cavalier de Madara, églises peintes (Boyana), céramique de Preslav, manuscrits enluminés.",
+  "quotidien": "Le cavalier de Madara, un grand relief taillé dans une falaise vers le VIIIe siècle, montre un cavalier, un chien et un lion.",
+  "heritage": [
+    {
+      "titre": "L’alphabet cyrillique",
+      "texte": "Né dans la Bulgarie médiévale, il sert aujourd’hui à écrire le bulgare, le russe, le serbe, l’ukrainien et d’autres langues ; le 24 mai, la Bulgarie fête l’alphabet et la culture slaves."
+    },
+    {
+      "titre": "Au patrimoine mondial",
+      "texte": "Le cavalier de Madara, l’église de Boyana et le monastère de Rila sont inscrits au patrimoine mondial de l’UNESCO."
+    }
+  ],
+  "aSavoir": [
+    "Basile II, surnommé « le Tueur de Bulgares », aurait renvoyé au tsar Samuel des milliers de prisonniers aveuglés ; le tsar serait mort de chagrin en les voyant."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Premier_Empire_bulgare",
+    "https://fr.wikipedia.org/wiki/Second_Empire_bulgare",
+    {
+      "titre": "Encyclopædia Britannica — Bulgaria, history",
+      "url": "https://www.britannica.com/place/Bulgaria/History"
+    }
+  ]
+}

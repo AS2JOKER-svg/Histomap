@@ -1,0 +1,18 @@
+{
+  "id": "matthias-corvin",
+  "nom": "Matthias Corvin",
+  "role": "Roi de Hongrie",
+  "roles": ["Roi", "Mécène"],
+  "dates": "1443 → 1490",
+  "naissance": 1443,
+  "mort": 1490,
+  "description": "Fils du héros Jean Hunyadi, élu roi en 1458, il renforce le pouvoir royal et fait de sa cour de Buda un grand foyer de la Renaissance.",
+  "reperes": [{ "label": "Règne", "valeur": "1458 → 1490" }],
+  "essentiel": [
+    "Il crée une armée permanente de mercenaires, l’« armée noire ».",
+    "Il conquiert la Moravie, la Silésie et s’empare de Vienne en 1485.",
+    "Il réunit une immense bibliothèque, la Corviniana, dont certains livres subsistent.",
+    "Le folklore hongrois en a fait le « roi juste », qui se déguisait pour vérifier la justice rendue au peuple."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Matthias_Corvin"
+}

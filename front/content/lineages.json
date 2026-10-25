@@ -229,5 +229,14 @@
       "bresil-colonial",
       "bresil"
     ]
+  },
+  {
+    "id": "pologne",
+    "label": "Pologne",
+    "color": "#880e4f",
+    "members": [
+      "pologne-piast",
+      "pologne-lituanie"
+    ]
   }
 ]

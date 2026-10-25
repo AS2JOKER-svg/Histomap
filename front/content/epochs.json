@@ -362,12 +362,17 @@
         "label": "Asie / Moyen-Orient",
         "civs": [
           "turquie",
+          "israel-palestine",
+          "arabie-saoudite",
           "iran",
           "chine-contemp",
           "japon",
           "coree-contemp",
           "inde-contemp",
+          "pakistan-bangladesh",
           "indonesie",
+          "viet-nam",
+          "thailande",
           "singapour"
         ]
       },

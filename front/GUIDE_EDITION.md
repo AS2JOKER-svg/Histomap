@@ -73,6 +73,8 @@ Le site ne lit jamais ces fichiers directement : `scripts/build-content.mjs` les
   "dynasties":   [{ "id": "capetiens-directs", "nom": "Capétiens directs", "debut": 987, "fin": 1328 }],
   "personnages": [{ "nom": "…", "role": "…", "description": "…", "dates": "1412 à 1431", "wikiUrl": "https://…", "ref": "jeanne-d-arc" }],
   "guerres":     [{ "nom": "…", "annee": 1337, "adversaires": [], "allies": [], "morts": "…", "vainqueur": "…", "consequences": "…", "wikiUrl": "https://…" }],
+                 // "camp" (facultatif) : nom affiché à la place de la fiche dans « X contre Y », pour une fiche
+                 // qui couvre plusieurs peuples (ex. Israël et Palestine : "camp": "Israël" ou "Palestiniens")
   "sciences": "texte…",
   "croyancesText": "texte…",
   "diplomatie": "texte…",

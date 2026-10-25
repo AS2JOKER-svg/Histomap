@@ -1,0 +1,17 @@
+{
+  "id": "mohammed-ali-jinnah",
+  "nom": "Mohammed Ali Jinnah",
+  "role": "Fondateur du Pakistan",
+  "roles": ["Avocat", "Homme politique"],
+  "dates": "1876 → 1948",
+  "naissance": 1876,
+  "mort": 1948,
+  "description": "Avocat formé à Londres, chef de la Ligue musulmane, il obtient la création du Pakistan en 1947 et en devient le premier gouverneur général.",
+  "essentiel": [
+    "Il défend d’abord l’entente entre hindous et musulmans au sein du mouvement indien.",
+    "À partir de 1940, il réclame un État séparé pour les musulmans.",
+    "Il devient le premier dirigeant du Pakistan en août 1947.",
+    "Il meurt de la tuberculose en septembre 1948."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Muhammad_Ali_Jinnah"
+}

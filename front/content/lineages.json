@@ -279,5 +279,23 @@
       "mamelouks",
       "egypte-contemp"
     ]
+  },
+  {
+    "id": "vietnam",
+    "label": "Viêt Nam",
+    "color": "#fbc02d",
+    "members": [
+      "dai-viet",
+      "viet-nam"
+    ]
+  },
+  {
+    "id": "thailande",
+    "label": "Thaïlande",
+    "color": "#7cb342",
+    "members": [
+      "ayutthaya",
+      "thailande"
+    ]
   }
 ]

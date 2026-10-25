@@ -1,0 +1,311 @@
+{
+  "documentaires": [],
+  "decouvertes": [],
+  "id": "viet-nam",
+  "label": "Viêt Nam",
+  "tier": 1,
+  "region": "asie-sud-est-continentale",
+  "period": "1858 à 2020",
+  "start": 1858,
+  "end": 2020,
+  "trackId": "vietnam",
+  "row": 9,
+  "isRiver": false,
+  "capitale": "Hanoï",
+  "description": "Le Viêt Nam conquis par la France à partir de 1858 et intégré à l’Indochine française, puis divisé et ravagé par trente ans de guerres avant d’être réunifié en 1976 sous un régime communiste.",
+  "territories": ["Vietnam", "Annam", "Tonkin", "Cochin China"],
+  "reperes": {
+    "capitale": {
+      "valeur": "Hanoï",
+      "precision": "Huế est la capitale impériale jusqu’en 1945 ; Saïgon celle du Sud de 1955 à 1975"
+    },
+    "regimes": {
+      "valeur": "Empire sous domination française, puis républiques",
+      "precision": "République socialiste du Viêt Nam (communiste) depuis 1976"
+    },
+    "langues": { "valeur": "Vietnamien", "precision": "écrit en alphabet latin (quốc ngữ)" },
+    "religion": {
+      "valeur": "Bouddhisme et culte des ancêtres",
+      "precision": "minorité catholique ; religions nouvelles comme le caodaïsme"
+    },
+    "population": { "valeur": "Environ 97 millions en 2020" },
+    "monnaie": { "valeur": "Piastre indochinoise, puis dông" },
+    "duree": { "valeur": "Environ 160 ans dans cette fiche" },
+    "aujourdhui": { "valeur": "Viêt Nam" }
+  },
+  "essentiel": [
+    "À partir de 1858, la France conquiert le Viêt Nam, alors gouverné par la dynastie des Nguyễn ; en 1887, elle l’intègre avec le Cambodge à l’Indochine française, que rejoint ensuite le Laos.",
+    "En 1945, [[ho-chi-minh|Hô Chi Minh]] proclame l’indépendance ; la guerre d’Indochine contre la France (1946-1954) se termine par la défaite française à [[bataille-de-dien-bien-phu|Diên Biên Phu]], et le pays est coupé en deux : un Nord communiste et un Sud soutenu par les États-Unis.",
+    "La guerre du Viêt Nam (1955-1975) oppose le Nord et les communistes du Sud (Viêt-cong) au Sud Viêt Nam et aux États-Unis, qui y envoient jusqu’à plus de 500 000 soldats ; elle fait entre 1 et 3 millions de morts vietnamiens selon les estimations.",
+    "Saïgon tombe le 30 avril 1975 et le pays est réunifié en 1976 sous un régime communiste ; des centaines de milliers de « boat people » fuient par la mer.",
+    "À partir de 1986, la politique du Đổi Mới (« renouveau ») ouvre l’économie au marché tout en maintenant le parti unique ; le Viêt Nam connaît depuis une forte croissance."
+  ],
+  "datesCles": [
+    {
+      "annee": 1858,
+      "evenement": "Débarquement à Đà Nẵng",
+      "info": "Une flotte française et espagnole attaque le port de Đà Nẵng."
+    },
+    { "annee": 1862, "evenement": "Traité de Saïgon", "info": "L’empereur cède à la France trois provinces du Sud." },
+    { "annee": 1884, "evenement": "Protectorat", "info": "L’Annam et le Tonkin passent sous protectorat français." },
+    { "annee": 1887, "evenement": "Indochine française", "info": "Création de l’Union indochinoise." },
+    { "annee": 1930, "evenement": "Parti communiste", "info": "Hô Chi Minh fonde le Parti communiste indochinois." },
+    {
+      "annee": 1945,
+      "evenement": "Indépendance proclamée",
+      "info": "Le 2 septembre, Hô Chi Minh proclame la République démocratique du Viêt Nam."
+    },
+    {
+      "annee": 1954,
+      "evenement": "Diên Biên Phu",
+      "info": "Défaite française ; les accords de Genève coupent le pays en deux.",
+      "ref": "bataille-de-dien-bien-phu"
+    },
+    { "annee": 1968, "evenement": "Offensive du Têt", "info": "Les communistes attaquent les villes du Sud." },
+    { "annee": 1975, "evenement": "Chute de Saïgon", "info": "Le 30 avril, les chars du Nord entrent dans Saïgon." },
+    { "annee": 1976, "evenement": "Réunification", "info": "Naissance de la République socialiste du Viêt Nam." },
+    { "annee": 1986, "evenement": "Đổi Mới", "info": "Le Parti communiste ouvre l’économie au marché." }
+  ],
+  "periodes": [
+    {
+      "nom": "La conquête française",
+      "debut": 1858,
+      "fin": 1887,
+      "resume": "La France prend la Cochinchine, puis impose son protectorat sur l’Annam et le Tonkin.",
+      "evenements": [
+        { "annee": 1858, "evenement": "Débarquement à Đà Nẵng" },
+        { "annee": 1862, "evenement": "Traité de Saïgon" },
+        { "annee": 1884, "evenement": "Protectorat" }
+      ]
+    },
+    {
+      "nom": "L’Indochine française",
+      "debut": 1887,
+      "fin": 1945,
+      "resume": "Plantations, mines et écoles françaises ; les nationalistes et les communistes s’organisent.",
+      "evenements": [
+        { "annee": 1887, "evenement": "Indochine française" },
+        { "annee": 1930, "evenement": "Parti communiste indochinois" },
+        { "annee": 1940, "evenement": "Occupation japonaise" }
+      ]
+    },
+    {
+      "nom": "Trente ans de guerre",
+      "debut": 1945,
+      "fin": 1975,
+      "resume": "Guerre d’Indochine contre la France, puis guerre du Viêt Nam entre le Nord et le Sud soutenu par les États-Unis.",
+      "evenements": [
+        { "annee": 1945, "evenement": "Indépendance proclamée" },
+        { "annee": 1954, "evenement": "Diên Biên Phu", "ref": "bataille-de-dien-bien-phu" },
+        { "annee": 1968, "evenement": "Offensive du Têt" },
+        { "annee": 1975, "evenement": "Chute de Saïgon" }
+      ]
+    },
+    {
+      "nom": "Le Viêt Nam réunifié",
+      "debut": 1975,
+      "fin": 2020,
+      "resume": "Régime communiste, guerres avec le Cambodge et la Chine, puis ouverture économique.",
+      "evenements": [
+        { "annee": 1976, "evenement": "Réunification" },
+        { "annee": 1979, "evenement": "Guerre avec la Chine" },
+        { "annee": 1986, "evenement": "Đổi Mới" },
+        { "annee": 1995, "evenement": "Relations avec les États-Unis" }
+      ]
+    }
+  ],
+  "regimes": [
+    {
+      "id": "colonial",
+      "nom": "Empire des Nguyễn sous domination française",
+      "debut": 1858,
+      "fin": 1945,
+      "note": "La Cochinchine est une colonie ; l’Annam et le Tonkin, des protectorats."
+    },
+    {
+      "id": "divise",
+      "nom": "Viêt Nam divisé",
+      "debut": 1945,
+      "fin": 1976,
+      "note": "République démocratique au Nord (Hanoï) ; État, puis République du Viêt Nam au Sud (Saïgon)."
+    },
+    { "id": "rsv", "nom": "République socialiste du Viêt Nam", "debut": 1976, "fin": 2020 }
+  ],
+  "dynasties": [
+    { "id": "nguyen", "nom": "Empereurs Nguyễn", "debut": 1858, "fin": 1945, "note": "Sélection." },
+    { "id": "communistes", "nom": "Dirigeants communistes", "debut": 1945, "fin": 2020, "note": "Sélection." },
+    { "id": "sud", "nom": "Présidents du Sud Viêt Nam", "debut": 1955, "fin": 1975 }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Tự Đức",
+      "titre": "Empereur",
+      "debut": 1858,
+      "fin": 1883,
+      "dynastie": "nguyen",
+      "note": "règne depuis 1847 ; perd la Cochinchine"
+    },
+    {
+      "nom": "Hàm Nghi",
+      "titre": "Empereur",
+      "debut": 1884,
+      "fin": 1885,
+      "dynastie": "nguyen",
+      "note": "appelle à la résistance contre les Français ; exilé en Algérie"
+    },
+    {
+      "nom": "Bảo Đại",
+      "titre": "Empereur, puis chef de l’État",
+      "debut": 1926,
+      "fin": 1955,
+      "dynastie": "nguyen",
+      "note": "dernier empereur",
+      "cle": true
+    },
+    {
+      "nom": "Hô Chi Minh",
+      "titre": "Président de la République démocratique du Viêt Nam",
+      "debut": 1945,
+      "fin": 1969,
+      "dynastie": "communistes",
+      "personne": "ho-chi-minh",
+      "cle": true
+    },
+    {
+      "nom": "Ngô Đình Diệm",
+      "titre": "Président du Sud Viêt Nam",
+      "debut": 1955,
+      "fin": 1963,
+      "dynastie": "sud",
+      "note": "renversé et tué en 1963",
+      "cle": true
+    },
+    {
+      "nom": "Lê Duẩn",
+      "titre": "Secrétaire général du Parti communiste",
+      "debut": 1960,
+      "fin": 1986,
+      "dynastie": "communistes"
+    },
+    { "nom": "Nguyễn Văn Thiệu", "titre": "Président du Sud Viêt Nam", "debut": 1967, "fin": 1975, "dynastie": "sud" },
+    {
+      "nom": "Nguyễn Văn Linh",
+      "titre": "Secrétaire général du Parti communiste",
+      "debut": 1986,
+      "fin": 1991,
+      "dynastie": "communistes",
+      "note": "lance le Đổi Mới",
+      "cle": true
+    },
+    {
+      "nom": "Nguyễn Phú Trọng",
+      "titre": "Secrétaire général du Parti communiste",
+      "debut": 2011,
+      "fin": 2020,
+      "dynastie": "communistes",
+      "note": "aussi président à partir de 2018 ; toujours en fonction à la fin de la période couverte (2020)"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Hô Chi Minh",
+      "role": "Président",
+      "description": "Le fondateur du Viêt Nam communiste.",
+      "dates": "1890 → 1969",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/H%C3%B4_Chi_Minh",
+      "ref": "ho-chi-minh"
+    },
+    {
+      "nom": "Võ Nguyên Giáp",
+      "role": "Général",
+      "description": "Le vainqueur de Diên Biên Phu.",
+      "dates": "1911 → 2013",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/V%C3%B5_Nguy%C3%AAn_Gi%C3%A1p"
+    },
+    {
+      "nom": "Phan Bội Châu",
+      "role": "Nationaliste",
+      "description": "Lettré qui organise la résistance à la colonisation au début du XXe siècle.",
+      "dates": "1867 → 1940",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Phan_B%E1%BB%99i_Ch%C3%A2u"
+    },
+    {
+      "nom": "Thích Quảng Đức",
+      "role": "Moine bouddhiste",
+      "description": "Il s’immole par le feu à Saïgon en 1963 pour protester contre la politique religieuse du régime de Diệm.",
+      "dates": "1897 → 1963",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Th%C3%ADch_Qu%E1%BA%A3ng_%C4%90%E1%BB%A9c"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Campagne de Cochinchine",
+      "annee": 1858,
+      "adversaires": ["France", "Espagne"],
+      "allies": [],
+      "morts": "Plusieurs milliers",
+      "vainqueur": "France",
+      "consequences": "La France prend Saïgon (1859) ; par le traité de Saïgon (1862), l’empereur Tự Đức lui cède trois provinces du Sud, puis la France prend toute la Cochinchine en 1867.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Campagne_de_Cochinchine"
+    },
+    {
+      "nom": "Guerre d’Indochine",
+      "annee": 1946,
+      "camp": "Viêt-minh",
+      "adversaires": ["France", "État du Viêt Nam (Bảo Đại)"],
+      "allies": ["Aide chinoise et soviétique (à partir de 1950)"],
+      "morts": "Plusieurs centaines de milliers, en majorité vietnamiens",
+      "vainqueur": "Viêt-minh",
+      "consequences": "Après la défaite française à Diên Biên Phu (mai 1954), les accords de Genève coupent le Viêt Nam en deux au 17e parallèle, en attendant des élections qui n’auront jamais lieu.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_d%27Indochine"
+    },
+    {
+      "nom": "Guerre Froide (Guerre du Viêt Nam)",
+      "annee": 1955,
+      "camp": "Nord Viêt Nam et Viêt-cong",
+      "adversaires": ["Sud Viêt Nam", "États-Unis et leurs alliés"],
+      "allies": ["Aide soviétique et chinoise"],
+      "morts": "Entre 1 et 3 millions de Vietnamiens selon les estimations ; environ 58 000 Américains",
+      "vainqueur": "Nord Viêt Nam",
+      "consequences": "Bombardements massifs, défoliants comme l’agent orange, massacres comme celui de My Lai (1968), commis par des soldats américains, ou celui de Huế (1968), commis par les forces communistes : les civils paient un lourd tribut. Saïgon tombe le 30 avril 1975.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_du_Vi%C3%AAt_Nam"
+    },
+    {
+      "nom": "Guerre sino-vietnamienne",
+      "annee": 1979,
+      "adversaires": ["Chine"],
+      "allies": [],
+      "morts": "Plusieurs dizaines de milliers",
+      "vainqueur": "Indécis (les deux camps revendiquent la victoire)",
+      "consequences": "La Chine attaque le nord du Viêt Nam pour le punir d’avoir envahi le Cambodge et renversé les Khmers rouges (1978-1979) ; elle se retire après un mois de combats.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_sino-vietnamienne"
+    }
+  ],
+  "sciences": "L’Institut Pasteur de Nha Trang est fondé en 1895 par Alexandre Yersin, qui avait découvert le bacille de la peste l’année précédente. L’écriture du vietnamien en alphabet latin, le quốc ngữ, mise au point par des missionnaires au XVIIe siècle, se généralise au XXe siècle et facilite l’alphabétisation. En 2010, le mathématicien Ngô Bảo Châu reçoit la médaille Fields.",
+  "croyancesText": "La plupart des Vietnamiens pratiquent le culte des ancêtres, mêlé au bouddhisme, au confucianisme et au taoïsme. Le catholicisme, introduit par des missionnaires, compte plusieurs millions de fidèles ; les persécutions de chrétiens servent de prétexte à l’intervention française en 1858. En 1963, des moines bouddhistes protestent contre le régime de Diệm.",
+  "diplomatie": "Allié de l’URSS et soutenu par la Chine pendant les guerres, le Viêt Nam communiste envahit en 1978 le Cambodge, où il renverse le régime des Khmers rouges, puis affronte la Chine en 1979. Il rétablit des relations avec les États-Unis en 1995 et entre la même année dans l’ASEAN.",
+  "societe": "Pendant la colonisation, de grandes plantations d’hévéas emploient une main-d’œuvre mal payée. Après 1975, des centaines de milliers d’habitants du Sud sont envoyés en « camps de rééducation », et de nombreux « boat people » fuient le pays par la mer, au péril de leur vie.",
+  "economie": "Riz, caoutchouc et charbon à l’époque coloniale ; depuis le Đổi Mới, le pays est devenu un grand exportateur de riz, de café, de vêtements et d’électronique.",
+  "arts": "Marionnettes sur l’eau, laque, peinture sur soie, poème Kiều de Nguyễn Du, chansons de Trịnh Công Sơn.",
+  "quotidien": "Le Têt, le Nouvel An lunaire, est la plus grande fête de l’année : on y honore les ancêtres et l’on prépare des gâteaux de riz gluant.",
+  "heritage": [
+    {
+      "titre": "La baie d’Hạ Long",
+      "texte": "Ses milliers d’îles calcaires sont inscrites au patrimoine mondial de l’UNESCO depuis 1994."
+    },
+    {
+      "titre": "Le quốc ngữ",
+      "texte": "Le Viêt Nam est l’un des rares pays d’Asie à écrire sa langue avec l’alphabet latin."
+    }
+  ],
+  "aSavoir": [
+    "Hô Chi Minh n’est pas son vrai nom : né Nguyễn Sinh Cung, il a utilisé de nombreux pseudonymes et a vécu à Paris de 1919 à 1923."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Histoire_du_Vi%C3%AAt_Nam",
+    {
+      "titre": "Encyclopædia Britannica — Vietnam, History",
+      "url": "https://www.britannica.com/place/Vietnam/History"
+    }
+  ]
+}

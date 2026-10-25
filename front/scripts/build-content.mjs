@@ -202,8 +202,9 @@ for (const { epoch, civ } of byId.values())
   for (const g of civ.guerres ?? []) {
     const key = `${g.nom}|${g.annee ?? ''}`
     const war = wars.get(key) ?? {
-      // camp = la première fiche qui raconte la guerre ; une 2e fiche (ex. Qadesh vue par les Hittites) est l'autre camp
-      key, nom: g.nom, annee: g.annee ?? null, epoch: epochOfYear(g.annee, epoch.id), civs: [], camp: [civ.label], adversaires: g.adversaires ?? [],
+      // camp = la première fiche qui raconte la guerre ; une 2e fiche (ex. Qadesh vue par les Hittites) est l'autre camp.
+      // « camp » dans la fiche remplace son nom quand elle couvre plusieurs peuples (ex. Israël et Palestine)
+      key, nom: g.nom, annee: g.annee ?? null, epoch: epochOfYear(g.annee, epoch.id), civs: [], camp: [g.camp ?? civ.label], adversaires: g.adversaires ?? [],
       allies: g.allies ?? [], vainqueur: stripLinks(g.vainqueur ?? ''), consequences: stripLinks(g.consequences ?? ''),
       morts: g.morts ?? '', wikiUrl: g.wikiUrl ?? null, coords: content.conflicts[g.nom]?.coords ?? null,
     }

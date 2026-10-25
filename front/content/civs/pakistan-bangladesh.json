@@ -1,0 +1,308 @@
+{
+  "documentaires": [],
+  "decouvertes": [],
+  "id": "pakistan-bangladesh",
+  "label": "Pakistan et Bangladesh",
+  "tier": 2,
+  "region": "asie-sud",
+  "period": "1947 à 2020",
+  "start": 1947,
+  "end": 2020,
+  "trackId": "pakistan",
+  "row": 9,
+  "isRiver": false,
+  "capitale": "Islamabad et Dacca",
+  "color": "#00796b",
+  "description": "Les deux États nés de la partition de l’Inde britannique en 1947 pour former un pays des musulmans : le Pakistan, dont la partie orientale devient indépendante en 1971 sous le nom de Bangladesh.",
+  "territories": ["Pakistan", "Bangladesh"],
+  "reperes": {
+    "capitale": {
+      "valeur": "Islamabad (Pakistan) et Dacca (Bangladesh)",
+      "precision": "Karachi, puis Rawalpindi, avant Islamabad (1967)"
+    },
+    "regimes": {
+      "valeur": "Républiques",
+      "precision": "nombreux coups d’État et régimes militaires, au Pakistan (1958, 1977, 1999) comme au Bangladesh"
+    },
+    "langues": {
+      "valeur": "Ourdou et anglais (Pakistan), bengali (Bangladesh)",
+      "precision": "pendjabi, sindhi, pachto… au Pakistan"
+    },
+    "religion": { "valeur": "Islam", "precision": "minorités hindoues, chrétiennes, ahmadies et bouddhistes" },
+    "population": { "valeur": "Environ 220 millions (Pakistan) et 165 millions (Bangladesh) en 2020" },
+    "monnaie": { "valeur": "Roupie pakistanaise et taka bangladais" },
+    "duree": { "valeur": "Environ 75 ans dans cette fiche" },
+    "aujourdhui": { "valeur": "Pakistan et Bangladesh" }
+  },
+  "essentiel": [
+    "La Ligue musulmane de [[mohammed-ali-jinnah|Mohammed Ali Jinnah]] réclame un État pour les musulmans de l’Inde britannique ; lors de la [[partition-des-indes|partition]] de 1947, le Pakistan naît en deux parties séparées par environ 1 600 km de territoire indien.",
+    "Dès 1947, le Pakistan et l’Inde se disputent le Cachemire, cause de plusieurs guerres (1947, 1965, 1999).",
+    "Les Bengalis du Pakistan oriental, plus nombreux, se sentent dominés par l’ouest ; en 1971, l’armée pakistanaise réprime violemment leur mouvement, et la guerre de libération, avec l’aide de l’Inde, aboutit à l’indépendance du Bangladesh.",
+    "Le Pakistan connaît une alternance de gouvernements civils et de régimes militaires ; il se dote de l’arme nucléaire (essais en 1998, juste après ceux de l’Inde).",
+    "Le Bangladesh, très peuplé et exposé aux inondations et aux cyclones, connaît une forte croissance économique, portée par l’industrie textile."
+  ],
+  "datesCles": [
+    {
+      "annee": 1947,
+      "evenement": "Partition",
+      "info": "Naissance du Pakistan, le 14 août.",
+      "ref": "partition-des-indes"
+    },
+    {
+      "annee": 1948,
+      "evenement": "Mort de Jinnah",
+      "info": "Le fondateur du Pakistan meurt un an après l’indépendance."
+    },
+    {
+      "annee": 1952,
+      "evenement": "Mouvement pour la langue bengalie",
+      "info": "À Dacca, des étudiants qui réclament la reconnaissance du bengali sont tués."
+    },
+    { "annee": 1956, "evenement": "République islamique", "info": "Première Constitution du Pakistan." },
+    { "annee": 1958, "evenement": "Coup d’État", "info": "Le général Ayub Khan prend le pouvoir." },
+    { "annee": 1965, "evenement": "Guerre indo-pakistanaise", "info": "Deuxième guerre pour le Cachemire." },
+    {
+      "annee": 1971,
+      "evenement": "Indépendance du Bangladesh",
+      "info": "Après neuf mois de guerre, le Pakistan oriental devient le Bangladesh."
+    },
+    { "annee": 1977, "evenement": "Coup d’État", "info": "Le général Zia ul-Haq renverse Zulfikar Ali Bhutto." },
+    {
+      "annee": 1988,
+      "evenement": "Benazir Bhutto",
+      "info": "Première femme élue à la tête du gouvernement d’un pays à majorité musulmane."
+    },
+    { "annee": 1998, "evenement": "Essais nucléaires", "info": "Le Pakistan devient une puissance nucléaire." },
+    {
+      "annee": 2014,
+      "evenement": "Malala",
+      "info": "La Pakistanaise Malala Yousafzai reçoit le prix Nobel de la paix à 17 ans."
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "Un pays en deux parties",
+      "debut": 1947,
+      "fin": 1971,
+      "resume": "Le Pakistan, divisé en deux territoires éloignés, est dominé par sa partie occidentale et par l’armée.",
+      "evenements": [
+        { "annee": 1947, "evenement": "Partition", "ref": "partition-des-indes" },
+        { "annee": 1952, "evenement": "Mouvement pour la langue bengalie" },
+        { "annee": 1958, "evenement": "Coup d’État d’Ayub Khan" }
+      ]
+    },
+    {
+      "nom": "Guerres et régimes militaires",
+      "debut": 1971,
+      "fin": 1990,
+      "resume": "Indépendance du Bangladesh ; au Pakistan, régime de Zia ul-Haq et guerre d’Afghanistan à la frontière.",
+      "evenements": [
+        { "annee": 1971, "evenement": "Indépendance du Bangladesh" },
+        { "annee": 1977, "evenement": "Coup d’État de Zia ul-Haq" },
+        { "annee": 1988, "evenement": "Benazir Bhutto au pouvoir" }
+      ]
+    },
+    {
+      "nom": "Deux pays émergents",
+      "debut": 1990,
+      "fin": 2020,
+      "resume": "Le Pakistan, puissance nucléaire, affronte le terrorisme ; le Bangladesh s’industrialise.",
+      "evenements": [
+        { "annee": 1998, "evenement": "Essais nucléaires pakistanais" },
+        { "annee": 2007, "evenement": "Assassinat de Benazir Bhutto" },
+        { "annee": 2013, "evenement": "Effondrement du Rana Plaza" }
+      ]
+    }
+  ],
+  "regimes": [
+    { "id": "pakistan-uni", "nom": "Pakistan occidental et oriental", "debut": 1947, "fin": 1971 },
+    { "id": "deux-etats", "nom": "Pakistan et Bangladesh", "debut": 1971, "fin": 2020 }
+  ],
+  "dynasties": [
+    { "id": "pakistan", "nom": "Dirigeants du Pakistan", "debut": 1947, "fin": 2020, "note": "Sélection." },
+    { "id": "bangladesh", "nom": "Dirigeants du Bangladesh", "debut": 1971, "fin": 2020, "note": "Sélection." }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Mohammed Ali Jinnah",
+      "titre": "Gouverneur général du Pakistan",
+      "debut": 1947,
+      "fin": 1948,
+      "dynastie": "pakistan",
+      "note": "fondateur du Pakistan",
+      "personne": "mohammed-ali-jinnah",
+      "cle": true
+    },
+    {
+      "nom": "Liaquat Ali Khan",
+      "titre": "Premier ministre",
+      "debut": 1947,
+      "fin": 1951,
+      "dynastie": "pakistan",
+      "note": "assassiné en 1951"
+    },
+    {
+      "nom": "Ayub Khan",
+      "titre": "Président (régime militaire)",
+      "debut": 1958,
+      "fin": 1969,
+      "dynastie": "pakistan",
+      "cle": true
+    },
+    {
+      "nom": "Zulfikar Ali Bhutto",
+      "titre": "Président, puis Premier ministre",
+      "debut": 1971,
+      "fin": 1977,
+      "dynastie": "pakistan",
+      "note": "renversé, puis exécuté en 1979",
+      "cle": true
+    },
+    {
+      "nom": "Mujibur Rahman",
+      "titre": "Président, puis Premier ministre du Bangladesh",
+      "debut": 1971,
+      "fin": 1975,
+      "dynastie": "bangladesh",
+      "note": "« père de la nation », assassiné en 1975"
+    },
+    { "nom": "Zia ul-Haq", "titre": "Président (régime militaire)", "debut": 1977, "fin": 1988, "dynastie": "pakistan" },
+    {
+      "nom": "Benazir Bhutto",
+      "titre": "Première ministre",
+      "debut": 1988,
+      "fin": 1990,
+      "dynastie": "pakistan",
+      "note": "de nouveau de 1993 à 1996 ; assassinée en 2007",
+      "cle": true
+    },
+    {
+      "nom": "Pervez Musharraf",
+      "titre": "Président (régime militaire)",
+      "debut": 1999,
+      "fin": 2008,
+      "dynastie": "pakistan"
+    },
+    {
+      "nom": "Sheikh Hasina",
+      "titre": "Première ministre du Bangladesh",
+      "debut": 2009,
+      "fin": 2020,
+      "dynastie": "bangladesh",
+      "note": "déjà de 1996 à 2001 ; toujours en fonction à la fin de la période couverte (2020)"
+    },
+    {
+      "nom": "Imran Khan",
+      "titre": "Premier ministre du Pakistan",
+      "debut": 2018,
+      "fin": 2020,
+      "dynastie": "pakistan",
+      "note": "toujours en fonction à la fin de la période couverte (2020)"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Mohammed Ali Jinnah",
+      "role": "Fondateur du Pakistan",
+      "description": "Avocat, chef de la Ligue musulmane, appelé au Pakistan « le grand chef ».",
+      "dates": "1876 → 1948",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Muhammad_Ali_Jinnah",
+      "ref": "mohammed-ali-jinnah"
+    },
+    {
+      "nom": "Mujibur Rahman",
+      "role": "Père du Bangladesh",
+      "description": "Chef de la Ligue Awami, il mène le Bangladesh à l’indépendance.",
+      "dates": "1920 → 1975",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Sheikh_Mujibur_Rahman"
+    },
+    {
+      "nom": "Benazir Bhutto",
+      "role": "Première ministre",
+      "description": "Fille de Zulfikar Ali Bhutto, deux fois Première ministre, assassinée en 2007.",
+      "dates": "1953 → 2007",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Benazir_Bhutto"
+    },
+    {
+      "nom": "Malala Yousafzai",
+      "role": "Militante",
+      "description": "Blessée par balle par les talibans en 2012 pour avoir défendu l’éducation des filles, prix Nobel de la paix en 2014.",
+      "dates": "née en 1997",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Malala_Yousafzai"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Première guerre indo-pakistanaise",
+      "annee": 1947,
+      "camp": "Pakistan",
+      "adversaires": ["Inde"],
+      "allies": ["Combattants tribaux pachtounes"],
+      "morts": "Plusieurs milliers de soldats de chaque côté",
+      "vainqueur": "Aucun (cessez-le-feu de l’ONU, 1949)",
+      "consequences": "Le Cachemire est partagé par une ligne de cessez-le-feu : la plus grande partie revient à l’Inde, le reste au Pakistan. Le conflit n’est toujours pas résolu.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Premi%C3%A8re_guerre_indo-pakistanaise"
+    },
+    {
+      "nom": "Deuxième guerre indo-pakistanaise",
+      "annee": 1965,
+      "camp": "Pakistan",
+      "adversaires": ["Inde"],
+      "allies": [],
+      "morts": "Plusieurs milliers de soldats de chaque côté",
+      "vainqueur": "Aucun (accord de Tachkent, 1966)",
+      "consequences": "Après des combats au Cachemire et au Pendjab, l’URSS organise la paix de Tachkent : chaque armée revient sur ses positions.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Deuxi%C3%A8me_guerre_indo-pakistanaise"
+    },
+    {
+      "nom": "Guerre de libération du Bangladesh",
+      "annee": 1971,
+      "camp": "Indépendantistes bengalis (Mukti Bahini)",
+      "adversaires": ["Armée pakistanaise"],
+      "allies": ["Inde (à partir de décembre 1971)"],
+      "morts": "Entre 300 000 et 3 millions selon les sources ; environ 10 millions de réfugiés en Inde",
+      "vainqueur": "Bangladesh et Inde",
+      "consequences": "À partir du 25 mars 1971, l’armée pakistanaise réprime le mouvement bengali ; massacres et viols de masse sont commis. Des violences visent aussi les Biharis, musulmans non bengalis jugés favorables au Pakistan. Après l’intervention de l’Inde, l’armée pakistanaise capitule à Dacca le 16 décembre 1971.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_de_lib%C3%A9ration_du_Bangladesh"
+    },
+    {
+      "nom": "Guerre de Kargil",
+      "annee": 1999,
+      "camp": "Pakistan",
+      "adversaires": ["Inde"],
+      "allies": [],
+      "morts": "Environ 500 soldats indiens et plusieurs centaines de combattants venus du Pakistan",
+      "vainqueur": "Inde",
+      "consequences": "Des soldats et des combattants venus du Pakistan occupent des hauteurs du Cachemire indien ; l’armée indienne les repousse après deux mois de combats en haute montagne.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_de_Kargil"
+    }
+  ],
+  "sciences": "Le physicien pakistanais Abdus Salam reçoit en 1979 le prix Nobel de physique pour ses travaux sur les forces fondamentales de la nature. Au Bangladesh, l’économiste Muhammad Yunus développe le microcrédit, de petits prêts aux plus pauvres, surtout aux femmes, avec la Grameen Bank (prix Nobel de la paix 2006). Le Pakistan réalise ses premiers essais nucléaires en 1998.",
+  "croyancesText": "Le Pakistan est créé comme une patrie pour les musulmans de l’Inde et devient une « République islamique » en 1956. Les minorités religieuses subissent des discriminations : hindous, chrétiens, et ahmadis, déclarés non musulmans par la loi en 1974 (le physicien Abdus Salam en faisait partie). Le Bangladesh, majoritairement musulman, compte une importante minorité hindoue.",
+  "diplomatie": "Rival de l’Inde pour le Cachemire, le Pakistan s’allie aux États-Unis pendant la guerre froide et entretient des liens étroits avec la Chine. Dans les années 1980, il sert de base arrière aux combattants afghans contre l’armée soviétique. Le Bangladesh garde de bonnes relations avec l’Inde, qui l’a aidé en 1971.",
+  "societe": "La partition de 1947 jette sur les routes environ 15 millions de personnes et fait des centaines de milliers de morts, peut-être un million. Au Bangladesh, des millions de femmes travaillent dans les usines textiles ; en 2013, l’effondrement de l’immeuble du Rana Plaza, près de Dacca, tue plus de 1 100 ouvriers.",
+  "economie": "Agriculture irriguée par l’Indus et coton au Pakistan ; le Bangladesh est devenu l’un des premiers exportateurs mondiaux de vêtements.",
+  "arts": "Chant qawwali de Nusrat Fateh Ali Khan, poésie de Muhammad Iqbal et de Faiz Ahmed Faiz, chansons de Rabindranath Tagore, auteur de l’hymne national du Bangladesh, mousselines jamdani de Dacca.",
+  "quotidien": "Le cricket est le sport le plus populaire des deux pays ; le Pakistan a remporté la Coupe du monde en 1992.",
+  "heritage": [
+    {
+      "titre": "La Journée internationale de la langue maternelle",
+      "texte": "Chaque 21 février, l’UNESCO célèbre les langues maternelles en souvenir des étudiants tués à Dacca en 1952 alors qu’ils défendaient la langue bengalie."
+    },
+    {
+      "titre": "Les Sundarbans",
+      "texte": "La plus grande forêt de mangrove du monde, partagée avec l’Inde, abrite le tigre du Bengale."
+    }
+  ],
+  "aSavoir": [
+    "Le nom « Pakistan » a été inventé en 1933 par l’étudiant Choudhry Rahmat Ali à partir de noms de régions (Pendjab, Afghanie, Cachemire, Sind) ; en ourdou, il signifie aussi « pays des purs »."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Histoire_du_Pakistan",
+    "https://fr.wikipedia.org/wiki/Histoire_du_Bangladesh",
+    {
+      "titre": "Encyclopædia Britannica — Pakistan, History",
+      "url": "https://www.britannica.com/place/Pakistan/History"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "bataille-de-dien-bien-phu",
+  "nom": "Bataille de Diên Biên Phu",
+  "annee": 1954,
+  "dates": "mars → mai 1954",
+  "lieu": "Diên Biên Phu (nord-ouest du Viêt Nam)",
+  "description": "Bataille décisive de la guerre d’Indochine : le camp retranché français de Diên Biên Phu, encerclé par le Viêt-minh du général Giáp, tombe le 7 mai 1954 après 57 jours de siège.",
+  "sections": [
+    {
+      "titre": "Une surprise",
+      "texte": "Les Français pensaient le Viêt-minh incapable d’amener de l’artillerie lourde dans les montagnes ; des dizaines de milliers de porteurs hissent les canons sur les hauteurs."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "La défaite pousse la France à négocier : les accords de Genève (juillet 1954) mettent fin à la guerre d’Indochine."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Di%C3%AAn_Bi%C3%AAn_Phu"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "david-ben-gourion",
+  "nom": "David Ben Gourion",
+  "role": "Premier ministre d’Israël",
+  "roles": ["Dirigeant sioniste", "Premier ministre"],
+  "dates": "1886 → 1973",
+  "naissance": 1886,
+  "mort": 1973,
+  "description": "Dirigeant du mouvement sioniste en Palestine, il proclame l’indépendance d’Israël le 14 mai 1948 et en devient le premier Premier ministre.",
+  "reperes": [{ "label": "Premier ministre", "valeur": "1948 → 1963", "precision": "avec une interruption en 1954-1955" }],
+  "essentiel": [
+    "Né en Pologne, il s’installe en Palestine ottomane en 1906.",
+    "Il dirige l’Agence juive, qui organise l’immigration et la défense des Juifs sous le mandat.",
+    "Il proclame l’indépendance d’Israël à Tel-Aviv le 14 mai 1948.",
+    "Il organise l’accueil de centaines de milliers d’immigrants dans les années 1950."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/David_Ben_Gourion"
+}

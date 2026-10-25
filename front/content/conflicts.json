@@ -1264,5 +1264,77 @@
   "Révolte des Mau Mau": {
     "coords": [36.75, -0.4],
     "lieu": "Hauts plateaux du centre (monts Aberdare)"
+  },
+  "Grande révolte arabe de 1936-1939": {
+    "coords": [35.25, 32.2],
+    "lieu": "Palestine mandataire"
+  },
+  "Guerre du Liban de 1982": {
+    "coords": [35.5, 33.89],
+    "lieu": "Liban (Beyrouth)"
+  },
+  "Première intifada": {
+    "coords": [35.2, 31.9],
+    "lieu": "Cisjordanie et Gaza"
+  },
+  "Seconde intifada": {
+    "coords": [35.25, 32],
+    "lieu": "Israël et territoires palestiniens"
+  },
+  "Guerre de Gaza de 2014": {
+    "coords": [34.45, 31.5],
+    "lieu": "Bande de Gaza"
+  },
+  "Guerre ottomano-wahhabite": {
+    "coords": [46.57, 24.73],
+    "lieu": "Nejd (Diriyah)"
+  },
+  "Unification de l’Arabie saoudite": {
+    "coords": [39.8, 21.4],
+    "lieu": "Arabie (Nejd et Hedjaz)"
+  },
+  "Guerre du Golfe": {
+    "coords": [47.98, 29.37],
+    "lieu": "Koweït et Irak"
+  },
+  "Guerre civile yéménite": {
+    "coords": [44.2, 15.35],
+    "lieu": "Yémen"
+  },
+  "Première guerre indo-pakistanaise": {
+    "coords": [74.8, 34.08],
+    "lieu": "Cachemire"
+  },
+  "Deuxième guerre indo-pakistanaise": {
+    "coords": [74.35, 31.55],
+    "lieu": "Cachemire et Pendjab"
+  },
+  "Guerre de libération du Bangladesh": {
+    "coords": [90.4, 23.8],
+    "lieu": "Bangladesh (Dacca)"
+  },
+  "Guerre de Kargil": {
+    "coords": [76.13, 34.55],
+    "lieu": "Kargil (Cachemire)"
+  },
+  "Campagne de Cochinchine": {
+    "coords": [108.2, 16.07],
+    "lieu": "Đà Nẵng et Saïgon"
+  },
+  "Guerre d’Indochine": {
+    "coords": [103.02, 21.39],
+    "lieu": "Diên Biên Phu (Tonkin)"
+  },
+  "Guerre sino-vietnamienne": {
+    "coords": [106.76, 21.85],
+    "lieu": "Nord du Viêt Nam (Lạng Sơn)"
+  },
+  "Crise franco-siamoise de 1893": {
+    "coords": [100.58, 13.6],
+    "lieu": "Bangkok et Mékong"
+  },
+  "Guerre franco-thaïlandaise": {
+    "coords": [103, 13.4],
+    "lieu": "Frontière du Cambodge"
   }
 }

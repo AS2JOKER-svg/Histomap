@@ -1,0 +1,17 @@
+{
+  "id": "ho-chi-minh",
+  "nom": "Hô Chi Minh",
+  "role": "Dirigeant vietnamien",
+  "roles": ["Révolutionnaire", "Président"],
+  "dates": "1890 → 1969",
+  "naissance": 1890,
+  "mort": 1969,
+  "description": "Révolutionnaire communiste, fondateur du Viêt-minh, il proclame l’indépendance du Viêt Nam en 1945 et dirige le Nord Viêt Nam jusqu’à sa mort.",
+  "essentiel": [
+    "Il vit en France de 1919 à 1923 et participe à la fondation du Parti communiste français (1920).",
+    "Il fonde le Parti communiste indochinois en 1930.",
+    "Il proclame la République démocratique du Viêt Nam le 2 septembre 1945.",
+    "Saïgon, rebaptisée Hô-Chi-Minh-Ville en 1976, porte son nom."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/H%C3%B4_Chi_Minh"
+}

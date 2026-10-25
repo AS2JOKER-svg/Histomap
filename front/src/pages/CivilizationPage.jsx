@@ -548,7 +548,7 @@ function Guerres({ civ }) {
               <h3 className="font-semibold text-ink leading-snug">{g.nom}</h3>
               {g.annee != null && <span className="text-xs text-muted tabular-nums shrink-0 mt-0.5">{formatYear(g.annee)}</span>}
             </div>
-            <Versus left={[civ.label, ...(g.allies ?? [])]} right={g.adversaires ?? []} />
+            <Versus left={[g.camp ?? civ.label, ...(g.allies ?? [])]} right={g.adversaires ?? []} />
             <dl className="mt-3 space-y-1 text-sm">
               {g.vainqueur && (
                 <div>

@@ -1,0 +1,261 @@
+{
+  "documentaires": [],
+  "decouvertes": [],
+  "id": "thailande",
+  "label": "Thaïlande (Siam)",
+  "tier": 2,
+  "region": "asie-sud-est-continentale",
+  "period": "1782 à 2020",
+  "start": 1782,
+  "end": 2020,
+  "trackId": "siam",
+  "row": 10,
+  "isRiver": false,
+  "capitale": "Bangkok",
+  "description": "Le royaume de Siam, refondé en 1782 autour de Bangkok par la dynastie Chakri, seul pays d’Asie du Sud-Est à n’avoir jamais été colonisé, devenu la Thaïlande en 1939, une monarchie constitutionnelle souvent dirigée par des militaires.",
+  "territories": ["Rattanakosin Kingdom", "Siam", "Thailand"],
+  "reperes": {
+    "capitale": { "valeur": "Bangkok" },
+    "regimes": {
+      "valeur": "Monarchie absolue, puis monarchie constitutionnelle",
+      "precision": "depuis 1932 ; une douzaine de coups d’État militaires réussis"
+    },
+    "langues": { "valeur": "Thaï" },
+    "religion": { "valeur": "Bouddhisme theravada", "precision": "minorité musulmane dans le sud" },
+    "population": { "valeur": "Environ 70 millions en 2020" },
+    "monnaie": { "valeur": "Baht" },
+    "duree": { "valeur": "Environ 240 ans dans cette fiche" },
+    "aujourdhui": { "valeur": "Thaïlande" }
+  },
+  "essentiel": [
+    "Après la destruction d’Ayutthaya par les Birmans (1767), le général Taksin, puis Rama Ier, fondateur de la dynastie Chakri, refondent le royaume ; en 1782, Bangkok devient la capitale.",
+    "Les rois Mongkut (Rama IV) et [[chulalongkorn|Chulalongkorn]] (Rama V) modernisent le pays et signent des traités avec les Européens ; en cédant des territoires à la France et au Royaume-Uni, le Siam reste le seul pays d’Asie du Sud-Est à n’avoir jamais été colonisé.",
+    "En 1932, une révolution met fin à la monarchie absolue ; en 1939, le pays prend le nom de Thaïlande.",
+    "Allié du Japon pendant la Seconde Guerre mondiale, puis des États-Unis pendant la guerre froide, le pays connaît une douzaine de coups d’État militaires réussis, dont ceux de 2006 et de 2014.",
+    "Le roi Bhumibol Adulyadej (Rama IX), qui règne de 1946 à 2016, est le monarque au plus long règne de l’histoire du pays ; la Thaïlande devient une grande destination touristique."
+  ],
+  "datesCles": [
+    {
+      "annee": 1782,
+      "evenement": "Bangkok",
+      "info": "Rama Ier fonde la dynastie Chakri et fait de Bangkok sa capitale."
+    },
+    {
+      "annee": 1855,
+      "evenement": "Traité Bowring",
+      "info": "Traité de commerce avec le Royaume-Uni, qui ouvre le pays aux Européens."
+    },
+    { "annee": 1868, "evenement": "Chulalongkorn", "info": "Début du règne du grand roi réformateur." },
+    {
+      "annee": 1893,
+      "evenement": "Crise franco-siamoise",
+      "info": "Le Siam cède à la France les territoires à l’est du Mékong."
+    },
+    { "annee": 1905, "evenement": "Fin de l’esclavage", "info": "Chulalongkorn achève l’abolition de l’esclavage." },
+    { "annee": 1932, "evenement": "Révolution", "info": "Fin de la monarchie absolue." },
+    { "annee": 1939, "evenement": "Thaïlande", "info": "Le Siam prend le nom de Thaïlande." },
+    {
+      "annee": 1946,
+      "evenement": "Bhumibol",
+      "info": "Début du règne de Bhumibol Adulyadej (Rama IX), qui dure 70 ans."
+    },
+    {
+      "annee": 1967,
+      "evenement": "ASEAN",
+      "info": "L’Association des nations de l’Asie du Sud-Est est fondée à Bangkok."
+    },
+    { "annee": 2004, "evenement": "Tsunami", "info": "Un tsunami frappe les côtes de la mer d’Andaman." },
+    { "annee": 2014, "evenement": "Coup d’État", "info": "L’armée prend le pouvoir." }
+  ],
+  "periodes": [
+    {
+      "nom": "Le royaume de Bangkok",
+      "debut": 1782,
+      "fin": 1851,
+      "resume": "Les premiers rois Chakri reconstruisent le royaume et repoussent les Birmans.",
+      "evenements": [
+        { "annee": 1782, "evenement": "Fondation de Bangkok" },
+        { "annee": 1826, "evenement": "Premier traité avec le Royaume-Uni" }
+      ]
+    },
+    {
+      "nom": "Moderniser pour rester libre",
+      "debut": 1851,
+      "fin": 1932,
+      "resume": "Mongkut et Chulalongkorn réforment l’État et cèdent des territoires pour garder l’indépendance.",
+      "evenements": [
+        { "annee": 1855, "evenement": "Traité Bowring" },
+        { "annee": 1893, "evenement": "Crise franco-siamoise" },
+        { "annee": 1909, "evenement": "Traité anglo-siamois" }
+      ]
+    },
+    {
+      "nom": "Militaires et monarchie constitutionnelle",
+      "debut": 1932,
+      "fin": 2020,
+      "resume": "Coups d’État, alliances avec le Japon puis les États-Unis, essor économique et touristique.",
+      "evenements": [
+        { "annee": 1932, "evenement": "Révolution" },
+        { "annee": 1939, "evenement": "Le Siam devient la Thaïlande" },
+        { "annee": 1992, "evenement": "Manifestations du « Mai noir »" },
+        { "annee": 2014, "evenement": "Coup d’État" }
+      ]
+    }
+  ],
+  "regimes": [
+    { "id": "absolue", "nom": "Monarchie absolue", "debut": 1782, "fin": 1932 },
+    {
+      "id": "constitutionnelle",
+      "nom": "Monarchie constitutionnelle",
+      "debut": 1932,
+      "fin": 2020,
+      "note": "Souvent dirigée par des militaires."
+    }
+  ],
+  "dynasties": [
+    { "id": "chakri", "nom": "Dynastie Chakri", "debut": 1782, "fin": 2020, "note": "Sélection." },
+    { "id": "premiers", "nom": "Chefs de gouvernement", "debut": 1938, "fin": 2020, "note": "Sélection." }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Rama Ier",
+      "titre": "Roi",
+      "debut": 1782,
+      "fin": 1809,
+      "dynastie": "chakri",
+      "note": "fondateur de la dynastie",
+      "cle": true
+    },
+    { "nom": "Mongkut (Rama IV)", "titre": "Roi", "debut": 1851, "fin": 1868, "dynastie": "chakri", "cle": true },
+    {
+      "nom": "Chulalongkorn (Rama V)",
+      "titre": "Roi",
+      "debut": 1868,
+      "fin": 1910,
+      "dynastie": "chakri",
+      "personne": "chulalongkorn",
+      "cle": true
+    },
+    { "nom": "Vajiravudh (Rama VI)", "titre": "Roi", "debut": 1910, "fin": 1925, "dynastie": "chakri" },
+    {
+      "nom": "Prajadhipok (Rama VII)",
+      "titre": "Roi",
+      "debut": 1925,
+      "fin": 1935,
+      "dynastie": "chakri",
+      "note": "dernier monarque absolu ; abdique en 1935"
+    },
+    {
+      "nom": "Plaek Phibunsongkhram",
+      "titre": "Premier ministre",
+      "debut": 1938,
+      "fin": 1944,
+      "dynastie": "premiers",
+      "note": "de nouveau de 1948 à 1957 ; rebaptise le pays Thaïlande"
+    },
+    {
+      "nom": "Bhumibol Adulyadej (Rama IX)",
+      "titre": "Roi",
+      "debut": 1946,
+      "fin": 2016,
+      "dynastie": "chakri",
+      "cle": true
+    },
+    {
+      "nom": "Prayut Chan-o-cha",
+      "titre": "Premier ministre",
+      "debut": 2014,
+      "fin": 2020,
+      "dynastie": "premiers",
+      "note": "général, auteur du coup d’État de 2014 ; toujours en fonction à la fin de la période couverte (2020)"
+    },
+    {
+      "nom": "Vajiralongkorn (Rama X)",
+      "titre": "Roi",
+      "debut": 2016,
+      "fin": 2020,
+      "dynastie": "chakri",
+      "note": "toujours roi à la fin de la période couverte (2020)"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Chulalongkorn",
+      "role": "Roi",
+      "description": "Le grand roi réformateur.",
+      "dates": "1853 → 1910",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Chulalongkorn",
+      "ref": "chulalongkorn"
+    },
+    {
+      "nom": "Mongkut",
+      "role": "Roi",
+      "description": "Ancien moine, savant passionné d’astronomie, il ouvre le pays aux Européens.",
+      "dates": "1804 → 1868",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Mongkut"
+    },
+    {
+      "nom": "Pridi Banomyong",
+      "role": "Homme politique",
+      "description": "L’un des chefs de la révolution de 1932, puis du mouvement des « Thaïs libres » contre le Japon.",
+      "dates": "1900 → 1983",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Pridi_Banomyong"
+    },
+    {
+      "nom": "Sunthorn Phu",
+      "role": "Poète",
+      "description": "Le plus célèbre poète de la littérature thaïe classique.",
+      "dates": "1786 → 1855",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Sunthorn_Phu"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Crise franco-siamoise de 1893",
+      "annee": 1893,
+      "adversaires": ["France"],
+      "allies": [],
+      "morts": "Quelques dizaines",
+      "vainqueur": "France",
+      "consequences": "Des canonnières françaises remontent jusqu’à Bangkok ; le Siam doit céder à la France les territoires à l’est du Mékong, qui forment l’essentiel du Laos actuel.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_franco-siamoise_de_1893"
+    },
+    {
+      "nom": "Guerre franco-thaïlandaise",
+      "annee": 1940,
+      "adversaires": ["Indochine française (France de Vichy)"],
+      "allies": [],
+      "morts": "Plusieurs centaines",
+      "vainqueur": "Indécis ; le Japon impose un accord favorable à la Thaïlande",
+      "consequences": "Par l’accord de Tokyo (1941), la Thaïlande récupère des territoires au Laos et au Cambodge, qu’elle doit rendre en 1946.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_franco-tha%C3%AFlandaise"
+    }
+  ],
+  "sciences": "Le roi Mongkut, passionné d’astronomie, calcule avec précision l’éclipse totale de Soleil du 18 août 1868 ; il meurt peu après du paludisme, contracté lors de l’expédition pour l’observer. Le roi Chulalongkorn crée des écoles, la poste, des chemins de fer et le premier hôpital moderne du pays, Siriraj (1888).",
+  "croyancesText": "La grande majorité des Thaïlandais sont bouddhistes theravada, et beaucoup de jeunes hommes passent traditionnellement un temps comme moines ; le roi est le protecteur de la religion. Dans l’extrême sud, une minorité musulmane malaise vit dans des provinces où une insurrection séparatiste a fait plusieurs milliers de morts depuis 2004.",
+  "diplomatie": "Le Siam joue les puissances européennes les unes contre les autres et cède des territoires de sa périphérie pour garder son indépendance. Il rejoint les Alliés en 1917, puis s’allie au Japon pendant la Seconde Guerre mondiale. Allié des États-Unis pendant la guerre du Viêt Nam, il est en 1967 l’un des fondateurs de l’ASEAN.",
+  "societe": "Le roi Chulalongkorn abolit progressivement l’esclavage (1874-1905) et la corvée. La monarchie est très respectée et protégée par une loi qui punit sévèrement toute critique du roi (crime de lèse-majesté).",
+  "economie": "Riz, teck et étain au XIXe siècle ; aujourd’hui industrie automobile et électronique, riz (l’un des premiers exportateurs mondiaux) et tourisme.",
+  "arts": "Temples de Bangkok (Wat Phra Kaeo, Wat Arun), danse masquée khon, boxe thaïe (muay-thaï), cuisine thaïe.",
+  "quotidien": "Lors de Songkran, le Nouvel An thaï, en avril, les habitants s’aspergent d’eau dans les rues.",
+  "heritage": [
+    {
+      "titre": "Le Bouddha d’émeraude",
+      "texte": "Installé en 1784 dans le temple Wat Phra Kaeo, au cœur du Grand Palais de Bangkok, il est la statue la plus vénérée du pays."
+    },
+    {
+      "titre": "Krung Thep",
+      "texte": "Les Thaïlandais appellent Bangkok Krung Thep, « la cité des anges » : c’est le début de l’un des noms de ville les plus longs du monde."
+    }
+  ],
+  "aSavoir": [
+    "« Thaïlande » signifie « pays des Thaïs », et le mot « thaï » est souvent expliqué comme signifiant « libre » : le pays rappelle ainsi qu’il n’a jamais été colonisé."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Histoire_de_la_Tha%C3%AFlande",
+    {
+      "titre": "Encyclopædia Britannica — Thailand, History",
+      "url": "https://www.britannica.com/place/Thailand/History"
+    }
+  ]
+}

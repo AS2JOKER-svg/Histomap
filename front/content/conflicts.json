@@ -1036,5 +1036,41 @@
   "Destruction de Palmares": {
     "coords": [-36, -9.27],
     "lieu": "Serra da Barriga (Alagoas, Brésil)"
+  },
+  "Bataille d’Arausio": {
+    "coords": [4.81, 44.14],
+    "lieu": "Arausio (Orange, France)"
+  },
+  "Bataille de Teutobourg": {
+    "coords": [8.13, 52.41],
+    "lieu": "Kalkriese, près d’Osnabrück (Allemagne)"
+  },
+  "Bataille d’Andrinople": {
+    "coords": [26.56, 41.68],
+    "lieu": "Andrinople (Edirne, Turquie)"
+  },
+  "Guerres daciques de Domitien": {
+    "coords": [22.9, 45.4],
+    "lieu": "Tapae (Roumanie)"
+  },
+  "Guerres daciques de Trajan": {
+    "coords": [23.31, 45.62],
+    "lieu": "Sarmizegetusa Regia (Roumanie)"
+  },
+  "Conquête lombarde de l’Italie": {
+    "coords": [11.5, 45.6],
+    "lieu": "Nord de l’Italie"
+  },
+  "Siège de Pavie (773-774)": {
+    "coords": [9.16, 45.19],
+    "lieu": "Pavie (Italie)"
+  },
+  "Siège de Constantinople (626)": {
+    "coords": [28.95, 41.02],
+    "lieu": "Constantinople (Istanbul, Turquie)"
+  },
+  "Guerres avaro-franques": {
+    "coords": [19.5, 46.8],
+    "lieu": "Plaine de Pannonie (Hongrie)"
   }
 }

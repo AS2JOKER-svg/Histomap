@@ -1,0 +1,15 @@
+{
+  "id": "edit-de-rothari",
+  "nom": "Édit de Rothari",
+  "annee": 643,
+  "domaine": "Droit",
+  "dates": "643",
+  "description": "Le recueil des lois des Lombards, rédigé en latin en 643 sur l’ordre du roi Rothari.",
+  "sections": [
+    {
+      "titre": "Que contient-il ?",
+      "texte": "Il fixe les compensations à payer pour chaque blessure ou dommage, afin d’éviter les vengeances : le prix varie selon la gravité de la blessure et le rang de la victime."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/%C3%89dit_de_Rothari"
+}

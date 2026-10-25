@@ -1,0 +1,183 @@
+{
+  "documentaires": [],
+  "decouvertes": [],
+  "id": "avars",
+  "label": "Khaganat avar",
+  "tier": 2,
+  "region": "europe-centrale",
+  "period": "567 à 822",
+  "start": 567,
+  "end": 822,
+  "color": "#5d4037",
+  "trackId": "scythes",
+  "row": 10,
+  "isRiver": false,
+  "capitale": "Le « Ring »",
+  "description": "L’empire de cavaliers nomades venus des steppes qui s’installe dans la plaine de Pannonie, l’actuelle Hongrie, menace Byzance pendant plus d’un siècle et est détruit par Charlemagne à la fin du VIIIe siècle.",
+  "territories": ["Avars"],
+  "reperes": {
+    "capitale": {
+      "valeur": "Le « Ring »",
+      "precision": "un grand camp fortifié entre le Danube et la Tisza, dont l’emplacement exact est inconnu"
+    },
+    "regimes": { "valeur": "Khaganat", "precision": "un khagan à la tête d’une confédération de peuples" },
+    "langues": {
+      "valeur": "Inconnue",
+      "precision": "sans doute une langue turque ou mongole ; les peuples soumis parlent slave ou germanique"
+    },
+    "religion": { "valeur": "Religion des steppes", "precision": "chamanisme et culte du Ciel (Tengri), probablement" },
+    "apogee": { "valeur": "Règne de Bayan Ier (vers 562 → 602)" },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": { "valeur": "Or byzantin", "precision": "reçu en tribut" },
+    "duree": { "valeur": "Environ 250 ans" },
+    "aujourdhui": {
+      "valeur": "Hongrie",
+      "precision": "et une partie de l’Autriche, de la Slovaquie, de la Serbie et de la Roumanie"
+    }
+  },
+  "essentiel": [
+    "Venus des steppes d’Asie centrale, les Avars apparaissent aux frontières de Byzance vers 558 ; leurs origines exactes restent discutées.",
+    "En 567, alliés aux Lombards, ils détruisent le royaume des Gépides ; les Lombards partant pour l’Italie, les Avars s’installent dans la plaine de Pannonie.",
+    "Sous le khagan [[bayan-ier|Bayan Ier]], ils lancent des raids dans les Balkans et obtiennent de Byzance d’énormes tributs en or ; en 626, ils assiègent Constantinople sans succès.",
+    "Ils dominent de nombreux peuples slaves ; ils ont sans doute contribué à diffuser en Europe l’usage de l’étrier.",
+    "De 791 à 796, les armées de [[charlemagne|Charlemagne]] les attaquent et pillent leur trésor ; ils disparaissent des sources après 822."
+  ],
+  "datesCles": [
+    {
+      "annee": 567,
+      "evenement": "Les Gépides",
+      "info": "Avec les Lombards, les Avars détruisent le royaume gépide."
+    },
+    {
+      "annee": 568,
+      "evenement": "Pannonie",
+      "info": "Les Avars s’installent dans la plaine du Danube et de la Tisza."
+    },
+    { "annee": 582, "evenement": "Sirmium", "info": "Les Avars prennent la ville byzantine de Sirmium." },
+    {
+      "annee": 626,
+      "evenement": "Constantinople",
+      "info": "Avec les Perses, les Avars assiègent Constantinople, sans réussir à la prendre."
+    },
+    {
+      "annee": 796,
+      "evenement": "Le trésor du Ring",
+      "info": "Les Francs prennent le Ring et rapportent un immense trésor à Charlemagne."
+    },
+    {
+      "annee": 822,
+      "evenement": "Dernière mention",
+      "info": "Des envoyés avars se rendent à une assemblée franque : c’est la dernière mention du peuple."
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "La puissance avare",
+      "debut": 567,
+      "fin": 626,
+      "resume": "Les Avars dominent l’Europe centrale et rançonnent l’Empire byzantin.",
+      "evenements": [
+        { "annee": 568, "evenement": "Installation en Pannonie" },
+        { "annee": 626, "evenement": "Siège de Constantinople" }
+      ]
+    },
+    {
+      "nom": "Le khaganat tardif",
+      "debut": 626,
+      "fin": 791,
+      "resume": "Après l’échec devant Constantinople, des peuples soumis se révoltent ; le khaganat se replie sur la Pannonie.",
+      "evenements": []
+    },
+    {
+      "nom": "La chute",
+      "debut": 791,
+      "fin": 822,
+      "resume": "Les Francs de Charlemagne détruisent la puissance avare.",
+      "evenements": [{ "annee": 796, "evenement": "Prise du Ring" }]
+    }
+  ],
+  "regimes": [{ "id": "khaganat", "nom": "Khaganat", "debut": 567, "fin": 822 }],
+  "dynasties": [
+    {
+      "id": "khagans",
+      "nom": "Les khagans avars",
+      "debut": 562,
+      "fin": 822,
+      "note": "Sélection ; on ne connaît le nom que de quelques khagans."
+    }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Bayan Ier",
+      "titre": "Khagan",
+      "debut": 567,
+      "fin": 602,
+      "dynastie": "khagans",
+      "personne": "bayan-ier",
+      "cle": true
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Bayan Ier",
+      "role": "Khagan",
+      "description": "Le fondateur de la puissance avare en Europe.",
+      "dates": "? → vers 602",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Bayan_I",
+      "ref": "bayan-ier"
+    },
+    {
+      "nom": "Samo",
+      "role": "Marchand franc et roi",
+      "description": "Selon une chronique franque, il prend la tête des Slaves révoltés contre les Avars vers 623.",
+      "dates": "? → vers 658",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Samo"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Siège de Constantinople (626)",
+      "annee": 626,
+      "adversaires": ["Empire byzantin"],
+      "allies": ["Empire sassanide"],
+      "morts": "Inconnues",
+      "vainqueur": "Empire byzantin",
+      "consequences": "Les murailles et la flotte byzantine résistent ; l’échec affaiblit le prestige du khagan, et plusieurs peuples soumis se révoltent.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Constantinople_(626)"
+    },
+    {
+      "nom": "Guerres avaro-franques",
+      "annee": 791,
+      "adversaires": ["Royaume franc (Charlemagne, Pépin d’Italie)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Francs",
+      "consequences": "Les Francs pénètrent dans la plaine du Danube et prennent le Ring, le camp fortifié des khagans, avec son trésor. Les Avars se soumettent et disparaissent peu à peu.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Avar_Wars"
+    }
+  ],
+  "sciences": "Les Avars sont d’excellents cavaliers et archers, équipés d’arcs composites. Leurs tombes contiennent parmi les plus anciens étriers de fer retrouvés en Europe, ce qui suggère qu’ils ont contribué à en diffuser l’usage. Leurs artisans fabriquent des plaques de ceinture en bronze coulé, décorées de griffons et de rinceaux.",
+  "croyancesText": "On connaît mal la religion des Avars : comme d’autres peuples des steppes, ils honoraient sans doute le Ciel et pratiquaient le chamanisme. Leurs riches tombes, parfois accompagnées de chevaux, montrent l’importance de la vie après la mort.",
+  "diplomatie": "Les Avars obtiennent de Byzance d’énormes tributs en or en échange de la paix, mais lancent aussi de nombreux raids dans les Balkans. Ils s’allient aux Perses en 626 contre Constantinople. Ils dominent ou combattent les peuples slaves voisins, puis affrontent les Francs, qui les vainquent.",
+  "societe": "Une élite de cavaliers nomades domine des peuples sédentaires, surtout slaves, qui cultivent la terre et fournissent des guerriers. Les chefs portent des ceintures richement décorées, signe de leur rang.",
+  "economie": "Élevage de chevaux et de bétail, tributs et butin pris à Byzance, agriculture des peuples soumis.",
+  "arts": "Plaques de ceinture en bronze à décor de griffons, bijoux d’or, vaisselle précieuse.",
+  "quotidien": "La ceinture est un signe de rang : elle porte des plaques de métal décorées et des lanières auxquelles on accroche armes et outils.",
+  "heritage": [
+    {
+      "titre": "L’étrier",
+      "texte": "Les plus anciens étriers de fer retrouvés en Europe viennent de tombes avares."
+    },
+    {
+      "titre": "Une place pour d’autres peuples",
+      "texte": "Après leur disparition, la plaine de Pannonie est occupée par des Slaves, puis par les Hongrois à la fin du IXe siècle."
+    }
+  ],
+  "aSavoir": [
+    "Le trésor des Avars pris par les Francs en 796 était, selon une source franque, si grand qu’il fallut quinze chariots tirés par des bœufs pour le transporter."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Khaganat_avar",
+    { "titre": "Encyclopædia Britannica — Avar", "url": "https://www.britannica.com/topic/Avar" }
+  ]
+}

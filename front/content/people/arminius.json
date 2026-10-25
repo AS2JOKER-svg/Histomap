@@ -1,0 +1,16 @@
+{
+  "id": "arminius",
+  "nom": "Arminius",
+  "role": "Chef chérusque",
+  "roles": ["Chef de guerre"],
+  "dates": "vers −18 → 21",
+  "mort": 21,
+  "description": "Noble du peuple germain des Chérusques, formé dans l’armée romaine, il prend la tête de la révolte contre Rome et anéantit trois légions dans la forêt de Teutobourg en l’an 9.",
+  "essentiel": [
+    "Il sert comme officier dans l’armée romaine et devient citoyen romain.",
+    "Il attire le gouverneur Varus dans un piège, dans une région de forêts et de marais.",
+    "Les trois légions de Varus sont anéanties ; l’empereur Auguste aurait crié : « Varus, rends-moi mes légions ! ».",
+    "Il est assassiné par des membres de son propre peuple en 21."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Arminius"
+}

@@ -1,0 +1,207 @@
+{
+  "documentaires": [],
+  "decouvertes": [],
+  "id": "germains",
+  "label": "Peuples germaniques",
+  "tier": 2,
+  "region": "europe-centrale",
+  "period": "vers -500 à 476",
+  "start": -500,
+  "end": 476,
+  "color": "#1e88e5",
+  "trackId": "germains",
+  "row": 9,
+  "isRiver": false,
+  "capitale": "Aucune (des peuples indépendants)",
+  "description": "Les peuples d’Europe du Nord et du Centre parlant des langues germaniques — Cimbres, Goths, Francs, Alamans, Saxons, Vandales… — qui affrontent Rome pendant cinq siècles avant de s’installer dans l’Empire d’Occident, dont ils provoquent la fin en 476.",
+  "territories": ["Germanic tribes", "Alamans", "Gepids", "Ostrogoths", "Visigoths"],
+  "reperes": {
+    "capitale": { "valeur": "Aucune", "precision": "des peuples et des confédérations indépendants" },
+    "regimes": {
+      "valeur": "Chefferies et royautés",
+      "precision": "des rois et des chefs de guerre, conseillés par l’assemblée des guerriers"
+    },
+    "langues": {
+      "valeur": "Langues germaniques",
+      "precision": "ancêtres de l’allemand, de l’anglais, du néerlandais et des langues scandinaves"
+    },
+    "religion": {
+      "valeur": "Religion germanique",
+      "precision": "Wotan, Donar, Tiwaz ; les Goths adoptent le christianisme arien au IVe siècle"
+    },
+    "apogee": { "valeur": "Ve siècle", "precision": "les royaumes germaniques remplacent l’Empire romain d’Occident" },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": { "valeur": "Aucune", "precision": "pièces romaines obtenues par le commerce, le butin ou les tributs" },
+    "duree": { "valeur": "Environ 1 000 ans" },
+    "aujourdhui": {
+      "valeur": "Europe du Nord et du Centre",
+      "precision": "Allemagne, Danemark, Pays-Bas, Scandinavie, puis toute l’Europe occidentale"
+    }
+  },
+  "essentiel": [
+    "Vers −500, des peuples parlant des langues germaniques vivent dans le nord de l’Allemagne et au Danemark ; ils s’étendent peu à peu vers le sud.",
+    "Vers −105, les Cimbres et les Teutons écrasent une armée romaine à Arausio, avant d’être vaincus par le général Marius.",
+    "En l’an 9, le chef chérusque [[arminius|Arminius]] anéantit trois légions romaines dans la forêt de Teutobourg : Rome renonce à conquérir la Germanie au-delà du Rhin.",
+    "Au IIIe siècle se forment de grandes confédérations, comme les Francs, les Alamans et les Goths ; en 378, les Goths battent et tuent l’empereur Valens à Andrinople.",
+    "Au Ve siècle, Wisigoths, Vandales, Francs et autres s’installent dans l’Empire d’Occident ; en 476, le chef Odoacre dépose le dernier empereur, Romulus Augustule."
+  ],
+  "datesCles": [
+    {
+      "annee": -500,
+      "evenement": "Les premiers Germains",
+      "info": "La culture de Jastorf, dans le nord de l’Allemagne, est souvent associée aux premiers peuples germaniques."
+    },
+    {
+      "annee": -105,
+      "evenement": "Arausio",
+      "info": "Les Cimbres et les Teutons infligent à Rome une terrible défaite près d’Orange."
+    },
+    {
+      "annee": -58,
+      "evenement": "César et Arioviste",
+      "info": "Jules César repousse le chef germain Arioviste au-delà du Rhin."
+    },
+    {
+      "annee": 9,
+      "evenement": "Teutobourg",
+      "info": "Arminius détruit trois légions romaines commandées par Varus.",
+      "ref": "bataille-de-teutobourg"
+    },
+    {
+      "annee": 98,
+      "evenement": "La Germanie de Tacite",
+      "info": "L’historien romain Tacite décrit les mœurs des Germains."
+    },
+    {
+      "annee": 378,
+      "evenement": "Andrinople",
+      "info": "Les Goths battent l’armée romaine ; l’empereur Valens est tué."
+    },
+    { "annee": 410, "evenement": "Sac de Rome", "info": "Les Wisigoths d’Alaric pillent Rome pendant trois jours." },
+    {
+      "annee": 476,
+      "evenement": "Fin de l’Empire d’Occident",
+      "info": "Odoacre dépose Romulus Augustule et renvoie les insignes impériaux à Constantinople."
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "Aux marges du monde romain",
+      "debut": -500,
+      "fin": 9,
+      "resume": "Les peuples germaniques s’étendent vers le sud ; certains, comme les Cimbres et les Teutons, menacent Rome.",
+      "evenements": [{ "annee": -105, "evenement": "Bataille d’Arausio" }, { "annee": -58, "evenement": "César contre Arioviste" }]
+    },
+    {
+      "nom": "Face à l’Empire",
+      "debut": 9,
+      "fin": 376,
+      "resume": "Le Rhin et le Danube séparent l’Empire romain et les Germains, qui commercent, servent dans l’armée romaine ou attaquent la frontière.",
+      "evenements": [
+        { "annee": 9, "evenement": "Teutobourg", "ref": "bataille-de-teutobourg" },
+        { "annee": 166, "evenement": "Guerres marcomanes" }
+      ]
+    },
+    {
+      "nom": "Les grandes migrations",
+      "debut": 376,
+      "fin": 476,
+      "resume": "Poussés par les Huns ou attirés par l’Empire, Goths, Vandales, Francs et autres s’installent dans les provinces romaines.",
+      "evenements": [
+        { "annee": 378, "evenement": "Andrinople" },
+        { "annee": 410, "evenement": "Sac de Rome par Alaric" },
+        { "annee": 476, "evenement": "Déposition de Romulus Augustule" }
+      ]
+    }
+  ],
+  "regimes": [{ "id": "chefferies", "nom": "Chefferies et royautés", "debut": -500, "fin": 476 }],
+  "dirigeants": [],
+  "personnages": [
+    {
+      "nom": "Arminius",
+      "role": "Chef chérusque",
+      "description": "Formé dans l’armée romaine, il la trahit et l’écrase à Teutobourg.",
+      "dates": "vers −18 → 21",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Arminius",
+      "ref": "arminius"
+    },
+    {
+      "nom": "Alaric Ier",
+      "role": "Roi des Wisigoths",
+      "description": "Il pille Rome en 410, une première depuis huit siècles.",
+      "dates": "vers 370 → 410",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Alaric_Ier"
+    },
+    {
+      "nom": "Wulfila",
+      "role": "Évêque goth",
+      "description": "Il invente un alphabet pour traduire la Bible en gotique, le plus ancien long texte connu dans une langue germanique.",
+      "dates": "vers 311 → 383",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Wulfila"
+    },
+    {
+      "nom": "Odoacre",
+      "role": "Chef germanique",
+      "description": "Il dépose le dernier empereur d’Occident en 476 et devient roi d’Italie.",
+      "dates": "vers 433 → 493",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Odoacre"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Bataille d’Arausio",
+      "annee": -105,
+      "adversaires": ["République romaine"],
+      "allies": [],
+      "morts": "Des dizaines de milliers de soldats romains, selon les auteurs anciens",
+      "vainqueur": "Cimbres et Teutons",
+      "consequences": "C’est l’une des pires défaites de l’histoire de Rome. Le général Marius réforme l’armée, puis bat les Teutons à Aix-en-Provence (−102) et les Cimbres à Verceil (−101).",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_d%27Arausio"
+    },
+    {
+      "nom": "Bataille de Teutobourg",
+      "annee": 9,
+      "adversaires": ["Empire romain (Varus)"],
+      "allies": [],
+      "morts": "Environ 15 000 à 20 000 soldats romains",
+      "vainqueur": "Germains (Arminius)",
+      "consequences": "Trois légions sont anéanties. Rome renonce à conquérir la Germanie au-delà du Rhin, qui reste la frontière de l’Empire.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Teutobourg"
+    },
+    {
+      "nom": "Bataille d’Andrinople",
+      "annee": 378,
+      "adversaires": ["Empire romain d’Orient (Valens)"],
+      "allies": [],
+      "morts": "Environ deux tiers de l’armée romaine",
+      "vainqueur": "Goths",
+      "consequences": "L’empereur Valens est tué. Les Goths obtiennent ensuite le droit de s’installer dans l’Empire, avec leurs propres chefs.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_d%27Andrinople_(378)"
+    }
+  ],
+  "sciences": "Les Germains sont d’habiles forgerons, qui fabriquent épées, lances et bijoux d’or et de grenat. À partir du IIe siècle environ, ils gravent des inscriptions en runes, un alphabet inspiré des écritures méditerranéennes. Au IVe siècle, l’évêque Wulfila invente l’alphabet gotique pour traduire la Bible.",
+  "croyancesText": "Les Germains honorent Wotan, dieu de la sagesse et de la guerre, Donar, dieu du tonnerre, et Tiwaz, ainsi que des déesses de la fertilité ; leurs sanctuaires sont souvent des bois sacrés. Au IVe siècle, les Goths, puis d’autres peuples, se convertissent au christianisme arien, différent de celui de Rome ; les Francs adoptent le catholicisme vers 500.",
+  "diplomatie": "Les Germains commercent avec Rome (ambre, fourrures, esclaves contre vin, bijoux, pièces) et servent dans son armée comme soldats ou alliés (fédérés). Rome les combat, les divise ou les installe dans l’Empire par des traités. Au Ve siècle, leurs rois fondent des royaumes sur les terres de l’Empire d’Occident.",
+  "societe": "Les Germains vivent dans des villages de fermes en bois. Les hommes libres se réunissent en assemblées pour juger et décider de la guerre. Les chefs s’entourent de guerriers fidèles, qu’ils récompensent par des cadeaux. Un meurtre peut être réparé par le paiement d’une somme, le wergeld.",
+  "economie": "Agriculture, élevage, travail du fer, commerce de l’ambre avec l’Empire romain.",
+  "arts": "Bijoux d’or et de grenat cloisonnés, fibules, armes décorées, inscriptions runiques.",
+  "quotidien": "Les Germains vivent dans de longues maisons de bois où les hommes et le bétail partagent le même toit l’hiver.",
+  "heritage": [
+    {
+      "titre": "Des langues vivantes",
+      "texte": "L’anglais, l’allemand, le néerlandais, le danois, le suédois et le norvégien sont des langues germaniques ; le français leur a emprunté des centaines de mots, comme « guerre », « jardin » ou « bleu »."
+    },
+    {
+      "titre": "Les jours de la semaine",
+      "texte": "En anglais, Wednesday, Thursday et Friday rendent hommage à des dieux germaniques : Wotan, Thor (Donar) et Frigg."
+    }
+  ],
+  "aSavoir": ["Le mot « vandalisme » a été inventé en 1794 en souvenir du pillage de Rome par les Vandales en 455."],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Peuples_germaniques",
+    {
+      "titre": "Encyclopædia Britannica — Germanic peoples",
+      "url": "https://www.britannica.com/topic/Germanic-peoples"
+    }
+  ]
+}

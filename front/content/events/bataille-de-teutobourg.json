@@ -1,0 +1,20 @@
+{
+  "id": "bataille-de-teutobourg",
+  "nom": "Bataille de Teutobourg",
+  "annee": 9,
+  "dates": "septembre de l’an 9",
+  "lieu": "Kalkriese, près d’Osnabrück (Allemagne)",
+  "description": "Pendant plusieurs jours, les guerriers germains d’Arminius attaquent les trois légions de Varus dans les forêts et les marais, et les anéantissent.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "Rome renonce à faire de la Germanie une province jusqu’à l’Elbe : le Rhin reste la frontière de l’Empire pendant des siècles."
+    },
+    {
+      "titre": "Une redécouverte",
+      "texte": "Le champ de bataille a été retrouvé en 1987 à Kalkriese grâce à des pièces de monnaie et à des pièces d’armure romaines."
+    }
+  ],
+  "liens": [{ "ref": "arminius", "relation": "Le vainqueur" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Teutobourg"
+}

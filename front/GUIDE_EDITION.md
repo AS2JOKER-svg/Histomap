@@ -21,6 +21,7 @@ Le site ne lit jamais ces fichiers directement : `scripts/build-content.mjs` les
 | `content/regions.json` | Régions actuelles normalisées (champ `region` des fiches) |
 | `content/conflicts.json` | Lieu de chaque guerre sur la carte |
 | `content/ignore-territories.json` | Territoires des cartes volontairement sans fiche |
+| `content/wars/<id>.json` | Dossiers de guerre (page complète d'une grande guerre : `/guerres/<id>`) |
 
 ### Ajouter une civilisation
 1. Créer `content/civs/<id>.json` (copier une fiche existante, par exemple `carthage.json`). Le nom du fichier **est** l'id.
@@ -222,6 +223,36 @@ Pour ajouter des questions rédigées à la main, compléter le tableau `quiz` d
 - `content/conflicts.json` : `"Nom exact de la guerre": { "coords": [longitude, latitude], "lieu": "Cannes" }` (lieu facultatif).
 - Le validateur signale un nom de territoire introuvable ou une guerre sans coordonnées.
 
+### Écrire un dossier de guerre (`content/wars/<id>.json`)
+Modèle : `content/wars/seconde-guerre-mondiale.json` (prototype du sprint Guerres A). Page : `/guerres/<id>`.
+```jsonc
+{
+  "id": "…", "nom": "…", "debut": 1939, "fin": 1945, "dates": "1er septembre 1939 → 2 septembre 1945",
+  "description": "en une phrase", "essentiel": ["5 points au plus"], "chiffres": [{ "valeur": "…", "label": "…" }],
+  "camps": [{ "id": "allies" | "axe", "nom": "…", "couleur": "#…", "description": "…", "membres": ["…"] }],
+  "carte": {
+    "annee": 1938,                          // une année de public/map/index.json
+    "noms": { "Germany": "Allemagne" },      // nom français de chaque territoire coloré (bulle de la carte)
+    "note": "…",                            // avertissement sous la carte
+    "statuts": { "Germany": "axe", "Poland": { "statut": "occupe", "note": "…" } }  // état de départ
+  },
+  "phases": [{ "id", "nom", "debut": "1939-09", "fin": "1940-03", "resume", "texte",
+               "carte": { "cadre": [[lon, lat], [lon, lat]], "rotation": -150, "statuts": { /* seulement ce qui change */ } },
+               "batailles": ["id"], "evenements": [{ "date": "1939-09-03", "texte": "…", "ref": "fiche-liée?" }] }],
+  "batailles": [{ "id", "nom", "debut": "1942-08", "fin": "1943-02", "lieu", "coords": [lon, lat], "vainqueur": "allies", "resume", "ref": "événement?", "wikiUrl" }],
+  "personnages": [{ "nom", "camp": "allies" | "axe" | "autres", "role", "dates", "description", "ref": "personne?", "wikiUrl" }],
+  "sections": [{ "titre": "Les causes", "texte": "…" }],
+  "quiz": [ /* format des quiz express : mcq (bonne réponse en 0), tf, order ; au moins 10 questions */ ],
+  "guerresLiees": ["Nom exact d'une guerre de fiche|année"],   // ces guerres renvoient vers le dossier
+  "sources": ["…"]
+}
+```
+- **Statuts** : `axe`, `allies`, `occupe` (occupé par l'Axe), `neutre`. Ils s'accumulent de phase en phase ; un territoire sans statut
+  prend celui de sa métropole (`SUBJECTO` des cartes : les colonies suivent leur pays), sinon `neutre`.
+- **Attention aux cartes** : un nom peut cacher plusieurs morceaux (sur la carte de 1938, « Denmark » = Islande et Groenland, le Danemark
+  lui-même manque). Vérifier les territoires à colorer et le dire dans `note`.
+- Dates au format `AAAA-MM` (ou `AAAA-MM-JJ`). Les ids de questions ne doivent jamais être renommés (meilleur score mémorisé).
+
 ---
 
 ## 2. Où se trouve quoi dans le code ?
@@ -241,6 +272,7 @@ Pour ajouter des questions rédigées à la main, compléter le tableau `quiz` d
 | L'aperçu d'une fiche (feuille du bas) | `src/components/RefSheet.jsx` + `useUI().openSheet(...)` |
 | La recherche globale | `src/pages/SearchPage.jsx` + `src/lib/search.js` (index : `src/data/search.json`, généré) |
 | L'onglet Guerres | `src/pages/WarsPage.jsx` (liste : `src/data/wars.json`, générée) |
+| Un dossier de guerre (phases, carte animée, quiz) | `src/pages/WarDossierPage.jsx` + `src/components/war/WarMap.jsx` + `src/lib/dossiers.js` ; compilation et validation : `scripts/lib/dossiers.mjs` |
 | La présentation au premier lancement | `src/components/Onboarding.jsx` |
 | Accès aux données (index léger, détail à la demande) | `src/lib/data.js` (`loadCiv`, `useCiv`) |
 | Compilation et validation du contenu | `scripts/build-content.mjs`, `scripts/validate-content.mjs`, `scripts/lib/` |

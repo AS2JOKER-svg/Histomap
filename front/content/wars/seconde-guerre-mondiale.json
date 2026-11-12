@@ -1,0 +1,971 @@
+{
+  "id": "seconde-guerre-mondiale",
+  "nom": "Seconde Guerre mondiale",
+  "debut": 1939,
+  "fin": 1945,
+  "dates": "1er septembre 1939 → 2 septembre 1945",
+  "description": "Le conflit le plus meurtrier de l’histoire, qui oppose de 1939 à 1945 les Alliés aux puissances de l’Axe, de l’Europe au Pacifique, et au cours duquel les nazis commettent le génocide des Juifs d’Europe.",
+  "essentiel": [
+    "La guerre commence en Europe le 1er septembre 1939, quand l’Allemagne nazie d’[[adolf-hitler|Adolf Hitler]] envahit la Pologne ; le Royaume-Uni et la France lui déclarent la guerre.",
+    "En 1940, l’Allemagne conquiert une grande partie de l’Europe de l’Ouest ; le Royaume-Uni de [[winston-churchill|Winston Churchill]] résiste seul. En 1941, elle envahit l’URSS, et l’attaque japonaise de [[attaque-de-pearl-harbor|Pearl Harbor]] fait entrer les États-Unis dans la guerre.",
+    "À partir de la bataille de [[bataille-de-stalingrad|Stalingrad]] (1942-1943), les Alliés reprennent l’avantage ; ils débarquent en Normandie en juin 1944, et l’Allemagne capitule le 8 mai 1945.",
+    "Les nazis assassinent environ six millions de Juifs : c’est la [[shoah|Shoah]]. Les civils sont aussi victimes de massacres, de bombardements, de famines et de déportations sur tous les continents en guerre.",
+    "Après les [[bombardements-d-hiroshima-et-nagasaki|bombes atomiques]] lancées sur Hiroshima et Nagasaki, le Japon capitule le 2 septembre 1945. La guerre fait entre 60 et 85 millions de morts selon les estimations ; l’ONU est créée pour préserver la paix."
+  ],
+  "chiffres": [
+    { "valeur": "60 à 85 millions", "label": "de morts, selon les estimations" },
+    { "valeur": "Environ 6 millions", "label": "de Juifs assassinés (Shoah)" },
+    { "valeur": "Plus de 100 millions", "label": "de soldats mobilisés" },
+    { "valeur": "6 ans", "label": "de 1939 à 1945" }
+  ],
+  "camps": [
+    {
+      "id": "allies",
+      "nom": "Alliés",
+      "couleur": "#2f6fdb",
+      "description": "Le Royaume-Uni et son empire, la France (puis la France libre), l’URSS à partir de juin 1941, les États-Unis à partir de décembre 1941, la Chine et de nombreux autres pays.",
+      "membres": [
+        "Royaume-Uni",
+        "France, puis France libre",
+        "URSS (à partir de 1941)",
+        "États-Unis (à partir de 1941)",
+        "Chine",
+        "Pologne",
+        "Canada, Australie, Nouvelle-Zélande, Afrique du Sud, Inde"
+      ]
+    },
+    {
+      "id": "axe",
+      "nom": "Axe",
+      "couleur": "#c0392b",
+      "description": "L’Allemagne nazie, l’Italie fasciste (jusqu’en 1943) et l’Empire du Japon, avec leurs alliés : Hongrie, Roumanie, Bulgarie, et la Finlande contre l’URSS.",
+      "membres": [
+        "Allemagne nazie",
+        "Italie fasciste (jusqu’en 1943)",
+        "Empire du Japon",
+        "Hongrie, Roumanie, Bulgarie",
+        "Finlande (contre l’URSS)"
+      ]
+    }
+  ],
+  "carte": {
+    "annee": 1938,
+    "noms": {
+      "Germany": "Allemagne",
+      "Empire of Japan": "Japon",
+      "Saipan": "Îles Mariannes",
+      "Poland": "Pologne",
+      "Czechoslovakia": "Tchécoslovaquie",
+      "Albania": "Albanie",
+      "Italy": "Italie",
+      "Libya": "Libye",
+      "USSR": "URSS",
+      "Finland": "Finlande",
+      "United Kingdom": "Royaume-Uni",
+      "France": "France",
+      "British Raj": "Inde britannique",
+      "Canada": "Canada",
+      "Dominion of Newfoundland": "Terre-Neuve",
+      "Australia": "Australie",
+      "New Zealand": "Nouvelle-Zélande",
+      "Union of South Africa": "Afrique du Sud",
+      "Chinese warlords": "Chine",
+      "Cambodia": "Cambodge",
+      "Cochin China": "Cochinchine",
+      "Tunisia": "Tunisie",
+      "Egypt": "Égypte",
+      "United States": "États-Unis",
+      "Denmark": "Islande et Groenland (danois)",
+      "Norway": "Norvège",
+      "Netherlands": "Pays-Bas",
+      "Belgium": "Belgique",
+      "Luxembourg": "Luxembourg",
+      "Algeria (France)": "Algérie",
+      "Morocco (France)": "Maroc",
+      "French West Africa": "Afrique-Occidentale française",
+      "Syria (France)": "Syrie et Liban",
+      "Madagascar (France)": "Madagascar",
+      "French Indo-China": "Indochine française",
+      "French Equatorial Africa": "Afrique-Équatoriale française",
+      "French Cameroons": "Cameroun",
+      "Congo (France)": "Congo français",
+      "Belgian Congo": "Congo belge",
+      "Rwanda (Belgium)": "Ruanda-Urundi",
+      "Dutch East Indies": "Indes néerlandaises",
+      "Estonia": "Estonie",
+      "Latvia": "Lettonie",
+      "Lithuania": "Lituanie",
+      "Romania": "Roumanie",
+      "Hungary": "Hongrie",
+      "Bulgaria": "Bulgarie",
+      "Yugoslavia": "Yougoslavie",
+      "Greece": "Grèce",
+      "Ethiopia (Italy)": "Éthiopie",
+      "Eritrea (Italy)": "Érythrée",
+      "Italian Somaliland": "Somalie italienne",
+      "Iran": "Iran",
+      "Guam": "Guam",
+      "Philippines": "Philippines",
+      "Malaysia": "Malaisie britannique",
+      "Brunei": "Brunei",
+      "Hong Kong": "Hong Kong",
+      "Gilbert and Ellice Islands": "Îles Gilbert",
+      "Laos": "Laos",
+      "Siam": "Thaïlande (Siam)",
+      "Mexico": "Mexique",
+      "Brazil": "Brésil",
+      "Spain": "Espagne",
+      "Portugal": "Portugal",
+      "Sweden": "Suède",
+      "Switzerland": "Suisse",
+      "Turkey": "Turquie",
+      "Ireland": "Irlande",
+      "Saudi Arabia": "Arabie saoudite",
+      "Mongolia": "Mongolie",
+      "Mesopotamia (GB)": "Irak",
+      "Afghanistan": "Afghanistan",
+      "Ceylon": "Ceylan",
+      "Sudan": "Soudan anglo-égyptien",
+      "Tibet": "Tibet",
+      "Xinjiang": "Xinjiang (Chine)"
+    },
+    "note": "Couleurs simplifiées : un pays est coloré dès qu’il est en guerre ou occupé, même en partie. Frontières de 1938 ; le Danemark métropolitain et quelques petits territoires n’apparaissent pas sur cette carte.",
+    "statuts": {
+      "Germany": { "statut": "axe", "note": "Allemagne nazie, qui a annexé l’Autriche en 1938" },
+      "Empire of Japan": { "statut": "axe", "note": "Empire du Japon, en guerre contre la Chine depuis 1937" },
+      "Saipan": { "statut": "axe", "note": "îles sous mandat japonais" },
+      "Poland": { "statut": "occupe", "note": "envahie par l’Allemagne, puis par l’URSS (septembre 1939)" },
+      "Czechoslovakia": { "statut": "occupe", "note": "démembrée par l’Allemagne en 1938-1939" },
+      "Albania": { "statut": "occupe", "note": "occupée par l’Italie (avril 1939)" },
+      "Italy": { "statut": "neutre", "note": "alliée de l’Allemagne, mais pas encore en guerre" },
+      "Libya": { "statut": "neutre", "note": "colonie italienne" },
+      "USSR": {
+        "statut": "neutre",
+        "note": "liée à l’Allemagne par le pacte germano-soviétique (août 1939) ; envahit l’est de la Pologne, puis la Finlande"
+      },
+      "Finland": { "statut": "neutre", "note": "attaquée par l’URSS (guerre d’Hiver, 1939-1940)" },
+      "United Kingdom": { "statut": "allies", "note": "Royaume-Uni" },
+      "France": { "statut": "allies", "note": "France" },
+      "British Raj": { "statut": "allies", "note": "Inde britannique" },
+      "Canada": "allies",
+      "Dominion of Newfoundland": "allies",
+      "Australia": "allies",
+      "New Zealand": "allies",
+      "Union of South Africa": "allies",
+      "Chinese warlords": { "statut": "allies", "note": "Chine, en guerre contre le Japon depuis 1937" },
+      "Cambodia": { "statut": "allies", "note": "Indochine française" },
+      "Cochin China": { "statut": "allies", "note": "Indochine française" },
+      "Laos": { "statut": "allies", "note": "Indochine française" },
+      "Ceylon": { "statut": "allies", "note": "colonie britannique" },
+      "Sudan": { "statut": "allies", "note": "condominium anglo-égyptien, sous contrôle britannique" },
+      "Tunisia": { "statut": "allies", "note": "protectorat français" },
+      "Egypt": { "statut": "neutre", "note": "sous influence britannique" },
+      "United States": { "statut": "neutre", "note": "neutres, mais aident le Royaume-Uni à partir de 1940-1941" }
+    }
+  },
+  "phases": [
+    {
+      "id": "pologne",
+      "nom": "La guerre commence",
+      "debut": "1939-09",
+      "fin": "1940-03",
+      "resume": "L’Allemagne et l’URSS se partagent la Pologne ; à l’ouest, c’est la « drôle de guerre ».",
+      "texte": "Le 1er septembre 1939, l’Allemagne envahit la Pologne ; le 3, le Royaume-Uni et la France lui déclarent la guerre. Le 17 septembre, l’URSS, liée à Hitler par le pacte germano-soviétique, envahit l’est du pays. À l’ouest, les armées françaises et britanniques attendent : c’est la « drôle de guerre ».",
+      "carte": {
+        "cadre": [[-10, 36], [45, 64]],
+        "statuts": {}
+      },
+      "batailles": ["invasion-pologne"],
+      "evenements": [
+        { "date": "1939-09-03", "texte": "Le Royaume-Uni et la France déclarent la guerre à l’Allemagne" },
+        { "date": "1939-09-17", "texte": "L’URSS envahit l’est de la Pologne" },
+        { "date": "1939-11-30", "texte": "L’URSS attaque la Finlande" }
+      ]
+    },
+    {
+      "id": "blitzkrieg",
+      "nom": "La guerre éclair à l’ouest",
+      "debut": "1940-04",
+      "fin": "1940-06",
+      "resume": "En quelques semaines, l’Allemagne envahit le Danemark, la Norvège, les Pays-Bas, la Belgique et la France.",
+      "texte": "En avril 1940, l’Allemagne occupe le Danemark et la Norvège. En mai, ses divisions blindées traversent les Ardennes et encerclent les armées alliées. La France signe l’armistice le 22 juin 1940 : le nord et l’ouest du pays sont occupés, et le régime de Vichy du maréchal Pétain collabore avec l’Allemagne. Le 10 juin, l’Italie de Mussolini entre en guerre aux côtés de l’Allemagne.",
+      "carte": {
+        "cadre": [[-10, 38], [32, 70]],
+        "statuts": {
+          "Denmark": {
+            "statut": "allies",
+            "note": "possessions danoises occupées par les Britanniques (1940), puis protégées par les Américains (1941) ; le Danemark lui-même, absent de cette carte, est occupé par l’Allemagne le 9 avril 1940"
+          },
+          "Norway": { "statut": "occupe", "note": "envahie en avril 1940" },
+          "Netherlands": { "statut": "occupe", "note": "envahis en mai 1940" },
+          "Belgium": { "statut": "occupe", "note": "envahie en mai 1940" },
+          "Luxembourg": { "statut": "occupe", "note": "envahi en mai 1940" },
+          "France": { "statut": "occupe", "note": "nord et ouest occupés ; le régime de Vichy collabore avec l’Allemagne" },
+          "Italy": { "statut": "axe", "note": "entre en guerre le 10 juin 1940" },
+          "Libya": { "statut": "axe", "note": "colonie italienne" },
+          "Algeria (France)": { "statut": "neutre", "note": "sous l’autorité du régime de Vichy" },
+          "Morocco (France)": { "statut": "neutre", "note": "sous l’autorité du régime de Vichy" },
+          "Tunisia": { "statut": "neutre", "note": "sous l’autorité du régime de Vichy" },
+          "French West Africa": { "statut": "neutre", "note": "sous l’autorité du régime de Vichy" },
+          "Syria (France)": { "statut": "neutre", "note": "sous l’autorité du régime de Vichy" },
+          "Madagascar (France)": { "statut": "neutre", "note": "sous l’autorité du régime de Vichy" },
+          "French Indo-China": { "statut": "neutre", "note": "sous l’autorité du régime de Vichy" },
+          "Cambodia": { "statut": "neutre", "note": "sous l’autorité du régime de Vichy" },
+          "Cochin China": { "statut": "neutre", "note": "sous l’autorité du régime de Vichy" },
+          "Laos": { "statut": "neutre", "note": "sous l’autorité du régime de Vichy" },
+          "French Equatorial Africa": { "statut": "neutre", "note": "sous l’autorité du régime de Vichy" },
+          "French Cameroons": { "statut": "neutre", "note": "sous l’autorité du régime de Vichy" },
+          "Congo (France)": { "statut": "neutre", "note": "sous l’autorité du régime de Vichy" },
+          "Belgian Congo": { "statut": "allies", "note": "colonie belge restée aux côtés des Alliés" },
+          "Rwanda (Belgium)": { "statut": "allies", "note": "territoire belge resté aux côtés des Alliés" },
+          "Dutch East Indies": { "statut": "allies", "note": "colonie néerlandaise restée aux côtés des Alliés" },
+          "Estonia": { "statut": "neutre", "note": "annexée par l’URSS (1940)" },
+          "Latvia": { "statut": "neutre", "note": "annexée par l’URSS (1940)" },
+          "Lithuania": { "statut": "neutre", "note": "annexée par l’URSS (1940)" },
+          "Finland": { "statut": "neutre", "note": "a dû céder une partie de son territoire à l’URSS (mars 1940)" }
+        }
+      },
+      "batailles": ["bataille-de-france", "dunkerque"],
+      "evenements": [
+        { "date": "1940-06-14", "texte": "Les troupes allemandes entrent dans Paris" },
+        { "date": "1940-06-18", "texte": "Appel du général de Gaulle depuis Londres", "ref": "appel-du-18-juin" },
+        { "date": "1940-06-22", "texte": "Armistice franco-allemand" }
+      ]
+    },
+    {
+      "id": "royaume-uni-seul",
+      "nom": "Le Royaume-Uni seul",
+      "debut": "1940-07",
+      "fin": "1941-05",
+      "resume": "Le Royaume-Uni résiste aux attaques aériennes allemandes ; l’Axe s’étend dans les Balkans et en Afrique du Nord.",
+      "texte": "Le Royaume-Uni de Winston Churchill refuse de négocier. La Royal Air Force gagne la bataille d’Angleterre, et l’Allemagne renonce à débarquer. L’Allemagne, l’Italie et le Japon signent le pacte tripartite (septembre 1940). Au printemps 1941, l’Allemagne envahit la Yougoslavie et la Grèce, tandis que l’Afrika Korps de Rommel combat en Libye.",
+      "carte": {
+        "cadre": [[-15, 25], [45, 62]],
+        "statuts": {
+          "French Equatorial Africa": { "statut": "allies", "note": "ralliée à la France libre (1940)" },
+          "French Cameroons": { "statut": "allies", "note": "ralliée à la France libre (1940)" },
+          "Congo (France)": { "statut": "allies", "note": "ralliée à la France libre (1940)" },
+          "Romania": { "statut": "axe", "note": "rejoint l’Axe en novembre 1940" },
+          "Hungary": { "statut": "axe", "note": "rejoint l’Axe en novembre 1940" },
+          "Bulgaria": { "statut": "axe", "note": "rejoint l’Axe en mars 1941" },
+          "Yugoslavia": { "statut": "occupe", "note": "envahie en avril 1941" },
+          "Greece": { "statut": "occupe", "note": "attaquée par l’Italie (1940), envahie par l’Allemagne (avril 1941)" },
+          "Ethiopia (Italy)": { "statut": "allies", "note": "libérée par les Britanniques et les résistants éthiopiens (1941)" },
+          "Eritrea (Italy)": { "statut": "allies", "note": "conquise par les Britanniques (1941)" },
+          "Italian Somaliland": { "statut": "allies", "note": "conquise par les Britanniques (1941)" },
+          "United States": { "statut": "neutre", "note": "neutres, mais prêtent armes et matériel au Royaume-Uni (mars 1941)" }
+        }
+      },
+      "batailles": ["bataille-d-angleterre"],
+      "evenements": [
+        { "date": "1940-09-27", "texte": "Pacte tripartite entre l’Allemagne, l’Italie et le Japon" },
+        { "date": "1941-04-06", "texte": "Invasion de la Yougoslavie et de la Grèce" }
+      ]
+    },
+    {
+      "id": "barbarossa",
+      "nom": "L’invasion de l’URSS",
+      "debut": "1941-06",
+      "fin": "1941-11",
+      "resume": "Le 22 juin 1941, l’Allemagne attaque l’URSS : c’est la plus grande invasion de l’histoire.",
+      "texte": "Avec ses alliés, l’Allemagne lance plus de trois millions de soldats contre l’URSS (opération Barbarossa). Elle avance jusqu’aux portes de Léningrad et de Moscou. Derrière le front, des unités de tueurs, les Einsatzgruppen, massacrent les Juifs par centaines de milliers : la Shoah par balles commence.",
+      "carte": {
+        "cadre": [[-5, 35], [65, 68]],
+        "statuts": {
+          "USSR": { "statut": "allies", "note": "envahie par l’Allemagne le 22 juin 1941" },
+          "Finland": { "statut": "axe", "note": "combat l’URSS aux côtés de l’Allemagne (1941-1944)" },
+          "Estonia": { "statut": "occupe", "note": "occupée par l’Allemagne (1941)" },
+          "Latvia": { "statut": "occupe", "note": "occupée par l’Allemagne (1941)" },
+          "Lithuania": { "statut": "occupe", "note": "occupée par l’Allemagne (1941)" },
+          "Syria (France)": { "statut": "allies", "note": "prise par les Britanniques et la France libre (1941)" },
+          "Iran": { "statut": "neutre", "note": "occupé par les Britanniques et les Soviétiques (août 1941)" }
+        }
+      },
+      "batailles": ["siege-de-leningrad", "bataille-de-moscou"],
+      "evenements": [
+        { "date": "1941-06-22", "texte": "Début de l’opération Barbarossa" },
+        { "date": "1941-09-29", "texte": "Massacre de Babi Yar, près de Kiev" }
+      ]
+    },
+    {
+      "id": "guerre-mondiale",
+      "nom": "La guerre devient mondiale",
+      "debut": "1941-12",
+      "fin": "1942-06",
+      "resume": "L’attaque japonaise de Pearl Harbor fait entrer les États-Unis dans la guerre ; le Japon conquiert l’Asie du Sud-Est.",
+      "texte": "Le 7 décembre 1941, le Japon attaque la flotte américaine à Pearl Harbor ; les États-Unis entrent en guerre, et l’Allemagne leur déclare la guerre. En quelques mois, le Japon s’empare des Philippines, de la Malaisie, de Singapour et des Indes néerlandaises. En janvier 1942, à la conférence de Wannsee, des dirigeants nazis organisent la mise en œuvre de l’extermination des Juifs d’Europe.",
+      "carte": {
+        "cadre": [[75, -15], [-140, 55]],
+        "rotation": -150,
+        "statuts": {
+          "United States": { "statut": "allies", "note": "entrent en guerre en décembre 1941" },
+          "Guam": { "statut": "occupe", "note": "prise par le Japon (décembre 1941)" },
+          "Philippines": { "statut": "occupe", "note": "conquises par le Japon (1942)" },
+          "Malaysia": { "statut": "occupe", "note": "conquise par le Japon (1942)" },
+          "Brunei": { "statut": "occupe", "note": "conquis par le Japon (1942)" },
+          "Hong Kong": { "statut": "occupe", "note": "conquis par le Japon (décembre 1941)" },
+          "Dutch East Indies": { "statut": "occupe", "note": "conquises par le Japon (1942)" },
+          "Gilbert and Ellice Islands": { "statut": "occupe", "note": "en partie occupées par le Japon" },
+          "French Indo-China": { "statut": "occupe", "note": "occupée par le Japon, sous administration française de Vichy" },
+          "Cambodia": { "statut": "occupe", "note": "occupée par le Japon, sous administration française de Vichy" },
+          "Cochin China": { "statut": "occupe", "note": "occupée par le Japon, sous administration française de Vichy" },
+          "Laos": { "statut": "occupe", "note": "occupé par le Japon, sous administration française de Vichy" },
+          "Siam": { "statut": "axe", "note": "alliée du Japon (1942)" }
+        }
+      },
+      "batailles": ["pearl-harbor", "midway"],
+      "evenements": [
+        { "date": "1941-12-07", "texte": "Attaque de Pearl Harbor", "ref": "attaque-de-pearl-harbor" },
+        { "date": "1942-01-20", "texte": "Conférence de Wannsee" },
+        { "date": "1942-02-15", "texte": "Chute de Singapour" }
+      ]
+    },
+    {
+      "id": "tournant",
+      "nom": "Le tournant",
+      "debut": "1942-07",
+      "fin": "1943-02",
+      "resume": "À El Alamein et à Stalingrad, l’Axe subit ses premières grandes défaites ; les Alliés débarquent en Afrique du Nord.",
+      "texte": "En Égypte, les Britanniques arrêtent Rommel à El Alamein. En novembre 1942, les Américains et les Britanniques débarquent au Maroc et en Algérie ; l’Allemagne occupe alors toute la France. À Stalingrad, l’Armée rouge encercle la VIe armée allemande, qui capitule en février 1943. En juillet 1942, lors de la rafle du Vél d’Hiv, la police française arrête environ 13 000 Juifs à Paris.",
+      "carte": {
+        "cadre": [[-15, 25], [60, 60]],
+        "statuts": {
+          "France": { "statut": "occupe", "note": "entièrement occupée à partir de novembre 1942" },
+          "Algeria (France)": { "statut": "allies", "note": "libérée par le débarquement allié de novembre 1942" },
+          "Morocco (France)": { "statut": "allies", "note": "libéré par le débarquement allié de novembre 1942" },
+          "French West Africa": { "statut": "allies", "note": "passe du côté des Alliés (novembre 1942)" },
+          "Madagascar (France)": { "statut": "allies", "note": "prise par les Britanniques (1942)" },
+          "Tunisia": { "statut": "occupe", "note": "occupée par l’Axe (novembre 1942 – mai 1943)" },
+          "Mexico": { "statut": "allies", "note": "déclare la guerre à l’Axe (1942)" },
+          "Brazil": { "statut": "allies", "note": "déclare la guerre à l’Axe (1942)" }
+        }
+      },
+      "batailles": ["el-alamein", "stalingrad"],
+      "evenements": [
+        { "date": "1942-07-16", "texte": "Rafle du Vél d’Hiv à Paris" },
+        { "date": "1942-11-08", "texte": "Débarquement allié au Maroc et en Algérie" },
+        { "date": "1943-02-02", "texte": "Capitulation allemande à Stalingrad", "ref": "bataille-de-stalingrad" }
+      ]
+    },
+    {
+      "id": "reconquete",
+      "nom": "La reconquête",
+      "debut": "1943-03",
+      "fin": "1944-05",
+      "resume": "L’Armée rouge avance vers l’ouest ; les Alliés chassent l’Axe d’Afrique et débarquent en Italie.",
+      "texte": "En mai 1943, les forces de l’Axe capitulent en Tunisie. En juillet, l’offensive allemande échoue à Koursk, et les Alliés débarquent en Sicile ; Mussolini est renversé. L’Italie signe un armistice en septembre, mais l’Allemagne occupe le nord du pays. Dans le Pacifique, les Américains reprennent les îles une à une. En avril 1943, les derniers Juifs du ghetto de Varsovie se soulèvent.",
+      "carte": {
+        "cadre": [[-10, 28], [55, 62]],
+        "statuts": {
+          "Tunisia": { "statut": "allies", "note": "libérée par les Alliés (mai 1943)" },
+          "Libya": { "statut": "allies", "note": "conquise par les Alliés (1943)" },
+          "Italy": { "statut": "occupe", "note": "en 1943, le sud passe aux Alliés ; le nord est occupé par l’Allemagne" }
+        }
+      },
+      "batailles": ["koursk"],
+      "evenements": [
+        { "date": "1943-04-19", "texte": "Soulèvement du ghetto de Varsovie" },
+        { "date": "1943-07-10", "texte": "Débarquement allié en Sicile" },
+        { "date": "1943-11-28", "texte": "Conférence de Téhéran (Churchill, Roosevelt, Staline)" }
+      ]
+    },
+    {
+      "id": "liberation",
+      "nom": "Les débarquements et la libération",
+      "debut": "1944-06",
+      "fin": "1944-12",
+      "resume": "Les Alliés débarquent en Normandie, puis en Provence ; l’Armée rouge écrase les armées allemandes en Biélorussie.",
+      "texte": "Le 6 juin 1944, les Alliés débarquent en Normandie ; le 15 août, en Provence. Paris est libéré le 25 août. À l’est, l’Armée rouge détruit une grande partie de l’armée allemande en Biélorussie (opération Bagration). La Roumanie et la Bulgarie changent de camp ; la Finlande signe un armistice. En octobre, les Américains débarquent aux Philippines.",
+      "carte": {
+        "cadre": [[-10, 36], [42, 64]],
+        "statuts": {
+          "France": { "statut": "allies", "note": "en grande partie libérée en 1944 (Paris le 25 août)" },
+          "Belgium": { "statut": "allies", "note": "libérée en septembre 1944" },
+          "Luxembourg": { "statut": "allies", "note": "libéré en septembre 1944" },
+          "Romania": { "statut": "allies", "note": "change de camp en août 1944" },
+          "Bulgaria": { "statut": "allies", "note": "change de camp en septembre 1944" },
+          "Finland": { "statut": "neutre", "note": "armistice avec l’URSS (septembre 1944)" },
+          "Greece": { "statut": "allies", "note": "libérée en octobre 1944" },
+          "Estonia": { "statut": "allies", "note": "réannexée par l’URSS (1944)" },
+          "Latvia": { "statut": "allies", "note": "réannexée par l’URSS (1944)" },
+          "Lithuania": { "statut": "allies", "note": "réannexée par l’URSS (1944)" },
+          "Albania": { "statut": "allies", "note": "libérée par les partisans (novembre 1944)" }
+        }
+      },
+      "batailles": ["normandie"],
+      "evenements": [
+        { "date": "1944-06-06", "texte": "Débarquement de Normandie" },
+        { "date": "1944-08-01", "texte": "Insurrection de Varsovie" },
+        { "date": "1944-08-25", "texte": "Libération de Paris" }
+      ]
+    },
+    {
+      "id": "chute-allemagne",
+      "nom": "La chute de l’Allemagne",
+      "debut": "1945-01",
+      "fin": "1945-05",
+      "resume": "Pris en tenaille entre les Soviétiques et les Alliés occidentaux, le Reich s’effondre ; l’Allemagne capitule le 8 mai 1945.",
+      "texte": "En janvier 1945, l’Armée rouge entre dans le camp d’Auschwitz, où il ne reste que quelques milliers de prisonniers. Les Alliés occidentaux franchissent le Rhin, les Soviétiques prennent Berlin. Hitler se suicide le 30 avril. L’Allemagne capitule sans condition : la guerre s’arrête en Europe le 8 mai 1945. En février, à Yalta, Churchill, Roosevelt et Staline ont préparé l’après-guerre.",
+      "carte": {
+        "cadre": [[-5, 40], [35, 60]],
+        "statuts": {
+          "Poland": {
+            "statut": "allies",
+            "note": "libérée de l’occupation allemande par l’Armée rouge ; un gouvernement communiste s’installe"
+          },
+          "Czechoslovakia": { "statut": "allies", "note": "libérée en 1945" },
+          "Hungary": { "statut": "axe", "note": "conquise par l’Armée rouge au début de 1945" },
+          "Netherlands": { "statut": "allies", "note": "libérés en mai 1945" },
+          "Norway": { "statut": "allies", "note": "libérée en mai 1945" },
+          "Yugoslavia": { "statut": "allies", "note": "libérée par les partisans de Tito et l’Armée rouge" },
+          "Italy": { "statut": "allies", "note": "libérée en avril 1945" },
+          "Germany": { "statut": "axe", "note": "capitule le 8 mai 1945" },
+          "Philippines": { "statut": "allies", "note": "reprises par les Américains (1944-1945)" }
+        }
+      },
+      "batailles": ["berlin"],
+      "evenements": [
+        { "date": "1945-01-27", "texte": "L’Armée rouge entre dans Auschwitz", "ref": "shoah" },
+        { "date": "1945-02-04", "texte": "Conférence de Yalta" },
+        { "date": "1945-05-08", "texte": "Capitulation de l’Allemagne" }
+      ]
+    },
+    {
+      "id": "capitulation-japon",
+      "nom": "La capitulation du Japon",
+      "debut": "1945-05",
+      "fin": "1945-09",
+      "resume": "Après Okinawa, les bombes atomiques et l’entrée en guerre de l’URSS, le Japon capitule le 2 septembre 1945.",
+      "texte": "La conquête d’Okinawa coûte des dizaines de milliers de vies. Les 6 et 9 août 1945, les États-Unis lancent des bombes atomiques sur Hiroshima et Nagasaki ; le 8 août, l’URSS déclare la guerre au Japon et envahit la Mandchourie. L’empereur Hirohito annonce la capitulation le 15 août ; elle est signée le 2 septembre 1945. En juin, la charte des Nations unies a été signée à San Francisco.",
+      "carte": {
+        "cadre": [[95, 0], [160, 52]],
+        "rotation": -130,
+        "statuts": {
+          "Germany": { "statut": "axe", "note": "vaincue, occupée par les Alliés" },
+          "Empire of Japan": { "statut": "axe", "note": "capitule le 2 septembre 1945" }
+        }
+      },
+      "batailles": ["okinawa", "hiroshima-nagasaki"],
+      "evenements": [
+        { "date": "1945-06-26", "texte": "Signature de la charte des Nations unies" },
+        {
+          "date": "1945-08-06",
+          "texte": "Bombe atomique sur Hiroshima",
+          "ref": "bombardements-d-hiroshima-et-nagasaki"
+        },
+        { "date": "1945-09-02", "texte": "Capitulation du Japon" }
+      ]
+    }
+  ],
+  "batailles": [
+    {
+      "id": "invasion-pologne",
+      "nom": "Invasion de la Pologne",
+      "debut": "1939-09",
+      "fin": "1939-10",
+      "lieu": "Pologne",
+      "coords": [21.01, 52.23],
+      "vainqueur": "axe",
+      "resume": "Le 1er septembre 1939, l’Allemagne attaque la Pologne ; le 17, l’URSS envahit l’est du pays. Varsovie capitule le 28 septembre.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Campagne_de_Pologne_(1939)"
+    },
+    {
+      "id": "bataille-de-france",
+      "nom": "Bataille de France",
+      "debut": "1940-05",
+      "fin": "1940-06",
+      "lieu": "Belgique et France",
+      "coords": [4.94, 49.7],
+      "vainqueur": "axe",
+      "resume": "Les blindés allemands percent à Sedan, après avoir traversé les Ardennes, et encerclent les armées alliées. Paris est occupé le 14 juin ; l’armistice est signé le 22 juin 1940.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_France"
+    },
+    {
+      "id": "dunkerque",
+      "nom": "Évacuation de Dunkerque",
+      "debut": "1940-05",
+      "fin": "1940-06",
+      "lieu": "Dunkerque (France)",
+      "coords": [2.37, 51.03],
+      "resume": "Encerclés, environ 340 000 soldats britanniques et français sont évacués vers l’Angleterre par des navires de guerre et des centaines de petits bateaux.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Dunkerque"
+    },
+    {
+      "id": "bataille-d-angleterre",
+      "nom": "Bataille d’Angleterre",
+      "debut": "1940-07",
+      "fin": "1940-10",
+      "lieu": "Ciel du sud de l’Angleterre",
+      "coords": [-0.12, 51.5],
+      "vainqueur": "allies",
+      "resume": "La Royal Air Force résiste à l’aviation allemande, qui devait préparer une invasion ; Hitler renonce à débarquer. Les bombardements des villes britanniques, le « Blitz », continuent jusqu’en mai 1941.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_d%27Angleterre"
+    },
+    {
+      "id": "siege-de-leningrad",
+      "nom": "Siège de Léningrad",
+      "debut": "1941-09",
+      "fin": "1944-01",
+      "lieu": "Léningrad (Saint-Pétersbourg)",
+      "coords": [30.32, 59.94],
+      "vainqueur": "allies",
+      "resume": "Encerclée pendant près de 900 jours, la ville résiste. La faim et le froid tuent environ un million de civils, selon les estimations.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_L%C3%A9ningrad"
+    },
+    {
+      "id": "bataille-de-moscou",
+      "nom": "Bataille de Moscou",
+      "debut": "1941-10",
+      "fin": "1942-01",
+      "lieu": "Moscou",
+      "coords": [37.62, 55.75],
+      "vainqueur": "allies",
+      "resume": "Arrivée aux portes de Moscou, l’armée allemande est arrêtée par l’Armée rouge et par l’hiver : c’est son premier grand échec.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Moscou"
+    },
+    {
+      "id": "pearl-harbor",
+      "nom": "Attaque de Pearl Harbor",
+      "debut": "1941-12",
+      "lieu": "Hawaï",
+      "coords": [-157.95, 21.36],
+      "vainqueur": "axe",
+      "ref": "attaque-de-pearl-harbor",
+      "resume": "Le 7 décembre 1941, l’aviation japonaise attaque par surprise la flotte américaine à Hawaï : plus de 2 400 Américains sont tués. Les États-Unis entrent en guerre.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Attaque_de_Pearl_Harbor"
+    },
+    {
+      "id": "midway",
+      "nom": "Bataille de Midway",
+      "debut": "1942-06",
+      "lieu": "Îles Midway (Pacifique)",
+      "coords": [-177.37, 28.21],
+      "vainqueur": "allies",
+      "resume": "Grâce au déchiffrement des messages japonais, la marine américaine coule quatre porte-avions japonais : le Japon perd l’initiative dans le Pacifique.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Midway"
+    },
+    {
+      "id": "el-alamein",
+      "nom": "Bataille d’El Alamein",
+      "debut": "1942-10",
+      "fin": "1942-11",
+      "lieu": "El Alamein (Égypte)",
+      "coords": [28.95, 30.83],
+      "vainqueur": "allies",
+      "resume": "Les troupes britanniques et du Commonwealth du général Montgomery battent l’Afrika Korps de Rommel et repoussent l’Axe hors d’Égypte.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Seconde_bataille_d%27El-Alamein"
+    },
+    {
+      "id": "stalingrad",
+      "nom": "Bataille de Stalingrad",
+      "debut": "1942-08",
+      "fin": "1943-02",
+      "lieu": "Stalingrad (Volgograd)",
+      "coords": [44.52, 48.71],
+      "vainqueur": "allies",
+      "ref": "bataille-de-stalingrad",
+      "resume": "Après des mois de combats de rue, l’Armée rouge encercle la VIe armée allemande, qui capitule le 2 février 1943 : c’est le grand tournant de la guerre à l’est.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Stalingrad"
+    },
+    {
+      "id": "koursk",
+      "nom": "Bataille de Koursk",
+      "debut": "1943-07",
+      "fin": "1943-08",
+      "lieu": "Koursk (Russie)",
+      "coords": [36.19, 51.73],
+      "vainqueur": "allies",
+      "resume": "La plus grande bataille de chars de l’histoire : l’offensive allemande échoue, et l’Armée rouge ne cesse plus d’avancer vers l’ouest.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Koursk"
+    },
+    {
+      "id": "normandie",
+      "nom": "Débarquement de Normandie",
+      "debut": "1944-06",
+      "fin": "1944-08",
+      "lieu": "Normandie (France)",
+      "coords": [-0.6, 49.35],
+      "vainqueur": "allies",
+      "resume": "Le 6 juin 1944, le « Jour J », plus de 150 000 soldats alliés débarquent sur les plages de Normandie. Après deux mois de combats, la route de Paris est ouverte.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/D%C3%A9barquement_de_Normandie"
+    },
+    {
+      "id": "berlin",
+      "nom": "Bataille de Berlin",
+      "debut": "1945-04",
+      "fin": "1945-05",
+      "lieu": "Berlin",
+      "coords": [13.4, 52.52],
+      "vainqueur": "allies",
+      "resume": "L’Armée rouge prend Berlin. Hitler se suicide le 30 avril ; l’Allemagne capitule sans condition, et la guerre s’arrête en Europe le 8 mai 1945.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Berlin"
+    },
+    {
+      "id": "okinawa",
+      "nom": "Bataille d’Okinawa",
+      "debut": "1945-04",
+      "fin": "1945-06",
+      "lieu": "Okinawa (Japon)",
+      "coords": [127.68, 26.21],
+      "vainqueur": "allies",
+      "resume": "Bataille très meurtrière, marquée par les attaques de pilotes kamikazes ; des dizaines de milliers de civils de l’île meurent.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_d%27Okinawa"
+    },
+    {
+      "id": "hiroshima-nagasaki",
+      "nom": "Bombardements d’Hiroshima et de Nagasaki",
+      "debut": "1945-08",
+      "lieu": "Hiroshima et Nagasaki (Japon)",
+      "coords": [132.45, 34.39],
+      "vainqueur": "allies",
+      "ref": "bombardements-d-hiroshima-et-nagasaki",
+      "resume": "Les 6 et 9 août 1945, les États-Unis lancent deux bombes atomiques, qui tuent plus de 100 000 personnes sur le coup et beaucoup d’autres dans les mois suivants. Le Japon capitule.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bombardements_atomiques_d%27Hiroshima_et_Nagasaki"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Winston Churchill",
+      "camp": "allies",
+      "role": "Premier ministre britannique",
+      "dates": "1874 → 1965",
+      "description": "Il refuse de négocier avec Hitler en 1940 et incarne la résistance britannique.",
+      "ref": "winston-churchill",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Winston_Churchill"
+    },
+    {
+      "nom": "Franklin D. Roosevelt",
+      "camp": "allies",
+      "role": "Président des États-Unis",
+      "dates": "1882 → 1945",
+      "description": "Il aide le Royaume-Uni, puis engage les États-Unis dans la guerre ; il meurt en avril 1945.",
+      "ref": "franklin-d-roosevelt",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Franklin_Delano_Roosevelt"
+    },
+    {
+      "nom": "Harry S. Truman",
+      "camp": "allies",
+      "role": "Président des États-Unis",
+      "dates": "1884 → 1972",
+      "description": "Successeur de Roosevelt, il décide d’utiliser la bombe atomique contre le Japon.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Harry_S._Truman"
+    },
+    {
+      "nom": "Joseph Staline",
+      "camp": "allies",
+      "role": "Dirigeant de l’URSS",
+      "dates": "1878 → 1953",
+      "description": "Lié à Hitler par le pacte germano-soviétique de 1939 à 1941, il dirige ensuite l’effort de guerre soviétique contre l’Allemagne.",
+      "ref": "staline",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Joseph_Staline"
+    },
+    {
+      "nom": "Gueorgui Joukov",
+      "camp": "allies",
+      "role": "Maréchal soviétique",
+      "dates": "1896 → 1974",
+      "description": "Il défend Moscou, dirige la contre-offensive de Stalingrad et prend Berlin.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Gueorgui_Joukov"
+    },
+    {
+      "nom": "Charles de Gaulle",
+      "camp": "allies",
+      "role": "Chef de la France libre",
+      "dates": "1890 → 1970",
+      "description": "Réfugié à Londres, il appelle à poursuivre le combat le 18 juin 1940.",
+      "ref": "charles-de-gaulle",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Charles_de_Gaulle"
+    },
+    {
+      "nom": "Jean Moulin",
+      "camp": "allies",
+      "role": "Résistant français",
+      "dates": "1899 → 1943",
+      "description": "Envoyé par de Gaulle, il unifie la Résistance intérieure ; arrêté en 1943, il meurt après avoir été torturé.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Jean_Moulin"
+    },
+    {
+      "nom": "Tchang Kaï-chek",
+      "camp": "allies",
+      "role": "Chef de la Chine nationaliste",
+      "dates": "1887 → 1975",
+      "description": "Il dirige la Chine dans la guerre contre le Japon, commencée en 1937.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Tchang_Ka%C3%AF-chek"
+    },
+    {
+      "nom": "Dwight D. Eisenhower",
+      "camp": "allies",
+      "role": "Général américain",
+      "dates": "1890 → 1969",
+      "description": "Commandant suprême des forces alliées en Europe, il dirige le débarquement de Normandie.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Dwight_D._Eisenhower"
+    },
+    {
+      "nom": "Alan Turing",
+      "camp": "allies",
+      "role": "Mathématicien britannique",
+      "dates": "1912 → 1954",
+      "description": "À Bletchley Park, il participe au déchiffrement des messages allemands codés par la machine Enigma.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Alan_Turing"
+    },
+    {
+      "nom": "Robert Oppenheimer",
+      "camp": "allies",
+      "role": "Physicien américain",
+      "dates": "1904 → 1967",
+      "description": "Directeur scientifique du projet Manhattan, qui fabrique les premières bombes atomiques.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Robert_Oppenheimer"
+    },
+    {
+      "nom": "Adolf Hitler",
+      "camp": "axe",
+      "role": "Dictateur de l’Allemagne nazie",
+      "dates": "1889 → 1945",
+      "description": "Il déclenche la guerre et ordonne le génocide des Juifs ; il se suicide à Berlin le 30 avril 1945.",
+      "ref": "adolf-hitler",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Adolf_Hitler"
+    },
+    {
+      "nom": "Benito Mussolini",
+      "camp": "axe",
+      "role": "Dictateur de l’Italie fasciste",
+      "dates": "1883 → 1945",
+      "description": "Allié de Hitler, il entre en guerre en 1940 ; renversé en 1943, il est exécuté par des résistants italiens en 1945.",
+      "ref": "benito-mussolini",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Benito_Mussolini"
+    },
+    {
+      "nom": "Hirohito",
+      "camp": "axe",
+      "role": "Empereur du Japon",
+      "dates": "1901 → 1989",
+      "description": "Empereur pendant la guerre, il annonce lui-même la capitulation à la radio le 15 août 1945.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Hirohito"
+    },
+    {
+      "nom": "Hideki Tōjō",
+      "camp": "axe",
+      "role": "Premier ministre japonais",
+      "dates": "1884 → 1948",
+      "description": "Chef du gouvernement de 1941 à 1944, il décide l’attaque de Pearl Harbor ; il est jugé et exécuté en 1948.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Hideki_T%C5%8Dj%C5%8D"
+    },
+    {
+      "nom": "Erwin Rommel",
+      "camp": "axe",
+      "role": "Maréchal allemand",
+      "dates": "1891 → 1944",
+      "description": "Chef de l’Afrika Korps en Libye et en Égypte ; soupçonné d’avoir su qu’un complot contre Hitler se préparait, il est forcé de se suicider.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Erwin_Rommel"
+    },
+    {
+      "nom": "Philippe Pétain",
+      "camp": "autres",
+      "role": "Chef du régime de Vichy",
+      "dates": "1856 → 1951",
+      "description": "Il signe l’armistice de 1940 et engage la France dans la collaboration avec l’Allemagne ; il est condamné en 1945.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Philippe_P%C3%A9tain"
+    },
+    {
+      "nom": "Anne Frank",
+      "camp": "autres",
+      "role": "Adolescente juive",
+      "dates": "1929 → 1945",
+      "description": "Cachée à Amsterdam, elle tient un journal ; déportée, elle meurt au camp de Bergen-Belsen.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Anne_Frank"
+    },
+    {
+      "nom": "Sophie Scholl",
+      "camp": "autres",
+      "role": "Résistante allemande",
+      "dates": "1921 → 1943",
+      "description": "Étudiante du groupe de la Rose blanche, elle distribue des tracts contre Hitler ; elle est exécutée en 1943.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Sophie_Scholl"
+    },
+    {
+      "nom": "Primo Levi",
+      "camp": "autres",
+      "role": "Écrivain italien",
+      "dates": "1919 → 1987",
+      "description": "Rescapé d’Auschwitz, il raconte la vie dans le camp dans Si c’est un homme.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Primo_Levi"
+    }
+  ],
+  "sections": [
+    {
+      "titre": "Les causes",
+      "texte": "Après la Première Guerre mondiale, l’Allemagne vit le traité de Versailles comme une humiliation. La crise économique de 1929 aide Hitler à prendre le pouvoir en 1933. Il réarme le pays, annexe l’Autriche (mars 1938), obtient une partie de la Tchécoslovaquie aux accords de Munich (septembre 1938), puis s’empare du reste en mars 1939. En Asie, le Japon, qui occupe la Mandchourie depuis 1931, attaque la Chine en 1937. Le 23 août 1939, le pacte germano-soviétique prévoit en secret le partage de la Pologne."
+    },
+    {
+      "titre": "La Shoah",
+      "texte": "Les nazis veulent faire disparaître les Juifs d’Europe. Ils les enferment dans des ghettos, les assassinent par balles en URSS, puis les déportent vers des centres de mise à mort comme Auschwitz-Birkenau, Treblinka ou Sobibor. Environ six millions de Juifs sont assassinés, soit les deux tiers des Juifs d’Europe. Les nazis tuent aussi des centaines de milliers de Roms et de Sintis, et des personnes handicapées."
+    },
+    {
+      "titre": "Les civils dans la guerre",
+      "texte": "Les civils sont plus nombreux à mourir que les soldats. L’URSS perd environ 27 millions d’habitants, et la Chine entre 15 et 20 millions selon les estimations. Les armées japonaises commettent de nombreux massacres en Asie, comme à Nankin en 1937. En 1940, la police secrète soviétique exécute environ 22 000 Polonais à Katyń. Les bombardements frappent les villes des deux camps, de Londres et Coventry à Hambourg, Dresde et Tokyo."
+    },
+    {
+      "titre": "Résistances et collaborations",
+      "texte": "Dans les pays occupés, des résistants sabotent, renseignent les Alliés et cachent des persécutés, comme les partisans de Tito en Yougoslavie ou l’Armée de l’intérieur polonaise. D’autres collaborent avec l’occupant : en France, le régime de Vichy adopte des lois antisémites et participe à la déportation d’environ 76 000 Juifs de France. Aux États-Unis, environ 120 000 personnes d’origine japonaise sont internées dans des camps."
+    },
+    {
+      "titre": "Bilan et conséquences",
+      "texte": "La guerre fait entre 60 et 85 millions de morts selon les estimations. Les dirigeants nazis sont jugés à Nuremberg (1945-1946), et les dirigeants japonais à Tokyo. L’Organisation des Nations unies est créée en 1945. L’Europe est divisée entre l’influence américaine et l’influence soviétique : la guerre froide commence. Affaiblies, les puissances coloniales voient leurs empires se défaire dans les décennies suivantes."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "debut",
+      "type": "mcq",
+      "prompt": "Quel événement déclenche la guerre en Europe, le 1er septembre 1939 ?",
+      "options": [
+        "L’invasion de la Pologne par l’Allemagne",
+        "L’attaque de Pearl Harbor",
+        "L’invasion de la France",
+        "L’annexion de l’Autriche"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "axe",
+      "type": "mcq",
+      "prompt": "Quels pays forment le cœur de l’Axe ?",
+      "options": [
+        "L’Allemagne, l’Italie et le Japon",
+        "L’Allemagne, l’URSS et le Japon",
+        "L’Italie, l’Espagne et le Portugal",
+        "Le Japon, la Chine et la Corée"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "pacte",
+      "type": "tf",
+      "prompt": "En août 1939, l’Allemagne et l’URSS signent un pacte de non-agression.",
+      "answer": true,
+      "explanation": "Le pacte germano-soviétique prévoit aussi, en secret, le partage de la Pologne."
+    },
+    {
+      "id": "armistice",
+      "type": "mcq",
+      "prompt": "Quel pays signe un armistice avec l’Allemagne en juin 1940 ?",
+      "options": ["La France", "Le Royaume-Uni", "La Pologne", "L’URSS"],
+      "answer": 0
+    },
+    {
+      "id": "appel",
+      "type": "mcq",
+      "prompt": "Qui appelle depuis Londres, le 18 juin 1940, à poursuivre le combat ?",
+      "options": ["Charles de Gaulle", "Philippe Pétain", "Jean Moulin", "Winston Churchill"],
+      "answer": 0
+    },
+    {
+      "id": "vichy",
+      "type": "tf",
+      "prompt": "Le régime de Vichy collabore avec l’Allemagne nazie.",
+      "answer": true,
+      "explanation": "Il participe notamment à l’arrestation et à la déportation des Juifs de France."
+    },
+    {
+      "id": "angleterre",
+      "type": "mcq",
+      "prompt": "Quelle aviation l’emporte pendant la bataille d’Angleterre (1940) ?",
+      "options": [
+        "La Royal Air Force britannique",
+        "La Luftwaffe allemande",
+        "L’aviation italienne",
+        "L’aviation soviétique"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "barbarossa",
+      "type": "mcq",
+      "prompt": "Quel pays l’Allemagne envahit-elle le 22 juin 1941 ?",
+      "options": ["L’URSS", "La Pologne", "La Grèce", "Le Royaume-Uni"],
+      "answer": 0
+    },
+    {
+      "id": "pearl",
+      "type": "mcq",
+      "prompt": "Quelle attaque fait entrer les États-Unis dans la guerre ?",
+      "options": ["Pearl Harbor", "Midway", "Hiroshima", "Dunkerque"],
+      "answer": 0
+    },
+    {
+      "id": "stalingrad",
+      "type": "mcq",
+      "prompt": "Quelle bataille, terminée en février 1943, marque le grand tournant à l’est ?",
+      "options": ["Stalingrad", "Koursk", "Berlin", "Moscou"],
+      "answer": 0
+    },
+    {
+      "id": "shoah",
+      "type": "mcq",
+      "prompt": "Combien de Juifs environ sont assassinés pendant la Shoah ?",
+      "options": ["Environ 6 millions", "Environ 600 000", "Environ 60 millions", "Environ 60 000"],
+      "answer": 0
+    },
+    {
+      "id": "auschwitz",
+      "type": "mcq",
+      "prompt": "Quel est le plus grand centre de mise à mort des nazis ?",
+      "options": ["Auschwitz-Birkenau", "Dachau", "Buchenwald", "Drancy"],
+      "answer": 0,
+      "explanation": "Dachau et Buchenwald sont des camps de concentration ; Drancy est un camp d’internement en France."
+    },
+    {
+      "id": "jour-j",
+      "type": "mcq",
+      "prompt": "Où les Alliés débarquent-ils le 6 juin 1944 ?",
+      "options": ["En Normandie", "En Provence", "En Sicile", "En Bretagne"],
+      "answer": 0
+    },
+    {
+      "id": "capitulation",
+      "type": "mcq",
+      "prompt": "Quel jour la guerre s’arrête-t-elle en Europe ?",
+      "options": ["Le 8 mai 1945", "Le 11 novembre 1918", "Le 6 juin 1944", "Le 2 septembre 1945"],
+      "answer": 0
+    },
+    {
+      "id": "bombe",
+      "type": "mcq",
+      "prompt": "Sur quelles villes les États-Unis lancent-ils des bombes atomiques en août 1945 ?",
+      "options": ["Hiroshima et Nagasaki", "Tokyo et Osaka", "Kyoto et Kobe", "Okinawa et Iwo Jima"],
+      "answer": 0
+    },
+    {
+      "id": "onu",
+      "type": "mcq",
+      "prompt": "Quelle organisation est créée en 1945 pour préserver la paix ?",
+      "options": ["L’Organisation des Nations unies (ONU)", "La Société des Nations", "L’OTAN", "L’Union européenne"],
+      "answer": 0
+    },
+    {
+      "id": "ordre",
+      "type": "order",
+      "prompt": "Remettez dans l’ordre.",
+      "items": [
+        "Invasion de la Pologne",
+        "Bataille d’Angleterre",
+        "Attaque de Pearl Harbor",
+        "Débarquement de Normandie",
+        "Capitulation du Japon"
+      ]
+    }
+  ],
+  "guerresLiees": [
+    "Seconde Guerre mondiale (Front de l'Est/Ouest)|1939",
+    "Campagne de Pologne (1939)|1939",
+    "Campagne de Norvège|1940",
+    "Bataille d’Angleterre|1940",
+    "La Guerre du Pacifique|1941",
+    "Insurrection de Varsovie|1944"
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Seconde_Guerre_mondiale",
+    { "titre": "Encyclopædia Britannica — World War II", "url": "https://www.britannica.com/event/World-War-II" },
+    { "titre": "Mémorial de la Shoah", "url": "https://www.memorialdelashoah.org/" }
+  ]
+}

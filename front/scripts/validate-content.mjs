@@ -7,6 +7,7 @@
 //         HISTOMAP_CONTENT=<dossier> node scripts/validate-content.mjs   (valider un autre dossier)
 import { ENTITY_TYPES, ignoredTerritories, loadContent, loadMapIndex } from './lib/content.mjs'
 import { ID, linkSyntaxErrors, parseLinks } from '../src/lib/links.js'
+import { loadDossiers, validateDossiers } from './lib/dossiers.mjs'
 
 const content = loadContent()
 const errors = [...content.problems]
@@ -356,6 +357,11 @@ else
     else if (mapNames) for (const n of group.noms) if (!mapNames.has(n)) warn(w, `« ${n} » absent de toutes les cartes`)
   }
 
+// ── Dossiers de guerre (content/wars/) ───────────────────────────────────────
+const dossiers = loadDossiers(content.dir)
+const allWarKeys = new Set([...content.civs.values()].flatMap(({ data }) => (data.guerres ?? []).map((g) => `${g.nom}|${g.annee}`)))
+validateDossiers(dossiers, { err, warn, isStr, isNum, isArr, isUrl, isHex, onlyFields, sources, entities: content.entities, civs: content.civs, wars: allWarKeys, mapIndex })
+
 // ── Liens [[id]] dans tous les textes ─────────────────────────────────────────
 function checkLinks(where, value) {
   if (typeof value === 'string') {
@@ -368,6 +374,7 @@ function checkLinks(where, value) {
 }
 for (const { file, data } of content.civs.values()) checkLinks(`content/${file}`, data)
 for (const { file, data } of content.entityFiles) checkLinks(`content/${file}`, data)
+for (const { file, data } of dossiers) if (data) checkLinks(`content/${file}`, data)
 
 // ── Bilan ────────────────────────────────────────────────────────────────────
 if (warnings.length) {
@@ -382,5 +389,6 @@ if (errors.length) {
 const count = (t) => content.entityFiles.filter((e) => e.type === t).length
 console.log(
   `\n✅ Contenu valide : ${content.epochs.length} époques, ${content.civs.size} civilisations, ` +
-    `${content.entityFiles.length} fiches liées (${count('personne')} personnes, ${count('evenement')} événements, ${count('decouverte')} découvertes).`
+    `${content.entityFiles.length} fiches liées (${count('personne')} personnes, ${count('evenement')} événements, ${count('decouverte')} découvertes), ` +
+    `${dossiers.length} dossier(s) de guerre.`
 )

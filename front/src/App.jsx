@@ -13,6 +13,7 @@ const ReviseEpochPage = lazy(() => import('./pages/ReviseEpochPage'))
 const ChapterPage = lazy(() => import('./pages/ChapterPage'))
 const QuizPage = lazy(() => import('./pages/QuizPage'))
 const WarsPage = lazy(() => import('./pages/WarsPage'))
+const WarDossierPage = lazy(() => import('./pages/WarDossierPage'))
 const SearchPage = lazy(() => import('./pages/SearchPage'))
 const EntityPage = lazy(() => import('./pages/EntityPage'))
 const NotFoundPage = lazy(() => import('./pages/NotFoundPage'))
@@ -43,6 +44,7 @@ export default function App() {
         <Route path="fiche/:id" element={<Lazy><EntityPage /></Lazy>} />
         <Route path="carte" element={<Lazy><MapPage /></Lazy>} />
         <Route path="guerres" element={<Lazy><WarsPage /></Lazy>} />
+        <Route path="guerres/:id" element={<Lazy><WarDossierPage /></Lazy>} />
         <Route path="recherche" element={<Lazy><SearchPage /></Lazy>} />
         <Route path="reviser" element={<Lazy><RevisePage /></Lazy>} />
         <Route path="reviser/:epochId" element={<Lazy><ReviseEpochPage /></Lazy>} />

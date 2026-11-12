@@ -564,6 +564,11 @@ function Guerres({ civ }) {
               )}
             </dl>
             {g.consequences && <RichText as="p" className="block mt-2 text-sm text-muted leading-relaxed" text={g.consequences} />}
+            {g.dossier && (
+              <Link to={`/guerres/${g.dossier}`} className="mt-3 mr-4 inline-flex items-center gap-1 text-sm font-semibold text-ink hover:underline">
+                <Icon name="layers" size={14} /> Dossier complet de la guerre
+              </Link>
+            )}
             {g.wikiUrl && (
               <a href={g.wikiUrl} target="_blank" rel="noreferrer" className="mt-3 inline-flex items-center gap-1 text-sm font-medium text-accent hover:underline">
                 Wikipédia <Icon name="external" size={14} />

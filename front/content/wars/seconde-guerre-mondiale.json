@@ -37,6 +37,7 @@
     {
       "id": "axe",
       "nom": "Axe",
+      "legende": "Axe et ses alliés",
       "couleur": "#c0392b",
       "description": "L’Allemagne nazie, l’Italie fasciste (jusqu’en 1943) et l’Empire du Japon, avec leurs alliés : Hongrie, Roumanie, Bulgarie, et la Finlande contre l’URSS.",
       "membres": [
@@ -50,6 +51,7 @@
   ],
   "carte": {
     "annee": 1938,
+    "occupant": "axe",
     "noms": {
       "Germany": "Allemagne",
       "Empire of Japan": "Japon",
@@ -961,7 +963,10 @@
     "Campagne de Norvège|1940",
     "Bataille d’Angleterre|1940",
     "La Guerre du Pacifique|1941",
-    "Insurrection de Varsovie|1944"
+    "Insurrection de Varsovie|1944",
+    "Grande Guerre patriotique (Front de l'Est WWII)|1941",
+    "Seconde Guerre sino-japonaise|1937",
+    "L'Occupation Japonaise|1942"
   ],
   "sources": [
     "https://fr.wikipedia.org/wiki/Seconde_Guerre_mondiale",

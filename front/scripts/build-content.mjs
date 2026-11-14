@@ -29,7 +29,7 @@ if (content.problems.length) {
 }
 const { epochs, byId } = assemble(content)
 // Dossiers de guerre (content/wars/) et guerres des fiches qui s'y rattachent (« nom|année » → id du dossier)
-const dossiers = loadDossiers(content.dir).map((x) => x.data).filter(Boolean)
+const dossiers = loadDossiers(content.dir).map((x) => x.data).filter(Boolean).sort((a, b) => a.debut - b.debut)
 const dossierOfWar = new Map(dossiers.flatMap((d) => (d.guerresLiees ?? []).map((key) => [key, d.id])))
 
 // Champs de l'index léger (le reste part dans le détail, chargé à la demande)
@@ -140,7 +140,7 @@ const conflicts = []
 for (const { civ } of byId.values())
   for (const g of civ.guerres ?? [])
     if (content.conflicts[g.nom] && typeof g.annee === 'number')
-      conflicts.push({ ...stripLinksDeep(g), coords: content.conflicts[g.nom].coords, civId: civ.id })
+      conflicts.push({ ...stripLinksDeep(g), coords: content.conflicts[g.nom].coords, civId: civ.id, ...(dossierOfWar.has(`${g.nom}|${g.annee}`) ? { dossier: dossierOfWar.get(`${g.nom}|${g.annee}`) } : {}) })
 writeJson('conflicts.json', conflicts)
 
 const mapIndex = loadMapIndex()

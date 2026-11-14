@@ -3,7 +3,7 @@ import { Link, useParams } from 'react-router-dom'
 import { AnimatePresence, motion } from 'framer-motion'
 import WARS from '../data/wars.json'
 import { findCivilization } from '../lib/data'
-import { formatDate, formatSpan, useDossier } from '../lib/dossiers'
+import { dateKey, formatDate, formatSpan, useDossier } from '../lib/dossiers'
 import { civTextStyle, solidBg } from '../lib/color'
 import { haptic } from '../lib/haptics'
 import { useUI } from '../store/ui'
@@ -114,7 +114,7 @@ function Dossier({ d }) {
 
       <Section id="batailles" icon="swords" title={`${d.batailles.length} batailles`} className="scroll-mt-20">
         <ol className="grid gap-2.5 sm:grid-cols-2">
-          {[...d.batailles].sort((a, b) => a.debut.localeCompare(b.debut)).map((b) => (
+          {[...d.batailles].sort((a, b) => dateKey(a.debut) - dateKey(b.debut)).map((b) => (
             <li key={b.id}>
               <button type="button" onClick={() => openBattle(b)} className="card hoverable w-full p-3.5 text-left flex gap-3 items-start min-h-[44px]">
                 <span className="mt-1 w-3 h-3 rounded-full shrink-0" style={{ background: camp[b.vainqueur]?.couleur ?? 'rgb(var(--c-muted))' }} aria-hidden="true" />
@@ -315,12 +315,6 @@ function EventRef({ id, label }) {
   )
 }
 
-const PEOPLE_GROUPS = [
-  ['allies', null],
-  ['axe', null],
-  ['autres', 'Autres figures'],
-]
-
 function People({ d, camp }) {
   const openSheet = useUI((s) => s.openSheet)
   const open = (p) =>
@@ -330,7 +324,7 @@ function People({ d, camp }) {
   return (
     <Section id="personnages" icon="users" title={`${d.personnages.length} personnages`} className="scroll-mt-20">
       <div className="space-y-5">
-        {PEOPLE_GROUPS.map(([id, label]) => {
+        {[...d.camps.map((c) => [c.id, c.nom]), ['autres', 'Autres figures']].map(([id, label]) => {
           const list = d.personnages.filter((p) => p.camp === id)
           if (!list.length) return null
           const color = camp[id]?.couleur ?? '#6b7280'
@@ -338,7 +332,7 @@ function People({ d, camp }) {
             <div key={id}>
               <h3 className="eyebrow mb-2 flex items-center gap-2">
                 <span className="w-2.5 h-2.5 rounded-full" style={{ background: color }} aria-hidden="true" />
-                {label ?? camp[id].nom}
+                {label}
               </h3>
               <ul className="grid gap-2 sm:grid-cols-2">
                 {list.map((p) => (

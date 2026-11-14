@@ -1,21 +1,31 @@
 // Dossiers de guerre (content/wars/<id>.json) : la page complète d'une grande guerre
-// (phases, carte animée, batailles, personnages, quiz). Sprint Guerres A : prototype sur
-// la Seconde Guerre mondiale.
+// (phases, carte animée, batailles, personnages, quiz).
 //
-//   loadDossiers(dir)                         → [{ file, name, data }]
-//   validateDossiers(content, dossiers, ctx)  → erreurs et alertes, via ctx.err / ctx.warn
-//   compileDossier(d, resolveDeep)            → objet écrit dans src/data/dossiers/<id>.json
+//   loadDossiers(dir)                       → [{ file, name, data, problem? }]
+//   validateDossiers(dossiers, ctx)         → erreurs et alertes, via ctx.err / ctx.warn
+//   compileDossier(d, resolveDeep)          → objet écrit dans src/data/dossiers/<id>.json
 //
+// Camps : deux camps ou plus, d'ids libres (« allies », « axe », « rome »…).
 // Carte : `carte.statuts` donne l'état de départ (nom d'un territoire de la carte de
-// `carte.annee` → statut), chaque phase n'indique que ce qui change. Un territoire sans
-// statut prend celui de sa métropole (SUBJECTO), sinon « neutre ».
+// `carte.annee` → statut), chaque phase n'indique que ce qui change. Statuts possibles :
+// l'id d'un camp, « occupe » (occupé par le camp `carte.occupant`) ou « neutre ».
+// Un territoire sans statut prend celui de sa métropole (SUBJECTO), sinon « neutre ».
+// Dates : « 1942 », « -218 », « 1942-08 » ou « 1942-08-23 ».
 import { existsSync, readFileSync, readdirSync } from 'fs'
 import { basename, join } from 'path'
 
-export const STATUTS = ['axe', 'allies', 'occupe', 'neutre']
-const PERSON_CAMPS_EXTRA = ['autres']
+const RESERVED = ['neutre', 'occupe', 'autres']
 const QUIZ_TYPES = ['mcq', 'tf', 'order']
-const MONTH = /^\d{4}-(0[1-9]|1[0-2])(-(0[1-9]|[12]\d|3[01]))?$/
+const DATE = /^-?\d{1,4}(-(0[1-9]|1[0-2])(-(0[1-9]|[12]\d|3[01]))?)?$/
+const SLUG = /^[a-z0-9]+(-[a-z0-9]+)*$/
+
+/** Bornes comparables d'une date : « 1942 » couvre toute l'année, « 1942-08 » tout le mois. */
+export function dateRange(s) {
+  const neg = s.startsWith('-')
+  const [y, m, d] = (neg ? s.slice(1) : s).split('-').map(Number)
+  const year = neg ? -y : y
+  return [year * 10000 + (m ?? 0) * 100 + (d ?? 0), year * 10000 + (m ?? 12) * 100 + (d ?? 99)]
+}
 
 export function loadDossiers(dir) {
   const folder = join(dir, 'wars')
@@ -48,6 +58,8 @@ export function phaseStates(d) {
 export function validateDossiers(dossiers, ctx) {
   const { err, warn, isStr, isNum, isArr, isUrl, isHex, onlyFields, sources } = ctx
   const ids = new Set()
+  const linkedBy = new Map() // guerre de fiche → dossier
+  const isDate = (v) => typeof v === 'string' && DATE.test(v)
   for (const { file, name, data: d, problem } of dossiers) {
     const w = `content/${file}`
     if (problem) {
@@ -70,32 +82,36 @@ export function validateDossiers(dossiers, ctx) {
     if (!isArr(d.camps) || d.camps.length < 2) err(w, '« camps » : au moins deux camps')
     for (const c of d.camps ?? []) {
       const cw = `${w} (camp « ${c.id ?? '?'} »)`
-      onlyFields(cw, c, ['id', 'nom', 'couleur', 'description', 'membres'])
-      if (!STATUTS.includes(c.id) || c.id === 'occupe' || c.id === 'neutre') err(cw, `id de camp attendu : axe ou allies`)
+      onlyFields(cw, c, ['id', 'nom', 'legende', 'couleur', 'description', 'membres'])
+      if (!isStr(c.id) || !SLUG.test(c.id) || RESERVED.includes(c.id) || camps.has(c.id)) err(cw, `id de camp manquant, dupliqué ou réservé (${RESERVED.join(', ')})`)
       if (!isStr(c.nom) || !isStr(c.description)) err(cw, 'nom ou description manquant')
+      if (c.legende !== undefined && !isStr(c.legende)) err(cw, '« legende » doit être un texte')
       if (!isHex(c.couleur)) err(cw, `couleur invalide : ${c.couleur}`)
       if (!isArr(c.membres) || !c.membres.every(isStr)) err(cw, '« membres » : liste de textes')
       camps.add(c.id)
     }
+    const statuts = new Set([...camps, 'occupe', 'neutre'])
 
     // Carte : statuts valides et noms présents sur la carte de l'année choisie
     const map = ctx.mapIndex?.find((m) => m.year === d.carte?.annee)
     if (!d.carte || !isNum(d.carte.annee)) err(w, '« carte.annee » manquante')
     else if (ctx.mapIndex && !map) err(w, `aucune carte historique pour l'année ${d.carte.annee}`)
-    if (d.carte) onlyFields(`${w} (carte)`, d.carte, ['annee', 'note', 'noms', 'statuts'])
-    for (const n of Object.keys(d.carte?.noms ?? {})) if (ctx.mapIndex && map && !map.names.includes(n)) err(`${w} (carte)`, `nom traduit « ${n} » absent de la carte de ${d.carte.annee}`)
+    if (d.carte) onlyFields(`${w} (carte)`, d.carte, ['annee', 'note', 'noms', 'occupant', 'statuts'])
+    if (d.carte?.occupant !== undefined && !camps.has(d.carte.occupant)) err(`${w} (carte)`, `« occupant » : camp inconnu « ${d.carte.occupant} »`)
     const names = map ? new Set(map.names) : null
-    const checkStatuts = (where, statuts) => {
-      if (statuts === undefined) return
-      if (!statuts || typeof statuts !== 'object' || isArr(statuts)) return err(where, '« statuts » doit être un objet { territoire: statut }')
-      for (const [n, v] of Object.entries(statuts)) {
-        if (!d.carte?.noms?.[n]) warn(where, `« ${n} » : nom français manquant (carte.noms)`)
+    for (const n of Object.keys(d.carte?.noms ?? {})) if (names && !names.has(n)) err(`${w} (carte)`, `nom traduit « ${n} » absent de la carte de ${d.carte.annee}`)
+    const checkStatuts = (where, list) => {
+      if (list === undefined) return
+      if (!list || typeof list !== 'object' || isArr(list)) return err(where, '« statuts » doit être un objet { territoire: statut }')
+      for (const [n, v] of Object.entries(list)) {
         if (names && !names.has(n)) err(where, `territoire « ${n} » absent de la carte de ${d.carte.annee}`)
+        if (!d.carte?.noms?.[n]) warn(where, `« ${n} » : nom français manquant (carte.noms)`)
         if (typeof v === 'object') {
           onlyFields(`${where} « ${n} »`, v, ['statut', 'note'])
           if (!isStr(v.note)) err(where, `« ${n} » : note manquante`)
         }
-        if (!STATUTS.includes(statutOf(v))) err(where, `« ${n} » : statut inconnu (${STATUTS.join(', ')})`)
+        if (!statuts.has(statutOf(v))) err(where, `« ${n} » : statut inconnu (${[...statuts].join(', ')})`)
+        if (statutOf(v) === 'occupe' && !d.carte?.occupant) err(where, `« ${n} » : statut « occupe » sans « carte.occupant »`)
       }
     }
     checkStatuts(`${w} (carte)`, d.carte?.statuts)
@@ -108,8 +124,8 @@ export function validateDossiers(dossiers, ctx) {
       if (!isStr(b.id) || battles.has(b.id)) err(bw, 'id manquant ou dupliqué')
       battles.set(b.id, b)
       for (const k of ['nom', 'lieu', 'resume']) if (!isStr(b[k])) err(bw, `« ${k} » manquant`)
-      if (!MONTH.test(b.debut ?? '') || (b.fin !== undefined && !MONTH.test(b.fin))) err(bw, 'dates attendues au format AAAA-MM (ou AAAA-MM-JJ)')
-      if (b.fin && b.fin < b.debut) err(bw, 'fin avant le début')
+      if (!isDate(b.debut) || (b.fin !== undefined && !isDate(b.fin))) err(bw, 'dates attendues : AAAA, AAAA-MM ou AAAA-MM-JJ')
+      else if (b.fin && dateRange(b.fin)[1] < dateRange(b.debut)[0]) err(bw, 'fin avant le début')
       const [lon, lat] = isArr(b.coords) ? b.coords : []
       if (!isNum(lon) || !isNum(lat) || Math.abs(lon) > 180 || Math.abs(lat) > 90) err(bw, '« coords » doit valoir [longitude, latitude]')
       if (b.vainqueur !== undefined && !camps.has(b.vainqueur)) err(bw, `vainqueur inconnu « ${b.vainqueur} »`)
@@ -118,16 +134,17 @@ export function validateDossiers(dossiers, ctx) {
     }
     if (!battles.size) err(w, 'aucune bataille')
 
-    // Phases : chronologiques, batailles connues, chaque bataille dans une phase
+    // Phases : chronologiques, batailles connues, chaque bataille dans une seule phase
     const used = new Set()
-    let prevEnd = ''
+    let prev = null
     ;(d.phases ?? []).forEach((p, i) => {
       const pw = `${w} (phase « ${p.id ?? i} »)`
       onlyFields(pw, p, ['id', 'nom', 'debut', 'fin', 'resume', 'texte', 'carte', 'batailles', 'evenements'])
       for (const k of ['id', 'nom', 'resume', 'texte']) if (!isStr(p[k])) err(pw, `« ${k} » manquant`)
-      if (!MONTH.test(p.debut ?? '') || !MONTH.test(p.fin ?? '') || p.fin < p.debut) err(pw, 'dates AAAA-MM invalides')
-      if (p.debut < prevEnd) err(pw, 'commence avant la fin de la phase précédente')
-      prevEnd = p.fin ?? prevEnd
+      const okDates = isDate(p.debut) && isDate(p.fin) && dateRange(p.fin)[1] >= dateRange(p.debut)[0]
+      if (!okDates) err(pw, 'dates invalides (AAAA, AAAA-MM ou AAAA-MM-JJ)')
+      if (okDates && prev && dateRange(p.debut)[0] < dateRange(prev)[0]) err(pw, 'commence avant la fin de la phase précédente')
+      if (okDates) prev = p.fin
       const c = p.carte ?? {}
       onlyFields(`${pw} (carte)`, c, ['cadre', 'rotation', 'statuts'])
       const okCorner = (x) => isArr(x) && x.length === 2 && isNum(x[0]) && isNum(x[1]) && Math.abs(x[0]) <= 180 && Math.abs(x[1]) <= 90
@@ -141,8 +158,11 @@ export function validateDossiers(dossiers, ctx) {
       }
       for (const e of p.evenements ?? []) {
         onlyFields(`${pw} (événement)`, e, ['date', 'texte', 'ref'])
-        if (!MONTH.test(e.date ?? '') || !isStr(e.texte)) err(pw, `événement mal formé : ${JSON.stringify(e).slice(0, 60)}`)
-        else if (e.date.slice(0, 7) < p.debut || e.date.slice(0, 7) > p.fin) warn(pw, `événement « ${e.texte} » hors des dates de la phase`)
+        if (!isDate(e.date) || !isStr(e.texte)) err(pw, `événement mal formé : ${JSON.stringify(e).slice(0, 60)}`)
+        else if (okDates) {
+          const [s, f] = dateRange(e.date)
+          if (f < dateRange(p.debut)[0] || s > dateRange(p.fin)[1]) warn(pw, `événement « ${e.texte} » hors des dates de la phase`)
+        }
         if (e.ref !== undefined && !ctx.entities.has(e.ref)) err(pw, `« ref » : fiche inconnue « ${e.ref} »`)
       }
     })
@@ -154,7 +174,7 @@ export function validateDossiers(dossiers, ctx) {
       const pw = `${w} (personnage « ${p.nom ?? '?'} »)`
       onlyFields(pw, p, ['nom', 'camp', 'role', 'dates', 'description', 'ref', 'wikiUrl'])
       for (const k of ['nom', 'role', 'dates', 'description']) if (!isStr(p[k])) err(pw, `« ${k} » manquant`)
-      if (!camps.has(p.camp) && !PERSON_CAMPS_EXTRA.includes(p.camp)) err(pw, `camp inconnu « ${p.camp} »`)
+      if (!camps.has(p.camp) && p.camp !== 'autres') err(pw, `camp inconnu « ${p.camp} » (un camp du dossier, ou « autres »)`)
       if (p.ref !== undefined && ctx.entities.get(p.ref)?.type !== 'personne') err(pw, `« ref » : personne inconnue « ${p.ref} »`)
       if (p.wikiUrl !== undefined && !isUrl(p.wikiUrl)) err(pw, 'lien invalide')
     }
@@ -167,7 +187,7 @@ export function validateDossiers(dossiers, ctx) {
     for (const q of d.quiz ?? []) {
       const qw = `${w} (question « ${q.id ?? '?'} »)`
       onlyFields(qw, q, ['id', 'type', 'prompt', 'options', 'answer', 'items', 'explanation'])
-      if (!isStr(q.id) || !/^[a-z0-9-]+$/.test(q.id) || qids.has(q.id)) err(qw, 'id manquant, dupliqué ou mal formé (minuscules, chiffres, tirets)')
+      if (!isStr(q.id) || !SLUG.test(q.id) || qids.has(q.id)) err(qw, 'id manquant, dupliqué ou mal formé (minuscules, chiffres, tirets)')
       qids.add(q.id)
       if (!QUIZ_TYPES.includes(q.type)) err(qw, `type inconnu (${QUIZ_TYPES.join(', ')})`)
       if (!isStr(q.prompt)) err(qw, 'énoncé manquant')
@@ -178,8 +198,12 @@ export function validateDossiers(dossiers, ctx) {
     }
     if ((d.quiz ?? []).length < 10) err(w, 'quiz : au moins 10 questions')
 
-    // Guerres des fiches rattachées à ce dossier (« nom|année »)
-    for (const key of d.guerresLiees ?? []) if (!ctx.wars.has(key)) err(w, `guerre liée inconnue « ${key} » (nom exact|année d'une guerre de fiche)`)
+    // Guerres des fiches rattachées à ce dossier (« nom|année »), une seule fois dans tout le site
+    for (const key of d.guerresLiees ?? []) {
+      if (!ctx.wars.has(key)) err(w, `guerre liée inconnue « ${key} » (nom exact|année d'une guerre de fiche)`)
+      if (linkedBy.has(key)) err(w, `guerre « ${key} » déjà rattachée au dossier « ${linkedBy.get(key)} »`)
+      linkedBy.set(key, d.id)
+    }
   }
 }
 

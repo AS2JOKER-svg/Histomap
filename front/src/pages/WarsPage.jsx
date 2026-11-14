@@ -65,7 +65,7 @@ export default function WarsPage() {
     <section className="max-w-3xl mx-auto">
       <PageHeader eyebrow={`${WARS.length} guerres et batailles`} title="Guerres" description="Les grands conflits de chaque époque, camp contre camp. Touchez une guerre pour son aperçu." />
 
-      {!filter && getDossiers().map((d) => <Featured key={d.id} d={d} />)}
+      {!filter && <Dossiers />}
 
       <div className="flex gap-1.5 overflow-x-auto no-scrollbar -mx-4 px-4 sm:mx-0 sm:px-0 mb-6" role="group" aria-label="Filtrer par époque">
         <FilterChip on={!filter} onClick={() => setParams({}, { replace: true })}>Toutes</FilterChip>
@@ -110,13 +110,45 @@ export default function WarsPage() {
   )
 }
 
+/** Dossiers de guerre : le plus récent à la une, les autres en liste (ordre chronologique). */
+function Dossiers() {
+  const all = getDossiers()
+  if (!all.length) return null
+  const others = all.slice(0, -1)
+  return (
+    <div className="mb-6">
+      <Featured d={all.at(-1)} />
+      {others.length > 0 && (
+        <div className="grid gap-2.5 sm:grid-cols-2 -mt-2">
+          {others.map((d) => (
+            <Link key={d.id} to={`/guerres/${d.id}`} className="card hoverable p-3.5 flex items-center gap-3 min-h-[44px]">
+              <span className="flex -space-x-1.5 shrink-0" aria-hidden="true">
+                {d.camps.slice(0, 2).map((c) => (
+                  <span key={c.id} className="w-5 h-5 rounded-full border-2 border-surface" style={{ background: c.couleur }} />
+                ))}
+              </span>
+              <span className="min-w-0 flex-1">
+                <span className="block font-semibold text-ink leading-snug">{d.nom}</span>
+                <span className="block text-[13px] text-muted">
+                  {formatYear(d.debut)} → {formatYear(d.fin)} · {d.counts.phases} phases · {d.counts.batailles} batailles
+                </span>
+              </span>
+              <Icon name="chevronRight" size={18} className="text-muted shrink-0" />
+            </Link>
+          ))}
+        </div>
+      )}
+    </div>
+  )
+}
+
 /** Dossier « à la une » (maquette 09) : camp contre camp et chiffres clés. */
 function Featured({ d }) {
   const [a, b] = d.camps
   return (
-    <Link to={`/guerres/${d.id}`} className="block mb-6 rounded-[22px] overflow-hidden text-white hoverable" style={{ background: 'linear-gradient(150deg, #2c3e50, #1a1f2b)', boxShadow: 'var(--shadow-lift)' }}>
+    <Link to={`/guerres/${d.id}`} className="block mb-4 rounded-[22px] overflow-hidden text-white hoverable" style={{ background: 'linear-gradient(150deg, #2c3e50, #1a1f2b)', boxShadow: 'var(--shadow-lift)' }}>
       <span className="block px-[18px] pt-[18px]">
-        <span className="block text-[11px] font-semibold uppercase tracking-[.12em] opacity-75">À la une · {d.debut} → {d.fin}</span>
+        <span className="block text-[11px] font-semibold uppercase tracking-[.12em] opacity-75">À la une · {formatYear(d.debut)} → {formatYear(d.fin)}</span>
         <span className="block font-display text-2xl font-semibold leading-tight mt-1">{d.nom}</span>
       </span>
       <span className="grid grid-cols-[1fr_auto_1fr] gap-2.5 items-center px-[18px] py-3.5">

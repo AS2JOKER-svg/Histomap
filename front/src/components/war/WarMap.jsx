@@ -8,7 +8,8 @@ const H = 240
 
 /**
  * Carte d'une phase d'un dossier de guerre : la carte historique de `dossier.carte.annee`,
- * chaque territoire coloré selon son statut à cette phase (Axe, Alliés, occupé, neutre),
+ * chaque territoire coloré selon son statut à cette phase (un camp, « occupé » par le camp
+ * `carte.occupant`, ou neutre),
  * et les batailles de la phase (celles des phases précédentes en pâle).
  * Toucher un territoire affiche son statut ; toucher une bataille appelle onBattle.
  */
@@ -30,6 +31,14 @@ export default function WarMap({ dossier, phaseIndex, onBattle }) {
   useEffect(() => setPicked(null), [phaseIndex])
 
   const camp = useMemo(() => Object.fromEntries(dossier.camps.map((c) => [c.id, c])), [dossier.camps])
+  const occupant = camp[dossier.carte.occupant]
+  // statuts présents dans le dossier (la légende ne montre que ceux-là)
+  const usedStatuts = useMemo(() => {
+    const set = new Set()
+    for (const p of dossier.phases) for (const v of Object.values(p.carte.statuts)) set.add(typeof v === 'string' ? v : v.statut)
+    return set
+  }, [dossier.phases])
+  const statutLabel = (s) => (s === 'occupe' ? `occupé par : ${occupant?.nom ?? '?'}` : s === 'neutre' ? 'neutre ou hors du conflit' : camp[s]?.legende ?? camp[s]?.nom ?? s)
   const battles = useMemo(() => new Map(dossier.batailles.map((b) => [b.id, b])), [dossier.batailles])
 
   const view = useMemo(() => {
@@ -44,7 +53,7 @@ export default function WarMap({ dossier, phaseIndex, onBattle }) {
     if (!own) return { statut: 'neutre', note: null }
     return typeof own === 'string' ? { statut: own, note: null } : own
   }
-  const fillOf = (s) => (s === 'axe' || s === 'occupe' ? camp.axe?.couleur : s === 'allies' ? camp.allies?.couleur : 'var(--map-other)')
+  const fillOf = (s) => camp[s]?.couleur ?? 'var(--map-other)'
 
   // Batailles : celles de la phase, et en pâle celles des phases précédentes
   const pins = useMemo(() => {
@@ -72,8 +81,8 @@ export default function WarMap({ dossier, phaseIndex, onBattle }) {
         <svg viewBox={`0 0 ${W} ${H}`} className="block w-full h-auto map-svg" role="img" aria-label={`Carte : ${phase.nom}`}>
           <defs>
             <pattern id="war-occupe" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
-              <rect width="6" height="6" fill={camp.axe?.couleur} fillOpacity="0.28" />
-              <line x1="0" y1="0" x2="0" y2="6" stroke={camp.axe?.couleur} strokeWidth="2.4" strokeOpacity="0.8" />
+              <rect width="6" height="6" fill={occupant?.couleur} fillOpacity="0.28" />
+              <line x1="0" y1="0" x2="0" y2="6" stroke={occupant?.couleur} strokeWidth="2.4" strokeOpacity="0.8" />
             </pattern>
           </defs>
           {data && (
@@ -129,7 +138,7 @@ export default function WarMap({ dossier, phaseIndex, onBattle }) {
       <p className="mt-2 min-h-[2.75rem] text-sm text-ink/85 leading-snug" aria-live="polite">
         {pickedInfo ? (
           <>
-            <strong className="text-ink">{pickedInfo.nom}</strong> — {STATUT_LABEL[pickedInfo.statut]}
+            <strong className="text-ink">{pickedInfo.nom}</strong> — {statutLabel(pickedInfo.statut)}
             {pickedInfo.note ? ` : ${pickedInfo.note}` : ''}
           </>
         ) : (
@@ -138,17 +147,16 @@ export default function WarMap({ dossier, phaseIndex, onBattle }) {
       </p>
 
       <ul className="mt-1 flex flex-wrap gap-x-4 gap-y-1.5 text-xs text-muted" aria-label="Légende">
-        <Swatch color={camp.axe?.couleur}>{camp.axe?.nom} et ses alliés</Swatch>
-        <Swatch color={camp.allies?.couleur}>{camp.allies?.nom}</Swatch>
-        <Swatch pattern color={camp.axe?.couleur}>Occupé par l’Axe</Swatch>
+        {dossier.camps.filter((c) => usedStatuts.has(c.id)).map((c) => (
+          <Swatch key={c.id} color={c.couleur}>{c.legende ?? c.nom}</Swatch>
+        ))}
+        {usedStatuts.has('occupe') && occupant && <Swatch pattern color={occupant.couleur}>Occupé par : {occupant.nom}</Swatch>}
         <Swatch color="var(--map-other)">Neutre ou hors du conflit</Swatch>
       </ul>
       {dossier.carte.note && <p className="mt-2 text-[12px] text-muted leading-snug">{dossier.carte.note}</p>}
     </div>
   )
 }
-
-export const STATUT_LABEL = { axe: 'Axe ou allié de l’Axe', allies: 'Alliés', occupe: 'occupé par l’Axe', neutre: 'neutre ou hors du conflit' }
 
 function Swatch({ color, pattern, children }) {
   return (

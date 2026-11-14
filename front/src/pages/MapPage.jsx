@@ -358,6 +358,11 @@ function ConflictCard({ conflict, onClose }) {
         </p>
       )}
       {conflict.consequences && <p className="text-sm text-muted mt-2 leading-relaxed line-clamp-3">{conflict.consequences}</p>}
+      {conflict.dossier && (
+        <Link to={`/guerres/${conflict.dossier}`} className="mt-3 mr-4 inline-flex items-center gap-1.5 text-sm font-semibold text-ink hover:underline">
+          <Icon name="layers" size={14} /> Dossier complet de la guerre
+        </Link>
+      )}
       <Link
         to={`/frise/${ref.epoch.id}/${ref.civ.id}`}
         className="mt-3 inline-flex items-center gap-1.5 text-sm font-medium text-accent hover:underline"

@@ -1,0 +1,929 @@
+{
+  "id": "guerres-napoleoniennes",
+  "nom": "Guerres napoléoniennes",
+  "debut": 1803,
+  "fin": 1815,
+  "dates": "mai 1803 → juin 1815",
+  "description": "Les guerres menées par la France de Napoléon contre des coalitions successives des grandes puissances européennes, de la rupture de la paix d’Amiens à la défaite de Waterloo.",
+  "essentiel": [
+    "En 1803, la paix entre la France et le Royaume-Uni est rompue. [[napoleon-ier|Napoléon Bonaparte]], sacré empereur en 1804, affronte cinq coalitions successives, toujours soutenues par le Royaume-Uni.",
+    "Napoléon remporte de grandes victoires : Austerlitz (1805), Iéna (1806), Friedland (1807), Wagram (1809). Mais à [[bataille-de-trafalgar|Trafalgar]] (1805), la flotte britannique de Nelson s’assure la maîtrise des mers.",
+    "Vers 1810-1811, l’Empire français domine une grande partie de l’Europe, directement ou par des États alliés et des rois de la famille Bonaparte. L’Espagne se soulève contre l’occupation française à partir de 1808.",
+    "En 1812, la campagne de Russie tourne au désastre : la Grande Armée est presque anéantie. L’Europe coalisée bat Napoléon à Leipzig (1813), entre dans Paris, et il abdique en 1814.",
+    "Revenu de l’île d’Elbe en 1815, Napoléon est définitivement battu à Waterloo et exilé à Sainte-Hélène. Le congrès de Vienne redessine la carte de l’Europe."
+  ],
+  "chiffres": [
+    {
+      "valeur": "3,5 à 7 millions",
+      "label": "de morts, militaires et civils, selon les estimations"
+    },
+    {
+      "valeur": "5 coalitions",
+      "label": "contre la France, de la 3e (1805) à la 7e (1815)"
+    },
+    {
+      "valeur": "Environ 600 000",
+      "label": "soldats de la Grande Armée engagés en Russie en 1812, renforts compris"
+    }
+  ],
+  "camps": [
+    {
+      "id": "france",
+      "nom": "Empire français",
+      "legende": "France et ses alliés",
+      "couleur": "#2f5fb3",
+      "description": "La France de Napoléon, avec ses États satellites et ses alliés, volontaires ou contraints, qui changent selon les années.",
+      "membres": [
+        "Empire français",
+        "Royaume d’Italie, Confédération du Rhin, duché de Varsovie",
+        "Espagne (jusqu’en 1808)",
+        "Danemark-Norvège (à partir de 1807)",
+        "Russie (1807-1812), Autriche et Prusse (en 1812, contraintes)"
+      ]
+    },
+    {
+      "id": "coalitions",
+      "nom": "Coalitions",
+      "legende": "Coalitions contre la France",
+      "couleur": "#c0392b",
+      "description": "Les alliances successives des puissances européennes contre la France, toutes soutenues par le Royaume-Uni et son argent.",
+      "membres": [
+        "Royaume-Uni (pendant toute la guerre)",
+        "Autriche (1805, 1809, 1813-1815)",
+        "Russie (1805-1807, 1812-1815)",
+        "Prusse (1806-1807, 1813-1815)",
+        "Portugal, Espagne (après 1808), Suède"
+      ]
+    }
+  ],
+  "carte": {
+    "annee": 1800,
+    "occupant": "france",
+    "noms": {
+      "France": "France",
+      "United Kingdom": "Royaume-Uni",
+      "Kingdom of Ireland": "Irlande (Royaume-Uni)",
+      "Austrian Empire": "Autriche",
+      "Russian Empire": "Russie",
+      "Prussia": "Prusse",
+      "Sweden": "Suède",
+      "Spain": "Espagne",
+      "Portugal": "Portugal",
+      "Batavian Republic": "Hollande",
+      "Helvetic Republic": "Suisse",
+      "Austrian Netherlands": "Belgique",
+      "Lombardy": "Italie du Nord",
+      "Venetia": "Vénétie",
+      "Bavaria": "Bavière",
+      "Württemberg": "Wurtemberg",
+      "Baden": "Bade",
+      "Saxony": "Saxe",
+      "Kingdom of the Two Sicilies": "Royaume de Naples et de Sicile",
+      "Papal States": "États pontificaux",
+      "Denmark-Norway": "Danemark-Norvège"
+    },
+    "note": "Frontières de 1800, avant les grandes conquêtes : l’Empire français et ses alliés étaient bien plus étendus vers 1811. Les États allemands et italiens sont simplifiés, et le royaume de Naples et la Sicile forment un seul État sur la carte.",
+    "statuts": {
+      "France": {
+        "statut": "france",
+        "note": "Consulat de Napoléon Bonaparte, puis Empire français (1804)"
+      },
+      "Austrian Netherlands": {
+        "statut": "france",
+        "note": "annexée par la France depuis 1795"
+      },
+      "Batavian Republic": {
+        "statut": "france",
+        "note": "République batave, État satellite de la France"
+      },
+      "Helvetic Republic": {
+        "statut": "france",
+        "note": "République helvétique, sous influence française"
+      },
+      "Lombardy": {
+        "statut": "france",
+        "note": "République italienne, puis royaume d’Italie (1805), dont Napoléon est le roi"
+      },
+      "Spain": {
+        "statut": "france",
+        "note": "alliée de la France jusqu’en 1808"
+      },
+      "United Kingdom": {
+        "statut": "coalitions",
+        "note": "en guerre contre la France de 1803 à 1814, puis en 1815"
+      },
+      "Kingdom of Ireland": {
+        "statut": "coalitions",
+        "note": "partie du Royaume-Uni depuis 1801"
+      }
+    }
+  },
+  "phases": [
+    {
+      "id": "austerlitz",
+      "nom": "Trafalgar et Austerlitz",
+      "debut": "1803-05",
+      "fin": "1805-12",
+      "resume": "La guerre reprend avec le Royaume-Uni ; Napoléon devient empereur, perd sur mer à Trafalgar mais triomphe à Austerlitz.",
+      "texte": "En mai 1803, la paix d’Amiens est rompue. Napoléon prépare une invasion de l’Angleterre et se fait sacrer empereur le 2 décembre 1804. En 1805, la Troisième Coalition réunit le Royaume-Uni, l’Autriche, la Russie, la Suède et Naples. Napoléon fonce vers le Danube et prend une armée autrichienne au piège à Ulm. Le 21 octobre, la flotte franco-espagnole est détruite à Trafalgar ; mais le 2 décembre 1805, à Austerlitz, Napoléon écrase les armées russe et autrichienne.",
+      "carte": {
+        "cadre": [
+          [
+            -10,
+            35
+          ],
+          [
+            30,
+            60
+          ]
+        ],
+        "statuts": {
+          "Austrian Empire": {
+            "statut": "coalitions",
+            "note": "membre de la Troisième Coalition (1805)"
+          },
+          "Russian Empire": {
+            "statut": "coalitions",
+            "note": "membre de la Troisième Coalition (1805)"
+          },
+          "Sweden": {
+            "statut": "coalitions",
+            "note": "membre de la Troisième Coalition (1805)"
+          },
+          "Kingdom of the Two Sicilies": {
+            "statut": "coalitions",
+            "note": "Naples rejoint la Troisième Coalition (1805)"
+          }
+        }
+      },
+      "batailles": [
+        "ulm",
+        "trafalgar",
+        "austerlitz"
+      ],
+      "evenements": [
+        {
+          "date": "1803-05",
+          "texte": "Rupture de la paix d’Amiens"
+        },
+        {
+          "date": "1804-03-21",
+          "texte": "Promulgation du Code civil",
+          "ref": "code-civil"
+        },
+        {
+          "date": "1804-12-02",
+          "texte": "Sacre de Napoléon Ier à Notre-Dame de Paris"
+        },
+        {
+          "date": "1805-12-26",
+          "texte": "Paix de Presbourg : l’Autriche cède la Vénétie"
+        }
+      ]
+    },
+    {
+      "id": "iena",
+      "nom": "Iéna, Friedland et Tilsit",
+      "debut": "1806",
+      "fin": "1807-07",
+      "resume": "Napoléon bat la Prusse puis la Russie ; à Tilsit, le tsar devient son allié.",
+      "texte": "En 1806, Napoléon crée la Confédération du Rhin, qui regroupe des États allemands sous sa protection ; le Saint-Empire romain germanique disparaît. La Prusse entre en guerre et s’effondre en un jour, à Iéna et Auerstaedt (14 octobre 1806). Depuis Berlin, Napoléon décrète le Blocus continental pour ruiner le commerce britannique. Après la sanglante bataille d’Eylau et la victoire de Friedland, il signe à Tilsit (juillet 1807) la paix avec le tsar Alexandre Ier, qui devient son allié ; la Prusse perd la moitié de son territoire.",
+      "carte": {
+        "cadre": [
+          [
+            -5,
+            40
+          ],
+          [
+            35,
+            60
+          ]
+        ],
+        "statuts": {
+          "Austrian Empire": {
+            "statut": "neutre",
+            "note": "battue en 1805, elle reste en paix jusqu’en 1809"
+          },
+          "Prussia": {
+            "statut": "occupe",
+            "note": "battue à Iéna (1806), occupée, elle perd la moitié de son territoire à Tilsit"
+          },
+          "Russian Empire": {
+            "statut": "france",
+            "note": "alliée de la France après la paix de Tilsit (1807-1812)"
+          },
+          "Bavaria": {
+            "statut": "france",
+            "note": "royaume allié, membre de la Confédération du Rhin"
+          },
+          "Württemberg": {
+            "statut": "france",
+            "note": "royaume allié, membre de la Confédération du Rhin"
+          },
+          "Baden": {
+            "statut": "france",
+            "note": "grand-duché allié, membre de la Confédération du Rhin"
+          },
+          "Saxony": {
+            "statut": "france",
+            "note": "royaume allié à partir de décembre 1806"
+          },
+          "Venetia": {
+            "statut": "france",
+            "note": "rattachée au royaume d’Italie (1806)"
+          },
+          "Kingdom of the Two Sicilies": {
+            "statut": "occupe",
+            "note": "Naples est conquise en 1806 ; la Sicile reste aux Bourbons, protégée par les Britanniques"
+          }
+        }
+      },
+      "batailles": [
+        "iena",
+        "eylau",
+        "friedland"
+      ],
+      "evenements": [
+        {
+          "date": "1806-07",
+          "texte": "Création de la Confédération du Rhin"
+        },
+        {
+          "date": "1806-08",
+          "texte": "Fin du Saint-Empire romain germanique"
+        },
+        {
+          "date": "1806-11",
+          "texte": "Décret de Berlin : début du Blocus continental"
+        },
+        {
+          "date": "1807-07",
+          "texte": "Traités de Tilsit"
+        }
+      ]
+    },
+    {
+      "id": "espagne",
+      "nom": "L’Espagne se soulève, l’Autriche reprend les armes",
+      "debut": "1807-10",
+      "fin": "1809-10",
+      "resume": "L’occupation de la péninsule Ibérique provoque une guerre sans fin ; l’Autriche est battue à Wagram.",
+      "texte": "Pour fermer le Portugal, allié des Britanniques, à leur commerce, une armée française l’envahit fin 1807. En 1808, Napoléon fait abdiquer les rois d’Espagne et donne la couronne à son frère Joseph. Le 2 mai, Madrid se soulève : c’est le début d’une longue guerre, où l’armée française affronte l’armée espagnole, des guérilleros et un corps britannique ; à Bailén, une armée française capitule. En 1809, l’Autriche reprend la guerre ; Napoléon est repoussé à Essling, puis gagne à Wagram, et l’Autriche signe la paix de Schönbrunn.",
+      "carte": {
+        "cadre": [
+          [
+            -11,
+            35
+          ],
+          [
+            25,
+            55
+          ]
+        ],
+        "statuts": {
+          "Portugal": {
+            "statut": "coalitions",
+            "note": "envahi par la France en 1807, il combat aux côtés des Britanniques"
+          },
+          "Spain": {
+            "statut": "occupe",
+            "note": "occupée à partir de 1808 ; les Espagnols se soulèvent et s’allient aux Britanniques"
+          },
+          "Austrian Empire": {
+            "statut": "coalitions",
+            "note": "membre de la Cinquième Coalition (1809)"
+          },
+          "Denmark-Norway": {
+            "statut": "france",
+            "note": "alliée de la France après le bombardement de Copenhague par les Britanniques (1807)"
+          },
+          "Papal States": {
+            "statut": "occupe",
+            "note": "occupés, puis annexés par la France en 1809"
+          }
+        }
+      },
+      "batailles": [
+        "bailen",
+        "essling",
+        "wagram"
+      ],
+      "evenements": [
+        {
+          "date": "1807-11",
+          "texte": "Invasion du Portugal"
+        },
+        {
+          "date": "1808-05-02",
+          "texte": "Soulèvement de Madrid contre les Français"
+        },
+        {
+          "date": "1808-06",
+          "texte": "Joseph Bonaparte devient roi d’Espagne"
+        },
+        {
+          "date": "1809-10",
+          "texte": "Paix de Schönbrunn avec l’Autriche"
+        }
+      ]
+    },
+    {
+      "id": "russie",
+      "nom": "L’apogée et la campagne de Russie",
+      "debut": "1810",
+      "fin": "1812-12",
+      "resume": "L’Empire est à son apogée, mais l’invasion de la Russie en 1812 tourne au désastre.",
+      "texte": "En 1810, Napoléon épouse Marie-Louise, fille de l’empereur d’Autriche, et annexe la Hollande ; en 1811, l’Empire compte 130 départements. Mais la Russie quitte le Blocus continental. En juin 1812, Napoléon l’envahit avec une immense armée venue de toute l’Europe. Les Russes reculent en brûlant tout. Après la sanglante bataille de la Moskova, Napoléon entre dans Moscou, que les Russes incendient. Sans paix possible, il ordonne la retraite en octobre : le froid, la faim et les attaques russes détruisent la Grande Armée, qui franchit la Bérézina à grand-peine.",
+      "carte": {
+        "cadre": [
+          [
+            -5,
+            42
+          ],
+          [
+            45,
+            62
+          ]
+        ],
+        "statuts": {
+          "Batavian Republic": {
+            "statut": "france",
+            "note": "annexée à l’Empire français en 1810"
+          },
+          "Russian Empire": {
+            "statut": "coalitions",
+            "note": "envahie par Napoléon en juin 1812"
+          },
+          "Austrian Empire": {
+            "statut": "france",
+            "note": "alliée contrainte de la France en 1812"
+          },
+          "Prussia": {
+            "statut": "france",
+            "note": "alliée contrainte de la France en 1812"
+          }
+        }
+      },
+      "batailles": [
+        "moskova",
+        "berezina"
+      ],
+      "evenements": [
+        {
+          "date": "1810-04",
+          "texte": "Mariage de Napoléon et de Marie-Louise d’Autriche"
+        },
+        {
+          "date": "1812-06-24",
+          "texte": "La Grande Armée franchit le Niémen et entre en Russie"
+        },
+        {
+          "date": "1812-09-14",
+          "texte": "Napoléon entre dans Moscou, bientôt en flammes"
+        },
+        {
+          "date": "1812-10",
+          "texte": "Début de la retraite de Russie"
+        }
+      ]
+    },
+    {
+      "id": "chute",
+      "nom": "La chute de l’Empire",
+      "debut": "1813",
+      "fin": "1814-05",
+      "resume": "Toute l’Europe se ligue contre Napoléon, battu à Leipzig ; les coalisés entrent dans Paris et il abdique.",
+      "texte": "En 1813, la Prusse, puis l’Autriche et la Suède rejoignent la Sixième Coalition. En Espagne, Wellington bat les Français à Vitoria. En octobre, à Leipzig, la « bataille des Nations » oppose Napoléon aux armées coalisées : il est vaincu et doit repasser le Rhin. En 1814, malgré plusieurs victoires pendant la campagne de France, les coalisés entrent dans Paris le 31 mars. Napoléon abdique le 6 avril ; il reçoit l’île d’Elbe, et Louis XVIII devient roi de France.",
+      "carte": {
+        "cadre": [
+          [
+            -10,
+            38
+          ],
+          [
+            30,
+            60
+          ]
+        ],
+        "statuts": {
+          "Prussia": {
+            "statut": "coalitions",
+            "note": "rejoint la Sixième Coalition au printemps 1813"
+          },
+          "Austrian Empire": {
+            "statut": "coalitions",
+            "note": "rejoint la Sixième Coalition en août 1813"
+          },
+          "Spain": {
+            "statut": "coalitions",
+            "note": "libérée de l’armée française en 1813"
+          },
+          "Bavaria": {
+            "statut": "coalitions",
+            "note": "change de camp en octobre 1813"
+          },
+          "Württemberg": {
+            "statut": "coalitions",
+            "note": "change de camp en novembre 1813"
+          },
+          "Batavian Republic": {
+            "statut": "coalitions",
+            "note": "se soulève contre la France fin 1813"
+          }
+        }
+      },
+      "batailles": [
+        "vitoria",
+        "leipzig"
+      ],
+      "evenements": [
+        {
+          "date": "1814-03-31",
+          "texte": "Les coalisés entrent dans Paris"
+        },
+        {
+          "date": "1814-04-06",
+          "texte": "Napoléon abdique et part pour l’île d’Elbe"
+        }
+      ]
+    },
+    {
+      "id": "waterloo",
+      "nom": "Les Cent-Jours et Waterloo",
+      "debut": "1815-03",
+      "fin": "1815-07",
+      "resume": "Napoléon revient au pouvoir pour cent jours, puis il est définitivement battu à Waterloo.",
+      "texte": "Pendant que les vainqueurs redessinent l’Europe au congrès de Vienne, Napoléon quitte l’île d’Elbe, débarque en Provence le 1er mars 1815 et reprend le pouvoir sans combat. Les puissances forment une Septième Coalition. Le 18 juin 1815, à Waterloo, en Belgique, il est battu par les Britanniques de Wellington et les Prussiens de Blücher. Il abdique une seconde fois et est exilé sur l’île de Sainte-Hélène, au milieu de l’Atlantique, où il meurt en 1821.",
+      "carte": {
+        "cadre": [
+          [
+            -6,
+            42
+          ],
+          [
+            16,
+            55
+          ]
+        ],
+        "statuts": {}
+      },
+      "batailles": [
+        "waterloo"
+      ],
+      "evenements": [
+        {
+          "date": "1815-03-01",
+          "texte": "Napoléon débarque à Golfe-Juan"
+        },
+        {
+          "date": "1815-06-09",
+          "texte": "Acte final du congrès de Vienne",
+          "ref": "metternich"
+        },
+        {
+          "date": "1815-06-22",
+          "texte": "Seconde abdication de Napoléon"
+        }
+      ]
+    }
+  ],
+  "batailles": [
+    {
+      "id": "ulm",
+      "nom": "Bataille d’Ulm",
+      "debut": "1805-10",
+      "lieu": "Ulm, Bavière",
+      "coords": [
+        9.99,
+        48.4
+      ],
+      "vainqueur": "france",
+      "resume": "Par une manœuvre rapide, Napoléon encercle une armée autrichienne, qui capitule presque sans combattre.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_d%27Ulm"
+    },
+    {
+      "id": "trafalgar",
+      "nom": "Bataille de Trafalgar",
+      "debut": "1805-10-21",
+      "lieu": "Cap Trafalgar, au large de l’Espagne",
+      "coords": [
+        -6.04,
+        36.18
+      ],
+      "vainqueur": "coalitions",
+      "resume": "La flotte britannique de Nelson détruit la flotte franco-espagnole ; Nelson est tué, mais le Royaume-Uni domine les mers.",
+      "ref": "bataille-de-trafalgar",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Trafalgar"
+    },
+    {
+      "id": "austerlitz",
+      "nom": "Bataille d’Austerlitz",
+      "debut": "1805-12-02",
+      "lieu": "Austerlitz, Moravie",
+      "coords": [
+        16.76,
+        49.13
+      ],
+      "vainqueur": "france",
+      "resume": "La « bataille des Trois Empereurs » : Napoléon écrase les armées russe et autrichienne, un an jour pour jour après son sacre.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_d%27Austerlitz"
+    },
+    {
+      "id": "iena",
+      "nom": "Bataille d’Iéna",
+      "debut": "1806-10-14",
+      "lieu": "Iéna, Saxe",
+      "coords": [
+        11.59,
+        50.93
+      ],
+      "vainqueur": "france",
+      "resume": "Le même jour, à Iéna et à Auerstaedt, les armées prussiennes sont mises en déroute.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_d%27I%C3%A9na"
+    },
+    {
+      "id": "eylau",
+      "nom": "Bataille d’Eylau",
+      "debut": "1807-02-08",
+      "lieu": "Eylau, Prusse-Orientale",
+      "coords": [
+        20.62,
+        54.39
+      ],
+      "resume": "Bataille très meurtrière, livrée dans la neige, sans vainqueur net entre Français et Russes.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_d%27Eylau"
+    },
+    {
+      "id": "friedland",
+      "nom": "Bataille de Friedland",
+      "debut": "1807-06-14",
+      "lieu": "Friedland, Prusse-Orientale",
+      "coords": [
+        21.02,
+        54.45
+      ],
+      "vainqueur": "france",
+      "resume": "Victoire décisive sur l’armée russe, qui conduit à la paix de Tilsit.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Friedland"
+    },
+    {
+      "id": "bailen",
+      "nom": "Bataille de Bailén",
+      "debut": "1808-07",
+      "lieu": "Bailén, Andalousie",
+      "coords": [
+        -3.77,
+        38.1
+      ],
+      "vainqueur": "coalitions",
+      "resume": "Une armée française encerclée capitule devant l’armée espagnole : un grand choc en Europe.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Bail%C3%A9n"
+    },
+    {
+      "id": "essling",
+      "nom": "Bataille d’Essling",
+      "debut": "1809-05",
+      "lieu": "Aspern et Essling, près de Vienne",
+      "coords": [
+        16.53,
+        48.21
+      ],
+      "vainqueur": "coalitions",
+      "resume": "Pour la première fois, Napoléon est repoussé par l’armée autrichienne de l’archiduc Charles.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_d%27Essling"
+    },
+    {
+      "id": "wagram",
+      "nom": "Bataille de Wagram",
+      "debut": "1809-07-05",
+      "fin": "1809-07-06",
+      "lieu": "Wagram, près de Vienne",
+      "coords": [
+        16.56,
+        48.3
+      ],
+      "vainqueur": "france",
+      "resume": "Après deux jours de combats, Napoléon bat l’Autriche, qui demande la paix.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Wagram"
+    },
+    {
+      "id": "moskova",
+      "nom": "Bataille de la Moskova (Borodino)",
+      "debut": "1812-09-07",
+      "lieu": "Borodino, à l’ouest de Moscou",
+      "coords": [
+        35.82,
+        55.52
+      ],
+      "resume": "L’une des batailles les plus sanglantes de l’époque ; l’armée russe recule en bon ordre et la route de Moscou s’ouvre.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_la_Moskova"
+    },
+    {
+      "id": "berezina",
+      "nom": "Passage de la Bérézina",
+      "debut": "1812-11",
+      "lieu": "Rivière Bérézina, Biélorussie actuelle",
+      "coords": [
+        28.37,
+        54.33
+      ],
+      "resume": "Pendant la retraite, les restes de la Grande Armée franchissent la rivière sur des ponts improvisés, au prix de très lourdes pertes.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_la_B%C3%A9r%C3%A9zina"
+    },
+    {
+      "id": "vitoria",
+      "nom": "Bataille de Vitoria",
+      "debut": "1813-06-21",
+      "lieu": "Vitoria, Pays basque espagnol",
+      "coords": [
+        -2.67,
+        42.85
+      ],
+      "vainqueur": "coalitions",
+      "resume": "Wellington bat l’armée de Joseph Bonaparte : les Français doivent quitter l’Espagne.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Vitoria"
+    },
+    {
+      "id": "leipzig",
+      "nom": "Bataille de Leipzig",
+      "debut": "1813-10-16",
+      "fin": "1813-10-19",
+      "lieu": "Leipzig, Saxe",
+      "coords": [
+        12.37,
+        51.34
+      ],
+      "vainqueur": "coalitions",
+      "resume": "La « bataille des Nations » : les armées russe, prussienne, autrichienne et suédoise battent Napoléon.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Leipzig"
+    },
+    {
+      "id": "waterloo",
+      "nom": "Bataille de Waterloo",
+      "debut": "1815-06-18",
+      "lieu": "Waterloo, Belgique",
+      "coords": [
+        4.41,
+        50.68
+      ],
+      "vainqueur": "coalitions",
+      "resume": "Les Britanniques de Wellington tiennent jusqu’à l’arrivée des Prussiens de Blücher : la défaite de Napoléon est définitive.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Waterloo"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Napoléon Ier",
+      "camp": "france",
+      "role": "Empereur des Français",
+      "dates": "1769 → 1821",
+      "description": "Général devenu Premier consul puis empereur, il domine l’Europe avant d’être vaincu en 1814 et en 1815.",
+      "ref": "napoleon-ier",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Napol%C3%A9on_Ier"
+    },
+    {
+      "nom": "Joachim Murat",
+      "camp": "france",
+      "role": "Maréchal, roi de Naples",
+      "dates": "1767 → 1815",
+      "description": "Beau-frère de Napoléon et chef de sa cavalerie, il devient roi de Naples en 1808.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Joachim_Murat"
+    },
+    {
+      "nom": "Michel Ney",
+      "camp": "france",
+      "role": "Maréchal d’Empire",
+      "dates": "1769 → 1815",
+      "description": "Surnommé « le Brave des braves », il commande l’arrière-garde pendant la retraite de Russie ; il est fusillé en 1815.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Michel_Ney"
+    },
+    {
+      "nom": "Joseph Bonaparte",
+      "camp": "france",
+      "role": "Frère aîné de Napoléon, roi d’Espagne",
+      "dates": "1768 → 1844",
+      "description": "Roi de Naples, puis d’Espagne de 1808 à 1813, il ne parvient jamais à se faire accepter des Espagnols.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Joseph_Bonaparte"
+    },
+    {
+      "nom": "Horatio Nelson",
+      "camp": "coalitions",
+      "role": "Amiral britannique",
+      "dates": "1758 → 1805",
+      "description": "Vainqueur de la flotte franco-espagnole à Trafalgar, il est tué pendant la bataille.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Horatio_Nelson"
+    },
+    {
+      "nom": "Arthur Wellesley, duc de Wellington",
+      "camp": "coalitions",
+      "role": "Général britannique",
+      "dates": "1769 → 1852",
+      "description": "Il chasse les Français du Portugal et d’Espagne, puis bat Napoléon à Waterloo.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Arthur_Wellesley_de_Wellington"
+    },
+    {
+      "nom": "Alexandre Ier",
+      "camp": "coalitions",
+      "role": "Tsar de Russie",
+      "dates": "1777 → 1825",
+      "description": "Battu à Austerlitz et à Friedland, il s’allie à Napoléon à Tilsit, puis lui résiste en 1812 et entre dans Paris en 1814.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Alexandre_Ier_(empereur_de_Russie)"
+    },
+    {
+      "nom": "Mikhaïl Koutouzov",
+      "camp": "coalitions",
+      "role": "Maréchal russe",
+      "dates": "1745 → 1813",
+      "description": "Commandant de l’armée russe en 1812, il livre la bataille de la Moskova puis harcèle la Grande Armée en retraite.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Mikha%C3%AFl_Koutouzov"
+    },
+    {
+      "nom": "Gebhard Leberecht von Blücher",
+      "camp": "coalitions",
+      "role": "Maréchal prussien",
+      "dates": "1742 → 1819",
+      "description": "Il combat Napoléon de 1806 à 1815 ; l’arrivée de ses troupes décide de la victoire de Waterloo.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Gebhard_Leberecht_von_Bl%C3%BCcher"
+    },
+    {
+      "nom": "Klemens von Metternich",
+      "camp": "coalitions",
+      "role": "Ministre autrichien des Affaires étrangères",
+      "dates": "1773 → 1859",
+      "description": "Il rapproche un temps l’Autriche de Napoléon, puis organise la coalition de 1813 et préside le congrès de Vienne.",
+      "ref": "metternich"
+    }
+  ],
+  "sections": [
+    {
+      "titre": "Les causes",
+      "texte": "Depuis 1792, la France révolutionnaire est en guerre contre des coalitions de monarchies européennes. La paix d’Amiens (1802) ne dure qu’un an : le Royaume-Uni refuse de voir la France dominer le continent, et la France refuse de laisser les Britanniques maîtres des mers et du commerce. Les autres puissances, Autriche, Russie et Prusse, veulent aussi arrêter l’expansion française et les bouleversements qu’elle apporte."
+    },
+    {
+      "titre": "La Grande Armée",
+      "texte": "Napoléon dispose d’une armée nombreuse, grâce à la conscription, et organisée en corps d’armée capables de se déplacer vite et de combattre seuls. Il cherche la bataille décisive qui brise l’ennemi en une journée, comme à Austerlitz ou à Iéna. Avec le temps, ses adversaires copient ses méthodes, et ses armées, de plus en plus composées de soldats étrangers et de jeunes recrues, perdent de leur force."
+    },
+    {
+      "titre": "Le Blocus continental",
+      "texte": "Ne pouvant battre le Royaume-Uni sur mer, Napoléon décide en 1806 de fermer tous les ports du continent au commerce britannique. Pour faire respecter ce blocus, il doit envahir le Portugal et l’Espagne, puis entre en conflit avec la Russie, qui refuse de s’y plier. Le blocus nuit aussi aux économies européennes et rend la domination française impopulaire."
+    },
+    {
+      "titre": "Les conséquences",
+      "texte": "Le congrès de Vienne (1814-1815) rétablit les monarchies et redessine les frontières pour un équilibre entre les grandes puissances. Mais l’Europe a changé : le Saint-Empire a disparu, le Code civil s’est répandu dans de nombreux pays, et l’occupation française a éveillé des sentiments nationaux, en Espagne et en Allemagne notamment. Le Royaume-Uni sort de la guerre comme la première puissance maritime et commerciale du monde."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "sacre",
+      "type": "mcq",
+      "prompt": "En quelle année Napoléon est-il sacré empereur des Français ?",
+      "options": [
+        "1804",
+        "1799",
+        "1812",
+        "1815"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "trafalgar",
+      "type": "mcq",
+      "prompt": "Quel amiral britannique détruit la flotte franco-espagnole à Trafalgar ?",
+      "options": [
+        "Horatio Nelson",
+        "Arthur Wellesley de Wellington",
+        "Francis Drake",
+        "James Cook"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "austerlitz",
+      "type": "tf",
+      "prompt": "La bataille d’Austerlitz est surnommée « la bataille des Trois Empereurs ».",
+      "answer": true,
+      "explanation": "Napoléon y affronte l’empereur d’Autriche François et le tsar Alexandre Ier."
+    },
+    {
+      "id": "blocus",
+      "type": "mcq",
+      "prompt": "Quel est le but du Blocus continental décrété en 1806 ?",
+      "options": [
+        "Ruiner le commerce du Royaume-Uni",
+        "Empêcher la Russie d’atteindre la mer",
+        "Protéger les côtes françaises d’une invasion",
+        "Interdire le commerce avec l’Amérique"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "tilsit",
+      "type": "tf",
+      "prompt": "Après la paix de Tilsit, en 1807, la Russie devient l’alliée de la France.",
+      "answer": true
+    },
+    {
+      "id": "espagne",
+      "type": "mcq",
+      "prompt": "Qui Napoléon place-t-il sur le trône d’Espagne en 1808 ?",
+      "options": [
+        "Son frère Joseph",
+        "Le maréchal Ney",
+        "Son beau-frère Murat",
+        "Le roi de Portugal"
+      ],
+      "answer": 0,
+      "explanation": "Murat, lui, devient alors roi de Naples à la place de Joseph."
+    },
+    {
+      "id": "guerilla",
+      "type": "tf",
+      "prompt": "En Espagne, l’armée française ne combat que des armées régulières.",
+      "answer": false,
+      "explanation": "Elle affronte aussi des guérilleros, d’où le mot « guérilla »."
+    },
+    {
+      "id": "russie",
+      "type": "mcq",
+      "prompt": "Qu’arrive-t-il à la Grande Armée pendant la campagne de Russie de 1812 ?",
+      "options": [
+        "Elle est presque anéantie pendant la retraite",
+        "Elle conquiert toute la Russie",
+        "Elle est arrêtée à la frontière",
+        "Elle rentre intacte après la prise de Moscou"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "leipzig",
+      "type": "mcq",
+      "prompt": "Quelle bataille de 1813 est surnommée « la bataille des Nations » ?",
+      "options": [
+        "Leipzig",
+        "Waterloo",
+        "Wagram",
+        "Iéna"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "elbe",
+      "type": "mcq",
+      "prompt": "Où Napoléon est-il exilé après sa première abdication, en 1814 ?",
+      "options": [
+        "Sur l’île d’Elbe",
+        "Sur l’île de Sainte-Hélène",
+        "En Corse",
+        "En Russie"
+      ],
+      "answer": 0,
+      "explanation": "Il ne part pour Sainte-Hélène qu’après Waterloo, en 1815."
+    },
+    {
+      "id": "waterloo",
+      "type": "mcq",
+      "prompt": "Quels généraux battent Napoléon à Waterloo ?",
+      "options": [
+        "Wellington et Blücher",
+        "Nelson et Koutouzov",
+        "Metternich et Alexandre Ier",
+        "Murat et Ney"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vienne",
+      "type": "tf",
+      "prompt": "Le congrès de Vienne redessine la carte de l’Europe après la chute de Napoléon.",
+      "answer": true
+    },
+    {
+      "id": "ordre",
+      "type": "order",
+      "prompt": "Remets ces événements dans l’ordre chronologique.",
+      "items": [
+        "Bataille d’Austerlitz",
+        "Traités de Tilsit",
+        "Campagne de Russie",
+        "Bataille de Waterloo"
+      ]
+    }
+  ],
+  "guerresLiees": [
+    "Guerres napoléoniennes|1803",
+    "Bataille de Trafalgar|1805",
+    "Guerre d’indépendance espagnole|1808",
+    "Campagne de Russie|1812"
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Guerres_napol%C3%A9oniennes",
+    {
+      "titre": "Encyclopædia Britannica — Napoleonic Wars",
+      "url": "https://www.britannica.com/event/Napoleonic-Wars"
+    },
+    {
+      "titre": "Fondation Napoléon",
+      "url": "https://www.napoleon.org/"
+    }
+  ]
+}

@@ -10,6 +10,7 @@ const EpochPage = lazy(() => import('./pages/EpochPage'))
 const CivilizationPage = lazy(() => import('./pages/CivilizationPage'))
 const MapPage = lazy(() => import('./pages/MapPage'))
 const ProfilPage = lazy(() => import('./pages/ProfilPage'))
+const MondesPage = lazy(() => import('./pages/MondesPage'))
 const ChapterPage = lazy(() => import('./pages/ChapterPage'))
 const QuizPage = lazy(() => import('./pages/QuizPage'))
 const WarsPage = lazy(() => import('./pages/WarsPage'))
@@ -21,6 +22,7 @@ const NotFoundPage = lazy(() => import('./pages/NotFoundPage'))
 /**
  * Plan du site
  *   /                         Aventure : le parcours (?monde=<époque>) — onglet par défaut (V3)
+ *   /aventure/mondes          Les cinq mondes (avancement, titres, verrous)
  *   /atlas                    Atlas : ouvre la dernière vue (Frise ou Carte)
  *   /profil                   Profil : niveau, série, titres, fils rouges
  *   /frise                    Frise des époques (Atlas)
@@ -41,6 +43,7 @@ export default function App() {
       <Route element={<AppShell />}>
         <Route index element={<AventurePage />} />
         <Route path="aventure" element={<Navigate to="/" replace />} />
+        <Route path="aventure/mondes" element={<Lazy><MondesPage /></Lazy>} />
         <Route path="atlas" element={<AtlasRedirect />} />
         <Route path="profil" element={<Lazy><ProfilPage /></Lazy>} />
         <Route path="frise" element={<Lazy><TimelinePage /></Lazy>} />

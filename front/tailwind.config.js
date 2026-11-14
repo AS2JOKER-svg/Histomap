@@ -16,21 +16,23 @@ export default {
         line:     token('line'),
         accent:   token('accent'),
         accent2:  token('accent-2'),
+        accentbtn: token('accent-btn'),
+        gold:     token('gold'),
         success:  token('success'),
         danger:   token('danger'),
         warning:  token('warning'),
       },
       fontFamily: {
-        display: ['Fraunces', 'Georgia', 'serif'],
-        body:    ['Inter', 'system-ui', 'sans-serif'],
+        display: ['"Cormorant Garamond"', 'Georgia', 'serif'],
+        body:    ['"DM Sans"', 'system-ui', 'sans-serif'],
       },
       boxShadow: {
         soft: 'var(--shadow-soft)',
         lift: 'var(--shadow-lift)',
       },
       borderRadius: {
-        xl2: '18px',
-        '4xl': '28px',
+        xl2: '10px',
+        '4xl': '20px',
       },
       spacing: {
         tabbar: 'calc(4.25rem + env(safe-area-inset-bottom))',

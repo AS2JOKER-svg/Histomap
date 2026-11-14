@@ -21,7 +21,7 @@ function apply(theme) {
   usePreferences.setState({ resolved })
   document.documentElement.dataset.theme = resolved
   const meta = document.querySelectorAll('meta[name="theme-color"]')
-  meta.forEach((m) => m.setAttribute('content', resolved === 'dark' ? '#0c0f16' : '#f7f8fb'))
+  meta.forEach((m) => m.setAttribute('content', resolved === 'dark' ? '#1f1812' : '#f6efe2'))
 }
 
 function readTheme() {

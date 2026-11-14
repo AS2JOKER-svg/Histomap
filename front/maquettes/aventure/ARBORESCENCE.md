@@ -307,7 +307,7 @@ Choix du tronc : les civilisations qu'un élève de 13 ans et plus doit connaît
 - Époque moderne : 12 ;
 - Époque contemporaine : 11.
 
-Liste validée le 14/11/2026. Échanger une salle avec une branche reste possible : le rattachement se recalcule par script.
+Liste validée le 14/11/2026. Source de vérité depuis le sprint 17 : `front/content/parcours.json` (validé par `npm run data`).
 
 ### Monde I — Préhistoire (5 salles, 5 branches)
 

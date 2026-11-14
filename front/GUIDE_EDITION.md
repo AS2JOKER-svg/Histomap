@@ -223,6 +223,24 @@ Pour ajouter des questions rédigées à la main, compléter le tableau `quiz` d
 - `content/conflicts.json` : `"Nom exact de la guerre": { "coords": [longitude, latitude], "lieu": "Cannes" }` (lieu facultatif).
 - Le validateur signale un nom de territoire introuvable ou une guerre sans coordonnées.
 
+### Le parcours de l'Aventure (`content/parcours.json`)
+```jsonc
+{
+  "mondes": [{ "epoque": "antiquite", "titre": "Grand savant de l’Antiquité", "theme": "papyrus",
+               "tronc": ["mesopotamie", "egypte", "…"] }],            // un monde par époque, dans l'ordre de epochs.json
+  "branches": { "koush": "egypte", "aksoum": "koush" },               // toutes les autres civilisations → leur parent
+  "filsRouges": { "egypte": "Maître de l’Égypte" },                    // un titre par lignée de lineages.json
+  "titreUltime": "Historien universel"
+}
+```
+- Chaque civilisation est **une seule fois** dans le parcours : dans le tronc de son époque, ou dans `branches`.
+- Une branche dépend d'une civilisation de son monde ou d'un monde **précédent** ; une branche qui fait partie d'une lignée
+  dépend de la **civilisation précédente de sa lignée** (ex. Empire d'Éthiopie ← Aksoum).
+- **Ajouter une civilisation** = aussi l'ajouter ici (dans un tronc ou dans `branches`), sinon `npm run data` échoue.
+- Thèmes possibles : `silex`, `papyrus`, `enluminure`, `lapis`, `neon` (un par monde).
+- Règles du jeu (ouverture des salles, étape du jour) : `src/lib/aventure.js` ; XP, niveaux, récompenses : `src/lib/xp.js` ;
+  tests : `npm test` (aussi lancés par `npm run validate`).
+
 ### Écrire un dossier de guerre (`content/wars/<id>.json`)
 Modèles : `content/wars/seconde-guerre-mondiale.json` (Guerres A), puis `guerres-puniques`, `guerre-de-cent-ans`, `guerres-napoleoniennes`, `premiere-guerre-mondiale` (Guerres B). Page : `/guerres/<id>`.
 ```jsonc

@@ -20,6 +20,7 @@ import { join } from 'path'
 import { PATHS, assemble, loadContent, loadMapIndex } from './lib/content.mjs'
 import { expressQuestions } from './lib/express.mjs'
 import { compileDossier, loadDossiers } from './lib/dossiers.mjs'
+import { compileParcours, loadParcours } from './lib/parcours.mjs'
 import { parseLinks, resolveLinks, stripLinks, stripLinksDeep } from '../src/lib/links.js'
 
 const content = loadContent()
@@ -237,6 +238,10 @@ writeJson(
   }))
 )
 writeJson('wars.json', warList)
+
+// Parcours de l'Aventure (validé par validate-content.mjs)
+const parcours = loadParcours(content.dir).data
+if (parcours) writeJson('parcours.json', compileParcours(parcours, content))
 for (const w of warList) add({ t: 'guerre', n: w.nom, s: [...w.camp, ...w.adversaires].join(' · ').slice(0, 90), y: w.annee, to: `/guerres?guerre=${encodeURIComponent(w.key)}` }, w.adversaires.join(' '), w.camp.join(' '))
 writeJson('search.json', search)
 

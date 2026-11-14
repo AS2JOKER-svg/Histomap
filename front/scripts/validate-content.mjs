@@ -8,6 +8,7 @@
 import { ENTITY_TYPES, ignoredTerritories, loadContent, loadMapIndex } from './lib/content.mjs'
 import { ID, linkSyntaxErrors, parseLinks } from '../src/lib/links.js'
 import { loadDossiers, validateDossiers } from './lib/dossiers.mjs'
+import { loadParcours, validateParcours } from './lib/parcours.mjs'
 
 const content = loadContent()
 const errors = [...content.problems]
@@ -361,6 +362,9 @@ else
 const dossiers = loadDossiers(content.dir)
 const allWarKeys = new Set([...content.civs.values()].flatMap(({ data }) => (data.guerres ?? []).map((g) => `${g.nom}|${g.annee}`)))
 validateDossiers(dossiers, { err, warn, isStr, isNum, isArr, isUrl, isHex, onlyFields, sources, entities: content.entities, civs: content.civs, wars: allWarKeys, mapIndex })
+
+// ── Parcours de l'Aventure (content/parcours.json) ──────────────────────────
+validateParcours(loadParcours(content.dir), { err, warn, isStr, isArr, onlyFields, content })
 
 // ── Liens [[id]] dans tous les textes ─────────────────────────────────────────
 function checkLinks(where, value) {

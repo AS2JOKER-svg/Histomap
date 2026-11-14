@@ -10,6 +10,7 @@
     "coverage": "npm run content && node scripts/coverage-report.mjs",
     "links": "node scripts/check-links.mjs",
     "territoires": "node scripts/find-territories.mjs",
+    "zone": "node scripts/territoires-zone.mjs",
     "predev": "npm run content",
     "dev": "vite",
     "prebuild": "npm run data",

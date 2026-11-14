@@ -5,6 +5,7 @@ import { readFileSync } from 'fs'
 import { loadContent } from './lib/content.mjs'
 import { loadParcours, validateParcours } from './lib/parcours.mjs'
 import { MEDAILLE, createParcours, etapeDuJour, etoiles, mondeOuvert, ouverture, avancementMonde, titresObtenus } from '../src/lib/aventure.js'
+import { aventureVide, enregistrerActivite, gagnerXp, migrerV2, terminerEpreuve, terminerEtape, xpReponses, lundi } from '../src/lib/progression.js'
 import { emplacementsJokers, gainReponse, niveau, petitCoffre, prochaineRecompense, rang, recompensesNiveau, seuilNiveau } from '../src/lib/xp.js'
 
 let n = 0
@@ -83,8 +84,8 @@ test('avancement d’un monde et titres de collection', () => {
   assert.equal(a.or, 5)
   const titres = titresObtenus(P, s).map((t) => t.titre)
   assert.ok(titres.includes('Grand savant de la Préhistoire'))
-  assert.ok(titres.includes('Maître de l’Égypte'))
-  assert.ok(!titres.includes('Historien universel'))
+  assert.ok(titres.includes('Plus érudit qu’un scribe de pharaon'))
+  assert.ok(!titres.includes('Encyclopédie ambulante'))
 })
 
 // ── XP et niveaux ─────────────────────────────────────────────────────────────
@@ -115,6 +116,111 @@ test('récompenses de niveau, jokers, étoiles, coffres', () => {
   assert.ok([25, 50, 100].includes(petitCoffre('x').xp))
 })
 
+// ── Progression (lib/progression.js) ──────────────────────────────────────────
+const J = (n) => new Date(Date.UTC(2026, 10, 2 + n)).toISOString().slice(0, 10) // J(0) = lundi 2 novembre 2026
+const types = (ev) => ev.map((e) => e.type)
+
+test('série : jours consécutifs, jour manqué, joker, record', () => {
+  let av = aventureVide()
+  av = enregistrerActivite(av, J(0)).av
+  av = enregistrerActivite(av, J(1)).av
+  assert.equal(av.serie.jours, 2)
+  assert.equal(enregistrerActivite(av, J(1)).av.serie.jours, 2) // même jour : rien ne change
+  const perdu = enregistrerActivite(av, J(3)).av // J(2) manqué, aucun joker
+  assert.deepEqual([perdu.serie.jours, perdu.serie.record], [1, 2])
+  const sauve = enregistrerActivite({ ...av, serie: { ...av.serie, jokers: 1 } }, J(3))
+  assert.deepEqual([sauve.av.serie.jours, sauve.av.serie.jokers], [3, 0])
+  assert.ok(types(sauve.evenements).includes('joker-utilise'))
+})
+
+test('série : un joker tous les 7 jours, coffre aux paliers (une seule fois)', () => {
+  let av = aventureVide()
+  let coffres = 0
+  for (let i = 0; i < 7; i++) {
+    const r = enregistrerActivite(av, J(i))
+    av = r.av
+    coffres += r.evenements.filter((e) => e.type === 'coffre' && e.sorte === 'serie').length
+  }
+  assert.equal(av.serie.jours, 7)
+  assert.equal(coffres, 2) // paliers 3 et 7
+  assert.ok(av.serie.jokers >= 1)
+})
+
+test('Découvrir : bronze, 40 XP + éclairs + bonus du jour, salles ouvertes ; rejouer = 10 XP', () => {
+  const r = terminerEtape(aventureVide(), P, 'hominides-est', 'decouvrir', { eclairs: 3 }, J(0))
+  assert.equal(r.av.salles['hominides-est'].medaille, BRONZE)
+  assert.equal(r.av.xp, 40 + 15 + 20)
+  const ouv = r.evenements.find((e) => e.type === 'ouverture')
+  assert.ok(ouv.salles.includes('europe-paleo') && ouv.salles.includes('sahara-pasteurs'))
+  const r2 = terminerEtape(r.av, P, 'hominides-est', 'decouvrir', { eclairs: 3 }, J(0))
+  assert.equal(r2.av.xp - r.av.xp, 10)
+})
+
+test('combo des réponses : 10, 15, 20, rien, 10 ; moitié en rejeu', () => {
+  assert.equal(xpReponses([true, true, true, false, true]), 55)
+  assert.equal(xpReponses([true, true, true, false, true], { rejeu: true }), 27)
+})
+
+test('Épreuve : ratée (essai compté), puis réussie (or, coffre, étoiles)', () => {
+  const base = { ...aventureVide(), salles: { carthage: { medaille: ARGENT, meilleur: null, essais: 0, enCours: null } } }
+  const rate = terminerEpreuve(base, P, 'carthage', 12, Array(12).fill(true).concat(Array(8).fill(false)), J(0))
+  assert.deepEqual([rate.av.salles.carthage.medaille, rate.av.salles.carthage.essais, rate.av.salles.carthage.meilleur], [ARGENT, 1, 12])
+  const ok = terminerEpreuve(rate.av, P, 'carthage', 18, Array(18).fill(true).concat([false, false]), J(1))
+  assert.equal(ok.av.salles.carthage.medaille, OR)
+  const t = types(ok.evenements)
+  assert.ok(t.includes('coffre') && t.includes('etoiles'))
+  assert.ok(ok.av.coffres.includes('or:carthage'))
+  const encore = terminerEpreuve(ok.av, P, 'carthage', 18, Array(18).fill(true).concat([false, false]), J(1))
+  assert.ok(!types(encore.evenements).includes('coffre')) // le coffre ne s'ouvre qu'une fois
+})
+
+test('niveau 2 : récompense (1 joker) créditée une fois', () => {
+  const r = gagnerXp({ ...aventureVide(), xp: 90 }, 20, 'test', J(0))
+  assert.equal(r.av.niveauCredite, 2)
+  assert.equal(r.av.serie.jokers, 1)
+  assert.ok(types(r.evenements).includes('niveau'))
+  assert.ok(!types(gagnerXp(r.av, 5, 'test', J(0)).evenements).includes('niveau'))
+})
+
+test('objectif de la semaine : coffre + joker, remis à zéro le lundi suivant', () => {
+  let av = { ...aventureVide(), semaine: { debut: null, xp: 0, objectif: 300, coffre: false } }
+  const r = gagnerXp(av, 320, 'test', J(2))
+  assert.equal(r.av.semaine.debut, lundi(J(2)))
+  assert.equal(r.av.semaine.coffre, true)
+  assert.ok(r.evenements.some((e) => e.type === 'coffre' && e.sorte === 'semaine'))
+  const lundiSuivant = gagnerXp(r.av, 10, 'test', J(7))
+  assert.deepEqual([lundiSuivant.av.semaine.xp, lundiSuivant.av.semaine.coffre], [10, false])
+})
+
+test('titre d’époque : tout le tronc du monde I en or → titre, thème, 300 XP', () => {
+  const salles = Object.fromEntries(tronc(0).map((id) => [id, { medaille: id === 'mesopotamie-prehist' ? ARGENT : OR, meilleur: 18, essais: 1, enCours: null }]))
+  const r = terminerEpreuve({ ...aventureVide(), salles }, P, 'mesopotamie-prehist', 17, Array(17).fill(true), J(0))
+  const titre = r.evenements.find((e) => e.type === 'titre')
+  assert.equal(titre.titre, 'Grand savant de la Préhistoire')
+  assert.ok(r.av.recompenses.includes('theme:silex'))
+  assert.ok(r.av.titres.includes('monde:prehistoire'))
+})
+
+test('migration v2 → v3 : médailles, XP, série et onboarding crédités', () => {
+  const today = J(10)
+  const ancien = {
+    chapters: { carthage: { rounds: 2 }, egypte: { rounds: 1 } },
+    quizzes: { rome: { best: 18, attempts: 2 }, grece: { best: 9, attempts: 1 } },
+    fiches: { a: {}, b: {}, c: {} },
+    express: { x: { best: 2 } },
+    days: [J(7), J(8), J(9), J(10)],
+  }
+  const av = migrerV2(ancien, P, today)
+  assert.deepEqual([av.salles.carthage.medaille, av.salles.egypte.medaille, av.salles.rome.medaille, av.salles.grece.medaille], [ARGENT, BRONZE, OR, 0])
+  assert.equal(av.salles.grece.essais, 1)
+  assert.equal(av.xp, 100 + 40 + (40 + 60 + 50 + 180 + 50) + 15 + 10)
+  assert.equal(av.serie.jours, 4)
+  assert.ok(av.coffres.includes('or:rome'))
+  assert.equal(av.onboarding, true)
+  assert.equal(av.niveauCredite, niveau(av.xp).niveau)
+  assert.equal(migrerV2({}, P, today).onboarding, false)
+})
+
 // ── Validateur du parcours : il doit bloquer les erreurs ──────────────────────
 const content = loadContent()
 const errs = (mutate) => {
@@ -134,4 +240,4 @@ test('validateur : parent d’un monde plus tardif', () => assert.ok(errs((d) =>
 test('validateur : fil rouge non respecté', () => assert.ok(errs((d) => (d.branches['ethiopie-contemp'] = 'afrique-sud')).length))
 test('validateur : titre de fil rouge manquant', () => assert.ok(errs((d) => delete d.filsRouges.egypte).length))
 
-console.log(`✅ Aventure : ${n} tests réussis (parcours, étape du jour, XP, niveaux, récompenses, validateur).`)
+console.log(`✅ Aventure : ${n} tests réussis (parcours, étape du jour, XP, niveaux, récompenses, progression, migration, validateur).`)

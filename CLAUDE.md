@@ -18,6 +18,7 @@ Tout le code est dans `front/`. Commandes (depuis `front/`, ou depuis la racine 
 - `npm run coverage` : rapport de couverture (région × siècle, territoires des cartes sans fiche) → `front/reports/couverture.md`
 - `npm run links` : vérifie que tous les liens Wikipédia de `content/` mènent à une page existante (réseau requis ; à lancer après chaque lot de fiches)
 - `npm run territoires -- <mot> [<mot>…]` : cherche des noms de territoires dans les cartes historiques (années, fiche déjà reliée) pour remplir `territories`
+- `npm run zone -- <année> <ouest> <sud> <est> <nord>` : liste les territoires d'une carte historique dans une zone (pour colorer les cartes des dossiers de guerre)
 - `npm run build` : compile, valide puis construit `dist/` (+ service worker)
 - `npm run preview` : sert le build (tester le hors-ligne ici, pas en dev)
 
@@ -35,7 +36,7 @@ Tout le code est dans `front/`. Commandes (depuis `front/`, ou depuis la racine 
 - `front/src/data/revision/<id>.js` : **un chapitre de révision par civilisation** (cartes + quiz + bilan). `index.js` et `revision-meta.json` sont **générés** par `scripts/build-revision-index.mjs`.
 - `front/src/lib/` : `data.js` (index léger : getEpochs, getCivilization… ; détail : `loadCiv(id)` / `useCiv(id)`), `links.js` (syntaxe des liens `[[id|texte]]`), `revision.js`, `chapters.js`, `quiz.js`, `questions.js` (affichage/correction d'une question, léger), `random.js` (hasard reproductible, aussi utilisé par les scripts), `map.js`, `color.js`, `storage.js`, `haptics.js`, `pwa.js`.
 - Quiz express des fiches liées : généré au build par `front/scripts/lib/express.mjs` (champ `express` de `src/data/entities/<id>.json`), joué par `src/components/quiz/ExpressQuiz.jsx`. Règle : une seule bonne réponse possible (leurres d'autres continents/familles, question écartée si la réponse se lit dans le nom, dates en siècles exclues des questions de date et d'ordre).
-- `front/src/store/` : `progress.js` (progression, clé `histomap_progress`, version 2 : + `express`), `ui.js`, `app.js`.
+- `front/src/store/` : `progress.js` (progression, clé `histomap_progress`, version 3 : + `express` (v2), + `aventure` (v3, logique pure dans `src/lib/progression.js`, migration v2 → v3 `migrerV2`)), `ui.js`, `app.js`.
 - `front/src/pages/` : une page par écran. `front/src/components/` : composants (ui/ = briques de base, dont `RichText` pour les textes à liens ; fiche/ = briques communes des fiches ; `RefSheet` = aperçu d'une fiche ouvert de partout via `useUI().openSheet`).
 - Routes : `/` accueil, `/frise…`, `/frise/:epoque/:civ?onglet=…` (fiche à 6 onglets), `/fiche/:id` (fiche liée), `/carte`, `/guerres`, `/guerres/:id` (dossier de guerre), `/recherche`, `/reviser…`.
 - `front/GUIDE_EDITION.md` : **formats détaillés du contenu** (à lire avant d'écrire une fiche ou un chapitre).
@@ -74,7 +75,7 @@ Tout le code est dans `front/`. Commandes (depuis `front/`, ou depuis la racine 
   - ✅ Sprint 15 : arborescence (`front/maquettes/aventure/ARBORESCENCE.md`) ; tronc, branches, niveaux et récompenses validés le 14/11/2026.
   - ✅ Sprint 16 (validé le 14/11/2026, polices Cormorant Garamond + DM Sans acceptées) : 12 maquettes haute fidélité, direction B « Musée vivant » (papier crème, encre, or, terre cuite ; Cormorant Garamond + DM Sans ; écrans de récompense sur fond encre avec rayons, confettis et médaille animés, sans animation si « mouvement réduit ») : https://claude.ai/artifact/2bsMtSCmRDBTyYb8tG5rCU
   - ✅ Sprint 17 : `content/parcours.json` (validateur `scripts/lib/parcours.mjs`, compilé en `src/data/parcours.json`) ; règles pures `src/lib/aventure.js` (ouverture des salles, étape du jour, avancement, titres) et `src/lib/xp.js` (barème, niveaux, rangs, récompenses, jokers, coffres) ; 16 tests (`npm test`, lancés par `npm run validate`).
-  - Sprint 18 : progression v3 (XP, niveaux, médailles, série, joker, coffres, titres) + migration v2 → v3 avec crédit de ce qui est déjà fait.
+  - ✅ Sprint 18 : progression v3 (`src/lib/progression.js`, pur et testé : XP, médailles, série et jokers, coffres, niveaux et récompenses, objectif de la semaine, titres) branchée dans le store (`aventure`, version 3) ; les chapitres, quiz, fiches et quiz express actuels créditent déjà l'Aventure ; migration v2 → v3 (chapitre 1 fois = bronze, 2 fois = argent, quiz ≥ 15 = or, XP rétroactive sans célébration) ; titres des fils rouges réécrits (variés, avec humour) ; 25 tests.
   - Sprint 19 : navigation 4 onglets, Atlas (bascule Frise / Carte), recherche dans l'en-tête, anciens liens redirigés.
   - Sprint 20 : écran Aventure (mondes, chemin, étape du jour, branches, fils rouges).
   - Sprint 21 : boucle d'une civilisation (Découvrir / Approfondir / Épreuve rythmée : XP en direct, combo, mi-temps, médailles).

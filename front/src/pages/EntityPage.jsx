@@ -74,7 +74,7 @@ function Entity({ e }) {
         items={
           home
             ? [{ label: home.epoch.label, to: `/frise/${home.epoch.id}` }, { label: home.civ.label, to: `/frise/${home.epoch.id}/${home.civ.id}` }, { label: e.nom }]
-            : [{ label: 'Accueil', to: '/' }, { label: e.nom }]
+            : [{ label: 'Atlas', to: '/atlas' }, { label: e.nom }]
         }
       />
 

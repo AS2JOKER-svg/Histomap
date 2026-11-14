@@ -22,7 +22,7 @@ import { create } from 'zustand'
 import { persist, createJSONStorage } from 'zustand/middleware'
 import { load } from '../lib/storage'
 import PARCOURS from '../data/parcours.json'
-import { createParcours } from '../lib/aventure'
+import { MEDAILLE, createParcours, epreuveOuverte, estOuvert } from '../lib/aventure'
 import * as prog from '../lib/progression'
 
 const VERSION = 3
@@ -68,14 +68,22 @@ export const useProgress = create(
       commencerEtape(civId, etape) {
         set((s) => ({ aventure: prog.commencerEtape(s.aventure, civId, etape) }))
       },
-      /** Découvrir ou Approfondir terminé (`eclairs` : questions éclair justes). */
+      /**
+       * Découvrir ou Approfondir terminé (`eclairs` : questions éclair justes).
+       * Crédité seulement si la salle est ouverte, et Approfondir après Découvrir : un chapitre
+       * lu en avance depuis l'Atlas ne fait pas sauter les verrous du parcours.
+       */
       terminerEtape(civId, etape, options) {
         get().touchDay()
+        const salles = get().aventure.salles
+        if (!estOuvert(PARCOURS_AVENTURE, salles, civId)) return []
+        if (etape === 'approfondir' && (salles[civId]?.medaille ?? 0) < MEDAILLE.BRONZE) return []
         return get().avancer((av) => prog.terminerEtape(av, PARCOURS_AVENTURE, civId, etape, options, today()))
       },
       /** Épreuve terminée : note sur 20, `justes` = réponses dans l'ordre. */
       terminerEpreuve(civId, note, justes) {
         get().touchDay()
+        if (!epreuveOuverte(PARCOURS_AVENTURE, get().aventure.salles, civId)) return [] // l'épreuve vient après Approfondir
         return get().avancer((av) => prog.terminerEpreuve(av, PARCOURS_AVENTURE, civId, note, justes, today()))
       },
       seanceARevoir() {

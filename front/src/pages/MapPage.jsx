@@ -12,6 +12,7 @@ import Icon from '../components/ui/Icon'
 import WorldMap from '../components/map/WorldMap'
 import TimeSlider from '../components/map/TimeSlider'
 import CivPreview from '../components/timeline/CivPreview'
+import AtlasSwitch, { rememberAtlasView } from '../components/AtlasSwitch'
 
 const YEAR_KEY = 'histomap_map_year'
 const DEFAULT_YEAR = 1279
@@ -151,8 +152,11 @@ export default function MapPage() {
     mapRef.current?.focusCiv(link.civ.id)
   }
 
+  useEffect(() => rememberAtlasView('carte'), [])
+
   return (
     <section>
+      <AtlasSwitch current="carte" />
       {/* En-tête compact */}
       <div className="flex flex-wrap items-end justify-between gap-3 mb-4">
         <div>

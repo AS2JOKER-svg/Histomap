@@ -79,7 +79,7 @@ function Chapter({ refCiv }) {
     finishChapter(civ.id)
   }
 
-  const close = () => navigate(`/reviser/${epoch.id}`)
+  const close = () => navigate(`/?monde=${epoch.id}`)
 
   return (
     <div className="fixed inset-0 z-50 bg-bg flex flex-col" role="dialog" aria-label={`Révision : ${civ.label}`}>
@@ -213,7 +213,7 @@ function ChapterDone({ refCiv, result, onRestart }) {
           </Link>
         )}
         <Link to={`/frise/${epoch.id}/${civ.id}`} className="btn-ghost h-11 w-full">Lire la fiche complète</Link>
-        <Link to={`/reviser/${epoch.id}`} className="btn-ghost h-11 w-full">Retour aux chapitres</Link>
+        <Link to={`/?monde=${epoch.id}`} className="btn-ghost h-11 w-full">Retour à l’Aventure</Link>
       </div>
     </motion.div>
   )

@@ -1,15 +1,15 @@
 import { lazy, Suspense } from 'react'
-import { Route, Routes } from 'react-router-dom'
+import { Navigate, Route, Routes, useParams } from 'react-router-dom'
 import AppShell from './layouts/AppShell'
-import HomePage from './pages/HomePage'
+import AventurePage from './pages/AventurePage'
+import { AtlasRedirect } from './components/AtlasSwitch'
 
 // Les sections sont chargées à la demande : l'accueil reste léger.
 const TimelinePage = lazy(() => import('./pages/TimelinePage'))
 const EpochPage = lazy(() => import('./pages/EpochPage'))
 const CivilizationPage = lazy(() => import('./pages/CivilizationPage'))
 const MapPage = lazy(() => import('./pages/MapPage'))
-const RevisePage = lazy(() => import('./pages/RevisePage'))
-const ReviseEpochPage = lazy(() => import('./pages/ReviseEpochPage'))
+const ProfilPage = lazy(() => import('./pages/ProfilPage'))
 const ChapterPage = lazy(() => import('./pages/ChapterPage'))
 const QuizPage = lazy(() => import('./pages/QuizPage'))
 const WarsPage = lazy(() => import('./pages/WarsPage'))
@@ -20,16 +20,18 @@ const NotFoundPage = lazy(() => import('./pages/NotFoundPage'))
 
 /**
  * Plan du site
- *   /                         Accueil (hub)
- *   /frise                    Frise des époques
+ *   /                         Aventure : le parcours (?monde=<époque>) — onglet par défaut (V3)
+ *   /atlas                    Atlas : ouvre la dernière vue (Frise ou Carte)
+ *   /profil                   Profil : niveau, série, titres, fils rouges
+ *   /frise                    Frise des époques (Atlas)
  *   /frise/:epochId           Une époque : continents et civilisations
  *   /frise/:epochId/:civId    Fiche d'une civilisation (?onglet=histoire|dirigeants|societe|guerres|carte)
  *   /fiche/:id                Fiche liée : personne, événement, découverte
  *   /carte                    Carte du monde (?annee=…&civ=…)
  *   /guerres                  Guerres, par époque (?epoque=…, ?guerre=<clé> ouvre l'aperçu)
  *   /recherche                Recherche globale (?q=…)
- *   /reviser                  Réviser : hub temporel des révisions
- *   /reviser/:epochId         Choix d'une civilisation (chapitre)
+ *   /reviser                  ancien hub « Réviser » → Aventure
+ *   /reviser/:epochId         ancien choix de chapitre → Aventure, monde de cette époque
  *   /reviser/:epochId/:civId  Chapitre : cartes à faire glisser (plein écran)
  *   /reviser/:epochId/:civId/quiz  Quiz du chapitre : 20 questions, note sur 20
  */
@@ -37,7 +39,10 @@ export default function App() {
   return (
     <Routes>
       <Route element={<AppShell />}>
-        <Route index element={<HomePage />} />
+        <Route index element={<AventurePage />} />
+        <Route path="aventure" element={<Navigate to="/" replace />} />
+        <Route path="atlas" element={<AtlasRedirect />} />
+        <Route path="profil" element={<Lazy><ProfilPage /></Lazy>} />
         <Route path="frise" element={<Lazy><TimelinePage /></Lazy>} />
         <Route path="frise/:epochId" element={<Lazy><EpochPage /></Lazy>} />
         <Route path="frise/:epochId/:civId" element={<Lazy><CivilizationPage /></Lazy>} />
@@ -46,14 +51,20 @@ export default function App() {
         <Route path="guerres" element={<Lazy><WarsPage /></Lazy>} />
         <Route path="guerres/:id" element={<Lazy><WarDossierPage /></Lazy>} />
         <Route path="recherche" element={<Lazy><SearchPage /></Lazy>} />
-        <Route path="reviser" element={<Lazy><RevisePage /></Lazy>} />
-        <Route path="reviser/:epochId" element={<Lazy><ReviseEpochPage /></Lazy>} />
+        <Route path="reviser" element={<Navigate to="/" replace />} />
+        <Route path="reviser/:epochId" element={<RedirectMonde />} />
         <Route path="reviser/:epochId/:civId" element={<Lazy><ChapterPage /></Lazy>} />
         <Route path="reviser/:epochId/:civId/quiz" element={<Lazy><QuizPage /></Lazy>} />
         <Route path="*" element={<Lazy><NotFoundPage /></Lazy>} />
       </Route>
     </Routes>
   )
+}
+
+/** Ancien lien #/reviser/<époque> → l'Aventure, sur le monde de cette époque. */
+function RedirectMonde() {
+  const { epochId } = useParams()
+  return <Navigate to={`/?monde=${epochId}`} replace />
 }
 
 function Lazy({ children }) {

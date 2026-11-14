@@ -10,7 +10,7 @@ export default function NotFoundPage({ title = 'Page introuvable', text = "Cette
       <h1 className="font-display text-2xl font-semibold text-ink">{title}</h1>
       <p className="text-muted mt-2">{text}</p>
       <div className="mt-8 flex justify-center gap-3">
-        <Link to="/" className="btn-secondary"><Icon name="home" size={18} /> Accueil</Link>
+        <Link to="/" className="btn-secondary"><Icon name="compass" size={18} /> Aventure</Link>
         <Link to="/frise" className="btn-primary">Voir la frise</Link>
       </div>
     </div>

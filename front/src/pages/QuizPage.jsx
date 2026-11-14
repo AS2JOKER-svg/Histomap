@@ -93,7 +93,7 @@ function Quiz({ refCiv }) {
 
       <div className="relative shrink-0 px-4 pt-[max(0.75rem,env(safe-area-inset-top))] pb-2 max-w-[600px] w-full mx-auto">
         <div className="flex items-center gap-3">
-          <button onClick={() => navigate(`/reviser/${epoch.id}`)} className="btn-icon -ml-2" aria-label="Quitter le quiz (il est gardé)" title="Quitter (le quiz est gardé)">
+          <button onClick={() => navigate(`/?monde=${epoch.id}`)} className="btn-icon -ml-2" aria-label="Quitter le quiz (il est gardé)" title="Quitter (le quiz est gardé)">
             <Icon name="close" />
           </button>
           <div className="min-w-0 flex-1 text-center">
@@ -219,7 +219,7 @@ function QuizResult({ refCiv, result, onRetry }) {
             <button onClick={onRetry} className="btn-secondary h-12 w-full">Refaire un quiz maintenant</button>
           </>
         )}
-        <Link to={`/reviser/${epoch.id}`} className="btn-ghost h-11 w-full">Retour aux chapitres</Link>
+        <Link to={`/?monde=${epoch.id}`} className="btn-ghost h-11 w-full">Retour à l’Aventure</Link>
       </div>
 
       {/* Erreurs à revoir */}

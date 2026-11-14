@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import { Link, NavLink, useLocation, useOutlet } from 'react-router-dom'
+import { Link, useLocation, useOutlet } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { useUI } from '../store/ui'
 import { haptic } from '../lib/haptics'
@@ -10,13 +10,17 @@ import RefSheet from '../components/RefSheet'
 import Toaster from '../components/Toaster'
 import AppBanner from '../components/app/AppBanner'
 
+// Barre à 4 onglets (V3, sprint 19). `match` : débuts d'adresse qui allument l'onglet.
 export const NAV = [
-  { to: '/',        label: 'Accueil', icon: 'home',     end: true },
-  { to: '/frise',   label: 'Frise',   icon: 'timeline' },
-  { to: '/carte',   label: 'Carte',   icon: 'globe' },
-  { to: '/guerres', label: 'Guerres', icon: 'swords' },
-  { to: '/reviser', label: 'Réviser', icon: 'cards' },
+  { to: '/',        label: 'Aventure', icon: 'compass', match: ['/aventure', '/reviser'], exact: '/' },
+  { to: '/atlas',   label: 'Atlas',    icon: 'atlas',   match: ['/atlas', '/frise', '/carte', '/fiche', '/recherche'] },
+  { to: '/guerres', label: 'Guerres',  icon: 'swords',  match: ['/guerres'] },
+  { to: '/profil',  label: 'Profil',   icon: 'user',    match: ['/profil'] },
 ]
+
+/** L'onglet est-il actif pour cette adresse ? */
+export const isNavActive = (item, pathname) =>
+  pathname === item.exact || item.match.some((m) => pathname === m || pathname.startsWith(m + '/'))
 
 /**
  * Coque de l'application :
@@ -43,7 +47,7 @@ export default function AppShell() {
 
       <header className="sticky top-0 z-30 glass border-b border-line/70">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center gap-3">
-          <Link to="/" className="flex items-center gap-2.5 rounded-xl" aria-label="HistoMap — accueil">
+          <Link to="/" className="flex items-center gap-2.5 rounded-xl" aria-label="HistoMap — Aventure">
             <span
               className="w-9 h-9 rounded-xl grid place-items-center text-white font-display font-bold text-lg shadow-soft"
               style={{ backgroundImage: 'linear-gradient(135deg, rgb(var(--c-accent)), rgb(var(--c-accent-2)))' }}
@@ -57,9 +61,10 @@ export default function AppShell() {
           </Link>
 
           <nav aria-label="Navigation principale" className="hidden md:flex items-center gap-1 mx-auto bg-surface2/70 p-1 rounded-2xl">
-            {NAV.map((item) => (
-              <NavLink key={item.to} to={item.to} end={item.end} className="relative">
-                {({ isActive }) => (
+            {NAV.map((item) => {
+              const isActive = isNavActive(item, pathname)
+              return (
+              <Link key={item.to} to={item.to} aria-current={isActive ? 'page' : undefined} className="relative">
                   <span
                     className={`relative z-10 flex items-center gap-2 px-4 h-9 rounded-xl text-sm font-medium transition-colors ${
                       isActive ? 'text-ink' : 'text-muted hover:text-ink'
@@ -75,9 +80,9 @@ export default function AppShell() {
                     <Icon name={item.icon} size={18} />
                     {item.label}
                   </span>
-                )}
-              </NavLink>
-            ))}
+              </Link>
+              )
+            })}
           </nav>
 
           <div className="ml-auto md:ml-0 flex items-center gap-1">
@@ -118,21 +123,23 @@ export default function AppShell() {
 }
 
 function MobileTabBar() {
+  const { pathname } = useLocation()
   return (
     <nav
       aria-label="Navigation principale"
       className="md:hidden fixed bottom-0 inset-x-0 z-30 glass border-t border-line/70 pb-safe"
     >
-      <ul className="grid grid-cols-5 h-[4.25rem] px-1">
-        {NAV.map((item) => (
+      <ul className="grid grid-cols-4 h-[4.25rem] px-1">
+        {NAV.map((item) => {
+          const isActive = isNavActive(item, pathname)
+          return (
           <li key={item.to}>
-            <NavLink
+            <Link
               to={item.to}
-              end={item.end}
+              aria-current={isActive ? 'page' : undefined}
               onClick={() => haptic('tap')}
               className="h-full flex flex-col items-center justify-center gap-1 text-[11px] font-medium"
             >
-              {({ isActive }) => (
                 <>
                   <span className={`relative grid place-items-center w-12 h-8 rounded-full transition-colors ${isActive ? 'text-accent' : 'text-muted'}`}>
                     {isActive && (
@@ -147,10 +154,10 @@ function MobileTabBar() {
                   </span>
                   <span className={isActive ? 'text-ink' : 'text-muted'}>{item.label}</span>
                 </>
-              )}
-            </NavLink>
+            </Link>
           </li>
-        ))}
+          )
+        })}
       </ul>
     </nav>
   )

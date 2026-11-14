@@ -4,17 +4,19 @@ import { getEpochs, countCivilizations } from '../lib/data'
 import { formatYear } from '../lib/time'
 import useDocumentTitle from '../lib/useDocumentTitle'
 import PageHeader from '../components/ui/PageHeader'
-import Breadcrumbs from '../components/ui/Breadcrumbs'
 import Icon from '../components/ui/Icon'
 import EpochRibbon from '../components/timeline/EpochRibbon'
+import AtlasSwitch, { rememberAtlasView } from '../components/AtlasSwitch'
+import { useEffect } from 'react'
 
 export default function TimelinePage() {
   useDocumentTitle('La frise')
   const epochs = getEpochs()
+  useEffect(() => rememberAtlasView('frise'), [])
 
   return (
     <section>
-      <Breadcrumbs items={[{ label: 'Accueil', to: '/' }, { label: 'Frise' }]} />
+      <AtlasSwitch current="frise" />
       <PageHeader
         eyebrow="La frise"
         title={`${epochs.length} époques, une seule flèche`}

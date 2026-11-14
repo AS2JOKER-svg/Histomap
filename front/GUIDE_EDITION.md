@@ -224,34 +224,35 @@ Pour ajouter des questions rédigées à la main, compléter le tableau `quiz` d
 - Le validateur signale un nom de territoire introuvable ou une guerre sans coordonnées.
 
 ### Écrire un dossier de guerre (`content/wars/<id>.json`)
-Modèle : `content/wars/seconde-guerre-mondiale.json` (prototype du sprint Guerres A). Page : `/guerres/<id>`.
+Modèles : `content/wars/seconde-guerre-mondiale.json` (Guerres A), puis `guerres-puniques`, `guerre-de-cent-ans`, `guerres-napoleoniennes`, `premiere-guerre-mondiale` (Guerres B). Page : `/guerres/<id>`.
 ```jsonc
 {
   "id": "…", "nom": "…", "debut": 1939, "fin": 1945, "dates": "1er septembre 1939 → 2 septembre 1945",
   "description": "en une phrase", "essentiel": ["5 points au plus"], "chiffres": [{ "valeur": "…", "label": "…" }],
-  "camps": [{ "id": "allies" | "axe", "nom": "…", "couleur": "#…", "description": "…", "membres": ["…"] }],
+  "camps": [{ "id": "rome", "nom": "…", "legende": "… et ses alliés (facultatif)", "couleur": "#…", "description": "…", "membres": ["…"] }],  // 2 camps ou plus, ids libres
   "carte": {
-    "annee": 1938,                          // une année de public/map/index.json
+    "annee": 1938,                          // une année de public/map/index.json (négative av. J.-C. : -300)
+    "occupant": "axe",                      // camp occupant, obligatoire si le statut « occupe » est utilisé
     "noms": { "Germany": "Allemagne" },      // nom français de chaque territoire coloré (bulle de la carte)
     "note": "…",                            // avertissement sous la carte
-    "statuts": { "Germany": "axe", "Poland": { "statut": "occupe", "note": "…" } }  // état de départ
+    "statuts": { "Germany": "axe", "Poland": { "statut": "occupe", "note": "…" } }  // état de départ (id d'un camp, « occupe » ou « neutre »)
   },
   "phases": [{ "id", "nom", "debut": "1939-09", "fin": "1940-03", "resume", "texte",
                "carte": { "cadre": [[lon, lat], [lon, lat]], "rotation": -150, "statuts": { /* seulement ce qui change */ } },
                "batailles": ["id"], "evenements": [{ "date": "1939-09-03", "texte": "…", "ref": "fiche-liée?" }] }],
   "batailles": [{ "id", "nom", "debut": "1942-08", "fin": "1943-02", "lieu", "coords": [lon, lat], "vainqueur": "allies", "resume", "ref": "événement?", "wikiUrl" }],
-  "personnages": [{ "nom", "camp": "allies" | "axe" | "autres", "role", "dates", "description", "ref": "personne?", "wikiUrl" }],
+  "personnages": [{ "nom", "camp": "<id d'un camp>" | "autres", "role", "dates", "description", "ref": "personne?", "wikiUrl" }],
   "sections": [{ "titre": "Les causes", "texte": "…" }],
   "quiz": [ /* format des quiz express : mcq (bonne réponse en 0), tf, order ; au moins 10 questions */ ],
   "guerresLiees": ["Nom exact d'une guerre de fiche|année"],   // ces guerres renvoient vers le dossier
   "sources": ["…"]
 }
 ```
-- **Statuts** : `axe`, `allies`, `occupe` (occupé par l'Axe), `neutre`. Ils s'accumulent de phase en phase ; un territoire sans statut
+- **Statuts** : l'id d'un camp, `occupe` (occupé par le camp `carte.occupant`), `neutre`. Ils s'accumulent de phase en phase ; un territoire sans statut
   prend celui de sa métropole (`SUBJECTO` des cartes : les colonies suivent leur pays), sinon `neutre`.
 - **Attention aux cartes** : un nom peut cacher plusieurs morceaux (sur la carte de 1938, « Denmark » = Islande et Groenland, le Danemark
   lui-même manque). Vérifier les territoires à colorer et le dire dans `note`.
-- Dates au format `AAAA-MM` (ou `AAAA-MM-JJ`). Les ids de questions ne doivent jamais être renommés (meilleur score mémorisé).
+- Dates au format `AAAA`, `AAAA-MM` ou `AAAA-MM-JJ`, négatives avant J.-C. (`-216-08-02`). Les ids de questions ne doivent jamais être renommés (meilleur score mémorisé).
 
 ---
 

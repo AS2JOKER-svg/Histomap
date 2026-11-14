@@ -79,5 +79,5 @@ Tout le code est dans `front/`. Commandes (depuis `front/`, ou depuis la racine 
   - Sprint 22 : célébrations et récompenses (animations, vibrations, coffres, titres, cosmétiques, image de résultat à partager).
   - Sprint 23 : Profil (stats, collections, titres, cartes à revoir) + onboarding interactif (fil rouge préféré, 3 questions, 1re récompense).
   - Sprint 24 : recette et équilibrage (mobile réel, accessibilité AA, hors-ligne, performance, barème XP).
-- Guerres B (extension : autres dossiers, remplacement des champs « guerres » des fiches et des points de la carte).
+- ✅ Guerres B : dossiers génériques (camps libres, statut « occupe » lié à `carte.occupant`, dates av. J.-C.) + 4 dossiers : guerres puniques (carte de −300), guerre de Cent Ans (1300), guerres napoléoniennes (1800), Première Guerre mondiale (1914) ; 13 guerres de fiches et leurs points de carte renvoient vers ces dossiers ; relecture factuelle séparée.
 - Play Store (TWA sur le domaine du studio, knightborn-studio.fr).

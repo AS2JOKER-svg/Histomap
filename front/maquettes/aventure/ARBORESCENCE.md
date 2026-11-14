@@ -4,7 +4,7 @@ Document à valider avant les maquettes haute fidélité (sprint 16).
 Direction visuelle retenue : **B — Musée vivant**, avec des récompenses plus éclatantes
 (maquettes de cadrage : https://claude.ai/artifact/Y3u2FvkWSjENsYDmDTM6kY).
 
-Les points marqués **[À VALIDER]** sont des propositions qui n'ont pas encore été tranchées.
+Validé le 14/11/2026 : tronc, rattachements des branches, déblocage bronze / argent. Les points encore marqués **[À VALIDER]** attendent une réponse.
 
 ---
 
@@ -67,8 +67,8 @@ On réutilise les chapitres existants, sans réécrire de contenu :
 
 **Tronc**
 
-- **[À VALIDER]** La salle suivante du tronc s'ouvre quand la salle en cours a l'**argent** (Découvrir + Approfondir faits). On avance sans être bloqué par une épreuve ratée.
-- **[À VALIDER]** Le monde suivant s'ouvre quand **toutes les salles du tronc** du monde ont l'**or**. Changer de monde demande de maîtriser le précédent.
+- La salle suivante du tronc s'ouvre dès que la salle en cours a le **bronze** (Découvrir fait). *(validé le 14/11/2026 : « il ne faut pas que ce soit trop dur »)*
+- Le monde suivant s'ouvre quand **toutes les salles du tronc** du monde ont l'**argent** (Découvrir + Approfondir). L'or (Épreuve) n'est jamais obligatoire pour avancer : il sert aux titres, aux coffres et aux étoiles.
 
 **Branches** (validé)
 
@@ -126,56 +126,143 @@ C'est toujours **une seule** proposition, choisie dans cet ordre :
 
 ---
 
-## 5. Gamification — barème proposé [À VALIDER, réglable au sprint 24]
+## 5. Gamification — XP, niveaux et récompenses [À VALIDER]
 
-### XP
+Les chiffres seront réglés au sprint 24, sur un vrai téléphone. Tout est local : pas de monnaie, pas d'achat, pas de tirage payant.
 
-| Action | XP |
-|---|---|
-| Découvrir terminé | 40 |
-| Approfondir terminé | 60 |
-| Question éclair juste | 5 |
-| Question d'Épreuve juste | 10, plus 5 par palier de combo (2e d'affilée : 15 … plafond 30 dès la 5e) |
-| Or obtenu (1re fois) | +50 |
-| Nouvelle étoile d'Épreuve | +25 par étoile gagnée |
-| Fiche lue pour la 1re fois dans l'Atlas | 5 |
-| Quiz express d'une fiche liée | 5 par bonne réponse (1re fois) |
-| Séance « À revoir » | 20 |
+### 5.1 Ce qui rapporte de l'XP
 
-Une civilisation complète rapporte environ 550 à 650 XP. Les 214 civilisations font environ 125 000 XP.
+| Action | 1re fois | Quand on la refait |
+|---|---|---|
+| Découvrir terminé | 40 | 10 |
+| Approfondir terminé | 60 | 10 |
+| Question éclair juste (Découvrir / Approfondir) | 5 | 0 |
+| Question d'Épreuve juste | 10, + 5 par palier de combo (2e d'affilée : 15 ; 3e : 20 ; 4e : 25 ; plafond 30 dès la 5e) | la moitié |
+| Or obtenu | +50 | — |
+| Nouvelle étoile d'Épreuve (★ 15, ★★ 17, ★★★ 19) | +25 par étoile | — |
+| Bonus du jour (1re étape terminée dans la journée) | +20 | chaque jour |
+| Fiche lue pour la 1re fois dans l'Atlas | 5 | 0 |
+| Quiz express d'une fiche liée | 5 par bonne réponse | 0 |
+| Séance « À revoir » | 20 | 20 (une par jour) |
+| Coffres | voir 5.5 | — |
 
-**Niveaux** : il faut 100 × n XP pour passer du niveau n au niveau n+1. Le niveau 10 arrive vers 4 500 XP (≈ 9 civilisations), le niveau 50 environ au bout de tout le contenu.
+Règles anti-abus :
 
-**Titres de niveau** :
+- refaire une étape rapporte peu ;
+- les bonus (or, étoiles, coffres) ne se gagnent qu'une fois.
 
-| Niveaux | Titre |
+Ordres de grandeur :
+
+- une civilisation complète, jusqu'à l'or, rapporte environ **600 XP** ;
+- une étape rapporte entre 50 et 400 XP ;
+- les 214 civilisations font environ **125 000 XP**.
+
+### 5.2 Les niveaux
+
+- Passer du niveau n au niveau n+1 coûte **100 × n XP** : 100 pour passer au niveau 2, 200 pour le 3, etc.
+- **Niveau maximum : 50**, atteint à peu près en terminant tout le contenu.
+
+| Niveau | XP totale | Rythme indicatif (≈ 1 étape par jour) |
+|---|---|---|
+| 2 | 100 | 1er jour (onboarding + 1re étape) |
+| 5 | 1 000 | ~1 semaine |
+| 10 | 4 500 | ~1 mois (≈ 8 civilisations) |
+| 15 | 10 500 | ~2 mois |
+| 20 | 19 000 | ~3 mois |
+| 25 | 30 000 | ~5 mois |
+| 30 | 43 500 | — |
+| 40 | 78 000 | — |
+| 50 | 122 500 | tout le contenu |
+
+Les premiers niveaux arrivent vite, pour donner une récompense presque à chaque séance au début. Ils ralentissent ensuite.
+
+### 5.3 Les rangs (titres de niveau)
+
+| Niveaux | Rang |
 |---|---|
 | 1-4 | Curieux |
 | 5-9 | Apprenti |
 | 10-14 | Explorateur |
 | 15-19 | Érudit |
 | 20-24 | Chroniqueur |
-| 25-34 | Historien |
-| 35 et + | Grand historien |
+| 25-29 | Historien |
+| 30-39 | Grand historien |
+| 40-49 | Sage |
+| 50 | Légende de l'Histoire |
 
-### Série et jokers
+### 5.4 Récompenses de niveau
+
+Chaque passage de niveau déclenche :
+
+- un écran de célébration (animation, vibration, son si activé) ;
+- une récompense.
+
+**Jusqu'au niveau 20, chaque niveau donne quelque chose.** Ensuite, une récompense tous les 5 niveaux, avec un petit coffre aux niveaux intermédiaires.
+
+Les récompenses sont toutes cosmétiques ou utiles, et visibles :
+
+- **Sceau** : le cachet qui entoure le monogramme du profil et de l'image de résultat partagée.
+- **Cadre** : la bordure de la carte de profil et de l'image partagée.
+- **Effet de célébration** : l'animation des écrans de récompense (poussière d'or, feux d'artifice, pluie d'étoiles…).
+- **Thème** : les couleurs de l'app, clair et sombre, contraste AA.
+- **Joker** : protège la série un jour manqué.
+- **Emplacement de joker** : on peut en garder un de plus en réserve (2 au départ).
+
+| Niveau | Récompense |
+|---|---|
+| 2 | 1 joker |
+| 3 | Sceau « Silex » |
+| 4 | Effet de célébration « Poussière d'or » |
+| **5** | **Rang Apprenti** + cadre Bronze |
+| 6 | Sceau « Amphore » |
+| 7 | 1 joker |
+| 8 | Effet « Pétales » |
+| 9 | Sceau « Lauriers » |
+| **10** | **Rang Explorateur** + cadre Argent + thème « Musée de nuit » (variante sombre de B) |
+| 11 | 1 joker |
+| 12 | Effet « Feux d'artifice » |
+| 13 | Sceau « Rose des vents » |
+| 14 | 1 joker |
+| **15** | **Rang Érudit** + 3e emplacement de joker |
+| 16 | Sceau « Plume et encrier » |
+| 17 | Effet « Étincelles » |
+| 18 | 1 joker |
+| 19 | Sceau « Astrolabe » |
+| **20** | **Rang Chroniqueur** + cadre Or + image de résultat « édition dorée » |
+| **25** | **Rang Historien** + thème « Pourpre impérial » |
+| **30** | **Rang Grand historien** + effet « Pluie d'étoiles » + cadre Lapis |
+| **35** | Sceau « Globe » + 4e emplacement de joker |
+| **40** | **Rang Sage** + thème « Or et ébène » |
+| **45** | Effet « Aurore » + cadre Ébène |
+| **50** | **Rang Légende de l'Histoire** + cadre animé + sceau « Couronne de lauriers d'or » |
+| Autres niveaux après 20 | Petit coffre de niveau (bonus d'XP ou joker) |
+
+Le Profil montre :
+
+- les récompenses déjà obtenues ;
+- **la prochaine récompense et le niveau où elle arrive** (« Niveau 12 : feux d'artifice »), pour donner envie de continuer.
+
+### 5.5 Série et jokers
 
 - Un jour compte dès qu'une étape est terminée (ou une séance « À revoir »).
-- On gagne 1 joker tous les 7 jours de série, 2 en réserve au maximum.
-- Un jour manqué consomme un joker automatiquement. La série n'est jamais punie autrement.
+- On gagne 1 joker tous les 7 jours de série, en plus de ceux des niveaux. On en garde 2 en réserve au départ, jusqu'à 4 avec les niveaux.
+- Un jour manqué consomme un joker automatiquement. Sans joker, la série repart à zéro, mais le **record** reste affiché.
+- Paliers de série, avec écran de célébration et petit coffre : 3, 7, 14, 30, 60, 100 et 365 jours.
 
-### Coffres
+### 5.6 Coffres
 
-Tout est local et calculé de façon reproductible, sans tirage d'argent ni achat.
+Le contenu est calculé de façon reproductible : même progression, même contenu.
 
 | Coffre | Quand | Contenu |
 |---|---|---|
-| Petit coffre | Or d'une civilisation | Bonus d'XP (25, 50 ou 100) ; parfois un joker |
-| Coffre de fil rouge | Toutes les civilisations d'une lignée en or | **Titre « Maître de … »** |
-| Grand coffre | Tout le tronc d'un monde en or | **Titre d'époque** + **thème** de couleurs |
-| Coffre de la semaine | Objectif d'XP de la semaine atteint | Bonus d'XP + 1 joker |
+| Petit coffre | Or d'une civilisation ; niveaux après 20 sans récompense ; paliers de série | Bonus d'XP (25, 50 ou 100) ; parfois un joker |
+| Coffre de fil rouge | Toutes les civilisations d'une lignée en or | **Titre « Maître de … »** + 150 XP |
+| Grand coffre | Tout le tronc d'un monde en **or** | **Titre d'époque** + **thème du monde** + 300 XP |
+| Coffre de la semaine | Objectif d'XP de la semaine atteint (300, 600 ou 1 000, au choix) | Bonus d'XP + 1 joker |
 
-### Titres (≈ 36, rares donc précieux)
+### 5.7 Titres de collection (≈ 37, rares donc précieux)
+
+Ils s'ajoutent aux rangs de niveau ; le joueur choisit le titre affiché dans son Profil.
 
 - **Époques** (5) :
   - Préhistoire : « Grand savant de la Préhistoire » ;
@@ -184,11 +271,11 @@ Tout est local et calculé de façon reproductible, sans tirage d'argent ni acha
   - Époque moderne : « … des Temps modernes » ;
   - Époque contemporaine : « … du monde contemporain ».
 - **Fils rouges** (31) : « Maître de … », un par lignée.
-  - Exemples : Maître de l'Égypte, Maître de la France, Maître de Rome et Byzance, Maître de la Chine, Maître du Japon, Maître de la Perse et de l'Iran, Maître des Ottomans et de la Turquie…
-  - **[À VALIDER]** Toutes les formulations seront relues pour rester neutres. Pas de « Conquérant de … ».
+  - Exemples : Maître de l'Égypte, Maître de la France, Maître de Rome et Byzance, Maître de la Chine…
+  - Formulations relues pour rester neutres : jamais « Conquérant de … ».
 - **Ultime** : « Historien universel » (les 214 civilisations en or).
 
-### Thèmes débloquables (cosmétiques)
+### 5.8 Thèmes de monde (cosmétiques)
 
 Un thème par monde terminé, qui recolore l'app dans les deux modes (clair et sombre) en restant AA :
 
@@ -220,7 +307,7 @@ Choix du tronc : les civilisations qu'un élève de 13 ans et plus doit connaît
 - Époque moderne : 12 ;
 - Époque contemporaine : 11.
 
-**[À VALIDER]** Tu peux échanger n'importe quelle salle avec une branche : le rattachement des branches se recalcule par script.
+Liste validée le 14/11/2026. Échanger une salle avec une branche reste possible : le rattachement se recalcule par script.
 
 ### Monde I — Préhistoire (5 salles, 5 branches)
 

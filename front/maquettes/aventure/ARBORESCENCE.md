@@ -2,7 +2,7 @@
 
 Document à valider avant les maquettes haute fidélité (sprint 16).
 Direction visuelle retenue : **B — Musée vivant**, avec des récompenses plus éclatantes
-(maquettes de cadrage : https://claude.ai/artifact/Y3u2FvkWSjENsYDmDTM6kY).
+(maquettes de cadrage : https://claude.ai/artifact/Y3u2FvkWSjENsYDmDTM6kY ; maquettes haute fidélité du sprint 16 : https://claude.ai/artifact/2bsMtSCmRDBTyYb8tG5rCU).
 
 Validé le 14/11/2026 : tronc, rattachements des branches, déblocage bronze / argent. Les points encore marqués **[À VALIDER]** attendent une réponse.
 

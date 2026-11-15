@@ -284,6 +284,9 @@ Modèles : `content/wars/seconde-guerre-mondiale.json` (Guerres A), puis `guerre
 | L'Aventure (onglet par défaut : parcours, étape du jour) | `src/pages/AventurePage.jsx` ; règles : `src/lib/aventure.js`, `src/lib/xp.js`, `src/lib/progression.js` |
 | Le Profil | `src/pages/ProfilPage.jsx` (séance « À revoir » : `src/pages/ARevoirPage.jsx`) |
 | Le premier lancement (bienvenue, fil rouge, 3 questions) | `src/pages/BienvenuePage.jsx` |
+| Les Défis (par lien, à deux, quiz infini) | `src/pages/DefisPage.jsx`, `DefiPage.jsx`, `DeuxJoueursPage.jsx`, `EntrainementPage.jsx` + `src/components/defi/` ; règles (graine, lien, choix des 10 questions) : `src/lib/defi.js` |
+| Les sons d'interface | `src/lib/sons.js` (déclenchés par `haptic()` : table `SON` de `src/lib/haptics.js`) |
+| La musique d'ambiance | `src/lib/musique.js` (`AMBIANCES`, choix par région : `ambianceDe`, dans une page : `useAmbiance(civId)`) + `src/store/audio.js` |
 | La bascule Frise / Carte de l'Atlas | `src/components/AtlasSwitch.jsx` |
 | La flèche des époques | `src/pages/TimelinePage.jsx` + `src/components/timeline/EpochRibbon.jsx` |
 | La frise d'une époque (toile, zoom, filtres) | `src/pages/EpochPage.jsx` + `src/components/timeline/EpochTimeline.jsx` |
@@ -318,9 +321,9 @@ Modèles : `content/wars/seconde-guerre-mondiale.json` (Guerres A), puis `guerre
 - **Couleurs** : utiliser les classes de thème (`text-ink`, `text-muted`, `bg-surface`, `bg-surface2`, `border-line`, `text-accent`…) plutôt que `bg-white` ou `text-gray-500`, sinon le mode sombre casse.
 - **Boutons** : classes prêtes à l'emploi `btn-primary`, `btn-secondary`, `btn-ghost`, `btn-icon` (zone tactile ≥ 44 px).
 - **`localStorage`** : toujours passer par `src/lib/storage.js` (protégé contre la navigation privée).
-- **Progression** : clé `histomap_progress` (version 2 depuis le quiz express). Si vous changez sa forme, incrémentez `VERSION` et complétez `migrate()` dans `store/progress.js`, sinon les utilisateurs perdent leur avancement.
+- **Progression** : clé `histomap_progress` (version 3 depuis l'Aventure). Si vous changez sa forme, incrémentez `VERSION` et complétez `migrate()` dans `store/progress.js`, sinon les utilisateurs perdent leur avancement.
 - **Couleur d'une civilisation en texte** : ne pas écrire `style={{ color: civ.color }}` (certaines couleurs, comme l'or de l'Égypte, sont illisibles sur fond blanc) mais `className="civ-text" style={civTextStyle(civ.color)}` ; pour un fond portant du texte blanc : `style={{ background: solidBg(civ.color) }}` (`src/lib/color.js`). Le contraste AA (4,5:1) est alors garanti dans les deux thèmes.
 - **Application installable / hors ligne** : `public/manifest.webmanifest` (nom, icônes, raccourcis), `sw/sw.js` (service worker, complété au build par le plugin de `vite.config.js`), `src/lib/pwa.js` + `src/store/app.js` (connexion, installation, mise à jour). Le service worker n'est actif qu'après `npm run build` (pas en `npm run dev`). Icônes : `public/icons/`.
-- **Vibrations** : `haptic('success')` depuis `src/lib/haptics.js`. Android uniquement (Safari iOS ne le permet pas).
+- **Vibrations et sons** : `haptic('success')` depuis `src/lib/haptics.js` : vibration (Android uniquement, Safari iOS ne le permet pas) + son court synthétisé (`src/lib/sons.js`, coupé si l'utilisateur l'a désactivé). `haptic('tap')` reste silencieux.
 - Frise d'une époque : `LANE_H`, `LANE_GAP`, `MIN_W`, `ZOOM_MAX` en tête de `EpochTimeline.jsx`. Les époques de plus de 20 000 ans passent automatiquement en échelle logarithmique (`LOG_THRESHOLD` dans `time.js`).
 - `trackId` : des civilisations successives d'une même piste (Ghana → Mali) restent sur la même ligne ; si elles se chevauchent nettement, elles sont séparées automatiquement.

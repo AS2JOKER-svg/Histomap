@@ -13,6 +13,8 @@ import useDocumentTitle from '../lib/useDocumentTitle'
 import { EPREUVE, MEDAILLE, estOuvert, etoiles } from '../lib/aventure'
 import { BAREME, gainReponse, niveau } from '../lib/xp'
 import { xpReponses } from '../lib/progression'
+import { useAmbiance } from '../lib/musique'
+import { definirCombo } from '../lib/sons'
 import { PARCOURS_AVENTURE as P, useProgress } from '../store/progress'
 import { useUI } from '../store/ui'
 import { useApresCelebrations, useEffet } from '../components/celebration/Celebrations'
@@ -39,6 +41,7 @@ export default function SallePage() {
   const ref = findCivilization(civId)
   const salles = useProgress((s) => s.aventure.salles)
   useDocumentTitle(ref ? `${ETAPE_LABEL[etape] ?? 'Salle'} · ${ref.civ.label}` : 'Salle introuvable')
+  useAmbiance(ref ? civId : null)
   if (!ref || !ETAPE_LABEL[etape]) return <NotFoundPage title="Salle introuvable" />
   // Étape pas encore accessible → le panneau de la salle explique pourquoi
   if (!etapeAccessible(salles, civId, etape)) return <Navigate to={`/?salle=${civId}`} replace />
@@ -128,6 +131,13 @@ function Etape({ refCiv, etape }) {
   }, [refCiv, etape]) // eslint-disable-line react-hooks/exhaustive-deps
   const [qi, setQi] = useState(0)
 
+  // Micro-rythme (sprint 25) : au-delà de 8 cartes, la 1re question éclair arrive au milieu du paquet
+  // (les autres restent à la fin) : on vérifie qu'on a lu avant de continuer.
+  const nbContenu = cards.filter((c) => c.type !== 'cover' && c.type !== 'recap').length
+  const milieu = nbContenu > 8 && questions.length > 1 ? Math.floor(cards.length / 2) : null
+  const [milieuFait, setMilieuFait] = useState(false)
+  const pauseMilieu = phase === 'cartes' && milieu !== null && pos >= milieu && !milieuFait && qi === 0
+
   const terminer = () => {
     const ev = finishChapter(civ.id, { eclairs: justes.filter(Boolean).length })
     haptic('complete')
@@ -145,14 +155,30 @@ function Etape({ refCiv, etape }) {
     <div className="fixed inset-0 z-50 bg-bg flex flex-col" role="dialog" aria-label={`${ETAPE_LABEL[etape]} : ${civ.label}`}>
       {phase !== 'fin' && (
         <Barre
-          titre={`${civ.label} · ${ETAPE_LABEL[etape]}${phase === 'questions' ? ` · question éclair ${qi + 1} / ${questions.length}` : cards.length ? ` · carte ${pos + 1} / ${cards.length}` : ''}`}
+          titre={`${civ.label} · ${ETAPE_LABEL[etape]}${pauseMilieu ? ' · question d’étape' : phase === 'questions' ? ` · question éclair ${qi + 1} / ${questions.length}` : cards.length ? ` · carte ${pos + 1} / ${cards.length}` : ''}`}
           onClose={fermer}
           segments={segments}
           xp={phase === 'questions' ? justes.filter(Boolean).length * 5 : undefined}
         />
       )}
       <div className="relative flex-1 min-h-0 flex flex-col px-4 pt-3 pb-[max(1rem,env(safe-area-inset-bottom))] overflow-y-auto">
-        {phase === 'cartes' && cards.length > 0 && (
+        {pauseMilieu && questions[0] && (
+          <AnimatePresence mode="wait">
+            <QuestionView
+              key={`milieu-${questions[0].id}`}
+              question={questions[0]}
+              index={0}
+              total={questions.length}
+              civ={civ}
+              onAnswer={(_, ok) => setJustes((j) => [...j, ok])}
+              onNext={() => {
+                setQi(1)
+                setMilieuFait(true)
+              }}
+            />
+          </AnimatePresence>
+        )}
+        {phase === 'cartes' && cards.length > 0 && !pauseMilieu && (
           <CardDeck
             cards={cards}
             pos={pos}
@@ -161,7 +187,7 @@ function Etape({ refCiv, etape }) {
             round={round}
             onAnswer={(verdict) => answerCard(civ.id, verdict)}
             onBack={() => previousCard(civ.id)}
-            onFinish={() => (questions.length ? setPhase('questions') : terminer())}
+            onFinish={() => (qi < questions.length ? setPhase('questions') : terminer())}
           />
         )}
         {phase === 'questions' && questions[qi] && (
@@ -280,6 +306,11 @@ function Epreuve({ refCiv }) {
   const dernier = justes.length && justes.at(-1) ? gainReponse(serie, { rejeu }) : 0
   const bonnes = justes.filter(Boolean).length
   const total = questions.length || EPREUVE.questions
+  // le son d'une bonne réponse monte avec le combo (lib/sons.js)
+  useEffect(() => {
+    definirCombo(serie)
+    return () => definirCombo(0)
+  }, [serie])
   // Si les 15/20 ne sont plus atteignables, l'épreuve sera ratée : on affiche l'XP réelle (2 par bonne réponse)
   const reussitePossible = bonnes + (total - justes.length) >= EPREUVE.reussite
   const xpAffiche = reussitePossible ? xp : BAREME.reponseEchec * bonnes
@@ -537,6 +568,7 @@ function Resultat({ refCiv, result, questions, answers, onRetry }) {
         <div className="mt-6 grid gap-2.5">
           <button onClick={() => faire(() => navigate('/'))} className="min-h-[54px] font-bold text-[16px]" style={{ background: '#e0c27a', color: '#2a2118' }}>Continuer le parcours</button>
           <button onClick={partager} className="min-h-[48px] font-semibold border" style={{ borderColor: '#a8791c' }}>Partager mon résultat</button>
+          <button onClick={() => faire(() => navigate(`/defi/${civ.id}`))} className="min-h-[48px] font-semibold border" style={{ borderColor: '#a8791c' }}>Défier un ami sur cette salle</button>
           {nb < 3 && <button onClick={() => faire(onRetry)} className="min-h-[44px] text-sm font-semibold" style={{ color: '#e0c27a' }}>Rejouer pour les étoiles</button>}
         </div>
       </div>

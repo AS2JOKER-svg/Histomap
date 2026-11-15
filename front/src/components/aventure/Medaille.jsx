@@ -7,7 +7,7 @@ export const MEDAILLES = [
   { court: 'Ag', nom: 'Argent', bg: '#d3cfc6' },
   { court: 'Or', nom: 'Or', bg: '#e0c27a' },
 ]
-export const ETAPE_LABEL = { decouvrir: 'Découvrir', approfondir: 'Approfondir', epreuve: 'Épreuve' }
+export const ETAPE_LABEL = { decouvrir: 'Découvrir', approfondir: 'Approfondir', epreuve: 'Épreuve', 'a-revoir': 'À revoir' }
 
 /** Pastille de médaille d'une salle ; sans médaille : cercle vide (ouverte) ou cadenas. */
 export default function Medaille({ medaille = 0, ouvert = true, taille = 32, className = '' }) {

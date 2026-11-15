@@ -6,6 +6,7 @@ import { useProgress } from '../store/progress'
 import { useUI } from '../store/ui'
 import { mapYears } from '../lib/revision'
 import BandeauAventure from '../components/aventure/BandeauAventure'
+import { useAmbiance } from '../lib/musique'
 import { formatYear, formatDuration } from '../lib/time'
 import { civTextStyle, shade, solidBg } from '../lib/color'
 import useDocumentTitle from '../lib/useDocumentTitle'
@@ -48,6 +49,7 @@ export default function CivilizationPage() {
   // En-tête : version légère (immédiate) ; onglets : détail chargé à la demande
   const detail = useCiv(civId)
   useDocumentTitle(found?.civ.label ?? 'Fiche introuvable')
+  useAmbiance(found ? civId : null)
   const readFiche = useProgress((s) => s.readFiche)
   const setLast = useProgress((s) => s.setLast)
   const views = useProgress((s) => s.fiches[civId]?.views ?? 0)

@@ -15,6 +15,10 @@ const MondesPage = lazy(() => import('./pages/MondesPage'))
 const SallePage = lazy(() => import('./pages/SallePage'))
 const BienvenuePage = lazy(() => import('./pages/BienvenuePage'))
 const ARevoirPage = lazy(() => import('./pages/ARevoirPage'))
+const DefisPage = lazy(() => import('./pages/DefisPage'))
+const DefiPage = lazy(() => import('./pages/DefiPage'))
+const DeuxJoueursPage = lazy(() => import('./pages/DeuxJoueursPage'))
+const EntrainementPage = lazy(() => import('./pages/EntrainementPage'))
 const WarsPage = lazy(() => import('./pages/WarsPage'))
 const WarDossierPage = lazy(() => import('./pages/WarDossierPage'))
 const SearchPage = lazy(() => import('./pages/SearchPage'))
@@ -27,6 +31,10 @@ const NotFoundPage = lazy(() => import('./pages/NotFoundPage'))
  *   /aventure/mondes          Les cinq mondes (avancement, titres, verrous)
  *   /aventure/a-revoir/:civId Séance « À revoir » d'une salle (cartes à revoir + questions ratées)
  *   /bienvenue                Premier lancement : fil rouge, 3 questions, première récompense
+ *   /defis                    Défis : par lien, à deux sur le même téléphone, quiz infini
+ *   /defi/:civId              Défi par lien (?g=graine&s=score&n=prénom : défi reçu)
+ *   /defis/a-deux             Défi à deux sur le même téléphone
+ *   /entrainement             Quiz infini (sans enjeu)
  *   /atlas                    Atlas : ouvre la dernière vue (Frise ou Carte)
  *   /profil                   Profil : niveau, série, titres, fils rouges
  *   /frise                    Frise des époques (Atlas)
@@ -52,6 +60,10 @@ export default function App() {
         <Route path="aventure/salle/:civId/:etape" element={<Lazy><SallePage /></Lazy>} />
         <Route path="aventure/a-revoir/:civId" element={<Lazy><ARevoirPage /></Lazy>} />
         <Route path="bienvenue" element={<Lazy><BienvenuePage /></Lazy>} />
+        <Route path="defis" element={<Lazy><DefisPage /></Lazy>} />
+        <Route path="defis/a-deux" element={<Lazy><DeuxJoueursPage /></Lazy>} />
+        <Route path="defi/:civId" element={<Lazy><DefiPage /></Lazy>} />
+        <Route path="entrainement" element={<Lazy><EntrainementPage /></Lazy>} />
         <Route path="atlas" element={<AtlasRedirect />} />
         <Route path="profil" element={<Lazy><ProfilPage /></Lazy>} />
         <Route path="frise" element={<Lazy><TimelinePage /></Lazy>} />

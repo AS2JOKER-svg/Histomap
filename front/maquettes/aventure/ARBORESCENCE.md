@@ -106,6 +106,7 @@ Une fiche de civilisation affiche un bandeau « Dans l'Aventure : Monde II, sall
 C'est toujours **une seule** proposition, choisie dans cet ordre :
 
 1. une étape commencée et pas finie ;
+1 bis. les erreurs à revoir d'une salle, une fois par jour, quand elle en compte au moins 5 ou que la plus ancienne date de 3 jours (sprint 25) ;
 2. l'étape suivante de la salle en cours du tronc, Épreuve comprise : on finit la boucle d'une salle avant de passer à la suivante, sauf si son épreuve vient d'être ratée (sprint 24) ;
 3. une Épreuve ratée à retenter ;
 4. une branche nouvellement ouverte.

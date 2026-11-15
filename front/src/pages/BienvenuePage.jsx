@@ -8,6 +8,7 @@ import { haptic } from '../lib/haptics'
 import useDocumentTitle from '../lib/useDocumentTitle'
 import { BAREME } from '../lib/xp'
 import { solidBg } from '../lib/color'
+import { useAmbiance } from '../lib/musique'
 import { PARCOURS_AVENTURE as P, useProgress } from '../store/progress'
 import QuestionView from '../components/quiz/QuestionView'
 import { Particules } from '../components/celebration/elements'
@@ -23,6 +24,7 @@ const PREMIERE_SALLE = P.mondes[0].tronc[0]
 
 export default function BienvenuePage() {
   useDocumentTitle('Bienvenue')
+  useAmbiance(PREMIERE_SALLE)
   const navigate = useNavigate()
   const dejaFait = useRef(useProgress.getState().aventure.onboarding).current
   const filActuel = useProgress((s) => s.aventure.filRouge)

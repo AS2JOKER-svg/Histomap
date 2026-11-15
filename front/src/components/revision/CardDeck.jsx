@@ -95,7 +95,7 @@ export default function CardDeck({ cards, pos, civ, epoch, round, onAnswer, onBa
             <button
               type="button"
               onClick={() => answer('ok')}
-              className="flex-1 sm:flex-none flex items-center justify-center gap-2 h-14 px-4 sm:pl-5 sm:pr-6 rounded-full bg-success text-white font-semibold whitespace-nowrap shadow-lift transition active:scale-95 hover:brightness-105"
+              className="flex-1 sm:flex-none flex items-center justify-center gap-2 h-14 px-4 sm:pl-5 sm:pr-6 rounded-full bg-success text-bg font-semibold whitespace-nowrap shadow-lift transition active:scale-95 hover:brightness-105"
             >
               <Icon name="check" size={20} strokeWidth={2.6} />
               Compris

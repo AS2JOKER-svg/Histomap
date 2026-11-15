@@ -44,7 +44,11 @@
       "evenement": "Premiers combats contre la France",
       "info": "Les troupes françaises rencontrent l’armée de Samory sur le Niger."
     },
-    { "annee": 1884, "evenement": "Almamy", "info": "Samory prend le titre religieux d’almamy, chef des croyants." },
+    {
+      "annee": 1884,
+      "evenement": "Samory prend le titre d’almamy",
+      "info": "Samory prend le titre religieux d’almamy, chef des croyants."
+    },
     {
       "annee": 1887,
       "evenement": "Traité de Bissandougou",

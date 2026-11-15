@@ -44,10 +44,10 @@
     },
     {
       "annee": 1198,
-      "evenement": "Hilandar",
+      "evenement": "Fondation du monastère de Hilandar",
       "info": "Nemanja, devenu moine, et son fils Sava fondent le monastère de Hilandar au mont Athos."
     },
-    { "annee": 1217, "evenement": "Royaume", "info": "Étienne Nemanjić est couronné roi." },
+    { "annee": 1217, "evenement": "Couronnement d’Étienne Nemanjić", "info": "Étienne Nemanjić est couronné roi." },
     {
       "annee": 1219,
       "evenement": "Église serbe",
@@ -55,13 +55,13 @@
     },
     {
       "annee": 1346,
-      "evenement": "Empire",
+      "evenement": "Dušan couronné empereur",
       "info": "Étienne Dušan se fait couronner empereur des Serbes et des Grecs."
     },
     { "annee": 1349, "evenement": "Code de Dušan", "info": "Un code de lois est adopté pour tout l’empire." },
     {
       "annee": 1389,
-      "evenement": "Kosovo",
+      "evenement": "Bataille de Kosovo Polje",
       "info": "Bataille contre les Ottomans ; le prince Lazar et le sultan Murad Ier y meurent.",
       "ref": "bataille-de-kosovo"
     },

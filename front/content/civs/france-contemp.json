@@ -15,18 +15,18 @@
   "datesCles": [
     {
       "annee": 1789,
-      "evenement": "La Révolution",
+      "evenement": "Révolution française",
       "info": "Prise de la Bastille le 14 juillet, abolition des privilèges et Déclaration des droits de l’homme et du citoyen.",
       "ref": "prise-de-la-bastille"
     },
     {
       "annee": 1792,
-      "evenement": "La République",
+      "evenement": "Proclamation de la Première République",
       "info": "La monarchie est abolie ; Louis XVI est guillotiné en 1793."
     },
     {
       "annee": 1804,
-      "evenement": "L’Empire",
+      "evenement": "Naissance du Premier Empire",
       "info": "Napoléon Bonaparte se fait sacrer empereur et publie le Code civil."
     },
     {

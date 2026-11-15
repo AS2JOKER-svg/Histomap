@@ -37,7 +37,7 @@
   "datesCles": [
     {
       "annee": 1782,
-      "evenement": "Bangkok",
+      "evenement": "Fondation de Bangkok",
       "info": "Rama Ier fonde la dynastie Chakri et fait de Bangkok sa capitale."
     },
     {
@@ -45,26 +45,30 @@
       "evenement": "Traité Bowring",
       "info": "Traité de commerce avec le Royaume-Uni, qui ouvre le pays aux Européens."
     },
-    { "annee": 1868, "evenement": "Chulalongkorn", "info": "Début du règne du grand roi réformateur." },
+    { "annee": 1868, "evenement": "Avènement de Chulalongkorn", "info": "Début du règne du grand roi réformateur." },
     {
       "annee": 1893,
       "evenement": "Crise franco-siamoise",
       "info": "Le Siam cède à la France les territoires à l’est du Mékong."
     },
     { "annee": 1905, "evenement": "Fin de l’esclavage", "info": "Chulalongkorn achève l’abolition de l’esclavage." },
-    { "annee": 1932, "evenement": "Révolution", "info": "Fin de la monarchie absolue." },
-    { "annee": 1939, "evenement": "Thaïlande", "info": "Le Siam prend le nom de Thaïlande." },
+    { "annee": 1932, "evenement": "Fin de la monarchie absolue", "info": "Fin de la monarchie absolue." },
+    { "annee": 1939, "evenement": "Le Siam devient la Thaïlande", "info": "Le Siam prend le nom de Thaïlande." },
     {
       "annee": 1946,
-      "evenement": "Bhumibol",
+      "evenement": "Avènement de Bhumibol",
       "info": "Début du règne de Bhumibol Adulyadej (Rama IX), qui dure 70 ans."
     },
     {
       "annee": 1967,
-      "evenement": "ASEAN",
+      "evenement": "Fondation de l’ASEAN",
       "info": "L’Association des nations de l’Asie du Sud-Est est fondée à Bangkok."
     },
-    { "annee": 2004, "evenement": "Tsunami", "info": "Un tsunami frappe les côtes de la mer d’Andaman." },
+    {
+      "annee": 2004,
+      "evenement": "Tsunami de la mer d’Andaman",
+      "info": "Un tsunami frappe les côtes de la mer d’Andaman."
+    },
     { "annee": 2014, "evenement": "Coup d’État", "info": "L’armée prend le pouvoir." }
   ],
   "periodes": [

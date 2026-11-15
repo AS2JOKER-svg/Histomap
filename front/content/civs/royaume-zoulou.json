@@ -49,16 +49,16 @@
     },
     {
       "annee": 1879,
-      "evenement": "Isandhlwana",
+      "evenement": "Bataille d’Isandhlwana",
       "info": "L’armée zouloue écrase une colonne britannique.",
       "ref": "bataille-d-isandhlwana"
     },
     {
       "annee": 1879,
-      "evenement": "Ulundi",
+      "evenement": "Bataille d’Ulundi",
       "info": "Les Britanniques détruisent la capitale ; Cetshwayo est capturé."
     },
-    { "annee": 1887, "evenement": "Annexion", "info": "Le Royaume-Uni annexe le Zoulouland." },
+    { "annee": 1887, "evenement": "Annexion du Zoulouland", "info": "Le Royaume-Uni annexe le Zoulouland." },
     {
       "annee": 1897,
       "evenement": "Rattachement au Natal",

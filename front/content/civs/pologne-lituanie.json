@@ -23,7 +23,11 @@
       "evenement": "Confédération de Varsovie",
       "info": "La noblesse garantit la paix entre les religions."
     },
-    { "annee": 1655, "evenement": "Le Déluge", "info": "Suédois et Russes envahissent le pays, qui est ravagé." },
+    {
+      "annee": 1655,
+      "evenement": "Invasions du « Déluge »",
+      "info": "Suédois et Russes envahissent le pays, qui est ravagé."
+    },
     {
       "annee": 1683,
       "evenement": "Bataille de Vienne",
@@ -44,7 +48,7 @@
     },
     {
       "annee": 1795,
-      "evenement": "Disparition",
+      "evenement": "Troisième partage",
       "info": "Troisième partage : la Pologne disparaît de la carte de l’Europe pour 123 ans."
     }
   ],

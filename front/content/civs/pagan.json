@@ -42,13 +42,13 @@
   "datesCles": [
     {
       "annee": 849,
-      "evenement": "Fondation",
+      "evenement": "Remparts de Pagan, selon la tradition",
       "info": "Date traditionnelle de la construction des remparts de Pagan."
     },
-    { "annee": 1044, "evenement": "Anawrahta", "info": "Début du règne du roi qui unifie la Birmanie." },
+    { "annee": 1044, "evenement": "Avènement d’Anawrahta", "info": "Début du règne du roi qui unifie la Birmanie." },
     {
       "annee": 1057,
-      "evenement": "Thaton",
+      "evenement": "Conquête de Thaton, selon les chroniques",
       "info": "Selon les chroniques, Anawrahta conquiert le royaume môn de Thaton et en ramène moines et textes bouddhistes."
     },
     {
@@ -61,11 +61,15 @@
       "evenement": "Stèle de Myazedi",
       "info": "Une inscription est gravée en quatre langues : pyu, môn, birman ancien et pali."
     },
-    { "annee": 1277, "evenement": "Ngasaunggyan", "info": "L’armée de Pagan est battue par les Mongols." },
+    {
+      "annee": 1277,
+      "evenement": "Bataille de Ngasaunggyan",
+      "info": "L’armée de Pagan est battue par les Mongols."
+    },
     { "annee": 1287, "evenement": "Invasion mongole", "info": "Les Mongols envahissent le royaume, qui s’effondre." },
     {
       "annee": 1297,
-      "evenement": "Fin",
+      "evenement": "Renversement du dernier roi",
       "info": "Le dernier roi, Kyawswa, est renversé par trois frères, chefs militaires."
     }
   ],

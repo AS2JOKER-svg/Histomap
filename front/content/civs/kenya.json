@@ -38,23 +38,27 @@
   "datesCles": [
     {
       "annee": 1895,
-      "evenement": "Protectorat",
+      "evenement": "Protectorat de l’Afrique de l’Est",
       "info": "Le Royaume-Uni crée le protectorat de l’Afrique de l’Est."
     },
-    { "annee": 1899, "evenement": "Nairobi", "info": "Fondation de Nairobi, étape du chemin de fer." },
+    { "annee": 1899, "evenement": "Fondation de Nairobi", "info": "Fondation de Nairobi, étape du chemin de fer." },
     { "annee": 1920, "evenement": "Colonie du Kenya", "info": "Le territoire devient la colonie du Kenya." },
     {
       "annee": 1952,
       "evenement": "Révolte des Mau Mau",
       "info": "Les autorités britanniques proclament l’état d’urgence."
     },
-    { "annee": 1963, "evenement": "Indépendance", "info": "Le 12 décembre, le Kenya devient indépendant." },
+    { "annee": 1963, "evenement": "Indépendance du Kenya", "info": "Le 12 décembre, le Kenya devient indépendant." },
     {
       "annee": 1978,
       "evenement": "Daniel arap Moi",
       "info": "À la mort de Kenyatta, Daniel arap Moi devient président."
     },
-    { "annee": 1991, "evenement": "Multipartisme", "info": "Les partis d’opposition sont de nouveau autorisés." },
+    {
+      "annee": 1991,
+      "evenement": "Retour du multipartisme",
+      "info": "Les partis d’opposition sont de nouveau autorisés."
+    },
     { "annee": 2004, "evenement": "Prix Nobel", "info": "Wangari Maathai reçoit le prix Nobel de la paix." },
     {
       "annee": 2007,
@@ -63,7 +67,7 @@
     },
     {
       "annee": 2010,
-      "evenement": "Constitution",
+      "evenement": "Nouvelle Constitution kényane",
       "info": "Les Kényans adoptent une nouvelle Constitution par référendum."
     }
   ],

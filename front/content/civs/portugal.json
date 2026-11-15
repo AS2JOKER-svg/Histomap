@@ -45,20 +45,32 @@
       "evenement": "Royaume de Portugal",
       "info": "Alphonse Henriques se proclame roi après la bataille d’Ourique."
     },
-    { "annee": 1147, "evenement": "Lisbonne", "info": "Avec l’aide de croisés, les Portugais prennent Lisbonne." },
+    {
+      "annee": 1147,
+      "evenement": "Prise de Lisbonne",
+      "info": "Avec l’aide de croisés, les Portugais prennent Lisbonne."
+    },
     {
       "annee": 1385,
-      "evenement": "Aljubarrota",
+      "evenement": "Bataille d’Aljubarrota",
       "info": "Jean Ier bat les Castillans et assure l’indépendance du royaume."
     },
-    { "annee": 1415, "evenement": "Ceuta", "info": "La prise de Ceuta, au Maroc, ouvre l’expansion portugaise." },
+    {
+      "annee": 1415,
+      "evenement": "Prise de Ceuta",
+      "info": "La prise de Ceuta, au Maroc, ouvre l’expansion portugaise."
+    },
     {
       "annee": 1488,
       "evenement": "Cap de Bonne-Espérance",
       "info": "Bartolomeu Dias contourne la pointe sud de l’Afrique."
     },
     { "annee": 1498, "evenement": "Vasco de Gama", "info": "Vasco de Gama atteint Calicut, en Inde, par la mer." },
-    { "annee": 1500, "evenement": "Brésil", "info": "Pedro Álvares Cabral aborde la côte du Brésil." },
+    {
+      "annee": 1500,
+      "evenement": "Arrivée de Cabral au Brésil",
+      "info": "Pedro Álvares Cabral aborde la côte du Brésil."
+    },
     {
       "annee": 1580,
       "evenement": "Union ibérique",
@@ -66,7 +78,7 @@
     },
     {
       "annee": 1640,
-      "evenement": "Restauration",
+      "evenement": "Restauration de l’indépendance",
       "info": "Une révolte rend l’indépendance au Portugal sous la dynastie de Bragance."
     },
     {

@@ -41,7 +41,11 @@
   ],
   "datesCles": [
     { "annee": 1363, "evenement": "Philippe le Hardi", "info": "Le roi Jean II donne la Bourgogne à son fils." },
-    { "annee": 1384, "evenement": "La Flandre", "info": "Philippe le Hardi hérite de la Flandre par sa femme." },
+    {
+      "annee": 1384,
+      "evenement": "Héritage de la Flandre",
+      "info": "Philippe le Hardi hérite de la Flandre par sa femme."
+    },
     {
       "annee": 1407,
       "evenement": "Assassinat de Louis d’Orléans",
@@ -49,7 +53,7 @@
     },
     {
       "annee": 1419,
-      "evenement": "Montereau",
+      "evenement": "Assassinat de Montereau",
       "info": "Jean sans Peur est assassiné à son tour ; son fils s’allie aux Anglais."
     },
     {
@@ -65,7 +69,7 @@
     },
     {
       "annee": 1477,
-      "evenement": "Nancy",
+      "evenement": "Bataille de Nancy",
       "info": "Charles le Téméraire est tué devant Nancy ; sa fille Marie épouse Maximilien de Habsbourg."
     }
   ],

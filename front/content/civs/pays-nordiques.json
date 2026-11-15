@@ -64,7 +64,7 @@
     { "annee": 1939, "evenement": "Guerre d’Hiver", "info": "L’URSS attaque la Finlande." },
     {
       "annee": 1940,
-      "evenement": "Occupation",
+      "evenement": "Invasion du Danemark et de la Norvège",
       "info": "Le 9 avril, l’Allemagne envahit le Danemark et la Norvège."
     },
     { "annee": 1944, "evenement": "Indépendance de l’Islande", "info": "L’Islande devient une république." },

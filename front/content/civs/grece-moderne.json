@@ -38,7 +38,7 @@
   "datesCles": [
     {
       "annee": 1821,
-      "evenement": "Soulèvement",
+      "evenement": "Soulèvement pour l’indépendance",
       "info": "Début de la guerre d’indépendance, célébré le 25 mars, jour de la fête nationale.",
       "ref": "guerre-d-independance-grecque"
     },
@@ -49,7 +49,7 @@
     },
     {
       "annee": 1830,
-      "evenement": "Indépendance",
+      "evenement": "Indépendance de la Grèce",
       "info": "Les grandes puissances reconnaissent l’indépendance de la Grèce."
     },
     {
@@ -67,7 +67,11 @@
       "evenement": "Échange de populations",
       "info": "Le traité de Lausanne organise l’échange des populations entre la Grèce et la Turquie."
     },
-    { "annee": 1941, "evenement": "Occupation", "info": "L’Allemagne, l’Italie et la Bulgarie occupent la Grèce." },
+    {
+      "annee": 1941,
+      "evenement": "Occupation de la Grèce",
+      "info": "L’Allemagne, l’Italie et la Bulgarie occupent la Grèce."
+    },
     {
       "annee": 1967,
       "evenement": "Coup d’État des colonels",

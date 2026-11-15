@@ -41,11 +41,15 @@
   "datesCles": [
     {
       "annee": -57,
-      "evenement": "Silla",
+      "evenement": "Fondation de Silla, selon la tradition",
       "info": "Date traditionnelle de la fondation de Silla ; Koguryo et Paekche suivent quelques années plus tard, selon les chroniques."
     },
-    { "annee": 391, "evenement": "Gwanggaeto", "info": "Début du règne du grand conquérant de Koguryo." },
-    { "annee": 427, "evenement": "Pyongyang", "info": "Koguryo installe sa capitale à Pyongyang." },
+    {
+      "annee": 391,
+      "evenement": "Avènement de Gwanggaeto",
+      "info": "Début du règne du grand conquérant de Koguryo."
+    },
+    { "annee": 427, "evenement": "Capitale à Pyongyang", "info": "Koguryo installe sa capitale à Pyongyang." },
     { "annee": 527, "evenement": "Silla bouddhiste", "info": "Silla adopte officiellement le bouddhisme." },
     {
       "annee": 612,

@@ -45,11 +45,15 @@
       "evenement": "Merv et Nichapour",
       "info": "Les frères Tughril et Chaghri prennent les grandes villes du Khorassan."
     },
-    { "annee": 1040, "evenement": "Dandanakan", "info": "Les Seldjoukides écrasent l’armée des Ghaznévides." },
+    {
+      "annee": 1040,
+      "evenement": "Bataille de Dandanakan",
+      "info": "Les Seldjoukides écrasent l’armée des Ghaznévides."
+    },
     { "annee": 1055, "evenement": "Tughril à Bagdad", "info": "Le calife abbasside reconnaît Tughril comme sultan." },
     {
       "annee": 1071,
-      "evenement": "Manzikert",
+      "evenement": "Bataille de Manzikert",
       "info": "Alp Arslan bat et capture l’empereur Romain IV Diogène.",
       "ref": "bataille-de-manzikert"
     },
@@ -65,12 +69,12 @@
     },
     {
       "annee": 1097,
-      "evenement": "Dorylée",
+      "evenement": "Bataille de Dorylée",
       "info": "Les armées de la première croisade battent le sultan de Roum en Anatolie."
     },
     {
       "annee": 1141,
-      "evenement": "Qatwan",
+      "evenement": "Bataille de Qatwan",
       "info": "Le sultan Sanjar est écrasé par les Qara Khitai, venus de l’est."
     },
     {

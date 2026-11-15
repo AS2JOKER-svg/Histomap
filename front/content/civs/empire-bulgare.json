@@ -43,15 +43,23 @@
     "En 1185, une révolte fonde un second Empire bulgare autour de Tarnovo ; il est conquis par les Ottomans entre 1393 et 1396."
   ],
   "datesCles": [
-    { "annee": 681, "evenement": "Fondation", "info": "Byzance reconnaît l’État bulgare au sud du Danube." },
+    {
+      "annee": 681,
+      "evenement": "Reconnaissance de l’État bulgare",
+      "info": "Byzance reconnaît l’État bulgare au sud du Danube."
+    },
     {
       "annee": 811,
-      "evenement": "Pliska",
+      "evenement": "Bataille de Pliska",
       "info": "Le khan Kroum bat l’armée byzantine ; l’empereur Nicéphore Ier est tué."
     },
-    { "annee": 864, "evenement": "Baptême", "info": "Boris Ier se convertit au christianisme orthodoxe." },
+    {
+      "annee": 864,
+      "evenement": "Baptême de Boris Ier",
+      "info": "Boris Ier se convertit au christianisme orthodoxe."
+    },
     { "annee": 893, "evenement": "Siméon Ier", "info": "Début du règne qui marque l’âge d’or de la Bulgarie." },
-    { "annee": 1014, "evenement": "Kleidion", "info": "L’empereur Basile II écrase l’armée bulgare." },
+    { "annee": 1014, "evenement": "Bataille de Kleidion", "info": "L’empereur Basile II écrase l’armée bulgare." },
     { "annee": 1018, "evenement": "Conquête byzantine", "info": "La Bulgarie devient une province byzantine." },
     {
       "annee": 1185,
@@ -60,7 +68,7 @@
     },
     {
       "annee": 1205,
-      "evenement": "Andrinople",
+      "evenement": "Bataille d’Andrinople",
       "info": "Le tsar Kaloyan bat et capture l’empereur latin de Constantinople."
     },
     {

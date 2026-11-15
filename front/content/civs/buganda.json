@@ -43,11 +43,15 @@
     "Protectorat britannique en 1894, le Buganda est le cœur de l’Ouganda indépendant (1962) ; en 1966, le gouvernement attaque le palais et abolit la monarchie, rétablie en 1993."
   ],
   "datesCles": [
-    { "annee": 1300, "evenement": "Kintu", "info": "Selon la tradition, au XIVe siècle, Kintu fonde le royaume." },
+    {
+      "annee": 1300,
+      "evenement": "Fondation par Kintu, selon la tradition",
+      "info": "Selon la tradition, au XIVe siècle, Kintu fonde le royaume."
+    },
     { "annee": 1856, "evenement": "Mutesa Ier", "info": "Le kabaka le plus célèbre monte sur le trône." },
     {
       "annee": 1875,
-      "evenement": "Stanley",
+      "evenement": "Visite de Stanley",
       "info": "L’explorateur Henry Morton Stanley est reçu à la cour et appelle des missionnaires."
     },
     {
@@ -56,7 +60,11 @@
       "info": "Des pages chrétiens du roi sont brûlés vifs à Namugongo.",
       "ref": "martyrs-de-l-ouganda"
     },
-    { "annee": 1894, "evenement": "Protectorat", "info": "Le Royaume-Uni établit un protectorat sur le Buganda." },
+    {
+      "annee": 1894,
+      "evenement": "Protectorat britannique",
+      "info": "Le Royaume-Uni établit un protectorat sur le Buganda."
+    },
     {
       "annee": 1900,
       "evenement": "Accord de 1900",

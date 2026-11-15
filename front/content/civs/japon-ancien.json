@@ -49,7 +49,7 @@
     },
     {
       "annee": 538,
-      "evenement": "Le bouddhisme",
+      "evenement": "Introduction du bouddhisme, selon une tradition",
       "info": "Selon une tradition, le roi de Paekche envoie à Yamato des statues et des textes bouddhistes (une autre tradition donne 552)."
     },
     {
@@ -69,21 +69,25 @@
     },
     {
       "annee": 663,
-      "evenement": "Baekgang",
+      "evenement": "Bataille de Baekgang",
       "info": "La flotte japonaise venue aider Paekche est détruite par Silla et les Tang."
     },
     {
       "annee": 710,
-      "evenement": "Nara",
+      "evenement": "Capitale à Nara",
       "info": "La capitale s’installe à Heijō-kyō (Nara), bâtie sur le plan de Chang’an."
     },
     {
       "annee": 712,
-      "evenement": "Kojiki",
+      "evenement": "Rédaction du Kojiki",
       "info": "Achèvement du « Récit des choses anciennes », la plus ancienne chronique japonaise conservée."
     },
     { "annee": 752, "evenement": "Grand Bouddha", "info": "Inauguration de la statue géante du Tōdai-ji." },
-    { "annee": 794, "evenement": "Heian", "info": "L’empereur Kanmu installe la capitale à Heian-kyō (Kyoto)." }
+    {
+      "annee": 794,
+      "evenement": "Capitale à Heian-kyō",
+      "info": "L’empereur Kanmu installe la capitale à Heian-kyō (Kyoto)."
+    }
   ],
   "periodes": [
     {

@@ -47,7 +47,11 @@
       "info": "Une flotte française et espagnole attaque le port de Đà Nẵng."
     },
     { "annee": 1862, "evenement": "Traité de Saïgon", "info": "L’empereur cède à la France trois provinces du Sud." },
-    { "annee": 1884, "evenement": "Protectorat", "info": "L’Annam et le Tonkin passent sous protectorat français." },
+    {
+      "annee": 1884,
+      "evenement": "Protectorat français",
+      "info": "L’Annam et le Tonkin passent sous protectorat français."
+    },
     { "annee": 1887, "evenement": "Indochine française", "info": "Création de l’Union indochinoise." },
     { "annee": 1930, "evenement": "Parti communiste", "info": "Hô Chi Minh fonde le Parti communiste indochinois." },
     {
@@ -63,7 +67,11 @@
     },
     { "annee": 1968, "evenement": "Offensive du Têt", "info": "Les communistes attaquent les villes du Sud." },
     { "annee": 1975, "evenement": "Chute de Saïgon", "info": "Le 30 avril, les chars du Nord entrent dans Saïgon." },
-    { "annee": 1976, "evenement": "Réunification", "info": "Naissance de la République socialiste du Viêt Nam." },
+    {
+      "annee": 1976,
+      "evenement": "Réunification du Viêt Nam",
+      "info": "Naissance de la République socialiste du Viêt Nam."
+    },
     { "annee": 1986, "evenement": "Đổi Mới", "info": "Le Parti communiste ouvre l’économie au marché." }
   ],
   "periodes": [

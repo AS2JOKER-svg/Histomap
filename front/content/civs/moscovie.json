@@ -54,7 +54,12 @@
       "evenement": "Ivan Kalita grand-prince",
       "info": "Le khan lui accorde le titre de grand-prince et la collecte du tribut."
     },
-    { "annee": 1380, "evenement": "Koulikovo", "info": "Dmitri Donskoï bat Mamaï.", "ref": "bataille-de-koulikovo" },
+    {
+      "annee": 1380,
+      "evenement": "Bataille de Koulikovo",
+      "info": "Dmitri Donskoï bat Mamaï.",
+      "ref": "bataille-de-koulikovo"
+    },
     {
       "annee": 1448,
       "evenement": "Une Église indépendante",

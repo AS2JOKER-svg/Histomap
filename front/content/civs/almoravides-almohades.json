@@ -55,12 +55,12 @@
     },
     {
       "annee": 1076,
-      "evenement": "Le Ghana",
+      "evenement": "Prise de la capitale du Ghana (épisode débattu)",
       "info": "Selon des sources arabes plus tardives, les Almoravides prennent la capitale du Ghana ; l’épisode est débattu."
     },
     {
       "annee": 1086,
-      "evenement": "Zallaqa",
+      "evenement": "Bataille de Zallaqa",
       "info": "Youssef ibn Tachfine bat le roi de Castille Alphonse VI.",
       "ref": "bataille-de-zallaqa"
     },
@@ -74,7 +74,7 @@
       "evenement": "Prise de Marrakech",
       "info": "Les Almohades d’Abd al-Mumin prennent la capitale almoravide."
     },
-    { "annee": 1195, "evenement": "Alarcos", "info": "Yaqub al-Mansur écrase l’armée de Castille." },
+    { "annee": 1195, "evenement": "Bataille d’Alarcos", "info": "Yaqub al-Mansur écrase l’armée de Castille." },
     {
       "annee": 1212,
       "evenement": "Las Navas de Tolosa",

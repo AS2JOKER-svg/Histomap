@@ -39,7 +39,7 @@
   "datesCles": [
     {
       "annee": 1200,
-      "evenement": "Arrivée",
+      "evenement": "Arrivée des Polynésiens",
       "info": "Entre 1150 et 1280 environ, des Polynésiens s’installent sur l’île ; selon la tradition, ils sont menés par le chef Hotu Matuꞌa."
     },
     {
@@ -54,7 +54,7 @@
     },
     {
       "annee": 1722,
-      "evenement": "Roggeveen",
+      "evenement": "Arrivée de Jacob Roggeveen",
       "info": "Le jour de Pâques, le navigateur hollandais Jacob Roggeveen aborde l’île, qu’il nomme île de Pâques."
     },
     { "annee": 1774, "evenement": "James Cook", "info": "Cook observe que de nombreux moaï ont été renversés." },
@@ -71,7 +71,7 @@
     },
     {
       "annee": 1888,
-      "evenement": "Annexion",
+      "evenement": "Annexion par le Chili",
       "info": "Le Chili annexe l’île par un accord avec le chef Atamu Tekena."
     }
   ],

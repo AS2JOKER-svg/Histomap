@@ -23,7 +23,11 @@
       "evenement": "Inscription de Kedukan Bukit",
       "info": "Elle relate une expédition de 20 000 soldats menée par le souverain. Les serments de fidélité sont connus par d’autres inscriptions (Telaga Batu, Kota Kapur en 686)."
     },
-    { "annee": 825, "evenement": "Borobudur", "info": "Les Sailendra achèvent à Java le grand monument bouddhiste." },
+    {
+      "annee": 825,
+      "evenement": "Achèvement de Borobudur",
+      "info": "Les Sailendra achèvent à Java le grand monument bouddhiste."
+    },
     {
       "annee": 1025,
       "evenement": "Le raid indien",

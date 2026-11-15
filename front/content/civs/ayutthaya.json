@@ -36,27 +36,35 @@
     "En 1767, l’armée birmane prend et détruit Ayutthaya ; le général Taksin reconstitue le royaume, dont la capitale deviendra Bangkok."
   ],
   "datesCles": [
-    { "annee": 1351, "evenement": "Fondation", "info": "Ramathibodi Ier fonde Ayutthaya." },
+    { "annee": 1351, "evenement": "Fondation d’Ayutthaya", "info": "Ramathibodi Ier fonde Ayutthaya." },
     {
       "annee": 1431,
-      "evenement": "Angkor",
+      "evenement": "Prise d’Angkor",
       "info": "Les armées d’Ayutthaya prennent Angkor ; la cour khmère part vers le sud.",
       "ref": "abandon-d-angkor"
     },
-    { "annee": 1438, "evenement": "Sukhothai", "info": "Le royaume de Sukhothai est rattaché à Ayutthaya." },
+    {
+      "annee": 1438,
+      "evenement": "Annexion de Sukhothai",
+      "info": "Le royaume de Sukhothai est rattaché à Ayutthaya."
+    },
     {
       "annee": 1569,
       "evenement": "Défaite face à la Birmanie",
       "info": "L’armée birmane du roi Bayinnaung prend Ayutthaya, qui devient vassale."
     },
-    { "annee": 1584, "evenement": "Indépendance", "info": "Le prince Naresuan proclame l’indépendance du Siam." },
+    {
+      "annee": 1584,
+      "evenement": "Indépendance du Siam",
+      "info": "Le prince Naresuan proclame l’indépendance du Siam."
+    },
     {
       "annee": 1686,
       "evenement": "Ambassade en France",
       "info": "Une ambassade siamoise est reçue par Louis XIV à Versailles.",
       "ref": "ambassade-du-siam-en-france"
     },
-    { "annee": 1767, "evenement": "Chute", "info": "L’armée birmane prend et détruit Ayutthaya." }
+    { "annee": 1767, "evenement": "Chute d’Ayutthaya", "info": "L’armée birmane prend et détruit Ayutthaya." }
   ],
   "periodes": [
     {

@@ -78,7 +78,11 @@
       "info": "Israël proclame son indépendance ; environ 700 000 Palestiniens deviennent des réfugiés.",
       "ref": "guerre-de-1948"
     },
-    { "annee": 1964, "evenement": "OLP", "info": "Création de l’Organisation de libération de la Palestine." },
+    {
+      "annee": 1964,
+      "evenement": "Création de l’OLP",
+      "info": "Création de l’Organisation de libération de la Palestine."
+    },
     {
       "annee": 1967,
       "evenement": "Guerre des Six Jours",
@@ -101,7 +105,11 @@
       "info": "Le Premier ministre israélien est tué par un extrémiste juif israélien."
     },
     { "annee": 2000, "evenement": "Seconde intifada", "info": "Nouveau soulèvement, beaucoup plus meurtrier." },
-    { "annee": 2007, "evenement": "Gaza", "info": "Le Hamas prend le contrôle de la bande de Gaza." }
+    {
+      "annee": 2007,
+      "evenement": "Le Hamas prend le contrôle de Gaza",
+      "info": "Le Hamas prend le contrôle de la bande de Gaza."
+    }
   ],
   "periodes": [
     {

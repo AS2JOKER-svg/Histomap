@@ -16,17 +16,17 @@
   "datesCles": [
     {
       "annee": 600,
-      "evenement": "L’expansion",
+      "evenement": "Expansion de Huari",
       "info": "Huari étend son influence vers le nord, la côte et le sud du Pérou."
     },
     {
       "annee": 700,
-      "evenement": "Standardisation",
+      "evenement": "Centres administratifs et terrasses agricoles",
       "info": "Huari bâtit des centres administratifs et développe les terrasses agricoles ; elle diffuse peut-être une langue ancêtre de l’aymara, selon une hypothèse."
     },
     {
       "annee": 1000,
-      "evenement": "Fragmentation",
+      "evenement": "Fragmentation de Huari",
       "info": "La capitale est abandonnée vers l’an 1000 ; les causes (sécheresse, révoltes, crise politique) sont discutées."
     }
   ],

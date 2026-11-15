@@ -40,7 +40,11 @@
     "Tamerlan ravage le pays à plusieurs reprises (1386-1403) ; affaibli, le royaume se divise en trois en 1490."
   ],
   "datesCles": [
-    { "annee": 1008, "evenement": "Unification", "info": "Bagrat III devient roi de toute la Géorgie." },
+    {
+      "annee": 1008,
+      "evenement": "Unification de la Géorgie",
+      "info": "Bagrat III devient roi de toute la Géorgie."
+    },
     {
       "annee": 1089,
       "evenement": "David IV",
@@ -48,7 +52,7 @@
     },
     {
       "annee": 1121,
-      "evenement": "Didgori",
+      "evenement": "Bataille de Didgori",
       "info": "David IV écrase une grande armée seldjoukide.",
       "ref": "bataille-de-didgori"
     },
@@ -70,12 +74,12 @@
     { "annee": 1314, "evenement": "Georges V le Brillant", "info": "Il chasse les Mongols et réunifie le royaume." },
     {
       "annee": 1386,
-      "evenement": "Tamerlan",
+      "evenement": "Invasions de Tamerlan",
       "info": "Tamerlan prend Tbilissi ; il revient plusieurs fois jusqu’en 1403."
     },
     {
       "annee": 1490,
-      "evenement": "Partage",
+      "evenement": "Partage du royaume de Géorgie",
       "info": "Le royaume se divise en royaumes de Kartli, de Kakhétie et d’Iméréthie."
     }
   ],

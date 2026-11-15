@@ -36,7 +36,7 @@
     "En 1989, des élections en partie libres ouvrent la voie à la démocratie ; la Pologne entre dans l’OTAN (1999) puis dans l’Union européenne (2004)."
   ],
   "datesCles": [
-    { "annee": 1918, "evenement": "Indépendance", "info": "Le 11 novembre, la Pologne renaît." },
+    { "annee": 1918, "evenement": "Indépendance de la Pologne", "info": "Le 11 novembre, la Pologne renaît." },
     {
       "annee": 1920,
       "evenement": "Bataille de Varsovie",
@@ -44,7 +44,7 @@
     },
     {
       "annee": 1939,
-      "evenement": "Invasion",
+      "evenement": "Invasion de la Pologne",
       "info": "L’Allemagne attaque le 1er septembre, l’URSS le 17 septembre."
     },
     {
@@ -60,7 +60,7 @@
     { "annee": 1978, "evenement": "Jean-Paul II", "info": "Le cardinal polonais Karol Wojtyła est élu pape." },
     {
       "annee": 1980,
-      "evenement": "Solidarność",
+      "evenement": "Naissance de Solidarność",
       "info": "Les grèves des chantiers navals de Gdańsk donnent naissance au syndicat libre Solidarność.",
       "ref": "solidarnosc"
     },

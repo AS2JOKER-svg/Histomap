@@ -53,18 +53,18 @@
     },
     {
       "annee": 1077,
-      "evenement": "Canossa",
+      "evenement": "Pénitence de Canossa",
       "info": "L’empereur Henri IV s’humilie devant le pape Grégoire VII.",
       "ref": "penitence-de-canossa"
     },
     {
       "annee": 1309,
-      "evenement": "Avignon",
+      "evenement": "Installation des papes à Avignon",
       "info": "Les papes s’installent à Avignon pour près de soixante-dix ans."
     },
     {
       "annee": 1506,
-      "evenement": "Saint-Pierre",
+      "evenement": "Reconstruction de Saint-Pierre",
       "info": "Jules II lance la reconstruction de la basilique Saint-Pierre et crée la Garde suisse."
     },
     { "annee": 1527, "evenement": "Sac de Rome", "info": "Les troupes de l’empereur Charles Quint pillent Rome." },

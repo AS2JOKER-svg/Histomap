@@ -44,10 +44,10 @@
       "evenement": "Jacques Cartier",
       "info": "Cartier plante une croix à Gaspé et prend possession du territoire au nom du roi."
     },
-    { "annee": 1608, "evenement": "Québec", "info": "Samuel de Champlain fonde Québec." },
+    { "annee": 1608, "evenement": "Fondation de Québec", "info": "Samuel de Champlain fonde Québec." },
     {
       "annee": 1642,
-      "evenement": "Montréal",
+      "evenement": "Fondation de Ville-Marie",
       "info": "Paul de Chomedey de Maisonneuve et Jeanne Mance fondent Ville-Marie, la future Montréal."
     },
     {
@@ -55,7 +55,11 @@
       "evenement": "Colonie royale",
       "info": "Louis XIV prend directement en main la colonie ; les « filles du roi » viennent s’y établir."
     },
-    { "annee": 1682, "evenement": "Louisiane", "info": "Cavelier de La Salle atteint l’embouchure du Mississippi." },
+    {
+      "annee": 1682,
+      "evenement": "La Salle à l’embouchure du Mississippi",
+      "info": "Cavelier de La Salle atteint l’embouchure du Mississippi."
+    },
     {
       "annee": 1701,
       "evenement": "Grande Paix de Montréal",

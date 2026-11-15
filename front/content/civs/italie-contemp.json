@@ -21,7 +21,7 @@
     },
     {
       "annee": 1861,
-      "evenement": "Le Risorgimento",
+      "evenement": "Proclamation du royaume d’Italie",
       "info": "Grâce à Cavour et Garibaldi, le royaume d’Italie est proclamé. L’unification reste incomplète : la Vénétie est rattachée en 1866 et Rome en 1870."
     },
     {
@@ -42,7 +42,7 @@
     },
     {
       "annee": 1946,
-      "evenement": "La République",
+      "evenement": "Naissance de la République italienne",
       "info": "Par référendum, les Italiens abolissent la monarchie.",
       "ref": "referendum-de-1946"
     },

@@ -47,7 +47,7 @@
     },
     {
       "annee": 1848,
-      "evenement": "Départements",
+      "evenement": "Division en départements français",
       "info": "Le nord de l’Algérie est divisé en départements français."
     },
     { "annee": 1870, "evenement": "Décret Crémieux", "info": "Les Juifs d’Algérie deviennent citoyens français." },
@@ -62,7 +62,11 @@
       "info": "Le 1er novembre, le FLN déclenche l’insurrection.",
       "ref": "guerre-d-algerie"
     },
-    { "annee": 1962, "evenement": "Indépendance", "info": "Accords d’Évian en mars ; indépendance le 5 juillet." },
+    {
+      "annee": 1962,
+      "evenement": "Indépendance de l’Algérie",
+      "info": "Accords d’Évian en mars ; indépendance le 5 juillet."
+    },
     { "annee": 1965, "evenement": "Coup d’État", "info": "Houari Boumédiène renverse Ahmed Ben Bella." },
     {
       "annee": 1988,
@@ -76,7 +80,7 @@
     },
     {
       "annee": 2019,
-      "evenement": "Hirak",
+      "evenement": "Mouvement du Hirak",
       "info": "Des manifestations pacifiques poussent le président Bouteflika à la démission."
     }
   ],

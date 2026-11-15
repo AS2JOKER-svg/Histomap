@@ -58,7 +58,7 @@
     },
     {
       "annee": -69,
-      "evenement": "Tigranocerte",
+      "evenement": "Prise de Tigranocerte",
       "info": "Le général romain Lucullus bat Tigrane et prend sa nouvelle capitale."
     },
     {
@@ -77,7 +77,7 @@
       "info": "Selon la tradition, Tiridate III adopte le christianisme comme religion officielle.",
       "ref": "conversion-de-l-armenie-au-christianisme"
     },
-    { "annee": 387, "evenement": "Partage", "info": "Rome et la Perse se partagent l’Arménie." },
+    { "annee": 387, "evenement": "Partage de l’Arménie", "info": "Rome et la Perse se partagent l’Arménie." },
     {
       "annee": 405,
       "evenement": "L’alphabet arménien",

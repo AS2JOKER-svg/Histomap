@@ -49,7 +49,7 @@
     },
     {
       "annee": 1236,
-      "evenement": "Razia",
+      "evenement": "Règne de la sultane Razia",
       "info": "Razia devient sultane ; elle est renversée par des nobles quatre ans plus tard."
     },
     {
@@ -59,7 +59,7 @@
     },
     {
       "annee": 1327,
-      "evenement": "Daulatabad",
+      "evenement": "Capitale à Daulatabad",
       "info": "Muhammad ibn Tughluq transfère la capitale dans le Dekkan, puis revient à Delhi quelques années plus tard."
     },
     {
@@ -69,7 +69,7 @@
     },
     {
       "annee": 1398,
-      "evenement": "Tamerlan",
+      "evenement": "Sac de Delhi par Tamerlan",
       "info": "Le conquérant turco-mongol bat l’armée du sultan et pille Delhi."
     },
     {
@@ -79,7 +79,7 @@
     },
     {
       "annee": 1526,
-      "evenement": "Panipat",
+      "evenement": "Première bataille de Panipat",
       "info": "Babur bat Ibrahim Lodi, qui est tué au combat.",
       "ref": "premiere-bataille-de-panipat"
     }

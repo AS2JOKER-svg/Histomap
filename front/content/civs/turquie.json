@@ -20,7 +20,7 @@
     },
     {
       "annee": 1839,
-      "evenement": "Le Tanzimat",
+      "evenement": "Réformes du Tanzimat",
       "info": "Un édit lance de grandes réformes et proclame l’égalité de tous les sujets de l’empire.",
       "ref": "tanzimat"
     },
@@ -37,7 +37,7 @@
     },
     {
       "annee": 1923,
-      "evenement": "La République",
+      "evenement": "Proclamation de la République turque",
       "info": "Après sa victoire, Mustafa Kemal obtient le traité de Lausanne et proclame la République turque.",
       "ref": "traite-de-lausanne"
     },

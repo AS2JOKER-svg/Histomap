@@ -43,7 +43,11 @@
     "Au XIXe siècle, après des guerres civiles, Tāufaʻāhau unifie l’archipel et devient le roi [[george-tupou-ier|George Tupou Ier]] ; le dernier Tuʻi Tonga meurt en 1865."
   ],
   "datesCles": [
-    { "annee": 950, "evenement": "Ahoʻeitu", "info": "Selon la tradition, le premier Tuʻi Tonga commence à régner." },
+    {
+      "annee": 950,
+      "evenement": "Premier Tuʻi Tonga, selon la tradition",
+      "info": "Selon la tradition, le premier Tuʻi Tonga commence à régner."
+    },
     {
       "annee": 1200,
       "evenement": "Haʻamonga ʻa Maui",
@@ -67,7 +71,7 @@
     },
     {
       "annee": 1845,
-      "evenement": "Unification",
+      "evenement": "Unification par George Tupou Ier",
       "info": "Tāufaʻāhau devient roi de tout l’archipel sous le nom de George Tupou Ier."
     },
     {

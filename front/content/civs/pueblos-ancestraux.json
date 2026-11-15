@@ -61,7 +61,11 @@
       "evenement": "Apogée de Chaco",
       "info": "Chaco est relié par des routes à des dizaines de villages et importe turquoise, aras et cacao."
     },
-    { "annee": 1130, "evenement": "Sécheresse", "info": "Une longue sécheresse commence ; Chaco Canyon décline." },
+    {
+      "annee": 1130,
+      "evenement": "Grande sécheresse",
+      "info": "Une longue sécheresse commence ; Chaco Canyon décline."
+    },
     {
       "annee": 1190,
       "evenement": "Mesa Verde",
@@ -74,7 +78,7 @@
     },
     {
       "annee": 1300,
-      "evenement": "Migrations",
+      "evenement": "Départ des Four Corners",
       "info": "Vers 1300, les habitants quittent la région des Four Corners pour le sud et l’est."
     }
   ],

@@ -64,12 +64,12 @@
     },
     {
       "annee": 1804,
-      "evenement": "Indépendance",
+      "evenement": "Indépendance d’Haïti",
       "info": "Le 1er janvier, Dessalines proclame l’indépendance d’Haïti."
     },
     {
       "annee": 1825,
-      "evenement": "Indemnité",
+      "evenement": "Indemnité exigée par la France",
       "info": "La France reconnaît l’indépendance contre une indemnité de 150 millions de francs."
     },
     {
@@ -77,13 +77,21 @@
       "evenement": "Occupation américaine",
       "info": "Les Marines débarquent ; ils restent jusqu’en 1934."
     },
-    { "annee": 1957, "evenement": "Duvalier", "info": "François Duvalier est élu, puis instaure une dictature." },
+    {
+      "annee": 1957,
+      "evenement": "Élection de François Duvalier",
+      "info": "François Duvalier est élu, puis instaure une dictature."
+    },
     {
       "annee": 1986,
       "evenement": "Fin des Duvalier",
       "info": "Jean-Claude Duvalier s’enfuit après un soulèvement populaire."
     },
-    { "annee": 2010, "evenement": "Séisme", "info": "Un tremblement de terre dévaste Port-au-Prince." }
+    {
+      "annee": 2010,
+      "evenement": "Séisme de Port-au-Prince",
+      "info": "Un tremblement de terre dévaste Port-au-Prince."
+    }
   ],
   "periodes": [
     {

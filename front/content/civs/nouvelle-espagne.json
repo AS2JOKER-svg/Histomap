@@ -50,15 +50,19 @@
     },
     {
       "annee": 1535,
-      "evenement": "Vice-royauté",
+      "evenement": "Premier vice-roi de Nouvelle-Espagne",
       "info": "Antonio de Mendoza devient le premier vice-roi de la Nouvelle-Espagne."
     },
     {
       "annee": 1539,
-      "evenement": "L’imprimerie",
+      "evenement": "Première imprimerie des Amériques",
       "info": "La première imprimerie des Amériques s’installe à Mexico."
     },
-    { "annee": 1546, "evenement": "Zacatecas", "info": "Découverte des grandes mines d’argent de Zacatecas." },
+    {
+      "annee": 1546,
+      "evenement": "Découverte des mines de Zacatecas",
+      "info": "Découverte des grandes mines d’argent de Zacatecas."
+    },
     {
       "annee": 1565,
       "evenement": "Galion de Manille",
@@ -77,7 +81,7 @@
     },
     {
       "annee": 1821,
-      "evenement": "Indépendance",
+      "evenement": "Indépendance du Mexique",
       "info": "Par le traité de Córdoba, l’Espagne reconnaît l’indépendance du Mexique."
     }
   ],

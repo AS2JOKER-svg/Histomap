@@ -40,7 +40,11 @@
     "En 840, les Kirghiz détruisent leur capitale ; les Ouïghours migrent vers le Gansu et les oasis du Tarim, où ils fondent de nouveaux royaumes."
   ],
   "datesCles": [
-    { "annee": 744, "evenement": "Fondation", "info": "Kutlug Bilge Köl renverse le dernier khagan des Göktürks." },
+    {
+      "annee": 744,
+      "evenement": "Fondation du khaganat ouïghour",
+      "info": "Kutlug Bilge Köl renverse le dernier khagan des Göktürks."
+    },
     {
       "annee": 757,
       "evenement": "Au secours des Tang",

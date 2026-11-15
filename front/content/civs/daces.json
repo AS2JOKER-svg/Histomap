@@ -34,11 +34,11 @@
     "La Dacie devient une province romaine ; la colonne Trajane, à Rome, raconte ces guerres en images."
   ],
   "datesCles": [
-    { "annee": -82, "evenement": "Burebista", "info": "Burebista devient roi et unifie les Daces." },
+    { "annee": -82, "evenement": "Unification par Burebista", "info": "Burebista devient roi et unifie les Daces." },
     { "annee": -44, "evenement": "Mort de Burebista", "info": "Burebista est assassiné ; son royaume se divise." },
     {
       "annee": 87,
-      "evenement": "Décébale",
+      "evenement": "Avènement de Décébale",
       "info": "Décébale devient roi et combat les armées de l’empereur Domitien."
     },
     {
@@ -46,7 +46,7 @@
       "evenement": "Paix avec Rome",
       "info": "Domitien accorde à Décébale de l’argent et des ingénieurs en échange de la paix."
     },
-    { "annee": 101, "evenement": "Trajan", "info": "L’empereur Trajan envahit la Dacie." },
+    { "annee": 101, "evenement": "Invasion de Trajan", "info": "L’empereur Trajan envahit la Dacie." },
     {
       "annee": 106,
       "evenement": "Chute de Sarmizegetusa",

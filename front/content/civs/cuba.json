@@ -39,7 +39,7 @@
     "Soumise à un embargo américain depuis 1962, l’île traverse une grave crise après la disparition de l’URSS ; plus d’un million de Cubains ont émigré depuis 1959, surtout vers les États-Unis."
   ],
   "datesCles": [
-    { "annee": 1902, "evenement": "Indépendance", "info": "Le 20 mai, la république de Cuba est proclamée." },
+    { "annee": 1902, "evenement": "Indépendance de Cuba", "info": "Le 20 mai, la république de Cuba est proclamée." },
     {
       "annee": 1933,
       "evenement": "Révolte des sergents",
@@ -48,12 +48,12 @@
     { "annee": 1952, "evenement": "Coup d’État", "info": "Batista prend le pouvoir et instaure une dictature." },
     {
       "annee": 1953,
-      "evenement": "Moncada",
+      "evenement": "Attaque de la Moncada",
       "info": "Le 26 juillet, Fidel Castro attaque sans succès la caserne de la Moncada."
     },
     {
       "annee": 1959,
-      "evenement": "Révolution",
+      "evenement": "Révolution cubaine",
       "info": "Le 1er janvier, Batista s’enfuit ; les révolutionnaires prennent le pouvoir."
     },
     { "annee": 1961, "evenement": "Baie des Cochons", "info": "Un débarquement d’exilés soutenu par la CIA échoue." },
@@ -70,7 +70,7 @@
     },
     {
       "annee": 2015,
-      "evenement": "Rapprochement",
+      "evenement": "Rapprochement avec les États-Unis",
       "info": "Cuba et les États-Unis rétablissent leurs relations diplomatiques."
     }
   ],

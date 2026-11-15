@@ -55,7 +55,7 @@
     },
     {
       "annee": 1490,
-      "evenement": "Chocontá",
+      "evenement": "Bataille de Chocontá",
       "info": "Vers 1490, le zipa et le zaque meurent tous deux lors d’une bataille."
     },
     {
@@ -63,8 +63,12 @@
       "evenement": "Les Espagnols",
       "info": "Les troupes de Gonzalo Jiménez de Quesada arrivent sur les hauts plateaux."
     },
-    { "annee": 1538, "evenement": "Bogotá", "info": "Fondation de Santa Fe de Bogotá." },
-    { "annee": 1540, "evenement": "Fin", "info": "Le dernier zaque, Aquiminzaque, est exécuté par les Espagnols." }
+    { "annee": 1538, "evenement": "Fondation de Santa Fe de Bogotá", "info": "Fondation de Santa Fe de Bogotá." },
+    {
+      "annee": 1540,
+      "evenement": "Exécution du dernier zaque",
+      "info": "Le dernier zaque, Aquiminzaque, est exécuté par les Espagnols."
+    }
   ],
   "periodes": [
     {

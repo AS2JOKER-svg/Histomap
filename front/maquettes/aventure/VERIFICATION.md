@@ -36,7 +36,7 @@ Comparaison entre ce qui a été demandé au départ (analyse produit du 13/11, 
 | Célébrations : animations, vibrations, récap partageable | ✅ | Sprint 22. Vibrations et partage natif **à vérifier sur un vrai téléphone** |
 | Série sans punir | ✅ | Jokers (gagnés tous les 7 jours et aux niveaux), record conservé |
 | Design chaleureux « musée » | ✅ | Direction B, clair et « Musée de nuit » |
-| Fiches condensées et respirantes | ⚠️ | Non retravaillées dans la V3 : la fiche à 6 onglets (décision du 19/10) est conservée, seul son bouton devient le bandeau « Dans l'Aventure ». |
+| Fiches condensées et respirantes | ✅ | Écarté par décision (15/11/2026) : l'Atlas est l'espace « pour aller plus loin », les fiches gardent un maximum d'informations (6 onglets). Seul leur bouton devient le bandeau « Dans l'Aventure ». |
 | Sessions de 2 à 4 minutes | ✅ | Découvrir et Approfondir ≈ 3 min, Épreuve ≈ 5 min |
 | Onboarding interactif de 30 s, mini-quiz de 3 questions, 1re récompense | ✅ | `#/bienvenue`. Adapté à ta décision : on choisit un fil rouge, et tout le monde commence à la Préhistoire |
 
@@ -99,6 +99,6 @@ Comparaison entre ce qui a été demandé au départ (analyse produit du 13/11, 
 
 1. **Sur un vrai téléphone Android** : vibrations, partage natif de l'image, fluidité des animations, installation de l'app. Je n'ai pu tester que dans un navigateur automatisé.
 2. **L'écran de réussite d'épreuve** (rayons, médaille, coffre) n'a pas été vu en recette automatique, car il faut répondre juste. Il est vérifié par rendu hors navigateur seulement.
-3. **Leurres faibles dans certaines questions générées** : défaut préexistant. Par exemple, des noms de personnes servent de leurres à « quel événement est décrit ici ? ». C'est un chantier de contenu, hors V3.
-4. **Révision espacée** et **refonte des fiches** : non faites (voir § 1). À décider pour la suite.
+3. **Questions générées à partir des dates clés** (pas les 3 613 questions rédigées à la main) : 350 des 1 546 titres de dates clés tiennent en un seul mot (« Indépendance » ×17, « Fondation » ×16, « Fin » ×8…), ce qui donne des réponses ou des leurres faibles, voire ambigus. Correctif proposé : filtrer ces titres dans le générateur et donner la priorité aux questions rédigées.
+4. **Révision espacée** : non faite (voir § 1). Les fiches restent détaillées, par décision du 15/11/2026.
 5. **Niveau 50** : atteint vers 80 % du contenu total. C'est voulu (il reste des annexes à finir pour les titres), mais réglable.

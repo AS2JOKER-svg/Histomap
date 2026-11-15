@@ -4,7 +4,8 @@ import { getCivilization, regionLabel, useCiv } from '../lib/data'
 import { haptic } from '../lib/haptics'
 import { useProgress } from '../store/progress'
 import { useUI } from '../store/ui'
-import { chapterSize, mapYears } from '../lib/revision'
+import { mapYears } from '../lib/revision'
+import BandeauAventure from '../components/aventure/BandeauAventure'
 import { formatYear, formatDuration } from '../lib/time'
 import { civTextStyle, shade, solidBg } from '../lib/color'
 import useDocumentTitle from '../lib/useDocumentTitle'
@@ -79,7 +80,6 @@ export default function CivilizationPage() {
     if (top < 64) window.scrollBy({ top: top - 64 })
   }
   const region = regionLabel(civ.region)
-  const size = chapterSize(found)
 
   return (
     <article
@@ -143,12 +143,9 @@ export default function CivilizationPage() {
         )}
       </div>
 
-      {/* Une seule action principale : réviser cette civilisation */}
+      {/* Une seule action principale : sa salle dans l'Aventure (remplace « Réviser », V3) */}
       <div className="sticky z-10 bottom-[calc(theme(spacing.tabbar)+0.75rem)] md:bottom-6 mt-6">
-        <Link to={`/reviser/${epoch.id}/${civ.id}`} className="btn-accent w-full h-12 text-[15px] shadow-lift">
-          <Icon name="cards" size={18} /> Réviser {civ.label}
-          {size && <span className="font-normal opacity-90 hidden sm:inline">· {size.tier1} cartes + quiz</span>}
-        </Link>
+        <BandeauAventure civId={civ.id} label={civ.label} />
       </div>
     </article>
   )

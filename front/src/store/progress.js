@@ -178,8 +178,12 @@ export const useProgress = create(
         })
       },
 
-      /** Fin de séance : passage comptabilisé, cartes « à revoir » mémorisées. */
-      finishChapter(civId) {
+      /**
+       * Fin de séance : passage comptabilisé, cartes « à revoir » mémorisées.
+       * Aventure : 1er passage = Découvrir, suivants = Approfondir ; `options.eclairs` = questions
+       * éclair justes. Renvoie les événements de l'Aventure (médaille, XP, ouvertures…).
+       */
+      finishChapter(civId, options = {}) {
         const round = get().chapters[civId]?.current?.round
         set((s) => {
           const ch = s.chapters[civId]
@@ -193,7 +197,8 @@ export const useProgress = create(
         })
         get().touchDay()
         // Aventure : 1er passage = Découvrir (bronze), passages suivants = Approfondir (argent)
-        if (round !== undefined && PARCOURS_AVENTURE.monde.has(civId)) get().terminerEtape(civId, round === 0 ? 'decouvrir' : 'approfondir')
+        if (round !== undefined && PARCOURS_AVENTURE.monde.has(civId)) return get().terminerEtape(civId, round === 0 ? 'decouvrir' : 'approfondir', options)
+        return []
       },
 
       // ── Quiz ─────────────────────────────────────────────────────────────────
@@ -247,8 +252,8 @@ export const useProgress = create(
           },
         }))
         get().touchDay()
-        if (PARCOURS_AVENTURE.monde.has(civId)) get().terminerEpreuve(civId, score, answers.map((a) => a.correct))
-        return { score, correct, total }
+        const evenements = PARCOURS_AVENTURE.monde.has(civId) ? get().terminerEpreuve(civId, score, answers.map((a) => a.correct)) : []
+        return { score, correct, total, evenements }
       },
 
       // ── Quiz express (fiches liées) ─────────────────────────────────────────

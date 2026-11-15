@@ -303,7 +303,7 @@ Modèles : `content/wars/seconde-guerre-mondiale.json` (Guerres A), puis `guerre
 | Lignées (même civilisation sur plusieurs époques) | `content/lineages.json` + `src/components/LineageTrail.jsx` |
 | Progression (fiches lues, reprendre, série) | `src/store/progress.js` + `src/components/progress/` |
 | Messages éphémères (toasts) | `useUI().showToast({ text, tone })` dans `src/store/ui.js` |
-| Chapitre (cartes à faire glisser) | `src/pages/ChapterPage.jsx` (lancé depuis l'Aventure) |
+| Une étape d'une salle (Découvrir, Approfondir, Épreuve) | `src/pages/SallePage.jsx` (cartes : `components/revision/CardDeck.jsx` ; questions : `components/quiz/QuestionView.jsx`) |
 | Cartes de révision (paquet, types de cartes) | `src/components/revision/` + `src/lib/revision.js` |
 | Chapitres rédigés à la main (cartes + questions) | `src/data/revision/` |
 | Quiz : génération des questions, règles | `src/lib/quiz.js` + `src/pages/QuizPage.jsx` + `src/components/quiz/` |

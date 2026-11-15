@@ -1,13 +1,8 @@
 import { findCivilization } from '../../lib/data'
 import { PARCOURS_AVENTURE as P } from '../../store/progress'
 
-/** Adresse où se joue une étape (écrans de chapitre et de quiz, en attendant le sprint 21). */
-export function lienEtape(civId, etape) {
-  const ref = findCivilization(civId)
-  if (!ref) return '/'
-  const base = `/reviser/${ref.epoch.id}/${civId}`
-  return etape === 'epreuve' ? `${base}/quiz` : base
-}
+/** Adresse où se joue une étape d'une salle (SallePage). */
+export const lienEtape = (civId, etape) => `/aventure/salle/${civId}/${etape}`
 
 /** Phrase qui explique un verrou (lib/aventure.js → ouverture().raison). */
 export function raisonVerrou(raison) {

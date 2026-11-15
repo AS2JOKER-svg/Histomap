@@ -4,12 +4,19 @@ import { AnimatePresence, motion } from 'framer-motion'
 import { findCivilization } from '../lib/data'
 import { buildDeck, chapterCards } from '../lib/revision'
 import { composeQuiz, prepareQuestion, questionPool, rng, shuffle } from '../lib/quiz'
+import { bonneReponse } from '../lib/questions'
+import { imageResultat, partagerImage } from '../lib/partage'
+import { choisi } from '../lib/cosmetiques'
+import { titresObtenus } from '../lib/aventure'
 import { haptic } from '../lib/haptics'
 import useDocumentTitle from '../lib/useDocumentTitle'
 import { EPREUVE, MEDAILLE, estOuvert, etoiles } from '../lib/aventure'
 import { gainReponse, niveau } from '../lib/xp'
 import { xpReponses } from '../lib/progression'
 import { PARCOURS_AVENTURE as P, useProgress } from '../store/progress'
+import { useUI } from '../store/ui'
+import Celebrations, { aCelebrer, useEffet } from '../components/celebration/Celebrations'
+import { Coffre, Particules, Rayons } from '../components/celebration/elements'
 import Icon from '../components/ui/Icon'
 import CardDeck from '../components/revision/CardDeck'
 import ChapterGate from '../components/revision/ChapterGate'
@@ -182,16 +189,22 @@ const nomDe = (id) => findCivilization(id)?.civ.label ?? id
 
 function EtapeFin({ refCiv, etape, evenements, justes, total }) {
   const { civ } = refCiv
+  const navigate = useNavigate()
+  const effet = useEffet()
   const medaille = evenements.find((e) => e.type === 'medaille')?.medaille
   const ouvertes = evenements.find((e) => e.type === 'ouverture')?.salles ?? []
-  const niveaux = evenements.filter((e) => e.type === 'niveau')
   const xp = xpDe(evenements)
   const suite = etape === 'decouvrir' ? 'approfondir' : 'epreuve'
+  const { faire, ecran } = useApresCelebrations(evenements)
+  useEffect(() => {
+    if (medaille) haptic('recompense')
+  }, [medaille])
   return (
-    <motion.div initial={{ opacity: 0, scale: 0.96 }} animate={{ opacity: 1, scale: 1 }} className="w-full max-w-[440px] mx-auto my-auto text-center py-6">
+    <motion.div initial={{ opacity: 0, scale: 0.96 }} animate={{ opacity: 1, scale: 1 }} className="relative w-full max-w-[440px] mx-auto my-auto text-center py-6">
+      {medaille && <Particules effet={effet} nombre={16} />}
       <p className="eyebrow">{ETAPE_LABEL[etape]} terminé</p>
-      <motion.div initial={{ scale: 0.4, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ type: 'spring', damping: 12, delay: 0.1 }} className="inline-block mt-4">
-        <Medaille medaille={medaille ?? (etape === 'decouvrir' ? MEDAILLE.BRONZE : MEDAILLE.ARGENT)} taille={96} />
+      <motion.div initial={{ scale: 0.3, opacity: 0, rotate: -20 }} animate={{ scale: 1, opacity: 1, rotate: 0 }} transition={{ type: 'spring', damping: 10, delay: 0.1 }} className="inline-block mt-4">
+        <Medaille medaille={medaille ?? (etape === 'decouvrir' ? MEDAILLE.BRONZE : MEDAILLE.ARGENT)} taille={104} />
       </motion.div>
       <h2 className="font-display text-4xl font-bold text-ink mt-4 leading-none">{civ.label}</h2>
       <p className="text-muted mt-2">
@@ -202,19 +215,33 @@ function EtapeFin({ refCiv, etape, evenements, justes, total }) {
         <Bloc valeur={ouvertes.length} label={ouvertes.length > 1 ? 'salles ouvertes' : 'salle ouverte'} />
       </div>
       {ouvertes.length > 0 && <p className="text-sm text-ink mt-3">Nouveau : {ouvertes.map(nomDe).join(', ')}</p>}
-      {niveaux.map((n) => (
-        <p key={n.niveau} className="mt-3 p-3 text-sm font-semibold" style={{ background: '#2a2118', color: '#e0c27a' }}>
-          Niveau {n.niveau} atteint{n.recompenses.length ? ` · ${n.recompenses.map((r) => r.nom).join(', ')}` : ''}
-        </p>
-      ))}
       <div className="mt-6 grid gap-2.5">
-        <Link to={`/aventure/salle/${civ.id}/${suite}`} className="btn-accent h-12 w-full text-[15px] font-bold">
+        <button onClick={() => faire(() => navigate(`/aventure/salle/${civ.id}/${suite}`))} className="btn-accent h-12 w-full text-[15px] font-bold">
           {suite === 'approfondir' ? 'Approfondir maintenant' : 'Passer l’épreuve'} <Icon name="arrowRight" size={18} />
-        </Link>
-        <Link to="/" className="btn-secondary h-12 w-full">Retour au parcours</Link>
+        </button>
+        <button onClick={() => faire(() => navigate('/'))} className="btn-secondary h-12 w-full">Retour au parcours</button>
       </div>
+      {ecran}
     </motion.div>
   )
+}
+
+/**
+ * Les célébrations plein écran (niveaux, titres) passent avant l'action choisie (continuer, rejouer…),
+ * une seule fois. → { faire(action), ecran }
+ */
+function useApresCelebrations(evenements) {
+  const [suite, setSuite] = useState(null)
+  const [vu, setVu] = useState(false)
+  const fetes = aCelebrer(evenements)
+  const faire = (action) => {
+    if (fetes.length && !vu) {
+      setVu(true)
+      setSuite(() => action)
+    } else action()
+  }
+  const ecran = suite ? <Celebrations evenements={evenements} onFin={() => { setSuite(null); suite() }} /> : null
+  return { faire, ecran }
 }
 
 function Bloc({ valeur, label, ton }) {
@@ -279,8 +306,7 @@ function Epreuve({ refCiv }) {
     if (index < questions.length - 1) setStep(index + 1)
     else {
       const r = finishQuiz(civ.id)
-      haptic(r.score >= EPREUVE.reussite ? 'complete' : 'error')
-      setResult(r)
+      setResult({ ...r, questions, answers }) // garde les questions et réponses pour « Revoir mes erreurs »
     }
   }
   const pause = miTemps && step === index && index === Math.floor(total / 2) - 1
@@ -311,7 +337,7 @@ function Epreuve({ refCiv }) {
       )}
       <div className="relative flex-1 min-h-0 flex flex-col px-4 pt-4 pb-[max(1rem,env(safe-area-inset-bottom))] overflow-y-auto">
         {result ? (
-          <Resultat refCiv={refCiv} result={result} onRetry={() => { setResult(null); setMiTemps(false); setStep(null) }} />
+          <Resultat refCiv={refCiv} result={result} questions={result.questions} answers={result.answers} onRetry={() => { setResult(null); setMiTemps(false); setStep(null) }} />
         ) : pause ? (
           <MiTemps bonnes={bonnes} faites={index + 1} restantes={total - index - 1} xp={xp} onReprendre={() => setStep(index + 1)} />
         ) : q ? (
@@ -332,7 +358,7 @@ function Epreuve({ refCiv }) {
         {!result && !pause && (
           <p className="text-center text-xs text-muted mt-3">
             {bonnes} bonne{bonnes > 1 ? 's' : ''} réponse{bonnes > 1 ? 's' : ''}
-            {bonnes < EPREUVE.reussite ? ` · encore ${EPREUVE.reussite - bonnes} pour réussir` : ' · épreuve réussie, vise les étoiles !'}
+            {bonnes < EPREUVE.reussite ? ` · encore ${EPREUVE.reussite - bonnes} pour réussir (l’XP compte en entier dès 15)` : ' · épreuve réussie, vise les étoiles !'}
           </p>
         )}
       </div>
@@ -373,72 +399,152 @@ function MiTemps({ bonnes, faites, restantes, xp, onReprendre }) {
   )
 }
 
-/** Résultat de l'épreuve (sobre ; la grande célébration arrive au sprint 22). */
-function Resultat({ refCiv, result, onRetry }) {
+/** Résultat de l'épreuve : grande célébration si réussie (maquette 8), écran sobre sinon. */
+function Resultat({ refCiv, result, questions, answers, onRetry }) {
   const { civ } = refCiv
-  const meilleur = useProgress((s) => s.aventure.salles[civ.id]?.meilleur ?? 0)
-  const xpTotal = useProgress((s) => s.aventure.xp)
+  const navigate = useNavigate()
+  const av = useProgress((s) => s.aventure)
+  const showToast = useUI((s) => s.showToast)
+  const effet = useEffet()
   const reussi = result.score >= EPREUVE.reussite
   const ev = result.evenements ?? []
+  const { faire, ecran } = useApresCelebrations(ev)
   const parRaison = (r) => ev.filter((e) => e.type === 'xp' && e.raison === r).reduce((n, e) => n + e.montant, 0)
   const lignes = [
-    ['Réponses et combos', parRaison('epreuve')],
+    [reussi ? 'Réponses et combos' : 'Réponses (épreuve ratée : 2 XP chacune)', parRaison('epreuve')],
     ['Médaille d’or', parRaison('or')],
     ['Nouvelles étoiles', parRaison('etoiles')],
     ['Coffres', parRaison('coffre')],
     ['Bonus du jour', parRaison('bonus-jour')],
   ].filter(([, v]) => v > 0)
   const nb = etoiles(result.score)
-  const coffres = ev.filter((e) => e.type === 'coffre')
-  const niveaux = ev.filter((e) => e.type === 'niveau')
-  const titres = ev.filter((e) => e.type === 'titre')
+  const coffreSalle = ev.find((e) => e.type === 'coffre' && e.sorte === 'salle')
+  const autresCoffres = ev.filter((e) => e.type === 'coffre' && e.sorte !== 'salle')
+  const erreurs = questions.filter((q) => answers.some((a) => a.id === q.id && !a.correct))
+  const n = niveau(av.xp)
+  useEffect(() => {
+    haptic(reussi ? 'recompense' : 'error')
+  }, [reussi])
+
+  const partager = async () => {
+    const titre = titresObtenus(P, av.salles).find((t) => t.id === av.titreAffiche)?.titre
+    const cadre = choisi('cadre', av.cosmetiques, av.recompenses)
+    const blob = await imageResultat({
+      titre: civ.label,
+      sousTitre: 'Épreuve réussie',
+      note: result.score,
+      etoiles: nb,
+      niveau: n.niveau,
+      rang: n.rang,
+      titreAffiche: titre,
+      cadre: cadre.couleur,
+      doree: av.recompenses.includes('partage:edition-doree'),
+    })
+    const r = await partagerImage(blob, `histomap-${civ.id}.png`, `${civ.label} : ${result.score}/20 sur HistoMap`)
+    if (r === 'telecharge') showToast({ text: 'Image enregistrée dans vos téléchargements', tone: 'success' })
+  }
+
+  const Erreurs = () =>
+    erreurs.length > 0 && (
+      <details className="mt-4 text-left border-t pt-3" style={{ borderColor: 'rgba(128, 112, 90, .4)' }}>
+        <summary className="min-h-[44px] flex items-center cursor-pointer font-semibold">Revoir mes erreurs ({erreurs.length})</summary>
+        <ul className="mt-1 space-y-3 text-sm">
+          {erreurs.map((q) => (
+            <li key={q.id}>
+              <p className="opacity-80">{q.prompt}</p>
+              <p className="font-semibold mt-0.5">→ {bonneReponse(q)}</p>
+            </li>
+          ))}
+        </ul>
+      </details>
+    )
+
+  if (!reussi)
+    return (
+      <motion.div initial={{ opacity: 0, scale: 0.96 }} animate={{ opacity: 1, scale: 1 }} className="w-full max-w-[460px] mx-auto text-center py-4 text-ink">
+        <p className="eyebrow">Épreuve à retenter</p>
+        <div className="mt-4 mx-auto w-36 h-36 rounded-full grid place-items-center bg-surface2">
+          <span className="font-display text-5xl font-bold">{result.score}/20</span>
+        </div>
+        <h2 className="font-display text-4xl font-bold mt-4 leading-none">{civ.label}</h2>
+        <p className="text-muted mt-2">Encore {EPREUVE.reussite - result.score} point{EPREUVE.reussite - result.score > 1 ? 's' : ''} pour l’or. Tes erreurs reviendront en partie à la prochaine tentative.</p>
+        {lignes.length > 0 && (
+          <div className="mt-5 text-left border-t border-line">
+            {lignes.map(([label, v]) => (
+              <div key={label} className="flex justify-between py-2.5 border-b border-line text-sm"><span className="text-muted">{label}</span><span className="font-bold tabular-nums">+{v} XP</span></div>
+            ))}
+          </div>
+        )}
+        <Erreurs />
+        <div className="mt-6 grid gap-2.5">
+          <button onClick={() => faire(onRetry)} className="btn-accent h-12 w-full text-[15px] font-bold">Retenter l’épreuve</button>
+          <button onClick={() => faire(() => navigate(`/aventure/salle/${civ.id}/approfondir`))} className="btn-secondary h-12 w-full">Revoir les cartes</button>
+          <button onClick={() => faire(() => navigate(`/?salle=${civ.id}`))} className="btn-ghost h-11 w-full">Retour à la salle</button>
+        </div>
+        {ecran}
+      </motion.div>
+    )
 
   return (
-    <motion.div initial={{ opacity: 0, scale: 0.96 }} animate={{ opacity: 1, scale: 1 }} className="w-full max-w-[460px] mx-auto text-center py-4">
-      <p className="eyebrow">{reussi ? 'Épreuve réussie' : 'Épreuve à retenter'}</p>
-      <motion.div initial={{ scale: 0.4, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ type: 'spring', damping: 12, delay: 0.1 }} className="mt-4 mx-auto w-36 h-36 rounded-full grid place-items-center" style={{ background: reussi ? '#e0c27a' : 'rgb(var(--c-surface-2))', color: '#2a2118' }}>
-        <span>
-          <span className={`block font-display text-5xl font-bold leading-none ${reussi ? '' : 'text-ink'}`}>{result.score}/20</span>
-          {reussi && <span className="block text-lg tracking-[3px]" aria-label={`${nb} étoile(s) sur 3`}>{'★'.repeat(nb)}{'☆'.repeat(3 - nb)}</span>}
-        </span>
-      </motion.div>
-      <h2 className="font-display text-4xl font-bold text-ink mt-4 leading-none">{civ.label}</h2>
-      <p className="text-muted mt-2">
-        {reussi
-          ? nb < 3 ? `Encore ${[17, 19][nb - 1] - result.score} bonne(s) réponse(s) pour l’étoile suivante` : 'Trois étoiles : la salle est parfaitement maîtrisée'
-          : `Encore ${EPREUVE.reussite - result.score} point(s) pour l’or · 5 questions ratées reviendront`}
-        {meilleur > result.score ? ` · meilleur score ${meilleur}/20` : ''}
-      </p>
+    <div className="fixed inset-0 z-10 overflow-y-auto overscroll-contain" style={{ background: '#1f1812', color: '#f6efe2' }}>
+      <Particules effet={effet} />
+      <div className="relative w-full max-w-[440px] mx-auto px-5 pt-[max(2.5rem,env(safe-area-inset-top))] pb-[max(1.5rem,env(safe-area-inset-bottom))] text-center">
+        <p className="text-xs font-bold uppercase tracking-[.22em]" style={{ color: '#e0c27a' }}>Épreuve réussie</p>
+        <div className="relative mt-6 h-56 grid place-items-center">
+          <Rayons taille={460} />
+          <motion.div
+            initial={{ scale: 0.3, opacity: 0 }}
+            animate={{ scale: 1, opacity: 1 }}
+            transition={{ type: 'spring', damping: 9, stiffness: 160, delay: 0.15 }}
+            className="relative w-48 h-48 rounded-full grid place-items-center overflow-hidden"
+            style={{ background: '#e0c27a', color: '#2a2118', boxShadow: '0 0 0 8px #a8791c, 0 0 70px rgba(224,194,122,.55)' }}
+          >
+            <span aria-hidden="true" className="hm-reflet absolute -top-10 left-0 w-10 h-72" style={{ background: 'rgba(255,255,255,.35)' }} />
+            <span className="relative">
+              <span className="block font-display text-lg font-bold uppercase tracking-[.2em]">Or</span>
+              <span className="block font-display text-6xl font-bold leading-none">{result.score}/20</span>
+              <span className="block text-2xl tracking-[4px]" aria-label={`${nb} étoile(s) sur 3`}>{'★'.repeat(nb)}{'☆'.repeat(3 - nb)}</span>
+            </span>
+          </motion.div>
+        </div>
+        <h2 className="font-display text-5xl font-bold mt-4 leading-none">{civ.label}</h2>
+        <p className="mt-2 text-[15px]" style={{ color: '#c9b48c' }}>
+          {nb < 3 ? `Encore ${[17, 19][nb - 1] - result.score} bonne(s) réponse(s) pour ${nb === 1 ? '★★' : '★★★'}` : 'Trois étoiles : salle parfaitement maîtrisée'}
+        </p>
 
-      {lignes.length > 0 && (
-        <div className="mt-5 text-left border-t border-line">
+        <div className="mt-5 text-left border-t" style={{ borderColor: '#4a3d2c' }}>
           {lignes.map(([label, v]) => (
-            <div key={label} className="flex justify-between py-2.5 border-b border-line text-sm">
-              <span className="text-muted">{label}</span>
-              <span className="font-bold text-ink tabular-nums">+{v} XP</span>
+            <div key={label} className="flex justify-between py-2.5 border-b text-sm" style={{ borderColor: '#3a2f22' }}>
+              <span style={{ color: '#d8c7a6' }}>{label}</span><span className="font-bold tabular-nums">+{v} XP</span>
             </div>
           ))}
-          <p className="text-xs text-muted mt-2">Niveau {niveau(xpTotal).niveau} · {xpTotal.toLocaleString('fr-FR')} XP au total</p>
+          <p className="text-xs mt-2" style={{ color: '#c9b48c' }}>Niveau {n.niveau} · {n.rang} · {av.xp.toLocaleString('fr-FR')} XP</p>
         </div>
-      )}
-      {[...coffres.map((c) => `Coffre ouvert : +${c.xp} XP${c.joker ? ' et 1 joker' : ''}`), ...niveaux.map((n) => `Niveau ${n.niveau} atteint${n.recompenses.length ? ' · ' + n.recompenses.map((r) => r.nom).join(', ') : ''}`), ...titres.map((t) => `Nouveau titre : ${t.titre}`)].map((t) => (
-        <p key={t} className="mt-2.5 p-3 text-sm font-semibold text-left" style={{ background: '#2a2118', color: '#e0c27a' }}>{t}</p>
-      ))}
 
-      <div className="mt-6 grid gap-2.5">
-        {reussi ? (
-          <>
-            <Link to="/" className="btn-accent h-12 w-full text-[15px] font-bold">Continuer le parcours <Icon name="arrowRight" size={18} /></Link>
-            {nb < 3 && <button onClick={onRetry} className="btn-secondary h-12 w-full">Rejouer pour les étoiles</button>}
-          </>
-        ) : (
-          <>
-            <button onClick={onRetry} className="btn-accent h-12 w-full text-[15px] font-bold">Retenter l’épreuve</button>
-            <Link to={`/aventure/salle/${civ.id}/approfondir`} className="btn-secondary h-12 w-full">Revoir les cartes</Link>
-          </>
+        {coffreSalle && (
+          <div className="mt-4 p-3 flex items-center gap-3 text-left border" style={{ background: '#3a2f22', borderColor: '#a8791c' }}>
+            <span className="shrink-0 -my-3"><Coffre taille={46} /></span>
+            <span>
+              <span className="block text-[11px] font-bold uppercase tracking-[.14em]" style={{ color: '#e0c27a' }}>Petit coffre ouvert</span>
+              <span className="block font-display text-2xl font-bold">+{coffreSalle.xp} XP{coffreSalle.joker ? ' et 1 joker' : ''}</span>
+            </span>
+          </div>
         )}
-        <Link to={`/?salle=${civ.id}`} className="btn-ghost h-11 w-full">Retour à la salle</Link>
+        {autresCoffres.map((c) => (
+          <p key={c.id} className="mt-2 p-2.5 text-sm text-left border" style={{ borderColor: '#4a3d2c', color: '#d8c7a6' }}>
+            {c.sorte === 'semaine' ? 'Objectif de la semaine atteint' : c.sorte === 'serie' ? 'Palier de série' : 'Coffre de niveau'} : +{c.xp} XP{c.joker ? ' et 1 joker' : ''}
+          </p>
+        ))}
+
+        <Erreurs />
+
+        <div className="mt-6 grid gap-2.5">
+          <button onClick={() => faire(() => navigate('/'))} className="min-h-[54px] font-bold text-[16px]" style={{ background: '#e0c27a', color: '#2a2118' }}>Continuer le parcours</button>
+          <button onClick={partager} className="min-h-[48px] font-semibold border" style={{ borderColor: '#a8791c' }}>Partager mon résultat</button>
+          {nb < 3 && <button onClick={() => faire(onRetry)} className="min-h-[44px] text-sm font-semibold" style={{ color: '#e0c27a' }}>Rejouer pour les étoiles</button>}
+        </div>
       </div>
-    </motion.div>
+      {ecran}
+    </div>
   )
 }

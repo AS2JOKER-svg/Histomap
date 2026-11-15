@@ -106,7 +106,7 @@ test('niveaux : 100 × n XP pour passer du niveau n au suivant, maximum 50', () 
 })
 
 test('récompenses de niveau, jokers, étoiles, coffres', () => {
-  assert.equal(recompensesNiveau(13)[0].id, 'rose-des-vents')
+  assert.equal(recompensesNiveau(13)[0].id, 'sceau:rose-des-vents')
   assert.equal(prochaineRecompense(13).niveau, 14)
   assert.equal(recompensesNiveau(21)[0].type, 'coffre')
   for (let k = 2; k <= 20; k++) assert.ok(recompensesNiveau(k).length, `niveau ${k} sans récompense`)
@@ -165,13 +165,14 @@ test('Épreuve : ratée (essai compté), puis réussie (or, coffre, étoiles)', 
   const base = { ...aventureVide(), salles: { carthage: { medaille: ARGENT, meilleur: null, essais: 0, enCours: null } } }
   const rate = terminerEpreuve(base, P, 'carthage', 12, Array(12).fill(true).concat(Array(8).fill(false)), J(0))
   assert.deepEqual([rate.av.salles.carthage.medaille, rate.av.salles.carthage.essais, rate.av.salles.carthage.meilleur], [ARGENT, 1, 12])
+  assert.equal(rate.evenements.find((e) => e.type === 'xp' && e.raison === 'epreuve').montant, 24) // échec : 2 XP × 12, sans combo
   const ok = terminerEpreuve(rate.av, P, 'carthage', 18, Array(18).fill(true).concat([false, false]), J(1))
   assert.equal(ok.av.salles.carthage.medaille, OR)
   const t = types(ok.evenements)
   assert.ok(t.includes('coffre') && t.includes('etoiles'))
   assert.ok(ok.av.coffres.includes('or:carthage'))
   const encore = terminerEpreuve(ok.av, P, 'carthage', 18, Array(18).fill(true).concat([false, false]), J(1))
-  assert.ok(!types(encore.evenements).includes('coffre')) // le coffre ne s'ouvre qu'une fois
+  assert.ok(!encore.evenements.some((e) => e.type === 'coffre' && e.sorte === 'salle')) // le coffre de la salle ne s'ouvre qu'une fois
 })
 
 test('niveau 2 : récompense (1 joker) créditée une fois', () => {

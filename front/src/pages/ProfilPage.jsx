@@ -5,6 +5,9 @@ import { OBJECTIFS_SEMAINE, lundi } from '../lib/progression'
 import { PARCOURS_AVENTURE as P, useProgress } from '../store/progress'
 import PageHeader from '../components/ui/PageHeader'
 import AppCard from '../components/app/AppCard'
+import Personnaliser from '../components/aventure/Personnaliser'
+import { Sceau } from '../components/celebration/elements'
+import { choisi } from '../lib/cosmetiques'
 
 /**
  * Profil (V3) — version fonctionnelle du sprint 19 : niveau, rang, prochaine récompense,
@@ -15,6 +18,7 @@ export default function ProfilPage() {
   useDocumentTitle('Profil')
   const av = useProgress((s) => s.aventure)
   const choisirObjectif = useProgress((s) => s.choisirObjectif)
+  const choisirTitre = useProgress((s) => s.choisirTitre)
   const n = niveau(av.xp)
   const prochaine = prochaineRecompense(n.niveau)
   const titres = titresObtenus(P, av.salles)
@@ -28,6 +32,9 @@ export default function ProfilPage() {
   return (
     <section className="max-w-3xl mx-auto">
       <PageHeader eyebrow={`${n.rang} · niveau ${n.niveau}`} title="Profil" description={`${av.xp.toLocaleString('fr-FR')} XP au total.`} />
+
+      {/* Carte de profil : sceau, cadre et titre choisis */}
+      <CarteProfil av={av} n={n} titres={titres} />
 
       <div className="card p-4 mb-4">
         <div className="flex justify-between text-sm text-muted tabular-nums">
@@ -69,8 +76,10 @@ export default function ProfilPage() {
       {titres.length ? (
         <ul className="flex flex-wrap gap-2 mb-6">
           {titres.map((t) => (
-            <li key={t.id} className="chip text-ink font-medium">
-              {t.titre}
+            <li key={t.id}>
+              <button onClick={() => choisirTitre(av.titreAffiche === t.id ? null : t.id)} aria-pressed={av.titreAffiche === t.id} className={`chip min-h-[44px] font-medium ${av.titreAffiche === t.id ? 'ring-2 ring-accent text-ink' : 'text-ink'}`}>
+                {t.titre}
+              </button>
             </li>
           ))}
         </ul>
@@ -93,8 +102,33 @@ export default function ProfilPage() {
         ))}
       </ul>
 
+      <h2 className="font-display text-2xl font-semibold text-ink mb-3">Personnaliser</h2>
+      <div className="mb-8">
+        <Personnaliser />
+      </div>
+
       <AppCard />
     </section>
+  )
+}
+
+function CarteProfil({ av, n, titres }) {
+  const sceau = choisi('sceau', av.cosmetiques, av.recompenses)
+  const cadre = choisi('cadre', av.cosmetiques, av.recompenses)
+  const titre = titres.find((t) => t.id === av.titreAffiche)?.titre
+  const contenu = (
+    <div className="p-4 flex items-center gap-4" style={{ background: '#2a2118', color: '#f6efe2' }}>
+      <Sceau sceau={sceau} niveau={n.niveau} taille={68} />
+      <div className="min-w-0">
+        <p className="text-[11px] font-bold uppercase tracking-[.14em] text-gold">{n.rang} · niveau {n.niveau}</p>
+        <p className="font-display text-2xl font-bold leading-tight">{titre ?? 'Aucun titre affiché'}</p>
+      </div>
+    </div>
+  )
+  return (
+    <div className={`mb-4 ${cadre.anime ? 'hm-cadre-anime p-[4px]' : ''}`} style={!cadre.anime && cadre.couleur ? { border: `4px solid ${cadre.couleur}` } : undefined}>
+      {contenu}
+    </div>
   )
 }
 

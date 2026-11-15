@@ -20,6 +20,7 @@ export const BAREME = {
   rejouerEtape: 10, // Découvrir ou Approfondir refaits
   eclair: 5, // question éclair juste (1re fois)
   reponse: 10, // question d'épreuve juste, sans combo
+  reponseEchec: 2, // épreuve ratée (< 15/20) : 2 XP par bonne réponse, sans combo
   pasCombo: 5, // + 5 par réponse juste d'affilée…
   comboMax: 5, // … jusqu'à la 5e (30 XP)
   or: 50, // 1re médaille d'or d'une salle
@@ -73,7 +74,8 @@ export function niveau(xpTotale) {
 
 // ── Récompenses de niveau (ARBORESCENCE.md § 5.4) ────────────────────────────
 // type : rang, joker, emplacement (de joker), sceau, cadre, effet (de célébration), theme, partage
-const R = (type, id, nom) => ({ type, id, nom })
+// id préfixé par le type (« sceau:silex », « theme:silex »…) : pas de collision entre un sceau et un thème
+const R = (type, id, nom) => ({ type, id: `${type}:${id}`, nom })
 const RANG = (n) => R('rang', `rang-${n}`, rang(n))
 export const RECOMPENSES = {
   2: [R('joker', 'joker', '1 joker')],
@@ -84,7 +86,7 @@ export const RECOMPENSES = {
   7: [R('joker', 'joker', '1 joker')],
   8: [R('effet', 'petales', 'Effet « Pétales »')],
   9: [R('sceau', 'lauriers', 'Sceau « Lauriers »')],
-  10: [RANG(10), R('cadre', 'argent', 'Cadre Argent'), R('theme', 'musee-nuit', 'Thème « Musée de nuit »')],
+  10: [RANG(10), R('cadre', 'argent', 'Cadre Argent'), R('theme', 'indigo', 'Thème « Indigo »')],
   11: [R('joker', 'joker', '1 joker')],
   12: [R('effet', 'feux-artifice', 'Effet « Feux d’artifice »')],
   13: [R('sceau', 'rose-des-vents', 'Sceau « Rose des vents »')],

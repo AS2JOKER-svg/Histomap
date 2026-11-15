@@ -244,7 +244,9 @@ export function terminerEpreuve(av, P, civId, note, justes, jour) {
     ...av,
     salles: { ...av.salles, [civId]: { ...salle, essais: salle.essais + 1, meilleur: Math.max(salle.meilleur ?? 0, note), enCours: null } },
   }
-  let r = gagnerXp(next, xpReponses(justes, { rejeu }), 'epreuve', jour)
+  // Épreuve ratée : gain fortement réduit (2 XP par bonne réponse, sans combo)
+  const xpRep = note >= 15 ? xpReponses(justes, { rejeu }) : BAREME.reponseEchec * justes.filter(Boolean).length
+  let r = gagnerXp(next, xpRep, 'epreuve', jour)
   next = r.av
   evenements.push(...r.evenements)
   if (note >= 15) {

@@ -137,7 +137,7 @@ Les chiffres seront réglés au sprint 24, sur un vrai téléphone. Tout est loc
 | Découvrir terminé | 40 | 10 |
 | Approfondir terminé | 60 | 10 |
 | Question éclair juste (Découvrir / Approfondir) | 5 | 0 |
-| Question d'Épreuve juste | 10, + 5 par palier de combo (2e d'affilée : 15 ; 3e : 20 ; 4e : 25 ; plafond 30 dès la 5e) | la moitié |
+| Question d'Épreuve juste | 10, + 5 par palier de combo (2e d'affilée : 15 ; 3e : 20 ; 4e : 25 ; plafond 30 dès la 5e) ; **épreuve ratée (< 15) : 2 XP par bonne réponse, sans combo** (décision du 15/11/2026) | la moitié |
 | Or obtenu | +50 | — |
 | Nouvelle étoile d'Épreuve (★ 15, ★★ 17, ★★★ 19) | +25 par étoile | — |
 | Bonus du jour (1re étape terminée dans la journée) | +20 | chaque jour |
@@ -218,7 +218,7 @@ Les récompenses sont toutes cosmétiques ou utiles, et visibles :
 | 7 | 1 joker |
 | 8 | Effet « Pétales » |
 | 9 | Sceau « Lauriers » |
-| **10** | **Rang Explorateur** + cadre Argent + thème « Musée de nuit » (variante sombre de B) |
+| **10** | **Rang Explorateur** + cadre Argent + thème « Indigo » (le « Musée de nuit » sombre reste libre pour tous, décision du 14/11/2026) |
 | 11 | 1 joker |
 | 12 | Effet « Feux d'artifice » |
 | 13 | Sceau « Rose des vents » |

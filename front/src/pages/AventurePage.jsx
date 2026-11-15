@@ -1,4 +1,4 @@
-import { useCallback } from 'react'
+import { useCallback, useState } from 'react'
 import { Link, Navigate, useSearchParams } from 'react-router-dom'
 import { AnimatePresence } from 'framer-motion'
 import { findCivilization } from '../lib/data'
@@ -127,7 +127,7 @@ export default function AventurePage() {
               <p className="text-[11px] font-bold uppercase tracking-[.12em] text-accent">
                 {jour.raison === 'reprendre' ? 'À reprendre' : jour.raison === 'retenter' ? 'Retente l’épreuve' : 'Ton étape du jour'} · {DETAIL_ETAPE[jour.etape].duree}
               </p>
-              <p className="font-display text-[22px] font-bold text-ink leading-tight truncate">
+              <p className="font-display text-[21px] font-bold text-ink leading-[1.1] line-clamp-2">
                 {findCivilization(jour.civId)?.civ.label} — {ETAPE_LABEL[jour.etape]}
               </p>
               <p className="text-xs text-muted">{DETAIL_ETAPE[jour.etape].texte}</p>
@@ -167,6 +167,7 @@ function orphelines(w) {
 
 /** Une salle du tronc sur le rail, suivie de ses annexes. */
 function SalleLigne({ id, rang, salles, enCours, onOpen, annexes }) {
+  const [toutes, setToutes] = useState(false)
   const ref = findCivilization(id)
   if (!ref) return null
   const s = salles[id]
@@ -227,9 +228,17 @@ function SalleLigne({ id, rang, salles, enCours, onOpen, annexes }) {
       )}
       {annexes.length > 0 && (
         <ul className="mt-2 ml-4 space-y-2">
-          {annexes.map((b) => (
+          {/* au-delà de 2 annexes : les ouvertes d'abord, le reste replié (le parcours reste lisible) */}
+          {(toutes ? annexes : [...annexes].sort((a, b) => ouverture(P, salles, b).ouvert - ouverture(P, salles, a).ouvert).slice(0, 2)).map((b) => (
             <Annexe key={b} id={b} salles={salles} onOpen={onOpen} />
           ))}
+          {annexes.length > 2 && (
+            <li>
+              <button onClick={() => setToutes(!toutes)} aria-expanded={toutes} className="min-h-[44px] px-3 text-sm font-semibold text-accent">
+                {toutes ? 'Replier les annexes' : `+ ${annexes.length - 2} autre${annexes.length - 2 > 1 ? 's' : ''} annexe${annexes.length - 2 > 1 ? 's' : ''}`}
+              </button>
+            </li>
+          )}
         </ul>
       )}
     </li>
@@ -245,7 +254,7 @@ function Annexe({ id, salles, onOpen }) {
     <li>
       <button onClick={() => onOpen(id)} className={`w-full min-h-[44px] text-left px-3 py-2 border border-dashed border-muted/50 flex items-center gap-2.5 text-sm ${ouvert ? 'text-ink' : 'text-muted'}`}>
         <Icon name="arrowRight" size={14} className="text-muted shrink-0" />
-        <span className="flex-1 min-w-0 truncate font-semibold">Annexe · {ref.civ.label}</span>
+        <span className="flex-1 min-w-0 line-clamp-2 font-semibold">Annexe · {ref.civ.label}</span>
         <Medaille medaille={medaille} ouvert={ouvert} taille={24} />
       </button>
     </li>

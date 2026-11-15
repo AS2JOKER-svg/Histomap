@@ -11,7 +11,7 @@ import { titresObtenus } from '../lib/aventure'
 import { haptic } from '../lib/haptics'
 import useDocumentTitle from '../lib/useDocumentTitle'
 import { EPREUVE, MEDAILLE, estOuvert, etoiles } from '../lib/aventure'
-import { gainReponse, niveau } from '../lib/xp'
+import { BAREME, gainReponse, niveau } from '../lib/xp'
 import { xpReponses } from '../lib/progression'
 import { PARCOURS_AVENTURE as P, useProgress } from '../store/progress'
 import { useUI } from '../store/ui'
@@ -269,7 +269,8 @@ function Epreuve({ refCiv }) {
   const answers = current?.answers ?? []
   const index = Math.min(step ?? 0, Math.max(questions.length - 1, 0))
   const q = questions[index]
-  const rejeu = (current?.attempt ?? quiz?.attempts ?? 0) > 0 // épreuve déjà passée : XP des réponses divisée par deux
+  const medailleSalle = useProgress((s) => s.aventure.salles[civ.id]?.medaille ?? 0)
+  const rejeu = medailleSalle >= MEDAILLE.OR // salle déjà en or : XP des réponses divisée par deux
 
   // XP en direct et combo
   const justes = questions.map((x) => answers.find((a) => a.id === x.id)?.correct).filter((v) => v !== undefined)
@@ -279,6 +280,9 @@ function Epreuve({ refCiv }) {
   const dernier = justes.length && justes.at(-1) ? gainReponse(serie, { rejeu }) : 0
   const bonnes = justes.filter(Boolean).length
   const total = questions.length || EPREUVE.questions
+  // Si les 15/20 ne sont plus atteignables, l'épreuve sera ratée : on affiche l'XP réelle (2 par bonne réponse)
+  const reussitePossible = bonnes + (total - justes.length) >= EPREUVE.reussite
+  const xpAffiche = reussitePossible ? xp : BAREME.reponseEchec * bonnes
 
   const suivante = () => {
     if (index === Math.floor(total / 2) - 1 && !miTemps && total >= 12) {
@@ -297,16 +301,16 @@ function Epreuve({ refCiv }) {
     <div className="fixed inset-0 z-50 bg-bg flex flex-col" role="dialog" aria-label={`Épreuve : ${civ.label}`}>
       {!result && !pause && (
         <Barre
-          titre={`Épreuve · ${civ.label} · question ${index + 1} / ${total}`}
+          titre={`Épreuve · ${civ.label}`}
           onClose={() => navigate(`/?salle=${civ.id}`)}
           segments={questions.map((x, i) => {
             const a = answers.find((y) => y.id === x.id)
             return a ? (a.correct ? 'bg-accent2' : 'bg-accent') : i === index ? 'bg-ink' : 'bg-line'
           })}
-          xp={xp}
+          xp={xpAffiche}
         />
       )}
-      {!result && !pause && serie >= 2 && (
+      {!result && !pause && serie >= 2 && reussitePossible && (
         <div className="max-w-[600px] w-full mx-auto px-4">
           <motion.div key={serie} initial={{ scale: 0.9, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} className="flex items-center gap-3 px-3 py-2" style={{ background: '#2a2118', color: '#f6efe2' }}>
             <span className="flex gap-[3px]" aria-hidden="true">
@@ -321,7 +325,7 @@ function Epreuve({ refCiv }) {
         {result ? (
           <Resultat refCiv={refCiv} result={result} questions={result.questions} answers={result.answers} onRetry={() => { setResult(null); setMiTemps(false); setStep(null) }} />
         ) : pause ? (
-          <MiTemps bonnes={bonnes} faites={index + 1} restantes={total - index - 1} xp={xp} onReprendre={() => setStep(index + 1)} />
+          <MiTemps bonnes={bonnes} faites={index + 1} restantes={total - index - 1} xp={xpAffiche} onReprendre={() => setStep(index + 1)} />
         ) : q ? (
           <AnimatePresence mode="wait">
             <QuestionView
@@ -374,6 +378,11 @@ function MiTemps({ bonnes, faites, restantes, xp, onReprendre }) {
         })}
       </ul>
       <p className="mt-4 text-sm" style={{ color: '#c9b48c' }}>{xp} XP gagnés jusqu’ici</p>
+      {bonnes + restantes < 15 && (
+        <p className="mt-3 text-[15px] leading-relaxed max-w-sm" style={{ color: '#f6efe2' }}>
+          L’or n’est plus possible cette fois, mais chaque bonne réponse compte encore, et tes erreurs reviendront pour t’entraîner. Termine en beauté !
+        </p>
+      )}
       <button onClick={onReprendre} className="mt-auto mb-[max(1.75rem,env(safe-area-inset-bottom))] w-full max-w-sm min-h-[54px] font-bold text-[16px]" style={{ background: '#e0c27a', color: '#2a2118' }}>
         Reprendre — question {faites + 1}
       </button>
@@ -441,15 +450,20 @@ function Resultat({ refCiv, result, questions, answers, onRetry }) {
       </details>
     )
 
+  const dejaOr = (av.salles[civ.id]?.medaille ?? 0) >= MEDAILLE.OR
   if (!reussi)
     return (
       <motion.div initial={{ opacity: 0, scale: 0.96 }} animate={{ opacity: 1, scale: 1 }} className="w-full max-w-[460px] mx-auto text-center py-4 text-ink">
-        <p className="eyebrow">Épreuve à retenter</p>
+        <p className="eyebrow">{dejaOr ? 'Pas cette fois' : 'Épreuve à retenter'}</p>
         <div className="mt-4 mx-auto w-36 h-36 rounded-full grid place-items-center bg-surface2">
           <span className="font-display text-5xl font-bold">{result.score}/20</span>
         </div>
         <h2 className="font-display text-4xl font-bold mt-4 leading-none">{civ.label}</h2>
-        <p className="text-muted mt-2">Encore {EPREUVE.reussite - result.score} point{EPREUVE.reussite - result.score > 1 ? 's' : ''} pour l’or. Tes erreurs reviendront en partie à la prochaine tentative.</p>
+        <p className="text-muted mt-2">
+          {dejaOr
+            ? 'Ta médaille d’or reste acquise. Rejoue quand tu veux pour les étoiles.'
+            : `Encore ${EPREUVE.reussite - result.score} point${EPREUVE.reussite - result.score > 1 ? 's' : ''} pour l’or. Tes erreurs reviendront en partie à la prochaine tentative.`}
+        </p>
         {lignes.length > 0 && (
           <div className="mt-5 text-left border-t border-line">
             {lignes.map(([label, v]) => (
@@ -459,7 +473,7 @@ function Resultat({ refCiv, result, questions, answers, onRetry }) {
         )}
         <Erreurs />
         <div className="mt-6 grid gap-2.5">
-          <button onClick={() => faire(onRetry)} className="btn-accent h-12 w-full text-[15px] font-bold">Retenter l’épreuve</button>
+          <button onClick={() => faire(onRetry)} className="btn-accent h-12 w-full text-[15px] font-bold">{dejaOr ? 'Rejouer l’épreuve' : 'Retenter l’épreuve'}</button>
           <button onClick={() => faire(() => navigate(`/aventure/salle/${civ.id}/approfondir`))} className="btn-secondary h-12 w-full">Revoir les cartes</button>
           <button onClick={() => faire(() => navigate(`/?salle=${civ.id}`))} className="btn-ghost h-11 w-full">Retour à la salle</button>
         </div>

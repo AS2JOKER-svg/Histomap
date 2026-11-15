@@ -57,7 +57,10 @@ test('un monde s’ouvre quand tout le tronc précédent a l’argent (pas avant
   assert.ok(mondeOuvert(P, ok, 1))
   assert.ok(ouverture(P, ok, 'mesopotamie').ouvert)
   assert.ok(!ouverture(P, ok, 'egypte').ouvert)
-  assert.deepEqual(etapeDuJour(P, ok), { civId: 'mesopotamie', etape: 'decouvrir', raison: 'tronc' })
+  // l'étape du jour suit la boucle de la salle : l'épreuve de la 1re salle avant la salle suivante
+  assert.deepEqual(etapeDuJour(P, ok), { civId: 'hominides-est', etape: 'epreuve', raison: 'tronc' })
+  const raté = { ...ok, 'hominides-est': { medaille: ARGENT, essais: 1, meilleur: 12 } }
+  assert.equal(etapeDuJour(P, raté).civId, 'europe-paleo') // épreuve ratée : on passe à la salle suivante
 })
 
 test('fil rouge : l’Empire d’Éthiopie demande Aksoum, qui demande Koush', () => {
@@ -69,7 +72,7 @@ test('fil rouge : l’Empire d’Éthiopie demande Aksoum, qui demande Koush', (
 })
 
 test('étape du jour : reprendre, retenter une épreuve, puis une branche', () => {
-  const base = etat(toutLeTronc(ARGENT))
+  const base = etat(toutLeTronc(OR))
   assert.equal(etapeDuJour(P, { ...base, carthage: { medaille: ARGENT, enCours: 'epreuve' } }).raison, 'reprendre')
   assert.deepEqual(etapeDuJour(P, { ...base, rome: { medaille: ARGENT, essais: 1, meilleur: 12 } }), { civId: 'rome', etape: 'epreuve', raison: 'retenter' })
   const d = etapeDuJour(P, base)
@@ -168,10 +171,12 @@ test('Épreuve : ratée (essai compté), puis réussie (or, coffre, étoiles)', 
   assert.equal(rate.evenements.find((e) => e.type === 'xp' && e.raison === 'epreuve').montant, 24) // échec : 2 XP × 12, sans combo
   const ok = terminerEpreuve(rate.av, P, 'carthage', 18, Array(18).fill(true).concat([false, false]), J(1))
   assert.equal(ok.av.salles.carthage.medaille, OR)
+  assert.equal(ok.evenements.find((e) => e.type === 'xp' && e.raison === 'epreuve').montant, xpReponses(Array(18).fill(true))) // réussite après échec : XP entière
   const t = types(ok.evenements)
   assert.ok(t.includes('coffre') && t.includes('etoiles'))
   assert.ok(ok.av.coffres.includes('or:carthage'))
   const encore = terminerEpreuve(ok.av, P, 'carthage', 18, Array(18).fill(true).concat([false, false]), J(1))
+  assert.equal(encore.evenements.find((e) => e.type === 'xp' && e.raison === 'epreuve').montant, xpReponses(Array(18).fill(true), { rejeu: true })) // déjà en or : moitié
   assert.ok(!encore.evenements.some((e) => e.type === 'coffre' && e.sorte === 'salle')) // le coffre de la salle ne s'ouvre qu'une fois
 })
 

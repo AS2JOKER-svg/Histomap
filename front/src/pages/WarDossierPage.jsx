@@ -189,7 +189,7 @@ function CampCard({ c }) {
   return (
     <div className="rounded-2xl p-3.5 text-white" style={{ background: solidBg(c.couleur) }}>
       <p className="font-display text-lg font-semibold leading-tight">{c.nom}</p>
-      <ul className="mt-2 space-y-1 text-[13px] leading-snug opacity-95">
+      <ul className="mt-2 space-y-1 text-[13px] leading-snug">
         {c.membres.map((m) => (
           <li key={m}>{m}</li>
         ))}

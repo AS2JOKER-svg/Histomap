@@ -52,19 +52,21 @@ const Title = ({ children }) => <h2 className="font-display text-2xl sm:text-[1.
 const TYPE_LABEL = { map: 'Carte', dates: 'Dates', leaders: 'Dirigeants', person: 'Personnage', war: 'Guerre', lineage: 'Avant · après', steps: 'Schéma' }
 
 function CoverCard({ card, civ, epoch, round, deck }) {
-  const fg = readableText(civ.color)
+  // fond assombri garanti (texte blanc ≥ 4,5:1), plus foncé encore vers le bas
+  const fond = solidBg(civ.color)
+  const fg = '#ffffff'
   const total = deck.length
   // « Au programme » : les thèmes des cartes de la séance, sans doublon
   const program = [...new Set(deck.filter((c) => c.type !== 'cover' && c.type !== 'recap').map((c) => c.kicker ?? TYPE_LABEL[c.type]).filter(Boolean))]
   return (
     <div
       className="h-full flex flex-col p-7 relative overflow-hidden"
-      style={{ background: `linear-gradient(155deg, ${civ.color}, ${shade(civ.color, -22)})`, color: fg }}
+      style={{ background: `linear-gradient(155deg, ${fond}, ${shade(fond, -22)})`, color: fg }}
     >
       <span aria-hidden="true" className="absolute -right-10 -bottom-16 font-display text-[12rem] leading-none font-bold opacity-10 select-none">
         {civ.label.charAt(0)}
       </span>
-      <p className="text-[11px] font-semibold uppercase tracking-[.16em] opacity-80">{epoch.label} · Chapitre</p>
+      <p className="text-[11px] font-semibold uppercase tracking-[.16em] opacity-90">{epoch.label} · Chapitre</p>
       <h2 className="font-display text-4xl sm:text-5xl font-semibold leading-[1.05] mt-3 text-balance">{civ.label}</h2>
       <p className="mt-3 text-base opacity-90">{civ.period}{civ.capitale ? ` · ${civ.capitale}` : ''}</p>
 
@@ -76,7 +78,7 @@ function CoverCard({ card, civ, epoch, round, deck }) {
 
       {program.length > 0 && (
         <div className="mt-7">
-          <p className="text-[11px] font-semibold uppercase tracking-[.16em] opacity-75 mb-2.5">Au programme</p>
+          <p className="text-[11px] font-semibold uppercase tracking-[.16em] opacity-90 mb-2.5">Au programme</p>
           <ul className="flex flex-wrap gap-1.5">
             {program.map((p) => (
               <li key={p} className="text-[13px] font-medium px-2.5 py-1 rounded-lg bg-white/15 backdrop-blur-sm">{p}</li>
@@ -90,7 +92,7 @@ function CoverCard({ card, civ, epoch, round, deck }) {
           <span className="inline-flex items-center gap-1.5"><Icon name="cards" size={16} /> {total} cartes</span>
           <span className="inline-flex items-center gap-1.5"><Icon name="clock" size={16} /> ~{card.readingTime} min</span>
         </p>
-        <p className="text-xs opacity-75 leading-relaxed">
+        <p className="text-xs opacity-95 leading-relaxed">
           Glissez à droite ce que vous avez compris, à gauche ce qu'il faut revoir : ces cartes reviendront à la fin.
         </p>
       </div>

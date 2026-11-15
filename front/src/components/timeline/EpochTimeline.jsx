@@ -159,7 +159,7 @@ export default function EpochTimeline({ epoch, selectedId, onSelect, focusId }) 
           </FilterChip>
           {epoch.continents.map((c) => (
             <FilterChip key={c.id} active={continentId === c.id} onClick={() => setContinentId(c.id)}>
-              {c.label} <span className="opacity-60 tabular-nums">{c.civilizations.length}</span>
+              {c.label} <span className="text-muted tabular-nums">{c.civilizations.length}</span>
             </FilterChip>
           ))}
         </div>

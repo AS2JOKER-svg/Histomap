@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import useDocumentTitle from '../lib/useDocumentTitle'
 import { findCivilization } from '../lib/data'
@@ -5,6 +6,7 @@ import { MEDAILLE, avancementFilRouge, avancementMonde, etoiles, ouverture, titr
 import { emplacementsJokers, niveau, prochaineRecompense } from '../lib/xp'
 import { OBJECTIFS_SEMAINE, lundi } from '../lib/progression'
 import { choisi } from '../lib/cosmetiques'
+import { solidBg } from '../lib/color'
 import { PARCOURS_AVENTURE as P, useProgress } from '../store/progress'
 import PageHeader from '../components/ui/PageHeader'
 import Icon from '../components/ui/Icon'
@@ -29,6 +31,7 @@ export default function ProfilPage() {
   const choisirObjectif = useProgress((s) => s.choisirObjectif)
   const choisirTitre = useProgress((s) => s.choisirTitre)
   const choisirFilRouge = useProgress((s) => s.choisirFilRouge)
+  const [tousFils, setTousFils] = useState(false)
   const n = niveau(av.xp)
   const prochaine = prochaineRecompense(n.niveau)
   const titres = titresObtenus(P, av.salles)
@@ -142,12 +145,12 @@ export default function ProfilPage() {
       </Link>
 
       {/* Collections : fils rouges */}
-      <ul className="grid gap-2 mb-8">
-        {filsRouges.map((f) => (
+      <ul className="grid gap-2 mb-3">
+        {(tousFils ? filsRouges : filsRouges.slice(0, 5)).map((f) => (
           <li key={f.id}>
             <details className={`card group ${f.id === av.filRouge ? 'ring-2 ring-accent' : ''}`}>
               <summary className="p-3 min-h-[56px] flex items-center gap-3 cursor-pointer list-none">
-                <span aria-hidden="true" className="w-8 h-8 shrink-0 rounded-full grid place-items-center text-[11px] font-bold text-white" style={{ background: f.couleur ?? '#6e5a3c' }}>{f.label.slice(0, 2)}</span>
+                <span aria-hidden="true" className="w-8 h-8 shrink-0 rounded-full grid place-items-center text-[11px] font-bold text-white" style={{ background: solidBg(f.couleur ?? '#6e5a3c') }}>{f.label.slice(0, 2)}</span>
                 <span className="flex-1 min-w-0">
                   <span className="block font-semibold text-ink">
                     {f.label}
@@ -181,6 +184,10 @@ export default function ProfilPage() {
           </li>
         ))}
       </ul>
+
+      <button onClick={() => setTousFils(!tousFils)} aria-expanded={tousFils} className="btn-secondary h-11 w-full mb-8 text-sm">
+        {tousFils ? 'Replier les fils rouges' : `Voir les ${filsRouges.length} fils rouges`}
+      </button>
 
       <h2 className="font-display text-2xl font-semibold text-ink mb-3">Titres</h2>
       {titres.length ? (

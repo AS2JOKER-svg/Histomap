@@ -238,7 +238,9 @@ export function xpReponses(justes, { rejeu = false } = {}) {
  */
 export function terminerEpreuve(av, P, civId, note, justes, jour) {
   const salle = { medaille: 0, meilleur: null, essais: 0, ...av.salles[civId] }
-  const rejeu = salle.essais > 0
+  // Rejeu = salle déjà en or (on rejoue pour les étoiles) : XP des réponses divisée par deux.
+  // Une première réussite après un échec rapporte l'XP entière (équilibrage du sprint 24).
+  const rejeu = salle.medaille >= MEDAILLE.OR
   const evenements = []
   let next = {
     ...av,

@@ -1,13 +1,14 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { AnimatePresence, motion } from 'framer-motion'
-import { findCivilization, getStats } from '../lib/data'
+import { findCivilization, getStats, useCiv } from '../lib/data'
+import { useChapter } from '../lib/chapters'
 import { prepareQuestion, questionPool, rng, shuffle } from '../lib/quiz'
 import { haptic } from '../lib/haptics'
 import useDocumentTitle from '../lib/useDocumentTitle'
 import { BAREME } from '../lib/xp'
+import { solidBg } from '../lib/color'
 import { PARCOURS_AVENTURE as P, useProgress } from '../store/progress'
-import ChapterGate from '../components/revision/ChapterGate'
 import QuestionView from '../components/quiz/QuestionView'
 import { Particules } from '../components/celebration/elements'
 import { useEffet } from '../components/celebration/Celebrations'
@@ -58,7 +59,7 @@ export default function BienvenuePage() {
   return (
     <div className="fixed inset-0 z-[60] bg-bg flex flex-col overflow-y-auto" role="dialog" aria-modal="true" aria-label="Bienvenue dans HistoMap">
       <div className="w-full max-w-md mx-auto px-5 pt-[max(1rem,env(safe-area-inset-top))] flex items-center justify-between">
-        <div className="flex gap-1.5" aria-label={`Étape ${etape + 1} sur 4`}>
+        <div className="flex gap-1.5" role="img" aria-label={`Étape ${etape + 1} sur 4`}>
           {[0, 1, 2, 3].map((k) => <span key={k} className={`w-7 h-1 ${k <= etape ? 'bg-accent' : 'bg-line'}`} />)}
         </div>
         {etape < 3 && <button onClick={passer} className="min-h-[44px] px-2 text-sm font-semibold text-muted hover:text-ink">Passer</button>}
@@ -95,7 +96,7 @@ export default function BienvenuePage() {
                       aria-pressed={fil === f.id}
                       className={`min-h-[60px] p-2.5 text-left flex items-center gap-2.5 border transition ${fil === f.id ? 'border-accent ring-2 ring-accent bg-surface' : 'border-line bg-surface hover:border-muted'}`}
                     >
-                      <span aria-hidden="true" className="w-8 h-8 shrink-0 rounded-full grid place-items-center text-[12px] font-bold text-white" style={{ background: f.couleur ?? '#6e5a3c' }}>{f.label.slice(0, 2)}</span>
+                      <span aria-hidden="true" className="w-8 h-8 shrink-0 rounded-full grid place-items-center text-[12px] font-bold text-white" style={{ background: solidBg(f.couleur ?? '#6e5a3c') }}>{f.label.slice(0, 2)}</span>
                       <span className="text-sm font-semibold text-ink leading-tight">{f.label}</span>
                     </button>
                   ))}
@@ -115,14 +116,34 @@ export default function BienvenuePage() {
   )
 }
 
-/** 3 questions éclair sur la première salle de l'Aventure. */
+/**
+ * 3 questions éclair sur la première salle de l'Aventure. Le chapitre est chargé ici même
+ * (pas de ChapterGate : il s'affiche dans une couche à part, qui serait cachée sous cet écran).
+ */
 function Questions({ onFin }) {
   const ref = findCivilization(PREMIERE_SALLE)
+  const chapitre = useChapter(PREMIERE_SALLE)
+  const fiche = useCiv(PREMIERE_SALLE)
+  const pret = chapitre.status === 'ready' && fiche.status === 'ready'
+  const erreur = chapitre.status === 'error' || fiche.status === 'error'
+  const full = useMemo(() => (pret ? { ...ref, civ: fiche.civ, hand: chapitre.chapter } : null), [pret, ref, fiche.civ, chapitre.chapter])
   return (
     <>
       <p className="mt-6 eyebrow">Première salle · {ref.civ.label}</p>
       <h1 className="font-display text-3xl font-bold text-ink leading-tight mt-1">Trois questions pour te mettre en jambes</h1>
-      <ChapterGate refCiv={ref}>{(full) => <Serie refCiv={full} onFin={onFin} />}</ChapterGate>
+      {full ? (
+        <Serie refCiv={full} onFin={onFin} />
+      ) : erreur ? (
+        <div className="mt-6">
+          <p className="text-[15px] text-ink">Les questions n’ont pas pu être chargées (connexion ?). Tu les retrouveras dans la première salle.</p>
+          <button onClick={() => onFin(0)} className="btn-accent h-12 w-full mt-4 font-bold">Continuer</button>
+        </div>
+      ) : (
+        <div className="mt-6 space-y-3 animate-pulse" aria-busy="true" aria-label="Chargement des questions">
+          <div className="h-6 w-3/4 bg-surface2" />
+          {[0, 1, 2, 3].map((k) => <div key={k} className="h-14 bg-surface2" />)}
+        </div>
+      )}
     </>
   )
 }

@@ -100,11 +100,18 @@ export function avancementMonde(P, salles, w) {
   }
 }
 
-/** Salle en cours : la première salle ouverte du tronc (tous mondes confondus) sans l'argent. */
+/** Épreuve tentée sans succès (l'argent, des essais, pas encore l'or) : elle revient plus tard, « à retenter ». */
+const epreuveRatee = (salles, id) => medal(salles, id) === MEDAILLE.ARGENT && (salles?.[id]?.essais ?? 0) > 0
+
+/**
+ * Salle en cours : la première salle ouverte du tronc (tous mondes confondus) pas encore en or,
+ * sauf celles dont l'épreuve vient d'être ratée. On suit ainsi la boucle d'une salle
+ * (Découvrir → Approfondir → Épreuve) avant de passer à la suivante (équilibrage du sprint 24).
+ */
 export function salleEnCours(P, salles) {
   for (let w = 0; w < P.mondes.length; w++) {
     if (!mondeOuvert(P, salles, w)) return null
-    for (const id of P.mondes[w].tronc) if (medal(salles, id) < MEDAILLE.ARGENT && estOuvert(P, salles, id)) return id
+    for (const id of P.mondes[w].tronc) if (medal(salles, id) < MEDAILLE.OR && !epreuveRatee(salles, id) && estOuvert(P, salles, id)) return id
   }
   return null
 }
@@ -112,8 +119,8 @@ export function salleEnCours(P, salles) {
 /**
  * Étape du jour : une seule proposition → { civId, etape, raison } ou null.
  * Ordre (ARBORESCENCE.md § 3) : étape commencée et pas finie ; étape suivante de la salle
- * en cours du tronc ; épreuve ratée à retenter ; branche nouvellement ouverte ; puis
- * épreuves pas encore réussies et branches à approfondir.
+ * en cours du tronc (Épreuve comprise) ; épreuve ratée à retenter ; branche nouvellement
+ * ouverte ; puis le reste.
  */
 export function etapeDuJour(P, salles) {
   const ouvertes = P.ordre.filter((id) => estOuvert(P, salles, id))
@@ -123,7 +130,7 @@ export function etapeDuJour(P, salles) {
   const salle = salleEnCours(P, salles)
   if (salle) return { civId: salle, etape: etapeSuivante(medal(salles, salle)), raison: 'tronc' }
 
-  const ratee = ouvertes.find((id) => medal(salles, id) === MEDAILLE.ARGENT && (salles?.[id]?.essais ?? 0) > 0)
+  const ratee = ouvertes.find((id) => epreuveRatee(salles, id))
   if (ratee) return { civId: ratee, etape: 'epreuve', raison: 'retenter' }
 
   const branche = ouvertes.find((id) => !estTronc(P, id) && medal(salles, id) === MEDAILLE.AUCUNE)

@@ -116,7 +116,7 @@ export default function SalleSheet({ civId, salles, onClose, onPlay }) {
                   <span key={a.id} className="p-2.5 rounded-xl border border-dashed border-muted/50 flex items-center gap-2">
                     <Medaille medaille={a.medaille} ouvert={a.ouvert} taille={22} />
                     <span className="min-w-0">
-                      <span className="block font-display text-lg font-semibold text-ink leading-tight truncate">{a.label}</span>
+                      <span className="block font-display text-lg font-semibold text-ink leading-tight line-clamp-2">{a.label}</span>
                       <span className="block text-xs text-muted">{a.ouvert ? 'ouverte' : a.raison?.type === 'monde' ? 'monde pas encore ouvert' : 'après le bronze ici'}</span>
                     </span>
                   </span>

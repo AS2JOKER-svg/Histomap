@@ -1,11 +1,9 @@
 import { useEffect } from 'react'
 import { Link, useLocation, useOutlet } from 'react-router-dom'
 import { motion } from 'framer-motion'
-import { useUI } from '../store/ui'
 import { haptic } from '../lib/haptics'
 import Icon from '../components/ui/Icon'
 import ThemeToggle from '../components/ui/ThemeToggle'
-import Onboarding from '../components/Onboarding'
 import RefSheet from '../components/RefSheet'
 import Toaster from '../components/Toaster'
 import AppBanner from '../components/app/AppBanner'
@@ -33,9 +31,6 @@ export const isNavActive = (item, pathname) =>
 export default function AppShell() {
   const { pathname } = useLocation()
   const outlet = useOutlet()
-  const onboardingOpen = useUI((s) => s.onboardingOpen)
-  const openOnboarding = useUI((s) => s.openOnboarding)
-  const closeOnboarding = useUI((s) => s.closeOnboarding)
 
   useEffect(() => {
     window.scrollTo({ top: 0 })
@@ -95,9 +90,9 @@ export default function AppShell() {
             <Link to="/recherche" className="btn-icon" aria-label="Rechercher" title="Rechercher">
               <Icon name="search" />
             </Link>
-            <button onClick={openOnboarding} className="btn-icon" aria-label="Présentation de HistoMap" title="Présentation">
+            <Link to="/bienvenue" className="btn-icon" aria-label="Présentation de HistoMap" title="Présentation">
               <Icon name="info" />
-            </button>
+            </Link>
             <ThemeToggle />
           </div>
         </div>
@@ -122,7 +117,6 @@ export default function AppShell() {
 
       <MobileTabBar />
       <RefSheet />
-      <Onboarding open={onboardingOpen} onClose={closeOnboarding} />
       <Toaster />
     </div>
   )

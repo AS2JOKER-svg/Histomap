@@ -5,7 +5,7 @@ import { readFileSync } from 'fs'
 import { loadContent } from './lib/content.mjs'
 import { loadParcours, validateParcours } from './lib/parcours.mjs'
 import { MEDAILLE, createParcours, etapeDuJour, etoiles, mondeOuvert, ouverture, avancementMonde, titresObtenus } from '../src/lib/aventure.js'
-import { aventureVide, enregistrerActivite, gagnerXp, migrerV2, terminerEpreuve, terminerEtape, xpReponses, lundi } from '../src/lib/progression.js'
+import { aventureVide, enregistrerActivite, finOnboarding, gagnerXp, migrerV2, terminerEpreuve, terminerEtape, xpReponses, lundi } from '../src/lib/progression.js'
 import { emplacementsJokers, gainReponse, niveau, petitCoffre, prochaineRecompense, rang, recompensesNiveau, seuilNiveau } from '../src/lib/xp.js'
 
 let n = 0
@@ -220,6 +220,14 @@ test('migration v2 → v3 : médailles, XP, série et onboarding crédités', ()
   assert.equal(av.onboarding, true)
   assert.equal(av.niveauCredite, niveau(av.xp).niveau)
   assert.equal(migrerV2({}, P, today).onboarding, false)
+})
+
+test('onboarding : +50 XP et série une seule fois ; passer = sans récompense', () => {
+  const r = finOnboarding(aventureVide(), { filRouge: 'egypte' }, J(0))
+  assert.deepEqual([r.av.onboarding, r.av.filRouge, r.av.xp, r.av.serie.jours], [true, 'egypte', 50, 1])
+  assert.equal(finOnboarding(r.av, {}, J(1)).av.xp, 50) // revoir la présentation ne redonne rien
+  const passe = finOnboarding(aventureVide(), { recompense: false }, J(0))
+  assert.deepEqual([passe.av.onboarding, passe.av.xp], [true, 0])
 })
 
 // ── Validateur du parcours : il doit bloquer les erreurs ──────────────────────

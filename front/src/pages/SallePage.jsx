@@ -15,7 +15,7 @@ import { gainReponse, niveau } from '../lib/xp'
 import { xpReponses } from '../lib/progression'
 import { PARCOURS_AVENTURE as P, useProgress } from '../store/progress'
 import { useUI } from '../store/ui'
-import Celebrations, { aCelebrer, useEffet } from '../components/celebration/Celebrations'
+import { useApresCelebrations, useEffet } from '../components/celebration/Celebrations'
 import { Coffre, Particules, Rayons } from '../components/celebration/elements'
 import Icon from '../components/ui/Icon'
 import CardDeck from '../components/revision/CardDeck'
@@ -224,24 +224,6 @@ function EtapeFin({ refCiv, etape, evenements, justes, total }) {
       {ecran}
     </motion.div>
   )
-}
-
-/**
- * Les célébrations plein écran (niveaux, titres) passent avant l'action choisie (continuer, rejouer…),
- * une seule fois. → { faire(action), ecran }
- */
-function useApresCelebrations(evenements) {
-  const [suite, setSuite] = useState(null)
-  const [vu, setVu] = useState(false)
-  const fetes = aCelebrer(evenements)
-  const faire = (action) => {
-    if (fetes.length && !vu) {
-      setVu(true)
-      setSuite(() => action)
-    } else action()
-  }
-  const ecran = suite ? <Celebrations evenements={evenements} onFin={() => { setSuite(null); suite() }} /> : null
-  return { faire, ecran }
 }
 
 function Bloc({ valeur, label, ton }) {

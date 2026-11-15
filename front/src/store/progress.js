@@ -93,8 +93,25 @@ export const useProgress = create(
       choisirFilRouge(id) {
         set((s) => ({ aventure: { ...s.aventure, filRouge: id } }))
       },
-      terminerOnboarding() {
-        set((s) => ({ aventure: { ...s.aventure, onboarding: true } }))
+      /** Premier lancement terminé ({ filRouge, recompense }) : +50 XP la première fois. */
+      terminerOnboarding(options) {
+        if (options?.recompense !== false) get().touchDay()
+        return get().avancer((av) => prog.finOnboarding(av, options, today()))
+      },
+      /**
+       * Séance « À revoir » d'une salle : les cartes comprises et les questions réussies sortent
+       * des listes (toReview du chapitre, failed du quiz). Puis +20 XP une fois par jour.
+       */
+      terminerARevoir(civId, cartesOk, questionsOk) {
+        set((s) => {
+          const ch = s.chapters[civId]
+          const q = s.quizzes[civId]
+          return {
+            chapters: ch ? { ...s.chapters, [civId]: { ...ch, toReview: (ch.toReview ?? []).filter((id) => !cartesOk.includes(id)) } } : s.chapters,
+            quizzes: q ? { ...s.quizzes, [civId]: { ...q, failed: (q.failed ?? []).filter((id) => !questionsOk.includes(id)) } } : s.quizzes,
+          }
+        })
+        return get().seanceARevoir()
       },
       choisirTitre(id) {
         set((s) => ({ aventure: { ...s.aventure, titreAffiche: id } }))

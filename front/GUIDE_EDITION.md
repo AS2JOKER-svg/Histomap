@@ -281,7 +281,8 @@ Modèles : `content/wars/seconde-guerre-mondiale.json` (Guerres A), puis `guerre
 | Le plan du site (URLs) | `src/App.jsx` |
 | L'en-tête, la barre d'onglets mobile | `src/layouts/AppShell.jsx` |
 | L'Aventure (onglet par défaut : parcours, étape du jour) | `src/pages/AventurePage.jsx` ; règles : `src/lib/aventure.js`, `src/lib/xp.js`, `src/lib/progression.js` |
-| Le Profil | `src/pages/ProfilPage.jsx` |
+| Le Profil | `src/pages/ProfilPage.jsx` (séance « À revoir » : `src/pages/ARevoirPage.jsx`) |
+| Le premier lancement (bienvenue, fil rouge, 3 questions) | `src/pages/BienvenuePage.jsx` |
 | La bascule Frise / Carte de l'Atlas | `src/components/AtlasSwitch.jsx` |
 | La flèche des époques | `src/pages/TimelinePage.jsx` + `src/components/timeline/EpochRibbon.jsx` |
 | La frise d'une époque (toile, zoom, filtres) | `src/pages/EpochPage.jsx` + `src/components/timeline/EpochTimeline.jsx` |
@@ -294,7 +295,6 @@ Modèles : `content/wars/seconde-guerre-mondiale.json` (Guerres A), puis `guerre
 | La recherche globale | `src/pages/SearchPage.jsx` + `src/lib/search.js` (index : `src/data/search.json`, généré) |
 | L'onglet Guerres | `src/pages/WarsPage.jsx` (liste : `src/data/wars.json`, générée) |
 | Un dossier de guerre (phases, carte animée, quiz) | `src/pages/WarDossierPage.jsx` + `src/components/war/WarMap.jsx` + `src/lib/dossiers.js` ; compilation et validation : `scripts/lib/dossiers.mjs` |
-| La présentation au premier lancement | `src/components/Onboarding.jsx` |
 | Accès aux données (index léger, détail à la demande) | `src/lib/data.js` (`loadCiv`, `useCiv`) |
 | Compilation et validation du contenu | `scripts/build-content.mjs`, `scripts/validate-content.mjs`, `scripts/lib/` |
 | Liens `[[id]]` dans les textes | `src/lib/links.js` + `src/components/ui/RichText.jsx` |

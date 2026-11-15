@@ -299,6 +299,19 @@ export function seanceARevoir(av, jour) {
   return { av: r.av, evenements: [...evenements, ...r.evenements] }
 }
 
+/**
+ * Premier lancement terminé (fil rouge choisi, 3 questions éclair) : +50 XP et 1er jour de série,
+ * une seule fois. Passé ou revu plus tard : marqué terminé, sans récompense.
+ */
+export function finOnboarding(av, { filRouge = null, recompense = true } = {}, jour) {
+  let next = { ...av, onboarding: true, filRouge: filRouge ?? av.filRouge }
+  if (!recompense || av.coffres.includes('onboarding')) return { av: next, evenements: [] }
+  next = { ...next, coffres: [...next.coffres, 'onboarding'] }
+  const r1 = enregistrerActivite(next, jour)
+  const r2 = gagnerXp(r1.av, BAREME.onboarding, 'onboarding', jour)
+  return { av: r2.av, evenements: [...r1.evenements, ...r2.evenements] }
+}
+
 /** Objectif de la semaine (300, 600 ou 1 000 XP). */
 export const choisirObjectif = (av, objectif) => (OBJECTIFS_SEMAINE.includes(objectif) ? { ...av, semaine: { ...av.semaine, objectif } } : av)
 

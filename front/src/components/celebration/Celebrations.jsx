@@ -117,3 +117,22 @@ export default function Celebrations({ evenements, onFin }) {
     </div>
   )
 }
+
+/**
+ * Les célébrations plein écran (niveaux, titres) passent avant l'action choisie (continuer, rejouer…),
+ * une seule fois. → { faire(action), ecran }
+ */
+export function useApresCelebrations(evenements) {
+  const [suite, setSuite] = useState(null)
+  const [vu, setVu] = useState(false)
+  const fetes = aCelebrer(evenements)
+  const faire = (action) => {
+    if (fetes.length && !vu) {
+      setVu(true)
+      setSuite(() => action)
+    } else action()
+  }
+  const ecran = suite ? <Celebrations evenements={evenements} onFin={() => { setSuite(null); suite() }} /> : null
+  return { faire, ecran }
+}
+

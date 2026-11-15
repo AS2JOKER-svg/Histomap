@@ -13,6 +13,8 @@ const MapPage = lazy(() => import('./pages/MapPage'))
 const ProfilPage = lazy(() => import('./pages/ProfilPage'))
 const MondesPage = lazy(() => import('./pages/MondesPage'))
 const SallePage = lazy(() => import('./pages/SallePage'))
+const BienvenuePage = lazy(() => import('./pages/BienvenuePage'))
+const ARevoirPage = lazy(() => import('./pages/ARevoirPage'))
 const WarsPage = lazy(() => import('./pages/WarsPage'))
 const WarDossierPage = lazy(() => import('./pages/WarDossierPage'))
 const SearchPage = lazy(() => import('./pages/SearchPage'))
@@ -23,6 +25,8 @@ const NotFoundPage = lazy(() => import('./pages/NotFoundPage'))
  * Plan du site
  *   /                         Aventure : le parcours (?monde=<époque>) — onglet par défaut (V3)
  *   /aventure/mondes          Les cinq mondes (avancement, titres, verrous)
+ *   /aventure/a-revoir/:civId Séance « À revoir » d'une salle (cartes à revoir + questions ratées)
+ *   /bienvenue                Premier lancement : fil rouge, 3 questions, première récompense
  *   /atlas                    Atlas : ouvre la dernière vue (Frise ou Carte)
  *   /profil                   Profil : niveau, série, titres, fils rouges
  *   /frise                    Frise des époques (Atlas)
@@ -46,6 +50,8 @@ export default function App() {
         <Route path="aventure" element={<Navigate to="/" replace />} />
         <Route path="aventure/mondes" element={<Lazy><MondesPage /></Lazy>} />
         <Route path="aventure/salle/:civId/:etape" element={<Lazy><SallePage /></Lazy>} />
+        <Route path="aventure/a-revoir/:civId" element={<Lazy><ARevoirPage /></Lazy>} />
+        <Route path="bienvenue" element={<Lazy><BienvenuePage /></Lazy>} />
         <Route path="atlas" element={<AtlasRedirect />} />
         <Route path="profil" element={<Lazy><ProfilPage /></Lazy>} />
         <Route path="frise" element={<Lazy><TimelinePage /></Lazy>} />

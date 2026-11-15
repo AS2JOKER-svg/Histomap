@@ -1,23 +1,12 @@
 /**
- * ui.js — État d'interface global (non persisté, sauf « présentation déjà vue »)
+ * ui.js — État d'interface global (non persisté). Le premier lancement est suivi par
+ * l'Aventure (aventure.onboarding, store/progress.js) : page /bienvenue.
  */
 import { create } from 'zustand'
-import { load, save } from '../lib/storage'
 
-const ONBOARDING_KEY = 'histomap_onboarding_done'
-// Ancienne fenêtre de bienvenue : quelqu'un qui l'a déjà vue ne revoit pas la présentation
-const LEGACY_WELCOME_KEY = 'histomap_welcome_seen'
 let toastTimer = null
 
 export const useUI = create((set) => ({
-  /** Présentation en 3 écrans, au premier lancement (et via le bouton « Présentation »). */
-  onboardingOpen: !load(ONBOARDING_KEY, false) && !load(LEGACY_WELCOME_KEY, false),
-  openOnboarding: () => set({ onboardingOpen: true }),
-  closeOnboarding: () => {
-    save(ONBOARDING_KEY, true)
-    set({ onboardingOpen: false })
-  },
-
   /**
    * Aperçu d'une fiche (feuille du bas), ouvert depuis un mot souligné, un dirigeant, une guerre… :
    *   { id }                       fiche liée ou civilisation (chargée par l'aperçu)

@@ -1,5 +1,5 @@
 import { useCallback } from 'react'
-import { Link, useSearchParams } from 'react-router-dom'
+import { Link, Navigate, useSearchParams } from 'react-router-dom'
 import { AnimatePresence } from 'framer-motion'
 import { findCivilization } from '../lib/data'
 import { formatYear } from '../lib/time'
@@ -53,6 +53,9 @@ export default function AventurePage() {
     return next
   }, { replace: true }), [setParams])
   const jouer = (civId, etape) => commencer(civId, etape)
+
+  // Premier lancement : la bienvenue d'abord
+  if (!av.onboarding) return <Navigate to="/bienvenue" replace />
 
   return (
     <section className="max-w-xl mx-auto">

@@ -29,6 +29,7 @@ export const BAREME = {
   ficheLue: 5, // fiche lue pour la 1re fois dans l'Atlas
   express: 5, // bonne réponse au quiz express d'une fiche liée (1re fois)
   aRevoir: 20, // séance « À revoir » (une par jour)
+  onboarding: 50, // premier lancement terminé (une seule fois)
   filRouge: 150, // coffre de fil rouge
   monde: 300, // grand coffre de monde
 }

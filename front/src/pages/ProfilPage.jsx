@@ -7,6 +7,7 @@ import { emplacementsJokers, niveau, prochaineRecompense } from '../lib/xp'
 import { OBJECTIFS_SEMAINE, lundi } from '../lib/progression'
 import { choisi } from '../lib/cosmetiques'
 import { solidBg } from '../lib/color'
+import { useAudio } from '../store/audio'
 import { PARCOURS_AVENTURE as P, useProgress } from '../store/progress'
 import PageHeader from '../components/ui/PageHeader'
 import Icon from '../components/ui/Icon'
@@ -207,6 +208,9 @@ export default function ProfilPage() {
         <p className="text-sm text-muted mb-8">Termine tout le tronc d’un monde en or, ou tout un fil rouge, pour gagner ton premier titre.</p>
       )}
 
+      <h2 className="font-display text-2xl font-semibold text-ink mb-3">Sons et musique</h2>
+      <ReglagesAudio />
+
       <h2 className="font-display text-2xl font-semibold text-ink mb-3">Personnaliser</h2>
       <div className="mb-8">
         <Personnaliser />
@@ -232,6 +236,29 @@ function CarteProfil({ av, n, titres }) {
           {av.filRouge && <p className="text-xs mt-0.5" style={{ color: '#c9b48c' }}>Fil rouge : {P.filsRouges.find((f) => f.id === av.filRouge)?.label}</p>}
         </div>
       </div>
+    </div>
+  )
+}
+
+function ReglagesAudio() {
+  const { sons, musique, setSons, setMusique } = useAudio()
+  const lignes = [
+    ['Sons de l’interface', 'Cartes, bonnes réponses, médailles, coffres', sons, setSons],
+    ['Musique d’ambiance', 'Une ambiance par région du monde, générée dans l’app', musique, setMusique],
+  ]
+  return (
+    <div className="card divide-y divide-line mb-8">
+      {lignes.map(([titre, detail, on, set]) => (
+        <button key={titre} role="switch" aria-checked={on} onClick={() => set(!on)} className="w-full min-h-[60px] px-4 py-3 flex items-center gap-3 text-left">
+          <span className="flex-1">
+            <span className="block font-semibold text-ink">{titre}</span>
+            <span className="block text-xs text-muted">{detail}</span>
+          </span>
+          <span aria-hidden="true" className={`w-12 h-7 rounded-full p-1 transition ${on ? 'bg-accentbtn' : 'bg-line'}`}>
+            <span className={`block w-5 h-5 rounded-full bg-surface shadow-soft transition ${on ? 'translate-x-5' : ''}`} />
+          </span>
+        </button>
+      ))}
     </div>
   )
 }

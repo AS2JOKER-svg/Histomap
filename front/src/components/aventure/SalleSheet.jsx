@@ -125,9 +125,14 @@ export default function SalleSheet({ civId, salles, onClose, onPlay }) {
             </div>
           )}
 
-          <Link to={`/frise/${ref.epoch.id}/${civId}`} className="btn-secondary w-full h-12 mt-4">
-            <Icon name="book" size={18} /> Lire la fiche dans l’Atlas
-          </Link>
+          <div className="grid grid-cols-2 gap-2 mt-4">
+            <Link to={`/frise/${ref.epoch.id}/${civId}`} className="btn-secondary h-12 text-sm">
+              <Icon name="book" size={18} /> Lire la fiche
+            </Link>
+            <Link to={`/defi/${civId}`} className="btn-secondary h-12 text-sm">
+              <Icon name="users" size={18} /> Défier un ami
+            </Link>
+          </div>
         </motion.section>
       </div>
     </>

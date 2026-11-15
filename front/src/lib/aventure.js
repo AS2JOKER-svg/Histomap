@@ -117,15 +117,41 @@ export function salleEnCours(P, salles) {
 }
 
 /**
- * Étape du jour : une seule proposition → { civId, etape, raison } ou null.
- * Ordre (ARBORESCENCE.md § 3) : étape commencée et pas finie ; étape suivante de la salle
- * en cours du tronc (Épreuve comprise) ; épreuve ratée à retenter ; branche nouvellement
- * ouverte ; puis le reste.
+ * Erreurs à revoir, salle par salle (cartes marquées « à revoir » + questions ratées à l'épreuve)
+ * → [{ civId, nb, jours }], « jours » = ancienneté du plus vieux passage concerné.
  */
-export function etapeDuJour(P, salles) {
+export const REVISION = { seuil: 5, jours: 3, parSeance: 6 }
+export function listeARevoir(chapters = {}, quizzes = {}, maintenant = Date.now()) {
+  const ids = new Set([...Object.keys(chapters), ...Object.keys(quizzes)])
+  const out = []
+  for (const civId of ids) {
+    const cartes = chapters[civId]?.toReview?.length ?? 0
+    const questions = quizzes[civId]?.failed?.length ?? 0
+    if (!cartes && !questions) continue
+    const dates = [cartes && chapters[civId]?.finishedAt, questions && quizzes[civId]?.lastAt].filter(Boolean)
+    const jours = dates.length ? Math.floor((maintenant - Math.min(...dates)) / 86400000) : 0
+    out.push({ civId, nb: cartes + questions, jours })
+  }
+  return out
+}
+
+/**
+ * Étape du jour : une seule proposition → { civId, etape, raison } ou null.
+ * Ordre (ARBORESCENCE.md § 3) : étape commencée et pas finie ; séance « À revoir » quand une salle
+ * a accumulé des erreurs (≥ 5, ou en attente depuis 3 jours ; une séance par jour, sprint 25) ;
+ * étape suivante de la salle en cours du tronc (Épreuve comprise) ; épreuve ratée à retenter ;
+ * branche nouvellement ouverte ; puis le reste.
+ * `options` : { aRevoir: listeARevoir(…), revisionFaite: séance « À revoir » déjà faite aujourd'hui }.
+ */
+export function etapeDuJour(P, salles, { aRevoir = [], revisionFaite = false } = {}) {
   const ouvertes = P.ordre.filter((id) => estOuvert(P, salles, id))
   const enCours = ouvertes.find((id) => ETAPES.includes(salles?.[id]?.enCours))
   if (enCours) return { civId: enCours, etape: salles[enCours].enCours, raison: 'reprendre' }
+
+  if (!revisionFaite) {
+    const due = aRevoir.filter((r) => r.nb >= REVISION.seuil || r.jours >= REVISION.jours).sort((a, b) => b.nb - a.nb)[0]
+    if (due) return { civId: due.civId, etape: 'a-revoir', raison: 'a-revoir', nb: due.nb }
+  }
 
   const salle = salleEnCours(P, salles)
   if (salle) return { civId: salle, etape: etapeSuivante(medal(salles, salle)), raison: 'tronc' }

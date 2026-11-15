@@ -26,11 +26,11 @@ Comparaison entre ce qui a été demandé au départ (analyse produit du 13/11, 
 | Un parcours guidé « Aventure », onglet par défaut | ✅ | `#/` : 5 mondes, rail des salles, médailles, verrous expliqués |
 | Une seule action évidente à l'ouverture | ✅ | Étape du jour collée en bas ; elle suit la boucle d'une salle (sprint 24) |
 | Parcours d'apprentissage avec étapes et récompenses | ✅ | 51 salles de tronc, 163 annexes, 5 mondes |
-| Boucle courte : découverte → vérification → célébration | ⚠️ | Découvrir = les cartes essentielles du chapitre (≈ 9) + 3 questions, au lieu de 3 à 5 cartes : on a gardé le contenu existant sans le réécrire (décision du 13/11). Durée ≈ 3 à 5 min. |
+| Boucle courte : découverte → vérification → célébration | ✅ | Découvrir = les cartes essentielles du chapitre (≈ 9) + 3 questions : le contenu existant est gardé tel quel (décision du 13/11). Depuis le sprint 25, au-delà de 8 cartes, une question arrive au milieu du paquet : on ne lit jamais plus de 4 ou 5 cartes sans être interrogé. |
 | Atlas = Frise + Carte, bascule en un geste | ✅ | `AtlasSwitch`, dernière vue mémorisée |
 | Récits et guerres | ✅ | Onglet Guerres, 5 dossiers |
 | Profil et maîtrise : statistiques, série, trophées, révision | ✅ | Profil complet, « À revoir » |
-| Révision **espacée** | ⚠️ | « À revoir » reprend cartes et questions ratées, mais sans calendrier de répétition espacée (rappel à J+1, J+3, J+7…). Piste pour une V3.1. |
+| Révision **espacée** | ✅ | Version simple (sprint 25) : les erreurs reviennent d'elles-mêmes dans l'étape du jour dès qu'une salle en compte 5, ou quand la plus ancienne a 3 jours ; une fois par jour, 6 cartes et 6 questions au plus ; une erreur réussie sort de la liste. Pas de calendrier J+1, J+3, J+7 question par question. |
 | Maîtrise bronze, argent, or par civilisation | ✅ | Découvrir → bronze, Approfondir → argent, Épreuve ≥ 15 → or |
 | Jauges de complétion par époque | ✅ | Bandeau du monde, page des cinq mondes, Profil |
 | Célébrations : animations, vibrations, récap partageable | ✅ | Sprint 22. Vibrations et partage natif **à vérifier sur un vrai téléphone** |
@@ -100,8 +100,10 @@ Comparaison entre ce qui a été demandé au départ (analyse produit du 13/11, 
 1. **Sur un vrai téléphone Android** : vibrations, partage natif de l'image, fluidité des animations, installation de l'app. Je n'ai pu tester que dans un navigateur automatisé.
 2. **L'écran de réussite d'épreuve** (rayons, médaille, coffre) n'a pas été vu en recette automatique, car il faut répondre juste. Il est vérifié par rendu hors navigateur seulement.
 3. ✅ **Questions générées à partir des dates clés** : corrigé le 15/11/2026, voir le § 6.
-4. **Révision espacée** : non faite (voir § 1). Les fiches restent détaillées, par décision du 15/11/2026.
+4. ✅ **Révision espacée** : version simple faite au sprint 25 (voir § 7). Les fiches restent détaillées, par décision du 15/11/2026.
 5. **Niveau 50** : atteint vers 80 % du contenu total. C'est voulu (il reste des annexes à finir pour les titres), mais réglable.
+6. **Sons et musique sur un vrai téléphone** : volume, équilibre entre la musique et les sons, coupure quand l'app passe en arrière-plan. Vérifiés seulement dans un navigateur automatisé (des notes sont bien jouées, plus aucune après la coupure).
+7. **Lien de défi** : il ouvre le site (ou l'app installée si le système le propose). Les deux joueurs doivent avoir la même version de l'app pour recevoir exactement les mêmes questions.
 
 ## 6. Correctif des questions générées (15/11/2026)
 
@@ -124,3 +126,24 @@ Comparaison entre ce qui a été demandé au départ (analyse produit du 13/11, 
 | Questions sur les dates clés avec un titre d'un seul mot | 41 % | 0 % |
 | Questions rédigées à la main dans les Épreuves | 22 % | 70 % |
 | Leurres hors du continent pour les questions d'événements | oui | non |
+
+## 7. Sprint 25 : finitions de sortie (15/11/2026)
+
+**Ajouté.**
+- **Erreurs à revoir dans l'étape du jour** (`listeARevoir`, `etapeDuJour` dans `src/lib/aventure.js`) : proposées dès 5 erreurs dans une salle, ou quand la plus ancienne date de 3 jours ; une seule fois par jour ; séance plafonnée à 6 cartes et 6 questions.
+- **Question au milieu de Découvrir** : au-delà de 8 cartes, la 1re question éclair arrive à mi-paquet.
+- **Sons d'interface** (`src/lib/sons.js`) : carte, bonne réponse (de plus en plus aiguë avec le combo), erreur (douce), fin d'étape, médaille, niveau, coffre. Tout est synthétisé dans le navigateur, sans fichier son.
+- **Musique d'ambiance** (`src/lib/musique.js`) : 12 ambiances (Préhistoire, Orient, Méditerranée, Moyen Âge européen, Asie de l'Est, Inde, gamelan, Afrique, Amériques, Océanie, baroque, contemporain), choisies selon la région et l'époque de la salle ou de la fiche ouverte ; boucles d'environ 48 s ; **désactivée par défaut**, bouton dans l'en-tête et réglage dans le Profil.
+- **Défis**, sans serveur ni compte (`/defis`) :
+  - défi par lien : on joue 10 questions, on envoie le lien (partage natif, sinon copie) ; la graine dans l'URL donne exactement les mêmes questions à l'ami, qui voit le score à battre puis le verdict ;
+  - à deux sur le même téléphone : chacun son tour, écran « Passe le téléphone » qui cache le premier score, revanche avec de nouvelles questions ;
+  - quiz infini : questions sans fin sur les salles découvertes, série et record.
+  - Aucun défi ne rapporte d'XP ni ne change la progression.
+
+**Vérifié.**
+- Recette dans un navigateur automatisé (390 × 844) : étape du jour « 7 erreurs à revoir », question au milieu de Découvrir (Carthage), musique activée sur une fiche, défi créé et joué, défi reçu avec verdict, défi à deux jusqu'à la revanche, quiz infini et sa pause : **0 erreur de console**.
+- Audio : la musique joue des notes en continu (9 en 4 s) et plus aucune après la coupure ; une réponse déclenche son son.
+- axe-core WCAG AA : 17 écrans × 2 thèmes. Une violation trouvée et corrigée : le bouton vert « Compris » des cartes manquait de contraste en sombre (texte passé à la couleur du fond).
+- Tournures corrigées : « 10 questions sur Égypte antique » (article manquant) ; champ prénom avec un vrai repère de focus.
+- `npm run build` : contenu valide, 214 chapitres, 29 tests (dont l'étape du jour « À revoir » et les défis : même graine = mêmes questions, lien lu et nettoyé).
+

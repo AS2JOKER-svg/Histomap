@@ -7,6 +7,8 @@ import { prepareQuestion, questionPool } from '../lib/quiz'
 import { haptic } from '../lib/haptics'
 import useDocumentTitle from '../lib/useDocumentTitle'
 import { useProgress } from '../store/progress'
+import { REVISION } from '../lib/aventure'
+import { useAmbiance } from '../lib/musique'
 import Icon from '../components/ui/Icon'
 import CardDeck from '../components/revision/CardDeck'
 import ChapterGate from '../components/revision/ChapterGate'
@@ -24,6 +26,7 @@ export default function ARevoirPage() {
   const cartes = useProgress((s) => s.chapters[civId]?.toReview ?? [])
   const questions = useProgress((s) => s.quizzes[civId]?.failed ?? [])
   useDocumentTitle(ref ? `À revoir · ${ref.civ.label}` : 'À revoir')
+  useAmbiance(ref ? civId : null)
   // Rien à revoir (ou plus rien) : retour au Profil
   const [depart] = useState(() => cartes.length + questions.length)
   if (!ref || !depart) return <Navigate to="/profil" replace />
@@ -35,7 +38,8 @@ function Seance({ refCiv, cartesIds, questionsIds }) {
   const navigate = useNavigate()
   const terminer = useProgress((s) => s.terminerARevoir)
   // Liste figée au début de la séance (le store change à la fin)
-  const [ids] = useState(() => ({ cartes: cartesIds, questions: questionsIds }))
+  // Séance courte : au plus 6 cartes et 6 questions (le reste attend la séance suivante)
+  const [ids] = useState(() => ({ cartes: cartesIds.slice(0, REVISION.parSeance), questions: questionsIds.slice(0, REVISION.parSeance) }))
   const byId = useMemo(() => Object.fromEntries(chapterCards(refCiv).map((c) => [c.id, c])), [refCiv])
   const cartes = useMemo(() => [...ids.cartes.map((id) => byId[id]).filter(Boolean), byId.recap].filter(Boolean), [ids, byId])
   const questions = useMemo(() => {

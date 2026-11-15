@@ -5,13 +5,14 @@ import { findCivilization } from '../lib/data'
 import { formatYear } from '../lib/time'
 import { haptic } from '../lib/haptics'
 import useDocumentTitle from '../lib/useDocumentTitle'
-import { MEDAILLE, avancementMonde, estTronc, etapeDuJour, etoiles, ouverture, salleEnCours } from '../lib/aventure'
+import { MEDAILLE, REVISION, avancementMonde, estTronc, etapeDuJour, etoiles, listeARevoir, ouverture, salleEnCours } from '../lib/aventure'
 import { BAREME, niveau } from '../lib/xp'
 import { PARCOURS_AVENTURE as P, useProgress } from '../store/progress'
 import Icon from '../components/ui/Icon'
 import Medaille, { ETAPE_LABEL } from '../components/aventure/Medaille'
 import SalleSheet from '../components/aventure/SalleSheet'
 import { lienEtape, raisonVerrou } from '../components/aventure/liens'
+import { useAmbiance } from '../lib/musique'
 
 /**
  * Aventure (onglet par défaut, V3) — maquette 1 du sprint 16, direction « Musée vivant ».
@@ -24,6 +25,11 @@ const DETAIL_ETAPE = {
   decouvrir: { duree: '3 min', texte: `Cartes essentielles + 3 questions · +${BAREME.decouvrir} XP · bronze` },
   approfondir: { duree: '3 min', texte: `Cartes + 5 questions · +${BAREME.approfondir} XP · argent` },
   epreuve: { duree: '5 min', texte: '20 questions · jusqu’à 400 XP · or' },
+  'a-revoir': { duree: '2 min', texte: 'Tes erreurs, pour bien les retenir · +20 XP' },
+}
+const aujourdhui = () => {
+  const d = new Date()
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`
 }
 
 export default function AventurePage() {
@@ -32,13 +38,18 @@ export default function AventurePage() {
   const commencer = useProgress((s) => s.commencerEtape)
   const [params, setParams] = useSearchParams()
   const salles = av.salles
+  const chapters = useProgress((s) => s.chapters)
+  const quizzes = useProgress((s) => s.quizzes)
 
-  const jour = etapeDuJour(P, salles)
+  // Étape du jour, erreurs à revoir comprises (une séance « À revoir » par jour au plus)
+  const jour = etapeDuJour(P, salles, { aRevoir: listeARevoir(chapters, quizzes), revisionFaite: av.aRevoirJour === aujourdhui() })
   const enCours = salleEnCours(P, salles)
   const mondeCourant = Math.max(0, P.monde.get(enCours ?? jour?.civId) ?? 0)
   const demande = P.mondes.findIndex((m) => m.epoque === params.get('monde'))
   const w = demande >= 0 ? demande : mondeCourant
   const monde = P.mondes[w]
+  // ambiance : celle de la salle en cours du monde affiché (ou de sa première salle)
+  useAmbiance(enCours && P.monde.get(enCours) === w ? enCours : monde.tronc[0])
   const avancement = avancementMonde(P, salles, w)
   const n = niveau(av.xp)
 
@@ -52,7 +63,8 @@ export default function AventurePage() {
     delete next.salle
     return next
   }, { replace: true }), [setParams])
-  const jouer = (civId, etape) => commencer(civId, etape)
+  // « À revoir » n'est pas une étape de salle : rien à noter comme commencé
+  const jouer = (civId, etape) => etape !== 'a-revoir' && commencer(civId, etape)
 
   // Premier lancement : la bienvenue d'abord
   if (!av.onboarding) return <Navigate to="/bienvenue" replace />
@@ -72,6 +84,9 @@ export default function AventurePage() {
         </div>
         <Link to="/profil" className="h-10 px-3 inline-flex items-center gap-1 border border-line text-accent font-bold text-sm" aria-label={`Série de ${av.serie.jours} jour(s), ${av.serie.jokers} joker(s) en réserve`}>
           <Icon name="flame" size={17} /> {av.serie.jours}
+        </Link>
+        <Link to="/defis" className="h-10 w-11 inline-flex items-center justify-center border border-line text-ink" aria-label="Défis entre amis" title="Défis entre amis">
+          <Icon name="users" size={18} />
         </Link>
       </div>
 
@@ -125,7 +140,7 @@ export default function AventurePage() {
           <div className="p-3.5 bg-surface border border-muted/40 shadow-lift flex items-center gap-3">
             <div className="flex-1 min-w-0">
               <p className="text-[11px] font-bold uppercase tracking-[.12em] text-accent">
-                {jour.raison === 'reprendre' ? 'À reprendre' : jour.raison === 'retenter' ? 'Retente l’épreuve' : 'Ton étape du jour'} · {DETAIL_ETAPE[jour.etape].duree}
+                {jour.raison === 'reprendre' ? 'À reprendre' : jour.raison === 'retenter' ? 'Retente l’épreuve' : jour.raison === 'a-revoir' ? `${Math.min(jour.nb, 2 * REVISION.parSeance)} erreurs à revoir` : 'Ton étape du jour'} · {DETAIL_ETAPE[jour.etape].duree}
               </p>
               <p className="font-display text-[21px] font-bold text-ink leading-[1.1] line-clamp-2">
                 {findCivilization(jour.civId)?.civ.label} — {ETAPE_LABEL[jour.etape]}

@@ -54,7 +54,7 @@ export default function QuestionView({ question: q, index, total, civ, answered,
     >
       <div className="flex-1 min-h-0 overflow-y-auto overscroll-contain pb-4">
         <p className="eyebrow mb-2 civ-text" style={civTextStyle(civ.color)}>
-          Question {index + 1} / {total} · {TYPE_LABEL[q.type]}
+          Question {index + 1}{total ? ` / ${total}` : ''} · {TYPE_LABEL[q.type]}
         </p>
         <h2 className="font-display text-xl sm:text-2xl font-semibold text-ink leading-snug text-balance">{q.prompt}</h2>
 

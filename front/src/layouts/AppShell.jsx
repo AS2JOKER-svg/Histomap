@@ -9,10 +9,11 @@ import Toaster from '../components/Toaster'
 import AppBanner from '../components/app/AppBanner'
 import { useProgress } from '../store/progress'
 import { appliquerTheme, choisi } from '../lib/cosmetiques'
+import { useAudio } from '../store/audio'
 
 // Barre à 4 onglets (V3, sprint 19). `match` : débuts d'adresse qui allument l'onglet.
 export const NAV = [
-  { to: '/',        label: 'Aventure', icon: 'compass', match: ['/aventure', '/reviser'], exact: '/' },
+  { to: '/',        label: 'Aventure', icon: 'compass', match: ['/aventure', '/reviser', '/defis', '/defi', '/entrainement', '/bienvenue'], exact: '/' },
   { to: '/atlas',   label: 'Atlas',    icon: 'atlas',   match: ['/atlas', '/frise', '/carte', '/fiche', '/recherche'] },
   { to: '/guerres', label: 'Guerres',  icon: 'swords',  match: ['/guerres'] },
   { to: '/profil',  label: 'Profil',   icon: 'user',    match: ['/profil'] },
@@ -93,6 +94,7 @@ export default function AppShell() {
             <Link to="/bienvenue" className="btn-icon" aria-label="Présentation de HistoMap" title="Présentation">
               <Icon name="info" />
             </Link>
+            <BoutonMusique />
             <ThemeToggle />
           </div>
         </div>
@@ -119,6 +121,24 @@ export default function AppShell() {
       <RefSheet />
       <Toaster />
     </div>
+  )
+}
+
+/** Musique d'ambiance (coupée par défaut) : un geste pour l'activer ou la couper. */
+function BoutonMusique() {
+  const musique = useAudio((s) => s.musique)
+  const setMusique = useAudio((s) => s.setMusique)
+  return (
+    <button
+      onClick={() => setMusique(!musique)}
+      aria-pressed={musique}
+      className={`btn-icon relative ${musique ? 'text-accent' : ''}`}
+      aria-label={musique ? 'Couper la musique d’ambiance' : 'Activer la musique d’ambiance'}
+      title={musique ? 'Musique : activée' : 'Musique : coupée'}
+    >
+      <Icon name="music" />
+      {!musique && <span aria-hidden="true" className="absolute w-6 h-[2px] bg-current rotate-45 rounded" />}
+    </button>
   )
 }
 

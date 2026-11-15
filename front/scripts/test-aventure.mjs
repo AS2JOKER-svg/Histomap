@@ -4,8 +4,9 @@ import assert from 'node:assert/strict'
 import { readFileSync } from 'fs'
 import { loadContent } from './lib/content.mjs'
 import { loadParcours, validateParcours } from './lib/parcours.mjs'
-import { MEDAILLE, createParcours, etapeDuJour, etoiles, mondeOuvert, ouverture, avancementMonde, titresObtenus } from '../src/lib/aventure.js'
+import { MEDAILLE, createParcours, etapeDuJour, listeARevoir, etoiles, mondeOuvert, ouverture, avancementMonde, titresObtenus } from '../src/lib/aventure.js'
 import { aventureVide, enregistrerActivite, finOnboarding, gagnerXp, migrerV2, terminerEpreuve, terminerEtape, xpReponses, lundi } from '../src/lib/progression.js'
+import { lienDefi, lireDefi, nouvelleGraine, questionsDefi, verdict } from '../src/lib/defi.js'
 import { emplacementsJokers, gainReponse, niveau, petitCoffre, prochaineRecompense, rang, recompensesNiveau, seuilNiveau } from '../src/lib/xp.js'
 
 let n = 0
@@ -78,6 +79,19 @@ test('étape du jour : reprendre, retenter une épreuve, puis une branche', () =
   const d = etapeDuJour(P, base)
   assert.equal(d.raison, 'branche')
   assert.equal(d.etape, 'decouvrir')
+})
+
+test('erreurs à revoir : proposées dans l’étape du jour (≥ 5 ou 3 jours), une fois par jour', () => {
+  const now = Date.UTC(2026, 10, 20)
+  const jour = 86400000
+  const chapters = { carthage: { toReview: ['a', 'b'], finishedAt: now - jour }, rome: { toReview: ['x'], finishedAt: now - 4 * jour } }
+  const quizzes = { carthage: { failed: ['q1', 'q2', 'q3'], lastAt: now - jour } }
+  const liste = listeARevoir(chapters, quizzes, now)
+  assert.deepEqual(liste.find((r) => r.civId === 'carthage'), { civId: 'carthage', nb: 5, jours: 1 })
+  assert.deepEqual(liste.find((r) => r.civId === 'rome'), { civId: 'rome', nb: 1, jours: 4 })
+  assert.deepEqual(etapeDuJour(P, {}, { aRevoir: liste }), { civId: 'carthage', etape: 'a-revoir', raison: 'a-revoir', nb: 5 })
+  assert.equal(etapeDuJour(P, {}, { aRevoir: liste, revisionFaite: true }).etape, 'decouvrir') // déjà faite aujourd'hui
+  assert.equal(etapeDuJour(P, {}, { aRevoir: [{ civId: 'egypte', nb: 2, jours: 1 }] }).etape, 'decouvrir') // pas encore dû
 })
 
 test('avancement d’un monde et titres de collection', () => {
@@ -233,6 +247,33 @@ test('onboarding : +50 XP et série une seule fois ; passer = sans récompense',
   assert.equal(finOnboarding(r.av, {}, J(1)).av.xp, 50) // revoir la présentation ne redonne rien
   const passe = finOnboarding(aventureVide(), { recompense: false }, J(0))
   assert.deepEqual([passe.av.onboarding, passe.av.xp], [true, 0])
+})
+
+// ── Défis entre amis (lib/defi.js) ───────────────────────────────────────────
+test('défi : mêmes 10 questions pour une graine, 7 rédigées, pas de carte', () => {
+  const pool = [
+    ...Array.from({ length: 12 }, (_, i) => ({ id: `hand-q${i}`, type: 'mcq', prompt: `Q${i}`, options: ['a', 'b', 'c'], answer: 0 })),
+    ...Array.from({ length: 20 }, (_, i) => ({ id: `date-year-${i}`, type: 'mcq', prompt: `D${i}`, options: ['1', '2', '3'], answer: 0 })),
+    { id: 'map', type: 'map', prompt: 'Carte', options: ['x', 'y', 'z'], answer: 0 },
+  ]
+  const a = questionsDefi(pool, 'abc234')
+  const b = questionsDefi(pool, 'abc234')
+  assert.equal(a.length, 10)
+  assert.deepEqual(a.map((q) => q.id), b.map((q) => q.id))
+  assert.deepEqual(a.map((q) => q.options), b.map((q) => q.options)) // mêmes réponses dans le même ordre
+  assert.equal(a.filter((q) => q.id.startsWith('hand-')).length, 7)
+  assert.ok(!a.some((q) => q.type === 'map'))
+  assert.notDeepEqual(questionsDefi(pool, 'zzz999').map((q) => q.id), a.map((q) => q.id))
+  assert.match(nouvelleGraine(), /^[a-z2-9]{6}$/)
+})
+
+test('défi : lien aller-retour, valeurs douteuses ignorées, verdict', () => {
+  const lien = lienDefi({ civId: 'egypte', graine: 'abc234', score: 8, nom: ' Léa <script> ' }, 'https://exemple.fr/app/')
+  assert.equal(lien.split('#')[0], 'https://exemple.fr/app/')
+  const params = new URLSearchParams(lien.split('?')[1])
+  assert.deepEqual(lireDefi(params), { graine: 'abc234', score: 8, nom: 'Léa script' })
+  assert.deepEqual(lireDefi(new URLSearchParams('g=../x&s=99&n=')), { graine: null, score: null, nom: null })
+  assert.deepEqual([verdict(9, 8), verdict(7, 8), verdict(8, 8)], ['gagne', 'perdu', 'egalite'])
 })
 
 // ── Validateur du parcours : il doit bloquer les erreurs ──────────────────────

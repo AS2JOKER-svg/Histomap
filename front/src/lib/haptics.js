@@ -9,6 +9,11 @@
  *   import { haptic } from '../lib/haptics'
  *   haptic('success')
  */
+import { jouerSon } from './sons'
+
+// Chaque moment qui vibre a aussi son son (lib/sons.js) ; « tap » (navigation) reste silencieux.
+const SON = { select: 'carte', success: 'juste', error: 'faux', complete: 'fin', recompense: 'medaille', niveau: 'niveau', coffre: 'coffre' }
+
 const PATTERNS = {
   tap: 8,
   select: 12,
@@ -25,6 +30,7 @@ export function canVibrate() {
 }
 
 export function haptic(kind = 'tap') {
+  if (SON[kind]) jouerSon(SON[kind])
   if (!canVibrate()) return
   if (typeof matchMedia === 'function' && matchMedia('(prefers-reduced-motion: reduce)').matches) return
   // Sans geste préalable de l'utilisateur (page ouverte par un lien), le navigateur refuse et le signale

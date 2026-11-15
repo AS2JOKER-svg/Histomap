@@ -21,12 +21,12 @@
     { "annee": 1250, "evenement": "Premiers grands murs", "info": "Les murs de pierre de la colline sont élevés." },
     {
       "annee": 1350,
-      "evenement": "Apogée",
+      "evenement": "Apogée du Grand Zimbabwe",
       "info": "Au XIVe siècle, la ville compte environ 10 000 à 18 000 habitants selon les estimations (la plus grande d’Afrique australe précoloniale)."
     },
     {
       "annee": 1450,
-      "evenement": "Abandon",
+      "evenement": "Abandon du Grand Zimbabwe",
       "info": "La ville est abandonnée, peut-être à cause de l’épuisement des sols et du déplacement des routes de l’or vers le nord."
     }
   ],

@@ -15,7 +15,7 @@
   "datesCles": [
     {
       "annee": 1501,
-      "evenement": "Couronnement",
+      "evenement": "Couronnement d’Ismaïl Ier",
       "info": "Ismaïl Ier prend Tabriz et se proclame chah, instaurant le chiisme d’État."
     },
     {
@@ -24,7 +24,11 @@
       "info": "Défaite face à l’artillerie ottomane, qui fige pour longtemps la frontière entre les deux empires.",
       "ref": "bataille-de-tchaldiran"
     },
-    { "annee": 1598, "evenement": "Ispahan", "info": "Abbas Ier fait de la ville sa nouvelle capitale." },
+    {
+      "annee": 1598,
+      "evenement": "Ispahan devient capitale",
+      "info": "Abbas Ier fait de la ville sa nouvelle capitale."
+    },
     {
       "annee": 1623,
       "evenement": "Reprise de Bagdad",

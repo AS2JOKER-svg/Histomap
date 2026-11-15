@@ -44,7 +44,7 @@
     },
     {
       "annee": 1050,
-      "evenement": "Cahokia",
+      "evenement": "Essor de Cahokia",
       "info": "Cahokia se transforme rapidement en une grande ville planifiée."
     },
     {
@@ -59,12 +59,12 @@
     },
     {
       "annee": 1540,
-      "evenement": "Mabila",
+      "evenement": "Bataille de Mabila",
       "info": "L’expédition d’Hernando de Soto affronte les guerriers du chef Tascalusa."
     },
     {
       "annee": 1600,
-      "evenement": "Fin",
+      "evenement": "Disparition des grandes chefferies",
       "info": "Les épidémies venues d’Europe et les guerres font disparaître la plupart des grandes chefferies."
     }
   ],

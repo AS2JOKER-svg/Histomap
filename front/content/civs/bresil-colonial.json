@@ -48,15 +48,19 @@
     "En 1808, fuyant Napoléon, la cour du Portugal s’installe à Rio ; en 1822, le prince Pierre proclame l’[[independance-du-bresil|indépendance du Brésil]]."
   ],
   "datesCles": [
-    { "annee": 1500, "evenement": "Cabral", "info": "La flotte de Pedro Álvares Cabral aborde la côte du Brésil." },
+    {
+      "annee": 1500,
+      "evenement": "Arrivée de Cabral",
+      "info": "La flotte de Pedro Álvares Cabral aborde la côte du Brésil."
+    },
     {
       "annee": 1534,
-      "evenement": "Capitaineries",
+      "evenement": "Création des capitaineries",
       "info": "Le roi du Portugal partage la côte en grands domaines confiés à des nobles."
     },
     {
       "annee": 1549,
-      "evenement": "Salvador",
+      "evenement": "Fondation de Salvador",
       "info": "Le premier gouverneur général fonde Salvador, capitale de la colonie ; les jésuites arrivent."
     },
     {
@@ -67,7 +71,7 @@
     { "annee": 1654, "evenement": "Départ des Hollandais", "info": "Les Luso-Brésiliens reprennent Recife." },
     {
       "annee": 1695,
-      "evenement": "Zumbi",
+      "evenement": "Mort de Zumbi",
       "info": "Mort de Zumbi, chef du quilombo de Palmares ; la même décennie, on découvre de l’or dans le Minas Gerais."
     },
     { "annee": 1763, "evenement": "Rio de Janeiro", "info": "Rio de Janeiro devient la capitale de la colonie." },
@@ -78,7 +82,7 @@
     },
     {
       "annee": 1822,
-      "evenement": "Indépendance",
+      "evenement": "Indépendance du Brésil",
       "info": "Le prince Pierre proclame l’indépendance et devient empereur du Brésil.",
       "ref": "independance-du-bresil"
     }

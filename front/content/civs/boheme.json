@@ -53,13 +53,21 @@
       "evenement": "Saint Venceslas",
       "info": "Le duc Venceslas est assassiné par son frère ; il devient le saint patron de la Bohême."
     },
-    { "annee": 1198, "evenement": "Royaume", "info": "Ottokar Ier obtient le titre de roi héréditaire." },
+    {
+      "annee": 1198,
+      "evenement": "Titre de roi héréditaire",
+      "info": "Ottokar Ier obtient le titre de roi héréditaire."
+    },
     {
       "annee": 1278,
-      "evenement": "Marchfeld",
+      "evenement": "Bataille de Marchfeld",
       "info": "Le roi Ottokar II est tué en combattant Rodolphe de Habsbourg."
     },
-    { "annee": 1348, "evenement": "Université", "info": "Charles IV fonde l’université de Prague." },
+    {
+      "annee": 1348,
+      "evenement": "Fondation de l’université de Prague",
+      "info": "Charles IV fonde l’université de Prague."
+    },
     {
       "annee": 1356,
       "evenement": "Bulle d’or",

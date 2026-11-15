@@ -44,15 +44,15 @@
       "evenement": "Fin de l’union de Kalmar",
       "info": "Gustave Vasa devient roi de Suède ; le Danemark et la Norvège restent unis."
     },
-    { "annee": 1536, "evenement": "Réforme", "info": "Christian III impose le luthéranisme." },
+    { "annee": 1536, "evenement": "Réforme luthérienne", "info": "Christian III impose le luthéranisme." },
     {
       "annee": 1576,
-      "evenement": "Uraniborg",
+      "evenement": "Observatoire d’Uraniborg",
       "info": "L’astronome Tycho Brahe fait construire son observatoire sur l’île de Ven."
     },
     {
       "annee": 1624,
-      "evenement": "Christiania",
+      "evenement": "Fondation de Christiania",
       "info": "Christian IV refonde Oslo sous le nom de Christiania après un incendie."
     },
     {
@@ -65,7 +65,7 @@
       "evenement": "Monarchie absolue",
       "info": "Frédéric III devient monarque absolu et héréditaire."
     },
-    { "annee": 1721, "evenement": "Groenland", "info": "Le pasteur Hans Egede s’installe au Groenland." },
+    { "annee": 1721, "evenement": "Mission au Groenland", "info": "Le pasteur Hans Egede s’installe au Groenland." },
     {
       "annee": 1792,
       "evenement": "Interdiction de la traite",

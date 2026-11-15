@@ -44,7 +44,7 @@
   "datesCles": [
     {
       "annee": 1947,
-      "evenement": "Partition",
+      "evenement": "Partition et naissance du Pakistan",
       "info": "Naissance du Pakistan, le 14 août.",
       "ref": "partition-des-indes"
     },
@@ -75,7 +75,7 @@
     { "annee": 1998, "evenement": "Essais nucléaires", "info": "Le Pakistan devient une puissance nucléaire." },
     {
       "annee": 2014,
-      "evenement": "Malala",
+      "evenement": "Prix Nobel de Malala Yousafzai",
       "info": "La Pakistanaise Malala Yousafzai reçoit le prix Nobel de la paix à 17 ans."
     }
   ],

@@ -40,7 +40,11 @@
     "Les [[inscriptions-de-l-orkhon|inscriptions de l’Orkhon]], gravées vers 732-735 en l’honneur de [[bilge-khagan|Bilge Khagan]], sont les plus anciens textes connus en langue turque ; en 744, les Ouïghours renversent l’empire."
   ],
   "datesCles": [
-    { "annee": 552, "evenement": "Fondation", "info": "Bumin bat les Ruanruan et prend le titre de khagan." },
+    {
+      "annee": 552,
+      "evenement": "Fondation du khaganat turc",
+      "info": "Bumin bat les Ruanruan et prend le titre de khagan."
+    },
     {
       "annee": 568,
       "evenement": "Ambassade à Constantinople",
@@ -48,7 +52,7 @@
     },
     {
       "annee": 600,
-      "evenement": "Division",
+      "evenement": "Division entre Turcs de l’Est et de l’Ouest",
       "info": "Vers 600, l’empire se partage durablement entre Turcs de l’Est et Turcs de l’Ouest."
     },
     {
@@ -58,7 +62,7 @@
     },
     {
       "annee": 682,
-      "evenement": "Renaissance",
+      "evenement": "Second khaganat turc",
       "info": "Ilterish se révolte contre les Tang et fonde le second khaganat turc, conseillé par Tonyukuk."
     },
     {
@@ -68,7 +72,7 @@
     },
     {
       "annee": 744,
-      "evenement": "Chute",
+      "evenement": "Chute du khaganat turc",
       "info": "Une coalition menée par les Ouïghours renverse le dernier khagan turc."
     }
   ],

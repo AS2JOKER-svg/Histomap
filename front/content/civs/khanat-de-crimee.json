@@ -40,7 +40,11 @@
     "Après la guerre russo-turque de 1768-1774, le khanat devient indépendant des Ottomans, puis il est [[annexion-de-la-crimee-par-la-russie|annexé par la Russie]] de Catherine II en 1783."
   ],
   "datesCles": [
-    { "annee": 1441, "evenement": "Fondation", "info": "Hacı Giray se rend indépendant de la Horde d’or." },
+    {
+      "annee": 1441,
+      "evenement": "Fondation du khanat de Crimée",
+      "info": "Hacı Giray se rend indépendant de la Horde d’or."
+    },
     {
       "annee": 1475,
       "evenement": "Les Ottomans en Crimée",
@@ -49,13 +53,13 @@
     { "annee": 1502, "evenement": "Fin de la Horde d’or", "info": "Le khan Meñli Ier Giray détruit Saraï." },
     {
       "annee": 1532,
-      "evenement": "Bakhtchissaraï",
+      "evenement": "Capitale à Bakhtchissaraï",
       "info": "Vers 1532, les khans s’installent dans leur nouvelle capitale, où ils bâtissent un palais."
     },
     { "annee": 1571, "evenement": "Moscou en flammes", "info": "Le khan Devlet Ier Giray incendie Moscou." },
     {
       "annee": 1572,
-      "evenement": "Molodi",
+      "evenement": "Bataille de Molodi",
       "info": "L’armée russe écrase l’armée tatare près de Moscou.",
       "ref": "bataille-de-molodi"
     },
@@ -66,7 +70,7 @@
     },
     {
       "annee": 1774,
-      "evenement": "Indépendance",
+      "evenement": "Traité de Küçük Kaynarca",
       "info": "Le traité de Küçük Kaynarca détache le khanat de l’Empire ottoman."
     },
     {

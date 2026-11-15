@@ -99,6 +99,28 @@ Comparaison entre ce qui a été demandé au départ (analyse produit du 13/11, 
 
 1. **Sur un vrai téléphone Android** : vibrations, partage natif de l'image, fluidité des animations, installation de l'app. Je n'ai pu tester que dans un navigateur automatisé.
 2. **L'écran de réussite d'épreuve** (rayons, médaille, coffre) n'a pas été vu en recette automatique, car il faut répondre juste. Il est vérifié par rendu hors navigateur seulement.
-3. **Questions générées à partir des dates clés** (pas les 3 613 questions rédigées à la main) : 350 des 1 546 titres de dates clés tiennent en un seul mot (« Indépendance » ×17, « Fondation » ×16, « Fin » ×8…), ce qui donne des réponses ou des leurres faibles, voire ambigus. Correctif proposé : filtrer ces titres dans le générateur et donner la priorité aux questions rédigées.
+3. ✅ **Questions générées à partir des dates clés** : corrigé le 15/11/2026, voir le § 6.
 4. **Révision espacée** : non faite (voir § 1). Les fiches restent détaillées, par décision du 15/11/2026.
 5. **Niveau 50** : atteint vers 80 % du contenu total. C'est voulu (il reste des annexes à finir pour les titres), mais réglable.
+
+## 6. Correctif des questions générées (15/11/2026)
+
+**Constat.** Les 3 613 questions rédigées à la main étaient bonnes. Le problème venait des questions générées à partir des dates clés : 350 titres sur 1 546 tenaient en un seul mot. Résultat : 41 % des questions sur les dates clés avaient une réponse ou un leurre faible, voire ambigu. Des leurres venaient aussi d'autres continents (« James Cook » pour l'Europe paléolithique). Enfin, les Épreuves ne comptaient que 22 % de questions rédigées.
+
+**Correctifs.**
+- **Générateur** (`src/lib/quiz.js`) :
+  - les titres d'un seul mot ne servent plus, ni comme question, ni comme réponse, ni comme leurre ;
+  - les leurres d'événements viennent d'abord de la même civilisation, puis du même continent ;
+  - une description qui répète le titre ne donne plus de question vide ;
+  - l'Épreuve vise environ 14 questions rédigées sur 20.
+- **Contenu** : les 350 titres sont renommés en intitulés explicites, dans 144 fiches. Ils sont tirés du champ `info`, sans année, avec « selon la tradition » quand il le faut. Une relecture séparée a donné 25 corrections (prudence, neutralité, titres encore vagues). La règle est ajoutée au guide d'édition.
+
+**Avant / après (règle 10).**
+- Les 17 639 identifiants de questions sont tous conservés : aucune progression perdue.
+- Seuls les 6 types de questions sur les dates clés changent, et 4 questions vides disparaissent.
+
+| | Avant | Après |
+|---|---|---|
+| Questions sur les dates clés avec un titre d'un seul mot | 41 % | 0 % |
+| Questions rédigées à la main dans les Épreuves | 22 % | 70 % |
+| Leurres hors du continent pour les questions d'événements | oui | non |

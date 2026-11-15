@@ -41,7 +41,7 @@
     },
     {
       "annee": 1040,
-      "evenement": "Macbeth",
+      "evenement": "Avènement de Macbeth",
       "info": "Macbeth devient roi après avoir tué le roi Duncan Ier au combat."
     },
     {
@@ -52,7 +52,7 @@
     { "annee": 1297, "evenement": "Stirling Bridge", "info": "William Wallace bat une armée anglaise." },
     {
       "annee": 1314,
-      "evenement": "Bannockburn",
+      "evenement": "Bataille de Bannockburn",
       "info": "Robert Bruce écrase l’armée d’Édouard II.",
       "ref": "bataille-de-bannockburn"
     },
@@ -61,7 +61,7 @@
       "evenement": "Déclaration d’Arbroath",
       "info": "Les barons écossais affirment au pape leur droit à l’indépendance."
     },
-    { "annee": 1560, "evenement": "Réforme", "info": "Le Parlement écossais adopte le protestantisme." },
+    { "annee": 1560, "evenement": "Réforme protestante", "info": "Le Parlement écossais adopte le protestantisme." },
     {
       "annee": 1603,
       "evenement": "Union des couronnes",

@@ -16,7 +16,7 @@
   "datesCles": [
     {
       "annee": -100,
-      "evenement": "Fondation",
+      "evenement": "Naissance de Teotihuacán",
       "info": "Des villages de la vallée se regroupent ; la ville commence à grandir."
     },
     { "annee": 200, "evenement": "Pyramide du Soleil", "info": "Le plus grand monument de la ville est achevé." },
@@ -25,7 +25,7 @@
       "evenement": "Entrée maya (L’Entrada)",
       "info": "Le chef de guerre Siyaj K’ak’, lié à Teotihuacán, arrive à Tikal ; le roi Chak Tok Ich’aak meurt le jour même, et Yax Nuun Ayiin devient roi en 379."
     },
-    { "annee": 450, "evenement": "Apogée", "info": "La ville compte environ 100 000 habitants." },
+    { "annee": 450, "evenement": "Apogée de Teotihuacán", "info": "La ville compte environ 100 000 habitants." },
     {
       "annee": 550,
       "evenement": "Incendie du centre",

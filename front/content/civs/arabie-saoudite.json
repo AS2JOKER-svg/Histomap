@@ -38,7 +38,7 @@
       "evenement": "Pacte de Diriyah",
       "info": "Alliance de Mohammed ben Saoud et de Mohammed ben Abdelwahhab."
     },
-    { "annee": 1803, "evenement": "La Mecque", "info": "Les Saoudiens prennent La Mecque." },
+    { "annee": 1803, "evenement": "Prise de La Mecque", "info": "Les Saoudiens prennent La Mecque." },
     {
       "annee": 1818,
       "evenement": "Chute de Diriyah",
@@ -60,7 +60,11 @@
       "evenement": "Royaume d’Arabie saoudite",
       "info": "Ibn Saoud donne au pays le nom de sa famille."
     },
-    { "annee": 1938, "evenement": "Pétrole", "info": "Découverte de pétrole en grande quantité à Dammam." },
+    {
+      "annee": 1938,
+      "evenement": "Découverte du pétrole",
+      "info": "Découverte de pétrole en grande quantité à Dammam."
+    },
     {
       "annee": 1973,
       "evenement": "Embargo pétrolier",

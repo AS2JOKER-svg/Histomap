@@ -41,10 +41,14 @@
     "Pays d’immigration, le Canada adopte le bilinguisme officiel (1969) et le multiculturalisme (1971)."
   ],
   "datesCles": [
-    { "annee": 1867, "evenement": "Confédération", "info": "Le 1er juillet, naissance du Dominion du Canada." },
+    {
+      "annee": 1867,
+      "evenement": "Confédération canadienne",
+      "info": "Le 1er juillet, naissance du Dominion du Canada."
+    },
     {
       "annee": 1870,
-      "evenement": "Manitoba",
+      "evenement": "Entrée du Manitoba",
       "info": "Après la résistance des Métis de Louis Riel, le Manitoba entre dans la fédération."
     },
     {
@@ -54,20 +58,20 @@
     },
     {
       "annee": 1917,
-      "evenement": "Vimy",
+      "evenement": "Bataille de la crête de Vimy",
       "info": "Les soldats canadiens prennent la crête de Vimy, dans le nord de la France."
     },
     { "annee": 1931, "evenement": "Statut de Westminster", "info": "Le Canada devient pleinement souverain." },
     { "annee": 1944, "evenement": "Juno Beach", "info": "Les Canadiens débarquent en Normandie le 6 juin." },
-    { "annee": 1949, "evenement": "Terre-Neuve", "info": "Terre-Neuve devient la dixième province." },
+    { "annee": 1949, "evenement": "Entrée de Terre-Neuve", "info": "Terre-Neuve devient la dixième province." },
     {
       "annee": 1969,
-      "evenement": "Bilinguisme",
+      "evenement": "Loi sur les langues officielles",
       "info": "L’anglais et le français deviennent les langues officielles du pays."
     },
     {
       "annee": 1982,
-      "evenement": "Constitution",
+      "evenement": "Rapatriement de la Constitution",
       "info": "La Constitution est rapatriée, avec une Charte des droits et libertés."
     },
     {
@@ -75,7 +79,7 @@
       "evenement": "Référendum au Québec",
       "info": "Le « non » à la souveraineté du Québec l’emporte avec 50,6 % des voix."
     },
-    { "annee": 1999, "evenement": "Nunavut", "info": "Création d’un territoire à majorité inuite." }
+    { "annee": 1999, "evenement": "Création du Nunavut", "info": "Création d’un territoire à majorité inuite." }
   ],
   "periodes": [
     {

@@ -26,12 +26,12 @@
     },
     {
       "annee": 1848,
-      "evenement": "Révolutions",
+      "evenement": "Révolutions du Printemps des peuples",
       "info": "Vienne, Prague et Budapest se soulèvent ; le jeune François-Joseph devient empereur."
     },
     {
       "annee": 1867,
-      "evenement": "Le compromis",
+      "evenement": "Compromis austro-hongrois",
       "info": "L’empire devient une « double monarchie » : l’Autriche et la Hongrie, chacune avec son gouvernement, unies par l’empereur.",
       "ref": "compromis-austro-hongrois"
     },
@@ -43,7 +43,7 @@
     },
     {
       "annee": 1918,
-      "evenement": "Démantèlement",
+      "evenement": "Démantèlement de l’Autriche-Hongrie",
       "info": "La défaite disloque l’empire en plusieurs pays : Autriche, Hongrie, Tchécoslovaquie, Yougoslavie, Pologne."
     }
   ],

@@ -38,6 +38,7 @@ Le site ne lit jamais ces fichiers directement : `scripts/build-content.mjs` les
       `region` (voir `content/regions.json`) ; `start`/`end` = vraies dates, et `period` qui les affiche.
 - [ ] **Lignée** : si c'est la même civilisation qu'une fiche d'une autre époque (Parthes → Sassanides…), l'ajouter
       dans `content/lineages.json` (pas de `color` sur la fiche) ; sinon une `color` propre, lisible et distincte de ses voisines.
+- [ ] **Titres des dates clés** : un intitulé explicite de 2 à 6 mots (« Indépendance de l’Algérie », « Bataille de Bouvines »), jamais un seul mot (« Indépendance », « Fin ») ni l’année ; « selon la tradition » si la date est traditionnelle ; le titre ne doit pas répéter mot pour mot l’`info`. Ces titres servent aussi de réponses et de leurres dans les quiz : un titre d’un seul mot est ignoré par le générateur.
 - [ ] **Fiche** : `reperes` (les 9), `essentiel` (4-5 points), `datesCles` (6-10), `periodes`, `regimes`, `dynasties`,
       liste **complète** des `dirigeants` (dirigeants clés `cle: true`, dates de début non ambiguës), `personnages`,
       `guerres` (+ lieu dans `content/conflicts.json`), `sciences`/`croyancesText`/`diplomatie` (1re phrase ≥ 40 caractères),
@@ -68,7 +69,7 @@ Le site ne lit jamais ces fichiers directement : `scripts/build-content.mjs` les
   "capitale": "Paris",
   "description": "…",
   "territories": ["Kingdom of France", "France"],   // noms ANGLAIS des territoires sur les cartes (voir plus bas)
-  "datesCles":   [{ "annee": 1214, "evenement": "Bouvines", "info": "…", "ref": "bataille-de-bouvines" }],
+  "datesCles":   [{ "annee": 1214, "evenement": "Bataille de Bouvines", "info": "…", "ref": "bataille-de-bouvines" }],  // titre explicite, sans année
   "dirigeants":  [{ "nom": "Philippe II", "titre": "Roi", "surnom": "Auguste", "debut": 1180, "fin": 1223,
                     "dynastie": "capetiens-directs", "personne": "philippe-auguste" }],
   "dynasties":   [{ "id": "capetiens-directs", "nom": "Capétiens directs", "debut": 987, "fin": 1328 }],
@@ -90,7 +91,7 @@ Le site ne lit jamais ces fichiers directement : `scripts/build-content.mjs` les
   },
   "essentiel": ["5 points maximum, ce qu'il faut retenir"],
   "periodes": [{ "nom": "…", "debut": 987, "fin": 1180, "resume": "…",
-                 "evenements": [{ "annee": 1214, "evenement": "Bouvines", "ref": "bataille-de-bouvines" }] }],
+                 "evenements": [{ "annee": 1214, "evenement": "Bataille de Bouvines", "ref": "bataille-de-bouvines" }] }],
   "regimes": [{ "id": "republique", "nom": "République", "debut": -509, "fin": -27, "note": "Pas de chef unique : …" }],
   "societe": "…", "economie": "…", "arts": "…", "quotidien": "…",   // onglet Société (avec croyancesText, sciences, diplomatie)
   "decouvertes": ["calendrier-julien"],                              // ids de content/discoveries/

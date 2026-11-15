@@ -57,12 +57,12 @@
     },
     {
       "annee": 400,
-      "evenement": "Le Gujarat",
+      "evenement": "Conquête du Gujarat",
       "info": "Vers 400, Chandragupta II bat les Kshatrapas occidentaux et atteint la mer d’Arabie."
     },
     {
       "annee": 405,
-      "evenement": "Faxian",
+      "evenement": "Voyage du moine Faxian",
       "info": "Au début du Ve siècle, le moine chinois Faxian parcourt l’Inde à la recherche de textes bouddhistes."
     },
     {
@@ -70,10 +70,14 @@
       "evenement": "Les Huns repoussés",
       "info": "Skandagupta repousse une invasion des Huns venus du nord-ouest."
     },
-    { "annee": 499, "evenement": "Aryabhata", "info": "L’astronome Aryabhata achève son traité, l’Aryabhatiya." },
+    {
+      "annee": 499,
+      "evenement": "Traité d’Aryabhata",
+      "info": "L’astronome Aryabhata achève son traité, l’Aryabhatiya."
+    },
     {
       "annee": 515,
-      "evenement": "Mihirakula",
+      "evenement": "Domination de Mihirakula",
       "info": "Vers 515, le chef hun Mihirakula domine le nord-ouest de l’Inde."
     },
     {

@@ -19,7 +19,7 @@
       "info": "L’appel du prêtre Miguel Hidalgo déclenche la guerre d’indépendance.",
       "ref": "cri-de-dolores"
     },
-    { "annee": 1821, "evenement": "Indépendance", "info": "Le Mexique devient indépendant de l’Espagne." },
+    { "annee": 1821, "evenement": "Indépendance du Mexique", "info": "Le Mexique devient indépendant de l’Espagne." },
     {
       "annee": 1848,
       "evenement": "Guerre américano-mexicaine",
@@ -43,7 +43,7 @@
     },
     {
       "annee": 2000,
-      "evenement": "Alternance",
+      "evenement": "Défaite électorale du PRI",
       "info": "Pour la première fois depuis 71 ans, le PRI perd l’élection présidentielle."
     }
   ],

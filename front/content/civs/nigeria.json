@@ -38,10 +38,14 @@
   "datesCles": [
     {
       "annee": 1914,
-      "evenement": "Unification",
+      "evenement": "Unification du Nord et du Sud",
       "info": "Le gouverneur Frederick Lugard réunit le nord et le sud en une seule colonie."
     },
-    { "annee": 1960, "evenement": "Indépendance", "info": "Le 1er octobre, le Nigeria devient indépendant." },
+    {
+      "annee": 1960,
+      "evenement": "Indépendance du Nigeria",
+      "info": "Le 1er octobre, le Nigeria devient indépendant."
+    },
     {
       "annee": 1966,
       "evenement": "Coups d’État",
@@ -56,7 +60,7 @@
     { "annee": 1970, "evenement": "Fin de la guerre", "info": "Le Biafra capitule ; le pays reste uni." },
     {
       "annee": 1991,
-      "evenement": "Abuja",
+      "evenement": "Abuja devient capitale",
       "info": "La capitale est transférée de Lagos à Abuja, au centre du pays."
     },
     {
@@ -64,10 +68,14 @@
       "evenement": "Retour des civils",
       "info": "Olusegun Obasanjo est élu président : fin des régimes militaires."
     },
-    { "annee": 2014, "evenement": "Chibok", "info": "Boko Haram enlève 276 lycéennes à Chibok." },
+    {
+      "annee": 2014,
+      "evenement": "Enlèvement des lycéennes de Chibok",
+      "info": "Boko Haram enlève 276 lycéennes à Chibok."
+    },
     {
       "annee": 2015,
-      "evenement": "Alternance",
+      "evenement": "Première alternance par les urnes",
       "info": "Pour la première fois, un président sortant est battu dans les urnes."
     }
   ],

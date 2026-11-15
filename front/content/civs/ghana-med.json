@@ -34,7 +34,11 @@
       "evenement": "Domination du Sosso",
       "info": "Le royaume de Sosso de Soumaoro Kanté s’empare de la capitale."
     },
-    { "annee": 1240, "evenement": "L’annexion", "info": "Les restes du royaume sont absorbés par l’empire du Mali." }
+    {
+      "annee": 1240,
+      "evenement": "Annexion par le Mali",
+      "info": "Les restes du royaume sont absorbés par l’empire du Mali."
+    }
   ],
   "dirigeants": [
     {

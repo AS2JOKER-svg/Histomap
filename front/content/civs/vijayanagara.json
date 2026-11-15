@@ -42,7 +42,7 @@
   "datesCles": [
     {
       "annee": 1336,
-      "evenement": "Fondation",
+      "evenement": "Fondation de Vijayanagara",
       "info": "Harihara Ier et Bukka fondent la capitale, selon la tradition avec l’aide du sage Vidyaranya."
     },
     {
@@ -52,7 +52,7 @@
     },
     {
       "annee": 1370,
-      "evenement": "Madurai",
+      "evenement": "Conquête de Madurai",
       "info": "Vers 1370, Kumara Kampana, fils de Bukka, conquiert le sultanat de Madurai, dans l’extrême sud."
     },
     {
@@ -60,21 +60,25 @@
       "evenement": "Abdur Razzaq",
       "info": "Un ambassadeur persan visite la capitale et la décrit comme une ville sans égale."
     },
-    { "annee": 1509, "evenement": "Krishnadevaraya", "info": "Début du règne du plus célèbre roi de Vijayanagara." },
+    {
+      "annee": 1509,
+      "evenement": "Avènement de Krishnadevaraya",
+      "info": "Début du règne du plus célèbre roi de Vijayanagara."
+    },
     {
       "annee": 1520,
-      "evenement": "Raichur",
+      "evenement": "Prise de Raichur",
       "info": "Krishnadevaraya bat le sultan de Bijapur et prend la forteresse de Raichur."
     },
     {
       "annee": 1565,
-      "evenement": "Talikota",
+      "evenement": "Bataille de Talikota",
       "info": "Défaite face à une coalition de sultans du Dekkan ; la capitale est pillée.",
       "ref": "bataille-de-talikota"
     },
     {
       "annee": 1646,
-      "evenement": "Fin",
+      "evenement": "Fin de Vijayanagara",
       "info": "Vers 1646, le dernier roi perd ses territoires face aux sultans de Bijapur et de Golconde."
     }
   ],

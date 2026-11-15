@@ -43,8 +43,12 @@
     "Vers 1150-1170, Tula est incendiée et abandonnée ; les Aztèques voient plus tard dans les Toltèques des ancêtres prestigieux, « maîtres de tous les arts »."
   ],
   "datesCles": [
-    { "annee": 900, "evenement": "Tula", "info": "Vers 900, Tula commence à devenir une grande ville." },
-    { "annee": 950, "evenement": "Apogée", "info": "Tula s’agrandit et domine une partie du centre du Mexique." },
+    { "annee": 900, "evenement": "Essor de Tula", "info": "Vers 900, Tula commence à devenir une grande ville." },
+    {
+      "annee": 950,
+      "evenement": "Apogée de Tula",
+      "info": "Tula s’agrandit et domine une partie du centre du Mexique."
+    },
     {
       "annee": 1000,
       "evenement": "Les Atlantes",

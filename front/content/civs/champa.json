@@ -45,7 +45,7 @@
   "datesCles": [
     {
       "annee": 192,
-      "evenement": "Fondation",
+      "evenement": "Fondation du royaume cham",
       "info": "Selon les sources chinoises, Khu Liên fonde un royaume après une révolte contre les Han."
     },
     {
@@ -55,7 +55,7 @@
     },
     {
       "annee": 875,
-      "evenement": "Indrapura",
+      "evenement": "Grand monastère d’Indrapura",
       "info": "Le roi Indravarman II fonde un grand monastère bouddhiste dans sa nouvelle capitale."
     },
     {
@@ -73,7 +73,7 @@
     { "annee": 1471, "evenement": "Chute de Vijaya", "info": "Le Đại Việt prend la capitale du Champa." },
     {
       "annee": 1832,
-      "evenement": "Fin",
+      "evenement": "Annexion vietnamienne",
       "info": "L’empereur vietnamien Minh Mạng annexe la dernière principauté chame."
     }
   ],

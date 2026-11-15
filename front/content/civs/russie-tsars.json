@@ -54,7 +54,7 @@
     },
     {
       "annee": 1565,
-      "evenement": "L’opritchnina",
+      "evenement": "Création de l’opritchnina",
       "info": "Ivan IV crée un territoire et une police personnels qui terrorisent les boyards et le pays."
     },
     {
@@ -71,12 +71,12 @@
     { "annee": 1613, "evenement": "Les Romanov", "info": "Une assemblée élit tsar Michel Romanov." },
     {
       "annee": 1703,
-      "evenement": "Saint-Pétersbourg",
+      "evenement": "Fondation de Saint-Pétersbourg",
       "info": "Pierre le Grand fonde une nouvelle capitale sur la Baltique."
     },
     {
       "annee": 1709,
-      "evenement": "Poltava",
+      "evenement": "Bataille de Poltava",
       "info": "Pierre le Grand écrase l’armée suédoise de Charles XII.",
       "ref": "bataille-de-poltava"
     },

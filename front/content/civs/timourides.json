@@ -50,7 +50,7 @@
     },
     {
       "annee": 1387,
-      "evenement": "Ispahan",
+      "evenement": "Massacre d’Ispahan",
       "info": "Après une révolte, Tamerlan fait massacrer une grande partie de la population."
     },
     {
@@ -61,7 +61,7 @@
     { "annee": 1398, "evenement": "Sac de Delhi", "info": "Tamerlan écrase le sultan de Delhi et pille la ville." },
     {
       "annee": 1402,
-      "evenement": "Ankara",
+      "evenement": "Bataille d’Ankara",
       "info": "Tamerlan bat et capture le sultan ottoman Bayezid Ier.",
       "ref": "bataille-d-ankara"
     },

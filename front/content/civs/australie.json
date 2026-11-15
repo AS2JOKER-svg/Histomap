@@ -70,12 +70,20 @@
       "evenement": "Fin des déportations",
       "info": "Le dernier navire de forçats arrive en Australie-Occidentale."
     },
-    { "annee": 1901, "evenement": "Fédération", "info": "Les six colonies forment le Commonwealth d’Australie." },
-    { "annee": 1915, "evenement": "Gallipoli", "info": "Le 25 avril, les ANZAC débarquent à Gallipoli." },
+    {
+      "annee": 1901,
+      "evenement": "Fédération australienne",
+      "info": "Les six colonies forment le Commonwealth d’Australie."
+    },
+    {
+      "annee": 1915,
+      "evenement": "Débarquement à Gallipoli",
+      "info": "Le 25 avril, les ANZAC débarquent à Gallipoli."
+    },
     { "annee": 1942, "evenement": "Bombardement de Darwin", "info": "L’aviation japonaise attaque le nord du pays." },
     {
       "annee": 1967,
-      "evenement": "Référendum",
+      "evenement": "Référendum sur les Aborigènes",
       "info": "Les Australiens votent pour que les Aborigènes soient comptés dans la population et relèvent des lois fédérales."
     },
     {

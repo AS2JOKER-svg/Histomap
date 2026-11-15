@@ -51,6 +51,12 @@ function maskName(text, civ) {
   for (const w of words) out = out.replace(new RegExp(`(?<!\\p{L})${w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\p{L}*`, 'giu'), '…')
   return out
 }
+/**
+ * Titre de date clé assez explicite pour une question (« Indépendance de l'Algérie ») ; un titre d'un
+ * seul mot (« Indépendance », « Fin ») ferait une réponse ou un leurre faible, voire ambigu.
+ */
+export const titreExplicite = (t) => typeof t === 'string' && /\s/.test(t.replace(/^(Le|La|Les|L’|L')\s*/, '').trim())
+
 function pick(arr, n, rand, exclude = []) {
   return shuffle(uniq(arr).filter((x) => x != null && x !== '' && !exclude.includes(x)), rand).slice(0, n)
 }
@@ -93,7 +99,14 @@ function autoQuestions(civ, epoch, continent) {
   const sameCont = sameEpoch.filter((c) => continent.civilizations.some((x) => x.id === c.id))
   const dates = [...(civ.datesCles ?? [])].sort((a, b) => a.annee - b.annee)
   const context = CONTEXT.epochs[epoch.id] ?? { events: [], leaders: [] }
-  const otherEvents = context.events.filter((e) => e.civ !== civ.id).map((e) => e.evenement)
+  // leurres d'événements : seulement des titres explicites, du même continent (pas « James Cook » pour l'Europe paléolithique)
+  const memeContinent = new Set(continent.civilizations.map((c) => c.id))
+  const otherEvents = context.events.filter((e) => e.civ !== civ.id && memeContinent.has(e.civ) && titreExplicite(e.evenement)).map((e) => e.evenement)
+  /** Leurres d'une question d'événement : d'abord les autres dates de la civilisation, puis le même continent. */
+  const leurresEvenement = (d, rand) => {
+    const memes = shuffle(dates.filter((x) => x !== d && titreExplicite(x.evenement)).map((x) => x.evenement), rand)
+    return memes.length >= 3 ? memes : [...memes, ...pick(otherEvents, 3 - memes.length, rand, memes)]
+  }
   // Liste complète des dirigeants : seuls les dirigeants « clés » (cle: true) font l'objet de questions
   const leaders = quizLeaders(civ.dirigeants ?? [])
   const otherLeaders = context.leaders
@@ -102,8 +115,9 @@ function autoQuestions(civ, epoch, continent) {
   const wars = civ.guerres ?? []
   const name = civ.label
 
-  // ── Dates ──
+  // ── Dates ── (une date clé au titre trop vague ne donne pas de question ; les ids gardent l'index d'origine)
   dates.forEach((d, i) => {
+    if (!titreExplicite(d.evenement)) return
     const rand = rng(`${civ.id}-date-${i}`)
     qs.push(
       mcq(`date-year-${i}`, `${name} : en quelle année situe-t-on « ${d.evenement} » ?`, formatYear(d.annee), yearDistractors(d.annee, dates.map((x) => x.annee), rand), {
@@ -115,12 +129,13 @@ function autoQuestions(civ, epoch, continent) {
         `date-event-${i}`,
         `${name} : que se passe-t-il en ${formatYear(d.annee)} ?`,
         d.evenement,
-        [...dates.filter((x) => x !== d).map((x) => x.evenement), ...pick(otherEvents, 4, rand)],
+        leurresEvenement(d, rand),
         { explanation: d.info }
       )
     )
   })
   dates.forEach((d, i) => {
+    if (!titreExplicite(d.evenement)) return
     // Vrai / faux sur la date (une fois vrai, une fois faux, selon la question)
     const rand = rng(`${civ.id}-tfdate-${i}`)
     if (i % 2 === 0) {
@@ -132,14 +147,17 @@ function autoQuestions(civ, epoch, continent) {
     // Quel événement est décrit ? (nom et année masqués)
     if (d.info && d.info.length > 25) {
       const masked = d.info.replaceAll(d.evenement, '…').replaceAll(String(Math.abs(d.annee)), '…')
-      qs.push(mcq(`date-info-${i}`, `${name} : quel événement est décrit ici ? « ${masked} »`, d.evenement, [...dates.filter((x) => x !== d).map((x) => x.evenement), ...pick(otherEvents, 4, rand)]))
+      // description qui ne fait que répéter le titre : il ne resterait rien à lire (« …. »)
+      if (masked.replace(/[…\s.,;:!?«»]/g, '').length < 20) return
+      qs.push(mcq(`date-info-${i}`, `${name} : quel événement est décrit ici ? « ${masked} »`, d.evenement, leurresEvenement(d, rand)))
     }
   })
-  if (dates.length >= 3) {
-    qs.push({ id: 'order-dates', type: 'order', prompt: `${name} : remettez ces événements dans l'ordre chronologique.`, items: dates.slice(0, 4).map((d) => d.evenement), explanation: dates.slice(0, 4).map((d) => `${formatYear(d.annee)} : ${d.evenement}`).join(' → ') })
+  const explicites = dates.filter((d) => titreExplicite(d.evenement))
+  if (explicites.length >= 3) {
+    qs.push({ id: 'order-dates', type: 'order', prompt: `${name} : remettez ces événements dans l'ordre chronologique.`, items: explicites.slice(0, 4).map((d) => d.evenement), explanation: explicites.slice(0, 4).map((d) => `${formatYear(d.annee)} : ${d.evenement}`).join(' → ') })
   }
-  if (dates.length >= 2) {
-    const [a, b] = [dates[0], dates[dates.length - 1]]
+  if (explicites.length >= 2) {
+    const [a, b] = [explicites[0], explicites[explicites.length - 1]]
     qs.push({ id: 'tf-order', type: 'tf', prompt: `« ${b.evenement} » a lieu avant « ${a.evenement} ».`, answer: false, explanation: `${a.evenement} : ${formatYear(a.annee)} ; ${b.evenement} : ${formatYear(b.annee)}.` })
   }
 
@@ -242,21 +260,33 @@ function autoQuestions(civ, epoch, continent) {
 /**
  * Compose un quiz de 20 questions (ou moins si le réservoir est petit) :
  *   - d'abord jusqu'à 5 questions ratées la fois précédente ;
- *   - puis des questions jamais posées ;
- *   - puis, s'il en manque, des questions déjà vues.
+ *   - puis environ 14 sur 20 questions rédigées à la main et le reste de questions générées,
+ *     en prenant dans chaque groupe les jamais posées, puis les déjà réussies, puis les ratées ;
+ *   - s'il en manque, on complète avec ce qui reste.
  * Renvoie des ids de questions + une graine pour l'ordre des réponses.
  */
+export const PART_REDIGEE = 14 // sur 20 : l'Épreuve donne la priorité aux questions rédigées à la main
+
 export function composeQuiz(pool, { failed = [], asked = [], attempt = 0 } = {}) {
   const rand = rng(`compose-${attempt}-${pool.length}`)
   const ids = pool.map((q) => q.id)
   const fromFailed = shuffle(failed.filter((id) => ids.includes(id)), rand).slice(0, RETRY_FAILED)
-  const fresh = shuffle(ids.filter((id) => !asked.includes(id) && !fromFailed.includes(id)), rand)
-  // à compléter si besoin : d'abord des questions déjà réussies, puis les autres ratées
-  const seenOk = shuffle(ids.filter((id) => asked.includes(id) && !failed.includes(id)), rand)
-  const seenFailed = shuffle(ids.filter((id) => failed.includes(id) && !fromFailed.includes(id)), rand)
-  const seen = [...seenOk, ...seenFailed]
-  const chosen = [...fromFailed, ...fresh, ...seen].slice(0, QUIZ_LENGTH)
-  // mélange final en gardant de la variété (pas deux questions identiques de type à la suite si possible)
+  // Dans chaque groupe (rédigées / générées) : jamais posées, puis déjà réussies, puis déjà ratées
+  const ordre = (groupe) => {
+    const g = groupe.filter((id) => !fromFailed.includes(id))
+    return [
+      ...shuffle(g.filter((id) => !asked.includes(id)), rand),
+      ...shuffle(g.filter((id) => asked.includes(id) && !failed.includes(id)), rand),
+      ...shuffle(g.filter((id) => failed.includes(id)), rand),
+    ]
+  }
+  const redigees = ordre(ids.filter((id) => id.startsWith('hand-')))
+  const generees = ordre(ids.filter((id) => !id.startsWith('hand-')))
+  const reste = QUIZ_LENGTH - fromFailed.length
+  const nbRedigees = Math.min(redigees.length, Math.max(0, Math.round((PART_REDIGEE * reste) / QUIZ_LENGTH)))
+  let chosen = [...fromFailed, ...redigees.slice(0, nbRedigees), ...generees.slice(0, reste - nbRedigees)]
+  // s'il en manque (petit réservoir), on complète avec ce qui reste
+  if (chosen.length < QUIZ_LENGTH) chosen = [...chosen, ...[...redigees, ...generees].filter((id) => !chosen.includes(id))].slice(0, QUIZ_LENGTH)
   return shuffle(chosen, rand)
 }
 

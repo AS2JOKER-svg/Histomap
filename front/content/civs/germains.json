@@ -53,7 +53,7 @@
     },
     {
       "annee": -105,
-      "evenement": "Arausio",
+      "evenement": "Bataille d’Arausio",
       "info": "Les Cimbres et les Teutons infligent à Rome une terrible défaite près d’Orange."
     },
     {
@@ -63,7 +63,7 @@
     },
     {
       "annee": 9,
-      "evenement": "Teutobourg",
+      "evenement": "Bataille de Teutobourg",
       "info": "Arminius détruit trois légions romaines commandées par Varus.",
       "ref": "bataille-de-teutobourg"
     },
@@ -74,7 +74,7 @@
     },
     {
       "annee": 378,
-      "evenement": "Andrinople",
+      "evenement": "Bataille d’Andrinople",
       "info": "Les Goths battent l’armée romaine ; l’empereur Valens est tué."
     },
     { "annee": 410, "evenement": "Sac de Rome", "info": "Les Wisigoths d’Alaric pillent Rome pendant trois jours." },

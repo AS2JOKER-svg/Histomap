@@ -46,10 +46,10 @@
       "ref": "etat-independant-du-congo"
     },
     { "annee": 1908, "evenement": "Congo belge", "info": "La Belgique reprend le Congo à son roi." },
-    { "annee": 1960, "evenement": "Indépendance", "info": "Le 30 juin, le Congo devient indépendant." },
+    { "annee": 1960, "evenement": "Indépendance du Congo", "info": "Le 30 juin, le Congo devient indépendant." },
     { "annee": 1961, "evenement": "Assassinat de Lumumba", "info": "Le Premier ministre déchu est tué au Katanga." },
     { "annee": 1965, "evenement": "Coup d’État de Mobutu", "info": "Mobutu prend le pouvoir." },
-    { "annee": 1971, "evenement": "Zaïre", "info": "Le pays est rebaptisé Zaïre." },
+    { "annee": 1971, "evenement": "Le pays devient le Zaïre", "info": "Le pays est rebaptisé Zaïre." },
     {
       "annee": 1997,
       "evenement": "Chute de Mobutu",
@@ -60,8 +60,16 @@
       "evenement": "Deuxième guerre du Congo",
       "info": "Une guerre impliquant neuf pays africains commence."
     },
-    { "annee": 2006, "evenement": "Élections", "info": "Premières élections pluralistes depuis 1960." },
-    { "annee": 2019, "evenement": "Alternance", "info": "Félix Tshisekedi succède à Joseph Kabila." }
+    {
+      "annee": 2006,
+      "evenement": "Premières élections pluralistes",
+      "info": "Premières élections pluralistes depuis 1960."
+    },
+    {
+      "annee": 2019,
+      "evenement": "Passation de pouvoir à Félix Tshisekedi",
+      "info": "Félix Tshisekedi succède à Joseph Kabila."
+    }
   ],
   "periodes": [
     {

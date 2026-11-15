@@ -47,11 +47,19 @@
     { "annee": 1025, "evenement": "Premier roi", "info": "Boleslas Ier le Vaillant est couronné roi." },
     {
       "annee": 1138,
-      "evenement": "Division",
+      "evenement": "Partage entre les fils de Boleslas III",
       "info": "Le testament de Boleslas III partage le pays entre ses fils."
     },
-    { "annee": 1241, "evenement": "Legnica", "info": "Les Mongols écrasent une armée polonaise et allemande." },
-    { "annee": 1320, "evenement": "Réunification", "info": "Ladislas le Bref est couronné roi à Cracovie." },
+    {
+      "annee": 1241,
+      "evenement": "Bataille de Legnica",
+      "info": "Les Mongols écrasent une armée polonaise et allemande."
+    },
+    {
+      "annee": 1320,
+      "evenement": "Couronnement de Ladislas le Bref",
+      "info": "Ladislas le Bref est couronné roi à Cracovie."
+    },
     {
       "annee": 1364,
       "evenement": "Université de Cracovie",

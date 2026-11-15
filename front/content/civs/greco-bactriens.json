@@ -40,7 +40,11 @@
     "Vers −145 à −125, des nomades venus du nord, Saces et Yuezhi, envahissent le royaume, qui disparaît."
   ],
   "datesCles": [
-    { "annee": -250, "evenement": "Indépendance", "info": "Vers 250 av. J.-C., Diodote rompt avec les Séleucides." },
+    {
+      "annee": -250,
+      "evenement": "Sécession de Diodote",
+      "info": "Vers 250 av. J.-C., Diodote rompt avec les Séleucides."
+    },
     {
       "annee": -208,
       "evenement": "Siège de Bactres",
@@ -53,7 +57,7 @@
     },
     {
       "annee": -171,
-      "evenement": "Eucratide",
+      "evenement": "Usurpation d’Eucratide",
       "info": "Un usurpateur, Eucratide, prend le pouvoir et combat les rois grecs de l’Inde."
     },
     {

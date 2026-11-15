@@ -48,7 +48,7 @@
     "Épuisé par une longue guerre contre Byzance (602-628), l’empire s’effondre lors de la [[conquete-musulmane-de-la-perse|conquête arabe]] ; le dernier roi meurt en 651."
   ],
   "datesCles": [
-    { "annee": 224, "evenement": "Hormozgan", "info": "Ardachir bat et tue le roi parthe Artaban IV." },
+    { "annee": 224, "evenement": "Bataille d’Hormozgan", "info": "Ardachir bat et tue le roi parthe Artaban IV." },
     {
       "annee": 260,
       "evenement": "Valérien capturé",
@@ -78,7 +78,7 @@
     },
     {
       "annee": 636,
-      "evenement": "Al-Qadisiyya",
+      "evenement": "Bataille d’al-Qadisiyya",
       "info": "Les armées arabes écrasent l’armée sassanide en Mésopotamie.",
       "ref": "conquete-musulmane-de-la-perse"
     },

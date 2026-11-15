@@ -39,10 +39,14 @@
   "datesCles": [
     {
       "annee": 1795,
-      "evenement": "Nuʻuanu",
+      "evenement": "Bataille de Nuʻuanu",
       "info": "Kamehameha Ier conquiert Oʻahu et unifie presque tout l’archipel."
     },
-    { "annee": 1810, "evenement": "Kauaʻi", "info": "Le chef de Kauaʻi reconnaît Kamehameha Ier sans combat." },
+    {
+      "annee": 1810,
+      "evenement": "Ralliement de Kauaʻi",
+      "info": "Le chef de Kauaʻi reconnaît Kamehameha Ier sans combat."
+    },
     {
       "annee": 1819,
       "evenement": "Fin du kapu",
@@ -50,12 +54,12 @@
     },
     {
       "annee": 1820,
-      "evenement": "Missionnaires",
+      "evenement": "Arrivée des missionnaires",
       "info": "Arrivée des premiers missionnaires protestants venus des États-Unis."
     },
     {
       "annee": 1840,
-      "evenement": "Constitution",
+      "evenement": "Première constitution hawaïenne",
       "info": "Kamehameha III donne au royaume sa première constitution."
     },
     {
@@ -70,7 +74,7 @@
     },
     {
       "annee": 1893,
-      "evenement": "Renversement",
+      "evenement": "Renversement de Liliʻuokalani",
       "info": "La reine Liliʻuokalani est renversée.",
       "ref": "renversement-du-royaume-d-hawai"
     }

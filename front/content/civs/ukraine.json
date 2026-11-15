@@ -47,10 +47,15 @@
     },
     {
       "annee": 1922,
-      "evenement": "URSS",
+      "evenement": "Entrée dans l’URSS",
       "info": "L’Ukraine soviétique est l’une des républiques fondatrices de l’URSS."
     },
-    { "annee": 1932, "evenement": "Holodomor", "info": "Début de la grande famine de 1932-1933.", "ref": "holodomor" },
+    {
+      "annee": 1932,
+      "evenement": "Grande famine (Holodomor)",
+      "info": "Début de la grande famine de 1932-1933.",
+      "ref": "holodomor"
+    },
     {
       "annee": 1941,
       "evenement": "Occupation allemande",
@@ -58,18 +63,18 @@
     },
     {
       "annee": 1954,
-      "evenement": "Crimée",
+      "evenement": "Transfert de la Crimée",
       "info": "La Crimée est transférée de la Russie soviétique à l’Ukraine soviétique."
     },
     {
       "annee": 1986,
-      "evenement": "Tchernobyl",
+      "evenement": "Catastrophe de Tchernobyl",
       "info": "Un réacteur de la centrale nucléaire explose.",
       "ref": "catastrophe-de-tchernobyl"
     },
     {
       "annee": 1991,
-      "evenement": "Indépendance",
+      "evenement": "Indépendance de l’Ukraine",
       "info": "Proclamée le 24 août, elle est approuvée par plus de 90 % des votants lors du référendum du 1er décembre."
     },
     {

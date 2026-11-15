@@ -42,7 +42,7 @@
   "datesCles": [
     {
       "annee": 800,
-      "evenement": "Le Kanem",
+      "evenement": "Première mention du Kanem",
       "info": "Vers le IXe siècle, des auteurs arabes mentionnent le royaume du Kanem."
     },
     { "annee": 1085, "evenement": "Conversion à l’islam", "info": "Vers 1085, le mai Hummay devient musulman." },
@@ -56,7 +56,11 @@
       "evenement": "Exil vers le Bornou",
       "info": "Vers 1380, chassés par les Boulala, les Sefuwa s’installent à l’ouest du lac Tchad."
     },
-    { "annee": 1470, "evenement": "Ngazargamu", "info": "Vers 1470, le mai Ali Gaji fonde une capitale fortifiée." },
+    {
+      "annee": 1470,
+      "evenement": "Fondation de Ngazargamu",
+      "info": "Vers 1470, le mai Ali Gaji fonde une capitale fortifiée."
+    },
     {
       "annee": 1564,
       "evenement": "Idris Alaoma",
@@ -67,7 +71,11 @@
       "evenement": "Chute de Ngazargamu",
       "info": "Les combattants peuls du djihad incendient la capitale."
     },
-    { "annee": 1893, "evenement": "Rabih", "info": "Le conquérant soudanais Rabih az-Zubayr s’empare du Bornou." }
+    {
+      "annee": 1893,
+      "evenement": "Conquête de Rabih az-Zubayr",
+      "info": "Le conquérant soudanais Rabih az-Zubayr s’empare du Bornou."
+    }
   ],
   "periodes": [
     {

@@ -36,19 +36,19 @@
     },
     {
       "annee": -490,
-      "evenement": "Marathon",
+      "evenement": "Bataille de Marathon",
       "info": "Une expédition envoyée par Darius Ier est repoussée par les Athéniens.",
       "ref": "bataille-de-marathon"
     },
     {
       "annee": -480,
-      "evenement": "Salamine",
+      "evenement": "Bataille de Salamine",
       "info": "La flotte de Xerxès Ier est battue par les Grecs.",
       "ref": "bataille-de-salamine"
     },
     {
       "annee": -331,
-      "evenement": "Gaugamèles",
+      "evenement": "Bataille de Gaugamèles",
       "info": "Alexandre le Grand écrase l’armée de Darius III.",
       "ref": "bataille-de-gaugameles"
     },

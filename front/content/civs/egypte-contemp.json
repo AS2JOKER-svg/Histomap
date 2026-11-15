@@ -41,10 +41,14 @@
     { "annee": 1882, "evenement": "Occupation britannique", "info": "Les Britanniques occupent l’Égypte." },
     {
       "annee": 1922,
-      "evenement": "Indépendance",
+      "evenement": "Indépendance de l’Égypte",
       "info": "Le Royaume-Uni reconnaît l’indépendance de l’Égypte, tout en y gardant des troupes."
     },
-    { "annee": 1952, "evenement": "Révolution", "info": "Les « officiers libres » renversent le roi Farouk." },
+    {
+      "annee": 1952,
+      "evenement": "Révolution des officiers libres",
+      "info": "Les « officiers libres » renversent le roi Farouk."
+    },
     { "annee": 1956, "evenement": "Crise de Suez", "info": "Nasser nationalise le canal de Suez." },
     { "annee": 1967, "evenement": "Guerre des Six Jours", "info": "Israël prend le Sinaï à l’Égypte." },
     { "annee": 1970, "evenement": "Haut barrage d’Assouan", "info": "Le grand barrage sur le Nil est achevé." },
@@ -55,7 +59,7 @@
     },
     {
       "annee": 2011,
-      "evenement": "Révolution",
+      "evenement": "Départ de Hosni Moubarak",
       "info": "Hosni Moubarak quitte le pouvoir après dix-huit jours de manifestations."
     }
   ],

@@ -43,13 +43,13 @@
     },
     {
       "annee": 1950,
-      "evenement": "La République",
+      "evenement": "Entrée en vigueur de la Constitution",
       "info": "La Constitution, rédigée notamment par B. R. Ambedkar, fait de l’Inde une république démocratique."
     },
     { "annee": 1974, "evenement": "L’arme nucléaire", "info": "L’Inde réalise son premier essai nucléaire." },
     {
       "annee": 1991,
-      "evenement": "Libéralisation",
+      "evenement": "Libéralisation de l’économie",
       "info": "L’Inde ouvre son économie, ce qui accélère sa croissance."
     }
   ],

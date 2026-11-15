@@ -50,7 +50,11 @@
       "evenement": "Premier roi connu",
       "info": "Une inscription mentionne Arétas Ier, « tyran des Arabes »."
     },
-    { "annee": -85, "evenement": "Damas", "info": "Arétas III prend Damas, qu’il garde une dizaine d’années." },
+    {
+      "annee": -85,
+      "evenement": "Prise de Damas",
+      "info": "Arétas III prend Damas, qu’il garde une dizaine d’années."
+    },
     {
       "annee": -62,
       "evenement": "Face à Rome",

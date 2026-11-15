@@ -43,7 +43,7 @@
     { "annee": 1810, "evenement": "Révolution de Mai", "info": "Buenos Aires renvoie le vice-roi espagnol." },
     {
       "annee": 1816,
-      "evenement": "Indépendance",
+      "evenement": "Indépendance de l’Argentine",
       "info": "Le 9 juillet, le congrès de Tucumán proclame l’indépendance."
     },
     {
@@ -51,7 +51,7 @@
       "evenement": "Traversée des Andes",
       "info": "San Martín franchit les Andes pour libérer le Chili."
     },
-    { "annee": 1853, "evenement": "Constitution", "info": "L’Argentine adopte une constitution fédérale." },
+    { "annee": 1853, "evenement": "Constitution fédérale", "info": "L’Argentine adopte une constitution fédérale." },
     {
       "annee": 1879,
       "evenement": "Conquête du désert",
@@ -63,11 +63,19 @@
       "info": "La loi Sáenz Peña instaure le suffrage universel masculin secret."
     },
     { "annee": 1930, "evenement": "Premier coup d’État", "info": "L’armée renverse le président Yrigoyen." },
-    { "annee": 1946, "evenement": "Perón", "info": "Juan Perón est élu président." },
-    { "annee": 1976, "evenement": "Dictature", "info": "Une junte militaire prend le pouvoir." },
-    { "annee": 1982, "evenement": "Malouines", "info": "La junte envahit les Malouines et perd la guerre." },
-    { "annee": 1983, "evenement": "Démocratie", "info": "Raúl Alfonsín est élu président." },
-    { "annee": 2001, "evenement": "Crise", "info": "Une grave crise économique provoque des émeutes." }
+    { "annee": 1946, "evenement": "Élection de Juan Perón", "info": "Juan Perón est élu président." },
+    { "annee": 1976, "evenement": "Coup d’État militaire", "info": "Une junte militaire prend le pouvoir." },
+    {
+      "annee": 1982,
+      "evenement": "Guerre des Malouines",
+      "info": "La junte envahit les Malouines et perd la guerre."
+    },
+    { "annee": 1983, "evenement": "Retour de la démocratie", "info": "Raúl Alfonsín est élu président." },
+    {
+      "annee": 2001,
+      "evenement": "Grave crise économique",
+      "info": "Une grave crise économique provoque des émeutes."
+    }
   ],
   "periodes": [
     {

@@ -36,7 +36,11 @@
     "Au XVe siècle, les guerres de succession et l’essor des sultanats musulmans des côtes, comme Malacca et Demak, affaiblissent l’empire, qui disparaît vers 1527."
   ],
   "datesCles": [
-    { "annee": 1293, "evenement": "Fondation", "info": "Raden Wijaya chasse l’armée mongole et fonde Majapahit." },
+    {
+      "annee": 1293,
+      "evenement": "Fondation de Majapahit",
+      "info": "Raden Wijaya chasse l’armée mongole et fonde Majapahit."
+    },
     {
       "annee": 1336,
       "evenement": "Serment de Gajah Mada",
@@ -45,13 +49,13 @@
     { "annee": 1350, "evenement": "Hayam Wuruk", "info": "Début du règne qui marque l’apogée de l’empire." },
     {
       "annee": 1365,
-      "evenement": "Nagarakertagama",
+      "evenement": "Poème du Nagarakertagama",
       "info": "Le poète Prapanca achève un long poème à la gloire du roi."
     },
     { "annee": 1404, "evenement": "Guerre de Paregreg", "info": "Une guerre de succession divise l’empire." },
     {
       "annee": 1527,
-      "evenement": "Fin",
+      "evenement": "Fin de Majapahit",
       "info": "Vers 1527, le sultanat de Demak met fin à ce qui reste de Majapahit."
     }
   ],

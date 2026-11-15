@@ -36,17 +36,17 @@
   "datesCles": [
     {
       "annee": -377,
-      "evenement": "Capitale",
+      "evenement": "Anuradhapura devient capitale, selon la tradition",
       "info": "Selon la chronique du Mahavamsa, le roi Pandukabhaya fait d’Anuradhapura sa capitale."
     },
     {
       "annee": -250,
-      "evenement": "Le bouddhisme",
+      "evenement": "Arrivée du bouddhisme, selon la tradition",
       "info": "Selon la tradition, le moine Mahinda, envoyé par Ashoka, convertit le roi Devanampiya Tissa."
     },
     {
       "annee": -161,
-      "evenement": "Dutugemunu",
+      "evenement": "Victoire de Dutugemunu, selon la tradition",
       "info": "Selon le Mahavamsa, il bat le roi Elara, venu du sud de l’Inde, et réunit l’île."
     },
     {
@@ -56,12 +56,12 @@
     },
     {
       "annee": 277,
-      "evenement": "Le Jetavanaramaya",
+      "evenement": "Construction du Jetavanaramaya",
       "info": "Le roi Mahasena fait bâtir un stupa d’environ 120 mètres, l’un des plus hauts monuments du monde antique."
     },
     {
       "annee": 477,
-      "evenement": "Sigiriya",
+      "evenement": "Palais fortifié de Sigiriya",
       "info": "Le roi Kassapa Ier, qui a tué son père, fait bâtir un palais fortifié au sommet du rocher de Sigiriya."
     },
     {
@@ -71,7 +71,7 @@
     },
     {
       "annee": 1017,
-      "evenement": "Fin",
+      "evenement": "Conquête chola et fin d’Anuradhapura",
       "info": "Les Chola capturent le roi Mahinda V ; Polonnaruwa devient la nouvelle capitale."
     }
   ],

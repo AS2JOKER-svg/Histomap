@@ -50,13 +50,13 @@
     },
     {
       "annee": 568,
-      "evenement": "Pannonie",
+      "evenement": "Installation en Pannonie",
       "info": "Les Avars s’installent dans la plaine du Danube et de la Tisza."
     },
-    { "annee": 582, "evenement": "Sirmium", "info": "Les Avars prennent la ville byzantine de Sirmium." },
+    { "annee": 582, "evenement": "Prise de Sirmium", "info": "Les Avars prennent la ville byzantine de Sirmium." },
     {
       "annee": 626,
-      "evenement": "Constantinople",
+      "evenement": "Siège de Constantinople",
       "info": "Avec les Perses, les Avars assiègent Constantinople, sans réussir à la prendre."
     },
     {

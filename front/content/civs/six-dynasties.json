@@ -66,10 +66,14 @@
     },
     {
       "annee": 494,
-      "evenement": "Luoyang",
+      "evenement": "Capitale à Luoyang",
       "info": "L’empereur Xiaowen installe la capitale des Wei du Nord à Luoyang."
     },
-    { "annee": 589, "evenement": "Réunification", "info": "Les Sui prennent Jiankang et réunifient la Chine." }
+    {
+      "annee": 589,
+      "evenement": "Réunification par les Sui",
+      "info": "Les Sui prennent Jiankang et réunifient la Chine."
+    }
   ],
   "periodes": [
     {

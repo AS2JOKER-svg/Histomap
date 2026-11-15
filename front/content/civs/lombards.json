@@ -35,7 +35,11 @@
   ],
   "datesCles": [
     { "annee": 568, "evenement": "L’arrivée en Italie", "info": "Alboin et son peuple franchissent les Alpes." },
-    { "annee": 572, "evenement": "Pavie", "info": "Après un long siège, Pavie est prise et devient la capitale." },
+    {
+      "annee": 572,
+      "evenement": "Prise de Pavie",
+      "info": "Après un long siège, Pavie est prise et devient la capitale."
+    },
     {
       "annee": 603,
       "evenement": "Baptême catholique",
@@ -47,7 +51,7 @@
       "evenement": "Donation de Sutri",
       "info": "Liutprand donne au pape le château de Sutri, l’une des origines des États pontificaux."
     },
-    { "annee": 751, "evenement": "Ravenne", "info": "Le roi Aistulf prend Ravenne aux Byzantins." },
+    { "annee": 751, "evenement": "Prise de Ravenne", "info": "Le roi Aistulf prend Ravenne aux Byzantins." },
     {
       "annee": 774,
       "evenement": "Chute de Pavie",

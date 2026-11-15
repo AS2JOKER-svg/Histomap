@@ -1,0 +1,20 @@
+{
+  "id": "guerre-civile-espagnole",
+  "nom": "Guerre d’Espagne",
+  "annee": 1936,
+  "fin": 1939,
+  "dates": "1936 → 1939",
+  "lieu": "Espagne",
+  "description": "Guerre civile entre les républicains, défenseurs du gouvernement élu, et les nationalistes du général Franco, qui se termine par la victoire de Franco et l’instauration d’une dictature.",
+  "sections": [
+    {
+      "titre": "Une guerre internationale",
+      "texte": "L’Allemagne nazie et l’Italie fasciste aident Franco ; l’URSS et des volontaires venus du monde entier, les Brigades internationales, aident la République. La France et le Royaume-Uni choisissent la non-intervention."
+    },
+    {
+      "titre": "Violences et exil",
+      "texte": "Les deux camps commettent des massacres. En 1939, près d’un demi-million de républicains fuient vers la France ; après la guerre, la répression franquiste fait encore des milliers de victimes."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_d%27Espagne"
+}

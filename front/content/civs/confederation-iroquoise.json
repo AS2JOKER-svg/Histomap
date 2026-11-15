@@ -1,0 +1,192 @@
+{
+  "documentaires": [],
+  "decouvertes": ["wampum"],
+  "id": "confederation-iroquoise",
+  "label": "Confédération iroquoise (Haudenosaunee)",
+  "tier": 2,
+  "region": "amerique-nord",
+  "period": "vers 1450 à 1784",
+  "start": 1450,
+  "end": 1784,
+  "color": "#4e342e",
+  "trackId": "grands-lacs",
+  "row": 4,
+  "isRiver": false,
+  "capitale": "Onondaga",
+  "description": "L’alliance de cinq, puis six nations du nord-est de l’Amérique, unies par la « Grande Loi de la paix », qui joue un rôle majeur entre Français, Hollandais et Britanniques jusqu’à la révolution américaine ; la confédération existe toujours.",
+  "territories": ["Iroquois", "Ho-de-no-sau-nee-ga (Haudenosaunee)", "Kanienʼkehá꞉ka (Mohawk)"],
+  "reperes": {
+    "capitale": { "valeur": "Onondaga", "precision": "lieu du Grand Conseil, près de l’actuelle Syracuse (État de New York)" },
+    "regimes": { "valeur": "Confédération", "precision": "un Grand Conseil de cinquante chefs choisis par les mères de clan" },
+    "langues": { "valeur": "Langues iroquoiennes", "precision": "mohawk, oneida, onondaga, cayuga, seneca, puis tuscarora" },
+    "religion": {
+      "valeur": "Religion haudenosaunee",
+      "precision": "le Créateur, les esprits de la nature, la Grande Loi de la paix"
+    },
+    "apogee": { "valeur": "XVIIe siècle" },
+    "population": { "valeur": "Peut-être 20 000 au XVIIe siècle", "precision": "estimation" },
+    "monnaie": {
+      "valeur": "Wampum",
+      "precision": "des perles de coquillage, surtout utilisées pour les traités et la mémoire"
+    },
+    "duree": { "valeur": "Plus de 300 ans", "precision": "la confédération existe toujours" },
+    "aujourdhui": { "valeur": "États-Unis et Canada", "precision": "État de New York, Ontario et Québec" }
+  },
+  "essentiel": [
+    "Selon la tradition, le Pacificateur (Deganawida) et [[hiawatha|Hiawatha]] persuadent cinq nations en guerre — Mohawks, Oneidas, Onondagas, Cayugas et Senecas — de s’unir ; la date de cette union est discutée, souvent placée vers 1450.",
+    "La « Grande Loi de la paix » organise un Grand Conseil de cinquante chefs, choisis et parfois destitués par les mères de clan.",
+    "Ils vivent dans des « maisons longues » et cultivent les « trois sœurs » : maïs, haricots et courges ; Haudenosaunee signifie « peuple de la maison longue ».",
+    "Au XVIIe siècle, alliés aux Hollandais puis aux Anglais, ils combattent les Hurons et la Nouvelle-France, avant de conclure la [[grande-paix-de-montreal|Grande Paix de Montréal]] (1701).",
+    "Pendant la révolution américaine, la confédération se divise ; après 1784, une grande partie de ses terres est cédée, et des Mohawks de [[joseph-brant|Joseph Brant]] s’installent au Canada."
+  ],
+  "datesCles": [
+    {
+      "annee": 1450,
+      "evenement": "La Grande Loi de la paix",
+      "info": "Vers 1450 selon de nombreux historiens, cinq nations s’unissent ; d’autres proposent des dates plus anciennes ou plus récentes."
+    },
+    {
+      "annee": 1609,
+      "evenement": "Champlain",
+      "info": "Samuel de Champlain et ses alliés autochtones battent des Mohawks près du lac qui porte aujourd’hui son nom."
+    },
+    {
+      "annee": 1613,
+      "evenement": "Les Hollandais",
+      "info": "Selon la tradition, les Mohawks concluent avec les Hollandais un accord représenté par le wampum à deux rangs."
+    },
+    {
+      "annee": 1649,
+      "evenement": "La Huronie",
+      "info": "Les Haudenosaunee détruisent les villages des Hurons-Wendats, rivaux dans le commerce des fourrures."
+    },
+    {
+      "annee": 1701,
+      "evenement": "Grande Paix de Montréal",
+      "info": "Paix générale avec la Nouvelle-France et une quarantaine de nations autochtones.",
+      "ref": "grande-paix-de-montreal"
+    },
+    {
+      "annee": 1722,
+      "evenement": "Six nations",
+      "info": "Les Tuscaroras rejoignent la confédération, qui compte désormais six nations."
+    },
+    {
+      "annee": 1779,
+      "evenement": "Expédition Sullivan",
+      "info": "L’armée américaine détruit une quarantaine de villages senecas et cayugas."
+    },
+    {
+      "annee": 1784,
+      "evenement": "Fort Stanwix",
+      "info": "Par le traité de Fort Stanwix, les Haudenosaunee cèdent de vastes terres aux États-Unis."
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "La Grande Paix",
+      "debut": 1450,
+      "fin": 1600,
+      "resume": "Cinq nations unies par la Grande Loi de la paix cultivent leurs terres au sud du lac Ontario.",
+      "evenements": [{ "annee": 1450, "evenement": "Fondation de la confédération (date discutée)" }]
+    },
+    {
+      "nom": "Les guerres du XVIIe siècle",
+      "debut": 1600,
+      "fin": 1701,
+      "resume": "Le commerce des fourrures et les épidémies entraînent de longues guerres contre les Hurons, d’autres nations et la Nouvelle-France.",
+      "evenements": [
+        { "annee": 1609, "evenement": "Combat contre Champlain" },
+        { "annee": 1649, "evenement": "Destruction de la Huronie" },
+        { "annee": 1701, "evenement": "Grande Paix de Montréal", "ref": "grande-paix-de-montreal" }
+      ]
+    },
+    {
+      "nom": "Entre empires",
+      "debut": 1701,
+      "fin": 1784,
+      "resume": "La confédération joue des rivalités entre Français et Britanniques, puis se divise pendant la révolution américaine.",
+      "evenements": [
+        { "annee": 1722, "evenement": "Arrivée des Tuscaroras" },
+        { "annee": 1779, "evenement": "Expédition Sullivan" },
+        { "annee": 1784, "evenement": "Traité de Fort Stanwix" }
+      ]
+    }
+  ],
+  "regimes": [{ "id": "confederation", "nom": "Confédération", "debut": 1450, "fin": 1784 }],
+  "dirigeants": [],
+  "personnages": [
+    {
+      "nom": "Deganawida (le Pacificateur)",
+      "role": "Fondateur légendaire",
+      "description": "Selon la tradition, il apporte la Grande Loi de la paix et convainc les nations de s’unir.",
+      "dates": "tradition",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Great_Peacemaker"
+    },
+    {
+      "nom": "Hiawatha",
+      "role": "Cofondateur",
+      "description": "Chef onondaga ou mohawk qui, selon la tradition, aide le Pacificateur à unir les nations.",
+      "dates": "tradition",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Hiawatha",
+      "ref": "hiawatha"
+    },
+    {
+      "nom": "Joseph Brant (Thayendanegea)",
+      "role": "Chef mohawk",
+      "description": "Allié des Britanniques pendant la révolution américaine, il conduit ensuite une partie des Mohawks au Canada.",
+      "dates": "1743 → 1807",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Joseph_Brant",
+      "ref": "joseph-brant"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerres franco-iroquoises",
+      "annee": 1609,
+      "adversaires": ["Nouvelle-France et ses alliés hurons et algonquins"],
+      "allies": ["Hollandais, puis Anglais"],
+      "morts": "Inconnues",
+      "vainqueur": "Aucun (paix de 1701)",
+      "consequences": "Pendant près d’un siècle, les Haudenosaunee et la Nouvelle-France s’affrontent pour le contrôle du commerce des fourrures. Les Haudenosaunee détruisent la Huronie en 1649 ; les Français ravagent à leur tour des villages iroquois. La Grande Paix de Montréal (1701) met fin à ces guerres.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerres_franco-iroquoises"
+    },
+    {
+      "nom": "Expédition Sullivan",
+      "annee": 1779,
+      "adversaires": ["Armée continentale des États-Unis (John Sullivan)"],
+      "allies": ["Royaume-Uni"],
+      "morts": "Peu de morts au combat ; de nombreuses victimes de la faim l’hiver suivant",
+      "vainqueur": "États-Unis",
+      "consequences": "Les soldats américains détruisent une quarantaine de villages, les récoltes et les vergers des Senecas et des Cayugas, alliés des Britanniques. Des milliers de réfugiés passent l’hiver dans le froid et la famine.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Sullivan_Expedition"
+    }
+  ],
+  "sciences": "Les Haudenosaunee cultivent ensemble les « trois sœurs » : le maïs sert de tuteur aux haricots, qui enrichissent le sol, tandis que les courges couvrent le sol et gardent l’humidité. Ils bâtissent des maisons longues de bois et d’écorce, longues parfois de plus de 50 mètres, où vivent plusieurs familles d’un même clan.",
+  "croyancesText": "Les Haudenosaunee remercient le Créateur et les esprits de la nature dans de grandes cérémonies qui suivent le rythme des saisons, comme la fête du maïs vert. Le grand pin blanc, sous lequel les nations auraient enterré leurs armes, symbolise la paix. Au XVIIe siècle, des missionnaires jésuites tentent de les convertir.",
+  "diplomatie": "La confédération pratique une diplomatie très élaborée, fondée sur les discours et les échanges de colliers de wampum qui gardent la mémoire des traités. Elle s’allie aux Hollandais puis aux Anglais, combat la Nouvelle-France et ses alliés, puis négocie la Grande Paix de 1701. Pendant la révolution américaine, la plupart des nations soutiennent les Britanniques, tandis que les Oneidas et les Tuscaroras soutiennent les Américains.",
+  "societe": "La société est organisée en clans, dont l’appartenance se transmet par les mères. Les mères de clan choisissent les chefs du Grand Conseil et peuvent les destituer ; les femmes possèdent les maisons et les champs.",
+  "economie": "Agriculture des trois sœurs, chasse, pêche, cueillette ; commerce des fourrures de castor avec les Européens au XVIIe siècle.",
+  "arts": "Colliers et ceintures de wampum, masques de bois, broderies de piquants de porc-épic puis de perles.",
+  "quotidien": "Le jeu de crosse, ancêtre du lacrosse moderne, oppose parfois des centaines de joueurs ; il a aussi une valeur religieuse et sert à régler des conflits.",
+  "heritage": [
+    {
+      "titre": "Une confédération toujours vivante",
+      "texte": "Le Grand Conseil de la confédération se réunit toujours à Onondaga ; la réserve des Six Nations de la rivière Grand, en Ontario, est la plus peuplée du Canada."
+    },
+    {
+      "titre": "Une influence discutée",
+      "texte": "En 1988, le Congrès des États-Unis a reconnu l’influence de la confédération sur les idées des fondateurs du pays ; les historiens en débattent l’importance."
+    }
+  ],
+  "aSavoir": [
+    "L’équipe nationale haudenosaunee de lacrosse participe aux compétitions internationales sous ses propres couleurs."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Iroquois",
+    {
+      "titre": "Encyclopædia Britannica — Iroquois Confederacy",
+      "url": "https://www.britannica.com/topic/Iroquois-Confederacy"
+    }
+  ]
+}

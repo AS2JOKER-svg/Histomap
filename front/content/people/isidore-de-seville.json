@@ -1,0 +1,16 @@
+{
+  "id": "isidore-de-seville",
+  "nom": "Isidore de Séville",
+  "role": "Évêque et savant",
+  "roles": ["Évêque", "Savant", "Écrivain"],
+  "dates": "vers 560 → 636",
+  "mort": 636,
+  "description": "Évêque de Séville dans le royaume wisigoth, il rassemble le savoir de l’Antiquité dans une grande encyclopédie, les Étymologies.",
+  "essentiel": [
+    "Ses Étymologies, en vingt livres, traitent de tous les savoirs : grammaire, médecine, droit, animaux, pierres, géographie.",
+    "Il écrit aussi une histoire des Goths.",
+    "Il préside le IVe concile de Tolède (633).",
+    "Il a été proposé comme saint patron d’Internet, en raison de son ambition de tout rassembler."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Isidore_de_S%C3%A9ville"
+}

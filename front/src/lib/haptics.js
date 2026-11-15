@@ -15,6 +15,9 @@ const PATTERNS = {
   success: [14, 60, 22],
   error: [40, 50, 40, 50, 40],
   complete: [20, 80, 20, 80, 60],
+  recompense: [30, 60, 30, 60, 120], // médaille, étoiles
+  niveau: [40, 70, 40, 70, 40, 70, 160], // passage de niveau
+  coffre: [10, 30, 10, 30, 10, 30, 90], // ouverture d'un coffre ou d'un titre
 }
 
 export function canVibrate() {

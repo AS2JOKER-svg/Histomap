@@ -1,0 +1,17 @@
+{
+  "id": "mani",
+  "nom": "Mani",
+  "role": "Fondateur du manichéisme",
+  "roles": ["Prophète", "Peintre"],
+  "dates": "216 → vers 276",
+  "naissance": 216,
+  "mort": 276,
+  "description": "Né en Mésopotamie, il fonde une religion qui voit le monde comme un combat entre la Lumière et les Ténèbres ; elle se répand de l’Afrique du Nord à la Chine.",
+  "essentiel": [
+    "Protégé par Shapur Ier, il prêche dans tout l’empire.",
+    "Il illustre lui-même ses livres de peintures.",
+    "Sous Bahram Ier, il est emprisonné et meurt en prison."
+  ],
+  "aSavoir": ["Le manichéisme deviendra la religion d’État du khaganat ouïghour au VIIIe siècle."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Mani_(proph%C3%A8te)"
+}

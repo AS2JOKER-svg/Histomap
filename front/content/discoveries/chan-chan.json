@@ -1,0 +1,18 @@
+{
+  "id": "chan-chan",
+  "nom": "Chan Chan",
+  "domaine": "Architecture",
+  "dates": "vers 900 → 1470",
+  "description": "La capitale du royaume chimú, près de Trujillo, au Pérou : la plus grande ville en terre crue des Amériques, sur une vingtaine de kilomètres carrés.",
+  "sections": [
+    {
+      "titre": "Une ville de palais",
+      "texte": "Une dizaine de grands enclos aux hauts murs abritaient chacun le palais, les entrepôts et le tombeau d’un roi. Les murs sont décorés de reliefs de poissons, d’oiseaux et de vagues."
+    },
+    {
+      "titre": "Une ville menacée",
+      "texte": "Inscrite au patrimoine mondial de l’UNESCO en 1986, elle est aussi sur la liste du patrimoine en péril, car la pluie érode la terre crue."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Chan_Chan"
+}

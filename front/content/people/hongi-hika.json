@@ -1,0 +1,16 @@
+{
+  "id": "hongi-hika",
+  "nom": "Hongi Hika",
+  "role": "Chef des Ngāpuhi",
+  "roles": ["Chef de guerre", "Rangatira"],
+  "dates": "vers 1772 → 1828",
+  "mort": 1828,
+  "description": "Chef de la tribu ngāpuhi, dans le nord de la Nouvelle-Zélande, il est le premier à utiliser les mousquets à grande échelle dans les guerres entre tribus.",
+  "essentiel": [
+    "Il accueille et protège les premiers missionnaires, avec qui il commerce.",
+    "En 1820, il se rend en Angleterre, où il rencontre le roi George IV et aide un linguiste à écrire une grammaire du maori.",
+    "À son retour, il échange les cadeaux reçus contre des centaines de mousquets.",
+    "Ses campagnes contre les tribus rivales, dans les années 1820, font des milliers de morts."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Hongi_Hika"
+}

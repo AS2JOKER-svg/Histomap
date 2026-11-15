@@ -1,0 +1,17 @@
+{
+  "id": "vasco-de-gama",
+  "nom": "Vasco de Gama",
+  "role": "Navigateur portugais",
+  "roles": ["Navigateur", "Vice-roi des Indes portugaises"],
+  "dates": "vers 1469 → 1524",
+  "naissance": 1469,
+  "mort": 1524,
+  "description": "Navigateur portugais, il ouvre en 1497-1499 la route maritime de l’Europe vers l’Inde en contournant l’Afrique.",
+  "essentiel": [
+    "Il double le cap de Bonne-Espérance en 1497.",
+    "À Malindi, il obtient un pilote qui le guide jusqu’à Calicut, en Inde (1498).",
+    "Lors de son deuxième voyage (1502), il impose la domination portugaise par la force.",
+    "Il meurt en Inde en 1524, comme vice-roi."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Vasco_de_Gama"
+}

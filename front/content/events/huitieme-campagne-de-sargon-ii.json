@@ -1,0 +1,15 @@
+{
+  "id": "huitieme-campagne-de-sargon-ii",
+  "nom": "Huitième campagne de Sargon II",
+  "annee": -714,
+  "dates": "714 av. J.-C.",
+  "lieu": "Ourartou et Zagros",
+  "description": "Le roi d’Assyrie Sargon II envahit l’Ourartou, bat le roi Rusa Ier et pille le grand temple du dieu Haldi à Musasir.",
+  "sections": [
+    {
+      "titre": "Une source exceptionnelle",
+      "texte": "Sargon raconte cette campagne dans une longue lettre adressée au dieu Assur, retrouvée sur une tablette d’argile : on y lit la liste du butin, des tonnes d’or, d’argent et de bronze."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Huiti%C3%A8me_campagne_de_Sargon_II"
+}

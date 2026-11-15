@@ -1,0 +1,16 @@
+{
+  "id": "saint-sava",
+  "nom": "Saint Sava",
+  "role": "Premier archevêque de l’Église serbe",
+  "roles": ["Moine", "Archevêque", "Saint"],
+  "dates": "vers 1175 → 1236",
+  "mort": 1236,
+  "description": "Fils du fondateur de la Serbie médiévale, Stefan Nemanja, il devient moine, fonde l’Église serbe autonome et en est le premier archevêque (1219).",
+  "essentiel": [
+    "Jeune prince, il s’enfuit au mont Athos pour devenir moine.",
+    "Avec son père, il fonde le monastère de Hilandar (1198).",
+    "Il obtient en 1219 l’autonomie de l’Église serbe et organise ses évêchés.",
+    "Il écrit les premiers textes de la littérature serbe et fonde des écoles."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Sava_de_Serbie"
+}

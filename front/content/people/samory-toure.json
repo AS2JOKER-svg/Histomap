@@ -1,0 +1,21 @@
+{
+  "id": "samory-toure",
+  "nom": "Samory Touré",
+  "role": "Fondateur de l’empire wassoulou",
+  "roles": ["Chef de guerre", "Almamy"],
+  "dates": "vers 1830 → 1900",
+  "naissance": 1830,
+  "mort": 1900,
+  "description": "Marchand malinké devenu chef de guerre, il fonde un empire en Afrique de l’Ouest et résiste près de vingt ans à la conquête française.",
+  "reperes": [{ "label": "Règne", "valeur": "1878 → 1898" }],
+  "essentiel": [
+    "Il apprend le métier des armes après la capture de sa mère par un chef rival, qu’il sert pour la libérer.",
+    "Il équipe son armée de fusils modernes et fait fabriquer des armes dans ses ateliers.",
+    "Il déplace tout son empire vers l’est pour échapper aux Français.",
+    "Capturé en 1898, il meurt en exil au Gabon en 1900."
+  ],
+  "aSavoir": [
+    "Il est vu comme un héros de la résistance en Guinée et au Mali, mais ses guerres ont laissé de lourds souvenirs dans d’autres régions."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Samory_Tour%C3%A9"
+}

@@ -572,5 +572,805 @@
   "Grande halte sur l’Ougra": {
     "coords": [35.5, 54.5],
     "lieu": "Rivière Ougra"
+  },
+  "Huitième campagne de Sargon II": {
+    "coords": [44.5, 37.2],
+    "lieu": "Musasir (Zagros)"
+  },
+  "Bataille de Tigranocerte": {
+    "coords": [41, 38.1],
+    "lieu": "Tigranocerte"
+  },
+  "Guerre romano-parthe pour l’Arménie": {
+    "coords": [44.5, 40],
+    "lieu": "Arménie"
+  },
+  "Expédition d’Aelius Gallus": {
+    "coords": [45.35, 15.42],
+    "lieu": "Marib"
+  },
+  "Conquête aksoumite de Himyar": {
+    "coords": [44.2, 14.2],
+    "lieu": "Zafar (Yémen)"
+  },
+  "Expéditions d’Antigone contre les Nabatéens": {
+    "coords": [35.44, 30.33],
+    "lieu": "Région de Pétra"
+  },
+  "Guerre d’Arétas IV contre Hérode Antipas": {
+    "coords": [35.8, 31.6],
+    "lieu": "Pérée (Jordanie)"
+  },
+  "Bataille d’Ipsos": {
+    "coords": [31, 38.8],
+    "lieu": "Ipsos (Phrygie)"
+  },
+  "Bataille de Raphia": {
+    "coords": [34.25, 31.29],
+    "lieu": "Raphia (Rafah)"
+  },
+  "Bataille de Magnésie": {
+    "coords": [27.43, 38.61],
+    "lieu": "Magnésie du Sipyle"
+  },
+  "Bataille de Carrhes": {
+    "coords": [39.03, 36.87],
+    "lieu": "Carrhes (Harran, Turquie)"
+  },
+  "Guerre parthique de Trajan": {
+    "coords": [44.58, 33.09],
+    "lieu": "Ctésiphon"
+  },
+  "Bataille d’Hormozgan": {
+    "coords": [55, 28.5],
+    "lieu": "Sud de l’Iran"
+  },
+  "Siège de Bactres": {
+    "coords": [66.9, 36.76],
+    "lieu": "Bactres (Balkh)"
+  },
+  "Invasion nomade de la Bactriane": {
+    "coords": [69.4, 37.17],
+    "lieu": "Aï Khanoum"
+  },
+  "Guerre kouchane contre Ban Chao": {
+    "coords": [77, 39.5],
+    "lieu": "Bassin du Tarim"
+  },
+  "Conquête sassanide de la Bactriane": {
+    "coords": [66.9, 36.76],
+    "lieu": "Bactriane"
+  },
+  "Bataille d’Édesse": {
+    "coords": [38.79, 37.16],
+    "lieu": "Édesse (Urfa)"
+  },
+  "Guerre perso-byzantine de 602-628": {
+    "coords": [43.15, 36.36],
+    "lieu": "Ninive"
+  },
+  "Bataille d’al-Qadisiyya": {
+    "coords": [44.4, 31.7],
+    "lieu": "Al-Qadisiyya (Irak)"
+  },
+  "Bataille de Balkh (900)": {
+    "coords": [66.9, 36.76],
+    "lieu": "Balkh"
+  },
+  "Chute de Boukhara (999)": {
+    "coords": [64.42, 39.77],
+    "lieu": "Boukhara"
+  },
+  "Bataille de Dandanakan": {
+    "coords": [62, 37.4],
+    "lieu": "Dandanakan (Turkménistan)"
+  },
+  "Bataille de Dorylée": {
+    "coords": [30.52, 39.78],
+    "lieu": "Dorylée (Eskişehir)"
+  },
+  "Bataille de Köse Dağ": {
+    "coords": [38.6, 40.2],
+    "lieu": "Köse Dağ (est de la Turquie)"
+  },
+  "Invasion mongole du Khwarezm": {
+    "coords": [64.42, 39.77],
+    "lieu": "Boukhara et Samarcande"
+  },
+  "Bataille de l’Indus": {
+    "coords": [71.2, 33.9],
+    "lieu": "Rives de l’Indus"
+  },
+  "Bataille de Didgori": {
+    "coords": [44.55, 41.78],
+    "lieu": "Didgori (près de Tbilissi)"
+  },
+  "Invasions de Tamerlan en Géorgie": {
+    "coords": [44.79, 41.72],
+    "lieu": "Tbilissi"
+  },
+  "Campagne de Tamerlan en Inde": {
+    "coords": [77.21, 28.65],
+    "lieu": "Delhi"
+  },
+  "Bataille d’Ankara": {
+    "coords": [32.86, 39.93],
+    "lieu": "Ankara"
+  },
+  "Troisième bataille de Panipat": {
+    "coords": [76.97, 29.39],
+    "lieu": "Panipat (Inde)"
+  },
+  "Guerres afghano-sikhes": {
+    "coords": [74.87, 31.62],
+    "lieu": "Pendjab"
+  },
+  "Bataille de Zama": {
+    "coords": [9.43, 36.3],
+    "lieu": "Zama (Tunisie)"
+  },
+  "Guerre de Jugurtha": {
+    "coords": [6.61, 36.37],
+    "lieu": "Cirta (Constantine)"
+  },
+  "Bataille de Thapsus": {
+    "coords": [11.06, 35.62],
+    "lieu": "Thapsus (Tunisie)"
+  },
+  "Siège de Dongola (652)": {
+    "coords": [30.74, 18.22],
+    "lieu": "Vieux-Dongola"
+  },
+  "Interventions mameloukes en Makurie": {
+    "coords": [30.74, 18.22],
+    "lieu": "Dongola"
+  },
+  "Bataille de Zallaqa": {
+    "coords": [-6.88, 38.93],
+    "lieu": "Près de Badajoz"
+  },
+  "Bataille d’Alarcos": {
+    "coords": [-3.98, 38.95],
+    "lieu": "Alarcos (Castille)"
+  },
+  "Djihad peul contre le Bornou": {
+    "coords": [12.9, 12.9],
+    "lieu": "Ngazargamu (Nigeria)"
+  },
+  "Conquête du Bornou par Rabih": {
+    "coords": [13.55, 12.92],
+    "lieu": "Kukawa (Nigeria)"
+  },
+  "Bataille d’Aïn Djalout": {
+    "coords": [35.36, 32.55],
+    "lieu": "Aïn Djalout (Galilée)"
+  },
+  "Siège d’Acre (1291)": {
+    "coords": [35.07, 32.93],
+    "lieu": "Acre"
+  },
+  "Conquête ottomane de l’Égypte": {
+    "coords": [37.3, 36.5],
+    "lieu": "Marj Dabiq (Syrie)"
+  },
+  "Sac de Kilwa et de Mombasa": {
+    "coords": [39.51, -8.96],
+    "lieu": "Kilwa (Tanzanie)"
+  },
+  "Guerre d’Idah": {
+    "coords": [6.73, 7.1],
+    "lieu": "Idah (Nigeria)"
+  },
+  "Expédition punitive de 1897": {
+    "coords": [5.62, 6.34],
+    "lieu": "Benin City"
+  },
+  "Expédition de Francisco Barreto": {
+    "coords": [33.6, -16.15],
+    "lieu": "Vallée du Zambèze"
+  },
+  "Expulsion des Portugais par les Rozvi": {
+    "coords": [31.5, -17.5],
+    "lieu": "Plateau du Zimbabwe"
+  },
+  "Guerres de religion du Buganda": {
+    "coords": [32.58, 0.31],
+    "lieu": "Mengo (Kampala)"
+  },
+  "Crise de Mengo": {
+    "coords": [32.56, 0.3],
+    "lieu": "Palais de Mengo (Kampala)"
+  },
+  "Guerre franco-malgache de 1883-1885": {
+    "coords": [49.29, -12.28],
+    "lieu": "Diego-Suarez et côtes"
+  },
+  "Expédition de Madagascar (1895)": {
+    "coords": [47.52, -18.91],
+    "lieu": "Antananarivo"
+  },
+  "Bataille des Trois Rois": {
+    "coords": [-5.95, 35],
+    "lieu": "Oued el-Makhazin (près de Ksar el-Kébir)"
+  },
+  "Bataille d’Isly": {
+    "coords": [-1.9, 34.7],
+    "lieu": "Oued Isly (près d’Oujda)"
+  },
+  "Guerre hispano-marocaine (1859-1860)": {
+    "coords": [-5.37, 35.57],
+    "lieu": "Tétouan"
+  },
+  "Djihad d’Usman dan Fodio": {
+    "coords": [5.24, 13.06],
+    "lieu": "Pays haoussa (Gobir)"
+  },
+  "Conquête britannique de Sokoto": {
+    "coords": [8.52, 12],
+    "lieu": "Kano et Sokoto"
+  },
+  "Bataille de Blood River": {
+    "coords": [30.53, -28.1],
+    "lieu": "Rivière Ncome (Natal)"
+  },
+  "Guerres de Samory contre la France": {
+    "coords": [-9.35, 10.2],
+    "lieu": "Haute-Guinée"
+  },
+  "Campagnes de Samudragupta": {
+    "coords": [81.85, 25.44],
+    "lieu": "Nord de l’Inde (pilier d’Allahabad)"
+  },
+  "Guerre contre les Kshatrapas occidentaux": {
+    "coords": [75.78, 23.18],
+    "lieu": "Malwa et Gujarat (Ujjain)"
+  },
+  "Invasions des Huns en Inde": {
+    "coords": [74.53, 32.49],
+    "lieu": "Nord-ouest de l’Inde"
+  },
+  "Invasions mongoles de l’Inde": {
+    "coords": [77.21, 28.65],
+    "lieu": "Pendjab et environs de Delhi"
+  },
+  "Campagnes de Malik Kafur": {
+    "coords": [78.12, 9.93],
+    "lieu": "Dekkan et sud de l’Inde (jusqu’à Madurai)"
+  },
+  "Guerres contre le sultanat bahmanide": {
+    "coords": [77.36, 16.2],
+    "lieu": "Doab de Raichur"
+  },
+  "Bataille de Raichur": {
+    "coords": [77.34, 16.22],
+    "lieu": "Raichur (Karnataka)"
+  },
+  "Bataille de Talikota": {
+    "coords": [76.31, 16.47],
+    "lieu": "Près de Talikota (Karnataka)"
+  },
+  "Deuxième guerre anglo-marathe": {
+    "coords": [75.89, 20.25],
+    "lieu": "Dekkan et nord de l’Inde (Assaye)"
+  },
+  "Troisième guerre anglo-marathe": {
+    "coords": [73.86, 18.52],
+    "lieu": "Pune et centre de l’Inde"
+  },
+  "Guerre de Dutugemunu contre Elara": {
+    "coords": [80.4, 8.33],
+    "lieu": "Anuradhapura (Sri Lanka)"
+  },
+  "Conquête chola de Sri Lanka": {
+    "coords": [81, 7.94],
+    "lieu": "Anuradhapura et Polonnaruwa (Sri Lanka)"
+  },
+  "Guerre de Koguryo contre les Sui": {
+    "coords": [125.6, 39.6],
+    "lieu": "Rivière Salsu (Corée du Nord)"
+  },
+  "Bataille de Baekgang": {
+    "coords": [126.7, 36],
+    "lieu": "Embouchure de la rivière Geum (Corée du Sud)"
+  },
+  "Guerre Silla-Tang": {
+    "coords": [127, 37.9],
+    "lieu": "Centre de la péninsule coréenne"
+  },
+  "Sac de Luoyang (311)": {
+    "coords": [112.45, 34.62],
+    "lieu": "Luoyang (Chine)"
+  },
+  "Bataille de la rivière Fei": {
+    "coords": [116.78, 32.58],
+    "lieu": "Rivière Fei (Anhui, Chine)"
+  },
+  "Conquête des Chen par les Sui": {
+    "coords": [118.78, 32.06],
+    "lieu": "Jiankang (Nankin)"
+  },
+  "Guerre de Jinshin": {
+    "coords": [135.9, 34.98],
+    "lieu": "Région du lac Biwa (Japon)"
+  },
+  "Invasion mongole du Champa": {
+    "coords": [109.1, 13.9],
+    "lieu": "Vijaya (près de Quy Nhơn, Vietnam)"
+  },
+  "Raids de Chế Bồng Nga": {
+    "coords": [105.85, 21.03],
+    "lieu": "Thăng Long (Hanoï)"
+  },
+  "Prise de Vijaya": {
+    "coords": [109.05, 13.92],
+    "lieu": "Vijaya (Chà Bàn, Vietnam)"
+  },
+  "Invasions mongoles du Đại Việt": {
+    "coords": [106.75, 20.9],
+    "lieu": "Fleuve Bạch Đằng et delta du fleuve Rouge"
+  },
+  "Insurrection de Lam Sơn": {
+    "coords": [105.6, 20.1],
+    "lieu": "Lam Sơn (Thanh Hóa, Vietnam)"
+  },
+  "Bataille de Đống Đa": {
+    "coords": [105.83, 21.01],
+    "lieu": "Près de Thăng Long (Hanoï)"
+  },
+  "Conquête de Thaton": {
+    "coords": [97.37, 16.92],
+    "lieu": "Thaton (sud de la Birmanie)"
+  },
+  "Invasions mongoles de la Birmanie": {
+    "coords": [97.6, 24.4],
+    "lieu": "Nord de la Birmanie (Ngasaunggyan), puis Pagan"
+  },
+  "Invasion mongole de Java": {
+    "coords": [112.38, -7.56],
+    "lieu": "Est de Java (Indonésie)"
+  },
+  "Guerre de Paregreg": {
+    "coords": [113.9, -8.2],
+    "lieu": "Est de Java"
+  },
+  "Prise d’Angkor (1431)": {
+    "coords": [103.87, 13.41],
+    "lieu": "Angkor (Cambodge)"
+  },
+  "Guerre birmano-siamoise (1568-1569)": {
+    "coords": [100.57, 14.36],
+    "lieu": "Ayutthaya (Thaïlande)"
+  },
+  "Bataille de Nong Sarai": {
+    "coords": [100.1, 14.47],
+    "lieu": "Nong Sarai (Suphan Buri, Thaïlande)"
+  },
+  "Chute d’Ayutthaya (1767)": {
+    "coords": [100.58, 14.35],
+    "lieu": "Ayutthaya (Thaïlande)"
+  },
+  "Prise de Malacca (1511)": {
+    "coords": [102.25, 2.19],
+    "lieu": "Malacca (Malaisie)"
+  },
+  "Guerres de la frontière australienne": {
+    "coords": [151, -33.8],
+    "lieu": "Australie (d’abord autour de Sydney)"
+  },
+  "Guerres des mousquets": {
+    "coords": [174.1, -35.25],
+    "lieu": "Île du Nord (Nouvelle-Zélande)"
+  },
+  "Guerres civiles tonganes": {
+    "coords": [-175.2, -21.15],
+    "lieu": "Tongatapu (Tonga)"
+  },
+  "Bataille de Nuʻuanu": {
+    "coords": [-157.8, 21.37],
+    "lieu": "Vallée de Nuʻuanu (Oʻahu, Hawaï)"
+  },
+  "Renversement du royaume d’Hawaï": {
+    "coords": [-157.86, 21.31],
+    "lieu": "Honolulu (Hawaï)"
+  },
+  "Siège de Guiengola": {
+    "coords": [-95.35, 16.37],
+    "lieu": "Guiengola, près de Tehuantepec (Mexique)"
+  },
+  "Conquête inca du Chimor": {
+    "coords": [-79.07, -8.11],
+    "lieu": "Chan Chan (Pérou)"
+  },
+  "Bataille de Chocontá": {
+    "coords": [-73.68, 5.15],
+    "lieu": "Chocontá (Colombie)"
+  },
+  "Conquête espagnole des Muiscas": {
+    "coords": [-74.07, 4.71],
+    "lieu": "Hauts plateaux de Bogotá (Colombie)"
+  },
+  "Bataille de Mabila": {
+    "coords": [-87.5, 32.3],
+    "lieu": "Mabila (Alabama, États-Unis)"
+  },
+  "Conquête espagnole d’Hispaniola": {
+    "coords": [-70.6, 19.2],
+    "lieu": "Hispaniola (Haïti et République dominicaine)"
+  },
+  "Révolte d’Enriquillo": {
+    "coords": [-71.4, 18.2],
+    "lieu": "Montagnes du Bahoruco (République dominicaine)"
+  },
+  "Guerres franco-iroquoises": {
+    "coords": [-73.6, 44.6],
+    "lieu": "Vallée du Saint-Laurent et région des Grands Lacs"
+  },
+  "Expédition Sullivan": {
+    "coords": [-76.9, 42.6],
+    "lieu": "Pays des Senecas et des Cayugas (État de New York)"
+  },
+  "Guerre d’Arauco": {
+    "coords": [-73.2, -37.6],
+    "lieu": "Région du Biobío et de l’Araucanie (Chili)"
+  },
+  "Occupation de l’Araucanie": {
+    "coords": [-72.6, -38.74],
+    "lieu": "Araucanie (Chili)"
+  },
+  "Guerre des Chichimèques": {
+    "coords": [-102.58, 22.77],
+    "lieu": "Nord du Mexique (Zacatecas)"
+  },
+  "Révolte des Pueblos": {
+    "coords": [-105.94, 35.69],
+    "lieu": "Santa Fe (Nouveau-Mexique, États-Unis)"
+  },
+  "Guerre d’indépendance du Mexique": {
+    "coords": [-100.93, 21.16],
+    "lieu": "Dolores, puis tout le Mexique"
+  },
+  "Batailles des Guararapes": {
+    "coords": [-34.95, -8.15],
+    "lieu": "Près de Recife (Brésil)"
+  },
+  "Destruction de Palmares": {
+    "coords": [-36, -9.27],
+    "lieu": "Serra da Barriga (Alagoas, Brésil)"
+  },
+  "Bataille d’Arausio": {
+    "coords": [4.81, 44.14],
+    "lieu": "Arausio (Orange, France)"
+  },
+  "Bataille de Teutobourg": {
+    "coords": [8.13, 52.41],
+    "lieu": "Kalkriese, près d’Osnabrück (Allemagne)"
+  },
+  "Bataille d’Andrinople": {
+    "coords": [26.56, 41.68],
+    "lieu": "Andrinople (Edirne, Turquie)"
+  },
+  "Guerres daciques de Domitien": {
+    "coords": [22.9, 45.4],
+    "lieu": "Tapae (Roumanie)"
+  },
+  "Guerres daciques de Trajan": {
+    "coords": [23.31, 45.62],
+    "lieu": "Sarmizegetusa Regia (Roumanie)"
+  },
+  "Conquête lombarde de l’Italie": {
+    "coords": [11.5, 45.6],
+    "lieu": "Nord de l’Italie"
+  },
+  "Siège de Pavie (773-774)": {
+    "coords": [9.16, 45.19],
+    "lieu": "Pavie (Italie)"
+  },
+  "Siège de Constantinople (626)": {
+    "coords": [28.95, 41.02],
+    "lieu": "Constantinople (Istanbul, Turquie)"
+  },
+  "Guerres avaro-franques": {
+    "coords": [19.5, 46.8],
+    "lieu": "Plaine de Pannonie (Hongrie)"
+  },
+  "Bataille de Pliska": {
+    "coords": [27.12, 43.38],
+    "lieu": "Pliska (Bulgarie)"
+  },
+  "Bataille de Kleidion": {
+    "coords": [23, 41.4],
+    "lieu": "Kleidion (près de la frontière gréco-bulgare)"
+  },
+  "Bataille d’Andrinople (1205)": {
+    "coords": [26.56, 41.68],
+    "lieu": "Andrinople (Edirne, Turquie)"
+  },
+  "Conquête ottomane de la Bulgarie": {
+    "coords": [25.63, 43.08],
+    "lieu": "Tarnovo (Veliko Tarnovo, Bulgarie)"
+  },
+  "Invasion mongole de la Hongrie": {
+    "coords": [20.95, 47.98],
+    "lieu": "Mohi, sur le Sajó (Hongrie)"
+  },
+  "Siège de Belgrade (1456)": {
+    "coords": [20.45, 44.82],
+    "lieu": "Belgrade (Serbie)"
+  },
+  "Bataille de Legnica": {
+    "coords": [16.16, 51.21],
+    "lieu": "Legnica (Pologne)"
+  },
+  "Guerre polono-teutonique (1326-1332)": {
+    "coords": [18.6, 52.9],
+    "lieu": "Kujawie et Poméranie (Pologne)"
+  },
+  "Bataille de Marchfeld": {
+    "coords": [16.85, 48.3],
+    "lieu": "Marchfeld, près de Vienne (Autriche)"
+  },
+  "Bataille de la Maritsa": {
+    "coords": [26.2, 41.7],
+    "lieu": "Tchernomen, sur la Maritsa (Grèce)"
+  },
+  "Bataille de Kosovo (1389)": {
+    "coords": [21.1, 42.72],
+    "lieu": "Kosovo Polje (« champ des Merles »)"
+  },
+  "Chute de Smederevo": {
+    "coords": [20.93, 44.66],
+    "lieu": "Smederevo (Serbie)"
+  },
+  "Guerres d’indépendance de l’Écosse": {
+    "coords": [-3.94, 56.12],
+    "lieu": "Stirling et Bannockburn (Écosse)"
+  },
+  "Bataille de Flodden": {
+    "coords": [-2.17, 55.63],
+    "lieu": "Flodden, Northumberland (Angleterre)"
+  },
+  "Sac de Rome (1527)": {
+    "coords": [12.46, 41.9],
+    "lieu": "Rome (Italie)"
+  },
+  "Prise de Rome (1870)": {
+    "coords": [12.51, 41.91],
+    "lieu": "Porta Pia, Rome (Italie)"
+  },
+  "Bataille d’Aljubarrota": {
+    "coords": [-8.92, 39.62],
+    "lieu": "Aljubarrota (Portugal)"
+  },
+  "Guerre de Restauration": {
+    "coords": [-7.2, 38.9],
+    "lieu": "Frontière luso-espagnole (Alentejo)"
+  },
+  "Guerres de Bourgogne": {
+    "coords": [6.18, 48.69],
+    "lieu": "Grandson, Morat (Suisse) et Nancy (France)"
+  },
+  "Guerre dano-suédoise (1657-1658)": {
+    "coords": [12.08, 55.64],
+    "lieu": "Détroits danois et Roskilde (Danemark)"
+  },
+  "Guerre d’indépendance espagnole": {
+    "coords": [-3.78, 38.09],
+    "lieu": "Bailén (Espagne)"
+  },
+  "Guerre hispano-américaine": {
+    "coords": [-75.82, 20.02],
+    "lieu": "Cuba et Philippines"
+  },
+  "Guerre civile espagnole": {
+    "coords": [-3.7, 40.42],
+    "lieu": "Espagne"
+  },
+  "Guerre d’indépendance grecque": {
+    "coords": [21.67, 36.91],
+    "lieu": "Péloponnèse (Navarin)"
+  },
+  "Guerres balkaniques": {
+    "coords": [22.94, 40.64],
+    "lieu": "Macédoine (Thessalonique)"
+  },
+  "Guerre gréco-turque (1919-1922)": {
+    "coords": [27.14, 38.42],
+    "lieu": "Anatolie occidentale (Smyrne)"
+  },
+  "Guerre civile grecque": {
+    "coords": [20.85, 40.35],
+    "lieu": "Montagnes du nord de la Grèce"
+  },
+  "Guerre soviéto-polonaise": {
+    "coords": [21.01, 52.23],
+    "lieu": "Pologne, Ukraine et Biélorussie"
+  },
+  "Campagne de Pologne (1939)": {
+    "coords": [19.46, 51.76],
+    "lieu": "Pologne"
+  },
+  "Insurrection de Varsovie": {
+    "coords": [21, 52.25],
+    "lieu": "Varsovie"
+  },
+  "Guerre soviéto-ukrainienne": {
+    "coords": [30.52, 50.45],
+    "lieu": "Ukraine"
+  },
+  "Guerre du Donbass": {
+    "coords": [37.8, 48],
+    "lieu": "Donbass (est de l’Ukraine)"
+  },
+  "Guerre des Duchés": {
+    "coords": [9.73, 54.9],
+    "lieu": "Dybbøl (Schleswig)"
+  },
+  "Guerre d’Hiver": {
+    "coords": [29.5, 60.6],
+    "lieu": "Carélie"
+  },
+  "Campagne de Norvège": {
+    "coords": [17.43, 68.44],
+    "lieu": "Norvège (Narvik)"
+  },
+  "Guerre anglo-égyptienne": {
+    "coords": [31.83, 30.55],
+    "lieu": "Tel el-Kébir (Égypte)"
+  },
+  "Guerre israélo-arabe de 1948-1949": {
+    "coords": [34.8, 31.5],
+    "lieu": "Palestine"
+  },
+  "Crise du canal de Suez": {
+    "coords": [32.3, 31.26],
+    "lieu": "Port-Saïd et Sinaï"
+  },
+  "Guerre des Six Jours": {
+    "coords": [33.8, 30],
+    "lieu": "Sinaï, Cisjordanie, Golan"
+  },
+  "Guerre du Kippour": {
+    "coords": [32.35, 30.5],
+    "lieu": "Canal de Suez et Golan"
+  },
+  "Conquête de l’Algérie par la France": {
+    "coords": [2.9, 36.2],
+    "lieu": "Algérie du Nord"
+  },
+  "Guerre civile algérienne": {
+    "coords": [3.1, 36.6],
+    "lieu": "Algérie du Nord"
+  },
+  "Guerre du Biafra": {
+    "coords": [7.5, 6.45],
+    "lieu": "Sud-est du Nigeria"
+  },
+  "Insurrection de Boko Haram": {
+    "coords": [13.15, 11.85],
+    "lieu": "Nord-est du Nigeria (Borno)"
+  },
+  "Crise congolaise": {
+    "coords": [27.48, -11.66],
+    "lieu": "Katanga et Kasaï"
+  },
+  "Première guerre du Congo": {
+    "coords": [25.2, 0.5],
+    "lieu": "Zaïre (de l’est à Kinshasa)"
+  },
+  "Deuxième guerre du Congo": {
+    "coords": [29.22, -1.68],
+    "lieu": "Est de la RD Congo"
+  },
+  "Révolte des Mau Mau": {
+    "coords": [36.75, -0.4],
+    "lieu": "Hauts plateaux du centre (monts Aberdare)"
+  },
+  "Grande révolte arabe de 1936-1939": {
+    "coords": [35.25, 32.2],
+    "lieu": "Palestine mandataire"
+  },
+  "Guerre du Liban de 1982": {
+    "coords": [35.5, 33.89],
+    "lieu": "Liban (Beyrouth)"
+  },
+  "Première intifada": {
+    "coords": [35.2, 31.9],
+    "lieu": "Cisjordanie et Gaza"
+  },
+  "Seconde intifada": {
+    "coords": [35.25, 32],
+    "lieu": "Israël et territoires palestiniens"
+  },
+  "Guerre de Gaza de 2014": {
+    "coords": [34.45, 31.5],
+    "lieu": "Bande de Gaza"
+  },
+  "Guerre ottomano-wahhabite": {
+    "coords": [46.57, 24.73],
+    "lieu": "Nejd (Diriyah)"
+  },
+  "Unification de l’Arabie saoudite": {
+    "coords": [39.8, 21.4],
+    "lieu": "Arabie (Nejd et Hedjaz)"
+  },
+  "Guerre du Golfe": {
+    "coords": [47.98, 29.37],
+    "lieu": "Koweït et Irak"
+  },
+  "Guerre civile yéménite": {
+    "coords": [44.2, 15.35],
+    "lieu": "Yémen"
+  },
+  "Première guerre indo-pakistanaise": {
+    "coords": [74.8, 34.08],
+    "lieu": "Cachemire"
+  },
+  "Deuxième guerre indo-pakistanaise": {
+    "coords": [74.35, 31.55],
+    "lieu": "Cachemire et Pendjab"
+  },
+  "Guerre de libération du Bangladesh": {
+    "coords": [90.4, 23.8],
+    "lieu": "Bangladesh (Dacca)"
+  },
+  "Guerre de Kargil": {
+    "coords": [76.13, 34.55],
+    "lieu": "Kargil (Cachemire)"
+  },
+  "Campagne de Cochinchine": {
+    "coords": [108.2, 16.07],
+    "lieu": "Đà Nẵng et Saïgon"
+  },
+  "Guerre d’Indochine": {
+    "coords": [103.02, 21.39],
+    "lieu": "Diên Biên Phu (Tonkin)"
+  },
+  "Guerre sino-vietnamienne": {
+    "coords": [106.76, 21.85],
+    "lieu": "Nord du Viêt Nam (Lạng Sơn)"
+  },
+  "Crise franco-siamoise de 1893": {
+    "coords": [100.58, 13.6],
+    "lieu": "Bangkok et Mékong"
+  },
+  "Guerre franco-thaïlandaise": {
+    "coords": [103, 13.4],
+    "lieu": "Frontière du Cambodge"
+  },
+  "Révolution haïtienne": {
+    "coords": [-72.2, 19.76],
+    "lieu": "Saint-Domingue (plaine du Nord)"
+  },
+  "Occupation américaine d’Haïti": {
+    "coords": [-72.34, 18.54],
+    "lieu": "Haïti"
+  },
+  "Rébellion du Nord-Ouest": {
+    "coords": [-106.1, 52.75],
+    "lieu": "Batoche (Saskatchewan)"
+  },
+  "Guerre d’indépendance de l’Argentine": {
+    "coords": [-65.2, -26.8],
+    "lieu": "Nord de l’Argentine et Andes"
+  },
+  "Conquête du désert": {
+    "coords": [-66, -39],
+    "lieu": "Pampa et Patagonie"
+  },
+  "Guerre des Malouines": {
+    "coords": [-57.85, -51.7],
+    "lieu": "Îles Malouines"
+  },
+  "Révolution cubaine": {
+    "coords": [-76.85, 20],
+    "lieu": "Sierra Maestra"
+  },
+  "Débarquement de la baie des Cochons": {
+    "coords": [-81.13, 22.07],
+    "lieu": "Baie des Cochons (Playa Girón)"
+  },
+  "Crise des missiles de Cuba": {
+    "coords": [-82.37, 23.13],
+    "lieu": "Cuba"
   }
 }

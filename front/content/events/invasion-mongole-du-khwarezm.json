@@ -1,0 +1,22 @@
+{
+  "id": "invasion-mongole-du-khwarezm",
+  "nom": "Invasion mongole du Khwarezm",
+  "annee": 1219,
+  "fin": 1221,
+  "dates": "1219 → 1221",
+  "lieu": "Asie centrale et Khorassan",
+  "description": "Les armées de [[gengis-khan|Gengis Khan]] envahissent l’empire du Khwarezm, prennent les villes une à une et poursuivent le chah jusqu’à la mer Caspienne.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Otrar, Boukhara, Samarcande (1220), puis Gurganj, Merv et Nichapour (1221) sont prises. Les villes qui résistent sont détruites et leurs habitants massacrés ; les artisans sont déportés en Mongolie."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "L’Asie centrale passe sous domination mongole. Les chroniqueurs donnent des chiffres de victimes énormes, impossibles à vérifier, mais les destructions sont immenses."
+    }
+  ],
+  "liens": [{ "ref": "gengis-khan", "relation": "Le conquérant" }, { "ref": "jalal-ad-din", "relation": "Le prince qui résiste" }],
+  "avant": "incident-d-otrar",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Invasion_mongole_de_l%27Empire_khwarezmien"
+}

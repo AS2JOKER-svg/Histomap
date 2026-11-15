@@ -1,0 +1,18 @@
+{
+  "id": "ahmad-shah-durrani",
+  "nom": "Ahmad Shah Durrani",
+  "role": "Fondateur de l’Afghanistan",
+  "roles": ["Roi", "Chef de guerre", "Poète"],
+  "dates": "vers 1722 → 1772",
+  "naissance": 1722,
+  "mort": 1772,
+  "description": "Chef pachtoune, ancien commandant de Nader Shah, élu roi en 1747, il fonde un empire de l’Iran oriental au Pendjab.",
+  "reperes": [{ "label": "Règne", "valeur": "1747 → 1772" }],
+  "essentiel": [
+    "Il mène huit expéditions en Inde.",
+    "Il bat les Marathes à la [[troisieme-bataille-de-panipat|troisième bataille de Panipat]] (1761).",
+    "Il écrit des poèmes en pachto.",
+    "Il est enterré à Kandahar."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Ahmad_Shah_Durrani"
+}

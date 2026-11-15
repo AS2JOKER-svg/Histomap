@@ -11,6 +11,7 @@
 //   src/data/search.json        index de la recherche globale (chargé à l'ouverture de la recherche)
 //   src/data/wars.json          toutes les guerres des fiches (onglet Guerres)
 //   src/data/map-presence.json  années de carte où chaque civilisation a un territoire
+//   src/data/dossiers.json      dossiers de guerre (index léger) ; src/data/dossiers/<id>.json : le détail
 //
 // Usage : node scripts/build-content.mjs  (lancé par `npm run data`, `npm run dev` et `npm run build`)
 // Tolérant : ce qui est incohérent est ignoré ici et signalé par scripts/validate-content.mjs.
@@ -18,6 +19,8 @@ import { mkdirSync, rmSync, writeFileSync } from 'fs'
 import { join } from 'path'
 import { PATHS, assemble, loadContent, loadMapIndex } from './lib/content.mjs'
 import { expressQuestions } from './lib/express.mjs'
+import { compileDossier, loadDossiers } from './lib/dossiers.mjs'
+import { compileParcours, loadParcours } from './lib/parcours.mjs'
 import { parseLinks, resolveLinks, stripLinks, stripLinksDeep } from '../src/lib/links.js'
 
 const content = loadContent()
@@ -26,6 +29,9 @@ if (content.problems.length) {
   process.exit(1)
 }
 const { epochs, byId } = assemble(content)
+// Dossiers de guerre (content/wars/) et guerres des fiches qui s'y rattachent (« nom|année » → id du dossier)
+const dossiers = loadDossiers(content.dir).map((x) => x.data).filter(Boolean).sort((a, b) => a.debut - b.debut)
+const dossierOfWar = new Map(dossiers.flatMap((d) => (d.guerresLiees ?? []).map((key) => [key, d.id])))
 
 // Champs de l'index léger (le reste part dans le détail, chargé à la demande)
 const LIGHT = ['id', 'label', 'tier', 'region', 'period', 'start', 'end', 'color', 'trackId', 'row', 'isRiver', 'capitale', 'description', 'lineage']
@@ -71,7 +77,7 @@ for (const [id, { data }] of content.entities) {
 // ── Écriture ──────────────────────────────────────────────────────────────────
 const D = PATHS.data
 const writeJson = (file, value) => writeFileSync(join(D, file), JSON.stringify(value) + '\n')
-for (const dir of ['civs', 'entities']) {
+for (const dir of ['civs', 'entities', 'dossiers']) {
   rmSync(join(D, dir), { recursive: true, force: true })
   mkdirSync(join(D, dir), { recursive: true })
 }
@@ -89,6 +95,7 @@ const index = epochs.map(({ continents, ...meta }) => ({
       const detail = resolveDeep(pickFields(civ, DETAIL))
       // découvertes : id → { id, nom } (la fiche affiche le nom sans charger chaque découverte)
       if (detail.decouvertes) detail.decouvertes = detail.decouvertes.map((id) => ({ id, nom: labelOf(id) ?? id }))
+      if (detail.guerres) detail.guerres = detail.guerres.map((g) => (dossierOfWar.has(`${g.nom}|${g.annee}`) ? { ...g, dossier: dossierOfWar.get(`${g.nom}|${g.annee}`) } : g))
       writeJson(`civs/${civ.id}.json`, detail)
       return {
         ...resolveDeep(pickFields(civ, LIGHT)),
@@ -134,7 +141,7 @@ const conflicts = []
 for (const { civ } of byId.values())
   for (const g of civ.guerres ?? [])
     if (content.conflicts[g.nom] && typeof g.annee === 'number')
-      conflicts.push({ ...stripLinksDeep(g), coords: content.conflicts[g.nom].coords, civId: civ.id })
+      conflicts.push({ ...stripLinksDeep(g), coords: content.conflicts[g.nom].coords, civId: civ.id, ...(dossierOfWar.has(`${g.nom}|${g.annee}`) ? { dossier: dossierOfWar.get(`${g.nom}|${g.annee}`) } : {}) })
 writeJson('conflicts.json', conflicts)
 
 const mapIndex = loadMapIndex()
@@ -194,12 +201,17 @@ for (const [id, { type, data }] of content.entities)
 
 // ── Guerres : une entrée par guerre (même nom + même année = même guerre, vue des deux camps) ──
 const wars = new Map()
+// époque de la guerre = celle qui contient son année (pas celle de la fiche : la
+// Première bataille de Panipat, 1526, racontée d'abord par le sultanat de Delhi, est moderne)
+const epochOfYear = (year, fallback) =>
+  year == null ? fallback : (epochs.find((e) => year >= e.start && year < e.end) ?? (year < epochs[0].start ? epochs[0] : epochs.at(-1))).id
 for (const { epoch, civ } of byId.values())
   for (const g of civ.guerres ?? []) {
     const key = `${g.nom}|${g.annee ?? ''}`
     const war = wars.get(key) ?? {
-      // camp = la première fiche qui raconte la guerre ; une 2e fiche (ex. Qadesh vue par les Hittites) est l'autre camp
-      key, nom: g.nom, annee: g.annee ?? null, epoch: epoch.id, civs: [], camp: [civ.label], adversaires: g.adversaires ?? [],
+      // camp = la première fiche qui raconte la guerre ; une 2e fiche (ex. Qadesh vue par les Hittites) est l'autre camp.
+      // « camp » dans la fiche remplace son nom quand elle couvre plusieurs peuples (ex. Israël et Palestine)
+      key, nom: g.nom, annee: g.annee ?? null, epoch: epochOfYear(g.annee, epoch.id), civs: [], camp: [g.camp ?? civ.label], adversaires: g.adversaires ?? [],
       allies: g.allies ?? [], vainqueur: stripLinks(g.vainqueur ?? ''), consequences: stripLinks(g.consequences ?? ''),
       morts: g.morts ?? '', wikiUrl: g.wikiUrl ?? null, coords: content.conflicts[g.nom]?.coords ?? null,
     }
@@ -207,11 +219,33 @@ for (const { epoch, civ } of byId.values())
     wars.set(key, war)
   }
 const warList = [...wars.values()].sort((a, b) => (a.annee ?? 0) - (b.annee ?? 0))
+
+// ── Dossiers de guerre : détail + index léger ; les guerres des fiches rattachées pointent vers leur dossier ──
+for (const d of dossiers) {
+  writeJson(`dossiers/${d.id}.json`, compileDossier(d, resolveDeep))
+  for (const key of d.guerresLiees ?? []) {
+    const w = wars.get(key)
+    if (w) w.dossier = d.id
+  }
+  add({ t: 'guerre', id: d.id, n: d.nom, s: `${d.dates} · dossier`, y: d.debut, to: `/guerres/${d.id}` }, ...d.camps.map((c) => c.nom), ...d.batailles.map((b) => b.nom))
+}
+writeJson(
+  'dossiers.json',
+  dossiers.map((d) => ({
+    id: d.id, nom: d.nom, debut: d.debut, fin: d.fin, dates: d.dates, description: stripLinks(d.description),
+    camps: d.camps.map(({ id, nom, couleur }) => ({ id, nom, couleur })),
+    counts: { phases: d.phases.length, batailles: d.batailles.length, personnages: d.personnages.length },
+  }))
+)
 writeJson('wars.json', warList)
+
+// Parcours de l'Aventure (validé par validate-content.mjs)
+const parcours = loadParcours(content.dir).data
+if (parcours) writeJson('parcours.json', compileParcours(parcours, content))
 for (const w of warList) add({ t: 'guerre', n: w.nom, s: [...w.camp, ...w.adversaires].join(' · ').slice(0, 90), y: w.annee, to: `/guerres?guerre=${encodeURIComponent(w.key)}` }, w.adversaires.join(' '), w.camp.join(' '))
 writeJson('search.json', search)
 
 console.log(
   `OK → ${stats.epochs} époques, ${stats.civs} civilisations (${content.lineages.length} lignées), ` +
-    `${content.entities.size} fiches liées, ${warList.length} guerres, ${search.length} entrées de recherche → src/data/`
+    `${content.entities.size} fiches liées, ${warList.length} guerres, ${dossiers.length} dossier(s) de guerre, ${search.length} entrées de recherche → src/data/`
 )

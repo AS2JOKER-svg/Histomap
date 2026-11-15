@@ -1,0 +1,18 @@
+{
+  "id": "pilier-de-fer-de-delhi",
+  "nom": "Pilier de fer de Delhi",
+  "domaine": "Métallurgie",
+  "dates": "IVe-Ve siècles",
+  "description": "Une colonne de fer forgé d’environ 7 mètres de haut et 6 tonnes, qui a très peu rouillé depuis plus de 1 500 ans.",
+  "sections": [
+    {
+      "titre": "Son origine",
+      "texte": "Son inscription en sanskrit honore un roi nommé Chandra, que la plupart des historiens identifient à [[chandragupta-ii|Chandragupta II]]. Elle se dresse aujourd’hui dans l’enceinte du [[qutb-minar|Qutb Minar]], à Delhi, où elle a été transportée plus tard."
+    },
+    {
+      "titre": "Pourquoi rouille-t-il si peu ?",
+      "texte": "Le fer, riche en phosphore, se couvre d’une fine couche protectrice qui ralentit la corrosion. Le pilier témoigne de l’habileté des forgerons indiens."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Pilier_de_fer_de_Delhi"
+}

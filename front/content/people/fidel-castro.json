@@ -1,0 +1,18 @@
+{
+  "id": "fidel-castro",
+  "nom": "Fidel Castro",
+  "role": "Dirigeant cubain",
+  "roles": ["Révolutionnaire", "Chef de l’État"],
+  "dates": "1926 → 2016",
+  "naissance": 1926,
+  "mort": 2016,
+  "description": "Avocat devenu chef de guérilla, il renverse le dictateur Batista en 1959 et dirige Cuba, devenue un État communiste, jusqu’en 2008.",
+  "reperes": [{ "label": "Au pouvoir", "valeur": "1959 → 2008" }],
+  "essentiel": [
+    "Il attaque la caserne de la Moncada en 1953, puis mène la guérilla dans la Sierra Maestra.",
+    "Il nationalise les entreprises et s’allie à l’URSS.",
+    "Il développe l’école et la santé gratuites, mais réprime les opposants et interdit les autres partis.",
+    "Malade, il cède le pouvoir à son frère Raúl en 2006-2008."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Fidel_Castro"
+}

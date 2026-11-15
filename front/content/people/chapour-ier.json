@@ -1,0 +1,16 @@
+{
+  "id": "chapour-ier",
+  "nom": "Shapur Ier",
+  "role": "Roi des rois sassanide",
+  "roles": ["Roi des rois"],
+  "dates": "mort en 270",
+  "mort": 270,
+  "description": "Fils d’Ardachir, il bat trois empereurs romains et capture Valérien à Édesse en 260.",
+  "reperes": [{ "label": "Règne", "valeur": "242 → 270" }],
+  "essentiel": [
+    "Il fait graver ses victoires sur les rochers de Naqsh-e Rostam, où l’on voit Valérien à genoux devant lui.",
+    "Il déporte des prisonniers romains, qui construisent ponts et barrages en Iran.",
+    "Il protège un temps le prophète [[mani|Mani]]."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Shapur_Ier"
+}

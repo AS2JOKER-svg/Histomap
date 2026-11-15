@@ -1,0 +1,20 @@
+{
+  "id": "guerre-d-algerie",
+  "nom": "Guerre d’Algérie",
+  "annee": 1954,
+  "fin": 1962,
+  "dates": "1954 → 1962",
+  "lieu": "Algérie (et France)",
+  "description": "Guerre d’indépendance menée par le Front de libération nationale (FLN) contre la France, qui aboutit à l’indépendance de l’Algérie en 1962.",
+  "sections": [
+    {
+      "titre": "Une guerre très violente",
+      "texte": "Attentats contre les civils, combats, torture et exécutions sommaires pratiquées par l’armée française, déplacements de près de deux millions de paysans dans des camps de regroupement : toute la population est touchée."
+    },
+    {
+      "titre": "Des mémoires différentes",
+      "texte": "En Algérie, on parle de « guerre de libération » ; en France, on a longtemps parlé d’« événements », et le mot « guerre » n’est officiellement reconnu qu’en 1999. Le nombre de morts reste débattu."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_d%27Alg%C3%A9rie"
+}

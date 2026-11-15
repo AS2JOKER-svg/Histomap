@@ -77,7 +77,7 @@ function EpochContent({ epoch }) {
 
   return (
     <section>
-      <Breadcrumbs items={[{ label: 'Accueil', to: '/' }, { label: 'Frise', to: '/frise' }, { label: epoch.label }]} />
+      <Breadcrumbs items={[{ label: 'Atlas', to: '/frise' }, { label: epoch.label }]} />
       <EpochSwitcher epochs={epochs} currentId={epoch.id} />
 
       <PageHeader

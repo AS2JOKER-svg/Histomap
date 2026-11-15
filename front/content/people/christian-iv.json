@@ -1,0 +1,18 @@
+{
+  "id": "christian-iv",
+  "nom": "Christian IV",
+  "role": "Roi de Danemark et de Norvège",
+  "roles": ["Roi", "Bâtisseur"],
+  "dates": "1577 → 1648",
+  "naissance": 1577,
+  "mort": 1648,
+  "description": "Roi de 1588 à 1648, l’un des plus longs règnes d’Europe, il fonde des villes, bâtit des palais et développe la flotte, mais perd plusieurs guerres.",
+  "reperes": [{ "label": "Règne", "valeur": "1588 → 1648" }],
+  "essentiel": [
+    "Il fonde des villes comme Christiania (Oslo) et Kristiansand en Norvège.",
+    "Il fait construire à Copenhague le château de Rosenborg, la Bourse et la Tour ronde.",
+    "Il intervient dans la guerre de Trente Ans, mais il est battu à Lutter (1626).",
+    "Il perd un œil lors d’une bataille navale contre les Suédois en 1644."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Christian_IV_de_Danemark"
+}

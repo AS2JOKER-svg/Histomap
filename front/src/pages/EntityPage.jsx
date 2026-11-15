@@ -61,7 +61,7 @@ function Entity({ e }) {
   const labels = LABELS[type]
   // Couleur : celle de la première civilisation qui cite la fiche
   const home = e.apparaitDans?.civs?.map(findCivilization).find(Boolean) ?? null
-  const color = home?.civ.color ?? '#345ce6'
+  const color = home?.civ.color ?? '#8a3a1e'
   const epoch = entityEpoch(e)
   const focus = home && epoch && getCivilization(epoch.id, home.civ.id) ? `?focus=${home.civ.id}` : ''
   const dates = e.dates ?? (e.annee != null ? formatYear(e.annee) + (e.fin != null ? ` → ${formatYear(e.fin)}` : '') : null)
@@ -74,7 +74,7 @@ function Entity({ e }) {
         items={
           home
             ? [{ label: home.epoch.label, to: `/frise/${home.epoch.id}` }, { label: home.civ.label, to: `/frise/${home.epoch.id}/${home.civ.id}` }, { label: e.nom }]
-            : [{ label: 'Accueil', to: '/' }, { label: e.nom }]
+            : [{ label: 'Atlas', to: '/atlas' }, { label: e.nom }]
         }
       />
 

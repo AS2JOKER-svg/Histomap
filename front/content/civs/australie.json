@@ -1,0 +1,306 @@
+{
+  "documentaires": [],
+  "decouvertes": [],
+  "id": "australie",
+  "label": "Australie",
+  "tier": 2,
+  "region": "australasie",
+  "period": "1788 à 2020",
+  "start": 1788,
+  "end": 2020,
+  "trackId": "australie",
+  "row": 2,
+  "isRiver": false,
+  "capitale": "Canberra",
+  "color": "#00897b",
+  "description": "La colonie pénitentiaire britannique fondée en 1788 à Sydney, dont l’expansion dépossède les peuples aborigènes, devenue en 1901 une fédération puis un pays d’immigration riche et démocratique.",
+  "territories": [
+    "Australia",
+    "New South Wales (UK)",
+    "Victoria (UK)",
+    "Queensland (UK)",
+    "South Australia (UK)",
+    "Western Australia (UK)"
+  ],
+  "reperes": {
+    "capitale": { "valeur": "Canberra", "precision": "Melbourne de 1901 à 1927" },
+    "regimes": {
+      "valeur": "Colonies britanniques, puis monarchie constitutionnelle fédérale",
+      "precision": "fédération depuis 1901 ; le souverain britannique reste chef de l’État"
+    },
+    "langues": { "valeur": "Anglais", "precision": "des centaines de langues aborigènes étaient parlées en 1788" },
+    "religion": {
+      "valeur": "Christianisme",
+      "precision": "nombreuses autres religions ; environ un tiers des habitants se disent sans religion"
+    },
+    "population": {
+      "valeur": "Environ 25 millions en 2020",
+      "precision": "dont environ 3 % d’Aborigènes et d’insulaires du détroit de Torres"
+    },
+    "monnaie": { "valeur": "Livre australienne, puis dollar australien (1966)" },
+    "duree": { "valeur": "Environ 230 ans dans cette fiche" },
+    "aujourdhui": { "valeur": "Australie" }
+  },
+  "essentiel": [
+    "En 1788, la [[premiere-flotte|Première Flotte]] britannique débarque à Sydney avec des forçats : c’est le début d’une colonie pénitentiaire, sur une terre habitée depuis au moins 50 000 ans par les [[aborigenes-australie|Aborigènes]].",
+    "La colonisation dépossède les peuples aborigènes de leurs terres : violences, massacres, épidémies et déplacements font chuter fortement leur population.",
+    "La ruée vers l’or des années 1850 attire des centaines de milliers d’immigrants ; en 1901, les six colonies s’unissent dans le Commonwealth d’Australie, qui adopte la politique de l’« Australie blanche » pour limiter l’immigration non européenne.",
+    "Les soldats australiens et néo-zélandais (ANZAC) combattent à Gallipoli en 1915 ; pendant la Seconde Guerre mondiale, l’Australie affronte le Japon, qui bombarde Darwin en 1942.",
+    "Après 1945, l’immigration venue d’Europe puis d’Asie transforme le pays. Les Aborigènes obtiennent de nouveaux droits (référendum de 1967, reconnaissance de droits sur leurs terres en 1992), et le gouvernement présente en 2008 des excuses officielles aux « générations volées »."
+  ],
+  "datesCles": [
+    {
+      "annee": 1788,
+      "evenement": "Première Flotte",
+      "info": "Les Britanniques fondent une colonie pénitentiaire à Sydney.",
+      "ref": "premiere-flotte"
+    },
+    {
+      "annee": 1838,
+      "evenement": "Massacre de Myall Creek",
+      "info": "Des colons tuent une trentaine d’Aborigènes ; sept d’entre eux sont pendus, un cas rare."
+    },
+    {
+      "annee": 1851,
+      "evenement": "Ruée vers l’or",
+      "info": "De l’or est découvert en Nouvelle-Galles du Sud et au Victoria."
+    },
+    {
+      "annee": 1868,
+      "evenement": "Fin des déportations",
+      "info": "Le dernier navire de forçats arrive en Australie-Occidentale."
+    },
+    { "annee": 1901, "evenement": "Fédération", "info": "Les six colonies forment le Commonwealth d’Australie." },
+    { "annee": 1915, "evenement": "Gallipoli", "info": "Le 25 avril, les ANZAC débarquent à Gallipoli." },
+    { "annee": 1942, "evenement": "Bombardement de Darwin", "info": "L’aviation japonaise attaque le nord du pays." },
+    {
+      "annee": 1967,
+      "evenement": "Référendum",
+      "info": "Les Australiens votent pour que les Aborigènes soient comptés dans la population et relèvent des lois fédérales."
+    },
+    {
+      "annee": 1973,
+      "evenement": "Fin de l’Australie blanche",
+      "info": "La politique d’immigration ne tient plus compte de l’origine."
+    },
+    {
+      "annee": 1992,
+      "evenement": "Arrêt Mabo",
+      "info": "La justice reconnaît que les Aborigènes avaient des droits sur leurs terres avant 1788."
+    },
+    {
+      "annee": 2008,
+      "evenement": "Excuses officielles",
+      "info": "Le Premier ministre présente ses excuses aux « générations volées »."
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "Les colonies britanniques",
+      "debut": 1788,
+      "fin": 1901,
+      "resume": "Forçats, colons et chercheurs d’or s’installent ; les Aborigènes perdent leurs terres.",
+      "evenements": [
+        { "annee": 1788, "evenement": "Première Flotte", "ref": "premiere-flotte" },
+        { "annee": 1851, "evenement": "Ruée vers l’or" },
+        { "annee": 1868, "evenement": "Fin des déportations" }
+      ]
+    },
+    {
+      "nom": "La jeune fédération",
+      "debut": 1901,
+      "fin": 1945,
+      "resume": "Le Commonwealth d’Australie, attaché à l’Empire britannique, combat dans les deux guerres mondiales.",
+      "evenements": [
+        { "annee": 1901, "evenement": "Fédération" },
+        { "annee": 1915, "evenement": "Gallipoli" },
+        { "annee": 1942, "evenement": "Bombardement de Darwin" }
+      ]
+    },
+    {
+      "nom": "Une société multiculturelle",
+      "debut": 1945,
+      "fin": 2020,
+      "resume": "Immigration de masse, rapprochement avec l’Asie et reconnaissance progressive des droits aborigènes.",
+      "evenements": [
+        { "annee": 1967, "evenement": "Référendum" },
+        { "annee": 1992, "evenement": "Arrêt Mabo" },
+        { "annee": 2008, "evenement": "Excuses officielles" }
+      ]
+    }
+  ],
+  "regimes": [
+    { "id": "colonies", "nom": "Colonies britanniques", "debut": 1788, "fin": 1901 },
+    {
+      "id": "federation",
+      "nom": "Commonwealth d’Australie",
+      "debut": 1901,
+      "fin": 2020,
+      "note": "Monarchie constitutionnelle fédérale."
+    }
+  ],
+  "dynasties": [
+    {
+      "id": "gouverneurs",
+      "nom": "Gouverneurs de la Nouvelle-Galles du Sud",
+      "debut": 1788,
+      "fin": 1901,
+      "note": "Sélection."
+    },
+    { "id": "premiers", "nom": "Premiers ministres", "debut": 1901, "fin": 2020, "note": "Sélection." }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Arthur Phillip",
+      "titre": "Gouverneur",
+      "debut": 1788,
+      "fin": 1792,
+      "dynastie": "gouverneurs",
+      "note": "commandant de la Première Flotte",
+      "cle": true
+    },
+    {
+      "nom": "Lachlan Macquarie",
+      "titre": "Gouverneur",
+      "debut": 1810,
+      "fin": 1821,
+      "dynastie": "gouverneurs",
+      "note": "développe la colonie et ses villes",
+      "cle": true
+    },
+    {
+      "nom": "Edmund Barton",
+      "titre": "Premier ministre",
+      "debut": 1901,
+      "fin": 1903,
+      "dynastie": "premiers",
+      "note": "premier Premier ministre",
+      "cle": true
+    },
+    { "nom": "Billy Hughes", "titre": "Premier ministre", "debut": 1915, "fin": 1923, "dynastie": "premiers" },
+    {
+      "nom": "John Curtin",
+      "titre": "Premier ministre",
+      "debut": 1941,
+      "fin": 1945,
+      "dynastie": "premiers",
+      "note": "dirige le pays pendant la guerre du Pacifique",
+      "cle": true
+    },
+    {
+      "nom": "Robert Menzies",
+      "titre": "Premier ministre",
+      "debut": 1949,
+      "fin": 1966,
+      "dynastie": "premiers",
+      "note": "déjà de 1939 à 1941 ; record de longévité"
+    },
+    { "nom": "Gough Whitlam", "titre": "Premier ministre", "debut": 1972, "fin": 1975, "dynastie": "premiers" },
+    {
+      "nom": "Kevin Rudd",
+      "titre": "Premier ministre",
+      "debut": 2007,
+      "fin": 2010,
+      "dynastie": "premiers",
+      "note": "présente les excuses de 2008 ; de nouveau en 2013"
+    },
+    {
+      "nom": "Scott Morrison",
+      "titre": "Premier ministre",
+      "debut": 2018,
+      "fin": 2020,
+      "dynastie": "premiers",
+      "note": "toujours en fonction à la fin de la période couverte (2020)"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Bennelong",
+      "role": "Intermédiaire eora",
+      "description": "Aborigène de la région de Sydney, il sert d’intermédiaire entre son peuple et les colons, et voyage jusqu’en Angleterre.",
+      "dates": "vers 1764 → 1813",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bennelong"
+    },
+    {
+      "nom": "Ned Kelly",
+      "role": "Hors-la-loi",
+      "description": "Bandit célèbre pour son armure de fer, devenu une figure légendaire.",
+      "dates": "1855 → 1880",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Ned_Kelly"
+    },
+    {
+      "nom": "Eddie Mabo",
+      "role": "Militant",
+      "description": "Insulaire du détroit de Torres, à l’origine de l’arrêt qui reconnaît en 1992 les droits fonciers autochtones.",
+      "dates": "1936 → 1992",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Eddie_Mabo"
+    },
+    {
+      "nom": "Cathy Freeman",
+      "role": "Athlète",
+      "description": "Championne olympique du 400 m aux Jeux de Sydney, en 2000, symbole de la réconciliation.",
+      "dates": "née en 1973",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Cathy_Freeman"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerres de la frontière australienne",
+      "annee": 1788,
+      "camp": "Colons britanniques",
+      "adversaires": ["Peuples aborigènes"],
+      "allies": ["Police coloniale"],
+      "morts": "Les estimations varient : plusieurs dizaines de milliers de morts aborigènes et environ 2 000 à 2 500 colons",
+      "vainqueur": "Colons britanniques",
+      "consequences": "Raids, massacres et représailles accompagnent pendant plus d’un siècle l’avancée des colons ; les Aborigènes perdent la plus grande partie de leurs terres.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Australian_frontier_wars"
+    },
+    {
+      "nom": "Bataille des Dardanelles",
+      "annee": 1915,
+      "adversaires": ["Empire ottoman"],
+      "allies": ["Royaume-Uni", "France", "Nouvelle-Zélande"],
+      "morts": "Environ 8 700 soldats australiens ; plus de 100 000 morts au total",
+      "vainqueur": "Empire ottoman",
+      "consequences": "Le débarquement du 25 avril 1915 à Gallipoli échoue. Ce jour, l’ANZAC Day, est devenu en Australie et en Nouvelle-Zélande une grande journée de mémoire nationale.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_des_Dardanelles"
+    },
+    {
+      "nom": "La Guerre du Pacifique",
+      "annee": 1941,
+      "adversaires": ["Empire du Japon"],
+      "allies": ["États-Unis", "Royaume-Uni"],
+      "morts": "Près de 40 000 Australiens tués pendant toute la Seconde Guerre mondiale",
+      "vainqueur": "Alliés",
+      "consequences": "En 1942, après la chute de Singapour, le Japon bombarde Darwin ; les Australiens arrêtent l’avancée japonaise en Nouvelle-Guinée, sur la piste de Kokoda. L’Australie se rapproche ensuite des États-Unis.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_du_Pacifique"
+    }
+  ],
+  "sciences": "La pénicilline est transformée en médicament grâce à l’Australien Howard Florey, prix Nobel en 1945. Le radiotélescope de Parkes relaie en 1969 des images des premiers pas sur la Lune. En 2005, Barry Marshall et Robin Warren reçoivent le prix Nobel pour avoir montré qu’une bactérie cause les ulcères de l’estomac.",
+  "croyancesText": "Les peuples aborigènes ont des croyances liées au « Temps du rêve », qui relient les êtres, les ancêtres et la terre. Les colons apportent le christianisme, anglican, catholique (notamment chez les Irlandais) et protestant. Aujourd’hui, l’Australie compte aussi des musulmans, des bouddhistes et des hindous, et environ un tiers des habitants se disent sans religion.",
+  "diplomatie": "Longtemps très liée au Royaume-Uni, l’Australie se rapproche des États-Unis après 1942 : alliance ANZUS (1951), participation aux guerres de Corée et du Viêt Nam. Elle développe ensuite ses liens avec l’Asie, devenue son premier partenaire commercial.",
+  "societe": "Environ 160 000 forçats sont déportés en Australie entre 1788 et 1868. La politique de l’« Australie blanche » limite l’immigration non européenne jusqu’en 1973. Des dizaines de milliers d’enfants aborigènes sont retirés à leurs familles pour être assimilés : ce sont les « générations volées ». Les femmes votent aux élections fédérales dès 1902, mais la plupart des Aborigènes n’y obtiennent le droit de vote qu’en 1962.",
+  "economie": "Laine des moutons, or à partir de 1851, puis blé, viande, charbon et minerai de fer, exportés aujourd’hui surtout vers la Chine et le reste de l’Asie.",
+  "arts": "Peinture aborigène, opéra de Sydney (1973), romans de Patrick White (prix Nobel 1973), chanson Waltzing Matilda.",
+  "quotidien": "Le barbecue, la plage et le sport tiennent une grande place ; le cricket et le football australien sont très populaires.",
+  "heritage": [
+    {
+      "titre": "L’opéra de Sydney",
+      "texte": "Inauguré en 1973, il est inscrit au patrimoine mondial de l’UNESCO depuis 2007."
+    },
+    {
+      "titre": "Uluru",
+      "texte": "Le grand rocher sacré des Anangu a été rendu à ses propriétaires aborigènes en 1985 ; son ascension est interdite depuis 2019."
+    }
+  ],
+  "aSavoir": [
+    "Le vote à bulletin secret, parfois appelé « vote australien », a été adopté en Australie dans les années 1850, parmi les tout premiers au monde."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Histoire_de_l%27Australie",
+    {
+      "titre": "Encyclopædia Britannica — Australia, History",
+      "url": "https://www.britannica.com/place/Australia/History"
+    }
+  ]
+}

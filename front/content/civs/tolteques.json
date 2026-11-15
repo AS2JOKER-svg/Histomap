@@ -1,0 +1,117 @@
+{
+  "documentaires": [],
+  "decouvertes": ["atlantes-de-tula"],
+  "id": "tolteques",
+  "label": "Toltèques",
+  "tier": 1,
+  "region": "mesoamerique",
+  "period": "vers 900 à 1168",
+  "start": 900,
+  "end": 1168,
+  "color": "#6d4c41",
+  "trackId": "mesoamerique",
+  "row": 3,
+  "isRiver": false,
+  "capitale": "Tula (Tollan)",
+  "description": "Le peuple guerrier dont la capitale, Tula, domine le centre du Mexique du Xe au XIIe siècle ; les Aztèques en feront plus tard des ancêtres légendaires, maîtres de tous les arts.",
+  "territories": ["Toltec Empire"],
+  "reperes": {
+    "capitale": { "valeur": "Tula (Tollan)", "precision": "dans l’actuel État d’Hidalgo, au nord de Mexico" },
+    "regimes": {
+      "valeur": "Royauté guerrière",
+      "precision": "des rois et des ordres de guerriers ; on connaît surtout leurs noms par la tradition aztèque"
+    },
+    "langues": { "valeur": "Nahuatl", "precision": "probablement, comme les Aztèques" },
+    "religion": {
+      "valeur": "Religion mésoaméricaine",
+      "precision": "culte du Serpent à plumes (Quetzalcoatl) et de Tezcatlipoca"
+    },
+    "apogee": {
+      "valeur": "Vers 950 → 1150",
+      "precision": "Tula compte peut-être plusieurs dizaines de milliers d’habitants"
+    },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": { "valeur": "Aucune", "precision": "cacao, tissus, obsidienne" },
+    "duree": { "valeur": "Environ 270 ans" },
+    "aujourdhui": { "valeur": "Mexique", "precision": "centre du pays" }
+  },
+  "essentiel": [
+    "Après la chute de Teotihuacan, des groupes venus du nord fondent au Xe siècle la ville de Tula, au nord de l’actuelle Mexico.",
+    "Tula devient la capitale d’un État guerrier qui domine une partie du centre du Mexique ; ses célèbres [[atlantes-de-tula|Atlantes]], des colonnes en forme de guerriers, gardaient un temple.",
+    "Les Toltèques contrôlent le commerce de l’obsidienne verte et échangent jusqu’au sud-ouest des États-Unis actuels, d’où vient la turquoise.",
+    "Selon la tradition, leur roi-prêtre [[topiltzin-quetzalcoatl|Topiltzin Quetzalcoatl]] aurait été chassé par ses rivaux et serait parti vers l’est en promettant de revenir.",
+    "Vers 1150-1170, Tula est incendiée et abandonnée ; les Aztèques voient plus tard dans les Toltèques des ancêtres prestigieux, « maîtres de tous les arts »."
+  ],
+  "datesCles": [
+    { "annee": 900, "evenement": "Tula", "info": "Vers 900, Tula commence à devenir une grande ville." },
+    { "annee": 950, "evenement": "Apogée", "info": "Tula s’agrandit et domine une partie du centre du Mexique." },
+    {
+      "annee": 1000,
+      "evenement": "Les Atlantes",
+      "info": "Les grandes colonnes en forme de guerriers sont dressées sur la Pyramide B."
+    },
+    {
+      "annee": 1168,
+      "evenement": "Chute de Tula",
+      "info": "Selon la tradition, Tula est abandonnée vers 1168 ; l’archéologie montre qu’elle est incendiée au XIIe siècle."
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "Les débuts de Tula",
+      "debut": 900,
+      "fin": 950,
+      "resume": "Des groupes venus du nord et de l’ouest s’installent à Tula, qui devient une petite cité.",
+      "evenements": [{ "annee": 900, "evenement": "Essor de Tula" }]
+    },
+    {
+      "nom": "Tula, capitale toltèque",
+      "debut": 950,
+      "fin": 1168,
+      "resume": "Tula domine le centre du Mexique, contrôle le commerce de l’obsidienne et bâtit ses temples gardés par des guerriers de pierre, avant d’être incendiée.",
+      "evenements": [{ "annee": 1000, "evenement": "Les Atlantes" }, { "annee": 1168, "evenement": "Chute de Tula" }]
+    }
+  ],
+  "regimes": [{ "id": "royaute", "nom": "Royauté guerrière", "debut": 900, "fin": 1168 }],
+  "dirigeants": [],
+  "personnages": [
+    {
+      "nom": "Topiltzin Quetzalcoatl",
+      "role": "Roi-prêtre légendaire",
+      "description": "Personnage à la fois historique et légendaire de la tradition aztèque, chassé de Tula par ses rivaux.",
+      "dates": "Xe siècle (tradition)",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Ce_Acatl_Topiltzin",
+      "ref": "topiltzin-quetzalcoatl"
+    },
+    {
+      "nom": "Huemac",
+      "role": "Dernier roi de Tula",
+      "description": "Selon la tradition, le dernier souverain toltèque, qui s’enfuit après la chute de Tula.",
+      "dates": "XIIe siècle (tradition)",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Huemac"
+    }
+  ],
+  "guerres": [],
+  "sciences": "Les Toltèques bâtissent leurs temples sur des pyramides à gradins et y dressent des colonnes sculptées pour soutenir les toits. Leurs artisans taillent l’obsidienne, une pierre volcanique tranchante, pour fabriquer couteaux, pointes et miroirs, et l’exportent dans toute la Mésoamérique.",
+  "croyancesText": "Les Toltèques honorent le Serpent à plumes, Quetzalcoatl, et Tezcatlipoca, le « miroir fumant », dieu de la nuit et de la guerre. Ils érigent des statues de chac-mool, des personnages couchés tenant un récipient sur le ventre, sans doute destiné aux offrandes. Un mur de crânes sculptés, le tzompantli, évoque les sacrifices humains.",
+  "diplomatie": "Tula domine les régions voisines et commerce très loin : on y trouve de la céramique d’Amérique centrale et de la turquoise venue du sud-ouest des États-Unis actuels. La grande ressemblance entre certains monuments de Tula et ceux de la cité maya de Chichén Itzá, au Yucatán, reste discutée.",
+  "societe": "Une élite de rois, de prêtres et de guerriers, organisés en ordres (coyotes, jaguars, aigles), gouverne une population d’artisans et de paysans.",
+  "economie": "Agriculture irriguée (maïs, haricots, courges), extraction et taille de l’obsidienne, commerce à longue distance.",
+  "arts": "Atlantes et piliers sculptés de la Pyramide B, chac-mools, frises de jaguars, de coyotes et d’aigles dévorant des cœurs.",
+  "quotidien": "Les Aztèques appelaient « toltecayotl », la « toltéquité », le talent des artisans : être toltèque voulait dire être un grand artiste.",
+  "heritage": [
+    {
+      "titre": "Un modèle pour les Aztèques",
+      "texte": "Les souverains aztèques se disaient descendants des rois de Tula pour justifier leur pouvoir."
+    },
+    {
+      "titre": "Tula aujourd’hui",
+      "texte": "Les Atlantes se dressent toujours au sommet de la Pyramide B, sur le site archéologique de Tula."
+    }
+  ],
+  "aSavoir": ["Les Atlantes de Tula mesurent environ 4,6 mètres ; chacun est formé de quatre blocs de basalte emboîtés."],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Tolt%C3%A8ques",
+    { "titre": "Encyclopædia Britannica — Toltec", "url": "https://www.britannica.com/topic/Toltec" }
+  ]
+}

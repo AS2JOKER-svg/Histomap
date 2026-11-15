@@ -1,0 +1,18 @@
+{
+  "id": "massinissa",
+  "nom": "Massinissa",
+  "role": "Roi de Numidie",
+  "roles": ["Roi", "Chef de guerre"],
+  "dates": "vers −238 → −148",
+  "naissance": -238,
+  "mort": -148,
+  "description": "Prince berbère élevé à Carthage, il passe du côté de Rome, contribue à la victoire de Zama et unifie la Numidie, qu’il gouverne pendant 54 ans.",
+  "reperes": [{ "label": "Règne", "valeur": "−202 → −148" }],
+  "essentiel": [
+    "Sa cavalerie joue un rôle décisif à la [[bataille-de-zama|bataille de Zama]] (−202).",
+    "Il développe l’agriculture et frappe monnaie.",
+    "Il grignote le territoire de Carthage, ce qui provoque la troisième guerre punique.",
+    "Il aurait encore monté à cheval à plus de 80 ans."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Massinissa"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "omar-khayyam",
+  "nom": "Omar Khayyam",
+  "role": "Mathématicien, astronome et poète persan",
+  "roles": ["Mathématicien", "Astronome", "Poète"],
+  "dates": "1048 → 1131",
+  "naissance": 1048,
+  "mort": 1131,
+  "description": "Savant de Nichapour, il résout des équations du troisième degré, participe à la réforme du calendrier et laisse des quatrains célèbres, les Rubaïyat.",
+  "essentiel": [
+    "Il dirige l’observatoire d’Ispahan pour le sultan Malik Shah.",
+    "Il participe à la création du [[calendrier-jalali|calendrier Jalali]] (1079).",
+    "Ses quatrains, qui parlent du vin, du temps qui passe et du doute, deviennent célèbres en Europe au XIXe siècle."
+  ],
+  "aSavoir": ["Les historiens discutent de l’attribution de nombreux quatrains qui portent son nom."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Omar_Khayy%C3%A2m"
+}

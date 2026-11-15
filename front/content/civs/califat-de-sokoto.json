@@ -1,0 +1,213 @@
+{
+  "documentaires": [],
+  "decouvertes": [],
+  "id": "califat-de-sokoto",
+  "label": "Califat de Sokoto",
+  "tier": 2,
+  "region": "afrique-ouest",
+  "period": "1804 à 1903",
+  "start": 1804,
+  "end": 1903,
+  "color": "#2e7d32",
+  "trackId": "afrique_ouest",
+  "row": 5,
+  "isRiver": false,
+  "capitale": "Sokoto",
+  "description": "Un vaste État musulman fondé par le prédicateur peul Usman dan Fodio dans le nord du Nigeria actuel, l’un des plus grands d’Afrique au XIXe siècle, conquis par les Britanniques en 1903.",
+  "territories": ["Sokoto Caliphate", "Fulani Empire"],
+  "reperes": {
+    "capitale": { "valeur": "Sokoto", "precision": "fondée en 1809, dans le nord-ouest du Nigeria" },
+    "regimes": {
+      "valeur": "Califat",
+      "precision": "le « commandeur des croyants » de Sokoto, au-dessus de plusieurs dizaines d’émirats"
+    },
+    "langues": { "valeur": "Haoussa et peul", "precision": "l’arabe sert à l’écrit et à la religion" },
+    "religion": { "valeur": "Islam sunnite" },
+    "apogee": { "valeur": "Règne de Muhammad Bello (1817 → 1837)" },
+    "population": { "valeur": "Inconnue", "precision": "sans doute plusieurs millions d’habitants" },
+    "monnaie": { "valeur": "Cauris" },
+    "duree": { "valeur": "Environ 100 ans" },
+    "aujourdhui": { "valeur": "Nord du Nigeria", "precision": "ainsi qu’une partie du Niger, du Cameroun et du Burkina Faso" }
+  },
+  "essentiel": [
+    "À la fin du XVIIIe siècle, le prédicateur peul [[usman-dan-fodio|Usman dan Fodio]] critique les rois haoussa, qu’il accuse d’injustice et de mal pratiquer l’islam.",
+    "En 1804, il lance une guerre sainte, le [[djihad-d-usman-dan-fodio|djihad]] : ses partisans renversent les rois des cités haoussa comme Kano et Zaria.",
+    "Le califat de Sokoto devient l’un des plus grands États d’Afrique au XIXe siècle, formé de plusieurs dizaines d’émirats.",
+    "Sous Muhammad Bello et grâce à des lettrés comme [[nana-asmau|Nana Asma’u]], fille d’Usman, Sokoto devient un grand centre de savoir et d’enseignement, y compris pour les femmes.",
+    "L’économie repose en grande partie sur le travail d’esclaves ; en 1903, les Britanniques conquièrent le califat, mais le sultan de Sokoto reste un guide religieux."
+  ],
+  "datesCles": [
+    {
+      "annee": 1804,
+      "evenement": "Début du djihad",
+      "info": "Usman dan Fodio et ses partisans quittent le royaume de Gobir et proclament la guerre sainte.",
+      "ref": "djihad-d-usman-dan-fodio"
+    },
+    {
+      "annee": 1808,
+      "evenement": "Chute du Gobir",
+      "info": "La capitale du royaume de Gobir, Alkalawa, est prise ; les combattants attaquent aussi le Bornou."
+    },
+    {
+      "annee": 1809,
+      "evenement": "Fondation de Sokoto",
+      "info": "Muhammad Bello fonde la ville, future capitale du califat."
+    },
+    {
+      "annee": 1817,
+      "evenement": "Muhammad Bello",
+      "info": "Mort d’Usman dan Fodio ; son fils lui succède comme calife."
+    },
+    {
+      "annee": 1853,
+      "evenement": "Heinrich Barth",
+      "info": "L’explorateur allemand visite Sokoto et décrit le califat."
+    },
+    {
+      "annee": 1903,
+      "evenement": "Conquête britannique",
+      "info": "Les troupes de Frederick Lugard prennent Kano et Sokoto."
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "Le djihad",
+      "debut": 1804,
+      "fin": 1817,
+      "resume": "Usman dan Fodio et ses compagnons conquièrent les cités haoussa et fondent un État islamique.",
+      "evenements": [
+        { "annee": 1804, "evenement": "Début du djihad", "ref": "djihad-d-usman-dan-fodio" },
+        { "annee": 1809, "evenement": "Fondation de Sokoto" }
+      ]
+    },
+    {
+      "nom": "L’organisation du califat",
+      "debut": 1817,
+      "fin": 1859,
+      "resume": "Muhammad Bello et ses successeurs organisent les émirats, développent les écoles et l’agriculture.",
+      "evenements": [{ "annee": 1817, "evenement": "Muhammad Bello calife" }]
+    },
+    {
+      "nom": "Le califat tardif",
+      "debut": 1859,
+      "fin": 1903,
+      "resume": "Le califat reste puissant mais doit affronter des révoltes, puis l’arrivée des Britanniques et des Français.",
+      "evenements": [{ "annee": 1903, "evenement": "Conquête britannique" }]
+    }
+  ],
+  "regimes": [{ "id": "califat", "nom": "Califat de Sokoto", "debut": 1804, "fin": 1903 }],
+  "dynasties": [{ "id": "califes", "nom": "Les califes (sultans) de Sokoto", "debut": 1804, "fin": 1903, "note": "Sélection." }],
+  "dirigeants": [
+    {
+      "nom": "Usman dan Fodio",
+      "titre": "Commandeur des croyants",
+      "debut": 1804,
+      "fin": 1817,
+      "dynastie": "califes",
+      "personne": "usman-dan-fodio",
+      "cle": true
+    },
+    {
+      "nom": "Muhammad Bello",
+      "titre": "Calife",
+      "debut": 1817,
+      "fin": 1837,
+      "dynastie": "califes",
+      "note": "fils d’Usman, fondateur de Sokoto",
+      "cle": true
+    },
+    { "nom": "Abubakar Atiku", "titre": "Calife", "debut": 1837, "fin": 1842, "dynastie": "califes" },
+    { "nom": "Aliyu Babba", "titre": "Calife", "debut": 1842, "fin": 1859, "dynastie": "califes", "cle": true },
+    {
+      "nom": "Muhammadu Attahiru Ier",
+      "titre": "Calife",
+      "debut": 1902,
+      "fin": 1903,
+      "dynastie": "califes",
+      "note": "tué en combattant les Britanniques à Burmi",
+      "cle": true
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Usman dan Fodio",
+      "role": "Prédicateur et fondateur",
+      "description": "Le fondateur du califat de Sokoto.",
+      "dates": "1754 → 1817",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Usman_dan_Fodio",
+      "ref": "usman-dan-fodio"
+    },
+    {
+      "nom": "Nana Asma’u",
+      "role": "Poétesse et enseignante",
+      "description": "Fille d’Usman dan Fodio, elle écrit de nombreux poèmes et organise l’éducation des femmes.",
+      "dates": "1793 → 1864",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Nana_Asma%CA%BCu",
+      "ref": "nana-asmau"
+    },
+    {
+      "nom": "Frederick Lugard",
+      "role": "Administrateur britannique",
+      "description": "Il conquiert le califat en 1903 et gouverne ensuite le nord du Nigeria en s’appuyant sur les émirs.",
+      "dates": "1858 → 1945",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Frederick_Lugard"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Djihad d’Usman dan Fodio",
+      "annee": 1804,
+      "adversaires": ["Royaumes haoussa (Gobir, Kano, Zaria…)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Partisans d’Usman dan Fodio",
+      "consequences": "Les rois haoussa sont renversés et remplacés par des émirs, souvent peuls, qui reconnaissent l’autorité de Sokoto.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Usman_dan_Fodio"
+    },
+    {
+      "nom": "Djihad peul contre le Bornou",
+      "annee": 1808,
+      "adversaires": ["Royaume du Bornou"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Bornou (grâce à al-Kanemi)",
+      "consequences": "Les combattants peuls incendient Ngazargamu, mais le lettré al-Kanemi les repousse : le Bornou reste indépendant.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Califat_de_Sokoto"
+    },
+    {
+      "nom": "Conquête britannique de Sokoto",
+      "annee": 1903,
+      "adversaires": ["Royaume-Uni (Frederick Lugard)"],
+      "allies": [],
+      "morts": "Plusieurs centaines au moins",
+      "vainqueur": "Royaume-Uni",
+      "consequences": "Kano et Sokoto sont prises ; le calife Attahiru Ier est tué à Burmi. Le califat devient le protectorat du Nord-Nigeria, gouverné par l’intermédiaire des émirs.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Califat_de_Sokoto"
+    }
+  ],
+  "sciences": "Le califat est un grand foyer d’écriture : Usman dan Fodio, son frère Abdullahi, son fils Muhammad Bello et sa fille Nana Asma’u écrivent des centaines d’ouvrages en arabe, en peul et en haoussa, sur la religion, le droit, la médecine et l’histoire. Kano est réputée pour ses teintureries à l’indigo et son artisanat du cuir.",
+  "croyancesText": "Le califat se veut un État fondé sur la loi islamique. Usman dan Fodio prêche contre les impôts injustes, la corruption et les pratiques religieuses qu’il juge contraires à l’islam. Il encourage l’instruction religieuse des femmes, une idée que poursuit sa fille Nana Asma’u.",
+  "diplomatie": "Les émirs reconnaissent l’autorité du calife et lui envoient un tribut. Le califat affronte le Bornou et les royaumes voisins non musulmans. À la fin du XIXe siècle, Britanniques, Français et Allemands se partagent ses frontières.",
+  "societe": "La société est dominée par des familles de lettrés et de guerriers peuls. Les esclaves, capturés lors de razzias, travaillent en grand nombre dans les plantations : le califat compte l’une des plus importantes populations d’esclaves d’Afrique au XIXe siècle.",
+  "economie": "Agriculture (millet, coton, indigo), artisanat textile et du cuir, commerce transsaharien et régional.",
+  "arts": "Poésie religieuse, manuscrits, architecture de terre, teintures à l’indigo.",
+  "quotidien": "À Kano, les teinturiers trempent les tissus dans de grandes fosses d’indigo, une activité qui existe encore aujourd’hui.",
+  "heritage": [
+    {
+      "titre": "Le sultan de Sokoto",
+      "texte": "Il est toujours considéré comme un guide spirituel des musulmans du Nigeria."
+    },
+    {
+      "titre": "Nana Asma’u",
+      "texte": "Son réseau d’enseignantes, les « jaji », inspire encore des programmes d’éducation des femmes dans le nord du Nigeria."
+    }
+  ],
+  "aSavoir": ["Usman dan Fodio a écrit plus d’une centaine d’ouvrages."],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Califat_de_Sokoto",
+    {
+      "titre": "Encyclopædia Britannica — Sokoto caliphate",
+      "url": "https://www.britannica.com/place/Sokoto-Caliphate"
+    }
+  ]
+}

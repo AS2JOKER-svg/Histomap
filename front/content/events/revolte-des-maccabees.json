@@ -1,0 +1,20 @@
+{
+  "id": "revolte-des-maccabees",
+  "nom": "Révolte des Maccabées",
+  "annee": -167,
+  "fin": -160,
+  "dates": "−167 → −160",
+  "lieu": "Judée",
+  "description": "Les Juifs de Judée, menés par le prêtre Mattathias puis son fils Judas « Maccabée », se révoltent contre le roi séleucide Antiochos IV, qui a interdit leur religion.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Par une guérilla dans les collines, les révoltés battent plusieurs armées séleucides et reprennent le Temple de Jérusalem en −164."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "La Judée devient peu à peu indépendante sous la dynastie hasmonéenne, jusqu’à l’arrivée des Romains en −63. La fête de Hanoucca commémore la purification du Temple."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/R%C3%A9volte_des_Maccab%C3%A9es"
+}

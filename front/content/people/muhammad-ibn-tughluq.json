@@ -1,0 +1,17 @@
+{
+  "id": "muhammad-ibn-tughluq",
+  "nom": "Muhammad ibn Tughluq",
+  "role": "Sultan de Delhi",
+  "roles": ["Sultan"],
+  "dates": "vers 1290 → 1351",
+  "mort": 1351,
+  "description": "Sultan de 1325 à 1351, savant et ambitieux, il règne sur le plus grand territoire du sultanat, mais plusieurs de ses réformes échouent.",
+  "reperes": [{ "label": "Règne", "valeur": "1325 → 1351" }],
+  "essentiel": [
+    "Il transfère la capitale de Delhi à Daulatabad, dans le Dekkan, puis revient à Delhi.",
+    "Il fait frapper une monnaie de cuivre censée valoir de l’argent ; les faux se multiplient et il doit y renoncer.",
+    "Il accueille le voyageur [[ibn-battuta|Ibn Battuta]], qu’il nomme juge à Delhi.",
+    "À la fin de son règne, de nombreuses provinces se révoltent et deviennent indépendantes."
+  ],
+  "wikiUrl": "https://en.wikipedia.org/wiki/Muhammad_bin_Tughluq"
+}

@@ -1,0 +1,233 @@
+{
+  "documentaires": [],
+  "decouvertes": [],
+  "id": "royaume-zoulou",
+  "label": "Royaume zoulou",
+  "tier": 1,
+  "region": "afrique-australe",
+  "period": "1816 à 1897",
+  "start": 1816,
+  "end": 1897,
+  "color": "#5d4037",
+  "trackId": "afrique_australe",
+  "row": 5,
+  "isRiver": false,
+  "capitale": "KwaBulawayo, puis Ulundi",
+  "description": "Le royaume militaire fondé par Chaka dans le sud-est de l’Afrique, qui affronte les Boers puis l’Empire britannique, avant d’être divisé et annexé à la fin du XIXe siècle.",
+  "territories": ["Zululand"],
+  "reperes": {
+    "capitale": { "valeur": "KwaBulawayo, puis Ulundi", "precision": "chaque roi installe sa propre résidence royale" },
+    "regimes": { "valeur": "Monarchie militaire", "precision": "le roi commande des régiments d’hommes du même âge" },
+    "langues": { "valeur": "Zoulou (isiZulu)" },
+    "religion": { "valeur": "Culte des ancêtres", "precision": "les ancêtres protègent les familles et le royaume" },
+    "apogee": { "valeur": "Règne de Chaka (1816 → 1828)" },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": { "valeur": "Bétail", "precision": "le troupeau est la mesure de la richesse" },
+    "duree": { "valeur": "Environ 80 ans" },
+    "aujourdhui": { "valeur": "Afrique du Sud", "precision": "province du KwaZulu-Natal ; un roi zoulou existe toujours" }
+  },
+  "essentiel": [
+    "Vers 1816, [[chaka|Chaka]] prend la tête du petit royaume zoulou et le transforme en grande puissance militaire grâce à des régiments disciplinés.",
+    "Ses conquêtes et les guerres de cette époque provoquent de grands bouleversements et migrations dans toute l’Afrique australe.",
+    "Son successeur Dingane affronte les Boers venus du Cap : il est battu à la [[bataille-de-blood-river|bataille de Blood River]] (1838).",
+    "En 1879, le roi [[cetshwayo|Cetshwayo]] remporte à [[bataille-d-isandhlwana|Isandhlwana]] une grande victoire sur l’armée britannique, mais il est battu à Ulundi et perd son royaume.",
+    "Divisé par les Britanniques, ravagé par la guerre civile, le royaume est annexé en 1887 puis rattaché à la colonie du Natal en 1897."
+  ],
+  "datesCles": [
+    { "annee": 1816, "evenement": "Chaka roi", "info": "Chaka devient chef des Zoulous et réorganise l’armée." },
+    { "annee": 1828, "evenement": "Assassinat de Chaka", "info": "Ses demi-frères le tuent ; Dingane devient roi." },
+    {
+      "annee": 1838,
+      "evenement": "Blood River",
+      "info": "Les Boers battent l’armée de Dingane.",
+      "ref": "bataille-de-blood-river"
+    },
+    {
+      "annee": 1840,
+      "evenement": "Mpande roi",
+      "info": "Allié aux Boers, Mpande renverse Dingane et règne plus de 30 ans."
+    },
+    {
+      "annee": 1879,
+      "evenement": "Isandhlwana",
+      "info": "L’armée zouloue écrase une colonne britannique.",
+      "ref": "bataille-d-isandhlwana"
+    },
+    {
+      "annee": 1879,
+      "evenement": "Ulundi",
+      "info": "Les Britanniques détruisent la capitale ; Cetshwayo est capturé."
+    },
+    { "annee": 1887, "evenement": "Annexion", "info": "Le Royaume-Uni annexe le Zoulouland." },
+    {
+      "annee": 1897,
+      "evenement": "Rattachement au Natal",
+      "info": "Le Zoulouland est intégré à la colonie britannique du Natal."
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "Le royaume de Chaka",
+      "debut": 1816,
+      "fin": 1828,
+      "resume": "Chaka bâtit un royaume puissant par la guerre et une organisation militaire nouvelle.",
+      "evenements": [{ "annee": 1816, "evenement": "Chaka roi" }]
+    },
+    {
+      "nom": "Face aux Boers",
+      "debut": 1828,
+      "fin": 1872,
+      "resume": "Dingane affronte les Boers du Grand Trek ; Mpande, allié aux Boers, règne longtemps en paix.",
+      "evenements": [
+        { "annee": 1838, "evenement": "Blood River", "ref": "bataille-de-blood-river" },
+        { "annee": 1840, "evenement": "Mpande roi" }
+      ]
+    },
+    {
+      "nom": "Face aux Britanniques",
+      "debut": 1872,
+      "fin": 1897,
+      "resume": "Cetshwayo combat l’Empire britannique ; vaincu, le royaume est divisé puis annexé.",
+      "evenements": [
+        { "annee": 1879, "evenement": "Isandhlwana et Ulundi", "ref": "bataille-d-isandhlwana" },
+        { "annee": 1887, "evenement": "Annexion" }
+      ]
+    }
+  ],
+  "regimes": [
+    {
+      "id": "royaume",
+      "nom": "Royaume zoulou",
+      "debut": 1816,
+      "fin": 1897,
+      "note": "Divisé par les Britanniques à partir de 1879."
+    }
+  ],
+  "dynasties": [{ "id": "rois", "nom": "Les rois zoulous", "debut": 1816, "fin": 1897 }],
+  "dirigeants": [
+    {
+      "nom": "Chaka",
+      "titre": "Roi",
+      "debut": 1816,
+      "fin": 1828,
+      "dynastie": "rois",
+      "personne": "chaka",
+      "note": "assassiné",
+      "cle": true
+    },
+    {
+      "nom": "Dingane",
+      "titre": "Roi",
+      "debut": 1828,
+      "fin": 1840,
+      "dynastie": "rois",
+      "note": "vaincu à Blood River",
+      "cle": true
+    },
+    {
+      "nom": "Mpande",
+      "titre": "Roi",
+      "debut": 1840,
+      "fin": 1872,
+      "dynastie": "rois",
+      "note": "règne le plus long",
+      "cle": true
+    },
+    {
+      "nom": "Cetshwayo",
+      "titre": "Roi",
+      "debut": 1872,
+      "fin": 1879,
+      "dynastie": "rois",
+      "personne": "cetshwayo",
+      "note": "vaincu en 1879, brièvement rétabli en 1883",
+      "cle": true
+    },
+    {
+      "nom": "Dinuzulu",
+      "titre": "Roi",
+      "debut": 1884,
+      "fin": 1897,
+      "dynastie": "rois",
+      "note": "exilé à Sainte-Hélène de 1890 à 1898"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Chaka",
+      "role": "Roi fondateur",
+      "description": "Le roi qui fait des Zoulous une grande puissance.",
+      "dates": "vers 1787 → 1828",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Chaka",
+      "ref": "chaka"
+    },
+    {
+      "nom": "Cetshwayo",
+      "role": "Roi",
+      "description": "Le roi qui affronte l’Empire britannique en 1879.",
+      "dates": "vers 1826 → 1884",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Cetshwayo_kaMpande",
+      "ref": "cetshwayo"
+    },
+    {
+      "nom": "Nandi",
+      "role": "Mère de Chaka",
+      "description": "Rejetée avec son fils par le père de Chaka, elle reste très proche de lui ; sa mort en 1827 plonge le royaume dans un deuil extrêmement dur.",
+      "dates": "vers 1760 → 1827",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Nandi_(m%C3%A8re_de_Chaka)"
+    },
+    {
+      "nom": "Piet Retief",
+      "role": "Chef boer",
+      "description": "Chef du Grand Trek, il est tué avec ses hommes sur ordre de Dingane en 1838.",
+      "dates": "1780 → 1838",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Piet_Retief"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Bataille de Blood River",
+      "annee": 1838,
+      "adversaires": ["Voortrekkers boers (Andries Pretorius)"],
+      "allies": [],
+      "morts": "Environ 3 000 Zoulous ; aucun Boer tué",
+      "vainqueur": "Boers",
+      "consequences": "Retranchés derrière leurs chariots et armés de fusils et de canons, les Boers repoussent l’armée de Dingane. Ils fondent ensuite la république du Natal.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Blood_River"
+    },
+    {
+      "nom": "Guerre Anglo-Zouloue",
+      "annee": 1879,
+      "adversaires": ["Royaume-Uni"],
+      "allies": [],
+      "morts": "Plus de 10 000 morts au total, en majorité zoulous (estimations)",
+      "vainqueur": "Royaume-Uni",
+      "consequences": "Après leur victoire d’Isandhlwana, les Zoulous sont écrasés à Ulundi ; le royaume perd son indépendance.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_anglo-zouloue"
+    }
+  ],
+  "sciences": "Chaka réorganise l’armée : il remplace les longues sagaies de jet par une lance courte pour le combat rapproché, l’iklwa, et entraîne ses guerriers à combattre pieds nus pour aller plus vite. Ses régiments attaquent selon la formation des « cornes du buffle », qui encercle l’ennemi.",
+  "croyancesText": "Les Zoulous honorent leurs ancêtres, qui veillent sur les vivants et à qui l’on offre des sacrifices de bétail. Le roi joue un rôle religieux lors des grandes cérémonies, comme la fête des prémices. Des missionnaires chrétiens s’installent dans le royaume à partir des années 1830.",
+  "diplomatie": "Le royaume affronte ses voisins africains, puis les Boers du Grand Trek et l’Empire britannique, installé au Natal. Mpande s’allie aux Boers pour prendre le pouvoir. En 1878, les Britanniques lancent un ultimatum impossible à accepter, qui déclenche la guerre de 1879.",
+  "societe": "Les jeunes hommes sont regroupés en régiments, les amabutho, qui servent le roi et ne peuvent se marier qu’avec son autorisation. Le bétail, propriété du roi et des familles, est le cœur de la richesse et des échanges, notamment pour la dot.",
+  "economie": "Élevage du bétail, agriculture (sorgho, maïs), tributs et butin de guerre.",
+  "arts": "Boucliers de peau de vache aux couleurs propres à chaque régiment, perles, chants et danses guerrières.",
+  "quotidien": "Les villages zoulous, les kraals, sont des cercles de huttes en forme de ruche entourant l’enclos du bétail.",
+  "heritage": [
+    {
+      "titre": "La nation zouloue",
+      "texte": "Les Zoulous sont aujourd’hui le peuple le plus nombreux d’Afrique du Sud, et le zoulou la langue maternelle la plus parlée du pays."
+    },
+    {
+      "titre": "Isandhlwana",
+      "texte": "La victoire de 1879 reste l’une des plus célèbres victoires africaines sur une armée coloniale."
+    }
+  ],
+  "aSavoir": [
+    "Le terme « Mfecane », qui désigne les guerres et migrations de l’époque de Chaka, est discuté : certains historiens pensent qu’on a exagéré le rôle des Zoulous et oublié celui de la traite et des colons."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Royaume_zoulou",
+    { "titre": "Encyclopædia Britannica — Zulu", "url": "https://www.britannica.com/topic/Zulu" }
+  ]
+}

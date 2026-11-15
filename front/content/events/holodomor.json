@@ -1,0 +1,20 @@
+{
+  "id": "holodomor",
+  "nom": "Holodomor",
+  "annee": 1932,
+  "fin": 1933,
+  "dates": "1932 → 1933",
+  "lieu": "Ukraine soviétique",
+  "description": "Grande famine qui frappe l’Ukraine soviétique en 1932-1933, causée par la collectivisation forcée des terres, les réquisitions de céréales et les mesures prises par le pouvoir de Staline ; elle fait environ 4 millions de morts en Ukraine.",
+  "sections": [
+    {
+      "titre": "Les causes",
+      "texte": "Le pouvoir soviétique impose des quotas de céréales impossibles à atteindre, confisque les réserves des paysans et leur interdit de quitter les régions affamées. D’autres régions de l’URSS, comme le Kazakhstan, sont aussi frappées."
+    },
+    {
+      "titre": "Mémoire",
+      "texte": "Longtemps cachée par le pouvoir soviétique, la famine est reconnue comme un génocide par l’Ukraine et par de nombreux pays ; une partie des historiens discute cette qualification. Son nom signifie « extermination par la faim »."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Holodomor"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "mehemet-ali",
+  "nom": "Méhémet Ali",
+  "role": "Gouverneur d’Égypte",
+  "roles": ["Militaire", "Gouverneur"],
+  "dates": "1769 → 1849",
+  "naissance": 1769,
+  "mort": 1849,
+  "description": "Officier albanais de l’armée ottomane, devenu gouverneur de l’Égypte en 1805, il modernise le pays et en fait une puissance régionale ; ses descendants règnent jusqu’en 1953.",
+  "reperes": [{ "label": "Au pouvoir", "valeur": "1805 → 1848" }],
+  "essentiel": [
+    "En 1811, il fait massacrer les chefs mamelouks qui lui disputent le pouvoir.",
+    "Il crée une armée moderne, des écoles et des usines, et développe la culture du coton.",
+    "Ses armées conquièrent le Soudan et combattent en Arabie, en Grèce et en Syrie.",
+    "Il obtient en 1841 que le gouvernement de l’Égypte reste héréditaire dans sa famille."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/M%C3%A9h%C3%A9met_Ali"
+}

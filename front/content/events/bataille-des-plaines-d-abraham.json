@@ -1,0 +1,19 @@
+{
+  "id": "bataille-des-plaines-d-abraham",
+  "nom": "Bataille des plaines d’Abraham",
+  "annee": 1759,
+  "dates": "13 septembre 1759",
+  "lieu": "Québec (Nouvelle-France)",
+  "description": "Devant Québec, l’armée britannique du général Wolfe bat en moins d’une heure l’armée française du marquis de Montcalm.",
+  "sections": [
+    {
+      "titre": "Deux généraux tués",
+      "texte": "Wolfe meurt pendant la bataille et Montcalm le lendemain, de leurs blessures. Québec capitule quelques jours plus tard."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Après la chute de Montréal en 1760, toute la Nouvelle-France est aux mains des Britanniques ; le traité de Paris de 1763 la leur cède."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_des_plaines_d%27Abraham"
+}

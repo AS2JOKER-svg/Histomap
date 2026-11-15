@@ -1,0 +1,19 @@
+{
+  "id": "accords-d-oslo",
+  "nom": "Accords d’Oslo",
+  "annee": 1993,
+  "dates": "1993 → 1995",
+  "lieu": "Oslo et Washington",
+  "description": "Accords négociés en secret en Norvège puis signés à Washington en 1993 : Israël et l’OLP se reconnaissent mutuellement, et une Autorité palestinienne autonome est créée en Cisjordanie et à Gaza.",
+  "sections": [
+    {
+      "titre": "Une poignée de main historique",
+      "texte": "Le 13 septembre 1993, Yitzhak Rabin et Yasser Arafat se serrent la main devant la Maison-Blanche ; ils reçoivent le prix Nobel de la paix en 1994 avec Shimon Peres."
+    },
+    {
+      "titre": "L’échec",
+      "texte": "Les questions les plus difficiles (frontières, Jérusalem, réfugiés, colonies) sont reportées ; attentats, poursuite de la colonisation et assassinat de Rabin (1995) bloquent le processus."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Accords_d%27Oslo"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "joseph-ii",
+  "nom": "Joseph II",
+  "role": "Empereur",
+  "roles": ["Empereur", "Réformateur"],
+  "dates": "1741 → 1790",
+  "naissance": 1741,
+  "mort": 1790,
+  "description": "Fils de Marie-Thérèse, empereur à partir de 1765 et seul souverain des terres des Habsbourg de 1780 à 1790, il mène des réformes inspirées des Lumières.",
+  "reperes": [{ "label": "Règne", "valeur": "1780 → 1790" }],
+  "essentiel": [
+    "Il accorde la liberté de culte aux protestants et aux orthodoxes en 1781.",
+    "Il abolit le servage personnel dans plusieurs pays de la monarchie.",
+    "Il ferme des centaines de monastères qu’il juge inutiles.",
+    "Ses réformes, imposées trop vite, provoquent des révoltes en Hongrie et aux Pays-Bas."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Joseph_II_(empereur_du_Saint-Empire)"
+}

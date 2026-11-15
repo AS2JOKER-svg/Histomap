@@ -1,0 +1,19 @@
+{
+  "id": "expedition-de-madagascar",
+  "nom": "Expédition de Madagascar (1895)",
+  "annee": 1895,
+  "dates": "janvier → septembre 1895",
+  "lieu": "Madagascar",
+  "description": "La France envoie une armée de 15 000 hommes qui débarque à Majunga et marche sur Antananarivo.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "La marche est très lente : le paludisme et la dysenterie tuent environ 6 000 soldats, bien plus que les combats. Antananarivo capitule le 30 septembre 1895 après quelques obus."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Madagascar devient une colonie française (1896). Une insurrection, la révolte des Menalamba, est réprimée, et la reine Ranavalona III est exilée en 1897."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Exp%C3%A9dition_de_Madagascar"
+}

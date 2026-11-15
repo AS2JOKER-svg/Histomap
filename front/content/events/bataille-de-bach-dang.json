@@ -1,0 +1,19 @@
+{
+  "id": "bataille-de-bach-dang",
+  "nom": "Bataille du Bạch Đằng",
+  "annee": 938,
+  "dates": "938",
+  "lieu": "Fleuve Bạch Đằng (nord du Vietnam)",
+  "description": "Ngô Quyền détruit une flotte chinoise des Han du Sud en l’attirant sur des pieux à pointe de fer plantés dans le lit du fleuve et cachés par la marée haute.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "Cette victoire met fin à plus de mille ans de domination chinoise : Ngô Quyền devient roi en 939."
+    },
+    {
+      "titre": "Une ruse répétée",
+      "texte": "En 1288, le général [[tran-hung-dao|Trần Hưng Đạo]] utilise la même ruse, au même endroit, pour détruire la flotte mongole."
+    }
+  ],
+  "wikiUrl": "https://en.wikipedia.org/wiki/Battle_of_B%E1%BA%A1ch_%C4%90%E1%BA%B1ng_(938)"
+}

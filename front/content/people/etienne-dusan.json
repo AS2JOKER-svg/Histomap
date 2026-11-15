@@ -1,0 +1,17 @@
+{
+  "id": "etienne-dusan",
+  "nom": "Étienne Dušan",
+  "role": "Empereur des Serbes",
+  "roles": ["Roi", "Empereur", "Législateur"],
+  "dates": "vers 1308 → 1355",
+  "mort": 1355,
+  "description": "Roi de Serbie à partir de 1331, il conquiert une grande partie des Balkans et se fait couronner « empereur des Serbes et des Grecs » en 1346.",
+  "reperes": [{ "label": "Règne", "valeur": "1331 → 1355" }],
+  "essentiel": [
+    "Il conquiert la Macédoine, l’Albanie, l’Épire et la Thessalie sur l’Empire byzantin.",
+    "Il fait de Skopje sa capitale et s’y fait couronner empereur en 1346.",
+    "Il fait adopter en 1349 un code de lois pour tout l’empire.",
+    "Il meurt en 1355, peut-être en préparant une attaque contre Constantinople."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/%C3%89tienne_Du%C5%A1an"
+}

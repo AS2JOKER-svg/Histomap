@@ -1,0 +1,20 @@
+{
+  "id": "bataille-de-bannockburn",
+  "nom": "Bataille de Bannockburn",
+  "annee": 1314,
+  "dates": "23-24 juin 1314",
+  "lieu": "Bannockburn, près de Stirling (Écosse)",
+  "description": "L’armée écossaise de Robert Bruce, plus petite, écrase la grande armée du roi d’Angleterre Édouard II, venue secourir le château de Stirling.",
+  "sections": [
+    {
+      "titre": "Comment ?",
+      "texte": "Les fantassins écossais, armés de longues lances et serrés en formations (schiltrons), repoussent les chevaliers anglais pris au piège entre les marais et la rivière."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "C’est la plus grande victoire écossaise de la guerre d’indépendance ; l’Angleterre reconnaît l’indépendance de l’Écosse en 1328."
+    }
+  ],
+  "liens": [{ "ref": "robert-bruce", "relation": "Le vainqueur" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Bannockburn"
+}

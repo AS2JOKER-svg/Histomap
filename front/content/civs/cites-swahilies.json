@@ -1,0 +1,207 @@
+{
+  "documentaires": [],
+  "decouvertes": ["kilwa-kisiwani"],
+  "id": "cites-swahilies",
+  "label": "Cités swahilies",
+  "tier": 1,
+  "region": "afrique-est",
+  "period": "vers 800 à 1505",
+  "start": 800,
+  "end": 1505,
+  "color": "#0277bd",
+  "trackId": "afrique_est",
+  "row": 1,
+  "isRiver": false,
+  "capitale": "Aucune : des cités-États (Kilwa, Mombasa, Malindi…)",
+  "description": "Des villes marchandes de la côte de l’Afrique de l’Est, où se mêlent cultures africaine, arabe et persane, qui commercent par l’océan Indien avec l’Arabie, l’Inde et la Chine.",
+  "territories": [],
+  "reperes": {
+    "capitale": { "valeur": "Aucune", "precision": "des cités-États : Kilwa, Mombasa, Malindi, Lamu, Zanzibar, Mogadiscio…" },
+    "regimes": {
+      "valeur": "Cités-États",
+      "precision": "dirigées par des sultans ou des conseils de notables, souvent rivales"
+    },
+    "langues": { "valeur": "Swahili", "precision": "langue bantoue riche en mots arabes, écrite en caractères arabes" },
+    "religion": { "valeur": "Islam sunnite", "precision": "les premières mosquées datent des VIIIe-IXe siècles" },
+    "apogee": { "valeur": "XIIIe-XVe siècles", "precision": "Kilwa contrôle le commerce de l’or" },
+    "population": {
+      "valeur": "Inconnue",
+      "precision": "les plus grandes villes comptent sans doute plusieurs milliers d’habitants"
+    },
+    "monnaie": { "valeur": "Pièces de cuivre", "precision": "frappées notamment à Kilwa ; cauris" },
+    "duree": { "valeur": "Environ 700 ans", "precision": "jusqu’aux attaques portugaises" },
+    "aujourdhui": { "valeur": "Kenya et Tanzanie", "precision": "ainsi que la Somalie, le Mozambique et les Comores" }
+  },
+  "essentiel": [
+    "Sur la côte de l’Afrique de l’Est, des villes de marchands bantous commercent avec les marins arabes, persans et indiens, poussés par les vents de mousson.",
+    "De ces échanges naît la culture swahilie : une langue africaine enrichie de mots arabes, l’islam et une architecture de pierre de corail.",
+    "Kilwa, sur une île de Tanzanie, contrôle au XIVe siècle le commerce de l’or venu du Zimbabwe ; le voyageur [[ibn-battuta|Ibn Battuta]] la visite en 1331.",
+    "Au XVe siècle, la flotte chinoise de [[zheng-he|Zheng He]] atteint la côte ; Malindi envoie une girafe à l’empereur de Chine.",
+    "En 1498, [[vasco-de-gama|Vasco de Gama]] fait escale à Malindi ; en 1505, les Portugais pillent Kilwa et Mombasa lors du [[sac-de-kilwa-et-de-mombasa|sac de 1505]]."
+  ],
+  "datesCles": [
+    {
+      "annee": 800,
+      "evenement": "Premières mosquées",
+      "info": "Vers 800, des mosquées en bois puis en pierre apparaissent dans les villages de la côte, comme à Shanga."
+    },
+    {
+      "annee": 1000,
+      "evenement": "Essor des cités",
+      "info": "Vers l’an 1000, Kilwa, Mogadiscio et d’autres villes se développent grâce au commerce de l’océan Indien."
+    },
+    {
+      "annee": 1331,
+      "evenement": "Ibn Battuta",
+      "info": "Le voyageur marocain visite Mogadiscio, Mombasa et Kilwa, qu’il trouve « parmi les plus belles villes du monde »."
+    },
+    {
+      "annee": 1415,
+      "evenement": "Une girafe pour la Chine",
+      "info": "Une ambassade de Malindi offre une girafe à l’empereur de Chine."
+    },
+    {
+      "annee": 1498,
+      "evenement": "Vasco de Gama",
+      "info": "Le navigateur portugais fait escale à Malindi, qui lui fournit un pilote pour gagner l’Inde."
+    },
+    {
+      "annee": 1505,
+      "evenement": "Sac de Kilwa et Mombasa",
+      "info": "Une flotte portugaise pille les deux villes.",
+      "ref": "sac-de-kilwa-et-de-mombasa"
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "Les débuts",
+      "debut": 800,
+      "fin": 1100,
+      "resume": "Des villages de pêcheurs et d’agriculteurs bantous deviennent des ports de commerce ; l’islam s’y diffuse.",
+      "evenements": [{ "annee": 800, "evenement": "Premières mosquées" }]
+    },
+    {
+      "nom": "L’âge d’or",
+      "debut": 1100,
+      "fin": 1498,
+      "resume": "Kilwa, Mombasa, Malindi et Mogadiscio prospèrent grâce à l’or, l’ivoire et les esclaves échangés contre des tissus, des perles et de la porcelaine.",
+      "evenements": [{ "annee": 1331, "evenement": "Visite d’Ibn Battuta" }, { "annee": 1415, "evenement": "Girafe envoyée en Chine" }]
+    },
+    {
+      "nom": "L’arrivée des Portugais",
+      "debut": 1498,
+      "fin": 1505,
+      "resume": "Les Portugais veulent contrôler le commerce de l’océan Indien et attaquent les cités qui leur résistent.",
+      "evenements": [
+        { "annee": 1498, "evenement": "Vasco de Gama à Malindi" },
+        { "annee": 1505, "evenement": "Sac de Kilwa et Mombasa", "ref": "sac-de-kilwa-et-de-mombasa" }
+      ]
+    }
+  ],
+  "regimes": [
+    {
+      "id": "cites",
+      "nom": "Cités-États swahilies",
+      "debut": 800,
+      "fin": 1505,
+      "note": "Chaque ville a son propre souverain."
+    }
+  ],
+  "dynasties": [
+    {
+      "id": "kilwa",
+      "nom": "Quelques sultans de Kilwa",
+      "debut": 957,
+      "fin": 1505,
+      "note": "Connus surtout par la « Chronique de Kilwa », écrite au XVIe siècle ; dates approximatives."
+    }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Ali ibn al-Hassan",
+      "titre": "Sultan de Kilwa",
+      "debut": 957,
+      "fin": 996,
+      "dynastie": "kilwa",
+      "note": "fondateur selon la tradition, dit venu de Chiraz",
+      "cle": true
+    },
+    {
+      "nom": "al-Hasan ibn Sulaiman",
+      "titre": "Sultan de Kilwa",
+      "debut": 1310,
+      "fin": 1333,
+      "dynastie": "kilwa",
+      "note": "fait bâtir le palais de Husuni Kubwa",
+      "cle": true
+    },
+    {
+      "nom": "Ibrahim",
+      "titre": "Sultan de Kilwa",
+      "debut": 1495,
+      "fin": 1505,
+      "dynastie": "kilwa",
+      "note": "fuit devant les Portugais"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Ibn Battuta",
+      "role": "Voyageur marocain",
+      "description": "Il visite les cités swahilies en 1331 et décrit leurs mosquées et leurs habitants.",
+      "dates": "1304 → vers 1369",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Ibn_Battuta",
+      "ref": "ibn-battuta"
+    },
+    {
+      "nom": "Zheng He",
+      "role": "Amiral chinois",
+      "description": "Ses flottes atteignent la côte de l’Afrique de l’Est au début du XVe siècle.",
+      "dates": "1371 → 1433",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Zheng_He",
+      "ref": "zheng-he"
+    },
+    {
+      "nom": "Vasco de Gama",
+      "role": "Navigateur portugais",
+      "description": "Il ouvre la route maritime vers l’Inde en passant par la côte swahilie.",
+      "dates": "vers 1469 → 1524",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Vasco_de_Gama",
+      "ref": "vasco-de-gama"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Sac de Kilwa et de Mombasa",
+      "annee": 1505,
+      "adversaires": ["Royaume de Portugal (Francisco de Almeida)"],
+      "allies": [],
+      "morts": "Plusieurs centaines à Mombasa selon les récits portugais",
+      "vainqueur": "Portugal",
+      "consequences": "Kilwa et Mombasa sont pillées ; les Portugais construisent des forts et taxent le commerce. Les cités swahilies déclinent.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Kilwa_Kisiwani"
+    }
+  ],
+  "sciences": "Les Swahilis bâtissent en pierre de corail, taillée en blocs ou réduite en chaux : mosquées à coupoles, palais et maisons à plusieurs pièces. Kilwa frappe ses propres pièces de cuivre. Les marins utilisent les vents de mousson, qui soufflent vers l’Afrique en hiver et vers l’Inde en été, et des bateaux cousus, les dhows.",
+  "croyancesText": "L’islam arrive sur la côte avec les marchands arabes et persans et devient la religion des cités, tandis que l’intérieur garde ses religions africaines. Les mosquées, comme la grande mosquée de Kilwa, sont les plus beaux monuments des villes.",
+  "diplomatie": "Les cités swahilies sont les intermédiaires entre l’intérieur de l’Afrique et le monde de l’océan Indien : elles vendent l’or du Zimbabwe, l’ivoire et des esclaves, et achètent des tissus de l’Inde, des perles et de la porcelaine de Chine. Elles sont souvent rivales : Malindi s’allie aux Portugais contre Mombasa.",
+  "societe": "Les villes sont dirigées par des familles de marchands qui se disent souvent d’origine arabe ou persane, mais la population est en majorité africaine. Les patriciens vivent dans des maisons de pierre ; le reste de la population, dans des maisons de terre et de feuilles.",
+  "economie": "Commerce de l’or, de l’ivoire, du bois, de l’ambre gris et des esclaves ; pêche et agriculture.",
+  "arts": "Architecture de corail, portes de bois sculpté, poésie en swahili.",
+  "quotidien": "Dans les grandes maisons de Kilwa, on a retrouvé de la porcelaine chinoise et des perles de verre indiennes, signes du commerce lointain.",
+  "heritage": [
+    {
+      "titre": "Le swahili",
+      "texte": "Langue de la côte devenue langue commune de l’Afrique de l’Est, elle est parlée aujourd’hui par des dizaines de millions de personnes, comme langue maternelle ou seconde langue."
+    },
+    {
+      "titre": "Kilwa Kisiwani et Lamu",
+      "texte": "Les ruines de Kilwa et la vieille ville de Lamu sont inscrites au patrimoine mondial."
+    }
+  ],
+  "aSavoir": ["« Swahili » vient d’un mot arabe qui signifie « gens de la côte »."],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Culture_swahilie",
+    { "titre": "Encyclopædia Britannica — Swahili coast", "url": "https://www.britannica.com/place/Swahili-coast" }
+  ]
+}

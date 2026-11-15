@@ -1,0 +1,16 @@
+{
+  "id": "expedition-de-francisco-barreto",
+  "nom": "Expédition de Francisco Barreto",
+  "annee": 1569,
+  "fin": 1573,
+  "dates": "1569 → 1573",
+  "lieu": "Vallée du Zambèze (Mozambique)",
+  "description": "Le roi de Portugal envoie une armée commandée par Francisco Barreto pour s’emparer des mines d’or du Monomotapa et venger la mort du missionnaire Silveira.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "Les fièvres, le manque de vivres et les combats déciment les soldats ; Barreto meurt en 1573. Les Portugais renoncent à une conquête directe et cherchent plutôt à influencer les souverains."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Empire_du_Monomotapa"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "prise-de-malacca",
+  "nom": "Prise de Malacca",
+  "annee": 1511,
+  "dates": "août 1511",
+  "lieu": "Malacca (Malaisie)",
+  "description": "La flotte portugaise d’Afonso de Albuquerque attaque Malacca et s’empare de la ville après plusieurs semaines de combats.",
+  "sections": [
+    {
+      "titre": "Pourquoi Malacca ?",
+      "texte": "Les Portugais veulent contrôler le commerce des épices, qui passe par le détroit. Ils bâtissent une forteresse, A Famosa, dont il reste une porte."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Le sultan se réfugie plus au sud. Beaucoup de marchands musulmans quittent Malacca pour d’autres ports, comme Aceh, Johor ou Brunei. Les Hollandais prennent la ville en 1641."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Prise_de_Malacca"
+}

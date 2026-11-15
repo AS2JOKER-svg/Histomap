@@ -1,0 +1,15 @@
+{
+  "id": "pedro-alvares-cabral",
+  "nom": "Pedro Álvares Cabral",
+  "role": "Navigateur portugais",
+  "roles": ["Navigateur", "Explorateur"],
+  "dates": "vers 1467 → vers 1520",
+  "description": "Commandant d’une grande flotte portugaise partie pour l’Inde, il aborde en avril 1500 la côte du Brésil et en prend possession au nom du roi du Portugal.",
+  "essentiel": [
+    "Sa flotte de treize navires quitte Lisbonne en mars 1500 pour l’Inde.",
+    "En s’écartant vers l’ouest dans l’Atlantique, elle atteint la côte du Brésil le 22 avril 1500.",
+    "Il y reste une dizaine de jours, puis repart vers l’Inde.",
+    "Une lettre de Pero Vaz de Caminha, membre de l’expédition, raconte la rencontre avec les Tupis."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Pedro_%C3%81lvares_Cabral"
+}

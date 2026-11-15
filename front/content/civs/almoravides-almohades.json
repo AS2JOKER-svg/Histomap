@@ -1,0 +1,297 @@
+{
+  "documentaires": [],
+  "decouvertes": ["koutoubia"],
+  "id": "almoravides-almohades",
+  "label": "Almoravides et Almohades",
+  "tier": 1,
+  "region": "afrique-nord",
+  "period": "1040 à 1269",
+  "start": 1040,
+  "end": 1269,
+  "color": "#558b2f",
+  "trackId": "maghreb",
+  "row": 1,
+  "isRiver": false,
+  "capitale": "Marrakech",
+  "description": "Deux empires berbères nés de mouvements religieux, qui unissent le Maghreb et al-Andalus aux XIe et XIIe siècles, depuis leur capitale de Marrakech.",
+  "territories": ["Almoravid dynasty", "Almohad Caliphate"],
+  "reperes": {
+    "capitale": { "valeur": "Marrakech", "precision": "fondée vers 1070 par les Almoravides" },
+    "regimes": {
+      "valeur": "Émirat, puis califat",
+      "precision": "les Almoravides reconnaissent le calife de Bagdad ; les Almohades se proclament califes"
+    },
+    "langues": { "valeur": "Berbère et arabe" },
+    "religion": {
+      "valeur": "Islam sunnite",
+      "precision": "rigorisme malikite chez les Almoravides ; doctrine d’Ibn Tumart chez les Almohades"
+    },
+    "apogee": { "valeur": "Règne de Yaqub al-Mansur (1184 → 1199)", "precision": "du Portugal à la Libye" },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": { "valeur": "Dinar d’or", "precision": "le dinar almoravide, très réputé, circule jusqu’en Europe chrétienne" },
+    "duree": { "valeur": "Environ 230 ans" },
+    "aujourdhui": {
+      "valeur": "Maroc, Algérie, Tunisie",
+      "precision": "ainsi que la Mauritanie, le sud de l’Espagne et du Portugal"
+    }
+  },
+  "essentiel": [
+    "Vers 1040, un prédicateur, Abdallah ibn Yasin, fonde chez des Berbères du Sahara un mouvement religieux rigoriste : les Almoravides.",
+    "[[youssef-ibn-tachfine|Youssef ibn Tachfine]] fonde Marrakech, unifie le Maghreb occidental et bat le roi de Castille à la [[bataille-de-zallaqa|bataille de Zallaqa]] (1086) avant d’annexer al-Andalus.",
+    "Au XIIe siècle, un nouveau mouvement religieux, fondé par [[ibn-tumart|Ibn Tumart]], renverse les Almoravides : les Almohades unissent tout le Maghreb, du Maroc à la Libye.",
+    "Les Almohades bâtissent la [[koutoubia|Koutoubia]] et la Giralda et protègent des savants comme [[averroes|Averroès]], mais imposent leur doctrine, poussant juifs et chrétiens à la conversion ou à l’exil.",
+    "Vaincus par les royaumes chrétiens à [[bataille-de-las-navas-de-tolosa|Las Navas de Tolosa]] (1212), ils perdent al-Andalus, puis Marrakech en 1269."
+  ],
+  "datesCles": [
+    {
+      "annee": 1040,
+      "evenement": "Les Almoravides",
+      "info": "Vers 1040, Abdallah ibn Yasin prêche chez les Sanhaja du Sahara."
+    },
+    {
+      "annee": 1070,
+      "evenement": "Fondation de Marrakech",
+      "info": "Vers 1070, les Almoravides fondent leur capitale au pied de l’Atlas."
+    },
+    {
+      "annee": 1076,
+      "evenement": "Le Ghana",
+      "info": "Selon des sources arabes plus tardives, les Almoravides prennent la capitale du Ghana ; l’épisode est débattu."
+    },
+    {
+      "annee": 1086,
+      "evenement": "Zallaqa",
+      "info": "Youssef ibn Tachfine bat le roi de Castille Alphonse VI.",
+      "ref": "bataille-de-zallaqa"
+    },
+    {
+      "annee": 1121,
+      "evenement": "Ibn Tumart Mahdi",
+      "info": "Ibn Tumart se proclame Mahdi et lance la révolte almohade."
+    },
+    {
+      "annee": 1147,
+      "evenement": "Prise de Marrakech",
+      "info": "Les Almohades d’Abd al-Mumin prennent la capitale almoravide."
+    },
+    { "annee": 1195, "evenement": "Alarcos", "info": "Yaqub al-Mansur écrase l’armée de Castille." },
+    {
+      "annee": 1212,
+      "evenement": "Las Navas de Tolosa",
+      "info": "Les royaumes chrétiens d’Espagne battent l’armée almohade.",
+      "ref": "bataille-de-las-navas-de-tolosa"
+    },
+    { "annee": 1269, "evenement": "Fin des Almohades", "info": "Les Mérinides prennent Marrakech." }
+  ],
+  "periodes": [
+    {
+      "nom": "Les Almoravides",
+      "debut": 1040,
+      "fin": 1147,
+      "resume": "Des Berbères du Sahara bâtissent un empire du Sénégal à l’Èbre, unifié par la foi malikite.",
+      "evenements": [
+        { "annee": 1070, "evenement": "Fondation de Marrakech" },
+        { "annee": 1086, "evenement": "Zallaqa", "ref": "bataille-de-zallaqa" }
+      ]
+    },
+    {
+      "nom": "L’empire almohade",
+      "debut": 1147,
+      "fin": 1212,
+      "resume": "Les Almohades unissent tout le Maghreb et al-Andalus ; leur califat est l’un des plus brillants de l’Occident musulman.",
+      "evenements": [{ "annee": 1160, "evenement": "Conquête de Tunis et de Tripoli" }, { "annee": 1195, "evenement": "Alarcos" }]
+    },
+    {
+      "nom": "Le déclin",
+      "debut": 1212,
+      "fin": 1269,
+      "resume": "Après Las Navas de Tolosa, al-Andalus est perdue ; le Maghreb se partage entre Mérinides, Zianides et Hafsides.",
+      "evenements": [
+        { "annee": 1212, "evenement": "Las Navas de Tolosa", "ref": "bataille-de-las-navas-de-tolosa" },
+        { "annee": 1248, "evenement": "Chute de Séville" }
+      ]
+    }
+  ],
+  "regimes": [
+    { "id": "almoravides", "nom": "Émirat almoravide", "debut": 1040, "fin": 1147 },
+    { "id": "almohades", "nom": "Califat almohade", "debut": 1121, "fin": 1269 }
+  ],
+  "dynasties": [
+    {
+      "id": "almoravides",
+      "nom": "Les Almoravides",
+      "debut": 1056,
+      "fin": 1147,
+      "regime": "almoravides",
+      "note": "Sélection."
+    },
+    { "id": "almohades", "nom": "Les Almohades", "debut": 1121, "fin": 1269, "regime": "almohades", "note": "Sélection." }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Abu Bakr ibn Umar",
+      "titre": "Émir",
+      "debut": 1056,
+      "fin": 1087,
+      "dynastie": "almoravides",
+      "note": "reste au Sahara et laisse le nord à Youssef"
+    },
+    {
+      "nom": "Youssef ibn Tachfine",
+      "titre": "Émir",
+      "debut": 1061,
+      "fin": 1106,
+      "dynastie": "almoravides",
+      "personne": "youssef-ibn-tachfine",
+      "cle": true
+    },
+    { "nom": "Ali ibn Youssef", "titre": "Émir", "debut": 1106, "fin": 1143, "dynastie": "almoravides" },
+    {
+      "nom": "Ibn Tumart",
+      "titre": "Mahdi (chef religieux)",
+      "debut": 1121,
+      "fin": 1130,
+      "dynastie": "almohades",
+      "personne": "ibn-tumart",
+      "cle": true
+    },
+    {
+      "nom": "Abd al-Mumin",
+      "titre": "Calife",
+      "debut": 1130,
+      "fin": 1163,
+      "dynastie": "almohades",
+      "note": "conquiert le Maghreb",
+      "cle": true
+    },
+    {
+      "nom": "Abu Yaqub Youssef",
+      "titre": "Calife",
+      "debut": 1163,
+      "fin": 1184,
+      "dynastie": "almohades",
+      "note": "protecteur d’Averroès"
+    },
+    {
+      "nom": "Yaqub al-Mansur",
+      "titre": "Calife",
+      "debut": 1184,
+      "fin": 1199,
+      "dynastie": "almohades",
+      "note": "vainqueur d’Alarcos",
+      "cle": true
+    },
+    {
+      "nom": "Muhammad an-Nasir",
+      "titre": "Calife",
+      "debut": 1199,
+      "fin": 1213,
+      "dynastie": "almohades",
+      "note": "vaincu à Las Navas de Tolosa"
+    },
+    {
+      "nom": "Idris al-Wathiq",
+      "titre": "Calife",
+      "debut": 1266,
+      "fin": 1269,
+      "dynastie": "almohades",
+      "note": "dernier calife"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Youssef ibn Tachfine",
+      "role": "Émir almoravide",
+      "description": "Le fondateur de Marrakech et le maître d’al-Andalus.",
+      "dates": "vers 1009 → 1106",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Youssef_ibn_Tachfine",
+      "ref": "youssef-ibn-tachfine"
+    },
+    {
+      "nom": "Ibn Tumart",
+      "role": "Fondateur du mouvement almohade",
+      "description": "Prédicateur berbère qui se proclame Mahdi.",
+      "dates": "vers 1080 → 1130",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Ibn_Toumert",
+      "ref": "ibn-tumart"
+    },
+    {
+      "nom": "Averroès",
+      "role": "Philosophe et médecin",
+      "description": "Juge à Séville et à Cordoue, médecin des califes almohades, grand commentateur d’Aristote.",
+      "dates": "1126 → 1198",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Averro%C3%A8s",
+      "ref": "averroes"
+    },
+    {
+      "nom": "Maïmonide",
+      "role": "Philosophe juif",
+      "description": "Né à Cordoue, il fuit avec sa famille les persécutions almohades et s’installe en Égypte.",
+      "dates": "1138 → 1204",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Ma%C3%AFmonide",
+      "ref": "maimonide"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerre Almoravide",
+      "annee": 1076,
+      "adversaires": ["Empire du Ghana"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Almoravides",
+      "consequences": "Selon des sources arabes plus tardives, les Almoravides prennent Koumbi Saleh ; de nombreux historiens doutent aujourd’hui d’une véritable conquête.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Empire_du_Ghana"
+    },
+    {
+      "nom": "Bataille de Zallaqa",
+      "annee": 1086,
+      "adversaires": ["Royaume de Castille (Alphonse VI)"],
+      "allies": ["Royaumes de taïfas d’al-Andalus"],
+      "morts": "Inconnues, très lourdes côté castillan",
+      "vainqueur": "Almoravides",
+      "consequences": "L’avancée castillane est stoppée ; Youssef ibn Tachfine annexe ensuite les royaumes de taïfas d’al-Andalus.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Sagrajas"
+    },
+    {
+      "nom": "Bataille d’Alarcos",
+      "annee": 1195,
+      "adversaires": ["Royaume de Castille (Alphonse VIII)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Almohades",
+      "consequences": "Grande victoire almohade, qui vaut au calife le surnom d’al-Mansur, « le Victorieux ».",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_d%27Alarcos"
+    },
+    {
+      "nom": "Bataille de Las Navas de Tolosa",
+      "annee": 1212,
+      "adversaires": ["Coalition chrétienne (Castille, Aragon, Navarre)"],
+      "allies": [],
+      "morts": "Inconnues ; très lourdes côté almohade",
+      "vainqueur": "Coalition chrétienne",
+      "consequences": "La puissance almohade en al-Andalus s’effondre ; Cordoue (1236) et Séville (1248) tombent aux mains des chrétiens.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Las_Navas_de_Tolosa"
+    }
+  ],
+  "sciences": "Sous les Almohades, Marrakech et Séville sont des centres de savoir : Averroès commente Aristote, Ibn Tufayl écrit un roman philosophique, et les médecins de la cour publient des traités. Les ingénieurs creusent des galeries souterraines, les khettaras, pour irriguer la plaine de Marrakech.",
+  "croyancesText": "Les Almoravides imposent une application stricte du droit musulman de l’école malikite. Les Almohades suivent la doctrine d’Ibn Tumart, qui insiste sur l’unicité absolue de Dieu ; ils forcent juifs et chrétiens à se convertir ou à partir, ce qui pousse beaucoup d’entre eux, comme la famille de Maïmonide, à l’exil.",
+  "diplomatie": "Les deux empires dominent les routes de l’or venues du Sahara et affrontent les royaumes chrétiens d’Espagne, qui progressent vers le sud. Les Almohades doivent aussi lutter contre les révoltes au Maghreb et les Normands de Sicile, installés en Tunisie.",
+  "societe": "Le pouvoir repose sur des tribus berbères : les Sanhaja du Sahara pour les Almoravides, les Masmouda de l’Atlas pour les Almohades. Les guerriers almoravides portent le voile sur le visage, comme les Touaregs aujourd’hui.",
+  "economie": "Commerce de l’or et du sel avec l’Afrique de l’Ouest, agriculture des plaines du Maroc et d’al-Andalus, artisanat urbain.",
+  "arts": "Koutoubia de Marrakech, Giralda de Séville, Tour Hassan de Rabat, portes monumentales et décors de stuc.",
+  "quotidien": "Les Almoravides font de Marrakech une ville de jardins irrigués, entourée de remparts de terre rouge qui lui donnent son surnom de « ville rouge ».",
+  "heritage": [
+    { "titre": "Marrakech", "texte": "Fondée par les Almoravides, sa médina est inscrite au patrimoine mondial." },
+    {
+      "titre": "Le marabotin",
+      "texte": "Le dinar d’or almoravide, appelé « marabotin » par les chrétiens, a été imité par les rois de Castille."
+    }
+  ],
+  "aSavoir": ["Le mot « almoravide » vient de l’arabe « al-murabitun », qui a aussi donné le mot « marabout »."],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Almoravides",
+    "https://fr.wikipedia.org/wiki/Almohades",
+    { "titre": "Encyclopædia Britannica — Almohads", "url": "https://www.britannica.com/topic/Almohads" }
+  ]
+}

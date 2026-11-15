@@ -1,0 +1,195 @@
+{
+  "documentaires": [],
+  "decouvertes": ["edit-de-rothari"],
+  "id": "lombards",
+  "label": "Royaume lombard",
+  "tier": 2,
+  "region": "italie",
+  "period": "568 à 774",
+  "start": 568,
+  "end": 774,
+  "color": "#558b2f",
+  "trackId": "lombards",
+  "row": 10,
+  "isRiver": false,
+  "capitale": "Pavie",
+  "description": "Le royaume fondé en Italie par les Lombards, peuple germanique venu de Pannonie, qui domine une grande partie de la péninsule pendant deux siècles, avant d’être conquis par Charlemagne en 774.",
+  "territories": ["Lombard principalities"],
+  "reperes": {
+    "capitale": { "valeur": "Pavie", "precision": "avec les grands duchés de Spolète et de Bénévent" },
+    "regimes": { "valeur": "Royauté", "precision": "un roi élu et des ducs souvent très indépendants" },
+    "langues": { "valeur": "Latin et lombard", "precision": "la langue lombarde disparaît peu à peu" },
+    "religion": { "valeur": "Arianisme, puis catholicisme" },
+    "apogee": { "valeur": "Règne de Liutprand (712 → 744)" },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": { "valeur": "Tremissis d’or" },
+    "duree": { "valeur": "Environ 200 ans" },
+    "aujourdhui": { "valeur": "Italie", "precision": "la région de Lombardie porte leur nom" }
+  },
+  "essentiel": [
+    "En 568, le roi Alboin conduit les Lombards de la Pannonie (Hongrie actuelle) en Italie, alors dévastée par les guerres entre Byzantins et Ostrogoths.",
+    "Ils conquièrent le nord et le centre de la péninsule ; l’Italie est désormais partagée entre Lombards et Byzantins pour deux siècles.",
+    "La reine [[theodelinde|Théodelinde]] favorise la conversion des Lombards au catholicisme ; en 643, le roi Rothari fait écrire leurs lois, l’[[edit-de-rothari|édit de Rothari]].",
+    "Au VIIIe siècle, le roi Liutprand renforce le royaume ; ses successeurs prennent Ravenne et menacent Rome.",
+    "Appelé par le pape, [[charlemagne|Charlemagne]] prend Pavie en 774 et devient roi des Lombards."
+  ],
+  "datesCles": [
+    { "annee": 568, "evenement": "L’arrivée en Italie", "info": "Alboin et son peuple franchissent les Alpes." },
+    { "annee": 572, "evenement": "Pavie", "info": "Après un long siège, Pavie est prise et devient la capitale." },
+    {
+      "annee": 603,
+      "evenement": "Baptême catholique",
+      "info": "Le fils de la reine Théodelinde est baptisé catholique."
+    },
+    { "annee": 643, "evenement": "Édit de Rothari", "info": "Les lois des Lombards sont mises par écrit en latin." },
+    {
+      "annee": 728,
+      "evenement": "Donation de Sutri",
+      "info": "Liutprand donne au pape le château de Sutri, l’une des origines des États pontificaux."
+    },
+    { "annee": 751, "evenement": "Ravenne", "info": "Le roi Aistulf prend Ravenne aux Byzantins." },
+    {
+      "annee": 774,
+      "evenement": "Chute de Pavie",
+      "info": "Charlemagne prend Pavie et ceint la couronne des Lombards."
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "La conquête",
+      "debut": 568,
+      "fin": 643,
+      "resume": "Les Lombards s’installent en Italie et se convertissent peu à peu au catholicisme.",
+      "evenements": [{ "annee": 568, "evenement": "Arrivée en Italie" }, { "annee": 572, "evenement": "Prise de Pavie" }]
+    },
+    {
+      "nom": "Le royaume de Pavie",
+      "debut": 643,
+      "fin": 774,
+      "resume": "Le royaume s’organise, s’agrandit aux dépens des Byzantins, puis tombe face aux Francs.",
+      "evenements": [
+        { "annee": 643, "evenement": "Édit de Rothari" },
+        { "annee": 751, "evenement": "Prise de Ravenne" },
+        { "annee": 774, "evenement": "Chute de Pavie" }
+      ]
+    }
+  ],
+  "regimes": [{ "id": "royaute", "nom": "Royauté", "debut": 568, "fin": 774 }],
+  "dynasties": [{ "id": "rois", "nom": "Les rois lombards", "debut": 568, "fin": 774, "note": "Sélection." }],
+  "dirigeants": [
+    {
+      "nom": "Alboin",
+      "titre": "Roi",
+      "debut": 568,
+      "fin": 572,
+      "dynastie": "rois",
+      "note": "conduit les Lombards en Italie",
+      "cle": true
+    },
+    {
+      "nom": "Agilulf",
+      "titre": "Roi",
+      "debut": 590,
+      "fin": 616,
+      "dynastie": "rois",
+      "note": "époux de Théodelinde",
+      "cle": true
+    },
+    {
+      "nom": "Rothari",
+      "titre": "Roi",
+      "debut": 636,
+      "fin": 652,
+      "dynastie": "rois",
+      "note": "fait écrire les lois",
+      "cle": true
+    },
+    {
+      "nom": "Liutprand",
+      "titre": "Roi",
+      "debut": 712,
+      "fin": 744,
+      "dynastie": "rois",
+      "note": "apogée du royaume",
+      "cle": true
+    },
+    { "nom": "Aistulf", "titre": "Roi", "debut": 749, "fin": 756, "dynastie": "rois", "note": "prend Ravenne" },
+    {
+      "nom": "Didier",
+      "titre": "Roi",
+      "debut": 756,
+      "fin": 774,
+      "dynastie": "rois",
+      "note": "dernier roi, vaincu par Charlemagne",
+      "cle": true
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Théodelinde",
+      "role": "Reine des Lombards",
+      "description": "Reine catholique qui favorise la conversion de son peuple.",
+      "dates": "vers 570 → 628",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Th%C3%A9odelinde",
+      "ref": "theodelinde"
+    },
+    {
+      "nom": "Paul Diacre",
+      "role": "Moine et historien",
+      "description": "Il écrit vers 790 une Histoire des Lombards, principale source sur ce peuple.",
+      "dates": "vers 720 → vers 799",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Paul_Diacre"
+    },
+    {
+      "nom": "Charlemagne",
+      "role": "Roi des Francs",
+      "description": "Il conquiert le royaume lombard en 774.",
+      "dates": "vers 742 → 814",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Charlemagne",
+      "ref": "charlemagne"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Conquête lombarde de l’Italie",
+      "annee": 568,
+      "adversaires": ["Empire byzantin"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Lombards",
+      "consequences": "Les Lombards occupent le nord et le centre de l’Italie ; les Byzantins gardent Ravenne, Rome, Naples et le Sud. L’Italie restera divisée jusqu’au XIXe siècle.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Lombard_invasion_of_Italy"
+    },
+    {
+      "nom": "Siège de Pavie (773-774)",
+      "annee": 773,
+      "adversaires": ["Royaume franc (Charlemagne)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Francs (Charlemagne)",
+      "consequences": "Après un siège de près d’un an, Pavie se rend ; le roi Didier est envoyé dans un monastère et Charlemagne devient roi des Lombards.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Siege_of_Pavia_(773%E2%80%93774)"
+    }
+  ],
+  "sciences": "Les Lombards mettent par écrit leurs coutumes en latin dans l’édit de Rothari, l’un des plus complets des codes germaniques. Leurs orfèvres fabriquent des croix d’or, des bijoux et des armes décorées. Ils fondent ou protègent de grands monastères, comme Bobbio, qui copient des manuscrits antiques.",
+  "croyancesText": "Arrivés en Italie en partie ariens et en partie païens, les Lombards se convertissent peu à peu au catholicisme au VIIe siècle, sous l’influence de la reine Théodelinde et du pape Grégoire le Grand. La papauté redoute pourtant leur puissance et appelle les Francs à l’aide au VIIIe siècle.",
+  "diplomatie": "Les Lombards combattent les Byzantins pour le contrôle de l’Italie et entretiennent des relations difficiles avec la papauté. Ils s’allient parfois aux Francs par mariage, mais finissent par être conquis par eux. Au sud, le duché de Bénévent reste indépendant jusqu’au XIe siècle.",
+  "societe": "Les guerriers lombards, d’abord peu nombreux, dominent une population italienne bien plus nombreuse, avec laquelle ils se mélangent peu à peu. Les ducs gouvernent de grandes régions et défient souvent le roi.",
+  "economie": "Agriculture, grands domaines, commerce le long du Pô ; frappe de monnaie d’or.",
+  "arts": "Couronne de fer de Monza, autel de Ratchis à Cividale, Tempietto de Cividale, croix et fibules d’or.",
+  "quotidien": "Selon une légende rapportée par Paul Diacre, les Lombards devraient leur nom, « Longobards », à leurs longues barbes.",
+  "heritage": [
+    { "titre": "La Lombardie", "texte": "La région de Milan porte toujours le nom des Lombards." },
+    {
+      "titre": "Au patrimoine mondial",
+      "texte": "Les lieux de pouvoir des Lombards en Italie (Cividale, Brescia, Spolète, Bénévent…) sont inscrits au patrimoine mondial de l’UNESCO depuis 2011."
+    }
+  ],
+  "aSavoir": [
+    "Selon la tradition, la couronne de fer de Monza contient un clou de la croix du Christ ; elle a servi au couronnement de plusieurs rois d’Italie, dont Napoléon en 1805."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Royaume_lombard",
+    { "titre": "Encyclopædia Britannica — Lombard", "url": "https://www.britannica.com/topic/Lombard-people" }
+  ]
+}

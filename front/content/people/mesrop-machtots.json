@@ -1,0 +1,16 @@
+{
+  "id": "mesrop-machtots",
+  "nom": "Mesrop Machtots",
+  "role": "Inventeur de l’alphabet arménien",
+  "roles": ["Moine", "Linguiste"],
+  "dates": "vers 362 → 440",
+  "naissance": 362,
+  "mort": 440,
+  "description": "Ancien secrétaire royal devenu moine, il crée en 405 l’alphabet arménien pour traduire la Bible.",
+  "essentiel": [
+    "Il cherche longtemps une écriture adaptée à la langue arménienne.",
+    "Avec le catholicos Sahak, il fonde des écoles et lance la traduction de la Bible.",
+    "La tradition lui attribue aussi l’alphabet des Albaniens du Caucase et participe à celui de la Géorgie."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Mesrop_Machtots"
+}

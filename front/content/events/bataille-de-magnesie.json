@@ -1,0 +1,16 @@
+{
+  "id": "bataille-de-magnesie",
+  "nom": "Bataille de Magnésie",
+  "annee": -190,
+  "dates": "décembre −190 ou janvier −189",
+  "lieu": "Magnésie du Sipyle (Turquie actuelle)",
+  "description": "L’armée romaine de Lucius Cornelius Scipion, aidée par le roi de Pergame, écrase l’immense armée d’[[antiochos-iii|Antiochos III]].",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "Par la paix d’Apamée (−188), le roi séleucide abandonne l’Asie Mineure, livre ses éléphants et sa flotte et paie une énorme indemnité. Rome devient l’arbitre de l’Orient."
+    }
+  ],
+  "liens": [{ "ref": "antiochos-iii", "relation": "Le vaincu" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Magn%C3%A9sie_du_Sipyle"
+}

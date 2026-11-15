@@ -1,0 +1,216 @@
+{
+  "documentaires": [],
+  "decouvertes": ["ai-khanoum"],
+  "id": "greco-bactriens",
+  "label": "Royaume gréco-bactrien",
+  "tier": 2,
+  "region": "asie-centrale",
+  "period": "vers -256 à -125",
+  "start": -256,
+  "end": -125,
+  "color": "#3949ab",
+  "trackId": "bactriane",
+  "row": 1,
+  "isRiver": false,
+  "capitale": "Bactres (Balkh)",
+  "description": "Un royaume grec au cœur de l’Asie centrale, fondé par des colons et des soldats d’Alexandre, qui pousse jusqu’en Inde et mêle cultures grecque, iranienne et indienne.",
+  "territories": ["Bactria"],
+  "reperes": {
+    "capitale": { "valeur": "Bactres", "precision": "l’actuelle Balkh, dans le nord de l’Afghanistan" },
+    "regimes": {
+      "valeur": "Monarchie grecque",
+      "precision": "des rois d’origine grecque, souvent en guerre les uns contre les autres"
+    },
+    "langues": {
+      "valeur": "Grec et bactrien",
+      "precision": "le grec pour le pouvoir ; le bactrien, langue iranienne, pour la population"
+    },
+    "religion": { "valeur": "Dieux grecs et cultes locaux", "precision": "le bouddhisme progresse dans les régions indiennes" },
+    "apogee": { "valeur": "Règne de Démétrios Ier", "precision": "vers −200 → −180, conquête du nord-ouest de l’Inde" },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": { "valeur": "Tétradrachmes d’argent", "precision": "aux portraits royaux parmi les plus beaux de l’Antiquité" },
+    "duree": { "valeur": "Environ 130 ans" },
+    "aujourdhui": { "valeur": "Afghanistan", "precision": "ainsi que l’Ouzbékistan et le Tadjikistan" }
+  },
+  "essentiel": [
+    "Vers −250, Diodote, gouverneur séleucide de Bactriane, une riche région d’Asie centrale, se rend indépendant et prend le titre de roi.",
+    "En −208, le roi Euthydème résiste pendant deux ans au siège de Bactres par le Séleucide Antiochos III, qui finit par le reconnaître.",
+    "Démétrios Ier conquiert une partie du nord-ouest de l’Inde : des rois grecs, comme [[menandre-ier|Ménandre]], y régneront encore longtemps.",
+    "À [[ai-khanoum|Aï Khanoum]], au bord de l’Oxus, une véritable ville grecque possède gymnase, théâtre et maximes de Delphes gravées dans la pierre.",
+    "Vers −145 à −125, des nomades venus du nord, Saces et Yuezhi, envahissent le royaume, qui disparaît."
+  ],
+  "datesCles": [
+    { "annee": -250, "evenement": "Indépendance", "info": "Vers 250 av. J.-C., Diodote rompt avec les Séleucides." },
+    {
+      "annee": -208,
+      "evenement": "Siège de Bactres",
+      "info": "Euthydème résiste deux ans à Antiochos III, qui le reconnaît comme roi."
+    },
+    {
+      "annee": -180,
+      "evenement": "Conquête de l’Inde",
+      "info": "Vers 180 av. J.-C., Démétrios Ier franchit l’Hindou Kouch et s’empare du Gandhara."
+    },
+    {
+      "annee": -171,
+      "evenement": "Eucratide",
+      "info": "Un usurpateur, Eucratide, prend le pouvoir et combat les rois grecs de l’Inde."
+    },
+    {
+      "annee": -145,
+      "evenement": "Chute d’Aï Khanoum",
+      "info": "Vers 145 av. J.-C., la ville grecque est pillée et abandonnée."
+    },
+    {
+      "annee": -125,
+      "evenement": "Fin du royaume",
+      "info": "Les Yuezhi s’installent en Bactriane ; seuls les royaumes indo-grecs survivent, au sud."
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "La sécession",
+      "debut": -256,
+      "fin": -208,
+      "resume": "Les gouverneurs grecs de Bactriane prennent leur indépendance vis-à-vis des Séleucides.",
+      "evenements": [{ "annee": -250, "evenement": "Indépendance de Diodote" }]
+    },
+    {
+      "nom": "L’apogée",
+      "debut": -208,
+      "fin": -171,
+      "resume": "Reconnu par Antiochos III, Euthydème transmet un royaume puissant à Démétrios, qui conquiert le nord-ouest de l’Inde.",
+      "evenements": [{ "annee": -208, "evenement": "Siège de Bactres" }, { "annee": -180, "evenement": "Conquête du Gandhara" }]
+    },
+    {
+      "nom": "Divisions et invasions",
+      "debut": -171,
+      "fin": -125,
+      "resume": "Les rois grecs se divisent ; les nomades du nord envahissent la Bactriane.",
+      "evenements": [
+        { "annee": -171, "evenement": "Prise de pouvoir d’Eucratide" },
+        { "annee": -145, "evenement": "Chute d’Aï Khanoum" }
+      ]
+    }
+  ],
+  "regimes": [{ "id": "royaume", "nom": "Royaume gréco-bactrien", "debut": -256, "fin": -125 }],
+  "dynasties": [
+    {
+      "id": "rois",
+      "nom": "Les rois gréco-bactriens",
+      "debut": -256,
+      "fin": -130,
+      "note": "Dates approximatives, établies surtout grâce aux monnaies."
+    }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Diodote Ier",
+      "titre": "Roi",
+      "debut": -256,
+      "fin": -239,
+      "dynastie": "rois",
+      "note": "fondateur",
+      "cle": true
+    },
+    { "nom": "Diodote II", "titre": "Roi", "debut": -239, "fin": -230, "dynastie": "rois" },
+    {
+      "nom": "Euthydème Ier",
+      "titre": "Roi",
+      "debut": -230,
+      "fin": -200,
+      "dynastie": "rois",
+      "note": "résiste à Antiochos III",
+      "cle": true
+    },
+    {
+      "nom": "Démétrios Ier",
+      "titre": "Roi",
+      "debut": -200,
+      "fin": -180,
+      "dynastie": "rois",
+      "note": "conquiert le nord-ouest de l’Inde",
+      "cle": true
+    },
+    {
+      "nom": "Eucratide Ier",
+      "titre": "Roi",
+      "debut": -171,
+      "fin": -145,
+      "dynastie": "rois",
+      "note": "frappe la plus grosse pièce d’or de l’Antiquité",
+      "cle": true
+    },
+    {
+      "nom": "Hélioclès Ier",
+      "titre": "Roi",
+      "debut": -145,
+      "fin": -130,
+      "dynastie": "rois",
+      "note": "dernier roi en Bactriane"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Ménandre Ier",
+      "role": "Roi indo-grec",
+      "description": "Roi grec du nord-ouest de l’Inde, héros d’un texte bouddhiste où il dialogue avec le sage Nagasena.",
+      "dates": "IIe siècle av. J.-C.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/M%C3%A9nandre_Ier",
+      "ref": "menandre-ier"
+    },
+    {
+      "nom": "Cléarque de Soles",
+      "role": "Philosophe grec",
+      "description": "Élève d’Aristote, il aurait fait graver à Aï Khanoum les maximes du sanctuaire de Delphes.",
+      "dates": "IVe-IIIe siècles av. J.-C.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Cl%C3%A9arque_de_Soles"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Siège de Bactres",
+      "annee": -208,
+      "adversaires": ["Royaume séleucide (Antiochos III)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Compromis",
+      "consequences": "Après deux ans de siège, Antiochos III reconnaît Euthydème comme roi et repart avec ses éléphants de guerre : la Bactriane reste indépendante.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Euthyd%C3%A8me_Ier"
+    },
+    {
+      "nom": "Invasion nomade de la Bactriane",
+      "annee": -145,
+      "adversaires": ["Saces et Yuezhi"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Nomades saces et yuezhi",
+      "consequences": "Les Grecs perdent la Bactriane ; les Yuezhi s’y installent, avant de fonder l’Empire kouchan.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Royaume_gr%C3%A9co-bactrien"
+    }
+  ],
+  "sciences": "Les Gréco-Bactriens frappent des monnaies d’une grande finesse : on y voit les visages des rois, avec leurs rides et leurs coiffures, comme de vrais portraits. Eucratide fait même frapper une pièce d’or de 20 statères, la plus grosse de l’Antiquité. À Aï Khanoum, on a retrouvé un cadran solaire et des textes philosophiques en grec.",
+  "croyancesText": "Les colons grecs honorent Zeus, Héraclès et Apollon, mais adoptent aussi des dieux locaux, comme la déesse du fleuve Oxus. Dans les régions indiennes, certains rois grecs s’intéressent au bouddhisme ; le texte bouddhiste des « Questions de Milinda » met en scène le roi Ménandre.",
+  "diplomatie": "Le royaume gréco-bactrien naît de la sécession d’une province séleucide. Il commerce avec la Chine et l’Inde : vers −128, l’envoyé chinois Zhang Qian visite la Bactriane, déjà dominée par les Yuezhi.",
+  "societe": "Une élite grecque, descendante des soldats et des colons d’Alexandre, vit dans des villes fortifiées au milieu d’une population iranienne. Des mariages et des échanges mêlent peu à peu les deux cultures.",
+  "economie": "Agriculture irriguée des oasis, mines, commerce entre l’Inde, l’Iran et les steppes.",
+  "arts": "Monnaies à portraits, sculptures grecques en Asie centrale, débuts d’un art mêlant styles grec et indien.",
+  "quotidien": "À Aï Khanoum, les habitants fréquentent un gymnase et un théâtre de plusieurs milliers de places, comme dans une ville de Grèce.",
+  "heritage": [
+    {
+      "titre": "L’art gréco-bouddhique",
+      "texte": "La rencontre entre Grecs et Indiens prépare l’art du Gandhara, qui donnera au Bouddha un visage inspiré des statues grecques."
+    },
+    {
+      "titre": "Les royaumes indo-grecs",
+      "texte": "Des rois grecs règnent dans le nord-ouest de l’Inde jusqu’au début de notre ère."
+    }
+  ],
+  "aSavoir": [
+    "Presque toute l’histoire de ce royaume a été reconstituée à partir des monnaies : les textes anciens en parlent très peu."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Royaume_gr%C3%A9co-bactrien",
+    { "titre": "Encyclopædia Britannica — Bactria", "url": "https://www.britannica.com/place/Bactria" }
+  ]
+}

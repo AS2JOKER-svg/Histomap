@@ -1,0 +1,17 @@
+{
+  "id": "joseph-brant",
+  "nom": "Joseph Brant (Thayendanegea)",
+  "role": "Chef mohawk",
+  "roles": ["Chef de guerre", "Diplomate", "Traducteur"],
+  "dates": "1743 → 1807",
+  "naissance": 1743,
+  "mort": 1807,
+  "description": "Chef mohawk instruit, allié des Britanniques pendant la révolution américaine, qui conduit ensuite une partie des Haudenosaunee sur les terres de la rivière Grand, au Canada.",
+  "essentiel": [
+    "Il étudie dans une école coloniale et parle couramment l’anglais.",
+    "Il se rend à Londres en 1776 et rencontre le roi George III.",
+    "Pendant la guerre, il combat aux côtés des Britanniques contre les Américains.",
+    "Il traduit des textes religieux en mohawk et défend les droits de son peuple sur ses terres."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Joseph_Brant"
+}

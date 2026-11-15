@@ -1,0 +1,18 @@
+{
+  "id": "shivaji",
+  "nom": "Shivaji",
+  "role": "Fondateur du royaume marathe",
+  "roles": ["Roi", "Chef de guerre"],
+  "dates": "1630 → 1680",
+  "naissance": 1630,
+  "mort": 1680,
+  "description": "Chef marathe qui fonde en 1674 un royaume indépendant dans l’ouest de l’Inde, face au sultanat de Bijapur et à l’Empire moghol.",
+  "reperes": [{ "label": "Règne", "valeur": "1674 → 1680" }],
+  "essentiel": [
+    "Il s’empare de nombreuses forteresses dans les montagnes de l’ouest de l’Inde.",
+    "En 1659, il tue le général de Bijapur Afzal Khan lors d’une rencontre au pied du fort de Pratapgad.",
+    "Retenu à la cour d’Aurangzeb à Agra en 1666, il parvient à s’échapper.",
+    "Couronné en 1674, il organise une administration, une armée et une marine."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Shivaji"
+}

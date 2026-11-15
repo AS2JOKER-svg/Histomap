@@ -12,6 +12,7 @@ import Icon from '../components/ui/Icon'
 import WorldMap from '../components/map/WorldMap'
 import TimeSlider from '../components/map/TimeSlider'
 import CivPreview from '../components/timeline/CivPreview'
+import AtlasSwitch, { rememberAtlasView } from '../components/AtlasSwitch'
 
 const YEAR_KEY = 'histomap_map_year'
 const DEFAULT_YEAR = 1279
@@ -151,8 +152,11 @@ export default function MapPage() {
     mapRef.current?.focusCiv(link.civ.id)
   }
 
+  useEffect(() => rememberAtlasView('carte'), [])
+
   return (
     <section>
+      <AtlasSwitch current="carte" />
       {/* En-tête compact */}
       <div className="flex flex-wrap items-end justify-between gap-3 mb-4">
         <div>
@@ -358,6 +362,11 @@ function ConflictCard({ conflict, onClose }) {
         </p>
       )}
       {conflict.consequences && <p className="text-sm text-muted mt-2 leading-relaxed line-clamp-3">{conflict.consequences}</p>}
+      {conflict.dossier && (
+        <Link to={`/guerres/${conflict.dossier}`} className="mt-3 mr-4 inline-flex items-center gap-1.5 text-sm font-semibold text-ink hover:underline">
+          <Icon name="layers" size={14} /> Dossier complet de la guerre
+        </Link>
+      )}
       <Link
         to={`/frise/${ref.epoch.id}/${ref.civ.id}`}
         className="mt-3 inline-flex items-center gap-1.5 text-sm font-medium text-accent hover:underline"

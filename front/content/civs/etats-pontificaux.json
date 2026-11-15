@@ -1,0 +1,266 @@
+{
+  "documentaires": [],
+  "decouvertes": [],
+  "id": "etats-pontificaux",
+  "label": "États pontificaux",
+  "tier": 2,
+  "region": "italie",
+  "period": "754 à 1870",
+  "start": 754,
+  "end": 1870,
+  "color": "#fbc02d",
+  "trackId": "papaute",
+  "row": 17,
+  "isRiver": false,
+  "capitale": "Rome",
+  "description": "Les territoires du centre de l’Italie gouvernés directement par le pape pendant plus de onze siècles, de la donation du roi franc Pépin le Bref jusqu’à la prise de Rome par le royaume d’Italie en 1870.",
+  "territories": ["Papal States"],
+  "reperes": {
+    "capitale": { "valeur": "Rome", "precision": "Avignon de 1309 à 1377" },
+    "regimes": {
+      "valeur": "Monarchie élective",
+      "precision": "le pape, élu par les cardinaux, est à la fois chef de l’Église catholique et souverain"
+    },
+    "langues": { "valeur": "Latin et italien" },
+    "religion": { "valeur": "Catholicisme" },
+    "apogee": { "valeur": "XIIIe et XVIe siècles", "precision": "sous Innocent III, puis sous les papes de la Renaissance" },
+    "population": { "valeur": "Environ 3 millions vers 1850", "precision": "estimation" },
+    "monnaie": { "valeur": "Scudo pontifical" },
+    "duree": { "valeur": "Plus de 1 100 ans" },
+    "aujourdhui": {
+      "valeur": "Italie et Vatican",
+      "precision": "le Vatican, créé en 1929, est le dernier territoire gouverné par le pape"
+    }
+  },
+  "essentiel": [
+    "En 754-756, le roi des Francs Pépin le Bref enlève aux Lombards des territoires d’Italie centrale et les donne au pape : ce sont les États pontificaux.",
+    "En 800, le pape Léon III couronne [[charlemagne|Charlemagne]] empereur ; papes et empereurs s’affrontent ensuite sur le pouvoir de nommer les évêques, comme lors de la [[penitence-de-canossa|pénitence de Canossa]] (1077).",
+    "Au XIVe siècle, les papes s’installent à Avignon ; leur retour à Rome est suivi d’un grand schisme, où plusieurs papes rivaux se disputent l’Église.",
+    "À la Renaissance, des papes comme [[jules-ii|Jules II]] font de Rome un grand centre artistique : basilique Saint-Pierre, chapelle Sixtine de Michel-Ange.",
+    "Au XIXe siècle, le mouvement d’unification italienne grignote les États du pape ; en 1870, les troupes italiennes prennent Rome, qui devient la capitale de l’Italie."
+  ],
+  "datesCles": [
+    {
+      "annee": 754,
+      "evenement": "Donation de Pépin",
+      "info": "Pépin le Bref promet au pape les terres prises aux Lombards."
+    },
+    {
+      "annee": 800,
+      "evenement": "Couronnement de Charlemagne",
+      "info": "Le pape Léon III couronne Charlemagne empereur à Rome.",
+      "ref": "couronnement-de-charlemagne"
+    },
+    {
+      "annee": 1077,
+      "evenement": "Canossa",
+      "info": "L’empereur Henri IV s’humilie devant le pape Grégoire VII.",
+      "ref": "penitence-de-canossa"
+    },
+    {
+      "annee": 1309,
+      "evenement": "Avignon",
+      "info": "Les papes s’installent à Avignon pour près de soixante-dix ans."
+    },
+    {
+      "annee": 1506,
+      "evenement": "Saint-Pierre",
+      "info": "Jules II lance la reconstruction de la basilique Saint-Pierre et crée la Garde suisse."
+    },
+    { "annee": 1527, "evenement": "Sac de Rome", "info": "Les troupes de l’empereur Charles Quint pillent Rome." },
+    {
+      "annee": 1582,
+      "evenement": "Calendrier grégorien",
+      "info": "Le pape Grégoire XIII réforme le calendrier, encore utilisé dans le monde entier."
+    },
+    {
+      "annee": 1870,
+      "evenement": "Prise de Rome",
+      "info": "Les troupes italiennes entrent dans Rome ; les États pontificaux disparaissent."
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "Les débuts",
+      "debut": 754,
+      "fin": 1073,
+      "resume": "Protégés par les Francs puis par les empereurs germaniques, les papes gouvernent Rome et le centre de l’Italie.",
+      "evenements": [
+        { "annee": 754, "evenement": "Donation de Pépin" },
+        { "annee": 800, "evenement": "Couronnement de Charlemagne", "ref": "couronnement-de-charlemagne" }
+      ]
+    },
+    {
+      "nom": "La papauté puissante",
+      "debut": 1073,
+      "fin": 1417,
+      "resume": "Les papes s’affirment face aux empereurs, lancent les croisades, puis connaissent l’exil d’Avignon et le grand schisme.",
+      "evenements": [
+        { "annee": 1077, "evenement": "Canossa", "ref": "penitence-de-canossa" },
+        { "annee": 1309, "evenement": "Installation à Avignon" },
+        { "annee": 1378, "evenement": "Grand schisme" }
+      ]
+    },
+    {
+      "nom": "Renaissance et réforme catholique",
+      "debut": 1417,
+      "fin": 1797,
+      "resume": "Les papes font de Rome une capitale artistique et répondent à la Réforme protestante.",
+      "evenements": [
+        { "annee": 1506, "evenement": "Basilique Saint-Pierre" },
+        { "annee": 1545, "evenement": "Concile de Trente" },
+        { "annee": 1582, "evenement": "Calendrier grégorien" }
+      ]
+    },
+    {
+      "nom": "La fin du pouvoir temporel",
+      "debut": 1797,
+      "fin": 1870,
+      "resume": "Occupés par la France révolutionnaire et napoléonienne, puis restaurés, les États pontificaux sont annexés par le royaume d’Italie.",
+      "evenements": [{ "annee": 1809, "evenement": "Annexion par Napoléon" }, { "annee": 1870, "evenement": "Prise de Rome" }]
+    }
+  ],
+  "regimes": [{ "id": "papaute", "nom": "Monarchie élective du pape", "debut": 754, "fin": 1870 }],
+  "dynasties": [{ "id": "papes", "nom": "Les papes", "debut": 752, "fin": 1878, "note": "Sélection." }],
+  "dirigeants": [
+    {
+      "nom": "Étienne II",
+      "titre": "Pape",
+      "debut": 752,
+      "fin": 757,
+      "dynastie": "papes",
+      "note": "reçoit la donation de Pépin",
+      "cle": true
+    },
+    {
+      "nom": "Léon III",
+      "titre": "Pape",
+      "debut": 795,
+      "fin": 816,
+      "dynastie": "papes",
+      "note": "couronne Charlemagne",
+      "cle": true
+    },
+    {
+      "nom": "Grégoire VII",
+      "titre": "Pape",
+      "debut": 1073,
+      "fin": 1085,
+      "dynastie": "papes",
+      "note": "affronte l’empereur Henri IV",
+      "cle": true
+    },
+    {
+      "nom": "Innocent III",
+      "titre": "Pape",
+      "debut": 1198,
+      "fin": 1216,
+      "dynastie": "papes",
+      "note": "apogée de la papauté médiévale",
+      "cle": true
+    },
+    {
+      "nom": "Jules II",
+      "titre": "Pape",
+      "debut": 1503,
+      "fin": 1513,
+      "dynastie": "papes",
+      "personne": "jules-ii",
+      "cle": true
+    },
+    {
+      "nom": "Grégoire XIII",
+      "titre": "Pape",
+      "debut": 1572,
+      "fin": 1585,
+      "dynastie": "papes",
+      "note": "réforme du calendrier"
+    },
+    {
+      "nom": "Pie IX",
+      "titre": "Pape",
+      "debut": 1846,
+      "fin": 1878,
+      "dynastie": "papes",
+      "note": "dernier pape souverain des États pontificaux",
+      "cle": true
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Pépin le Bref",
+      "role": "Roi des Francs",
+      "description": "Il donne au pape les terres prises aux Lombards.",
+      "dates": "714 → 768",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/P%C3%A9pin_le_Bref"
+    },
+    {
+      "nom": "Jules II",
+      "role": "Pape",
+      "description": "Le « pape guerrier », protecteur de Michel-Ange et de Raphaël.",
+      "dates": "1443 → 1513",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Jules_II",
+      "ref": "jules-ii"
+    },
+    {
+      "nom": "Michel-Ange",
+      "role": "Artiste",
+      "description": "Il peint le plafond de la chapelle Sixtine et dessine la coupole de Saint-Pierre.",
+      "dates": "1475 → 1564",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Michel-Ange"
+    },
+    {
+      "nom": "Pie IX",
+      "role": "Pape",
+      "description": "Dernier souverain des États pontificaux, il refuse de reconnaître la prise de Rome.",
+      "dates": "1792 → 1878",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Pie_IX"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Sac de Rome (1527)",
+      "annee": 1527,
+      "adversaires": ["Armée de l’empereur Charles Quint (mercenaires allemands et espagnols)"],
+      "allies": [],
+      "morts": "Plusieurs milliers d’habitants",
+      "vainqueur": "Troupes impériales",
+      "consequences": "Les soldats, mal payés, pillent Rome pendant des mois ; le pape Clément VII se réfugie au château Saint-Ange. Ce choc marque la fin de la Renaissance romaine.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Sac_de_Rome_(1527)"
+    },
+    {
+      "nom": "Prise de Rome (1870)",
+      "annee": 1870,
+      "adversaires": ["Royaume d’Italie"],
+      "allies": [],
+      "morts": "Environ 70",
+      "vainqueur": "Royaume d’Italie",
+      "consequences": "Les troupes italiennes entrent dans Rome par la brèche de la Porta Pia, le 20 septembre 1870. Rome devient la capitale de l’Italie ; le pape se considère comme prisonnier au Vatican jusqu’aux accords de 1929.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Prise_de_Rome"
+    }
+  ],
+  "sciences": "Les papes protègent les savants et les artistes : la bibliothèque vaticane, fondée au XVe siècle, devient l’une des plus riches du monde. En 1582, le pape Grégoire XIII fait adopter un nouveau calendrier, plus exact, le calendrier grégorien, aujourd’hui utilisé dans presque tous les pays.",
+  "croyancesText": "Le pape, évêque de Rome, est le chef de l’Église catholique ; il gouverne aussi son propre État. Les papes lancent les croisades, organisent de grands conciles et répondent à la Réforme protestante par le concile de Trente (1545-1563). Ils condamnent aussi Galilée en 1633.",
+  "diplomatie": "Les papes s’appuient d’abord sur les Francs, puis affrontent les empereurs germaniques. À la Renaissance, ils participent aux guerres d’Italie. Au XIXe siècle, ils sont protégés par une garnison française jusqu’en 1870, lorsque la guerre franco-prussienne oblige la France à la retirer.",
+  "societe": "Le pape gouverne avec les cardinaux et une administration de clercs. Rome attire chaque année des milliers de pèlerins, surtout lors des années saintes (jubilés), instituées en 1300.",
+  "economie": "Revenus de l’Église venus de toute la chrétienté, agriculture, pèlerinages, banques liées à la papauté.",
+  "arts": "Basilique Saint-Pierre, chapelle Sixtine, chambres de Raphaël, fontaines et places baroques du Bernin.",
+  "quotidien": "Depuis 1506, la Garde suisse, reconnaissable à ses uniformes colorés, protège le pape ; elle existe toujours.",
+  "heritage": [
+    {
+      "titre": "Le Vatican",
+      "texte": "Par les accords du Latran (1929), l’Italie reconnaît l’État de la Cité du Vatican, le plus petit État du monde."
+    },
+    {
+      "titre": "Le calendrier grégorien",
+      "texte": "Le calendrier de Grégoire XIII est aujourd’hui le calendrier civil de presque toute la planète."
+    }
+  ],
+  "aSavoir": [
+    "La « donation de Constantine », un document qui prétendait que l’empereur Constantin avait donné l’Occident au pape, a été démontrée comme un faux par l’humaniste Lorenzo Valla en 1440."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/%C3%89tats_pontificaux",
+    { "titre": "Encyclopædia Britannica — Papal States", "url": "https://www.britannica.com/place/Papal-States" }
+  ]
+}

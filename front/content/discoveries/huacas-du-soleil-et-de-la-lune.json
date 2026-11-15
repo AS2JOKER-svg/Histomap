@@ -1,0 +1,18 @@
+{
+  "id": "huacas-du-soleil-et-de-la-lune",
+  "nom": "Huacas du Soleil et de la Lune",
+  "domaine": "Architecture",
+  "dates": "vers 100 → 800",
+  "description": "Deux immenses pyramides de briques crues, au pied d’une montagne de la vallée de Moche, au Pérou : un centre religieux et politique des Mochicas.",
+  "sections": [
+    {
+      "titre": "Des peintures préservées",
+      "texte": "La Huaca de la Lune a été agrandie plusieurs fois en recouvrant les anciennes constructions : ses murs intérieurs ont ainsi gardé des peintures aux couleurs vives, représentant des dieux et des guerriers."
+    },
+    {
+      "titre": "Une pyramide abîmée",
+      "texte": "Au XVIIe siècle, les Espagnols détournent une rivière pour éroder la Huaca du Soleil et y chercher des trésors."
+    }
+  ],
+  "wikiUrl": "https://en.wikipedia.org/wiki/Huacas_del_Sol_y_de_la_Luna"
+}

@@ -1,0 +1,224 @@
+{
+  "documentaires": [],
+  "decouvertes": ["barrage-de-marib"],
+  "id": "saba-himyar",
+  "label": "Saba et Himyar (Arabie du Sud)",
+  "tier": 2,
+  "region": "peninsule-arabique",
+  "period": "vers -800 à 525",
+  "start": -800,
+  "end": 525,
+  "color": "#d4a017",
+  "trackId": "arabie",
+  "row": 1,
+  "isRiver": false,
+  "capitale": "Marib, puis Zafar",
+  "description": "Les royaumes caravaniers de l’« Arabie heureuse », dans l’actuel Yémen, enrichis par le commerce de l’encens : Saba, avec son grand barrage de Marib, puis Himyar, qui unifie le sud de l’Arabie.",
+  "territories": ["Saba", "Qataban", "Hadramaut", "Himyarite Kingdom"],
+  "reperes": {
+    "capitale": { "valeur": "Marib (Saba), puis Zafar (Himyar)" },
+    "regimes": {
+      "valeur": "Royaumes",
+      "precision": "Saba, Qataban, Hadramaout, Ma’in, puis Himyar, qui les unifie à la fin du IIIe siècle"
+    },
+    "langues": { "valeur": "Sudarabique ancien", "precision": "écrit dans un alphabet propre aux lettres géométriques" },
+    "religion": {
+      "valeur": "Polythéisme, puis monothéisme",
+      "precision": "dieu Almaqah à Saba ; vers 380, les rois de Himyar adoptent un monothéisme proche du judaïsme"
+    },
+    "apogee": { "valeur": "Ier millénaire av. J.-C.", "precision": "au temps de la grande richesse de l’encens" },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": { "valeur": "Pièces d’argent", "precision": "imitées au départ des monnaies d’Athènes" },
+    "duree": { "valeur": "Plus de 1 300 ans" },
+    "aujourdhui": { "valeur": "Yémen", "precision": "et le sud-ouest de l’Arabie saoudite" }
+  },
+  "essentiel": [
+    "Dans le sud-ouest de l’Arabie, plusieurs royaumes s’enrichissent du commerce de l’encens et de la myrrhe, transportés à dos de chameau vers la Méditerranée par la [[route-de-l-encens|route de l’encens]].",
+    "Les Romains appellent cette région l’« Arabie heureuse » ; à Marib, la capitale de Saba, un [[barrage-de-marib|grand barrage]] irrigue l’oasis pendant plus d’un millénaire.",
+    "La Bible et le Coran racontent la visite de la [[reine-de-saba|reine de Saba]] au roi Salomon ; aucune trace archéologique ne permet de dire qui elle était.",
+    "En 25 av. J.-C., une armée romaine tente de conquérir le pays, sans succès.",
+    "Himyar unifie le sud de l’Arabie vers la fin du IIIe siècle ; ses rois adoptent un monothéisme proche du judaïsme, avant la conquête du pays par le royaume chrétien d’Aksoum en 525."
+  ],
+  "datesCles": [
+    {
+      "annee": -700,
+      "evenement": "Karib’il Watar",
+      "info": "Vers 700 av. J.-C., ce roi de Saba soumet les royaumes voisins, comme le racontent ses grandes inscriptions."
+    },
+    {
+      "annee": -25,
+      "evenement": "Expédition romaine",
+      "info": "Le préfet d’Égypte Aelius Gallus échoue devant Marib."
+    },
+    {
+      "annee": -110,
+      "evenement": "Naissance de Himyar",
+      "info": "Vers 110 av. J.-C., le royaume de Himyar apparaît dans les hautes terres du sud."
+    },
+    {
+      "annee": 275,
+      "evenement": "Himyar unifie le Sud",
+      "info": "Vers la fin du IIIe siècle, Himyar annexe Saba puis le Hadramaout."
+    },
+    {
+      "annee": 380,
+      "evenement": "Monothéisme",
+      "info": "Vers 380, les rois de Himyar abandonnent les anciens dieux pour un dieu unique."
+    },
+    {
+      "annee": 523,
+      "evenement": "Massacre de Najran",
+      "info": "Le roi juif Yusuf (Dhu Nuwas) fait massacrer les chrétiens de Najran.",
+      "ref": "massacre-de-najran"
+    },
+    {
+      "annee": 525,
+      "evenement": "Conquête aksoumite",
+      "info": "Le royaume chrétien d’Aksoum envahit le pays et met fin au royaume de Himyar."
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "Les royaumes caravaniers",
+      "debut": -800,
+      "fin": -110,
+      "resume": "Saba domine, puis partage le Sud avec Qataban, le Hadramaout et Ma’in ; l’encens fait leur richesse.",
+      "evenements": [{ "annee": -700, "evenement": "Karib’il Watar" }]
+    },
+    {
+      "nom": "Rivalités et essor de Himyar",
+      "debut": -110,
+      "fin": 275,
+      "resume": "Le commerce passe de plus en plus par la mer ; Himyar s’impose face à Saba.",
+      "evenements": [{ "annee": -25, "evenement": "Expédition d’Aelius Gallus" }]
+    },
+    {
+      "nom": "Le royaume de Himyar",
+      "debut": 275,
+      "fin": 525,
+      "resume": "Himyar unifie le sud de l’Arabie, adopte le monothéisme et étend son influence sur l’Arabie centrale, avant la conquête aksoumite.",
+      "evenements": [
+        { "annee": 380, "evenement": "Monothéisme" },
+        { "annee": 523, "evenement": "Massacre de Najran", "ref": "massacre-de-najran" }
+      ]
+    }
+  ],
+  "regimes": [
+    { "id": "royaumes", "nom": "Royaumes de l’Arabie du Sud", "debut": -800, "fin": 275 },
+    { "id": "himyar", "nom": "Royaume de Himyar", "debut": 275, "fin": 525 }
+  ],
+  "dynasties": [
+    {
+      "id": "rois",
+      "nom": "Quelques rois connus",
+      "debut": -700,
+      "fin": 525,
+      "note": "Les dates des rois sud-arabiques sont très incertaines."
+    }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Karib’il Watar",
+      "titre": "Mukarrib (roi) de Saba",
+      "debut": -700,
+      "fin": -680,
+      "dynastie": "rois",
+      "note": "dates approximatives ; unifie le Sud",
+      "cle": true
+    },
+    {
+      "nom": "Shammar Yuhar’ish",
+      "titre": "Roi de Himyar",
+      "debut": 275,
+      "fin": 310,
+      "dynastie": "rois",
+      "note": "dates approximatives ; achève l’unification",
+      "cle": true
+    },
+    {
+      "nom": "Abikarib As’ad",
+      "titre": "Roi de Himyar",
+      "debut": 390,
+      "fin": 420,
+      "dynastie": "rois",
+      "note": "dates approximatives ; étend son pouvoir en Arabie centrale",
+      "cle": true
+    },
+    {
+      "nom": "Yusuf As’ar Yath’ar (Dhu Nuwas)",
+      "titre": "Roi de Himyar",
+      "debut": 522,
+      "fin": 525,
+      "dynastie": "rois",
+      "note": "roi converti au judaïsme ; tué lors de l’invasion aksoumite",
+      "cle": true
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "La reine de Saba",
+      "role": "Reine légendaire",
+      "description": "Selon la Bible et le Coran, elle rend visite au roi Salomon avec des présents d’or et d’aromates. Sa réalité historique n’est pas établie.",
+      "dates": "Xe siècle av. J.-C. selon la tradition",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Reine_de_Saba",
+      "ref": "reine-de-saba"
+    },
+    {
+      "nom": "Aelius Gallus",
+      "role": "Préfet romain d’Égypte",
+      "description": "Envoyé par Auguste, il conduit en 25 av. J.-C. une expédition qui échoue devant Marib, épuisée par la chaleur et la maladie.",
+      "dates": "Ier siècle av. J.-C.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Aelius_Gallus"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Expédition d’Aelius Gallus",
+      "annee": -25,
+      "adversaires": ["Empire romain (Aelius Gallus)"],
+      "allies": [],
+      "morts": "Peu de morts au combat ; l’armée romaine est décimée par la maladie et la soif",
+      "vainqueur": "Royaumes d’Arabie du Sud",
+      "consequences": "Après six mois de marche, l’armée romaine assiège Marib pendant six jours, puis doit rebrousser chemin. Rome renonce à conquérir l’Arabie du Sud et préfère commercer par la mer.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Aelius_Gallus"
+    },
+    {
+      "nom": "Conquête aksoumite de Himyar",
+      "annee": 525,
+      "adversaires": ["Royaume d’Aksoum"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Royaume d’Aksoum",
+      "consequences": "Le roi d’Aksoum Kaleb, soutenu par Byzance, débarque au Yémen ; le roi Yusuf est tué. Le pays passe sous la domination de chefs chrétiens venus d’Aksoum, puis des Perses (570).",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Royaume_himyarite"
+    }
+  ],
+  "sciences": "Les Sudarabiques sont des maîtres de l’hydraulique : le barrage de Marib, long de près de 600 mètres, retient l’eau des pluies de mousson pour irriguer des milliers d’hectares. Ils bâtissent des temples et des villes de pierre aux maisons à plusieurs étages, et gravent des milliers d’inscriptions.",
+  "croyancesText": "Chaque royaume a son dieu principal : Almaqah à Saba, honoré dans le grand temple de Marib, le « Mahram Bilqis ». Vers 380, les rois de Himyar abandonnent ces dieux pour le culte d’un dieu unique, le « Seigneur du ciel ». Une partie de l’élite adopte le judaïsme, tandis que le christianisme progresse, notamment à Najran.",
+  "diplomatie": "Les royaumes du Sud vendent l’encens et la myrrhe aux Égyptiens, aux Grecs, aux Romains et aux Perses. Au VIe siècle, Himyar est pris dans la rivalité entre l’Empire byzantin, allié d’Aksoum, et la Perse sassanide.",
+  "societe": "Les royaumes sont formés de tribus et de communautés agricoles dirigées par des chefs, sous l’autorité d’un roi. Les inscriptions mentionnent des assemblées, des temples propriétaires de terres et de nombreux travaux d’irrigation collectifs.",
+  "economie": "Encens et myrrhe, agriculture irriguée en terrasses, commerce caravanier puis maritime avec l’Inde et l’Afrique de l’Est.",
+  "arts": "Statues de bronze et d’albâtre, stèles funéraires aux visages stylisés, inscriptions monumentales.",
+  "quotidien": "L’encens, résine d’un arbre qui pousse dans le sud de l’Arabie, était brûlé dans tous les temples du monde antique : il valait très cher.",
+  "heritage": [
+    {
+      "titre": "Le barrage de Marib",
+      "texte": "Ses vestiges sont inscrits au patrimoine mondial avec les sites du royaume de Saba (2023)."
+    },
+    {
+      "titre": "La reine de Saba",
+      "texte": "Revendiquée par les traditions yéménite et éthiopienne, elle reste une figure majeure de la littérature et de l’art."
+    }
+  ],
+  "aSavoir": [
+    "La rupture finale du barrage de Marib, vers 570, est évoquée dans le Coran ; elle aurait poussé des tribus à émigrer vers le nord."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Royaume_de_Saba",
+    "https://fr.wikipedia.org/wiki/Royaume_himyarite",
+    {
+      "titre": "Encyclopædia Britannica — Sabaʾ",
+      "url": "https://www.britannica.com/place/Saba-ancient-kingdom-Arabia"
+    }
+  ]
+}

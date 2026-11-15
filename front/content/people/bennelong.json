@@ -1,0 +1,16 @@
+{
+  "id": "bennelong",
+  "nom": "Bennelong",
+  "role": "Intermédiaire entre les Wangal et les colons",
+  "roles": ["Intermédiaire", "Voyageur"],
+  "dates": "vers 1764 → 1813",
+  "mort": 1813,
+  "description": "Homme du peuple wangal, de la région de Sydney, il devient l’intermédiaire entre les Aborigènes et le premier gouverneur de la colonie, Arthur Phillip.",
+  "essentiel": [
+    "Capturé sur ordre du gouverneur en 1789, il s’échappe, puis revient de lui-même discuter avec les colons.",
+    "Le gouverneur lui fait bâtir une hutte sur une pointe de la baie, aujourd’hui la pointe Bennelong, où se dresse l’Opéra de Sydney.",
+    "En 1792, il part pour l’Angleterre avec le gouverneur.",
+    "Revenu en 1795, il reste partagé entre les deux mondes."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bennelong"
+}

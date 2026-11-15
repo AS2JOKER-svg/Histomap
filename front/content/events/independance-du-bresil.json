@@ -1,0 +1,19 @@
+{
+  "id": "independance-du-bresil",
+  "nom": "Indépendance du Brésil",
+  "annee": 1822,
+  "dates": "7 septembre 1822",
+  "lieu": "Bords de l’Ipiranga, près de São Paulo (Brésil)",
+  "description": "Le prince Pierre, fils du roi du Portugal, proclame l’indépendance du Brésil ; il devient l’empereur Pierre Ier.",
+  "sections": [
+    {
+      "titre": "Pourquoi ?",
+      "texte": "Après le retour du roi au Portugal en 1821, les Cortes de Lisbonne veulent rendre au Brésil son statut de colonie ; les élites brésiliennes s’y opposent."
+    },
+    {
+      "titre": "Une indépendance sans république",
+      "texte": "Contrairement à ses voisins, le Brésil devient un empire, gouverné par une branche de la famille royale portugaise jusqu’en 1889."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Ind%C3%A9pendance_du_Br%C3%A9sil"
+}

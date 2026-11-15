@@ -1,0 +1,242 @@
+{
+  "documentaires": [],
+  "decouvertes": [],
+  "id": "wisigoths",
+  "label": "Royaume wisigoth",
+  "tier": 1,
+  "region": "peninsule-iberique",
+  "period": "418 à 711",
+  "start": 418,
+  "end": 711,
+  "trackId": "iberie_nord",
+  "row": 9,
+  "isRiver": false,
+  "capitale": "Toulouse, puis Tolède",
+  "description": "Le royaume fondé par les Wisigoths, peuple germanique, d’abord dans le sud-ouest de la Gaule autour de Toulouse, puis en Espagne autour de Tolède, jusqu’à la conquête musulmane de 711.",
+  "territories": ["Visigoths", "Visigothic Kingdom"],
+  "reperes": {
+    "capitale": { "valeur": "Toulouse, puis Tolède", "precision": "Toulouse jusqu’en 507, Tolède à partir des années 560" },
+    "regimes": {
+      "valeur": "Royauté élective",
+      "precision": "le roi est élu par les nobles et les évêques, ce qui provoque de nombreux complots"
+    },
+    "langues": { "valeur": "Latin et gotique", "precision": "le latin l’emporte peu à peu" },
+    "religion": {
+      "valeur": "Christianisme arien, puis catholique",
+      "precision": "conversion du roi Reccared au catholicisme en 587"
+    },
+    "apogee": { "valeur": "Règne de Léovigild (568 → 586)", "precision": "presque toute la péninsule Ibérique est unifiée" },
+    "population": { "valeur": "Inconnue", "precision": "les Wisigoths sont une petite minorité parmi les Hispano-Romains" },
+    "monnaie": { "valeur": "Tremissis d’or" },
+    "duree": { "valeur": "Environ 290 ans" },
+    "aujourdhui": { "valeur": "Espagne, Portugal et sud-ouest de la France" }
+  },
+  "essentiel": [
+    "Peuple germanique, les Wisigoths entrent dans l’Empire romain en 376 ; leur roi Alaric pille Rome en 410.",
+    "En 418, Rome les installe en Aquitaine : ils fondent un royaume autour de Toulouse et combattent Attila aux [[bataille-des-champs-catalauniques|champs Catalauniques]] (451).",
+    "Battus par [[clovis|Clovis]] à Vouillé en 507, ils perdent la Gaule et se replient en Espagne, où Léovigild fait de Tolède leur capitale et unifie presque toute la péninsule.",
+    "En 587, le roi Reccared abandonne l’arianisme pour le catholicisme ; le savant [[isidore-de-seville|Isidore de Séville]] écrit une encyclopédie lue pendant tout le Moyen Âge.",
+    "Affaibli par les luttes pour le trône, le royaume s’effondre en 711 face aux armées musulmanes ; seul un petit royaume chrétien survit au nord, dans les Asturies."
+  ],
+  "datesCles": [
+    {
+      "annee": 418,
+      "evenement": "Royaume de Toulouse",
+      "info": "Rome installe les Wisigoths en Aquitaine comme alliés."
+    },
+    {
+      "annee": 451,
+      "evenement": "Champs Catalauniques",
+      "info": "Le roi Théodoric Ier meurt en combattant Attila aux côtés des Romains.",
+      "ref": "bataille-des-champs-catalauniques"
+    },
+    {
+      "annee": 475,
+      "evenement": "Code d’Euric",
+      "info": "Le roi Euric fait mettre par écrit les lois des Wisigoths."
+    },
+    {
+      "annee": 507,
+      "evenement": "Vouillé",
+      "info": "Clovis bat et tue Alaric II ; les Wisigoths perdent presque toute la Gaule."
+    },
+    {
+      "annee": 585,
+      "evenement": "Les Suèves",
+      "info": "Léovigild conquiert le royaume suève, dans le nord-ouest de la péninsule."
+    },
+    { "annee": 589, "evenement": "Concile de Tolède", "info": "Le royaume adopte officiellement le catholicisme." },
+    {
+      "annee": 654,
+      "evenement": "Liber Iudiciorum",
+      "info": "Un code de lois commun s’applique désormais aux Goths et aux Romains."
+    },
+    {
+      "annee": 711,
+      "evenement": "Guadalete",
+      "info": "Le roi Rodéric est tué face à l’armée de Tariq ibn Ziyad ; le royaume s’effondre."
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "Le royaume de Toulouse",
+      "debut": 418,
+      "fin": 507,
+      "resume": "Les Wisigoths gouvernent le sud-ouest de la Gaule, puis s’étendent en Espagne.",
+      "evenements": [
+        { "annee": 451, "evenement": "Champs Catalauniques", "ref": "bataille-des-champs-catalauniques" },
+        { "annee": 507, "evenement": "Défaite de Vouillé" }
+      ]
+    },
+    {
+      "nom": "Le royaume de Tolède",
+      "debut": 507,
+      "fin": 711,
+      "resume": "Installés en Espagne, les Wisigoths unifient la péninsule, se convertissent au catholicisme et fusionnent peu à peu avec les Hispano-Romains.",
+      "evenements": [
+        { "annee": 585, "evenement": "Conquête du royaume suève" },
+        { "annee": 589, "evenement": "IIIe concile de Tolède" },
+        { "annee": 711, "evenement": "Bataille du Guadalete" }
+      ]
+    }
+  ],
+  "regimes": [{ "id": "royaute", "nom": "Royauté élective", "debut": 418, "fin": 711 }],
+  "dynasties": [{ "id": "rois", "nom": "Les rois wisigoths", "debut": 418, "fin": 711, "note": "Sélection." }],
+  "dirigeants": [
+    {
+      "nom": "Théodoric Ier",
+      "titre": "Roi",
+      "debut": 418,
+      "fin": 451,
+      "dynastie": "rois",
+      "note": "tué aux champs Catalauniques",
+      "cle": true
+    },
+    {
+      "nom": "Euric",
+      "titre": "Roi",
+      "debut": 466,
+      "fin": 484,
+      "dynastie": "rois",
+      "note": "étend le royaume en Espagne",
+      "cle": true
+    },
+    { "nom": "Alaric II", "titre": "Roi", "debut": 484, "fin": 507, "dynastie": "rois", "note": "tué à Vouillé" },
+    {
+      "nom": "Léovigild",
+      "titre": "Roi",
+      "debut": 568,
+      "fin": 586,
+      "dynastie": "rois",
+      "note": "unifie la péninsule",
+      "cle": true
+    },
+    {
+      "nom": "Reccared Ier",
+      "titre": "Roi",
+      "debut": 586,
+      "fin": 601,
+      "dynastie": "rois",
+      "note": "se convertit au catholicisme",
+      "cle": true
+    },
+    {
+      "nom": "Receswinthe",
+      "titre": "Roi",
+      "debut": 649,
+      "fin": 672,
+      "dynastie": "rois",
+      "note": "promulgue le Liber Iudiciorum"
+    },
+    {
+      "nom": "Rodéric",
+      "titre": "Roi",
+      "debut": 710,
+      "fin": 711,
+      "dynastie": "rois",
+      "note": "dernier roi, tué au Guadalete",
+      "cle": true
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Alaric Ier",
+      "role": "Roi des Wisigoths",
+      "description": "Il pille Rome en 410, avant la fondation du royaume.",
+      "dates": "vers 370 → 410",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Alaric_Ier"
+    },
+    {
+      "nom": "Isidore de Séville",
+      "role": "Évêque et savant",
+      "description": "L’auteur des Étymologies, une encyclopédie du savoir antique.",
+      "dates": "vers 560 → 636",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Isidore_de_S%C3%A9ville",
+      "ref": "isidore-de-seville"
+    },
+    {
+      "nom": "Clovis",
+      "role": "Roi des Francs",
+      "description": "Il bat les Wisigoths à Vouillé en 507.",
+      "dates": "vers 466 → 511",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Clovis_Ier",
+      "ref": "clovis"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Bataille des champs Catalauniques",
+      "annee": 451,
+      "adversaires": ["Huns d’Attila et leurs alliés"],
+      "allies": ["Empire romain d’Occident (Aetius)", "Francs", "Alains"],
+      "morts": "Très nombreux mais inconnus",
+      "vainqueur": "Romains et Wisigoths",
+      "consequences": "Attila doit se retirer de Gaule ; le roi wisigoth Théodoric Ier est tué pendant la bataille.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_des_champs_Catalauniques"
+    },
+    {
+      "nom": "Bataille de Vouillé",
+      "annee": 507,
+      "adversaires": ["Francs (Clovis)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Francs (Clovis)",
+      "consequences": "Alaric II est tué ; les Wisigoths perdent l’Aquitaine et se replient en Espagne, ne gardant en Gaule que la Septimanie (Languedoc).",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Vouill%C3%A9"
+    },
+    {
+      "nom": "Conquête omeyyade de l’Hispanie",
+      "annee": 711,
+      "adversaires": ["Califat omeyyade (Tariq ibn Ziyad, puis Musa ibn Nusayr)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Omeyyades (Tariq ibn Ziyad)",
+      "consequences": "Le roi Rodéric est tué au Guadalete ; en quelques années, presque toute la péninsule passe sous domination musulmane. Seules les montagnes du nord résistent.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Conqu%C3%AAte_musulmane_de_la_p%C3%A9ninsule_Ib%C3%A9rique"
+    }
+  ],
+  "sciences": "Isidore de Séville rassemble dans ses Étymologies le savoir antique sur la grammaire, la médecine, l’astronomie ou la géographie : ce livre sera l’une des encyclopédies les plus lues du Moyen Âge. Les orfèvres wisigoths fabriquent des couronnes votives d’or et de pierres précieuses. Les lois sont mises par écrit en latin.",
+  "croyancesText": "Les Wisigoths sont d’abord chrétiens ariens, ce qui les sépare de la population catholique. En 587, le roi Reccared se convertit au catholicisme, adopté officiellement au IIIe concile de Tolède (589). Les conciles de Tolède adoptent ensuite des lois de plus en plus dures contre les Juifs, contraints à la conversion ou persécutés.",
+  "diplomatie": "Les Wisigoths sont d’abord des alliés de Rome, puis des voisins rivaux des Francs, qui les chassent de Gaule. En Espagne, ils combattent les Suèves, les Basques et les Byzantins installés sur la côte sud. Leurs querelles pour le trône facilitent la conquête musulmane en 711.",
+  "societe": "Une petite aristocratie guerrière d’origine gothique domine une population hispano-romaine beaucoup plus nombreuse. Les mariages entre Goths et Romains, d’abord interdits, sont autorisés au VIe siècle. Le roi est élu, et beaucoup de rois sont assassinés ou renversés.",
+  "economie": "Agriculture et élevage hérités de l’Hispanie romaine, commerce méditerranéen en déclin.",
+  "arts": "Couronnes votives du trésor de Guarrazar, églises de pierre (San Pedro de la Nave), fibules en forme d’aigle.",
+  "quotidien": "Les lois wisigothiques règlent la vie quotidienne : héritages, mariages, dettes, et même la punition des voleurs de ruches.",
+  "heritage": [
+    {
+      "titre": "Le mythe de la Reconquista",
+      "texte": "Les rois chrétiens du Moyen Âge, à commencer par ceux des Asturies, se présentent comme les héritiers des rois wisigoths."
+    },
+    {
+      "titre": "Le droit",
+      "texte": "Le Liber Iudiciorum, traduit en castillan au XIIIe siècle sous le nom de Fuero Juzgo, est resté une source du droit espagnol pendant des siècles."
+    }
+  ],
+  "aSavoir": [
+    "Les couronnes votives du trésor de Guarrazar, retrouvées en 1858 près de Tolède, portent parfois le nom du roi qui les a offertes, comme Receswinthe."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Royaume_wisigoth",
+    { "titre": "Encyclopædia Britannica — Visigoth", "url": "https://www.britannica.com/topic/Visigoth" }
+  ]
+}

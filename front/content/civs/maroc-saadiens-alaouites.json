@@ -1,0 +1,295 @@
+{
+  "documentaires": [],
+  "decouvertes": [],
+  "id": "maroc-saadiens-alaouites",
+  "label": "Maroc (Saadiens et Alaouites)",
+  "tier": 2,
+  "region": "afrique-nord",
+  "period": "1549 à 1912",
+  "start": 1549,
+  "end": 1912,
+  "color": "#c62828",
+  "trackId": "maghreb",
+  "row": 2,
+  "isRiver": false,
+  "capitale": "Marrakech, Meknès, Fès",
+  "description": "Le Maroc des dynasties chérifiennes : les Saadiens, vainqueurs des Portugais, puis les Alaouites, qui règnent encore aujourd’hui, préservent l’indépendance du pays jusqu’au protectorat de 1912.",
+  "territories": ["Morocco", "Watassid Morocco"],
+  "reperes": {
+    "capitale": {
+      "valeur": "Marrakech, Meknès, Fès",
+      "precision": "Marrakech sous les Saadiens, Meknès sous Moulay Ismaïl, puis Fès et Marrakech"
+    },
+    "regimes": {
+      "valeur": "Sultanat chérifien",
+      "precision": "les sultans descendent du prophète Mahomet (chérifs), ce qui fonde leur autorité"
+    },
+    "langues": { "valeur": "Arabe et berbère (amazigh)" },
+    "religion": { "valeur": "Islam sunnite", "precision": "le sultan est aussi « commandeur des croyants »" },
+    "apogee": {
+      "valeur": "Règnes d’Ahmad al-Mansour et de Moulay Ismaïl",
+      "precision": "fin du XVIe et fin du XVIIe siècle"
+    },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": { "valeur": "Dinar d’or, puis mithqal" },
+    "duree": { "valeur": "Plus de 360 ans", "precision": "les Alaouites règnent toujours au Maroc" },
+    "aujourdhui": { "valeur": "Maroc" }
+  },
+  "essentiel": [
+    "Au XVIe siècle, les Saadiens, une famille qui se dit descendante du Prophète, mènent la lutte contre les forts portugais de la côte et prennent le pouvoir à Fès en 1549.",
+    "À la [[bataille-des-trois-rois|bataille des Trois Rois]] (1578), ils écrasent l’armée portugaise : le roi Sébastien et deux autres souverains y meurent.",
+    "[[ahmad-al-mansour|Ahmad al-Mansour]] envoie une armée à travers le Sahara qui bat l’Empire songhaï à [[bataille-de-tondibi|Tondibi]] (1591).",
+    "Au XVIIe siècle, les Alaouites prennent le pouvoir ; [[moulay-ismail|Moulay Ismaïl]] (1672-1727) bâtit Meknès, crée une puissante armée et reprend des ports aux Européens.",
+    "Au XIXe siècle, la France et l’Espagne augmentent leur pression ; par le [[traite-de-fes|traité de Fès]] (1912), le Maroc devient un protectorat. La dynastie alaouite règne toujours."
+  ],
+  "datesCles": [
+    {
+      "annee": 1549,
+      "evenement": "Les Saadiens à Fès",
+      "info": "Mohammed ash-Sheikh prend Fès et met fin à la dynastie précédente."
+    },
+    {
+      "annee": 1578,
+      "evenement": "Bataille des Trois Rois",
+      "info": "Victoire écrasante sur l’armée portugaise du roi Sébastien.",
+      "ref": "bataille-des-trois-rois"
+    },
+    {
+      "annee": 1591,
+      "evenement": "Tondibi",
+      "info": "L’armée marocaine bat l’Empire songhaï, au bord du Niger.",
+      "ref": "bataille-de-tondibi"
+    },
+    { "annee": 1666, "evenement": "Les Alaouites", "info": "Moulay Rachid prend Fès et fonde la dynastie alaouite." },
+    {
+      "annee": 1672,
+      "evenement": "Moulay Ismaïl",
+      "info": "Début d’un règne de 55 ans, l’un des plus longs de l’histoire du Maroc."
+    },
+    {
+      "annee": 1777,
+      "evenement": "Les États-Unis",
+      "info": "Le sultan Mohammed III est l’un des premiers souverains à reconnaître les États-Unis."
+    },
+    {
+      "annee": 1844,
+      "evenement": "Bataille d’Isly",
+      "info": "L’armée française bat l’armée marocaine, qui soutenait l’émir algérien Abd el-Kader."
+    },
+    {
+      "annee": 1912,
+      "evenement": "Traité de Fès",
+      "info": "Le Maroc devient un protectorat français ; l’Espagne obtient une zone au nord et au sud.",
+      "ref": "traite-de-fes"
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "Les Saadiens",
+      "debut": 1549,
+      "fin": 1659,
+      "resume": "Les Saadiens chassent les Portugais de plusieurs places, gagnent la bataille des Trois Rois et conquièrent Tombouctou, avant de se déchirer.",
+      "evenements": [
+        { "annee": 1578, "evenement": "Trois Rois", "ref": "bataille-des-trois-rois" },
+        { "annee": 1591, "evenement": "Tondibi", "ref": "bataille-de-tondibi" }
+      ]
+    },
+    {
+      "nom": "Les premiers Alaouites",
+      "debut": 1659,
+      "fin": 1790,
+      "resume": "Les Alaouites réunifient le pays ; Moulay Ismaïl impose un pouvoir fort et Mohammed III ouvre le commerce avec l’Europe.",
+      "evenements": [
+        { "annee": 1666, "evenement": "Prise de Fès par Moulay Rachid" },
+        { "annee": 1684, "evenement": "Reprise de Tanger aux Anglais" },
+        { "annee": 1777, "evenement": "Reconnaissance des États-Unis" }
+      ]
+    },
+    {
+      "nom": "Face à l’Europe",
+      "debut": 1790,
+      "fin": 1912,
+      "resume": "Les sultans tentent de moderniser l’armée et l’État face à la pression française et espagnole, jusqu’au protectorat.",
+      "evenements": [
+        { "annee": 1844, "evenement": "Isly" },
+        { "annee": 1860, "evenement": "Défaite face à l’Espagne" },
+        { "annee": 1912, "evenement": "Traité de Fès", "ref": "traite-de-fes" }
+      ]
+    }
+  ],
+  "regimes": [{ "id": "sultanat", "nom": "Sultanat chérifien", "debut": 1549, "fin": 1912 }],
+  "dynasties": [
+    { "id": "saadiens", "nom": "Les Saadiens", "debut": 1549, "fin": 1659, "note": "Sélection." },
+    {
+      "id": "alaouites",
+      "nom": "Les Alaouites",
+      "debut": 1666,
+      "fin": 1912,
+      "note": "Sélection ; la dynastie règne toujours."
+    }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Mohammed ash-Sheikh",
+      "titre": "Sultan",
+      "debut": 1549,
+      "fin": 1557,
+      "dynastie": "saadiens",
+      "note": "prend Fès",
+      "cle": true
+    },
+    { "nom": "Abdallah al-Ghalib", "titre": "Sultan", "debut": 1557, "fin": 1574, "dynastie": "saadiens" },
+    {
+      "nom": "Abd al-Malik",
+      "titre": "Sultan",
+      "debut": 1576,
+      "fin": 1578,
+      "dynastie": "saadiens",
+      "note": "meurt pendant la bataille des Trois Rois"
+    },
+    {
+      "nom": "Ahmad al-Mansour",
+      "titre": "Sultan",
+      "surnom": "le Victorieux",
+      "debut": 1578,
+      "fin": 1603,
+      "dynastie": "saadiens",
+      "personne": "ahmad-al-mansour",
+      "cle": true
+    },
+    {
+      "nom": "Moulay Rachid",
+      "titre": "Sultan",
+      "debut": 1666,
+      "fin": 1672,
+      "dynastie": "alaouites",
+      "note": "fondateur de la dynastie",
+      "cle": true
+    },
+    {
+      "nom": "Moulay Ismaïl",
+      "titre": "Sultan",
+      "debut": 1672,
+      "fin": 1727,
+      "dynastie": "alaouites",
+      "personne": "moulay-ismail",
+      "cle": true
+    },
+    {
+      "nom": "Mohammed III",
+      "titre": "Sultan",
+      "debut": 1757,
+      "fin": 1790,
+      "dynastie": "alaouites",
+      "note": "fonde le port d’Essaouira",
+      "cle": true
+    },
+    {
+      "nom": "Moulay Hassan Ier",
+      "titre": "Sultan",
+      "debut": 1873,
+      "fin": 1894,
+      "dynastie": "alaouites",
+      "note": "tente de moderniser l’armée"
+    },
+    {
+      "nom": "Moulay Abdelhafid",
+      "titre": "Sultan",
+      "debut": 1908,
+      "fin": 1912,
+      "dynastie": "alaouites",
+      "note": "signe le traité de Fès"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Ahmad al-Mansour",
+      "role": "Sultan saadien",
+      "description": "Le vainqueur de la bataille des Trois Rois et le conquérant de Tombouctou.",
+      "dates": "1549 → 1603",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Ahmed_al-Mansour",
+      "ref": "ahmad-al-mansour"
+    },
+    {
+      "nom": "Moulay Ismaïl",
+      "role": "Sultan alaouite",
+      "description": "Le bâtisseur de Meknès, contemporain de Louis XIV.",
+      "dates": "vers 1645 → 1727",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Moulay_Ismail",
+      "ref": "moulay-ismail"
+    },
+    {
+      "nom": "Sébastien Ier",
+      "role": "Roi de Portugal",
+      "description": "Jeune roi qui veut conquérir le Maroc ; il disparaît à la bataille des Trois Rois, ce qui fait naître au Portugal une légende de son retour.",
+      "dates": "1554 → 1578",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/S%C3%A9bastien_Ier_(roi_de_Portugal)"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Bataille des Trois Rois",
+      "annee": 1578,
+      "adversaires": ["Royaume de Portugal (Sébastien Ier)", "Le sultan déchu al-Mutawakkil"],
+      "allies": [],
+      "morts": "Plusieurs milliers ; une grande partie de la noblesse portugaise est tuée ou capturée",
+      "vainqueur": "Saadiens",
+      "consequences": "Le roi du Portugal, le sultan régnant et le sultan déchu meurent tous les trois. Le Portugal, sans héritier, passe en 1580 sous la couronne d’Espagne ; le Maroc s’enrichit des rançons.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_des_Trois_Rois"
+    },
+    {
+      "nom": "Bataille de Tondibi",
+      "annee": 1591,
+      "adversaires": ["Empire songhaï (askia Ishaq II)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Saadiens",
+      "consequences": "Les fusiliers marocains de Djouder écrasent l’armée songhaï ; Gao et Tombouctou sont prises, mais le Maroc ne parvient pas à contrôler durablement la région.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Tondibi"
+    },
+    {
+      "nom": "Bataille d’Isly",
+      "annee": 1844,
+      "adversaires": ["France (Bugeaud)"],
+      "allies": [],
+      "morts": "Plusieurs centaines côté marocain",
+      "vainqueur": "France",
+      "consequences": "Le sultan cesse de soutenir l’émir algérien Abd el-Kader, qui résiste à la conquête française de l’Algérie.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_d%27Isly"
+    },
+    {
+      "nom": "Guerre hispano-marocaine (1859-1860)",
+      "annee": 1859,
+      "adversaires": ["Espagne"],
+      "allies": [],
+      "morts": "Plusieurs milliers",
+      "vainqueur": "Espagne",
+      "consequences": "L’Espagne prend Tétouan ; le Maroc doit payer une lourde indemnité et céder du territoire autour de Ceuta.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_hispano-marocaine_(1859-1860)"
+    }
+  ],
+  "sciences": "Les sultans construisent de grands palais et des villes impériales : le palais El Badi à Marrakech, décoré de marbre italien payé, selon la tradition, en sucre, et les immenses remparts, greniers et écuries de Meknès. Le Maroc exporte du sucre, raffiné dans des moulins de la région de Marrakech.",
+  "croyancesText": "Les sultans, descendants du Prophète, sont à la fois chefs politiques et chefs religieux. Les confréries soufies et les marabouts, saints locaux, ont une grande influence dans les campagnes. Une importante communauté juive vit dans les villes, dans des quartiers appelés mellahs.",
+  "diplomatie": "Le Maroc est le seul pays d’Afrique du Nord à échapper à la domination ottomane. Il combat les Portugais et les Espagnols sur ses côtes, échange des ambassades avec la France de Louis XIV et l’Angleterre, et reconnaît très tôt l’indépendance des États-Unis (1777). Au XIXe siècle, il doit céder à la pression européenne.",
+  "societe": "Le pouvoir du sultan, le makhzen, contrôle les villes et les plaines, tandis que de nombreuses tribus des montagnes restent autonomes. Moulay Ismaïl s’appuie sur une armée d’esclaves noirs, les Abid al-Bukhari, qui lui sont personnellement fidèles.",
+  "economie": "Agriculture, élevage, sucre, commerce transsaharien de l’or et du sel, puis commerce avec l’Europe par les ports atlantiques ; course en mer depuis Salé.",
+  "arts": "Tombeaux saadiens de Marrakech, palais et portes monumentales de Meknès (Bab Mansour), zelliges et stucs ciselés.",
+  "quotidien": "Dans les médinas, les artisans se regroupent par métier : tanneurs, potiers, tisserands, dinandiers.",
+  "heritage": [
+    {
+      "titre": "Une dynastie toujours régnante",
+      "texte": "Le roi actuel du Maroc appartient à la dynastie alaouite, au pouvoir depuis le XVIIe siècle."
+    },
+    { "titre": "Meknès et Marrakech", "texte": "Leurs médinas et monuments sont inscrits au patrimoine mondial." }
+  ],
+  "aSavoir": [
+    "Moulay Ismaïl aurait demandé en mariage une fille de Louis XIV, Marie-Anne de Bourbon ; le roi de France refusa."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Histoire_du_Maroc",
+    {
+      "titre": "Encyclopædia Britannica — Morocco, history",
+      "url": "https://www.britannica.com/place/Morocco/History"
+    }
+  ]
+}

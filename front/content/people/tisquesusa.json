@@ -1,0 +1,17 @@
+{
+  "id": "tisquesusa",
+  "nom": "Tisquesusa",
+  "role": "Zipa de Bacatá",
+  "roles": ["Chef"],
+  "dates": "? → 1537",
+  "mort": 1537,
+  "description": "Zipa, c’est-à-dire grand chef muisca du sud, de 1514 environ à 1537, au moment de l’arrivée des conquistadors espagnols.",
+  "reperes": [{ "label": "Règne", "valeur": "vers 1514 → 1537" }],
+  "essentiel": [
+    "Il gouverne les chefferies du sud des hauts plateaux, autour de Bacatá.",
+    "Il combat le zaque de Hunza et les Panches.",
+    "En 1537, il refuse de se soumettre aux Espagnols et se retire.",
+    "Il est tué la même année lors d’une attaque espagnole."
+  ],
+  "wikiUrl": "https://en.wikipedia.org/wiki/Tisquesusa"
+}

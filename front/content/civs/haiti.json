@@ -1,0 +1,311 @@
+{
+  "documentaires": [],
+  "decouvertes": [],
+  "id": "haiti",
+  "label": "Haïti",
+  "tier": 1,
+  "region": "amerique-centrale-caraibes",
+  "period": "1791 à 2020",
+  "start": 1791,
+  "end": 2020,
+  "trackId": "caraibes",
+  "row": 6,
+  "isRiver": false,
+  "capitale": "Port-au-Prince",
+  "color": "#5e35b1",
+  "description": "La colonie française de Saint-Domingue, où la révolte des esclaves de 1791 aboutit en 1804 à la première république noire indépendante, devenue ensuite l’un des pays les plus pauvres des Amériques.",
+  "territories": ["Haiti"],
+  "reperes": {
+    "capitale": { "valeur": "Port-au-Prince", "precision": "Cap-Haïtien est la capitale du royaume du Nord (1811-1820)" },
+    "regimes": {
+      "valeur": "Empire, royaume, puis républiques",
+      "precision": "nombreuses dictatures, dont celle des Duvalier (1957-1986)"
+    },
+    "langues": { "valeur": "Créole haïtien et français" },
+    "religion": {
+      "valeur": "Christianisme et vaudou",
+      "precision": "catholiques et protestants ; le vaudou est souvent pratiqué en même temps"
+    },
+    "population": {
+      "valeur": "Environ 11 millions en 2020",
+      "precision": "environ 550 000 habitants vers 1789, dont près de 9 sur 10 esclaves"
+    },
+    "monnaie": { "valeur": "Gourde" },
+    "duree": { "valeur": "Environ 230 ans dans cette fiche" },
+    "aujourdhui": { "valeur": "Haïti", "precision": "à l’ouest de l’île d’Hispaniola, partagée avec la République dominicaine" }
+  },
+  "essentiel": [
+    "Au XVIIIe siècle, la colonie française de Saint-Domingue est la plus riche colonie sucrière du monde ; sa richesse repose sur le travail forcé de centaines de milliers d’esclaves africains.",
+    "En août 1791, les esclaves du nord se révoltent ; l’esclavage est aboli en 1793-1794, et l’ancien esclave [[toussaint-louverture|Toussaint Louverture]] prend la tête de la colonie.",
+    "En 1802, Napoléon envoie une armée pour reprendre le contrôle ; Toussaint est déporté en France, mais les troupes de Jean-Jacques Dessalines battent les Français à Vertières. Le 1er janvier 1804, Haïti proclame son indépendance : c’est le premier État né d’une révolte d’esclaves victorieuse.",
+    "En 1825, la France exige une lourde indemnité pour reconnaître l’indépendance ; cette dette pèse sur le pays pendant des décennies. Les États-Unis occupent Haïti de 1915 à 1934.",
+    "La dictature des Duvalier (1957-1986), l’instabilité politique et des catastrophes, comme le séisme de 2010 qui fait entre 100 000 et 300 000 morts selon les estimations, laissent Haïti parmi les pays les plus pauvres du monde."
+  ],
+  "datesCles": [
+    {
+      "annee": 1791,
+      "evenement": "Révolte des esclaves",
+      "info": "Dans la nuit du 22 au 23 août, les esclaves de la plaine du Nord se soulèvent."
+    },
+    {
+      "annee": 1793,
+      "evenement": "Abolition de l’esclavage",
+      "info": "Le commissaire Sonthonax abolit l’esclavage dans la colonie ; la France l’étend à toutes ses colonies en 1794."
+    },
+    {
+      "annee": 1801,
+      "evenement": "Constitution de Toussaint",
+      "info": "Toussaint Louverture se proclame gouverneur à vie."
+    },
+    {
+      "annee": 1802,
+      "evenement": "Expédition française",
+      "info": "Napoléon envoie une armée ; Toussaint est arrêté et déporté."
+    },
+    {
+      "annee": 1804,
+      "evenement": "Indépendance",
+      "info": "Le 1er janvier, Dessalines proclame l’indépendance d’Haïti."
+    },
+    {
+      "annee": 1825,
+      "evenement": "Indemnité",
+      "info": "La France reconnaît l’indépendance contre une indemnité de 150 millions de francs."
+    },
+    {
+      "annee": 1915,
+      "evenement": "Occupation américaine",
+      "info": "Les Marines débarquent ; ils restent jusqu’en 1934."
+    },
+    { "annee": 1957, "evenement": "Duvalier", "info": "François Duvalier est élu, puis instaure une dictature." },
+    {
+      "annee": 1986,
+      "evenement": "Fin des Duvalier",
+      "info": "Jean-Claude Duvalier s’enfuit après un soulèvement populaire."
+    },
+    { "annee": 2010, "evenement": "Séisme", "info": "Un tremblement de terre dévaste Port-au-Prince." }
+  ],
+  "periodes": [
+    {
+      "nom": "La révolution",
+      "debut": 1791,
+      "fin": 1804,
+      "resume": "Les esclaves se libèrent et battent les colons, les Britanniques et l’armée de Napoléon.",
+      "evenements": [
+        { "annee": 1791, "evenement": "Révolte des esclaves" },
+        { "annee": 1793, "evenement": "Abolition de l’esclavage" },
+        { "annee": 1803, "evenement": "Bataille de Vertières" }
+      ]
+    },
+    {
+      "nom": "Le XIXe siècle",
+      "debut": 1804,
+      "fin": 1915,
+      "resume": "Le pays, divisé puis réunifié, isolé par les puissances esclavagistes, paie une lourde dette à la France.",
+      "evenements": [
+        { "annee": 1804, "evenement": "Indépendance" },
+        { "annee": 1820, "evenement": "Réunification du pays" },
+        { "annee": 1825, "evenement": "Indemnité réclamée par la France" }
+      ]
+    },
+    {
+      "nom": "Occupation et dictatures",
+      "debut": 1915,
+      "fin": 1986,
+      "resume": "Occupation américaine, puis dictature des Duvalier et de leurs milices, les « tontons macoutes ».",
+      "evenements": [
+        { "annee": 1915, "evenement": "Occupation américaine" },
+        { "annee": 1957, "evenement": "François Duvalier au pouvoir" },
+        { "annee": 1986, "evenement": "Fin des Duvalier" }
+      ]
+    },
+    {
+      "nom": "Une démocratie fragile",
+      "debut": 1986,
+      "fin": 2020,
+      "resume": "Élections, coups d’État, interventions de l’ONU et séisme de 2010.",
+      "evenements": [
+        { "annee": 1990, "evenement": "Élection d’Aristide" },
+        { "annee": 2004, "evenement": "Mission de l’ONU" },
+        { "annee": 2010, "evenement": "Séisme" }
+      ]
+    }
+  ],
+  "regimes": [
+    { "id": "revolution", "nom": "Saint-Domingue en révolution", "debut": 1791, "fin": 1804 },
+    {
+      "id": "independant",
+      "nom": "Empire, royaume et républiques",
+      "debut": 1804,
+      "fin": 1915,
+      "note": "Le pays est divisé de 1806 à 1820 entre un État au nord et une république au sud."
+    },
+    { "id": "occupation", "nom": "Occupation américaine", "debut": 1915, "fin": 1934 },
+    {
+      "id": "republique",
+      "nom": "République",
+      "debut": 1934,
+      "fin": 2020,
+      "note": "Dictature des Duvalier de 1957 à 1986."
+    }
+  ],
+  "dynasties": [{ "id": "chefs", "nom": "Chefs de l’État", "debut": 1797, "fin": 2020, "note": "Sélection." }],
+  "dirigeants": [
+    {
+      "nom": "Toussaint Louverture",
+      "titre": "Gouverneur de Saint-Domingue",
+      "debut": 1797,
+      "fin": 1802,
+      "dynastie": "chefs",
+      "note": "commandant en chef, puis gouverneur",
+      "personne": "toussaint-louverture",
+      "cle": true
+    },
+    {
+      "nom": "Jean-Jacques Dessalines",
+      "titre": "Gouverneur, puis empereur",
+      "debut": 1804,
+      "fin": 1806,
+      "dynastie": "chefs",
+      "note": "proclame l’indépendance ; assassiné en 1806",
+      "cle": true
+    },
+    {
+      "nom": "Alexandre Pétion",
+      "titre": "Président de la République (sud)",
+      "debut": 1807,
+      "fin": 1818,
+      "dynastie": "chefs"
+    },
+    {
+      "nom": "Henri Christophe",
+      "titre": "Roi du Nord",
+      "debut": 1811,
+      "fin": 1820,
+      "dynastie": "chefs",
+      "note": "président de l’État du Nord à partir de 1807",
+      "cle": true
+    },
+    {
+      "nom": "Jean-Pierre Boyer",
+      "titre": "Président",
+      "debut": 1818,
+      "fin": 1843,
+      "dynastie": "chefs",
+      "note": "réunifie le pays et accepte l’indemnité de 1825",
+      "cle": true
+    },
+    {
+      "nom": "François Duvalier",
+      "titre": "Président, puis dictateur",
+      "surnom": "« Papa Doc »",
+      "debut": 1957,
+      "fin": 1971,
+      "dynastie": "chefs"
+    },
+    {
+      "nom": "Jean-Claude Duvalier",
+      "titre": "Président, dictateur",
+      "surnom": "« Baby Doc »",
+      "debut": 1971,
+      "fin": 1986,
+      "dynastie": "chefs"
+    },
+    {
+      "nom": "Jean-Bertrand Aristide",
+      "titre": "Président",
+      "debut": 1991,
+      "fin": 2004,
+      "dynastie": "chefs",
+      "note": "renversé en 1991, rétabli en 1994, de nouveau président de 2001 à 2004"
+    },
+    {
+      "nom": "Jovenel Moïse",
+      "titre": "Président",
+      "debut": 2017,
+      "fin": 2020,
+      "dynastie": "chefs",
+      "note": "toujours en fonction à la fin de la période couverte ; assassiné en 2021"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Toussaint Louverture",
+      "role": "Chef de la révolution",
+      "description": "Ancien esclave devenu général et gouverneur de Saint-Domingue.",
+      "dates": "vers 1743 → 1803",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Toussaint_Louverture",
+      "ref": "toussaint-louverture"
+    },
+    {
+      "nom": "Jean-Jacques Dessalines",
+      "role": "Père de l’indépendance",
+      "description": "Le général qui proclame l’indépendance d’Haïti en 1804.",
+      "dates": "1758 → 1806",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Jean-Jacques_Dessalines"
+    },
+    {
+      "nom": "Sanité Belair",
+      "role": "Combattante",
+      "description": "Officière de l’armée révolutionnaire, exécutée par les Français en 1802.",
+      "dates": "1781 → 1802",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Sanit%C3%A9_Belair"
+    },
+    {
+      "nom": "Dany Laferrière",
+      "role": "Écrivain",
+      "description": "Romancier né à Port-au-Prince, élu à l’Académie française en 2013.",
+      "dates": "né en 1953",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Dany_Laferri%C3%A8re"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Révolution haïtienne",
+      "annee": 1791,
+      "adversaires": ["France (colons, puis armée de Napoléon)", "Royaume-Uni et Espagne (1793-1798)"],
+      "allies": ["Esclaves insurgés et libres de couleur"],
+      "morts": "Des dizaines de milliers de soldats européens, surtout de la fièvre jaune, et des dizaines de milliers d’habitants de la colonie",
+      "vainqueur": "Insurgés haïtiens",
+      "consequences": "Les esclaves se libèrent eux-mêmes et battent successivement les colons, les Britanniques et l’armée de Napoléon. En 1804, sur ordre de Dessalines, la plupart des Français restés dans l’île sont massacrés. L’exemple haïtien inquiète tous les pays esclavagistes.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/R%C3%A9volution_ha%C3%AFtienne"
+    },
+    {
+      "nom": "Occupation américaine d’Haïti",
+      "annee": 1915,
+      "adversaires": ["États-Unis"],
+      "allies": ["Insurgés cacos (Charlemagne Péralte)"],
+      "morts": "Plusieurs milliers d’Haïtiens",
+      "vainqueur": "États-Unis (occupation jusqu’en 1934)",
+      "consequences": "Les Marines américains occupent le pays pendant dix-neuf ans, contrôlent ses finances et imposent le travail forcé pour construire des routes, ce qui provoque la révolte des cacos (1918-1920), durement réprimée.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Occupation_d%27Ha%C3%AFti_par_les_%C3%89tats-Unis"
+    }
+  ],
+  "sciences": "Avant la révolution, la colonie possède une société savante, le Cercle des Philadelphes, fondée en 1784 au Cap-Français. Le roi Henri Christophe fait bâtir dans le nord la citadelle Laferrière, l’une des plus grandes forteresses des Amériques. En 1928, l’écrivain et médecin Jean Price-Mars fonde l’étude scientifique de la culture populaire haïtienne.",
+  "croyancesText": "Le catholicisme, longtemps religion officielle, côtoie le vaudou, une religion née des croyances africaines et de rites chrétiens, reconnu officiellement en 2003. Selon la tradition, la révolte de 1791 commence par une cérémonie au Bois-Caïman. Les Églises protestantes se développent fortement au XXe siècle.",
+  "diplomatie": "Première république noire, Haïti est longtemps isolée par les puissances esclavagistes : la France ne reconnaît son indépendance qu’en 1825, contre une lourde indemnité, et les États-Unis en 1862. En 1815-1816, le président Pétion aide Simón Bolívar, à condition qu’il abolisse l’esclavage. En 1937, des milliers d’Haïtiens vivant en République dominicaine sont massacrés sur ordre du dictateur Trujillo.",
+  "societe": "Après l’indépendance, les grandes plantations disparaissent et la plupart des Haïtiens deviennent de petits paysans. Une élite urbaine, souvent issue des anciens libres de couleur, domine la politique et le commerce. De nombreux Haïtiens émigrent vers les États-Unis, le Canada et la France.",
+  "economie": "Sucre, café et indigo à l’époque coloniale ; ensuite café et petite agriculture, puis argent envoyé par la diaspora ; la déforestation et l’érosion appauvrissent les sols.",
+  "arts": "Peinture naïve haïtienne, musique kompa, littérature de Jacques Roumain, de Frankétienne et de Dany Laferrière.",
+  "quotidien": "Le 1er janvier, jour de l’indépendance, les Haïtiens mangent la soupe joumou, autrefois réservée aux colons ; elle est inscrite en 2021 au patrimoine culturel immatériel de l’UNESCO.",
+  "heritage": [
+    {
+      "titre": "La citadelle Laferrière",
+      "texte": "Construite au début du XIXe siècle pour défendre l’indépendance, elle est inscrite avec le palais de Sans-Souci au patrimoine mondial de l’UNESCO depuis 1982."
+    },
+    {
+      "titre": "La première république noire",
+      "texte": "Haïti est le premier pays né d’une révolte d’esclaves victorieuse, un symbole pour les mouvements de libération du monde entier."
+    }
+  ],
+  "aSavoir": [
+    "Le nom « Haïti » vient de la langue des Taïnos, les premiers habitants de l’île ; on le traduit souvent par « terre des hautes montagnes »."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Histoire_d%27Ha%C3%AFti",
+    {
+      "titre": "Encyclopædia Britannica — Haiti, History",
+      "url": "https://www.britannica.com/place/Haiti/History"
+    }
+  ]
+}

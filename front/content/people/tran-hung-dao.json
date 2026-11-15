@@ -1,0 +1,16 @@
+{
+  "id": "tran-hung-dao",
+  "nom": "Trần Hưng Đạo",
+  "role": "Général du Đại Việt",
+  "roles": ["Général", "Prince"],
+  "dates": "vers 1228 → 1300",
+  "mort": 1300,
+  "description": "Prince et commandant en chef de la dynastie Trần, il dirige la résistance victorieuse aux invasions mongoles de 1285 et 1287-1288.",
+  "essentiel": [
+    "Il pratique la guérilla : il abandonne la capitale, harcèle l’ennemi et attend qu’il s’épuise.",
+    "En 1288, il détruit la flotte mongole sur le fleuve Bạch Đằng.",
+    "Il écrit un appel célèbre aux officiers pour les pousser à résister.",
+    "Il est honoré au Vietnam comme un héros national ; de nombreux temples lui sont dédiés."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Tr%E1%BA%A7n_H%C6%B0ng_%C4%90%E1%BA%A1o"
+}

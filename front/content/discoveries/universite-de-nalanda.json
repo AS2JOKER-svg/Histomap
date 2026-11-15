@@ -1,0 +1,18 @@
+{
+  "id": "universite-de-nalanda",
+  "nom": "Nalanda",
+  "domaine": "Éducation et religion",
+  "dates": "Ve siècle → vers 1200",
+  "description": "Un grand monastère bouddhiste du nord-est de l’Inde, qui fut pendant plus de sept siècles l’un des principaux centres d’enseignement d’Asie.",
+  "sections": [
+    {
+      "titre": "Un centre international",
+      "texte": "Des étudiants venus de Chine, de Corée, du Tibet et d’Asie du Sud-Est y étudient la philosophie bouddhiste, la grammaire, la médecine et la logique. Le moine chinois Xuanzang y séjourne au VIIe siècle."
+    },
+    {
+      "titre": "Sa fin",
+      "texte": "Vers 1200, le monastère est pillé et incendié par des troupes turques venues du nord-ouest, puis abandonné. Ses ruines sont inscrites au patrimoine mondial de l’UNESCO."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Nalanda"
+}

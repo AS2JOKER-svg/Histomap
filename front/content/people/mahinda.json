@@ -1,0 +1,16 @@
+{
+  "id": "mahinda",
+  "nom": "Mahinda",
+  "role": "Moine bouddhiste",
+  "roles": ["Moine", "Missionnaire"],
+  "dates": "IIIe siècle av. J.-C.",
+  "description": "Moine bouddhiste, fils de l’empereur indien Ashoka selon la tradition, qui introduit le bouddhisme à Sri Lanka.",
+  "essentiel": [
+    "Envoyé par Ashoka, il arrive à Sri Lanka vers −250, selon la tradition.",
+    "Il convertit le roi Devanampiya Tissa, rencontré lors d’une chasse sur la colline de Mihintale.",
+    "Il fonde le Mahavihara, le grand monastère d’Anuradhapura.",
+    "Sa sœur Sanghamitta apporte une bouture de l’arbre de l’Éveil du Bouddha."
+  ],
+  "liens": [{ "ref": "ashoka", "relation": "Son père, selon la tradition" }],
+  "wikiUrl": "https://en.wikipedia.org/wiki/Mahinda_(Buddhist_monk)"
+}

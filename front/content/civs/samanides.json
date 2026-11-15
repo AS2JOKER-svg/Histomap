@@ -1,0 +1,232 @@
+{
+  "documentaires": [],
+  "decouvertes": ["mausolee-des-samanides", "shahnameh"],
+  "id": "samanides",
+  "label": "Émirat samanide",
+  "tier": 2,
+  "region": "asie-centrale",
+  "period": "819 à 999",
+  "start": 819,
+  "end": 999,
+  "color": "#00838f",
+  "trackId": "bactriane",
+  "row": 3,
+  "isRiver": false,
+  "capitale": "Boukhara",
+  "description": "Une dynastie persane d’Asie centrale qui gouverne au nom du calife de Bagdad et fait de Boukhara une capitale de la culture, où renaît la littérature en langue persane.",
+  "territories": ["Samanid Empire"],
+  "reperes": {
+    "capitale": { "valeur": "Boukhara", "precision": "en Ouzbékistan ; Samarcande auparavant" },
+    "regimes": { "valeur": "Émirat", "precision": "en théorie au service du calife abbasside, en fait indépendant" },
+    "langues": {
+      "valeur": "Persan",
+      "precision": "le persan, écrit en alphabet arabe, redevient une grande langue littéraire ; l’arabe sert aux sciences et à la religion"
+    },
+    "religion": { "valeur": "Islam sunnite" },
+    "apogee": { "valeur": "Règnes d’Ismaïl Ier et de Nasr II", "precision": "892 → 943" },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": { "valeur": "Dirhams d’argent", "precision": "retrouvés par milliers jusqu’en Russie et en Scandinavie" },
+    "duree": { "valeur": "Environ 180 ans" },
+    "aujourdhui": {
+      "valeur": "Ouzbékistan et Tadjikistan",
+      "precision": "ainsi que l’Afghanistan, le Turkménistan et l’est de l’Iran"
+    }
+  },
+  "essentiel": [
+    "En 819, le calife abbasside confie le gouvernement de villes d’Asie centrale aux petits-fils de Saman, un noble persan converti à l’islam.",
+    "L’émir [[ismail-ier-samanide|Ismaïl Ier]] fait de Boukhara sa capitale, bat les Saffarides (900) et gouverne en maître le Khorassan et la Transoxiane.",
+    "À la cour de Boukhara renaît la poésie en persan : Roudaki y écrit, et Ferdowsi commence à la fin de la période le [[shahnameh|Livre des rois]].",
+    "Les savants y trouvent des bibliothèques exceptionnelles : le jeune [[avicenne|Avicenne]] étudie dans celle de l’émir Nuh II.",
+    "Affaibli par les révoltes de ses généraux turcs, l’émirat tombe en 999 : les Karakhanides prennent Boukhara, les Ghaznévides le Khorassan."
+  ],
+  "datesCles": [
+    {
+      "annee": 819,
+      "evenement": "Gouverneurs du calife",
+      "info": "Les petits-fils de Saman reçoivent Samarcande, Ferghana, Shash et Hérat."
+    },
+    {
+      "annee": 875,
+      "evenement": "Nasr Ier",
+      "info": "Le calife reconnaît Nasr Ier comme gouverneur de toute la Transoxiane."
+    },
+    { "annee": 892, "evenement": "Ismaïl Ier", "info": "Ismaïl devient émir et installe sa capitale à Boukhara." },
+    {
+      "annee": 900,
+      "evenement": "Victoire de Balkh",
+      "info": "Ismaïl bat et capture Amr, le chef de la dynastie rivale des Saffarides."
+    },
+    { "annee": 914, "evenement": "Nasr II", "info": "Sous son long règne, Boukhara est un grand foyer de culture." },
+    { "annee": 977, "evenement": "Le Livre des rois", "info": "Vers 977, le poète Ferdowsi commence le Shahnameh." },
+    {
+      "annee": 999,
+      "evenement": "Chute de Boukhara",
+      "info": "Les Karakhanides, des Turcs venus de l’est, prennent la capitale."
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "Les gouverneurs",
+      "debut": 819,
+      "fin": 892,
+      "resume": "Les Samanides gouvernent des villes d’Asie centrale au nom des Abbassides et des Tahirides.",
+      "evenements": [{ "annee": 875, "evenement": "Nasr Ier gouverneur de la Transoxiane" }]
+    },
+    {
+      "nom": "L’âge d’or",
+      "debut": 892,
+      "fin": 961,
+      "resume": "Ismaïl Ier et ses successeurs dominent l’Iran oriental ; Boukhara rivalise avec Bagdad.",
+      "evenements": [
+        { "annee": 892, "evenement": "Capitale à Boukhara" },
+        { "annee": 900, "evenement": "Victoire sur les Saffarides" },
+        { "annee": 914, "evenement": "Avènement de Nasr II" }
+      ]
+    },
+    {
+      "nom": "Le déclin",
+      "debut": 961,
+      "fin": 999,
+      "resume": "Les généraux turcs prennent le pouvoir réel ; l’émirat est partagé entre Karakhanides et Ghaznévides.",
+      "evenements": [
+        { "annee": 977, "evenement": "Ferdowsi commence le Shahnameh" },
+        { "annee": 999, "evenement": "Chute de Boukhara" }
+      ]
+    }
+  ],
+  "regimes": [
+    {
+      "id": "emirat",
+      "nom": "Émirat samanide",
+      "debut": 819,
+      "fin": 999,
+      "note": "Il reconnaît l’autorité religieuse du calife abbasside."
+    }
+  ],
+  "dynasties": [{ "id": "samanides", "nom": "Les émirs samanides", "debut": 864, "fin": 999 }],
+  "dirigeants": [
+    {
+      "nom": "Nasr Ier",
+      "titre": "Émir",
+      "debut": 864,
+      "fin": 892,
+      "dynastie": "samanides",
+      "note": "gouverneur de la Transoxiane",
+      "cle": true
+    },
+    {
+      "nom": "Ismaïl Ier",
+      "titre": "Émir",
+      "debut": 892,
+      "fin": 907,
+      "dynastie": "samanides",
+      "personne": "ismail-ier-samanide",
+      "cle": true
+    },
+    { "nom": "Ahmad Ier", "titre": "Émir", "debut": 907, "fin": 914, "dynastie": "samanides", "note": "assassiné" },
+    {
+      "nom": "Nasr II",
+      "titre": "Émir",
+      "debut": 914,
+      "fin": 943,
+      "dynastie": "samanides",
+      "note": "protecteur des poètes",
+      "cle": true
+    },
+    { "nom": "Nuh Ier", "titre": "Émir", "debut": 943, "fin": 954, "dynastie": "samanides" },
+    { "nom": "Abd al-Malik Ier", "titre": "Émir", "debut": 954, "fin": 961, "dynastie": "samanides" },
+    { "nom": "Mansur Ier", "titre": "Émir", "debut": 961, "fin": 976, "dynastie": "samanides" },
+    {
+      "nom": "Nuh II",
+      "titre": "Émir",
+      "debut": 976,
+      "fin": 997,
+      "dynastie": "samanides",
+      "note": "sa bibliothèque accueille le jeune Avicenne",
+      "cle": true
+    },
+    { "nom": "Mansur II", "titre": "Émir", "debut": 997, "fin": 999, "dynastie": "samanides" },
+    {
+      "nom": "Abd al-Malik II",
+      "titre": "Émir",
+      "debut": 999,
+      "fin": 999,
+      "dynastie": "samanides",
+      "note": "dernier émir"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Roudaki",
+      "role": "Poète",
+      "description": "Poète de la cour de Nasr II, considéré comme le père de la poésie persane classique.",
+      "dates": "vers 858 → vers 941",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Roudaki"
+    },
+    {
+      "nom": "Ferdowsi",
+      "role": "Poète",
+      "description": "Auteur du Shahnameh, l’épopée nationale iranienne, commencée à l’époque samanide.",
+      "dates": "vers 940 → vers 1020",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Ferdowsi",
+      "ref": "ferdowsi"
+    },
+    {
+      "nom": "Avicenne",
+      "role": "Médecin et philosophe",
+      "description": "Né près de Boukhara, il soigne l’émir Nuh II et obtient l’accès à sa bibliothèque.",
+      "dates": "980 → 1037",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Avicenne",
+      "ref": "avicenne"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Bataille de Balkh (900)",
+      "annee": 900,
+      "adversaires": ["Saffarides (Amr ibn al-Layth)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Samanides",
+      "consequences": "Amr est capturé et envoyé au calife de Bagdad ; les Samanides deviennent les maîtres du Khorassan.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Samanides"
+    },
+    {
+      "nom": "Chute de Boukhara (999)",
+      "annee": 999,
+      "adversaires": ["Karakhanides"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Karakhanides",
+      "consequences": "Les Karakhanides, première grande dynastie turque musulmane, prennent la Transoxiane ; les Ghaznévides, d’anciens soldats des Samanides, prennent le Khorassan.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Karakhanides"
+    }
+  ],
+  "sciences": "Boukhara et Samarcande abritent des bibliothèques et des savants célèbres. Samarcande fabrique du papier, technique apprise de la Chine, qui se diffuse ensuite dans tout le monde musulman. Le médecin al-Razi dédie un grand traité de médecine à un prince samanide, et Avicenne fait ses premières armes à Boukhara.",
+  "croyancesText": "Les Samanides sont des musulmans sunnites fidèles au calife abbasside. Ils financent la conversion à l’islam des peuples turcs des steppes, au nord de leur territoire, qui adoptent peu à peu la religion musulmane au Xe siècle.",
+  "diplomatie": "Les Samanides gouvernent au nom du calife de Bagdad, mais en toute indépendance. Ils commercent avec les peuples des steppes, la Volga et l’Europe du Nord : on a retrouvé des milliers de leurs pièces d’argent en Russie et en Scandinavie. Ils achètent et forment des esclaves turcs comme soldats, les ghulams.",
+  "societe": "Une aristocratie persane de propriétaires, les dehqans, entoure l’émir. L’armée repose de plus en plus sur des soldats d’origine turque, dont certains deviennent généraux puis fondent leurs propres dynasties.",
+  "economie": "Commerce caravanier, agriculture irriguée des oasis, papier, textiles, et commerce d’esclaves turcs.",
+  "arts": "Mausolée des Samanides à Boukhara, céramiques à décor de calligraphie, poésie persane.",
+  "quotidien": "Les poètes récitent leurs vers à la cour, accompagnés de musique ; Roudaki aurait chanté en s’accompagnant d’un instrument à cordes.",
+  "heritage": [
+    {
+      "titre": "La langue persane",
+      "texte": "Le persan moderne, écrit en alphabet arabe, prend sa forme littéraire à la cour samanide."
+    },
+    {
+      "titre": "Une figure nationale",
+      "texte": "Au Tadjikistan, Ismaïl Samani est un héros national : la monnaie s’appelle le somoni."
+    }
+  ],
+  "aSavoir": [
+    "Le mausolée des Samanides, à Boukhara, est l’un des plus anciens monuments de l’architecture islamique en Asie centrale."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Samanides",
+    {
+      "titre": "Encyclopædia Britannica — Sāmānid dynasty",
+      "url": "https://www.britannica.com/topic/Samanid-dynasty"
+    }
+  ]
+}

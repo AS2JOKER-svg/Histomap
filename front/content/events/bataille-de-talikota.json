@@ -1,0 +1,19 @@
+{
+  "id": "bataille-de-talikota",
+  "nom": "Bataille de Talikota",
+  "annee": 1565,
+  "dates": "janvier 1565",
+  "lieu": "Près de Talikota (Karnataka, Inde)",
+  "description": "Une coalition de quatre sultanats du Dekkan écrase l’armée de Vijayanagara, commandée par le régent Rama Raya.",
+  "sections": [
+    {
+      "titre": "Déroulement",
+      "texte": "Au cours de la bataille, Rama Raya est capturé et décapité ; son armée se disperse."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "La capitale, laissée sans défense, est pillée et incendiée pendant plusieurs mois, puis abandonnée. Ses ruines forment aujourd’hui le site de [[hampi|Hampi]]."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Talikota"
+}

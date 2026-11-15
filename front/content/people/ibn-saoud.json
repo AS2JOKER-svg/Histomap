@@ -1,0 +1,16 @@
+{
+  "id": "ibn-saoud",
+  "nom": "Abdelaziz ibn Saoud",
+  "role": "Fondateur de l’Arabie saoudite",
+  "roles": ["Émir", "Roi"],
+  "dates": "vers 1875 → 1953",
+  "mort": 1953,
+  "description": "Héritier de la famille Saoud exilée au Koweït, il reprend Riyad en 1902, unifie la plus grande partie de la péninsule Arabique et fonde en 1932 le royaume d’Arabie saoudite.",
+  "essentiel": [
+    "En 1902, il reprend Riyad par surprise avec quelques dizaines de compagnons.",
+    "Il s’appuie sur les Ikhwan, des guerriers bédouins wahhabites, puis écrase leur révolte en 1929.",
+    "Il conquiert La Mecque et Médine en 1924-1925.",
+    "Il accorde en 1933 une concession pétrolière à une compagnie américaine ; le pétrole est découvert en 1938."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Abdelaziz_ibn_Saoud"
+}

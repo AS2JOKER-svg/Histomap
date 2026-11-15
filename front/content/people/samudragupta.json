@@ -1,0 +1,16 @@
+{
+  "id": "samudragupta",
+  "nom": "Samudragupta",
+  "role": "Empereur gupta",
+  "roles": ["Empereur", "Conquérant"],
+  "dates": "IVe siècle",
+  "description": "Fils de Chandragupta Ier, il règne vers 335-375 et étend l’empire gupta à presque tout le nord de l’Inde.",
+  "reperes": [{ "label": "Règne", "valeur": "vers 335 → vers 375" }],
+  "essentiel": [
+    "Une inscription gravée sur un pilier d’Allahabad énumère ses victoires.",
+    "Il annexe les royaumes de la vallée du Gange et fait des rois du Sud ses vassaux.",
+    "Ses pièces d’or le montrent jouant de la vina, un instrument à cordes.",
+    "Un historien britannique l’a surnommé « le Napoléon de l’Inde »."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Samudragupta"
+}

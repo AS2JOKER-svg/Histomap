@@ -1,0 +1,18 @@
+{
+  "id": "route-de-l-encens",
+  "nom": "Route de l’encens",
+  "domaine": "Économie",
+  "dates": "Ier millénaire av. J.-C. → IIe siècle",
+  "description": "Les pistes caravanières qui reliaient le sud de l’Arabie, où poussent l’encens et la myrrhe, à la Méditerranée, en passant par l’oasis de Pétra.",
+  "sections": [
+    {
+      "titre": "Comment ça marche",
+      "texte": "Des caravanes de chameaux parcourent plus de 2 000 km, d’oasis en oasis. Les royaumes qu’elles traversent prélèvent des taxes et fournissent eau et protection."
+    },
+    {
+      "titre": "Son déclin",
+      "texte": "À partir du Ier siècle, les marchands romains apprennent à utiliser les vents de mousson pour naviguer directement vers l’Inde et l’Arabie : la route maritime concurrence les caravanes."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Route_de_l%27encens"
+}

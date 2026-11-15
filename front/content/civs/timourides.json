@@ -1,0 +1,276 @@
+{
+  "documentaires": [],
+  "decouvertes": ["observatoire-d-ulugh-beg", "gour-emir"],
+  "id": "timourides",
+  "label": "Empire timouride",
+  "tier": 1,
+  "region": "asie-centrale",
+  "period": "1370 à 1507",
+  "start": 1370,
+  "end": 1507,
+  "color": "#1565c0",
+  "trackId": "bactriane",
+  "row": 5,
+  "isRiver": false,
+  "capitale": "Samarcande, puis Hérat",
+  "description": "L’empire du conquérant Tamerlan, dont les campagnes dévastent l’Asie de Delhi à Ankara, puis de ses descendants, qui font de Samarcande et d’Hérat des capitales des arts et des sciences.",
+  "territories": ["Timurid Empire", "Timurid Emirates"],
+  "reperes": {
+    "capitale": { "valeur": "Samarcande, puis Hérat", "precision": "Hérat (Afghanistan) devient la capitale sous Shah Rukh" },
+    "regimes": {
+      "valeur": "Émirat",
+      "precision": "Tamerlan ne descend pas de Gengis Khan : il se contente du titre d’émir et de « gendre » des Gengiskhanides"
+    },
+    "langues": {
+      "valeur": "Persan et turc tchaghataï",
+      "precision": "le persan pour la culture, le turc pour l’armée et la poésie"
+    },
+    "religion": { "valeur": "Islam sunnite" },
+    "apogee": {
+      "valeur": "XVe siècle",
+      "precision": "conquêtes de Tamerlan, puis « renaissance timouride » sous Shah Rukh et Ulugh Beg"
+    },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": { "valeur": "Tanka d’argent" },
+    "duree": { "valeur": "Environ 140 ans" },
+    "aujourdhui": { "valeur": "Ouzbékistan, Afghanistan, Iran", "precision": "ainsi que le Turkménistan et le Tadjikistan" }
+  },
+  "essentiel": [
+    "[[tamerlan|Tamerlan]] (Timour le Boiteux), un émir turco-mongol, prend le pouvoir à Samarcande en 1370.",
+    "En trente-cinq ans de campagnes, il ravage l’Iran, la Horde d’or, Delhi (1398) et Bagdad (1401), et bat le sultan ottoman à la [[bataille-d-ankara|bataille d’Ankara]] (1402) ; ses conquêtes s’accompagnent de massacres.",
+    "Il couvre Samarcande de monuments grandioses, construits par des artisans déportés des pays conquis.",
+    "Ses descendants Shah Rukh, à Hérat, et [[ulugh-beg|Ulugh Beg]], prince astronome de Samarcande, font de leur cour un foyer des arts et des sciences.",
+    "Divisé entre princes rivaux, l’empire tombe aux mains des Ouzbeks (1507) ; un descendant de Tamerlan, [[babur|Babur]], fondera l’Empire moghol en Inde."
+  ],
+  "datesCles": [
+    {
+      "annee": 1370,
+      "evenement": "Tamerlan maître de Samarcande",
+      "info": "Il élimine son rival et devient le chef de la Transoxiane."
+    },
+    {
+      "annee": 1387,
+      "evenement": "Ispahan",
+      "info": "Après une révolte, Tamerlan fait massacrer une grande partie de la population."
+    },
+    {
+      "annee": 1395,
+      "evenement": "Victoire sur la Horde d’or",
+      "info": "Tamerlan bat Tokhtamych sur le Terek et ravage les villes de la Volga."
+    },
+    { "annee": 1398, "evenement": "Sac de Delhi", "info": "Tamerlan écrase le sultan de Delhi et pille la ville." },
+    {
+      "annee": 1402,
+      "evenement": "Ankara",
+      "info": "Tamerlan bat et capture le sultan ottoman Bayezid Ier.",
+      "ref": "bataille-d-ankara"
+    },
+    { "annee": 1405, "evenement": "Mort de Tamerlan", "info": "Il meurt en route pour conquérir la Chine." },
+    {
+      "annee": 1428,
+      "evenement": "Observatoire de Samarcande",
+      "info": "Vers 1428, Ulugh Beg achève un immense observatoire."
+    },
+    {
+      "annee": 1449,
+      "evenement": "Mort d’Ulugh Beg",
+      "info": "Le prince astronome est assassiné sur ordre de son fils."
+    },
+    { "annee": 1507, "evenement": "Fin de l’empire", "info": "Les Ouzbeks de Muhammad Shaybani prennent Hérat." }
+  ],
+  "periodes": [
+    {
+      "nom": "Les conquêtes de Tamerlan",
+      "debut": 1370,
+      "fin": 1405,
+      "resume": "Tamerlan conquiert un immense empire, de l’Anatolie à l’Inde, au prix de destructions considérables.",
+      "evenements": [
+        { "annee": 1395, "evenement": "Victoire sur la Horde d’or" },
+        { "annee": 1398, "evenement": "Sac de Delhi" },
+        { "annee": 1402, "evenement": "Ankara", "ref": "bataille-d-ankara" }
+      ]
+    },
+    {
+      "nom": "La renaissance timouride",
+      "debut": 1405,
+      "fin": 1449,
+      "resume": "Shah Rukh à Hérat et Ulugh Beg à Samarcande favorisent les arts, les livres et les sciences.",
+      "evenements": [{ "annee": 1409, "evenement": "Shah Rukh à Hérat" }, { "annee": 1428, "evenement": "Observatoire d’Ulugh Beg" }]
+    },
+    {
+      "nom": "Divisions et chute",
+      "debut": 1449,
+      "fin": 1507,
+      "resume": "Les princes timourides se disputent l’héritage ; Hérat brille encore sous Husayn Bayqara avant la conquête ouzbèke.",
+      "evenements": [
+        { "annee": 1469, "evenement": "Husayn Bayqara à Hérat" },
+        { "annee": 1500, "evenement": "Les Ouzbeks prennent Samarcande" }
+      ]
+    }
+  ],
+  "regimes": [{ "id": "empire", "nom": "Empire timouride", "debut": 1370, "fin": 1507 }],
+  "dynasties": [
+    {
+      "id": "timourides",
+      "nom": "Les Timourides",
+      "debut": 1370,
+      "fin": 1507,
+      "note": "Sélection ; après 1449, plusieurs princes règnent en même temps."
+    }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Tamerlan",
+      "titre": "Émir",
+      "surnom": "Timour le Boiteux",
+      "debut": 1370,
+      "fin": 1405,
+      "dynastie": "timourides",
+      "personne": "tamerlan",
+      "cle": true
+    },
+    { "nom": "Khalil Sultan", "titre": "Émir de Samarcande", "debut": 1405, "fin": 1409, "dynastie": "timourides" },
+    {
+      "nom": "Shah Rukh",
+      "titre": "Souverain",
+      "debut": 1405,
+      "fin": 1447,
+      "dynastie": "timourides",
+      "note": "règne depuis Hérat",
+      "cle": true
+    },
+    {
+      "nom": "Ulugh Beg",
+      "titre": "Souverain",
+      "debut": 1447,
+      "fin": 1449,
+      "dynastie": "timourides",
+      "personne": "ulugh-beg",
+      "note": "gouverneur de Samarcande dès 1409",
+      "cle": true
+    },
+    {
+      "nom": "Abu Saïd",
+      "titre": "Souverain",
+      "debut": 1451,
+      "fin": 1469,
+      "dynastie": "timourides",
+      "note": "dernier à réunir une grande partie de l’empire",
+      "cle": true
+    },
+    {
+      "nom": "Husayn Bayqara",
+      "titre": "Souverain d’Hérat",
+      "debut": 1469,
+      "fin": 1506,
+      "dynastie": "timourides",
+      "note": "protecteur des arts",
+      "cle": true
+    },
+    {
+      "nom": "Badi al-Zaman",
+      "titre": "Souverain d’Hérat",
+      "debut": 1506,
+      "fin": 1507,
+      "dynastie": "timourides",
+      "note": "dernier souverain"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Ulugh Beg",
+      "role": "Prince astronome",
+      "description": "Petit-fils de Tamerlan, il fait de Samarcande une capitale de la science.",
+      "dates": "1394 → 1449",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Ulugh_Beg",
+      "ref": "ulugh-beg"
+    },
+    {
+      "nom": "Ibn Khaldoun",
+      "role": "Historien",
+      "description": "Le grand historien maghrébin rencontre Tamerlan devant Damas en 1401 et laisse le récit de leurs entretiens.",
+      "dates": "1332 → 1406",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Ibn_Khaldoun"
+    },
+    {
+      "nom": "Ruy González de Clavijo",
+      "role": "Ambassadeur castillan",
+      "description": "Envoyé du roi de Castille, il décrit Samarcande et la cour de Tamerlan en 1404.",
+      "dates": "mort en 1412",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Ruy_Gonz%C3%A1lez_de_Clavijo"
+    },
+    {
+      "nom": "Ali-Shir Navaï",
+      "role": "Poète et ministre",
+      "description": "Ministre de Husayn Bayqara à Hérat, il est le plus grand poète en langue turque tchaghataï.",
+      "dates": "1441 → 1501",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Mir_Alicher_Navo%C3%AF"
+    },
+    {
+      "nom": "Behzad",
+      "role": "Peintre",
+      "description": "Le plus célèbre peintre de miniatures de l’école d’Hérat.",
+      "dates": "vers 1450 → vers 1535",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Behzad"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerre entre Tokhtamych et Tamerlan",
+      "annee": 1391,
+      "adversaires": ["Horde d’or (Tokhtamych)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Tamerlan",
+      "consequences": "Battu en 1391 puis sur le Terek en 1395, Tokhtamych perd son trône ; Tamerlan ravage Saraï et les villes de la Horde, qui ne s’en relève pas.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Tokhtamych"
+    },
+    {
+      "nom": "Campagne de Tamerlan en Inde",
+      "annee": 1398,
+      "adversaires": ["Sultanat de Delhi"],
+      "allies": [],
+      "morts": "Des dizaines de milliers, selon les chroniques",
+      "vainqueur": "Tamerlan",
+      "consequences": "Delhi est pillée et une partie de ses habitants massacrée ; le sultanat de Delhi ne s’en remet pas.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Tamerlan"
+    },
+    {
+      "nom": "Bataille d’Ankara",
+      "annee": 1402,
+      "adversaires": ["Empire ottoman (Bayezid Ier)"],
+      "allies": [],
+      "morts": "Inconnues, très nombreuses",
+      "vainqueur": "Tamerlan",
+      "consequences": "Le sultan Bayezid Ier est capturé et meurt en captivité ; l’Empire ottoman traverse une crise de onze ans, qui retarde sa conquête de Constantinople.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_d%27Ankara"
+    }
+  ],
+  "sciences": "À Samarcande, Ulugh Beg fait construire un observatoire avec un immense sextant de pierre, long de plusieurs dizaines de mètres. Ses astronomes dressent un catalogue de plus de 1 000 étoiles et calculent la durée de l’année avec une précision remarquable. Les architectes timourides maîtrisent les coupoles doubles et les décors de céramique bleue.",
+  "croyancesText": "Les Timourides sont musulmans sunnites et protègent les ordres soufis, comme celui des Naqshbandi. Tamerlan se présente comme un défenseur de l’islam, ce qui ne l’empêche pas d’attaquer d’autres souverains musulmans et de massacrer des populations musulmanes.",
+  "diplomatie": "Tamerlan affronte presque tous ses voisins : la Horde d’or, le sultanat de Delhi, les Mamelouks d’Égypte et l’Empire ottoman. Les rois d’Europe, inquiets des Ottomans, lui envoient des ambassadeurs, comme le Castillan Clavijo. Ses successeurs échangent des ambassades avec la Chine des Ming.",
+  "societe": "Tamerlan déporte vers Samarcande des milliers d’artisans, d’architectes et de savants des pays conquis. Ses successeurs s’entourent de poètes, de peintres et de calligraphes : Hérat devient un grand centre de l’art du livre.",
+  "economie": "Commerce de la route de la soie, agriculture des oasis, artisanat de luxe (soieries, céramiques, papier).",
+  "arts": "Mosquée Bibi-Khanym et Gour Emir à Samarcande, place du Registan, miniatures de l’école d’Hérat, poésie persane et tchaghataïe.",
+  "quotidien": "Clavijo raconte que Tamerlan, vieux et presque aveugle, recevait les ambassadeurs dans des jardins pleins de tentes de soie.",
+  "heritage": [
+    {
+      "titre": "Samarcande",
+      "texte": "Ses monuments timourides aux coupoles bleues sont inscrits au patrimoine mondial."
+    },
+    {
+      "titre": "L’Empire moghol",
+      "texte": "Babur, descendant de Tamerlan, fonde en 1526 l’Empire moghol, qui gouverne l’Inde pendant plus de deux siècles."
+    }
+  ],
+  "aSavoir": [
+    "En 1941, des savants soviétiques ont ouvert la tombe de Tamerlan : son squelette confirme qu’il boitait, comme l’indique son surnom."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Timourides",
+    {
+      "titre": "Encyclopædia Britannica — Timurid dynasty",
+      "url": "https://www.britannica.com/topic/Timurid-dynasty"
+    }
+  ]
+}

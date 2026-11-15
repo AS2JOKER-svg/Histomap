@@ -1,0 +1,18 @@
+{
+  "id": "qutb-minar",
+  "nom": "Qutb Minar",
+  "domaine": "Architecture",
+  "dates": "vers 1200",
+  "description": "Un minaret de grès et de marbre d’environ 73 mètres, commencé à Delhi vers 1200 par Qutb ud-Din Aibak et achevé par son successeur Iltutmish.",
+  "sections": [
+    {
+      "titre": "Un symbole de la conquête",
+      "texte": "Il s’élève à côté de la mosquée Quwwat al-Islam, construite, comme l’indique une inscription, avec des matériaux provenant de temples hindous et jaïns détruits."
+    },
+    {
+      "titre": "Aujourd’hui",
+      "texte": "Réparé et surélevé au XIVe siècle par Firuz Shah Tughluq, il est inscrit au patrimoine mondial de l’UNESCO depuis 1993, avec les monuments qui l’entourent, dont le [[pilier-de-fer-de-delhi|pilier de fer]]."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Qutb_Minar"
+}

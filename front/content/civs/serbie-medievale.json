@@ -1,0 +1,245 @@
+{
+  "documentaires": [],
+  "decouvertes": [],
+  "id": "serbie-medievale",
+  "label": "Serbie médiévale",
+  "tier": 2,
+  "region": "balkans",
+  "period": "1166 à 1459",
+  "start": 1166,
+  "end": 1459,
+  "color": "#1565c0",
+  "trackId": "serbie",
+  "row": 15,
+  "isRiver": false,
+  "capitale": "Ras, Skopje, puis Smederevo",
+  "description": "L’État serbe de la dynastie des Nemanjić, qui devient au XIVe siècle un empire dominant les Balkans sous Étienne Dušan, puis est conquis par les Ottomans après la bataille de Kosovo et la chute de Smederevo en 1459.",
+  "territories": ["Serbia", "Raška"],
+  "reperes": {
+    "capitale": { "valeur": "Ras, Skopje, puis Smederevo", "precision": "la capitale change selon les époques" },
+    "regimes": { "valeur": "Royaume, puis empire, puis despotat", "precision": "Étienne Dušan se proclame empereur en 1346" },
+    "langues": { "valeur": "Serbe (slavon)", "precision": "écrit en alphabet cyrillique" },
+    "religion": { "valeur": "Christianisme orthodoxe", "precision": "Église serbe autonome à partir de 1219" },
+    "apogee": { "valeur": "Règne d’Étienne Dušan (1331 → 1355)" },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": { "valeur": "Dinar d’argent" },
+    "duree": { "valeur": "Environ 290 ans" },
+    "aujourdhui": {
+      "valeur": "Serbie, Kosovo, Monténégro, Macédoine du Nord",
+      "precision": "et une partie de la Grèce, de l’Albanie et de la Bosnie à son apogée"
+    }
+  },
+  "essentiel": [
+    "Vers 1166, Stefan Nemanja unifie les terres serbes et fonde la dynastie des Nemanjić, qui règne pendant deux siècles.",
+    "Son fils [[saint-sava|Sava]] fonde l’Église serbe autonome (1219), et un autre fils, Étienne, devient le premier roi couronné (1217).",
+    "Grâce à ses mines d’argent, la Serbie s’enrichit ; ses rois bâtissent de grands monastères aux fresques célèbres.",
+    "Étienne Dušan conquiert une grande partie des Balkans, se proclame empereur en 1346 et donne au pays un code de lois.",
+    "Après sa mort, l’empire se divise ; les Ottomans battent les Serbes à la [[bataille-de-kosovo|bataille de Kosovo]] (1389) et prennent Smederevo, la dernière capitale, en 1459."
+  ],
+  "datesCles": [
+    {
+      "annee": 1166,
+      "evenement": "Stefan Nemanja",
+      "info": "Vers 1166, Stefan Nemanja devient grand joupan et unifie les terres serbes."
+    },
+    {
+      "annee": 1198,
+      "evenement": "Hilandar",
+      "info": "Nemanja, devenu moine, et son fils Sava fondent le monastère de Hilandar au mont Athos."
+    },
+    { "annee": 1217, "evenement": "Royaume", "info": "Étienne Nemanjić est couronné roi." },
+    {
+      "annee": 1219,
+      "evenement": "Église serbe",
+      "info": "Sava devient le premier archevêque de l’Église serbe autonome."
+    },
+    {
+      "annee": 1346,
+      "evenement": "Empire",
+      "info": "Étienne Dušan se fait couronner empereur des Serbes et des Grecs."
+    },
+    { "annee": 1349, "evenement": "Code de Dušan", "info": "Un code de lois est adopté pour tout l’empire." },
+    {
+      "annee": 1389,
+      "evenement": "Kosovo",
+      "info": "Bataille contre les Ottomans ; le prince Lazar et le sultan Murad Ier y meurent.",
+      "ref": "bataille-de-kosovo"
+    },
+    { "annee": 1459, "evenement": "Chute de Smederevo", "info": "Les Ottomans prennent la dernière capitale serbe." }
+  ],
+  "periodes": [
+    {
+      "nom": "Les premiers Nemanjić",
+      "debut": 1166,
+      "fin": 1282,
+      "resume": "Stefan Nemanja et ses fils fondent un royaume et une Église serbes.",
+      "evenements": [{ "annee": 1198, "evenement": "Fondation de Hilandar" }, { "annee": 1219, "evenement": "Église serbe autonome" }]
+    },
+    {
+      "nom": "L’apogée",
+      "debut": 1282,
+      "fin": 1355,
+      "resume": "Les rois Milutin et Dušan agrandissent le pays, qui devient un empire.",
+      "evenements": [{ "annee": 1346, "evenement": "Couronnement impérial de Dušan" }, { "annee": 1349, "evenement": "Code de Dušan" }]
+    },
+    {
+      "nom": "Face aux Ottomans",
+      "debut": 1355,
+      "fin": 1459,
+      "resume": "L’empire se divise, puis résiste aux Ottomans, avant d’être conquis.",
+      "evenements": [
+        { "annee": 1371, "evenement": "Bataille de la Maritsa" },
+        { "annee": 1389, "evenement": "Bataille de Kosovo", "ref": "bataille-de-kosovo" },
+        { "annee": 1459, "evenement": "Chute de Smederevo" }
+      ]
+    }
+  ],
+  "regimes": [
+    { "id": "royaume", "nom": "Grande joupanie puis royaume", "debut": 1166, "fin": 1346 },
+    { "id": "empire", "nom": "Empire", "debut": 1346, "fin": 1371 },
+    { "id": "despotat", "nom": "Principauté puis despotat", "debut": 1371, "fin": 1459 }
+  ],
+  "dynasties": [
+    { "id": "nemanjic", "nom": "Les Nemanjić", "debut": 1166, "fin": 1371, "note": "Sélection." },
+    { "id": "lazarevic", "nom": "Lazarević et Branković", "debut": 1371, "fin": 1459, "note": "Sélection." }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Stefan Nemanja",
+      "titre": "Grand joupan",
+      "debut": 1166,
+      "fin": 1196,
+      "dynastie": "nemanjic",
+      "note": "fondateur",
+      "cle": true
+    },
+    {
+      "nom": "Étienne le Premier Couronné",
+      "titre": "Roi",
+      "debut": 1196,
+      "fin": 1228,
+      "dynastie": "nemanjic",
+      "note": "premier roi",
+      "cle": true
+    },
+    {
+      "nom": "Milutin",
+      "titre": "Roi",
+      "debut": 1282,
+      "fin": 1321,
+      "dynastie": "nemanjic",
+      "note": "grand bâtisseur d’églises"
+    },
+    {
+      "nom": "Étienne Dušan",
+      "titre": "Roi, puis empereur",
+      "debut": 1331,
+      "fin": 1355,
+      "dynastie": "nemanjic",
+      "personne": "etienne-dusan",
+      "cle": true
+    },
+    {
+      "nom": "Lazar Hrebeljanović",
+      "titre": "Prince",
+      "debut": 1371,
+      "fin": 1389,
+      "dynastie": "lazarevic",
+      "note": "tué à Kosovo",
+      "cle": true
+    },
+    { "nom": "Stefan Lazarević", "titre": "Prince, puis despote", "debut": 1389, "fin": 1427, "dynastie": "lazarevic" },
+    {
+      "nom": "Đurađ Branković",
+      "titre": "Despote",
+      "debut": 1427,
+      "fin": 1456,
+      "dynastie": "lazarevic",
+      "note": "fait bâtir Smederevo"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Saint Sava",
+      "role": "Premier archevêque serbe",
+      "description": "Fils de Stefan Nemanja, fondateur de l’Église serbe.",
+      "dates": "vers 1175 → 1236",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Sava_de_Serbie",
+      "ref": "saint-sava"
+    },
+    {
+      "nom": "Étienne Dušan",
+      "role": "Empereur",
+      "description": "Le souverain qui mène la Serbie à son apogée.",
+      "dates": "vers 1308 → 1355",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/%C3%89tienne_Du%C5%A1an",
+      "ref": "etienne-dusan"
+    },
+    {
+      "nom": "Lazar Hrebeljanović",
+      "role": "Prince",
+      "description": "Le prince serbe tué à la bataille de Kosovo, vénéré comme saint et martyr.",
+      "dates": "vers 1329 → 1389",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Lazar_Hrebeljanovi%C4%87"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Bataille de la Maritsa",
+      "annee": 1371,
+      "adversaires": ["Empire ottoman"],
+      "allies": [],
+      "morts": "Inconnues ; très lourdes pour les Serbes",
+      "vainqueur": "Empire ottoman",
+      "consequences": "Les seigneurs serbes du sud sont tués ; plusieurs princes deviennent vassaux des Ottomans.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_la_Maritsa"
+    },
+    {
+      "nom": "Bataille de Kosovo (1389)",
+      "annee": 1389,
+      "adversaires": ["Empire ottoman (Murad Ier)"],
+      "allies": ["Bosniens"],
+      "morts": "Très lourdes des deux côtés",
+      "vainqueur": "Empire ottoman (victoire coûteuse)",
+      "consequences": "Le prince Lazar et le sultan Murad Ier sont tués. La Serbie devient vassale des Ottomans ; la bataille occupe une place centrale dans la mémoire serbe.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Kosovo_(1389)"
+    },
+    {
+      "nom": "Chute de Smederevo",
+      "annee": 1459,
+      "adversaires": ["Empire ottoman (Mehmed II)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Empire ottoman",
+      "consequences": "La dernière capitale serbe est prise ; la Serbie reste sous domination ottomane jusqu’au XIXe siècle.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Siege_of_Smederevo_(1459)"
+    }
+  ],
+  "sciences": "Les mines d’argent, comme celle de Novo Brdo, exploitées avec l’aide de mineurs saxons, font de la Serbie l’un des grands producteurs d’argent d’Europe. Le Code de Dušan (1349) rassemble les lois de l’empire. Les architectes construisent des monastères mêlant styles byzantin et roman.",
+  "croyancesText": "La Serbie est orthodoxe ; saint Sava obtient en 1219 que l’Église serbe soit autonome. Les rois Nemanjić fondent de nombreux monastères, dont les fresques comptent parmi les chefs-d’œuvre de l’art médiéval. Plusieurs rois et princes, dont Lazar, sont vénérés comme saints.",
+  "diplomatie": "La Serbie oscille entre l’influence byzantine et celle de l’Europe catholique : le roi Étienne reçoit sa couronne du pape, mais l’Église reste orthodoxe. Elle commerce beaucoup avec la république de Raguse (Dubrovnik). À partir de 1371, elle doit faire face aux Ottomans, dont elle devient vassale.",
+  "societe": "Le roi gouverne avec une puissante noblesse. Les paysans travaillent les terres des nobles et des monastères. Des mineurs saxons et des marchands de Raguse s’installent dans les villes minières.",
+  "economie": "Mines d’argent et de plomb, agriculture, élevage, commerce avec Raguse et Venise.",
+  "arts": "Monastères de Studenica, Sopoćani, Dečani, Gračanica et leurs fresques ; manuscrits enluminés.",
+  "quotidien": "Les monastères sont aussi des hôpitaux, des écoles et des lieux d’accueil pour les voyageurs.",
+  "heritage": [
+    {
+      "titre": "Les monastères",
+      "texte": "Le monastère de Studenica, en Serbie, et plusieurs monastères médiévaux du Kosovo sont inscrits au patrimoine mondial de l’UNESCO."
+    },
+    {
+      "titre": "Saint Sava",
+      "texte": "Fête de l’école en Serbie, le jour de la Saint-Sava (27 janvier) honore le fondateur de l’Église serbe."
+    }
+  ],
+  "aSavoir": [
+    "La fresque de l’ange blanc du monastère de Mileševa, peinte vers 1235, est l’une des images les plus célèbres de l’art serbe."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Serbie_m%C3%A9di%C3%A9vale",
+    {
+      "titre": "Encyclopædia Britannica — Serbia, history",
+      "url": "https://www.britannica.com/place/Serbia/History"
+    }
+  ]
+}

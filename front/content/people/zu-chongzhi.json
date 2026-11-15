@@ -1,0 +1,17 @@
+{
+  "id": "zu-chongzhi",
+  "nom": "Zu Chongzhi",
+  "role": "Mathématicien et astronome",
+  "roles": ["Mathématicien", "Astronome", "Ingénieur"],
+  "dates": "429 → 500",
+  "naissance": 429,
+  "mort": 500,
+  "description": "Savant des dynasties du Sud, célèbre pour son calcul très précis du nombre π.",
+  "essentiel": [
+    "Il établit que π est compris entre 3,1415926 et 3,1415927.",
+    "Il propose aussi la fraction 355/113, une excellente approximation de π.",
+    "Il crée un nouveau calendrier, plus précis que les précédents.",
+    "Un cratère de la Lune porte son nom."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Zu_Chongzhi"
+}

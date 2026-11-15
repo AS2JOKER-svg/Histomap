@@ -1,0 +1,15 @@
+{
+  "id": "van-mieu",
+  "nom": "Temple de la Littérature",
+  "annee": 1070,
+  "domaine": "Éducation",
+  "dates": "1070",
+  "description": "Un temple dédié à Confucius, fondé à Hanoï en 1070, où s’installe en 1076 la première université du Vietnam, chargée de former les lettrés et les fonctionnaires.",
+  "sections": [
+    {
+      "titre": "Les stèles des docteurs",
+      "texte": "82 stèles de pierre posées sur des tortues portent les noms des lauréats des concours organisés entre 1442 et 1779. Elles sont inscrites au registre « Mémoire du monde » de l’UNESCO."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Temple_de_la_Litt%C3%A9rature_de_Hano%C3%AF"
+}

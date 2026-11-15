@@ -1,0 +1,19 @@
+{
+  "id": "galion-de-manille",
+  "nom": "Galion de Manille",
+  "annee": 1565,
+  "domaine": "Commerce",
+  "dates": "1565 → 1815",
+  "description": "La ligne de grands navires qui relie chaque année, pendant 250 ans, Acapulco au Mexique et Manille aux Philippines, à travers l’océan Pacifique.",
+  "sections": [
+    {
+      "titre": "De l’argent contre de la soie",
+      "texte": "Les galions emportent l’argent du Mexique et rapportent de la soie, de la porcelaine et des épices de Chine. C’est l’une des premières routes commerciales mondiales."
+    },
+    {
+      "titre": "Une traversée dangereuse",
+      "texte": "Le voyage de Manille à Acapulco dure parfois plus de quatre mois ; beaucoup de marins meurent du scorbut ou dans les tempêtes."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Galion_de_Manille"
+}

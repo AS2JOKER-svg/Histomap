@@ -1,0 +1,17 @@
+{
+  "id": "conversion-de-l-armenie-au-christianisme",
+  "nom": "Conversion de l’Arménie au christianisme",
+  "annee": 301,
+  "dates": "vers 301 (date traditionnelle)",
+  "lieu": "Vagharshapat (Arménie)",
+  "description": "Le roi Tiridate III adopte le christianisme sous l’influence de [[gregoire-l-illuminateur|Grégoire l’Illuminateur]] et en fait la religion officielle de son royaume.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "L’Arménie devient le premier État officiellement chrétien, une douzaine d’années avant que l’empereur romain Constantin n’autorise le christianisme. La cathédrale d’Etchmiadzin est fondée peu après."
+    }
+  ],
+  "liens": [{ "ref": "gregoire-l-illuminateur", "relation": "L’évangélisateur" }],
+  "aSavoir": ["Certains historiens placent la conversion vers 314."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Tiridate_IV_d%27Arm%C3%A9nie"
+}

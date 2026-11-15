@@ -1,0 +1,17 @@
+{
+  "id": "leonard-de-vinci",
+  "nom": "Léonard de Vinci",
+  "role": "Peintre, ingénieur et savant",
+  "roles": ["Peintre", "Ingénieur", "Savant", "Inventeur"],
+  "dates": "1452 → 1519",
+  "naissance": 1452,
+  "mort": 1519,
+  "description": "Artiste et savant de la Renaissance, auteur de La Joconde et de La Cène, il remplit des milliers de pages de dessins d’anatomie, de machines et d’observations de la nature.",
+  "essentiel": [
+    "Il se forme à Florence dans l’atelier du sculpteur et peintre Verrocchio.",
+    "Il travaille pour le duc de Milan, Ludovic Sforza, pour qui il peint La Cène.",
+    "Il imagine des machines volantes, des ponts et des armes, dont la plupart ne seront jamais construites.",
+    "Invité par François Ier, il finit sa vie en France, au Clos Lucé, près d’Amboise."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/L%C3%A9onard_de_Vinci"
+}

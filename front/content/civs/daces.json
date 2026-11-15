@@ -1,0 +1,164 @@
+{
+  "documentaires": [],
+  "decouvertes": ["sarmizegetusa"],
+  "id": "daces",
+  "label": "Royaume dace",
+  "tier": 2,
+  "region": "balkans",
+  "period": "-82 à 106",
+  "start": -82,
+  "end": 106,
+  "color": "#8e24aa",
+  "trackId": "thraces",
+  "row": 5,
+  "isRiver": false,
+  "capitale": "Sarmizegetusa Regia",
+  "description": "Le royaume des Daces, peuple apparenté aux Thraces installé au nord du Danube, dans l’actuelle Roumanie, unifié par Burebista puis conquis par l’empereur romain Trajan en 106.",
+  "territories": ["Dacians", "Dacia"],
+  "reperes": {
+    "capitale": { "valeur": "Sarmizegetusa Regia", "precision": "dans les monts d’Orăștie (Roumanie)" },
+    "regimes": { "valeur": "Royauté", "precision": "un roi, assisté d’un grand prêtre" },
+    "langues": { "valeur": "Dace", "precision": "une langue indo-européenne mal connue, proche du thrace" },
+    "religion": { "valeur": "Religion dace", "precision": "le dieu Zalmoxis, selon les auteurs grecs" },
+    "apogee": { "valeur": "Règne de Burebista (−82 → −44)" },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": { "valeur": "Pièces d’argent", "precision": "imitations de pièces grecques et romaines" },
+    "duree": { "valeur": "Environ 190 ans" },
+    "aujourdhui": { "valeur": "Roumanie", "precision": "et une partie des pays voisins" }
+  },
+  "essentiel": [
+    "Les Daces, apparentés aux Thraces, vivent au nord du Danube, dans les montagnes et les plaines de l’actuelle Roumanie, riches en or et en sel.",
+    "Vers −82, le roi Burebista les unifie et crée un vaste royaume, des Carpates à la mer Noire ; il est assassiné en −44, la même année que Jules César.",
+    "Le roi [[decebale|Décébale]] bat plusieurs fois les Romains et obtient de l’empereur Domitien une paix avantageuse (89).",
+    "L’empereur [[trajan|Trajan]] mène deux grandes guerres contre lui ; en 106, la capitale, [[sarmizegetusa|Sarmizegetusa Regia]], est prise et Décébale se donne la mort.",
+    "La Dacie devient une province romaine ; la colonne Trajane, à Rome, raconte ces guerres en images."
+  ],
+  "datesCles": [
+    { "annee": -82, "evenement": "Burebista", "info": "Burebista devient roi et unifie les Daces." },
+    { "annee": -44, "evenement": "Mort de Burebista", "info": "Burebista est assassiné ; son royaume se divise." },
+    {
+      "annee": 87,
+      "evenement": "Décébale",
+      "info": "Décébale devient roi et combat les armées de l’empereur Domitien."
+    },
+    {
+      "annee": 89,
+      "evenement": "Paix avec Rome",
+      "info": "Domitien accorde à Décébale de l’argent et des ingénieurs en échange de la paix."
+    },
+    { "annee": 101, "evenement": "Trajan", "info": "L’empereur Trajan envahit la Dacie." },
+    {
+      "annee": 106,
+      "evenement": "Chute de Sarmizegetusa",
+      "info": "La capitale est prise ; Décébale se suicide ; la Dacie devient province romaine."
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "Le royaume de Burebista",
+      "debut": -82,
+      "fin": -44,
+      "resume": "Burebista unifie les Daces et fait de leur royaume une grande puissance du bas Danube.",
+      "evenements": [{ "annee": -82, "evenement": "Burebista roi" }, { "annee": -44, "evenement": "Assassinat de Burebista" }]
+    },
+    {
+      "nom": "Les royaumes daces",
+      "debut": -44,
+      "fin": 87,
+      "resume": "Le royaume se divise en plusieurs principautés, qui commercent avec Rome et lancent parfois des raids au sud du Danube.",
+      "evenements": []
+    },
+    {
+      "nom": "Décébale face à Rome",
+      "debut": 87,
+      "fin": 106,
+      "resume": "Décébale résiste aux Romains, mais Trajan conquiert la Dacie en deux guerres.",
+      "evenements": [{ "annee": 89, "evenement": "Paix avec Domitien" }, { "annee": 106, "evenement": "Chute de Sarmizegetusa" }]
+    }
+  ],
+  "regimes": [{ "id": "royaute", "nom": "Royauté", "debut": -82, "fin": 106 }],
+  "dynasties": [{ "id": "rois", "nom": "Les rois daces", "debut": -82, "fin": 106, "note": "Sélection." }],
+  "dirigeants": [
+    {
+      "nom": "Burebista",
+      "titre": "Roi",
+      "debut": -82,
+      "fin": -44,
+      "dynastie": "rois",
+      "note": "unifie les Daces",
+      "cle": true
+    },
+    { "nom": "Décébale", "titre": "Roi", "debut": 87, "fin": 106, "dynastie": "rois", "personne": "decebale", "cle": true }
+  ],
+  "personnages": [
+    {
+      "nom": "Décébale",
+      "role": "Roi des Daces",
+      "description": "L’adversaire de Domitien et de Trajan.",
+      "dates": "? → 106",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/D%C3%A9c%C3%A9bale",
+      "ref": "decebale"
+    },
+    {
+      "nom": "Décénée",
+      "role": "Grand prêtre",
+      "description": "Conseiller de Burebista, il aurait poussé les Daces à arracher leurs vignes pour lutter contre l’ivresse, selon les auteurs anciens.",
+      "dates": "Ier siècle av. J.-C.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Deceneus"
+    },
+    {
+      "nom": "Trajan",
+      "role": "Empereur romain",
+      "description": "Le conquérant de la Dacie.",
+      "dates": "53 → 117",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Trajan",
+      "ref": "trajan"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerres daciques de Domitien",
+      "annee": 86,
+      "adversaires": ["Empire romain (Domitien)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Indécis (paix de 89)",
+      "consequences": "Les Daces battent une armée romaine dont le général Fuscus est tué, puis subissent une défaite à Tapae. Domitien accorde la paix et verse un subside à Décébale.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_dacique_de_Domitien"
+    },
+    {
+      "nom": "Guerres daciques de Trajan",
+      "annee": 101,
+      "adversaires": ["Empire romain (Trajan)"],
+      "allies": [],
+      "morts": "Inconnues ; très lourdes",
+      "vainqueur": "Empire romain",
+      "consequences": "Après deux guerres (101-102 et 105-106), la capitale est prise et Décébale se suicide. La Dacie devient une province romaine ; son or enrichit l’Empire.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerres_daciques_de_Trajan"
+    }
+  ],
+  "sciences": "Les Daces construisent des forteresses en blocs de pierre taillée, selon une technique apprise des Grecs, le « mur dace ». À Sarmizegetusa, ils élèvent des sanctuaires circulaires de piliers de pierre, peut-être liés à un calendrier. Ils exploitent les mines d’or et d’argent des Carpates.",
+  "croyancesText": "Selon l’historien grec Hérodote, les Gètes et les Daces honorent Zalmoxis, un dieu ou un sage qui promettait une vie après la mort. Les grands prêtres ont une forte influence sur les rois. Leur étendard, le dragon dace, a une tête de loup et un corps de serpent qui siffle dans le vent.",
+  "diplomatie": "Burebista combat les Celtes et les cités grecques de la mer Noire, et se mêle aux guerres civiles romaines. Décébale alterne guerre et négociation avec Rome, et cherche des alliés parmi les peuples voisins.",
+  "societe": "La société est dominée par une noblesse, les « porteurs de bonnet » (pileati), dont sont issus les rois et les prêtres ; les gens du peuple sont appelés « chevelus » (comati).",
+  "economie": "Agriculture, élevage, mines d’or, d’argent et de sel, commerce avec les Grecs et les Romains.",
+  "arts": "Bijoux et vaisselle d’argent, bracelets en spirale en or, céramique peinte.",
+  "quotidien": "Les guerriers daces combattent avec la falx, une terrible faux à deux mains capable de fendre les casques ; les Romains renforcent leurs armures pour s’en protéger.",
+  "heritage": [
+    {
+      "titre": "Les forteresses daces",
+      "texte": "Les forteresses des monts d’Orăștie, dont Sarmizegetusa Regia, sont inscrites au patrimoine mondial de l’UNESCO depuis 1999."
+    },
+    {
+      "titre": "La Roumanie",
+      "texte": "Après la conquête, le latin s’impose dans la région ; le roumain est une langue latine. Le rôle exact des Daces dans les origines des Roumains reste discuté par les historiens."
+    }
+  ],
+  "aSavoir": [
+    "La colonne Trajane, haute d’environ 30 mètres, est entourée d’une frise sculptée de près de 200 mètres qui raconte les guerres daciques."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Daces",
+    { "titre": "Encyclopædia Britannica — Dacia", "url": "https://www.britannica.com/place/Dacia" }
+  ]
+}

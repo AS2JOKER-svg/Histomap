@@ -1,0 +1,17 @@
+{
+  "id": "decebale",
+  "nom": "Décébale",
+  "role": "Roi des Daces",
+  "roles": ["Roi", "Chef de guerre"],
+  "dates": "? → 106",
+  "mort": 106,
+  "description": "Roi des Daces de 87 à 106, il résiste à deux empereurs romains avant d’être vaincu par Trajan.",
+  "reperes": [{ "label": "Règne", "valeur": "87 → 106" }],
+  "essentiel": [
+    "Il bat une armée romaine en 86-87 ; son général Fuscus est tué.",
+    "En 89, il obtient de Domitien de l’argent et des ingénieurs en échange de la paix.",
+    "Trajan l’attaque en 101-102, puis en 105-106.",
+    "Encerclé, il se tue plutôt que d’être capturé ; sa tête est apportée à Rome."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/D%C3%A9c%C3%A9bale"
+}

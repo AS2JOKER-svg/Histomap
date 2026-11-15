@@ -1,0 +1,18 @@
+{
+  "id": "mesa-verde",
+  "nom": "Mesa Verde",
+  "domaine": "Architecture",
+  "dates": "vers 1190 → vers 1280",
+  "description": "Des villages de pierre construits à l’abri de grandes falaises, dans le Colorado, dont le plus grand, le Cliff Palace, compte environ 150 pièces.",
+  "sections": [
+    {
+      "titre": "Pourquoi sous les falaises ?",
+      "texte": "Ces villages protégeaient du froid, du soleil et peut-être des attaques. Ils ne sont habités qu’un siècle environ."
+    },
+    {
+      "titre": "Aujourd’hui",
+      "texte": "Mesa Verde est l’un des tout premiers sites inscrits au patrimoine mondial de l’UNESCO, en 1978."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Parc_national_de_Mesa_Verde"
+}

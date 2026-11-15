@@ -1,0 +1,18 @@
+{
+  "id": "boomerang",
+  "nom": "Boomerang",
+  "domaine": "Techniques",
+  "dates": "au moins 10 000 ans",
+  "description": "Un bâton de bois courbé, lancé en tournoyant, utilisé pour la chasse, la guerre, la musique ou les jeux.",
+  "sections": [
+    {
+      "titre": "Tous ne reviennent pas",
+      "texte": "Les boomerangs de chasse, lourds, ne reviennent pas : ils servent à abattre le gibier. Les boomerangs qui reviennent sont plus légers et servent surtout au jeu ou à effrayer les oiseaux."
+    },
+    {
+      "titre": "Très ancien",
+      "texte": "Des boomerangs vieux d’environ 10 000 ans ont été retrouvés en Australie. Des bâtons de jet de ce type ont aussi existé ailleurs, par exemple en Égypte ancienne."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Boomerang"
+}

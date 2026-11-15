@@ -1,0 +1,232 @@
+{
+  "documentaires": [],
+  "decouvertes": ["tombeaux-des-rois-du-buganda"],
+  "id": "buganda",
+  "label": "Royaume du Buganda",
+  "tier": 2,
+  "region": "afrique-est",
+  "period": "vers 1300 à 1966",
+  "start": 1300,
+  "end": 1966,
+  "color": "#283593",
+  "trackId": "afrique_est",
+  "row": 2,
+  "isRiver": false,
+  "capitale": "Mengo (Kampala)",
+  "description": "Un royaume des bords du lac Victoria, dirigé par le kabaka, qui devient au XIXe siècle la principale puissance de la région des Grands Lacs, puis le cœur de l’Ouganda.",
+  "territories": ["Buganda"],
+  "reperes": {
+    "capitale": {
+      "valeur": "Mengo (Kampala)",
+      "precision": "la capitale change avec chaque kabaka ; elle se fixe à Mengo à la fin du XIXe siècle"
+    },
+    "regimes": {
+      "valeur": "Monarchie",
+      "precision": "le kabaka gouverne avec un premier ministre (katikiro) et une assemblée, le Lukiiko"
+    },
+    "langues": { "valeur": "Luganda" },
+    "religion": {
+      "valeur": "Religion traditionnelle, puis christianisme et islam",
+      "precision": "arrivée de l’islam (années 1840) et des missions chrétiennes (1877-1879)"
+    },
+    "apogee": { "valeur": "XIXe siècle", "precision": "règne de Mutesa Ier" },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": { "valeur": "Cauris", "precision": "ainsi que des tissus d’écorce" },
+    "duree": { "valeur": "Plus de 600 ans", "precision": "jusqu’à l’abolition de 1966-1967 ; rétabli en 1993" },
+    "aujourdhui": { "valeur": "Ouganda", "precision": "le royaume, rétabli en 1993, a un rôle culturel" }
+  },
+  "essentiel": [
+    "Selon la tradition, le royaume est fondé au XIVe siècle par Kintu, ancêtre mythique, sur la rive nord du lac Victoria.",
+    "Aux XVIIIe et XIXe siècles, le Buganda s’agrandit aux dépens du royaume voisin du Bunyoro ; le kabaka nomme lui-même ses chefs et dispose d’une flotte de pirogues sur le lac.",
+    "[[mutesa-ier|Mutesa Ier]] reçoit les explorateurs Speke (1862) et Stanley (1875) ; marchands musulmans et missionnaires chrétiens s’installent à sa cour.",
+    "Son successeur Mwanga II fait exécuter des convertis chrétiens, les [[martyrs-de-l-ouganda|martyrs de l’Ouganda]] (1885-1887) ; des guerres de religion déchirent ensuite le royaume.",
+    "Protectorat britannique en 1894, le Buganda est le cœur de l’Ouganda indépendant (1962) ; en 1966, le gouvernement attaque le palais et abolit la monarchie, rétablie en 1993."
+  ],
+  "datesCles": [
+    { "annee": 1300, "evenement": "Kintu", "info": "Selon la tradition, au XIVe siècle, Kintu fonde le royaume." },
+    { "annee": 1856, "evenement": "Mutesa Ier", "info": "Le kabaka le plus célèbre monte sur le trône." },
+    {
+      "annee": 1875,
+      "evenement": "Stanley",
+      "info": "L’explorateur Henry Morton Stanley est reçu à la cour et appelle des missionnaires."
+    },
+    {
+      "annee": 1886,
+      "evenement": "Martyrs de l’Ouganda",
+      "info": "Des pages chrétiens du roi sont brûlés vifs à Namugongo.",
+      "ref": "martyrs-de-l-ouganda"
+    },
+    { "annee": 1894, "evenement": "Protectorat", "info": "Le Royaume-Uni établit un protectorat sur le Buganda." },
+    {
+      "annee": 1900,
+      "evenement": "Accord de 1900",
+      "info": "Un accord fixe les pouvoirs du kabaka et des chefs sous l’autorité britannique."
+    },
+    {
+      "annee": 1962,
+      "evenement": "Indépendance de l’Ouganda",
+      "info": "Le kabaka Mutesa II devient président de l’Ouganda en 1963."
+    },
+    {
+      "annee": 1966,
+      "evenement": "Crise de Mengo",
+      "info": "Le Premier ministre Milton Obote fait attaquer le palais ; le kabaka s’exile et la monarchie est abolie."
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "La formation du royaume",
+      "debut": 1300,
+      "fin": 1700,
+      "resume": "Un petit royaume de clans s’affirme sur la rive nord du lac Victoria, à l’ombre du Bunyoro.",
+      "evenements": [{ "annee": 1300, "evenement": "Kintu" }]
+    },
+    {
+      "nom": "L’expansion",
+      "debut": 1700,
+      "fin": 1884,
+      "resume": "Le Buganda devient la grande puissance de la région ; Mutesa Ier ouvre son royaume au commerce et aux religions venues de l’extérieur.",
+      "evenements": [{ "annee": 1856, "evenement": "Mutesa Ier" }, { "annee": 1875, "evenement": "Stanley" }]
+    },
+    {
+      "nom": "Religions, colonisation et indépendance",
+      "debut": 1884,
+      "fin": 1966,
+      "resume": "Guerres de religion, protectorat britannique, puis place centrale dans l’Ouganda indépendant, jusqu’à la crise de 1966.",
+      "evenements": [
+        { "annee": 1886, "evenement": "Martyrs de l’Ouganda", "ref": "martyrs-de-l-ouganda" },
+        { "annee": 1894, "evenement": "Protectorat" },
+        { "annee": 1966, "evenement": "Crise de Mengo" }
+      ]
+    }
+  ],
+  "regimes": [
+    { "id": "royaume", "nom": "Royaume du Buganda", "debut": 1300, "fin": 1894 },
+    {
+      "id": "protectorat",
+      "nom": "Royaume sous protectorat britannique, puis dans l’Ouganda",
+      "debut": 1894,
+      "fin": 1966
+    }
+  ],
+  "dynasties": [
+    {
+      "id": "kabakas",
+      "nom": "Les kabakas",
+      "debut": 1832,
+      "fin": 1966,
+      "note": "Sélection : les rois du XIXe et du XXe siècle."
+    }
+  ],
+  "dirigeants": [
+    { "nom": "Suna II", "titre": "Kabaka", "debut": 1832, "fin": 1856, "dynastie": "kabakas" },
+    {
+      "nom": "Mutesa Ier",
+      "titre": "Kabaka",
+      "debut": 1856,
+      "fin": 1884,
+      "dynastie": "kabakas",
+      "personne": "mutesa-ier",
+      "cle": true
+    },
+    {
+      "nom": "Mwanga II",
+      "titre": "Kabaka",
+      "debut": 1884,
+      "fin": 1897,
+      "dynastie": "kabakas",
+      "note": "règne interrompu en 1888-1889 ; exilé par les Britanniques",
+      "cle": true
+    },
+    {
+      "nom": "Daudi Chwa II",
+      "titre": "Kabaka",
+      "debut": 1897,
+      "fin": 1939,
+      "dynastie": "kabakas",
+      "note": "couronné bébé, sous protectorat",
+      "cle": true
+    },
+    {
+      "nom": "Mutesa II",
+      "titre": "Kabaka",
+      "debut": 1939,
+      "fin": 1966,
+      "dynastie": "kabakas",
+      "note": "président de l’Ouganda (1963-1966), exilé",
+      "cle": true
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Mutesa Ier",
+      "role": "Kabaka",
+      "description": "Le roi qui ouvre le Buganda au monde extérieur.",
+      "dates": "vers 1837 → 1884",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Muteesa_Ier",
+      "ref": "mutesa-ier"
+    },
+    {
+      "nom": "Charles Lwanga",
+      "role": "Martyr chrétien",
+      "description": "Chef des pages du roi, exécuté en 1886 ; il est canonisé avec ses compagnons en 1964.",
+      "dates": "vers 1860 → 1886",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Charles_Lwanga"
+    },
+    {
+      "nom": "Henry Morton Stanley",
+      "role": "Explorateur",
+      "description": "Reçu par Mutesa en 1875, il publie un appel aux missionnaires dans un journal britannique.",
+      "dates": "1841 → 1904",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Henry_Morton_Stanley"
+    },
+    {
+      "nom": "Apolo Kagwa",
+      "role": "Premier ministre (katikiro)",
+      "description": "Chef protestant, il gouverne de fait le Buganda pendant la minorité de Daudi Chwa et négocie l’accord de 1900.",
+      "dates": "vers 1864 → 1927",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Apolo_Kagwa"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerres de religion du Buganda",
+      "annee": 1888,
+      "adversaires": ["Factions musulmane, catholique et protestante"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Faction protestante, soutenue par les Britanniques",
+      "consequences": "Le kabaka Mwanga est renversé puis rétabli ; les chefs protestants dominent le royaume, qui passe sous protectorat britannique en 1894.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Royaume_du_Buganda"
+    },
+    {
+      "nom": "Crise de Mengo",
+      "annee": 1966,
+      "adversaires": ["Gouvernement de l’Ouganda (Milton Obote)"],
+      "allies": [],
+      "morts": "Plusieurs centaines selon les estimations",
+      "vainqueur": "Gouvernement ougandais",
+      "consequences": "L’armée prend le palais du kabaka, qui s’exile au Royaume-Uni ; les royaumes traditionnels sont abolis en 1967.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Royaume_du_Buganda"
+    }
+  ],
+  "sciences": "Les Baganda fabriquent des tissus d’écorce de figuier, battus et assouplis, une technique inscrite au patrimoine immatériel de l’humanité. Ils construisent de grandes pirogues pour naviguer sur le lac Victoria et des routes droites qui relient la capitale aux provinces.",
+  "croyancesText": "La religion traditionnelle honore les esprits des ancêtres et des divinités, les lubaale, servis par des prêtres et des médiums. L’islam arrive dans les années 1840 avec les marchands arabes et swahilis, le christianisme avec les missionnaires protestants (1877) et catholiques (1879). Les rivalités entre ces communautés marquent la fin du XIXe siècle.",
+  "diplomatie": "Le Buganda s’agrandit aux dépens du Bunyoro et domine les petits royaumes voisins. Au XIXe siècle, il commerce avec les marchands venus de Zanzibar, puis négocie avec les Britanniques, qui s’appuient sur lui pour contrôler l’Ouganda.",
+  "societe": "Le kabaka nomme et révoque lui-même les chefs de province, ce qui rend son pouvoir très fort. La société est organisée en clans, chacun associé à un animal ou à une plante emblème. Les pages de la cour sont formés pour devenir les futurs chefs.",
+  "economie": "Culture de la banane plantain, base de l’alimentation, élevage, pêche sur le lac ; plus tard, culture du coton et du café.",
+  "arts": "Tissus d’écorce, tambours royaux, grandes huttes de chaume comme les tombeaux royaux de Kasubi.",
+  "quotidien": "Le matoke, purée de bananes plantains cuites à la vapeur dans des feuilles, est le plat de tous les jours.",
+  "heritage": [
+    {
+      "titre": "Les tombeaux de Kasubi",
+      "texte": "Les tombes royales de Kampala sont inscrites au patrimoine mondial."
+    },
+    { "titre": "Le nom de l’Ouganda", "texte": "« Ouganda » vient de la forme swahilie du nom « Buganda »." }
+  ],
+  "aSavoir": ["Les martyrs de l’Ouganda sont honorés chaque 3 juin par un immense pèlerinage à Namugongo."],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Royaume_du_Buganda",
+    { "titre": "Encyclopædia Britannica — Buganda", "url": "https://www.britannica.com/place/Buganda" }
+  ]
+}

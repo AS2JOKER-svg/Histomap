@@ -1,0 +1,307 @@
+{
+  "documentaires": [],
+  "decouvertes": [],
+  "id": "monarchie-habsbourg",
+  "label": "Monarchie des Habsbourg",
+  "tier": 1,
+  "region": "europe-centrale",
+  "period": "1526 à 1804",
+  "start": 1526,
+  "end": 1804,
+  "trackId": "autriche",
+  "row": 5,
+  "isRiver": false,
+  "capitale": "Vienne",
+  "description": "L’ensemble de royaumes et de pays réunis autour de Vienne par la dynastie des Habsbourg — Autriche, Bohême, Hongrie et bien d’autres —, rempart face aux Ottomans et grande puissance d’Europe centrale jusqu’à la création de l’Empire d’Autriche en 1804.",
+  "territories": ["Austrian Empire", "Austrian Netherlands", "Milano (Austria)"],
+  "reperes": {
+    "capitale": { "valeur": "Vienne", "precision": "Prague sous l’empereur Rodolphe II (1583-1612)" },
+    "regimes": {
+      "valeur": "Monarchie composite",
+      "precision": "un même souverain règne sur plusieurs pays qui gardent leurs lois ; il est aussi presque toujours empereur du Saint-Empire"
+    },
+    "langues": { "valeur": "Allemand, hongrois, tchèque, latin et bien d’autres", "precision": "l’allemand domine à la cour" },
+    "religion": {
+      "valeur": "Catholicisme",
+      "precision": "les Habsbourg mènent la Contre-Réforme ; Joseph II accorde la tolérance aux protestants en 1781"
+    },
+    "apogee": { "valeur": "Règne de Marie-Thérèse (1740 → 1780)" },
+    "population": { "valeur": "Environ 20 millions vers 1780", "precision": "estimation" },
+    "monnaie": {
+      "valeur": "Thaler de Marie-Thérèse",
+      "precision": "pièce d’argent utilisée jusqu’en Afrique et au Moyen-Orient"
+    },
+    "duree": { "valeur": "Près de 280 ans" },
+    "aujourdhui": {
+      "valeur": "Autriche, Tchéquie, Hongrie, Slovaquie",
+      "precision": "ainsi qu’une partie de la Pologne, de la Roumanie, de la Croatie, de la Belgique et de l’Italie"
+    }
+  },
+  "essentiel": [
+    "Les Habsbourg agrandissent leur domaine surtout par des mariages ; en 1526, après la mort du roi Louis II à [[bataille-de-mohacs|Mohács]], Ferdinand Ier devient roi de Bohême et de Hongrie.",
+    "Vienne devient le rempart de l’Europe chrétienne face aux Ottomans, qui l’assiègent en [[premier-siege-de-vienne|1529]] et en [[bataille-de-vienne|1683]].",
+    "Les Habsbourg mènent la Contre-Réforme catholique ; la révolte de la Bohême protestante en 1618 déclenche la guerre de Trente Ans.",
+    "L’impératrice [[marie-therese|Marie-Thérèse]] défend son héritage contre la Prusse et réforme l’État ; son fils [[joseph-ii|Joseph II]] accorde la tolérance religieuse et abolit le servage.",
+    "Vienne devient une capitale de la musique, avec Haydn et Mozart ; en 1804, François II proclame l’Empire d’Autriche."
+  ],
+  "datesCles": [
+    {
+      "annee": 1526,
+      "evenement": "Ferdinand Ier",
+      "info": "Après Mohács, Ferdinand Ier devient roi de Bohême et de Hongrie.",
+      "ref": "bataille-de-mohacs"
+    },
+    {
+      "annee": 1529,
+      "evenement": "Premier siège de Vienne",
+      "info": "Les Ottomans de Soliman échouent devant Vienne.",
+      "ref": "premier-siege-de-vienne"
+    },
+    {
+      "annee": 1556,
+      "evenement": "Partage des Habsbourg",
+      "info": "Charles Quint abdique : l’Espagne revient à son fils, l’Autriche à son frère Ferdinand."
+    },
+    {
+      "annee": 1618,
+      "evenement": "Défenestration de Prague",
+      "info": "Des nobles protestants jettent par la fenêtre deux gouverneurs de l’empereur et leur secrétaire : la guerre de Trente Ans commence."
+    },
+    {
+      "annee": 1683,
+      "evenement": "Bataille de Vienne",
+      "info": "Une armée chrétienne, menée par le roi de Pologne, brise le second siège ottoman.",
+      "ref": "bataille-de-vienne"
+    },
+    {
+      "annee": 1699,
+      "evenement": "Traité de Karlowitz",
+      "info": "Les Ottomans cèdent presque toute la Hongrie aux Habsbourg."
+    },
+    {
+      "annee": 1740,
+      "evenement": "Marie-Thérèse",
+      "info": "Marie-Thérèse hérite des terres des Habsbourg ; la Prusse envahit la Silésie."
+    },
+    {
+      "annee": 1781,
+      "evenement": "Édit de tolérance",
+      "info": "Joseph II accorde la liberté de culte aux protestants et aux orthodoxes."
+    },
+    { "annee": 1804, "evenement": "Empire d’Autriche", "info": "François II se proclame empereur d’Autriche." }
+  ],
+  "periodes": [
+    {
+      "nom": "Face aux Ottomans",
+      "debut": 1526,
+      "fin": 1618,
+      "resume": "Les Habsbourg réunissent l’Autriche, la Bohême et une partie de la Hongrie et défendent Vienne contre les Ottomans.",
+      "evenements": [
+        { "annee": 1529, "evenement": "Premier siège de Vienne", "ref": "premier-siege-de-vienne" },
+        { "annee": 1556, "evenement": "Partage entre les branches d’Espagne et d’Autriche" }
+      ]
+    },
+    {
+      "nom": "Guerres de religion et reconquête",
+      "debut": 1618,
+      "fin": 1740,
+      "resume": "Après la guerre de Trente Ans, les Habsbourg repoussent les Ottomans et reprennent la Hongrie.",
+      "evenements": [
+        { "annee": 1618, "evenement": "Défenestration de Prague" },
+        { "annee": 1683, "evenement": "Bataille de Vienne", "ref": "bataille-de-vienne" },
+        { "annee": 1699, "evenement": "Traité de Karlowitz" }
+      ]
+    },
+    {
+      "nom": "Le temps des réformes",
+      "debut": 1740,
+      "fin": 1804,
+      "resume": "Marie-Thérèse et Joseph II modernisent l’État, l’école et l’armée.",
+      "evenements": [
+        { "annee": 1740, "evenement": "Avènement de Marie-Thérèse" },
+        { "annee": 1774, "evenement": "École obligatoire" },
+        { "annee": 1781, "evenement": "Édit de tolérance" }
+      ]
+    }
+  ],
+  "regimes": [{ "id": "monarchie", "nom": "Monarchie composite", "debut": 1526, "fin": 1804 }],
+  "dynasties": [
+    {
+      "id": "habsbourg",
+      "nom": "Les Habsbourg, puis Habsbourg-Lorraine",
+      "debut": 1526,
+      "fin": 1804,
+      "note": "Sélection."
+    }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Ferdinand Ier",
+      "titre": "Archiduc, roi, puis empereur",
+      "debut": 1526,
+      "fin": 1564,
+      "dynastie": "habsbourg",
+      "note": "fondateur de la monarchie danubienne",
+      "cle": true
+    },
+    {
+      "nom": "Rodolphe II",
+      "titre": "Empereur",
+      "debut": 1576,
+      "fin": 1612,
+      "dynastie": "habsbourg",
+      "note": "fait de Prague un foyer des arts et des sciences",
+      "cle": true
+    },
+    {
+      "nom": "Ferdinand II",
+      "titre": "Empereur",
+      "debut": 1619,
+      "fin": 1637,
+      "dynastie": "habsbourg",
+      "note": "mène la Contre-Réforme"
+    },
+    {
+      "nom": "Léopold Ier",
+      "titre": "Empereur",
+      "debut": 1658,
+      "fin": 1705,
+      "dynastie": "habsbourg",
+      "note": "règne lors du second siège de Vienne",
+      "cle": true
+    },
+    {
+      "nom": "Charles VI",
+      "titre": "Empereur",
+      "debut": 1711,
+      "fin": 1740,
+      "dynastie": "habsbourg",
+      "note": "Pragmatique Sanction pour sa fille"
+    },
+    {
+      "nom": "Marie-Thérèse",
+      "titre": "Archiduchesse, reine de Hongrie et de Bohême",
+      "debut": 1740,
+      "fin": 1780,
+      "dynastie": "habsbourg",
+      "personne": "marie-therese",
+      "cle": true
+    },
+    {
+      "nom": "Joseph II",
+      "titre": "Empereur",
+      "debut": 1780,
+      "fin": 1790,
+      "dynastie": "habsbourg",
+      "personne": "joseph-ii",
+      "cle": true
+    },
+    {
+      "nom": "François II",
+      "titre": "Empereur",
+      "debut": 1792,
+      "fin": 1835,
+      "dynastie": "habsbourg",
+      "note": "empereur d’Autriche à partir de 1804"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Marie-Thérèse",
+      "role": "Souveraine",
+      "description": "La souveraine qui défend et réforme la monarchie.",
+      "dates": "1717 → 1780",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Marie-Th%C3%A9r%C3%A8se_d%27Autriche",
+      "ref": "marie-therese"
+    },
+    {
+      "nom": "Joseph II",
+      "role": "Empereur",
+      "description": "Le « despote éclairé » qui réforme à marche forcée.",
+      "dates": "1741 → 1790",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Joseph_II_(empereur_du_Saint-Empire)",
+      "ref": "joseph-ii"
+    },
+    {
+      "nom": "Eugène de Savoie",
+      "role": "Général",
+      "description": "Le plus grand général des Habsbourg, vainqueur des Ottomans à Zenta (1697).",
+      "dates": "1663 → 1736",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Eug%C3%A8ne_de_Savoie-Carignan"
+    },
+    {
+      "nom": "Wolfgang Amadeus Mozart",
+      "role": "Compositeur",
+      "description": "Enfant prodige né à Salzbourg, il compose à Vienne une grande partie de son œuvre.",
+      "dates": "1756 → 1791",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Siège de Vienne (1529)",
+      "annee": 1529,
+      "adversaires": ["Empire ottoman (Soliman le Magnifique)"],
+      "allies": [],
+      "morts": "Plusieurs milliers",
+      "vainqueur": "Habsbourg (les Ottomans se retirent)",
+      "consequences": "Freinée par les pluies et l’hiver qui approche, l’armée ottomane lève le siège ; l’avance ottomane en Europe s’arrête aux portes de Vienne.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Vienne_(1529)"
+    },
+    {
+      "nom": "Guerre de Trente Ans",
+      "annee": 1618,
+      "adversaires": ["Protestants de Bohême et d’Allemagne", "Suède", "France"],
+      "allies": ["Espagne", "Ligue catholique"],
+      "morts": "Plusieurs millions en Allemagne, guerre, famine et épidémies comprises",
+      "vainqueur": "Camp anti-impérial (France, Suède et leurs alliés)",
+      "consequences": "Partie de la révolte de Bohême, la guerre ravage l’Allemagne. La paix de Westphalie (1648) affaiblit le pouvoir de l’empereur sur les princes allemands, mais les Habsbourg gardent la Bohême catholique.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_de_Trente_Ans"
+    },
+    {
+      "nom": "Bataille de Vienne",
+      "annee": 1683,
+      "adversaires": ["Empire ottoman (Kara Mustafa)"],
+      "allies": ["Pologne (Jean III Sobieski)", "Princes allemands"],
+      "morts": "Plusieurs milliers",
+      "vainqueur": "Coalition chrétienne",
+      "consequences": "La charge de la cavalerie polonaise brise le siège. Les Habsbourg reprennent ensuite la Hongrie aux Ottomans (traité de Karlowitz, 1699).",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Vienne_(1683)"
+    },
+    {
+      "nom": "Guerres de Silésie",
+      "annee": 1740,
+      "adversaires": ["Royaume de Prusse (Frédéric II)"],
+      "allies": [],
+      "morts": "Inconnues pour l’ensemble des trois guerres",
+      "vainqueur": "Prusse",
+      "consequences": "Frédéric II envahit la Silésie dès l’avènement de Marie-Thérèse ; malgré trois guerres, l’Autriche ne parvient pas à la reprendre.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerres_de_Sil%C3%A9sie"
+    }
+  ],
+  "sciences": "L’empereur Rodolphe II attire à Prague les astronomes Tycho Brahe et Johannes Kepler. Marie-Thérèse rend l’école obligatoire en 1774 et fait inoculer ses enfants contre la variole en 1768, ce qui encourage cette protection. À Vienne, de grands médecins fondent une école de médecine réputée, et l’hôpital général ouvre en 1784.",
+  "croyancesText": "Les Habsbourg sont les champions de la Contre-Réforme catholique : après 1620, les protestants de Bohême et d’Autriche doivent se convertir ou partir. En 1781, l’édit de tolérance de Joseph II accorde la liberté de culte aux protestants et aux orthodoxes ; en 1782, de nouveaux édits accordent des droits aux Juifs.",
+  "diplomatie": "« Que d’autres fassent la guerre ; toi, heureuse Autriche, marie-toi » : la devise rappelle que les Habsbourg agrandissent leur domaine par des mariages. Rivaux de la France pendant deux siècles, ils s’allient à elle en 1756 ; Marie-Thérèse marie sa fille Marie-Antoinette au futur Louis XVI. Ils affrontent la Prusse pour la domination de l’Allemagne.",
+  "societe": "La noblesse, très puissante, possède de grands domaines où travaillent des paysans soumis au servage. À partir de 1781, Joseph II abolit le servage personnel dans plusieurs pays de la monarchie.",
+  "economie": "Agriculture, mines d’argent et de sel, artisanat et premières manufactures, commerce par le Danube et le port de Trieste.",
+  "arts": "Château de Schönbrunn, abbaye de Melk, Karlskirche de Vienne, musique de Haydn, Mozart et Beethoven.",
+  "quotidien": "Le thaler de Marie-Thérèse, pièce d’argent frappée à son effigie, a servi de monnaie pendant près de deux siècles jusqu’en Éthiopie et en Arabie.",
+  "heritage": [
+    {
+      "titre": "Vienne, capitale de la musique",
+      "texte": "Haydn, Mozart puis Beethoven font de Vienne la capitale de la musique classique."
+    },
+    {
+      "titre": "Schönbrunn",
+      "texte": "Le château de Schönbrunn, résidence d’été des Habsbourg, est inscrit au patrimoine mondial de l’UNESCO depuis 1996."
+    }
+  ],
+  "aSavoir": ["Marie-Thérèse eut seize enfants, dont Marie-Antoinette, future reine de France."],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Monarchie_de_Habsbourg",
+    {
+      "titre": "Encyclopædia Britannica — Habsburg monarchy",
+      "url": "https://www.britannica.com/topic/Habsburg-Monarchy"
+    }
+  ]
+}

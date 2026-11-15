@@ -1,0 +1,288 @@
+{
+  "documentaires": [],
+  "decouvertes": [],
+  "id": "pologne-contemp",
+  "label": "Pologne contemporaine",
+  "tier": 2,
+  "region": "europe-centrale",
+  "period": "1918 à 2020",
+  "start": 1918,
+  "end": 2020,
+  "trackId": "pologne",
+  "row": 7,
+  "isRiver": false,
+  "capitale": "Varsovie",
+  "description": "La Pologne renaît en 1918 après plus d’un siècle de partages, subit l’occupation allemande et soviétique pendant la Seconde Guerre mondiale, vit sous un régime communiste, puis devient en 1989 une démocratie membre de l’Union européenne.",
+  "territories": ["Poland"],
+  "reperes": {
+    "capitale": { "valeur": "Varsovie" },
+    "regimes": { "valeur": "République, régime communiste, puis démocratie", "precision": "régime communiste de 1945 à 1989" },
+    "langues": { "valeur": "Polonais" },
+    "religion": { "valeur": "Catholicisme", "precision": "avant 1939, environ un Polonais sur dix est juif" },
+    "apogee": { "valeur": "Depuis les années 1990", "precision": "forte croissance après la fin du communisme" },
+    "population": {
+      "valeur": "Environ 38 millions en 2020",
+      "precision": "environ 35 millions en 1939, dans d’autres frontières"
+    },
+    "monnaie": { "valeur": "Złoty" },
+    "duree": { "valeur": "Environ 100 ans dans cette fiche" },
+    "aujourdhui": { "valeur": "Pologne" }
+  },
+  "essentiel": [
+    "Partagée entre la Russie, la Prusse et l’Autriche à la fin du XVIIIe siècle ([[partages-de-la-pologne|partages]]), la Pologne disparaît de la carte pendant 123 ans ; les Polonais se soulèvent plusieurs fois, en 1830 et en 1863.",
+    "Elle renaît le 11 novembre 1918 ; en 1920, Józef Piłsudski arrête l’Armée rouge devant Varsovie.",
+    "En septembre 1939, l’Allemagne nazie puis l’URSS envahissent la Pologne. Près de 6 millions de citoyens polonais meurent pendant la guerre, dont environ 3 millions de Juifs tués dans la Shoah ; les nazis installent en Pologne occupée des camps d’extermination comme Auschwitz-Birkenau.",
+    "Après 1945, les frontières du pays sont déplacées vers l’ouest et un régime communiste contrôlé par l’URSS s’installe ; en 1980, le syndicat [[solidarnosc|Solidarność]] de [[lech-walesa|Lech Wałęsa]] le défie.",
+    "En 1989, des élections en partie libres ouvrent la voie à la démocratie ; la Pologne entre dans l’OTAN (1999) puis dans l’Union européenne (2004)."
+  ],
+  "datesCles": [
+    { "annee": 1918, "evenement": "Indépendance", "info": "Le 11 novembre, la Pologne renaît." },
+    {
+      "annee": 1920,
+      "evenement": "Bataille de Varsovie",
+      "info": "Le « miracle de la Vistule » arrête l’Armée rouge."
+    },
+    {
+      "annee": 1939,
+      "evenement": "Invasion",
+      "info": "L’Allemagne attaque le 1er septembre, l’URSS le 17 septembre."
+    },
+    {
+      "annee": 1943,
+      "evenement": "Soulèvement du ghetto de Varsovie",
+      "info": "Les derniers Juifs du ghetto se révoltent contre les nazis."
+    },
+    {
+      "annee": 1944,
+      "evenement": "Insurrection de Varsovie",
+      "info": "La résistance polonaise se soulève ; la ville est ensuite détruite."
+    },
+    { "annee": 1978, "evenement": "Jean-Paul II", "info": "Le cardinal polonais Karol Wojtyła est élu pape." },
+    {
+      "annee": 1980,
+      "evenement": "Solidarność",
+      "info": "Les grèves des chantiers navals de Gdańsk donnent naissance au syndicat libre Solidarność.",
+      "ref": "solidarnosc"
+    },
+    {
+      "annee": 1981,
+      "evenement": "État de guerre",
+      "info": "Le général Jaruzelski interdit Solidarność et fait arrêter ses dirigeants."
+    },
+    {
+      "annee": 1989,
+      "evenement": "Élections du 4 juin",
+      "info": "Solidarność remporte presque tous les sièges ouverts à la libre élection."
+    },
+    { "annee": 2004, "evenement": "Union européenne", "info": "La Pologne entre dans l’Union européenne." }
+  ],
+  "periodes": [
+    {
+      "nom": "La Deuxième République",
+      "debut": 1918,
+      "fin": 1939,
+      "resume": "La Pologne renaissante fixe ses frontières par les armes et la diplomatie ; après 1926, Piłsudski impose un régime autoritaire.",
+      "evenements": [
+        { "annee": 1918, "evenement": "Indépendance" },
+        { "annee": 1920, "evenement": "Bataille de Varsovie" },
+        { "annee": 1926, "evenement": "Coup d’État de Piłsudski" }
+      ]
+    },
+    {
+      "nom": "Guerre et occupation",
+      "debut": 1939,
+      "fin": 1945,
+      "resume": "Partagée entre l’Allemagne et l’URSS, la Pologne subit l’occupation la plus meurtrière d’Europe.",
+      "evenements": [
+        { "annee": 1939, "evenement": "Invasion" },
+        { "annee": 1943, "evenement": "Soulèvement du ghetto de Varsovie" },
+        { "annee": 1944, "evenement": "Insurrection de Varsovie" }
+      ]
+    },
+    {
+      "nom": "La Pologne communiste",
+      "debut": 1945,
+      "fin": 1989,
+      "resume": "Un régime communiste soumis à l’URSS gouverne le pays, malgré des révoltes répétées.",
+      "evenements": [
+        { "annee": 1956, "evenement": "Révolte de Poznań" },
+        { "annee": 1978, "evenement": "Élection de Jean-Paul II" },
+        { "annee": 1980, "evenement": "Solidarność", "ref": "solidarnosc" },
+        { "annee": 1981, "evenement": "État de guerre" }
+      ]
+    },
+    {
+      "nom": "La démocratie",
+      "debut": 1989,
+      "fin": 2020,
+      "resume": "Démocratie, économie de marché et intégration à l’Europe de l’Ouest.",
+      "evenements": [
+        { "annee": 1989, "evenement": "Élections du 4 juin" },
+        { "annee": 1999, "evenement": "Entrée dans l’OTAN" },
+        { "annee": 2004, "evenement": "Entrée dans l’Union européenne" }
+      ]
+    }
+  ],
+  "regimes": [
+    {
+      "id": "republique2",
+      "nom": "Deuxième République",
+      "debut": 1918,
+      "fin": 1939,
+      "note": "Régime autoritaire de Piłsudski et de ses successeurs après 1926."
+    },
+    {
+      "id": "occupation",
+      "nom": "Occupation allemande et soviétique",
+      "debut": 1939,
+      "fin": 1945,
+      "note": "Un gouvernement polonais en exil siège à Londres."
+    },
+    { "id": "communisme", "nom": "Régime communiste", "debut": 1945, "fin": 1989 },
+    { "id": "republique3", "nom": "Troisième République", "debut": 1989, "fin": 2020 }
+  ],
+  "dynasties": [{ "id": "chefs", "nom": "Chefs de l’État et du pouvoir", "debut": 1918, "fin": 2020, "note": "Sélection." }],
+  "dirigeants": [
+    {
+      "nom": "Józef Piłsudski",
+      "titre": "Chef de l’État",
+      "debut": 1918,
+      "fin": 1922,
+      "dynastie": "chefs",
+      "note": "puis homme fort du pays de 1926 à 1935",
+      "cle": true
+    },
+    { "nom": "Ignacy Mościcki", "titre": "Président", "debut": 1926, "fin": 1939, "dynastie": "chefs" },
+    {
+      "nom": "Władysław Gomułka",
+      "titre": "Premier secrétaire du Parti communiste",
+      "debut": 1956,
+      "fin": 1970,
+      "dynastie": "chefs",
+      "cle": true
+    },
+    {
+      "nom": "Edward Gierek",
+      "titre": "Premier secrétaire du Parti communiste",
+      "debut": 1970,
+      "fin": 1980,
+      "dynastie": "chefs"
+    },
+    {
+      "nom": "Wojciech Jaruzelski",
+      "titre": "Premier secrétaire, puis président",
+      "debut": 1981,
+      "fin": 1990,
+      "dynastie": "chefs",
+      "note": "proclame l’état de guerre en 1981",
+      "cle": true
+    },
+    {
+      "nom": "Lech Wałęsa",
+      "titre": "Président",
+      "debut": 1990,
+      "fin": 1995,
+      "dynastie": "chefs",
+      "personne": "lech-walesa",
+      "cle": true
+    },
+    { "nom": "Aleksander Kwaśniewski", "titre": "Président", "debut": 1995, "fin": 2005, "dynastie": "chefs" },
+    {
+      "nom": "Andrzej Duda",
+      "titre": "Président",
+      "debut": 2015,
+      "fin": 2020,
+      "dynastie": "chefs",
+      "note": "toujours en fonction à la fin de la période couverte (2020)"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Lech Wałęsa",
+      "role": "Syndicaliste, puis président",
+      "description": "Électricien des chantiers navals de Gdańsk, chef de Solidarność.",
+      "dates": "né en 1943",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Lech_Wa%C5%82%C4%99sa",
+      "ref": "lech-walesa"
+    },
+    {
+      "nom": "Marie Curie",
+      "role": "Physicienne et chimiste",
+      "description": "Née à Varsovie, elle découvre le polonium, nommé en l’honneur de la Pologne.",
+      "dates": "1867 → 1934",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Marie_Curie",
+      "ref": "marie-curie"
+    },
+    {
+      "nom": "Jean-Paul II",
+      "role": "Pape",
+      "description": "Premier pape polonais, élu en 1978.",
+      "dates": "1920 → 2005",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Jean-Paul_II"
+    },
+    {
+      "nom": "Janusz Korczak",
+      "role": "Médecin et pédagogue",
+      "description": "Directeur d’un orphelinat juif, il refuse d’abandonner ses enfants et meurt avec eux à Treblinka en 1942.",
+      "dates": "1878 ou 1879 → 1942",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Janusz_Korczak"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerre soviéto-polonaise",
+      "annee": 1919,
+      "adversaires": ["Russie soviétique"],
+      "allies": ["République populaire ukrainienne (1920)"],
+      "morts": "Plusieurs dizaines de milliers dans chaque camp",
+      "vainqueur": "Pologne",
+      "consequences": "Après la bataille de Varsovie (août 1920), la paix de Riga (1921) fixe la frontière orientale de la Pologne, qui englobe une partie de l’Ukraine et de la Biélorussie actuelles.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_sovi%C3%A9to-polonaise"
+    },
+    {
+      "nom": "Campagne de Pologne (1939)",
+      "annee": 1939,
+      "adversaires": ["Allemagne nazie", "URSS (à partir du 17 septembre)"],
+      "allies": ["Royaume-Uni et France (déclarent la guerre à l’Allemagne)"],
+      "morts": "Plusieurs dizaines de milliers de soldats et de civils polonais",
+      "vainqueur": "Allemagne et URSS",
+      "consequences": "La Pologne est partagée entre l’Allemagne et l’URSS, comme le prévoyait un protocole secret du pacte germano-soviétique. Le 3 septembre, le Royaume-Uni et la France déclarent la guerre à l’Allemagne : la Seconde Guerre mondiale commence.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Campagne_de_Pologne_(1939)"
+    },
+    {
+      "nom": "Insurrection de Varsovie",
+      "annee": 1944,
+      "adversaires": ["Allemagne nazie"],
+      "allies": ["Armia Krajowa (résistance polonaise)"],
+      "morts": "Environ 16 000 insurgés et 150 000 à 200 000 civils",
+      "vainqueur": "Allemagne",
+      "consequences": "L’Armée rouge, arrivée sur l’autre rive de la Vistule, n’intervient pas. Après la capitulation, les Allemands détruisent méthodiquement la ville, rasée en grande partie à la fin de la guerre.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Insurrection_de_Varsovie"
+    }
+  ],
+  "sciences": "Marie Curie, née à Varsovie, découvre avec Pierre Curie le polonium, nommé en l’honneur de la Pologne, et le radium. Dans les années 1930, les mathématiciens polonais Marian Rejewski, Jerzy Różycki et Henryk Zygalski percent les secrets de la machine de chiffrement allemande Enigma, un travail transmis aux Britanniques et aux Français en 1939.",
+  "croyancesText": "La Pologne est très majoritairement catholique. Avant 1939, elle abrite la plus grande communauté juive d’Europe, environ 3,3 millions de personnes, presque entièrement exterminée pendant la Shoah. Sous le régime communiste, l’Église catholique reste un espace de liberté ; l’élection du Polonais Karol Wojtyła comme pape Jean-Paul II, en 1978, encourage l’opposition.",
+  "diplomatie": "Entre l’Allemagne et la Russie, la Pologne cherche des alliés à l’ouest : en 1939, la France et le Royaume-Uni lui garantissent leur soutien. En août 1939, le pacte germano-soviétique prévoit secrètement son partage. Membre du pacte de Varsovie sous le communisme, elle rejoint l’OTAN en 1999 et l’Union européenne en 2004.",
+  "societe": "Avant 1939, environ un tiers des habitants appartient à des minorités : Ukrainiens, Juifs, Biélorusses, Allemands. Après la guerre, la Shoah et les déplacements de frontières et de populations font de la Pologne un pays presque entièrement polonais et catholique.",
+  "economie": "Agriculture, charbon de Silésie, chantiers navals de Gdańsk ; après 1989, passage rapide à l’économie de marché et forte croissance.",
+  "arts": "Films d’Andrzej Wajda et de Krzysztof Kieślowski, poèmes de Czesław Miłosz et de Wisława Szymborska (prix Nobel de littérature en 1980 et 1996), école polonaise de l’affiche.",
+  "quotidien": "Sous le régime communiste, les files d’attente devant les magasins font partie de la vie quotidienne ; dans les années 1980, de nombreux produits sont rationnés.",
+  "heritage": [
+    {
+      "titre": "Auschwitz-Birkenau",
+      "texte": "Le camp de concentration et d’extermination nazi est devenu un musée et un lieu de mémoire, inscrit au patrimoine mondial de l’UNESCO depuis 1979."
+    },
+    {
+      "titre": "Varsovie reconstruite",
+      "texte": "La vieille ville de Varsovie, détruite en 1944, a été reconstruite à l’identique ; elle est inscrite au patrimoine mondial de l’UNESCO depuis 1980."
+    }
+  ],
+  "aSavoir": ["Le 11 novembre, jour de l’armistice de 1918, est aussi la fête de l’indépendance de la Pologne."],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Histoire_de_la_Pologne",
+    {
+      "titre": "Encyclopædia Britannica — Poland, History",
+      "url": "https://www.britannica.com/place/Poland/History"
+    }
+  ]
+}

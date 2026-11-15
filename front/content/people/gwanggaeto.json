@@ -1,0 +1,18 @@
+{
+  "id": "gwanggaeto",
+  "nom": "Gwanggaeto le Grand",
+  "role": "Roi de Koguryo",
+  "roles": ["Roi", "Conquérant"],
+  "dates": "374 → 413",
+  "naissance": 374,
+  "mort": 413,
+  "description": "Roi de Koguryo de 391 à 413, il fait de son royaume la grande puissance du nord-est de l’Asie.",
+  "reperes": [{ "label": "Règne", "valeur": "391 → 413" }],
+  "essentiel": [
+    "Son nom signifie à peu près « celui qui élargit largement le territoire ».",
+    "Il conquiert une grande partie de la Mandchourie et soumet Paekche.",
+    "Il envoie ses troupes au secours de Silla, attaqué par des alliés de Paekche.",
+    "Une stèle de plus de six mètres, élevée par son fils en 414, raconte ses exploits."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Gwanggaeto_le_Grand"
+}

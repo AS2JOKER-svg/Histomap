@@ -1,0 +1,18 @@
+{
+  "id": "my-son",
+  "nom": "Sanctuaire de Mỹ Sơn",
+  "domaine": "Architecture",
+  "dates": "IVe-XIIIe siècles",
+  "description": "Un ensemble de tours-sanctuaires de brique dédiées à Shiva, dans une vallée entourée de montagnes du centre du Vietnam.",
+  "sections": [
+    {
+      "titre": "Un lieu sacré",
+      "texte": "Pendant près de mille ans, les rois chams y construisent et reconstruisent des temples. C’était le grand centre religieux du royaume."
+    },
+    {
+      "titre": "Aujourd’hui",
+      "texte": "Gravement endommagé par les bombardements pendant la guerre du Vietnam, le site est inscrit au patrimoine mondial de l’UNESCO depuis 1999."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/M%E1%BB%B9_S%C6%A1n"
+}

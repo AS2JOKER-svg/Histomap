@@ -1,0 +1,17 @@
+{
+  "id": "jalal-ad-din",
+  "nom": "Jalal ad-Din",
+  "nomComplet": "Jalal ad-Din Manguberti",
+  "role": "Dernier Khwarezm-chah",
+  "roles": ["Chah", "Chef de guerre"],
+  "dates": "mort en 1231",
+  "mort": 1231,
+  "description": "Fils du chah Muhammad II, il combat les Mongols pendant dix ans, de l’Afghanistan à l’Inde et au Caucase.",
+  "reperes": [{ "label": "Règne", "valeur": "1220 → 1231" }],
+  "essentiel": [
+    "Il bat une armée mongole à Parwan (1221), l’une des rares défaites mongoles de l’époque.",
+    "Vaincu par Gengis Khan sur l’Indus (1221), il traverse le fleuve à cheval sous les yeux du conquérant.",
+    "Il se taille un royaume en Iran, puis meurt en fuite en 1231."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Jalal_ad-Din"
+}

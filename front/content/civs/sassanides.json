@@ -1,0 +1,343 @@
+{
+  "documentaires": [],
+  "decouvertes": ["arc-de-ctesiphon"],
+  "id": "sassanides",
+  "label": "Empire sassanide",
+  "tier": 1,
+  "region": "iran",
+  "period": "224 à 651",
+  "start": 224,
+  "end": 651,
+  "trackId": "perse",
+  "row": 5,
+  "isRiver": false,
+  "capitale": "Ctésiphon",
+  "description": "Le dernier grand empire iranien avant l’islam : rival de Rome puis de Byzance pendant quatre siècles, il fait du zoroastrisme sa religion d’État avant d’être conquis par les armées arabes.",
+  "territories": ["Sasanian Empire", "Sasanian dependencies", "Parthian Empire"],
+  "reperes": {
+    "capitale": {
+      "valeur": "Ctésiphon",
+      "precision": "sur le Tigre ; son grand palais voûté, le Taq Kasra, est encore debout"
+    },
+    "regimes": {
+      "valeur": "Monarchie",
+      "precision": "le « roi des rois d’Iran et de non-Iran », appuyé sur la noblesse et le clergé zoroastrien"
+    },
+    "langues": { "valeur": "Moyen-perse (pehlevi)" },
+    "religion": {
+      "valeur": "Zoroastrisme",
+      "precision": "religion d’État ; importantes communautés chrétiennes, juives et manichéennes"
+    },
+    "apogee": {
+      "valeur": "Règnes de Shapur Ier et de Khosro Ier",
+      "precision": "sous Khosro II, l’empire atteint brièvement l’Égypte (619)"
+    },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": { "valeur": "Drachme d’argent", "precision": "avec le portrait du roi et un autel du feu" },
+    "duree": { "valeur": "Environ 430 ans" },
+    "aujourdhui": {
+      "valeur": "Iran et Irak",
+      "precision": "ainsi que l’Afghanistan, le Caucase et une partie de l’Asie centrale"
+    }
+  },
+  "essentiel": [
+    "En 224, [[ardachir-ier|Ardachir]], roi de la Perside, renverse le dernier roi parthe et fonde la dynastie sassanide.",
+    "Son fils [[chapour-ier|Shapur Ier]] bat les armées romaines et capture l’empereur Valérien à la [[bataille-d-edesse|bataille d’Édesse]] (260).",
+    "Le zoroastrisme devient religion d’État ; le prophète [[mani]], fondateur du manichéisme, est exécuté.",
+    "[[khosro-ier|Khosro Ier]] (531-579) réforme l’impôt et l’armée et accueille des savants grecs, indiens et syriaques ; le jeu d’échecs arrive d’Inde à sa cour.",
+    "Épuisé par une longue guerre contre Byzance (602-628), l’empire s’effondre lors de la [[conquete-musulmane-de-la-perse|conquête arabe]] ; le dernier roi meurt en 651."
+  ],
+  "datesCles": [
+    { "annee": 224, "evenement": "Hormozgan", "info": "Ardachir bat et tue le roi parthe Artaban IV." },
+    {
+      "annee": 260,
+      "evenement": "Valérien capturé",
+      "info": "Shapur Ier fait prisonnier l’empereur romain Valérien.",
+      "ref": "bataille-d-edesse"
+    },
+    {
+      "annee": 276,
+      "evenement": "Exécution de Mani",
+      "info": "Vers 276, le fondateur du manichéisme meurt en prison."
+    },
+    {
+      "annee": 363,
+      "evenement": "Mort de Julien",
+      "info": "L’empereur romain Julien est tué lors de son invasion de la Perse."
+    },
+    { "annee": 531, "evenement": "Khosro Ier", "info": "Début du règne le plus brillant de la dynastie." },
+    {
+      "annee": 614,
+      "evenement": "Prise de Jérusalem",
+      "info": "Les Perses de Khosro II prennent Jérusalem et emportent la relique de la Vraie Croix."
+    },
+    {
+      "annee": 627,
+      "evenement": "Bataille de Ninive",
+      "info": "L’empereur byzantin Héraclius bat les Perses ; Khosro II est renversé l’année suivante."
+    },
+    {
+      "annee": 636,
+      "evenement": "Al-Qadisiyya",
+      "info": "Les armées arabes écrasent l’armée sassanide en Mésopotamie.",
+      "ref": "conquete-musulmane-de-la-perse"
+    },
+    { "annee": 651, "evenement": "Mort de Yazdegerd III", "info": "Le dernier roi est tué près de Merv, en fuite." }
+  ],
+  "periodes": [
+    {
+      "nom": "La fondation",
+      "debut": 224,
+      "fin": 309,
+      "resume": "Ardachir et Shapur Ier fondent un État centralisé et remportent de grandes victoires sur Rome.",
+      "evenements": [
+        { "annee": 224, "evenement": "Hormozgan" },
+        { "annee": 260, "evenement": "Capture de Valérien", "ref": "bataille-d-edesse" }
+      ]
+    },
+    {
+      "nom": "Shapur II et le Ve siècle",
+      "debut": 309,
+      "fin": 531,
+      "resume": "Shapur II règne 70 ans et repousse Rome ; au Ve siècle, l’empire affronte les Huns blancs à l’est et la révolte sociale de Mazdak.",
+      "evenements": [
+        { "annee": 363, "evenement": "Défaite et mort de Julien" },
+        { "annee": 484, "evenement": "Le roi Péroz tué par les Huns blancs" }
+      ]
+    },
+    {
+      "nom": "L’apogée et la chute",
+      "debut": 531,
+      "fin": 651,
+      "resume": "Après les réformes de Khosro Ier, Khosro II conquiert le Proche-Orient, puis l’empire, épuisé, tombe face aux Arabes.",
+      "evenements": [
+        { "annee": 614, "evenement": "Prise de Jérusalem" },
+        { "annee": 627, "evenement": "Défaite de Ninive" },
+        { "annee": 636, "evenement": "Al-Qadisiyya", "ref": "conquete-musulmane-de-la-perse" }
+      ]
+    }
+  ],
+  "regimes": [{ "id": "empire", "nom": "Empire sassanide", "debut": 224, "fin": 651 }],
+  "dynasties": [
+    {
+      "id": "sassanides",
+      "nom": "Les Sassanides",
+      "debut": 224,
+      "fin": 651,
+      "note": "Sélection ; une dizaine de souverains se succèdent entre 628 et 632."
+    }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Ardachir Ier",
+      "titre": "Roi des rois",
+      "debut": 224,
+      "fin": 242,
+      "dynastie": "sassanides",
+      "personne": "ardachir-ier",
+      "note": "fondateur",
+      "cle": true
+    },
+    {
+      "nom": "Shapur Ier",
+      "titre": "Roi des rois",
+      "debut": 242,
+      "fin": 270,
+      "dynastie": "sassanides",
+      "personne": "chapour-ier",
+      "note": "capture l’empereur Valérien",
+      "cle": true
+    },
+    { "nom": "Bahram Ier", "titre": "Roi des rois", "debut": 271, "fin": 274, "dynastie": "sassanides" },
+    { "nom": "Narseh", "titre": "Roi des rois", "debut": 293, "fin": 302, "dynastie": "sassanides" },
+    {
+      "nom": "Shapur II",
+      "titre": "Roi des rois",
+      "surnom": "le Grand",
+      "debut": 309,
+      "fin": 379,
+      "dynastie": "sassanides",
+      "note": "couronné avant même sa naissance, selon la tradition",
+      "cle": true
+    },
+    {
+      "nom": "Yazdegerd Ier",
+      "titre": "Roi des rois",
+      "debut": 399,
+      "fin": 420,
+      "dynastie": "sassanides",
+      "note": "tolérant envers les chrétiens"
+    },
+    {
+      "nom": "Bahram V",
+      "titre": "Roi des rois",
+      "surnom": "Gour, « l’Onagre »",
+      "debut": 420,
+      "fin": 438,
+      "dynastie": "sassanides",
+      "note": "chasseur légendaire"
+    },
+    {
+      "nom": "Péroz Ier",
+      "titre": "Roi des rois",
+      "debut": 459,
+      "fin": 484,
+      "dynastie": "sassanides",
+      "note": "tué par les Huns blancs"
+    },
+    {
+      "nom": "Kavadh Ier",
+      "titre": "Roi des rois",
+      "debut": 488,
+      "fin": 531,
+      "dynastie": "sassanides",
+      "note": "règne interrompu de 496 à 498"
+    },
+    {
+      "nom": "Khosro Ier",
+      "titre": "Roi des rois",
+      "surnom": "Anushirvan, « à l’âme immortelle »",
+      "debut": 531,
+      "fin": 579,
+      "dynastie": "sassanides",
+      "personne": "khosro-ier",
+      "cle": true
+    },
+    { "nom": "Hormizd IV", "titre": "Roi des rois", "debut": 579, "fin": 590, "dynastie": "sassanides" },
+    {
+      "nom": "Khosro II",
+      "titre": "Roi des rois",
+      "surnom": "Parviz, « le Victorieux »",
+      "debut": 590,
+      "fin": 628,
+      "dynastie": "sassanides",
+      "note": "conquiert l’Égypte, puis vaincu par Héraclius",
+      "cle": true
+    },
+    {
+      "nom": "Boran",
+      "titre": "Reine des reines",
+      "debut": 629,
+      "fin": 630,
+      "dynastie": "sassanides",
+      "note": "l’une des deux reines de la dynastie"
+    },
+    {
+      "nom": "Yazdegerd III",
+      "titre": "Roi des rois",
+      "debut": 632,
+      "fin": 651,
+      "dynastie": "sassanides",
+      "note": "dernier roi",
+      "cle": true
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Mani",
+      "role": "Prophète",
+      "description": "Fondateur du manichéisme, d’abord protégé par Shapur Ier, il meurt en prison sous Bahram Ier.",
+      "dates": "216 → vers 276",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Mani_(proph%C3%A8te)",
+      "ref": "mani"
+    },
+    {
+      "nom": "Mazdak",
+      "role": "Réformateur religieux",
+      "description": "Il prêche le partage des biens ; soutenu un temps par Kavadh Ier, il est exécuté avec ses partisans.",
+      "dates": "mort vers 528",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Mazdak"
+    },
+    {
+      "nom": "Kartir",
+      "role": "Grand prêtre zoroastrien",
+      "description": "Il renforce la religion zoroastrienne et fait graver sur les rochers le récit de son action contre les autres religions.",
+      "dates": "IIIe siècle",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Kartir"
+    },
+    {
+      "nom": "Boran",
+      "role": "Reine des reines",
+      "description": "Fille de Khosro II, elle gouverne l’empire en pleine crise et tente de faire la paix avec Byzance.",
+      "dates": "règne 629 → 630",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Boran"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Bataille d’Hormozgan",
+      "annee": 224,
+      "adversaires": ["Empire parthe (Artaban IV)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Ardachir",
+      "consequences": "Le roi parthe Artaban IV est tué ; Ardachir fonde l’Empire sassanide.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Battle_of_Hormozdgan"
+    },
+    {
+      "nom": "Bataille d’Édesse",
+      "annee": 260,
+      "adversaires": ["Empire romain (Valérien)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Empire sassanide",
+      "consequences": "L’empereur Valérien est capturé : c’est le seul empereur romain fait prisonnier par un ennemi étranger. Il meurt en captivité.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_d%27%C3%89desse"
+    },
+    {
+      "nom": "Première guerre perso-turque",
+      "annee": 588,
+      "adversaires": ["Turcs de l’Ouest (Göktürks)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Empire sassanide",
+      "consequences": "Le général Bahram Chobin bat une grande armée turque près d’Hérat ; il se révolte ensuite contre son roi.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/First_Perso-Turkic_War"
+    },
+    {
+      "nom": "Guerre perso-byzantine de 602-628",
+      "annee": 602,
+      "adversaires": ["Empire byzantin (Héraclius)"],
+      "allies": [],
+      "morts": "Très nombreuses, inconnues",
+      "vainqueur": "Empire byzantin",
+      "consequences": "Après avoir conquis la Syrie, Jérusalem et l’Égypte, les Perses sont battus par Héraclius. Les deux empires sortent épuisés de la guerre, quelques années avant les conquêtes arabes.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_perso-byzantine_de_602-628"
+    },
+    {
+      "nom": "Bataille d’al-Qadisiyya",
+      "annee": 636,
+      "adversaires": ["Califat (Rashidun)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Califat",
+      "consequences": "L’armée sassanide est écrasée ; les Arabes prennent Ctésiphon (637), puis l’Iran après la bataille de Nahavand (642).",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_d%27al-Qadisiyya"
+    }
+  ],
+  "sciences": "Sous Khosro Ier, selon la tradition, l’école de Gundishapur accueille des médecins et des savants grecs, syriaques et indiens. Les Sassanides bâtissent des barrages, des ponts et des systèmes d’irrigation, et leurs ingénieurs maîtrisent les grandes voûtes de brique, comme celle du palais de Ctésiphon. Le jeu d’échecs arrive d’Inde à cette époque.",
+  "croyancesText": "Le zoroastrisme, religion d’Ahura Mazda et du feu sacré, devient religion d’État avec un clergé puissant, les mages. Chrétiens, juifs et manichéens vivent dans l’empire, parfois tolérés, parfois persécutés. Le Talmud de Babylone est rédigé dans les académies juives de Mésopotamie sous les Sassanides.",
+  "diplomatie": "Pendant plus de quatre siècles, les Sassanides combattent Rome puis Byzance pour la Mésopotamie, l’Arménie et le Caucase, en alternant guerres et longues paix. À l’est, ils affrontent les Kouchans, les Huns blancs et les Turcs. Ils contrôlent une partie du commerce de la soie et des épices.",
+  "societe": "La société est divisée en ordres : prêtres, guerriers, scribes et paysans-artisans. Le roi s’appuie sur de grandes familles nobles et sur des cavaliers nobles, les dehqans, qui possèdent les villages.",
+  "economie": "Agriculture irriguée de Mésopotamie, soie, verre et métaux précieux ; taxes sur le commerce entre la Méditerranée, l’Inde et la Chine.",
+  "arts": "Bas-reliefs rupestres de Naqsh-e Rostam, vaisselle d’argent ornée de scènes de chasse royale, soieries.",
+  "quotidien": "Le polo et la chasse sont les passe-temps favoris des rois et des nobles sassanides.",
+  "heritage": [
+    {
+      "titre": "Les Mille et Une Nuits",
+      "texte": "Le cadre du recueil, le roi Shahriar et Shéhérazade, viendrait d’un recueil persan ancien, sans doute d’époque sassanide."
+    },
+    {
+      "titre": "Un modèle pour le califat",
+      "texte": "L’administration, la cour et l’art sassanides inspireront les califes abbassides de Bagdad."
+    }
+  ],
+  "aSavoir": ["La reine Boran est l’une des deux seules femmes à avoir régné sur l’Empire sassanide."],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Empire_sassanide",
+    {
+      "titre": "Encyclopædia Britannica — Sasanian dynasty",
+      "url": "https://www.britannica.com/topic/Sasanian-dynasty"
+    }
+  ]
+}

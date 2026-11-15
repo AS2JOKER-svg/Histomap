@@ -1,0 +1,18 @@
+{
+  "id": "seleucos-ier",
+  "nom": "Séleucos Ier",
+  "role": "Fondateur de l’Empire séleucide",
+  "roles": ["Général", "Roi"],
+  "dates": "vers −358 → −281",
+  "naissance": -358,
+  "mort": -281,
+  "description": "Officier macédonien d’Alexandre le Grand, il s’empare de Babylone puis de toutes les provinces d’Asie et fonde la dynastie séleucide.",
+  "reperes": [{ "label": "Règne", "valeur": "−312 → −281", "precision": "roi à partir de −305" }],
+  "essentiel": [
+    "Il conquiert l’Iran et l’Asie centrale jusqu’à l’Indus.",
+    "Il cède à Chandragupta Maurya des territoires de l’Indus en échange de 500 éléphants.",
+    "Il fonde Antioche, Séleucie du Tigre et de nombreuses villes.",
+    "Vainqueur de Lysimaque (−281), il est assassiné peu après."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/S%C3%A9leucos_Ier"
+}

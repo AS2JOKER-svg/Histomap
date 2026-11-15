@@ -1,0 +1,16 @@
+{
+  "id": "jan-hus",
+  "nom": "Jan Hus",
+  "role": "Réformateur religieux tchèque",
+  "roles": ["Prêtre", "Prédicateur", "Universitaire"],
+  "dates": "vers 1370 → 1415",
+  "mort": 1415,
+  "description": "Prêtre et recteur de l’université de Prague, il critique les abus de l’Église ; condamné par le concile de Constance, il est brûlé en 1415.",
+  "essentiel": [
+    "Il prêche en tchèque, et non en latin, à la chapelle de Bethléem à Prague.",
+    "Il dénonce la richesse du clergé et la vente des indulgences.",
+    "Convoqué au concile de Constance avec la promesse de sa sécurité, il est arrêté, condamné et brûlé.",
+    "Sa mort déclenche le mouvement hussite, un siècle avant la Réforme de Luther."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Jan_Hus"
+}

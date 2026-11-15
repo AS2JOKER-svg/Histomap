@@ -1,0 +1,15 @@
+{
+  "id": "canal-de-menua",
+  "nom": "Canal de Menua",
+  "annee": -800,
+  "domaine": "Technique",
+  "dates": "vers 800 av. J.-C.",
+  "description": "Un canal long de plusieurs dizaines de kilomètres, creusé sous le roi Menua pour amener l’eau des montagnes jusqu’à la région de Van.",
+  "sections": [
+    {
+      "titre": "Un ouvrage toujours utilisé",
+      "texte": "Des murs de pierre le soutiennent à flanc de vallée. Près de 2 800 ans plus tard, il irrigue encore des jardins de la région ; on l’appelle localement « canal de Sémiramis »."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Canal_de_Menua"
+}

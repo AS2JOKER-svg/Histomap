@@ -1,0 +1,130 @@
+{
+  "documentaires": [],
+  "decouvertes": ["chan-chan"],
+  "id": "chimu",
+  "label": "Royaume chimú",
+  "tier": 2,
+  "region": "andes",
+  "period": "vers 900 à 1470",
+  "start": 900,
+  "end": 1470,
+  "color": "#1565c0",
+  "trackId": "andes-nord",
+  "row": 4,
+  "isRiver": false,
+  "capitale": "Chan Chan",
+  "description": "Le royaume de la côte nord du Pérou, héritier des Mochicas, dont la capitale, Chan Chan, est la plus grande ville en terre crue des Amériques, jusqu’à sa conquête par les Incas vers 1470.",
+  "territories": ["Chimú Empire"],
+  "reperes": {
+    "capitale": { "valeur": "Chan Chan", "precision": "près de Trujillo (Pérou), sur environ 20 km²" },
+    "regimes": { "valeur": "Monarchie", "precision": "des rois considérés comme sacrés, chacun bâtissant son propre palais" },
+    "langues": { "valeur": "Quingnam et mochica" },
+    "religion": { "valeur": "Religion andine", "precision": "la Lune (Si) est la principale divinité, au-dessus du Soleil" },
+    "apogee": { "valeur": "Vers 1350 → 1460", "precision": "le royaume contrôle plus de 1 000 km de côte" },
+    "population": { "valeur": "Inconnue", "precision": "Chan Chan aurait compté plusieurs dizaines de milliers d’habitants" },
+    "monnaie": { "valeur": "Aucune" },
+    "duree": { "valeur": "Environ 570 ans" },
+    "aujourdhui": { "valeur": "Pérou", "precision": "côte nord, jusqu’à l’Équateur" }
+  },
+  "essentiel": [
+    "Vers 900, sur la côte nord du Pérou, là où vivaient les Mochicas, naît le royaume de Chimor, dont la capitale est [[chan-chan|Chan Chan]].",
+    "Selon la tradition, le fondateur, Tacaynamo, serait arrivé par la mer sur un radeau.",
+    "Les Chimús construisent de grands canaux qui relient plusieurs vallées, et Chan Chan devient la plus grande ville en terre crue des Amériques.",
+    "Aux XIVe et XVe siècles, ils conquièrent plus de 1 000 km de côte, dont le royaume voisin de Lambayeque, célèbre pour son or.",
+    "Vers 1470, les armées incas de Túpac Inca Yupanqui, sous le règne de [[pachacutec|Pachacutec]], conquièrent le royaume ; ses orfèvres sont emmenés à Cuzco."
+  ],
+  "datesCles": [
+    { "annee": 900, "evenement": "Chan Chan", "info": "Vers 900, la construction de Chan Chan commence." },
+    {
+      "annee": 1375,
+      "evenement": "Lambayeque",
+      "info": "Vers 1375, les Chimús conquièrent la vallée de Lambayeque."
+    },
+    {
+      "annee": 1450,
+      "evenement": "Huanchaquito",
+      "info": "Vers 1450, plus de 130 enfants et 200 lamas sont sacrifiés près de Chan Chan, peut-être pour arrêter des pluies catastrophiques."
+    },
+    {
+      "annee": 1470,
+      "evenement": "Conquête inca",
+      "info": "Les Incas s’emparent du royaume ; le roi Minchançaman est emmené à Cuzco."
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "La formation du royaume",
+      "debut": 900,
+      "fin": 1350,
+      "resume": "Les rois de Chan Chan unifient la vallée de Moche et ses voisines grâce à l’irrigation.",
+      "evenements": [{ "annee": 900, "evenement": "Débuts de Chan Chan" }]
+    },
+    {
+      "nom": "L’expansion",
+      "debut": 1350,
+      "fin": 1470,
+      "resume": "Le royaume s’étend sur plus de 1 000 km de côte, avant d’être conquis par les Incas.",
+      "evenements": [{ "annee": 1375, "evenement": "Conquête de Lambayeque" }, { "annee": 1470, "evenement": "Conquête inca" }]
+    }
+  ],
+  "regimes": [{ "id": "monarchie", "nom": "Monarchie", "debut": 900, "fin": 1470 }],
+  "dirigeants": [],
+  "personnages": [
+    {
+      "nom": "Tacaynamo",
+      "role": "Fondateur légendaire",
+      "description": "Selon la tradition, il arrive par la mer et fonde la dynastie de Chan Chan.",
+      "dates": "tradition",
+      "wikiUrl": "https://en.wikipedia.org/wiki/List_of_rulers_of_Chimor"
+    },
+    {
+      "nom": "Minchançaman",
+      "role": "Dernier roi indépendant",
+      "description": "Vaincu par les Incas vers 1470, il est emmené à Cuzco.",
+      "dates": "XVe siècle",
+      "wikiUrl": "https://en.wikipedia.org/wiki/List_of_rulers_of_Chimor"
+    },
+    {
+      "nom": "Pachacutec",
+      "role": "Empereur inca",
+      "description": "Sous son règne, son fils Túpac Inca Yupanqui conquiert le royaume chimú.",
+      "dates": "vers 1418 → 1471",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Pachacutec",
+      "ref": "pachacutec"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Conquête inca du Chimor",
+      "annee": 1470,
+      "adversaires": ["Empire inca (Túpac Inca Yupanqui)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Empire inca",
+      "consequences": "Selon les chroniques, les Incas coupent les canaux qui alimentent Chan Chan pour forcer sa reddition. Le royaume est intégré à l’Empire inca, et ses meilleurs artisans sont emmenés à Cuzco.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Chimor%E2%80%93Inca_War"
+    }
+  ],
+  "sciences": "Les Chimús creusent des canaux de plusieurs dizaines de kilomètres qui relient plusieurs vallées et irriguent le désert. Ils bâtissent Chan Chan en briques crues et décorent ses murs de reliefs en terre représentant des poissons, des oiseaux et des vagues. Leurs orfèvres martèlent et soudent l’or et l’argent pour fabriquer des parures et des vases.",
+  "croyancesText": "Les Chimús placent la Lune, Si, au-dessus du Soleil, qui brûle les terres du désert ; elle commande les marées, la croissance des plantes et les orages. Les rois défunts sont honorés dans leurs palais-tombeaux. Vers 1450, plus de 130 enfants et 200 jeunes lamas sont sacrifiés à Huanchaquito, sans doute pour mettre fin à des pluies catastrophiques liées à El Niño.",
+  "diplomatie": "Le royaume s’étend par la conquête sur les vallées voisines et soumet le royaume de Lambayeque. Il commerce avec les Andes et avec l’Équateur, d’où viennent les coquillages spondyles, très précieux. Il est finalement vaincu par l’Empire inca en expansion.",
+  "societe": "La société est très hiérarchisée : le roi et la noblesse vivent dans les enclos fortifiés de Chan Chan, tandis que les artisans et les paysans vivent dans des quartiers plus modestes. Chaque nouveau roi fait construire son propre palais, qui devient son tombeau.",
+  "economie": "Agriculture irriguée, pêche, artisanat de luxe (orfèvrerie, textiles, céramique noire), commerce à longue distance.",
+  "arts": "Reliefs en terre de Chan Chan, céramique noire polie, parures et vases d’or et d’argent, tissus décorés de plumes.",
+  "quotidien": "Les pêcheurs chimús partent en mer sur des caballitos de totora, des embarcations de roseaux toujours utilisées aujourd’hui.",
+  "heritage": [
+    {
+      "titre": "Chan Chan",
+      "texte": "La ville est inscrite au patrimoine mondial de l’UNESCO depuis 1986 et sur la liste du patrimoine en péril : la pluie et le vent menacent ses murs de terre."
+    },
+    {
+      "titre": "L’or des Andes",
+      "texte": "Une partie de l’orfèvrerie inca a été réalisée par des artisans chimús emmenés à Cuzco."
+    }
+  ],
+  "aSavoir": ["Chan Chan comprend une dizaine de grands enclos fortifiés, les « ciudadelas », sans doute un par roi."],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Empire_chim%C3%BA",
+    { "titre": "Encyclopædia Britannica — Chimú", "url": "https://www.britannica.com/topic/Chimu" }
+  ]
+}

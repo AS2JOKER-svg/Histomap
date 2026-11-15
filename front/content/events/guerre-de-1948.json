@@ -1,0 +1,20 @@
+{
+  "id": "guerre-de-1948",
+  "nom": "Guerre de 1948 : indépendance d’Israël et Nakba",
+  "annee": 1947,
+  "fin": 1949,
+  "dates": "1947 → 1949",
+  "lieu": "Palestine mandataire",
+  "description": "Guerre civile entre Juifs et Arabes de Palestine après le plan de partage de l’ONU (1947), puis guerre entre Israël, qui proclame son indépendance le 14 mai 1948, et les pays arabes voisins.",
+  "sections": [
+    {
+      "titre": "Pour les Israéliens",
+      "texte": "C’est la « guerre d’indépendance » : le jeune État, attaqué par cinq armées arabes, survit et agrandit son territoire."
+    },
+    {
+      "titre": "Pour les Palestiniens",
+      "texte": "C’est la Nakba, la « catastrophe » : environ 700 000 Palestiniens fuient ou sont expulsés, des centaines de villages sont détruits, et les réfugiés ne peuvent pas revenir."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_isra%C3%A9lo-arabe_de_1948-1949"
+}

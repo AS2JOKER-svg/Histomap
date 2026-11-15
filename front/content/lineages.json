@@ -35,7 +35,8 @@
     "color": "#4a90d9",
     "members": [
       "minoen-mycenien",
-      "grece"
+      "grece",
+      "grece-moderne"
     ]
   },
   {
@@ -54,6 +55,7 @@
     "members": [
       "chine-neo",
       "chine-imperiale",
+      "six-dynasties",
       "chine-tang-song",
       "chine-mod",
       "chine-contemp"
@@ -64,6 +66,7 @@
     "label": "Japon",
     "color": "#c0392b",
     "members": [
+      "japon-ancien",
       "japon-feodal",
       "japon-mod",
       "japon"
@@ -75,6 +78,7 @@
     "color": "#2e6f95",
     "members": [
       "gojoseon",
+      "trois-royaumes-coree",
       "goryeo",
       "joseon",
       "coree-contemp"
@@ -86,6 +90,8 @@
     "color": "#16a085",
     "members": [
       "maurya",
+      "gupta",
+      "sultanat-de-delhi",
       "moghols",
       "inde-contemp"
     ]
@@ -96,6 +102,8 @@
     "color": "#9c27b0",
     "members": [
       "perse",
+      "parthes",
+      "sassanides",
       "safavides",
       "iran"
     ]
@@ -125,8 +133,10 @@
     "label": "Espagne",
     "color": "#d4ac0d",
     "members": [
+      "wisigoths",
       "reconquista-royaumes",
-      "espagne"
+      "espagne",
+      "espagne-contemp"
     ]
   },
   {
@@ -135,6 +145,7 @@
     "color": "#4caf50",
     "members": [
       "italie-maritime",
+      "italie-renaissance",
       "italie-contemp"
     ]
   },
@@ -181,6 +192,7 @@
     "color": "#e74c3c",
     "members": [
       "azteque",
+      "nouvelle-espagne",
       "mexique"
     ]
   },
@@ -191,6 +203,108 @@
     "members": [
       "usa-moderne",
       "etats-unis"
+    ]
+  },
+  {
+    "id": "zimbabwe",
+    "label": "Zimbabwe",
+    "color": "#795548",
+    "members": [
+      "zimbabwe-civilisation",
+      "monomotapa"
+    ]
+  },
+  {
+    "id": "indonesie",
+    "label": "Indonésie",
+    "color": "#009688",
+    "members": [
+      "srivijaya",
+      "majapahit",
+      "indonesie"
+    ]
+  },
+  {
+    "id": "bresil",
+    "label": "Brésil",
+    "color": "#1b5e20",
+    "members": [
+      "bresil-colonial",
+      "bresil"
+    ]
+  },
+  {
+    "id": "pologne",
+    "label": "Pologne",
+    "color": "#880e4f",
+    "members": [
+      "pologne-piast",
+      "pologne-lituanie",
+      "pologne-contemp"
+    ]
+  },
+  {
+    "id": "autriche",
+    "label": "Autriche",
+    "color": "#fbc02d",
+    "members": [
+      "monarchie-habsbourg",
+      "autriche-hongrie"
+    ]
+  },
+  {
+    "id": "ukraine",
+    "label": "Ukraine",
+    "color": "#5c6bc0",
+    "members": [
+      "hetmanat-cosaque",
+      "ukraine"
+    ]
+  },
+  {
+    "id": "scandinavie",
+    "label": "Scandinavie",
+    "color": "#00838f",
+    "members": [
+      "danemark-norvege",
+      "pays-nordiques"
+    ]
+  },
+  {
+    "id": "egypte",
+    "label": "Égypte",
+    "color": "#e6c229",
+    "members": [
+      "egypte",
+      "mamelouks",
+      "egypte-contemp"
+    ]
+  },
+  {
+    "id": "vietnam",
+    "label": "Viêt Nam",
+    "color": "#fbc02d",
+    "members": [
+      "dai-viet",
+      "viet-nam"
+    ]
+  },
+  {
+    "id": "thailande",
+    "label": "Thaïlande",
+    "color": "#7cb342",
+    "members": [
+      "ayutthaya",
+      "thailande"
+    ]
+  },
+  {
+    "id": "canada",
+    "label": "Canada",
+    "color": "#1565c0",
+    "members": [
+      "nouvelle-france",
+      "canada"
     ]
   }
 ]

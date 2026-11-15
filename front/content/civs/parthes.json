@@ -1,0 +1,269 @@
+{
+  "documentaires": [],
+  "decouvertes": ["tir-parthe"],
+  "id": "parthes",
+  "label": "Empire parthe",
+  "tier": 1,
+  "region": "iran",
+  "period": "-247 à 224",
+  "start": -247,
+  "end": 224,
+  "trackId": "perse",
+  "row": 4,
+  "isRiver": false,
+  "capitale": "Ctésiphon",
+  "description": "Un empire iranien fondé par des cavaliers venus des steppes, qui reprend l’Iran et la Mésopotamie aux Séleucides et tient tête à Rome pendant près de trois siècles.",
+  "territories": ["Parthia", "Parthian Empire"],
+  "reperes": {
+    "capitale": {
+      "valeur": "Ctésiphon",
+      "precision": "sur le Tigre, près de l’actuelle Bagdad ; auparavant Nisa et Hécatompylos"
+    },
+    "regimes": {
+      "valeur": "Monarchie",
+      "precision": "le « roi des rois », de la dynastie arsacide, s’appuie sur de grandes familles nobles"
+    },
+    "langues": { "valeur": "Parthe", "precision": "langue iranienne ; le grec et l’araméen servent aussi" },
+    "religion": { "valeur": "Zoroastrisme et cultes variés", "precision": "les rois tolèrent les religions de leurs sujets" },
+    "apogee": { "valeur": "Règnes de Mithridate Ier et Mithridate II", "precision": "−171 → −88" },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": { "valeur": "Drachme d’argent", "precision": "à légendes en grec" },
+    "duree": { "valeur": "Environ 470 ans" },
+    "aujourdhui": { "valeur": "Iran et Irak", "precision": "ainsi que le Turkménistan et l’est de la Turquie" }
+  },
+  "essentiel": [
+    "Vers −247, des cavaliers nomades, les Parnes, conduits par Arsace, s’emparent de la province séleucide de Parthie, au nord-est de l’Iran.",
+    "Mithridate Ier conquiert l’Iran et la Mésopotamie : en −141, il prend Séleucie du Tigre.",
+    "Les Parthes contrôlent un tronçon essentiel de la [[route-de-la-soie|route de la soie]], entre l’Empire romain et la Chine des Han.",
+    "À la [[bataille-de-carrhes|bataille de Carrhes]] (−53), le général [[surena|Suréna]] écrase les légions de Crassus grâce à ses archers à cheval et à ses cavaliers cuirassés.",
+    "Affaiblis par les guerres contre Rome et les révoltes, les Arsacides sont renversés en 224 par Ardachir, fondateur de la dynastie sassanide."
+  ],
+  "datesCles": [
+    {
+      "annee": -247,
+      "evenement": "Arsace en Parthie",
+      "info": "Point de départ de l’ère arsacide, le calendrier des Parthes."
+    },
+    { "annee": -141, "evenement": "Prise de Séleucie", "info": "Mithridate Ier conquiert la Mésopotamie." },
+    {
+      "annee": -53,
+      "evenement": "Carrhes",
+      "info": "Le général Suréna écrase l’armée romaine de Crassus.",
+      "ref": "bataille-de-carrhes"
+    },
+    {
+      "annee": -20,
+      "evenement": "Accord avec Auguste",
+      "info": "Les Parthes rendent les enseignes prises à Carrhes : Rome et les Parthes reconnaissent l’Euphrate comme frontière."
+    },
+    {
+      "annee": 116,
+      "evenement": "Trajan à Ctésiphon",
+      "info": "L’empereur romain prend la capitale parthe, mais son successeur Hadrien rend les conquêtes."
+    },
+    {
+      "annee": 224,
+      "evenement": "Chute des Arsacides",
+      "info": "Ardachir, roi de Perside, bat et tue le dernier roi parthe, Artaban IV."
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "Les débuts",
+      "debut": -247,
+      "fin": -171,
+      "resume": "Les Parthes s’installent au nord-est de l’Iran et résistent aux Séleucides.",
+      "evenements": [{ "annee": -247, "evenement": "Arsace en Parthie" }]
+    },
+    {
+      "nom": "La conquête de l’Iran",
+      "debut": -171,
+      "fin": -53,
+      "resume": "Mithridate Ier et Mithridate II font des Parthes la grande puissance de l’Orient, entre Rome et la Chine.",
+      "evenements": [
+        { "annee": -141, "evenement": "Prise de Séleucie" },
+        { "annee": -53, "evenement": "Carrhes", "ref": "bataille-de-carrhes" }
+      ]
+    },
+    {
+      "nom": "Face à Rome",
+      "debut": -53,
+      "fin": 224,
+      "resume": "Guerres et traités alternent avec Rome autour de l’Arménie et de la Mésopotamie ; l’empire s’affaiblit jusqu’à la révolte d’Ardachir.",
+      "evenements": [
+        { "annee": 116, "evenement": "Trajan à Ctésiphon" },
+        { "annee": 165, "evenement": "Les Romains incendient Ctésiphon" },
+        { "annee": 224, "evenement": "Bataille d’Hormozgan" }
+      ]
+    }
+  ],
+  "regimes": [{ "id": "empire", "nom": "Empire arsacide", "debut": -247, "fin": 224 }],
+  "dynasties": [
+    {
+      "id": "arsacides",
+      "nom": "Les Arsacides",
+      "debut": -247,
+      "fin": 224,
+      "note": "Sélection ; les dates des rois sont parfois approximatives, et plusieurs rois rivaux règnent souvent en même temps."
+    }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Arsace Ier",
+      "titre": "Roi",
+      "debut": -247,
+      "fin": -217,
+      "dynastie": "arsacides",
+      "note": "fondateur",
+      "cle": true
+    },
+    {
+      "nom": "Mithridate Ier",
+      "titre": "Roi des rois",
+      "debut": -171,
+      "fin": -132,
+      "dynastie": "arsacides",
+      "note": "conquiert l’Iran et la Mésopotamie",
+      "cle": true
+    },
+    {
+      "nom": "Phraatès II",
+      "titre": "Roi",
+      "debut": -132,
+      "fin": -127,
+      "dynastie": "arsacides",
+      "note": "bat le Séleucide Antiochos VII"
+    },
+    {
+      "nom": "Mithridate II",
+      "titre": "Roi des rois",
+      "debut": -124,
+      "fin": -88,
+      "dynastie": "arsacides",
+      "note": "échange des ambassades avec la Chine et Rome",
+      "cle": true
+    },
+    {
+      "nom": "Orodès II",
+      "titre": "Roi",
+      "debut": -57,
+      "fin": -37,
+      "dynastie": "arsacides",
+      "note": "règne de Carrhes",
+      "cle": true
+    },
+    {
+      "nom": "Phraatès IV",
+      "titre": "Roi",
+      "debut": -37,
+      "fin": -2,
+      "dynastie": "arsacides",
+      "note": "repousse Marc Antoine"
+    },
+    {
+      "nom": "Musa",
+      "titre": "Reine",
+      "debut": -2,
+      "fin": 4,
+      "dynastie": "arsacides",
+      "note": "règne avec son fils Phraatès V"
+    },
+    {
+      "nom": "Vologèse Ier",
+      "titre": "Roi",
+      "debut": 51,
+      "fin": 78,
+      "dynastie": "arsacides",
+      "note": "installe son frère sur le trône d’Arménie"
+    },
+    { "nom": "Vologèse IV", "titre": "Roi", "debut": 147, "fin": 191, "dynastie": "arsacides" },
+    {
+      "nom": "Artaban IV",
+      "titre": "Roi",
+      "debut": 213,
+      "fin": 224,
+      "dynastie": "arsacides",
+      "note": "dernier roi, tué par Ardachir"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Suréna",
+      "role": "Général",
+      "description": "Le vainqueur de Carrhes, chef de l’une des plus grandes familles nobles.",
+      "dates": "vers −84 → −53",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Sur%C3%A9na",
+      "ref": "surena"
+    },
+    {
+      "nom": "Crassus",
+      "role": "Homme politique romain",
+      "description": "L’homme le plus riche de Rome, allié de César et de Pompée, tué après sa défaite à Carrhes.",
+      "dates": "vers −115 → −53",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Crassus"
+    },
+    {
+      "nom": "Musa",
+      "role": "Reine",
+      "description": "Ancienne esclave italienne offerte par Auguste à Phraatès IV, elle devient reine et règne avec son fils ; elle figure sur les monnaies.",
+      "dates": "Ier siècle av. J.-C.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Musa_de_Parthie"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Bataille de Carrhes",
+      "annee": -53,
+      "adversaires": ["République romaine (Crassus)"],
+      "allies": [],
+      "morts": "Environ 20 000 Romains tués et 10 000 capturés, selon Plutarque",
+      "vainqueur": "Empire parthe",
+      "consequences": "Crassus est tué ; les enseignes de ses légions sont prises. L’Euphrate devient pour longtemps la frontière entre Rome et les Parthes.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Carrhes"
+    },
+    {
+      "nom": "Guerre parthique de Trajan",
+      "annee": 114,
+      "adversaires": ["Empire romain (Trajan)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Empire romain (temporairement)",
+      "consequences": "Trajan prend Ctésiphon et atteint le golfe Persique (116), mais des révoltes éclatent ; son successeur Hadrien abandonne les conquêtes.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_parthique_de_Trajan"
+    },
+    {
+      "nom": "Bataille d’Hormozgan",
+      "annee": 224,
+      "adversaires": ["Ardachir (Perside)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Ardachir",
+      "consequences": "Le roi parthe Artaban IV est tué ; Ardachir fonde l’Empire sassanide.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Battle_of_Hormozdgan"
+    }
+  ],
+  "sciences": "Les Parthes doivent leurs victoires à deux types de cavaliers : des archers à cheval légers, célèbres pour le « tir parthe », et des cavaliers lourdement cuirassés, les cataphractaires. Leurs palais introduisent l’iwan, une grande salle voûtée ouverte sur une cour.",
+  "croyancesText": "Les Parthes pratiquent une forme de zoroastrisme et honorent aussi des dieux grecs et mésopotamiens. Ils laissent leurs sujets juifs, chrétiens, grecs et babyloniens pratiquer librement leur religion : Babylone et la Mésopotamie abritent ainsi d’importantes communautés juives.",
+  "diplomatie": "Les Parthes sont les intermédiaires du commerce entre la Chine et Rome : vers −115, ils reçoivent une ambassade de la Chine des Han. Avec Rome, ils alternent guerres et traités, surtout pour le contrôle de l’Arménie.",
+  "societe": "Le roi des rois s’appuie sur de grandes familles nobles, comme les Suren et les Karen, qui possèdent d’immenses domaines et lèvent leurs propres armées. Ce système rend l’empire puissant, mais aussi instable.",
+  "economie": "Agriculture de Mésopotamie et des oasis d’Iran, taxes sur le commerce de la soie et des épices, élevage de chevaux.",
+  "arts": "Palais à iwans (grandes salles voûtées ouvertes sur une cour), statues de nobles vêtus de pantalons et de tuniques, rhytons d’ivoire de Nisa.",
+  "quotidien": "Les nobles parthes portent des pantalons, une tunique et des bottes : une tenue de cavalier qui étonne les Romains.",
+  "heritage": [
+    {
+      "titre": "La « flèche du Parthe »",
+      "texte": "L’expression française désigne une remarque blessante lancée au moment de partir, comme les archers parthes qui tiraient en faisant semblant de fuir."
+    },
+    {
+      "titre": "L’iwan",
+      "texte": "Cette grande salle voûtée ouverte sur une cour deviendra un élément majeur de l’architecture iranienne et islamique."
+    }
+  ],
+  "aSavoir": [
+    "Presque tout ce que l’on sait des Parthes vient de leurs ennemis romains : leurs propres textes sont rares."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Empire_parthe",
+    { "titre": "Encyclopædia Britannica — Parthia", "url": "https://www.britannica.com/place/Parthia" }
+  ]
+}

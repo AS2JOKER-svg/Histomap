@@ -1,0 +1,18 @@
+{
+  "id": "ranavalona-ire",
+  "nom": "Ranavalona Ire",
+  "role": "Reine de Madagascar",
+  "roles": ["Reine"],
+  "dates": "vers 1778 → 1861",
+  "naissance": 1778,
+  "mort": 1861,
+  "description": "Reine de 1828 à 1861, elle défend l’indépendance et les traditions de Madagascar face aux Européens, au prix d’une répression très dure.",
+  "reperes": [{ "label": "Règne", "valeur": "1828 → 1861" }],
+  "essentiel": [
+    "Elle chasse les missionnaires et interdit le christianisme (1835).",
+    "Elle fait exécuter des chrétiens et ses opposants ; les corvées et les guerres pèsent lourdement sur la population.",
+    "Elle repousse une attaque franco-britannique contre Tamatave (1845)."
+  ],
+  "aSavoir": ["Son image divise : tyran pour les missionnaires européens, défenseuse de l’indépendance pour d’autres."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Ranavalona_Ire"
+}

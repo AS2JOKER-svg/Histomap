@@ -1,0 +1,160 @@
+{
+  "documentaires": [],
+  "decouvertes": ["moai", "rongorongo"],
+  "id": "rapa-nui",
+  "label": "Rapa Nui (île de Pâques)",
+  "tier": 2,
+  "region": "pacifique",
+  "period": "vers 1200 à 1888",
+  "start": 1200,
+  "end": 1888,
+  "color": "#5d4037",
+  "trackId": "polynesie-est",
+  "row": 4,
+  "isRiver": false,
+  "capitale": "Aucune (Anakena, résidence traditionnelle du chef)",
+  "description": "La société polynésienne de l’île habitée la plus isolée du monde, célèbre pour ses quelque mille statues géantes, les moaï, jusqu’à son annexion par le Chili en 1888.",
+  "territories": [],
+  "reperes": {
+    "capitale": { "valeur": "Aucune", "precision": "la plage d’Anakena est la résidence traditionnelle du chef suprême" },
+    "regimes": { "valeur": "Chefferie", "precision": "un chef suprême (ariki mau) et une dizaine de clans" },
+    "langues": { "valeur": "Rapa nui", "precision": "une langue polynésienne" },
+    "religion": {
+      "valeur": "Culte des ancêtres",
+      "precision": "puis culte de l’homme-oiseau à Orongo ; christianisme après 1864"
+    },
+    "apogee": { "valeur": "XIIIe → XVIe siècle", "precision": "époque où sont sculptés la plupart des moaï" },
+    "population": { "valeur": "Quelques milliers en 1722", "precision": "estimation ; seulement 111 habitants en 1877" },
+    "monnaie": { "valeur": "Aucune" },
+    "duree": { "valeur": "Environ 700 ans" },
+    "aujourdhui": { "valeur": "Chili (île de Pâques)" }
+  },
+  "essentiel": [
+    "Selon les datations récentes, des navigateurs polynésiens atteignent entre 1150 et 1280 l’île de Rapa Nui, à plus de 2 000 km de toute autre terre habitée.",
+    "Les clans sculptent dans la roche volcanique près d’un millier de [[moai|moaï]], des statues qui représentent les ancêtres, et les dressent sur des plateformes face aux villages.",
+    "L’île perd peu à peu ses forêts ; les chercheurs débattent de l’ampleur de la crise que cela a provoquée avant l’arrivée des Européens.",
+    "Les habitants développent le culte de l’homme-oiseau et une écriture encore non déchiffrée, le [[rongorongo|rongorongo]].",
+    "Après l’arrivée du Hollandais Roggeveen en 1722, les [[raids-esclavagistes-de-1862|raids esclavagistes de 1862]] et les épidémies font presque disparaître la population ; le Chili annexe l’île en 1888."
+  ],
+  "datesCles": [
+    {
+      "annee": 1200,
+      "evenement": "Arrivée",
+      "info": "Entre 1150 et 1280 environ, des Polynésiens s’installent sur l’île ; selon la tradition, ils sont menés par le chef Hotu Matuꞌa."
+    },
+    {
+      "annee": 1300,
+      "evenement": "Les moaï",
+      "info": "Les clans commencent à sculpter et à dresser de grandes statues."
+    },
+    {
+      "annee": 1650,
+      "evenement": "La fin des forêts",
+      "info": "Vers le XVIIe siècle, les grands palmiers de l’île ont disparu."
+    },
+    {
+      "annee": 1722,
+      "evenement": "Roggeveen",
+      "info": "Le jour de Pâques, le navigateur hollandais Jacob Roggeveen aborde l’île, qu’il nomme île de Pâques."
+    },
+    { "annee": 1774, "evenement": "James Cook", "info": "Cook observe que de nombreux moaï ont été renversés." },
+    {
+      "annee": 1862,
+      "evenement": "Raids esclavagistes",
+      "info": "Des navires péruviens enlèvent environ 1 500 habitants pour les faire travailler au Pérou.",
+      "ref": "raids-esclavagistes-de-1862"
+    },
+    {
+      "annee": 1877,
+      "evenement": "111 habitants",
+      "info": "Après les raids, les épidémies et les départs, il ne reste que 111 Rapa Nui sur l’île."
+    },
+    {
+      "annee": 1888,
+      "evenement": "Annexion",
+      "info": "Le Chili annexe l’île par un accord avec le chef Atamu Tekena."
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "L’époque des moaï",
+      "debut": 1200,
+      "fin": 1650,
+      "resume": "Les clans peuplent l’île, cultivent la patate douce et dressent des centaines de statues d’ancêtres.",
+      "evenements": [{ "annee": 1200, "evenement": "Arrivée des premiers habitants" }, { "annee": 1300, "evenement": "Premiers moaï" }]
+    },
+    {
+      "nom": "L’homme-oiseau",
+      "debut": 1650,
+      "fin": 1722,
+      "resume": "Sans forêts, la société s’adapte ; le culte de l’homme-oiseau prend de l’importance.",
+      "evenements": [{ "annee": 1650, "evenement": "Disparition des grands palmiers" }]
+    },
+    {
+      "nom": "Le choc des contacts",
+      "debut": 1722,
+      "fin": 1888,
+      "resume": "Après l’arrivée des Européens, les raids esclavagistes et les maladies font presque disparaître la population.",
+      "evenements": [
+        { "annee": 1722, "evenement": "Arrivée de Roggeveen" },
+        { "annee": 1862, "evenement": "Raids esclavagistes", "ref": "raids-esclavagistes-de-1862" },
+        { "annee": 1888, "evenement": "Annexion par le Chili" }
+      ]
+    }
+  ],
+  "regimes": [{ "id": "chefferie", "nom": "Chefferie", "debut": 1200, "fin": 1888 }],
+  "dirigeants": [],
+  "personnages": [
+    {
+      "nom": "Hotu Matuꞌa",
+      "role": "Chef légendaire",
+      "description": "Selon la tradition, le premier chef arrivé sur l’île avec sa famille et ses compagnons.",
+      "dates": "tradition",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Hotu_Matu%27a"
+    },
+    {
+      "nom": "Jacob Roggeveen",
+      "role": "Navigateur hollandais",
+      "description": "Premier Européen à aborder l’île, le jour de Pâques 1722.",
+      "dates": "1659 → 1729",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Jacob_Roggeveen"
+    },
+    {
+      "nom": "Eugène Eyraud",
+      "role": "Missionnaire",
+      "description": "Frère catholique français, premier Européen à vivre sur l’île (1864), il décrit les tablettes rongorongo.",
+      "dates": "1820 → 1868",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Eug%C3%A8ne_Eyraud"
+    },
+    {
+      "nom": "Atamu Tekena",
+      "role": "Chef (ariki)",
+      "description": "Il signe en 1888 l’accord avec le Chili.",
+      "dates": "? → 1892",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Atamu_Tekena"
+    }
+  ],
+  "guerres": [],
+  "sciences": "Les sculpteurs taillent les moaï dans la roche volcanique de la carrière de Rano Raraku avec des outils de basalte. Selon une hypothèse appuyée par des expériences, les statues étaient déplacées debout, en les faisant basculer à l’aide de cordes, comme si elles « marchaient », ce qui rejoint une tradition locale. Les habitants cultivent la patate douce dans des jardins protégés du vent par des murets et des pierres.",
+  "croyancesText": "Les moaï représentent des ancêtres divinisés qui protègent les clans ; la plupart regardent vers l’intérieur de l’île, vers les villages. Plus tard, le culte de l’homme-oiseau devient central : chaque année, au village sacré d’Orongo, des concurrents nagent jusqu’à un îlot pour rapporter le premier œuf de sterne, et leur chef devient l’homme-oiseau pour un an.",
+  "diplomatie": "L’île est si isolée qu’elle n’a aucun contact connu avec d’autres peuples entre son peuplement et 1722. Des indices, comme la patate douce venue d’Amérique, suggèrent toutefois que des Polynésiens ont atteint l’Amérique du Sud. À partir de 1722, des navires européens et américains y font escale.",
+  "societe": "L’île est divisée entre une dizaine de clans, chacun avec son territoire allant de la côte à l’intérieur. Le chef suprême, l’ariki mau, a surtout un rôle religieux. Des spécialistes, sculpteurs, prêtres et pêcheurs, ont un statut élevé.",
+  "economie": "Culture de la patate douce, du taro et de la canne à sucre, élevage du poulet, pêche.",
+  "arts": "Moaï et leurs coiffes de pierre rouge (pukao), pétroglyphes d’hommes-oiseaux à Orongo, tablettes de bois gravées de rongorongo.",
+  "quotidien": "Pour protéger leurs cultures du vent et de la sécheresse, les habitants les entourent de murets de pierre et couvrent le sol de cailloux qui gardent l’humidité.",
+  "heritage": [
+    {
+      "titre": "Un parc national",
+      "texte": "Le parc national de Rapa Nui est inscrit au patrimoine mondial de l’UNESCO depuis 1995."
+    },
+    {
+      "titre": "Un débat scientifique",
+      "texte": "L’île a longtemps été présentée comme l’exemple d’une société qui se serait détruite en épuisant ses ressources ; des recherches récentes nuancent cette idée et soulignent le rôle des rats, puis des contacts avec les Européens."
+    }
+  ],
+  "aSavoir": ["Le plus grand moaï inachevé, resté dans la carrière de Rano Raraku, mesure environ 21 mètres."],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/%C3%8Ele_de_P%C3%A2ques",
+    { "titre": "Encyclopædia Britannica — Easter Island", "url": "https://www.britannica.com/place/Easter-Island" }
+  ]
+}

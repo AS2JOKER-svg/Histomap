@@ -7,6 +7,8 @@
 //         HISTOMAP_CONTENT=<dossier> node scripts/validate-content.mjs   (valider un autre dossier)
 import { ENTITY_TYPES, ignoredTerritories, loadContent, loadMapIndex } from './lib/content.mjs'
 import { ID, linkSyntaxErrors, parseLinks } from '../src/lib/links.js'
+import { loadDossiers, validateDossiers } from './lib/dossiers.mjs'
+import { loadParcours, validateParcours } from './lib/parcours.mjs'
 
 const content = loadContent()
 const errors = [...content.problems]
@@ -321,7 +323,8 @@ for (const [id, { file, data: civ }] of content.civs) {
     // (un script relancé deux fois l'ajoutait en double : la fiche et le quiz montraient la guerre plusieurs fois)
     if (warKeys.has(`${g.nom}|${g.annee}`)) err(w, `guerre en double : « ${g.nom} » (${g.annee})`)
     warKeys.add(`${g.nom}|${g.annee}`)
-    onlyFields(`${w} (guerre « ${g.nom} »)`, g, ['nom', 'annee', 'adversaires', 'allies', 'morts', 'vainqueur', 'consequences', 'wikiUrl'])
+    onlyFields(`${w} (guerre « ${g.nom} »)`, g, ['nom', 'annee', 'camp', 'adversaires', 'allies', 'morts', 'vainqueur', 'consequences', 'wikiUrl'])
+    if (g.camp !== undefined && !isStr(g.camp)) err(w, `« camp » doit être un texte (guerre « ${g.nom} »)`)
     if (g.wikiUrl && !isUrl(g.wikiUrl)) warn(w, `lien invalide pour « ${g.nom} »`)
     if (content.conflicts[g.nom]) usedConflicts.add(g.nom)
     else warn(w, `guerre sans lieu sur la carte : « ${g.nom} » (content/conflicts.json)`)
@@ -355,6 +358,14 @@ else
     else if (mapNames) for (const n of group.noms) if (!mapNames.has(n)) warn(w, `« ${n} » absent de toutes les cartes`)
   }
 
+// ── Dossiers de guerre (content/wars/) ───────────────────────────────────────
+const dossiers = loadDossiers(content.dir)
+const allWarKeys = new Set([...content.civs.values()].flatMap(({ data }) => (data.guerres ?? []).map((g) => `${g.nom}|${g.annee}`)))
+validateDossiers(dossiers, { err, warn, isStr, isNum, isArr, isUrl, isHex, onlyFields, sources, entities: content.entities, civs: content.civs, wars: allWarKeys, mapIndex })
+
+// ── Parcours de l'Aventure (content/parcours.json) ──────────────────────────
+validateParcours(loadParcours(content.dir), { err, warn, isStr, isArr, onlyFields, content })
+
 // ── Liens [[id]] dans tous les textes ─────────────────────────────────────────
 function checkLinks(where, value) {
   if (typeof value === 'string') {
@@ -367,6 +378,7 @@ function checkLinks(where, value) {
 }
 for (const { file, data } of content.civs.values()) checkLinks(`content/${file}`, data)
 for (const { file, data } of content.entityFiles) checkLinks(`content/${file}`, data)
+for (const { file, data } of dossiers) if (data) checkLinks(`content/${file}`, data)
 
 // ── Bilan ────────────────────────────────────────────────────────────────────
 if (warnings.length) {
@@ -381,5 +393,6 @@ if (errors.length) {
 const count = (t) => content.entityFiles.filter((e) => e.type === t).length
 console.log(
   `\n✅ Contenu valide : ${content.epochs.length} époques, ${content.civs.size} civilisations, ` +
-    `${content.entityFiles.length} fiches liées (${count('personne')} personnes, ${count('evenement')} événements, ${count('decouverte')} découvertes).`
+    `${content.entityFiles.length} fiches liées (${count('personne')} personnes, ${count('evenement')} événements, ${count('decouverte')} découvertes), ` +
+    `${dossiers.length} dossier(s) de guerre.`
 )

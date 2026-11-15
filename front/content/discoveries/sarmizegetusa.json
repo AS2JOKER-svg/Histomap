@@ -1,0 +1,18 @@
+{
+  "id": "sarmizegetusa",
+  "nom": "Sarmizegetusa Regia",
+  "domaine": "Architecture",
+  "dates": "Ier siècle av. J.-C. → 106",
+  "description": "La capitale et le grand centre religieux des Daces, dans les montagnes de Transylvanie, avec une forteresse et des sanctuaires de piliers de pierre.",
+  "sections": [
+    {
+      "titre": "Les sanctuaires",
+      "texte": "Des cercles et des rangées de piliers de pierre forment plusieurs sanctuaires ; le grand sanctuaire circulaire a peut-être servi de calendrier."
+    },
+    {
+      "titre": "Aujourd’hui",
+      "texte": "Avec les autres forteresses daces des monts d’Orăștie, le site est inscrit au patrimoine mondial de l’UNESCO depuis 1999."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Sarmizegetusa_Regia"
+}

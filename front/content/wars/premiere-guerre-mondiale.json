@@ -1,0 +1,894 @@
+{
+  "id": "premiere-guerre-mondiale",
+  "nom": "Première Guerre mondiale",
+  "debut": 1914,
+  "fin": 1918,
+  "dates": "28 juillet 1914 → 11 novembre 1918",
+  "description": "La « Grande Guerre », qui oppose de 1914 à 1918 les Alliés aux Empires centraux, d’abord en Europe puis dans le monde entier, et qui fait environ dix millions de morts parmi les soldats.",
+  "essentiel": [
+    "Le 28 juin 1914, l’héritier du trône d’Autriche-Hongrie est assassiné à Sarajevo ([[attentat-de-sarajevo|attentat de Sarajevo]]). Par le jeu des alliances, l’Europe entre en guerre en quelques jours : l’Allemagne et l’Autriche-Hongrie contre la France, la Russie, le Royaume-Uni et la Serbie.",
+    "L’Allemagne envahit la Belgique et le nord de la France, mais elle est arrêtée sur la Marne en septembre 1914. Le front se fige : pendant quatre ans, les soldats vivent et meurent dans les tranchées, comme à [[bataille-de-verdun|Verdun]] et sur la Somme en 1916.",
+    "La guerre devient mondiale : l’Empire ottoman, l’Italie, le Japon, les colonies et les dominions y participent. Dans l’Empire ottoman, les autorités organisent à partir de 1915 la déportation et l’extermination des Arméniens : c’est le [[genocide-armenien|génocide arménien]].",
+    "En 1917, les États-Unis entrent en guerre aux côtés des Alliés, tandis que la Russie, en pleine [[revolution-d-octobre|révolution]], s’en retire.",
+    "Après l’échec de ses dernières offensives, l’Allemagne signe l’armistice le 11 novembre 1918. En 1919, le traité de Versailles fixe les conditions de la paix ; les empires allemand, austro-hongrois, russe et ottoman ont disparu ou vont disparaître."
+  ],
+  "chiffres": [
+    {
+      "valeur": "Environ 10 millions",
+      "label": "de soldats tués, selon les estimations"
+    },
+    {
+      "valeur": "Plus de 60 millions",
+      "label": "de soldats mobilisés"
+    },
+    {
+      "valeur": "Environ 1,4 million",
+      "label": "de soldats français tués"
+    },
+    {
+      "valeur": "4 ans et 3 mois",
+      "label": "de guerre, de l’été 1914 au 11 novembre 1918"
+    }
+  ],
+  "camps": [
+    {
+      "id": "allies",
+      "nom": "Alliés",
+      "legende": "Alliés (Entente)",
+      "couleur": "#2f6fdb",
+      "description": "La France, le Royaume-Uni et son empire, la Russie (jusqu’en 1917), la Serbie, la Belgique, le Japon, puis l’Italie (1915), la Roumanie (1916), les États-Unis (1917) et d’autres pays.",
+      "membres": [
+        "France et son empire colonial",
+        "Royaume-Uni, ses dominions et ses colonies",
+        "Russie (jusqu’à fin 1917)",
+        "Serbie, Belgique, Monténégro, Japon",
+        "Italie (1915), Roumanie (1916), États-Unis et Grèce (1917)"
+      ]
+    },
+    {
+      "id": "centraux",
+      "nom": "Empires centraux",
+      "couleur": "#a0522d",
+      "description": "L’Empire allemand et l’Autriche-Hongrie, rejoints par l’Empire ottoman (1914) et la Bulgarie (1915).",
+      "membres": [
+        "Empire allemand",
+        "Autriche-Hongrie",
+        "Empire ottoman (à partir de fin 1914)",
+        "Bulgarie (à partir de 1915)"
+      ]
+    }
+  ],
+  "carte": {
+    "annee": 1914,
+    "occupant": "centraux",
+    "noms": {
+      "German Empire": "Empire allemand",
+      "Austro-Hungarian Empire": "Autriche-Hongrie",
+      "France": "France",
+      "United Kingdom of Great Britain and Ireland": "Royaume-Uni",
+      "Russian Empire": "Empire russe",
+      "Finland": "Finlande (Empire russe)",
+      "Armenia": "Arménie russe",
+      "Azerbaijan": "Azerbaïdjan (Empire russe)",
+      "Georgia": "Géorgie (Empire russe)",
+      "Serbia": "Serbie",
+      "Montenegro": "Monténégro",
+      "Belgium": "Belgique",
+      "Empire of Japan": "Japon",
+      "Ottoman Empire": "Empire ottoman",
+      "Kingdom of Italy": "Italie",
+      "Bulgaria": "Bulgarie",
+      "Romania": "Roumanie",
+      "Portugal": "Portugal",
+      "United States": "États-Unis",
+      "Greece": "Grèce",
+      "Brazil": "Brésil"
+    },
+    "note": "Couleurs simplifiées : un pays est coloré dès qu’il est en guerre, et « occupé » dès qu’une grande partie de son territoire l’est (le nord-est de la France, occupé pendant toute la guerre, reste en bleu). Frontières de 1914 ; la Finlande et le Caucase, qui appartenaient à l’Empire russe, sont dessinés à part, et la Chine, entrée en guerre en 1917, n’apparaît pas.",
+    "statuts": {
+      "German Empire": {
+        "statut": "centraux",
+        "note": "Empire allemand de Guillaume II"
+      },
+      "Austro-Hungarian Empire": {
+        "statut": "centraux",
+        "note": "Autriche-Hongrie de François-Joseph, qui déclare la guerre à la Serbie le 28 juillet 1914"
+      },
+      "Serbia": {
+        "statut": "allies",
+        "note": "attaquée par l’Autriche-Hongrie le 28 juillet 1914"
+      },
+      "Russian Empire": {
+        "statut": "allies",
+        "note": "Empire russe de Nicolas II, en guerre à partir du 1er août 1914"
+      },
+      "Finland": "allies",
+      "Armenia": "allies",
+      "Azerbaijan": "allies",
+      "Georgia": "allies",
+      "France": {
+        "statut": "allies",
+        "note": "en guerre à partir du 3 août 1914"
+      },
+      "Belgium": {
+        "statut": "occupe",
+        "note": "neutre, envahie par l’Allemagne le 4 août 1914 et presque entièrement occupée"
+      },
+      "United Kingdom of Great Britain and Ireland": {
+        "statut": "allies",
+        "note": "entre en guerre le 4 août 1914, avec ses dominions et ses colonies"
+      },
+      "Montenegro": {
+        "statut": "allies",
+        "note": "allié de la Serbie"
+      }
+    }
+  },
+  "phases": [
+    {
+      "id": "1914",
+      "nom": "L’Europe entre en guerre",
+      "debut": "1914-06",
+      "fin": "1914-12",
+      "resume": "L’attentat de Sarajevo déclenche la guerre ; l’armée allemande est arrêtée sur la Marne et le front se fige.",
+      "texte": "Après l’attentat de Sarajevo, l’Autriche-Hongrie déclare la guerre à la Serbie le 28 juillet 1914. Les alliances entraînent les autres puissances : l’Allemagne déclare la guerre à la Russie puis à la France, et envahit la Belgique neutre, ce qui fait entrer le Royaume-Uni dans le conflit. À l’est, les Allemands battent les Russes à Tannenberg. À l’ouest, l’armée allemande approche de Paris mais elle est arrêtée sur la Marne en septembre. Les deux camps creusent des tranchées de la mer du Nord à la Suisse. Le Japon rejoint les Alliés, et l’Empire ottoman les Empires centraux.",
+      "carte": {
+        "cadre": [
+          [
+            -10,
+            35
+          ],
+          [
+            45,
+            62
+          ]
+        ],
+        "statuts": {
+          "Empire of Japan": {
+            "statut": "allies",
+            "note": "déclare la guerre à l’Allemagne le 23 août 1914"
+          },
+          "Ottoman Empire": {
+            "statut": "centraux",
+            "note": "entre en guerre aux côtés de l’Allemagne fin 1914"
+          }
+        }
+      },
+      "batailles": [
+        "tannenberg",
+        "marne"
+      ],
+      "evenements": [
+        {
+          "date": "1914-06-28",
+          "texte": "Attentat de Sarajevo",
+          "ref": "attentat-de-sarajevo"
+        },
+        {
+          "date": "1914-07-28",
+          "texte": "L’Autriche-Hongrie déclare la guerre à la Serbie"
+        },
+        {
+          "date": "1914-08-03",
+          "texte": "L’Allemagne déclare la guerre à la France"
+        },
+        {
+          "date": "1914-08-04",
+          "texte": "Invasion de la Belgique ; le Royaume-Uni entre en guerre"
+        }
+      ]
+    },
+    {
+      "id": "1915",
+      "nom": "Une guerre mondiale",
+      "debut": "1915-01",
+      "fin": "1915-12",
+      "resume": "L’Italie rejoint les Alliés, la Bulgarie les Empires centraux ; les Alliés échouent aux Dardanelles et la Serbie est occupée.",
+      "texte": "Sur le front de l’Ouest, les offensives échouent devant les tranchées ; en avril, l’armée allemande utilise des gaz de combat près d’Ypres. Pour aider la Russie, les Alliés tentent de forcer le détroit des Dardanelles, mais l’expédition de Gallipoli tourne à l’échec. L’Italie entre en guerre aux côtés des Alliés en mai, la Bulgarie aux côtés des Empires centraux en octobre ; la Serbie est alors envahie. Dans l’Empire ottoman, à partir d’avril 1915, les autorités déportent et massacrent la population arménienne.",
+      "carte": {
+        "cadre": [
+          [
+            -5,
+            33
+          ],
+          [
+            45,
+            58
+          ]
+        ],
+        "statuts": {
+          "Kingdom of Italy": {
+            "statut": "allies",
+            "note": "entre en guerre aux côtés des Alliés en mai 1915"
+          },
+          "Bulgaria": {
+            "statut": "centraux",
+            "note": "entre en guerre aux côtés des Empires centraux en octobre 1915"
+          },
+          "Serbia": {
+            "statut": "occupe",
+            "note": "envahie fin 1915 ; son armée se replie vers l’Adriatique"
+          }
+        }
+      },
+      "batailles": [
+        "dardanelles"
+      ],
+      "evenements": [
+        {
+          "date": "1915-04",
+          "texte": "Premières attaques au gaz de combat, près d’Ypres"
+        },
+        {
+          "date": "1915-04-24",
+          "texte": "Début de la déportation et de l’extermination des Arméniens",
+          "ref": "genocide-armenien"
+        },
+        {
+          "date": "1915-05",
+          "texte": "L’Italie entre en guerre aux côtés des Alliés"
+        },
+        {
+          "date": "1915-10",
+          "texte": "La Bulgarie entre en guerre ; invasion de la Serbie"
+        }
+      ]
+    },
+    {
+      "id": "1916",
+      "nom": "Verdun et la Somme",
+      "debut": "1916-01",
+      "fin": "1916-12",
+      "resume": "Les grandes batailles d’usure de Verdun et de la Somme font des centaines de milliers de victimes sans percée décisive.",
+      "texte": "En février 1916, l’armée allemande attaque Verdun. Pendant dix mois, l’armée française y résiste, au prix d’énormes pertes des deux côtés. En juillet, les Britanniques et les Français lancent l’offensive de la Somme : dès le premier jour, l’armée britannique perd près de 20 000 tués. En mer du Nord, la bataille du Jutland ne change pas l’équilibre naval. À l’est, l’offensive russe du général Broussilov réussit contre l’Autriche-Hongrie. La Roumanie entre en guerre aux côtés des Alliés, mais elle est vite envahie.",
+      "carte": {
+        "cadre": [
+          [
+            -5,
+            40
+          ],
+          [
+            35,
+            60
+          ]
+        ],
+        "statuts": {
+          "Montenegro": {
+            "statut": "occupe",
+            "note": "occupé par l’Autriche-Hongrie en janvier 1916"
+          },
+          "Portugal": {
+            "statut": "allies",
+            "note": "en guerre contre l’Allemagne à partir de mars 1916"
+          },
+          "Romania": {
+            "statut": "occupe",
+            "note": "entre en guerre aux côtés des Alliés en août 1916, puis est en grande partie occupée (Bucarest tombe en décembre)"
+          }
+        }
+      },
+      "batailles": [
+        "verdun",
+        "jutland",
+        "broussilov",
+        "somme"
+      ],
+      "evenements": [
+        {
+          "date": "1916-02-21",
+          "texte": "Début de la bataille de Verdun",
+          "ref": "bataille-de-verdun"
+        },
+        {
+          "date": "1916-07-01",
+          "texte": "Début de la bataille de la Somme"
+        },
+        {
+          "date": "1916-08",
+          "texte": "La Roumanie entre en guerre aux côtés des Alliés"
+        }
+      ]
+    },
+    {
+      "id": "1917",
+      "nom": "Les États-Unis entrent, la Russie sort",
+      "debut": "1917-01",
+      "fin": "1917-12",
+      "resume": "La guerre sous-marine allemande provoque l’entrée en guerre des États-Unis ; la Russie, en révolution, cesse le combat.",
+      "texte": "En février 1917, l’Allemagne lance la guerre sous-marine à outrance contre tous les navires qui ravitaillent le Royaume-Uni. Les États-Unis lui déclarent la guerre le 6 avril. En Russie, la révolution renverse le tsar en mars, puis les bolcheviks de Lénine prennent le pouvoir en novembre et signent un armistice en décembre. En France, l’offensive du Chemin des Dames échoue et provoque des mutineries. En Italie, l’armée subit la lourde défaite de Caporetto.",
+      "carte": {
+        "cadre": [
+          [
+            -80,
+            20
+          ],
+          [
+            60,
+            65
+          ]
+        ],
+        "statuts": {
+          "United States": {
+            "statut": "allies",
+            "note": "déclare la guerre à l’Allemagne le 6 avril 1917"
+          },
+          "Greece": {
+            "statut": "allies",
+            "note": "entre en guerre aux côtés des Alliés en juin 1917"
+          },
+          "Brazil": {
+            "statut": "allies",
+            "note": "déclare la guerre à l’Allemagne en octobre 1917"
+          },
+          "Russian Empire": {
+            "statut": "neutre",
+            "note": "en révolution, la Russie signe un armistice en décembre 1917, puis la paix de Brest-Litovsk en mars 1918"
+          },
+          "Finland": "neutre",
+          "Armenia": "neutre",
+          "Azerbaijan": "neutre",
+          "Georgia": "neutre"
+        }
+      },
+      "batailles": [
+        "chemin-des-dames",
+        "caporetto"
+      ],
+      "evenements": [
+        {
+          "date": "1917-03",
+          "texte": "Abdication du tsar Nicolas II"
+        },
+        {
+          "date": "1917-04-06",
+          "texte": "Les États-Unis déclarent la guerre à l’Allemagne"
+        },
+        {
+          "date": "1917-11",
+          "texte": "Les bolcheviks prennent le pouvoir en Russie",
+          "ref": "revolution-d-octobre"
+        },
+        {
+          "date": "1917-12",
+          "texte": "Armistice entre la Russie et les Empires centraux"
+        }
+      ]
+    },
+    {
+      "id": "1918",
+      "nom": "La victoire des Alliés",
+      "debut": "1918-01",
+      "fin": "1918-11",
+      "resume": "Les dernières offensives allemandes échouent ; les Alliés contre-attaquent et les Empires centraux s’effondrent.",
+      "texte": "Libérée du front de l’Est par la paix de Brest-Litovsk (mars 1918), l’Allemagne lance de grandes offensives à l’ouest et s’approche de nouveau de Paris. Mais, sous le commandement unique du général Foch et avec l’aide de troupes américaines toujours plus nombreuses, les Alliés l’arrêtent sur la Marne en juillet, puis attaquent sans relâche à partir d’août. La Bulgarie, l’Empire ottoman puis l’Autriche-Hongrie cessent le combat. L’empereur Guillaume II abdique le 9 novembre, et l’armistice est signé le 11 novembre 1918 à Rethondes, près de Compiègne.",
+      "carte": {
+        "cadre": [
+          [
+            -5,
+            38
+          ],
+          [
+            35,
+            58
+          ]
+        ],
+        "statuts": {
+          "Romania": {
+            "statut": "allies",
+            "note": "reprend la guerre aux côtés des Alliés le 10 novembre 1918"
+          },
+          "Serbia": {
+            "statut": "allies",
+            "note": "libérée par les armées alliées à l’automne 1918"
+          },
+          "Belgium": {
+            "statut": "allies",
+            "note": "libérée à l’automne 1918"
+          },
+          "Montenegro": {
+            "statut": "allies",
+            "note": "libéré à l’automne 1918"
+          }
+        }
+      },
+      "batailles": [
+        "marne-1918",
+        "amiens"
+      ],
+      "evenements": [
+        {
+          "date": "1918-03-03",
+          "texte": "Traité de Brest-Litovsk entre la Russie et les Empires centraux"
+        },
+        {
+          "date": "1918-03-21",
+          "texte": "Début des grandes offensives allemandes à l’ouest"
+        },
+        {
+          "date": "1918-09-29",
+          "texte": "La Bulgarie signe un armistice"
+        },
+        {
+          "date": "1918-10-30",
+          "texte": "L’Empire ottoman signe un armistice"
+        },
+        {
+          "date": "1918-11-03",
+          "texte": "L’Autriche-Hongrie signe un armistice"
+        },
+        {
+          "date": "1918-11-11",
+          "texte": "Armistice de Rethondes : fin des combats"
+        }
+      ]
+    },
+    {
+      "id": "paix",
+      "nom": "La paix",
+      "debut": "1919-01",
+      "fin": "1920-08",
+      "resume": "La conférence de Paris impose ses conditions aux vaincus ; les traités redessinent la carte de l’Europe et du Moyen-Orient.",
+      "texte": "La conférence de la paix s’ouvre à Paris en janvier 1919. Le traité de Versailles, signé le 28 juin 1919, rend l’Alsace-Lorraine à la France, prive l’Allemagne de ses colonies, limite son armée et la déclare responsable de la guerre, ce qui l’oblige à payer des réparations. D’autres traités démantèlent l’Autriche-Hongrie et l’Empire ottoman : de nouveaux États naissent, comme la Pologne, la Tchécoslovaquie et le royaume des Serbes, Croates et Slovènes. La Société des Nations est créée pour préserver la paix.",
+      "carte": {
+        "cadre": [
+          [
+            -10,
+            30
+          ],
+          [
+            50,
+            62
+          ]
+        ],
+        "statuts": {}
+      },
+      "batailles": [],
+      "evenements": [
+        {
+          "date": "1919-01-18",
+          "texte": "Ouverture de la conférence de la paix à Paris"
+        },
+        {
+          "date": "1919-06-28",
+          "texte": "Signature du traité de Versailles"
+        },
+        {
+          "date": "1920-01",
+          "texte": "Création de la Société des Nations"
+        },
+        {
+          "date": "1920-08",
+          "texte": "Traité de Sèvres avec l’Empire ottoman"
+        }
+      ]
+    }
+  ],
+  "batailles": [
+    {
+      "id": "tannenberg",
+      "nom": "Bataille de Tannenberg",
+      "debut": "1914-08",
+      "lieu": "Prusse-Orientale",
+      "coords": [
+        20.13,
+        53.5
+      ],
+      "vainqueur": "centraux",
+      "resume": "L’armée allemande de Hindenburg et Ludendorff encercle et détruit une armée russe.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Tannenberg_(1914)"
+    },
+    {
+      "id": "marne",
+      "nom": "Première bataille de la Marne",
+      "debut": "1914-09",
+      "lieu": "Vallée de la Marne, à l’est de Paris",
+      "coords": [
+        3.4,
+        48.95
+      ],
+      "vainqueur": "allies",
+      "resume": "Les armées française et britannique arrêtent l’armée allemande près de Paris et la forcent à reculer ; des renforts arrivent même en taxis parisiens.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Premi%C3%A8re_bataille_de_la_Marne"
+    },
+    {
+      "id": "dardanelles",
+      "nom": "Bataille des Dardanelles (Gallipoli)",
+      "debut": "1915-02",
+      "fin": "1916-01",
+      "lieu": "Détroit des Dardanelles et presqu’île de Gallipoli",
+      "coords": [
+        26.35,
+        40.2
+      ],
+      "vainqueur": "centraux",
+      "resume": "Les Alliés, dont de nombreux soldats australiens et néo-zélandais, ne parviennent pas à forcer le détroit et doivent rembarquer.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_des_Dardanelles"
+    },
+    {
+      "id": "verdun",
+      "nom": "Bataille de Verdun",
+      "debut": "1916-02",
+      "fin": "1916-12",
+      "lieu": "Verdun, Lorraine",
+      "coords": [
+        5.39,
+        49.16
+      ],
+      "vainqueur": "allies",
+      "resume": "Pendant dix mois, l’armée française résiste aux assauts allemands ; plus de 300 000 soldats des deux camps y meurent.",
+      "ref": "bataille-de-verdun",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Verdun"
+    },
+    {
+      "id": "jutland",
+      "nom": "Bataille du Jutland",
+      "debut": "1916-05-31",
+      "fin": "1916-06-01",
+      "lieu": "Mer du Nord, au large du Danemark",
+      "coords": [
+        6,
+        56.7
+      ],
+      "resume": "La plus grande bataille navale de la guerre : les Britanniques perdent plus de navires, mais la flotte allemande ne ressort presque plus.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_du_Jutland"
+    },
+    {
+      "id": "broussilov",
+      "nom": "Offensive Broussilov",
+      "debut": "1916-06",
+      "fin": "1916-09",
+      "lieu": "Galicie et Volhynie (Ukraine actuelle)",
+      "coords": [
+        25.3,
+        50.75
+      ],
+      "vainqueur": "allies",
+      "resume": "L’armée russe enfonce le front austro-hongrois, mais au prix de pertes énormes.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Offensive_Broussilov"
+    },
+    {
+      "id": "somme",
+      "nom": "Bataille de la Somme",
+      "debut": "1916-07",
+      "fin": "1916-11",
+      "lieu": "Somme, Picardie",
+      "coords": [
+        2.75,
+        49.97
+      ],
+      "resume": "Offensive britannique et française qui ne gagne que quelques kilomètres ; plus d’un million de soldats sont tués, blessés ou disparus.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_la_Somme"
+    },
+    {
+      "id": "chemin-des-dames",
+      "nom": "Offensive du Chemin des Dames",
+      "debut": "1917-04",
+      "fin": "1917-05",
+      "lieu": "Chemin des Dames, Aisne",
+      "coords": [
+        3.6,
+        49.45
+      ],
+      "vainqueur": "centraux",
+      "resume": "L’offensive française du général Nivelle échoue avec de lourdes pertes, ce qui déclenche des mutineries.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_du_Chemin_des_Dames"
+    },
+    {
+      "id": "caporetto",
+      "nom": "Bataille de Caporetto",
+      "debut": "1917-10",
+      "fin": "1917-11",
+      "lieu": "Caporetto (Kobarid, Slovénie actuelle)",
+      "coords": [
+        13.58,
+        46.25
+      ],
+      "vainqueur": "centraux",
+      "resume": "Les armées austro-hongroise et allemande percent le front italien et repoussent l’armée italienne jusqu’à la Piave.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Caporetto"
+    },
+    {
+      "id": "marne-1918",
+      "nom": "Seconde bataille de la Marne",
+      "debut": "1918-07",
+      "fin": "1918-08",
+      "lieu": "Vallée de la Marne",
+      "coords": [
+        3.5,
+        49.1
+      ],
+      "vainqueur": "allies",
+      "resume": "La dernière grande offensive allemande est arrêtée, puis les Alliés contre-attaquent : le tournant final de la guerre.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Seconde_bataille_de_la_Marne"
+    },
+    {
+      "id": "amiens",
+      "nom": "Bataille d’Amiens",
+      "debut": "1918-08-08",
+      "lieu": "Près d’Amiens, Picardie",
+      "coords": [
+        2.3,
+        49.89
+      ],
+      "vainqueur": "allies",
+      "resume": "Avec des centaines de chars, les Alliés enfoncent les lignes allemandes : Ludendorff parle d’un « jour de deuil » pour l’armée allemande.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_d%27Amiens_(1918)"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Georges Clemenceau",
+      "camp": "allies",
+      "role": "Président du Conseil français (1917-1920)",
+      "dates": "1841 → 1929",
+      "description": "Surnommé « le Tigre », il mène la France à la victoire en 1918 et négocie le traité de Versailles.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Georges_Clemenceau"
+    },
+    {
+      "nom": "Joseph Joffre",
+      "camp": "allies",
+      "role": "Commandant en chef de l’armée française (1914-1916)",
+      "dates": "1852 → 1931",
+      "description": "Il dirige l’armée française pendant la bataille de la Marne, qui arrête l’invasion allemande en 1914.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Joseph_Joffre"
+    },
+    {
+      "nom": "Philippe Pétain",
+      "camp": "allies",
+      "role": "Général français",
+      "dates": "1856 → 1951",
+      "description": "Il organise la défense de Verdun en 1916, puis commande l’armée française après les mutineries de 1917. Il dirigera plus tard le régime de Vichy (1940-1944).",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Philippe_P%C3%A9tain"
+    },
+    {
+      "nom": "Ferdinand Foch",
+      "camp": "allies",
+      "role": "Commandant en chef des armées alliées (1918)",
+      "dates": "1851 → 1929",
+      "description": "Nommé à la tête de toutes les armées alliées en 1918, il dirige les offensives victorieuses et reçoit la signature de l’armistice.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Ferdinand_Foch"
+    },
+    {
+      "nom": "David Lloyd George",
+      "camp": "allies",
+      "role": "Premier ministre britannique (1916-1922)",
+      "dates": "1863 → 1945",
+      "description": "Il dirige le Royaume-Uni dans la seconde moitié de la guerre et participe à la conférence de la paix.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/David_Lloyd_George"
+    },
+    {
+      "nom": "Woodrow Wilson",
+      "camp": "allies",
+      "role": "Président des États-Unis (1913-1921)",
+      "dates": "1856 → 1924",
+      "description": "Il fait entrer les États-Unis dans la guerre en 1917 et propose la création de la Société des Nations.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Woodrow_Wilson"
+    },
+    {
+      "nom": "Nicolas II",
+      "camp": "allies",
+      "role": "Tsar de Russie",
+      "dates": "1868 → 1918",
+      "description": "Il engage la Russie dans la guerre ; les défaites et les privations conduisent à son abdication en 1917. Il est exécuté par les bolcheviks en 1918.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Nicolas_II"
+    },
+    {
+      "nom": "Guillaume II",
+      "camp": "centraux",
+      "role": "Empereur allemand",
+      "dates": "1859 → 1941",
+      "description": "Empereur pendant toute la guerre, il abdique le 9 novembre 1918 et s’exile aux Pays-Bas.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guillaume_II_(empereur_allemand)"
+    },
+    {
+      "nom": "François-Joseph Ier",
+      "camp": "centraux",
+      "role": "Empereur d’Autriche et roi de Hongrie",
+      "dates": "1830 → 1916",
+      "description": "Après l’assassinat de son neveu et héritier à Sarajevo, il déclare la guerre à la Serbie ; il meurt en 1916.",
+      "ref": "francois-joseph"
+    },
+    {
+      "nom": "Paul von Hindenburg",
+      "camp": "centraux",
+      "role": "Maréchal allemand",
+      "dates": "1847 → 1934",
+      "description": "Vainqueur à Tannenberg, il dirige l’armée allemande avec Ludendorff à partir de 1916.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Paul_von_Hindenburg"
+    },
+    {
+      "nom": "Erich Ludendorff",
+      "camp": "centraux",
+      "role": "Général allemand",
+      "dates": "1865 → 1937",
+      "description": "Véritable chef des opérations allemandes à partir de 1916, il lance les grandes offensives du printemps 1918.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Erich_Ludendorff"
+    },
+    {
+      "nom": "Mustafa Kemal",
+      "camp": "centraux",
+      "role": "Officier ottoman",
+      "dates": "1881 → 1938",
+      "description": "Il s’illustre dans la défense de Gallipoli ; il fondera plus tard la République de Turquie.",
+      "ref": "ataturk"
+    },
+    {
+      "nom": "Lénine",
+      "camp": "autres",
+      "role": "Chef des bolcheviks russes",
+      "dates": "1870 → 1924",
+      "description": "Arrivé au pouvoir en novembre 1917, il retire la Russie de la guerre par la paix de Brest-Litovsk.",
+      "ref": "lenine"
+    }
+  ],
+  "sections": [
+    {
+      "titre": "Les causes",
+      "texte": "Au début du XXe siècle, les grandes puissances européennes sont rivales : course aux colonies, course aux armements, nationalismes. Elles sont divisées en deux blocs, la Triple-Entente (France, Royaume-Uni, Russie) et la Triple-Alliance (Allemagne, Autriche-Hongrie, Italie). Dans les Balkans, la Serbie, soutenue par la Russie, s’oppose à l’Autriche-Hongrie. L’attentat de Sarajevo, commis par un nationaliste serbe de Bosnie, met le feu aux poudres. L’Italie, elle, reste d’abord neutre, puis rejoint l’Entente en 1915."
+    },
+    {
+      "titre": "La vie dans les tranchées",
+      "texte": "Sur le front de l’Ouest, des millions de soldats vivent pendant des années dans des tranchées, sous les obus, dans la boue, le froid et la peur. Les armes nouvelles rendent les attaques très meurtrières : mitrailleuses, artillerie lourde, gaz de combat, puis chars et avions. En France, on appelle les soldats les « Poilus »."
+    },
+    {
+      "titre": "Une guerre totale",
+      "texte": "Toute la société participe à l’effort de guerre. Les usines produisent des armes et des munitions, souvent grâce au travail des femmes qui remplacent les hommes partis au front. Les gouvernements contrôlent l’information et censurent la presse. Les empires coloniaux fournissent des soldats et des travailleurs : plusieurs centaines de milliers d’hommes viennent d’Afrique, d’Inde, d’Indochine ou d’Océanie."
+    },
+    {
+      "titre": "Les conséquences",
+      "texte": "La guerre laisse des millions de morts, de blessés et de mutilés, des régions dévastées et des pays endettés. Quatre empires disparaissent : allemand, austro-hongrois, russe et ottoman. De nouveaux États apparaissent en Europe centrale et orientale. En Allemagne, le traité de Versailles est vécu comme une humiliation, ce qui nourrira plus tard les tensions menant à la Seconde Guerre mondiale."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "sarajevo",
+      "type": "mcq",
+      "prompt": "Quel événement déclenche la crise qui mène à la guerre, le 28 juin 1914 ?",
+      "options": [
+        "L’assassinat de l’héritier d’Autriche-Hongrie à Sarajevo",
+        "L’invasion de la Belgique",
+        "Le naufrage du Lusitania",
+        "La révolution russe"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "blocs",
+      "type": "mcq",
+      "prompt": "Quels pays forment le cœur des Empires centraux en 1914 ?",
+      "options": [
+        "L’Allemagne et l’Autriche-Hongrie",
+        "La France et le Royaume-Uni",
+        "La Russie et la Serbie",
+        "L’Italie et le Japon"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "belgique",
+      "type": "tf",
+      "prompt": "L’invasion de la Belgique neutre par l’Allemagne fait entrer le Royaume-Uni dans la guerre.",
+      "answer": true
+    },
+    {
+      "id": "marne",
+      "type": "mcq",
+      "prompt": "Où l’armée allemande est-elle arrêtée en septembre 1914, près de Paris ?",
+      "options": [
+        "Sur la Marne",
+        "À Verdun",
+        "Sur la Somme",
+        "À Waterloo"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "poilus",
+      "type": "mcq",
+      "prompt": "Comment surnomme-t-on les soldats français de la Grande Guerre ?",
+      "options": [
+        "Les Poilus",
+        "Les Grognards",
+        "Les Sans-culottes",
+        "Les Tommies"
+      ],
+      "answer": 0,
+      "explanation": "Les « Tommies » sont les soldats britanniques."
+    },
+    {
+      "id": "verdun",
+      "type": "tf",
+      "prompt": "La bataille de Verdun, en 1916, dure environ dix mois.",
+      "answer": true
+    },
+    {
+      "id": "dardanelles",
+      "type": "mcq",
+      "prompt": "Contre quel empire les Alliés lancent-ils l’expédition des Dardanelles en 1915 ?",
+      "options": [
+        "L’Empire ottoman",
+        "L’Empire allemand",
+        "L’Autriche-Hongrie",
+        "L’Empire russe"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "armeniens",
+      "type": "tf",
+      "prompt": "Pendant la guerre, à partir de 1915, les autorités ottomanes organisent la déportation et l’extermination des Arméniens.",
+      "answer": true,
+      "explanation": "C’est le génocide arménien, qui fait plus d’un million de morts."
+    },
+    {
+      "id": "etats-unis",
+      "type": "mcq",
+      "prompt": "En quelle année les États-Unis entrent-ils en guerre ?",
+      "options": [
+        "1917",
+        "1914",
+        "1915",
+        "1918"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "russie",
+      "type": "tf",
+      "prompt": "La Russie se bat aux côtés des Alliés jusqu’à la fin de la guerre, en novembre 1918.",
+      "answer": false,
+      "explanation": "Après la révolution, les bolcheviks signent un armistice en décembre 1917, puis la paix de Brest-Litovsk en mars 1918."
+    },
+    {
+      "id": "armistice",
+      "type": "mcq",
+      "prompt": "À quelle date l’armistice met-il fin aux combats ?",
+      "options": [
+        "Le 11 novembre 1918",
+        "Le 8 mai 1918",
+        "Le 14 juillet 1919",
+        "Le 28 juin 1919"
+      ],
+      "answer": 0,
+      "explanation": "Le 28 juin 1919 est la date du traité de Versailles."
+    },
+    {
+      "id": "versailles",
+      "type": "mcq",
+      "prompt": "Quel traité fixe en 1919 les conditions de la paix avec l’Allemagne ?",
+      "options": [
+        "Le traité de Versailles",
+        "Le traité de Brest-Litovsk",
+        "Le traité de Vienne",
+        "Le traité de Rome"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "ordre",
+      "type": "order",
+      "prompt": "Remets ces événements dans l’ordre chronologique.",
+      "items": [
+        "Attentat de Sarajevo",
+        "Bataille de Verdun",
+        "Entrée en guerre des États-Unis",
+        "Armistice de Rethondes"
+      ]
+    }
+  ],
+  "guerresLiees": [
+    "Première Guerre mondiale (La Grande Guerre)|1914",
+    "Bataille des Dardanelles|1915"
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Premi%C3%A8re_Guerre_mondiale",
+    {
+      "titre": "Mission du Centenaire de la Première Guerre mondiale",
+      "url": "https://www.centenaire.org/"
+    },
+    {
+      "titre": "Encyclopædia Britannica — World War I",
+      "url": "https://www.britannica.com/event/World-War-I"
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "documentaires": [],
+  "decouvertes": [],
+  "id": "empire-wassoulou",
+  "label": "Empire wassoulou (Samory)",
+  "tier": 2,
+  "region": "afrique-ouest",
+  "period": "1878 à 1898",
+  "start": 1878,
+  "end": 1898,
+  "color": "#00695c",
+  "trackId": "afrique_ouest",
+  "row": 6,
+  "isRiver": false,
+  "capitale": "Bissandougou",
+  "description": "L’empire fondé par Samory Touré en Afrique de l’Ouest, qui résiste pendant près de vingt ans à la conquête française avant la capture de son fondateur en 1898.",
+  "territories": ["Wassoulou Empire", "First Samori Empire", "Second Samori Empire"],
+  "reperes": {
+    "capitale": { "valeur": "Bissandougou", "precision": "en Guinée ; l’empire se déplace vers l’est dans les années 1890" },
+    "regimes": { "valeur": "Empire militaire", "precision": "Samory prend en 1884 le titre religieux d’almamy" },
+    "langues": { "valeur": "Malinké (mandingue)" },
+    "religion": { "valeur": "Islam", "precision": "Samory impose l’islam et ouvre des écoles coraniques" },
+    "apogee": { "valeur": "Vers 1885" },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": { "valeur": "Cauris et or" },
+    "duree": { "valeur": "Environ 20 ans" },
+    "aujourdhui": { "valeur": "Guinée, Mali, Côte d’Ivoire" }
+  },
+  "essentiel": [
+    "[[samory-toure|Samory Touré]], marchand malinké devenu chef de guerre, unifie dans les années 1870 des territoires de la Guinée et du Mali actuels.",
+    "Il bâtit une armée moderne : des soldats permanents, les sofas, équipés de fusils à répétition achetés en Sierra Leone ou copiés par ses forgerons.",
+    "À partir de 1882, il affronte la conquête française et alterne combats et traités.",
+    "Dans les années 1890, il déplace son empire vers l’est en pratiquant la terre brûlée ; ses guerres et ses razzias d’esclaves, qui financent ses armes, ravagent la région.",
+    "Lors de la [[capture-de-samory|capture de Samory]] en 1898, l’empire disparaît ; Samory meurt en exil au Gabon en 1900."
+  ],
+  "datesCles": [
+    {
+      "annee": 1878,
+      "evenement": "Fondation de l’empire",
+      "info": "Samory se proclame faama (souverain) et installe sa capitale à Bissandougou."
+    },
+    {
+      "annee": 1882,
+      "evenement": "Premiers combats contre la France",
+      "info": "Les troupes françaises rencontrent l’armée de Samory sur le Niger."
+    },
+    { "annee": 1884, "evenement": "Almamy", "info": "Samory prend le titre religieux d’almamy, chef des croyants." },
+    {
+      "annee": 1887,
+      "evenement": "Traité de Bissandougou",
+      "info": "Samory signe un traité avec la France, qui reste fragile."
+    },
+    {
+      "annee": 1891,
+      "evenement": "Prise de Bissandougou",
+      "info": "Les Français prennent la capitale ; Samory se replie vers l’est."
+    },
+    {
+      "annee": 1898,
+      "evenement": "Capture de Samory",
+      "info": "Samory est capturé à Guélémou par les troupes françaises.",
+      "ref": "capture-de-samory"
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "La construction de l’empire",
+      "debut": 1878,
+      "fin": 1882,
+      "resume": "Samory unifie des chefferies malinkées et organise un État centralisé.",
+      "evenements": [{ "annee": 1878, "evenement": "Fondation" }]
+    },
+    {
+      "nom": "Face à la France",
+      "debut": 1882,
+      "fin": 1891,
+      "resume": "Samory combat et négocie avec les Français tout en consolidant son empire.",
+      "evenements": [{ "annee": 1884, "evenement": "Titre d’almamy" }, { "annee": 1887, "evenement": "Traité de Bissandougou" }]
+    },
+    {
+      "nom": "Le second empire",
+      "debut": 1891,
+      "fin": 1898,
+      "resume": "Chassé de l’ouest, Samory reconstitue un empire plus à l’est, au prix de grandes destructions, avant d’être capturé.",
+      "evenements": [
+        { "annee": 1897, "evenement": "Destruction de Kong" },
+        { "annee": 1898, "evenement": "Capture", "ref": "capture-de-samory" }
+      ]
+    }
+  ],
+  "regimes": [{ "id": "empire", "nom": "Empire wassoulou", "debut": 1878, "fin": 1898 }],
+  "dynasties": [{ "id": "samory", "nom": "Le souverain", "debut": 1878, "fin": 1898 }],
+  "dirigeants": [
+    {
+      "nom": "Samory Touré",
+      "titre": "Faama, puis almamy",
+      "debut": 1878,
+      "fin": 1898,
+      "dynastie": "samory",
+      "personne": "samory-toure",
+      "cle": true
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Samory Touré",
+      "role": "Fondateur de l’empire",
+      "description": "Le chef de guerre qui résiste près de vingt ans aux Français.",
+      "dates": "vers 1830 → 1900",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Samory_Tour%C3%A9",
+      "ref": "samory-toure"
+    },
+    {
+      "nom": "Henri Gouraud",
+      "role": "Officier français",
+      "description": "Capitaine, il capture Samory en 1898 ; il deviendra un général célèbre de la Première Guerre mondiale.",
+      "dates": "1867 → 1946",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Henri_Gouraud"
+    },
+    {
+      "nom": "Sékou Touré",
+      "role": "Président de la Guinée",
+      "description": "Premier président de la Guinée indépendante (1958), il se présentait comme un descendant de Samory.",
+      "dates": "1922 → 1984",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Ahmed_S%C3%A9kou_Tour%C3%A9"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerres de Samory contre la France",
+      "annee": 1882,
+      "adversaires": ["France"],
+      "allies": [],
+      "morts": "Très nombreuses, combats, famines et déplacements de population compris",
+      "vainqueur": "France",
+      "consequences": "Après seize ans de guerre, Samory est capturé ; ses territoires sont intégrés à l’Afrique-Occidentale française.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Samory_Tour%C3%A9"
+    }
+  ],
+  "sciences": "Samory organise des ateliers où des forgerons fabriquent et réparent des fusils, en copiant les modèles européens, et produisent de la poudre. Son armée comprend des soldats permanents, entraînés à l’européenne, et une organisation de ravitaillement efficace.",
+  "croyancesText": "Samory fait de l’islam la religion de son empire : il prend le titre d’almamy, chef des croyants, ouvre des écoles coraniques et impose parfois la conversion aux populations conquises, ce qui provoque des révoltes.",
+  "diplomatie": "Samory négocie tour à tour avec la France et la Grande-Bretagne, installée en Sierra Leone, où il achète des armes. Il signe plusieurs traités avec la France, que chaque camp interprète à sa façon, avant la reprise des combats.",
+  "societe": "L’empire est divisé en provinces gouvernées par des proches de Samory. Les guerres et les razzias font de nombreux captifs, vendus pour acheter des chevaux et des armes, ce qui laisse un souvenir douloureux dans certaines régions.",
+  "economie": "Commerce de l’or, du bétail et des captifs contre des armes et des chevaux ; agriculture.",
+  "arts": "Chants et récits des griots, qui célèbrent ou critiquent Samory selon les régions.",
+  "quotidien": "Les griots racontent encore aujourd’hui l’épopée de Samory dans les villages de Guinée et du Mali.",
+  "heritage": [
+    {
+      "titre": "Une figure de la résistance",
+      "texte": "Samory est célébré en Guinée et au Mali comme un héros de la résistance à la colonisation."
+    },
+    {
+      "titre": "Une mémoire contrastée",
+      "texte": "Dans d’autres régions, comme le nord de la Côte d’Ivoire, on se souvient surtout des destructions de ses guerres."
+    }
+  ],
+  "aSavoir": ["Samory est capturé par surprise alors que ses soldats, affamés, étaient dispersés."],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Empire_wassoulou",
+    { "titre": "Encyclopædia Britannica — Samory", "url": "https://www.britannica.com/biography/Samory" }
+  ]
+}

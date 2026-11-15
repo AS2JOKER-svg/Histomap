@@ -1,0 +1,755 @@
+{
+  "id": "guerres-puniques",
+  "nom": "Guerres puniques",
+  "debut": -264,
+  "fin": -146,
+  "dates": "264 av. J.-C. → 146 av. J.-C.",
+  "description": "Trois guerres qui opposent Rome et Carthage pendant plus d’un siècle pour la domination de la Méditerranée occidentale, et qui se terminent par la destruction de Carthage.",
+  "essentiel": [
+    "Au IIIe siècle av. J.-C., deux puissances se disputent la Méditerranée occidentale : la République romaine, maîtresse de l’Italie, et [[carthage|Carthage]], riche cité marchande d’Afrique du Nord dotée d’une grande flotte.",
+    "La Première Guerre punique (264-241 av. J.-C.) se joue autour de la Sicile et surtout sur mer : Rome se dote d’une flotte de guerre, gagne, et fait de la Sicile sa première province.",
+    "Dans la Deuxième (218-201 av. J.-C.), [[hannibal|Hannibal]] franchit les Alpes avec des éléphants et écrase les Romains à [[bataille-de-cannes|Cannes]] ; mais Rome tient bon, et Scipion l’Africain le bat à [[bataille-de-zama|Zama]], en Afrique.",
+    "Carthage perd l’Espagne et sa flotte ; Rome devient la puissance dominante de la Méditerranée occidentale.",
+    "Dans la Troisième (149-146 av. J.-C.), Rome assiège Carthage pendant trois ans puis la [[destruction-de-carthage|détruit]] ; son territoire devient la province romaine d’Afrique."
+  ],
+  "chiffres": [
+    {
+      "valeur": "118 ans",
+      "label": "de 264 à 146 av. J.-C., en trois guerres"
+    },
+    {
+      "valeur": "Environ 37",
+      "label": "éléphants emmenés par Hannibal vers l’Italie, selon Polybe"
+    },
+    {
+      "valeur": "Environ 50 000",
+      "label": "habitants de Carthage réduits en esclavage en 146 av. J.-C., selon Appien"
+    }
+  ],
+  "camps": [
+    {
+      "id": "rome",
+      "nom": "Rome",
+      "couleur": "#c0392b",
+      "description": "La République romaine, qui domine la péninsule italienne, avec ses alliés italiens et, à partir de 206 av. J.-C., le prince numide Massinissa.",
+      "membres": [
+        "République romaine",
+        "Alliés italiens",
+        "Massinissa et ses Numides (à partir de 206 av. J.-C.)"
+      ]
+    },
+    {
+      "id": "carthage",
+      "nom": "Carthage",
+      "legende": "Carthage et ses alliés",
+      "couleur": "#7b4fb3",
+      "description": "Carthage, cité fondée selon la tradition par des colons phéniciens de Tyr, qui recrute de nombreux mercenaires et des alliés : Ibères, Gaulois, Numides, puis la Macédoine et Syracuse pendant la Deuxième Guerre.",
+      "membres": [
+        "Carthage",
+        "Mercenaires et alliés ibères, gaulois et numides",
+        "Royaume de Macédoine (215-205 av. J.-C.)",
+        "Syracuse (à partir de 214 av. J.-C.)"
+      ]
+    }
+  ],
+  "carte": {
+    "annee": -300,
+    "noms": {
+      "Roman Republic": "République romaine",
+      "Carthaginian Empire": "Empire carthaginois",
+      "Kingdom of Kassander": "Macédoine"
+    },
+    "note": "Frontières de 300 av. J.-C., très approximatives : la Sicile, la Numidie et les peuples d’Espagne ne sont pas dessinés, et l’Espagne carthaginoise apparaît d’un seul tenant avec Carthage.",
+    "statuts": {
+      "Roman Republic": {
+        "statut": "rome",
+        "note": "République romaine, qui domine alors la péninsule italienne"
+      },
+      "Carthaginian Empire": {
+        "statut": "carthage",
+        "note": "Carthage et ses possessions d’Afrique du Nord, de Sardaigne et d’Espagne"
+      }
+    }
+  },
+  "phases": [
+    {
+      "id": "premiere",
+      "nom": "La Première Guerre punique",
+      "debut": "-264",
+      "fin": "-241",
+      "resume": "Rome et Carthage se disputent la Sicile ; Rome apprend à se battre sur mer et l’emporte.",
+      "texte": "En 264 av. J.-C., Rome intervient en Sicile, où Carthage est solidement installée. La guerre se joue vite sur mer : Rome construit une flotte et invente le « corbeau », une passerelle qui permet à ses soldats d’aborder les navires ennemis. Une expédition romaine en Afrique échoue en 255 av. J.-C., mais la victoire navale des îles Égates, en 241 av. J.-C., force Carthage à la paix : elle quitte la Sicile et paie un lourd tribut.",
+      "carte": {
+        "cadre": [
+          [
+            -2,
+            33
+          ],
+          [
+            20,
+            45
+          ]
+        ],
+        "statuts": {}
+      },
+      "batailles": [
+        "mylae",
+        "ecnome",
+        "tunis",
+        "egates"
+      ],
+      "evenements": [
+        {
+          "date": "-264",
+          "texte": "Rome envoie une armée en Sicile, à Messine"
+        },
+        {
+          "date": "-260",
+          "texte": "Première grande flotte de guerre romaine"
+        },
+        {
+          "date": "-241",
+          "texte": "Paix : Carthage abandonne la Sicile"
+        }
+      ]
+    },
+    {
+      "id": "entre-deux",
+      "nom": "Carthage se tourne vers l’Espagne",
+      "debut": "-241",
+      "fin": "-219",
+      "resume": "Carthage écrase une révolte de mercenaires, perd la Sardaigne, puis bâtit un empire en Espagne.",
+      "texte": "Faute de pouvoir payer ses mercenaires, Carthage affronte leur révolte (241-238 av. J.-C.) ; Rome en profite pour lui prendre la Sardaigne et la Corse. Le général Hamilcar Barca part alors conquérir le sud de l’Espagne, riche en mines d’argent ; son gendre Hasdrubal fonde Carthagène. En 221 av. J.-C., Hannibal, fils d’Hamilcar, prend le commandement. En 219 av. J.-C., il assiège Sagonte, ville alliée de Rome : c’est le prétexte de la guerre suivante.",
+      "carte": {
+        "cadre": [
+          [
+            -10,
+            33
+          ],
+          [
+            16,
+            46
+          ]
+        ],
+        "statuts": {}
+      },
+      "batailles": [],
+      "evenements": [
+        {
+          "date": "-238",
+          "texte": "Rome s’empare de la Sardaigne"
+        },
+        {
+          "date": "-237",
+          "texte": "Hamilcar Barca débarque en Espagne"
+        },
+        {
+          "date": "-221",
+          "texte": "Hannibal prend la tête de l’armée carthaginoise d’Espagne"
+        },
+        {
+          "date": "-219",
+          "texte": "Siège de Sagonte par Hannibal"
+        }
+      ]
+    },
+    {
+      "id": "hannibal",
+      "nom": "Hannibal en Italie",
+      "debut": "-218",
+      "fin": "-216",
+      "resume": "Hannibal traverse les Alpes et inflige à Rome trois grandes défaites, jusqu’au désastre de Cannes.",
+      "texte": "En 218 av. J.-C., Hannibal quitte l’Espagne avec une armée et des éléphants, franchit les Pyrénées puis les Alpes, et surgit dans le nord de l’Italie. Il bat les Romains sur la Trébie, puis au lac Trasimène. Le dictateur Fabius Maximus choisit alors d’éviter la bataille et de harceler l’ennemi. Mais en 216 av. J.-C., à Cannes, une immense armée romaine est encerclée et anéantie : c’est l’une des pires défaites de l’histoire de Rome.",
+      "carte": {
+        "cadre": [
+          [
+            -6,
+            36
+          ],
+          [
+            18,
+            47
+          ]
+        ],
+        "statuts": {}
+      },
+      "batailles": [
+        "trebie",
+        "trasimene",
+        "cannes"
+      ],
+      "evenements": [
+        {
+          "date": "-218",
+          "texte": "Hannibal franchit les Alpes"
+        },
+        {
+          "date": "-217",
+          "texte": "Fabius Maximus, « le Temporisateur », refuse la bataille"
+        },
+        {
+          "date": "-216-08-02",
+          "texte": "Désastre romain à Cannes",
+          "ref": "bataille-de-cannes"
+        }
+      ]
+    },
+    {
+      "id": "resistance",
+      "nom": "Rome tient bon",
+      "debut": "-215",
+      "fin": "-203",
+      "resume": "Rome refuse de céder, reprend les villes passées à Hannibal et conquiert l’Espagne carthaginoise.",
+      "texte": "Malgré Cannes, Rome ne demande pas la paix. Hannibal reste en Italie mais ne prend pas Rome. Rome reprend Syracuse en 212 av. J.-C., puis Capoue. En Espagne, le jeune Publius Cornelius Scipion s’empare de Carthagène en 209 av. J.-C. ; en 207 av. J.-C., Hasdrubal, frère d’Hannibal, venu le renforcer, est battu et tué sur le Métaure. Après la victoire d’Ilipa, l’Espagne carthaginoise est perdue. Scipion débarque en Afrique en 204 av. J.-C., et Carthage rappelle Hannibal.",
+      "carte": {
+        "cadre": [
+          [
+            -10,
+            33
+          ],
+          [
+            25,
+            47
+          ]
+        ],
+        "statuts": {
+          "Kingdom of Kassander": {
+            "statut": "carthage",
+            "note": "le roi Philippe V de Macédoine s’allie à Hannibal (215 av. J.-C.)"
+          }
+        }
+      },
+      "batailles": [
+        "syracuse",
+        "carthagene",
+        "metaure",
+        "ilipa"
+      ],
+      "evenements": [
+        {
+          "date": "-215",
+          "texte": "Alliance entre Hannibal et Philippe V de Macédoine"
+        },
+        {
+          "date": "-212",
+          "texte": "Prise de Syracuse ; le savant Archimède est tué"
+        },
+        {
+          "date": "-204",
+          "texte": "Scipion débarque en Afrique"
+        }
+      ]
+    },
+    {
+      "id": "zama",
+      "nom": "Zama et la paix",
+      "debut": "-202",
+      "fin": "-201",
+      "resume": "Scipion bat Hannibal à Zama ; Carthage accepte une paix très dure.",
+      "texte": "En 202 av. J.-C., à Zama, en Afrique, Scipion, aidé de la cavalerie du prince numide Massinissa, bat Hannibal. La paix de 201 av. J.-C. est sévère : Carthage perd l’Espagne, livre presque toute sa flotte, paie une énorme indemnité pendant cinquante ans et ne peut plus faire la guerre sans l’accord de Rome. Scipion reçoit le surnom d’« Africain ».",
+      "carte": {
+        "cadre": [
+          [
+            -2,
+            31
+          ],
+          [
+            20,
+            43
+          ]
+        ],
+        "statuts": {
+          "Kingdom of Kassander": {
+            "statut": "neutre",
+            "note": "la Macédoine a fait la paix avec Rome en 205 av. J.-C."
+          }
+        }
+      },
+      "batailles": [
+        "zama"
+      ],
+      "evenements": [
+        {
+          "date": "-202",
+          "texte": "Victoire de Scipion à Zama",
+          "ref": "bataille-de-zama"
+        },
+        {
+          "date": "-201",
+          "texte": "Traité de paix : Carthage perd l’Espagne et sa flotte"
+        }
+      ]
+    },
+    {
+      "id": "troisieme",
+      "nom": "La Troisième Guerre punique",
+      "debut": "-149",
+      "fin": "-146",
+      "resume": "Rome assiège Carthage pendant trois ans, puis la détruit.",
+      "texte": "Carthage a retrouvé sa prospérité, ce qui inquiète une partie du Sénat ; Caton l’Ancien répète qu’il faut la détruire. Quand Carthage prend les armes contre son voisin Massinissa sans l’accord de Rome, celle-ci lui déclare la guerre (149 av. J.-C.). Après un long siège, Scipion Émilien prend la ville au printemps 146 av. J.-C. : elle est incendiée et ses habitants survivants sont vendus comme esclaves. Son territoire devient la province romaine d’Afrique.",
+      "carte": {
+        "cadre": [
+          [
+            -2,
+            31
+          ],
+          [
+            20,
+            43
+          ]
+        ],
+        "statuts": {
+          "Carthaginian Empire": {
+            "statut": "rome",
+            "note": "Carthage est détruite en 146 av. J.-C. ; son territoire devient la province romaine d’Afrique"
+          }
+        }
+      },
+      "batailles": [
+        "siege-carthage"
+      ],
+      "evenements": [
+        {
+          "date": "-149",
+          "texte": "Rome déclare la guerre à Carthage"
+        },
+        {
+          "date": "-146",
+          "texte": "Prise et destruction de Carthage",
+          "ref": "destruction-de-carthage"
+        }
+      ]
+    }
+  ],
+  "batailles": [
+    {
+      "id": "mylae",
+      "nom": "Bataille de Mylae",
+      "debut": "-260",
+      "lieu": "Mylae (Milazzo), Sicile",
+      "coords": [
+        15.24,
+        38.22
+      ],
+      "vainqueur": "rome",
+      "resume": "Première grande victoire navale de Rome, grâce au « corbeau » qui permet d’aborder les navires carthaginois.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Mylae"
+    },
+    {
+      "id": "ecnome",
+      "nom": "Bataille du cap Ecnome",
+      "debut": "-256",
+      "lieu": "Cap Ecnome, Sicile",
+      "coords": [
+        13.93,
+        37.1
+      ],
+      "vainqueur": "rome",
+      "resume": "Victoire navale romaine qui ouvre la route de l’Afrique à l’armée du consul Régulus."
+    },
+    {
+      "id": "tunis",
+      "nom": "Bataille de Tunis",
+      "debut": "-255",
+      "lieu": "Près de Tunis",
+      "coords": [
+        10.17,
+        36.8
+      ],
+      "vainqueur": "carthage",
+      "resume": "L’armée romaine débarquée en Afrique est écrasée et Régulus est fait prisonnier.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Tunis_(255_av._J.-C.)"
+    },
+    {
+      "id": "egates",
+      "nom": "Bataille des îles Égates",
+      "debut": "-241",
+      "lieu": "Îles Égates, à l’ouest de la Sicile",
+      "coords": [
+        12.3,
+        37.98
+      ],
+      "vainqueur": "rome",
+      "resume": "La flotte romaine détruit le convoi carthaginois : Carthage doit demander la paix.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_des_%C3%AEles_%C3%89gates"
+    },
+    {
+      "id": "trebie",
+      "nom": "Bataille de la Trébie",
+      "debut": "-218-12",
+      "lieu": "Rivière Trébie, nord de l’Italie",
+      "coords": [
+        9.6,
+        45.05
+      ],
+      "vainqueur": "carthage",
+      "resume": "Juste après la traversée des Alpes, Hannibal attire les Romains dans une embuscade en plein hiver.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_la_Tr%C3%A9bie"
+    },
+    {
+      "id": "trasimene",
+      "nom": "Bataille du lac Trasimène",
+      "debut": "-217-06",
+      "lieu": "Lac Trasimène, Italie centrale",
+      "coords": [
+        12.1,
+        43.2
+      ],
+      "vainqueur": "carthage",
+      "resume": "Une armée romaine est prise au piège entre le lac et les collines ; le consul Flaminius est tué.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_du_lac_Trasim%C3%A8ne"
+    },
+    {
+      "id": "cannes",
+      "nom": "Bataille de Cannes",
+      "debut": "-216-08-02",
+      "lieu": "Cannes, Apulie",
+      "coords": [
+        16.13,
+        41.31
+      ],
+      "vainqueur": "carthage",
+      "resume": "Hannibal encercle une armée romaine bien plus nombreuse et l’anéantit : des dizaines de milliers de Romains sont tués.",
+      "ref": "bataille-de-cannes",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Cannes"
+    },
+    {
+      "id": "syracuse",
+      "nom": "Siège de Syracuse",
+      "debut": "-214",
+      "fin": "-212",
+      "lieu": "Syracuse, Sicile",
+      "coords": [
+        15.29,
+        37.07
+      ],
+      "vainqueur": "rome",
+      "resume": "Syracuse, passée du côté de Carthage, résiste longtemps grâce aux machines d’Archimède, puis tombe.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Syracuse_(213_av._J.-C.)"
+    },
+    {
+      "id": "carthagene",
+      "nom": "Prise de Carthagène",
+      "debut": "-209",
+      "lieu": "Carthagène, Espagne",
+      "coords": [
+        -0.98,
+        37.6
+      ],
+      "vainqueur": "rome",
+      "resume": "Scipion s’empare par surprise de la grande base carthaginoise d’Espagne.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Carthag%C3%A8ne_(209_av._J.-C.)"
+    },
+    {
+      "id": "metaure",
+      "nom": "Bataille du Métaure",
+      "debut": "-207",
+      "lieu": "Rivière Métaure, Italie",
+      "coords": [
+        12.9,
+        43.75
+      ],
+      "vainqueur": "rome",
+      "resume": "Hasdrubal, venu d’Espagne pour renforcer son frère Hannibal, est battu et tué.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_du_M%C3%A9taure"
+    },
+    {
+      "id": "ilipa",
+      "nom": "Bataille d’Ilipa",
+      "debut": "-206",
+      "lieu": "Ilipa, près de Séville",
+      "coords": [
+        -5.97,
+        37.5
+      ],
+      "vainqueur": "rome",
+      "resume": "Victoire décisive de Scipion : Carthage perd l’Espagne.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_d%27Ilipa"
+    },
+    {
+      "id": "zama",
+      "nom": "Bataille de Zama",
+      "debut": "-202",
+      "lieu": "Zama, Afrique du Nord",
+      "coords": [
+        9.45,
+        36.3
+      ],
+      "vainqueur": "rome",
+      "resume": "Scipion et la cavalerie numide de Massinissa battent Hannibal : la Deuxième Guerre punique est gagnée par Rome.",
+      "ref": "bataille-de-zama",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Zama"
+    },
+    {
+      "id": "siege-carthage",
+      "nom": "Siège de Carthage",
+      "debut": "-149",
+      "fin": "-146",
+      "lieu": "Carthage",
+      "coords": [
+        10.32,
+        36.85
+      ],
+      "vainqueur": "rome",
+      "resume": "Après trois ans de siège, Scipion Émilien prend la ville, qui est incendiée et détruite.",
+      "ref": "destruction-de-carthage",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Carthage_(149_av._J.-C.)"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Hannibal Barca",
+      "camp": "carthage",
+      "role": "Général carthaginois",
+      "dates": "vers −247 → vers −183",
+      "description": "Il traverse les Alpes, écrase les Romains à Cannes et reste quinze ans en Italie, avant d’être battu à Zama.",
+      "ref": "hannibal",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Hannibal_Barca"
+    },
+    {
+      "nom": "Hamilcar Barca",
+      "camp": "carthage",
+      "role": "Général carthaginois, père d’Hannibal",
+      "dates": "vers −275 → −229/−228",
+      "description": "Il combat en Sicile, écrase la révolte des mercenaires puis commence la conquête de l’Espagne.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Hamilcar_Barca"
+    },
+    {
+      "nom": "Hasdrubal Barca",
+      "camp": "carthage",
+      "role": "Général carthaginois, frère d’Hannibal",
+      "dates": "vers −245 → −207",
+      "description": "Il défend l’Espagne carthaginoise, puis passe en Italie pour rejoindre son frère et meurt au Métaure.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Hasdrubal_Barca"
+    },
+    {
+      "nom": "Scipion l’Africain",
+      "camp": "rome",
+      "role": "Général et consul romain",
+      "dates": "vers −235 → −183",
+      "description": "Il conquiert l’Espagne carthaginoise, porte la guerre en Afrique et bat Hannibal à Zama.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Scipion_l%27Africain"
+    },
+    {
+      "nom": "Fabius Maximus",
+      "camp": "rome",
+      "role": "Dictateur et consul romain",
+      "dates": "vers −275 → −203",
+      "description": "Surnommé « le Temporisateur », il évite les batailles rangées contre Hannibal et l’use peu à peu.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Quintus_Fabius_Maximus_Verrucosus"
+    },
+    {
+      "nom": "Marcus Atilius Regulus",
+      "camp": "rome",
+      "role": "Consul romain",
+      "dates": "mort vers −250",
+      "description": "Il conduit l’expédition romaine en Afrique pendant la Première Guerre punique et y est fait prisonnier.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Marcus_Atilius_Regulus"
+    },
+    {
+      "nom": "Massinissa",
+      "camp": "rome",
+      "role": "Roi numide",
+      "dates": "vers −238 → −148",
+      "description": "D’abord allié de Carthage, il rejoint Rome en 206 av. J.-C. ; sa cavalerie joue un rôle clé à Zama.",
+      "ref": "massinissa"
+    },
+    {
+      "nom": "Archimède",
+      "camp": "autres",
+      "role": "Savant grec de Syracuse",
+      "dates": "vers −287 → −212",
+      "description": "Ses machines défendent Syracuse contre la flotte et l’armée romaines ; il est tué lors de la prise de la ville.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Archim%C3%A8de"
+    },
+    {
+      "nom": "Caton l’Ancien",
+      "camp": "rome",
+      "role": "Homme politique romain",
+      "dates": "−234 → −149",
+      "description": "Au Sénat, il répète qu’il faut détruire Carthage, dont il redoute le retour à la prospérité.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Caton_l%27Ancien"
+    },
+    {
+      "nom": "Scipion Émilien",
+      "camp": "rome",
+      "role": "Général et consul romain",
+      "dates": "vers −185 → −129",
+      "description": "Petit-fils adoptif de Scipion l’Africain, il prend et détruit Carthage en 146 av. J.-C.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Scipion_%C3%89milien"
+    }
+  ],
+  "sections": [
+    {
+      "titre": "Les causes",
+      "texte": "Au milieu du IIIe siècle av. J.-C., Rome achève de dominer l’Italie du Sud et regarde vers la Sicile, toute proche. Carthage, elle, contrôle l’ouest de l’île, la Sardaigne et une partie des côtes d’Afrique du Nord et d’Espagne. En 264 av. J.-C., un appel à l’aide venu de Messine pousse les deux puissances à s’affronter. Plus tard, l’expansion de Carthage en Espagne et le siège de Sagonte relancent la guerre."
+    },
+    {
+      "titre": "Deux façons de faire la guerre",
+      "texte": "Carthage est une puissance marchande et maritime : sa force, c’est sa flotte, et ses armées sont surtout faites de mercenaires et de soldats alliés. Rome s’appuie sur des légions de citoyens et sur ses alliés italiens, capables de reformer armée après armée. C’est cette capacité à encaisser les défaites, même celle de Cannes, qui fait la différence."
+    },
+    {
+      "titre": "Hannibal, le grand adversaire de Rome",
+      "texte": "Élevé dans l’hostilité envers Rome selon la tradition, Hannibal mène l’une des campagnes les plus audacieuses de l’Antiquité : la traversée des Alpes, puis quinze ans en Italie sans être vaincu en bataille rangée. Sa manœuvre d’encerclement à Cannes est encore étudiée dans les écoles militaires. Après la guerre, il dirige Carthage, puis doit s’exiler en Orient, où il meurt vers 183 av. J.-C."
+    },
+    {
+      "titre": "Les conséquences",
+      "texte": "Les guerres puniques font de Rome la première puissance de la Méditerranée occidentale. Elle y gagne ses premières provinces hors d’Italie : la Sicile, la Sardaigne et la Corse, l’Espagne, puis l’Afrique. La même année que la chute de Carthage, en 146 av. J.-C., Rome détruit aussi Corinthe en Grèce. Le butin et les esclaves affluent à Rome, ce qui transforme profondément sa société."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "enjeu",
+      "type": "mcq",
+      "prompt": "Quelle île est le premier enjeu de la guerre entre Rome et Carthage, en 264 av. J.-C. ?",
+      "options": [
+        "La Sicile",
+        "La Crète",
+        "Chypre",
+        "Rhodes"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "flotte",
+      "type": "tf",
+      "prompt": "Pendant la Première Guerre punique, Rome construit une grande flotte de guerre pour affronter Carthage sur mer.",
+      "answer": true,
+      "explanation": "Elle invente même le « corbeau », une passerelle pour aborder les navires ennemis."
+    },
+    {
+      "id": "fondation",
+      "type": "tf",
+      "prompt": "Carthage a été fondée par des colons grecs.",
+      "answer": false,
+      "explanation": "Selon la tradition, elle a été fondée par des Phéniciens venus de Tyr."
+    },
+    {
+      "id": "alpes",
+      "type": "mcq",
+      "prompt": "Quel général carthaginois traverse les Alpes avec des éléphants pour envahir l’Italie ?",
+      "options": [
+        "Hannibal",
+        "Hamilcar",
+        "Massinissa",
+        "Scipion"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "cannes",
+      "type": "tf",
+      "prompt": "À Cannes, en 216 av. J.-C., Hannibal inflige à Rome l’une des pires défaites de son histoire.",
+      "answer": true
+    },
+    {
+      "id": "temporisateur",
+      "type": "mcq",
+      "prompt": "Pourquoi le Romain Fabius Maximus est-il surnommé « le Temporisateur » ?",
+      "options": [
+        "Il évite les grandes batailles contre Hannibal",
+        "Il arrive toujours en retard au combat",
+        "Il invente un calendrier",
+        "Il négocie une longue trêve avec Carthage"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "archimede",
+      "type": "mcq",
+      "prompt": "Quel savant défend Syracuse contre les Romains avec ses machines ?",
+      "options": [
+        "Archimède",
+        "Euclide",
+        "Pythagore",
+        "Hippocrate"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "zama",
+      "type": "mcq",
+      "prompt": "Quel général romain bat Hannibal à Zama, en 202 av. J.-C. ?",
+      "options": [
+        "Scipion l’Africain",
+        "Fabius Maximus",
+        "Caton l’Ancien",
+        "Jules César"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "massinissa",
+      "type": "mcq",
+      "prompt": "Quel prince numide s’allie à Rome et l’aide à vaincre à Zama ?",
+      "options": [
+        "Massinissa",
+        "Jugurtha",
+        "Juba Ier",
+        "Hasdrubal"
+      ],
+      "answer": 0,
+      "explanation": "Jugurtha et Juba Ier sont des rois numides plus tardifs."
+    },
+    {
+      "id": "paix-201",
+      "type": "mcq",
+      "prompt": "Que perd Carthage par la paix de 201 av. J.-C. ?",
+      "options": [
+        "L’Espagne et presque toute sa flotte",
+        "Sa capitale, rasée par les Romains",
+        "L’Égypte",
+        "Toutes ses villes d’Afrique"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "caton",
+      "type": "mcq",
+      "prompt": "Que répète Caton l’Ancien au Sénat romain ?",
+      "options": [
+        "Qu’il faut détruire Carthage",
+        "Qu’il faut faire la paix avec Carthage",
+        "Qu’il faut conquérir l’Égypte",
+        "Qu’il faut abandonner la Sicile"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "afrique",
+      "type": "mcq",
+      "prompt": "Que devient le territoire de Carthage après sa destruction, en 146 av. J.-C. ?",
+      "options": [
+        "La province romaine d’Afrique",
+        "Un royaume numide indépendant",
+        "Une colonie grecque",
+        "Une province de l’Égypte"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "ordre",
+      "type": "order",
+      "prompt": "Remets ces événements dans l’ordre chronologique.",
+      "items": [
+        "Victoire navale romaine des îles Égates",
+        "Hannibal traverse les Alpes",
+        "Bataille de Zama",
+        "Destruction de Carthage"
+      ]
+    }
+  ],
+  "guerresLiees": [
+    "Première Guerre punique|-264",
+    "Deuxième Guerre Punique|-218",
+    "Bataille de Zama|-202",
+    "Troisième Guerre Punique|-149"
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Guerres_puniques",
+    {
+      "titre": "Encyclopædia Britannica — Punic Wars",
+      "url": "https://www.britannica.com/event/Punic-Wars"
+    }
+  ]
+}

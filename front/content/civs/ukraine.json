@@ -1,0 +1,305 @@
+{
+  "documentaires": [],
+  "decouvertes": [],
+  "id": "ukraine",
+  "label": "Ukraine",
+  "tier": 2,
+  "region": "europe-est",
+  "period": "1917 à 2020",
+  "start": 1917,
+  "end": 2020,
+  "trackId": "ukraine",
+  "row": 1,
+  "isRiver": false,
+  "capitale": "Kyiv (Kiev)",
+  "description": "L’Ukraine contemporaine, brièvement indépendante après 1917, puis république de l’URSS, où elle subit la grande famine de 1932-1933 et les destructions de la Seconde Guerre mondiale, avant de devenir un État indépendant en 1991.",
+  "territories": ["Ukraine"],
+  "reperes": {
+    "capitale": { "valeur": "Kyiv (Kiev)", "precision": "Kharkiv est la capitale de l’Ukraine soviétique jusqu’en 1934" },
+    "regimes": {
+      "valeur": "République populaire, république soviétique, puis État indépendant",
+      "precision": "membre de l’URSS de 1922 à 1991 ; indépendante depuis 1991"
+    },
+    "langues": { "valeur": "Ukrainien", "precision": "le russe est aussi très parlé, surtout dans l’est et le sud" },
+    "religion": { "valeur": "Christianisme orthodoxe", "precision": "Église gréco-catholique dans l’ouest" },
+    "population": { "valeur": "Environ 42 millions en 2020", "precision": "sans la Crimée ; environ 52 millions en 1991" },
+    "monnaie": { "valeur": "Hryvnia (depuis 1996)", "precision": "rouble soviétique jusqu’en 1992" },
+    "duree": { "valeur": "Environ 100 ans dans cette fiche" },
+    "aujourdhui": { "valeur": "Ukraine" }
+  },
+  "essentiel": [
+    "Après les révolutions russes de 1917, une République populaire ukrainienne proclame son indépendance (janvier 1918) ; après plusieurs années de guerre, l’Ukraine devient une république soviétique, membre fondateur de l’URSS en 1922.",
+    "La collectivisation forcée des terres sous Staline provoque en 1932-1933 une famine, l’[[holodomor|Holodomor]], qui fait environ 4 millions de morts en Ukraine ; l’Ukraine et de nombreux pays la reconnaissent comme un génocide, une qualification discutée par une partie des historiens.",
+    "Occupée par l’Allemagne pendant la Seconde Guerre mondiale, l’Ukraine perd plusieurs millions d’habitants ; à Babi Yar, près de Kyiv, plus de 33 000 Juifs sont assassinés en deux jours en septembre 1941.",
+    "En 1986, l’explosion d’un réacteur de la centrale de [[catastrophe-de-tchernobyl|Tchernobyl]] provoque l’une des plus graves catastrophes nucléaires de l’histoire.",
+    "Indépendante en 1991, l’Ukraine connaît la révolution orange (2004) et le mouvement de Maïdan (2013-2014) ; en 2014, la Russie annexe la Crimée et une guerre éclate dans le Donbass. En février 2022, après la période couverte par cette fiche, la Russie lance une invasion à grande échelle de l’Ukraine."
+  ],
+  "datesCles": [
+    {
+      "annee": 1917,
+      "evenement": "Rada centrale",
+      "info": "Un conseil ukrainien, la Rada centrale, proclame à Kyiv la République populaire ukrainienne."
+    },
+    {
+      "annee": 1918,
+      "evenement": "Indépendance proclamée",
+      "info": "Le 22 janvier, la République populaire ukrainienne se déclare indépendante."
+    },
+    {
+      "annee": 1922,
+      "evenement": "URSS",
+      "info": "L’Ukraine soviétique est l’une des républiques fondatrices de l’URSS."
+    },
+    { "annee": 1932, "evenement": "Holodomor", "info": "Début de la grande famine de 1932-1933.", "ref": "holodomor" },
+    {
+      "annee": 1941,
+      "evenement": "Occupation allemande",
+      "info": "L’Allemagne envahit l’URSS ; massacre de Babi Yar à Kyiv."
+    },
+    {
+      "annee": 1954,
+      "evenement": "Crimée",
+      "info": "La Crimée est transférée de la Russie soviétique à l’Ukraine soviétique."
+    },
+    {
+      "annee": 1986,
+      "evenement": "Tchernobyl",
+      "info": "Un réacteur de la centrale nucléaire explose.",
+      "ref": "catastrophe-de-tchernobyl"
+    },
+    {
+      "annee": 1991,
+      "evenement": "Indépendance",
+      "info": "Proclamée le 24 août, elle est approuvée par plus de 90 % des votants lors du référendum du 1er décembre."
+    },
+    {
+      "annee": 2004,
+      "evenement": "Révolution orange",
+      "info": "Des manifestations obtiennent un nouveau vote après une élection présidentielle contestée."
+    },
+    {
+      "annee": 2014,
+      "evenement": "Maïdan, Crimée, Donbass",
+      "info": "Après le mouvement de Maïdan, la Russie annexe la Crimée ; une guerre commence dans le Donbass."
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "Révolutions et guerres",
+      "debut": 1917,
+      "fin": 1922,
+      "resume": "Ukrainiens, bolcheviks, armées blanches et Polonais se disputent l’Ukraine.",
+      "evenements": [
+        { "annee": 1917, "evenement": "Rada centrale" },
+        { "annee": 1918, "evenement": "Indépendance proclamée" },
+        { "annee": 1922, "evenement": "Entrée dans l’URSS" }
+      ]
+    },
+    {
+      "nom": "L’Ukraine soviétique",
+      "debut": 1922,
+      "fin": 1991,
+      "resume": "Famine, répressions, guerre et reconstruction ; l’Ukraine devient une grande région agricole et industrielle de l’URSS.",
+      "evenements": [
+        { "annee": 1932, "evenement": "Holodomor", "ref": "holodomor" },
+        { "annee": 1941, "evenement": "Occupation allemande" },
+        { "annee": 1954, "evenement": "Transfert de la Crimée" },
+        { "annee": 1986, "evenement": "Tchernobyl", "ref": "catastrophe-de-tchernobyl" }
+      ]
+    },
+    {
+      "nom": "L’Ukraine indépendante",
+      "debut": 1991,
+      "fin": 2020,
+      "resume": "Un État indépendant, partagé entre l’Europe et la Russie, puis en guerre dans l’est après 2014.",
+      "evenements": [
+        { "annee": 1991, "evenement": "Indépendance" },
+        { "annee": 2004, "evenement": "Révolution orange" },
+        { "annee": 2014, "evenement": "Annexion de la Crimée par la Russie et guerre du Donbass" }
+      ]
+    }
+  ],
+  "regimes": [
+    {
+      "id": "rpu",
+      "nom": "République populaire ukrainienne",
+      "debut": 1917,
+      "fin": 1920,
+      "note": "D’autres pouvoirs se disputent le pays : Hetmanat de Skoropadsky (1918), bolcheviks, armées blanches."
+    },
+    {
+      "id": "rss",
+      "nom": "République socialiste soviétique d’Ukraine",
+      "debut": 1920,
+      "fin": 1991,
+      "note": "Membre de l’URSS à partir de 1922."
+    },
+    { "id": "independante", "nom": "Ukraine indépendante", "debut": 1991, "fin": 2020 }
+  ],
+  "dynasties": [
+    { "id": "revolution", "nom": "Dirigeants de 1917-1920", "debut": 1917, "fin": 1920 },
+    {
+      "id": "sovietiques",
+      "nom": "Chefs du Parti communiste d’Ukraine",
+      "debut": 1938,
+      "fin": 1989,
+      "note": "Sélection."
+    },
+    { "id": "presidents", "nom": "Présidents de l’Ukraine", "debut": 1991, "fin": 2020 }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Mykhaïlo Hrouchevsky",
+      "titre": "Président de la Rada centrale",
+      "debut": 1917,
+      "fin": 1918,
+      "dynastie": "revolution",
+      "note": "historien de l’Ukraine",
+      "cle": true
+    },
+    {
+      "nom": "Pavlo Skoropadsky",
+      "titre": "Hetman",
+      "debut": 1918,
+      "fin": 1918,
+      "dynastie": "revolution",
+      "note": "régime soutenu par l’Allemagne"
+    },
+    {
+      "nom": "Symon Petlioura",
+      "titre": "Chef du Directoire",
+      "debut": 1919,
+      "fin": 1920,
+      "dynastie": "revolution",
+      "note": "assassiné à Paris en 1926"
+    },
+    {
+      "nom": "Nikita Khrouchtchev",
+      "titre": "Premier secrétaire du Parti communiste d’Ukraine",
+      "debut": 1938,
+      "fin": 1949,
+      "dynastie": "sovietiques",
+      "note": "futur dirigeant de l’URSS"
+    },
+    {
+      "nom": "Volodymyr Chtcherbytsky",
+      "titre": "Premier secrétaire du Parti communiste d’Ukraine",
+      "debut": 1972,
+      "fin": 1989,
+      "dynastie": "sovietiques"
+    },
+    {
+      "nom": "Leonid Kravtchouk",
+      "titre": "Président",
+      "debut": 1991,
+      "fin": 1994,
+      "dynastie": "presidents",
+      "note": "premier président",
+      "cle": true
+    },
+    { "nom": "Leonid Koutchma", "titre": "Président", "debut": 1994, "fin": 2005, "dynastie": "presidents", "cle": true },
+    {
+      "nom": "Viktor Iouchtchenko",
+      "titre": "Président",
+      "debut": 2005,
+      "fin": 2010,
+      "dynastie": "presidents",
+      "note": "élu après la révolution orange"
+    },
+    {
+      "nom": "Viktor Ianoukovytch",
+      "titre": "Président",
+      "debut": 2010,
+      "fin": 2014,
+      "dynastie": "presidents",
+      "note": "quitte Kyiv en février 2014 ; le Parlement le destitue"
+    },
+    { "nom": "Petro Porochenko", "titre": "Président", "debut": 2014, "fin": 2019, "dynastie": "presidents" },
+    {
+      "nom": "Volodymyr Zelensky",
+      "titre": "Président",
+      "debut": 2019,
+      "fin": 2020,
+      "dynastie": "presidents",
+      "note": "toujours en fonction à la fin de la période couverte (2020)",
+      "cle": true
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Taras Chevtchenko",
+      "role": "Poète",
+      "description": "Né serf, il devient le grand poète national ukrainien.",
+      "dates": "1814 → 1861",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Taras_Chevtchenko"
+    },
+    {
+      "nom": "Mykhaïlo Hrouchevsky",
+      "role": "Historien et homme politique",
+      "description": "Auteur d’une grande Histoire de l’Ukraine-Rus’, il préside la Rada centrale en 1917-1918.",
+      "dates": "1866 → 1934",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Mykha%C3%AFlo_Hrouchevsky"
+    },
+    {
+      "nom": "Lessia Oukraïnka",
+      "role": "Poétesse",
+      "description": "Grande figure de la littérature ukrainienne.",
+      "dates": "1871 → 1913",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Lessia_Oukra%C3%AFnka"
+    },
+    {
+      "nom": "Sergueï Korolev",
+      "role": "Ingénieur",
+      "description": "Né à Jytomyr, il dirige le programme spatial soviétique (Spoutnik, Gagarine).",
+      "dates": "1907 → 1966",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Sergue%C3%AF_Korolev"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerre soviéto-ukrainienne",
+      "annee": 1917,
+      "adversaires": ["Russie soviétique (bolcheviks)"],
+      "allies": ["République populaire ukrainienne", "Pologne (1920)"],
+      "morts": "Inconnues (combats, épidémies et pogroms mêlés)",
+      "vainqueur": "Russie soviétique",
+      "consequences": "Plusieurs armées se disputent l’Ukraine : ukrainiennes, bolcheviques, blanches, polonaises, ainsi que des bandes anarchistes. Des pogroms commis par plusieurs de ces forces font des dizaines de milliers de victimes juives. L’Ukraine devient une république soviétique ; sa partie occidentale revient à la Pologne (paix de Riga, 1921).",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_sovi%C3%A9to-ukrainienne"
+    },
+    {
+      "nom": "Guerre du Donbass",
+      "annee": 2014,
+      "adversaires": ["Séparatistes de Donetsk et de Louhansk, soutenus par la Russie"],
+      "allies": [],
+      "morts": "Environ 13 000 entre 2014 et 2020, dont plus de 3 000 civils (selon l’ONU)",
+      "vainqueur": "Conflit non résolu en 2020",
+      "consequences": "Après l’annexion de la Crimée par la Russie (mars 2014), non reconnue par la plupart des pays, des séparatistes armés et soutenus par la Russie prennent une partie des régions de Donetsk et de Louhansk. En juillet 2014, un avion de ligne (vol MH17) est abattu par un missile au-dessus de la zone des combats : 298 morts. Les accords de Minsk (2014-2015) réduisent les combats sans mettre fin au conflit.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_du_Donbass"
+    }
+  ],
+  "sciences": "L’Ukraine soviétique accueille de grands centres scientifiques : à Kyiv, l’équipe de Sergueï Lebedev met au point en 1950-1951 le MESM, l’un des premiers ordinateurs d’Europe continentale. L’ingénieur Sergueï Korolev, né à Jytomyr, dirige le programme spatial soviétique, et le bureau d’études Antonov construit à Kyiv des avions géants, comme l’An-225, longtemps le plus gros avion du monde.",
+  "croyancesText": "La majorité des Ukrainiens sont chrétiens orthodoxes. Dans l’ouest, l’Église gréco-catholique, unie à Rome, est interdite par les Soviétiques en 1946, puis de nouveau autorisée en 1989. En 2019, une Église orthodoxe d’Ukraine indépendante de Moscou est reconnue par le patriarcat de Constantinople.",
+  "diplomatie": "Membre fondateur de l’ONU en 1945 alors qu’elle fait partie de l’URSS, l’Ukraine indépendante renonce en 1994 aux armes nucléaires héritées de l’URSS, en échange de garanties de sécurité (mémorandum de Budapest). Elle hésite ensuite entre rapprochement avec l’Union européenne et liens avec la Russie, une question au cœur des crises de 2004 et de 2013-2014.",
+  "societe": "Pays de grandes plaines agricoles et de villes industrielles, l’Ukraine compte des habitants de langue ukrainienne et de langue russe ; d’importantes minorités (Russes, Tatars de Crimée, Juifs, Polonais) y ont vécu. En 1944, le pouvoir soviétique déporte en masse les Tatars de Crimée vers l’Asie centrale.",
+  "economie": "Céréales et tournesol (l’Ukraine est surnommée le « grenier à blé de l’Europe »), charbon et acier du Donbass, industrie aéronautique et spatiale.",
+  "arts": "Poèmes de Taras Chevtchenko et de Lessia Oukraïnka, broderies traditionnelles (vychyvanka), œufs décorés (pyssanky), films d’Oleksandr Dovjenko.",
+  "quotidien": "Le bortsch, soupe à base de betterave, est l’un des plats les plus populaires ; la culture du bortsch ukrainien est inscrite par l’UNESCO au patrimoine culturel immatériel en 2022.",
+  "heritage": [
+    {
+      "titre": "Sainte-Sophie de Kyiv",
+      "texte": "La cathédrale Sainte-Sophie, bâtie au XIe siècle, est inscrite au patrimoine mondial de l’UNESCO depuis 1990."
+    },
+    {
+      "titre": "La zone de Tchernobyl",
+      "texte": "Une zone d’exclusion d’environ 30 km autour de la centrale reste interdite à l’habitation."
+    }
+  ],
+  "aSavoir": ["Le drapeau ukrainien, bleu et jaune, est souvent décrit comme un ciel bleu au-dessus d’un champ de blé."],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Histoire_de_l%27Ukraine",
+    {
+      "titre": "Encyclopædia Britannica — Ukraine, History",
+      "url": "https://www.britannica.com/place/Ukraine/History"
+    }
+  ]
+}

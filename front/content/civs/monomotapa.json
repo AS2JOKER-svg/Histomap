@@ -1,0 +1,210 @@
+{
+  "documentaires": [],
+  "decouvertes": [],
+  "id": "monomotapa",
+  "label": "Empire du Monomotapa",
+  "tier": 2,
+  "region": "afrique-australe",
+  "period": "vers 1430 à 1760",
+  "start": 1430,
+  "end": 1760,
+  "trackId": "afrique_australe",
+  "row": 4,
+  "isRiver": false,
+  "capitale": "Cour royale du nord du Zimbabwe",
+  "description": "Un État shona né dans la tradition du Grand Zimbabwe, maître des mines d’or entre le Zambèze et le Limpopo, que les Portugais tentent de dominer à partir du XVIe siècle.",
+  "territories": ["Mwenemutapa"],
+  "reperes": {
+    "capitale": { "valeur": "Cour royale itinérante", "precision": "dans le nord du Zimbabwe actuel, près du Zambèze" },
+    "regimes": {
+      "valeur": "Monarchie",
+      "precision": "le souverain porte le titre de Mwenemutapa, qui a donné « Monomotapa »"
+    },
+    "langues": { "valeur": "Shona" },
+    "religion": {
+      "valeur": "Culte des ancêtres",
+      "precision": "les esprits des rois défunts parlent par la bouche de médiums"
+    },
+    "apogee": { "valeur": "XVe-XVIe siècles" },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": { "valeur": "Or et tissus", "precision": "servent aux échanges avec la côte" },
+    "duree": { "valeur": "Environ 330 ans" },
+    "aujourdhui": { "valeur": "Zimbabwe et Mozambique" }
+  },
+  "essentiel": [
+    "Vers 1430, selon la tradition, le prince shona [[nyatsimba-mutota|Nyatsimba Mutota]], venu de la région du Grand Zimbabwe, conquiert le nord du plateau.",
+    "Le Mwenemutapa contrôle les mines d’or et l’ivoire, échangés sur la côte avec les marchands swahilis contre des tissus et des perles.",
+    "Au XVIe siècle, les Portugais s’installent sur le Zambèze ; une [[expedition-de-francisco-barreto|expédition militaire]] pour conquérir les mines échoue (1569-1573).",
+    "Affaibli par les guerres civiles, le Mwenemutapa Mavura se reconnaît vassal du Portugal en 1629.",
+    "À la fin du XVIIe siècle, le royaume rival des Rozvi chasse les Portugais du plateau ; le Monomotapa se réduit à un petit État de la vallée du Zambèze."
+  ],
+  "datesCles": [
+    {
+      "annee": 1430,
+      "evenement": "Mutota",
+      "info": "Vers 1430, selon la tradition, Nyatsimba Mutota fonde l’empire."
+    },
+    {
+      "annee": 1505,
+      "evenement": "Les Portugais à Sofala",
+      "info": "Les Portugais construisent un fort sur la côte, par où passe l’or du Monomotapa."
+    },
+    {
+      "annee": 1561,
+      "evenement": "Gonçalo da Silveira",
+      "info": "Ce missionnaire jésuite baptise le roi, puis il est mis à mort."
+    },
+    {
+      "annee": 1569,
+      "evenement": "Expédition de Barreto",
+      "info": "Une armée portugaise tente de conquérir les mines d’or ; elle est décimée par la maladie.",
+      "ref": "expedition-de-francisco-barreto"
+    },
+    {
+      "annee": 1629,
+      "evenement": "Vassal du Portugal",
+      "info": "Le Mwenemutapa Mavura, installé par les Portugais, se reconnaît leur vassal."
+    },
+    {
+      "annee": 1693,
+      "evenement": "Les Rozvi",
+      "info": "Changamire Dombo, roi des Rozvi, chasse les Portugais du plateau."
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "La formation de l’empire",
+      "debut": 1430,
+      "fin": 1505,
+      "resume": "Mutota et son fils Matope conquièrent les terres entre le Zambèze et l’océan Indien.",
+      "evenements": [{ "annee": 1430, "evenement": "Mutota" }]
+    },
+    {
+      "nom": "Face aux Portugais",
+      "debut": 1505,
+      "fin": 1693,
+      "resume": "Les Portugais cherchent à contrôler l’or ; le royaume, déchiré par des guerres de succession, devient leur vassal.",
+      "evenements": [
+        { "annee": 1561, "evenement": "Mort de Silveira" },
+        { "annee": 1569, "evenement": "Expédition de Barreto", "ref": "expedition-de-francisco-barreto" },
+        { "annee": 1629, "evenement": "Vassalité" }
+      ]
+    },
+    {
+      "nom": "Le déclin",
+      "debut": 1693,
+      "fin": 1760,
+      "resume": "Après l’expulsion des Portugais par les Rozvi, le Monomotapa ne domine plus qu’une partie de la vallée du Zambèze.",
+      "evenements": [{ "annee": 1693, "evenement": "Victoire des Rozvi" }]
+    }
+  ],
+  "regimes": [
+    {
+      "id": "royaume",
+      "nom": "Empire du Mwenemutapa",
+      "debut": 1430,
+      "fin": 1760,
+      "note": "Vassal du Portugal à partir de 1629."
+    }
+  ],
+  "dynasties": [{ "id": "mutapa", "nom": "Les Mwenemutapa", "debut": 1430, "fin": 1652, "note": "Sélection ; dates approximatives." }],
+  "dirigeants": [
+    {
+      "nom": "Nyatsimba Mutota",
+      "titre": "Mwenemutapa",
+      "debut": 1430,
+      "fin": 1450,
+      "dynastie": "mutapa",
+      "personne": "nyatsimba-mutota",
+      "note": "fondateur selon la tradition",
+      "cle": true
+    },
+    {
+      "nom": "Matope",
+      "titre": "Mwenemutapa",
+      "debut": 1450,
+      "fin": 1480,
+      "dynastie": "mutapa",
+      "note": "étend l’empire jusqu’à l’océan",
+      "cle": true
+    },
+    {
+      "nom": "Negomo Mupunzagutu",
+      "titre": "Mwenemutapa",
+      "debut": 1560,
+      "fin": 1589,
+      "dynastie": "mutapa",
+      "note": "baptisé par Silveira, qu’il fait ensuite tuer",
+      "cle": true
+    },
+    { "nom": "Gatsi Rusere", "titre": "Mwenemutapa", "debut": 1589, "fin": 1623, "dynastie": "mutapa" },
+    {
+      "nom": "Mavura Mhande",
+      "titre": "Mwenemutapa",
+      "debut": 1629,
+      "fin": 1652,
+      "dynastie": "mutapa",
+      "note": "vassal du Portugal, baptisé",
+      "cle": true
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Gonçalo da Silveira",
+      "role": "Missionnaire jésuite",
+      "description": "Il baptise le Mwenemutapa en 1561 ; accusé d’espionnage par des conseillers, il est mis à mort peu après.",
+      "dates": "1526 → 1561",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Gon%C3%A7alo_da_Silveira"
+    },
+    {
+      "nom": "Changamire Dombo",
+      "role": "Roi des Rozvi",
+      "description": "Ancien vassal du Mwenemutapa, il fonde le royaume rozvi et chasse les Portugais du plateau.",
+      "dates": "mort en 1696",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Changamire_Dombo"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Expédition de Francisco Barreto",
+      "annee": 1569,
+      "adversaires": ["Royaume de Portugal (Francisco Barreto)"],
+      "allies": [],
+      "morts": "La plupart des soldats portugais meurent de maladie",
+      "vainqueur": "Échec portugais",
+      "consequences": "Les Portugais, décimés par les fièvres et les combats, ne parviennent pas à s’emparer des mines d’or.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Empire_du_Monomotapa"
+    },
+    {
+      "nom": "Expulsion des Portugais par les Rozvi",
+      "annee": 1693,
+      "adversaires": ["Portugais du Zambèze"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Royaume rozvi",
+      "consequences": "Changamire Dombo chasse les Portugais des foires de l’or du plateau ; le Monomotapa perd sa puissance.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Empire_du_Monomotapa"
+    }
+  ],
+  "sciences": "Les Shonas exploitent des mines d’or et de cuivre, creusées parfois sur plusieurs dizaines de mètres, et fondent le métal en lingots. Ils bâtissent des enceintes de pierre sèche, dans la tradition du Grand Zimbabwe, plus petites que celui-ci.",
+  "croyancesText": "Les Shonas honorent avant tout les ancêtres, protecteurs des familles et du royaume. Les esprits des rois défunts, les mhondoro, parlent par l’intermédiaire de médiums, consultés pour les grandes décisions. Des missionnaires portugais baptisent plusieurs souverains, sans que le christianisme s’enracine.",
+  "diplomatie": "Le royaume vend l’or et l’ivoire aux marchands swahilis, puis aux Portugais, installés à Sofala, Sena et Tete. Les Portugais cherchent à le soumettre, en armant des prétendants au trône ; ils obtiennent sa vassalité en 1629.",
+  "societe": "Le Mwenemutapa gouverne avec des chefs locaux, qui lui paient tribut. Les mines et les foires commerciales sont des lieux de pouvoir et de rivalité.",
+  "economie": "Or, ivoire, cuivre, agriculture (sorgho, millet) et élevage de bétail.",
+  "arts": "Enceintes de pierre sèche, objets d’or et de cuivre.",
+  "quotidien": "Les chercheurs d’or lavent le sable des rivières et creusent des puits dans la roche pendant la saison sèche.",
+  "heritage": [
+    {
+      "titre": "Un nom légendaire",
+      "texte": "En Europe, le « Monomotapa » devient synonyme de royaume fabuleux de l’or, jusque dans les fables de La Fontaine."
+    },
+    { "titre": "L’héritage shona", "texte": "Les Shonas forment aujourd’hui le principal peuple du Zimbabwe." }
+  ],
+  "aSavoir": [
+    "Les Européens ont longtemps cru que le Monomotapa était le royaume biblique d’Ophir, d’où le roi Salomon tirait son or."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Empire_du_Monomotapa",
+    { "titre": "Encyclopædia Britannica — Mwene Matapa", "url": "https://www.britannica.com/place/Mwene-Matapa" }
+  ]
+}

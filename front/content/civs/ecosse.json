@@ -1,0 +1,240 @@
+{
+  "documentaires": [],
+  "decouvertes": [],
+  "id": "ecosse",
+  "label": "Royaume d’Écosse",
+  "tier": 2,
+  "region": "iles-britanniques",
+  "period": "843 à 1707",
+  "start": 843,
+  "end": 1707,
+  "color": "#283593",
+  "trackId": "ecosse",
+  "row": 16,
+  "isRiver": false,
+  "capitale": "Scone, Dunfermline, puis Édimbourg",
+  "description": "Le royaume du nord de la Grande-Bretagne, qui défend farouchement son indépendance face à l’Angleterre au Moyen Âge, avant de partager le même roi qu’elle en 1603 puis de s’unir à elle en 1707.",
+  "territories": ["Scots", "Scotland"],
+  "reperes": {
+    "capitale": { "valeur": "Scone, Dunfermline, puis Édimbourg", "precision": "Édimbourg devient la capitale au XVe siècle" },
+    "regimes": { "valeur": "Monarchie", "precision": "avec un Parlement à partir du XIIIe siècle" },
+    "langues": { "valeur": "Gaélique, scots et anglais", "precision": "le latin sert aussi à l’écrit" },
+    "religion": { "valeur": "Catholicisme, puis protestantisme presbytérien (1560)" },
+    "apogee": { "valeur": "Règne de Robert Bruce (1306 → 1329)", "precision": "l’indépendance est reconnue en 1328" },
+    "population": { "valeur": "Environ 1 million vers 1700", "precision": "estimation" },
+    "monnaie": { "valeur": "Livre écossaise" },
+    "duree": { "valeur": "Environ 860 ans" },
+    "aujourdhui": { "valeur": "Royaume-Uni (Écosse)" }
+  },
+  "essentiel": [
+    "Selon la tradition, Kenneth MacAlpin réunit vers 843 les Pictes et les Scots : c’est la naissance du royaume d’Alba, la future Écosse.",
+    "À la fin du XIIIe siècle, le roi d’Angleterre Édouard Ier tente de soumettre l’Écosse ; William Wallace puis [[robert-bruce|Robert Bruce]] mènent la résistance.",
+    "En 1314, Robert Bruce écrase les Anglais à [[bataille-de-bannockburn|Bannockburn]] ; l’indépendance est reconnue en 1328. L’Écosse s’allie à la France : c’est l’« Auld Alliance ».",
+    "En 1560, l’Écosse adopte le protestantisme ; la reine [[marie-stuart|Marie Stuart]], catholique, est chassée et finit exécutée en Angleterre en 1587.",
+    "En 1603, son fils Jacques VI devient aussi roi d’Angleterre ; en 1707, les deux royaumes s’unissent pour former la Grande-Bretagne."
+  ],
+  "datesCles": [
+    {
+      "annee": 843,
+      "evenement": "Kenneth MacAlpin",
+      "info": "Selon la tradition, il devient roi des Pictes et des Scots."
+    },
+    {
+      "annee": 1040,
+      "evenement": "Macbeth",
+      "info": "Macbeth devient roi après avoir tué le roi Duncan Ier au combat."
+    },
+    {
+      "annee": 1295,
+      "evenement": "Auld Alliance",
+      "info": "L’Écosse conclut une alliance avec la France contre l’Angleterre."
+    },
+    { "annee": 1297, "evenement": "Stirling Bridge", "info": "William Wallace bat une armée anglaise." },
+    {
+      "annee": 1314,
+      "evenement": "Bannockburn",
+      "info": "Robert Bruce écrase l’armée d’Édouard II.",
+      "ref": "bataille-de-bannockburn"
+    },
+    {
+      "annee": 1320,
+      "evenement": "Déclaration d’Arbroath",
+      "info": "Les barons écossais affirment au pape leur droit à l’indépendance."
+    },
+    { "annee": 1560, "evenement": "Réforme", "info": "Le Parlement écossais adopte le protestantisme." },
+    {
+      "annee": 1603,
+      "evenement": "Union des couronnes",
+      "info": "Jacques VI d’Écosse devient Jacques Ier d’Angleterre."
+    },
+    {
+      "annee": 1707,
+      "evenement": "Acte d’Union",
+      "info": "L’Écosse et l’Angleterre forment le royaume de Grande-Bretagne."
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "Le royaume d’Alba",
+      "debut": 843,
+      "fin": 1286,
+      "resume": "Les rois écossais unifient le pays et s’entourent de seigneurs venus d’Angleterre et de France.",
+      "evenements": [{ "annee": 843, "evenement": "Kenneth MacAlpin" }, { "annee": 1040, "evenement": "Macbeth roi" }]
+    },
+    {
+      "nom": "Les guerres d’indépendance",
+      "debut": 1286,
+      "fin": 1371,
+      "resume": "L’Écosse résiste aux tentatives de conquête anglaises.",
+      "evenements": [
+        { "annee": 1297, "evenement": "Stirling Bridge" },
+        { "annee": 1314, "evenement": "Bannockburn", "ref": "bataille-de-bannockburn" },
+        { "annee": 1328, "evenement": "Indépendance reconnue" }
+      ]
+    },
+    {
+      "nom": "Les Stuart",
+      "debut": 1371,
+      "fin": 1707,
+      "resume": "La dynastie des Stuart règne sur l’Écosse, puis aussi sur l’Angleterre à partir de 1603.",
+      "evenements": [
+        { "annee": 1513, "evenement": "Défaite de Flodden" },
+        { "annee": 1560, "evenement": "Réforme protestante" },
+        { "annee": 1603, "evenement": "Union des couronnes" }
+      ]
+    }
+  ],
+  "regimes": [{ "id": "monarchie", "nom": "Monarchie", "debut": 843, "fin": 1707 }],
+  "dynasties": [
+    { "id": "alpin", "nom": "Maisons d’Alpin et de Dunkeld", "debut": 843, "fin": 1290, "note": "Sélection." },
+    { "id": "bruce", "nom": "Maison Bruce", "debut": 1306, "fin": 1371 },
+    { "id": "stuart", "nom": "Maison Stuart", "debut": 1371, "fin": 1707, "note": "Sélection." }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Kenneth MacAlpin",
+      "titre": "Roi",
+      "debut": 843,
+      "fin": 858,
+      "dynastie": "alpin",
+      "note": "fondateur selon la tradition",
+      "cle": true
+    },
+    {
+      "nom": "Macbeth",
+      "titre": "Roi",
+      "debut": 1040,
+      "fin": 1057,
+      "dynastie": "alpin",
+      "note": "héros d’une pièce de Shakespeare",
+      "cle": true
+    },
+    { "nom": "Malcolm III", "titre": "Roi", "debut": 1058, "fin": 1093, "dynastie": "alpin" },
+    {
+      "nom": "Robert Ier Bruce",
+      "titre": "Roi",
+      "debut": 1306,
+      "fin": 1329,
+      "dynastie": "bruce",
+      "personne": "robert-bruce",
+      "cle": true
+    },
+    { "nom": "Jacques IV", "titre": "Roi", "debut": 1488, "fin": 1513, "dynastie": "stuart", "note": "tué à Flodden" },
+    {
+      "nom": "Marie Stuart",
+      "titre": "Reine",
+      "debut": 1542,
+      "fin": 1567,
+      "dynastie": "stuart",
+      "personne": "marie-stuart",
+      "cle": true
+    },
+    {
+      "nom": "Jacques VI",
+      "titre": "Roi",
+      "debut": 1567,
+      "fin": 1625,
+      "dynastie": "stuart",
+      "note": "roi d’Angleterre à partir de 1603"
+    },
+    { "nom": "Anne", "titre": "Reine", "debut": 1702, "fin": 1707, "dynastie": "stuart", "note": "signe l’Acte d’Union" }
+  ],
+  "personnages": [
+    {
+      "nom": "William Wallace",
+      "role": "Chef de la résistance",
+      "description": "Vainqueur des Anglais à Stirling Bridge, il est capturé et exécuté à Londres en 1305.",
+      "dates": "vers 1270 → 1305",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/William_Wallace"
+    },
+    {
+      "nom": "Robert Bruce",
+      "role": "Roi",
+      "description": "Le roi qui obtient l’indépendance de l’Écosse.",
+      "dates": "1274 → 1329",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Robert_Ier_d%27%C3%89cosse",
+      "ref": "robert-bruce"
+    },
+    {
+      "nom": "Marie Stuart",
+      "role": "Reine",
+      "description": "Reine d’Écosse et un temps reine de France, exécutée en Angleterre.",
+      "dates": "1542 → 1587",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Marie_Ire_d%27%C3%89cosse",
+      "ref": "marie-stuart"
+    },
+    {
+      "nom": "John Knox",
+      "role": "Réformateur",
+      "description": "Prédicateur qui conduit la Réforme protestante en Écosse.",
+      "dates": "vers 1514 → 1572",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/John_Knox"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerres d’indépendance de l’Écosse",
+      "annee": 1296,
+      "adversaires": ["Royaume d’Angleterre (Édouard Ier, Édouard II)"],
+      "allies": ["France"],
+      "morts": "Inconnues",
+      "vainqueur": "Écosse (indépendance reconnue en 1328)",
+      "consequences": "Après la victoire de Bannockburn (1314), l’Angleterre reconnaît l’indépendance de l’Écosse par le traité d’Édimbourg-Northampton (1328). Les guerres reprennent ensuite par intermittence.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerres_d%27ind%C3%A9pendance_de_l%27%C3%89cosse"
+    },
+    {
+      "nom": "Bataille de Flodden",
+      "annee": 1513,
+      "adversaires": ["Royaume d’Angleterre"],
+      "allies": [],
+      "morts": "Environ 10 000 Écossais, selon les estimations",
+      "vainqueur": "Angleterre",
+      "consequences": "Le roi Jacques IV, qui avait attaqué l’Angleterre pour aider son allié français, est tué avec une grande partie de la noblesse écossaise.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Flodden_Field"
+    }
+  ],
+  "sciences": "L’Écosse fonde trois universités au XVe siècle : St Andrews (1413), Glasgow (1451) et Aberdeen (1495). Au début du XVIIe siècle, le mathématicien écossais John Napier invente les logarithmes, qui facilitent énormément les calculs.",
+  "croyancesText": "L’Écosse est catholique jusqu’au XVIe siècle. En 1560, sous l’influence de John Knox, le Parlement adopte le protestantisme : l’Église d’Écosse, presbytérienne, est dirigée par des assemblées de pasteurs et de laïcs plutôt que par des évêques.",
+  "diplomatie": "Menacée par l’Angleterre, l’Écosse s’allie à la France dès 1295 : l’« Auld Alliance » dure plus de deux siècles. Les mariages entre familles royales finissent par donner à Jacques VI les couronnes d’Écosse et d’Angleterre en 1603.",
+  "societe": "Dans les Highlands, au nord, la société est organisée en clans dirigés par des chefs et parle gaélique ; dans les Lowlands, au sud, les villes et les seigneurs parlent scots et anglais.",
+  "economie": "Élevage de moutons, laine, pêche, commerce avec la France et les pays de la mer du Nord.",
+  "arts": "Châteaux d’Édimbourg et de Stirling, abbayes, poésie en scots, musique de cornemuse.",
+  "quotidien": "Dans les Highlands, les familles d’un même clan portent un tissu de laine à carreaux, le tartan.",
+  "heritage": [
+    {
+      "titre": "La pierre du destin",
+      "texte": "La pierre sur laquelle étaient couronnés les rois d’Écosse, emportée par les Anglais en 1296, n’a été rendue à l’Écosse qu’en 1996."
+    },
+    { "titre": "Un Parlement retrouvé", "texte": "Supprimé en 1707, le Parlement écossais a été rétabli en 1999." }
+  ],
+  "aSavoir": [
+    "Macbeth, le héros de la tragédie de Shakespeare, a vraiment régné sur l’Écosse de 1040 à 1057 ; la pièce prend de grandes libertés avec l’histoire."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Royaume_d%27%C3%89cosse",
+    {
+      "titre": "Encyclopædia Britannica — Scotland, history",
+      "url": "https://www.britannica.com/place/Scotland/History"
+    }
+  ]
+}

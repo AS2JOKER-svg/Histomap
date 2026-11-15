@@ -1,0 +1,16 @@
+{
+  "id": "bataille-de-didgori",
+  "nom": "Bataille de Didgori",
+  "annee": 1121,
+  "dates": "12 août 1121",
+  "lieu": "Didgori (près de Tbilissi)",
+  "description": "L’armée de [[david-iv-le-batisseur|David IV]], renforcée de cavaliers kiptchaks et de quelques croisés, écrase une grande coalition seldjoukide.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "La Géorgie se libère de la menace seldjoukide ; David IV reprend Tbilissi l’année suivante. La victoire est commémorée chaque année en Géorgie."
+    }
+  ],
+  "liens": [{ "ref": "david-iv-le-batisseur", "relation": "Le vainqueur" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Didgori"
+}

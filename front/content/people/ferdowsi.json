@@ -1,0 +1,16 @@
+{
+  "id": "ferdowsi",
+  "nom": "Ferdowsi",
+  "role": "Poète persan",
+  "roles": ["Poète"],
+  "dates": "vers 940 → vers 1020",
+  "naissance": 940,
+  "mort": 1020,
+  "description": "Auteur du Shahnameh, le « Livre des rois », une épopée de 50 000 vers qui raconte l’histoire de l’Iran depuis ses rois légendaires.",
+  "essentiel": [
+    "Il commence son œuvre vers 977, à l’époque samanide.",
+    "Il l’achève vers 1010 et la dédie au sultan ghaznévide Mahmud.",
+    "Il écrit dans un persan qui emploie très peu de mots arabes."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Ferdowsi"
+}

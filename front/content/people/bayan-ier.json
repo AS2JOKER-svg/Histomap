@@ -1,0 +1,17 @@
+{
+  "id": "bayan-ier",
+  "nom": "Bayan Ier",
+  "role": "Khagan des Avars",
+  "roles": ["Khagan", "Chef de guerre"],
+  "dates": "? → vers 602",
+  "mort": 602,
+  "description": "Khagan des Avars de 562 environ à 602, il installe son peuple dans la plaine de Pannonie et fait trembler l’Empire byzantin.",
+  "reperes": [{ "label": "Règne", "valeur": "vers 562 → vers 602" }],
+  "essentiel": [
+    "Il s’allie aux Lombards pour détruire le royaume des Gépides (567).",
+    "Il installe les Avars dans la plaine du Danube et de la Tisza.",
+    "Il prend la ville byzantine de Sirmium en 582 après un long siège.",
+    "Il obtient de Byzance des tributs en or de plus en plus élevés."
+  ],
+  "wikiUrl": "https://en.wikipedia.org/wiki/Bayan_I"
+}

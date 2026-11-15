@@ -1,0 +1,15 @@
+{
+  "id": "koutoubia",
+  "nom": "Koutoubia",
+  "annee": 1158,
+  "domaine": "Architecture",
+  "dates": "1147 → vers 1195",
+  "description": "La grande mosquée de Marrakech, bâtie par les Almohades, dont le minaret de près de 70 mètres domine la ville.",
+  "sections": [
+    {
+      "titre": "Un modèle",
+      "texte": "Son minaret a servi de modèle à la Giralda de Séville et à la Tour Hassan de Rabat. Son nom vient des libraires (koutoubiyyin) qui tenaient boutique à ses pieds."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Koutoubia"
+}

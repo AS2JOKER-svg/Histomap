@@ -1,0 +1,136 @@
+{
+  "documentaires": [],
+  "decouvertes": ["poterie-lapita", "navigation-polynesienne"],
+  "id": "lapita",
+  "label": "Lapita et premiers Polynésiens",
+  "tier": 2,
+  "region": "pacifique",
+  "period": "vers -1350 à 1000",
+  "start": -1350,
+  "end": 1000,
+  "color": "#00838f",
+  "trackId": "pacifique",
+  "row": 2,
+  "isRiver": false,
+  "capitale": "Aucune",
+  "description": "Les navigateurs austronésiens qui, à partir de la Nouvelle-Guinée, peuplent en quelques siècles les îles du Pacifique jusqu’à Tonga et Samoa : les ancêtres des Polynésiens.",
+  "territories": ["Polynesians"],
+  "reperes": {
+    "capitale": { "valeur": "Aucune", "precision": "des villages côtiers répartis sur des milliers de kilomètres" },
+    "regimes": { "valeur": "Chefferies", "precision": "probablement des communautés dirigées par des chefs" },
+    "langues": {
+      "valeur": "Langues austronésiennes",
+      "precision": "ancêtres des langues polynésiennes : tongien, samoan, tahitien, maori, hawaïen…"
+    },
+    "religion": { "valeur": "Inconnue" },
+    "apogee": { "valeur": "Vers −1000 → −800", "precision": "expansion de la Nouvelle-Guinée à Samoa" },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": { "valeur": "Aucune" },
+    "duree": { "valeur": "Environ 2 300 ans" },
+    "aujourdhui": { "valeur": "Mélanésie et Polynésie", "precision": "de la Papouasie-Nouvelle-Guinée aux Samoa" }
+  },
+  "essentiel": [
+    "Les Lapita descendent de peuples parlant des langues austronésiennes, partis de Taïwan des milliers d’années plus tôt et passés par les Philippines et l’Indonésie.",
+    "Vers −1350, ils apparaissent dans l’archipel Bismarck, au nord-est de la Nouvelle-Guinée : on les reconnaît à leurs [[poterie-lapita|poteries décorées]].",
+    "En deux ou trois siècles, ils traversent plus de 4 000 km d’océan jusqu’à Fidji, Tonga et Samoa, des îles jamais habitées auparavant.",
+    "Grâce à leurs pirogues à balancier et à leur [[navigation-polynesienne|art de la navigation]], ils se repèrent aux étoiles, à la houle et aux oiseaux.",
+    "Leurs descendants, les Polynésiens, repartent vers l’est autour de l’an 1000 et peuplent Hawaï, l’île de Pâques et la Nouvelle-Zélande."
+  ],
+  "datesCles": [
+    {
+      "annee": -1350,
+      "evenement": "Archipel Bismarck",
+      "info": "Les plus anciennes poteries lapita apparaissent au nord-est de la Nouvelle-Guinée."
+    },
+    {
+      "annee": -1000,
+      "evenement": "Teouma",
+      "info": "Au Vanuatu, le cimetière de Teouma, vieux d’environ 3 000 ans, renseigne sur les premiers habitants."
+    },
+    {
+      "annee": -850,
+      "evenement": "Tonga",
+      "info": "Les premiers habitants s’installent à Tonga (site de Nukuleka)."
+    },
+    {
+      "annee": -800,
+      "evenement": "Samoa",
+      "info": "Les Lapita atteignent Samoa, à la limite orientale de leur expansion."
+    },
+    {
+      "annee": -500,
+      "evenement": "Fin du décor lapita",
+      "info": "Les poteries décorées disparaissent peu à peu ; les sociétés polynésiennes se forment à Tonga et Samoa."
+    },
+    {
+      "annee": 1000,
+      "evenement": "Les grands voyages",
+      "info": "Vers l’an 1000, les Polynésiens partent peupler les îles de Polynésie orientale."
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "L’expansion lapita",
+      "debut": -1350,
+      "fin": -800,
+      "resume": "Des navigateurs venus de l’archipel Bismarck peuplent les îles de la Mélanésie lointaine et de la Polynésie occidentale.",
+      "evenements": [{ "annee": -1000, "evenement": "Cimetière de Teouma" }, { "annee": -850, "evenement": "Arrivée à Tonga" }]
+    },
+    {
+      "nom": "La longue pause",
+      "debut": -800,
+      "fin": 1000,
+      "resume": "Pendant près de deux mille ans, les habitants de Tonga et de Samoa développent la culture polynésienne, avant de repartir vers l’est.",
+      "evenements": [
+        { "annee": -500, "evenement": "Fin du décor lapita" },
+        { "annee": 1000, "evenement": "Départ vers la Polynésie orientale" }
+      ]
+    }
+  ],
+  "regimes": [{ "id": "chefferies", "nom": "Chefferies (probables)", "debut": -1350, "fin": 1000 }],
+  "dirigeants": [],
+  "personnages": [
+    {
+      "nom": "Tupaia",
+      "role": "Prêtre et navigateur tahitien",
+      "description": "Au XVIIIe siècle, il guide James Cook et dessine une carte de dizaines d’îles du Pacifique, preuve des immenses connaissances des navigateurs polynésiens.",
+      "dates": "vers 1725 → 1770",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Tupaia"
+    },
+    {
+      "nom": "Mau Piailug",
+      "role": "Navigateur micronésien",
+      "description": "En 1976, il guide sans instrument la pirogue double Hōkūleʻa de Hawaï à Tahiti, montrant que les voyages anciens étaient possibles.",
+      "dates": "1932 → 2010",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Mau_Piailug"
+    }
+  ],
+  "guerres": [],
+  "sciences": "Les Lapita construisent des pirogues à balancier et des pirogues doubles capables de traverser des centaines de kilomètres d’océan. Ils naviguent sans instrument, en observant le lever des étoiles, la direction de la houle, les nuages et le vol des oiseaux. Leurs potiers décorent les vases de motifs imprimés avec un petit peigne dentelé.",
+  "croyancesText": "On connaît mal les croyances des Lapita. Au Vanuatu, le cimetière de Teouma, vieux d’environ 3 000 ans, montre que les morts recevaient des soins particuliers : certains crânes étaient retirés et déposés à part, et des os étaient placés dans des poteries décorées. Les Polynésiens qui leur succèdent honorent des dieux comme Tangaroa et des ancêtres divinisés.",
+  "diplomatie": "Les communautés lapita restent reliées par des voyages : on retrouve sur des îles très éloignées de l’obsidienne, une pierre volcanique, venue de Nouvelle-Bretagne. Les Lapita côtoient aussi les peuples papous installés depuis des dizaines de milliers d’années en Nouvelle-Guinée.",
+  "societe": "Les villages, souvent installés sur la côte ou sur pilotis, regroupent quelques familles. Les sociétés polynésiennes qui en descendent seront organisées autour de chefs dont le pouvoir vient de leur généalogie.",
+  "economie": "Pêche, ramassage de coquillages, élevage du porc, du chien et du poulet, culture du taro, de l’igname et de l’arbre à pain.",
+  "arts": "Poteries aux motifs géométriques et aux visages stylisés, parures de coquillages.",
+  "quotidien": "Les motifs des poteries lapita ressemblent à ceux des tatouages polynésiens ; certains chercheurs pensent qu’ils en sont l’origine.",
+  "heritage": [
+    {
+      "titre": "Les langues polynésiennes",
+      "texte": "Du maori au hawaïen, les langues de Polynésie descendent de celles des Lapita et se ressemblent encore beaucoup."
+    },
+    {
+      "titre": "La renaissance de la navigation",
+      "texte": "Depuis le voyage de la pirogue Hōkūleʻa en 1976, des navigateurs du Pacifique font revivre la navigation traditionnelle."
+    }
+  ],
+  "aSavoir": [
+    "Le nom « Lapita » vient d’un site de Nouvelle-Calédonie, fouillé en 1952, où l’on a trouvé ces poteries décorées."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Culture_Lapita",
+    {
+      "titre": "Encyclopædia Britannica — Lapita culture",
+      "url": "https://www.britannica.com/topic/Lapita-culture"
+    }
+  ]
+}

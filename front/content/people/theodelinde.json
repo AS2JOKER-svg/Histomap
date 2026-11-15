@@ -1,0 +1,16 @@
+{
+  "id": "theodelinde",
+  "nom": "Théodelinde",
+  "role": "Reine des Lombards",
+  "roles": ["Reine"],
+  "dates": "vers 570 → 628",
+  "mort": 628,
+  "description": "Princesse bavaroise et catholique, épouse de deux rois lombards, elle joue un grand rôle dans la conversion de son peuple au catholicisme.",
+  "essentiel": [
+    "Elle épouse le roi Authari, puis, après sa mort, le duc Agilulf, qu’elle fait roi.",
+    "Elle correspond avec le pape Grégoire le Grand.",
+    "Elle fait baptiser son fils dans la foi catholique.",
+    "Elle fonde la cathédrale de Monza, où est conservée la couronne de fer."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Th%C3%A9odelinde"
+}

@@ -1,0 +1,195 @@
+{
+  "documentaires": [],
+  "decouvertes": [],
+  "id": "sultanat-de-malacca",
+  "label": "Sultanat de Malacca",
+  "tier": 2,
+  "region": "asie-sud-est-insulaire",
+  "period": "vers 1400 à 1511",
+  "start": 1400,
+  "end": 1511,
+  "color": "#ec407a",
+  "trackId": "malaisie",
+  "row": 9,
+  "isRiver": false,
+  "capitale": "Malacca (Melaka)",
+  "description": "Un sultanat malais qui contrôle au XVe siècle le détroit de Malacca, passage obligé entre l’océan Indien et la mer de Chine, et devient le plus grand port d’Asie du Sud-Est, jusqu’à sa conquête par les Portugais en 1511.",
+  "territories": ["Malacca"],
+  "reperes": {
+    "capitale": { "valeur": "Malacca (Melaka)", "precision": "sur la côte ouest de la péninsule malaise" },
+    "regimes": { "valeur": "Sultanat", "precision": "le sultan gouverne avec un Premier ministre, le bendahara" },
+    "langues": { "valeur": "Malais", "precision": "langue du commerce dans tout l’archipel" },
+    "religion": { "valeur": "Islam sunnite", "precision": "adopté par les souverains au début du XVe siècle" },
+    "apogee": { "valeur": "Règne de Mansur Shah (1459 → 1477)" },
+    "population": { "valeur": "Inconnue", "precision": "peut-être plusieurs dizaines de milliers d’habitants vers 1500" },
+    "monnaie": { "valeur": "Pièces d’étain" },
+    "duree": { "valeur": "Environ 110 ans" },
+    "aujourdhui": { "valeur": "Malaisie", "precision": "et une partie de Sumatra (Indonésie)" }
+  },
+  "essentiel": [
+    "Vers 1400, un prince venu de Sumatra, [[parameswara|Parameswara]], fonde Malacca sur la côte de la péninsule malaise, au bord du détroit qui relie l’océan Indien à la mer de Chine.",
+    "Il obtient la protection de la Chine des Ming : les flottes de [[zheng-he|Zheng He]] font escale à Malacca, qui devient un grand port.",
+    "Les souverains adoptent l’islam ; Malacca contribue à sa diffusion dans l’archipel, et le malais devient la langue du commerce.",
+    "Au XVe siècle, le port accueille des marchands venus de Chine, d’Inde, d’Arabie et de tout l’archipel : on dit qu’on y parle plus de 80 langues.",
+    "En 1511, les Portugais d’Afonso de Albuquerque [[prise-de-malacca|prennent Malacca]] ; le sultan se réfugie plus au sud et fonde le sultanat de Johor."
+  ],
+  "datesCles": [
+    { "annee": 1400, "evenement": "Fondation", "info": "Vers 1400, Parameswara fonde Malacca." },
+    {
+      "annee": 1405,
+      "evenement": "Les Ming",
+      "info": "Malacca entre en relation avec la Chine ; Zheng He y fait escale lors de ses expéditions."
+    },
+    {
+      "annee": 1411,
+      "evenement": "Voyage en Chine",
+      "info": "Parameswara se rend à la cour de l’empereur Yongle avec plus de 500 personnes."
+    },
+    { "annee": 1459, "evenement": "Mansur Shah", "info": "Début du règne qui marque l’apogée du sultanat." },
+    {
+      "annee": 1509,
+      "evenement": "Premiers Portugais",
+      "info": "Une flotte portugaise arrive à Malacca ; des marins sont capturés."
+    },
+    {
+      "annee": 1511,
+      "evenement": "Prise de Malacca",
+      "info": "Afonso de Albuquerque conquiert la ville.",
+      "ref": "prise-de-malacca"
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "La fondation",
+      "debut": 1400,
+      "fin": 1445,
+      "resume": "Parameswara et ses successeurs s’appuient sur la Chine des Ming pour échapper aux royaumes voisins et attirer les marchands.",
+      "evenements": [
+        { "annee": 1405, "evenement": "Escales de Zheng He", "ref": "expeditions-de-zheng-he" },
+        { "annee": 1411, "evenement": "Voyage en Chine" }
+      ]
+    },
+    {
+      "nom": "L’apogée",
+      "debut": 1445,
+      "fin": 1511,
+      "resume": "Avec le bendahara Tun Perak, le sultanat domine le détroit et les deux rives, et diffuse l’islam.",
+      "evenements": [
+        { "annee": 1459, "evenement": "Mansur Shah sultan" },
+        { "annee": 1511, "evenement": "Prise de Malacca", "ref": "prise-de-malacca" }
+      ]
+    }
+  ],
+  "regimes": [{ "id": "sultanat", "nom": "Sultanat", "debut": 1400, "fin": 1511 }],
+  "dynasties": [
+    {
+      "id": "malacca",
+      "nom": "Les sultans de Malacca",
+      "debut": 1400,
+      "fin": 1511,
+      "note": "Sélection ; les dates sont approximatives."
+    }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Parameswara",
+      "titre": "Souverain",
+      "debut": 1400,
+      "fin": 1414,
+      "dynastie": "malacca",
+      "personne": "parameswara",
+      "cle": true
+    },
+    { "nom": "Megat Iskandar Shah", "titre": "Souverain", "debut": 1414, "fin": 1424, "dynastie": "malacca" },
+    { "nom": "Muhammad Shah", "titre": "Sultan", "debut": 1424, "fin": 1444, "dynastie": "malacca", "cle": true },
+    { "nom": "Muzaffar Shah", "titre": "Sultan", "debut": 1445, "fin": 1459, "dynastie": "malacca", "cle": true },
+    {
+      "nom": "Mansur Shah",
+      "titre": "Sultan",
+      "debut": 1459,
+      "fin": 1477,
+      "dynastie": "malacca",
+      "note": "apogée du sultanat",
+      "cle": true
+    },
+    { "nom": "Alauddin Riayat Shah", "titre": "Sultan", "debut": 1477, "fin": 1488, "dynastie": "malacca" },
+    {
+      "nom": "Mahmud Shah",
+      "titre": "Sultan",
+      "debut": 1488,
+      "fin": 1511,
+      "dynastie": "malacca",
+      "note": "chassé par les Portugais",
+      "cle": true
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Parameswara",
+      "role": "Fondateur",
+      "description": "Le prince venu de Sumatra qui fonde Malacca.",
+      "dates": "vers 1344 → 1414",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Parameswara",
+      "ref": "parameswara"
+    },
+    {
+      "nom": "Tun Perak",
+      "role": "Premier ministre (bendahara)",
+      "description": "Homme d’État qui sert quatre sultans et mène Malacca à son apogée.",
+      "dates": "? → 1498",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Tun_Perak"
+    },
+    {
+      "nom": "Hang Tuah",
+      "role": "Guerrier légendaire",
+      "description": "Héros d’une épopée malaise, modèle de loyauté envers le sultan ; son existence historique est discutée.",
+      "dates": "XVe siècle",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Hang_Tuah"
+    },
+    {
+      "nom": "Zheng He",
+      "role": "Amiral chinois",
+      "description": "Ses flottes font escale à Malacca, qui leur sert d’entrepôt.",
+      "dates": "1371 → 1433",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Zheng_He",
+      "ref": "zheng-he"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Prise de Malacca (1511)",
+      "annee": 1511,
+      "adversaires": ["Royaume de Portugal (Afonso de Albuquerque)"],
+      "allies": [],
+      "morts": "Plusieurs milliers",
+      "vainqueur": "Portugal",
+      "consequences": "Les Portugais s’emparent de la ville et y bâtissent une forteresse. Le sultan Mahmud Shah se réfugie plus au sud ; ses descendants fondent les sultanats de Johor et de Perak.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Prise_de_Malacca"
+    }
+  ],
+  "sciences": "Malacca vit au rythme des moussons : les navires venus de l’océan Indien et ceux venus de Chine s’y retrouvent et attendent les vents favorables pour repartir. Le sultanat met au point un code maritime, qui fixe les règles de la navigation et du commerce dans son port.",
+  "croyancesText": "Les souverains de Malacca adoptent l’islam au début du XVe siècle, sous l’influence de marchands musulmans venus d’Inde et d’Arabie. Malacca devient un centre de diffusion de l’islam dans l’archipel. Des communautés hindoues, bouddhistes et chinoises vivent aussi dans la ville.",
+  "diplomatie": "Malacca obtient la protection de la Chine des Ming, qui l’aide à échapper aux royaumes voisins, comme Ayutthaya et Majapahit. Le sultanat étend son autorité sur les deux rives du détroit. Le Portugais Tomé Pires écrit que celui qui est maître de Malacca tient Venise à la gorge, tant le commerce des épices y passe.",
+  "societe": "Le sultan gouverne avec de grands officiers : le bendahara (Premier ministre), le chef de la police, l’amiral et le chef du port. Chaque grande communauté de marchands étrangers a son propre représentant.",
+  "economie": "Commerce des épices, des tissus indiens, de la porcelaine et de la soie chinoises, de l’étain et de l’or ; taxes portuaires.",
+  "arts": "Littérature malaise : les Annales malaises (Sejarah Melayu) et l’épopée de Hang Tuah.",
+  "quotidien": "Selon la légende, Parameswara choisit l’emplacement de la ville après avoir vu un petit chevrotain repousser ses chiens de chasse, au pied d’un arbre appelé melaka.",
+  "heritage": [
+    {
+      "titre": "La langue malaise",
+      "texte": "Le malais, langue du commerce de Malacca, est à l’origine des langues nationales de la Malaisie et de l’Indonésie."
+    },
+    {
+      "titre": "Malacca aujourd’hui",
+      "texte": "La vieille ville de Malacca est inscrite au patrimoine mondial de l’UNESCO depuis 2008."
+    }
+  ],
+  "aSavoir": ["Le Portugais Tomé Pires, qui vit à Malacca juste après sa conquête, affirme qu’on y parlait 84 langues."],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Sultanat_de_Malacca",
+    {
+      "titre": "Encyclopædia Britannica — Malacca sultanate",
+      "url": "https://www.britannica.com/place/Malaysia/The-Malacca-sultanate"
+    }
+  ]
+}

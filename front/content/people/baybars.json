@@ -1,0 +1,19 @@
+{
+  "id": "baybars",
+  "nom": "Baybars",
+  "role": "Sultan mamelouk",
+  "roles": ["Sultan", "Chef de guerre"],
+  "dates": "vers 1223 → 1277",
+  "naissance": 1223,
+  "mort": 1277,
+  "description": "Né dans les steppes kiptchaks, vendu comme esclave, il devient le plus célèbre des sultans mamelouks, vainqueur des Mongols et des croisés.",
+  "reperes": [{ "label": "Règne", "valeur": "1260 → 1277" }],
+  "essentiel": [
+    "Il combat à [[bataille-d-ain-jalut|Aïn Djalout]] (1260), puis fait tuer le sultan Qutuz et prend sa place.",
+    "Il installe un calife abbasside au Caire (1261).",
+    "Il prend Antioche (1268) et le krak des Chevaliers (1271) aux croisés.",
+    "Il organise un service postal rapide entre l’Égypte et la Syrie."
+  ],
+  "aSavoir": ["Ses exploits ont inspiré un grand roman populaire arabe, la « Sirat Baybars »."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Baybars"
+}

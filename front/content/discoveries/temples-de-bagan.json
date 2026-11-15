@@ -1,0 +1,15 @@
+{
+  "id": "temples-de-bagan",
+  "nom": "Temples de Bagan",
+  "domaine": "Architecture",
+  "dates": "XIe-XIIIe siècles",
+  "description": "Plus de 10 000 temples, stupas et monastères construits dans la plaine de Pagan entre le XIe et le XIIIe siècle, dont plus de 2 000 subsistent.",
+  "sections": [
+    {
+      "titre": "Une plaine de temples",
+      "texte": "Les plus grands, comme le temple d’Ananda, ont des couloirs ornés de statues et de peintures. Beaucoup ont été endommagés par des tremblements de terre, en 1975 et en 2016."
+    },
+    { "titre": "Aujourd’hui", "texte": "Le site est inscrit au patrimoine mondial de l’UNESCO depuis 2019." }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bagan"
+}

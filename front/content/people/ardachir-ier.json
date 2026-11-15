@@ -1,0 +1,16 @@
+{
+  "id": "ardachir-ier",
+  "nom": "Ardachir Ier",
+  "role": "Fondateur de l’Empire sassanide",
+  "roles": ["Roi des rois"],
+  "dates": "mort en 242",
+  "mort": 242,
+  "description": "Roi de la Perside, dans le sud de l’Iran, il se révolte contre les Parthes, bat le roi Artaban IV en 224 et fonde l’Empire sassanide.",
+  "reperes": [{ "label": "Règne", "valeur": "224 → 242" }],
+  "essentiel": [
+    "Il se fait couronner « roi des rois d’Iran ».",
+    "Il fonde de nombreuses villes et soutient le clergé zoroastrien.",
+    "Il associe son fils Shapur au pouvoir de son vivant."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Ardachir_Ier"
+}

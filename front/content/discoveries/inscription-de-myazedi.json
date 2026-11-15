@@ -1,0 +1,15 @@
+{
+  "id": "inscription-de-myazedi",
+  "nom": "Stèle de Myazedi",
+  "annee": 1113,
+  "domaine": "Écriture",
+  "dates": "1113",
+  "description": "Une stèle gravée en 1113 du même texte en quatre langues : pyu, môn, birman ancien et pali.",
+  "sections": [
+    {
+      "titre": "Une clé pour les langues anciennes",
+      "texte": "Comme la pierre de Rosette pour les hiéroglyphes égyptiens, elle a permis aux chercheurs de déchiffrer la langue pyu, parlée avant l’arrivée des Birmans. Elle est inscrite au registre « Mémoire du monde » de l’UNESCO."
+    }
+  ],
+  "wikiUrl": "https://en.wikipedia.org/wiki/Myazedi_inscription"
+}

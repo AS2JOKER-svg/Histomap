@@ -1,0 +1,19 @@
+{
+  "id": "traite-du-baqt",
+  "nom": "Traité du baqt",
+  "annee": 652,
+  "dates": "652",
+  "lieu": "Dongola (Soudan)",
+  "description": "Après l’échec du siège de Dongola, la Makurie et le gouverneur arabe d’Égypte concluent un accord de paix et d’échanges.",
+  "sections": [
+    {
+      "titre": "Ce qu’il prévoit",
+      "texte": "La Nubie livre chaque année des esclaves ; l’Égypte lui fournit des céréales, du vin et des tissus. Chaque camp s’engage à ne pas attaquer l’autre et à protéger les voyageurs."
+    },
+    {
+      "titre": "Sa durée",
+      "texte": "Renégocié plusieurs fois, il reste en vigueur environ six siècles, jusqu’aux interventions des Mamelouks."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Baqt"
+}

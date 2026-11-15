@@ -1,0 +1,17 @@
+{
+  "id": "etienne-ier-de-hongrie",
+  "nom": "Étienne Ier de Hongrie",
+  "role": "Premier roi de Hongrie",
+  "roles": ["Roi", "Saint"],
+  "dates": "vers 975 → 1038",
+  "mort": 1038,
+  "description": "Prince des Hongrois couronné roi en l’an 1000, il christianise son peuple et organise le royaume ; il est canonisé en 1083.",
+  "reperes": [{ "label": "Règne", "valeur": "1000 → 1038" }],
+  "essentiel": [
+    "Selon la tradition, il reçoit sa couronne du pape Sylvestre II.",
+    "Il fonde des évêchés et oblige les villages à construire des églises.",
+    "Il divise le royaume en comtés gouvernés par ses fidèles.",
+    "Il est le premier saint roi de Hongrie ; sa fête, le 20 août, est la fête nationale."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/%C3%89tienne_Ier_de_Hongrie"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "solidarnosc",
+  "nom": "Solidarność",
+  "annee": 1980,
+  "dates": "fondé en 1980",
+  "lieu": "Gdańsk (Pologne)",
+  "description": "Premier syndicat indépendant du bloc communiste, né des grèves des chantiers navals de Gdańsk en août 1980 ; il compte bientôt une dizaine de millions de membres.",
+  "sections": [
+    {
+      "titre": "Interdiction",
+      "texte": "En décembre 1981, le général Jaruzelski proclame l’état de guerre : Solidarność est interdit et des milliers de ses militants sont arrêtés."
+    },
+    {
+      "titre": "Victoire",
+      "texte": "Légalisé de nouveau en 1989, il négocie avec le pouvoir et remporte les élections du 4 juin 1989, un tournant dans la chute des régimes communistes en Europe."
+    }
+  ],
+  "liens": [{ "ref": "lech-walesa", "relation": "Son dirigeant" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Solidarno%C5%9B%C4%87"
+}

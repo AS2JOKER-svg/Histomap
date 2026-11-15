@@ -1,0 +1,19 @@
+{
+  "id": "bronzes-du-benin",
+  "nom": "Bronzes du Bénin",
+  "annee": 1500,
+  "domaine": "Art",
+  "dates": "XIIIe-XIXe siècles",
+  "description": "Des milliers de têtes, de statues et de plaques en laiton et en bronze réalisées par les fondeurs de la cour de l’oba.",
+  "sections": [
+    {
+      "titre": "Comment on les fabrique",
+      "texte": "On sculpte le modèle en cire sur un noyau d’argile, on le recouvre d’argile, puis on chauffe : la cire fond et laisse la place au métal liquide. C’est la technique de la cire perdue."
+    },
+    {
+      "titre": "Ce qu’ils racontent",
+      "texte": "Les plaques qui décoraient le palais montrent l’oba, ses guerriers, ses chefs et même les marchands portugais."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bronzes_du_B%C3%A9nin"
+}

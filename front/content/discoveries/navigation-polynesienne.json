@@ -1,0 +1,18 @@
+{
+  "id": "navigation-polynesienne",
+  "nom": "Navigation polynésienne",
+  "domaine": "Navigation",
+  "dates": "depuis plus de 3 000 ans",
+  "description": "L’art de traverser l’océan Pacifique sans carte ni instrument, en lisant les étoiles, la houle, les nuages et le vol des oiseaux.",
+  "sections": [
+    {
+      "titre": "Comment ça marche",
+      "texte": "Le navigateur mémorise le point de lever et de coucher de dizaines d’étoiles. Il sent les rebonds de la houle sur les îles, observe les oiseaux qui rentrent à terre le soir et les nuages qui se forment au-dessus des îles."
+    },
+    {
+      "titre": "Un exploit",
+      "texte": "Grâce à ces savoirs, les Polynésiens ont peuplé un triangle océanique d’environ 7 000 km de côté, entre Hawaï, la Nouvelle-Zélande et l’île de Pâques."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Navigation_polyn%C3%A9sienne"
+}

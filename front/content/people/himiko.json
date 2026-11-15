@@ -1,0 +1,16 @@
+{
+  "id": "himiko",
+  "nom": "Himiko",
+  "role": "Reine du pays de Wa",
+  "roles": ["Reine", "Chamane"],
+  "dates": "? → vers 248",
+  "mort": 248,
+  "description": "Reine du pays de Wa (le Japon) au IIIe siècle, connue seulement par les chroniques chinoises.",
+  "essentiel": [
+    "Selon une chronique chinoise, elle gouverne une trentaine de petits pays grâce à ses pouvoirs de chamane.",
+    "Elle vit retirée, servie par un millier de femmes, et seul un homme peut l’approcher.",
+    "En 239, elle envoie une ambassade à la cour chinoise des Wei, qui lui offre des miroirs de bronze.",
+    "L’emplacement de son royaume, le Yamatai, reste débattu."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Himiko"
+}

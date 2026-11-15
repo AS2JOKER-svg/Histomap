@@ -1,0 +1,15 @@
+{
+  "id": "arc-de-ctesiphon",
+  "nom": "Arc de Ctésiphon (Taq Kasra)",
+  "annee": 540,
+  "domaine": "Architecture",
+  "dates": "VIe siècle",
+  "description": "La grande salle d’audience du palais des rois sassanides à Ctésiphon, couverte d’une immense voûte de brique sans armature.",
+  "sections": [
+    {
+      "titre": "Un record",
+      "texte": "Sa voûte, haute d’environ 35 mètres et large de plus de 25 mètres, est l’une des plus grandes voûtes de brique jamais construites. Elle se dresse toujours au sud de Bagdad."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Taq_Kasra"
+}

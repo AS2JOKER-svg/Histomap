@@ -1,0 +1,16 @@
+{
+  "id": "ibn-tumart",
+  "nom": "Ibn Tumart",
+  "role": "Fondateur du mouvement almohade",
+  "roles": ["Prédicateur", "Chef religieux"],
+  "dates": "vers 1080 → 1130",
+  "naissance": 1080,
+  "mort": 1130,
+  "description": "Berbère de l’Atlas, formé en Orient, il prêche une réforme de l’islam, se proclame Mahdi et lance la révolte contre les Almoravides.",
+  "essentiel": [
+    "Il s’installe à Tinmel, dans le Haut Atlas, où il organise ses partisans.",
+    "Sa doctrine insiste sur l’unicité de Dieu : « Almohade » vient de « al-muwahhidun », ceux qui proclament l’unicité.",
+    "Il meurt en 1130 ; son disciple Abd al-Mumin fonde l’empire."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Ibn_Toumert"
+}

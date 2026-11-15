@@ -1,0 +1,17 @@
+{
+  "id": "razia-sultana",
+  "nom": "Razia",
+  "role": "Sultane de Delhi",
+  "roles": ["Sultane"],
+  "dates": "vers 1205 → 1240",
+  "mort": 1240,
+  "description": "Fille du sultan Iltutmish, elle est la seule femme à avoir régné sur le sultanat de Delhi (1236-1240).",
+  "reperes": [{ "label": "Règne", "valeur": "1236 → 1240" }],
+  "essentiel": [
+    "Son père la désigne comme héritière, de préférence à ses fils.",
+    "Elle gouverne elle-même, préside la cour et commande l’armée.",
+    "Une partie des nobles turcs, hostiles à son pouvoir, se révolte contre elle.",
+    "Renversée en 1240, elle est tuée peu après en tentant de reprendre le trône."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Razia_Sultana"
+}

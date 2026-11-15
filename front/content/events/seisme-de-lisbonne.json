@@ -1,0 +1,19 @@
+{
+  "id": "seisme-de-lisbonne",
+  "nom": "Séisme de Lisbonne",
+  "annee": 1755,
+  "dates": "1er novembre 1755",
+  "lieu": "Lisbonne (Portugal)",
+  "description": "Un tremblement de terre très violent, suivi d’un tsunami et d’incendies, détruit une grande partie de Lisbonne, faisant des dizaines de milliers de morts.",
+  "sections": [
+    {
+      "titre": "La reconstruction",
+      "texte": "Le ministre Pombal fait reconstruire la ville basse selon un plan régulier, avec des immeubles conçus pour mieux résister aux séismes."
+    },
+    {
+      "titre": "Un choc pour les penseurs",
+      "texte": "La catastrophe, survenue un jour de Toussaint, provoque un grand débat en Europe ; Voltaire lui consacre un poème."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/S%C3%A9isme_de_1755_%C3%A0_Lisbonne"
+}

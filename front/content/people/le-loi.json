@@ -1,0 +1,18 @@
+{
+  "id": "le-loi",
+  "nom": "Lê Lợi",
+  "role": "Empereur du Đại Việt",
+  "roles": ["Chef de guerre", "Empereur"],
+  "dates": "1385 → 1433",
+  "naissance": 1385,
+  "mort": 1433,
+  "description": "Propriétaire terrien de la région de Thanh Hóa, il mène la lutte contre l’occupation chinoise des Ming, puis fonde la dynastie Lê en 1428.",
+  "reperes": [{ "label": "Règne", "valeur": "1428 → 1433" }],
+  "essentiel": [
+    "En 1418, il lance une insurrection depuis le village de Lam Sơn.",
+    "Conseillé par le lettré Nguyễn Trãi, il combine guérilla et négociation.",
+    "En 1427, les armées des Ming quittent le pays.",
+    "Selon la légende, il rend son épée magique à une tortue géante, dans un lac de Hanoï."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/L%C3%AA_L%E1%BB%A3i"
+}

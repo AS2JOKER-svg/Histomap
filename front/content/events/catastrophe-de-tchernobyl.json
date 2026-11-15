@@ -1,0 +1,19 @@
+{
+  "id": "catastrophe-de-tchernobyl",
+  "nom": "Catastrophe de Tchernobyl",
+  "annee": 1986,
+  "dates": "26 avril 1986",
+  "lieu": "Centrale nucléaire de Tchernobyl (Ukraine soviétique)",
+  "description": "Le 26 avril 1986, l’explosion d’un réacteur de la centrale nucléaire de Tchernobyl disperse des produits radioactifs sur une grande partie de l’Europe.",
+  "sections": [
+    {
+      "titre": "Évacuation",
+      "texte": "La ville voisine de Pripiat est évacuée le lendemain ; plus de 100 000 personnes doivent quitter la région en 1986."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Une trentaine de pompiers et d’employés meurent dans les mois qui suivent ; le nombre total de victimes à long terme fait toujours l’objet d’estimations très différentes. Un sarcophage, puis une arche géante (2016), recouvrent le réacteur."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Catastrophe_nucl%C3%A9aire_de_Tchernobyl"
+}

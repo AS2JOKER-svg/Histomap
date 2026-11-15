@@ -1,0 +1,19 @@
+{
+  "id": "traite-de-waitangi",
+  "nom": "Traité de Waitangi",
+  "annee": 1840,
+  "dates": "6 février 1840",
+  "lieu": "Waitangi (Nouvelle-Zélande)",
+  "description": "Un traité signé par des représentants de la Couronne britannique et plus de 500 chefs maoris, qui fonde la colonie britannique de Nouvelle-Zélande.",
+  "sections": [
+    {
+      "titre": "Deux versions",
+      "texte": "Dans la version anglaise, les chefs cèdent la souveraineté à la reine ; dans la version maorie, signée par la plupart d’entre eux, ils accordent un droit de « gouverner » tout en gardant leur autorité sur leurs terres et leurs biens. Cette différence est toujours discutée."
+    },
+    {
+      "titre": "Aujourd’hui",
+      "texte": "Le 6 février est la fête nationale de la Nouvelle-Zélande. Depuis 1975, un tribunal examine les plaintes des Maoris fondées sur le traité."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Trait%C3%A9_de_Waitangi"
+}

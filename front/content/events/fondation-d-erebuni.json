@@ -1,0 +1,16 @@
+{
+  "id": "fondation-d-erebuni",
+  "nom": "Fondation d’Erebuni",
+  "annee": -782,
+  "dates": "782 av. J.-C.",
+  "lieu": "Colline d’Arin Berd (Erevan, Arménie)",
+  "description": "Le roi [[argishti-ier|Argishti Ier]] fait construire une forteresse sur une colline de la plaine de l’Araxe et y installe 6 600 prisonniers de guerre.",
+  "sections": [
+    {
+      "titre": "Comment on le sait",
+      "texte": "Une inscription cunéiforme retrouvée sur place en 1950 commémore la fondation. Erevan célèbre en 2018 son 2 800e anniversaire."
+    }
+  ],
+  "liens": [{ "ref": "argishti-ier", "relation": "Le fondateur" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Erebouni"
+}

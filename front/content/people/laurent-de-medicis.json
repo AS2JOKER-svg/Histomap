@@ -1,0 +1,18 @@
+{
+  "id": "laurent-de-medicis",
+  "nom": "Laurent de Médicis",
+  "role": "Maître de Florence",
+  "roles": ["Banquier", "Homme d’État", "Poète", "Mécène"],
+  "dates": "1449 → 1492",
+  "naissance": 1449,
+  "mort": 1492,
+  "description": "Surnommé « le Magnifique », il dirige Florence de 1469 à 1492 sans en être officiellement le prince, et en fait le centre de la Renaissance.",
+  "reperes": [{ "label": "À la tête de Florence", "valeur": "1469 → 1492" }],
+  "essentiel": [
+    "Il échappe en 1478 à la conjuration des Pazzi, où son frère Julien est tué.",
+    "Il protège des artistes comme Botticelli et le jeune Michel-Ange.",
+    "Il écrit lui-même des poèmes en toscan.",
+    "Il œuvre au maintien de l’équilibre entre les États italiens."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Laurent_de_M%C3%A9dicis"
+}

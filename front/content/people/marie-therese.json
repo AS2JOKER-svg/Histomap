@@ -1,0 +1,18 @@
+{
+  "id": "marie-therese",
+  "nom": "Marie-Thérèse d’Autriche",
+  "role": "Souveraine des Habsbourg",
+  "roles": ["Reine", "Impératrice"],
+  "dates": "1717 → 1780",
+  "naissance": 1717,
+  "mort": 1780,
+  "description": "Héritière des terres des Habsbourg en 1740, reine de Hongrie et de Bohême et impératrice par son mariage, elle défend son héritage et réforme profondément l’État.",
+  "reperes": [{ "label": "Règne", "valeur": "1740 → 1780" }],
+  "essentiel": [
+    "À son avènement, la Prusse lui prend la Silésie, mais elle sauve le reste de son héritage.",
+    "Elle réforme l’armée, les impôts et l’administration.",
+    "Elle rend l’école obligatoire en 1774.",
+    "Elle a seize enfants, dont l’empereur Joseph II et la reine de France Marie-Antoinette."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Marie-Th%C3%A9r%C3%A8se_d%27Autriche"
+}

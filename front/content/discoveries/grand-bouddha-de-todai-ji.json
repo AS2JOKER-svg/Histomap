@@ -1,0 +1,19 @@
+{
+  "id": "grand-bouddha-de-todai-ji",
+  "nom": "Grand Bouddha du Tōdai-ji",
+  "annee": 752,
+  "domaine": "Art et religion",
+  "dates": "752",
+  "description": "Une statue de bronze du Bouddha d’environ 15 mètres de haut, inaugurée en 752 à Nara, dans un temple voulu par l’empereur Shōmu.",
+  "sections": [
+    {
+      "titre": "Un projet national",
+      "texte": "Sa fabrication mobilise des centaines de milliers de personnes et une grande partie du bronze du pays. Pour l’inauguration, un moine venu d’Inde peint les yeux de la statue."
+    },
+    {
+      "titre": "Aujourd’hui",
+      "texte": "Plusieurs fois endommagée, la statue a été restaurée ; le bâtiment qui l’abrite, reconstruit en 1709, reste l’un des plus grands bâtiments en bois du monde."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/T%C5%8Ddai-ji"
+}

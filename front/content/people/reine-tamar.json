@@ -1,0 +1,18 @@
+{
+  "id": "reine-tamar",
+  "nom": "Tamar de Géorgie",
+  "role": "Souveraine de Géorgie",
+  "roles": ["Roi (mepe)"],
+  "dates": "vers 1160 → 1213",
+  "naissance": 1160,
+  "mort": 1213,
+  "description": "Arrière-petite-fille de David IV, elle règne sur la Géorgie à son apogée et porte le titre de « roi ».",
+  "reperes": [{ "label": "Règne", "valeur": "1184 → 1213" }],
+  "essentiel": [
+    "Elle impose son autorité à une noblesse qui voulait limiter son pouvoir.",
+    "Ses armées battent les sultans voisins et elle aide à fonder l’empire de Trébizonde (1204).",
+    "Son règne voit fleurir la poésie, avec Chota Roustaveli."
+  ],
+  "aSavoir": ["Elle est vénérée comme sainte par l’Église géorgienne."],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Tamar_de_G%C3%A9orgie"
+}

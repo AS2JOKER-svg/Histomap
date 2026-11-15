@@ -1,0 +1,143 @@
+{
+  "documentaires": [],
+  "decouvertes": ["pueblo-bonito", "mesa-verde"],
+  "id": "pueblos-ancestraux",
+  "label": "Pueblos ancestraux",
+  "tier": 2,
+  "region": "amerique-nord",
+  "period": "vers 750 à 1300",
+  "start": 750,
+  "end": 1300,
+  "color": "#e64a19",
+  "trackId": "sud-ouest",
+  "row": 4,
+  "isRiver": false,
+  "capitale": "Chaco Canyon (Pueblo Bonito)",
+  "description": "Les ancêtres des peuples pueblos du sud-ouest des États-Unis, qui bâtissent dans le désert de grands villages de pierre, les « great houses » de Chaco Canyon et les maisons troglodytes de Mesa Verde.",
+  "territories": ["Anasazi"],
+  "reperes": {
+    "capitale": {
+      "valeur": "Chaco Canyon",
+      "precision": "grand centre de la région de 850 à 1150 environ, au Nouveau-Mexique"
+    },
+    "regimes": {
+      "valeur": "Communautés villageoises",
+      "precision": "sans roi connu ; des responsables religieux ont sans doute un grand rôle"
+    },
+    "langues": {
+      "valeur": "Inconnues",
+      "precision": "sans doute les ancêtres des langues pueblos actuelles (hopi, zuni, keres, tanoan)"
+    },
+    "religion": { "valeur": "Religion pueblo", "precision": "cérémonies dans les kivas, salles rondes souvent enterrées" },
+    "apogee": { "valeur": "Vers 1050 → 1130", "precision": "apogée de Chaco Canyon" },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": { "valeur": "Aucune", "precision": "la turquoise sert d’objet précieux" },
+    "duree": { "valeur": "Environ 550 ans" },
+    "aujourdhui": {
+      "valeur": "États-Unis",
+      "precision": "région des « Four Corners » : Arizona, Nouveau-Mexique, Colorado, Utah"
+    }
+  },
+  "essentiel": [
+    "Dans les déserts du sud-ouest des États-Unis, des paysans cultivent le maïs, les haricots et les courges en recueillant chaque goutte de pluie.",
+    "À partir de 750 environ, ils construisent des villages de maisons en pierre et en adobe accolées, avec des salles de cérémonie rondes et enterrées, les kivas.",
+    "De 850 à 1150 environ, Chaco Canyon devient un grand centre : [[pueblo-bonito|Pueblo Bonito]] compte des centaines de pièces sur plusieurs étages, et des routes rectilignes partent vers d’autres villages.",
+    "Au XIIIe siècle, beaucoup s’installent dans des villages bâtis sous des falaises, comme ceux de [[mesa-verde|Mesa Verde]].",
+    "Vers 1300, une grande sécheresse et des conflits les poussent à migrer vers le sud et l’est : leurs descendants sont les Hopi, les Zuni et les autres peuples pueblos d’aujourd’hui."
+  ],
+  "datesCles": [
+    {
+      "annee": 750,
+      "evenement": "Premiers pueblos",
+      "info": "Les villages de maisons accolées remplacent peu à peu les maisons semi-enterrées."
+    },
+    {
+      "annee": 850,
+      "evenement": "Chaco Canyon",
+      "info": "Début de la construction des grandes maisons de Chaco Canyon."
+    },
+    {
+      "annee": 1050,
+      "evenement": "Apogée de Chaco",
+      "info": "Chaco est relié par des routes à des dizaines de villages et importe turquoise, aras et cacao."
+    },
+    { "annee": 1130, "evenement": "Sécheresse", "info": "Une longue sécheresse commence ; Chaco Canyon décline." },
+    {
+      "annee": 1190,
+      "evenement": "Mesa Verde",
+      "info": "Les habitants de Mesa Verde construisent des villages sous les falaises."
+    },
+    {
+      "annee": 1276,
+      "evenement": "Grande sécheresse",
+      "info": "Une sécheresse de plus de vingt ans frappe la région."
+    },
+    {
+      "annee": 1300,
+      "evenement": "Migrations",
+      "info": "Vers 1300, les habitants quittent la région des Four Corners pour le sud et l’est."
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "Les premiers villages",
+      "debut": 750,
+      "fin": 850,
+      "resume": "Les paysans bâtissent des villages de maisons en surface et des kivas.",
+      "evenements": [{ "annee": 750, "evenement": "Premiers pueblos" }]
+    },
+    {
+      "nom": "Le temps de Chaco",
+      "debut": 850,
+      "fin": 1150,
+      "resume": "Chaco Canyon devient le centre d’un vaste réseau de villages, de routes et d’échanges.",
+      "evenements": [{ "annee": 850, "evenement": "Grandes maisons de Chaco" }, { "annee": 1050, "evenement": "Apogée de Chaco" }]
+    },
+    {
+      "nom": "Les villages des falaises",
+      "debut": 1150,
+      "fin": 1300,
+      "resume": "Les habitants se regroupent dans des sites défensifs, puis quittent la région.",
+      "evenements": [{ "annee": 1190, "evenement": "Villages de Mesa Verde" }, { "annee": 1300, "evenement": "Grandes migrations" }]
+    }
+  ],
+  "regimes": [{ "id": "villages", "nom": "Communautés villageoises", "debut": 750, "fin": 1300 }],
+  "dirigeants": [],
+  "personnages": [
+    {
+      "nom": "Richard Wetherill",
+      "role": "Éleveur et explorateur",
+      "description": "Il découvre pour les Européens les villages des falaises de Mesa Verde en 1888 et fouille Pueblo Bonito.",
+      "dates": "1858 → 1910",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Richard_Wetherill"
+    }
+  ],
+  "guerres": [],
+  "sciences": "Les Pueblos ancestraux construisent des maisons de plusieurs étages en pierres taillées et en bois transporté depuis des forêts éloignées de plus de 70 km. Ils recueillent l’eau de pluie grâce à des barrages, des canaux et des réservoirs. Certains bâtiments de Chaco sont alignés sur le Soleil et la Lune, et une gravure de la butte Fajada semble marquer les solstices.",
+  "croyancesText": "Les cérémonies ont lieu dans les kivas, des salles rondes souvent enterrées, où l’on entre par le toit. Les peuples pueblos actuels y voient un lien avec le monde souterrain d’où les humains seraient sortis. Des objets précieux, comme la turquoise et les plumes d’ara, servaient sans doute aux rituels.",
+  "diplomatie": "Chaco Canyon est relié à des dizaines de villages par des routes rectilignes. Ses habitants échangent la turquoise et font venir de Mésoamérique des aras rouges et du cacao, dont on a retrouvé des traces dans des vases.",
+  "societe": "Les habitants vivent en communautés villageoises, dans des maisons accolées où chaque famille a ses pièces. Les grandes maisons de Chaco servaient peut-être de lieux de rassemblement et de cérémonie plus que d’habitations.",
+  "economie": "Culture du maïs, des haricots et des courges, élevage de dindons, cueillette et chasse ; vannerie et poterie.",
+  "arts": "Poteries noir et blanc décorées de motifs géométriques, vannerie, gravures et peintures rupestres.",
+  "quotidien": "Les femmes broient chaque jour le maïs sur des meules de pierre, les metates, pendant des heures.",
+  "heritage": [
+    {
+      "titre": "Au patrimoine mondial",
+      "texte": "Mesa Verde (1978) et la culture chaco (1987) sont inscrits au patrimoine mondial de l’UNESCO."
+    },
+    {
+      "titre": "Les peuples pueblos",
+      "texte": "Les Hopi, les Zuni et une vingtaine de peuples pueblos du Nouveau-Mexique descendent des Pueblos ancestraux."
+    }
+  ],
+  "aSavoir": [
+    "Le mot « Anasazi », longtemps utilisé, vient de la langue navajo ; les peuples pueblos préfèrent parler de « Pueblos ancestraux »."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Anasazis",
+    {
+      "titre": "Encyclopædia Britannica — Ancestral Pueblo culture",
+      "url": "https://www.britannica.com/topic/Ancestral-Pueblo-culture"
+    }
+  ]
+}

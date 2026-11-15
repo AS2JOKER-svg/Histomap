@@ -1,0 +1,15 @@
+{
+  "id": "le-chevalier-a-la-peau-de-tigre",
+  "nom": "Le Chevalier à la peau de tigre",
+  "annee": 1200,
+  "domaine": "Littérature",
+  "dates": "vers 1200",
+  "description": "Un long poème épique de Chota Roustaveli, dédié à la reine Tamar, qui raconte l’amitié de chevaliers partis à la recherche d’une princesse enlevée.",
+  "sections": [
+    {
+      "titre": "Ses valeurs",
+      "texte": "Le poème célèbre l’amitié, la loyauté, le courage et l’amour courtois ; il affirme aussi l’égalité de valeur entre hommes et femmes, à travers la phrase « Les petits du lion sont égaux, qu’ils soient mâles ou femelles »."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Le_Chevalier_%C3%A0_la_peau_de_tigre"
+}

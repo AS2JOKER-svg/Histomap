@@ -1,0 +1,18 @@
+{
+  "id": "budj-bim",
+  "nom": "Budj Bim",
+  "domaine": "Techniques",
+  "dates": "il y a environ 6 600 ans",
+  "description": "Un ensemble de canaux, de barrages et de bassins de pierre construits par le peuple gunditjmara, dans le sud-est de l’Australie, pour piéger et élever des anguilles.",
+  "sections": [
+    {
+      "titre": "Un savoir-faire très ancien",
+      "texte": "Les plus anciennes parties remontent à environ 6 600 ans : c’est l’un des plus anciens systèmes d’élevage de poissons du monde. Des maisons de pierre se trouvaient à proximité."
+    },
+    {
+      "titre": "Aujourd’hui",
+      "texte": "Le site est inscrit au patrimoine mondial de l’UNESCO depuis 2019 et reste géré par les Gunditjmara."
+    }
+  ],
+  "wikiUrl": "https://en.wikipedia.org/wiki/Budj_Bim_Cultural_Landscape"
+}

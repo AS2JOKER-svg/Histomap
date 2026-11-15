@@ -1,0 +1,17 @@
+{
+  "id": "eleftherios-venizelos",
+  "nom": "Eleftherios Venizélos",
+  "role": "Homme d’État grec",
+  "roles": ["Premier ministre"],
+  "dates": "1864 → 1936",
+  "naissance": 1864,
+  "mort": 1936,
+  "description": "Homme politique né en Crète, plusieurs fois Premier ministre de 1910 à 1933, il agrandit fortement la Grèce et modernise l’État.",
+  "essentiel": [
+    "Il défend le rattachement de la Crète à la Grèce, obtenu en 1913.",
+    "Pendant les guerres balkaniques (1912-1913), la Grèce gagne la Macédoine du Sud et l’Épire.",
+    "Il fait entrer la Grèce dans la Première Guerre mondiale aux côtés des Alliés (1917), malgré l’opposition du roi Constantin Ier.",
+    "Il signe le traité de Lausanne en 1923."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Elefth%C3%A9rios_Veniz%C3%A9los"
+}

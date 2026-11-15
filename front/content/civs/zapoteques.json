@@ -1,0 +1,166 @@
+{
+  "documentaires": [],
+  "decouvertes": ["monte-alban", "mitla"],
+  "id": "zapoteques",
+  "label": "Zapotèques",
+  "tier": 2,
+  "region": "mesoamerique",
+  "period": "vers -500 à 1521",
+  "start": -500,
+  "end": 1521,
+  "color": "#8e24aa",
+  "trackId": "oaxaca",
+  "row": 2,
+  "isRiver": false,
+  "capitale": "Monte Albán, puis Zaachila",
+  "description": "Le peuple de la vallée de Oaxaca, au sud du Mexique, qui fonde vers −500 Monte Albán, l’une des premières villes de Mésoamérique, et invente l’une de ses plus anciennes écritures ; ses royaumes résistent jusqu’à l’arrivée des Espagnols.",
+  "territories": ["Zapotec", "Monte Albán", "Zapotec Empire", "Ben 'Zaa/Binnizá/Mén Diiste/Bene Xhon (Zapoteco)"],
+  "reperes": {
+    "capitale": {
+      "valeur": "Monte Albán, puis Zaachila",
+      "precision": "Monte Albán domine la vallée de Oaxaca jusque vers 800 ; Mitla est ensuite le grand centre religieux"
+    },
+    "regimes": { "valeur": "Cités-États", "precision": "gouvernées par des rois et des prêtres" },
+    "langues": { "valeur": "Langues zapotèques", "precision": "toujours parlées aujourd’hui" },
+    "religion": {
+      "valeur": "Religion mésoaméricaine",
+      "precision": "Cocijo, dieu de la pluie et de l’éclair, et le culte des ancêtres"
+    },
+    "apogee": { "valeur": "Vers 200 → 700", "precision": "Monte Albán compte peut-être 20 000 habitants ou plus" },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": { "valeur": "Aucune", "precision": "fèves de cacao, tissus et objets précieux servent aux échanges" },
+    "duree": { "valeur": "Environ 2 000 ans" },
+    "aujourdhui": {
+      "valeur": "Mexique (Oaxaca)",
+      "precision": "près d’un demi-million de personnes parlent une langue zapotèque"
+    }
+  },
+  "essentiel": [
+    "Vers −500, les Zapotèques aplanissent le sommet d’une montagne au-dessus de la vallée de Oaxaca et y fondent [[monte-alban|Monte Albán]], l’une des premières villes de Mésoamérique.",
+    "Ils utilisent l’une des plus anciennes écritures du continent américain et un calendrier de 260 jours ; des pierres sculptées, les « danseurs », montrent des captifs.",
+    "Monte Albán domine la vallée pendant plus de mille ans et entretient des liens avec la grande cité de [[teotihuacan|Teotihuacan]], où vit un quartier de Zapotèques.",
+    "Après le déclin de Monte Albán, vers 800, les Zapotèques forment des royaumes plus petits ; [[mitla|Mitla]] devient leur grand centre religieux.",
+    "Ils résistent aux Aztèques à la fin du XVe siècle, puis se soumettent aux Espagnols dans les années 1520 ; le président mexicain [[benito-juarez|Benito Juárez]] était zapotèque."
+  ],
+  "datesCles": [
+    { "annee": -500, "evenement": "Monte Albán", "info": "Fondation de la ville au sommet d’une montagne aplanie." },
+    {
+      "annee": -300,
+      "evenement": "Les « danseurs »",
+      "info": "Des centaines de dalles sculptées représentent des hommes nus, sans doute des captifs ou des sacrifiés."
+    },
+    {
+      "annee": 200,
+      "evenement": "Apogée",
+      "info": "Monte Albán est au sommet de sa puissance et commerce avec Teotihuacan."
+    },
+    {
+      "annee": 800,
+      "evenement": "Déclin de Monte Albán",
+      "info": "La ville se dépeuple ; le pouvoir se partage entre plusieurs cités de la vallée."
+    },
+    {
+      "annee": 1200,
+      "evenement": "Mitla",
+      "info": "Mitla, décorée de mosaïques de pierre, devient le grand centre religieux zapotèque."
+    },
+    {
+      "annee": 1497,
+      "evenement": "Guiengola",
+      "info": "Vers 1497, le roi Cocijoeza résiste aux armées aztèques dans la forteresse de Guiengola."
+    },
+    {
+      "annee": 1521,
+      "evenement": "Les Espagnols",
+      "info": "Après la chute de Tenochtitlan, les Espagnols arrivent dans la vallée de Oaxaca."
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "La fondation de Monte Albán",
+      "debut": -500,
+      "fin": 200,
+      "resume": "Monte Albán s’impose sur la vallée de Oaxaca ; l’écriture et le calendrier se développent.",
+      "evenements": [
+        { "annee": -500, "evenement": "Fondation de Monte Albán" },
+        { "annee": -300, "evenement": "Dalles des « danseurs »" }
+      ]
+    },
+    {
+      "nom": "L’apogée",
+      "debut": 200,
+      "fin": 800,
+      "resume": "Monte Albán est l’une des grandes cités de Mésoamérique, en relation avec Teotihuacan.",
+      "evenements": [{ "annee": 200, "evenement": "Apogée de Monte Albán" }]
+    },
+    {
+      "nom": "Les royaumes zapotèques",
+      "debut": 800,
+      "fin": 1521,
+      "resume": "De petits royaumes, comme Zaachila, se partagent la vallée et l’isthme de Tehuantepec, face aux Mixtèques puis aux Aztèques.",
+      "evenements": [{ "annee": 1200, "evenement": "Mitla" }, { "annee": 1497, "evenement": "Résistance de Guiengola" }]
+    }
+  ],
+  "regimes": [{ "id": "cites", "nom": "Cités-États et royaumes", "debut": -500, "fin": 1521 }],
+  "dirigeants": [],
+  "personnages": [
+    {
+      "nom": "Cocijoeza",
+      "role": "Roi de Zaachila",
+      "description": "Roi zapotèque qui résiste aux Aztèques à Guiengola, puis s’allie à eux par un mariage, selon la tradition.",
+      "dates": "? → 1529",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Cosijoeza"
+    },
+    {
+      "nom": "Alfonso Caso",
+      "role": "Archéologue mexicain",
+      "description": "Il fouille Monte Albán à partir de 1931 et y découvre la tombe 7 et son trésor.",
+      "dates": "1896 → 1970",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Alfonso_Caso"
+    },
+    {
+      "nom": "Benito Juárez",
+      "role": "Président du Mexique",
+      "description": "Né dans un village zapotèque de Oaxaca, il devient président du Mexique au XIXe siècle.",
+      "dates": "1806 → 1872",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Benito_Ju%C3%A1rez",
+      "ref": "benito-juarez"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Siège de Guiengola",
+      "annee": 1497,
+      "adversaires": ["Empire aztèque (Ahuitzotl)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Indécis",
+      "consequences": "Retranchés dans la forteresse de Guiengola, près de Tehuantepec, les Zapotèques résistent à un long siège ; selon la tradition, la paix est scellée par le mariage du roi Cocijoeza avec une princesse aztèque.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Guiengola"
+    }
+  ],
+  "sciences": "Les Zapotèques utilisent l’une des plus anciennes écritures de Mésoamérique, faite de glyphes, et deux calendriers : un calendrier rituel de 260 jours et un calendrier solaire de 365 jours. À Monte Albán, ils aplanissent le sommet d’une montagne pour bâtir une grande place entourée de temples, de palais et d’un terrain de jeu de balle. À Mitla, ils décorent les murs de mosaïques de pierre géométriques.",
+  "croyancesText": "Les Zapotèques honorent Cocijo, dieu de la pluie et de l’éclair, ainsi qu’un dieu chauve-souris, et vénèrent leurs ancêtres, enterrés dans des tombes peintes sous les maisons. Ils se disent descendants des nuages. Comme d’autres peuples de Mésoamérique, ils pratiquent des sacrifices.",
+  "diplomatie": "Monte Albán entretient des liens étroits avec Teotihuacan : un quartier zapotèque existe dans la grande cité. Plus tard, les Zapotèques rivalisent avec leurs voisins mixtèques, puis résistent aux Aztèques avant de payer tribut ou de s’allier avec eux. À l’arrivée des Espagnols, plusieurs seigneurs choisissent de s’entendre avec eux.",
+  "societe": "La société est dirigée par des rois, des nobles et des prêtres. La plupart des Zapotèques sont des paysans qui cultivent le maïs, les haricots et les courges sur les terrasses et dans les vallées.",
+  "economie": "Agriculture (maïs, haricots, courges), artisanat, commerce de la cochenille, du cacao et des tissus.",
+  "arts": "Urnes funéraires en céramique représentant des dieux, dalles sculptées des « danseurs », tombes peintes, mosaïques de pierre de Mitla.",
+  "quotidien": "Comme dans toute la Mésoamérique, les Zapotèques pratiquent le jeu de balle, joué avec une lourde balle de caoutchouc sur des terrains en forme de I.",
+  "heritage": [
+    {
+      "titre": "Monte Albán",
+      "texte": "Le site et le centre historique de Oaxaca sont inscrits au patrimoine mondial de l’UNESCO depuis 1987."
+    },
+    {
+      "titre": "Un peuple vivant",
+      "texte": "Près d’un demi-million de personnes parlent aujourd’hui une langue zapotèque, surtout dans l’État de Oaxaca."
+    }
+  ],
+  "aSavoir": [
+    "Le trésor de la tombe 7 de Monte Albán, découvert en 1932, a en fait été déposé par les Mixtèques, qui ont réutilisé une tombe zapotèque."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Zapot%C3%A8ques",
+    { "titre": "Encyclopædia Britannica — Zapotec", "url": "https://www.britannica.com/topic/Zapotec" }
+  ]
+}

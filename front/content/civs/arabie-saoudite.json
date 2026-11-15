@@ -1,0 +1,275 @@
+{
+  "documentaires": [],
+  "decouvertes": [],
+  "id": "arabie-saoudite",
+  "label": "Arabie saoudite",
+  "tier": 2,
+  "region": "peninsule-arabique",
+  "period": "1744 à 2020",
+  "start": 1744,
+  "end": 2020,
+  "trackId": "arabie",
+  "row": 9,
+  "isRiver": false,
+  "capitale": "Riyad",
+  "color": "#33691e",
+  "description": "L’État fondé au XVIIIe siècle par l’alliance de la famille Saoud et du prédicateur Mohammed ben Abdelwahhab, refondé en 1932 par Ibn Saoud, gardien des lieux saints de l’islam et grand producteur de pétrole.",
+  "territories": ["Nejd", "Arabia (Nejd)", "Saudi Arabia"],
+  "reperes": {
+    "capitale": { "valeur": "Riyad", "precision": "Diriyah pour le premier État saoudien (1744-1818)" },
+    "regimes": { "valeur": "Monarchie absolue", "precision": "le roi gouverne selon la loi islamique ; pas de parlement élu" },
+    "langues": { "valeur": "Arabe" },
+    "religion": { "valeur": "Islam sunnite", "precision": "doctrine wahhabite ; minorité chiite dans l’est" },
+    "population": { "valeur": "Environ 35 millions en 2020", "precision": "dont plus d’un tiers d’étrangers" },
+    "monnaie": { "valeur": "Riyal saoudien" },
+    "duree": { "valeur": "Environ 275 ans dans cette fiche" },
+    "aujourdhui": { "valeur": "Arabie saoudite" }
+  },
+  "essentiel": [
+    "Vers 1744, l’émir Mohammed ben Saoud s’allie au prédicateur Mohammed ben Abdelwahhab, qui prône un islam rigoriste ; leur premier État, centré sur Diriyah, s’étend sur une grande partie de l’Arabie.",
+    "Les armées égyptiennes de Méhémet Ali, au service de l’Empire ottoman, détruisent ce premier État en 1818 ; un deuxième État saoudien existe de 1824 à 1891.",
+    "À partir de 1902, [[ibn-saoud|Abdelaziz ibn Saoud]] reprend Riyad, conquiert le Hedjaz et ses villes saintes, La Mecque et Médine (1924-1925), et proclame en 1932 le royaume d’Arabie saoudite.",
+    "Le pétrole, découvert en 1938, fait du pays l’un des plus riches du monde ; il possède parmi les plus grandes réserves de la planète.",
+    "Monarchie absolue alliée des États-Unis, l’Arabie saoudite se veut gardienne des lieux saints de l’islam, où viennent chaque année des millions de pèlerins ; depuis 2017, le prince héritier Mohammed ben Salmane mène des réformes sociales tout en réprimant ses opposants."
+  ],
+  "datesCles": [
+    {
+      "annee": 1744,
+      "evenement": "Pacte de Diriyah",
+      "info": "Alliance de Mohammed ben Saoud et de Mohammed ben Abdelwahhab."
+    },
+    { "annee": 1803, "evenement": "La Mecque", "info": "Les Saoudiens prennent La Mecque." },
+    {
+      "annee": 1818,
+      "evenement": "Chute de Diriyah",
+      "info": "Les troupes égyptiennes détruisent la capitale saoudienne."
+    },
+    {
+      "annee": 1824,
+      "evenement": "Deuxième État saoudien",
+      "info": "Turki ben Abdallah reprend Riyad, qui devient la capitale."
+    },
+    {
+      "annee": 1902,
+      "evenement": "Reprise de Riyad",
+      "info": "Abdelaziz ibn Saoud reprend Riyad avec quelques dizaines d’hommes."
+    },
+    { "annee": 1925, "evenement": "Conquête du Hedjaz", "info": "Ibn Saoud contrôle La Mecque et Médine." },
+    {
+      "annee": 1932,
+      "evenement": "Royaume d’Arabie saoudite",
+      "info": "Ibn Saoud donne au pays le nom de sa famille."
+    },
+    { "annee": 1938, "evenement": "Pétrole", "info": "Découverte de pétrole en grande quantité à Dammam." },
+    {
+      "annee": 1973,
+      "evenement": "Embargo pétrolier",
+      "info": "Les pays arabes producteurs coupent le pétrole aux pays qui soutiennent Israël."
+    },
+    {
+      "annee": 1979,
+      "evenement": "Grande Mosquée",
+      "info": "Des extrémistes armés occupent la Grande Mosquée de La Mecque."
+    },
+    { "annee": 2018, "evenement": "Femmes au volant", "info": "Les femmes obtiennent le droit de conduire." }
+  ],
+  "periodes": [
+    {
+      "nom": "Le premier État saoudien",
+      "debut": 1744,
+      "fin": 1818,
+      "resume": "L’alliance des Saoud et du wahhabisme donne naissance à un État qui conquiert une grande partie de l’Arabie.",
+      "evenements": [
+        { "annee": 1744, "evenement": "Pacte de Diriyah" },
+        { "annee": 1803, "evenement": "Prise de La Mecque" },
+        { "annee": 1818, "evenement": "Chute de Diriyah" }
+      ]
+    },
+    {
+      "nom": "Le deuxième État saoudien",
+      "debut": 1818,
+      "fin": 1902,
+      "resume": "Les Saoud reconstruisent un émirat autour de Riyad, puis le perdent face à leurs rivaux, les Rachidides.",
+      "evenements": [{ "annee": 1824, "evenement": "Riyad, capitale" }, { "annee": 1891, "evenement": "Exil des Saoud au Koweït" }]
+    },
+    {
+      "nom": "Ibn Saoud fonde le royaume",
+      "debut": 1902,
+      "fin": 1953,
+      "resume": "Ibn Saoud reconquiert le Nejd, prend le Hedjaz et fonde l’Arabie saoudite.",
+      "evenements": [
+        { "annee": 1902, "evenement": "Reprise de Riyad" },
+        { "annee": 1925, "evenement": "Conquête du Hedjaz" },
+        { "annee": 1932, "evenement": "Royaume d’Arabie saoudite" },
+        { "annee": 1938, "evenement": "Découverte du pétrole" }
+      ]
+    },
+    {
+      "nom": "Le royaume du pétrole",
+      "debut": 1953,
+      "fin": 2020,
+      "resume": "Les revenus du pétrole transforment le pays, allié des États-Unis et rival de l’Iran.",
+      "evenements": [
+        { "annee": 1973, "evenement": "Embargo pétrolier" },
+        { "annee": 1979, "evenement": "Prise de la Grande Mosquée" },
+        { "annee": 1990, "evenement": "Guerre du Golfe" },
+        { "annee": 2017, "evenement": "Mohammed ben Salmane prince héritier" }
+      ]
+    }
+  ],
+  "regimes": [
+    { "id": "etat1", "nom": "Premier État saoudien (émirat de Diriyah)", "debut": 1744, "fin": 1818 },
+    { "id": "etat2", "nom": "Deuxième État saoudien (émirat du Nejd)", "debut": 1824, "fin": 1891 },
+    { "id": "nejd", "nom": "Émirat, puis royaume du Nejd et du Hedjaz", "debut": 1902, "fin": 1932 },
+    { "id": "royaume", "nom": "Royaume d’Arabie saoudite", "debut": 1932, "fin": 2020 }
+  ],
+  "dynasties": [{ "id": "saoud", "nom": "La maison des Saoud", "debut": 1744, "fin": 2020, "note": "Sélection." }],
+  "dirigeants": [
+    {
+      "nom": "Mohammed ben Saoud",
+      "titre": "Émir de Diriyah",
+      "debut": 1744,
+      "fin": 1765,
+      "dynastie": "saoud",
+      "note": "émir depuis 1727 environ",
+      "cle": true
+    },
+    { "nom": "Abdelaziz ben Mohammed", "titre": "Émir", "debut": 1765, "fin": 1803, "dynastie": "saoud" },
+    {
+      "nom": "Turki ben Abdallah",
+      "titre": "Émir",
+      "debut": 1824,
+      "fin": 1834,
+      "dynastie": "saoud",
+      "note": "fonde le deuxième État saoudien",
+      "cle": true
+    },
+    {
+      "nom": "Abdelaziz ibn Saoud",
+      "titre": "Émir, puis roi",
+      "debut": 1902,
+      "fin": 1953,
+      "dynastie": "saoud",
+      "note": "roi d’Arabie saoudite à partir de 1932",
+      "personne": "ibn-saoud",
+      "cle": true
+    },
+    {
+      "nom": "Fayçal",
+      "titre": "Roi",
+      "debut": 1964,
+      "fin": 1975,
+      "dynastie": "saoud",
+      "note": "assassiné en 1975",
+      "cle": true
+    },
+    { "nom": "Fahd", "titre": "Roi", "debut": 1982, "fin": 2005, "dynastie": "saoud" },
+    { "nom": "Abdallah", "titre": "Roi", "debut": 2005, "fin": 2015, "dynastie": "saoud" },
+    {
+      "nom": "Salmane",
+      "titre": "Roi",
+      "debut": 2015,
+      "fin": 2020,
+      "dynastie": "saoud",
+      "note": "toujours en fonction à la fin de la période couverte (2020)"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Mohammed ben Abdelwahhab",
+      "role": "Prédicateur",
+      "description": "Le fondateur du wahhabisme, allié des Saoud.",
+      "dates": "1703 → 1792",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Mohammed_ben_Abdelwahhab"
+    },
+    {
+      "nom": "Abdelaziz ibn Saoud",
+      "role": "Roi",
+      "description": "Le fondateur du royaume d’Arabie saoudite.",
+      "dates": "vers 1875 → 1953",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Abdelaziz_ibn_Saoud",
+      "ref": "ibn-saoud"
+    },
+    {
+      "nom": "Fayçal",
+      "role": "Roi",
+      "description": "Roi modernisateur, il lance l’embargo pétrolier de 1973.",
+      "dates": "1906 → 1975",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Fay%C3%A7al_ben_Abdelaziz_Al_Saoud"
+    },
+    {
+      "nom": "Ahmed Zaki Yamani",
+      "role": "Ministre du Pétrole",
+      "description": "Ministre de 1962 à 1986, figure de l’OPEP et de la crise pétrolière de 1973.",
+      "dates": "1930 → 2021",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Ahmed_Zaki_Yamani"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerre ottomano-wahhabite",
+      "annee": 1811,
+      "adversaires": ["Égypte de Méhémet Ali, pour l’Empire ottoman"],
+      "allies": [],
+      "morts": "Plusieurs milliers",
+      "vainqueur": "Égypte et Empire ottoman",
+      "consequences": "Après sept ans de guerre, Ibrahim Pacha prend et détruit Diriyah (1818) ; l’émir Abdallah ben Saoud est exécuté à Constantinople.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Ottoman%E2%80%93Wahhabi_war"
+    },
+    {
+      "nom": "Unification de l’Arabie saoudite",
+      "annee": 1902,
+      "adversaires": ["Émirat de Haïl (Rachidides)", "Royaume du Hedjaz (Hachémites)"],
+      "allies": ["Ikhwan (guerriers bédouins)"],
+      "morts": "Plusieurs milliers",
+      "vainqueur": "Ibn Saoud",
+      "consequences": "Ibn Saoud reprend Riyad (1902), soumet les Rachidides (1921) et conquiert le Hedjaz (1924-1925). En 1929, il écrase la révolte des Ikhwan, qui voulaient poursuivre la guerre au-delà des frontières.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Unification_de_l%27Arabie_saoudite"
+    },
+    {
+      "nom": "Guerre du Golfe",
+      "annee": 1990,
+      "adversaires": ["Irak de Saddam Hussein"],
+      "allies": ["Coalition internationale menée par les États-Unis", "Koweït"],
+      "morts": "Des dizaines de milliers d’Irakiens selon les estimations ; quelques centaines de soldats de la coalition",
+      "vainqueur": "Coalition",
+      "consequences": "Après l’invasion du Koweït par l’Irak (août 1990), l’Arabie saoudite accueille des centaines de milliers de soldats étrangers ; la coalition libère le Koweït en février 1991. La présence de soldats américains sur le sol saoudien est dénoncée par des islamistes, dont Oussama ben Laden.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_du_Golfe"
+    },
+    {
+      "nom": "Guerre civile yéménite",
+      "annee": 2015,
+      "adversaires": ["Rebelles houthis"],
+      "allies": ["Coalition de pays arabes", "Gouvernement yéménite"],
+      "morts": "Plus de 100 000 morts dans les combats selon des estimations, sans compter les victimes de la faim et des maladies",
+      "vainqueur": "Conflit en cours en 2020",
+      "consequences": "En 2015, l’Arabie saoudite prend la tête d’une coalition qui intervient contre les rebelles houthis. La guerre provoque au Yémen l’une des pires crises humanitaires du monde selon l’ONU ; des frappes aériennes de la coalition et des tirs de missiles houthis touchent des civils.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_civile_y%C3%A9m%C3%A9nite"
+    }
+  ],
+  "sciences": "Pour obtenir de l’eau douce dans ce pays sans rivière permanente, l’Arabie saoudite est devenue le premier producteur mondial d’eau de mer dessalée. En 1985, le prince Sultan ben Salmane est le premier Arabe à voler dans l’espace, à bord de la navette américaine Discovery. L’université des sciences et technologies du roi Abdallah (KAUST) ouvre en 2009.",
+  "croyancesText": "Le royaume suit la doctrine wahhabite, une lecture rigoriste de l’islam sunnite issue de l’alliance de 1744. Le roi porte depuis 1986 le titre de « Gardien des deux saintes mosquées », celles de La Mecque et de Médine, où des millions de pèlerins viennent chaque année. La pratique publique des autres religions est interdite ; une minorité chiite vit dans l’est du pays.",
+  "diplomatie": "Allié des États-Unis depuis la rencontre entre Ibn Saoud et le président Roosevelt en 1945, le royaume utilise l’arme du pétrole en 1973 en décrétant, avec d’autres pays arabes, un embargo contre les pays qui soutiennent Israël. Il rivalise avec l’Iran pour l’influence au Moyen-Orient et intervient au Yémen à partir de 2015.",
+  "societe": "Jusqu’en 2018, les femmes n’ont pas le droit de conduire ; elles votent pour la première fois aux élections municipales de 2015. Les nombreux travailleurs étrangers sont soumis au système de la « kafala », qui les rend très dépendants de leur employeur.",
+  "economie": "Commerce caravanier et pèlerinage avant le pétrole ; depuis les années 1940, le pétrole fournit l’essentiel des revenus de l’État, et la compagnie nationale Saudi Aramco est l’une des entreprises les plus riches du monde.",
+  "arts": "Poésie bédouine (nabati), danse des épées (ardah), architecture de terre de Diriyah.",
+  "quotidien": "Le café arabe, parfumé à la cardamome, est servi aux invités avec des dattes en signe d’hospitalité.",
+  "heritage": [
+    {
+      "titre": "Diriyah",
+      "texte": "Le quartier d’at-Turaif, à Diriyah, berceau de la dynastie, est inscrit au patrimoine mondial de l’UNESCO depuis 2010."
+    },
+    {
+      "titre": "Hégra",
+      "texte": "Le site nabatéen de Hégra est le premier site du pays inscrit au patrimoine mondial de l’UNESCO (2008)."
+    }
+  ],
+  "aSavoir": ["L’Arabie saoudite est l’un des rares pays au monde à porter le nom de sa famille régnante, les Saoud."],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Histoire_de_l%27Arabie_saoudite",
+    {
+      "titre": "Encyclopædia Britannica — Saudi Arabia, History",
+      "url": "https://www.britannica.com/place/Saudi-Arabia/History"
+    }
+  ]
+}

@@ -210,7 +210,8 @@ const WorldMap = forwardRef(function WorldMap(
             <>
               <span className="block font-semibold text-[13px]">{hover.link.civ.label}</span>
               <span className="block opacity-75">
-                {hover.link.colony ? `${hover.name} · sous domination` : hover.name !== hover.link.civ.label ? hover.name : hover.link.civ.period}
+                {/* pas le nom brut du fond de carte : il est en anglais et parfois anachronique (ex. « Watassid Morocco » en 1600) */}
+                {hover.link.colony ? 'Territoire sous sa domination' : hover.link.civ.period}
               </span>
               <span className="block mt-1 opacity-90">Cliquer pour l'aperçu →</span>
             </>

@@ -1,0 +1,311 @@
+{
+  "documentaires": [],
+  "decouvertes": [],
+  "id": "seleucides",
+  "label": "Empire séleucide",
+  "tier": 1,
+  "region": "mesopotamie",
+  "period": "-312 à -63",
+  "start": -312,
+  "end": -63,
+  "color": "#5e35b1",
+  "trackId": "perse",
+  "row": 3,
+  "isRiver": false,
+  "capitale": "Séleucie du Tigre, puis Antioche",
+  "description": "Le plus vaste des royaumes nés de l’empire d’Alexandre : de la Méditerranée à l’Inde, des rois grecs gouvernent des peuples d’Asie et fondent des villes grecques, avant d’être réduits par les Parthes et par Rome.",
+  "territories": ["Seleucid Kingdom"],
+  "reperes": {
+    "capitale": {
+      "valeur": "Séleucie du Tigre, puis Antioche",
+      "precision": "Antioche, en Syrie, devient la principale capitale"
+    },
+    "regimes": { "valeur": "Monarchie hellénistique", "precision": "un roi d’origine macédonienne, honoré comme un dieu" },
+    "langues": { "valeur": "Grec", "precision": "langue du pouvoir ; araméen, babylonien et perse parlés par les peuples" },
+    "religion": {
+      "valeur": "Dieux grecs et cultes locaux",
+      "precision": "Apollon, protecteur de la dynastie ; les rois respectent aussi les dieux de Babylone"
+    },
+    "apogee": {
+      "valeur": "Vers −300 → −280",
+      "precision": "sous Séleucos Ier, de l’Égée à l’Indus ; puis brève reconquête d’Antiochos III"
+    },
+    "population": { "valeur": "Inconnue", "precision": "sans doute plusieurs dizaines de millions d’habitants à l’origine" },
+    "monnaie": { "valeur": "Tétradrachme d’argent", "precision": "à l’effigie des rois" },
+    "duree": { "valeur": "Environ 250 ans" },
+    "aujourdhui": {
+      "valeur": "Syrie, Irak, Iran",
+      "precision": "ainsi que le sud de la Turquie, le Liban, Israël et l’Asie centrale à l’origine"
+    }
+  },
+  "essentiel": [
+    "Après la mort d’[[alexandre-le-grand|Alexandre le Grand]] (−323), son général [[seleucos-ier|Séleucos]] s’empare de Babylone (−312) et fonde le plus vaste des royaumes hellénistiques.",
+    "Les Séleucides fondent des dizaines de villes grecques, comme Antioche et Séleucie du Tigre, où se mêlent cultures grecque et orientales.",
+    "Ils mènent de nombreuses guerres contre les Ptolémées d’Égypte pour le contrôle de la Syrie.",
+    "[[antiochos-iii|Antiochos III le Grand]] reconquiert l’Orient mais il est battu par Rome à la [[bataille-de-magnesie|bataille de Magnésie]] (−190).",
+    "Affaibli par la [[revolte-des-maccabees|révolte des Maccabées]] et la conquête parthe de l’Iran et de la Mésopotamie, le royaume est annexé par Pompée en −63."
+  ],
+  "datesCles": [
+    {
+      "annee": -312,
+      "evenement": "Séleucos à Babylone",
+      "info": "Point de départ de l’« ère séleucide », un calendrier utilisé pendant des siècles en Orient."
+    },
+    {
+      "annee": -301,
+      "evenement": "Bataille d’Ipsos",
+      "info": "Séleucos et ses alliés battent Antigone le Borgne, grâce notamment aux éléphants de guerre venus d’Inde."
+    },
+    {
+      "annee": -300,
+      "evenement": "Fondation d’Antioche",
+      "info": "Séleucos fonde Antioche sur l’Oronte, future capitale."
+    },
+    {
+      "annee": -281,
+      "evenement": "Mort de Séleucos",
+      "info": "Vainqueur de Lysimaque, Séleucos est assassiné alors qu’il passe en Europe."
+    },
+    {
+      "annee": -217,
+      "evenement": "Raphia",
+      "info": "Antiochos III est battu par Ptolémée IV dans une grande bataille d’éléphants."
+    },
+    {
+      "annee": -190,
+      "evenement": "Magnésie",
+      "info": "Rome écrase l’armée d’Antiochos III.",
+      "ref": "bataille-de-magnesie"
+    },
+    {
+      "annee": -167,
+      "evenement": "Révolte des Maccabées",
+      "info": "Les Juifs de Judée se révoltent contre Antiochos IV.",
+      "ref": "revolte-des-maccabees"
+    },
+    {
+      "annee": -141,
+      "evenement": "Perte de la Mésopotamie",
+      "info": "Le roi parthe Mithridate Ier s’empare de Séleucie du Tigre."
+    },
+    { "annee": -63, "evenement": "Fin du royaume", "info": "Pompée fait de la Syrie une province romaine." }
+  ],
+  "periodes": [
+    {
+      "nom": "La fondation",
+      "debut": -312,
+      "fin": -281,
+      "resume": "Séleucos conquiert les provinces orientales de l’empire d’Alexandre et fonde ses capitales.",
+      "evenements": [
+        { "annee": -305, "evenement": "Séleucos prend le titre de roi" },
+        { "annee": -301, "evenement": "Ipsos" },
+        { "annee": -300, "evenement": "Fondation d’Antioche" }
+      ]
+    },
+    {
+      "nom": "Les guerres de Syrie",
+      "debut": -281,
+      "fin": -190,
+      "resume": "Les Séleucides affrontent les Ptolémées d’Égypte et perdent l’Asie centrale ; Antiochos III rétablit leur puissance.",
+      "evenements": [
+        { "annee": -250, "evenement": "Indépendance de la Bactriane et des Parthes" },
+        { "annee": -217, "evenement": "Raphia" }
+      ]
+    },
+    {
+      "nom": "Le déclin",
+      "debut": -190,
+      "fin": -63,
+      "resume": "Vaincu par Rome, ruiné par l’indemnité de guerre, le royaume perd l’Iran, la Mésopotamie et la Judée et se déchire en guerres de succession.",
+      "evenements": [
+        { "annee": -190, "evenement": "Magnésie", "ref": "bataille-de-magnesie" },
+        { "annee": -167, "evenement": "Maccabées", "ref": "revolte-des-maccabees" },
+        { "annee": -141, "evenement": "Les Parthes à Séleucie" }
+      ]
+    }
+  ],
+  "regimes": [{ "id": "royaume", "nom": "Royaume séleucide", "debut": -312, "fin": -63 }],
+  "dynasties": [
+    {
+      "id": "seleucides",
+      "nom": "Les Séleucides",
+      "debut": -312,
+      "fin": -63,
+      "note": "Sélection ; à la fin, plusieurs rois rivaux règnent en même temps."
+    }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Séleucos Ier",
+      "titre": "Satrape puis roi",
+      "surnom": "Nicator, « le Vainqueur »",
+      "debut": -312,
+      "fin": -281,
+      "dynastie": "seleucides",
+      "personne": "seleucos-ier",
+      "cle": true
+    },
+    {
+      "nom": "Antiochos Ier",
+      "titre": "Roi",
+      "surnom": "Sôter, « le Sauveur »",
+      "debut": -281,
+      "fin": -261,
+      "dynastie": "seleucides"
+    },
+    {
+      "nom": "Antiochos II",
+      "titre": "Roi",
+      "surnom": "Théos, « le Dieu »",
+      "debut": -261,
+      "fin": -246,
+      "dynastie": "seleucides"
+    },
+    { "nom": "Séleucos II", "titre": "Roi", "debut": -246, "fin": -225, "dynastie": "seleucides" },
+    { "nom": "Séleucos III", "titre": "Roi", "debut": -225, "fin": -223, "dynastie": "seleucides" },
+    {
+      "nom": "Antiochos III",
+      "titre": "Roi",
+      "surnom": "le Grand",
+      "debut": -222,
+      "fin": -187,
+      "dynastie": "seleucides",
+      "personne": "antiochos-iii",
+      "cle": true
+    },
+    { "nom": "Séleucos IV", "titre": "Roi", "debut": -187, "fin": -175, "dynastie": "seleucides" },
+    {
+      "nom": "Antiochos IV",
+      "titre": "Roi",
+      "surnom": "Épiphane, « le dieu manifesté »",
+      "debut": -175,
+      "fin": -164,
+      "dynastie": "seleucides",
+      "note": "provoque la révolte des Maccabées",
+      "cle": true
+    },
+    { "nom": "Antiochos V", "titre": "Roi", "debut": -164, "fin": -162, "dynastie": "seleucides" },
+    { "nom": "Démétrios Ier", "titre": "Roi", "debut": -162, "fin": -150, "dynastie": "seleucides" },
+    { "nom": "Alexandre Balas", "titre": "Roi", "debut": -150, "fin": -145, "dynastie": "seleucides" },
+    {
+      "nom": "Démétrios II",
+      "titre": "Roi",
+      "debut": -145,
+      "fin": -138,
+      "dynastie": "seleucides",
+      "note": "de nouveau de −129 à −125"
+    },
+    {
+      "nom": "Antiochos VII",
+      "titre": "Roi",
+      "debut": -138,
+      "fin": -129,
+      "dynastie": "seleucides",
+      "note": "tué en combattant les Parthes",
+      "cle": true
+    },
+    { "nom": "Philippe II", "titre": "Roi", "debut": -65, "fin": -63, "dynastie": "seleucides", "note": "dernier roi" }
+  ],
+  "personnages": [
+    {
+      "nom": "Séleucos Ier",
+      "role": "Fondateur",
+      "description": "Général d’Alexandre devenu roi de l’Asie.",
+      "dates": "vers −358 → −281",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/S%C3%A9leucos_Ier",
+      "ref": "seleucos-ier"
+    },
+    {
+      "nom": "Antiochos III",
+      "role": "Roi",
+      "description": "Le roi qui reconquiert l’Orient avant d’être vaincu par Rome.",
+      "dates": "vers −242 → −187",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Antiochos_III",
+      "ref": "antiochos-iii"
+    },
+    {
+      "nom": "Hannibal",
+      "role": "Général carthaginois en exil",
+      "description": "Réfugié à la cour d’Antiochos III, il le conseille contre Rome.",
+      "dates": "−247 → −183",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Hannibal_Barca",
+      "ref": "hannibal"
+    },
+    {
+      "nom": "Bérose",
+      "role": "Prêtre babylonien",
+      "description": "Il écrit en grec, pour Antiochos Ier, une histoire de Babylone, les « Babyloniaca ».",
+      "dates": "IIIe siècle av. J.-C.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/B%C3%A9rose"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Bataille d’Ipsos",
+      "annee": -301,
+      "adversaires": ["Antigone le Borgne et son fils Démétrios"],
+      "allies": ["Lysimaque", "Cassandre"],
+      "morts": "Inconnues",
+      "vainqueur": "Séleucos et ses alliés",
+      "consequences": "Antigone est tué ; les vainqueurs se partagent ses territoires : Séleucos obtient la Syrie.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_d%27Ipsos"
+    },
+    {
+      "nom": "Bataille de Raphia",
+      "annee": -217,
+      "adversaires": ["Égypte ptolémaïque (Ptolémée IV)"],
+      "allies": [],
+      "morts": "Environ 10 000 fantassins séleucides selon Polybe",
+      "vainqueur": "Égypte ptolémaïque",
+      "consequences": "L’une des plus grandes batailles de l’Antiquité, avec des éléphants des deux côtés : la Syrie du Sud reste égyptienne pour un temps.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Raphia"
+    },
+    {
+      "nom": "Bataille de Magnésie",
+      "annee": -190,
+      "adversaires": ["République romaine", "Royaume de Pergame"],
+      "allies": [],
+      "morts": "Plusieurs dizaines de milliers côté séleucide selon les auteurs anciens",
+      "vainqueur": "République romaine",
+      "consequences": "Par la paix d’Apamée (−188), Antiochos III abandonne l’Asie Mineure et paie une énorme indemnité.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Magn%C3%A9sie_du_Sipyle"
+    },
+    {
+      "nom": "Révolte des Maccabées",
+      "annee": -167,
+      "adversaires": ["Juifs révoltés (Judas Maccabée)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Maccabées",
+      "consequences": "Les révoltés reprennent le Temple de Jérusalem (−164) ; la Judée devient peu à peu indépendante sous la dynastie hasmonéenne.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/R%C3%A9volte_des_Maccab%C3%A9es"
+    }
+  ],
+  "sciences": "Les villes séleucides sont des centres de savoir : à Babylone, les astronomes continuent leurs observations et leurs calculs, notés sur tablettes jusqu’au Ier siècle. Les rois utilisent des éléphants de guerre venus d’Inde et fondent des villes au plan régulier, en damier.",
+  "croyancesText": "Les rois séleucides honorent les dieux grecs, surtout Apollon, ancêtre légendaire de la dynastie, et se font eux-mêmes rendre un culte. Ils respectent en général les dieux locaux, comme à Babylone. Mais en −167, Antiochos IV interdit le culte juif et installe un autel païen dans le Temple de Jérusalem, ce qui provoque la révolte des Maccabées.",
+  "diplomatie": "Le royaume, immense et divers, est sans cesse menacé : guerres contre les Ptolémées d’Égypte, sécession de la Bactriane et des Parthes, défaite face à Rome. À la fin, les rois rivaux se disputent un petit territoire autour d’Antioche.",
+  "societe": "Une élite gréco-macédonienne gouverne une population très variée : Babyloniens, Perses, Araméens, Juifs, Phéniciens. Les villes grecques, avec leurs gymnases et leurs théâtres, attirent les élites locales, qui adoptent souvent la langue et la culture grecques.",
+  "economie": "Agriculture des vallées fertiles (Mésopotamie, Syrie), commerce entre la Méditerranée et l’Inde, impôts et tributs.",
+  "arts": "Sculpture et architecture grecques diffusées jusqu’en Iran ; monnaies aux portraits royaux très réalistes.",
+  "quotidien": "Pendant des siècles, au Proche-Orient, on compte les années à partir de 312 av. J.-C., l’arrivée de Séleucos à Babylone.",
+  "heritage": [
+    {
+      "titre": "Antioche",
+      "texte": "La capitale séleucide devient l’une des plus grandes villes de l’Empire romain et un centre majeur du christianisme ancien."
+    },
+    {
+      "titre": "La fête de Hanoucca",
+      "texte": "Elle commémore la purification du Temple de Jérusalem par les Maccabées après leur révolte contre les Séleucides."
+    }
+  ],
+  "aSavoir": [
+    "À Ipsos, Séleucos aligne des éléphants de guerre obtenus du roi indien Chandragupta Maurya, en échange de territoires."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Empire_s%C3%A9leucide",
+    {
+      "titre": "Encyclopædia Britannica — Seleucid kingdom",
+      "url": "https://www.britannica.com/place/Seleucid-kingdom"
+    }
+  ]
+}

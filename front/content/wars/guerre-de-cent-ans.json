@@ -1,0 +1,745 @@
+{
+  "id": "guerre-de-cent-ans",
+  "nom": "Guerre de Cent Ans",
+  "debut": 1337,
+  "fin": 1453,
+  "dates": "1337 → 1453",
+  "description": "Une longue suite de guerres et de trêves entre les rois de France et d’Angleterre, qui se disputent la couronne de France et les terres anglaises du continent.",
+  "essentiel": [
+    "En 1328, le dernier fils de Philippe IV le Bel meurt sans héritier mâle. Les grands du royaume choisissent son cousin Philippe VI de Valois ; mais le roi d’Angleterre Édouard III, petit-fils de Philippe le Bel par sa mère, revendique lui aussi la couronne.",
+    "La guerre commence en 1337. Les Anglais remportent de grandes victoires à Crécy (1346) et à Poitiers (1356), où le roi Jean II le Bon est fait prisonnier ; la [[peste-noire|Peste noire]] ravage en même temps le pays.",
+    "Sous Charles V et son connétable Du Guesclin, la France reprend presque tout. Mais au début du XVe siècle, profitant de la guerre civile entre Armagnacs et Bourguignons, Henri V d’Angleterre gagne à [[bataille-d-azincourt|Azincourt]] (1415) et se fait reconnaître héritier du trône de France.",
+    "En 1429, [[jeanne-d-arc|Jeanne d’Arc]] délivre [[siege-d-orleans|Orléans]] et fait sacrer Charles VII à Reims. Capturée, elle est brûlée à Rouen en 1431.",
+    "Réconcilié avec la Bourgogne en 1435, Charles VII reprend la Normandie puis la Guyenne : la bataille de Castillon (1453) met fin à la guerre. Les Anglais ne gardent que Calais."
+  ],
+  "chiffres": [
+    {
+      "valeur": "116 ans",
+      "label": "de 1337 à 1453, entrecoupés de longues trêves"
+    },
+    {
+      "valeur": "5 rois de France",
+      "label": "de Philippe VI à Charles VII"
+    },
+    {
+      "valeur": "Un tiers à la moitié",
+      "label": "de la population d’Europe tuée par la Peste noire (1347-1352), selon les estimations"
+    }
+  ],
+  "camps": [
+    {
+      "id": "france",
+      "nom": "Royaume de France",
+      "legende": "France et ses alliés",
+      "couleur": "#2f6fdb",
+      "description": "Les rois de France de la dynastie des Valois, soutenus par l’Écosse et, à partir de 1369, par la Castille ; le parti des Armagnacs au XVe siècle.",
+      "membres": [
+        "Royaume de France (Valois)",
+        "Royaume d’Écosse (« Auld Alliance »)",
+        "Castille (à partir de 1369)",
+        "Armagnacs (XVe siècle)"
+      ]
+    },
+    {
+      "id": "angleterre",
+      "nom": "Royaume d’Angleterre",
+      "legende": "Angleterre et ses alliés",
+      "couleur": "#c0392b",
+      "description": "Les rois d’Angleterre, qui possèdent la Guyenne (autour de Bordeaux) et revendiquent la couronne de France, avec, de 1419 à 1435, le duc de Bourgogne.",
+      "membres": [
+        "Royaume d’Angleterre",
+        "Guyenne anglaise",
+        "Duché de Bourgogne (1419-1435)"
+      ]
+    }
+  ],
+  "carte": {
+    "annee": 1300,
+    "noms": {
+      "France": "Royaume de France",
+      "English territory": "Angleterre et Guyenne",
+      "Scotland": "Écosse",
+      "Castile": "Castille",
+      "Britany": "Bretagne"
+    },
+    "note": "Frontières de 1300 : la carte ne montre ni les conquêtes anglaises en France (après 1360, puis entre 1415 et 1450), ni les terres du duc de Bourgogne. Les phases les décrivent dans le texte.",
+    "statuts": {
+      "France": {
+        "statut": "france",
+        "note": "royaume de France, gouverné par les Valois à partir de 1328"
+      },
+      "English territory": {
+        "statut": "angleterre",
+        "note": "royaume d’Angleterre, avec la Guyenne autour de Bordeaux et une partie de l’Irlande"
+      },
+      "Scotland": {
+        "statut": "france",
+        "note": "allié de la France contre l’Angleterre (« Auld Alliance »)"
+      }
+    }
+  },
+  "phases": [
+    {
+      "id": "victoires-anglaises",
+      "nom": "Les victoires anglaises",
+      "debut": "1337",
+      "fin": "1360",
+      "resume": "Édouard III revendique la couronne de France et remporte l’Écluse, Crécy et Poitiers.",
+      "texte": "En 1337, Philippe VI confisque la Guyenne, fief du roi d’Angleterre ; Édouard III riposte en se proclamant roi de France. La flotte française est détruite à l’Écluse (1340), puis la chevalerie française est écrasée à Crécy (1346) par les archers anglais, et Calais tombe après un an de siège. La Peste noire frappe à partir de 1347-1348. En 1356, à Poitiers, le roi Jean II le Bon est capturé. Au traité de Brétigny (1360), l’Angleterre obtient un grand sud-ouest et Calais, et Édouard III renonce à la couronne de France.",
+      "carte": {
+        "cadre": [
+          [
+            -8,
+            42
+          ],
+          [
+            8,
+            56
+          ]
+        ],
+        "statuts": {}
+      },
+      "batailles": [
+        "ecluse",
+        "crecy",
+        "calais",
+        "poitiers"
+      ],
+      "evenements": [
+        {
+          "date": "1337",
+          "texte": "Philippe VI confisque la Guyenne : la guerre commence"
+        },
+        {
+          "date": "1348",
+          "texte": "La Peste noire ravage la France",
+          "ref": "peste-noire"
+        },
+        {
+          "date": "1360",
+          "texte": "Traité de Brétigny"
+        }
+      ]
+    },
+    {
+      "id": "charles-v",
+      "nom": "Charles V reprend l’avantage",
+      "debut": "1364",
+      "fin": "1380",
+      "resume": "Charles V et Du Guesclin évitent les grandes batailles et reprennent presque tout ce qui avait été perdu.",
+      "texte": "Devenu roi en 1364, Charles V reconstitue l’armée et les finances. La guerre reprend en 1369. Avec le connétable Bertrand Du Guesclin, il évite les grandes batailles rangées, harcèle les armées anglaises et reprend les places fortes une à une ; la flotte de son allié castillan bat les Anglais devant La Rochelle en 1372. À sa mort, en 1380, les Anglais ne tiennent plus que quelques ports, dont Calais, Bordeaux et Bayonne.",
+      "carte": {
+        "cadre": [
+          [
+            -10,
+            38
+          ],
+          [
+            8,
+            56
+          ]
+        ],
+        "statuts": {
+          "Castile": {
+            "statut": "france",
+            "note": "alliée de la France à partir de 1369"
+          }
+        }
+      },
+      "batailles": [
+        "pontvallain",
+        "la-rochelle"
+      ],
+      "evenements": [
+        {
+          "date": "1364",
+          "texte": "Charles V devient roi"
+        },
+        {
+          "date": "1369",
+          "texte": "Reprise de la guerre"
+        },
+        {
+          "date": "1380",
+          "texte": "Mort de Du Guesclin, puis de Charles V"
+        }
+      ]
+    },
+    {
+      "id": "division",
+      "nom": "La France divisée",
+      "debut": "1380",
+      "fin": "1414",
+      "resume": "Trêves avec l’Angleterre, folie du roi Charles VI et guerre civile entre Armagnacs et Bourguignons.",
+      "texte": "Les combats s’espacent et de longues trêves sont signées. En France, le roi Charles VI est frappé de crises de folie à partir de 1392 ; ses oncles et son frère se disputent le pouvoir. En 1407, le duc Louis d’Orléans est assassiné sur l’ordre du duc de Bourgogne, Jean sans Peur : la guerre civile éclate entre les Armagnacs, fidèles à la famille d’Orléans, et les Bourguignons.",
+      "carte": {
+        "cadre": [
+          [
+            -8,
+            42
+          ],
+          [
+            8,
+            56
+          ]
+        ],
+        "statuts": {}
+      },
+      "batailles": [],
+      "evenements": [
+        {
+          "date": "1392",
+          "texte": "Première crise de folie de Charles VI"
+        },
+        {
+          "date": "1407",
+          "texte": "Assassinat de Louis d’Orléans à Paris"
+        }
+      ]
+    },
+    {
+      "id": "henri-v",
+      "nom": "Azincourt et le traité de Troyes",
+      "debut": "1415",
+      "fin": "1428",
+      "resume": "Henri V écrase les Français à Azincourt, conquiert la Normandie et se fait reconnaître héritier du trône de France.",
+      "texte": "En 1415, Henri V d’Angleterre débarque en Normandie et écrase l’armée française à Azincourt. Il conquiert ensuite la Normandie. En 1419, Jean sans Peur est assassiné à Montereau par des partisans du dauphin Charles : le nouveau duc de Bourgogne, Philippe le Bon, s’allie aux Anglais. Le traité de Troyes (1420) fait d’Henri V l’héritier de Charles VI, à la place du dauphin. Henri V et Charles VI meurent en 1422 ; le dauphin, devenu Charles VII, ne contrôle plus que le sud de la Loire, et les Anglais assiègent Orléans en 1428.",
+      "carte": {
+        "cadre": [
+          [
+            -6,
+            42
+          ],
+          [
+            8,
+            54
+          ]
+        ],
+        "statuts": {}
+      },
+      "batailles": [
+        "azincourt",
+        "verneuil"
+      ],
+      "evenements": [
+        {
+          "date": "1415-10-25",
+          "texte": "Défaite française à Azincourt",
+          "ref": "bataille-d-azincourt"
+        },
+        {
+          "date": "1419",
+          "texte": "Assassinat de Jean sans Peur ; la Bourgogne s’allie à l’Angleterre"
+        },
+        {
+          "date": "1420",
+          "texte": "Traité de Troyes"
+        },
+        {
+          "date": "1422",
+          "texte": "Mort d’Henri V et de Charles VI"
+        }
+      ]
+    },
+    {
+      "id": "jeanne",
+      "nom": "Jeanne d’Arc",
+      "debut": "1428",
+      "fin": "1435",
+      "resume": "Jeanne d’Arc délivre Orléans et fait sacrer Charles VII ; la paix d’Arras réconcilie la France et la Bourgogne.",
+      "texte": "En 1429, une jeune paysanne lorraine, Jeanne d’Arc, qui dit agir sur l’ordre de Dieu, convainc Charles VII de lui confier des troupes. Elle fait lever le siège d’Orléans en mai, puis l’armée française gagne à Patay et Charles VII est sacré à Reims le 17 juillet 1429. Capturée par les Bourguignons à Compiègne en 1430 et livrée aux Anglais, Jeanne est jugée et brûlée à Rouen le 30 mai 1431. En 1435, par le traité d’Arras, Philippe le Bon se réconcilie avec Charles VII.",
+      "carte": {
+        "cadre": [
+          [
+            -6,
+            42
+          ],
+          [
+            8,
+            54
+          ]
+        ],
+        "statuts": {}
+      },
+      "batailles": [
+        "orleans",
+        "patay"
+      ],
+      "evenements": [
+        {
+          "date": "1429-05",
+          "texte": "Levée du siège d’Orléans",
+          "ref": "siege-d-orleans"
+        },
+        {
+          "date": "1429-07-17",
+          "texte": "Sacre de Charles VII à Reims"
+        },
+        {
+          "date": "1431-05-30",
+          "texte": "Jeanne d’Arc est brûlée à Rouen",
+          "ref": "jeanne-d-arc"
+        },
+        {
+          "date": "1435",
+          "texte": "Traité d’Arras entre la France et la Bourgogne"
+        }
+      ]
+    },
+    {
+      "id": "fin",
+      "nom": "La fin de la guerre",
+      "debut": "1436",
+      "fin": "1453",
+      "resume": "La France reprend Paris, la Normandie puis la Guyenne ; l’Angleterre ne garde que Calais.",
+      "texte": "Les troupes de Charles VII reprennent Paris en 1436. Le roi se dote d’une armée permanente et d’une artillerie puissante. La victoire de Formigny (1450) lui rend la Normandie ; en 1453, à Castillon, l’artillerie française écrase l’armée anglaise, puis Bordeaux se rend. Aucun traité de paix ne conclut la guerre, mais l’Angleterre ne garde sur le continent que Calais, qu’elle perdra en 1558.",
+      "carte": {
+        "cadre": [
+          [
+            -8,
+            42
+          ],
+          [
+            8,
+            54
+          ]
+        ],
+        "statuts": {}
+      },
+      "batailles": [
+        "formigny",
+        "castillon"
+      ],
+      "evenements": [
+        {
+          "date": "1436",
+          "texte": "Les troupes de Charles VII reprennent Paris"
+        },
+        {
+          "date": "1450",
+          "texte": "La Normandie redevient française"
+        },
+        {
+          "date": "1453-10",
+          "texte": "Bordeaux se rend : fin de la guerre"
+        }
+      ]
+    }
+  ],
+  "batailles": [
+    {
+      "id": "ecluse",
+      "nom": "Bataille de l’Écluse",
+      "debut": "1340-06-24",
+      "lieu": "L’Écluse (Sluis), Flandre",
+      "coords": [
+        3.39,
+        51.31
+      ],
+      "vainqueur": "angleterre",
+      "resume": "La flotte anglaise détruit la flotte française : l’Angleterre domine la Manche.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_l%27%C3%89cluse"
+    },
+    {
+      "id": "crecy",
+      "nom": "Bataille de Crécy",
+      "debut": "1346-08-26",
+      "lieu": "Crécy-en-Ponthieu",
+      "coords": [
+        1.93,
+        50.25
+      ],
+      "vainqueur": "angleterre",
+      "resume": "Les archers anglais, armés du grand arc, déciment la chevalerie française de Philippe VI.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Cr%C3%A9cy"
+    },
+    {
+      "id": "calais",
+      "nom": "Siège de Calais",
+      "debut": "1346-09",
+      "fin": "1347-08",
+      "lieu": "Calais",
+      "coords": [
+        1.86,
+        50.95
+      ],
+      "vainqueur": "angleterre",
+      "resume": "Après onze mois de siège, la ville affamée se rend à Édouard III ; elle restera anglaise jusqu’en 1558.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Calais_(1346-1347)"
+    },
+    {
+      "id": "poitiers",
+      "nom": "Bataille de Poitiers",
+      "debut": "1356-09-19",
+      "lieu": "Près de Poitiers",
+      "coords": [
+        0.35,
+        46.6
+      ],
+      "vainqueur": "angleterre",
+      "resume": "Le Prince noir bat l’armée française et capture le roi Jean II le Bon.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Poitiers_(1356)"
+    },
+    {
+      "id": "pontvallain",
+      "nom": "Bataille de Pontvallain",
+      "debut": "1370-12",
+      "lieu": "Pontvallain, Maine",
+      "coords": [
+        0.19,
+        47.75
+      ],
+      "vainqueur": "france",
+      "resume": "Du Guesclin surprend et disperse une armée anglaise qui ravageait le pays.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Pontvallain"
+    },
+    {
+      "id": "la-rochelle",
+      "nom": "Bataille de La Rochelle",
+      "debut": "1372-06",
+      "lieu": "Au large de La Rochelle",
+      "coords": [
+        -1.15,
+        46.16
+      ],
+      "vainqueur": "france",
+      "resume": "La flotte castillane, alliée de la France, détruit une flotte anglaise : le Poitou est ensuite repris.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_La_Rochelle_(1372)"
+    },
+    {
+      "id": "azincourt",
+      "nom": "Bataille d’Azincourt",
+      "debut": "1415-10-25",
+      "lieu": "Azincourt, Artois",
+      "coords": [
+        2.14,
+        50.46
+      ],
+      "vainqueur": "angleterre",
+      "resume": "Sur un terrain boueux, l’armée d’Henri V, bien moins nombreuse, écrase la chevalerie française.",
+      "ref": "bataille-d-azincourt",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_d%27Azincourt"
+    },
+    {
+      "id": "verneuil",
+      "nom": "Bataille de Verneuil",
+      "debut": "1424-08-17",
+      "lieu": "Verneuil, Normandie",
+      "coords": [
+        0.93,
+        48.74
+      ],
+      "vainqueur": "angleterre",
+      "resume": "Les Anglais battent une armée française renforcée de nombreux Écossais.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Verneuil"
+    },
+    {
+      "id": "orleans",
+      "nom": "Siège d’Orléans",
+      "debut": "1428-10",
+      "fin": "1429-05",
+      "lieu": "Orléans",
+      "coords": [
+        1.91,
+        47.9
+      ],
+      "vainqueur": "france",
+      "resume": "Les Anglais assiègent la ville, clé du sud de la Loire ; l’arrivée de Jeanne d’Arc les force à lever le siège.",
+      "ref": "siege-d-orleans",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_d%27Orl%C3%A9ans_(1428-1429)"
+    },
+    {
+      "id": "patay",
+      "nom": "Bataille de Patay",
+      "debut": "1429-06-18",
+      "lieu": "Patay, Beauce",
+      "coords": [
+        1.7,
+        48.05
+      ],
+      "vainqueur": "france",
+      "resume": "La cavalerie française surprend l’armée anglaise avant que ses archers soient en place : la route de Reims est ouverte.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Patay"
+    },
+    {
+      "id": "formigny",
+      "nom": "Bataille de Formigny",
+      "debut": "1450-04-15",
+      "lieu": "Formigny, Normandie",
+      "coords": [
+        -0.9,
+        49.33
+      ],
+      "vainqueur": "france",
+      "resume": "Victoire française qui permet de reprendre toute la Normandie.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Formigny"
+    },
+    {
+      "id": "castillon",
+      "nom": "Bataille de Castillon",
+      "debut": "1453-07-17",
+      "lieu": "Castillon, Guyenne",
+      "coords": [
+        -0.04,
+        44.85
+      ],
+      "vainqueur": "france",
+      "resume": "L’artillerie française écrase l’armée anglaise de John Talbot, qui est tué : c’est la dernière bataille de la guerre.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Castillon"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Édouard III",
+      "camp": "angleterre",
+      "role": "Roi d’Angleterre",
+      "dates": "1312 → 1377",
+      "description": "Petit-fils de Philippe le Bel par sa mère, il revendique la couronne de France et déclenche la guerre ; vainqueur à Crécy.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/%C3%89douard_III"
+    },
+    {
+      "nom": "Philippe VI",
+      "camp": "france",
+      "role": "Roi de France",
+      "dates": "1293 → 1350",
+      "description": "Premier roi de la dynastie des Valois, il confisque la Guyenne en 1337 et est battu à Crécy.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Philippe_VI_de_France"
+    },
+    {
+      "nom": "Édouard de Woodstock, le Prince noir",
+      "camp": "angleterre",
+      "role": "Prince de Galles, fils d’Édouard III",
+      "dates": "1330 → 1376",
+      "description": "Grand chef de guerre, il ravage le sud-ouest de la France et capture le roi Jean II à Poitiers.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/%C3%89douard_de_Woodstock"
+    },
+    {
+      "nom": "Jean II le Bon",
+      "camp": "france",
+      "role": "Roi de France",
+      "dates": "1319 → 1364",
+      "description": "Capturé à Poitiers, il passe plusieurs années prisonnier en Angleterre ; sa rançon est énorme.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Jean_II_le_Bon"
+    },
+    {
+      "nom": "Charles V",
+      "camp": "france",
+      "role": "Roi de France",
+      "dates": "1338 → 1380",
+      "description": "Surnommé « le Sage », il réorganise le royaume et reprend presque toutes les terres perdues.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Charles_V_le_Sage"
+    },
+    {
+      "nom": "Bertrand Du Guesclin",
+      "camp": "france",
+      "role": "Connétable de France",
+      "dates": "vers 1320 → 1380",
+      "description": "Chevalier breton, il mène pour Charles V une guerre d’usure qui chasse peu à peu les Anglais.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bertrand_Du_Guesclin"
+    },
+    {
+      "nom": "Henri V",
+      "camp": "angleterre",
+      "role": "Roi d’Angleterre",
+      "dates": "1386 → 1422",
+      "description": "Vainqueur à Azincourt, il conquiert la Normandie et devient par le traité de Troyes l’héritier du trône de France.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Henri_V_(roi_d%27Angleterre)"
+    },
+    {
+      "nom": "Philippe le Bon",
+      "camp": "angleterre",
+      "role": "Duc de Bourgogne, allié des Anglais de 1419 à 1435",
+      "dates": "1396 → 1467",
+      "description": "Après l’assassinat de son père, il s’allie à l’Angleterre, puis se réconcilie avec Charles VII au traité d’Arras.",
+      "ref": "philippe-le-bon"
+    },
+    {
+      "nom": "Jeanne d’Arc",
+      "camp": "france",
+      "role": "Chef de guerre",
+      "dates": "vers 1412 → 1431",
+      "description": "Elle fait lever le siège d’Orléans et sacrer Charles VII à Reims, avant d’être capturée et brûlée à Rouen.",
+      "ref": "jeanne-d-arc",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Jeanne_d%27Arc"
+    },
+    {
+      "nom": "Charles VII",
+      "camp": "france",
+      "role": "Roi de France",
+      "dates": "1403 → 1461",
+      "description": "Déshérité par le traité de Troyes, il est sacré à Reims grâce à Jeanne d’Arc et termine la guerre victorieusement.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Charles_VII_(roi_de_France)"
+    },
+    {
+      "nom": "John Talbot",
+      "camp": "angleterre",
+      "role": "Chef de guerre anglais",
+      "dates": "vers 1387 → 1453",
+      "description": "L’un des plus célèbres capitaines anglais ; il est tué à Castillon, dernière bataille de la guerre.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/John_Talbot_(1er_comte_de_Shrewsbury)"
+    }
+  ],
+  "sections": [
+    {
+      "titre": "Les causes",
+      "texte": "La guerre a deux grandes causes. D’abord une querelle de succession : en 1328, la couronne de France passe aux Valois, alors qu’Édouard III d’Angleterre est, par sa mère, le petit-fils de Philippe le Bel. Ensuite une querelle de terres : le roi d’Angleterre possède la Guyenne, mais il doit pour cela prêter hommage au roi de France, ce qui crée sans cesse des conflits. La Flandre, riche région de draperie qui achète la laine anglaise, est aussi un enjeu."
+    },
+    {
+      "titre": "Une guerre de trêves et de chevauchées",
+      "texte": "Malgré son nom, la guerre n’est pas continue : de longues trêves séparent les campagnes. Les Anglais mènent surtout des « chevauchées », de grands raids qui pillent et brûlent les campagnes pour affaiblir le roi de France. Les populations souffrent aussi des bandes de soldats sans emploi, les « Grandes Compagnies », et de la Peste noire."
+    },
+    {
+      "titre": "Jeanne d’Arc",
+      "texte": "Jeanne d’Arc arrive à un moment où le camp de Charles VII semble perdu. Sa réussite à Orléans et le sacre de Reims redonnent confiance à ses partisans et renforcent la légitimité du roi. Après sa mort, un procès en nullité la réhabilite en 1456. Elle est canonisée par l’Église catholique en 1920 et devient l’un des grands personnages de l’histoire de France."
+    },
+    {
+      "titre": "Les conséquences",
+      "texte": "La guerre renforce le pouvoir du roi de France, qui crée un impôt et une armée permanents. Le sentiment d’appartenir à un même royaume progresse, en France comme en Angleterre. L’artillerie s’impose sur les champs de bataille. L’Angleterre, qui a perdu presque toutes ses terres du continent, sombre peu après dans une guerre civile, la guerre des Deux-Roses (1455-1485)."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "succession",
+      "type": "mcq",
+      "prompt": "Pourquoi le roi d’Angleterre Édouard III revendique-t-il la couronne de France ?",
+      "options": [
+        "Il est le petit-fils de Philippe le Bel par sa mère",
+        "Il a épousé la reine de France",
+        "Il a été élu par les seigneurs français",
+        "Le pape lui a donné la couronne"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "duree",
+      "type": "tf",
+      "prompt": "La guerre de Cent Ans est une suite de guerres entrecoupées de longues trêves, et non cent ans de combats sans arrêt.",
+      "answer": true
+    },
+    {
+      "id": "crecy",
+      "type": "mcq",
+      "prompt": "Quelle arme donne aux Anglais l’avantage à Crécy et à Azincourt ?",
+      "options": [
+        "Le grand arc des archers",
+        "Le canon",
+        "L’arbalète",
+        "Le fusil"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "poitiers",
+      "type": "mcq",
+      "prompt": "Quel roi de France est fait prisonnier à la bataille de Poitiers, en 1356 ?",
+      "options": [
+        "Jean II le Bon",
+        "Philippe VI",
+        "Charles V",
+        "Charles VII"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "peste",
+      "type": "tf",
+      "prompt": "La Peste noire frappe l’Europe pendant la guerre de Cent Ans.",
+      "answer": true,
+      "explanation": "Elle arrive en 1347 et tue entre un tiers et la moitié des Européens, selon les estimations."
+    },
+    {
+      "id": "du-guesclin",
+      "type": "mcq",
+      "prompt": "Quel connétable aide Charles V à reprendre les terres occupées par les Anglais ?",
+      "options": [
+        "Bertrand Du Guesclin",
+        "John Talbot",
+        "Jean sans Peur",
+        "Le Prince noir"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "factions",
+      "type": "mcq",
+      "prompt": "Comment s’appellent les deux partis qui se déchirent en France au début du XVe siècle ?",
+      "options": [
+        "Les Armagnacs et les Bourguignons",
+        "Les Guelfes et les Gibelins",
+        "Les Catholiques et les Protestants",
+        "Les Yorks et les Lancastres"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "troyes",
+      "type": "tf",
+      "prompt": "Par le traité de Troyes (1420), le roi d’Angleterre Henri V devient l’héritier du trône de France.",
+      "answer": true
+    },
+    {
+      "id": "orleans",
+      "type": "mcq",
+      "prompt": "Quelle ville Jeanne d’Arc délivre-t-elle en 1429 ?",
+      "options": [
+        "Orléans",
+        "Paris",
+        "Rouen",
+        "Calais"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sacre",
+      "type": "mcq",
+      "prompt": "Dans quelle ville Charles VII est-il sacré en 1429 ?",
+      "options": [
+        "Reims",
+        "Paris",
+        "Orléans",
+        "Bourges"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "castillon",
+      "type": "mcq",
+      "prompt": "Quelle bataille, en 1453, met fin à la guerre de Cent Ans ?",
+      "options": [
+        "Castillon",
+        "Azincourt",
+        "Crécy",
+        "Patay"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "calais",
+      "type": "tf",
+      "prompt": "À la fin de la guerre, l’Angleterre ne garde sur le continent que la ville de Calais.",
+      "answer": true,
+      "explanation": "Elle la perd en 1558."
+    },
+    {
+      "id": "ordre",
+      "type": "order",
+      "prompt": "Remets ces batailles dans l’ordre chronologique.",
+      "items": [
+        "Crécy",
+        "Poitiers",
+        "Azincourt",
+        "Castillon"
+      ]
+    }
+  ],
+  "guerresLiees": [
+    "Guerre de Cent Ans|1337"
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Guerre_de_Cent_Ans",
+    {
+      "titre": "Encyclopædia Britannica — Hundred Years’ War",
+      "url": "https://www.britannica.com/event/Hundred-Years-War"
+    }
+  ]
+}

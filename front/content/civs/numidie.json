@@ -1,0 +1,242 @@
+{
+  "documentaires": [],
+  "decouvertes": ["medracen"],
+  "id": "numidie",
+  "label": "Royaume de Numidie",
+  "tier": 1,
+  "region": "afrique-nord",
+  "period": "-202 à -46",
+  "start": -202,
+  "end": -46,
+  "color": "#c77d2e",
+  "trackId": "numidie",
+  "row": 1,
+  "isRiver": false,
+  "capitale": "Cirta (Constantine)",
+  "description": "Un royaume berbère d’Afrique du Nord, unifié par Massinissa avec l’appui de Rome contre Carthage, qui finit par affronter Rome avec Jugurtha avant de devenir une province romaine.",
+  "territories": ["Numidia"],
+  "reperes": {
+    "capitale": { "valeur": "Cirta", "precision": "l’actuelle Constantine, en Algérie" },
+    "regimes": { "valeur": "Monarchie", "precision": "le roi (aguellid) s’appuie sur les chefs de tribus" },
+    "langues": {
+      "valeur": "Libyque (berbère)",
+      "precision": "écrit dans un alphabet propre ; le punique est la langue de la cour"
+    },
+    "religion": { "valeur": "Dieux berbères et puniques", "precision": "comme Baal Hammon ; les rois défunts sont honorés" },
+    "apogee": { "valeur": "Règne de Massinissa (−202 → −148)" },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": { "valeur": "Pièces de bronze", "precision": "à l’effigie des rois" },
+    "duree": { "valeur": "Environ 150 ans", "precision": "comme royaume unifié" },
+    "aujourdhui": { "valeur": "Algérie", "precision": "ainsi que l’ouest de la Tunisie" }
+  },
+  "essentiel": [
+    "Les Numides sont des peuples berbères d’Afrique du Nord, cavaliers réputés, divisés en deux royaumes à la fin du IIIe siècle av. J.-C.",
+    "[[massinissa|Massinissa]] s’allie à Rome contre Carthage ; sa cavalerie contribue à la victoire de [[bataille-de-zama|Zama]] (−202), après laquelle il unifie la Numidie.",
+    "Pendant plus de cinquante ans de règne, il développe l’agriculture et les villes, et grignote le territoire de Carthage.",
+    "Son petit-fils [[jugurtha|Jugurtha]] affronte Rome lors de la [[guerre-de-jugurtha|guerre de Jugurtha]] (−112 → −105), racontée par l’historien Salluste.",
+    "Allié de Pompée contre César, le roi Juba Ier est vaincu à Thapsus (−46) : la Numidie devient une province romaine."
+  ],
+  "datesCles": [
+    {
+      "annee": -206,
+      "evenement": "Alliance avec Rome",
+      "info": "Massinissa, prince des Massyles, quitte le camp carthaginois pour celui de Scipion."
+    },
+    {
+      "annee": -203,
+      "evenement": "Défaite de Syphax",
+      "info": "Le roi des Masaesyles, allié de Carthage, est capturé."
+    },
+    {
+      "annee": -202,
+      "evenement": "Zama",
+      "info": "La cavalerie numide de Massinissa aide Scipion à battre Hannibal.",
+      "ref": "bataille-de-zama"
+    },
+    { "annee": -148, "evenement": "Mort de Massinissa", "info": "Il meurt à environ 90 ans, après 54 ans de règne." },
+    {
+      "annee": -112,
+      "evenement": "Guerre de Jugurtha",
+      "info": "Jugurtha prend Cirta et fait tuer des marchands italiens : Rome lui déclare la guerre.",
+      "ref": "guerre-de-jugurtha"
+    },
+    {
+      "annee": -105,
+      "evenement": "Capture de Jugurtha",
+      "info": "Trahi par son beau-père Bocchus, roi de Maurétanie, il est livré aux Romains."
+    },
+    {
+      "annee": -46,
+      "evenement": "Thapsus",
+      "info": "César bat Juba Ier et les partisans de Pompée ; la Numidie devient la province d’Africa Nova."
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "Deux royaumes numides",
+      "debut": -220,
+      "fin": -202,
+      "resume": "Massyles à l’est et Masaesyles à l’ouest se disputent la Numidie, entre Rome et Carthage.",
+      "evenements": [{ "annee": -206, "evenement": "Massinissa rejoint Rome" }, { "annee": -203, "evenement": "Défaite de Syphax" }]
+    },
+    {
+      "nom": "Le royaume de Massinissa",
+      "debut": -202,
+      "fin": -118,
+      "resume": "Massinissa puis son fils Micipsa gouvernent une Numidie unifiée et prospère, alliée de Rome.",
+      "evenements": [
+        { "annee": -202, "evenement": "Zama", "ref": "bataille-de-zama" },
+        { "annee": -146, "evenement": "Destruction de Carthage" }
+      ]
+    },
+    {
+      "nom": "Face à Rome",
+      "debut": -118,
+      "fin": -46,
+      "resume": "Jugurtha défie Rome ; après sa défaite, la Numidie, divisée et affaiblie, est annexée par César.",
+      "evenements": [
+        { "annee": -112, "evenement": "Guerre de Jugurtha", "ref": "guerre-de-jugurtha" },
+        { "annee": -46, "evenement": "Thapsus" }
+      ]
+    }
+  ],
+  "regimes": [{ "id": "royaume", "nom": "Royaume de Numidie", "debut": -202, "fin": -46, "note": "Allié, puis client de Rome." }],
+  "dynasties": [{ "id": "massyles", "nom": "Les rois numides", "debut": -202, "fin": -46 }],
+  "dirigeants": [
+    {
+      "nom": "Massinissa",
+      "titre": "Roi",
+      "debut": -202,
+      "fin": -148,
+      "dynastie": "massyles",
+      "personne": "massinissa",
+      "cle": true
+    },
+    {
+      "nom": "Micipsa",
+      "titre": "Roi",
+      "debut": -148,
+      "fin": -118,
+      "dynastie": "massyles",
+      "note": "fils de Massinissa",
+      "cle": true
+    },
+    { "nom": "Adherbal", "titre": "Roi", "debut": -118, "fin": -112, "dynastie": "massyles", "note": "tué par Jugurtha" },
+    {
+      "nom": "Jugurtha",
+      "titre": "Roi",
+      "debut": -118,
+      "fin": -105,
+      "dynastie": "massyles",
+      "personne": "jugurtha",
+      "note": "petit-fils de Massinissa",
+      "cle": true
+    },
+    { "nom": "Gauda", "titre": "Roi", "debut": -105, "fin": -88, "dynastie": "massyles" },
+    { "nom": "Hiempsal II", "titre": "Roi", "debut": -88, "fin": -60, "dynastie": "massyles" },
+    {
+      "nom": "Juba Ier",
+      "titre": "Roi",
+      "debut": -60,
+      "fin": -46,
+      "dynastie": "massyles",
+      "note": "allié de Pompée, vaincu par César",
+      "cle": true
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Massinissa",
+      "role": "Roi",
+      "description": "Le fondateur du royaume unifié de Numidie.",
+      "dates": "vers −238 → −148",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Massinissa",
+      "ref": "massinissa"
+    },
+    {
+      "nom": "Jugurtha",
+      "role": "Roi",
+      "description": "Le roi qui défie Rome pendant sept ans.",
+      "dates": "vers −160 → −104",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Jugurtha",
+      "ref": "jugurtha"
+    },
+    {
+      "nom": "Sophonisbe",
+      "role": "Noble carthaginoise",
+      "description": "Épouse de Syphax puis de Massinissa, elle s’empoisonne en −203 pour ne pas être livrée aux Romains, selon Tite-Live.",
+      "dates": "morte en −203",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Sophonisbe"
+    },
+    {
+      "nom": "Salluste",
+      "role": "Historien romain",
+      "description": "Gouverneur de la province d’Africa Nova, il écrit « La Guerre de Jugurtha ».",
+      "dates": "−86 → −35",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Salluste"
+    },
+    {
+      "nom": "Juba II",
+      "role": "Roi savant",
+      "description": "Fils de Juba Ier, élevé à Rome, il devient roi de Maurétanie et écrit de nombreux livres en grec ; il épouse la fille de Cléopâtre.",
+      "dates": "vers −52 → 23",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Juba_II"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Bataille de Zama",
+      "annee": -202,
+      "adversaires": ["Carthage (Hannibal)"],
+      "allies": ["République romaine (Scipion)"],
+      "morts": "Environ 20 000 Carthaginois selon Polybe",
+      "vainqueur": "Rome et les Numides de Massinissa",
+      "consequences": "Carthage perd la deuxième guerre punique ; Massinissa reçoit le royaume de Syphax et unifie la Numidie.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Zama"
+    },
+    {
+      "nom": "Guerre de Jugurtha",
+      "annee": -112,
+      "adversaires": ["République romaine (Metellus, puis Marius)"],
+      "allies": ["Maurétanie (Bocchus, jusqu’en −105)"],
+      "morts": "Inconnues",
+      "vainqueur": "République romaine",
+      "consequences": "Jugurtha, livré par Bocchus, meurt dans une prison de Rome. La guerre révèle la corruption d’une partie de la noblesse romaine.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_de_Jugurtha"
+    },
+    {
+      "nom": "Bataille de Thapsus",
+      "annee": -46,
+      "adversaires": ["Jules César"],
+      "allies": ["Partisans de Pompée"],
+      "morts": "Environ 10 000 selon les auteurs anciens",
+      "vainqueur": "Jules César",
+      "consequences": "Juba Ier se donne la mort ; la Numidie devient la province romaine d’Africa Nova.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_de_Thapsus"
+    }
+  ],
+  "sciences": "Les Numides développent l’agriculture : selon les auteurs anciens, Massinissa transforme des terres de pâturage en champs de blé, et la Numidie exporte des céréales. Les rois bâtissent de grands mausolées de pierre, comme le Medracen, et des villes fortifiées comme Cirta.",
+  "croyancesText": "Les Numides honorent des dieux berbères, ainsi que des dieux puniques comme Baal Hammon et Tanit, adoptés au contact de Carthage. Après leur mort, les rois sont vénérés comme des êtres divins, et leurs tombeaux deviennent des lieux de culte.",
+  "diplomatie": "La Numidie est prise entre Carthage et Rome. Massinissa choisit Rome et profite de la défaite de Carthage pour agrandir son royaume. Ses successeurs deviennent des clients de Rome, qui intervient dans leurs querelles de succession.",
+  "societe": "La société est formée de tribus de cavaliers et d’éleveurs, mais aussi de paysans et de citadins. Les rois s’entourent de conseillers formés à la culture punique et grecque.",
+  "economie": "Élevage de chevaux, agriculture du blé, commerce avec Carthage puis avec Rome, ivoire et fauves pour les jeux.",
+  "arts": "Mausolées royaux comme le Medracen, stèles et inscriptions bilingues punique-libyque.",
+  "quotidien": "Les cavaliers numides montent sans selle ni mors, guidant leur cheval avec une simple corde et la voix.",
+  "heritage": [
+    {
+      "titre": "Une figure berbère",
+      "texte": "Massinissa et Jugurtha sont célébrés comme des héros dans l’Algérie actuelle."
+    },
+    {
+      "titre": "L’écriture libyque",
+      "texte": "L’alphabet libyque des Numides est l’ancêtre du tifinagh, utilisé aujourd’hui pour écrire les langues berbères."
+    }
+  ],
+  "aSavoir": [
+    "Selon Salluste, Jugurtha aurait dit de Rome : « Ville à vendre, et qui périra bientôt, si elle trouve un acheteur ! »"
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Numidie",
+    { "titre": "Encyclopædia Britannica — Numidia", "url": "https://www.britannica.com/place/Numidia" }
+  ]
+}

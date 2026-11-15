@@ -1,0 +1,17 @@
+{
+  "id": "bataille-d-ain-jalut",
+  "nom": "Bataille d’Aïn Djalout",
+  "annee": 1260,
+  "dates": "3 septembre 1260",
+  "lieu": "Aïn Djalout (Galilée)",
+  "description": "L’armée mamelouke du sultan Qutuz et de [[baybars|Baybars]] bat l’armée mongole laissée en Syrie par Hülegü.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "C’est la première grande défaite des Mongols dans une bataille rangée. L’Égypte échappe à la conquête, et les Mamelouks reprennent la Syrie."
+    }
+  ],
+  "liens": [{ "ref": "baybars", "relation": "L’un des chefs mamelouks" }],
+  "apres": "chute-d-acre",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bataille_d%27A%C3%AFn_Djalout"
+}

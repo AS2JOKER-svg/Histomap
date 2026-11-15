@@ -1,0 +1,18 @@
+{
+  "id": "chulalongkorn",
+  "nom": "Chulalongkorn",
+  "role": "Roi de Siam",
+  "roles": ["Roi", "Réformateur"],
+  "dates": "1853 → 1910",
+  "naissance": 1853,
+  "mort": 1910,
+  "description": "Roi de Siam de 1868 à 1910 sous le nom de Rama V, il modernise profondément le pays et préserve son indépendance face aux empires coloniaux.",
+  "reperes": [{ "label": "Règne", "valeur": "1868 → 1910" }],
+  "essentiel": [
+    "Il abolit progressivement l’esclavage et la corvée.",
+    "Il crée des ministères, des écoles, la poste et des chemins de fer.",
+    "Il voyage en Europe (1897 et 1907), une première pour un roi de Siam.",
+    "Il cède des territoires à la France et au Royaume-Uni pour garder l’indépendance du cœur du royaume."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Chulalongkorn"
+}

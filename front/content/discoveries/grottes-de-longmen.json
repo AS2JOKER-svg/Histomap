@@ -1,0 +1,15 @@
+{
+  "id": "grottes-de-longmen",
+  "nom": "Grottes de Longmen",
+  "domaine": "Art et religion",
+  "dates": "fin du Ve siècle → VIIIe siècle",
+  "description": "Des milliers de grottes et de niches creusées dans les falaises au bord d’une rivière, près de Luoyang, qui abritent des dizaines de milliers de statues bouddhistes.",
+  "sections": [
+    {
+      "titre": "Une œuvre de plusieurs siècles",
+      "texte": "Les travaux commencent vers 493, quand les Wei du Nord installent leur capitale à Luoyang, et se poursuivent sous les Tang, qui y sculptent un Bouddha de plus de 17 mètres."
+    },
+    { "titre": "Aujourd’hui", "texte": "Le site est inscrit au patrimoine mondial de l’UNESCO depuis 2000." }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Grottes_de_Longmen"
+}

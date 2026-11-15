@@ -1,0 +1,15 @@
+{
+  "id": "kanishka",
+  "nom": "Kanishka",
+  "role": "Roi des Kouchans",
+  "roles": ["Roi des rois"],
+  "dates": "IIe siècle",
+  "description": "Le plus puissant des rois kouchans : il règne de l’Asie centrale à la vallée du Gange et protège le bouddhisme.",
+  "reperes": [{ "label": "Règne", "valeur": "vers 127 → vers 150", "precision": "datation la plus admise" }],
+  "essentiel": [
+    "Il fait remplacer le grec par le bactrien sur ses monnaies.",
+    "Selon la tradition, il réunit un grand concile bouddhiste au Cachemire.",
+    "Il fait bâtir près de Peshawar un immense stupa."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Kanishka"
+}

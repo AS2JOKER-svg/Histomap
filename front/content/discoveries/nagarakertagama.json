@@ -1,0 +1,15 @@
+{
+  "id": "nagarakertagama",
+  "nom": "Nagarakertagama",
+  "annee": 1365,
+  "domaine": "Littérature",
+  "dates": "1365",
+  "description": "Un long poème en vieux-javanais écrit en 1365 par le moine Prapanca, qui décrit la cour du roi Hayam Wuruk, ses voyages, ses fêtes et les terres de l’empire.",
+  "sections": [
+    {
+      "titre": "Une source précieuse",
+      "texte": "Il énumère près d’une centaine de territoires qui reconnaîtraient l’autorité de Majapahit ; les historiens pensent que cette liste exagère le pouvoir réel de l’empire. Le manuscrit est inscrit au registre « Mémoire du monde » de l’UNESCO."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Nagarakertagama"
+}

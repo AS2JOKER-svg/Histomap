@@ -1,0 +1,19 @@
+{
+  "id": "ambassade-du-siam-en-france",
+  "nom": "Ambassade du Siam en France",
+  "annee": 1686,
+  "dates": "1686",
+  "lieu": "Versailles (France)",
+  "description": "Une ambassade envoyée par le roi Narai d’Ayutthaya, conduite par Kosa Pan, est reçue par Louis XIV à Versailles.",
+  "sections": [
+    {
+      "titre": "Un grand succès",
+      "texte": "Les ambassadeurs, leurs costumes et leurs cadeaux fascinent la cour et le public ; on fabrique des objets « à la siamoise »."
+    },
+    {
+      "titre": "Une fin brutale",
+      "texte": "En 1688, une révolution de palais à Ayutthaya renverse le parti favorable aux Français, qui doivent quitter le pays."
+    }
+  ],
+  "wikiUrl": "https://en.wikipedia.org/wiki/Siamese_embassy_to_France_(1686)"
+}

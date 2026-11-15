@@ -1,0 +1,20 @@
+{
+  "id": "expedition-punitive-de-benin",
+  "nom": "Expédition punitive de 1897",
+  "annee": 1897,
+  "dates": "février 1897",
+  "lieu": "Benin City (Nigeria)",
+  "description": "Après la mort de membres d’une délégation britannique, le Royaume-Uni envoie une armée qui prend et incendie Benin City.",
+  "sections": [
+    {
+      "titre": "Conséquences",
+      "texte": "L’oba [[ovonramwen|Ovonramwen]] est exilé et le royaume annexé. Les soldats emportent des milliers d’objets d’art, vendus ou donnés à des musées européens."
+    },
+    {
+      "titre": "Aujourd’hui",
+      "texte": "Le Nigeria demande leur restitution ; l’Allemagne, des musées britanniques et américains ont commencé à en rendre au début des années 2020."
+    }
+  ],
+  "liens": [{ "ref": "ovonramwen", "relation": "L’oba renversé" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Exp%C3%A9dition_punitive_britannique_au_B%C3%A9nin"
+}

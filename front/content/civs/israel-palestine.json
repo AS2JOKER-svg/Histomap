@@ -1,0 +1,392 @@
+{
+  "documentaires": [],
+  "decouvertes": [],
+  "id": "israel-palestine",
+  "label": "Israël et Palestine",
+  "tier": 1,
+  "region": "levant",
+  "period": "1917 à 2020",
+  "start": 1917,
+  "end": 2020,
+  "trackId": "israel-palestine",
+  "row": 9,
+  "isRiver": false,
+  "capitale": "Jérusalem (statut disputé)",
+  "color": "#1565c0",
+  "description": "La terre située entre la Méditerranée et le Jourdain, sous mandat britannique de 1920 à 1948, où naissent l’État d’Israël et le mouvement national palestinien, au cœur d’un conflit qui dure depuis plus d’un siècle.",
+  "territories": ["Mandatory Palestine (GB)", "Israel"],
+  "reperes": {
+    "capitale": {
+      "valeur": "Jérusalem (statut disputé)",
+      "precision": "Israël en fait sa capitale ; les Palestiniens revendiquent Jérusalem-Est comme capitale de leur futur État ; en 2020, la plupart des pays gardent leur ambassade à Tel-Aviv"
+    },
+    "regimes": {
+      "valeur": "Mandat britannique, puis État d’Israël et territoires palestiniens",
+      "precision": "Israël : démocratie parlementaire ; Autorité palestinienne depuis 1994"
+    },
+    "langues": { "valeur": "Hébreu et arabe" },
+    "religion": {
+      "valeur": "Judaïsme et islam",
+      "precision": "chrétiens et druzes ; lieux saints des trois religions à Jérusalem"
+    },
+    "population": {
+      "valeur": "Environ 14 millions en 2020",
+      "precision": "environ 9,2 millions en Israël, dont environ 2 millions d’Arabes israéliens, et 5 millions dans les territoires palestiniens (offices statistiques israélien et palestinien)"
+    },
+    "monnaie": {
+      "valeur": "Livre palestinienne, puis shekel israélien",
+      "precision": "le shekel est aussi utilisé dans les territoires palestiniens"
+    },
+    "duree": { "valeur": "Environ 100 ans dans cette fiche" },
+    "aujourdhui": {
+      "valeur": "Israël et territoires palestiniens (Cisjordanie, bande de Gaza)",
+      "precision": "l’État de Palestine, proclamé en 1988, est reconnu par une majorité des pays de l’ONU, mais pas par Israël"
+    }
+  },
+  "essentiel": [
+    "À la fin du XIXe siècle naît le sionisme, mouvement qui veut créer un foyer national juif sur la terre de leurs ancêtres ; la région, ottomane, est alors peuplée en grande majorité d’Arabes. En 1917, la [[declaration-balfour|déclaration Balfour]] britannique promet un « foyer national pour le peuple juif » en Palestine.",
+    "Sous le mandat britannique (1920-1948), l’immigration juive, accrue par les persécutions en Europe et la [[shoah|Shoah]], provoque des affrontements avec les Arabes palestiniens, qui réclament leur indépendance.",
+    "En 1947, l’ONU vote un plan de partage en deux États, juif et arabe, accepté par les dirigeants sionistes et rejeté par les dirigeants arabes. Israël proclame son indépendance le 14 mai 1948 ; pendant la [[guerre-de-1948|guerre]] qui suit, environ 700 000 Palestiniens fuient ou sont expulsés : c’est la Nakba (« catastrophe »). De 1948 aux années 1970, environ 850 000 Juifs quittent les pays arabes ou en sont chassés, la plupart pour Israël.",
+    "En 1967, Israël occupe la Cisjordanie, Jérusalem-Est et la bande de Gaza. Les Palestiniens se soulèvent lors de deux intifadas (1987 et 2000) ; des attentats, dont des attentats-suicides, visent des civils israéliens, et la répression fait de nombreuses victimes palestiniennes.",
+    "Les [[accords-d-oslo|accords d’Oslo]] (1993) créent une Autorité palestinienne, mais le processus de paix échoue ; depuis 2007, le Hamas contrôle la bande de Gaza, soumise à un blocus israélien et égyptien. En octobre 2023, après la période couverte par cette fiche, une attaque du Hamas tue environ 1 200 personnes en Israël, et la guerre qui suit dans la bande de Gaza fait des dizaines de milliers de morts."
+  ],
+  "datesCles": [
+    {
+      "annee": 1917,
+      "evenement": "Déclaration Balfour",
+      "info": "Le Royaume-Uni promet un « foyer national juif » en Palestine.",
+      "ref": "declaration-balfour"
+    },
+    {
+      "annee": 1920,
+      "evenement": "Mandat britannique",
+      "info": "Le Royaume-Uni reçoit le mandat sur la Palestine, confirmé par la Société des Nations en 1922."
+    },
+    {
+      "annee": 1936,
+      "evenement": "Grande révolte arabe",
+      "info": "Les Arabes palestiniens se soulèvent contre les Britanniques et l’immigration juive."
+    },
+    {
+      "annee": 1947,
+      "evenement": "Plan de partage",
+      "info": "Le 29 novembre, l’ONU vote le partage de la Palestine en deux États."
+    },
+    {
+      "annee": 1948,
+      "evenement": "Indépendance d’Israël et Nakba",
+      "info": "Israël proclame son indépendance ; environ 700 000 Palestiniens deviennent des réfugiés.",
+      "ref": "guerre-de-1948"
+    },
+    { "annee": 1964, "evenement": "OLP", "info": "Création de l’Organisation de libération de la Palestine." },
+    {
+      "annee": 1967,
+      "evenement": "Guerre des Six Jours",
+      "info": "Israël occupe la Cisjordanie, Jérusalem-Est, Gaza, le Sinaï et le Golan."
+    },
+    {
+      "annee": 1987,
+      "evenement": "Première intifada",
+      "info": "Soulèvement des Palestiniens des territoires occupés."
+    },
+    {
+      "annee": 1993,
+      "evenement": "Accords d’Oslo",
+      "info": "Israël et l’OLP se reconnaissent mutuellement.",
+      "ref": "accords-d-oslo"
+    },
+    {
+      "annee": 1995,
+      "evenement": "Assassinat de Rabin",
+      "info": "Le Premier ministre israélien est tué par un extrémiste juif israélien."
+    },
+    { "annee": 2000, "evenement": "Seconde intifada", "info": "Nouveau soulèvement, beaucoup plus meurtrier." },
+    { "annee": 2007, "evenement": "Gaza", "info": "Le Hamas prend le contrôle de la bande de Gaza." }
+  ],
+  "periodes": [
+    {
+      "nom": "Le mandat britannique",
+      "debut": 1917,
+      "fin": 1948,
+      "resume": "Les Britanniques gouvernent la Palestine ; immigration juive et nationalisme arabe s’affrontent.",
+      "evenements": [
+        { "annee": 1917, "evenement": "Déclaration Balfour", "ref": "declaration-balfour" },
+        { "annee": 1936, "evenement": "Grande révolte arabe" },
+        { "annee": 1947, "evenement": "Plan de partage de l’ONU" }
+      ]
+    },
+    {
+      "nom": "Les guerres israélo-arabes",
+      "debut": 1948,
+      "fin": 1973,
+      "resume": "Naissance d’Israël, exil des réfugiés palestiniens et guerres contre les pays arabes voisins.",
+      "evenements": [
+        { "annee": 1948, "evenement": "Indépendance d’Israël et Nakba", "ref": "guerre-de-1948" },
+        { "annee": 1967, "evenement": "Guerre des Six Jours" },
+        { "annee": 1973, "evenement": "Guerre du Kippour" }
+      ]
+    },
+    {
+      "nom": "Occupation, intifadas et négociations",
+      "debut": 1973,
+      "fin": 2000,
+      "resume": "Paix avec l’Égypte, guerre au Liban, première intifada, puis espoir des accords d’Oslo.",
+      "evenements": [
+        { "annee": 1979, "evenement": "Paix israélo-égyptienne" },
+        { "annee": 1987, "evenement": "Première intifada" },
+        { "annee": 1993, "evenement": "Accords d’Oslo", "ref": "accords-d-oslo" },
+        { "annee": 1995, "evenement": "Assassinat de Rabin" }
+      ]
+    },
+    {
+      "nom": "Un conflit sans solution",
+      "debut": 2000,
+      "fin": 2020,
+      "resume": "Seconde intifada, retrait de Gaza, prise de Gaza par le Hamas et guerres successives.",
+      "evenements": [
+        { "annee": 2000, "evenement": "Seconde intifada" },
+        { "annee": 2005, "evenement": "Retrait israélien de Gaza" },
+        { "annee": 2007, "evenement": "Le Hamas contrôle Gaza" },
+        { "annee": 2020, "evenement": "Accords d’Abraham" }
+      ]
+    }
+  ],
+  "regimes": [
+    {
+      "id": "mandat",
+      "nom": "Mandat britannique",
+      "debut": 1917,
+      "fin": 1948,
+      "note": "Administration militaire britannique jusqu’en 1920."
+    },
+    { "id": "israel", "nom": "État d’Israël ; Cisjordanie jordanienne et Gaza égyptienne", "debut": 1948, "fin": 1967 },
+    {
+      "id": "territoires",
+      "nom": "Israël et territoires palestiniens",
+      "debut": 1967,
+      "fin": 2020,
+      "note": "Israël occupe depuis 1967 la Cisjordanie et Jérusalem-Est (et Gaza jusqu’en 2005), que l’ONU considère comme des territoires occupés ; Autorité palestinienne à partir de 1994."
+    }
+  ],
+  "dynasties": [
+    { "id": "israel", "nom": "Premiers ministres d’Israël", "debut": 1948, "fin": 2020, "note": "Sélection." },
+    { "id": "palestiniens", "nom": "Dirigeants palestiniens", "debut": 1921, "fin": 2020, "note": "Sélection." }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Amin al-Husseini",
+      "titre": "Mufti de Jérusalem",
+      "debut": 1921,
+      "fin": 1937,
+      "dynastie": "palestiniens",
+      "note": "chef du mouvement national palestinien sous le mandat ; s’allie à l’Allemagne nazie pendant la Seconde Guerre mondiale"
+    },
+    {
+      "nom": "David Ben Gourion",
+      "titre": "Premier ministre",
+      "debut": 1948,
+      "fin": 1963,
+      "dynastie": "israel",
+      "note": "fondateur de l’État d’Israël",
+      "personne": "david-ben-gourion",
+      "cle": true
+    },
+    { "nom": "Golda Meir", "titre": "Première ministre", "debut": 1969, "fin": 1974, "dynastie": "israel" },
+    {
+      "nom": "Yasser Arafat",
+      "titre": "Président de l’OLP, puis de l’Autorité palestinienne",
+      "debut": 1969,
+      "fin": 2004,
+      "dynastie": "palestiniens",
+      "personne": "yasser-arafat",
+      "cle": true
+    },
+    {
+      "nom": "Menahem Begin",
+      "titre": "Premier ministre",
+      "debut": 1977,
+      "fin": 1983,
+      "dynastie": "israel",
+      "note": "ancien chef de l’Irgoun, groupe armé auteur de l’attentat de l’hôtel King David (1946) ; signe la paix avec l’Égypte",
+      "cle": true
+    },
+    {
+      "nom": "Yitzhak Rabin",
+      "titre": "Premier ministre",
+      "debut": 1992,
+      "fin": 1995,
+      "dynastie": "israel",
+      "note": "déjà de 1974 à 1977 ; signe les accords d’Oslo ; assassiné en 1995",
+      "cle": true
+    },
+    {
+      "nom": "Mahmoud Abbas",
+      "titre": "Président de l’Autorité palestinienne",
+      "debut": 2005,
+      "fin": 2020,
+      "dynastie": "palestiniens",
+      "note": "toujours en fonction à la fin de la période couverte (2020)"
+    },
+    {
+      "nom": "Benyamin Netanyahou",
+      "titre": "Premier ministre",
+      "debut": 2009,
+      "fin": 2020,
+      "dynastie": "israel",
+      "note": "déjà de 1996 à 1999 ; toujours en fonction à la fin de la période couverte (2020)"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Theodor Herzl",
+      "role": "Journaliste",
+      "description": "Fondateur du sionisme politique, auteur de L’État des Juifs (1896).",
+      "dates": "1860 → 1904",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Theodor_Herzl"
+    },
+    {
+      "nom": "David Ben Gourion",
+      "role": "Premier ministre",
+      "description": "Il proclame l’indépendance d’Israël en 1948.",
+      "dates": "1886 → 1973",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/David_Ben_Gourion",
+      "ref": "david-ben-gourion"
+    },
+    {
+      "nom": "Yasser Arafat",
+      "role": "Dirigeant palestinien",
+      "description": "Chef de l’OLP pendant 35 ans, prix Nobel de la paix 1994.",
+      "dates": "1929 → 2004",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Yasser_Arafat",
+      "ref": "yasser-arafat"
+    },
+    {
+      "nom": "Mahmoud Darwich",
+      "role": "Poète",
+      "description": "Le grand poète palestinien, qui chante l’exil et la terre perdue.",
+      "dates": "1941 → 2008",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Mahmoud_Darwich"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Grande révolte arabe de 1936-1939",
+      "annee": 1936,
+      "camp": "Arabes palestiniens",
+      "adversaires": ["Royaume-Uni (puissance mandataire)", "Milices juives"],
+      "allies": [],
+      "morts": "Environ 5 000 Arabes, plusieurs centaines de Juifs et de Britanniques",
+      "vainqueur": "Royaume-Uni",
+      "consequences": "La révolte est écrasée. En 1939, le Royaume-Uni limite fortement l’immigration juive (Livre blanc), au moment où les Juifs d’Europe cherchent à fuir les persécutions nazies.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Grande_r%C3%A9volte_arabe_(1936-1939)"
+    },
+    {
+      "nom": "Guerre israélo-arabe de 1948-1949",
+      "annee": 1948,
+      "camp": "Israël",
+      "adversaires": ["Égypte, Transjordanie, Syrie, Irak, Liban", "Combattants arabes palestiniens"],
+      "allies": [],
+      "morts": "Environ 6 000 Israéliens et plusieurs milliers de soldats et de civils arabes",
+      "vainqueur": "Israël",
+      "consequences": "Israël contrôle environ 78 % de l’ancien mandat ; la Cisjordanie passe à la Jordanie, Gaza à l’Égypte. Environ 700 000 Palestiniens fuient ou sont expulsés et ne peuvent revenir : c’est la Nakba. Des massacres sont commis, comme celui de villageois arabes à Deir Yassine et celui d’un convoi médical juif à Jérusalem.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_isra%C3%A9lo-arabe_de_1948-1949"
+    },
+    {
+      "nom": "Guerre des Six Jours",
+      "annee": 1967,
+      "camp": "Israël",
+      "adversaires": ["Égypte", "Syrie", "Jordanie"],
+      "allies": [],
+      "morts": "Environ 800 Israéliens et plus de 10 000 soldats arabes, selon les estimations",
+      "vainqueur": "Israël",
+      "consequences": "Israël prend le Sinaï et Gaza à l’Égypte, la Cisjordanie et Jérusalem-Est à la Jordanie, le Golan à la Syrie ; environ 300 000 Palestiniens fuient. La résolution 242 de l’ONU demande le retrait des territoires occupés en échange de la paix.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_des_Six_Jours"
+    },
+    {
+      "nom": "Guerre du Kippour",
+      "annee": 1973,
+      "camp": "Israël",
+      "adversaires": ["Égypte", "Syrie"],
+      "allies": [],
+      "morts": "Environ 2 700 Israéliens et plusieurs milliers de soldats égyptiens et syriens",
+      "vainqueur": "Israël sur le plan militaire",
+      "consequences": "Surpris par l’attaque du 6 octobre, jour de Kippour, Israël repousse les armées arabes après de lourdes pertes. La guerre conduit à la paix israélo-égyptienne de 1979.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_du_Kippour"
+    },
+    {
+      "nom": "Guerre du Liban de 1982",
+      "annee": 1982,
+      "camp": "Israël",
+      "adversaires": ["OLP", "Syrie"],
+      "allies": ["Milices chrétiennes libanaises"],
+      "morts": "Plus de 10 000 Libanais et Palestiniens selon les estimations ; environ 650 soldats israéliens",
+      "vainqueur": "Israël sur le plan militaire (départ de l’OLP de Beyrouth)",
+      "consequences": "L’armée israélienne assiège Beyrouth et l’OLP doit quitter le Liban. En septembre, des miliciens chrétiens libanais massacrent des centaines, peut-être des milliers de civils palestiniens et libanais dans les camps de Sabra et Chatila, dans une zone contrôlée par l’armée israélienne. Israël occupe le sud du Liban jusqu’en 2000.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Invasion_isra%C3%A9lienne_du_Liban_de_1982"
+    },
+    {
+      "nom": "Première intifada",
+      "annee": 1987,
+      "camp": "Palestiniens des territoires occupés",
+      "adversaires": ["Armée israélienne"],
+      "allies": [],
+      "morts": "Plus de 1 000 Palestiniens tués par les forces israéliennes, des centaines par d’autres Palestiniens ; environ 180 Israéliens",
+      "vainqueur": "Aucun (négociations d’Oslo)",
+      "consequences": "Manifestations, grèves et jets de pierres contre l’occupation ; la répression est dure. Le Hamas est fondé au début du soulèvement. L’intifada pousse les deux camps vers les négociations d’Oslo.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Premi%C3%A8re_intifada"
+    },
+    {
+      "nom": "Seconde intifada",
+      "annee": 2000,
+      "camp": "Groupes armés palestiniens",
+      "adversaires": ["Armée israélienne"],
+      "allies": [],
+      "morts": "Environ 3 000 Palestiniens et 1 000 Israéliens (2000-2005)",
+      "vainqueur": "Aucun",
+      "consequences": "Bien plus violente que la première, elle est marquée par des attentats-suicides contre des civils israéliens et par de grandes opérations militaires israéliennes en Cisjordanie. Israël construit une barrière de séparation et se retire de la bande de Gaza en 2005.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Seconde_intifada"
+    },
+    {
+      "nom": "Guerre de Gaza de 2014",
+      "annee": 2014,
+      "camp": "Israël",
+      "adversaires": ["Hamas et groupes armés de Gaza"],
+      "allies": [],
+      "morts": "Plus de 2 200 Palestiniens, en majorité des civils selon l’ONU ; 73 Israéliens, dont 67 soldats",
+      "vainqueur": "Aucun (cessez-le-feu)",
+      "consequences": "Tirs de roquettes sur Israël et bombardements sur Gaza mènent à une guerre d’environ 50 jours, qui détruit une grande partie de la bande de Gaza. C’est la plus meurtrière des guerres de Gaza avant celle de 2023.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_de_Gaza_de_2014"
+    }
+  ],
+  "sciences": "L’Université hébraïque de Jérusalem ouvre en 1925 ; Albert Einstein figure parmi ses fondateurs. Dans les années 1960, des ingénieurs israéliens mettent au point l’irrigation au goutte-à-goutte, qui permet de cultiver des terres arides, et le pays devient un grand centre des hautes technologies. Les Palestiniens fondent des universités, comme celle de Birzeit (1975) en Cisjordanie.",
+  "croyancesText": "Jérusalem abrite des lieux saints des trois religions : le mur des Lamentations pour les juifs, l’esplanade des Mosquées (le mont du Temple pour les juifs) avec le dôme du Rocher et la mosquée al-Aqsa pour les musulmans, le Saint-Sépulcre pour les chrétiens. Israël se définit comme un État juif ; environ un cinquième de ses citoyens sont arabes. Les Palestiniens sont en grande majorité musulmans, avec une minorité chrétienne.",
+  "diplomatie": "L’ONU vote en 1947 le partage de la Palestine, puis de nombreuses résolutions, comme la résolution 242 (1967), qui demande le retrait des territoires occupés en échange de la paix. L’Égypte (1979) puis la Jordanie (1994) signent la paix avec Israël, et en 1993 Israël et l’OLP se reconnaissent mutuellement. La colonisation israélienne de la Cisjordanie, jugée contraire au droit international par le Conseil de sécurité de l’ONU (2016), ce que conteste Israël, reste un obstacle majeur à la paix. En 2020, les Émirats arabes unis et Bahreïn établissent des relations avec Israël.",
+  "societe": "Israël accueille des immigrants juifs venus du monde entier : rescapés de la Shoah, Juifs des pays arabes, puis environ un million de Juifs d’URSS dans les années 1990. Plusieurs millions de Palestiniens vivent comme réfugiés ou descendants de réfugiés, en Cisjordanie, à Gaza, en Jordanie, au Liban et en Syrie, aidés par une agence de l’ONU, l’UNRWA.",
+  "economie": "Agrumes et agriculture irriguée, villages collectifs (kibboutz) ; Israël est devenu un pays riche, tourné vers les hautes technologies. L’économie palestinienne, dépendante d’Israël et limitée par les restrictions de circulation et le blocus de Gaza, reste fragile.",
+  "arts": "Littérature en hébreu (Shmuel Yosef Agnon, prix Nobel 1966 ; Amos Oz) et en arabe (Mahmoud Darwich, Ghassan Kanafani), broderie palestinienne, danses folkloriques (hora, dabké).",
+  "quotidien": "Le houmous, les falafels et le zaatar se retrouvent dans les cuisines israélienne et palestinienne, comme dans tout le Levant.",
+  "heritage": [
+    {
+      "titre": "Jérusalem",
+      "texte": "La vieille ville de Jérusalem et ses remparts sont inscrits au patrimoine mondial de l’UNESCO depuis 1981."
+    },
+    {
+      "titre": "L’hébreu moderne",
+      "texte": "Langue de la Bible et de la prière, l’hébreu est redevenu à la fin du XIXe siècle une langue parlée au quotidien, un cas presque unique."
+    }
+  ],
+  "aSavoir": [
+    "Israël fête son indépendance, proclamée le 14 mai 1948, à une date du calendrier hébraïque ; les Palestiniens commémorent la Nakba chaque 15 mai."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Conflit_isra%C3%A9lo-palestinien",
+    {
+      "titre": "Encyclopædia Britannica — Israel, History",
+      "url": "https://www.britannica.com/place/Israel/History"
+    },
+    {
+      "titre": "Encyclopædia Britannica — Palestine, History",
+      "url": "https://www.britannica.com/place/Palestine"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "art-du-gandhara",
+  "nom": "Art du Gandhara",
+  "annee": 100,
+  "domaine": "Art et religion",
+  "dates": "Ier-Ve siècles",
+  "description": "Un art bouddhiste né dans la région du Gandhara (Pakistan et Afghanistan actuels), qui mêle les traditions grecque, iranienne et indienne.",
+  "sections": [
+    {
+      "titre": "Ce qui le rend unique",
+      "texte": "Le Bouddha y est représenté avec un visage inspiré des statues grecques d’Apollon, des cheveux ondulés et un manteau aux plis drapés. Avec les ateliers de Mathura, ce sont parmi les premières images du Bouddha sous forme humaine."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Art_gr%C3%A9co-bouddhique"
+}

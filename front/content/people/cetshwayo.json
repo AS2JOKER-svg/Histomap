@@ -1,0 +1,18 @@
+{
+  "id": "cetshwayo",
+  "nom": "Cetshwayo",
+  "role": "Roi des Zoulous",
+  "roles": ["Roi"],
+  "dates": "vers 1826 → 1884",
+  "naissance": 1826,
+  "mort": 1884,
+  "description": "Roi de 1872 à 1879, il tente de préserver l’indépendance zouloue face à l’Empire britannique ; vainqueur à Isandhlwana, il est vaincu à Ulundi.",
+  "reperes": [{ "label": "Règne", "valeur": "1872 → 1879", "precision": "brièvement rétabli en 1883" }],
+  "essentiel": [
+    "Il refuse l’ultimatum britannique de 1878, qui exige la dissolution de son armée.",
+    "Ses régiments écrasent une colonne britannique à [[bataille-d-isandhlwana|Isandhlwana]] (1879).",
+    "Capturé après Ulundi, il est reçu à Londres par la reine Victoria (1882).",
+    "Rétabli sur une partie de son royaume, il meurt en 1884."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Cetshwayo_kaMpande"
+}

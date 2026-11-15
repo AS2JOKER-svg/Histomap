@@ -1,0 +1,18 @@
+{
+  "id": "alp-arslan",
+  "nom": "Alp Arslan",
+  "role": "Sultan seldjoukide",
+  "roles": ["Sultan"],
+  "dates": "vers 1029 → 1072",
+  "naissance": 1029,
+  "mort": 1072,
+  "description": "Neveu de Tughril Beg, sultan de 1063 à 1072, il conquiert l’Arménie et bat l’empereur byzantin à Manzikert.",
+  "reperes": [{ "label": "Règne", "valeur": "1063 → 1072" }],
+  "essentiel": [
+    "Son nom signifie « lion héroïque » en turc.",
+    "Il gouverne avec le vizir [[nizam-al-mulk|Nizam al-Mulk]].",
+    "À [[bataille-de-manzikert|Manzikert]] (1071), il capture l’empereur Romain IV Diogène, qu’il traite avec respect et libère contre rançon.",
+    "Il est tué par un prisonnier en 1072."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Alp_Arslan"
+}

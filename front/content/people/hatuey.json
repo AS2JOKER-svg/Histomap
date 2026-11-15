@@ -1,0 +1,16 @@
+{
+  "id": "hatuey",
+  "nom": "Hatuey",
+  "role": "Cacique taïno",
+  "roles": ["Chef"],
+  "dates": "? → 1512",
+  "mort": 1512,
+  "description": "Cacique venu d’Hispaniola, il s’enfuit à Cuba pour prévenir les habitants et organise la résistance aux Espagnols.",
+  "essentiel": [
+    "Il avertit les Taïnos de Cuba des violences des Espagnols à Hispaniola.",
+    "Il mène une guérilla contre les troupes de Diego Velázquez.",
+    "Capturé, il est brûlé vif en 1512.",
+    "Il est considéré à Cuba comme le premier héros de la résistance."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Hatuey"
+}

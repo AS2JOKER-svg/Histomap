@@ -213,7 +213,7 @@ function autoQuestions(civ, epoch, continent) {
       )
     }
     if (w.adversaires?.length) {
-      qs.push(mcq(`war-enemy-${i}`, `${name} : contre qui est menée « ${w.nom} » ?`, w.adversaires[0], sameEpoch.map((c) => c.label), { explanation: w.consequences }))
+      qs.push(mcq(`war-enemy-${i}`, `${w.camp ?? name} : contre qui est menée « ${w.nom} » ?`, w.adversaires[0], sameEpoch.map((c) => c.label), { explanation: w.consequences }))
     }
     if (typeof w.annee === 'number') {
       qs.push(mcq(`war-year-${i}`, `En quelle année commence (ou se joue) : ${w.nom} ?`, formatYear(w.annee), yearDistractors(w.annee, dates.map((d) => d.annee), rng(`${civ.id}-war-${i}`))))

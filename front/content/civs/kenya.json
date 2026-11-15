@@ -1,0 +1,207 @@
+{
+  "documentaires": [],
+  "decouvertes": [],
+  "id": "kenya",
+  "label": "Kenya",
+  "tier": 2,
+  "region": "afrique-est",
+  "period": "1895 à 2020",
+  "start": 1895,
+  "end": 2020,
+  "trackId": "afrique_est",
+  "row": 1,
+  "isRiver": false,
+  "capitale": "Nairobi",
+  "color": "#d81b60",
+  "description": "Le pays d’Afrique de l’Est devenu protectorat britannique en 1895, où la révolte des Mau Mau précède l’indépendance de 1963, puis une république devenue l’un des grands centres économiques de la région.",
+  "territories": ["Kenya", "British East Africa"],
+  "reperes": {
+    "capitale": { "valeur": "Nairobi", "precision": "Mombasa jusqu’en 1905" },
+    "regimes": {
+      "valeur": "Protectorat et colonie britanniques, puis république",
+      "precision": "parti unique de 1982 à 1991"
+    },
+    "langues": { "valeur": "Swahili et anglais", "precision": "plus de 40 langues" },
+    "religion": { "valeur": "Christianisme", "precision": "minorité musulmane, surtout sur la côte" },
+    "population": { "valeur": "Environ 48 millions au recensement de 2019" },
+    "monnaie": { "valeur": "Shilling kényan" },
+    "duree": { "valeur": "Environ 125 ans dans cette fiche" },
+    "aujourdhui": { "valeur": "Kenya" }
+  },
+  "essentiel": [
+    "En 1895, le Royaume-Uni fait de la région un protectorat ; la construction d’un chemin de fer de Mombasa au lac Victoria entraîne la fondation de Nairobi en 1899.",
+    "Des colons européens s’installent sur les terres fertiles des hauts plateaux, d’où de nombreux Kikuyus et Maasaï sont écartés.",
+    "De 1952 à 1960, la révolte des Mau Mau est durement réprimée : plus de 10 000 rebelles sont tués et des dizaines de milliers de Kényans détenus dans des camps, où sont pratiquées des tortures ; les rebelles tuent environ 2 000 civils, surtout africains.",
+    "Indépendant le 12 décembre 1963, le Kenya est dirigé par [[jomo-kenyatta|Jomo Kenyatta]], puis par Daniel arap Moi, qui impose un parti unique (1982-1991).",
+    "Après une élection contestée fin 2007, des violences font plus de 1 100 morts ; une nouvelle Constitution est adoptée en 2010."
+  ],
+  "datesCles": [
+    {
+      "annee": 1895,
+      "evenement": "Protectorat",
+      "info": "Le Royaume-Uni crée le protectorat de l’Afrique de l’Est."
+    },
+    { "annee": 1899, "evenement": "Nairobi", "info": "Fondation de Nairobi, étape du chemin de fer." },
+    { "annee": 1920, "evenement": "Colonie du Kenya", "info": "Le territoire devient la colonie du Kenya." },
+    {
+      "annee": 1952,
+      "evenement": "Révolte des Mau Mau",
+      "info": "Les autorités britanniques proclament l’état d’urgence."
+    },
+    { "annee": 1963, "evenement": "Indépendance", "info": "Le 12 décembre, le Kenya devient indépendant." },
+    {
+      "annee": 1978,
+      "evenement": "Daniel arap Moi",
+      "info": "À la mort de Kenyatta, Daniel arap Moi devient président."
+    },
+    { "annee": 1991, "evenement": "Multipartisme", "info": "Les partis d’opposition sont de nouveau autorisés." },
+    { "annee": 2004, "evenement": "Prix Nobel", "info": "Wangari Maathai reçoit le prix Nobel de la paix." },
+    {
+      "annee": 2007,
+      "evenement": "Crise post-électorale",
+      "info": "Des violences éclatent après l’élection présidentielle."
+    },
+    {
+      "annee": 2010,
+      "evenement": "Constitution",
+      "info": "Les Kényans adoptent une nouvelle Constitution par référendum."
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "Le protectorat",
+      "debut": 1895,
+      "fin": 1920,
+      "resume": "Les Britanniques construisent le chemin de fer et attirent des colons sur les hauts plateaux.",
+      "evenements": [
+        { "annee": 1895, "evenement": "Protectorat" },
+        { "annee": 1899, "evenement": "Fondation de Nairobi" },
+        { "annee": 1901, "evenement": "Le chemin de fer atteint le lac Victoria" }
+      ]
+    },
+    {
+      "nom": "La colonie du Kenya",
+      "debut": 1920,
+      "fin": 1963,
+      "resume": "Les colons dominent l’économie ; les Africains réclament leurs terres et leurs droits, jusqu’à la révolte des Mau Mau.",
+      "evenements": [
+        { "annee": 1920, "evenement": "Colonie du Kenya" },
+        { "annee": 1952, "evenement": "Révolte des Mau Mau" },
+        { "annee": 1963, "evenement": "Indépendance" }
+      ]
+    },
+    {
+      "nom": "Le Kenya indépendant",
+      "debut": 1963,
+      "fin": 2020,
+      "resume": "Parti dominant puis unique, retour du multipartisme, crise de 2007 et nouvelle Constitution.",
+      "evenements": [
+        { "annee": 1964, "evenement": "République" },
+        { "annee": 1991, "evenement": "Multipartisme" },
+        { "annee": 2010, "evenement": "Nouvelle Constitution" }
+      ]
+    }
+  ],
+  "regimes": [
+    { "id": "protectorat", "nom": "Protectorat de l’Afrique de l’Est", "debut": 1895, "fin": 1920 },
+    { "id": "colonie", "nom": "Colonie du Kenya", "debut": 1920, "fin": 1963 },
+    {
+      "id": "republique",
+      "nom": "Kenya indépendant",
+      "debut": 1963,
+      "fin": 2020,
+      "note": "République depuis 1964 ; parti unique de 1982 à 1991."
+    }
+  ],
+  "dynasties": [{ "id": "presidents", "nom": "Chefs de l’État", "debut": 1963, "fin": 2020 }],
+  "dirigeants": [
+    {
+      "nom": "Jomo Kenyatta",
+      "titre": "Premier ministre, puis président",
+      "debut": 1963,
+      "fin": 1978,
+      "dynastie": "presidents",
+      "personne": "jomo-kenyatta",
+      "cle": true
+    },
+    { "nom": "Daniel arap Moi", "titre": "Président", "debut": 1978, "fin": 2002, "dynastie": "presidents", "cle": true },
+    { "nom": "Mwai Kibaki", "titre": "Président", "debut": 2002, "fin": 2013, "dynastie": "presidents", "cle": true },
+    {
+      "nom": "Uhuru Kenyatta",
+      "titre": "Président",
+      "debut": 2013,
+      "fin": 2020,
+      "dynastie": "presidents",
+      "note": "fils de Jomo Kenyatta ; toujours en fonction à la fin de la période couverte (2020)",
+      "cle": true
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Jomo Kenyatta",
+      "role": "Président",
+      "description": "Le père de l’indépendance kényane.",
+      "dates": "vers 1897 → 1978",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Jomo_Kenyatta",
+      "ref": "jomo-kenyatta"
+    },
+    {
+      "nom": "Dedan Kimathi",
+      "role": "Chef rebelle",
+      "description": "Chef des combattants Mau Mau, capturé et exécuté par les Britanniques en 1957.",
+      "dates": "1920 → 1957",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Dedan_Kimathi"
+    },
+    {
+      "nom": "Wangari Maathai",
+      "role": "Militante écologiste",
+      "description": "Fondatrice du Mouvement de la ceinture verte, qui a planté des dizaines de millions d’arbres ; prix Nobel de la paix en 2004.",
+      "dates": "1940 → 2011",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Wangari_Maathai"
+    },
+    {
+      "nom": "Kipchoge Keino",
+      "role": "Athlète",
+      "description": "Champion olympique du 1 500 m (1968) et du 3 000 m steeple (1972), pionnier de la course de fond kényane.",
+      "dates": "né en 1940",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Kipchoge_Keino"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Révolte des Mau Mau",
+      "annee": 1952,
+      "adversaires": ["Royaume-Uni (autorités coloniales et Kényans loyalistes)"],
+      "allies": ["Rebelles Mau Mau"],
+      "morts": "Plus de 11 000 rebelles selon les chiffres officiels britanniques ; environ 2 000 civils, surtout africains, et une centaine d’Européens",
+      "vainqueur": "Royaume-Uni sur le plan militaire",
+      "consequences": "La rébellion est écrasée, mais le Royaume-Uni accélère ensuite la marche vers l’indépendance (1963). En 2013, le gouvernement britannique reconnaît les mauvais traitements infligés aux détenus et indemnise plus de 5 000 victimes.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/R%C3%A9volte_des_Mau_Mau"
+    }
+  ],
+  "sciences": "Les fouilles menées au Kenya, notamment autour du lac Turkana, ont mis au jour certains des plus anciens fossiles humains connus, comme le « garçon de Turkana », vieux d’environ 1,5 million d’années, découvert en 1984. En 2007, le Kenya lance M-Pesa, un système de paiement par téléphone portable qui se répand dans toute l’Afrique.",
+  "croyancesText": "La majorité des Kényans sont chrétiens, protestants ou catholiques, à la suite des missions des XIXe et XXe siècles ; les musulmans, environ un dixième de la population, vivent surtout sur la côte swahilie et dans le nord-est. Les religions traditionnelles, comme le culte de Ngai chez les Kikuyus, restent présentes.",
+  "diplomatie": "Allié des pays occidentaux pendant la guerre froide, le Kenya est un pilier de l’Afrique de l’Est : Nairobi accueille depuis 1972 le siège du Programme des Nations unies pour l’environnement. À partir de 2011, l’armée kényane intervient en Somalie contre le groupe djihadiste al-Shabaab, qui commet des attentats meurtriers au Kenya.",
+  "societe": "Le Kenya compte plus de 40 peuples, dont les Kikuyus, les Luhyas, les Kalenjins, les Luos et les Maasaï ; les rivalités politiques entre groupes ont parfois tourné à la violence. Nairobi est devenue l’une des grandes métropoles d’Afrique.",
+  "economie": "Thé, café et fleurs coupées exportés vers l’Europe, tourisme des safaris, services financiers et téléphonie mobile.",
+  "arts": "Romans de Ngũgĩ wa Thiong’o, musique benga, parures de perles maasaï.",
+  "quotidien": "Les coureurs kényans des hauts plateaux, comme ceux de la ville d’Iten, brillent depuis les années 1960 dans les courses de fond et le marathon.",
+  "heritage": [
+    {
+      "titre": "La vieille ville de Lamu",
+      "texte": "Cette ville swahilie de la côte est inscrite au patrimoine mondial de l’UNESCO depuis 2001."
+    },
+    {
+      "titre": "Les parcs nationaux",
+      "texte": "Chaque année, la grande migration des gnous traverse la réserve du Maasai Mara, venue du Serengeti en Tanzanie."
+    }
+  ],
+  "aSavoir": ["Le mot swahili « safari » signifie simplement « voyage »."],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Histoire_du_Kenya",
+    {
+      "titre": "Encyclopædia Britannica — Kenya, History",
+      "url": "https://www.britannica.com/place/Kenya/History"
+    }
+  ]
+}

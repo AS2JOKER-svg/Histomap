@@ -1,0 +1,18 @@
+{
+  "id": "moulay-ismail",
+  "nom": "Moulay Ismaïl",
+  "role": "Sultan alaouite du Maroc",
+  "roles": ["Sultan"],
+  "dates": "vers 1645 → 1727",
+  "naissance": 1645,
+  "mort": 1727,
+  "description": "Sultan pendant 55 ans, il impose un pouvoir fort, crée une armée d’esclaves soldats et fait de Meknès une ville impériale.",
+  "reperes": [{ "label": "Règne", "valeur": "1672 → 1727" }],
+  "essentiel": [
+    "Il reprend aux Européens Tanger (1684), Larache et Assilah.",
+    "Il bâtit à Meknès des remparts, des palais, des greniers et des écuries gigantesques.",
+    "Il échange des ambassades avec Louis XIV.",
+    "Son règne est marqué par une grande dureté envers ses opposants."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Moulay_Ismail"
+}

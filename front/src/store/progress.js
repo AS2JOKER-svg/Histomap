@@ -13,6 +13,7 @@
  *   chapters  { [civId]: Chapter }                        révisions (voir plus bas)
  *   quizzes   { [civId]: Quiz }                             quiz (voir plus bas)
  *   express   { [ficheId]: { best, total, attempts, lastAt } }  quiz express des fiches liées (v2)
+ *   aventure  { xp, salles, serie, niveauCredite, titres… }  Aventure V3 (v3) : voir lib/progression.js
  *   startedAt                                              première visite
  *
  * Pour faire évoluer le schéma : incrémenter VERSION et compléter migrate().
@@ -20,14 +21,20 @@
 import { create } from 'zustand'
 import { persist, createJSONStorage } from 'zustand/middleware'
 import { load } from '../lib/storage'
+import PARCOURS from '../data/parcours.json'
+import { MEDAILLE, createParcours, epreuveOuverte, estOuvert } from '../lib/aventure'
+import * as prog from '../lib/progression'
 
-const VERSION = 2
+const VERSION = 3
 const MAX_DAYS = 60
 
 const today = () => {
   const d = new Date()
   return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`
 }
+
+/** Parcours de l'Aventure (index créé une fois). */
+export const PARCOURS_AVENTURE = createParcours(PARCOURS)
 
 // Date de la visite précédente (lue avant que cette session ne l'écrase) → « Bon retour »
 const PREVIOUS_VISIT_AT = load('histomap_progress', null)?.state?.last?.at ?? null
@@ -41,6 +48,8 @@ const initial = () => ({
   chapters: {},
   quizzes: {},
   express: {},
+  aventure: prog.aventureVide(),
+  evenements: [], // derniers événements de l'Aventure (xp, médaille, niveau, coffre…), non sauvegardés
   startedAt: Date.now(),
 })
 
@@ -48,6 +57,72 @@ export const useProgress = create(
   persist(
     (set, get) => ({
       ...initial(),
+
+      // ── Aventure (V3) ────────────────────────────────────────────────────────
+      /** Applique une fonction de lib/progression.js ; renvoie ses événements (pour les célébrations). */
+      avancer(fn) {
+        const { av, evenements } = fn(get().aventure)
+        set({ aventure: av, evenements })
+        return evenements
+      },
+      commencerEtape(civId, etape) {
+        set((s) => ({ aventure: prog.commencerEtape(s.aventure, civId, etape) }))
+      },
+      /**
+       * Découvrir ou Approfondir terminé (`eclairs` : questions éclair justes).
+       * Crédité seulement si la salle est ouverte, et Approfondir après Découvrir : un chapitre
+       * lu en avance depuis l'Atlas ne fait pas sauter les verrous du parcours.
+       */
+      terminerEtape(civId, etape, options) {
+        get().touchDay()
+        const salles = get().aventure.salles
+        if (!estOuvert(PARCOURS_AVENTURE, salles, civId)) return []
+        if (etape === 'approfondir' && (salles[civId]?.medaille ?? 0) < MEDAILLE.BRONZE) return []
+        return get().avancer((av) => prog.terminerEtape(av, PARCOURS_AVENTURE, civId, etape, options, today()))
+      },
+      /** Épreuve terminée : note sur 20, `justes` = réponses dans l'ordre. */
+      terminerEpreuve(civId, note, justes) {
+        get().touchDay()
+        if (!epreuveOuverte(PARCOURS_AVENTURE, get().aventure.salles, civId)) return [] // l'épreuve vient après Approfondir
+        return get().avancer((av) => prog.terminerEpreuve(av, PARCOURS_AVENTURE, civId, note, justes, today()))
+      },
+      seanceARevoir() {
+        get().touchDay()
+        return get().avancer((av) => prog.seanceARevoir(av, today()))
+      },
+      choisirFilRouge(id) {
+        set((s) => ({ aventure: { ...s.aventure, filRouge: id } }))
+      },
+      /** Premier lancement terminé ({ filRouge, recompense }) : +50 XP la première fois. */
+      terminerOnboarding(options) {
+        if (options?.recompense !== false) get().touchDay()
+        return get().avancer((av) => prog.finOnboarding(av, options, today()))
+      },
+      /**
+       * Séance « À revoir » d'une salle : les cartes comprises et les questions réussies sortent
+       * des listes (toReview du chapitre, failed du quiz). Puis +20 XP une fois par jour.
+       */
+      terminerARevoir(civId, cartesOk, questionsOk) {
+        set((s) => {
+          const ch = s.chapters[civId]
+          const q = s.quizzes[civId]
+          return {
+            chapters: ch ? { ...s.chapters, [civId]: { ...ch, toReview: (ch.toReview ?? []).filter((id) => !cartesOk.includes(id)) } } : s.chapters,
+            quizzes: q ? { ...s.quizzes, [civId]: { ...q, failed: (q.failed ?? []).filter((id) => !questionsOk.includes(id)) } } : s.quizzes,
+          }
+        })
+        return get().seanceARevoir()
+      },
+      choisirTitre(id) {
+        set((s) => ({ aventure: { ...s.aventure, titreAffiche: id } }))
+      },
+      /** Cosmétique choisi dans le Profil : genre = sceau | cadre | effet | theme ; id = null pour le défaut. */
+      choisirCosmetique(genre, id) {
+        set((s) => ({ aventure: { ...s.aventure, cosmetiques: { ...s.aventure.cosmetiques, [genre]: id } } }))
+      },
+      choisirObjectif(objectif) {
+        set((s) => ({ aventure: prog.choisirObjectif(s.aventure, objectif) }))
+      },
 
       /** À appeler à l'ouverture d'une fiche complète. Renvoie true la 1re fois. */
       readFiche(civId) {
@@ -60,6 +135,7 @@ export const useProgress = create(
           },
         }))
         get().touchDay()
+        if (!prev) get().avancer((av) => prog.ficheLue(av, true, today()))
         return !prev
       },
 
@@ -119,8 +195,13 @@ export const useProgress = create(
         })
       },
 
-      /** Fin de séance : passage comptabilisé, cartes « à revoir » mémorisées. */
-      finishChapter(civId) {
+      /**
+       * Fin de séance : passage comptabilisé, cartes « à revoir » mémorisées.
+       * Aventure : 1er passage = Découvrir, suivants = Approfondir ; `options.eclairs` = questions
+       * éclair justes. Renvoie les événements de l'Aventure (médaille, XP, ouvertures…).
+       */
+      finishChapter(civId, options = {}) {
+        const round = get().chapters[civId]?.current?.round
         set((s) => {
           const ch = s.chapters[civId]
           if (!ch?.current) return {}
@@ -132,6 +213,9 @@ export const useProgress = create(
           }
         })
         get().touchDay()
+        // Aventure : 1er passage = Découvrir (bronze), passages suivants = Approfondir (argent)
+        if (round !== undefined && PARCOURS_AVENTURE.monde.has(civId)) return get().terminerEtape(civId, round === 0 ? 'decouvrir' : 'approfondir', options)
+        return []
       },
 
       // ── Quiz ─────────────────────────────────────────────────────────────────
@@ -185,12 +269,15 @@ export const useProgress = create(
           },
         }))
         get().touchDay()
-        return { score, correct, total }
+        const evenements = PARCOURS_AVENTURE.monde.has(civId) ? get().terminerEpreuve(civId, score, answers.map((a) => a.correct)) : []
+        return { score, correct, total, evenements }
       },
 
       // ── Quiz express (fiches liées) ─────────────────────────────────────────
       /** Enregistre un quiz express terminé : `correct` bonnes réponses sur `total`. */
       finishExpress(ficheId, correct, total) {
+        const ancien = get().express[ficheId]?.best ?? 0
+        get().avancer((av) => prog.quizExpress(av, ancien, correct, today()))
         set((s) => {
           const prev = s.express[ficheId]
           return {
@@ -226,15 +313,24 @@ export const useProgress = create(
         chapters: s.chapters,
         quizzes: s.quizzes,
         express: s.express,
+        aventure: s.aventure,
         startedAt: s.startedAt,
       }),
       // v1 → v2 : ajout de « express » (quiz express des fiches liées), vide au départ.
+      // v2 → v3 : ajout de « aventure » (V3), qui crédite ce qui a déjà été fait (lib/progression.js, migrerV2).
       // Les champs absents reprennent leur valeur initiale ; rien n'est perdu.
       migrate: (persisted, version) => {
         const state = { ...initial(), ...persisted }
         if (version < 2) state.express = {}
+        if (version < 3) state.aventure = prog.migrerV2(state, PARCOURS_AVENTURE, today())
         return state
       },
+      // un état sauvegardé incomplet (champ ajouté plus tard dans « aventure ») est complété
+      merge: (persisted, current) => ({
+        ...current,
+        ...persisted,
+        aventure: { ...prog.aventureVide(), ...(persisted?.aventure ?? current.aventure) },
+      }),
     }
   )
 )

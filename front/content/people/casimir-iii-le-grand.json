@@ -1,0 +1,18 @@
+{
+  "id": "casimir-iii-le-grand",
+  "nom": "Casimir III le Grand",
+  "role": "Roi de Pologne",
+  "roles": ["Roi", "Bâtisseur"],
+  "dates": "1310 → 1370",
+  "naissance": 1310,
+  "mort": 1370,
+  "description": "Roi de Pologne de 1333 à 1370, dernier de la dynastie des Piast, il réorganise et enrichit le royaume.",
+  "reperes": [{ "label": "Règne", "valeur": "1333 → 1370" }],
+  "essentiel": [
+    "Il fait la paix avec les chevaliers Teutoniques et la Bohême pour se consacrer au royaume.",
+    "Il unifie les lois et fonde l’université de Cracovie en 1364.",
+    "Il fait bâtir des dizaines de châteaux et de villes fortifiées.",
+    "Il protège les Juifs et les paysans."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Casimir_III_de_Pologne"
+}

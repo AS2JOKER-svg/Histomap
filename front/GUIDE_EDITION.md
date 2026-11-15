@@ -21,6 +21,7 @@ Le site ne lit jamais ces fichiers directement : `scripts/build-content.mjs` les
 | `content/regions.json` | Régions actuelles normalisées (champ `region` des fiches) |
 | `content/conflicts.json` | Lieu de chaque guerre sur la carte |
 | `content/ignore-territories.json` | Territoires des cartes volontairement sans fiche |
+| `content/wars/<id>.json` | Dossiers de guerre (page complète d'une grande guerre : `/guerres/<id>`) |
 
 ### Ajouter une civilisation
 1. Créer `content/civs/<id>.json` (copier une fiche existante, par exemple `carthage.json`). Le nom du fichier **est** l'id.
@@ -73,6 +74,8 @@ Le site ne lit jamais ces fichiers directement : `scripts/build-content.mjs` les
   "dynasties":   [{ "id": "capetiens-directs", "nom": "Capétiens directs", "debut": 987, "fin": 1328 }],
   "personnages": [{ "nom": "…", "role": "…", "description": "…", "dates": "1412 à 1431", "wikiUrl": "https://…", "ref": "jeanne-d-arc" }],
   "guerres":     [{ "nom": "…", "annee": 1337, "adversaires": [], "allies": [], "morts": "…", "vainqueur": "…", "consequences": "…", "wikiUrl": "https://…" }],
+                 // "camp" (facultatif) : nom affiché à la place de la fiche dans « X contre Y », pour une fiche
+                 // qui couvre plusieurs peuples (ex. Israël et Palestine : "camp": "Israël" ou "Palestiniens")
   "sciences": "texte…",
   "croyancesText": "texte…",
   "diplomatie": "texte…",
@@ -220,6 +223,55 @@ Pour ajouter des questions rédigées à la main, compléter le tableau `quiz` d
 - `content/conflicts.json` : `"Nom exact de la guerre": { "coords": [longitude, latitude], "lieu": "Cannes" }` (lieu facultatif).
 - Le validateur signale un nom de territoire introuvable ou une guerre sans coordonnées.
 
+### Le parcours de l'Aventure (`content/parcours.json`)
+```jsonc
+{
+  "mondes": [{ "epoque": "antiquite", "titre": "Grand savant de l’Antiquité", "theme": "papyrus",
+               "tronc": ["mesopotamie", "egypte", "…"] }],            // un monde par époque, dans l'ordre de epochs.json
+  "branches": { "koush": "egypte", "aksoum": "koush" },               // toutes les autres civilisations → leur parent
+  "filsRouges": { "egypte": "Maître de l’Égypte" },                    // un titre par lignée de lineages.json
+  "titreUltime": "Historien universel"
+}
+```
+- Chaque civilisation est **une seule fois** dans le parcours : dans le tronc de son époque, ou dans `branches`.
+- Une branche dépend d'une civilisation de son monde ou d'un monde **précédent** ; une branche qui fait partie d'une lignée
+  dépend de la **civilisation précédente de sa lignée** (ex. Empire d'Éthiopie ← Aksoum).
+- **Ajouter une civilisation** = aussi l'ajouter ici (dans un tronc ou dans `branches`), sinon `npm run data` échoue.
+- Thèmes possibles : `silex`, `papyrus`, `enluminure`, `lapis`, `neon` (un par monde).
+- Règles du jeu (ouverture des salles, étape du jour) : `src/lib/aventure.js` ; XP, niveaux, récompenses : `src/lib/xp.js` ;
+  tests : `npm test` (aussi lancés par `npm run validate`).
+
+### Écrire un dossier de guerre (`content/wars/<id>.json`)
+Modèles : `content/wars/seconde-guerre-mondiale.json` (Guerres A), puis `guerres-puniques`, `guerre-de-cent-ans`, `guerres-napoleoniennes`, `premiere-guerre-mondiale` (Guerres B). Page : `/guerres/<id>`.
+```jsonc
+{
+  "id": "…", "nom": "…", "debut": 1939, "fin": 1945, "dates": "1er septembre 1939 → 2 septembre 1945",
+  "description": "en une phrase", "essentiel": ["5 points au plus"], "chiffres": [{ "valeur": "…", "label": "…" }],
+  "camps": [{ "id": "rome", "nom": "…", "legende": "… et ses alliés (facultatif)", "couleur": "#…", "description": "…", "membres": ["…"] }],  // 2 camps ou plus, ids libres
+  "carte": {
+    "annee": 1938,                          // une année de public/map/index.json (négative av. J.-C. : -300)
+    "occupant": "axe",                      // camp occupant, obligatoire si le statut « occupe » est utilisé
+    "noms": { "Germany": "Allemagne" },      // nom français de chaque territoire coloré (bulle de la carte)
+    "note": "…",                            // avertissement sous la carte
+    "statuts": { "Germany": "axe", "Poland": { "statut": "occupe", "note": "…" } }  // état de départ (id d'un camp, « occupe » ou « neutre »)
+  },
+  "phases": [{ "id", "nom", "debut": "1939-09", "fin": "1940-03", "resume", "texte",
+               "carte": { "cadre": [[lon, lat], [lon, lat]], "rotation": -150, "statuts": { /* seulement ce qui change */ } },
+               "batailles": ["id"], "evenements": [{ "date": "1939-09-03", "texte": "…", "ref": "fiche-liée?" }] }],
+  "batailles": [{ "id", "nom", "debut": "1942-08", "fin": "1943-02", "lieu", "coords": [lon, lat], "vainqueur": "allies", "resume", "ref": "événement?", "wikiUrl" }],
+  "personnages": [{ "nom", "camp": "<id d'un camp>" | "autres", "role", "dates", "description", "ref": "personne?", "wikiUrl" }],
+  "sections": [{ "titre": "Les causes", "texte": "…" }],
+  "quiz": [ /* format des quiz express : mcq (bonne réponse en 0), tf, order ; au moins 10 questions */ ],
+  "guerresLiees": ["Nom exact d'une guerre de fiche|année"],   // ces guerres renvoient vers le dossier
+  "sources": ["…"]
+}
+```
+- **Statuts** : l'id d'un camp, `occupe` (occupé par le camp `carte.occupant`), `neutre`. Ils s'accumulent de phase en phase ; un territoire sans statut
+  prend celui de sa métropole (`SUBJECTO` des cartes : les colonies suivent leur pays), sinon `neutre`.
+- **Attention aux cartes** : un nom peut cacher plusieurs morceaux (sur la carte de 1938, « Denmark » = Islande et Groenland, le Danemark
+  lui-même manque). Vérifier les territoires à colorer et le dire dans `note`.
+- Dates au format `AAAA`, `AAAA-MM` ou `AAAA-MM-JJ`, négatives avant J.-C. (`-216-08-02`). Les ids de questions ne doivent jamais être renommés (meilleur score mémorisé).
+
 ---
 
 ## 2. Où se trouve quoi dans le code ?
@@ -228,7 +280,10 @@ Pour ajouter des questions rédigées à la main, compléter le tableau `quiz` d
 |---|---|
 | Le plan du site (URLs) | `src/App.jsx` |
 | L'en-tête, la barre d'onglets mobile | `src/layouts/AppShell.jsx` |
-| La page d'accueil (hub) | `src/pages/HomePage.jsx` |
+| L'Aventure (onglet par défaut : parcours, étape du jour) | `src/pages/AventurePage.jsx` ; règles : `src/lib/aventure.js`, `src/lib/xp.js`, `src/lib/progression.js` |
+| Le Profil | `src/pages/ProfilPage.jsx` (séance « À revoir » : `src/pages/ARevoirPage.jsx`) |
+| Le premier lancement (bienvenue, fil rouge, 3 questions) | `src/pages/BienvenuePage.jsx` |
+| La bascule Frise / Carte de l'Atlas | `src/components/AtlasSwitch.jsx` |
 | La flèche des époques | `src/pages/TimelinePage.jsx` + `src/components/timeline/EpochRibbon.jsx` |
 | La frise d'une époque (toile, zoom, filtres) | `src/pages/EpochPage.jsx` + `src/components/timeline/EpochTimeline.jsx` |
 | Le rangement des barres en lignes | `src/components/timeline/layout.js` |
@@ -239,7 +294,7 @@ Pour ajouter des questions rédigées à la main, compléter le tableau `quiz` d
 | L'aperçu d'une fiche (feuille du bas) | `src/components/RefSheet.jsx` + `useUI().openSheet(...)` |
 | La recherche globale | `src/pages/SearchPage.jsx` + `src/lib/search.js` (index : `src/data/search.json`, généré) |
 | L'onglet Guerres | `src/pages/WarsPage.jsx` (liste : `src/data/wars.json`, générée) |
-| La présentation au premier lancement | `src/components/Onboarding.jsx` |
+| Un dossier de guerre (phases, carte animée, quiz) | `src/pages/WarDossierPage.jsx` + `src/components/war/WarMap.jsx` + `src/lib/dossiers.js` ; compilation et validation : `scripts/lib/dossiers.mjs` |
 | Accès aux données (index léger, détail à la demande) | `src/lib/data.js` (`loadCiv`, `useCiv`) |
 | Compilation et validation du contenu | `scripts/build-content.mjs`, `scripts/validate-content.mjs`, `scripts/lib/` |
 | Liens `[[id]]` dans les textes | `src/lib/links.js` + `src/components/ui/RichText.jsx` |
@@ -248,7 +303,7 @@ Pour ajouter des questions rédigées à la main, compléter le tableau `quiz` d
 | Lignées (même civilisation sur plusieurs époques) | `content/lineages.json` + `src/components/LineageTrail.jsx` |
 | Progression (fiches lues, reprendre, série) | `src/store/progress.js` + `src/components/progress/` |
 | Messages éphémères (toasts) | `useUI().showToast({ text, tone })` dans `src/store/ui.js` |
-| On avance : hub, choix du chapitre, chapitre | `src/pages/RevisePage.jsx`, `ReviseEpochPage.jsx`, `ChapterPage.jsx` |
+| Une étape d'une salle (Découvrir, Approfondir, Épreuve) | `src/pages/SallePage.jsx` (cartes : `components/revision/CardDeck.jsx` ; questions : `components/quiz/QuestionView.jsx`) |
 | Cartes de révision (paquet, types de cartes) | `src/components/revision/` + `src/lib/revision.js` |
 | Chapitres rédigés à la main (cartes + questions) | `src/data/revision/` |
 | Quiz : génération des questions, règles | `src/lib/quiz.js` + `src/pages/QuizPage.jsx` + `src/components/quiz/` |

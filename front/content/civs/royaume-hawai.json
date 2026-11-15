@@ -1,0 +1,254 @@
+{
+  "documentaires": [],
+  "decouvertes": [],
+  "id": "royaume-hawai",
+  "label": "Royaume d’Hawaï",
+  "tier": 2,
+  "region": "pacifique",
+  "period": "1795 à 1893",
+  "start": 1795,
+  "end": 1893,
+  "color": "#f9a825",
+  "trackId": "hawai",
+  "row": 3,
+  "isRiver": false,
+  "capitale": "Honolulu",
+  "description": "Le royaume polynésien fondé par Kamehameha Ier, qui unifie l’archipel d’Hawaï, se modernise au XIXe siècle et est renversé en 1893 par des hommes d’affaires soutenus par des soldats américains.",
+  "territories": ["Kingdom of Hawaii"],
+  "reperes": {
+    "capitale": { "valeur": "Honolulu", "precision": "à partir de 1845 ; auparavant Lahaina (Maui) et Kailua-Kona" },
+    "regimes": { "valeur": "Monarchie", "precision": "constitutionnelle à partir de 1840" },
+    "langues": { "valeur": "Hawaïen et anglais" },
+    "religion": { "valeur": "Christianisme", "precision": "après l’abolition du système religieux du kapu en 1819" },
+    "apogee": { "valeur": "Règne de Kamehameha III (1825 → 1854)" },
+    "population": {
+      "valeur": "Plusieurs centaines de milliers en 1778",
+      "precision": "environ 40 000 Hawaïens à la fin du XIXe siècle, après les épidémies"
+    },
+    "monnaie": { "valeur": "Dollar hawaïen" },
+    "duree": { "valeur": "Environ 100 ans" },
+    "aujourdhui": { "valeur": "États-Unis (Hawaï)", "precision": "État américain depuis 1959" }
+  },
+  "essentiel": [
+    "Des Polynésiens peuplent Hawaï vers l’an 1000 ; les îles sont longtemps partagées entre des chefs rivaux.",
+    "En 1795, après la bataille de Nuʻuanu, [[kamehameha-ier|Kamehameha Ier]] unifie presque tout l’archipel ; Kauaʻi le reconnaît en 1810.",
+    "Ses successeurs abolissent l’ancien système religieux (1819), accueillent des missionnaires, adoptent une constitution (1840) et autorisent la propriété privée de la terre (1848).",
+    "Les plantations de canne à sucre attirent des travailleurs de Chine, du Japon et du Portugal, tandis que les épidémies font chuter la population hawaïenne.",
+    "En 1893, la reine [[liliuokalani|Liliʻuokalani]] est [[renversement-du-royaume-d-hawai|renversée]] par des hommes d’affaires soutenus par des soldats américains ; les États-Unis annexent Hawaï en 1898."
+  ],
+  "datesCles": [
+    {
+      "annee": 1795,
+      "evenement": "Nuʻuanu",
+      "info": "Kamehameha Ier conquiert Oʻahu et unifie presque tout l’archipel."
+    },
+    { "annee": 1810, "evenement": "Kauaʻi", "info": "Le chef de Kauaʻi reconnaît Kamehameha Ier sans combat." },
+    {
+      "annee": 1819,
+      "evenement": "Fin du kapu",
+      "info": "Kamehameha II et la reine Kaʻahumanu abolissent l’ancien système d’interdits religieux."
+    },
+    {
+      "annee": 1820,
+      "evenement": "Missionnaires",
+      "info": "Arrivée des premiers missionnaires protestants venus des États-Unis."
+    },
+    {
+      "annee": 1840,
+      "evenement": "Constitution",
+      "info": "Kamehameha III donne au royaume sa première constitution."
+    },
+    {
+      "annee": 1848,
+      "evenement": "Grand Māhele",
+      "info": "Le partage des terres crée la propriété privée ; les étrangers peuvent ensuite acheter des terres."
+    },
+    {
+      "annee": 1887,
+      "evenement": "Constitution « de la baïonnette »",
+      "info": "Sous la menace, le roi Kalākaua doit accepter une constitution qui réduit ses pouvoirs."
+    },
+    {
+      "annee": 1893,
+      "evenement": "Renversement",
+      "info": "La reine Liliʻuokalani est renversée.",
+      "ref": "renversement-du-royaume-d-hawai"
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "L’unification",
+      "debut": 1795,
+      "fin": 1819,
+      "resume": "Kamehameha Ier unifie l’archipel et commerce avec les navires européens et américains.",
+      "evenements": [{ "annee": 1795, "evenement": "Bataille de Nuʻuanu" }, { "annee": 1810, "evenement": "Ralliement de Kauaʻi" }]
+    },
+    {
+      "nom": "Un royaume moderne",
+      "debut": 1819,
+      "fin": 1874,
+      "resume": "Abolition du kapu, christianisme, constitution, partage des terres : le royaume est reconnu par les grandes puissances.",
+      "evenements": [
+        { "annee": 1819, "evenement": "Fin du kapu" },
+        { "annee": 1840, "evenement": "Constitution" },
+        { "annee": 1848, "evenement": "Grand Māhele" }
+      ]
+    },
+    {
+      "nom": "Le royaume menacé",
+      "debut": 1874,
+      "fin": 1893,
+      "resume": "Les planteurs de sucre, souvent d’origine américaine, prennent de plus en plus de pouvoir, jusqu’au renversement de la reine.",
+      "evenements": [
+        { "annee": 1887, "evenement": "Constitution « de la baïonnette »" },
+        { "annee": 1893, "evenement": "Renversement de la reine", "ref": "renversement-du-royaume-d-hawai" }
+      ]
+    }
+  ],
+  "regimes": [
+    { "id": "monarchie", "nom": "Monarchie", "debut": 1795, "fin": 1840 },
+    { "id": "constitutionnelle", "nom": "Monarchie constitutionnelle", "debut": 1840, "fin": 1893 }
+  ],
+  "dynasties": [
+    { "id": "kamehameha", "nom": "La maison Kamehameha", "debut": 1795, "fin": 1872 },
+    { "id": "lunalilo", "nom": "La maison Lunalilo", "debut": 1873, "fin": 1874 },
+    { "id": "kalakaua", "nom": "La maison Kalākaua", "debut": 1874, "fin": 1893 }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Kamehameha Ier",
+      "titre": "Roi",
+      "surnom": "le Grand",
+      "debut": 1795,
+      "fin": 1819,
+      "dynastie": "kamehameha",
+      "personne": "kamehameha-ier",
+      "cle": true
+    },
+    {
+      "nom": "Kamehameha II",
+      "titre": "Roi",
+      "debut": 1819,
+      "fin": 1824,
+      "dynastie": "kamehameha",
+      "note": "abolit le kapu",
+      "cle": true
+    },
+    {
+      "nom": "Kamehameha III",
+      "titre": "Roi",
+      "debut": 1825,
+      "fin": 1854,
+      "dynastie": "kamehameha",
+      "note": "première constitution",
+      "cle": true
+    },
+    { "nom": "Kamehameha IV", "titre": "Roi", "debut": 1855, "fin": 1863, "dynastie": "kamehameha" },
+    { "nom": "Kamehameha V", "titre": "Roi", "debut": 1863, "fin": 1872, "dynastie": "kamehameha" },
+    {
+      "nom": "Lunalilo",
+      "titre": "Roi",
+      "debut": 1873,
+      "fin": 1874,
+      "dynastie": "lunalilo",
+      "note": "élu par le Parlement"
+    },
+    {
+      "nom": "Kalākaua",
+      "titre": "Roi",
+      "debut": 1874,
+      "fin": 1891,
+      "dynastie": "kalakaua",
+      "note": "premier souverain à faire le tour du monde",
+      "cle": true
+    },
+    {
+      "nom": "Liliʻuokalani",
+      "titre": "Reine",
+      "debut": 1891,
+      "fin": 1893,
+      "dynastie": "kalakaua",
+      "personne": "liliuokalani",
+      "cle": true
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Kamehameha Ier",
+      "role": "Roi",
+      "description": "L’unificateur de l’archipel.",
+      "dates": "vers 1758 → 1819",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Kamehameha_Ier",
+      "ref": "kamehameha-ier"
+    },
+    {
+      "nom": "Kaʻahumanu",
+      "role": "Reine et régente",
+      "description": "Épouse de Kamehameha Ier, elle gouverne aux côtés de ses successeurs et abolit le kapu.",
+      "dates": "vers 1768 → 1832",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Ka%CA%BBahumanu"
+    },
+    {
+      "nom": "Kalākaua",
+      "role": "Roi",
+      "description": "Le « joyeux monarque », qui fait revivre le hula et fait le tour du monde en 1881.",
+      "dates": "1836 → 1891",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Kal%C4%81kaua"
+    },
+    {
+      "nom": "Liliʻuokalani",
+      "role": "Reine",
+      "description": "La dernière souveraine d’Hawaï.",
+      "dates": "1838 → 1917",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Lili%CA%BBuokalani",
+      "ref": "liliuokalani"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Bataille de Nuʻuanu",
+      "annee": 1795,
+      "adversaires": ["Royaume d’Oʻahu (Kalanikūpule)"],
+      "allies": [],
+      "morts": "Plusieurs centaines",
+      "vainqueur": "Kamehameha Ier",
+      "consequences": "Les guerriers de Kamehameha, aidés de quelques canons et de conseillers européens, repoussent l’armée d’Oʻahu jusqu’aux falaises du Pali. Kamehameha domine désormais presque tout l’archipel.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Battle_of_Nu%CA%BBuanu"
+    },
+    {
+      "nom": "Renversement du royaume d’Hawaï",
+      "annee": 1893,
+      "adversaires": ["Comité de sécurité (hommes d’affaires américains et européens), soutenu par des Marines américains"],
+      "allies": [],
+      "morts": "Aucun mort",
+      "vainqueur": "Comité de sécurité",
+      "consequences": "La reine Liliʻuokalani cède pour éviter un bain de sang. Une république est proclamée en 1894, puis les États-Unis annexent Hawaï en 1898.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Renversement_du_royaume_d%27Hawa%C3%AF"
+    }
+  ],
+  "sciences": "Les Hawaïens bâtissent de grands bassins à poissons le long des côtes et cultivent le taro dans des terrasses irriguées. Ils pratiquent le surf, qu’ils appellent heʻe nalu. Au XIXe siècle, le royaume adopte vite les techniques nouvelles : le palais ʻIolani, à Honolulu, est éclairé à l’électricité dès 1886.",
+  "croyancesText": "La religion hawaïenne honore des dieux comme Kū, Lono, Kāne et Kanaloa, ainsi que la déesse des volcans, Pele. Le système du kapu impose des interdits stricts, par exemple aux femmes de manger avec les hommes. En 1819, la cour l’abolit, et le christianisme, apporté par des missionnaires à partir de 1820, se répand rapidement.",
+  "diplomatie": "Le royaume signe des traités avec les grandes puissances, qui reconnaissent son indépendance dans les années 1840. Il dépend de plus en plus du commerce du sucre avec les États-Unis, qui obtiennent en 1887 le droit d’utiliser Pearl Harbor. Kalākaua fait le tour du monde en 1881 et rencontre de nombreux chefs d’État.",
+  "societe": "Les chefs (aliʻi) et le roi dominent les gens du commun (makaʻāinana). Après le Grand Māhele (1848), une grande partie des terres passe à des étrangers et à des planteurs. Les plantations attirent des milliers de travailleurs chinois, japonais et portugais.",
+  "economie": "Commerce du bois de santal au début du XIXe siècle, escales des baleiniers, puis plantations de canne à sucre.",
+  "arts": "Hula, chants (mele), capes de plumes des chefs, palais ʻIolani.",
+  "quotidien": "Le surf est un loisir très ancien à Hawaï : rois et gens du peuple glissent sur les vagues avec de longues planches de bois.",
+  "heritage": [
+    {
+      "titre": "Aloha ʻOe",
+      "texte": "La reine Liliʻuokalani compose de nombreuses chansons, dont la plus célèbre, « Aloha ʻOe », est connue dans le monde entier."
+    },
+    {
+      "titre": "Des excuses officielles",
+      "texte": "En 1993, cent ans après, le Congrès des États-Unis présente des excuses officielles pour le rôle américain dans le renversement du royaume."
+    }
+  ],
+  "aSavoir": ["Le palais ʻIolani, construit en 1882, est le seul palais royal sur le sol des États-Unis."],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Royaume_d%27Hawa%C3%AF",
+    {
+      "titre": "Encyclopædia Britannica — Hawaii, history",
+      "url": "https://www.britannica.com/place/Hawaii-state/History"
+    }
+  ]
+}

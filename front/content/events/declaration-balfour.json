@@ -1,0 +1,19 @@
+{
+  "id": "declaration-balfour",
+  "nom": "Déclaration Balfour",
+  "annee": 1917,
+  "dates": "2 novembre 1917",
+  "lieu": "Londres",
+  "description": "Lettre du ministre britannique des Affaires étrangères, Arthur Balfour, qui annonce que le Royaume-Uni est favorable à l’établissement en Palestine d’un « foyer national pour le peuple juif », sans qu’il soit porté atteinte aux droits des « collectivités non juives ».",
+  "sections": [
+    {
+      "titre": "Des promesses contradictoires",
+      "texte": "Pendant la Première Guerre mondiale, les Britanniques font aussi des promesses d’indépendance aux Arabes, et se partagent secrètement le Moyen-Orient avec la France (accords Sykes-Picot, 1916)."
+    },
+    {
+      "titre": "Deux lectures",
+      "texte": "Pour les sionistes, c’est une étape vers la création d’Israël ; pour les Palestiniens, le début de la perte de leur terre."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/D%C3%A9claration_Balfour_de_1917"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "seondeok-de-silla",
+  "nom": "Seondeok",
+  "role": "Reine de Silla",
+  "roles": ["Reine"],
+  "dates": "? → 647",
+  "mort": 647,
+  "description": "Reine de Silla de 632 à 647, première femme à régner sur un royaume coréen.",
+  "reperes": [{ "label": "Règne", "valeur": "632 → 647" }],
+  "essentiel": [
+    "Elle succède à son père, faute d’héritier masculin du plus haut rang.",
+    "Elle fait construire l’observatoire de Cheomseongdae et une grande pagode à neuf étages, aujourd’hui disparue.",
+    "Elle prépare l’alliance avec la Chine des Tang qui permettra l’unification.",
+    "Elle fait face à une révolte de nobles opposés au règne d’une femme."
+  ],
+  "wikiUrl": "https://en.wikipedia.org/wiki/Queen_Seondeok_of_Silla"
+}

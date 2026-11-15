@@ -1,0 +1,293 @@
+{
+  "documentaires": [],
+  "decouvertes": [],
+  "id": "algerie",
+  "label": "Algérie",
+  "tier": 1,
+  "region": "afrique-nord",
+  "period": "1830 à 2020",
+  "start": 1830,
+  "end": 2020,
+  "trackId": "maghreb",
+  "row": 2,
+  "isRiver": false,
+  "capitale": "Alger",
+  "color": "#558b2f",
+  "description": "L’Algérie conquise par la France à partir de 1830, colonie de peuplement pendant 132 ans, indépendante en 1962 au terme d’une longue guerre, puis république qui devient le plus grand pays d’Afrique.",
+  "territories": ["Algeria", "Algeria (FR)", "Algeria (France)"],
+  "reperes": {
+    "capitale": { "valeur": "Alger" },
+    "regimes": {
+      "valeur": "Colonie française, puis république",
+      "precision": "république indépendante depuis 1962, à parti unique jusqu’en 1989"
+    },
+    "langues": {
+      "valeur": "Arabe et tamazight (berbère)",
+      "precision": "le tamazight est langue officielle depuis 2016 ; le français reste très utilisé"
+    },
+    "religion": { "valeur": "Islam sunnite" },
+    "population": { "valeur": "Environ 44 millions en 2020", "precision": "environ 3 millions vers 1830, selon les estimations" },
+    "monnaie": { "valeur": "Franc, puis dinar algérien (1964)" },
+    "duree": { "valeur": "Environ 190 ans dans cette fiche" },
+    "aujourdhui": { "valeur": "Algérie", "precision": "le plus grand pays d’Afrique par sa superficie" }
+  },
+  "essentiel": [
+    "En 1830, la France prend Alger, alors sous souveraineté ottomane ; la conquête du pays, longue et violente, se heurte notamment à la résistance de l’émir [[abd-el-kader|Abd el-Kader]], qui se rend en 1847.",
+    "L’Algérie devient une colonie de peuplement : vers 1954, environ un million d’Européens y vivent aux côtés d’environ 8,5 millions d’Algériens musulmans, qui n’ont pas les mêmes droits.",
+    "Le 8 mai 1945, à Sétif et à Guelma, des manifestations nationalistes tournent à l’émeute et une centaine d’Européens sont tués ; la répression fait plusieurs milliers de morts algériens, un nombre toujours débattu.",
+    "La [[guerre-d-algerie|guerre d’Algérie]] (1954-1962) oppose le Front de libération nationale (FLN) à la France ; après les accords d’Évian, l’Algérie devient indépendante le 5 juillet 1962, et la plupart des Européens, les « pieds-noirs », partent pour la France.",
+    "Gouvernée par le FLN, parti unique jusqu’en 1989, l’Algérie connaît dans les années 1990 une guerre civile entre l’armée et des groupes islamistes armés, qui fait entre 100 000 et 200 000 morts selon les estimations."
+  ],
+  "datesCles": [
+    { "annee": 1830, "evenement": "Prise d’Alger", "info": "L’armée française débarque et prend Alger." },
+    {
+      "annee": 1847,
+      "evenement": "Reddition d’Abd el-Kader",
+      "info": "Après quinze ans de lutte, l’émir se rend aux Français."
+    },
+    {
+      "annee": 1848,
+      "evenement": "Départements",
+      "info": "Le nord de l’Algérie est divisé en départements français."
+    },
+    { "annee": 1870, "evenement": "Décret Crémieux", "info": "Les Juifs d’Algérie deviennent citoyens français." },
+    {
+      "annee": 1945,
+      "evenement": "Sétif et Guelma",
+      "info": "Émeutes et répression sanglante dans le Constantinois."
+    },
+    {
+      "annee": 1954,
+      "evenement": "Toussaint rouge",
+      "info": "Le 1er novembre, le FLN déclenche l’insurrection.",
+      "ref": "guerre-d-algerie"
+    },
+    { "annee": 1962, "evenement": "Indépendance", "info": "Accords d’Évian en mars ; indépendance le 5 juillet." },
+    { "annee": 1965, "evenement": "Coup d’État", "info": "Houari Boumédiène renverse Ahmed Ben Bella." },
+    {
+      "annee": 1988,
+      "evenement": "Émeutes d’octobre",
+      "info": "Des émeutes conduisent à la fin du parti unique (1989)."
+    },
+    {
+      "annee": 1992,
+      "evenement": "Élections interrompues",
+      "info": "L’armée interrompt les élections que le Front islamique du salut allait gagner."
+    },
+    {
+      "annee": 2019,
+      "evenement": "Hirak",
+      "info": "Des manifestations pacifiques poussent le président Bouteflika à la démission."
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "La conquête",
+      "debut": 1830,
+      "fin": 1871,
+      "resume": "La France conquiert le pays au prix de longues guerres contre Abd el-Kader et les tribus.",
+      "evenements": [
+        { "annee": 1830, "evenement": "Prise d’Alger" },
+        { "annee": 1847, "evenement": "Reddition d’Abd el-Kader" },
+        { "annee": 1871, "evenement": "Révolte de Mokrani" }
+      ]
+    },
+    {
+      "nom": "L’Algérie coloniale",
+      "debut": 1871,
+      "fin": 1954,
+      "resume": "Les colons s’installent sur les meilleures terres ; les Algériens musulmans restent privés de la plupart des droits.",
+      "evenements": [
+        { "annee": 1881, "evenement": "Code de l’indigénat" },
+        { "annee": 1930, "evenement": "Centenaire de la colonisation" },
+        { "annee": 1945, "evenement": "Sétif et Guelma" }
+      ]
+    },
+    {
+      "nom": "La guerre d’indépendance",
+      "debut": 1954,
+      "fin": 1962,
+      "resume": "Le FLN mène la lutte armée jusqu’aux accords d’Évian.",
+      "evenements": [
+        { "annee": 1954, "evenement": "Toussaint rouge", "ref": "guerre-d-algerie" },
+        { "annee": 1957, "evenement": "Bataille d’Alger" },
+        { "annee": 1962, "evenement": "Accords d’Évian et indépendance" }
+      ]
+    },
+    {
+      "nom": "L’Algérie indépendante",
+      "debut": 1962,
+      "fin": 2020,
+      "resume": "Parti unique, pétrole, guerre civile des années 1990, puis Hirak de 2019.",
+      "evenements": [
+        { "annee": 1965, "evenement": "Coup d’État de Boumédiène" },
+        { "annee": 1989, "evenement": "Multipartisme" },
+        { "annee": 1992, "evenement": "Début de la guerre civile" },
+        { "annee": 2019, "evenement": "Hirak" }
+      ]
+    }
+  ],
+  "regimes": [
+    {
+      "id": "colonie",
+      "nom": "Colonie française",
+      "debut": 1830,
+      "fin": 1962,
+      "note": "Le nord est découpé en départements français à partir de 1848."
+    },
+    {
+      "id": "republique",
+      "nom": "République algérienne",
+      "debut": 1962,
+      "fin": 2020,
+      "note": "Parti unique (FLN) jusqu’en 1989."
+    }
+  ],
+  "dynasties": [
+    { "id": "emirat", "nom": "L’émirat d’Abd el-Kader", "debut": 1832, "fin": 1847 },
+    { "id": "presidents", "nom": "Chefs de l’État", "debut": 1962, "fin": 2020, "note": "Sélection." }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Abd el-Kader",
+      "titre": "Émir",
+      "debut": 1832,
+      "fin": 1847,
+      "dynastie": "emirat",
+      "note": "chef de la résistance à la conquête",
+      "personne": "abd-el-kader",
+      "cle": true
+    },
+    {
+      "nom": "Ahmed Ben Bella",
+      "titre": "Président",
+      "debut": 1963,
+      "fin": 1965,
+      "dynastie": "presidents",
+      "note": "premier président, renversé en 1965",
+      "cle": true
+    },
+    {
+      "nom": "Houari Boumédiène",
+      "titre": "Chef de l’État",
+      "debut": 1965,
+      "fin": 1978,
+      "dynastie": "presidents",
+      "cle": true
+    },
+    { "nom": "Chadli Bendjedid", "titre": "Président", "debut": 1979, "fin": 1992, "dynastie": "presidents" },
+    {
+      "nom": "Mohamed Boudiaf",
+      "titre": "Président du Haut Comité d’État",
+      "debut": 1992,
+      "fin": 1992,
+      "dynastie": "presidents",
+      "note": "assassiné en 1992"
+    },
+    { "nom": "Liamine Zéroual", "titre": "Président", "debut": 1994, "fin": 1999, "dynastie": "presidents" },
+    {
+      "nom": "Abdelaziz Bouteflika",
+      "titre": "Président",
+      "debut": 1999,
+      "fin": 2019,
+      "dynastie": "presidents",
+      "note": "démissionne pendant le Hirak",
+      "cle": true
+    },
+    {
+      "nom": "Abdelmadjid Tebboune",
+      "titre": "Président",
+      "debut": 2019,
+      "fin": 2020,
+      "dynastie": "presidents",
+      "note": "toujours en fonction à la fin de la période couverte (2020)"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Abd el-Kader",
+      "role": "Émir",
+      "description": "Le chef de la résistance à la conquête française.",
+      "dates": "1808 → 1883",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Abd_el-Kader",
+      "ref": "abd-el-kader"
+    },
+    {
+      "nom": "Lalla Fatma N’Soumer",
+      "role": "Résistante",
+      "description": "Elle mène la résistance kabyle contre l’armée française jusqu’à sa capture en 1857.",
+      "dates": "vers 1830 → 1863",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Lalla_Fatma_N%27Soumer"
+    },
+    {
+      "nom": "Messali Hadj",
+      "role": "Homme politique",
+      "description": "Pionnier du nationalisme algérien, il réclame l’indépendance dès les années 1920.",
+      "dates": "1898 → 1974",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Messali_Hadj"
+    },
+    {
+      "nom": "Albert Camus",
+      "role": "Écrivain",
+      "description": "Né en Algérie, auteur de L’Étranger, prix Nobel de littérature en 1957.",
+      "dates": "1913 → 1960",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Albert_Camus"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Conquête de l’Algérie par la France",
+      "annee": 1830,
+      "adversaires": ["France"],
+      "allies": ["Régence d’Alger", "Émirat d’Abd el-Kader", "Tribus et confédérations algériennes"],
+      "morts": "Inconnues ; la population algérienne recule fortement entre 1830 et 1872 (guerres, famines, épidémies)",
+      "vainqueur": "France",
+      "consequences": "La conquête dure plusieurs décennies ; l’armée française pratique des razzias et, en 1845, des « enfumades » de populations réfugiées dans des grottes. Abd el-Kader se rend en 1847, la Kabylie est soumise en 1857 et la révolte de Mokrani est écrasée en 1871.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Conqu%C3%AAte_de_l%27Alg%C3%A9rie_par_la_France"
+    },
+    {
+      "nom": "Guerre d’Algérie",
+      "annee": 1954,
+      "adversaires": ["France"],
+      "allies": ["Front de libération nationale (FLN) et son armée, l’ALN"],
+      "morts": "Entre 250 000 et 400 000 Algériens selon les historiens (1,5 million selon le chiffre officiel algérien) ; environ 25 000 soldats français",
+      "vainqueur": "Indépendance de l’Algérie",
+      "consequences": "Attentats, combats, torture pratiquée par l’armée française, affrontements entre Algériens (FLN contre MNA) : la guerre est très violente. Elle provoque la chute de la IVe République en France (1958). Après l’indépendance, près d’un million de pieds-noirs partent pour la France, et des milliers, voire des dizaines de milliers selon les estimations, de harkis, Algériens ayant servi dans l’armée française, sont tués.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_d%27Alg%C3%A9rie"
+    },
+    {
+      "nom": "Guerre civile algérienne",
+      "annee": 1991,
+      "adversaires": ["Groupes islamistes armés (GIA, AIS…)"],
+      "allies": ["Armée et gouvernement algériens"],
+      "morts": "Entre 100 000 et 200 000 selon les estimations",
+      "vainqueur": "Gouvernement algérien",
+      "consequences": "Après l’interruption des élections législatives que le Front islamique du salut (FIS) allait remporter, une guerre très meurtrière éclate : massacres de villageois, attentats, disparitions. La « concorde civile » (1999) puis la charte pour la paix (2005) amnistient une partie des combattants.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_civile_alg%C3%A9rienne"
+    }
+  ],
+  "sciences": "D’importants gisements de pétrole et de gaz sont découverts dans le Sahara en 1956, à Hassi Messaoud et Hassi R’Mel. De 1960 à 1966, la France réalise 17 essais nucléaires dans le Sahara algérien, à Reggane et In Ekker, dont les retombées ont touché des populations locales.",
+  "croyancesText": "La quasi-totalité des Algériens sont musulmans sunnites ; des confréries soufies, comme celle de la famille d’Abd el-Kader, encadrent la résistance du XIXe siècle. L’association des oulémas, fondée en 1931 par Abdelhamid Ben Badis, défend l’islam et la langue arabe. La communauté juive, devenue française en 1870, quitte presque entièrement l’Algérie en 1962.",
+  "diplomatie": "Après 1962, l’Algérie devient une voix importante du tiers-monde et des pays non alignés ; Alger accueille de nombreux mouvements de libération. Elle soutient le Front Polisario au Sahara occidental, ce qui l’oppose au Maroc. Ses relations avec la France restent marquées par la mémoire de la colonisation et de la guerre.",
+  "societe": "Pendant la colonisation, une grande partie des meilleures terres est confisquée au profit des colons. Le code de l’indigénat (1881) soumet les Algériens musulmans à des règles et à des punitions particulières ; ils n’obtiennent la citoyenneté française qu’en 1946-1947, avec des droits encore inégaux.",
+  "economie": "Agriculture coloniale (vigne, céréales), puis, après 1956, pétrole et gaz naturel du Sahara, qui fournissent l’essentiel des exportations.",
+  "arts": "Musique raï d’Oran, chaâbi d’Alger, romans de Mohammed Dib, de Kateb Yacine et d’Assia Djebar, miniatures de Mohammed Racim.",
+  "quotidien": "Le couscous, plat commun au Maghreb, est inscrit en 2020 au patrimoine culturel immatériel de l’UNESCO, à la demande commune de l’Algérie, du Maroc, de la Mauritanie et de la Tunisie.",
+  "heritage": [
+    {
+      "titre": "La Casbah d’Alger",
+      "texte": "La vieille ville d’Alger est inscrite au patrimoine mondial de l’UNESCO depuis 1992."
+    },
+    { "titre": "Le 5 juillet", "texte": "Le jour de l’indépendance est la fête nationale de l’Algérie." }
+  ],
+  "aSavoir": [
+    "Abd el-Kader, longtemps adversaire de la France, est devenu célèbre en 1860 pour avoir protégé des milliers de chrétiens lors de massacres à Damas."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Histoire_de_l%27Alg%C3%A9rie",
+    {
+      "titre": "Encyclopædia Britannica — Algeria, History",
+      "url": "https://www.britannica.com/place/Algeria/History"
+    }
+  ]
+}

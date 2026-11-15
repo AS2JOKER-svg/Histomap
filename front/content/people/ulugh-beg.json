@@ -1,0 +1,17 @@
+{
+  "id": "ulugh-beg",
+  "nom": "Ulugh Beg",
+  "role": "Prince astronome de Samarcande",
+  "roles": ["Souverain", "Astronome", "Mathématicien"],
+  "dates": "1394 → 1449",
+  "naissance": 1394,
+  "mort": 1449,
+  "description": "Petit-fils de Tamerlan, gouverneur puis souverain de Samarcande, il est l’un des plus grands astronomes de son temps.",
+  "essentiel": [
+    "Il fonde une madrasa sur la place du Registan, où il enseigne lui-même.",
+    "Il fait construire un immense [[observatoire-d-ulugh-beg|observatoire]].",
+    "Son catalogue de plus de 1 000 étoiles est le plus précis depuis l’Antiquité.",
+    "Il est assassiné en 1449 sur ordre de son propre fils."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Ulugh_Beg"
+}

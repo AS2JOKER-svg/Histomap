@@ -1,0 +1,16 @@
+{
+  "id": "samuel-de-champlain",
+  "nom": "Samuel de Champlain",
+  "role": "Fondateur de Québec",
+  "roles": ["Explorateur", "Cartographe", "Fondateur"],
+  "dates": "vers 1574 → 1635",
+  "mort": 1635,
+  "description": "Explorateur et cartographe, il fonde Québec en 1608 et dirige la colonie jusqu’à sa mort ; il est surnommé le « père de la Nouvelle-France ».",
+  "essentiel": [
+    "Il noue des alliances avec les Innus, les Algonquins et les Hurons-Wendats.",
+    "En 1609, il combat avec eux les Mohawks près du lac qui porte aujourd’hui son nom.",
+    "Il explore les Grands Lacs et dresse des cartes précises de la région.",
+    "Il meurt à Québec le jour de Noël 1635."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Samuel_de_Champlain"
+}

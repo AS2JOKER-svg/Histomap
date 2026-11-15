@@ -1,0 +1,231 @@
+{
+  "documentaires": [],
+  "decouvertes": ["coupole-de-florence"],
+  "id": "italie-renaissance",
+  "label": "Italie de la Renaissance",
+  "tier": 1,
+  "region": "italie",
+  "period": "1400 à 1559",
+  "start": 1400,
+  "end": 1559,
+  "trackId": "italie",
+  "row": 7,
+  "isRiver": false,
+  "capitale": "Aucune (des États rivaux : Florence, Milan, Venise, Rome, Naples)",
+  "description": "L’Italie des XVe et XVIe siècles, divisée en États rivaux, où des artistes et des savants comme Brunelleschi, Léonard de Vinci et Michel-Ange font renaître l’héritage antique et transforment l’art et la pensée de l’Europe.",
+  "territories": ["Florence", "Milan"],
+  "reperes": {
+    "capitale": { "valeur": "Aucune", "precision": "Florence, Milan, Venise, Rome et Naples sont les grands centres" },
+    "regimes": {
+      "valeur": "Républiques et principautés",
+      "precision": "républiques marchandes (Florence, Venise), duchés (Milan), royaume (Naples), États du pape"
+    },
+    "langues": { "valeur": "Italien (toscan) et latin", "precision": "le toscan de Dante devient la langue littéraire" },
+    "religion": { "valeur": "Catholicisme" },
+    "apogee": {
+      "valeur": "Vers 1470 → 1520",
+      "precision": "l’époque de Laurent de Médicis, de Léonard de Vinci, de Michel-Ange et de Raphaël"
+    },
+    "population": { "valeur": "Environ 10 millions vers 1500", "precision": "estimation" },
+    "monnaie": { "valeur": "Florin de Florence, ducat de Venise", "precision": "monnaies d’or utilisées dans toute l’Europe" },
+    "duree": { "valeur": "Environ 160 ans" },
+    "aujourdhui": { "valeur": "Italie" }
+  },
+  "essentiel": [
+    "Au XVe siècle, l’Italie est divisée en États rivaux : Florence, Milan, Venise, les États du pape et le royaume de Naples ; leurs riches marchands et banquiers financent les arts.",
+    "À Florence, la famille des Médicis domine la ville ; [[laurent-de-medicis|Laurent le Magnifique]] protège artistes et savants. Brunelleschi y élève la [[coupole-de-florence|coupole de la cathédrale]].",
+    "Les humanistes redécouvrent les textes antiques ; les artistes inventent la perspective et étudient le corps humain : c’est la Renaissance.",
+    "[[leonard-de-vinci|Léonard de Vinci]], Michel-Ange et Raphaël réalisent des chefs-d’œuvre ; Machiavel écrit Le Prince, une réflexion sur le pouvoir.",
+    "De 1494 à 1559, les guerres d’Italie opposent la France et les Habsbourg sur son sol ; elles se terminent par la domination de l’Espagne sur une grande partie de la péninsule."
+  ],
+  "datesCles": [
+    {
+      "annee": 1436,
+      "evenement": "Coupole de Florence",
+      "info": "Brunelleschi achève la coupole de la cathédrale de Florence."
+    },
+    {
+      "annee": 1454,
+      "evenement": "Paix de Lodi",
+      "info": "Les grands États italiens s’accordent pour maintenir l’équilibre entre eux."
+    },
+    { "annee": 1469, "evenement": "Laurent de Médicis", "info": "Laurent le Magnifique prend la tête de Florence." },
+    {
+      "annee": 1478,
+      "evenement": "Conjuration des Pazzi",
+      "info": "Une famille rivale tente de tuer les Médicis dans la cathédrale ; Julien de Médicis est assassiné."
+    },
+    { "annee": 1494, "evenement": "Guerres d’Italie", "info": "Le roi de France Charles VIII envahit l’Italie." },
+    {
+      "annee": 1504,
+      "evenement": "Le David",
+      "info": "Le David de Michel-Ange est installé devant le palais de la Seigneurie, à Florence."
+    },
+    { "annee": 1527, "evenement": "Sac de Rome", "info": "Les troupes de Charles Quint pillent Rome." },
+    {
+      "annee": 1559,
+      "evenement": "Paix du Cateau-Cambrésis",
+      "info": "La France renonce à l’Italie ; l’Espagne y domine."
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "La première Renaissance",
+      "debut": 1400,
+      "fin": 1469,
+      "resume": "À Florence, Brunelleschi, Donatello et Masaccio inventent un art nouveau, inspiré de l’Antiquité.",
+      "evenements": [{ "annee": 1436, "evenement": "Coupole de Florence" }, { "annee": 1454, "evenement": "Paix de Lodi" }]
+    },
+    {
+      "nom": "L’apogée",
+      "debut": 1469,
+      "fin": 1527,
+      "resume": "Laurent le Magnifique, Léonard de Vinci, Michel-Ange et Raphaël : la Renaissance rayonne de Florence à Rome.",
+      "evenements": [
+        { "annee": 1478, "evenement": "Conjuration des Pazzi" },
+        { "annee": 1494, "evenement": "Début des guerres d’Italie" },
+        { "annee": 1504, "evenement": "Le David de Michel-Ange" }
+      ]
+    },
+    {
+      "nom": "L’Italie dominée",
+      "debut": 1527,
+      "fin": 1559,
+      "resume": "Après le sac de Rome, l’Espagne s’impose ; la Renaissance gagne le reste de l’Europe.",
+      "evenements": [{ "annee": 1527, "evenement": "Sac de Rome" }, { "annee": 1559, "evenement": "Paix du Cateau-Cambrésis" }]
+    }
+  ],
+  "regimes": [{ "id": "etats", "nom": "Républiques et principautés", "debut": 1400, "fin": 1559 }],
+  "dynasties": [
+    { "id": "medicis", "nom": "Les Médicis (Florence)", "debut": 1434, "fin": 1559, "note": "Sélection." },
+    { "id": "sforza", "nom": "Les Sforza (Milan)", "debut": 1450, "fin": 1535, "note": "Sélection." }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Cosme de Médicis",
+      "titre": "Maître de Florence",
+      "surnom": "l’Ancien",
+      "debut": 1434,
+      "fin": 1464,
+      "dynastie": "medicis",
+      "cle": true
+    },
+    { "nom": "François Sforza", "titre": "Duc de Milan", "debut": 1450, "fin": 1466, "dynastie": "sforza", "cle": true },
+    {
+      "nom": "Laurent de Médicis",
+      "titre": "Maître de Florence",
+      "surnom": "le Magnifique",
+      "debut": 1469,
+      "fin": 1492,
+      "dynastie": "medicis",
+      "personne": "laurent-de-medicis",
+      "cle": true
+    },
+    {
+      "nom": "Ludovic Sforza",
+      "titre": "Duc de Milan",
+      "surnom": "le More",
+      "debut": 1494,
+      "fin": 1499,
+      "dynastie": "sforza",
+      "note": "protecteur de Léonard de Vinci"
+    },
+    {
+      "nom": "Cosme Ier de Médicis",
+      "titre": "Duc de Florence",
+      "debut": 1537,
+      "fin": 1574,
+      "dynastie": "medicis",
+      "note": "futur grand-duc de Toscane",
+      "cle": true
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Laurent de Médicis",
+      "role": "Maître de Florence",
+      "description": "Banquier, poète et protecteur des arts.",
+      "dates": "1449 → 1492",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Laurent_de_M%C3%A9dicis",
+      "ref": "laurent-de-medicis"
+    },
+    {
+      "nom": "Léonard de Vinci",
+      "role": "Peintre, ingénieur et savant",
+      "description": "Le génie universel de la Renaissance.",
+      "dates": "1452 → 1519",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/L%C3%A9onard_de_Vinci",
+      "ref": "leonard-de-vinci"
+    },
+    {
+      "nom": "Michel-Ange",
+      "role": "Sculpteur, peintre et architecte",
+      "description": "L’auteur du David et du plafond de la chapelle Sixtine.",
+      "dates": "1475 → 1564",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Michel-Ange"
+    },
+    {
+      "nom": "Nicolas Machiavel",
+      "role": "Penseur politique",
+      "description": "Diplomate florentin, auteur du Prince.",
+      "dates": "1469 → 1527",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Nicolas_Machiavel"
+    },
+    {
+      "nom": "Filippo Brunelleschi",
+      "role": "Architecte",
+      "description": "Il construit la coupole de Florence et met au point la perspective.",
+      "dates": "1377 → 1446",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Filippo_Brunelleschi"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerres d’Italie",
+      "annee": 1494,
+      "adversaires": ["Royaume de France", "Habsbourg (Espagne et Empire)"],
+      "allies": ["États italiens, changeant de camp"],
+      "morts": "Inconnues",
+      "vainqueur": "Habsbourg (Espagne)",
+      "consequences": "Pendant soixante-cinq ans, la France et les Habsbourg se disputent l’Italie (Marignan en 1515, Pavie en 1525). La paix du Cateau-Cambrésis (1559) laisse l’Espagne dominer la péninsule ; les Français rapportent chez eux le goût de la Renaissance.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerres_d%27Italie"
+    },
+    {
+      "nom": "Sac de Rome (1527)",
+      "annee": 1527,
+      "adversaires": ["Armée de l’empereur Charles Quint"],
+      "allies": [],
+      "morts": "Plusieurs milliers d’habitants",
+      "vainqueur": "Troupes impériales",
+      "consequences": "Des soldats impayés pillent Rome pendant des mois ; de nombreux artistes quittent la ville. L’événement marque la fin de l’âge d’or de la Renaissance romaine.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Sac_de_Rome_(1527)"
+    }
+  ],
+  "sciences": "Les artistes de la Renaissance mettent au point la perspective, qui donne l’illusion de la profondeur. Léonard de Vinci dissèque des corps et dessine des machines volantes. Le mathématicien Luca Pacioli décrit en 1494 la comptabilité en partie double, utilisée par les banquiers. L’imprimerie, arrivée en Italie en 1465, diffuse les textes antiques ; à Venise, l’imprimeur Alde Manuce publie des livres de petit format, ancêtres du livre de poche.",
+  "croyancesText": "L’Italie reste profondément catholique, mais les humanistes étudient aussi la philosophie et les mythes de l’Antiquité païenne, que les artistes représentent à côté des scènes religieuses. À Florence, le moine Savonarole dénonce le luxe et organise un « bûcher des vanités » (1497), avant d’être exécuté en 1498.",
+  "diplomatie": "Les États italiens sont parmi les premiers à entretenir des ambassades permanentes et cherchent à maintenir un équilibre entre eux, comme lors de la paix de Lodi (1454). Leurs rivalités attirent les grandes puissances : la France et les Habsbourg font de l’Italie leur champ de bataille de 1494 à 1559.",
+  "societe": "Les villes sont dominées par de riches familles de marchands et de banquiers, comme les Médicis à Florence. Les artistes, longtemps considérés comme de simples artisans, deviennent des personnages célèbres et recherchés.",
+  "economie": "Banque (les Médicis prêtent aux rois et aux papes), commerce méditerranéen, draperie et soie, verrerie de Venise.",
+  "arts": "Coupole de Florence, David de Michel-Ange, Joconde et Cène de Léonard de Vinci, Naissance de Vénus de Botticelli, École d’Athènes de Raphaël.",
+  "quotidien": "Les ateliers des artistes, comme celui de Verrocchio où se forme Léonard de Vinci, accueillent de jeunes apprentis qui broient les couleurs et préparent les panneaux.",
+  "heritage": [
+    {
+      "titre": "Le mot « Renaissance »",
+      "texte": "Il désigne la « renaissance » des arts et des savoirs antiques ; le mouvement gagne ensuite la France, l’Espagne, l’Allemagne et l’Angleterre."
+    },
+    {
+      "titre": "Florence",
+      "texte": "Le centre historique de Florence est inscrit au patrimoine mondial de l’UNESCO depuis 1982."
+    }
+  ],
+  "aSavoir": [
+    "Léonard de Vinci écrivait souvent ses notes à l’envers, de droite à gauche, si bien qu’il faut un miroir pour les lire facilement."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Renaissance_italienne",
+    {
+      "titre": "Encyclopædia Britannica — Italian Renaissance",
+      "url": "https://www.britannica.com/event/Renaissance/Italy"
+    }
+  ]
+}

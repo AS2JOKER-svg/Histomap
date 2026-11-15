@@ -1,0 +1,17 @@
+{
+  "id": "zumbi-dos-palmares",
+  "nom": "Zumbi dos Palmares",
+  "role": "Chef du quilombo de Palmares",
+  "roles": ["Chef", "Résistant"],
+  "dates": "1655 → 1695",
+  "naissance": 1655,
+  "mort": 1695,
+  "description": "Né libre à Palmares, le plus grand refuge d’esclaves en fuite du Brésil, il en devient le dernier chef et refuse toute soumission aux Portugais.",
+  "essentiel": [
+    "Palmares, dans les montagnes du Nord-Est, compte des milliers d’habitants pendant près d’un siècle.",
+    "Zumbi refuse un accord de paix qui laisserait en esclavage les autres Africains.",
+    "Après la destruction de Palmares en 1694, il est tué le 20 novembre 1695.",
+    "Il est devenu un symbole de la lutte contre l’esclavage et le racisme au Brésil."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Zumbi_dos_Palmares"
+}

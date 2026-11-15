@@ -1,0 +1,20 @@
+{
+  "id": "renversement-du-royaume-d-hawai",
+  "nom": "Renversement du royaume d’Hawaï",
+  "annee": 1893,
+  "dates": "17 janvier 1893",
+  "lieu": "Honolulu (Hawaï)",
+  "description": "Un groupe d’hommes d’affaires et de planteurs, en majorité d’origine américaine, renverse la reine Liliʻuokalani avec l’appui de Marines débarqués d’un navire américain.",
+  "sections": [
+    {
+      "titre": "Pourquoi ?",
+      "texte": "La reine voulait une nouvelle constitution rendant le pouvoir aux Hawaïens ; les planteurs de sucre craignaient de perdre leur influence et souhaitaient l’annexion par les États-Unis."
+    },
+    {
+      "titre": "Conséquences",
+      "texte": "Une république est proclamée en 1894, puis Hawaï est annexé par les États-Unis en 1898. En 1993, le Congrès américain présente des excuses officielles."
+    }
+  ],
+  "liens": [{ "ref": "liliuokalani", "relation": "La reine renversée" }],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Renversement_du_royaume_d%27Hawa%C3%AF"
+}

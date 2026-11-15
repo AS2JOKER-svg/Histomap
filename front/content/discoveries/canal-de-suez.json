@@ -1,0 +1,19 @@
+{
+  "id": "canal-de-suez",
+  "nom": "Canal de Suez",
+  "annee": 1869,
+  "domaine": "Génie civil",
+  "dates": "1859 → 1869",
+  "description": "Canal artificiel d’environ 190 km qui relie la Méditerranée à la mer Rouge, évitant aux navires le tour de l’Afrique.",
+  "sections": [
+    {
+      "titre": "Le chantier",
+      "texte": "Lancé par le Français Ferdinand de Lesseps, il est creusé de 1859 à 1869, d’abord en grande partie par des paysans égyptiens soumis à la corvée ; des milliers d’entre eux y meurent."
+    },
+    {
+      "titre": "Un enjeu mondial",
+      "texte": "Contrôlé par une compagnie franco-britannique, il est nationalisé par Nasser en 1956."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Canal_de_Suez"
+}

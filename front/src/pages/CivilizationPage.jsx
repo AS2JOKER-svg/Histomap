@@ -4,7 +4,8 @@ import { getCivilization, regionLabel, useCiv } from '../lib/data'
 import { haptic } from '../lib/haptics'
 import { useProgress } from '../store/progress'
 import { useUI } from '../store/ui'
-import { chapterSize, mapYears } from '../lib/revision'
+import { mapYears } from '../lib/revision'
+import BandeauAventure from '../components/aventure/BandeauAventure'
 import { formatYear, formatDuration } from '../lib/time'
 import { civTextStyle, shade, solidBg } from '../lib/color'
 import useDocumentTitle from '../lib/useDocumentTitle'
@@ -79,7 +80,6 @@ export default function CivilizationPage() {
     if (top < 64) window.scrollBy({ top: top - 64 })
   }
   const region = regionLabel(civ.region)
-  const size = chapterSize(found)
 
   return (
     <article
@@ -143,12 +143,9 @@ export default function CivilizationPage() {
         )}
       </div>
 
-      {/* Une seule action principale : réviser cette civilisation */}
+      {/* Une seule action principale : sa salle dans l'Aventure (remplace « Réviser », V3) */}
       <div className="sticky z-10 bottom-[calc(theme(spacing.tabbar)+0.75rem)] md:bottom-6 mt-6">
-        <Link to={`/reviser/${epoch.id}/${civ.id}`} className="btn-accent w-full h-12 text-[15px] shadow-lift">
-          <Icon name="cards" size={18} /> Réviser {civ.label}
-          {size && <span className="font-normal opacity-90 hidden sm:inline">· {size.tier1} cartes + quiz</span>}
-        </Link>
+        <BandeauAventure civId={civ.id} label={civ.label} />
       </div>
     </article>
   )
@@ -548,7 +545,7 @@ function Guerres({ civ }) {
               <h3 className="font-semibold text-ink leading-snug">{g.nom}</h3>
               {g.annee != null && <span className="text-xs text-muted tabular-nums shrink-0 mt-0.5">{formatYear(g.annee)}</span>}
             </div>
-            <Versus left={[civ.label, ...(g.allies ?? [])]} right={g.adversaires ?? []} />
+            <Versus left={[g.camp ?? civ.label, ...(g.allies ?? [])]} right={g.adversaires ?? []} />
             <dl className="mt-3 space-y-1 text-sm">
               {g.vainqueur && (
                 <div>
@@ -564,6 +561,11 @@ function Guerres({ civ }) {
               )}
             </dl>
             {g.consequences && <RichText as="p" className="block mt-2 text-sm text-muted leading-relaxed" text={g.consequences} />}
+            {g.dossier && (
+              <Link to={`/guerres/${g.dossier}`} className="mt-3 mr-4 inline-flex items-center gap-1 text-sm font-semibold text-ink hover:underline">
+                <Icon name="layers" size={14} /> Dossier complet de la guerre
+              </Link>
+            )}
             {g.wikiUrl && (
               <a href={g.wikiUrl} target="_blank" rel="noreferrer" className="mt-3 inline-flex items-center gap-1 text-sm font-medium text-accent hover:underline">
                 Wikipédia <Icon name="external" size={14} />

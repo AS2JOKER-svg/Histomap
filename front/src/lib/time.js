@@ -5,7 +5,7 @@
  *   clampPeriod(civ, epochStart, end)   → { start, end, overflowBefore, overflowAfter }
  *   formatYear(year)                    → "3 000 av. J.-C." | "476"
  *   formatTick(year)                    → version courte pour les axes
- *   formatDuration(start, end)          → "505 ans" | "3,5 millénaires" | "3 millions d'années"
+ *   formatDuration(start, end)          → "505 ans" | "3,5 millénaires" | "environ 52 000 ans" | "3 millions d'années"
  */
 
 const fr = new Intl.NumberFormat('fr-FR', { maximumFractionDigits: 1 })
@@ -102,7 +102,11 @@ export function formatTick(year) {
 export function formatDuration(start, end) {
   const years = Math.abs(end - start)
   if (years >= 1e6) return `${fr.format(years / 1e6)} million${years >= 2e6 ? 's' : ''} d'années`
-  if (years >= 10000) return `${new Intl.NumberFormat('fr-FR').format(years)} ans`
+  // au-delà de 10 000 ans, les dates de départ sont approximatives : on arrondit (51 788 → « environ 52 000 ans »)
+  if (years >= 10000) {
+    const step = 10 ** (Math.floor(Math.log10(years)) - 1)
+    return `environ ${new Intl.NumberFormat('fr-FR').format(Math.round(years / step) * step)} ans`
+  }
   if (years >= 1000) return `${fr.format(years / 1000)} millénaire${years >= 2000 ? 's' : ''}`
   return `${years.toLocaleString('fr-FR')} an${years > 1 ? 's' : ''}`
 }

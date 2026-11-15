@@ -4,11 +4,15 @@
   "annee": 1810,
   "dates": "16 septembre 1810",
   "lieu": "Dolores (Mexique)",
-  "description": "Le prêtre Miguel Hidalgo appelle ses paroissiens à se soulever contre les autorités espagnoles : c’est le début de la guerre d’indépendance du Mexique.",
+  "description": "Le prêtre Miguel Hidalgo fait sonner les cloches de son église et appelle les habitants à se soulever contre le pouvoir espagnol.",
   "sections": [
     {
-      "titre": "Conséquences",
-      "texte": "Hidalgo est capturé et fusillé en 1811, mais la guerre continue. Le Mexique obtient son indépendance en 1821. Le 16 septembre est la fête nationale."
+      "titre": "Une révolte populaire",
+      "texte": "Des dizaines de milliers de paysans, d’Autochtones et de métis le suivent. Hidalgo est capturé et exécuté en 1811, mais la lutte continue jusqu’à l’indépendance de 1821."
+    },
+    {
+      "titre": "Aujourd’hui",
+      "texte": "Le 16 septembre est la fête nationale du Mexique : chaque année, le président répète le « cri » depuis le Palais national."
     }
   ],
   "wikiUrl": "https://fr.wikipedia.org/wiki/Grito_de_Dolores"

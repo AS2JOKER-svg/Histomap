@@ -1,0 +1,194 @@
+{
+  "documentaires": [],
+  "decouvertes": ["nagarakertagama"],
+  "id": "majapahit",
+  "label": "Empire de Majapahit",
+  "tier": 2,
+  "region": "asie-sud-est-insulaire",
+  "period": "1293 à vers 1527",
+  "start": 1293,
+  "end": 1527,
+  "trackId": "indonesie",
+  "row": 8,
+  "isRiver": false,
+  "capitale": "Trowulan (Majapahit)",
+  "description": "Un empire hindou-bouddhiste de l’est de Java, qui domine au XIVe siècle une grande partie de l’archipel indonésien grâce au commerce des épices et du riz.",
+  "territories": ["Kediri"],
+  "reperes": {
+    "capitale": { "valeur": "Trowulan (Majapahit)", "precision": "dans l’est de Java" },
+    "regimes": { "valeur": "Monarchie", "precision": "le roi gouverne avec un Premier ministre, le patih" },
+    "langues": { "valeur": "Vieux-javanais", "precision": "le sanskrit est utilisé dans les textes religieux" },
+    "religion": {
+      "valeur": "Hindouisme et bouddhisme",
+      "precision": "souvent associés ; l’islam progresse dans les ports au XVe siècle"
+    },
+    "apogee": { "valeur": "Règne de Hayam Wuruk (1350 → 1389)" },
+    "population": { "valeur": "Inconnue" },
+    "monnaie": { "valeur": "Pièces de cuivre chinoises", "precision": "importées en grande quantité" },
+    "duree": { "valeur": "Plus de 230 ans" },
+    "aujourdhui": { "valeur": "Indonésie", "precision": "surtout Java et Bali" }
+  },
+  "essentiel": [
+    "En 1293, le prince javanais Raden Wijaya profite d’une expédition mongole envoyée par Kubilai Khan : il s’allie aux Mongols pour vaincre un roi rival, puis les chasse et fonde Majapahit.",
+    "Au XIVe siècle, sous le roi Hayam Wuruk et son Premier ministre [[gajah-mada|Gajah Mada]], Majapahit domine une grande partie de l’archipel indonésien.",
+    "Un long poème de 1365, le [[nagarakertagama|Nagarakertagama]], décrit la cour et énumère les terres qui reconnaissent l’autorité de Majapahit.",
+    "Hindouisme et bouddhisme y sont étroitement mêlés ; un poème de cette époque contient la devise « Bhinneka Tunggal Ika », « l’unité dans la diversité », aujourd’hui celle de l’Indonésie.",
+    "Au XVe siècle, les guerres de succession et l’essor des sultanats musulmans des côtes, comme Malacca et Demak, affaiblissent l’empire, qui disparaît vers 1527."
+  ],
+  "datesCles": [
+    { "annee": 1293, "evenement": "Fondation", "info": "Raden Wijaya chasse l’armée mongole et fonde Majapahit." },
+    {
+      "annee": 1336,
+      "evenement": "Serment de Gajah Mada",
+      "info": "Selon la tradition, le Premier ministre jure de ne pas goûter au repos avant d’avoir unifié l’archipel."
+    },
+    { "annee": 1350, "evenement": "Hayam Wuruk", "info": "Début du règne qui marque l’apogée de l’empire." },
+    {
+      "annee": 1365,
+      "evenement": "Nagarakertagama",
+      "info": "Le poète Prapanca achève un long poème à la gloire du roi."
+    },
+    { "annee": 1404, "evenement": "Guerre de Paregreg", "info": "Une guerre de succession divise l’empire." },
+    {
+      "annee": 1527,
+      "evenement": "Fin",
+      "info": "Vers 1527, le sultanat de Demak met fin à ce qui reste de Majapahit."
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "La fondation",
+      "debut": 1293,
+      "fin": 1350,
+      "resume": "Les premiers rois et Gajah Mada imposent l’autorité de Majapahit à Java, puis au-delà.",
+      "evenements": [{ "annee": 1293, "evenement": "Départ des Mongols" }, { "annee": 1336, "evenement": "Serment de Gajah Mada" }]
+    },
+    {
+      "nom": "L’apogée",
+      "debut": 1350,
+      "fin": 1389,
+      "resume": "Sous Hayam Wuruk, Majapahit domine le commerce et une grande partie de l’archipel.",
+      "evenements": [{ "annee": 1365, "evenement": "Nagarakertagama" }]
+    },
+    {
+      "nom": "Le déclin",
+      "debut": 1389,
+      "fin": 1527,
+      "resume": "Les guerres de succession et l’essor des ports musulmans réduisent l’empire à l’est de Java.",
+      "evenements": [{ "annee": 1404, "evenement": "Guerre de Paregreg" }, { "annee": 1527, "evenement": "Fin de l’empire" }]
+    }
+  ],
+  "regimes": [{ "id": "monarchie", "nom": "Monarchie", "debut": 1293, "fin": 1527 }],
+  "dynasties": [{ "id": "rajasa", "nom": "La dynastie Rajasa", "debut": 1293, "fin": 1527, "note": "Sélection." }],
+  "dirigeants": [
+    {
+      "nom": "Raden Wijaya",
+      "titre": "Roi",
+      "surnom": "Kertarajasa",
+      "debut": 1293,
+      "fin": 1309,
+      "dynastie": "rajasa",
+      "note": "fondateur",
+      "cle": true
+    },
+    { "nom": "Jayanegara", "titre": "Roi", "debut": 1309, "fin": 1328, "dynastie": "rajasa", "cle": true },
+    {
+      "nom": "Tribhuwana Wijayatunggadewi",
+      "titre": "Reine",
+      "debut": 1328,
+      "fin": 1350,
+      "dynastie": "rajasa",
+      "note": "Gajah Mada devient Premier ministre sous son règne",
+      "cle": true
+    },
+    {
+      "nom": "Hayam Wuruk",
+      "titre": "Roi",
+      "surnom": "Rajasanagara",
+      "debut": 1350,
+      "fin": 1389,
+      "dynastie": "rajasa",
+      "cle": true
+    },
+    {
+      "nom": "Wikramawardhana",
+      "titre": "Roi",
+      "debut": 1389,
+      "fin": 1429,
+      "dynastie": "rajasa",
+      "note": "affronte la guerre de Paregreg"
+    },
+    { "nom": "Suhita", "titre": "Reine", "debut": 1429, "fin": 1447, "dynastie": "rajasa" }
+  ],
+  "personnages": [
+    {
+      "nom": "Gajah Mada",
+      "role": "Premier ministre",
+      "description": "L’homme d’État qui étend l’influence de Majapahit sur l’archipel.",
+      "dates": "? → 1364",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Gajah_Mada",
+      "ref": "gajah-mada"
+    },
+    {
+      "nom": "Hayam Wuruk",
+      "role": "Roi",
+      "description": "Le roi de l’apogée, célébré par le Nagarakertagama.",
+      "dates": "1334 → 1389",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Hayam_Wuruk"
+    },
+    {
+      "nom": "Prapanca",
+      "role": "Poète",
+      "description": "Moine bouddhiste et poète de la cour, auteur du Nagarakertagama.",
+      "dates": "XIVe siècle",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Prapanca"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Invasion mongole de Java",
+      "annee": 1293,
+      "adversaires": ["Empire mongol de Chine (Kubilai Khan)", "Royaume de Kediri (Jayakatwang)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Raden Wijaya",
+      "consequences": "Raden Wijaya s’allie d’abord aux Mongols pour vaincre le roi de Kediri, puis se retourne contre eux et les oblige à rembarquer. Il fonde Majapahit.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Mongol_invasion_of_Java"
+    },
+    {
+      "nom": "Guerre de Paregreg",
+      "annee": 1404,
+      "adversaires": ["Prince Wirabhumi (royaume de l’Est)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Wikramawardhana",
+      "consequences": "Cette guerre de succession affaiblit Majapahit, au moment où les ports musulmans de la côte deviennent plus puissants.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Regreg_War"
+    }
+  ],
+  "sciences": "Les artisans de Majapahit construisent en brique rouge des temples, des portes monumentales et des bassins, comme à Trowulan. Ils produisent de nombreuses figurines et tirelires en terre cuite. Les rizières de l’est de Java, irriguées par des canaux, produisent assez de riz pour l’exporter.",
+  "croyancesText": "La cour pratique à la fois l’hindouisme, surtout le culte de Shiva, et le bouddhisme, souvent considérés comme deux chemins vers la même vérité. Le poème Sutasoma, écrit à cette époque, contient la formule « Bhinneka Tunggal Ika », « l’unité dans la diversité ». Au XVe siècle, l’islam se diffuse dans les ports de la côte nord de Java.",
+  "diplomatie": "Majapahit revendique l’autorité sur une grande partie de l’archipel, de Sumatra aux Moluques, même si son contrôle réel est souvent limité. Il commerce avec la Chine, qui le visite lors des expéditions de [[zheng-he|Zheng He]], avec l’Inde et avec les royaumes d’Asie du Sud-Est.",
+  "societe": "Le roi, entouré d’une noblesse et de prêtres, gouverne l’est de Java ; les régions lointaines lui envoient un tribut. La plupart des habitants sont des paysans riziculteurs.",
+  "economie": "Riz, épices des Moluques (clou de girofle, noix de muscade), commerce maritime ; usage massif de pièces de cuivre chinoises.",
+  "arts": "Temples de brique de Trowulan, temple de Penataran, terres cuites, poésie en vieux-javanais (kakawin).",
+  "quotidien": "Les fouilles de Trowulan ont livré des milliers d’objets de la vie quotidienne : tuiles, pots, lampes, jouets et tirelires en terre cuite en forme d’animaux.",
+  "heritage": [
+    {
+      "titre": "La devise de l’Indonésie",
+      "texte": "« Bhinneka Tunggal Ika », tirée d’un poème de Majapahit, figure sur les armoiries de l’Indonésie."
+    },
+    {
+      "titre": "Bali",
+      "texte": "Selon la tradition, une partie de la noblesse et des prêtres de Majapahit se réfugie à Bali, qui reste aujourd’hui majoritairement hindoue."
+    }
+  ],
+  "aSavoir": ["Le nom « Majapahit » viendrait d’un fruit amer, le maja, trouvé à l’endroit où la ville fut fondée."],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Majapahit",
+    {
+      "titre": "Encyclopædia Britannica — Majapahit empire",
+      "url": "https://www.britannica.com/place/Majapahit-empire"
+    }
+  ]
+}

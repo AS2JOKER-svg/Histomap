@@ -1,0 +1,18 @@
+{
+  "id": "yasser-arafat",
+  "nom": "Yasser Arafat",
+  "role": "Dirigeant palestinien",
+  "roles": ["Chef de l’OLP", "Président de l’Autorité palestinienne"],
+  "dates": "1929 → 2004",
+  "naissance": 1929,
+  "mort": 2004,
+  "description": "Fondateur du Fatah, chef de l’Organisation de libération de la Palestine de 1969 à sa mort, il incarne le mouvement national palestinien.",
+  "reperes": [{ "label": "Chef de l’OLP", "valeur": "1969 → 2004" }],
+  "essentiel": [
+    "Il mène la lutte armée contre Israël, y compris des attaques contre des civils menées par des groupes de l’OLP.",
+    "En 1974, il s’adresse à l’Assemblée générale de l’ONU.",
+    "En 1993, il signe les accords d’Oslo et reconnaît Israël ; prix Nobel de la paix en 1994.",
+    "Il devient le premier président de l’Autorité palestinienne en 1996."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Yasser_Arafat"
+}

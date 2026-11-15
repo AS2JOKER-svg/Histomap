@@ -1,0 +1,18 @@
+{
+  "id": "haka",
+  "nom": "Haka",
+  "domaine": "Danse",
+  "dates": "tradition maorie",
+  "description": "Une danse maorie collective, accompagnée de chants, de gestes vigoureux, de grimaces et de frappes de pieds.",
+  "sections": [
+    {
+      "titre": "Pas seulement une danse de guerre",
+      "texte": "Il existe de nombreux haka : pour défier un adversaire, mais aussi pour accueillir des invités, célébrer un événement ou rendre hommage à un mort."
+    },
+    {
+      "titre": "Ka Mate",
+      "texte": "Le plus célèbre, « Ka Mate », est attribué au chef Te Rauparaha ; l’équipe de rugby néo-zélandaise l’exécute avant ses matchs."
+    }
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Haka"
+}

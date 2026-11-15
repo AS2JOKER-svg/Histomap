@@ -27,3 +27,10 @@ export function isCorrect(q, response) {
   if (q.type === 'order') return Array.isArray(response) && response.every((x, i) => x === q.items[i])
   return response === q.answer
 }
+
+/** La bonne réponse, en texte (liste « Revoir mes erreurs »). */
+export function bonneReponse(q) {
+  if (q.type === 'tf') return q.answer ? 'Vrai' : 'Faux'
+  if (q.type === 'order') return q.items.join(' → ')
+  return q.options?.[q.answer] ?? ''
+}

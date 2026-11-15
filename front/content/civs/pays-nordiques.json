@@ -1,0 +1,271 @@
+{
+  "documentaires": [],
+  "decouvertes": [],
+  "id": "pays-nordiques",
+  "label": "Pays nordiques",
+  "tier": 2,
+  "region": "europe-nord",
+  "period": "1814 à 2020",
+  "start": 1814,
+  "end": 2020,
+  "trackId": "scandinavie",
+  "row": 6,
+  "isRiver": false,
+  "capitale": "Aucune (Copenhague, Stockholm, Oslo, Helsinki, Reykjavik)",
+  "description": "Le Danemark, la Suède, la Norvège, la Finlande et l’Islande, qui deviennent aux XIXe et XXe siècles des États indépendants, démocratiques et parmi les plus riches du monde, avec un modèle social original.",
+  "territories": ["Sweden", "Norway", "Denmark", "Finland", "Iceland", "Sweden–Norway", "Greenland"],
+  "reperes": {
+    "capitale": { "valeur": "Aucune", "precision": "cinq États : Copenhague, Stockholm, Oslo, Helsinki et Reykjavik" },
+    "regimes": {
+      "valeur": "Monarchies et républiques parlementaires",
+      "precision": "monarchies au Danemark, en Suède et en Norvège ; républiques en Finlande (1919) et en Islande (1944)"
+    },
+    "langues": { "valeur": "Danois, suédois, norvégien, finnois, islandais", "precision": "langues sames dans le nord" },
+    "religion": { "valeur": "Protestantisme luthérien" },
+    "apogee": { "valeur": "Depuis les années 1950", "precision": "l’« État-providence » nordique" },
+    "population": { "valeur": "Environ 27 millions en 2020", "precision": "pour les cinq pays" },
+    "monnaie": { "valeur": "Couronnes", "precision": "la Finlande adopte l’euro en 2002" },
+    "duree": { "valeur": "Environ 200 ans dans cette fiche" },
+    "aujourdhui": {
+      "valeur": "Danemark, Suède, Norvège, Finlande, Islande",
+      "precision": "ainsi que le Groenland et les îles Féroé, autonomes au sein du royaume de Danemark"
+    }
+  },
+  "essentiel": [
+    "En 1814, le Danemark cède la Norvège à la Suède ; la Norvège, qui adopte sa propre constitution, reste unie à la Suède jusqu’en 1905. La Finlande, rattachée à l’Empire russe depuis 1809, devient indépendante en 1917, et l’Islande se sépare du Danemark en 1944.",
+    "En 1864, le Danemark perd les duchés de Schleswig et de Holstein face à la Prusse et à l’Autriche.",
+    "Pendant la Seconde Guerre mondiale, la Suède reste neutre, le Danemark et la Norvège sont occupés par l’Allemagne, et la Finlande combat l’URSS.",
+    "Au XXe siècle, les pays nordiques construisent un « État-providence » : les impôts sont élevés, mais l’école, les soins et les aides sociales sont garantis à tous.",
+    "Ils sont pionniers des droits des femmes : en 1906, la Finlande est le premier pays d’Europe à leur accorder le droit de vote et d’être élues."
+  ],
+  "datesCles": [
+    {
+      "annee": 1814,
+      "evenement": "Constitution norvégienne",
+      "info": "Le 17 mai, la Norvège adopte sa constitution, avant d’être unie à la Suède."
+    },
+    { "annee": 1864, "evenement": "Guerre des Duchés", "info": "Le Danemark perd le Schleswig et le Holstein." },
+    { "annee": 1901, "evenement": "Prix Nobel", "info": "Les premiers prix Nobel sont remis." },
+    {
+      "annee": 1905,
+      "evenement": "Indépendance de la Norvège",
+      "info": "La Norvège se sépare pacifiquement de la Suède."
+    },
+    {
+      "annee": 1906,
+      "evenement": "Vote des femmes",
+      "info": "La Finlande accorde aux femmes le droit de vote et d’être élues."
+    },
+    {
+      "annee": 1917,
+      "evenement": "Indépendance de la Finlande",
+      "info": "La Finlande proclame son indépendance le 6 décembre."
+    },
+    { "annee": 1939, "evenement": "Guerre d’Hiver", "info": "L’URSS attaque la Finlande." },
+    {
+      "annee": 1940,
+      "evenement": "Occupation",
+      "info": "Le 9 avril, l’Allemagne envahit le Danemark et la Norvège."
+    },
+    { "annee": 1944, "evenement": "Indépendance de l’Islande", "info": "L’Islande devient une république." },
+    {
+      "annee": 1952,
+      "evenement": "Conseil nordique",
+      "info": "Les pays nordiques créent une assemblée de coopération."
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "Nouvelles frontières",
+      "debut": 1814,
+      "fin": 1905,
+      "resume": "Après les guerres napoléoniennes, la Norvège passe à la Suède et le Danemark perd ses duchés du sud.",
+      "evenements": [
+        { "annee": 1814, "evenement": "Constitution norvégienne" },
+        { "annee": 1864, "evenement": "Guerre des Duchés" },
+        { "annee": 1905, "evenement": "Indépendance de la Norvège" }
+      ]
+    },
+    {
+      "nom": "Indépendances et guerres",
+      "debut": 1905,
+      "fin": 1945,
+      "resume": "La Finlande et l’Islande deviennent indépendantes ; la Seconde Guerre mondiale frappe la région.",
+      "evenements": [
+        { "annee": 1917, "evenement": "Indépendance de la Finlande" },
+        { "annee": 1939, "evenement": "Guerre d’Hiver" },
+        { "annee": 1940, "evenement": "Occupation du Danemark et de la Norvège" },
+        { "annee": 1944, "evenement": "Indépendance de l’Islande" }
+      ]
+    },
+    {
+      "nom": "Le modèle nordique",
+      "debut": 1945,
+      "fin": 2020,
+      "resume": "Démocraties prospères, État-providence et coopération entre voisins.",
+      "evenements": [
+        { "annee": 1952, "evenement": "Conseil nordique" },
+        { "annee": 1973, "evenement": "Le Danemark entre dans la Communauté européenne" },
+        { "annee": 1995, "evenement": "La Suède et la Finlande entrent dans l’Union européenne" }
+      ]
+    }
+  ],
+  "regimes": [{ "id": "etats", "nom": "Monarchies et républiques", "debut": 1814, "fin": 2020 }],
+  "dynasties": [
+    { "id": "suede", "nom": "Rois de Suède (maison Bernadotte)", "debut": 1818, "fin": 2020, "note": "Sélection." },
+    { "id": "danemark", "nom": "Souverains de Danemark", "debut": 1863, "fin": 2020, "note": "Sélection." },
+    { "id": "norvege", "nom": "Rois de Norvège", "debut": 1905, "fin": 2020, "note": "Sélection." },
+    { "id": "finlande", "nom": "Présidents de Finlande", "debut": 1919, "fin": 2020, "note": "Sélection." }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Charles XIV Jean",
+      "titre": "Roi de Suède et de Norvège",
+      "debut": 1818,
+      "fin": 1844,
+      "dynastie": "suede",
+      "note": "ancien maréchal de Napoléon, Jean-Baptiste Bernadotte",
+      "cle": true
+    },
+    {
+      "nom": "Christian IX",
+      "titre": "Roi de Danemark",
+      "surnom": "le beau-père de l’Europe",
+      "debut": 1863,
+      "fin": 1906,
+      "dynastie": "danemark",
+      "cle": true
+    },
+    {
+      "nom": "Haakon VII",
+      "titre": "Roi de Norvège",
+      "debut": 1905,
+      "fin": 1957,
+      "dynastie": "norvege",
+      "note": "refuse de céder à l’Allemagne en 1940",
+      "cle": true
+    },
+    {
+      "nom": "Kaarlo Juho Ståhlberg",
+      "titre": "Président de Finlande",
+      "debut": 1919,
+      "fin": 1925,
+      "dynastie": "finlande",
+      "note": "premier président"
+    },
+    {
+      "nom": "Carl Gustaf Emil Mannerheim",
+      "titre": "Président de Finlande",
+      "debut": 1944,
+      "fin": 1946,
+      "dynastie": "finlande",
+      "note": "chef de l’armée pendant les guerres contre l’URSS",
+      "cle": true
+    },
+    { "nom": "Urho Kekkonen", "titre": "Président de Finlande", "debut": 1956, "fin": 1982, "dynastie": "finlande" },
+    {
+      "nom": "Margrethe II",
+      "titre": "Reine de Danemark",
+      "debut": 1972,
+      "fin": 2020,
+      "dynastie": "danemark",
+      "note": "toujours reine à la fin de la période couverte (2020)",
+      "cle": true
+    },
+    {
+      "nom": "Charles XVI Gustave",
+      "titre": "Roi de Suède",
+      "debut": 1973,
+      "fin": 2020,
+      "dynastie": "suede",
+      "note": "toujours roi à la fin de la période couverte (2020)"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Alfred Nobel",
+      "role": "Chimiste et industriel",
+      "description": "L’inventeur de la dynamite, créateur des prix Nobel.",
+      "dates": "1833 → 1896",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Alfred_Nobel",
+      "ref": "alfred-nobel"
+    },
+    {
+      "nom": "Hans Christian Andersen",
+      "role": "Écrivain",
+      "description": "Le conteur danois de La Petite Sirène et du Vilain Petit Canard.",
+      "dates": "1805 → 1875",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Hans_Christian_Andersen"
+    },
+    {
+      "nom": "Roald Amundsen",
+      "role": "Explorateur",
+      "description": "Le Norvégien qui atteint le premier le pôle Sud, en 1911.",
+      "dates": "1872 → 1928",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Roald_Amundsen"
+    },
+    {
+      "nom": "Selma Lagerlöf",
+      "role": "Écrivaine",
+      "description": "Autrice du Merveilleux Voyage de Nils Holgersson, première femme prix Nobel de littérature (1909).",
+      "dates": "1858 → 1940",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Selma_Lagerl%C3%B6f"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Guerre des Duchés",
+      "annee": 1864,
+      "adversaires": ["Royaume de Prusse", "Empire d’Autriche"],
+      "allies": ["Danemark"],
+      "morts": "Plusieurs milliers",
+      "vainqueur": "Prusse et Autriche",
+      "consequences": "Le Danemark perd les duchés de Schleswig, de Holstein et de Lauenbourg, une grande partie de son territoire. Le nord du Schleswig redevient danois après un vote de ses habitants en 1920.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_des_Duch%C3%A9s"
+    },
+    {
+      "nom": "Guerre d’Hiver",
+      "annee": 1939,
+      "adversaires": ["URSS"],
+      "allies": ["Finlande"],
+      "morts": "Environ 25 000 Finlandais et plus de 100 000 soldats soviétiques",
+      "vainqueur": "URSS (paix de Moscou)",
+      "consequences": "La Finlande résiste plus de trois mois, puis cède à l’URSS environ un dixième de son territoire, dont une partie de la Carélie, mais garde son indépendance.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Guerre_d%27Hiver"
+    },
+    {
+      "nom": "Campagne de Norvège",
+      "annee": 1940,
+      "adversaires": ["Allemagne nazie"],
+      "allies": ["Norvège", "Royaume-Uni, France et Pologne"],
+      "morts": "Plusieurs milliers",
+      "vainqueur": "Allemagne",
+      "consequences": "Le Danemark est occupé presque sans combat le 9 avril 1940 ; la Norvège résiste deux mois, et son roi part en exil à Londres. En 1943, la résistance danoise fait passer en Suède la plupart des Juifs du Danemark, environ 7 000 personnes.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Campagne_de_Norv%C3%A8ge"
+    }
+  ],
+  "sciences": "Le chimiste suédois Alfred Nobel invente la dynamite (1867) et lègue sa fortune pour créer les prix Nobel, remis depuis 1901. Le physicien danois Niels Bohr propose en 1913 un nouveau modèle de l’atome. En 1991, l’étudiant finlandais Linus Torvalds crée le noyau du système d’exploitation Linux.",
+  "croyancesText": "Les pays nordiques sont de tradition protestante luthérienne, avec des Églises d’État ; la Suède sépare l’Église et l’État en 2000. La pratique religieuse y est aujourd’hui parmi les plus faibles d’Europe. Les Sames, peuple autochtone du nord, ont longtemps subi des politiques d’assimilation.",
+  "diplomatie": "Les pays nordiques choisissent des voies différentes : la Suède reste neutre pendant les deux guerres mondiales ; le Danemark, la Norvège et l’Islande entrent dans l’OTAN en 1949, tandis que la Finlande garde une neutralité prudente face à l’URSS. Ils coopèrent au sein du Conseil nordique, créé en 1952, et suppriment les passeports entre eux dans les années 1950.",
+  "societe": "Les pays nordiques construisent au XXe siècle des sociétés très égalitaires, avec des impôts élevés et une protection sociale pour tous. Les femmes y obtiennent tôt le droit de vote : en Finlande en 1906, en Norvège en 1913, au Danemark et en Islande en 1915, en Suède en 1919.",
+  "economie": "Bois, fer et industrie en Suède, pêche puis pétrole de la mer du Nord en Norvège (depuis les années 1970), agriculture et commerce maritime au Danemark, forêts et électronique en Finlande.",
+  "arts": "Contes d’Andersen, théâtre d’Ibsen et de Strindberg, peinture d’Edvard Munch (Le Cri), musique de Grieg et de Sibelius, design scandinave.",
+  "quotidien": "Le « droit d’accès à la nature », très ancien en Suède, en Norvège et en Finlande, permet de se promener et de camper presque partout, à condition de respecter les lieux.",
+  "heritage": [
+    {
+      "titre": "Les prix Nobel",
+      "texte": "Ils sont remis chaque année depuis 1901 à Stockholm, et à Oslo pour le prix Nobel de la paix."
+    },
+    {
+      "titre": "Le 17 mai",
+      "texte": "La fête nationale norvégienne célèbre la constitution de 1814, l’une des plus anciennes encore en vigueur."
+    }
+  ],
+  "aSavoir": [
+    "Depuis 1818, les rois de Suède descendent de Jean-Baptiste Bernadotte, un maréchal de Napoléon né à Pau, choisi comme prince héritier de Suède en 1810."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Pays_nordiques",
+    { "titre": "Encyclopædia Britannica — Scandinavia", "url": "https://www.britannica.com/place/Scandinavia" }
+  ]
+}

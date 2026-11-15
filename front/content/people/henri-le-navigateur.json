@@ -1,0 +1,17 @@
+{
+  "id": "henri-le-navigateur",
+  "nom": "Henri le Navigateur",
+  "role": "Prince portugais",
+  "roles": ["Prince", "Mécène des explorations"],
+  "dates": "1394 → 1460",
+  "naissance": 1394,
+  "mort": 1460,
+  "description": "Fils du roi Jean Ier, il finance et organise les premières expéditions portugaises le long des côtes de l’Afrique ; il ne navigue pourtant presque jamais lui-même.",
+  "essentiel": [
+    "Il participe à la prise de Ceuta en 1415.",
+    "Il envoie des expéditions vers Madère, les Açores et les côtes africaines.",
+    "En 1434, ses marins franchissent le cap Bojador, que l’on croyait infranchissable.",
+    "Ces expéditions ouvrent aussi la traite des Africains par les Portugais."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Henri_le_Navigateur"
+}

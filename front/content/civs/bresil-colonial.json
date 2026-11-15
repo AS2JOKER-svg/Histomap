@@ -1,0 +1,264 @@
+{
+  "documentaires": [],
+  "decouvertes": [],
+  "id": "bresil-colonial",
+  "label": "Brésil colonial",
+  "tier": 1,
+  "region": "amerique-sud-est",
+  "period": "1500 à 1822",
+  "start": 1500,
+  "end": 1822,
+  "trackId": "bresil",
+  "row": 3,
+  "isRiver": false,
+  "capitale": "Salvador, puis Rio de Janeiro",
+  "description": "La colonie portugaise d’Amérique du Sud, enrichie par le sucre puis par l’or grâce au travail de millions d’Africains réduits en esclavage, qui devient en 1808 le siège de la monarchie portugaise avant de proclamer son indépendance en 1822.",
+  "territories": ["Portuguese Brazil", "Viceroyalty of Brazil"],
+  "reperes": {
+    "capitale": {
+      "valeur": "Salvador, puis Rio de Janeiro",
+      "precision": "Salvador de Bahia de 1549 à 1763, puis Rio de Janeiro"
+    },
+    "regimes": {
+      "valeur": "Colonie portugaise",
+      "precision": "gouverneur général, puis vice-roi ; royaume uni au Portugal à partir de 1815"
+    },
+    "langues": {
+      "valeur": "Portugais",
+      "precision": "la « langue générale », d’origine tupi, est très parlée jusqu’au XVIIIe siècle"
+    },
+    "religion": {
+      "valeur": "Catholicisme",
+      "precision": "les religions africaines et autochtones se maintiennent et se mêlent"
+    },
+    "apogee": { "valeur": "XVIIIe siècle", "precision": "ruée vers l’or du Minas Gerais" },
+    "population": {
+      "valeur": "Environ 3 millions vers 1800",
+      "precision": "dont une majorité d’Africains et de descendants d’Africains"
+    },
+    "monnaie": { "valeur": "Réal portugais" },
+    "duree": { "valeur": "Plus de 320 ans" },
+    "aujourdhui": { "valeur": "Brésil" }
+  },
+  "essentiel": [
+    "En 1500, le navigateur portugais [[pedro-alvares-cabral|Pedro Álvares Cabral]] aborde la côte du Brésil, que le traité de Tordesillas (1494) a attribuée au Portugal.",
+    "Les Portugais exploitent d’abord le bois de braise, qui donne son nom au pays, puis développent au Nord-Est d’immenses plantations de canne à sucre.",
+    "Le Brésil devient la première destination de la traite atlantique : près de 5 millions d’Africains y sont amenés de force ; des esclaves en fuite fondent des quilombos, comme Palmares, dirigé par [[zumbi-dos-palmares|Zumbi]].",
+    "À la fin du XVIIe siècle, la découverte d’or dans le Minas Gerais attire des centaines de milliers de colons ; Rio de Janeiro devient la capitale en 1763.",
+    "En 1808, fuyant Napoléon, la cour du Portugal s’installe à Rio ; en 1822, le prince Pierre proclame l’[[independance-du-bresil|indépendance du Brésil]]."
+  ],
+  "datesCles": [
+    { "annee": 1500, "evenement": "Cabral", "info": "La flotte de Pedro Álvares Cabral aborde la côte du Brésil." },
+    {
+      "annee": 1534,
+      "evenement": "Capitaineries",
+      "info": "Le roi du Portugal partage la côte en grands domaines confiés à des nobles."
+    },
+    {
+      "annee": 1549,
+      "evenement": "Salvador",
+      "info": "Le premier gouverneur général fonde Salvador, capitale de la colonie ; les jésuites arrivent."
+    },
+    {
+      "annee": 1630,
+      "evenement": "Brésil hollandais",
+      "info": "Les Hollandais s’emparent de Recife et d’une partie du Nord-Est sucrier."
+    },
+    { "annee": 1654, "evenement": "Départ des Hollandais", "info": "Les Luso-Brésiliens reprennent Recife." },
+    {
+      "annee": 1695,
+      "evenement": "Zumbi",
+      "info": "Mort de Zumbi, chef du quilombo de Palmares ; la même décennie, on découvre de l’or dans le Minas Gerais."
+    },
+    { "annee": 1763, "evenement": "Rio de Janeiro", "info": "Rio de Janeiro devient la capitale de la colonie." },
+    {
+      "annee": 1808,
+      "evenement": "La cour à Rio",
+      "info": "Fuyant l’invasion française, la famille royale portugaise s’installe à Rio."
+    },
+    {
+      "annee": 1822,
+      "evenement": "Indépendance",
+      "info": "Le prince Pierre proclame l’indépendance et devient empereur du Brésil.",
+      "ref": "independance-du-bresil"
+    }
+  ],
+  "periodes": [
+    {
+      "nom": "Le bois et les premiers colons",
+      "debut": 1500,
+      "fin": 1549,
+      "resume": "Les Portugais commercent le bois de braise avec les peuples tupis et fondent les premiers établissements.",
+      "evenements": [{ "annee": 1500, "evenement": "Arrivée de Cabral" }, { "annee": 1534, "evenement": "Capitaineries" }]
+    },
+    {
+      "nom": "Le temps du sucre",
+      "debut": 1549,
+      "fin": 1695,
+      "resume": "Le Nord-Est devient le premier producteur de sucre du monde, grâce au travail des esclaves africains ; les Hollandais en occupent une partie.",
+      "evenements": [
+        { "annee": 1549, "evenement": "Fondation de Salvador" },
+        { "annee": 1630, "evenement": "Brésil hollandais" },
+        { "annee": 1695, "evenement": "Mort de Zumbi" }
+      ]
+    },
+    {
+      "nom": "L’or et la cour",
+      "debut": 1695,
+      "fin": 1822,
+      "resume": "La ruée vers l’or déplace le centre de la colonie vers le sud ; la cour portugaise s’installe à Rio, puis le Brésil devient indépendant.",
+      "evenements": [
+        { "annee": 1763, "evenement": "Rio capitale" },
+        { "annee": 1808, "evenement": "La cour à Rio" },
+        { "annee": 1822, "evenement": "Indépendance", "ref": "independance-du-bresil" }
+      ]
+    }
+  ],
+  "regimes": [
+    { "id": "colonie", "nom": "Colonie portugaise", "debut": 1500, "fin": 1815 },
+    { "id": "royaume-uni", "nom": "Royaume-Uni de Portugal, du Brésil et des Algarves", "debut": 1815, "fin": 1822 }
+  ],
+  "dynasties": [
+    {
+      "id": "gouverneurs",
+      "nom": "Gouverneurs, vice-rois et souverains au Brésil",
+      "debut": 1549,
+      "fin": 1822,
+      "note": "Sélection."
+    }
+  ],
+  "dirigeants": [
+    {
+      "nom": "Tomé de Sousa",
+      "titre": "Gouverneur général",
+      "debut": 1549,
+      "fin": 1553,
+      "dynastie": "gouverneurs",
+      "note": "fonde Salvador",
+      "cle": true
+    },
+    {
+      "nom": "Mem de Sá",
+      "titre": "Gouverneur général",
+      "debut": 1557,
+      "fin": 1572,
+      "dynastie": "gouverneurs",
+      "note": "chasse les Français de la baie de Rio",
+      "cle": true
+    },
+    {
+      "nom": "Comte da Cunha",
+      "titre": "Vice-roi",
+      "debut": 1763,
+      "fin": 1767,
+      "dynastie": "gouverneurs",
+      "note": "premier vice-roi installé à Rio",
+      "cle": true
+    },
+    {
+      "nom": "Jean VI",
+      "titre": "Prince régent, puis roi",
+      "debut": 1808,
+      "fin": 1821,
+      "dynastie": "gouverneurs",
+      "note": "gouverne l’empire portugais depuis Rio",
+      "cle": true
+    },
+    {
+      "nom": "Pierre",
+      "titre": "Prince régent",
+      "debut": 1821,
+      "fin": 1822,
+      "dynastie": "gouverneurs",
+      "note": "proclame l’indépendance"
+    }
+  ],
+  "personnages": [
+    {
+      "nom": "Pedro Álvares Cabral",
+      "role": "Navigateur portugais",
+      "description": "Le premier Européen à aborder officiellement le Brésil, en 1500.",
+      "dates": "vers 1467 → vers 1520",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Pedro_%C3%81lvares_Cabral",
+      "ref": "pedro-alvares-cabral"
+    },
+    {
+      "nom": "José de Anchieta",
+      "role": "Missionnaire jésuite",
+      "description": "Il participe à la fondation de São Paulo et écrit une grammaire de la langue tupi.",
+      "dates": "1534 → 1597",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Jos%C3%A9_de_Anchieta"
+    },
+    {
+      "nom": "Zumbi dos Palmares",
+      "role": "Chef du quilombo de Palmares",
+      "description": "Le dernier chef du plus grand refuge d’esclaves en fuite.",
+      "dates": "1655 → 1695",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Zumbi_dos_Palmares",
+      "ref": "zumbi-dos-palmares"
+    },
+    {
+      "nom": "Aleijadinho",
+      "role": "Sculpteur et architecte",
+      "description": "Fils d’une esclave et d’un architecte portugais, il est le grand artiste du baroque du Minas Gerais.",
+      "dates": "vers 1738 → 1814",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Aleijadinho"
+    },
+    {
+      "nom": "Tiradentes",
+      "role": "Conjuré",
+      "description": "Membre d’un complot pour l’indépendance du Minas Gerais, il est exécuté en 1792 ; il est devenu un héros national.",
+      "dates": "1746 → 1792",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Tiradentes"
+    }
+  ],
+  "guerres": [
+    {
+      "nom": "Batailles des Guararapes",
+      "annee": 1648,
+      "adversaires": ["Compagnie néerlandaise des Indes occidentales"],
+      "allies": [],
+      "morts": "Plusieurs centaines",
+      "vainqueur": "Luso-Brésiliens",
+      "consequences": "Des troupes formées de colons, d’Africains et d’Autochtones battent les Hollandais, maîtres du Nord-Est sucrier depuis 1630. Les Hollandais quittent Recife en 1654.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Battle_of_Guararapes"
+    },
+    {
+      "nom": "Destruction de Palmares",
+      "annee": 1694,
+      "adversaires": ["Quilombo de Palmares (Zumbi)"],
+      "allies": [],
+      "morts": "Inconnues",
+      "vainqueur": "Autorités coloniales portugaises",
+      "consequences": "Après près d’un siècle de résistance, le plus grand refuge d’esclaves en fuite est détruit par des troupes coloniales ; Zumbi est tué l’année suivante.",
+      "wikiUrl": "https://fr.wikipedia.org/wiki/Quilombo_dos_Palmares"
+    }
+  ],
+  "sciences": "Les moulins à sucre, les engenhos, transforment la canne en sucre grâce à de grandes chaudières, dans un travail épuisant imposé aux esclaves. Au XVIIIe siècle, les mines d’or et de diamants du Minas Gerais font du Brésil l’un des premiers producteurs d’or du monde. Les Portugais adoptent les savoirs autochtones, comme la culture du manioc.",
+  "croyancesText": "Le catholicisme est la religion officielle ; les jésuites fondent des missions pour convertir les peuples autochtones et les protéger parfois de l’esclavage. Les Africains réduits en esclavage conservent une partie de leurs croyances, qui se mêlent au christianisme et donneront naissance à des religions comme le candomblé.",
+  "diplomatie": "Le Brésil est la colonie la plus riche du Portugal. Il doit se défendre contre les Français, qui tentent de s’installer à Rio (1555-1567), et contre les Hollandais, qui occupent le Nord-Est de 1630 à 1654. En 1808, l’arrivée de la cour fait de Rio la capitale de tout l’empire portugais.",
+  "societe": "La société coloniale repose sur l’esclavage : près de 5 millions d’Africains sont amenés de force au Brésil, plus que dans tout autre pays. Les grands planteurs dominent, tandis que les peuples autochtones sont chassés de leurs terres, réduits en esclavage par les bandeirantes ou décimés par les épidémies. Des esclaves en fuite fondent des communautés libres, les quilombos.",
+  "economie": "Bois de braise, sucre, tabac, or et diamants, élevage ; commerce triangulaire avec l’Afrique et le Portugal.",
+  "arts": "Églises baroques couvertes d’or de Salvador et d’Ouro Preto, sculptures d’Aleijadinho, musique religieuse.",
+  "quotidien": "La capoeira, mélange de lutte, de danse et de musique, se développe parmi les Africains réduits en esclavage et leurs descendants.",
+  "heritage": [
+    {
+      "titre": "Le jour de la Conscience noire",
+      "texte": "Le 20 novembre, jour de la mort de Zumbi, est célébré au Brésil comme le jour de la Conscience noire."
+    },
+    {
+      "titre": "Ouro Preto",
+      "texte": "La ville de l’or, avec ses églises baroques, est inscrite au patrimoine mondial de l’UNESCO depuis 1980."
+    }
+  ],
+  "aSavoir": [
+    "Le nom « Brésil » vient du pau-brasil, un arbre dont le bois rouge comme la braise servait à teindre les tissus."
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Br%C3%A9sil_colonial",
+    {
+      "titre": "Encyclopædia Britannica — Brazil, colonial period",
+      "url": "https://www.britannica.com/place/Brazil/Colonial-Brazil"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "al-kanemi",
+  "nom": "Muhammad al-Amin al-Kanemi",
+  "role": "Shehu du Bornou",
+  "roles": ["Lettré", "Chef de guerre"],
+  "dates": "vers 1776 → 1837",
+  "naissance": 1776,
+  "mort": 1837,
+  "description": "Lettré musulman, il sauve le Bornou du djihad peul et devient le véritable maître du royaume ; sa famille remplace la vieille dynastie Sefuwa.",
+  "essentiel": [
+    "Il repousse les combattants peuls après la chute de Ngazargamu (1808).",
+    "Il échange des lettres célèbres avec Muhammad Bello, chef de Sokoto, sur la légitimité du djihad.",
+    "Il fonde une nouvelle capitale, Kukawa (1814)."
+  ],
+  "wikiUrl": "https://en.wikipedia.org/wiki/Muhammad_al-Amin_al-Kanemi"
+}

@@ -28,6 +28,9 @@ front/src/data/quiz-context.json
 front/src/data/search.json
 front/src/data/wars.json
 front/src/data/map-presence.json
+front/src/data/dossiers.json
+front/src/data/dossiers/
+front/src/data/parcours.json
 front/src/data/revision-meta.json
 front/src/data/revision/index.js
 front/reports/

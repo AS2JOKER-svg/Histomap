@@ -1,0 +1,18 @@
+{
+  "id": "ahmad-al-mansour",
+  "nom": "Ahmad al-Mansour",
+  "role": "Sultan saadien du Maroc",
+  "roles": ["Sultan"],
+  "dates": "1549 → 1603",
+  "naissance": 1549,
+  "mort": 1603,
+  "description": "Sultan de 1578 à 1603, il porte le Maroc à son apogée : victoire sur le Portugal, conquête de l’Empire songhaï et palais somptueux à Marrakech.",
+  "reperes": [{ "label": "Règne", "valeur": "1578 → 1603" }],
+  "essentiel": [
+    "Il devient sultan le jour même de la [[bataille-des-trois-rois|bataille des Trois Rois]] (1578).",
+    "Il envoie une armée de fusiliers à travers le Sahara, qui bat les Songhaï à [[bataille-de-tondibi|Tondibi]] (1591).",
+    "L’or ramené lui vaut le surnom d’« al-Dhahabi », le Doré.",
+    "Il négocie avec la reine Élisabeth Ire d’Angleterre contre l’Espagne."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Ahmed_al-Mansour"
+}

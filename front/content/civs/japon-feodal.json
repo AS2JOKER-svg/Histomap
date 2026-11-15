@@ -11,7 +11,7 @@
   "isRiver": false,
   "capitale": "Kyoto / Kamakura",
   "description": "Le Japon de l’époque Heian, où brille la culture de cour, puis des shoguns de Kamakura et de Muromachi, quand les guerriers samouraïs prennent le pouvoir réel à la place de l’empereur.",
-  "territories": ["Japan", "Imperial Japan (Fujiwara)", "Shogun Japan (Kamakura)"],
+  "territories": ["Japan", "Imperial Japan (Fujiwara)", "Shogun Japan (Kamakura)", "Yamato"],
   "datesCles": [
     {
       "annee": 794,

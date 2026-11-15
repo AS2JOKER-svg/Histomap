@@ -1,0 +1,17 @@
+{
+  "id": "alfred-nobel",
+  "nom": "Alfred Nobel",
+  "role": "Chimiste et industriel suédois",
+  "roles": ["Chimiste", "Inventeur", "Industriel"],
+  "dates": "1833 → 1896",
+  "naissance": 1833,
+  "mort": 1896,
+  "description": "Chimiste suédois, inventeur de la dynamite, il consacre par testament sa fortune à la création des prix Nobel.",
+  "essentiel": [
+    "Il invente la dynamite en 1867, un explosif plus sûr à manipuler que la nitroglycérine.",
+    "Il possède des usines d’explosifs dans de nombreux pays.",
+    "Dans son testament, il crée cinq prix : physique, chimie, médecine, littérature et paix.",
+    "Les premiers prix Nobel sont remis en 1901."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Alfred_Nobel"
+}

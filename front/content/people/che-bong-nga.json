@@ -1,0 +1,17 @@
+{
+  "id": "che-bong-nga",
+  "nom": "Chế Bồng Nga",
+  "role": "Roi du Champa",
+  "roles": ["Roi", "Chef de guerre"],
+  "dates": "? → 1390",
+  "mort": 1390,
+  "description": "Roi du Champa de 1360 à 1390, il redonne au royaume sa puissance et menace pendant vingt ans le Đại Việt.",
+  "reperes": [{ "label": "Règne", "valeur": "1360 → 1390" }],
+  "essentiel": [
+    "Il reconstitue une armée et une flotte puissantes.",
+    "En 1371, il pille Thăng Long (Hanoï), la capitale du Đại Việt.",
+    "En 1377, il bat une grande armée vietnamienne, dont le roi est tué.",
+    "Il meurt au combat en 1390, et le Champa perd ses conquêtes."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Ch%E1%BA%BF_B%E1%BB%93ng_Nga"
+}

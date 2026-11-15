@@ -1,0 +1,18 @@
+{
+  "id": "francisco-franco",
+  "nom": "Francisco Franco",
+  "role": "Dictateur espagnol",
+  "roles": ["Militaire", "Chef de l’État"],
+  "dates": "1892 → 1975",
+  "naissance": 1892,
+  "mort": 1975,
+  "description": "Général espagnol, chef du camp nationaliste pendant la guerre civile, il gouverne l’Espagne en dictateur de 1939 à sa mort.",
+  "reperes": [{ "label": "Au pouvoir", "valeur": "1939 → 1975", "precision": "chef du camp nationaliste dès 1936" }],
+  "essentiel": [
+    "Il participe au soulèvement militaire de juillet 1936 contre la République et devient le chef du camp nationaliste.",
+    "Vainqueur en 1939, il interdit les partis politiques et réprime durement ses opposants.",
+    "Il garde l’Espagne officiellement hors de la Seconde Guerre mondiale.",
+    "Il désigne Juan Carlos comme successeur ; à sa mort, l’Espagne devient une démocratie."
+  ],
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Francisco_Franco"
+}

@@ -1,7 +1,8 @@
-import { Suspense, lazy, useEffect, useState } from 'react'
+import { Suspense, lazy, useEffect, useRef, useState } from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
 import { isCorrect } from '../../lib/questions'
 import { haptic } from '../../lib/haptics'
+import useDelai from '../../lib/useDelai'
 import Icon from '../ui/Icon'
 import { civTextStyle } from '../../lib/color'
 
@@ -16,25 +17,37 @@ const TYPE_LABEL = { mcq: 'QCM', tf: 'Vrai ou faux', order: 'Remettre dans l’o
  *   onAnswer(response, correct) : enregistre la réponse (une seule fois)
  *   onNext()                    : question suivante (ou résultat)
  *   answered                    : réponse déjà donnée (reprise d'un quiz)
+ * Verrou anti double toucher (sprint 26) : une seule réponse et un seul « suivant » par question, et
+ * aucune réponse dans les 300 premières ms (le 2e toucher d'un double toucher sur « Question suivante »
+ * ne répond pas à la question qui arrive).
  */
 export default function QuestionView({ question: q, index, total, civ, answered, onAnswer, onNext, isLast }) {
   const [response, setResponse] = useState(answered?.response ?? null)
   const [order, setOrder] = useState([]) // sélection en cours (type « order »)
   const done = response !== null
   const correct = done && isCorrect(q, response)
+  const pret = useDelai(300)
+  const repondu = useRef(answered != null)
+  const parti = useRef(false)
 
   const submit = (r) => {
-    if (done) return
+    if (done || repondu.current || !pret()) return
+    repondu.current = true
     const ok = isCorrect(q, r)
     setResponse(r)
     haptic(ok ? 'success' : 'error')
     onAnswer(r, ok)
   }
+  const suivant = () => {
+    if (parti.current) return
+    parti.current = true
+    onNext()
+  }
 
   // Raccourcis : 1-4 / A-D pour répondre, V/F, Entrée pour continuer
   useEffect(() => {
     const onKey = (e) => {
-      if (done && e.key === 'Enter') return onNext()
+      if (done && e.key === 'Enter') return suivant()
       if (done) return
       if ((q.type === 'mcq' || q.type === 'map') && /^[1-4]$/.test(e.key) && q.options[+e.key - 1] !== undefined) submit(+e.key - 1)
       if (q.type === 'tf' && (e.key === 'v' || e.key === 'f')) submit(e.key === 'v')
@@ -119,7 +132,7 @@ export default function QuestionView({ question: q, index, total, civ, answered,
             {!correct && q.type === 'order' && <p className="text-sm text-ink mt-2"><strong>Bon ordre :</strong> {q.items.join(' → ')}</p>}
             {!correct && q.type === 'tf' && <p className="text-sm text-ink mt-2">C'était <strong>{q.answer ? 'vrai' : 'faux'}</strong>.</p>}
             {q.explanation && <p className="text-sm text-ink/80 mt-2 leading-relaxed">{q.explanation}</p>}
-            <button onClick={onNext} className="btn-primary w-full h-12 mt-3" autoFocus>
+            <button onClick={suivant} className="btn-primary w-full h-12 mt-3" autoFocus>
               {isLast ? 'Voir mon résultat' : 'Question suivante'} <Icon name="arrowRight" size={18} />
             </button>
           </motion.div>

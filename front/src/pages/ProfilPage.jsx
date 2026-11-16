@@ -8,6 +8,7 @@ import { OBJECTIFS_SEMAINE, lundi } from '../lib/progression'
 import { choisi } from '../lib/cosmetiques'
 import { solidBg } from '../lib/color'
 import { useAudio } from '../store/audio'
+import { canVibrate, testerVibrations } from '../lib/haptics'
 import { PARCOURS_AVENTURE as P, useProgress } from '../store/progress'
 import PageHeader from '../components/ui/PageHeader'
 import Icon from '../components/ui/Icon'
@@ -208,7 +209,7 @@ export default function ProfilPage() {
         <p className="text-sm text-muted mb-8">Termine tout le tronc d’un monde en or, ou tout un fil rouge, pour gagner ton premier titre.</p>
       )}
 
-      <h2 className="font-display text-2xl font-semibold text-ink mb-3">Sons et musique</h2>
+      <h2 className="font-display text-2xl font-semibold text-ink mb-3">Sons, musique et vibrations</h2>
       <ReglagesAudio />
 
       <h2 className="font-display text-2xl font-semibold text-ink mb-3">Personnaliser</h2>
@@ -241,11 +242,15 @@ function CarteProfil({ av, n, titres }) {
 }
 
 function ReglagesAudio() {
-  const { sons, musique, setSons, setMusique } = useAudio()
+  const { sons, musique, vibrations, setSons, setMusique, setVibrations } = useAudio()
+  const [essai, setEssai] = useState(null) // null | 'envoye' | 'impossible'
+  const peutVibrer = canVibrate()
   const lignes = [
     ['Sons de l’interface', 'Cartes, bonnes réponses, médailles, coffres', sons, setSons],
     ['Musique d’ambiance', 'Une ambiance par région du monde, générée dans l’app', musique, setMusique],
+    ['Vibrations', peutVibrer ? 'Bonnes réponses, erreurs, médailles, niveaux' : 'Cet appareil ou ce navigateur ne sait pas vibrer', vibrations, setVibrations],
   ]
+  const tester = () => setEssai(testerVibrations() ? 'envoye' : 'impossible')
   return (
     <div className="card divide-y divide-line mb-8">
       {lignes.map(([titre, detail, on, set]) => (
@@ -259,6 +264,21 @@ function ReglagesAudio() {
           </span>
         </button>
       ))}
+      <div className="px-4 py-3">
+        <div className="flex items-start gap-3">
+          <p className="flex-1 text-xs text-muted leading-relaxed">
+            Sur Android, le navigateur ne fait pas vibrer le téléphone en mode silencieux : passe en mode sonnerie ou vibreur pour sentir les vibrations. Sur iPhone, les vibrations ne sont pas disponibles.
+          </p>
+          <button onClick={tester} disabled={!vibrations} className="btn-secondary h-11 px-4 shrink-0" aria-label="Tester les vibrations">
+            Tester
+          </button>
+        </div>
+        {essai && (
+          <p role="status" className="text-sm text-ink mt-2">
+            {essai === 'envoye' ? 'Vibration envoyée. Rien senti ? Vérifie que le téléphone n’est pas en mode silencieux.' : 'Cet appareil ou ce navigateur ne sait pas vibrer.'}
+          </p>
+        )}
+      </div>
     </div>
   )
 }

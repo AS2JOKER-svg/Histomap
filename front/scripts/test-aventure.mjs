@@ -8,6 +8,9 @@ import { MEDAILLE, createParcours, etapeDuJour, listeARevoir, etoiles, mondeOuve
 import { aventureVide, enregistrerActivite, finOnboarding, gagnerXp, migrerV2, terminerEpreuve, terminerEtape, xpReponses, lundi } from '../src/lib/progression.js'
 import { lienDefi, lireDefi, nouvelleGraine, questionsDefi, verdict } from '../src/lib/defi.js'
 import { emplacementsJokers, gainReponse, niveau, petitCoffre, prochaineRecompense, rang, recompensesNiveau, seuilNiveau } from '../src/lib/xp.js'
+import { choisirEclairs, estVue, memeMot, mots, rattacher } from '../src/lib/eclairs.js'
+import { noteQuiz, premiereSansReponse } from '../src/lib/questions.js'
+import { HANDWRITTEN } from '../src/data/revision/index.js'
 
 let n = 0
 const test = (nom, fn) => {
@@ -276,6 +279,70 @@ test('défi : lien aller-retour, valeurs douteuses ignorées, verdict', () => {
   assert.deepEqual([verdict(9, 8), verdict(7, 8), verdict(8, 8)], ['gagne', 'perdu', 'egalite'])
 })
 
+// ── Questions éclair (sprint 26) : seulement sur les cartes déjà lues ──────────
+test('éclairs : mots et flexions', () => {
+  assert.deepEqual(mots('L’Égypte est « un don du Nil » en 1 500 av. J.-C.'), ['egypte', 'don', 'nil', '1500'])
+  assert.ok(memeMot('tunis', 'tunisie') && memeMot('pheniciens', 'phenicienne') && memeMot('detruite', 'detruire'))
+  assert.ok(!memeMot('romain', 'romantique') && !memeMot('146', '1460') && !memeMot('roi', 'rome'))
+})
+
+test('éclairs : Carthage, une question sur une carte d’Approfondir n’est jamais posée dans Découvrir', () => {
+  const ch = HANDWRITTEN.carthage
+  const qs = ch.quiz.map((q) => ({ ...q, id: `hand-${q.id}` }))
+  const liens = rattacher(ch.cards, qs)
+  const t1 = new Set(ch.cards.filter((c) => c.tier === 1).map((c) => c.id))
+  assert.deepEqual(liens.get('hand-pere'), [['hamilcar']]) // le père d'Hannibal : carte de niveau 2
+  assert.ok(!estVue(liens.get('hand-pere'), t1) && !estVue(liens.get('hand-suffetes'), t1) && !estVue(liens.get('hand-salammbo'), t1))
+  assert.ok(estVue(liens.get('hand-sicile'), t1) && estVue(liens.get('hand-alpes'), t1) && estVue(liens.get('hand-caton'), t1))
+  assert.equal(liens.get('hand-zama'), null) // « Scipion l’Africain » : réponse pas assez lisible → jamais posée
+})
+
+test('éclairs : sur les 214 chapitres, chaque question porte sur une carte déjà lue', () => {
+  let salles = 0
+  for (const [civId, ch] of Object.entries(HANDWRITTEN)) {
+    const qs = ch.quiz.map((q) => ({ ...q, id: `hand-${q.id}` }))
+    const liens = rattacher(ch.cards, qs)
+    for (const [tier, nombre] of [[1, 3], [2, 5]]) {
+      const paquet = ['cover', ...ch.cards.filter((c) => c.tier === tier).map((c) => c.id), 'recap']
+      const milieu = Math.floor(paquet.length / 2)
+      const choix = choisirEclairs({ cartes: ch.cards, questions: qs, paquet, nombre, milieu, graine: civId })
+      const toutes = [choix.milieu, ...choix.fin].filter(Boolean)
+      assert.ok(toutes.length <= nombre, civId)
+      assert.equal(new Set(toutes.map((q) => q.id)).size, toutes.length, `${civId} : question en double`)
+      if (choix.milieu) assert.ok(estVue(liens.get(choix.milieu.id), new Set(paquet.slice(0, milieu))), `${civId} : question du milieu sur une carte pas encore lue`)
+      for (const q of choix.fin) assert.ok(estVue(liens.get(q.id), new Set(paquet)), `${civId} : ${q.id} hors du paquet`)
+      // une carte « à revoir » remise avant le bilan ne change rien au choix
+      const avecRevue = [...paquet.slice(0, -1), paquet[1], 'recap']
+      const bis = choisirEclairs({ cartes: ch.cards, questions: qs, paquet: [...new Set(avecRevue)], nombre, milieu, graine: civId })
+      assert.deepEqual([bis.milieu?.id, ...bis.fin.map((q) => q.id)], [choix.milieu?.id, ...choix.fin.map((q) => q.id)])
+      if (tier === 1) {
+        assert.equal(toutes.length, 3, `${civId} : moins de 3 questions en Découvrir`) // état actuel du contenu (rapport : 214/214)
+        salles++
+      }
+    }
+  }
+  assert.equal(salles, 214)
+})
+
+// ── Épreuve : reprise et note sur les mêmes questions qu'à l'écran (sprint 26) ──
+test('épreuve : reprise à la première question sans réponse, même si une question a disparu', () => {
+  const q = (id) => ({ id })
+  // « b » répondue puis disparue du contenu : l'ancien calcul (2 réponses → question n° 3) sautait « c »
+  const affichees = [q('a'), q('c'), q('d')]
+  const reponses = [{ id: 'a', correct: true }, { id: 'b', correct: true }]
+  assert.equal(premiereSansReponse(affichees, reponses), 1)
+  assert.equal(premiereSansReponse(affichees, [...reponses, { id: 'c' }, { id: 'd' }]), 2)
+  assert.equal(premiereSansReponse([], []), 0)
+})
+
+test('épreuve : la note ne compte que les questions posées à l’écran', () => {
+  const current = { ids: ['a', 'b', 'c', 'd'], answers: [{ id: 'a', correct: true }, { id: 'b', correct: true }, { id: 'c', correct: false }, { id: 'd', correct: true }] }
+  assert.deepEqual(noteQuiz(current), { ids: ['a', 'b', 'c', 'd'], correct: 3, total: 4, score: 15, failed: ['c'], justes: [true, true, false, true] })
+  // « b » a disparu : 2 bonnes sur 3 questions posées
+  const r = noteQuiz(current, ['a', 'c', 'd'])
+  assert.deepEqual([r.correct, r.total, r.score, r.failed, r.justes], [2, 3, 13, ['c'], [true, false, true]])
+})
+
 // ── Validateur du parcours : il doit bloquer les erreurs ──────────────────────
 const content = loadContent()
 const errs = (mutate) => {
@@ -295,4 +362,4 @@ test('validateur : parent d’un monde plus tardif', () => assert.ok(errs((d) =>
 test('validateur : fil rouge non respecté', () => assert.ok(errs((d) => (d.branches['ethiopie-contemp'] = 'afrique-sud')).length))
 test('validateur : titre de fil rouge manquant', () => assert.ok(errs((d) => delete d.filsRouges.egypte).length))
 
-console.log(`✅ Aventure : ${n} tests réussis (parcours, étape du jour, XP, niveaux, récompenses, progression, migration, validateur).`)
+console.log(`✅ Aventure : ${n} tests réussis (parcours, étape du jour, XP, niveaux, récompenses, progression, migration, questions éclair, épreuve, validateur).`)

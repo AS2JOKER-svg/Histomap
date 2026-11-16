@@ -3,13 +3,15 @@ import { Link, Navigate, useNavigate, useParams } from 'react-router-dom'
 import { AnimatePresence, motion } from 'framer-motion'
 import { findCivilization } from '../lib/data'
 import { buildDeck, chapterCards } from '../lib/revision'
-import { composeQuiz, prepareQuestion, questionPool, rng, shuffle } from '../lib/quiz'
-import { bonneReponse } from '../lib/questions'
+import { composeQuiz, prepareQuestion, questionPool } from '../lib/quiz'
+import { bonneReponse, premiereSansReponse } from '../lib/questions'
+import { choisirEclairs } from '../lib/eclairs'
 import { imageResultat, partagerImage } from '../lib/partage'
 import { choisi } from '../lib/cosmetiques'
 import { titresObtenus } from '../lib/aventure'
 import { haptic } from '../lib/haptics'
 import useDocumentTitle from '../lib/useDocumentTitle'
+import useDelai from '../lib/useDelai'
 import { EPREUVE, MEDAILLE, estOuvert, etoiles } from '../lib/aventure'
 import { BAREME, gainReponse, niveau } from '../lib/xp'
 import { xpReponses } from '../lib/progression'
@@ -120,21 +122,38 @@ function Etape({ refCiv, etape }) {
   }, [current, phase]) // eslint-disable-line react-hooks/exhaustive-deps
   const cards = useMemo(() => (current?.queue ?? []).map((id) => byId[id]).filter(Boolean), [current?.queue, byId])
   const pos = Math.min(current?.pos ?? 0, Math.max(cards.length - 1, 0))
-
-  // Questions éclair : tirées du réservoir du quiz (questions rédigées d'abord), toujours les mêmes pour ce passage
-  const questions = useMemo(() => {
-    const pool = questionPool(refCiv)
-    const redigees = pool.filter((q) => q.id.startsWith('hand-'))
-    const source = redigees.length >= ECLAIRS[etape] ? redigees : pool
-    const rand = rng(`eclair:${civ.id}:${etape}:${chapter?.rounds ?? 0}`)
-    return shuffle(source, rand).slice(0, ECLAIRS[etape]).map((q) => prepareQuestion(q, chapter?.rounds ?? 0))
-  }, [refCiv, etape]) // eslint-disable-line react-hooks/exhaustive-deps
-  const [qi, setQi] = useState(0)
+  const seanceCourante = !!current && (current.round === 0) === (round === 0)
 
   // Micro-rythme (sprint 25) : au-delà de 8 cartes, la 1re question éclair arrive au milieu du paquet
   // (les autres restent à la fin) : on vérifie qu'on a lu avant de continuer.
-  const nbContenu = cards.filter((c) => c.type !== 'cover' && c.type !== 'recap').length
-  const milieu = nbContenu > 8 && questions.length > 1 ? Math.floor(cards.length / 2) : null
+  // Calculé sur les cartes distinctes : une carte « à revoir » remise en fin de paquet ne déplace pas le milieu.
+  const distinctes = useMemo(() => [...new Set(current?.queue ?? [])], [current?.queue])
+  const nbContenu = distinctes.filter((id) => byId[id] && byId[id].type !== 'cover' && byId[id].type !== 'recap').length
+  const milieuPrevu = nbContenu > 8 ? Math.floor(distinctes.length / 2) : null
+
+  // Questions éclair (sprint 26) : seulement des questions dont la réponse se lit dans les cartes de la
+  // séance (lib/eclairs.js) ; celle du milieu, dans la 1re moitié du paquet. S'il en manque, on en pose moins.
+  // Choisies une fois par séance : elles ne changent plus ensuite (cartes remises en fin de paquet, fin de l'étape).
+  const [eclairs, setEclairs] = useState(null)
+  useEffect(() => {
+    if (eclairs || !seanceCourante) return
+    const pool = questionPool(refCiv)
+    const redigees = pool.filter((q) => q.id.startsWith('hand-'))
+    const rounds = chapter?.rounds ?? 0
+    const choix = choisirEclairs({
+      cartes: chapterCards(refCiv),
+      questions: redigees.length ? redigees : pool,
+      paquet: distinctes,
+      nombre: ECLAIRS[etape],
+      milieu: milieuPrevu,
+      graine: `${civ.id}:${etape}:${rounds}`,
+    })
+    setEclairs({ milieu: choix.milieu && prepareQuestion(choix.milieu, rounds), fin: choix.fin.map((q) => prepareQuestion(q, rounds)) })
+  }, [seanceCourante, eclairs]) // eslint-disable-line react-hooks/exhaustive-deps
+  const questions = useMemo(() => (eclairs ? [eclairs.milieu, ...eclairs.fin].filter(Boolean) : []), [eclairs])
+  const [qi, setQi] = useState(0)
+
+  const milieu = eclairs?.milieu ? milieuPrevu : null
   const [milieuFait, setMilieuFait] = useState(false)
   const pauseMilieu = phase === 'cartes' && milieu !== null && pos >= milieu && !milieuFait && qi === 0
 
@@ -234,7 +253,8 @@ function EtapeFin({ refCiv, etape, evenements, justes, total }) {
       </motion.div>
       <h2 className="font-display text-4xl font-bold text-ink mt-4 leading-none">{civ.label}</h2>
       <p className="text-muted mt-2">
-        {medaille ? `Médaille ${medaille === MEDAILLE.BRONZE ? 'de bronze' : 'd’argent'} gagnée` : 'Étape revue'} · {justes} / {total} questions éclair
+        {medaille ? `Médaille ${medaille === MEDAILLE.BRONZE ? 'de bronze' : 'd’argent'} gagnée` : 'Étape revue'}
+        {total > 0 && ` · ${justes} / ${total} question${total > 1 ? 's' : ''} éclair`}
       </p>
       <div className="mt-5 grid grid-cols-2 gap-2.5">
         <Bloc valeur={`+${xp}`} label="XP" />
@@ -282,16 +302,20 @@ function Epreuve({ refCiv }) {
     startQuiz(civ.id, ids)
     setStep(0)
   }
-  useEffect(() => {
-    if (!quiz?.current && !result) begin()
-    else if (quiz?.current && step === null) setStep(quiz.current.answers.length)
-  }, [quiz?.current, result]) // eslint-disable-line react-hooks/exhaustive-deps
-
   const current = quiz?.current
+  // Questions de l'épreuve en cours. Une question qui n'existe plus (contenu mis à jour entre deux
+  // ouvertures) est écartée : elle ne compte ni à l'écran ni dans la note (finishQuiz reçoit ces ids).
   const questions = useMemo(
     () => (current?.ids ?? []).map((id) => byId[id] && prepareQuestion(byId[id], current.attempt)).filter(Boolean),
     [current?.ids, current?.attempt, byId]
   )
+  useEffect(() => {
+    // pas d'épreuve en cours, ou plus aucune de ses questions n'existe : on en compose une nouvelle
+    if ((!current || !questions.length) && !result) begin()
+    // reprise : première question sans réponse (et non « autant de questions que de réponses » :
+    // une réponse à une question disparue décalerait tout et ferait sauter une question)
+    else if (current && step === null) setStep(premiereSansReponse(questions, current.answers))
+  }, [current, result]) // eslint-disable-line react-hooks/exhaustive-deps
   const answers = current?.answers ?? []
   const index = Math.min(step ?? 0, Math.max(questions.length - 1, 0))
   const q = questions[index]
@@ -304,6 +328,7 @@ function Epreuve({ refCiv }) {
   let serie = 0
   for (let i = justes.length - 1; i >= 0 && justes[i]; i--) serie++
   const dernier = justes.length && justes.at(-1) ? gainReponse(serie, { rejeu }) : 0
+  const comboMax = serie >= BAREME.comboMax
   const bonnes = justes.filter(Boolean).length
   const total = questions.length || EPREUVE.questions
   // le son d'une bonne réponse monte avec le combo (lib/sons.js)
@@ -322,8 +347,9 @@ function Epreuve({ refCiv }) {
     }
     if (index < questions.length - 1) setStep(index + 1)
     else {
-      const r = finishQuiz(civ.id)
-      setResult({ ...r, questions, answers }) // garde les questions et réponses pour « Revoir mes erreurs »
+      // mêmes questions comptées à l'écran et dans la note
+      const r = finishQuiz(civ.id, questions.map((x) => x.id))
+      if (r) setResult({ ...r, questions, answers }) // garde les questions et réponses pour « Revoir mes erreurs »
     }
   }
   const pause = miTemps && step === index && index === Math.floor(total / 2) - 1
@@ -343,11 +369,23 @@ function Epreuve({ refCiv }) {
       )}
       {!result && !pause && serie >= 2 && reussitePossible && (
         <div className="max-w-[600px] w-full mx-auto px-4">
-          <motion.div key={serie} initial={{ scale: 0.9, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} className="flex items-center gap-3 px-3 py-2" style={{ background: '#2a2118', color: '#f6efe2' }}>
+          {/* Le compteur continue au-delà de ×5 (sprint 26), l'XP reste plafonnée à ×5 (BAREME.comboMax) ;
+              l'effet monte avec la série : apparition plus marquée et halo doré qui grandit. */}
+          <motion.div
+            key={serie}
+            initial={{ scale: comboMax ? 1.08 + Math.min(serie - BAREME.comboMax, 7) * 0.012 : 0.9, opacity: 0 }}
+            animate={{ scale: 1, opacity: 1 }}
+            transition={{ type: 'spring', damping: comboMax ? 9 : 14, stiffness: 260 }}
+            className="flex items-center gap-3 px-3 py-2"
+            style={{ background: '#2a2118', color: '#f6efe2', boxShadow: comboMax ? `0 0 ${8 + Math.min(serie - BAREME.comboMax, 7) * 3}px rgba(224,194,122,.5)` : undefined }}
+          >
             <span className="flex gap-[3px]" aria-hidden="true">
               {[1, 2, 3, 4, 5].map((k) => <span key={k} className="w-2.5 h-4" style={{ background: k <= serie ? '#e0c27a' : '#4a3d2c' }} />)}
             </span>
-            <span className="flex-1 text-sm font-bold" style={{ color: '#e0c27a' }}>Combo ×{Math.min(serie, 5)}</span>
+            <span className="flex-1 min-w-0 flex items-baseline flex-wrap gap-x-2 text-sm font-bold" style={{ color: '#e0c27a' }}>
+              <span className="tabular-nums">Combo ×{serie}</span>
+              {comboMax && <span className="text-[11px] uppercase tracking-[.12em]" style={{ color: '#f6efe2' }}>Combo max !</span>}
+            </span>
             <span className="font-display text-xl font-bold" style={{ color: '#e0c27a' }}>+{dernier}</span>
           </motion.div>
         </div>
@@ -356,7 +394,7 @@ function Epreuve({ refCiv }) {
         {result ? (
           <Resultat refCiv={refCiv} result={result} questions={result.questions} answers={result.answers} onRetry={() => { setResult(null); setMiTemps(false); setStep(null) }} />
         ) : pause ? (
-          <MiTemps bonnes={bonnes} faites={index + 1} restantes={total - index - 1} xp={xpAffiche} onReprendre={() => setStep(index + 1)} />
+          <MiTemps bonnes={bonnes} faites={index + 1} restantes={total - index - 1} xp={xpAffiche} onReprendre={() => setStep(Math.min(index + 1, questions.length - 1))} />
         ) : q ? (
           <AnimatePresence mode="wait">
             <QuestionView
@@ -384,6 +422,8 @@ function Epreuve({ refCiv }) {
 }
 
 function MiTemps({ bonnes, faites, restantes, xp, onReprendre }) {
+  // le 2e toucher d'un double toucher sur « Question suivante » ne doit pas fermer la mi-temps aussitôt
+  const pret = useDelai(500)
   const paliers = [
     { label: 'Réussir l’épreuve', seuil: 15 },
     { label: 'Deux étoiles ★★', seuil: 17 },
@@ -414,7 +454,7 @@ function MiTemps({ bonnes, faites, restantes, xp, onReprendre }) {
           L’or n’est plus possible cette fois, mais chaque bonne réponse compte encore, et tes erreurs reviendront pour t’entraîner. Termine en beauté !
         </p>
       )}
-      <button onClick={onReprendre} className="mt-auto mb-[max(1.75rem,env(safe-area-inset-bottom))] w-full max-w-sm min-h-[54px] font-bold text-[16px]" style={{ background: '#e0c27a', color: '#2a2118' }}>
+      <button onClick={() => pret() && onReprendre()} className="mt-auto mb-[max(1.75rem,env(safe-area-inset-bottom))] w-full max-w-sm min-h-[54px] font-bold text-[16px]" style={{ background: '#e0c27a', color: '#2a2118' }}>
         Reprendre — question {faites + 1}
       </button>
     </motion.div>

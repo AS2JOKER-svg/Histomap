@@ -28,6 +28,35 @@ export function isCorrect(q, response) {
   return response === q.answer
 }
 
+/**
+ * Reprise d'un quiz : indice de la première question sans réponse (la dernière si tout est répondu).
+ * Ne pas prendre « le nombre de réponses » : une réponse à une question disparue entre-temps
+ * décalerait l'indice et ferait sauter une question.
+ */
+export function premiereSansReponse(questions, answers) {
+  const i = questions.findIndex((q) => !answers.some((a) => a.id === q.id))
+  return i === -1 ? Math.max(questions.length - 1, 0) : i
+}
+
+/**
+ * Note d'un quiz terminé, calculée sur les questions réellement posées à l'écran (`ids`, par défaut
+ * toutes celles du quiz) : une question disparue ne compte pas, une réponse en double non plus.
+ * → { ids, correct, total, score (sur 20), failed: [ids ratés], justes: [booléens dans l'ordre des questions] }
+ */
+export function noteQuiz({ ids: idsQuiz = [], answers = [] }, ids = idsQuiz) {
+  const reponses = ids.map((id) => answers.find((a) => a.id === id)).filter(Boolean)
+  const correct = reponses.filter((a) => a.correct).length
+  const total = ids.length
+  return {
+    ids,
+    correct,
+    total,
+    score: total ? Math.round((correct / total) * 20) : 0,
+    failed: reponses.filter((a) => !a.correct).map((a) => a.id),
+    justes: reponses.map((a) => a.correct),
+  }
+}
+
 /** La bonne réponse, en texte (liste « Revoir mes erreurs »). */
 export function bonneReponse(q) {
   if (q.type === 'tf') return q.answer ? 'Vrai' : 'Faux'

@@ -217,6 +217,7 @@ Pour ajouter des questions rédigées à la main, compléter le tableau `quiz` d
 - `answer` = position de la bonne réponse dans `options` (elles sont mélangées à l'affichage).
 - **Ne jamais réutiliser ou renommer un `id`** : il sert à mémoriser les questions ratées.
 - Règles (dans `src/lib/quiz.js`) : 20 questions, validé dès 15/20 ; après un échec, 5 questions ratées reviennent avec 15 nouvelles.
+- **Questions éclair** (Découvrir, Approfondir ; sprint 26) : seulement des questions rédigées dont la bonne réponse **se lit dans une carte déjà lue** de la séance (la question du milieu : dans la 1re moitié du paquet). En attendant le champ `carte` (sprint 28), chaque question est rattachée par rapprochement de texte à la carte où sa réponse se lit le mieux (`src/lib/eclairs.js`) : pour qu'une question serve d'éclair, écrire la bonne réponse **avec les mêmes mots que la carte** (« Hamilcar Barca » si la carte dit « Hamilcar Barca »). `npm run eclairs` → `reports/questions-eclair.md` (questions rattachées et posées, salle par salle).
 
 ### Relier une civilisation à la carte
 - `territories` dans la fiche = noms **anglais** des territoires sur les cartes historiques (ex. `"Kingdom of France"`).

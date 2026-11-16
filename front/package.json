@@ -9,6 +9,7 @@
     "data": "npm run content && npm run validate",
     "coverage": "npm run content && node scripts/coverage-report.mjs",
     "links": "node scripts/check-links.mjs",
+    "eclairs": "node scripts/rapport-eclairs.mjs",
     "territoires": "node scripts/find-territories.mjs",
     "zone": "node scripts/territoires-zone.mjs",
     "predev": "npm run content",

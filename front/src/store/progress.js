@@ -24,6 +24,7 @@ import { load } from '../lib/storage'
 import PARCOURS from '../data/parcours.json'
 import { MEDAILLE, createParcours, epreuveOuverte, estOuvert } from '../lib/aventure'
 import * as prog from '../lib/progression'
+import { noteQuiz } from '../lib/questions'
 
 const VERSION = 3
 const MAX_DAYS = 60
@@ -243,14 +244,14 @@ export const useProgress = create(
         })
       },
 
-      /** Clôture le quiz en cours et renvoie { score, correct, total } (note sur 20). */
-      finishQuiz(civId) {
+      /**
+       * Clôture le quiz en cours et renvoie { score, correct, total, evenements } (note sur 20).
+       * `idsPoses` : questions réellement posées à l'écran (une question disparue du contenu ne compte pas).
+       */
+      finishQuiz(civId, idsPoses) {
         const q = get().quizzes[civId]
         if (!q?.current) return null
-        const { answers, ids } = q.current
-        const correct = answers.filter((a) => a.correct).length
-        const total = ids.length
-        const score = total ? Math.round((correct / total) * 20) : 0
+        const { ids, correct, total, score, failed, justes } = noteQuiz(q.current, idsPoses ?? q.current.ids)
         const now = Date.now()
         set((s) => ({
           quizzes: {
@@ -261,7 +262,7 @@ export const useProgress = create(
               best: Math.max(q.best ?? 0, score),
               lastScore: score,
               lastAt: now,
-              failed: answers.filter((a) => !a.correct).map((a) => a.id),
+              failed,
               asked: [...new Set([...q.asked, ...ids])],
               history: [...q.history, { at: now, score }].slice(-20),
               current: null,
@@ -269,7 +270,7 @@ export const useProgress = create(
           },
         }))
         get().touchDay()
-        const evenements = PARCOURS_AVENTURE.monde.has(civId) ? get().terminerEpreuve(civId, score, answers.map((a) => a.correct)) : []
+        const evenements = PARCOURS_AVENTURE.monde.has(civId) ? get().terminerEpreuve(civId, score, justes) : []
         return { score, correct, total, evenements }
       },
 

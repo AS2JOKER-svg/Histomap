@@ -71,9 +71,10 @@ const SONS = {
     note(ac, { f: 740, d: 0.07, type: 'triangle', vol: 0.05 })
     note(ac, { f: 1480, d: 0.03, type: 'sine', vol: 0.015 })
   },
-  // bonne réponse : petit accord ascendant, un ton plus haut à chaque palier de combo
+  // bonne réponse : petit accord ascendant, un ton plus haut à chaque palier de combo,
+  // puis un demi-ton de plus tous les deux au-delà de ×5 (jusqu'à une octave au-dessus à ×12)
   juste: (ac) => {
-    const base = demiTons(DO5, Math.min(combo, 4) * 2)
+    const base = demiTons(DO5, combo <= 4 ? combo * 2 : 8 + Math.min(combo - 4, 8) * 0.5)
     ;[0, 4, 7].forEach((n, i) => note(ac, { f: demiTons(base, n), t: i * 0.055, d: 0.32, type: i ? 'sine' : 'triangle', vol: 0.075 }))
   },
   // erreur : deux notes graves et douces, jamais un buzzer

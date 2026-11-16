@@ -222,7 +222,7 @@ Pour ajouter des questions rédigées à la main, compléter le tableau `quiz` d
 (une question par ligne, `carte` juste après l'`id` : c'est ainsi que `npm run relier` l'écrit)
 - `answer` = position de la bonne réponse dans `options` (elles sont mélangées à l'affichage).
 - **Ne jamais réutiliser ou renommer un `id`** : il sert à mémoriser les questions ratées.
-- Règles (dans `src/lib/quiz.js`) : 20 questions, validé dès 15/20 ; après un échec, 5 questions ratées reviennent avec 15 nouvelles.
+- Règles (V3.1, `src/lib/epreuve.js`) : l'**Épreuve** d'une salle du tronc = 12 questions sur les cartes de Découvrir (+ Approfondir s'il est fait), ★ 9, ★★ 11, ★★★ 12 ; la **mini-épreuve** d'une annexe = 8 questions sur ses cartes de Découvrir, ★ 6, ★★ 7, ★★★ 8 ; ≈ 70 % de questions rédigées, le reste généré depuis les cartes ; après une épreuve, 3 questions ratées reviennent (2 pour une annexe). Défis, quiz infini et « À revoir » : cartes de Découvrir et d'Approfondir.
 - **Questions éclair** (Découvrir, Approfondir) : seulement des questions rédigées dont **la carte a été lue** dans la séance (la question du milieu : dans la 1re moitié du paquet), d'après le champ `carte` (`src/lib/eclairs.js`). `npm run eclairs` → `reports/questions-eclair.md` (questions posées, salle par salle).
 
 ### Relier les questions aux cartes (champ `carte`, sprint 28)
@@ -279,6 +279,7 @@ affiche les questions générées d'une salle pour les relire.
   "mondes": [{ "epoque": "antiquite", "titre": "Grand savant de l’Antiquité", "theme": "papyrus",
                "tronc": ["mesopotamie", "egypte", "…"] }],            // un monde par époque, dans l'ordre de epochs.json
   "branches": { "koush": "egypte", "aksoum": "koush" },               // toutes les autres civilisations → leur parent
+  "courts": { "chine-imperiale": "Qin et Han" },                       // noms courts (carte du parcours), ≤ 16 caractères
   "filsRouges": { "egypte": "Maître de l’Égypte" },                    // un titre par lignée de lineages.json
   "titreUltime": "Historien universel"
 }
@@ -288,8 +289,15 @@ affiche les questions générées d'une salle pour les relire.
   dépend de la **civilisation précédente de sa lignée** (ex. Empire d'Éthiopie ← Aksoum).
 - **Ajouter une civilisation** = aussi l'ajouter ici (dans un tronc ou dans `branches`), sinon `npm run data` échoue.
 - Thèmes possibles : `silex`, `papyrus`, `enluminure`, `lapis`, `neon` (un par monde).
-- Règles du jeu (ouverture des salles, étape du jour) : `src/lib/aventure.js` ; XP, niveaux, récompenses : `src/lib/xp.js` ;
-  tests : `npm test` (aussi lancés par `npm run validate`).
+- **Noms courts** (`courts`, V3.1) : obligatoires pour chaque salle qui peut être sur le chemin d'un joueur (salle du tronc,
+  ou membre d'une lignée = salle de fil rouge) dont le nom dépasse 16 caractères ; 16 caractères au plus ; les noms affichés
+  sur le chemin (nom court, sinon nom) sont tous différents. Les initiales des pastilles et des bulles en sont tirées
+  (`initiales` dans `src/lib/aventure.js`). Une annexe hors des fils n'en a pas besoin (bulle à initiales).
+- Chemin d'un joueur (V3.1) : le tronc + les annexes de son fil rouge, placées juste après leur parent, sinon (parent dans
+  un monde précédent) avant la première salle de leur monde qui commence plus tard qu'elles (date de début de la fiche).
+- Règles du jeu (chemin, ouverture des salles, « à rattraper », étoiles) : `src/lib/aventure.js` ; XP, niveaux, rangs :
+  `src/lib/xp.js` ; progression et migrations : `src/lib/progression.js` ; questions de l'Épreuve : `src/lib/epreuve.js` ;
+  tests : `npm test` (aussi lancés par `npm run validate`) ; `npm run simulation` : temps et XP par monde d'un joueur simulé.
 
 ### Écrire un dossier de guerre (`content/wars/<id>.json`)
 Modèles : `content/wars/seconde-guerre-mondiale.json` (Guerres A), puis `guerres-puniques`, `guerre-de-cent-ans`, `guerres-napoleoniennes`, `premiere-guerre-mondiale` (Guerres B). Page : `/guerres/<id>`.
@@ -330,7 +338,7 @@ Modèles : `content/wars/seconde-guerre-mondiale.json` (Guerres A), puis `guerre
 |---|---|
 | Le plan du site (URLs) | `src/App.jsx` |
 | L'en-tête, la barre d'onglets mobile | `src/layouts/AppShell.jsx` |
-| L'Aventure (onglet par défaut : parcours, étape du jour) | `src/pages/AventurePage.jsx` ; règles : `src/lib/aventure.js`, `src/lib/xp.js`, `src/lib/progression.js` |
+| L'Aventure (onglet par défaut : parcours, étape du jour) | `src/pages/AventurePage.jsx` ; règles : `src/lib/aventure.js`, `src/lib/xp.js`, `src/lib/progression.js`, `src/lib/epreuve.js` |
 | Le Profil | `src/pages/ProfilPage.jsx` (séance « À revoir » : `src/pages/ARevoirPage.jsx`) |
 | Le premier lancement (bienvenue, fil rouge, 3 questions) | `src/pages/BienvenuePage.jsx` |
 | Les Défis (par lien, à deux, quiz infini) | `src/pages/DefisPage.jsx`, `DefiPage.jsx`, `DeuxJoueursPage.jsx`, `EntrainementPage.jsx` + `src/components/defi/` ; règles (graine, lien, choix des 10 questions) : `src/lib/defi.js` |

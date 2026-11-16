@@ -7,8 +7,6 @@ import ThemeToggle from '../components/ui/ThemeToggle'
 import RefSheet from '../components/RefSheet'
 import Toaster from '../components/Toaster'
 import AppBanner from '../components/app/AppBanner'
-import { useProgress } from '../store/progress'
-import { appliquerTheme, choisi } from '../lib/cosmetiques'
 import { useAudio } from '../store/audio'
 
 // Barre à 4 onglets (V3, sprint 19). `match` : débuts d'adresse qui allument l'onglet.
@@ -36,10 +34,6 @@ export default function AppShell() {
   useEffect(() => {
     window.scrollTo({ top: 0 })
   }, [pathname])
-
-  // Thème gagné dans l'Aventure et choisi dans le Profil (accent de couleur)
-  const theme = useProgress((s) => choisi('theme', s.aventure.cosmetiques, s.aventure.recompenses).id)
-  useEffect(() => appliquerTheme(theme), [theme])
 
   return (
     <div className="min-h-screen flex flex-col">

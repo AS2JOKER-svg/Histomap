@@ -1,7 +1,9 @@
 import { useMemo } from 'react'
-import { SCEAUX } from '../../lib/cosmetiques'
 
-/** Particules qui tombent (effet de célébration choisi dans le Profil). Décor : masqué aux lecteurs d'écran. */
+/** Effet des célébrations : poussière d'or (plus d'effets à choisir depuis la V3.1). */
+export const EFFET = { couleurs: ['#e0c27a', '#f6efe2', '#c9966a'], forme: 'rond' }
+
+/** Particules qui tombent. Décor : masqué aux lecteurs d'écran. */
 export function Particules({ effet, nombre = 26 }) {
   const items = useMemo(
     () =>
@@ -58,35 +60,13 @@ export function Rayons({ taille = 420 }) {
   )
 }
 
-/** Coffre qui s'ouvre (le couvercle bascule, des étincelles montent). */
-export function Coffre({ taille = 120 }) {
+/** Sceau du profil : le niveau en monogramme dans un cachet terre cuite. */
+export function Sceau({ niveau, taille = 64 }) {
   return (
-    <svg aria-hidden="true" width={taille * 1.6} height={taille * 1.3} viewBox="0 0 160 130">
-      <ellipse className="hm-pulse-or" cx="80" cy="62" rx="70" ry="42" fill="#e0c27a" fillOpacity=".22" />
-      <rect x="28" y="62" width="104" height="58" fill="#8a3a1e" stroke="#e0c27a" strokeWidth="3" />
-      <rect x="28" y="80" width="104" height="9" fill="#e0c27a" />
-      <rect x="71" y="74" width="18" height="20" fill="#2a2118" stroke="#e0c27a" strokeWidth="2" />
-      <g className="hm-couvercle">
-        <path d="M28 62V50Q80 22 132 50V62Z" fill="#8a3a1e" stroke="#e0c27a" strokeWidth="3" />
-      </g>
-    </svg>
-  )
-}
-
-/** Sceau du profil : pictogramme dans un cachet terre cuite, ou le niveau en monogramme. */
-export function Sceau({ sceau, niveau, taille = 64 }) {
-  const s = SCEAUX.find((x) => x.id === sceau?.id && x.d)
-  return (
-    <svg width={taille} height={taille} viewBox="0 0 72 72" role="img" aria-label={s ? `Sceau ${s.nom}, niveau ${niveau}` : `Niveau ${niveau}`}>
+    <svg width={taille} height={taille} viewBox="0 0 72 72" role="img" aria-label={`Niveau ${niveau}`}>
       <circle cx="36" cy="36" r="34" fill="#8a3a1e" />
       <circle cx="36" cy="36" r="28" fill="none" stroke="#e0c27a" strokeWidth="1.5" strokeDasharray="2 3" />
-      {s ? (
-        <g transform="translate(18 18) scale(1.5)" fill="none" stroke="#e0c27a" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
-          <path d={s.d} />
-        </g>
-      ) : (
-        <text x="36" y="46" textAnchor="middle" fontFamily="Cormorant Garamond, Georgia, serif" fontSize="28" fontWeight="700" fill="#e0c27a">{niveau}</text>
-      )}
+      <text x="36" y="46" textAnchor="middle" fontFamily="Cormorant Garamond, Georgia, serif" fontSize="28" fontWeight="700" fill="#e0c27a">{niveau}</text>
     </svg>
   )
 }

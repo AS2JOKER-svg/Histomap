@@ -12,6 +12,7 @@
     "eclairs": "node scripts/rapport-eclairs.mjs",
     "relier": "node scripts/relier-questions.mjs",
     "questions-cartes": "node scripts/rapport-questions-cartes.mjs",
+    "simulation": "node scripts/simuler-joueur.mjs",
     "territoires": "node scripts/find-territories.mjs",
     "zone": "node scripts/territoires-zone.mjs",
     "predev": "npm run content",

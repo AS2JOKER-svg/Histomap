@@ -1,13 +1,36 @@
-// Tests des règles de l'Aventure (src/lib/aventure.js, src/lib/xp.js) et du validateur du parcours.
+// Tests des règles de l'Aventure (src/lib/aventure.js, xp.js, progression.js, epreuve.js) et du validateur du parcours.
 // Lancé par `npm run validate` (donc par `npm run data` et `npm run build`).
 import assert from 'node:assert/strict'
 import { readFileSync } from 'fs'
 import { loadContent } from './lib/content.mjs'
 import { loadParcours, validateParcours } from './lib/parcours.mjs'
-import { MEDAILLE, createParcours, etapeDuJour, listeARevoir, etoiles, mondeOuvert, ouverture, avancementMonde, titresObtenus } from '../src/lib/aventure.js'
-import { aventureVide, enregistrerActivite, finOnboarding, gagnerXp, migrerV2, terminerEpreuve, terminerEtape, xpReponses, lundi } from '../src/lib/progression.js'
+import { contexteQuestions } from './lib/questions-cartes.mjs'
+import {
+  SALLE_VIDE,
+  aRattraper,
+  avancementMonde,
+  chemin,
+  createParcours,
+  estOuvert,
+  etapeAccessible,
+  etapeDuJour,
+  etapeSuivante,
+  etoilesEpreuve,
+  etoilesSur20,
+  initiales,
+  listeARevoir,
+  mondeOuvert,
+  nomCourt,
+  ouverture,
+  revisionDue,
+  salleEnCours,
+  seuilsEtoiles,
+} from '../src/lib/aventure.js'
+import { aventureVide, changerFil, commencerEtape, enregistrerActivite, finOnboarding, gagnerXp, migrerV2, migrerV3, terminerEpreuve, terminerEtape, xpReponses } from '../src/lib/progression.js'
+import { BAREME, RECOMPENSES, emplacementsJokers, gainReponse, niveau, prochaineRecompense, rang, recompensesNiveau, seuilNiveau } from '../src/lib/xp.js'
+import { cartesVues, composerEpreuve, reservoirSalle } from '../src/lib/epreuve.js'
+import { rng } from '../src/lib/random.js'
 import { lienDefi, lireDefi, nouvelleGraine, questionsDefi, verdict } from '../src/lib/defi.js'
-import { emplacementsJokers, gainReponse, niveau, petitCoffre, prochaineRecompense, rang, recompensesNiveau, seuilNiveau } from '../src/lib/xp.js'
 import { choisirEclairs, estVue } from '../src/lib/eclairs.js'
 import { campVainqueur, cartesDe, masquerNom, questionsDesCartes, sansDate } from '../src/lib/questionsCartes.js'
 import { formatYear } from '../src/lib/time.js'
@@ -28,66 +51,144 @@ const test = (nom, fn) => {
 
 const data = JSON.parse(readFileSync(new URL('../src/data/parcours.json', import.meta.url)))
 const P = createParcours(data)
-const { BRONZE, ARGENT, OR } = MEDAILLE
-const etat = (entries) => Object.fromEntries(entries.map(([id, medaille, extra]) => [id, { medaille, ...extra }]))
 const tronc = (w) => data.mondes[w].tronc
-const toutLeTronc = (m) => data.mondes.flatMap((x) => x.tronc).map((id) => [id, m])
+const D = { decouverte: true }
+/** État de l'Aventure avec ces salles ([id, champs]) et ces autres champs. */
+const avec = (entries, extra = {}) => ({ ...aventureVide(), ...extra, salles: Object.fromEntries(entries.map(([id, s]) => [id, { ...SALLE_VIDE, ...s }])) })
+const decouvrir = (av, id) => ({ ...av, salles: { ...av.salles, [id]: { ...SALLE_VIDE, ...av.salles[id], decouverte: true } } })
+const ouvertesDe = (av) => P.ordre.filter((id) => estOuvert(P, av, id))
+const J = (n) => new Date(Date.UTC(2026, 10, 2 + n)).toISOString().slice(0, 10) // J(0) = lundi 2 novembre 2026
+const types = (ev) => ev.map((e) => e.type)
+const xpDe = (r, raison) => r.evenements.filter((e) => e.type === 'xp' && e.raison === raison).reduce((t, e) => t + e.montant, 0)
+const justes = (bonnes, total) => Array(total).fill(true).fill(false, bonnes) // `bonnes` réponses justes puis des erreurs
 
-// ── Parcours ──────────────────────────────────────────────────────────────────
+// ── Parcours et chemin du joueur ──────────────────────────────────────────────
 test('le parcours contient les 214 civilisations, une seule fois', () => {
   assert.equal(P.ordre.length, 214)
   assert.equal(new Set(P.ordre).size, 214)
   assert.equal(data.mondes.flatMap((m) => m.tronc).length, 51)
 })
 
-test('au départ : seule la 1re salle du 1er monde est ouverte', () => {
-  const ouvertes = P.ordre.filter((id) => ouverture(P, {}, id).ouvert)
-  assert.deepEqual(ouvertes, [tronc(0)[0]])
-  assert.deepEqual(ouverture(P, {}, tronc(0)[1]).raison, { type: 'salle', id: tronc(0)[0] })
-  assert.deepEqual(ouverture(P, {}, 'mesopotamie').raison, { type: 'monde', monde: 0 })
-  assert.deepEqual(ouverture(P, {}, 'sahara-pasteurs').raison, { type: 'parent', id: 'hominides-est' })
-  assert.deepEqual(etapeDuJour(P, {}), { civId: 'hominides-est', etape: 'decouvrir', raison: 'tronc' })
+test('chemin : le tronc seul sans fil ; un fil y ajoute ses annexes, à leur place', () => {
+  assert.deepEqual(chemin(P, null), data.mondes.flatMap((m) => m.tronc))
+  assert.equal(chemin(P, 'france').length, 51) // toutes ses salles sont dans le tronc
+  const avant = (ch, id) => ch[ch.indexOf(id) - 1]
+  const coree = chemin(P, 'coree')
+  assert.equal(coree.length, 56) // fil Corée = +5 salles
+  assert.equal(avant(coree, 'gojoseon'), 'chine-imperiale') // juste après sa salle parente
+  assert.equal(avant(coree, 'trois-royaumes-coree'), 'gojoseon')
+  assert.equal(avant(coree, 'goryeo'), 'khmer') // parente dans le monde précédent : par date de début
+  const chine = chemin(P, 'chine')
+  assert.equal(avant(chine, 'chine-neo'), 'gobekli-tepe')
+  assert.equal(avant(chine, 'six-dynasties'), 'chine-imperiale')
+  assert.equal(avant(chine, 'maya'), 'six-dynasties') // dernière salle de l'Antiquité pour ce joueur
+  const thai = chemin(P, 'thailande')
+  assert.equal(avant(thai, 'thailande'), tronc(3).at(-1)) // plus ancienne que tout le tronc contemporain : en tête du monde
+  for (const f of [null, ...P.filsRouges.map((x) => x.id)]) {
+    const ch = chemin(P, f)
+    assert.equal(new Set(ch).size, ch.length)
+    ch.forEach((id, i) => i && assert.ok(P.monde.get(ch[i - 1]) <= P.monde.get(id), `${f} : mondes dans l’ordre`))
+    for (const id of P.filsRouges.find((x) => x.id === f)?.membres ?? []) assert.ok(ch.includes(id))
+  }
 })
 
-test('le bronze ouvre la salle suivante et les branches rattachées', () => {
-  const s = etat([['hominides-est', BRONZE]])
-  assert.ok(ouverture(P, s, 'europe-paleo').ouvert)
-  assert.ok(ouverture(P, s, 'sahara-pasteurs').ouvert)
-  assert.ok(!ouverture(P, s, 'aborigenes-australie').ouvert)
-  assert.deepEqual(etapeDuJour(P, s), { civId: 'hominides-est', etape: 'approfondir', raison: 'tronc' })
+test('au départ : seule la 1re salle est ouverte ; raisons des verrous', () => {
+  const av = aventureVide()
+  assert.deepEqual(ouvertesDe(av), ['hominides-est'])
+  assert.deepEqual(ouverture(P, av, 'europe-paleo').raison, { type: 'salle', id: 'hominides-est' })
+  assert.deepEqual(ouverture(P, av, 'mesopotamie').raison, { type: 'monde', monde: 1, id: 'mesopotamie-prehist' })
+  assert.deepEqual(ouverture(P, av, 'sahara-pasteurs').raison, { type: 'parent', id: 'hominides-est' })
+  assert.equal(salleEnCours(P, av), 'hominides-est')
+  assert.equal(etapeSuivante(P, av, 'hominides-est'), 'decouvrir')
 })
 
-test('un monde s’ouvre quand tout le tronc précédent a l’argent (pas avant)', () => {
-  const presque = etat(tronc(0).map((id, i) => [id, i === 4 ? BRONZE : ARGENT]))
-  assert.ok(!mondeOuvert(P, presque, 1))
-  const ok = etat(tronc(0).map((id) => [id, ARGENT]))
-  assert.ok(mondeOuvert(P, ok, 1))
-  assert.ok(ouverture(P, ok, 'mesopotamie').ouvert)
-  assert.ok(!ouverture(P, ok, 'egypte').ouvert)
-  // l'étape du jour suit la boucle de la salle : l'épreuve de la 1re salle avant la salle suivante
-  assert.deepEqual(etapeDuJour(P, ok), { civId: 'hominides-est', etape: 'epreuve', raison: 'tronc' })
-  const raté = { ...ok, 'hominides-est': { medaille: ARGENT, essais: 1, meilleur: 12 } }
-  assert.equal(etapeDuJour(P, raté).civId, 'europe-paleo') // épreuve ratée : on passe à la salle suivante
+test('découverte : ouvre la salle suivante et les annexes rattachées, puis l’Épreuve et Approfondir', () => {
+  const av = avec([['hominides-est', D]])
+  assert.ok(estOuvert(P, av, 'europe-paleo') && estOuvert(P, av, 'sahara-pasteurs'))
+  assert.ok(!estOuvert(P, av, 'aborigenes-australie'))
+  assert.equal(salleEnCours(P, av), 'europe-paleo')
+  assert.ok(etapeAccessible(P, av, 'hominides-est', 'epreuve') && etapeAccessible(P, av, 'hominides-est', 'approfondir'))
+  assert.ok(!etapeAccessible(P, av, 'europe-paleo', 'epreuve') && !etapeAccessible(P, av, 'europe-paleo', 'approfondir'))
+  assert.equal(etapeSuivante(P, av, 'hominides-est'), 'epreuve')
+  // annexe : pas d'Approfondir ; la mini-épreuve après les cartes de la séance (ou pour améliorer ses étoiles)
+  assert.ok(!etapeAccessible(P, av, 'sahara-pasteurs', 'approfondir') && !etapeAccessible(P, av, 'sahara-pasteurs', 'epreuve'))
+  assert.ok(etapeAccessible(P, commencerEtape(av, 'sahara-pasteurs', 'epreuve'), 'sahara-pasteurs', 'epreuve'))
+  assert.equal(etapeSuivante(P, commencerEtape(av, 'sahara-pasteurs', 'epreuve'), 'sahara-pasteurs'), 'epreuve')
 })
 
-test('fil rouge : l’Empire d’Éthiopie demande Aksoum, qui demande Koush', () => {
-  const tousOuverts = etat(toutLeTronc(ARGENT))
-  assert.deepEqual(ouverture(P, tousOuverts, 'ethiopie-contemp').raison, { type: 'parent', id: 'aksoum' })
-  assert.deepEqual(ouverture(P, tousOuverts, 'aksoum').raison, { type: 'parent', id: 'koush' })
-  const avecAksoum = { ...tousOuverts, ...etat([['koush', BRONZE], ['aksoum', BRONZE]]) }
-  assert.ok(ouverture(P, avecAksoum, 'ethiopie-contemp').ouvert)
+test('chemin continu : la dernière salle découverte d’un monde ouvre le suivant (même une salle de fil)', () => {
+  const av = avec(tronc(0).map((id) => [id, D]))
+  assert.ok(mondeOuvert(P, av, 1) && estOuvert(P, av, 'mesopotamie'))
+  assert.ok(!estOuvert(P, av, 'egypte'))
+  const chine = avec([...tronc(0), ...tronc(1), 'chine-neo'].map((id) => [id, D]), { filRouge: 'chine' })
+  assert.equal(salleEnCours(P, chine), 'six-dynasties')
+  assert.deepEqual(ouverture(P, chine, 'maya').raison, { type: 'monde', monde: 2, id: 'six-dynasties' })
+  assert.ok(!mondeOuvert(P, chine, 2))
+  assert.ok(estOuvert(P, decouvrir(chine, 'six-dynasties'), 'maya'))
 })
 
-test('étape du jour : reprendre, retenter une épreuve, puis une branche', () => {
-  const base = etat(toutLeTronc(OR))
-  assert.equal(etapeDuJour(P, { ...base, carthage: { medaille: ARGENT, enCours: 'epreuve' } }).raison, 'reprendre')
-  assert.deepEqual(etapeDuJour(P, { ...base, rome: { medaille: ARGENT, essais: 1, meilleur: 12 } }), { civId: 'rome', etape: 'epreuve', raison: 'retenter' })
-  const d = etapeDuJour(P, base)
-  assert.equal(d.raison, 'branche')
-  assert.equal(d.etape, 'decouvrir')
+test('annexe hors du chemin : salle parente découverte et monde atteint ; chaînes d’annexes', () => {
+  const av = avec([...tronc(0), 'mesopotamie', 'egypte'].map((id) => [id, D]))
+  assert.deepEqual(ouverture(P, av, 'mamelouks').raison, { type: 'monde', monde: 2, id: 'chine-imperiale' }) // Moyen Âge pas atteint
+  assert.ok(estOuvert(P, avec([...tronc(0), ...tronc(1)].map((id) => [id, D])), 'mamelouks'))
+  const tout = avec(data.mondes.flatMap((m) => m.tronc).map((id) => [id, D]))
+  assert.deepEqual(ouverture(P, tout, 'ethiopie-contemp').raison, { type: 'parent', id: 'aksoum' })
+  assert.deepEqual(ouverture(P, tout, 'aksoum').raison, { type: 'parent', id: 'koush' })
 })
 
-test('erreurs à revoir : proposées dans l’étape du jour (≥ 5 ou 3 jours), une fois par jour', () => {
+test('fil choisi en cours de route : salles « à rattraper », rien ne se referme', () => {
+  let av = avec([...tronc(0), ...tronc(1)].map((id) => [id, D]))
+  assert.equal(salleEnCours(P, av), 'maya')
+  const avant = ouvertesDe(av)
+  av = changerFil(av, P, 'chine').av
+  for (const id of avant) assert.ok(estOuvert(P, av, id), `${id} refermée`)
+  assert.deepEqual([...aRattraper(P, av)].sort(), ['chine-neo', 'six-dynasties'])
+  assert.equal(salleEnCours(P, av), 'maya') // une salle à rattraper n'est jamais la salle en cours
+  assert.ok(estOuvert(P, av, 'chine-neo') && estOuvert(P, av, 'six-dynasties'))
+  av = decouvrir(decouvrir(av, 'maya'), 'chine-neo')
+  assert.deepEqual([...aRattraper(P, av)], ['six-dynasties'])
+  assert.ok(estOuvert(P, av, 'byzance'))
+  // revenir sans fil : Six Dynasties redevient une annexe, toujours ouverte
+  const sans = changerFil(av, P, null).av
+  assert.ok(estOuvert(P, sans, 'six-dynasties') && aRattraper(P, sans).size === 0)
+})
+
+test('suivre la salle en cours mène au bout du chemin, avec ou sans fil', () => {
+  for (const fil of [null, ...P.filsRouges.map((f) => f.id)]) {
+    let av = { ...aventureVide(), filRouge: fil }
+    const vus = []
+    for (let id = salleEnCours(P, av); id; id = salleEnCours(P, av)) {
+      assert.ok(estOuvert(P, av, id), `${fil} : ${id} fermée`)
+      vus.push(id)
+      av = decouvrir(av, id)
+    }
+    assert.deepEqual(vus, chemin(P, fil))
+    P.mondes.forEach((_, w) => assert.ok(mondeOuvert(P, av, w)))
+  }
+})
+
+test('propriété : quel que soit l’ordre de jeu et les changements de fil, une salle ouverte ne se referme jamais', () => {
+  const rand = rng('propriete-ouverture')
+  for (let partie = 0; partie < 16; partie++) {
+    let av = aventureVide()
+    let avant = new Set(ouvertesDe(av))
+    for (let pas = 0; pas < 90; pas++) {
+      if (rand() < 0.12) av = changerFil(av, P, rand() < 0.15 ? null : P.filsRouges[Math.floor(rand() * P.filsRouges.length)].id).av
+      else {
+        const libres = [...avant].filter((id) => !av.salles[id]?.decouverte)
+        if (!libres.length) break
+        av = decouvrir(av, rand() < 0.6 ? salleEnCours(P, av) ?? libres[0] : libres[Math.floor(rand() * libres.length)])
+      }
+      const maintenant = new Set(ouvertesDe(av))
+      for (const id of avant) assert.ok(maintenant.has(id), `${id} refermée (partie ${partie}, pas ${pas})`)
+      const enCours = salleEnCours(P, av)
+      if (enCours) assert.ok(maintenant.has(enCours), `salle en cours ${enCours} fermée`)
+      avant = maintenant
+    }
+  }
+})
+
+test('étape du jour : reprendre, « À revoir » due (≥ 5 ou 3 jours, une par jour), salle en cours, épreuve', () => {
   const now = Date.UTC(2026, 10, 20)
   const jour = 86400000
   const chapters = { carthage: { toReview: ['a', 'b'], finishedAt: now - jour }, rome: { toReview: ['x'], finishedAt: now - 4 * jour } }
@@ -95,54 +196,81 @@ test('erreurs à revoir : proposées dans l’étape du jour (≥ 5 ou 3 jours),
   const liste = listeARevoir(chapters, quizzes, now)
   assert.deepEqual(liste.find((r) => r.civId === 'carthage'), { civId: 'carthage', nb: 5, jours: 1 })
   assert.deepEqual(liste.find((r) => r.civId === 'rome'), { civId: 'rome', nb: 1, jours: 4 })
-  assert.deepEqual(etapeDuJour(P, {}, { aRevoir: liste }), { civId: 'carthage', etape: 'a-revoir', raison: 'a-revoir', nb: 5 })
-  assert.equal(etapeDuJour(P, {}, { aRevoir: liste, revisionFaite: true }).etape, 'decouvrir') // déjà faite aujourd'hui
-  assert.equal(etapeDuJour(P, {}, { aRevoir: [{ civId: 'egypte', nb: 2, jours: 1 }] }).etape, 'decouvrir') // pas encore dû
+  const av = aventureVide()
+  assert.deepEqual(etapeDuJour(P, av, { aRevoir: liste }), { civId: 'carthage', etape: 'a-revoir', raison: 'a-revoir', nb: 5 })
+  assert.deepEqual(etapeDuJour(P, av, { aRevoir: liste, revisionFaite: true }), { civId: 'hominides-est', etape: 'decouvrir', raison: 'chemin' })
+  assert.equal(revisionDue([{ civId: 'egypte', nb: 2, jours: 1 }]), null) // pas encore due
+  assert.deepEqual(etapeDuJour(P, avec([['hominides-est', { ...D, enCours: 'epreuve' }]])), { civId: 'hominides-est', etape: 'epreuve', raison: 'reprendre' })
+  assert.deepEqual(etapeDuJour(P, avec(chemin(P, null).map((id) => [id, D]))), { civId: 'hominides-est', etape: 'epreuve', raison: 'epreuve' })
 })
 
-test('avancement d’un monde et titres de collection', () => {
-  const s = etat([...tronc(0).map((id) => [id, OR]), ['egypte', OR], ['mamelouks', OR], ['egypte-contemp', OR]])
-  const a = avancementMonde(P, s, 0)
-  assert.equal(a.salles, 5)
-  assert.equal(a.or, 5)
-  const titres = titresObtenus(P, s).map((t) => t.titre)
-  assert.ok(titres.includes('Grand savant de la Préhistoire'))
-  assert.ok(titres.includes('Plus érudit qu’un scribe de pharaon'))
-  assert.ok(!titres.includes('Encyclopédie ambulante'))
+test('avancement d’un monde', () => {
+  const av = avec([...tronc(0).map((id) => [id, { decouverte: true, etoiles: 1 }]), ['sahara-pasteurs', D]])
+  const a = avancementMonde(P, av, 0)
+  assert.deepEqual([a.ouvert, a.salles, a.decouvertes, a.etoiles, a.tronc, a.troncEtoile, a.annexesFaites], [true, 5, 5, 5, 5, 5, 1])
+  assert.ok(avancementMonde(P, av, 1).ouvert && !avancementMonde(P, av, 2).ouvert)
 })
 
-// ── XP et niveaux ─────────────────────────────────────────────────────────────
+test('noms courts et initiales des pastilles', () => {
+  assert.equal(nomCourt(P, 'chine-imperiale', 'Chine (Qin & Han)'), 'Qin et Han')
+  assert.equal(nomCourt(P, 'rome', 'Rome antique'), 'Rome antique')
+  const noms = ['Qin et Han', 'Saint-Empire', 'Égypte', 'Rus’ de Kiev', 'Royaume du Dahomey (Bénin)', 'États-Unis 1776', 'Celtes / Gaulois', 'Les deux Corées']
+  assert.deepEqual(noms.map(initiales), ['QH', 'SE', 'Ég', 'RK', 'Da', 'ÉU', 'CG', 'DC'])
+})
+
+// ── Étoiles, XP et niveaux ────────────────────────────────────────────────────
+test('étoiles : 9 / 11 / 12 sur 12, 6 / 7 / 8 sur 8 ; anciennes notes sur 20 : 15 / 17 / 19', () => {
+  assert.deepEqual(seuilsEtoiles(12), [9, 11, 12])
+  assert.deepEqual(seuilsEtoiles(8), [6, 7, 8])
+  assert.deepEqual([8, 9, 10, 11, 12].map((c) => etoilesEpreuve(c, 12)), [0, 1, 1, 2, 3])
+  assert.deepEqual([5, 6, 7, 8].map((c) => etoilesEpreuve(c, 8)), [0, 1, 2, 3])
+  assert.equal(etoilesEpreuve(0, 0), 0)
+  assert.deepEqual([14, 15, 16, 17, 18, 19, 20].map(etoilesSur20), [0, 1, 1, 2, 2, 3, 3])
+})
+
+test('barème : salle du tronc sans faute = 490 XP, annexe = 295 XP (60 %)', () => {
+  const sansFaute = (q) => xpReponses(Array(q).fill(true))
+  const salle = BAREME.decouvrir + 3 * BAREME.eclair + sansFaute(12) + BAREME.reussite + 3 * BAREME.etoile
+  const annexe = BAREME.annexe + sansFaute(8) + BAREME.reussiteAnnexe + 3 * BAREME.etoileAnnexe
+  assert.deepEqual([sansFaute(12), salle, sansFaute(8), annexe], [310, 490, 190, 295])
+})
+
 test('combo : 10, 15, 20, 25 puis 30 XP au maximum ; moitié en rejeu', () => {
   assert.deepEqual([1, 2, 3, 4, 5, 9].map((s) => gainReponse(s)), [10, 15, 20, 25, 30, 30])
   assert.equal(gainReponse(5, { rejeu: true }), 15)
+  assert.equal(xpReponses([true, true, true, false, true]), 55)
+  assert.equal(xpReponses([true, true, true, false, true], { rejeu: true }), 27)
 })
 
-test('niveaux : 100 × n XP pour passer du niveau n au suivant, maximum 50', () => {
-  assert.equal(seuilNiveau(2), 100)
-  assert.equal(seuilNiveau(10), 4500)
-  assert.equal(seuilNiveau(13), 7800)
-  assert.deepEqual(niveau(0), { niveau: 1, rang: 'Curieux', dansNiveau: 0, pourSuivant: 100, max: false })
-  assert.deepEqual(niveau(7910), { niveau: 13, rang: 'Explorateur', dansNiveau: 110, pourSuivant: 1300, max: false })
+test('niveaux : 70 × n XP pour passer du niveau n au suivant, maximum 50 (85 750 XP)', () => {
+  assert.equal(seuilNiveau(2), 70)
+  assert.equal(seuilNiveau(10), 3150)
+  assert.equal(seuilNiveau(50), 85750)
+  assert.deepEqual(niveau(0), { niveau: 1, rang: 'Curieux', dansNiveau: 0, pourSuivant: 70, max: false })
+  assert.deepEqual(niveau(7910), { niveau: 15, rang: 'Érudit', dansNiveau: 560, pourSuivant: 1050, max: false })
   assert.equal(niveau(10 ** 7).niveau, 50)
-  assert.equal(niveau(10 ** 7).max, true)
   assert.equal(rang(50), 'Légende de l’Histoire')
 })
 
-test('récompenses de niveau, jokers, étoiles, coffres', () => {
-  assert.equal(recompensesNiveau(13)[0].id, 'sceau:rose-des-vents')
-  assert.equal(prochaineRecompense(13).niveau, 14)
-  assert.equal(recompensesNiveau(21)[0].type, 'coffre')
-  for (let k = 2; k <= 20; k++) assert.ok(recompensesNiveau(k).length, `niveau ${k} sans récompense`)
+test('récompenses de niveau : rangs, jokers et places de joker seulement', () => {
+  assert.deepEqual(recompensesNiveau(10).map((r) => r.type), ['rang'])
+  assert.deepEqual(recompensesNiveau(15).map((r) => r.type), ['rang', 'emplacement'])
+  assert.deepEqual(recompensesNiveau(3), [])
+  assert.equal(prochaineRecompense(3).niveau, 5)
+  assert.deepEqual([...new Set(Object.values(RECOMPENSES).flat().map((r) => r.type))].sort(), ['emplacement', 'joker', 'rang'])
   assert.deepEqual([14, 15, 35].map(emplacementsJokers), [2, 3, 4])
-  assert.deepEqual([14, 15, 16, 17, 18, 19, 20].map(etoiles), [0, 1, 1, 2, 2, 3, 3])
-  assert.deepEqual(petitCoffre('carthage'), petitCoffre('carthage'))
-  assert.ok([25, 50, 100].includes(petitCoffre('x').xp))
+})
+
+test('niveau : un événement par niveau, un « rang » aux nouveaux rangs, jokers crédités une fois', () => {
+  const r = gagnerXp({ ...aventureVide(), xp: 60 }, 20, 'test')
+  assert.deepEqual([r.av.niveauCredite, r.av.serie.jokers], [2, 1])
+  assert.ok(types(r.evenements).includes('niveau') && !types(r.evenements).includes('rang'))
+  assert.ok(!types(gagnerXp(r.av, 5, 'test').evenements).includes('niveau'))
+  const r5 = gagnerXp({ ...aventureVide(), xp: 690, niveauCredite: 4 }, 20, 'test')
+  assert.deepEqual(r5.evenements.filter((e) => e.type === 'rang'), [{ type: 'rang', niveau: 5, rang: 'Apprenti' }])
 })
 
 // ── Progression (lib/progression.js) ──────────────────────────────────────────
-const J = (n) => new Date(Date.UTC(2026, 10, 2 + n)).toISOString().slice(0, 10) // J(0) = lundi 2 novembre 2026
-const types = (ev) => ev.map((e) => e.type)
-
 test('série : jours consécutifs, jour manqué, joker, record', () => {
   let av = aventureVide()
   av = enregistrerActivite(av, J(0)).av
@@ -156,78 +284,118 @@ test('série : jours consécutifs, jour manqué, joker, record', () => {
   assert.ok(types(sauve.evenements).includes('joker-utilise'))
 })
 
-test('série : un joker tous les 7 jours, coffre aux paliers (une seule fois)', () => {
+test('série : un joker tous les 7 jours ; +50 XP au premier passage d’un palier', () => {
   let av = aventureVide()
-  let coffres = 0
+  const paliers = []
   for (let i = 0; i < 7; i++) {
     const r = enregistrerActivite(av, J(i))
     av = r.av
-    coffres += r.evenements.filter((e) => e.type === 'coffre' && e.sorte === 'serie').length
+    paliers.push(...r.evenements.filter((e) => e.type === 'palier').map((e) => e.jours))
   }
-  assert.equal(av.serie.jours, 7)
-  assert.equal(coffres, 2) // paliers 3 et 7
+  assert.deepEqual([paliers, av.serie.jours, av.xp], [[3, 7], 7, 100])
   assert.ok(av.serie.jokers >= 1)
+  let r = { av: { ...av, serie: { ...av.serie, jokers: 0 } } }
+  for (const j of [J(10), J(11), J(12)]) r = enregistrerActivite(r.av, j) // série perdue puis retrouvée
+  assert.equal(r.av.serie.jours, 3)
+  assert.ok(!r.evenements.some((e) => e.type === 'palier')) // le palier 3 ne rapporte qu'une fois
 })
 
-test('Découvrir : bronze, 40 XP + éclairs + bonus du jour, salles ouvertes ; rejouer = 10 XP', () => {
+test('Découvrir : salle découverte, 40 XP + éclairs + bonus du jour, salles ouvertes ; Approfondir en bonus', () => {
   const r = terminerEtape(aventureVide(), P, 'hominides-est', 'decouvrir', { eclairs: 3 }, J(0))
-  assert.equal(r.av.salles['hominides-est'].medaille, BRONZE)
+  assert.equal(r.av.salles['hominides-est'].decouverte, true)
   assert.equal(r.av.xp, 40 + 15 + 20)
+  assert.ok(types(r.evenements).includes('decouverte'))
   const ouv = r.evenements.find((e) => e.type === 'ouverture')
   assert.ok(ouv.salles.includes('europe-paleo') && ouv.salles.includes('sahara-pasteurs'))
-  const r2 = terminerEtape(r.av, P, 'hominides-est', 'decouvrir', { eclairs: 3 }, J(0))
-  assert.equal(r2.av.xp - r.av.xp, 10)
+  assert.equal(terminerEtape(r.av, P, 'hominides-est', 'decouvrir', {}, J(0)).av.xp - r.av.xp, 10) // rejouer
+  const a = terminerEtape(r.av, P, 'hominides-est', 'approfondir', { eclairs: 5 }, J(0))
+  assert.deepEqual([a.av.salles['hominides-est'].approfondi, a.av.xp - r.av.xp], [true, 60 + 25])
+  assert.ok(!types(a.evenements).includes('ouverture')) // Approfondir n'ouvre rien
 })
 
-test('combo des réponses : 10, 15, 20, rien, 10 ; moitié en rejeu', () => {
-  assert.equal(xpReponses([true, true, true, false, true]), 55)
-  assert.equal(xpReponses([true, true, true, false, true], { rejeu: true }), 27)
+test('Épreuve (12) : ratée (2 XP par bonne réponse), réussie (+50, étoiles), rejouée (moitié)', () => {
+  const base = avec([['carthage', D]])
+  const rate = terminerEpreuve(base, P, 'carthage', { correct: 8, total: 12, justes: justes(8, 12) }, J(0))
+  assert.deepEqual([rate.av.salles.carthage.etoiles, rate.av.salles.carthage.essais, xpDe(rate, 'epreuve')], [0, 1, 16])
+  const ok = terminerEpreuve(rate.av, P, 'carthage', { correct: 11, total: 12, justes: justes(11, 12) }, J(1))
+  assert.equal(ok.av.salles.carthage.etoiles, 2)
+  assert.deepEqual([xpDe(ok, 'epreuve'), xpDe(ok, 'reussite'), xpDe(ok, 'etoiles')], [xpReponses(justes(11, 12)), 50, 50]) // réussite après échec : XP entière
+  const encore = terminerEpreuve(ok.av, P, 'carthage', { correct: 12, total: 12, justes: justes(12, 12) }, J(1))
+  assert.deepEqual([xpDe(encore, 'epreuve'), xpDe(encore, 'reussite'), xpDe(encore, 'etoiles')], [xpReponses(justes(12, 12), { rejeu: true }), 0, 25])
+  const moins = terminerEpreuve(encore.av, P, 'carthage', { correct: 9, total: 12, justes: justes(9, 12) }, J(1))
+  assert.equal(moins.av.salles.carthage.etoiles, 3) // les étoiles ne baissent jamais
 })
 
-test('Épreuve : ratée (essai compté), puis réussie (or, coffre, étoiles)', () => {
-  const base = { ...aventureVide(), salles: { carthage: { medaille: ARGENT, meilleur: null, essais: 0, enCours: null } } }
-  const rate = terminerEpreuve(base, P, 'carthage', 12, Array(12).fill(true).concat(Array(8).fill(false)), J(0))
-  assert.deepEqual([rate.av.salles.carthage.medaille, rate.av.salles.carthage.essais, rate.av.salles.carthage.meilleur], [ARGENT, 1, 12])
-  assert.equal(rate.evenements.find((e) => e.type === 'xp' && e.raison === 'epreuve').montant, 24) // échec : 2 XP × 12, sans combo
-  const ok = terminerEpreuve(rate.av, P, 'carthage', 18, Array(18).fill(true).concat([false, false]), J(1))
-  assert.equal(ok.av.salles.carthage.medaille, OR)
-  assert.equal(ok.evenements.find((e) => e.type === 'xp' && e.raison === 'epreuve').montant, xpReponses(Array(18).fill(true))) // réussite après échec : XP entière
-  const t = types(ok.evenements)
-  assert.ok(t.includes('coffre') && t.includes('etoiles'))
-  assert.ok(ok.av.coffres.includes('or:carthage'))
-  const encore = terminerEpreuve(ok.av, P, 'carthage', 18, Array(18).fill(true).concat([false, false]), J(1))
-  assert.equal(encore.evenements.find((e) => e.type === 'xp' && e.raison === 'epreuve').montant, xpReponses(Array(18).fill(true), { rejeu: true })) // déjà en or : moitié
-  assert.ok(!encore.evenements.some((e) => e.type === 'coffre' && e.sorte === 'salle')) // le coffre de la salle ne s'ouvre qu'une fois
+test('annexe : séance unique (cartes, puis mini-épreuve de 8) ; faite quelle que soit la note', () => {
+  const av = commencerEtape(avec([...tronc(0), ...tronc(1)].map((id) => [id, D])), 'koush', 'epreuve')
+  const r = terminerEpreuve(av, P, 'koush', { correct: 5, total: 8, justes: justes(5, 8) }, J(0))
+  assert.deepEqual([r.av.salles.koush.decouverte, r.av.salles.koush.etoiles, r.av.salles.koush.enCours], [true, 0, null])
+  assert.deepEqual([xpDe(r, 'annexe'), xpDe(r, 'epreuve')], [30, 10])
+  assert.ok(r.evenements.find((e) => e.type === 'ouverture').salles.includes('aksoum'))
+  const parfait = terminerEpreuve(r.av, P, 'koush', { correct: 8, total: 8, justes: justes(8, 8) }, J(0))
+  assert.deepEqual([xpDe(parfait, 'annexe'), xpDe(parfait, 'epreuve'), xpDe(parfait, 'reussite'), xpDe(parfait, 'etoiles')], [0, 190, 30, 45])
 })
 
-test('niveau 2 : récompense (1 joker) créditée une fois', () => {
-  const r = gagnerXp({ ...aventureVide(), xp: 90 }, 20, 'test', J(0))
-  assert.equal(r.av.niveauCredite, 2)
-  assert.equal(r.av.serie.jokers, 1)
-  assert.ok(types(r.evenements).includes('niveau'))
-  assert.ok(!types(gagnerXp(r.av, 5, 'test', J(0)).evenements).includes('niveau'))
-})
+test('fil rouge terminé (une fois), titre du fil plus tard ; titre d’un monde (300 XP)', () => {
+  const salles = tronc(0).map((id) => [id, { decouverte: true, etoiles: 1 }])
+  const av = avec(salles, { filRouge: 'mesopotamie', titres: ['monde:prehistoire'] })
+  const d = terminerEtape(av, P, 'mesopotamie', 'decouvrir', {}, J(0))
+  const fin = d.evenements.find((e) => e.type === 'fil-termine')
+  assert.deepEqual([fin.fil, fin.merite, fin.manque], ['mesopotamie', false, 1])
+  const e = terminerEpreuve(d.av, P, 'mesopotamie', { correct: 9, total: 12, justes: justes(9, 12) }, J(0))
+  const t = e.evenements.find((x) => x.type === 'titre')
+  assert.deepEqual([t.id, t.xp], ['fil:mesopotamie', 150])
+  assert.ok(!types(e.evenements).includes('fil-termine'))
 
-test('objectif de la semaine : coffre + joker, remis à zéro le lundi suivant', () => {
-  let av = { ...aventureVide(), semaine: { debut: null, xp: 0, objectif: 300, coffre: false } }
-  const r = gagnerXp(av, 320, 'test', J(2))
-  assert.equal(r.av.semaine.debut, lundi(J(2)))
-  assert.equal(r.av.semaine.coffre, true)
-  assert.ok(r.evenements.some((e) => e.type === 'coffre' && e.sorte === 'semaine'))
-  const lundiSuivant = gagnerXp(r.av, 10, 'test', J(7))
-  assert.deepEqual([lundiSuivant.av.semaine.xp, lundiSuivant.av.semaine.coffre], [10, false])
-})
-
-test('titre d’époque : tout le tronc du monde I en or → titre, thème, 300 XP', () => {
-  const salles = Object.fromEntries(tronc(0).map((id) => [id, { medaille: id === 'mesopotamie-prehist' ? ARGENT : OR, meilleur: 18, essais: 1, enCours: null }]))
-  const r = terminerEpreuve({ ...aventureVide(), salles }, P, 'mesopotamie-prehist', 17, Array(17).fill(true), J(0))
-  const titre = r.evenements.find((e) => e.type === 'titre')
-  assert.equal(titre.titre, 'Grand savant de la Préhistoire')
-  assert.ok(r.av.recompenses.includes('theme:silex'))
+  const monde = avec(tronc(0).map((id) => [id, id === 'mesopotamie-prehist' ? D : { decouverte: true, etoiles: 1 }]))
+  const r = terminerEpreuve(monde, P, 'mesopotamie-prehist', { correct: 9, total: 12, justes: justes(9, 12) }, J(0))
+  const titre = r.evenements.find((x) => x.type === 'titre')
+  assert.deepEqual([titre.titre, titre.xp], ['Grand savant de la Préhistoire', 300])
   assert.ok(r.av.titres.includes('monde:prehistoire'))
 })
 
-test('migration v2 → v3 : médailles, XP, série et onboarding crédités', () => {
+test('migration v3 → v4 : médailles → découverte et étoiles ; XP, série, jokers, fil gardés ; le reste retiré', () => {
+  const v3 = {
+    xp: 5200,
+    niveauCredite: 10,
+    salles: {
+      ...Object.fromEntries(tronc(0).map((id) => [id, { medaille: 1, meilleur: null, essais: 0, enCours: null }])),
+      'hominides-est': { medaille: 3, meilleur: 18, essais: 2, enCours: null },
+      'europe-paleo': { medaille: 2, meilleur: 12, essais: 1, enCours: 'epreuve' },
+      'sahara-pasteurs': { medaille: 2, meilleur: null, essais: 0, enCours: null },
+      mesopotamie: { medaille: 1, meilleur: null, essais: 0, enCours: 'approfondir' },
+      inconnue: { medaille: 3 },
+    },
+    serie: { jours: 4, record: 9, dernier: J(3), jokers: 2 },
+    titres: [],
+    titreAffiche: 'fil:chine',
+    recompenses: ['theme:indigo', 'sceau:silex'],
+    cosmetiques: { theme: 'indigo', sceau: 'silex', cadre: null, effet: null },
+    coffres: ['onboarding', 'or:hominides-est'],
+    semaine: { debut: J(0), xp: 300, objectif: 600, coffre: false },
+    filRouge: 'chine',
+    bonusJour: J(3),
+    aRevoirJour: null,
+    onboarding: true,
+  }
+  const av = migrerV3(v3, P)
+  assert.deepEqual(av.salles['hominides-est'], { decouverte: true, approfondi: true, etoiles: 2, essais: 2, enCours: null })
+  assert.deepEqual(av.salles['europe-paleo'], { decouverte: true, approfondi: true, etoiles: 0, essais: 1, enCours: null })
+  assert.deepEqual(av.salles['gobekli-tepe'], { ...SALLE_VIDE, decouverte: true })
+  assert.equal(av.salles['sahara-pasteurs'].approfondi, false) // une annexe n'a pas d'Approfondir
+  assert.ok(!('inconnue' in av.salles))
+  // 5 200 XP : niveau 10 en V3, niveau 12 avec la nouvelle courbe, crédité sans célébration (joker du niveau 11, 2 places)
+  assert.deepEqual([av.xp, av.niveauCredite, av.serie.jours, av.serie.record, av.serie.jokers, av.filRouge, av.onboarding, av.bonusJour], [5200, 12, 4, 9, 2, 'chine', true, J(3)])
+  assert.deepEqual([av.jalons, av.titreAffiche], [['onboarding'], null])
+  assert.deepEqual(Object.keys(av).sort(), Object.keys(aventureVide()).sort()) // ni coffres, ni cosmétiques, ni objectif
+  // fil Chine : la Chine néolithique (Préhistoire), derrière le joueur, est à rattraper ; il reprend à l'Égypte
+  assert.equal(salleEnCours(P, av), 'egypte')
+  assert.ok(aRattraper(P, av).has('chine-neo') && estOuvert(P, av, 'chine-neo'))
+  const titre = migrerV3({ ...v3, titres: ['monde:prehistoire'], titreAffiche: 'monde:prehistoire' }, P)
+  assert.equal(titre.titreAffiche, 'monde:prehistoire')
+})
+
+test('migration v2 → v4 : salles, XP, série et onboarding crédités', () => {
   const today = J(10)
   const ancien = {
     chapters: { carthage: { rounds: 2 }, egypte: { rounds: 1 } },
@@ -237,22 +405,45 @@ test('migration v2 → v3 : médailles, XP, série et onboarding crédités', ()
     days: [J(7), J(8), J(9), J(10)],
   }
   const av = migrerV2(ancien, P, today)
-  assert.deepEqual([av.salles.carthage.medaille, av.salles.egypte.medaille, av.salles.rome.medaille, av.salles.grece.medaille], [ARGENT, BRONZE, OR, 0])
+  const etat = (id) => [av.salles[id].decouverte, av.salles[id].approfondi, av.salles[id].etoiles]
+  assert.deepEqual(['carthage', 'egypte', 'rome', 'grece'].map(etat), [[true, true, 0], [true, false, 0], [true, false, 2], [false, false, 0]])
   assert.equal(av.salles.grece.essais, 1)
-  assert.equal(av.xp, 100 + 40 + (40 + 60 + 50 + 180 + 50) + 15 + 10)
-  assert.equal(av.serie.jours, 4)
-  assert.ok(av.coffres.includes('or:rome'))
-  assert.equal(av.onboarding, true)
-  assert.equal(av.niveauCredite, niveau(av.xp).niveau)
+  assert.equal(av.xp, 40 + 60 + 40 + (40 + 50 + 180 + 50) + 15 + 10)
+  assert.deepEqual([av.serie.jours, av.onboarding, av.niveauCredite], [4, true, niveau(av.xp).niveau])
   assert.equal(migrerV2({}, P, today).onboarding, false)
 })
 
-test('onboarding : +50 XP et série une seule fois ; passer = sans récompense', () => {
-  const r = finOnboarding(aventureVide(), { filRouge: 'egypte' }, J(0))
+test('onboarding : +50 XP et série une seule fois, fil rouge choisi ; passer = sans récompense', () => {
+  const r = finOnboarding(aventureVide(), P, { filRouge: 'egypte' }, J(0))
   assert.deepEqual([r.av.onboarding, r.av.filRouge, r.av.xp, r.av.serie.jours], [true, 'egypte', 50, 1])
-  assert.equal(finOnboarding(r.av, {}, J(1)).av.xp, 50) // revoir la présentation ne redonne rien
-  const passe = finOnboarding(aventureVide(), { recompense: false }, J(0))
+  assert.equal(finOnboarding(r.av, P, {}, J(1)).av.xp, 50) // revoir la présentation ne redonne rien
+  const passe = finOnboarding(aventureVide(), P, { recompense: false }, J(0))
   assert.deepEqual([passe.av.onboarding, passe.av.xp], [true, 0])
+})
+
+// ── Épreuve : questions sur les cartes vues (lib/epreuve.js) ───────────────────
+const ctxQ = contexteQuestions()
+test('épreuve : 12 questions (8 pour une annexe) sur les cartes vues ; 3 ratées reviennent', () => {
+  const ch = HANDWRITTEN.carthage
+  const niv1 = reservoirSalle(ch, { niveaux: [1], personnes: ctxQ.personnes('carthage') })
+  const vues = cartesVues(ch.cards, [1])
+  for (const q of niv1) assert.ok((cartesDe(q) ?? []).every((id) => vues.has(id)), q.id)
+  assert.ok(reservoirSalle(ch, { niveaux: [1, 2] }).length > niv1.length)
+  const ids = composerEpreuve(niv1, { longueur: 12, rattrapage: 3 })
+  assert.deepEqual([ids.length, new Set(ids).size], [12, 12])
+  assert.ok(ids.filter((id) => id.startsWith('hand-')).length >= 8)
+  const failed = ids.slice(0, 5)
+  const suivante = composerEpreuve(niv1, { longueur: 12, rattrapage: 3, failed, asked: ids, attempt: 1 })
+  assert.equal(suivante.filter((id) => failed.includes(id)).length, 3)
+  assert.equal(composerEpreuve(niv1, { longueur: 8, rattrapage: 2 }).length, 8)
+})
+
+test('épreuve : sur les 214 salles, assez de questions sur les cartes de Découvrir (12 au tronc, 8 aux annexes)', () => {
+  for (const [id, ch] of Object.entries(HANDWRITTEN)) {
+    const pool = reservoirSalle(ch, { niveaux: [1], personnes: ctxQ.personnes(id) })
+    assert.ok(pool.length >= (P.position.has(id) ? 12 : 8), `${id} : ${pool.length}`)
+    assert.ok(!pool.some((q) => q.carte === null))
+  }
 })
 
 // ── Défis entre amis (lib/defi.js) ───────────────────────────────────────────
@@ -450,5 +641,11 @@ test('validateur : civilisation oubliée', () => assert.ok(errs((d) => delete d.
 test('validateur : parent d’un monde plus tardif', () => assert.ok(errs((d) => (d.branches.koush = 'rome-x')).length && errs((d) => (d.branches.koush = 'byzance')).length))
 test('validateur : fil rouge non respecté', () => assert.ok(errs((d) => (d.branches['ethiopie-contemp'] = 'afrique-sud')).length))
 test('validateur : titre de fil rouge manquant', () => assert.ok(errs((d) => delete d.filsRouges.egypte).length))
+test('validateur : nom court manquant, trop long, en double ou d’une salle inconnue', () => {
+  assert.ok(errs((d) => delete d.courts['hominides-est']).length)
+  assert.ok(errs((d) => (d.courts.rome = 'Un nom beaucoup trop long')).length)
+  assert.ok(errs((d) => (d.courts.carthage = 'Mayas')).length)
+  assert.ok(errs((d) => (d.courts['pas-une-salle'] = 'X')).length)
+})
 
-console.log(`✅ Aventure : ${n} tests réussis (parcours, étape du jour, XP, niveaux, récompenses, progression, migration, questions éclair, questions des cartes, épreuve, validateur).`)
+console.log(`✅ Aventure : ${n} tests réussis (chemin, ouverture, à rattraper, étoiles, XP, rangs, progression, migrations, épreuve sur les cartes vues, défis, questions éclair, questions des cartes, validateur).`)

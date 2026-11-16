@@ -2,10 +2,8 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import useDocumentTitle from '../lib/useDocumentTitle'
 import { findCivilization } from '../lib/data'
-import { MEDAILLE, avancementFilRouge, avancementMonde, etoiles, ouverture, titresObtenus } from '../lib/aventure'
+import { aRattraper, avancementFilRouge, avancementMonde, ouverture, titresObtenus } from '../lib/aventure'
 import { emplacementsJokers, niveau, prochaineRecompense } from '../lib/xp'
-import { OBJECTIFS_SEMAINE, lundi } from '../lib/progression'
-import { choisi } from '../lib/cosmetiques'
 import { solidBg } from '../lib/color'
 import { useAudio } from '../store/audio'
 import { canVibrate, testerVibrations } from '../lib/haptics'
@@ -13,11 +11,13 @@ import { PARCOURS_AVENTURE as P, useProgress } from '../store/progress'
 import PageHeader from '../components/ui/PageHeader'
 import Icon from '../components/ui/Icon'
 import AppCard from '../components/app/AppCard'
-import Personnaliser from '../components/aventure/Personnaliser'
-import Medaille from '../components/aventure/Medaille'
+import EtatSalle from '../components/aventure/EtatSalle'
 import { Sceau } from '../components/celebration/elements'
 
-/** Profil (maquette 12, V3, sprint 23) : progression, « À revoir », collections, titres, personnalisation. */
+/**
+ * Profil (maquette 12, V3, sprint 23 ; règles V3.1 au sprint 29, refonte au sprint 32) : progression,
+ * « À revoir », collections, fil rouge, titres. Plus d'objectif de la semaine ni de personnalisation.
+ */
 const ROMAIN = ['I', 'II', 'III', 'IV', 'V']
 const aujourdhui = () => {
   const d = new Date()
@@ -30,20 +30,19 @@ export default function ProfilPage() {
   const fiches = useProgress((s) => s.fiches)
   const chapters = useProgress((s) => s.chapters)
   const quizzes = useProgress((s) => s.quizzes)
-  const choisirObjectif = useProgress((s) => s.choisirObjectif)
   const choisirTitre = useProgress((s) => s.choisirTitre)
   const choisirFilRouge = useProgress((s) => s.choisirFilRouge)
   const [tousFils, setTousFils] = useState(false)
   const n = niveau(av.xp)
   const prochaine = prochaineRecompense(n.niveau)
-  const titres = titresObtenus(P, av.salles)
+  const titres = titresObtenus(P, av)
   const jour = aujourdhui()
-  const xpSemaine = av.semaine.debut === lundi(jour) ? av.semaine.xp : 0
 
   // Statistiques
   const salles = Object.values(av.salles)
-  const nb = (m) => salles.filter((s) => s.medaille === m).length
-  const totalEtoiles = salles.reduce((t, s) => t + etoiles(s.meilleur ?? 0), 0)
+  const decouvertes = salles.filter((s) => s.decouverte).length
+  const totalEtoiles = salles.reduce((t, s) => t + (s.etoiles ?? 0), 0)
+  const rattraper = aRattraper(P, av).size
 
   // À revoir : cartes marquées « à revoir » et questions ratées, salle par salle
   const aRevoir = P.ordre
@@ -53,8 +52,8 @@ export default function ProfilPage() {
   const seanceFaite = av.aRevoirJour === jour
 
   const filsRouges = [...P.filsRouges]
-    .map((f) => ({ ...f, ...avancementFilRouge(P, av.salles, f) }))
-    .sort((a, b) => (b.id === av.filRouge) - (a.id === av.filRouge) || b.or / b.total - a.or / a.total)
+    .map((f) => ({ ...f, ...avancementFilRouge(P, av, f) }))
+    .sort((a, b) => (b.id === av.filRouge) - (a.id === av.filRouge) || b.decouvertes / b.total - a.decouvertes / a.total)
 
   return (
     <section className="max-w-3xl mx-auto">
@@ -75,9 +74,9 @@ export default function ProfilPage() {
       <div className="grid grid-cols-3 gap-2.5 mb-6">
         <Stat valeur={`${av.serie.jours} j`} label={`série · record ${av.serie.record}`} />
         <Stat valeur={`${av.serie.jokers} / ${emplacementsJokers(n.niveau)}`} label="jokers en réserve" />
-        <Stat valeur={xpSemaine} label={`/ ${av.semaine.objectif} XP cette semaine`} />
-        <Stat valeur={<span className="flex items-center gap-1.5 text-xl">{nb(MEDAILLE.OR)}<Medaille medaille={3} taille={18} /> {nb(MEDAILLE.ARGENT)}<Medaille medaille={2} taille={18} /> {nb(MEDAILLE.BRONZE)}<Medaille medaille={1} taille={18} /></span>} label="salles par médaille" />
+        <Stat valeur={decouvertes} label="salles découvertes" />
         <Stat valeur={`${totalEtoiles} ★`} label="étoiles d’épreuve" />
+        <Stat valeur={titres.length} label={titres.length > 1 ? 'titres' : 'titre'} />
         <Stat valeur={Object.keys(fiches).length} label="fiches lues dans l’Atlas" />
       </div>
 
@@ -108,23 +107,6 @@ export default function ProfilPage() {
         <p className="card p-3 text-sm text-muted mb-6">Rien à revoir pour l’instant : tout est compris.</p>
       )}
 
-      <div className="card p-4 mb-8">
-        <p className="text-sm font-semibold text-ink mb-2">Objectif de la semaine</p>
-        <div className="flex gap-2" role="group" aria-label="Objectif d’XP de la semaine">
-          {OBJECTIFS_SEMAINE.map((o) => (
-            <button
-              key={o}
-              onClick={() => choisirObjectif(o)}
-              aria-pressed={av.semaine.objectif === o}
-              className={`flex-1 min-h-[44px] border text-sm font-medium ${av.semaine.objectif === o ? 'bg-ink text-bg border-ink' : 'bg-surface text-ink border-line'}`}
-            >
-              {o} XP
-            </button>
-          ))}
-        </div>
-        <p className="text-xs text-muted mt-2">Objectif atteint : un coffre (bonus d’XP et 1 joker).</p>
-      </div>
-
       {/* Collections : mondes */}
       <h2 className="font-display text-2xl font-semibold text-ink mb-3">Collections</h2>
       <Link to="/aventure/mondes" className="card hoverable block p-4 mb-3">
@@ -134,16 +116,16 @@ export default function ProfilPage() {
         </span>
         <span className="grid grid-cols-5 gap-2">
           {P.mondes.map((m, w) => {
-            const a = avancementMonde(P, av.salles, w)
+            const a = avancementMonde(P, av, w)
             return (
               <span key={m.epoque} className="block">
-                <span className="block text-[11px] text-muted">{ROMAIN[w]} · {a.or}/{a.salles}</span>
-                <span className="block h-1.5 bg-line mt-1"><span className="block h-full bg-accent2" style={{ width: `${(a.or / a.salles) * 100}%` }} /></span>
+                <span className="block text-[11px] text-muted">{ROMAIN[w]} · {a.troncEtoile}/{a.tronc}</span>
+                <span className="block h-1.5 bg-line mt-1"><span className="block h-full bg-accent2" style={{ width: `${(a.troncEtoile / a.tronc) * 100}%` }} /></span>
               </span>
             )
           })}
         </span>
-        <span className="block text-xs text-muted mt-2">Salles du tronc en or, monde par monde.</span>
+        <span className="block text-xs text-muted mt-2">Salles du tronc avec au moins ★, monde par monde.</span>
       </Link>
 
       {/* Collections : fils rouges */}
@@ -156,9 +138,9 @@ export default function ProfilPage() {
                 <span className="flex-1 min-w-0">
                   <span className="block font-semibold text-ink">
                     {f.label}
-                    {f.id === av.filRouge && <span className="text-xs text-accent font-semibold"> · ton objectif</span>}
+                    {f.id === av.filRouge && <span className="text-xs text-accent font-semibold"> · ton fil rouge{rattraper ? ` · ${rattraper} salle${rattraper > 1 ? 's' : ''} à rattraper` : ''}</span>}
                   </span>
-                  <span className="block text-xs text-muted">{f.or} / {f.total} en or → « {f.titre} »</span>
+                  <span className="block text-xs text-muted">{f.decouvertes} / {f.total} découvertes · {f.etoilees} à ★ → « {f.titre} »</span>
                 </span>
                 <Icon name="chevronRight" size={18} className="text-muted transition group-open:rotate-90" />
               </summary>
@@ -166,11 +148,11 @@ export default function ProfilPage() {
                 <ol className="space-y-1.5">
                   {f.membres.map((id) => {
                     const ref = findCivilization(id)
-                    const { ouvert } = ouverture(P, av.salles, id)
+                    const { ouvert } = ouverture(P, av, id)
                     return (
                       <li key={id}>
                         <Link to={`/?salle=${id}`} className="flex items-center gap-2.5 min-h-[44px] text-sm text-ink hover:underline">
-                          <Medaille medaille={av.salles[id]?.medaille ?? 0} ouvert={ouvert} taille={26} />
+                          <EtatSalle decouverte={!!av.salles[id]?.decouverte} etoiles={av.salles[id]?.etoiles ?? 0} ouvert={ouvert} taille={26} />
                           <span className="flex-1">{ref?.civ.label}</span>
                           <span className="text-xs text-muted">{ref?.epoch.label}</span>
                         </Link>
@@ -179,7 +161,7 @@ export default function ProfilPage() {
                   })}
                 </ol>
                 {f.id !== av.filRouge && (
-                  <button onClick={() => choisirFilRouge(f.id)} className="btn-secondary h-11 w-full mt-2 text-sm">En faire mon objectif</button>
+                  <button onClick={() => choisirFilRouge(f.id)} className="btn-secondary h-11 w-full mt-2 text-sm">En faire mon fil rouge (ses salles entrent dans ton chemin)</button>
                 )}
               </div>
             </details>
@@ -206,16 +188,11 @@ export default function ProfilPage() {
           </ul>
         </>
       ) : (
-        <p className="text-sm text-muted mb-8">Termine tout le tronc d’un monde en or, ou tout un fil rouge, pour gagner ton premier titre.</p>
+        <p className="text-sm text-muted mb-8">Réussis l’épreuve (au moins ★) de toutes les salles du tronc d’un monde, ou de tout un fil rouge, pour gagner ton premier titre.</p>
       )}
 
       <h2 className="font-display text-2xl font-semibold text-ink mb-3">Sons, musique et vibrations</h2>
       <ReglagesAudio />
-
-      <h2 className="font-display text-2xl font-semibold text-ink mb-3">Personnaliser</h2>
-      <div className="mb-8">
-        <Personnaliser />
-      </div>
 
       <AppCard />
       <Link to="/bienvenue" className="btn-ghost h-11 w-full mt-4">Revoir la présentation</Link>
@@ -224,13 +201,11 @@ export default function ProfilPage() {
 }
 
 function CarteProfil({ av, n, titres }) {
-  const sceau = choisi('sceau', av.cosmetiques, av.recompenses)
-  const cadre = choisi('cadre', av.cosmetiques, av.recompenses)
   const titre = titres.find((t) => t.id === av.titreAffiche)?.titre
   return (
-    <div className={`mb-4 ${cadre.anime ? 'hm-cadre-anime p-[4px]' : ''}`} style={!cadre.anime && cadre.couleur ? { border: `4px solid ${cadre.couleur}` } : undefined}>
+    <div className="mb-4">
       <div className="p-4 flex items-center gap-4" style={{ background: '#2a2118', color: '#f6efe2' }}>
-        <Sceau sceau={sceau} niveau={n.niveau} taille={68} />
+        <Sceau niveau={n.niveau} taille={68} />
         <div className="min-w-0">
           <p className="text-[11px] font-bold uppercase tracking-[.14em] text-gold">{n.rang} · niveau {n.niveau}</p>
           <p className="font-display text-2xl font-bold leading-tight">{titre ?? 'Aucun titre affiché'}</p>
@@ -246,9 +221,9 @@ function ReglagesAudio() {
   const [essai, setEssai] = useState(null) // null | 'envoye' | 'impossible'
   const peutVibrer = canVibrate()
   const lignes = [
-    ['Sons de l’interface', 'Cartes, bonnes réponses, médailles, coffres', sons, setSons],
+    ['Sons de l’interface', 'Cartes, bonnes réponses, étoiles, niveaux', sons, setSons],
     ['Musique d’ambiance', 'Une ambiance par région du monde, générée dans l’app', musique, setMusique],
-    ['Vibrations', peutVibrer ? 'Bonnes réponses, erreurs, médailles, niveaux' : 'Cet appareil ou ce navigateur ne sait pas vibrer', vibrations, setVibrations],
+    ['Vibrations', peutVibrer ? 'Bonnes réponses, erreurs, étoiles, niveaux' : 'Cet appareil ou ce navigateur ne sait pas vibrer', vibrations, setVibrations],
   ]
   const tester = () => setEssai(testerVibrations() ? 'envoye' : 'impossible')
   return (

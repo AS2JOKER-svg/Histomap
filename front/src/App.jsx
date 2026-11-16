@@ -3,7 +3,8 @@ import { Navigate, Route, Routes, useParams } from 'react-router-dom'
 import AppShell from './layouts/AppShell'
 import AventurePage from './pages/AventurePage'
 import { AtlasRedirect } from './components/AtlasSwitch'
-import { useProgress } from './store/progress'
+import { PARCOURS_AVENTURE, useProgress } from './store/progress'
+import { estTronc } from './lib/aventure'
 
 // Les sections sont chargées à la demande : l'accueil reste léger.
 const TimelinePage = lazy(() => import('./pages/TimelinePage'))
@@ -86,13 +87,13 @@ export default function App() {
 
 /**
  * Ancien lien de chapitre (#/reviser/<époque>/<civ>) ou de quiz (…/quiz) → la bonne étape de la salle :
- * le quiz devient l'Épreuve, le chapitre Découvrir ou Approfondir selon la médaille. Si l'étape n'est pas
- * accessible, SallePage renvoie au panneau de la salle, qui explique le verrou.
+ * le quiz devient l'Épreuve, le chapitre Découvrir (ou Approfondir dans une salle du tronc déjà découverte).
+ * Si l'étape n'est pas accessible, SallePage renvoie au panneau de la salle, qui explique le verrou.
  */
 function RedirectEtape({ quiz }) {
   const { civId } = useParams()
-  const medaille = useProgress((s) => s.aventure.salles[civId]?.medaille ?? 0)
-  const etape = quiz ? 'epreuve' : medaille >= 1 ? 'approfondir' : 'decouvrir'
+  const decouverte = useProgress((s) => !!s.aventure.salles[civId]?.decouverte)
+  const etape = quiz ? 'epreuve' : decouverte && estTronc(PARCOURS_AVENTURE, civId) ? 'approfondir' : 'decouvrir'
   return <Navigate to={`/aventure/salle/${civId}/${etape}`} replace />
 }
 

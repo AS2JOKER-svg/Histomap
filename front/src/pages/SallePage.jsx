@@ -3,62 +3,54 @@ import { Link, Navigate, useNavigate, useParams } from 'react-router-dom'
 import { AnimatePresence, motion } from 'framer-motion'
 import { findCivilization } from '../lib/data'
 import { buildDeck, chapterCards } from '../lib/revision'
-import { composeQuiz, prepareQuestion, questionPool } from '../lib/quiz'
+import { composerEpreuve, prepareQuestion, questionPool } from '../lib/quiz'
 import { bonneReponse, premiereSansReponse } from '../lib/questions'
 import { choisirEclairs } from '../lib/eclairs'
 import { imageResultat, partagerImage } from '../lib/partage'
-import { choisi } from '../lib/cosmetiques'
-import { titresObtenus } from '../lib/aventure'
+import { epreuveDe, estTronc, etapeAccessible, etoilesEpreuve, niveauxVus, salleDe, salleEnCours, seuilsEtoiles, titresObtenus } from '../lib/aventure'
 import { haptic } from '../lib/haptics'
 import useDocumentTitle from '../lib/useDocumentTitle'
-import useDelai from '../lib/useDelai'
-import { EPREUVE, MEDAILLE, estOuvert, etoiles } from '../lib/aventure'
 import { BAREME, gainReponse, niveau } from '../lib/xp'
 import { xpReponses } from '../lib/progression'
 import { useAmbiance } from '../lib/musique'
 import { definirCombo } from '../lib/sons'
 import { PARCOURS_AVENTURE as P, useProgress } from '../store/progress'
 import { useUI } from '../store/ui'
-import { useApresCelebrations, useEffet } from '../components/celebration/Celebrations'
-import { Coffre, Particules, Rayons } from '../components/celebration/elements'
+import { useApresCelebrations } from '../components/celebration/Celebrations'
+import { EFFET, Particules, Rayons } from '../components/celebration/elements'
 import Icon from '../components/ui/Icon'
 import CardDeck from '../components/revision/CardDeck'
 import ChapterGate from '../components/revision/ChapterGate'
 import QuestionView from '../components/quiz/QuestionView'
-import Medaille, { ETAPE_LABEL } from '../components/aventure/Medaille'
+import EtatSalle, { ETAPE_LABEL, Etoiles } from '../components/aventure/EtatSalle'
 import NotFoundPage from './NotFoundPage'
 
 /**
- * Une étape d'une salle de l'Aventure (plein écran) — maquettes 5 à 8 du sprint 16 :
- *   /aventure/salle/:civId/decouvrir     cartes de niveau 1 + 3 questions éclair → bronze
- *   /aventure/salle/:civId/approfondir   cartes de niveau 2 (+ cartes à revoir) + 5 questions → argent
- *   /aventure/salle/:civId/epreuve       20 questions, XP en direct, combo, mi-temps → or dès 15/20
- * Les paquets de cartes et les questions sont exactement ceux des chapitres et quiz d'avant
- * (buildDeck, composeQuiz) : seule la présentation change.
+ * Une étape d'une salle de l'Aventure (plein écran) — maquettes 5 à 8 du sprint 16, règles V3.1 (sprint 29) :
+ *   /aventure/salle/:civId/decouvrir     tronc : cartes de niveau 1 + 3 questions éclair → salle découverte ;
+ *                                        annexe : cartes de niveau 1, puis la mini-épreuve (une seule séance)
+ *   /aventure/salle/:civId/approfondir   tronc, bonus : cartes de niveau 2 (+ cartes à revoir) + 5 questions
+ *   /aventure/salle/:civId/epreuve       12 questions (annexe : 8) sur les cartes vues, XP en direct, combo
+ *                                        sans fin (XP plafonnée à ×5) → ★ 9, ★★ 11, ★★★ 12 (annexe : 6, 7, 8)
+ * Refonte des écrans au sprint 31 (panneau court, séance d'annexe en un bloc, célébrations).
  */
 const ECLAIRS = { decouvrir: 3, approfondir: 5 }
 
 export default function SallePage() {
   const { civId, etape } = useParams()
   const ref = findCivilization(civId)
-  const salles = useProgress((s) => s.aventure.salles)
+  const av = useProgress((s) => s.aventure)
   useDocumentTitle(ref ? `${ETAPE_LABEL[etape] ?? 'Salle'} · ${ref.civ.label}` : 'Salle introuvable')
   useAmbiance(ref ? civId : null)
   if (!ref || !ETAPE_LABEL[etape]) return <NotFoundPage title="Salle introuvable" />
   // Étape pas encore accessible → le panneau de la salle explique pourquoi
-  if (!etapeAccessible(salles, civId, etape)) return <Navigate to={`/?salle=${civId}`} replace />
+  // (terminer une étape ne la rend jamais inaccessible : découverte et étoiles ne se perdent pas)
+  if (!etapeAccessible(P, av, civId, etape)) return <Navigate to={`/?salle=${civId}`} replace />
   return (
     <ChapterGate key={`${civId}-${etape}`} refCiv={ref}>
       {(full) => (etape === 'epreuve' ? <Epreuve refCiv={full} /> : <Etape refCiv={full} etape={etape} />)}
     </ChapterGate>
   )
-}
-
-/** Découvrir dès que la salle est ouverte ; Approfondir après le bronze ; l'Épreuve après l'argent. */
-export function etapeAccessible(salles, civId, etape) {
-  if (!estOuvert(P, salles, civId)) return false
-  const m = salles[civId]?.medaille ?? 0
-  return etape === 'decouvrir' || (etape === 'approfondir' && m >= MEDAILLE.BRONZE) || (etape === 'epreuve' && m >= MEDAILLE.ARGENT)
 }
 
 /** Plein écran : bloque le défilement de la page derrière. */
@@ -110,6 +102,9 @@ function Etape({ refCiv, etape }) {
   const [justes, setJustes] = useState([])
   const [evenements, setEvenements] = useState(null)
   const round = etape === 'decouvrir' ? 0 : 1
+  const tronc = estTronc(P, civ.id)
+  // annexe : pas de questions éclair, la séance continue par la mini-épreuve
+  const nbEclairs = tronc ? ECLAIRS[etape] : 0
 
   const byId = useMemo(() => Object.fromEntries(chapterCards(refCiv).map((c) => [c.id, c])), [refCiv])
   const current = chapter?.current
@@ -143,7 +138,7 @@ function Etape({ refCiv, etape }) {
     const choix = choisirEclairs({
       questions: redigees.length ? redigees : pool,
       paquet: distinctes,
-      nombre: ECLAIRS[etape],
+      nombre: nbEclairs,
       milieu: milieuPrevu,
       graine: `${civ.id}:${etape}:${rounds}`,
     })
@@ -159,6 +154,8 @@ function Etape({ refCiv, etape }) {
   const terminer = () => {
     const ev = finishChapter(civ.id, { eclairs: justes.filter(Boolean).length })
     haptic('complete')
+    // annexe : les cartes lues, place à la mini-épreuve (la séance n'est terminée qu'après elle)
+    if (!tronc && round === 0) return navigate(`/aventure/salle/${civ.id}/epreuve`, { replace: true })
     setEvenements(ev)
     setPhase('fin')
   }
@@ -173,7 +170,7 @@ function Etape({ refCiv, etape }) {
     <div className="fixed inset-0 z-50 bg-bg flex flex-col" role="dialog" aria-label={`${ETAPE_LABEL[etape]} : ${civ.label}`}>
       {phase !== 'fin' && (
         <Barre
-          titre={`${civ.label} · ${ETAPE_LABEL[etape]}${pauseMilieu ? ' · question d’étape' : phase === 'questions' ? ` · question éclair ${qi + 1} / ${questions.length}` : cards.length ? ` · carte ${pos + 1} / ${cards.length}` : ''}`}
+          titre={`${civ.label} · ${tronc ? ETAPE_LABEL[etape] : 'Séance'}${pauseMilieu ? ' · question d’étape' : phase === 'questions' ? ` · question éclair ${qi + 1} / ${questions.length}` : cards.length ? ` · carte ${pos + 1} / ${cards.length}` : ''}`}
           onClose={fermer}
           segments={segments}
           xp={phase === 'questions' ? justes.filter(Boolean).length * 5 : undefined}
@@ -234,25 +231,25 @@ const nomDe = (id) => findCivilization(id)?.civ.label ?? id
 function EtapeFin({ refCiv, etape, evenements, justes, total }) {
   const { civ } = refCiv
   const navigate = useNavigate()
-  const effet = useEffet()
-  const medaille = evenements.find((e) => e.type === 'medaille')?.medaille
+  const av = useProgress((s) => s.aventure)
+  const decouverte = evenements.some((e) => e.type === 'decouverte')
   const ouvertes = evenements.find((e) => e.type === 'ouverture')?.salles ?? []
   const xp = xpDe(evenements)
-  const suite = etape === 'decouvrir' ? 'approfondir' : 'epreuve'
+  const suivante = salleEnCours(P, av)
   const { faire, ecran } = useApresCelebrations(evenements)
   useEffect(() => {
-    if (medaille) haptic('recompense')
-  }, [medaille])
+    if (decouverte) haptic('recompense')
+  }, [decouverte])
   return (
     <motion.div initial={{ opacity: 0, scale: 0.96 }} animate={{ opacity: 1, scale: 1 }} className="relative w-full max-w-[440px] mx-auto my-auto text-center py-6">
-      {medaille && <Particules effet={effet} nombre={16} />}
-      <p className="eyebrow">{ETAPE_LABEL[etape]} terminé</p>
+      {decouverte && <Particules effet={EFFET} nombre={16} />}
+      <p className="eyebrow">{etape === 'decouvrir' ? 'Découvrir terminé' : 'Approfondir terminé (bonus)'}</p>
       <motion.div initial={{ scale: 0.3, opacity: 0, rotate: -20 }} animate={{ scale: 1, opacity: 1, rotate: 0 }} transition={{ type: 'spring', damping: 10, delay: 0.1 }} className="inline-block mt-4">
-        <Medaille medaille={medaille ?? (etape === 'decouvrir' ? MEDAILLE.BRONZE : MEDAILLE.ARGENT)} taille={104} />
+        <EtatSalle decouverte etoiles={0} taille={104} />
       </motion.div>
       <h2 className="font-display text-4xl font-bold text-ink mt-4 leading-none">{civ.label}</h2>
       <p className="text-muted mt-2">
-        {medaille ? `Médaille ${medaille === MEDAILLE.BRONZE ? 'de bronze' : 'd’argent'} gagnée` : 'Étape revue'}
+        {decouverte ? 'Salle découverte' : etape === 'approfondir' ? 'Ses cartes entrent dans l’épreuve' : 'Étape revue'}
         {total > 0 && ` · ${justes} / ${total} question${total > 1 ? 's' : ''} éclair`}
       </p>
       <div className="mt-5 grid grid-cols-2 gap-2.5">
@@ -261,10 +258,14 @@ function EtapeFin({ refCiv, etape, evenements, justes, total }) {
       </div>
       {ouvertes.length > 0 && <p className="text-sm text-ink mt-3">Nouveau : {ouvertes.map(nomDe).join(', ')}</p>}
       <div className="mt-6 grid gap-2.5">
-        <button onClick={() => faire(() => navigate(`/aventure/salle/${civ.id}/${suite}`))} className="btn-accent h-12 w-full text-[15px] font-bold">
-          {suite === 'approfondir' ? 'Approfondir maintenant' : 'Passer l’épreuve'} <Icon name="arrowRight" size={18} />
+        <button onClick={() => faire(() => navigate(`/aventure/salle/${civ.id}/epreuve`))} className="btn-accent h-12 w-full text-[15px] font-bold">
+          Passer l’épreuve <Icon name="arrowRight" size={18} />
         </button>
-        <button onClick={() => faire(() => navigate('/'))} className="btn-secondary h-12 w-full">Retour au parcours</button>
+        {suivante && suivante !== civ.id ? (
+          <button onClick={() => faire(() => navigate(`/?salle=${suivante}`))} className="btn-secondary h-12 w-full">Salle suivante : {nomDe(suivante)}</button>
+        ) : (
+          <button onClick={() => faire(() => navigate('/'))} className="btn-secondary h-12 w-full">Retour au parcours</button>
+        )}
       </div>
       {ecran}
     </motion.div>
@@ -290,14 +291,18 @@ function Epreuve({ refCiv }) {
   const startQuiz = useProgress((s) => s.startQuiz)
   const answerQuestion = useProgress((s) => s.answerQuestion)
   const finishQuiz = useProgress((s) => s.finishQuiz)
+  const etoilesSalle = useProgress((s) => s.aventure.salles[civ.id]?.etoiles ?? 0)
+  const niveaux = useProgress((s) => niveauxVus(P, s.aventure, civ.id).join())
   const [step, setStep] = useState(null)
-  const [miTemps, setMiTemps] = useState(false)
   const [result, setResult] = useState(null)
+  const tronc = estTronc(P, civ.id)
+  const { questions: longueur, rattrapage } = epreuveDe(P, civ.id)
 
-  const pool = useMemo(() => questionPool(refCiv), [refCiv])
+  // Questions sur les cartes vues : Découvrir (+ Approfondir s'il est fait) ; annexe : cartes de la séance
+  const pool = useMemo(() => questionPool(refCiv, { niveaux: niveaux.split(',').map(Number) }), [refCiv, niveaux])
   const byId = useMemo(() => Object.fromEntries(pool.map((q) => [q.id, q])), [pool])
   const begin = () => {
-    const ids = composeQuiz(pool, { failed: quiz?.failed ?? [], asked: quiz?.asked ?? [], attempt: quiz?.attempts ?? 0 })
+    const ids = composerEpreuve(pool, { longueur, rattrapage, failed: quiz?.failed ?? [], asked: quiz?.asked ?? [], attempt: quiz?.attempts ?? 0 })
     startQuiz(civ.id, ids)
     setStep(0)
   }
@@ -318,8 +323,7 @@ function Epreuve({ refCiv }) {
   const answers = current?.answers ?? []
   const index = Math.min(step ?? 0, Math.max(questions.length - 1, 0))
   const q = questions[index]
-  const medailleSalle = useProgress((s) => s.aventure.salles[civ.id]?.medaille ?? 0)
-  const rejeu = medailleSalle >= MEDAILLE.OR // salle déjà en or : XP des réponses divisée par deux
+  const rejeu = etoilesSalle >= 1 // salle déjà étoilée : XP des réponses divisée par deux
 
   // XP en direct et combo
   const justes = questions.map((x) => answers.find((a) => a.id === x.id)?.correct).filter((v) => v !== undefined)
@@ -329,21 +333,18 @@ function Epreuve({ refCiv }) {
   const dernier = justes.length && justes.at(-1) ? gainReponse(serie, { rejeu }) : 0
   const comboMax = serie >= BAREME.comboMax
   const bonnes = justes.filter(Boolean).length
-  const total = questions.length || EPREUVE.questions
+  const total = questions.length || longueur
+  const [seuil] = seuilsEtoiles(total)
   // le son d'une bonne réponse monte avec le combo (lib/sons.js)
   useEffect(() => {
     definirCombo(serie)
     return () => definirCombo(0)
   }, [serie])
-  // Si les 15/20 ne sont plus atteignables, l'épreuve sera ratée : on affiche l'XP réelle (2 par bonne réponse)
-  const reussitePossible = bonnes + (total - justes.length) >= EPREUVE.reussite
+  // Si ★ n'est plus atteignable, l'épreuve sera ratée : on affiche l'XP réelle (2 par bonne réponse)
+  const reussitePossible = bonnes + (total - justes.length) >= seuil
   const xpAffiche = reussitePossible ? xp : BAREME.reponseEchec * bonnes
 
   const suivante = () => {
-    if (index === Math.floor(total / 2) - 1 && !miTemps && total >= 12) {
-      setMiTemps(true)
-      return
-    }
     if (index < questions.length - 1) setStep(index + 1)
     else {
       // mêmes questions comptées à l'écran et dans la note
@@ -351,13 +352,12 @@ function Epreuve({ refCiv }) {
       if (r) setResult({ ...r, questions, answers }) // garde les questions et réponses pour « Revoir mes erreurs »
     }
   }
-  const pause = miTemps && step === index && index === Math.floor(total / 2) - 1
 
   return (
-    <div className="fixed inset-0 z-50 bg-bg flex flex-col" role="dialog" aria-label={`Épreuve : ${civ.label}`}>
-      {!result && !pause && (
+    <div className="fixed inset-0 z-50 bg-bg flex flex-col" role="dialog" aria-label={`${tronc ? 'Épreuve' : 'Mini-épreuve'} : ${civ.label}`}>
+      {!result && (
         <Barre
-          titre={`Épreuve · ${civ.label}`}
+          titre={`${tronc ? 'Épreuve' : 'Mini-épreuve'} · ${civ.label}`}
           onClose={() => navigate(`/?salle=${civ.id}`)}
           segments={questions.map((x, i) => {
             const a = answers.find((y) => y.id === x.id)
@@ -366,7 +366,7 @@ function Epreuve({ refCiv }) {
           xp={xpAffiche}
         />
       )}
-      {!result && !pause && serie >= 2 && reussitePossible && (
+      {!result && serie >= 2 && reussitePossible && (
         <div className="max-w-[600px] w-full mx-auto px-4">
           {/* Le compteur continue au-delà de ×5 (sprint 26), l'XP reste plafonnée à ×5 (BAREME.comboMax) ;
               l'effet monte avec la série : apparition plus marquée et halo doré qui grandit. */}
@@ -391,9 +391,7 @@ function Epreuve({ refCiv }) {
       )}
       <div className="relative flex-1 min-h-0 flex flex-col px-4 pt-4 pb-[max(1rem,env(safe-area-inset-bottom))] overflow-y-auto">
         {result ? (
-          <Resultat refCiv={refCiv} result={result} questions={result.questions} answers={result.answers} onRetry={() => { setResult(null); setMiTemps(false); setStep(null) }} />
-        ) : pause ? (
-          <MiTemps bonnes={bonnes} faites={index + 1} restantes={total - index - 1} xp={xpAffiche} onReprendre={() => setStep(Math.min(index + 1, questions.length - 1))} />
+          <Resultat refCiv={refCiv} result={result} questions={result.questions} answers={result.answers} onRetry={() => { setResult(null); setStep(null) }} />
         ) : q ? (
           <AnimatePresence mode="wait">
             <QuestionView
@@ -409,10 +407,10 @@ function Epreuve({ refCiv }) {
             />
           </AnimatePresence>
         ) : null}
-        {!result && !pause && (
+        {!result && (
           <p className="text-center text-xs text-muted mt-3">
             {bonnes} bonne{bonnes > 1 ? 's' : ''} réponse{bonnes > 1 ? 's' : ''}
-            {bonnes < EPREUVE.reussite ? ` · encore ${EPREUVE.reussite - bonnes} pour réussir (l’XP compte en entier dès 15)` : ' · épreuve réussie, vise les étoiles !'}
+            {bonnes < seuil ? ` · encore ${seuil - bonnes} pour réussir` : ' · épreuve réussie, vise les étoiles !'}
           </p>
         )}
       </div>
@@ -420,88 +418,40 @@ function Epreuve({ refCiv }) {
   )
 }
 
-function MiTemps({ bonnes, faites, restantes, xp, onReprendre }) {
-  // le 2e toucher d'un double toucher sur « Question suivante » ne doit pas fermer la mi-temps aussitôt
-  const pret = useDelai(500)
-  const paliers = [
-    { label: 'Réussir l’épreuve', seuil: 15 },
-    { label: 'Deux étoiles ★★', seuil: 17 },
-    { label: 'Trois étoiles ★★★', seuil: 19 },
-  ]
-  return (
-    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="fixed inset-0 z-10 flex flex-col items-center px-5" style={{ background: '#2a2118', color: '#f6efe2' }}>
-      <p className="mt-[12vh] text-xs font-bold uppercase tracking-[.2em]" style={{ color: '#c9b48c' }}>Épreuve</p>
-      <h2 className="font-display text-5xl font-bold" style={{ color: '#e0c27a' }}>Mi-temps</h2>
-      <p className="mt-6 font-display text-7xl font-bold leading-none">{bonnes}</p>
-      <p className="text-sm" style={{ color: '#c9b48c' }}>bonnes réponses sur {faites}</p>
-      <ul className="mt-6 w-full max-w-sm border-t" style={{ borderColor: '#4a3d2c' }}>
-        {paliers.map((p) => {
-          const manque = p.seuil - bonnes
-          return (
-            <li key={p.seuil} className="flex justify-between py-3 border-b text-[15px]" style={{ borderColor: '#4a3d2c' }}>
-              <span>{p.label}</span>
-              <span className="font-bold" style={{ color: manque <= 0 ? '#e0c27a' : manque > restantes ? '#c9b48c' : '#f6efe2' }}>
-                {manque <= 0 ? 'acquis' : manque > restantes ? 'plus possible' : `encore ${manque}`}
-              </span>
-            </li>
-          )
-        })}
-      </ul>
-      <p className="mt-4 text-sm" style={{ color: '#c9b48c' }}>{xp} XP gagnés jusqu’ici</p>
-      {bonnes + restantes < 15 && (
-        <p className="mt-3 text-[15px] leading-relaxed max-w-sm" style={{ color: '#f6efe2' }}>
-          L’or n’est plus possible cette fois, mais chaque bonne réponse compte encore, et tes erreurs reviendront pour t’entraîner. Termine en beauté !
-        </p>
-      )}
-      <button onClick={() => pret() && onReprendre()} className="mt-auto mb-[max(1.75rem,env(safe-area-inset-bottom))] w-full max-w-sm min-h-[54px] font-bold text-[16px]" style={{ background: '#e0c27a', color: '#2a2118' }}>
-        Reprendre — question {faites + 1}
-      </button>
-    </motion.div>
-  )
-}
-
-/** Résultat de l'épreuve : grande célébration si réussie (maquette 8), écran sobre sinon. */
+/** Résultat de l'épreuve : étoiles et grande célébration si réussie (maquette 10 du sprint 27), écran sobre sinon. */
 function Resultat({ refCiv, result, questions, answers, onRetry }) {
   const { civ } = refCiv
   const navigate = useNavigate()
   const av = useProgress((s) => s.aventure)
   const showToast = useUI((s) => s.showToast)
-  const effet = useEffet()
-  const reussi = result.score >= EPREUVE.reussite
+  const tronc = estTronc(P, civ.id)
+  const nb = etoilesEpreuve(result.correct, result.total)
+  const seuils = seuilsEtoiles(result.total)
+  const reussi = nb >= 1
+  const note = `${result.correct}/${result.total}`
   const ev = result.evenements ?? []
   const { faire, ecran } = useApresCelebrations(ev)
   const parRaison = (r) => ev.filter((e) => e.type === 'xp' && e.raison === r).reduce((n, e) => n + e.montant, 0)
   const lignes = [
     [reussi ? 'Réponses et combos' : 'Réponses (épreuve ratée : 2 XP chacune)', parRaison('epreuve')],
-    ['Médaille d’or', parRaison('or')],
+    ['Annexe faite', parRaison('annexe')],
+    ['Épreuve réussie', parRaison('reussite')],
     ['Nouvelles étoiles', parRaison('etoiles')],
-    ['Coffres', parRaison('coffre')],
     ['Bonus du jour', parRaison('bonus-jour')],
+    ['Palier de série', parRaison('palier')],
+    ['Titre', parRaison('titre')],
   ].filter(([, v]) => v > 0)
-  const nb = etoiles(result.score)
-  const coffreSalle = ev.find((e) => e.type === 'coffre' && e.sorte === 'salle')
-  const autresCoffres = ev.filter((e) => e.type === 'coffre' && e.sorte !== 'salle')
   const erreurs = questions.filter((q) => answers.some((a) => a.id === q.id && !a.correct))
   const n = niveau(av.xp)
+  const meilleures = salleDe(av, civ.id).etoiles // étoiles gardées (la meilleure épreuve)
   useEffect(() => {
     haptic(reussi ? 'recompense' : 'error')
   }, [reussi])
 
   const partager = async () => {
-    const titre = titresObtenus(P, av.salles).find((t) => t.id === av.titreAffiche)?.titre
-    const cadre = choisi('cadre', av.cosmetiques, av.recompenses)
-    const blob = await imageResultat({
-      titre: civ.label,
-      sousTitre: 'Épreuve réussie',
-      note: result.score,
-      etoiles: nb,
-      niveau: n.niveau,
-      rang: n.rang,
-      titreAffiche: titre,
-      cadre: cadre.couleur,
-      doree: av.recompenses.includes('partage:edition-doree'),
-    })
-    const r = await partagerImage(blob, `histomap-${civ.id}.png`, `${civ.label} : ${result.score}/20 sur HistoMap`)
+    const titre = titresObtenus(P, av).find((t) => t.id === av.titreAffiche)?.titre
+    const blob = await imageResultat({ titre: civ.label, sousTitre: tronc ? 'Épreuve réussie' : 'Annexe réussie', note, etoiles: nb, niveau: n.niveau, rang: n.rang, titreAffiche: titre })
+    const r = await partagerImage(blob, `histomap-${civ.id}.png`, `${civ.label} : ${note} sur HistoMap`)
     if (r === 'telecharge') showToast({ text: 'Image enregistrée dans vos téléchargements', tone: 'success' })
   }
 
@@ -520,20 +470,26 @@ function Resultat({ refCiv, result, questions, answers, onRetry }) {
       </details>
     )
 
-  const dejaOr = (av.salles[civ.id]?.medaille ?? 0) >= MEDAILLE.OR
+  const Seuils = ({ style }) => (
+    <p className="mt-3 text-xs tabular-nums" style={style}>
+      ★ {seuils[0]} · ★★ {seuils[1]} · ★★★ {seuils[2]} bonnes réponses sur {result.total}
+    </p>
+  )
+
   if (!reussi)
     return (
       <motion.div initial={{ opacity: 0, scale: 0.96 }} animate={{ opacity: 1, scale: 1 }} className="w-full max-w-[460px] mx-auto text-center py-4 text-ink">
-        <p className="eyebrow">{dejaOr ? 'Pas cette fois' : 'Épreuve à retenter'}</p>
+        <p className="eyebrow">{meilleures ? 'Pas cette fois' : tronc ? 'Épreuve à retenter' : 'Annexe faite'}</p>
         <div className="mt-4 mx-auto w-36 h-36 rounded-full grid place-items-center bg-surface2">
-          <span className="font-display text-5xl font-bold">{result.score}/20</span>
+          <span className="font-display text-5xl font-bold">{note}</span>
         </div>
         <h2 className="font-display text-4xl font-bold mt-4 leading-none">{civ.label}</h2>
         <p className="text-muted mt-2">
-          {dejaOr
-            ? 'Ta médaille d’or reste acquise. Rejoue quand tu veux pour les étoiles.'
-            : `Encore ${EPREUVE.reussite - result.score} point${EPREUVE.reussite - result.score > 1 ? 's' : ''} pour l’or. Tes erreurs reviendront en partie à la prochaine tentative.`}
+          {meilleures
+            ? 'Tes étoiles restent acquises. Rejoue quand tu veux pour en gagner d’autres.'
+            : `Encore ${seuils[0] - result.correct} bonne${seuils[0] - result.correct > 1 ? 's' : ''} réponse${seuils[0] - result.correct > 1 ? 's' : ''} pour ★. Tes erreurs reviendront en partie à la prochaine tentative.`}
         </p>
+        <Seuils />
         {lignes.length > 0 && (
           <div className="mt-5 text-left border-t border-line">
             {lignes.map(([label, v]) => (
@@ -543,8 +499,8 @@ function Resultat({ refCiv, result, questions, answers, onRetry }) {
         )}
         <Erreurs />
         <div className="mt-6 grid gap-2.5">
-          <button onClick={() => faire(onRetry)} className="btn-accent h-12 w-full text-[15px] font-bold">{dejaOr ? 'Rejouer l’épreuve' : 'Retenter l’épreuve'}</button>
-          <button onClick={() => faire(() => navigate(`/aventure/salle/${civ.id}/approfondir`))} className="btn-secondary h-12 w-full">Revoir les cartes</button>
+          <button onClick={() => faire(onRetry)} className="btn-accent h-12 w-full text-[15px] font-bold">{meilleures ? 'Rejouer' : 'Retenter'}</button>
+          <button onClick={() => faire(() => navigate(`/aventure/salle/${civ.id}/decouvrir`))} className="btn-secondary h-12 w-full">Revoir les cartes</button>
           <button onClick={() => faire(() => navigate(`/?salle=${civ.id}`))} className="btn-ghost h-11 w-full">Retour à la salle</button>
         </div>
         {ecran}
@@ -553,9 +509,9 @@ function Resultat({ refCiv, result, questions, answers, onRetry }) {
 
   return (
     <div className="fixed inset-0 z-10 overflow-y-auto overscroll-contain" style={{ background: '#1f1812', color: '#f6efe2' }}>
-      <Particules effet={effet} />
+      <Particules effet={EFFET} />
       <div className="relative w-full max-w-[440px] mx-auto px-5 pt-[max(2.5rem,env(safe-area-inset-top))] pb-[max(1.5rem,env(safe-area-inset-bottom))] text-center">
-        <p className="text-xs font-bold uppercase tracking-[.22em]" style={{ color: '#e0c27a' }}>Épreuve réussie</p>
+        <p className="text-xs font-bold uppercase tracking-[.22em]" style={{ color: '#e0c27a' }}>{tronc ? 'Épreuve réussie' : 'Annexe réussie'}</p>
         <div className="relative mt-6 h-56 grid place-items-center">
           <Rayons taille={460} />
           <motion.div
@@ -567,16 +523,16 @@ function Resultat({ refCiv, result, questions, answers, onRetry }) {
           >
             <span aria-hidden="true" className="hm-reflet absolute -top-10 left-0 w-10 h-72" style={{ background: 'rgba(255,255,255,.35)' }} />
             <span className="relative">
-              <span className="block font-display text-lg font-bold uppercase tracking-[.2em]">Or</span>
-              <span className="block font-display text-6xl font-bold leading-none">{result.score}/20</span>
-              <span className="block text-2xl tracking-[4px]" aria-label={`${nb} étoile(s) sur 3`}>{'★'.repeat(nb)}{'☆'.repeat(3 - nb)}</span>
+              <span className="block font-display text-6xl font-bold leading-none">{note}</span>
+              <Etoiles n={nb} className="block text-3xl mt-1" />
             </span>
           </motion.div>
         </div>
         <h2 className="font-display text-5xl font-bold mt-4 leading-none">{civ.label}</h2>
         <p className="mt-2 text-[15px]" style={{ color: '#c9b48c' }}>
-          {nb < 3 ? `Encore ${[17, 19][nb - 1] - result.score} bonne(s) réponse(s) pour ${nb === 1 ? '★★' : '★★★'}` : 'Trois étoiles : salle parfaitement maîtrisée'}
+          {nb < 3 ? `Encore ${seuils[nb] - result.correct} bonne(s) réponse(s) pour ${'★'.repeat(nb + 1)}` : 'Trois étoiles : salle parfaitement maîtrisée'}
         </p>
+        <Seuils style={{ color: '#c9b48c' }} />
 
         <div className="mt-5 text-left border-t" style={{ borderColor: '#4a3d2c' }}>
           {lignes.map(([label, v]) => (
@@ -587,27 +543,11 @@ function Resultat({ refCiv, result, questions, answers, onRetry }) {
           <p className="text-xs mt-2" style={{ color: '#c9b48c' }}>Niveau {n.niveau} · {n.rang} · {av.xp.toLocaleString('fr-FR')} XP</p>
         </div>
 
-        {coffreSalle && (
-          <div className="mt-4 p-3 flex items-center gap-3 text-left border" style={{ background: '#3a2f22', borderColor: '#a8791c' }}>
-            <span className="shrink-0 -my-3"><Coffre taille={46} /></span>
-            <span>
-              <span className="block text-[11px] font-bold uppercase tracking-[.14em]" style={{ color: '#e0c27a' }}>Petit coffre ouvert</span>
-              <span className="block font-display text-2xl font-bold">+{coffreSalle.xp} XP{coffreSalle.joker ? ' et 1 joker' : ''}</span>
-            </span>
-          </div>
-        )}
-        {autresCoffres.map((c) => (
-          <p key={c.id} className="mt-2 p-2.5 text-sm text-left border" style={{ borderColor: '#4a3d2c', color: '#d8c7a6' }}>
-            {c.sorte === 'semaine' ? 'Objectif de la semaine atteint' : c.sorte === 'serie' ? 'Palier de série' : 'Coffre de niveau'} : +{c.xp} XP{c.joker ? ' et 1 joker' : ''}
-          </p>
-        ))}
-
         <Erreurs />
 
         <div className="mt-6 grid gap-2.5">
           <button onClick={() => faire(() => navigate('/'))} className="min-h-[54px] font-bold text-[16px]" style={{ background: '#e0c27a', color: '#2a2118' }}>Continuer le parcours</button>
           <button onClick={partager} className="min-h-[48px] font-semibold border" style={{ borderColor: '#a8791c' }}>Partager mon résultat</button>
-          <button onClick={() => faire(() => navigate(`/defi/${civ.id}`))} className="min-h-[48px] font-semibold border" style={{ borderColor: '#a8791c' }}>Défier un ami sur cette salle</button>
           {nb < 3 && <button onClick={() => faire(onRetry)} className="min-h-[44px] text-sm font-semibold" style={{ color: '#e0c27a' }}>Rejouer pour les étoiles</button>}
         </div>
       </div>

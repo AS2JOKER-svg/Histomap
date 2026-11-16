@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import useDocumentTitle from '../lib/useDocumentTitle'
-import { avancementMonde, salleEnCours, titresObtenus } from '../lib/aventure'
+import { avancementMonde, ouverture, porteMonde, salleEnCours, titresObtenus } from '../lib/aventure'
+import { findCivilization } from '../lib/data'
 import { PARCOURS_AVENTURE as P, useProgress } from '../store/progress'
 import Icon from '../components/ui/Icon'
 import { ROMAIN } from './AventurePage'
@@ -8,10 +9,10 @@ import { ROMAIN } from './AventurePage'
 /** Les cinq mondes (maquette 3) : avancement, titre d'époque, verrou. */
 export default function MondesPage() {
   useDocumentTitle('Les cinq mondes')
-  const salles = useProgress((s) => s.aventure.salles)
-  const enCours = salleEnCours(P, salles)
-  const courant = P.monde.get(enCours) ?? 0
-  const titres = new Set(titresObtenus(P, salles).map((t) => t.id))
+  const av = useProgress((s) => s.aventure)
+  const enCours = salleEnCours(P, av)
+  const courant = P.monde.get(enCours) ?? P.mondes.length - 1
+  const titres = new Set(titresObtenus(P, av).map((t) => t.id))
 
   return (
     <section className="max-w-xl mx-auto">
@@ -19,14 +20,14 @@ export default function MondesPage() {
         <Link to="/" className="btn-icon" aria-label="Retour au parcours"><Icon name="arrowLeft" /></Link>
         <h1 className="font-display text-4xl font-bold text-ink">Les cinq mondes</h1>
       </div>
-      <p className="text-sm text-muted mb-5">Un monde s’ouvre quand toutes les salles du précédent ont au moins l’argent.</p>
+      <p className="text-sm text-muted mb-5">Un monde s’ouvre quand la dernière salle du précédent est découverte.</p>
 
       <ol className="space-y-2.5">
         {P.mondes.map((m, w) => {
-          const a = avancementMonde(P, salles, w)
+          const a = avancementMonde(P, av, w)
           const termine = titres.has(`monde:${m.epoque}`)
           const actuel = w === courant && !termine
-          const manque = w > 0 && !a.ouvert ? P.mondes[w - 1].tronc.filter((id) => (salles[id]?.medaille ?? 0) < 2).length : 0
+          const porte = w > 0 && !a.ouvert ? porteMonde(P, av, w) : null
           const corps = (
             <>
               <span className="flex justify-between items-baseline gap-2">
@@ -39,12 +40,12 @@ export default function MondesPage() {
               <span className="block font-display text-3xl font-bold leading-none mt-1">{m.nom}</span>
               {a.ouvert ? (
                 <span className="block mt-3 space-y-1.5 text-xs">
-                  <Jauge label="Salles en argent" n={a.argent} total={a.salles} actuel={actuel} />
-                  <Jauge label="Salles en or" n={a.or} total={a.salles} actuel={actuel} />
-                  <Jauge label="Annexes commencées" n={a.branchesCommencees} total={a.branches} actuel={actuel} />
+                  <Jauge label="Salles découvertes" n={a.decouvertes} total={a.salles} actuel={actuel} />
+                  <Jauge label="Salles du tronc avec au moins ★" n={a.troncEtoile} total={a.tronc} actuel={actuel} />
+                  <Jauge label="Annexes faites" n={a.annexesFaites} total={a.annexes} actuel={actuel} />
                 </span>
               ) : (
-                <span className="block text-xs mt-1 text-muted">Encore {manque} {manque > 1 ? 'salles' : 'salle'} du monde « {P.mondes[w - 1].nom} » à mener à l’argent</span>
+                <span className="block text-xs mt-1 text-muted">S’ouvre quand {findCivilization(porte)?.civ.label ?? '…'} est découverte{ouverture(P, av, porte).ouvert ? '' : ' (pas encore ouverte)'}</span>
               )}
               {termine && <span className="block mt-2 text-sm font-semibold">Titre : {m.titre}</span>}
             </>

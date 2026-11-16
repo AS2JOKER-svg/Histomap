@@ -71,25 +71,6 @@
   }
 
 
-  /* Thèmes à débloquer (V3, sprint 22) : seul l'accent change ; contrastes AA vérifiés
-     (accent ≥ 4,5:1 sur le papier et sur la surface sombre ; texte blanc sur --c-accent-btn). */
-  :root[data-theme='light'][data-palette='silex'] { --c-accent: 74 85 96; --c-accent-btn: 74 85 96; }
-  :root[data-theme='dark'][data-palette='silex']  { --c-accent: 184 194 204; --c-accent-btn: 74 85 96; }
-  :root[data-theme='light'][data-palette='papyrus'] { --c-accent: 47 107 94; --c-accent-btn: 47 107 94; }
-  :root[data-theme='dark'][data-palette='papyrus']  { --c-accent: 124 196 178; --c-accent-btn: 47 107 94; }
-  :root[data-theme='light'][data-palette='enluminure'] { --c-accent: 155 28 49; --c-accent-btn: 155 28 49; }
-  :root[data-theme='dark'][data-palette='enluminure']  { --c-accent: 240 138 154; --c-accent-btn: 155 28 49; }
-  :root[data-theme='light'][data-palette='lapis'] { --c-accent: 31 78 140; --c-accent-btn: 31 78 140; }
-  :root[data-theme='dark'][data-palette='lapis']  { --c-accent: 143 180 236; --c-accent-btn: 31 78 140; }
-  :root[data-theme='light'][data-palette='neon'] { --c-accent: 122 46 138; --c-accent-btn: 122 46 138; }
-  :root[data-theme='dark'][data-palette='neon']  { --c-accent: 215 155 230; --c-accent-btn: 122 46 138; }
-  :root[data-theme='light'][data-palette='indigo'] { --c-accent: 59 63 143; --c-accent-btn: 59 63 143; }
-  :root[data-theme='dark'][data-palette='indigo']  { --c-accent: 169 174 240; --c-accent-btn: 59 63 143; }
-  :root[data-theme='light'][data-palette='pourpre'] { --c-accent: 107 31 79; --c-accent-btn: 107 31 79; }
-  :root[data-theme='dark'][data-palette='pourpre']  { --c-accent: 224 138 192; --c-accent-btn: 107 31 79; }
-  :root[data-theme='light'][data-palette='or-ebene'] { --c-accent: 122 85 18; --c-accent-btn: 122 85 18; }
-  :root[data-theme='dark'][data-palette='or-ebene']  { --c-accent: 224 194 122; --c-accent-btn: 122 85 18; }
-
   html, body, #root { min-height: 100%; }
 
   body {

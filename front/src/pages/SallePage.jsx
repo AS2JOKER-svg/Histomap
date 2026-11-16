@@ -131,8 +131,8 @@ function Etape({ refCiv, etape }) {
   const nbContenu = distinctes.filter((id) => byId[id] && byId[id].type !== 'cover' && byId[id].type !== 'recap').length
   const milieuPrevu = nbContenu > 8 ? Math.floor(distinctes.length / 2) : null
 
-  // Questions éclair (sprint 26) : seulement des questions dont la réponse se lit dans les cartes de la
-  // séance (lib/eclairs.js) ; celle du milieu, dans la 1re moitié du paquet. S'il en manque, on en pose moins.
+  // Questions éclair (sprints 26 et 28) : seulement des questions dont la carte (champ `carte`) a été lue
+  // dans la séance (lib/eclairs.js) ; celle du milieu, dans la 1re moitié du paquet. S'il en manque, on en pose moins.
   // Choisies une fois par séance : elles ne changent plus ensuite (cartes remises en fin de paquet, fin de l'étape).
   const [eclairs, setEclairs] = useState(null)
   useEffect(() => {
@@ -141,7 +141,6 @@ function Etape({ refCiv, etape }) {
     const redigees = pool.filter((q) => q.id.startsWith('hand-'))
     const rounds = chapter?.rounds ?? 0
     const choix = choisirEclairs({
-      cartes: chapterCards(refCiv),
       questions: redigees.length ? redigees : pool,
       paquet: distinctes,
       nombre: ECLAIRS[etape],

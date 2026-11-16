@@ -8,7 +8,10 @@ import { MEDAILLE, createParcours, etapeDuJour, listeARevoir, etoiles, mondeOuve
 import { aventureVide, enregistrerActivite, finOnboarding, gagnerXp, migrerV2, terminerEpreuve, terminerEtape, xpReponses, lundi } from '../src/lib/progression.js'
 import { lienDefi, lireDefi, nouvelleGraine, questionsDefi, verdict } from '../src/lib/defi.js'
 import { emplacementsJokers, gainReponse, niveau, petitCoffre, prochaineRecompense, rang, recompensesNiveau, seuilNiveau } from '../src/lib/xp.js'
-import { choisirEclairs, estVue, memeMot, mots, rattacher } from '../src/lib/eclairs.js'
+import { choisirEclairs, estVue } from '../src/lib/eclairs.js'
+import { campVainqueur, cartesDe, masquerNom, questionsDesCartes, sansDate } from '../src/lib/questionsCartes.js'
+import { formatYear } from '../src/lib/time.js'
+import { indexer, memeMot, mots, proposer } from './lib/rapprochement.mjs'
 import { noteQuiz, premiereSansReponse } from '../src/lib/questions.js'
 import { HANDWRITTEN } from '../src/data/revision/index.js'
 
@@ -279,41 +282,65 @@ test('défi : lien aller-retour, valeurs douteuses ignorées, verdict', () => {
   assert.deepEqual([verdict(9, 8), verdict(7, 8), verdict(8, 8)], ['gagne', 'perdu', 'egalite'])
 })
 
-// ── Questions éclair (sprint 26) : seulement sur les cartes déjà lues ──────────
-test('éclairs : mots et flexions', () => {
+// ── Questions éclair (sprints 26 et 28) : seulement sur les cartes déjà lues ──
+test('rapprochement (outil npm run relier) : mots et flexions', () => {
   assert.deepEqual(mots('L’Égypte est « un don du Nil » en 1 500 av. J.-C.'), ['egypte', 'don', 'nil', '1500'])
   assert.ok(memeMot('tunis', 'tunisie') && memeMot('pheniciens', 'phenicienne') && memeMot('detruite', 'detruire'))
   assert.ok(!memeMot('romain', 'romantique') && !memeMot('146', '1460') && !memeMot('roi', 'rome'))
 })
 
+test('rapprochement : propose la carte de Découvrir, et une seule frise pour une question d’ordre', () => {
+  const ch = HANDWRITTEN.carthage
+  const idx = indexer(ch.cards)
+  const q = (id) => ch.quiz.find((x) => x.id === id)
+  assert.deepEqual(proposer(idx, q('sicile')).carte, 'puniques')
+  assert.deepEqual(proposer(idx, q('pere')).carte, 'hamilcar') // le père d'Hannibal : carte de niveau 2
+  assert.equal(proposer(idx, q('zama')).statut, 'probable') // « Scipion l’Africain » : à relire (relu → puniques)
+  const pl = HANDWRITTEN['pologne-piast']
+  assert.equal(proposer(indexer(pl.cards), pl.quiz.find((x) => x.id === 'ordre')).carte, 'chronologie')
+})
+
+test('carte : chaque question rédigée porte une carte existante de son chapitre (ou null)', () => {
+  let hors = 0
+  for (const [civId, ch] of Object.entries(HANDWRITTEN)) {
+    const ids = new Set(ch.cards.map((c) => c.id))
+    for (const q of ch.quiz) {
+      assert.ok('carte' in q, `${civId}/${q.id} sans carte`)
+      const c = cartesDe(q)
+      if (!c) hors++
+      else assert.ok(c.length && c.every((id) => ids.has(id)), `${civId}/${q.id} : carte inconnue`)
+    }
+  }
+  assert.ok(hors <= 44, `${hors} questions hors cartes`) // état du sprint 28 : 44, à réduire (sprints 34)
+})
+
 test('éclairs : Carthage, une question sur une carte d’Approfondir n’est jamais posée dans Découvrir', () => {
   const ch = HANDWRITTEN.carthage
-  const qs = ch.quiz.map((q) => ({ ...q, id: `hand-${q.id}` }))
-  const liens = rattacher(ch.cards, qs)
+  const q = (id) => ch.quiz.find((x) => x.id === id)
   const t1 = new Set(ch.cards.filter((c) => c.tier === 1).map((c) => c.id))
-  assert.deepEqual(liens.get('hand-pere'), [['hamilcar']]) // le père d'Hannibal : carte de niveau 2
-  assert.ok(!estVue(liens.get('hand-pere'), t1) && !estVue(liens.get('hand-suffetes'), t1) && !estVue(liens.get('hand-salammbo'), t1))
-  assert.ok(estVue(liens.get('hand-sicile'), t1) && estVue(liens.get('hand-alpes'), t1) && estVue(liens.get('hand-caton'), t1))
-  assert.equal(liens.get('hand-zama'), null) // « Scipion l’Africain » : réponse pas assez lisible → jamais posée
+  assert.equal(q('pere').carte, 'hamilcar')
+  assert.ok(!estVue(q('pere'), t1) && !estVue(q('suffetes'), t1) && !estVue(q('salammbo'), t1))
+  assert.ok(estVue(q('sicile'), t1) && estVue(q('alpes'), t1) && estVue(q('caton'), t1) && estVue(q('zama'), t1))
+  assert.ok(!estVue({ id: 'x', carte: null }, t1) && !estVue({ id: 'x' }, t1))
+  assert.ok(!estVue({ id: 'x', carte: ['puniques', 'hamilcar'] }, t1) && estVue({ id: 'x', carte: ['puniques', 'hamilcar'] }, new Set([...t1, 'hamilcar'])))
 })
 
 test('éclairs : sur les 214 chapitres, chaque question porte sur une carte déjà lue', () => {
   let salles = 0
   for (const [civId, ch] of Object.entries(HANDWRITTEN)) {
     const qs = ch.quiz.map((q) => ({ ...q, id: `hand-${q.id}` }))
-    const liens = rattacher(ch.cards, qs)
     for (const [tier, nombre] of [[1, 3], [2, 5]]) {
       const paquet = ['cover', ...ch.cards.filter((c) => c.tier === tier).map((c) => c.id), 'recap']
       const milieu = Math.floor(paquet.length / 2)
-      const choix = choisirEclairs({ cartes: ch.cards, questions: qs, paquet, nombre, milieu, graine: civId })
+      const choix = choisirEclairs({ questions: qs, paquet, nombre, milieu, graine: civId })
       const toutes = [choix.milieu, ...choix.fin].filter(Boolean)
       assert.ok(toutes.length <= nombre, civId)
       assert.equal(new Set(toutes.map((q) => q.id)).size, toutes.length, `${civId} : question en double`)
-      if (choix.milieu) assert.ok(estVue(liens.get(choix.milieu.id), new Set(paquet.slice(0, milieu))), `${civId} : question du milieu sur une carte pas encore lue`)
-      for (const q of choix.fin) assert.ok(estVue(liens.get(q.id), new Set(paquet)), `${civId} : ${q.id} hors du paquet`)
+      if (choix.milieu) assert.ok(estVue(choix.milieu, new Set(paquet.slice(0, milieu))), `${civId} : question du milieu sur une carte pas encore lue`)
+      for (const q of choix.fin) assert.ok(estVue(q, new Set(paquet)), `${civId} : ${q.id} hors du paquet`)
       // une carte « à revoir » remise avant le bilan ne change rien au choix
       const avecRevue = [...paquet.slice(0, -1), paquet[1], 'recap']
-      const bis = choisirEclairs({ cartes: ch.cards, questions: qs, paquet: [...new Set(avecRevue)], nombre, milieu, graine: civId })
+      const bis = choisirEclairs({ questions: qs, paquet: [...new Set(avecRevue)], nombre, milieu, graine: civId })
       assert.deepEqual([bis.milieu?.id, ...bis.fin.map((q) => q.id)], [choix.milieu?.id, ...choix.fin.map((q) => q.id)])
       if (tier === 1) {
         assert.equal(toutes.length, 3, `${civId} : moins de 3 questions en Découvrir`) // état actuel du contenu (rapport : 214/214)
@@ -322,6 +349,68 @@ test('éclairs : sur les 214 chapitres, chaque question porte sur une carte déj
     }
   }
   assert.equal(salles, 214)
+})
+
+// ── Questions générées depuis les cartes (sprint 28) : une seule bonne réponse ──
+test('cartes : date de tête retirée, vainqueur sans ambiguïté, nom masqué', () => {
+  assert.equal(sansDate('Vers 1730 : le Dahomey devient tributaire'), 'Le Dahomey devient tributaire')
+  assert.equal(sansDate('Vers 728 av. J.-C., le roi Piânkhy conquiert l’Égypte'), 'Le roi Piânkhy conquiert l’Égypte')
+  assert.equal(sansDate('Défaite : Carthage perd la Sicile'), 'Défaite : Carthage perd la Sicile')
+  assert.equal(sansDate('Hannibal franchit les Alpes'), 'Hannibal franchit les Alpes')
+  const cannes = HANDWRITTEN.carthage.cards.find((c) => c.id === 'cannes')
+  assert.equal(campVainqueur(cannes), 'allies')
+  const guerre = (vainqueur) => ({ allies: ['Tikal'], adversaires: ['Calakmul et ses alliés, dont Caracol'], vainqueur })
+  assert.equal(campVainqueur(guerre('Calakmul, puis Tikal en 695')), null)
+  assert.equal(campVainqueur(guerre('Aucun')), null)
+  assert.equal(campVainqueur(guerre('Calakmul')), 'adversaires')
+  assert.equal(masquerNom('Hannibal Barca part d’Espagne ; Hannibal écrase Rome.', 'Hannibal Barca').texte, '… part d’Espagne ; … écrase Rome.')
+})
+
+test('cartes : sur les 214 chapitres, questions générées sûres, reliées à leur carte et stables', () => {
+  let total = 0
+  for (const [civId, ch] of Object.entries(HANDWRITTEN)) {
+    const personnes = ['Personne Lointaine', 'Autre Personne', 'Troisième Personne']
+    const qs = questionsDesCartes(ch.cards, { personnes })
+    const byId = Object.fromEntries(ch.cards.map((c) => [c.id, c]))
+    assert.equal(new Set(qs.map((q) => q.id)).size, qs.length, `${civId} : id en double`)
+    // même résultat quand on réordonne les cartes et leurs éléments (ids et réponses stables)
+    const melange = [...ch.cards].reverse().map((c) => (c.items ? { ...c, items: [...c.items].reverse() } : c))
+    const bis = Object.fromEntries(questionsDesCartes(melange, { personnes }).map((q) => [q.id, q]))
+    for (const q of qs) {
+      total++
+      const c = byId[q.carte]
+      assert.ok(c && q.id.startsWith(`carte-${c.id}-`), `${civId}/${q.id} : carte`)
+      assert.ok(bis[q.id], `${civId}/${q.id} : id instable`)
+      if (q.type === 'mcq') {
+        assert.ok(q.options.length >= 3 && q.answer === 0, `${civId}/${q.id}`)
+        assert.equal(new Set(q.options).size, q.options.length, `${civId}/${q.id} : options en double`)
+        assert.equal(bis[q.id].options[0], q.options[0], `${civId}/${q.id} : réponse instable`)
+      }
+      const items = (c.items ?? []).map((it) => ({ y: it.year, label: sansDate(it.label) }))
+      const annee = /-annee-(-?\d+)$/.exec(q.id)
+      if (annee) {
+        // aucune autre année proposée n'est celle de l'élément, ni celle d'un élément de même libellé
+        const y = Number(annee[1])
+        assert.equal(q.options[0], formatYear(y))
+        assert.ok(!q.options.slice(1).includes(formatYear(y)), `${civId}/${q.id}`)
+        assert.ok(!q.options[0] || !q.prompt.includes(String(Math.abs(y))), `${civId}/${q.id} : l'énoncé donne l'année`)
+      }
+      const ev = /-evenement-(-?\d+)$/.exec(q.id)
+      if (ev) {
+        // chaque leurre est un élément d'une AUTRE année de la carte
+        const y = Number(ev[1])
+        for (const o of q.options.slice(1)) assert.ok(items.some((it) => it.label === o && it.y !== y), `${civId}/${q.id} : leurre « ${o} »`)
+        assert.ok(items.filter((it) => it.y === y).length === 1)
+      }
+      if (q.type === 'order' && items.length) {
+        const ys = q.items.map((l) => items.find((it) => it.label === l).y)
+        assert.ok(ys.every((y, i) => i === 0 || y > ys[i - 1]), `${civId}/${q.id} : ordre`)
+      }
+      if (q.id.endsWith('-qui')) assert.ok(!q.prompt.includes(c.nom), `${civId}/${q.id} : nom visible`)
+      if (q.id.endsWith('-vainqueur')) assert.ok(campVainqueur(c))
+    }
+  }
+  assert.ok(total > 2000, `${total} questions générées`)
 })
 
 // ── Épreuve : reprise et note sur les mêmes questions qu'à l'écran (sprint 26) ──
@@ -362,4 +451,4 @@ test('validateur : parent d’un monde plus tardif', () => assert.ok(errs((d) =>
 test('validateur : fil rouge non respecté', () => assert.ok(errs((d) => (d.branches['ethiopie-contemp'] = 'afrique-sud')).length))
 test('validateur : titre de fil rouge manquant', () => assert.ok(errs((d) => delete d.filsRouges.egypte).length))
 
-console.log(`✅ Aventure : ${n} tests réussis (parcours, étape du jour, XP, niveaux, récompenses, progression, migration, questions éclair, épreuve, validateur).`)
+console.log(`✅ Aventure : ${n} tests réussis (parcours, étape du jour, XP, niveaux, récompenses, progression, migration, questions éclair, questions des cartes, épreuve, validateur).`)

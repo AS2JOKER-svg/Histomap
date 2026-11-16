@@ -48,6 +48,8 @@ Le site ne lit jamais ces fichiers directement : `scripts/build-content.mjs` les
 - [ ] **Carte** : `npm run territoires -- <mot>` pour trouver les noms de territoires des cartes, puis `territories`.
       Un même nom peut servir à deux fiches : la carte choisit, chaque année, la fiche active la plus récente.
 - [ ] **Chapitre de révision** rédigé dans le même lot : `src/data/revision/<id>.js` (modèle : `carthage.js`).
+      Chaque question porte sa carte (`carte`, posé par `npm run relier` puis relu) ; au moins 15 questions sur les
+      cartes de Découvrir pour une salle du tronc, 10 pour une annexe (rédigées + générées : `npm run questions-cartes`).
 - [ ] **Ton** : faits établis, dates prudentes (« vers »), aucun jugement ; sujets sensibles présentés de façon
       factuelle, avec les points de vue des acteurs attribués à leurs auteurs. Jamais de texte copié de Wikipédia.
 - [ ] **Vérifier** : `npm run data` (0 erreur, 0 alerte), `npm run links`, `npm run build`, puis relecture factuelle séparée.
@@ -199,25 +201,71 @@ un petit fichier chargé seulement quand on l'ouvre (`src/lib/chapters.js`).
   `steps` (schéma en étapes), `map` (mini-carte, `years: [...]`), `war`, `person`, `leaders`.
 - La couverture, la carte « avant / après » (lignée) et le bilan (`recap`) sont ajoutés automatiquement.
 - `npm run validate` vérifie les chapitres rédigés (`scripts/validate-revision.mjs`) : ids uniques, types de cartes,
-  bonne réponse existante, années de carte disponibles. Une erreur bloque le build.
+  bonne réponse existante, années de carte disponibles, **carte de chaque question** et **nombre de questions sur les
+  cartes de Découvrir** (voir « Relier les questions aux cartes »). Une erreur bloque le build.
 - Pour vérifier un nouveau fichier avant de l'enregistrer : `node scripts/validate-revision.mjs src/data/revision/mon-chapitre.js`.
 - Carte `map` : prendre des années listées pour la civilisation dans `src/data/map-presence.json` (généré par `npm run data`) (sinon la mini-carte n'a rien à colorer).
 
 ### Questions de quiz
-Chaque chapitre a un réservoir de questions **générées automatiquement** (≈ 38 en moyenne, de 20 à 67) :
-dates, ordre chronologique, capitale, dirigeants, personnages, guerres, carte, lignée, vrai/faux…
+Chaque chapitre a un réservoir de questions **générées automatiquement depuis la fiche complète** (≈ 38 en moyenne,
+de 20 à 67) : dates, ordre chronologique, capitale, dirigeants, personnages, guerres, carte, lignée, vrai/faux…
+(`src/lib/quiz.js`). La V3.1 les retire de l'Aventure (sprint 29) : elle ne pose que des questions sur les cartes vues,
+rédigées ou **générées depuis les cartes** (voir « Relier les questions aux cartes » plus bas).
 Pour ajouter des questions rédigées à la main, compléter le tableau `quiz` du chapitre
 (voir `src/data/revision/france-capet.js`) :
 ```js
-{ id: 'saint-louis', type: 'mcq', prompt: 'Quel roi est surnommé « Saint Louis » ?',
+{ id: 'saint-louis', carte: 'louis9', type: 'mcq', prompt: 'Quel roi est surnommé « Saint Louis » ?',
   options: ['Louis IX', 'Louis VI', 'Louis XI', 'Louis VII'], answer: 0, explanation: '…' },
-{ id: 'sorbonne', type: 'tf', prompt: 'Robert de Sorbon fonde la Sorbonne en 1257.', answer: true },
-{ id: 'ordre', type: 'order', prompt: 'Remettez dans l’ordre…', items: ['A', 'B', 'C'] } // items dans le BON ordre
+{ id: 'sorbonne', carte: 'universite', type: 'tf', prompt: 'Robert de Sorbon fonde la Sorbonne en 1257.', answer: true },
+{ id: 'ordre', carte: ['chronologie', 'bouvines'], type: 'order', prompt: 'Remettez dans l’ordre…', items: ['A', 'B', 'C'] } // items dans le BON ordre
 ```
+(une question par ligne, `carte` juste après l'`id` : c'est ainsi que `npm run relier` l'écrit)
 - `answer` = position de la bonne réponse dans `options` (elles sont mélangées à l'affichage).
 - **Ne jamais réutiliser ou renommer un `id`** : il sert à mémoriser les questions ratées.
 - Règles (dans `src/lib/quiz.js`) : 20 questions, validé dès 15/20 ; après un échec, 5 questions ratées reviennent avec 15 nouvelles.
-- **Questions éclair** (Découvrir, Approfondir ; sprint 26) : seulement des questions rédigées dont la bonne réponse **se lit dans une carte déjà lue** de la séance (la question du milieu : dans la 1re moitié du paquet). En attendant le champ `carte` (sprint 28), chaque question est rattachée par rapprochement de texte à la carte où sa réponse se lit le mieux (`src/lib/eclairs.js`) : pour qu'une question serve d'éclair, écrire la bonne réponse **avec les mêmes mots que la carte** (« Hamilcar Barca » si la carte dit « Hamilcar Barca »). `npm run eclairs` → `reports/questions-eclair.md` (questions rattachées et posées, salle par salle).
+- **Questions éclair** (Découvrir, Approfondir) : seulement des questions rédigées dont **la carte a été lue** dans la séance (la question du milieu : dans la 1re moitié du paquet), d'après le champ `carte` (`src/lib/eclairs.js`). `npm run eclairs` → `reports/questions-eclair.md` (questions posées, salle par salle).
+
+### Relier les questions aux cartes (champ `carte`, sprint 28)
+Règle de la V3.1 : **toute question porte sur une carte déjà vue**. Chaque question rédigée porte donc l'id de la carte
+où se lit sa bonne réponse :
+- `carte: 'hamilcar'` : une carte ;
+- `carte: ['chronologie', 'gaulois']` : il faut avoir lu **toutes** ces cartes (une question d'ordre dont les éléments
+  sont sur deux cartes, un vrai / faux qui croise deux cartes) ;
+- `carte: null` : **hors cartes** — la réponse ne se lit dans aucune carte (« Quelle est la capitale du Canada ? » sans
+  carte qui cite Ottawa). La question reste dans le fichier mais n'est jamais posée dans l'Aventure. Mieux : ajouter
+  l'information à une carte, ou réécrire la question sur une carte (même `id`).
+
+Une question est « sur » une carte si un joueur qui a lu cette carte avec attention peut répondre : la réponse y est
+écrite, ou se déduit sans connaissance extérieure (« Les Mycéniens parlent une forme de grec » ne suffit pas pour
+« Quelle langue note le linéaire B ? » si la carte ne parle pas du linéaire B). On préfère une carte de **Découvrir**
+(niveau 1) quand la réponse se lit aux deux niveaux : la question sert ainsi dès la première séance.
+
+Pour poser le champ : `npm run relier` (bilan), `npm run relier -- <id>` (détail d'un chapitre : cartes candidates et
+notes), `npm run relier -- --ecrire` (écrit les liaisons **sûres**). Les liaisons **douteuses** (« probable »,
+« introuvable ») ne sont jamais écrites seules : les relire une par une, puis écrire la carte à la main dans le chapitre,
+ou dans un fichier de décisions (`civ/question = carte`, `= carte1,carte2`, `= -` pour hors cartes) passé à
+`npm run relier -- --decisions <fichier>`. Le validateur refuse une question sans `carte` ou une carte inconnue.
+
+**Questions générées depuis les cartes** (`src/lib/questionsCartes.js`) : en plus des questions rédigées, chaque
+carte `dates`/`steps` donne une question par élément (« En quelle année situe-t-on « … » ? » ou « Que se passe-t-il
+en … ? ») et une question d'ordre ; chaque carte `person`, un « Qui est-ce ? » (description, nom masqué) ; chaque
+carte `war`, l'année et, si le vainqueur désigne un seul camp, un vrai / faux sur le vainqueur. Une seule bonne
+réponse possible : pour qu'une carte en donne de bonnes questions,
+- `dates`/`steps` : années **différentes** (deux éléments de la même année ne donnent aucune question) ; libellé
+  qui ne contient pas l'année (« Vers 1730 : … » est accepté, la date de tête est retirée) ; « Vers … » ou « selon la
+  tradition » dans le libellé pour une date approximative ;
+- `person` : description d'au moins une phrase, qui ne cite pas la personne par un autre nom que `nom` ;
+- `war` : `vainqueur` écrit avec les **mêmes mots** que l'un des camps (« Hannibal » si `allies` dit « Armée
+  d'Hannibal ») ; « Aucun », « Compromis » ou un vainqueur nuancé ne donnent pas de question (c'est voulu).
+Les ids générés (`carte-<carte>-annee-<année>`, `-evenement-<année>`, `-ordre`, `-qui`, `-annee`, `-vainqueur`) sont
+stables ; changer l'année d'un élément change sa question.
+
+**Seuils** (validateur, bloquant) : une salle du **tronc** a au moins **15** questions sur ses cartes de Découvrir
+(Épreuve de 12 + une marge), une **annexe** au moins **10** (mini-épreuve de 8 + marge), en comptant les questions
+rédigées reliées aux cartes de niveau 1 et les questions générées depuis ces cartes. `npm run questions-cartes` →
+`reports/questions-cartes.md` : par salle, questions rédigées (Découvrir / Approfondir / hors cartes), générées,
+marge, cartes de Découvrir sans question, et la liste des questions hors cartes ; `npm run questions-cartes -- <id>`
+affiche les questions générées d'une salle pour les relire.
 
 ### Relier une civilisation à la carte
 - `territories` dans la fiche = noms **anglais** des territoires sur les cartes historiques (ex. `"Kingdom of France"`).
@@ -314,6 +362,7 @@ Modèles : `content/wars/seconde-guerre-mondiale.json` (Guerres A), puis `guerre
 | Quiz : génération des questions, règles | `src/lib/quiz.js` + `src/pages/QuizPage.jsx` + `src/components/quiz/` |
 | Affichage et correction d'une question (partagé) | `src/lib/questions.js` + `src/components/quiz/QuestionView.jsx` |
 | Quiz express des fiches liées | `scripts/lib/express.mjs` (génération au build) + `src/components/quiz/ExpressQuiz.jsx` |
+| Questions reliées aux cartes (champ `carte`), questions générées depuis les cartes | `src/lib/questionsCartes.js` + `src/lib/eclairs.js` ; outil `scripts/relier-questions.mjs` (rapprochement : `scripts/lib/rapprochement.mjs`) ; seuils et rapport : `scripts/lib/questions-cartes.mjs`, `scripts/rapport-questions-cartes.mjs` |
 | Les couleurs, le mode sombre | `src/index.css` (variables `--c-…`) |
 | Les icônes | `src/components/ui/Icon.jsx` |
 

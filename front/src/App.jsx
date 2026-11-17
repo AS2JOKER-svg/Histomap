@@ -12,7 +12,6 @@ const EpochPage = lazy(() => import('./pages/EpochPage'))
 const CivilizationPage = lazy(() => import('./pages/CivilizationPage'))
 const MapPage = lazy(() => import('./pages/MapPage'))
 const ProfilPage = lazy(() => import('./pages/ProfilPage'))
-const MondesPage = lazy(() => import('./pages/MondesPage'))
 const SallePage = lazy(() => import('./pages/SallePage'))
 const BienvenuePage = lazy(() => import('./pages/BienvenuePage'))
 const ARevoirPage = lazy(() => import('./pages/ARevoirPage'))
@@ -28,8 +27,8 @@ const NotFoundPage = lazy(() => import('./pages/NotFoundPage'))
 
 /**
  * Plan du site
- *   /                         Aventure : le parcours (?monde=<époque>) — onglet par défaut (V3)
- *   /aventure/mondes          Les cinq mondes (avancement, titres, verrous)
+ *   /                         Aventure : la carte du parcours (?salle=<id>, ?annexes=<id>, ?monde=<époque>) — onglet par défaut
+ *   /aventure/mondes          ancienne page des cinq mondes (V3) → /
  *   /aventure/a-revoir/:civId Séance « À revoir » d'une salle (cartes à revoir + questions ratées)
  *   /bienvenue                Premier lancement : fil rouge, 3 questions, première récompense
  *   /defis                    Défis : par lien, à deux sur le même téléphone, quiz infini
@@ -57,7 +56,7 @@ export default function App() {
       <Route element={<AppShell />}>
         <Route index element={<AventurePage />} />
         <Route path="aventure" element={<Navigate to="/" replace />} />
-        <Route path="aventure/mondes" element={<Lazy><MondesPage /></Lazy>} />
+        <Route path="aventure/mondes" element={<Navigate to="/" replace />} />
         <Route path="aventure/salle/:civId/:etape" element={<Lazy><SallePage /></Lazy>} />
         <Route path="aventure/a-revoir/:civId" element={<Lazy><ARevoirPage /></Lazy>} />
         <Route path="bienvenue" element={<Lazy><BienvenuePage /></Lazy>} />

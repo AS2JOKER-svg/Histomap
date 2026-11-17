@@ -58,6 +58,8 @@ export function createParcours(data) {
     ordre.push(...m.tronc)
     for (const id of parent.keys()) if (monde.get(id) === w) ordre.push(id)
   })
+  const ancrees = new Map() // salle du tronc → annexes dont la bulle y est accrochée (parent dans un monde précédent)
+  for (const [id, a] of Object.entries(data.ancres ?? {})) ancrees.set(a, [...(ancrees.get(a) ?? []), id])
   const filsRouges = data.filsRouges ?? []
   const filRougeDe = new Map(filsRouges.flatMap((f) => f.membres.map((id) => [id, f.id])))
   return {
@@ -67,6 +69,7 @@ export function createParcours(data) {
     position,
     parent,
     enfants,
+    ancrees,
     ordre,
     filsRouges,
     filRougeDe,
@@ -108,6 +111,36 @@ export function chemin(P, filId = null) {
 export const cheminDe = (P, av) => chemin(P, av?.filRouge ?? null)
 /** Salles du chemin dans le monde w. */
 export const cheminMonde = (P, av, w) => cheminDe(P, av).filter((id) => P.monde.get(id) === w)
+
+/**
+ * Îlots de la carte du parcours (sprint 30) : pour chaque salle du chemin, les annexes de son monde hors du chemin
+ * qui en dépendent (directement ou par d'autres annexes), plus, pour une salle du tronc, les annexes qui y sont
+ * ancrées (parent dans un monde précédent : content/parcours.json → ancres). Chaque annexe hors du chemin est dans
+ * un seul îlot. → Map(salle → groupes), un groupe = [{ id, suite }] : une annexe directe puis ses suites dans l'ordre
+ * (`suite` : dépend de l'annexe qui la précède dans le groupe).
+ */
+export function ilots(P, av) {
+  const ch = cheminDe(P, av)
+  const surChemin = new Set(ch)
+  const out = new Map()
+  for (const id of ch) {
+    const w = P.monde.get(id)
+    const dansIlot = (b) => P.monde.get(b) === w && !surChemin.has(b)
+    const groupe = (x, prec, g) => {
+      g.push({ id: x, suite: P.parent.get(x) === prec })
+      let dernier = x
+      for (const b of P.enfants.get(x) ?? []) if (dansIlot(b)) dernier = groupe(b, dernier, g)
+      return dernier
+    }
+    const departs = [...(P.enfants.get(id) ?? []), ...(P.ancrees.get(id) ?? [])].filter(dansIlot)
+    out.set(id, departs.map((b) => {
+      const g = []
+      groupe(b, null, g)
+      return g
+    }))
+  }
+  return out
+}
 
 // ── Ouverture ─────────────────────────────────────────────────────────────────
 
@@ -278,37 +311,6 @@ export function listeARevoir(chapters = {}, quizzes = {}, maintenant = Date.now(
 export function revisionDue(aRevoir = [], revisionFaite = false) {
   if (revisionFaite) return null
   return aRevoir.filter((r) => r.nb >= REVISION.seuil || r.jours >= REVISION.jours).sort((a, b) => b.nb - a.nb)[0] ?? null
-}
-
-/**
- * Prochaine action proposée → { civId, etape, raison, nb? } ou null (écran Aventure jusqu'à la carte du sprint 30).
- * Ordre : étape commencée ; séance « À revoir » due ; salle en cours ; salle à rattraper ; épreuve d'une salle
- * découverte sans étoile ; annexe ouverte pas encore faite ; étoiles à gagner.
- */
-export function etapeDuJour(P, av, { aRevoir = [], revisionFaite = false } = {}) {
-  const ouvertes = P.ordre.filter((id) => estOuvert(P, av, id))
-  const commencee = ouvertes.find((id) => ETAPES.includes(av?.salles?.[id]?.enCours))
-  if (commencee) return { civId: commencee, etape: av.salles[commencee].enCours, raison: 'reprendre' }
-
-  const due = revisionDue(aRevoir, revisionFaite)
-  if (due) return { civId: due.civId, etape: 'a-revoir', raison: 'a-revoir', nb: due.nb }
-
-  const salle = salleEnCours(P, av)
-  if (salle) return { civId: salle, etape: 'decouvrir', raison: 'chemin' }
-
-  const rattraper = [...aRattraper(P, av)][0]
-  if (rattraper && estOuvert(P, av, rattraper)) return { civId: rattraper, etape: 'decouvrir', raison: 'rattraper' }
-
-  const ch = cheminDe(P, av)
-  const epreuve = ch.find((id) => decouverte(av, id) && etoilesDe(av, id) === 0)
-  if (epreuve) return { civId: epreuve, etape: 'epreuve', raison: 'epreuve' }
-
-  const annexe = ouvertes.find((id) => !decouverte(av, id))
-  if (annexe) return { civId: annexe, etape: 'decouvrir', raison: 'annexe' }
-
-  const reste = ouvertes.find((id) => etoilesDe(av, id) < 3)
-  if (reste) return { civId: reste, etape: 'epreuve', raison: 'etoiles' }
-  return null
 }
 
 // ── Noms sur la carte du parcours ────────────────────────────────────────────

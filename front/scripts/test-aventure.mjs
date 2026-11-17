@@ -13,10 +13,10 @@ import {
   createParcours,
   estOuvert,
   etapeAccessible,
-  etapeDuJour,
   etapeSuivante,
   etoilesEpreuve,
   etoilesSur20,
+  ilots,
   initiales,
   listeARevoir,
   mondeOuvert,
@@ -37,6 +37,7 @@ import { formatYear } from '../src/lib/time.js'
 import { indexer, memeMot, mots, proposer } from './lib/rapprochement.mjs'
 import { noteQuiz, premiereSansReponse } from '../src/lib/questions.js'
 import { HANDWRITTEN } from '../src/data/revision/index.js'
+import { GEO, disposerCarte, grilleIlot, modeleCarte, pointRoute, rectangles } from '../src/lib/carteParcours.js'
 
 let n = 0
 const test = (nom, fn) => {
@@ -188,7 +189,7 @@ test('propriété : quel que soit l’ordre de jeu et les changements de fil, un
   }
 })
 
-test('étape du jour : reprendre, « À revoir » due (≥ 5 ou 3 jours, une par jour), salle en cours, épreuve', () => {
+test('« À revoir » due (≥ 5 erreurs ou 3 jours, une par jour) ; « Jouer » : étape commencée, sinon Découvrir', () => {
   const now = Date.UTC(2026, 10, 20)
   const jour = 86400000
   const chapters = { carthage: { toReview: ['a', 'b'], finishedAt: now - jour }, rome: { toReview: ['x'], finishedAt: now - 4 * jour } }
@@ -196,12 +197,15 @@ test('étape du jour : reprendre, « À revoir » due (≥ 5 ou 3 jours, une par
   const liste = listeARevoir(chapters, quizzes, now)
   assert.deepEqual(liste.find((r) => r.civId === 'carthage'), { civId: 'carthage', nb: 5, jours: 1 })
   assert.deepEqual(liste.find((r) => r.civId === 'rome'), { civId: 'rome', nb: 1, jours: 4 })
-  const av = aventureVide()
-  assert.deepEqual(etapeDuJour(P, av, { aRevoir: liste }), { civId: 'carthage', etape: 'a-revoir', raison: 'a-revoir', nb: 5 })
-  assert.deepEqual(etapeDuJour(P, av, { aRevoir: liste, revisionFaite: true }), { civId: 'hominides-est', etape: 'decouvrir', raison: 'chemin' })
+  assert.deepEqual(revisionDue(liste), { civId: 'carthage', nb: 5, jours: 1 })
+  assert.equal(revisionDue(liste, true), null) // séance du jour déjà faite
   assert.equal(revisionDue([{ civId: 'egypte', nb: 2, jours: 1 }]), null) // pas encore due
-  assert.deepEqual(etapeDuJour(P, avec([['hominides-est', { ...D, enCours: 'epreuve' }]])), { civId: 'hominides-est', etape: 'epreuve', raison: 'reprendre' })
-  assert.deepEqual(etapeDuJour(P, avec(chemin(P, null).map((id) => [id, D]))), { civId: 'hominides-est', etape: 'epreuve', raison: 'epreuve' })
+  assert.deepEqual(revisionDue([{ civId: 'egypte', nb: 2, jours: 3 }]), { civId: 'egypte', nb: 2, jours: 3 })
+  // bouton « Jouer » de la salle en cours (carte du parcours)
+  assert.equal(etapeSuivante(P, aventureVide(), salleEnCours(P, aventureVide())), 'decouvrir')
+  const enCours = avec([['hominides-est', { enCours: 'decouvrir' }]])
+  assert.equal(salleEnCours(P, enCours), 'hominides-est')
+  assert.equal(etapeSuivante(P, enCours, 'hominides-est'), 'decouvrir')
 })
 
 test('avancement d’un monde', () => {
@@ -623,6 +627,119 @@ test('épreuve : la note ne compte que les questions posées à l’écran', () 
   assert.deepEqual([r.correct, r.total, r.score, r.failed, r.justes], [2, 3, 13, ['c'], [true, false, true]])
 })
 
+// ── Carte du parcours (sprint 30) ─────────────────────────────────────────────
+const LABELS = new Map(JSON.parse(readFileSync(new URL('../src/data/index.json', import.meta.url))).epochs.flatMap((e) => e.continents.flatMap((c) => c.civilizations.map((x) => [x.id, x.label]))))
+const nomDe = (id) => LABELS.get(id) ?? id
+const FILS = [null, ...P.filsRouges.map((f) => f.id)]
+
+test('îlots : chaque annexe hors du chemin est dans un seul îlot, de son monde ; ancres et suites', () => {
+  for (const fil of FILS) {
+    const av = { ...aventureVide(), filRouge: fil }
+    const vus = [...chemin(P, fil)]
+    for (const [id, groupes] of ilots(P, av))
+      for (const g of groupes)
+        g.forEach((b, k) => {
+          assert.equal(P.monde.get(b.id), P.monde.get(id), `${b.id} hors du monde de ${id}`)
+          assert.equal(b.suite, k > 0 && P.parent.get(b.id) === g[k - 1].id)
+          vus.push(b.id)
+        })
+    assert.equal(new Set(vus).size, vus.length, `fil ${fil} : une annexe dans deux îlots`)
+    assert.equal(vus.length, P.ordre.length, `fil ${fil} : annexes oubliées`)
+  }
+  const sans = ilots(P, aventureVide())
+  const ids = (id) => sans.get(id).flat().map((b) => b.id)
+  assert.ok(ids('chine-imperiale').includes('lapita'), 'Lapita ancrée à Qin et Han')
+  assert.ok(ids('chine-tang-song').includes('goryeo'), 'Goryeo ancrée aux Tang-Song')
+  assert.deepEqual(sans.get('egypte').find((g) => g[0].id === 'koush').map((b) => [b.id, b.suite]), [['koush', false], ['aksoum', true]])
+  // fil Corée : Goryeo est une salle du chemin, plus une bulle
+  const coree = P.filsRouges.find((f) => f.membres.includes('goryeo')).id
+  assert.ok(!ilots(P, { ...aventureVide(), filRouge: coree }).get('chine-tang-song').flat().some((b) => b.id === 'goryeo'))
+})
+
+test('îlots : une suite touche toujours l’annexe dont elle dépend (2 colonnes ou 1)', () => {
+  const g = [[{ id: 'a' }], [{ id: 'b' }, { id: 'c', suite: true }, { id: 'd', suite: true }], [{ id: 'e' }]]
+  for (const cols of [1, 2]) {
+    const { cellules } = grilleIlot(g, cols)
+    const pos = new Map(cellules.map((c) => [c.id, c]))
+    for (const [p, e] of [['b', 'c'], ['c', 'd']]) assert.equal(Math.abs(pos.get(p).rang - pos.get(e).rang) + Math.abs(pos.get(p).col - pos.get(e).col), 1)
+    assert.equal(new Set(cellules.map((c) => `${c.rang},${c.col}`)).size, 5)
+  }
+})
+
+/** Distance d'un point à un rectangle. */
+const distRect = ([px, py], r) => Math.hypot(Math.max(r.x - px, 0, px - (r.x + r.l)), Math.max(r.y - py, 0, py - (r.y + r.h)))
+const chevauche = (a, b) => a.x < b.x + b.l && b.x < a.x + a.l && a.y < b.y + b.h && b.y < a.y + a.h
+
+test('carte : rien ne se chevauche, rien ne sort de l’écran, la route évite les îlots (6 largeurs × 33 fils × 5 états)', () => {
+  let cartes = 0
+  for (const fil of FILS) {
+    const ch = chemin(P, fil)
+    const tr = ch.filter((id) => P.position.has(id))
+    const jusqua = (ids, s) => avec(ids.map((id) => [id, { decouverte: true, ...s }]), { filRouge: fil })
+    const etats = [
+      { ...aventureVide(), filRouge: fil }, // nouveau joueur
+      jusqua(ch.slice(0, Math.floor(ch.length / 3)), { etoiles: 2 }), // en route, « À revoir » due
+      jusqua(tr.slice(0, Math.floor(tr.length / 2)), { etoiles: 1 }), // fil choisi en route : salles à rattraper
+      jusqua(ch.slice(0, -1), { etoiles: 3 }), // dernière salle
+      jusqua(P.ordre, { etoiles: 3 }), // tout est fait
+    ]
+    etats.forEach((av, k) => {
+      const salles = modeleCarte(P, av, { nom: nomDe, revoir: k === 1 || k === 4 })
+      // une salle de fil suivie (plus loin sur le chemin) d'une salle découverte est « à rattraper »
+      if (k === 2 && fil && P.filsRouges.find((f) => f.id === fil).membres.some((id) => !P.position.has(id) && ch.indexOf(id) < ch.indexOf(tr[Math.floor(tr.length / 2) - 1])))
+        assert.ok(salles.some((s) => s.etat === 'rattraper'), `fil ${fil} : salle à rattraper attendue`)
+      for (const largeur of [320, 360, 375, 390, 430, 480]) {
+        const carte = disposerCarte(salles, { largeur, mondes: P.mondes.length })
+        const W = carte.largeur
+        cartes++
+        const ctx = `fil ${fil}, état ${k}, largeur ${largeur}`
+        const rects = rectangles(carte).sort((a, b) => a.y - b.y)
+        for (const r of rects) assert.ok(r.x >= 0 && r.x + r.l <= W + 0.01 && r.y >= 0 && r.y + r.h <= carte.hauteur, `${ctx} : ${r.type} ${r.id} hors de la carte`)
+        for (let i = 0; i < rects.length; i++)
+          for (let j = i + 1; j < rects.length && rects[j].y < rects[i].y + rects[i].h; j++)
+            assert.ok(!chevauche(rects[i], rects[j]), `${ctx} : ${rects[i].type} ${rects[i].id} chevauche ${rects[j].type} ${rects[j].id}`)
+        // bulles : dans leur îlot, dans l'écran, à 46 px les unes des autres
+        for (const s of carte.salles) {
+          if (!s.ilot) continue
+          for (const c of s.ilot.cellules) {
+            assert.ok(c.x >= s.ilot.x && c.x + GEO.bulle <= s.ilot.x + s.ilot.l && c.y >= s.ilot.y && c.y + GEO.bulle <= s.ilot.y + s.ilot.h, `${ctx} : bulle ${c.id} hors de son îlot`)
+            assert.ok(c.x >= GEO.marge && c.x + GEO.bulle <= W - GEO.marge, `${ctx} : bulle ${c.id} hors de l'écran`)
+          }
+        }
+        // route : monte toujours, et passe à plus de 12 px des îlots et des bulles « À revoir »
+        carte.route.forEach((p, i) => i && assert.ok(p[1] < carte.route[i - 1][1], `${ctx} : la route redescend`))
+        const obstacles = carte.salles.flatMap((s) => [s.ilot, s.revoir].filter(Boolean))
+        for (let kk = 0; kk < carte.route.length - 1; kk++) {
+          const [y1, y0] = [carte.route[kk][1], carte.route[kk + 1][1]]
+          const proches = obstacles.filter((o) => o.y < y1 + 40 && o.y + o.h > y0 - 40)
+          for (let t = 0; t <= 24; t++) {
+            const p = pointRoute(carte.route, kk, t / 24)
+            for (const o of proches) assert.ok(distRect(p, o) > 12, `${ctx} : la route traverse l'îlot ou la bulle près de (${Math.round(p[0])}, ${Math.round(p[1])})`)
+          }
+        }
+        // une seule salle en cours, son « Jouer » ; « À revoir » une seule fois si due
+        assert.ok(carte.salles.filter((s) => s.jouer).length <= 1)
+        if (k === 1) assert.equal(carte.salles.filter((s) => s.revoir).length, 1)
+      }
+    })
+  }
+  assert.equal(cartes, FILS.length * 5 * 6)
+})
+
+test('carte : îlots repliés au-delà de 6 annexes (2 bulles utiles + « +N »), sinon toutes', () => {
+  const salles = modeleCarte(P, aventureVide(), { nom: nomDe })
+  const califat = salles.find((s) => s.id === 'califat')
+  assert.ok(califat.annexes.length > 6)
+  assert.equal(califat.ilot.flat().length, 3)
+  assert.equal(califat.ilot.at(-1)[0].plus, califat.annexes.length - 2)
+  const egypte = salles.find((s) => s.id === 'egypte')
+  assert.equal(egypte.ilot.flat().length, egypte.annexes.length)
+  // une annexe ouverte passe devant les fermées dans un îlot replié
+  const av = avec([...tronc(0), ...tronc(1), ...tronc(2).slice(0, 5)].map((id) => [id, D]))
+  const ouverte = modeleCarte(P, av, { nom: nomDe }).find((s) => s.id === 'califat').ilot.flat()[0]
+  assert.equal(ouverte.etat, 'ouverte')
+})
+
 // ── Validateur du parcours : il doit bloquer les erreurs ──────────────────────
 const content = loadContent()
 const errs = (mutate) => {
@@ -647,5 +764,11 @@ test('validateur : nom court manquant, trop long, en double ou d’une salle inc
   assert.ok(errs((d) => (d.courts.carthage = 'Mayas')).length)
   assert.ok(errs((d) => (d.courts['pas-une-salle'] = 'X')).length)
 })
+test('validateur : ancre manquante, inutile ou hors du tronc de son monde', () => {
+  assert.ok(errs((d) => delete d.ancres.lapita).length)
+  assert.ok(errs((d) => (d.ancres.koush = 'egypte')).length)
+  assert.ok(errs((d) => (d.ancres.lapita = 'byzance')).length)
+  assert.ok(errs((d) => (d.ancres.goryeo = 'six-dynasties')).length)
+})
 
-console.log(`✅ Aventure : ${n} tests réussis (chemin, ouverture, à rattraper, étoiles, XP, rangs, progression, migrations, épreuve sur les cartes vues, défis, questions éclair, questions des cartes, validateur).`)
+console.log(`✅ Aventure : ${n} tests réussis (chemin, ouverture, à rattraper, étoiles, XP, rangs, progression, migrations, épreuve sur les cartes vues, défis, questions éclair, questions des cartes, carte du parcours, validateur).`)

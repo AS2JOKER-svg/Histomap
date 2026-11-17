@@ -80,6 +80,16 @@ export default function ProfilPage() {
         <Stat valeur={Object.keys(fiches).length} label="fiches lues dans l’Atlas" />
       </div>
 
+      {/* Défis (depuis le sprint 30, le bouton n'est plus dans l'Aventure ; sous-page au sprint 32) */}
+      <Link to="/defis" className="card hoverable p-4 mb-6 flex items-center gap-3 min-h-[56px]">
+        <Icon name="users" size={22} className="text-accent shrink-0" />
+        <span className="flex-1 min-w-0">
+          <span className="block font-semibold text-ink">Défis</span>
+          <span className="block text-xs text-muted">Défier un ami par lien, à deux sur ce téléphone, quiz infini</span>
+        </span>
+        <Icon name="chevronRight" size={18} className="text-muted" />
+      </Link>
+
       {/* À revoir */}
       <h2 className="font-display text-2xl font-semibold text-ink mb-1">À revoir</h2>
       <p className="text-sm text-muted mb-3">
@@ -109,7 +119,7 @@ export default function ProfilPage() {
 
       {/* Collections : mondes */}
       <h2 className="font-display text-2xl font-semibold text-ink mb-3">Collections</h2>
-      <Link to="/aventure/mondes" className="card hoverable block p-4 mb-3">
+      <Link to="/" className="card hoverable block p-4 mb-3">
         <span className="flex justify-between items-baseline mb-2">
           <span className="font-semibold text-ink">Les cinq mondes</span>
           <span className="text-xs text-muted inline-flex items-center gap-1">Voir <Icon name="chevronRight" size={14} /></span>

@@ -141,7 +141,7 @@ function MobileTabBar() {
   return (
     <nav
       aria-label="Navigation principale"
-      className="md:hidden fixed bottom-0 inset-x-0 z-30 glass border-t border-line/70 pb-safe"
+      className="md:hidden fixed bottom-0 inset-x-0 z-30 glass glass-barre border-t border-line/70 pb-safe"
     >
       <ul className="grid grid-cols-4 h-[4.25rem] px-1">
         {NAV.map((item) => {

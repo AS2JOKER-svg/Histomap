@@ -262,7 +262,7 @@ function EtapeFin({ refCiv, etape, evenements, justes, total }) {
           Passer l’épreuve <Icon name="arrowRight" size={18} />
         </button>
         {suivante && suivante !== civ.id ? (
-          <button onClick={() => faire(() => navigate(`/?salle=${suivante}`))} className="btn-secondary h-12 w-full">Salle suivante : {nomDe(suivante)}</button>
+          <button onClick={() => faire(() => navigate('/'))} className="btn-secondary h-12 w-full">Salle suivante : {nomDe(suivante)}</button>
         ) : (
           <button onClick={() => faire(() => navigate('/'))} className="btn-secondary h-12 w-full">Retour au parcours</button>
         )}

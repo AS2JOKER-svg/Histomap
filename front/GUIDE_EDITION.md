@@ -279,6 +279,7 @@ affiche les questions générées d'une salle pour les relire.
   "mondes": [{ "epoque": "antiquite", "titre": "Grand savant de l’Antiquité", "theme": "papyrus",
                "tronc": ["mesopotamie", "egypte", "…"] }],            // un monde par époque, dans l'ordre de epochs.json
   "branches": { "koush": "egypte", "aksoum": "koush" },               // toutes les autres civilisations → leur parent
+  "ancres": { "goryeo": "chine-tang-song" },                           // branches dont le parent est dans un monde précédent
   "courts": { "chine-imperiale": "Qin et Han" },                       // noms courts (carte du parcours), ≤ 16 caractères
   "filsRouges": { "egypte": "Maître de l’Égypte" },                    // un titre par lignée de lineages.json
   "titreUltime": "Historien universel"
@@ -293,6 +294,12 @@ affiche les questions générées d'une salle pour les relire.
   ou membre d'une lignée = salle de fil rouge) dont le nom dépasse 16 caractères ; 16 caractères au plus ; les noms affichés
   sur le chemin (nom court, sinon nom) sont tous différents. Les initiales des pastilles et des bulles en sont tirées
   (`initiales` dans `src/lib/aventure.js`). Une annexe hors des fils n'en a pas besoin (bulle à initiales).
+- **Ancres** (`ancres`, V3.1, sprint 30) : obligatoires pour chaque branche dont le parent est dans un monde **précédent**
+  (37 aujourd'hui : Lapita, Goryeo, Mamelouks, Canada…), et seulement pour elles. L'ancre est une **salle du tronc du même
+  monde** : sur la carte du parcours, la bulle de l'annexe (et de ses suites) est dessinée à côté d'elle. Choisir la salle
+  la plus proche par la géographie, puis par l'histoire (ex. Hawaï → États-Unis, Australie → Royaume-Uni) ; ton neutre
+  (Ukraine, Turquie, Grèce moderne → Union européenne, salle « Europe »). L'ouverture ne change pas : parent découvert.
+  Carte du parcours : `src/lib/carteParcours.js` (îlots repliés au-delà de 6 annexes : 2 bulles et « +N »).
 - Chemin d'un joueur (V3.1) : le tronc + les annexes de son fil rouge, placées juste après leur parent, sinon (parent dans
   un monde précédent) avant la première salle de leur monde qui commence plus tard qu'elles (date de début de la fiche).
 - Règles du jeu (chemin, ouverture des salles, « à rattraper », étoiles) : `src/lib/aventure.js` ; XP, niveaux, rangs :

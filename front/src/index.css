@@ -234,7 +234,7 @@
 :root[data-theme='dark'] .civ-text { color: var(--civ-text-dark); }
 
 /* ─────────────────────────────────────────────────────────────────────────────
-   Célébrations (V3, sprint 22) : particules, rayons, reflet, coffre, cadre animé.
+   Célébrations (V3, sprint 22 ; V3.1, sprint 31) : particules, rayons, reflet, halo du combo.
    « Mouvement réduit » : la règle globale ramène toutes ces animations à zéro.
    ───────────────────────────────────────────────────────────────────────────── */
 @keyframes hm-chute {
@@ -249,13 +249,9 @@
 .hm-reflet { animation: hm-reflet 3.2s ease-in-out infinite; }
 @keyframes hm-pulse-or { 0%, 100% { opacity: .55; } 50% { opacity: 1; } }
 .hm-pulse-or { animation: hm-pulse-or 1.8s ease-in-out infinite; }
-@keyframes hm-couvercle { from { transform: rotate(0deg); } to { transform: rotate(-28deg); } }
-.hm-couvercle { transform-origin: 18% 100%; animation: hm-couvercle .9s .25s cubic-bezier(.2, .9, .3, 1.3) both; }
-@keyframes hm-cadre-anime { to { background-position: 200% 0; } }
-.hm-cadre-anime {
-  background: linear-gradient(90deg, #e0c27a, #8a3a1e, #e0c27a, #a8791c, #e0c27a) 0 0 / 200% 100%;
-  animation: hm-cadre-anime 4s linear infinite;
-}
+/* Combo au-delà de ×5 : halo doré qui pulse, plus large à chaque bonne réponse (--flare). */
+@keyframes hm-flare { 0%, 100% { box-shadow: 0 0 0 0 rgba(242, 216, 150, 0); } 50% { box-shadow: 0 0 var(--flare, 12px) 4px rgba(242, 216, 150, .55); } }
+.hm-flare { animation: hm-flare 1.2s ease-in-out infinite; }
 
 /* ─────────────────────────────────────────────────────────────────────────────
    Carte du parcours (V3.1, sprint 30) : couleurs des cinq mondes et de la carte.

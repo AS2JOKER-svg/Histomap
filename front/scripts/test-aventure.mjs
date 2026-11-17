@@ -38,6 +38,7 @@ import { indexer, memeMot, mots, proposer } from './lib/rapprochement.mjs'
 import { noteQuiz, premiereSansReponse } from '../src/lib/questions.js'
 import { HANDWRITTEN } from '../src/data/revision/index.js'
 import { GEO, disposerCarte, grilleIlot, modeleCarte, pointRoute, rectangles } from '../src/lib/carteParcours.js'
+import { ceQuiSouvre, choixFils, dureeSeance, panneauSalle } from '../src/lib/ecransSalle.js'
 
 let n = 0
 const test = (nom, fn) => {
@@ -771,4 +772,107 @@ test('validateur : ancre manquante, inutile ou hors du tronc de son monde', () =
   assert.ok(errs((d) => (d.ancres.goryeo = 'six-dynasties')).length)
 })
 
-console.log(`✅ Aventure : ${n} tests réussis (chemin, ouverture, à rattraper, étoiles, XP, rangs, progression, migrations, épreuve sur les cartes vues, défis, questions éclair, questions des cartes, carte du parcours, validateur).`)
+// ── Écrans d'une salle (sprint 31) : panneau court, ce qui s'ouvre, choix du fil ──
+const T = { tier1: 9, tier2: 5 }
+test('panneau : salle du tronc, de « à découvrir » à ★★★, un seul gros bouton', () => {
+  const id = tronc(1)[0]
+  let m = panneauSalle(P, avec([], { filRouge: null }), tronc(0)[0], { tailles: T })
+  assert.equal(m.ouvert, true)
+  assert.deepEqual([m.bouton.etape, m.bouton.titre, m.bouton.detail], ['decouvrir', 'Découvrir', '9 cartes et 3 questions éclair'])
+  assert.deepEqual(m.etapes.map((e) => e.etat), ['actif', 'a-venir'])
+  assert.equal(m.approfondir.etat, 'ferme')
+  assert.match(m.approfondir.detail, /Après Découvrir · 5 cartes/)
+  assert.equal(m.place.salle, 1)
+  // fermée : pas de bouton, une raison
+  m = panneauSalle(P, aventureVide(), id, { tailles: T })
+  assert.equal(m.ouvert, false)
+  assert.equal(m.bouton, null)
+  assert.equal(m.raison.type, 'monde')
+  // découverte : l'épreuve, Approfondir en bonus
+  m = panneauSalle(P, avec([[id, D]]), id, { tailles: T })
+  assert.deepEqual([m.bouton.etape, m.bouton.titre], ['epreuve', 'Passer l’épreuve'])
+  assert.deepEqual(m.etapes.map((e) => e.etat), ['fait', 'actif'])
+  assert.equal(m.approfondir.etat, 'ouvert')
+  // ★★ et Approfondir fait : rejouer, « Revoir les cartes » (les deux niveaux)
+  m = panneauSalle(P, avec([[id, { ...D, approfondi: true, etoiles: 2 }]]), id, { tailles: T })
+  assert.deepEqual([m.bouton.titre, m.bouton.rejouer], ['Rejouer l’épreuve', true])
+  assert.match(m.bouton.detail, /Découvrir et d’Approfondir/)
+  assert.deepEqual([m.approfondir.etat, m.approfondir.titre, m.approfondir.detail], ['fait', 'Revoir les cartes', 'Découvrir et Approfondir · 14 cartes'])
+  assert.deepEqual(m.etapes.map((e) => e.id), ['decouvrir', 'epreuve', 'approfondir'])
+  // ★★★ : se rejoue pour le plaisir ; étape commencée : « Reprendre »
+  assert.match(panneauSalle(P, avec([[id, { ...D, etoiles: 3 }]]), id).bouton.detail, /pour le plaisir/)
+  assert.equal(panneauSalle(P, avec([[id, { ...D, enCours: 'epreuve' }]]), id).bouton.titre, 'Reprendre l’épreuve')
+  assert.equal(panneauSalle(P, avec([[id, { ...D, enCours: 'approfondir' }]]), id).bouton.titre, 'Reprendre Approfondir')
+})
+test('panneau : annexe en une séance, puis mini-épreuve à rejouer ; pas d’Approfondir', () => {
+  const id = 'sahara-pasteurs'
+  const av = avec([['hominides-est', D]])
+  let m = panneauSalle(P, av, id, { tailles: { tier1: 7, tier2: 3 }, nom: (x) => `<${x}>` })
+  assert.equal(m.tronc, false)
+  assert.equal(m.approfondir, null)
+  assert.equal(m.annexeDeNom, '<hominides-est>')
+  assert.equal(m.resume, '7 cartes, puis 8 questions')
+  assert.deepEqual([m.bouton.etape, m.bouton.titre, m.bouton.detail], ['decouvrir', 'Commencer', 'Environ 4 minutes'])
+  m = panneauSalle(P, avec([['hominides-est', D], [id, { enCours: 'epreuve' }]]), id)
+  assert.deepEqual([m.bouton.etape, m.bouton.titre], ['epreuve', 'Reprendre la séance'])
+  m = panneauSalle(P, avec([['hominides-est', D], [id, { ...D, etoiles: 1 }]]), id)
+  assert.deepEqual([m.bouton.etape, m.bouton.titre, m.resume], ['epreuve', 'Rejouer la mini-épreuve', null])
+  assert.deepEqual(m.etapes.map((e) => e.titre), ['Séance', 'Mini-épreuve'])
+  assert.equal(dureeSeance(7, 8), 4)
+})
+test('panneau : sur tout le parcours et dans tous les états, le gros bouton mène à une étape jouable', () => {
+  const etats = [{}, { enCours: 'decouvrir' }, D, { ...D, enCours: 'epreuve' }, { ...D, etoiles: 2 }, { ...D, approfondi: true, etoiles: 3 }]
+  for (const fil of [null, 'coree', 'chine']) {
+    for (const id of P.ordre) {
+      for (const etat of etats) {
+        // tout ce qui précède est découvert : la salle est ouverte
+        const av = avec([...P.ordre.filter((x) => x !== id).map((x) => [x, D]), [id, etat]], { filRouge: fil })
+        const m = panneauSalle(P, av, id)
+        assert.ok(m.bouton, `${id} : pas de bouton`)
+        assert.ok(etapeAccessible(P, av, id, m.bouton.etape), `${id} ${JSON.stringify(etat)} → ${m.bouton.etape} injouable`)
+      }
+    }
+  }
+})
+test('fin de Découvrir : ce qui s’ouvre (salle suivante, annexes, monde)', () => {
+  const [a, b] = tronc(0)
+  let r = terminerEtape(aventureVide(), P, a, 'decouvrir', {}, '2026-11-17')
+  let o = ceQuiSouvre(P, r.av, r.evenements)
+  assert.deepEqual(o.chemin, [b])
+  assert.ok(o.annexes.includes('sahara-pasteurs'))
+  assert.deepEqual(o.mondes, [])
+  // dernière salle de la Préhistoire : le monde suivant s'ouvre avec sa 1re salle
+  const av = avec(tronc(0).slice(0, -1).map((x) => [x, D]))
+  r = terminerEtape(av, P, tronc(0).at(-1), 'decouvrir', {}, '2026-11-17')
+  o = ceQuiSouvre(P, r.av, r.evenements)
+  assert.deepEqual(o.mondes, [1])
+  assert.equal(o.chemin[0], tronc(1)[0])
+})
+test('séance d’annexe : aucune question éclair, pas même au milieu du paquet', () => {
+  for (const id of ['sahara-pasteurs', 'nok', 'koush']) {
+    const ch = HANDWRITTEN[id]
+    const paquet = ['cover', ...ch.cards.filter((c) => c.tier === 1).map((c) => c.id), 'recap']
+    const r = choisirEclairs({ questions: ch.quiz, paquet, nombre: 0, milieu: Math.floor(paquet.length / 2), graine: id })
+    assert.deepEqual([r.milieu, r.fin.length], [null, 0], id)
+  }
+})
+test('choix du fil : salles ajoutées, « déjà sur ton chemin », fils terminés à la fin', () => {
+  let liste = choixFils(P, aventureVide())
+  assert.equal(liste.length, P.filsRouges.length)
+  const de = (l, id) => l.find((f) => f.id === id)
+  assert.equal(de(liste, 'coree').ajoutees.length, 5)
+  assert.equal(de(liste, 'france').ajoutees.length, 0)
+  assert.equal(liste[0].id, 'coree') // le plus de salles à faire d'abord
+  const groupes = liste.map((f) => (f.termine ? 2 : f.ajoutees.length ? 0 : 1))
+  assert.deepEqual(groupes, [...groupes].sort((x, y) => x - y))
+  assert.match(de(liste, 'perse').apercu, /, /) // 4 salles ajoutées : leurs noms
+  assert.match(de(liste, 'coree').apercu, /^De « .+ » à « .+ »$/) // 5 : la première et la dernière
+  // fil terminé (toutes ses salles découvertes) : à la fin, marqué
+  const coree = P.filsRouges.find((f) => f.id === 'coree')
+  liste = choixFils(P, avec(coree.membres.map((x) => [x, { ...D, etoiles: 1 }]), { filRouge: 'coree', titres: ['fil:coree'] }))
+  const c = de(liste, 'coree')
+  assert.deepEqual([c.termine, c.actuel, c.faites, c.titreObtenu], [true, true, 5, true])
+  assert.equal(liste.at(-1).termine, true)
+})
+
+console.log(`✅ Aventure : ${n} tests réussis (chemin, ouverture, à rattraper, étoiles, XP, rangs, progression, migrations, épreuve sur les cartes vues, défis, questions éclair, questions des cartes, carte du parcours, écrans d’une salle, validateur).`)

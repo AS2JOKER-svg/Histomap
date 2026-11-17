@@ -36,9 +36,9 @@ export default function EtatSalle({ decouverte = false, etoiles = 0, ouvert = tr
 }
 
 /** Trois étoiles, pleines ou vides (« ★★☆ »). */
-export function Etoiles({ n = 0, className = '' }) {
+export function Etoiles({ n = 0, className = '', style }) {
   return (
-    <span className={`tracking-[2px] ${className}`} role="img" aria-label={`${n} étoile${n > 1 ? 's' : ''} sur 3`}>
+    <span className={`tracking-[2px] ${className}`} style={style} role="img" aria-label={`${n} étoile${n > 1 ? 's' : ''} sur 3`}>
       {'★'.repeat(n)}
       {'☆'.repeat(3 - n)}
     </span>

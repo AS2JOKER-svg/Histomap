@@ -12,6 +12,7 @@ const EpochPage = lazy(() => import('./pages/EpochPage'))
 const CivilizationPage = lazy(() => import('./pages/CivilizationPage'))
 const MapPage = lazy(() => import('./pages/MapPage'))
 const ProfilPage = lazy(() => import('./pages/ProfilPage'))
+const FilRougePage = lazy(() => import('./pages/FilRougePage'))
 const SallePage = lazy(() => import('./pages/SallePage'))
 const BienvenuePage = lazy(() => import('./pages/BienvenuePage'))
 const ARevoirPage = lazy(() => import('./pages/ARevoirPage'))
@@ -59,6 +60,7 @@ export default function App() {
         <Route path="aventure/mondes" element={<Navigate to="/" replace />} />
         <Route path="aventure/salle/:civId/:etape" element={<Lazy><SallePage /></Lazy>} />
         <Route path="aventure/a-revoir/:civId" element={<Lazy><ARevoirPage /></Lazy>} />
+        <Route path="aventure/fil-rouge" element={<Lazy><FilRougePage /></Lazy>} />
         <Route path="bienvenue" element={<Lazy><BienvenuePage /></Lazy>} />
         <Route path="defis" element={<Lazy><DefisPage /></Lazy>} />
         <Route path="defis/a-deux" element={<Lazy><DeuxJoueursPage /></Lazy>} />

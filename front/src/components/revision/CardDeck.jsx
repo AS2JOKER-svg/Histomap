@@ -12,9 +12,9 @@ const SWIPE = 110 // px à parcourir pour valider un glissement
  *   → glisser à droite / bouton ✓ / flèche droite : compris
  *   ← glisser à gauche / bouton ↺ / flèche gauche : à revoir
  *   Retour arrière : bouton ↶ ou touche Retour
- * La couverture et le bilan n'ont qu'une action (commencer / terminer).
+ * La couverture et le bilan n'ont qu'une action (commencer / terminer : `finLabel`).
  */
-export default function CardDeck({ cards, pos, civ, epoch, round, onAnswer, onBack, onFinish }) {
+export default function CardDeck({ cards, pos, civ, epoch, round, onAnswer, onBack, onFinish, finLabel = 'Terminer le chapitre' }) {
   const [exitDir, setExitDir] = useState(1)
   const card = cards[pos]
   const kind = card?.type === 'cover' ? 'cover' : card?.type === 'recap' ? 'recap' : 'card'
@@ -108,7 +108,7 @@ export default function CardDeck({ cards, pos, civ, epoch, round, onAnswer, onBa
             className="flex items-center gap-2 h-14 px-7 rounded-full text-white font-semibold shadow-lift transition active:scale-95 hover:brightness-110"
             style={{ background: solidBg(civ.color) }}
           >
-            {kind === 'cover' ? 'Commencer' : 'Terminer le chapitre'}
+            {kind === 'cover' ? 'Commencer' : finLabel}
             <Icon name={kind === 'cover' ? 'arrowRight' : 'check'} size={20} strokeWidth={2.4} />
           </button>
         )}

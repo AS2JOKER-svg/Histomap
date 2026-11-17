@@ -40,7 +40,8 @@ export function choisirEclairs({ questions, paquet, nombre, milieu = null, grain
       rand
     )
   }
-  const premiere = milieu ? vues(paquet.slice(0, milieu))[0] ?? null : null
+  // aucune question demandée (séance d'annexe) : pas de question d'étape non plus
+  const premiere = milieu && nombre > 0 ? vues(paquet.slice(0, milieu))[0] ?? null : null
   const fin = vues(paquet)
     .filter((q) => q !== premiere)
     .slice(0, Math.max(0, nombre - (premiere ? 1 : 0)))

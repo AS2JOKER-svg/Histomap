@@ -139,6 +139,9 @@ export default function ProfilPage() {
       </Link>
 
       {/* Collections : fils rouges */}
+      <Link to="/aventure/fil-rouge" className="btn-secondary h-11 w-full mb-3 text-sm">
+        <Icon name="link" size={16} /> Changer de fil rouge
+      </Link>
       <ul className="grid gap-2 mb-3">
         {(tousFils ? filsRouges : filsRouges.slice(0, 5)).map((f) => (
           <li key={f.id}>

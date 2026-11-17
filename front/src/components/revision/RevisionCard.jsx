@@ -106,8 +106,8 @@ function TextCard({ card, civ }) {
       <Title>{card.title}</Title>
       <p className="mt-4 text-[16px] leading-relaxed text-ink/85">{card.body}</p>
       {card.highlight && (
-        <div className="mt-6 p-4 rounded-2xl border border-line bg-surface2/60 flex items-baseline gap-3">
-          <span className="font-display text-3xl font-semibold tabular-nums shrink-0 civ-text" style={civTextStyle(civ.color)}>
+        <div className="mt-6 p-4 rounded-2xl border border-line bg-surface2/60 flex flex-wrap items-baseline gap-x-3 gap-y-1">
+          <span className="font-display text-3xl font-semibold tabular-nums min-w-0 civ-text" style={civTextStyle(civ.color)}>
             {card.highlight.value}
           </span>
           <span className="text-sm text-muted">{card.highlight.label}</span>

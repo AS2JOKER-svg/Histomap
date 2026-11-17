@@ -1,4 +1,5 @@
 import { useMemo } from 'react'
+import { motion } from 'framer-motion'
 
 /** Effet des célébrations : poussière d'or (plus d'effets à choisir depuis la V3.1). */
 export const EFFET = { couleurs: ['#e0c27a', '#f6efe2', '#c9966a'], forme: 'rond' }
@@ -68,5 +69,59 @@ export function Sceau({ niveau, taille = 64 }) {
       <circle cx="36" cy="36" r="28" fill="none" stroke="#e0c27a" strokeWidth="1.5" strokeDasharray="2 3" />
       <text x="36" y="46" textAnchor="middle" fontFamily="Cormorant Garamond, Georgia, serif" fontSize="28" fontWeight="700" fill="#e0c27a">{niveau}</text>
     </svg>
+  )
+}
+
+const ETOILE = 'M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.3 1.3-6.6-4.9-4.6 6.6-.8z'
+
+/**
+ * Trois grandes étoiles du résultat (maquettes 10 et 11) : celle du milieu plus grande et plus haute ;
+ * les étoiles gagnées arrivent l'une après l'autre (rien ne bouge si « mouvement réduit »).
+ * `vide` : couleur du contour des étoiles non gagnées (selon le fond).
+ */
+export function GrandesEtoiles({ n, taille = 78, vide = '#6e5a3c', className = '' }) {
+  return (
+    <div role="img" aria-label={`${n} étoile${n > 1 ? 's' : ''} sur 3`} className={`flex items-end justify-center gap-2.5 ${className}`}>
+      {[0, 1, 2].map((i) => {
+        const t = i === 1 ? Math.round(taille * 1.28) : taille
+        const pleine = i < n
+        return (
+          <motion.svg
+            key={i}
+            aria-hidden="true"
+            width={t}
+            height={t}
+            viewBox="0 0 24 24"
+            style={i === 1 ? { marginBottom: Math.round(taille * 0.23) } : undefined}
+            initial={pleine ? { scale: 0.2, rotate: -30, opacity: 0 } : false}
+            animate={{ scale: 1, rotate: 0, opacity: 1 }}
+            transition={{ type: 'spring', damping: 9, stiffness: 220, delay: 0.15 + i * 0.32 }}
+          >
+            <path d={ETOILE} fill={pleine ? '#e0c27a' : 'none'} stroke={pleine ? '#a8791c' : vide} strokeWidth={pleine ? 1 : 1.2} strokeLinejoin="round" />
+          </motion.svg>
+        )
+      })}
+    </div>
+  )
+}
+
+/** Seuils des étoiles (seul endroit où ils s'affichent) ; le palier atteint est plein. `ton` : 'nuit' | 'jour'. */
+export function SeuilsEtoiles({ seuils, atteint, ton = 'jour' }) {
+  const nuit = ton === 'nuit'
+  return (
+    <ul className="flex gap-2 justify-center text-[13px] tabular-nums" aria-label="Seuils des étoiles">
+      {seuils.map((s, i) => {
+        const plein = i + 1 === atteint
+        const style = plein
+          ? nuit ? { background: '#e0c27a', color: '#2a2118' } : { background: '#2a2118', color: '#e0c27a' }
+          : nuit ? { border: `1px solid ${i < atteint ? '#a8791c' : '#4a3d2c'}`, color: i < atteint ? '#e0c27a' : '#c9b48c' } : undefined
+        return (
+          <li key={i} className={`px-2.5 py-[5px] ${plein ? 'font-bold' : nuit ? '' : 'border border-line text-muted'}`} style={style}>
+            <span aria-hidden="true">{'★'.repeat(i + 1)}</span>
+            <span className="sr-only">{i + 1} étoile{i ? 's' : ''} :</span> {s}
+          </li>
+        )
+      })}
+    </ul>
   )
 }

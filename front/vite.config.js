@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react'
 import { existsSync, readFileSync, readdirSync } from 'fs'
 import { join } from 'path'
 import { createHash } from 'crypto'
+import { codeServiceWorker } from './scripts/lib/service-worker.mjs'
 
 /**
  * Génère dist/licences.txt : les bibliothèques réellement incluses dans le build (paquets de node_modules),
@@ -51,6 +52,7 @@ function licences() {
 /**
  * Génère dist/sw.js (service worker) à partir de sw/sw.js : la liste des fichiers
  * à mettre en cache est celle du build, et la version change à chaque contenu différent.
+ * Les règles des rappels (src/lib/rappels.js, sprint 33) y sont recopiées (scripts/lib/service-worker.mjs).
  */
 function serviceWorker() {
   return {
@@ -68,9 +70,12 @@ function serviceWorker() {
       ]
       const unique = [...new Set(files)].sort()
       const version = createHash('sha1').update(unique.join('|')).digest('hex').slice(0, 10)
-      const source = readFileSync('sw/sw.js', 'utf-8')
-        .replace('__VERSION__', version)
-        .replace('__PRECACHE__', JSON.stringify(unique, null, 2))
+      const source = codeServiceWorker({
+        sw: readFileSync('sw/sw.js', 'utf-8'),
+        rappels: readFileSync('src/lib/rappels.js', 'utf-8'),
+        version,
+        precache: unique,
+      })
       this.emitFile({ type: 'asset', fileName: 'sw.js', source })
     },
   }

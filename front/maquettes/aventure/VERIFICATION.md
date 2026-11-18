@@ -147,3 +147,80 @@ Comparaison entre ce qui a été demandé au départ (analyse produit du 13/11, 
 - Tournures corrigées : « 10 questions sur Égypte antique » (article manquant) ; champ prénom avec un vrai repère de focus.
 - `npm run build` : contenu valide, 214 chapitres, 29 tests (dont l'étape du jour « À revoir » et les défis : même graine = mêmes questions, lien lu et nettoyé).
 
+
+## 8. Sprint 33 : notifications (18/11/2026)
+
+Décision 25 du cadrage V3.1 : on reste en PWA / TWA, sans serveur. Les notifications sont donc **locales et « au mieux »**.
+
+**Ce que voit le joueur** (Profil › Réglages › Notifications, maquette 16).
+- « Rappel du jour » : si tu n'as pas encore joué ce jour-là.
+- « À partir de » : 17 h, 18 h (par défaut), 19 h ou 20 h. L'heure vaut pour les deux rappels.
+- « Série en danger » : le soir, si ta série va s'arrêter.
+- Tout est éteint au départ. Allumer un interrupteur demande l'autorisation du téléphone : c'est le seul endroit de l'app où elle est demandée.
+- Les interrupteurs sont grisés, avec une phrase d'explication, quand les rappels sont impossibles : navigateur sans synchronisation périodique (iPhone, Firefox), application pas installée, notifications bloquées.
+- Toucher une notification ouvre l'app sur la salle en cours (`#/?salle=…`). Les rappels restés dans le tiroir du téléphone disparaissent quand on ouvre l'app.
+
+**Les textes.**
+- Rappel du jour : un titre par jour, à tour de rôle (« Une petite séance d'histoire ? », « L'Aventure continue », « Quelques minutes d'histoire ? »), puis « Prochaine salle : Carthage. » ou « Reprends ta séance : Carthage. ».
+- Série en danger : « Ta série de 6 jours va s'arrêter », puis « Termine une étape avant minuit pour la garder. Prochaine salle : Carthage. ».
+
+**Les règles** (`src/lib/rappels.js`, testées).
+- Rien entre 21 h et 8 h, ni avant l'heure choisie.
+- Rien si l'on a déjà joué ce jour-là. « Joué » veut dire la même chose que pour la série : une étape terminée ou une séance « À revoir ».
+- Rien si l'app est à l'écran.
+- « Série en danger » passe d'abord : série d'au moins 2 jours, dernier jour pour la garder, aucun joker pour la couvrir. Sinon, c'est le rappel du jour.
+- Chacune une fois par jour, pas de rappel après une alerte de série : 2 notifications par jour au plus.
+
+**Comment ça marche.**
+1. L'app écrit un petit état dans IndexedDB (base `histomap`, magasin `rappels`, clé `etat`) : réglages, dernier jour joué, série, salle en cours. Elle le réécrit dès qu'il change.
+2. Chrome réveille le service worker de temps en temps (événement `periodicsync`, étiquette `histomap-rappels`).
+3. Le service worker choisit la notification, la montre, et le note (clé `journal`).
+
+Les règles sont écrites une seule fois, dans `src/lib/rappels.js`. Le build les recopie dans `dist/sw.js` (`scripts/lib/service-worker.mjs`).
+
+**L'heure n'est pas garantie : pourquoi, et ce qu'on y fait.**
+- Chrome réveille une application au plus toutes les 12 h. Il arrondit les délais à 12 h si le site est très utilisé, à 24 h ou plus sinon (code de Chromium). Les délais partent du moment où l'app s'inscrit.
+- On ne peut donc pas demander « 18 h ». L'app se réinscrit, une fois par jour au plus, quand on l'ouvre entre l'heure choisie et 21 h. Les réveils suivants tombent alors vers cette heure-là, les jours où l'on ne vient pas.
+- Conséquence : le rappel marche bien pour qui joue d'habitude le soir. Pour qui n'ouvre jamais l'app dans cette plage, il peut ne jamais tomber au bon moment.
+- Chrome ne réveille l'app qu'avec une connexion réseau. Il peut aussi retarder le réveil (économiseur de batterie, téléphone en veille profonde), ou ne jamais réveiller un site qui n'a pas été utilisé.
+
+**Vérifié.**
+- `npm test` : 72 tests, dont 7 nouveaux :
+  - « dernière chance » d'accord avec `etatSerie` et `enregistrerActivite` (6 écarts × 4 nombres de jokers × 3 séries × 7 jours) ;
+  - nuit, heure et déjà joué, sur les 24 heures × 4 heures de rappel ;
+  - priorité de la série, plafond de 2 par jour, textes ;
+  - réinscription ;
+  - `sw.js` assemblé : script classique valide, qui prend les mêmes décisions que le module.
+- Recette dans Chrome sans tête : app compilée, 390 × 844, clair et sombre, fuseau horaire réglé pour qu'il soit 19 h. **41 vérifications**, dont :
+  - le vrai réveil du service worker par les outils de développement (`ServiceWorker.dispatchPeriodicSyncEvent`) : notification « Ta série de 6 jours va s'arrêter » relue (texte, adresse, badge), journal écrit ;
+  - un 2e réveil le même soir ne montre rien ;
+  - rien la nuit, le matin, avant l'heure choisie, après avoir joué, ni avec l'app à l'écran ;
+  - clic sur la notification → panneau de la salle ;
+  - tiroir vidé à l'ouverture ;
+  - désinscription quand tout est éteint ;
+  - autorisation refusée, notifications bloquées, app non installée.
+- 0 erreur de console ; axe-core WCAG AA sur 4 écrans : 0 violation.
+
+**Tester à la main avec les outils de développement de Chrome.**
+1. `npm run build`, puis `npm run preview`. Ouvrir l'adresse dans Chrome et installer l'app (icône d'installation dans la barre d'adresse). Sur un téléphone, passer par `chrome://inspect` depuis un ordinateur.
+2. Profil › Réglages › Notifications : allumer « Rappel du jour », accepter l'autorisation, choisir une heure déjà passée.
+3. Ouvrir `chrome://serviceworker-internals` et inspecter le service worker de HistoMap. Fermer ensuite l'app : rien n'est montré tant qu'elle est à l'écran.
+4. Dans la console du service worker :
+   - `await rappelDuMoment()` montre la notification du moment, s'il y en a une, et la renvoie ;
+   - `await rappelDuMoment(new Date('2026-11-18T19:30'))` simule une heure ;
+   - `await lireRappels('etat')` affiche l'état écrit par l'app ;
+   - `await ecrireRappels('journal', null)` efface le journal du jour, pour recommencer.
+5. Le vrai événement se déclenche aussi depuis Application › Service workers › « Periodic sync », avec l'étiquette `histomap-rappels`. L'app doit être cachée.
+
+**Note pour la TWA (Play Store).**
+- Bubblewrap : mettre `enableNotifications: true` dans `twa-manifest.json`. C'est la délégation des notifications : elles s'affichent au nom de l'app, avec son icône, et l'autorisation devient celle de l'app Android.
+- Sur Android 13 et plus, la demande de Réglages doit faire apparaître la fenêtre système d'Android (autorisation `POST_NOTIFICATIONS`). Utiliser une version récente de Bubblewrap (`targetSdk` 33 ou plus).
+- Si c'est la fenêtre de Chrome qui s'affiche à la place, la délégation ne marche pas. La cause est souvent le fichier `assetlinks.json` (Digital Asset Links) du domaine.
+- Icône de la barre d'état : `monochromeIconUrl` → `icons/badge-96.png` (blanc sur transparent).
+- La synchronisation périodique marche dans une TWA installée : Chrome l'accorde aux origines qui ont une TWA (fonction `IsTwaInstalled` de Chromium).
+
+**À vérifier sur un vrai téléphone** (sprint 35).
+- La notification arrive dans la soirée, un jour sans jouer, après avoir ouvert l'app la veille vers l'heure choisie.
+- La fenêtre d'autorisation d'Android 13.
+- Le badge dans la barre d'état.
+- Le clic quand l'app est fermée : il ouvre l'app via `clients.openWindow`, non testable sans tête.

@@ -84,7 +84,7 @@ export default function ProfilPage() {
         <LigneLien grande to="/profil/collections" icone="trophy" titre="Collections" detail={`Mondes, fils rouges et ${titres.length ? pluriel(titres.length, 'titre') : 'titres'}`} />
         <LigneLien grande to="/profil/a-revoir" icone="refresh" titre="À revoir" detail={texteARevoir(revoir, av.aRevoirJour === jour)} />
         <LigneLien grande to="/defis" icone="users" titre="Défis" detail="Par lien, à deux, quiz infini" />
-        <LigneLien grande to="/profil/reglages" icone="settings" titre="Réglages" detail="Sons, vibrations, thème" />
+        <LigneLien grande to="/profil/reglages" icone="settings" titre="Réglages" detail="Sons, vibrations, thème, notifications" />
       </nav>
     </section>
   )

@@ -40,6 +40,9 @@ import { HANDWRITTEN } from '../src/data/revision/index.js'
 import { GEO, disposerCarte, grilleIlot, modeleCarte, pointRoute, rectangles } from '../src/lib/carteParcours.js'
 import { ceQuiSouvre, choixFils, dureeSeance, panneauSalle } from '../src/lib/ecransSalle.js'
 import { aRevoirParSalle, chiffresProfil, filsCollection, mondesCollection, texteARevoir, texteSerie, titreUltime } from '../src/lib/profil.js'
+import { NUIT, ajouterJours, choisirRappel, derniereChance, etatRappels, fautInscrire, jourLocal, noterEnvoi, texteRappel } from '../src/lib/rappels.js'
+import { codeRappels, codeServiceWorker } from './lib/service-worker.mjs'
+import vm from 'node:vm'
 
 let n = 0
 const test = (nom, fn) => {
@@ -961,4 +964,121 @@ test('Collections : mondes (titre, ouvert, pas encore ouvert), fils (le sien, ti
   assert.equal(u.faites, new Set([...tronc(0), ...P.filsRouges.find((f) => f.id === 'mesopotamie').membres]).size)
 })
 
-console.log(`✅ Aventure : ${n} tests réussis (chemin, ouverture, à rattraper, étoiles, XP, rangs, progression, migrations, épreuve sur les cartes vues, défis, questions éclair, questions des cartes, carte du parcours, écrans d’une salle, profil et collections, validateur).`)
+// ── Rappels (sprint 33) ──────────────────────────────────────────────────────
+
+const RAPPEL_SALLE = { id: 'carthage', nom: 'Carthage', reprendre: false }
+/** Le 18 novembre 2026 (ou le jour `j`) à h h m, heure locale. */
+const le = (h, m = 0, j = 18) => new Date(2026, 10, j, h, m)
+
+test('rappels : jours « AAAA-MM-JJ » (fin de mois, d’année, 29 février, heure d’été)', () => {
+  assert.equal(ajouterJours('2026-12-31', 1), '2027-01-01')
+  assert.equal(ajouterJours('2026-03-01', -1), '2026-02-28')
+  assert.equal(ajouterJours('2028-03-01', -1), '2028-02-29')
+  assert.equal(ajouterJours('2026-03-28', 2), '2026-03-30')
+  assert.equal(ajouterJours('2026-10-24', 2), '2026-10-26')
+  assert.equal(jourLocal(le(23, 59)), '2026-11-18')
+  assert.equal(jourLocal(new Date(2026, 0, 5, 0, 1)), '2026-01-05')
+})
+
+test('rappels : « dernière chance » de la série = etatSerie (à prolonger ou à sauver ce jour-là, perdue le lendemain)', () => {
+  const base = '2026-11-18'
+  for (let ecart = 1; ecart <= 6; ecart++)
+    for (let jokers = 0; jokers <= 3; jokers++)
+      for (const jours of [1, 2, 9]) {
+        const serie = { jours, record: jours, dernier: ajouterJours(base, -ecart), jokers }
+        for (let k = 0; k <= 6; k++) {
+          const jour = ajouterJours(base, k)
+          const enDanger = ['a-prolonger', 'a-sauver'].includes(etatSerie(serie, jour).statut) && etatSerie(serie, ajouterJours(jour, 1)).statut === 'perdue'
+          assert.equal(derniereChance(serie) === jour, enDanger, `écart ${ecart}, ${jokers} joker(s), le ${jour}`)
+        }
+      }
+  assert.equal(derniereChance({ jours: 0, record: 3, dernier: null, jokers: 2 }), null)
+  // et ce que fait vraiment la progression : jouer ce jour-là garde la série (joker utilisé), le lendemain elle est perdue
+  const av = { ...aventureVide(), serie: { jours: 4, record: 4, dernier: '2026-11-16', jokers: 1 } }
+  const jour = derniereChance(av.serie)
+  assert.equal(jour, '2026-11-18')
+  assert.equal(enregistrerActivite(av, jour).av.serie.jours, 5)
+  assert.ok(enregistrerActivite(av, ajouterJours(jour, 1)).evenements.some((e) => e.type === 'serie-perdue'))
+})
+
+test('rappels : rien la nuit (21 h – 8 h), avant l’heure choisie ni si l’on a joué ce jour-là ; sinon le rappel du jour', () => {
+  const etat = etatRappels({ rappel: true, serie: false, heure: 18 }, { jours: 3, record: 3, dernier: '2026-11-16', jokers: 2 }, RAPPEL_SALLE)
+  for (const [h, m] of [[0, 15], [7, 59], [8, 0], [12, 0], [17, 59], [21, 0], [23, 30]]) assert.equal(choisirRappel(etat, null, le(h, m)), null, `${h} h ${m}`)
+  const r = choisirRappel(etat, null, le(18))
+  assert.deepEqual([r.type, r.url, r.corps], ['rappel', '#/?salle=carthage', 'Prochaine salle : Carthage.'])
+  assert.ok(choisirRappel(etat, null, le(20, 59)))
+  assert.equal(choisirRappel({ ...etat, joue: '2026-11-18' }, null, le(19)), null)
+  assert.equal(choisirRappel(etat, noterEnvoi(null, '2026-11-18', 'rappel'), le(20)), null) // une fois par jour
+  assert.ok(choisirRappel(etat, noterEnvoi(null, '2026-11-17', 'rappel'), le(20))) // le journal d'hier ne compte plus
+  const tard = etatRappels({ rappel: true, heure: 20 }, null, RAPPEL_SALLE)
+  assert.equal(choisirRappel(tard, null, le(19, 30)), null)
+  assert.ok(choisirRappel(tard, null, le(20)))
+  assert.equal(choisirRappel(etatRappels({ rappel: false, serie: false, heure: 18 }, null, RAPPEL_SALLE), null, le(19)), null)
+  assert.equal(choisirRappel(undefined, null, le(19)), null)
+  for (let h = 0; h < 24; h++) for (const heure of [17, 18, 19, 20]) {
+    const c = choisirRappel(etatRappels({ rappel: true, serie: true, heure }, null, null), null, le(h))
+    assert.equal(Boolean(c), h >= heure && h < NUIT.debut, `${h} h, à partir de ${heure} h`)
+  }
+})
+
+test('rappels : « série en danger » d’abord, une fois par jour ; plus rien après elle ; 2 notifications par jour au plus', () => {
+  const serie = { jours: 6, record: 6, dernier: '2026-11-17', jokers: 0 } // dernière chance : le 18
+  const tout = etatRappels({ rappel: true, serie: true, heure: 18 }, serie, RAPPEL_SALLE)
+  const s = choisirRappel(tout, null, le(19))
+  assert.deepEqual([s.type, s.titre, s.corps, s.url], ['serie', 'Ta série de 6 jours va s’arrêter', 'Termine une étape avant minuit pour la garder. Prochaine salle : Carthage.', '#/?salle=carthage'])
+  assert.equal(choisirRappel(tout, noterEnvoi(null, '2026-11-18', 'serie'), le(20)), null)
+  let journal = noterEnvoi(null, '2026-11-18', 'rappel') // rappel montré, puis « série en danger » allumée dans la soirée
+  assert.equal(choisirRappel(tout, journal, le(20)).type, 'serie')
+  journal = noterEnvoi(journal, '2026-11-18', 'serie')
+  assert.deepEqual(journal.envoyes, ['rappel', 'serie'])
+  assert.equal(choisirRappel(tout, journal, le(20, 30)), null)
+  assert.equal(choisirRappel(tout, journal, le(19, 0, 19)).type, 'rappel') // le 19 : série perdue, rappel du jour seulement
+  // série d'un jour, ou sauvée par un joker : pas d'alerte ce soir
+  const seulement = { rappel: false, serie: true, heure: 18 }
+  assert.equal(choisirRappel(etatRappels(seulement, { ...serie, jours: 1 }, RAPPEL_SALLE), null, le(19)), null)
+  const joker = etatRappels(seulement, { ...serie, jokers: 1 }, RAPPEL_SALLE)
+  assert.equal(choisirRappel(joker, null, le(19)), null)
+  assert.equal(choisirRappel(joker, null, le(19, 0, 19)).type, 'serie') // le joker repousse la dernière chance d'un jour
+  assert.equal(choisirRappel({ ...joker, joue: '2026-11-19' }, null, le(19, 0, 19)), null)
+})
+
+test('rappels : textes (titre qui change chaque jour, séance commencée, chemin fini) ; heure inconnue → 18 h', () => {
+  assert.equal(new Set([0, 1, 2].map((k) => texteRappel(RAPPEL_SALLE, ajouterJours('2026-11-18', k)).titre)).size, 3)
+  assert.equal(texteRappel(RAPPEL_SALLE, '2026-11-18').titre, texteRappel(RAPPEL_SALLE, '2026-11-21').titre)
+  assert.equal(texteRappel({ ...RAPPEL_SALLE, reprendre: true }, '2026-11-18').corps, 'Reprends ta séance : Carthage.')
+  assert.equal(texteRappel(null, '2026-11-18').corps, 'Des épreuves et des annexes t’attendent encore sur la carte.')
+  assert.equal(choisirRappel(etatRappels({ rappel: true, heure: 18 }, null, null), null, le(19)).url, '#/')
+  assert.equal(etatRappels({ rappel: true, heure: 15 }, null).reglages.heure, 18)
+  assert.deepEqual(etatRappels(null, null), { v: 1, reglages: { rappel: false, serie: false, heure: 18 }, joue: null, serie: { jours: 0, derniereChance: null }, salle: null })
+})
+
+test('rappels : inscription, puis réinscription une fois par jour quand l’app est ouverte dans la plage du rappel', () => {
+  const heure = 18
+  assert.equal(fautInscrire({ inscrit: false }, le(10)), true)
+  assert.equal(fautInscrire({ inscrit: true, inscriteLe: null, heure }, le(10)), false) // hors plage : on garde l'inscription
+  assert.equal(fautInscrire({ inscrit: true, inscriteLe: le(10).getTime(), heure }, le(19)), true) // inscrite ce matin : recalée
+  assert.equal(fautInscrire({ inscrit: true, inscriteLe: le(18, 30).getTime(), heure }, le(19)), false) // déjà calée aujourd'hui
+  assert.equal(fautInscrire({ inscrit: true, inscriteLe: le(18, 30, 17).getTime(), heure }, le(19)), true) // calée hier : recalée
+  assert.equal(fautInscrire({ inscrit: true, inscriteLe: le(18, 30, 17).getTime(), heure: 20 }, le(19)), false) // avant l'heure choisie
+  assert.equal(fautInscrire({ inscrit: true, inscriteLe: le(18, 30, 17).getTime(), heure }, le(21, 5)), false) // la nuit
+})
+
+test('service worker : rappels.js recopié dans sw.js (script classique valide, mêmes décisions)', () => {
+  const sw = readFileSync(new URL('../sw/sw.js', import.meta.url), 'utf8')
+  const rappels = readFileSync(new URL('../src/lib/rappels.js', import.meta.url), 'utf8')
+  const code = codeServiceWorker({ sw, rappels, version: 'essai', precache: ['./', './index.html'] })
+  assert.doesNotThrow(() => new vm.Script(code, { filename: 'sw.js' })) // ni import, ni export, ni nom déclaré deux fois
+  assert.ok(!/^\s*(import|export)\b/m.test(code) && !code.includes('__RAPPELS__') && !code.includes('__PRECACHE__') && !code.includes('__VERSION__'))
+  for (const nom of ['periodicsync', 'notificationclick', 'choisirRappel(etat, journal, maintenant)', "lireRappels('etat')", "ecrireRappels('journal'"]) assert.ok(code.includes(nom), nom)
+  const ctx = vm.createContext({})
+  vm.runInContext(`${codeRappels(rappels)}\nthis.choisir = choisirRappel; this.etat = etatRappels`, ctx)
+  const serie = { jours: 6, record: 6, dernier: '2026-11-17', jokers: 0 }
+  for (const h of [7, 18, 19, 22]) for (const reglages of [{ rappel: true, heure: 18 }, { serie: true, heure: 19 }, { rappel: true, serie: true, heure: 17 }]) {
+    const attendu = choisirRappel(etatRappels(reglages, serie, RAPPEL_SALLE), null, le(h))
+    assert.equal(JSON.stringify(ctx.choisir(ctx.etat(reglages, serie, RAPPEL_SALLE), null, le(h))), JSON.stringify(attendu))
+  }
+  assert.throws(() => codeRappels("import { x } from './y.js'\nexport const a = 1"), /importer/)
+  assert.throws(() => codeRappels('export default 1'), /recopiables/)
+})
+
+console.log(`✅ Aventure : ${n} tests réussis (chemin, ouverture, à rattraper, étoiles, XP, rangs, progression, migrations, épreuve sur les cartes vues, défis, questions éclair, questions des cartes, carte du parcours, écrans d’une salle, profil et collections, rappels et service worker, validateur).`)

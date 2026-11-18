@@ -117,7 +117,7 @@ export default {
       kicker: 'Architecture',
       value: '≈ 35 m',
       label: 'de haut pour la voûte du palais de Ctésiphon',
-      caption: "La grande salle du palais des rois, le Taq Kasra, est couverte de l'une des plus grandes voûtes de brique jamais construites. Elle se dresse toujours au sud de Bagdad.",
+      caption: "Ctésiphon est la capitale des rois sassanides. La grande salle de leur palais, le Taq Kasra, est couverte de l'une des plus grandes voûtes de brique jamais construites. Elle se dresse toujours au sud de Bagdad.",
     },
     {
       id: 'boran',

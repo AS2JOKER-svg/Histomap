@@ -158,6 +158,7 @@ export default {
     { id: 'anatolie', carte: 'migrations', type: 'mcq', prompt: 'D’après l’ADN ancien, d’où venaient de nombreux premiers paysans d’Europe ?', options: ["D'Anatolie (actuelle Turquie)", "D'Égypte", "D'Inde", "D'Islande"], answer: 0 },
     { id: 'ordre', carte: ['courants', 'violence', 'otzi', 'bronze'], type: 'order', prompt: "Remettez dans l'ordre chronologique.", items: ['Premiers villages agricoles en Grèce', 'Massacre de Talheim', 'Mort d’Ötzi', 'Début de l’âge du bronze en Europe de l’Ouest'] },
     { id: 'bronze', carte: 'bronze', type: 'mcq', prompt: 'Le bronze est un mélange de cuivre et de…', options: ["Étain", 'Fer', 'Plomb', 'Argent'], answer: 0 },
+    { id: 'haches-polies', carte: 'village', type: 'mcq', prompt: 'Avec quels outils les premiers paysans d’Europe défrichent-ils la forêt ?', options: ['Des haches en pierre polie', 'Des haches en fer', 'Des scies en bronze', 'Des charrues tirées par des chevaux'], answer: 0 },
   ],
 
   recap: [

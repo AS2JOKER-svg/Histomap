@@ -41,7 +41,7 @@ export default {
         { year: -3300, label: "L'écriture apparaît à Uruk (Sumer)" },
         { year: -2334, label: "Sargon fonde l'empire d'Akkad, premier empire de l'histoire" },
         { year: -1792, label: 'Hammurabi devient roi de Babylone' },
-        { year: -900, label: "L'Assyrie domine tout le Proche-Orient" },
+        { year: -900, label: "L'Assyrie part à la conquête du Proche-Orient" },
         { year: -605, label: 'Nabuchodonosor II, roi de Babylone' },
         { year: -539, label: 'Le Perse Cyrus prend Babylone' },
       ],

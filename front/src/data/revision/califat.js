@@ -61,7 +61,7 @@ export default {
       kicker: 'Durée',
       title: 'Deux grandes dynasties',
       items: [
-        { year: 661, label: 'Les Omeyyades, capitale Damas' },
+        { year: 661, label: 'Les Omeyyades prennent le pouvoir, avec Damas pour capitale' },
         { year: 691, label: 'Achèvement du Dôme du Rocher à Jérusalem' },
         { year: 750, label: 'Les Abbassides prennent le pouvoir' },
         { year: 762, label: 'Fondation de Bagdad, nouvelle capitale' },
@@ -164,6 +164,7 @@ export default {
     { id: 'talas', carte: 'papier', type: 'mcq', prompt: 'Quel savoir-faire chinois se diffuse après la bataille de Talas (751) ?', options: ['Le papier', 'La poudre', 'La boussole', 'La porcelaine'], answer: 0 },
     { id: '1258', carte: 'bagdad-1258', type: 'mcq', prompt: 'Qui saccage Bagdad en 1258 ?', options: ['Les Mongols', 'Les croisés', 'Les Byzantins', 'Les Ottomans'], answer: 0 },
     { id: 'fatimides', carte: 'fragmentation', type: 'tf', prompt: 'Les Fatimides sont une dynastie chiite installée au Caire.', answer: true },
+    { id: 'espagne-indus', carte: 'taille', type: 'mcq', prompt: 'Vers 750, de quelle région à quelle autre s’étend le califat omeyyade ?', options: ['De l’Espagne à l’Indus', 'Du Maroc à l’Égypte', 'De la Perse à la Chine', 'De la Grèce à l’Arabie'], answer: 0 },
   ],
 
   recap: [

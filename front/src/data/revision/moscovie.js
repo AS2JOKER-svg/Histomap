@@ -165,6 +165,7 @@ export default {
     { id: 'tsar', carte: 'troisieme-rome', type: 'mcq', prompt: 'De quel mot vient le titre de « tsar » ?', options: ['César', 'Khan', 'Pharaon', 'Shah'], answer: 0 },
     { id: 'roublev', carte: 'roublev', type: 'mcq', prompt: 'Quel peintre réalise l’icône de la Trinité ?', options: ['Andreï Roublev', 'Léonard de Vinci', 'Rembrandt', 'Ilia Répine'], answer: 0 },
     { id: 'ordre', carte: ['chronologie', 'koulikovo', 'ougra'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Daniel, prince de Moscou', 'Bataille de Koulikovo', 'Halte sur l’Ougra', 'Ivan IV couronné tsar'] },
+    { id: 'dormition', carte: 'kremlin', type: 'mcq', prompt: 'Dans quelle cathédrale du Kremlin les tsars seront-ils couronnés ?', options: ['La cathédrale de la Dormition', 'Notre-Dame de Paris', 'La basilique Saint-Pierre', 'Sainte-Sophie de Constantinople'], answer: 0 },
   ],
 
   recap: [

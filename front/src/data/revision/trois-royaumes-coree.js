@@ -61,7 +61,7 @@ export default {
       role: 'Reine de Silla',
       dates: 'règne 632 – 647',
       description:
-        "Première femme à régner sur un royaume coréen, elle fait construire l'observatoire de Cheomseongdae et prépare l'alliance avec la Chine qui permettra l'unification.",
+        "Première femme à régner sur un royaume coréen, elle fait construire l'observatoire de Cheomseongdae et prépare l'alliance avec la Chine qui permettra l'unification. Deux autres reines régneront après elle sur Silla.",
     },
     {
       id: 'unification',
@@ -154,7 +154,7 @@ export default {
     { id: 'salsu', carte: 'sui', type: 'mcq', prompt: 'Quelle armée Koguryo écrase-t-il à la rivière Salsu en 612 ?', options: ['Une armée chinoise des Sui', 'Une armée japonaise', 'Une armée mongole', 'Une armée de Silla'], answer: 0 },
     { id: 'japon', carte: 'paekche', type: 'mcq', prompt: 'Quel royaume coréen transmet le bouddhisme au Japon ?', options: ['Paekche', 'Koguryo', 'Silla', 'Goryeo'], answer: 0 },
     { id: 'seondeok', carte: 'seondeok', type: 'mcq', prompt: 'Qui est la première reine régnante de l’histoire coréenne ?', options: ['Seondeok', 'Himiko', 'Suiko', 'Razia'], answer: 0 },
-    { id: 'reines', carte: null, type: 'tf', prompt: 'Silla est gouverné à trois reprises par une reine.', answer: true },
+    { id: 'reines', carte: 'seondeok', type: 'tf', prompt: 'Silla est gouverné à trois reprises par une reine.', answer: true },
     { id: 'allie', carte: 'unification', type: 'mcq', prompt: 'Avec quelle puissance Silla s’allie-t-il pour vaincre ses rivaux ?', options: ['La Chine des Tang', 'Le Japon', 'L’Empire mongol', 'Le Tibet'], answer: 0 },
     { id: 'unification', carte: 'unification', type: 'mcq', prompt: 'En quelle année Silla chasse-t-il les Tang et unifie-t-il la péninsule ?', options: ['676', '1392', '935', '57'], answer: 0 },
     { id: 'capitale', carte: 'gyeongju', type: 'mcq', prompt: 'Quelle est la capitale de Silla ?', options: ['Gyeongju', 'Séoul', 'Pyongyang', 'Nara'], answer: 0 },

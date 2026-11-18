@@ -51,7 +51,7 @@ export default {
       kicker: 'Économie',
       title: 'L’âge d’or',
       body:
-        "De 1880 à 1930, la viande et les céréales de la Pampa, exportées vers l'Europe, font de l'Argentine l'un des pays les plus riches du monde. Des millions d'Italiens et d'Espagnols viennent s'y installer.",
+        "De 1880 à 1930, la viande et les céréales de la Pampa, exportées vers l'Europe, font de l'Argentine l'un des pays les plus riches du monde. Des millions d'Italiens et d'Espagnols viennent s'y installer. En 1930, un premier coup d'État militaire ouvre une période d'instabilité : jusqu'en 1976, l'armée renverse à plusieurs reprises les gouvernements.",
     },
     {
       id: 'peron',
@@ -156,7 +156,7 @@ export default {
     { id: 'immigrants', carte: 'age-or', type: 'mcq', prompt: 'D’où viennent surtout les immigrants arrivés entre 1880 et 1930 ?', options: ['D’Italie et d’Espagne', 'De Chine et du Japon', 'D’Afrique', 'Des États-Unis'], answer: 0 },
     { id: 'pampa', carte: 'age-or', type: 'mcq', prompt: 'Qu’exporte la Pampa vers l’Europe ?', options: ['De la viande et des céréales', 'Du pétrole', 'Du café', 'De l’or'], answer: 0 },
     { id: 'evita', carte: 'peron', type: 'mcq', prompt: 'Quel est le surnom d’Eva Perón ?', options: ['Evita', 'La Pasionaria', 'La Madre', 'Mafalda'], answer: 0 },
-    { id: 'coups', carte: ['peron', 'chronologie'], type: 'tf', prompt: 'De 1930 à 1976, l’Argentine connaît de nombreux coups d’État militaires.', answer: true },
+    { id: 'coups', carte: 'age-or', type: 'tf', prompt: 'De 1930 à 1976, l’Argentine connaît de nombreux coups d’État militaires.', answer: true },
     { id: 'disparus', carte: 'dictature', type: 'mcq', prompt: 'Comment appelle-t-on les opposants enlevés et tués par la dictature de 1976-1983 ?', options: ['Les disparus', 'Les exilés', 'Les réfugiés', 'Les rebelles'], answer: 0 },
     { id: 'meres', carte: 'meres', type: 'mcq', prompt: 'Qui manifeste chaque jeudi pour retrouver les disparus ?', options: ['Les Mères de la place de Mai', 'Les étudiants de Buenos Aires', 'Les soldats', 'Les évêques'], answer: 0 },
     { id: 'malouines', carte: 'malouines', type: 'mcq', prompt: 'Contre quel pays l’Argentine perd-elle la guerre des Malouines en 1982 ?', options: ['Le Royaume-Uni', 'Le Chili', 'Le Brésil', 'Les États-Unis'], answer: 0 },

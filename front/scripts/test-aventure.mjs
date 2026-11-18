@@ -566,6 +566,38 @@ test('cartes : date de tête retirée, vainqueur sans ambiguïté, nom masqué',
   assert.equal(masquerNom('Hannibal Barca part d’Espagne ; Hannibal écrase Rome.', 'Hannibal Barca').texte, '… part d’Espagne ; … écrase Rome.')
 })
 
+// ── Sprint 34 : relecture des questions générées du tronc ──
+test('cartes : un seul « … » par nom masqué, leurres de date de la même ère, aucun leurre pendant un conflit long', () => {
+  // « Mary Leakey y découvre » → « … y découvre », pas « … … y découvre »
+  assert.equal(masquerNom('Mary Leakey y découvre un crâne.', 'Louis et Mary Leakey').texte, '… y découvre un crâne.')
+  // « askia » est un titre : le père d'Askia Daoud reste lisible
+  assert.equal(masquerNom('Fils d’Askia Mohammed, il règne trente ans.', 'Askia Daoud').texte, 'Fils d’Askia Mohammed, il règne trente ans.')
+  const ere = (t) => String(t).includes('av. J.-C.')
+  let annees = 0
+  for (const [civId, ch] of Object.entries(HANDWRITTEN)) {
+    for (const q of questionsDesCartes(ch.cards, { personnes: [] })) {
+      if (!/-annee(-|$)/.test(q.id)) continue
+      annees++
+      // pas de « 1995 » pour une date de 9600 av. J.-C., pas de « 66 » pour « 66 av. J.-C. »
+      for (const o of q.options) assert.equal(ere(o), ere(q.options[0]), `${civId}/${q.id} : leurre « ${o} » d'une autre ère`)
+      const c = ch.cards.find((x) => x.id === q.carte)
+      if (c.type === 'war' && typeof c.fin === 'number') {
+        for (const o of q.options.slice(1)) {
+          const y = Number(o.replace(/\D/g, '')) * (ere(o) ? -1 : 1)
+          assert.ok(y < c.annee || y > c.fin, `${civId}/${q.id} : leurre ${o} pendant le conflit (${c.annee}-${c.fin})`)
+        }
+      }
+    }
+  }
+  assert.ok(annees > 700, `${annees} questions de date`)
+  // conflit long : sans `fin`, un leurre pourrait tomber pendant le conflit ; avec `fin`, jamais
+  const guerre = { id: 'mousquets', tier: 1, type: 'war', nom: 'Guerres des mousquets', annee: 1807, adversaires: ['A'], allies: ['B'], vainqueur: 'Aucun' }
+  for (const fin of [1842, 1950]) {
+    const [q] = questionsDesCartes([{ ...guerre, fin }])
+    assert.ok(q.options.slice(1).every((o) => Number(o) < 1807 || Number(o) > fin), `fin ${fin} : ${q.options}`)
+  }
+})
+
 test('cartes : sur les 214 chapitres, questions générées sûres, reliées à leur carte et stables', () => {
   let total = 0
   for (const [civId, ch] of Object.entries(HANDWRITTEN)) {

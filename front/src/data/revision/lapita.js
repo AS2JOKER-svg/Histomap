@@ -157,6 +157,7 @@ export default {
     { id: 'obsidienne', carte: 'obsidienne', type: 'mcq', prompt: 'Qu’est-ce que l’obsidienne ?', options: ['Une pierre volcanique tranchante', 'Un poisson', 'Une plante', 'Un tissu'], answer: 0 },
     { id: 'hokulea', carte: 'hokulea', type: 'tf', prompt: 'En 1976, la pirogue Hōkūleʻa relie Hawaï à Tahiti sans instrument.', answer: true },
     { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Archipel Bismarck', 'Cimetière de Teouma (Vanuatu)', 'Arrivée à Samoa', 'Départ vers la Polynésie orientale'] },
+    { id: 'polynesiennes', carte: 'langues', type: 'mcq', prompt: 'Quelles langues actuelles descendent de celles des Lapita ?', options: ['Les langues polynésiennes, comme le maori et le hawaïen', 'Les langues bantoues d’Afrique', 'Les langues celtiques', 'Les langues amérindiennes'], answer: 0 },
   ],
 
   recap: [

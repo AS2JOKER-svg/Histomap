@@ -29,7 +29,7 @@ export default {
       role: 'Premier roi de Hongrie',
       dates: 'règne 1000 – 1038',
       description:
-        "Couronné en l'an 1000, il convertit son peuple au christianisme, fonde des évêchés et organise le royaume en comtés. Il devient saint ; sa fête, le 20 août, est la fête nationale hongroise.",
+        "Couronné en l'an 1000, il convertit son peuple au christianisme catholique, celui de Rome, fonde des évêchés et organise le royaume en comtés. Il devient saint ; sa fête, le 20 août, est la fête nationale hongroise.",
     },
     {
       id: 'bulle',
@@ -151,7 +151,7 @@ export default {
     { id: 'lechfeld', carte: 'magyars', type: 'mcq', prompt: 'Quelle défaite met fin aux raids hongrois en 955 ?', options: ['Le Lechfeld', 'Mohács', 'Mohi', 'Belgrade'], answer: 0 },
     { id: 'etienne', carte: 'etienne', type: 'mcq', prompt: 'Qui est le premier roi de Hongrie ?', options: ['Étienne Ier', 'Matthias Corvin', 'Béla IV', 'Louis II'], answer: 0 },
     { id: 'an1000', carte: 'etienne', type: 'mcq', prompt: 'Vers quelle année Étienne Ier est-il couronné ?', options: ['1000', '1526', '895', '1241'], answer: 0 },
-    { id: 'religion', carte: null, type: 'mcq', prompt: 'Quelle religion adopte la Hongrie ?', options: ['Le catholicisme', 'L’islam', 'L’orthodoxie', 'Le bouddhisme'], answer: 0 },
+    { id: 'religion', carte: 'etienne', type: 'mcq', prompt: 'Quelle religion adopte la Hongrie ?', options: ['Le catholicisme', 'L’islam', 'L’orthodoxie', 'Le bouddhisme'], answer: 0 },
     { id: 'bulle', carte: 'bulle', type: 'mcq', prompt: 'Comment s’appelle le texte de 1222 qui limite le pouvoir du roi ?', options: ['La Bulle d’or', 'La Grande Charte', 'L’édit de Nantes', 'Le Code civil'], answer: 0 },
     { id: 'mongols', carte: 'mongols', type: 'mcq', prompt: 'Qui ravage la Hongrie en 1241 ?', options: ['Les Mongols', 'Les Ottomans', 'Les Vikings', 'Les Francs'], answer: 0 },
     { id: 'chateaux', carte: 'mongols', type: 'tf', prompt: 'Après l’invasion mongole, Béla IV fait construire des châteaux de pierre.', answer: true },

@@ -10,7 +10,7 @@ export default {
       kicker: 'Origines',
       title: 'La prise d’Alger',
       body:
-        "En 1830, l'armée française débarque et prend Alger, alors sous la souveraineté de l'Empire ottoman. C'est le début d'une conquête longue et violente.",
+        "En 1830, l'armée française débarque et prend Alger, l'actuelle capitale, alors sous la souveraineté de l'Empire ottoman. C'est le début d'une conquête longue et violente.",
       highlight: { value: '1830', label: 'prise d’Alger' },
     },
     {
@@ -30,7 +30,7 @@ export default {
       kicker: 'Territoire',
       title: 'L’Algérie',
       years: [1880, 1960],
-      caption: 'Comparez : la colonisation s’étend vers le sud ; l’Algérie indépendante inclut une immense partie du Sahara.',
+      caption: 'Comparez : la colonisation s’étend vers le sud ; l’Algérie indépendante inclut une immense partie du Sahara : c’est aujourd’hui le plus grand pays d’Afrique.',
     },
     {
       id: 'colonie',
@@ -145,7 +145,7 @@ export default {
   ],
 
   quiz: [
-    { id: 'capitale', carte: null, type: 'mcq', prompt: 'Quelle est la capitale de l’Algérie ?', options: ['Alger', 'Oran', 'Constantine', 'Tunis'], answer: 0 },
+    { id: 'capitale', carte: 'prise', type: 'mcq', prompt: 'Quelle est la capitale de l’Algérie ?', options: ['Alger', 'Oran', 'Constantine', 'Tunis'], answer: 0 },
     { id: 'conquete', carte: 'prise', type: 'mcq', prompt: 'Quel pays prend Alger en 1830 ?', options: ['La France', 'L’Espagne', 'Le Royaume-Uni', 'L’Italie'], answer: 0 },
     { id: 'ottoman', carte: 'prise', type: 'tf', prompt: 'En 1830, Alger est sous la souveraineté de l’Empire ottoman.', answer: true },
     { id: 'emir', carte: 'abd-el-kader', type: 'mcq', prompt: 'Quel émir mène la résistance à la conquête française ?', options: ['Abd el-Kader', 'Messali Hadj', 'Ben Bella', 'Saladin'], answer: 0 },
@@ -159,7 +159,7 @@ export default {
     { id: 'harkis', carte: 'depart', type: 'mcq', prompt: 'Qui sont les harkis ?', options: ['Des Algériens ayant servi dans l’armée française', 'Des soldats du FLN', 'Des colons espagnols', 'Des soldats ottomans'], answer: 0 },
     { id: 'parti', carte: 'independante', type: 'tf', prompt: 'Après l’indépendance, le FLN gouverne en parti unique jusqu’en 1989.', answer: true },
     { id: 'annees90', carte: 'independante', type: 'mcq', prompt: 'Qui s’affrontent dans la guerre civile des années 1990 ?', options: ['L’armée et des groupes islamistes armés', 'L’Algérie et le Maroc', 'La France et le FLN', 'Les Kabyles et les Touaregs'], answer: 0 },
-    { id: 'superficie', carte: null, type: 'mcq', prompt: 'Quelle particularité a l’Algérie en Afrique ?', options: ['C’est le plus grand pays par sa superficie', 'C’est le pays le plus peuplé', 'C’est le plus petit pays', 'C’est le seul pays sans désert'], answer: 0 },
+    { id: 'superficie', carte: 'carte', type: 'mcq', prompt: 'Quelle particularité a l’Algérie en Afrique ?', options: ['C’est le plus grand pays par sa superficie', 'C’est le pays le plus peuplé', 'C’est le plus petit pays', 'C’est le seul pays sans désert'], answer: 0 },
     { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Prise d’Alger', 'Reddition d’Abd el-Kader', 'Début de la guerre d’Algérie', 'Indépendance'] },
   ],
 

@@ -29,7 +29,7 @@ export default {
       kicker: 'Croyances',
       title: 'L’arrivée du bouddhisme',
       body:
-        "Au IIIe siècle av. J.-C., selon la tradition, le moine Mahinda, fils de l'empereur indien Ashoka, convertit le roi Devanampiya Tissa. Le bouddhisme theravada devient la religion du royaume.",
+        "Au IIIe siècle av. J.-C., selon la tradition, le moine Mahinda, fils d'Ashoka, empereur maurya de l'Inde, convertit le roi Devanampiya Tissa. Le bouddhisme theravada devient la religion du royaume.",
     },
     {
       id: 'bodhi',
@@ -149,7 +149,7 @@ export default {
     { id: 'duree', carte: 'capitale', type: 'mcq', prompt: 'Pendant combien de temps environ Anuradhapura est-elle capitale ?', options: ['Plus de mille ans', 'Dix ans', 'Un siècle', 'Cinquante ans'], answer: 0 },
     { id: 'religion', carte: 'bouddhisme', type: 'mcq', prompt: 'Quelle religion devient celle du royaume ?', options: ['Le bouddhisme', 'L’islam', 'Le christianisme', 'Le zoroastrisme'], answer: 0 },
     { id: 'mahinda', carte: 'bouddhisme', type: 'mcq', prompt: 'Selon la tradition, qui apporte le bouddhisme à Sri Lanka ?', options: ['Mahinda, fils d’Ashoka', 'Faxian', 'Alexandre le Grand', 'Marco Polo'], answer: 0 },
-    { id: 'ashoka', carte: null, type: 'mcq', prompt: 'De quel empire indien vient le moine Mahinda ?', options: ['L’empire maurya', 'L’empire moghol', 'L’empire gupta', 'L’empire chola'], answer: 0 },
+    { id: 'ashoka', carte: 'bouddhisme', type: 'mcq', prompt: 'De quel empire indien vient le moine Mahinda ?', options: ['L’empire maurya', 'L’empire moghol', 'L’empire gupta', 'L’empire chola'], answer: 0 },
     { id: 'bodhi', carte: 'bodhi', type: 'tf', prompt: 'Un arbre sacré, lié selon la tradition à l’Éveil du Bouddha, est toujours vénéré à Anuradhapura.', answer: true },
     { id: 'reservoirs', carte: 'reservoirs', type: 'mcq', prompt: 'À quoi servent les grands réservoirs creusés par les rois ?', options: ['À irriguer les rizières', 'À élever des poissons rares', 'À défendre la ville', 'À produire du sel'], answer: 0 },
     { id: 'stupa', carte: 'stupas', type: 'mcq', prompt: 'Qu’est-ce qu’un stupa ?', options: ['Un monument en dôme qui abrite des reliques', 'Une forteresse', 'Un bateau', 'Un réservoir'], answer: 0 },

@@ -149,7 +149,7 @@ export default {
     { id: 'nzimbu', carte: 'nzimbu', type: 'mcq', prompt: 'Que sont les nzimbu ?', options: ['Des coquillages servant de monnaie', 'Des statues royales', 'Des guerriers', 'Des pirogues'], answer: 0 },
     { id: 'luanda', carte: 'nzimbu', type: 'mcq', prompt: 'Près de quelle île, propriété du roi, récolte-t-on les nzimbu ?', options: ["L'île de Luanda", 'Madagascar', 'Zanzibar', "L'île de Gorée"], answer: 0 },
     { id: 'raphia', carte: 'societe', type: 'mcq', prompt: 'Avec quelle fibre les Kongo tissent-ils leurs étoffes ?', options: ['Le raphia', 'La soie', 'La laine', 'Le lin'], answer: 0 },
-    { id: 'provinces', carte: 'bapteme', type: 'tf', prompt: 'Le roi du Kongo nomme des gouverneurs à la tête des provinces.', answer: true },
+    { id: 'provinces', carte: 'provinces', type: 'tf', prompt: 'Le roi du Kongo nomme des gouverneurs à la tête des provinces.', answer: true },
     { id: 'nkisi', carte: 'croyances', type: 'mcq', prompt: 'Comment appelle-t-on les objets rituels censés contenir des forces protectrices ?', options: ['Les nkisi', 'Les nzimbu', 'Les padrões', 'Les griots'], answer: 0 },
     { id: 'cao', carte: 'contact', type: 'mcq', prompt: "Quel navigateur portugais atteint l'embouchure du fleuve Congo en 1482 ?", options: ['Diogo Cão', 'Vasco de Gama', 'Christophe Colomb', 'Bartolomeu Dias'], answer: 0 },
     { id: 'padrao', carte: 'diogo-cao', type: 'mcq', prompt: "Qu'est-ce qu'un padrão ?", options: ['Une colonne de pierre surmontée d’une croix', 'Un navire portugais', 'Une monnaie kongo', 'Un titre royal'], answer: 0 },
@@ -158,6 +158,7 @@ export default {
     { id: 'soyo', carte: 'bapteme', type: 'tf', prompt: 'Le gouverneur de Soyo est baptisé avant le roi.', answer: true },
     { id: 'ecriture', carte: 'sources', type: 'tf', prompt: "Avant l'arrivée des Portugais, le Kongo utilise l'écriture.", answer: false, explanation: "Son histoire ancienne repose sur des traditions orales et sur l'archéologie." },
     { id: 'ordre', carte: ['fondation', 'contact', 'bapteme'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Fondation du royaume par Lukeni lua Nimi', "Arrivée de Diogo Cão à l'embouchure du Congo", 'Baptême du roi Nzinga a Nkuwu'] },
+    { id: 'roi-choisi', carte: 'provinces', type: 'mcq', prompt: 'Comment le roi du Kongo est-il désigné ?', options: ['Il est choisi parmi les descendants du fondateur', 'Il est nommé par le roi du Portugal', 'Il est tiré au sort parmi tous les habitants', 'Le fils aîné hérite automatiquement du trône'], answer: 0 },
   ],
 
   recap: [

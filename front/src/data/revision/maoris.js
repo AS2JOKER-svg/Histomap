@@ -56,7 +56,7 @@ export default {
       kicker: 'Arts',
       title: 'Moko, sculpture et haka',
       body:
-        "Le tatouage du visage (moko), la sculpture sur bois des maisons de réunion et des pirogues, et le haka, une danse collective, expriment l'identité de chaque tribu.",
+        "Le tatouage du visage (moko), la sculpture sur bois des maisons de réunion et des pirogues, et le haka, une danse collective qui sert aussi à accueillir des invités ou à honorer un mort, expriment l'identité de chaque tribu.",
     },
     {
       id: 'chronologie',
@@ -78,6 +78,7 @@ export default {
       type: 'war',
       nom: 'Guerres des mousquets',
       annee: 1807,
+      fin: 1842,
       adversaires: ['Tribus maories rivales'],
       allies: ['Tribus maories'],
       vainqueur: 'Aucun (guerres entre tribus)',
@@ -151,7 +152,7 @@ export default {
     { id: 'iwi', carte: 'iwi', type: 'mcq', prompt: 'Comment s’appelle une tribu maorie ?', options: ['Un iwi', 'Un clan écossais', 'Un ayllu', 'Un calpulli'], answer: 0 },
     { id: 'pa', carte: 'pa', type: 'mcq', prompt: 'Qu’est-ce qu’un pā ?', options: ['Un village fortifié', 'Un chef', 'Une danse', 'Une pierre'], answer: 0 },
     { id: 'moko', carte: 'culture', type: 'mcq', prompt: 'Comment s’appelle le tatouage du visage maori ?', options: ['Le moko', 'Le haka', 'Le tiki', 'Le tapu'], answer: 0 },
-    { id: 'haka', carte: 'marae', type: 'tf', prompt: 'Le haka sert aussi à accueillir des invités ou à rendre hommage à un mort.', answer: true },
+    { id: 'haka', carte: 'culture', type: 'tf', prompt: 'Le haka sert aussi à accueillir des invités ou à rendre hommage à un mort.', answer: true },
     { id: 'pounamu', carte: 'pounamu', type: 'mcq', prompt: 'Que fabrique-t-on avec le pounamu, la pierre verte ?', options: ['Des outils, des armes et des bijoux', 'Des maisons', 'Des pirogues', 'Des vêtements'], answer: 0 },
     { id: 'cook', carte: 'chronologie', type: 'mcq', prompt: 'Quel navigateur britannique fait le tour de la Nouvelle-Zélande en 1769 ?', options: ['James Cook', 'Abel Tasman', 'Magellan', 'Vasco de Gama'], answer: 0 },
     { id: 'mousquets', carte: 'chronologie', type: 'mcq', prompt: 'Quelle arme bouleverse les guerres entre tribus au début du XIXe siècle ?', options: ['Le mousquet', 'L’arc', 'Le canon', 'L’épée'], answer: 0 },

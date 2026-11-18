@@ -29,7 +29,7 @@ export default {
       kicker: 'Société',
       title: 'Un pays aux nombreux peuples',
       body:
-        "Le Nigeria compte plus de 250 groupes ethniques et plus de 500 langues. Les plus nombreux sont les Haoussas et les Peuls au nord, les Yorubas au sud-ouest et les Igbos au sud-est.",
+        "Pays le plus peuplé d'Afrique, le Nigeria compte plus de 250 groupes ethniques et plus de 500 langues. Les plus nombreux sont les Haoussas et les Peuls au nord, les Yorubas au sud-ouest et les Igbos au sud-est.",
     },
     {
       id: 'religions',
@@ -59,7 +59,7 @@ export default {
       allies: ['Gouvernement fédéral du Nigeria'],
       vainqueur: 'Gouvernement fédéral',
       consequences:
-        "Après des massacres d'Igbos dans le nord, le sud-est fait sécession. Le blocus du Biafra provoque une terrible famine ; la guerre fait entre 500 000 et 2 millions de morts selon les estimations.",
+        "Après des massacres d'Igbos dans le nord, le sud-est fait sécession. Le blocus du Biafra provoque une terrible famine, cause de la plupart des morts : la guerre fait entre 500 000 et 2 millions de morts selon les estimations.",
     },
     {
       id: 'chronologie',
@@ -71,7 +71,7 @@ export default {
         { year: 1914, label: 'Création de la colonie' },
         { year: 1960, label: 'Indépendance' },
         { year: 1967, label: 'Guerre du Biafra' },
-        { year: 1991, label: 'Abuja devient la capitale' },
+        { year: 1991, label: 'Abuja remplace Lagos comme capitale' },
         { year: 1999, label: 'Retour des civils au pouvoir' },
       ],
     },
@@ -144,7 +144,7 @@ export default {
 
   quiz: [
     { id: 'capitale', carte: 'chronologie', type: 'mcq', prompt: 'Quelle est la capitale du Nigeria depuis 1991 ?', options: ['Abuja', 'Lagos', 'Kano', 'Accra'], answer: 0 },
-    { id: 'lagos', carte: null, type: 'mcq', prompt: 'Quelle était la capitale du Nigeria avant 1991 ?', options: ['Lagos', 'Ibadan', 'Kano', 'Enugu'], answer: 0 },
+    { id: 'lagos', carte: 'chronologie', type: 'mcq', prompt: 'Quelle était la capitale du Nigeria avant 1991 ?', options: ['Lagos', 'Ibadan', 'Kano', 'Enugu'], answer: 0 },
     { id: 'colonisateur', carte: 'unification', type: 'mcq', prompt: 'Quel pays colonise le Nigeria ?', options: ['Le Royaume-Uni', 'La France', 'Le Portugal', 'L’Allemagne'], answer: 0 },
     { id: 'creation', carte: 'unification', type: 'mcq', prompt: 'En quelle année le nord et le sud sont-ils réunis en une seule colonie ?', options: ['1914', '1884', '1960', '1945'], answer: 0 },
     { id: 'fleuve', carte: 'nom', type: 'mcq', prompt: 'De quel fleuve le Nigeria tire-t-il son nom ?', options: ['Le Niger', 'Le Nil', 'Le Congo', 'Le Sénégal'], answer: 0 },

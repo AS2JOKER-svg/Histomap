@@ -222,6 +222,9 @@ Pour ajouter des questions rédigées à la main, compléter le tableau `quiz` d
 (une question par ligne, `carte` juste après l'`id` : c'est ainsi que `npm run relier` l'écrit)
 - `answer` = position de la bonne réponse dans `options` (elles sont mélangées à l'affichage).
 - **Ne jamais réutiliser ou renommer un `id`** : il sert à mémoriser les questions ratées.
+- Un énoncé ne doit **pas donner la réponse d'une autre question du chapitre** : deux questions peuvent tomber dans
+  la même épreuve (« Jusqu'à quand la Bohême reste-t-elle aux Habsbourg ? » trahit « À quelle dynastie passe la
+  couronne en 1526 ? »). Vérifier aussi qu'aucun leurre n'est vrai d'après une autre carte.
 - Règles (V3.1, `src/lib/epreuve.js`) : l'**Épreuve** d'une salle du tronc = 12 questions sur les cartes de Découvrir (+ Approfondir s'il est fait), ★ 9, ★★ 11, ★★★ 12 ; la **mini-épreuve** d'une annexe = 8 questions sur ses cartes de Découvrir, ★ 6, ★★ 7, ★★★ 8 ; ≈ 70 % de questions rédigées, le reste généré depuis les cartes ; après une épreuve, 3 questions ratées reviennent (2 pour une annexe). Défis, quiz infini et « À revoir » : cartes de Découvrir et d'Approfondir.
 - **Questions éclair** (Découvrir, Approfondir) : seulement des questions rédigées dont **la carte a été lue** dans la séance (la question du milieu : dans la 1re moitié du paquet), d'après le champ `carte` (`src/lib/eclairs.js`). `npm run eclairs` → `reports/questions-eclair.md` (questions posées, salle par salle).
 
@@ -253,10 +256,17 @@ carte `war`, l'année et, si le vainqueur désigne un seul camp, un vrai / faux 
 réponse possible : pour qu'une carte en donne de bonnes questions,
 - `dates`/`steps` : années **différentes** (deux éléments de la même année ne donnent aucune question) ; libellé
   qui ne contient pas l'année (« Vers 1730 : … » est accepté, la date de tête est retirée) ; « Vers … » ou « selon la
-  tradition » dans le libellé pour une date approximative ;
+  tradition » dans le libellé pour une date approximative ; libellé qui **se comprend seul** et qui **décrit un
+  événement**, car il devient la réponse de « Que se passe-t-il en … ? » (« Entrée de la Grèce », pas « Grèce » ;
+  « Règne de Bindusara, fils de Chandragupta », pas « Règne de son fils Bindusara ») ; les leurres de date sont pris
+  dans la même ère (av. / apr. J.-C.) que la bonne réponse ;
 - `person` : description d'au moins une phrase, qui ne cite pas la personne par un autre nom que `nom` ;
 - `war` : `vainqueur` écrit avec les **mêmes mots** que l'un des camps (« Hannibal » si `allies` dit « Armée
-  d'Hannibal ») ; « Aucun », « Compromis » ou un vainqueur nuancé ne donnent pas de question (c'est voulu).
+  d'Hannibal ») ; « Aucun », « Compromis » ou un vainqueur nuancé ne donnent pas de question (c'est voulu) ; le
+  **premier** nom de chaque camp sert de perdant dans le vrai / faux : y mettre la civilisation elle-même
+  (« Empire byzantin (Constantin XI) », puis « Génois et Vénitiens »), pas un allié ; pour un **conflit long**, le
+  champ facultatif `fin` (année de fin, non affichée) empêche qu'un leurre de date tombe pendant le conflit
+  (« Guerres des mousquets », `annee: 1807`, `fin: 1842` : 1837 n'est plus proposé).
 Les ids générés (`carte-<carte>-annee-<année>`, `-evenement-<année>`, `-ordre`, `-qui`, `-annee`, `-vainqueur`) sont
 stables ; changer l'année d'un élément change sa question.
 

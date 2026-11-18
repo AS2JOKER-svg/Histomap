@@ -38,7 +38,7 @@ export default {
       kicker: 'Société',
       title: 'Des femmes guerrières',
       body:
-        "L'historien grec Hérodote raconte que les Sauromates, ancêtres des Sarmates, descendent des Amazones, des femmes guerrières de la légende. Les archéologues ont en effet trouvé de nombreuses tombes de femmes enterrées avec des armes.",
+        "L'historien grec Hérodote raconte que les Sauromates, ancêtres des Sarmates, descendent des Amazones, des femmes guerrières de la légende. Les archéologues ont en effet trouvé de nombreuses tombes de femmes enterrées avec des armes. Les Sarmates n'ont laissé aucun texte : on les connaît par les auteurs grecs et romains, et par les fouilles.",
     },
     {
       id: 'chariots',
@@ -159,7 +159,7 @@ export default {
     { id: 'epee', carte: 'epee', type: 'mcq', prompt: 'Que vénèrent les Alains, selon Ammien Marcellin ?', options: ['Une épée plantée en terre', 'Un taureau sacré', 'Le soleil levant', 'Un arbre géant'], answer: 0 },
     { id: 'ovide', carte: 'ovide', type: 'mcq', prompt: 'Quel poète romain exilé décrit les Sarmates au bord de la mer Noire ?', options: ['Ovide', 'Virgile', 'Homère', 'Horace'], answer: 0 },
     { id: 'ossetes', carte: 'ossetes', type: 'mcq', prompt: 'Quel peuple actuel parle une langue issue de celle des Alains ?', options: ['Les Ossètes', 'Les Hongrois', 'Les Finlandais', 'Les Basques'], answer: 0 },
-    { id: 'ecriture', carte: null, type: 'tf', prompt: 'Les Sarmates ont laissé de nombreux textes écrits sur leur histoire.', answer: false, explanation: 'Ils n’écrivaient pas : on les connaît par l’archéologie et leurs voisins grecs et romains.' },
+    { id: 'ecriture', carte: 'amazones', type: 'tf', prompt: 'Les Sarmates ont laissé de nombreux textes écrits sur leur histoire.', answer: false, explanation: 'Ils n’écrivaient pas : on les connaît par l’archéologie et leurs voisins grecs et romains.' },
     { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Les Sarmates passent à l’ouest du Don', 'Raid des Roxolans en Mésie', 'Paix avec Marc Aurèle', 'Les Huns soumettent les Alains'] },
   ],
 

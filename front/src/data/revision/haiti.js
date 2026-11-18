@@ -51,7 +51,7 @@ export default {
       kicker: 'Territoire',
       title: 'Haïti',
       years: [1815],
-      caption: 'Haïti occupe l’ouest de l’île d’Hispaniola, qu’il partage avec la République dominicaine.',
+      caption: 'Haïti occupe l’ouest de l’île d’Hispaniola, qu’il partage avec la République dominicaine. Capitale : Port-au-Prince ; langues officielles : le créole haïtien et le français.',
     },
     {
       id: 'independance',
@@ -145,7 +145,7 @@ export default {
   ],
 
   quiz: [
-    { id: 'capitale', carte: null, type: 'mcq', prompt: 'Quelle est la capitale d’Haïti ?', options: ['Port-au-Prince', 'Saint-Domingue', 'La Havane', 'Cap-Haïtien'], answer: 0 },
+    { id: 'capitale', carte: 'carte', type: 'mcq', prompt: 'Quelle est la capitale d’Haïti ?', options: ['Port-au-Prince', 'Saint-Domingue', 'La Havane', 'Cap-Haïtien'], answer: 0 },
     { id: 'ancien-nom', carte: 'saint-domingue', type: 'mcq', prompt: 'Comment s’appelait Haïti quand c’était une colonie française ?', options: ['Saint-Domingue', 'La Martinique', 'La Louisiane', 'La Guadeloupe'], answer: 0 },
     { id: 'richesse', carte: 'saint-domingue', type: 'mcq', prompt: 'Sur quoi repose la richesse de Saint-Domingue ?', options: ['Le sucre produit par des esclaves', 'Les mines d’or', 'La pêche', 'Le pétrole'], answer: 0 },
     { id: 'revolte', carte: 'revolte', type: 'mcq', prompt: 'En quelle année les esclaves de Saint-Domingue se révoltent-ils ?', options: ['1791', '1804', '1825', '1915'], answer: 0 },
@@ -158,7 +158,7 @@ export default {
     { id: 'indemnite', carte: 'dette', type: 'mcq', prompt: 'Qu’exige la France en 1825 pour reconnaître l’indépendance ?', options: ['Une très lourde indemnité', 'Le retour de l’esclavage', 'Une île', 'Un roi français'], answer: 0 },
     { id: 'occupation', carte: 'xxe', type: 'mcq', prompt: 'Quel pays occupe Haïti de 1915 à 1934 ?', options: ['Les États-Unis', 'La France', 'Le Royaume-Uni', 'L’Espagne'], answer: 0 },
     { id: 'duvalier', carte: 'xxe', type: 'mcq', prompt: 'Quel surnom porte le dictateur François Duvalier ?', options: ['« Papa Doc »', '« Baby Doc »', '« Le Libérateur »', '« L’Empereur »'], answer: 0 },
-    { id: 'langues', carte: null, type: 'mcq', prompt: 'Quelles sont les langues officielles d’Haïti ?', options: ['Le créole haïtien et le français', 'L’espagnol et l’anglais', 'Le français et l’espagnol', 'Le créole et l’anglais'], answer: 0 },
+    { id: 'langues', carte: 'carte', type: 'mcq', prompt: 'Quelles sont les langues officielles d’Haïti ?', options: ['Le créole haïtien et le français', 'L’espagnol et l’anglais', 'Le français et l’espagnol', 'Le créole et l’anglais'], answer: 0 },
     { id: 'seisme', carte: 'seisme', type: 'mcq', prompt: 'Quelle catastrophe frappe Port-au-Prince en 2010 ?', options: ['Un tremblement de terre', 'Un tsunami', 'Une éruption volcanique', 'Une épidémie de peste'], answer: 0 },
     { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Révolte des esclaves', 'Indépendance', 'Occupation américaine', 'Séisme'] },
   ],

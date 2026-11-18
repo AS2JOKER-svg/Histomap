@@ -10,7 +10,7 @@ export default {
       kicker: 'Origines',
       title: 'Le 2 mai 1808',
       body:
-        "Napoléon impose son frère Joseph comme roi d'Espagne. Le 2 mai 1808, Madrid se soulève contre les troupes françaises : c'est le début d'une longue guerre d'indépendance.",
+        "Napoléon impose son frère Joseph comme roi d'Espagne. Le 2 mai 1808, Madrid, la capitale, se soulève contre les troupes françaises : c'est le début d'une longue guerre d'indépendance.",
       highlight: { value: '1808', label: 'soulèvement contre Napoléon' },
     },
     {
@@ -148,7 +148,7 @@ export default {
   ],
 
   quiz: [
-    { id: 'capitale', carte: null, type: 'mcq', prompt: 'Quelle est la capitale de l’Espagne ?', options: ['Madrid', 'Barcelone', 'Séville', 'Lisbonne'], answer: 0 },
+    { id: 'capitale', carte: 'mayo', type: 'mcq', prompt: 'Quelle est la capitale de l’Espagne ?', options: ['Madrid', 'Barcelone', 'Séville', 'Lisbonne'], answer: 0 },
     { id: 'joseph', carte: 'mayo', type: 'mcq', prompt: 'Qui Napoléon impose-t-il comme roi d’Espagne en 1808 ?', options: ['Son frère Joseph', 'Son fils', 'Le général Murat', 'Ferdinand VII'], answer: 0 },
     { id: 'mayo', carte: 'mayo', type: 'mcq', prompt: 'Quelle ville se soulève contre les Français le 2 mai 1808 ?', options: ['Madrid', 'Barcelone', 'Cadix', 'Bilbao'], answer: 0 },
     { id: 'guerilla', carte: 'independance', type: 'mcq', prompt: 'Quel mot né pendant la guerre contre Napoléon signifie « petite guerre » ?', options: ['Guérilla', 'Fiesta', 'Junte', 'Corrida'], answer: 0 },

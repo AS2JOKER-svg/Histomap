@@ -137,6 +137,7 @@ export default {
     { id: 'mere', carte: 'tello', type: 'tf', prompt: 'Chavín est la plus ancienne civilisation des Andes.', answer: false, explanation: 'Caral, au Pérou, est bien plus ancienne (vers 2600 av. J.-C.).' },
     { id: 'unesco', carte: 'unesco', type: 'mcq', prompt: "En quelle année Chavín est-il inscrit au patrimoine mondial de l'UNESCO ?", options: ['1985', '1911', '1945', '2009'], answer: 0 },
     { id: 'ordre', carte: ['temple', 'tello', 'unesco'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Essor de Caral', 'Construction du Vieux Temple de Chavín', 'Études de Julio C. Tello à Chavín', 'Coulée de boue sur le site'] },
+    { id: 'relais', carte: 'fin', type: 'mcq', prompt: 'Quelles cultures prennent le relais après le déclin de Chavín ?', options: ['Paracas puis Nazca', 'Les Incas puis les Aztèques', 'Les Mayas puis les Toltèques', 'Les Olmèques puis les Zapotèques'], answer: 0 },
   ],
 
   recap: [

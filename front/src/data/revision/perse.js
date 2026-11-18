@@ -160,6 +160,7 @@ export default {
     { id: 'behistun', carte: 'darius', type: 'mcq', prompt: "Quelle inscription de Darius a permis de déchiffrer le cunéiforme ?", options: ['Behistun', 'Rosette', 'Persépolis', 'Ninive'], answer: 0 },
     { id: 'immortels', carte: 'immortels', type: 'mcq', prompt: 'Combien de soldats compte la garde des « Immortels » selon Hérodote ?', options: ['10 000', '300', '1 000', '100 000'], answer: 0 },
     { id: 'heritier', carte: 'heritage', type: 'mcq', prompt: "Quel pays actuel est l'héritier de la Perse ?", options: ["L'Iran", "L'Irak", 'La Turquie', "L'Égypte"], answer: 0 },
+    { id: 'indus', carte: 'taille', type: 'mcq', prompt: 'À son apogée, jusqu’à quel fleuve l’Empire perse s’étend-il à l’est ?', options: ['L’Indus', 'Le Gange', 'Le Mékong', 'Le fleuve Jaune'], answer: 0 },
   ],
 
   recap: [

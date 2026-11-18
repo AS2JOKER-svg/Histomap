@@ -10,7 +10,7 @@ export default {
       kicker: 'Origines',
       title: 'L’île la plus isolée',
       body:
-        "Entre 1150 et 1280 environ, des navigateurs polynésiens atteignent Rapa Nui, une petite île à plus de 2 000 km de toute autre terre habitée. Selon la tradition, ils sont menés par le chef Hotu Matuꞌa.",
+        "Entre 1150 et 1280 environ, des navigateurs polynésiens atteignent Rapa Nui, une petite île du Pacifique à plus de 2 000 km de toute autre terre habitée. Selon la tradition, ils sont menés par le chef Hotu Matuꞌa.",
       highlight: { value: '2 000 km', label: 'jusqu’à la terre habitée la plus proche' },
     },
     {
@@ -142,7 +142,7 @@ export default {
 
   quiz: [
     { id: 'nom', carte: 'paques', type: 'mcq', prompt: 'Quel est le nom européen de Rapa Nui ?', options: ['L’île de Pâques', 'Tahiti', 'Hawaï', 'La Nouvelle-Calédonie'], answer: 0 },
-    { id: 'ocean', carte: null, type: 'mcq', prompt: 'Dans quel océan se trouve Rapa Nui ?', options: ['Le Pacifique', 'L’Atlantique', 'L’océan Indien', 'L’océan Arctique'], answer: 0 },
+    { id: 'ocean', carte: 'ile', type: 'mcq', prompt: 'Dans quel océan se trouve Rapa Nui ?', options: ['Le Pacifique', 'L’Atlantique', 'L’océan Indien', 'L’océan Arctique'], answer: 0 },
     { id: 'habitants', carte: 'chronologie', type: 'mcq', prompt: 'Qui sont les premiers habitants de l’île ?', options: ['Des Polynésiens', 'Des Incas', 'Des Vikings', 'Des Égyptiens'], answer: 0 },
     { id: 'isolee', carte: 'ile', type: 'tf', prompt: 'Rapa Nui est l’une des îles habitées les plus isolées du monde.', answer: true },
     { id: 'moai', carte: 'moai', type: 'mcq', prompt: 'Que représentent les moaï ?', options: ['Les ancêtres des clans', 'Des extraterrestres', 'Des rois européens', 'Des animaux'], answer: 0 },
@@ -157,6 +157,7 @@ export default {
     { id: 'chili', carte: 'aujourdhui', type: 'mcq', prompt: 'Quel pays annexe l’île en 1888 ?', options: ['Le Chili', 'La France', 'Les États-Unis', 'Le Pérou'], answer: 0 },
     { id: 'patate', carte: 'amerique', type: 'tf', prompt: 'La patate douce, venue d’Amérique, était cultivée en Polynésie avant l’arrivée des Européens.', answer: true },
     { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Arrivée des Polynésiens (vers)', 'Arrivée de Roggeveen', 'Raids esclavagistes', 'Annexion par le Chili'] },
+    { id: 'palmiers', carte: 'forets', type: 'mcq', prompt: 'Pourquoi Rapa Nui perd-elle peu à peu ses grands palmiers ?', options: ['Ils sont abattus par les humains et leurs graines sont mangées par les rats', 'Une éruption volcanique les détruit en une nuit', 'Les Européens les coupent pour réparer leurs navires', 'Un tsunami les arrache'], answer: 0 },
   ],
 
   recap: [

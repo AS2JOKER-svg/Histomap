@@ -10,7 +10,7 @@ export default {
       kicker: 'Origines',
       title: 'Un royaume né de la Reconquista',
       body:
-        "En 1139, Alphonse Henriques se proclame roi de Portugal. En 1147, il prend Lisbonne aux musulmans. Au XIIIe siècle, le royaume atteint ses frontières actuelles, parmi les plus anciennes d'Europe.",
+        "En 1139, à l'ouest de la péninsule Ibérique, Alphonse Henriques se proclame roi de Portugal. En 1147, il prend Lisbonne aux musulmans. Au XIIIe siècle, le royaume atteint ses frontières actuelles, parmi les plus anciennes d'Europe.",
       highlight: { value: '1139', label: 'naissance du royaume' },
     },
     {
@@ -145,7 +145,7 @@ export default {
   ],
 
   quiz: [
-    { id: 'peninsule', carte: null, type: 'mcq', prompt: 'Dans quelle péninsule se trouve le Portugal ?', options: ['La péninsule Ibérique', 'La péninsule italienne', 'La péninsule balkanique', 'La péninsule scandinave'], answer: 0 },
+    { id: 'peninsule', carte: 'naissance', type: 'mcq', prompt: 'Dans quelle péninsule se trouve le Portugal ?', options: ['La péninsule Ibérique', 'La péninsule italienne', 'La péninsule balkanique', 'La péninsule scandinave'], answer: 0 },
     { id: 'roi', carte: 'naissance', type: 'mcq', prompt: 'Qui est le premier roi de Portugal ?', options: ['Alphonse Henriques', 'Manuel Ier', 'Jean Ier', 'Sébastien Ier'], answer: 0 },
     { id: 'lisbonne', carte: 'naissance', type: 'mcq', prompt: 'Quelle ville les Portugais prennent-ils aux musulmans en 1147 ?', options: ['Lisbonne', 'Madrid', 'Séville', 'Grenade'], answer: 0 },
     { id: 'aljubarrota', carte: 'aljubarrota', type: 'mcq', prompt: 'Contre quel royaume le Portugal gagne-t-il à Aljubarrota en 1385 ?', options: ['La Castille', 'La France', 'Le Maroc', 'L’Angleterre'], answer: 0 },

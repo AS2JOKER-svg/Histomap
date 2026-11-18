@@ -7,7 +7,8 @@
  *   dates, steps : pour chaque élément, « En quelle année situe-t-on « … » ? » OU « Que se passe-t-il en … ? »
  *                  (choix stable, tiré de l'année), et « Remettez dans l'ordre chronologique » (3 ou 4 éléments) ;
  *   person       : « Qui est-ce ? » d'après la description, le nom masqué ;
- *   war          : « En quelle année situe-t-on « … » ? » et, quand le vainqueur désigne sans doute possible
+ *   war          : « En quelle année situe-t-on « … » ? » (champ facultatif `fin` d'un conflit long : aucun
+ *                  leurre entre le début et la fin) et, quand le vainqueur désigne sans doute possible
  *                  l'un des deux camps, un vrai / faux sur le vainqueur ;
  *   text, keyfigure, map, leaders : pas de question générée (texte libre : questions rédigées).
  *
@@ -101,8 +102,9 @@ function questionsDatees(c) {
   for (const e of uniques) {
     const base = `${PREFIXE}${c.id}`
     const fmt = formatYear(e.y)
-    // leurres d'année : les autres années de la carte (bien séparées), puis des années voisines
-    const autresAnnees = shuffle(ans.filter((y) => y !== e.y && separees(y, e.y, e.approx)), rng(`${base}:${e.y}:a`))
+    // leurres d'année : les autres années de la carte (bien séparées, de la même ère : pas « 1995 » pour
+    // une date de 9600 av. J.-C.), puis des années voisines
+    const autresAnnees = shuffle(ans.filter((y) => y !== e.y && separees(y, e.y, e.approx) && Math.sign(y || 1) === Math.sign(e.y || 1)), rng(`${base}:${e.y}:a`))
     const anneeQ = () =>
       qcm(
         `${base}-annee-${e.y}`,
@@ -143,8 +145,9 @@ function questionsDatees(c) {
 }
 
 // ── Personnages ──────────────────────────────────────────────────────────────
-// mots d'un nom qu'on ne masque pas (ils peuvent apparaître ailleurs dans le texte sans désigner la personne)
-const NOM_GENERIQUE = new Set(['grand', 'grande', 'saint', 'sainte', 'jeune', 'ancien', 'vieux', 'pieux', 'hardi', 'roi', 'reine', 'empereur', 'pape', 'sultan', 'khan', 'chah', 'inca', 'mansa'])
+// mots d'un nom qu'on ne masque pas (ils peuvent apparaître ailleurs dans le texte sans désigner la personne ;
+// « askia » : titre des souverains songhaï, porté aussi par le père d'Askia Daoud)
+const NOM_GENERIQUE = new Set(['grand', 'grande', 'saint', 'sainte', 'jeune', 'ancien', 'vieux', 'pieux', 'hardi', 'roi', 'reine', 'empereur', 'pape', 'sultan', 'khan', 'chah', 'inca', 'mansa', 'askia'])
 const echapper = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
 
 /** Description où le nom (et chacun de ses mots propres) est remplacé par « … ». */
@@ -152,6 +155,8 @@ export function masquerNom(description, nom) {
   let t = description.replaceAll(nom, '…')
   const motsNom = nom.split(/[\s'’-]+/).filter((w) => w.length >= 4 && /^\p{Lu}/u.test(w) && !NOM_GENERIQUE.has(norm(w)))
   for (const w of motsNom) t = t.replace(new RegExp(`(?<!\\p{L})${echapper(w)}(?!\\p{L})`, 'gu'), '…')
+  // « Mary Leakey y découvre » → « … y découvre » (et non « … … »)
+  t = t.replace(/…(?:[\s ]*…)+/g, '…')
   return { texte: t, motsNom }
 }
 
@@ -204,7 +209,11 @@ function questionsGuerre(c) {
   if (typeof c.annee === 'number' && c.nom && !donneAnnee(c.nom, c.annee)) {
     const approx = approximative(c.annee)
     const fmt = formatYear(c.annee)
-    const q = qcm(`${base}-annee`, c.id, `${approx ? 'Vers quelle date' : 'En quelle année'} situe-t-on « ${c.nom} » ?`, fmt, voisines(`${base}:v`, c.annee, [c.annee], approx).map(formatYear), {
+    // conflit long (champ facultatif `fin`, année de fin) : aucun leurre pendant le conflit
+    // (« Guerres des mousquets », 1807-1842 : 1837 serait aussi une bonne réponse)
+    const fin = typeof c.fin === 'number' ? c.fin : c.annee
+    const leurres = voisines(`${base}:v`, c.annee, [c.annee], approx).filter((y) => y < c.annee || y > fin)
+    const q = qcm(`${base}-annee`, c.id, `${approx ? 'Vers quelle date' : 'En quelle année'} situe-t-on « ${c.nom} » ?`, fmt, leurres.map(formatYear), {
       explanation: `${c.nom} : ${fmt}.`,
     })
     if (q) qs.push(q)

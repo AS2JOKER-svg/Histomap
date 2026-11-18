@@ -139,6 +139,8 @@ export default {
     { id: 'guerre', carte: 'paix', type: 'tf', prompt: "On a retrouvé à Caral de puissants remparts et de nombreuses armes.", answer: false, explanation: 'On n’y a trouvé ni remparts ni véritables armes, ce qui fait penser à une société plutôt pacifique.' },
     { id: 'fin', carte: 'fin', type: 'mcq', prompt: 'Vers quelle date Caral est-elle abandonnée ?', options: ['Vers 1800 av. J.-C.', 'Vers 3500 av. J.-C.', 'Vers 500 av. J.-C.', 'En 1532'], answer: 0 },
     { id: 'ordre', carte: ['origines', 'fin', 'shady'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Essor de Caral', 'Abandon de Caral', 'Début des fouilles de Ruth Shady', "Inscription à l'UNESCO"] },
+    { id: 'calebasses', carte: 'sans-poterie', type: 'mcq', prompt: 'Qu’utilisent les habitants de Caral comme récipients ?', options: ['Des calebasses, des courges séchées', 'Des vases en bronze', 'Des amphores grecques', 'Des boîtes en fer'], answer: 0 },
+    { id: 'superficie', carte: 'pyramides', type: 'mcq', prompt: 'Quelle est la superficie de la ville sacrée de Caral ?', options: ['66 hectares', '6 hectares', '660 hectares', '6 600 hectares'], answer: 0 },
   ],
 
   recap: [

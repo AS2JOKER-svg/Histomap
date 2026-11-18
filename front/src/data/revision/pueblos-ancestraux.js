@@ -156,6 +156,7 @@ export default {
     { id: 'eau', carte: 'eau', type: 'tf', prompt: 'Les Pueblos ancestraux construisent des barrages et des réservoirs pour recueillir la pluie.', answer: true },
     { id: 'poterie', carte: 'poterie', type: 'mcq', prompt: 'De quelles couleurs sont leurs poteries typiques ?', options: ['Noir et blanc', 'Rouge et or', 'Bleu et vert', 'Violet et jaune'], answer: 0 },
     { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Premiers villages pueblos', 'Grandes maisons de Chaco', 'Villages des falaises de Mesa Verde', 'Grandes migrations'] },
+    { id: 'maisons-accolees', carte: 'pueblos', type: 'mcq', prompt: 'Comment sont construits les villages pueblos ?', options: ['Des maisons accolées en pierre et en adobe, sur plusieurs étages', 'Des tentes de peaux que l’on déplace', 'Des huttes sur pilotis au bord des lacs', 'Des maisons de bois isolées les unes des autres'], answer: 0 },
   ],
 
   recap: [

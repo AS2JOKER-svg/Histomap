@@ -149,6 +149,7 @@ export default {
     { id: 'gobero', carte: 'gobero', type: 'mcq', prompt: 'Qu’a-t-on découvert à Gobero, au Niger ?', options: ['Un cimetière d’environ 200 tombes', 'Une ville de pierre', 'Un temple circulaire', 'Une mine d’or'], answer: 0 },
     { id: 'nabta', carte: 'nabta', type: 'mcq', prompt: 'Que trouve-t-on à Nabta Playa, en Égypte ?', options: ['Un cercle de pierres et des tombes de bovins', 'Le sphinx de Gizeh', 'Des peintures de Têtes rondes', 'Un port antique'], answer: 0 },
     { id: 'ordre', carte: ['chronologie', 'desertification'], type: 'order', prompt: "Remettez dans l'ordre chronologique.", items: ['Poteries d’Ounjougou', 'Traces de lait à Takarkori', 'Début de la désertification', 'Unification de l’Égypte des pharaons'] },
+    { id: 'climat-axe', carte: 'cause', type: 'mcq', prompt: 'Qu’est-ce qui explique le « Sahara vert », selon les scientifiques ?', options: ['Une lente oscillation de l’axe de la Terre, qui poussait la mousson vers le nord', 'Des canaux d’irrigation creusés par les premiers pasteurs', 'La fonte d’un immense glacier africain', 'Des éruptions volcaniques qui réchauffaient l’air'], answer: 0 },
   ],
 
   recap: [

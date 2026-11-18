@@ -46,6 +46,7 @@ export default {
       type: 'war',
       nom: 'Guerre d’Arauco',
       annee: 1550,
+      fin: 1818,
       adversaires: ['Empire espagnol'],
       allies: ['Mapuches'],
       vainqueur: 'Mapuches (frontière du Biobío reconnue)',

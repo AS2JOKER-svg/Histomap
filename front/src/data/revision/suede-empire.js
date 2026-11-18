@@ -123,7 +123,7 @@ export default {
       nom: 'Christine de Suède',
       role: 'Reine',
       dates: 'règne 1632 – 1654',
-      description: "Reine à six ans, très cultivée, elle invite à Stockholm le philosophe français Descartes, qui y meurt en 1650. En 1654, elle abdique, se convertit au catholicisme et s'installe à Rome.",
+      description: "Reine à six ans, très cultivée, elle invite à Stockholm, sa capitale, le philosophe français Descartes, qui y meurt en 1650. En 1654, elle abdique, se convertit au catholicisme et s'installe à Rome.",
     },
     {
       id: 'vasa',

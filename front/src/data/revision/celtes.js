@@ -159,6 +159,7 @@ export default {
     { id: 'vix', carte: 'vix', type: 'mcq', prompt: 'Quel objet célèbre a été retrouvé dans la tombe de la Dame de Vix ?', options: ['Un immense vase grec en bronze', 'Une tête colossale en pierre', 'Un char de guerre romain', 'Un sarcophage égyptien'], answer: 0 },
     { id: 'tonneau', carte: 'artisans', type: 'mcq', prompt: 'Quel objet les auteurs romains attribuent-ils aux Celtes ?', options: ['Le tonneau en bois', 'La boussole', 'Le papier', 'La poudre à canon'], answer: 0 },
     { id: 'langues', carte: 'heritage', type: 'mcq', prompt: 'Laquelle de ces langues est une langue celtique ?', options: ['Le breton', 'Le basque', 'Le latin', 'Le grec'], answer: 0 },
+    { id: 'gaule-trois', carte: 'trois-parties', type: 'mcq', prompt: 'D’après la première phrase de La Guerre des Gaules, quels peuples se partagent la Gaule ?', options: ['Les Belges, les Aquitains et les Celtes', 'Les Francs, les Burgondes et les Wisigoths', 'Les Ibères, les Ligures et les Étrusques', 'Les Bretons, les Saxons et les Angles'], answer: 0 },
   ],
 
   recap: [

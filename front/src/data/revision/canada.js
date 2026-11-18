@@ -10,7 +10,7 @@ export default {
       kicker: 'Origines',
       title: 'La Confédération',
       body:
-        "Après la conquête britannique de la Nouvelle-France (1763), des colonies britanniques se forment en Amérique du Nord. Le 1er juillet 1867, quatre d'entre elles s'unissent dans une fédération : le Canada.",
+        "Après la conquête britannique de la Nouvelle-France (1763), des colonies britanniques se forment en Amérique du Nord. Le 1er juillet 1867, quatre d'entre elles s'unissent dans une fédération : le Canada, avec Ottawa pour capitale.",
       highlight: { value: '1867', label: 'naissance du Canada' },
     },
     {
@@ -93,7 +93,7 @@ export default {
       kicker: 'Société',
       title: 'Bilingue et multiculturel',
       body:
-        "Depuis 1969, l'anglais et le français sont les deux langues officielles du pays. Pays d'immigration, le Canada adopte en 1971 une politique de multiculturalisme.",
+        "Depuis 1969, l'anglais et le français sont les deux langues officielles du pays. Pays d'immigration, le Canada adopte en 1971 une politique de multiculturalisme. Une loi de 1994 fait du hockey sur glace son sport national d'hiver.",
     },
 
     // ── Niveau 2 ──
@@ -145,7 +145,7 @@ export default {
   ],
 
   quiz: [
-    { id: 'capitale', carte: null, type: 'mcq', prompt: 'Quelle est la capitale du Canada ?', options: ['Ottawa', 'Toronto', 'Montréal', 'Québec'], answer: 0 },
+    { id: 'capitale', carte: 'confederation', type: 'mcq', prompt: 'Quelle est la capitale du Canada ?', options: ['Ottawa', 'Toronto', 'Montréal', 'Québec'], answer: 0 },
     { id: 'naissance', carte: 'confederation', type: 'mcq', prompt: 'En quelle année naît la Confédération canadienne ?', options: ['1867', '1763', '1931', '1982'], answer: 0 },
     { id: 'avant', carte: 'confederation', type: 'mcq', prompt: 'Quelle colonie française les Britanniques conquièrent-ils en 1763 ?', options: ['La Nouvelle-France', 'La Louisiane', 'Saint-Domingue', 'La Nouvelle-Calédonie'], answer: 0 },
     { id: 'langues', carte: 'bilinguisme', type: 'mcq', prompt: 'Quelles sont les deux langues officielles du Canada ?', options: ['L’anglais et le français', 'L’anglais et l’espagnol', 'Le français et l’inuktitut', 'L’anglais et l’allemand'], answer: 0 },
@@ -159,7 +159,7 @@ export default {
     { id: 'insuline', carte: 'insuline', type: 'mcq', prompt: 'Quel médicament est découvert à Toronto en 1921-1922 ?', options: ['L’insuline', 'La pénicilline', 'L’aspirine', 'Le vaccin contre la variole'], answer: 0 },
     { id: 'pearson', carte: 'pearson', type: 'mcq', prompt: 'Quel Canadien imagine les forces de paix de l’ONU en 1956 ?', options: ['Lester B. Pearson', 'Pierre Elliott Trudeau', 'Wilfrid Laurier', 'Louis Riel'], answer: 0 },
     { id: 'nunavut', carte: 'nunavut', type: 'mcq', prompt: 'Quel peuple gouverne en majorité le Nunavut ?', options: ['Les Inuits', 'Les Métis', 'Les Cris', 'Les Iroquois'], answer: 0 },
-    { id: 'hockey', carte: null, type: 'mcq', prompt: 'Quel est le sport national d’hiver du Canada ?', options: ['Le hockey sur glace', 'Le ski', 'Le curling', 'Le patinage artistique'], answer: 0 },
+    { id: 'hockey', carte: 'bilinguisme', type: 'mcq', prompt: 'Quel est le sport national d’hiver du Canada ?', options: ['Le hockey sur glace', 'Le ski', 'Le curling', 'Le patinage artistique'], answer: 0 },
     { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Confédération', 'Vimy', 'Statut de Westminster', 'Rapatriement de la Constitution'] },
   ],
 

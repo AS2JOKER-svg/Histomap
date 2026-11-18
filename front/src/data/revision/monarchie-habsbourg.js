@@ -96,7 +96,7 @@ export default {
       kicker: 'Réformes',
       title: 'Joseph II, le réformateur',
       body:
-        "Fils de Marie-Thérèse, Joseph II accorde en 1781 la liberté de culte aux protestants et aux orthodoxes et abolit le servage personnel. Ses réformes, imposées trop vite, provoquent des révoltes.",
+        "Fils de Marie-Thérèse et frère de la reine de France Marie-Antoinette, Joseph II accorde en 1781 la liberté de culte aux protestants et aux orthodoxes et abolit le servage personnel. Ses réformes, imposées trop vite, provoquent des révoltes.",
     },
 
     // ── Niveau 2 ──
@@ -148,7 +148,7 @@ export default {
   ],
 
   quiz: [
-    { id: 'capitale', carte: 'musique', type: 'mcq', prompt: 'Quelle est la capitale de la monarchie des Habsbourg ?', options: ['Vienne', 'Berlin', 'Budapest', 'Munich'], answer: 0 },
+    { id: 'capitale', carte: 'mariages', type: 'mcq', prompt: 'Quelle est la capitale de la monarchie des Habsbourg ?', options: ['Vienne', 'Berlin', 'Budapest', 'Munich'], answer: 0 },
     { id: 'mohacs', carte: 'mohacs', type: 'mcq', prompt: 'Après quelle bataille Ferdinand Ier devient-il roi de Bohême et de Hongrie ?', options: ['Mohács', 'Lépante', 'Marignan', 'Pavie'], answer: 0 },
     { id: 'mariages', carte: 'mariages', type: 'mcq', prompt: 'Comment les Habsbourg agrandissent-ils surtout leur domaine ?', options: ['Par des mariages', 'Par des colonies en Amérique', 'Par l’achat de terres', 'Par des élections'], answer: 0 },
     { id: 'pays', carte: 'mariages', type: 'mcq', prompt: 'Lequel de ces pays fait partie de la monarchie des Habsbourg ?', options: ['La Bohême', 'La Suède', 'Le Portugal', 'L’Écosse'], answer: 0 },
@@ -159,7 +159,7 @@ export default {
     { id: 'defenestration', carte: 'chronologie', type: 'mcq', prompt: 'Quel événement déclenche la guerre de Trente Ans en 1618 ?', options: ['La défenestration de Prague', 'Le siège de Vienne', 'Le sac de Rome', 'La mort de Charles Quint'], answer: 0 },
     { id: 'silesie', carte: 'marie-therese', type: 'mcq', prompt: 'Quelle région la Prusse prend-elle à Marie-Thérèse ?', options: ['La Silésie', 'La Bohême', 'Le Tyrol', 'La Hongrie'], answer: 0 },
     { id: 'ecole', carte: 'marie-therese', type: 'tf', prompt: 'Marie-Thérèse rend l’école obligatoire en 1774.', answer: true },
-    { id: 'antoinette', carte: null, type: 'mcq', prompt: 'Laquelle des filles de Marie-Thérèse devient reine de France ?', options: ['Marie-Antoinette', 'Anne d’Autriche', 'Marie de Médicis', 'Catherine de Médicis'], answer: 0 },
+    { id: 'antoinette', carte: 'joseph', type: 'mcq', prompt: 'Laquelle des filles de Marie-Thérèse devient reine de France ?', options: ['Marie-Antoinette', 'Anne d’Autriche', 'Marie de Médicis', 'Catherine de Médicis'], answer: 0 },
     { id: 'joseph', carte: 'joseph', type: 'mcq', prompt: 'Que fait Joseph II en 1781 ?', options: ['Il accorde la liberté de culte aux protestants', 'Il interdit le protestantisme', 'Il déclare la guerre à la France', 'Il s’installe à Prague'], answer: 0 },
     { id: 'kepler', carte: 'prague', type: 'mcq', prompt: 'Quel astronome travaille à la cour de Rodolphe II à Prague ?', options: ['Johannes Kepler', 'Galilée', 'Copernic', 'Isaac Newton'], answer: 0 },
     { id: 'mozart', carte: 'musique', type: 'mcq', prompt: 'Quel compositeur compose à Vienne une grande partie de son œuvre ?', options: ['Mozart', 'Vivaldi', 'Bach', 'Chopin'], answer: 0 },

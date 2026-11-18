@@ -161,6 +161,7 @@ export default {
     { id: 'logement', carte: 'logement', type: 'mcq', prompt: 'Quelle part des habitants vit dans des logements publics ?', options: ['Environ 80 %', 'Environ 10 %', 'Environ 30 %', 'Presque personne'], answer: 0 },
     { id: 'eau', carte: 'eau', type: 'mcq', prompt: 'Quelle ressource manque particulièrement à Singapour ?', options: ["L'eau douce", 'Le sable', 'Le soleil', 'La main-d’œuvre'], answer: 0 },
     { id: 'ordre', carte: ['raffles', 'carrefour', 'chute', 'independance'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Fondation du comptoir par Raffles', 'Colonie de la Couronne britannique', 'Chute de Singapour face au Japon', 'Entrée dans la Malaisie', 'Indépendance'] },
+    { id: 'port-finance', carte: 'miracle', type: 'mcq', prompt: 'Sur quoi Singapour bâtit-elle sa richesse ?', options: ['Le port, l’industrie, puis la finance', 'Le pétrole', 'De grandes plantations de riz', 'Des mines d’or'], answer: 0 },
   ],
 
   recap: [

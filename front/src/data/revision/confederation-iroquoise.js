@@ -55,6 +55,7 @@ export default {
       type: 'war',
       nom: 'Guerres franco-iroquoises',
       annee: 1609,
+      fin: 1701,
       adversaires: ['Nouvelle-France et ses alliés hurons et algonquins'],
       allies: ['Haudenosaunee, alliés aux Hollandais puis aux Anglais'],
       vainqueur: 'Aucun (paix de 1701)',
@@ -159,6 +160,7 @@ export default {
     { id: 'revolution', carte: 'revolution', type: 'tf', prompt: 'Pendant la révolution américaine, toutes les nations de la confédération combattent du même côté.', answer: false, explanation: 'La plupart soutiennent les Britanniques, mais les Oneidas et les Tuscaroras soutiennent les Américains.' },
     { id: 'lacrosse', carte: 'lacrosse', type: 'mcq', prompt: 'De quel sport moderne le jeu de crosse est-il l’ancêtre ?', options: ['Le lacrosse', 'Le hockey sur glace', 'Le golf', 'Le baseball'], answer: 0 },
     { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Union des cinq nations (date discutée)', 'Premier combat contre Champlain', 'Grande Paix de Montréal', 'Traité de Fort Stanwix'] },
+    { id: 'onondaga', carte: 'aujourdhui', type: 'mcq', prompt: 'Où le Grand Conseil de la confédération se réunit-il toujours ?', options: ['À Onondaga', 'À Québec', 'À Washington', 'À Montréal'], answer: 0 },
   ],
 
   recap: [

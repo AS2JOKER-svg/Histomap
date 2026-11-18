@@ -60,7 +60,7 @@ export default {
       kicker: 'Villes',
       title: 'Le Caire, « mère des cités »',
       body:
-        "Le Caire devient la plus grande ville du monde musulman, couverte de mosquées, de madrasas et de marchés. Le voyageur Ibn Battuta l'appelle « la mère des cités ». L'historien Ibn Khaldoun y vit et y enseigne.",
+        "Capitale des sultans, Le Caire devient la plus grande ville du monde musulman, couverte de mosquées, de madrasas et de marchés. Le voyageur Ibn Battuta l'appelle « la mère des cités ». L'historien Ibn Khaldoun y vit et y enseigne.",
     },
     {
       id: 'chronologie',

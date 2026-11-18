@@ -10,7 +10,7 @@ export default {
       kicker: 'Origines',
       title: 'Cinq pays',
       body:
-        "Les pays nordiques sont le Danemark, la Suède, la Norvège, la Finlande et l'Islande. Ils partagent une histoire, une tradition protestante luthérienne et des langues proches, sauf le finnois.",
+        "Les pays nordiques sont le Danemark, la Suède, la Norvège, la Finlande et l'Islande. Ils partagent une histoire, une tradition protestante luthérienne et des langues proches, sauf le finnois. Leurs écrivains sont lus dans le monde entier, comme le conteur danois Hans Christian Andersen, auteur de La Petite Sirène.",
       highlight: { value: '5', label: 'pays nordiques' },
     },
     {
@@ -161,7 +161,7 @@ export default {
     { id: 'femmes', carte: 'femmes', type: 'mcq', prompt: 'Quel est le premier pays d’Europe à accorder aux femmes le droit de vote et d’être élues ?', options: ['La Finlande (1906)', 'La France (1944)', 'Le Royaume-Uni (1928)', 'La Suisse (1971)'], answer: 0 },
     { id: 'providence', carte: 'modele', type: 'mcq', prompt: 'Comment appelle-t-on le système de protection sociale des pays nordiques ?', options: ['L’État-providence', 'Le libéralisme', 'Le féodalisme', 'Le mercantilisme'], answer: 0 },
     { id: 'amundsen', carte: 'amundsen', type: 'mcq', prompt: 'Quel explorateur norvégien atteint le premier le pôle Sud en 1911 ?', options: ['Roald Amundsen', 'Robert Scott', 'Fridtjof Nansen', 'Ernest Shackleton'], answer: 0 },
-    { id: 'andersen', carte: null, type: 'mcq', prompt: 'Quel écrivain danois a écrit La Petite Sirène ?', options: ['Hans Christian Andersen', 'Henrik Ibsen', 'Selma Lagerlöf', 'Les frères Grimm'], answer: 0 },
+    { id: 'andersen', carte: 'cinq', type: 'mcq', prompt: 'Quel écrivain danois a écrit La Petite Sirène ?', options: ['Hans Christian Andersen', 'Henrik Ibsen', 'Selma Lagerlöf', 'Les frères Grimm'], answer: 0 },
     { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Constitution norvégienne', 'Guerre des Duchés', 'Indépendance de la Finlande', 'Indépendance de l’Islande'] },
   ],
 

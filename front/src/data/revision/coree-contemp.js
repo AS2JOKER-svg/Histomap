@@ -160,6 +160,7 @@ export default {
     { id: 'jo', carte: 'miracle', type: 'mcq', prompt: 'Quelle ville accueille les Jeux olympiques de 1988 ?', options: ['Séoul', 'Tokyo', 'Pékin', 'Pyongyang'], answer: 0 },
     { id: 'samsung', carte: 'chaebols', type: 'mcq', prompt: 'Comment appelle-t-on les grands groupes familiaux sud-coréens comme Samsung ?', options: ['Les chaebols', 'Les zaibatsu', 'Les haciendas', 'Les kolkhozes'], answer: 0 },
     { id: 'ordre', carte: ['colonie', 'partition', 'guerre', 'miracle'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Annexion par le Japon', 'Mouvement du 1er mars', 'Partition au 38e parallèle', 'Armistice de Panmunjom', 'Jeux olympiques de Séoul'] },
+    { id: 'bilan-guerre', carte: 'morts', type: 'mcq', prompt: 'Selon les estimations, combien de morts la guerre de Corée fait-elle ?', options: ['2,5 à 3 millions', '25 000 à 30 000', '250 000 à 300 000', '25 à 30 millions'], answer: 0 },
   ],
 
   recap: [

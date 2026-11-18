@@ -160,6 +160,7 @@ export default {
     { id: 'masque', carte: 'schliemann', type: 'tf', prompt: 'Le « masque d’Agamemnon » appartient de façon certaine au roi de la guerre de Troie.', answer: false, explanation: "Ce nom vient de Schliemann ; le masque est en réalité plus ancien que l'époque supposée de la guerre de Troie." },
     { id: 'ordre', carte: ['conquete', 'heritage'], type: 'order', prompt: "Remettez dans l'ordre chronologique.", items: ['Premiers palais crétois', 'Prise de Knossos par les Mycéniens', 'Destruction des palais mycéniens', 'Mise par écrit de l’Iliade'] },
     { id: 'dieux', carte: 'ecritures', type: 'tf', prompt: 'Les tablettes mycéniennes en linéaire B citent déjà des dieux grecs comme Zeus et Poséidon.', answer: true },
+    { id: 'ecriture-perdue', carte: 'effondrement', type: 'mcq', prompt: 'Qu’est-ce qui disparaît de Grèce pendant plusieurs siècles après la fin des palais mycéniens ?', options: ['L’écriture', 'La langue grecque', 'L’agriculture', 'La navigation'], answer: 0 },
   ],
 
   recap: [

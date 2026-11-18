@@ -107,7 +107,7 @@ export default {
       title: 'Trois grands empereurs',
       items: [
         { year: -322, label: 'Vers 322 av. J.-C. : Chandragupta fonde l’empire' },
-        { year: -297, label: 'Vers 297 av. J.-C. : règne de son fils Bindusara' },
+        { year: -297, label: 'Vers 297 av. J.-C. : règne de Bindusara, fils de Chandragupta' },
         { year: -268, label: 'Vers 268 av. J.-C. : début du règne d’Ashoka' },
         { year: -232, label: 'Vers 232 av. J.-C. : mort d’Ashoka' },
       ],
@@ -160,6 +160,8 @@ export default {
     { id: 'ordre', carte: ['fondation', 'elephants', 'ashoka', 'fin'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Chandragupta fonde l’empire', 'Paix avec Séleucos', 'Guerre du Kalinga', 'Assassinat du dernier empereur maurya'] },
     { id: 'embleme', carte: 'lions', type: 'mcq', prompt: "Quel élément d'un pilier d'Ashoka est devenu l'emblème de l'Inde ?", options: ['Les lions de Sarnath', 'Le taureau de Rampurva', 'Le lotus de Sanchi', 'La roue de Konarak'], answer: 0 },
     { id: 'fin', carte: 'fin', type: 'mcq', prompt: 'Quelle dynastie remplace les Maurya vers 185 av. J.-C. ?', options: ['Les Shunga', 'Les Nanda', 'Les Moghols', 'Les Séleucides'], answer: 0 },
+    { id: 'pointe-sud', carte: 'carte', type: 'mcq', prompt: 'À son apogée, quelle partie du sous-continent indien échappe à l’Empire maurya ?', options: ['La pointe sud', 'La vallée du Gange', 'Le nord-ouest', 'Le plateau du Deccan'], answer: 0 },
+    { id: 'brihadratha', carte: 'fin', type: 'mcq', prompt: 'Comment meurt Brihadratha, le dernier empereur maurya ?', options: ['Assassiné par son propre général', 'Au combat contre Alexandre le Grand', 'De vieillesse, après un long règne', 'Noyé dans le Gange'], answer: 0 },
   ],
 
   recap: [

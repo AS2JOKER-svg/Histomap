@@ -30,7 +30,7 @@ export default {
       kicker: 'Territoire',
       title: 'L’île de Cuba',
       years: [1914],
-      caption: 'La plus grande île des Caraïbes, à moins de 200 km de la Floride.',
+      caption: 'La plus grande île des Caraïbes, à moins de 200 km de la Floride. Sa capitale est La Havane.',
     },
     {
       id: 'batista',
@@ -149,7 +149,7 @@ export default {
   ],
 
   quiz: [
-    { id: 'capitale', carte: null, type: 'mcq', prompt: 'Quelle est la capitale de Cuba ?', options: ['La Havane', 'Santiago de Cuba', 'Port-au-Prince', 'Miami'], answer: 0 },
+    { id: 'capitale', carte: 'carte', type: 'mcq', prompt: 'Quelle est la capitale de Cuba ?', options: ['La Havane', 'Santiago de Cuba', 'Port-au-Prince', 'Miami'], answer: 0 },
     { id: 'colonie', carte: 'independance', type: 'mcq', prompt: 'De quel pays Cuba était-elle une colonie jusqu’en 1898 ?', options: ['L’Espagne', 'La France', 'Le Royaume-Uni', 'Les États-Unis'], answer: 0 },
     { id: 'independance', carte: 'independance', type: 'mcq', prompt: 'En quelle année Cuba devient-elle indépendante ?', options: ['1902', '1898', '1959', '1868'], answer: 0 },
     { id: 'guantanamo', carte: 'independance', type: 'mcq', prompt: 'Quelle base les États-Unis gardent-ils à Cuba ?', options: ['Guantánamo', 'Pearl Harbor', 'Diego Garcia', 'Okinawa'], answer: 0 },

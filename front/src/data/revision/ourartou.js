@@ -161,6 +161,7 @@ export default {
     { id: 'fin', carte: 'fin', type: 'mcq', prompt: 'Vers quand l’Ourartou disparaît-il ?', options: ['Vers 590 av. J.-C.', 'Vers 1500 av. J.-C.', 'Vers 100 apr. J.-C.', 'Vers 1000 apr. J.-C.'], answer: 0 },
     { id: 'oubli', carte: 'fin', type: 'tf', prompt: 'L’Ourartou a été redécouvert au XIXe siècle grâce à ses inscriptions.', answer: true },
     { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Aramé, premier roi connu', 'Canal de Menua', 'Fondation d’Erebuni', 'Campagne de Sargon II'] },
+    { id: 'inscription-1950', carte: 'erebuni', type: 'mcq', prompt: 'Comment connaît-on la date de fondation d’Erebuni ?', options: ['Grâce à une inscription retrouvée sur place en 1950', 'Grâce à un récit de la Bible', 'Grâce à l’historien grec Hérodote', 'Grâce à une carte romaine'], answer: 0 },
   ],
 
   recap: [

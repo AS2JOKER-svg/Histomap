@@ -157,6 +157,7 @@ export default {
     { id: 'canton', carte: 'porcelaine', type: 'tf', prompt: 'À partir de 1757, les Européens peuvent commercer dans tous les ports chinois.', answer: false, explanation: 'Le commerce avec les Européens est limité au seul port de Canton.' },
     { id: 'roi-singes', carte: 'romans', type: 'mcq', prompt: 'Dans quel roman apparaît le Roi des singes ?', options: ["La Pérégrination vers l'Ouest", "Au bord de l'eau", 'Le Rêve dans le pavillon rouge', 'Le Livre des rois'], answer: 0 },
     { id: 'ordre', carte: ['hongwu', 'cite-interdite', 'qing', 'kangxi'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Fondation de la dynastie Ming', 'Achèvement de la Cité interdite', 'Les Mandchous entrent dans Pékin', 'Traité de Nertchinsk avec la Russie'] },
+    { id: 'mais-patate', carte: 'population', type: 'mcq', prompt: 'Quelles plantes venues d’Amérique aident la population chinoise à doubler au XVIIIe siècle ?', options: ['Le maïs et la patate douce', 'Le riz et le thé', 'Le blé et l’orge', 'La canne à sucre et le coton'], answer: 0 },
   ],
 
   recap: [

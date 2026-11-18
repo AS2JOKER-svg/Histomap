@@ -10,7 +10,7 @@ export default {
       kicker: 'Origines',
       title: 'Les héritiers du Grand Zimbabwe',
       body:
-        "Vers 1430, selon la tradition shona, le prince Nyatsimba Mutota quitte la région du Grand Zimbabwe et conquiert le nord du plateau, près du fleuve Zambèze. Il fonde un empire dont le souverain porte le titre de Mwenemutapa : les Portugais en feront « Monomotapa ».",
+        "Vers 1430, selon la tradition shona, le prince Nyatsimba Mutota quitte la région du Grand Zimbabwe et conquiert le nord du plateau, près du fleuve Zambèze, entre les actuels Zimbabwe et Mozambique. Il fonde un empire dont le souverain porte le titre de Mwenemutapa : les Portugais en feront « Monomotapa ».",
       highlight: { value: '≈ 1430', label: 'fondation selon la tradition' },
     },
     {

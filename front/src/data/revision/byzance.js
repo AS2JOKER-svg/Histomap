@@ -77,7 +77,7 @@ export default {
       nom: 'Chute de Constantinople',
       annee: 1453,
       adversaires: ['Empire ottoman (Mehmed II)'],
-      allies: ['Génois et Vénitiens'],
+      allies: ['Empire byzantin (Constantin XI)', 'Génois et Vénitiens'],
       vainqueur: 'Les Ottomans',
       consequences: "Le 29 mai 1453, après un siège où les Ottomans utilisent des canons géants, la ville tombe. Le dernier empereur, Constantin XI, meurt au combat : c'est la fin de l'Empire romain.",
     },

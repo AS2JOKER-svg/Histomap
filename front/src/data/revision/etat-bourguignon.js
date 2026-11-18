@@ -10,7 +10,7 @@ export default {
       kicker: 'Origines',
       title: 'Un cadeau du roi de France',
       body:
-        "En 1363, le roi de France Jean II le Bon donne le duché de Bourgogne à son fils Philippe le Hardi. Par son mariage, celui-ci obtient aussi la riche Flandre.",
+        "En 1363, le roi de France Jean II le Bon donne le duché de Bourgogne à son fils Philippe le Hardi : les ducs de Bourgogne seront, comme les rois de France, des Valois. Par son mariage, Philippe obtient aussi la riche Flandre.",
       highlight: { value: '1363', label: 'Philippe le Hardi duc de Bourgogne' },
     },
     {
@@ -146,7 +146,7 @@ export default {
   quiz: [
     { id: 'region', carte: 'territoires', type: 'mcq', prompt: 'Quelles régions réunit l’État bourguignon ?', options: ['La Bourgogne et les Pays-Bas', 'La Bretagne et la Normandie', 'La Provence et l’Italie', 'L’Espagne et le Portugal'], answer: 0 },
     { id: 'fondateur', carte: 'hardi', type: 'mcq', prompt: 'Qui reçoit le duché de Bourgogne en 1363 ?', options: ['Philippe le Hardi', 'Charles le Téméraire', 'Jean sans Peur', 'Louis XI'], answer: 0 },
-    { id: 'dynastie', carte: null, type: 'mcq', prompt: 'À quelle famille appartiennent les ducs de Bourgogne ?', options: ['Les Valois', 'Les Habsbourg', 'Les Tudor', 'Les Médicis'], answer: 0 },
+    { id: 'dynastie', carte: 'hardi', type: 'mcq', prompt: 'À quelle famille appartiennent les ducs de Bourgogne ?', options: ['Les Valois', 'Les Habsbourg', 'Les Tudor', 'Les Médicis'], answer: 0 },
     { id: 'flandre', carte: 'hardi', type: 'mcq', prompt: 'Quelle riche région Philippe le Hardi obtient-il par son mariage ?', options: ['La Flandre', 'La Bretagne', 'La Savoie', 'La Lorraine'], answer: 0 },
     { id: 'armagnacs', carte: 'guerre-civile', type: 'mcq', prompt: 'Contre qui les Bourguignons se battent-ils dans la guerre civile française ?', options: ['Les Armagnacs', 'Les Anglais', 'Les Suisses', 'Les Habsbourg'], answer: 0 },
     { id: 'jeanne', carte: 'philippe', type: 'mcq', prompt: 'Qui capturent les troupes bourguignonnes en 1430 ?', options: ['Jeanne d’Arc', 'Louis XI', 'Du Guesclin', 'Henri V'], answer: 0 },

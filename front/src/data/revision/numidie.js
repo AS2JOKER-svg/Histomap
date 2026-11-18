@@ -19,7 +19,7 @@ export default {
       kicker: 'Territoire',
       title: 'La Numidie vers 100 av. J.-C.',
       years: [-100],
-      caption: 'Le royaume s’étend sur l’est de l’Algérie et l’ouest de la Tunisie, entre la Maurétanie et la province romaine d’Afrique.',
+      caption: 'Le royaume s’étend sur l’est de l’Algérie et l’ouest de la Tunisie, entre la Maurétanie et la province romaine d’Afrique. Sa capitale est Cirta, l’actuelle Constantine.',
     },
     {
       id: 'massinissa',
@@ -147,7 +147,7 @@ export default {
   quiz: [
     { id: 'peuple', carte: 'numides', type: 'mcq', prompt: 'Qui sont les Numides ?', options: ['Des peuples berbères d’Afrique du Nord', 'Des Grecs de Sicile', 'Des Gaulois', 'Des Égyptiens'], answer: 0 },
     { id: 'pays', carte: 'numides', type: 'mcq', prompt: 'Dans quel pays actuel se trouve surtout la Numidie ?', options: ['L’Algérie', 'L’Égypte', 'L’Espagne', 'La Grèce'], answer: 0 },
-    { id: 'capitale', carte: null, type: 'mcq', prompt: 'Quelle est la capitale de la Numidie ?', options: ['Cirta', 'Carthage', 'Alexandrie', 'Rome'], answer: 0 },
+    { id: 'capitale', carte: 'carte', type: 'mcq', prompt: 'Quelle est la capitale de la Numidie ?', options: ['Cirta', 'Carthage', 'Alexandrie', 'Rome'], answer: 0 },
     { id: 'massinissa', carte: 'massinissa', type: 'mcq', prompt: 'Qui unifie la Numidie après 202 av. J.-C. ?', options: ['Massinissa', 'Jugurtha', 'Hannibal', 'Syphax'], answer: 0 },
     { id: 'allie', carte: 'chronologie', type: 'mcq', prompt: 'Avec qui Massinissa s’allie-t-il contre Carthage ?', options: ['Rome', 'L’Égypte', 'Les Gaulois', 'La Perse'], answer: 0 },
     { id: 'zama', carte: 'zama', type: 'mcq', prompt: 'Quel général carthaginois est vaincu à Zama ?', options: ['Hannibal', 'Hamilcar', 'Hasdrubal', 'Magon'], answer: 0 },

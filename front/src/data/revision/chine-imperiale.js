@@ -161,6 +161,9 @@ export default {
     { id: 'fin', carte: 'fin', type: 'mcq', prompt: 'En quelle année la dynastie Han disparaît-elle ?', options: ['220', '476', '105', '9'], answer: 0 },
     { id: 'livres', carte: 'reformes', type: 'mcq', prompt: 'Que fait brûler Qin Shi Huang en 213 av. J.-C. ?', options: ['De nombreux livres jugés dangereux', 'Les temples bouddhistes', 'Les papiers de Cai Lun', 'Les cartes de la Route de la soie'], answer: 0, explanation: 'Son régime est très dur : il fait brûler de nombreux livres jugés dangereux. Le bouddhisme, le papier de Cai Lun et la Route de la soie arrivent plus tard.' },
     { id: 'xian', carte: 'armee', type: 'mcq', prompt: "Près de quelle ville l'armée de terre cuite a-t-elle été découverte ?", options: ["Xi'an", 'Pékin', 'Shanghai', 'Nankin'], answer: 0, explanation: 'Des paysans la découvrent en 1974, près du tombeau du premier empereur.' },
+    { id: 'jusqu-1912', carte: 'unification', type: 'mcq', prompt: 'Jusqu’en quelle année la Chine reste-t-elle un empire ?', options: ['1912', '1644', '1279', '1949'], answer: 0 },
+    { id: 'sel-fer', carte: 'wudi', type: 'mcq', prompt: 'Quelles ressources Han Wudi place-t-il sous monopole d’État ?', options: ['Le sel et le fer', 'Le thé et la soie', 'L’or et l’argent', 'Le riz et le blé'], answer: 0 },
+    { id: 'visages', carte: 'armee', type: 'tf', prompt: 'Dans l’armée de terre cuite, tous les soldats ont le même visage.', answer: false, explanation: 'Chaque visage est différent.' },
   ],
 
   recap: [

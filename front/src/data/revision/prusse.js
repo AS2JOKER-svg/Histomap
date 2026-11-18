@@ -90,7 +90,7 @@ export default {
         { year: 1701, label: 'Frédéric Ier devient roi' },
         { year: 1740, label: 'Frédéric II envahit la Silésie' },
         { year: 1763, label: 'Paix d’Hubertusbourg : la Silésie reste prussienne' },
-        { year: 1772, label: 'Premier partage de la Pologne : la Prusse relie ses territoires' },
+        { year: 1772, label: 'Premier partage de la Pologne, avec la Russie et l’Autriche : la Prusse relie ses territoires' },
         { year: 1786, label: 'Mort de Frédéric II ; la Prusse compte environ 5,5 millions d’habitants' },
       ],
     },
@@ -158,10 +158,11 @@ export default {
     { id: 'sanssouci', carte: 'sanssouci', type: 'mcq', prompt: 'Comment s’appelle le palais de Frédéric II à Potsdam ?', options: ['Sanssouci', 'Schönbrunn', 'Versailles', 'Charlottenburg'], answer: 0 },
     { id: 'despote', carte: 'frederic2', type: 'mcq', prompt: 'Comment qualifie-t-on un roi absolu qui s’inspire des Lumières, comme Frédéric II ?', options: ['Un despote éclairé', 'Un monarque constitutionnel', 'Un tyran féodal', 'Un empereur élu'], answer: 0 },
     { id: 'huguenots', carte: 'tolerance', type: 'tf', prompt: 'Des milliers de protestants français chassés par Louis XIV s’installent dans le Brandebourg.', answer: true },
-    { id: 'pologne', carte: null, type: 'mcq', prompt: 'Avec qui la Prusse partage-t-elle la Pologne en 1772 ?', options: ["La Russie et l'Autriche", 'La France et la Suède', "L'Angleterre et la Russie", "La Suède et l'Autriche"], answer: 0 },
+    { id: 'pologne', carte: 'etapes', type: 'mcq', prompt: 'Avec qui la Prusse partage-t-elle la Pologne en 1772 ?', options: ["La Russie et l'Autriche", 'La France et la Suède', "L'Angleterre et la Russie", "La Suède et l'Autriche"], answer: 0 },
     { id: 'kant', carte: 'kant', type: 'mcq', prompt: 'Quel philosophe vit toute sa vie à Königsberg ?', options: ['Emmanuel Kant', 'Karl Marx', 'Voltaire', 'John Locke'], answer: 0 },
     { id: 'patate', carte: 'pomme-de-terre', type: 'mcq', prompt: 'Quelle culture Frédéric II encourage-t-il pour éviter les famines ?', options: ['La pomme de terre', 'Le maïs', 'Le riz', 'Le café'], answer: 0 },
     { id: 'ordre', carte: 'etapes', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Couronnement de Frédéric Ier', 'Invasion de la Silésie', 'Paix d’Hubertusbourg', 'Premier partage de la Pologne'] },
+    { id: 'armee-etat', carte: 'armee', type: 'mcq', prompt: 'Selon une formule attribuée à Mirabeau, qu’est-ce que la Prusse ?', options: ['Une armée qui possède un État', 'Un État sans armée', 'Une république de marchands', 'Un royaume de philosophes'], answer: 0 },
   ],
 
   recap: [

@@ -10,7 +10,7 @@ export default {
       kicker: 'Origines',
       title: 'Un protectorat britannique',
       body:
-        "En 1895, le Royaume-Uni fait de la région un protectorat. Un chemin de fer est construit de Mombasa, sur la côte, jusqu'au lac Victoria ; Nairobi naît en 1899 comme étape de cette ligne.",
+        "En 1895, le Royaume-Uni fait de la région un protectorat. Un chemin de fer est construit de Mombasa, sur la côte, jusqu'au lac Victoria ; Nairobi, l'actuelle capitale, naît en 1899 comme étape de cette ligne.",
       highlight: { value: '1895', label: 'protectorat britannique' },
     },
     {
@@ -139,12 +139,12 @@ export default {
       kicker: 'Mots',
       title: 'Safari',
       body:
-        "Le mot « safari » vient du swahili, l'une des deux langues officielles du Kenya : il signifie simplement « voyage ».",
+        "Le mot « safari » vient du swahili, langue officielle du Kenya avec l'anglais : il signifie simplement « voyage ».",
     },
   ],
 
   quiz: [
-    { id: 'capitale', carte: null, type: 'mcq', prompt: 'Quelle est la capitale du Kenya ?', options: ['Nairobi', 'Mombasa', 'Dar es Salaam', 'Kampala'], answer: 0 },
+    { id: 'capitale', carte: 'protectorat', type: 'mcq', prompt: 'Quelle est la capitale du Kenya ?', options: ['Nairobi', 'Mombasa', 'Dar es Salaam', 'Kampala'], answer: 0 },
     { id: 'colonisateur', carte: 'mau-mau', type: 'mcq', prompt: 'Quel pays colonise le Kenya ?', options: ['Le Royaume-Uni', 'La France', 'L’Allemagne', 'L’Italie'], answer: 0 },
     { id: 'nairobi', carte: 'protectorat', type: 'mcq', prompt: 'Pourquoi Nairobi est-elle fondée en 1899 ?', options: ['Comme étape du chemin de fer', 'Comme port de commerce', 'Comme mine d’or', 'Comme ville sainte'], answer: 0 },
     { id: 'plateaux', carte: 'colons', type: 'mcq', prompt: 'Où s’installent les colons européens ?', options: ['Sur les terres fertiles des hauts plateaux', 'Dans le désert du nord', 'Sur les îles de la côte', 'Au bord du lac Turkana'], answer: 0 },
@@ -153,7 +153,7 @@ export default {
     { id: 'independance', carte: 'independance', type: 'mcq', prompt: 'En quelle année le Kenya devient-il indépendant ?', options: ['1963', '1895', '1952', '1990'], answer: 0 },
     { id: 'kenyatta', carte: 'kenyatta', type: 'mcq', prompt: 'Qui est le premier dirigeant du Kenya indépendant ?', options: ['Jomo Kenyatta', 'Daniel arap Moi', 'Nelson Mandela', 'Julius Nyerere'], answer: 0 },
     { id: 'parti', carte: 'independance', type: 'mcq', prompt: 'Quel président impose un parti unique de 1982 à 1991 ?', options: ['Daniel arap Moi', 'Jomo Kenyatta', 'Mwai Kibaki', 'Uhuru Kenyatta'], answer: 0 },
-    { id: 'langues', carte: null, type: 'mcq', prompt: 'Quelles sont les langues officielles du Kenya ?', options: ['Le swahili et l’anglais', 'Le français et l’arabe', 'L’anglais et le portugais', 'Le swahili et le français'], answer: 0 },
+    { id: 'langues', carte: 'safari', type: 'mcq', prompt: 'Quelles sont les langues officielles du Kenya ?', options: ['Le swahili et l’anglais', 'Le français et l’arabe', 'L’anglais et le portugais', 'Le swahili et le français'], answer: 0 },
     { id: 'constitution', carte: 'crise', type: 'mcq', prompt: 'En quelle année une nouvelle Constitution est-elle adoptée par référendum ?', options: ['2010', '1963', '1991', '2002'], answer: 0 },
     { id: 'maathai', carte: 'maathai', type: 'mcq', prompt: 'Pour quelle action Wangari Maathai est-elle célèbre ?', options: ['Elle fait planter des millions d’arbres', 'Elle court le marathon', 'Elle écrit des romans', 'Elle découvre des fossiles'], answer: 0 },
     { id: 'turkana', carte: 'turkana', type: 'mcq', prompt: 'Quel fossile est découvert près du lac Turkana en 1984 ?', options: ['Un jeune homme fossile vieux d’environ 1,5 million d’années', 'Un dinosaure', 'Un mammouth', 'Une momie égyptienne'], answer: 0 },

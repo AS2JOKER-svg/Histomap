@@ -49,7 +49,7 @@ export default {
       kicker: 'Fluctuations',
       title: 'Les grandes étapes du domaine royal',
       items: [
-        { year: 987, label: 'Île-de-France et Orléanais' },
+        { year: 987, label: 'Hugues Capet roi : son domaine se limite à l’Île-de-France et à l’Orléanais' },
         { year: 1204, label: 'Philippe Auguste prend la Normandie aux Plantagenêts' },
         { year: 1271, label: 'Le comté de Toulouse rejoint le domaine' },
         { year: 1420, label: "Traité de Troyes : le nord du royaume passe aux Anglais" },

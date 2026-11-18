@@ -155,6 +155,9 @@ export default {
     { id: 'religion', carte: 'islam', type: 'tf', prompt: "Toute la population du Mali est convertie à l'islam au XIVe siècle.", answer: false, explanation: "L'islam est la religion de la cour et des villes ; la plupart des paysans gardent leurs croyances traditionnelles." },
     { id: 'songhai', carte: 'fin', type: 'mcq', prompt: 'Quel empire supplante le Mali au XVe siècle ?', options: ["L'Empire songhaï", "L'Empire du Ghana", "L'Empire ottoman", "L'Empire almoravide"], answer: 0 },
     { id: 'ordre', carte: ['kirina', 'moussa', 'ibn-battuta', 'atlas'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Bataille de Kirina', 'Pèlerinage de Mansa Moussa', "Voyage d'Ibn Battuta au Mali", 'Atlas catalan'] },
+    { id: 'kouroukan', carte: 'charte', type: 'mcq', prompt: 'Où, selon la tradition, Soundiata proclame-t-il la charte du Manden ?', options: ['À Kouroukan Fouga', 'À Tombouctou', 'À La Mecque', 'Au Caire'], answer: 0 },
+    { id: 'bambouk', carte: 'or', type: 'mcq', prompt: 'Quelles régions aurifères le Mali contrôle-t-il ?', options: ['Le Bambouk et le Bouré', 'Le Transvaal et le Natal', 'La Californie et l’Alaska', 'Le Sinaï et la Nubie'], answer: 0 },
+    { id: 'disparition', carte: 'fin', type: 'mcq', prompt: 'Quand l’Empire du Mali disparaît-il ?', options: ['Au XVIIe siècle', 'Au XIIIe siècle', 'Au XXe siècle', 'Au Xe siècle'], answer: 0 },
   ],
 
   recap: [

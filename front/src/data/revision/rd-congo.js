@@ -29,7 +29,7 @@ export default {
       kicker: 'Territoire',
       title: 'Du Congo belge à l’indépendance',
       years: [1914, 1960],
-      caption: 'Un immense pays du cœur de l’Afrique, plus de quatre fois plus grand que la France, qui garde ses frontières coloniales.',
+      caption: 'Un immense pays du cœur de l’Afrique, plus de quatre fois plus grand que la France, qui garde ses frontières coloniales. Sa capitale, Kinshasa, est souvent présentée comme la plus grande ville francophone du monde.',
     },
     {
       id: 'lumumba',
@@ -147,7 +147,7 @@ export default {
   ],
 
   quiz: [
-    { id: 'capitale', carte: null, type: 'mcq', prompt: 'Quelle est la capitale de la RD Congo ?', options: ['Kinshasa', 'Brazzaville', 'Lubumbashi', 'Kigali'], answer: 0 },
+    { id: 'capitale', carte: 'carte', type: 'mcq', prompt: 'Quelle est la capitale de la RD Congo ?', options: ['Kinshasa', 'Brazzaville', 'Lubumbashi', 'Kigali'], answer: 0 },
     { id: 'leopold', carte: 'leopold', type: 'mcq', prompt: 'De qui le Congo est-il la propriété personnelle de 1885 à 1908 ?', options: ['Du roi des Belges Léopold II', 'De la reine Victoria', 'De Napoléon III', 'Du roi du Portugal'], answer: 0 },
     { id: 'caoutchouc', carte: 'caoutchouc', type: 'mcq', prompt: 'Quelle récolte est imposée par le travail forcé sous Léopold II ?', options: ['Le caoutchouc', 'Le coton', 'Le café', 'Le cacao'], answer: 0 },
     { id: 'belgique', carte: 'caoutchouc', type: 'mcq', prompt: 'Quel pays reprend le Congo en 1908 ?', options: ['La Belgique', 'La France', 'Le Royaume-Uni', 'L’Allemagne'], answer: 0 },
@@ -159,7 +159,7 @@ export default {
     { id: 'zaire', carte: 'mobutu', type: 'mcq', prompt: 'Comment Mobutu rebaptise-t-il le pays en 1971 ?', options: ['Zaïre', 'Katanga', 'Congo belge', 'Kinshasa'], answer: 0 },
     { id: 'guerre-mondiale', carte: 'guerres', type: 'mcq', prompt: 'Quel surnom donne-t-on à la deuxième guerre du Congo ?', options: ['La « guerre mondiale africaine »', 'La « guerre de Cent Ans »', 'La « guerre froide »', 'La « drôle de guerre »'], answer: 0 },
     { id: 'cobalt', carte: 'richesses', type: 'mcq', prompt: 'Quel métal utilisé dans les batteries la RD Congo produit-elle en grande quantité ?', options: ['Le cobalt', 'L’aluminium', 'Le plomb', 'Le zinc'], answer: 0 },
-    { id: 'francophone', carte: null, type: 'tf', prompt: 'Kinshasa est la plus grande ville francophone du monde.', answer: true },
+    { id: 'francophone', carte: 'carte', type: 'tf', prompt: 'Kinshasa est souvent présentée comme la plus grande ville francophone du monde.', answer: true },
     { id: 'ebola', carte: 'ebola', type: 'mcq', prompt: 'Quel virus est identifié au Congo en 1976 ?', options: ['Ebola', 'La grippe espagnole', 'Le Covid-19', 'La variole'], answer: 0 },
     { id: 'mukwege', carte: 'mukwege', type: 'mcq', prompt: 'Quel médecin congolais reçoit le prix Nobel de la paix en 2018 ?', options: ['Denis Mukwege', 'Jean-Jacques Muyembe', 'Patrice Lumumba', 'Simon Kimbangu'], answer: 0 },
     { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['État indépendant du Congo', 'Congo belge', 'Indépendance', 'Chute de Mobutu'] },

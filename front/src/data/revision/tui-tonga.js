@@ -78,6 +78,7 @@ export default {
       type: 'war',
       nom: 'Guerres civiles tonganes',
       annee: 1799,
+      fin: 1852,
       adversaires: ['Chefs rivaux de l’archipel'],
       allies: ['Tāufaʻāhau'],
       vainqueur: 'Tāufaʻāhau (George Tupou Ier)',

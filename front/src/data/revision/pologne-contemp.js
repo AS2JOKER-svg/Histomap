@@ -10,7 +10,7 @@ export default {
       kicker: 'Origines',
       title: 'La Pologne renaît',
       body:
-        "Partagée à la fin du XVIIIe siècle entre la Russie, la Prusse et l'Autriche, la Pologne a disparu de la carte pendant 123 ans. Elle renaît le 11 novembre 1918.",
+        "Partagée à la fin du XVIIIe siècle entre la Russie, la Prusse et l'Autriche, la Pologne a disparu de la carte pendant 123 ans. En 1898, la physicienne Marie Curie, née à Varsovie, nomme « polonium » l'élément qu'elle vient de découvrir avec Pierre Curie, en hommage à sa patrie. La Pologne renaît le 11 novembre 1918.",
       highlight: { value: '1918', label: 'renaissance de la Pologne' },
     },
     {
@@ -23,7 +23,7 @@ export default {
       allies: ['Pologne', 'République populaire ukrainienne (1920)'],
       vainqueur: 'Pologne',
       consequences:
-        "En août 1920, l'armée de Józef Piłsudski arrête l'Armée rouge devant Varsovie : c'est le « miracle de la Vistule ». La paix de Riga (1921) fixe la frontière orientale.",
+        "En août 1920, l'armée de Józef Piłsudski arrête l'Armée rouge devant Varsovie, la capitale : c'est le « miracle de la Vistule ». La paix de Riga (1921) fixe la frontière orientale.",
     },
     {
       id: 'carte',
@@ -150,7 +150,7 @@ export default {
   ],
 
   quiz: [
-    { id: 'capitale', carte: null, type: 'mcq', prompt: 'Quelle est la capitale de la Pologne ?', options: ['Varsovie', 'Cracovie', 'Gdańsk', 'Prague'], answer: 0 },
+    { id: 'capitale', carte: 'varsovie1920', type: 'mcq', prompt: 'Quelle est la capitale de la Pologne ?', options: ['Varsovie', 'Cracovie', 'Gdańsk', 'Prague'], answer: 0 },
     { id: 'partages', carte: 'renaissance', type: 'tf', prompt: 'Avant 1918, la Pologne avait disparu de la carte pendant plus d’un siècle.', answer: true },
     { id: 'date', carte: 'renaissance', type: 'mcq', prompt: 'Quel jour la Pologne renaît-elle en 1918 ?', options: ['Le 11 novembre', 'Le 14 juillet', 'Le 1er septembre', 'Le 4 juin'], answer: 0 },
     { id: 'pilsudski', carte: 'varsovie1920', type: 'mcq', prompt: 'Qui arrête l’Armée rouge devant Varsovie en 1920 ?', options: ['Józef Piłsudski', 'Lech Wałęsa', 'Jaruzelski', 'Jean-Paul II'], answer: 0 },
@@ -163,9 +163,11 @@ export default {
     { id: 'solidarnosc', carte: 'walesa', type: 'mcq', prompt: 'Comment s’appelle le syndicat libre né à Gdańsk en 1980 ?', options: ['Solidarność', 'Perestroïka', 'Komintern', 'Glasnost'], answer: 0 },
     { id: 'walesa', carte: 'walesa', type: 'mcq', prompt: 'Qui dirige Solidarność ?', options: ['Lech Wałęsa', 'Józef Piłsudski', 'Wojciech Jaruzelski', 'Edward Gierek'], answer: 0 },
     { id: 'pape', carte: 'pape', type: 'mcq', prompt: 'Sous quel nom le Polonais Karol Wojtyła devient-il pape en 1978 ?', options: ['Jean-Paul II', 'Benoît XVI', 'Pie XII', 'Jean XXIII'], answer: 0 },
-    { id: 'curie', carte: null, type: 'mcq', prompt: 'Quelle scientifique née à Varsovie découvre le polonium ?', options: ['Marie Curie', 'Irène Joliot-Curie', 'Rosalind Franklin', 'Lise Meitner'], answer: 0 },
+    { id: 'curie', carte: 'renaissance', type: 'mcq', prompt: 'Quelle scientifique née à Varsovie découvre le polonium ?', options: ['Marie Curie', 'Irène Joliot-Curie', 'Rosalind Franklin', 'Lise Meitner'], answer: 0 },
     { id: 'ue', carte: 'chronologie', type: 'mcq', prompt: 'En quelle année la Pologne entre-t-elle dans l’Union européenne ?', options: ['2004', '1989', '1995', '2013'], answer: 0 },
     { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Renaissance de la Pologne', 'Invasion allemande et soviétique', 'Naissance de Solidarność', 'Entrée dans l’Union européenne'] },
+    { id: 'controle-urss', carte: 'communisme', type: 'mcq', prompt: 'Quel pays contrôle le régime communiste installé en Pologne après 1945 ?', options: ['L’URSS', 'La Chine', 'La Yougoslavie', 'Les États-Unis'], answer: 0 },
+    { id: 'otan', carte: '1989', type: 'mcq', prompt: 'En quelle année la Pologne entre-t-elle dans l’OTAN ?', options: ['1999', '1989', '2004', '1945'], answer: 0 },
   ],
 
   recap: [

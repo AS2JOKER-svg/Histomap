@@ -138,6 +138,9 @@ export default {
     { id: 'voisin', carte: 'huari', type: 'mcq', prompt: 'Quel empire voisin domine le centre du Pérou à la même époque ?', options: ['Huari', 'Inca', 'Aztèque', 'Chavín'], answer: 0 },
     { id: 'fin', carte: 'fin', type: 'mcq', prompt: "Quelle explication est la plus souvent proposée pour la fin de Tiwanaku ?", options: ['Une longue sécheresse', 'La conquête espagnole', 'Une éruption volcanique', 'Une invasion aztèque'], answer: 0 },
     { id: 'ordre', carte: ['porte', 'titicaca', 'fin', 'viracocha'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Construction du temple de Chavín', 'Apogée de Tiwanaku', 'Abandon de Tiwanaku', 'Les Incas font de Tiwanaku un lieu sacré'] },
+    { id: 'habitants', carte: 'altitude', type: 'mcq', prompt: 'Combien d’habitants Tiwanaku a-t-elle comptés, selon les estimations ?', options: ['Entre 10 000 et 40 000', 'Entre 100 et 400', 'Entre 1 et 4 millions', 'Plus de 10 millions'], answer: 0 },
+    { id: 'tetes-pierre', carte: 'monuments', type: 'mcq', prompt: 'De quoi sont ornés les murs du temple semi-souterrain de Tiwanaku ?', options: ['De têtes de pierre', 'De fresques de batailles', 'De mosaïques d’or', 'De hiéroglyphes égyptiens'], answer: 0 },
+    { id: 'produits-vallees', carte: 'caravanes', type: 'mcq', prompt: 'Que les caravanes de Tiwanaku rapportent-elles des vallées plus chaudes ?', options: ['Du maïs, de la coca et du piment', 'De la laine et du poisson séché', 'De l’or et des émeraudes', 'Du blé et du vin'], answer: 0 },
   ],
 
   recap: [

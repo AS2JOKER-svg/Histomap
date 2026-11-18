@@ -20,7 +20,7 @@ export default {
       kicker: 'Territoire',
       title: 'L’Égypte',
       years: [1815, 1960],
-      caption: 'Un pays de désert traversé par le Nil, le long duquel vit presque toute la population.',
+      caption: 'Un pays de désert traversé par le Nil, le long duquel vit presque toute la population. Sa capitale est Le Caire.',
     },
     {
       id: 'suez',
@@ -148,7 +148,7 @@ export default {
   ],
 
   quiz: [
-    { id: 'capitale', carte: null, type: 'mcq', prompt: 'Quelle est la capitale de l’Égypte ?', options: ['Le Caire', 'Alexandrie', 'Louxor', 'Assouan'], answer: 0 },
+    { id: 'capitale', carte: 'carte', type: 'mcq', prompt: 'Quelle est la capitale de l’Égypte ?', options: ['Le Caire', 'Alexandrie', 'Louxor', 'Assouan'], answer: 0 },
     { id: 'mehemet', carte: 'mehemet-ali', type: 'mcq', prompt: 'Qui prend le pouvoir en Égypte en 1805 et modernise le pays ?', options: ['Méhémet Ali', 'Nasser', 'Napoléon', 'Soliman le Magnifique'], answer: 0 },
     { id: 'coton', carte: 'mehemet-ali', type: 'mcq', prompt: 'Quelle culture Méhémet Ali développe-t-il ?', options: ['Le coton', 'Le café', 'Le cacao', 'La canne à sucre'], answer: 0 },
     { id: 'canal', carte: 'suez', type: 'mcq', prompt: 'Quelles mers le canal de Suez relie-t-il ?', options: ['La Méditerranée et la mer Rouge', 'La mer Noire et la Méditerranée', 'La mer Rouge et le golfe Persique', 'La Méditerranée et l’Atlantique'], answer: 0 },

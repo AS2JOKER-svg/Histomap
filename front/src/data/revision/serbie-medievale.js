@@ -93,7 +93,7 @@ export default {
       kicker: 'Fin',
       title: 'La chute de Smederevo',
       body:
-        "Les princes serbes résistent encore quelques décennies et bâtissent la forteresse de Smederevo, au bord du Danube. Elle tombe aux mains des Ottomans en 1459.",
+        "Les princes serbes résistent encore quelques décennies et bâtissent la forteresse de Smederevo, au bord du Danube, leur dernière capitale. Elle tombe aux mains des Ottomans en 1459.",
     },
 
     // ── Niveau 2 ──
@@ -152,15 +152,17 @@ export default {
     { id: 'premier', carte: 'royaume', type: 'mcq', prompt: 'Comment surnomme-t-on le premier roi de Serbie ?', options: ['Le Premier Couronné', 'Le Grand', 'Le Vaillant', 'Le Saint'], answer: 0 },
     { id: 'dusan', carte: 'dusan', type: 'mcq', prompt: 'Quel souverain se fait couronner empereur en 1346 ?', options: ['Étienne Dušan', 'Stefan Nemanja', 'Lazar', 'Milutin'], answer: 0 },
     { id: 'code', carte: 'dusan', type: 'tf', prompt: 'Étienne Dušan donne à son empire un code de lois.', answer: true },
-    { id: 'monasteres', carte: 'ange', type: 'mcq', prompt: 'Pour quoi les monastères serbes sont-ils célèbres ?', options: ['Leurs fresques', 'Leurs bibliothèques de papyrus', 'Leurs pyramides', 'Leurs vitraux'], answer: 0 },
+    { id: 'monasteres', carte: 'monasteres', type: 'mcq', prompt: 'Pour quoi les monastères serbes sont-ils célèbres ?', options: ['Leurs fresques', 'Leurs bibliothèques de papyrus', 'Leurs pyramides', 'Leurs vitraux'], answer: 0 },
     { id: 'hilandar', carte: 'hilandar', type: 'mcq', prompt: 'Où se trouve le monastère de Hilandar ?', options: ['Au mont Athos', 'À Belgrade', 'À Rome', 'À Constantinople'], answer: 0 },
     { id: 'argent', carte: 'argent', type: 'mcq', prompt: 'Quel métal fait la richesse de la Serbie médiévale ?', options: ['L’argent', 'L’or', 'Le fer', 'L’étain'], answer: 0 },
     { id: 'kosovo', carte: 'kosovo', type: 'mcq', prompt: 'Contre qui les Serbes combattent-ils à Kosovo en 1389 ?', options: ['Les Ottomans', 'Les Hongrois', 'Les Byzantins', 'Les Mongols'], answer: 0 },
     { id: 'chefs', carte: 'kosovo', type: 'tf', prompt: 'À la bataille de Kosovo, le prince Lazar et le sultan Murad Ier sont tous deux tués.', answer: true },
-    { id: 'smederevo', carte: 'chronologie', type: 'mcq', prompt: 'Quelle est la dernière capitale de la Serbie médiévale ?', options: ['Smederevo', 'Belgrade', 'Skopje', 'Ras'], answer: 0 },
+    { id: 'smederevo', carte: 'smederevo', type: 'mcq', prompt: 'Quelle est la dernière capitale de la Serbie médiévale ?', options: ['Smederevo', 'Belgrade', 'Skopje', 'Ras'], answer: 0 },
     { id: 'raguse', carte: 'raguse', type: 'mcq', prompt: 'Avec quelle république la Serbie commerce-t-elle beaucoup ?', options: ['Raguse (Dubrovnik)', 'Florence', 'Gênes', 'Novgorod'], answer: 0 },
     { id: 'vidovdan', carte: 'vidovdan', type: 'mcq', prompt: 'Comment s’appelle le jour de commémoration de la bataille de Kosovo ?', options: ['Vidovdan', 'Noël', 'Pâques', 'Saint-Sava'], answer: 0 },
     { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Stefan Nemanja', 'Église serbe autonome', 'Dušan empereur', 'Chute de Smederevo'] },
+    { id: 'studenica', carte: 'monasteres', type: 'mcq', prompt: 'Lequel de ces monastères a été bâti par les rois serbes ?', options: ['Studenica', 'Cluny', 'Le Mont-Saint-Michel', 'Monte Cassino'], answer: 0 },
+    { id: 'smederevo-danube', carte: 'smederevo', type: 'mcq', prompt: 'Au bord de quel fleuve se trouve la dernière capitale de la Serbie médiévale ?', options: ['Le Danube', 'Le Rhin', 'La Volga', 'Le Dniepr'], answer: 0 },
   ],
 
   recap: [

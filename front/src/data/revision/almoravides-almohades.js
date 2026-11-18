@@ -69,7 +69,7 @@ export default {
       allies: ['Califat almohade'],
       vainqueur: 'Coalition chrétienne',
       consequences:
-        "Les royaumes chrétiens d'Espagne écrasent l'armée almohade. Cordoue (1236) et Séville (1248) tombent aux mains des chrétiens ; la puissance almohade s'effondre.",
+        "Les royaumes chrétiens d'Espagne écrasent l'armée almohade. Cordoue (1236) et Séville (1248) tombent aux mains des chrétiens ; la puissance almohade s'effondre. En 1269, les Mérinides, une autre dynastie berbère, prennent Marrakech.",
     },
     {
       id: 'chronologie',
@@ -159,7 +159,7 @@ export default {
     { id: 'averroes', carte: 'averroes', type: 'mcq', prompt: 'Quel philosophe est le médecin des califes almohades ?', options: ['Averroès', 'Aristote', 'Descartes', 'Confucius'], answer: 0 },
     { id: 'maimonide', carte: 'intolerance', type: 'tf', prompt: 'La famille de Maïmonide fuit les persécutions almohades.', answer: true },
     { id: 'navas', carte: 'navas', type: 'mcq', prompt: 'Quelle bataille marque la défaite des Almohades en Espagne en 1212 ?', options: ['Las Navas de Tolosa', 'Poitiers', 'Hastings', 'Lépante'], answer: 0 },
-    { id: 'fin', carte: null, type: 'mcq', prompt: 'Qui prend Marrakech aux Almohades en 1269 ?', options: ['Les Mérinides', 'Les Mongols', 'Les Ottomans', 'Les Portugais'], answer: 0 },
+    { id: 'fin', carte: 'navas', type: 'mcq', prompt: 'Qui prend Marrakech aux Almohades en 1269 ?', options: ['Les Mérinides', 'Les Mongols', 'Les Ottomans', 'Les Portugais'], answer: 0 },
     { id: 'marabout', carte: 'mots', type: 'mcq', prompt: 'Quel mot français vient du même mot arabe qu’« almoravide » ?', options: ['Marabout', 'Mosquée', 'Sultan', 'Calife'], answer: 0 },
     { id: 'or', carte: 'marabotin', type: 'mcq', prompt: 'Quelle monnaie almoravide est célèbre jusqu’en Espagne chrétienne ?', options: ['Le dinar d’or', 'Le franc', 'L’écu', 'Le sesterce'], answer: 0 },
     { id: 'ordre', carte: ['chronologie', 'zallaqa', 'navas'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Fondation de Marrakech', 'Bataille de Zallaqa', 'Les Almohades prennent Marrakech', 'Bataille de Las Navas de Tolosa'] },

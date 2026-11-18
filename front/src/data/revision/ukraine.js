@@ -10,7 +10,7 @@ export default {
       kicker: 'Origines',
       title: 'Une première indépendance',
       body:
-        "Après les révolutions russes de 1917, un conseil ukrainien, la Rada centrale, proclame à Kyiv la République populaire ukrainienne. Elle se déclare indépendante en janvier 1918.",
+        "Après les révolutions russes de 1917, un conseil ukrainien, la Rada centrale, proclame à Kyiv, l'actuelle capitale, la République populaire ukrainienne. Elle se déclare indépendante en janvier 1918.",
       highlight: { value: '1918', label: 'indépendance proclamée' },
     },
     {

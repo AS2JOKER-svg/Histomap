@@ -164,6 +164,7 @@ export default {
     { id: 'salammbo', carte: 'mercenaires', type: 'mcq', prompt: 'Quel roman de Flaubert s’inspire de la guerre des Mercenaires ?', options: ['Salammbô', 'Madame Bovary', 'Les Misérables', 'Notre-Dame de Paris'], answer: 0 },
     { id: 'magon', carte: 'navigateurs', type: 'tf', prompt: "Le traité d'agriculture du Carthaginois Magon est traduit en latin par ordre du Sénat romain.", answer: true },
     { id: 'romaine', carte: 'renaissance', type: 'tf', prompt: 'Après 146 av. J.-C., Carthage ne sera plus jamais une grande ville.', answer: false, explanation: "Refondée par Rome, elle redevient l'une des plus grandes villes de l'Empire." },
+    { id: 'cothon', carte: 'port', type: 'mcq', prompt: 'Comment est fait le port militaire de Carthage, le cothon ?', options: ['Il est circulaire, avec une île au centre pour l’amirauté', 'C’est un simple quai en ligne droite', 'Il est creusé sous terre, dans des grottes', 'C’est une rade ouverte, sans aucune protection'], answer: 0 },
   ],
 
   recap: [

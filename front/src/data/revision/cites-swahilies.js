@@ -161,6 +161,7 @@ export default {
     { id: 'langue', carte: 'swahili', type: 'mcq', prompt: 'À quelle famille appartient la langue swahilie ?', options: ['Les langues bantoues', 'Les langues romanes', 'Les langues turques', 'Les langues slaves'], answer: 0 },
     { id: 'dhow', carte: 'dhow', type: 'mcq', prompt: 'Comment s’appellent les voiliers de l’océan Indien ?', options: ['Les boutres (dhows)', 'Les drakkars', 'Les jonques', 'Les galères'], answer: 0 },
     { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Premières mosquées sur la côte', 'Visite d’Ibn Battuta', 'Vasco de Gama à Malindi', 'Sac de Kilwa et de Mombasa'] },
+    { id: 'langue-commune', carte: 'heritage', type: 'mcq', prompt: 'Que devient le swahili aujourd’hui ?', options: ['La grande langue commune de l’Afrique de l’Est', 'Une langue morte, connue seulement par des textes', 'La langue officielle de l’Égypte', 'Une langue parlée seulement à Kilwa'], answer: 0 },
   ],
 
   recap: [

@@ -29,7 +29,7 @@ export default {
       kicker: 'Diplomatie',
       title: 'Vassal des Ottomans',
       body:
-        "En 1475, les Ottomans prennent les comptoirs génois de Crimée. Le khan devient leur vassal : le sultan peut le nommer ou le destituer. Mais le khanat garde une grande autonomie et fournit aux sultans une cavalerie redoutable.",
+        "En 1475, les Ottomans prennent les comptoirs génois de Crimée. Le khan, musulman comme eux, devient leur vassal : le sultan peut le nommer ou le destituer. Mais le khanat garde une grande autonomie et fournit aux sultans une cavalerie redoutable.",
     },
     {
       id: 'razzias',
@@ -150,8 +150,8 @@ export default {
     { id: 'ancetre', carte: 'fondation', type: 'mcq', prompt: 'De qui descendent les khans Giray ?', options: ['De Gengis Khan', 'D’Attila', 'De Mahomet', 'De Charlemagne'], answer: 0 },
     { id: 'origine', carte: 'fondation', type: 'mcq', prompt: 'De l’éclatement de quel empire naît le khanat de Crimée ?', options: ['La Horde d’or', 'L’Empire byzantin', 'L’Empire romain', 'L’Empire perse'], answer: 0 },
     { id: 'mer', carte: 'fondation', type: 'mcq', prompt: 'Au bord de quelle mer se trouve la Crimée ?', options: ['La mer Noire', 'La mer Baltique', 'La Méditerranée', 'La mer du Nord'], answer: 0 },
-    { id: 'suzerain', carte: 'roxelane', type: 'mcq', prompt: 'De quel empire le khan devient-il le vassal ?', options: ['L’Empire ottoman', 'L’Empire russe', 'Le Saint-Empire', 'L’Empire perse'], answer: 0 },
-    { id: 'religion', carte: null, type: 'mcq', prompt: 'Quelle est la religion des Tatars de Crimée ?', options: ['L’islam', 'Le christianisme orthodoxe', 'Le bouddhisme', 'Le judaïsme'], answer: 0 },
+    { id: 'suzerain', carte: 'ottomans', type: 'mcq', prompt: 'De quel empire le khan devient-il le vassal ?', options: ['L’Empire ottoman', 'L’Empire russe', 'Le Saint-Empire', 'L’Empire perse'], answer: 0 },
+    { id: 'religion', carte: 'ottomans', type: 'mcq', prompt: 'Quelle est la religion des Tatars de Crimée ?', options: ['L’islam', 'Le christianisme orthodoxe', 'Le bouddhisme', 'Le judaïsme'], answer: 0 },
     { id: 'capitale', carte: 'palais', type: 'mcq', prompt: 'Quelle est la capitale des khans ?', options: ['Bakhtchissaraï', 'Saraï', 'Istanbul', 'Kiev'], answer: 0 },
     { id: 'razzias', carte: 'razzias', type: 'tf', prompt: 'Les Tatars de Crimée capturent des captifs lors de raids et les vendent comme esclaves.', answer: true },
     { id: 'moscou', carte: 'moscou', type: 'mcq', prompt: 'Quelle ville le khan Devlet Ier Giray incendie-t-il en 1571 ?', options: ['Moscou', 'Varsovie', 'Vienne', 'Kiev'], answer: 0 },

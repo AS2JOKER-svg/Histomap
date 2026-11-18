@@ -153,7 +153,7 @@ export default {
     { id: 'topiltzin', carte: 'quetzalcoatl', type: 'mcq', prompt: 'Selon la tradition, que fait Topiltzin Quetzalcoatl chassé de Tula ?', options: ['Il part vers l’est en promettant de revenir', 'Il devient roi des Incas', 'Il fonde Rome', 'Il se retire dans un monastère'], answer: 0 },
     { id: 'chacmool', carte: 'chacmool', type: 'mcq', prompt: 'Qu’est-ce qu’un chac-mool ?', options: ['Une statue couchée tenant un récipient', 'Une pyramide', 'Une arme', 'Un calendrier'], answer: 0 },
     { id: 'chute', carte: 'chute', type: 'mcq', prompt: 'Au cours de quel siècle Tula est-elle abandonnée ?', options: ['Le XIIe siècle', 'Le Ve siècle', 'Le XVIe siècle', 'Le Ier siècle'], answer: 0 },
-    { id: 'azteques', carte: 'chute', type: 'mcq', prompt: 'Quel peuple voit plus tard dans les Toltèques des ancêtres prestigieux ?', options: ['Les Aztèques', 'Les Incas', 'Les Espagnols', 'Les Mochicas'], answer: 0 },
+    { id: 'azteques', carte: 'modele', type: 'mcq', prompt: 'Quel peuple voit plus tard dans les Toltèques des ancêtres prestigieux ?', options: ['Les Aztèques', 'Les Incas', 'Les Espagnols', 'Les Mochicas'], answer: 0 },
     { id: 'chichen', carte: 'chichen', type: 'mcq', prompt: 'Quelle cité maya ressemble beaucoup à Tula ?', options: ['Chichén Itzá', 'Tikal', 'Palenque', 'Copán'], answer: 0 },
     { id: 'cortes', carte: 'cortes', type: 'tf', prompt: 'Tous les historiens sont certains que Moctezuma a pris Cortés pour Quetzalcoatl.', answer: false, explanation: 'Beaucoup pensent que ce récit a été inventé après la conquête.' },
     { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Essor de Tula', 'Apogée de Tula', 'Les Atlantes', 'Chute de Tula (tradition)'] },

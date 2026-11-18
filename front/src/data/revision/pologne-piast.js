@@ -38,7 +38,7 @@ export default {
       kicker: 'Pouvoir',
       title: 'Un pays divisé',
       body:
-        "En 1138, le roi Boleslas III partage le pays entre ses fils. Pendant près de deux siècles, la Pologne est divisée entre princes rivaux.",
+        "En 1138, le duc Boleslas III partage le pays entre ses fils. Pendant près de deux siècles, la Pologne est divisée entre princes rivaux.",
     },
     {
       id: 'legnica',
@@ -83,7 +83,7 @@ export default {
       role: 'Roi de Pologne',
       dates: 'règne 1333 – 1370',
       description:
-        "Dernier roi Piast, il unifie les lois, fonde l'université de Cracovie en 1364 et fait bâtir des dizaines de châteaux. On dit qu'il a trouvé une Pologne de bois et l'a laissée de pierre.",
+        "Dernier roi Piast, il unifie les lois, fonde en 1364 l'université de Cracovie, sa capitale, et fait bâtir des dizaines de châteaux. On dit qu'il a trouvé une Pologne de bois et l'a laissée de pierre.",
     },
     {
       id: 'union',
@@ -154,7 +154,7 @@ export default {
     { id: 'teutoniques', carte: 'teutoniques', type: 'mcq', prompt: 'Quels chevaliers s’installent au nord de la Pologne au XIIIe siècle ?', options: ['Les chevaliers Teutoniques', 'Les Templiers', 'Les Hospitaliers', 'Les samouraïs'], answer: 0 },
     { id: 'casimir', carte: 'casimir', type: 'mcq', prompt: 'Quel roi a « trouvé une Pologne de bois et l’a laissée de pierre » ?', options: ['Casimir III le Grand', 'Mieszko Ier', 'Boleslas III', 'Louis de Hongrie'], answer: 0 },
     { id: 'universite', carte: 'casimir', type: 'mcq', prompt: 'Quelle université Casimir III fonde-t-il en 1364 ?', options: ['Celle de Cracovie', 'Celle de Paris', 'Celle de Prague', 'Celle de Bologne'], answer: 0 },
-    { id: 'capitale', carte: null, type: 'mcq', prompt: 'Quelle ville devient la capitale de la Pologne médiévale ?', options: ['Cracovie', 'Varsovie', 'Gdańsk', 'Vilnius'], answer: 0 },
+    { id: 'capitale', carte: 'casimir', type: 'mcq', prompt: 'Quelle ville devient la capitale de la Pologne médiévale ?', options: ['Cracovie', 'Varsovie', 'Gdańsk', 'Vilnius'], answer: 0 },
     { id: 'hedwige', carte: 'hedwige', type: 'mcq', prompt: 'Pourquoi Hedwige est-elle couronnée « roi » ?', options: ['Pour montrer qu’elle règne elle-même', 'Par erreur', 'Parce qu’elle était un homme', 'Pour plaire au pape'], answer: 0 },
     { id: 'lituanie', carte: 'union', type: 'mcq', prompt: 'Avec quel pays la Pologne s’unit-elle en 1385-1386 ?', options: ['La Lituanie', 'La Hongrie', 'La Bohême', 'La Russie'], answer: 0 },
     { id: 'sel', carte: 'sel', type: 'mcq', prompt: 'Quelle ressource est exploitée dans les mines de Wieliczka ?', options: ['Le sel', 'L’or', 'Le charbon', 'Le fer'], answer: 0 },

@@ -92,7 +92,7 @@ export default {
       kicker: 'Paix',
       title: 'Les accords d’Oslo',
       body:
-        "En 1993, Israël et l'OLP se reconnaissent mutuellement ; une Autorité palestinienne est créée. Mais les questions des frontières, de Jérusalem, des réfugiés et des colonies ne sont pas réglées, et le processus de paix échoue.",
+        "En 1993, Israël et l'OLP se reconnaissent mutuellement ; une Autorité palestinienne est créée. En 1995, le Premier ministre israélien Yitzhak Rabin, qui a signé ces accords, est assassiné par un extrémiste israélien qui s'y oppose. Mais les questions des frontières, de Jérusalem, des réfugiés et des colonies ne sont pas réglées, et le processus de paix échoue.",
     },
 
     // ── Niveau 2 ──
@@ -155,11 +155,12 @@ export default {
     { id: 'olp', carte: 'arafat', type: 'mcq', prompt: 'Qui dirige l’OLP de 1969 à 2004 ?', options: ['Yasser Arafat', 'Mahmoud Abbas', 'Gamal Abdel Nasser', 'Amin al-Husseini'], answer: 0 },
     { id: 'intifada', carte: 'intifadas', type: 'mcq', prompt: 'Comment appelle-t-on les soulèvements palestiniens de 1987 et 2000 ?', options: ['Les intifadas', 'Les croisades', 'Les printemps arabes', 'Les Nakbas'], answer: 0 },
     { id: 'oslo', carte: 'oslo', type: 'mcq', prompt: 'Quels accords de 1993 créent une Autorité palestinienne ?', options: ['Les accords d’Oslo', 'Les accords de Camp David', 'Les accords d’Évian', 'Les accords de Genève'], answer: 0 },
-    { id: 'rabin', carte: null, type: 'tf', prompt: 'Le Premier ministre israélien Yitzhak Rabin est assassiné en 1995 par un extrémiste israélien.', answer: true },
+    { id: 'rabin', carte: 'oslo', type: 'tf', prompt: 'Le Premier ministre israélien Yitzhak Rabin est assassiné en 1995 par un extrémiste israélien.', answer: true },
     { id: 'jerusalem', carte: 'jerusalem', type: 'mcq', prompt: 'Quel lieu saint de Jérusalem est vénéré par les juifs ?', options: ['Le mur des Lamentations', 'La mosquée al-Aqsa', 'Le Saint-Sépulcre', 'La Kaaba'], answer: 0 },
     { id: 'hamas', carte: 'gaza', type: 'mcq', prompt: 'Quel mouvement contrôle la bande de Gaza depuis 2007 ?', options: ['Le Hamas', 'Le Fatah', 'Le Hezbollah', 'L’OLP'], answer: 0 },
     { id: 'ben-gourion', carte: 'ben-gourion', type: 'mcq', prompt: 'Qui proclame l’indépendance d’Israël ?', options: ['David Ben Gourion', 'Theodor Herzl', 'Golda Meir', 'Menahem Begin'], answer: 0 },
     { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Déclaration Balfour', 'Indépendance d’Israël et Nakba', 'Guerre des Six Jours', 'Accords d’Oslo'] },
+    { id: 'revolte-1936', carte: 'mandat', type: 'mcq', prompt: 'Sous le mandat britannique, quand les Arabes palestiniens se révoltent-ils ?', options: ['De 1936 à 1939', 'De 1948 à 1950', 'De 1967 à 1973', 'De 1987 à 1993'], answer: 0 },
   ],
 
   recap: [

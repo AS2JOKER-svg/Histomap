@@ -87,7 +87,7 @@ export default {
       kicker: 'Pouvoir',
       title: 'La réunification',
       body:
-        "Le 30 avril 1975, les chars du Nord entrent dans Saïgon. Le pays est réunifié en 1976 sous un régime communiste. Des centaines de milliers de « boat people » fuient par la mer.",
+        "Le 30 avril 1975, les chars du Nord entrent dans Saïgon. Le pays est réunifié en 1976 sous un régime communiste, avec Hanoï pour capitale. Des centaines de milliers de « boat people » fuient par la mer.",
     },
     {
       id: 'doi-moi',
@@ -148,7 +148,7 @@ export default {
   ],
 
   quiz: [
-    { id: 'capitale', carte: null, type: 'mcq', prompt: 'Quelle est la capitale du Viêt Nam ?', options: ['Hanoï', 'Saïgon', 'Huế', 'Phnom Penh'], answer: 0 },
+    { id: 'capitale', carte: 'reunification', type: 'mcq', prompt: 'Quelle est la capitale du Viêt Nam ?', options: ['Hanoï', 'Saïgon', 'Huế', 'Phnom Penh'], answer: 0 },
     { id: 'colonisateur', carte: 'conquete', type: 'mcq', prompt: 'Quel pays colonise le Viêt Nam à partir de 1858 ?', options: ['La France', 'Le Royaume-Uni', 'Les Pays-Bas', 'Le Portugal'], answer: 0 },
     { id: 'indochine', carte: 'indochine', type: 'mcq', prompt: 'Comment s’appelle l’ensemble colonial créé en 1887 ?', options: ['L’Indochine française', 'L’Afrique-Occidentale française', 'Les Indes néerlandaises', 'Le Raj britannique'], answer: 0 },
     { id: 'ho', carte: 'ho-chi-minh', type: 'mcq', prompt: 'Qui proclame l’indépendance du Viêt Nam le 2 septembre 1945 ?', options: ['Hô Chi Minh', 'Bảo Đại', 'Ngô Đình Diệm', 'Võ Nguyên Giáp'], answer: 0 },

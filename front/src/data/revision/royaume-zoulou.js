@@ -163,6 +163,7 @@ export default {
     { id: 'reconciliation', carte: 'reconciliation', type: 'mcq', prompt: 'Comment s’appelle aujourd’hui le 16 décembre en Afrique du Sud ?', options: ['Le jour de la Réconciliation', 'Le jour de l’Indépendance', 'Le jour de Chaka', 'Le jour des Boers'], answer: 0 },
     { id: 'aujourdhui', carte: 'aujourdhui', type: 'tf', prompt: 'Le zoulou est la langue maternelle la plus parlée d’Afrique du Sud.', answer: true },
     { id: 'ordre', carte: ['chronologie', 'isandhlwana'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Chaka roi', 'Bataille de Blood River', 'Bataille d’Isandhlwana', 'Annexion britannique'] },
+    { id: 'deplacements', carte: 'bouleversements', type: 'mcq', prompt: 'Quelle conséquence les guerres zouloues du début du XIXe siècle ont-elles en Afrique australe ?', options: ['De grands déplacements de peuples', 'La fondation de l’Empire du Mali', 'La fin de l’élevage du bétail', 'L’arrivée des premiers Européens'], answer: 0 },
   ],
 
   recap: [

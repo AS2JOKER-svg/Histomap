@@ -50,7 +50,7 @@ export default {
       kicker: 'Arts',
       title: 'Samarcande la bleue',
       body:
-        "Tamerlan fait de Samarcande une capitale grandiose, avec la mosquée Bibi-Khanym et son mausolée, le Gour Emir. Il y fait venir de force des milliers d'artisans, d'architectes et de savants des pays conquis. Les coupoles sont couvertes de céramique bleue.",
+        "Tamerlan fait de Samarcande, dans l'actuel Ouzbékistan, une capitale grandiose, avec la mosquée Bibi-Khanym et son mausolée, le Gour Emir. Il y fait venir de force des milliers d'artisans, d'architectes et de savants des pays conquis. Les coupoles sont couvertes de céramique bleue.",
     },
     {
       id: 'ulugh-beg',
@@ -145,10 +145,10 @@ export default {
   ],
 
   quiz: [
-    { id: 'fondateur', carte: 'fin', type: 'mcq', prompt: 'Qui fonde l’Empire timouride ?', options: ['Tamerlan', 'Gengis Khan', 'Babur', 'Soliman'], answer: 0 },
+    { id: 'fondateur', carte: 'tamerlan', type: 'mcq', prompt: 'Qui fonde l’Empire timouride ?', options: ['Tamerlan', 'Gengis Khan', 'Babur', 'Soliman'], answer: 0 },
     { id: 'surnom', carte: 'tamerlan', type: 'mcq', prompt: 'Que signifie le surnom « Timour-e Lang » ?', options: ['Timour le Boiteux', 'Timour le Grand', 'Timour le Sage', 'Timour le Cruel'], answer: 0 },
     { id: 'capitale', carte: 'samarcande', type: 'mcq', prompt: 'Quelle ville Tamerlan choisit-il pour capitale ?', options: ['Samarcande', 'Bagdad', 'Delhi', 'Istanbul'], answer: 0 },
-    { id: 'pays', carte: null, type: 'mcq', prompt: 'Dans quel pays actuel se trouve Samarcande ?', options: ['L’Ouzbékistan', 'L’Iran', 'L’Inde', 'La Turquie'], answer: 0 },
+    { id: 'pays', carte: 'samarcande', type: 'mcq', prompt: 'Dans quel pays actuel se trouve Samarcande ?', options: ['L’Ouzbékistan', 'L’Iran', 'L’Inde', 'La Turquie'], answer: 0 },
     { id: 'titre', carte: 'emir', type: 'mcq', prompt: 'Pourquoi Tamerlan ne prend-il pas le titre de khan ?', options: ['Il ne descend pas de Gengis Khan', 'Il est trop jeune', 'Le calife le lui interdit', 'Il n’est pas musulman'], answer: 0 },
     { id: 'delhi', carte: 'conquetes', type: 'mcq', prompt: 'Quelle ville de l’Inde Tamerlan pille-t-il en 1398 ?', options: ['Delhi', 'Bombay', 'Calcutta', 'Madras'], answer: 0 },
     { id: 'ankara', carte: 'ankara', type: 'mcq', prompt: 'Quel sultan ottoman Tamerlan capture-t-il à Ankara en 1402 ?', options: ['Bayezid Ier', 'Mehmed II', 'Soliman', 'Osman Ier'], answer: 0 },

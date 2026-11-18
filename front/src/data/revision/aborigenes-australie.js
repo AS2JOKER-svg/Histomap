@@ -69,7 +69,7 @@ export default {
         { year: -40000, label: 'Sépultures du lac Mungo' },
         { year: -10000, label: 'La Tasmanie devient une île' },
         { year: 1770, label: 'James Cook longe la côte est' },
-        { year: 1788, label: 'Arrivée de la Première Flotte' },
+        { year: 1788, label: 'Arrivée de la Première Flotte à Sydney' },
       ],
     },
     {
@@ -78,6 +78,7 @@ export default {
       type: 'war',
       nom: 'Guerres de la frontière australienne',
       annee: 1788,
+      fin: 1934,
       adversaires: ['Colons et soldats britanniques'],
       allies: ['Peuples aborigènes'],
       vainqueur: 'Colons britanniques',
@@ -155,10 +156,11 @@ export default {
     { id: 'woomera', carte: 'outils', type: 'mcq', prompt: 'À quoi sert le propulseur (woomera) ?', options: ['À lancer une sagaie plus loin', 'À allumer le feu', 'À pêcher', 'À faire de la musique'], answer: 0 },
     { id: 'mungo', carte: 'chronologie', type: 'mcq', prompt: 'Où a-t-on trouvé les plus anciennes sépultures d’Australie ?', options: ['Au lac Mungo', 'À Sydney', 'En Tasmanie', 'À Uluru'], answer: 0 },
     { id: 'cook', carte: 'chronologie', type: 'mcq', prompt: 'Quel navigateur revendique la côte est pour la Grande-Bretagne en 1770 ?', options: ['James Cook', 'Christophe Colomb', 'Magellan', 'Abel Tasman'], answer: 0 },
-    { id: 'flotte', carte: 'bennelong', type: 'mcq', prompt: 'Où s’installent les colons britanniques en 1788 ?', options: ['À Sydney', 'À Melbourne', 'À Perth', 'À Darwin'], answer: 0 },
+    { id: 'flotte', carte: 'chronologie', type: 'mcq', prompt: 'Où s’installent les colons britanniques en 1788 ?', options: ['À Sydney', 'À Melbourne', 'À Perth', 'À Darwin'], answer: 0 },
     { id: 'epidemies', carte: 'colonisation', type: 'mcq', prompt: 'Quelle cause fait surtout chuter la population aborigène après 1788 ?', options: ['Les épidémies, comme la variole', 'Une famine due à la sécheresse', 'Un tremblement de terre', 'Une éruption volcanique'], answer: 0 },
     { id: 'mabo', carte: 'mabo', type: 'mcq', prompt: 'Que reconnaît la Haute Cour d’Australie dans l’affaire Mabo (1992) ?', options: ['Le pays n’était pas une « terre sans maître » en 1788', 'L’indépendance de l’Australie', 'La fin de l’esclavage', 'Le droit de vote des femmes'], answer: 0 },
     { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Arrivée en Australie (au moins)', 'Sépultures du lac Mungo', 'La Tasmanie devient une île', 'Arrivée de la Première Flotte'] },
+    { id: 'part-2021', carte: 'aujourdhui', type: 'mcq', prompt: 'En 2021, quelle part des Australiens se déclare aborigène ou insulaire du détroit de Torres ?', options: ['Environ 3 %', 'Environ 30 %', 'Environ la moitié', 'Moins de 0,1 %'], answer: 0 },
   ],
 
   recap: [

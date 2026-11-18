@@ -60,7 +60,7 @@ export default {
       kicker: 'Découvertes',
       title: 'Un calendrier très précis',
       body:
-        "En 1079, à Ispahan, une équipe d'astronomes dont fait partie Omar Khayyam met au point le calendrier Jalali. Il est un peu plus exact que notre calendrier grégorien, adopté cinq siècles plus tard. Le calendrier iranien actuel en descend.",
+        "En 1079, à Ispahan, la capitale du sultan Malik Shah, une équipe d'astronomes dont fait partie Omar Khayyam met au point le calendrier Jalali. Il est un peu plus exact que notre calendrier grégorien, adopté cinq siècles plus tard. Le calendrier iranien actuel en descend.",
     },
     {
       id: 'roum',
@@ -152,8 +152,8 @@ export default {
     { id: 'manzikert', carte: 'manzikert', type: 'mcq', prompt: 'Quel sultan bat l’empereur byzantin à Manzikert en 1071 ?', options: ['Alp Arslan', 'Tughril Beg', 'Sanjar', 'Soliman'], answer: 0 },
     { id: 'anatolie', carte: 'manzikert', type: 'mcq', prompt: 'Quelle région les Turcs commencent-ils à peupler après Manzikert ?', options: ['L’Anatolie', 'L’Égypte', 'L’Espagne', 'L’Inde'], answer: 0 },
     { id: 'vizir', carte: 'nizam', type: 'mcq', prompt: 'Quel vizir organise l’empire et fonde des madrasas ?', options: ['Nizam al-Mulk', 'Omar Khayyam', 'Rumi', 'Avicenne'], answer: 0 },
-    { id: 'calendrier', carte: 'khayyam', type: 'mcq', prompt: 'Quel savant participe à la création du calendrier Jalali ?', options: ['Omar Khayyam', 'Ptolémée', 'Galilée', 'Al-Khwarizmi'], answer: 0 },
-    { id: 'capitale', carte: null, type: 'mcq', prompt: 'Quelle ville d’Iran est la capitale de Malik Shah ?', options: ['Ispahan', 'Téhéran', 'Bagdad', 'Le Caire'], answer: 0 },
+    { id: 'calendrier', carte: 'calendrier', type: 'mcq', prompt: 'Quel savant participe à la création du calendrier Jalali ?', options: ['Omar Khayyam', 'Ptolémée', 'Galilée', 'Al-Khwarizmi'], answer: 0 },
+    { id: 'capitale', carte: 'calendrier', type: 'mcq', prompt: 'Quelle ville d’Iran est la capitale de Malik Shah ?', options: ['Ispahan', 'Téhéran', 'Bagdad', 'Le Caire'], answer: 0 },
     { id: 'roum', carte: 'roum', type: 'mcq', prompt: 'Que signifie « Roum » dans « sultanat de Roum » ?', options: ['Rome', 'Rouge', 'Roi', 'Route'], answer: 0 },
     { id: 'konya', carte: 'roum', type: 'mcq', prompt: 'Quelle est la capitale du sultanat de Roum ?', options: ['Konya', 'Istanbul', 'Bagdad', 'Damas'], answer: 0 },
     { id: 'rumi', carte: 'rumi', type: 'mcq', prompt: 'Quel ordre religieux fondent les disciples de Rumi ?', options: ['Les derviches tourneurs', 'Les templiers', 'Les bénédictins', 'Les samouraïs'], answer: 0 },

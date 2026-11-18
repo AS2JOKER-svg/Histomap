@@ -146,7 +146,7 @@ export default {
 
   quiz: [
     { id: 'pays', carte: 'chronologie', type: 'mcq', prompt: 'Dans quel pays actuel se trouve l’Hetmanat cosaque ?', options: ['L’Ukraine', 'La Pologne', 'La Turquie', 'La Hongrie'], answer: 0 },
-    { id: 'fleuve', carte: 'ruine', type: 'mcq', prompt: 'Le long de quel fleuve vivent les Cosaques zaporogues ?', options: ['Le Dniepr', 'La Volga', 'Le Danube', 'Le Rhin'], answer: 0 },
+    { id: 'fleuve', carte: 'cosaques', type: 'mcq', prompt: 'Le long de quel fleuve vivent les Cosaques zaporogues ?', options: ['Le Dniepr', 'La Volga', 'Le Danube', 'Le Rhin'], answer: 0 },
     { id: 'sitch', carte: 'cosaques', type: 'mcq', prompt: 'Comment s’appelle la forteresse centrale des Cosaques zaporogues ?', options: ['La Sitch', 'Le Kremlin', 'Le Wawel', 'La Bastille'], answer: 0 },
     { id: 'chef', carte: 'rada', type: 'mcq', prompt: 'Comment s’appelle le chef élu des Cosaques ?', options: ['L’hetman', 'Le khan', 'Le doge', 'Le tsar'], answer: 0 },
     { id: 'khmelnytsky', carte: 'khmelnytsky', type: 'mcq', prompt: 'Qui mène le soulèvement de 1648 ?', options: ['Bohdan Khmelnytsky', 'Ivan Mazepa', 'Ermak', 'Pougatchev'], answer: 0 },

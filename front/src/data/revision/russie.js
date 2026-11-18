@@ -78,7 +78,7 @@ export default {
       allies: ['Royaume-Uni', 'États-Unis'],
       vainqueur: "L'URSS et les Alliés",
       consequences:
-        "Le 22 juin 1941, Hitler attaque l'URSS. La victoire de Stalingrad (février 1943) marque le tournant de la guerre. L'Armée rouge prend Berlin en mai 1945, mais l'URSS a perdu environ 27 millions de personnes.",
+        "Le 22 juin 1941, Hitler attaque l'URSS : c'est l'opération Barbarossa. La victoire de Stalingrad (février 1943) marque le tournant de la guerre. L'Armée rouge prend Berlin en mai 1945, mais l'URSS a perdu environ 27 millions de personnes.",
     },
     {
       id: 'guerre-froide',
@@ -162,7 +162,7 @@ export default {
     { id: 'urss', carte: 'revolutions', type: 'mcq', prompt: "En quelle année l'URSS est-elle créée ?", options: ['1922', '1917', '1945', '1905'], answer: 0 },
     { id: 'kolkhozes', carte: 'staline', type: 'mcq', prompt: 'Comment appelle-t-on les fermes collectives imposées par Staline ?', options: ['Les kolkhozes', 'Les soviets', 'Les datchas', 'Les goulags'], answer: 0 },
     { id: 'goulag', carte: 'goulag', type: 'mcq', prompt: "Qu'est-ce que le goulag ?", options: ['Un système de camps de travail forcé', 'Le Parlement russe', 'Un plan de développement économique', 'Une ferme collective'], answer: 0 },
-    { id: 'barbarossa', carte: null, type: 'mcq', prompt: "Comment s'appelle l'invasion allemande de l'URSS en 1941 ?", options: ['Opération Barbarossa', 'Opération Overlord', 'Opération Dynamo', 'Opération Tempête du désert'], answer: 0 },
+    { id: 'barbarossa', carte: 'grande-guerre-patriotique', type: 'mcq', prompt: "Comment s'appelle l'invasion allemande de l'URSS en 1941 ?", options: ['Opération Barbarossa', 'Opération Overlord', 'Opération Dynamo', 'Opération Tempête du désert'], answer: 0 },
     { id: 'stalingrad', carte: 'grande-guerre-patriotique', type: 'mcq', prompt: "Quelle bataille marque le tournant de la guerre sur le front de l'Est ?", options: ['Stalingrad', 'Verdun', 'Borodino', 'Waterloo'], answer: 0 },
     { id: 'berlin', carte: 'grande-guerre-patriotique', type: 'tf', prompt: "L'Armée rouge prend Berlin en 1945.", answer: true },
     { id: 'spoutnik', carte: 'guerre-froide', type: 'mcq', prompt: 'Quel est le premier satellite artificiel ?', options: ['Spoutnik', 'Apollo 11', 'Hubble', 'Vostok 1'], answer: 0 },

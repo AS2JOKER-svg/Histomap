@@ -147,6 +147,7 @@ export default {
     { id: 'unesco', carte: 'reiche', type: 'mcq', prompt: "En quelle année les lignes sont-elles inscrites à l'UNESCO ?", options: ['1994', '1946', '1911', '2024'], answer: 0 },
     { id: 'huari', carte: 'fin', type: 'mcq', prompt: 'Sous l’influence de quel empire la région de Nazca passe-t-elle vers 650 ?', options: ['Huari', 'Inca', 'Aztèque', 'Chavín'], answer: 0 },
     { id: 'ordre', carte: ['desert', 'fin', 'decouvertes'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Débuts de la culture Nazca', 'Déclin de Cahuachi', 'Maria Reiche commence ses mesures', "Inscription à l'UNESCO"] },
+    { id: 'trait-continu', carte: 'colibri', type: 'tf', prompt: 'Beaucoup de figures de Nazca sont dessinées d’un seul trait continu.', answer: true },
   ],
 
   recap: [

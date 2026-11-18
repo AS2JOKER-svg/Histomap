@@ -46,6 +46,7 @@ export default {
       type: 'war',
       nom: 'Guerre de Quatre-Vingts Ans',
       annee: 1568,
+      fin: 1648,
       adversaires: ['Espagne des Habsbourg'],
       allies: ['Provinces-Unies', 'Angleterre et France (aide intermittente)'],
       vainqueur: 'Provinces-Unies',

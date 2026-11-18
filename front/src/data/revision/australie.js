@@ -19,6 +19,7 @@ export default {
       type: 'war',
       nom: 'Guerres de la frontière australienne',
       annee: 1788,
+      fin: 1934,
       adversaires: ['Peuples aborigènes'],
       allies: ['Colons britanniques', 'Police coloniale'],
       vainqueur: 'Colons britanniques',
@@ -50,7 +51,7 @@ export default {
       kicker: 'Pouvoir',
       title: 'La fédération de 1901',
       body:
-        "En 1901, les six colonies s'unissent dans le Commonwealth d'Australie. Le nouveau pays adopte la politique de l'« Australie blanche », qui limite l'immigration non européenne jusqu'en 1973.",
+        "En 1901, les six colonies s'unissent dans le Commonwealth d'Australie, qui se dote plus tard d'une capitale nouvelle, Canberra. Le nouveau pays adopte la politique de l'« Australie blanche », qui limite l'immigration non européenne jusqu'en 1973.",
     },
     {
       id: 'chronologie',
@@ -147,7 +148,7 @@ export default {
   ],
 
   quiz: [
-    { id: 'capitale', carte: null, type: 'mcq', prompt: 'Quelle est la capitale de l’Australie ?', options: ['Canberra', 'Sydney', 'Melbourne', 'Perth'], answer: 0 },
+    { id: 'capitale', carte: 'federation', type: 'mcq', prompt: 'Quelle est la capitale de l’Australie ?', options: ['Canberra', 'Sydney', 'Melbourne', 'Perth'], answer: 0 },
     { id: 'colonisateur', carte: 'premiere-flotte', type: 'mcq', prompt: 'Quel pays colonise l’Australie à partir de 1788 ?', options: ['Le Royaume-Uni', 'Les Pays-Bas', 'La France', 'L’Espagne'], answer: 0 },
     { id: 'forcats', carte: 'premiere-flotte', type: 'mcq', prompt: 'Qui sont les premiers colons arrivés en 1788 ?', options: ['Surtout des forçats et leurs gardiens', 'Des chercheurs d’or', 'Des missionnaires', 'Des marchands chinois'], answer: 0 },
     { id: 'sydney', carte: 'premiere-flotte', type: 'mcq', prompt: 'Où débarque la Première Flotte ?', options: ['À Sydney', 'À Melbourne', 'À Perth', 'À Darwin'], answer: 0 },

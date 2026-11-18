@@ -159,6 +159,7 @@ export default {
     { id: 'chine', carte: 'chine', type: 'tf', prompt: 'Des moines venus de l’empire kouchan traduisent des textes bouddhistes en chinois.', answer: true },
     { id: 'rabatak', carte: 'rabatak', type: 'mcq', prompt: 'En quelle année a-t-on découvert l’inscription de Rabatak ?', options: ['1993', '1789', '1066', '1453'], answer: 0 },
     { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Kujula Kadphisès unifie les Kouchans', 'Défaite face à Ban Chao', 'Avènement de Kanishka', 'Les Sassanides prennent la Bactriane'] },
+    { id: 'tous-dieux', carte: 'religions', type: 'mcq', prompt: 'Quels dieux les Kouchans honorent-ils ?', options: ['Des dieux iraniens, grecs et indiens', 'Seulement les dieux grecs', 'Un dieu unique, à l’exclusion de tous les autres', 'Seulement leurs ancêtres'], answer: 0 },
   ],
 
   recap: [

@@ -159,6 +159,7 @@ export default {
     { id: 'rois-catholiques', carte: 'grenade', type: 'mcq', prompt: 'À qui Grenade est-elle remise en 1492 ?', options: ['Isabelle de Castille et Ferdinand d’Aragon', 'Charlemagne', 'Charles Quint', 'Philippe II'], answer: 0 },
     { id: 'naranja', carte: 'agriculture', type: 'tf', prompt: 'Le mot espagnol naranja (orange) vient de l’arabe.', answer: true },
     { id: 'ordre', carte: ['conquete', 'omeyyades', 'navas', 'grenade'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Conquête de Tariq ibn Ziyad', 'Abd al-Rahman III se proclame calife', 'Bataille de Las Navas de Tolosa', 'Chute de Grenade'] },
+    { id: 'presence-780', carte: 'duree', type: 'mcq', prompt: 'Combien de temps dure environ la présence politique musulmane en Espagne ?', options: ['Environ 780 ans', 'Environ 78 ans', 'Environ 300 ans', 'Environ 1 500 ans'], answer: 0 },
   ],
 
   recap: [

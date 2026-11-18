@@ -160,6 +160,7 @@ export default {
     { id: 'acadiens', carte: 'acadiens', type: 'mcq', prompt: 'Quel peuple est déporté lors du Grand Dérangement de 1755 ?', options: ['Les Acadiens', 'Les Hurons', 'Les Québécois', 'Les Cajuns'], answer: 0 },
     { id: 'filles', carte: 'filles', type: 'mcq', prompt: 'Qui sont les « filles du roi » ?', options: ['Des jeunes femmes venues s’établir dans la colonie', 'Les filles de Louis XIV', 'Des religieuses', 'Des navires'], answer: 0 },
     { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Jacques Cartier à Gaspé', 'Fondation de Québec', 'Grande Paix de Montréal', 'Traité de Paris'] },
+    { id: 'quebecois', carte: 'francais', type: 'mcq', prompt: 'Combien de Québécois parlent aujourd’hui français ?', options: ['Plus de 7 millions', 'Environ 70 000', 'Environ 700 000', 'Plus de 70 millions'], answer: 0 },
   ],
 
   recap: [

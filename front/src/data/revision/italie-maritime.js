@@ -139,12 +139,12 @@ export default {
       kicker: 'Fin',
       title: "Le déclin face à l'Atlantique",
       body:
-        "La progression des Ottomans, qui prennent Constantinople en 1453, menace les comptoirs d'Orient. Puis les grandes découvertes ouvrent les routes de l'Atlantique. Ironie de l'histoire : c'est un Génois, Christophe Colomb, qui traverse l'océan en 1492 pour le compte de l'Espagne.",
+        "La progression des Ottomans, qui prennent Constantinople en 1453, menace les comptoirs d'Orient. Puis les grandes découvertes ouvrent les routes de l'Atlantique. Ironie de l'histoire : c'est un enfant de Gênes, Christophe Colomb, qui traverse l'océan en 1492 pour le compte de l'Espagne.",
     },
   ],
 
   quiz: [
-    { id: 'doge', carte: 'gouvernement', type: 'mcq', prompt: 'Comment s’appelle le chef élu de la république de Venise ?', options: ['Le doge', 'Le podestat', 'Le consul', 'Le calife'], answer: 0 },
+    { id: 'doge', carte: 'lagune', type: 'mcq', prompt: 'Comment s’appelle le chef élu de la république de Venise ?', options: ['Le doge', 'Le podestat', 'Le consul', 'Le calife'], answer: 0 },
     { id: 'quatre', carte: 'quatre', type: 'mcq', prompt: 'Laquelle de ces villes n’est PAS une des quatre grandes républiques maritimes ?', options: ['Florence', 'Gênes', 'Pise', 'Amalfi'], answer: 0 },
     { id: 'lagune', carte: 'lagune', type: 'tf', prompt: 'Venise est bâtie sur les îlots d’une lagune.', answer: true },
     { id: 'saint-marc', carte: 'saint-marc', type: 'mcq', prompt: 'Quel saint est le protecteur de Venise ?', options: ['Saint Marc', 'Saint Pierre', 'Saint Jacques', 'Saint Georges'], answer: 0 },
@@ -153,14 +153,14 @@ export default {
     { id: 'croisade', carte: 'chronologie', type: 'mcq', prompt: 'Quelle ville les croisés transportés par Venise prennent-ils en 1204 ?', options: ['Constantinople', 'Jérusalem', 'Le Caire', 'Alexandrie'], answer: 0 },
     { id: 'dandolo', carte: 'dandolo', type: 'mcq', prompt: 'Quel doge âgé et presque aveugle dirige Venise lors de la quatrième croisade ?', options: ['Enrico Dandolo', 'Marco Polo', 'Francesco Foscari', 'Andrea Doria'], answer: 0 },
     { id: 'meloria', carte: 'chronologie', type: 'mcq', prompt: 'Quelle ville Gênes écrase-t-elle à la bataille de la Meloria en 1284 ?', options: ['Pise', 'Venise', 'Amalfi', 'Naples'], answer: 0 },
-    { id: 'chioggia', carte: 'chronologie', type: 'mcq', prompt: 'Qui remporte la guerre de Chioggia (1378-1381) ?', options: ['Venise', 'Gênes', 'Pise', 'L’Empire ottoman'], answer: 0 },
+    { id: 'chioggia', carte: 'chioggia', type: 'mcq', prompt: 'Qui remporte la guerre de Chioggia (1378-1381) ?', options: ['Venise', 'Gênes', 'Pise', 'L’Empire ottoman'], answer: 0 },
     { id: 'polo-prison', carte: 'marco-polo', type: 'mcq', prompt: 'Où Marco Polo dicte-t-il le récit de ses voyages ?', options: ['Dans une prison de Gênes', 'À la cour de Kubilaï Khan', 'Au palais des doges', 'À Constantinople'], answer: 0 },
     { id: 'polo-chine', carte: 'marco-polo', type: 'tf', prompt: 'Marco Polo a séjourné en Chine au service de Kubilaï Khan.', answer: true },
     { id: 'ducat', carte: 'banque', type: 'mcq', prompt: 'Quelle pièce d’or Venise frappe-t-elle à partir de 1284 ?', options: ['Le ducat', 'Le denier', 'Le dinar', 'Le sesterce'], answer: 0 },
     { id: 'arsenal', carte: 'arsenal', type: 'mcq', prompt: 'Qu’est-ce que l’Arsenal de Venise ?', options: ['Un immense chantier naval', 'Une prison', 'Une cathédrale', 'Une banque'], answer: 0 },
     { id: 'democratie', carte: 'gouvernement', type: 'tf', prompt: 'À Venise, tous les habitants votent pour élire le doge.', answer: false, explanation: 'Le pouvoir appartient à une oligarchie de familles nobles réunies dans le Grand Conseil.' },
     { id: 'tour', carte: 'amalfi-pise', type: 'mcq', prompt: 'Dans quelle république maritime se trouve la célèbre tour penchée ?', options: ['Pise', 'Gênes', 'Amalfi', 'Venise'], answer: 0 },
-    { id: 'colomb', carte: null, type: 'mcq', prompt: 'De quelle ville est originaire Christophe Colomb ?', options: ['Gênes', 'Venise', 'Lisbonne', 'Séville'], answer: 0 },
+    { id: 'colomb', carte: 'heritage', type: 'mcq', prompt: 'De quelle ville est originaire Christophe Colomb ?', options: ['Gênes', 'Venise', 'Lisbonne', 'Séville'], answer: 0 },
     { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Arrivée des reliques de saint Marc à Venise', 'Prise de Constantinople par les croisés', 'Bataille de la Meloria', 'Guerre de Chioggia'] },
   ],
 

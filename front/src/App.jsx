@@ -12,6 +12,10 @@ const EpochPage = lazy(() => import('./pages/EpochPage'))
 const CivilizationPage = lazy(() => import('./pages/CivilizationPage'))
 const MapPage = lazy(() => import('./pages/MapPage'))
 const ProfilPage = lazy(() => import('./pages/ProfilPage'))
+const CollectionsPage = lazy(() => import('./pages/CollectionsPage'))
+const ARevoirListePage = lazy(() => import('./pages/ARevoirListePage'))
+const ReglagesPage = lazy(() => import('./pages/ReglagesPage'))
+const AProposPage = lazy(() => import('./pages/AProposPage'))
 const FilRougePage = lazy(() => import('./pages/FilRougePage'))
 const SallePage = lazy(() => import('./pages/SallePage'))
 const BienvenuePage = lazy(() => import('./pages/BienvenuePage'))
@@ -32,12 +36,16 @@ const NotFoundPage = lazy(() => import('./pages/NotFoundPage'))
  *   /aventure/mondes          ancienne page des cinq mondes (V3) → /
  *   /aventure/a-revoir/:civId Séance « À revoir » d'une salle (cartes à revoir + questions ratées)
  *   /bienvenue                Premier lancement : fil rouge, 3 questions, première récompense
- *   /defis                    Défis : par lien, à deux sur le même téléphone, quiz infini
+ *   /defis                    Défis (onglet Profil) : par lien, à deux sur le même téléphone, quiz infini
  *   /defi/:civId              Défi par lien (?g=graine&s=score&n=prénom : défi reçu)
  *   /defis/a-deux             Défi à deux sur le même téléphone
  *   /entrainement             Quiz infini (sans enjeu)
  *   /atlas                    Atlas : ouvre la dernière vue (Frise ou Carte)
- *   /profil                   Profil : niveau, série, titres, fils rouges
+ *   /profil                   Profil court : niveau, rang, titre, série, 3 chiffres, 4 entrées (sprint 32)
+ *   /profil/collections       Collections : mondes, fils rouges, titres (titre affiché)
+ *   /profil/a-revoir          À revoir : salles qui ont des cartes ou des questions à revoir
+ *   /profil/reglages          Réglages : sons, musique, vibrations, thème, application, présentation
+ *   /profil/a-propos          À propos et licences
  *   /frise                    Frise des époques (Atlas)
  *   /frise/:epochId           Une époque : continents et civilisations
  *   /frise/:epochId/:civId    Fiche d'une civilisation (?onglet=histoire|dirigeants|societe|guerres|carte)
@@ -68,6 +76,10 @@ export default function App() {
         <Route path="entrainement" element={<Lazy><EntrainementPage /></Lazy>} />
         <Route path="atlas" element={<AtlasRedirect />} />
         <Route path="profil" element={<Lazy><ProfilPage /></Lazy>} />
+        <Route path="profil/collections" element={<Lazy><CollectionsPage /></Lazy>} />
+        <Route path="profil/a-revoir" element={<Lazy><ARevoirListePage /></Lazy>} />
+        <Route path="profil/reglages" element={<Lazy><ReglagesPage /></Lazy>} />
+        <Route path="profil/a-propos" element={<Lazy><AProposPage /></Lazy>} />
         <Route path="frise" element={<Lazy><TimelinePage /></Lazy>} />
         <Route path="frise/:epochId" element={<Lazy><EpochPage /></Lazy>} />
         <Route path="frise/:epochId/:civId" element={<Lazy><CivilizationPage /></Lazy>} />

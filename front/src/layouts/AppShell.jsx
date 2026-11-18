@@ -3,18 +3,18 @@ import { Link, useLocation, useOutlet } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { haptic } from '../lib/haptics'
 import Icon from '../components/ui/Icon'
-import ThemeToggle from '../components/ui/ThemeToggle'
 import RefSheet from '../components/RefSheet'
 import Toaster from '../components/Toaster'
 import AppBanner from '../components/app/AppBanner'
-import { useAudio } from '../store/audio'
+import NiveauXP from '../components/aventure/NiveauXP'
 
 // Barre à 4 onglets (V3, sprint 19). `match` : débuts d'adresse qui allument l'onglet.
+// Depuis le sprint 32, les Défis (défi par lien, à deux, quiz infini) sont rangés dans le Profil (décision 22).
 export const NAV = [
-  { to: '/',        label: 'Aventure', icon: 'compass', match: ['/aventure', '/reviser', '/defis', '/defi', '/entrainement', '/bienvenue'], exact: '/' },
+  { to: '/',        label: 'Aventure', icon: 'compass', match: ['/aventure', '/reviser', '/bienvenue'], exact: '/' },
   { to: '/atlas',   label: 'Atlas',    icon: 'atlas',   match: ['/atlas', '/frise', '/carte', '/fiche', '/recherche'] },
   { to: '/guerres', label: 'Guerres',  icon: 'swords',  match: ['/guerres'] },
-  { to: '/profil',  label: 'Profil',   icon: 'user',    match: ['/profil'] },
+  { to: '/profil',  label: 'Profil',   icon: 'user',    match: ['/profil', '/defis', '/defi', '/entrainement'] },
 ]
 
 /** L'onglet est-il actif pour cette adresse ? */
@@ -23,8 +23,9 @@ export const isNavActive = (item, pathname) =>
 
 /**
  * Coque de l'application :
- *   - en-tête collant (logo, navigation desktop, thème)
- *   - barre d'onglets en bas sur mobile
+ *   - en-tête collant allégé (décision 18, sprint 32) : le logo seulement ; la recherche dans l'Atlas,
+ *     le niveau et l'XP sur la carte de l'Aventure ; musique, thème et présentation sont dans Réglages (Profil)
+ *   - navigation dans l'en-tête sur ordinateur, barre d'onglets en bas sur mobile
  *   - transition douce entre les pages + retour en haut de page
  */
 export default function AppShell() {
@@ -81,16 +82,13 @@ export default function AppShell() {
             })}
           </nav>
 
-          <div className="ml-auto md:ml-0 flex items-center gap-1">
-            <Link to="/recherche" className="btn-icon" aria-label="Rechercher" title="Rechercher">
+          {pathname === '/' ? (
+            <NiveauXP className="ml-auto md:ml-0 flex-1 md:flex-none max-w-[13rem] md:w-52" />
+          ) : isNavActive(NAV[1], pathname) && pathname !== '/recherche' ? (
+            <Link to="/recherche" className="btn-icon ml-auto md:ml-0" aria-label="Rechercher" title="Rechercher">
               <Icon name="search" />
             </Link>
-            <Link to="/bienvenue" className="btn-icon" aria-label="Présentation de HistoMap" title="Présentation">
-              <Icon name="info" />
-            </Link>
-            <BoutonMusique />
-            <ThemeToggle />
-          </div>
+          ) : null}
         </div>
       </header>
 
@@ -115,24 +113,6 @@ export default function AppShell() {
       <RefSheet />
       <Toaster />
     </div>
-  )
-}
-
-/** Musique d'ambiance (coupée par défaut) : un geste pour l'activer ou la couper. */
-function BoutonMusique() {
-  const musique = useAudio((s) => s.musique)
-  const setMusique = useAudio((s) => s.setMusique)
-  return (
-    <button
-      onClick={() => setMusique(!musique)}
-      aria-pressed={musique}
-      className={`btn-icon relative ${musique ? 'text-accent' : ''}`}
-      aria-label={musique ? 'Couper la musique d’ambiance' : 'Activer la musique d’ambiance'}
-      title={musique ? 'Musique : activée' : 'Musique : coupée'}
-    >
-      <Icon name="music" />
-      {!musique && <span aria-hidden="true" className="absolute w-6 h-[2px] bg-current rotate-45 rounded" />}
-    </button>
   )
 }
 

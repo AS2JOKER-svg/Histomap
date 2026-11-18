@@ -1,7 +1,52 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import { readFileSync, readdirSync } from 'fs'
+import { existsSync, readFileSync, readdirSync } from 'fs'
+import { join } from 'path'
 import { createHash } from 'crypto'
+
+/**
+ * Génère dist/licences.txt : les bibliothèques réellement incluses dans le build (paquets de node_modules),
+ * avec leur version, leur licence et le texte de cette licence (les licences MIT, ISC et BSD demandent que
+ * l'avis de copyright accompagne le code). Lien depuis Profil › Réglages › À propos et licences.
+ */
+function licences() {
+  return {
+    name: 'licences',
+    apply: 'build',
+    generateBundle(_, bundle) {
+      const dossiers = new Set()
+      for (const chunk of Object.values(bundle)) {
+        if (chunk.type !== 'chunk') continue
+        for (const id of Object.keys(chunk.modules)) {
+          const chemin = id.replace(/^\0/, '').split('?')[0]
+          const i = chemin.lastIndexOf('/node_modules/')
+          if (i < 0) continue
+          const reste = chemin.slice(i + '/node_modules/'.length).split('/')
+          const nom = reste[0].startsWith('@') ? `${reste[0]}/${reste[1]}` : reste[0]
+          dossiers.add(join(chemin.slice(0, i), 'node_modules', nom))
+        }
+      }
+      const paquets = [...dossiers]
+        .filter((d) => existsSync(join(d, 'package.json')))
+        .map((d) => {
+          const pkg = JSON.parse(readFileSync(join(d, 'package.json'), 'utf-8'))
+          const fichier = readdirSync(d).find((f) => /^(licen[cs]e|copying)(\.|$)/i.test(f))
+          const licence = typeof pkg.license === 'string' ? pkg.license : pkg.license?.type ?? 'licence non indiquée'
+          return { nom: pkg.name, version: pkg.version, licence, texte: fichier ? readFileSync(join(d, fichier), 'utf-8').trim() : null }
+        })
+        .sort((a, b) => a.nom.localeCompare(b.nom))
+      const trait = '='.repeat(72)
+      const source = [
+        'HistoMap — bibliothèques incluses dans l’application',
+        `${paquets.length} paquets, liste générée au build. Cartes historiques, terres émergées et polices : voir`,
+        'Profil › Réglages › À propos et licences.',
+        '',
+        ...paquets.flatMap((p) => [trait, `${p.nom} ${p.version} — ${p.licence}`, trait, p.texte ?? `(Le paquet ne contient pas le texte de sa licence : ${p.licence}.)`, '']),
+      ].join('\n')
+      this.emitFile({ type: 'asset', fileName: 'licences.txt', source })
+    },
+  }
+}
 
 /**
  * Génère dist/sw.js (service worker) à partir de sw/sw.js : la liste des fichiers
@@ -33,7 +78,7 @@ function serviceWorker() {
 
 // Application 100 % front : les données sont chargées localement (src/data/, généré depuis content/).
 export default defineConfig({
-  plugins: [react(), serviceWorker()],
+  plugins: [react(), licences(), serviceWorker()], // licences avant le service worker : le fichier est mis en cache
   base: '/Histomap/',
   server: {
     port: 5173,

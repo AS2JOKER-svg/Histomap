@@ -5,7 +5,7 @@
  * part sur un serveur. Conséquence : la progression est propre à un appareil
  * et à un navigateur (pas de synchronisation téléphone ↔ ordinateur).
  *
- * Schéma (version 4) :
+ * Schéma (version 5) :
  *   fiches    { [civId]: { firstAt, lastAt, views } }      fiches complètes ouvertes
  *   last      { path, title, subtitle, kind, color, at }   dernier endroit « utile »
  *   lastFiche { path, title, subtitle, color, at }         dernière fiche lue
@@ -13,7 +13,7 @@
  *   chapters  { [civId]: Chapter }                        révisions (voir plus bas)
  *   quizzes   { [civId]: Quiz }                             quiz (voir plus bas)
  *   express   { [ficheId]: { best, total, attempts, lastAt } }  quiz express des fiches liées (v2)
- *   aventure  { xp, salles, serie, niveauCredite, titres… }  Aventure (v3 ; V3.1 en v4) : voir lib/progression.js
+ *   aventure  { xp, salles, serie, joursJoues, niveauCredite, titres… }  Aventure (v3 ; V3.1 en v4 ; jours joués en v5) : voir lib/progression.js
  *   startedAt                                              première visite
  *
  * Pour faire évoluer le schéma : incrémenter VERSION et compléter migrate().
@@ -26,7 +26,7 @@ import { createParcours, estTronc, etapeAccessible } from '../lib/aventure'
 import * as prog from '../lib/progression'
 import { noteQuiz } from '../lib/questions'
 
-const VERSION = 4
+const VERSION = 5
 const MAX_DAYS = 60
 
 const today = () => {
@@ -316,6 +316,7 @@ export const useProgress = create(
       // v2 → v3 : ajout de « aventure » (V3), qui crédite ce qui a déjà été fait (lib/progression.js, migrerV2).
       // v3 → v4 : Aventure V3.1 (médailles → salle découverte et étoiles, plus de coffres, cosmétiques
       //           ni objectif ; lib/progression.js, migrerV3) ; une épreuve en cours (20 questions) est abandonnée.
+      // v4 → v5 : nombre de jours joués (Profil, sprint 32), estimé d'après le record et les jours d'activité (migrerV4).
       // Les champs absents reprennent leur valeur initiale ; rien n'est perdu.
       migrate: (persisted, version) => {
         const state = { ...initial(), ...persisted }
@@ -323,6 +324,7 @@ export const useProgress = create(
         if (version < 3) state.aventure = prog.migrerV2(state, PARCOURS_AVENTURE, today())
         else if (version < 4) state.aventure = prog.migrerV3(state.aventure, PARCOURS_AVENTURE)
         if (version < 4) state.quizzes = Object.fromEntries(Object.entries(state.quizzes ?? {}).map(([id, q]) => [id, { ...q, current: null }]))
+        if (version < 5) state.aventure = prog.migrerV4(state.aventure, state.days)
         return state
       },
       // un état sauvegardé incomplet (champ ajouté plus tard dans « aventure ») est complété

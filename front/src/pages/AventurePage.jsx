@@ -1,12 +1,11 @@
 import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
-import { Link, Navigate, useSearchParams } from 'react-router-dom'
+import { Navigate, useSearchParams } from 'react-router-dom'
 import { AnimatePresence } from 'framer-motion'
 import { findCivilization } from '../lib/data'
 import { haptic } from '../lib/haptics'
 import useDocumentTitle from '../lib/useDocumentTitle'
 import { REVISION, avancementMonde, cheminDe, etapeSuivante, listeARevoir, nomCourt, porteMonde, revisionDue, salleDe, salleEnCours, titresObtenus } from '../lib/aventure'
 import { GEO, disposerCarte, modeleCarte } from '../lib/carteParcours'
-import { niveau } from '../lib/xp'
 import { PARCOURS_AVENTURE as P, useProgress } from '../store/progress'
 import { useAmbiance } from '../lib/musique'
 import Icon from '../components/ui/Icon'
@@ -17,7 +16,7 @@ import { lienEtape } from '../components/aventure/liens'
 
 /**
  * Aventure (onglet par défaut) — V3.1, sprint 30 : la carte du parcours, de bas (Préhistoire) en haut (arrivée).
- * En haut : niveau et XP seulement. La carte s'ouvre sur la salle en cours (« Jouer » sous son nom) ; « Ma salle »
+ * En haut : niveau et XP seulement, dans l'en-tête de l'app (components/aventure/NiveauXP, sprint 32). La carte s'ouvre sur la salle en cours (« Jouer » sous son nom) ; « Ma salle »
  * y ramène quand on s'en éloigne. Quand une salle vient de s'ouvrir, la carte part de la précédente et le tracé
  * doré avance jusqu'à la nouvelle.
  *   ?salle=<id>      ouvre le panneau d'une salle (et centre la carte dessus)
@@ -47,7 +46,6 @@ export default function AventurePage() {
   const enCours = salleEnCours(P, av)
   const ch = cheminDe(P, av)
   useAmbiance(enCours ?? ch.at(-1))
-  const n = niveau(av.xp)
 
   // Séance « À revoir » due : une bulle à côté de la salle en cours (une par jour)
   const due = revisionDue(listeARevoir(chapters, quizzes), av.aRevoirJour === aujourdhui())
@@ -135,7 +133,7 @@ export default function AventurePage() {
   useEffect(() => {
     const el = refCours.current
     if (!el) return setHorsEcran(null)
-    const io = new IntersectionObserver(([e]) => setHorsEcran(e.isIntersecting ? null : e.boundingClientRect.top < 0 ? 'haut' : 'bas'), { rootMargin: '-120px 0px -90px 0px' })
+    const io = new IntersectionObserver(([e]) => setHorsEcran(e.isIntersecting ? null : e.boundingClientRect.top < 0 ? 'haut' : 'bas'), { rootMargin: '-72px 0px -90px 0px' })
     io.observe(el)
     return () => io.disconnect()
   }, [carte, enCours])
@@ -182,28 +180,8 @@ export default function AventurePage() {
     <section>
       <h1 className="sr-only">Aventure : la carte du parcours</h1>
 
-      {/* Niveau et XP, toujours visibles */}
-      <Link
-        to="/profil"
-        className="sticky top-16 z-20 -mt-6 -mx-4 sm:-mx-6 md:mx-auto md:max-w-[480px] glass border-b border-line/70 px-4 h-14 flex items-center gap-3"
-        aria-label={`Niveau ${n.niveau}, ${n.rang}, ${av.xp.toLocaleString('fr-FR')} XP : voir le profil`}
-      >
-        <span aria-hidden="true" className="w-10 h-10 shrink-0 rounded-full grid place-items-center font-display text-xl font-bold border-2" style={{ background: '#2a2118', color: '#e0c27a', borderColor: '#a8791c' }}>
-          {n.niveau}
-        </span>
-        <span aria-hidden="true" className="flex-1 min-w-0">
-          <span className="flex justify-between gap-2 text-[11px] font-bold text-muted">
-            <span className="truncate">{n.rang}</span>
-            <span className="tabular-nums shrink-0">{n.max ? `${av.xp.toLocaleString('fr-FR')} XP` : `${n.dansNiveau.toLocaleString('fr-FR')} / ${n.pourSuivant.toLocaleString('fr-FR')}`}</span>
-          </span>
-          <span className="block mt-1.5 h-1.5 rounded-full bg-line overflow-hidden">
-            <span className="block h-full bg-accent2" style={{ width: n.max ? '100%' : `${(n.dansNiveau / n.pourSuivant) * 100}%` }} />
-          </span>
-        </span>
-      </Link>
-
-      {/* La carte, pleine largeur sur téléphone ; elle finit juste au-dessus de la barre d'onglets */}
-      <div ref={refBoite} className="-mx-4 sm:-mx-6 md:mx-auto md:max-w-[480px] -mb-6 md:mb-0">
+      {/* La carte, pleine largeur sur téléphone, collée sous l'en-tête ; elle finit juste au-dessus de la barre d'onglets */}
+      <div ref={refBoite} className="-mt-6 -mx-4 sm:-mx-6 md:mx-auto md:max-w-[480px] -mb-6 md:mb-0">
         <div ref={refCarte} style={{ minHeight: carte ? undefined : '100vh' }}>
           {carte && (
             <CarteParcours

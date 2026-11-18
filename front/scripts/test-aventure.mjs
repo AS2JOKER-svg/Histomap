@@ -26,8 +26,8 @@ import {
   salleEnCours,
   seuilsEtoiles,
 } from '../src/lib/aventure.js'
-import { aventureVide, changerFil, commencerEtape, enregistrerActivite, finOnboarding, gagnerXp, migrerV2, migrerV3, terminerEpreuve, terminerEtape, xpReponses } from '../src/lib/progression.js'
-import { BAREME, RECOMPENSES, emplacementsJokers, gainReponse, niveau, prochaineRecompense, rang, recompensesNiveau, seuilNiveau } from '../src/lib/xp.js'
+import { aventureVide, changerFil, commencerEtape, enregistrerActivite, etatSerie, finOnboarding, gagnerXp, migrerV2, migrerV3, migrerV4, terminerEpreuve, terminerEtape, xpReponses } from '../src/lib/progression.js'
+import { BAREME, RECOMPENSES, RANGS, emplacementsJokers, gainReponse, niveau, prochainRang, prochaineRecompense, rang, recompensesNiveau, seuilNiveau } from '../src/lib/xp.js'
 import { cartesVues, composerEpreuve, reservoirSalle } from '../src/lib/epreuve.js'
 import { rng } from '../src/lib/random.js'
 import { lienDefi, lireDefi, nouvelleGraine, questionsDefi, verdict } from '../src/lib/defi.js'
@@ -39,6 +39,7 @@ import { noteQuiz, premiereSansReponse } from '../src/lib/questions.js'
 import { HANDWRITTEN } from '../src/data/revision/index.js'
 import { GEO, disposerCarte, grilleIlot, modeleCarte, pointRoute, rectangles } from '../src/lib/carteParcours.js'
 import { ceQuiSouvre, choixFils, dureeSeance, panneauSalle } from '../src/lib/ecransSalle.js'
+import { aRevoirParSalle, chiffresProfil, filsCollection, mondesCollection, texteARevoir, texteSerie, titreUltime } from '../src/lib/profil.js'
 
 let n = 0
 const test = (nom, fn) => {
@@ -875,4 +876,89 @@ test('choix du fil : salles ajoutées, « déjà sur ton chemin », fils termin�
   assert.equal(liste.at(-1).termine, true)
 })
 
-console.log(`✅ Aventure : ${n} tests réussis (chemin, ouverture, à rattraper, étoiles, XP, rangs, progression, migrations, épreuve sur les cartes vues, défis, questions éclair, questions des cartes, carte du parcours, écrans d’une salle, validateur).`)
+// ── Profil, Collections, Réglages (sprint 32) ────────────────────────────────
+
+test('jours joués : un de plus par jour d’activité (pas deux le même jour), jokers et série perdue compris', () => {
+  let av = aventureVide()
+  for (const j of [J(0), J(0), J(1), J(4), J(5), J(5)]) av = enregistrerActivite(av, j).av
+  assert.deepEqual([av.joursJoues, av.serie.jours, av.serie.record], [4, 2, 2])
+})
+
+test('migration v4 → v5 : jours joués estimés (record, jours d’activité gardés), jamais revus à la baisse', () => {
+  const av = { ...aventureVide(), serie: { jours: 3, record: 9, dernier: J(3), jokers: 0 } }
+  assert.equal(migrerV4(av, [J(0), J(1), J(1), J(3)]).joursJoues, 9) // record > 3 jours distincts
+  assert.equal(migrerV4(av, Array.from({ length: 12 }, (_, i) => J(i))).joursJoues, 12)
+  assert.equal(migrerV4({ ...av, joursJoues: 40 }, []).joursJoues, 40)
+  const { joursJoues, ...reste } = migrerV4(av, [])
+  assert.deepEqual([joursJoues, reste], [9, (({ joursJoues: _, ...r }) => r)(av)]) // rien d'autre ne change
+  // chaîne complète d'une sauvegarde v3 : v3 → v4 → v5, toutes les clés de la v5
+  const v5 = migrerV4(migrerV3({ xp: 300, salles: {}, serie: { jours: 2, record: 5, dernier: J(1), jokers: 1 }, onboarding: true }, P), [J(0), J(1)])
+  assert.deepEqual([v5.joursJoues, Object.keys(v5).sort()], [5, Object.keys(aventureVide()).sort()])
+})
+
+test('état de la série : faite, à prolonger, à sauver (jokers), perdue, aucune ; d’accord avec enregistrerActivite', () => {
+  const serie = { jours: 6, record: 10, dernier: J(3), jokers: 2 }
+  assert.deepEqual(etatSerie(aventureVide().serie, J(0)), { statut: 'aucune', jours: 0, jokers: 0 })
+  assert.deepEqual(etatSerie(serie, J(3)), { statut: 'faite', jours: 6, jokers: 0 })
+  assert.deepEqual(etatSerie(serie, J(4)), { statut: 'a-prolonger', jours: 6, jokers: 0 })
+  assert.deepEqual(etatSerie(serie, J(6)), { statut: 'a-sauver', jours: 6, jokers: 2 })
+  assert.deepEqual(etatSerie(serie, J(7)), { statut: 'perdue', jours: 0, jokers: 0 })
+  // ce que le Profil annonce est ce qui arrive si l'on joue ce jour-là
+  for (let k = 3; k <= 9; k++)
+    for (const jokers of [0, 1, 2, 3]) {
+      const s = { ...serie, jokers }
+      const e = etatSerie(s, J(k))
+      const r = enregistrerActivite({ ...aventureVide(), serie: s }, J(k))
+      const attendu = e.statut === 'faite' ? s.jours : e.statut === 'perdue' ? 1 : s.jours + 1
+      assert.equal(r.av.serie.jours, attendu, `J(${k}), ${jokers} joker(s) : ${e.statut}`)
+      assert.equal(r.evenements.find((x) => x.type === 'joker-utilise')?.nombre ?? 0, e.jokers, `J(${k}), ${jokers} joker(s) : jokers utilisés`)
+    }
+})
+
+test('texte de la série (Profil)', () => {
+  assert.deepEqual(texteSerie({ statut: 'faite', jours: 13, jokers: 0 }, 21), { titre: 'Série de 13 jours', detail: 'Jouée aujourd’hui · record 21 jours' })
+  assert.deepEqual(texteSerie({ statut: 'a-prolonger', jours: 1, jokers: 0 }, 1), { titre: 'Série de 1 jour', detail: 'Joue aujourd’hui pour la prolonger' })
+  assert.equal(texteSerie({ statut: 'a-sauver', jours: 4, jokers: 1 }, 4).detail, 'Un joker la sauve si tu joues aujourd’hui')
+  assert.equal(texteSerie({ statut: 'a-sauver', jours: 4, jokers: 2 }, 4).detail, '2 jokers la sauvent si tu joues aujourd’hui')
+  assert.deepEqual(texteSerie({ statut: 'perdue', jours: 0, jokers: 0 }, 21), { titre: 'Pas de série en cours', detail: 'Record : 21 jours · joue aujourd’hui pour repartir' })
+  assert.equal(texteSerie({ statut: 'aucune', jours: 0, jokers: 0 }, 0).titre, 'Pas encore de série')
+})
+
+test('prochain rang : rang suivant et son niveau, rien après le dernier', () => {
+  assert.deepEqual(prochainRang(1), { niveau: 5, rang: 'Apprenti' })
+  assert.deepEqual(prochainRang(12), { niveau: 15, rang: 'Érudit' })
+  assert.deepEqual(prochainRang(15), { niveau: 20, rang: 'Chroniqueur' })
+  assert.equal(prochainRang(RANGS.at(-1)[0]), null)
+  for (let k = 1; k < RANGS.at(-1)[0]; k++) assert.equal(rang(prochainRang(k).niveau), prochainRang(k).rang)
+})
+
+test('Profil : salles découvertes, étoiles, jours joués ; « À revoir » salle par salle', () => {
+  const av = avec([['hominides-est', { ...D, etoiles: 3 }], ['europe-paleo', { ...D, etoiles: 1 }], ['gobekli-tepe', D], ['mesopotamie', { essais: 1 }], ['inconnue', { ...D, etoiles: 3 }]], { joursJoues: 7 })
+  assert.deepEqual(chiffresProfil(P, av), { salles: 3, etoiles: 4, jours: 7 })
+  const chapters = { egypte: { toReview: ['a', 'b'] }, carthage: { toReview: [] }, nok: { toReview: ['c'] } }
+  const quizzes = { egypte: { failed: ['q1'] }, nok: { failed: ['q2', 'q3', 'q4'] }, carthage: { failed: [] } }
+  const r = aRevoirParSalle(P, chapters, quizzes)
+  assert.deepEqual(r, { salles: [{ id: 'nok', cartes: 1, questions: 3 }, { id: 'egypte', cartes: 2, questions: 1 }], cartes: 3, questions: 4 })
+  assert.equal(texteARevoir(r), '3 cartes et 4 questions · +20 XP')
+  assert.equal(texteARevoir({ cartes: 0, questions: 1 }, true), '1 question · séance du jour faite')
+  assert.equal(texteARevoir({ cartes: 0, questions: 0 }), 'Rien à revoir pour l’instant')
+})
+
+test('Collections : mondes (titre, ouvert, pas encore ouvert), fils (le sien, titres obtenus, le reste), titre ultime', () => {
+  const etoile = (ids) => ids.map((id) => [id, { ...D, etoiles: 1 }])
+  const av = avec([...etoile(tronc(0)), ...etoile(P.filsRouges.find((f) => f.id === 'mesopotamie').membres)], { filRouge: 'chine' })
+  const mondes = mondesCollection(P, av)
+  assert.deepEqual(mondes.map((m) => m.statut), ['titre', 'ouvert', 'ferme', 'ferme', 'ferme'])
+  assert.deepEqual([mondes[0].troncEtoile, mondes[0].tronc, mondes[0].titre], [tronc(0).length, tronc(0).length, data.mondes[0].titre])
+  assert.ok(mondes[2].salles >= tronc(2).length) // le chemin du joueur (fil Chine compris)
+  const fils = filsCollection(P, av)
+  assert.equal(fils.length, P.filsRouges.length)
+  assert.deepEqual([fils[0].id, fils[0].actuel, fils[1].id, fils[1].titreObtenu], ['chine', true, 'mesopotamie', true])
+  assert.ok(fils[0].aRattraper >= 1) // la Chine néolithique, derrière le joueur
+  assert.ok(fils.slice(2).every((f) => !f.actuel && !f.titreObtenu))
+  const u = titreUltime(P, av)
+  assert.deepEqual([u.titre, u.total], [data.titreUltime, P.ordre.length])
+  assert.equal(u.faites, new Set([...tronc(0), ...P.filsRouges.find((f) => f.id === 'mesopotamie').membres]).size)
+})
+
+console.log(`✅ Aventure : ${n} tests réussis (chemin, ouverture, à rattraper, étoiles, XP, rangs, progression, migrations, épreuve sur les cartes vues, défis, questions éclair, questions des cartes, carte du parcours, écrans d’une salle, profil et collections, validateur).`)

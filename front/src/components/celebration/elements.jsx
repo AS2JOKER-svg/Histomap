@@ -67,7 +67,7 @@ export function Sceau({ niveau, taille = 64 }) {
     <svg width={taille} height={taille} viewBox="0 0 72 72" role="img" aria-label={`Niveau ${niveau}`}>
       <circle cx="36" cy="36" r="34" fill="#8a3a1e" />
       <circle cx="36" cy="36" r="28" fill="none" stroke="#e0c27a" strokeWidth="1.5" strokeDasharray="2 3" />
-      <text x="36" y="46" textAnchor="middle" fontFamily="Cormorant Garamond, Georgia, serif" fontSize="28" fontWeight="700" fill="#e0c27a">{niveau}</text>
+      <text x="36" y="46" textAnchor="middle" fontFamily="Cormorant Garamond, Georgia, serif" fontSize="28" fontWeight="700" fill="#e0c27a" style={{ fontVariantNumeric: 'lining-nums' }}>{niveau}</text>
     </svg>
   )
 }

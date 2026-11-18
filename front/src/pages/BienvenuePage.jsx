@@ -16,7 +16,7 @@ import { EFFET, Particules } from '../components/celebration/elements'
 /**
  * Premier lancement (maquette 4, V3, sprint 23) : bienvenue → fil rouge → 3 questions éclair
  * sur la première salle → première récompense (+50 XP, la série commence). « Passer » à tout moment.
- * Revu plus tard (bouton « Présentation » de l'en-tête) : même parcours, sans nouvelle récompense.
+ * Revu plus tard (Profil › Réglages › « Revoir la présentation ») : même parcours, sans nouvelle récompense.
  */
 const POPULAIRES = ['france', 'rome', 'egypte', 'chine', 'japon', 'perse', 'mexique', 'angleterre']
 const PREMIERE_SALLE = P.mondes[0].tronc[0]
@@ -74,11 +74,11 @@ export default function BienvenuePage() {
                 <p className="mt-10 eyebrow text-accent">Bienvenue au musée</p>
                 <h1 className="font-display text-5xl font-bold text-ink leading-[1.02] mt-2">L’histoire du monde, salle après salle</h1>
                 <p className="mt-4 text-[17px] leading-relaxed text-ink/90">
-                  {getStats().civs} civilisations réparties en 5 mondes, de la Préhistoire à nos jours. Chaque salle se découvre en quelques minutes, puis se gagne : bronze, argent, or.
+                  {getStats().civs} civilisations réparties en 5 mondes, de la Préhistoire à nos jours. Chaque salle se découvre en quelques minutes, puis se gagne à l’Épreuve : jusqu’à trois étoiles.
                 </p>
                 <ul className="mt-6 space-y-2.5 text-[15px] text-ink">
-                  <li className="flex gap-3"><span className="font-display text-xl font-bold text-accent w-6">1</span> Découvrir, Approfondir, puis l’Épreuve</li>
-                  <li className="flex gap-3"><span className="font-display text-xl font-bold text-accent w-6">2</span> XP, niveaux, étoiles et titres à collectionner</li>
+                  <li className="flex gap-3"><span className="font-display text-xl font-bold text-accent w-6">1</span> Découvrir, puis l’Épreuve ; Approfondir en bonus</li>
+                  <li className="flex gap-3"><span className="font-display text-xl font-bold text-accent w-6">2</span> XP, rangs, étoiles et titres à collectionner</li>
                   <li className="flex gap-3"><span className="font-display text-xl font-bold text-accent w-6">3</span> L’Atlas reste ouvert : frise, carte, fiches</li>
                 </ul>
                 <button ref={bouton} onClick={() => setEtape(1)} className="btn-accent h-[52px] w-full text-base font-bold mt-auto">Commencer</button>
@@ -102,7 +102,7 @@ export default function BienvenuePage() {
                     </button>
                   ))}
                 </div>
-                <p className="mt-3 text-xs text-muted">{P.filsRouges.length} fils rouges en tout, à retrouver dans ton Profil.</p>
+                <p className="mt-3 text-xs text-muted">{P.filsRouges.length} fils rouges en tout, à retrouver dans ton Profil (Collections).</p>
                 <button ref={bouton} onClick={() => setEtape(2)} className="btn-accent h-[52px] w-full text-base font-bold mt-auto">{fil ? 'Continuer' : 'Choisir plus tard'}</button>
               </>
             )}

@@ -1,7 +1,7 @@
 /**
  * progression.js — Progression de l'Aventure (V3.1, sprint 29), en fonctions pures
  * =================================================================================
- * Le store (src/store/progress.js, clé `histomap_progress`, version 4) garde un objet `aventure`
+ * Le store (src/store/progress.js, clé `histomap_progress`, version 5) garde un objet `aventure`
  * et le fait évoluer avec ces fonctions. Chacune prend l'état et renvoie { av, evenements } :
  * les événements (xp, découverte, étoiles, niveau, rang, titre, fil terminé, série…) servent aux
  * écrans de fin d'étape et de célébration. Rien ici ne touche au navigateur : tout est testé par
@@ -11,6 +11,7 @@
  *   xp,                                   XP totale
  *   salles: { [civId]: { decouverte, approfondi, etoiles, essais, enCours } }   (voir lib/aventure.js)
  *   serie: { jours, record, dernier, jokers }     série de jours, jokers en réserve
+ *   joursJoues,                           nombre de jours où l'on a joué (Profil, v5)
  *   niveauCredite,                        dernier niveau dont les récompenses ont été données
  *   titres: [id], titreAffiche,           titres de collection obtenus (lib/aventure.js) / affiché
  *   filRouge,                             lignée choisie : ses annexes entrent dans le chemin du joueur
@@ -38,6 +39,7 @@ export const aventureVide = () => ({
   xp: 0,
   salles: {},
   serie: { jours: 0, record: 0, dernier: null, jokers: 0 },
+  joursJoues: 0,
   niveauCredite: 1,
   titres: [],
   titreAffiche: null,
@@ -113,7 +115,7 @@ export function enregistrerActivite(av, jour) {
       evenements.push({ type: 'joker-utilise', nombre: manques })
     } else if (s.jours > 0) evenements.push({ type: 'serie-perdue', jours: s.jours })
   }
-  let next = { ...av, serie: { ...s, jours, jokers, dernier: jour, record: Math.max(s.record, jours) } }
+  let next = { ...av, serie: { ...s, jours, jokers, dernier: jour, record: Math.max(s.record, jours) }, joursJoues: (av.joursJoues ?? 0) + 1 }
   evenements.push({ type: 'serie', jours })
   if (jokerDeSerie(jours)) next = ajouterJokers(next, 1, evenements)
   if (PALIERS_SERIE.includes(jours) && jours > s.record) {
@@ -123,6 +125,24 @@ export function enregistrerActivite(av, jour) {
     evenements.push(...r.evenements)
   }
   return { av: next, evenements }
+}
+
+/**
+ * État de la série un jour donné (Profil ; rappel « série en danger » au sprint 33). La série enregistrée
+ * n'est mise à jour qu'à l'activité suivante : elle peut déjà être perdue, ou ne tenir qu'à des jokers.
+ *   → { statut, jours, jokers }
+ *   statut : 'aucune' (jamais commencée) · 'faite' (déjà jouée ce jour-là) · 'a-prolonger' (jouée la veille)
+ *            · 'a-sauver' (jours manqués couverts par les jokers, qui seront utilisés) · 'perdue'
+ *   jours  : la série qui compte encore (0 si elle est perdue) ; jokers : jokers qu'il faudra utiliser
+ */
+export function etatSerie(serie, jour) {
+  const s = serie ?? {}
+  if (!s.dernier || !s.jours) return { statut: 'aucune', jours: 0, jokers: 0 }
+  const ecart = ecartJours(s.dernier, jour)
+  if (ecart <= 0) return { statut: 'faite', jours: s.jours, jokers: 0 }
+  if (ecart === 1) return { statut: 'a-prolonger', jours: s.jours, jokers: 0 }
+  if ((s.jokers ?? 0) >= ecart - 1) return { statut: 'a-sauver', jours: s.jours, jokers: ecart - 1 }
+  return { statut: 'perdue', jours: 0, jokers: 0 }
 }
 
 /** Bonus du jour (+20 XP) à la 1re étape terminée de la journée, et série. */
@@ -305,6 +325,14 @@ function finMigration(av, P, filRouge) {
   next = changerFil(next, P, filRouge && filDe(P, filRouge) ? filRouge : null).av
   const titres = titresObtenus(P, next).map((t) => t.id)
   return { ...next, titres: [...new Set([...next.titres, ...titres])] }
+}
+
+/**
+ * Migration v4 → v5 (sprint 32) : nombre de jours joués, affiché dans le Profil. Il n'était pas compté :
+ * estimation prudente = le plus grand du record de série et des jours d'activité gardés (`days`, 60 au plus).
+ */
+export function migrerV4(av, days = []) {
+  return { ...av, joursJoues: Math.max(av.joursJoues ?? 0, av.serie?.record ?? 0, new Set(days ?? []).size) }
 }
 
 /**

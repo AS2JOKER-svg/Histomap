@@ -15,6 +15,7 @@
  *   niveau(xpTotale)                → { niveau, rang, dansNiveau, pourSuivant, max }
  *   recompensesNiveau(n)            récompenses du niveau n (rang, joker, place de joker)
  *   prochaineRecompense(n)          prochaine récompense après le niveau n
+ *   prochainRang(n)                 prochain rang après le niveau n (Profil)
  *   emplacementsJokers(n)           jokers que l'on peut garder en réserve au niveau n
  */
 
@@ -66,6 +67,11 @@ export const RANGS = [
   [50, 'Légende de l’Histoire'],
 ]
 export const rang = (n) => RANGS.filter(([min]) => n >= min).at(-1)[1]
+/** Prochain rang après le niveau n → { niveau, rang } | null (dernier rang atteint). */
+export function prochainRang(n) {
+  const r = RANGS.find(([min]) => min > n)
+  return r ? { niveau: r[0], rang: r[1] } : null
+}
 
 export function niveau(xpTotale) {
   const xp = Math.max(0, Math.floor(xpTotale || 0))

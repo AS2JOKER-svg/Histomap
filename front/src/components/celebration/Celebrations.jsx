@@ -44,7 +44,7 @@ export default function Celebrations({ evenements, onFin }) {
 
   useEffect(() => {
     if (!e) return
-    haptic(e.type === 'rang' ? 'niveau' : 'coffre')
+    haptic(e.type === 'rang' ? 'niveau' : 'titre')
     bouton.current?.focus({ preventScroll: true })
   }, [i, e])
   useEffect(() => {

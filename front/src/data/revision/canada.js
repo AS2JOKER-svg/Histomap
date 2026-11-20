@@ -10,7 +10,7 @@ export default {
       kicker: 'Origines',
       title: 'La Confédération',
       body:
-        "Après la conquête britannique de la Nouvelle-France (1763), des colonies britanniques se forment en Amérique du Nord. Le 1er juillet 1867, quatre d'entre elles s'unissent dans une fédération : le Canada.",
+        "Après la conquête britannique de la Nouvelle-France (1763), des colonies britanniques se forment en Amérique du Nord. Le 1er juillet 1867, quatre d'entre elles s'unissent dans une fédération : le Canada, avec Ottawa pour capitale.",
       highlight: { value: '1867', label: 'naissance du Canada' },
     },
     {
@@ -20,7 +20,7 @@ export default {
       kicker: 'Territoire',
       title: 'D’un océan à l’autre',
       years: [1880, 1960],
-      caption: 'Comparez : le Canada s’étend de l’Atlantique au Pacifique ; Terre-Neuve le rejoint en 1949.',
+      caption: 'Compare : le Canada s’étend de l’Atlantique au Pacifique ; Terre-Neuve le rejoint en 1949.',
     },
     {
       id: 'ouest',
@@ -93,7 +93,7 @@ export default {
       kicker: 'Société',
       title: 'Bilingue et multiculturel',
       body:
-        "Depuis 1969, l'anglais et le français sont les deux langues officielles du pays. Pays d'immigration, le Canada adopte en 1971 une politique de multiculturalisme.",
+        "Depuis 1969, l'anglais et le français sont les deux langues officielles du pays. Pays d'immigration, le Canada adopte en 1971 une politique de multiculturalisme. Une loi de 1994 fait du hockey sur glace son sport national d'hiver.",
     },
 
     // ── Niveau 2 ──
@@ -145,22 +145,22 @@ export default {
   ],
 
   quiz: [
-    { id: 'capitale', type: 'mcq', prompt: 'Quelle est la capitale du Canada ?', options: ['Ottawa', 'Toronto', 'Montréal', 'Québec'], answer: 0 },
-    { id: 'naissance', type: 'mcq', prompt: 'En quelle année naît la Confédération canadienne ?', options: ['1867', '1763', '1931', '1982'], answer: 0 },
-    { id: 'avant', type: 'mcq', prompt: 'Quelle colonie française les Britanniques conquièrent-ils en 1763 ?', options: ['La Nouvelle-France', 'La Louisiane', 'Saint-Domingue', 'La Nouvelle-Calédonie'], answer: 0 },
-    { id: 'langues', type: 'mcq', prompt: 'Quelles sont les deux langues officielles du Canada ?', options: ['L’anglais et le français', 'L’anglais et l’espagnol', 'Le français et l’inuktitut', 'L’anglais et l’allemand'], answer: 0 },
-    { id: 'train', type: 'mcq', prompt: 'Que relie le chemin de fer achevé en 1885 ?', options: ['L’Atlantique et le Pacifique', 'Le Canada et le Mexique', 'Montréal et New York', 'Le Québec et l’Alaska'], answer: 0 },
-    { id: 'riel', type: 'mcq', prompt: 'Quel chef métis est pendu en 1885 ?', options: ['Louis Riel', 'René Lévesque', 'John A. Macdonald', 'Jacques Cartier'], answer: 0 },
-    { id: 'pensionnats', type: 'tf', prompt: 'Des enfants autochtones ont été placés dans des pensionnats pour être assimilés.', answer: true },
-    { id: 'vimy', type: 'mcq', prompt: 'Quelle crête les Canadiens prennent-ils en 1917 ?', options: ['Vimy', 'Verdun', 'La Somme', 'Gallipoli'], answer: 0 },
-    { id: 'juno', type: 'mcq', prompt: 'Sur quelle plage de Normandie les Canadiens débarquent-ils en 1944 ?', options: ['Juno', 'Omaha', 'Utah', 'Gold'], answer: 0 },
-    { id: 'quebec', type: 'mcq', prompt: 'Quelle province organise des référendums sur l’indépendance ?', options: ['Le Québec', 'L’Ontario', 'La Colombie-Britannique', 'Le Manitoba'], answer: 0 },
-    { id: 'tranquille', type: 'mcq', prompt: 'Comment appelle-t-on la modernisation du Québec dans les années 1960 ?', options: ['La Révolution tranquille', 'La Grande Noirceur', 'La Confédération', 'La Conquête'], answer: 0 },
-    { id: 'insuline', type: 'mcq', prompt: 'Quel médicament est découvert à Toronto en 1921-1922 ?', options: ['L’insuline', 'La pénicilline', 'L’aspirine', 'Le vaccin contre la variole'], answer: 0 },
-    { id: 'pearson', type: 'mcq', prompt: 'Quel Canadien imagine les forces de paix de l’ONU en 1956 ?', options: ['Lester B. Pearson', 'Pierre Elliott Trudeau', 'Wilfrid Laurier', 'Louis Riel'], answer: 0 },
-    { id: 'nunavut', type: 'mcq', prompt: 'Quel peuple gouverne en majorité le Nunavut ?', options: ['Les Inuits', 'Les Métis', 'Les Cris', 'Les Iroquois'], answer: 0 },
-    { id: 'hockey', type: 'mcq', prompt: 'Quel est le sport national d’hiver du Canada ?', options: ['Le hockey sur glace', 'Le ski', 'Le curling', 'Le patinage artistique'], answer: 0 },
-    { id: 'ordre', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Confédération', 'Vimy', 'Statut de Westminster', 'Rapatriement de la Constitution'] },
+    { id: 'capitale', carte: 'confederation', type: 'mcq', prompt: 'Quelle est la capitale du Canada ?', options: ['Ottawa', 'Toronto', 'Montréal', 'Québec'], answer: 0 },
+    { id: 'naissance', carte: 'confederation', type: 'mcq', prompt: 'En quelle année naît la Confédération canadienne ?', options: ['1867', '1763', '1931', '1982'], answer: 0 },
+    { id: 'avant', carte: 'confederation', type: 'mcq', prompt: 'Quelle colonie française les Britanniques conquièrent-ils en 1763 ?', options: ['La Nouvelle-France', 'La Louisiane', 'Saint-Domingue', 'La Nouvelle-Calédonie'], answer: 0 },
+    { id: 'langues', carte: 'bilinguisme', type: 'mcq', prompt: 'Quelles sont les deux langues officielles du Canada ?', options: ['L’anglais et le français', 'L’anglais et l’espagnol', 'Le français et l’inuktitut', 'L’anglais et l’allemand'], answer: 0 },
+    { id: 'train', carte: 'ouest', type: 'mcq', prompt: 'Que relie le chemin de fer achevé en 1885 ?', options: ['L’Atlantique et le Pacifique', 'Le Canada et le Mexique', 'Montréal et New York', 'Le Québec et l’Alaska'], answer: 0 },
+    { id: 'riel', carte: 'riel', type: 'mcq', prompt: 'Quel chef métis est pendu en 1885 ?', options: ['Louis Riel', 'René Lévesque', 'John A. Macdonald', 'Jacques Cartier'], answer: 0 },
+    { id: 'pensionnats', carte: 'pensionnats', type: 'tf', prompt: 'Des enfants autochtones ont été placés dans des pensionnats pour être assimilés.', answer: true },
+    { id: 'vimy', carte: 'guerres', type: 'mcq', prompt: 'Quelle crête les Canadiens prennent-ils en 1917 ?', options: ['Vimy', 'Verdun', 'La Somme', 'Gallipoli'], answer: 0 },
+    { id: 'juno', carte: 'juno', type: 'mcq', prompt: 'Sur quelle plage de Normandie les Canadiens débarquent-ils en 1944 ?', options: ['Juno', 'Omaha', 'Utah', 'Gold'], answer: 0 },
+    { id: 'quebec', carte: 'quebec', type: 'mcq', prompt: 'Quelle province organise des référendums sur l’indépendance ?', options: ['Le Québec', 'L’Ontario', 'La Colombie-Britannique', 'Le Manitoba'], answer: 0 },
+    { id: 'tranquille', carte: 'quebec', type: 'mcq', prompt: 'Comment appelle-t-on la modernisation du Québec dans les années 1960 ?', options: ['La Révolution tranquille', 'La Grande Noirceur', 'La Confédération', 'La Conquête'], answer: 0 },
+    { id: 'insuline', carte: 'insuline', type: 'mcq', prompt: 'Quel médicament est découvert à Toronto en 1921-1922 ?', options: ['L’insuline', 'La pénicilline', 'L’aspirine', 'Le vaccin contre la variole'], answer: 0 },
+    { id: 'pearson', carte: 'pearson', type: 'mcq', prompt: 'Quel Canadien imagine les forces de paix de l’ONU en 1956 ?', options: ['Lester B. Pearson', 'Pierre Elliott Trudeau', 'Wilfrid Laurier', 'Louis Riel'], answer: 0 },
+    { id: 'nunavut', carte: 'nunavut', type: 'mcq', prompt: 'Quel peuple gouverne en majorité le Nunavut ?', options: ['Les Inuits', 'Les Métis', 'Les Cris', 'Les Iroquois'], answer: 0 },
+    { id: 'hockey', carte: 'bilinguisme', type: 'mcq', prompt: 'Quel est le sport national d’hiver du Canada ?', options: ['Le hockey sur glace', 'Le ski', 'Le curling', 'Le patinage artistique'], answer: 0 },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Confédération', 'Vimy', 'Statut de Westminster', 'Rapatriement de la Constitution'] },
   ],
 
   recap: [

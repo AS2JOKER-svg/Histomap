@@ -355,7 +355,7 @@ export function expressQuestions({ content, byId, backlinks }) {
       for (const o of others) if (picked.length < 4 && picked.every((p) => Math.abs(p.data[key] - o.data[key]) >= Math.max(gapWith(o), gapWith(p)))) picked.push(o)
       if (picked.length < 3) return null
       const sorted = picked.sort((a, b) => a.data[key] - b.data[key])
-      const prompt = type === 'personne' ? 'Remettez ces personnes dans l’ordre de leur naissance.' : type === 'evenement' ? 'Remettez ces événements dans l’ordre chronologique.' : 'Remettez ces découvertes dans l’ordre chronologique.'
+      const prompt = type === 'personne' ? 'Remets ces personnes dans l’ordre de leur naissance.' : type === 'evenement' ? 'Remets ces événements dans l’ordre chronologique.' : 'Remets ces découvertes dans l’ordre chronologique.'
       return {
         id: 'x-ordre',
         type: 'order',

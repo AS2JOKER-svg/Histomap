@@ -19,9 +19,9 @@ async function polices() {
 
 /**
  * Dessine l'image → Promise<Blob>.
- * { titre, sousTitre, note, etoiles, niveau, rang, titreAffiche, cadre: couleur | null, doree: bool }
+ * { titre, sousTitre, note (« 11/12 »), etoiles, niveau, rang, titreAffiche } — sans cadre ni édition dorée (V3.1).
  */
-export async function imageResultat({ titre, sousTitre, note, etoiles = 0, niveau, rang, titreAffiche, cadre, doree }) {
+export async function imageResultat({ titre, sousTitre, note, etoiles = 0, niveau, rang, titreAffiche }) {
   await polices()
   const c = document.createElement('canvas')
   c.width = W
@@ -51,24 +51,12 @@ export async function imageResultat({ titre, sousTitre, note, etoiles = 0, nivea
     g.fill()
   }
 
-  // Cadre (cadre choisi, ou double filet doré de l'« édition dorée »)
-  if (cadre || doree) {
-    g.strokeStyle = cadre ?? '#d4a12a'
-    g.lineWidth = 18
-    g.strokeRect(30, 30, W - 60, H - 60)
-    if (doree) {
-      g.strokeStyle = '#e0c27a'
-      g.lineWidth = 4
-      g.strokeRect(62, 62, W - 124, H - 124)
-    }
-  }
-
   g.textAlign = 'center'
   g.fillStyle = '#e0c27a'
   g.font = `600 34px ${sans}`
   g.fillText(sousTitre.toUpperCase(), cx, 190)
 
-  // Médaille
+  // Pastille de la note et étoiles
   g.beginPath()
   g.arc(cx, cy, 190, 0, Math.PI * 2)
   g.fillStyle = '#e0c27a'
@@ -78,7 +66,7 @@ export async function imageResultat({ titre, sousTitre, note, etoiles = 0, nivea
   g.stroke()
   g.fillStyle = '#2a2118'
   g.font = `700 150px ${serif}`
-  g.fillText(`${note}/20`, cx, cy + 45)
+  g.fillText(note, cx, cy + 45)
   g.font = `700 64px ${serif}`
   g.fillText('★'.repeat(etoiles) + '☆'.repeat(3 - etoiles), cx, cy + 125)
 

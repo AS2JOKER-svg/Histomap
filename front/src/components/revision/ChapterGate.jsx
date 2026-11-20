@@ -37,7 +37,7 @@ export default function ChapterGate({ refCiv, children }) {
             <Icon name="wifiOff" size={26} />
           </span>
           <h1 className="font-display text-2xl font-semibold text-ink">Chapitre indisponible</h1>
-          <p className="mt-2 text-muted">Il n'a pas pu être chargé. Vérifiez votre connexion, puis réessayez.</p>
+          <p className="mt-2 text-muted">Il n'a pas pu être chargé. Vérifie ta connexion, puis réessaie.</p>
           <div className="mt-6 flex justify-center gap-3">
             <Link to={`/?salle=${refCiv.civ.id}`} className="btn-secondary h-11 px-4">Retour</Link>
             <button onClick={retry} className="btn-primary h-11 px-4"><Icon name="refresh" size={18} /> Réessayer</button>

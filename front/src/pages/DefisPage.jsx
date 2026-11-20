@@ -8,6 +8,7 @@ import ChoixCivilisation from '../components/defi/ChoixCivilisation'
 /**
  * Défis (V3, sprint 25) — trois façons de jouer sans enjeu, sans serveur :
  *   défier un ami par lien (#/defi/<civ>), à deux sur le même téléphone (#/defis/a-deux), quiz infini (#/entrainement).
+ * Depuis le sprint 32, une sous-page du Profil (décision 22) : l'adresse /defis ne change pas (liens déjà partagés).
  */
 export default function DefisPage() {
   useDocumentTitle('Défis')
@@ -17,8 +18,8 @@ export default function DefisPage() {
   return (
     <section className="max-w-xl mx-auto">
       <div className="flex items-center gap-2 -ml-2">
-        <Link to="/" className="btn-icon" aria-label="Retour à l’Aventure"><Icon name="arrowLeft" /></Link>
-        <span className="eyebrow">Aventure</span>
+        <Link to="/profil" className="btn-icon" aria-label="Retour au profil"><Icon name="arrowLeft" /></Link>
+        <span className="eyebrow">Profil</span>
       </div>
       <PageHeader title="Défis" description="Dix questions, un score, et quelqu’un à battre. Sans compte, sans inscription : tout se passe sur ton téléphone." />
 

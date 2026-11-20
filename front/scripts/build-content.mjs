@@ -7,7 +7,7 @@
 //                               + « express » : les questions du quiz express (scripts/lib/express.mjs)
 //   src/data/territories.json   civilisation → noms des territoires sur les cartes historiques
 //   src/data/conflicts.json     guerres placées sur la carte
-//   src/data/quiz-context.json  leurres des quiz (événements, dirigeants, personnages des autres fiches)
+//   src/data/quiz-context.json  leurres de « Qui est-ce ? » (personnages des autres fiches)
 //   src/data/search.json        index de la recherche globale (chargé à l'ouverture de la recherche)
 //   src/data/wars.json          toutes les guerres des fiches (onglet Guerres)
 //   src/data/map-presence.json  années de carte où chaque civilisation a un territoire
@@ -160,19 +160,13 @@ if (mapIndex) {
   writeJson('map-presence.json', presence)
 } else console.warn('⚠️  public/map/index.json introuvable : map-presence.json non régénéré (lancer `npm run map`)')
 
-// ── Quiz : leurres tirés des autres fiches (texte brut, sans liens) ────────────
-const quizContext = { epochs: {}, people: [] }
-for (const epoch of epochs) {
-  const ctx = (quizContext.epochs[epoch.id] = { events: [], leaders: [] })
+// ── Quiz : leurres de « Qui est-ce ? » (questions générées depuis les cartes, src/lib/questionsCartes.js) ──
+// Depuis la V3.1 (sprint 29), l'Aventure ne pose plus de questions générées depuis la fiche complète :
+// seules les personnes des autres fiches servent encore de leurres.
+const quizContext = { people: [] }
+for (const epoch of epochs)
   for (const ct of epoch.continents)
-    for (const civ of ct.civilizations) {
-      for (const d of civ.datesCles ?? []) ctx.events.push({ civ: civ.id, evenement: stripLinks(d.evenement) })
-      // (même règle que src/lib/quiz.js : les dirigeants « clés » s'il y en a, sinon tous)
-      const leaders = civ.dirigeants?.some((l) => l.cle) ? civ.dirigeants.filter((l) => l.cle) : civ.dirigeants ?? []
-      for (const l of leaders) ctx.leaders.push({ civ: civ.id, nom: l.nom, titre: l.titre, surnom: l.surnom })
-      for (const p of civ.personnages ?? []) quizContext.people.push({ civ: civ.id, nom: p.nom, role: p.role })
-    }
-}
+    for (const civ of ct.civilizations) for (const p of civ.personnages ?? []) quizContext.people.push({ civ: civ.id, nom: p.nom, role: p.role })
 writeJson('quiz-context.json', quizContext)
 
 // ── Recherche globale ─────────────────────────────────────────────────────────

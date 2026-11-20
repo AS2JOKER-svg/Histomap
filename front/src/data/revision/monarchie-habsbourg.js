@@ -20,7 +20,7 @@ export default {
       kicker: 'Territoire',
       title: 'Les terres des Habsbourg',
       years: [1650, 1783],
-      caption: 'Comparez : après avoir repris la Hongrie aux Ottomans, les Habsbourg dominent une grande partie de l’Europe centrale.',
+      caption: 'Compare : après avoir repris la Hongrie aux Ottomans, les Habsbourg dominent une grande partie de l’Europe centrale.',
     },
     {
       id: 'mariages',
@@ -96,7 +96,7 @@ export default {
       kicker: 'Réformes',
       title: 'Joseph II, le réformateur',
       body:
-        "Fils de Marie-Thérèse, Joseph II accorde en 1781 la liberté de culte aux protestants et aux orthodoxes et abolit le servage personnel. Ses réformes, imposées trop vite, provoquent des révoltes.",
+        "Fils de Marie-Thérèse et frère de la reine de France Marie-Antoinette, Joseph II accorde en 1781 la liberté de culte aux protestants et aux orthodoxes et abolit le servage personnel. Ses réformes, imposées trop vite, provoquent des révoltes.",
     },
 
     // ── Niveau 2 ──
@@ -148,22 +148,22 @@ export default {
   ],
 
   quiz: [
-    { id: 'capitale', type: 'mcq', prompt: 'Quelle est la capitale de la monarchie des Habsbourg ?', options: ['Vienne', 'Berlin', 'Budapest', 'Munich'], answer: 0 },
-    { id: 'mohacs', type: 'mcq', prompt: 'Après quelle bataille Ferdinand Ier devient-il roi de Bohême et de Hongrie ?', options: ['Mohács', 'Lépante', 'Marignan', 'Pavie'], answer: 0 },
-    { id: 'mariages', type: 'mcq', prompt: 'Comment les Habsbourg agrandissent-ils surtout leur domaine ?', options: ['Par des mariages', 'Par des colonies en Amérique', 'Par l’achat de terres', 'Par des élections'], answer: 0 },
-    { id: 'pays', type: 'mcq', prompt: 'Lequel de ces pays fait partie de la monarchie des Habsbourg ?', options: ['La Bohême', 'La Suède', 'Le Portugal', 'L’Écosse'], answer: 0 },
-    { id: 'ottomans', type: 'mcq', prompt: 'Qui assiège Vienne en 1529 et en 1683 ?', options: ['Les Ottomans', 'Les Mongols', 'Les Suédois', 'Les Français'], answer: 0 },
-    { id: 'sobieski', type: 'mcq', prompt: 'Quel roi mène l’armée qui délivre Vienne en 1683 ?', options: ['Jean III Sobieski, roi de Pologne', 'Louis XIV, roi de France', 'Pierre le Grand, tsar de Russie', 'Gustave II Adolphe, roi de Suède'], answer: 0 },
-    { id: 'karlowitz', type: 'tf', prompt: 'Au traité de Karlowitz (1699), les Ottomans cèdent presque toute la Hongrie aux Habsbourg.', answer: true },
-    { id: 'religion', type: 'mcq', prompt: 'Quelle religion les Habsbourg défendent-ils ?', options: ['Le catholicisme', 'Le protestantisme', 'L’orthodoxie', 'L’islam'], answer: 0 },
-    { id: 'defenestration', type: 'mcq', prompt: 'Quel événement déclenche la guerre de Trente Ans en 1618 ?', options: ['La défenestration de Prague', 'Le siège de Vienne', 'Le sac de Rome', 'La mort de Charles Quint'], answer: 0 },
-    { id: 'silesie', type: 'mcq', prompt: 'Quelle région la Prusse prend-elle à Marie-Thérèse ?', options: ['La Silésie', 'La Bohême', 'Le Tyrol', 'La Hongrie'], answer: 0 },
-    { id: 'ecole', type: 'tf', prompt: 'Marie-Thérèse rend l’école obligatoire en 1774.', answer: true },
-    { id: 'antoinette', type: 'mcq', prompt: 'Laquelle des filles de Marie-Thérèse devient reine de France ?', options: ['Marie-Antoinette', 'Anne d’Autriche', 'Marie de Médicis', 'Catherine de Médicis'], answer: 0 },
-    { id: 'joseph', type: 'mcq', prompt: 'Que fait Joseph II en 1781 ?', options: ['Il accorde la liberté de culte aux protestants', 'Il interdit le protestantisme', 'Il déclare la guerre à la France', 'Il s’installe à Prague'], answer: 0 },
-    { id: 'kepler', type: 'mcq', prompt: 'Quel astronome travaille à la cour de Rodolphe II à Prague ?', options: ['Johannes Kepler', 'Galilée', 'Copernic', 'Isaac Newton'], answer: 0 },
-    { id: 'mozart', type: 'mcq', prompt: 'Quel compositeur compose à Vienne une grande partie de son œuvre ?', options: ['Mozart', 'Vivaldi', 'Bach', 'Chopin'], answer: 0 },
-    { id: 'ordre', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Premier siège de Vienne', 'Défenestration de Prague', 'Bataille de Vienne', 'Avènement de Marie-Thérèse'] },
+    { id: 'capitale', carte: 'mariages', type: 'mcq', prompt: 'Quelle est la capitale de la monarchie des Habsbourg ?', options: ['Vienne', 'Berlin', 'Budapest', 'Munich'], answer: 0 },
+    { id: 'mohacs', carte: 'mohacs', type: 'mcq', prompt: 'Après quelle bataille Ferdinand Ier devient-il roi de Bohême et de Hongrie ?', options: ['Mohács', 'Lépante', 'Marignan', 'Pavie'], answer: 0 },
+    { id: 'mariages', carte: 'mariages', type: 'mcq', prompt: 'Comment les Habsbourg agrandissent-ils surtout leur domaine ?', options: ['Par des mariages', 'Par des colonies en Amérique', 'Par l’achat de terres', 'Par des élections'], answer: 0 },
+    { id: 'pays', carte: 'mariages', type: 'mcq', prompt: 'Lequel de ces pays fait partie de la monarchie des Habsbourg ?', options: ['La Bohême', 'La Suède', 'Le Portugal', 'L’Écosse'], answer: 0 },
+    { id: 'ottomans', carte: 'vienne1529', type: 'mcq', prompt: 'Qui assiège Vienne en 1529 et en 1683 ?', options: ['Les Ottomans', 'Les Mongols', 'Les Suédois', 'Les Français'], answer: 0 },
+    { id: 'sobieski', carte: 'vienne1683', type: 'mcq', prompt: 'Quel roi mène l’armée qui délivre Vienne en 1683 ?', options: ['Jean III Sobieski, roi de Pologne', 'Louis XIV, roi de France', 'Pierre le Grand, tsar de Russie', 'Gustave II Adolphe, roi de Suède'], answer: 0 },
+    { id: 'karlowitz', carte: 'vienne1683', type: 'tf', prompt: 'Au traité de Karlowitz (1699), les Ottomans cèdent presque toute la Hongrie aux Habsbourg.', answer: true },
+    { id: 'religion', carte: 'trente', type: 'mcq', prompt: 'Quelle religion les Habsbourg défendent-ils ?', options: ['Le catholicisme', 'Le protestantisme', 'L’orthodoxie', 'L’islam'], answer: 0 },
+    { id: 'defenestration', carte: 'chronologie', type: 'mcq', prompt: 'Quel événement déclenche la guerre de Trente Ans en 1618 ?', options: ['La défenestration de Prague', 'Le siège de Vienne', 'Le sac de Rome', 'La mort de Charles Quint'], answer: 0 },
+    { id: 'silesie', carte: 'marie-therese', type: 'mcq', prompt: 'Quelle région la Prusse prend-elle à Marie-Thérèse ?', options: ['La Silésie', 'La Bohême', 'Le Tyrol', 'La Hongrie'], answer: 0 },
+    { id: 'ecole', carte: 'marie-therese', type: 'tf', prompt: 'Marie-Thérèse rend l’école obligatoire en 1774.', answer: true },
+    { id: 'antoinette', carte: 'joseph', type: 'mcq', prompt: 'Laquelle des filles de Marie-Thérèse devient reine de France ?', options: ['Marie-Antoinette', 'Anne d’Autriche', 'Marie de Médicis', 'Catherine de Médicis'], answer: 0 },
+    { id: 'joseph', carte: 'joseph', type: 'mcq', prompt: 'Que fait Joseph II en 1781 ?', options: ['Il accorde la liberté de culte aux protestants', 'Il interdit le protestantisme', 'Il déclare la guerre à la France', 'Il s’installe à Prague'], answer: 0 },
+    { id: 'kepler', carte: 'prague', type: 'mcq', prompt: 'Quel astronome travaille à la cour de Rodolphe II à Prague ?', options: ['Johannes Kepler', 'Galilée', 'Copernic', 'Isaac Newton'], answer: 0 },
+    { id: 'mozart', carte: 'musique', type: 'mcq', prompt: 'Quel compositeur compose à Vienne une grande partie de son œuvre ?', options: ['Mozart', 'Vivaldi', 'Bach', 'Chopin'], answer: 0 },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Premier siège de Vienne', 'Défenestration de Prague', 'Bataille de Vienne', 'Avènement de Marie-Thérèse'] },
   ],
 
   recap: [

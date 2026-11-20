@@ -11,8 +11,7 @@ import useDocumentTitle from '../lib/useDocumentTitle'
 import { useUI } from '../store/ui'
 import ChapterGate from '../components/revision/ChapterGate'
 import Serie from '../components/defi/Serie'
-import { Particules } from '../components/celebration/elements'
-import { useEffet } from '../components/celebration/Celebrations'
+import { EFFET, Particules } from '../components/celebration/elements'
 import NotFoundPage from './NotFoundPage'
 
 /**
@@ -67,7 +66,6 @@ function Defi({ refCiv, recu }) {
   const { civ } = refCiv
   const navigate = useNavigate()
   const showToast = useUI((s) => s.showToast)
-  const effet = useEffet()
   const [graine, setGraine] = useState(() => recu?.graine ?? nouvelleGraine())
   const questions = useMemo(() => questionsDefi(questionPool(refCiv), graine), [refCiv, graine])
   const [phase, setPhase] = useState('intro') // intro → jeu → resultat
@@ -111,7 +109,7 @@ function Defi({ refCiv, recu }) {
 
   return (
     <div className="fixed inset-0 z-50 overflow-y-auto" style={ENCRE} role="dialog" aria-label={`Défi : ${civ.label}`}>
-      {issue === 'gagne' && <Particules effet={effet} />}
+      {issue === 'gagne' && <Particules effet={EFFET} />}
       <div className="relative w-full max-w-md mx-auto px-5 pt-[max(2.5rem,env(safe-area-inset-top))] pb-[max(1.5rem,env(safe-area-inset-bottom))] min-h-full flex flex-col text-center">
         <p className="text-xs font-bold uppercase tracking-[.22em]" style={{ color: OR }}>{recu ? 'Défi reçu' : 'Défi'}</p>
         <h1 className="font-display text-5xl font-bold leading-none mt-3">{civ.label}</h1>

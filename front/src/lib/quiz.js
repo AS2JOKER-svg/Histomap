@@ -1,296 +1,43 @@
 /**
- * quiz.js — Questions de quiz d'un chapitre
- * ==========================================
- * Réservoir de questions (« pool ») par civilisation :
- *   - questions rédigées à la main (src/data/revision/<civ>.js → `quiz`) ;
- *   - questions générées à partir des données (dates, dirigeants, guerres…).
+ * quiz.js — Questions d'une salle (V3.1, sprint 29)
+ * ==================================================
+ * Décision 8 : toute question porte sur une carte déjà vue. Le réservoir d'une salle = ses questions
+ * rédigées reliées aux cartes vues + les questions générées depuis ces cartes (lib/epreuve.js,
+ * lib/questionsCartes.js). Plus de questions générées depuis la fiche complète : le quiz express
+ * des fiches liées, lui, est généré au build (scripts/lib/express.mjs) et ne change pas.
  *
- * Une question a un id STABLE (ex. « date-year-2 ») : on peut mémoriser les
- * questions ratées et les reposer plus tard. La génération est déterministe
- * (hasard « graine » = id de la question), seul l'ordre des réponses change
- * d'une tentative à l'autre.
+ * Une question a un id STABLE (« hand-<id> » ou « carte-<carte>-… ») : on peut mémoriser les questions
+ * ratées et les reposer plus tard ; seul l'ordre des réponses change d'une tentative à l'autre.
  *
  * Types :
  *   mcq   { prompt, options[], answer: index, explanation? }
  *   tf    { prompt, answer: true|false, explanation? }        (vrai / faux)
  *   order { prompt, items[] (dans le bon ordre), explanation? } (remettre dans l'ordre)
- *   map   { prompt, year, civId, options[], answer }          (carte + QCM)
  */
-import PRESENCE from '../data/map-presence.json'
-// leurres tirés des autres fiches (scripts/build-content.mjs) : pas besoin de charger leur détail
+// leurres de « Qui est-ce ? » : personnes des autres fiches (scripts/build-content.mjs)
 import CONTEXT from '../data/quiz-context.json'
-import { getEpochs } from './data'
+import { findCivilization } from './data'
 import { stripLinksDeep } from './links'
-import { formatDuration, formatYear } from './time'
+import { composerEpreuve, reservoirSalle } from './epreuve'
+import { leurresPersonnes } from './questionsCartes'
 // hasard reproductible, partagé avec le quiz express (généré au build)
 import { rng, shuffle } from './random'
 
-export { rng, shuffle }
+export { rng, shuffle, composerEpreuve }
 // affichage et correction d'une question : module léger, partagé avec le quiz express
 export { isCorrect, prepareQuestion } from './questions'
 
-export const QUIZ_LENGTH = 20
-export const PASS_MARK = 15 // sur 20
-const RETRY_FAILED = 5 // questions ratées reposées au quiz suivant
-
-const uniq = (arr) => [...new Set(arr)]
-
-/** Termine une phrase par un point, sans doubler celui de « av. J.-C. ». */
-const sentence = (text) => (text.endsWith('.') ? text : `${text}.`)
-
-// Mots trop génériques pour trahir la réponse
-const GENERIC = new Set(['empire', 'royaume', 'civilisation', 'culture', 'antique', 'grande', 'grand', 'dynastie', 'peuples', 'époque', 'classique', 'moderne', 'contemporaine', 'république', 'républiques'])
-/** Masque le nom d'une civilisation (et ses mots significatifs) dans un texte. */
-function maskName(text, civ) {
-  const words = civ.label
-    .replace(/[()&,/]/g, ' ')
-    .split(/\s+/)
-    .filter((w) => w.length >= 4 && !GENERIC.has(w.toLowerCase()))
-  let out = text.replaceAll(civ.label, '…')
-  // limite de mot compatible avec les lettres accentuées (\b ne connaît que l'ASCII)
-  for (const w of words) out = out.replace(new RegExp(`(?<!\\p{L})${w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\p{L}*`, 'giu'), '…')
-  return out
-}
-/**
- * Titre de date clé assez explicite pour une question (« Indépendance de l'Algérie ») ; un titre d'un
- * seul mot (« Indépendance », « Fin ») ferait une réponse ou un leurre faible, voire ambigu.
- */
-export const titreExplicite = (t) => typeof t === 'string' && /\s/.test(t.replace(/^(Le|La|Les|L’|L')\s*/, '').trim())
-
-function pick(arr, n, rand, exclude = []) {
-  return shuffle(uniq(arr).filter((x) => x != null && x !== '' && !exclude.includes(x)), rand).slice(0, n)
-}
-
-/** QCM : bonne réponse + 3 leurres (moins si pas assez de leurres). Null si < 2 leurres. */
-function mcq(id, prompt, correct, distractors, extra = {}) {
-  const rand = rng(id)
-  const wrong = pick(distractors, 3, rand, [correct])
-  if (wrong.length < 2) return null
-  return { id, type: 'mcq', prompt, options: [correct, ...wrong], answer: 0, ...extra }
-}
-
-/** Années plausibles autour d'une date (pour les leurres). */
-function yearDistractors(year, others, rand) {
-  const span = Math.abs(year) > 5000 ? Math.round(Math.abs(year) * 0.3) : Math.abs(year) > 1000 ? 120 : 60
-  const near = [1, -1, 2, -2, 3].map((k) => year + k * Math.max(10, Math.round((span * (0.4 + rand() * 0.6)) / 10) * 10))
-  return uniq([...others.filter((y) => y !== year), ...near]).map(formatYear)
-}
-
-// ── Contexte : civilisations de la même époque / du même continent ──────────
-const ALL = getEpochs().flatMap((epoch) =>
-  epoch.continents.flatMap((continent) => continent.civilizations.map((civ) => ({ epoch, continent, civ })))
-)
-
-/** Dirigeants retenus pour le quiz : ceux marqués « cle » s'il y en a, sinon tous. */
-export const quizLeaders = (leaders) => (leaders.some((l) => l.cle) ? leaders.filter((l) => l.cle) : leaders)
-
-/** Réservoir complet de questions d'une civilisation (ref.civ = fiche complète, voir lib/data loadCiv). */
-export function questionPool(ref) {
-  const { epoch, continent } = ref
-  // les questions sont du texte brut : on retire la syntaxe des liens [[id|texte]]
-  const civ = stripLinksDeep(ref.civ)
-  const hand = (ref.hand?.quiz ?? []).map((q) => ({ ...stripLinksDeep(q), id: `hand-${q.id}` }))
-  return [...hand, ...autoQuestions(civ, epoch, continent)].filter(Boolean)
-}
-
-function autoQuestions(civ, epoch, continent) {
-  const qs = []
-  const sameEpoch = ALL.filter((r) => r.epoch.id === epoch.id && r.civ.id !== civ.id).map((r) => r.civ)
-  const sameCont = sameEpoch.filter((c) => continent.civilizations.some((x) => x.id === c.id))
-  const dates = [...(civ.datesCles ?? [])].sort((a, b) => a.annee - b.annee)
-  const context = CONTEXT.epochs[epoch.id] ?? { events: [], leaders: [] }
-  // leurres d'événements : seulement des titres explicites, du même continent (pas « James Cook » pour l'Europe paléolithique)
-  const memeContinent = new Set(continent.civilizations.map((c) => c.id))
-  const otherEvents = context.events.filter((e) => e.civ !== civ.id && memeContinent.has(e.civ) && titreExplicite(e.evenement)).map((e) => e.evenement)
-  /** Leurres d'une question d'événement : d'abord les autres dates de la civilisation, puis le même continent. */
-  const leurresEvenement = (d, rand) => {
-    const memes = shuffle(dates.filter((x) => x !== d && titreExplicite(x.evenement)).map((x) => x.evenement), rand)
-    return memes.length >= 3 ? memes : [...memes, ...pick(otherEvents, 3 - memes.length, rand, memes)]
-  }
-  // Liste complète des dirigeants : seuls les dirigeants « clés » (cle: true) font l'objet de questions
-  const leaders = quizLeaders(civ.dirigeants ?? [])
-  const otherLeaders = context.leaders
-  const people = civ.personnages ?? []
-  const otherPeople = CONTEXT.people.filter((p) => !people.some((x) => x.nom === p.nom))
-  const wars = civ.guerres ?? []
-  const name = civ.label
-
-  // ── Dates ── (une date clé au titre trop vague ne donne pas de question ; les ids gardent l'index d'origine)
-  dates.forEach((d, i) => {
-    if (!titreExplicite(d.evenement)) return
-    const rand = rng(`${civ.id}-date-${i}`)
-    qs.push(
-      mcq(`date-year-${i}`, `${name} : en quelle année situe-t-on « ${d.evenement} » ?`, formatYear(d.annee), yearDistractors(d.annee, dates.map((x) => x.annee), rand), {
-        explanation: d.info,
-      })
-    )
-    qs.push(
-      mcq(
-        `date-event-${i}`,
-        `${name} : que se passe-t-il en ${formatYear(d.annee)} ?`,
-        d.evenement,
-        leurresEvenement(d, rand),
-        { explanation: d.info }
-      )
-    )
-  })
-  dates.forEach((d, i) => {
-    if (!titreExplicite(d.evenement)) return
-    // Vrai / faux sur la date (une fois vrai, une fois faux, selon la question)
-    const rand = rng(`${civ.id}-tfdate-${i}`)
-    if (i % 2 === 0) {
-      qs.push({ id: `tf-date-${i}`, type: 'tf', prompt: sentence(`${name} : « ${d.evenement} » a lieu en ${formatYear(d.annee)}`), answer: true, explanation: d.info })
-    } else {
-      const wrong = d.annee + (rand() < 0.5 ? -1 : 1) * (Math.abs(d.annee) > 3000 ? 1000 : 100) * (1 + Math.floor(rand() * 2))
-      qs.push({ id: `tf-date-${i}`, type: 'tf', prompt: sentence(`${name} : « ${d.evenement} » a lieu en ${formatYear(wrong)}`), answer: false, explanation: `C'était en ${formatYear(d.annee)}. ${d.info ?? ''}` })
-    }
-    // Quel événement est décrit ? (nom et année masqués)
-    if (d.info && d.info.length > 25) {
-      const masked = d.info.replaceAll(d.evenement, '…').replaceAll(String(Math.abs(d.annee)), '…')
-      // description qui ne fait que répéter le titre : il ne resterait rien à lire (« …. »)
-      if (masked.replace(/[…\s.,;:!?«»]/g, '').length < 20) return
-      qs.push(mcq(`date-info-${i}`, `${name} : quel événement est décrit ici ? « ${masked} »`, d.evenement, leurresEvenement(d, rand)))
-    }
-  })
-  const explicites = dates.filter((d) => titreExplicite(d.evenement))
-  if (explicites.length >= 3) {
-    qs.push({ id: 'order-dates', type: 'order', prompt: `${name} : remettez ces événements dans l'ordre chronologique.`, items: explicites.slice(0, 4).map((d) => d.evenement), explanation: explicites.slice(0, 4).map((d) => `${formatYear(d.annee)} : ${d.evenement}`).join(' → ') })
-  }
-  if (explicites.length >= 2) {
-    const [a, b] = [explicites[0], explicites[explicites.length - 1]]
-    qs.push({ id: 'tf-order', type: 'tf', prompt: `« ${b.evenement} » a lieu avant « ${a.evenement} ».`, answer: false, explanation: `${a.evenement} : ${formatYear(a.annee)} ; ${b.evenement} : ${formatYear(b.annee)}.` })
-  }
-
-  // ── Repères généraux ──
-  if (civ.capitale) {
-    const withCap = sameEpoch.filter((c) => c.capitale && c.capitale !== civ.capitale)
-    qs.push(mcq('capitale-inverse', `${civ.capitale} est la capitale de…`, name, withCap.map((c) => c.label)))
-    qs.push(mcq('capitale', `Quelle est la capitale de : ${name} ?`, civ.capitale, sameEpoch.map((c) => c.capitale)))
-    const wrongCap = pick(sameEpoch.map((c) => c.capitale), 1, rng(`${civ.id}-tfcap`), [civ.capitale])[0]
-    if (wrongCap) qs.push({ id: 'tf-capitale', type: 'tf', prompt: sentence(`La capitale de « ${name} » est ${wrongCap}`), answer: false, explanation: `Sa capitale est ${civ.capitale}.` })
-  }
-  qs.push(mcq('periode', `Quelle période correspond à : ${name} ?`, civ.period, sameCont.length >= 3 ? sameCont.map((c) => c.period) : sameEpoch.map((c) => c.period)))
-  qs.push(
-    mcq('duree', `Combien de temps dure : ${name} (${civ.period}) ?`, formatDuration(civ.start, civ.end), [0.5, 0.25, 2, 3].map((k) => formatDuration(0, Math.max(10, Math.round(((civ.end - civ.start) * k) / 10) * 10))))
-  )
-  if (civ.description) {
-    const masked = maskName(civ.description, civ)
-    qs.push(mcq('description', `De quelle civilisation s'agit-il ? « ${masked} »`, name, (sameCont.length >= 3 ? sameCont : sameEpoch).map((c) => c.label)))
-  }
-  if (sameEpoch.length >= 3) qs.push(mcq('continent', `Sur quel continent se trouve : ${name} ?`, continent.label, epoch.continents.map((c) => c.label)))
-
-  // ── Dirigeants ──
-  leaders.forEach((l, i) => {
-    if (l.titre) qs.push(mcq(`leader-titre-${i}`, `Quel titre porte ${l.nom} (${name}) ?`, l.titre, otherLeaders.map((x) => x.titre)))
-    if (l.surnom) qs.push(mcq(`leader-surnom-${i}`, `Quel est le surnom de ${l.nom} (${name}) ?`, l.surnom, otherLeaders.map((x) => x.surnom)))
-    qs.push(
-      mcq(`leader-reign-${i}`, `${name} : qui gouverne ${l.debut === l.fin ? `en ${formatYear(l.debut)}` : `de ${formatYear(l.debut)} à ${formatYear(l.fin)}`} ?`, l.nom, [...leaders.filter((x) => x !== l).map((x) => x.nom), ...otherLeaders.map((x) => x.nom)], {
-        explanation: `${l.titre}${l.surnom ? ` « ${l.surnom} »` : ''}.`,
-      })
-    )
-  })
-  if (leaders.length >= 3) qs.push({ id: 'order-leaders', type: 'order', prompt: `${name} : classez ces dirigeants du plus ancien au plus récent.`, items: [...leaders].sort((a, b) => a.debut - b.debut).slice(0, 4).map((l) => l.nom) })
-
-  // ── Personnages ──
-  people.forEach((p, i) => {
-    if (p.description) {
-      const masked = p.description.replaceAll(p.nom, '…')
-      qs.push(mcq(`person-who-${i}`, `Qui est-ce ? « ${masked} »`, p.nom, otherPeople.map((x) => x.nom)))
-    }
-    if (p.role) qs.push(mcq(`person-role-${i}`, `Quel rôle joue ${p.nom} ?`, p.role, otherPeople.map((x) => x.role)))
-  })
-
-  // Personnage : vrai / faux sur son appartenance
-  if (people[0]) {
-    // Intrus pris dans une autre époque ET sur un autre continent : jamais quelqu'un de lié à la civilisation
-    // (César pour les Gaulois, Jeanne d'Arc pour la France moderne…)
-    const far = new Set(ALL.filter((r) => r.epoch.id !== epoch.id && r.continent.id !== continent.id).map((r) => r.civ.id))
-    const strangers = otherPeople.filter((p) => far.has(p.civ))
-    const intruder = pick((strangers.length ? strangers : otherPeople).map((p) => p.nom), 1, rng(`${civ.id}-intrus`))[0]
-    if (intruder) qs.push({ id: 'tf-person', type: 'tf', prompt: sentence(`${intruder} est un personnage marquant de : ${name}`), answer: false, explanation: `Pour ${name}, on retient notamment ${people.map((p) => p.nom).join(', ')}.` })
-  }
-
-  // ── Textes (sciences, croyances, diplomatie) : à quelle civilisation correspond ce passage ? ──
-  const firstSentence = (t) => (t ?? '').match(/[^.!?]+[.!?]/)?.[0]?.trim()
-  ;[
-    ['sciences', 'Sciences & techniques'],
-    ['croyancesText', 'Croyances'],
-    ['diplomatie', 'Diplomatie'],
-  ].forEach(([key, label]) => {
-    const text = firstSentence(civ[key])
-    if (!text || text.length < 40) return
-    const masked = maskName(text, civ)
-    qs.push(mcq(`texte-${key}`, `${label} : à quelle civilisation correspond ce passage ? « ${masked} »`, name, (sameCont.length >= 3 ? sameCont : sameEpoch).map((c) => c.label)))
-  })
-
-  // ── Guerres ──
-  wars.forEach((w, i) => {
-    if (w.vainqueur) {
-      qs.push(
-        mcq(`war-winner-${i}`, `Qui sort vainqueur de : ${w.nom} ?`, w.vainqueur, [...(w.adversaires ?? []), ...(w.allies ?? []), ...sameEpoch.map((c) => c.label)], { explanation: w.consequences })
-      )
-    }
-    if (w.adversaires?.length) {
-      qs.push(mcq(`war-enemy-${i}`, `${w.camp ?? name} : contre qui est menée « ${w.nom} » ?`, w.adversaires[0], sameEpoch.map((c) => c.label), { explanation: w.consequences }))
-    }
-    if (typeof w.annee === 'number') {
-      qs.push(mcq(`war-year-${i}`, `En quelle année commence (ou se joue) : ${w.nom} ?`, formatYear(w.annee), yearDistractors(w.annee, dates.map((d) => d.annee), rng(`${civ.id}-war-${i}`))))
-    }
-  })
-
-  // ── Carte ──
-  const years = PRESENCE[civ.id] ?? []
-  const mapYearsPicked = uniq([years[Math.floor(years.length / 2)], years[years.length - 1]]).filter((y) => y !== undefined)
-  mapYearsPicked.forEach((year, i) => {
-    const neighbors = ALL.filter((r) => (PRESENCE[r.civ.id] ?? []).includes(year) && r.civ.id !== civ.id).map((r) => r.civ.label)
-    qs.push(mcq(i ? `map-${i}` : 'map', `Quelle civilisation occupe le territoire en couleur, en ${formatYear(year)} ?`, name, neighbors.length >= 3 ? neighbors : sameEpoch.map((c) => c.label), { type: 'map', year, civId: civ.id }))
-  })
-
-  // ── Lignée ──
-  if (civ.lineage?.next) {
-    qs.push(mcq('lineage-next', `Quelle civilisation prend la suite de « ${name} » à l'époque suivante ?`, civ.lineage.next.label, ALL.filter((r) => r.epoch.id === civ.lineage.next.epochId).map((r) => r.civ.label)))
-  }
-  if (civ.lineage?.prev) {
-    qs.push(mcq('lineage-prev', `Quelle civilisation précède « ${name} » dans l'histoire de : ${civ.lineage.label} ?`, civ.lineage.prev.label, ALL.filter((r) => r.epoch.id === civ.lineage.prev.epochId).map((r) => r.civ.label)))
-  }
-
-  return qs
+const lieu = (id) => {
+  const r = findCivilization(id)
+  return r && { epoch: r.epoch.id, continent: r.continent.id }
 }
 
 /**
- * Compose un quiz de 20 questions (ou moins si le réservoir est petit) :
- *   - d'abord jusqu'à 5 questions ratées la fois précédente ;
- *   - puis environ 14 sur 20 questions rédigées à la main et le reste de questions générées,
- *     en prenant dans chaque groupe les jamais posées, puis les déjà réussies, puis les ratées ;
- *   - s'il en manque, on complète avec ce qui reste.
- * Renvoie des ids de questions + une graine pour l'ordre des réponses.
+ * Réservoir de questions d'une salle (ref.hand = chapitre rédigé, voir lib/chapters).
+ * `niveaux` : cartes vues — [1] (Découvrir) ou [1, 2] (Découvrir + Approfondir, par défaut).
  */
-export const PART_REDIGEE = 14 // sur 20 : l'Épreuve donne la priorité aux questions rédigées à la main
-
-export function composeQuiz(pool, { failed = [], asked = [], attempt = 0 } = {}) {
-  const rand = rng(`compose-${attempt}-${pool.length}`)
-  const ids = pool.map((q) => q.id)
-  const fromFailed = shuffle(failed.filter((id) => ids.includes(id)), rand).slice(0, RETRY_FAILED)
-  // Dans chaque groupe (rédigées / générées) : jamais posées, puis déjà réussies, puis déjà ratées
-  const ordre = (groupe) => {
-    const g = groupe.filter((id) => !fromFailed.includes(id))
-    return [
-      ...shuffle(g.filter((id) => !asked.includes(id)), rand),
-      ...shuffle(g.filter((id) => asked.includes(id) && !failed.includes(id)), rand),
-      ...shuffle(g.filter((id) => failed.includes(id)), rand),
-    ]
-  }
-  const redigees = ordre(ids.filter((id) => id.startsWith('hand-')))
-  const generees = ordre(ids.filter((id) => !id.startsWith('hand-')))
-  const reste = QUIZ_LENGTH - fromFailed.length
-  const nbRedigees = Math.min(redigees.length, Math.max(0, Math.round((PART_REDIGEE * reste) / QUIZ_LENGTH)))
-  let chosen = [...fromFailed, ...redigees.slice(0, nbRedigees), ...generees.slice(0, reste - nbRedigees)]
-  // s'il en manque (petit réservoir), on complète avec ce qui reste
-  if (chosen.length < QUIZ_LENGTH) chosen = [...chosen, ...[...redigees, ...generees].filter((id) => !chosen.includes(id))].slice(0, QUIZ_LENGTH)
-  return shuffle(chosen, rand)
-}
-
-/** Note sur 20, même si le quiz compte moins de 20 questions. */
-export function scoreOn20(correct, total) {
-  return total ? Math.round((correct / total) * 20) : 0
+export function questionPool(ref, { niveaux = [1, 2] } = {}) {
+  if (!ref?.hand) return []
+  const personnes = leurresPersonnes(CONTEXT.people, lieu, ref.civ.id)
+  return stripLinksDeep(reservoirSalle(ref.hand, { niveaux, personnes }))
 }

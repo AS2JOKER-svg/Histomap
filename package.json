@@ -9,6 +9,8 @@
     "coverage": "npm --prefix front run coverage",
     "links": "npm --prefix front run links",
     "eclairs": "npm --prefix front run eclairs",
+    "relier": "npm --prefix front run relier --",
+    "questions-cartes": "npm --prefix front run questions-cartes --",
     "territoires": "npm --prefix front run territoires --",
     "build": "npm --prefix front run build",
     "preview": "npm --prefix front run preview"

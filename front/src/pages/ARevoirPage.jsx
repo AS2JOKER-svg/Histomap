@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
-import { Link, Navigate, useNavigate, useParams } from 'react-router-dom'
+import { Link, Navigate, useLocation, useNavigate, useParams } from 'react-router-dom'
 import { AnimatePresence, motion } from 'framer-motion'
 import { findCivilization } from '../lib/data'
 import { chapterCards } from '../lib/revision'
@@ -19,6 +19,8 @@ import { useApresCelebrations } from '../components/celebration/Celebrations'
  * Séance « À revoir » d'une salle (V3, sprint 23) : les cartes marquées « à revoir » au dernier
  * passage, puis les questions ratées à la dernière épreuve. Une carte comprise ou une question
  * réussie sort de sa liste. +20 XP une fois par jour, et la séance compte pour la série.
+ * Lancée depuis la bulle de la carte (retour à la carte) ou depuis Profil › À revoir (retour à la liste,
+ * `state.depuis === 'profil'`, sprint 32).
  */
 export default function ARevoirPage() {
   const { civId } = useParams()
@@ -27,15 +29,17 @@ export default function ARevoirPage() {
   const questions = useProgress((s) => s.quizzes[civId]?.failed ?? [])
   useDocumentTitle(ref ? `À revoir · ${ref.civ.label}` : 'À revoir')
   useAmbiance(ref ? civId : null)
-  // Rien à revoir (ou plus rien) : retour au Profil
+  // Rien à revoir (ou plus rien) : la liste « À revoir » du Profil
   const [depart] = useState(() => cartes.length + questions.length)
-  if (!ref || !depart) return <Navigate to="/profil" replace />
+  if (!ref || !depart) return <Navigate to="/profil/a-revoir" replace />
   return <ChapterGate refCiv={ref}>{(full) => <Seance refCiv={full} cartesIds={cartes} questionsIds={questions} />}</ChapterGate>
 }
 
 function Seance({ refCiv, cartesIds, questionsIds }) {
   const { civ } = refCiv
   const navigate = useNavigate()
+  const depuisProfil = useLocation().state?.depuis === 'profil'
+  const retour = depuisProfil ? '/profil/a-revoir' : '/'
   const terminer = useProgress((s) => s.terminerARevoir)
   // Liste figée au début de la séance (le store change à la fin)
   // Séance courte : au plus 6 cartes et 6 questions (le reste attend la séance suivante)
@@ -74,7 +78,7 @@ function Seance({ refCiv, cartesIds, questionsIds }) {
   return (
     <div className="fixed inset-0 z-50 bg-bg flex flex-col" role="dialog" aria-label={`À revoir : ${civ.label}`}>
       <div className="shrink-0 px-4 pt-[max(0.75rem,env(safe-area-inset-top))] pb-2 max-w-[600px] w-full mx-auto flex items-center gap-2">
-        <button onClick={() => navigate('/profil')} className="btn-icon -ml-2" aria-label="Quitter la séance"><Icon name="close" /></button>
+        <button onClick={() => navigate(retour)} className="btn-icon -ml-2" aria-label="Quitter la séance"><Icon name="close" /></button>
         <p className="eyebrow flex-1">
           À revoir · {civ.label}
           {phase === 'cartes' && ` · carte ${Math.min(pos + 1, cartes.length - 1)} / ${cartes.length - 1}`}
@@ -120,10 +124,10 @@ function Seance({ refCiv, cartesIds, questionsIds }) {
               <div className="card p-3"><p className="font-display text-3xl font-bold text-ink">{questionsOk.length}</p><p className="text-xs text-muted">question{questionsOk.length > 1 ? 's' : ''} réussie{questionsOk.length > 1 ? 's' : ''}</p></div>
               <div className="card p-3"><p className="font-display text-3xl font-bold text-ink">+{xp}</p><p className="text-xs text-muted">XP{xp ? '' : ' (déjà gagnés aujourd’hui)'}</p></div>
             </div>
-            <p className="mt-3 text-sm text-muted">Ce qui reste à revoir t’attend dans le Profil.</p>
+            <p className="mt-3 text-sm text-muted">Ce qui reste à revoir t’attend dans Profil › À revoir.</p>
             <div className="mt-6 grid gap-2.5">
-              <button onClick={() => faire(() => navigate('/profil'))} className="btn-accent h-12 w-full font-bold">Retour au Profil</button>
-              <Link to="/" className="btn-secondary h-12 w-full">Aller au parcours</Link>
+              <button onClick={() => faire(() => navigate(retour))} className="btn-accent h-12 w-full font-bold">{depuisProfil ? 'Retour à « À revoir »' : 'Retour au parcours'}</button>
+              <Link to={depuisProfil ? '/' : '/profil/a-revoir'} className="btn-secondary h-12 w-full">{depuisProfil ? 'Aller au parcours' : 'Voir tout ce qui reste à revoir'}</Link>
             </div>
             {ecran}
           </motion.div>

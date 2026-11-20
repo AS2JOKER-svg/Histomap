@@ -20,7 +20,7 @@ export default {
       kicker: 'Territoire',
       title: 'Du Nejd à l’Arabie saoudite',
       years: [1800, 1960],
-      caption: 'Comparez : parti du Nejd, au centre de la péninsule, l’État saoudien finit par en couvrir la plus grande partie.',
+      caption: 'Compare : parti du Nejd, au centre de la péninsule, l’État saoudien finit par en couvrir la plus grande partie.',
     },
     {
       id: 'chute',
@@ -42,7 +42,7 @@ export default {
       role: 'Fondateur du royaume',
       dates: 'vers 1875 – 1953',
       description:
-        "En 1902, il reprend Riyad avec quelques dizaines de compagnons. Il conquiert ensuite La Mecque et Médine (1924-1925) et proclame en 1932 le royaume d'Arabie saoudite.",
+        "En 1902, il reprend Riyad, la future capitale, avec quelques dizaines de compagnons. Il conquiert ensuite La Mecque et Médine (1924-1925) et proclame en 1932 le royaume d'Arabie saoudite.",
     },
     {
       id: 'petrole',
@@ -51,7 +51,7 @@ export default {
       kicker: 'Économie',
       title: 'Le pétrole',
       body:
-        "En 1938, du pétrole est découvert en grande quantité. Le pays possède parmi les plus grandes réserves de la planète ; le pétrole fournit l'essentiel des revenus de l'État.",
+        "En 1938, une compagnie américaine découvre du pétrole en grande quantité. Dès 1945, les États-Unis deviennent le grand allié du royaume. Le pays possède parmi les plus grandes réserves de la planète ; le pétrole fournit l'essentiel des revenus de l'État.",
     },
     {
       id: 'chronologie',
@@ -75,7 +75,7 @@ export default {
       kicker: 'Croyances',
       title: 'Les lieux saints',
       body:
-        "Le roi porte le titre de « Gardien des deux saintes mosquées », celles de La Mecque et de Médine. Des millions de musulmans viennent chaque année y faire le pèlerinage.",
+        "Le roi porte le titre de « Gardien des deux saintes mosquées », celles de La Mecque et de Médine. Des millions de musulmans viennent chaque année y faire le pèlerinage. Puissance sunnite, le royaume rivalise avec l'Iran chiite pour l'influence au Moyen-Orient.",
     },
     {
       id: 'monarchie',
@@ -147,22 +147,22 @@ export default {
   ],
 
   quiz: [
-    { id: 'capitale', type: 'mcq', prompt: 'Quelle est la capitale de l’Arabie saoudite ?', options: ['Riyad', 'La Mecque', 'Djeddah', 'Médine'], answer: 0 },
-    { id: 'famille', type: 'mcq', prompt: 'Quelle famille règne sur l’Arabie saoudite ?', options: ['Les Saoud', 'Les Hachémites', 'Les Ottomans', 'Les Abbassides'], answer: 0 },
-    { id: 'wahhab', type: 'mcq', prompt: 'Avec quel prédicateur les Saoud s’allient-ils vers 1744 ?', options: ['Mohammed ben Abdelwahhab', 'Saladin', 'Ibn Battuta', 'Averroès'], answer: 0 },
-    { id: 'diriyah', type: 'mcq', prompt: 'Quelle est la capitale du premier État saoudien ?', options: ['Diriyah', 'Riyad', 'Bagdad', 'Damas'], answer: 0 },
-    { id: 'chute', type: 'mcq', prompt: 'Qui détruit le premier État saoudien en 1818 ?', options: ['L’armée égyptienne, pour l’Empire ottoman', 'Les Britanniques', 'Les Perses', 'Les Portugais'], answer: 0 },
-    { id: 'riyad', type: 'mcq', prompt: 'Quelle ville Ibn Saoud reprend-il en 1902 ?', options: ['Riyad', 'La Mecque', 'Koweït', 'Bagdad'], answer: 0 },
-    { id: 'royaume', type: 'mcq', prompt: 'En quelle année le royaume d’Arabie saoudite est-il proclamé ?', options: ['1932', '1744', '1902', '1973'], answer: 0 },
-    { id: 'petrole', type: 'mcq', prompt: 'En quelle année du pétrole est-il découvert en grande quantité ?', options: ['1938', '1902', '1973', '1818'], answer: 0 },
-    { id: 'villes-saintes', type: 'mcq', prompt: 'Quelles sont les deux villes saintes de l’islam situées en Arabie saoudite ?', options: ['La Mecque et Médine', 'Jérusalem et Damas', 'Bagdad et Le Caire', 'Riyad et Djeddah'], answer: 0 },
-    { id: 'regime', type: 'mcq', prompt: 'Quel est le régime de l’Arabie saoudite ?', options: ['Une monarchie absolue', 'Une république', 'Une démocratie parlementaire', 'Une monarchie constitutionnelle'], answer: 0 },
-    { id: 'embargo', type: 'tf', prompt: 'En 1973, l’Arabie saoudite participe à un embargo pétrolier contre les pays qui soutiennent Israël.', answer: true },
-    { id: 'allie', type: 'mcq', prompt: 'Quel pays est le grand allié de l’Arabie saoudite depuis 1945 ?', options: ['Les États-Unis', 'L’URSS', 'L’Iran', 'La Chine'], answer: 0 },
-    { id: 'golfe', type: 'mcq', prompt: 'Quel pays envahi par l’Irak est libéré en 1991 ?', options: ['Le Koweït', 'Le Yémen', 'Oman', 'Le Qatar'], answer: 0 },
-    { id: 'conduire', type: 'mcq', prompt: 'Quel droit les Saoudiennes obtiennent-elles en 2018 ?', options: ['Le droit de conduire', 'Le droit de voter aux élections nationales', 'Le droit d’aller à l’école', 'Le droit de travailler'], answer: 0 },
-    { id: 'rival', type: 'mcq', prompt: 'Quel pays est le grand rival de l’Arabie saoudite au Moyen-Orient ?', options: ['L’Iran', 'L’Égypte', 'Le Maroc', 'La Jordanie'], answer: 0 },
-    { id: 'ordre', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Pacte de Diriyah', 'Chute de Diriyah', 'Royaume d’Arabie saoudite', 'Embargo pétrolier'] },
+    { id: 'capitale', carte: 'ibn-saoud', type: 'mcq', prompt: 'Quelle est la capitale de l’Arabie saoudite ?', options: ['Riyad', 'La Mecque', 'Djeddah', 'Médine'], answer: 0 },
+    { id: 'famille', carte: 'nom', type: 'mcq', prompt: 'Quelle famille règne sur l’Arabie saoudite ?', options: ['Les Saoud', 'Les Hachémites', 'Les Ottomans', 'Les Abbassides'], answer: 0 },
+    { id: 'wahhab', carte: 'pacte', type: 'mcq', prompt: 'Avec quel prédicateur les Saoud s’allient-ils vers 1744 ?', options: ['Mohammed ben Abdelwahhab', 'Saladin', 'Ibn Battuta', 'Averroès'], answer: 0 },
+    { id: 'diriyah', carte: 'pacte', type: 'mcq', prompt: 'Quelle est la capitale du premier État saoudien ?', options: ['Diriyah', 'Riyad', 'Bagdad', 'Damas'], answer: 0 },
+    { id: 'chute', carte: 'chute', type: 'mcq', prompt: 'Qui détruit le premier État saoudien en 1818 ?', options: ['L’armée égyptienne, pour l’Empire ottoman', 'Les Britanniques', 'Les Perses', 'Les Portugais'], answer: 0 },
+    { id: 'riyad', carte: 'ibn-saoud', type: 'mcq', prompt: 'Quelle ville Ibn Saoud reprend-il en 1902 ?', options: ['Riyad', 'La Mecque', 'Koweït', 'Bagdad'], answer: 0 },
+    { id: 'royaume', carte: 'ibn-saoud', type: 'mcq', prompt: 'En quelle année le royaume d’Arabie saoudite est-il proclamé ?', options: ['1932', '1744', '1902', '1973'], answer: 0 },
+    { id: 'petrole', carte: 'petrole', type: 'mcq', prompt: 'En quelle année du pétrole est-il découvert en grande quantité ?', options: ['1938', '1902', '1973', '1818'], answer: 0 },
+    { id: 'villes-saintes', carte: 'lieux-saints', type: 'mcq', prompt: 'Quelles sont les deux villes saintes de l’islam situées en Arabie saoudite ?', options: ['La Mecque et Médine', 'Jérusalem et Damas', 'Bagdad et Le Caire', 'Riyad et Djeddah'], answer: 0 },
+    { id: 'regime', carte: 'monarchie', type: 'mcq', prompt: 'Quel est le régime de l’Arabie saoudite ?', options: ['Une monarchie absolue', 'Une république', 'Une démocratie parlementaire', 'Une monarchie constitutionnelle'], answer: 0 },
+    { id: 'embargo', carte: 'embargo', type: 'tf', prompt: 'En 1973, l’Arabie saoudite participe à un embargo pétrolier contre les pays qui soutiennent Israël.', answer: true },
+    { id: 'allie', carte: 'petrole', type: 'mcq', prompt: 'Quel pays est le grand allié de l’Arabie saoudite depuis 1945 ?', options: ['Les États-Unis', 'L’URSS', 'L’Iran', 'La Chine'], answer: 0 },
+    { id: 'golfe', carte: 'golfe', type: 'mcq', prompt: 'Quel pays envahi par l’Irak est libéré en 1991 ?', options: ['Le Koweït', 'Le Yémen', 'Oman', 'Le Qatar'], answer: 0 },
+    { id: 'conduire', carte: 'reformes', type: 'mcq', prompt: 'Quel droit les Saoudiennes obtiennent-elles en 2018 ?', options: ['Le droit de conduire', 'Le droit de voter aux élections nationales', 'Le droit d’aller à l’école', 'Le droit de travailler'], answer: 0 },
+    { id: 'rival', carte: 'lieux-saints', type: 'mcq', prompt: 'Quel pays est le grand rival de l’Arabie saoudite au Moyen-Orient ?', options: ['L’Iran', 'L’Égypte', 'Le Maroc', 'La Jordanie'], answer: 0 },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Pacte de Diriyah', 'Chute de Diriyah', 'Royaume d’Arabie saoudite', 'Embargo pétrolier'] },
   ],
 
   recap: [

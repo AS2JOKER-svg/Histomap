@@ -3,9 +3,9 @@
  * =====================================================================================
  * Aucun fichier audio : chaque son est synthétisé à la volée (oscillateurs + enveloppes),
  * donc rien à télécharger, rien à licencier, et tout marche hors ligne.
- * Déclenchés par lib/haptics.js (chaque moment qui vibre a son son) ; coupables dans le Profil.
+ * Déclenchés par lib/haptics.js (chaque moment qui vibre a son son) ; coupables dans les Réglages.
  *
- *   jouerSon(nom)        'carte' | 'juste' | 'faux' | 'fin' | 'medaille' | 'niveau' | 'coffre'
+ *   jouerSon(nom)        'carte' | 'juste' | 'faux' | 'fin' | 'etoiles' | 'niveau' | 'titre'
  *   definirCombo(n)      la bonne réponse suivante sonne plus haut (combo de l'épreuve)
  *   contexteAudio()      AudioContext partagé avec la musique d'ambiance (lib/musique.js)
  */
@@ -86,19 +86,19 @@ const SONS = {
   fin: (ac) => {
     ;[0, 4, 7, 12].forEach((n, i) => note(ac, { f: demiTons(DO5, n), t: i * 0.08, d: 0.45, type: 'triangle', vol: 0.06 }))
   },
-  // médaille : petite fanfare puis accord tenu
-  medaille: (ac) => {
+  // étoiles (épreuve réussie) : petite fanfare puis accord tenu
+  etoiles: (ac) => {
     ;[-5, 0, 4, 7].forEach((n, i) => note(ac, { f: demiTons(DO5, n), t: i * 0.11, d: 0.25, type: 'triangle', vol: 0.07 }))
     ;[0, 4, 7, 12].forEach((n) => note(ac, { f: demiTons(DO5, n), t: 0.48, d: 1.3, type: 'sine', vol: 0.045, attaque: 0.02 }))
   },
-  // niveau supérieur : grande montée sur deux octaves, accord et scintillement
+  // nouveau rang : grande montée sur deux octaves, accord et scintillement
   niveau: (ac) => {
     ;[-12, -8, -5, 0, 4, 7, 12].forEach((n, i) => note(ac, { f: demiTons(DO5, n), t: i * 0.07, d: 0.3, type: 'triangle', vol: 0.06 }))
     ;[0, 4, 7, 12, 16].forEach((n) => note(ac, { f: demiTons(DO5, n), t: 0.55, d: 1.6, type: 'sine', vol: 0.035, attaque: 0.03 }))
     ;[24, 28, 31, 36].forEach((n, i) => note(ac, { f: demiTons(DO5, n), t: 0.7 + i * 0.09, d: 0.4, type: 'sine', vol: 0.02 }))
   },
-  // coffre ou titre : scintillement pentatonique qui monte
-  coffre: (ac) => {
+  // titre obtenu, fil rouge terminé : scintillement pentatonique qui monte
+  titre: (ac) => {
     ;[12, 14, 16, 19, 21, 24, 26, 28].forEach((n, i) => note(ac, { f: demiTons(DO5, n), t: i * 0.05, d: 0.35, type: 'sine', vol: 0.03 }))
   },
 }

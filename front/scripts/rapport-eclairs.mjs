@@ -1,12 +1,12 @@
-// Rapport des questions éclair (V3.1, sprint 26) : pour chaque salle, combien de questions rédigées
-// se lisent dans les cartes de Découvrir (et dans la 1re moitié du paquet, pour la question du milieu)
-// et dans celles d'Approfondir. Règle et rapprochement : src/lib/eclairs.js.
+// Rapport des questions éclair (V3.1, sprints 26 et 28) : pour chaque salle, combien de questions rédigées
+// portent sur les cartes de Découvrir (et sur la 1re moitié du paquet, pour la question du milieu)
+// et sur celles d'Approfondir. Règle : src/lib/eclairs.js (champ `carte` de chaque question).
 //
 // Usage : node scripts/rapport-eclairs.mjs              → front/reports/questions-eclair.md
 //         node scripts/rapport-eclairs.mjs carthage …   → détail question par question (console)
 import { readFileSync, writeFileSync, mkdirSync } from 'fs'
 import { HANDWRITTEN } from '../src/data/revision/index.js'
-import { choisirEclairs, estVue, rattacher } from '../src/lib/eclairs.js'
+import { choisirEclairs, estVue } from '../src/lib/eclairs.js'
 
 const ici = (p) => new URL(p, import.meta.url)
 const lignees = JSON.parse(readFileSync(ici('../content/lineages.json'), 'utf8'))
@@ -28,18 +28,17 @@ const lignes = []
 const totaux = { salles: 0, q: 0, rattachees: 0, t1: 0, t2: 0, dec: [0, 0, 0, 0], milieuSans: 0, milieux: 0, app: [0, 0, 0, 0, 0, 0] }
 for (const [civId, ch] of Object.entries(HANDWRITTEN)) {
   const qs = ch.quiz.map((q) => ({ ...q, id: `hand-${q.id}` }))
-  const liens = rattacher(ch.cards, qs)
   const tier = Object.fromEntries(ch.cards.map((c) => [c.id, c.tier]))
   const t1 = new Set(ch.cards.filter((c) => c.tier === 1).map((c) => c.id))
   const t2 = new Set(ch.cards.filter((c) => c.tier === 2).map((c) => c.id))
-  const rattachees = qs.filter((q) => liens.get(q.id))
-  const vuesT1 = qs.filter((q) => estVue(liens.get(q.id), t1))
-  const vuesT2 = qs.filter((q) => estVue(liens.get(q.id), t2))
+  const rattachees = qs.filter((q) => q.carte != null)
+  const vuesT1 = qs.filter((q) => estVue(q, t1))
+  const vuesT2 = qs.filter((q) => estVue(q, t2))
   const dec = paquet(civId, ch, 1)
   const app = paquet(civId, ch, 2)
   const m = milieuDe(dec)
-  const choixDec = choisirEclairs({ cartes: ch.cards, questions: qs, paquet: dec, nombre: ECLAIRS.decouvrir, milieu: m, graine: civId })
-  const choixApp = choisirEclairs({ cartes: ch.cards, questions: qs, paquet: app, nombre: ECLAIRS.approfondir, milieu: milieuDe(app), graine: civId })
+  const choixDec = choisirEclairs({ questions: qs, paquet: dec, nombre: ECLAIRS.decouvrir, milieu: m, graine: civId })
+  const choixApp = choisirEclairs({ questions: qs, paquet: app, nombre: ECLAIRS.approfondir, milieu: milieuDe(app), graine: civId })
   const nDec = choixDec.fin.length + (choixDec.milieu ? 1 : 0)
   const nApp = choixApp.fin.length + (choixApp.milieu ? 1 : 0)
 
@@ -57,10 +56,10 @@ for (const [civId, ch] of Object.entries(HANDWRITTEN)) {
   lignes.push({ civId, tronc: tronc.has(civId), q: qs.length, rattachees: rattachees.length, t1: vuesT1.length, t2: vuesT2.length, nDec, milieu: m ? (choixDec.milieu ? 'oui' : 'aucune') : '—', nApp })
 
   if (detail.includes(civId)) {
-    console.log(`\n── ${civId} : ${rattachees.length}/${qs.length} questions rattachées ──`)
+    console.log(`\n── ${civId} : ${rattachees.length}/${qs.length} questions reliées ──`)
     for (const q of qs) {
-      const l = liens.get(q.id)
-      const ou = l ? l.map((ids) => ids.map((id) => `${id}(${tier[id]})`).join(' | ')).join(' + ') : '— non rattachée'
+      const l = q.carte == null ? null : [].concat(q.carte)
+      const ou = l ? l.map((id) => `${id}(${tier[id]})`).join(' + ') : '— hors cartes'
       const rep = q.type === 'mcq' ? q.options[q.answer] : q.type === 'tf' ? String(q.answer) : q.items?.join(' → ')
       console.log(`${q.id.padEnd(22)} ${ou}\n   ${q.prompt} → ${rep}`)
     }
@@ -73,18 +72,18 @@ const pc = (a, b) => `${Math.round((100 * a) / b)} %`
 const md = [
   '# Questions éclair : questions qui se lisent dans les cartes de la séance',
   '',
-  `Généré par \`node scripts/rapport-eclairs.mjs\` (sprint 26). Règle : une question éclair ne porte que sur une carte déjà lue dans la séance ; la question du milieu (au-delà de 8 cartes) ne porte que sur la 1re moitié du paquet. Rattachement par rapprochement de texte (\`src/lib/eclairs.js\`), en attendant le champ \`carte\` du sprint 28. S'il manque des questions, la séance en pose moins.`,
+  `Généré par \`npm run eclairs\` (sprints 26 et 28). Règle : une question éclair ne porte que sur une carte déjà lue dans la séance ; la question du milieu (au-delà de 8 cartes) ne porte que sur la 1re moitié du paquet. Chaque question rédigée porte sa carte (champ \`carte\`, \`src/lib/eclairs.js\`). S'il manque des questions, la séance en pose moins.`,
   '',
   '## Résumé',
   '',
-  `- ${totaux.salles} salles, ${totaux.q} questions rédigées ; ${totaux.rattachees} rattachées à une carte (${pc(totaux.rattachees, totaux.q)}) : ${totaux.t1} se lisent dans les cartes de Découvrir, ${totaux.t2} dans celles d'Approfondir.`,
+  `- ${totaux.salles} salles, ${totaux.q} questions rédigées ; ${totaux.rattachees} reliées à une carte (${pc(totaux.rattachees, totaux.q)}) : ${totaux.t1} se lisent dans les cartes de Découvrir, ${totaux.t2} dans celles d'Approfondir.`,
   `- **Découvrir** (3 questions voulues) : ${totaux.dec[3]} salles à 3 questions, ${totaux.dec[2]} à 2, ${totaux.dec[1]} à 1, ${totaux.dec[0]} sans question.`,
   `- Question du milieu (${totaux.milieux} salles à plus de 8 cartes) : ${totaux.milieux - totaux.milieuSans} en ont une, ${totaux.milieuSans} sans (toutes les questions à la fin).`,
   `- **Approfondir** (5 questions voulues) : ${[5, 4, 3, 2, 1, 0].map((k) => `${totaux.app[k]} salles à ${k}`).join(', ')}.`,
   '',
   '## Par salle',
   '',
-  '| Salle | Tronc | Questions | Rattachées | Lisibles en Découvrir | Lisibles en Approfondir | Posées en Découvrir | Question du milieu | Posées en Approfondir |',
+  '| Salle | Tronc | Questions | Reliées | Lisibles en Découvrir | Lisibles en Approfondir | Posées en Découvrir | Question du milieu | Posées en Approfondir |',
   '|---|---|---|---|---|---|---|---|---|',
   ...lignes.map((l) => `| ${l.civId} | ${l.tronc ? 'oui' : ''} | ${l.q} | ${l.rattachees} | ${l.t1} | ${l.t2} | ${l.nDec} / 3 | ${l.milieu} | ${l.nApp} / 5 |`),
   '',

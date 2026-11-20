@@ -947,7 +947,7 @@
     {
       "id": "ordre",
       "type": "order",
-      "prompt": "Remettez dans l’ordre.",
+      "prompt": "Remets dans l’ordre.",
       "items": [
         "Invasion de la Pologne",
         "Bataille d’Angleterre",

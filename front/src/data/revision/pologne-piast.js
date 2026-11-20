@@ -20,7 +20,7 @@ export default {
       kicker: 'Territoire',
       title: 'La Pologne des Piast',
       years: [1000, 1300],
-      caption: 'Comparez : le royaume, entre l’Oder et la Vistule, s’étend puis se divise.',
+      caption: 'Compare : le royaume, entre l’Oder et la Vistule, s’étend puis se divise.',
     },
     {
       id: 'roi',
@@ -38,7 +38,7 @@ export default {
       kicker: 'Pouvoir',
       title: 'Un pays divisé',
       body:
-        "En 1138, le roi Boleslas III partage le pays entre ses fils. Pendant près de deux siècles, la Pologne est divisée entre princes rivaux.",
+        "En 1138, le duc Boleslas III partage le pays entre ses fils. Pendant près de deux siècles, la Pologne est divisée entre princes rivaux.",
     },
     {
       id: 'legnica',
@@ -83,7 +83,7 @@ export default {
       role: 'Roi de Pologne',
       dates: 'règne 1333 – 1370',
       description:
-        "Dernier roi Piast, il unifie les lois, fonde l'université de Cracovie en 1364 et fait bâtir des dizaines de châteaux. On dit qu'il a trouvé une Pologne de bois et l'a laissée de pierre.",
+        "Dernier roi Piast, il unifie les lois, fonde en 1364 l'université de Cracovie, sa capitale, et fait bâtir des dizaines de châteaux. On dit qu'il a trouvé une Pologne de bois et l'a laissée de pierre.",
     },
     {
       id: 'union',
@@ -144,22 +144,22 @@ export default {
   ],
 
   quiz: [
-    { id: 'pays', type: 'mcq', prompt: 'Quel pays est né avec le baptême de Mieszko Ier ?', options: ['La Pologne', 'La Hongrie', 'La Bohême', 'La Russie'], answer: 0 },
-    { id: 'annee', type: 'mcq', prompt: 'En quelle année Mieszko Ier se fait-il baptiser ?', options: ['966', '1385', '1000', '1241'], answer: 0 },
-    { id: 'dynastie', type: 'mcq', prompt: 'Comment s’appelle la première dynastie polonaise ?', options: ['Les Piast', 'Les Habsbourg', 'Les Jagellon', 'Les Capétiens'], answer: 0 },
-    { id: 'roi', type: 'mcq', prompt: 'Qui est le premier roi de Pologne ?', options: ['Boleslas Ier le Vaillant', 'Mieszko Ier', 'Casimir III', 'Jogaila'], answer: 0 },
-    { id: 'otton', type: 'mcq', prompt: 'Quel empereur rend visite à Boleslas Ier à Gniezno en l’an 1000 ?', options: ['Otton III', 'Charlemagne', 'Charles IV', 'Frédéric Barberousse'], answer: 0 },
-    { id: 'division', type: 'tf', prompt: 'De 1138 à 1320, la Pologne est divisée entre plusieurs princes.', answer: true },
-    { id: 'mongols', type: 'mcq', prompt: 'Qui bat les Polonais à Legnica en 1241 ?', options: ['Les Mongols', 'Les Teutoniques', 'Les Hongrois', 'Les Vikings'], answer: 0 },
-    { id: 'teutoniques', type: 'mcq', prompt: 'Quels chevaliers s’installent au nord de la Pologne au XIIIe siècle ?', options: ['Les chevaliers Teutoniques', 'Les Templiers', 'Les Hospitaliers', 'Les samouraïs'], answer: 0 },
-    { id: 'casimir', type: 'mcq', prompt: 'Quel roi a « trouvé une Pologne de bois et l’a laissée de pierre » ?', options: ['Casimir III le Grand', 'Mieszko Ier', 'Boleslas III', 'Louis de Hongrie'], answer: 0 },
-    { id: 'universite', type: 'mcq', prompt: 'Quelle université Casimir III fonde-t-il en 1364 ?', options: ['Celle de Cracovie', 'Celle de Paris', 'Celle de Prague', 'Celle de Bologne'], answer: 0 },
-    { id: 'capitale', type: 'mcq', prompt: 'Quelle ville devient la capitale de la Pologne médiévale ?', options: ['Cracovie', 'Varsovie', 'Gdańsk', 'Vilnius'], answer: 0 },
-    { id: 'hedwige', type: 'mcq', prompt: 'Pourquoi Hedwige est-elle couronnée « roi » ?', options: ['Pour montrer qu’elle règne elle-même', 'Par erreur', 'Parce qu’elle était un homme', 'Pour plaire au pape'], answer: 0 },
-    { id: 'lituanie', type: 'mcq', prompt: 'Avec quel pays la Pologne s’unit-elle en 1385-1386 ?', options: ['La Lituanie', 'La Hongrie', 'La Bohême', 'La Russie'], answer: 0 },
-    { id: 'sel', type: 'mcq', prompt: 'Quelle ressource est exploitée dans les mines de Wieliczka ?', options: ['Le sel', 'L’or', 'Le charbon', 'Le fer'], answer: 0 },
-    { id: 'kalisz', type: 'tf', prompt: 'Le statut de Kalisz (1264) accorde protection et droits aux Juifs.', answer: true },
-    { id: 'ordre', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Baptême de Mieszko Ier', 'Premier roi', 'Division du pays', 'Université de Cracovie'] },
+    { id: 'pays', carte: 'chronologie', type: 'mcq', prompt: 'Quel pays est né avec le baptême de Mieszko Ier ?', options: ['La Pologne', 'La Hongrie', 'La Bohême', 'La Russie'], answer: 0 },
+    { id: 'annee', carte: 'bapteme', type: 'mcq', prompt: 'En quelle année Mieszko Ier se fait-il baptiser ?', options: ['966', '1385', '1000', '1241'], answer: 0 },
+    { id: 'dynastie', carte: 'bapteme', type: 'mcq', prompt: 'Comment s’appelle la première dynastie polonaise ?', options: ['Les Piast', 'Les Habsbourg', 'Les Jagellon', 'Les Capétiens'], answer: 0 },
+    { id: 'roi', carte: 'roi', type: 'mcq', prompt: 'Qui est le premier roi de Pologne ?', options: ['Boleslas Ier le Vaillant', 'Mieszko Ier', 'Casimir III', 'Jogaila'], answer: 0 },
+    { id: 'otton', carte: 'roi', type: 'mcq', prompt: 'Quel empereur rend visite à Boleslas Ier à Gniezno en l’an 1000 ?', options: ['Otton III', 'Charlemagne', 'Charles IV', 'Frédéric Barberousse'], answer: 0 },
+    { id: 'division', carte: 'division', type: 'tf', prompt: 'De 1138 à 1320, la Pologne est divisée entre plusieurs princes.', answer: true },
+    { id: 'mongols', carte: 'legnica', type: 'mcq', prompt: 'Qui bat les Polonais à Legnica en 1241 ?', options: ['Les Mongols', 'Les Teutoniques', 'Les Hongrois', 'Les Vikings'], answer: 0 },
+    { id: 'teutoniques', carte: 'teutoniques', type: 'mcq', prompt: 'Quels chevaliers s’installent au nord de la Pologne au XIIIe siècle ?', options: ['Les chevaliers Teutoniques', 'Les Templiers', 'Les Hospitaliers', 'Les samouraïs'], answer: 0 },
+    { id: 'casimir', carte: 'casimir', type: 'mcq', prompt: 'Quel roi a « trouvé une Pologne de bois et l’a laissée de pierre » ?', options: ['Casimir III le Grand', 'Mieszko Ier', 'Boleslas III', 'Louis de Hongrie'], answer: 0 },
+    { id: 'universite', carte: 'casimir', type: 'mcq', prompt: 'Quelle université Casimir III fonde-t-il en 1364 ?', options: ['Celle de Cracovie', 'Celle de Paris', 'Celle de Prague', 'Celle de Bologne'], answer: 0 },
+    { id: 'capitale', carte: 'casimir', type: 'mcq', prompt: 'Quelle ville devient la capitale de la Pologne médiévale ?', options: ['Cracovie', 'Varsovie', 'Gdańsk', 'Vilnius'], answer: 0 },
+    { id: 'hedwige', carte: 'hedwige', type: 'mcq', prompt: 'Pourquoi Hedwige est-elle couronnée « roi » ?', options: ['Pour montrer qu’elle règne elle-même', 'Par erreur', 'Parce qu’elle était un homme', 'Pour plaire au pape'], answer: 0 },
+    { id: 'lituanie', carte: 'union', type: 'mcq', prompt: 'Avec quel pays la Pologne s’unit-elle en 1385-1386 ?', options: ['La Lituanie', 'La Hongrie', 'La Bohême', 'La Russie'], answer: 0 },
+    { id: 'sel', carte: 'sel', type: 'mcq', prompt: 'Quelle ressource est exploitée dans les mines de Wieliczka ?', options: ['Le sel', 'L’or', 'Le charbon', 'Le fer'], answer: 0 },
+    { id: 'kalisz', carte: 'kalisz', type: 'tf', prompt: 'Le statut de Kalisz (1264) accorde protection et droits aux Juifs.', answer: true },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Baptême de Mieszko Ier', 'Premier roi', 'Division du pays', 'Université de Cracovie'] },
   ],
 
   recap: [

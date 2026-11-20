@@ -93,7 +93,7 @@ function CoverCard({ card, civ, epoch, round, deck }) {
           <span className="inline-flex items-center gap-1.5"><Icon name="clock" size={16} /> ~{card.readingTime} min</span>
         </p>
         <p className="text-xs opacity-95 leading-relaxed">
-          Glissez à droite ce que vous avez compris, à gauche ce qu'il faut revoir : ces cartes reviendront à la fin.
+          Glisse à droite ce que tu as compris, à gauche ce qu'il faut revoir : ces cartes reviendront à la fin.
         </p>
       </div>
     </div>
@@ -106,8 +106,8 @@ function TextCard({ card, civ }) {
       <Title>{card.title}</Title>
       <p className="mt-4 text-[16px] leading-relaxed text-ink/85">{card.body}</p>
       {card.highlight && (
-        <div className="mt-6 p-4 rounded-2xl border border-line bg-surface2/60 flex items-baseline gap-3">
-          <span className="font-display text-3xl font-semibold tabular-nums shrink-0 civ-text" style={civTextStyle(civ.color)}>
+        <div className="mt-6 p-4 rounded-2xl border border-line bg-surface2/60 flex flex-wrap items-baseline gap-x-3 gap-y-1">
+          <span className="font-display text-3xl font-semibold tabular-nums min-w-0 civ-text" style={civTextStyle(civ.color)}>
             {card.highlight.value}
           </span>
           <span className="text-sm text-muted">{card.highlight.label}</span>
@@ -288,7 +288,7 @@ function LineageCard({ civ }) {
               <span className={`w-2 h-2 rounded-full shrink-0 ${current ? 'bg-white' : ''}`} style={current ? undefined : { background: civ.color }} />
               <span className="min-w-0">
                 <span className={`block text-[11px] font-semibold uppercase tracking-wider ${current ? 'opacity-85' : 'text-muted'}`}>{m.epochLabel}</span>
-                <span className={`block text-[15px] font-medium ${current ? '' : 'text-ink'}`}>{m.label}{current ? ' · vous êtes ici' : ''}</span>
+                <span className={`block text-[15px] font-medium ${current ? '' : 'text-ink'}`}>{m.label}{current ? ' · tu es ici' : ''}</span>
               </span>
             </li>
           )
@@ -312,7 +312,7 @@ function RecapCard({ card, civ }) {
           </li>
         ))}
       </ul>
-      <p className="mt-6 text-sm text-muted">Terminez le chapitre pour enregistrer votre progression.</p>
+      <p className="mt-6 text-sm text-muted">Termine le chapitre pour enregistrer ta progression.</p>
     </Frame>
   )
 }

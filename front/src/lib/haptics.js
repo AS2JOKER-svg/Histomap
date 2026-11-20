@@ -5,7 +5,7 @@
  * Firefox, Samsung Internet). Safari iOS n'expose PAS cette API : les appels
  * sont alors silencieusement ignorés — prévoir toujours un retour visuel.
  * Chrome sur Android ne vibre pas quand le téléphone est en mode silencieux
- * (impossible à contourner pour un site ou une TWA : c'est expliqué dans le Profil).
+ * (impossible à contourner pour un site ou une TWA : c'est expliqué dans les Réglages).
  *
  * Sprint 26 : motifs allongés (chaque impulsion ≥ 30 ms, les plus courtes se sentaient mal)
  * et interrupteur dédié « Vibrations » (clé histomap_vibrations), indépendant de « réduire
@@ -19,7 +19,7 @@ import { jouerSon } from './sons'
 import { load, save } from './storage'
 
 // Chaque moment qui vibre a aussi son son (lib/sons.js) ; « tap » (navigation) reste silencieux.
-const SON = { select: 'carte', success: 'juste', error: 'faux', complete: 'fin', recompense: 'medaille', niveau: 'niveau', coffre: 'coffre' }
+const SON = { select: 'carte', success: 'juste', error: 'faux', complete: 'fin', recompense: 'etoiles', niveau: 'niveau', titre: 'titre' }
 
 // [vibration, pause, vibration, …] en millisecondes ; chaque vibration dure au moins 30 ms
 export const PATTERNS = {
@@ -28,9 +28,9 @@ export const PATTERNS = {
   success: [45, 70, 60],
   error: [80, 70, 80],
   complete: [50, 80, 50, 80, 120],
-  recompense: [60, 80, 60, 80, 180], // médaille, étoiles
-  niveau: [70, 90, 70, 90, 70, 90, 240], // passage de niveau
-  coffre: [40, 50, 40, 50, 40, 50, 140], // ouverture d'un coffre ou d'un titre
+  recompense: [60, 80, 60, 80, 180], // épreuve réussie (étoiles), défi gagné, première récompense
+  niveau: [70, 90, 70, 90, 70, 90, 240], // nouveau rang
+  titre: [40, 50, 40, 50, 40, 50, 140], // titre obtenu, fil rouge terminé
 }
 
 const CLE = 'histomap_vibrations'
@@ -63,7 +63,7 @@ export function haptic(kind = 'tap') {
 }
 
 /**
- * Bouton « Tester » du Profil : vibre (motif d'une bonne réponse puis d'une médaille), même si
+ * Bouton « Tester » des Réglages : vibre (motif d'une bonne réponse puis des étoiles), même si
  * l'interrupteur est coupé. Renvoie false si l'appareil ou le navigateur ne sait pas vibrer.
  * Attention : true ne garantit pas qu'on ait senti quelque chose (mode silencieux d'Android).
  */

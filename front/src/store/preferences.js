@@ -33,7 +33,7 @@ function readTheme() {
   }
 }
 
-export const usePreferences = create((set, get) => ({
+export const usePreferences = create((set) => ({
   theme: readTheme(),
   /** Thème réellement affiché : 'light' | 'dark' */
   resolved: resolve(readTheme()),
@@ -47,9 +47,6 @@ export const usePreferences = create((set, get) => ({
     apply(theme)
     set({ theme })
   },
-
-  /** Bascule vers le thème opposé à celui affiché (le choix est ensuite mémorisé). */
-  toggleTheme: () => get().setTheme(get().resolved === 'dark' ? 'light' : 'dark'),
 }))
 
 // Suit le thème du système quand l'utilisateur est en mode « système »

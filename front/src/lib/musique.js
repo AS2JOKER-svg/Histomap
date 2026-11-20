@@ -6,8 +6,8 @@
  * du vent ou des vagues. La mélodie est composée une fois pour toutes (hasard reproductible) et
  * tourne en boucle d'environ 48 secondes. Aucun fichier : léger, hors ligne, sans droits à payer.
  *
- * Coupée par défaut (on joue souvent en classe ou dans les transports) ; activable dans l'en-tête
- * ou le Profil. Fondu enchaîné au changement d'ambiance ; pause quand l'app passe en arrière-plan.
+ * Coupée par défaut (on joue souvent en classe ou dans les transports) ; activable dans Profil ›
+ * Réglages (sprint 32 ; dans l'en-tête avant). Fondu enchaîné au changement d'ambiance ; pause quand l'app passe en arrière-plan.
  *
  *   ambianceDe(ref)        ambiance d'une civilisation (findCivilization → { epoch, civ })
  *   definirAmbiance(id)    appelé par les pages (hook useAmbiance)

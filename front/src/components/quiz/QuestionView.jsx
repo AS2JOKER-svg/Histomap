@@ -17,11 +17,12 @@ const TYPE_LABEL = { mcq: 'QCM', tf: 'Vrai ou faux', order: 'Remettre dans l’o
  *   onAnswer(response, correct) : enregistre la réponse (une seule fois)
  *   onNext()                    : question suivante (ou résultat)
  *   answered                    : réponse déjà donnée (reprise d'un quiz)
+ *   source                      : titre(s) de la carte où se lit la réponse (Aventure, V3.1), affiché à la correction
  * Verrou anti double toucher (sprint 26) : une seule réponse et un seul « suivant » par question, et
  * aucune réponse dans les 300 premières ms (le 2e toucher d'un double toucher sur « Question suivante »
  * ne répond pas à la question qui arrive).
  */
-export default function QuestionView({ question: q, index, total, civ, answered, onAnswer, onNext, isLast }) {
+export default function QuestionView({ question: q, index, total, civ, answered, onAnswer, onNext, isLast, source }) {
   const [response, setResponse] = useState(answered?.response ?? null)
   const [order, setOrder] = useState([]) // sélection en cours (type « order »)
   const done = response !== null
@@ -65,7 +66,8 @@ export default function QuestionView({ question: q, index, total, civ, answered,
       transition={{ duration: done && !correct ? 0.45 : 0.3 }}
       className="w-full max-w-[560px] mx-auto flex flex-col min-h-0 flex-1"
     >
-      <div className="flex-1 min-h-0 overflow-y-auto overscroll-contain pb-4">
+      {/* zone qui défile : atteignable au clavier même quand les réponses sont désactivées (WCAG, axe scrollable-region-focusable) */}
+      <div className="flex-1 min-h-0 overflow-y-auto overscroll-contain pb-4" tabIndex={0} role="group" aria-label={`Question ${index + 1}`}>
         <p className="eyebrow mb-2 civ-text" style={civTextStyle(civ.color)}>
           Question {index + 1}{total ? ` / ${total}` : ''} · {TYPE_LABEL[q.type]}
         </p>
@@ -132,6 +134,11 @@ export default function QuestionView({ question: q, index, total, civ, answered,
             {!correct && q.type === 'order' && <p className="text-sm text-ink mt-2"><strong>Bon ordre :</strong> {q.items.join(' → ')}</p>}
             {!correct && q.type === 'tf' && <p className="text-sm text-ink mt-2">C'était <strong>{q.answer ? 'vrai' : 'faux'}</strong>.</p>}
             {q.explanation && <p className="text-sm text-ink/80 mt-2 leading-relaxed">{q.explanation}</p>}
+            {source && (
+              <p className="text-[13px] text-muted mt-2 flex items-start gap-1.5">
+                <Icon name="cards" size={15} className="shrink-0 mt-px" /> <span>Se lit sur la carte : {source}</span>
+              </p>
+            )}
             <button onClick={suivant} className="btn-primary w-full h-12 mt-3" autoFocus>
               {isLast ? 'Voir mon résultat' : 'Question suivante'} <Icon name="arrowRight" size={18} />
             </button>
@@ -178,7 +185,7 @@ function OrderQuestion({ q, order, setOrder, done, onSubmit }) {
   }
   return (
     <div>
-      <p className="text-sm text-muted mb-3">Touchez les éléments du plus ancien au plus récent. Touchez à nouveau pour retirer.</p>
+      <p className="text-sm text-muted mb-3">Touche les éléments du plus ancien au plus récent. Touche à nouveau pour retirer.</p>
       <ul className="grid gap-2.5">
         {q.shuffled.map((item) => {
           const rank = order.indexOf(item)

@@ -63,7 +63,7 @@ export default function WarsPage() {
 
   return (
     <section className="max-w-3xl mx-auto">
-      <PageHeader eyebrow={`${WARS.length} guerres et batailles`} title="Guerres" description="Les grands conflits de chaque époque, camp contre camp. Touchez une guerre pour son aperçu." />
+      <PageHeader eyebrow={`${WARS.length} guerres et batailles`} title="Guerres" description="Les grands conflits de chaque époque, camp contre camp. Touche une guerre pour son aperçu." />
 
       {!filter && <Dossiers />}
 

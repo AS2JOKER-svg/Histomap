@@ -78,7 +78,7 @@ export default function ExpressQuiz({ fiche, color }) {
       ) : (
         <div className="flex flex-wrap items-center gap-4">
           <p className="flex-1 min-w-[12rem] text-[15px] text-ink/85 leading-relaxed">
-            {total} questions pour vérifier ce que vous avez retenu de cette fiche.
+            {total} questions pour vérifier ce que tu as retenu de cette fiche.
             {record && (
               <span className="block text-sm text-muted mt-1">
                 Meilleur score : <strong className={record.best === record.total ? 'text-success' : 'text-ink'}>{record.best} / {record.total}</strong>
@@ -97,14 +97,14 @@ export default function ExpressQuiz({ fiche, color }) {
 
 function ExpressResult({ result, best, onRetry }) {
   const perfect = result.correct === result.total
-  const title = perfect ? 'Sans faute !' : result.correct === 0 ? 'Relisez la fiche et retentez' : result.correct === result.total - 1 ? 'Presque !' : 'Encore un effort'
+  const title = perfect ? 'Sans faute !' : result.correct === 0 ? 'Relis la fiche et retente' : result.correct === result.total - 1 ? 'Presque !' : 'Encore un effort'
   return (
     <motion.div initial={{ opacity: 0, scale: 0.97 }} animate={{ opacity: 1, scale: 1 }} className="text-center" role="status">
       <p className={`font-display text-4xl font-bold tabular-nums ${perfect ? 'text-success' : 'text-ink'}`}>
         {result.correct} <span className="text-xl text-muted font-semibold">/ {result.total}</span>
       </p>
       <p className="font-semibold text-ink mt-1">{title}</p>
-      {!perfect && best != null && best > result.correct && <p className="text-sm text-muted mt-0.5">Votre meilleur score reste {best} / {result.total}.</p>}
+      {!perfect && best != null && best > result.correct && <p className="text-sm text-muted mt-0.5">Ton meilleur score reste {best} / {result.total}.</p>}
       <button type="button" onClick={onRetry} className="btn-secondary h-11 px-5 mt-4">
         <Icon name="refresh" size={17} /> Rejouer
       </button>

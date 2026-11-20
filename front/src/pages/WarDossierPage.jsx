@@ -30,7 +30,7 @@ export default function WarDossierPage() {
     return (
       <div className="card p-6 text-center max-w-md mx-auto mt-10">
         <p className="font-semibold text-ink">Dossier indisponible</p>
-        <p className="text-sm text-muted mt-1">Il n'a pas pu être chargé. Vérifiez votre connexion, puis réessayez.</p>
+        <p className="text-sm text-muted mt-1">Il n'a pas pu être chargé. Vérifie ta connexion, puis réessaie.</p>
         <button onClick={retry} className="btn-primary h-11 px-4 mt-4">
           <Icon name="refresh" size={18} /> Réessayer
         </button>

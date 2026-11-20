@@ -24,7 +24,7 @@ export default function EntrainementPage() {
   const navigate = useNavigate()
   const salles = useProgress((s) => s.aventure.salles)
   const [eligibles] = useState(() => {
-    const d = P.ordre.filter((id) => (salles[id]?.medaille ?? 0) >= 1)
+    const d = P.ordre.filter((id) => salles[id]?.decouverte)
     return d.length ? d : P.mondes[0].tronc
   })
   const [file, setFile] = useState([]) // [{ q, civId }]
@@ -44,7 +44,8 @@ export default function EntrainementPage() {
         const civId = eligibles[Math.floor(Math.random() * eligibles.length)]
         const ref = findCivilization(civId)
         const [civ, hand] = await Promise.all([loadCiv(civId), loadChapter(civId)])
-        const neuves = questionPool({ ...ref, civ, hand }).filter((q) => q.type !== 'map' && !vues.current.has(`${civId}:${q.id}`))
+        // questions sur les cartes de la salle (Découvrir + Approfondir), décision 8 de la V3.1
+        const neuves = questionPool({ ...ref, civ, hand }).filter((q) => !vues.current.has(`${civId}:${q.id}`))
         const lot = shuffle(neuves, Math.random).slice(0, PAR_LOT)
         if (!lot.length) continue
         lot.forEach((q) => vues.current.add(`${civId}:${q.id}`))

@@ -13,8 +13,7 @@ import Icon from '../components/ui/Icon'
 import ChapterGate from '../components/revision/ChapterGate'
 import ChoixCivilisation from '../components/defi/ChoixCivilisation'
 import Serie from '../components/defi/Serie'
-import { Particules } from '../components/celebration/elements'
-import { useEffet } from '../components/celebration/Celebrations'
+import { EFFET, Particules } from '../components/celebration/elements'
 import { ENCRE, OR, Score, usePleinEcran } from './DefiPage'
 
 /**
@@ -74,7 +73,6 @@ export default function DeuxJoueursPage() {
 function Partie({ refCiv, partie, onRevanche, onChanger, onQuitter }) {
   usePleinEcran()
   const { civ } = refCiv
-  const effet = useEffet()
   const questions = useMemo(() => questionsDefi(questionPool(refCiv), partie.graine), [refCiv, partie.graine])
   const [phase, setPhase] = useState('j1') // j1 → passe → j2 → resultat
   const [scores, setScores] = useState([0, 0])
@@ -104,7 +102,7 @@ function Partie({ refCiv, partie, onRevanche, onChanger, onQuitter }) {
   const gagnant = scores[0] === scores[1] ? null : scores[0] > scores[1] ? 0 : 1
   return (
     <div className="fixed inset-0 z-50 overflow-y-auto" style={ENCRE} role="dialog" aria-label="Défi à deux">
-      {phase === 'resultat' && gagnant !== null && <Particules effet={effet} />}
+      {phase === 'resultat' && gagnant !== null && <Particules effet={EFFET} />}
       <div className="relative w-full max-w-md mx-auto px-5 pt-[max(2.5rem,env(safe-area-inset-top))] pb-[max(1.5rem,env(safe-area-inset-bottom))] min-h-full flex flex-col text-center">
         <p className="text-xs font-bold uppercase tracking-[.22em]" style={{ color: OR }}>Défi à deux · {civ.label}</p>
         {phase === 'passe' ? (

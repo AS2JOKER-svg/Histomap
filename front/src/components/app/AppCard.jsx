@@ -1,16 +1,18 @@
 import { useEffect, useState } from 'react'
 import { useApp } from '../../store/app'
 import { isIOS, cacheAllMaps, countCachedMaps } from '../../lib/pwa'
-import MAP_YEARS from '../../data/map-years.json' // (pas lib/map : évite de charger d3 sur l'accueil)
+import MAP_YEARS from '../../data/map-years.json' // (pas lib/map : évite de charger d3 ici)
 import { haptic } from '../../lib/haptics'
 import { useUI } from '../../store/ui'
 import Icon from '../ui/Icon'
+import { TitreSection } from '../profil/SousPage'
 
 const offlineSupported = import.meta.env.PROD && typeof window !== 'undefined' && 'serviceWorker' in navigator && 'caches' in window
 
 /**
- * « Emportez HistoMap » (accueil) : installer l'application sur l'écran d'accueil
- * et télécharger les fonds de carte pour réviser sans réseau.
+ * Section « Application » des Réglages (sprint 32 ; carte « Emportez HistoMap » du Profil avant) :
+ * installer l'application sur l'écran d'accueil, télécharger les fonds de carte pour le hors-ligne.
+ * Rien n'est affiché quand il n'y a rien à proposer (développement, navigateur sans installation).
  */
 export default function AppCard() {
   const installEvent = useApp((s) => s.installEvent)
@@ -34,7 +36,7 @@ export default function AppCard() {
   const install = async () => {
     if (await promptInstall()) {
       haptic('success')
-      showToast({ text: 'HistoMap est installé sur votre appareil', tone: 'success' })
+      showToast({ text: 'HistoMap est installé sur ton appareil', tone: 'success' })
     }
   }
 
@@ -46,7 +48,7 @@ export default function AppCard() {
       haptic('success')
       showToast({ text: 'Toutes les cartes sont disponibles hors ligne', tone: 'success' })
     } catch {
-      showToast({ text: 'Téléchargement interrompu : vérifiez votre connexion', icon: 'wifiOff' })
+      showToast({ text: 'Téléchargement interrompu : vérifie ta connexion', icon: 'wifiOff' })
       countCachedMaps(MAP_YEARS).then(setCached).catch(() => {})
     } finally {
       setProgress(null)
@@ -54,62 +56,54 @@ export default function AppCard() {
   }
 
   return (
-    <section aria-labelledby="app-title" className="card p-6 sm:p-8">
-      <div className="flex items-start gap-4">
-        <img src={`${import.meta.env.BASE_URL}icons/icon-192.png`} alt="" width="56" height="56" className="w-14 h-14 rounded-2xl shadow-soft shrink-0" />
-        <div className="min-w-0">
-          <p className="eyebrow mb-1">Application</p>
-          <h2 id="app-title" className="font-display text-2xl font-semibold text-ink">Emportez HistoMap</h2>
-          <p className="mt-1.5 text-muted leading-relaxed">
-            {standalone
-              ? 'HistoMap est installé : il s’ouvre comme une application et fonctionne même sans réseau.'
-              : 'Ajoutez HistoMap à votre écran d’accueil pour l’ouvrir en un geste et réviser même sans réseau.'}
-          </p>
-        </div>
-      </div>
-
-      <div className="mt-6 grid gap-3 sm:grid-cols-2">
+    <section aria-labelledby="reg-app" className="mt-6">
+      <TitreSection id="reg-app" className="mb-0.5">Application</TitreSection>
+      <div className="border-t border-line">
         {installEvent && !standalone && (
-          <button onClick={install} className="btn-primary h-12 justify-center">
-            <Icon name="download" size={18} /> Installer l'application
-          </button>
+          <div className="min-h-[60px] py-2 flex items-center gap-3 border-b border-line">
+            <span className="flex-1 min-w-0">
+              <span className="block font-semibold text-ink">Installer l’application</span>
+              <span className="block text-xs text-muted">Sur l’écran d’accueil : elle s’ouvre en un geste, même sans réseau.</span>
+            </span>
+            <button onClick={install} className="btn-accent h-11 px-4 shrink-0">
+              <Icon name="download" size={18} /> Installer
+            </button>
+          </div>
         )}
         {ios && (
-          <p className="rounded-2xl bg-surface2 p-4 text-sm text-ink leading-relaxed sm:col-span-2">
-            Sur iPhone ou iPad : touchez <Icon name="share" size={16} className="inline -mt-1 mx-0.5" aria-label="Partager" />{' '}
-            <strong>Partager</strong>, puis <strong>« Sur l'écran d'accueil »</strong>.
+          <p className="py-3 border-b border-line text-sm text-ink leading-relaxed">
+            <span className="block font-semibold">Installer sur iPhone ou iPad</span>
+            Touche <Icon name="share" size={16} className="inline -mt-1 mx-0.5" aria-label="Partager" /> <strong>Partager</strong>, puis <strong>« Sur l’écran d’accueil »</strong>.
           </p>
         )}
         {standalone && (
-          <p className="flex items-center gap-2 text-sm text-success font-medium">
+          <p className="min-h-[52px] flex items-center gap-2 border-b border-line text-sm font-semibold text-success">
             <Icon name="check" size={18} /> Application installée
           </p>
         )}
-
         {offlineSupported && (
-          <div className="rounded-2xl border border-line p-4 flex flex-wrap items-center gap-3 sm:col-span-2">
-            <Icon name="globe" size={20} className="text-accent shrink-0" />
-            <div className="flex-1 min-w-[12rem]">
-              <p className="text-sm font-medium text-ink">Carte du monde hors ligne</p>
-              <p className="text-xs text-muted">
+          <div className="min-h-[60px] py-2 flex items-center gap-3 border-b border-line">
+            <span className="flex-1 min-w-0">
+              <span className="block font-semibold text-ink">Carte du monde hors ligne</span>
+              <span className="block text-xs text-muted">
                 {progress !== null
                   ? `Téléchargement… ${Math.round(progress * 100)} %`
                   : cached === total
-                    ? `Les ${total} cartes sont sur votre appareil.`
-                    : `${cached ?? 0} carte${cached > 1 ? 's' : ''} sur ${total} disponible${cached > 1 ? 's' : ''} sans réseau (≈ 3,5 Mo en tout).`}
-              </p>
+                    ? `Les ${total} cartes sont sur cet appareil.`
+                    : `${cached ?? 0} carte${cached > 1 ? 's' : ''} sur ${total} sans réseau (≈ 3,5 Mo en tout).`}
+              </span>
               {progress !== null && (
-                <div className="mt-2 h-1.5 rounded-full bg-surface2 overflow-hidden" role="progressbar" aria-label="Téléchargement des cartes" aria-valuenow={Math.round(progress * 100)} aria-valuemin={0} aria-valuemax={100}>
-                  <div className="h-full bg-accent transition-[width]" style={{ width: `${progress * 100}%` }} />
-                </div>
+                <span className="block mt-1.5 h-1.5 rounded-full bg-surface2 overflow-hidden" role="progressbar" aria-label="Téléchargement des cartes" aria-valuenow={Math.round(progress * 100)} aria-valuemin={0} aria-valuemax={100}>
+                  <span className="block h-full bg-accent transition-[width]" style={{ width: `${progress * 100}%` }} />
+                </span>
               )}
-            </div>
+            </span>
             {cached !== total && (
-              <button onClick={download} disabled={progress !== null || !online} className="btn-secondary h-10 px-4 text-sm disabled:opacity-50">
+              <button onClick={download} disabled={progress !== null || !online} className="btn-secondary h-11 px-4 shrink-0">
                 <Icon name="download" size={16} /> {progress !== null ? 'En cours' : 'Télécharger'}
               </button>
             )}
-            {cached === total && <Icon name="check" size={20} className="text-success" aria-label="Terminé" />}
+            {cached === total && <Icon name="check" size={20} className="text-success shrink-0" aria-label="Terminé" />}
           </div>
         )}
       </div>

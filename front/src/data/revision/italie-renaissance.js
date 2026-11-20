@@ -10,7 +10,7 @@ export default {
       kicker: 'Origines',
       title: 'Une Italie divisée',
       body:
-        "Au XVe siècle, l'Italie n'est pas un pays uni : Florence, Milan, Venise, les États du pape et le royaume de Naples sont des États rivaux. Leurs riches marchands et banquiers financent les artistes.",
+        "Au XVe siècle, l'Italie n'est pas un pays uni : Florence des Médicis, Milan des Sforza, Venise, les États du pape et le royaume de Naples sont des États rivaux. Leurs riches marchands et banquiers financent les artistes.",
       highlight: { value: '5', label: 'grands États rivaux' },
     },
     {
@@ -85,7 +85,7 @@ export default {
       allies: ['États italiens, changeant de camp'],
       vainqueur: 'Habsbourg (Espagne)',
       consequences:
-        "Pendant soixante-cinq ans, la France et les Habsbourg se disputent l'Italie. En 1559, la paix du Cateau-Cambrésis laisse l'Espagne dominer une grande partie de la péninsule.",
+        "En 1494, le roi de France Charles VIII envahit l'Italie pour conquérir le royaume de Naples, qu'il revendique. Pendant soixante-cinq ans, la France et les Habsbourg se disputent ensuite l'Italie. En 1559, la paix du Cateau-Cambrésis laisse l'Espagne dominer une grande partie de la péninsule.",
     },
     {
       id: 'michelange',
@@ -148,22 +148,22 @@ export default {
   ],
 
   quiz: [
-    { id: 'divisee', type: 'tf', prompt: 'Au XVe siècle, l’Italie est un royaume uni sous un seul roi.', answer: false, explanation: 'Elle est divisée en États rivaux : Florence, Milan, Venise, les États du pape, Naples…' },
-    { id: 'medicis', type: 'mcq', prompt: 'Quelle famille domine Florence au XVe siècle ?', options: ['Les Médicis', 'Les Sforza', 'Les Habsbourg', 'Les Borgia'], answer: 0 },
-    { id: 'sforza', type: 'mcq', prompt: 'Quelle ville les Sforza gouvernent-ils ?', options: ['Milan', 'Florence', 'Venise', 'Naples'], answer: 0 },
-    { id: 'mot', type: 'mcq', prompt: 'Que veut « faire renaître » la Renaissance ?', options: ['Les arts et les savoirs de l’Antiquité', 'L’Empire de Charlemagne', 'Les croisades', 'La chevalerie'], answer: 0 },
-    { id: 'perspective', type: 'mcq', prompt: 'Quelle technique donne l’illusion de la profondeur dans un tableau ?', options: ['La perspective', 'La mosaïque', 'L’enluminure', 'Le vitrail'], answer: 0 },
-    { id: 'brunelleschi', type: 'mcq', prompt: 'Qui construit la coupole de la cathédrale de Florence ?', options: ['Brunelleschi', 'Michel-Ange', 'Raphaël', 'Botticelli'], answer: 0 },
-    { id: 'laurent', type: 'mcq', prompt: 'Quel est le surnom de Laurent de Médicis ?', options: ['Le Magnifique', 'Le Téméraire', 'Le Grand', 'Le Pieux'], answer: 0 },
-    { id: 'joconde', type: 'mcq', prompt: 'Qui a peint La Joconde ?', options: ['Léonard de Vinci', 'Michel-Ange', 'Raphaël', 'Titien'], answer: 0 },
-    { id: 'france', type: 'mcq', prompt: 'Dans quel pays Léonard de Vinci finit-il sa vie ?', options: ['La France', 'L’Espagne', 'L’Angleterre', 'L’Autriche'], answer: 0 },
-    { id: 'david', type: 'mcq', prompt: 'Quel artiste sculpte le David installé à Florence en 1504 ?', options: ['Michel-Ange', 'Donatello', 'Léonard de Vinci', 'Brunelleschi'], answer: 0 },
-    { id: 'sixtine', type: 'mcq', prompt: 'Qui peint le plafond de la chapelle Sixtine ?', options: ['Michel-Ange', 'Raphaël', 'Botticelli', 'Léonard de Vinci'], answer: 0 },
-    { id: 'prince', type: 'mcq', prompt: 'Qui écrit Le Prince ?', options: ['Machiavel', 'Dante', 'Pétrarque', 'Érasme'], answer: 0 },
-    { id: 'invasion', type: 'mcq', prompt: 'Quel roi de France envahit l’Italie en 1494 ?', options: ['Charles VIII', 'François Ier', 'Louis XI', 'Henri II'], answer: 0 },
-    { id: 'sac', type: 'mcq', prompt: 'Les troupes de quel empereur pillent Rome en 1527 ?', options: ['Charles Quint', 'Napoléon', 'Frédéric Barberousse', 'Soliman le Magnifique'], answer: 0 },
-    { id: 'domine', type: 'mcq', prompt: 'Quelle puissance domine l’Italie après 1559 ?', options: ['L’Espagne', 'La France', 'L’Angleterre', 'L’Empire ottoman'], answer: 0 },
-    { id: 'ordre', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Coupole de Florence', 'Début des guerres d’Italie', 'Sac de Rome', 'Paix du Cateau-Cambrésis'] },
+    { id: 'divisee', carte: 'etats', type: 'tf', prompt: 'Au XVe siècle, l’Italie est un royaume uni sous un seul roi.', answer: false, explanation: 'Elle est divisée en États rivaux : Florence, Milan, Venise, les États du pape, Naples…' },
+    { id: 'medicis', carte: 'etats', type: 'mcq', prompt: 'Quelle famille domine Florence au XVe siècle ?', options: ['Les Médicis', 'Les Sforza', 'Les Habsbourg', 'Les Borgia'], answer: 0 },
+    { id: 'sforza', carte: 'etats', type: 'mcq', prompt: 'Quelle ville les Sforza gouvernent-ils ?', options: ['Milan', 'Florence', 'Venise', 'Naples'], answer: 0 },
+    { id: 'mot', carte: 'renaissance', type: 'mcq', prompt: 'Que veut « faire renaître » la Renaissance ?', options: ['Les arts et les savoirs de l’Antiquité', 'L’Empire de Charlemagne', 'Les croisades', 'La chevalerie'], answer: 0 },
+    { id: 'perspective', carte: 'renaissance', type: 'mcq', prompt: 'Quelle technique donne l’illusion de la profondeur dans un tableau ?', options: ['La perspective', 'La mosaïque', 'L’enluminure', 'Le vitrail'], answer: 0 },
+    { id: 'brunelleschi', carte: 'coupole', type: 'mcq', prompt: 'Qui construit la coupole de la cathédrale de Florence ?', options: ['Brunelleschi', 'Michel-Ange', 'Raphaël', 'Botticelli'], answer: 0 },
+    { id: 'laurent', carte: 'laurent', type: 'mcq', prompt: 'Quel est le surnom de Laurent de Médicis ?', options: ['Le Magnifique', 'Le Téméraire', 'Le Grand', 'Le Pieux'], answer: 0 },
+    { id: 'joconde', carte: 'leonard', type: 'mcq', prompt: 'Qui a peint La Joconde ?', options: ['Léonard de Vinci', 'Michel-Ange', 'Raphaël', 'Titien'], answer: 0 },
+    { id: 'france', carte: 'leonard', type: 'mcq', prompt: 'Dans quel pays Léonard de Vinci finit-il sa vie ?', options: ['La France', 'L’Espagne', 'L’Angleterre', 'L’Autriche'], answer: 0 },
+    { id: 'david', carte: 'michelange', type: 'mcq', prompt: 'Quel artiste sculpte le David installé à Florence en 1504 ?', options: ['Michel-Ange', 'Donatello', 'Léonard de Vinci', 'Brunelleschi'], answer: 0 },
+    { id: 'sixtine', carte: 'michelange', type: 'mcq', prompt: 'Qui peint le plafond de la chapelle Sixtine ?', options: ['Michel-Ange', 'Raphaël', 'Botticelli', 'Léonard de Vinci'], answer: 0 },
+    { id: 'prince', carte: 'machiavel', type: 'mcq', prompt: 'Qui écrit Le Prince ?', options: ['Machiavel', 'Dante', 'Pétrarque', 'Érasme'], answer: 0 },
+    { id: 'invasion', carte: 'guerres', type: 'mcq', prompt: 'Quel roi de France envahit l’Italie en 1494 ?', options: ['Charles VIII', 'François Ier', 'Louis XI', 'Henri II'], answer: 0 },
+    { id: 'sac', carte: 'sac', type: 'mcq', prompt: 'Les troupes de quel empereur pillent Rome en 1527 ?', options: ['Charles Quint', 'Napoléon', 'Frédéric Barberousse', 'Soliman le Magnifique'], answer: 0 },
+    { id: 'domine', carte: 'guerres', type: 'mcq', prompt: 'Quelle puissance domine l’Italie après 1559 ?', options: ['L’Espagne', 'La France', 'L’Angleterre', 'L’Empire ottoman'], answer: 0 },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Coupole de Florence', 'Début des guerres d’Italie', 'Sac de Rome', 'Paix du Cateau-Cambrésis'] },
   ],
 
   recap: [

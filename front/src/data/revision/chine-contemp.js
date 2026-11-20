@@ -22,7 +22,7 @@ export default {
       adversaires: ['Royaume-Uni', 'France (seconde guerre, 1856-1860)'],
       vainqueur: 'Le Royaume-Uni et la France',
       consequences:
-        "La Chine voulait interdire l'opium, une drogue vendue par les marchands britanniques. Vaincue, elle cède Hong Kong au Royaume-Uni (traité de Nankin, 1842) et doit ouvrir ses ports. En 1860, Français et Britanniques pillent et incendient le Palais d'été de Pékin.",
+        "La Chine voulait interdire l'opium, une drogue vendue par les marchands britanniques. Vaincue, elle cède Hong Kong au Royaume-Uni (traité de Nankin, 1842) et doit ouvrir ses ports : c'est le premier des « traités inégaux » imposés à la Chine. En 1860, Français et Britanniques pillent et incendient le Palais d'été de Pékin.",
     },
     {
       id: 'carte',
@@ -32,7 +32,7 @@ export default {
       title: 'Un immense territoire',
       years: [1800, 1914, 1960],
       caption:
-        "Comparez : la Mongolie extérieure se détache de la Chine au début du XXe siècle ; la République populaire prend le contrôle du Tibet en 1950.",
+        "Compare : la Mongolie extérieure se détache de la Chine au début du XXe siècle ; la République populaire prend le contrôle du Tibet en 1950.",
     },
     {
       id: 'republique',
@@ -86,7 +86,7 @@ export default {
       kicker: 'Crise',
       title: 'Grand Bond en avant et Révolution culturelle',
       body:
-        "En 1958, Mao lance le « Grand Bond en avant » pour industrialiser le pays à toute vitesse. L'échec provoque une terrible famine (1959-1961) : des dizaines de millions de morts selon les historiens, sans chiffre exact. De 1966 à 1976, la « Révolution culturelle » lance les jeunes Gardes rouges contre les professeurs, les intellectuels et le patrimoine ancien.",
+        "En 1958, Mao lance le « Grand Bond en avant » pour industrialiser le pays à toute vitesse. Son échec provoque une terrible famine (1959-1961), qui fait des dizaines de millions de morts selon les historiens. De 1966 à 1976, la « Révolution culturelle » lance les jeunes Gardes rouges, armés du « Petit Livre rouge » de Mao, contre les professeurs, les intellectuels et le patrimoine ancien.",
       highlight: { value: '1966 – 1976', label: 'Révolution culturelle' },
     },
     {
@@ -154,24 +154,24 @@ export default {
   ],
 
   quiz: [
-    { id: 'qing', type: 'mcq', prompt: 'Quelle dynastie gouverne la Chine en 1800 ?', options: ['Les Qing', 'Les Ming', 'Les Han', 'Les Tang'], answer: 0 },
-    { id: 'opium', type: 'mcq', prompt: "Contre quel pays la Chine mène-t-elle la première guerre de l'opium (1839-1842) ?", options: ['Le Royaume-Uni', 'Le Japon', 'La Russie', 'Les États-Unis'], answer: 0 },
-    { id: 'hong-kong', type: 'mcq', prompt: 'Quel territoire la Chine cède-t-elle au Royaume-Uni en 1842 ?', options: ['Hong Kong', 'Macao', 'Taïwan', 'Shanghai'], answer: 0 },
-    { id: 'traites', type: 'tf', prompt: "On appelle « traités inégaux » les traités imposés à la Chine par les puissances étrangères au XIXe siècle.", answer: true },
-    { id: 'boxers', type: 'mcq', prompt: 'Quelle révolte attaque les étrangers à Pékin en 1900 ?', options: ['La révolte des Boxers', 'La révolte des Taiping', 'La révolte des Cipayes', 'La Révolution culturelle'], answer: 0 },
-    { id: 'revolution', type: 'mcq', prompt: "En quelle année éclate la révolution qui renverse l'empire ?", options: ['1911', '1949', '1789', '1839'], answer: 0 },
-    { id: 'puyi', type: 'mcq', prompt: 'Qui est le dernier empereur de Chine ?', options: ['Puyi', 'Qianlong', 'Qin Shi Huang', 'Kangxi'], answer: 0 },
-    { id: 'sun', type: 'mcq', prompt: 'Qui est considéré comme le « père de la Chine moderne » ?', options: ['Sun Yat-sen', 'Mao Zedong', 'Deng Xiaoping', 'Confucius'], answer: 0 },
-    { id: 'longue-marche', type: 'mcq', prompt: 'Comment appelle-t-on la grande retraite des communistes en 1934-1935 ?', options: ['La Longue Marche', 'Le Grand Bond en avant', 'La marche du sel', 'La Révolution culturelle'], answer: 0 },
-    { id: 'nankin', type: 'mcq', prompt: 'Quelle armée commet le massacre de Nankin en 1937 ?', options: ["L'armée japonaise", "L'armée britannique", "L'armée soviétique", "L'armée communiste chinoise"], answer: 0 },
-    { id: 'proclamation', type: 'mcq', prompt: 'Que proclame Mao le 1er octobre 1949 ?', options: ['La République populaire de Chine', 'La République de Chine', "Le retour de l'empire", "L'union avec l'URSS"], answer: 0 },
-    { id: 'taiwan', type: 'mcq', prompt: 'Où se réfugie Tchang Kaï-chek en 1949 ?', options: ['À Taïwan', 'À Hong Kong', 'Au Japon', 'En Corée'], answer: 0 },
-    { id: 'grand-bond', type: 'tf', prompt: 'Le Grand Bond en avant apporte la prospérité aux paysans chinois.', answer: false, explanation: "C'est un échec : il provoque une terrible famine entre 1959 et 1961." },
-    { id: 'livre-rouge', type: 'mcq', prompt: 'Quel livre brandissent les Gardes rouges pendant la Révolution culturelle ?', options: ['Le Petit Livre rouge', 'Le Capital', 'Le Manifeste du parti communiste', 'Les Entretiens de Confucius'], answer: 0 },
-    { id: 'deng', type: 'mcq', prompt: "Quel dirigeant ouvre l'économie chinoise à partir de 1978 ?", options: ['Deng Xiaoping', 'Mao Zedong', 'Sun Yat-sen', 'Tchang Kaï-chek'], answer: 0 },
-    { id: 'tiananmen', type: 'tf', prompt: "En 1989, le gouvernement accepte les demandes des manifestants de la place Tian'anmen.", answer: false, explanation: "L'armée réprime le mouvement dans la nuit du 3 au 4 juin 1989." },
-    { id: 'omc', type: 'mcq', prompt: "En quelle année la Chine entre-t-elle à l'Organisation mondiale du commerce ?", options: ['2001', '1978', '1997', '2010'], answer: 0 },
-    { id: 'ordre', type: 'order', prompt: "Remettez dans l'ordre.", items: ["Première guerre de l'opium", "Révolution qui renverse l'empire", 'Proclamation de la République populaire', 'Début de la Révolution culturelle', "Entrée de la Chine à l'OMC"] },
+    { id: 'qing', carte: 'qing', type: 'mcq', prompt: 'Quelle dynastie gouverne la Chine en 1800 ?', options: ['Les Qing', 'Les Ming', 'Les Han', 'Les Tang'], answer: 0 },
+    { id: 'opium', carte: 'opium', type: 'mcq', prompt: "Contre quel pays la Chine mène-t-elle la première guerre de l'opium (1839-1842) ?", options: ['Le Royaume-Uni', 'Le Japon', 'La Russie', 'Les États-Unis'], answer: 0 },
+    { id: 'hong-kong', carte: 'opium', type: 'mcq', prompt: 'Quel territoire la Chine cède-t-elle au Royaume-Uni en 1842 ?', options: ['Hong Kong', 'Macao', 'Taïwan', 'Shanghai'], answer: 0 },
+    { id: 'traites', carte: 'opium', type: 'tf', prompt: "On appelle « traités inégaux » les traités imposés à la Chine par les puissances étrangères au XIXe siècle.", answer: true },
+    { id: 'boxers', carte: 'revoltes', type: 'mcq', prompt: 'Quelle révolte attaque les étrangers à Pékin en 1900 ?', options: ['La révolte des Boxers', 'La révolte des Taiping', 'La révolte des Cipayes', 'La Révolution culturelle'], answer: 0 },
+    { id: 'revolution', carte: 'republique', type: 'mcq', prompt: "En quelle année éclate la révolution qui renverse l'empire ?", options: ['1911', '1949', '1789', '1839'], answer: 0 },
+    { id: 'puyi', carte: 'republique', type: 'mcq', prompt: 'Qui est le dernier empereur de Chine ?', options: ['Puyi', 'Qianlong', 'Qin Shi Huang', 'Kangxi'], answer: 0 },
+    { id: 'sun', carte: 'sun', type: 'mcq', prompt: 'Qui est considéré comme le « père de la Chine moderne » ?', options: ['Sun Yat-sen', 'Mao Zedong', 'Deng Xiaoping', 'Confucius'], answer: 0 },
+    { id: 'longue-marche', carte: 'guerre-civile', type: 'mcq', prompt: 'Comment appelle-t-on la grande retraite des communistes en 1934-1935 ?', options: ['La Longue Marche', 'Le Grand Bond en avant', 'La marche du sel', 'La Révolution culturelle'], answer: 0 },
+    { id: 'nankin', carte: 'sino-japonaise', type: 'mcq', prompt: 'Quelle armée commet le massacre de Nankin en 1937 ?', options: ["L'armée japonaise", "L'armée britannique", "L'armée soviétique", "L'armée communiste chinoise"], answer: 0 },
+    { id: 'proclamation', carte: 'mao', type: 'mcq', prompt: 'Que proclame Mao le 1er octobre 1949 ?', options: ['La République populaire de Chine', 'La République de Chine', "Le retour de l'empire", "L'union avec l'URSS"], answer: 0 },
+    { id: 'taiwan', carte: 'guerre-civile', type: 'mcq', prompt: 'Où se réfugie Tchang Kaï-chek en 1949 ?', options: ['À Taïwan', 'À Hong Kong', 'Au Japon', 'En Corée'], answer: 0 },
+    { id: 'grand-bond', carte: 'mao-crises', type: 'tf', prompt: 'Le Grand Bond en avant apporte la prospérité aux paysans chinois.', answer: false, explanation: "C'est un échec : il provoque une terrible famine entre 1959 et 1961." },
+    { id: 'livre-rouge', carte: 'mao-crises', type: 'mcq', prompt: 'Quel livre brandissent les Gardes rouges pendant la Révolution culturelle ?', options: ['Le Petit Livre rouge', 'Le Capital', 'Le Manifeste du parti communiste', 'Les Entretiens de Confucius'], answer: 0 },
+    { id: 'deng', carte: 'reformes', type: 'mcq', prompt: "Quel dirigeant ouvre l'économie chinoise à partir de 1978 ?", options: ['Deng Xiaoping', 'Mao Zedong', 'Sun Yat-sen', 'Tchang Kaï-chek'], answer: 0 },
+    { id: 'tiananmen', carte: 'tiananmen', type: 'tf', prompt: "En 1989, le gouvernement accepte les demandes des manifestants de la place Tian'anmen.", answer: false, explanation: "L'armée réprime le mouvement dans la nuit du 3 au 4 juin 1989." },
+    { id: 'omc', carte: 'reformes', type: 'mcq', prompt: "En quelle année la Chine entre-t-elle à l'Organisation mondiale du commerce ?", options: ['2001', '1978', '1997', '2010'], answer: 0 },
+    { id: 'ordre', carte: ['opium', 'sun', 'mao', 'mao-crises', 'reformes'], type: 'order', prompt: "Remets dans l'ordre.", items: ["Première guerre de l'opium", "Révolution qui renverse l'empire", 'Proclamation de la République populaire', 'Début de la Révolution culturelle', "Entrée de la Chine à l'OMC"] },
   ],
 
   recap: [

@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react'
 import { getEpochs } from '../../lib/data'
 import { PARCOURS_AVENTURE as P, useProgress } from '../../store/progress'
-import Medaille from '../aventure/Medaille'
+import EtatSalle from '../aventure/EtatSalle'
 
 const sansAccents = (s) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase()
 
@@ -10,7 +10,7 @@ export default function ChoixCivilisation({ onChoix }) {
   const salles = useProgress((s) => s.aventure.salles)
   const [texte, setTexte] = useState('')
   const toutes = useMemo(() => getEpochs().flatMap((e) => e.continents.flatMap((c) => c.civilizations.map((civ) => ({ id: civ.id, label: civ.label, epoque: e.label })))), [])
-  const decouvertes = P.ordre.filter((id) => (salles[id]?.medaille ?? 0) >= 1).map((id) => toutes.find((c) => c.id === id)).filter(Boolean)
+  const decouvertes = P.ordre.filter((id) => salles[id]?.decouverte).map((id) => toutes.find((c) => c.id === id)).filter(Boolean)
   const debut = decouvertes.length ? decouvertes : P.mondes[0].tronc.map((id) => toutes.find((c) => c.id === id)).filter(Boolean)
   const t = sansAccents(texte.trim())
   const liste = t ? toutes.filter((c) => sansAccents(c.label).includes(t)).slice(0, 30) : debut.slice(0, 30)
@@ -31,7 +31,7 @@ export default function ChoixCivilisation({ onChoix }) {
         {liste.map((c) => (
           <li key={c.id}>
             <button onClick={() => onChoix(c.id)} className="w-full min-h-[48px] px-3 py-2 text-left bg-surface border border-line hover:border-muted flex items-center gap-3">
-              <Medaille medaille={salles[c.id]?.medaille ?? 0} taille={24} />
+              <EtatSalle decouverte={!!salles[c.id]?.decouverte} etoiles={salles[c.id]?.etoiles ?? 0} taille={24} />
               <span className="flex-1 min-w-0">
                 <span className="block font-semibold text-ink truncate">{c.label}</span>
                 <span className="block text-xs text-muted">{c.epoque}</span>

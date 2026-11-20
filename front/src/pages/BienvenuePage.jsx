@@ -11,13 +11,12 @@ import { solidBg } from '../lib/color'
 import { useAmbiance } from '../lib/musique'
 import { PARCOURS_AVENTURE as P, useProgress } from '../store/progress'
 import QuestionView from '../components/quiz/QuestionView'
-import { Particules } from '../components/celebration/elements'
-import { useEffet } from '../components/celebration/Celebrations'
+import { EFFET, Particules } from '../components/celebration/elements'
 
 /**
  * Premier lancement (maquette 4, V3, sprint 23) : bienvenue → fil rouge → 3 questions éclair
  * sur la première salle → première récompense (+50 XP, la série commence). « Passer » à tout moment.
- * Revu plus tard (bouton « Présentation » de l'en-tête) : même parcours, sans nouvelle récompense.
+ * Revu plus tard (Profil › Réglages › « Revoir la présentation ») : même parcours, sans nouvelle récompense.
  */
 const POPULAIRES = ['france', 'rome', 'egypte', 'chine', 'japon', 'perse', 'mexique', 'angleterre']
 const PREMIERE_SALLE = P.mondes[0].tronc[0]
@@ -75,11 +74,11 @@ export default function BienvenuePage() {
                 <p className="mt-10 eyebrow text-accent">Bienvenue au musée</p>
                 <h1 className="font-display text-5xl font-bold text-ink leading-[1.02] mt-2">L’histoire du monde, salle après salle</h1>
                 <p className="mt-4 text-[17px] leading-relaxed text-ink/90">
-                  {getStats().civs} civilisations réparties en 5 mondes, de la Préhistoire à nos jours. Chaque salle se découvre en quelques minutes, puis se gagne : bronze, argent, or.
+                  {getStats().civs} civilisations réparties en 5 mondes, de la Préhistoire à nos jours. Chaque salle se découvre en quelques minutes, puis se gagne à l’Épreuve : jusqu’à trois étoiles.
                 </p>
                 <ul className="mt-6 space-y-2.5 text-[15px] text-ink">
-                  <li className="flex gap-3"><span className="font-display text-xl font-bold text-accent w-6">1</span> Découvrir, Approfondir, puis l’Épreuve</li>
-                  <li className="flex gap-3"><span className="font-display text-xl font-bold text-accent w-6">2</span> XP, niveaux, coffres et titres à collectionner</li>
+                  <li className="flex gap-3"><span className="font-display text-xl font-bold text-accent w-6">1</span> Découvrir, puis l’Épreuve ; Approfondir en bonus</li>
+                  <li className="flex gap-3"><span className="font-display text-xl font-bold text-accent w-6">2</span> XP, rangs, étoiles et titres à collectionner</li>
                   <li className="flex gap-3"><span className="font-display text-xl font-bold text-accent w-6">3</span> L’Atlas reste ouvert : frise, carte, fiches</li>
                 </ul>
                 <button ref={bouton} onClick={() => setEtape(1)} className="btn-accent h-[52px] w-full text-base font-bold mt-auto">Commencer</button>
@@ -89,7 +88,7 @@ export default function BienvenuePage() {
             {etape === 1 && (
               <>
                 <h1 className="mt-8 font-display text-4xl font-bold text-ink leading-tight">Quel fil rouge te fait envie ?</h1>
-                <p className="mt-2 text-[15px] text-ink/90">Tu traverseras toutes les époques ; ce fil rouge sera ton objectif personnel, de sa première à sa dernière salle.</p>
+                <p className="mt-2 text-[15px] text-ink/90">Tu traverseras toutes les époques ; les salles de ton fil rouge s’ajoutent à ton chemin, de la première à la dernière.</p>
                 <div className="mt-5 grid grid-cols-2 gap-2.5" role="group" aria-label="Fils rouges">
                   {POPULAIRES.map((id) => P.filsRouges.find((f) => f.id === id)).filter(Boolean).map((f) => (
                     <button
@@ -103,7 +102,7 @@ export default function BienvenuePage() {
                     </button>
                   ))}
                 </div>
-                <p className="mt-3 text-xs text-muted">{P.filsRouges.length} fils rouges en tout, à retrouver dans ton Profil.</p>
+                <p className="mt-3 text-xs text-muted">{P.filsRouges.length} fils rouges en tout, à retrouver dans ton Profil (Collections).</p>
                 <button ref={bouton} onClick={() => setEtape(2)} className="btn-accent h-[52px] w-full text-base font-bold mt-auto">{fil ? 'Continuer' : 'Choisir plus tard'}</button>
               </>
             )}
@@ -152,7 +151,7 @@ function Questions({ onFin }) {
 
 function Serie({ refCiv, onFin }) {
   const questions = useMemo(() => {
-    const pool = questionPool(refCiv)
+    const pool = questionPool(refCiv, { niveaux: [1] })
     const redigees = pool.filter((q) => q.id.startsWith('hand-'))
     return shuffle(redigees.length >= 3 ? redigees : pool, rng('bienvenue')).slice(0, 3).map((q) => prepareQuestion(q, 0))
   }, [refCiv])
@@ -179,10 +178,9 @@ function Serie({ refCiv, onFin }) {
 }
 
 function Recompense({ gain, justes, dejaFait, bouton, onEntrer }) {
-  const effet = useEffet()
   return (
     <div className="fixed inset-0 z-10 flex flex-col items-center px-5 text-center overflow-hidden" style={{ background: '#1f1812', color: '#f6efe2' }}>
-      {!dejaFait && <Particules effet={effet} />}
+      {!dejaFait && <Particules effet={EFFET} />}
       <div className="relative w-full max-w-sm flex-1 flex flex-col items-center pt-[14vh]">
         <p className="text-xs font-bold uppercase tracking-[.22em]" style={{ color: '#e0c27a' }}>{dejaFait ? 'Bon retour' : 'Première récompense'}</p>
         <motion.p initial={{ scale: 0.3, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ type: 'spring', damping: 9, delay: 0.1 }} className="mt-6 font-display text-8xl font-bold leading-none" style={{ color: '#e0c27a' }}>

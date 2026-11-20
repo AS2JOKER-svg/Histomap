@@ -6,8 +6,10 @@ import App from './App'
 import './store/preferences' // applique le thème au démarrage
 import './index.css'
 import { initPWA } from './lib/pwa'
+import { initNotifications } from './lib/notifications'
 
 initPWA() // application installable + hors ligne (en production)
+initNotifications() // rappels : état pour le service worker, synchronisation périodique (en production)
 
 // HashRouter : les URLs (#/frise/antiquite/egypte) fonctionnent sur GitHub Pages
 // sans configuration serveur, et le bouton « retour » du téléphone marche.

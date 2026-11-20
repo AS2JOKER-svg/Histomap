@@ -266,7 +266,7 @@ export default function MapPage() {
           Sur cette carte · {visibleCivs.length} civilisation{visibleCivs.length > 1 ? 's' : ''} HistoMap
         </h2>
         {visibleCivs.length === 0 ? (
-          <p className="text-sm text-muted">Aucune civilisation HistoMap sur cette carte : essayez une autre année.</p>
+          <p className="text-sm text-muted">Aucune civilisation HistoMap sur cette carte : essaie une autre année.</p>
         ) : (
           <div className="flex flex-wrap gap-2">
             {visibleCivs.map((link) => (

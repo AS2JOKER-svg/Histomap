@@ -38,7 +38,7 @@ export default {
       kicker: 'Fluctuations',
       title: 'Un empire qui rétrécit',
       years: [600, 1000, 1400],
-      caption: "Comparez : un empire méditerranéen après Justinien, encore solide vers l'an 1000, réduit presque à sa capitale en 1400.",
+      caption: "Compare : un empire méditerranéen après Justinien, encore solide vers l'an 1000, réduit presque à sa capitale en 1400.",
     },
     {
       id: 'feu-gregeois',
@@ -158,7 +158,7 @@ export default {
     { id: 'icones', carte: 'icones', type: 'mcq', prompt: 'Comment appelle-t-on ceux qui veulent détruire les images saintes ?', options: ['Les iconoclastes', 'Les iconophiles', 'Les orthodoxes', 'Les hérétiques'], answer: 0 },
     { id: 'cyrillique', carte: 'slaves', type: 'mcq', prompt: "Quels missionnaires sont à l'origine de l'alphabet des Slaves ?", options: ['Cyrille et Méthode', 'Pierre et Paul', 'Basile et Grégoire', 'Benoît et Scholastique'], answer: 0 },
     { id: 'manzikert', carte: 'manzikert', type: 'mcq', prompt: 'Contre qui les Byzantins perdent-ils à Manzikert en 1071 ?', options: ['Les Turcs seldjoukides', 'Les Normands', 'Les Bulgares', 'Les Perses'], answer: 0 },
-    { id: 'ordre', carte: ['origine', 'sainte-sophie', 'schisme', 'sac-1204', 'chute'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Fondation de Constantinople', 'Inauguration de Sainte-Sophie', 'Grand schisme', 'Sac par les croisés', 'Prise par les Ottomans'] },
+    { id: 'ordre', carte: ['origine', 'sainte-sophie', 'schisme', 'sac-1204', 'chute'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Fondation de Constantinople', 'Inauguration de Sainte-Sophie', 'Grand schisme', 'Sac par les croisés', 'Prise par les Ottomans'] },
     { id: 'troisieme-rome', carte: 'heritage', type: 'mcq', prompt: 'Quelle ville se proclame « troisième Rome » après 1453 ?', options: ['Moscou', 'Venise', 'Kiev', 'Vienne'], answer: 0 },
   ],
 

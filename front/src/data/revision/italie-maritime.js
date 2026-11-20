@@ -161,7 +161,7 @@ export default {
     { id: 'democratie', carte: 'gouvernement', type: 'tf', prompt: 'À Venise, tous les habitants votent pour élire le doge.', answer: false, explanation: 'Le pouvoir appartient à une oligarchie de familles nobles réunies dans le Grand Conseil.' },
     { id: 'tour', carte: 'amalfi-pise', type: 'mcq', prompt: 'Dans quelle république maritime se trouve la célèbre tour penchée ?', options: ['Pise', 'Gênes', 'Amalfi', 'Venise'], answer: 0 },
     { id: 'colomb', carte: 'heritage', type: 'mcq', prompt: 'De quelle ville est originaire Christophe Colomb ?', options: ['Gênes', 'Venise', 'Lisbonne', 'Séville'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Arrivée des reliques de saint Marc à Venise', 'Prise de Constantinople par les croisés', 'Bataille de la Meloria', 'Guerre de Chioggia'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Arrivée des reliques de saint Marc à Venise', 'Prise de Constantinople par les croisés', 'Bataille de la Meloria', 'Guerre de Chioggia'] },
   ],
 
   recap: [

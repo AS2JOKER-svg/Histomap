@@ -161,7 +161,7 @@ export default {
     { id: 'paregreg', carte: 'paregreg', type: 'mcq', prompt: 'Qu’est-ce que la guerre de Paregreg ?', options: ['Une guerre de succession', 'Une invasion chinoise', 'Une révolte d’esclaves', 'Une guerre contre les Portugais'], answer: 0 },
     { id: 'bali', carte: 'bali', type: 'tf', prompt: 'Bali est aujourd’hui majoritairement hindoue.', answer: true },
     { id: 'fin', carte: 'declin', type: 'mcq', prompt: 'Vers quelle année Majapahit disparaît-il ?', options: ['Vers 1527', 'Vers 1293', 'Vers 1789', 'Vers 1945'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Fondation', 'Hayam Wuruk roi', 'Le poème Nagarakertagama', 'Guerre de Paregreg'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Fondation', 'Hayam Wuruk roi', 'Le poème Nagarakertagama', 'Guerre de Paregreg'] },
   ],
 
   recap: [

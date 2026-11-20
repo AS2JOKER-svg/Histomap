@@ -161,7 +161,7 @@ export default {
     { id: 'alphabet', carte: 'alphabet', type: 'mcq', prompt: 'Quel peuple reprend l’alphabet ouïghour au XIIIe siècle ?', options: ['Les Mongols', 'Les Arabes', 'Les Grecs', 'Les Coréens'], answer: 0 },
     { id: 'princesse', carte: 'princesses', type: 'tf', prompt: 'Des princesses chinoises épousent des khagans ouïghours.', answer: true, explanation: 'Ningguo en 758 et Taihe en 821, par exemple.' },
     { id: 'xinjiang', carte: 'aujourdhui', type: 'mcq', prompt: 'Où vivent surtout les Ouïghours aujourd’hui ?', options: ['Au Xinjiang, en Chine', 'En Mongolie', 'En Turquie', 'En Sibérie'], answer: 0 },
-    { id: 'ordre', carte: ['chronologie', 'tang', 'kirghiz'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Fondation du khaganat', 'Aide aux Tang contre An Lushan', 'Adoption du manichéisme', 'Destruction par les Kirghiz'] },
+    { id: 'ordre', carte: ['chronologie', 'tang', 'kirghiz'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Fondation du khaganat', 'Aide aux Tang contre An Lushan', 'Adoption du manichéisme', 'Destruction par les Kirghiz'] },
   ],
 
   recap: [

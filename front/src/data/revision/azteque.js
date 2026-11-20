@@ -156,7 +156,7 @@ export default {
     { id: 'allies', carte: 'cortes', type: 'tf', prompt: 'Cortés conquiert l’empire avec seulement ses soldats espagnols.', answer: false, explanation: 'Des dizaines de milliers d’alliés indigènes, comme les Tlaxcaltèques, combattent à ses côtés.' },
     { id: 'variole', carte: 'epidemie', type: 'mcq', prompt: 'Quelle maladie venue d’Europe ravage Tenochtitlan en 1520 ?', options: ['La variole', 'La peste', 'Le paludisme', 'La grippe espagnole'], answer: 0 },
     { id: 'malinche', carte: 'malinche', type: 'mcq', prompt: 'Quel rôle joue La Malinche ?', options: ['Interprète de Cortés', 'Reine aztèque', 'Prêtresse de Tlaloc', 'Cheffe de guerre tlaxcaltèque'], answer: 0 },
-    { id: 'ordre', carte: ['legende', 'triple-alliance', 'conquete'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Fondation de Tenochtitlan', 'Triple Alliance', 'Arrivée de Cortés', 'Chute de Tenochtitlan'] },
+    { id: 'ordre', carte: ['legende', 'triple-alliance', 'conquete'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Fondation de Tenochtitlan', 'Triple Alliance', 'Arrivée de Cortés', 'Chute de Tenochtitlan'] },
     { id: 'nahuatl', carte: 'heritage', type: 'mcq', prompt: 'Quel mot français vient du nahuatl ?', options: ['Chocolat', 'Café', 'Sucre', 'Thé'], answer: 0 },
   ],
 

@@ -163,7 +163,7 @@ export default {
     { id: 'invasion', carte: 'guerres', type: 'mcq', prompt: 'Quel roi de France envahit l’Italie en 1494 ?', options: ['Charles VIII', 'François Ier', 'Louis XI', 'Henri II'], answer: 0 },
     { id: 'sac', carte: 'sac', type: 'mcq', prompt: 'Les troupes de quel empereur pillent Rome en 1527 ?', options: ['Charles Quint', 'Napoléon', 'Frédéric Barberousse', 'Soliman le Magnifique'], answer: 0 },
     { id: 'domine', carte: 'guerres', type: 'mcq', prompt: 'Quelle puissance domine l’Italie après 1559 ?', options: ['L’Espagne', 'La France', 'L’Angleterre', 'L’Empire ottoman'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Coupole de Florence', 'Début des guerres d’Italie', 'Sac de Rome', 'Paix du Cateau-Cambrésis'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Coupole de Florence', 'Début des guerres d’Italie', 'Sac de Rome', 'Paix du Cateau-Cambrésis'] },
   ],
 
   recap: [

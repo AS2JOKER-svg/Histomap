@@ -211,13 +211,15 @@ Chaque chapitre a un réservoir de questions **générées automatiquement depui
 de 20 à 67) : dates, ordre chronologique, capitale, dirigeants, personnages, guerres, carte, lignée, vrai/faux…
 (`src/lib/quiz.js`). La V3.1 les retire de l'Aventure (sprint 29) : elle ne pose que des questions sur les cartes vues,
 rédigées ou **générées depuis les cartes** (voir « Relier les questions aux cartes » plus bas).
+**Le joueur est tutoyé**, comme dans tous les écrans de l'app (sprint 35) : « Remets dans l'ordre… », « Compare : vers 400… »,
+« Change d'année… ». Jamais « Remettez », « Comparez », « vous » (sauf dans une citation).
 Pour ajouter des questions rédigées à la main, compléter le tableau `quiz` du chapitre
 (voir `src/data/revision/france-capet.js`) :
 ```js
 { id: 'saint-louis', carte: 'louis9', type: 'mcq', prompt: 'Quel roi est surnommé « Saint Louis » ?',
   options: ['Louis IX', 'Louis VI', 'Louis XI', 'Louis VII'], answer: 0, explanation: '…' },
 { id: 'sorbonne', carte: 'universite', type: 'tf', prompt: 'Robert de Sorbon fonde la Sorbonne en 1257.', answer: true },
-{ id: 'ordre', carte: ['chronologie', 'bouvines'], type: 'order', prompt: 'Remettez dans l’ordre…', items: ['A', 'B', 'C'] } // items dans le BON ordre
+{ id: 'ordre', carte: ['chronologie', 'bouvines'], type: 'order', prompt: 'Remets dans l’ordre…', items: ['A', 'B', 'C'] } // items dans le BON ordre
 ```
 (une question par ligne, `carte` juste après l'`id` : c'est ainsi que `npm run relier` l'écrit)
 - `answer` = position de la bonne réponse dans `options` (elles sont mélangées à l'affichage).
@@ -260,7 +262,9 @@ réponse possible : pour qu'une carte en donne de bonnes questions,
   événement**, car il devient la réponse de « Que se passe-t-il en … ? » (« Entrée de la Grèce », pas « Grèce » ;
   « Règne de Bindusara, fils de Chandragupta », pas « Règne de son fils Bindusara ») ; les leurres de date sont pris
   dans la même ère (av. / apr. J.-C.) que la bonne réponse ;
-- `person` : description d'au moins une phrase, qui ne cite pas la personne par un autre nom que `nom` ;
+- `person` : description d'au moins une phrase, qui ne cite pas la personne par un autre nom que `nom` ; `role` qui
+  commence par un **nom commun** : sa 1re lettre passe en minuscule dans l'explication (« Toumaï, crâne de Sahelanthropus
+  tchadensis… », pas « Toumaï, sahelanthropus… ») ;
 - `war` : `vainqueur` écrit avec les **mêmes mots** que l'un des camps (« Hannibal » si `allies` dit « Armée
   d'Hannibal ») ; « Aucun », « Compromis » ou un vainqueur nuancé ne donnent pas de question (c'est voulu) ; le
   **premier** nom de chaque camp sert de perdant dans le vrai / faux : y mettre la civilisation elle-même

@@ -20,7 +20,7 @@ export default {
       kicker: 'Territoire',
       title: 'L’Empire parthe',
       years: [-200, -1, 200],
-      caption: 'Comparez : petit royaume du nord-est de l’Iran vers 200 av. J.-C., l’empire va ensuite de l’Euphrate à l’Inde.',
+      caption: 'Compare : petit royaume du nord-est de l’Iran vers 200 av. J.-C., l’empire va ensuite de l’Euphrate à l’Inde.',
     },
     {
       id: 'mithridate',
@@ -160,7 +160,7 @@ export default {
     { id: 'noblesse', carte: 'noblesse', type: 'mcq', prompt: 'Sur qui s’appuie le roi des rois parthe ?', options: ['De grandes familles nobles', 'Le pape', 'Un sénat élu', 'Des marchands vénitiens'], answer: 0 },
     { id: 'fin', carte: 'fin', type: 'mcq', prompt: 'Qui renverse le dernier roi parthe en 224 ?', options: ['Ardachir', 'Alexandre le Grand', 'Trajan', 'Gengis Khan'], answer: 0 },
     { id: 'apres', carte: 'fin', type: 'mcq', prompt: 'Quelle dynastie succède aux Parthes ?', options: ['Les Sassanides', 'Les Abbassides', 'Les Séleucides', 'Les Ottomans'], answer: 0 },
-    { id: 'ordre', carte: ['chronologie', 'carrhes'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Arsace s’empare de la Parthie', 'Prise de Séleucie', 'Bataille de Carrhes', 'Chute des Arsacides'] },
+    { id: 'ordre', carte: ['chronologie', 'carrhes'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Arsace s’empare de la Parthie', 'Prise de Séleucie', 'Bataille de Carrhes', 'Chute des Arsacides'] },
   ],
 
   recap: [

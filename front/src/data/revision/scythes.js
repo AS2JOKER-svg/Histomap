@@ -157,7 +157,7 @@ export default {
     { id: 'ateas', carte: 'ateas', type: 'mcq', prompt: 'Qui bat et tue le roi scythe Atéas en 339 av. J.-C. ?', options: ['Philippe II de Macédoine', 'Darius Ier', 'Jules César', 'Cyrus II'], answer: 0 },
     { id: 'sarmates', carte: 'heritage', type: 'mcq', prompt: 'Quels nomades remplacent les Scythes dans les steppes ?', options: ['Les Sarmates', 'Les Mongols', 'Les Vikings', 'Les Huns'], answer: 0 },
     { id: 'olbia', carte: 'grecs', type: 'mcq', prompt: 'Que vendent surtout les Scythes aux cités grecques comme Olbia ?', options: ['Du blé', 'Du papyrus', 'De la soie', 'Des épices d’Inde'], answer: 0 },
-    { id: 'ordre', carte: ['nomades', 'darius', 'ateas', 'heritage'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Arrivée des Scythes au nord de la mer Noire', 'Expédition de Darius Ier', 'Mort du roi Atéas', 'Royaume scythe réduit à la Crimée'] },
+    { id: 'ordre', carte: ['nomades', 'darius', 'ateas', 'heritage'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Arrivée des Scythes au nord de la mer Noire', 'Expédition de Darius Ier', 'Mort du roi Atéas', 'Royaume scythe réduit à la Crimée'] },
   ],
 
   recap: [

@@ -20,7 +20,7 @@ export default {
       kicker: 'Territoire',
       title: 'Le pays zapotèque',
       years: [-300, 500, 1400],
-      caption: 'Comparez : autour de la vallée de Oaxaca, du temps de Monte Albán à celui des royaumes zapotèques.',
+      caption: 'Compare : autour de la vallée de Oaxaca, du temps de Monte Albán à celui des royaumes zapotèques.',
     },
     {
       id: 'ecriture',
@@ -158,7 +158,7 @@ export default {
     { id: 'juarez', carte: 'aujourdhui', type: 'mcq', prompt: 'Quel président mexicain était zapotèque ?', options: ['Benito Juárez', 'Pancho Villa', 'Porfirio Díaz', 'Miguel Hidalgo'], answer: 0 },
     { id: 'langue', carte: 'aujourdhui', type: 'tf', prompt: 'Des langues zapotèques sont encore parlées aujourd’hui.', answer: true },
     { id: 'espagnols', carte: 'chronologie', type: 'mcq', prompt: 'Qui arrive dans la vallée de Oaxaca dans les années 1520 ?', options: ['Les Espagnols', 'Les Portugais', 'Les Français', 'Les Anglais'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Fondation de Monte Albán', 'Apogée de Monte Albán', 'Déclin de Monte Albán', 'Arrivée des Espagnols'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Fondation de Monte Albán', 'Apogée de Monte Albán', 'Déclin de Monte Albán', 'Arrivée des Espagnols'] },
   ],
 
   recap: [

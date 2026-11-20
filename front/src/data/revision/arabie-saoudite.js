@@ -20,7 +20,7 @@ export default {
       kicker: 'Territoire',
       title: 'Du Nejd à l’Arabie saoudite',
       years: [1800, 1960],
-      caption: 'Comparez : parti du Nejd, au centre de la péninsule, l’État saoudien finit par en couvrir la plus grande partie.',
+      caption: 'Compare : parti du Nejd, au centre de la péninsule, l’État saoudien finit par en couvrir la plus grande partie.',
     },
     {
       id: 'chute',
@@ -162,7 +162,7 @@ export default {
     { id: 'golfe', carte: 'golfe', type: 'mcq', prompt: 'Quel pays envahi par l’Irak est libéré en 1991 ?', options: ['Le Koweït', 'Le Yémen', 'Oman', 'Le Qatar'], answer: 0 },
     { id: 'conduire', carte: 'reformes', type: 'mcq', prompt: 'Quel droit les Saoudiennes obtiennent-elles en 2018 ?', options: ['Le droit de conduire', 'Le droit de voter aux élections nationales', 'Le droit d’aller à l’école', 'Le droit de travailler'], answer: 0 },
     { id: 'rival', carte: 'lieux-saints', type: 'mcq', prompt: 'Quel pays est le grand rival de l’Arabie saoudite au Moyen-Orient ?', options: ['L’Iran', 'L’Égypte', 'Le Maroc', 'La Jordanie'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Pacte de Diriyah', 'Chute de Diriyah', 'Royaume d’Arabie saoudite', 'Embargo pétrolier'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Pacte de Diriyah', 'Chute de Diriyah', 'Royaume d’Arabie saoudite', 'Embargo pétrolier'] },
   ],
 
   recap: [

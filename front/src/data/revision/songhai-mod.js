@@ -160,7 +160,7 @@ export default {
     { id: 'or', carte: 'fin', type: 'tf', prompt: "Après sa victoire, le Maroc prend le contrôle des mines d'or d'Afrique de l'Ouest.", answer: false, explanation: "Les mines d'or sont situées bien plus au sud et échappent aux Marocains." },
     { id: 'ahmed-baba', carte: 'ahmed-baba', type: 'mcq', prompt: 'Quel savant de Tombouctou est déporté à Marrakech en 1594 ?', options: ['Ahmed Baba', 'Ibn Khaldoun', 'Averroès', 'Léon l’Africain'], answer: 0 },
     { id: 'teghazza', carte: 'teghazza', type: 'mcq', prompt: 'Que produisent les mines de Teghazza, convoitées par le Maroc ?', options: ['Du sel', "De l'or", 'Du fer', 'Du cuivre'], answer: 0 },
-    { id: 'ordre', carte: ['chronologie', 'tondibi'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Askia Mohammed prend le pouvoir', 'Pèlerinage à La Mecque', 'Règne d’Askia Daoud', 'Bataille de Tondibi'] },
+    { id: 'ordre', carte: ['chronologie', 'tondibi'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Askia Mohammed prend le pouvoir', 'Pèlerinage à La Mecque', 'Règne d’Askia Daoud', 'Bataille de Tondibi'] },
   ],
 
   recap: [

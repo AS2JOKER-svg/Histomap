@@ -156,7 +156,7 @@ export default {
     { id: 'cajamarca', carte: 'conquete', type: 'mcq', prompt: 'Où Atahualpa est-il capturé en 1532 ?', options: ['Cajamarca', 'Cuzco', 'Lima', 'Machu Picchu'], answer: 0 },
     { id: 'guerre-civile', carte: 'conquete', type: 'mcq', prompt: "Contre qui Atahualpa mène-t-il une guerre civile ?", options: ['Son demi-frère Huáscar', 'Pachacútec', 'Les Aztèques', 'Túpac Amaru'], answer: 0 },
     { id: 'rancon', carte: 'atahualpa', type: 'mcq', prompt: 'Que promet Atahualpa pour être libéré ?', options: ["Une salle remplie d'or", 'La moitié de son empire', 'Mille lamas', 'Sa conversion'], answer: 0 },
-    { id: 'ordre', carte: ['pachacutec', 'machu-picchu', 'conquete', 'resistance'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Pachacútec repousse les Chancas', 'Construction de Machu Picchu', 'Capture d’Atahualpa', 'Exécution de Túpac Amaru'] },
+    { id: 'ordre', carte: ['pachacutec', 'machu-picchu', 'conquete', 'resistance'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Pachacútec repousse les Chancas', 'Construction de Machu Picchu', 'Capture d’Atahualpa', 'Exécution de Túpac Amaru'] },
     { id: 'lima', carte: 'pizarro', type: 'mcq', prompt: 'Quelle ville Pizarro fonde-t-il en 1535 ?', options: ['Lima', 'Cuzco', 'Quito', 'Santiago'], answer: 0 },
   ],
 

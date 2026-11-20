@@ -158,7 +158,7 @@ export default {
     { id: 'mille', carte: 'mille-dieux', type: 'tf', prompt: 'Les Hittites intègrent à leur religion les dieux des peuples qu’ils soumettent.', answer: true },
     { id: 'fer', carte: 'fer', type: 'tf', prompt: 'Les soldats hittites sont tous équipés d’armes en fer.', answer: false, explanation: 'Le fer reste rare et précieux ; les armes sont surtout en bronze.' },
     { id: 'lois', carte: 'lois', type: 'mcq', prompt: 'Que prévoient surtout les lois hittites contre les coupables ?', options: ['Des compensations (amendes, restitutions)', 'La peine de mort pour presque tout', "L'exil systématique", 'Aucune punition'], answer: 0 },
-    { id: 'ordre', carte: ['babylone', 'qadesh', 'traite', 'fin'], type: 'order', prompt: "Remettez dans l'ordre chronologique.", items: ['Pillage de Babylone par Mursili Ier', 'Bataille de Qadesh', 'Traité de paix avec Ramsès II', 'Abandon de Hattusa'] },
+    { id: 'ordre', carte: ['babylone', 'qadesh', 'traite', 'fin'], type: 'order', prompt: "Remets dans l'ordre chronologique.", items: ['Pillage de Babylone par Mursili Ier', 'Bataille de Qadesh', 'Traité de paix avec Ramsès II', 'Abandon de Hattusa'] },
     { id: 'fin', carte: 'fin', type: 'mcq', prompt: 'Vers quelle date l’empire hittite s’effondre-t-il ?', options: ['Vers 1180 av. J.-C.', 'Vers 1650 av. J.-C.', 'Vers 500 av. J.-C.', 'Vers 30 av. J.-C.'], answer: 0 },
     { id: 'hrozny', carte: 'redecouverte', type: 'mcq', prompt: 'Qui a déchiffré la langue hittite en 1915 ?', options: ['Bedřich Hrozný', 'Michael Ventris', 'Jean-François Champollion', 'Heinrich Schliemann'], answer: 0 },
   ],

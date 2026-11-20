@@ -20,7 +20,7 @@ export default {
       kicker: 'Territoire',
       title: 'La Pologne des Piast',
       years: [1000, 1300],
-      caption: 'Comparez : le royaume, entre l’Oder et la Vistule, s’étend puis se divise.',
+      caption: 'Compare : le royaume, entre l’Oder et la Vistule, s’étend puis se divise.',
     },
     {
       id: 'roi',
@@ -159,7 +159,7 @@ export default {
     { id: 'lituanie', carte: 'union', type: 'mcq', prompt: 'Avec quel pays la Pologne s’unit-elle en 1385-1386 ?', options: ['La Lituanie', 'La Hongrie', 'La Bohême', 'La Russie'], answer: 0 },
     { id: 'sel', carte: 'sel', type: 'mcq', prompt: 'Quelle ressource est exploitée dans les mines de Wieliczka ?', options: ['Le sel', 'L’or', 'Le charbon', 'Le fer'], answer: 0 },
     { id: 'kalisz', carte: 'kalisz', type: 'tf', prompt: 'Le statut de Kalisz (1264) accorde protection et droits aux Juifs.', answer: true },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Baptême de Mieszko Ier', 'Premier roi', 'Division du pays', 'Université de Cracovie'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Baptême de Mieszko Ier', 'Premier roi', 'Division du pays', 'Université de Cracovie'] },
   ],
 
   recap: [

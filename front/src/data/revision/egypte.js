@@ -30,7 +30,7 @@ export default {
       kicker: 'Territoire',
       title: "L'Égypte au fil des siècles",
       years: [-3000, -1500, -700],
-      caption: "Changez d'année : le royaume reste accroché au Nil, mais son influence varie selon les époques.",
+      caption: "Change d'année : le royaume reste accroché au Nil, mais son influence varie selon les époques.",
     },
     {
       id: 'empires',
@@ -156,7 +156,7 @@ export default {
     { id: 'champollion', carte: 'ecriture', type: 'mcq', prompt: 'Qui déchiffre les hiéroglyphes en 1822 ?', options: ['Champollion', 'Howard Carter', 'Napoléon', 'Hérodote'], answer: 0, explanation: 'Grâce à la pierre de Rosette, qui porte le même texte en grec et en égyptien.' },
     { id: 'rosette', carte: 'ecriture', type: 'mcq', prompt: "Quel objet permet de déchiffrer les hiéroglyphes ?", options: ['La pierre de Rosette', 'Le papyrus de Turin', 'Le masque de Toutânkhamon', 'Le Livre des morts'], answer: 0 },
     { id: 'pesee', carte: 'croyances', type: 'mcq', prompt: "Dans l'au-delà, contre quoi le cœur du défunt est-il pesé ?", options: ['La plume de Maât', 'Un lingot d’or', 'Le sceptre du pharaon', 'Une pierre du Nil'], answer: 0 },
-    { id: 'periodes', carte: 'empires', type: 'order', prompt: "Remettez ces périodes dans l'ordre.", items: ['Ancien Empire', 'Moyen Empire', 'Nouvel Empire', 'Conquête d’Alexandre'] },
+    { id: 'periodes', carte: 'empires', type: 'order', prompt: "Remets ces périodes dans l'ordre.", items: ['Ancien Empire', 'Moyen Empire', 'Nouvel Empire', 'Conquête d’Alexandre'] },
     { id: 'ramses-regne', carte: 'ramses', type: 'tf', prompt: 'Ramsès II a régné moins de 10 ans.', answer: false, explanation: 'Il a régné 66 ans (1279 – 1213 av. J.-C.).' },
     { id: 'abou-simbel', carte: 'ramses', type: 'mcq', prompt: 'Quels temples géants Ramsès II fait-il creuser dans la falaise ?', options: ['Abou Simbel', 'Karnak', 'Philae', 'Gizeh'], answer: 0 },
     { id: 'qadesh-ennemi', carte: 'ramses', type: 'mcq', prompt: 'Contre quel peuple Ramsès II combat-il à Qadesh ?', options: ['Les Hittites', 'Les Perses', 'Les Romains', 'Les Nubiens'], answer: 0 },

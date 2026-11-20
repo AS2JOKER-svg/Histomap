@@ -29,7 +29,7 @@ export default {
       kicker: 'Territoire',
       title: 'Les Vikings sur la carte',
       years: [800, 900, 1000],
-      caption: "Comparez : partis de Scandinavie, les Vikings s'installent peu à peu en Angleterre, en Normandie, en Islande et jusqu'au Groenland.",
+      caption: "Compare : partis de Scandinavie, les Vikings s'installent peu à peu en Angleterre, en Normandie, en Islande et jusqu'au Groenland.",
     },
     {
       id: 'expeditions',
@@ -161,7 +161,7 @@ export default {
     { id: 'knut', carte: 'knut', type: 'mcq', prompt: 'Sur quels royaumes règne Knut le Grand ?', options: ['Angleterre, Danemark et Norvège', 'France et Germanie', 'Islande et Groenland', 'Byzance et Kiev'], answer: 0 },
     { id: 'vareges', carte: 'vareges', type: 'tf', prompt: 'Les Varègues, Vikings de l’Est, commercent jusqu’à Byzance.', answer: true },
     { id: 'stamford', carte: 'stamford', type: 'mcq', prompt: 'Quel roi de Norvège meurt à Stamford Bridge en 1066 ?', options: ['Harald Hardrada', 'Knut le Grand', 'Harald à la Dent bleue', 'Olaf Tryggvason'], answer: 0 },
-    { id: 'ordre', carte: ['lindisfarne', 'paris', 'leif', 'stamford'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Pillage de Lindisfarne', 'Siège de Paris', 'Fondation de la Normandie', 'Bataille de Stamford Bridge'] },
+    { id: 'ordre', carte: ['lindisfarne', 'paris', 'leif', 'stamford'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Pillage de Lindisfarne', 'Siège de Paris', 'Fondation de la Normandie', 'Bataille de Stamford Bridge'] },
   ],
 
   recap: [

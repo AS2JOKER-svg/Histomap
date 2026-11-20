@@ -19,7 +19,7 @@ export default {
       kicker: 'Territoire',
       title: 'Le khaganat avar',
       years: [600, 800],
-      caption: 'Comparez : les Avars dominent la plaine du Danube, au cœur de l’Europe.',
+      caption: 'Compare : les Avars dominent la plaine du Danube, au cœur de l’Europe.',
     },
     {
       id: 'pannonie',
@@ -162,7 +162,7 @@ export default {
     { id: 'etrier', carte: 'etrier', type: 'mcq', prompt: 'Quelle invention les Avars ont-ils sans doute contribué à diffuser en Europe ?', options: ['L’étrier', 'L’imprimerie', 'La boussole', 'Le moulin à vent'], answer: 0 },
     { id: 'ceinture', carte: 'ceintures', type: 'tf', prompt: 'Chez les Avars, la ceinture décorée est un signe de rang.', answer: true },
     { id: 'apres', carte: 'hongrois', type: 'mcq', prompt: 'Quel peuple occupe la plaine de Pannonie à la fin du IXe siècle ?', options: ['Les Hongrois', 'Les Romains', 'Les Wisigoths', 'Les Normands'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Destruction des Gépides', 'Prise de Sirmium', 'Siège de Constantinople', 'Prise du Ring par les Francs'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Destruction des Gépides', 'Prise de Sirmium', 'Siège de Constantinople', 'Prise du Ring par les Francs'] },
   ],
 
   recap: [

@@ -42,7 +42,8 @@ export default function AppShell() {
         Aller au contenu
       </a>
 
-      <header className="sticky top-0 z-30 glass border-b border-line/70">
+      {/* Presque opaque (glass-barre) : le rang et l'XP de la carte de l'Aventure gardent le contraste AA au-dessus des couleurs des mondes */}
+      <header className="sticky top-0 z-30 glass glass-barre border-b border-line/70">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center gap-3">
           <Link to="/" className="flex items-center gap-2.5 rounded-xl" aria-label="HistoMap — Aventure">
             <span

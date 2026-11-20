@@ -20,7 +20,7 @@ export default {
       kicker: 'Territoire',
       title: 'Les royaumes de l’Arabie du Sud',
       years: [-500, -100, 300, 500],
-      caption: 'Comparez : plusieurs royaumes se partagent le sud de l’Arabie, avant l’unification par Himyar.',
+      caption: 'Compare : plusieurs royaumes se partagent le sud de l’Arabie, avant l’unification par Himyar.',
     },
     {
       id: 'encens',
@@ -161,7 +161,7 @@ export default {
     { id: 'almaqah', carte: 'almaqah', type: 'mcq', prompt: 'Quel est le grand dieu de Saba ?', options: ['Almaqah', 'Baal', 'Osiris', 'Zeus'], answer: 0 },
     { id: 'aksoum', carte: 'fin', type: 'mcq', prompt: 'Quel royaume chrétien conquiert Himyar en 525 ?', options: ['Aksoum', 'Byzance', 'L’Arménie', 'Rome'], answer: 0 },
     { id: 'shibam', carte: 'maisons', type: 'mcq', prompt: 'Quelle ville yéménite est célèbre pour ses « gratte-ciel » de terre ?', options: ['Shibam', 'Dubaï', 'Djeddah', 'Mascate'], answer: 0 },
-    { id: 'ordre', carte: ['chronologie', 'gallus'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Karib’il Watar domine le Sud', 'Expédition d’Aelius Gallus', 'Himyar unifie le Sud', 'Conquête aksoumite'] },
+    { id: 'ordre', carte: ['chronologie', 'gallus'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Karib’il Watar domine le Sud', 'Expédition d’Aelius Gallus', 'Himyar unifie le Sud', 'Conquête aksoumite'] },
   ],
 
   recap: [

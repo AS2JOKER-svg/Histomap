@@ -20,7 +20,7 @@ export default {
       kicker: 'Territoire',
       title: 'De trois royaumes à un seul',
       years: [400, 900],
-      caption: 'Comparez : vers 400, trois royaumes et la confédération de Gaya ; vers 900, le Silla unifié au sud de la péninsule.',
+      caption: 'Compare : vers 400, trois royaumes et la confédération de Gaya ; vers 900, le Silla unifié au sud de la péninsule.',
     },
     {
       id: 'gwanggaeto',
@@ -163,7 +163,7 @@ export default {
     { id: 'hwarang', carte: 'hwarang', type: 'mcq', prompt: 'Qui sont les hwarang ?', options: ['Des groupes de jeunes nobles', 'Des moines bouddhistes', 'Des marchands', 'Des pirates'], answer: 0 },
     { id: 'imprime', carte: 'imprime', type: 'tf', prompt: 'On a retrouvé à Bulguksa l’un des plus anciens textes imprimés connus.', answer: true },
     { id: 'goryeo', carte: 'coree', type: 'mcq', prompt: 'À quel royaume Silla se soumet-il en 935 ?', options: ['Goryeo', 'Joseon', 'Koguryo', 'La Chine des Song'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Gwanggaeto roi de Koguryo', 'Silla adopte le bouddhisme', 'Silla unifie la péninsule', 'Soumission à Goryeo'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Gwanggaeto roi de Koguryo', 'Silla adopte le bouddhisme', 'Silla unifie la péninsule', 'Soumission à Goryeo'] },
   ],
 
   recap: [

@@ -159,7 +159,7 @@ export default {
     { id: 'tupou', carte: 'guerres', type: 'mcq', prompt: 'Qui unifie l’archipel en 1845 ?', options: ['George Tupou Ier', 'Kamehameha Ier', 'Hongi Hika', 'Ahoʻeitu'], answer: 0 },
     { id: 'colonise', carte: 'royaume', type: 'tf', prompt: 'Tonga a été une colonie européenne.', answer: false, explanation: 'Tonga n’a jamais été colonisé ; il fut seulement protectorat britannique de 1900 à 1970.' },
     { id: 'royaume', carte: 'royaume', type: 'mcq', prompt: 'Quel régime a Tonga aujourd’hui ?', options: ['Une monarchie', 'Une république', 'Une colonie', 'Un empire'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Premier Tuʻi Tonga (tradition)', 'Haʻamonga ʻa Maui', 'Arrivée d’Abel Tasman', 'George Tupou Ier roi'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Premier Tuʻi Tonga (tradition)', 'Haʻamonga ʻa Maui', 'Arrivée d’Abel Tasman', 'George Tupou Ier roi'] },
   ],
 
   recap: [

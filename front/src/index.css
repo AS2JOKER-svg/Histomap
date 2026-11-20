@@ -20,6 +20,7 @@
     --c-line:       226 214 191;  /* #e2d6bf */
     --c-accent:     138 58 30;    /* #8a3a1e terre cuite — 8:1 */
     --c-accent-2:   168 121 28;   /* #a8791c or (décor, jamais en petit texte) */
+    --c-accent-2-texte: 112 80 14; /* #70500e or foncé, pour le petit texte (badges) — 4,8:1 au moins sur ses fonds */
     --c-accent-btn: 138 58 30;
     --c-gold:       224 194 122;  /* #e0c27a or clair (sur encre) */
     --c-success:    16 112 72;
@@ -50,6 +51,7 @@
     --c-line:       74 61 44;
     --c-accent:     230 150 110;  /* #e6966e — 6,9:1 sur la surface */
     --c-accent-2:   224 194 122;
+    --c-accent-2-texte: 224 194 122;
     --c-accent-btn: 168 70 38;    /* #a84626 — texte blanc 5,6:1 */
     --c-gold:       224 194 122;
     --c-success:    86 196 140;
@@ -223,7 +225,7 @@
 
 /* Couleurs des types de fiche. Hors @layer : Tailwind ne les supprime pas, même quand la
    classe est construite dans le code (badge-${type}). */
-.badge-personne   { background: rgb(var(--c-accent-2) / .14); color: rgb(var(--c-accent-2)); }
+.badge-personne   { background: rgb(var(--c-accent-2) / .14); color: rgb(var(--c-accent-2-texte)); }
 .badge-evenement  { background: rgb(var(--c-warning) / .14); color: rgb(var(--c-warning)); }
 .badge-decouverte { background: rgb(var(--c-success) / .13); color: rgb(var(--c-success)); }
 .badge-guerre     { background: rgb(var(--c-danger) / .12); color: rgb(var(--c-danger)); }

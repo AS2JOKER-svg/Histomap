@@ -112,7 +112,7 @@ function autoCards({ civ }) {
       kicker: 'Territoire',
       title: 'Où sur la carte ?',
       years,
-      caption: years.length > 1 ? "Changez d'année pour voir le territoire s'étendre ou se réduire." : null,
+      caption: years.length > 1 ? "Change d'année pour voir le territoire s'étendre ou se réduire." : null,
     })
   }
   if (dates.length >= 2) {

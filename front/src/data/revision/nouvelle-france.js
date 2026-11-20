@@ -20,7 +20,7 @@ export default {
       kicker: 'Territoire',
       title: 'La Nouvelle-France',
       years: [1650, 1715],
-      caption: 'Comparez : de la vallée du Saint-Laurent, la Nouvelle-France s’étend jusqu’à la Louisiane.',
+      caption: 'Compare : de la vallée du Saint-Laurent, la Nouvelle-France s’étend jusqu’à la Louisiane.',
     },
     {
       id: 'quebec',
@@ -159,7 +159,7 @@ export default {
     { id: 'traite', carte: 'chronologie', type: 'mcq', prompt: 'Par quel traité la France cède-t-elle le Canada en 1763 ?', options: ['Le traité de Paris', 'Le traité de Versailles', 'Le traité de Westphalie', 'Le traité de Vienne'], answer: 0 },
     { id: 'acadiens', carte: 'acadiens', type: 'mcq', prompt: 'Quel peuple est déporté lors du Grand Dérangement de 1755 ?', options: ['Les Acadiens', 'Les Hurons', 'Les Québécois', 'Les Cajuns'], answer: 0 },
     { id: 'filles', carte: 'filles', type: 'mcq', prompt: 'Qui sont les « filles du roi » ?', options: ['Des jeunes femmes venues s’établir dans la colonie', 'Les filles de Louis XIV', 'Des religieuses', 'Des navires'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Jacques Cartier à Gaspé', 'Fondation de Québec', 'Grande Paix de Montréal', 'Traité de Paris'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Jacques Cartier à Gaspé', 'Fondation de Québec', 'Grande Paix de Montréal', 'Traité de Paris'] },
     { id: 'quebecois', carte: 'francais', type: 'mcq', prompt: 'Combien de Québécois parlent aujourd’hui français ?', options: ['Plus de 7 millions', 'Environ 70 000', 'Environ 700 000', 'Plus de 70 millions'], answer: 0 },
   ],
 

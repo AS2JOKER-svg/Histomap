@@ -162,7 +162,7 @@ export default {
     { id: 'auguste', carte: 'etapes', type: 'mcq', prompt: 'Qui devient le premier empereur en 27 av. J.-C. ?', options: ['Auguste', 'Trajan', 'Néron', 'Constantin'], answer: 0 },
     { id: 'actium', carte: 'auguste', type: 'mcq', prompt: 'Qui Octave bat-il à Actium en 31 av. J.-C. ?', options: ['Antoine et Cléopâtre', 'Hannibal', 'Les Gaulois', 'Les Parthes'], answer: 0 },
     { id: 'trajan', carte: 'empire-taille', type: 'mcq', prompt: "Sous quel empereur l'Empire atteint-il sa plus grande étendue (117) ?", options: ['Trajan', 'Auguste', 'Constantin', 'Néron'], answer: 0 },
-    { id: 'etapes-ordre', carte: 'etapes', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Fondation de Rome', 'Naissance de la République', 'Destruction de Carthage', 'Premier empereur'] },
+    { id: 'etapes-ordre', carte: 'etapes', type: 'order', prompt: "Remets dans l'ordre.", items: ['Fondation de Rome', 'Naissance de la République', 'Destruction de Carthage', 'Premier empereur'] },
     { id: 'colisee', carte: 'ingenieurs', type: 'tf', prompt: 'Le Colisée est inauguré en 80 apr. J.-C.', answer: true },
     { id: 'spartacus', carte: 'spartacus', type: 'mcq', prompt: 'Qui mène la grande révolte d’esclaves de 73 av. J.-C. ?', options: ['Spartacus', 'Catilina', 'Crassus', 'Brutus'], answer: 0 },
     { id: 'milan', carte: 'christianisme', type: 'mcq', prompt: 'Quel empereur accorde la liberté de culte aux chrétiens en 313 ?', options: ['Constantin', 'Théodose', 'Néron', 'Dioclétien'], answer: 0 },

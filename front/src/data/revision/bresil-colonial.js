@@ -20,7 +20,7 @@ export default {
       kicker: 'Territoire',
       title: 'Le Brésil portugais',
       years: [1650, 1815],
-      caption: 'Comparez : la colonie, d’abord limitée à la côte, s’étend vers l’intérieur grâce aux explorateurs et aux chercheurs d’or.',
+      caption: 'Compare : la colonie, d’abord limitée à la côte, s’étend vers l’intérieur grâce aux explorateurs et aux chercheurs d’or.',
     },
     {
       id: 'nom',
@@ -159,7 +159,7 @@ export default {
     { id: 'empire', carte: 'independance', type: 'tf', prompt: 'Après son indépendance, le Brésil devient une république.', answer: false, explanation: 'Il devient un empire, jusqu’en 1889.' },
     { id: 'capoeira', carte: 'capoeira', type: 'mcq', prompt: 'Qu’est-ce que la capoeira ?', options: ['Un mélange de lutte, de danse et de musique', 'Un plat de manioc', 'Une église baroque', 'Un bateau'], answer: 0 },
     { id: 'aleijadinho', carte: 'aleijadinho', type: 'mcq', prompt: 'Qui est le grand sculpteur du baroque brésilien ?', options: ['Aleijadinho', 'Michel-Ange', 'Cabral', 'Zumbi'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Arrivée de Cabral', 'Fondation de Salvador', 'Rio de Janeiro capitale', 'Indépendance'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Arrivée de Cabral', 'Fondation de Salvador', 'Rio de Janeiro capitale', 'Indépendance'] },
   ],
 
   recap: [

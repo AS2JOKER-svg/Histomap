@@ -161,7 +161,7 @@ export default {
     { id: 'pouchkine', carte: 'palais', type: 'mcq', prompt: 'Quel poète écrit sur la fontaine de Bakhtchissaraï ?', options: ['Pouchkine', 'Victor Hugo', 'Homère', 'Shakespeare'], answer: 0 },
     { id: 'cosaques', carte: 'cosaques', type: 'tf', prompt: 'Le khan de Crimée s’allie en 1648 au chef cosaque Khmelnytsky.', answer: true },
     { id: 'deportation', carte: 'deportation', type: 'mcq', prompt: 'Vers quelle région les Tatars de Crimée sont-ils déportés en 1944 ?', options: ['L’Asie centrale', 'L’Amérique', 'L’Afrique', 'Le Japon'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Fondation du khanat', 'Le khan vassal des Ottomans', 'Incendie de Moscou', 'Annexion par la Russie'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Fondation du khanat', 'Le khan vassal des Ottomans', 'Incendie de Moscou', 'Annexion par la Russie'] },
   ],
 
   recap: [

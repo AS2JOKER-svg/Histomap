@@ -151,7 +151,7 @@ export default {
     { id: 'persee', carte: 'genthios', type: 'mcq', prompt: 'De quel roi Genthios est-il l’allié contre Rome ?', options: ['Persée de Macédoine', 'Hannibal', 'Mithridate', 'Antiochos III'], answer: 0 },
     { id: 'revolte', carte: 'revolte', type: 'mcq', prompt: 'Quel futur empereur écrase la grande révolte illyrienne (6-9 apr. J.-C.) ?', options: ['Tibère', 'Néron', 'Hadrien', 'Constantin'], answer: 0 },
     { id: 'empereurs', carte: 'heritage', type: 'mcq', prompt: 'Quel empereur romain est d’origine illyrienne ?', options: ['Dioclétien', 'Auguste', 'Néron', 'Hadrien'], answer: 0 },
-    { id: 'ordre', carte: ['macedoine', 'chronologie'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Défaite de Bardylis face à Philippe II', 'Guerre de Rome contre Teuta', 'Capitulation de Genthios', 'Grande révolte illyrienne'] },
+    { id: 'ordre', carte: ['macedoine', 'chronologie'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Défaite de Bardylis face à Philippe II', 'Guerre de Rome contre Teuta', 'Capitulation de Genthios', 'Grande révolte illyrienne'] },
   ],
 
   recap: [

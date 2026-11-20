@@ -29,7 +29,7 @@ export default {
       kicker: 'Territoire',
       title: 'Des Tang aux Song',
       years: [700, 1000, 1200],
-      caption: "Comparez : un vaste empire tourné vers l'Asie centrale sous les Tang, puis une Chine des Song plus réduite, repoussée vers le sud après 1127.",
+      caption: "Compare : un vaste empire tourné vers l'Asie centrale sous les Tang, puis une Chine des Song plus réduite, repoussée vers le sud après 1127.",
     },
     {
       id: 'wu',
@@ -161,7 +161,7 @@ export default {
     { id: 'jurchen', carte: 'chronologie', type: 'mcq', prompt: 'Quel peuple prend Kaifeng en 1127 ?', options: ['Les Jurchen', 'Les Japonais', 'Les Arabes', 'Les Tibétains'], answer: 0 },
     { id: 'hangzhou', carte: 'fin', type: 'mcq', prompt: 'Quelle ville devient la capitale des Song du Sud ?', options: ['Hangzhou', "Chang'an", 'Kaifeng', 'Canton'], answer: 0 },
     { id: 'kubilai', carte: 'chronologie', type: 'mcq', prompt: 'Quel souverain mongol achève la conquête de la Chine en 1279 ?', options: ['Kubilai Khan', 'Gengis Khan', 'Tamerlan', 'Attila'], answer: 0 },
-    { id: 'ordre', carte: ['chronologie', 'an-lushan', 'fin'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Fondation des Tang', "Révolte d'An Lushan", 'Fondation des Song', 'Bataille de Yamen'] },
+    { id: 'ordre', carte: ['chronologie', 'an-lushan', 'fin'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Fondation des Tang', "Révolte d'An Lushan", 'Fondation des Song', 'Bataille de Yamen'] },
   ],
 
   recap: [

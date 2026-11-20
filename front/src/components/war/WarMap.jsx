@@ -142,7 +142,7 @@ export default function WarMap({ dossier, phaseIndex, onBattle }) {
             {pickedInfo.note ? ` : ${pickedInfo.note}` : ''}
           </>
         ) : (
-          <span className="text-muted">Touchez un pays pour voir sa situation, ou une bataille pour la découvrir.</span>
+          <span className="text-muted">Touche un pays pour voir sa situation, ou une bataille pour la découvrir.</span>
         )}
       </p>
 

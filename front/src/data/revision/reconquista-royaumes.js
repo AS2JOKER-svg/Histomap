@@ -29,7 +29,7 @@ export default {
       kicker: 'Territoire',
       title: 'La frontière descend vers le sud',
       years: [1000, 1200, 1400],
-      caption: "Comparez : les royaumes chrétiens, cantonnés au nord vers l'an 1000, occupent presque toute la péninsule en 1400. Seul reste le royaume de Grenade.",
+      caption: "Compare : les royaumes chrétiens, cantonnés au nord vers l'an 1000, occupent presque toute la péninsule en 1400. Seul reste le royaume de Grenade.",
     },
     {
       id: 'etapes',
@@ -161,7 +161,7 @@ export default {
     { id: 'mariage', carte: 'isabelle', type: 'mcq', prompt: 'Qui Isabelle de Castille épouse-t-elle en 1469 ?', options: ['Ferdinand d’Aragon', 'Charles Quint', 'Alphonse V de Portugal', 'Boabdil'], answer: 0 },
     { id: 'fusion', carte: 'isabelle', type: 'tf', prompt: 'Le mariage d’Isabelle et de Ferdinand fusionne immédiatement la Castille et l’Aragon en un seul royaume avec les mêmes lois.', answer: false, explanation: 'Les deux couronnes gardent leurs institutions et leurs lois : c’est une union personnelle.' },
     { id: 'grenade', carte: 'grenade-guerre', type: 'mcq', prompt: 'En quelle année Grenade capitule-t-elle ?', options: ['1492', '1212', '1469', '1085'], answer: 0 },
-    { id: 'ordre', carte: ['covadonga', 'etapes'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Bataille de Covadonga', 'Prise de Tolède', 'Bataille de Las Navas de Tolosa', 'Prise de Séville', 'Prise de Grenade'] },
+    { id: 'ordre', carte: ['covadonga', 'etapes'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Bataille de Covadonga', 'Prise de Tolède', 'Bataille de Las Navas de Tolosa', 'Prise de Séville', 'Prise de Grenade'] },
   ],
 
   recap: [

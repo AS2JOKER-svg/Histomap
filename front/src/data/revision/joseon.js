@@ -20,7 +20,7 @@ export default {
       kicker: 'Territoire',
       title: 'La péninsule coréenne',
       years: [1600, 1880],
-      caption: "Comparez : pendant cinq siècles, les frontières de Joseon changent très peu, entre la Chine au nord et le Japon de l'autre côté de la mer.",
+      caption: "Compare : pendant cinq siècles, les frontières de Joseon changent très peu, entre la Chine au nord et le Japon de l'autre côté de la mer.",
     },
     {
       id: 'confucianisme',
@@ -161,7 +161,7 @@ export default {
     { id: 'pluviometre', carte: 'sciences', type: 'mcq', prompt: 'Quel instrument est installé dans tout le royaume en 1441 ?', options: ['Le pluviomètre', 'Le télescope', 'Le thermomètre', 'La boussole'], answer: 0 },
     { id: 'ganghwa', carte: 'fin', type: 'mcq', prompt: 'Quel pays force la Corée à ouvrir ses ports en 1876 ?', options: ['Le Japon', 'La France', 'Les États-Unis', 'La Russie'], answer: 0 },
     { id: 'hwaseong', carte: 'jeongjo', type: 'tf', prompt: 'La forteresse de Hwaseong est construite à la fin du XVIIIe siècle.', answer: true },
-    { id: 'ordre', carte: ['fondation', 'hangeul', 'imjin', 'mandchous', 'fin'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Fondation de Joseon', 'Promulgation du hangeul', "Guerre d'Imjin", 'Soumission aux Qing', 'Traité de Ganghwa'] },
+    { id: 'ordre', carte: ['fondation', 'hangeul', 'imjin', 'mandchous', 'fin'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Fondation de Joseon', 'Promulgation du hangeul', "Guerre d'Imjin", 'Soumission aux Qing', 'Traité de Ganghwa'] },
   ],
 
   recap: [

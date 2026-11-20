@@ -20,7 +20,7 @@ export default {
       kicker: 'Territoire',
       title: 'L’empire de Tamerlan',
       years: [1400, 1500],
-      caption: 'Comparez : immense à la mort de Tamerlan, l’empire se divise ensuite entre ses descendants.',
+      caption: 'Compare : immense à la mort de Tamerlan, l’empire se divise ensuite entre ses descendants.',
     },
     {
       id: 'conquetes',
@@ -160,7 +160,7 @@ export default {
     { id: 'behzad', carte: 'renaissance', type: 'mcq', prompt: 'Quel peintre de miniatures travaille à Hérat ?', options: ['Behzad', 'Rembrandt', 'Michel-Ange', 'Hokusai'], answer: 0 },
     { id: 'fin', carte: 'fin', type: 'mcq', prompt: 'Qui prend Samarcande et Hérat au début du XVIe siècle ?', options: ['Les Ouzbeks', 'Les Mongols', 'Les Russes', 'Les Chinois'], answer: 0 },
     { id: 'babur', carte: 'fin', type: 'mcq', prompt: 'Quel empire fonde Babur, descendant de Tamerlan ?', options: ['L’Empire moghol', 'L’Empire ottoman', 'L’Empire safavide', 'L’Empire russe'], answer: 0 },
-    { id: 'ordre', carte: ['chronologie', 'ankara'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Tamerlan maître de Samarcande', 'Sac de Delhi', 'Bataille d’Ankara', 'Les Ouzbeks prennent Hérat'] },
+    { id: 'ordre', carte: ['chronologie', 'ankara'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Tamerlan maître de Samarcande', 'Sac de Delhi', 'Bataille d’Ankara', 'Les Ouzbeks prennent Hérat'] },
   ],
 
   recap: [

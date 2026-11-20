@@ -19,7 +19,7 @@ export default {
       kicker: 'Territoire',
       title: 'Deux empires successifs',
       years: [1100, 1200],
-      caption: 'Comparez : l’empire almoravide vers 1100, puis l’empire almohade, du Portugal à la Libye, vers 1200.',
+      caption: 'Compare : l’empire almoravide vers 1100, puis l’empire almohade, du Portugal à la Libye, vers 1200.',
     },
     {
       id: 'youssef',
@@ -162,7 +162,7 @@ export default {
     { id: 'fin', carte: 'navas', type: 'mcq', prompt: 'Qui prend Marrakech aux Almohades en 1269 ?', options: ['Les Mérinides', 'Les Mongols', 'Les Ottomans', 'Les Portugais'], answer: 0 },
     { id: 'marabout', carte: 'mots', type: 'mcq', prompt: 'Quel mot français vient du même mot arabe qu’« almoravide » ?', options: ['Marabout', 'Mosquée', 'Sultan', 'Calife'], answer: 0 },
     { id: 'or', carte: 'marabotin', type: 'mcq', prompt: 'Quelle monnaie almoravide est célèbre jusqu’en Espagne chrétienne ?', options: ['Le dinar d’or', 'Le franc', 'L’écu', 'Le sesterce'], answer: 0 },
-    { id: 'ordre', carte: ['chronologie', 'zallaqa', 'navas'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Fondation de Marrakech', 'Bataille de Zallaqa', 'Les Almohades prennent Marrakech', 'Bataille de Las Navas de Tolosa'] },
+    { id: 'ordre', carte: ['chronologie', 'zallaqa', 'navas'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Fondation de Marrakech', 'Bataille de Zallaqa', 'Les Almohades prennent Marrakech', 'Bataille de Las Navas de Tolosa'] },
   ],
 
   recap: [

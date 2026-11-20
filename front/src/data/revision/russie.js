@@ -32,7 +32,7 @@ export default {
       title: "De l'Empire russe à l'URSS",
       years: [1815, 1914, 1960],
       caption:
-        "Changez d'année : l'empire s'étend vers le Caucase et l'Asie centrale au XIXe siècle ; l'URSS reprend ensuite l'essentiel de ces territoires.",
+        "Change d'année : l'empire s'étend vers le Caucase et l'Asie centrale au XIXe siècle ; l'URSS reprend ensuite l'essentiel de ces territoires.",
     },
     {
       id: 'revolutions',
@@ -171,7 +171,7 @@ export default {
     { id: 'fin-urss', carte: 'fin-urss', type: 'mcq', prompt: "En quelle année l'URSS disparaît-elle ?", options: ['1991', '1989', '1985', '2000'], answer: 0 },
     { id: 'quinze', carte: 'fin-urss', type: 'tf', prompt: "En disparaissant, l'URSS laisse place à 15 États indépendants.", answer: true },
     { id: 'guerre-froide', carte: 'guerre-froide', type: 'tf', prompt: "Pendant la guerre froide, l'URSS et les États-Unis sont alliés.", answer: false, explanation: "Ils sont rivaux : deux superpuissances opposées, l'une communiste, l'autre capitaliste." },
-    { id: 'ordre', carte: ['1812', 'servage', 'revolutions', 'grande-guerre-patriotique', 'fin-urss'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Campagne de Russie de Napoléon', 'Abolition du servage', "Révolution d'Octobre", 'Bataille de Stalingrad', "Disparition de l'URSS"] },
+    { id: 'ordre', carte: ['1812', 'servage', 'revolutions', 'grande-guerre-patriotique', 'fin-urss'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Campagne de Russie de Napoléon', 'Abolition du servage', "Révolution d'Octobre", 'Bataille de Stalingrad', "Disparition de l'URSS"] },
   ],
 
   recap: [

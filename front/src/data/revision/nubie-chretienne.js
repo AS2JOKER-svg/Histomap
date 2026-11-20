@@ -161,7 +161,7 @@ export default {
     { id: 'ecriture', carte: 'ecriture', type: 'mcq', prompt: 'Avec quel alphabet les Nubiens écrivent-ils leur langue ?', options: ['L’alphabet copte', 'Les hiéroglyphes', 'L’alphabet latin', 'Le cunéiforme'], answer: 0 },
     { id: 'mamelouks', carte: 'fin', type: 'mcq', prompt: 'Qui intervient en Makurie à partir du XIIIe siècle ?', options: ['Les Mamelouks d’Égypte', 'Les Romains', 'Les Portugais', 'Les Mongols'], answer: 0 },
     { id: 'mosquee', carte: 'chronologie', type: 'tf', prompt: 'En 1317, la salle du trône de Dongola est transformée en mosquée.', answer: true },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Conversion de la Nobadie', 'Siège de Dongola et baqt', 'Intervention des Mamelouks', 'Chute de l’Alodie'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Conversion de la Nobadie', 'Siège de Dongola et baqt', 'Intervention des Mamelouks', 'Chute de l’Alodie'] },
   ],
 
   recap: [

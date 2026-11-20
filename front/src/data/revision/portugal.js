@@ -20,7 +20,7 @@ export default {
       kicker: 'Territoire',
       title: 'Le Portugal et ses comptoirs',
       years: [1300, 1700],
-      caption: 'Comparez : au petit royaume de 1300 s’ajoutent, vers 1700, des comptoirs et des colonies sur plusieurs continents.',
+      caption: 'Compare : au petit royaume de 1300 s’ajoutent, vers 1700, des comptoirs et des colonies sur plusieurs continents.',
     },
     {
       id: 'aljubarrota',
@@ -160,7 +160,7 @@ export default {
     { id: 'camoes', carte: 'camoes', type: 'mcq', prompt: 'Quel poète écrit Les Lusiades ?', options: ['Luís de Camões', 'Dante', 'Cervantès', 'Shakespeare'], answer: 0 },
     { id: 'cour', carte: 'bresil', type: 'mcq', prompt: 'Où s’installe la cour du Portugal en 1807 ?', options: ['À Rio de Janeiro', 'À Londres', 'À Goa', 'À Madrid'], answer: 0 },
     { id: 'traite', carte: 'empire', type: 'tf', prompt: 'Les navires portugais ont participé massivement à la traite des Africains.', answer: true },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Naissance du royaume', 'Bataille d’Aljubarrota', 'Vasco de Gama en Inde', 'Séisme de Lisbonne'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Naissance du royaume', 'Bataille d’Aljubarrota', 'Vasco de Gama en Inde', 'Séisme de Lisbonne'] },
   ],
 
   recap: [

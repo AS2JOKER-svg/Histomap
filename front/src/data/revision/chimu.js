@@ -19,7 +19,7 @@ export default {
       kicker: 'Territoire',
       title: 'Le royaume chimú',
       years: [1100, 1400],
-      caption: 'Comparez : le royaume s’étend le long de la côte, jusqu’à contrôler plus de 1 000 km de littoral.',
+      caption: 'Compare : le royaume s’étend le long de la côte, jusqu’à contrôler plus de 1 000 km de littoral.',
     },
     {
       id: 'chanchan',
@@ -157,7 +157,7 @@ export default {
     { id: 'artisans', carte: 'incas', type: 'tf', prompt: 'Après la conquête, des artisans chimús sont emmenés à Cuzco.', answer: true },
     { id: 'spondyle', carte: 'spondyle', type: 'mcq', prompt: 'Qu’est-ce que le spondyle ?', options: ['Un coquillage rouge précieux', 'Un dieu', 'Un poisson', 'Une arme'], answer: 0 },
     { id: 'ceramique', carte: 'ceramique', type: 'mcq', prompt: 'De quelle couleur est la céramique typique des Chimús ?', options: ['Noire', 'Bleue', 'Blanche', 'Verte'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Débuts de Chan Chan', 'Conquête de Lambayeque', 'Sacrifices de Huanchaquito', 'Conquête inca'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Débuts de Chan Chan', 'Conquête de Lambayeque', 'Sacrifices de Huanchaquito', 'Conquête inca'] },
     { id: 'peril', carte: 'unesco', type: 'mcq', prompt: 'Qu’est-ce qui menace aujourd’hui les murs de Chan Chan ?', options: ['La pluie et le vent', 'La neige et le gel', 'Les incendies de forêt', 'Les éruptions volcaniques'], answer: 0 },
   ],
 

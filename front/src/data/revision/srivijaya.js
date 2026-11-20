@@ -148,7 +148,7 @@ export default {
     { id: 'majapahit', carte: 'chronologie', type: 'mcq', prompt: 'Quel royaume javanais domine Palembang vers 1377 ?', options: ['Majapahit', 'Angkor', 'Champa', 'Ayutthaya'], answer: 0 },
     { id: 'malacca', carte: 'fin', type: 'mcq', prompt: 'Quel port un prince venu de Palembang fonde-t-il vers 1400 ?', options: ['Malacca', 'Bangkok', 'Batavia', 'Manille'], answer: 0 },
     { id: 'coedes', carte: 'redecouverte', type: 'mcq', prompt: 'Quel savant identifie Srivijaya en 1918 ?', options: ['George Cœdès', 'Henri Mouhot', 'Champollion', 'Marco Polo'], answer: 0 },
-    { id: 'ordre', carte: ['chronologie', 'fin', 'redecouverte'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Escale du moine Yijing', 'Raid de la flotte chola', 'Domination de Majapahit sur Palembang', 'Identification de Srivijaya par Cœdès'] },
+    { id: 'ordre', carte: ['chronologie', 'fin', 'redecouverte'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Escale du moine Yijing', 'Raid de la flotte chola', 'Domination de Majapahit sur Palembang', 'Identification de Srivijaya par Cœdès'] },
   ],
 
   recap: [

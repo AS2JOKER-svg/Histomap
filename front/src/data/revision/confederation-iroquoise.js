@@ -159,7 +159,7 @@ export default {
     { id: 'wampum', carte: 'wampum', type: 'mcq', prompt: 'Qu’est-ce qu’un wampum ?', options: ['Une ceinture de perles qui garde la mémoire des traités', 'Une arme', 'Une maison', 'Une danse'], answer: 0 },
     { id: 'revolution', carte: 'revolution', type: 'tf', prompt: 'Pendant la révolution américaine, toutes les nations de la confédération combattent du même côté.', answer: false, explanation: 'La plupart soutiennent les Britanniques, mais les Oneidas et les Tuscaroras soutiennent les Américains.' },
     { id: 'lacrosse', carte: 'lacrosse', type: 'mcq', prompt: 'De quel sport moderne le jeu de crosse est-il l’ancêtre ?', options: ['Le lacrosse', 'Le hockey sur glace', 'Le golf', 'Le baseball'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Union des cinq nations (date discutée)', 'Premier combat contre Champlain', 'Grande Paix de Montréal', 'Traité de Fort Stanwix'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Union des cinq nations (date discutée)', 'Premier combat contre Champlain', 'Grande Paix de Montréal', 'Traité de Fort Stanwix'] },
     { id: 'onondaga', carte: 'aujourdhui', type: 'mcq', prompt: 'Où le Grand Conseil de la confédération se réunit-il toujours ?', options: ['À Onondaga', 'À Québec', 'À Washington', 'À Montréal'], answer: 0 },
   ],
 

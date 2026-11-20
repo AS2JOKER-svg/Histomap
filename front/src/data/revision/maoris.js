@@ -159,7 +159,7 @@ export default {
     { id: 'hongihika', carte: 'hongihika', type: 'mcq', prompt: 'Quel chef maori rencontre le roi George IV en 1820 ?', options: ['Hongi Hika', 'Kupe', 'Te Rauparaha', 'Tupaia'], answer: 0 },
     { id: 'waitangi', carte: 'waitangi', type: 'mcq', prompt: 'Quel traité est signé en 1840 entre des chefs maoris et la Couronne britannique ?', options: ['Le traité de Waitangi', 'Le traité de Versailles', 'Le traité de Paris', 'Le traité de Tordesillas'], answer: 0 },
     { id: 'versions', carte: 'waitangi', type: 'tf', prompt: 'Les versions anglaise et maorie du traité de Waitangi disent exactement la même chose.', answer: false, explanation: 'Elles diffèrent sur la souveraineté, ce qui est toujours discuté.' },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Arrivée en Nouvelle-Zélande', 'Passage d’Abel Tasman', 'Arrivée de James Cook', 'Traité de Waitangi'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Arrivée en Nouvelle-Zélande', 'Passage d’Abel Tasman', 'Arrivée de James Cook', 'Traité de Waitangi'] },
   ],
 
   recap: [

@@ -38,7 +38,7 @@ export default {
       kicker: 'Territoire',
       title: "L'empire carthaginois",
       years: [-500, -200],
-      caption: "Comparez : un vaste réseau de côtes et d'îles en 500 av. J.-C., réduit après les défaites face à Rome.",
+      caption: "Compare : un vaste réseau de côtes et d'îles en 500 av. J.-C., réduit après les défaites face à Rome.",
     },
     {
       id: 'puniques',
@@ -157,7 +157,7 @@ export default {
     { id: 'cannes', carte: 'puniques', type: 'mcq', prompt: 'Quelle grande victoire Hannibal remporte-t-il en 216 av. J.-C. ?', options: ['Cannes', 'Zama', 'Alésia', 'Actium'], answer: 0 },
     { id: 'zama', carte: 'puniques', type: 'mcq', prompt: 'Qui bat Hannibal à Zama en 202 av. J.-C. ?', options: ['Scipion l’Africain', 'Jules César', 'Caton l’Ancien', 'Pompée'], answer: 0 },
     { id: 'pere', carte: 'hamilcar', type: 'mcq', prompt: "Qui est le père d'Hannibal ?", options: ['Hamilcar Barca', 'Magon', 'Hasdrubal', 'Hannon'], answer: 0 },
-    { id: 'ordre', carte: ['fondation', 'puniques', 'cannes', 'delenda'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Fondation de Carthage', 'Première guerre punique', 'Bataille de Cannes', 'Destruction de Carthage'] },
+    { id: 'ordre', carte: ['fondation', 'puniques', 'cannes', 'delenda'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Fondation de Carthage', 'Première guerre punique', 'Bataille de Cannes', 'Destruction de Carthage'] },
     { id: 'caton', carte: 'delenda', type: 'mcq', prompt: 'Qui répète « Il faut détruire Carthage » au Sénat romain ?', options: ['Caton l’Ancien', 'Cicéron', 'Scipion', 'Sénèque'], answer: 0 },
     { id: 'destruction', carte: 'puniques', type: 'mcq', prompt: 'En quelle année Carthage est-elle détruite ?', options: ['146 av. J.-C.', '216 av. J.-C.', '814 av. J.-C.', '44 av. J.-C.'], answer: 0 },
     { id: 'tanit', carte: 'religion', type: 'mcq', prompt: 'Quelle déesse est vénérée à Carthage ?', options: ['Tanit', 'Isis', 'Athéna', 'Ishtar'], answer: 0 },

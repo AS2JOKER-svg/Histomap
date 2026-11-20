@@ -157,7 +157,7 @@ export default {
     { id: 'veies', carte: 'veies', type: 'mcq', prompt: 'Quelle grande cité étrusque Rome prend-elle en 396 av. J.-C. ?', options: ['Véies', 'Volterra', 'Florence', 'Ostie'], answer: 0 },
     { id: 'alalia', carte: 'alalia', type: 'mcq', prompt: "Avec qui les Étrusques s'allient-ils à la bataille d'Alalia ?", options: ['Les Carthaginois', 'Les Romains', 'Les Gaulois', 'Les Perses'], answer: 0 },
     { id: 'cumes', carte: 'cumes', type: 'mcq', prompt: 'Qui écrase la flotte étrusque à Cumes en 474 av. J.-C. ?', options: ['Hiéron de Syracuse', 'Jules César', 'Hannibal', 'Alexandre le Grand'], answer: 0 },
-    { id: 'ordre', carte: ['rome', 'veies', 'alalia', 'cumes'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Bataille navale d’Alalia', 'Expulsion de Tarquin le Superbe', 'Défaite navale de Cumes', 'Prise de Véies par Rome'] },
+    { id: 'ordre', carte: ['rome', 'veies', 'alalia', 'cumes'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Bataille navale d’Alalia', 'Expulsion de Tarquin le Superbe', 'Défaite navale de Cumes', 'Prise de Véies par Rome'] },
     { id: 'langue', carte: 'langue', type: 'tf', prompt: "La langue étrusque est aujourd'hui parfaitement comprise.", answer: false, explanation: "On sait lire son alphabet, mais on ne comprend qu'une partie du vocabulaire." },
     { id: 'cloaca', carte: 'heritage', type: 'mcq', prompt: "Quel ouvrage de Rome la tradition attribue-t-elle aux rois étrusques ?", options: ['La Cloaca Maxima', 'Le Colisée', 'Le Panthéon', 'Le mur d’Hadrien'], answer: 0 },
     { id: 'fin', carte: 'fin', type: 'mcq', prompt: 'Quelle puissance absorbe finalement les cités étrusques ?', options: ['Rome', 'Carthage', 'La Grèce', 'Les Gaulois'], answer: 0 },

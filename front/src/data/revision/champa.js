@@ -20,7 +20,7 @@ export default {
       kicker: 'Territoire',
       title: 'Le Champa dans le temps',
       years: [600, 1100, 1500],
-      caption: 'Comparez : le Champa occupe longtemps la côte du centre et du sud du Vietnam, puis recule vers le sud.',
+      caption: 'Compare : le Champa occupe longtemps la côte du centre et du sud du Vietnam, puis recule vers le sud.',
     },
     {
       id: 'inde',
@@ -164,7 +164,7 @@ export default {
     { id: 'vijaya', carte: 'vijaya', type: 'mcq', prompt: 'Quel royaume prend la capitale du Champa en 1471 ?', options: ['Le Đại Việt', 'L’Empire khmer', 'L’Empire mongol', 'Le royaume d’Ayutthaya'], answer: 0 },
     { id: 'fin', carte: 'chronologie', type: 'mcq', prompt: 'En quelle année le dernier territoire cham est-il annexé ?', options: ['1832', '1471', '1177', '1945'], answer: 0 },
     { id: 'islam', carte: 'islam', type: 'tf', prompt: 'Une partie des Chams se convertit à l’islam.', answer: true },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Fondation', 'Pillage d’Angkor', 'Invasion mongole', 'Chute de Vijaya'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Fondation', 'Pillage d’Angkor', 'Invasion mongole', 'Chute de Vijaya'] },
   ],
 
   recap: [

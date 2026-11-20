@@ -29,7 +29,7 @@ export default {
       kicker: 'Territoire',
       title: "Un archipel entre deux océans",
       years: [1815, 1900, 1960],
-      caption: "Comparez : au XIXe siècle, les Néerlandais tiennent surtout Java et quelques comptoirs ; vers 1900, ils contrôlent presque tout l'archipel.",
+      caption: "Compare : au XIXe siècle, les Néerlandais tiennent surtout Java et quelques comptoirs ; vers 1900, ils contrôlent presque tout l'archipel.",
     },
     {
       id: 'java',
@@ -162,7 +162,7 @@ export default {
     { id: 'musulmans', carte: 'pancasila', type: 'tf', prompt: "L'Indonésie est le pays qui compte le plus de musulmans au monde.", answer: true },
     { id: 'bali', carte: 'pancasila', type: 'mcq', prompt: 'Quelle île indonésienne est majoritairement hindoue ?', options: ['Bali', 'Java', 'Sumatra', 'Bornéo'], answer: 0 },
     { id: 'timor', carte: 'timor', type: 'mcq', prompt: 'Quel territoire envahi en 1975 devient indépendant en 2002 ?', options: ['Le Timor oriental', 'Aceh', 'La Papouasie', 'Singapour'], answer: 0 },
-    { id: 'ordre', carte: ['etat', 'java', 'conquete', 'independance', 'sukarno'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Dissolution de la VOC', 'Guerre de Java', 'Invasion japonaise', "Proclamation de l'indépendance", 'Conférence de Bandung'] },
+    { id: 'ordre', carte: ['etat', 'java', 'conquete', 'independance', 'sukarno'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Dissolution de la VOC', 'Guerre de Java', 'Invasion japonaise', "Proclamation de l'indépendance", 'Conférence de Bandung'] },
   ],
 
   recap: [

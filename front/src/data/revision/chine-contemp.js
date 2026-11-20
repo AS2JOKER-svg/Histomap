@@ -32,7 +32,7 @@ export default {
       title: 'Un immense territoire',
       years: [1800, 1914, 1960],
       caption:
-        "Comparez : la Mongolie extérieure se détache de la Chine au début du XXe siècle ; la République populaire prend le contrôle du Tibet en 1950.",
+        "Compare : la Mongolie extérieure se détache de la Chine au début du XXe siècle ; la République populaire prend le contrôle du Tibet en 1950.",
     },
     {
       id: 'republique',
@@ -171,7 +171,7 @@ export default {
     { id: 'deng', carte: 'reformes', type: 'mcq', prompt: "Quel dirigeant ouvre l'économie chinoise à partir de 1978 ?", options: ['Deng Xiaoping', 'Mao Zedong', 'Sun Yat-sen', 'Tchang Kaï-chek'], answer: 0 },
     { id: 'tiananmen', carte: 'tiananmen', type: 'tf', prompt: "En 1989, le gouvernement accepte les demandes des manifestants de la place Tian'anmen.", answer: false, explanation: "L'armée réprime le mouvement dans la nuit du 3 au 4 juin 1989." },
     { id: 'omc', carte: 'reformes', type: 'mcq', prompt: "En quelle année la Chine entre-t-elle à l'Organisation mondiale du commerce ?", options: ['2001', '1978', '1997', '2010'], answer: 0 },
-    { id: 'ordre', carte: ['opium', 'sun', 'mao', 'mao-crises', 'reformes'], type: 'order', prompt: "Remettez dans l'ordre.", items: ["Première guerre de l'opium", "Révolution qui renverse l'empire", 'Proclamation de la République populaire', 'Début de la Révolution culturelle', "Entrée de la Chine à l'OMC"] },
+    { id: 'ordre', carte: ['opium', 'sun', 'mao', 'mao-crises', 'reformes'], type: 'order', prompt: "Remets dans l'ordre.", items: ["Première guerre de l'opium", "Révolution qui renverse l'empire", 'Proclamation de la République populaire', 'Début de la Révolution culturelle', "Entrée de la Chine à l'OMC"] },
   ],
 
   recap: [

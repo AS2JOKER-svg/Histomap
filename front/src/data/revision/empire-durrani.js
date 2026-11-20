@@ -20,7 +20,7 @@ export default {
       kicker: 'Territoire',
       title: 'L’empire durrani',
       years: [1783, 1815],
-      caption: 'Comparez : de l’est de l’Iran au Pendjab vers 1783, l’empire perd ensuite ses provinces de l’Inde.',
+      caption: 'Compare : de l’est de l’Iran au Pendjab vers 1783, l’empire perd ensuite ses provinces de l’Inde.',
     },
     {
       id: 'ahmad',
@@ -159,7 +159,7 @@ export default {
     { id: 'zamburak', carte: 'zamburak', type: 'mcq', prompt: 'Que sont les zamburaks ?', options: ['De petits canons à dos de chameau', 'Des épées courbes', 'Des forteresses', 'Des poèmes'], answer: 0 },
     { id: 'britanniques', carte: 'britanniques', type: 'mcq', prompt: 'Avec qui Shah Shuja signe-t-il un traité en 1809 ?', options: ['La Compagnie britannique des Indes', 'Napoléon', 'Le tsar de Russie', 'Le sultan ottoman'], answer: 0 },
     { id: 'fin', carte: 'fin', type: 'mcq', prompt: 'Quelle famille prend le pouvoir à Kaboul en 1826 ?', options: ['Les Barakzaï', 'Les Moghols', 'Les Safavides', 'Les Timourides'], answer: 0 },
-    { id: 'ordre', carte: ['chronologie', 'panipat'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Élection d’Ahmad Shah', 'Bataille de Panipat', 'Kaboul devient capitale', 'Les Sikhs prennent Lahore'] },
+    { id: 'ordre', carte: ['chronologie', 'panipat'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Élection d’Ahmad Shah', 'Bataille de Panipat', 'Kaboul devient capitale', 'Les Sikhs prennent Lahore'] },
     { id: 'timur-shah', carte: 'kaboul', type: 'mcq', prompt: 'Quel souverain transfère la capitale de l’empire durrani en 1776 ?', options: ['Timur Shah, fils d’Ahmad Shah', 'Ahmad Shah, le fondateur', 'Nader Shah', 'Ranjit Singh'], answer: 0 },
     { id: 'fils-timur', carte: 'tribus', type: 'mcq', prompt: 'Que se passe-t-il après la mort de Timur Shah ?', options: ['Ses nombreux fils se déchirent pour le trône', 'L’empire passe sous le contrôle des Britanniques', 'Les tribus élisent un roi perse', 'Son fils unique règne en paix pendant cinquante ans'], answer: 0 },
   ],

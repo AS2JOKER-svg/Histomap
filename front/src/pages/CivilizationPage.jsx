@@ -63,7 +63,7 @@ export default function CivilizationPage() {
     setLast({ path: `/frise/${epoch.id}/${civ.id}`, kind: 'fiche', title: civ.label, subtitle: `Fiche · ${epoch.label}`, color: civ.color })
     if (readFiche(civ.id)) {
       haptic('success')
-      showToast({ text: 'Nouvelle fiche découverte : ajoutée à votre progression', tone: 'success' })
+      showToast({ text: 'Nouvelle fiche découverte : ajoutée à ta progression', tone: 'success' })
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [epochId, civId])
@@ -425,7 +425,7 @@ function Dirigeants({ civ }) {
       <Regimes civ={civ} regimes={regimes} />
 
       <p className="mt-6 text-sm text-muted">
-        {leaders.length} dirigeant{leaders.length > 1 ? 's' : ''}. Touchez un nom pour son aperçu.
+        {leaders.length} dirigeant{leaders.length > 1 ? 's' : ''}. Touche un nom pour son aperçu.
       </p>
       <div className="mt-3 border-t border-line">
         {groups.map((g, i) => {
@@ -608,7 +608,7 @@ function DetailFallback({ status, retry }) {
           <Icon name="wifiOff" size={22} />
         </span>
         <p className="font-semibold text-ink">Fiche indisponible</p>
-        <p className="text-sm text-muted mt-1">Elle n'a pas pu être chargée. Vérifiez votre connexion, puis réessayez.</p>
+        <p className="text-sm text-muted mt-1">Elle n'a pas pu être chargée. Vérifie ta connexion, puis réessaie.</p>
         <button onClick={retry} className="btn-primary h-11 px-4 mt-4">
           <Icon name="refresh" size={18} /> Réessayer
         </button>

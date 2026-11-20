@@ -38,7 +38,7 @@ export default {
       kicker: 'Territoire',
       title: 'Colonies, républiques boers, puis Union',
       years: [1880, 1920, 1994],
-      caption: "Comparez : en 1880, colonies britanniques, républiques boers et royaumes africains se partagent la région ; à partir de 1910, l'Union sud-africaine les réunit.",
+      caption: "Compare : en 1880, colonies britanniques, républiques boers et royaumes africains se partagent la région ; à partir de 1910, l'Union sud-africaine les réunit.",
     },
     {
       id: 'or',
@@ -162,7 +162,7 @@ export default {
     { id: 'nobel', carte: 'de-klerk', type: 'mcq', prompt: 'Avec qui Mandela partage-t-il le prix Nobel de la paix en 1993 ?', options: ['Frederik de Klerk', 'Desmond Tutu', 'Gandhi', 'Chaka'], answer: 0 },
     { id: 'president', carte: 'mandela', type: 'mcq', prompt: 'En quelle année Mandela devient-il président ?', options: ['1994', '1990', '1964', '1999'], answer: 0 },
     { id: 'barnard', carte: 'barnard', type: 'mcq', prompt: 'Quelle première médicale a lieu au Cap en 1967 ?', options: ['La première greffe du cœur', 'Le premier vaccin', 'La première radiographie', "La découverte de l'ADN"], answer: 0 },
-    { id: 'ordre', carte: ['trek', 'or', 'carte', 'apartheid', 'elections'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Début du Grand Trek', "Découverte de l'or au Witwatersrand", 'Union sud-africaine', "Début de l'apartheid", 'Élection de Mandela'] },
+    { id: 'ordre', carte: ['trek', 'or', 'carte', 'apartheid', 'elections'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Début du Grand Trek', "Découverte de l'or au Witwatersrand", 'Union sud-africaine', "Début de l'apartheid", 'Élection de Mandela'] },
   ],
 
   recap: [

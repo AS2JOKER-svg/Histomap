@@ -47,7 +47,7 @@ export default {
       kicker: 'Territoire',
       title: 'Un petit pays entre les empires',
       years: [-1000, -700],
-      caption: "Entre l'Égypte et la Mésopotamie, le pays des Hébreux est un passage obligé pour les armées. Comparez : vers 700 av. J.-C., il est divisé et menacé par l'Assyrie.",
+      caption: "Entre l'Égypte et la Mésopotamie, le pays des Hébreux est un passage obligé pour les armées. Compare : vers 700 av. J.-C., il est divisé et menacé par l'Assyrie.",
     },
     {
       id: 'deux-royaumes',
@@ -157,7 +157,7 @@ export default {
     { id: 'hanoukka', carte: 'maccabees', type: 'mcq', prompt: 'Quelle fête juive rappelle la nouvelle consécration du Temple par les Maccabées ?', options: ['Hanoukka', 'Pâques', 'Noël', 'Le Nouvel An'], answer: 0 },
     { id: 'mur', carte: 'herode', type: 'mcq', prompt: 'Le mur des Lamentations est un vestige des travaux de quel roi ?', options: ['Hérode le Grand', 'David', 'Salomon', 'Nabuchodonosor'], answer: 0 },
     { id: 'titus', carte: 'revolte', type: 'mcq', prompt: 'Quel général romain détruit Jérusalem et le second Temple en 70 ?', options: ['Titus', 'Jules César', 'Pompée', 'Auguste'], answer: 0 },
-    { id: 'ordre', carte: ['deux-royaumes', 'exil', 'revolte'], type: 'order', prompt: "Remettez dans l'ordre chronologique.", items: ["Prise de Samarie par l'Assyrie", 'Destruction du premier Temple par Nabuchodonosor II', 'Retour des exilés autorisé par Cyrus', 'Destruction du second Temple par Titus'] },
+    { id: 'ordre', carte: ['deux-royaumes', 'exil', 'revolte'], type: 'order', prompt: "Remets dans l'ordre chronologique.", items: ["Prise de Samarie par l'Assyrie", 'Destruction du premier Temple par Nabuchodonosor II', 'Retour des exilés autorisé par Cyrus', 'Destruction du second Temple par Titus'] },
     { id: 'religions', carte: 'bible', type: 'tf', prompt: 'Le monothéisme des Hébreux est à l’origine du judaïsme, et il a inspiré le christianisme et l’islam.', answer: true },
     { id: 'qumran', carte: 'qumran', type: 'mcq', prompt: 'Près de quelle mer ont été découverts en 1947 de très anciens manuscrits bibliques ?', options: ['La mer Morte', 'La mer Rouge', 'La mer Noire', 'La mer Égée'], answer: 0 },
   ],

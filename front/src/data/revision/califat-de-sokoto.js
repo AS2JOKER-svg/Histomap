@@ -162,7 +162,7 @@ export default {
     { id: 'conquete', carte: 'chronologie', type: 'mcq', prompt: 'Quel pays conquiert le califat en 1903 ?', options: ['Le Royaume-Uni', 'La France', 'L’Allemagne', 'Le Portugal'], answer: 0 },
     { id: 'kano', carte: 'indigo', type: 'mcq', prompt: 'Pour quelle teinture Kano est-elle réputée ?', options: ['L’indigo', 'La pourpre', 'Le safran', 'La cochenille'], answer: 0 },
     { id: 'sultan', carte: 'fin', type: 'tf', prompt: 'Le sultan de Sokoto est encore aujourd’hui un guide religieux au Nigeria.', answer: true },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Début du djihad', 'Fondation de Sokoto', 'Muhammad Bello calife', 'Conquête britannique'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Début du djihad', 'Fondation de Sokoto', 'Muhammad Bello calife', 'Conquête britannique'] },
   ],
 
   recap: [

@@ -20,7 +20,7 @@ export default {
       kicker: 'Territoire',
       title: 'Les Marathes',
       years: [1715, 1783],
-      caption: 'Comparez : en un demi-siècle, le petit royaume de l’ouest devient une confédération qui domine le centre de l’Inde.',
+      caption: 'Compare : en un demi-siècle, le petit royaume de l’ouest devient une confédération qui domine le centre de l’Inde.',
     },
     {
       id: 'couronnement',
@@ -162,7 +162,7 @@ export default {
     { id: 'ahilyabai', carte: 'ahilyabai', type: 'mcq', prompt: 'Quelle reine d’Indore fait restaurer des temples dans toute l’Inde ?', options: ['Ahilyabai Holkar', 'Razia', 'Tarabai', 'Victoria'], answer: 0 },
     { id: 'fin', carte: 'britanniques', type: 'mcq', prompt: 'Qui met fin au pouvoir du peshwa en 1818 ?', options: ['Les Britanniques', 'Les Afghans', 'Les Moghols', 'Les Français'], answer: 0 },
     { id: 'agra', carte: 'agra', type: 'tf', prompt: 'Selon la tradition, Shivaji s’échappe d’Agra caché dans des paniers.', answer: true },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Couronnement de Shivaji', 'Mort d’Aurangzeb', 'Troisième bataille de Panipat', 'Fin du peshwa'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Couronnement de Shivaji', 'Mort d’Aurangzeb', 'Troisième bataille de Panipat', 'Fin du peshwa'] },
   ],
 
   recap: [

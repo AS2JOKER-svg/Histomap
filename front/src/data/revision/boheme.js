@@ -162,7 +162,7 @@ export default {
     { id: 'zizka', carte: 'zizka', type: 'mcq', prompt: 'Quelle tactique invente le chef hussite Jan Žižka ?', options: ['Des chariots de guerre reliés entre eux', 'Le tir à l’arc à cheval', 'Les tranchées', 'Les éléphants de guerre'], answer: 0 },
     { id: 'horloge', carte: 'horloge', type: 'tf', prompt: 'L’horloge astronomique de Prague, installée en 1410, fonctionne toujours.', answer: true },
     { id: 'habsbourg', carte: 'chronologie', type: 'mcq', prompt: 'À quelle dynastie passe la couronne de Bohême en 1526 ?', options: ['Les Habsbourg', 'Les Bourbons', 'Les Romanov', 'Les Tudor'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Mort de saint Venceslas', 'Royaume héréditaire', 'Université de Prague', 'Mort de Jan Hus'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Mort de saint Venceslas', 'Royaume héréditaire', 'Université de Prague', 'Mort de Jan Hus'] },
     { id: 'louis-ii', carte: 'habsbourg', type: 'mcq', prompt: 'Quel roi de Bohême meurt à la bataille de Mohács en 1526 ?', options: ['Louis II', 'Charles IV', 'Ottokar II', 'Jean l’Aveugle'], answer: 0 },
   ],
 

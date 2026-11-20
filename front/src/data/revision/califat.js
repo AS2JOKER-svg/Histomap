@@ -52,7 +52,7 @@ export default {
       kicker: 'Territoire',
       title: 'Le califat sur la carte',
       years: [700, 800, 900],
-      caption: "Changez d'année : l'unité se fissure peu à peu (al-Andalus, Afrique du Nord prennent leur indépendance).",
+      caption: "Change d'année : l'unité se fissure peu à peu (al-Andalus, Afrique du Nord prennent leur indépendance).",
     },
     {
       id: 'dynasties',
@@ -154,7 +154,7 @@ export default {
     { id: 'bagdad', carte: 'dynasties', type: 'mcq', prompt: 'Quelle dynastie fonde Bagdad en 762 ?', options: ['Les Abbassides', 'Les Omeyyades', 'Les Fatimides', 'Les Seldjoukides'], answer: 0 },
     { id: 'espagne', carte: 'expansion', type: 'tf', prompt: 'Les armées musulmanes passent en Espagne en 711.', answer: true },
     { id: 'poitiers', carte: 'expansion', type: 'mcq', prompt: "Près de quelle ville l'avancée en Gaule est-elle arrêtée en 732 ?", options: ['Poitiers', 'Paris', 'Toulouse', 'Lyon'], answer: 0 },
-    { id: 'expansion-ordre', carte: ['origine', 'expansion', 'dynasties'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Hégire', 'Mort de Muhammad', 'Conquête de l’Égypte', 'Passage en Espagne', 'Fondation de Bagdad'] },
+    { id: 'expansion-ordre', carte: ['origine', 'expansion', 'dynasties'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Hégire', 'Mort de Muhammad', 'Conquête de l’Égypte', 'Passage en Espagne', 'Fondation de Bagdad'] },
     { id: 'algebre', carte: 'sagesse', type: 'mcq', prompt: "Quel savant donne son nom à l'« algorithme » ?", options: ['Al-Khwârizmî', 'Avicenne', 'Averroès', 'Ibn Battuta'], answer: 0 },
     { id: 'chiffres', carte: 'sagesse', type: 'tf', prompt: 'Les chiffres dits « arabes » ont été inventés en Arabie.', answer: false, explanation: "Ils viennent de l'Inde et ont été transmis par le monde arabe." },
     { id: 'haroun', carte: 'haroun', type: 'mcq', prompt: 'Quel calife est associé aux Mille et Une Nuits ?', options: ['Haroun al-Rachid', 'Mu’awiya', 'Ali', 'Al-Mansur'], answer: 0 },

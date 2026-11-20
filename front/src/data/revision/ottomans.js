@@ -20,7 +20,7 @@ export default {
       kicker: 'Territoire',
       title: 'Un empire sur trois continents',
       years: [1500, 1600, 1783],
-      caption: "De l'Algérie à l'Irak et de la Hongrie à l'Arabie : comparez l'empire en 1500, à son apogée en 1600, puis en 1783.",
+      caption: "De l'Algérie à l'Irak et de la Hongrie à l'Arabie : compare l'empire en 1500, à son apogée en 1600, puis en 1783.",
     },
     {
       id: 'selim',
@@ -157,7 +157,7 @@ export default {
     { id: 'sinan', carte: 'sinan', type: 'mcq', prompt: 'Quel architecte construit la mosquée Süleymaniye ?', options: ['Sinan', 'Michel-Ange', 'Mehmed II', 'Ibn Battuta'], answer: 0 },
     { id: 'lepante', carte: 'lepante', type: 'mcq', prompt: 'Quelle bataille navale les Ottomans perdent-ils en 1571 ?', options: ['Lépante', 'Trafalgar', 'Salamine', 'Actium'], answer: 0 },
     { id: 'vienne', carte: 'vienne', type: 'mcq', prompt: 'Quel roi sauve Vienne assiégée en 1683 ?', options: ['Jean III Sobieski', 'Louis XIV', 'Charles Quint', 'Pierre le Grand'], answer: 0 },
-    { id: 'ordre', carte: ['origines', 'mohacs', 'lepante', 'reculs'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Prise de Constantinople', 'Bataille de Mohács', 'Bataille de Lépante', 'Second siège de Vienne'] },
+    { id: 'ordre', carte: ['origines', 'mohacs', 'lepante', 'reculs'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Prise de Constantinople', 'Bataille de Mohács', 'Bataille de Lépante', 'Second siège de Vienne'] },
     { id: 'tolerance', carte: 'tolerance', type: 'tf', prompt: "Dans l'Empire ottoman, les chrétiens et les juifs n'ont pas le droit de pratiquer leur religion.", answer: false, explanation: 'Ils la pratiquent, en payant un impôt particulier.' },
     { id: 'palais', carte: 'topkapi', type: 'mcq', prompt: 'Depuis quel palais le sultan gouverne-t-il ?', options: ['Topkapı', "L'Alhambra", 'Versailles', 'Le Kremlin'], answer: 0 },
     { id: 'roxelane', carte: 'roxelane', type: 'mcq', prompt: 'Qui est Roxelane ?', options: ['L’épouse de Soliman', 'Une reine de Hongrie', 'La mère de Mehmed II', 'Une sultane d’Égypte'], answer: 0 },

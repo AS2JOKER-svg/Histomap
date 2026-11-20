@@ -142,7 +142,7 @@ export default {
     { id: 'citoyens', carte: 'democratie', type: 'tf', prompt: 'À Athènes, les femmes votent à l’assemblée.', answer: false, explanation: 'Seuls les hommes libres nés de parents athéniens sont citoyens.' },
     { id: 'marathon', carte: 'mediques', type: 'mcq', prompt: 'Contre qui Athènes combat-elle à Marathon en 490 av. J.-C. ?', options: ['Les Perses', 'Les Spartiates', 'Les Romains', 'Les Macédoniens'], answer: 0 },
     { id: 'thermopyles', carte: 'mediques', type: 'mcq', prompt: 'Quel roi spartiate défend le défilé des Thermopyles ?', options: ['Léonidas', 'Périclès', 'Philippe II', 'Agamemnon'], answer: 0 },
-    { id: 'mediques-ordre', carte: ['mediques', 'peloponnese', 'philosophes'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Marathon', 'Salamine', 'Guerre du Péloponnèse', 'Mort d’Alexandre'] },
+    { id: 'mediques-ordre', carte: ['mediques', 'peloponnese', 'philosophes'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Marathon', 'Salamine', 'Guerre du Péloponnèse', 'Mort d’Alexandre'] },
     { id: 'peloponnese-vainqueur', carte: 'peloponnese', type: 'mcq', prompt: 'Qui remporte la guerre du Péloponnèse (431 – 404 av. J.-C.) ?', options: ['Sparte', 'Athènes', 'La Perse', 'Corinthe'], answer: 0 },
     { id: 'socrate', carte: 'philosophes', type: 'tf', prompt: 'Socrate est condamné à mort en 399 av. J.-C.', answer: true },
     { id: 'aristote', carte: 'philosophes', type: 'mcq', prompt: 'Quel philosophe est le précepteur d’Alexandre le Grand ?', options: ['Aristote', 'Platon', 'Socrate', 'Pythagore'], answer: 0 },

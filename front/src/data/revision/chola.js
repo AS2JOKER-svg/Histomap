@@ -159,7 +159,7 @@ export default {
     { id: 'ramayana', carte: 'litterature', type: 'mcq', prompt: 'Quel poète compose une célèbre version tamoule du Ramayana ?', options: ['Kambar', 'Kalidasa', 'Valmiki', 'Tagore'], answer: 0 },
     { id: 'temples-vf', carte: 'heritage', type: 'tf', prompt: 'Les temples chola sont aujourd’hui en ruines et abandonnés.', answer: false, explanation: 'Les « grands temples vivants chola » sont toujours des lieux de culte.' },
     { id: 'pandya', carte: 'chronologie', type: 'mcq', prompt: 'Quelle dynastie supplante les Chola au XIIIe siècle ?', options: ['Les Pandya', 'Les Moghols', 'Les Maurya', 'Les Gupta'], answer: 0 },
-    { id: 'ordre', carte: ['vijayalaya', 'chronologie'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Prise de Thanjavur par Vijayalaya', 'Début du règne de Rajaraja Ier', 'Expédition navale contre Srivijaya', 'Fin de la dynastie chola'] },
+    { id: 'ordre', carte: ['vijayalaya', 'chronologie'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Prise de Thanjavur par Vijayalaya', 'Début du règne de Rajaraja Ier', 'Expédition navale contre Srivijaya', 'Fin de la dynastie chola'] },
     { id: 'rajendra-iii', carte: 'fin', type: 'mcq', prompt: 'Qui est le dernier roi chola connu ?', options: ['Rajendra III', 'Rajaraja Ier', 'Vijayalaya', 'Rajendra Ier'], answer: 0 },
   ],
 

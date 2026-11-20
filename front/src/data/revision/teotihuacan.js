@@ -157,7 +157,7 @@ export default {
     { id: 'quartiers', carte: 'quartiers', type: 'mcq', prompt: 'Quels étrangers vivent dans un quartier de Teotihuacán ?', options: ["Des Zapotèques d'Oaxaca", 'Des Incas', 'Des Vikings', 'Des Espagnols'], answer: 0 },
     { id: 'fin', carte: 'fin', type: 'mcq', prompt: 'Que se passe-t-il vers 550 au centre de la ville ?', options: ['Les temples et palais sont incendiés', 'Les Espagnols arrivent', 'Un volcan engloutit la ville', 'Les Aztèques la fondent'], answer: 0 },
     { id: 'azteques', carte: 'nom', type: 'tf', prompt: 'Les Aztèques ont construit Teotihuacán.', answer: false, explanation: 'La ville était déjà en ruines depuis des siècles quand les Aztèques la découvrent.' },
-    { id: 'ordre', carte: ['naissance', 'soleil', 'tikal', 'fin'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['La ville commence à grandir', 'Achèvement de la pyramide du Soleil', 'Siyaj K’ak’ arrive à Tikal', 'Incendie du centre de Teotihuacán'] },
+    { id: 'ordre', carte: ['naissance', 'soleil', 'tikal', 'fin'], type: 'order', prompt: "Remets dans l'ordre.", items: ['La ville commence à grandir', 'Achèvement de la pyramide du Soleil', 'Siyaj K’ak’ arrive à Tikal', 'Incendie du centre de Teotihuacán'] },
   ],
 
   recap: [

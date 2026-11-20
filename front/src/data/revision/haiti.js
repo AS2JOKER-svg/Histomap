@@ -160,7 +160,7 @@ export default {
     { id: 'duvalier', carte: 'xxe', type: 'mcq', prompt: 'Quel surnom porte le dictateur François Duvalier ?', options: ['« Papa Doc »', '« Baby Doc »', '« Le Libérateur »', '« L’Empereur »'], answer: 0 },
     { id: 'langues', carte: 'carte', type: 'mcq', prompt: 'Quelles sont les langues officielles d’Haïti ?', options: ['Le créole haïtien et le français', 'L’espagnol et l’anglais', 'Le français et l’espagnol', 'Le créole et l’anglais'], answer: 0 },
     { id: 'seisme', carte: 'seisme', type: 'mcq', prompt: 'Quelle catastrophe frappe Port-au-Prince en 2010 ?', options: ['Un tremblement de terre', 'Un tsunami', 'Une éruption volcanique', 'Une épidémie de peste'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Révolte des esclaves', 'Indépendance', 'Occupation américaine', 'Séisme'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Révolte des esclaves', 'Indépendance', 'Occupation américaine', 'Séisme'] },
   ],
 
   recap: [

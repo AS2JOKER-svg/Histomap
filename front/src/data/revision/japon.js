@@ -55,7 +55,7 @@ export default {
       title: "L'empire japonais grandit puis disparaît",
       years: [1880, 1938, 1960],
       caption:
-        "Comparez : en 1938, le Japon contrôle Taïwan, la Corée et une partie de la Chine ; en 1960, il est revenu à son archipel.",
+        "Compare : en 1938, le Japon contrôle Taïwan, la Corée et une partie de la Chine ; en 1960, il est revenu à son archipel.",
     },
     {
       id: 'expansion',
@@ -171,7 +171,7 @@ export default {
     { id: 'economie', carte: 'miracle', type: 'tf', prompt: 'À la fin des années 1960, le Japon devient la deuxième économie du monde.', answer: true },
     { id: 'fukushima', carte: 'tsunami', type: 'mcq', prompt: 'Quelle centrale nucléaire est endommagée par le tsunami de 2011 ?', options: ['Fukushima', 'Tchernobyl', 'Three Mile Island', 'Flamanville'], answer: 0 },
     { id: 'tezuka', carte: 'culture', type: 'mcq', prompt: "Quel auteur de manga crée « Astro Boy » ?", options: ['Osamu Tezuka', 'Hayao Miyazaki', 'Saigō Takamori', 'Isoroku Yamamoto'], answer: 0 },
-    { id: 'ordre', carte: ['ouverture', 'meiji', 'russo-japonaise', 'pacifique', 'atome'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Arrivée des navires noirs de Perry', 'Restauration Meiji', 'Bataille de Tsushima', 'Attaque de Pearl Harbor', "Bombardement atomique d'Hiroshima"] },
+    { id: 'ordre', carte: ['ouverture', 'meiji', 'russo-japonaise', 'pacifique', 'atome'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Arrivée des navires noirs de Perry', 'Restauration Meiji', 'Bataille de Tsushima', 'Attaque de Pearl Harbor', "Bombardement atomique d'Hiroshima"] },
   ],
 
   recap: [

@@ -185,7 +185,7 @@ function OrderQuestion({ q, order, setOrder, done, onSubmit }) {
   }
   return (
     <div>
-      <p className="text-sm text-muted mb-3">Touchez les éléments du plus ancien au plus récent. Touchez à nouveau pour retirer.</p>
+      <p className="text-sm text-muted mb-3">Touche les éléments du plus ancien au plus récent. Touche à nouveau pour retirer.</p>
       <ul className="grid gap-2.5">
         {q.shuffled.map((item) => {
           const rank = order.indexOf(item)

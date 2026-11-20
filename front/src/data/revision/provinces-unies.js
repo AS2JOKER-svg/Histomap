@@ -163,7 +163,7 @@ export default {
     { id: 'roi', carte: 'pouvoir', type: 'tf', prompt: 'Les Provinces-Unies sont gouvernées par un roi tout-puissant.', answer: false, explanation: "C'est une république : les États généraux décident, le stathouder commande l'armée." },
     { id: 'huygens', carte: 'sciences', type: 'mcq', prompt: "Quel savant invente l'horloge à pendule ?", options: ['Christiaan Huygens', 'Galilée', 'Isaac Newton', 'Spinoza'], answer: 0 },
     { id: 'ruyter', carte: 'ruyter', type: 'mcq', prompt: 'Contre quelle flotte Michiel de Ruyter remporte-t-il ses plus célèbres victoires ?', options: ['La flotte anglaise', 'La flotte ottomane', 'La flotte chinoise', 'La flotte portugaise'], answer: 0 },
-    { id: 'ordre', carte: ['quatre-vingts', 'voc', 'rampjaar'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Début de la révolte contre l’Espagne', 'Fondation de la VOC', 'Indépendance reconnue au traité de Münster', "L'« année du désastre » face à Louis XIV"] },
+    { id: 'ordre', carte: ['quatre-vingts', 'voc', 'rampjaar'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Début de la révolte contre l’Espagne', 'Fondation de la VOC', 'Indépendance reconnue au traité de Münster', "L'« année du désastre » face à Louis XIV"] },
   ],
 
   recap: [

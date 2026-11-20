@@ -37,7 +37,7 @@ export default {
       kicker: 'Territoire',
       title: "L'empire de Ménélik",
       years: [1880, 1900, 2000],
-      caption: "Comparez : l'empire s'agrandit fortement sous Ménélik II ; depuis l'indépendance de l'Érythrée (1993), l'Éthiopie n'a plus d'accès à la mer.",
+      caption: "Compare : l'empire s'agrandit fortement sous Ménélik II ; depuis l'indépendance de l'Érythrée (1993), l'Éthiopie n'a plus d'accès à la mer.",
     },
     {
       id: 'adoua',
@@ -169,7 +169,7 @@ export default {
     { id: 'erythree', carte: 'depuis-1991', type: 'mcq', prompt: "Quel pays devient indépendant de l'Éthiopie en 1993 ?", options: ["L'Érythrée", 'La Somalie', 'Djibouti', 'Le Soudan du Sud'], answer: 0 },
     { id: 'ua', carte: 'oua', type: 'mcq', prompt: "Quelle organisation a son siège à Addis-Abeba ?", options: ["L'Union africaine", "L'Union européenne", 'La Ligue arabe', "L'ONU"], answer: 0 },
     { id: 'bikila', carte: 'culture', type: 'mcq', prompt: 'Comment Abebe Bikila gagne-t-il le marathon olympique de 1960 ?', options: ['Pieds nus', 'En sandales', 'Après une chute', 'À vélo'], answer: 0 },
-    { id: 'ordre', carte: ['tewodros', 'adoua', 'haile', 'derg'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Couronnement de Tewodros II', "Bataille d'Adoua", "Invasion italienne de l'Éthiopie", 'Renversement de Haïlé Sélassié', "Indépendance de l'Érythrée"] },
+    { id: 'ordre', carte: ['tewodros', 'adoua', 'haile', 'derg'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Couronnement de Tewodros II', "Bataille d'Adoua", "Invasion italienne de l'Éthiopie", 'Renversement de Haïlé Sélassié', "Indépendance de l'Érythrée"] },
   ],
 
   recap: [

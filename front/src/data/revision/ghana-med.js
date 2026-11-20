@@ -20,7 +20,7 @@ export default {
       kicker: 'Territoire',
       title: 'Aux portes du Sahara',
       years: [800, 1200],
-      caption: "Le Ghana s'étend dans le Sahel, au sud de l'actuelle Mauritanie et à l'ouest de l'actuel Mali. Comparez son étendue vers 800 et vers 1200.",
+      caption: "Le Ghana s'étend dans le Sahel, au sud de l'actuelle Mauritanie et à l'ouest de l'actuel Mali. Compare son étendue vers 800 et vers 1200.",
     },
     {
       id: 'nom',
@@ -159,7 +159,7 @@ export default {
     { id: 'koumbi', carte: 'koumbi', type: 'mcq', prompt: 'Quel site de Mauritanie est souvent identifié à la capitale du Ghana ?', options: ['Koumbi Saleh', 'Tombouctou', 'Gao', 'Djenné'], answer: 0 },
     { id: 'bida', carte: 'bida', type: 'mcq', prompt: 'Quel animal protège le Wagadou dans la légende soninké ?', options: ['Le serpent Bida', 'Le lion Soundiata', 'Le crocodile Sobek', "L'aigle d'or"], answer: 0 },
     { id: 'successeur', carte: 'fin', type: 'mcq', prompt: 'Quel empire contrôle la région du Ghana vers 1240 ?', options: ["L'Empire du Mali", "L'Empire songhaï", "L'Empire ottoman", 'Le royaume du Kongo'], answer: 0 },
-    { id: 'ordre', carte: ['wagadou', 'tunka', 'fin'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Al-Fazari mentionne le « pays de l’or »', 'Al-Bakri décrit le Ghana', 'Le royaume de Sosso domine la région', 'Le Mali contrôle la région'] },
+    { id: 'ordre', carte: ['wagadou', 'tunka', 'fin'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Al-Fazari mentionne le « pays de l’or »', 'Al-Bakri décrit le Ghana', 'Le royaume de Sosso domine la région', 'Le Mali contrôle la région'] },
   ],
 
   recap: [

@@ -159,7 +159,7 @@ export default {
     { id: 'exil', carte: 'capture', type: 'mcq', prompt: 'Où Samory meurt-il en exil ?', options: ['Au Gabon', 'En France', 'À Madagascar', 'En Algérie'], answer: 0 },
     { id: 'memoire', carte: 'memoire', type: 'tf', prompt: 'Samory est vu partout comme un héros, sans aucune critique.', answer: false, explanation: 'Dans certaines régions, on se souvient surtout des destructions de ses guerres.' },
     { id: 'sekou', carte: 'sekou', type: 'mcq', prompt: 'Quel président de la Guinée se disait descendant de Samory ?', options: ['Sékou Touré', 'Léopold Sédar Senghor', 'Nelson Mandela', 'Kwame Nkrumah'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Fondation de l’empire', 'Samory almamy', 'Prise de Bissandougou', 'Capture de Samory'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Fondation de l’empire', 'Samory almamy', 'Prise de Bissandougou', 'Capture de Samory'] },
   ],
 
   recap: [

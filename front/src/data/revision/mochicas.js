@@ -156,7 +156,7 @@ export default {
     { id: 'totora', carte: 'totora', type: 'mcq', prompt: 'En quoi sont faites les embarcations des pêcheurs mochicas ?', options: ['En roseaux', 'En fer', 'En peau de phoque', 'En écorce de bouleau'], answer: 0 },
     { id: 'moules', carte: 'moules', type: 'mcq', prompt: 'Comment les potiers fabriquent-ils des vases en série ?', options: ['Avec des moules', 'Avec un tour électrique', 'Avec des imprimantes', 'À la main uniquement'], answer: 0 },
     { id: 'pillage', carte: 'pillage', type: 'mcq', prompt: 'Comment des Espagnols abîment-ils la Huaca du Soleil ?', options: ['En détournant une rivière', 'Avec de la dynamite', 'Par un incendie', 'Avec des canons'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Début de la culture mochica', 'Tombe du Seigneur de Sipán', 'Tombe de la Dame de Cao', 'Fin de la culture mochica'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Début de la culture mochica', 'Tombe du Seigneur de Sipán', 'Tombe de la Dame de Cao', 'Fin de la culture mochica'] },
   ],
 
   recap: [

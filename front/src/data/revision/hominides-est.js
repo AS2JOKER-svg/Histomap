@@ -18,7 +18,7 @@ export default {
       tier: 1,
       type: 'person',
       nom: 'Toumaï',
-      role: 'Sahelanthropus tchadensis, un des plus anciens membres possibles de la lignée humaine',
+      role: 'Crâne de Sahelanthropus tchadensis, un des plus anciens membres possibles de la lignée humaine',
       dates: 'vers 7 millions d’années',
       description:
         "Ce crâne a été découvert en 2001 au Tchad par l'équipe du paléontologue français Michel Brunet. Son nom signifie « espoir de vie » en langue goran. Il montre que nos plus lointains ancêtres ne vivaient pas seulement à l'est de l'Afrique. Les chercheurs débattent encore pour savoir s'il marchait déjà debout.",
@@ -175,7 +175,7 @@ export default {
     { id: 'irhoud', carte: 'sapiens', type: 'mcq', prompt: 'Où ont été trouvés les plus anciens fossiles d’Homo sapiens connus (environ 300 000 ans) ?', options: ['Au Djebel Irhoud (Maroc)', 'À Lascaux (France)', 'À Zhoukoudian (Chine)', 'À Hadar (Éthiopie)'], answer: 0 },
     { id: 'buisson', carte: 'buisson', type: 'tf', prompt: "Plusieurs espèces d'hominines ont vécu à la même époque en Afrique de l'Est.", answer: true },
     { id: 'datation', carte: 'datation', type: 'mcq', prompt: 'Comment date-t-on un fossile vieux de plusieurs millions d’années ?', options: ['En datant les cendres volcaniques qui l’entourent', 'Au carbone 14', 'En comptant les cernes des arbres', 'Grâce à des textes anciens'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre chronologique.", items: ['Toumaï', 'Lucy', 'Homo erectus', 'Premiers Homo sapiens'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre chronologique.", items: ['Toumaï', 'Lucy', 'Homo erectus', 'Premiers Homo sapiens'] },
   ],
 
   recap: [

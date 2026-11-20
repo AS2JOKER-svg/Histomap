@@ -20,7 +20,7 @@ export default {
       kicker: 'Territoire',
       title: 'Le Siam rétrécit',
       years: [1800, 1914],
-      caption: 'Comparez : pour garder son indépendance, le Siam cède des territoires à la France (Laos, Cambodge occidental) et au Royaume-Uni (sultanats malais).',
+      caption: 'Compare : pour garder son indépendance, le Siam cède des territoires à la France (Laos, Cambodge occidental) et au Royaume-Uni (sultanats malais).',
     },
     {
       id: 'chulalongkorn',
@@ -159,7 +159,7 @@ export default {
     { id: 'religion', carte: 'bouddhisme', type: 'mcq', prompt: 'Quelle est la religion de la grande majorité des Thaïlandais ?', options: ['Le bouddhisme', 'L’islam', 'L’hindouisme', 'Le christianisme'], answer: 0 },
     { id: 'asean', carte: 'asean', type: 'mcq', prompt: 'Quelle organisation est fondée à Bangkok en 1967 ?', options: ['L’ASEAN', 'L’ONU', 'L’OPEP', 'L’OTAN'], answer: 0 },
     { id: 'songkran', carte: 'songkran', type: 'mcq', prompt: 'Que font les Thaïlandais pendant Songkran, le Nouvel An ?', options: ['Ils s’aspergent d’eau', 'Ils allument des feux de joie', 'Ils jeûnent', 'Ils lancent des oranges'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Bangkok capitale', 'Début du règne de Chulalongkorn', 'Fin de la monarchie absolue', 'Le Siam devient la Thaïlande'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Bangkok capitale', 'Début du règne de Chulalongkorn', 'Fin de la monarchie absolue', 'Le Siam devient la Thaïlande'] },
   ],
 
   recap: [

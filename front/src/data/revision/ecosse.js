@@ -20,7 +20,7 @@ export default {
       kicker: 'Territoire',
       title: 'L’Écosse',
       years: [1000, 1600],
-      caption: 'Comparez : le royaume occupe le nord de la Grande-Bretagne, face à l’Angleterre.',
+      caption: 'Compare : le royaume occupe le nord de la Grande-Bretagne, face à l’Angleterre.',
     },
     {
       id: 'wallace',
@@ -160,7 +160,7 @@ export default {
     { id: 'union', carte: 'union', type: 'mcq', prompt: 'Que se passe-t-il en 1603 ?', options: ['Le roi d’Écosse devient aussi roi d’Angleterre', 'L’Écosse est conquise', 'L’Écosse devient protestante', 'La France envahit l’Écosse'], answer: 0 },
     { id: '1707', carte: 'union', type: 'mcq', prompt: 'Que forment l’Écosse et l’Angleterre en 1707 ?', options: ['La Grande-Bretagne', 'Le Commonwealth', 'L’Union européenne', 'L’Irlande'], answer: 0 },
     { id: 'napier', carte: 'napier', type: 'mcq', prompt: 'Qu’invente le mathématicien écossais John Napier ?', options: ['Les logarithmes', 'Le télescope', 'La machine à vapeur', 'L’imprimerie'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Kenneth MacAlpin', 'Bataille de Bannockburn', 'Réforme protestante', 'Acte d’Union'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Kenneth MacAlpin', 'Bataille de Bannockburn', 'Réforme protestante', 'Acte d’Union'] },
   ],
 
   recap: [

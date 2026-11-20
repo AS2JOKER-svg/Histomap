@@ -158,7 +158,7 @@ export default {
     { id: 'dictature', carte: 'dictature', type: 'mcq', prompt: 'Quand le Brésil connaît-il une dictature militaire ?', options: ['De 1964 à 1985', 'De 1889 à 1930', 'De 1822 à 1831', 'De 2003 à 2010'], answer: 0 },
     { id: 'lula', carte: 'lula', type: 'mcq', prompt: 'Quel était le premier métier de Lula ?', options: ['Ouvrier métallurgiste', 'Officier de l’armée', 'Avocat', 'Footballeur'], answer: 0 },
     { id: 'foot', carte: 'football', type: 'mcq', prompt: 'Combien de Coupes du monde de football le Brésil a-t-il gagnées ?', options: ['5', '3', '4', '7'], answer: 0 },
-    { id: 'ordre', carte: ['cour', 'independance', 'abolition', 'brasilia', 'dictature'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Arrivée de la cour portugaise à Rio', 'Indépendance du Brésil', "Abolition de l'esclavage", 'Inauguration de Brasília', 'Fin de la dictature militaire'] },
+    { id: 'ordre', carte: ['cour', 'independance', 'abolition', 'brasilia', 'dictature'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Arrivée de la cour portugaise à Rio', 'Indépendance du Brésil', "Abolition de l'esclavage", 'Inauguration de Brasília', 'Fin de la dictature militaire'] },
   ],
 
   recap: [

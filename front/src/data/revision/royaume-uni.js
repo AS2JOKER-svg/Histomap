@@ -40,7 +40,7 @@ export default {
       kicker: 'Territoire',
       title: "L'Empire britannique",
       years: [1815, 1920, 1960],
-      caption: "Comparez : l'empire atteint sa plus grande étendue vers 1920, puis la décolonisation le réduit fortement.",
+      caption: "Compare : l'empire atteint sa plus grande étendue vers 1920, puis la décolonisation le réduit fortement.",
     },
     {
       id: 'empire',
@@ -158,7 +158,7 @@ export default {
     { id: 'suffragettes', carte: 'esclavage', type: 'mcq', prompt: 'Pour quoi les suffragettes se battent-elles ?', options: ['Le droit de vote des femmes', "L'indépendance de l'Irlande", 'La fin du travail des enfants', 'La sortie de l’Europe'], answer: 0 },
     { id: 'turing', carte: 'turing', type: 'mcq', prompt: 'Quel code allemand Alan Turing aide-t-il à casser ?', options: ['Enigma', 'Morse', 'Lorenz', 'Da Vinci'], answer: 0 },
     { id: 'irlande', carte: 'irlande', type: 'tf', prompt: "Toute l'Irlande devient indépendante en 1922.", answer: false, explanation: "Le sud devient indépendant ; l'Irlande du Nord reste britannique." },
-    { id: 'ordre', carte: ['waterloo', 'victoria', 'guerres', 'brexit'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Bataille de Waterloo', 'Début du règne de Victoria', "Bataille d'Angleterre", 'Référendum du Brexit'] },
+    { id: 'ordre', carte: ['waterloo', 'victoria', 'guerres', 'brexit'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Bataille de Waterloo', 'Début du règne de Victoria', "Bataille d'Angleterre", 'Référendum du Brexit'] },
     { id: 'brexit', carte: 'brexit', type: 'mcq', prompt: 'En quelle année le référendum sur le Brexit a-t-il lieu ?', options: ['2016', '2020', '1973', '2008'], answer: 0 },
     { id: 'elisabeth', carte: 'elisabeth', type: 'mcq', prompt: "Combien d'années dure le règne d'Élisabeth II ?", options: ['70 ans', '63 ans', '50 ans', '45 ans'], answer: 0 },
   ],

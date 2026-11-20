@@ -34,7 +34,7 @@ export default {
       kicker: 'Territoire',
       title: 'Un empire sur quatre continents',
       years: [1492, 1600, 1783],
-      caption: "Comparez : de la péninsule Ibérique en 1492 à un immense empire américain, de la Californie à la Terre de Feu.",
+      caption: "Compare : de la péninsule Ibérique en 1492 à un immense empire américain, de la Californie à la Terre de Feu.",
     },
     {
       id: 'charles-quint',
@@ -162,7 +162,7 @@ export default {
     { id: 'las-casas', carte: 'las-casas', type: 'mcq', prompt: 'Qui défend les droits des Amérindiens lors de la controverse de Valladolid ?', options: ['Bartolomé de Las Casas', 'Hernán Cortés', 'Ignace de Loyola', 'Christophe Colomb'], answer: 0 },
     { id: 'inquisition', carte: 'inquisition', type: 'tf', prompt: "L'Inquisition espagnole poursuit les personnes soupçonnées d'être de « faux convertis ».", answer: true },
     { id: 'bourbon', carte: 'succession', type: 'mcq', prompt: "Qui devient roi d'Espagne à la mort de Charles II en 1700 ?", options: ["Philippe d'Anjou, petit-fils de Louis XIV", 'Charles Quint', "Guillaume d'Orange", 'Philippe II'], answer: 0 },
-    { id: 'ordre', carte: ['1492', 'conquete', 'armada', 'succession'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Prise de Grenade', 'Chute de Tenochtitlan', "Défaite de l'Invincible Armada", "Traités d'Utrecht"] },
+    { id: 'ordre', carte: ['1492', 'conquete', 'armada', 'succession'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Prise de Grenade', 'Chute de Tenochtitlan', "Défaite de l'Invincible Armada", "Traités d'Utrecht"] },
   ],
 
   recap: [

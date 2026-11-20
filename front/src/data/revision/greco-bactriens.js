@@ -159,7 +159,7 @@ export default {
     { id: 'nomades', carte: 'fin', type: 'mcq', prompt: 'Quels nomades envahissent la Bactriane vers 130 av. J.-C. ?', options: ['Les Saces et les Yuezhi', 'Les Huns et les Goths', 'Les Mongols', 'Les Vikings'], answer: 0 },
     { id: 'kouchans', carte: 'fin', type: 'mcq', prompt: 'Quel empire les Yuezhi fondent-ils ensuite ?', options: ['L’Empire kouchan', 'L’Empire mongol', 'L’Empire perse', 'L’Empire maurya'], answer: 0 },
     { id: 'gandhara', carte: 'melange', type: 'mcq', prompt: 'Quel art naîtra de la rencontre entre Grecs et Indiens ?', options: ['L’art du Gandhara', 'L’art gothique', 'L’art maya', 'L’impressionnisme'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Indépendance de Diodote', 'Siège de Bactres', 'Conquête du nord-ouest de l’Inde', 'Chute d’Aï Khanoum'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Indépendance de Diodote', 'Siège de Bactres', 'Conquête du nord-ouest de l’Inde', 'Chute d’Aï Khanoum'] },
   ],
 
   recap: [

@@ -158,7 +158,7 @@ export default {
     { id: 'abandon', carte: 'chronologie', type: 'mcq', prompt: 'Vers quand Cahokia est-elle abandonnée ?', options: ['Vers 1350', 'Vers 1900', 'Vers 500', 'Vers 1776'], answer: 0 },
     { id: 'desoto', carte: 'mabila', type: 'mcq', prompt: 'Quel conquistador traverse le sud-est des États-Unis de 1539 à 1542 ?', options: ['Hernando de Soto', 'Hernán Cortés', 'Francisco Pizarro', 'Jacques Cartier'], answer: 0 },
     { id: 'epidemies', carte: 'fin', type: 'tf', prompt: 'Les épidémies venues d’Europe ont fait disparaître la plupart des grandes chefferies.', answer: true },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Débuts de la culture mississippienne', 'Essor de Cahokia', 'Abandon de Cahokia', 'Bataille de Mabila'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Débuts de la culture mississippienne', 'Essor de Cahokia', 'Abandon de Cahokia', 'Bataille de Mabila'] },
   ],
 
   recap: [

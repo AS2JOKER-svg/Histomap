@@ -162,7 +162,7 @@ export default {
     { id: 'frida', carte: 'frida', type: 'mcq', prompt: 'Qui est Frida Kahlo ?', options: ['Une artiste peintre', 'Une présidente du Mexique', 'Une chef révolutionnaire', 'Une sainte catholique'], answer: 0 },
     { id: 'cristeros', carte: 'guadalupe', type: 'mcq', prompt: 'Qui se révolte lors de la guerre des Cristeros (1926-1929) ?', options: ['Des catholiques', 'Des ouvriers du pétrole', 'Des soldats français', 'Des colons texans'], answer: 0 },
     { id: 'alena', carte: 'alena', type: 'mcq', prompt: "Avec quels pays le Mexique signe-t-il l'ALENA ?", options: ['Les États-Unis et le Canada', "L'Espagne et le Portugal", 'Le Brésil et l’Argentine', 'La Chine et le Japon'], answer: 0 },
-    { id: 'ordre', carte: ['dolores', 'guerre-usa', 'maximilien', 'revolution', 'cardenas'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Cri de Dolores', 'Traité de Guadalupe Hidalgo', 'Exécution de Maximilien', 'Début de la Révolution mexicaine', 'Nationalisation du pétrole'] },
+    { id: 'ordre', carte: ['dolores', 'guerre-usa', 'maximilien', 'revolution', 'cardenas'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Cri de Dolores', 'Traité de Guadalupe Hidalgo', 'Exécution de Maximilien', 'Début de la Révolution mexicaine', 'Nationalisation du pétrole'] },
     { id: 'haciendas', carte: 'porfiriato', type: 'mcq', prompt: 'À la veille de la Révolution de 1910, comment s’appellent les grands domaines qui possèdent la plupart des terres ?', options: ['Les haciendas', 'Les kolkhozes', 'Les favelas', 'Les pueblos'], answer: 0 },
   ],
 

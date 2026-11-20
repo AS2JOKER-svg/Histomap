@@ -30,7 +30,7 @@ export default {
       kicker: 'Territoire',
       title: 'L’Algérie',
       years: [1880, 1960],
-      caption: 'Comparez : la colonisation s’étend vers le sud ; l’Algérie indépendante inclut une immense partie du Sahara : c’est aujourd’hui le plus grand pays d’Afrique.',
+      caption: 'Compare : la colonisation s’étend vers le sud ; l’Algérie indépendante inclut une immense partie du Sahara : c’est aujourd’hui le plus grand pays d’Afrique.',
     },
     {
       id: 'colonie',
@@ -160,7 +160,7 @@ export default {
     { id: 'parti', carte: 'independante', type: 'tf', prompt: 'Après l’indépendance, le FLN gouverne en parti unique jusqu’en 1989.', answer: true },
     { id: 'annees90', carte: 'independante', type: 'mcq', prompt: 'Qui s’affrontent dans la guerre civile des années 1990 ?', options: ['L’armée et des groupes islamistes armés', 'L’Algérie et le Maroc', 'La France et le FLN', 'Les Kabyles et les Touaregs'], answer: 0 },
     { id: 'superficie', carte: 'carte', type: 'mcq', prompt: 'Quelle particularité a l’Algérie en Afrique ?', options: ['C’est le plus grand pays par sa superficie', 'C’est le pays le plus peuplé', 'C’est le plus petit pays', 'C’est le seul pays sans désert'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Prise d’Alger', 'Reddition d’Abd el-Kader', 'Début de la guerre d’Algérie', 'Indépendance'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Prise d’Alger', 'Reddition d’Abd el-Kader', 'Début de la guerre d’Algérie', 'Indépendance'] },
   ],
 
   recap: [

@@ -159,7 +159,7 @@ export default {
     { id: 'jerusalem', carte: 'jerusalem', type: 'mcq', prompt: 'Quel lieu saint de Jérusalem est vénéré par les juifs ?', options: ['Le mur des Lamentations', 'La mosquée al-Aqsa', 'Le Saint-Sépulcre', 'La Kaaba'], answer: 0 },
     { id: 'hamas', carte: 'gaza', type: 'mcq', prompt: 'Quel mouvement contrôle la bande de Gaza depuis 2007 ?', options: ['Le Hamas', 'Le Fatah', 'Le Hezbollah', 'L’OLP'], answer: 0 },
     { id: 'ben-gourion', carte: 'ben-gourion', type: 'mcq', prompt: 'Qui proclame l’indépendance d’Israël ?', options: ['David Ben Gourion', 'Theodor Herzl', 'Golda Meir', 'Menahem Begin'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Déclaration Balfour', 'Indépendance d’Israël et Nakba', 'Guerre des Six Jours', 'Accords d’Oslo'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Déclaration Balfour', 'Indépendance d’Israël et Nakba', 'Guerre des Six Jours', 'Accords d’Oslo'] },
     { id: 'revolte-1936', carte: 'mandat', type: 'mcq', prompt: 'Sous le mandat britannique, quand les Arabes palestiniens se révoltent-ils ?', options: ['De 1936 à 1939', 'De 1948 à 1950', 'De 1967 à 1973', 'De 1987 à 1993'], answer: 0 },
   ],
 

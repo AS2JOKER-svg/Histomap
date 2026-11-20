@@ -40,7 +40,7 @@ export default {
       title: 'Le royaume sur la carte',
       years: [1000, 1279, 1400],
       caption:
-        "Attention : en l'an 1000, le roi ne contrôle directement qu'un petit domaine autour de Paris ; le reste du royaume est tenu par de grands vassaux. En 1279 et en 1400, repérez les terres anglaises du sud-ouest et la Bretagne, encore indépendante.",
+        "Attention : en l'an 1000, le roi ne contrôle directement qu'un petit domaine autour de Paris ; le reste du royaume est tenu par de grands vassaux. En 1279 et en 1400, repère les terres anglaises du sud-ouest et la Bretagne, encore indépendante.",
     },
     {
       id: 'domaine',
@@ -209,7 +209,7 @@ export default {
     { id: 'templiers', carte: 'philippe-le-bel', type: 'tf', prompt: 'Les Templiers sont arrêtés sur ordre de Louis XI.', answer: false, explanation: "C'est Philippe le Bel, en 1307." },
     { id: 'succession-1328', carte: 'duree', type: 'mcq', prompt: "Quelle dynastie monte sur le trône en 1328, à la fin des Capétiens « directs » ?", options: ['Les Valois', 'Les Bourbons', 'Les Plantagenêts', 'Les Carolingiens'], answer: 0 },
     { id: 'cent-ans-cause', carte: 'cent-ans', type: 'mcq', prompt: 'Pourquoi la guerre de Cent Ans éclate-t-elle ?', options: ["Le roi d'Angleterre revendique la couronne de France", 'Une querelle religieuse avec le pape', 'Une invasion viking', 'Une révolte des villes flamandes'], answer: 0 },
-    { id: 'cent-ans-ordre', carte: 'cent-ans', type: 'order', prompt: "Remettez ces batailles de la guerre de Cent Ans dans l'ordre.", items: ['Crécy', 'Azincourt', "Délivrance d'Orléans", 'Castillon'], explanation: 'Crécy (1346) → Azincourt (1415) → Orléans (1429) → Castillon (1453).' },
+    { id: 'cent-ans-ordre', carte: 'cent-ans', type: 'order', prompt: "Remets ces batailles de la guerre de Cent Ans dans l'ordre.", items: ['Crécy', 'Azincourt', "Délivrance d'Orléans", 'Castillon'], explanation: 'Crécy (1346) → Azincourt (1415) → Orléans (1429) → Castillon (1453).' },
     { id: 'jeanne-sacre', carte: 'cent-ans', type: 'mcq', prompt: "Où Jeanne d'Arc fait-elle sacrer Charles VII en 1429 ?", options: ['Reims', 'Paris', 'Orléans', 'Rouen'], answer: 0 },
     { id: 'jeanne-mort', carte: 'jeanne', type: 'tf', prompt: "Jeanne d'Arc est brûlée à Rouen en 1431.", answer: true },
     { id: 'peste', carte: 'peste', type: 'mcq', prompt: 'Quelle part de la population la peste noire emporte-t-elle environ ?', options: ['Un tiers', 'Un dixième', 'Les trois quarts', 'Presque personne'], answer: 0 },

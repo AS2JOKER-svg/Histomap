@@ -43,7 +43,7 @@ export default {
       title: "De l'Inde britannique à l'Inde indépendante",
       years: [1900, 1960],
       caption:
-        "Comparez : l'Inde britannique comprend en 1900 les futurs Pakistan et Bangladesh ; en 1960, le Pakistan est un État séparé.",
+        "Compare : l'Inde britannique comprend en 1900 les futurs Pakistan et Bangladesh ; en 1960, le Pakistan est un État séparé.",
     },
     {
       id: 'independance-route',
@@ -172,7 +172,7 @@ export default {
     { id: 'ambedkar', carte: 'ambedkar', type: 'mcq', prompt: 'Qui dirige la rédaction de la Constitution indienne de 1950 ?', options: ['B. R. Ambedkar', 'Gandhi', 'La reine Victoria', 'Indira Gandhi'], answer: 0 },
     { id: 'bangladesh', carte: 'pakistan', type: 'mcq', prompt: 'Quel pays naît en 1971 du Pakistan oriental ?', options: ['Le Bangladesh', 'Le Sri Lanka', 'La Birmanie', 'Le Népal'], answer: 0 },
     { id: 'cachemire', carte: 'pakistan', type: 'mcq', prompt: "Quelle région l'Inde et le Pakistan se disputent-ils ?", options: ['Le Cachemire', 'Le Kerala', 'Le Tamil Nadu', 'Le Gujarat'], answer: 0 },
-    { id: 'ordre', carte: ['cipayes', 'independance-route', 'partition', 'pakistan'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Révolte des Cipayes', 'Marche du sel', 'Indépendance et Partition', 'Naissance du Bangladesh'] },
+    { id: 'ordre', carte: ['cipayes', 'independance-route', 'partition', 'pakistan'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Révolte des Cipayes', 'Marche du sel', 'Indépendance et Partition', 'Naissance du Bangladesh'] },
   ],
 
   recap: [

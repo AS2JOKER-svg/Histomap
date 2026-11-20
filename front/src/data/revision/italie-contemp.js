@@ -43,7 +43,7 @@ export default {
       kicker: 'Territoire',
       title: "L'Italie et ses colonies",
       years: [1880, 1938, 2000],
-      caption: "Comparez : le jeune royaume de 1880, l'Italie fasciste et ses colonies d'Afrique en 1938, puis l'Italie républicaine sans colonies.",
+      caption: "Compare : le jeune royaume de 1880, l'Italie fasciste et ses colonies d'Afrique en 1938, puis l'Italie républicaine sans colonies.",
     },
     {
       id: 'emigration',
@@ -165,7 +165,7 @@ export default {
     { id: 'cee', carte: 'miracle', type: 'tf', prompt: "L'Italie fait partie des six pays fondateurs de la CEE en 1957.", answer: true },
     { id: 'montessori', carte: 'montessori', type: 'mcq', prompt: 'Dans quel domaine Maria Montessori est-elle célèbre ?', options: ["L'éducation des enfants", 'La physique nucléaire', 'La peinture', "L'aviation"], answer: 0 },
     { id: 'falcone', carte: 'plomb', type: 'mcq', prompt: 'Contre quelle organisation le juge Falcone lutte-t-il ?', options: ['La mafia', 'Les Brigades rouges', 'Les chemises noires', "L'armée autrichienne"], answer: 0 },
-    { id: 'ordre', carte: ['etapes', 'fascisme', 'republique'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Expédition des Mille', 'Prise de Rome', 'Marche sur Rome', 'Référendum pour la république'] },
+    { id: 'ordre', carte: ['etapes', 'fascisme', 'republique'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Expédition des Mille', 'Prise de Rome', 'Marche sur Rome', 'Référendum pour la république'] },
   ],
 
   recap: [

@@ -20,7 +20,7 @@ export default {
       kicker: 'Territoire',
       title: 'Le Viêt Nam',
       years: [1880, 1960],
-      caption: 'Comparez : en 1880, le Viêt Nam passe sous domination française ; en 1960, il est en réalité coupé en deux au 17e parallèle.',
+      caption: 'Compare : en 1880, le Viêt Nam passe sous domination française ; en 1960, il est en réalité coupé en deux au 17e parallèle.',
     },
     {
       id: 'indochine',
@@ -163,7 +163,7 @@ export default {
     { id: 'doi-moi', carte: 'doi-moi', type: 'mcq', prompt: 'Que signifie « Đổi Mới », la politique lancée en 1986 ?', options: ['Renouveau', 'Révolution', 'Réunification', 'Résistance'], answer: 0 },
     { id: 'chine', carte: 'chine', type: 'mcq', prompt: 'Quel pays attaque le Viêt Nam en 1979 ?', options: ['La Chine', 'Le Cambodge', 'Les États-Unis', 'La Thaïlande'], answer: 0 },
     { id: 'ecriture', carte: 'quoc-ngu', type: 'mcq', prompt: 'Avec quel alphabet le vietnamien s’écrit-il aujourd’hui ?', options: ['L’alphabet latin', 'Les caractères chinois', 'L’alphabet cyrillique', 'L’alphabet arabe'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Attaque française', 'Indépendance proclamée', 'Diên Biên Phu', 'Chute de Saïgon'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Attaque française', 'Indépendance proclamée', 'Diên Biên Phu', 'Chute de Saïgon'] },
   ],
 
   recap: [

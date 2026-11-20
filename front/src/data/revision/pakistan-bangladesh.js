@@ -30,7 +30,7 @@ export default {
       kicker: 'Territoire',
       title: 'Un pays, puis deux',
       years: [1960, 2000],
-      caption: 'Comparez : en 1960, le Pakistan est fait de deux parties séparées par l’Inde ; en 2000, la partie orientale est devenue le Bangladesh. Capitales : Islamabad (Pakistan) et Dacca (Bangladesh).',
+      caption: 'Compare : en 1960, le Pakistan est fait de deux parties séparées par l’Inde ; en 2000, la partie orientale est devenue le Bangladesh. Capitales : Islamabad (Pakistan) et Dacca (Bangladesh).',
     },
     {
       id: 'cachemire',
@@ -160,7 +160,7 @@ export default {
     { id: 'malala', carte: 'malala', type: 'mcq', prompt: 'Pour quelle cause Malala Yousafzai reçoit-elle le prix Nobel de la paix ?', options: ['L’éducation des filles', 'La protection des forêts', 'La lutte contre la faim', 'Le désarmement nucléaire'], answer: 0 },
     { id: 'textile', carte: 'bangladesh', type: 'mcq', prompt: 'Quelle industrie porte la croissance du Bangladesh ?', options: ['Le textile et les vêtements', 'Le pétrole', 'L’automobile', 'L’aéronautique'], answer: 0 },
     { id: 'yunus', carte: 'yunus', type: 'mcq', prompt: 'Qu’a développé Muhammad Yunus au Bangladesh ?', options: ['Le microcrédit', 'L’arme nucléaire', 'Le cricket', 'Le chemin de fer'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Partition et naissance du Pakistan', 'Mouvement pour la langue bengalie', 'Indépendance du Bangladesh', 'Essais nucléaires pakistanais'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Partition et naissance du Pakistan', 'Mouvement pour la langue bengalie', 'Indépendance du Bangladesh', 'Essais nucléaires pakistanais'] },
     { id: 'coups-etat', carte: 'militaires', type: 'tf', prompt: 'Depuis sa création, le Pakistan a toujours été gouverné par des civils élus.', answer: false, explanation: 'Des coups d’État militaires ont lieu en 1958, 1977 et 1999.' },
   ],
 

@@ -154,7 +154,7 @@ export default {
     { id: 'jeu', carte: 'caoutchouc', type: 'mcq', prompt: 'À quoi servaient sans doute ces balles ?', options: ['Au jeu de balle rituel', 'Au commerce comme monnaie', 'À la guerre', 'À la pêche'], answer: 0 },
     { id: 'jade', carte: 'jade', type: 'mcq', prompt: 'Quelle pierre verte les Olmèques considèrent-ils comme précieuse ?', options: ['Le jade', "L'ambre", 'Le rubis', 'Le lapis-lazuli'], answer: 0 },
     { id: 'cascajal', carte: 'ecriture', type: 'tf', prompt: 'Les signes du bloc de Cascajal ont été entièrement déchiffrés.', answer: false, explanation: "Ils ne sont pas déchiffrés et on discute encore pour savoir s'il s'agit d'une écriture." },
-    { id: 'ordre', carte: ['centres', 'stirling'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Essor de San Lorenzo', 'Essor de La Venta', 'Abandon de La Venta', 'Fouilles de Matthew Stirling'] },
+    { id: 'ordre', carte: ['centres', 'stirling'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Essor de San Lorenzo', 'Essor de La Venta', 'Abandon de La Venta', 'Fouilles de Matthew Stirling'] },
     { id: 'heritiers', carte: 'culture-mere', type: 'mcq', prompt: 'Quels peuples reprennent ensuite certaines traditions olmèques ?', options: ['Les Mayas et les Zapotèques', 'Les Incas et les Mapuches', 'Les Vikings et les Celtes', 'Les Iroquois et les Inuits'], answer: 0 },
     { id: 'fin', carte: 'fin', type: 'mcq', prompt: 'Pourquoi la civilisation olmèque disparaît-elle vers 400 av. J.-C. ?', options: ['On ne le sait pas avec certitude', 'Elle est conquise par les Espagnols', 'Elle est détruite par les Aztèques', 'Elle est conquise par les Incas'], answer: 0 },
   ],

@@ -20,7 +20,7 @@ export default {
       kicker: 'Territoire',
       title: 'Le Danemark-Norvège',
       years: [1600, 1800],
-      caption: 'Comparez : le royaume perd au XVIIe siècle ses provinces du sud de la Suède actuelle.',
+      caption: 'Compare : le royaume perd au XVIIe siècle ses provinces du sud de la Suède actuelle.',
     },
     {
       id: 'reforme',
@@ -159,7 +159,7 @@ export default {
     { id: 'traite', carte: 'colonies', type: 'tf', prompt: 'Le Danemark est le premier pays à décider l’interdiction de la traite transatlantique.', answer: true },
     { id: 'kiel', carte: 'kiel', type: 'mcq', prompt: 'Par quel traité le Danemark cède-t-il la Norvège en 1814 ?', options: ['Le traité de Kiel', 'Le traité de Vienne', 'Le traité de Paris', 'Le traité de Roskilde'], answer: 0 },
     { id: 'garde', carte: 'kiel', type: 'mcq', prompt: 'Quelle île le Danemark garde-t-il après 1814 ?', options: ['Le Groenland', 'La Sicile', 'La Corse', 'Malte'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Fin de l’union de Kalmar', 'Réforme luthérienne', 'Traité de Roskilde', 'Traité de Kiel'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Fin de l’union de Kalmar', 'Réforme luthérienne', 'Traité de Roskilde', 'Traité de Kiel'] },
   ],
 
   recap: [

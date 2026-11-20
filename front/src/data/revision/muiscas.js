@@ -159,7 +159,7 @@ export default {
     { id: 'divises', carte: 'conquete', type: 'tf', prompt: 'Les Muiscas sont unis face aux Espagnols.', answer: false, explanation: 'Divisés entre le zipa et le zaque, ils ne parviennent pas à s’unir.' },
     { id: 'bochica', carte: 'bochica', type: 'mcq', prompt: 'Qui est Bochica dans les mythes muiscas ?', options: ['Un sage qui enseigne le tissage et les lois', 'Le dernier zipa', 'Un conquistador', 'Le dieu de la guerre'], answer: 0 },
     { id: 'cathedrale', carte: 'cathedrale', type: 'mcq', prompt: 'Qu’a-t-on creusé dans l’ancienne mine de sel de Zipaquirá ?', options: ['Une cathédrale', 'Un métro', 'Un musée de l’or', 'Un stade'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Débuts de la culture muisca', 'Bataille de Chocontá', 'Fondation de Bogotá', 'Exécution du dernier zaque'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Débuts de la culture muisca', 'Bataille de Chocontá', 'Fondation de Bogotá', 'Exécution du dernier zaque'] },
   ],
 
   recap: [

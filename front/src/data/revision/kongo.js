@@ -157,7 +157,7 @@ export default {
     { id: 'nom', carte: 'nzinga', type: 'mcq', prompt: 'Quel nom chrétien prend Nzinga a Nkuwu ?', options: ['João', 'Afonso', 'Manuel', 'Henrique'], answer: 0 },
     { id: 'soyo', carte: 'bapteme', type: 'tf', prompt: 'Le gouverneur de Soyo est baptisé avant le roi.', answer: true },
     { id: 'ecriture', carte: 'sources', type: 'tf', prompt: "Avant l'arrivée des Portugais, le Kongo utilise l'écriture.", answer: false, explanation: "Son histoire ancienne repose sur des traditions orales et sur l'archéologie." },
-    { id: 'ordre', carte: ['fondation', 'contact', 'bapteme'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Fondation du royaume par Lukeni lua Nimi', "Arrivée de Diogo Cão à l'embouchure du Congo", 'Baptême du roi Nzinga a Nkuwu'] },
+    { id: 'ordre', carte: ['fondation', 'contact', 'bapteme'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Fondation du royaume par Lukeni lua Nimi', "Arrivée de Diogo Cão à l'embouchure du Congo", 'Baptême du roi Nzinga a Nkuwu'] },
     { id: 'roi-choisi', carte: 'provinces', type: 'mcq', prompt: 'Comment le roi du Kongo est-il désigné ?', options: ['Il est choisi parmi les descendants du fondateur', 'Il est nommé par le roi du Portugal', 'Il est tiré au sort parmi tous les habitants', 'Le fils aîné hérite automatiquement du trône'], answer: 0 },
   ],
 

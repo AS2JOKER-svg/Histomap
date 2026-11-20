@@ -20,7 +20,7 @@ export default {
       kicker: 'Territoire',
       title: 'Un royaume qui rétrécit',
       years: [-300, -200, -100],
-      caption: 'Comparez : immense en 300 av. J.-C., le royaume séleucide n’est plus qu’un petit État autour d’Antioche vers 100 av. J.-C.',
+      caption: 'Compare : immense en 300 av. J.-C., le royaume séleucide n’est plus qu’un petit État autour d’Antioche vers 100 av. J.-C.',
     },
     {
       id: 'seleucos',
@@ -164,7 +164,7 @@ export default {
     { id: 'pompee', carte: 'fin', type: 'mcq', prompt: 'Quel général romain annexe la Syrie séleucide en 63 av. J.-C. ?', options: ['Pompée', 'Jules César', 'Scipion', 'Crassus'], answer: 0 },
     { id: 'villes', carte: 'villes', type: 'tf', prompt: 'Les Séleucides fondent de nombreuses villes grecques en Asie.', answer: true },
     { id: 'ere', carte: 'ere', type: 'mcq', prompt: 'À partir de quelle année compte-t-on l’« ère séleucide » ?', options: ['312 av. J.-C.', '753 av. J.-C.', '1 apr. J.-C.', '622'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Séleucos prend Babylone', 'Bataille d’Ipsos', 'Bataille de Magnésie', 'Annexion par Rome'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Séleucos prend Babylone', 'Bataille d’Ipsos', 'Bataille de Magnésie', 'Annexion par Rome'] },
   ],
 
   recap: [

@@ -159,7 +159,7 @@ export default {
     { id: 'dragon', carte: 'dragon', type: 'mcq', prompt: 'À quoi ressemble l’étendard dace ?', options: ['Une tête de loup et un corps de serpent', 'Un aigle d’or', 'Un lion rouge', 'Une croix'], answer: 0 },
     { id: 'or', carte: 'peuple', type: 'tf', prompt: 'Les montagnes de Dacie sont riches en or.', answer: true },
     { id: 'roumain', carte: 'roumanie', type: 'mcq', prompt: 'Quelle langue s’impose en Dacie après la conquête romaine ?', options: ['Le latin', 'Le grec', 'Le gotique', 'L’arabe'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Burebista roi', 'Assassinat de Burebista', 'Décébale roi', 'Chute de Sarmizegetusa'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Burebista roi', 'Assassinat de Burebista', 'Décébale roi', 'Chute de Sarmizegetusa'] },
   ],
 
   recap: [

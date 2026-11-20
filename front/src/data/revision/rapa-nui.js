@@ -156,7 +156,7 @@ export default {
     { id: '111', carte: 'raids', type: 'mcq', prompt: 'Combien d’habitants reste-t-il sur l’île en 1877 ?', options: ['111', '11 000', '5', '3 000'], answer: 0 },
     { id: 'chili', carte: 'aujourdhui', type: 'mcq', prompt: 'Quel pays annexe l’île en 1888 ?', options: ['Le Chili', 'La France', 'Les États-Unis', 'Le Pérou'], answer: 0 },
     { id: 'patate', carte: 'amerique', type: 'tf', prompt: 'La patate douce, venue d’Amérique, était cultivée en Polynésie avant l’arrivée des Européens.', answer: true },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Arrivée des Polynésiens (vers)', 'Arrivée de Roggeveen', 'Raids esclavagistes', 'Annexion par le Chili'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Arrivée des Polynésiens (vers)', 'Arrivée de Roggeveen', 'Raids esclavagistes', 'Annexion par le Chili'] },
     { id: 'palmiers', carte: 'forets', type: 'mcq', prompt: 'Pourquoi Rapa Nui perd-elle peu à peu ses grands palmiers ?', options: ['Ils sont abattus par les humains et leurs graines sont mangées par les rats', 'Une éruption volcanique les détruit en une nuit', 'Les Européens les coupent pour réparer leurs navires', 'Un tsunami les arrache'], answer: 0 },
   ],
 

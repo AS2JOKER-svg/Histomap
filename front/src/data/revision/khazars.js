@@ -20,7 +20,7 @@ export default {
       kicker: 'Territoire',
       title: 'La Khazarie',
       years: [700, 800, 900],
-      caption: 'Comparez : au IXe siècle, les Khazars dominent les steppes, entre le Caucase, la Volga et le Dniepr.',
+      caption: 'Compare : au IXe siècle, les Khazars dominent les steppes, entre le Caucase, la Volga et le Dniepr.',
     },
     {
       id: 'arabes',
@@ -159,7 +159,7 @@ export default {
     { id: 'fin', carte: 'fin', type: 'mcq', prompt: 'Vers quand le khaganat khazar disparaît-il ?', options: ['Vers 969', 'Vers 500', 'Vers 1240', 'Vers 1453'], answer: 0 },
     { id: 'cyrille', carte: 'cyrille', type: 'mcq', prompt: 'Quel futur saint vient débattre de religion chez les Khazars en 861 ?', options: ['Cyrille', 'Augustin', 'Patrick', 'François d’Assise'], answer: 0 },
     { id: 'mythe', carte: 'mythe', type: 'tf', prompt: 'Les études confirment que la plupart des juifs d’Europe de l’Est descendent des Khazars.', answer: false, explanation: 'Cette idée n’est pas confirmée par les études historiques et génétiques.' },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Victoire de Balanjar', 'Invasion de Marwan', 'Construction de Sarkel', 'Prise de Sarkel par Sviatoslav'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Victoire de Balanjar', 'Invasion de Marwan', 'Construction de Sarkel', 'Prise de Sarkel par Sviatoslav'] },
   ],
 
   recap: [

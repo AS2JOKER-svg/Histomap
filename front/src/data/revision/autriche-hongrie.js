@@ -20,7 +20,7 @@ export default {
       kicker: 'Territoire',
       title: "Un empire au cœur de l'Europe",
       years: [1815, 1878, 1914],
-      caption: "Comparez : l'empire perd ses terres d'Italie (1859-1866), mais s'étend dans les Balkans avec la Bosnie-Herzégovine, occupée en 1878.",
+      caption: "Compare : l'empire perd ses terres d'Italie (1859-1866), mais s'étend dans les Balkans avec la Bosnie-Herzégovine, occupée en 1878.",
     },
     {
       id: 'printemps',
@@ -160,7 +160,7 @@ export default {
     { id: 'freud', carte: 'vienne', type: 'mcq', prompt: 'Quel Viennois invente la psychanalyse ?', options: ['Sigmund Freud', 'Gustav Klimt', 'Gregor Mendel', 'Gustav Mahler'], answer: 0 },
     { id: 'mendel', carte: 'mendel', type: 'mcq', prompt: 'Avec quelle plante Mendel découvre-t-il les lois de l’hérédité ?', options: ['Le petit pois', 'Le blé', 'La tulipe', 'La vigne'], answer: 0 },
     { id: 'fin', carte: 'fin', type: 'mcq', prompt: "Quel pays naît de la dislocation de l'Autriche-Hongrie en 1918 ?", options: ['La Tchécoslovaquie', 'La Belgique', 'La Bulgarie', 'La Grèce'], answer: 0 },
-    { id: 'ordre', carte: ['empire', 'printemps', 'sadowa', 'compromis', 'guerre'], type: 'order', prompt: "Remettez dans l'ordre.", items: ["Création de l'Empire d'Autriche", 'Printemps des peuples', 'Bataille de Sadowa', 'Compromis austro-hongrois', 'Attentat de Sarajevo'] },
+    { id: 'ordre', carte: ['empire', 'printemps', 'sadowa', 'compromis', 'guerre'], type: 'order', prompt: "Remets dans l'ordre.", items: ["Création de l'Empire d'Autriche", 'Printemps des peuples', 'Bataille de Sadowa', 'Compromis austro-hongrois', 'Attentat de Sarajevo'] },
   ],
 
   recap: [

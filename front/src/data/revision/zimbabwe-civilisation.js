@@ -149,7 +149,7 @@ export default {
     { id: 'caton', carte: 'mythe', type: 'mcq', prompt: "Quelle archéologue prouve en 1929 l'origine africaine du site ?", options: ['Gertrude Caton-Thompson', 'Marie Curie', 'Mary Leakey', 'Jane Goodall'], answer: 0 },
     { id: 'datation', carte: 'datation', type: 'mcq', prompt: "Quelle méthode permet de dater des restes de bois ou de charbon ?", options: ['Le carbone 14', 'La boussole', "L'imprimerie", 'Le télescope'], answer: 0 },
     { id: 'rhodesie', carte: 'heritage', type: 'mcq', prompt: 'Quel pays prend le nom de Zimbabwe en 1980 ?', options: ['La Rhodésie', 'Le Bechuanaland', 'Le Nyassaland', 'Le Tanganyika'], answer: 0 },
-    { id: 'ordre', carte: ['chronologie', 'mythe'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Premiers villages shona sur le site', 'Apogée de la ville', 'Abandon de la capitale', 'Fouilles de Gertrude Caton-Thompson'] },
+    { id: 'ordre', carte: ['chronologie', 'mythe'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Premiers villages shona sur le site', 'Apogée de la ville', 'Abandon de la capitale', 'Fouilles de Gertrude Caton-Thompson'] },
   ],
 
   recap: [

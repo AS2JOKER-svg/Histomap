@@ -20,7 +20,7 @@ export default {
       kicker: 'Territoire',
       title: "L'empire d'Angkor",
       years: [1000, 1200, 1400],
-      caption: "Comparez : centré sur l'actuel Cambodge, l'empire s'étend vers la Thaïlande, le Laos et le sud du Vietnam, avant de reculer face aux Thaïs.",
+      caption: "Compare : centré sur l'actuel Cambodge, l'empire s'étend vers la Thaïlande, le Laos et le sud du Vietnam, avant de reculer face aux Thaïs.",
     },
     {
       id: 'angkor',
@@ -161,7 +161,7 @@ export default {
     { id: 'zhou', carte: 'zhou-daguan', type: 'mcq', prompt: 'Qui est Zhou Daguan ?', options: ['Un diplomate chinois qui décrit Angkor', 'Un roi khmer', 'Un explorateur français', 'Un général thaï'], answer: 0 },
     { id: 'ayutthaya', carte: 'fin', type: 'mcq', prompt: 'Quel royaume prend Angkor vers 1431, selon la tradition ?', options: ['Ayutthaya', 'Le Champa', 'La Chine des Ming', 'Le Dai Viet'], answer: 0 },
     { id: 'oubli', carte: 'mouhot', type: 'tf', prompt: 'Après 1431, Angkor Wat est totalement abandonnée et oubliée de tous.', answer: false, explanation: "Des moines bouddhistes continuent d'y vivre ; l'Europe la découvre par le récit d'Henri Mouhot." },
-    { id: 'ordre', carte: ['jayavarman-ii', 'angkor-wat', 'cham', 'fin'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Sacre de Jayavarman II', 'Construction d’Angkor Wat', 'Pillage d’Angkor par les Chams', 'Prise d’Angkor par Ayutthaya'] },
+    { id: 'ordre', carte: ['jayavarman-ii', 'angkor-wat', 'cham', 'fin'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Sacre de Jayavarman II', 'Construction d’Angkor Wat', 'Pillage d’Angkor par les Chams', 'Prise d’Angkor par Ayutthaya'] },
   ],
 
   recap: [

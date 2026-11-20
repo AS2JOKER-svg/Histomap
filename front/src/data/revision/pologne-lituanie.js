@@ -20,7 +20,7 @@ export default {
       kicker: 'Territoire',
       title: "Un géant de l'Europe de l'Est",
       years: [1600, 1650, 1715],
-      caption: "Comparez : de la Baltique jusqu'aux steppes d'Ukraine, un immense territoire qui commence à reculer après 1650.",
+      caption: "Compare : de la Baltique jusqu'aux steppes d'Ukraine, un immense territoire qui commence à reculer après 1650.",
     },
     {
       id: 'liberte-doree',
@@ -164,7 +164,7 @@ export default {
     { id: 'partageurs', carte: 'partages', type: 'mcq', prompt: 'Quels pays se partagent la Pologne ?', options: ["La Russie, la Prusse et l'Autriche", "La France, la Suède et l'Autriche", "La Russie, la Suède et l'Empire ottoman", "La Prusse, la France et l'Angleterre"], answer: 0 },
     { id: 'disparition', carte: 'partages', type: 'mcq', prompt: 'En quelle année la Pologne disparaît-elle de la carte ?', options: ['1795', '1772', '1683', '1815'], answer: 0 },
     { id: 'kosciuszko', carte: 'kosciuszko', type: 'tf', prompt: "Kościuszko a aussi combattu pour l'indépendance des États-Unis.", answer: true },
-    { id: 'ordre', carte: ['lublin', 'deluge', 'vienne', 'partages'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Union de Lublin', 'Le Déluge', 'Bataille de Vienne', 'Premier partage', 'Constitution du 3 mai'] },
+    { id: 'ordre', carte: ['lublin', 'deluge', 'vienne', 'partages'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Union de Lublin', 'Le Déluge', 'Bataille de Vienne', 'Premier partage', 'Constitution du 3 mai'] },
   ],
 
   recap: [

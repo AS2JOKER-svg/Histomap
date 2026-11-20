@@ -20,7 +20,7 @@ export default {
       kicker: 'Territoire',
       title: 'La péninsule Ibérique',
       years: [-700],
-      caption: "Repérez la péninsule Ibérique : les Ibères occupent surtout la façade méditerranéenne, tournée vers les marchands phéniciens et grecs.",
+      caption: "Repère la péninsule Ibérique : les Ibères occupent surtout la façade méditerranéenne, tournée vers les marchands phéniciens et grecs.",
     },
     {
       id: 'contacts',
@@ -153,7 +153,7 @@ export default {
     { id: 'celtiberes', carte: 'peuples', type: 'tf', prompt: 'Numance était une cité ibère de la côte méditerranéenne.', answer: false, explanation: 'C’était une cité celtibère de l’intérieur des terres.' },
     { id: 'fin', carte: 'romanisation', type: 'mcq', prompt: 'Sous quel empereur la conquête de la péninsule s’achève-t-elle en 19 av. J.-C. ?', options: ['Auguste', 'Claude', 'Trajan', 'Néron'], answer: 0 },
     { id: 'langues', carte: 'romanisation', type: 'mcq', prompt: 'De quelle langue viennent l’espagnol, le catalan et le portugais ?', options: ['Du latin', 'De l’ibère', 'Du grec', 'Du phénicien'], answer: 0 },
-    { id: 'ordre', carte: ['contacts', 'chronologie', 'numance', 'romanisation'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Fondation d’Emporion par les Grecs', 'Siège de Sagonte par Hannibal', 'Prise de Numance', 'Fin des guerres cantabres'] },
+    { id: 'ordre', carte: ['contacts', 'chronologie', 'numance', 'romanisation'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Fondation d’Emporion par les Grecs', 'Siège de Sagonte par Hannibal', 'Prise de Numance', 'Fin des guerres cantabres'] },
   ],
 
   recap: [

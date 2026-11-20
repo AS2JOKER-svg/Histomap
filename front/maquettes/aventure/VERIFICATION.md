@@ -5,6 +5,10 @@ Comparaison entre ce qui a été demandé au départ (analyse produit du 13/11, 
 
 ✅ conforme · ⚠️ conforme avec une réserve · ❌ non fait
 
+> **Depuis la V3.1 « Allègement » (16-20/11/2026)**, plusieurs décisions des sections 1 à 5 sont remplacées
+> (médailles → étoiles, Épreuve de 12 sans mi-temps, coffres, cosmétiques et objectif de la semaine retirés,
+> carte du parcours…). L'état de sortie de la V3.1 est au **§ 9**.
+
 ## Méthode
 
 - Tests automatiques : `npm run data` (0 erreur, 0 alerte, 26 tests des règles de l'Aventure).
@@ -224,3 +228,224 @@ Les règles sont écrites une seule fois, dans `src/lib/rappels.js`. Le build le
 - La fenêtre d'autorisation d'Android 13.
 - Le badge dans la barre d'état.
 - Le clic quand l'app est fermée : il ouvre l'app via `clients.openWindow`, non testable sans tête.
+
+## 9. V3.1 « Allègement » : recette de sortie (sprint 35, 20/11/2026)
+
+Recette de toute l'app après les sprints 26 à 34, sur la branche `v3-1`, avant la fusion dans `main`.
+
+### Méthode
+
+- `npm run build` : contenu valide (214 chapitres, 3 672 questions rédigées toutes reliées à une carte, 2 106 générées),
+  **73 tests**, 0 erreur, 0 alerte.
+- Recette dans un navigateur automatisé : Chrome piloté par Playwright, app compilée servie par `vite preview`.
+  **4 configurations** : 390 × 844 et 360 × 640, en clair et en « Musée de nuit ».
+  - **427 vérifications automatiques, 0 échec.**
+  - **0 erreur de console** sur toute la recette.
+- Audit d'accessibilité axe-core (WCAG 2.1 A et AA) : **219 passages, 0 violation** après les corrections du § 9.4.
+- Simulation d'un joueur (`npm run simulation`), voir le § 9.2.
+
+### 9.1 Ce qui a été joué
+
+**Parcours de jeu, dans les 4 configurations**
+- **Premier lancement** :
+  - `#/` mène à la bienvenue : fil Égypte, 3 questions, +50 XP, sauvegarde v5 ;
+  - puis la carte : un seul « Jouer », pas de défilement horizontal.
+- **Boucle d'une salle** :
+  - panneau, puis « Jouer », qui mène à Découvrir : 9 cartes et les questions éclair ;
+  - fin de Découvrir (« Passer l'épreuve », « Salle suivante ») ;
+  - Épreuve de 12 questions différentes : 10/12 donne ★ ;
+  - retour sur la carte : la salle suivante est la salle en cours ;
+  - Épreuve rejouée : **les 2 questions ratées reviennent**, 12/12 donne ★★★.
+- **Approfondir** (bonus), puis « Revoir les cartes » dans le panneau.
+- **Annexe** : séance d'un seul tenant, mini-épreuve de 8 questions, 7/8 donne ★★.
+- **Fil terminé** :
+  - dernière salle du fil Chine, célébration et titre ;
+  - choix du fil, puis fil Corée suivi.
+- **Joueur en route** :
+  - bulle « À revoir », séance, +20 XP ;
+  - les erreurs réussies sortent des listes ;
+  - « Ma salle » apparaît loin de la salle en cours et y ramène.
+
+**27 écrans, dans les 4 configurations**
+- Liste : carte, panneau verrouillé, « +N » du Califat, frise, époque, fiche (6 onglets), fiche liée, carte du monde,
+  recherche, Guerres et 2 dossiers, Profil et ses sous-pages, À propos, Défis, défi à deux, quiz infini, choix du
+  fil, page introuvable.
+- Tous s'affichent, sans défilement horizontal, avec 0 violation axe.
+
+**Atlas**
+- Les 6 onglets d'une fiche.
+- Un lien d'un texte ouvre l'aperçu d'une fiche liée.
+- Quiz express joué, meilleur score gardé.
+- Curseur de la carte du monde.
+- Recherche « Napoléon ».
+
+**Défis**
+- Défi par lien : 10 questions, lien copié avec le prénom.
+- L'ami qui ouvre le lien reçoit **exactement les mêmes questions, dans le même ordre**.
+- Aucune XP gagnée.
+- Quiz infini.
+
+**Anciens liens**
+- `#/reviser`, `#/reviser/antiquite`, `#/reviser/antiquite/egypte`, `…/quiz`.
+- `#/aventure`, `#/aventure/mondes`.
+- `#/frise/…`, `#/carte`.
+
+**Sauvegardes anciennes**
+- v2 (avant l'Aventure) migrée en v5 : salles découvertes, 18/20 → ★★, XP rétroactive.
+- v3 (testeurs de la 3.0) migrée en v5, en clair et en sombre :
+  - 19/20 → ★★★, 15/20 → ★ ;
+  - XP, série et jokers gardés ;
+  - coffres, cosmétiques et objectif retirés ;
+  - thème « Indigo » remplacé par le thème par défaut ;
+  - l'épreuve de 20 en cours est abandonnée, et une Épreuve de 12 se joue normalement.
+
+**Hors-ligne** (réseau coupé après une 1re visite)
+- 1 303 fichiers mis en cache.
+- Tout fonctionne : carte, panneau, Découvrir d'une salle jamais ouverte, fiche et fiche liée jamais ouvertes,
+  dossier de guerre, carte du monde déjà vue, Profil, Épreuve complète.
+- 0 erreur pendant la coupure.
+
+**Divers**
+- **« Réduire les animations »** : résultat ★★★ affiché sans aucune animation.
+- **Fluidité** (processeur ralenti ×4, comme un téléphone moyen) :
+  - carte affichée en 257 ms ;
+  - défilement de 8 500 px à 16 ms par image, 0 image lente.
+- **Réglages › Notifications** : éteintes au départ. Dans un navigateur (app non installée), elles sont grisées
+  avec une explication.
+
+### 9.2 Simulation d'un joueur : durée de chaque monde
+
+Joueur type, 80 % de bonnes réponses, tronc seul. Chiffres inchangés depuis le sprint 29.
+
+| Monde | Salles | Temps | Niveau à la fin |
+|---|---|---|---|
+| Préhistoire | 5 | 37 min | 8 |
+| Antiquité | 11 | 1 h 17 | 13 |
+| Moyen Âge | 12 | 1 h 35 | 18 |
+| Époque moderne | 12 | 1 h 25 | 21 |
+| Époque contemporaine | 11 | 1 h 23 | 24 |
+| **Total** | **51** | **6 h 18** (≈ 26 jours à 15 min) | **24** (Chroniqueur) |
+
+Autres profils :
+- avec le fil Corée (+5 salles) : 6 h 47, niveau 24 ;
+- joueur à 60 % de bonnes réponses : 8 h 59, niveau 18 ;
+- joueur « complet » (Approfondir et toutes les annexes) : 23 h 35, niveau 41.
+
+### 9.3 Les 27 décisions de la V3.1
+
+| # | Décision | Statut | Vérification |
+|---|---|---|---|
+| 1 | Découvrir = salle découverte, qui ouvre la suivante | ✅ | Recette (1re salle → 2e salle en cours), tests |
+| 2 | Épreuve dès la découverte, 12 questions, ★ 9 · ★★ 11 · ★★★ 12, 3 ratées reviennent | ✅ | Recette : 10/12 → ★, les ratées reviennent, 12/12 → ★★★ |
+| 3 | Approfondir = bonus, ses cartes entrent dans l'Épreuve | ✅ | Recette, tests (`epreuve.js`) |
+| 4 | Étoiles seulement, seuils affichés au résultat seulement | ✅ | Panneau sans seuils, résultat avec seuils |
+| 5 | Chemin continu d'un monde à l'autre | ✅ | Tests : suivre la salle en cours mène au bout pour les 32 fils |
+| 6 | Annexe = une séance, puis mini-épreuve de 8 (★ 6 · ★★ 7 · ★★★ 8) | ✅ | Recette : 7/8 → ★★ |
+| 7 | Annexe ouverte quand sa salle parente est découverte | ✅ | Tests (règle V3 gardée en plus : son monde doit être atteint) |
+| 8 | Toute question porte sur une carte déjà vue | ⚠️ | Aventure, défis, « À revoir » : oui (validateur, tests). **Exception : la bienvenue pose 3 questions sur la 1re salle avant toute carte** (héritée de la V3) |
+| 9 | Chaque question reliée à sa carte, questions générées depuis les cartes | ✅ | 3 672 reliées, 0 hors cartes, 0 salle sous le seuil |
+| 10 | Combo au-delà de ×5, XP plafonnée à ×5 | ✅ | Recette (12/12 : combo jusqu'à ×12), tests |
+| 11 | Carte verticale de bas en haut, ouverte sur la salle en cours, « Ma salle » | ✅ | Recette |
+| 12 | Chemin = tronc + fil, pastilles et noms courts, « Jouer » | ✅ | Recette, 990 cartes testées sans chevauchement |
+| 13 | Annexes en bulles près de leur salle | ✅ | Recette, tests |
+| 14 | Le fil rouge entre dans le chemin, fin de fil, « à rattraper » | ✅ | Recette (fil Chine → Corée), tests |
+| 15 | Décor par monde, pictogrammes SVG, aucune image | ✅ | Captures |
+| 16 | Bulle « À revoir » dès 5 erreurs ou 3 jours | ✅ | Recette : +20 XP, une fois par jour |
+| 17 | Plus de bandeau fixe en bas | ✅ | Captures |
+| 18 | En-tête : niveau et XP seulement | ✅ | Recette ; contraste corrigé (§ 9.4) |
+| 19 | Panneau court, un seul gros bouton | ✅ | Recette, tests (214 salles × 6 états × 3 fils) |
+| 20 | Profil court et 4 sous-pages | ✅ | Recette |
+| 21 | Réglages complets | ✅ | Recette ; vibrations et notifications à sentir sur un téléphone |
+| 22 | Défis seulement depuis le Profil | ✅ | Recette |
+| 23 | Cosmétiques, coffres, objectif de la semaine retirés | ✅ | Recherche dans le code et les textes : plus aucune trace ; migration v3 |
+| 24 | XP, rangs, jokers, série, titres, combo, partage gardés | ✅ | Recette, tests |
+| 25 | Notifications locales au mieux, 2 par jour au plus, rien la nuit | ⚠️ | Chrome sans tête (sprint 33, 41 vérifications) ; **vrai téléphone : à faire** (§ 9.5) |
+| 26 | Vibrations : motifs allongés, interrupteur dédié, mode silencieux expliqué | ⚠️ | Navigateur seulement ; **vrai téléphone : à faire** (§ 9.5) |
+| 27 | Migration de la sauvegarde v3 → v4 (puis v5) | ✅ | Recette (v2 et v3 → v5), tests |
+
+### 9.4 Corrigé pendant la recette
+
+1. **Contraste de l'en-tête.**
+   - Le problème : depuis le sprint 32, l'en-tête porte le rang et l'XP en petit texte, sur un fond translucide à
+     72 %. Au-dessus de certains mondes de la carte, le contraste tombait à 4:1.
+   - La correction : l'en-tête est presque opaque (`glass-barre`), comme la barre d'onglets depuis le sprint 30.
+2. **Badges « personne »** (recherche, aperçus).
+   - Le problème : ils étaient écrits dans l'or de décor (#a8791c), soit 3,1:1 sur leur fond.
+   - La correction : un or foncé #70500e, au moins 4,8:1 (jeton `--c-accent-2-texte`). Inchangés en sombre.
+3. **Tutoiement partout.** L'app tutoie (« Ta série », « Quel fil rouge te fait envie ? »), mais des textes
+   hérités de la V1/V2 vouvoyaient, dès la 1re carte de Découvrir (« Glissez à droite ce que vous avez compris »).
+   - Passés au tutoiement :
+     - 27 textes d'interface et de générateurs (« Touche les éléments… », « Vérifie ta connexion… », quiz express) ;
+     - 327 consignes des chapitres : « Remets dans l'ordre » (×214), « Compare : » (×103), « Change d'année » (×7),
+       « Repère » (×3).
+   - Les citations historiques n'ont pas été touchées (« Quittez l'Inde », Hérodote, Voltaire).
+   - Aucun id n'a changé. Les rapports des questions éclair et des questions par carte sont identiques.
+   - La règle est ajoutée à `GUIDE_EDITION.md`.
+4. **Question « Qui est-ce ? » sur Toumaï.**
+   - Le problème : l'explication écrivait « Toumaï, sahelanthropus tchadensis… », car le générateur met en
+     minuscule la 1re lettre du rôle.
+   - La correction : le rôle devient « Crâne de Sahelanthropus tchadensis… » (Toumaï est le surnom d'un crâne).
+     Le premier mot des 381 autres rôles de cartes `person` a été vérifié : aucun autre ne commence par un nom
+     propre ou un nom scientifique.
+   - La règle est ajoutée au guide.
+5. **Manifeste de l'app.**
+   - Le raccourci « Réviser » (V2), visible par un appui long sur l'icône, devient « Aventure ».
+   - La description de la V2 est remplacée (manifeste et page).
+6. **Simulation.** Elle affichait « 4 h 60 », elle affiche maintenant « 5 h 00 ».
+
+### 9.5 À vérifier sur un vrai téléphone Android (par toi)
+
+Je ne peux pas le faire moi-même. Le plus simple est de tester sur le site des testeurs, une fois `main` déployé.
+
+**Préparation.**
+- Chrome à jour sur le téléphone.
+- Ouvrir le site, puis menu ⋮ › « Installer l'application ».
+- Ouvrir l'app installée, et non l'onglet de Chrome.
+
+**1. Vibrations.**
+- En mode **sonnerie** :
+  - Profil › Réglages › Vibrations › « Tester » ;
+  - puis une bonne réponse, une erreur et un résultat avec étoiles dans une Épreuve.
+- Pareil en mode **vibreur**.
+- En mode **silencieux**, il ne doit rien se passer : c'est attendu, et c'est expliqué dans Réglages.
+
+**2. Notifications.**
+- Réglages › Notifications › allumer « Rappel du jour ». La fenêtre d'autorisation d'Android 13 (ou de Chrome)
+  doit apparaître : accepter.
+- Garder 18 h et allumer « Série en danger ».
+- Ouvrir l'app un soir vers 18-20 h, puis ne pas jouer le lendemain. Une notification devrait arriver dans la
+  soirée : c'est Chrome qui choisit l'heure, au mieux.
+- À vérifier :
+  - le texte de la notification ;
+  - la petite icône dans la barre d'état ;
+  - le toucher **app fermée** : l'app doit s'ouvrir sur la salle en cours ;
+  - jamais plus de 2 notifications par jour, ni la nuit.
+
+**3. Hors-ligne.** En mode avion, ouvrir l'app installée et jouer une salle.
+
+**4. Le reste.**
+- Bouton ou geste « retour » d'Android :
+  - sur un panneau, il doit le fermer ;
+  - pendant une Épreuve, il doit ramener sur la carte.
+- Le clavier sur le prénom d'un défi ne doit pas cacher le champ.
+- « Partager mon résultat » doit ouvrir la feuille de partage d'Android.
+- Un lien de défi ouvert depuis un message doit donner les mêmes questions.
+- Sons et musique : volume, et arrêt quand l'app passe en arrière-plan.
+
+Dis-moi ce qui marche et ce qui ne marche pas, et je complète ce paragraphe.
+
+### 9.6 Reste douteux ou à décider
+
+- **La bienvenue** pose 3 questions sur la 1re salle **avant toute carte**. C'est une exception à la décision 8,
+  héritée de l'onboarding de la V3. Deux options :
+  - la garder comme mise en jambes ;
+  - la remplacer par 2 ou 3 cartes, puis 3 questions.
+- **Polices** : elles sont chargées depuis Google Fonts. Au 1er lancement, cela fait une requête vers Google, et
+  les polices manquent hors-ligne avant une 1re visite. Il vaut mieux les héberger dans l'app avant le Play Store
+  (licence OFL).
+- **Notifications** : l'heure n'est pas garantie (c'est Chrome qui décide), le réseau est requis, et rien ne
+  marche sur iPhone. Délégation de la TWA : voir le § 8.
+- **À relire par toi** : les 37 ancres d'annexes (sprint 30) et les 57 noms courts (sprint 29).
+- **Jours joués** des sauvegardes d'avant le sprint 32 : c'est une estimation.
+- **Thème** : il n'y a que deux choix. Tant qu'on n'a rien choisi, l'app suit le téléphone, mais on ne peut pas
+  revenir à ce mode.

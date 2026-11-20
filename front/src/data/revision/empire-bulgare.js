@@ -20,7 +20,7 @@ export default {
       kicker: 'Territoire',
       title: 'L’Empire bulgare',
       years: [900, 1200],
-      caption: 'Comparez : la Bulgarie domine une grande partie des Balkans, entre le Danube et l’Empire byzantin.',
+      caption: 'Compare : la Bulgarie domine une grande partie des Balkans, entre le Danube et l’Empire byzantin.',
     },
     {
       id: 'kroum',
@@ -161,7 +161,7 @@ export default {
     { id: 'ottomans', carte: 'second', type: 'mcq', prompt: 'Qui conquiert la Bulgarie à la fin du XIVe siècle ?', options: ['Les Ottomans', 'Les Mongols', 'Les Hongrois', 'Les Vénitiens'], answer: 0 },
     { id: 'madara', carte: 'madara', type: 'tf', prompt: 'Le cavalier de Madara est un relief taillé dans une falaise.', answer: true },
     { id: 'fete', carte: 'fete', type: 'mcq', prompt: 'Que fête la Bulgarie le 24 mai ?', options: ['L’alphabet et la culture slaves', 'Son indépendance', 'La fin de la guerre', 'Le Nouvel An'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Fondation', 'Baptême de Boris Ier', 'Conquête byzantine', 'Chute de Tarnovo'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Fondation', 'Baptême de Boris Ier', 'Conquête byzantine', 'Chute de Tarnovo'] },
   ],
 
   recap: [

@@ -156,7 +156,7 @@ export default {
     { id: 'azteques', carte: 'modele', type: 'mcq', prompt: 'Quel peuple voit plus tard dans les Toltèques des ancêtres prestigieux ?', options: ['Les Aztèques', 'Les Incas', 'Les Espagnols', 'Les Mochicas'], answer: 0 },
     { id: 'chichen', carte: 'chichen', type: 'mcq', prompt: 'Quelle cité maya ressemble beaucoup à Tula ?', options: ['Chichén Itzá', 'Tikal', 'Palenque', 'Copán'], answer: 0 },
     { id: 'cortes', carte: 'cortes', type: 'tf', prompt: 'Tous les historiens sont certains que Moctezuma a pris Cortés pour Quetzalcoatl.', answer: false, explanation: 'Beaucoup pensent que ce récit a été inventé après la conquête.' },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Essor de Tula', 'Apogée de Tula', 'Les Atlantes', 'Chute de Tula (tradition)'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Essor de Tula', 'Apogée de Tula', 'Les Atlantes', 'Chute de Tula (tradition)'] },
   ],
 
   recap: [

@@ -161,7 +161,7 @@ export default {
     { id: 'rozvi', carte: 'fin', type: 'mcq', prompt: 'Quel roi chasse les Portugais du plateau à la fin du XVIIe siècle ?', options: ['Changamire Dombo', 'Chaka', 'Ranavalona', 'Mutesa'], answer: 0 },
     { id: 'fontaine', carte: 'ophir', type: 'mcq', prompt: 'Quel écrivain français évoque le Monomotapa dans une fable ?', options: ['La Fontaine', 'Molière', 'Victor Hugo', 'Voltaire'], answer: 0 },
     { id: 'ophir', carte: 'ophir', type: 'mcq', prompt: 'Quel pays biblique les Européens croyaient-ils retrouver au Monomotapa ?', options: ['Ophir', 'Babylone', 'Canaan', 'L’Égypte'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Fondation par Mutota', 'Mort du missionnaire Silveira', 'Le roi devient vassal du Portugal', 'Les Rozvi chassent les Portugais'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Fondation par Mutota', 'Mort du missionnaire Silveira', 'Le roi devient vassal du Portugal', 'Les Rozvi chassent les Portugais'] },
   ],
 
   recap: [

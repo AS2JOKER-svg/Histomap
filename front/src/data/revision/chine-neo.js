@@ -157,7 +157,7 @@ export default {
     { id: 'jiahu', carte: 'jiahu', type: 'mcq', prompt: 'Quel instrument de musique a-t-on retrouvé à Jiahu ?', options: ['Des flûtes en os', 'Des tambours en bronze', 'Des harpes', 'Des cloches en fer'], answer: 0 },
     { id: 'soie', carte: 'soie', type: 'mcq', prompt: 'Quel animal produit la soie ?', options: ['La chenille du bombyx', "L'araignée", "L'abeille", 'Le mouton'], answer: 0 },
     { id: 'yu', carte: 'legendes', type: 'mcq', prompt: 'Selon la tradition, qui fonde la dynastie Xia ?', options: ['Yu le Grand', 'Qin Shi Huang', 'Confucius', 'Han Wudi'], answer: 0 },
-    { id: 'ordre', carte: ['pekin', 'poterie', 'chronologie'], type: 'order', prompt: "Remettez dans l'ordre chronologique.", items: ['Homme de Pékin', 'Poteries de Xianrendong', 'Culture de Yangshao', 'Culture de Longshan'] },
+    { id: 'ordre', carte: ['pekin', 'poterie', 'chronologie'], type: 'order', prompt: "Remets dans l'ordre chronologique.", items: ['Homme de Pékin', 'Poteries de Xianrendong', 'Culture de Yangshao', 'Culture de Longshan'] },
   ],
 
   recap: [

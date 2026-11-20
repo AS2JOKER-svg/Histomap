@@ -156,7 +156,7 @@ export default {
     { id: 'carbone', carte: 'gaulois', type: 'mcq', prompt: 'Quelle méthode a permis de dater les mégalithes ?', options: ['Le carbone 14', 'La lecture d’inscriptions', 'Le comptage des pierres', 'Les récits des Gaulois'], answer: 0 },
     { id: 'jade', carte: 'jade', type: 'mcq', prompt: 'D’où vient le jade des haches de prestige retrouvées en Bretagne ?', options: ['Des Alpes', 'De Chine', 'D’Égypte', 'D’Islande'], answer: 0 },
     { id: 'stonehenge', carte: 'stonehenge-pierres', type: 'mcq', prompt: 'D’où viennent les « pierres bleues » de Stonehenge ?', options: ['Du pays de Galles', 'De Bretagne', 'De Norvège', 'Des Alpes'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre chronologique.", items: ['Cairn de Barnenez', 'Temples de Ġgantija', 'Tombe de Newgrange', 'Premier aménagement de Stonehenge'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre chronologique.", items: ['Cairn de Barnenez', 'Temples de Ġgantija', 'Tombe de Newgrange', 'Premier aménagement de Stonehenge'] },
   ],
 
   recap: [

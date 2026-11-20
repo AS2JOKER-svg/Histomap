@@ -20,7 +20,7 @@ export default {
       kicker: 'Territoire',
       title: 'L’empire de Vijayanagara',
       years: [1500, 1600],
-      caption: 'Comparez : vers 1500, l’empire domine le sud de l’Inde ; après 1565, il recule vers le sud-est.',
+      caption: 'Compare : vers 1500, l’empire domine le sud de l’Inde ; après 1565, il recule vers le sud-est.',
     },
     {
       id: 'rivaux',
@@ -159,7 +159,7 @@ export default {
     { id: 'hampi', carte: 'hampi', type: 'mcq', prompt: 'Comment s’appelle aujourd’hui le site des ruines de la capitale ?', options: ['Hampi', 'Nalanda', 'Ajanta', 'Sigiriya'], answer: 0 },
     { id: 'nayaks', carte: 'nayaks', type: 'mcq', prompt: 'Comment s’appellent les chefs militaires qui gouvernent les provinces ?', options: ['Les nayaks', 'Les peshwas', 'Les émirs', 'Les daimyos'], answer: 0 },
     { id: 'madras', carte: 'madras', type: 'mcq', prompt: 'Quelle ville naît d’un fort anglais bâti en 1639 ?', options: ['Madras (Chennai)', 'Bombay', 'Delhi', 'Goa'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Fondation', 'Naissance du sultanat bahmanide', 'Krishnadevaraya empereur', 'Bataille de Talikota'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Fondation', 'Naissance du sultanat bahmanide', 'Krishnadevaraya empereur', 'Bataille de Talikota'] },
   ],
 
   recap: [

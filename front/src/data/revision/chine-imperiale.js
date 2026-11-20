@@ -57,7 +57,7 @@ export default {
       kicker: 'Territoire',
       title: 'L’empire sur la carte',
       years: [-200, -1, 200],
-      caption: "Changez d'année : sous les Han, l'empire s'étend vers le sud et vers l'Asie centrale.",
+      caption: "Change d'année : sous les Han, l'empire s'étend vers le sud et vers l'Asie centrale.",
     },
     {
       id: 'soie',
@@ -157,7 +157,7 @@ export default {
     { id: 'sima-qian', carte: 'sima-qian', type: 'mcq', prompt: 'Qui écrit les Mémoires historiques ?', options: ['Sima Qian', 'Confucius', 'Zhang Qian', 'Wudi'], answer: 0 },
     { id: 'capitales', carte: 'deux-han', type: 'mcq', prompt: 'Après Wang Mang, les Han déplacent leur capitale à…', options: ['Luoyang', 'Pékin', 'Nankin', 'Xianyang'], answer: 0 },
     { id: 'sismoscope', carte: 'zhang-heng', type: 'tf', prompt: 'Zhang Heng invente un appareil qui détecte les tremblements de terre.', answer: true },
-    { id: 'ordre', carte: ['unification', 'han', 'papier', 'fin'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Unification par les Qin', 'Fondation des Han', 'Papier de Cai Lun', 'Révolte des Turbans jaunes'] },
+    { id: 'ordre', carte: ['unification', 'han', 'papier', 'fin'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Unification par les Qin', 'Fondation des Han', 'Papier de Cai Lun', 'Révolte des Turbans jaunes'] },
     { id: 'fin', carte: 'fin', type: 'mcq', prompt: 'En quelle année la dynastie Han disparaît-elle ?', options: ['220', '476', '105', '9'], answer: 0 },
     { id: 'livres', carte: 'reformes', type: 'mcq', prompt: 'Que fait brûler Qin Shi Huang en 213 av. J.-C. ?', options: ['De nombreux livres jugés dangereux', 'Les temples bouddhistes', 'Les papiers de Cai Lun', 'Les cartes de la Route de la soie'], answer: 0, explanation: 'Son régime est très dur : il fait brûler de nombreux livres jugés dangereux. Le bouddhisme, le papier de Cai Lun et la Route de la soie arrivent plus tard.' },
     { id: 'xian', carte: 'armee', type: 'mcq', prompt: "Près de quelle ville l'armée de terre cuite a-t-elle été découverte ?", options: ["Xi'an", 'Pékin', 'Shanghai', 'Nankin'], answer: 0, explanation: 'Des paysans la découvrent en 1974, près du tombeau du premier empereur.' },

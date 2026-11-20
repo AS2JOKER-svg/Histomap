@@ -33,7 +33,7 @@ export default {
       kicker: 'Territoire',
       title: 'Des colonies à la fédération',
       years: [1880, 1960],
-      caption: 'Comparez : en 1880, plusieurs colonies britanniques ; à partir de 1901, une seule fédération, le Commonwealth d’Australie.',
+      caption: 'Compare : en 1880, plusieurs colonies britanniques ; à partir de 1901, une seule fédération, le Commonwealth d’Australie.',
     },
     {
       id: 'or',
@@ -163,7 +163,7 @@ export default {
     { id: 'mabo', carte: 'droits', type: 'mcq', prompt: 'Que reconnaît l’arrêt Mabo en 1992 ?', options: ['Les droits des autochtones sur leurs terres', 'Le vote des femmes', 'L’indépendance de l’Australie', 'La fin de la déportation des forçats'], answer: 0 },
     { id: 'opera', carte: 'opera', type: 'mcq', prompt: 'Quel monument de Sydney a des toits en forme de voiles ?', options: ['L’opéra', 'La cathédrale', 'Le Parlement', 'Le pont du port'], answer: 0 },
     { id: 'uluru', carte: 'uluru', type: 'mcq', prompt: 'Qu’est-ce qu’Uluru ?', options: ['Un grand rocher sacré des Aborigènes', 'Une ville minière', 'Un fleuve', 'Une île'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Première Flotte', 'Ruée vers l’or', 'Fédération', 'Gallipoli'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Première Flotte', 'Ruée vers l’or', 'Fédération', 'Gallipoli'] },
   ],
 
   recap: [

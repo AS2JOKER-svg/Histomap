@@ -159,7 +159,7 @@ export default {
     { id: 'nancy', carte: 'temeraire', type: 'mcq', prompt: 'Où Charles le Téméraire est-il tué en 1477 ?', options: ['Devant Nancy', 'À Paris', 'À Dijon', 'À Bruges'], answer: 0 },
     { id: 'habsbourg', carte: 'partage', type: 'mcq', prompt: 'À qui passent les Pays-Bas après 1477 ?', options: ['Aux Habsbourg', 'Au roi de France', 'À l’Angleterre', 'Aux Suisses'], answer: 0 },
     { id: 'beaune', carte: 'beaune', type: 'mcq', prompt: 'Qu’est-ce que les Hospices de Beaune ?', options: ['Un hôpital pour les pauvres', 'Un château', 'Une cathédrale', 'Un port'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Philippe le Hardi duc', 'Assassinat de Louis d’Orléans', 'Traité d’Arras', 'Mort de Charles le Téméraire'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Philippe le Hardi duc', 'Assassinat de Louis d’Orléans', 'Traité d’Arras', 'Mort de Charles le Téméraire'] },
   ],
 
   recap: [

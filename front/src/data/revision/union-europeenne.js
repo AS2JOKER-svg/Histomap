@@ -164,7 +164,7 @@ export default {
     { id: 'erasmus', carte: 'marche', type: 'mcq', prompt: "Quel programme permet aux étudiants d'étudier dans un autre pays européen ?", options: ['Erasmus', 'Schengen', 'Galileo', 'Copenhague'], answer: 0 },
     { id: 'veil', carte: 'veil', type: 'mcq', prompt: 'Qui devient en 1979 la première présidente du Parlement européen élu ?', options: ['Simone Veil', 'Marie Curie', 'Angela Merkel', 'Christine Lagarde'], answer: 0 },
     { id: 'nobel', carte: 'nobel', type: 'tf', prompt: "L'Union européenne a reçu le prix Nobel de la paix en 2012.", answer: true },
-    { id: 'ordre', carte: ['traites', 'euro', 'membres'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Traité de Paris (CECA)', 'Traités de Rome (CEE)', 'Traité de Maastricht', "Mise en circulation de l'euro", 'Sortie du Royaume-Uni'] },
+    { id: 'ordre', carte: ['traites', 'euro', 'membres'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Traité de Paris (CECA)', 'Traités de Rome (CEE)', 'Traité de Maastricht', "Mise en circulation de l'euro", 'Sortie du Royaume-Uni'] },
   ],
 
   recap: [

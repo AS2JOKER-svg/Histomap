@@ -20,7 +20,7 @@ export default {
       kicker: 'Territoire',
       title: 'De nouvelles frontières',
       years: [1815, 1930],
-      caption: 'Comparez : en 1815, la Norvège est unie à la Suède et la Finlande appartient à la Russie ; en 1930, toutes deux sont indépendantes.',
+      caption: 'Compare : en 1815, la Norvège est unie à la Suède et la Finlande appartient à la Russie ; en 1930, toutes deux sont indépendantes.',
     },
     {
       id: 'norvege',
@@ -162,7 +162,7 @@ export default {
     { id: 'providence', carte: 'modele', type: 'mcq', prompt: 'Comment appelle-t-on le système de protection sociale des pays nordiques ?', options: ['L’État-providence', 'Le libéralisme', 'Le féodalisme', 'Le mercantilisme'], answer: 0 },
     { id: 'amundsen', carte: 'amundsen', type: 'mcq', prompt: 'Quel explorateur norvégien atteint le premier le pôle Sud en 1911 ?', options: ['Roald Amundsen', 'Robert Scott', 'Fridtjof Nansen', 'Ernest Shackleton'], answer: 0 },
     { id: 'andersen', carte: 'cinq', type: 'mcq', prompt: 'Quel écrivain danois a écrit La Petite Sirène ?', options: ['Hans Christian Andersen', 'Henrik Ibsen', 'Selma Lagerlöf', 'Les frères Grimm'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Constitution norvégienne', 'Guerre des Duchés', 'Indépendance de la Finlande', 'Indépendance de l’Islande'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Constitution norvégienne', 'Guerre des Duchés', 'Indépendance de la Finlande', 'Indépendance de l’Islande'] },
   ],
 
   recap: [

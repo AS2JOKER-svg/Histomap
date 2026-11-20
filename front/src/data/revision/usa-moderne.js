@@ -174,7 +174,7 @@ export default {
     { id: 'congres', carte: 'pouvoirs', type: 'mcq', prompt: 'Quelle institution vote les lois aux États-Unis ?', options: ['Le Congrès', 'La Cour suprême', 'Le président', 'Le gouverneur'], answer: 0 },
     { id: 'esclavage', carte: 'oublies', type: 'tf', prompt: "La Constitution de 1787 abolit l'esclavage dans tous les États.", answer: false, explanation: "Elle le protège même : il n'est aboli dans tout le pays qu'en 1865." },
     { id: 'capitale', carte: 'bill-of-rights', type: 'tf', prompt: 'Washington prête serment comme président à New York, en 1789.', answer: true },
-    { id: 'ordre', carte: ['rupture', 'declaration', 'saratoga', 'yorktown', 'constitution'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Boston Tea Party', "Déclaration d'indépendance", 'Victoire de Saratoga', 'Capitulation de Yorktown', 'Signature de la Constitution'] },
+    { id: 'ordre', carte: ['rupture', 'declaration', 'saratoga', 'yorktown', 'constitution'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Boston Tea Party', "Déclaration d'indépendance", 'Victoire de Saratoga', 'Capitulation de Yorktown', 'Signature de la Constitution'] },
   ],
 
   recap: [

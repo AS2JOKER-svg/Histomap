@@ -120,7 +120,7 @@ export default {
     { id: 'hathor', carte: 'pays-dieux', type: 'mcq', prompt: 'Quelle déesse égyptienne est appelée « dame de Pount » ?', options: ['Hathor', 'Isis', 'Bastet', 'Maât'], answer: 0 },
     { id: 'guerre', carte: 'paix', type: 'tf', prompt: "L'Égypte a conquis Pount par une grande guerre.", answer: false, explanation: "Aucune source ne mentionne de guerre : les relations sont commerciales." },
     { id: 'gaouasis', carte: 'port', type: 'mcq', prompt: "Quel port égyptien d'où partaient les navires vers Pount a été fouillé au début des années 2000 ?", options: ['Mersa Gaouasis', 'Alexandrie', 'Memphis', 'Assouan'], answer: 0 },
-    { id: 'ordre', carte: ['expeditions', 'babouins'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Expédition sous Sahourê', "Expédition d'Hatchepsout", 'Expédition sous Ramsès III', 'Étude des momies de babouins'] },
+    { id: 'ordre', carte: ['expeditions', 'babouins'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Expédition sous Sahourê', "Expédition d'Hatchepsout", 'Expédition sous Ramsès III', 'Étude des momies de babouins'] },
   ],
 
   recap: [

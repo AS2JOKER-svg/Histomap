@@ -161,7 +161,7 @@ export default {
     { id: 'nedao', carte: 'fin', type: 'mcq', prompt: 'Quelle bataille marque la fin de l’empire hunnique en 454 ?', options: ['La Nedao', 'Andrinople', 'Poitiers', 'Hastings'], answer: 0 },
     { id: 'hongrie', carte: 'legende', type: 'tf', prompt: 'Les Hongrois actuels descendent des Huns d’Attila.', answer: false, explanation: 'Les Hongrois arrivent à la fin du IXe siècle ; c’est une légende.' },
     { id: 'arc', carte: 'arc', type: 'mcq', prompt: 'Quelle arme fait la force des Huns ?', options: ['L’arc composite', 'L’arbalète', 'Le canon', 'La catapulte'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Les Goths entrent dans l’Empire romain', 'Attila et Bleda deviennent rois', 'Bataille des champs Catalauniques', 'Bataille de la Nedao'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Les Goths entrent dans l’Empire romain', 'Attila et Bleda deviennent rois', 'Bataille des champs Catalauniques', 'Bataille de la Nedao'] },
   ],
 
   recap: [

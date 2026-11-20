@@ -20,7 +20,7 @@ export default function TimelinePage() {
       <PageHeader
         eyebrow="La frise"
         title={`${epochs.length} époques, une seule flèche`}
-        description="Chaque trait dans un bloc est une civilisation, rangée par continent. Choisissez une époque pour l'ouvrir en grand."
+        description="Chaque trait dans un bloc est une civilisation, rangée par continent. Choisis une époque pour l'ouvrir en grand."
       />
 
       <EpochRibbon epochs={epochs} />

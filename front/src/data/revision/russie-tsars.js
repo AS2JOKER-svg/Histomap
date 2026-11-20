@@ -20,7 +20,7 @@ export default {
       kicker: 'Territoire',
       title: 'Un empire qui s’étend',
       years: [1600, 1700, 1783],
-      caption: 'Comparez : de la Volga au Pacifique, la Russie devient le plus vaste pays du monde.',
+      caption: 'Compare : de la Volga au Pacifique, la Russie devient le plus vaste pays du monde.',
     },
     {
       id: 'siberie',
@@ -163,7 +163,7 @@ export default {
     { id: 'serfs', carte: 'servage', type: 'tf', prompt: 'Au XVIIIe siècle, la majorité des Russes sont des serfs.', answer: true },
     { id: 'pougatchev', carte: 'pougatchev', type: 'mcq', prompt: 'Pour qui Pougatchev se fait-il passer ?', options: ['L’empereur Pierre III', 'Ivan le Terrible', 'Le khan de Crimée', 'Napoléon'], answer: 0 },
     { id: 'crimee', carte: 'chronologie', type: 'mcq', prompt: 'Quelle région Catherine II annexe-t-elle en 1783 ?', options: ['La Crimée', 'La Sibérie', 'La Finlande', 'L’Alaska'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Ivan IV couronné tsar', 'Michel Romanov élu tsar', 'Bataille de Poltava', 'Annexion de la Crimée'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Ivan IV couronné tsar', 'Michel Romanov élu tsar', 'Bataille de Poltava', 'Annexion de la Crimée'] },
   ],
 
   recap: [

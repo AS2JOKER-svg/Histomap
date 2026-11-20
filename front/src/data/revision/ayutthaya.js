@@ -20,7 +20,7 @@ export default {
       kicker: 'Territoire',
       title: 'Le royaume d’Ayutthaya',
       years: [1400, 1700],
-      caption: 'Comparez : le royaume s’étend sur l’essentiel de la Thaïlande actuelle.',
+      caption: 'Compare : le royaume s’étend sur l’essentiel de la Thaïlande actuelle.',
     },
     {
       id: 'angkor',
@@ -161,7 +161,7 @@ export default {
     { id: 'chute', carte: 'chute', type: 'mcq', prompt: 'Qui détruit Ayutthaya en 1767 ?', options: ['L’armée birmane', 'L’armée française', 'L’armée chinoise', 'L’armée khmère'], answer: 0 },
     { id: 'bangkok', carte: 'chute', type: 'mcq', prompt: 'Quelle ville devient ensuite la capitale du Siam ?', options: ['Bangkok', 'Chiang Mai', 'Phnom Penh', 'Vientiane'], answer: 0 },
     { id: 'colonise', carte: 'thailande', type: 'tf', prompt: 'La Thaïlande a été une colonie européenne.', answer: false, explanation: 'C’est le seul pays d’Asie du Sud-Est à n’avoir jamais été colonisé.' },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Fondation', 'Prise d’Angkor', 'Ambassade à Versailles', 'Destruction d’Ayutthaya'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Fondation', 'Prise d’Angkor', 'Ambassade à Versailles', 'Destruction d’Ayutthaya'] },
   ],
 
   recap: [

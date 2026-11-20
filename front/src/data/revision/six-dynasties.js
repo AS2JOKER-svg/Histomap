@@ -20,7 +20,7 @@ export default {
       kicker: 'Territoire',
       title: 'Une Chine divisée',
       years: [300, 500],
-      caption: 'Comparez : vers 300, les Jin ont brièvement réunifié la Chine ; vers 500, elle est coupée entre le Nord et le Sud.',
+      caption: 'Compare : vers 300, les Jin ont brièvement réunifié la Chine ; vers 500, elle est coupée entre le Nord et le Sud.',
     },
     {
       id: 'jin',
@@ -159,7 +159,7 @@ export default {
     { id: 'mulan', carte: 'mulan', type: 'mcq', prompt: 'Quelle héroïne apparaît dans une ballade de cette époque ?', options: ['Mulan', 'Himiko', 'Seondeok', 'Cléopâtre'], answer: 0 },
     { id: 'sui', carte: 'sui', type: 'mcq', prompt: 'Quelle dynastie réunifie la Chine en 589 ?', options: ['Les Sui', 'Les Tang', 'Les Jin', 'Les Han'], answer: 0 },
     { id: 'etriers', carte: 'etriers', type: 'tf', prompt: 'Des statuettes chinoises de cette époque montrent parmi les plus anciens étriers connus.', answer: true },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Fin des Han', 'Réunification par les Jin', 'Bataille de la rivière Fei', 'Réunification par les Sui'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Fin des Han', 'Réunification par les Jin', 'Bataille de la rivière Fei', 'Réunification par les Sui'] },
   ],
 
   recap: [

@@ -41,7 +41,7 @@ export default {
       kicker: 'Territoire',
       title: 'Du royaume de Clovis à l’empire de Charlemagne',
       years: [500, 800, 900],
-      caption: "Comparez : le royaume franc s'étend sur la Gaule vers 500, devient un immense empire vers 800, puis se divise après 843.",
+      caption: "Compare : le royaume franc s'étend sur la Gaule vers 500, devient un immense empire vers 800, puis se divise après 843.",
     },
     {
       id: 'pepin',
@@ -161,7 +161,7 @@ export default {
     { id: 'roncevaux', carte: 'roncevaux', type: 'tf', prompt: 'À Roncevaux, en 778, l’arrière-garde de Charlemagne est massacrée par une armée musulmane.', answer: false, explanation: 'Les attaquants sont des Basques ; c’est la Chanson de Roland qui en fait des « Sarrasins ».' },
     { id: 'verdun', carte: 'verdun', type: 'mcq', prompt: 'Quel traité partage l’empire carolingien en trois royaumes en 843 ?', options: ['Le traité de Verdun', 'Le traité de Troyes', 'Le traité de Tordesillas', 'Le traité de Westphalie'], answer: 0 },
     { id: 'strasbourg', carte: 'strasbourg', type: 'mcq', prompt: 'Pourquoi les serments de Strasbourg (842) sont-ils célèbres ?', options: ['C’est le plus ancien texte connu dans une langue ancêtre du français', 'Ils créent le titre d’empereur', 'Ils partagent l’empire en trois', 'Ils fondent la Normandie'], answer: 0 },
-    { id: 'ordre', carte: ['bapteme', 'poitiers', 'sacre', 'verdun'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Baptême de Clovis', 'Bataille de Poitiers', 'Sacre de Charlemagne', 'Traité de Verdun'] },
+    { id: 'ordre', carte: ['bapteme', 'poitiers', 'sacre', 'verdun'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Baptême de Clovis', 'Bataille de Poitiers', 'Sacre de Charlemagne', 'Traité de Verdun'] },
   ],
 
   recap: [

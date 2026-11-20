@@ -19,7 +19,7 @@ export default {
       kicker: 'Territoire',
       title: 'Le Wallmapu',
       years: [1492, 1878],
-      caption: 'Comparez : le pays mapuche, le Wallmapu, reste indépendant pendant plus de trois siècles après l’arrivée des Espagnols.',
+      caption: 'Compare : le pays mapuche, le Wallmapu, reste indépendant pendant plus de trois siècles après l’arrivée des Espagnols.',
     },
     {
       id: 'incas',
@@ -162,7 +162,7 @@ export default {
     { id: 'occupation', carte: 'occupation', type: 'mcq', prompt: 'Quel pays conquiert les terres mapuches entre 1861 et 1883 ?', options: ['Le Chili', 'L’Espagne', 'Le Pérou', 'Le Brésil'], answer: 0 },
     { id: 'langue', carte: 'aujourdhui', type: 'mcq', prompt: 'Comment s’appelle la langue mapuche ?', options: ['Le mapudungun', 'Le quechua', 'Le nahuatl', 'Le guarani'], answer: 0 },
     { id: 'araucana', carte: 'araucana', type: 'mcq', prompt: 'Quel poème épique espagnol célèbre le courage des Mapuches ?', options: ['La Araucana', 'Don Quichotte', 'L’Odyssée', 'La Chanson de Roland'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Victoire de Tucapel', 'Victoire de Curalaba', 'Parlement de Quilín', 'Annexion des terres mapuches'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Victoire de Tucapel', 'Victoire de Curalaba', 'Parlement de Quilín', 'Annexion des terres mapuches'] },
   ],
 
   recap: [

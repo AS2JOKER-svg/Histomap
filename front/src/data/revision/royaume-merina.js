@@ -19,7 +19,7 @@ export default {
       kicker: 'Territoire',
       title: 'Le royaume merina dans le temps',
       years: [1700, 1815, 1880],
-      caption: 'Comparez : d’abord limité aux hautes terres, le royaume s’étend au XIXe siècle sur une grande partie de l’île.',
+      caption: 'Compare : d’abord limité aux hautes terres, le royaume s’étend au XIXe siècle sur une grande partie de l’île.',
     },
     {
       id: 'andrianampoinimerina',
@@ -161,7 +161,7 @@ export default {
     { id: 'derniere', carte: 'ranavalona-iii', type: 'mcq', prompt: 'Qui est la dernière reine de Madagascar ?', options: ['Ranavalona III', 'Ranavalona Ire', 'Rasoherina', 'Idia'], answer: 0 },
     { id: 'famadihana', carte: 'famadihana', type: 'mcq', prompt: 'Qu’est-ce que le famadihana ?', options: ['Le retournement des morts', 'Une danse de guerre', 'Une récolte du riz', 'Un couronnement'], answer: 0 },
     { id: 'riz', carte: 'riz', type: 'mcq', prompt: 'Quelle culture est la base de l’alimentation merina ?', options: ['Le riz', 'Le blé', 'Le maïs', 'La pomme de terre'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Andrianampoinimerina réunifie l’Imerina', 'Alliance avec les Britanniques', 'Règne de Ranavalona Ire', 'Conquête française'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Andrianampoinimerina réunifie l’Imerina', 'Alliance avec les Britanniques', 'Règne de Ranavalona Ire', 'Conquête française'] },
   ],
 
   recap: [

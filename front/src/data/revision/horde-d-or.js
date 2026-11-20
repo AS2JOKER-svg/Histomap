@@ -20,7 +20,7 @@ export default {
       kicker: 'Territoire',
       title: 'La Horde d’or dans le temps',
       years: [1300, 1400, 1500],
-      caption: 'Comparez : immense vers 1300, la Horde se divise en plusieurs khanats au XVe siècle.',
+      caption: 'Compare : immense vers 1300, la Horde se divise en plusieurs khanats au XVe siècle.',
     },
     {
       id: 'yarlyk',
@@ -163,7 +163,7 @@ export default {
     { id: 'tatars', carte: 'tatars', type: 'mcq', prompt: 'Comment les Russes appellent-ils les peuples de la Horde ?', options: ['Les Tatars', 'Les Vikings', 'Les Huns', 'Les Ottomans'], answer: 0 },
     { id: 'fin', carte: 'fin', type: 'mcq', prompt: 'Qui détruit Saraï en 1502 ?', options: ['Le khan de Crimée', 'Le tsar de Russie', 'Le sultan ottoman', 'Le roi de Pologne'], answer: 0 },
     { id: 'division', carte: 'carte', type: 'tf', prompt: 'Au XVe siècle, la Horde d’or se divise en plusieurs khanats, comme Kazan et la Crimée.', answer: true },
-    { id: 'ordre', carte: ['chronologie', 'ozbeg', 'koulikovo'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Fondation par Batu', 'Règne d’Özbeg', 'Bataille de Koulikovo', 'Grande halte sur l’Ougra'] },
+    { id: 'ordre', carte: ['chronologie', 'ozbeg', 'koulikovo'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Fondation par Batu', 'Règne d’Özbeg', 'Bataille de Koulikovo', 'Grande halte sur l’Ougra'] },
   ],
 
   recap: [

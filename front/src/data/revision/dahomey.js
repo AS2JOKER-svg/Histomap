@@ -20,7 +20,7 @@ export default {
       kicker: 'Territoire',
       title: 'Entre Abomey et la mer',
       years: [1800, 1880],
-      caption: "Le royaume s'étend de la côte, autour de Ouidah, vers l'intérieur des terres. Comparez son étendue au début et à la fin du XIXe siècle.",
+      caption: "Le royaume s'étend de la côte, autour de Ouidah, vers l'intérieur des terres. Compare son étendue au début et à la fin du XIXe siècle.",
     },
     {
       id: 'ghezo',
@@ -162,7 +162,7 @@ export default {
     { id: 'france', carte: 'guerre', type: 'mcq', prompt: 'Quel pays colonise le Dahomey en 1894 ?', options: ['La France', 'Le Royaume-Uni', 'Le Portugal', "L'Allemagne"], answer: 0 },
     { id: 'exil', carte: 'behanzin', type: 'mcq', prompt: 'Où Béhanzin est-il d’abord exilé ?', options: ['En Martinique', 'À Sainte-Hélène', 'En Nouvelle-Calédonie', 'En Guyane'], answer: 0 },
     { id: 'restitution', carte: 'restitution', type: 'tf', prompt: "En 2021, la France rend au Bénin des trésors pris à Abomey en 1892.", answer: true },
-    { id: 'ordre', carte: ['origines', 'chronologie'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Conquête de Ouidah par Agadja', 'Ghézo devient roi', 'Glélé succède à Ghézo', 'Reddition de Béhanzin'] },
+    { id: 'ordre', carte: ['origines', 'chronologie'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Conquête de Ouidah par Agadja', 'Ghézo devient roi', 'Glélé succède à Ghézo', 'Reddition de Béhanzin'] },
   ],
 
   recap: [

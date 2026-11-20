@@ -20,7 +20,7 @@ export default {
       kicker: 'Territoire',
       title: 'La marche vers le sud',
       years: [1100, 1500, 1800],
-      caption: 'Comparez : en sept siècles, le Đại Việt s’étend du delta du fleuve Rouge jusqu’au delta du Mékong.',
+      caption: 'Compare : en sept siècles, le Đại Việt s’étend du delta du fleuve Rouge jusqu’au delta du Mékong.',
     },
     {
       id: 'bachdang',
@@ -162,7 +162,7 @@ export default {
     { id: 'quocngu', carte: 'quocngu', type: 'mcq', prompt: 'Comment s’appelle l’écriture du vietnamien en alphabet latin ?', options: ['Le quốc ngữ', 'Le chữ nôm', 'Le sanskrit', 'Le hangeul'], answer: 0 },
     { id: 'dongda', carte: 'dongda', type: 'mcq', prompt: 'Quelle armée Quang Trung bat-il pendant le Têt 1789 ?', options: ['Une armée chinoise des Qing', 'Une armée française', 'Une armée mongole', 'Une armée siamoise'], answer: 0 },
     { id: 'marionnettes', carte: 'marionnettes', type: 'tf', prompt: 'Le théâtre de marionnettes sur l’eau existe déjà au XIIe siècle.', answer: true },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Bataille du Bạch Đằng', 'Capitale à Thăng Long', 'Victoire sur les Mongols', 'Lê Lợi chasse les Ming'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Bataille du Bạch Đằng', 'Capitale à Thăng Long', 'Victoire sur les Mongols', 'Lê Lợi chasse les Ming'] },
   ],
 
   recap: [

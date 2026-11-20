@@ -163,7 +163,7 @@ export default {
     { id: 'hopital', carte: 'hopital', type: 'mcq', prompt: 'Quel sultan fonde un grand hôpital au Caire ?', options: ['Qalawun', 'Baybars', 'Barquq', 'Selim'], answer: 0 },
     { id: 'ottomans', carte: 'ottomans', type: 'mcq', prompt: 'Qui conquiert l’Égypte en 1517 ?', options: ['Les Ottomans', 'Les Portugais', 'Les Mongols', 'Les Français'], answer: 0 },
     { id: 'mot', carte: 'mamelouks', type: 'mcq', prompt: 'Que signifie le mot arabe « mamelouk » ?', options: ['Possédé (esclave)', 'Roi', 'Cavalier', 'Saint'], answer: 0 },
-    { id: 'ordre', carte: ['mamelouks', 'ain-jalut', 'chronologie'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Les mamelouks prennent le pouvoir', 'Bataille d’Aïn Djalout', 'Chute d’Acre', 'Conquête ottomane'] },
+    { id: 'ordre', carte: ['mamelouks', 'ain-jalut', 'chronologie'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Les mamelouks prennent le pouvoir', 'Bataille d’Aïn Djalout', 'Chute d’Acre', 'Conquête ottomane'] },
   ],
 
   recap: [

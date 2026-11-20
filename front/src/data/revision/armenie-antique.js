@@ -20,7 +20,7 @@ export default {
       kicker: 'Territoire',
       title: 'L’Arménie dans le temps',
       years: [-300, -1, 300],
-      caption: 'Comparez : coincée entre de grands empires, l’Arménie garde son cœur autour du mont Ararat.',
+      caption: 'Compare : coincée entre de grands empires, l’Arménie garde son cœur autour du mont Ararat.',
     },
     {
       id: 'tigrane',
@@ -164,7 +164,7 @@ export default {
     { id: 'toujours', carte: 'alphabet', type: 'tf', prompt: 'L’alphabet de Mesrop Machtots est toujours utilisé en Arménie.', answer: true },
     { id: 'partage', carte: 'fin', type: 'mcq', prompt: 'Qui se partage l’Arménie en 387 ?', options: ['Rome et la Perse', 'Les Grecs et les Égyptiens', 'Les Arabes et les Turcs', 'Les Huns et les Goths'], answer: 0 },
     { id: 'fin', carte: 'fin', type: 'mcq', prompt: 'Qui supprime la royauté arménienne en 428 ?', options: ['Les Perses sassanides', 'Les Romains', 'Les Mongols', 'Les Arabes'], answer: 0 },
-    { id: 'ordre', carte: ['chronologie', 'tigrane'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Royaume d’Artaxias Ier', 'Règne de Tigrane le Grand', 'Conversion au christianisme', 'Création de l’alphabet arménien'] },
+    { id: 'ordre', carte: ['chronologie', 'tigrane'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Royaume d’Artaxias Ier', 'Règne de Tigrane le Grand', 'Conversion au christianisme', 'Création de l’alphabet arménien'] },
   ],
 
   recap: [

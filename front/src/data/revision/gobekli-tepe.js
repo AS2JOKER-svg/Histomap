@@ -157,7 +157,7 @@ export default {
     { id: 'engrain', carte: 'engrain', type: 'mcq', prompt: 'Quelle céréale aurait été domestiquée près de Göbekli Tepe ?', options: ["L'engrain (un blé)", 'Le maïs', 'Le riz', 'Le millet'], answer: 0 },
     { id: 'fin', carte: 'chronologie', type: 'mcq', prompt: 'Vers quand le site est-il abandonné ?', options: ['Vers 8000 av. J.-C.', 'Vers 500 av. J.-C.', 'Vers 15 000 av. J.-C.', 'Au Moyen Âge'], answer: 0 },
     { id: 'unesco', carte: 'chronologie', type: 'tf', prompt: "Göbekli Tepe est inscrit au patrimoine mondial de l'UNESCO.", answer: true },
-    { id: 'ordre', carte: ['chronologie', 'comparaison'], type: 'order', prompt: "Remettez dans l'ordre chronologique.", items: ['Premières enceintes de Göbekli Tepe', 'Abandon du site', 'Construction de Stonehenge', 'Début des fouilles de Klaus Schmidt'] },
+    { id: 'ordre', carte: ['chronologie', 'comparaison'], type: 'order', prompt: "Remets dans l'ordre chronologique.", items: ['Premières enceintes de Göbekli Tepe', 'Abandon du site', 'Construction de Stonehenge', 'Début des fouilles de Klaus Schmidt'] },
   ],
 
   recap: [

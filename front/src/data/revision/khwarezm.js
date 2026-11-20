@@ -163,7 +163,7 @@ export default {
     { id: 'algorithme', carte: 'savants', type: 'mcq', prompt: 'Quel mot vient du nom du savant al-Khwarizmi ?', options: ['Algorithme', 'Algèbre', 'Alchimie', 'Alphabet'], answer: 0 },
     { id: 'capitale', carte: 'ruines', type: 'mcq', prompt: 'Comment s’appellent aujourd’hui les ruines de Gurganj ?', options: ['Kounia-Ourguentch', 'Persépolis', 'Pétra', 'Babylone'], answer: 0 },
     { id: 'premiere', carte: 'fin', type: 'tf', prompt: 'L’invasion du Khwarezm est la première grande campagne de Gengis Khan hors de l’Asie de l’Est.', answer: true },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Un gouverneur turc au Khwarezm', 'Victoire sur les Seldjoukides', 'Incident d’Otrar', 'Mort de Jalal ad-Din'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Un gouverneur turc au Khwarezm', 'Victoire sur les Seldjoukides', 'Incident d’Otrar', 'Mort de Jalal ad-Din'] },
   ],
 
   recap: [

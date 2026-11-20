@@ -160,7 +160,7 @@ export default {
     { id: 'fin', carte: 'fin', type: 'mcq', prompt: 'Qui supprime la charge d’hetman en 1764 ?', options: ['Catherine II', 'Pierre le Grand', 'Ivan le Terrible', 'Napoléon'], answer: 0 },
     { id: 'radas', carte: 'rada', type: 'tf', prompt: 'Les Cosaques élisent leurs chefs lors d’assemblées.', answer: true },
     { id: 'repine', carte: 'lettre', type: 'mcq', prompt: 'Quel peintre représente les Cosaques écrivant une lettre au sultan ?', options: ['Ilia Répine', 'Andreï Roublev', 'Rembrandt', 'Picasso'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Soulèvement de Khmelnytsky', 'Accord de Pereïaslav', 'Bataille de Poltava', 'Suppression de l’Hetmanat'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Soulèvement de Khmelnytsky', 'Accord de Pereïaslav', 'Bataille de Poltava', 'Suppression de l’Hetmanat'] },
   ],
 
   recap: [

@@ -154,7 +154,7 @@ export default {
     { id: 'adn', carte: 'cohabitation', type: 'mcq', prompt: "Quelle part d'ADN néandertalien portent les humains non africains ?", options: ['Environ 2 %', 'Environ 50 %', 'Aucune', 'Environ 25 %'], answer: 0 },
     { id: 'chauvet', carte: 'chauvet', type: 'mcq', prompt: 'Quelle grotte abrite des peintures d’environ 36 000 ans ?', options: ['Chauvet', 'Lascaux', 'Altamira', 'Cosquer'], answer: 0 },
     { id: 'lascaux-date', carte: 'lascaux', type: 'mcq', prompt: 'En quelle année la grotte de Lascaux est-elle découverte ?', options: ['1940', '1868', '1994', '1971'], answer: 0 },
-    { id: 'art-ordre', carte: ['tautavel', 'art', 'fin'], type: 'order', prompt: "Remettez dans l'ordre chronologique.", items: ['Homme de Tautavel', 'Grotte Chauvet', 'Grotte de Lascaux', 'Fin de la glaciation'] },
+    { id: 'art-ordre', carte: ['tautavel', 'art', 'fin'], type: 'order', prompt: "Remets dans l'ordre chronologique.", items: ['Homme de Tautavel', 'Grotte Chauvet', 'Grotte de Lascaux', 'Fin de la glaciation'] },
     { id: 'mer', carte: 'glaciation', type: 'tf', prompt: "Pendant la dernière glaciation, on pouvait marcher de la France à l'Angleterre.", answer: true },
     { id: 'animaux', carte: 'glaciation', type: 'mcq', prompt: 'Quel animal ne vit PAS dans les steppes glaciaires d’Europe ?', options: ['Le dromadaire', 'Le mammouth', 'Le renne', 'Le rhinocéros laineux'], answer: 0 },
     { id: 'propulseur', carte: 'propulseur', type: 'mcq', prompt: 'À quoi sert le propulseur ?', options: ['Lancer une sagaie plus loin', 'Allumer le feu', 'Coudre des vêtements', 'Peindre les parois'], answer: 0 },

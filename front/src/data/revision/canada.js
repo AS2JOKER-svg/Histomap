@@ -20,7 +20,7 @@ export default {
       kicker: 'Territoire',
       title: 'D’un océan à l’autre',
       years: [1880, 1960],
-      caption: 'Comparez : le Canada s’étend de l’Atlantique au Pacifique ; Terre-Neuve le rejoint en 1949.',
+      caption: 'Compare : le Canada s’étend de l’Atlantique au Pacifique ; Terre-Neuve le rejoint en 1949.',
     },
     {
       id: 'ouest',
@@ -160,7 +160,7 @@ export default {
     { id: 'pearson', carte: 'pearson', type: 'mcq', prompt: 'Quel Canadien imagine les forces de paix de l’ONU en 1956 ?', options: ['Lester B. Pearson', 'Pierre Elliott Trudeau', 'Wilfrid Laurier', 'Louis Riel'], answer: 0 },
     { id: 'nunavut', carte: 'nunavut', type: 'mcq', prompt: 'Quel peuple gouverne en majorité le Nunavut ?', options: ['Les Inuits', 'Les Métis', 'Les Cris', 'Les Iroquois'], answer: 0 },
     { id: 'hockey', carte: 'bilinguisme', type: 'mcq', prompt: 'Quel est le sport national d’hiver du Canada ?', options: ['Le hockey sur glace', 'Le ski', 'Le curling', 'Le patinage artistique'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Confédération', 'Vimy', 'Statut de Westminster', 'Rapatriement de la Constitution'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Confédération', 'Vimy', 'Statut de Westminster', 'Rapatriement de la Constitution'] },
   ],
 
   recap: [

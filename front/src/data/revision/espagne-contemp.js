@@ -32,7 +32,7 @@ export default {
       kicker: 'Territoire',
       title: 'L’Espagne en Europe',
       years: [1815, 2010],
-      caption: 'Comparez : en Europe, le territoire de l’Espagne change peu. Ce sont ses colonies qu’elle perd au XIXe siècle.',
+      caption: 'Compare : en Europe, le territoire de l’Espagne change peu. Ce sont ses colonies qu’elle perd au XIXe siècle.',
     },
     {
       id: 'empire',
@@ -163,7 +163,7 @@ export default {
     { id: 'roi', carte: 'transition', type: 'mcq', prompt: 'Quel roi accompagne le retour de la démocratie ?', options: ['Juan Carlos Ier', 'Alphonse XIII', 'Philippe II', 'Ferdinand VII'], answer: 0 },
     { id: 'constitution', carte: 'transition', type: 'tf', prompt: 'Depuis la Constitution de 1978, l’Espagne est une monarchie parlementaire.', answer: true },
     { id: 'europe', carte: 'chronologie', type: 'mcq', prompt: 'En quelle année l’Espagne entre-t-elle dans la Communauté européenne ?', options: ['1986', '1957', '1975', '2002'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Soulèvement de Madrid', 'Perte de Cuba et des Philippines', 'Début de la guerre civile', 'Mort de Franco'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Soulèvement de Madrid', 'Perte de Cuba et des Philippines', 'Début de la guerre civile', 'Mort de Franco'] },
   ],
 
   recap: [

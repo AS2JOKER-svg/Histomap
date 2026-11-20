@@ -30,7 +30,7 @@ export default {
       kicker: 'Territoire',
       title: 'L’Argentine',
       years: [1878, 1960],
-      caption: 'Comparez : par la « conquête du désert », l’Argentine prend le contrôle de la Pampa et de la Patagonie.',
+      caption: 'Compare : par la « conquête du désert », l’Argentine prend le contrôle de la Pampa et de la Patagonie.',
     },
     {
       id: 'desert',
@@ -163,7 +163,7 @@ export default {
     { id: 'democratie', carte: 'chronologie', type: 'mcq', prompt: 'En quelle année la démocratie revient-elle en Argentine ?', options: ['1983', '1955', '1976', '2001'], answer: 0 },
     { id: 'tango', carte: 'tango', type: 'mcq', prompt: 'Quelle danse est née à Buenos Aires et à Montevideo ?', options: ['Le tango', 'La salsa', 'La samba', 'Le flamenco'], answer: 0 },
     { id: 'pape', carte: 'pape', type: 'mcq', prompt: 'Quel pape est argentin ?', options: ['François', 'Jean-Paul II', 'Benoît XVI', 'Jean XXIII'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Indépendance', 'Constitution', 'Dictature militaire', 'Guerre des Malouines'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Indépendance', 'Constitution', 'Dictature militaire', 'Guerre des Malouines'] },
   ],
 
   recap: [

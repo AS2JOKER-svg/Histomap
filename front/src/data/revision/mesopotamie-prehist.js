@@ -20,7 +20,7 @@ export default {
       kicker: 'Territoire',
       title: 'Des collines aux plaines',
       years: [-8000, -5000],
-      caption: "Comparez : les premiers paysans vivent d'abord sur les collines du nord, où il pleut assez. Vers 5000 av. J.-C., ils occupent aussi les plaines du sud, entre le Tigre et l'Euphrate.",
+      caption: "Compare : les premiers paysans vivent d'abord sur les collines du nord, où il pleut assez. Vers 5000 av. J.-C., ils occupent aussi les plaines du sud, entre le Tigre et l'Euphrate.",
     },
     {
       id: 'jarmo',
@@ -160,7 +160,7 @@ export default {
     { id: 'sceau', carte: 'sceau', type: 'mcq', prompt: 'Comment utilise-t-on un sceau-cylindre ?', options: ['On le roule sur l’argile fraîche', 'On le porte comme une couronne', 'On le lance comme une arme', 'On le brûle en offrande'], answer: 0 },
     { id: 'bols', carte: 'bols', type: 'tf', prompt: "Les bols fabriqués en série de la période d'Uruk servaient peut-être à distribuer des rations aux travailleurs.", answer: true },
     { id: 'manque', carte: 'expansion', type: 'mcq', prompt: 'Quelle ressource manque dans le sud de la Mésopotamie ?', options: ['La pierre et le bois', "L'argile", "L'eau des fleuves", 'Les roseaux'], answer: 0 },
-    { id: 'ordre', carte: ['chronologie', 'uruk'], type: 'order', prompt: "Remettez dans l'ordre chronologique.", items: ['Débuts de l’agriculture', 'Village de Jarmo', 'Période d’Obeïd', 'Uruk, plus grande ville du monde'] },
+    { id: 'ordre', carte: ['chronologie', 'uruk'], type: 'order', prompt: "Remets dans l'ordre chronologique.", items: ['Débuts de l’agriculture', 'Village de Jarmo', 'Période d’Obeïd', 'Uruk, plus grande ville du monde'] },
   ],
 
   recap: [

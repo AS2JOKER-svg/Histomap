@@ -160,7 +160,7 @@ export default {
     { id: 'cavalerie', carte: 'numides', type: 'mcq', prompt: 'Comment montent les cavaliers numides ?', options: ['Sans selle ni mors', 'Avec des étriers d’or', 'Sur des éléphants', 'Sur des chameaux cuirassés'], answer: 0 },
     { id: 'tifinagh', carte: 'heritage', type: 'mcq', prompt: 'Quelle écriture actuelle descend de l’alphabet libyque des Numides ?', options: ['Le tifinagh', 'L’alphabet arabe', 'Le latin', 'Le grec'], answer: 0 },
     { id: 'juba', carte: 'juba', type: 'mcq', prompt: 'Qui épouse Juba II, roi savant de Maurétanie ?', options: ['La fille de Cléopâtre', 'Sophonisbe', 'La fille d’Hannibal', 'Une princesse perse'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Massinissa s’allie à Rome', 'Bataille de Zama', 'Guerre de Jugurtha', 'Bataille de Thapsus'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Massinissa s’allie à Rome', 'Bataille de Zama', 'Guerre de Jugurtha', 'Bataille de Thapsus'] },
   ],
 
   recap: [

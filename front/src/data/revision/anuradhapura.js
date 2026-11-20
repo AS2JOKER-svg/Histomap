@@ -160,7 +160,7 @@ export default {
     { id: 'polonnaruwa', carte: 'chola', type: 'mcq', prompt: 'Quelle ville devient la capitale après la chute d’Anuradhapura ?', options: ['Polonnaruwa', 'Colombo', 'Delhi', 'Kandy'], answer: 0 },
     { id: 'faxian', carte: 'faxian', type: 'tf', prompt: 'Le moine chinois Faxian visite Sri Lanka au début du Ve siècle.', answer: true },
     { id: 'theravada', carte: 'aujourdhui', type: 'mcq', prompt: 'Vers quels pays le bouddhisme theravada s’est-il diffusé depuis Sri Lanka ?', options: ['Birmanie, Thaïlande, Laos, Cambodge', 'Japon et Corée', 'Perse et Arabie', 'Égypte et Éthiopie'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Anuradhapura capitale', 'Arrivée du bouddhisme', 'Sigiriya', 'Capture du dernier roi par les Chola'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Anuradhapura capitale', 'Arrivée du bouddhisme', 'Sigiriya', 'Capture du dernier roi par les Chola'] },
   ],
 
   recap: [

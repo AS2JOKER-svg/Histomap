@@ -29,7 +29,7 @@ export default {
       kicker: 'Territoire',
       title: "Un royaume d'Afrique centrale",
       years: [1500, 1650, 1783],
-      caption: "Le royaume s'étend au sud de l'embouchure du fleuve Congo, sur le nord de l'actuel Angola et l'ouest de l'actuelle RD Congo. Comparez son étendue au fil des siècles.",
+      caption: "Le royaume s'étend au sud de l'embouchure du fleuve Congo, sur le nord de l'actuel Angola et l'ouest de l'actuelle RD Congo. Compare son étendue au fil des siècles.",
     },
     {
       id: 'henrique',
@@ -160,7 +160,7 @@ export default {
     { id: 'kimpa', carte: 'kimpa-vita', type: 'mcq', prompt: 'Par quel saint Kimpa Vita affirme-t-elle être habitée ?', options: ['Saint Antoine', 'Saint Pierre', 'Saint Jacques', 'Saint Louis'], answer: 0 },
     { id: 'nzimbu', carte: 'nzimbu', type: 'mcq', prompt: 'Que sont les nzimbu ?', options: ['Des coquillages servant de monnaie', 'Des soldats du roi', 'Des églises', 'Des masques sacrés'], answer: 0 },
     { id: 'rome', carte: 'ambassade', type: 'tf', prompt: 'Un ambassadeur du Kongo est envoyé auprès du pape à Rome au début du XVIIe siècle.', answer: true },
-    { id: 'ordre', carte: ['chronologie', 'jagas', 'kimpa-vita'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Lettres d’Afonso Ier', 'Invasion des Jagas', 'Bataille de Mbwila', 'Mort de Kimpa Vita'] },
+    { id: 'ordre', carte: ['chronologie', 'jagas', 'kimpa-vita'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Lettres d’Afonso Ier', 'Invasion des Jagas', 'Bataille de Mbwila', 'Mort de Kimpa Vita'] },
   ],
 
   recap: [

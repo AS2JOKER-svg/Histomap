@@ -31,7 +31,7 @@ export default {
       kicker: 'Territoire',
       title: 'Un empire au cœur de l’Europe',
       years: [1000, 1200, 1492],
-      caption: "Comparez : l'Empire réunit la Germanie, une partie de l'Italie et la Bohême, mais son pouvoir en Italie s'efface peu à peu.",
+      caption: "Compare : l'Empire réunit la Germanie, une partie de l'Italie et la Bohême, mais son pouvoir en Italie s'efface peu à peu.",
     },
     {
       id: 'nom',
@@ -163,7 +163,7 @@ export default {
     { id: 'hanse', carte: 'hanse', type: 'mcq', prompt: 'Quelle ville mène la Hanse ?', options: ['Lübeck', 'Vienne', 'Prague', 'Milan'], answer: 0 },
     { id: 'gutenberg', carte: 'gutenberg', type: 'mcq', prompt: 'Dans quelle ville Gutenberg met-il au point l’imprimerie ?', options: ['Mayence', 'Venise', 'Paris', 'Prague'], answer: 0 },
     { id: 'habsbourg', carte: 'etapes', type: 'mcq', prompt: 'Quelle famille garde presque sans interruption la couronne impériale à partir de 1438 ?', options: ['Les Habsbourg', 'Les Hohenstaufen', 'Les Capétiens', 'Les Romanov'], answer: 0 },
-    { id: 'ordre', carte: ['etapes', 'canossa', 'gutenberg'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Couronnement d’Otton Ier', 'Pénitence de Canossa', 'Bulle d’or', 'Bible de Gutenberg'] },
+    { id: 'ordre', carte: ['etapes', 'canossa', 'gutenberg'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Couronnement d’Otton Ier', 'Pénitence de Canossa', 'Bulle d’or', 'Bible de Gutenberg'] },
   ],
 
   recap: [

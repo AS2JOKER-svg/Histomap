@@ -20,7 +20,7 @@ export default {
       kicker: 'Territoire',
       title: 'La Baltique, un « lac suédois »',
       years: [1600, 1650, 1715],
-      caption: "Comparez : vers 1650, la Suède contrôle presque toutes les côtes de la Baltique, de la Finlande à l'Allemagne du Nord.",
+      caption: "Compare : vers 1650, la Suède contrôle presque toutes les côtes de la Baltique, de la Finlande à l'Allemagne du Nord.",
     },
     {
       id: 'conquetes',
@@ -164,7 +164,7 @@ export default {
     { id: 'petersbourg', carte: 'fin', type: 'tf', prompt: 'Saint-Pétersbourg est fondée en 1703 sur une terre prise à la Suède.', answer: true },
     { id: 'vasa-navire', carte: 'vasa', type: 'mcq', prompt: 'Que devient le navire Vasa lors de son premier voyage en 1628 ?', options: ['Il coule dans le port de Stockholm', 'Il bat la flotte danoise', 'Il découvre une île', 'Il est capturé par les Russes'], answer: 0 },
     { id: 'riksdag', carte: 'etat', type: 'tf', prompt: 'Les paysans sont représentés au Parlement suédois.', answer: true },
-    { id: 'ordre', carte: ['breitenfeld', 'conquetes', 'poltava', 'fin'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Bataille de Breitenfeld', 'Traités de Westphalie', 'Bataille de Poltava', 'Paix de Nystad'] },
+    { id: 'ordre', carte: ['breitenfeld', 'conquetes', 'poltava', 'fin'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Bataille de Breitenfeld', 'Traités de Westphalie', 'Bataille de Poltava', 'Paix de Nystad'] },
   ],
 
   recap: [

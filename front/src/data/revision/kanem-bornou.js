@@ -20,7 +20,7 @@ export default {
       kicker: 'Territoire',
       title: 'Du Kanem au Bornou',
       years: [800, 1300, 1600, 1880],
-      caption: 'Comparez : le royaume se déplace de l’est à l’ouest du lac Tchad et change de forme au fil des siècles.',
+      caption: 'Compare : le royaume se déplace de l’est à l’ouest du lac Tchad et change de forme au fil des siècles.',
     },
     {
       id: 'islam',
@@ -160,7 +160,7 @@ export default {
     { id: 'kanemi', carte: 'djihad', type: 'mcq', prompt: 'Quel lettré sauve le Bornou en 1808 ?', options: ['Al-Kanemi', 'Averroès', 'Ibn Battuta', 'Ahmad Baba'], answer: 0 },
     { id: 'rabih', carte: 'fin', type: 'mcq', prompt: 'Quel conquérant s’empare du Bornou en 1893 ?', options: ['Rabih az-Zubayr', 'Samory Touré', 'Chaka', 'Napoléon'], answer: 0 },
     { id: 'barth', carte: 'barth', type: 'mcq', prompt: 'Quel explorateur allemand décrit le Bornou dans les années 1850 ?', options: ['Heinrich Barth', 'David Livingstone', 'René Caillié', 'Marco Polo'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Conversion du roi Hummay', 'Fondation de Ngazargamu', 'Règne d’Idris Alaoma', 'Conquête par Rabih'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Conversion du roi Hummay', 'Fondation de Ngazargamu', 'Règne d’Idris Alaoma', 'Conquête par Rabih'] },
     { id: 'libye-egypte', carte: 'commerce', type: 'mcq', prompt: 'Vers quelles régions partent les caravanes du Kanem-Bornou ?', options: ['La Libye et l’Égypte', 'Le Maroc et l’Espagne', 'L’Éthiopie et l’Arabie', 'Le golfe de Guinée'], answer: 0 },
   ],
 

@@ -157,7 +157,7 @@ export default {
     { id: 'hiram', carte: 'hiram', type: 'mcq', prompt: 'Selon la Bible, à quel roi Hiram de Tyr fournit-il du cèdre pour bâtir le Temple de Jérusalem ?', options: ['Salomon', 'Nabuchodonosor', 'Ramsès II', 'Cyrus'], answer: 0 },
     { id: 'tyr', carte: 'tyr', type: 'mcq', prompt: 'Qui s’empare de Tyr en 332 av. J.-C. après un long siège ?', options: ['Alexandre le Grand', 'Jules César', 'Hannibal', 'Darius Ier'], answer: 0 },
     { id: 'digue', carte: 'tyr', type: 'tf', prompt: 'Pour atteindre Tyr, bâtie sur une île, Alexandre fait construire une digue.', answer: true },
-    { id: 'ordre', carte: 'dominations', type: 'order', prompt: "Remettez dans l'ordre chronologique.", items: ['Fondation de Carthage', 'Domination perse sur les cités phéniciennes', 'Prise de Tyr par Alexandre', 'Intégration à la province romaine de Syrie'] },
+    { id: 'ordre', carte: 'dominations', type: 'order', prompt: "Remets dans l'ordre chronologique.", items: ['Fondation de Carthage', 'Domination perse sur les cités phéniciennes', 'Prise de Tyr par Alexandre', 'Intégration à la province romaine de Syrie'] },
     { id: 'herodote', carte: 'navigation', type: 'tf', prompt: 'Il est prouvé avec certitude que les Phéniciens ont fait le tour de l’Afrique.', answer: false, explanation: "Ce voyage est raconté par Hérodote, mais il reste discuté par les historiens." },
   ],
 

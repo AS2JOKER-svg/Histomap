@@ -20,7 +20,7 @@ export default {
       kicker: 'Territoire',
       title: 'Le Maroc dans le temps',
       years: [1600, 1783, 1900],
-      caption: 'Comparez : le Maroc garde son indépendance pendant plus de trois siècles, jusqu’au protectorat de 1912.',
+      caption: 'Compare : le Maroc garde son indépendance pendant plus de trois siècles, jusqu’au protectorat de 1912.',
     },
     {
       id: 'trois-rois',
@@ -163,7 +163,7 @@ export default {
     { id: 'fes', carte: 'protectorat', type: 'mcq', prompt: 'Quel traité fait du Maroc un protectorat en 1912 ?', options: ['Le traité de Fès', 'Le traité de Versailles', 'Le traité de Tordesillas', 'Le traité de Paris'], answer: 0 },
     { id: 'alaouites', carte: 'heritage', type: 'tf', prompt: 'La dynastie alaouite règne toujours au Maroc.', answer: true },
     { id: 'mellah', carte: 'mellah', type: 'mcq', prompt: 'Comment s’appellent les quartiers juifs des villes marocaines ?', options: ['Les mellahs', 'Les souks', 'Les kasbahs', 'Les riads'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Les Saadiens prennent Fès', 'Bataille des Trois Rois', 'Les Alaouites au pouvoir', 'Traité de Fès'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Les Saadiens prennent Fès', 'Bataille des Trois Rois', 'Les Alaouites au pouvoir', 'Traité de Fès'] },
   ],
 
   recap: [

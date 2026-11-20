@@ -159,7 +159,7 @@ export default {
     { id: 'aurangzeb', carte: 'aurangzeb', type: 'mcq', prompt: "Sous quel empereur l'empire atteint-il sa plus grande taille ?", options: ['Aurangzeb', 'Babur', 'Akbar', 'Bahadur Shah II'], answer: 0 },
     { id: 'marathes', carte: 'aurangzeb', type: 'mcq', prompt: 'Quel peuple hindou se révolte contre Aurangzeb ?', options: ['Les Marathes', 'Les Afghans', 'Les Perses', 'Les Tamouls'], answer: 0 },
     { id: 'nader', carte: 'marathes', type: 'mcq', prompt: 'Qui pille Delhi en 1739 et emporte le trône du Paon ?', options: ['Nader Shah', 'Robert Clive', 'Tamerlan', 'Aurangzeb'], answer: 0 },
-    { id: 'ordre', carte: ['panipat', 'etapes', 'taj'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Bataille de Panipat', 'Règne d’Akbar', 'Construction du Taj Mahal', 'Pillage de Delhi par Nader Shah'] },
+    { id: 'ordre', carte: ['panipat', 'etapes', 'taj'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Bataille de Panipat', 'Règne d’Akbar', 'Construction du Taj Mahal', 'Pillage de Delhi par Nader Shah'] },
     { id: 'plassey', carte: 'plassey', type: 'mcq', prompt: 'Quelle bataille de 1757 donne le Bengale aux Britanniques ?', options: ['Plassey', 'Panipat', 'Waterloo', 'Lépante'], answer: 0 },
     { id: 'miniature', carte: 'arts', type: 'mcq', prompt: 'Comment appelle-t-on les peintures fines qui illustrent les livres moghols ?', options: ['Des miniatures', 'Des fresques', 'Des mosaïques', 'Des enluminures gothiques'], answer: 0 },
     { id: 'fin', carte: 'fin', type: 'mcq', prompt: 'En quelle année le dernier empereur moghol est-il exilé par les Britanniques ?', options: ['1857', '1707', '1757', '1947'], answer: 0 },

@@ -120,7 +120,7 @@ export default {
     { id: 'thermo', carte: 'datation', type: 'mcq', prompt: 'Quelle méthode indique quand une poterie a été cuite ?', options: ['La thermoluminescence', 'La dendrochronologie', 'La stratigraphie', 'La radiographie'], answer: 0 },
     { id: 'pillage', carte: 'pillage', type: 'tf', prompt: 'Beaucoup de sites Nok ont été pillés pour le marché de l’art.', answer: true },
     { id: 'fosses', carte: 'croyances', type: 'mcq', prompt: 'Où retrouve-t-on souvent les statues Nok ?', options: ['Cassées, dans des fosses', 'Intactes, dans des temples', 'Dans des tombeaux royaux', 'Au fond des lacs'], answer: 0 },
-    { id: 'ordre', carte: ['decouverte', 'duree', 'mysteres'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Premiers villages Nok', 'Début des sculptures en terre cuite', 'Disparition de la culture Nok', 'Identification par Bernard Fagg'] },
+    { id: 'ordre', carte: ['decouverte', 'duree', 'mysteres'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Premiers villages Nok', 'Début des sculptures en terre cuite', 'Disparition de la culture Nok', 'Identification par Bernard Fagg'] },
   ],
 
   recap: [

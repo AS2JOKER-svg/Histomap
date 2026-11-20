@@ -159,7 +159,7 @@ export default {
     { id: 'rome', carte: 'amanirenas', type: 'mcq', prompt: 'Quel empereur romain affronte la candace Amanirenas ?', options: ['Auguste', 'Néron', 'Jules César', 'Trajan'], answer: 0 },
     { id: 'tete', carte: 'auguste', type: 'mcq', prompt: "Où a-t-on retrouvé une tête en bronze d'Auguste en 1910 ?", options: ['À Méroé', 'À Rome', 'À Alexandrie', 'À Carthage'], answer: 0 },
     { id: 'ecriture', carte: 'ecriture', type: 'mcq', prompt: 'Comment s’appelle l’écriture propre au royaume de Koush ?', options: ['Le méroïtique', 'Le cunéiforme', 'Le démotique', 'Le guèze'], answer: 0 },
-    { id: 'ordre', carte: ['pharaons-noirs', 'taharqa', 'rome', 'fin'], type: 'order', prompt: "Remettez dans l'ordre.", items: ["Piânkhy conquiert l'Égypte", 'Règne de Taharqa', 'Guerre de la candace Amanirenas contre Rome', "Expédition d'Ezana d'Aksoum"] },
+    { id: 'ordre', carte: ['pharaons-noirs', 'taharqa', 'rome', 'fin'], type: 'order', prompt: "Remets dans l'ordre.", items: ["Piânkhy conquiert l'Égypte", 'Règne de Taharqa', 'Guerre de la candace Amanirenas contre Rome', "Expédition d'Ezana d'Aksoum"] },
     { id: 'aksoum', carte: 'fin', type: 'mcq', prompt: 'Quel royaume voisin profite du déclin de Méroé au IVe siècle ?', options: ['Aksoum', 'Carthage', 'Le Mali', 'Ghana'], answer: 0 },
   ],
 

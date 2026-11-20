@@ -93,7 +93,7 @@ function CoverCard({ card, civ, epoch, round, deck }) {
           <span className="inline-flex items-center gap-1.5"><Icon name="clock" size={16} /> ~{card.readingTime} min</span>
         </p>
         <p className="text-xs opacity-95 leading-relaxed">
-          Glissez à droite ce que vous avez compris, à gauche ce qu'il faut revoir : ces cartes reviendront à la fin.
+          Glisse à droite ce que tu as compris, à gauche ce qu'il faut revoir : ces cartes reviendront à la fin.
         </p>
       </div>
     </div>
@@ -288,7 +288,7 @@ function LineageCard({ civ }) {
               <span className={`w-2 h-2 rounded-full shrink-0 ${current ? 'bg-white' : ''}`} style={current ? undefined : { background: civ.color }} />
               <span className="min-w-0">
                 <span className={`block text-[11px] font-semibold uppercase tracking-wider ${current ? 'opacity-85' : 'text-muted'}`}>{m.epochLabel}</span>
-                <span className={`block text-[15px] font-medium ${current ? '' : 'text-ink'}`}>{m.label}{current ? ' · vous êtes ici' : ''}</span>
+                <span className={`block text-[15px] font-medium ${current ? '' : 'text-ink'}`}>{m.label}{current ? ' · tu es ici' : ''}</span>
               </span>
             </li>
           )
@@ -312,7 +312,7 @@ function RecapCard({ card, civ }) {
           </li>
         ))}
       </ul>
-      <p className="mt-6 text-sm text-muted">Terminez le chapitre pour enregistrer votre progression.</p>
+      <p className="mt-6 text-sm text-muted">Termine le chapitre pour enregistrer ta progression.</p>
     </Frame>
   )
 }

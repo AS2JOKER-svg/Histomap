@@ -71,7 +71,10 @@ export function simuler({ profil = 'type', precision = 0.8, fil = null } = {}) {
   return { mondes, xp: av.xp, niveau: niveau(av.xp), heures: t / 3600, jours: Math.ceil(t / TEMPS.jour) }
 }
 
-const hm = (s) => `${Math.floor(s / 3600)} h ${String(Math.round((s % 3600) / 60)).padStart(2, '0')}`
+const hm = (s) => {
+  const min = Math.round(s / 60) // arrondi à la minute d'abord : jamais « 4 h 60 »
+  return `${Math.floor(min / 60)} h ${String(min % 60).padStart(2, '0')}`
+}
 
 if (import.meta.url === `file://${process.argv[1]}`) {
   const arg = (nom, def) => {

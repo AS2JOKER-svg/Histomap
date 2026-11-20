@@ -158,7 +158,7 @@ export default {
     { id: 'enriquillo', carte: 'enriquillo', type: 'tf', prompt: 'Le cacique Enriquillo obtient la paix avec les Espagnols après une longue révolte.', answer: true },
     { id: 'mots', carte: 'mots', type: 'mcq', prompt: 'Lequel de ces mots vient de la langue taïno ?', options: ['Hamac', 'Château', 'Fenêtre', 'Vélo'], answer: 0 },
     { id: 'lascasas', carte: 'lascasas', type: 'mcq', prompt: 'Quel religieux espagnol dénonce les violences faites aux Taïnos ?', options: ['Bartolomé de las Casas', 'Ignace de Loyola', 'Christophe Colomb', 'Hernán Cortés'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Affirmation de la culture taïno', 'Arrivée de Christophe Colomb', 'Exécution de Hatuey', 'Paix d’Enriquillo'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Affirmation de la culture taïno', 'Arrivée de Christophe Colomb', 'Exécution de Hatuey', 'Paix d’Enriquillo'] },
   ],
 
   recap: [

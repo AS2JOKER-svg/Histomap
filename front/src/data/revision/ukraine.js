@@ -74,7 +74,7 @@ export default {
       kicker: 'Territoire',
       title: 'L’Ukraine',
       years: [1920, 2010],
-      caption: 'Comparez : en 1920, l’Ukraine soviétique naissante ; en 2010, l’Ukraine indépendante, avec ses frontières de 1991.',
+      caption: 'Compare : en 1920, l’Ukraine soviétique naissante ; en 2010, l’Ukraine indépendante, avec ses frontières de 1991.',
     },
     {
       id: 'independance',
@@ -162,7 +162,7 @@ export default {
     { id: 'reconnue', carte: 'donbass', type: 'tf', prompt: 'L’annexion de la Crimée par la Russie est reconnue par la plupart des pays.', answer: false, explanation: 'La plupart des pays ne la reconnaissent pas.' },
     { id: 'chevtchenko', carte: 'chevtchenko', type: 'mcq', prompt: 'Qui est le grand poète national ukrainien ?', options: ['Taras Chevtchenko', 'Pouchkine', 'Tolstoï', 'Mickiewicz'], answer: 0 },
     { id: 'grenier', carte: 'grenier', type: 'mcq', prompt: 'Quel surnom donne-t-on à l’Ukraine pour ses récoltes ?', options: ['Le grenier à blé de l’Europe', 'Le jardin de la France', 'L’usine du monde', 'Le pays du soleil levant'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Indépendance proclamée', 'Holodomor', 'Tchernobyl', 'Indépendance de 1991'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Indépendance proclamée', 'Holodomor', 'Tchernobyl', 'Indépendance de 1991'] },
   ],
 
   recap: [

@@ -29,7 +29,7 @@ export default {
       kicker: 'Territoire',
       title: 'Al-Andalus sur la carte',
       years: [900, 1200, 1400],
-      caption: "Comparez : presque toute la péninsule vers 900, puis un territoire grignoté par les royaumes chrétiens du Nord, jusqu'au petit royaume de Grenade.",
+      caption: "Compare : presque toute la péninsule vers 900, puis un territoire grignoté par les royaumes chrétiens du Nord, jusqu'au petit royaume de Grenade.",
     },
     {
       id: 'omeyyades',
@@ -158,7 +158,7 @@ export default {
     { id: 'boabdil', carte: 'grenade', type: 'mcq', prompt: 'Qui est le dernier émir de Grenade ?', options: ['Boabdil', 'Abd al-Rahman Ier', 'Averroès', 'Tariq ibn Ziyad'], answer: 0 },
     { id: 'rois-catholiques', carte: 'grenade', type: 'mcq', prompt: 'À qui Grenade est-elle remise en 1492 ?', options: ['Isabelle de Castille et Ferdinand d’Aragon', 'Charlemagne', 'Charles Quint', 'Philippe II'], answer: 0 },
     { id: 'naranja', carte: 'agriculture', type: 'tf', prompt: 'Le mot espagnol naranja (orange) vient de l’arabe.', answer: true },
-    { id: 'ordre', carte: ['conquete', 'omeyyades', 'navas', 'grenade'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Conquête de Tariq ibn Ziyad', 'Abd al-Rahman III se proclame calife', 'Bataille de Las Navas de Tolosa', 'Chute de Grenade'] },
+    { id: 'ordre', carte: ['conquete', 'omeyyades', 'navas', 'grenade'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Conquête de Tariq ibn Ziyad', 'Abd al-Rahman III se proclame calife', 'Bataille de Las Navas de Tolosa', 'Chute de Grenade'] },
     { id: 'presence-780', carte: 'duree', type: 'mcq', prompt: 'Combien de temps dure environ la présence politique musulmane en Espagne ?', options: ['Environ 780 ans', 'Environ 78 ans', 'Environ 300 ans', 'Environ 1 500 ans'], answer: 0 },
   ],
 

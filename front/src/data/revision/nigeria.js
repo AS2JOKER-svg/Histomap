@@ -158,7 +158,7 @@ export default {
     { id: 'petrole', carte: 'petrole', type: 'mcq', prompt: 'Quelle ressource fournit l’essentiel des exportations du Nigeria ?', options: ['Le pétrole', 'Le café', 'Le cuivre', 'Le thé'], answer: 0 },
     { id: 'achebe', carte: 'achebe', type: 'mcq', prompt: 'Qui a écrit Le monde s’effondre ?', options: ['Chinua Achebe', 'Wole Soyinka', 'Léopold Sédar Senghor', 'Fela Kuti'], answer: 0 },
     { id: 'boko', carte: 'boko-haram', type: 'mcq', prompt: 'Quel groupe djihadiste enlève 276 lycéennes à Chibok en 2014 ?', options: ['Boko Haram', 'Al-Shabaab', 'Le GIA', 'Les Talibans'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Création de la colonie', 'Indépendance', 'Guerre du Biafra', 'Retour des civils au pouvoir'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Création de la colonie', 'Indépendance', 'Guerre du Biafra', 'Retour des civils au pouvoir'] },
   ],
 
   recap: [

@@ -40,7 +40,7 @@ export default {
       kicker: 'Territoire',
       title: 'Le royaume d’Angleterre sur la carte',
       years: [1100, 1200, 1400],
-      caption: "Comparez : le royaume et les possessions des rois d'Angleterre changent beaucoup au fil des guerres avec la France.",
+      caption: "Compare : le royaume et les possessions des rois d'Angleterre changent beaucoup au fil des guerres avec la France.",
     },
     {
       id: 'domesday',
@@ -163,7 +163,7 @@ export default {
     { id: 'tyler', carte: 'peste', type: 'mcq', prompt: 'Qui mène la révolte des paysans de 1381 ?', options: ['Wat Tyler', 'Robin des Bois', 'Simon de Montfort', 'Thomas Becket'], answer: 0 },
     { id: 'roses', carte: 'deux-roses', type: 'mcq', prompt: 'Quelles familles s’affrontent dans la guerre des Deux-Roses ?', options: ['Lancastre et York', 'Tudor et Stuart', 'Valois et Plantagenêt', 'Normandie et Anjou'], answer: 0 },
     { id: 'tudor', carte: 'deux-roses', type: 'tf', prompt: 'En 1485, la victoire de Bosworth porte la dynastie Tudor au pouvoir.', answer: true },
-    { id: 'ordre', carte: ['hastings', 'becket', 'magna-carta', 'azincourt', 'deux-roses'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Bataille de Hastings', 'Meurtre de Thomas Becket', 'Magna Carta', 'Bataille d’Azincourt', 'Bataille de Bosworth'] },
+    { id: 'ordre', carte: ['hastings', 'becket', 'magna-carta', 'azincourt', 'deux-roses'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Bataille de Hastings', 'Meurtre de Thomas Becket', 'Magna Carta', 'Bataille d’Azincourt', 'Bataille de Bosworth'] },
   ],
 
   recap: [

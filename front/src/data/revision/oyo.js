@@ -159,7 +159,7 @@ export default {
     { id: 'ogboni', carte: 'contre-pouvoirs', type: 'tf', prompt: "La société Ogboni joue un rôle d'arbitre dans le pouvoir d'Oyo.", answer: true },
     { id: 'abandon', carte: 'chronologie', type: 'mcq', prompt: 'Vers quelle date Oyo-Ile est-elle abandonnée ?', options: ['Vers 1835', 'Vers 1500', 'Vers 1700', 'Vers 1960'], answer: 0 },
     { id: 'heritage', carte: 'heritage', type: 'mcq', prompt: 'Quelle religion du Brésil est en partie issue des croyances yoruba ?', options: ['Le candomblé', 'Le shintoïsme', "L'hindouisme", 'Le protestantisme'], answer: 0 },
-    { id: 'ordre', carte: ['exil', 'chronologie'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Pillage d’Oyo-Ile par les Nupe', 'Le Dahomey devient tributaire', 'Abiodun renverse Gaa', 'Révolte d’Afonja'] },
+    { id: 'ordre', carte: ['exil', 'chronologie'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Pillage d’Oyo-Ile par les Nupe', 'Le Dahomey devient tributaire', 'Abiodun renverse Gaa', 'Révolte d’Afonja'] },
   ],
 
   recap: [

@@ -20,7 +20,7 @@ export default {
       kicker: 'Territoire',
       title: 'Le monde maya',
       years: [600, 800, 1100],
-      caption: "Comparez : les cités des basses terres du sud dominent à l'époque classique ; après 900, le cœur du monde maya se déplace vers le nord du Yucatán.",
+      caption: "Compare : les cités des basses terres du sud dominent à l'époque classique ; après 900, le cœur du monde maya se déplace vers le nord du Yucatán.",
     },
     {
       id: 'ecriture',
@@ -160,7 +160,7 @@ export default {
     { id: 'chichen', carte: 'chichen', type: 'mcq', prompt: 'Quelle cité du Yucatán prospère après l’effondrement du sud ?', options: ['Chichén Itzá', 'Tikal', 'Calakmul', 'Machu Picchu'], answer: 0 },
     { id: 'jeu', carte: 'jeu-de-balle', type: 'mcq', prompt: 'Avec quoi frappe-t-on la balle au jeu de balle maya ?', options: ['Les hanches', 'Une raquette', 'Une batte en bois', 'Les mains uniquement'], answer: 0 },
     { id: 'landa', carte: 'landa', type: 'mcq', prompt: 'Que fait Diego de Landa à Maní en 1562 ?', options: ['Il fait brûler des livres mayas', 'Il fonde Mérida', 'Il découvre le tombeau de Pakal', 'Il conquiert Tikal'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Défaite de Tikal face à Caracol', 'Tikal bat Calakmul', 'Fondation de Mérida par les Espagnols', 'Chute de Nojpetén'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Défaite de Tikal face à Caracol', 'Tikal bat Calakmul', 'Fondation de Mérida par les Espagnols', 'Chute de Nojpetén'] },
   ],
 
   recap: [

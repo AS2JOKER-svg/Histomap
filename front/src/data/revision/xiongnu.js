@@ -29,7 +29,7 @@ export default {
       kicker: 'Territoire',
       title: "L'empire xiongnu",
       years: [-200, -100, -1],
-      caption: "Comparez : immense vers 200 av. J.-C., la puissance des Xiongnu recule face aux campagnes de la dynastie Han.",
+      caption: "Compare : immense vers 200 av. J.-C., la puissance des Xiongnu recule face aux campagnes de la dynastie Han.",
     },
     {
       id: 'baideng',
@@ -160,7 +160,7 @@ export default {
     { id: 'noin-ula', carte: 'tombes', type: 'mcq', prompt: 'Qu’a-t-on retrouvé dans les tombes xiongnu de Noin-Ula ?', options: ['De la soie chinoise et des tapis de feutre', 'Des statues de marbre grec', 'Des tablettes cunéiformes', 'Des momies égyptiennes'], answer: 0 },
     { id: 'inscription', carte: 'ikh-bayan', type: 'mcq', prompt: 'En quelle année a-t-on retrouvé l’inscription de la victoire de Dou Xian ?', options: ['2017', '1924', '1949', '1789'], answer: 0 },
     { id: 'huns', carte: 'huns', type: 'tf', prompt: 'Il est prouvé de façon certaine que les Huns d’Attila descendent des Xiongnu.', answer: false, explanation: 'C’est une hypothèse encore débattue par les historiens.' },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Modu devient chanyu', 'Bataille de Baideng', 'Soumission de Huhanye aux Han', 'Division entre Nord et Sud'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Modu devient chanyu', 'Bataille de Baideng', 'Soumission de Huhanye aux Han', 'Division entre Nord et Sud'] },
   ],
 
   recap: [

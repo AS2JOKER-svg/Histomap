@@ -32,7 +32,7 @@ export default {
       kicker: 'Territoire',
       title: 'La Grèce s’agrandit',
       years: [1878, 1914, 1960],
-      caption: 'Comparez : par étapes, la Grèce gagne la Thessalie, puis la Macédoine, l’Épire, la Crète et les îles.',
+      caption: 'Compare : par étapes, la Grèce gagne la Thessalie, puis la Macédoine, l’Épire, la Crète et les îles.',
     },
     {
       id: 'grande-idee',
@@ -160,7 +160,7 @@ export default {
     { id: 'civile', carte: 'guerres', type: 'tf', prompt: 'Après la Seconde Guerre mondiale, une guerre civile oppose le gouvernement grec aux communistes.', answer: true },
     { id: 'colonels', carte: 'democratie', type: 'mcq', prompt: 'Comment appelle-t-on la dictature militaire de 1967 à 1974 ?', options: ['La dictature des colonels', 'La Restauration', 'La Grande Idée', 'Le régime de Vichy'], answer: 0 },
     { id: 'europe', carte: 'chronologie', type: 'mcq', prompt: 'En quelle année la Grèce entre-t-elle dans la Communauté européenne ?', options: ['1981', '1957', '1830', '2004'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Début de la guerre d’indépendance', 'Jeux olympiques d’Athènes', 'Échange de populations', 'Coup d’État des colonels'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Début de la guerre d’indépendance', 'Jeux olympiques d’Athènes', 'Échange de populations', 'Coup d’État des colonels'] },
   ],
 
   recap: [

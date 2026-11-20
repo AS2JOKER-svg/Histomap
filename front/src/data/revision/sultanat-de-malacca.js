@@ -158,7 +158,7 @@ export default {
     { id: 'venise', carte: 'venise', type: 'mcq', prompt: 'Quelle ville, selon Tomé Pires, le maître de Malacca tient « à la gorge » ?', options: ['Venise', 'Lisbonne', 'Pékin', 'Le Caire'], answer: 0 },
     { id: 'bendahara', carte: 'bendahara', type: 'mcq', prompt: 'Comment s’appelle le Premier ministre du sultan ?', options: ['Le bendahara', 'Le vizir', 'Le peshwa', 'Le patih'], answer: 0 },
     { id: 'johor', carte: 'portugais', type: 'mcq', prompt: 'Où se réfugie le sultan après 1511 ?', options: ['Plus au sud, à Johor', 'En Chine', 'À Java', 'En Inde'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Fondation (vers)', 'Voyage de Parameswara en Chine', 'Mansur Shah sultan', 'Prise de Malacca par les Portugais'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Fondation (vers)', 'Voyage de Parameswara en Chine', 'Mansur Shah sultan', 'Prise de Malacca par les Portugais'] },
   ],
 
   recap: [

@@ -29,7 +29,7 @@ export default {
       kicker: 'Territoire',
       title: 'Les terres thraces',
       years: [-700, -1],
-      caption: "Comparez : en 700 av. J.-C., des tribus indépendantes ; au Ier siècle av. J.-C., un royaume client entouré par les provinces romaines.",
+      caption: "Compare : en 700 av. J.-C., des tribus indépendantes ; au Ier siècle av. J.-C., un royaume client entouré par les provinces romaines.",
     },
     {
       id: 'odryses',
@@ -161,7 +161,7 @@ export default {
     { id: 'plovdiv', carte: 'macedoine', type: 'mcq', prompt: 'Quelle ville actuelle était Philippopolis ?', options: ['Plovdiv', 'Sofia', 'Athènes', 'Istanbul'], answer: 0 },
     { id: 'spartacus', carte: 'spartacus', type: 'mcq', prompt: 'Quel gladiateur d’origine thrace se révolte contre Rome en 73 av. J.-C. ?', options: ['Spartacus', 'Vercingétorix', 'Hannibal', 'Viriathe'], answer: 0 },
     { id: 'claude', carte: 'rome', type: 'mcq', prompt: 'Quel empereur romain fait de la Thrace une province en 46 apr. J.-C. ?', options: ['Claude', 'Auguste', 'Néron', 'Trajan'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Expédition de Darius Ier en Thrace', 'Conquête de Philippe II', 'Révolte de Spartacus', 'Province romaine de Thrace'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Expédition de Darius Ier en Thrace', 'Conquête de Philippe II', 'Révolte de Spartacus', 'Province romaine de Thrace'] },
   ],
 
   recap: [

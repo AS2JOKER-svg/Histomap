@@ -153,7 +153,7 @@ export default {
     { id: 'pekin', carte: 'conquetes', type: 'mcq', prompt: 'Quelle grande ville chinoise les Mongols prennent-ils en 1215 ?', options: ['Pékin', 'Shanghai', "Xi'an", 'Nankin'], answer: 0 },
     { id: 'mort', carte: 'conquetes', type: 'mcq', prompt: 'Quand meurt Gengis Khan ?', options: ['1227', '1206', '1241', '1294'], answer: 0 },
     { id: 'demi-tour', carte: 'europe', type: 'mcq', prompt: 'Pourquoi les Mongols quittent-ils l’Europe en 1241-1242 ?', options: ['À la mort du Grand Khan Ögödei', 'Après une défaite à Vienne', 'À cause de la peste', 'Ils sont chassés par les Templiers'], answer: 0 },
-    { id: 'ordre', carte: ['temujin', 'conquetes', 'fin'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Gengis Khan proclamé', 'Prise de Pékin', 'Victoires en Hongrie', 'Sac de Bagdad', 'Fin des Yuan'] },
+    { id: 'ordre', carte: ['temujin', 'conquetes', 'fin'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Gengis Khan proclamé', 'Prise de Pékin', 'Victoires en Hongrie', 'Sac de Bagdad', 'Fin des Yuan'] },
     { id: 'kubilai', carte: 'kubilai', type: 'mcq', prompt: 'Quelle dynastie Kubilaï fonde-t-il en Chine ?', options: ['Les Yuan', 'Les Ming', 'Les Song', 'Les Tang'], answer: 0 },
     { id: 'kamikaze', carte: 'japon', type: 'mcq', prompt: 'Que signifie « kamikaze », nom donné aux typhons de 1274 et 1281 ?', options: ['Vents divins', 'Guerriers du ciel', 'Mer en colère', 'Feu sacré'], answer: 0 },
     { id: 'marco-polo', carte: 'pax', type: 'mcq', prompt: 'Quel marchand vénitien séjourne à la cour de Kubilaï ?', options: ['Marco Polo', 'Christophe Colomb', 'Ibn Battuta', 'Guillaume de Rubrouck'], answer: 0 },

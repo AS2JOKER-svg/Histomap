@@ -20,7 +20,7 @@ export default {
       kicker: 'Territoire',
       title: 'Le Kenya',
       years: [1914, 1960],
-      caption: 'Comparez : l’Afrique-Orientale britannique de 1914 devient la colonie, puis l’État du Kenya.',
+      caption: 'Compare : l’Afrique-Orientale britannique de 1914 devient la colonie, puis l’État du Kenya.',
     },
     {
       id: 'colons',
@@ -159,7 +159,7 @@ export default {
     { id: 'turkana', carte: 'turkana', type: 'mcq', prompt: 'Quel fossile est découvert près du lac Turkana en 1984 ?', options: ['Un jeune homme fossile vieux d’environ 1,5 million d’années', 'Un dinosaure', 'Un mammouth', 'Une momie égyptienne'], answer: 0 },
     { id: 'mpesa', carte: 'economie', type: 'mcq', prompt: 'Qu’est-ce que M-Pesa, lancé au Kenya en 2007 ?', options: ['Un système de paiement par téléphone portable', 'Un parc national', 'Un parti politique', 'Une course de fond'], answer: 0 },
     { id: 'safari', carte: 'safari', type: 'mcq', prompt: 'Que signifie le mot swahili « safari » ?', options: ['Voyage', 'Lion', 'Chasse', 'Savane'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Protectorat britannique', 'Révolte des Mau Mau', 'Indépendance', 'Nouvelle Constitution'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Protectorat britannique', 'Révolte des Mau Mau', 'Indépendance', 'Nouvelle Constitution'] },
   ],
 
   recap: [

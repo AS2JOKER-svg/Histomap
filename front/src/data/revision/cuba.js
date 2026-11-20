@@ -164,7 +164,7 @@ export default {
     { id: 'embargo', carte: 'embargo', type: 'tf', prompt: 'Les États-Unis imposent un embargo à Cuba depuis 1962.', answer: true },
     { id: 'libertes', carte: 'castro', type: 'tf', prompt: 'Après la révolution, Cuba devient une démocratie avec plusieurs partis.', answer: false, explanation: 'Le Parti communiste est le seul parti autorisé, et les opposants sont emprisonnés.' },
     { id: 'periode', carte: 'embargo', type: 'mcq', prompt: 'Quel événement plonge Cuba dans une grave crise en 1991 ?', options: ['La disparition de l’URSS', 'Un ouragan', 'La mort de Fidel Castro', 'Une invasion américaine'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Indépendance', 'Révolution', 'Baie des Cochons', 'Crise des missiles'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Indépendance', 'Révolution', 'Baie des Cochons', 'Crise des missiles'] },
   ],
 
   recap: [

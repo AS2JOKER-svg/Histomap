@@ -20,7 +20,7 @@ export default {
       kicker: 'Territoire',
       title: 'La Géorgie dans le temps',
       years: [1100, 1200, 1400],
-      caption: 'Comparez : la Géorgie s’agrandit jusqu’à l’âge d’or vers 1200, puis recule après les Mongols et Tamerlan.',
+      caption: 'Compare : la Géorgie s’agrandit jusqu’à l’âge d’or vers 1200, puis recule après les Mongols et Tamerlan.',
     },
     {
       id: 'david',
@@ -163,7 +163,7 @@ export default {
     { id: 'partage', carte: 'fin', type: 'mcq', prompt: 'En combien de royaumes la Géorgie se divise-t-elle en 1490 ?', options: ['Trois', 'Deux', 'Dix', 'Cinq'], answer: 0 },
     { id: 'kvevri', carte: 'vin', type: 'mcq', prompt: 'Que sont les kvevri ?', options: ['Des jarres enterrées pour le vin', 'Des épées', 'Des églises', 'Des chevaux'], answer: 0 },
     { id: 'alphabet', carte: 'alphabet', type: 'tf', prompt: 'Le géorgien s’écrit avec l’alphabet latin.', answer: false, explanation: 'Il a son propre alphabet.' },
-    { id: 'ordre', carte: ['unification', 'chronologie'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Unification par Bagrat III', 'Victoire de Didgori', 'Règne de Tamar', 'Invasions de Tamerlan'] },
+    { id: 'ordre', carte: ['unification', 'chronologie'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Unification par Bagrat III', 'Victoire de Didgori', 'Règne de Tamar', 'Invasions de Tamerlan'] },
   ],
 
   recap: [

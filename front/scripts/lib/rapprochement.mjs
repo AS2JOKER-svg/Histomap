@@ -15,7 +15,7 @@ const VIDES = new Set(
   est sont etait etaient ete etre ont avait avaient fait font faire elle ils elles leur leurs cet cette ces
   pas plus moins tres tout tous toute toutes aussi comme mais donc car non oui avant apres pendant depuis jusqu lors
   quand comment pourquoi combien lequel laquelle lesquels lesquelles celui celle ceux celles nom nomme nommee
-  appelle appellent appelait appele appelee vrai faux ordre remettez remettre chronologique suivants suivantes
+  appelle appellent appelait appele appelee vrai faux ordre remettez remets remettre chronologique suivants suivantes
   elements evenements son ses sur une peu bien deux selon encore deja autre autres meme memes ici the`
     .split(/\s+/)
     .filter(Boolean)

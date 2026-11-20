@@ -161,7 +161,7 @@ export default {
     { id: 'traite', carte: 'traite', type: 'mcq', prompt: 'Que reste-t-il du traité de paix de 821-822 avec la Chine ?', options: ['Un pilier gravé à Lhassa', 'Un rouleau de soie à Pékin', 'Une statue en or', 'Rien du tout'], answer: 0 },
     { id: 'langdarma', carte: 'fin', type: 'mcq', prompt: "Quel roi est assassiné vers 842, entraînant l'éclatement de l'empire ?", options: ['Langdarma', 'Songtsen Gampo', 'Trisong Detsen', 'Ralpachen'], answer: 0 },
     { id: 'dunhuang', carte: 'dunhuang', type: 'mcq', prompt: 'Où ont été retrouvés les plus anciens manuscrits tibétains ?', options: ['Dans une grotte de Dunhuang', 'Dans le palais du Potala', 'Au fond d’un lac sacré', 'Dans une tombe égyptienne'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Mariage de Songtsen Gampo et de Wencheng', "Occupation de Chang'an", 'Traité de paix avec la Chine', 'Assassinat de Langdarma'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Mariage de Songtsen Gampo et de Wencheng', "Occupation de Chang'an", 'Traité de paix avec la Chine', 'Assassinat de Langdarma'] },
   ],
 
   recap: [

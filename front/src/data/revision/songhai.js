@@ -162,7 +162,7 @@ export default {
     { id: 'hostile', carte: 'religion', type: 'tf', prompt: 'Les chroniqueurs musulmans de Tombouctou présentent Sonni Ali comme un tyran.', answer: true },
     { id: 'mort', carte: 'fin', type: 'mcq', prompt: 'En quelle année meurt Sonni Ali ?', options: ['1492', '1464', '1591', '1324'], answer: 0 },
     { id: 'askia', carte: 'fin', type: 'mcq', prompt: 'Quelle dynastie prend le pouvoir après les Sonni, en 1493 ?', options: ['Les Askia', 'Les Keïta', 'Les Almoravides', 'Les Saadiens'], answer: 0 },
-    { id: 'ordre', carte: ['mali', 'expansion', 'tombouctou', 'djenne'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Les Touaregs prennent Tombouctou au Mali', 'Sonni Ali devient roi', 'Prise de Tombouctou par Sonni Ali', 'Reddition de Djenné', 'Mort de Sonni Ali'] },
+    { id: 'ordre', carte: ['mali', 'expansion', 'tombouctou', 'djenne'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Les Touaregs prennent Tombouctou au Mali', 'Sonni Ali devient roi', 'Prise de Tombouctou par Sonni Ali', 'Reddition de Djenné', 'Mort de Sonni Ali'] },
   ],
 
   recap: [

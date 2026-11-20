@@ -153,7 +153,7 @@ export default {
     { id: 'marathon', carte: 'mediques', type: 'mcq', prompt: 'Quelle bataille Darius perd-il en 490 av. J.-C. ?', options: ['Marathon', 'Salamine', 'Gaugamèles', 'Issos'], answer: 0 },
     { id: 'xerxes', carte: 'xerxes', type: 'mcq', prompt: 'Quel roi perse envahit la Grèce en 480 av. J.-C. ?', options: ['Xerxès', 'Cyrus', 'Darius III', 'Cambyse'], answer: 0 },
     { id: 'salamine', carte: 'mediques', type: 'tf', prompt: 'À Salamine, la flotte perse remporte une grande victoire.', answer: false, explanation: 'Elle y est battue par la flotte grecque menée par Athènes.' },
-    { id: 'ordre', carte: ['cyrus', 'mediques', 'gaugameles'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Prise de Babylone par Cyrus', 'Marathon', 'Salamine', 'Gaugamèles'] },
+    { id: 'ordre', carte: ['cyrus', 'mediques', 'gaugameles'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Prise de Babylone par Cyrus', 'Marathon', 'Salamine', 'Gaugamèles'] },
     { id: 'dieu', carte: 'religion', type: 'mcq', prompt: 'Quel dieu honorent les rois achéménides ?', options: ['Ahura Mazda', 'Zeus', 'Amon', 'Baal'], answer: 0 },
     { id: 'zarathoustra', carte: 'religion', type: 'mcq', prompt: 'Quel prophète est à l’origine du zoroastrisme ?', options: ['Zarathoustra', 'Bouddha', 'Moïse', 'Mani'], answer: 0 },
     { id: 'gaugameles', carte: 'gaugameles', type: 'mcq', prompt: 'Qui bat Darius III à Gaugamèles en 331 av. J.-C. ?', options: ['Alexandre le Grand', 'Jules César', 'Léonidas', 'Périclès'], answer: 0 },

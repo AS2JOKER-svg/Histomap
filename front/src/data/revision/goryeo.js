@@ -161,7 +161,7 @@ export default {
     { id: 'gutenberg', carte: 'jikji', type: 'tf', prompt: 'Le Jikji est imprimé après la Bible de Gutenberg.', answer: false, explanation: 'Il est imprimé en 1377, environ 78 ans avant la Bible de Gutenberg.' },
     { id: 'gongmin', carte: 'gongmin', type: 'mcq', prompt: 'Quel roi rompt avec la tutelle mongole en 1356 ?', options: ['Gongmin', 'Wang Geon', 'Taejo de Joseon', 'Gwangjong'], answer: 0 },
     { id: 'joseon', carte: 'chronologie', type: 'mcq', prompt: 'Quelle dynastie Yi Seong-gye fonde-t-il en 1392 ?', options: ['Joseon', 'Silla', 'Ming', 'Baekje'], answer: 0 },
-    { id: 'ordre', carte: ['wang-geon', 'gwiju', 'chronologie', 'jikji'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Fondation de Goryeo', 'Bataille de Gwiju', 'Coup d’État des militaires', 'Première invasion mongole', 'Impression du Jikji'] },
+    { id: 'ordre', carte: ['wang-geon', 'gwiju', 'chronologie', 'jikji'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Fondation de Goryeo', 'Bataille de Gwiju', 'Coup d’État des militaires', 'Première invasion mongole', 'Impression du Jikji'] },
   ],
 
   recap: [

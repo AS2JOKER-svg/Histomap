@@ -20,7 +20,7 @@ export default {
       kicker: 'Territoire',
       title: 'La Nouvelle-Espagne',
       years: [1530, 1700, 1815],
-      caption: 'Comparez : la vice-royauté s’étend du centre du Mexique jusqu’à une grande partie de l’ouest des États-Unis actuels.',
+      caption: 'Compare : la vice-royauté s’étend du centre du Mexique jusqu’à une grande partie de l’ouest des États-Unis actuels.',
     },
     {
       id: 'viceroi',
@@ -160,7 +160,7 @@ export default {
     { id: 'sorjuana', carte: 'sorjuana', type: 'mcq', prompt: 'Quelle religieuse est la grande poétesse de la Nouvelle-Espagne ?', options: ['Sor Juana Inés de la Cruz', 'Thérèse d’Avila', 'Malinche', 'Frida Kahlo'], answer: 0 },
     { id: 'hidalgo', carte: 'independance', type: 'mcq', prompt: 'Quel prêtre lance la guerre d’indépendance en 1810 ?', options: ['Miguel Hidalgo', 'Bartolomé de las Casas', 'Benito Juárez', 'Simón Bolívar'], answer: 0 },
     { id: 'independance', carte: 'chronologie', type: 'mcq', prompt: 'En quelle année le Mexique devient-il indépendant ?', options: ['1821', '1521', '1910', '1776'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Chute de Tenochtitlan', 'Premier vice-roi', 'Premier galion de Manille', 'Indépendance du Mexique'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Chute de Tenochtitlan', 'Premier vice-roi', 'Premier galion de Manille', 'Indépendance du Mexique'] },
   ],
 
   recap: [

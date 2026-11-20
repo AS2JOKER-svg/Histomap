@@ -20,7 +20,7 @@ export default {
       kicker: 'Territoire',
       title: 'Le royaume du Bénin dans le temps',
       years: [1300, 1500, 1880],
-      caption: 'Comparez : le royaume s’agrandit au XVe siècle, puis recule face à ses voisins et aux Européens.',
+      caption: 'Compare : le royaume s’agrandit au XVe siècle, puis recule face à ses voisins et aux Européens.',
     },
     {
       id: 'ewuare',
@@ -160,7 +160,7 @@ export default {
     { id: 'restitution', carte: 'restitutions', type: 'tf', prompt: 'Depuis les années 2020, des bronzes du Bénin sont rendus au Nigeria.', answer: true },
     { id: 'ovonramwen', carte: 'expedition', type: 'mcq', prompt: 'Quel oba est exilé après 1897 ?', options: ['Ovonramwen', 'Ewuare', 'Esigie', 'Eweka'], answer: 0 },
     { id: 'murs', carte: 'murs', type: 'mcq', prompt: 'Qu’ont construit les Edo autour de leurs villes ?', options: ['Des fossés et des remparts de terre', 'Des murailles de marbre', 'Des pyramides', 'Des canaux de navigation'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Eweka Ier, premier oba', 'Règne d’Ewuare le Grand', 'Arrivée des Portugais', 'Expédition punitive britannique'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Eweka Ier, premier oba', 'Règne d’Ewuare le Grand', 'Arrivée des Portugais', 'Expédition punitive britannique'] },
   ],
 
   recap: [

@@ -164,7 +164,7 @@ export default {
     { id: 'qadisiyya', carte: 'fin', type: 'mcq', prompt: 'Qui bat les Sassanides à al-Qadisiyya en 636 ?', options: ['Les armées arabes', 'Les Romains', 'Les Mongols', 'Les Turcs'], answer: 0 },
     { id: 'dernier', carte: 'fin', type: 'mcq', prompt: 'Qui est le dernier roi sassanide ?', options: ['Yazdegerd III', 'Khosro II', 'Ardachir', 'Shapur Ier'], answer: 0 },
     { id: 'talmud', carte: 'talmud', type: 'mcq', prompt: 'Quel grand texte juif est rédigé en Mésopotamie sous les Sassanides ?', options: ['Le Talmud de Babylone', 'La Torah', 'Les manuscrits de la mer Morte', 'Le Zohar'], answer: 0 },
-    { id: 'ordre', carte: ['chronologie', 'khosro', 'byzance'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Ardachir renverse les Parthes', 'Capture de Valérien', 'Règne de Khosro Ier', 'Conquête arabe'] },
+    { id: 'ordre', carte: ['chronologie', 'khosro', 'byzance'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Ardachir renverse les Parthes', 'Capture de Valérien', 'Règne de Khosro Ier', 'Conquête arabe'] },
   ],
 
   recap: [

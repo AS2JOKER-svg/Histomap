@@ -20,7 +20,7 @@ export default {
       kicker: 'Territoire',
       title: 'Le Japon de Yamato',
       years: [500, 700],
-      caption: 'Comparez : le pouvoir de Yamato s’étend peu à peu sur une grande partie de l’archipel.',
+      caption: 'Compare : le pouvoir de Yamato s’étend peu à peu sur une grande partie de l’archipel.',
     },
     {
       id: 'kofun',
@@ -160,7 +160,7 @@ export default {
     { id: 'kojiki', carte: 'kojiki', type: 'mcq', prompt: 'Qu’est-ce que le Kojiki ?', options: ['La plus ancienne chronique japonaise conservée', 'Une épée sacrée', 'Un temple', 'Une loi'], answer: 0 },
     { id: 'soleil', carte: 'lettre', type: 'tf', prompt: 'En 607, une lettre japonaise présente le Japon comme le pays où le soleil se lève.', answer: true },
     { id: 'heian', carte: 'heian', type: 'mcq', prompt: 'Où la capitale s’installe-t-elle en 794 ?', options: ['À Heian (Kyoto)', 'À Edo (Tokyo)', 'À Kamakura', 'À Nara'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Arrivée du bouddhisme', 'Réforme de Taika', 'Capitale à Nara', 'Capitale à Heian (Kyoto)'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Arrivée du bouddhisme', 'Réforme de Taika', 'Capitale à Nara', 'Capitale à Heian (Kyoto)'] },
   ],
 
   recap: [

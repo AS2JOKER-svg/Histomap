@@ -20,7 +20,7 @@ export default {
       kicker: 'Territoire',
       title: 'Le sultanat de Delhi',
       years: [1300, 1400],
-      caption: 'Comparez : vers 1300, le sultanat domine le nord de l’Inde ; un siècle plus tard, il s’est beaucoup réduit.',
+      caption: 'Compare : vers 1300, le sultanat domine le nord de l’Inde ; un siècle plus tard, il s’est beaucoup réduit.',
     },
     {
       id: 'dynasties',
@@ -165,7 +165,7 @@ export default {
     { id: 'jizya', carte: 'jizya', type: 'mcq', prompt: 'Comment s’appelle l’impôt payé en général par les non-musulmans ?', options: ['La jizya', 'La dîme', 'La gabelle', 'Le tribut'], answer: 0 },
     { id: 'panipat', carte: 'chronologie', type: 'mcq', prompt: 'Quelle bataille met fin au sultanat en 1526 ?', options: ['Panipat', 'Talikota', 'Plassey', 'Waterloo'], answer: 0 },
     { id: 'hindoustani', carte: 'hindoustani', type: 'mcq', prompt: 'De quelle langue l’hindi et l’ourdou descendent-ils ?', options: ['L’hindoustani', 'Le latin', 'Le sanskrit seul', 'L’arabe'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Premier sultan', 'Razia sultane', 'Tamerlan pille Delhi', 'Bataille de Panipat'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Premier sultan', 'Razia sultane', 'Tamerlan pille Delhi', 'Bataille de Panipat'] },
   ],
 
   recap: [

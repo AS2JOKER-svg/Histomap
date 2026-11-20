@@ -43,7 +43,7 @@ export default {
       kicker: 'Territoire',
       title: 'Le royaume s’agrandit',
       years: [1500, 1650, 1783],
-      caption: "Changez d'année : le royaume gagne l'Alsace, la Franche-Comté, la Lorraine… et un empire colonial outre-mer.",
+      caption: "Change d'année : le royaume gagne l'Alsace, la Franche-Comté, la Lorraine… et un empire colonial outre-mer.",
     },
     {
       id: 'absolutisme',
@@ -152,7 +152,7 @@ export default {
     { id: 'saint-barthelemy', carte: 'religion', type: 'mcq', prompt: 'En quelle année a lieu le massacre de la Saint-Barthélemy ?', options: ['1572', '1598', '1610', '1685'], answer: 0 },
     { id: 'nantes', carte: 'religion', type: 'mcq', prompt: "Quel roi signe l'édit de Nantes en 1598 ?", options: ['Henri IV', 'Louis XIV', 'François Ier', 'Louis XIII'], answer: 0 },
     { id: 'ravaillac', carte: 'religion', type: 'tf', prompt: 'Henri IV est assassiné par Ravaillac en 1610.', answer: true },
-    { id: 'religion-ordre', carte: ['renaissance', 'religion', 'revocation'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Marignan', 'Saint-Barthélemy', 'Édit de Nantes', 'Révocation de l’édit de Nantes'] },
+    { id: 'religion-ordre', carte: ['renaissance', 'religion', 'revocation'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Marignan', 'Saint-Barthélemy', 'Édit de Nantes', 'Révocation de l’édit de Nantes'] },
     { id: 'richelieu', carte: 'richelieu', type: 'mcq', prompt: 'Qui fonde l’Académie française en 1635 ?', options: ['Richelieu', 'Colbert', 'Mazarin', 'Voltaire'], answer: 0 },
     { id: 'louis-xiv-regne', carte: 'absolutisme', type: 'mcq', prompt: 'Combien d’années dure le règne de Louis XIV ?', options: ['72 ans', '22 ans', '45 ans', '100 ans'], answer: 0 },
     { id: 'versailles', carte: 'versailles', type: 'mcq', prompt: 'En quelle année la cour s’installe-t-elle à Versailles ?', options: ['1682', '1661', '1715', '1789'], answer: 0 },

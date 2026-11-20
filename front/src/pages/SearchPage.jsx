@@ -88,7 +88,7 @@ export default function SearchPage() {
         )}
       </form>
 
-      {failed && <p className="mt-6 text-sm text-muted">La recherche n'a pas pu être chargée. Vérifiez votre connexion.</p>}
+      {failed && <p className="mt-6 text-sm text-muted">La recherche n'a pas pu être chargée. Vérifie ta connexion.</p>}
 
       {query.trim().length < 2 ? (
         <div className="mt-4 space-y-6">
@@ -113,7 +113,7 @@ export default function SearchPage() {
         </div>
       ) : items && !results.length ? (
         <p className="mt-6 text-muted">
-          Aucun résultat pour « {query} ». Essayez un autre mot, ou une orthographe plus simple.
+          Aucun résultat pour « {query} ». Essaie un autre mot, ou une orthographe plus simple.
         </p>
       ) : (
         <div className="mt-2 space-y-6" aria-live="polite">

@@ -20,7 +20,7 @@ export default {
       kicker: 'Territoire',
       title: 'De Toulouse à Tolède',
       years: [500, 600],
-      caption: 'Comparez : vers 500, le royaume s’étend de part et d’autre des Pyrénées ; vers 600, il couvre presque toute la péninsule Ibérique.',
+      caption: 'Compare : vers 500, le royaume s’étend de part et d’autre des Pyrénées ; vers 600, il couvre presque toute la péninsule Ibérique.',
     },
     {
       id: 'toulouse',
@@ -161,7 +161,7 @@ export default {
     { id: 'roderic', carte: 'chute', type: 'mcq', prompt: 'Qui est le dernier roi wisigoth ?', options: ['Rodéric', 'Reccared', 'Alaric Ier', 'Théodoric Ier'], answer: 0 },
     { id: 'asturies', carte: 'asturies', type: 'mcq', prompt: 'Quel petit royaume chrétien survit au nord après 711 ?', options: ['Les Asturies', 'La Bretagne', 'L’Aquitaine', 'La Sicile'], answer: 0 },
     { id: 'guarrazar', carte: 'guarrazar', type: 'tf', prompt: 'Les couronnes du trésor de Guarrazar étaient offertes aux églises par les rois.', answer: true },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Royaume de Toulouse', 'Bataille de Vouillé', 'Le royaume devient catholique', 'Bataille du Guadalete'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Royaume de Toulouse', 'Bataille de Vouillé', 'Le royaume devient catholique', 'Bataille du Guadalete'] },
   ],
 
   recap: [

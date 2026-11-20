@@ -29,7 +29,7 @@ export default {
       kicker: 'Territoire',
       title: 'La Rus’ sur la carte',
       years: [900, 1000, 1200],
-      caption: "Comparez : un immense territoire de forêts et de fleuves, de la Baltique jusqu'aux steppes du sud, qui se morcelle en principautés.",
+      caption: "Compare : un immense territoire de forêts et de fleuves, de la Baltique jusqu'aux steppes du sud, qui se morcelle en principautés.",
     },
     {
       id: 'olga',
@@ -157,7 +157,7 @@ export default {
     { id: 'cyrillique', carte: 'cyrillique', type: 'mcq', prompt: 'Quel alphabet se diffuse dans la Rus’ avec le christianisme ?', options: ['Le cyrillique', 'Les runes', 'L’alphabet arabe', 'L’alphabet latin'], answer: 0 },
     { id: 'kalka', carte: 'kalka', type: 'mcq', prompt: 'Contre qui les princes russes perdent-ils la bataille de la Kalka en 1223 ?', options: ['Les Mongols', 'Les Byzantins', 'Les Polonais', 'Les Suédois'], answer: 0 },
     { id: 'kiev-1240', carte: 'mongols', type: 'tf', prompt: 'En 1240, Kiev est détruite par les Vikings.', answer: false, explanation: 'Elle est prise par les Mongols de Batu, petit-fils de Gengis Khan.' },
-    { id: 'ordre', carte: ['riourik', 'bapteme', 'anne', 'mongols'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Arrivée de Riourik à Novgorod', 'Baptême de Vladimir', 'Mariage d’Anne de Kiev avec Henri Ier', 'Prise de Kiev par les Mongols'] },
+    { id: 'ordre', carte: ['riourik', 'bapteme', 'anne', 'mongols'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Arrivée de Riourik à Novgorod', 'Baptême de Vladimir', 'Mariage d’Anne de Kiev avec Henri Ier', 'Prise de Kiev par les Mongols'] },
   ],
 
   recap: [

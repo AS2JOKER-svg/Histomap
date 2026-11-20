@@ -5,7 +5,7 @@
  * le joueur a lu la carte, la question n'apprend rien de nouveau, elle vérifie.
  *
  *   dates, steps : pour chaque élément, « En quelle année situe-t-on « … » ? » OU « Que se passe-t-il en … ? »
- *                  (choix stable, tiré de l'année), et « Remettez dans l'ordre chronologique » (3 ou 4 éléments) ;
+ *                  (choix stable, tiré de l'année), et « Remets dans l'ordre chronologique » (3 ou 4 éléments) ;
  *   person       : « Qui est-ce ? » d'après la description, le nom masqué ;
  *   war          : « En quelle année situe-t-on « … » ? » (champ facultatif `fin` d'un conflit long : aucun
  *                  leurre entre le début et la fin) et, quand le vainqueur désigne sans doute possible
@@ -136,7 +136,7 @@ function questionsDatees(c) {
       id: `${PREFIXE}${c.id}-ordre`,
       carte: c.id,
       type: 'order',
-      prompt: 'Remettez dans l’ordre chronologique.',
+      prompt: 'Remets dans l’ordre chronologique.',
       items: choisis.map((e) => e.label),
       explanation: choisis.map((e) => `${formatYear(e.y)} : ${e.label}`).join(' → '),
     })

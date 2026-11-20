@@ -29,7 +29,7 @@ export default {
       kicker: 'Territoire',
       title: "De l'empire à la république",
       years: [1815, 1914, 1930],
-      caption: "Comparez : l'empire perd presque toutes ses terres d'Europe et d'Afrique avant 1914 ; en 1930, la Turquie se limite à l'Anatolie et à la Thrace orientale.",
+      caption: "Compare : l'empire perd presque toutes ses terres d'Europe et d'Afrique avant 1914 ; en 1930, la Turquie se limite à l'Anatolie et à la Thrace orientale.",
     },
     {
       id: 'jeunes-turcs',
@@ -165,7 +165,7 @@ export default {
     { id: 'otan', carte: 'otan', type: 'mcq', prompt: 'Quelle alliance militaire la Turquie rejoint-elle en 1952 ?', options: ["L'OTAN", 'Le pacte de Varsovie', "L'Union européenne", 'La Triple-Entente'], answer: 0 },
     { id: 'erdogan', carte: 'erdogan', type: 'mcq', prompt: 'Qui est président de la Turquie depuis 2014 ?', options: ['Recep Tayyip Erdoğan', 'Mustafa Kemal', 'Abdülhamid II', 'İsmet İnönü'], answer: 0 },
     { id: 'chypre', carte: 'chypre-kurdes', type: 'mcq', prompt: "Quelle île est divisée depuis l'intervention turque de 1974 ?", options: ['Chypre', 'La Crète', 'Malte', 'Rhodes'], answer: 0 },
-    { id: 'ordre', carte: ['tanzimat', 'jeunes-turcs', 'independance', 'reformes'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Début des Tanzimat', 'Révolution des Jeunes-Turcs', 'Traité de Sèvres', 'Proclamation de la République', "Adoption de l'alphabet latin"] },
+    { id: 'ordre', carte: ['tanzimat', 'jeunes-turcs', 'independance', 'reformes'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Début des Tanzimat', 'Révolution des Jeunes-Turcs', 'Traité de Sèvres', 'Proclamation de la République', "Adoption de l'alphabet latin"] },
   ],
 
   recap: [

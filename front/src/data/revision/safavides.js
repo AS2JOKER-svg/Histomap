@@ -159,7 +159,7 @@ export default {
     { id: 'bagdad', carte: 'zuhab', type: 'tf', prompt: 'Les Safavides conservent Bagdad jusqu’à la fin de leur empire.', answer: false, explanation: 'Les Ottomans reprennent Bagdad en 1638 ; le traité de Zuhab (1639) la leur laisse.' },
     { id: 'afghans', carte: 'chute', type: 'mcq', prompt: 'Qui assiège et prend Ispahan en 1722 ?', options: ['Des Afghans', 'Des Russes', 'Des Moghols', 'Des Ottomans'], answer: 0 },
     { id: 'nader', carte: 'chute', type: 'mcq', prompt: 'Quel général met fin à la dynastie safavide en 1736 ?', options: ['Nader', 'Tamerlan', 'Babur', 'Soliman'], answer: 0 },
-    { id: 'ordre', carte: ['ismail', 'tchaldiran', 'abbas', 'chute'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Ismaïl Ier prend Tabriz', 'Bataille de Tchaldiran', 'Ispahan devient capitale', 'Siège d’Ispahan par les Afghans'] },
+    { id: 'ordre', carte: ['ismail', 'tchaldiran', 'abbas', 'chute'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Ismaïl Ier prend Tabriz', 'Bataille de Tchaldiran', 'Ispahan devient capitale', 'Siège d’Ispahan par les Afghans'] },
     { id: 'polo', carte: 'place', type: 'mcq', prompt: 'À quel jeu jouait-on sur la place Naqsh-e Jahan, devant le chah ?', options: ['Au polo', 'Au football', 'Aux échecs géants', 'À la pelote basque'], answer: 0 },
     { id: 'soie-brute', carte: 'tapis', type: 'mcq', prompt: 'Quelle est la grande richesse de l’empire safavide ?', options: ['La soie brute', 'Le pétrole', 'Le café', 'Les épices des Moluques'], answer: 0 },
   ],

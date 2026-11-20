@@ -39,7 +39,7 @@ export default {
       kicker: 'Territoire',
       title: 'Entre la Mandchourie et la péninsule',
       years: [-400],
-      caption: "Repérez le royaume au nord de la péninsule coréenne, voisin des royaumes chinois comme celui de Yan.",
+      caption: "Repère le royaume au nord de la péninsule coréenne, voisin des royaumes chinois comme celui de Yan.",
     },
     {
       id: 'dolmens',
@@ -150,7 +150,7 @@ export default {
     { id: 'fin', carte: 'guerre-han', type: 'mcq', prompt: 'En quelle année le Gojoseon tombe-t-il face aux Han ?', options: ['108 av. J.-C.', '2333 av. J.-C.', '313 apr. J.-C.', '668 apr. J.-C.'], answer: 0 },
     { id: 'ugeo', carte: 'guerre-han', type: 'tf', prompt: 'Le dernier roi Ugeo est assassiné par ses propres ministres.', answer: true },
     { id: 'lelang', carte: 'lelang', type: 'mcq', prompt: 'Comment s’appelle la principale commanderie chinoise créée après la conquête ?', options: ['Lelang (Nangnang)', 'Goguryeo', 'Silla', 'Baekje'], answer: 0 },
-    { id: 'ordre', carte: ['chronologie', 'lelang'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Date légendaire de Dangun', 'Prise du pouvoir par Wiman', 'Conquête par les Han', 'Prise de Lelang par Goguryeo'] },
+    { id: 'ordre', carte: ['chronologie', 'lelang'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Date légendaire de Dangun', 'Prise du pouvoir par Wiman', 'Conquête par les Han', 'Prise de Lelang par Goguryeo'] },
   ],
 
   recap: [

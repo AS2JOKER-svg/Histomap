@@ -49,7 +49,7 @@ export default {
       kicker: 'Territoire',
       title: 'Un empire qui s’étend',
       years: [1715, 1783],
-      caption: "Comparez : au fil du XVIIIe siècle, l'empire s'étend de la forêt vers les savanes du nord et contrôle une grande partie de l'actuel Ghana.",
+      caption: "Compare : au fil du XVIIIe siècle, l'empire s'étend de la forêt vers les savanes du nord et contrôle une grande partie de l'actuel Ghana.",
     },
     {
       id: 'opoku-ware',
@@ -158,7 +158,7 @@ export default {
     { id: 'kente', carte: 'kente', type: 'mcq', prompt: 'Comment s’appelle le tissu royal ashanti ?', options: ['Le kente', 'Le wax', 'La soie', 'Le bogolan'], answer: 0 },
     { id: 'reine-mere', carte: 'conseil', type: 'tf', prompt: 'La reine-mère propose le candidat au trône à la mort du roi.', answer: true },
     { id: 'aujourdhui', carte: 'kente', type: 'tf', prompt: "Il y a encore aujourd'hui un asantehene à Kumasi.", answer: true },
-    { id: 'ordre', carte: ['chronologie', 'heritage'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Bataille de Feyiase', "Mort d'Osei Tutu", 'Soumission du Dagbon', 'Annexion par les Britanniques'] },
+    { id: 'ordre', carte: ['chronologie', 'heritage'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Bataille de Feyiase', "Mort d'Osei Tutu", 'Soumission du Dagbon', 'Annexion par les Britanniques'] },
   ],
 
   recap: [

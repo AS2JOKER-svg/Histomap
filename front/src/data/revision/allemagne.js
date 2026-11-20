@@ -31,7 +31,7 @@ export default {
       title: 'Des frontières qui bougent',
       years: [1914, 1920, 2000],
       caption:
-        "Comparez : en 1920, l'Allemagne vaincue a perdu l'Alsace-Moselle, une partie de l'Est et toutes ses colonies ; l'Allemagne réunifiée d'aujourd'hui est plus petite encore.",
+        "Compare : en 1920, l'Allemagne vaincue a perdu l'Alsace-Moselle, une partie de l'Est et toutes ses colonies ; l'Allemagne réunifiée d'aujourd'hui est plus petite encore.",
     },
     {
       id: 'weimar',
@@ -172,7 +172,7 @@ export default {
     { id: 'marx', carte: 'marx', type: 'mcq', prompt: 'Quel texte Karl Marx écrit-il avec Engels en 1848 ?', options: ['Le Manifeste du parti communiste', 'Mein Kampf', "L'Origine des espèces", 'Le Contrat social'], answer: 0 },
     { id: 'scholl', carte: 'scholl', type: 'tf', prompt: 'Sophie Scholl est une résistante allemande au nazisme.', answer: true },
     { id: 'merkel', carte: 'europe', type: 'mcq', prompt: 'Qui est la première femme chancelière d’Allemagne ?', options: ['Angela Merkel', 'Rosa Luxemburg', 'Sophie Scholl', 'Marlene Dietrich'], answer: 0 },
-    { id: 'ordre', carte: ['unification', 'nazisme', 'division'], type: 'order', prompt: "Remettez dans l'ordre.", items: ["Proclamation de l'Empire allemand", 'Hitler devient chancelier', 'Construction du mur de Berlin', 'Chute du mur de Berlin'] },
+    { id: 'ordre', carte: ['unification', 'nazisme', 'division'], type: 'order', prompt: "Remets dans l'ordre.", items: ["Proclamation de l'Empire allemand", 'Hitler devient chancelier', 'Construction du mur de Berlin', 'Chute du mur de Berlin'] },
   ],
 
   recap: [

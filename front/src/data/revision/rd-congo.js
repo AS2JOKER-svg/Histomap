@@ -162,7 +162,7 @@ export default {
     { id: 'francophone', carte: 'carte', type: 'tf', prompt: 'Kinshasa est souvent présentée comme la plus grande ville francophone du monde.', answer: true },
     { id: 'ebola', carte: 'ebola', type: 'mcq', prompt: 'Quel virus est identifié au Congo en 1976 ?', options: ['Ebola', 'La grippe espagnole', 'Le Covid-19', 'La variole'], answer: 0 },
     { id: 'mukwege', carte: 'mukwege', type: 'mcq', prompt: 'Quel médecin congolais reçoit le prix Nobel de la paix en 2018 ?', options: ['Denis Mukwege', 'Jean-Jacques Muyembe', 'Patrice Lumumba', 'Simon Kimbangu'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['État indépendant du Congo', 'Congo belge', 'Indépendance', 'Chute de Mobutu'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['État indépendant du Congo', 'Congo belge', 'Indépendance', 'Chute de Mobutu'] },
   ],
 
   recap: [

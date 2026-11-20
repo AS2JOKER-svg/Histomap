@@ -155,7 +155,7 @@ export default {
     { id: 'arvernes', carte: 'vercingetorix', type: 'mcq', prompt: 'De quel peuple Vercingétorix est-il le chef ?', options: ['Les Arvernes', 'Les Éduens', 'Les Helvètes', 'Les Carnutes'], answer: 0 },
     { id: 'gergovie', carte: 'vercingetorix', type: 'tf', prompt: 'Vercingétorix bat Jules César à Gergovie en 52 av. J.-C.', answer: true },
     { id: 'alesia', carte: 'alesia', type: 'mcq', prompt: 'Où Vercingétorix se rend-il à César en 52 av. J.-C. ?', options: ['Alésia', 'Gergovie', 'Bibracte', 'Lutèce'], answer: 0 },
-    { id: 'ordre', carte: ['origines', 'brennus', 'galates', 'alesia'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Début de la culture de Hallstatt', 'Prise de Rome par Brennus', 'Attaque celte contre Delphes', 'Siège d’Alésia'] },
+    { id: 'ordre', carte: ['origines', 'brennus', 'galates', 'alesia'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Début de la culture de Hallstatt', 'Prise de Rome par Brennus', 'Attaque celte contre Delphes', 'Siège d’Alésia'] },
     { id: 'vix', carte: 'vix', type: 'mcq', prompt: 'Quel objet célèbre a été retrouvé dans la tombe de la Dame de Vix ?', options: ['Un immense vase grec en bronze', 'Une tête colossale en pierre', 'Un char de guerre romain', 'Un sarcophage égyptien'], answer: 0 },
     { id: 'tonneau', carte: 'artisans', type: 'mcq', prompt: 'Quel objet les auteurs romains attribuent-ils aux Celtes ?', options: ['Le tonneau en bois', 'La boussole', 'Le papier', 'La poudre à canon'], answer: 0 },
     { id: 'langues', carte: 'heritage', type: 'mcq', prompt: 'Laquelle de ces langues est une langue celtique ?', options: ['Le breton', 'Le basque', 'Le latin', 'Le grec'], answer: 0 },

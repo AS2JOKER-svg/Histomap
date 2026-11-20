@@ -20,7 +20,7 @@ export default {
       kicker: 'Territoire',
       title: 'Les terres des Habsbourg',
       years: [1650, 1783],
-      caption: 'Comparez : après avoir repris la Hongrie aux Ottomans, les Habsbourg dominent une grande partie de l’Europe centrale.',
+      caption: 'Compare : après avoir repris la Hongrie aux Ottomans, les Habsbourg dominent une grande partie de l’Europe centrale.',
     },
     {
       id: 'mariages',
@@ -163,7 +163,7 @@ export default {
     { id: 'joseph', carte: 'joseph', type: 'mcq', prompt: 'Que fait Joseph II en 1781 ?', options: ['Il accorde la liberté de culte aux protestants', 'Il interdit le protestantisme', 'Il déclare la guerre à la France', 'Il s’installe à Prague'], answer: 0 },
     { id: 'kepler', carte: 'prague', type: 'mcq', prompt: 'Quel astronome travaille à la cour de Rodolphe II à Prague ?', options: ['Johannes Kepler', 'Galilée', 'Copernic', 'Isaac Newton'], answer: 0 },
     { id: 'mozart', carte: 'musique', type: 'mcq', prompt: 'Quel compositeur compose à Vienne une grande partie de son œuvre ?', options: ['Mozart', 'Vivaldi', 'Bach', 'Chopin'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Premier siège de Vienne', 'Défenestration de Prague', 'Bataille de Vienne', 'Avènement de Marie-Thérèse'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Premier siège de Vienne', 'Défenestration de Prague', 'Bataille de Vienne', 'Avènement de Marie-Thérèse'] },
   ],
 
   recap: [

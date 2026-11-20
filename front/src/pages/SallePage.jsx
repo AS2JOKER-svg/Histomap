@@ -628,7 +628,7 @@ function Resultat({ refCiv, result, onRetry }) {
     const titre = titresObtenus(P, av).find((t) => t.id === av.titreAffiche)?.titre
     const blob = await imageResultat({ titre: civ.label, sousTitre: tronc ? 'Épreuve réussie' : 'Annexe réussie', note: `${result.correct}/${result.total}`, etoiles: nb, niveau: n.niveau, rang: n.rang, titreAffiche: titre })
     const r = await partagerImage(blob, `histomap-${civ.id}.png`, `${civ.label} : ${result.correct}/${result.total} sur HistoMap`)
-    if (r === 'telecharge') showToast({ text: 'Image enregistrée dans vos téléchargements', tone: 'success' })
+    if (r === 'telecharge') showToast({ text: 'Image enregistrée dans tes téléchargements', tone: 'success' })
   }
   const encore = (k) => seuils[k] - result.correct
   const objectif = nb < 3 ? `Encore ${pluriel(encore(nb), 'bonne réponse', 'bonnes réponses')} pour ${'★'.repeat(nb + 1)}` : null

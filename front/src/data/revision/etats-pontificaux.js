@@ -20,7 +20,7 @@ export default {
       kicker: 'Territoire',
       title: 'Les États du pape',
       years: [800, 1500, 1815],
-      caption: 'Comparez : les États pontificaux occupent pendant plus de mille ans le centre de l’Italie, autour de Rome.',
+      caption: 'Compare : les États pontificaux occupent pendant plus de mille ans le centre de l’Italie, autour de Rome.',
     },
     {
       id: 'pape',
@@ -161,7 +161,7 @@ export default {
     { id: 'garde', carte: 'garde', type: 'mcq', prompt: 'Qui protège le pape depuis 1506 ?', options: ['La Garde suisse', 'Les Templiers', 'La Légion étrangère', 'Les mousquetaires'], answer: 0 },
     { id: '1870', carte: 'prise', type: 'mcq', prompt: 'Qui prend Rome en 1870 ?', options: ['Le royaume d’Italie', 'La France', 'L’Autriche', 'L’Espagne'], answer: 0 },
     { id: 'vatican', carte: 'vatican', type: 'mcq', prompt: 'Quel État est créé en 1929 pour le pape ?', options: ['La Cité du Vatican', 'Saint-Marin', 'Monaco', 'Malte'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Donation de Pépin', 'Couronnement de Charlemagne', 'Les papes à Avignon', 'Prise de Rome'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Donation de Pépin', 'Couronnement de Charlemagne', 'Les papes à Avignon', 'Prise de Rome'] },
   ],
 
   recap: [

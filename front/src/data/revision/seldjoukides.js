@@ -20,7 +20,7 @@ export default {
       kicker: 'Territoire',
       title: 'De l’Iran à l’Anatolie',
       years: [1100, 1279],
-      caption: 'Comparez : immense vers 1100, l’empire n’est plus, vers 1279, que le sultanat de Roum en Anatolie.',
+      caption: 'Compare : immense vers 1100, l’empire n’est plus, vers 1279, que le sultanat de Roum en Anatolie.',
     },
     {
       id: 'bagdad',
@@ -160,7 +160,7 @@ export default {
     { id: 'croisade', carte: 'croisade', type: 'tf', prompt: 'La progression des Turcs en Anatolie contribue à l’appel à la première croisade.', answer: true },
     { id: 'mongols', carte: 'fin', type: 'mcq', prompt: 'Qui bat le sultan de Roum à Köse Dağ en 1243 ?', options: ['Les Mongols', 'Les croisés', 'Les Byzantins', 'Les Arabes'], answer: 0 },
     { id: 'ottomans', carte: 'fin', type: 'mcq', prompt: 'Quel empire naîtra des principautés turques d’Anatolie ?', options: ['L’Empire ottoman', 'L’Empire perse', 'L’Empire mongol', 'L’Empire byzantin'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Victoire de Dandanakan', 'Tughril à Bagdad', 'Bataille de Manzikert', 'Défaite de Köse Dağ'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Victoire de Dandanakan', 'Tughril à Bagdad', 'Bataille de Manzikert', 'Défaite de Köse Dağ'] },
   ],
 
   recap: [

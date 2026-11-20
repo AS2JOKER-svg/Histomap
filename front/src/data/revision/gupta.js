@@ -20,7 +20,7 @@ export default {
       kicker: 'Territoire',
       title: 'L’Empire gupta',
       years: [400, 500],
-      caption: 'Comparez : vers 400, l’empire s’étend d’une mer à l’autre ; un siècle plus tard, les Huns menacent le nord-ouest.',
+      caption: 'Compare : vers 400, l’empire s’étend d’une mer à l’autre ; un siècle plus tard, les Huns menacent le nord-ouest.',
     },
     {
       id: 'samudragupta',
@@ -161,7 +161,7 @@ export default {
     { id: 'faxian', carte: 'faxian', type: 'mcq', prompt: 'D’où vient le moine Faxian, qui visite l’Inde vers 400 ?', options: ['De Chine', 'Du Japon', 'De Perse', 'De Rome'], answer: 0 },
     { id: 'huns', carte: 'huns', type: 'mcq', prompt: 'Quels envahisseurs contribuent à la chute de l’empire ?', options: ['Les Huns', 'Les Mongols', 'Les Britanniques', 'Les Vikings'], answer: 0 },
     { id: 'pilier', carte: 'pilier', type: 'tf', prompt: 'Le pilier de fer de Delhi a presque entièrement rouillé.', answer: false, explanation: 'Riche en phosphore, il a très peu rouillé en plus de 1 500 ans.' },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Chandragupta Ier, grand roi des rois', 'Conquêtes de Samudragupta', 'Traité d’Aryabhata', 'Fin de l’empire'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Chandragupta Ier, grand roi des rois', 'Conquêtes de Samudragupta', 'Traité d’Aryabhata', 'Fin de l’empire'] },
   ],
 
   recap: [

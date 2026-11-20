@@ -20,7 +20,7 @@ export default {
       kicker: 'Territoire',
       title: "De l'Atlantique au Pacifique",
       years: [1800, 1880, 1960],
-      caption: "Changez d'année : les treize États de la côte Est s'étendent jusqu'au Pacifique, puis jusqu'à l'Alaska et Hawaï.",
+      caption: "Change d'année : les treize États de la côte Est s'étendent jusqu'au Pacifique, puis jusqu'à l'Alaska et Hawaï.",
     },
     {
       id: 'ouest',
@@ -162,7 +162,7 @@ export default {
     { id: 'pearl', carte: 'superpuissance', type: 'mcq', prompt: 'Quelle attaque fait entrer les États-Unis dans la Seconde Guerre mondiale ?', options: ['Pearl Harbor', 'Hiroshima', 'Le 11 septembre', 'Le Lusitania'], answer: 0 },
     { id: 'guerre-froide', carte: 'superpuissance', type: 'mcq', prompt: 'Contre quel pays les États-Unis mènent-ils la guerre froide ?', options: ["L'URSS", 'La Chine', "L'Allemagne", 'Le Japon'], answer: 0 },
     { id: 'lune', carte: 'lune', type: 'mcq', prompt: 'Qui est le premier homme à marcher sur la Lune ?', options: ['Neil Armstrong', 'Youri Gagarine', 'Buzz Aldrin', 'John Glenn'], answer: 0 },
-    { id: 'ordre', carte: ['independance', 'secession', 'krach', 'lune'], type: 'order', prompt: "Remettez dans l'ordre.", items: ["Déclaration d'indépendance", 'Guerre de Sécession', 'Krach de Wall Street', 'Premier pas sur la Lune'] },
+    { id: 'ordre', carte: ['independance', 'secession', 'krach', 'lune'], type: 'order', prompt: "Remets dans l'ordre.", items: ["Déclaration d'indépendance", 'Guerre de Sécession', 'Krach de Wall Street', 'Premier pas sur la Lune'] },
     { id: 'mlk', carte: 'mlk', type: 'mcq', prompt: 'Qui prononce le discours « I have a dream » en 1963 ?', options: ['Martin Luther King', 'Malcolm X', 'Barack Obama', 'Rosa Parks'], answer: 0 },
     { id: 'rosa', carte: 'droits-civiques', type: 'tf', prompt: 'Rosa Parks refuse de céder sa place dans un bus de Montgomery en 1955.', answer: true },
     { id: 'vietnam', carte: 'vietnam', type: 'tf', prompt: 'Les États-Unis remportent la guerre du Viêt Nam.', answer: false, explanation: 'Ils se retirent en 1973 ; le Nord communiste prend Saïgon en 1975.' },

@@ -59,7 +59,7 @@ export default {
       kicker: 'Territoire',
       title: "De l'Angleterre à la Grande-Bretagne",
       years: [1600, 1715, 1783],
-      caption: "Comparez : le royaume des Tudor, puis la Grande-Bretagne unie à l'Écosse, qui en 1783 vient de perdre ses treize colonies d'Amérique.",
+      caption: "Compare : le royaume des Tudor, puis la Grande-Bretagne unie à l'Écosse, qui en 1783 vient de perdre ses treize colonies d'Amérique.",
     },
     {
       id: 'revolutions',
@@ -171,7 +171,7 @@ export default {
     { id: 'newton', carte: 'newton', type: 'mcq', prompt: 'Quelle loi Isaac Newton énonce-t-il ?', options: ['La gravitation universelle', 'La sélection naturelle', "L'héliocentrisme", 'La relativité'], answer: 0 },
     { id: 'mayflower', carte: 'outre-mer', type: 'mcq', prompt: 'Sur quel navire les « pères pèlerins » arrivent-ils en Amérique en 1620 ?', options: ['Le Mayflower', 'Le Beagle', 'La Santa María', 'Le Victory'], answer: 0 },
     { id: 'walpole', carte: 'walpole', type: 'tf', prompt: 'Robert Walpole est considéré comme le premier « Premier ministre » britannique.', answer: true },
-    { id: 'ordre', carte: ['reforme', 'armada', 'revolutions', 'bill-of-rights', 'union'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Acte de suprématie', "Défaite de l'Invincible Armada", 'Exécution de Charles Ier', 'Bill of Rights', "Union avec l'Écosse"] },
+    { id: 'ordre', carte: ['reforme', 'armada', 'revolutions', 'bill-of-rights', 'union'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Acte de suprématie', "Défaite de l'Invincible Armada", 'Exécution de Charles Ier', 'Bill of Rights', "Union avec l'Écosse"] },
   ],
 
   recap: [

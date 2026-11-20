@@ -163,7 +163,7 @@ export default {
     { id: 'coptes', carte: 'coptes', type: 'tf', prompt: 'Une importante minorité chrétienne, les coptes, vit en Égypte.', answer: true },
     { id: 'moubarak', carte: '2011', type: 'mcq', prompt: 'Quel président quitte le pouvoir en 2011 après d’immenses manifestations ?', options: ['Hosni Moubarak', 'Anouar el-Sadate', 'Mohamed Morsi', 'Gamal Abdel Nasser'], answer: 0 },
     { id: 'mahfouz', carte: 'mahfouz', type: 'mcq', prompt: 'Quel écrivain égyptien reçoit le prix Nobel de littérature en 1988 ?', options: ['Naguib Mahfouz', 'Oum Kalthoum', 'Taha Hussein', 'Khalil Gibran'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Méhémet Ali au pouvoir', 'Ouverture du canal de Suez', 'Révolution des officiers libres', 'Paix avec Israël'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Méhémet Ali au pouvoir', 'Ouverture du canal de Suez', 'Révolution des officiers libres', 'Paix avec Israël'] },
   ],
 
   recap: [

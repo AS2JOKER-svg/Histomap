@@ -20,7 +20,7 @@ export default {
       kicker: 'Territoire',
       title: 'L’Italie lombarde',
       years: [600, 700],
-      caption: 'Comparez : l’Italie est partagée entre les Lombards et les Byzantins.',
+      caption: 'Compare : l’Italie est partagée entre les Lombards et les Byzantins.',
     },
     {
       id: 'partage',
@@ -159,7 +159,7 @@ export default {
     { id: 'nom', carte: 'barbes', type: 'mcq', prompt: 'Selon la légende, d’où vient le nom des Longobards ?', options: ['De leurs longues barbes', 'De leurs longues épées', 'D’un fleuve', 'D’une montagne'], answer: 0 },
     { id: 'lombardie', carte: 'lombardie', type: 'mcq', prompt: 'Quelle région d’Italie porte leur nom ?', options: ['La Lombardie', 'La Toscane', 'La Sicile', 'La Vénétie'], answer: 0 },
     { id: 'couronne', carte: 'couronne', type: 'mcq', prompt: 'Quel objet célèbre est conservé à Monza ?', options: ['La couronne de fer', 'Le saint suaire', 'La Joconde', 'L’épée de Charlemagne'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Arrivée en Italie', 'Édit de Rothari', 'Prise de Ravenne', 'Chute de Pavie'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Arrivée en Italie', 'Édit de Rothari', 'Prise de Ravenne', 'Chute de Pavie'] },
   ],
 
   recap: [

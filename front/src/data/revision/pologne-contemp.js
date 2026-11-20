@@ -32,7 +32,7 @@ export default {
       kicker: 'Territoire',
       title: 'Une Pologne déplacée',
       years: [1930, 1960],
-      caption: 'Comparez : après 1945, les frontières de la Pologne sont déplacées vers l’ouest.',
+      caption: 'Compare : après 1945, les frontières de la Pologne sont déplacées vers l’ouest.',
     },
     {
       id: 'invasion',
@@ -165,7 +165,7 @@ export default {
     { id: 'pape', carte: 'pape', type: 'mcq', prompt: 'Sous quel nom le Polonais Karol Wojtyła devient-il pape en 1978 ?', options: ['Jean-Paul II', 'Benoît XVI', 'Pie XII', 'Jean XXIII'], answer: 0 },
     { id: 'curie', carte: 'renaissance', type: 'mcq', prompt: 'Quelle scientifique née à Varsovie découvre le polonium ?', options: ['Marie Curie', 'Irène Joliot-Curie', 'Rosalind Franklin', 'Lise Meitner'], answer: 0 },
     { id: 'ue', carte: 'chronologie', type: 'mcq', prompt: 'En quelle année la Pologne entre-t-elle dans l’Union européenne ?', options: ['2004', '1989', '1995', '2013'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Renaissance de la Pologne', 'Invasion allemande et soviétique', 'Naissance de Solidarność', 'Entrée dans l’Union européenne'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Renaissance de la Pologne', 'Invasion allemande et soviétique', 'Naissance de Solidarność', 'Entrée dans l’Union européenne'] },
     { id: 'controle-urss', carte: 'communisme', type: 'mcq', prompt: 'Quel pays contrôle le régime communiste installé en Pologne après 1945 ?', options: ['L’URSS', 'La Chine', 'La Yougoslavie', 'Les États-Unis'], answer: 0 },
     { id: 'otan', carte: '1989', type: 'mcq', prompt: 'En quelle année la Pologne entre-t-elle dans l’OTAN ?', options: ['1999', '1989', '2004', '1945'], answer: 0 },
   ],

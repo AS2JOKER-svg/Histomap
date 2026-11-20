@@ -1,7 +1,7 @@
 {
   "name": "HistoMap — l'histoire du monde",
   "short_name": "HistoMap",
-  "description": "Frise chronologique, carte du monde et révisions interactives pour apprendre l'histoire des civilisations.",
+  "description": "Une aventure à travers l'histoire des civilisations : salles à découvrir, épreuves, frise chronologique et carte du monde.",
   "lang": "fr",
   "dir": "ltr",
   "id": "./",
@@ -19,7 +19,7 @@
     { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
   ],
   "shortcuts": [
-    { "name": "Réviser", "short_name": "Réviser", "url": "./#/reviser", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Ma salle dans l'Aventure", "short_name": "Aventure", "url": "./#/", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
     { "name": "Frise chronologique", "short_name": "Frise", "url": "./#/frise", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
     { "name": "Carte du monde", "short_name": "Carte", "url": "./#/carte", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
   ]

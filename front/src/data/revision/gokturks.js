@@ -166,7 +166,7 @@ export default {
     { id: 'tonyukuk', carte: 'tonyukuk', type: 'mcq', prompt: 'Que conseille Tonyukuk à Bilge Khagan ?', options: ['Ne pas bâtir de villes ni de temples', 'Conquérir la Chine', 'Se convertir au christianisme', 'Construire une flotte'], answer: 0 },
     { id: 'fin', carte: 'fin', type: 'mcq', prompt: 'Quel peuple renverse les Göktürks en 744 ?', options: ['Les Ouïghours', 'Les Mongols', 'Les Huns', 'Les Arabes'], answer: 0 },
     { id: 'division', carte: 'carte', type: 'tf', prompt: 'L’empire turc est resté uni pendant toute son histoire.', answer: false, explanation: 'Vers 600, il se divise en Turcs de l’Est et Turcs de l’Ouest.' },
-    { id: 'ordre', carte: ['fondation', 'chronologie', 'orkhon'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Bumin devient khagan', 'Ambassade turque à Constantinople', 'Soumission aux Tang', 'Inscriptions de l’Orkhon'] },
+    { id: 'ordre', carte: ['fondation', 'chronologie', 'orkhon'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Bumin devient khagan', 'Ambassade turque à Constantinople', 'Soumission aux Tang', 'Inscriptions de l’Orkhon'] },
   ],
 
   recap: [

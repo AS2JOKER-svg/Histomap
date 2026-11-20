@@ -20,7 +20,7 @@ export default {
       kicker: 'Territoire',
       title: 'Le royaume de Pagan',
       years: [1000, 1200],
-      caption: 'Comparez : de la région de Pagan, le royaume s’étend sur toute la vallée de l’Irrawaddy.',
+      caption: 'Compare : de la région de Pagan, le royaume s’étend sur toute la vallée de l’Irrawaddy.',
     },
     {
       id: 'anawrahta',
@@ -163,7 +163,7 @@ export default {
     { id: 'mongols', carte: 'mongols', type: 'mcq', prompt: 'Quels envahisseurs provoquent la chute de Pagan ?', options: ['Les Mongols', 'Les Britanniques', 'Les Khmers', 'Les Portugais'], answer: 0 },
     { id: 'unesco', carte: 'aujourdhui', type: 'tf', prompt: 'Le site de Bagan est inscrit au patrimoine mondial de l’UNESCO.', answer: true },
     { id: 'dons', carte: 'monasteres', type: 'mcq', prompt: 'Qu’est-ce qui appauvrit le trésor royal à la longue ?', options: ['Les dons de terres aux monastères', 'Le commerce avec la Chine', 'Les tremblements de terre', 'L’invention de la monnaie'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Fondation de Pagan', 'Anawrahta roi', 'Temple d’Ananda', 'Invasion mongole'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Fondation de Pagan', 'Anawrahta roi', 'Temple d’Ananda', 'Invasion mongole'] },
   ],
 
   recap: [

@@ -19,7 +19,7 @@ export default {
       kicker: 'Territoire',
       title: 'Le royaume de Hongrie',
       years: [1100, 1500],
-      caption: 'Comparez : le royaume occupe tout le bassin des Carpates, bien au-delà de la Hongrie actuelle.',
+      caption: 'Compare : le royaume occupe tout le bassin des Carpates, bien au-delà de la Hongrie actuelle.',
     },
     {
       id: 'etienne',
@@ -161,7 +161,7 @@ export default {
     { id: 'mohacs', carte: 'mohacs', type: 'mcq', prompt: 'Quelle bataille de 1526 brise le royaume de Hongrie ?', options: ['Mohács', 'Lépante', 'Vienne', 'Kosovo'], answer: 0 },
     { id: 'soliman', carte: 'mohacs', type: 'mcq', prompt: 'Quel sultan ottoman remporte la bataille de Mohács ?', options: ['Soliman le Magnifique', 'Mehmed II', 'Murad Ier', 'Bayezid Ier'], answer: 0 },
     { id: 'langue', carte: 'langue', type: 'tf', prompt: 'Le hongrois est une langue proche du finnois.', answer: true },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Couronnement d’Étienne Ier', 'Bulle d’or', 'Invasion mongole', 'Bataille de Mohács'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Couronnement d’Étienne Ier', 'Bulle d’or', 'Invasion mongole', 'Bataille de Mohács'] },
   ],
 
   recap: [

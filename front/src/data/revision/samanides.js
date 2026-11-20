@@ -156,7 +156,7 @@ export default {
     { id: 'fin', carte: 'fin', type: 'mcq', prompt: 'Qui prend Boukhara en 999 ?', options: ['Les Karakhanides', 'Les Mongols', 'Les Byzantins', 'Les Arabes'], answer: 0 },
     { id: 'somoni', carte: 'somoni', type: 'mcq', prompt: 'Quel pays a nommé sa monnaie d’après Ismaïl Samani ?', options: ['Le Tadjikistan', 'L’Iran', 'La Turquie', 'L’Égypte'], answer: 0 },
     { id: 'mausolee', carte: 'mausolee', type: 'tf', prompt: 'Le mausolée des Samanides est construit en marbre blanc.', answer: false, explanation: 'Il est en brique, avec un décor de briques en relief.' },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Gouverneurs au nom du calife', 'Capitale à Boukhara', 'Ferdowsi commence le Shahnameh', 'Chute de Boukhara'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Gouverneurs au nom du calife', 'Capitale à Boukhara', 'Ferdowsi commence le Shahnameh', 'Chute de Boukhara'] },
   ],
 
   recap: [

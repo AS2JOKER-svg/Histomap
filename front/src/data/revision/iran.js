@@ -20,7 +20,7 @@ export default {
       kicker: 'Territoire',
       title: 'Une Perse qui rétrécit',
       years: [1800, 1880, 2000],
-      caption: "Comparez : après deux guerres perdues contre la Russie (traités de 1813 et 1828), la Perse perd ses territoires du Caucase, qui correspondent à l'Arménie et à l'Azerbaïdjan actuels.",
+      caption: "Compare : après deux guerres perdues contre la Russie (traités de 1813 et 1828), la Perse perd ses territoires du Caucase, qui correspondent à l'Arménie et à l'Azerbaïdjan actuels.",
     },
     {
       id: 'grand-jeu',
@@ -160,7 +160,7 @@ export default {
     { id: 'chiisme', carte: 'regime', type: 'tf', prompt: "La République islamique d'Iran s'appuie sur l'islam chiite.", answer: true },
     { id: 'amini', carte: 'femmes', type: 'mcq', prompt: 'Quel slogan accompagne les manifestations de 2022 ?', options: ['« Femme, vie, liberté »', '« Liberté, égalité, fraternité »', '« Du pain et des roses »', '« Paix, terre et pain »'], answer: 0 },
     { id: 'persepolis', carte: 'culture', type: 'mcq', prompt: 'Qui a écrit la bande dessinée « Persepolis » ?', options: ['Marjane Satrapi', 'Shirin Ebadi', 'Abbas Kiarostami', 'Narges Mohammadi'], answer: 0 },
-    { id: 'ordre', carte: ['constitution', 'grand-jeu', 'mossadegh', 'revolution', 'iran-irak'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Révolution constitutionnelle', 'Reza Chah devient chah', 'Nationalisation du pétrole', 'Révolution islamique', 'Fin de la guerre Iran-Irak'] },
+    { id: 'ordre', carte: ['constitution', 'grand-jeu', 'mossadegh', 'revolution', 'iran-irak'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Révolution constitutionnelle', 'Reza Chah devient chah', 'Nationalisation du pétrole', 'Révolution islamique', 'Fin de la guerre Iran-Irak'] },
   ],
 
   recap: [

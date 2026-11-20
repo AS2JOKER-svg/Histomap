@@ -161,7 +161,7 @@ export default {
     { id: 'renversement', carte: 'renversement', type: 'mcq', prompt: 'Qui renverse la reine en 1893 ?', options: ['Des hommes d’affaires soutenus par des Marines américains', 'L’armée japonaise', 'Les Britanniques', 'Le peuple hawaïen'], answer: 0 },
     { id: 'annexion', carte: 'renversement', type: 'mcq', prompt: 'Quel pays annexe Hawaï en 1898 ?', options: ['Les États-Unis', 'Le Japon', 'Le Royaume-Uni', 'La France'], answer: 0 },
     { id: 'excuses', carte: 'excuses', type: 'tf', prompt: 'En 1993, le Congrès américain présente des excuses officielles pour le renversement de la reine.', answer: true },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Bataille de Nuʻuanu', 'Abolition du kapu', 'Première constitution', 'Renversement de la reine'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Bataille de Nuʻuanu', 'Abolition du kapu', 'Première constitution', 'Renversement de la reine'] },
   ],
 
   recap: [

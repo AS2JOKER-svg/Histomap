@@ -155,7 +155,7 @@ export default {
     { id: 'ecriture', carte: 'gueze', type: 'tf', prompt: "L'écriture guèze n'est plus utilisée aujourd'hui.", answer: false, explanation: "Adaptée, elle sert encore à écrire l'amharique et le tigrigna." },
     { id: 'meroe', carte: 'nubie', type: 'mcq', prompt: "Quel royaume du Nil disparaît vers 350, à l'époque d'Ézana ?", options: ['Méroé (Koush)', 'Carthage', 'Le Ghana', 'Pount'], answer: 0 },
     { id: 'obelisque', carte: 'obelisque', type: 'mcq', prompt: "Dans quelle ville une stèle d'Aksoum a-t-elle été emportée en 1937 ?", options: ['Rome', 'Paris', 'Londres', 'Le Caire'], answer: 0 },
-    { id: 'ordre', carte: ['adoulis', 'monnaie', 'ezana', 'obelisque'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Rédaction du Périple de la mer Érythrée (Ier s.)', "Premières pièces d'Aksoum (vers 270)", "Conversion d'Ézana (IVe s.)", "Retour de l'obélisque à Aksoum (2005)"] },
+    { id: 'ordre', carte: ['adoulis', 'monnaie', 'ezana', 'obelisque'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Rédaction du Périple de la mer Érythrée (Ier s.)', "Premières pièces d'Aksoum (vers 270)", "Conversion d'Ézana (IVe s.)", "Retour de l'obélisque à Aksoum (2005)"] },
   ],
 
   recap: [

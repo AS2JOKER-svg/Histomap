@@ -160,7 +160,7 @@ export default {
     { id: 'retour', carte: 'mengo', type: 'mcq', prompt: 'En quelle année le royaume du Buganda est-il rétabli ?', options: ['1993', '1900', '1966', '1856'], answer: 0 },
     { id: 'ecorce', carte: 'ecorce', type: 'mcq', prompt: 'Avec quoi les Baganda fabriquent-ils un tissu traditionnel ?', options: ['De l’écorce de figuier', 'De la soie', 'Du coton', 'De la laine de mouton'], answer: 0 },
     { id: 'matoke', carte: 'matoke', type: 'mcq', prompt: 'Quel est l’aliment de base des Baganda ?', options: ['La banane plantain', 'Le riz', 'Le blé', 'Le maïs'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Avènement de Mutesa Ier', 'Martyrs de Namugongo', 'Protectorat britannique', 'Crise de Mengo'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Avènement de Mutesa Ier', 'Martyrs de Namugongo', 'Protectorat britannique', 'Crise de Mengo'] },
   ],
 
   recap: [

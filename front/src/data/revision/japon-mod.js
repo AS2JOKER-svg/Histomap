@@ -165,7 +165,7 @@ export default {
     { id: 'vague', carte: 'hokusai', type: 'mcq', prompt: 'Qui a créé La Grande Vague de Kanagawa ?', options: ['Hokusai', 'Bashō', 'Hiroshige', 'Musashi'], answer: 0 },
     { id: 'haiku', carte: 'basho', type: 'mcq', prompt: 'Quel poète est le grand maître du haïku ?', options: ['Matsuo Bashō', 'Hokusai', 'Tokugawa Ieyasu', 'Sugita Genpaku'], answer: 0 },
     { id: 'perry', carte: 'fin', type: 'mcq', prompt: 'Quel pays force le Japon à s’ouvrir avec les « navires noirs » de 1853 ?', options: ['Les États-Unis', 'La Russie', 'La France', 'Les Pays-Bas'], answer: 0 },
-    { id: 'ordre', carte: ['sekigahara', 'shimabara', 'fin'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Bataille de Sekigahara', 'Révolte de Shimabara', 'Arrivée des navires noirs de Perry', 'Restauration Meiji'] },
+    { id: 'ordre', carte: ['sekigahara', 'shimabara', 'fin'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Bataille de Sekigahara', 'Révolte de Shimabara', 'Arrivée des navires noirs de Perry', 'Restauration Meiji'] },
   ],
 
   recap: [

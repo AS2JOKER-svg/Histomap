@@ -154,7 +154,7 @@ export default {
     { id: 'empereur', carte: 'shogun', type: 'tf', prompt: "Avec le shogunat, l'empereur disparaît.", answer: false, explanation: "Il reste à Kyoto avec un rôle sacré, mais sans pouvoir réel." },
     { id: 'kubilai', carte: 'mongols', type: 'mcq', prompt: 'Quel souverain tente d’envahir le Japon en 1274 et 1281 ?', options: ['Kubilai Khan', 'Gengis Khan', 'Tamerlan', 'Soliman'], answer: 0 },
     { id: 'kamikaze', carte: 'kamikaze', type: 'mcq', prompt: 'Que signifie « kamikaze » ?', options: ['Vent divin', 'Guerrier fidèle', 'Soleil levant', 'Sabre sacré'], answer: 0 },
-    { id: 'ordre', carte: ['heian', 'genpei', 'mongols', 'onin'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Fondation de Heian-kyō', 'Guerre de Genpei', 'Invasions mongoles', "Guerre d'Ōnin"] },
+    { id: 'ordre', carte: ['heian', 'genpei', 'mongols', 'onin'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Fondation de Heian-kyō', 'Guerre de Genpei', 'Invasions mongoles', "Guerre d'Ōnin"] },
     { id: 'kami', carte: 'zen', type: 'mcq', prompt: 'Comment appelle-t-on les esprits de la nature honorés par le shintō ?', options: ['Les kami', 'Les daimyōs', 'Les bodhisattvas', 'Les kana'], answer: 0 },
     { id: 'zen', carte: 'zen', type: 'mcq', prompt: 'Quelle forme de bouddhisme séduit les samouraïs ?', options: ['Le zen', 'Le tantrisme', 'Le shintō', 'Le confucianisme'], answer: 0 },
     { id: 'pavillon', carte: 'muromachi', type: 'mcq', prompt: "Quel shōgun fait construire le Pavillon d'or ?", options: ['Ashikaga Yoshimitsu', 'Minamoto no Yoritomo', 'Hōjō Tokimune', 'Oda Nobunaga'], answer: 0 },

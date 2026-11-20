@@ -160,7 +160,7 @@ export default {
     { id: 'smederevo', carte: 'smederevo', type: 'mcq', prompt: 'Quelle est la dernière capitale de la Serbie médiévale ?', options: ['Smederevo', 'Belgrade', 'Skopje', 'Ras'], answer: 0 },
     { id: 'raguse', carte: 'raguse', type: 'mcq', prompt: 'Avec quelle république la Serbie commerce-t-elle beaucoup ?', options: ['Raguse (Dubrovnik)', 'Florence', 'Gênes', 'Novgorod'], answer: 0 },
     { id: 'vidovdan', carte: 'vidovdan', type: 'mcq', prompt: 'Comment s’appelle le jour de commémoration de la bataille de Kosovo ?', options: ['Vidovdan', 'Noël', 'Pâques', 'Saint-Sava'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Stefan Nemanja', 'Église serbe autonome', 'Dušan empereur', 'Chute de Smederevo'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Stefan Nemanja', 'Église serbe autonome', 'Dušan empereur', 'Chute de Smederevo'] },
     { id: 'studenica', carte: 'monasteres', type: 'mcq', prompt: 'Lequel de ces monastères a été bâti par les rois serbes ?', options: ['Studenica', 'Cluny', 'Le Mont-Saint-Michel', 'Monte Cassino'], answer: 0 },
     { id: 'smederevo-danube', carte: 'smederevo', type: 'mcq', prompt: 'Au bord de quel fleuve se trouve la dernière capitale de la Serbie médiévale ?', options: ['Le Danube', 'Le Rhin', 'La Volga', 'Le Dniepr'], answer: 0 },
   ],

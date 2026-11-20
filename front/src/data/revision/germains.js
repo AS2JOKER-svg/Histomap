@@ -19,7 +19,7 @@ export default {
       kicker: 'Territoire',
       title: 'Les Germains',
       years: [-400, 400],
-      caption: 'Comparez : vers 400, les peuples germaniques sont aux portes de l’Empire romain, et certains déjà à l’intérieur.',
+      caption: 'Compare : vers 400, les peuples germaniques sont aux portes de l’Empire romain, et certains déjà à l’intérieur.',
     },
     {
       id: 'cimbres',
@@ -158,7 +158,7 @@ export default {
     { id: 'runes', carte: 'runes', type: 'mcq', prompt: 'Comment s’appelle l’écriture des Germains ?', options: ['Les runes', 'Les hiéroglyphes', 'Le cunéiforme', 'Les idéogrammes'], answer: 0 },
     { id: 'langues', carte: 'langues', type: 'mcq', prompt: 'Laquelle de ces langues est germanique ?', options: ['L’anglais', 'L’italien', 'Le grec', 'Le basque'], answer: 0 },
     { id: 'vandalisme', carte: 'vandales', type: 'tf', prompt: 'Le mot « vandalisme » vient du peuple des Vandales.', answer: true },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Bataille d’Arausio', 'Bataille de Teutobourg', 'Bataille d’Andrinople', 'Fin de l’Empire d’Occident'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Bataille d’Arausio', 'Bataille de Teutobourg', 'Bataille d’Andrinople', 'Fin de l’Empire d’Occident'] },
   ],
 
   recap: [

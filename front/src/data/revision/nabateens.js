@@ -162,7 +162,7 @@ export default {
     { id: 'alphabet', carte: 'alphabet', type: 'mcq', prompt: 'Quel alphabet descend de l’écriture des Nabatéens ?', options: ['L’alphabet arabe', 'L’alphabet grec', 'L’alphabet latin', 'Le cyrillique'], answer: 0 },
     { id: 'hegra', carte: 'hegra', type: 'mcq', prompt: 'Dans quel pays se trouve la cité nabatéenne de Hégra ?', options: ['L’Arabie saoudite', 'La Turquie', 'Le Maroc', 'L’Inde'], answer: 0 },
     { id: 'burckhardt', carte: 'burckhardt', type: 'mcq', prompt: 'En quelle année Jean Louis Burckhardt révèle-t-il Pétra aux Européens ?', options: ['1812', '1492', '1066', '1969'], answer: 0 },
-    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Victoire sur Antigone le Borgne', 'Premier roi connu', 'Avènement d’Arétas IV', 'Annexion par Rome'] },
+    { id: 'ordre', carte: 'chronologie', type: 'order', prompt: "Remets dans l'ordre.", items: ['Victoire sur Antigone le Borgne', 'Premier roi connu', 'Avènement d’Arétas IV', 'Annexion par Rome'] },
   ],
 
   recap: [

@@ -153,7 +153,7 @@ export default {
     { id: 'empereur', carte: 'napoleon', type: 'mcq', prompt: 'En quelle année Napoléon devient-il empereur ?', options: ['1804', '1799', '1815', '1789'], answer: 0 },
     { id: 'code-civil', carte: 'napoleon', type: 'mcq', prompt: 'Quelle grande œuvre juridique Napoléon fait-il rédiger ?', options: ['Le Code civil', 'La Déclaration des droits de l’homme', 'La Constitution de 1958', 'L’édit de Nantes'], answer: 0 },
     { id: 'waterloo', carte: 'napoleon', type: 'mcq', prompt: 'Où Napoléon est-il définitivement vaincu en 1815 ?', options: ['Waterloo', 'Austerlitz', 'Iéna', 'Trafalgar'], answer: 0 },
-    { id: 'regimes-ordre', carte: 'regimes', type: 'order', prompt: "Remettez ces régimes dans l'ordre.", items: ['Ire République', 'Premier Empire', 'Second Empire', 'IIIe République', 'Ve République'] },
+    { id: 'regimes-ordre', carte: 'regimes', type: 'order', prompt: "Remets ces régimes dans l'ordre.", items: ['Ire République', 'Premier Empire', 'Second Empire', 'IIIe République', 'Ve République'] },
     { id: 'esclavage', carte: 'regimes', type: 'tf', prompt: "L'esclavage est aboli dans les colonies françaises en 1848.", answer: true },
     { id: 'ferry', carte: 'ecole', type: 'mcq', prompt: "Qui rend l'école primaire gratuite, obligatoire et laïque ?", options: ['Jules Ferry', 'Victor Hugo', 'Napoléon III', 'Jean Jaurès'], answer: 0 },
     { id: '1905', carte: 'ecole', type: 'mcq', prompt: 'Que décide la loi de 1905 ?', options: ["La séparation des Églises et de l'État", 'Le droit de vote des femmes', "L'école obligatoire", 'La fin de l’esclavage'], answer: 0 },

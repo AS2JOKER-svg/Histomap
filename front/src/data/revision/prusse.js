@@ -20,7 +20,7 @@ export default {
       kicker: 'Territoire',
       title: 'Un royaume en morceaux',
       years: [1715, 1783],
-      caption: "Comparez : des terres dispersées du Rhin à la Baltique, puis un royaume agrandi de la Silésie et d'une partie de la Pologne.",
+      caption: "Compare : des terres dispersées du Rhin à la Baltique, puis un royaume agrandi de la Silésie et d'une partie de la Pologne.",
     },
     {
       id: 'roi-sergent',
@@ -161,7 +161,7 @@ export default {
     { id: 'pologne', carte: 'etapes', type: 'mcq', prompt: 'Avec qui la Prusse partage-t-elle la Pologne en 1772 ?', options: ["La Russie et l'Autriche", 'La France et la Suède', "L'Angleterre et la Russie", "La Suède et l'Autriche"], answer: 0 },
     { id: 'kant', carte: 'kant', type: 'mcq', prompt: 'Quel philosophe vit toute sa vie à Königsberg ?', options: ['Emmanuel Kant', 'Karl Marx', 'Voltaire', 'John Locke'], answer: 0 },
     { id: 'patate', carte: 'pomme-de-terre', type: 'mcq', prompt: 'Quelle culture Frédéric II encourage-t-il pour éviter les famines ?', options: ['La pomme de terre', 'Le maïs', 'Le riz', 'Le café'], answer: 0 },
-    { id: 'ordre', carte: 'etapes', type: 'order', prompt: "Remettez dans l'ordre.", items: ['Couronnement de Frédéric Ier', 'Invasion de la Silésie', 'Paix d’Hubertusbourg', 'Premier partage de la Pologne'] },
+    { id: 'ordre', carte: 'etapes', type: 'order', prompt: "Remets dans l'ordre.", items: ['Couronnement de Frédéric Ier', 'Invasion de la Silésie', 'Paix d’Hubertusbourg', 'Premier partage de la Pologne'] },
     { id: 'armee-etat', carte: 'armee', type: 'mcq', prompt: 'Selon une formule attribuée à Mirabeau, qu’est-ce que la Prusse ?', options: ['Une armée qui possède un État', 'Un État sans armée', 'Une république de marchands', 'Un royaume de philosophes'], answer: 0 },
   ],
 

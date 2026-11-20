@@ -29,7 +29,7 @@ export default {
       kicker: 'Territoire',
       title: 'Cités, royaumes et empires',
       years: [-3000, -1500, -700],
-      caption: "Changez d'année : des cités-États sumériennes aux grands royaumes de Babylone et d'Assyrie.",
+      caption: "Change d'année : des cités-États sumériennes aux grands royaumes de Babylone et d'Assyrie.",
     },
     {
       id: 'etapes',
@@ -149,7 +149,7 @@ export default {
     { id: 'gilgamesh', carte: 'gilgamesh', type: 'mcq', prompt: 'Que cherche Gilgamesh dans son épopée ?', options: ["L'immortalité", 'Un trésor', 'Une nouvelle terre', 'Sa mère disparue'], answer: 0 },
     { id: 'base', carte: 'base-60', type: 'mcq', prompt: 'En quelle base comptent les Mésopotamiens ?', options: ['60', '10', '2', '20'], answer: 0, explanation: 'D’où nos 60 minutes et nos 360 degrés.' },
     { id: 'ziggourat', carte: 'ziggourat', type: 'mcq', prompt: 'Comment appelle-t-on le temple à étages mésopotamien ?', options: ['Une ziggourat', 'Une pyramide', 'Un mastaba', 'Un stupa'], answer: 0 },
-    { id: 'ordre', carte: ['etapes', 'hammurabi', 'chute'], type: 'order', prompt: "Remettez dans l'ordre.", items: ['Écriture à Uruk', "Empire d'Akkad", 'Code de Hammurabi', 'Prise de Babylone par Cyrus'] },
+    { id: 'ordre', carte: ['etapes', 'hammurabi', 'chute'], type: 'order', prompt: "Remets dans l'ordre.", items: ['Écriture à Uruk', "Empire d'Akkad", 'Code de Hammurabi', 'Prise de Babylone par Cyrus'] },
     { id: 'ishtar', carte: 'babylone', type: 'mcq', prompt: 'Quelle porte de Babylone est couverte de briques bleues ?', options: ["La porte d'Ishtar", 'La porte des Lions', 'La porte de Damas', 'La porte de Brandebourg'], answer: 0 },
     { id: 'assurbanipal', carte: 'assyrie', type: 'mcq', prompt: 'Quel roi assyrien rassemble une immense bibliothèque à Ninive ?', options: ['Assurbanipal', 'Hammurabi', 'Sargon', 'Darius'], answer: 0 },
     { id: 'chute', carte: 'etapes', type: 'mcq', prompt: 'Qui prend Babylone en 539 av. J.-C. ?', options: ['Cyrus II de Perse', 'Alexandre le Grand', 'Ramsès II', 'Jules César'], answer: 0 },
